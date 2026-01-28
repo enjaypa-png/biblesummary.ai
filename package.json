@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed:books": "tsx scripts/seed-books.ts"
+    "seed:books": "tsx scripts/seed-books.ts",
+    "seed:verses": "tsx scripts/seed-verses.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.7",
