@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed:books": "tsx scripts/seed-books.ts"
   },
   "dependencies": {
     "next": "^14.2.18",
@@ -23,6 +24,7 @@
     "eslint-config-next": "^14.2.18",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.7.0",
     "typescript": "^5"
   }
 }
