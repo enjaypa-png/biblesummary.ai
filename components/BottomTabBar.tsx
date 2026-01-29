@@ -54,6 +54,11 @@ const tabs = [
 export default function BottomTabBar() {
   const pathname = usePathname();
 
+  // Hide tab bar during intro experience
+  if (pathname.startsWith("/intro")) {
+    return null;
+  }
+
   function isActive(href: string) {
     if (href === "/bible") {
       return pathname === "/bible" || pathname.startsWith("/bible/");

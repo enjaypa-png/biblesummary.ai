@@ -1,9 +1,20 @@
-import { redirect } from "next/navigation";
+"use client";
 
-/**
- * Root page redirects to Bible reading view.
- * The app is a reading tool first - users should land on the Bible, not a marketing page.
- */
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { hasSeenIntro } from "@/lib/intro-state";
+
 export default function Home() {
-  redirect("/bible");
+  const router = useRouter();
+
+  useEffect(() => {
+    if (hasSeenIntro()) {
+      router.replace("/bible");
+    } else {
+      router.replace("/intro");
+    }
+  }, [router]);
+
+  // Brief blank screen while checking
+  return <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }} />;
 }
