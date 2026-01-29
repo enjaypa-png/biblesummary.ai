@@ -2,26 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;500&display=swap');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FFFFFF;
+  --foreground: #1A1A1A;
+  --secondary: #6B7280;
+  --accent: #3B82F6;
+  --border: #E5E7EB;
+  --highlight: #FEF3C7;
+  --card: #FFFFFF;
+  --tab-bar: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #121212;
+    --foreground: #E0E0E0;
+    --secondary: #9CA3AF;
+    --accent: #3B82F6;
+    --border: #374151;
+    --highlight: #4A4A3A;
+    --card: #1E1E1E;
+    --tab-bar: #1A1A1A;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  padding-bottom: 80px; /* Space for bottom tab bar */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Bible text uses serif font */
+.bible-text {
+  font-family: 'Source Serif 4', 'Georgia', serif;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* Verse numbers */
+.verse-number {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--secondary);
+  vertical-align: super;
+  margin-right: 4px;
+  user-select: none;
 }
