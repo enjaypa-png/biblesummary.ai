@@ -5,26 +5,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;500&display=swap');
 
 :root {
-  --background: #FFFFFF;
-  --foreground: #1A1A1A;
-  --secondary: #6B7280;
-  --accent: #3B82F6;
-  --border: #E5E7EB;
+  --background: #F2F2F7;
+  --foreground: #000000;
+  --secondary: #8E8E93;
+  --accent: #007AFF;
+  --border: #C6C6C8;
   --highlight: #FEF3C7;
   --card: #FFFFFF;
-  --tab-bar: #FFFFFF;
+  --tab-bar: #F8F8F8;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #121212;
-    --foreground: #E0E0E0;
-    --secondary: #9CA3AF;
-    --accent: #3B82F6;
-    --border: #374151;
+    --background: #000000;
+    --foreground: #FFFFFF;
+    --secondary: #8E8E93;
+    --accent: #0A84FF;
+    --border: #38383A;
     --highlight: #4A4A3A;
-    --card: #1E1E1E;
-    --tab-bar: #1A1A1A;
+    --card: #1C1C1E;
+    --tab-bar: #1C1C1E;
   }
 }
 

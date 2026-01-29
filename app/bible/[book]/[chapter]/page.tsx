@@ -63,13 +63,13 @@ export default async function BibleChapterPage({ params }: PageProps) {
       : params.book.charAt(0).toUpperCase() + params.book.slice(1);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
       {/* Header - current location, tappable */}
       <header
-        className="sticky top-0 z-40 border-b px-4 py-3"
+        className="sticky top-0 z-40 px-4 py-3 backdrop-blur-md"
         style={{
-          backgroundColor: "var(--background)",
-          borderColor: "var(--border)",
+          backgroundColor: "rgba(242,242,247,0.85)",
+          borderBottom: "0.5px solid var(--border)",
         }}
       >
         <div className="flex items-center justify-between max-w-2xl mx-auto">
@@ -92,7 +92,7 @@ export default async function BibleChapterPage({ params }: PageProps) {
         </div>
       </header>
 
-      <main className="max-w-2xl mx-auto px-5 py-8">
+      <main className="max-w-2xl mx-auto px-4 py-4">
         {/* Error state */}
         {error ? (
           <div
@@ -117,7 +117,7 @@ export default async function BibleChapterPage({ params }: PageProps) {
           </div>
         ) : (
           /* Bible text */
-          <div className="bible-text" style={{ color: "var(--foreground)" }}>
+          <div className="bible-text rounded-xl p-5" style={{ color: "var(--foreground)", backgroundColor: "var(--card)" }}>
             {verses.map((verse: Verse) => (
               <span key={verse.id}>
                 <sup className="verse-number">{verse.verse}</sup>
