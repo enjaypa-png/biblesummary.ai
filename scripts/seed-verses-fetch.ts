@@ -50,6 +50,8 @@ async function supabaseRest(endpoint: string, method: string, body?: any) {
       'apikey': SERVICE_KEY!,
       'Authorization': `Bearer ${SERVICE_KEY}`,
       'Content-Type': 'application/json',
+      'Accept-Profile': 'public',
+      'Content-Profile': 'public',
       'Prefer': method === 'POST' ? 'return=minimal' : 'return=representation',
     },
     body: body ? JSON.stringify(body) : undefined,
