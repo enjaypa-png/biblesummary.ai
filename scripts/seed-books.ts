@@ -32,8 +32,7 @@ if (!supabaseUrl || !supabaseServiceKey) {
 // Create Supabase client with service role key
 // Service role bypasses RLS, allowing us to insert data
 const supabase = createClient(supabaseUrl, supabaseServiceKey, {
-  db: { schema: 'public' },
-  auth: { persistSession: false }
+  auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
 });
 
 interface Book {
