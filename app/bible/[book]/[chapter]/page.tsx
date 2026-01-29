@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Link from "next/link";
+import { createClient } from '@supabase/supabase-js';
 
 /**
  * Dynamic route for Bible chapters
@@ -13,15 +14,61 @@ interface PageProps {
   };
 }
 
-export default function BibleChapterPage({ params }: PageProps) {
-  // Capitalize book name for display
-  const bookName = params.book.charAt(0).toUpperCase() + params.book.slice(1);
-  const chapterNumber = params.chapter;
+interface Verse {
+  id: string;
+  verse: number;
+  text: string;
+}
 
-  // Parse chapter number for navigation
+interface Book {
+  id: string;
+  name: string;
+  slug: string;
+  total_chapters: number;
+}
+
+async function getBibleData(bookSlug: string, chapterNum: number) {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+  const supabase = createClient(supabaseUrl, supabaseKey);
+
+  // Get book information
+  const { data: book, error: bookError } = await supabase
+    .from('books')
+    .select('id, name, slug, total_chapters')
+    .eq('slug', bookSlug)
+    .single();
+
+  if (bookError || !book) {
+    return { book: null, verses: [], error: 'Book not found' };
+  }
+
+  // Get verses for this chapter
+  const { data: verses, error: versesError } = await supabase
+    .from('verses')
+    .select('id, verse, text')
+    .eq('book_id', book.id)
+    .eq('chapter', chapterNum)
+    .order('verse');
+
+  if (versesError) {
+    return { book, verses: [], error: 'Verses not found' };
+  }
+
+  return { book, verses: verses || [], error: null };
+}
+
+export default async function BibleChapterPage({ params }: PageProps) {
+  const chapterNumber = params.chapter;
   const currentChapter = parseInt(chapterNumber);
+
+  // Fetch Bible data
+  const { book, verses, error } = await getBibleData(params.book, currentChapter);
+
+  // Calculate navigation
   const prevChapter = currentChapter > 1 ? currentChapter - 1 : null;
-  const nextChapter = currentChapter + 1; // We'll add max chapter validation later
+  const nextChapter = (book && currentChapter < book.total_chapters) ? currentChapter + 1 : null;
+  const bookName = book ? book.name : params.book.charAt(0).toUpperCase() + params.book.slice(1);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -33,28 +80,45 @@ export default function BibleChapterPage({ params }: PageProps) {
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-2">
             {bookName} {chapterNumber}
           </h1>
-          <p className="text-gray-600 dark:text-gray-400">
-            Bible text will be loaded here from the database
-          </p>
+          {book && (
+            <p className="text-gray-600 dark:text-gray-400">
+              King James Version
+            </p>
+          )}
         </div>
 
-        {/* Placeholder Content */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-6 mb-8">
-          <div className="prose dark:prose-invert max-w-none">
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              <span className="font-semibold text-gray-500 dark:text-gray-400 mr-2">1</span>
-              In the beginning... (Placeholder verse)
+        {/* Bible Text */}
+        {error ? (
+          <div className="bg-yellow-50 dark:bg-yellow-900/20 rounded-lg border border-yellow-200 dark:border-yellow-800 p-6 mb-8">
+            <p className="text-gray-700 dark:text-gray-300">
+              {error === 'Book not found'
+                ? `The book "${params.book}" was not found. Please check the URL.`
+                : 'No verses found for this chapter. The Bible data may not be loaded yet.'}
             </p>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              <span className="font-semibold text-gray-500 dark:text-gray-400 mr-2">2</span>
-              This is where the actual Bible text will appear...
-            </p>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              <span className="font-semibold text-gray-500 dark:text-gray-400 mr-2">3</span>
-              We&apos;ll add real Bible data in the next steps.
+            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">
+              Make sure you have run the seed scripts to load the Bible data.
             </p>
           </div>
-        </div>
+        ) : verses.length > 0 ? (
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-6 mb-8">
+            <div className="prose dark:prose-invert max-w-none">
+              {verses.map((verse: Verse) => (
+                <p key={verse.id} className="text-gray-700 dark:text-gray-300 mb-4">
+                  <span className="font-semibold text-gray-500 dark:text-gray-400 mr-2">
+                    {verse.verse}
+                  </span>
+                  {verse.text}
+                </p>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800 p-6 mb-8">
+            <p className="text-gray-700 dark:text-gray-300">
+              Loading Bible text... If this message persists, you may need to run the seed scripts to load the Bible data.
+            </p>
+          </div>
+        )}
 
         {/* AI Summary Placeholder */}
         <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800 p-6 mb-8">
@@ -79,12 +143,16 @@ export default function BibleChapterPage({ params }: PageProps) {
             <div></div>
           )}
 
-          <Link
-            href={`/bible/${params.book}/${nextChapter}`}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Chapter {nextChapter} →
-          </Link>
+          {nextChapter ? (
+            <Link
+              href={`/bible/${params.book}/${nextChapter}`}
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Chapter {nextChapter} →
+            </Link>
+          ) : (
+            <div></div>
+          )}
         </div>
       </main>
     </div>
@@ -95,7 +163,17 @@ export default function BibleChapterPage({ params }: PageProps) {
  * Generate metadata for SEO
  */
 export async function generateMetadata({ params }: PageProps) {
-  const bookName = params.book.charAt(0).toUpperCase() + params.book.slice(1);
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
+  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
+  const supabase = createClient(supabaseUrl, supabaseKey);
+
+  const { data: book } = await supabase
+    .from('books')
+    .select('name')
+    .eq('slug', params.book)
+    .single();
+
+  const bookName = book ? book.name : params.book.charAt(0).toUpperCase() + params.book.slice(1);
 
   return {
     title: `${bookName} ${params.chapter} - BibleSummary.ai`,
