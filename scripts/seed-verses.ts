@@ -29,7 +29,10 @@ if (!supabaseUrl || !supabaseServiceKey) {
   process.exit(1);
 }
 
-const supabase = createClient(supabaseUrl, supabaseServiceKey);
+const supabase = createClient(supabaseUrl, supabaseServiceKey, {
+  db: { schema: 'public' },
+  auth: { persistSession: false }
+});
 
 // GitHub raw content base URL
 const GITHUB_BASE = 'https://raw.githubusercontent.com/aruljohn/Bible-kjv/master';
