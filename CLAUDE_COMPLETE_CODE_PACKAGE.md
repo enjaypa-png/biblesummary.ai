@@ -1,3 +1,30 @@
+# Complete Code Package for Claude
+
+**Instructions:** Copy each code block below into the specified file path in your project.
+
+---
+
+## Step 1: Delete Old Files
+
+First, delete these if they exist:
+- `app/intro/` (entire directory)
+- `lib/audio-utils.ts`
+
+---
+
+## Step 2: Create New Directory Structure
+
+```bash
+mkdir -p app/intro/components
+```
+
+---
+
+## Step 3: Create Each File
+
+### File 1: `lib/audio-utils.ts`
+
+```typescript
 /**
  * Enhanced Audio Utilities
  * 
@@ -213,3 +240,22 @@ export function fadeOutAudio(
     }, stepDuration);
   });
 }
+```
+
+---
+
+### File 2: `app/intro/layout.tsx`
+
+```typescript
+export default function IntroLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="fixed inset-0 z-[100] bg-black">
+      {children}
+    </div>
+  );
+}
+```
+
+---
+
+**(Continue in next message due to length...)**
