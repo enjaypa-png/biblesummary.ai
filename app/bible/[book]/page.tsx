@@ -65,7 +65,7 @@ export default async function BookChaptersPage({ params }: PageProps) {
       <header className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
         style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}>
         <div className="max-w-lg mx-auto flex items-center justify-between">
-          <Link href="/bible" className="flex items-center gap-1 text-sm font-medium" style={{ color: "var(--accent)" }}>
+          <Link href="/bible" title="Back to all books" className="flex items-center gap-1 text-sm font-medium" style={{ color: "var(--accent)" }}>
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none">
               <path d="M6 1L1 6L6 11" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
@@ -87,6 +87,7 @@ export default async function BookChaptersPage({ params }: PageProps) {
             <Link
               key={ch}
               href={`/bible/${book.slug}/${ch}`}
+              title={`Read ${book.name} chapter ${ch}`}
               className="aspect-square rounded-xl flex items-center justify-center text-[15px] font-medium transition-all active:scale-95"
               style={{
                 backgroundColor: "var(--card)",

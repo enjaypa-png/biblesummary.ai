@@ -41,6 +41,7 @@ export default function ChapterReaderClient({
         <div className="flex items-center justify-between max-w-2xl mx-auto px-4 py-3">
           <Link
             href={`/bible/${bookSlug}`}
+            title={`Back to ${bookName} chapters`}
             className="flex items-center gap-1 text-sm font-medium"
             style={{ color: "var(--accent)" }}
           >
@@ -53,6 +54,7 @@ export default function ChapterReaderClient({
           {/* Tappable chapter title - opens chapter picker */}
           <button
             onClick={() => setShowChapterPicker(!showChapterPicker)}
+            title="Jump to a different chapter"
             className="flex items-center gap-1.5 px-3 py-1 -my-1 rounded-full transition-colors active:bg-black/5 dark:active:bg-white/5"
           >
             <span className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>
@@ -68,6 +70,7 @@ export default function ChapterReaderClient({
             <button
               onClick={() => setFontSize(Math.max(14, fontSize - 2))}
               className="w-8 h-8 flex items-center justify-center rounded-full active:bg-black/5 dark:active:bg-white/5"
+              title="Decrease font size"
               aria-label="Decrease font size"
             >
               <span className="text-xs font-semibold" style={{ color: "var(--secondary)" }}>A</span>
@@ -75,6 +78,7 @@ export default function ChapterReaderClient({
             <button
               onClick={() => setFontSize(Math.min(28, fontSize + 2))}
               className="w-8 h-8 flex items-center justify-center rounded-full active:bg-black/5 dark:active:bg-white/5"
+              title="Increase font size"
               aria-label="Increase font size"
             >
               <span className="text-lg font-semibold" style={{ color: "var(--secondary)" }}>A</span>
@@ -90,6 +94,7 @@ export default function ChapterReaderClient({
                 <Link
                   key={ch}
                   href={`/bible/${bookSlug}/${ch}`}
+                  title={`${bookName} chapter ${ch}`}
                   onClick={() => setShowChapterPicker(false)}
                   className={`aspect-square rounded-lg flex items-center justify-center text-[13px] font-medium transition-all active:scale-95 ${
                     ch === chapter ? 'text-white' : ''
@@ -116,7 +121,7 @@ export default function ChapterReaderClient({
         >
           {verses.map((verse: Verse) => (
             <span key={verse.id}>
-              <sup className="verse-number" style={{ fontSize: `${Math.max(10, fontSize - 6)}px` }}>{verse.verse}</sup>
+              <sup className="verse-number">{verse.verse}</sup>
               {verse.text}{" "}
             </span>
           ))}
@@ -127,6 +132,7 @@ export default function ChapterReaderClient({
           {prevChapter ? (
             <Link
               href={`/bible/${bookSlug}/${prevChapter}`}
+              title={`Go to ${bookName} chapter ${prevChapter}`}
               className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all active:scale-[0.97]"
               style={{ color: "var(--foreground)", backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
             >
@@ -142,6 +148,7 @@ export default function ChapterReaderClient({
           {nextChapter ? (
             <Link
               href={`/bible/${bookSlug}/${nextChapter}`}
+              title={`Continue to ${bookName} chapter ${nextChapter}`}
               className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white transition-all active:scale-[0.97]"
               style={{ backgroundColor: "var(--accent)" }}
             >
@@ -153,6 +160,7 @@ export default function ChapterReaderClient({
           ) : (
             <Link
               href={`/bible/${bookSlug}`}
+              title={`Back to ${bookName} chapter list`}
               className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white transition-all active:scale-[0.97]"
               style={{ backgroundColor: "var(--accent)" }}
             >

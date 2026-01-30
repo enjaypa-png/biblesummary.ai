@@ -5,28 +5,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;1,400&display=swap');
 
 :root {
-  --background: #F2F2F7;
-  --background-blur: rgba(242,242,247,0.82);
-  --foreground: #1C1C1E;
-  --secondary: #8E8E93;
-  --accent: #007AFF;
-  --border: #D1D1D6;
-  --highlight: #FEF3C7;
-  --card: #FFFFFF;
-  --tab-bar: rgba(248,248,248,0.92);
+  --background: #F5F0E8;
+  --background-blur: rgba(245,240,232,0.88);
+  --foreground: #2C2418;
+  --secondary: #8C7E6A;
+  --accent: #6B4C2A;
+  --border: #DDD5C8;
+  --highlight: #F0E4C8;
+  --card: #FAF6F0;
+  --tab-bar: rgba(245,240,232,0.94);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
-    --background-blur: rgba(0,0,0,0.82);
-    --foreground: #F5F5F7;
-    --secondary: #8E8E93;
-    --accent: #0A84FF;
-    --border: #38383A;
-    --highlight: #4A4A3A;
-    --card: #1C1C1E;
-    --tab-bar: rgba(28,28,30,0.92);
+    --background: #1A1610;
+    --background-blur: rgba(26,22,16,0.88);
+    --foreground: #E8E0D4;
+    --secondary: #9C8E78;
+    --accent: #C49A5C;
+    --border: #3A3228;
+    --highlight: #3A3220;
+    --card: #241F18;
+    --tab-bar: rgba(26,22,16,0.94);
   }
 }
 
@@ -81,14 +81,14 @@ body {
 /* Verse numbers */
 .verse-number {
   font-family: 'Inter', sans-serif;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 0.72em;
+  font-weight: 700;
   color: var(--accent);
   vertical-align: super;
-  margin-right: 3px;
-  margin-left: 2px;
+  margin-right: 4px;
+  margin-left: 4px;
   user-select: none;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 /* Selection color */
