@@ -2,44 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;1,400&display=swap');
 
 :root {
   --background: #F2F2F7;
-  --foreground: #000000;
+  --background-blur: rgba(242,242,247,0.82);
+  --foreground: #1C1C1E;
   --secondary: #8E8E93;
   --accent: #007AFF;
-  --border: #C6C6C8;
+  --border: #D1D1D6;
   --highlight: #FEF3C7;
   --card: #FFFFFF;
-  --tab-bar: #F8F8F8;
+  --tab-bar: rgba(248,248,248,0.92);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #000000;
-    --foreground: #FFFFFF;
+    --background-blur: rgba(0,0,0,0.82);
+    --foreground: #F5F5F7;
     --secondary: #8E8E93;
     --accent: #0A84FF;
     --border: #38383A;
     --highlight: #4A4A3A;
     --card: #1C1C1E;
-    --tab-bar: #1C1C1E;
+    --tab-bar: rgba(28,28,30,0.92);
   }
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  padding-bottom: 80px; /* Space for bottom tab bar */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  padding-bottom: 80px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Bible text uses serif font */
 .bible-text {
-  font-family: 'Source Serif 4', 'Georgia', serif;
+  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.9;
+  word-spacing: 0.02em;
+  letter-spacing: 0.01em;
 }
 
 /* Intro animations */
@@ -71,10 +81,17 @@ body {
 /* Verse numbers */
 .verse-number {
   font-family: 'Inter', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
-  color: var(--secondary);
+  color: var(--accent);
   vertical-align: super;
-  margin-right: 4px;
+  margin-right: 3px;
+  margin-left: 2px;
   user-select: none;
+  opacity: 0.7;
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--highlight);
 }

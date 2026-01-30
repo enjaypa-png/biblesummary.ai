@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { createClient } from "@supabase/supabase-js";
+import ChapterReaderClient from "./ChapterReaderClient";
 
 interface PageProps {
   params: {
@@ -55,119 +56,42 @@ export default async function BibleChapterPage({ params }: PageProps) {
   const { book, verses, error } = await getBibleData(params.book, currentChapter);
 
   const prevChapter = currentChapter > 1 ? currentChapter - 1 : null;
-  const nextChapter =
-    book && currentChapter < book.total_chapters ? currentChapter + 1 : null;
-  const bookName =
-    book
-      ? book.name
-      : params.book.charAt(0).toUpperCase() + params.book.slice(1);
+  const nextChapter = book && currentChapter < book.total_chapters ? currentChapter + 1 : null;
+  const bookName = book ? book.name : params.book.charAt(0).toUpperCase() + params.book.slice(1);
+
+  if (error) {
+    return (
+      <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
+        <header className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
+          style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}>
+          <div className="max-w-2xl mx-auto flex items-center justify-between">
+            <Link href="/bible" className="text-sm font-medium" style={{ color: "var(--accent)" }}>Books</Link>
+            <h1 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>Error</h1>
+            <span className="w-[44px]" />
+          </div>
+        </header>
+        <main className="max-w-2xl mx-auto px-5 py-16 text-center">
+          <p style={{ color: "var(--foreground)" }}>
+            {error === "Book not found" ? `The book "${params.book}" was not found.` : "No verses found for this chapter."}
+          </p>
+          <Link href="/bible" className="inline-block mt-4 text-sm font-medium" style={{ color: "var(--accent)" }}>
+            Browse all books
+          </Link>
+        </main>
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
-      {/* Header - current location, tappable */}
-      <header
-        className="sticky top-0 z-40 px-4 py-3 backdrop-blur-md"
-        style={{
-          backgroundColor: "rgba(242,242,247,0.85)",
-          borderBottom: "0.5px solid var(--border)",
-        }}
-      >
-        <div className="flex items-center justify-between max-w-2xl mx-auto">
-          <Link
-            href="/bible"
-            className="text-sm font-medium"
-            style={{ color: "var(--accent)" }}
-          >
-            Books
-          </Link>
-          <h1
-            className="text-lg font-semibold"
-            style={{ color: "var(--foreground)" }}
-          >
-            {bookName} {params.chapter}
-          </h1>
-          <span className="text-sm" style={{ color: "var(--secondary)" }}>
-            KJV
-          </span>
-        </div>
-      </header>
-
-      <main className="max-w-2xl mx-auto px-4 py-4">
-        {/* Error state */}
-        {error ? (
-          <div
-            className="rounded-xl p-6 text-center"
-            style={{
-              backgroundColor: "var(--card)",
-              border: "1px solid var(--border)",
-            }}
-          >
-            <p style={{ color: "var(--foreground)" }}>
-              {error === "Book not found"
-                ? `The book "${params.book}" was not found.`
-                : "No verses found for this chapter."}
-            </p>
-            <Link
-              href="/bible"
-              className="inline-block mt-4 text-sm font-medium"
-              style={{ color: "var(--accent)" }}
-            >
-              Browse all books
-            </Link>
-          </div>
-        ) : (
-          /* Bible text */
-          <div className="bible-text rounded-xl p-5" style={{ color: "var(--foreground)", backgroundColor: "var(--card)" }}>
-            {verses.map((verse: Verse) => (
-              <span key={verse.id}>
-                <sup className="verse-number">{verse.verse}</sup>
-                {verse.text}{" "}
-              </span>
-            ))}
-          </div>
-        )}
-
-        {/* Chapter navigation */}
-        <div
-          className="flex justify-between items-center mt-12 pt-6 border-t"
-          style={{ borderColor: "var(--border)" }}
-        >
-          {prevChapter ? (
-            <Link
-              href={`/bible/${params.book}/${prevChapter}`}
-              className="px-4 py-2 rounded-lg text-sm font-medium transition-colors"
-              style={{
-                color: "var(--foreground)",
-                backgroundColor: "var(--card)",
-                border: "1px solid var(--border)",
-              }}
-            >
-              Chapter {prevChapter}
-            </Link>
-          ) : (
-            <div />
-          )}
-
-          {nextChapter ? (
-            <Link
-              href={`/bible/${params.book}/${nextChapter}`}
-              className="px-4 py-2 rounded-lg text-sm font-semibold text-white transition-colors"
-              style={{ backgroundColor: "var(--accent)" }}
-            >
-              Chapter {nextChapter}
-            </Link>
-          ) : (
-            <Link
-              href="/bible"
-              className="px-4 py-2 rounded-lg text-sm font-semibold text-white transition-colors"
-              style={{ backgroundColor: "var(--accent)" }}
-            >
-              All Books
-            </Link>
-          )}
-        </div>
-      </main>
-    </div>
+    <ChapterReaderClient
+      bookName={bookName}
+      bookSlug={params.book}
+      chapter={currentChapter}
+      totalChapters={book?.total_chapters || 1}
+      verses={verses}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    />
   );
 }
 
@@ -182,10 +106,7 @@ export async function generateMetadata({ params }: PageProps) {
     .eq("slug", params.book)
     .single();
 
-  const bookName =
-    book
-      ? book.name
-      : params.book.charAt(0).toUpperCase() + params.book.slice(1);
+  const bookName = book ? book.name : params.book.charAt(0).toUpperCase() + params.book.slice(1);
 
   return {
     title: `${bookName} ${params.chapter} - BibleSummary.ai`,

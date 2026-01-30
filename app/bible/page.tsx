@@ -28,36 +28,33 @@ async function getBooks(): Promise<Book[]> {
 
 function BookList({ books, testament }: { books: Book[]; testament: string }) {
   return (
-    <section className="mb-8">
-      <div className="px-5 pb-1 pt-2">
-        <h2 className="text-[13px] font-semibold uppercase tracking-wide" style={{ color: "var(--accent)" }}>
+    <section className="mb-6">
+      <div className="px-5 pb-2">
+        <h2 className="text-xs font-semibold uppercase tracking-widest" style={{ color: "var(--secondary)" }}>
           {testament} Testament
         </h2>
       </div>
-      <div className="bg-[var(--card)] rounded-xl mx-4 overflow-hidden"
-        style={{ border: "0.5px solid var(--border)" }}>
-        {books.map((book, i) => (
+      <div className="mx-4">
+        {books.map((book) => (
           <Link
             key={book.id}
-            href={`/bible/${book.slug}/1`}
-            className="flex items-center justify-between px-4 py-[12px] transition-colors active:bg-gray-100 dark:active:bg-gray-700/50"
-            style={i < books.length - 1 ? { borderBottom: "0.5px solid var(--border)" } : {}}
+            href={`/bible/${book.slug}`}
+            className="flex items-center justify-between px-3 py-[11px] transition-colors active:bg-black/5 dark:active:bg-white/5 rounded-lg"
           >
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-lg flex items-center justify-center text-white text-xs font-bold"
-                style={{ backgroundColor: "var(--accent)" }}>
+            <div className="flex items-center gap-3 min-w-0">
+              <span className="text-[11px] font-semibold w-5 text-right tabular-nums" style={{ color: "var(--secondary)" }}>
                 {book.order_index}
-              </div>
-              <span className="text-[15px] font-normal" style={{ color: "var(--foreground)" }}>
+              </span>
+              <span className="text-[15px] font-normal truncate" style={{ color: "var(--foreground)" }}>
                 {book.name}
               </span>
             </div>
-            <div className="flex items-center gap-1">
-              <span className="text-[13px]" style={{ color: "var(--secondary)" }}>
-                {book.total_chapters}
+            <div className="flex items-center gap-1.5 flex-shrink-0 ml-2">
+              <span className="text-[12px] tabular-nums" style={{ color: "var(--secondary)" }}>
+                {book.total_chapters} ch
               </span>
-              <svg width="7" height="12" viewBox="0 0 7 12" fill="none" className="ml-1">
-                <path d="M1 1L6 6L1 11" stroke="var(--secondary)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
+                <path d="M1 1L5 5L1 9" stroke="var(--border)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </div>
           </Link>
@@ -76,8 +73,8 @@ export default async function BiblePage() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
       {/* Header */}
-      <header className="sticky top-0 z-40 px-4 py-3 backdrop-blur-md"
-        style={{ backgroundColor: "rgba(242,242,247,0.85)", borderBottom: "0.5px solid var(--border)" }}>
+      <header className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
+        style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}>
         <div className="max-w-lg mx-auto flex items-center justify-center">
           <h1 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>
             Bible
@@ -85,7 +82,7 @@ export default async function BiblePage() {
         </div>
       </header>
 
-      <main className="max-w-lg mx-auto pt-4 pb-6">
+      <main className="max-w-lg mx-auto pt-3 pb-6">
         <BookList books={oldTestament} testament="Old" />
         <BookList books={newTestament} testament="New" />
       </main>
