@@ -14,6 +14,7 @@
   --highlight: #F0E4C8;
   --card: #FAF6F0;
   --tab-bar: rgba(245,240,232,0.94);
+  --verse-num: #2563EB;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,6 +28,7 @@
     --highlight: #3A3220;
     --card: #241F18;
     --tab-bar: rgba(26,22,16,0.94);
+    --verse-num: #60A5FA;
   }
 }
 
@@ -83,7 +85,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 0.72em;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--verse-num);
   vertical-align: super;
   margin-right: 4px;
   margin-left: 4px;
