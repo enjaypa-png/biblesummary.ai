@@ -1,124 +1,177 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import { preloadAudio } from "@/lib/audio-utils";
 
 interface OpeningTransitionProps {
   onComplete: () => void;
+  duration?: number;
 }
 
-export default function OpeningTransition({
-  onComplete,
+/**
+ * Opening Transition Component
+ * 
+ * Animates the Bible opening with page-turning effect.
+ * Includes subtle light and sound effects.
+ */
+export default function OpeningTransition({ 
+  onComplete, 
+  duration = 5000 
 }: OpeningTransitionProps) {
-  const [reducedMotion, setReducedMotion] = useState(false);
+  const [phase, setPhase] = useState<'opening' | 'turning' | 'settling'>('opening');
 
   useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setReducedMotion(mq.matches);
-  }, []);
+    // Phase 1: Bible starts opening (0-2s)
+    const openingTimer = setTimeout(() => {
+      setPhase('turning');
+    }, duration * 0.4);
 
-  useEffect(() => {
-    // Play page-turn sound
-    preloadAudio("/audio/page-turn.mp3").then((audio) => {
-      if (audio) {
-        audio.volume = 0.4;
-        audio.play().catch(() => {});
-      }
+    // Phase 2: Pages turn (2-4s)
+    const turningTimer = setTimeout(() => {
+      setPhase('settling');
+    }, duration * 0.8);
+
+    // Phase 3: Pages settle, complete (4-5s)
+    const completeTimer = setTimeout(() => {
+      onComplete();
+    }, duration);
+
+    // Play page-turn sound (if available)
+    const audio = new Audio('/audio/page-turn.mp3');
+    audio.volume = 0.3;
+    audio.play().catch(() => {
+      // Ignore if audio fails
     });
 
-    const timer = setTimeout(onComplete, 5000);
-    return () => clearTimeout(timer);
-  }, [onComplete]);
+    return () => {
+      clearTimeout(openingTimer);
+      clearTimeout(turningTimer);
+      clearTimeout(completeTimer);
+    };
+  }, [onComplete, duration]);
 
   return (
-    <motion.div
-      className="flex items-center justify-center h-full w-full"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.6 }}
-      role="region"
-      aria-label="Bible opening animation"
-    >
-      {/* Light spill effect */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background:
-            "radial-gradient(ellipse at center, rgba(255,245,220,0.1) 0%, transparent 60%)",
-        }}
-      />
-
-      {/* Book opening animation */}
-      <div
-        className="relative"
-        style={{ perspective: "1200px", width: "280px", height: "380px" }}
-      >
-        {/* Left page (static) */}
-        <div
-          className="absolute left-0 top-0 w-[140px] h-[380px] rounded-l-sm"
+    <div className="opening-transition-screen">
+      <div className="bible-opening-container">
+        {/* Left Page */}
+        <div 
+          className={`bible-page left-page ${phase}`}
           style={{
-            background:
-              "linear-gradient(to right, #F5ECD7 0%, #FAF6ED 80%, #EDE4CF 100%)",
-            boxShadow: "inset -2px 0 8px rgba(0,0,0,0.1)",
+            transform: phase === 'opening' 
+              ? 'rotateY(0deg)' 
+              : phase === 'turning'
+              ? 'rotateY(-90deg)'
+              : 'rotateY(-180deg)',
           }}
         >
-          {/* Page lines */}
-          <div className="p-6 pt-12 space-y-2">
-            {[...Array(16)].map((_, i) => (
-              <div
-                key={i}
-                className="h-px"
-                style={{
-                  backgroundColor: "rgba(0,0,0,0.06)",
-                  width: `${70 + Math.random() * 30}%`,
-                }}
-              />
-            ))}
-          </div>
+          <div className="page-content" />
         </div>
 
-        {/* Right page (turning) */}
-        <motion.div
-          className="absolute right-0 top-0 w-[140px] h-[380px] rounded-r-sm origin-left"
+        {/* Right Page */}
+        <div 
+          className={`bible-page right-page ${phase}`}
           style={{
-            background:
-              "linear-gradient(to left, #F5ECD7 0%, #FAF6ED 80%, #EDE4CF 100%)",
-            boxShadow: "inset 2px 0 8px rgba(0,0,0,0.1)",
-            transformStyle: "preserve-3d",
-          }}
-          initial={{ rotateY: 0 }}
-          animate={{ rotateY: reducedMotion ? 0 : -160 }}
-          transition={{
-            duration: reducedMotion ? 0 : 3,
-            ease: [0.25, 0.1, 0.25, 1],
-            delay: 0.5,
+            transform: phase === 'opening' 
+              ? 'rotateY(0deg)' 
+              : phase === 'turning'
+              ? 'rotateY(90deg)'
+              : 'rotateY(180deg)',
           }}
         >
-          <div className="p-6 pt-12 space-y-2">
-            {[...Array(16)].map((_, i) => (
-              <div
-                key={i}
-                className="h-px"
-                style={{
-                  backgroundColor: "rgba(0,0,0,0.06)",
-                  width: `${70 + Math.random() * 30}%`,
-                }}
-              />
-            ))}
-          </div>
-        </motion.div>
+          <div className="page-content" />
+        </div>
 
-        {/* Center spine shadow */}
-        <div
-          className="absolute left-1/2 top-0 w-1 h-full -translate-x-1/2"
-          style={{
-            background:
-              "linear-gradient(to right, rgba(0,0,0,0.15), transparent, rgba(0,0,0,0.15))",
-          }}
-        />
+        {/* Light spilling from pages */}
+        <div className={`page-light ${phase}`} />
       </div>
-    </motion.div>
+
+      <style jsx>{`
+        .opening-transition-screen {
+          position: fixed;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+          perspective: 1500px;
+        }
+
+        .bible-opening-container {
+          position: relative;
+          width: 80%;
+          max-width: 600px;
+          aspect-ratio: 2/1;
+          transform-style: preserve-3d;
+        }
+
+        .bible-page {
+          position: absolute;
+          top: 0;
+          width: 50%;
+          height: 100%;
+          background: linear-gradient(to bottom, #f5f5dc 0%, #e8e8d0 100%);
+          box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+          transform-origin: center;
+          transition: transform 2s cubic-bezier(0.4, 0, 0.2, 1);
+          backface-visibility: hidden;
+        }
+
+        .left-page {
+          left: 0;
+          border-right: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .right-page {
+          right: 0;
+          border-left: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .page-content {
+          width: 100%;
+          height: 100%;
+          padding: 2rem;
+          background-image: 
+            repeating-linear-gradient(
+              transparent,
+              transparent 1.5rem,
+              rgba(0, 0, 0, 0.05) 1.5rem,
+              rgba(0, 0, 0, 0.05) calc(1.5rem + 1px)
+            );
+        }
+
+        .page-light {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 200px;
+          height: 200px;
+          background: radial-gradient(
+            circle,
+            rgba(255, 240, 200, 0.6) 0%,
+            rgba(255, 240, 200, 0.3) 30%,
+            transparent 70%
+          );
+          transform: translate(-50%, -50%);
+          opacity: 0;
+          transition: opacity 1s ease;
+          pointer-events: none;
+          filter: blur(20px);
+        }
+
+        .page-light.turning,
+        .page-light.settling {
+          opacity: 1;
+        }
+
+        /* Respect reduced motion preference */
+        @media (prefers-reduced-motion: reduce) {
+          .bible-page {
+            transition: transform 0.5s ease;
+          }
+          .page-light {
+            display: none;
+          }
+        }
+      `}</style>
+    </div>
   );
 }

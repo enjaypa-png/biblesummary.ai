@@ -1,164 +1,258 @@
 "use client";
 
-import { useEffect, useState, useRef, useCallback } from "react";
-import { motion } from "framer-motion";
-import { canAutoplay, preloadAudio } from "@/lib/audio-utils";
-
-const WELCOME_TEXT =
-  "Welcome to BibleSummary.ai. Here, you can read the King James Version of the Bible freely — just as it was written. When I set out to read the Bible in full, I realized how long the journey truly was… and how difficult it could be to retain what I had read. This app was created to help you understand, remember, and return to Scripture — without replacing it. Reading the Bible will always remain free here. Summaries help support the work behind this project, but the Word itself is never hidden.";
+import { useEffect, useState, useRef } from "react";
+import { canAutoplay, playAudio, getAudioErrorMessage } from "@/lib/audio-utils";
 
 interface AudioWelcomeProps {
   onComplete: () => void;
+  audioSrc?: string;
 }
 
-export default function AudioWelcome({ onComplete }: AudioWelcomeProps) {
-  const [showCaptions, setShowCaptions] = useState(false);
-  const [audioAvailable, setAudioAvailable] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+const WELCOME_SCRIPT = `Welcome to BibleSummary.ai.
 
-  const cleanup = useCallback(() => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current = null;
-    }
-    if (timerRef.current) {
-      clearTimeout(timerRef.current);
-    }
-  }, []);
+Here, you can read the King James Version of the Bible freely — just as it was written.
+
+When I set out to read the Bible in full, I realized how long the journey truly was… and how difficult it could be to retain what I had read.
+
+This app was created to help you understand, remember, and return to Scripture — without replacing it.
+
+Reading the Bible will always remain free here.
+
+Summaries help support the work behind this project, but the Word itself is never hidden.`;
+
+/**
+ * Audio Welcome Component
+ * 
+ * Plays welcome narration with fallback to text captions.
+ * Handles autoplay restrictions gracefully.
+ */
+export default function AudioWelcome({ 
+  onComplete, 
+  audioSrc = "/audio/welcome-message.mp3" 
+}: AudioWelcomeProps) {
+  const [autoplaySupported, setAutoplaySupported] = useState<boolean | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [showCaptions, setShowCaptions] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    let cancelled = false;
+    // Check autoplay support
+    canAutoplay().then(supported => {
+      setAutoplaySupported(supported);
+      setShowCaptions(!supported);
+    });
 
-    async function init() {
-      const audio = await preloadAudio("/audio/welcome-message.mp3");
-      if (cancelled) return;
+    // Preload audio
+    audioRef.current = new Audio(audioSrc);
+    audioRef.current.preload = 'auto';
 
-      if (audio) {
-        audioRef.current = audio;
-        setAudioAvailable(true);
-
-        const autoplayAllowed = await canAutoplay();
-        if (autoplayAllowed && !cancelled) {
-          try {
-            await audio.play();
-            setIsPlaying(true);
-            audio.addEventListener("ended", onComplete, { once: true });
-            return;
-          } catch {
-            // Fall through to captions
-          }
-        }
-      }
-
-      // No audio or autoplay blocked — show captions
-      if (!cancelled) {
-        setShowCaptions(true);
-        timerRef.current = setTimeout(onComplete, 20000);
-      }
-    }
-
-    init();
     return () => {
-      cancelled = true;
-      cleanup();
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
     };
-  }, [onComplete, cleanup]);
+  }, [audioSrc]);
 
-  function handleManualPlay() {
-    if (audioRef.current) {
-      audioRef.current
-        .play()
-        .then(() => {
-          setIsPlaying(true);
-          setShowCaptions(false);
-          if (timerRef.current) clearTimeout(timerRef.current);
-          audioRef.current!.addEventListener("ended", onComplete, {
-            once: true,
-          });
-        })
-        .catch(() => {
-          // Still can't play; keep captions
-        });
+  useEffect(() => {
+    // Auto-play if supported
+    if (autoplaySupported && audioRef.current && !isPlaying) {
+      handlePlay();
     }
-  }
+  }, [autoplaySupported]);
+
+  const handlePlay = async () => {
+    if (!audioRef.current) return;
+
+    const success = await playAudio(audioRef.current, {
+      volume: 0.7,
+      onEnded: () => {
+        setIsPlaying(false);
+        onComplete();
+      },
+      onError: (err) => {
+        setError(getAudioErrorMessage(err));
+        setShowCaptions(true);
+      },
+    });
+
+    if (success) {
+      setIsPlaying(true);
+      setShowCaptions(true);
+      setError(null);
+    } else {
+      setShowCaptions(true);
+    }
+  };
+
+  const handleSkip = () => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+    }
+    onComplete();
+  };
 
   return (
-    <motion.div
-      className="flex flex-col items-center justify-center h-full w-full px-8"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.8 }}
-      role="region"
-      aria-label="Welcome message"
-      aria-live="polite"
-    >
-      {/* Waveform indicator when playing */}
-      {isPlaying && (
-        <div className="flex items-end gap-1 mb-8 h-8">
-          {[...Array(5)].map((_, i) => (
-            <div
-              key={i}
-              className="w-1 rounded-full bg-[#C9A84C] intro-waveform"
-              style={{
-                animationDelay: `${i * 0.15}s`,
-                height: "8px",
-              }}
-            />
-          ))}
-        </div>
-      )}
-
-      {/* Captions */}
-      {(showCaptions || isPlaying) && (
-        <p
-          className="text-center max-w-md leading-relaxed"
-          style={{
-            fontFamily: "'Source Serif 4', Georgia, serif",
-            fontSize: "16px",
-            color: "rgba(255,255,255,0.85)",
-            lineHeight: "1.8",
-          }}
-        >
-          {WELCOME_TEXT}
-        </p>
-      )}
-
-      {/* Manual play button when autoplay blocked */}
-      {showCaptions && audioAvailable && !isPlaying && (
-        <button
-          onClick={handleManualPlay}
-          className="mt-8 flex items-center gap-2 px-5 py-2.5 rounded-full transition-colors"
-          style={{
-            backgroundColor: "rgba(201,168,76,0.2)",
-            border: "1px solid rgba(201,168,76,0.4)",
-            color: "#C9A84C",
-          }}
-          aria-label="Play welcome audio"
-        >
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="currentColor"
+    <div className="audio-welcome-screen">
+      <div className="audio-welcome-container">
+        {/* Audio Status */}
+        {!autoplaySupported && !isPlaying && (
+          <button 
+            onClick={handlePlay}
+            className="play-button"
+            aria-label="Play welcome message"
           >
-            <path d="M4 2.5v11l9-5.5L4 2.5z" />
-          </svg>
-          <span className="text-sm">Listen</span>
-        </button>
-      )}
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5" />
+              <path d="M10 8l6 4-6 4V8z" fill="currentColor" />
+            </svg>
+            <span>Tap to hear welcome message</span>
+          </button>
+        )}
 
-      {/* Caption-only fallback (no audio file at all) */}
-      {showCaptions && !audioAvailable && (
-        <p
-          className="mt-6 text-xs"
-          style={{ color: "rgba(255,255,255,0.4)" }}
+        {/* Error Message */}
+        {error && (
+          <div className="error-message">
+            {error}
+          </div>
+        )}
+
+        {/* Captions */}
+        {showCaptions && (
+          <div className="captions">
+            {WELCOME_SCRIPT.split('\n\n').map((paragraph, index) => (
+              <p key={index} className="caption-paragraph">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        )}
+
+        {/* Skip Button */}
+        <button 
+          onClick={handleSkip}
+          className="skip-button"
+          aria-label="Skip introduction"
         >
-          Audio narration coming soon
-        </p>
-      )}
-    </motion.div>
+          Skip
+        </button>
+      </div>
+
+      <style jsx>{`
+        .audio-welcome-screen {
+          position: fixed;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+          padding: 2rem;
+        }
+
+        .audio-welcome-container {
+          max-width: 600px;
+          width: 100%;
+          position: relative;
+        }
+
+        .play-button {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+          background: none;
+          border: none;
+          color: #d4af37;
+          cursor: pointer;
+          padding: 2rem;
+          transition: transform 0.2s ease;
+          margin: 0 auto;
+        }
+
+        .play-button:hover {
+          transform: scale(1.05);
+        }
+
+        .play-button:active {
+          transform: scale(0.95);
+        }
+
+        .play-button span {
+          font-size: 1rem;
+          font-weight: 500;
+          color: #f5f5dc;
+        }
+
+        .error-message {
+          background: rgba(220, 38, 38, 0.1);
+          border: 1px solid rgba(220, 38, 38, 0.3);
+          color: #fca5a5;
+          padding: 1rem;
+          border-radius: 8px;
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+
+        .captions {
+          background: rgba(0, 0, 0, 0.3);
+          border: 1px solid rgba(212, 175, 55, 0.2);
+          border-radius: 12px;
+          padding: 2rem;
+          max-height: 60vh;
+          overflow-y: auto;
+        }
+
+        .caption-paragraph {
+          font-family: 'Georgia', 'Times New Roman', serif;
+          font-size: 1.125rem;
+          line-height: 1.8;
+          color: #f5f5dc;
+          margin-bottom: 1.5rem;
+          text-align: center;
+        }
+
+        .caption-paragraph:last-child {
+          margin-bottom: 0;
+        }
+
+        .skip-button {
+          position: absolute;
+          top: -1rem;
+          right: 0;
+          background: rgba(255, 255, 255, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          color: #f5f5dc;
+          padding: 0.5rem 1rem;
+          border-radius: 6px;
+          font-size: 0.875rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+        }
+
+        .skip-button:hover {
+          background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Scrollbar styling */
+        .captions::-webkit-scrollbar {
+          width: 8px;
+        }
+
+        .captions::-webkit-scrollbar-track {
+          background: rgba(0, 0, 0, 0.2);
+          border-radius: 4px;
+        }
+
+        .captions::-webkit-scrollbar-thumb {
+          background: rgba(212, 175, 55, 0.3);
+          border-radius: 4px;
+        }
+
+        .captions::-webkit-scrollbar-thumb:hover {
+          background: rgba(212, 175, 55, 0.5);
+        }
+      `}</style>
+    </div>
   );
 }
