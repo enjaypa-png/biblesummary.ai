@@ -86,6 +86,7 @@ export default async function BibleChapterPage({ params }: PageProps) {
     <ChapterReaderClient
       bookName={bookName}
       bookSlug={params.book}
+      bookId={book?.id || ""}
       chapter={currentChapter}
       totalChapters={book?.total_chapters || 1}
       verses={verses}
