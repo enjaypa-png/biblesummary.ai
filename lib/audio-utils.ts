@@ -1,127 +1,215 @@
 /**
- * Audio Utilities
+ * Enhanced Audio Utilities
  * 
- * Handles audio playback with autoplay detection and fallback strategies.
- * iOS Safari and many mobile browsers block autoplay without user interaction.
+ * Comprehensive audio handling with autoplay detection,
+ * error handling, and user-friendly fallbacks.
  */
+
+export interface AudioPlayOptions {
+  volume?: number;
+  onEnded?: () => void;
+  onError?: (error: Error) => void;
+  onPlay?: () => void;
+}
 
 /**
- * Detect if autoplay is supported in the current browser
+ * Detect whether the browser allows audio autoplay.
+ * Tests by attempting to play a silent audio file.
  */
 export async function canAutoplay(): Promise<boolean> {
-  if (typeof window === 'undefined') {
-    return false;
-  }
-
   try {
-    // Create a silent audio element to test autoplay
     const audio = new Audio();
     audio.volume = 0;
     audio.muted = true;
     
-    // Try to play
-    const playPromise = audio.play();
+    // Use a tiny silent data URI (empty WAV file)
+    audio.src = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
     
-    if (playPromise !== undefined) {
-      await playPromise;
-      audio.pause();
-      return true;
-    }
+    await audio.play();
+    audio.pause();
+    audio.remove();
     
-    return false;
+    return true;
   } catch (error) {
-    // Autoplay blocked
     return false;
   }
 }
 
 /**
- * Preload an audio file
+ * Preload an audio file and return the HTMLAudioElement.
+ * Returns null if the file doesn't exist or fails to load.
  */
-export function preloadAudio(src: string): HTMLAudioElement {
-  const audio = new Audio();
-  audio.preload = 'auto';
-  audio.src = src;
+export function preloadAudio(src: string): Promise<HTMLAudioElement | null> {
+  return new Promise((resolve) => {
+    const audio = new Audio();
+    audio.preload = "auto";
+    audio.src = src;
+
+    const handleSuccess = () => {
+      cleanup();
+      resolve(audio);
+    };
+
+    const handleError = () => {
+      cleanup();
+      resolve(null);
+    };
+
+    const cleanup = () => {
+      audio.removeEventListener("canplaythrough", handleSuccess);
+      audio.removeEventListener("error", handleError);
+    };
+
+    audio.addEventListener("canplaythrough", handleSuccess, { once: true });
+    audio.addEventListener("error", handleError, { once: true });
+
+    // Timeout after 10 seconds
+    setTimeout(() => {
+      cleanup();
+      resolve(null);
+    }, 10000);
+  });
+}
+
+/**
+ * Play an audio element with proper error handling and callbacks.
+ * Returns true if playback started successfully, false otherwise.
+ */
+export async function playAudio(
+  audio: HTMLAudioElement,
+  options: AudioPlayOptions = {}
+): Promise<boolean> {
+  const {
+    volume = 1,
+    onEnded,
+    onError,
+    onPlay,
+  } = options;
+
+  try {
+    // Set volume
+    audio.volume = Math.max(0, Math.min(1, volume));
+
+    // Attach event listeners
+    if (onEnded) {
+      audio.addEventListener("ended", onEnded, { once: true });
+    }
+
+    if (onError) {
+      audio.addEventListener("error", (e) => {
+        onError(new Error("Audio playback error"));
+      }, { once: true });
+    }
+
+    if (onPlay) {
+      audio.addEventListener("play", onPlay, { once: true });
+    }
+
+    // Attempt to play
+    await audio.play();
+    return true;
+  } catch (error) {
+    // Playback failed (likely autoplay blocked)
+    if (onError && error instanceof Error) {
+      onError(error);
+    }
+    return false;
+  }
+}
+
+/**
+ * Get a user-friendly error message for audio errors.
+ */
+export function getAudioErrorMessage(error: Error | unknown): string {
+  if (error instanceof Error) {
+    const message = error.message.toLowerCase();
+
+    if (message.includes("autoplay") || message.includes("user gesture")) {
+      return "Audio requires interaction. Tap the play button to continue.";
+    }
+
+    if (message.includes("not found") || message.includes("404")) {
+      return "Audio file not found. Continuing without audio.";
+    }
+
+    if (message.includes("network") || message.includes("fetch")) {
+      return "Network error loading audio. Check your connection.";
+    }
+
+    if (message.includes("decode") || message.includes("format")) {
+      return "Audio format not supported. Continuing without audio.";
+    }
+  }
+
+  return "Unable to play audio. Continuing without sound.";
+}
+
+/**
+ * Check if audio file exists at the given URL.
+ * Useful for conditionally showing audio controls.
+ */
+export async function audioFileExists(src: string): Promise<boolean> {
+  try {
+    const response = await fetch(src, { method: "HEAD" });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Create an audio element with fade-in effect.
+ */
+export function createFadingAudio(
+  src: string,
+  targetVolume: number = 0.7,
+  fadeDuration: number = 1000
+): HTMLAudioElement {
+  const audio = new Audio(src);
+  audio.volume = 0;
+
+  // Fade in
+  const steps = 20;
+  const stepDuration = fadeDuration / steps;
+  const volumeStep = targetVolume / steps;
+
+  let currentStep = 0;
+  const fadeInterval = setInterval(() => {
+    currentStep++;
+    audio.volume = Math.min(targetVolume, volumeStep * currentStep);
+
+    if (currentStep >= steps) {
+      clearInterval(fadeInterval);
+    }
+  }, stepDuration);
+
   return audio;
 }
 
 /**
- * Play audio with error handling
+ * Fade out and stop an audio element.
  */
-export async function playAudio(
+export function fadeOutAudio(
   audio: HTMLAudioElement,
-  options?: {
-    volume?: number;
-    onEnded?: () => void;
-    onError?: (error: Error) => void;
-  }
-): Promise<boolean> {
-  try {
-    if (options?.volume !== undefined) {
-      audio.volume = options.volume;
-    }
+  fadeDuration: number = 1000
+): Promise<void> {
+  return new Promise((resolve) => {
+    const startVolume = audio.volume;
+    const steps = 20;
+    const stepDuration = fadeDuration / steps;
+    const volumeStep = startVolume / steps;
 
-    if (options?.onEnded) {
-      audio.addEventListener('ended', options.onEnded, { once: true });
-    }
+    let currentStep = 0;
+    const fadeInterval = setInterval(() => {
+      currentStep++;
+      audio.volume = Math.max(0, startVolume - (volumeStep * currentStep));
 
-    if (options?.onError) {
-      audio.addEventListener('error', () => {
-        options.onError?.(new Error('Audio playback failed'));
-      }, { once: true });
-    }
-
-    await audio.play();
-    return true;
-  } catch (error) {
-    console.error('Audio playback failed:', error);
-    options?.onError?.(error as Error);
-    return false;
-  }
-}
-
-/**
- * Get user-friendly audio error message
- */
-export function getAudioErrorMessage(error: Error): string {
-  const message = error.message.toLowerCase();
-  
-  if (message.includes('autoplay') || message.includes('interact')) {
-    return 'Please tap to enable audio';
-  }
-  
-  if (message.includes('network') || message.includes('load')) {
-    return 'Audio failed to load. Check your connection.';
-  }
-  
-  return 'Audio playback unavailable';
-}
-
-/**
- * Check if device is likely iOS
- */
-export function isIOS(): boolean {
-  if (typeof window === 'undefined') {
-    return false;
-  }
-
-  return /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
-}
-
-/**
- * Check if device is in silent mode (iOS only, approximate)
- */
-export function isSilentMode(): boolean {
-  // Note: There's no reliable way to detect silent mode on iOS
-  // This is a best-effort approximation
-  return false;
-}
-
-/**
- * Format audio duration (seconds to MM:SS)
- */
-export function formatDuration(seconds: number): string {
-  const mins = Math.floor(seconds / 60);
-  const secs = Math.floor(seconds % 60);
-  return `${mins}:${secs.toString().padStart(2, '0')}`;
+      if (currentStep >= steps) {
+        clearInterval(fadeInterval);
+        audio.pause();
+        audio.currentTime = 0;
+        resolve();
+      }
+    }, stepDuration);
+  });
 }

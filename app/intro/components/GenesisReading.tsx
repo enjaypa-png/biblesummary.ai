@@ -1,145 +1,130 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import { playAudio } from "@/lib/audio-utils";
 
 interface GenesisReadingProps {
   onComplete: () => void;
-  verseText: string;
+  verseText?: string;
   audioSrc?: string;
 }
 
+const DEFAULT_VERSE = "In the beginning God created the heaven and the earth.";
+
 /**
- * Genesis Reading Component
+ * Enhanced Genesis Reading Component
  * 
- * Displays Genesis 1:1 with optional audio narration.
- * Final screen of the opening experience.
+ * Displays Genesis 1:1 with beautiful typography.
+ * Optional audio narration (same voice as welcome).
+ * "Continue to Bible" button for user control.
+ * Warm, reverent color palette.
  */
 export default function GenesisReading({ 
-  onComplete, 
-  verseText,
-  audioSrc = "/audio/genesis-1-reading.mp3" 
+  onComplete,
+  verseText = DEFAULT_VERSE,
+  audioSrc = "/audio/genesis-1-reading.mp3"
 }: GenesisReadingProps) {
   const [isVisible, setIsVisible] = useState(false);
+  const [showButton, setShowButton] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [showControls, setShowControls] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     // Fade in
-    const fadeTimer = setTimeout(() => {
-      setIsVisible(true);
-    }, 300);
+    setTimeout(() => setIsVisible(true), 300);
 
-    // Preload audio
-    audioRef.current = new Audio(audioSrc);
-    audioRef.current.preload = 'auto';
+    // Show continue button after verse is displayed
+    setTimeout(() => setShowButton(true), 3000);
 
-    // Try to auto-play audio
-    const playTimer = setTimeout(() => {
-      handlePlay();
-    }, 1000);
+    // Preload and try to play audio
+    const audio = new Audio(audioSrc);
+    audio.volume = 0.7;
+    audioRef.current = audio;
 
-    // Auto-complete after reasonable time
-    const completeTimer = setTimeout(() => {
+    audio.play()
+      .then(() => {
+        setIsPlaying(true);
+      })
+      .catch(() => {
+        // Audio blocked, that's okay
+      });
+
+    audio.addEventListener('ended', () => {
+      setIsPlaying(false);
+    });
+
+    // Auto-complete after 12 seconds (safety)
+    const safetyTimer = setTimeout(() => {
       onComplete();
-    }, 10000); // 10 seconds
+    }, 12000);
 
     return () => {
-      clearTimeout(fadeTimer);
-      clearTimeout(playTimer);
-      clearTimeout(completeTimer);
+      clearTimeout(safetyTimer);
       if (audioRef.current) {
         audioRef.current.pause();
       }
     };
   }, [audioSrc, onComplete]);
 
-  const handlePlay = async () => {
-    if (!audioRef.current || isPlaying) return;
-
-    const success = await playAudio(audioRef.current, {
-      volume: 0.7,
-      onEnded: () => {
-        setIsPlaying(false);
-        // Wait a moment, then complete
-        setTimeout(() => {
-          onComplete();
-        }, 2000);
-      },
-    });
-
-    if (success) {
-      setIsPlaying(true);
-    }
-  };
-
-  const handlePause = () => {
+  const handleContinue = () => {
     if (audioRef.current) {
       audioRef.current.pause();
-      setIsPlaying(false);
     }
-  };
-
-  const handleContinue = () => {
     onComplete();
   };
 
   return (
     <div className="genesis-reading-screen">
+      {/* Background gradient */}
+      <div className="background-gradient" />
+
       <div 
         className={`genesis-container ${isVisible ? 'visible' : ''}`}
-        onMouseEnter={() => setShowControls(true)}
-        onMouseLeave={() => setShowControls(false)}
-        onTouchStart={() => setShowControls(true)}
       >
-        {/* Book and Chapter */}
+        {/* Book and chapter label */}
         <div className="scripture-header">
-          <h2 className="book-name">Genesis</h2>
-          <span className="chapter-number">Chapter 1</span>
+          <div className="header-line" />
+          <h2 className="book-chapter">Genesis 1:1</h2>
+          <div className="header-line" />
         </div>
 
-        {/* Verse Text */}
+        {/* Verse text */}
         <div className="verse-container">
-          <sup className="verse-number">1</sup>
           <p className="verse-text">{verseText}</p>
         </div>
 
-        {/* Audio Controls (hidden by default) */}
-        {showControls && (
-          <div className="audio-controls">
-            {!isPlaying ? (
-              <button 
-                onClick={handlePlay}
-                className="control-button"
-                aria-label="Play audio"
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path d="M8 5v14l11-7L8 5z" fill="currentColor" />
-                </svg>
-              </button>
-            ) : (
-              <button 
-                onClick={handlePause}
-                className="control-button"
-                aria-label="Pause audio"
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <rect x="6" y="4" width="4" height="16" fill="currentColor" />
-                  <rect x="14" y="4" width="4" height="16" fill="currentColor" />
-                </svg>
-              </button>
-            )}
+        {/* Decorative element */}
+        <div className="decorative-divider">
+          <div className="divider-dot" />
+          <div className="divider-line" />
+          <div className="divider-dot" />
+        </div>
+
+        {/* Audio indicator (if playing) */}
+        {isPlaying && (
+          <div className="audio-indicator">
+            <div className="audio-pulse" />
+            <span className="audio-label">Listening...</span>
           </div>
         )}
 
-        {/* Continue Button */}
-        <button 
-          onClick={handleContinue}
-          className="continue-button"
-        >
-          Continue to Bible
-        </button>
+        {/* Continue button */}
+        {showButton && (
+          <button 
+            onClick={handleContinue}
+            className="continue-button"
+          >
+            <span>Continue to Bible</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path 
+                d="M5 12h14M12 5l7 7-7 7" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
+        )}
       </div>
 
       <style jsx>{`
@@ -149,21 +134,38 @@ export default function GenesisReading({
           display: flex;
           align-items: center;
           justify-content: center;
-          background: linear-gradient(to bottom, #2d2416 0%, #1a1a1a 100%);
-          padding: 2rem;
+          background: linear-gradient(
+            to bottom,
+            #0a0a0a 0%,
+            #1a1410 50%,
+            #0a0a0a 100%
+          );
+          overflow: hidden;
+        }
+
+        .background-gradient {
+          position: absolute;
+          inset: 0;
+          background: radial-gradient(
+            ellipse at center,
+            rgba(212, 175, 55, 0.06) 0%,
+            transparent 60%
+          );
+          pointer-events: none;
         }
 
         .genesis-container {
-          max-width: 700px;
-          width: 100%;
-          background: rgba(245, 245, 220, 0.05);
-          border: 1px solid rgba(212, 175, 55, 0.2);
-          border-radius: 16px;
-          padding: 3rem 2rem;
-          opacity: 0;
-          transform: translateY(20px);
-          transition: all 1s ease;
           position: relative;
+          max-width: 800px;
+          width: 100%;
+          padding: 3rem 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 2.5rem;
+          opacity: 0;
+          transform: translateY(30px);
+          transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .genesis-container.visible {
@@ -171,123 +173,263 @@ export default function GenesisReading({
           transform: translateY(0);
         }
 
+        /* Scripture header */
         .scripture-header {
-          text-align: center;
-          margin-bottom: 2rem;
-          padding-bottom: 1rem;
-          border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
+          width: 100%;
+          max-width: 500px;
         }
 
-        .book-name {
-          font-family: 'Georgia', 'Times New Roman', serif;
-          font-size: 2rem;
-          font-weight: 600;
-          color: #d4af37;
-          margin-bottom: 0.5rem;
-          letter-spacing: 0.05em;
+        .header-line {
+          flex: 1;
+          height: 1px;
+          background: linear-gradient(
+            to right,
+            transparent,
+            rgba(212, 175, 55, 0.3),
+            transparent
+          );
         }
 
-        .chapter-number {
+        .book-chapter {
           font-family: 'Inter', sans-serif;
           font-size: 0.875rem;
-          font-weight: 500;
-          color: #8E8E93;
+          font-weight: 600;
+          color: rgba(212, 175, 55, 0.8);
+          letter-spacing: 0.2em;
           text-transform: uppercase;
-          letter-spacing: 0.1em;
+          margin: 0;
+          white-space: nowrap;
         }
 
+        /* Verse container */
         .verse-container {
-          margin: 2rem 0;
-        }
-
-        .verse-number {
-          font-family: 'Inter', sans-serif;
-          font-size: 0.875rem;
-          font-weight: 600;
-          color: #d4af37;
-          vertical-align: super;
-          margin-right: 0.5rem;
+          width: 100%;
+          max-width: 650px;
+          padding: 2rem;
+          background: rgba(212, 175, 55, 0.02);
+          border: 1px solid rgba(212, 175, 55, 0.1);
+          border-radius: 12px;
+          backdrop-filter: blur(10px);
         }
 
         .verse-text {
           font-family: 'Source Serif 4', 'Georgia', serif;
-          font-size: 1.5rem;
+          font-size: 1.75rem;
           line-height: 2;
           color: #f5f5dc;
           text-align: center;
           margin: 0;
+          text-shadow: 0 2px 12px rgba(212, 175, 55, 0.15);
         }
 
-        .audio-controls {
-          display: flex;
-          justify-content: center;
-          margin: 2rem 0;
-          animation: fadeIn 0.3s ease;
-        }
-
-        .control-button {
-          background: rgba(212, 175, 55, 0.1);
-          border: 1px solid rgba(212, 175, 55, 0.3);
-          color: #d4af37;
-          width: 48px;
-          height: 48px;
-          border-radius: 50%;
+        /* Decorative divider */
+        .decorative-divider {
           display: flex;
           align-items: center;
-          justify-content: center;
-          cursor: pointer;
-          transition: all 0.2s ease;
+          gap: 1rem;
+          opacity: 0.6;
         }
 
-        .control-button:hover {
-          background: rgba(212, 175, 55, 0.2);
-          transform: scale(1.05);
+        .divider-line {
+          width: 60px;
+          height: 1px;
+          background: linear-gradient(
+            to right,
+            transparent,
+            rgba(212, 175, 55, 0.5),
+            transparent
+          );
         }
 
-        .control-button:active {
-          transform: scale(0.95);
+        .divider-dot {
+          width: 4px;
+          height: 4px;
+          background: rgba(212, 175, 55, 0.5);
+          border-radius: 50%;
         }
 
-        .continue-button {
-          display: block;
-          margin: 2rem auto 0;
-          padding: 0.75rem 2rem;
-          background: rgba(212, 175, 55, 0.1);
-          border: 1px solid rgba(212, 175, 55, 0.3);
-          color: #d4af37;
-          font-size: 1rem;
+        /* Audio indicator */
+        .audio-indicator {
+          display: flex;
+          align-items: center;
+          gap: 0.75rem;
+          padding: 0.75rem 1.5rem;
+          background: rgba(212, 175, 55, 0.05);
+          border: 1px solid rgba(212, 175, 55, 0.2);
+          border-radius: 24px;
+          animation: fadeIn 0.5s ease;
+        }
+
+        .audio-pulse {
+          width: 8px;
+          height: 8px;
+          background: #d4af37;
+          border-radius: 50%;
+          animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        .audio-label {
+          font-family: 'Inter', sans-serif;
+          font-size: 0.875rem;
           font-weight: 500;
-          border-radius: 8px;
+          color: rgba(212, 175, 55, 0.8);
+          letter-spacing: 0.05em;
+        }
+
+        /* Continue button */
+        .continue-button {
+          display: flex;
+          align-items: center;
+          gap: 0.75rem;
+          padding: 1rem 2.5rem;
+          background: linear-gradient(
+            135deg,
+            rgba(212, 175, 55, 0.15) 0%,
+            rgba(212, 175, 55, 0.08) 100%
+          );
+          border: 1.5px solid rgba(212, 175, 55, 0.4);
+          color: #d4af37;
+          font-family: 'Georgia', serif;
+          font-size: 1.125rem;
+          font-weight: 500;
+          letter-spacing: 0.05em;
+          border-radius: 12px;
           cursor: pointer;
-          transition: all 0.2s ease;
+          transition: all 0.3s ease;
+          animation: fadeIn 0.8s ease;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .continue-button::before {
+          content: '';
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            135deg,
+            transparent 0%,
+            rgba(212, 175, 55, 0.1) 50%,
+            transparent 100%
+          );
+          transform: translateX(-100%);
+          transition: transform 0.6s ease;
+        }
+
+        .continue-button:hover::before {
+          transform: translateX(100%);
         }
 
         .continue-button:hover {
-          background: rgba(212, 175, 55, 0.2);
+          background: linear-gradient(
+            135deg,
+            rgba(212, 175, 55, 0.25) 0%,
+            rgba(212, 175, 55, 0.15) 100%
+          );
+          border-color: rgba(212, 175, 55, 0.6);
+          transform: translateY(-2px);
+          box-shadow: 
+            0 8px 24px rgba(212, 175, 55, 0.2),
+            0 0 40px rgba(212, 175, 55, 0.1);
         }
 
+        .continue-button:active {
+          transform: translateY(0);
+        }
+
+        .continue-button svg {
+          transition: transform 0.3s ease;
+        }
+
+        .continue-button:hover svg {
+          transform: translateX(4px);
+        }
+
+        /* Animations */
         @keyframes fadeIn {
           from {
             opacity: 0;
+            transform: translateY(10px);
           }
           to {
             opacity: 1;
+            transform: translateY(0);
           }
         }
 
-        /* Mobile adjustments */
-        @media (max-width: 640px) {
+        @keyframes pulse {
+          0%, 100% {
+            opacity: 1;
+            transform: scale(1);
+          }
+          50% {
+            opacity: 0.5;
+            transform: scale(1.2);
+          }
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
           .genesis-container {
             padding: 2rem 1.5rem;
+            gap: 2rem;
           }
 
-          .book-name {
+          .verse-text {
             font-size: 1.5rem;
+            line-height: 1.9;
+          }
+
+          .continue-button {
+            padding: 0.875rem 2rem;
+            font-size: 1rem;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .genesis-container {
+            padding: 1.5rem 1rem;
+            gap: 1.5rem;
+          }
+
+          .verse-container {
+            padding: 1.5rem;
           }
 
           .verse-text {
             font-size: 1.25rem;
             line-height: 1.8;
+          }
+
+          .book-chapter {
+            font-size: 0.75rem;
+          }
+
+          .continue-button {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.9375rem;
+          }
+        }
+
+        /* Reduced motion */
+        @media (prefers-reduced-motion: reduce) {
+          .genesis-container {
+            transition: opacity 0.5s ease;
+          }
+
+          .audio-indicator,
+          .continue-button {
+            animation: none;
+          }
+
+          .audio-pulse {
+            animation: none;
+          }
+
+          .continue-button::before {
+            display: none;
           }
         }
       `}</style>
