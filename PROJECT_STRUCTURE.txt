@@ -1,0 +1,67 @@
+.
+├── app
+│   ├── bible
+│   │   ├── [book]
+│   │   └── page.tsx
+│   ├── intro
+│   │   ├── components
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── listen
+│   │   └── page.tsx
+│   ├── login
+│   │   └── page.tsx
+│   ├── more
+│   │   └── page.tsx
+│   ├── notes
+│   │   └── page.tsx
+│   ├── search
+│   │   └── page.tsx
+│   ├── signup
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page-new.tsx
+│   └── page.tsx
+├── components
+│   ├── BottomTabBar-new.tsx
+│   ├── BottomTabBar.tsx
+│   └── Navigation.tsx
+├── data
+│   ├── README.md
+│   └── books.json
+├── lib
+│   ├── audio-utils.ts
+│   ├── intro-state.ts
+│   └── supabase.ts
+├── scripts
+│   ├── README.md
+│   ├── generate-sample-verses-sql.ts
+│   ├── seed-books.ts
+│   ├── seed-verses-fetch.ts
+│   └── seed-verses.ts
+├── supabase
+│   ├── migrations
+│   │   ├── 001_create_books_and_verses.sql
+│   │   ├── 002_create_summaries_and_purchases.sql
+│   │   └── 003_create_user_features.sql
+│   ├── seeds
+│   │   ├── 001_seed_books.sql
+│   │   └── 002_seed_sample_verses.sql
+│   ├── README.md
+│   └── SCHEMA.md
+├── IMPLEMENTATION_SUMMARY.md
+├── JUNIOR_DEVELOPER_HANDOFF.md
+├── OPENING_EXPERIENCE_ARCHITECTURE.md
+├── PACKAGE_UPDATES.md
+├── PROJECT_STRUCTURE.txt
+├── README.md
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+└── tsconfig.json
+
+18 directories, 46 files

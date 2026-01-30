@@ -9,7 +9,7 @@ interface AudioWelcomeProps {
 }
 
 const WELCOME_PARAGRAPHS = [
-  "Welcome to BibleSummary.ai.",
+  "Welcome to biblesummary.ai.",
   "Here, you can read the King James Version of the Bible freely — just as it was written.",
   "When I set out to read the Bible in full, I realized how long the journey truly was… and how difficult it could be to retain what I had read.",
   "This app was created to help you understand, remember, and return to Scripture — without replacing it.",
