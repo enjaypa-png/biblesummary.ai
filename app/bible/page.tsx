@@ -39,6 +39,7 @@ function BookList({ books, testament }: { books: Book[]; testament: string }) {
           <Link
             key={book.id}
             href={`/bible/${book.slug}`}
+            title={`Read ${book.name} — ${book.total_chapters} chapters`}
             className="flex items-center justify-between px-3 py-[11px] transition-colors active:bg-black/5 dark:active:bg-white/5 rounded-lg"
           >
             <div className="flex items-center gap-3 min-w-0">
