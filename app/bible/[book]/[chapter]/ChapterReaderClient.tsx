@@ -30,62 +30,65 @@ export default function ChapterReaderClient({
 }: Props) {
   const [fontSize, setFontSize] = useState(18);
   const [showChapterPicker, setShowChapterPicker] = useState(false);
+  const [showTools, setShowTools] = useState(false);
 
   const chapters = Array.from({ length: totalChapters }, (_, i) => i + 1);
+  const firstVerse = verses.length > 0 ? verses[0].verse : 1;
+  const lastVerse = verses.length > 0 ? verses[verses.length - 1].verse : 1;
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
-      {/* Slim toolbar */}
+      {/* ── Bible-style page header ── */}
       <header className="sticky top-0 z-40 backdrop-blur-xl"
-        style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}>
-        <div className="flex items-center justify-between max-w-2xl mx-auto px-4 py-2">
-          {/* Back to chapters */}
-          <Link
-            href={`/bible/${bookSlug}`}
-            title={`Back to ${bookName} chapters`}
-            className="flex items-center gap-1 text-sm font-medium"
-            style={{ color: "var(--accent)" }}
-          >
-            <svg width="7" height="12" viewBox="0 0 7 12" fill="none">
-              <path d="M6 1L1 6L6 11" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-            Chapters
-          </Link>
-
-          {/* Chapter picker toggle */}
+        style={{ backgroundColor: "var(--background-blur)", borderBottom: "1px solid var(--border)" }}>
+        {/* Top row: like a printed Bible page header */}
+        <div className="flex items-center justify-between max-w-2xl mx-auto px-5 py-2.5">
+          {/* Left: Book name + chapter (like top-left of a Bible page) */}
           <button
             onClick={() => setShowChapterPicker(!showChapterPicker)}
             title="Jump to a different chapter"
-            className="flex items-center gap-1.5 px-3 py-1 rounded-full transition-colors active:bg-black/5 dark:active:bg-white/5"
+            className="flex items-baseline gap-2 active:opacity-70 transition-opacity"
           >
+            <span
+              className="text-[15px] font-semibold uppercase tracking-wide"
+              style={{ color: "var(--foreground)", fontFamily: "'Source Serif 4', Georgia, serif" }}
+            >
+              {bookName}
+            </span>
             <span className="text-[13px] font-medium" style={{ color: "var(--secondary)" }}>
-              Ch. {chapter} of {totalChapters}
+              {chapter}:{firstVerse}–{lastVerse}
             </span>
             <svg width="8" height="5" viewBox="0 0 8 5" fill="none" className={`transition-transform ${showChapterPicker ? 'rotate-180' : ''}`}>
               <path d="M1 1L4 4L7 1" stroke="var(--secondary)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
 
-          {/* Font size controls with labels */}
-          <div className="flex items-center gap-1" title="Adjust text size">
+          {/* Right: tools button + back */}
+          <div className="flex items-center gap-3">
             <button
-              onClick={() => setFontSize(Math.max(14, fontSize - 2))}
-              className="w-7 h-7 flex items-center justify-center rounded-md active:bg-black/5 dark:active:bg-white/5"
-              title="Smaller text"
-              aria-label="Smaller text"
-              style={{ border: "0.5px solid var(--border)" }}
+              onClick={() => setShowTools(!showTools)}
+              title="Reading tools"
+              className="w-8 h-8 flex items-center justify-center rounded-lg active:bg-black/5 dark:active:bg-white/5"
+              aria-label="Reading tools"
             >
-              <span className="text-[10px] font-bold" style={{ color: "var(--secondary)" }}>A</span>
+              {/* Sliders/settings icon */}
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+                <circle cx="8" cy="6" r="2" fill="var(--secondary)" />
+                <circle cx="16" cy="12" r="2" fill="var(--secondary)" />
+                <circle cx="10" cy="18" r="2" fill="var(--secondary)" />
+              </svg>
             </button>
-            <button
-              onClick={() => setFontSize(Math.min(28, fontSize + 2))}
-              className="w-7 h-7 flex items-center justify-center rounded-md active:bg-black/5 dark:active:bg-white/5"
-              title="Larger text"
-              aria-label="Larger text"
-              style={{ border: "0.5px solid var(--border)" }}
+            <Link
+              href={`/bible/${bookSlug}`}
+              title={`Back to ${bookName} chapters`}
+              className="text-[13px] font-medium"
+              style={{ color: "var(--accent)" }}
             >
-              <span className="text-[16px] font-bold" style={{ color: "var(--secondary)" }}>A</span>
-            </button>
+              All Ch.
+            </Link>
           </div>
         </div>
 
@@ -99,9 +102,7 @@ export default function ChapterReaderClient({
                   href={`/bible/${bookSlug}/${ch}`}
                   title={`${bookName} chapter ${ch}`}
                   onClick={() => setShowChapterPicker(false)}
-                  className={`aspect-square rounded-lg flex items-center justify-center text-[13px] font-medium transition-all active:scale-95 ${
-                    ch === chapter ? 'text-white' : ''
-                  }`}
+                  className={`aspect-square rounded-lg flex items-center justify-center text-[13px] font-medium transition-all active:scale-95`}
                   style={{
                     backgroundColor: ch === chapter ? 'var(--accent)' : 'var(--card)',
                     color: ch === chapter ? '#fff' : 'var(--foreground)',
@@ -116,17 +117,160 @@ export default function ChapterReaderClient({
         )}
       </header>
 
-      {/* Bible text */}
+      {/* ── Tools sidebar ── */}
+      {showTools && (
+        <>
+          {/* Backdrop */}
+          <div
+            className="fixed inset-0 z-50 bg-black/30 transition-opacity"
+            onClick={() => setShowTools(false)}
+          />
+          {/* Sidebar panel */}
+          <div
+            className="fixed top-0 right-0 z-50 h-full w-72 shadow-2xl overflow-y-auto"
+            style={{ backgroundColor: "var(--card)" }}
+          >
+            <div className="p-5">
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>
+                  Reading Tools
+                </h2>
+                <button
+                  onClick={() => setShowTools(false)}
+                  className="w-8 h-8 flex items-center justify-center rounded-full active:bg-black/5 dark:active:bg-white/5"
+                  aria-label="Close tools"
+                >
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M1 1L13 13M13 1L1 13" stroke="var(--secondary)" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                </button>
+              </div>
+
+              {/* Font size control */}
+              <div className="mb-6">
+                <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>
+                  Text Size
+                </label>
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => setFontSize(Math.max(14, fontSize - 2))}
+                    title="Decrease text size"
+                    className="w-10 h-10 flex items-center justify-center rounded-lg active:scale-95 transition-transform"
+                    style={{ backgroundColor: "var(--background)", border: "1px solid var(--border)" }}
+                  >
+                    {/* Minus icon */}
+                    <svg width="16" height="2" viewBox="0 0 16 2" fill="none">
+                      <line x1="0" y1="1" x2="16" y2="1" stroke="var(--foreground)" strokeWidth="2" strokeLinecap="round"/>
+                    </svg>
+                  </button>
+                  <div className="flex-1 text-center">
+                    <span className="text-[15px] font-semibold tabular-nums" style={{ color: "var(--foreground)" }}>
+                      {fontSize}px
+                    </span>
+                  </div>
+                  <button
+                    onClick={() => setFontSize(Math.min(28, fontSize + 2))}
+                    title="Increase text size"
+                    className="w-10 h-10 flex items-center justify-center rounded-lg active:scale-95 transition-transform"
+                    style={{ backgroundColor: "var(--background)", border: "1px solid var(--border)" }}
+                  >
+                    {/* Plus icon */}
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <line x1="0" y1="8" x2="16" y2="8" stroke="var(--foreground)" strokeWidth="2" strokeLinecap="round"/>
+                      <line x1="8" y1="0" x2="8" y2="16" stroke="var(--foreground)" strokeWidth="2" strokeLinecap="round"/>
+                    </svg>
+                  </button>
+                </div>
+                {/* Size preview bar */}
+                <div className="mt-2 h-1 rounded-full overflow-hidden" style={{ backgroundColor: "var(--border)" }}>
+                  <div
+                    className="h-full rounded-full transition-all"
+                    style={{
+                      width: `${((fontSize - 14) / (28 - 14)) * 100}%`,
+                      backgroundColor: "var(--accent)",
+                    }}
+                  />
+                </div>
+              </div>
+
+              {/* Quick navigation */}
+              <div className="mb-6">
+                <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>
+                  Navigate
+                </label>
+                <div className="space-y-2">
+                  <Link
+                    href={`/bible/${bookSlug}`}
+                    className="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors active:bg-black/5 dark:active:bg-white/5"
+                    style={{ border: "1px solid var(--border)" }}
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+                      <polyline points="9 22 9 12 15 12 15 22"/>
+                    </svg>
+                    <span className="text-[14px] font-medium" style={{ color: "var(--foreground)" }}>
+                      {bookName} — All Chapters
+                    </span>
+                  </Link>
+                  <Link
+                    href="/bible"
+                    className="flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors active:bg-black/5 dark:active:bg-white/5"
+                    style={{ border: "1px solid var(--border)" }}
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>
+                    </svg>
+                    <span className="text-[14px] font-medium" style={{ color: "var(--foreground)" }}>
+                      All Books
+                    </span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Info */}
+              <div>
+                <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>
+                  About this chapter
+                </label>
+                <div className="px-3 py-2.5 rounded-lg" style={{ backgroundColor: "var(--background)" }}>
+                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--secondary)" }}>
+                    {bookName}, Chapter {chapter} of {totalChapters}<br />
+                    Verses {firstVerse}–{lastVerse} ({verses.length} verses)<br />
+                    King James Version
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
+
+      {/* ── Bible text ── */}
       <main className="max-w-2xl mx-auto px-5 py-6">
-        {/* Large book + chapter heading */}
-        <div className="text-center pt-4 pb-8">
-          <h1 className="text-3xl font-semibold tracking-tight" style={{ color: "var(--foreground)", fontFamily: "'Source Serif 4', Georgia, serif" }}>
+        {/* Large book heading — like a printed Bible chapter start */}
+        <div className="text-center pt-6 pb-10">
+          <h1
+            className="font-semibold tracking-tight leading-none"
+            style={{
+              color: "var(--foreground)",
+              fontFamily: "'Source Serif 4', Georgia, serif",
+              fontSize: "clamp(2rem, 8vw, 3rem)",
+            }}
+          >
             {bookName}
           </h1>
-          <p className="text-sm mt-1.5 tracking-widest uppercase font-medium" style={{ color: "var(--secondary)" }}>
+          <p
+            className="mt-3 tracking-[0.25em] uppercase font-semibold"
+            style={{ color: "var(--secondary)", fontSize: "clamp(0.75rem, 2.5vw, 0.875rem)" }}
+          >
             Chapter {chapter}
           </p>
-          <div className="mx-auto mt-4 w-16 h-px" style={{ backgroundColor: "var(--border)" }} />
+          {/* Decorative rule like a printed Bible */}
+          <div className="flex items-center justify-center gap-3 mt-5">
+            <div className="h-px flex-1 max-w-[60px]" style={{ backgroundColor: "var(--border)" }} />
+            <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "var(--secondary)", opacity: 0.4 }} />
+            <div className="h-px flex-1 max-w-[60px]" style={{ backgroundColor: "var(--border)" }} />
+          </div>
         </div>
 
         <div
@@ -141,7 +285,7 @@ export default function ChapterReaderClient({
           ))}
         </div>
 
-        {/* Chapter navigation - clear left/right with labels */}
+        {/* ── Chapter navigation ── */}
         <nav className="mt-16 pt-6 border-t" style={{ borderColor: "var(--border)" }}>
           <div className="flex justify-between items-center">
             {prevChapter ? (
