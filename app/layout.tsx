@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import BottomTabBar from "@/components/BottomTabBar";
+import AuthGate from "@/components/AuthGate";
 
 export const metadata: Metadata = {
   title: "BibleSummary.ai - Read & Understand the Bible",
@@ -15,8 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
-        {children}
-        <BottomTabBar />
+        <AuthGate>
+          {children}
+          <BottomTabBar />
+        </AuthGate>
       </body>
     </html>
   );
