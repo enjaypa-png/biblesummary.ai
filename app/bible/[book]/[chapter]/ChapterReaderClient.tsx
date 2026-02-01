@@ -305,7 +305,7 @@ export default function ChapterReaderClient({
                     style={{ fontFamily: "'Inter', sans-serif" }}
                   >
                     <span className="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded"
-                      style={{ backgroundColor: "var(--highlight)", color: "var(--accent)", fontSize: "10px" }}>
+                      style={{ backgroundColor: "#FBBF24", color: "#713F12", fontSize: "10px" }}>
                       Note
                     </span>
                   </span>
