@@ -293,7 +293,7 @@ export default function ChapterReaderClient({
                     isActive ? 'bg-[var(--highlight)]' : ''
                   }`}
                   onClick={() => handleVerseTap(verse.verse)}
-                  title={hasNote ? "View or edit your note" : user ? "Tap to add a note" : "Sign in to add notes"}
+                  title={hasNote ? "View or edit your note" : "Tap to add a note"}
                 >
                   <sup className="verse-number">{verse.verse}</sup>
                   {verse.text}
@@ -318,55 +318,46 @@ export default function ChapterReaderClient({
                     <span className="block text-[12px] uppercase tracking-wider font-semibold mb-2" style={{ color: "var(--secondary)", fontFamily: "'Inter', sans-serif" }}>
                       {bookName} {chapter}:{verse.verse}
                     </span>
-                    {user ? (
-                      <>
-                        <textarea
-                          value={noteText}
-                          onChange={(e) => setNoteText(e.target.value)}
-                          placeholder="Write your note..."
-                          className="block w-full rounded-lg p-3 text-[14px] leading-relaxed resize-none outline-none"
-                          style={{
-                            backgroundColor: "var(--background)",
-                            color: "var(--foreground)",
-                            border: "1px solid var(--border)",
-                            fontFamily: "'Inter', sans-serif",
-                          }}
-                          rows={3}
-                          autoFocus
-                        />
-                        <span className="flex gap-2 mt-3 justify-end" style={{ fontFamily: "'Inter', sans-serif" }}>
-                          {hasNote && (
-                            <button
-                              onClick={() => deleteNote(verse.verse)}
-                              className="px-3 py-1.5 rounded-lg text-[13px] font-medium"
-                              style={{ color: "#DC2626" }}
-                            >
-                              Delete
-                            </button>
-                          )}
-                          <button
-                            onClick={() => { setActiveVerse(null); setNoteText(""); }}
-                            className="px-3 py-1.5 rounded-lg text-[13px] font-medium"
-                            style={{ color: "var(--secondary)" }}
-                          >
-                            Cancel
-                          </button>
-                          <button
-                            onClick={saveNote}
-                            disabled={saving || !noteText.trim()}
-                            className="px-4 py-1.5 rounded-lg text-[13px] font-semibold text-white disabled:opacity-50"
-                            style={{ backgroundColor: "var(--accent)" }}
-                          >
-                            {saving ? "Saving..." : "Save"}
-                          </button>
-                        </span>
-                      </>
-                    ) : (
-                      <span className="block text-[13px] leading-relaxed" style={{ color: "var(--secondary)", fontFamily: "'Inter', sans-serif" }}>
-                        <Link href={`/login?redirect=${encodeURIComponent(`/bible/${bookSlug}/${chapter}`)}`} className="font-semibold" style={{ color: "var(--accent)" }}>Sign in</Link>
-                        {" "}to add notes to verses.
-                      </span>
-                    )}
+                    <textarea
+                      value={noteText}
+                      onChange={(e) => setNoteText(e.target.value)}
+                      placeholder="Write your note..."
+                      className="block w-full rounded-lg p-3 text-[14px] leading-relaxed resize-none outline-none"
+                      style={{
+                        backgroundColor: "var(--background)",
+                        color: "var(--foreground)",
+                        border: "1px solid var(--border)",
+                        fontFamily: "'Inter', sans-serif",
+                      }}
+                      rows={3}
+                      autoFocus
+                    />
+                    <span className="flex gap-2 mt-3 justify-end" style={{ fontFamily: "'Inter', sans-serif" }}>
+                      {hasNote && (
+                        <button
+                          onClick={() => deleteNote(verse.verse)}
+                          className="px-3 py-1.5 rounded-lg text-[13px] font-medium"
+                          style={{ color: "#DC2626" }}
+                        >
+                          Delete
+                        </button>
+                      )}
+                      <button
+                        onClick={() => { setActiveVerse(null); setNoteText(""); }}
+                        className="px-3 py-1.5 rounded-lg text-[13px] font-medium"
+                        style={{ color: "var(--secondary)" }}
+                      >
+                        Cancel
+                      </button>
+                      <button
+                        onClick={saveNote}
+                        disabled={saving || !noteText.trim()}
+                        className="px-4 py-1.5 rounded-lg text-[13px] font-semibold text-white disabled:opacity-50"
+                        style={{ backgroundColor: "var(--accent)" }}
+                      >
+                        {saving ? "Saving..." : "Save"}
+                      </button>
+                    </span>
                   </span>
                 )}
               </span>
