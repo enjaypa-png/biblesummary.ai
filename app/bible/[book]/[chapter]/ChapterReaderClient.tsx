@@ -363,7 +363,7 @@ export default function ChapterReaderClient({
                       </>
                     ) : (
                       <span className="block text-[13px] leading-relaxed" style={{ color: "var(--secondary)", fontFamily: "'Inter', sans-serif" }}>
-                        <Link href="/login" className="font-semibold" style={{ color: "var(--accent)" }}>Sign in</Link>
+                        <Link href={`/login?redirect=${encodeURIComponent(`/bible/${bookSlug}/${chapter}`)}`} className="font-semibold" style={{ color: "var(--accent)" }}>Sign in</Link>
                         {" "}to add notes to verses.
                       </span>
                     )}

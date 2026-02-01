@@ -105,10 +105,10 @@ export default function NotesPage() {
             Notes are never shared or analyzed.
           </p>
           <div className="flex gap-3 justify-center">
-            <Link href="/login" className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white" style={{ backgroundColor: "var(--accent)" }}>
+            <Link href="/login?redirect=%2Fnotes" className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white" style={{ backgroundColor: "var(--accent)" }}>
               Sign In
             </Link>
-            <Link href="/signup" className="px-5 py-2.5 rounded-xl text-sm font-semibold" style={{ color: "var(--foreground)", border: "1px solid var(--border)" }}>
+            <Link href="/signup?redirect=%2Fnotes" className="px-5 py-2.5 rounded-xl text-sm font-semibold" style={{ color: "var(--foreground)", border: "1px solid var(--border)" }}>
               Create Account
             </Link>
           </div>
