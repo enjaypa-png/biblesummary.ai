@@ -22,7 +22,7 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
     }
 
     getCurrentUser().then((user) => {
-      if (user) {
+      if (user && user.email_confirmed_at) {
         setAuthed(true);
       } else {
         router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
