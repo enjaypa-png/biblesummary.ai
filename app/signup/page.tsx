@@ -1,17 +1,14 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
-import Navigation from "@/components/Navigation";
 
-/**
- * Sign up page with email/password registration
- * Uses Supabase Auth for user registration
- */
-export default function SignUpPage() {
+function SignUpForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const redirect = searchParams.get("redirect") || "/";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -19,23 +16,18 @@ export default function SignUpPage() {
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  /**
-   * Handle sign up form submission
-   */
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
     setSuccess(false);
     setLoading(true);
 
-    // Validate password match
     if (password !== confirmPassword) {
       setError("Passwords do not match");
       setLoading(false);
       return;
     }
 
-    // Validate password length
     if (password.length < 6) {
       setError("Password must be at least 6 characters long");
       setLoading(false);
@@ -43,7 +35,6 @@ export default function SignUpPage() {
     }
 
     try {
-      // Sign up with Supabase Auth
       const { data, error } = await supabase.auth.signUp({
         email,
         password,
@@ -56,59 +47,63 @@ export default function SignUpPage() {
 
       if (data.user) {
         setSuccess(true);
-        // Redirect to home page after a brief delay
         setTimeout(() => {
-          router.push("/");
+          router.push(redirect);
           router.refresh();
         }, 2000);
       }
-    } catch (err) {
+    } catch {
       setError("An unexpected error occurred. Please try again.");
-      console.error(err);
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navigation />
+    <div className="min-h-screen flex flex-col" style={{ backgroundColor: "var(--background)" }}>
+      <div className="max-w-md mx-auto w-full px-6 pt-6">
+        <Link
+          href={redirect}
+          className="text-[13px] font-medium flex items-center gap-1.5"
+          style={{ color: "var(--accent)" }}
+        >
+          <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
+            <path d="M5 1L1 5L5 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          Back
+        </Link>
+      </div>
 
-      <main className="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8 py-12">
+      <main className="flex-1 flex items-center justify-center px-6 pb-16">
         <div className="max-w-md w-full">
-          {/* Header */}
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+            <h1
+              className="font-semibold tracking-tight"
+              style={{ color: "var(--foreground)", fontFamily: "'Source Serif 4', Georgia, serif", fontSize: "clamp(1.75rem, 6vw, 2.25rem)" }}
+            >
               Create Account
             </h1>
-            <p className="text-gray-600 dark:text-gray-400">
-              Start your Bible study journey with BibleSummary.ai
+            <p className="mt-2 text-[14px]" style={{ color: "var(--secondary)" }}>
+              Start your Bible study journey
             </p>
           </div>
 
-          {/* Sign Up Form */}
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 p-8">
-            <form onSubmit={handleSignUp} className="space-y-6">
-              {/* Error Message */}
+          <div className="rounded-xl p-6" style={{ backgroundColor: "var(--card)", border: "1px solid var(--border)" }}>
+            <form onSubmit={handleSignUp} className="space-y-5">
               {error && (
-                <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 text-red-700 dark:text-red-400 px-4 py-3 rounded-lg">
+                <div className="rounded-lg px-4 py-3 text-[13px]" style={{ backgroundColor: "#FEF2F2", color: "#DC2626", border: "1px solid #FECACA" }}>
                   {error}
                 </div>
               )}
 
-              {/* Success Message */}
               {success && (
-                <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 text-green-700 dark:text-green-400 px-4 py-3 rounded-lg">
-                  Account created successfully! Redirecting...
+                <div className="rounded-lg px-4 py-3 text-[13px]" style={{ backgroundColor: "#F0FDF4", color: "#16A34A", border: "1px solid #BBF7D0" }}>
+                  Account created! Redirecting you back...
                 </div>
               )}
 
-              {/* Email Field */}
               <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
-                >
+                <label htmlFor="email" className="block text-[12px] uppercase tracking-wider font-semibold mb-2" style={{ color: "var(--secondary)" }}>
                   Email Address
                 </label>
                 <input
@@ -117,17 +112,14 @@ export default function SignUpPage() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                  className="w-full px-4 py-2.5 rounded-lg text-[15px] outline-none"
+                  style={{ backgroundColor: "var(--background)", color: "var(--foreground)", border: "1px solid var(--border)" }}
                   placeholder="you@example.com"
                 />
               </div>
 
-              {/* Password Field */}
               <div>
-                <label
-                  htmlFor="password"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
-                >
+                <label htmlFor="password" className="block text-[12px] uppercase tracking-wider font-semibold mb-2" style={{ color: "var(--secondary)" }}>
                   Password
                 </label>
                 <input
@@ -136,21 +128,18 @@ export default function SignUpPage() {
                   required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                  className="w-full px-4 py-2.5 rounded-lg text-[15px] outline-none"
+                  style={{ backgroundColor: "var(--background)", color: "var(--foreground)", border: "1px solid var(--border)" }}
                   placeholder="••••••••"
                   minLength={6}
                 />
-                <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
+                <p className="mt-1 text-[11px]" style={{ color: "var(--secondary)" }}>
                   Must be at least 6 characters
                 </p>
               </div>
 
-              {/* Confirm Password Field */}
               <div>
-                <label
-                  htmlFor="confirmPassword"
-                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
-                >
+                <label htmlFor="confirmPassword" className="block text-[12px] uppercase tracking-wider font-semibold mb-2" style={{ color: "var(--secondary)" }}>
                   Confirm Password
                 </label>
                 <input
@@ -159,28 +148,29 @@ export default function SignUpPage() {
                   required
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white"
+                  className="w-full px-4 py-2.5 rounded-lg text-[15px] outline-none"
+                  style={{ backgroundColor: "var(--background)", color: "var(--foreground)", border: "1px solid var(--border)" }}
                   placeholder="••••••••"
                 />
               </div>
 
-              {/* Submit Button */}
               <button
                 type="submit"
                 disabled={loading || success}
-                className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                className="w-full px-4 py-2.5 rounded-lg text-[15px] font-semibold text-white disabled:opacity-50 transition-opacity"
+                style={{ backgroundColor: "var(--accent)" }}
               >
                 {loading ? "Creating account..." : "Create Account"}
               </button>
             </form>
 
-            {/* Sign In Link */}
-            <div className="mt-6 text-center">
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="mt-5 text-center">
+              <p className="text-[13px]" style={{ color: "var(--secondary)" }}>
                 Already have an account?{" "}
                 <Link
-                  href="/login"
-                  className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+                  href={`/login${redirect !== "/" ? `?redirect=${encodeURIComponent(redirect)}` : ""}`}
+                  className="font-semibold"
+                  style={{ color: "var(--accent)" }}
                 >
                   Sign in
                 </Link>
@@ -190,5 +180,13 @@ export default function SignUpPage() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function SignUpPage() {
+  return (
+    <Suspense>
+      <SignUpForm />
+    </Suspense>
   );
 }
