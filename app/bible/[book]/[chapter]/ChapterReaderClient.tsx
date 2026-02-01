@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 
 interface Verse {
@@ -47,6 +47,10 @@ export default function ChapterReaderClient({
   const [activeVerse, setActiveVerse] = useState<number | null>(null);
   const [noteText, setNoteText] = useState("");
   const [saving, setSaving] = useState(false);
+
+  // Audio state
+  const [audioState, setAudioState] = useState<"idle" | "loading" | "playing" | "paused">("idle");
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const chapters = Array.from({ length: totalChapters }, (_, i) => i + 1);
   const firstVerse = verses.length > 0 ? verses[0].verse : 1;
@@ -120,6 +124,44 @@ export default function ChapterReaderClient({
     setNoteText("");
   }
 
+  async function handleAudioToggle() {
+    if (audioState === "playing") {
+      audioRef.current?.pause();
+      setAudioState("paused");
+      return;
+    }
+    if (audioState === "paused" && audioRef.current) {
+      audioRef.current.play();
+      setAudioState("playing");
+      return;
+    }
+
+    setAudioState("loading");
+    try {
+      const text = verses.map((v) => v.text).join(" ");
+      const res = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text }),
+      });
+      if (!res.ok) {
+        setAudioState("idle");
+        return;
+      }
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const audio = new Audio(url);
+      audioRef.current = audio;
+      audio.addEventListener("ended", () => {
+        setAudioState("idle");
+      });
+      await audio.play();
+      setAudioState("playing");
+    } catch {
+      setAudioState("idle");
+    }
+  }
+
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
       {/* ── Bible-style page header ── */}
@@ -146,6 +188,28 @@ export default function ChapterReaderClient({
           </button>
 
           <div className="flex items-center gap-3">
+            <button
+              onClick={handleAudioToggle}
+              disabled={audioState === "loading"}
+              title={audioState === "playing" ? "Pause audio" : audioState === "paused" ? "Resume audio" : "Listen to this chapter"}
+              className="w-8 h-8 flex items-center justify-center rounded-lg active:bg-black/5 dark:active:bg-white/5 disabled:opacity-50"
+              aria-label="Listen"
+            >
+              {audioState === "loading" ? (
+                <svg width="16" height="16" viewBox="0 0 24 24" className="animate-spin">
+                  <circle cx="12" cy="12" r="10" stroke="var(--secondary)" strokeWidth="2.5" fill="none" strokeDasharray="60" strokeDashoffset="20" strokeLinecap="round"/>
+                </svg>
+              ) : audioState === "playing" ? (
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--accent)">
+                  <rect x="5" y="3" width="5" height="18" rx="1"/>
+                  <rect x="14" y="3" width="5" height="18" rx="1"/>
+                </svg>
+              ) : (
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={audioState === "paused" ? "var(--accent)" : "var(--secondary)"} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <polygon points="5 3 19 12 5 21 5 3" fill={audioState === "paused" ? "var(--accent)" : "none"}/>
+                </svg>
+              )}
+            </button>
             <button
               onClick={() => setShowTools(!showTools)}
               title="Reading tools"
