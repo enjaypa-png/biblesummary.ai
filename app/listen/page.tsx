@@ -103,7 +103,7 @@ export default function ListenPage() {
       
       // For faster startup, send only first 800 characters initially
       const initialChunk = fullText.slice(0, 800);
-      const remainingText = fullText.slice(800);
+      let remainingText = fullText.slice(800);
 
       // Create audio element and set up listeners immediately
       const audio = new Audio();
@@ -117,10 +117,27 @@ export default function ListenPage() {
         setCurrentTime(audio.currentTime);
       });
 
-      audio.addEventListener("ended", () => {
+      audio.addEventListener("ended", async () => {
         // If we have remaining text, load it next
         if (remainingText) {
-          loadRemainingAudio(remainingText, audio);
+          try {
+            const res = await fetch("/api/tts", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ text: remainingText }),
+            });
+
+            if (res.ok) {
+              const blob = await res.blob();
+              const nextUrl = URL.createObjectURL(blob);
+              
+              audio.src = nextUrl;
+              await audio.play();
+              remainingText = ""; // Clear remaining text
+            }
+          } catch (error) {
+            console.error("Failed to load remaining audio:", error);
+          }
         } else {
           setAudioState("idle");
           setCurrentTime(0);
@@ -131,30 +148,6 @@ export default function ListenPage() {
         setErrorMsg("Audio playback error");
         setAudioState("error");
       });
-
-      // Function to load remaining text in background
-      async function loadRemainingAudio(text: string, audioElement: HTMLAudioElement) {
-        try {
-          const res = await fetch("/api/tts", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ text }),
-          });
-
-          if (res.ok) {
-            const blob = await res.blob();
-            const nextUrl = URL.createObjectURL(blob);
-            
-            // Queue the next audio segment
-            audioElement.addEventListener("ended", () => {
-              audioElement.src = nextUrl;
-              audioElement.play().catch(console.error);
-            }, { once: true });
-          }
-        } catch (error) {
-          console.error("Failed to load remaining audio:", error);
-        }
-      }
 
       // Start with initial chunk immediately
       try {
@@ -177,11 +170,6 @@ export default function ListenPage() {
         
         await audio.play();
         setAudioState("playing");
-
-        // Load remaining audio in background for seamless playback
-        if (remainingText) {
-          loadRemainingAudio(remainingText, audio);
-        }
       } catch (error) {
         console.error("Initial audio loading failed:", error);
         setErrorMsg("Could not generate audio. Please try again.");
