@@ -59,7 +59,7 @@ const tabs = [
 export default function BottomTabBar() {
   const pathname = usePathname();
 
-  if (pathname.startsWith("/intro")) {
+  if (pathname.startsWith("/login") || pathname.startsWith("/signup")) {
     return null;
   }
 
