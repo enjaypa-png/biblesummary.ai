@@ -48,9 +48,12 @@ export default function ChapterReaderClient({
   const [noteText, setNoteText] = useState("");
   const [saving, setSaving] = useState(false);
 
-  // Audio state
-  const [audioState, setAudioState] = useState<"idle" | "loading" | "playing" | "paused">("idle");
+  // Audio player state
+  const [audioState, setAudioState] = useState<"idle" | "loading" | "playing" | "paused" | "error">("idle");
+  const [errorMsg, setErrorMsg] = useState("");
+  const [currentlyPlayingVerse, setCurrentlyPlayingVerse] = useState<number | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const shouldContinueAudioRef = useRef<boolean>(false);
 
   const chapters = Array.from({ length: totalChapters }, (_, i) => i + 1);
   const firstVerse = verses.length > 0 ? verses[0].verse : 1;
@@ -119,35 +122,120 @@ export default function ChapterReaderClient({
     setNoteText("");
   }
 
+  function stopAudio() {
+    shouldContinueAudioRef.current = false; // Signal to stop loading more audio
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      URL.revokeObjectURL(audioRef.current.src);
+      audioRef.current = null;
+    }
+    setAudioState("idle");
+    setErrorMsg("");
+    setCurrentlyPlayingVerse(null); // Clear verse highlighting
+  }
+
   async function handleAudioToggle() {
     if (audioState === "playing") {
-      audioRef.current?.pause();
-      setAudioState("paused");
+      stopAudio();
       return;
     }
+    
     if (audioState === "paused" && audioRef.current) {
       audioRef.current.play();
       setAudioState("playing");
       return;
     }
+
+    // Stop any existing audio before starting new
+    stopAudio();
+    shouldContinueAudioRef.current = true; // Signal we want continuous playback
     setAudioState("loading");
+    setErrorMsg("");
+
     try {
-      const text = verses.map((v) => v.text).join(" ");
+      // Build text to speak - use first 800 chars for fast start
+      const fullText = verses.map((v) => v.text).join(" ");
+      const initialChunk = fullText.slice(0, 800);
+      let remainingText = fullText.slice(800);
+
+      // Create audio element
+      const audio = new Audio();
+      audioRef.current = audio;
+
+      audio.addEventListener("ended", async () => {
+        // Only load remaining if we have it and user hasn't stopped (check ref, not state)
+        if (remainingText && shouldContinueAudioRef.current) {
+          try {
+            const res = await fetch("/api/tts", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ text: remainingText }),
+            });
+
+            if (res.ok && shouldContinueAudioRef.current) {
+              const blob = await res.blob();
+              const nextUrl = URL.createObjectURL(blob);
+              audio.src = nextUrl;
+              await audio.play();
+              remainingText = "";
+            }
+          } catch (error) {
+            console.error("Failed to load remaining audio:", error);
+            setAudioState("idle");
+          }
+        } else {
+          setAudioState("idle");
+        }
+      });
+
+      audio.addEventListener("error", () => {
+        setErrorMsg("Audio playback error");
+        setAudioState("error");
+      });
+
+      // Start with initial chunk for fast playback
       const res = await fetch("/api/tts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text }),
+        body: JSON.stringify({ text: initialChunk }),
       });
-      if (!res.ok) { setAudioState("idle"); return; }
+
+      if (!res.ok) {
+        setErrorMsg("Failed to generate audio");
+        setAudioState("error");
+        return;
+      }
+
       const blob = await res.blob();
       const url = URL.createObjectURL(blob);
-      const audio = new Audio(url);
-      audioRef.current = audio;
-      audio.addEventListener("ended", () => setAudioState("idle"));
+      audio.src = url;
+
       await audio.play();
       setAudioState("playing");
-    } catch {
-      setAudioState("idle");
+
+      // Start verse highlighting - estimate ~3 seconds per verse
+      let currentVerseIndex = 0;
+      const highlightInterval = setInterval(() => {
+        if (currentVerseIndex < verses.length && shouldContinueAudioRef.current) {
+          setCurrentlyPlayingVerse(verses[currentVerseIndex].verse);
+          currentVerseIndex++;
+        } else {
+          clearInterval(highlightInterval);
+          setCurrentlyPlayingVerse(null);
+        }
+      }, 3000);
+
+      // Clean up interval when audio ends
+      audio.addEventListener("ended", () => {
+        clearInterval(highlightInterval);
+        setCurrentlyPlayingVerse(null);
+      }, { once: true });
+
+    } catch (error) {
+      console.error("Audio error:", error);
+      setErrorMsg("Could not generate audio");
+      setAudioState("error");
     }
   }
 
@@ -192,9 +280,9 @@ export default function ChapterReaderClient({
             <button
               onClick={handleAudioToggle}
               disabled={audioState === "loading"}
-              title={audioState === "playing" ? "Pause audio" : audioState === "paused" ? "Resume audio" : "Listen to this chapter"}
-              className="w-8 h-8 flex items-center justify-center rounded-lg active:bg-black/5 dark:active:bg-white/5 disabled:opacity-50"
-              aria-label="Listen"
+              title={audioState === "playing" ? "Stop audio" : "Listen to this chapter"}
+              className="w-8 h-8 flex items-center justify-center rounded-lg active:bg-black/5 dark:active:bg-white/5 disabled:opacity-50 smooth-transition"
+              aria-label={audioState === "playing" ? "Stop" : "Listen"}
             >
               {audioState === "loading" ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" className="animate-spin">
@@ -202,12 +290,11 @@ export default function ChapterReaderClient({
                 </svg>
               ) : audioState === "playing" ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--accent)">
-                  <rect x="5" y="3" width="5" height="18" rx="1"/>
-                  <rect x="14" y="3" width="5" height="18" rx="1"/>
+                  <rect x="6" y="6" width="12" height="12" rx="1"/>
                 </svg>
               ) : (
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={audioState === "paused" ? "var(--accent)" : "var(--secondary)"} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                  <polygon points="5 3 19 12 5 21 5 3" fill={audioState === "paused" ? "var(--accent)" : "none"}/>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <polygon points="5 3 19 12 5 21 5 3"/>
                 </svg>
               )}
             </button>
@@ -353,13 +440,14 @@ export default function ChapterReaderClient({
           {verses.map((verse: Verse) => {
             const hasNote = !!getVerseNote(verse.verse);
             const isActive = activeVerse === verse.verse;
+            const isPlayingThisVerse = currentlyPlayingVerse === verse.verse;
 
             return (
               <span key={verse.id}>
                 <span
                   className={`inline cursor-pointer transition-colors rounded-sm ${
                     isActive ? 'bg-[var(--highlight)]' : ''
-                  }`}
+                  } ${isPlayingThisVerse ? 'bg-blue-100 dark:bg-blue-900' : ''}`}
                   onClick={() => handleVerseTap(verse.verse)}
                   title={hasNote ? "View or edit your note" : "Tap to add a note"}
                 >
