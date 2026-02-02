@@ -54,6 +54,8 @@ export default function ChapterReaderClient({
   const [currentlyPlayingVerse, setCurrentlyPlayingVerse] = useState<number | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const shouldContinueAudioRef = useRef<boolean>(false);
+  const abortControllerRef = useRef<AbortController | null>(null);
+  const highlightIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   const chapters = Array.from({ length: totalChapters }, (_, i) => i + 1);
   const firstVerse = verses.length > 0 ? verses[0].verse : 1;
@@ -124,12 +126,28 @@ export default function ChapterReaderClient({
 
   function stopAudio() {
     shouldContinueAudioRef.current = false; // Signal to stop loading more audio
+    
+    // Abort any pending fetch requests
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+      abortControllerRef.current = null;
+    }
+    
+    // Clear highlighting interval
+    if (highlightIntervalRef.current) {
+      clearInterval(highlightIntervalRef.current);
+      highlightIntervalRef.current = null;
+    }
+    
+    // Stop and cleanup audio
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
+      audioRef.current.removeEventListener("ended", () => {}); // Remove all listeners
       URL.revokeObjectURL(audioRef.current.src);
       audioRef.current = null;
     }
+    
     setAudioState("idle");
     setErrorMsg("");
     setCurrentlyPlayingVerse(null); // Clear verse highlighting
@@ -153,15 +171,48 @@ export default function ChapterReaderClient({
     setAudioState("loading");
     setErrorMsg("");
 
+    // Create new abort controller for this playback session
+    abortControllerRef.current = new AbortController();
+    const playbackAbortController = abortControllerRef.current;
+
     try {
       // Build text to speak - use first 800 chars for fast start
       const fullText = verses.map((v) => v.text).join(" ");
       const initialChunk = fullText.slice(0, 800);
       let remainingText = fullText.slice(800);
 
+      // Start with initial chunk for fast playback
+      const res = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: initialChunk }),
+        signal: playbackAbortController.signal,
+      });
+
+      // Check if we were aborted during fetch
+      if (!shouldContinueAudioRef.current) {
+        return;
+      }
+
+      if (!res.ok) {
+        setErrorMsg("Failed to generate audio");
+        setAudioState("error");
+        return;
+      }
+
+      const blob = await res.blob();
+      
+      // Check again after blob processing
+      if (!shouldContinueAudioRef.current) {
+        return;
+      }
+
+      const url = URL.createObjectURL(blob);
+
       // Create audio element
       const audio = new Audio();
       audioRef.current = audio;
+      audio.src = url;
 
       audio.addEventListener("ended", async () => {
         // Only load remaining if we have it and user hasn't stopped (check ref, not state)
@@ -171,6 +222,7 @@ export default function ChapterReaderClient({
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ text: remainingText }),
+              signal: playbackAbortController.signal,
             });
 
             if (res.ok && shouldContinueAudioRef.current) {
@@ -181,58 +233,57 @@ export default function ChapterReaderClient({
               remainingText = "";
             }
           } catch (error) {
-            console.error("Failed to load remaining audio:", error);
+            if (error instanceof Error && error.name !== 'AbortError') {
+              console.error("Failed to load remaining audio:", error);
+            }
             setAudioState("idle");
           }
         } else {
           setAudioState("idle");
+          if (highlightIntervalRef.current) {
+            clearInterval(highlightIntervalRef.current);
+            highlightIntervalRef.current = null;
+          }
+          setCurrentlyPlayingVerse(null);
         }
       });
 
       audio.addEventListener("error", () => {
-        setErrorMsg("Audio playback error");
-        setAudioState("error");
+        if (shouldContinueAudioRef.current) {
+          setErrorMsg("Audio playback error");
+          setAudioState("error");
+        }
       });
 
-      // Start with initial chunk for fast playback
-      const res = await fetch("/api/tts", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: initialChunk }),
-      });
-
-      if (!res.ok) {
-        setErrorMsg("Failed to generate audio");
-        setAudioState("error");
+      // Check one more time before playing
+      if (!shouldContinueAudioRef.current) {
+        URL.revokeObjectURL(url);
         return;
       }
-
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      audio.src = url;
 
       await audio.play();
       setAudioState("playing");
 
       // Start verse highlighting - estimate ~3 seconds per verse
       let currentVerseIndex = 0;
-      const highlightInterval = setInterval(() => {
+      highlightIntervalRef.current = setInterval(() => {
         if (currentVerseIndex < verses.length && shouldContinueAudioRef.current) {
           setCurrentlyPlayingVerse(verses[currentVerseIndex].verse);
           currentVerseIndex++;
         } else {
-          clearInterval(highlightInterval);
+          if (highlightIntervalRef.current) {
+            clearInterval(highlightIntervalRef.current);
+            highlightIntervalRef.current = null;
+          }
           setCurrentlyPlayingVerse(null);
         }
       }, 3000);
 
-      // Clean up interval when audio ends
-      audio.addEventListener("ended", () => {
-        clearInterval(highlightInterval);
-        setCurrentlyPlayingVerse(null);
-      }, { once: true });
-
     } catch (error) {
+      if (error instanceof Error && error.name === 'AbortError') {
+        // Fetch was aborted, this is expected when stop is clicked
+        return;
+      }
       console.error("Audio error:", error);
       setErrorMsg("Could not generate audio");
       setAudioState("error");
