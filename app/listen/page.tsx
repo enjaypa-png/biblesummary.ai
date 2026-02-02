@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 
 interface Book {
@@ -13,6 +14,10 @@ interface Book {
 }
 
 export default function ListenPage() {
+  const searchParams = useSearchParams();
+  const bookSlug = searchParams.get("book");
+  const chapterParam = searchParams.get("chapter");
+  
   const [books, setBooks] = useState<Book[]>([]);
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
   const [selectedChapter, setSelectedChapter] = useState<number>(1);
@@ -33,11 +38,44 @@ export default function ListenPage() {
       .then(({ data }) => {
         if (data) {
           setBooks(data);
-          setSelectedBook(data[0] || null);
+          
+          // Priority: URL params > localStorage > default to Genesis
+          if (bookSlug) {
+            const matchedBook = data.find(b => b.slug === bookSlug);
+            setSelectedBook(matchedBook || data[0] || null);
+            
+            if (chapterParam) {
+              const chapterNum = parseInt(chapterParam, 10);
+              if (!isNaN(chapterNum) && chapterNum > 0) {
+                setSelectedChapter(chapterNum);
+              }
+            }
+          } else {
+            // Try to restore last viewed book/chapter from localStorage
+            const lastBook = localStorage.getItem('lastViewedBook');
+            const lastChapter = localStorage.getItem('lastViewedChapter');
+            
+            if (lastBook) {
+              const matchedBook = data.find(b => b.slug === lastBook);
+              if (matchedBook) {
+                setSelectedBook(matchedBook);
+                if (lastChapter) {
+                  const chapterNum = parseInt(lastChapter, 10);
+                  if (!isNaN(chapterNum) && chapterNum > 0) {
+                    setSelectedChapter(chapterNum);
+                  }
+                }
+              } else {
+                setSelectedBook(data[0] || null);
+              }
+            } else {
+              setSelectedBook(data[0] || null);
+            }
+          }
         }
         setLoading(false);
       });
-  }, []);
+  }, [bookSlug, chapterParam]);
 
   useEffect(() => {
     // Reset audio when selection changes

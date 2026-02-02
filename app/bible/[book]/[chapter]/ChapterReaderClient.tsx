@@ -62,6 +62,12 @@ export default function ChapterReaderClient({
   const lastVerse = verses.length > 0 ? verses[verses.length - 1].verse : 1;
 
   useEffect(() => {
+    // Save current book/chapter to localStorage for Listen tab persistence
+    localStorage.setItem('lastViewedBook', bookSlug);
+    localStorage.setItem('lastViewedChapter', chapter.toString());
+  }, [bookSlug, chapter]);
+
+  useEffect(() => {
     async function load() {
       const currentUser = await getCurrentUser();
       setUser(currentUser);
