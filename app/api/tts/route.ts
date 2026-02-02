@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
         },
         body: JSON.stringify({
           text: text.trim(),
-          model_id: "eleven_multilingual_v2",
+          model_id: "eleven_turbo_v2",     // Faster model for quicker generation
           voice_settings: {
             stability: 0.75,        // Slightly more stable for consistent reading
             similarity_boost: 0.85,  // Higher similarity to voice samples
@@ -42,6 +42,7 @@ export async function POST(req: NextRequest) {
             use_speaker_boost: true, // Enhanced clarity for spoken text
           },
           output_format: "mp3_22050_32", // Optimized for streaming
+          optimize_streaming_latency: 3, // Ultra-low latency mode
         }),
       }
     );
@@ -61,6 +62,7 @@ export async function POST(req: NextRequest) {
       headers: {
         "Content-Type": "audio/mpeg",
         "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
         "Cache-Control": "public, max-age=86400, s-maxage=604800",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "POST",

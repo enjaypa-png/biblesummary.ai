@@ -52,12 +52,14 @@ export default function ListenPage() {
   function stopAudio() {
     if (audioRef.current) {
       audioRef.current.pause();
+      audioRef.current.currentTime = 0;
       URL.revokeObjectURL(audioRef.current.src);
       audioRef.current = null;
     }
     setAudioState("idle");
     setCurrentTime(0);
     setDuration(0);
+    setErrorMsg("");
   }
 
   async function handlePlay() {
@@ -66,6 +68,136 @@ export default function ListenPage() {
       setAudioState("paused");
       return;
     }
+
+    if (audioState === "paused" && audioRef.current) {
+      audioRef.current.play();
+      setAudioState("playing");
+      return;
+    }
+
+    // Always stop any existing audio before starting new
+    stopAudio();
+
+    if (!selectedBook) return;
+
+    setAudioState("loading");
+    setErrorMsg("");
+
+    try {
+      // Fetch verses for selected chapter
+      const { data: verses } = await supabase
+        .from("verses")
+        .select("verse, text")
+        .eq("book_id", selectedBook.id)
+        .eq("chapter", selectedChapter)
+        .order("verse");
+
+      if (!verses || verses.length === 0) {
+        setErrorMsg("No verses found for this chapter");
+        setAudioState("error");
+        return;
+      }
+
+      // Build text to speak
+      const text = verses.map((v) => v.text).join(" ");
+
+      // Create MediaSource for streaming audio playback
+      const audioElement = new Audio();
+      audioRef.current = audioElement;
+      
+      // Set up event listeners before setting src
+      audioElement.addEventListener("loadedmetadata", () => {
+        setDuration(audioElement.duration);
+      });
+
+      audioElement.addEventListener("timeupdate", () => {
+        setCurrentTime(audioElement.currentTime);
+      });
+
+      audioElement.addEventListener("ended", () => {
+        setAudioState("idle");
+        setCurrentTime(0);
+      });
+
+      audioElement.addEventListener("error", (e) => {
+        console.error("Audio element error:", e);
+        setErrorMsg("Audio playback error");
+        setAudioState("error");
+      });
+
+      // Stream the audio directly from TTS API
+      const response = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text }),
+      });
+
+      if (!response.ok) {
+        const err = await response.json().catch(() => ({ error: "Failed to generate audio" }));
+        setErrorMsg(err.error || "Failed to generate audio");
+        setAudioState("error");
+        return;
+      }
+
+      // Create stream from response and play immediately
+      const reader = response.body?.getReader();
+      if (!reader) {
+        setErrorMsg("Failed to initialize audio stream");
+        setAudioState("error");
+        return;
+      }
+
+      // Convert stream to playable blob
+      const chunks: Uint8Array[] = [];
+      let totalLength = 0;
+      
+      const readStream = async () => {
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            
+            chunks.push(value);
+            totalLength += value.length;
+            
+            // Start playing after first chunk arrives (fast start)
+            if (chunks.length === 1 && audioElement.readyState === 0) {
+              const blob = new Blob([value], { type: "audio/mpeg" });
+              audioElement.src = URL.createObjectURL(blob);
+              await audioElement.play().catch(() => {
+                // Auto-play might be blocked, that's ok
+              });
+              setAudioState("playing");
+            }
+          }
+          
+          // If we didn't start playing earlier, play now
+          if (audioElement.readyState === 0 && chunks.length > 0) {
+            const combined = new Uint8Array(totalLength);
+            let offset = 0;
+            for (const chunk of chunks) {
+              combined.set(chunk, offset);
+              offset += chunk.length;
+            }
+            const blob = new Blob([combined], { type: "audio/mpeg" });
+            audioElement.src = URL.createObjectURL(blob);
+            await audioElement.play();
+            setAudioState("playing");
+          }
+        } catch (error) {
+          console.error("Stream processing error:", error);
+          setErrorMsg("Audio playback failed");
+          setAudioState("error");
+        }
+      };
+
+      readStream();
+    } catch (error) {
+      console.error("Audio generation error:", error);
+      setErrorMsg("Could not generate audio. Please try again.");
+      setAudioState("error");
+    }
+  }
 
     if (audioState === "paused" && audioRef.current) {
       audioRef.current.play();
@@ -156,10 +288,12 @@ export default function ListenPage() {
   }
 
   function handlePrev() {
+    stopAudio();
     if (selectedChapter > 1) setSelectedChapter(selectedChapter - 1);
   }
 
   function handleNext() {
+    stopAudio();
     if (selectedBook && selectedChapter < selectedBook.total_chapters) {
       setSelectedChapter(selectedChapter + 1);
     }
@@ -298,6 +432,18 @@ export default function ListenPage() {
                     <polygon points="8 4 20 12 8 20 8 4"/>
                   </svg>
                 )}
+              </button>
+
+              {/* Stop button */}
+              <button
+                onClick={stopAudio}
+                disabled={audioState === "idle" || audioState === "loading"}
+                className="w-10 h-10 flex items-center justify-center rounded-full disabled:opacity-30"
+                title="Stop playback"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--foreground)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="6" y="6" width="12" height="12" fill="var(--foreground)"/>
+                </svg>
               </button>
 
               <button
