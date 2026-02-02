@@ -160,18 +160,62 @@ export default function ChapterReaderClient({
   }
 
   async function handleAudioToggle() {
-    if (audioState === "playing") {
-      stopAudio();
-      return;
-    }
-    
-    if (audioState === "paused" && audioRef.current) {
-      audioRef.current.play();
-      setAudioState("playing");
+    // Prevent starting new audio while loading
+    if (audioState === "loading") {
       return;
     }
 
-    // Stop any existing audio before starting new
+    // If playing, pause it
+    if (audioState === "playing") {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        setAudioState("paused");
+        // Pause the verse highlighting interval
+        if (highlightIntervalRef.current) {
+          clearInterval(highlightIntervalRef.current);
+          highlightIntervalRef.current = null;
+        }
+      }
+      return;
+    }
+    
+    // If paused, resume playback
+    if (audioState === "paused" && audioRef.current) {
+      audioRef.current.play();
+      setAudioState("playing");
+      
+      // Resume verse highlighting - estimate where we are based on current time
+      const estimatedVerseIndex = Math.floor(audioRef.current.currentTime / 3);
+      let currentVerseIndex = Math.max(0, Math.min(estimatedVerseIndex, verses.length - 1));
+      
+      highlightIntervalRef.current = setInterval(() => {
+        if (currentVerseIndex < verses.length && shouldContinueAudioRef.current) {
+          const verseNumber = verses[currentVerseIndex].verse;
+          setCurrentlyPlayingVerse(verseNumber);
+          
+          // Auto-scroll to currently playing verse
+          const verseElement = document.querySelector(`[data-verse="${verseNumber}"]`);
+          if (verseElement) {
+            verseElement.scrollIntoView({ 
+              behavior: 'smooth', 
+              block: 'center'
+            });
+          }
+          
+          currentVerseIndex++;
+        } else {
+          if (highlightIntervalRef.current) {
+            clearInterval(highlightIntervalRef.current);
+            highlightIntervalRef.current = null;
+          }
+          setCurrentlyPlayingVerse(null);
+        }
+      }, 3000);
+      
+      return;
+    }
+
+    // Starting new audio - stop any existing audio first
     stopAudio();
     shouldContinueAudioRef.current = true; // Signal we want continuous playback
     setAudioState("loading");
@@ -348,9 +392,9 @@ export default function ChapterReaderClient({
             <button
               onClick={handleAudioToggle}
               disabled={audioState === "loading"}
-              title={audioState === "playing" ? "Stop audio" : "Listen to this chapter"}
+              title={audioState === "playing" ? "Pause audio" : audioState === "paused" ? "Resume audio" : "Listen to this chapter"}
               className="w-8 h-8 flex items-center justify-center rounded-lg active:bg-black/5 dark:active:bg-white/5 disabled:opacity-50 smooth-transition"
-              aria-label={audioState === "playing" ? "Stop" : "Listen"}
+              aria-label={audioState === "playing" ? "Pause" : audioState === "paused" ? "Resume" : "Listen"}
             >
               {audioState === "loading" ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" className="animate-spin">
@@ -358,7 +402,12 @@ export default function ChapterReaderClient({
                 </svg>
               ) : audioState === "playing" ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--accent)">
-                  <rect x="6" y="6" width="12" height="12" rx="1"/>
+                  <rect x="5" y="3" width="5" height="18" rx="1"/>
+                  <rect x="14" y="3" width="5" height="18" rx="1"/>
+                </svg>
+              ) : audioState === "paused" ? (
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="var(--accent)" stroke="none">
+                  <polygon points="5 3 19 12 5 21 5 3"/>
                 </svg>
               ) : (
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
