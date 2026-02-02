@@ -1,14 +1,14 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest } from "next/server";
 
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || "";
-// Default to Asher Scripture — warm, calming voice for Bible reading
-const VOICE_ID = process.env.ELEVENLABS_VOICE_ID || "zaV23R4Cs5kUdQb5M7eS";
+// Default to Daniel — warm, calming voice ideal for Scripture reading
+const VOICE_ID = process.env.ELEVENLABS_VOICE_ID || "onwK4e9ZLuTAKqWW03F9";
 
 export async function POST(req: NextRequest) {
   if (!ELEVENLABS_API_KEY) {
-    return NextResponse.json(
-      { error: "ElevenLabs API key not configured" },
-      { status: 500 }
+    return new Response(
+      JSON.stringify({ error: "ElevenLabs API key not configured" }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
 
@@ -16,79 +16,62 @@ export async function POST(req: NextRequest) {
     const { text } = await req.json();
 
     if (!text || typeof text !== "string") {
-      return NextResponse.json({ error: "Text is required" }, { status: 400 });
-    }
-
-    // ElevenLabs has a 5000 char limit per request — chunk if needed
-    const maxChars = 5000;
-    const chunks: string[] = [];
-    let remaining = text;
-    while (remaining.length > 0) {
-      if (remaining.length <= maxChars) {
-        chunks.push(remaining);
-        break;
-      }
-      // Split at the last sentence boundary before maxChars
-      let splitAt = remaining.lastIndexOf(". ", maxChars);
-      if (splitAt === -1 || splitAt < maxChars / 2) {
-        splitAt = remaining.lastIndexOf(" ", maxChars);
-      }
-      if (splitAt === -1) splitAt = maxChars;
-      chunks.push(remaining.slice(0, splitAt + 1));
-      remaining = remaining.slice(splitAt + 1);
-    }
-
-    // Generate audio for each chunk
-    const audioBuffers: Buffer[] = [];
-    for (const chunk of chunks) {
-      const response = await fetch(
-        `https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}`,
-        {
-          method: "POST",
-          headers: {
-            "xi-api-key": ELEVENLABS_API_KEY,
-            "Content-Type": "application/json",
-            Accept: "audio/mpeg",
-          },
-          body: JSON.stringify({
-            text: chunk,
-            model_id: "eleven_multilingual_v2",
-            voice_settings: {
-              stability: 0.6,
-              similarity_boost: 0.75,
-              style: 0.15,
-            },
-          }),
-        }
+      return new Response(
+        JSON.stringify({ error: "Text is required" }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
       );
-
-      if (!response.ok) {
-        const errorText = await response.text();
-        console.error("ElevenLabs error:", errorText);
-        return NextResponse.json(
-          { error: "Failed to generate audio" },
-          { status: response.status }
-        );
-      }
-
-      const arrayBuffer = await response.arrayBuffer();
-      audioBuffers.push(Buffer.from(arrayBuffer));
     }
 
-    // Concatenate all audio buffers
-    const combined = Buffer.concat(audioBuffers);
+    // ElevenLabs streaming endpoint for real-time audio generation
+    const elevenlabsResponse = await fetch(
+      `https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}/stream`,
+      {
+        method: "POST",
+        headers: {
+          "xi-api-key": ELEVENLABS_API_KEY,
+          "Content-Type": "application/json",
+          Accept: "audio/mpeg",
+        },
+        body: JSON.stringify({
+          text: text.trim(),
+          model_id: "eleven_multilingual_v2",
+          voice_settings: {
+            stability: 0.75,        // Slightly more stable for consistent reading
+            similarity_boost: 0.85,  // Higher similarity to voice samples
+            style: 0.1,             // Subtle expression for Scripture
+            use_speaker_boost: true, // Enhanced clarity for spoken text
+          },
+          output_format: "mp3_22050_32", // Optimized for streaming
+        }),
+      }
+    );
 
-    return new NextResponse(combined, {
+    if (!elevenlabsResponse.ok) {
+      const errorText = await elevenlabsResponse.text();
+      console.error("ElevenLabs streaming error:", errorText);
+      return new Response(
+        JSON.stringify({ error: "Failed to generate audio" }),
+        { status: elevenlabsResponse.status, headers: { "Content-Type": "application/json" } }
+      );
+    }
+
+    // Stream the audio response directly back to client
+    return new Response(elevenlabsResponse.body, {
+      status: 200,
       headers: {
         "Content-Type": "audio/mpeg",
+        "Transfer-Encoding": "chunked",
         "Cache-Control": "public, max-age=86400, s-maxage=604800",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "POST",
+        "Access-Control-Allow-Headers": "Content-Type",
       },
     });
   } catch (error) {
-    console.error("TTS error:", error);
-    return NextResponse.json(
-      { error: "Internal server error" },
-      { status: 500 }
+    console.error("TTS streaming error:", error);
+    return new Response(
+      JSON.stringify({ error: "Internal server error" }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
 }
