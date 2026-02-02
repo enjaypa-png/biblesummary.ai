@@ -56,7 +56,6 @@ export default function ChapterReaderClient({
   const firstVerse = verses.length > 0 ? verses[0].verse : 1;
   const lastVerse = verses.length > 0 ? verses[verses.length - 1].verse : 1;
 
-  // Load user and existing notes for this chapter
   useEffect(() => {
     async function load() {
       const currentUser = await getCurrentUser();
@@ -92,14 +91,11 @@ export default function ChapterReaderClient({
   async function saveNote() {
     if (!user || !activeVerse || !noteText.trim()) return;
     setSaving(true);
-
     const existing = getVerseNote(activeVerse);
     if (existing) {
-      // Update
       await supabase.from("notes").update({ note_text: noteText.trim() }).eq("id", existing.id);
       setNotes(notes.map((n) => n.id === existing.id ? { ...n, note_text: noteText.trim() } : n));
     } else {
-      // Insert
       const { data } = await supabase.from("notes").insert({
         user_id: user.id,
         book_id: bookId,
@@ -109,7 +105,6 @@ export default function ChapterReaderClient({
       }).select("id, verse, note_text").single();
       if (data) setNotes([...notes, data]);
     }
-
     setSaving(false);
     setActiveVerse(null);
     setNoteText("");
@@ -135,7 +130,6 @@ export default function ChapterReaderClient({
       setAudioState("playing");
       return;
     }
-
     setAudioState("loading");
     try {
       const text = verses.map((v) => v.text).join(" ");
@@ -144,17 +138,12 @@ export default function ChapterReaderClient({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text }),
       });
-      if (!res.ok) {
-        setAudioState("idle");
-        return;
-      }
+      if (!res.ok) { setAudioState("idle"); return; }
       const blob = await res.blob();
       const url = URL.createObjectURL(blob);
       const audio = new Audio(url);
       audioRef.current = audio;
-      audio.addEventListener("ended", () => {
-        setAudioState("idle");
-      });
+      audio.addEventListener("ended", () => setAudioState("idle"));
       await audio.play();
       setAudioState("playing");
     } catch {
@@ -164,30 +153,42 @@ export default function ChapterReaderClient({
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
-      {/* ── Bible-style page header ── */}
+      {/* ── Header ── */}
       <header className="sticky top-0 z-40 backdrop-blur-xl"
         style={{ backgroundColor: "var(--background-blur)", borderBottom: "1px solid var(--border)" }}>
-        <div className="flex items-center justify-between max-w-2xl mx-auto px-5 py-2.5">
+        <div className="flex items-center justify-between max-w-2xl mx-auto px-4 py-2.5">
+          {/* Left: Back to all books */}
+          <Link
+            href="/bible"
+            title="All books"
+            className="flex items-center gap-1.5 active:opacity-70 transition-opacity min-w-[60px]"
+            style={{ color: "var(--accent)" }}
+          >
+            <svg width="7" height="12" viewBox="0 0 7 12" fill="none">
+              <path d="M6 1L1 6L6 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            <span className="text-[13px] font-medium">Books</span>
+          </Link>
+
+          {/* Center: Book name + chapter picker toggle */}
           <button
             onClick={() => setShowChapterPicker(!showChapterPicker)}
             title="Jump to a different chapter"
-            className="flex items-baseline gap-2 active:opacity-70 transition-opacity"
+            className="flex items-center gap-1.5 active:opacity-70 transition-opacity"
           >
             <span
-              className="text-[15px] font-semibold uppercase tracking-wide"
+              className="text-[15px] font-semibold"
               style={{ color: "var(--foreground)", fontFamily: "'Source Serif 4', Georgia, serif" }}
             >
-              {bookName}
-            </span>
-            <span className="text-[13px] font-medium" style={{ color: "var(--secondary)" }}>
-              {chapter}:{firstVerse}–{lastVerse}
+              {bookName} {chapter}
             </span>
             <svg width="8" height="5" viewBox="0 0 8 5" fill="none" className={`transition-transform ${showChapterPicker ? 'rotate-180' : ''}`}>
               <path d="M1 1L4 4L7 1" stroke="var(--secondary)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
 
-          <div className="flex items-center gap-3">
+          {/* Right: Audio + Tools */}
+          <div className="flex items-center gap-2 min-w-[60px] justify-end">
             <button
               onClick={handleAudioToggle}
               disabled={audioState === "loading"}
@@ -225,19 +226,23 @@ export default function ChapterReaderClient({
                 <circle cx="10" cy="18" r="2" fill="var(--secondary)" />
               </svg>
             </button>
-            <Link
-              href={`/bible/${bookSlug}`}
-              title={`Back to ${bookName} chapters`}
-              className="text-[13px] font-medium"
-              style={{ color: "var(--accent)" }}
-            >
-              All Ch.
-            </Link>
           </div>
         </div>
 
+        {/* Chapter picker dropdown */}
         {showChapterPicker && (
           <div className="border-t px-4 py-3 max-w-2xl mx-auto" style={{ borderColor: "var(--border)" }}>
+            <Link
+              href="/bible"
+              onClick={() => setShowChapterPicker(false)}
+              className="flex items-center justify-center gap-2 mb-3 py-2 rounded-lg text-[13px] font-semibold"
+              style={{ backgroundColor: "var(--background)", color: "var(--accent)", border: "1px solid var(--border)" }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>
+              </svg>
+              Change Book
+            </Link>
             <div className="grid grid-cols-7 gap-1.5">
               {chapters.map((ch) => (
                 <Link
@@ -298,13 +303,13 @@ export default function ChapterReaderClient({
               <div className="mb-6">
                 <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>Navigate</label>
                 <div className="space-y-2">
-                  <Link href={`/bible/${bookSlug}`} className="flex items-center gap-3 px-3 py-2.5 rounded-lg" style={{ border: "1px solid var(--border)" }}>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                  <Link href={`/bible/${bookSlug}`} onClick={() => setShowTools(false)} className="flex items-center gap-3 px-3 py-2.5 rounded-lg" style={{ border: "1px solid var(--border)" }}>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
                     <span className="text-[14px] font-medium" style={{ color: "var(--foreground)" }}>{bookName} — All Chapters</span>
                   </Link>
-                  <Link href="/bible" className="flex items-center gap-3 px-3 py-2.5 rounded-lg" style={{ border: "1px solid var(--border)" }}>
+                  <Link href="/bible" onClick={() => setShowTools(false)} className="flex items-center gap-3 px-3 py-2.5 rounded-lg" style={{ border: "1px solid var(--border)" }}>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
-                    <span className="text-[14px] font-medium" style={{ color: "var(--foreground)" }}>All Books</span>
+                    <span className="text-[14px] font-medium" style={{ color: "var(--foreground)" }}>Change Book</span>
                   </Link>
                 </div>
               </div>
@@ -327,7 +332,6 @@ export default function ChapterReaderClient({
 
       {/* ── Bible text ── */}
       <main className="max-w-2xl mx-auto px-5 py-6">
-        {/* Large book heading */}
         <div className="text-center pt-6 pb-10">
           <h1
             className="font-semibold tracking-tight leading-none"
@@ -376,7 +380,6 @@ export default function ChapterReaderClient({
                 )}
                 {" "}
 
-                {/* Inline note editor */}
                 {isActive && (
                   <span className="block my-3 rounded-xl p-4" style={{ backgroundColor: "var(--card)", border: "1px solid var(--border)" }}>
                     <span className="block text-[12px] uppercase tracking-wider font-semibold mb-2" style={{ color: "var(--secondary)", fontFamily: "'Inter', sans-serif" }}>
@@ -471,6 +474,20 @@ export default function ChapterReaderClient({
                 <span className="text-[15px] font-semibold">All Chapters</span>
               </Link>
             )}
+          </div>
+
+          {/* Always-visible way to get to another book */}
+          <div className="mt-4">
+            <Link
+              href="/bible"
+              className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl text-[13px] font-medium transition-all active:scale-[0.98]"
+              style={{ color: "var(--accent)", border: "1px solid var(--border)" }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>
+              </svg>
+              All Books
+            </Link>
           </div>
         </nav>
 
