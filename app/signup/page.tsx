@@ -256,7 +256,7 @@ function SignUpForm() {
                   Verify Your Email
                 </h1>
                 <p className="mt-2 text-[14px] leading-relaxed" style={{ color: "var(--secondary)" }}>
-                  We sent a 6-digit code to<br />
+                  We sent a verification code to<br />
                   <strong style={{ color: "var(--foreground)" }}>{email}</strong>
                 </p>
               </div>
@@ -280,18 +280,18 @@ function SignUpForm() {
                       autoComplete="one-time-code"
                       required
                       value={otpCode}
-                      onChange={(e) => setOtpCode(e.target.value.replace(/\D/g, "").slice(0, 6))}
-                      className="w-full px-4 py-3 rounded-lg text-[22px] font-semibold text-center tracking-[0.35em] outline-none"
+                      onChange={(e) => setOtpCode(e.target.value.replace(/\D/g, "").slice(0, 5))}
+                      className="w-full px-4 py-3 rounded-lg text-[24px] font-semibold text-center tracking-[0.4em] outline-none"
                       style={inputStyle}
-                      placeholder="000000"
-                      maxLength={6}
+                      placeholder="00000"
+                      maxLength={5}
                       autoFocus
                     />
                   </div>
 
                   <button
                     type="submit"
-                    disabled={loading || otpCode.length !== 6}
+                    disabled={loading || otpCode.length < 5}
                     className="w-full px-4 py-2.5 rounded-lg text-[15px] font-semibold text-white disabled:opacity-50 transition-opacity"
                     style={{ backgroundColor: "var(--accent)" }}
                   >
