@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || "";
-// Default to "Daniel" — a warm, clear male narrator voice
-const VOICE_ID = process.env.ELEVENLABS_VOICE_ID || "onwK4e9ZLuTAKqWW03F9";
+// Default to Asher Scripture — warm, calming voice for Bible reading
+const VOICE_ID = process.env.ELEVENLABS_VOICE_ID || "zaV23R4Cs5kUdQb5M7eS";
 
 export async function POST(req: NextRequest) {
   if (!ELEVENLABS_API_KEY) {
