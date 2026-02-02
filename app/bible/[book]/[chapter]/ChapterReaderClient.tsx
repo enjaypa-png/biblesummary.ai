@@ -268,7 +268,18 @@ export default function ChapterReaderClient({
       let currentVerseIndex = 0;
       highlightIntervalRef.current = setInterval(() => {
         if (currentVerseIndex < verses.length && shouldContinueAudioRef.current) {
-          setCurrentlyPlayingVerse(verses[currentVerseIndex].verse);
+          const verseNumber = verses[currentVerseIndex].verse;
+          setCurrentlyPlayingVerse(verseNumber);
+          
+          // Auto-scroll to currently playing verse for visual tracking
+          const verseElement = document.querySelector(`[data-verse="${verseNumber}"]`);
+          if (verseElement) {
+            verseElement.scrollIntoView({ 
+              behavior: 'smooth', 
+              block: 'center'
+            });
+          }
+          
           currentVerseIndex++;
         } else {
           if (highlightIntervalRef.current) {
@@ -496,6 +507,7 @@ export default function ChapterReaderClient({
             return (
               <span key={verse.id}>
                 <span
+                  data-verse={verse.verse}
                   className={`inline cursor-pointer transition-colors rounded-sm ${
                     isActive ? 'bg-[var(--highlight)]' : ''
                   } ${isPlayingThisVerse ? 'bg-blue-100 dark:bg-blue-900' : ''}`}
