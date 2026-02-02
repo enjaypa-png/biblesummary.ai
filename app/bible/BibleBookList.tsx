@@ -27,7 +27,13 @@ export default function BibleBookList({ books }: { books: Book[] }) {
         style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}
       >
         <div className="max-w-lg mx-auto">
-          <h1 className="text-[17px] font-semibold text-center py-3" style={{ color: "var(--foreground)" }}>
+          <h1 
+            className="font-semibold text-center py-3 smooth-transition"
+            style={{ 
+              color: "var(--foreground)",
+              fontSize: "var(--text-lg)"
+            }}
+          >
             Bible
           </h1>
 
@@ -37,8 +43,11 @@ export default function BibleBookList({ books }: { books: Book[] }) {
               <button
                 key={t}
                 onClick={() => setTab(t)}
-                className="flex-1 pb-2.5 text-[14px] font-semibold tracking-wide transition-colors relative"
-                style={{ color: tab === t ? "var(--foreground)" : "var(--secondary)" }}
+                className="flex-1 pb-2.5 text-[14px] font-semibold tracking-wide relative smooth-transition modern-button"
+                style={{ 
+                  color: tab === t ? "var(--foreground)" : "var(--foreground-secondary)",
+                  minHeight: "44px"
+                }}
               >
                 {t} Testament
                 {tab === t && (
@@ -60,9 +69,10 @@ export default function BibleBookList({ books }: { books: Book[] }) {
               key={book.id}
               href={`/bible/${book.slug}`}
               title={`Read ${book.name} — ${book.total_chapters} chapters`}
-              className="flex items-center justify-between px-3 py-[13px] transition-colors active:bg-black/5 dark:active:bg-white/5"
+              className="flex items-center justify-between px-3 py-[13px] smooth-transition modern-button"
               style={{
                 borderBottom: i < displayed.length - 1 ? "0.5px solid var(--border)" : "none",
+                minHeight: "44px"
               }}
             >
               <div className="flex items-center gap-3.5 min-w-0">
@@ -73,15 +83,22 @@ export default function BibleBookList({ books }: { books: Book[] }) {
                   {book.order_index}
                 </span>
                 <span
-                  className="text-[16px] font-semibold truncate"
-                  style={{ color: "var(--foreground)" }}
+                  className="truncate font-semibold"
+                  style={{ 
+                    color: "var(--foreground)",
+                    fontSize: "var(--text-base)"
+                  }}
                 >
                   {book.name}
                 </span>
               </div>
               <div
-                className="flex items-center gap-1.5 flex-shrink-0 ml-2 px-3 py-1 rounded-full"
-                style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+                className="flex items-center gap-1.5 flex-shrink-0 ml-2 px-3 py-1 rounded-full smooth-transition"
+                style={{ 
+                  backgroundColor: "var(--card)", 
+                  border: "0.5px solid var(--border)",
+                  boxShadow: "var(--shadow-sm)"
+                }}
               >
                 <span className="text-[12px] font-medium tabular-nums" style={{ color: "var(--secondary)" }}>
                   {book.total_chapters} ch
