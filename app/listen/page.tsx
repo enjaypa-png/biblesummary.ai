@@ -101,6 +101,83 @@ export default function ListenPage() {
       // Build text to speak
       const text = verses.map((v) => v.text).join(" ");
 
+      // Call TTS API
+      const res = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text }),
+      });
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({ error: "Failed to generate audio" }));
+        setErrorMsg(err.error || "Failed to generate audio");
+        setAudioState("error");
+        return;
+      }
+
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const audio = new Audio(url);
+      audioRef.current = audio;
+
+      audio.addEventListener("loadedmetadata", () => {
+        setDuration(audio.duration);
+      });
+
+      audio.addEventListener("timeupdate", () => {
+        setCurrentTime(audio.currentTime);
+      });
+
+      audio.addEventListener("ended", () => {
+        setAudioState("idle");
+        setCurrentTime(0);
+      });
+
+      audio.addEventListener("error", () => {
+        setErrorMsg("Audio playback error");
+        setAudioState("error");
+      });
+
+      await audio.play();
+      setAudioState("playing");
+    } catch {
+      setErrorMsg("Could not generate audio. Please try again.");
+      setAudioState("error");
+    }
+  }
+
+    if (audioState === "paused" && audioRef.current) {
+      audioRef.current.play();
+      setAudioState("playing");
+      return;
+    }
+
+    // Always stop any existing audio before starting new
+    stopAudio();
+
+    if (!selectedBook) return;
+
+    setAudioState("loading");
+    setErrorMsg("");
+
+    try {
+      // Fetch verses for selected chapter
+      const { data: verses } = await supabase
+        .from("verses")
+        .select("verse, text")
+        .eq("book_id", selectedBook.id)
+        .eq("chapter", selectedChapter)
+        .order("verse");
+
+      if (!verses || verses.length === 0) {
+        setErrorMsg("No verses found for this chapter");
+        setAudioState("error");
+        return;
+      }
+
+      // Build text to speak
+      const text = verses.map((v) => v.text).join(" ");
+
       // Create MediaSource for streaming audio playback
       const audioElement = new Audio();
       audioRef.current = audioElement;
