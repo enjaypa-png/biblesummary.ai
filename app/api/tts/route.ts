@@ -34,15 +34,15 @@ export async function POST(req: NextRequest) {
         },
         body: JSON.stringify({
           text: text.trim(),
-          model_id: "eleven_turbo_v2",     // Faster model for quicker generation
+          model_id: "eleven_turbo_v2",     // Fastest available model
           voice_settings: {
-            stability: 0.75,        // Slightly more stable for consistent reading
-            similarity_boost: 0.85,  // Higher similarity to voice samples
-            style: 0.1,             // Subtle expression for Scripture
-            use_speaker_boost: true, // Enhanced clarity for spoken text
+            stability: 0.85,        // Higher stability for speed
+            similarity_boost: 0.9,   // Maximum similarity  
+            style: 0.0,             // No style for fastest generation
+            use_speaker_boost: true, // Enhanced clarity
           },
           output_format: "mp3_22050_32", // Optimized for streaming
-          optimize_streaming_latency: 3, // Ultra-low latency mode
+          optimize_streaming_latency: 4, // Maximum latency optimization
         }),
       }
     );
