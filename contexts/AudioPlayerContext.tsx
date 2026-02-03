@@ -28,9 +28,8 @@ interface AudioPlayerContextType {
   // Audio state
   audioState: AudioState;
   errorMsg: string;
-  currentTime: number;
-  duration: number;
   currentlyPlayingVerse: number | null;
+  totalVerses: number;
 
   // Current track identifier
   currentTrackId: string | null;
@@ -40,7 +39,6 @@ interface AudioPlayerContextType {
   pause: () => void;
   resume: () => void;
   stop: () => void;
-  seek: (time: number) => void;
 
   // Books list (cached)
   books: Book[];
@@ -68,22 +66,21 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
   // Audio state
   const [audioState, setAudioState] = useState<AudioState>("idle");
   const [errorMsg, setErrorMsg] = useState("");
-  const [currentTime, setCurrentTime] = useState(0);
-  const [duration, setDuration] = useState(0);
   const [currentlyPlayingVerse, setCurrentlyPlayingVerse] = useState<number | null>(null);
   const [currentTrackId, setCurrentTrackId] = useState<string | null>(null);
+  const [totalVerses, setTotalVerses] = useState(0);
 
-  // Refs for audio management
+  // Refs for verse-by-verse playback
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
   const shouldContinueRef = useRef<boolean>(false);
-  const highlightIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const versesRef = useRef<Verse[]>([]);
-  const remainingTextRef = useRef<string>("");
+  const currentVerseIndexRef = useRef<number>(0);
+  const isPausedRef = useRef<boolean>(false);
 
   // Load books from database
   const loadBooks = useCallback(async () => {
-    if (books.length > 0) return; // Already loaded
+    if (books.length > 0) return;
 
     const { data } = await supabase
       .from("books")
@@ -93,7 +90,6 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     if (data) {
       setBooks(data);
 
-      // Initialize selection from localStorage if not set
       if (!selectedBook) {
         const lastBook = localStorage.getItem('lastViewedBook');
         const lastChapter = localStorage.getItem('lastViewedChapter');
@@ -122,8 +118,6 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
   const setSelection = useCallback((book: Book, chapter: number) => {
     setSelectedBook(book);
     setSelectedChapter(chapter);
-
-    // Persist to localStorage
     localStorage.setItem('lastViewedBook', book.slug);
     localStorage.setItem('lastViewedChapter', chapter.toString());
   }, []);
@@ -131,87 +125,147 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
   // Stop audio completely
   const stop = useCallback(() => {
     shouldContinueRef.current = false;
+    isPausedRef.current = false;
 
-    // Abort any pending fetch requests
     if (abortControllerRef.current) {
       abortControllerRef.current.abort();
       abortControllerRef.current = null;
     }
 
-    // Clear highlighting interval
-    if (highlightIntervalRef.current) {
-      clearInterval(highlightIntervalRef.current);
-      highlightIntervalRef.current = null;
-    }
-
-    // Stop and cleanup audio
     if (audioRef.current) {
       audioRef.current.pause();
-      audioRef.current.currentTime = 0;
       audioRef.current.src = "";
       audioRef.current = null;
     }
 
     setAudioState("idle");
     setErrorMsg("");
-    setCurrentTime(0);
-    setDuration(0);
     setCurrentlyPlayingVerse(null);
     setCurrentTrackId(null);
-    remainingTextRef.current = "";
+    setTotalVerses(0);
     versesRef.current = [];
+    currentVerseIndexRef.current = 0;
   }, []);
 
   // Pause audio
   const pause = useCallback(() => {
     if (audioRef.current && audioState === "playing") {
       audioRef.current.pause();
+      isPausedRef.current = true;
       setAudioState("paused");
-
-      // Pause verse highlighting
-      if (highlightIntervalRef.current) {
-        clearInterval(highlightIntervalRef.current);
-        highlightIntervalRef.current = null;
-      }
     }
   }, [audioState]);
 
   // Resume audio
   const resume = useCallback(() => {
     if (audioRef.current && audioState === "paused") {
+      isPausedRef.current = false;
       audioRef.current.play();
       setAudioState("playing");
-
-      // Resume verse highlighting
-      if (versesRef.current.length > 0) {
-        const estimatedVerseIndex = Math.floor(audioRef.current.currentTime / 3);
-        let currentVerseIndex = Math.max(0, Math.min(estimatedVerseIndex, versesRef.current.length - 1));
-
-        highlightIntervalRef.current = setInterval(() => {
-          if (currentVerseIndex < versesRef.current.length && shouldContinueRef.current) {
-            const verseNumber = versesRef.current[currentVerseIndex].verse;
-            setCurrentlyPlayingVerse(verseNumber);
-
-            // Auto-scroll to currently playing verse
-            const verseElement = document.querySelector(`[data-verse="${verseNumber}"]`);
-            if (verseElement) {
-              verseElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
-
-            currentVerseIndex++;
-          } else {
-            if (highlightIntervalRef.current) {
-              clearInterval(highlightIntervalRef.current);
-              highlightIntervalRef.current = null;
-            }
-            setCurrentlyPlayingVerse(null);
-          }
-        }, 3000);
-      }
     }
   }, [audioState]);
 
-  // Play audio
+  // Play a single verse and return a promise that resolves when done
+  const playVerse = useCallback(async (verse: Verse, abortSignal: AbortSignal): Promise<boolean> => {
+    return new Promise(async (resolve) => {
+      try {
+        // Check if we should stop
+        if (!shouldContinueRef.current || abortSignal.aborted) {
+          resolve(false);
+          return;
+        }
+
+        // Set current verse immediately when starting to load
+        setCurrentlyPlayingVerse(verse.verse);
+
+        // Scroll to verse
+        setTimeout(() => {
+          const verseElement = document.querySelector(`[data-verse="${verse.verse}"]`);
+          if (verseElement) {
+            verseElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        }, 100);
+
+        // Fetch TTS for this verse
+        const res = await fetch("/api/tts", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text: verse.text }),
+          signal: abortSignal,
+        });
+
+        if (!res.ok || !shouldContinueRef.current) {
+          resolve(false);
+          return;
+        }
+
+        const blob = await res.blob();
+        if (!shouldContinueRef.current) {
+          resolve(false);
+          return;
+        }
+
+        const url = URL.createObjectURL(blob);
+        const audio = new Audio(url);
+        audioRef.current = audio;
+
+        audio.addEventListener("ended", () => {
+          URL.revokeObjectURL(url);
+          resolve(true);
+        });
+
+        audio.addEventListener("error", () => {
+          URL.revokeObjectURL(url);
+          resolve(false);
+        });
+
+        await audio.play();
+        setAudioState("playing");
+
+      } catch (error) {
+        if (error instanceof Error && error.name === 'AbortError') {
+          resolve(false);
+          return;
+        }
+        console.error("Verse playback error:", error);
+        resolve(false);
+      }
+    });
+  }, []);
+
+  // Play all verses sequentially
+  const playVerses = useCallback(async (verses: Verse[], startIndex: number = 0) => {
+    const abortController = new AbortController();
+    abortControllerRef.current = abortController;
+
+    for (let i = startIndex; i < verses.length; i++) {
+      // Check if we should stop
+      if (!shouldContinueRef.current) break;
+
+      // Wait while paused
+      while (isPausedRef.current && shouldContinueRef.current) {
+        await new Promise(resolve => setTimeout(resolve, 100));
+      }
+
+      if (!shouldContinueRef.current) break;
+
+      currentVerseIndexRef.current = i;
+      const success = await playVerse(verses[i], abortController.signal);
+
+      if (!success && shouldContinueRef.current) {
+        // Error occurred, stop playback
+        break;
+      }
+    }
+
+    // Finished all verses or stopped
+    if (shouldContinueRef.current) {
+      setAudioState("idle");
+      setCurrentlyPlayingVerse(null);
+    }
+  }, [playVerse]);
+
+  // Main play function
   const play = useCallback(async (book?: Book, chapter?: number) => {
     const targetBook = book || selectedBook;
     const targetChapter = chapter || selectedChapter;
@@ -241,13 +295,10 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     }
 
     shouldContinueRef.current = true;
+    isPausedRef.current = false;
     setAudioState("loading");
     setErrorMsg("");
     setCurrentTrackId(newTrackId);
-
-    // Create new abort controller
-    abortControllerRef.current = new AbortController();
-    const playbackAbortController = abortControllerRef.current;
 
     try {
       // Fetch verses for the chapter
@@ -264,146 +315,24 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
         return;
       }
 
-      // Check if we were stopped during fetch
       if (!shouldContinueRef.current) return;
 
       versesRef.current = verses;
+      setTotalVerses(verses.length);
+      currentVerseIndexRef.current = 0;
 
-      // Build text to speak - use first 800 chars for fast start
-      const fullText = verses.map((v) => v.text).join(" ");
-      const initialChunk = fullText.slice(0, 800);
-      remainingTextRef.current = fullText.slice(800);
-
-      // Fetch initial audio
-      const res = await fetch("/api/tts", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: initialChunk }),
-        signal: playbackAbortController.signal,
-      });
-
-      if (!shouldContinueRef.current) return;
-
-      if (!res.ok) {
-        const err = await res.json().catch(() => ({ error: "Failed to generate audio" }));
-        setErrorMsg(err.error || "Failed to generate audio");
-        setAudioState("error");
-        return;
-      }
-
-      const blob = await res.blob();
-      if (!shouldContinueRef.current) return;
-
-      const url = URL.createObjectURL(blob);
-
-      // Create audio element
-      const audio = new Audio();
-      audioRef.current = audio;
-      audio.src = url;
-
-      // Event listeners
-      audio.addEventListener("loadedmetadata", () => {
-        setDuration(audio.duration);
-      });
-
-      audio.addEventListener("timeupdate", () => {
-        setCurrentTime(audio.currentTime);
-      });
-
-      audio.addEventListener("ended", async () => {
-        // Load remaining text if exists
-        if (remainingTextRef.current && shouldContinueRef.current) {
-          try {
-            const res = await fetch("/api/tts", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ text: remainingTextRef.current }),
-              signal: playbackAbortController.signal,
-            });
-
-            if (res.ok && shouldContinueRef.current) {
-              const blob = await res.blob();
-              const nextUrl = URL.createObjectURL(blob);
-              audio.src = nextUrl;
-              await audio.play();
-              remainingTextRef.current = "";
-            }
-          } catch (error) {
-            if (error instanceof Error && error.name !== 'AbortError') {
-              console.error("Failed to load remaining audio:", error);
-            }
-            if (shouldContinueRef.current) {
-              setAudioState("idle");
-              setCurrentlyPlayingVerse(null);
-            }
-          }
-        } else {
-          setAudioState("idle");
-          setCurrentTime(0);
-          setCurrentlyPlayingVerse(null);
-          if (highlightIntervalRef.current) {
-            clearInterval(highlightIntervalRef.current);
-            highlightIntervalRef.current = null;
-          }
-        }
-      });
-
-      audio.addEventListener("error", () => {
-        if (shouldContinueRef.current) {
-          setErrorMsg("Audio playback error");
-          setAudioState("error");
-        }
-      });
-
-      // Check one more time before playing
-      if (!shouldContinueRef.current) {
-        URL.revokeObjectURL(url);
-        return;
-      }
-
-      await audio.play();
-      setAudioState("playing");
-
-      // Start verse highlighting
-      let currentVerseIndex = 0;
-      highlightIntervalRef.current = setInterval(() => {
-        if (currentVerseIndex < versesRef.current.length && shouldContinueRef.current) {
-          const verseNumber = versesRef.current[currentVerseIndex].verse;
-          setCurrentlyPlayingVerse(verseNumber);
-
-          // Auto-scroll to currently playing verse
-          const verseElement = document.querySelector(`[data-verse="${verseNumber}"]`);
-          if (verseElement) {
-            verseElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          }
-
-          currentVerseIndex++;
-        } else {
-          if (highlightIntervalRef.current) {
-            clearInterval(highlightIntervalRef.current);
-            highlightIntervalRef.current = null;
-          }
-          setCurrentlyPlayingVerse(null);
-        }
-      }, 3000);
+      // Start playing verses sequentially
+      await playVerses(verses, 0);
 
     } catch (error) {
       if (error instanceof Error && error.name === 'AbortError') {
-        return; // Expected when stop is clicked
+        return;
       }
       console.error("Audio error:", error);
       setErrorMsg("Could not generate audio");
       setAudioState("error");
     }
-  }, [selectedBook, selectedChapter, currentTrackId, audioState, stop, resume, pause, setSelection]);
-
-  // Seek to time
-  const seek = useCallback((time: number) => {
-    if (audioRef.current) {
-      audioRef.current.currentTime = time;
-      setCurrentTime(time);
-    }
-  }, []);
+  }, [selectedBook, selectedChapter, currentTrackId, audioState, stop, resume, pause, setSelection, playVerses]);
 
   // Cleanup on unmount
   useEffect(() => {
@@ -418,15 +347,13 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     setSelection,
     audioState,
     errorMsg,
-    currentTime,
-    duration,
     currentlyPlayingVerse,
+    totalVerses,
     currentTrackId,
     play,
     pause,
     resume,
     stop,
-    seek,
     books,
     loadBooks,
   };

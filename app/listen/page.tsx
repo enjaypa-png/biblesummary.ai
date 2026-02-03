@@ -17,14 +17,12 @@ export default function ListenPage() {
     selectedChapter,
     setSelection,
     audioState,
-    errorMsg,
-    currentTime,
-    duration,
+    currentlyPlayingVerse,
+    totalVerses,
     play,
     pause,
     resume,
     stop,
-    seek,
   } = useAudioPlayer();
 
   // Load books on mount
@@ -48,7 +46,6 @@ export default function ListenPage() {
   function handleBookChange(slug: string) {
     const book = books.find((b) => b.slug === slug);
     if (book) {
-      // Stop audio when changing books
       stop();
       setSelection(book, 1);
     }
@@ -56,50 +53,21 @@ export default function ListenPage() {
 
   function handleChapterChange(chapter: number) {
     if (selectedBook) {
-      // Stop audio when changing chapters
       stop();
       setSelection(selectedBook, chapter);
     }
   }
 
-  function handlePlay() {
+  function handlePlayPause() {
     if (audioState === "playing") {
       pause();
       return;
     }
-
     if (audioState === "paused") {
       resume();
       return;
     }
-
-    // Start new playback
     play();
-  }
-
-  function handlePrev() {
-    if (selectedBook && selectedChapter > 1) {
-      stop();
-      setSelection(selectedBook, selectedChapter - 1);
-    }
-  }
-
-  function handleNext() {
-    if (selectedBook && selectedChapter < selectedBook.total_chapters) {
-      stop();
-      setSelection(selectedBook, selectedChapter + 1);
-    }
-  }
-
-  function handleSeek(e: React.ChangeEvent<HTMLInputElement>) {
-    const time = parseFloat(e.target.value);
-    seek(time);
-  }
-
-  function formatTime(s: number) {
-    const m = Math.floor(s / 60);
-    const sec = Math.floor(s % 60);
-    return `${m}:${sec.toString().padStart(2, "0")}`;
   }
 
   if (books.length === 0) {
@@ -110,45 +78,42 @@ export default function ListenPage() {
     );
   }
 
+  const isPlaying = audioState === "playing";
+  const isPaused = audioState === "paused";
+  const isLoading = audioState === "loading";
+  const isActive = isPlaying || isPaused || isLoading;
+
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
+    <div className="min-h-screen pb-20" style={{ backgroundColor: "var(--background)" }}>
       <header className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
         style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}>
         <h1
-          className="font-semibold text-center max-w-lg mx-auto smooth-transition"
-          style={{
-            color: "var(--foreground)",
-            fontSize: "var(--text-lg)"
-          }}
+          className="font-semibold text-center max-w-lg mx-auto"
+          style={{ color: "var(--foreground)", fontSize: "17px" }}
         >
           Listen
         </h1>
       </header>
 
       <main className="max-w-lg mx-auto px-5 py-6">
-        {/* Book selector */}
-        <div className="mb-5">
+        {/* Quick selection */}
+        <div className="mb-6">
           <label
-            className="block font-semibold mb-2 smooth-transition"
-            style={{
-              color: "var(--foreground-secondary)",
-              fontSize: "var(--text-xs)",
-              letterSpacing: "0.05em",
-              textTransform: "uppercase"
-            }}
+            className="block font-semibold mb-2 text-[11px] uppercase tracking-wider"
+            style={{ color: "var(--secondary)" }}
           >
-            Book
+            Select Book
           </label>
           <select
             value={selectedBook?.slug || ""}
             onChange={(e) => handleBookChange(e.target.value)}
-            className="w-full px-4 py-3 rounded-xl outline-none appearance-none smooth-transition modern-button"
+            className="w-full px-4 py-3 rounded-xl outline-none appearance-none"
             style={{
               backgroundColor: "var(--card)",
               color: "var(--foreground)",
               border: "1px solid var(--border)",
-              fontSize: "var(--text-sm)",
-              minHeight: "44px"
+              fontSize: "15px",
+              minHeight: "48px"
             }}
           >
             {books.map((b) => (
@@ -157,26 +122,25 @@ export default function ListenPage() {
           </select>
         </div>
 
-        {/* Chapter selector */}
+        {/* Chapter grid */}
         {selectedBook && (
           <div className="mb-8">
-            <label className="block text-[12px] uppercase tracking-wider font-semibold mb-2" style={{ color: "var(--secondary)" }}>
-              Chapter
+            <label className="block text-[11px] uppercase tracking-wider font-semibold mb-2" style={{ color: "var(--secondary)" }}>
+              Select Chapter
             </label>
             <div className="grid grid-cols-7 gap-1.5">
               {Array.from({ length: selectedBook.total_chapters }, (_, i) => i + 1).map((ch) => (
                 <button
                   key={ch}
                   onClick={() => handleChapterChange(ch)}
-                  className="aspect-square rounded-xl flex items-center justify-center font-medium smooth-transition modern-button"
+                  className="aspect-square rounded-xl flex items-center justify-center font-medium transition-all active:scale-95"
                   style={{
                     backgroundColor: ch === selectedChapter ? "var(--accent)" : "var(--card)",
-                    color: ch === selectedChapter ? "var(--text-on-accent)" : "var(--foreground)",
+                    color: ch === selectedChapter ? "#fff" : "var(--foreground)",
                     border: ch === selectedChapter ? "none" : "0.5px solid var(--border)",
-                    fontSize: "var(--text-sm)",
-                    boxShadow: ch === selectedChapter ? "var(--shadow-md)" : "var(--shadow-sm)",
-                    minHeight: "44px",
-                    minWidth: "44px"
+                    fontSize: "13px",
+                    minHeight: "40px",
+                    minWidth: "40px"
                   }}
                 >
                   {ch}
@@ -186,147 +150,90 @@ export default function ListenPage() {
           </div>
         )}
 
-        {/* Now playing display */}
+        {/* Current selection card */}
         {selectedBook && (
           <div
-            className="rounded-2xl p-6 mb-6 smooth-transition"
+            className="rounded-2xl p-6 mb-6"
             style={{
               backgroundColor: "var(--card)",
               border: "1px solid var(--border)",
-              boxShadow: "var(--shadow-md)"
             }}
           >
-            {/* Book/chapter display */}
-            <div className="text-center mb-6">
+            <div className="text-center mb-4">
               <h2
-                className="font-semibold tracking-tight smooth-transition"
+                className="font-semibold tracking-tight"
                 style={{
                   color: "var(--foreground)",
                   fontFamily: "'Source Serif 4', Georgia, serif",
-                  fontSize: "var(--text-2xl)"
+                  fontSize: "24px"
                 }}
               >
-                {selectedBook.name}
+                {selectedBook.name} {selectedChapter}
               </h2>
-              <p
-                className="mt-1 font-semibold smooth-transition"
-                style={{
-                  color: "var(--foreground-secondary)",
-                  fontSize: "var(--text-xs)",
-                  letterSpacing: "0.05em",
-                  textTransform: "uppercase"
-                }}
-              >
-                Chapter {selectedChapter}
-              </p>
+              {isActive && currentlyPlayingVerse && (
+                <p className="text-[13px] mt-1" style={{ color: "var(--secondary)" }}>
+                  Verse {currentlyPlayingVerse} of {totalVerses}
+                </p>
+              )}
             </div>
 
-            {/* Progress bar */}
-            {(audioState === "playing" || audioState === "paused") && duration > 0 && (
-              <div className="mb-5">
-                <input
-                  type="range"
-                  min={0}
-                  max={duration}
-                  value={currentTime}
-                  onChange={handleSeek}
-                  className="w-full h-1 rounded-full appearance-none cursor-pointer"
-                  style={{ accentColor: "var(--accent)" }}
-                />
-                <div className="flex justify-between mt-1">
-                  <span className="text-[11px] tabular-nums" style={{ color: "var(--secondary)" }}>{formatTime(currentTime)}</span>
-                  <span className="text-[11px] tabular-nums" style={{ color: "var(--secondary)" }}>{formatTime(duration)}</span>
-                </div>
-              </div>
-            )}
-
-            {/* Controls */}
-            <div className="flex items-center justify-center gap-6">
+            {/* Audio controls */}
+            <div className="flex items-center justify-center gap-4 mb-5">
               <button
-                onClick={handlePrev}
-                disabled={selectedChapter <= 1}
-                className="w-12 h-12 flex items-center justify-center rounded-full smooth-transition modern-button"
-                style={{ minHeight: "44px", minWidth: "44px" }}
-                title="Previous chapter"
+                onClick={handlePlayPause}
+                disabled={isLoading}
+                className="w-16 h-16 flex items-center justify-center rounded-full transition-all active:scale-95"
+                style={{ backgroundColor: "var(--accent)" }}
+                title={isPlaying ? "Pause" : "Play"}
               >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <polygon points="19 20 9 12 19 4 19 20" fill="currentColor"/>
-                  <line x1="5" y1="4" x2="5" y2="20"/>
-                </svg>
-              </button>
-
-              <button
-                onClick={handlePlay}
-                disabled={audioState === "loading"}
-                className="w-20 h-20 flex items-center justify-center rounded-full smooth-transition"
-                style={{
-                  backgroundColor: "var(--accent)",
-                  minHeight: "48px",
-                  minWidth: "48px",
-                  boxShadow: audioState === "playing" ? "var(--shadow-lg)" : "var(--shadow-md)"
-                }}
-                title={audioState === "playing" ? "Pause" : "Play"}
-              >
-                {audioState === "loading" ? (
+                {isLoading ? (
                   <svg width="24" height="24" viewBox="0 0 24 24" className="animate-spin">
-                    <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2.5" fill="none" strokeDasharray="60" strokeDashoffset="20" strokeLinecap="round"/>
+                    <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2.5" fill="none" strokeDasharray="60" strokeDashoffset="20" strokeLinecap="round"/>
                   </svg>
-                ) : audioState === "playing" ? (
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                ) : isPlaying ? (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
                     <rect x="6" y="4" width="4" height="16" rx="1"/>
                     <rect x="14" y="4" width="4" height="16" rx="1"/>
                   </svg>
                 ) : (
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
                     <polygon points="8 4 20 12 8 20 8 4"/>
                   </svg>
                 )}
               </button>
 
-              {/* Stop button */}
-              <button
-                onClick={stop}
-                disabled={audioState === "idle" || audioState === "loading"}
-                className="w-12 h-12 flex items-center justify-center rounded-full smooth-transition modern-button"
-                style={{ minHeight: "44px", minWidth: "44px" }}
-                title="Stop playback"
-              >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <rect x="6" y="6" width="12" height="12" fill="currentColor"/>
-                </svg>
-              </button>
-
-              <button
-                onClick={handleNext}
-                disabled={!selectedBook || selectedChapter >= selectedBook.total_chapters}
-                className="w-12 h-12 flex items-center justify-center rounded-full smooth-transition modern-button"
-                style={{ minHeight: "44px", minWidth: "44px" }}
-                title="Next chapter"
-              >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <polygon points="5 4 15 12 5 20 5 4" fill="currentColor"/>
-                  <line x1="19" y1="4" x2="19" y2="20"/>
-                </svg>
-              </button>
+              {isActive && (
+                <button
+                  onClick={stop}
+                  className="w-12 h-12 flex items-center justify-center rounded-full transition-all active:scale-95"
+                  style={{ border: "1.5px solid var(--border)" }}
+                  title="Stop"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="var(--secondary)">
+                    <rect x="6" y="6" width="12" height="12" rx="1"/>
+                  </svg>
+                </button>
+              )}
             </div>
 
-            {/* Error message */}
-            {audioState === "error" && (
-              <div className="mt-4 rounded-lg px-4 py-3 text-[13px] text-center" style={{ backgroundColor: "#FEF2F2", color: "#DC2626", border: "1px solid #FECACA" }}>
-                {errorMsg}
-              </div>
-            )}
+            {/* Link to text page - primary CTA */}
+            <Link
+              href={`/bible/${selectedBook.slug}/${selectedChapter}`}
+              className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-[14px] font-semibold transition-all active:scale-[0.98]"
+              style={{
+                backgroundColor: "var(--accent)",
+                color: "#fff",
+              }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>
+              </svg>
+              {isActive ? "Go to Text" : "Read & Listen"}
+            </Link>
 
-            {/* Read along link */}
-            <div className="mt-5 text-center">
-              <Link
-                href={`/bible/${selectedBook.slug}/${selectedChapter}`}
-                className="text-[13px] font-medium"
-                style={{ color: "var(--accent)" }}
-              >
-                Read along →
-              </Link>
-            </div>
+            <p className="text-center text-[11px] mt-3" style={{ color: "var(--secondary)" }}>
+              Audio plays while you read along
+            </p>
           </div>
         )}
 

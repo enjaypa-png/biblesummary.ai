@@ -58,6 +58,7 @@ export default function ChapterReaderClient({
     audioState,
     currentlyPlayingVerse,
     currentTrackId,
+    totalVerses,
     play,
     pause,
     resume,
@@ -70,8 +71,10 @@ export default function ChapterReaderClient({
 
   // Current track for this page
   const thisTrackId = `${bookSlug}:${chapter}`;
-  const isThisTrackPlaying = currentTrackId === thisTrackId && (audioState === "playing" || audioState === "paused");
-  const isThisTrackLoading = currentTrackId === thisTrackId && audioState === "loading";
+  const isThisTrackActive = currentTrackId === thisTrackId;
+  const isPlaying = isThisTrackActive && audioState === "playing";
+  const isPaused = isThisTrackActive && audioState === "paused";
+  const isLoading = isThisTrackActive && audioState === "loading";
 
   // Load books and set selection on mount
   useEffect(() => {
@@ -88,7 +91,7 @@ export default function ChapterReaderClient({
     }
   }, [books, bookSlug, chapter, setSelection]);
 
-  // Save current book/chapter to localStorage for cross-tab persistence
+  // Save current book/chapter to localStorage
   useEffect(() => {
     localStorage.setItem('lastViewedBook', bookSlug);
     localStorage.setItem('lastViewedChapter', chapter.toString());
@@ -157,32 +160,27 @@ export default function ChapterReaderClient({
     setNoteText("");
   }
 
-  function handleAudioToggle() {
-    // Prevent action while loading
-    if (audioState === "loading") {
-      return;
-    }
+  function handlePlayPause() {
+    if (isLoading) return;
 
-    // If this track is playing, pause it
-    if (currentTrackId === thisTrackId && audioState === "playing") {
+    if (isPlaying) {
       pause();
       return;
     }
 
-    // If this track is paused, resume it
-    if (currentTrackId === thisTrackId && audioState === "paused") {
+    if (isPaused) {
       resume();
       return;
     }
 
-    // Start playing this chapter (will stop any other audio)
+    // Start playing
     if (selectedBook) {
       play(selectedBook, chapter);
     }
   }
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
+    <div className="min-h-screen pb-24" style={{ backgroundColor: "var(--background)" }}>
       {/* ── Header ── */}
       <header className="sticky top-0 z-40 backdrop-blur-xl"
         style={{ backgroundColor: "var(--background-blur)", borderBottom: "1px solid var(--border)" }}>
@@ -217,34 +215,8 @@ export default function ChapterReaderClient({
             </svg>
           </button>
 
-          {/* Right: Audio + Tools */}
+          {/* Right: Tools only */}
           <div className="flex items-center gap-2 min-w-[60px] justify-end">
-            <button
-              onClick={handleAudioToggle}
-              disabled={isThisTrackLoading}
-              title={isThisTrackPlaying && audioState === "playing" ? "Pause audio" : isThisTrackPlaying && audioState === "paused" ? "Resume audio" : "Listen to this chapter"}
-              className="w-8 h-8 flex items-center justify-center rounded-lg active:bg-black/5 dark:active:bg-white/5 disabled:opacity-50 smooth-transition"
-              aria-label={isThisTrackPlaying && audioState === "playing" ? "Pause" : isThisTrackPlaying && audioState === "paused" ? "Resume" : "Listen"}
-            >
-              {isThisTrackLoading ? (
-                <svg width="16" height="16" viewBox="0 0 24 24" className="animate-spin">
-                  <circle cx="12" cy="12" r="10" stroke="var(--secondary)" strokeWidth="2.5" fill="none" strokeDasharray="60" strokeDashoffset="20" strokeLinecap="round"/>
-                </svg>
-              ) : isThisTrackPlaying && audioState === "playing" ? (
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--accent)">
-                  <rect x="5" y="3" width="5" height="18" rx="1"/>
-                  <rect x="14" y="3" width="5" height="18" rx="1"/>
-                </svg>
-              ) : isThisTrackPlaying && audioState === "paused" ? (
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="var(--accent)" stroke="none">
-                  <polygon points="5 3 19 12 5 21 5 3"/>
-                </svg>
-              ) : (
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                  <polygon points="5 3 19 12 5 21 5 3"/>
-                </svg>
-              )}
-            </button>
             <button
               onClick={() => setShowTools(!showTools)}
               title="Reading tools"
@@ -328,9 +300,6 @@ export default function ChapterReaderClient({
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><line x1="0" y1="8" x2="16" y2="8" stroke="var(--foreground)" strokeWidth="2" strokeLinecap="round"/><line x1="8" y1="0" x2="8" y2="16" stroke="var(--foreground)" strokeWidth="2" strokeLinecap="round"/></svg>
                   </button>
                 </div>
-                <div className="mt-2 h-1 rounded-full overflow-hidden" style={{ backgroundColor: "var(--border)" }}>
-                  <div className="h-full rounded-full transition-all" style={{ width: `${((fontSize - 14) / 14) * 100}%`, backgroundColor: "var(--accent)" }} />
-                </div>
               </div>
 
               {/* Navigate */}
@@ -347,23 +316,6 @@ export default function ChapterReaderClient({
                   </Link>
                 </div>
               </div>
-
-              {/* Audio controls in tools */}
-              {isThisTrackPlaying && (
-                <div className="mb-6">
-                  <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>Audio</label>
-                  <button
-                    onClick={stop}
-                    className="flex items-center gap-3 px-3 py-2.5 rounded-lg w-full"
-                    style={{ border: "1px solid var(--border)" }}
-                  >
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--secondary)">
-                      <rect x="6" y="6" width="12" height="12" rx="1"/>
-                    </svg>
-                    <span className="text-[14px] font-medium" style={{ color: "var(--foreground)" }}>Stop Audio</span>
-                  </button>
-                </div>
-              )}
 
               {/* Info */}
               <div>
@@ -404,15 +356,24 @@ export default function ChapterReaderClient({
           {verses.map((verse: Verse) => {
             const hasNote = !!getVerseNote(verse.verse);
             const isActive = activeVerse === verse.verse;
-            const isPlayingThisVerse = isThisTrackPlaying && currentlyPlayingVerse === verse.verse;
+            const isCurrentVerse = isThisTrackActive && currentlyPlayingVerse === verse.verse;
 
             return (
               <span key={verse.id}>
                 <span
                   data-verse={verse.verse}
-                  className={`inline cursor-pointer transition-colors rounded-sm ${
+                  className={`inline cursor-pointer rounded-sm transition-all duration-500 ${
                     isActive ? 'bg-[var(--highlight)]' : ''
-                  } ${isPlayingThisVerse ? 'bg-blue-100 dark:bg-blue-900' : ''}`}
+                  }`}
+                  style={{
+                    // Subtle highlight for currently playing verse
+                    ...(isCurrentVerse && !isActive ? {
+                      backgroundColor: 'rgba(37, 99, 235, 0.08)',
+                      borderLeft: '2px solid rgba(37, 99, 235, 0.4)',
+                      paddingLeft: '4px',
+                      marginLeft: '-6px',
+                    } : {})
+                  }}
                   onClick={() => handleVerseTap(verse.verse)}
                   title={hasNote ? "View or edit your note" : "Tap to add a note"}
                 >
@@ -546,6 +507,105 @@ export default function ChapterReaderClient({
 
         <p className="text-center mt-8 text-[11px] tracking-wide" style={{ color: "var(--secondary)" }}>KING JAMES VERSION</p>
       </main>
+
+      {/* ── Sticky Audio Player Bar ── */}
+      <div
+        className="fixed left-0 right-0 z-50 backdrop-blur-xl"
+        style={{
+          bottom: "calc(60px + env(safe-area-inset-bottom, 0px))",
+          backgroundColor: "var(--card)",
+          borderTop: "1px solid var(--border)",
+          boxShadow: "0 -2px 16px rgba(0,0,0,0.06)",
+        }}
+      >
+        {/* Progress indicator */}
+        {isThisTrackActive && totalVerses > 0 && currentlyPlayingVerse && (
+          <div
+            className="h-0.5 transition-all duration-300"
+            style={{
+              width: `${(currentlyPlayingVerse / totalVerses) * 100}%`,
+              backgroundColor: "var(--accent)",
+            }}
+          />
+        )}
+
+        <div className="flex items-center gap-4 px-4 py-3 max-w-2xl mx-auto">
+          {/* Chapter info */}
+          <div className="flex-1 min-w-0">
+            <p
+              className="text-[14px] font-semibold truncate"
+              style={{ color: "var(--foreground)", fontFamily: "'Source Serif 4', Georgia, serif" }}
+            >
+              {bookName} {chapter}
+            </p>
+            <p className="text-[11px] truncate" style={{ color: "var(--secondary)" }}>
+              {isLoading ? "Loading..." :
+               isPlaying || isPaused ? `Verse ${currentlyPlayingVerse || 1} of ${verses.length}` :
+               `${verses.length} verses`}
+            </p>
+          </div>
+
+          {/* Controls */}
+          <div className="flex items-center gap-2">
+            {/* Play/Pause button */}
+            <button
+              onClick={handlePlayPause}
+              disabled={isLoading}
+              className="w-12 h-12 flex items-center justify-center rounded-full transition-all active:scale-95"
+              style={{
+                backgroundColor: "var(--accent)",
+                minHeight: "48px",
+                minWidth: "48px",
+              }}
+              title={isPlaying ? "Pause" : "Play"}
+            >
+              {isLoading ? (
+                <svg width="20" height="20" viewBox="0 0 24 24" className="animate-spin">
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="white"
+                    strokeWidth="2.5"
+                    fill="none"
+                    strokeDasharray="60"
+                    strokeDashoffset="20"
+                    strokeLinecap="round"
+                  />
+                </svg>
+              ) : isPlaying ? (
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                  <rect x="6" y="4" width="4" height="16" rx="1" />
+                  <rect x="14" y="4" width="4" height="16" rx="1" />
+                </svg>
+              ) : (
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                  <polygon points="8 4 20 12 8 20 8 4" />
+                </svg>
+              )}
+            </button>
+
+            {/* Stop button - only show when playing/paused */}
+            {(isPlaying || isPaused) && (
+              <button
+                onClick={stop}
+                className="w-10 h-10 flex items-center justify-center rounded-full transition-all active:scale-95"
+                style={{
+                  backgroundColor: "transparent",
+                  border: "1.5px solid var(--border)",
+                  minHeight: "44px",
+                  minWidth: "44px",
+                }}
+                title="Stop"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--secondary)">
+                  <rect x="6" y="6" width="12" height="12" rx="1" />
+                </svg>
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

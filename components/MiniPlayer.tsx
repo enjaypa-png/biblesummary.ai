@@ -9,8 +9,8 @@ export default function MiniPlayer() {
     selectedBook,
     selectedChapter,
     audioState,
-    currentTime,
-    duration,
+    currentlyPlayingVerse,
+    totalVerses,
     play,
     pause,
     resume,
@@ -24,12 +24,19 @@ export default function MiniPlayer() {
     return null;
   }
 
+  // Don't show on Bible text pages (they have their own audio controls)
+  if (pathname.startsWith("/bible/") && pathname.split("/").length >= 4) {
+    return null;
+  }
+
   // Don't show on the Listen page (it has full controls)
   if (pathname === "/listen") {
     return null;
   }
 
-  const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
+  const progress = totalVerses > 0 && currentlyPlayingVerse
+    ? (currentlyPlayingVerse / totalVerses) * 100
+    : 0;
 
   const handlePlayPause = () => {
     if (audioState === "playing") {
@@ -41,25 +48,19 @@ export default function MiniPlayer() {
     }
   };
 
-  const formatTime = (s: number) => {
-    const m = Math.floor(s / 60);
-    const sec = Math.floor(s % 60);
-    return `${m}:${sec.toString().padStart(2, "0")}`;
-  };
-
   return (
     <div
       className="fixed left-0 right-0 z-50 backdrop-blur-xl"
       style={{
         bottom: "calc(60px + env(safe-area-inset-bottom, 0px))",
-        backgroundColor: "var(--background-blur)",
-        borderTop: "0.5px solid var(--border)",
-        boxShadow: "0 -4px 20px rgba(0,0,0,0.1)",
+        backgroundColor: "var(--card)",
+        borderTop: "1px solid var(--border)",
+        boxShadow: "0 -2px 16px rgba(0,0,0,0.06)",
       }}
     >
       {/* Progress bar */}
       <div
-        className="h-0.5 transition-all"
+        className="h-0.5 transition-all duration-300"
         style={{
           width: `${progress}%`,
           backgroundColor: "var(--accent)",
@@ -67,14 +68,14 @@ export default function MiniPlayer() {
       />
 
       <div className="flex items-center gap-3 px-4 py-2.5 max-w-2xl mx-auto">
-        {/* Book/Chapter info */}
+        {/* Book/Chapter info - links to text page */}
         <Link
           href={`/bible/${selectedBook.slug}/${selectedChapter}`}
           className="flex-1 min-w-0"
         >
           <p
             className="text-[14px] font-semibold truncate"
-            style={{ color: "var(--foreground)" }}
+            style={{ color: "var(--foreground)", fontFamily: "'Source Serif 4', Georgia, serif" }}
           >
             {selectedBook.name} {selectedChapter}
           </p>
@@ -82,7 +83,9 @@ export default function MiniPlayer() {
             className="text-[11px] truncate"
             style={{ color: "var(--secondary)" }}
           >
-            {audioState === "loading" ? "Loading..." : `${formatTime(currentTime)} / ${formatTime(duration)}`}
+            {audioState === "loading" ? "Loading..." :
+             currentlyPlayingVerse ? `Verse ${currentlyPlayingVerse} of ${totalVerses}` :
+             "Tap to follow along"}
           </p>
         </Link>
 
@@ -131,14 +134,14 @@ export default function MiniPlayer() {
             onClick={stop}
             className="w-10 h-10 flex items-center justify-center rounded-full transition-all active:scale-95"
             style={{
-              backgroundColor: "var(--card)",
-              border: "1px solid var(--border)",
+              backgroundColor: "transparent",
+              border: "1.5px solid var(--border)",
               minHeight: "44px",
               minWidth: "44px",
             }}
             title="Stop"
           >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--foreground)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--secondary)">
               <rect x="6" y="6" width="12" height="12" rx="1" />
             </svg>
           </button>
