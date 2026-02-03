@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import BottomTabBar from "@/components/BottomTabBar";
 import AuthGate from "@/components/AuthGate";
+import MiniPlayer from "@/components/MiniPlayer";
+import { AudioPlayerProvider } from "@/contexts/AudioPlayerContext";
 
 export const metadata: Metadata = {
   title: "BibleSummary.ai - Read & Understand the Bible",
@@ -19,8 +21,11 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <AuthGate>
-          {children}
-          <BottomTabBar />
+          <AudioPlayerProvider>
+            {children}
+            <MiniPlayer />
+            <BottomTabBar />
+          </AudioPlayerProvider>
         </AuthGate>
       </body>
     </html>

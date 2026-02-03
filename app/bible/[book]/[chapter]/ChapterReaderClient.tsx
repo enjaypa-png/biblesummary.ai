@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { supabase, getCurrentUser } from "@/lib/supabase";
+import { useAudioPlayer } from "@/contexts/AudioPlayerContext";
 
 interface Verse {
   id: string;
@@ -48,21 +49,47 @@ export default function ChapterReaderClient({
   const [noteText, setNoteText] = useState("");
   const [saving, setSaving] = useState(false);
 
-  // Audio player state
-  const [audioState, setAudioState] = useState<"idle" | "loading" | "playing" | "paused" | "error">("idle");
-  const [errorMsg, setErrorMsg] = useState("");
-  const [currentlyPlayingVerse, setCurrentlyPlayingVerse] = useState<number | null>(null);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const shouldContinueAudioRef = useRef<boolean>(false);
-  const abortControllerRef = useRef<AbortController | null>(null);
-  const highlightIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  // Global audio player
+  const {
+    books,
+    loadBooks,
+    selectedBook,
+    setSelection,
+    audioState,
+    currentlyPlayingVerse,
+    currentTrackId,
+    play,
+    pause,
+    resume,
+    stop,
+  } = useAudioPlayer();
 
   const chapters = Array.from({ length: totalChapters }, (_, i) => i + 1);
   const firstVerse = verses.length > 0 ? verses[0].verse : 1;
   const lastVerse = verses.length > 0 ? verses[verses.length - 1].verse : 1;
 
+  // Current track for this page
+  const thisTrackId = `${bookSlug}:${chapter}`;
+  const isThisTrackPlaying = currentTrackId === thisTrackId && (audioState === "playing" || audioState === "paused");
+  const isThisTrackLoading = currentTrackId === thisTrackId && audioState === "loading";
+
+  // Load books and set selection on mount
   useEffect(() => {
-    // Save current book/chapter to localStorage for Listen tab persistence
+    loadBooks();
+  }, [loadBooks]);
+
+  // Update selection when this page loads
+  useEffect(() => {
+    if (books.length > 0) {
+      const book = books.find(b => b.slug === bookSlug);
+      if (book) {
+        setSelection(book, chapter);
+      }
+    }
+  }, [books, bookSlug, chapter, setSelection]);
+
+  // Save current book/chapter to localStorage for cross-tab persistence
+  useEffect(() => {
     localStorage.setItem('lastViewedBook', bookSlug);
     localStorage.setItem('lastViewedChapter', chapter.toString());
   }, [bookSlug, chapter]);
@@ -130,224 +157,27 @@ export default function ChapterReaderClient({
     setNoteText("");
   }
 
-  function stopAudio() {
-    shouldContinueAudioRef.current = false; // Signal to stop loading more audio
-    
-    // Abort any pending fetch requests
-    if (abortControllerRef.current) {
-      abortControllerRef.current.abort();
-      abortControllerRef.current = null;
-    }
-    
-    // Clear highlighting interval
-    if (highlightIntervalRef.current) {
-      clearInterval(highlightIntervalRef.current);
-      highlightIntervalRef.current = null;
-    }
-    
-    // Stop and cleanup audio
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current.currentTime = 0;
-      audioRef.current.removeEventListener("ended", () => {}); // Remove all listeners
-      URL.revokeObjectURL(audioRef.current.src);
-      audioRef.current = null;
-    }
-    
-    setAudioState("idle");
-    setErrorMsg("");
-    setCurrentlyPlayingVerse(null); // Clear verse highlighting
-  }
-
-  async function handleAudioToggle() {
-    // Prevent starting new audio while loading
+  function handleAudioToggle() {
+    // Prevent action while loading
     if (audioState === "loading") {
       return;
     }
 
-    // If playing, pause it
-    if (audioState === "playing") {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        setAudioState("paused");
-        // Pause the verse highlighting interval
-        if (highlightIntervalRef.current) {
-          clearInterval(highlightIntervalRef.current);
-          highlightIntervalRef.current = null;
-        }
-      }
-      return;
-    }
-    
-    // If paused, resume playback
-    if (audioState === "paused" && audioRef.current) {
-      audioRef.current.play();
-      setAudioState("playing");
-      
-      // Resume verse highlighting - estimate where we are based on current time
-      const estimatedVerseIndex = Math.floor(audioRef.current.currentTime / 3);
-      let currentVerseIndex = Math.max(0, Math.min(estimatedVerseIndex, verses.length - 1));
-      
-      highlightIntervalRef.current = setInterval(() => {
-        if (currentVerseIndex < verses.length && shouldContinueAudioRef.current) {
-          const verseNumber = verses[currentVerseIndex].verse;
-          setCurrentlyPlayingVerse(verseNumber);
-          
-          // Auto-scroll to currently playing verse
-          const verseElement = document.querySelector(`[data-verse="${verseNumber}"]`);
-          if (verseElement) {
-            verseElement.scrollIntoView({ 
-              behavior: 'smooth', 
-              block: 'center'
-            });
-          }
-          
-          currentVerseIndex++;
-        } else {
-          if (highlightIntervalRef.current) {
-            clearInterval(highlightIntervalRef.current);
-            highlightIntervalRef.current = null;
-          }
-          setCurrentlyPlayingVerse(null);
-        }
-      }, 3000);
-      
+    // If this track is playing, pause it
+    if (currentTrackId === thisTrackId && audioState === "playing") {
+      pause();
       return;
     }
 
-    // Starting new audio - stop any existing audio first
-    stopAudio();
-    shouldContinueAudioRef.current = true; // Signal we want continuous playback
-    setAudioState("loading");
-    setErrorMsg("");
+    // If this track is paused, resume it
+    if (currentTrackId === thisTrackId && audioState === "paused") {
+      resume();
+      return;
+    }
 
-    // Create new abort controller for this playback session
-    abortControllerRef.current = new AbortController();
-    const playbackAbortController = abortControllerRef.current;
-
-    try {
-      // Build text to speak - use first 800 chars for fast start
-      const fullText = verses.map((v) => v.text).join(" ");
-      const initialChunk = fullText.slice(0, 800);
-      let remainingText = fullText.slice(800);
-
-      // Start with initial chunk for fast playback
-      const res = await fetch("/api/tts", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: initialChunk }),
-        signal: playbackAbortController.signal,
-      });
-
-      // Check if we were aborted during fetch
-      if (!shouldContinueAudioRef.current) {
-        return;
-      }
-
-      if (!res.ok) {
-        setErrorMsg("Failed to generate audio");
-        setAudioState("error");
-        return;
-      }
-
-      const blob = await res.blob();
-      
-      // Check again after blob processing
-      if (!shouldContinueAudioRef.current) {
-        return;
-      }
-
-      const url = URL.createObjectURL(blob);
-
-      // Create audio element
-      const audio = new Audio();
-      audioRef.current = audio;
-      audio.src = url;
-
-      audio.addEventListener("ended", async () => {
-        // Only load remaining if we have it and user hasn't stopped (check ref, not state)
-        if (remainingText && shouldContinueAudioRef.current) {
-          try {
-            const res = await fetch("/api/tts", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ text: remainingText }),
-              signal: playbackAbortController.signal,
-            });
-
-            if (res.ok && shouldContinueAudioRef.current) {
-              const blob = await res.blob();
-              const nextUrl = URL.createObjectURL(blob);
-              audio.src = nextUrl;
-              await audio.play();
-              remainingText = "";
-            }
-          } catch (error) {
-            if (error instanceof Error && error.name !== 'AbortError') {
-              console.error("Failed to load remaining audio:", error);
-            }
-            setAudioState("idle");
-          }
-        } else {
-          setAudioState("idle");
-          if (highlightIntervalRef.current) {
-            clearInterval(highlightIntervalRef.current);
-            highlightIntervalRef.current = null;
-          }
-          setCurrentlyPlayingVerse(null);
-        }
-      });
-
-      audio.addEventListener("error", () => {
-        if (shouldContinueAudioRef.current) {
-          setErrorMsg("Audio playback error");
-          setAudioState("error");
-        }
-      });
-
-      // Check one more time before playing
-      if (!shouldContinueAudioRef.current) {
-        URL.revokeObjectURL(url);
-        return;
-      }
-
-      await audio.play();
-      setAudioState("playing");
-
-      // Start verse highlighting - estimate ~3 seconds per verse
-      let currentVerseIndex = 0;
-      highlightIntervalRef.current = setInterval(() => {
-        if (currentVerseIndex < verses.length && shouldContinueAudioRef.current) {
-          const verseNumber = verses[currentVerseIndex].verse;
-          setCurrentlyPlayingVerse(verseNumber);
-          
-          // Auto-scroll to currently playing verse for visual tracking
-          const verseElement = document.querySelector(`[data-verse="${verseNumber}"]`);
-          if (verseElement) {
-            verseElement.scrollIntoView({ 
-              behavior: 'smooth', 
-              block: 'center'
-            });
-          }
-          
-          currentVerseIndex++;
-        } else {
-          if (highlightIntervalRef.current) {
-            clearInterval(highlightIntervalRef.current);
-            highlightIntervalRef.current = null;
-          }
-          setCurrentlyPlayingVerse(null);
-        }
-      }, 3000);
-
-    } catch (error) {
-      if (error instanceof Error && error.name === 'AbortError') {
-        // Fetch was aborted, this is expected when stop is clicked
-        return;
-      }
-      console.error("Audio error:", error);
-      setErrorMsg("Could not generate audio");
-      setAudioState("error");
+    // Start playing this chapter (will stop any other audio)
+    if (selectedBook) {
+      play(selectedBook, chapter);
     }
   }
 
@@ -391,21 +221,21 @@ export default function ChapterReaderClient({
           <div className="flex items-center gap-2 min-w-[60px] justify-end">
             <button
               onClick={handleAudioToggle}
-              disabled={audioState === "loading"}
-              title={audioState === "playing" ? "Pause audio" : audioState === "paused" ? "Resume audio" : "Listen to this chapter"}
+              disabled={isThisTrackLoading}
+              title={isThisTrackPlaying && audioState === "playing" ? "Pause audio" : isThisTrackPlaying && audioState === "paused" ? "Resume audio" : "Listen to this chapter"}
               className="w-8 h-8 flex items-center justify-center rounded-lg active:bg-black/5 dark:active:bg-white/5 disabled:opacity-50 smooth-transition"
-              aria-label={audioState === "playing" ? "Pause" : audioState === "paused" ? "Resume" : "Listen"}
+              aria-label={isThisTrackPlaying && audioState === "playing" ? "Pause" : isThisTrackPlaying && audioState === "paused" ? "Resume" : "Listen"}
             >
-              {audioState === "loading" ? (
+              {isThisTrackLoading ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" className="animate-spin">
                   <circle cx="12" cy="12" r="10" stroke="var(--secondary)" strokeWidth="2.5" fill="none" strokeDasharray="60" strokeDashoffset="20" strokeLinecap="round"/>
                 </svg>
-              ) : audioState === "playing" ? (
+              ) : isThisTrackPlaying && audioState === "playing" ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--accent)">
                   <rect x="5" y="3" width="5" height="18" rx="1"/>
                   <rect x="14" y="3" width="5" height="18" rx="1"/>
                 </svg>
-              ) : audioState === "paused" ? (
+              ) : isThisTrackPlaying && audioState === "paused" ? (
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="var(--accent)" stroke="none">
                   <polygon points="5 3 19 12 5 21 5 3"/>
                 </svg>
@@ -518,6 +348,23 @@ export default function ChapterReaderClient({
                 </div>
               </div>
 
+              {/* Audio controls in tools */}
+              {isThisTrackPlaying && (
+                <div className="mb-6">
+                  <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>Audio</label>
+                  <button
+                    onClick={stop}
+                    className="flex items-center gap-3 px-3 py-2.5 rounded-lg w-full"
+                    style={{ border: "1px solid var(--border)" }}
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--secondary)">
+                      <rect x="6" y="6" width="12" height="12" rx="1"/>
+                    </svg>
+                    <span className="text-[14px] font-medium" style={{ color: "var(--foreground)" }}>Stop Audio</span>
+                  </button>
+                </div>
+              )}
+
               {/* Info */}
               <div>
                 <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>About this chapter</label>
@@ -557,7 +404,7 @@ export default function ChapterReaderClient({
           {verses.map((verse: Verse) => {
             const hasNote = !!getVerseNote(verse.verse);
             const isActive = activeVerse === verse.verse;
-            const isPlayingThisVerse = currentlyPlayingVerse === verse.verse;
+            const isPlayingThisVerse = isThisTrackPlaying && currentlyPlayingVerse === verse.verse;
 
             return (
               <span key={verse.id}>
