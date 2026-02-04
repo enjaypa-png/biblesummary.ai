@@ -103,12 +103,15 @@ export default function ReadingSettingsPanel() {
 
           {/* Text Size Slider */}
           <div className="flex items-center gap-4 mb-6">
-            <span
-              className="text-[14px] font-medium w-8"
+            {/* Small Aa - tap to jump to minimum */}
+            <button
+              onClick={() => setFontSize(14)}
+              className="text-[14px] font-medium w-8 p-1 -m-1 rounded active:opacity-60 transition-opacity"
               style={{ color: currentTheme.secondary }}
+              aria-label="Minimum text size"
             >
               Aa<sup style={{ fontSize: "8px" }}>−</sup>
-            </span>
+            </button>
             <div className="flex-1 relative">
               <input
                 type="range"
@@ -123,12 +126,15 @@ export default function ReadingSettingsPanel() {
                 }}
               />
             </div>
-            <span
-              className="text-[18px] font-medium w-8 text-right"
+            {/* Large Aa - tap to jump to maximum */}
+            <button
+              onClick={() => setFontSize(28)}
+              className="text-[18px] font-medium w-8 text-right p-1 -m-1 rounded active:opacity-60 transition-opacity"
               style={{ color: currentTheme.secondary }}
+              aria-label="Maximum text size"
             >
               Aa<sup style={{ fontSize: "10px" }}>+</sup>
-            </span>
+            </button>
           </div>
 
           {/* Line Spacing Slider */}
