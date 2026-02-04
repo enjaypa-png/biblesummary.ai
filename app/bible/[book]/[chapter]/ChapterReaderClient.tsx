@@ -395,17 +395,20 @@ export default function ChapterReaderClient({
                   <sup className="verse-number" style={{ color: settings.themeMode === "sepia" ? "#c4a574" : theme.secondary }}>{verse.verse}</sup>
                   {verse.text}
                 </span>
+                {/* Minimal note indicator - small dot after verse */}
                 {hasNote && !isActive && (
                   <span
-                    className="inline-flex items-center gap-0.5 ml-1 cursor-pointer select-none align-super"
+                    className="inline-block w-[5px] h-[5px] rounded-full ml-0.5 align-middle cursor-pointer"
                     onClick={() => handleVerseTap(verse.verse)}
-                    style={{ fontFamily: "'Inter', sans-serif" }}
-                  >
-                    <span className="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded"
-                      style={{ backgroundColor: "#c4a574", color: "#fff", fontSize: "10px" }}>
-                      Note
-                    </span>
-                  </span>
+                    style={{
+                      backgroundColor: settings.themeMode === "dark"
+                        ? "rgba(196, 165, 116, 0.6)"
+                        : "rgba(196, 165, 116, 0.8)",
+                      verticalAlign: "super",
+                      marginBottom: "0.3em",
+                    }}
+                    title="View note"
+                  />
                 )}
                 {" "}
 
