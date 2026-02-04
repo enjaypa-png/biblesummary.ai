@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
 
-export type FontFamily = "Merriweather" | "Lora" | "Inter" | "Lato";
+export type FontFamily = "Libre Baskerville" | "Spectral" | "Source Sans 3" | "System";
 export type ThemeMode = "light" | "sepia" | "gray" | "dark";
 
 interface ReadingSettings {
@@ -24,7 +24,7 @@ interface ReadingSettingsContextType {
 }
 
 const defaultSettings: ReadingSettings = {
-  fontFamily: "Merriweather",
+  fontFamily: "Libre Baskerville",
   fontSize: 18,
   lineHeight: 1.9,
   themeMode: "light",

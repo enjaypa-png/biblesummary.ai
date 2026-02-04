@@ -3,11 +3,11 @@
 import { useEffect, useRef } from "react";
 import { useReadingSettings, FontFamily, ThemeMode, themeStyles } from "@/contexts/ReadingSettingsContext";
 
-const fontOptions: { value: FontFamily; label: string }[] = [
-  { value: "Merriweather", label: "Merriweather" },
-  { value: "Lora", label: "Lora" },
-  { value: "Inter", label: "Inter" },
-  { value: "Lato", label: "Lato" },
+const fontOptions: { value: FontFamily; label: string; fontStack: string }[] = [
+  { value: "Libre Baskerville", label: "Baskerville", fontStack: "'Libre Baskerville', serif" },
+  { value: "Spectral", label: "Spectral", fontStack: "'Spectral', serif" },
+  { value: "Source Sans 3", label: "Source", fontStack: "'Source Sans 3', sans-serif" },
+  { value: "System", label: "System", fontStack: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" },
 ];
 
 export default function ReadingSettingsPanel() {
@@ -90,7 +90,7 @@ export default function ReadingSettingsPanel() {
                 onClick={() => setFontFamily(font.value)}
                 className="px-2 py-1 text-[15px] font-medium transition-colors"
                 style={{
-                  fontFamily: `'${font.value}', serif`,
+                  fontFamily: font.fontStack,
                   color: settings.fontFamily === font.value
                     ? "#c4a574"
                     : currentTheme.secondary,
@@ -133,12 +133,16 @@ export default function ReadingSettingsPanel() {
 
           {/* Line Spacing Slider */}
           <div className="flex items-center gap-4 mb-8">
-            {/* Compact lines icon */}
-            <div className="w-8 flex flex-col gap-[2px]">
+            {/* Compact lines icon - tap to jump to minimum */}
+            <button
+              onClick={() => setLineHeight(1.4)}
+              className="w-8 flex flex-col gap-[2px] p-1 -m-1 rounded active:opacity-60 transition-opacity"
+              aria-label="Minimum line spacing"
+            >
               <div className="h-[2px] rounded-full" style={{ backgroundColor: currentTheme.secondary, width: "20px" }} />
               <div className="h-[2px] rounded-full" style={{ backgroundColor: currentTheme.secondary, width: "20px" }} />
               <div className="h-[2px] rounded-full" style={{ backgroundColor: currentTheme.secondary, width: "20px" }} />
-            </div>
+            </button>
             <div className="flex-1 relative">
               <input
                 type="range"
@@ -153,12 +157,16 @@ export default function ReadingSettingsPanel() {
                 }}
               />
             </div>
-            {/* Expanded lines icon */}
-            <div className="w-8 flex flex-col gap-[5px] items-end">
+            {/* Expanded lines icon - tap to jump to maximum */}
+            <button
+              onClick={() => setLineHeight(2.4)}
+              className="w-8 flex flex-col gap-[5px] items-end p-1 -m-1 rounded active:opacity-60 transition-opacity"
+              aria-label="Maximum line spacing"
+            >
               <div className="h-[2px] rounded-full" style={{ backgroundColor: currentTheme.secondary, width: "20px" }} />
               <div className="h-[2px] rounded-full" style={{ backgroundColor: currentTheme.secondary, width: "20px" }} />
               <div className="h-[2px] rounded-full" style={{ backgroundColor: currentTheme.secondary, width: "20px" }} />
-            </div>
+            </button>
           </div>
 
           {/* Theme Mode Selection */}
