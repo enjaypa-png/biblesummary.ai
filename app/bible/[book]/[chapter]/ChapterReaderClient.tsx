@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { useAudioPlayer } from "@/contexts/AudioPlayerContext";
+import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
 import InlineAudioPlayer from "@/components/InlineAudioPlayer";
 
 interface Verse {
@@ -39,9 +40,7 @@ export default function ChapterReaderClient({
   prevChapter,
   nextChapter,
 }: Props) {
-  const [fontSize, setFontSize] = useState(18);
   const [showChapterPicker, setShowChapterPicker] = useState(false);
-  const [showTools, setShowTools] = useState(false);
 
   // Notes state
   const [user, setUser] = useState<any>(null);
@@ -50,12 +49,15 @@ export default function ChapterReaderClient({
   const [noteText, setNoteText] = useState("");
   const [saving, setSaving] = useState(false);
 
+  // Reading settings
+  const { settings, openPanel } = useReadingSettings();
+  const theme = themeStyles[settings.themeMode];
+
   // Global audio player
   const {
     books,
     loadBooks,
     setSelection,
-    audioState,
     currentlyPlayingVerse,
     currentTrackId,
   } = useAudioPlayer();
@@ -152,18 +154,36 @@ export default function ChapterReaderClient({
     setNoteText("");
   }
 
+  // Highlight color based on theme
+  const highlightBg = settings.themeMode === "dark"
+    ? "rgba(37, 99, 235, 0.2)"
+    : settings.themeMode === "sepia"
+    ? "rgba(196, 165, 116, 0.15)"
+    : "rgba(37, 99, 235, 0.08)";
+
+  const highlightBorder = settings.themeMode === "dark"
+    ? "rgba(37, 99, 235, 0.5)"
+    : settings.themeMode === "sepia"
+    ? "rgba(196, 165, 116, 0.4)"
+    : "rgba(37, 99, 235, 0.4)";
+
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
+    <div className="min-h-screen transition-colors duration-300" style={{ backgroundColor: theme.background }}>
       {/* ── Header ── */}
-      <header className="sticky top-0 z-40 backdrop-blur-xl"
-        style={{ backgroundColor: "var(--background-blur)", borderBottom: "1px solid var(--border)" }}>
+      <header
+        className="sticky top-0 z-40 backdrop-blur-xl transition-colors duration-300"
+        style={{
+          backgroundColor: settings.themeMode === "dark" ? "rgba(26, 26, 26, 0.9)" : `${theme.background}ee`,
+          borderBottom: `1px solid ${theme.border}`
+        }}
+      >
         <div className="flex items-center justify-between max-w-2xl mx-auto px-4 py-2.5">
           {/* Left: Back to all books */}
           <Link
             href="/bible"
             title="All books"
             className="flex items-center gap-1.5 active:opacity-70 transition-opacity min-w-[60px]"
-            style={{ color: "var(--accent)" }}
+            style={{ color: "#c4a574" }}
           >
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none">
               <path d="M6 1L1 6L6 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -179,30 +199,33 @@ export default function ChapterReaderClient({
           >
             <span
               className="text-[15px] font-semibold"
-              style={{ color: "var(--foreground)", fontFamily: "'Source Serif 4', Georgia, serif" }}
+              style={{ color: theme.text, fontFamily: `'${settings.fontFamily}', serif` }}
             >
               {bookName} {chapter}
             </span>
             <svg width="8" height="5" viewBox="0 0 8 5" fill="none" className={`transition-transform ${showChapterPicker ? 'rotate-180' : ''}`}>
-              <path d="M1 1L4 4L7 1" stroke="var(--secondary)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M1 1L4 4L7 1" stroke={theme.secondary} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
 
-          {/* Right: Tools only */}
+          {/* Right: Settings icon */}
           <div className="flex items-center gap-2 min-w-[60px] justify-end">
             <button
-              onClick={() => setShowTools(!showTools)}
-              title="Reading tools"
-              className="w-8 h-8 flex items-center justify-center rounded-lg active:bg-black/5 dark:active:bg-white/5"
-              aria-label="Reading tools"
+              onClick={openPanel}
+              title="Reading settings"
+              className="w-8 h-8 flex items-center justify-center rounded-lg active:opacity-70 transition-opacity"
+              aria-label="Reading settings"
             >
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="4" y1="6" x2="20" y2="6" />
-                <line x1="4" y1="12" x2="20" y2="12" />
-                <line x1="4" y1="18" x2="20" y2="18" />
-                <circle cx="8" cy="6" r="2" fill="var(--secondary)" />
-                <circle cx="16" cy="12" r="2" fill="var(--secondary)" />
-                <circle cx="10" cy="18" r="2" fill="var(--secondary)" />
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={theme.secondary} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="4" y1="21" x2="4" y2="14" />
+                <line x1="4" y1="10" x2="4" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="12" />
+                <line x1="12" y1="8" x2="12" y2="3" />
+                <line x1="20" y1="21" x2="20" y2="16" />
+                <line x1="20" y1="12" x2="20" y2="3" />
+                <line x1="1" y1="14" x2="7" y2="14" />
+                <line x1="9" y1="8" x2="15" y2="8" />
+                <line x1="17" y1="16" x2="23" y2="16" />
               </svg>
             </button>
           </div>
@@ -210,12 +233,12 @@ export default function ChapterReaderClient({
 
         {/* Chapter picker dropdown */}
         {showChapterPicker && (
-          <div className="border-t px-4 py-3 max-w-2xl mx-auto" style={{ borderColor: "var(--border)" }}>
+          <div className="border-t px-4 py-3 max-w-2xl mx-auto" style={{ borderColor: theme.border }}>
             <Link
               href="/bible"
               onClick={() => setShowChapterPicker(false)}
               className="flex items-center justify-center gap-2 mb-3 py-2 rounded-lg text-[13px] font-semibold"
-              style={{ backgroundColor: "var(--background)", color: "var(--accent)", border: "1px solid var(--border)" }}
+              style={{ backgroundColor: theme.card, color: "#c4a574", border: `1px solid ${theme.border}` }}
             >
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>
@@ -231,9 +254,9 @@ export default function ChapterReaderClient({
                   onClick={() => setShowChapterPicker(false)}
                   className="aspect-square rounded-lg flex items-center justify-center text-[13px] font-medium transition-all active:scale-95"
                   style={{
-                    backgroundColor: ch === chapter ? 'var(--accent)' : 'var(--card)',
-                    color: ch === chapter ? '#fff' : 'var(--foreground)',
-                    border: ch === chapter ? 'none' : '0.5px solid var(--border)',
+                    backgroundColor: ch === chapter ? '#c4a574' : theme.card,
+                    color: ch === chapter ? '#fff' : theme.text,
+                    border: ch === chapter ? 'none' : `0.5px solid ${theme.border}`,
                   }}
                 >
                   {ch}
@@ -244,84 +267,26 @@ export default function ChapterReaderClient({
         )}
       </header>
 
-      {/* ── Tools sidebar ── */}
-      {showTools && (
-        <>
-          <div className="fixed inset-0 z-50 bg-black/30" onClick={() => setShowTools(false)} />
-          <div className="fixed top-0 right-0 z-50 h-full w-72 shadow-2xl overflow-y-auto" style={{ backgroundColor: "var(--card)" }}>
-            <div className="p-5">
-              <div className="flex items-center justify-between mb-6">
-                <h2 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>Reading Tools</h2>
-                <button onClick={() => setShowTools(false)} className="w-8 h-8 flex items-center justify-center rounded-full" aria-label="Close tools">
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M1 1L13 13M13 1L1 13" stroke="var(--secondary)" strokeWidth="1.5" strokeLinecap="round"/>
-                  </svg>
-                </button>
-              </div>
-
-              {/* Font size */}
-              <div className="mb-6">
-                <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>Text Size</label>
-                <div className="flex items-center gap-3">
-                  <button onClick={() => setFontSize(Math.max(14, fontSize - 2))} title="Decrease text size" className="w-10 h-10 flex items-center justify-center rounded-lg active:scale-95" style={{ backgroundColor: "var(--background)", border: "1px solid var(--border)" }}>
-                    <svg width="16" height="2" viewBox="0 0 16 2" fill="none"><line x1="0" y1="1" x2="16" y2="1" stroke="var(--foreground)" strokeWidth="2" strokeLinecap="round"/></svg>
-                  </button>
-                  <div className="flex-1 text-center">
-                    <span className="text-[15px] font-semibold tabular-nums" style={{ color: "var(--foreground)" }}>{fontSize}px</span>
-                  </div>
-                  <button onClick={() => setFontSize(Math.min(28, fontSize + 2))} title="Increase text size" className="w-10 h-10 flex items-center justify-center rounded-lg active:scale-95" style={{ backgroundColor: "var(--background)", border: "1px solid var(--border)" }}>
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><line x1="0" y1="8" x2="16" y2="8" stroke="var(--foreground)" strokeWidth="2" strokeLinecap="round"/><line x1="8" y1="0" x2="8" y2="16" stroke="var(--foreground)" strokeWidth="2" strokeLinecap="round"/></svg>
-                  </button>
-                </div>
-              </div>
-
-              {/* Navigate */}
-              <div className="mb-6">
-                <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>Navigate</label>
-                <div className="space-y-2">
-                  <Link href={`/bible/${bookSlug}`} onClick={() => setShowTools(false)} className="flex items-center gap-3 px-3 py-2.5 rounded-lg" style={{ border: "1px solid var(--border)" }}>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
-                    <span className="text-[14px] font-medium" style={{ color: "var(--foreground)" }}>{bookName} — All Chapters</span>
-                  </Link>
-                  <Link href="/bible" onClick={() => setShowTools(false)} className="flex items-center gap-3 px-3 py-2.5 rounded-lg" style={{ border: "1px solid var(--border)" }}>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
-                    <span className="text-[14px] font-medium" style={{ color: "var(--foreground)" }}>Change Book</span>
-                  </Link>
-                </div>
-              </div>
-
-              {/* Info */}
-              <div>
-                <label className="text-[12px] uppercase tracking-widest font-semibold block mb-3" style={{ color: "var(--secondary)" }}>About this chapter</label>
-                <div className="px-3 py-2.5 rounded-lg" style={{ backgroundColor: "var(--background)" }}>
-                  <p className="text-[13px] leading-relaxed" style={{ color: "var(--secondary)" }}>
-                    {bookName}, Chapter {chapter} of {totalChapters}<br />
-                    Verses {firstVerse}–{lastVerse} ({verses.length} verses)<br />
-                    King James Version
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </>
-      )}
-
       {/* ── Bible text ── */}
       <main className="max-w-2xl mx-auto px-5 py-6">
         <div className="text-center pt-6 pb-10">
           <h1
             className="font-semibold tracking-tight leading-none"
-            style={{ color: "var(--foreground)", fontFamily: "'Source Serif 4', Georgia, serif", fontSize: "clamp(2rem, 8vw, 3rem)" }}
+            style={{
+              color: settings.themeMode === "sepia" ? "#c4a574" : theme.text,
+              fontFamily: `'${settings.fontFamily}', serif`,
+              fontSize: "clamp(2rem, 8vw, 3rem)"
+            }}
           >
             {bookName}
           </h1>
-          <p className="mt-3 tracking-[0.25em] uppercase font-semibold" style={{ color: "var(--secondary)", fontSize: "clamp(0.75rem, 2.5vw, 0.875rem)" }}>
+          <p className="mt-3 tracking-[0.25em] uppercase font-semibold" style={{ color: theme.secondary, fontSize: "clamp(0.75rem, 2.5vw, 0.875rem)" }}>
             Chapter {chapter}
           </p>
           <div className="flex items-center justify-center gap-3 mt-5">
-            <div className="h-px flex-1 max-w-[60px]" style={{ backgroundColor: "var(--border)" }} />
-            <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "var(--secondary)", opacity: 0.4 }} />
-            <div className="h-px flex-1 max-w-[60px]" style={{ backgroundColor: "var(--border)" }} />
+            <div className="h-px flex-1 max-w-[60px]" style={{ backgroundColor: theme.border }} />
+            <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: theme.secondary, opacity: 0.4 }} />
+            <div className="h-px flex-1 max-w-[60px]" style={{ backgroundColor: theme.border }} />
           </div>
         </div>
 
@@ -334,7 +299,15 @@ export default function ChapterReaderClient({
           />
         </div>
 
-        <div className="bible-text leading-relaxed" style={{ fontSize: `${fontSize}px`, lineHeight: 1.9, color: "var(--foreground)" }}>
+        <div
+          className="bible-text leading-relaxed transition-all duration-300"
+          style={{
+            fontSize: `${settings.fontSize}px`,
+            lineHeight: settings.lineHeight,
+            color: theme.text,
+            fontFamily: `'${settings.fontFamily}', serif`,
+          }}
+        >
           {verses.map((verse: Verse) => {
             const hasNote = !!getVerseNote(verse.verse);
             const isActive = activeVerse === verse.verse;
@@ -344,22 +317,18 @@ export default function ChapterReaderClient({
               <span key={verse.id}>
                 <span
                   data-verse={verse.verse}
-                  className={`inline cursor-pointer rounded-sm transition-all duration-500 ${
-                    isActive ? 'bg-[var(--highlight)]' : ''
-                  }`}
+                  className={`inline cursor-pointer rounded-sm transition-all duration-500`}
                   style={{
-                    // Subtle highlight for currently playing verse
-                    ...(isCurrentVerse && !isActive ? {
-                      backgroundColor: 'rgba(37, 99, 235, 0.08)',
-                      borderLeft: '2px solid rgba(37, 99, 235, 0.4)',
-                      paddingLeft: '4px',
-                      marginLeft: '-6px',
-                    } : {})
+                    backgroundColor: isActive ? (settings.themeMode === "sepia" ? "rgba(196, 165, 116, 0.2)" : highlightBg) :
+                                    isCurrentVerse ? highlightBg : 'transparent',
+                    borderLeft: isCurrentVerse && !isActive ? `2px solid ${highlightBorder}` : 'none',
+                    paddingLeft: isCurrentVerse && !isActive ? '4px' : '0',
+                    marginLeft: isCurrentVerse && !isActive ? '-6px' : '0',
                   }}
                   onClick={() => handleVerseTap(verse.verse)}
                   title={hasNote ? "View or edit your note" : "Tap to add a note"}
                 >
-                  <sup className="verse-number">{verse.verse}</sup>
+                  <sup className="verse-number" style={{ color: settings.themeMode === "sepia" ? "#c4a574" : theme.secondary }}>{verse.verse}</sup>
                   {verse.text}
                 </span>
                 {hasNote && !isActive && (
@@ -369,7 +338,7 @@ export default function ChapterReaderClient({
                     style={{ fontFamily: "'Inter', sans-serif" }}
                   >
                     <span className="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded"
-                      style={{ backgroundColor: "#FBBF24", color: "#713F12", fontSize: "10px" }}>
+                      style={{ backgroundColor: "#c4a574", color: "#fff", fontSize: "10px" }}>
                       Note
                     </span>
                   </span>
@@ -377,8 +346,8 @@ export default function ChapterReaderClient({
                 {" "}
 
                 {isActive && (
-                  <span className="block my-3 rounded-xl p-4" style={{ backgroundColor: "var(--card)", border: "1px solid var(--border)" }}>
-                    <span className="block text-[12px] uppercase tracking-wider font-semibold mb-2" style={{ color: "var(--secondary)", fontFamily: "'Inter', sans-serif" }}>
+                  <span className="block my-3 rounded-xl p-4" style={{ backgroundColor: theme.card, border: `1px solid ${theme.border}` }}>
+                    <span className="block text-[12px] uppercase tracking-wider font-semibold mb-2" style={{ color: theme.secondary, fontFamily: "'Inter', sans-serif" }}>
                       {bookName} {chapter}:{verse.verse}
                     </span>
                     <textarea
@@ -387,9 +356,9 @@ export default function ChapterReaderClient({
                       placeholder="Write your note..."
                       className="block w-full rounded-lg p-3 text-[14px] leading-relaxed resize-none outline-none"
                       style={{
-                        backgroundColor: "var(--background)",
-                        color: "var(--foreground)",
-                        border: "1px solid var(--border)",
+                        backgroundColor: theme.background,
+                        color: theme.text,
+                        border: `1px solid ${theme.border}`,
                         fontFamily: "'Inter', sans-serif",
                       }}
                       rows={3}
@@ -408,7 +377,7 @@ export default function ChapterReaderClient({
                       <button
                         onClick={() => { setActiveVerse(null); setNoteText(""); }}
                         className="px-3 py-1.5 rounded-lg text-[13px] font-medium"
-                        style={{ color: "var(--secondary)" }}
+                        style={{ color: theme.secondary }}
                       >
                         Cancel
                       </button>
@@ -416,7 +385,7 @@ export default function ChapterReaderClient({
                         onClick={saveNote}
                         disabled={saving || !noteText.trim()}
                         className="px-4 py-1.5 rounded-lg text-[13px] font-semibold text-white disabled:opacity-50"
-                        style={{ backgroundColor: "var(--accent)" }}
+                        style={{ backgroundColor: "#c4a574" }}
                       >
                         {saving ? "Saving..." : "Save"}
                       </button>
@@ -429,17 +398,17 @@ export default function ChapterReaderClient({
         </div>
 
         {/* Chapter navigation */}
-        <nav className="mt-16 pt-6 border-t" style={{ borderColor: "var(--border)" }}>
+        <nav className="mt-16 pt-6 border-t" style={{ borderColor: theme.border }}>
           <div className="flex justify-between items-center">
             {prevChapter ? (
               <Link
                 href={`/bible/${bookSlug}/${prevChapter}`}
                 title={`Go to ${bookName} chapter ${prevChapter}`}
                 className="flex flex-col items-start gap-0.5 px-4 py-3 rounded-xl transition-all active:scale-[0.97]"
-                style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+                style={{ backgroundColor: theme.card, border: `0.5px solid ${theme.border}` }}
               >
-                <span className="text-[11px] uppercase tracking-wider font-medium" style={{ color: "var(--secondary)" }}>Previous</span>
-                <span className="text-[15px] font-semibold flex items-center gap-1.5" style={{ color: "var(--foreground)" }}>
+                <span className="text-[11px] uppercase tracking-wider font-medium" style={{ color: theme.secondary }}>Previous</span>
+                <span className="text-[15px] font-semibold flex items-center gap-1.5" style={{ color: theme.text }}>
                   <svg width="6" height="10" viewBox="0 0 6 10" fill="none"><path d="M5 1L1 5L5 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                   Chapter {prevChapter}
                 </span>
@@ -451,7 +420,7 @@ export default function ChapterReaderClient({
                 href={`/bible/${bookSlug}/${nextChapter}`}
                 title={`Continue to ${bookName} chapter ${nextChapter}`}
                 className="flex flex-col items-end gap-0.5 px-4 py-3 rounded-xl transition-all active:scale-[0.97]"
-                style={{ backgroundColor: "var(--accent)", color: "#fff" }}
+                style={{ backgroundColor: "#c4a574", color: "#fff" }}
               >
                 <span className="text-[11px] uppercase tracking-wider font-medium" style={{ opacity: 0.8 }}>Next</span>
                 <span className="text-[15px] font-semibold flex items-center gap-1.5">
@@ -464,7 +433,7 @@ export default function ChapterReaderClient({
                 href={`/bible/${bookSlug}`}
                 title={`Back to ${bookName} chapter list`}
                 className="flex flex-col items-end gap-0.5 px-4 py-3 rounded-xl transition-all active:scale-[0.97]"
-                style={{ backgroundColor: "var(--accent)", color: "#fff" }}
+                style={{ backgroundColor: "#c4a574", color: "#fff" }}
               >
                 <span className="text-[11px] uppercase tracking-wider font-medium" style={{ opacity: 0.8 }}>Finished</span>
                 <span className="text-[15px] font-semibold">All Chapters</span>
@@ -477,7 +446,7 @@ export default function ChapterReaderClient({
             <Link
               href="/bible"
               className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl text-[13px] font-medium transition-all active:scale-[0.98]"
-              style={{ color: "var(--accent)", border: "1px solid var(--border)" }}
+              style={{ color: "#c4a574", border: `1px solid ${theme.border}` }}
             >
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>
@@ -487,7 +456,7 @@ export default function ChapterReaderClient({
           </div>
         </nav>
 
-        <p className="text-center mt-8 text-[11px] tracking-wide" style={{ color: "var(--secondary)" }}>KING JAMES VERSION</p>
+        <p className="text-center mt-8 text-[11px] tracking-wide" style={{ color: theme.secondary }}>KING JAMES VERSION</p>
       </main>
     </div>
   );
