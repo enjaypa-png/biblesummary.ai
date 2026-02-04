@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 
 interface Note {
@@ -14,7 +14,11 @@ interface Note {
   updated_at: string;
   book_name?: string;
   book_slug?: string;
+  book_order?: number;
+  verse_text?: string;
 }
+
+type SortMode = "time" | "bible";
 
 export default function NotesPage() {
   const [user, setUser] = useState<any>(null);
@@ -22,6 +26,7 @@ export default function NotesPage() {
   const [loading, setLoading] = useState(true);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [editText, setEditText] = useState("");
+  const [sortMode, setSortMode] = useState<SortMode>("time");
 
   useEffect(() => {
     loadUserAndNotes();
@@ -40,20 +45,38 @@ export default function NotesPage() {
         .order("updated_at", { ascending: false });
 
       if (notesData && notesData.length > 0) {
-        // Fetch book names for all notes
+        // Fetch book names and order for all notes
         const bookIds = Array.from(new Set(notesData.map((n: Note) => n.book_id)));
         const { data: books } = await supabase
           .from("books")
-          .select("id, name, slug")
+          .select("id, name, slug, order_index")
           .in("id", bookIds);
 
         const bookMap = new Map(books?.map((b: any) => [b.id, b]) || []);
+
+        // Fetch verse texts for all notes
+        const versePromises = notesData.map(async (n: Note) => {
+          const { data: verseData } = await supabase
+            .from("verses")
+            .select("text")
+            .eq("book_id", n.book_id)
+            .eq("chapter", n.chapter)
+            .eq("verse", n.verse)
+            .single();
+          return { noteId: n.id, verseText: verseData?.text || "" };
+        });
+
+        const verseTexts = await Promise.all(versePromises);
+        const verseTextMap = new Map(verseTexts.map((v) => [v.noteId, v.verseText]));
+
         const enriched = notesData.map((n: Note) => {
           const book = bookMap.get(n.book_id) as any;
           return {
             ...n,
             book_name: book?.name || "Unknown",
             book_slug: book?.slug || "",
+            book_order: book?.order_index || 999,
+            verse_text: verseTextMap.get(n.id) || "",
           };
         });
         setNotes(enriched);
@@ -80,28 +103,186 @@ export default function NotesPage() {
     return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
   }
 
+  // Sort and group notes
+  const sortedAndGroupedNotes = useMemo(() => {
+    if (sortMode === "time") {
+      // Sort by time (most recent first), no grouping
+      return {
+        grouped: false,
+        notes: [...notes].sort(
+          (a, b) => new Date(b.updated_at || b.created_at).getTime() - new Date(a.updated_at || a.created_at).getTime()
+        ),
+      };
+    } else {
+      // Sort by Bible order, group by book
+      const sorted = [...notes].sort((a, b) => {
+        // First by book order
+        if ((a.book_order || 0) !== (b.book_order || 0)) {
+          return (a.book_order || 0) - (b.book_order || 0);
+        }
+        // Then by chapter
+        if (a.chapter !== b.chapter) {
+          return a.chapter - b.chapter;
+        }
+        // Then by verse
+        return a.verse - b.verse;
+      });
+
+      // Group by book
+      const groups: { bookName: string; notes: Note[] }[] = [];
+      let currentBook = "";
+      let currentGroup: Note[] = [];
+
+      sorted.forEach((note) => {
+        if (note.book_name !== currentBook) {
+          if (currentGroup.length > 0) {
+            groups.push({ bookName: currentBook, notes: currentGroup });
+          }
+          currentBook = note.book_name || "Unknown";
+          currentGroup = [note];
+        } else {
+          currentGroup.push(note);
+        }
+      });
+
+      if (currentGroup.length > 0) {
+        groups.push({ bookName: currentBook, notes: currentGroup });
+      }
+
+      return { grouped: true, groups };
+    }
+  }, [notes, sortMode]);
+
+  function truncateText(text: string, maxLength: number) {
+    if (text.length <= maxLength) return text;
+    return text.slice(0, maxLength).trim() + "…";
+  }
+
   // Loading
   if (loading) {
     return (
       <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
-        <header className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
-          style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}>
+        <header
+          className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
+          style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}
+        >
           <h1 className="text-[17px] font-semibold text-center max-w-lg mx-auto" style={{ color: "var(--foreground)" }}>
             Notes
           </h1>
         </header>
         <main className="max-w-lg mx-auto px-5 py-20 text-center">
-          <p className="text-[14px]" style={{ color: "var(--secondary)" }}>Loading your notes...</p>
+          <div
+            className="w-6 h-6 mx-auto border-2 rounded-full animate-spin"
+            style={{ borderColor: "var(--border)", borderTopColor: "#c4a574" }}
+          />
         </main>
       </div>
     );
   }
 
+  // Note card component
+  const NoteCard = ({ note }: { note: Note }) => (
+    <div
+      className="rounded-xl p-4"
+      style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+    >
+      {/* Reference and date */}
+      <div className="flex items-center justify-between mb-2">
+        <Link
+          href={`/bible/${note.book_slug}/${note.chapter}?verse=${note.verse}`}
+          className="text-[14px] font-semibold"
+          style={{ color: "#c4a574" }}
+        >
+          {note.book_name} {note.chapter}:{note.verse}
+        </Link>
+        <span className="text-[11px]" style={{ color: "var(--secondary)" }}>
+          {formatDate(note.updated_at || note.created_at)}
+        </span>
+      </div>
+
+      {/* Verse text excerpt */}
+      {note.verse_text && (
+        <p
+          className="text-[13px] leading-relaxed mb-3 italic"
+          style={{ color: "var(--secondary)" }}
+        >
+          &ldquo;{truncateText(note.verse_text, 120)}&rdquo;
+        </p>
+      )}
+
+      {/* Note text or edit field */}
+      {editingId === note.id ? (
+        <div>
+          <textarea
+            value={editText}
+            onChange={(e) => setEditText(e.target.value)}
+            className="w-full rounded-lg p-3 text-[14px] leading-relaxed resize-none outline-none"
+            style={{
+              backgroundColor: "var(--background)",
+              color: "var(--foreground)",
+              border: "1px solid var(--border)",
+            }}
+            rows={3}
+            autoFocus
+          />
+          <div className="flex gap-2 mt-2 justify-end">
+            <button
+              onClick={() => {
+                setEditingId(null);
+                setEditText("");
+              }}
+              className="px-3 py-1.5 rounded-lg text-[13px] font-medium"
+              style={{ color: "var(--secondary)" }}
+            >
+              Cancel
+            </button>
+            <button
+              onClick={() => saveEdit(note.id)}
+              className="px-3 py-1.5 rounded-lg text-[13px] font-semibold text-white"
+              style={{ backgroundColor: "#c4a574" }}
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      ) : (
+        <p className="text-[14px] leading-relaxed" style={{ color: "var(--foreground)" }}>
+          {note.note_text}
+        </p>
+      )}
+
+      {/* Actions */}
+      {editingId !== note.id && (
+        <div className="flex gap-4 mt-3 pt-2 border-t" style={{ borderColor: "var(--border)" }}>
+          <button
+            onClick={() => {
+              setEditingId(note.id);
+              setEditText(note.note_text);
+            }}
+            className="text-[12px] font-medium"
+            style={{ color: "var(--secondary)" }}
+          >
+            Edit
+          </button>
+          <button
+            onClick={() => deleteNote(note.id)}
+            className="text-[12px] font-medium"
+            style={{ color: "#DC2626" }}
+          >
+            Delete
+          </button>
+        </div>
+      )}
+    </div>
+  );
+
   // Signed in, show notes
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
-      <header className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
-        style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}>
+      <header
+        className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
+        style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}
+      >
         <div className="max-w-lg mx-auto flex items-center justify-between">
           <span className="text-[13px] font-medium" style={{ color: "var(--secondary)" }}>
             {notes.length} {notes.length === 1 ? "note" : "notes"}
@@ -109,17 +290,38 @@ export default function NotesPage() {
           <h1 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>
             Notes
           </h1>
-          <span className="w-[50px]" />
+          {/* Sort toggle */}
+          <button
+            onClick={() => setSortMode(sortMode === "time" ? "bible" : "time")}
+            className="text-[12px] font-medium px-2 py-1 rounded-md active:opacity-70 transition-opacity"
+            style={{ color: "#c4a574" }}
+          >
+            {sortMode === "time" ? "By Time" : "By Book"}
+          </button>
         </div>
       </header>
 
       <main className="max-w-lg mx-auto px-4 py-4">
         {notes.length === 0 ? (
           <div className="py-16 text-center">
-            <div className="w-14 h-14 mx-auto mb-5 rounded-2xl flex items-center justify-center"
-              style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7" style={{ color: "var(--accent)" }}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+            <div
+              className="w-14 h-14 mx-auto mb-5 rounded-2xl flex items-center justify-center"
+              style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-7 h-7"
+                style={{ color: "#c4a574" }}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10"
+                />
               </svg>
             </div>
             <h2 className="text-[17px] font-semibold mb-2" style={{ color: "var(--foreground)" }}>
@@ -128,90 +330,46 @@ export default function NotesPage() {
             <p className="text-[13px] leading-relaxed mb-6" style={{ color: "var(--secondary)" }}>
               Tap any verse while reading to add a note.
             </p>
-            <Link href="/bible" className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white" style={{ backgroundColor: "var(--accent)" }}>
+            <Link
+              href="/bible"
+              className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white"
+              style={{ backgroundColor: "#c4a574" }}
+            >
               Start Reading
             </Link>
           </div>
-        ) : (
-          <div className="space-y-3">
-            {notes.map((note) => (
-              <div
-                key={note.id}
-                className="rounded-xl p-4"
-                style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
-              >
-                {/* Verse reference */}
-                <div className="flex items-center justify-between mb-2">
-                  <Link
-                    href={`/bible/${note.book_slug}/${note.chapter}`}
-                    className="text-[13px] font-semibold"
-                    style={{ color: "var(--accent)" }}
-                  >
-                    {note.book_name} {note.chapter}:{note.verse}
-                  </Link>
-                  <span className="text-[11px]" style={{ color: "var(--secondary)" }}>
-                    {formatDate(note.updated_at || note.created_at)}
-                  </span>
-                </div>
-
-                {/* Note text or edit field */}
-                {editingId === note.id ? (
-                  <div>
-                    <textarea
-                      value={editText}
-                      onChange={(e) => setEditText(e.target.value)}
-                      className="w-full rounded-lg p-3 text-[14px] leading-relaxed resize-none outline-none"
-                      style={{
-                        backgroundColor: "var(--background)",
-                        color: "var(--foreground)",
-                        border: "1px solid var(--border)",
-                      }}
-                      rows={3}
-                      autoFocus
-                    />
-                    <div className="flex gap-2 mt-2 justify-end">
-                      <button
-                        onClick={() => { setEditingId(null); setEditText(""); }}
-                        className="px-3 py-1.5 rounded-lg text-[13px] font-medium"
-                        style={{ color: "var(--secondary)" }}
-                      >
-                        Cancel
-                      </button>
-                      <button
-                        onClick={() => saveEdit(note.id)}
-                        className="px-3 py-1.5 rounded-lg text-[13px] font-semibold text-white"
-                        style={{ backgroundColor: "var(--accent)" }}
-                      >
-                        Save
-                      </button>
-                    </div>
-                  </div>
-                ) : (
-                  <p className="text-[14px] leading-relaxed" style={{ color: "var(--foreground)" }}>
-                    {note.note_text}
-                  </p>
-                )}
-
-                {/* Actions */}
-                {editingId !== note.id && (
-                  <div className="flex gap-4 mt-3 pt-2 border-t" style={{ borderColor: "var(--border)" }}>
-                    <button
-                      onClick={() => { setEditingId(note.id); setEditText(note.note_text); }}
-                      className="text-[12px] font-medium"
+        ) : sortedAndGroupedNotes.grouped ? (
+          // Grouped by book (Bible order)
+          <div className="space-y-6">
+            {(sortedAndGroupedNotes as { grouped: true; groups: { bookName: string; notes: Note[] }[] }).groups.map(
+              (group) => (
+                <div key={group.bookName}>
+                  {/* Book section divider */}
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="h-px flex-1" style={{ backgroundColor: "var(--border)" }} />
+                    <span
+                      className="text-[12px] font-semibold uppercase tracking-wider"
                       style={{ color: "var(--secondary)" }}
                     >
-                      Edit
-                    </button>
-                    <button
-                      onClick={() => deleteNote(note.id)}
-                      className="text-[12px] font-medium"
-                      style={{ color: "#DC2626" }}
-                    >
-                      Delete
-                    </button>
+                      {group.bookName}
+                    </span>
+                    <div className="h-px flex-1" style={{ backgroundColor: "var(--border)" }} />
                   </div>
-                )}
-              </div>
+                  {/* Notes in this book */}
+                  <div className="space-y-3">
+                    {group.notes.map((note) => (
+                      <NoteCard key={note.id} note={note} />
+                    ))}
+                  </div>
+                </div>
+              )
+            )}
+          </div>
+        ) : (
+          // Flat list (time order)
+          <div className="space-y-3">
+            {(sortedAndGroupedNotes as { grouped: false; notes: Note[] }).notes.map((note) => (
+              <NoteCard key={note.id} note={note} />
             ))}
           </div>
         )}
