@@ -26,7 +26,8 @@ export default function NotesPage() {
   const [loading, setLoading] = useState(true);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [editText, setEditText] = useState("");
-  const [sortMode, setSortMode] = useState<SortMode>("time");
+  const [sortMode, setSortMode] = useState<SortMode>("bible");
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     loadUserAndNotes();
@@ -103,19 +104,40 @@ export default function NotesPage() {
     return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
   }
 
+  // Filter notes by search query
+  const filteredNotes = useMemo(() => {
+    if (!searchQuery.trim()) return notes;
+
+    const query = searchQuery.toLowerCase().trim();
+    return notes.filter((note) => {
+      // Search in note text
+      if (note.note_text.toLowerCase().includes(query)) return true;
+      // Search in book name
+      if (note.book_name?.toLowerCase().includes(query)) return true;
+      // Search in reference (e.g., "genesis 1:3" or "1:3")
+      const reference = `${note.book_name} ${note.chapter}:${note.verse}`.toLowerCase();
+      if (reference.includes(query)) return true;
+      // Search in verse text
+      if (note.verse_text?.toLowerCase().includes(query)) return true;
+      return false;
+    });
+  }, [notes, searchQuery]);
+
   // Sort and group notes
   const sortedAndGroupedNotes = useMemo(() => {
+    const notesToProcess = filteredNotes;
+
     if (sortMode === "time") {
       // Sort by time (most recent first), no grouping
       return {
         grouped: false,
-        notes: [...notes].sort(
+        notes: [...notesToProcess].sort(
           (a, b) => new Date(b.updated_at || b.created_at).getTime() - new Date(a.updated_at || a.created_at).getTime()
         ),
       };
     } else {
       // Sort by Bible order, group by book
-      const sorted = [...notes].sort((a, b) => {
+      const sorted = [...notesToProcess].sort((a, b) => {
         // First by book order
         if ((a.book_order || 0) !== (b.book_order || 0)) {
           return (a.book_order || 0) - (b.book_order || 0);
@@ -151,7 +173,7 @@ export default function NotesPage() {
 
       return { grouped: true, groups };
     }
-  }, [notes, sortMode]);
+  }, [filteredNotes, sortMode]);
 
   function truncateText(text: string, maxLength: number) {
     if (text.length <= maxLength) return text;
@@ -302,6 +324,50 @@ export default function NotesPage() {
       </header>
 
       <main className="max-w-lg mx-auto px-4 py-4">
+        {/* Search input */}
+        {notes.length > 0 && (
+          <div className="mb-4">
+            <div
+              className="flex items-center gap-2 px-3 py-2.5 rounded-xl"
+              style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                style={{ color: "var(--secondary)", flexShrink: 0 }}
+              >
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.3-4.3" />
+              </svg>
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search notes..."
+                className="flex-1 bg-transparent text-[14px] outline-none"
+                style={{ color: "var(--foreground)" }}
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery("")}
+                  className="p-1 rounded-full active:opacity-70"
+                  style={{ color: "var(--secondary)" }}
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
+            </div>
+          </div>
+        )}
+
         {notes.length === 0 ? (
           <div className="py-16 text-center">
             <div
@@ -337,6 +403,34 @@ export default function NotesPage() {
             >
               Start Reading
             </Link>
+          </div>
+        ) : filteredNotes.length === 0 && searchQuery ? (
+          <div className="py-16 text-center">
+            <div
+              className="w-14 h-14 mx-auto mb-5 rounded-2xl flex items-center justify-center"
+              style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+            >
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                style={{ color: "var(--secondary)" }}
+              >
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.3-4.3" />
+              </svg>
+            </div>
+            <h2 className="text-[17px] font-semibold mb-2" style={{ color: "var(--foreground)" }}>
+              No matches found
+            </h2>
+            <p className="text-[13px] leading-relaxed" style={{ color: "var(--secondary)" }}>
+              Try a different search term.
+            </p>
           </div>
         ) : sortedAndGroupedNotes.grouped ? (
           // Grouped by book (Bible order)
