@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { useAudioPlayer } from "@/contexts/AudioPlayerContext";
 import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
@@ -41,6 +42,14 @@ export default function ChapterReaderClient({
   nextChapter,
 }: Props) {
   const [showChapterPicker, setShowChapterPicker] = useState(false);
+
+  // Verse scroll/highlight from Index navigation
+  const searchParams = useSearchParams();
+  const initialVerse = searchParams.get("verse");
+  const [highlightedVerse, setHighlightedVerse] = useState<number | null>(
+    initialVerse ? parseInt(initialVerse) : null
+  );
+  const verseRefs = useRef<Map<number, HTMLSpanElement>>(new Map());
 
   // Notes state
   const [user, setUser] = useState<any>(null);
@@ -107,6 +116,29 @@ export default function ChapterReaderClient({
     localStorage.setItem('lastViewedBook', bookSlug);
     localStorage.setItem('lastViewedChapter', chapter.toString());
   }, [bookSlug, chapter]);
+
+  // Scroll to verse from Index navigation
+  useEffect(() => {
+    if (highlightedVerse) {
+      // Small delay to ensure DOM is ready
+      const scrollTimer = setTimeout(() => {
+        const verseElement = verseRefs.current.get(highlightedVerse);
+        if (verseElement) {
+          verseElement.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 100);
+
+      // Clear highlight after 3 seconds
+      const highlightTimer = setTimeout(() => {
+        setHighlightedVerse(null);
+      }, 3000);
+
+      return () => {
+        clearTimeout(scrollTimer);
+        clearTimeout(highlightTimer);
+      };
+    }
+  }, [highlightedVerse]);
 
   useEffect(() => {
     async function load() {
@@ -329,18 +361,33 @@ export default function ChapterReaderClient({
             const hasNote = !!getVerseNote(verse.verse);
             const isActive = activeVerse === verse.verse;
             const isCurrentVerse = isThisTrackActive && currentlyPlayingVerse === verse.verse;
+            const isHighlighted = highlightedVerse === verse.verse;
+
+            // Determine background color with priority: active > highlighted > currentVerse
+            let bgColor = 'transparent';
+            if (isActive) {
+              bgColor = settings.themeMode === "sepia" ? "rgba(196, 165, 116, 0.2)" : highlightBg;
+            } else if (isHighlighted) {
+              bgColor = settings.themeMode === "dark"
+                ? "rgba(196, 165, 116, 0.25)"
+                : "rgba(196, 165, 116, 0.2)";
+            } else if (isCurrentVerse) {
+              bgColor = highlightBg;
+            }
 
             return (
               <span key={verse.id}>
                 <span
+                  ref={(el) => {
+                    if (el) verseRefs.current.set(verse.verse, el);
+                  }}
                   data-verse={verse.verse}
                   className={`inline cursor-pointer rounded-sm transition-all duration-500`}
                   style={{
-                    backgroundColor: isActive ? (settings.themeMode === "sepia" ? "rgba(196, 165, 116, 0.2)" : highlightBg) :
-                                    isCurrentVerse ? highlightBg : 'transparent',
-                    borderLeft: isCurrentVerse && !isActive ? `2px solid ${highlightBorder}` : 'none',
-                    paddingLeft: isCurrentVerse && !isActive ? '4px' : '0',
-                    marginLeft: isCurrentVerse && !isActive ? '-6px' : '0',
+                    backgroundColor: bgColor,
+                    borderLeft: (isCurrentVerse || isHighlighted) && !isActive ? `2px solid ${isHighlighted ? "#c4a574" : highlightBorder}` : 'none',
+                    paddingLeft: (isCurrentVerse || isHighlighted) && !isActive ? '4px' : '0',
+                    marginLeft: (isCurrentVerse || isHighlighted) && !isActive ? '-6px' : '0',
                   }}
                   onClick={() => handleVerseTap(verse.verse)}
                   title={hasNote ? "View or edit your note" : "Tap to add a note"}

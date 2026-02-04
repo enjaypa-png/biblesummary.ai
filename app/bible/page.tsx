@@ -1,7 +1,7 @@
 export const dynamic = "force-dynamic";
 
 import { createClient } from "@supabase/supabase-js";
-import BibleBookList from "./BibleBookList";
+import BibleIndex from "./BibleIndex";
 
 interface Book {
   id: string;
@@ -29,10 +29,10 @@ async function getBooks(): Promise<Book[]> {
 export default async function BiblePage() {
   const books = await getBooks();
 
-  return <BibleBookList books={books} />;
+  return <BibleIndex books={books} />;
 }
 
 export const metadata = {
-  title: "Bible - BibleSummary.ai",
-  description: "Browse all 66 books of the Bible. Read the King James Version for free.",
+  title: "Bible Index - BibleSummary.ai",
+  description: "Navigate the King James Version Holy Bible. Browse books, chapters, and verses.",
 };
