@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { useAudioPlayer } from "@/contexts/AudioPlayerContext";
 import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
+import { useVerseStore } from "@/lib/verseStore";
 import InlineAudioPlayer from "@/components/InlineAudioPlayer";
 
 interface Verse {
@@ -58,6 +59,9 @@ export default function ChapterReaderClient({
   const [showNoteEditor, setShowNoteEditor] = useState(false);
   const [noteText, setNoteText] = useState("");
   const [saving, setSaving] = useState(false);
+
+  // Verse store for Explain feature
+  const { setSelectedVerse, clearSelectedVerse } = useVerseStore();
 
   // Reading settings
   const { settings, openPanel } = useReadingSettings();
@@ -162,12 +166,13 @@ export default function ChapterReaderClient({
     return notes.find((n) => n.verse === verseNum);
   }
 
-  function handleVerseTap(verseNum: number) {
+  function handleVerseTap(verseNum: number, verseText: string) {
     if (activeVerse === verseNum) {
       // If tapping the same verse, close everything
       setActiveVerse(null);
       setShowNoteEditor(false);
       setNoteText("");
+      // Don't clear selected verse - keep it for Explain tab
       return;
     }
     // Show action row for this verse
@@ -175,6 +180,15 @@ export default function ChapterReaderClient({
     setShowNoteEditor(false);
     const existing = getVerseNote(verseNum);
     setNoteText(existing?.note_text || "");
+
+    // Set selected verse for Explain feature
+    setSelectedVerse({
+      book: bookName,
+      bookSlug: bookSlug,
+      chapter: chapter,
+      verse: verseNum,
+      text: verseText,
+    });
   }
 
   function handleOpenNoteEditor() {
@@ -436,7 +450,7 @@ export default function ChapterReaderClient({
                     paddingLeft: (isCurrentVerse || isHighlighted) && !isActive ? '4px' : '0',
                     marginLeft: (isCurrentVerse || isHighlighted) && !isActive ? '-6px' : '0',
                   }}
-                  onClick={() => handleVerseTap(verse.verse)}
+                  onClick={() => handleVerseTap(verse.verse, verse.text)}
                   title={hasNote ? "View or edit your note" : "Tap to add a note"}
                 >
                   <sup className="verse-number" style={{ color: settings.themeMode === "sepia" ? "#c4a574" : theme.secondary }}>{verse.verse}</sup>
@@ -446,7 +460,7 @@ export default function ChapterReaderClient({
                 {hasNote && !isActive && (
                   <span
                     className="inline-block w-[5px] h-[5px] rounded-full ml-0.5 align-middle cursor-pointer"
-                    onClick={() => handleVerseTap(verse.verse)}
+                    onClick={() => handleVerseTap(verse.verse, verse.text)}
                     style={{
                       backgroundColor: settings.themeMode === "dark"
                         ? "rgba(196, 165, 116, 0.6)"
