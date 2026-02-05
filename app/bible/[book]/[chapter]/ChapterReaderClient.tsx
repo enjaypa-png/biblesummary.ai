@@ -6,7 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { useAudioPlayer } from "@/contexts/AudioPlayerContext";
 import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
-import { useVerseStore } from "@/lib/verseStore";
+import { useExplanationCache, getVerseId } from "@/lib/verseStore";
 import InlineAudioPlayer from "@/components/InlineAudioPlayer";
 
 interface Verse {
@@ -60,8 +60,10 @@ export default function ChapterReaderClient({
   const [noteText, setNoteText] = useState("");
   const [saving, setSaving] = useState(false);
 
-  // Verse store for Explain feature
-  const { setSelectedVerse, clearSelectedVerse } = useVerseStore();
+  // Inline Explain state
+  const [explainStatus, setExplainStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [explanation, setExplanation] = useState<string | null>(null);
+  const { addToCache, getFromCache } = useExplanationCache();
 
   // Reading settings
   const { settings, openPanel } = useReadingSettings();
@@ -172,7 +174,8 @@ export default function ChapterReaderClient({
       setActiveVerse(null);
       setShowNoteEditor(false);
       setNoteText("");
-      // Don't clear selected verse - keep it for Explain tab
+      setExplainStatus("idle");
+      setExplanation(null);
       return;
     }
     // Show action row for this verse
@@ -181,14 +184,16 @@ export default function ChapterReaderClient({
     const existing = getVerseNote(verseNum);
     setNoteText(existing?.note_text || "");
 
-    // Set selected verse for Explain feature
-    setSelectedVerse({
-      book: bookName,
-      bookSlug: bookSlug,
-      chapter: chapter,
-      verse: verseNum,
-      text: verseText,
-    });
+    // Reset explanation state for new verse (check cache)
+    const verseId = getVerseId(bookName, chapter, verseNum);
+    const cached = getFromCache(verseId);
+    if (cached) {
+      setExplanation(cached.text);
+      setExplainStatus("success");
+    } else {
+      setExplainStatus("idle");
+      setExplanation(null);
+    }
   }
 
   function handleOpenNoteEditor() {
@@ -199,6 +204,8 @@ export default function ChapterReaderClient({
     setActiveVerse(null);
     setShowNoteEditor(false);
     setNoteText("");
+    setExplainStatus("idle");
+    setExplanation(null);
   }
 
   async function handleShare(verseNum: number, verseText: string) {
@@ -228,6 +235,50 @@ export default function ChapterReaderClient({
       // Could add a toast notification here
     } catch (err) {
       console.error("Failed to copy:", err);
+    }
+  }
+
+  async function handleExplain(verseNum: number, verseText: string) {
+    const verseId = getVerseId(bookName, chapter, verseNum);
+
+    // Check local cache first
+    const cached = getFromCache(verseId);
+    if (cached) {
+      setExplanation(cached.text);
+      setExplainStatus("success");
+      return;
+    }
+
+    setExplainStatus("loading");
+
+    try {
+      const response = await fetch("/api/explain-verse", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          book: bookName,
+          chapter: chapter,
+          verse: verseNum,
+          verseText: verseText,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to fetch explanation");
+      }
+
+      const data = await response.json();
+
+      if (data.explanation) {
+        setExplanation(data.explanation);
+        setExplainStatus("success");
+        addToCache(verseId, data.explanation);
+      } else {
+        throw new Error("No explanation received");
+      }
+    } catch (error) {
+      console.error("Explain error:", error);
+      setExplainStatus("error");
     }
   }
 
@@ -473,8 +524,8 @@ export default function ChapterReaderClient({
                 )}
                 {" "}
 
-                {/* Action row or Note editor */}
-                {isActive && !showNoteEditor && (
+                {/* Action toolbar */}
+                {isActive && !showNoteEditor && explainStatus === "idle" && (
                   <span
                     className="inline-flex items-center gap-2 ml-2 py-1"
                     style={{ fontFamily: "'Inter', sans-serif" }}
@@ -511,6 +562,87 @@ export default function ChapterReaderClient({
                         <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
                       </svg>
                       {hasNote ? "Edit Note" : "Add Note"}
+                    </button>
+                    {/* Explain button */}
+                    <button
+                      onClick={() => handleExplain(verse.verse, verse.text)}
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[12px] font-medium active:opacity-70 transition-opacity"
+                      style={{
+                        backgroundColor: theme.card,
+                        color: theme.text,
+                        border: `1px solid ${theme.border}`,
+                      }}
+                    >
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                        <line x1="12" y1="17" x2="12.01" y2="17" />
+                      </svg>
+                      Explain
+                    </button>
+                  </span>
+                )}
+
+                {/* Inline explanation - loading */}
+                {isActive && !showNoteEditor && explainStatus === "loading" && (
+                  <span
+                    className="block my-3 rounded-xl p-4"
+                    style={{ backgroundColor: theme.card, border: `1px solid ${theme.border}`, fontFamily: "'Inter', sans-serif" }}
+                  >
+                    <span className="flex items-center gap-3">
+                      <span
+                        className="w-5 h-5 border-2 rounded-full animate-spin"
+                        style={{
+                          borderColor: theme.border,
+                          borderTopColor: "#c4a574",
+                        }}
+                      />
+                      <span className="text-[14px]" style={{ color: theme.secondary }}>
+                        Generating explanation...
+                      </span>
+                    </span>
+                  </span>
+                )}
+
+                {/* Inline explanation - success */}
+                {isActive && !showNoteEditor && explainStatus === "success" && explanation && (
+                  <span
+                    className="block my-3 rounded-xl p-4"
+                    style={{ backgroundColor: theme.card, border: `1px solid ${theme.border}`, fontFamily: "'Inter', sans-serif" }}
+                  >
+                    <span className="flex items-start justify-between gap-3 mb-2">
+                      <span className="text-[12px] uppercase tracking-wider font-semibold" style={{ color: "#c4a574" }}>
+                        Explanation
+                      </span>
+                      <button
+                        onClick={handleCloseActions}
+                        className="text-[12px] font-medium"
+                        style={{ color: theme.secondary }}
+                      >
+                        Close
+                      </button>
+                    </span>
+                    <span className="block text-[14px] leading-relaxed" style={{ color: theme.text }}>
+                      {explanation}
+                    </span>
+                  </span>
+                )}
+
+                {/* Inline explanation - error */}
+                {isActive && !showNoteEditor && explainStatus === "error" && (
+                  <span
+                    className="block my-3 rounded-xl p-4"
+                    style={{ backgroundColor: theme.card, border: `1px solid ${theme.border}`, fontFamily: "'Inter', sans-serif" }}
+                  >
+                    <span className="text-[14px] mb-3 block" style={{ color: theme.text }}>
+                      Explanation unavailable.
+                    </span>
+                    <button
+                      onClick={() => handleExplain(verse.verse, verse.text)}
+                      className="text-[13px] font-medium"
+                      style={{ color: "#c4a574" }}
+                    >
+                      Try again
                     </button>
                   </span>
                 )}
