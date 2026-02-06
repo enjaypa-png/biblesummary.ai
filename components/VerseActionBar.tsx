@@ -1,20 +1,10 @@
 "use client";
 
-import { ThemeMode } from "@/contexts/ReadingSettingsContext";
-
 interface VerseActionBarProps {
   onExplain: () => void;
   onNote: () => void;
   onShare: () => void;
-  themeMode: ThemeMode;
 }
-
-const barColors: Record<ThemeMode, { bg: string; text: string; divider: string }> = {
-  light: { bg: "#6b7280", text: "#ffffff", divider: "rgba(255,255,255,0.18)" },
-  sepia: { bg: "#c4a574", text: "#ffffff", divider: "rgba(255,255,255,0.22)" },
-  gray: { bg: "#666666", text: "#ffffff", divider: "rgba(255,255,255,0.18)" },
-  dark: { bg: "#4b5563", text: "#e5e5e5", divider: "rgba(255,255,255,0.12)" },
-};
 
 interface ActionItem {
   key: string;
@@ -24,8 +14,7 @@ interface ActionItem {
   disabled?: boolean;
 }
 
-export default function VerseActionBar({ onExplain, onNote, onShare, themeMode }: VerseActionBarProps) {
-  const colors = barColors[themeMode];
+export default function VerseActionBar({ onExplain, onNote, onShare }: VerseActionBarProps) {
 
   const svg = {
     width: 14,
@@ -115,7 +104,7 @@ export default function VerseActionBar({ onExplain, onNote, onShare, themeMode }
       <span
         className="flex items-stretch overflow-hidden"
         style={{
-          backgroundColor: colors.bg,
+          backgroundColor: "var(--accent)",
           borderRadius: "9999px",
         }}
       >
@@ -128,12 +117,12 @@ export default function VerseActionBar({ onExplain, onNote, onShare, themeMode }
               !action.disabled ? "active:bg-white/[0.15]" : ""
             }`}
             style={{
-              color: colors.text,
+              color: "#ffffff",
               opacity: action.disabled ? 0.4 : 1,
               cursor: action.disabled ? "default" : "pointer",
               borderRight:
                 i < actions.length - 1
-                  ? `1px solid ${colors.divider}`
+                  ? "1px solid rgba(255,255,255,0.2)"
                   : "none",
             }}
           >

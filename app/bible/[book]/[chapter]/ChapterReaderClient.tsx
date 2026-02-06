@@ -500,7 +500,7 @@ export default function ChapterReaderClient({
                   onClick={() => handleVerseTap(verse.verse, verse.text)}
                   title={hasNote ? "View or edit your note" : "Tap to add a note"}
                 >
-                  <sup className="verse-number" style={{ color: settings.themeMode === "sepia" ? "#c4a574" : theme.secondary }}>{verse.verse}</sup>
+                  <sup className="verse-number">{verse.verse}</sup>
                   {verse.text}
                 </span>
                 {/* Minimal note indicator - small dot after verse */}
@@ -526,7 +526,6 @@ export default function ChapterReaderClient({
                     onExplain={() => handleExplain(verse.verse)}
                     onNote={handleOpenNoteEditor}
                     onShare={() => handleShare(verse.verse, verse.text)}
-                    themeMode={settings.themeMode}
                   />
                 )}
 
