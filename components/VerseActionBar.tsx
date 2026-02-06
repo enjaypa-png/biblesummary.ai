@@ -4,6 +4,8 @@ interface VerseActionBarProps {
   onExplain: () => void;
   onNote: () => void;
   onShare: () => void;
+  onBookmark?: () => void;
+  isBookmarked?: boolean;
 }
 
 interface ActionItem {
@@ -14,7 +16,7 @@ interface ActionItem {
   disabled?: boolean;
 }
 
-export default function VerseActionBar({ onExplain, onNote, onShare }: VerseActionBarProps) {
+export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark, isBookmarked }: VerseActionBarProps) {
 
   const svg = {
     width: 14,
@@ -76,13 +78,14 @@ export default function VerseActionBar({ onExplain, onNote, onShare }: VerseActi
     },
     {
       key: "bookmark",
-      label: "Bookmark",
+      label: isBookmarked ? "Saved" : "Bookmark",
       icon: (
-        <svg {...svg}>
+        <svg {...svg} fill={isBookmarked ? "currentColor" : "none"}>
           <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
         </svg>
       ),
-      disabled: true,
+      onClick: onBookmark,
+      disabled: !onBookmark,
     },
     {
       key: "summary",

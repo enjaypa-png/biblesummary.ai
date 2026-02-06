@@ -61,6 +61,9 @@ export default function ChapterReaderClient({
   const [noteText, setNoteText] = useState("");
   const [saving, setSaving] = useState(false);
 
+  // Bookmark state
+  const [bookmarkedVerse, setBookmarkedVerse] = useState<number | null>(null);
+
   // Inline Explain state
   const [explainStatus, setExplainStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [explanation, setExplanation] = useState<string | null>(null);
@@ -153,6 +156,7 @@ export default function ChapterReaderClient({
       const currentUser = await getCurrentUser();
       setUser(currentUser);
       if (currentUser && bookId) {
+        // Load notes for this chapter
         const { data } = await supabase
           .from("notes")
           .select("id, verse, note_text")
@@ -160,6 +164,18 @@ export default function ChapterReaderClient({
           .eq("book_id", bookId)
           .eq("chapter", chapter);
         if (data) setNotes(data);
+
+        // Load bookmark (check if it's on this chapter)
+        const { data: bm } = await supabase
+          .from("bookmarks")
+          .select("verse, book_id, chapter")
+          .eq("user_id", currentUser.id)
+          .single();
+        if (bm && bm.book_id === bookId && bm.chapter === chapter) {
+          setBookmarkedVerse(bm.verse);
+        } else {
+          setBookmarkedVerse(null);
+        }
       }
     }
     load();
@@ -309,6 +325,36 @@ export default function ChapterReaderClient({
     setActiveVerse(null);
     setShowNoteEditor(false);
     setNoteText("");
+  }
+
+  async function handleBookmark(verseNum: number) {
+    if (!user) return;
+    const { data: existing } = await supabase
+      .from("bookmarks")
+      .select("id")
+      .eq("user_id", user.id)
+      .single();
+
+    if (existing) {
+      await supabase.from("bookmarks").update({
+        book_id: bookId,
+        book_slug: bookSlug,
+        book_name: bookName,
+        chapter,
+        verse: verseNum,
+      }).eq("id", existing.id);
+    } else {
+      await supabase.from("bookmarks").insert({
+        user_id: user.id,
+        book_id: bookId,
+        book_slug: bookSlug,
+        book_name: bookName,
+        chapter,
+        verse: verseNum,
+      });
+    }
+    setBookmarkedVerse(verseNum);
+    handleCloseActions();
   }
 
   // Highlight color based on theme
@@ -522,12 +568,28 @@ export default function ChapterReaderClient({
                 )}
                 {" "}
 
+                {/* Bookmark indicator */}
+                {bookmarkedVerse === verse.verse && !isActive && (
+                  <span
+                    className="inline-flex items-center gap-1 ml-2 align-middle"
+                    style={{ color: "var(--accent)", fontFamily: "'Inter', sans-serif" }}
+                    title="Your bookmark"
+                  >
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </span>
+                )}
+                {" "}
+
                 {/* Unified action bar */}
                 {isActive && !showNoteEditor && explainStatus === "idle" && (
                   <VerseActionBar
                     onExplain={() => handleExplain(verse.verse)}
                     onNote={handleOpenNoteEditor}
                     onShare={() => handleShare(verse.verse, verse.text)}
+                    onBookmark={user ? () => handleBookmark(verse.verse) : undefined}
+                    isBookmarked={bookmarkedVerse === verse.verse}
                   />
                 )}
 
