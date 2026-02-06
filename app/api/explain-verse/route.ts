@@ -15,6 +15,21 @@ Example format: "This verse describes [plain meaning]. In that era, [1 fact]. Th
 
 export const runtime = "edge";
 
+// Parse verse_id format: "Genesis.1.1" -> { book: "Genesis", chapter: 1, verse: 1 }
+function parseVerseId(verseId: string): { book: string; chapter: number; verse: number } | null {
+  const parts = verseId.split(".");
+  if (parts.length < 3) return null;
+
+  // Handle book names with spaces (e.g., "1 John.1.1" stored as "1 John")
+  const verse = parseInt(parts[parts.length - 1], 10);
+  const chapter = parseInt(parts[parts.length - 2], 10);
+  const book = parts.slice(0, -2).join(".");
+
+  if (isNaN(chapter) || isNaN(verse) || !book) return null;
+
+  return { book, chapter, verse };
+}
+
 export async function POST(req: NextRequest) {
   if (!OPENAI_API_KEY) {
     return NextResponse.json(
@@ -23,35 +38,82 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  try {
-    const { book, chapter, verse, verseText } = await req.json();
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
 
-    if (!book || !chapter || !verse || !verseText) {
+  if (!supabaseUrl || !supabaseKey) {
+    return NextResponse.json(
+      { error: "Database not configured" },
+      { status: 500 }
+    );
+  }
+
+  try {
+    const { verse_id } = await req.json();
+
+    if (!verse_id || typeof verse_id !== "string") {
       return NextResponse.json(
-        { error: "Missing required fields: book, chapter, verse, verseText" },
+        { error: "Missing required field: verse_id" },
         { status: 400 }
       );
     }
 
-    const verseId = `${book}.${chapter}.${verse}`;
-
-    // Check Supabase cache first
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
-    const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
-
-    if (supabaseUrl && supabaseKey) {
-      const supabase = createClient(supabaseUrl, supabaseKey);
-
-      const { data: cachedExplanation } = await supabase
-        .from("explanations")
-        .select("explanation")
-        .eq("verse_id", verseId)
-        .single();
-
-      if (cachedExplanation?.explanation) {
-        return NextResponse.json({ explanation: cachedExplanation.explanation });
-      }
+    const parsed = parseVerseId(verse_id);
+    if (!parsed) {
+      return NextResponse.json(
+        { error: "Invalid verse_id format. Expected: Book.Chapter.Verse (e.g., Genesis.1.1)" },
+        { status: 400 }
+      );
     }
+
+    const { book, chapter, verse } = parsed;
+    const supabase = createClient(supabaseUrl, supabaseKey);
+
+    // Check explanation cache first
+    const { data: cachedExplanation } = await supabase
+      .from("explanations")
+      .select("explanation")
+      .eq("verse_id", verse_id)
+      .single();
+
+    if (cachedExplanation?.explanation) {
+      return NextResponse.json({
+        verse_id,
+        explanation: cachedExplanation.explanation
+      });
+    }
+
+    // Look up book by name to get book_id
+    const { data: bookData, error: bookError } = await supabase
+      .from("books")
+      .select("id, name")
+      .eq("name", book)
+      .single();
+
+    if (bookError || !bookData) {
+      return NextResponse.json(
+        { error: `Book not found: ${book}` },
+        { status: 404 }
+      );
+    }
+
+    // Fetch verse text from database
+    const { data: verseData, error: verseError } = await supabase
+      .from("verses")
+      .select("text")
+      .eq("book_id", bookData.id)
+      .eq("chapter", chapter)
+      .eq("verse", verse)
+      .single();
+
+    if (verseError || !verseData) {
+      return NextResponse.json(
+        { error: `Verse not found: ${verse_id}` },
+        { status: 404 }
+      );
+    }
+
+    const verseText = verseData.text;
 
     // Generate explanation with OpenAI
     const openaiResponse = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -64,7 +126,7 @@ export async function POST(req: NextRequest) {
         model: "gpt-4o-mini",
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
-          { role: "user", content: `Explain ONLY this single verse: "${verseText}" (${book} ${chapter}:${verse})` },
+          { role: "user", content: `Explain ONLY this single verse: "${verseText}" (${bookData.name} ${chapter}:${verse})` },
         ],
         max_tokens: 200,
         temperature: 0.3,
@@ -91,20 +153,19 @@ export async function POST(req: NextRequest) {
     }
 
     // Cache the result in Supabase
-    if (supabaseUrl && supabaseKey) {
-      const supabase = createClient(supabaseUrl, supabaseKey);
+    await supabase
+      .from("explanations")
+      .upsert({
+        verse_id: verse_id,
+        explanation: explanation,
+      }, {
+        onConflict: "verse_id",
+      });
 
-      await supabase
-        .from("explanations")
-        .upsert({
-          verse_id: verseId,
-          explanation: explanation,
-        }, {
-          onConflict: "verse_id",
-        });
-    }
-
-    return NextResponse.json({ explanation });
+    return NextResponse.json({
+      verse_id,
+      explanation
+    });
   } catch (error) {
     console.error("Explain verse error:", error);
     return NextResponse.json(
