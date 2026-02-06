@@ -503,20 +503,28 @@ export default function ChapterReaderClient({
                   <sup className="verse-number">{verse.verse}</sup>
                   {verse.text}
                 </span>
-                {/* Minimal note indicator - small dot after verse */}
+                {/* Note indicator */}
                 {hasNote && !isActive && (
                   <span
-                    className="inline-block w-[5px] h-[5px] rounded-full ml-0.5 align-middle cursor-pointer"
-                    onClick={() => handleVerseTap(verse.verse, verse.text)}
-                    style={{
-                      backgroundColor: settings.themeMode === "dark"
-                        ? "rgba(196, 165, 116, 0.6)"
-                        : "rgba(196, 165, 116, 0.8)",
-                      verticalAlign: "super",
-                      marginBottom: "0.3em",
+                    className="inline-flex items-center gap-1 ml-1.5 cursor-pointer rounded-full px-2.5 py-0.5 align-middle active:opacity-70 transition-opacity"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleVerseTap(verse.verse, verse.text);
+                      handleOpenNoteEditor();
                     }}
-                    title="View note"
-                  />
+                    style={{
+                      backgroundColor: "var(--accent)",
+                      fontFamily: "'Inter', sans-serif",
+                      verticalAlign: "middle",
+                    }}
+                    title="Open note"
+                  >
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                      <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                    </svg>
+                    <span className="text-[11px] font-semibold text-white leading-none">Note</span>
+                  </span>
                 )}
                 {" "}
 
