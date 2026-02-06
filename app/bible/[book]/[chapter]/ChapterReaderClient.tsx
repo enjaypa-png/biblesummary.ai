@@ -314,14 +314,10 @@ export default function ChapterReaderClient({
   // Highlight color based on theme
   const highlightBg = settings.themeMode === "dark"
     ? "rgba(37, 99, 235, 0.2)"
-    : settings.themeMode === "sepia"
-    ? "rgba(196, 165, 116, 0.15)"
     : "rgba(37, 99, 235, 0.08)";
 
   const highlightBorder = settings.themeMode === "dark"
     ? "rgba(37, 99, 235, 0.5)"
-    : settings.themeMode === "sepia"
-    ? "rgba(196, 165, 116, 0.4)"
     : "rgba(37, 99, 235, 0.4)";
 
   return (
@@ -340,7 +336,7 @@ export default function ChapterReaderClient({
             href="/bible"
             title="All books"
             className="flex items-center gap-1.5 active:opacity-70 transition-opacity min-w-[60px]"
-            style={{ color: "#c4a574" }}
+            style={{ color: "var(--accent)" }}
           >
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none">
               <path d="M6 1L1 6L6 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -395,7 +391,7 @@ export default function ChapterReaderClient({
               href="/bible"
               onClick={() => setShowChapterPicker(false)}
               className="flex items-center justify-center gap-2 mb-3 py-2 rounded-lg text-[13px] font-semibold"
-              style={{ backgroundColor: theme.card, color: "#c4a574", border: `1px solid ${theme.border}` }}
+              style={{ backgroundColor: theme.card, color: "var(--accent)", border: `1px solid ${theme.border}` }}
             >
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>
@@ -411,7 +407,7 @@ export default function ChapterReaderClient({
                   onClick={() => setShowChapterPicker(false)}
                   className="aspect-square rounded-lg flex items-center justify-center text-[13px] font-medium transition-all active:scale-95"
                   style={{
-                    backgroundColor: ch === chapter ? '#c4a574' : theme.card,
+                    backgroundColor: ch === chapter ? 'var(--accent)' : theme.card,
                     color: ch === chapter ? '#fff' : theme.text,
                     border: ch === chapter ? 'none' : `0.5px solid ${theme.border}`,
                   }}
@@ -430,7 +426,7 @@ export default function ChapterReaderClient({
           <h1
             className="font-semibold tracking-tight leading-none"
             style={{
-              color: settings.themeMode === "sepia" ? "#c4a574" : theme.text,
+              color: theme.text,
               fontFamily: fontStack,
               fontSize: "clamp(2rem, 8vw, 3rem)"
             }}
@@ -474,11 +470,9 @@ export default function ChapterReaderClient({
             // Determine background color with priority: active > highlighted > currentVerse
             let bgColor = 'transparent';
             if (isActive) {
-              bgColor = settings.themeMode === "sepia" ? "rgba(196, 165, 116, 0.2)" : highlightBg;
+              bgColor = highlightBg;
             } else if (isHighlighted) {
-              bgColor = settings.themeMode === "dark"
-                ? "rgba(196, 165, 116, 0.25)"
-                : "rgba(196, 165, 116, 0.2)";
+              bgColor = "rgba(37, 99, 235, 0.12)";
             } else if (isCurrentVerse) {
               bgColor = highlightBg;
             }
@@ -493,7 +487,7 @@ export default function ChapterReaderClient({
                   className={`inline cursor-pointer rounded-sm transition-all duration-500`}
                   style={{
                     backgroundColor: bgColor,
-                    borderLeft: (isCurrentVerse || isHighlighted) && !isActive ? `2px solid ${isHighlighted ? "#c4a574" : highlightBorder}` : 'none',
+                    borderLeft: (isCurrentVerse || isHighlighted) && !isActive ? `2px solid ${highlightBorder}` : 'none',
                     paddingLeft: (isCurrentVerse || isHighlighted) && !isActive ? '4px' : '0',
                     marginLeft: (isCurrentVerse || isHighlighted) && !isActive ? '-6px' : '0',
                   }}
@@ -506,7 +500,7 @@ export default function ChapterReaderClient({
                 {/* Note indicator */}
                 {hasNote && !isActive && (
                   <span
-                    className="inline-flex items-center gap-1 ml-1.5 cursor-pointer rounded-full px-2.5 py-0.5 align-middle active:opacity-70 transition-opacity"
+                    className="inline-flex items-center gap-1.5 ml-2 cursor-pointer rounded-full px-4 py-1.5 align-middle active:opacity-70 transition-opacity"
                     onClick={(e) => {
                       e.stopPropagation();
                       handleVerseTap(verse.verse, verse.text);
@@ -519,11 +513,11 @@ export default function ChapterReaderClient({
                     }}
                     title="Open note"
                   >
-                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
                       <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
                     </svg>
-                    <span className="text-[11px] font-semibold text-white leading-none">Note</span>
+                    <span className="text-[14px] font-bold text-white leading-none">Note</span>
                   </span>
                 )}
                 {" "}
@@ -548,7 +542,7 @@ export default function ChapterReaderClient({
                         className="w-5 h-5 border-2 rounded-full animate-spin"
                         style={{
                           borderColor: theme.border,
-                          borderTopColor: "#c4a574",
+                          borderTopColor: "var(--accent)",
                         }}
                       />
                       <span className="text-[14px]" style={{ color: theme.secondary }}>
@@ -565,7 +559,7 @@ export default function ChapterReaderClient({
                     style={{ backgroundColor: theme.card, border: `1px solid ${theme.border}`, fontFamily: "'Inter', sans-serif" }}
                   >
                     <span className="flex items-start justify-between gap-3 mb-2">
-                      <span className="text-[12px] uppercase tracking-wider font-semibold" style={{ color: "#c4a574" }}>
+                      <span className="text-[12px] uppercase tracking-wider font-semibold" style={{ color: "var(--accent)" }}>
                         Explanation
                       </span>
                       <button
@@ -594,7 +588,7 @@ export default function ChapterReaderClient({
                     <button
                       onClick={() => handleExplain(verse.verse)}
                       className="text-[13px] font-medium"
-                      style={{ color: "#c4a574" }}
+                      style={{ color: "var(--accent)" }}
                     >
                       Try again
                     </button>
@@ -641,7 +635,7 @@ export default function ChapterReaderClient({
                         onClick={saveNote}
                         disabled={saving || !noteText.trim()}
                         className="px-4 py-1.5 rounded-lg text-[13px] font-semibold text-white disabled:opacity-50"
-                        style={{ backgroundColor: "#c4a574" }}
+                        style={{ backgroundColor: "var(--accent)" }}
                       >
                         {saving ? "Saving..." : "Save"}
                       </button>
@@ -676,7 +670,7 @@ export default function ChapterReaderClient({
                 href={`/bible/${bookSlug}/${nextChapter}`}
                 title={`Continue to ${bookName} chapter ${nextChapter}`}
                 className="flex flex-col items-end gap-0.5 px-4 py-3 rounded-xl transition-all active:scale-[0.97]"
-                style={{ backgroundColor: "#c4a574", color: "#fff" }}
+                style={{ backgroundColor: "var(--accent)", color: "#fff" }}
               >
                 <span className="text-[11px] uppercase tracking-wider font-medium" style={{ opacity: 0.8 }}>Next</span>
                 <span className="text-[15px] font-semibold flex items-center gap-1.5">
@@ -689,7 +683,7 @@ export default function ChapterReaderClient({
                 href={`/bible/${bookSlug}`}
                 title={`Back to ${bookName} chapter list`}
                 className="flex flex-col items-end gap-0.5 px-4 py-3 rounded-xl transition-all active:scale-[0.97]"
-                style={{ backgroundColor: "#c4a574", color: "#fff" }}
+                style={{ backgroundColor: "var(--accent)", color: "#fff" }}
               >
                 <span className="text-[11px] uppercase tracking-wider font-medium" style={{ opacity: 0.8 }}>Finished</span>
                 <span className="text-[15px] font-semibold">All Chapters</span>
@@ -702,7 +696,7 @@ export default function ChapterReaderClient({
             <Link
               href="/bible"
               className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl text-[13px] font-medium transition-all active:scale-[0.98]"
-              style={{ color: "#c4a574", border: `1px solid ${theme.border}` }}
+              style={{ color: "var(--accent)", border: `1px solid ${theme.border}` }}
             >
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/>

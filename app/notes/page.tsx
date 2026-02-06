@@ -195,28 +195,28 @@ export default function NotesPage() {
         <main className="max-w-lg mx-auto px-5 py-20 text-center">
           <div
             className="w-6 h-6 mx-auto border-2 rounded-full animate-spin"
-            style={{ borderColor: "var(--border)", borderTopColor: "#c4a574" }}
+            style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
           />
         </main>
       </div>
     );
   }
 
-  // Note card component
+  // Note card component — clicking navigates to the verse
   const NoteCard = ({ note }: { note: Note }) => (
-    <div
-      className="rounded-xl p-4"
+    <Link
+      href={`/bible/${note.book_slug}/${note.chapter}?verse=${note.verse}`}
+      className="block rounded-xl p-4 active:opacity-80 transition-opacity"
       style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
     >
       {/* Reference and date */}
       <div className="flex items-center justify-between mb-2">
-        <Link
-          href={`/bible/${note.book_slug}/${note.chapter}?verse=${note.verse}`}
+        <span
           className="text-[14px] font-semibold"
-          style={{ color: "#c4a574" }}
+          style={{ color: "var(--accent)" }}
         >
           {note.book_name} {note.chapter}:{note.verse}
-        </Link>
+        </span>
         <span className="text-[11px]" style={{ color: "var(--secondary)" }}>
           {formatDate(note.updated_at || note.created_at)}
         </span>
@@ -232,70 +232,22 @@ export default function NotesPage() {
         </p>
       )}
 
-      {/* Note text or edit field */}
-      {editingId === note.id ? (
-        <div>
-          <textarea
-            value={editText}
-            onChange={(e) => setEditText(e.target.value)}
-            className="w-full rounded-lg p-3 text-[14px] leading-relaxed resize-none outline-none"
-            style={{
-              backgroundColor: "var(--background)",
-              color: "var(--foreground)",
-              border: "1px solid var(--border)",
-            }}
-            rows={3}
-            autoFocus
-          />
-          <div className="flex gap-2 mt-2 justify-end">
-            <button
-              onClick={() => {
-                setEditingId(null);
-                setEditText("");
-              }}
-              className="px-3 py-1.5 rounded-lg text-[13px] font-medium"
-              style={{ color: "var(--secondary)" }}
-            >
-              Cancel
-            </button>
-            <button
-              onClick={() => saveEdit(note.id)}
-              className="px-3 py-1.5 rounded-lg text-[13px] font-semibold text-white"
-              style={{ backgroundColor: "#c4a574" }}
-            >
-              Save
-            </button>
-          </div>
-        </div>
-      ) : (
-        <p className="text-[14px] leading-relaxed" style={{ color: "var(--foreground)" }}>
-          {note.note_text}
-        </p>
-      )}
+      {/* Note text */}
+      <p className="text-[14px] leading-relaxed" style={{ color: "var(--foreground)" }}>
+        {note.note_text}
+      </p>
 
-      {/* Actions */}
-      {editingId !== note.id && (
-        <div className="flex gap-4 mt-3 pt-2 border-t" style={{ borderColor: "var(--border)" }}>
-          <button
-            onClick={() => {
-              setEditingId(note.id);
-              setEditText(note.note_text);
-            }}
-            className="text-[12px] font-medium"
-            style={{ color: "var(--secondary)" }}
-          >
-            Edit
-          </button>
-          <button
-            onClick={() => deleteNote(note.id)}
-            className="text-[12px] font-medium"
-            style={{ color: "#DC2626" }}
-          >
-            Delete
-          </button>
-        </div>
-      )}
-    </div>
+      {/* Go to verse hint */}
+      <div className="flex items-center gap-1 mt-3 pt-2 border-t" style={{ borderColor: "var(--border)" }}>
+        <span className="text-[12px] font-medium" style={{ color: "var(--accent)" }}>
+          Go to verse
+        </span>
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--accent)" }}>
+          <path d="M5 12h14" />
+          <path d="m12 5 7 7-7 7" />
+        </svg>
+      </div>
+    </Link>
   );
 
   // Signed in, show notes
@@ -316,7 +268,7 @@ export default function NotesPage() {
           <button
             onClick={() => setSortMode(sortMode === "time" ? "bible" : "time")}
             className="text-[12px] font-medium px-2 py-1 rounded-md active:opacity-70 transition-opacity"
-            style={{ color: "#c4a574" }}
+            style={{ color: "var(--accent)" }}
           >
             {sortMode === "time" ? "By Time" : "By Book"}
           </button>
@@ -381,7 +333,7 @@ export default function NotesPage() {
                 strokeWidth={1.5}
                 stroke="currentColor"
                 className="w-7 h-7"
-                style={{ color: "#c4a574" }}
+                style={{ color: "var(--accent)" }}
               >
                 <path
                   strokeLinecap="round"
@@ -399,7 +351,7 @@ export default function NotesPage() {
             <Link
               href="/bible"
               className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white"
-              style={{ backgroundColor: "#c4a574" }}
+              style={{ backgroundColor: "var(--accent)" }}
             >
               Start Reading
             </Link>

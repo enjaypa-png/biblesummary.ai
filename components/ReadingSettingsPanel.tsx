@@ -92,7 +92,7 @@ export default function ReadingSettingsPanel() {
                 style={{
                   fontFamily: font.fontStack,
                   color: settings.fontFamily === font.value
-                    ? "#c4a574"
+                    ? "var(--accent)"
                     : currentTheme.secondary,
                 }}
               >
@@ -183,11 +183,11 @@ export default function ReadingSettingsPanel() {
               className="flex-1 h-12 rounded-full border-2 transition-all flex items-center justify-center"
               style={{
                 backgroundColor: "#FFFFFF",
-                borderColor: settings.themeMode === "light" ? "#c4a574" : "rgba(0,0,0,0.1)",
+                borderColor: settings.themeMode === "light" ? "var(--accent)" : "rgba(0,0,0,0.1)",
               }}
             >
               {settings.themeMode === "light" && (
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c4a574" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
               )}
@@ -199,11 +199,11 @@ export default function ReadingSettingsPanel() {
               className="flex-1 h-12 rounded-full border-2 transition-all flex items-center justify-center"
               style={{
                 backgroundColor: "#F8F1E3",
-                borderColor: settings.themeMode === "sepia" ? "#c4a574" : "rgba(0,0,0,0.1)",
+                borderColor: settings.themeMode === "sepia" ? "var(--accent)" : "rgba(0,0,0,0.1)",
               }}
             >
               {settings.themeMode === "sepia" && (
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c4a574" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
               )}
@@ -215,11 +215,11 @@ export default function ReadingSettingsPanel() {
               className="flex-1 h-12 rounded-full border-2 transition-all flex items-center justify-center"
               style={{
                 backgroundColor: "#E8E8E8",
-                borderColor: settings.themeMode === "gray" ? "#c4a574" : "rgba(0,0,0,0.1)",
+                borderColor: settings.themeMode === "gray" ? "var(--accent)" : "rgba(0,0,0,0.1)",
               }}
             >
               {settings.themeMode === "gray" && (
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c4a574" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
               )}
@@ -231,11 +231,11 @@ export default function ReadingSettingsPanel() {
               className="flex-1 h-12 rounded-full border-2 transition-all flex items-center justify-center"
               style={{
                 backgroundColor: "#1a1a1a",
-                borderColor: settings.themeMode === "dark" ? "#c4a574" : "rgba(255,255,255,0.2)",
+                borderColor: settings.themeMode === "dark" ? "var(--accent)" : "rgba(255,255,255,0.2)",
               }}
             >
               {settings.themeMode === "dark" ? (
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c4a574" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
               ) : (

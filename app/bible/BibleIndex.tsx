@@ -124,7 +124,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
             <button
               onClick={handleBack}
               className="flex items-center gap-1.5 mb-3 text-[14px] font-medium active:opacity-70 transition-opacity"
-              style={{ color: "#c4a574" }}
+              style={{ color: "var(--accent)" }}
             >
               <svg width="7" height="12" viewBox="0 0 7 12" fill="none">
                 <path d="M6 1L1 6L6 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -167,7 +167,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
           {contextString && (
             <p
               className="text-center mt-3 text-[15px] font-semibold"
-              style={{ color: "#c4a574" }}
+              style={{ color: "var(--accent)" }}
             >
               {contextString}
             </p>
@@ -225,7 +225,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
                   {testament === t && (
                     <span
                       className="absolute bottom-0 left-[15%] right-[15%] h-[2.5px] rounded-full"
-                      style={{ backgroundColor: "#c4a574" }}
+                      style={{ backgroundColor: "var(--accent)" }}
                     />
                   )}
                 </button>
@@ -307,7 +307,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
               <div className="flex items-center justify-center py-16">
                 <div
                   className="w-6 h-6 border-2 rounded-full animate-spin"
-                  style={{ borderColor: "var(--border)", borderTopColor: "#c4a574" }}
+                  style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
                 />
               </div>
             ) : verseCount > 0 ? (
