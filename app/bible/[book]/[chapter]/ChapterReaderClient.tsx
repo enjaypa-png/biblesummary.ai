@@ -238,7 +238,7 @@ export default function ChapterReaderClient({
     }
   }
 
-  async function handleExplain(verseNum: number, verseText: string) {
+  async function handleExplain(verseNum: number) {
     const verseId = getVerseId(bookName, chapter, verseNum);
 
     // Check local cache first
@@ -255,12 +255,7 @@ export default function ChapterReaderClient({
       const response = await fetch("/api/explain-verse", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          book: bookName,
-          chapter: chapter,
-          verse: verseNum,
-          verseText: verseText,
-        }),
+        body: JSON.stringify({ verse_id: verseId }),
       });
 
       if (!response.ok) {
@@ -565,7 +560,7 @@ export default function ChapterReaderClient({
                     </button>
                     {/* Explain button */}
                     <button
-                      onClick={() => handleExplain(verse.verse, verse.text)}
+                      onClick={() => handleExplain(verse.verse)}
                       className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[12px] font-medium active:opacity-70 transition-opacity"
                       style={{
                         backgroundColor: theme.card,
@@ -638,7 +633,7 @@ export default function ChapterReaderClient({
                       Explanation unavailable.
                     </span>
                     <button
-                      onClick={() => handleExplain(verse.verse, verse.text)}
+                      onClick={() => handleExplain(verse.verse)}
                       className="text-[13px] font-medium"
                       style={{ color: "#c4a574" }}
                     >
