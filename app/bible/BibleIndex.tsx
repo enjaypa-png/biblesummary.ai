@@ -1,8 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase";
+import { supabase, getCurrentUser } from "@/lib/supabase";
 
 interface Book {
   id: string;
@@ -24,6 +25,29 @@ export default function BibleIndex({ books }: { books: Book[] }) {
   const [selectedChapter, setSelectedChapter] = useState<number | null>(null);
   const [verseCount, setVerseCount] = useState<number>(0);
   const [loadingVerses, setLoadingVerses] = useState(false);
+
+  // Bookmark state for "Continue Reading"
+  const [bookmark, setBookmark] = useState<{
+    book_name: string;
+    book_slug: string;
+    chapter: number;
+    verse: number;
+  } | null>(null);
+
+  useEffect(() => {
+    async function loadBookmark() {
+      const user = await getCurrentUser();
+      if (user) {
+        const { data } = await supabase
+          .from("bookmarks")
+          .select("book_name, book_slug, chapter, verse")
+          .eq("user_id", user.id)
+          .single();
+        if (data) setBookmark(data);
+      }
+    }
+    loadBookmark();
+  }, []);
 
   // Testament filter for books tab
   const [testament, setTestament] = useState<"Old" | "New">("Old");
@@ -207,6 +231,30 @@ export default function BibleIndex({ books }: { books: Book[] }) {
       </header>
 
       <main className="max-w-lg mx-auto px-5 pt-4 pb-8">
+        {/* Continue Reading card */}
+        {activeTab === "books" && bookmark && (
+          <Link
+            href={`/bible/${bookmark.book_slug}/${bookmark.chapter}?verse=${bookmark.verse}`}
+            className="flex items-center gap-3.5 mb-5 p-4 rounded-xl active:opacity-80 transition-opacity"
+            style={{ backgroundColor: "var(--accent)" }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+            </svg>
+            <div className="flex-1 min-w-0">
+              <span className="block text-[11px] uppercase tracking-wider font-medium text-white/70">
+                Continue Reading
+              </span>
+              <span className="block text-[15px] font-semibold text-white truncate">
+                {bookmark.book_name} {bookmark.chapter}:{bookmark.verse}
+              </span>
+            </div>
+            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" className="flex-shrink-0">
+              <path d="M1 1L6 6L1 11" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </Link>
+        )}
+
         {/* Books Tab */}
         {activeTab === "books" && (
           <>
