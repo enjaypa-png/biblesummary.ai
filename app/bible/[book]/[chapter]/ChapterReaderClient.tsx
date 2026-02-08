@@ -122,11 +122,18 @@ export default function ChapterReaderClient({
     }
   }, [books, bookSlug, chapter, setSelection]);
 
-  // Save current book/chapter to localStorage
+  // Save current reading position to localStorage (automatic reading progress)
   useEffect(() => {
     localStorage.setItem('lastViewedBook', bookSlug);
     localStorage.setItem('lastViewedChapter', chapter.toString());
-  }, [bookSlug, chapter]);
+    localStorage.setItem('lastReadPosition', JSON.stringify({
+      bookSlug,
+      bookName,
+      chapter,
+      verse: 1,
+      timestamp: Date.now(),
+    }));
+  }, [bookSlug, bookName, chapter]);
 
   // Scroll to verse from Index navigation
   useEffect(() => {
@@ -186,6 +193,15 @@ export default function ChapterReaderClient({
   }
 
   function handleVerseTap(verseNum: number, verseText: string) {
+    // Update automatic reading position
+    localStorage.setItem('lastReadPosition', JSON.stringify({
+      bookSlug,
+      bookName,
+      chapter,
+      verse: verseNum,
+      timestamp: Date.now(),
+    }));
+
     if (activeVerse === verseNum) {
       // If tapping the same verse, close everything
       setActiveVerse(null);
@@ -329,6 +345,18 @@ export default function ChapterReaderClient({
 
   async function handleBookmark(verseNum: number) {
     if (!user) return;
+
+    // Toggle: if this verse is already bookmarked, remove the bookmark
+    if (bookmarkedVerse === verseNum) {
+      await supabase
+        .from("bookmarks")
+        .delete()
+        .eq("user_id", user.id);
+      setBookmarkedVerse(null);
+      handleCloseActions();
+      return;
+    }
+
     const { data: existing } = await supabase
       .from("bookmarks")
       .select("id")
@@ -571,13 +599,22 @@ export default function ChapterReaderClient({
                 {/* Bookmark indicator */}
                 {bookmarkedVerse === verse.verse && !isActive && (
                   <span
-                    className="inline-flex items-center gap-1 ml-2 align-middle"
-                    style={{ color: "var(--accent)", fontFamily: "'Inter', sans-serif" }}
+                    className="inline-flex items-center gap-1.5 ml-2 cursor-pointer rounded-full px-3.5 py-1.5 align-middle active:opacity-70 transition-opacity"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleVerseTap(verse.verse, verse.text);
+                    }}
+                    style={{
+                      backgroundColor: "var(--accent)",
+                      fontFamily: "'Inter', sans-serif",
+                      verticalAlign: "middle",
+                    }}
                     title="Your bookmark"
                   >
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
                     </svg>
+                    <span className="text-[14px] font-bold text-white leading-none">Saved</span>
                   </span>
                 )}
                 {" "}

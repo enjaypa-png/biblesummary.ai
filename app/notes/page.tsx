@@ -367,13 +367,13 @@ export default function NotesPage() {
             <Link
               href={`/bible/${note.book_slug}/${note.chapter}?verse=${note.verse}`}
               onClick={(e) => e.stopPropagation()}
-              className="flex items-center gap-1.5 mt-2 pt-3 border-t active:opacity-70 transition-opacity"
+              className="flex items-center gap-2 mt-2 pt-3 border-t active:opacity-70 transition-opacity"
               style={{ borderColor: "var(--border)" }}
             >
-              <span className="text-[14px] font-semibold" style={{ color: "var(--accent)" }}>
+              <span className="text-[15px] font-semibold" style={{ color: "var(--accent)" }}>
                 Go to verse
               </span>
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--accent)" }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--accent)" }}>
                 <path d="M5 12h14" />
                 <path d="m12 5 7 7-7 7" />
               </svg>
@@ -386,13 +386,13 @@ export default function NotesPage() {
           <Link
             href={`/bible/${note.book_slug}/${note.chapter}?verse=${note.verse}`}
             onClick={(e) => e.stopPropagation()}
-            className="flex items-center gap-1.5 mt-3 pt-2 border-t active:opacity-70 transition-opacity"
+            className="flex items-center gap-2 mt-3 pt-2 border-t active:opacity-70 transition-opacity"
             style={{ borderColor: "var(--border)" }}
           >
-            <span className="text-[14px] font-medium" style={{ color: "var(--accent)" }}>
+            <span className="text-[15px] font-medium" style={{ color: "var(--accent)" }}>
               Go to verse
             </span>
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--accent)" }}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--accent)" }}>
               <path d="M5 12h14" />
               <path d="m12 5 7 7-7 7" />
             </svg>

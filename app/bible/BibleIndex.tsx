@@ -26,7 +26,15 @@ export default function BibleIndex({ books }: { books: Book[] }) {
   const [verseCount, setVerseCount] = useState<number>(0);
   const [loadingVerses, setLoadingVerses] = useState(false);
 
-  // Bookmark state for "Continue Reading"
+  // Automatic reading position from localStorage
+  const [readingPosition, setReadingPosition] = useState<{
+    bookSlug: string;
+    bookName: string;
+    chapter: number;
+    verse: number;
+  } | null>(null);
+
+  // Manual bookmark from Supabase
   const [bookmark, setBookmark] = useState<{
     book_name: string;
     book_slug: string;
@@ -35,6 +43,20 @@ export default function BibleIndex({ books }: { books: Book[] }) {
   } | null>(null);
 
   useEffect(() => {
+    // Load automatic reading position from localStorage
+    try {
+      const saved = localStorage.getItem("lastReadPosition");
+      if (saved) {
+        const pos = JSON.parse(saved);
+        if (pos.bookSlug && pos.chapter) {
+          setReadingPosition(pos);
+        }
+      }
+    } catch (e) {
+      // Ignore parse errors
+    }
+
+    // Load manual bookmark from Supabase
     async function loadBookmark() {
       const user = await getCurrentUser();
       if (user) {
@@ -231,26 +253,51 @@ export default function BibleIndex({ books }: { books: Book[] }) {
       </header>
 
       <main className="max-w-lg mx-auto px-5 pt-4 pb-8">
-        {/* Continue Reading card */}
-        {activeTab === "books" && bookmark && (
+        {/* Continue Reading card (automatic reading position) */}
+        {activeTab === "books" && readingPosition && (
           <Link
-            href={`/bible/${bookmark.book_slug}/${bookmark.chapter}?verse=${bookmark.verse}`}
-            className="flex items-center gap-3.5 mb-5 p-4 rounded-xl active:opacity-80 transition-opacity"
+            href={`/bible/${readingPosition.bookSlug}/${readingPosition.chapter}?verse=${readingPosition.verse}`}
+            className="flex items-center gap-3.5 mb-3 p-4 rounded-xl active:opacity-80 transition-opacity"
             style={{ backgroundColor: "var(--accent)" }}
           >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
-              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
             </svg>
             <div className="flex-1 min-w-0">
               <span className="block text-[11px] uppercase tracking-wider font-medium text-white/70">
                 Continue Reading
               </span>
               <span className="block text-[15px] font-semibold text-white truncate">
-                {bookmark.book_name} {bookmark.chapter}:{bookmark.verse}
+                {readingPosition.bookName} {readingPosition.chapter}:{readingPosition.verse}
               </span>
             </div>
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none" className="flex-shrink-0">
               <path d="M1 1L6 6L1 11" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </Link>
+        )}
+
+        {/* Manual bookmark card (intentional marker) */}
+        {activeTab === "books" && bookmark && (
+          <Link
+            href={`/bible/${bookmark.book_slug}/${bookmark.chapter}?verse=${bookmark.verse}`}
+            className="flex items-center gap-3.5 mb-5 p-4 rounded-xl active:opacity-80 transition-opacity"
+            style={{ backgroundColor: "var(--card)", border: "1px solid var(--accent)" }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--accent)" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+            </svg>
+            <div className="flex-1 min-w-0">
+              <span className="block text-[11px] uppercase tracking-wider font-medium" style={{ color: "var(--secondary)" }}>
+                Your Bookmark
+              </span>
+              <span className="block text-[15px] font-semibold truncate" style={{ color: "var(--foreground)" }}>
+                {bookmark.book_name} {bookmark.chapter}:{bookmark.verse}
+              </span>
+            </div>
+            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" className="flex-shrink-0">
+              <path d="M1 1L6 6L1 11" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Link>
         )}
