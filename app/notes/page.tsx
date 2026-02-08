@@ -26,6 +26,7 @@ export default function NotesPage() {
   const [loading, setLoading] = useState(true);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [editText, setEditText] = useState("");
+  const [expandedId, setExpandedId] = useState<string | null>(null);
   const [sortMode, setSortMode] = useState<SortMode>("bible");
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -202,53 +203,204 @@ export default function NotesPage() {
     );
   }
 
-  // Note card component — clicking navigates to the verse
-  const NoteCard = ({ note }: { note: Note }) => (
-    <Link
-      href={`/bible/${note.book_slug}/${note.chapter}?verse=${note.verse}`}
-      className="block rounded-xl p-4 active:opacity-80 transition-opacity"
-      style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
-    >
-      {/* Reference and date */}
-      <div className="flex items-center justify-between mb-2">
-        <span
-          className="text-[14px] font-semibold"
-          style={{ color: "var(--accent)" }}
+  // Note card component — clicking body expands, only "Go to verse" navigates
+  const NoteCard = ({ note }: { note: Note }) => {
+    const isExpanded = expandedId === note.id;
+    const isEditing = editingId === note.id;
+
+    function handleCardClick() {
+      if (isExpanded) {
+        // Collapse and cancel any editing
+        setExpandedId(null);
+        setEditingId(null);
+        setEditText("");
+      } else {
+        // Expand this note, collapse any other
+        setExpandedId(note.id);
+        setEditingId(null);
+        setEditText("");
+      }
+    }
+
+    function handleEditClick(e: React.MouseEvent) {
+      e.stopPropagation();
+      setEditingId(note.id);
+      setEditText(note.note_text);
+    }
+
+    function handleCancelEdit(e: React.MouseEvent) {
+      e.stopPropagation();
+      setEditingId(null);
+      setEditText("");
+    }
+
+    async function handleSave(e: React.MouseEvent) {
+      e.stopPropagation();
+      await saveEdit(note.id);
+    }
+
+    async function handleDelete(e: React.MouseEvent) {
+      e.stopPropagation();
+      await deleteNote(note.id);
+      setExpandedId(null);
+    }
+
+    return (
+      <div
+        className="rounded-xl p-4 transition-all duration-200"
+        style={{ backgroundColor: "var(--card)", border: `0.5px solid ${isExpanded ? "var(--accent)" : "var(--border)"}` }}
+      >
+        {/* Clickable body area */}
+        <div
+          onClick={handleCardClick}
+          className="cursor-pointer active:opacity-80 transition-opacity"
         >
-          {note.book_name} {note.chapter}:{note.verse}
-        </span>
-        <span className="text-[11px]" style={{ color: "var(--secondary)" }}>
-          {formatDate(note.updated_at || note.created_at)}
-        </span>
+          {/* Reference and date */}
+          <div className="flex items-center justify-between mb-2">
+            <span
+              className="text-[14px] font-semibold"
+              style={{ color: "var(--accent)" }}
+            >
+              {note.book_name} {note.chapter}:{note.verse}
+            </span>
+            <div className="flex items-center gap-2">
+              <span className="text-[11px]" style={{ color: "var(--secondary)" }}>
+                {formatDate(note.updated_at || note.created_at)}
+              </span>
+              {/* Expand/collapse chevron */}
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                style={{ color: "var(--secondary)", transform: isExpanded ? "rotate(180deg)" : "rotate(0deg)", transition: "transform 0.2s" }}
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </div>
+          </div>
+
+          {/* Verse text excerpt */}
+          {note.verse_text && (
+            <p
+              className="text-[13px] leading-relaxed mb-3 italic"
+              style={{ color: "var(--secondary)" }}
+            >
+              &ldquo;{isExpanded ? note.verse_text : truncateText(note.verse_text, 120)}&rdquo;
+            </p>
+          )}
+
+          {/* Note text — truncated when collapsed, full when expanded */}
+          {!isEditing && (
+            <p className="text-[14px] leading-relaxed" style={{ color: "var(--foreground)" }}>
+              {isExpanded ? note.note_text : truncateText(note.note_text, 100)}
+            </p>
+          )}
+        </div>
+
+        {/* Expanded section */}
+        {isExpanded && (
+          <div className="mt-3" style={{ minHeight: "20vh", maxHeight: "25vh", display: "flex", flexDirection: "column" }}>
+            {/* Editing area */}
+            {isEditing ? (
+              <div className="flex-1 flex flex-col gap-2" onClick={(e) => e.stopPropagation()}>
+                <textarea
+                  value={editText}
+                  onChange={(e) => setEditText(e.target.value)}
+                  className="flex-1 w-full rounded-lg p-3 text-[14px] leading-relaxed resize-none outline-none"
+                  style={{
+                    backgroundColor: "var(--background)",
+                    color: "var(--foreground)",
+                    border: "1px solid var(--accent)",
+                    minHeight: "12vh",
+                  }}
+                  autoFocus
+                />
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={handleSave}
+                    className="px-4 py-2 rounded-lg text-[13px] font-semibold text-white active:opacity-80 transition-opacity"
+                    style={{ backgroundColor: "var(--accent)" }}
+                  >
+                    Save
+                  </button>
+                  <button
+                    onClick={handleCancelEdit}
+                    className="px-4 py-2 rounded-lg text-[13px] font-medium active:opacity-80 transition-opacity"
+                    style={{ color: "var(--secondary)", backgroundColor: "var(--background)" }}
+                  >
+                    Cancel
+                  </button>
+                  <div className="flex-1" />
+                  <button
+                    onClick={handleDelete}
+                    className="px-3 py-2 rounded-lg text-[13px] font-medium active:opacity-80 transition-opacity"
+                    style={{ color: "#ef4444" }}
+                  >
+                    Delete
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <div className="flex-1 flex flex-col">
+                {/* Edit button */}
+                <button
+                  onClick={handleEditClick}
+                  className="self-start flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[13px] font-medium active:opacity-80 transition-opacity mb-2"
+                  style={{ color: "var(--accent)", backgroundColor: "var(--background)" }}
+                >
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z" />
+                    <path d="m15 5 4 4" />
+                  </svg>
+                  Edit note
+                </button>
+                <div className="flex-1" />
+              </div>
+            )}
+
+            {/* Go to verse — the ONLY navigation trigger */}
+            <Link
+              href={`/bible/${note.book_slug}/${note.chapter}?verse=${note.verse}`}
+              onClick={(e) => e.stopPropagation()}
+              className="flex items-center gap-1.5 mt-2 pt-3 border-t active:opacity-70 transition-opacity"
+              style={{ borderColor: "var(--border)" }}
+            >
+              <span className="text-[14px] font-semibold" style={{ color: "var(--accent)" }}>
+                Go to verse
+              </span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--accent)" }}>
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        )}
+
+        {/* Collapsed: Go to verse hint */}
+        {!isExpanded && (
+          <Link
+            href={`/bible/${note.book_slug}/${note.chapter}?verse=${note.verse}`}
+            onClick={(e) => e.stopPropagation()}
+            className="flex items-center gap-1.5 mt-3 pt-2 border-t active:opacity-70 transition-opacity"
+            style={{ borderColor: "var(--border)" }}
+          >
+            <span className="text-[14px] font-medium" style={{ color: "var(--accent)" }}>
+              Go to verse
+            </span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--accent)" }}>
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </Link>
+        )}
       </div>
-
-      {/* Verse text excerpt */}
-      {note.verse_text && (
-        <p
-          className="text-[13px] leading-relaxed mb-3 italic"
-          style={{ color: "var(--secondary)" }}
-        >
-          &ldquo;{truncateText(note.verse_text, 120)}&rdquo;
-        </p>
-      )}
-
-      {/* Note text */}
-      <p className="text-[14px] leading-relaxed" style={{ color: "var(--foreground)" }}>
-        {note.note_text}
-      </p>
-
-      {/* Go to verse hint */}
-      <div className="flex items-center gap-1 mt-3 pt-2 border-t" style={{ borderColor: "var(--border)" }}>
-        <span className="text-[12px] font-medium" style={{ color: "var(--accent)" }}>
-          Go to verse
-        </span>
-        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--accent)" }}>
-          <path d="M5 12h14" />
-          <path d="m12 5 7 7-7 7" />
-        </svg>
-      </div>
-    </Link>
-  );
+    );
+  };
 
   // Signed in, show notes
   return (
