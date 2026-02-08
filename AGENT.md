@@ -23,11 +23,13 @@ The Bible text on `/bible/[book]/[chapter]` is the core of the app. Do not chang
 
 Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes, explanations, audio sync, sharing, verse highlighting, and the action bar. Test all of these flows after any edit.
 
-### Context-based editing
+### Notes interaction model
 
-- Notes are edited **from within the verse context** (inside the chapter reader), not from a standalone notes list.
-- The Notes page (`/notes`) is a navigation tool: clicking a note takes the user to that verse, where they can then edit.
-- Do not add inline editing to the Notes list page.
+- Notes are created and first edited **from within the verse context** (inside the chapter reader).
+- The Notes page (`/notes`) supports two interactions:
+  - **Tap note body** -- expands the note in place for reading and editing (textarea, save, cancel, delete).
+  - **Tap "Go to verse"** -- navigates to the Bible reader at that verse. This is the only navigation trigger.
+- Expanded notes take ~1/4 to 1/5 of the viewport.
 
 ### Visual consistency
 
@@ -43,8 +45,8 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes
 - Notes are stored per user in the `notes` table (Supabase, RLS enforced).
 - A user sees a blue "Note" pill indicator inline with any verse that has a note.
 - Tapping the indicator opens the note editor in verse context.
-- Notes are created/edited/deleted from the chapter reader only.
-- The Notes tab shows a read-only list; tapping navigates to the verse.
+- Notes can be created from the chapter reader and edited from both the chapter reader and the Notes list.
+- The Notes list supports expand-in-place editing and "Go to verse" navigation (see interaction model above).
 
 ### Explanations
 
@@ -62,9 +64,34 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes
 - `MiniPlayer` shows a floating bar when audio plays outside the chapter page.
 - Audio state must remain consistent across page navigations.
 
+### Bookmarks
+
+- One bookmark per user. Creating a new bookmark replaces the old one.
+- Bookmarks are manual and intentional — the user taps Bookmark in the action bar.
+- Tapping Bookmark on an already-bookmarked verse removes it (toggle behavior).
+- Bookmark indicator is a blue pill with icon + "Saved" text, matching the Note indicator style.
+- Bookmarks are stored in Supabase (`bookmarks` table, `UNIQUE(user_id)`).
+- The BibleIndex shows a "Your Bookmark" card separately from the automatic reading position.
+
+### Reading Position (Automatic)
+
+- Reading position is tracked automatically via localStorage — not a bookmark.
+- Updates when a chapter loads (verse 1) and when the user taps any verse.
+- The BibleIndex shows a "Continue Reading" card from this data.
+- This is invisible to the user — no action required to save their position.
+
+### Summaries (Paid Feature, In Progress)
+
+- Pre-written summaries for each book of the Bible, stored in `content/summaries/`.
+- See `content/summaries/SUMMARY-GUIDE.md` for the full generation plan.
+- 5 format categories: chapter-by-chapter (narrative), section-by-section (prophetic), thematic overview (poetry/wisdom), grouped by topic (law), section-by-section (epistles).
+- Genesis and Revelation are complete. Remaining 64 books in progress.
+- Summaries are behind a paywall along with the Explain feature.
+- Summary button in the action bar is currently disabled until content and UI are wired.
+
 ### Disabled / Placeholder Features
 
-The `VerseActionBar` contains three disabled buttons: **Highlight**, **Bookmark**, **Summary**. These are intentionally present as visual placeholders. Do not:
+The `VerseActionBar` contains two disabled buttons: **Highlight** and **Summary**. These are intentionally present as visual placeholders. Do not:
 
 - Remove them
 - Enable them without full implementation behind them
@@ -79,7 +106,7 @@ These tables exist in Supabase migrations but have no UI or app logic:
 - `highlights` -- for verse highlighting
 - `reading_progress` -- for tracking what the user has read
 - `purchases` -- for one-time payments (Stripe integration planned but not built)
-- `summaries` -- for AI-generated book summaries (table empty)
+- `summaries` -- for book summaries (content being generated externally, see `content/summaries/SUMMARY-GUIDE.md`)
 
 Do not create UI for these without an explicit request and full implementation plan.
 
