@@ -18,8 +18,9 @@ These are defined in the database schema or visible as disabled UI placeholders,
 
 - **Search** -- Page exists as a "Coming Soon" placeholder
 - **Highlights** -- Database table exists; button is visible but disabled in the verse action bar
-- **Bookmarks** -- Button visible but disabled; no backend logic
-- **Book Summaries** -- Database table exists but is empty; button visible but disabled
+- **Bookmarks** -- Manually bookmark a specific verse; one bookmark per user, replaces previous
+- **Reading Position** -- Automatic reading position tracking (localStorage); "Continue Reading" card on the Bible index
+- **Book Summaries** -- Paid feature. Pre-written summaries for each book of the Bible. Content stored in `content/summaries/`. See `content/summaries/SUMMARY-GUIDE.md` for the generation plan covering all 66 books across 5 format categories (narrative, prophetic, poetry/wisdom, law, epistles). Genesis and Revelation are complete.
 - **Reading Progress Tracking** -- Database table exists; not wired to the UI
 - **Payments / Purchases** -- Database table and helper function exist; no Stripe integration or UI
 
@@ -131,6 +132,12 @@ lib/
   verseStore.ts                   Zustand store for explanation caching
   audio-utils.ts                  Audio helper functions (preload, fade, error messages)
 
+content/
+  summaries/
+    SUMMARY-GUIDE.md              Generation plan for all 66 books (categories, voice rules, prompt template)
+    01-genesis.md                 Genesis summary (chapter-by-chapter, needs Ch 2 fix)
+    66-revelation.md              Revelation summary (section-by-section)
+
 data/
   books.json                      66 Bible books metadata
 
@@ -164,7 +171,7 @@ Supabase PostgreSQL with Row Level Security. Key tables:
 | `verses` | ~31,000 KJV verses | Public read |
 | `explanations` | Cached AI verse explanations | Public read, service write |
 | `notes` | User private verse notes | User's own data only |
-| `summaries` | AI book summaries (empty) | Public read |
+| `summaries` | Book summaries (paid feature, content in progress) | Public read |
 | `highlights` | User verse highlights (not wired) | User's own data only |
 | `reading_progress` | Reading tracking (not wired) | User's own data only |
 | `purchases` | Payment records (not wired) | User's own data only |
