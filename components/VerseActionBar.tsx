@@ -6,6 +6,7 @@ interface VerseActionBarProps {
   onShare: () => void;
   onBookmark?: () => void;
   isBookmarked?: boolean;
+  onClose: () => void;
 }
 
 interface ActionItem {
@@ -16,7 +17,7 @@ interface ActionItem {
   disabled?: boolean;
 }
 
-export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark, isBookmarked }: VerseActionBarProps) {
+export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark, isBookmarked, onClose }: VerseActionBarProps) {
 
   const svg = {
     width: 14,
@@ -123,10 +124,7 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark,
               color: "#ffffff",
               opacity: action.disabled ? 0.4 : 1,
               cursor: action.disabled ? "default" : "pointer",
-              borderRight:
-                i < actions.length - 1
-                  ? "1px solid rgba(255,255,255,0.2)"
-                  : "none",
+              borderRight: "1px solid rgba(255,255,255,0.2)",
             }}
           >
             {action.icon}
@@ -135,6 +133,18 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark,
             </span>
           </button>
         ))}
+        <button
+          onClick={onClose}
+          className="flex flex-col items-center justify-center gap-0.5 py-2.5 px-3 transition-all active:bg-white/[0.15]"
+          style={{ color: "#ffffff", cursor: "pointer" }}
+          aria-label="Close toolbar"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+          <span className="text-[10px] font-medium leading-tight">Close</span>
+        </button>
       </span>
     </span>
   );

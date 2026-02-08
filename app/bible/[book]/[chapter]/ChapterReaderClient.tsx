@@ -627,6 +627,7 @@ export default function ChapterReaderClient({
                     onShare={() => handleShare(verse.verse, verse.text)}
                     onBookmark={user ? () => handleBookmark(verse.verse) : undefined}
                     isBookmarked={bookmarkedVerse === verse.verse}
+                    onClose={handleCloseActions}
                   />
                 )}
 
