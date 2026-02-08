@@ -60,7 +60,7 @@ export default function MorePage() {
               that describe what each book contains without interpretation or theology.
             </p>
             <p className="text-[13px] font-medium" style={{ color: "var(--secondary)" }}>
-              No subscriptions. No ads. No opinions.
+              No ads. No opinions.
             </p>
           </div>
         </section>

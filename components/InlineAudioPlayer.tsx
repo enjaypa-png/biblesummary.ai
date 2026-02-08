@@ -64,8 +64,8 @@ export default function InlineAudioPlayer({
     <div
       className="w-full rounded-xl px-4 py-3 flex items-center gap-3"
       style={{
-        backgroundColor: "rgba(0, 0, 0, 0.03)",
-        border: "1px solid rgba(0, 0, 0, 0.06)",
+        backgroundColor: "var(--card)",
+        border: "1px solid var(--border)",
       }}
     >
       {/* Play/Pause Button */}
@@ -108,13 +108,13 @@ export default function InlineAudioPlayer({
       {/* Elapsed (verse count) */}
       <span
         className="text-[12px] tabular-nums w-8 text-right flex-shrink-0"
-        style={{ color: "var(--secondary)" }}
+        style={{ color: "var(--foreground)" }}
       >
         {isActive ? elapsed : 0}
       </span>
 
       {/* Progress bar container */}
-      <div className="flex-1 relative h-1 rounded-full overflow-hidden" style={{ backgroundColor: "rgba(0, 0, 0, 0.08)" }}>
+      <div className="flex-1 relative h-1.5 rounded-full overflow-hidden" style={{ backgroundColor: "var(--border)" }}>
         <div
           className="absolute left-0 top-0 h-full rounded-full transition-all duration-300"
           style={{
@@ -127,7 +127,7 @@ export default function InlineAudioPlayer({
       {/* Remaining (verse count) */}
       <span
         className="text-[12px] tabular-nums w-8 flex-shrink-0"
-        style={{ color: "var(--secondary)" }}
+        style={{ color: "var(--foreground)" }}
       >
         {isActive ? remaining : verseCount}
       </span>
@@ -138,12 +138,12 @@ export default function InlineAudioPlayer({
           onClick={stop}
           className="w-8 h-8 flex items-center justify-center rounded-full flex-shrink-0 transition-all active:scale-95"
           style={{
-            backgroundColor: "transparent",
+            backgroundColor: "var(--border)",
           }}
           title="Stop"
           aria-label="Stop"
         >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="var(--secondary)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="var(--foreground)">
             <rect x="6" y="6" width="12" height="12" rx="1.5" />
           </svg>
         </button>
