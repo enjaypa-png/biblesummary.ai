@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
@@ -46,7 +45,6 @@ export default function ChapterReaderClient({
 }: Props) {
   const router = useRouter();
   const [showChapterPicker, setShowChapterPicker] = useState(false);
-  const router = useRouter();
 
   // Verse scroll/highlight from Index navigation
   const searchParams = useSearchParams();
