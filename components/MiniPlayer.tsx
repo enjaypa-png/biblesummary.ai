@@ -29,8 +29,8 @@ export default function MiniPlayer() {
     return null;
   }
 
-  // Don't show on the Listen page (it has full controls)
-  if (pathname === "/listen") {
+  // Don't show on Listen selection or playback screens (they have full controls)
+  if (pathname.startsWith("/listen")) {
     return null;
   }
 

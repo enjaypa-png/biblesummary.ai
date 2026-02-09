@@ -70,13 +70,15 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
   const [currentTrackId, setCurrentTrackId] = useState<string | null>(null);
   const [totalVerses, setTotalVerses] = useState(0);
 
-  // Refs for verse-by-verse playback
+  // Refs for verse-by-verse playback (single persistent audio element)
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
   const shouldContinueRef = useRef<boolean>(false);
   const versesRef = useRef<Verse[]>([]);
   const currentVerseIndexRef = useRef<number>(0);
   const isPausedRef = useRef<boolean>(false);
+  const blobRef = useRef<Blob | null>(null); // Keep blob alive until verse ends (mobile)
+  const mountedRef = useRef<boolean>(true);
 
   // Load books from database
   const loadBooks = useCallback(async () => {
@@ -122,10 +124,15 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     localStorage.setItem('lastViewedChapter', chapter.toString());
   }, []);
 
-  // Stop audio completely
+  // Stop audio completely (keeps persistent audio element for reuse)
   const stop = useCallback(() => {
+    if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
+      console.log("[Audio] stop called");
+    }
+
     shouldContinueRef.current = false;
     isPausedRef.current = false;
+    blobRef.current = null;
 
     if (abortControllerRef.current) {
       abortControllerRef.current.abort();
@@ -135,14 +142,17 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.src = "";
-      audioRef.current = null;
+      audioRef.current.load();
+      // Do NOT set audioRef.current = null - reuse the same element for mobile stability
     }
 
-    setAudioState("idle");
-    setErrorMsg("");
-    setCurrentlyPlayingVerse(null);
-    setCurrentTrackId(null);
-    setTotalVerses(0);
+    if (mountedRef.current) {
+      setAudioState("idle");
+      setErrorMsg("");
+      setCurrentlyPlayingVerse(null);
+      setCurrentTrackId(null);
+      setTotalVerses(0);
+    }
     versesRef.current = [];
     currentVerseIndexRef.current = 0;
   }, []);
@@ -165,12 +175,21 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     }
   }, [audioState]);
 
-  // Play a single verse and return a promise that resolves when done
+  // Play a single verse using the persistent audio element (mobile-safe: no new Audio() per verse)
   const playVerse = useCallback(async (verse: Verse, abortSignal: AbortSignal): Promise<boolean> => {
     return new Promise(async (resolve) => {
       try {
         // Check if we should stop
         if (!shouldContinueRef.current || abortSignal.aborted) {
+          resolve(false);
+          return;
+        }
+
+        const audio = audioRef.current;
+        if (!audio) {
+          if (process.env.NODE_ENV === "development") {
+            console.warn("[Audio] Persistent audio element not ready");
+          }
           resolve(false);
           return;
         }
@@ -205,28 +224,44 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
           return;
         }
 
+        blobRef.current = blob; // Keep blob alive until verse ends (prevents mobile GC)
         const url = URL.createObjectURL(blob);
-        const audio = new Audio(url);
-        audioRef.current = audio;
+        audio.src = url;
 
-        audio.addEventListener("ended", () => {
+        const onEnded = () => {
+          blobRef.current = null;
           URL.revokeObjectURL(url);
           resolve(true);
-        });
+        };
 
-        audio.addEventListener("error", () => {
+        const onError = () => {
+          blobRef.current = null;
           URL.revokeObjectURL(url);
           resolve(false);
-        });
+        };
+
+        audio.addEventListener("ended", onEnded, { once: true });
+        audio.addEventListener("error", onError, { once: true });
 
         await audio.play();
         setAudioState("playing");
+
+        // Media Session API for lock screen / notification controls (mobile)
+        if (typeof navigator !== "undefined" && "mediaSession" in navigator && typeof MediaMetadata !== "undefined") {
+          try {
+            navigator.mediaSession.metadata = new MediaMetadata({
+              title: `Verse ${verse.verse}`,
+              artist: "Bible Summary",
+            });
+          } catch (_) {}
+        }
 
       } catch (error) {
         if (error instanceof Error && error.name === 'AbortError') {
           resolve(false);
           return;
         }
+        blobRef.current = null;
         console.error("Verse playback error:", error);
         resolve(false);
       }
@@ -334,9 +369,38 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     }
   }, [selectedBook, selectedChapter, currentTrackId, audioState, stop, resume, pause, setSelection, playVerses]);
 
-  // Cleanup on unmount
+  // Initialize persistent audio element with mobile-safe attributes
+  useEffect(() => {
+    const el = audioRef.current;
+    if (!el) return;
+    el.setAttribute("playsinline", "");
+    el.setAttribute("webkit-playsinline", "");
+  }, []);
+
+  // Handle visibility change: iOS may pause when tab is backgrounded; resume when visible
+  useEffect(() => {
+    const onVisibilityChange = () => {
+      if (document.visibilityState === "visible" && audioRef.current && !isPausedRef.current && shouldContinueRef.current) {
+        const el = audioRef.current;
+        if (el.paused && el.currentTime > 0 && el.currentTime < el.duration) {
+          if (process.env.NODE_ENV === "development") {
+            console.log("[Audio] visibilitychange: resuming after tab visible");
+          }
+          el.play().catch(() => {});
+        }
+      }
+    };
+    document.addEventListener("visibilitychange", onVisibilityChange);
+    return () => document.removeEventListener("visibilitychange", onVisibilityChange);
+  }, []);
+
+  // Cleanup on unmount only (defensive: mountedRef prevents state updates after unmount)
   useEffect(() => {
     return () => {
+      mountedRef.current = false;
+      if (process.env.NODE_ENV === "development") {
+        console.log("[Audio] cleanup on unmount");
+      }
       stop();
     };
   }, [stop]);
@@ -360,6 +424,13 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
 
   return (
     <AudioPlayerContext.Provider value={value}>
+      {/* Single persistent audio element - reused for all verses (mobile-safe, no new Audio() per segment) */}
+      <audio
+        ref={audioRef}
+        playsInline
+        style={{ display: "none" }}
+        preload="metadata"
+      />
       {children}
     </AudioPlayerContext.Provider>
   );

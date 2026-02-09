@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { getCurrentUser } from "@/lib/supabase";
 
-const PUBLIC_PATHS = ["/login", "/signup"];
+const PUBLIC_PATHS = ["/login", "/signup", "/onboarding"];
+const ONBOARDING_COMPLETE_KEY = "biblesummary_onboarding_complete";
 
 export default function AuthGate({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -25,7 +26,14 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
       if (user && user.email_confirmed_at) {
         setAuthed(true);
       } else {
-        router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
+        const hasCompletedOnboarding =
+          typeof window !== "undefined" &&
+          localStorage.getItem(ONBOARDING_COMPLETE_KEY) === "true";
+        if (!hasCompletedOnboarding) {
+          router.replace(`/onboarding`);
+        } else {
+          router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
+        }
       }
       setChecked(true);
     });
