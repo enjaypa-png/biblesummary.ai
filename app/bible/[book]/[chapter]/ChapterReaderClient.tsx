@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { useAudioPlayer } from "@/contexts/AudioPlayerContext";
 import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
@@ -44,6 +44,7 @@ export default function ChapterReaderClient({
   nextChapter,
 }: Props) {
   const [showChapterPicker, setShowChapterPicker] = useState(false);
+  const router = useRouter();
 
   // Verse scroll/highlight from Index navigation
   const searchParams = useSearchParams();
@@ -628,6 +629,7 @@ export default function ChapterReaderClient({
                     onBookmark={user ? () => handleBookmark(verse.verse) : undefined}
                     isBookmarked={bookmarkedVerse === verse.verse}
                     onClose={handleCloseActions}
+                    onSummary={() => router.push(`/bible/${bookSlug}/summary`)}
                   />
                 )}
 
