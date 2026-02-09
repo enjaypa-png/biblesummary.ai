@@ -14,7 +14,7 @@ export default function InlineAudioPlayer({
   totalVerses,
 }: InlineAudioPlayerProps) {
   const {
-    selectedBook,
+    books,
     audioState,
     currentlyPlayingVerse,
     totalVerses: contextTotalVerses,
@@ -54,9 +54,10 @@ export default function InlineAudioPlayer({
       return;
     }
 
-    // Start playing
-    if (selectedBook) {
-      play(selectedBook, chapter);
+    // Start playing — use current page's book (single audio authority)
+    const book = books.find((b) => b.slug === bookSlug);
+    if (book) {
+      play(book, chapter);
     }
   }
 

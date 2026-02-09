@@ -5,10 +5,20 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 
+async function needsOnboarding(userId: string): Promise<boolean> {
+  const { data } = await supabase
+    .from("user_profiles")
+    .select("onboarding_completed_at")
+    .eq("user_id", userId)
+    .single();
+  return !data?.onboarding_completed_at;
+}
+
 function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const redirect = searchParams.get("redirect") || "/";
+  const redirectParam = searchParams.get("redirect") || "/";
+  const redirect = redirectParam.startsWith("/onboarding") ? "/" : redirectParam;
   const [step, setStep] = useState<"login" | "verify">("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -40,7 +50,8 @@ function LoginForm() {
       }
 
       if (data.user) {
-        router.push(redirect);
+        const showOnboarding = await needsOnboarding(data.user.id);
+        router.push(showOnboarding ? "/onboarding" : redirect);
         router.refresh();
       }
     } catch {
@@ -80,7 +91,8 @@ function LoginForm() {
         }
 
         if (signInData.user) {
-          router.push(redirect);
+          const showOnboarding = await needsOnboarding(signInData.user.id);
+          router.push(showOnboarding ? "/onboarding" : redirect);
           router.refresh();
         }
       }
