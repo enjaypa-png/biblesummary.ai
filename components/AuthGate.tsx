@@ -5,8 +5,11 @@ import { usePathname, useRouter } from "next/navigation";
 import { getCurrentUser } from "@/lib/supabase";
 
 const PUBLIC_PATHS = ["/login", "/signup", "/onboarding"];
-const ONBOARDING_COMPLETE_KEY = "biblesummary_onboarding_complete";
 
+/**
+ * Auth gate: unauthenticated users go to login only.
+ * Onboarding runs ONLY after successful auth (handled by login/signup redirect).
+ */
 export default function AuthGate({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -26,14 +29,7 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
       if (user && user.email_confirmed_at) {
         setAuthed(true);
       } else {
-        const hasCompletedOnboarding =
-          typeof window !== "undefined" &&
-          localStorage.getItem(ONBOARDING_COMPLETE_KEY) === "true";
-        if (!hasCompletedOnboarding) {
-          router.replace(`/onboarding`);
-        } else {
-          router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
-        }
+        router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
       }
       setChecked(true);
     });

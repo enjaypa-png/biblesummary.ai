@@ -5,12 +5,11 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 
-const SUMMARY_INTENT_KEY = "biblesummary_summary_intent";
-
 function SignUpForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const redirect = searchParams.get("redirect") || "/";
+  const redirectParam = searchParams.get("redirect") || "/";
+  const redirect = redirectParam.startsWith("/onboarding") ? "/" : redirectParam;
   const [step, setStep] = useState<"form" | "verify">("form");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -79,16 +78,7 @@ function SignUpForm() {
       }
 
       if (data.user) {
-        const raw = typeof window !== "undefined" ? localStorage.getItem(SUMMARY_INTENT_KEY) : null;
-        const summaryIntent = raw === "yes" ? true : raw === "no" ? false : null;
-        if (summaryIntent !== null) {
-          await supabase.from("user_profiles").upsert({
-            user_id: data.user.id,
-            summary_intent: summaryIntent,
-            onboarding_completed_at: new Date().toISOString(),
-          });
-        }
-        router.push(redirect);
+        router.push("/onboarding");
         router.refresh();
       }
     } catch {
