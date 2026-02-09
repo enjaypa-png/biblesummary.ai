@@ -6,8 +6,8 @@ interface VerseActionBarProps {
   onShare: () => void;
   onBookmark?: () => void;
   isBookmarked?: boolean;
+  onBookSummary?: () => void;
   onClose: () => void;
-  onSummary: () => void;
 }
 
 interface ActionItem {
@@ -18,7 +18,7 @@ interface ActionItem {
   disabled?: boolean;
 }
 
-export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark, isBookmarked, onClose, onSummary }: VerseActionBarProps) {
+export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark, isBookmarked, onBookSummary, onClose }: VerseActionBarProps) {
 
   const svg = {
     width: 14,
@@ -90,8 +90,8 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark,
       disabled: !onBookmark,
     },
     {
-      key: "summary",
-      label: "Summary",
+      key: "book-summary",
+      label: "Book Summary",
       icon: (
         <svg {...svg}>
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
@@ -100,7 +100,8 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark,
           <line x1="16" y1="17" x2="8" y2="17" />
         </svg>
       ),
-      onClick: onSummary,
+      onClick: onBookSummary,
+      disabled: !onBookSummary,
     },
   ];
 

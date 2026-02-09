@@ -43,8 +43,8 @@ export default function ChapterReaderClient({
   prevChapter,
   nextChapter,
 }: Props) {
-  const [showChapterPicker, setShowChapterPicker] = useState(false);
   const router = useRouter();
+  const [showChapterPicker, setShowChapterPicker] = useState(false);
 
   // Verse scroll/highlight from Index navigation
   const searchParams = useSearchParams();
@@ -58,6 +58,7 @@ export default function ChapterReaderClient({
   const [user, setUser] = useState<any>(null);
   const [notes, setNotes] = useState<NoteData[]>([]);
   const [activeVerse, setActiveVerse] = useState<number | null>(null);
+  const [showToolbar, setShowToolbar] = useState(false);
   const [showNoteEditor, setShowNoteEditor] = useState(false);
   const [noteText, setNoteText] = useState("");
   const [saving, setSaving] = useState(false);
@@ -206,14 +207,16 @@ export default function ChapterReaderClient({
     if (activeVerse === verseNum) {
       // If tapping the same verse, close everything
       setActiveVerse(null);
+      setShowToolbar(false);
       setShowNoteEditor(false);
       setNoteText("");
       setExplainStatus("idle");
       setExplanation(null);
       return;
     }
-    // Show action row for this verse
+    // Show plus button for this verse
     setActiveVerse(verseNum);
+    setShowToolbar(false);
     setShowNoteEditor(false);
     const existing = getVerseNote(verseNum);
     setNoteText(existing?.note_text || "");
@@ -236,10 +239,16 @@ export default function ChapterReaderClient({
 
   function handleCloseActions() {
     setActiveVerse(null);
+    setShowToolbar(false);
     setShowNoteEditor(false);
     setNoteText("");
     setExplainStatus("idle");
     setExplanation(null);
+  }
+
+  function handleBookSummary() {
+    handleCloseActions();
+    router.push(`/summaries/${bookSlug}`);
   }
 
   async function handleShare(verseNum: number, verseText: string) {
@@ -628,8 +637,8 @@ export default function ChapterReaderClient({
                     onShare={() => handleShare(verse.verse, verse.text)}
                     onBookmark={user ? () => handleBookmark(verse.verse) : undefined}
                     isBookmarked={bookmarkedVerse === verse.verse}
+                    onBookSummary={handleBookSummary}
                     onClose={handleCloseActions}
-                    onSummary={() => router.push(`/bible/${bookSlug}/summary`)}
                   />
                 )}
 
