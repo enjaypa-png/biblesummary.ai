@@ -80,22 +80,23 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes
 - The BibleIndex shows a "Continue Reading" card from this data.
 - This is invisible to the user — no action required to save their position.
 
-### Summaries (Paid Feature, In Progress)
+### Summaries (Paid Feature)
 
-- Pre-written summaries for each book of the Bible, stored in `content/summaries/`.
+- Pre-written book-level summaries for each book of the Bible, stored in `content/summaries/` and seeded to Supabase.
 - See `content/summaries/SUMMARY-GUIDE.md` for the full generation plan.
 - 5 format categories: chapter-by-chapter (narrative), section-by-section (prophetic), thematic overview (poetry/wisdom), grouped by topic (law), section-by-section (epistles).
-- Genesis and Revelation are complete. Remaining 64 books in progress.
-- Summaries are behind a paywall along with the Explain feature.
-- Summary button in the action bar is currently disabled until content and UI are wired.
+- "Book Summary" button in the verse action bar opens the summary for the current book. Access is gated by `user_has_summary_access` (purchases). Respectful paywall shown when user lacks access.
+- Summaries tab in bottom navigation shows a library of books with available summaries. Tapping a book opens its summary view.
 
 ### Disabled / Placeholder Features
 
-The `VerseActionBar` contains two disabled buttons: **Highlight** and **Summary**. These are intentionally present as visual placeholders. Do not:
+The `VerseActionBar` contains one disabled button: **Highlight**. It is intentionally present as a visual placeholder. Do not:
 
-- Remove them
-- Enable them without full implementation behind them
-- Wire them to partial or stub logic
+- Remove it
+- Enable it without full implementation behind them
+- Wire it to partial or stub logic
+
+The **Book Summary** button is enabled and wired to the full Book Summary feature.
 
 Similarly, the Search page (`/search/page.tsx`) is a "Coming Soon" placeholder. Do not add partial search functionality.
 

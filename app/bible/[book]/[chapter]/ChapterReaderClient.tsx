@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
@@ -43,6 +44,7 @@ export default function ChapterReaderClient({
   prevChapter,
   nextChapter,
 }: Props) {
+  const router = useRouter();
   const [showChapterPicker, setShowChapterPicker] = useState(false);
 
   // Verse scroll/highlight from Index navigation
@@ -239,6 +241,11 @@ export default function ChapterReaderClient({
     setNoteText("");
     setExplainStatus("idle");
     setExplanation(null);
+  }
+
+  function handleBookSummary() {
+    handleCloseActions();
+    router.push(`/summaries/${bookSlug}`);
   }
 
   async function handleShare(verseNum: number, verseText: string) {
@@ -627,6 +634,7 @@ export default function ChapterReaderClient({
                     onShare={() => handleShare(verse.verse, verse.text)}
                     onBookmark={user ? () => handleBookmark(verse.verse) : undefined}
                     isBookmarked={bookmarkedVerse === verse.verse}
+                    onBookSummary={handleBookSummary}
                     onClose={handleCloseActions}
                   />
                 )}
