@@ -18,43 +18,25 @@ export async function POST(req: NextRequest) {
   try {
     const { product, bookId, bookSlug, returnPath } = await req.json();
 
-    // Verify the user is authenticated
+    // ── Authenticate user from the Authorization header ──
+    // The client sends the Supabase access token as "Bearer <token>".
+    // We verify it server-side with the service-role client.
     const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
-    // Extract the access token from cookies
-    const cookies = req.headers.get("cookie") || "";
-    const tokenMatch = cookies.match(/sb-[^-]+-auth-token=([^;]+)/);
-    let userId: string | null = null;
-    let userEmail: string | null = null;
-
-    if (tokenMatch) {
-      try {
-        const tokenData = JSON.parse(decodeURIComponent(tokenMatch[1]));
-        const accessToken = Array.isArray(tokenData) ? tokenData[0] : tokenData?.access_token;
-        if (accessToken) {
-          const { data: { user } } = await supabase.auth.getUser(accessToken);
-          userId = user?.id || null;
-          userEmail = user?.email || null;
-        }
-      } catch {
-        // Token parse failed
-      }
-    }
-
-    // Fallback: try Authorization header
-    if (!userId) {
-      const authBearer = req.headers.get("authorization");
-      if (authBearer?.startsWith("Bearer ")) {
-        const token = authBearer.slice(7);
-        const { data: { user } } = await supabase.auth.getUser(token);
-        userId = user?.id || null;
-        userEmail = user?.email || null;
-      }
-    }
-
-    if (!userId) {
+    const authHeader = req.headers.get("authorization");
+    if (!authHeader?.startsWith("Bearer ")) {
       return NextResponse.json({ error: "Authentication required" }, { status: 401 });
     }
+
+    const accessToken = authHeader.slice(7);
+    const { data: { user }, error: authError } = await supabase.auth.getUser(accessToken);
+
+    if (authError || !user) {
+      return NextResponse.json({ error: "Authentication required" }, { status: 401 });
+    }
+
+    const userId = user.id;
+    const userEmail = user.email || null;
 
     // Determine the product configuration
     let productConfig;
