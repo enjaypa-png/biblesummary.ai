@@ -96,6 +96,7 @@ export default async function SummaryPage({ params }: PageProps) {
     <SummaryViewClient
       bookId={book.id}
       bookName={book.name}
+      bookSlug={book.slug}
       summaryText={summary}
     />
   );

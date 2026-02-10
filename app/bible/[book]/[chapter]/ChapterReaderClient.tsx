@@ -9,6 +9,7 @@ import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsConte
 import { useExplanationCache, getVerseId } from "@/lib/verseStore";
 import InlineAudioPlayer from "@/components/InlineAudioPlayer";
 import VerseActionBar from "@/components/VerseActionBar";
+import ExplainPaywall from "@/components/ExplainPaywall";
 
 interface Verse {
   id: string;
@@ -67,9 +68,12 @@ export default function ChapterReaderClient({
   const [bookmarkedVerse, setBookmarkedVerse] = useState<number | null>(null);
 
   // Inline Explain state
-  const [explainStatus, setExplainStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [explainStatus, setExplainStatus] = useState<"idle" | "loading" | "success" | "error" | "paywall">("idle");
   const [explanation, setExplanation] = useState<string | null>(null);
   const { addToCache, getFromCache } = useExplanationCache();
+
+  // Explain entitlement
+  const [hasExplainAccess, setHasExplainAccess] = useState<boolean | null>(null);
 
   // Reading settings
   const { settings, openPanel } = useReadingSettings();
@@ -185,6 +189,14 @@ export default function ChapterReaderClient({
         } else {
           setBookmarkedVerse(null);
         }
+
+        // Check explain entitlement
+        const { data: explainAccess } = await supabase.rpc("user_has_explain_access", {
+          p_user_id: currentUser.id,
+        });
+        setHasExplainAccess(explainAccess === true);
+      } else {
+        setHasExplainAccess(false);
       }
     }
     load();
@@ -282,6 +294,12 @@ export default function ChapterReaderClient({
   }
 
   async function handleExplain(verseNum: number) {
+    // Check entitlement first
+    if (!hasExplainAccess) {
+      setExplainStatus("paywall");
+      return;
+    }
+
     const verseId = getVerseId(bookName, chapter, verseNum);
 
     // Check local cache first
@@ -704,6 +722,14 @@ export default function ChapterReaderClient({
                       Try again
                     </button>
                   </span>
+                )}
+
+                {/* Inline explanation - paywall */}
+                {isActive && !showNoteEditor && explainStatus === "paywall" && (
+                  <ExplainPaywall
+                    isAuthenticated={!!user}
+                    onClose={handleCloseActions}
+                  />
                 )}
 
                 {isActive && showNoteEditor && (
