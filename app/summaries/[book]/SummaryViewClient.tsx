@@ -9,12 +9,14 @@ import SummaryPaywall from "@/components/SummaryPaywall";
 interface SummaryViewClientProps {
   bookId: string;
   bookName: string;
+  bookSlug: string;
   summaryText: string;
 }
 
 export default function SummaryViewClient({
   bookId,
   bookName,
+  bookSlug,
   summaryText,
 }: SummaryViewClientProps) {
   const [hasAccess, setHasAccess] = useState<boolean | null>(null);
@@ -104,7 +106,7 @@ export default function SummaryViewClient({
             <span className="w-[70px]" />
           </div>
         </header>
-        <SummaryPaywall bookName={bookName} isAuthenticated={isAuthenticated} />
+        <SummaryPaywall bookName={bookName} bookId={bookId} bookSlug={bookSlug} isAuthenticated={isAuthenticated} />
       </div>
     );
   }

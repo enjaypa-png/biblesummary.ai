@@ -69,6 +69,52 @@ export async function POST(req: NextRequest) {
     const { book, chapter, verse } = parsed;
     const supabase = createClient(supabaseUrl, supabaseKey);
 
+    // ── Entitlement check: require active explain subscription ──
+    let userId: string | null = null;
+    const authHeader = req.headers.get("authorization");
+    if (authHeader?.startsWith("Bearer ")) {
+      const token = authHeader.slice(7);
+      const { data: { user } } = await supabase.auth.getUser(token);
+      userId = user?.id || null;
+    }
+
+    // Also try cookie-based auth
+    if (!userId) {
+      const cookies = req.headers.get("cookie") || "";
+      const tokenMatch = cookies.match(/sb-[^-]+-auth-token=([^;]+)/);
+      if (tokenMatch) {
+        try {
+          const tokenData = JSON.parse(decodeURIComponent(tokenMatch[1]));
+          const accessToken = Array.isArray(tokenData) ? tokenData[0] : tokenData?.access_token;
+          if (accessToken) {
+            const { data: { user } } = await supabase.auth.getUser(accessToken);
+            userId = user?.id || null;
+          }
+        } catch {
+          // Token parse failed
+        }
+      }
+    }
+
+    if (!userId) {
+      return NextResponse.json(
+        { error: "Authentication required", code: "AUTH_REQUIRED" },
+        { status: 401 }
+      );
+    }
+
+    // Check explain entitlement
+    const { data: hasAccess } = await supabase.rpc("user_has_explain_access", {
+      p_user_id: userId,
+    });
+
+    if (!hasAccess) {
+      return NextResponse.json(
+        { error: "Explain subscription required", code: "SUBSCRIPTION_REQUIRED" },
+        { status: 403 }
+      );
+    }
+
     // Check explanation cache first
     const { data: cachedExplanation } = await supabase
       .from("explanations")

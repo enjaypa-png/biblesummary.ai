@@ -2,6 +2,7 @@ export const dynamic = "force-dynamic";
 
 import Link from "next/link";
 import { createClient } from "@supabase/supabase-js";
+import BookSummaryButton from "@/components/BookSummaryButton";
 
 interface PageProps {
   params: {
@@ -81,6 +82,15 @@ export default async function BookChaptersPage({ params }: PageProps) {
       </header>
 
       <main className="max-w-lg mx-auto px-5 pt-6 pb-8">
+        {/* Summary button */}
+        <div className="mb-5">
+          <BookSummaryButton
+            bookId={book.id}
+            bookSlug={book.slug}
+            bookName={book.name}
+          />
+        </div>
+
         {/* Chapter grid */}
         <div className="grid grid-cols-5 gap-2.5">
           {chapters.map((ch) => (

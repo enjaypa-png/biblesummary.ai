@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
+import SummaryPaywall from "@/components/SummaryPaywall";
 
 interface Props {
   bookName: string;
@@ -210,37 +211,12 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
             <span className="min-w-[60px]" />
           </div>
         </header>
-        <main className="max-w-2xl mx-auto px-5 py-16">
-          <div className="text-center">
-            <div
-              className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6"
-              style={{ backgroundColor: theme.card, border: `1px solid ${theme.border}` }}
-            >
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke={theme.secondary} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-              </svg>
-            </div>
-            <h2
-              className="text-[20px] font-semibold mb-3"
-              style={{ color: theme.text, fontFamily: fontStack }}
-            >
-              {bookName} Summary
-            </h2>
-            <p className="text-[15px] mb-8 max-w-xs mx-auto" style={{ color: theme.secondary, fontFamily: "'Inter', sans-serif" }}>
-              This book summary is a premium feature.
-            </p>
-            {!isLoggedIn && (
-              <Link
-                href="/login"
-                className="inline-block px-6 py-3 rounded-full text-[14px] font-semibold text-white transition-all active:scale-95"
-                style={{ backgroundColor: "var(--accent)" }}
-              >
-                Sign in to get started
-              </Link>
-            )}
-          </div>
-        </main>
+        <SummaryPaywall
+          bookName={bookName}
+          bookId={bookId}
+          bookSlug={bookSlug}
+          isAuthenticated={isLoggedIn}
+        />
       </div>
     );
   }
