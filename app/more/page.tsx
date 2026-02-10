@@ -2,24 +2,106 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { getCurrentUser, signOut } from "@/lib/supabase";
+import { getCurrentUser, signOut, supabase } from "@/lib/supabase";
 import type { User } from "@supabase/supabase-js";
+
+interface Subscription {
+  type: string;
+  status: string;
+  current_period_end: string;
+}
 
 export default function MorePage() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
+  const [subscriptions, setSubscriptions] = useState<Subscription[]>([]);
+  const [canceling, setCanceling] = useState<string | null>(null);
+  const [cancelError, setCancelError] = useState<string | null>(null);
 
   useEffect(() => {
-    getCurrentUser().then((u) => {
+    async function load() {
+      const u = await getCurrentUser();
       setUser(u ?? null);
       setLoading(false);
-    });
+
+      if (u) {
+        const { data } = await supabase
+          .from("subscriptions")
+          .select("type, status, current_period_end")
+          .eq("user_id", u.id);
+        if (data) {
+          setSubscriptions(data.filter((s: Subscription) => s.status === "active" || s.status === "canceled"));
+        }
+      }
+    }
+    load();
   }, []);
 
   const handleSignOut = async () => {
     await signOut();
     setUser(null);
   };
+
+  async function handleCancel(subscriptionType: string) {
+    if (!confirm("Are you sure you want to cancel? You'll keep access until the end of your current billing period.")) {
+      return;
+    }
+
+    setCanceling(subscriptionType);
+    setCancelError(null);
+
+    try {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (!session?.access_token) {
+        setCancelError("Please sign in again.");
+        setCanceling(null);
+        return;
+      }
+
+      const response = await fetch("/api/cancel-subscription", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${session.access_token}`,
+        },
+        body: JSON.stringify({ subscriptionType }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        setCancelError(data.error || "Failed to cancel");
+        setCanceling(null);
+        return;
+      }
+
+      // Update local state
+      setSubscriptions((prev) =>
+        prev.map((s) =>
+          s.type === subscriptionType ? { ...s, status: "canceled" } : s
+        )
+      );
+    } catch {
+      setCancelError("Network error. Please try again.");
+    }
+    setCanceling(null);
+  }
+
+  function getSubscriptionLabel(type: string): string {
+    switch (type) {
+      case "explain_monthly": return "Verse Explain";
+      case "summary_annual": return "Summary Pass";
+      default: return type;
+    }
+  }
+
+  function getSubscriptionPrice(type: string): string {
+    switch (type) {
+      case "explain_monthly": return "$4.99/mo";
+      case "summary_annual": return "$14.99/yr";
+      default: return "";
+    }
+  }
 
   const unauthenticatedMenuItems = [
     { href: "/login", label: "Sign In", description: "Sync your notes across devices" },
@@ -101,6 +183,75 @@ export default function MorePage() {
             )}
           </div>
         </section>
+
+        {/* Subscriptions — only show for authenticated users with subscriptions */}
+        {user && subscriptions.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-xs font-semibold uppercase tracking-widest mb-2 px-1"
+              style={{ color: "var(--secondary)" }}>
+              Subscriptions
+            </h2>
+            <div className="rounded-xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
+              {subscriptions.map((sub, i) => (
+                <div
+                  key={sub.type}
+                  className="px-4 py-3"
+                  style={{ borderBottom: i < subscriptions.length - 1 ? "0.5px solid var(--border)" : "none" }}
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <span className="font-medium text-[15px]" style={{ color: "var(--foreground)" }}>
+                        {getSubscriptionLabel(sub.type)}
+                      </span>
+                      <span className="text-[13px] ml-2" style={{ color: "var(--secondary)" }}>
+                        {getSubscriptionPrice(sub.type)}
+                      </span>
+                    </div>
+                    <span
+                      className="text-[12px] font-medium px-2 py-0.5 rounded-full"
+                      style={{
+                        backgroundColor: sub.status === "active" ? "rgba(5, 150, 105, 0.1)" : "rgba(217, 119, 6, 0.1)",
+                        color: sub.status === "active" ? "var(--success)" : "var(--warning)",
+                      }}
+                    >
+                      {sub.status === "active" ? "Active" : "Cancels soon"}
+                    </span>
+                  </div>
+
+                  {sub.status === "canceled" && (
+                    <p className="text-[12px] mt-1" style={{ color: "var(--secondary)" }}>
+                      Access until {new Date(sub.current_period_end).toLocaleDateString()}
+                    </p>
+                  )}
+
+                  {sub.status === "active" && (
+                    <div className="mt-2">
+                      <p className="text-[12px] mb-1.5" style={{ color: "var(--secondary)" }}>
+                        Renews {new Date(sub.current_period_end).toLocaleDateString()}
+                      </p>
+                      <button
+                        onClick={() => handleCancel(sub.type)}
+                        disabled={canceling !== null}
+                        className="text-[13px] font-medium transition-opacity active:opacity-70 disabled:opacity-50"
+                        style={{ color: "var(--error)" }}
+                      >
+                        {canceling === sub.type ? "Canceling…" : "Cancel subscription"}
+                      </button>
+                    </div>
+                  )}
+                </div>
+              ))}
+
+              {cancelError && (
+                <div className="px-4 py-2" style={{ borderTop: "0.5px solid var(--border)" }}>
+                  <p className="text-[13px]" style={{ color: "var(--error)" }}>
+                    {cancelError}
+                  </p>
+                </div>
+              )}
+            </div>
+          </section>
+        )}
 
         {/* About */}
         <section className="mb-8">
