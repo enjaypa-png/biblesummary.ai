@@ -313,9 +313,16 @@ export default function ChapterReaderClient({
     setExplainStatus("loading");
 
     try {
+      // Get auth token to send with the request
+      const { data: { session } } = await supabase.auth.getSession();
+      const reqHeaders: Record<string, string> = { "Content-Type": "application/json" };
+      if (session?.access_token) {
+        reqHeaders["Authorization"] = `Bearer ${session.access_token}`;
+      }
+
       const response = await fetch("/api/explain-verse", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: reqHeaders,
         body: JSON.stringify({ verse_id: verseId }),
       });
 

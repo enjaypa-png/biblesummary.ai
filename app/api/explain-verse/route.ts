@@ -70,38 +70,26 @@ export async function POST(req: NextRequest) {
     const supabase = createClient(supabaseUrl, supabaseKey);
 
     // ── Entitlement check: require active explain subscription ──
-    let userId: string | null = null;
+    // Client sends Supabase access token via Authorization header.
     const authHeader = req.headers.get("authorization");
-    if (authHeader?.startsWith("Bearer ")) {
-      const token = authHeader.slice(7);
-      const { data: { user } } = await supabase.auth.getUser(token);
-      userId = user?.id || null;
-    }
-
-    // Also try cookie-based auth
-    if (!userId) {
-      const cookies = req.headers.get("cookie") || "";
-      const tokenMatch = cookies.match(/sb-[^-]+-auth-token=([^;]+)/);
-      if (tokenMatch) {
-        try {
-          const tokenData = JSON.parse(decodeURIComponent(tokenMatch[1]));
-          const accessToken = Array.isArray(tokenData) ? tokenData[0] : tokenData?.access_token;
-          if (accessToken) {
-            const { data: { user } } = await supabase.auth.getUser(accessToken);
-            userId = user?.id || null;
-          }
-        } catch {
-          // Token parse failed
-        }
-      }
-    }
-
-    if (!userId) {
+    if (!authHeader?.startsWith("Bearer ")) {
       return NextResponse.json(
         { error: "Authentication required", code: "AUTH_REQUIRED" },
         { status: 401 }
       );
     }
+
+    const accessToken = authHeader.slice(7);
+    const { data: { user: authUser }, error: authError } = await supabase.auth.getUser(accessToken);
+
+    if (authError || !authUser) {
+      return NextResponse.json(
+        { error: "Authentication required", code: "AUTH_REQUIRED" },
+        { status: 401 }
+      );
+    }
+
+    const userId = authUser.id;
 
     // Check explain entitlement
     const { data: hasAccess } = await supabase.rpc("user_has_explain_access", {
