@@ -65,6 +65,7 @@ export default function ChapterReaderClient({
 
   // Bookmark state
   const [bookmarkedVerse, setBookmarkedVerse] = useState<number | null>(null);
+  const [bookmarkError, setBookmarkError] = useState<string | null>(null);
 
   // Inline Explain state
   const [explainStatus, setExplainStatus] = useState<"idle" | "loading" | "success" | "error" | "paywall">("idle");
@@ -466,29 +467,55 @@ export default function ChapterReaderClient({
 
   // Header bookmark: toggle bookmark on verse 1 of this chapter
   async function handleHeaderBookmark() {
-    if (!user) return;
+    setBookmarkError(null);
+
+    if (!user) {
+      console.log("BOOKMARK: user is null, cannot bookmark");
+      setBookmarkError("Sign in to bookmark");
+      return;
+    }
+
+    console.log("BOOKMARK: user.id =", user.id, "bookId =", bookId, "chapter =", chapter);
+
     if (bookmarkedVerse !== null) {
       // Remove this chapter's bookmark
-      await supabase
+      const { error } = await supabase
         .from("bookmarks")
         .delete()
         .eq("user_id", user.id)
         .eq("book_id", bookId)
         .eq("chapter", chapter);
+
+      console.log("BOOKMARK DELETE RESULT:", { error });
+      if (error) {
+        setBookmarkError(error.message);
+        return;
+      }
       setBookmarkedVerse(null);
     } else {
-      // Add bookmark for this chapter at verse 1
-      await supabase.from("bookmarks").upsert(
-        {
-          user_id: user.id,
-          book_id: bookId,
-          book_slug: bookSlug,
-          book_name: bookName,
-          chapter,
-          verse: 1,
-        },
-        { onConflict: "user_id,book_id,chapter" }
-      );
+      // Add bookmark for this chapter
+      const insertPayload = {
+        user_id: user.id,
+        book_id: bookId,
+        book_slug: bookSlug,
+        book_name: bookName,
+        chapter,
+        verse: 1,
+      };
+
+      console.log("BOOKMARK INSERT PAYLOAD:", insertPayload);
+
+      const { data, error } = await supabase
+        .from("bookmarks")
+        .insert(insertPayload)
+        .select();
+
+      console.log("BOOKMARK INSERT RESULT:", { data, error });
+
+      if (error) {
+        setBookmarkError(error.message);
+        return;
+      }
       setBookmarkedVerse(1);
     }
   }
@@ -640,6 +667,17 @@ export default function ChapterReaderClient({
           </div>
         )}
       </header>
+
+      {/* Bookmark error banner (temporary debugging) */}
+      {bookmarkError && (
+        <div
+          className="sticky top-[50px] z-30 max-w-2xl mx-auto px-4 py-2 text-center text-[13px] font-medium"
+          style={{ backgroundColor: "#fef2f2", color: "#dc2626", borderBottom: "1px solid #fecaca" }}
+          onClick={() => setBookmarkError(null)}
+        >
+          Bookmark error: {bookmarkError} (tap to dismiss)
+        </div>
+      )}
 
       {/* ── Bible text ── */}
       <main className="max-w-2xl mx-auto px-5 py-6">
