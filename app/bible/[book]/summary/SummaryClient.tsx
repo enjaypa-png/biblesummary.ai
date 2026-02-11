@@ -450,35 +450,43 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
             {/* TTS play/pause */}
             <button
               onClick={handleTtsToggle}
-              title={
-                ttsState === "idle" ? "Listen to summary" :
-                ttsState === "loading" ? "Cancel" :
-                ttsState === "playing" ? "Pause" : "Resume"
-              }
-              className="w-9 h-9 flex items-center justify-center rounded-full active:opacity-70 transition-all"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[13px] font-semibold active:opacity-70 transition-all"
               style={{
                 backgroundColor: ttsState === "playing" || ttsState === "paused" ? "var(--accent)" : theme.card,
-                border: ttsState === "idle" ? `0.5px solid ${theme.border}` : "none",
+                color: ttsState === "playing" || ttsState === "paused" ? "white" : theme.text,
+                border: ttsState === "playing" || ttsState === "paused" ? "none" : `1px solid ${theme.border}`,
               }}
             >
               {ttsState === "loading" ? (
-                <div
-                  className="w-4 h-4 border-2 rounded-full animate-spin"
-                  style={{ borderColor: theme.border, borderTopColor: "var(--accent)" }}
-                />
+                <>
+                  <div
+                    className="w-3.5 h-3.5 border-2 rounded-full animate-spin flex-shrink-0"
+                    style={{ borderColor: theme.border, borderTopColor: "var(--accent)" }}
+                  />
+                  Loading...
+                </>
               ) : ttsState === "playing" ? (
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="white" stroke="none">
-                  <rect x="6" y="4" width="4" height="16" rx="1" />
-                  <rect x="14" y="4" width="4" height="16" rx="1" />
-                </svg>
+                <>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="white" stroke="none" className="flex-shrink-0">
+                    <rect x="6" y="4" width="4" height="16" rx="1" />
+                    <rect x="14" y="4" width="4" height="16" rx="1" />
+                  </svg>
+                  Pause
+                </>
               ) : ttsState === "paused" ? (
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="white" stroke="none">
-                  <polygon points="6,4 20,12 6,20" />
-                </svg>
+                <>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="white" stroke="none" className="flex-shrink-0">
+                    <polygon points="6,4 20,12 6,20" />
+                  </svg>
+                  Resume
+                </>
               ) : (
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={theme.secondary} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
-                </svg>
+                <>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
+                    <polygon points="5,3 19,12 5,21" />
+                  </svg>
+                  Listen
+                </>
               )}
             </button>
             {/* Aa settings */}
