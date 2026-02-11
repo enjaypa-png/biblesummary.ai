@@ -22,6 +22,7 @@ export default function SummaryViewClient({
 }: SummaryViewClientProps) {
   const [hasAccess, setHasAccess] = useState<boolean | null>(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [rateLimited, setRateLimited] = useState(false);
   const searchParams = useSearchParams();
 
   useEffect(() => {
@@ -63,6 +64,32 @@ export default function SummaryViewClient({
         setHasAccess(false);
         return;
       }
+
+      if (data) {
+        // Record the view and check rate limit
+        try {
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session?.access_token) {
+            const viewRes = await fetch("/api/record-summary-view", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${session.access_token}`,
+              },
+              body: JSON.stringify({ bookId }),
+            });
+            const viewData = await viewRes.json();
+            if (viewData.allowed === false) {
+              setRateLimited(true);
+              setHasAccess(false);
+              return;
+            }
+          }
+        } catch {
+          // Rate limit check failed — allow access anyway
+        }
+      }
+
       setHasAccess(!!data);
     }
     checkAccess();
@@ -96,6 +123,42 @@ export default function SummaryViewClient({
               borderTopColor: "var(--accent)",
             }}
           />
+        </main>
+      </div>
+    );
+  }
+
+  if (rateLimited) {
+    return (
+      <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
+        <header
+          className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
+          style={{
+            backgroundColor: "var(--background-blur)",
+            borderBottom: "0.5px solid var(--border)",
+          }}
+        >
+          <div className="max-w-2xl mx-auto flex items-center justify-between">
+            <Link
+              href="/summaries"
+              className="text-sm font-medium"
+              style={{ color: "var(--accent)" }}
+            >
+              ← Summaries
+            </Link>
+            <h1
+              className="text-[15px] font-semibold"
+              style={{ color: "var(--foreground)" }}
+            >
+              {bookName}
+            </h1>
+            <span className="w-[70px]" />
+          </div>
+        </header>
+        <main className="max-w-2xl mx-auto px-5 py-16 text-center">
+          <p className="text-[15px]" style={{ color: "var(--secondary)" }}>
+            Daily summary view limit reached. Please try again tomorrow.
+          </p>
         </main>
       </div>
     );
