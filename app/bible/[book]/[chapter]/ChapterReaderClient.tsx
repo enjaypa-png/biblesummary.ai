@@ -202,6 +202,40 @@ export default function ChapterReaderClient({
     load();
   }, [bookId, chapter]);
 
+  // Re-check explain entitlement when returning from Stripe checkout
+  useEffect(() => {
+    async function recheckAccess() {
+      const currentUser = await getCurrentUser();
+      if (!currentUser) return;
+      const { data: explainAccess } = await supabase.rpc("user_has_explain_access", {
+        p_user_id: currentUser.id,
+      });
+      setHasExplainAccess(explainAccess === true);
+      // Reset paywall state if user now has access
+      if (explainAccess === true && explainStatus === "paywall") {
+        setExplainStatus("idle");
+      }
+    }
+
+    function handleVisibilityChange() {
+      if (document.visibilityState === "visible") {
+        recheckAccess();
+      }
+    }
+
+    // Re-check when tab becomes visible (user returning from Stripe)
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    // Also re-check if URL has checkout=success
+    if (searchParams.get("checkout") === "success") {
+      recheckAccess();
+    }
+
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, [searchParams, explainStatus]);
+
   function getVerseNote(verseNum: number): NoteData | undefined {
     return notes.find((n) => n.verse === verseNum);
   }

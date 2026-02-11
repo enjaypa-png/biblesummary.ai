@@ -30,24 +30,30 @@ export async function POST(req: NextRequest) {
   }
 
   const supabase = createClient(supabaseUrl, supabaseServiceKey);
+  const stripe = getStripe();
 
   try {
     switch (event.type) {
-      // ─── One-time payment completed (summary_single) ───
+      // ─── Checkout completed — handles BOTH one-time and subscription purchases ───
       case "checkout.session.completed": {
         const session = event.data.object as Stripe.Checkout.Session;
         const metadata = session.metadata || {};
+        const productType = metadata.product_type;
+        const userId = metadata.user_id;
 
-        if (metadata.product_type === "summary_single" && session.payment_status === "paid") {
-          const userId = metadata.user_id;
+        if (!userId || !productType) {
+          console.error("Missing user_id or product_type in session metadata");
+          break;
+        }
+
+        // One-time payment (summary_single)
+        if (productType === "summary_single" && session.payment_status === "paid") {
           const bookId = metadata.book_id;
-
-          if (!userId || !bookId) {
-            console.error("Missing user_id or book_id in session metadata");
+          if (!bookId) {
+            console.error("Missing book_id for summary_single purchase");
             break;
           }
 
-          // Record the one-time purchase
           await supabase.from("purchases").upsert(
             {
               user_id: userId,
@@ -59,11 +65,47 @@ export async function POST(req: NextRequest) {
             { onConflict: "user_id,book_id" }
           );
         }
+
+        // Subscription purchase (summary_annual or explain_monthly)
+        if (
+          (productType === "summary_annual" || productType === "explain_monthly") &&
+          session.subscription
+        ) {
+          const subscriptionId =
+            typeof session.subscription === "string"
+              ? session.subscription
+              : session.subscription.id;
+
+          // Fetch the full subscription from Stripe to get accurate period data
+          const subscription = await stripe.subscriptions.retrieve(subscriptionId);
+
+          const firstItem = subscription.items?.data?.[0];
+          const periodStartTs = firstItem?.current_period_start ?? Math.floor(Date.now() / 1000);
+          const periodEndTs = firstItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 30;
+          const periodStart = new Date(periodStartTs * 1000).toISOString();
+          const periodEnd = new Date(periodEndTs * 1000).toISOString();
+
+          await supabase.from("subscriptions").upsert(
+            {
+              user_id: userId,
+              type: productType,
+              stripe_subscription_id: subscriptionId,
+              stripe_customer_id: typeof subscription.customer === "string"
+                ? subscription.customer
+                : subscription.customer.id,
+              status: subscription.status === "active" ? "active" : subscription.status,
+              current_period_start: periodStart,
+              current_period_end: periodEnd,
+              updated_at: new Date().toISOString(),
+            },
+            { onConflict: "user_id,type" }
+          );
+        }
+
         break;
       }
 
-      // ─── Subscription created or renewed ───
-      case "customer.subscription.created":
+      // ─── Subscription renewed / status changed ───
       case "customer.subscription.updated": {
         const subscription = event.data.object as Stripe.Subscription;
         const metadata = subscription.metadata || {};
@@ -71,51 +113,74 @@ export async function POST(req: NextRequest) {
         const productType = metadata.product_type;
         const userId = metadata.user_id;
 
+        // If metadata is missing, try to find the subscription in our DB by stripe_subscription_id
         if (!userId || !productType) {
-          console.error("Missing metadata on subscription:", subscription.id);
+          const { data: existing } = await supabase
+            .from("subscriptions")
+            .select("user_id, type")
+            .eq("stripe_subscription_id", subscription.id)
+            .single();
+
+          if (!existing) {
+            console.error("Missing metadata and no DB record for subscription:", subscription.id);
+            break;
+          }
+
+          // Update status using the DB record we found
+          let status: string;
+          switch (subscription.status) {
+            case "active": status = "active"; break;
+            case "past_due": status = "past_due"; break;
+            case "canceled": status = "canceled"; break;
+            case "trialing": status = "trialing"; break;
+            default: status = "expired";
+          }
+
+          const firstItem = subscription.items?.data?.[0];
+          const periodStartTs = firstItem?.current_period_start ?? Math.floor(Date.now() / 1000);
+          const periodEndTs = firstItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 30;
+
+          await supabase
+            .from("subscriptions")
+            .update({
+              status,
+              current_period_start: new Date(periodStartTs * 1000).toISOString(),
+              current_period_end: new Date(periodEndTs * 1000).toISOString(),
+              updated_at: new Date().toISOString(),
+            })
+            .eq("stripe_subscription_id", subscription.id);
+
           break;
         }
 
         if (productType !== "summary_annual" && productType !== "explain_monthly") {
-          console.error("Unknown product_type in subscription metadata:", productType);
           break;
         }
 
-        // Map Stripe status to our status
         let status: string;
         switch (subscription.status) {
-          case "active":
-            status = "active";
-            break;
-          case "past_due":
-            status = "past_due";
-            break;
-          case "canceled":
-            status = "canceled";
-            break;
-          case "trialing":
-            status = "trialing";
-            break;
-          default:
-            status = "expired";
+          case "active": status = "active"; break;
+          case "past_due": status = "past_due"; break;
+          case "canceled": status = "canceled"; break;
+          case "trialing": status = "trialing"; break;
+          default: status = "expired";
         }
 
-        // Get period from subscription items (Stripe API 2026+)
         const firstItem = subscription.items?.data?.[0];
         const periodStartTs = firstItem?.current_period_start ?? Math.floor(Date.now() / 1000);
-        const periodEndTs = firstItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 365;
-        const periodStart = new Date(periodStartTs * 1000).toISOString();
-        const periodEnd = new Date(periodEndTs * 1000).toISOString();
+        const periodEndTs = firstItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 30;
 
         await supabase.from("subscriptions").upsert(
           {
             user_id: userId,
             type: productType,
             stripe_subscription_id: subscription.id,
-            stripe_customer_id: subscription.customer as string,
+            stripe_customer_id: typeof subscription.customer === "string"
+              ? subscription.customer
+              : subscription.customer.id,
             status,
-            current_period_start: periodStart,
-            current_period_end: periodEnd,
+            current_period_start: new Date(periodStartTs * 1000).toISOString(),
+            current_period_end: new Date(periodEndTs * 1000).toISOString(),
             updated_at: new Date().toISOString(),
           },
           { onConflict: "user_id,type" }
@@ -127,7 +192,6 @@ export async function POST(req: NextRequest) {
       case "customer.subscription.deleted": {
         const subscription = event.data.object as Stripe.Subscription;
 
-        // Mark subscription as expired
         await supabase
           .from("subscriptions")
           .update({
@@ -139,7 +203,6 @@ export async function POST(req: NextRequest) {
       }
 
       default:
-        // Unhandled event type - that's fine
         break;
     }
 

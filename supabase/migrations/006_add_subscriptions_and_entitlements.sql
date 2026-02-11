@@ -112,13 +112,14 @@ BEGIN
     SELECT 1 FROM subscriptions
     WHERE user_id = p_user_id
     AND type = 'summary_annual'
-    AND status = 'active'
+    AND status IN ('active', 'canceled')
     AND current_period_end > now()   -- Subscription still valid
   );
 END;
 $$;
 
--- New function: check if user has explain access (active monthly subscription)
+-- New function: check if user has explain access
+-- Grants access if subscription is active OR canceled-but-still-in-period
 CREATE OR REPLACE FUNCTION user_has_explain_access(
   p_user_id UUID
 )
@@ -131,7 +132,7 @@ BEGIN
     SELECT 1 FROM subscriptions
     WHERE user_id = p_user_id
     AND type = 'explain_monthly'
-    AND status = 'active'
+    AND status IN ('active', 'canceled')
     AND current_period_end > now()
   );
 END;
