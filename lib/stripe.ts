@@ -46,6 +46,13 @@ export const PRODUCTS = {
     amount: 499,
     label: "$4.99/month",
   },
+  // Premium - $59/year (all features)
+  PREMIUM_YEARLY: {
+    priceId: process.env.STRIPE_PREMIUM_YEARLY_PRICE_ID || "",
+    mode: "subscription" as const,
+    amount: 5900,
+    label: "$59/year",
+  },
 } as const;
 
 export type ProductKey = keyof typeof PRODUCTS;

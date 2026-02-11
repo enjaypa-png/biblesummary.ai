@@ -84,6 +84,12 @@ export async function POST(req: NextRequest) {
         metadata.product_type = "explain_monthly";
         break;
 
+      case "premium_yearly":
+        productConfig = PRODUCTS.PREMIUM_YEARLY;
+        mode = "subscription";
+        metadata.product_type = "premium_yearly";
+        break;
+
       default:
         return NextResponse.json({ error: "Invalid product" }, { status: 400 });
     }

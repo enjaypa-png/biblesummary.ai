@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
   try {
     const { subscriptionType } = await req.json();
 
-    if (!subscriptionType || !["summary_annual", "explain_monthly"].includes(subscriptionType)) {
+    if (!subscriptionType || !["summary_annual", "explain_monthly", "premium_yearly"].includes(subscriptionType)) {
       return NextResponse.json({ error: "Invalid subscription type" }, { status: 400 });
     }
 
