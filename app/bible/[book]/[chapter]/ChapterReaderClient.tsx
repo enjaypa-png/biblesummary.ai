@@ -182,13 +182,15 @@ export default function ChapterReaderClient({
           .eq("chapter", chapter);
         if (data) setNotes(data);
 
-        // Load bookmark (check if it's on this chapter)
+        // Load bookmark (check if THIS chapter is bookmarked)
         const { data: bm } = await supabase
           .from("bookmarks")
-          .select("verse, book_id, chapter")
+          .select("verse")
           .eq("user_id", currentUser.id)
-          .single();
-        if (bm && bm.book_id === bookId && bm.chapter === chapter) {
+          .eq("book_id", bookId)
+          .eq("chapter", chapter)
+          .maybeSingle();
+        if (bm) {
           setBookmarkedVerse(bm.verse);
         } else {
           setBookmarkedVerse(null);
@@ -466,30 +468,27 @@ export default function ChapterReaderClient({
   async function handleHeaderBookmark() {
     if (!user) return;
     if (bookmarkedVerse !== null) {
-      // Remove bookmark
-      await supabase.from("bookmarks").delete().eq("user_id", user.id);
+      // Remove this chapter's bookmark
+      await supabase
+        .from("bookmarks")
+        .delete()
+        .eq("user_id", user.id)
+        .eq("book_id", bookId)
+        .eq("chapter", chapter);
       setBookmarkedVerse(null);
     } else {
-      // Create/update bookmark at verse 1
-      const { data: existing } = await supabase
-        .from("bookmarks")
-        .select("id")
-        .eq("user_id", user.id)
-        .single();
-
-      const bmData = {
-        book_id: bookId,
-        book_slug: bookSlug,
-        book_name: bookName,
-        chapter,
-        verse: 1,
-      };
-
-      if (existing) {
-        await supabase.from("bookmarks").update(bmData).eq("id", existing.id);
-      } else {
-        await supabase.from("bookmarks").insert({ user_id: user.id, ...bmData });
-      }
+      // Add bookmark for this chapter at verse 1
+      await supabase.from("bookmarks").upsert(
+        {
+          user_id: user.id,
+          book_id: bookId,
+          book_slug: bookSlug,
+          book_name: bookName,
+          chapter,
+          verse: 1,
+        },
+        { onConflict: "user_id,book_id,chapter" }
+      );
       setBookmarkedVerse(1);
     }
   }
