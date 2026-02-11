@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import BottomTabBar from "@/components/BottomTabBar";
 import AuthGate from "@/components/AuthGate";
+import SessionTracker from "@/components/SessionTracker";
 import MiniPlayer from "@/components/MiniPlayer";
 import ReadingSettingsPanel from "@/components/ReadingSettingsPanel";
 import { AudioPlayerProvider } from "@/contexts/AudioPlayerContext";
@@ -33,6 +34,7 @@ export default function RootLayout({
         <AuthGate>
           <ReadingSettingsProvider>
             <AudioPlayerProvider>
+              <SessionTracker />
               {children}
               <MiniPlayer />
               <ReadingSettingsPanel />

@@ -48,6 +48,23 @@ export async function POST(req: NextRequest) {
         if (!bookId) {
           return NextResponse.json({ error: "Book ID required for single purchase" }, { status: 400 });
         }
+
+        // ── Prevent duplicate purchases ──
+        const { data: existingPurchase } = await supabase
+          .from("purchases")
+          .select("id")
+          .eq("user_id", userId)
+          .eq("book_id", bookId)
+          .eq("type", "single")
+          .single();
+
+        if (existingPurchase) {
+          return NextResponse.json(
+            { error: "You already own this summary." },
+            { status: 400 }
+          );
+        }
+
         productConfig = PRODUCTS.SUMMARY_SINGLE;
         mode = "payment";
         metadata.product_type = "summary_single";

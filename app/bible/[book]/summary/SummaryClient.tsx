@@ -101,6 +101,7 @@ function renderMarkdown(text: string, theme: { text: string; secondary: string; 
 export default function SummaryClient({ bookName, bookSlug, bookId, summaryText }: Props) {
   const [hasAccess, setHasAccess] = useState<boolean | null>(null);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [rateLimited, setRateLimited] = useState(false);
   const { settings, openPanel } = useReadingSettings();
   const theme = themeStyles[settings.themeMode];
   const searchParams = useSearchParams();
@@ -161,6 +162,31 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
         return;
       }
 
+      if (data === true) {
+        // Record the view and check rate limit
+        try {
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session?.access_token) {
+            const viewRes = await fetch("/api/record-summary-view", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${session.access_token}`,
+              },
+              body: JSON.stringify({ bookId }),
+            });
+            const viewData = await viewRes.json();
+            if (viewData.allowed === false) {
+              setRateLimited(true);
+              setHasAccess(false);
+              return;
+            }
+          }
+        } catch {
+          // Rate limit check failed — allow access anyway
+        }
+      }
+
       setHasAccess(data === true);
     }
 
@@ -200,6 +226,43 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
             className="w-6 h-6 border-2 rounded-full animate-spin mx-auto"
             style={{ borderColor: theme.border, borderTopColor: "var(--accent)" }}
           />
+        </main>
+      </div>
+    );
+  }
+
+  // Rate limited state
+  if (rateLimited) {
+    return (
+      <div className="min-h-screen transition-colors duration-300" style={{ backgroundColor: theme.background }}>
+        <header
+          className="sticky top-0 z-40 backdrop-blur-xl transition-colors duration-300"
+          style={{
+            backgroundColor: settings.themeMode === "dark" ? "rgba(26, 26, 26, 0.9)" : `${theme.background}ee`,
+            borderBottom: `1px solid ${theme.border}`,
+          }}
+        >
+          <div className="flex items-center justify-between max-w-2xl mx-auto px-4 py-2.5">
+            <Link
+              href={`/bible/${bookSlug}`}
+              className="flex items-center gap-1.5 active:opacity-70 transition-opacity min-w-[60px]"
+              style={{ color: "var(--accent)" }}
+            >
+              <svg width="7" height="12" viewBox="0 0 7 12" fill="none">
+                <path d="M6 1L1 6L6 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              <span className="text-[13px] font-medium">{bookName}</span>
+            </Link>
+            <h1 className="text-[15px] font-semibold" style={{ color: theme.text, fontFamily: fontStack }}>
+              Summary
+            </h1>
+            <span className="min-w-[60px]" />
+          </div>
+        </header>
+        <main className="max-w-2xl mx-auto px-5 py-16 text-center">
+          <p className="text-[15px]" style={{ color: theme.secondary }}>
+            Daily summary view limit reached. Please try again tomorrow.
+          </p>
         </main>
       </div>
     );
