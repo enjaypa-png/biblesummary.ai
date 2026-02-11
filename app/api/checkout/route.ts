@@ -101,8 +101,9 @@ export async function POST(req: NextRequest) {
     }
 
     // Build success/cancel URLs
+    // {CHECKOUT_SESSION_ID} is a Stripe template variable — Stripe replaces it with the real session ID
     const origin = req.headers.get("origin") || req.headers.get("referer")?.replace(/\/[^/]*$/, "") || "";
-    const successUrl = `${origin}${returnPath || "/summaries"}?checkout=success`;
+    const successUrl = `${origin}${returnPath || "/summaries"}?checkout=success&session_id={CHECKOUT_SESSION_ID}`;
     const cancelUrl = `${origin}${returnPath || "/summaries"}?checkout=canceled`;
 
     // Create checkout session

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { parseSummaryMarkdown } from "@/lib/parseSummary";
 import SummaryPaywall from "@/components/SummaryPaywall";
@@ -21,6 +22,7 @@ export default function SummaryViewClient({
 }: SummaryViewClientProps) {
   const [hasAccess, setHasAccess] = useState<boolean | null>(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const searchParams = useSearchParams();
 
   useEffect(() => {
     async function checkAccess() {
@@ -30,6 +32,26 @@ export default function SummaryViewClient({
       if (!user) {
         setHasAccess(false);
         return;
+      }
+
+      // If returning from Stripe checkout, verify the purchase first
+      const sessionId = searchParams.get("session_id");
+      if (searchParams.get("checkout") === "success" && sessionId) {
+        try {
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session?.access_token) {
+            await fetch("/api/verify-purchase", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${session.access_token}`,
+              },
+              body: JSON.stringify({ sessionId }),
+            });
+          }
+        } catch {
+          // Verification failed — fall through to normal access check
+        }
       }
 
       const { data, error } = await supabase.rpc("user_has_summary_access", {
@@ -44,7 +66,7 @@ export default function SummaryViewClient({
       setHasAccess(!!data);
     }
     checkAccess();
-  }, [bookId]);
+  }, [bookId, searchParams]);
 
   const { title, sections } = parseSummaryMarkdown(summaryText, bookName);
 
