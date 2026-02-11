@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import { supabase, getCurrentUser } from "@/lib/supabase";
+import { supabase } from "@/lib/supabase";
 
 interface Book {
   id: string;
@@ -37,13 +37,6 @@ export default function BibleIndex({ books }: { books: Book[] }) {
     verse: number;
   } | null>(null);
 
-  // Manual bookmark from Supabase
-  const [bookmark, setBookmark] = useState<{
-    book_name: string;
-    book_slug: string;
-    chapter: number;
-    verse: number;
-  } | null>(null);
 
   useEffect(() => {
     // Load automatic reading position from localStorage
@@ -58,22 +51,6 @@ export default function BibleIndex({ books }: { books: Book[] }) {
     } catch {
       // Ignore parse errors
     }
-
-    // Load manual bookmark from Supabase
-    async function loadBookmark() {
-      const user = await getCurrentUser();
-      if (user) {
-        const { data } = await supabase
-          .from("bookmarks")
-          .select("book_name, book_slug, chapter, verse")
-          .eq("user_id", user.id)
-          .order("created_at", { ascending: false })
-          .limit(1)
-          .maybeSingle();
-        if (data) setBookmark(data);
-      }
-    }
-    loadBookmark();
   }, []);
 
   // Testament filter for books tab
@@ -353,30 +330,6 @@ export default function BibleIndex({ books }: { books: Book[] }) {
             </div>
             <svg width="7" height="12" viewBox="0 0 7 12" fill="none" className="flex-shrink-0">
               <path d="M1 1L6 6L1 11" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </Link>
-        )}
-
-        {/* Manual bookmark card (intentional marker) */}
-        {activeTab === "books" && bookmark && (
-          <Link
-            href={`/bible/${bookmark.book_slug}/${bookmark.chapter}?verse=${bookmark.verse}`}
-            className="flex items-center gap-3.5 mb-5 p-4 rounded-xl active:opacity-80 transition-opacity"
-            style={{ backgroundColor: "var(--card)", border: "1px solid var(--accent)" }}
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--accent)" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
-              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-            </svg>
-            <div className="flex-1 min-w-0">
-              <span className="block text-[11px] uppercase tracking-wider font-medium" style={{ color: "var(--secondary)" }}>
-                Your Bookmark
-              </span>
-              <span className="block text-[16px] font-semibold truncate" style={{ color: "var(--foreground)" }}>
-                {bookmark.book_name} {bookmark.chapter}:{bookmark.verse}
-              </span>
-            </div>
-            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" className="flex-shrink-0">
-              <path d="M1 1L6 6L1 11" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Link>
         )}
