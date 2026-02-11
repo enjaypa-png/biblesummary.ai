@@ -81,11 +81,43 @@ export default function BibleIndex({ books }: { books: Book[] }) {
   const newTestament = books.filter((b) => b.testament === "New");
   const allBooks = testament === "Old" ? oldTestament : newTestament;
 
+  // Parse search query for verse reference navigation (e.g., "Genesis 1:3", "Gen 1", "1 John 3:16")
+  const parsedReference = useMemo(() => {
+    const q = searchQuery.trim();
+    if (!q) return null;
+
+    // Match patterns like "Genesis 1:3", "Gen 1", "1 John 3:16", "Song of Solomon 2:1"
+    // The book name can start with a number (1 Kings, 2 Chronicles) and contain spaces
+    // We look for a trailing number pattern: chapter or chapter:verse
+    const match = q.match(/^(.+?)\s+(\d+)(?::(\d+))?$/);
+    if (!match) return null;
+
+    const bookQuery = match[1].toLowerCase().trim();
+    const chapter = parseInt(match[2], 10);
+    const verse = match[3] ? parseInt(match[3], 10) : null;
+
+    // Find matching book across ALL books (not just current testament)
+    const matchedBook = books.find((b) => {
+      const name = b.name.toLowerCase();
+      // Exact match
+      if (name === bookQuery) return true;
+      // Starts-with match (e.g., "gen" matches "genesis")
+      if (name.startsWith(bookQuery)) return true;
+      return false;
+    });
+
+    if (!matchedBook) return null;
+    if (chapter < 1 || chapter > matchedBook.total_chapters) return null;
+
+    return { book: matchedBook, chapter, verse };
+  }, [searchQuery, books]);
+
   // Filter books by search
   const displayedBooks = useMemo(() => {
     if (!searchQuery.trim()) return allBooks;
     const q = searchQuery.toLowerCase().trim();
-    return allBooks.filter((b) => b.name.toLowerCase().includes(q));
+    // If we have a parsed reference, also strip the chapter:verse part to filter books
+    return allBooks.filter((b) => b.name.toLowerCase().includes(q) || b.name.toLowerCase().startsWith(q.split(/\s+\d/)[0]));
   }, [allBooks, searchQuery]);
 
   // Generate chapter numbers for selected book
@@ -141,6 +173,17 @@ export default function BibleIndex({ books }: { books: Book[] }) {
   function handleVerseSelect(verse: number) {
     if (!selectedBook || !selectedChapter) return;
     router.push(`/bible/${selectedBook.slug}/${selectedChapter}?verse=${verse}`);
+  }
+
+  // Handle navigating to a parsed reference from search
+  function handleGoToReference() {
+    if (!parsedReference) return;
+    const { book, chapter, verse } = parsedReference;
+    const url = verse
+      ? `/bible/${book.slug}/${chapter}?verse=${verse}`
+      : `/bible/${book.slug}/${chapter}`;
+    setSearchQuery("");
+    router.push(url);
   }
 
   // Handle back navigation
@@ -353,7 +396,12 @@ export default function BibleIndex({ books }: { books: Book[] }) {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search books..."
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" && parsedReference) {
+                      handleGoToReference();
+                    }
+                  }}
+                  placeholder="Search books or type a reference..."
                   className="flex-1 bg-transparent text-[15px] outline-none"
                   style={{ color: "var(--foreground)" }}
                 />
@@ -370,6 +418,32 @@ export default function BibleIndex({ books }: { books: Book[] }) {
                 )}
               </div>
             </div>
+
+            {/* Go to reference card */}
+            {parsedReference && (
+              <button
+                onClick={handleGoToReference}
+                className="w-full flex items-center gap-3.5 mb-4 p-4 rounded-xl active:opacity-80 transition-opacity"
+                style={{ backgroundColor: "var(--accent)" }}
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                </svg>
+                <div className="flex-1 min-w-0 text-left">
+                  <span className="block text-[11px] uppercase tracking-wider font-medium text-white/70">
+                    Go to
+                  </span>
+                  <span className="block text-[16px] font-semibold text-white truncate">
+                    {parsedReference.book.name} {parsedReference.chapter}
+                    {parsedReference.verse ? `:${parsedReference.verse}` : ""}
+                  </span>
+                </div>
+                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" className="flex-shrink-0">
+                  <path d="M1 1L6 6L1 11" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+            )}
 
             {/* Testament toggle */}
             <div className="flex gap-0 mb-4">
