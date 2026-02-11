@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { getCurrentUser } from "@/lib/supabase";
 
-const PUBLIC_PATHS = ["/login", "/signup", "/onboarding"];
+const PUBLIC_PATHS = ["/login", "/signup", "/onboarding", "/terms", "/privacy", "/refunds", "/pricing"];
 
 /**
  * Auth gate: unauthenticated users go to login only.
@@ -16,7 +16,7 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
   const [checked, setChecked] = useState(false);
   const [authed, setAuthed] = useState(false);
 
-  const isPublic = PUBLIC_PATHS.some((p) => pathname.startsWith(p));
+  const isPublic = pathname === "/" || PUBLIC_PATHS.some((p) => pathname.startsWith(p));
 
   useEffect(() => {
     if (isPublic) {

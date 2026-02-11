@@ -267,12 +267,45 @@ export default function MorePage() {
               Bible text and audio are always free. We offer optional AI-generated book summaries designed to help you retain what you read, understand the structure of each book, and return to Scripture with clarity instead of starting over.
             </p>
             <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
-              Summaries describe what each book contains without interpretation or theology, helping you stay oriented as you move forward.
+              BibleSummary.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains without interpretation.
             </p>
             <p className="text-[13px] font-medium" style={{ color: "var(--secondary)" }}>
               No ads. No opinions.
             </p>
           </div>
+        </section>
+
+        {/* Legal */}
+        <section className="mb-8">
+          <h2 className="text-xs font-semibold uppercase tracking-widest mb-2 px-1"
+            style={{ color: "var(--secondary)" }}>
+            Legal
+          </h2>
+          <div className="rounded-xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
+            {[
+              { href: "/pricing", label: "Pricing" },
+              { href: "/terms", label: "Terms of Service" },
+              { href: "/privacy", label: "Privacy Policy" },
+              { href: "/refunds", label: "Refund Policy" },
+            ].map((item, i, arr) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="flex items-center justify-between px-4 py-3 transition-colors active:bg-black/5 dark:active:bg-white/5"
+                style={{ borderBottom: i < arr.length - 1 ? "0.5px solid var(--border)" : "none" }}
+              >
+                <span className="font-medium text-[15px]" style={{ color: "var(--foreground)" }}>
+                  {item.label}
+                </span>
+                <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
+                  <path d="M1 1L5 5L1 9" stroke="var(--border)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </Link>
+            ))}
+          </div>
+          <p className="text-[12px] mt-2 px-1" style={{ color: "var(--secondary)" }}>
+            Contact: support@biblesummary.ai
+          </p>
         </section>
       </main>
     </div>
