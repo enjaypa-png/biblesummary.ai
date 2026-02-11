@@ -36,24 +36,32 @@ export async function POST(req: NextRequest) {
       req.headers.get("x-real-ip") ||
       "unknown";
 
-    // Check rate limit first
-    const { data: withinLimit } = await supabase.rpc("check_summary_rate_limit", {
-      p_user_id: user.id,
-    });
-
-    if (withinLimit !== true) {
-      return NextResponse.json({
-        allowed: false,
-        error: "Daily summary view limit reached. Please try again tomorrow.",
+    // Check rate limit first (fail open if function doesn't exist yet)
+    try {
+      const { data: withinLimit, error: rpcError } = await supabase.rpc("check_summary_rate_limit", {
+        p_user_id: user.id,
       });
+
+      if (!rpcError && withinLimit === false) {
+        return NextResponse.json({
+          allowed: false,
+          error: "Daily summary view limit reached. Please try again tomorrow.",
+        });
+      }
+    } catch {
+      // RPC function may not exist yet — allow access
     }
 
-    // Record the view
-    await supabase.from("summary_access_log").insert({
-      user_id: user.id,
-      book_id: bookId || null,
-      ip_address: ip,
-    });
+    // Record the view (table may not exist yet — ignore errors)
+    try {
+      await supabase.from("summary_access_log").insert({
+        user_id: user.id,
+        book_id: bookId || null,
+        ip_address: ip,
+      });
+    } catch {
+      // Table may not exist yet
+    }
 
     return NextResponse.json({ allowed: true });
   } catch (error) {

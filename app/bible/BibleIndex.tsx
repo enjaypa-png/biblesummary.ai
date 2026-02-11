@@ -67,7 +67,9 @@ export default function BibleIndex({ books }: { books: Book[] }) {
           .from("bookmarks")
           .select("book_name, book_slug, chapter, verse")
           .eq("user_id", user.id)
-          .single();
+          .order("created_at", { ascending: false })
+          .limit(1)
+          .maybeSingle();
         if (data) setBookmark(data);
       }
     }
