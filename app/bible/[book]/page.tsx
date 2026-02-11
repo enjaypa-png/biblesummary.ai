@@ -72,7 +72,7 @@ export default async function BookChaptersPage({ params }: PageProps) {
             </svg>
             Books
           </Link>
-          <h1 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>
+          <h1 className="text-[19px] font-semibold" style={{ color: "var(--foreground)" }}>
             {book.name}
           </h1>
           <span className="text-sm w-[44px]" style={{ color: "var(--secondary)", textAlign: "right" }}>
@@ -98,7 +98,7 @@ export default async function BookChaptersPage({ params }: PageProps) {
               key={ch}
               href={`/bible/${book.slug}/${ch}`}
               title={`Read ${book.name} chapter ${ch}`}
-              className="aspect-square rounded-xl flex items-center justify-center text-[15px] font-medium transition-all active:scale-95"
+              className="aspect-square rounded-xl flex items-center justify-center text-[17px] font-semibold transition-all active:scale-95"
               style={{
                 backgroundColor: "var(--card)",
                 color: "var(--foreground)",
