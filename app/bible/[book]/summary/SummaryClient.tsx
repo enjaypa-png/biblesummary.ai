@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
 import SummaryPaywall from "@/components/SummaryPaywall";
@@ -102,6 +103,7 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const { settings, openPanel } = useReadingSettings();
   const theme = themeStyles[settings.themeMode];
+  const searchParams = useSearchParams();
 
   const getFontStack = (fontFamily: string) => {
     switch (fontFamily) {
@@ -129,6 +131,26 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
       }
       setIsLoggedIn(true);
 
+      // If returning from Stripe checkout, verify the purchase first
+      const sessionId = searchParams.get("session_id");
+      if (searchParams.get("checkout") === "success" && sessionId) {
+        try {
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session?.access_token) {
+            await fetch("/api/verify-purchase", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${session.access_token}`,
+              },
+              body: JSON.stringify({ sessionId }),
+            });
+          }
+        } catch {
+          // Verification failed — fall through to normal access check
+        }
+      }
+
       const { data, error } = await supabase.rpc("user_has_summary_access", {
         p_user_id: user.id,
         p_book_id: bookId,
@@ -143,7 +165,7 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
     }
 
     checkAccess();
-  }, [bookId]);
+  }, [bookId, searchParams]);
 
   // Loading state
   if (hasAccess === null) {

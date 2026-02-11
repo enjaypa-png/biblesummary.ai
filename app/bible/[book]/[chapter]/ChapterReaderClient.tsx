@@ -207,6 +207,27 @@ export default function ChapterReaderClient({
     async function recheckAccess() {
       const currentUser = await getCurrentUser();
       if (!currentUser) return;
+
+      // If returning from Stripe checkout, verify the purchase first
+      const sessionId = searchParams.get("session_id");
+      if (searchParams.get("checkout") === "success" && sessionId) {
+        try {
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session?.access_token) {
+            await fetch("/api/verify-purchase", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${session.access_token}`,
+              },
+              body: JSON.stringify({ sessionId }),
+            });
+          }
+        } catch {
+          // Verification failed — fall through to normal access check
+        }
+      }
+
       const { data: explainAccess } = await supabase.rpc("user_has_explain_access", {
         p_user_id: currentUser.id,
       });
