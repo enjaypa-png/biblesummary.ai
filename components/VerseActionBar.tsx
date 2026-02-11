@@ -4,9 +4,6 @@ interface VerseActionBarProps {
   onExplain: () => void;
   onNote: () => void;
   onShare: () => void;
-  onBookmark?: () => void;
-  isBookmarked?: boolean;
-  onBookSummary?: () => void;
   onClose: () => void;
 }
 
@@ -18,7 +15,7 @@ interface ActionItem {
   disabled?: boolean;
 }
 
-export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark, isBookmarked, onBookSummary, onClose }: VerseActionBarProps) {
+export default function VerseActionBar({ onExplain, onNote, onShare, onClose }: VerseActionBarProps) {
 
   const svg = {
     width: 14,
@@ -78,31 +75,6 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark,
       ),
       disabled: true,
     },
-    {
-      key: "bookmark",
-      label: isBookmarked ? "Saved" : "Bookmark",
-      icon: (
-        <svg {...svg} fill={isBookmarked ? "currentColor" : "none"}>
-          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-        </svg>
-      ),
-      onClick: onBookmark,
-      disabled: !onBookmark,
-    },
-    {
-      key: "book-summary",
-      label: "Book Summary",
-      icon: (
-        <svg {...svg}>
-          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-          <polyline points="14 2 14 8 20 8" />
-          <line x1="16" y1="13" x2="8" y2="13" />
-          <line x1="16" y1="17" x2="8" y2="17" />
-        </svg>
-      ),
-      onClick: onBookSummary,
-      disabled: !onBookSummary,
-    },
   ];
 
   return (
@@ -114,7 +86,7 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onBookmark,
           borderRadius: "9999px",
         }}
       >
-        {actions.map((action, i) => (
+        {actions.map((action) => (
           <button
             key={action.key}
             onClick={action.disabled ? undefined : action.onClick}

@@ -7,7 +7,6 @@ import { supabase, getCurrentUser } from "@/lib/supabase";
 import { useAudioPlayer } from "@/contexts/AudioPlayerContext";
 import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
 import { useExplanationCache, getVerseId } from "@/lib/verseStore";
-import InlineAudioPlayer from "@/components/InlineAudioPlayer";
 import VerseActionBar from "@/components/VerseActionBar";
 import ExplainPaywall from "@/components/ExplainPaywall";
 
@@ -103,6 +102,11 @@ export default function ChapterReaderClient({
     setSelection,
     currentlyPlayingVerse,
     currentTrackId,
+    audioState,
+    play: audioPlay,
+    pause: audioPause,
+    resume: audioResume,
+    stop: audioStop,
   } = useAudioPlayer();
 
   const chapters = Array.from({ length: totalChapters }, (_, i) => i + 1);
@@ -313,11 +317,6 @@ export default function ChapterReaderClient({
     setExplanation(null);
   }
 
-  function handleBookSummary() {
-    handleCloseActions();
-    router.push(`/summaries/${bookSlug}`);
-  }
-
   async function handleShare(verseNum: number, verseText: string) {
     const shareText = `"${verseText}" — ${bookName} ${chapter}:${verseNum} (KJV)\nBibleSummary.ai`;
 
@@ -433,46 +432,66 @@ export default function ChapterReaderClient({
     setNoteText("");
   }
 
-  async function handleBookmark(verseNum: number) {
-    if (!user) return;
+  // Audio: page-scoped play/pause toggle for header
+  const thisTrackPlaying = isThisTrackActive && audioState === "playing";
+  const thisTrackPaused = isThisTrackActive && audioState === "paused";
+  const thisTrackLoading = isThisTrackActive && audioState === "loading";
 
-    // Toggle: if this verse is already bookmarked, remove the bookmark
-    if (bookmarkedVerse === verseNum) {
-      await supabase
-        .from("bookmarks")
-        .delete()
-        .eq("user_id", user.id);
-      setBookmarkedVerse(null);
-      handleCloseActions();
+  function handleHeaderAudioToggle() {
+    if (thisTrackLoading) return;
+    if (thisTrackPlaying) {
+      audioPause();
       return;
     }
-
-    const { data: existing } = await supabase
-      .from("bookmarks")
-      .select("id")
-      .eq("user_id", user.id)
-      .single();
-
-    if (existing) {
-      await supabase.from("bookmarks").update({
-        book_id: bookId,
-        book_slug: bookSlug,
-        book_name: bookName,
-        chapter,
-        verse: verseNum,
-      }).eq("id", existing.id);
-    } else {
-      await supabase.from("bookmarks").insert({
-        user_id: user.id,
-        book_id: bookId,
-        book_slug: bookSlug,
-        book_name: bookName,
-        chapter,
-        verse: verseNum,
-      });
+    if (thisTrackPaused) {
+      audioResume();
+      return;
     }
-    setBookmarkedVerse(verseNum);
-    handleCloseActions();
+    // Start fresh playback for this chapter
+    const book = books.find((b) => b.slug === bookSlug);
+    if (book) {
+      audioPlay(book, chapter);
+    }
+  }
+
+  // Stop audio when navigating away from this page
+  useEffect(() => {
+    return () => {
+      audioStop();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [bookSlug, chapter]);
+
+  // Header bookmark: toggle bookmark on verse 1 of this chapter
+  async function handleHeaderBookmark() {
+    if (!user) return;
+    if (bookmarkedVerse !== null) {
+      // Remove bookmark
+      await supabase.from("bookmarks").delete().eq("user_id", user.id);
+      setBookmarkedVerse(null);
+    } else {
+      // Create/update bookmark at verse 1
+      const { data: existing } = await supabase
+        .from("bookmarks")
+        .select("id")
+        .eq("user_id", user.id)
+        .single();
+
+      const bmData = {
+        book_id: bookId,
+        book_slug: bookSlug,
+        book_name: bookName,
+        chapter,
+        verse: 1,
+      };
+
+      if (existing) {
+        await supabase.from("bookmarks").update(bmData).eq("id", existing.id);
+      } else {
+        await supabase.from("bookmarks").insert({ user_id: user.id, ...bmData });
+      }
+      setBookmarkedVerse(1);
+    }
   }
 
   // Highlight color based on theme
@@ -525,8 +544,47 @@ export default function ChapterReaderClient({
             </svg>
           </button>
 
-          {/* Right: Typography settings icon */}
-          <div className="flex items-center gap-2 min-w-[60px] justify-end">
+          {/* Right: Audio + Bookmark + Aa */}
+          <div className="flex items-center gap-1 min-w-[100px] justify-end">
+            {/* Audio play/pause */}
+            <button
+              onClick={handleHeaderAudioToggle}
+              disabled={thisTrackLoading}
+              title={thisTrackPlaying ? "Pause audio" : "Play audio"}
+              className="w-9 h-9 flex items-center justify-center rounded-full active:opacity-70 transition-opacity"
+              aria-label={thisTrackPlaying ? "Pause" : "Play"}
+              style={{ backgroundColor: thisTrackPlaying || thisTrackPaused ? "var(--accent)" : theme.card }}
+            >
+              {thisTrackLoading ? (
+                <svg width="16" height="16" viewBox="0 0 24 24" className="animate-spin">
+                  <circle cx="12" cy="12" r="10" stroke={theme.secondary} strokeWidth="2" fill="none" strokeDasharray="60" strokeDashoffset="20" strokeLinecap="round" />
+                </svg>
+              ) : thisTrackPlaying ? (
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
+                  <rect x="6" y="4" width="4" height="16" rx="1" />
+                  <rect x="14" y="4" width="4" height="16" rx="1" />
+                </svg>
+              ) : (
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={thisTrackPaused ? "white" : theme.secondary} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+                </svg>
+              )}
+            </button>
+
+            {/* Bookmark */}
+            <button
+              onClick={handleHeaderBookmark}
+              title={bookmarkedVerse !== null ? "Remove bookmark" : "Bookmark this chapter"}
+              className="w-9 h-9 flex items-center justify-center rounded-full active:opacity-70 transition-opacity"
+              aria-label={bookmarkedVerse !== null ? "Remove bookmark" : "Bookmark"}
+              style={{ backgroundColor: theme.card }}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill={bookmarkedVerse !== null ? "var(--accent)" : "none"} stroke={bookmarkedVerse !== null ? "var(--accent)" : theme.secondary} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+              </svg>
+            </button>
+
+            {/* Aa settings */}
             <button
               onClick={openPanel}
               title="Reading settings"
@@ -607,15 +665,6 @@ export default function ChapterReaderClient({
           </div>
         </div>
 
-        {/* Inline Audio Player */}
-        <div className="mb-8">
-          <InlineAudioPlayer
-            bookSlug={bookSlug}
-            chapter={chapter}
-            totalVerses={verses.length}
-          />
-        </div>
-
         <div
           className="bible-text leading-relaxed transition-all duration-300"
           style={{
@@ -686,27 +735,6 @@ export default function ChapterReaderClient({
                 )}
                 {" "}
 
-                {/* Bookmark indicator */}
-                {bookmarkedVerse === verse.verse && !isActive && (
-                  <span
-                    className="inline-flex items-center gap-1.5 ml-2 cursor-pointer rounded-full px-3.5 py-1.5 align-middle active:opacity-70 transition-opacity"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleVerseTap(verse.verse, verse.text);
-                    }}
-                    style={{
-                      backgroundColor: "var(--accent)",
-                      fontFamily: "'Inter', sans-serif",
-                      verticalAlign: "middle",
-                    }}
-                    title="Your bookmark"
-                  >
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-                    </svg>
-                    <span className="text-[14px] font-bold text-white leading-none">Saved</span>
-                  </span>
-                )}
                 {" "}
 
                 {/* Unified action bar */}
@@ -715,9 +743,6 @@ export default function ChapterReaderClient({
                     onExplain={() => handleExplain(verse.verse)}
                     onNote={handleOpenNoteEditor}
                     onShare={() => handleShare(verse.verse, verse.text)}
-                    onBookmark={user ? () => handleBookmark(verse.verse) : undefined}
-                    isBookmarked={bookmarkedVerse === verse.verse}
-                    onBookSummary={handleBookSummary}
                     onClose={handleCloseActions}
                   />
                 )}
