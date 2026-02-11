@@ -140,12 +140,14 @@ export default function BibleIndex({ books }: { books: Book[] }) {
     setVerseCount(0);
     setActiveTab("chapters");
     setSearchQuery("");
+    window.scrollTo(0, 0);
   }
 
   // Handle chapter selection
   function handleChapterSelect(chapter: number) {
     setSelectedChapter(chapter);
     setActiveTab("verses");
+    window.scrollTo(0, 0);
   }
 
   // Handle verse selection - navigate to scripture
@@ -175,6 +177,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
       setActiveTab("books");
       setSelectedBook(null);
     }
+    window.scrollTo(0, 0);
   }
 
   // Handle tab clicks — navigate to the tab, resetting deeper state if needed
@@ -184,15 +187,18 @@ export default function BibleIndex({ books }: { books: Book[] }) {
       setSelectedBook(null);
       setSelectedChapter(null);
       setVerseCount(0);
+      window.scrollTo(0, 0);
     } else if (tab === "chapters") {
       if (selectedBook) {
         setActiveTab("chapters");
         setSelectedChapter(null);
         setVerseCount(0);
+        window.scrollTo(0, 0);
       }
     } else if (tab === "verses") {
       if (selectedBook && selectedChapter) {
         setActiveTab("verses");
+        window.scrollTo(0, 0);
       }
     }
   }
