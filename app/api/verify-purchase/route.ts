@@ -87,9 +87,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ verified: true, product: "summary_single", bookId });
     }
 
-    // Handle subscription purchase (summary_annual or explain_monthly)
+    // Handle subscription purchase (summary_annual, explain_monthly, or premium_yearly)
     if (
-      (productType === "summary_annual" || productType === "explain_monthly") &&
+      (productType === "summary_annual" || productType === "explain_monthly" || productType === "premium_yearly") &&
       session.subscription
     ) {
       const subscriptionId =

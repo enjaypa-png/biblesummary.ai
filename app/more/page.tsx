@@ -91,6 +91,7 @@ export default function MorePage() {
     switch (type) {
       case "explain_monthly": return "Verse Explain";
       case "summary_annual": return "Summary Pass";
+      case "premium_yearly": return "Premium";
       default: return type;
     }
   }
@@ -99,6 +100,7 @@ export default function MorePage() {
     switch (type) {
       case "explain_monthly": return "$4.99/mo";
       case "summary_annual": return "$14.99/yr";
+      case "premium_yearly": return "$59/yr";
       default: return "";
     }
   }
