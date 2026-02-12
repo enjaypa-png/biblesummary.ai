@@ -9,7 +9,7 @@ import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsConte
 import { useExplanationCache, getVerseId } from "@/lib/verseStore";
 import VerseActionBar from "@/components/VerseActionBar";
 import ExplainPaywall from "@/components/ExplainPaywall";
-import { HIGHLIGHT_COLORS, getHighlightBg, getBookIndex } from "@/lib/highlightColors";
+import { HIGHLIGHT_COLORS, getHighlightBg } from "@/lib/highlightColors";
 
 interface Verse {
   id: string;
@@ -203,13 +203,11 @@ export default function ChapterReaderClient({
         }
 
         // Load highlights for this chapter
-        const hlBookId = getBookIndex(bookSlug);
-        console.log("HIGHLIGHT LOAD:", { book_id: hlBookId, bookSlug, chapter });
         const { data: hlData, error: hlError } = await supabase
           .from("highlights")
           .select("verse, color")
           .eq("user_id", currentUser.id)
-          .eq("book_id", hlBookId)
+          .eq("book_id", bookId)
           .eq("chapter", chapter);
         if (hlError) console.error("HIGHLIGHT LOAD ERROR:", hlError);
         console.log("HIGHLIGHT LOAD RESULT:", hlData);
@@ -475,22 +473,19 @@ export default function ChapterReaderClient({
     setHighlights(newMap);
     setShowColorPicker(false);
 
-    const hlBookId = getBookIndex(bookSlug);
-    console.log("HIGHLIGHT:", { action: existed ? "update" : "insert", user_id: user.id, book_id: hlBookId, chapter, verse: verseNum, color });
-
     if (existed) {
       const { error } = await supabase
         .from("highlights")
         .update({ color })
         .eq("user_id", user.id)
-        .eq("book_id", hlBookId)
+        .eq("book_id", bookId)
         .eq("chapter", chapter)
         .eq("verse", verseNum);
       if (error) console.error("HIGHLIGHT UPDATE ERROR:", error);
     } else {
       const { error } = await supabase.from("highlights").insert({
         user_id: user.id,
-        book_id: hlBookId,
+        book_id: bookId,
         chapter,
         verse: verseNum,
         color,
@@ -508,12 +503,11 @@ export default function ChapterReaderClient({
     setHighlights(newMap);
     setShowColorPicker(false);
 
-    const hlBookId = getBookIndex(bookSlug);
     const { error } = await supabase
       .from("highlights")
       .delete()
       .eq("user_id", user.id)
-      .eq("book_id", hlBookId)
+      .eq("book_id", bookId)
       .eq("chapter", chapter)
       .eq("verse", verseNum);
     if (error) console.error("HIGHLIGHT DELETE ERROR:", error);

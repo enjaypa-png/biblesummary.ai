@@ -3,11 +3,11 @@
 import Link from "next/link";
 import { useEffect, useState, useMemo } from "react";
 import { supabase, getCurrentUser } from "@/lib/supabase";
-import { HIGHLIGHT_COLORS, getBookByIndex } from "@/lib/highlightColors";
+import { HIGHLIGHT_COLORS } from "@/lib/highlightColors";
 
 interface HighlightRow {
   id: string;
-  book_id: number;
+  book_id: string;
   chapter: number;
   verse: number;
   color: string;
@@ -17,6 +17,7 @@ interface HighlightRow {
 interface Highlight extends HighlightRow {
   book_name: string;
   book_slug: string;
+  book_order: number;
   verse_text: string;
 }
 
@@ -36,33 +37,29 @@ export default function HighlightsPage() {
       const { data } = await supabase
         .from("highlights")
         .select("id, book_id, chapter, verse, color, created_at")
-        .eq("user_id", user.id)
-        .order("book_id", { ascending: true })
-        .order("chapter", { ascending: true })
-        .order("verse", { ascending: true });
+        .eq("user_id", user.id);
 
       if (data && data.length > 0) {
-        // Look up Supabase book UUIDs for verse text queries
+        // Look up book details (name, slug, order) from Supabase books table
         const uniqueBookIds = Array.from(new Set(data.map((h: HighlightRow) => h.book_id)));
-        const bookSlugs = uniqueBookIds.map((id) => getBookByIndex(id)?.slug).filter(Boolean);
-
         const { data: dbBooks } = await supabase
           .from("books")
-          .select("id, slug, order_index")
-          .in("slug", bookSlugs);
+          .select("id, name, slug, order_index")
+          .in("id", uniqueBookIds);
 
-        const slugToUuid = new Map(dbBooks?.map((b: { id: string; slug: string }) => [b.slug, b.id]) || []);
+        const bookMap = new Map(
+          dbBooks?.map((b: { id: string; name: string; slug: string; order_index: number }) => [
+            b.id,
+            { name: b.name, slug: b.slug, order: b.order_index },
+          ]) || []
+        );
 
-        // Fetch verse texts in parallel
+        // Fetch verse texts in parallel (book_id is already the UUID)
         const versePromises = data.map(async (h: HighlightRow) => {
-          const bookInfo = getBookByIndex(h.book_id);
-          if (!bookInfo) return { id: h.id, text: "" };
-          const dbBookId = slugToUuid.get(bookInfo.slug);
-          if (!dbBookId) return { id: h.id, text: "" };
           const { data: verseData } = await supabase
             .from("verses")
             .select("text")
-            .eq("book_id", dbBookId)
+            .eq("book_id", h.book_id)
             .eq("chapter", h.chapter)
             .eq("verse", h.verse)
             .single();
@@ -72,17 +69,25 @@ export default function HighlightsPage() {
         const verseTexts = await Promise.all(versePromises);
         const textMap = new Map(verseTexts.map((v) => [v.id, v.text]));
 
-        setHighlights(
-          data.map((h: HighlightRow) => {
-            const bookInfo = getBookByIndex(h.book_id);
-            return {
-              ...h,
-              book_name: bookInfo?.name || "Unknown",
-              book_slug: bookInfo?.slug || "",
-              verse_text: textMap.get(h.id) || "",
-            };
-          })
-        );
+        // Build enriched highlights and sort canonically
+        const enriched = data.map((h: HighlightRow) => {
+          const book = bookMap.get(h.book_id);
+          return {
+            ...h,
+            book_name: book?.name || "Unknown",
+            book_slug: book?.slug || "",
+            book_order: book?.order || 999,
+            verse_text: textMap.get(h.id) || "",
+          };
+        });
+
+        enriched.sort((a, b) => {
+          if (a.book_order !== b.book_order) return a.book_order - b.book_order;
+          if (a.chapter !== b.chapter) return a.chapter - b.chapter;
+          return a.verse - b.verse;
+        });
+
+        setHighlights(enriched);
       }
     }
     setLoading(false);
@@ -93,10 +98,10 @@ export default function HighlightsPage() {
     setHighlights(highlights.filter((h) => h.id !== id));
   }
 
-  // Group by book (already sorted canonically from query)
+  // Group by book (already sorted canonically)
   const grouped = useMemo(() => {
     const groups: { bookName: string; bookSlug: string; highlights: Highlight[] }[] = [];
-    let currentBookId = -1;
+    let currentBookId = "";
     let currentGroup: Highlight[] = [];
     let currentName = "";
     let currentSlug = "";
