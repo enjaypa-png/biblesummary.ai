@@ -6,6 +6,8 @@ interface VerseActionBarProps {
   onShare: () => void;
   onHighlight: () => void;
   onClose: () => void;
+  hasNote?: boolean;
+  hasHighlight?: boolean;
 }
 
 interface ActionItem {
@@ -16,7 +18,7 @@ interface ActionItem {
   disabled?: boolean;
 }
 
-export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight, onClose }: VerseActionBarProps) {
+export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight, onClose, hasNote, hasHighlight }: VerseActionBarProps) {
 
   const svg = {
     width: 14,
@@ -44,7 +46,7 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight
     },
     {
       key: "note",
-      label: "Note",
+      label: hasNote ? "Edit" : "Note",
       icon: (
         <svg {...svg}>
           <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
@@ -67,7 +69,7 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight
     },
     {
       key: "highlight",
-      label: "Highlight",
+      label: hasHighlight ? "Edit" : "Highlight",
       icon: (
         <svg {...svg}>
           <path d="m9 11-6 6v3h9l3-3" />
