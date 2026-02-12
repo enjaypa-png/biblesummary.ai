@@ -28,6 +28,17 @@ const tabs = [
     ),
   },
   {
+    href: "/highlights",
+    label: "Highlights",
+    tooltip: "Your verse highlights",
+    icon: (active: boolean) => (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[22px] h-[22px]">
+        <path strokeLinecap="round" strokeLinejoin="round" d="m9 11-6 6v3h9l3-3" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="m22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L14 4" />
+      </svg>
+    ),
+  },
+  {
     href: "/bookmarks",
     label: "Bookmarks",
     tooltip: "Your bookmarks",
