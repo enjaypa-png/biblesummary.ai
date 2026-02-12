@@ -84,7 +84,7 @@ export default function BookmarksPage() {
         className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
         style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}
       >
-        <div className="max-w-lg mx-auto flex items-center justify-between">
+        <div className="max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto flex items-center justify-between">
           <Link
             href="/bible"
             className="flex items-center gap-1 text-[14px] font-medium"
@@ -114,7 +114,7 @@ export default function BookmarksPage() {
         </div>
       </header>
 
-      <main className="max-w-lg mx-auto pb-24">
+      <main className="max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto pb-24">
         {loading ? (
           <div className="flex items-center justify-center py-20">
             <div

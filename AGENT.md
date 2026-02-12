@@ -33,8 +33,8 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes
 
 ### Visual consistency
 
-- The accent color is `var(--accent)` (defined in `app/globals.css` as `#2563eb` light / `#3b82f6` dark). Use this for all accent UI -- buttons, active states, links, verse numbers.
-- There is no cream, brown, or gold color in the app. Do not introduce one.
+- The accent color is `var(--accent)` (defined in `app/globals.css` as `#7c5cfc` light / `#9b82fc` dark). Use this for all accent UI -- buttons, active states, links, verse numbers. Additional accent variables: `--accent-hover` (`#5b3fd4`), `--accent-light` (`#f0edff`), `--accent-border` (`#d9d0ff`).
+- The app uses warm neutrals: off-white background (`#faf9f7`), warm text (`#2a2520`), warm gray secondary (`#8a8580`), warm borders (`#e8e5e0`). Do not introduce harsh blacks or cool grays.
 - Verse numbers use the `.verse-number` CSS class. Their color comes from `var(--verse-num)` in globals.css. Do not override this with inline styles.
 - Theme support covers four modes: light, sepia, gray, dark. Changes must work across all four.
 
@@ -43,7 +43,7 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes
 ### Notes
 
 - Notes are stored per user in the `notes` table (Supabase, RLS enforced).
-- A user sees a blue "Note" pill indicator inline with any verse that has a note.
+- A user sees a purple "Note" pill indicator inline with any verse that has a note.
 - Tapping the indicator opens the note editor in verse context.
 - Notes can be created from the chapter reader and edited from both the chapter reader and the Notes list.
 - The Notes list supports expand-in-place editing and "Go to verse" navigation (see interaction model above).
@@ -69,7 +69,7 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes
 - One bookmark per user. Creating a new bookmark replaces the old one.
 - Bookmarks are manual and intentional — the user taps Bookmark in the action bar.
 - Tapping Bookmark on an already-bookmarked verse removes it (toggle behavior).
-- Bookmark indicator is a blue pill with icon + "Saved" text, matching the Note indicator style.
+- Bookmark indicator is a purple pill with icon + "Saved" text, matching the Note indicator style.
 - Bookmarks are stored in Supabase (`bookmarks` table, `UNIQUE(user_id)`).
 - The BibleIndex shows a "Your Bookmark" card separately from the automatic reading position.
 

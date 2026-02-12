@@ -5,23 +5,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;1,400&display=swap');
 
 :root {
-   /* Enhanced color system with better contrast for elderly users */
-   --background: #ffffff;
-   --background-blur: rgba(255, 255, 255, 0.95);
-   --foreground: #1a1a1a;
-   --foreground-secondary: #4a5568;
-   --foreground-high-contrast: #000000;
-   --accent: #2563eb;
-   --accent-hover: #1d4ed8;
+   /* Brand color system — purple accent, warm neutrals */
+   --background: #faf9f7;
+   --background-blur: rgba(250, 249, 247, 0.95);
+   --foreground: #2a2520;
+   --foreground-secondary: #8a8580;
+   --foreground-high-contrast: #1a1510;
+   --accent: #7c5cfc;
+   --accent-hover: #5b3fd4;
+   --accent-light: #f0edff;
+   --accent-border: #d9d0ff;
    --text-on-accent: #ffffff;
-   --border: #e2e8f0;
-   --card: #f8fafc;
-   --card-hover: #f1f5f9;
+   --border: #e8e5e0;
+   --card: #ffffff;
+   --card-hover: #f8f7f5;
    --tab-bar: #ffffff;
-   --verse-num: #2563eb;
-   --success: #059669;
+   --verse-num: #7c5cfc;
+   --success: #22a867;
    --warning: #d97706;
    --error: #dc2626;
+   --secondary: #8a8580;
+   --muted: #b0a89e;
    
    /* Enhanced typography scale for better readability */
    --text-xs: 12px;
@@ -54,18 +58,22 @@
 /* Dark mode with enhanced contrast */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
-    --foreground: #ffffff;
-    --foreground-secondary: #a3a3a3;
+    --background: #1a1a1a;
+    --foreground: #e5e5e5;
+    --foreground-secondary: #9ca3af;
     --foreground-high-contrast: #ffffff;
-    --accent: #3b82f6;
-    --accent-hover: #2563eb;
+    --accent: #9b82fc;
+    --accent-hover: #7c5cfc;
+    --accent-light: rgba(124, 92, 252, 0.15);
+    --accent-border: rgba(124, 92, 252, 0.3);
     --text-on-accent: #ffffff;
-    --border: #374151;
-    --card: #111827;
-    --card-hover: #1f2937;
-    --tab-bar: #000000;
-    --background-blur: rgba(0, 0, 0, 0.95);
+    --border: #333333;
+    --card: #262626;
+    --card-hover: #303030;
+    --tab-bar: #1a1a1a;
+    --background-blur: rgba(26, 26, 26, 0.95);
+    --secondary: #9ca3af;
+    --muted: #6b7280;
   }
 }
 

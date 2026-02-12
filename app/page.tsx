@@ -1,230 +1,759 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 
-export const metadata = {
-  title: "BibleSummary.ai - Read & Understand the Bible",
-  description:
-    "A modern Bible reading app with AI-generated book summaries. Read, listen, and retain. King James Version Bible text and audio are always free.",
-};
+const FEATURES_FREE = [
+  { icon: "📖", name: "Full King James Bible", desc: "Every book, chapter, and verse — completely free." },
+  { icon: "🎧", name: "Read or Listen", desc: "Switch between text and audio anytime." },
+  { icon: "🖍️", name: "Highlight", desc: "Mark meaningful passages as you read." },
+  { icon: "📝", name: "Notes", desc: "Write your thoughts directly inside the text." },
+  { icon: "🔖", name: "Bookmarks", desc: "Pick up exactly where you left off." },
+];
 
-export default function HomePage() {
+const FEATURES_PREMIUM = [
+  {
+    icon: "✨",
+    name: "Explain Any Verse",
+    desc: "Tap any verse and get an instant, plain-language explanation. No theological jargon — just clarity.",
+    highlight: true,
+  },
+  {
+    icon: "📋",
+    name: "Chapter Summaries",
+    desc: "AI-generated summaries after every chapter so you retain what you just read.",
+    highlight: true,
+  },
+];
+
+// Interactive demo component - this is the conversion engine
+function VerseDemo() {
+  const [showExplanation, setShowExplanation] = useState(false);
+  const [showSummary, setShowSummary] = useState(false);
+
   return (
-    <div className="min-h-screen flex flex-col" style={{ backgroundColor: "var(--background)" }}>
-
-      {/* ── 1. Announcement Bar ── */}
-      <div
-        className="w-full px-5 py-2.5"
-        style={{ backgroundColor: "var(--card)", borderBottom: "0.5px solid var(--border)" }}
-      >
-        <p
-          className="max-w-3xl mx-auto text-center text-[12px] leading-relaxed"
-          style={{ color: "var(--foreground-secondary)" }}
-        >
-          BibleSummary.ai is an educational Bible reading companion. Free Bible text and audio.
-          Optional AI-powered summaries.{" "}
-          <Link href="/pricing" className="underline" style={{ color: "var(--accent)" }}>Pricing</Link>
-          {" "}&middot;{" "}
-          <Link href="/terms" className="underline" style={{ color: "var(--accent)" }}>Terms</Link>
-          {" "}&middot;{" "}
-          <Link href="/privacy" className="underline" style={{ color: "var(--accent)" }}>Privacy</Link>
-          {" "}&middot;{" "}
-          <Link href="/refunds" className="underline" style={{ color: "var(--accent)" }}>Refunds</Link>
-          {" "}&middot;{" "}
-          support@biblesummary.ai
-        </p>
-      </div>
-
-      {/* ── 2. Hero Section ── */}
-      <section className="flex-1 flex flex-col items-center justify-center px-5 pt-16 pb-12">
-        <div className="max-w-xl mx-auto text-center">
-          <h1
-            className="font-bold tracking-tight mb-5"
-            style={{ color: "var(--foreground)", fontSize: "clamp(28px, 5vw, 42px)", lineHeight: 1.15 }}
-          >
-            Read the Bible.
-            <br />
-            Understand what you read.
-          </h1>
-
-          <p
-            className="text-[16px] leading-relaxed mb-10 max-w-md mx-auto"
-            style={{ color: "var(--foreground-secondary)" }}
-          >
-            BibleSummary.ai combines the full King James Bible with optional AI-generated summaries
-            designed to support clarity and retention.
-          </p>
-
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="/bible"
-              className="inline-flex items-center justify-center px-8 py-3.5 rounded-xl text-[16px] font-semibold transition-all active:scale-[0.97]"
-              style={{ backgroundColor: "var(--accent)", color: "white", boxShadow: "0 2px 12px rgba(37, 99, 235, 0.25)" }}
-            >
-              Start Reading
-            </Link>
-            <Link
-              href="/pricing"
-              className="inline-flex items-center justify-center text-[15px] font-medium transition-opacity hover:opacity-80"
-              style={{ color: "var(--accent)" }}
-            >
-              View Pricing &rarr;
-            </Link>
+    <div style={{ maxWidth: 620, margin: "0 auto", fontFamily: "'Source Serif 4', Georgia, serif" }}>
+      {/* Fake reader UI */}
+      <div style={{
+        background: "#fff",
+        borderRadius: 16,
+        boxShadow: "0 8px 40px rgba(30,40,80,0.10), 0 1.5px 4px rgba(30,40,80,0.06)",
+        overflow: "hidden",
+        border: "1px solid #e8e5e0",
+      }}>
+        {/* Top bar */}
+        <div style={{
+          background: "#f8f7f5",
+          padding: "12px 20px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          borderBottom: "1px solid #e8e5e0",
+          fontFamily: "'DM Sans', sans-serif",
+        }}>
+          <span style={{ fontSize: 13, color: "#8a8580", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>Genesis 1</span>
+          <div style={{ display: "flex", gap: 12 }}>
+            <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🔖</span>
+            <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🎧</span>
           </div>
         </div>
-      </section>
 
-      {/* ── 3. Value Section ── */}
-      <section className="px-5 pb-16">
-        <div className="max-w-2xl mx-auto">
-          <h2
-            className="text-center text-[13px] font-semibold uppercase tracking-[0.15em] mb-8"
-            style={{ color: "var(--foreground-secondary)" }}
-          >
-            What&apos;s Included
-          </h2>
+        {/* Verses */}
+        <div style={{ padding: "28px 24px 20px" }}>
+          <p style={{ fontSize: 17, lineHeight: 1.85, color: "#3a3530", margin: "0 0 16px" }}>
+            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>1</span>
+            In the beginning God created the heaven and the earth.
+          </p>
+          <p style={{ fontSize: 17, lineHeight: 1.85, color: "#3a3530", margin: "0 0 16px" }}>
+            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>2</span>
+            And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.
+          </p>
 
-          <div className="grid sm:grid-cols-2 gap-4">
-            {/* Free column */}
-            <div
-              className="rounded-xl p-6"
-              style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
-            >
-              <h3
-                className="text-[15px] font-semibold mb-4"
-                style={{ color: "var(--foreground)" }}
-              >
-                Free
-              </h3>
-              <ul className="space-y-3 text-[14px]" style={{ color: "var(--foreground)" }}>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0 mt-px">&#10003;</span>
-                  <span>Full King James Version</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0 mt-px">&#10003;</span>
-                  <span>Every book, chapter, and verse</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0 mt-px">&#10003;</span>
-                  <span>Audio playback</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0 mt-px">&#10003;</span>
-                  <span>Clean reading experience</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Premium column */}
-            <div
-              className="rounded-xl p-6"
+          {/* Interactive verse */}
+          <div style={{ position: "relative" }}>
+            <p
+              onClick={() => setShowExplanation(!showExplanation)}
               style={{
-                backgroundColor: "var(--card)",
-                border: "1.5px solid var(--accent)",
-                boxShadow: "0 2px 16px rgba(37, 99, 235, 0.08)",
+                fontSize: 17,
+                lineHeight: 1.85,
+                color: "#3a3530",
+                margin: 0,
+                padding: "8px 12px",
+                borderRadius: 10,
+                background: showExplanation ? "#f0edff" : "transparent",
+                cursor: "pointer",
+                transition: "background 0.25s ease",
+                border: showExplanation ? "1.5px solid #c4b8ff" : "1.5px solid transparent",
               }}
             >
-              <h3
-                className="text-[15px] font-semibold mb-4"
-                style={{ color: "var(--accent)" }}
-              >
-                Premium
-              </h3>
-              <ul className="space-y-3 text-[14px]" style={{ color: "var(--foreground)" }}>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0 mt-px">&#9733;</span>
-                  <span>AI-generated book summaries</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0 mt-px">&#9733;</span>
-                  <span>Plain-language verse explanations</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0 mt-px">&#9733;</span>
-                  <span>Personal notes</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0 mt-px">&#9733;</span>
-                  <span>Smart bookmarks</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0 mt-px">&#9733;</span>
-                  <span>Ad-free experience</span>
-                </li>
-              </ul>
-            </div>
+              <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>3</span>
+              And God said, Let there be light: and there was light.
+              {!showExplanation && (
+                <span style={{
+                  display: "inline-block",
+                  marginLeft: 8,
+                  fontSize: 11,
+                  fontFamily: "'DM Sans', sans-serif",
+                  fontWeight: 600,
+                  color: "#7c5cfc",
+                  background: "#f0edff",
+                  padding: "2px 10px",
+                  borderRadius: 20,
+                  cursor: "pointer",
+                  animation: "pulse-badge 2s ease-in-out infinite",
+                  verticalAlign: "middle",
+                }}>
+                  ← tap to explain
+                </span>
+              )}
+            </p>
+
+            {/* AI Explanation card */}
+            {showExplanation && (
+              <div style={{
+                marginTop: 12,
+                padding: "18px 20px",
+                background: "linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%)",
+                borderRadius: 12,
+                borderLeft: "3px solid #7c5cfc",
+                animation: "slideDown 0.35s ease",
+              }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
+                  <span style={{ fontSize: 14 }}>✨</span>
+                  <span style={{
+                    fontSize: 12,
+                    fontWeight: 700,
+                    color: "#7c5cfc",
+                    letterSpacing: 0.8,
+                    textTransform: "uppercase",
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}>
+                    Plain-Language Explanation
+                  </span>
+                </div>
+                <p style={{
+                  fontSize: 15,
+                  lineHeight: 1.75,
+                  color: "#4a4550",
+                  margin: 0,
+                  fontFamily: "'DM Sans', sans-serif",
+                }}>
+                  This verse describes God speaking light into existence. It is the first recorded act of creation through spoken word — God commands, and it happens. Light appears before the sun and moon are created (which happens on Day 4), marking it as a distinct creative act that separates the initial darkness described in verse 2.
+                </p>
+              </div>
+            )}
           </div>
         </div>
-      </section>
+      </div>
 
-      {/* ── 4. Clarity Section ── */}
-      <section className="px-5 pb-16">
-        <div className="max-w-lg mx-auto text-center">
-          <p
-            className="text-[13px] leading-relaxed"
-            style={{ color: "var(--foreground-secondary)" }}
-          >
-            BibleSummary.ai is an educational reading tool.
-            It does not provide spiritual counseling, religious advice, or interpretive theology.
-            Summaries describe what each book contains in plain language.
+      {/* Chapter summary preview */}
+      <div style={{ marginTop: 16, textAlign: "center" }}>
+        <button
+          onClick={() => setShowSummary(!showSummary)}
+          style={{
+            padding: "10px 24px",
+            fontSize: 14,
+            fontWeight: 600,
+            fontFamily: "'DM Sans', sans-serif",
+            background: showSummary ? "#7c5cfc" : "#fff",
+            color: showSummary ? "#fff" : "#7c5cfc",
+            border: "1.5px solid #7c5cfc",
+            borderRadius: 10,
+            cursor: "pointer",
+            transition: "all 0.2s ease",
+          }}
+        >
+          {showSummary ? "Hide Chapter Summary" : "📋 See Chapter Summary"}
+        </button>
+      </div>
+
+      {showSummary && (
+        <div style={{
+          marginTop: 16,
+          padding: "22px 24px",
+          background: "linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%)",
+          borderRadius: 14,
+          border: "1.5px solid #d9d0ff",
+          animation: "slideDown 0.35s ease",
+        }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 12 }}>
+            <span style={{ fontSize: 14 }}>📋</span>
+            <span style={{
+              fontSize: 12,
+              fontWeight: 700,
+              color: "#7c5cfc",
+              letterSpacing: 0.8,
+              textTransform: "uppercase",
+              fontFamily: "'DM Sans', sans-serif",
+            }}>
+              Chapter Summary — Genesis 1
+            </span>
+          </div>
+          <p style={{
+            fontSize: 15,
+            lineHeight: 1.75,
+            color: "#4a4550",
+            margin: 0,
+            fontFamily: "'DM Sans', sans-serif",
+          }}>
+            Genesis 1 describes the creation of the world over six days. God creates light, separates the sky from the waters, forms dry land and vegetation, places the sun, moon, and stars, fills the seas and sky with living creatures, and finally creates humans — male and female — in His image. God gives humans authority over all living things. After each act of creation, God sees that it is good. On the seventh day, He rests.
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function FeatureCard({ icon, name, desc, highlight, delay }: { icon: string; name: string; desc: string; highlight?: boolean; delay: number }) {
+  return (
+    <div style={{
+      background: highlight ? "linear-gradient(135deg, #faf9ff 0%, #f3f0ff 100%)" : "#fff",
+      border: highlight ? "1.5px solid #d9d0ff" : "1px solid #e8e5e0",
+      borderRadius: 14,
+      padding: "24px 22px",
+      transition: "transform 0.25s ease, box-shadow 0.25s ease",
+      cursor: "default",
+      animation: `fadeUp 0.6s ease ${delay}s both`,
+      position: "relative",
+      overflow: "hidden",
+    }}
+    onMouseEnter={e => {
+      e.currentTarget.style.transform = "translateY(-4px)";
+      e.currentTarget.style.boxShadow = "0 12px 32px rgba(30,40,80,0.10)";
+    }}
+    onMouseLeave={e => {
+      e.currentTarget.style.transform = "translateY(0)";
+      e.currentTarget.style.boxShadow = "none";
+    }}
+    >
+      {highlight && (
+        <div style={{
+          position: "absolute",
+          top: 12,
+          right: 12,
+          fontSize: 10,
+          fontWeight: 700,
+          color: "#7c5cfc",
+          background: "#ede8ff",
+          padding: "3px 10px",
+          borderRadius: 20,
+          fontFamily: "'DM Sans', sans-serif",
+          letterSpacing: 0.5,
+          textTransform: "uppercase",
+        }}>
+          Premium
+        </div>
+      )}
+      <div style={{ fontSize: 28, marginBottom: 14 }}>{icon}</div>
+      <h3 style={{
+        fontFamily: "'DM Sans', sans-serif",
+        fontSize: 17,
+        fontWeight: 700,
+        color: "#2a2520",
+        margin: "0 0 8px",
+      }}>{name}</h3>
+      <p style={{
+        fontFamily: "'DM Sans', sans-serif",
+        fontSize: 14,
+        lineHeight: 1.65,
+        color: "#7a756e",
+        margin: 0,
+      }}>{desc}</p>
+    </div>
+  );
+}
+
+function StatBlock({ number, label }: { number: string; label: string }) {
+  return (
+    <div style={{ textAlign: "center", flex: 1 }}>
+      <div style={{
+        fontFamily: "'Source Serif 4', Georgia, serif",
+        fontSize: 42,
+        fontWeight: 700,
+        color: "#2a2520",
+        lineHeight: 1.1,
+      }}>{number}</div>
+      <div style={{
+        fontFamily: "'DM Sans', sans-serif",
+        fontSize: 14,
+        color: "#8a8580",
+        marginTop: 6,
+        fontWeight: 500,
+      }}>{label}</div>
+    </div>
+  );
+}
+
+function StepCard({ number, title, desc }: { number: string; title: string; desc: string }) {
+  return (
+    <div style={{ textAlign: "center", flex: 1, padding: "0 16px" }}>
+      <div style={{
+        width: 48,
+        height: 48,
+        borderRadius: "50%",
+        background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+        color: "#fff",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontSize: 20,
+        fontWeight: 700,
+        fontFamily: "'DM Sans', sans-serif",
+        margin: "0 auto 16px",
+      }}>{number}</div>
+      <h3 style={{
+        fontFamily: "'DM Sans', sans-serif",
+        fontSize: 17,
+        fontWeight: 700,
+        color: "#2a2520",
+        margin: "0 0 8px",
+      }}>{title}</h3>
+      <p style={{
+        fontFamily: "'DM Sans', sans-serif",
+        fontSize: 14,
+        color: "#8a8580",
+        margin: 0,
+        lineHeight: 1.6,
+      }}>{desc}</p>
+    </div>
+  );
+}
+
+export default function BibleSummaryLanding() {
+  return (
+    <div style={{
+      fontFamily: "'DM Sans', sans-serif",
+      color: "#2a2520",
+      background: "#faf9f7",
+      minHeight: "100vh",
+      overflowX: "hidden",
+    }}>
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap');
+
+        @keyframes fadeUp {
+          from { opacity: 0; transform: translateY(24px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideDown {
+          from { opacity: 0; transform: translateY(-8px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes pulse-badge {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.6; }
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-6px); }
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+      `}</style>
+
+      {/* ═══════════════════ HERO ═══════════════════ */}
+      <section style={{
+        position: "relative",
+        padding: "80px 24px 60px",
+        textAlign: "center",
+        background: "linear-gradient(180deg, #fff 0%, #faf9f7 100%)",
+        overflow: "hidden",
+      }}>
+        {/* Subtle decorative element */}
+        <div style={{
+          position: "absolute",
+          top: -120,
+          left: "50%",
+          transform: "translateX(-50%)",
+          width: 600,
+          height: 600,
+          borderRadius: "50%",
+          background: "radial-gradient(circle, rgba(124,92,252,0.04) 0%, transparent 70%)",
+          pointerEvents: "none",
+        }} />
+
+        <div style={{ position: "relative", zIndex: 1, maxWidth: 680, margin: "0 auto" }}>
+          <h1 style={{
+            fontFamily: "'Source Serif 4', Georgia, serif",
+            fontSize: "clamp(36px, 6vw, 56px)",
+            fontWeight: 700,
+            lineHeight: 1.15,
+            color: "#1a1510",
+            marginBottom: 20,
+            animation: "fadeUp 0.7s ease both",
+          }}>
+            Read the Bible.<br />
+            <span style={{ color: "#7c5cfc" }}>Understand</span> what you read.
+          </h1>
+
+          <p style={{
+            fontSize: 18,
+            lineHeight: 1.65,
+            color: "#6a655e",
+            maxWidth: 500,
+            margin: "0 auto 36px",
+            animation: "fadeUp 0.7s ease 0.15s both",
+          }}>
+            The full King James Bible with audio — plus AI-powered explanations that make every verse clear.
+          </p>
+
+          <div style={{
+            display: "flex",
+            gap: 16,
+            justifyContent: "center",
+            alignItems: "center",
+            flexWrap: "wrap",
+            animation: "fadeUp 0.7s ease 0.3s both",
+          }}>
+            <Link href="/signup" style={{
+              display: "inline-block",
+              padding: "15px 36px",
+              fontSize: 16,
+              fontWeight: 700,
+              color: "#fff",
+              background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+              borderRadius: 12,
+              textDecoration: "none",
+              transition: "transform 0.2s ease, box-shadow 0.2s ease",
+              boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
+            }}>
+              Start Reading — It&apos;s Free
+            </Link>
+            <Link href="/pricing" style={{
+              fontSize: 15,
+              fontWeight: 600,
+              color: "#7c5cfc",
+              textDecoration: "none",
+            }}>
+              View Pricing →
+            </Link>
+          </div>
+
+          <p style={{
+            fontSize: 13,
+            color: "#b0a89e",
+            marginTop: 16,
+            animation: "fadeUp 0.7s ease 0.4s both",
+          }}>
+            No credit card required · Free forever plan available
           </p>
         </div>
       </section>
 
-      {/* ── 5. CTA Section ── */}
-      <section
-        className="px-5 py-16"
-        style={{ backgroundColor: "var(--card)" }}
-      >
-        <div className="max-w-md mx-auto text-center">
-          <h2
-            className="text-[22px] font-bold mb-6"
-            style={{ color: "var(--foreground)" }}
-          >
-            Ready to read with clarity?
+      {/* ═══════════════════ INTERACTIVE DEMO ═══════════════════ */}
+      <section style={{
+        padding: "40px 24px 80px",
+        maxWidth: 800,
+        margin: "0 auto",
+      }}>
+        <div style={{ textAlign: "center", marginBottom: 36 }}>
+          <p style={{
+            fontSize: 12,
+            fontWeight: 700,
+            letterSpacing: 1.5,
+            textTransform: "uppercase",
+            color: "#7c5cfc",
+            marginBottom: 12,
+          }}>
+            Try it yourself
+          </p>
+          <h2 style={{
+            fontFamily: "'Source Serif 4', Georgia, serif",
+            fontSize: "clamp(26px, 4vw, 36px)",
+            fontWeight: 700,
+            color: "#1a1510",
+            marginBottom: 12,
+          }}>
+            See what reading with clarity looks like
           </h2>
-          <Link
-            href="/bible"
-            className="inline-flex items-center justify-center px-8 py-3.5 rounded-xl text-[16px] font-semibold transition-all active:scale-[0.97]"
-            style={{ backgroundColor: "var(--accent)", color: "white", boxShadow: "0 2px 12px rgba(37, 99, 235, 0.25)" }}
-          >
-            Start Reading
-          </Link>
-          <p className="mt-4 text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
-            Already have an account?{" "}
-            <Link href="/login" className="underline" style={{ color: "var(--accent)" }}>
-              Sign in
+          <p style={{
+            fontSize: 16,
+            color: "#8a8580",
+            maxWidth: 460,
+            margin: "0 auto",
+          }}>
+            Tap verse 3 below, then check out the chapter summary.
+          </p>
+        </div>
+
+        <VerseDemo />
+      </section>
+
+      {/* ═══════════════════ STATS ═══════════════════ */}
+      <section style={{
+        padding: "48px 24px",
+        background: "#fff",
+        borderTop: "1px solid #eee",
+        borderBottom: "1px solid #eee",
+      }}>
+        <div style={{
+          maxWidth: 700,
+          margin: "0 auto",
+          display: "flex",
+          justifyContent: "space-around",
+          flexWrap: "wrap",
+          gap: 32,
+        }}>
+          <StatBlock number="66" label="Books of the Bible" />
+          <StatBlock number="1,189" label="Chapters" />
+          <StatBlock number="31,102" label="Verses Explained" />
+        </div>
+      </section>
+
+      {/* ═══════════════════ FREE FEATURES ═══════════════════ */}
+      <section style={{
+        padding: "80px 24px",
+        maxWidth: 900,
+        margin: "0 auto",
+      }}>
+        <div style={{ textAlign: "center", marginBottom: 48 }}>
+          <p style={{
+            fontSize: 12,
+            fontWeight: 700,
+            letterSpacing: 1.5,
+            textTransform: "uppercase",
+            color: "#22a867",
+            marginBottom: 12,
+          }}>
+            Free forever
+          </p>
+          <h2 style={{
+            fontFamily: "'Source Serif 4', Georgia, serif",
+            fontSize: "clamp(26px, 4vw, 36px)",
+            fontWeight: 700,
+            color: "#1a1510",
+            marginBottom: 12,
+          }}>
+            Everything you need to read the Bible
+          </h2>
+          <p style={{
+            fontSize: 16,
+            color: "#8a8580",
+            maxWidth: 500,
+            margin: "0 auto",
+          }}>
+            No account required for basic reading. Sign up free to unlock notes, highlights, and bookmarks.
+          </p>
+        </div>
+
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+          gap: 16,
+        }}>
+          {FEATURES_FREE.map((f, i) => (
+            <FeatureCard key={f.name} {...f} delay={0.1 * i} />
+          ))}
+        </div>
+      </section>
+
+      {/* ═══════════════════ PREMIUM FEATURES ═══════════════════ */}
+      <section style={{
+        padding: "80px 24px",
+        background: "linear-gradient(180deg, #f5f2ff 0%, #faf9f7 100%)",
+      }}>
+        <div style={{ maxWidth: 900, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: 48 }}>
+            <p style={{
+              fontSize: 12,
+              fontWeight: 700,
+              letterSpacing: 1.5,
+              textTransform: "uppercase",
+              color: "#7c5cfc",
+              marginBottom: 12,
+            }}>
+              Go deeper
+            </p>
+            <h2 style={{
+              fontFamily: "'Source Serif 4', Georgia, serif",
+              fontSize: "clamp(26px, 4vw, 36px)",
+              fontWeight: 700,
+              color: "#1a1510",
+              marginBottom: 12,
+            }}>
+              Understand what you&apos;re reading — instantly
+            </h2>
+            <p style={{
+              fontSize: 16,
+              color: "#8a8580",
+              maxWidth: 520,
+              margin: "0 auto",
+            }}>
+              Premium adds AI-powered explanations and summaries that break down the Bible into clear, modern language. No theological jargon — just the meaning.
+            </p>
+          </div>
+
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gap: 20,
+            maxWidth: 640,
+            margin: "0 auto",
+          }}>
+            {FEATURES_PREMIUM.map((f, i) => (
+              <FeatureCard key={f.name} {...f} delay={0.1 * i} />
+            ))}
+          </div>
+
+          <div style={{ textAlign: "center", marginTop: 40 }}>
+            <Link href="/pricing" style={{
+              display: "inline-block",
+              padding: "14px 32px",
+              fontSize: 15,
+              fontWeight: 700,
+              color: "#fff",
+              background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+              borderRadius: 12,
+              textDecoration: "none",
+              boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
+              transition: "transform 0.2s ease",
+            }}>
+              Upgrade to Premium
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════ HOW IT WORKS ═══════════════════ */}
+      <section style={{
+        padding: "80px 24px",
+        maxWidth: 800,
+        margin: "0 auto",
+      }}>
+        <div style={{ textAlign: "center", marginBottom: 48 }}>
+          <p style={{
+            fontSize: 12,
+            fontWeight: 700,
+            letterSpacing: 1.5,
+            textTransform: "uppercase",
+            color: "#7c5cfc",
+            marginBottom: 12,
+          }}>
+            Simple as 1-2-3
+          </p>
+          <h2 style={{
+            fontFamily: "'Source Serif 4', Georgia, serif",
+            fontSize: "clamp(26px, 4vw, 36px)",
+            fontWeight: 700,
+            color: "#1a1510",
+          }}>
+            How it works
+          </h2>
+        </div>
+
+        <div style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: 8,
+          flexWrap: "wrap",
+        }}>
+          <StepCard number="1" title="Pick a Book" desc="Choose any of the 66 books of the Bible." />
+          <StepCard number="2" title="Read or Listen" desc="Full KJV text with audio playback for every chapter." />
+          <StepCard number="3" title="Go Deeper" desc="Tap any verse for a plain-language explanation." />
+        </div>
+      </section>
+
+      {/* ═══════════════════ TRUST / DISCLAIMER ═══════════════════ */}
+      <section style={{
+        padding: "48px 24px",
+        background: "#fff",
+        borderTop: "1px solid #eee",
+        borderBottom: "1px solid #eee",
+        textAlign: "center",
+      }}>
+        <div style={{ maxWidth: 600, margin: "0 auto" }}>
+          <p style={{
+            fontSize: 15,
+            lineHeight: 1.7,
+            color: "#8a8580",
+          }}>
+            BibleSummary.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains in plain language.
           </p>
         </div>
       </section>
 
-      {/* ── 6. Footer ── */}
-      <footer
-        className="w-full border-t px-5 py-8"
-        style={{ backgroundColor: "var(--background)", borderColor: "var(--border)" }}
-      >
-        <div className="max-w-2xl mx-auto">
-          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-[13px] mb-4">
-            <Link href="/pricing" style={{ color: "var(--foreground-secondary)" }} className="hover:underline">
-              Pricing
-            </Link>
-            <Link href="/terms" style={{ color: "var(--foreground-secondary)" }} className="hover:underline">
-              Terms of Service
-            </Link>
-            <Link href="/privacy" style={{ color: "var(--foreground-secondary)" }} className="hover:underline">
-              Privacy Policy
-            </Link>
-            <Link href="/refunds" style={{ color: "var(--foreground-secondary)" }} className="hover:underline">
-              Refund Policy
-            </Link>
-          </div>
-          <p className="text-center text-[12px]" style={{ color: "var(--foreground-secondary)" }}>
-            support@biblesummary.ai
-          </p>
-          <p className="text-center text-[12px] mt-1" style={{ color: "var(--foreground-secondary)", opacity: 0.7 }}>
-            &copy; 2026 BibleSummary.ai
-          </p>
+      {/* ═══════════════════ BOTTOM CTA ═══════════════════ */}
+      <section style={{
+        padding: "80px 24px",
+        textAlign: "center",
+        background: "linear-gradient(180deg, #faf9f7 0%, #f3f0ff 100%)",
+      }}>
+        <h2 style={{
+          fontFamily: "'Source Serif 4', Georgia, serif",
+          fontSize: "clamp(28px, 5vw, 42px)",
+          fontWeight: 700,
+          color: "#1a1510",
+          marginBottom: 12,
+        }}>
+          Ready to read with clarity?
+        </h2>
+        <p style={{
+          fontSize: 16,
+          color: "#8a8580",
+          marginBottom: 32,
+          maxWidth: 420,
+          margin: "0 auto 32px",
+        }}>
+          Start reading the full King James Bible today — completely free. Upgrade anytime.
+        </p>
+        <Link href="/signup" style={{
+          display: "inline-block",
+          padding: "16px 40px",
+          fontSize: 17,
+          fontWeight: 700,
+          color: "#fff",
+          background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+          borderRadius: 12,
+          textDecoration: "none",
+          boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
+          transition: "transform 0.2s ease, box-shadow 0.2s ease",
+        }}>
+          Start Reading — It&apos;s Free
+        </Link>
+        <div style={{ marginTop: 16 }}>
+          <Link href="/login" style={{
+            fontSize: 14,
+            color: "#8a8580",
+            textDecoration: "none",
+          }}>
+            Already have an account? <span style={{ color: "#7c5cfc", fontWeight: 600 }}>Sign in</span>
+          </Link>
         </div>
+      </section>
+
+      {/* ═══════════════════ FOOTER ═══════════════════ */}
+      <footer style={{
+        padding: "32px 24px",
+        textAlign: "center",
+        borderTop: "1px solid #eee",
+        background: "#fff",
+      }}>
+        <div style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: 24,
+          flexWrap: "wrap",
+          marginBottom: 16,
+        }}>
+          {[
+            { label: "Pricing", href: "/pricing" },
+            { label: "Terms of Service", href: "/terms" },
+            { label: "Privacy Policy", href: "/privacy" },
+            { label: "Refund Policy", href: "/refunds" },
+          ].map(item => (
+            <Link key={item.label} href={item.href} style={{
+              fontSize: 13,
+              color: "#8a8580",
+              textDecoration: "none",
+            }}>{item.label}</Link>
+          ))}
+        </div>
+        <p style={{ fontSize: 13, color: "#b0a89e" }}>
+          support@biblesummary.ai
+        </p>
+        <p style={{ fontSize: 12, color: "#ccc", marginTop: 4 }}>
+          © 2026 BibleSummary.ai
+        </p>
       </footer>
     </div>
   );

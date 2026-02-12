@@ -9,6 +9,7 @@ import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsConte
 import { useExplanationCache, getVerseId } from "@/lib/verseStore";
 import VerseActionBar from "@/components/VerseActionBar";
 import ExplainPaywall from "@/components/ExplainPaywall";
+import { HIGHLIGHT_COLORS, getHighlightBg } from "@/lib/highlightColors";
 
 interface Verse {
   id: string;
@@ -66,6 +67,10 @@ export default function ChapterReaderClient({
   // Bookmark state
   const [bookmarkedVerse, setBookmarkedVerse] = useState<number | null>(null);
   const [bookmarkError, setBookmarkError] = useState<string | null>(null);
+
+  // Highlight state
+  const [highlights, setHighlights] = useState<Map<number, string>>(new Map());
+  const [showColorPicker, setShowColorPicker] = useState(false);
 
   // Inline Explain state
   const [explainStatus, setExplainStatus] = useState<"idle" | "loading" | "success" | "error" | "paywall">("idle");
@@ -197,6 +202,21 @@ export default function ChapterReaderClient({
           setBookmarkedVerse(null);
         }
 
+        // Load highlights for this chapter
+        const { data: hlData, error: hlError } = await supabase
+          .from("highlights")
+          .select("verse, color")
+          .eq("user_id", currentUser.id)
+          .eq("book_id", bookId)
+          .eq("chapter", chapter);
+        if (hlError) console.error("HIGHLIGHT LOAD ERROR:", hlError);
+        console.log("HIGHLIGHT LOAD RESULT:", hlData);
+        if (hlData) {
+          const map = new Map<number, string>();
+          hlData.forEach((h: { verse: number; color: string }) => map.set(h.verse, h.color));
+          setHighlights(map);
+        }
+
         // Check explain entitlement
         const { data: explainAccess } = await supabase.rpc("user_has_explain_access", {
           p_user_id: currentUser.id,
@@ -283,6 +303,7 @@ export default function ChapterReaderClient({
       setActiveVerse(null);
       setShowToolbar(false);
       setShowNoteEditor(false);
+      setShowColorPicker(false);
       setNoteText("");
       setExplainStatus("idle");
       setExplanation(null);
@@ -292,6 +313,7 @@ export default function ChapterReaderClient({
     setActiveVerse(verseNum);
     setShowToolbar(false);
     setShowNoteEditor(false);
+    setShowColorPicker(false);
     const existing = getVerseNote(verseNum);
     setNoteText(existing?.note_text || "");
 
@@ -315,6 +337,7 @@ export default function ChapterReaderClient({
     setActiveVerse(null);
     setShowToolbar(false);
     setShowNoteEditor(false);
+    setShowColorPicker(false);
     setNoteText("");
     setExplainStatus("idle");
     setExplanation(null);
@@ -435,6 +458,61 @@ export default function ChapterReaderClient({
     setNoteText("");
   }
 
+  // Highlight handlers
+  function handleHighlightTap() {
+    setShowColorPicker(true);
+  }
+
+  async function handleHighlightColor(verseNum: number, color: string) {
+    if (!user) return;
+    const existed = highlights.has(verseNum);
+
+    // Optimistic update
+    const newMap = new Map(highlights);
+    newMap.set(verseNum, color);
+    setHighlights(newMap);
+    setShowColorPicker(false);
+
+    if (existed) {
+      const { error } = await supabase
+        .from("highlights")
+        .update({ color })
+        .eq("user_id", user.id)
+        .eq("book_id", bookId)
+        .eq("chapter", chapter)
+        .eq("verse", verseNum);
+      if (error) console.error("HIGHLIGHT UPDATE ERROR:", error);
+    } else {
+      const { error } = await supabase.from("highlights").insert({
+        user_id: user.id,
+        book_id: bookId,
+        chapter,
+        verse: verseNum,
+        color,
+      });
+      if (error) console.error("HIGHLIGHT INSERT ERROR:", error);
+    }
+  }
+
+  async function handleRemoveHighlight(verseNum: number) {
+    if (!user) return;
+
+    // Optimistic update
+    const newMap = new Map(highlights);
+    newMap.delete(verseNum);
+    setHighlights(newMap);
+    setShowColorPicker(false);
+
+    const { error } = await supabase
+      .from("highlights")
+      .delete()
+      .eq("user_id", user.id)
+      .eq("book_id", bookId)
+      .eq("chapter", chapter)
+      .eq("verse", verseNum);
+    if (error) console.error("HIGHLIGHT DELETE ERROR:", error);
+  }
+
   // Audio: page-scoped play/pause toggle for header
   const thisTrackPlaying = isThisTrackActive && audioState === "playing";
   const thisTrackPaused = isThisTrackActive && audioState === "paused";
@@ -520,14 +598,14 @@ export default function ChapterReaderClient({
     }
   }
 
-  // Highlight color based on theme
+  // Highlight color based on theme (purple accent)
   const highlightBg = settings.themeMode === "dark"
-    ? "rgba(37, 99, 235, 0.2)"
-    : "rgba(37, 99, 235, 0.08)";
+    ? "rgba(124, 92, 252, 0.2)"
+    : "rgba(124, 92, 252, 0.08)";
 
   const highlightBorder = settings.themeMode === "dark"
-    ? "rgba(37, 99, 235, 0.5)"
-    : "rgba(37, 99, 235, 0.4)";
+    ? "rgba(124, 92, 252, 0.5)"
+    : "rgba(124, 92, 252, 0.4)";
 
   return (
     <div className="min-h-screen transition-colors duration-300" style={{ backgroundColor: theme.background }}>
@@ -715,17 +793,23 @@ export default function ChapterReaderClient({
             const hasNote = !!getVerseNote(verse.verse);
             const isActive = activeVerse === verse.verse;
             const isCurrentVerse = isThisTrackActive && currentlyPlayingVerse === verse.verse;
-            const isHighlighted = highlightedVerse === verse.verse;
+            const isFlashHighlight = highlightedVerse === verse.verse;
+            const persistentColor = highlights.get(verse.verse);
 
-            // Determine background color with priority: active > highlighted > currentVerse
+            // Determine background color
             let bgColor = 'transparent';
-            if (isActive) {
-              bgColor = highlightBg;
-            } else if (isHighlighted) {
-              bgColor = "rgba(37, 99, 235, 0.12)";
+            if (persistentColor) {
+              bgColor = getHighlightBg(persistentColor, settings.themeMode);
+            } else if (isActive) {
+              bgColor = settings.themeMode === 'dark' ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.04)';
+            } else if (isFlashHighlight) {
+              bgColor = "rgba(124, 92, 252, 0.12)";
             } else if (isCurrentVerse) {
               bgColor = highlightBg;
             }
+
+            // Left border for audio playing or scroll-to flash
+            const showLeftBorder = !isActive && (isCurrentVerse || isFlashHighlight) && !persistentColor;
 
             return (
               <span key={verse.id}>
@@ -734,12 +818,19 @@ export default function ChapterReaderClient({
                     if (el) verseRefs.current.set(verse.verse, el);
                   }}
                   data-verse={verse.verse}
-                  className={`inline cursor-pointer rounded-sm transition-all duration-500`}
+                  className={`inline cursor-pointer transition-all duration-500 ${persistentColor ? 'rounded' : 'rounded-sm'}`}
                   style={{
                     backgroundColor: bgColor,
-                    borderLeft: (isCurrentVerse || isHighlighted) && !isActive ? `2px solid ${highlightBorder}` : 'none',
-                    paddingLeft: (isCurrentVerse || isHighlighted) && !isActive ? '4px' : '0',
-                    marginLeft: (isCurrentVerse || isHighlighted) && !isActive ? '-6px' : '0',
+                    borderLeft: showLeftBorder ? `2px solid ${highlightBorder}` : 'none',
+                    paddingLeft: showLeftBorder ? '4px' : (persistentColor ? '2px' : '0'),
+                    paddingRight: persistentColor ? '2px' : undefined,
+                    paddingTop: persistentColor ? '1px' : undefined,
+                    paddingBottom: persistentColor ? '1px' : undefined,
+                    marginLeft: showLeftBorder ? '-6px' : '0',
+                    textDecoration: isActive ? 'underline' : 'none',
+                    textDecorationColor: isActive ? 'var(--accent)' : undefined,
+                    textUnderlineOffset: isActive ? '3px' : undefined,
+                    textDecorationThickness: isActive ? '2px' : undefined,
                   }}
                   onClick={() => handleVerseTap(verse.verse, verse.text)}
                   title={hasNote ? "View or edit your note" : "Tap to add a note"}
@@ -775,13 +866,75 @@ export default function ChapterReaderClient({
                 {" "}
 
                 {/* Unified action bar */}
-                {isActive && !showNoteEditor && explainStatus === "idle" && (
+                {isActive && !showNoteEditor && !showColorPicker && explainStatus === "idle" && (
                   <VerseActionBar
                     onExplain={() => handleExplain(verse.verse)}
                     onNote={handleOpenNoteEditor}
                     onShare={() => handleShare(verse.verse, verse.text)}
+                    onHighlight={handleHighlightTap}
                     onClose={handleCloseActions}
+                    hasNote={hasNote}
+                    hasHighlight={highlights.has(verse.verse)}
                   />
+                )}
+
+                {/* Color picker */}
+                {isActive && showColorPicker && (
+                  <span className="block my-3" style={{ fontFamily: "'Inter', sans-serif" }}>
+                    <span
+                      className="flex items-center gap-2.5 p-3 rounded-2xl"
+                      style={{ backgroundColor: theme.card, border: `1px solid ${theme.border}` }}
+                    >
+                      {Object.entries(HIGHLIGHT_COLORS).map(([key, c]) => {
+                        const isCurrent = highlights.get(verse.verse) === key;
+                        return (
+                          <button
+                            key={key}
+                            onClick={(e) => { e.stopPropagation(); handleHighlightColor(verse.verse, key); }}
+                            className="w-8 h-8 rounded-full flex items-center justify-center transition-transform active:scale-90"
+                            style={{
+                              backgroundColor: c.swatch,
+                              border: isCurrent ? `2.5px solid ${theme.text}` : '2px solid transparent',
+                              boxShadow: isCurrent ? '0 0 0 1.5px ' + theme.card : 'none',
+                            }}
+                            title={c.label}
+                          >
+                            {isCurrent && (
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#333" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                                <polyline points="20 6 9 17 4 12" />
+                              </svg>
+                            )}
+                          </button>
+                        );
+                      })}
+                      {highlights.has(verse.verse) && (
+                        <>
+                          <div className="w-px h-6 mx-0.5" style={{ backgroundColor: theme.border }} />
+                          <button
+                            onClick={(e) => { e.stopPropagation(); handleRemoveHighlight(verse.verse); }}
+                            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[12px] font-semibold active:opacity-70 transition-opacity"
+                            style={{ color: '#ef4444', backgroundColor: settings.themeMode === 'dark' ? 'rgba(239,68,68,0.1)' : 'rgba(239,68,68,0.08)' }}
+                          >
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                              <path d="M18 6L6 18M6 6l12 12" />
+                            </svg>
+                            Remove
+                          </button>
+                        </>
+                      )}
+                      <button
+                        onClick={(e) => { e.stopPropagation(); setShowColorPicker(false); }}
+                        className="ml-auto w-7 h-7 rounded-full flex items-center justify-center active:opacity-70"
+                        style={{ color: theme.secondary }}
+                        aria-label="Close color picker"
+                      >
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <line x1="18" y1="6" x2="6" y2="18" />
+                          <line x1="6" y1="6" x2="18" y2="18" />
+                        </svg>
+                      </button>
+                    </span>
+                  </span>
                 )}
 
                 {/* Inline explanation - loading */}
