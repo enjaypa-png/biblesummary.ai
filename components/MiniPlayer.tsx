@@ -29,11 +29,6 @@ export default function MiniPlayer() {
     return null;
   }
 
-  // Don't show on Listen selection or playback screens (they have full controls)
-  if (pathname.startsWith("/listen")) {
-    return null;
-  }
-
   const progress = totalVerses > 0 && currentlyPlayingVerse
     ? (currentlyPlayingVerse / totalVerses) * 100
     : 0;
