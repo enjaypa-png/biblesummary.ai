@@ -204,12 +204,15 @@ export default function ChapterReaderClient({
 
         // Load highlights for this chapter
         const hlBookId = getBookIndex(bookSlug);
-        const { data: hlData } = await supabase
+        console.log("HIGHLIGHT LOAD:", { book_id: hlBookId, bookSlug, chapter });
+        const { data: hlData, error: hlError } = await supabase
           .from("highlights")
           .select("verse, color")
           .eq("user_id", currentUser.id)
           .eq("book_id", hlBookId)
           .eq("chapter", chapter);
+        if (hlError) console.error("HIGHLIGHT LOAD ERROR:", hlError);
+        console.log("HIGHLIGHT LOAD RESULT:", hlData);
         if (hlData) {
           const map = new Map<number, string>();
           hlData.forEach((h: { verse: number; color: string }) => map.set(h.verse, h.color));
@@ -473,22 +476,26 @@ export default function ChapterReaderClient({
     setShowColorPicker(false);
 
     const hlBookId = getBookIndex(bookSlug);
+    console.log("HIGHLIGHT:", { action: existed ? "update" : "insert", user_id: user.id, book_id: hlBookId, chapter, verse: verseNum, color });
+
     if (existed) {
-      await supabase
+      const { error } = await supabase
         .from("highlights")
         .update({ color })
         .eq("user_id", user.id)
         .eq("book_id", hlBookId)
         .eq("chapter", chapter)
         .eq("verse", verseNum);
+      if (error) console.error("HIGHLIGHT UPDATE ERROR:", error);
     } else {
-      await supabase.from("highlights").insert({
+      const { error } = await supabase.from("highlights").insert({
         user_id: user.id,
         book_id: hlBookId,
         chapter,
         verse: verseNum,
         color,
       });
+      if (error) console.error("HIGHLIGHT INSERT ERROR:", error);
     }
   }
 
@@ -502,13 +509,14 @@ export default function ChapterReaderClient({
     setShowColorPicker(false);
 
     const hlBookId = getBookIndex(bookSlug);
-    await supabase
+    const { error } = await supabase
       .from("highlights")
       .delete()
       .eq("user_id", user.id)
       .eq("book_id", hlBookId)
       .eq("chapter", chapter)
       .eq("verse", verseNum);
+    if (error) console.error("HIGHLIGHT DELETE ERROR:", error);
   }
 
   // Audio: page-scoped play/pause toggle for header
