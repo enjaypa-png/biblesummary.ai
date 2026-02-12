@@ -598,14 +598,14 @@ export default function ChapterReaderClient({
     }
   }
 
-  // Highlight color based on theme
+  // Highlight color based on theme (purple accent)
   const highlightBg = settings.themeMode === "dark"
-    ? "rgba(37, 99, 235, 0.2)"
-    : "rgba(37, 99, 235, 0.08)";
+    ? "rgba(124, 92, 252, 0.2)"
+    : "rgba(124, 92, 252, 0.08)";
 
   const highlightBorder = settings.themeMode === "dark"
-    ? "rgba(37, 99, 235, 0.5)"
-    : "rgba(37, 99, 235, 0.4)";
+    ? "rgba(124, 92, 252, 0.5)"
+    : "rgba(124, 92, 252, 0.4)";
 
   return (
     <div className="min-h-screen transition-colors duration-300" style={{ backgroundColor: theme.background }}>
@@ -803,7 +803,7 @@ export default function ChapterReaderClient({
             } else if (isActive) {
               bgColor = settings.themeMode === 'dark' ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.04)';
             } else if (isFlashHighlight) {
-              bgColor = "rgba(37, 99, 235, 0.12)";
+              bgColor = "rgba(124, 92, 252, 0.12)";
             } else if (isCurrentVerse) {
               bgColor = highlightBg;
             }

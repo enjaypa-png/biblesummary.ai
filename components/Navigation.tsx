@@ -23,7 +23,7 @@ export default function Navigation() {
           {/* Logo/Brand */}
           <Link href="/" className="flex items-center">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)" }}>
                 <span className="text-white font-bold text-xl">B</span>
               </div>
               <span className="text-xl font-bold text-gray-900 dark:text-white hidden sm:block">
@@ -40,7 +40,7 @@ export default function Navigation() {
                 href={link.href}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   pathname === link.href
-                    ? "bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300"
+                    ? "bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300"
                     : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
                 }`}
               >

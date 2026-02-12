@@ -208,7 +208,7 @@ export default function PricingPageClient() {
               style={{
                 backgroundColor: "var(--card)",
                 border: "2px solid var(--accent)",
-                boxShadow: "0 4px 20px rgba(37, 99, 235, 0.15)",
+                boxShadow: "0 4px 20px rgba(124, 92, 252, 0.15)",
               }}
             >
               <span

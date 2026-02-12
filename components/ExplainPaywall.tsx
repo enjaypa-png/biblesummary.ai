@@ -69,7 +69,7 @@ export default function ExplainPaywall({
       <span className="flex justify-center mb-3">
         <span
           className="w-10 h-10 rounded-full flex items-center justify-center"
-          style={{ backgroundColor: "rgba(37, 99, 235, 0.1)" }}
+          style={{ backgroundColor: "var(--accent-light, rgba(124, 92, 252, 0.1))" }}
         >
           <svg
             width="20"
