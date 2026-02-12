@@ -189,11 +189,11 @@ export default function NotesPage() {
           className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
           style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}
         >
-          <h1 className="text-[17px] font-semibold text-center max-w-lg mx-auto" style={{ color: "var(--foreground)" }}>
+          <h1 className="text-[17px] font-semibold text-center max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto" style={{ color: "var(--foreground)" }}>
             Notes
           </h1>
         </header>
-        <main className="max-w-lg mx-auto px-5 py-20 text-center">
+        <main className="max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto px-5 py-20 text-center">
           <div
             className="w-6 h-6 mx-auto border-2 rounded-full animate-spin"
             style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
@@ -409,7 +409,7 @@ export default function NotesPage() {
         className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
         style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}
       >
-        <div className="max-w-lg mx-auto flex items-center justify-between">
+        <div className="max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto flex items-center justify-between">
           <span className="text-[13px] font-medium" style={{ color: "var(--secondary)" }}>
             {notes.length} {notes.length === 1 ? "note" : "notes"}
           </span>
@@ -427,7 +427,7 @@ export default function NotesPage() {
         </div>
       </header>
 
-      <main className="max-w-lg mx-auto px-4 py-4">
+      <main className="max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto px-4 py-4">
         {/* Search input */}
         {notes.length > 0 && (
           <div className="mb-4">
