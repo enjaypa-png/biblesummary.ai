@@ -873,6 +873,8 @@ export default function ChapterReaderClient({
                     onShare={() => handleShare(verse.verse, verse.text)}
                     onHighlight={handleHighlightTap}
                     onClose={handleCloseActions}
+                    hasNote={hasNote}
+                    hasHighlight={highlights.has(verse.verse)}
                   />
                 )}
 
@@ -910,12 +912,13 @@ export default function ChapterReaderClient({
                           <div className="w-px h-6 mx-0.5" style={{ backgroundColor: theme.border }} />
                           <button
                             onClick={(e) => { e.stopPropagation(); handleRemoveHighlight(verse.verse); }}
-                            className="flex items-center gap-1 px-2 py-1 rounded-lg text-[11px] font-semibold active:opacity-70"
-                            style={{ color: '#ef4444' }}
+                            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[12px] font-semibold active:opacity-70 transition-opacity"
+                            style={{ color: '#ef4444', backgroundColor: settings.themeMode === 'dark' ? 'rgba(239,68,68,0.1)' : 'rgba(239,68,68,0.08)' }}
                           >
                             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                               <path d="M18 6L6 18M6 6l12 12" />
                             </svg>
+                            Remove
                           </button>
                         </>
                       )}
