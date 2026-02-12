@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const FEATURES_FREE = [
   { icon: "📖", name: "Full King James Bible", desc: "Every book, chapter, and verse — completely free." },
@@ -95,7 +96,7 @@ function VerseDemo() {
                   fontSize: 11,
                   fontFamily: "'DM Sans', sans-serif",
                   fontWeight: 600,
-                  color: "#7c5cfc",
+                  color: "#4A2D8A",
                   background: "#f0edff",
                   padding: "2px 10px",
                   borderRadius: 20,
@@ -115,7 +116,7 @@ function VerseDemo() {
                 padding: "18px 20px",
                 background: "linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%)",
                 borderRadius: 12,
-                borderLeft: "3px solid #7c5cfc",
+                borderLeft: "3px solid #4A2D8A",
                 animation: "slideDown 0.35s ease",
               }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
@@ -123,7 +124,7 @@ function VerseDemo() {
                   <span style={{
                     fontSize: 12,
                     fontWeight: 700,
-                    color: "#7c5cfc",
+                    color: "#4A2D8A",
                     letterSpacing: 0.8,
                     textTransform: "uppercase",
                     fontFamily: "'DM Sans', sans-serif",
@@ -155,9 +156,9 @@ function VerseDemo() {
             fontSize: 14,
             fontWeight: 600,
             fontFamily: "'DM Sans', sans-serif",
-            background: showSummary ? "#7c5cfc" : "#fff",
-            color: showSummary ? "#fff" : "#7c5cfc",
-            border: "1.5px solid #7c5cfc",
+            background: showSummary ? "#4A2D8A" : "#fff",
+            color: showSummary ? "#fff" : "#4A2D8A",
+            border: "1.5px solid #4A2D8A",
             borderRadius: 10,
             cursor: "pointer",
             transition: "all 0.2s ease",
@@ -181,7 +182,7 @@ function VerseDemo() {
             <span style={{
               fontSize: 12,
               fontWeight: 700,
-              color: "#7c5cfc",
+              color: "#4A2D8A",
               letterSpacing: 0.8,
               textTransform: "uppercase",
               fontFamily: "'DM Sans', sans-serif",
@@ -233,7 +234,7 @@ function FeatureCard({ icon, name, desc, highlight, delay }: { icon: string; nam
           right: 12,
           fontSize: 10,
           fontWeight: 700,
-          color: "#7c5cfc",
+          color: "#4A2D8A",
           background: "#ede8ff",
           padding: "3px 10px",
           borderRadius: 20,
@@ -291,7 +292,7 @@ function StepCard({ number, title, desc }: { number: string; title: string; desc
         width: 48,
         height: 48,
         borderRadius: "50%",
-        background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+        background: "linear-gradient(135deg, #4A2D8A 0%, #3D2278 100%)",
         color: "#fff",
         display: "flex",
         alignItems: "center",
@@ -373,6 +374,18 @@ export default function BibleSummaryLanding() {
         }} />
 
         <div style={{ position: "relative", zIndex: 1, maxWidth: 680, margin: "0 auto" }}>
+          {/* Logo */}
+          <div style={{ marginBottom: 28, animation: "fadeUp 0.5s ease both" }}>
+            <Image
+              src="/images/logo-full.svg"
+              alt="BibleSummary.ai"
+              width={280}
+              height={56}
+              priority
+              style={{ margin: "0 auto", height: "auto" }}
+            />
+          </div>
+
           <h1 style={{
             fontFamily: "'Source Serif 4', Georgia, serif",
             fontSize: "clamp(36px, 6vw, 56px)",
@@ -383,7 +396,7 @@ export default function BibleSummaryLanding() {
             animation: "fadeUp 0.7s ease both",
           }}>
             Read the Bible.<br />
-            <span style={{ color: "#7c5cfc" }}>Understand</span> what you read.
+            <span style={{ color: "#4A2D8A" }}>Understand</span> what you read.
           </h1>
 
           <p style={{
@@ -411,7 +424,7 @@ export default function BibleSummaryLanding() {
               fontSize: 16,
               fontWeight: 700,
               color: "#fff",
-              background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+              background: "linear-gradient(135deg, #4A2D8A 0%, #3D2278 100%)",
               borderRadius: 12,
               textDecoration: "none",
               transition: "transform 0.2s ease, box-shadow 0.2s ease",
@@ -422,7 +435,7 @@ export default function BibleSummaryLanding() {
             <Link href="/pricing" style={{
               fontSize: 15,
               fontWeight: 600,
-              color: "#7c5cfc",
+              color: "#4A2D8A",
               textDecoration: "none",
             }}>
               View Pricing →
@@ -452,7 +465,7 @@ export default function BibleSummaryLanding() {
             fontWeight: 700,
             letterSpacing: 1.5,
             textTransform: "uppercase",
-            color: "#7c5cfc",
+            color: "#4A2D8A",
             marginBottom: 12,
           }}>
             Try it yourself
@@ -559,7 +572,7 @@ export default function BibleSummaryLanding() {
               fontWeight: 700,
               letterSpacing: 1.5,
               textTransform: "uppercase",
-              color: "#7c5cfc",
+              color: "#4A2D8A",
               marginBottom: 12,
             }}>
               Go deeper
@@ -602,7 +615,7 @@ export default function BibleSummaryLanding() {
               fontSize: 15,
               fontWeight: 700,
               color: "#fff",
-              background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+              background: "linear-gradient(135deg, #4A2D8A 0%, #3D2278 100%)",
               borderRadius: 12,
               textDecoration: "none",
               boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
@@ -626,7 +639,7 @@ export default function BibleSummaryLanding() {
             fontWeight: 700,
             letterSpacing: 1.5,
             textTransform: "uppercase",
-            color: "#7c5cfc",
+            color: "#4A2D8A",
             marginBottom: 12,
           }}>
             Simple as 1-2-3
@@ -702,7 +715,7 @@ export default function BibleSummaryLanding() {
           fontSize: 17,
           fontWeight: 700,
           color: "#fff",
-          background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+          background: "linear-gradient(135deg, #4A2D8A 0%, #3D2278 100%)",
           borderRadius: 12,
           textDecoration: "none",
           boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
@@ -716,7 +729,7 @@ export default function BibleSummaryLanding() {
             color: "#8a8580",
             textDecoration: "none",
           }}>
-            Already have an account? <span style={{ color: "#7c5cfc", fontWeight: 600 }}>Sign in</span>
+            Already have an account? <span style={{ color: "#4A2D8A", fontWeight: 600 }}>Sign in</span>
           </Link>
         </div>
       </section>
@@ -728,6 +741,15 @@ export default function BibleSummaryLanding() {
         borderTop: "1px solid #eee",
         background: "#fff",
       }}>
+        <div style={{ marginBottom: 16 }}>
+          <Image
+            src="/images/logo-icon.svg"
+            alt="BibleSummary.ai"
+            width={36}
+            height={42}
+            style={{ margin: "0 auto 12px", height: "auto" }}
+          />
+        </div>
         <div style={{
           display: "flex",
           justifyContent: "center",
@@ -752,7 +774,7 @@ export default function BibleSummaryLanding() {
           support@biblesummary.ai
         </p>
         <p style={{ fontSize: 12, color: "#ccc", marginTop: 4 }}>
-          © 2026 BibleSummary.ai
+          &copy; {new Date().getFullYear()} BibleSummary.ai
         </p>
       </footer>
     </div>

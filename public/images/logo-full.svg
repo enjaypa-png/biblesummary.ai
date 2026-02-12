@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 140" fill="none">
+  <!-- Shield body -->
+  <path d="M60 4L10 28v48c0 32 22 52 50 60 28-8 50-28 50-60V28L60 4z" fill="#4A2D8A"/>
+  <!-- Shield gold border -->
+  <path d="M60 4L10 28v48c0 32 22 52 50 60 28-8 50-28 50-60V28L60 4z" fill="none" stroke="#C5A55A" stroke-width="4"/>
+  <!-- Inner shield highlight -->
+  <path d="M60 12L16 33v41c0 28 19 46 44 53 25-7 44-25 44-53V33L60 12z" fill="#3D2278"/>
+  <!-- Gold cross -->
+  <rect x="53" y="36" width="14" height="64" rx="3" fill="#C5A55A"/>
+  <rect x="34" y="52" width="52" height="14" rx="3" fill="#C5A55A"/>
+  <!-- Open book at top -->
+  <g transform="translate(60, 24)">
+    <!-- Left page -->
+    <path d="M-2 0C-2 0-16 2-18 8L-18 20C-16 14-2 12-2 12V0z" fill="#F5F0E0" stroke="#C5A55A" stroke-width="1"/>
+    <!-- Right page -->
+    <path d="M2 0C2 0 16 2 18 8L18 20C16 14 2 12 2 12V0z" fill="#F5F0E0" stroke="#C5A55A" stroke-width="1"/>
+    <!-- Spine -->
+    <line x1="0" y1="0" x2="0" y2="13" stroke="#C5A55A" stroke-width="1.5"/>
+    <!-- Page lines left -->
+    <line x1="-14" y1="8" x2="-4" y2="6" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-14" y1="11" x2="-4" y2="9" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-14" y1="14" x2="-4" y2="12" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
+    <!-- Page lines right -->
+    <line x1="14" y1="8" x2="4" y2="6" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
+    <line x1="14" y1="11" x2="4" y2="9" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
+    <line x1="14" y1="14" x2="4" y2="12" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
+  </g>
+  <!-- Text: "Bible" -->
+  <text x="132" y="82" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="44" font-weight="700" fill="#2D2D2D">Bible</text>
+  <!-- Text: "Summary" -->
+  <text x="244" y="82" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="44" font-weight="700" fill="#7C5CBF">Summary</text>
+  <!-- Text: ".ai" -->
+  <text x="410" y="82" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="44" font-weight="700" fill="#2D2D2D">.ai</text>
+</svg>
