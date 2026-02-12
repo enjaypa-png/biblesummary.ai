@@ -3,19 +3,21 @@
 import Link from "next/link";
 import { useEffect, useState, useMemo } from "react";
 import { supabase, getCurrentUser } from "@/lib/supabase";
-import { HIGHLIGHT_COLORS } from "@/lib/highlightColors";
+import { HIGHLIGHT_COLORS, getBookByIndex } from "@/lib/highlightColors";
 
-interface Highlight {
+interface HighlightRow {
   id: string;
-  book: string;
-  book_name: string;
-  book_id: string;
-  book_index: number;
+  book_id: number;
   chapter: number;
   verse: number;
   color: string;
   created_at: string;
-  verse_text?: string;
+}
+
+interface Highlight extends HighlightRow {
+  book_name: string;
+  book_slug: string;
+  verse_text: string;
 }
 
 export default function HighlightsPage() {
@@ -33,20 +35,34 @@ export default function HighlightsPage() {
     if (user) {
       const { data } = await supabase
         .from("highlights")
-        .select("*")
+        .select("id, book_id, chapter, verse, color, created_at")
         .eq("user_id", user.id)
-        .order("book_index", { ascending: true })
+        .order("book_id", { ascending: true })
         .order("chapter", { ascending: true })
         .order("verse", { ascending: true });
 
       if (data && data.length > 0) {
-        // Fetch verse texts
-        const versePromises = data.map(async (h: Highlight) => {
-          if (!h.book_id) return { id: h.id, text: "" };
+        // Look up Supabase book UUIDs for verse text queries
+        const uniqueBookIds = Array.from(new Set(data.map((h: HighlightRow) => h.book_id)));
+        const bookSlugs = uniqueBookIds.map((id) => getBookByIndex(id)?.slug).filter(Boolean);
+
+        const { data: dbBooks } = await supabase
+          .from("books")
+          .select("id, slug, order_index")
+          .in("slug", bookSlugs);
+
+        const slugToUuid = new Map(dbBooks?.map((b: { id: string; slug: string }) => [b.slug, b.id]) || []);
+
+        // Fetch verse texts in parallel
+        const versePromises = data.map(async (h: HighlightRow) => {
+          const bookInfo = getBookByIndex(h.book_id);
+          if (!bookInfo) return { id: h.id, text: "" };
+          const dbBookId = slugToUuid.get(bookInfo.slug);
+          if (!dbBookId) return { id: h.id, text: "" };
           const { data: verseData } = await supabase
             .from("verses")
             .select("text")
-            .eq("book_id", h.book_id)
+            .eq("book_id", dbBookId)
             .eq("chapter", h.chapter)
             .eq("verse", h.verse)
             .single();
@@ -57,10 +73,15 @@ export default function HighlightsPage() {
         const textMap = new Map(verseTexts.map((v) => [v.id, v.text]));
 
         setHighlights(
-          data.map((h: Highlight) => ({
-            ...h,
-            verse_text: textMap.get(h.id) || "",
-          }))
+          data.map((h: HighlightRow) => {
+            const bookInfo = getBookByIndex(h.book_id);
+            return {
+              ...h,
+              book_name: bookInfo?.name || "Unknown",
+              book_slug: bookInfo?.slug || "",
+              verse_text: textMap.get(h.id) || "",
+            };
+          })
         );
       }
     }
@@ -75,17 +96,19 @@ export default function HighlightsPage() {
   // Group by book (already sorted canonically from query)
   const grouped = useMemo(() => {
     const groups: { bookName: string; bookSlug: string; highlights: Highlight[] }[] = [];
-    let currentBook = "";
+    let currentBookId = -1;
     let currentGroup: Highlight[] = [];
+    let currentName = "";
     let currentSlug = "";
 
     highlights.forEach((h) => {
-      if (h.book_name !== currentBook) {
+      if (h.book_id !== currentBookId) {
         if (currentGroup.length > 0) {
-          groups.push({ bookName: currentBook, bookSlug: currentSlug, highlights: currentGroup });
+          groups.push({ bookName: currentName, bookSlug: currentSlug, highlights: currentGroup });
         }
-        currentBook = h.book_name;
-        currentSlug = h.book;
+        currentBookId = h.book_id;
+        currentName = h.book_name;
+        currentSlug = h.book_slug;
         currentGroup = [h];
       } else {
         currentGroup.push(h);
@@ -93,7 +116,7 @@ export default function HighlightsPage() {
     });
 
     if (currentGroup.length > 0) {
-      groups.push({ bookName: currentBook, bookSlug: currentSlug, highlights: currentGroup });
+      groups.push({ bookName: currentName, bookSlug: currentSlug, highlights: currentGroup });
     }
 
     return groups;
@@ -181,7 +204,7 @@ export default function HighlightsPage() {
         ) : (
           <div className="space-y-6 pb-24">
             {grouped.map((group) => (
-              <div key={group.bookName}>
+              <div key={group.bookSlug}>
                 {/* Book section divider */}
                 <div className="flex items-center gap-3 mb-3">
                   <div className="h-px flex-1" style={{ backgroundColor: "var(--border)" }} />
@@ -242,7 +265,7 @@ export default function HighlightsPage() {
                         </div>
                         {/* Go to verse link */}
                         <Link
-                          href={`/bible/${h.book}/${h.chapter}?verse=${h.verse}`}
+                          href={`/bible/${h.book_slug}/${h.chapter}?verse=${h.verse}`}
                           className="flex items-center gap-2 mt-3 pt-2 border-t active:opacity-70 transition-opacity"
                           style={{ borderColor: "var(--border)" }}
                         >

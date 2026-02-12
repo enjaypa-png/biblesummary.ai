@@ -46,3 +46,7 @@ export function getBookIndex(slug: string): number {
   const book = booksData.find((b) => b.slug === slug);
   return book?.order_index || 0;
 }
+
+export function getBookByIndex(orderIndex: number) {
+  return booksData.find((b) => b.order_index === orderIndex);
+}

@@ -203,11 +203,12 @@ export default function ChapterReaderClient({
         }
 
         // Load highlights for this chapter
+        const hlBookId = getBookIndex(bookSlug);
         const { data: hlData } = await supabase
           .from("highlights")
           .select("verse, color")
           .eq("user_id", currentUser.id)
-          .eq("book", bookSlug)
+          .eq("book_id", hlBookId)
           .eq("chapter", chapter);
         if (hlData) {
           const map = new Map<number, string>();
@@ -471,21 +472,19 @@ export default function ChapterReaderClient({
     setHighlights(newMap);
     setShowColorPicker(false);
 
+    const hlBookId = getBookIndex(bookSlug);
     if (existed) {
       await supabase
         .from("highlights")
         .update({ color })
         .eq("user_id", user.id)
-        .eq("book", bookSlug)
+        .eq("book_id", hlBookId)
         .eq("chapter", chapter)
         .eq("verse", verseNum);
     } else {
       await supabase.from("highlights").insert({
         user_id: user.id,
-        book: bookSlug,
-        book_name: bookName,
-        book_id: bookId,
-        book_index: getBookIndex(bookSlug),
+        book_id: hlBookId,
         chapter,
         verse: verseNum,
         color,
@@ -502,11 +501,12 @@ export default function ChapterReaderClient({
     setHighlights(newMap);
     setShowColorPicker(false);
 
+    const hlBookId = getBookIndex(bookSlug);
     await supabase
       .from("highlights")
       .delete()
       .eq("user_id", user.id)
-      .eq("book", bookSlug)
+      .eq("book_id", hlBookId)
       .eq("chapter", chapter)
       .eq("verse", verseNum);
   }
