@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 /**
@@ -22,14 +23,24 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <Link href="/" className="flex items-center">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)" }}>
-                <span className="text-white font-bold text-xl">B</span>
-              </div>
-              <span className="text-xl font-bold text-gray-900 dark:text-white hidden sm:block">
-                BibleSummary.ai
-              </span>
-            </div>
+            {/* Full logo on desktop */}
+            <Image
+              src="/images/logo-full.svg"
+              alt="BibleSummary.ai"
+              width={220}
+              height={44}
+              className="hidden sm:block"
+              priority
+            />
+            {/* Icon only on mobile */}
+            <Image
+              src="/images/logo-icon.svg"
+              alt="BibleSummary.ai"
+              width={36}
+              height={42}
+              className="block sm:hidden"
+              priority
+            />
           </Link>
 
           {/* Navigation Links */}
@@ -40,9 +51,10 @@ export default function Navigation() {
                 href={link.href}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   pathname === link.href
-                    ? "bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300"
+                    ? "text-[var(--accent)]"
                     : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
                 }`}
+                style={pathname === link.href ? { backgroundColor: "var(--accent-light)" } : undefined}
               >
                 {link.label}
               </Link>

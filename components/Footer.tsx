@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -10,6 +11,15 @@ export default function Footer() {
       }}
     >
       <div className="max-w-lg mx-auto">
+        <div className="flex justify-center mb-4">
+          <Image
+            src="/images/logo-icon.svg"
+            alt="BibleSummary.ai"
+            width={32}
+            height={38}
+            style={{ height: "auto" }}
+          />
+        </div>
         <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-[13px]">
           <Link href="/pricing" style={{ color: "var(--accent)" }} className="hover:underline">
             Pricing

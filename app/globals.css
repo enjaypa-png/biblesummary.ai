@@ -5,22 +5,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;1,400&display=swap');
 
 :root {
-   /* Brand color system — purple accent, warm neutrals */
+   /* Brand color system — purple & gold from official logo */
    --background: #faf9f7;
    --background-blur: rgba(250, 249, 247, 0.95);
-   --foreground: #2a2520;
+   --foreground: #2D2D2D;
    --foreground-secondary: #8a8580;
    --foreground-high-contrast: #1a1510;
-   --accent: #7c5cfc;
-   --accent-hover: #5b3fd4;
+   --accent: #4A2D8A;
+   --accent-hover: #3D2278;
    --accent-light: #f0edff;
    --accent-border: #d9d0ff;
+   --accent-secondary: #C5A55A;
+   --accent-secondary-hover: #b8993f;
+   --accent-purple-light: #7C5CBF;
    --text-on-accent: #ffffff;
    --border: #e8e5e0;
    --card: #ffffff;
    --card-hover: #f8f7f5;
    --tab-bar: #ffffff;
-   --verse-num: #7c5cfc;
+   --verse-num: #4A2D8A;
    --success: #22a867;
    --warning: #d97706;
    --error: #dc2626;
@@ -62,10 +65,13 @@
     --foreground: #e5e5e5;
     --foreground-secondary: #9ca3af;
     --foreground-high-contrast: #ffffff;
-    --accent: #9b82fc;
-    --accent-hover: #7c5cfc;
-    --accent-light: rgba(124, 92, 252, 0.15);
-    --accent-border: rgba(124, 92, 252, 0.3);
+    --accent: #7C5CBF;
+    --accent-hover: #4A2D8A;
+    --accent-light: rgba(74, 45, 138, 0.15);
+    --accent-border: rgba(74, 45, 138, 0.3);
+    --accent-secondary: #C5A55A;
+    --accent-secondary-hover: #b8993f;
+    --accent-purple-light: #9b82fc;
     --text-on-accent: #ffffff;
     --border: #333333;
     --card: #262626;

@@ -33,7 +33,7 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes
 
 ### Visual consistency
 
-- The accent color is `var(--accent)` (defined in `app/globals.css` as `#7c5cfc` light / `#9b82fc` dark). Use this for all accent UI -- buttons, active states, links, verse numbers. Additional accent variables: `--accent-hover` (`#5b3fd4`), `--accent-light` (`#f0edff`), `--accent-border` (`#d9d0ff`).
+- The accent color is `var(--accent)` (defined in `app/globals.css` as `#4A2D8A` light / `#7C5CBF` dark). Use this for all accent UI -- buttons, active states, links, verse numbers. Additional accent variables: `--accent-hover` (`#3D2278`), `--accent-light` (`#f0edff`), `--accent-border` (`#d9d0ff`), `--accent-secondary` (`#C5A55A` gold), `--accent-purple-light` (`#7C5CBF`).
 - The app uses warm neutrals: off-white background (`#faf9f7`), warm text (`#2a2520`), warm gray secondary (`#8a8580`), warm borders (`#e8e5e0`). Do not introduce harsh blacks or cool grays.
 - Verse numbers use the `.verse-number` CSS class. Their color comes from `var(--verse-num)` in globals.css. Do not override this with inline styles.
 - Theme support covers four modes: light, sepia, gray, dark. Changes must work across all four.
