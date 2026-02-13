@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
+import { useRouter } from "next/navigation";
 import { getCurrentUser, signOut, supabase } from "@/lib/supabase";
 import type { User } from "@supabase/supabase-js";
 
@@ -17,6 +18,11 @@ export default function MorePage() {
   const [subscriptions, setSubscriptions] = useState<Subscription[]>([]);
   const [canceling, setCanceling] = useState<string | null>(null);
   const [cancelError, setCancelError] = useState<string | null>(null);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [deleteConfirmText, setDeleteConfirmText] = useState("");
+  const [deleting, setDeleting] = useState(false);
+  const [deleteError, setDeleteError] = useState<string | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
     async function load() {
@@ -86,6 +92,46 @@ export default function MorePage() {
     }
     setCanceling(null);
   }
+
+  const handleDeleteAccount = useCallback(async () => {
+    if (deleteConfirmText !== "DELETE") return;
+
+    setDeleting(true);
+    setDeleteError(null);
+
+    try {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (!session?.access_token) {
+        setDeleteError("Please sign in again.");
+        setDeleting(false);
+        return;
+      }
+
+      const response = await fetch("/api/delete-account", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${session.access_token}`,
+        },
+        body: JSON.stringify({ confirmation: "DELETE" }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        setDeleteError(data.error || "Failed to delete account.");
+        setDeleting(false);
+        return;
+      }
+
+      // Sign out locally and redirect
+      await supabase.auth.signOut();
+      router.push("/");
+    } catch {
+      setDeleteError("Network error. Please try again.");
+      setDeleting(false);
+    }
+  }, [deleteConfirmText, router]);
 
   function getSubscriptionLabel(type: string): string {
     switch (type) {
@@ -309,7 +355,103 @@ export default function MorePage() {
             Contact: support@biblesummary.ai
           </p>
         </section>
+
+        {/* Danger Zone — only show for authenticated users */}
+        {user && (
+          <section className="mb-8">
+            <h2 className="text-xs font-semibold uppercase tracking-widest mb-2 px-1"
+              style={{ color: "#DC2626" }}>
+              Danger Zone
+            </h2>
+            <div className="rounded-xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "1px solid rgba(220, 38, 38, 0.3)" }}>
+              <button
+                type="button"
+                onClick={() => { setShowDeleteModal(true); setDeleteConfirmText(""); setDeleteError(null); }}
+                className="w-full flex items-center justify-between px-4 py-3 transition-colors active:bg-red-50 dark:active:bg-red-950/20 text-left"
+              >
+                <span className="font-medium text-[15px]" style={{ color: "#DC2626" }}>
+                  Delete Account
+                </span>
+                <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
+                  <path d="M1 1L5 5L1 9" stroke="#DC2626" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </section>
+        )}
       </main>
+
+      {/* Delete Account Confirmation Modal */}
+      {showDeleteModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center px-5"
+          style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+          onClick={(e) => { if (e.target === e.currentTarget && !deleting) setShowDeleteModal(false); }}
+        >
+          <div
+            className="w-full max-w-sm rounded-2xl p-6"
+            style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+          >
+            <h3 className="text-[17px] font-semibold mb-2" style={{ color: "var(--foreground)" }}>
+              Delete Account
+            </h3>
+            <p className="text-[14px] leading-relaxed mb-4" style={{ color: "var(--secondary)" }}>
+              This will permanently delete your account, bookmarks, highlights, notes, and subscription access. This cannot be undone.
+            </p>
+
+            <label className="block text-[13px] font-medium mb-1.5" style={{ color: "var(--foreground)" }}>
+              Type <span className="font-bold">DELETE</span> to confirm
+            </label>
+            <input
+              type="text"
+              value={deleteConfirmText}
+              onChange={(e) => setDeleteConfirmText(e.target.value)}
+              placeholder="DELETE"
+              disabled={deleting}
+              autoComplete="off"
+              className="w-full rounded-lg px-3 py-2 text-[15px] mb-4 outline-none"
+              style={{
+                backgroundColor: "var(--background)",
+                border: "1px solid var(--border)",
+                color: "var(--foreground)",
+              }}
+            />
+
+            {deleteError && (
+              <p className="text-[13px] mb-3" style={{ color: "#DC2626" }}>
+                {deleteError}
+              </p>
+            )}
+
+            <div className="flex gap-3">
+              <button
+                type="button"
+                onClick={() => setShowDeleteModal(false)}
+                disabled={deleting}
+                className="flex-1 rounded-lg px-4 py-2.5 text-[15px] font-medium transition-colors active:opacity-70 disabled:opacity-50"
+                style={{
+                  backgroundColor: "var(--background)",
+                  border: "1px solid var(--border)",
+                  color: "var(--foreground)",
+                }}
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={handleDeleteAccount}
+                disabled={deleteConfirmText !== "DELETE" || deleting}
+                className="flex-1 rounded-lg px-4 py-2.5 text-[15px] font-medium text-white transition-colors active:opacity-70 disabled:opacity-50"
+                style={{
+                  backgroundColor: deleteConfirmText === "DELETE" ? "#DC2626" : "#9CA3AF",
+                }}
+              >
+                {deleting ? "Deleting…" : "Permanently Delete"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
