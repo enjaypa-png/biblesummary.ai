@@ -17,15 +17,21 @@ export default function SummaryPaywall({
   bookSlug,
   isAuthenticated = false,
 }: SummaryPaywallProps) {
-  const [loading, setLoading] = useState<"single" | "annual" | null>(null);
+  const [loading, setLoading] = useState<"single" | "annual" | "premium" | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  async function handlePurchase(type: "single" | "annual") {
+  async function handlePurchase(type: "single" | "annual" | "premium") {
     setLoading(type);
     setError(null);
 
+    const productMap = {
+      single: "summary_single" as const,
+      annual: "summary_annual" as const,
+      premium: "premium_yearly" as const,
+    };
+
     const { url, error: checkoutError } = await startCheckout({
-      product: type === "single" ? "summary_single" : "summary_annual",
+      product: productMap[type],
       bookId: type === "single" ? bookId : undefined,
       bookSlug: type === "single" ? bookSlug : undefined,
       returnPath: bookSlug ? `/summaries/${bookSlug}` : "/summaries",
@@ -147,7 +153,7 @@ export default function SummaryPaywall({
                   className="text-[12px]"
                   style={{ color: "var(--secondary)" }}
                 >
-                  Annual pass — every book unlocked
+                  Annual pass — every summary unlocked
                 </div>
               </div>
               <div
@@ -161,6 +167,51 @@ export default function SummaryPaywall({
                   />
                 ) : (
                   "$14.99/yr"
+                )}
+              </div>
+            </button>
+
+            {/* Premium yearly */}
+            <button
+              onClick={() => handlePurchase("premium")}
+              disabled={loading !== null}
+              className="w-full flex items-center justify-between px-5 py-3.5 rounded-xl text-left transition-all active:scale-[0.98] disabled:opacity-60"
+              style={{
+                backgroundColor: "var(--background)",
+                border: "1.5px solid var(--border)",
+                color: "var(--foreground)",
+              }}
+            >
+              <div>
+                <div className="flex items-center gap-2">
+                  <div className="text-[14px] font-semibold">
+                    Premium
+                  </div>
+                  <span
+                    className="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-full"
+                    style={{ backgroundColor: "var(--accent-light)", color: "var(--accent)" }}
+                  >
+                    Best Value
+                  </span>
+                </div>
+                <div
+                  className="text-[12px]"
+                  style={{ color: "var(--secondary)" }}
+                >
+                  All summaries + explanations + audio
+                </div>
+              </div>
+              <div
+                className="text-[16px] font-bold"
+                style={{ color: "var(--accent)" }}
+              >
+                {loading === "premium" ? (
+                  <span
+                    className="inline-block w-5 h-5 border-2 rounded-full animate-spin"
+                    style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
+                  />
+                ) : (
+                  "$59/yr"
                 )}
               </div>
             </button>
