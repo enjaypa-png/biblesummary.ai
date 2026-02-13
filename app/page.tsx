@@ -96,7 +96,7 @@ function VerseDemo() {
                   fontSize: 11,
                   fontFamily: "'DM Sans', sans-serif",
                   fontWeight: 600,
-                  color: "#4A2D8A",
+                  color: "#7c5cfc",
                   background: "#f0edff",
                   padding: "2px 10px",
                   borderRadius: 20,
@@ -116,7 +116,7 @@ function VerseDemo() {
                 padding: "18px 20px",
                 background: "linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%)",
                 borderRadius: 12,
-                borderLeft: "3px solid #4A2D8A",
+                borderLeft: "3px solid #7c5cfc",
                 animation: "slideDown 0.35s ease",
               }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
@@ -124,7 +124,7 @@ function VerseDemo() {
                   <span style={{
                     fontSize: 12,
                     fontWeight: 700,
-                    color: "#4A2D8A",
+                    color: "#7c5cfc",
                     letterSpacing: 0.8,
                     textTransform: "uppercase",
                     fontFamily: "'DM Sans', sans-serif",
@@ -156,9 +156,9 @@ function VerseDemo() {
             fontSize: 14,
             fontWeight: 600,
             fontFamily: "'DM Sans', sans-serif",
-            background: showSummary ? "#4A2D8A" : "#fff",
-            color: showSummary ? "#fff" : "#4A2D8A",
-            border: "1.5px solid #4A2D8A",
+            background: showSummary ? "#7c5cfc" : "#fff",
+            color: showSummary ? "#fff" : "#7c5cfc",
+            border: "1.5px solid #7c5cfc",
             borderRadius: 10,
             cursor: "pointer",
             transition: "all 0.2s ease",
@@ -182,7 +182,7 @@ function VerseDemo() {
             <span style={{
               fontSize: 12,
               fontWeight: 700,
-              color: "#4A2D8A",
+              color: "#7c5cfc",
               letterSpacing: 0.8,
               textTransform: "uppercase",
               fontFamily: "'DM Sans', sans-serif",
@@ -234,7 +234,7 @@ function FeatureCard({ icon, name, desc, highlight, delay }: { icon: string; nam
           right: 12,
           fontSize: 10,
           fontWeight: 700,
-          color: "#4A2D8A",
+          color: "#7c5cfc",
           background: "#ede8ff",
           padding: "3px 10px",
           borderRadius: 20,
@@ -292,7 +292,7 @@ function StepCard({ number, title, desc }: { number: string; title: string; desc
         width: 48,
         height: 48,
         borderRadius: "50%",
-        background: "linear-gradient(135deg, #4A2D8A 0%, #3D2278 100%)",
+        background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
         color: "#fff",
         display: "flex",
         alignItems: "center",
@@ -396,7 +396,7 @@ export default function BibleSummaryLanding() {
             animation: "fadeUp 0.7s ease both",
           }}>
             Read the Bible.<br />
-            <span style={{ color: "#4A2D8A" }}>Understand</span> what you read.
+            <span style={{ color: "#7c5cfc" }}>Understand</span> what you read.
           </h1>
 
           <p style={{
@@ -424,7 +424,7 @@ export default function BibleSummaryLanding() {
               fontSize: 16,
               fontWeight: 700,
               color: "#fff",
-              background: "linear-gradient(135deg, #4A2D8A 0%, #3D2278 100%)",
+              background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
               borderRadius: 12,
               textDecoration: "none",
               transition: "transform 0.2s ease, box-shadow 0.2s ease",
@@ -435,7 +435,7 @@ export default function BibleSummaryLanding() {
             <Link href="/pricing" style={{
               fontSize: 15,
               fontWeight: 600,
-              color: "#4A2D8A",
+              color: "#7c5cfc",
               textDecoration: "none",
             }}>
               View Pricing →
@@ -465,7 +465,7 @@ export default function BibleSummaryLanding() {
             fontWeight: 700,
             letterSpacing: 1.5,
             textTransform: "uppercase",
-            color: "#4A2D8A",
+            color: "#7c5cfc",
             marginBottom: 12,
           }}>
             Try it yourself
@@ -572,7 +572,7 @@ export default function BibleSummaryLanding() {
               fontWeight: 700,
               letterSpacing: 1.5,
               textTransform: "uppercase",
-              color: "#4A2D8A",
+              color: "#7c5cfc",
               marginBottom: 12,
             }}>
               Go deeper
@@ -615,7 +615,7 @@ export default function BibleSummaryLanding() {
               fontSize: 15,
               fontWeight: 700,
               color: "#fff",
-              background: "linear-gradient(135deg, #4A2D8A 0%, #3D2278 100%)",
+              background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
               borderRadius: 12,
               textDecoration: "none",
               boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
@@ -639,7 +639,7 @@ export default function BibleSummaryLanding() {
             fontWeight: 700,
             letterSpacing: 1.5,
             textTransform: "uppercase",
-            color: "#4A2D8A",
+            color: "#7c5cfc",
             marginBottom: 12,
           }}>
             Simple as 1-2-3
@@ -715,7 +715,7 @@ export default function BibleSummaryLanding() {
           fontSize: 17,
           fontWeight: 700,
           color: "#fff",
-          background: "linear-gradient(135deg, #4A2D8A 0%, #3D2278 100%)",
+          background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
           borderRadius: 12,
           textDecoration: "none",
           boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
@@ -729,7 +729,7 @@ export default function BibleSummaryLanding() {
             color: "#8a8580",
             textDecoration: "none",
           }}>
-            Already have an account? <span style={{ color: "#4A2D8A", fontWeight: 600 }}>Sign in</span>
+            Already have an account? <span style={{ color: "#7c5cfc", fontWeight: 600 }}>Sign in</span>
           </Link>
         </div>
       </section>
