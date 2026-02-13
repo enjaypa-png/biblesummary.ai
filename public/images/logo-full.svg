@@ -8,23 +8,6 @@
   <!-- Gold cross -->
   <rect x="53" y="36" width="14" height="64" rx="3" fill="#C5A55A"/>
   <rect x="34" y="52" width="52" height="14" rx="3" fill="#C5A55A"/>
-  <!-- Open book at top -->
-  <g transform="translate(60, 24)">
-    <!-- Left page -->
-    <path d="M-2 0C-2 0-16 2-18 8L-18 20C-16 14-2 12-2 12V0z" fill="#F5F0E0" stroke="#C5A55A" stroke-width="1"/>
-    <!-- Right page -->
-    <path d="M2 0C2 0 16 2 18 8L18 20C16 14 2 12 2 12V0z" fill="#F5F0E0" stroke="#C5A55A" stroke-width="1"/>
-    <!-- Spine -->
-    <line x1="0" y1="0" x2="0" y2="13" stroke="#C5A55A" stroke-width="1.5"/>
-    <!-- Page lines left -->
-    <line x1="-14" y1="8" x2="-4" y2="6" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
-    <line x1="-14" y1="11" x2="-4" y2="9" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
-    <line x1="-14" y1="14" x2="-4" y2="12" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
-    <!-- Page lines right -->
-    <line x1="14" y1="8" x2="4" y2="6" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
-    <line x1="14" y1="11" x2="4" y2="9" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
-    <line x1="14" y1="14" x2="4" y2="12" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
-  </g>
   <!-- Combined text "BibleSummary.ai" using tspans for color control -->
   <text y="84" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="42" font-weight="700">
     <tspan x="130" fill="#2D2D2D">Bible</tspan><tspan fill="#7c5cfc">Summary</tspan><tspan fill="#2D2D2D">.ai</tspan>
