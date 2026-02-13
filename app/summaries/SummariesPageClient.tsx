@@ -56,17 +56,18 @@ export default function SummariesPageClient({ books }: { books: Book[] }) {
         }
       }
 
-      // Check for annual subscription
-      const { data: sub } = await supabase
+      // Check for annual or premium subscription
+      const { data: subs } = await supabase
         .from("subscriptions")
-        .select("status, current_period_end")
+        .select("type, status, current_period_end")
         .eq("user_id", user.id)
-        .eq("type", "summary_annual")
-        .maybeSingle();
+        .in("type", ["summary_annual", "premium_yearly"]);
 
-      const hasActiveSub = sub &&
-        (sub.status === "active" || sub.status === "canceled") &&
-        new Date(sub.current_period_end) > new Date();
+      const hasActiveSub = subs?.some(
+        (sub) =>
+          (sub.status === "active" || sub.status === "canceled") &&
+          new Date(sub.current_period_end) > new Date()
+      );
 
       setHasAnnualPass(hasLifetime || !!hasActiveSub);
       setPurchasedBookIds(ownedIds);
