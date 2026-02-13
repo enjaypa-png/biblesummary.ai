@@ -450,6 +450,19 @@ export default function BibleSummaryLanding() {
           }}>
             No credit card required · Free forever plan available
           </p>
+
+          <div style={{
+            marginTop: 20,
+            animation: "fadeUp 0.7s ease 0.5s both",
+          }}>
+            <Link href="/login" style={{
+              fontSize: 14,
+              color: "#8a8580",
+              textDecoration: "none",
+            }}>
+              Already have an account? <span style={{ color: "#7c5cfc", fontWeight: 600 }}>Sign in</span>
+            </Link>
+          </div>
         </div>
       </section>
 
