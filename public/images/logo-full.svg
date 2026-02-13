@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" fill="none">
   <!-- Shield body -->
-  <path d="M60 4L10 28v48c0 32 22 52 50 60 28-8 50-28 50-60V28L60 4z" fill="#9A6BFF"/>
+  <path d="M60 4L10 28v48c0 32 22 52 50 60 28-8 50-28 50-60V28L60 4z" fill="#7c5cfc"/>
   <!-- Shield gold border -->
   <path d="M60 4L10 28v48c0 32 22 52 50 60 28-8 50-28 50-60V28L60 4z" fill="none" stroke="#C5A55A" stroke-width="4"/>
   <!-- Inner shield darker shade -->
-  <path d="M60 12L16 33v41c0 28 19 46 44 53 25-7 44-25 44-53V33L60 12z" fill="#7C4DDB"/>
+  <path d="M60 12L16 33v41c0 28 19 46 44 53 25-7 44-25 44-53V33L60 12z" fill="#5b3fd4"/>
   <!-- Gold cross -->
   <rect x="53" y="36" width="14" height="64" rx="3" fill="#C5A55A"/>
   <rect x="34" y="52" width="52" height="14" rx="3" fill="#C5A55A"/>
   <!-- Combined text "BibleSummary.ai" using tspans for color control -->
   <text y="84" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="42" font-weight="700">
-    <tspan x="130" fill="#2D2D2D">Bible</tspan><tspan fill="#9A6BFF">Summary</tspan><tspan fill="#2D2D2D">.ai</tspan>
+    <tspan x="130" fill="#2D2D2D">Bible</tspan><tspan fill="#7c5cfc">Summary</tspan><tspan fill="#2D2D2D">.ai</tspan>
   </text>
 </svg>
