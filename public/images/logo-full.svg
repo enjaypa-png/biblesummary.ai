@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 140" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" fill="none">
   <!-- Shield body -->
   <path d="M60 4L10 28v48c0 32 22 52 50 60 28-8 50-28 50-60V28L60 4z" fill="#4A2D8A"/>
   <!-- Shield gold border -->
@@ -25,10 +25,8 @@
     <line x1="14" y1="11" x2="4" y2="9" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
     <line x1="14" y1="14" x2="4" y2="12" stroke="#C5A55A" stroke-width="0.5" opacity="0.5"/>
   </g>
-  <!-- Text: "Bible" -->
-  <text x="132" y="82" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="44" font-weight="700" fill="#2D2D2D">Bible</text>
-  <!-- Text: "Summary" -->
-  <text x="244" y="82" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="44" font-weight="700" fill="#7C5CBF">Summary</text>
-  <!-- Text: ".ai" -->
-  <text x="410" y="82" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="44" font-weight="700" fill="#2D2D2D">.ai</text>
+  <!-- Combined text "BibleSummary.ai" using tspans for color control -->
+  <text y="84" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="42" font-weight="700">
+    <tspan x="130" fill="#2D2D2D">Bible</tspan><tspan fill="#7C5CBF">Summary</tspan><tspan fill="#2D2D2D">.ai</tspan>
+  </text>
 </svg>
