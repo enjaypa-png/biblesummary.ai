@@ -18,6 +18,7 @@ function SignUpForm() {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [resending, setResending] = useState(false);
+  const [resendSuccess, setResendSuccess] = useState(false);
 
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -73,7 +74,12 @@ function SignUpForm() {
       });
 
       if (error) {
-        setError(error.message);
+        if (error.message.toLowerCase().includes("token has expired") || error.message.toLowerCase().includes("otp_expired")) {
+          setError("That code has expired. Tap \"Resend code\" below to get a new one.");
+          setOtpCode("");
+        } else {
+          setError(error.message);
+        }
         return;
       }
 
@@ -91,6 +97,7 @@ function SignUpForm() {
   const handleResend = async () => {
     setResending(true);
     setError(null);
+    setResendSuccess(false);
     try {
       const { error } = await supabase.auth.resend({
         type: "signup",
@@ -98,6 +105,9 @@ function SignUpForm() {
       });
       if (error) {
         setError(error.message);
+      } else {
+        setOtpCode("");
+        setResendSuccess(true);
       }
     } catch {
       setError("Could not resend code. Please try again.");
@@ -269,6 +279,11 @@ function SignUpForm() {
                       {error}
                     </div>
                   )}
+                  {resendSuccess && !error && (
+                    <div className="rounded-lg px-4 py-3 text-[13px]" style={{ backgroundColor: "#F0FDF4", color: "#16A34A", border: "1px solid #BBF7D0" }}>
+                      A new code has been sent to your email.
+                    </div>
+                  )}
 
                   <div>
                     <label htmlFor="otp" className="block text-[12px] uppercase tracking-wider font-semibold mb-2" style={{ color: "var(--secondary)" }}>
@@ -281,7 +296,7 @@ function SignUpForm() {
                       autoComplete="one-time-code"
                       required
                       value={otpCode}
-                      onChange={(e) => setOtpCode(e.target.value.replace(/\D/g, "").slice(0, 5))}
+                      onChange={(e) => { setOtpCode(e.target.value.replace(/\D/g, "").slice(0, 5)); setResendSuccess(false); }}
                       className="w-full px-4 py-3 rounded-lg text-[24px] font-semibold text-center tracking-[0.4em] outline-none"
                       style={inputStyle}
                       placeholder="00000"
