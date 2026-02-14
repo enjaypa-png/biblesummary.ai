@@ -13,21 +13,21 @@ export default function ExplainPaywall({
   isAuthenticated,
   onClose,
 }: ExplainPaywallProps) {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState<"monthly" | "premium" | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  async function handleSubscribe() {
-    setLoading(true);
+  async function handleSubscribe(plan: "monthly" | "premium") {
+    setLoading(plan);
     setError(null);
 
     const { url, error: checkoutError } = await startCheckout({
-      product: "explain_monthly",
+      product: plan === "monthly" ? "explain_monthly" : "premium_yearly",
       returnPath: typeof window !== "undefined" ? window.location.pathname : "/bible",
     });
 
     if (checkoutError) {
       setError(checkoutError);
-      setLoading(false);
+      setLoading(null);
       return;
     }
 
@@ -35,7 +35,7 @@ export default function ExplainPaywall({
       window.location.href = url;
     } else {
       setError("Unable to start checkout. Please try again.");
-      setLoading(false);
+      setLoading(null);
     }
   }
 
@@ -88,7 +88,7 @@ export default function ExplainPaywall({
         </span>
       </span>
 
-      {/* Copy - exact verbatim from spec */}
+      {/* Copy */}
       <span
         className="block text-[14px] leading-relaxed text-center mb-4"
         style={{ color: "var(--foreground)" }}
@@ -109,9 +109,10 @@ export default function ExplainPaywall({
         </span>
       ) : (
         <span className="block space-y-2">
+          {/* Monthly option */}
           <button
-            onClick={handleSubscribe}
-            disabled={loading}
+            onClick={() => handleSubscribe("monthly")}
+            disabled={loading !== null}
             className="w-full flex items-center justify-between px-4 py-3 rounded-xl text-left transition-all active:scale-[0.98] disabled:opacity-60"
             style={{
               backgroundColor: "var(--accent)",
@@ -120,17 +121,62 @@ export default function ExplainPaywall({
           >
             <span>
               <span className="block text-[14px] font-semibold">
-                Unlimited Explanations
+                Verse Explanations
               </span>
               <span className="block text-[12px] opacity-80">
                 Monthly subscription
               </span>
             </span>
             <span className="text-[16px] font-bold">
-              {loading ? (
+              {loading === "monthly" ? (
                 <span className="inline-block w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
               ) : (
                 "$4.99/mo"
+              )}
+            </span>
+          </button>
+
+          {/* Premium yearly option */}
+          <button
+            onClick={() => handleSubscribe("premium")}
+            disabled={loading !== null}
+            className="w-full flex items-center justify-between px-4 py-3 rounded-xl text-left transition-all active:scale-[0.98] disabled:opacity-60"
+            style={{
+              backgroundColor: "var(--background)",
+              border: "1.5px solid var(--accent)",
+              color: "var(--foreground)",
+            }}
+          >
+            <span>
+              <span className="flex items-center gap-2">
+                <span className="block text-[14px] font-semibold">
+                  Premium
+                </span>
+                <span
+                  className="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-full"
+                  style={{ backgroundColor: "var(--accent-light)", color: "var(--accent)" }}
+                >
+                  Best Value
+                </span>
+              </span>
+              <span
+                className="block text-[12px]"
+                style={{ color: "var(--secondary)" }}
+              >
+                Explanations + all summaries + audio
+              </span>
+            </span>
+            <span
+              className="text-[16px] font-bold"
+              style={{ color: "var(--accent)" }}
+            >
+              {loading === "premium" ? (
+                <span
+                  className="inline-block w-5 h-5 border-2 rounded-full animate-spin"
+                  style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
+                />
+              ) : (
+                "$59/yr"
               )}
             </span>
           </button>

@@ -4,30 +4,18 @@
   "description": "A modern Bible reading app with AI-powered summaries. Read, listen, and retain.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#faf9f7",
+  "background_color": "#ffffff",
   "theme_color": "#7c5cfc",
   "icons": [
     {
-      "src": "/images/favicon-16x16.png",
-      "sizes": "16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "/images/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "/images/icon-192x192.png",
+      "src": "/brand/logo-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "/images/icon-512x512.png",
+      "src": "/brand/logo-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }

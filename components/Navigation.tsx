@@ -23,22 +23,13 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <Link href="/" className="flex items-center">
-            {/* Full logo on desktop */}
             <Image
-              src="/images/logo-full.svg"
+              src="/brand/logo.png"
               alt="BibleSummary.ai"
-              width={220}
-              height={44}
-              className="hidden sm:block"
-              priority
-            />
-            {/* Icon only on mobile */}
-            <Image
-              src="/images/logo-icon.svg"
-              alt="BibleSummary.ai"
-              width={36}
-              height={42}
-              className="block sm:hidden"
+              width={160}
+              height={36}
+              className="h-8 sm:h-9 w-auto flex-shrink-0"
+              style={{ objectFit: "contain" }}
               priority
             />
           </Link>

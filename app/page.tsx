@@ -377,12 +377,12 @@ export default function BibleSummaryLanding() {
           {/* Logo */}
           <div style={{ marginBottom: 28, animation: "fadeUp 0.5s ease both" }}>
             <Image
-              src="/images/logo-full.svg"
+              src="/brand/logo.svg"
               alt="BibleSummary.ai"
-              width={280}
-              height={56}
+              width={400}
+              height={130}
               priority
-              style={{ margin: "0 auto", height: "auto" }}
+              style={{ margin: "0 auto", maxWidth: 400, width: "100%", height: "auto" }}
             />
           </div>
 
@@ -450,6 +450,19 @@ export default function BibleSummaryLanding() {
           }}>
             No credit card required · Free forever plan available
           </p>
+
+          <div style={{
+            marginTop: 20,
+            animation: "fadeUp 0.7s ease 0.5s both",
+          }}>
+            <Link href="/login" style={{
+              fontSize: 14,
+              color: "#8a8580",
+              textDecoration: "none",
+            }}>
+              Already have an account? <span style={{ color: "#7c5cfc", fontWeight: 600 }}>Sign in</span>
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -743,11 +756,11 @@ export default function BibleSummaryLanding() {
       }}>
         <div style={{ marginBottom: 16 }}>
           <Image
-            src="/images/logo-icon.svg"
+            src="/brand/logo-icon.svg"
             alt="BibleSummary.ai"
-            width={36}
-            height={42}
-            style={{ margin: "0 auto 12px", height: "auto" }}
+            width={40}
+            height={40}
+            style={{ margin: "0 auto 12px", height: "auto", objectFit: "contain" }}
           />
         </div>
         <div style={{
