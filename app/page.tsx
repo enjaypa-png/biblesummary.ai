@@ -395,30 +395,19 @@ export default function BibleSummaryLanding() {
             marginBottom: 20,
             animation: "fadeUp 0.7s ease both",
           }}>
-            Finally understand the Bible.<br />
-            <span style={{ color: "#7c5cfc" }}>Understand</span> what you read.
+            Reading the Bible shouldn&apos;t feel like{" "}
+            <span style={{ color: "#7c5cfc" }}>homework.</span>
           </h1>
 
           <p style={{
             fontSize: 18,
             lineHeight: 1.65,
-            color: "#1a1510",
+            color: "#3a3530",
             maxWidth: 540,
-            margin: "0 auto 16px",
+            margin: "0 auto 36px",
             animation: "fadeUp 0.7s ease 0.15s both",
           }}>
-            Learn, remember, and apply its lessons using powerful AI book summaries and verse explanations.
-          </p>
-
-          <p style={{
-            fontSize: 15,
-            lineHeight: 1.6,
-            color: "#8a8580",
-            maxWidth: 500,
-            margin: "0 auto 36px",
-            animation: "fadeUp 0.7s ease 0.2s both",
-          }}>
-            Reap the rewards that come from truly understanding what you read.
+            AI-powered summaries and verse explanations that make every chapter click.
           </p>
 
           <div style={{
@@ -474,6 +463,47 @@ export default function BibleSummaryLanding() {
               Already have an account? <span style={{ color: "#7c5cfc", fontWeight: 600 }}>Sign in</span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════ ORIGIN STORY ═══════════════════ */}
+      <section style={{
+        padding: "64px 24px",
+        textAlign: "center",
+        background: "#fff",
+        borderTop: "1px solid #eee",
+        borderBottom: "1px solid #eee",
+      }}>
+        <div style={{ maxWidth: 600, margin: "0 auto", animation: "fadeUp 0.7s ease both" }}>
+          <div style={{
+            fontFamily: "'Source Serif 4', Georgia, serif",
+            fontSize: "clamp(20px, 3.5vw, 26px)",
+            fontWeight: 400,
+            fontStyle: "italic",
+            lineHeight: 1.8,
+            color: "#3a3530",
+          }}>
+            <p style={{ margin: "0 0 8px" }}>I tried to read it cover-to-cover.</p>
+            <p style={{ margin: "0 0 8px" }}>I got overwhelmed.</p>
+            <p style={{ margin: "0 0 8px" }}>I forgot what I read.</p>
+            <p style={{ margin: "0 0 8px" }}>I picked it up again and realized I didn&apos;t retain it.</p>
+            <p style={{
+              margin: "24px 0 0",
+              fontStyle: "normal",
+              fontWeight: 700,
+              color: "#1a1510",
+            }}>
+              So I built something to help with that.
+            </p>
+          </div>
+          <div style={{
+            marginTop: 28,
+            width: 48,
+            height: 3,
+            background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+            borderRadius: 2,
+            margin: "28px auto 0",
+          }} />
         </div>
       </section>
 
