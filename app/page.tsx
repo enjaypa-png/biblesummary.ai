@@ -395,7 +395,7 @@ export default function BibleSummaryLanding() {
             marginBottom: 20,
             animation: "fadeUp 0.7s ease both",
           }}>
-            Reading the Bible shouldn&apos;t feel like{" "}
+            <span style={{ color: "#7c5cfc" }}>Reading</span> the Bible shouldn&apos;t feel like{" "}
             <span style={{ color: "#7c5cfc" }}>homework.</span>
           </h1>
 
