@@ -395,19 +395,30 @@ export default function BibleSummaryLanding() {
             marginBottom: 20,
             animation: "fadeUp 0.7s ease both",
           }}>
-            Read the Bible.<br />
+            Finally understand the Bible.<br />
             <span style={{ color: "#7c5cfc" }}>Understand</span> what you read.
           </h1>
 
           <p style={{
             fontSize: 18,
             lineHeight: 1.65,
-            color: "#6a655e",
-            maxWidth: 500,
-            margin: "0 auto 36px",
+            color: "#1a1510",
+            maxWidth: 540,
+            margin: "0 auto 16px",
             animation: "fadeUp 0.7s ease 0.15s both",
           }}>
-            The full King James Bible with audio — plus AI-powered explanations that make every verse clear.
+            Learn, remember, and apply its lessons using powerful AI book summaries and verse explanations.
+          </p>
+
+          <p style={{
+            fontSize: 15,
+            lineHeight: 1.6,
+            color: "#8a8580",
+            maxWidth: 500,
+            margin: "0 auto 36px",
+            animation: "fadeUp 0.7s ease 0.2s both",
+          }}>
+            Reap the rewards that come from truly understanding what you read.
           </p>
 
           <div style={{
