@@ -477,6 +477,47 @@ export default function BibleSummaryLanding() {
         </div>
       </section>
 
+      {/* ═══════════════════ ORIGIN STORY ═══════════════════ */}
+      <section style={{
+        padding: "64px 24px",
+        textAlign: "center",
+        background: "#fff",
+        borderTop: "1px solid #eee",
+        borderBottom: "1px solid #eee",
+      }}>
+        <div style={{ maxWidth: 600, margin: "0 auto", animation: "fadeUp 0.7s ease both" }}>
+          <div style={{
+            fontFamily: "'Source Serif 4', Georgia, serif",
+            fontSize: "clamp(20px, 3.5vw, 26px)",
+            fontWeight: 400,
+            fontStyle: "italic",
+            lineHeight: 1.8,
+            color: "#3a3530",
+          }}>
+            <p style={{ margin: "0 0 8px" }}>I tried to read it cover-to-cover.</p>
+            <p style={{ margin: "0 0 8px" }}>I got overwhelmed.</p>
+            <p style={{ margin: "0 0 8px" }}>I forgot what I read.</p>
+            <p style={{ margin: "0 0 8px" }}>I picked it up again and realized I didn&apos;t retain it.</p>
+            <p style={{
+              margin: "24px 0 0",
+              fontStyle: "normal",
+              fontWeight: 700,
+              color: "#1a1510",
+            }}>
+              So I built something to help with that.
+            </p>
+          </div>
+          <div style={{
+            marginTop: 28,
+            width: 48,
+            height: 3,
+            background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+            borderRadius: 2,
+            margin: "28px auto 0",
+          }} />
+        </div>
+      </section>
+
       {/* ═══════════════════ INTERACTIVE DEMO ═══════════════════ */}
       <section style={{
         padding: "40px 24px 80px",
