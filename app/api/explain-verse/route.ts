@@ -55,7 +55,7 @@ function parseAndNormalize(input: {
     const chapter = parseInt(String(input.chapter), 10);
     const verse_start = parseInt(String(input.verse_start), 10);
     const verse_end =
-      input.verse_end != null && input.verse_end !== ""
+      input.verse_end != null
         ? parseInt(String(input.verse_end), 10)
         : null;
     if (isNaN(chapter) || isNaN(verse_start) || !input.book.trim()) return null;
