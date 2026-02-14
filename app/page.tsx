@@ -377,12 +377,12 @@ export default function BibleSummaryLanding() {
           {/* Logo */}
           <div style={{ marginBottom: 28, animation: "fadeUp 0.5s ease both" }}>
             <Image
-              src="/images/logo-full.svg"
+              src="/brand/logo.svg"
               alt="BibleSummary.ai"
-              width={280}
-              height={56}
+              width={400}
+              height={130}
               priority
-              style={{ margin: "0 auto", height: "auto" }}
+              style={{ margin: "0 auto", maxWidth: 400, width: "100%", height: "auto" }}
             />
           </div>
 
@@ -756,11 +756,11 @@ export default function BibleSummaryLanding() {
       }}>
         <div style={{ marginBottom: 16 }}>
           <Image
-            src="/images/logo-icon.svg"
+            src="/brand/logo-icon.svg"
             alt="BibleSummary.ai"
-            width={36}
-            height={42}
-            style={{ margin: "0 auto 12px", height: "auto" }}
+            width={40}
+            height={40}
+            style={{ margin: "0 auto 12px", height: "auto", objectFit: "contain" }}
           />
         </div>
         <div style={{
