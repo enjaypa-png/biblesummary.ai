@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 200" fill="none">
+  <defs>
+    <linearGradient id="bookGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="bookSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="pageGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="ribbonGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0e7ff"/>
+      <stop offset="50%" stop-color="#c7d2fe"/>
+      <stop offset="100%" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <filter id="bookShadow" x="-20%" y="-10%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#6d28d9" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- === Book Icon (scaled to fit left side) === -->
+  <g transform="translate(10, 15) scale(0.85)">
+    <!-- Ribbon / page curl behind book -->
+    <path d="M30 150 Q50 170 100 165 Q150 160 175 175 Q155 155 100 155 Q55 155 30 150z" fill="url(#ribbonGrad)" opacity="0.7"/>
+    <path d="M25 148 Q45 138 100 140 Q155 142 180 155 Q160 145 100 145 Q50 145 25 148z" fill="url(#ribbonGrad)" opacity="0.5"/>
+
+    <!-- Book spine / side -->
+    <rect x="35" y="40" width="12" height="120" rx="3" fill="url(#bookSide)" transform="skewY(-2)"/>
+
+    <!-- Page edges -->
+    <rect x="46" y="38" width="6" height="118" rx="1" fill="url(#pageGrad)" transform="skewY(-1)"/>
+
+    <!-- Book cover (front) -->
+    <rect x="50" y="30" width="110" height="130" rx="12" fill="url(#bookGrad)" filter="url(#bookShadow)"/>
+
+    <!-- Book cover inner border -->
+    <rect x="58" y="38" width="94" height="114" rx="8" fill="none" stroke="#9333ea" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Gold cross -->
+    <rect x="98" y="58" width="14" height="56" rx="4" fill="#f59e0b"/>
+    <rect x="82" y="74" width="46" height="14" rx="4" fill="#f59e0b"/>
+    <!-- Cross highlight -->
+    <rect x="100" y="60" width="5" height="52" rx="2" fill="#fbbf24" opacity="0.6"/>
+    <rect x="84" y="76" width="42" height="5" rx="2" fill="#fbbf24" opacity="0.6"/>
+
+    <!-- Sparkles -->
+    <g transform="translate(148, 22)">
+      <path d="M0 -10 L2.5 -2.5 L10 0 L2.5 2.5 L0 10 L-2.5 2.5 L-10 0 L-2.5 -2.5z" fill="#a855f7"/>
+    </g>
+    <g transform="translate(135, 12)">
+      <path d="M0 -5 L1.2 -1.2 L5 0 L1.2 1.2 L0 5 L-1.2 1.2 L-5 0 L-1.2 -1.2z" fill="#c084fc"/>
+    </g>
+    <g transform="translate(160, 38)">
+      <path d="M0 -4 L1 -1 L4 0 L1 1 L0 4 L-1 1 L-4 0 L-1 -1z" fill="#d8b4fe" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- === Text === -->
+  <!-- "BibleSummary.ai" -->
+  <text y="95" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="46" font-weight="700">
+    <tspan x="200" fill="#1a1a2e">Bible</tspan><tspan fill="#1a1a2e">Summary</tspan><tspan fill="#7c3aed">.ai</tspan>
+  </text>
+  <!-- Subtitle -->
+  <text x="200" y="125" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="20" font-weight="400" fill="#6b7280">
+    AI-Powered Bible Summaries
+  </text>
+</svg>

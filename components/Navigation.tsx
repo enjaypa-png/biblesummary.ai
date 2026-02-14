@@ -22,25 +22,23 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
-          <Link href="/" className="flex items-center">
-            {/* Full logo on desktop */}
+          <Link href="/" className="flex items-center gap-2 sm:gap-3">
+            {/* Book icon — always visible */}
             <Image
-              src="/images/logo-full.svg"
-              alt="BibleSummary.ai"
-              width={220}
-              height={44}
-              className="hidden sm:block"
-              priority
-            />
-            {/* Icon only on mobile */}
-            <Image
-              src="/images/logo-icon.svg"
+              src="/brand/logo-icon.svg"
               alt="BibleSummary.ai"
               width={36}
-              height={42}
-              className="block sm:hidden"
+              height={36}
+              className="h-8 w-8 sm:h-9 sm:w-9 flex-shrink-0"
+              style={{ objectFit: "contain" }}
               priority
             />
+            {/* Brand text — hidden on mobile */}
+            <span className="hidden sm:inline text-lg font-bold tracking-tight" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+              <span className="text-gray-900 dark:text-white">Bible</span>
+              <span className="text-gray-900 dark:text-white">Summary</span>
+              <span style={{ color: "#7c3aed" }}>.ai</span>
+            </span>
           </Link>
 
           {/* Navigation Links */}
