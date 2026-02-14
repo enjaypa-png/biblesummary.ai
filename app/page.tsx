@@ -483,7 +483,7 @@ export default function BibleSummaryLanding() {
             lineHeight: 1.8,
             color: "#3a3530",
           }}>
-            <p style={{ margin: "0 0 8px" }}>(I tried to read it cover-to-cover.</p>
+            <p style={{ margin: "0 0 8px" }}>&ldquo;I tried to read it cover-to-cover.</p>
             <p style={{ margin: "0 0 8px" }}>I got overwhelmed.</p>
             <p style={{ margin: "0 0 8px" }}>I forgot what I read.</p>
             <p style={{ margin: "0 0 8px" }}>I picked it up again and realized I didn&apos;t retain it.</p>
@@ -493,7 +493,7 @@ export default function BibleSummaryLanding() {
               fontWeight: 700,
               color: "#1a1510",
             }}>
-              So I built something to help with that.)
+              So I built something to help with that.&rdquo;
             </p>
           </div>
           <p style={{
@@ -504,7 +504,7 @@ export default function BibleSummaryLanding() {
             fontFamily: "'DM Sans', sans-serif",
             letterSpacing: 0.5,
           }}>
-            Nicholas, Founder
+            Nicholas Palladino, Founder
           </p>
           <div style={{
             marginTop: 20,
