@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description: "A modern Bible reading app with AI-powered summaries. Read, listen, and retain. Always free Bible text.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   themeColor: "#7c5cfc",
+  icons: {
+    icon: "/brand/logo-192.png",
+    apple: "/brand/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -29,7 +33,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600;700&family=Spectral:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/brand/logo-192.png" />
         <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
         <meta property="og:image" content="/brand/logo-512.png" />
         <meta name="theme-color" content="#7c5cfc" />
