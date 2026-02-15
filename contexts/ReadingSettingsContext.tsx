@@ -5,11 +5,27 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 export type FontFamily = "Libre Baskerville" | "Spectral" | "Source Sans 3" | "System";
 export type ThemeMode = "light" | "sepia" | "gray" | "dark";
 
+// Default narrator voice (Daniel)
+export const DEFAULT_VOICE_ID = "onwK4e9ZLuTAKqWW03F9";
+
+// All available narrator voices
+export const VOICE_IDS = [
+  "onwK4e9ZLuTAKqWW03F9",
+  "Xn1azbd8NmVXRrY94yrw",
+  "vIpTnd6yyGAk2tJwEHLY",
+  "iN4bGoWlozzDpJuOdZjH",
+  "W0CVI7WJhHuV2vFY3VcB",
+  "zwbQ2XUiIlOKD6b3JWXd",
+  "h8LZpYr8y3VBz0q2x0LP",
+  "CVRACyqNcQefTlxMj9bt",
+] as const;
+
 interface ReadingSettings {
   fontFamily: FontFamily;
   fontSize: number;
   lineHeight: number;
   themeMode: ThemeMode;
+  voiceId: string;
 }
 
 interface ReadingSettingsContextType {
@@ -18,6 +34,7 @@ interface ReadingSettingsContextType {
   setFontSize: (size: number) => void;
   setLineHeight: (height: number) => void;
   setThemeMode: (mode: ThemeMode) => void;
+  setVoiceId: (voiceId: string) => void;
   isPanelOpen: boolean;
   openPanel: () => void;
   closePanel: () => void;
@@ -28,6 +45,7 @@ const defaultSettings: ReadingSettings = {
   fontSize: 18,
   lineHeight: 1.9,
   themeMode: "light",
+  voiceId: DEFAULT_VOICE_ID,
 };
 
 const ReadingSettingsContext = createContext<ReadingSettingsContextType | null>(null);
@@ -88,6 +106,7 @@ export function ReadingSettingsProvider({ children }: { children: React.ReactNod
           fontSize: parsed.fontSize || defaultSettings.fontSize,
           lineHeight: parsed.lineHeight || defaultSettings.lineHeight,
           themeMode: parsed.themeMode || defaultSettings.themeMode,
+          voiceId: parsed.voiceId || defaultSettings.voiceId,
         });
       } catch (e) {
         console.error("Failed to parse reading settings:", e);
@@ -119,6 +138,10 @@ export function ReadingSettingsProvider({ children }: { children: React.ReactNod
     setSettings((prev) => ({ ...prev, themeMode: mode }));
   }, []);
 
+  const setVoiceId = useCallback((voiceId: string) => {
+    setSettings((prev) => ({ ...prev, voiceId }));
+  }, []);
+
   const openPanel = useCallback(() => setIsPanelOpen(true), []);
   const closePanel = useCallback(() => setIsPanelOpen(false), []);
 
@@ -128,6 +151,7 @@ export function ReadingSettingsProvider({ children }: { children: React.ReactNod
     setFontSize,
     setLineHeight,
     setThemeMode,
+    setVoiceId,
     isPanelOpen,
     openPanel,
     closePanel,
