@@ -412,7 +412,7 @@ export default function BibleSummaryLanding() {
 
           <div style={{
             display: "flex",
-            gap: 16,
+            gap: 14,
             justifyContent: "center",
             alignItems: "center",
             flexWrap: "wrap",
@@ -430,15 +430,21 @@ export default function BibleSummaryLanding() {
               transition: "transform 0.2s ease, box-shadow 0.2s ease",
               boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
             }}>
-              Start Reading — It&apos;s Free
+              Create Free Account
             </Link>
-            <Link href="/pricing" style={{
-              fontSize: 15,
-              fontWeight: 600,
+            <Link href="/login" style={{
+              display: "inline-block",
+              padding: "15px 36px",
+              fontSize: 16,
+              fontWeight: 700,
               color: "#7c5cfc",
+              background: "#fff",
+              border: "2px solid #7c5cfc",
+              borderRadius: 12,
               textDecoration: "none",
+              transition: "transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease",
             }}>
-              View Pricing →
+              Sign In
             </Link>
           </div>
 
@@ -452,15 +458,16 @@ export default function BibleSummaryLanding() {
           </p>
 
           <div style={{
-            marginTop: 20,
+            marginTop: 16,
             animation: "fadeUp 0.7s ease 0.5s both",
           }}>
-            <Link href="/login" style={{
-              fontSize: 14,
-              color: "#8a8580",
+            <Link href="/pricing" style={{
+              fontSize: 15,
+              fontWeight: 600,
+              color: "#7c5cfc",
               textDecoration: "none",
             }}>
-              Already have an account? <span style={{ color: "#7c5cfc", fontWeight: 600 }}>Sign in</span>
+              View Pricing →
             </Link>
           </div>
         </div>
@@ -483,17 +490,15 @@ export default function BibleSummaryLanding() {
             lineHeight: 1.8,
             color: "#3a3530",
           }}>
-            <p style={{ margin: "0 0 8px" }}>&ldquo;I tried to read it cover-to-cover.</p>
-            <p style={{ margin: "0 0 8px" }}>I got overwhelmed.</p>
-            <p style={{ margin: "0 0 8px" }}>I forgot what I read.</p>
-            <p style={{ margin: "0 0 8px" }}>I picked it up again and realized I didn&apos;t retain it.</p>
+            <p style={{ margin: "0 0 8px" }}>&ldquo;Reading the Bible changed my life.</p>
+            <p style={{ margin: "0 0 8px" }}>But I realized remembering it is just as important as reading it.</p>
             <p style={{
               margin: "24px 0 0",
               fontStyle: "normal",
               fontWeight: 700,
               color: "#1a1510",
             }}>
-              So I built something to help with that.&rdquo;
+              So I built a tool designed to help people understand and retain what they read.&rdquo;
             </p>
           </div>
           <p style={{
@@ -504,7 +509,7 @@ export default function BibleSummaryLanding() {
             fontFamily: "'DM Sans', sans-serif",
             letterSpacing: 0.5,
           }}>
-            Nicholas Palladino, Founder
+            — Nicholas Palladino, Founder
           </p>
           <div style={{
             marginTop: 20,
@@ -773,27 +778,40 @@ export default function BibleSummaryLanding() {
         }}>
           Start reading the full King James Bible today — completely free. Upgrade anytime.
         </p>
-        <Link href="/signup" style={{
-          display: "inline-block",
-          padding: "16px 40px",
-          fontSize: 17,
-          fontWeight: 700,
-          color: "#fff",
-          background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
-          borderRadius: 12,
-          textDecoration: "none",
-          boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
-          transition: "transform 0.2s ease, box-shadow 0.2s ease",
+        <div style={{
+          display: "flex",
+          gap: 14,
+          justifyContent: "center",
+          alignItems: "center",
+          flexWrap: "wrap",
         }}>
-          Start Reading — It&apos;s Free
-        </Link>
-        <div style={{ marginTop: 16 }}>
-          <Link href="/login" style={{
-            fontSize: 14,
-            color: "#8a8580",
+          <Link href="/signup" style={{
+            display: "inline-block",
+            padding: "16px 40px",
+            fontSize: 17,
+            fontWeight: 700,
+            color: "#fff",
+            background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+            borderRadius: 12,
             textDecoration: "none",
+            boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
+            transition: "transform 0.2s ease, box-shadow 0.2s ease",
           }}>
-            Already have an account? <span style={{ color: "#7c5cfc", fontWeight: 600 }}>Sign in</span>
+            Create Free Account
+          </Link>
+          <Link href="/login" style={{
+            display: "inline-block",
+            padding: "16px 40px",
+            fontSize: 17,
+            fontWeight: 700,
+            color: "#7c5cfc",
+            background: "#fff",
+            border: "2px solid #7c5cfc",
+            borderRadius: 12,
+            textDecoration: "none",
+            transition: "transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease",
+          }}>
+            Sign In
           </Link>
         </div>
       </section>
