@@ -13,11 +13,11 @@ export default function Footer() {
       <div className="max-w-lg mx-auto">
         <div className="flex justify-center mb-4">
           <Image
-            src="/images/logo-icon.svg"
+            src="/brand/logo-icon.svg"
             alt="BibleSummary.ai"
-            width={32}
-            height={38}
-            style={{ height: "auto" }}
+            width={36}
+            height={36}
+            style={{ height: "auto", objectFit: "contain" }}
           />
         </div>
         <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-[13px]">

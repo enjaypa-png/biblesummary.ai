@@ -2,6 +2,7 @@
 
 import React, { createContext, useContext, useState, useRef, useCallback, useEffect } from "react";
 import { supabase } from "@/lib/supabase";
+import { useReadingSettings } from "@/contexts/ReadingSettingsContext";
 
 interface Book {
   id: string;
@@ -56,6 +57,10 @@ export function useAudioPlayer() {
 }
 
 export function AudioPlayerProvider({ children }: { children: React.ReactNode }) {
+  const { settings } = useReadingSettings();
+  const voiceIdRef = useRef(settings.voiceId);
+  voiceIdRef.current = settings.voiceId;
+
   // Books cache
   const [books, setBooks] = useState<Book[]>([]);
 
@@ -209,7 +214,7 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
         const res = await fetch("/api/tts", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ text: verse.text }),
+          body: JSON.stringify({ text: verse.text, voiceId: voiceIdRef.current }),
           signal: abortSignal,
         });
 

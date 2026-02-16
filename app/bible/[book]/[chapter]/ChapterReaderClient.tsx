@@ -77,6 +77,12 @@ export default function ChapterReaderClient({
   const [explanation, setExplanation] = useState<string | null>(null);
   const { addToCache, getFromCache } = useExplanationCache();
 
+  // Explain TTS (read explanation aloud)
+  type ExplainTtsState = "idle" | "loading" | "playing" | "paused";
+  const [explainTtsState, setExplainTtsState] = useState<ExplainTtsState>("idle");
+  const explainAudioRef = useRef<HTMLAudioElement | null>(null);
+  const explainAbortRef = useRef(false);
+
   // Explain entitlement
   const [hasExplainAccess, setHasExplainAccess] = useState<boolean | null>(null);
 
@@ -307,8 +313,21 @@ export default function ChapterReaderClient({
       setNoteText("");
       setExplainStatus("idle");
       setExplanation(null);
+      explainAbortRef.current = true;
+      if (explainAudioRef.current) {
+        explainAudioRef.current.pause();
+        explainAudioRef.current = null;
+      }
+      setExplainTtsState("idle");
       return;
     }
+    // Stop any playing explanation TTS when switching verses
+    explainAbortRef.current = true;
+    if (explainAudioRef.current) {
+      explainAudioRef.current.pause();
+      explainAudioRef.current = null;
+    }
+    setExplainTtsState("idle");
     // Show plus button for this verse
     setActiveVerse(verseNum);
     setShowToolbar(false);
@@ -341,6 +360,13 @@ export default function ChapterReaderClient({
     setNoteText("");
     setExplainStatus("idle");
     setExplanation(null);
+    // Stop explanation TTS
+    explainAbortRef.current = true;
+    if (explainAudioRef.current) {
+      explainAudioRef.current.pause();
+      explainAudioRef.current = null;
+    }
+    setExplainTtsState("idle");
   }
 
   async function handleShare(verseNum: number, verseText: string) {
@@ -424,6 +450,72 @@ export default function ChapterReaderClient({
       setExplainStatus("error");
     }
   }
+
+  async function playExplanationAudio() {
+    if (!explanation?.trim()) return;
+    explainAbortRef.current = false;
+    setExplainTtsState("loading");
+    try {
+      const res = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: explanation.trim() }),
+      });
+      if (!res.ok || explainAbortRef.current) {
+        setExplainTtsState("idle");
+        return;
+      }
+      const blob = await res.blob();
+      if (explainAbortRef.current) {
+        setExplainTtsState("idle");
+        return;
+      }
+      const url = URL.createObjectURL(blob);
+      const audio = new Audio(url);
+      explainAudioRef.current = audio;
+      audio.onended = () => {
+        URL.revokeObjectURL(url);
+        explainAudioRef.current = null;
+        setExplainTtsState("idle");
+      };
+      audio.onerror = () => {
+        URL.revokeObjectURL(url);
+        explainAudioRef.current = null;
+        setExplainTtsState("idle");
+      };
+      await audio.play();
+      setExplainTtsState("playing");
+    } catch {
+      setExplainTtsState("idle");
+    }
+  }
+
+  function handleExplainTtsToggle() {
+    if (explainTtsState === "idle") playExplanationAudio();
+    else if (explainTtsState === "playing") {
+      explainAudioRef.current?.pause();
+      setExplainTtsState("paused");
+    } else if (explainTtsState === "paused") {
+      explainAudioRef.current?.play();
+      setExplainTtsState("playing");
+    } else if (explainTtsState === "loading") {
+      explainAbortRef.current = true;
+      explainAudioRef.current?.pause();
+      explainAudioRef.current = null;
+      setExplainTtsState("idle");
+    }
+  }
+
+  // Stop explanation TTS when verse changes or component unmounts
+  useEffect(() => {
+    return () => {
+      explainAbortRef.current = true;
+      if (explainAudioRef.current) {
+        explainAudioRef.current.pause();
+        explainAudioRef.current = null;
+      }
+    };
+  }, [activeVerse]);
 
   async function saveNote() {
     if (!user || !activeVerse || !noteText.trim()) return;
@@ -966,8 +1058,52 @@ export default function ChapterReaderClient({
                     style={{ backgroundColor: theme.card, border: `1px solid ${theme.border}`, fontFamily: "'Inter', sans-serif" }}
                   >
                     <span className="flex items-start justify-between gap-3 mb-2">
-                      <span className="text-[12px] uppercase tracking-wider font-semibold" style={{ color: "var(--accent)" }}>
-                        Explanation
+                      <span className="flex items-center gap-2">
+                        <span className="text-[12px] uppercase tracking-wider font-semibold" style={{ color: "var(--accent)" }}>
+                          Explanation
+                        </span>
+                        <button
+                          onClick={handleExplainTtsToggle}
+                          className="flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold active:opacity-70 transition-all"
+                          style={{
+                            backgroundColor: explainTtsState === "playing" || explainTtsState === "paused" ? "var(--accent)" : theme.background,
+                            color: explainTtsState === "playing" || explainTtsState === "paused" ? "white" : theme.text,
+                            border: explainTtsState === "playing" || explainTtsState === "paused" ? "none" : `1px solid ${theme.border}`,
+                          }}
+                          title={explainTtsState === "playing" ? "Pause" : explainTtsState === "paused" ? "Resume" : "Listen"}
+                        >
+                          {explainTtsState === "loading" ? (
+                            <>
+                              <div
+                                className="w-3 h-3 border-2 rounded-full animate-spin flex-shrink-0"
+                                style={{ borderColor: theme.border, borderTopColor: "var(--accent)" }}
+                              />
+                              Loading...
+                            </>
+                          ) : explainTtsState === "playing" ? (
+                            <>
+                              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" className="flex-shrink-0">
+                                <rect x="6" y="4" width="4" height="16" rx="1" />
+                                <rect x="14" y="4" width="4" height="16" rx="1" />
+                              </svg>
+                              Pause
+                            </>
+                          ) : explainTtsState === "paused" ? (
+                            <>
+                              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" className="flex-shrink-0">
+                                <polygon points="6,4 20,12 6,20" />
+                              </svg>
+                              Resume
+                            </>
+                          ) : (
+                            <>
+                              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
+                                <polygon points="5,3 19,12 5,21" />
+                              </svg>
+                              Listen
+                            </>
+                          )}
+                        </button>
                       </span>
                       <button
                         onClick={handleCloseActions}

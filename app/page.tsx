@@ -377,12 +377,12 @@ export default function BibleSummaryLanding() {
           {/* Logo */}
           <div style={{ marginBottom: 28, animation: "fadeUp 0.5s ease both" }}>
             <Image
-              src="/images/logo-full.svg"
+              src="/brand/logo.svg"
               alt="BibleSummary.ai"
-              width={280}
-              height={56}
+              width={400}
+              height={130}
               priority
-              style={{ margin: "0 auto", height: "auto" }}
+              style={{ margin: "0 auto", maxWidth: 400, width: "100%", height: "auto" }}
             />
           </div>
 
@@ -395,19 +395,19 @@ export default function BibleSummaryLanding() {
             marginBottom: 20,
             animation: "fadeUp 0.7s ease both",
           }}>
-            Read the Bible.<br />
-            <span style={{ color: "#7c5cfc" }}>Understand</span> what you read.
+            <span style={{ color: "#7c5cfc" }}>Reading</span> the Bible shouldn&apos;t feel like{" "}
+            <span style={{ color: "#7c5cfc" }}>homework.</span>
           </h1>
 
           <p style={{
             fontSize: 18,
             lineHeight: 1.65,
-            color: "#6a655e",
-            maxWidth: 500,
+            color: "#3a3530",
+            maxWidth: 540,
             margin: "0 auto 36px",
             animation: "fadeUp 0.7s ease 0.15s both",
           }}>
-            The full King James Bible with audio — plus AI-powered explanations that make every verse clear.
+            AI-powered summaries and verse explanations that make every chapter click.
           </p>
 
           <div style={{
@@ -463,6 +463,57 @@ export default function BibleSummaryLanding() {
               Already have an account? <span style={{ color: "#7c5cfc", fontWeight: 600 }}>Sign in</span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════ ORIGIN STORY ═══════════════════ */}
+      <section style={{
+        padding: "64px 24px",
+        textAlign: "center",
+        background: "#fff",
+        borderTop: "1px solid #eee",
+        borderBottom: "1px solid #eee",
+      }}>
+        <div style={{ maxWidth: 600, margin: "0 auto", animation: "fadeUp 0.7s ease both" }}>
+          <div style={{
+            fontFamily: "'Source Serif 4', Georgia, serif",
+            fontSize: "clamp(20px, 3.5vw, 26px)",
+            fontWeight: 400,
+            fontStyle: "italic",
+            lineHeight: 1.8,
+            color: "#3a3530",
+          }}>
+            <p style={{ margin: "0 0 8px" }}>&ldquo;I tried to read it cover-to-cover.</p>
+            <p style={{ margin: "0 0 8px" }}>I got overwhelmed.</p>
+            <p style={{ margin: "0 0 8px" }}>I forgot what I read.</p>
+            <p style={{ margin: "0 0 8px" }}>I picked it up again and realized I didn&apos;t retain it.</p>
+            <p style={{
+              margin: "24px 0 0",
+              fontStyle: "normal",
+              fontWeight: 700,
+              color: "#1a1510",
+            }}>
+              So I built something to help with that.&rdquo;
+            </p>
+          </div>
+          <p style={{
+            marginTop: 20,
+            fontSize: 15,
+            fontWeight: 600,
+            color: "#8a8580",
+            fontFamily: "'DM Sans', sans-serif",
+            letterSpacing: 0.5,
+          }}>
+            Nicholas Palladino, Founder
+          </p>
+          <div style={{
+            marginTop: 20,
+            width: 48,
+            height: 3,
+            background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+            borderRadius: 2,
+            margin: "20px auto 0",
+          }} />
         </div>
       </section>
 
@@ -756,11 +807,11 @@ export default function BibleSummaryLanding() {
       }}>
         <div style={{ marginBottom: 16 }}>
           <Image
-            src="/images/logo-icon.svg"
+            src="/brand/logo-icon.svg"
             alt="BibleSummary.ai"
-            width={36}
-            height={42}
-            style={{ margin: "0 auto 12px", height: "auto" }}
+            width={40}
+            height={40}
+            style={{ margin: "0 auto 12px", height: "auto", objectFit: "contain" }}
           />
         </div>
         <div style={{

@@ -311,6 +311,68 @@ export default function BibleIndex({ books }: { books: Book[] }) {
               );
             })}
           </div>
+
+          {/* Search + Testament toggle — sticky when on Books tab */}
+          {activeTab === "books" && (
+            <>
+              <div className="mt-4">
+                <div
+                  className="flex items-center gap-2 px-3 py-2.5 rounded-xl"
+                  style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--secondary)", flexShrink: 0 }}>
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.3-4.3" />
+                  </svg>
+                  <input
+                    type="text"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" && parsedReference) {
+                        handleGoToReference();
+                      }
+                    }}
+                    placeholder="Search books or type a reference..."
+                    className="flex-1 bg-transparent text-[15px] outline-none"
+                    style={{ color: "var(--foreground)" }}
+                  />
+                  {searchQuery && (
+                    <button
+                      onClick={() => setSearchQuery("")}
+                      className="p-1 rounded-full active:opacity-70"
+                      style={{ color: "var(--secondary)" }}
+                    >
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M18 6L6 18M6 6l12 12" />
+                      </svg>
+                    </button>
+                  )}
+                </div>
+              </div>
+
+              <div className="flex gap-0 mt-3 mb-2">
+                {(["Old", "New"] as const).map((t) => (
+                  <button
+                    key={t}
+                    onClick={() => { setTestament(t); setSearchQuery(""); }}
+                    className="flex-1 pb-2.5 text-[15px] font-semibold tracking-wide relative transition-colors"
+                    style={{
+                      color: testament === t ? "var(--foreground)" : "var(--foreground-secondary)",
+                    }}
+                  >
+                    {t} Testament
+                    {testament === t && (
+                      <span
+                        className="absolute bottom-0 left-[15%] right-[15%] h-[2.5px] rounded-full"
+                        style={{ backgroundColor: "var(--accent)" }}
+                      />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </>
+          )}
         </div>
       </header>
 
@@ -343,43 +405,6 @@ export default function BibleIndex({ books }: { books: Book[] }) {
         {/* Books Tab */}
         {activeTab === "books" && (
           <>
-            {/* Search */}
-            <div className="mb-4">
-              <div
-                className="flex items-center gap-2 px-3 py-2.5 rounded-xl"
-                style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--secondary)", flexShrink: 0 }}>
-                  <circle cx="11" cy="11" r="8" />
-                  <path d="m21 21-4.3-4.3" />
-                </svg>
-                <input
-                  type="text"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" && parsedReference) {
-                      handleGoToReference();
-                    }
-                  }}
-                  placeholder="Search books or type a reference..."
-                  className="flex-1 bg-transparent text-[15px] outline-none"
-                  style={{ color: "var(--foreground)" }}
-                />
-                {searchQuery && (
-                  <button
-                    onClick={() => setSearchQuery("")}
-                    className="p-1 rounded-full active:opacity-70"
-                    style={{ color: "var(--secondary)" }}
-                  >
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M18 6L6 18M6 6l12 12" />
-                    </svg>
-                  </button>
-                )}
-              </div>
-            </div>
-
             {/* Go to reference card */}
             {parsedReference && (
               <button
@@ -405,28 +430,6 @@ export default function BibleIndex({ books }: { books: Book[] }) {
                 </svg>
               </button>
             )}
-
-            {/* Testament toggle */}
-            <div className="flex gap-0 mb-4">
-              {(["Old", "New"] as const).map((t) => (
-                <button
-                  key={t}
-                  onClick={() => { setTestament(t); setSearchQuery(""); }}
-                  className="flex-1 pb-2.5 text-[15px] font-semibold tracking-wide relative transition-colors"
-                  style={{
-                    color: testament === t ? "var(--foreground)" : "var(--foreground-secondary)",
-                  }}
-                >
-                  {t} Testament
-                  {testament === t && (
-                    <span
-                      className="absolute bottom-0 left-[15%] right-[15%] h-[2.5px] rounded-full"
-                      style={{ backgroundColor: "var(--accent)" }}
-                    />
-                  )}
-                </button>
-              ))}
-            </div>
 
             {/* Book list */}
             {displayedBooks.length === 0 && searchQuery ? (
