@@ -490,17 +490,15 @@ export default function BibleSummaryLanding() {
             lineHeight: 1.8,
             color: "#3a3530",
           }}>
-            <p style={{ margin: "0 0 8px" }}>&ldquo;I tried to read it cover-to-cover.</p>
-            <p style={{ margin: "0 0 8px" }}>I got overwhelmed.</p>
-            <p style={{ margin: "0 0 8px" }}>I forgot what I read.</p>
-            <p style={{ margin: "0 0 8px" }}>I picked it up again and realized I didn&apos;t retain it.</p>
+            <p style={{ margin: "0 0 8px" }}>&ldquo;Reading the Bible changed my life.</p>
+            <p style={{ margin: "0 0 8px" }}>But I realized remembering it is just as important as reading it.</p>
             <p style={{
               margin: "24px 0 0",
               fontStyle: "normal",
               fontWeight: 700,
               color: "#1a1510",
             }}>
-              So I built something to help with that.&rdquo;
+              So I built a tool designed to help people understand and retain what they read.&rdquo;
             </p>
           </div>
           <p style={{
@@ -511,7 +509,7 @@ export default function BibleSummaryLanding() {
             fontFamily: "'DM Sans', sans-serif",
             letterSpacing: 0.5,
           }}>
-            Nicholas Palladino, Founder
+            — Nicholas Palladino, Founder
           </p>
           <div style={{
             marginTop: 20,
