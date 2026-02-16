@@ -57,53 +57,25 @@ const supabase = createClient(supabaseUrl, supabaseServiceKey, {
 // ============================================================
 // SYSTEM PROMPT - The modernization rules (cached across calls)
 // ============================================================
-const SYSTEM_PROMPT = `You are a Bible translation specialist. Your task is to take King James Version (KJV) Bible text and RE-EXPRESS it in clear, natural, modern English — the way the GOD'S WORD Translation (GW) reads.
+const SYSTEM_PROMPT = `YOUR TASK: You will receive Bible verses in old English (KJV). For each verse, write a NEW version in simple, clear, modern English.
 
-CRITICAL: You are NOT editing the KJV text. You are READING it, understanding its meaning, and WRITING a completely fresh version in modern English. Do not copy the KJV sentence structure. Do not keep KJV phrasing. Write each verse the way a skilled modern English writer would express that same meaning today.
+IMPORTANT — DO NOT COPY THE INPUT. Every verse you write must use DIFFERENT words and DIFFERENT sentence structure than the input. If your output looks similar to the input, you have failed.
 
-STUDY THESE EXAMPLES CAREFULLY — match this style exactly:
-
-KJV: "Now it came to pass in the days when the judges ruled, that there was a famine in the land. And a certain man of Bethlehemjudah went to sojourn in the country of Moab, he, and his wife, and his two sons."
-WRITE: "In the days when the judges were ruling, there was a famine in the land. A man from Bethlehem in Judah went with his wife and two sons to live for a while in the country of Moab."
-
-KJV: "And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehemjudah. And they came into the country of Moab, and continued there."
-WRITE: "The man's name was Elimelech, his wife's name was Naomi, and the names of their two sons were Mahlon and Chilion. They were descendants of Ephrathah from Bethlehem in Judah. They went to the country of Moab and lived there."
-
-KJV: "And Elimelech Naomi's husband died; and she was left, and her two sons."
-WRITE: "Now, Naomi's husband Elimelech died, and she was left alone with her two sons."
-
-KJV: "And they took them wives of the women of Moab; the name of the one was Orpah, and the name of the other Ruth: and they dwelled there about ten years."
-WRITE: "Each son married a woman from Moab. One son married a woman named Orpah, and the other son married a woman named Ruth. They lived there for about ten years."
-
-KJV: "And Mahlon and Chilion died also both of them; and the woman was left of her two sons and her husband."
-WRITE: "Then both Mahlon and Chilion died as well. So Naomi was left alone, without her two sons or her husband."
-
-KJV: "And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:"
-WRITE: "But Ruth answered, 'Don't force me to leave you. Don't make me turn back from following you. Wherever you go, I will go, and wherever you stay, I will stay. Your people will be my people, and your God will be my God.'"
-
-KJV: "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me."
-WRITE: "She answered them, 'Don't call me Naomi. Call me Mara, because the Almighty has made my life very bitter.'"
-
-NOTICE THE PATTERN:
-- Completely restructured sentences, NOT just word swaps
-- "And the name of the man was Elimelech" becomes "The man's name was Elimelech" — totally rewritten
-- "they took them wives of the women" becomes "Each son married a woman" — natural English
-- "the woman was left of her two sons" becomes "Naomi was left alone, without her two sons" — clarified
-- Quotation marks added around all dialogue
-- Short, clear sentences instead of long run-ons with semicolons
+WRITING STYLE — Write like this:
+"In the days when the judges were ruling, there was a famine in the land. A man from Bethlehem in Judah went with his wife and two sons to live for a while in the country of Moab."
+"The man's name was Elimelech, his wife's name was Naomi, and the names of their two sons were Mahlon and Chilion."
+"Each son married a woman from Moab. One was named Orpah, and the other was named Ruth. They lived there for about ten years."
+"Then both Mahlon and Chilion died as well. So Naomi was left alone, without her two sons or her husband."
+"But Ruth answered, 'Don't force me to leave you. Don't make me turn back from following you. Wherever you go, I will go, and wherever you stay, I will stay. Your people will be my people, and your God will be my God.'"
+"She answered them, 'Don't call me Naomi. Call me Mara, because the Almighty has made my life very bitter.'"
 
 RULES:
-1. One input verse = one output verse. Never merge or split verses.
-2. REWRITE every verse in natural modern English. Do NOT just swap individual words.
-3. Preserve all meaning, events, names, numbers, and theological content.
-4. Preserve divine names exactly: God, LORD, Lord GOD, the Almighty.
-5. Add quotation marks around all direct speech.
-6. Do NOT add commentary, footnotes, headings, or interpretation.
-7. Every verse must sound natural — as if originally written in modern English.
-
-OUTPUT FORMAT:
-Output ONLY a JSON array. Each element: {"verse": number, "text": "modernized text"}
-No other text, no markdown, no commentary. Raw JSON only.`;
+- Write FRESH sentences. Do NOT keep the old English phrasing.
+- Remove "And" from the beginning of sentences when it's just a connector.
+- Put quotation marks around spoken words.
+- Keep names, numbers, and "God", "LORD", "the Almighty" exactly as they are.
+- One verse in = one verse out.
+- Output ONLY a JSON array: [{"verse": 1, "text": "..."}, ...]`;
 
 // ============================================================
 // OUTPUT DIRECTORY
@@ -127,11 +99,7 @@ interface ModernVerse {
 }
 
 async function callClaudeAPI(bookName: string, chapterNum: number, versesText: string): Promise<ModernVerse[]> {
-  const userPrompt = `Read this KJV chapter and REWRITE every verse in clear, natural modern English (GW style). Do NOT just swap archaic words — completely restructure each sentence the way a modern writer would express it. Add quotation marks around dialogue. Output ONLY the JSON array.
-
-Book: ${bookName}, Chapter: ${chapterNum}
-
-KJV text:
+  const userPrompt = `Rewrite ${bookName} chapter ${chapterNum} in simple modern English. Use COMPLETELY DIFFERENT wording than the input — do not copy phrases from it. JSON array only.
 
 ${versesText}`;
 
@@ -146,6 +114,7 @@ ${versesText}`;
     body: JSON.stringify({
       model: 'claude-opus-4-5-20251101',
       max_tokens: 8192,
+      temperature: 0.7,
       system: [
         {
           type: 'text',
