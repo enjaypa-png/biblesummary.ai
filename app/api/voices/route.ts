@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { VOICE_IDS } from "@/lib/voiceIds";
+import { VOICE_IDS, VOICE_NAME_OVERRIDES } from "@/lib/voiceIds";
 
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || "";
 
@@ -32,7 +32,8 @@ export async function GET() {
           });
           if (!res.ok) return { id, name: id.slice(0, 8) };
           const data = await res.json();
-          return { id, name: data.name || id.slice(0, 8) };
+          const name = VOICE_NAME_OVERRIDES[id] || data.name || id.slice(0, 8);
+          return { id, name };
         } catch {
           return { id, name: id.slice(0, 8) };
         }
