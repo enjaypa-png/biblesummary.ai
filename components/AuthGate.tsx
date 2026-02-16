@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { getCurrentUser } from "@/lib/supabase";
 
-const PUBLIC_PATHS = ["/login", "/signup", "/onboarding", "/terms", "/privacy", "/refunds", "/pricing"];
+const PUBLIC_PATHS = ["/login", "/signup", "/onboarding", "/terms", "/privacy", "/refunds", "/pricing", "/auth"];
 
 /**
  * Auth gate: unauthenticated users go to login only.
@@ -26,7 +26,7 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
     }
 
     getCurrentUser().then((user) => {
-      if (user && user.email_confirmed_at) {
+      if (user && (user.email_confirmed_at || user.app_metadata?.provider === "google")) {
         setAuthed(true);
       } else {
         router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
