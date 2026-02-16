@@ -26,7 +26,7 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
     }
 
     getCurrentUser().then((user) => {
-      if (user && (user.email_confirmed_at || user.app_metadata?.provider === "google")) {
+      if (user && (user.app_metadata?.provider !== "email" || user.email_confirmed_at)) {
         setAuthed(true);
       } else {
         router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
