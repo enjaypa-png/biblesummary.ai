@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
   <defs>
     <linearGradient id="bookGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
+      <stop offset="0%" stop-color="#8d73fc"/>
+      <stop offset="100%" stop-color="#7c5cfc"/>
     </linearGradient>
     <linearGradient id="bookSide" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6d28d9"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
+      <stop offset="0%" stop-color="#6b4ce0"/>
+      <stop offset="100%" stop-color="#7c5cfc"/>
     </linearGradient>
     <linearGradient id="pageGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#fef3c7"/>
@@ -18,7 +18,7 @@
       <stop offset="100%" stop-color="#a5b4fc"/>
     </linearGradient>
     <filter id="bookShadow" x="-20%" y="-10%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#6d28d9" flood-opacity="0.25"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#7c5cfc" flood-opacity="0.25"/>
     </filter>
   </defs>
 
@@ -36,7 +36,7 @@
   <rect x="50" y="30" width="110" height="130" rx="12" fill="url(#bookGrad)" filter="url(#bookShadow)"/>
 
   <!-- Book cover inner border -->
-  <rect x="58" y="38" width="94" height="114" rx="8" fill="none" stroke="#9333ea" stroke-width="1.5" opacity="0.4"/>
+  <rect x="58" y="38" width="94" height="114" rx="8" fill="none" stroke="#7c5cfc" stroke-width="1.5" opacity="0.4"/>
 
   <!-- Gold cross -->
   <rect x="98" y="58" width="14" height="56" rx="4" fill="#f59e0b"/>
@@ -48,14 +48,14 @@
   <!-- Sparkles -->
   <!-- Large sparkle top-right -->
   <g transform="translate(148, 22)">
-    <path d="M0 -10 L2.5 -2.5 L10 0 L2.5 2.5 L0 10 L-2.5 2.5 L-10 0 L-2.5 -2.5z" fill="#a855f7"/>
+    <path d="M0 -10 L2.5 -2.5 L10 0 L2.5 2.5 L0 10 L-2.5 2.5 L-10 0 L-2.5 -2.5z" fill="#7c5cfc"/>
   </g>
   <!-- Small sparkle -->
   <g transform="translate(135, 12)">
-    <path d="M0 -5 L1.2 -1.2 L5 0 L1.2 1.2 L0 5 L-1.2 1.2 L-5 0 L-1.2 -1.2z" fill="#c084fc"/>
+    <path d="M0 -5 L1.2 -1.2 L5 0 L1.2 1.2 L0 5 L-1.2 1.2 L-5 0 L-1.2 -1.2z" fill="#7c5cfc" opacity="0.7"/>
   </g>
   <!-- Tiny sparkle -->
   <g transform="translate(160, 38)">
-    <path d="M0 -4 L1 -1 L4 0 L1 1 L0 4 L-1 1 L-4 0 L-1 -1z" fill="#d8b4fe" opacity="0.8"/>
+    <path d="M0 -4 L1 -1 L4 0 L1 1 L0 4 L-1 1 L-4 0 L-1 -1z" fill="#7c5cfc" opacity="0.5"/>
   </g>
 </svg>
