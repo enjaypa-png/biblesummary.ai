@@ -490,15 +490,15 @@ export default function BibleSummaryLanding() {
             lineHeight: 1.8,
             color: "#3a3530",
           }}>
-            <p style={{ margin: "0 0 8px" }}>&ldquo;Reading the Bible changed my life.</p>
-            <p style={{ margin: "0 0 8px" }}>But truly understanding and remembering what I read — that was the hard part.</p>
+            <p style={{ margin: "0 0 8px" }}>&ldquo;I committed to reading the Bible cover to cover.</p>
+            <p style={{ margin: "0 0 8px" }}>But when I revisited earlier chapters, I realized I wasn&apos;t truly retaining it.</p>
             <p style={{
               margin: "24px 0 0",
               fontStyle: "normal",
               fontWeight: 700,
               color: "#1a1510",
             }}>
-              So I built a tool to help.&rdquo;
+              That&apos;s when I decided to build a better way to read the Bible and remember.&rdquo;
             </p>
           </div>
           <p style={{
