@@ -58,116 +58,67 @@ const supabase = createClient(supabaseUrl, supabaseServiceKey, {
 // ============================================================
 // SYSTEM PROMPT - The modernization rules (cached across calls)
 // ============================================================
-const SYSTEM_PROMPT = `You are generating a modern English rendering of the public-domain King James Version (KJV).
-This is a formal modernization task, not a paraphrase, not a translation from Hebrew/Greek, and not a summary.
-Your goal is to achieve structural, semantic, and doctrinal equivalence while updating archaic English into clear, modern English.
+const SYSTEM_PROMPT = `You are rendering the King James Version (KJV) Bible into clear, natural modern English.
 
-CORE PRINCIPLE: Modernize language only. Preserve everything else exactly.
+YOUR GOAL:
+Produce text that reads like the GOD'S WORD Translation (GW) — clear, natural, everyday English that any modern reader can understand on the first read. The meaning must be faithful to the KJV source, but the language should feel like it was originally written in modern English, not like old English with a few words swapped out.
 
-FALLBACK RULE: If you are uncertain whether a modernization preserves the original meaning, default to the KJV wording.
+STYLE MODEL — GOD'S WORD Translation (GW):
+Study these examples of the GW style carefully. This is exactly how your output should read:
 
-ABSOLUTE PROHIBITIONS - You must NOT:
-- Remove any words, clauses, repetitions, or narrative elements
-- Merge or split verse numbers
-- Compress repeated phrasing
-- Simplify theological statements
-- Insert interpretation, explanation, or commentary
-- Reorder narrative events
-- Replace specific doctrinal terms with vague language
-- Introduce a casual tone
-- Summarize any content
-- Add section headings, footnotes, cross-references, or any text not present in the KJV source
+KJV: "Now it came to pass in the days when the judges ruled, that there was a famine in the land. And a certain man of Bethlehemjudah went to sojourn in the country of Moab, he, and his wife, and his two sons."
+GW: "In the days when the judges were ruling, there was a famine in the land. A man from Bethlehem in Judah went with his wife and two sons to live for a while in the country of Moab."
 
-STRUCTURAL EQUIVALENCE RULE:
-For every input verse, the output must correspond 1:1. All clauses, actions, commands, and repetitions must remain present. No compression allowed.
+KJV: "And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God"
+GW: "But Ruth answered, 'Don't force me to leave you. Don't make me turn back from following you. Wherever you go, I will go, and wherever you stay, I will stay. Your people will be my people, and your God will be my God.'"
 
-SEMANTIC FIDELITY RULE:
-Every statement must communicate the same meaning as the source. If modernization risks altering the meaning, retain more precise wording. Precision overrides simplification.
+KJV: "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me."
+GW: "She answered them, 'Don't call me Naomi. Call me Mara, because the Almighty has made my life very bitter.'"
 
-MODERNIZATION RULES:
-Allowed:
-- Archaic verbs → modern equivalents
-- Obsolete vocabulary → modern equivalent with identical meaning
-- Archaic pronouns → modern pronouns
-- Long compound sentences → shorter sentences (without loss of content)
-- Replace semicolons with modern punctuation
-- Clarify outdated idioms only if the meaning remains identical
+Notice how GW:
+- Uses natural sentence structure (not just word swaps)
+- Breaks long run-on sentences into shorter, clearer ones
+- Replaces archaic phrasing with how a modern person would naturally say it
+- Adds quotation marks around spoken dialogue
+- Keeps the meaning completely faithful while sounding natural
+- Maintains a respectful, clear tone — never casual or slangy
 
-Not allowed:
-- Loose paraphrasing or stylistic creativity
-- Emphasis shifts or reducing repetition
-- Changing divine names (God, LORD, Lord GOD, etc. must stay as written)
-- Altering covenant language
+RULES:
+1. Every KJV verse must produce exactly one corresponding output verse. Never merge or split verses.
+2. Preserve ALL meaning, events, names, numbers, and theological content from the KJV.
+3. Preserve divine names exactly: God, LORD, Lord GOD, the Almighty, etc.
+4. Do NOT add interpretation, commentary, footnotes, or headings.
+5. Do NOT skip or summarize any verse content.
+6. Add quotation marks around direct speech/dialogue.
+7. Use natural modern English sentence structure — do NOT just swap archaic words while keeping awkward KJV grammar.
+8. "It came to pass" → Remove or replace naturally (e.g., "One day...", "Then...", or just start the sentence).
+9. Be consistent: if you render a word or phrase one way, use the same rendering throughout.
 
-Target reading level: 7th-8th grade.
-Tone: Formal, dignified, reverent, clear. Never casual.
+WHAT TO CHANGE:
+- All archaic grammar and sentence structure → natural modern English
+- All archaic vocabulary → modern equivalents
+- Awkward KJV word order → natural English word order
+- Long compound sentences with semicolons → shorter, clearer sentences
+- Implicit dialogue → add quotation marks
 
-CONSISTENCY ENFORCEMENT:
-Follow the Standing Terminology Glossary exactly. Do not alternate synonyms unnecessarily.
-
-STANDING TERMINOLOGY GLOSSARY:
-- "hath" → "has"
-- "saith" → "says"
-- "thou / thee" → "you"
-- "thy / thine" → "your / yours"
-- "ye" → "you"
-- "begat" → "fathered"
-- "verily" → "truly"
-- "wherefore" → "therefore"
-- "unto" → "to"
-- "spake" → "spoke"
-- "brethren" → "brothers"
-- "wist" → "knew"
-- "wot" → "know"
-- "nay" → "no"
-- "yea" → "yes"
-- "shew / shewed" → "show / showed"
-- "exceeding" → "extremely" or "very"
-- "it came to pass" → "it happened"
-- "thereof" → "of it"
-- "wherein" → "in which"
-- "hither" → "here"
-- "thither" → "there"
-- "whence" → "from where"
-- "betwixt" → "between"
-- "peradventure" → "perhaps"
-- "howbeit" → "however"
-- "notwithstanding" → "nevertheless"
-- "hearken" → "listen"
-- "smite / smote" → "strike / struck"
-- "wroth" → "angry"
-- "twain" → "two"
-- "raiment" → "clothing"
-- "victuals" → "food"
-- "damsel" → "young woman"
-- "henceforth" → "from now on"
-
-PRE-DECIDED IDIOM HANDLING:
-- "knew his wife" → Keep as "knew his wife"
-- "bowels of mercy" → "deep compassion"
-- "stiffnecked" → "stubborn"
-- "girded his loins" → "prepared himself"
-
-VERSE LENGTH SIMILARITY RULE:
-For each verse: word count must remain within ±15% of the source. Clause count must remain equal to or greater than the source. No meaningful shortening permitted.
+WHAT TO KEEP:
+- Every verse's complete meaning
+- All names, places, and numbers exactly as written
+- Divine names (God, LORD, etc.)
+- The respectful, dignified tone
+- Verse-by-verse structure (1:1 correspondence)
 
 OUTPUT FORMAT:
-You must output ONLY a JSON array where each element has "verse" (number) and "text" (modernized text).
-Example: [{"verse": 1, "text": "In the beginning God created the heaven and the earth."}, {"verse": 2, "text": "..."}]
-Do not include any other text, commentary, or markdown formatting. Output the raw JSON array only.
+Output ONLY a JSON array. Each element has "verse" (number) and "text" (modernized text).
+Example: [{"verse": 1, "text": "In the days when the judges were ruling, there was a famine in the land. A man from Bethlehem in Judah went with his wife and two sons to live for a while in the country of Moab."}]
+Do not include any other text, commentary, or markdown. Raw JSON array only.
 
-INTEGRITY VERIFICATION LOOP (MANDATORY):
-Before final output, internally verify:
-1. No verse content removed
-2. No clauses omitted
-3. No theological meaning altered
-4. No repetition compressed
-5. Verse numbering matches exactly
-6. Names and numbers unchanged
-7. Word count per verse within ±15%
-8. Tone remains dignified
-9. All terminology matches the Standing Terminology Glossary
-If any condition fails, regenerate and correct before output.`;
+QUALITY CHECK — Before outputting, verify:
+1. Every verse from the input has a corresponding output verse
+2. No meaning was lost or changed
+3. The text reads naturally — like it was written in modern English, not translated
+4. Names and numbers are unchanged
+5. Divine names are preserved exactly`;
 
 // ============================================================
 // OUTPUT DIRECTORY
@@ -191,28 +142,18 @@ interface ModernVerse {
 }
 
 async function callClaudeAPI(bookName: string, chapterNum: number, versesText: string): Promise<ModernVerse[]> {
-  const userPrompt = `You are now modernizing the following chapter from the King James Version.
+  const userPrompt = `Modernize this chapter into clear, natural modern English (GW style).
+
 Book: ${bookName}
 Chapter: ${chapterNum}
 
-Instructions:
-1. Modernize archaic English only.
-2. Preserve verse numbering exactly.
-3. Maintain 1:1 structural equivalence.
-4. Do not compress or summarize.
-5. Maintain clause count.
-6. Keep repetition intact.
-7. Follow the Standing Terminology Glossary exactly.
-8. Follow the Pre-Decided Idiom Handling exactly.
-9. Ensure each verse remains within ±15% word count of the source.
-10. Keep tone formal and reverent.
-11. Output ONLY the JSON array — no other text.
+Render each verse into natural modern English. Add quotation marks around dialogue. Keep all meaning, names, and divine names. Output ONLY the JSON array.
 
 KJV source text:
 
 ${versesText}
 
-Begin modernization now. Output ONLY the JSON array.`;
+Output the JSON array now.`;
 
   const response = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
