@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { VOICE_IDS, DEFAULT_VOICE_ID } from "@/contexts/ReadingSettingsContext";
+import { VOICE_IDS, DEFAULT_VOICE_ID } from "@/lib/voiceIds";
 
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || "";
 const FALLBACK_VOICE_ID = process.env.ELEVENLABS_VOICE_ID || DEFAULT_VOICE_ID;

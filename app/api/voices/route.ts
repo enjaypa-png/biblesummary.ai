@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { VOICE_IDS } from "@/contexts/ReadingSettingsContext";
+import { VOICE_IDS } from "@/lib/voiceIds";
 
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || "";
 
