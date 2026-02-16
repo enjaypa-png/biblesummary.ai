@@ -21,10 +21,9 @@
  *   npm run modernize -- --resume       # Resume from where you left off
  * 
  * COST ESTIMATE:
- * - Uses Claude Sonnet 4.5 ($3 input / $15 output per million tokens)
+ * - Uses Claude Opus 4.5 ($5 input / $25 output per million tokens)
  * - Uses prompt caching to save ~90% on repeated system prompt
- * - Full Bible: approximately $5-15 depending on caching efficiency
- * - Uses Batch API for 50% discount when --batch flag is used
+ * - Full Bible: approximately $20-50 depending on caching efficiency
  */
 
 import { createClient } from '@supabase/supabase-js';
@@ -58,67 +57,53 @@ const supabase = createClient(supabaseUrl, supabaseServiceKey, {
 // ============================================================
 // SYSTEM PROMPT - The modernization rules (cached across calls)
 // ============================================================
-const SYSTEM_PROMPT = `You are rendering the King James Version (KJV) Bible into clear, natural modern English.
+const SYSTEM_PROMPT = `You are a Bible translation specialist. Your task is to take King James Version (KJV) Bible text and RE-EXPRESS it in clear, natural, modern English — the way the GOD'S WORD Translation (GW) reads.
 
-YOUR GOAL:
-Produce text that reads like the GOD'S WORD Translation (GW) — clear, natural, everyday English that any modern reader can understand on the first read. The meaning must be faithful to the KJV source, but the language should feel like it was originally written in modern English, not like old English with a few words swapped out.
+CRITICAL: You are NOT editing the KJV text. You are READING it, understanding its meaning, and WRITING a completely fresh version in modern English. Do not copy the KJV sentence structure. Do not keep KJV phrasing. Write each verse the way a skilled modern English writer would express that same meaning today.
 
-STYLE MODEL — GOD'S WORD Translation (GW):
-Study these examples of the GW style carefully. This is exactly how your output should read:
+STUDY THESE EXAMPLES CAREFULLY — match this style exactly:
 
 KJV: "Now it came to pass in the days when the judges ruled, that there was a famine in the land. And a certain man of Bethlehemjudah went to sojourn in the country of Moab, he, and his wife, and his two sons."
-GW: "In the days when the judges were ruling, there was a famine in the land. A man from Bethlehem in Judah went with his wife and two sons to live for a while in the country of Moab."
+WRITE: "In the days when the judges were ruling, there was a famine in the land. A man from Bethlehem in Judah went with his wife and two sons to live for a while in the country of Moab."
 
-KJV: "And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God"
-GW: "But Ruth answered, 'Don't force me to leave you. Don't make me turn back from following you. Wherever you go, I will go, and wherever you stay, I will stay. Your people will be my people, and your God will be my God.'"
+KJV: "And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehemjudah. And they came into the country of Moab, and continued there."
+WRITE: "The man's name was Elimelech, his wife's name was Naomi, and the names of their two sons were Mahlon and Chilion. They were descendants of Ephrathah from Bethlehem in Judah. They went to the country of Moab and lived there."
+
+KJV: "And Elimelech Naomi's husband died; and she was left, and her two sons."
+WRITE: "Now, Naomi's husband Elimelech died, and she was left alone with her two sons."
+
+KJV: "And they took them wives of the women of Moab; the name of the one was Orpah, and the name of the other Ruth: and they dwelled there about ten years."
+WRITE: "Each son married a woman from Moab. One son married a woman named Orpah, and the other son married a woman named Ruth. They lived there for about ten years."
+
+KJV: "And Mahlon and Chilion died also both of them; and the woman was left of her two sons and her husband."
+WRITE: "Then both Mahlon and Chilion died as well. So Naomi was left alone, without her two sons or her husband."
+
+KJV: "And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:"
+WRITE: "But Ruth answered, 'Don't force me to leave you. Don't make me turn back from following you. Wherever you go, I will go, and wherever you stay, I will stay. Your people will be my people, and your God will be my God.'"
 
 KJV: "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me."
-GW: "She answered them, 'Don't call me Naomi. Call me Mara, because the Almighty has made my life very bitter.'"
+WRITE: "She answered them, 'Don't call me Naomi. Call me Mara, because the Almighty has made my life very bitter.'"
 
-Notice how GW:
-- Uses natural sentence structure (not just word swaps)
-- Breaks long run-on sentences into shorter, clearer ones
-- Replaces archaic phrasing with how a modern person would naturally say it
-- Adds quotation marks around spoken dialogue
-- Keeps the meaning completely faithful while sounding natural
-- Maintains a respectful, clear tone — never casual or slangy
+NOTICE THE PATTERN:
+- Completely restructured sentences, NOT just word swaps
+- "And the name of the man was Elimelech" becomes "The man's name was Elimelech" — totally rewritten
+- "they took them wives of the women" becomes "Each son married a woman" — natural English
+- "the woman was left of her two sons" becomes "Naomi was left alone, without her two sons" — clarified
+- Quotation marks added around all dialogue
+- Short, clear sentences instead of long run-ons with semicolons
 
 RULES:
-1. Every KJV verse must produce exactly one corresponding output verse. Never merge or split verses.
-2. Preserve ALL meaning, events, names, numbers, and theological content from the KJV.
-3. Preserve divine names exactly: God, LORD, Lord GOD, the Almighty, etc.
-4. Do NOT add interpretation, commentary, footnotes, or headings.
-5. Do NOT skip or summarize any verse content.
-6. Add quotation marks around direct speech/dialogue.
-7. Use natural modern English sentence structure — do NOT just swap archaic words while keeping awkward KJV grammar.
-8. "It came to pass" → Remove or replace naturally (e.g., "One day...", "Then...", or just start the sentence).
-9. Be consistent: if you render a word or phrase one way, use the same rendering throughout.
-
-WHAT TO CHANGE:
-- All archaic grammar and sentence structure → natural modern English
-- All archaic vocabulary → modern equivalents
-- Awkward KJV word order → natural English word order
-- Long compound sentences with semicolons → shorter, clearer sentences
-- Implicit dialogue → add quotation marks
-
-WHAT TO KEEP:
-- Every verse's complete meaning
-- All names, places, and numbers exactly as written
-- Divine names (God, LORD, etc.)
-- The respectful, dignified tone
-- Verse-by-verse structure (1:1 correspondence)
+1. One input verse = one output verse. Never merge or split verses.
+2. REWRITE every verse in natural modern English. Do NOT just swap individual words.
+3. Preserve all meaning, events, names, numbers, and theological content.
+4. Preserve divine names exactly: God, LORD, Lord GOD, the Almighty.
+5. Add quotation marks around all direct speech.
+6. Do NOT add commentary, footnotes, headings, or interpretation.
+7. Every verse must sound natural — as if originally written in modern English.
 
 OUTPUT FORMAT:
-Output ONLY a JSON array. Each element has "verse" (number) and "text" (modernized text).
-Example: [{"verse": 1, "text": "In the days when the judges were ruling, there was a famine in the land. A man from Bethlehem in Judah went with his wife and two sons to live for a while in the country of Moab."}]
-Do not include any other text, commentary, or markdown. Raw JSON array only.
-
-QUALITY CHECK — Before outputting, verify:
-1. Every verse from the input has a corresponding output verse
-2. No meaning was lost or changed
-3. The text reads naturally — like it was written in modern English, not translated
-4. Names and numbers are unchanged
-5. Divine names are preserved exactly`;
+Output ONLY a JSON array. Each element: {"verse": number, "text": "modernized text"}
+No other text, no markdown, no commentary. Raw JSON only.`;
 
 // ============================================================
 // OUTPUT DIRECTORY
@@ -142,18 +127,13 @@ interface ModernVerse {
 }
 
 async function callClaudeAPI(bookName: string, chapterNum: number, versesText: string): Promise<ModernVerse[]> {
-  const userPrompt = `Modernize this chapter into clear, natural modern English (GW style).
+  const userPrompt = `Read this KJV chapter and REWRITE every verse in clear, natural modern English (GW style). Do NOT just swap archaic words — completely restructure each sentence the way a modern writer would express it. Add quotation marks around dialogue. Output ONLY the JSON array.
 
-Book: ${bookName}
-Chapter: ${chapterNum}
+Book: ${bookName}, Chapter: ${chapterNum}
 
-Render each verse into natural modern English. Add quotation marks around dialogue. Keep all meaning, names, and divine names. Output ONLY the JSON array.
+KJV text:
 
-KJV source text:
-
-${versesText}
-
-Output the JSON array now.`;
+${versesText}`;
 
   const response = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
@@ -164,7 +144,7 @@ Output the JSON array now.`;
       'anthropic-beta': 'prompt-caching-2024-07-31'
     },
     body: JSON.stringify({
-      model: 'claude-sonnet-4-5-20250929',
+      model: 'claude-opus-4-5-20251101',
       max_tokens: 8192,
       system: [
         {
@@ -249,7 +229,7 @@ function saveChapterResults(bookSlug: string, chapter: number, verses: ModernVer
 // ============================================================
 async function main() {
   console.log('📖 KJV Modern English Rendering - API Automation\n');
-  console.log('   Model: Claude Sonnet 4.5 (with prompt caching)');
+  console.log('   Model: Claude Opus 4.5 (with prompt caching)');
   console.log(`   Output: ${OUTPUT_DIR}\n`);
 
   // Create output directory
