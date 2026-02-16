@@ -292,7 +292,7 @@ function StepCard({ number, title, desc }: { number: string; title: string; desc
         width: 48,
         height: 48,
         borderRadius: "50%",
-        background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+        background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
         color: "#fff",
         display: "flex",
         alignItems: "center",
@@ -424,7 +424,7 @@ export default function BibleSummaryLanding() {
               fontSize: 16,
               fontWeight: 700,
               color: "#fff",
-              background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+              background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
               borderRadius: 12,
               textDecoration: "none",
               transition: "transform 0.2s ease, box-shadow 0.2s ease",
@@ -491,14 +491,14 @@ export default function BibleSummaryLanding() {
             color: "#3a3530",
           }}>
             <p style={{ margin: "0 0 8px" }}>&ldquo;Reading the Bible changed my life.</p>
-            <p style={{ margin: "0 0 8px" }}>But I realized remembering it is just as important as reading it.</p>
+            <p style={{ margin: "0 0 8px" }}>But truly understanding and remembering what I read — that was the hard part.</p>
             <p style={{
               margin: "24px 0 0",
               fontStyle: "normal",
               fontWeight: 700,
               color: "#1a1510",
             }}>
-              So I built a tool designed to help people understand and retain what they read.&rdquo;
+              So I built a tool to help.&rdquo;
             </p>
           </div>
           <p style={{
@@ -515,7 +515,7 @@ export default function BibleSummaryLanding() {
             marginTop: 20,
             width: 48,
             height: 3,
-            background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+            background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
             borderRadius: 2,
             margin: "20px auto 0",
           }} />
@@ -684,7 +684,7 @@ export default function BibleSummaryLanding() {
               fontSize: 15,
               fontWeight: 700,
               color: "#fff",
-              background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+              background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
               borderRadius: 12,
               textDecoration: "none",
               boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
@@ -791,7 +791,7 @@ export default function BibleSummaryLanding() {
             fontSize: 17,
             fontWeight: 700,
             color: "#fff",
-            background: "linear-gradient(135deg, #7c5cfc 0%, #5b3fd4 100%)",
+            background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
             borderRadius: 12,
             textDecoration: "none",
             boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
