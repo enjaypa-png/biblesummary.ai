@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { getCurrentUser } from "@/lib/supabase";
+import { supabase } from "@/lib/supabase";
 
 const PUBLIC_PATHS = ["/login", "/signup", "/onboarding", "/terms", "/privacy", "/refunds", "/pricing", "/auth"];
 
@@ -25,14 +25,24 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
       return;
     }
 
-    getCurrentUser().then((user) => {
-      if (user && (user.app_metadata?.provider !== "email" || user.email_confirmed_at)) {
-        setAuthed(true);
-      } else {
-        router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(
+      (event, session) => {
+        if (session?.user) {
+          const user = session.user;
+          if (user.app_metadata?.provider !== "email" || user.email_confirmed_at) {
+            setAuthed(true);
+          } else {
+            router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
+          }
+        } else if (event === "INITIAL_SESSION") {
+          // Client fully initialized from cookies but no session found
+          router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
+        }
+        setChecked(true);
       }
-      setChecked(true);
-    });
+    );
+
+    return () => subscription.unsubscribe();
   }, [pathname, isPublic, router]);
 
   if (!checked) {
