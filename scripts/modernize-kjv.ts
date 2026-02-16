@@ -103,6 +103,10 @@ async function callClaudeAPI(bookName: string, chapterNum: number, versesText: s
 
 ${versesText}`;
 
+  // DEBUG: Log what we're sending
+  console.log(`     📤 Sending ${userPrompt.length} chars to API`);
+  console.log(`     📤 First verse sent: ${versesText.substring(0, 150)}...`);
+
   const response = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -149,6 +153,16 @@ ${versesText}`;
   if (!textContent) {
     throw new Error('No text content in API response');
   }
+
+  // DEBUG: Always save raw response and show preview
+  const debugPath = path.join(OUTPUT_DIR, '_debug');
+  if (!fs.existsSync(debugPath)) fs.mkdirSync(debugPath, { recursive: true });
+  fs.writeFileSync(
+    path.join(debugPath, `${bookName.toLowerCase()}_${chapterNum}_raw.txt`),
+    textContent
+  );
+  console.log(`     📋 Response preview: ${textContent.substring(0, 200)}...`);
+  console.log(`     📋 Response length: ${textContent.length} chars`);
 
   // Parse JSON from response (handle possible markdown code fences)
   let cleanJson = textContent.trim();
