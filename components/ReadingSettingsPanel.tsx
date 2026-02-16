@@ -1,7 +1,13 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import { useReadingSettings, FontFamily, ThemeMode, themeStyles } from "@/contexts/ReadingSettingsContext";
+import { useEffect, useRef, useState } from "react";
+import { useReadingSettings, FontFamily, ThemeMode, themeStyles, VOICE_IDS, DEFAULT_VOICE_ID } from "@/contexts/ReadingSettingsContext";
+
+interface VoiceInfo {
+  id: string;
+  name: string;
+}
+
 
 const fontOptions: { value: FontFamily; label: string; fontStack: string }[] = [
   { value: "Libre Baskerville", label: "Baskerville", fontStack: "'Libre Baskerville', serif" },
@@ -17,9 +23,25 @@ export default function ReadingSettingsPanel() {
     setFontSize,
     setLineHeight,
     setThemeMode,
+    setVoiceId,
     isPanelOpen,
     closePanel,
   } = useReadingSettings();
+
+  const [voices, setVoices] = useState<VoiceInfo[]>([]);
+
+  // Fetch voice names once when panel opens
+  useEffect(() => {
+    if (isPanelOpen && voices.length === 0) {
+      fetch("/api/voices")
+        .then((r) => r.json())
+        .then((data: VoiceInfo[]) => setVoices(data))
+        .catch(() => {
+          // Fallback: use IDs as labels
+          setVoices(VOICE_IDS.map((id) => ({ id, name: id.slice(0, 8) })));
+        });
+    }
+  }, [isPanelOpen, voices.length]);
 
   const panelRef = useRef<HTMLDivElement>(null);
 
@@ -245,6 +267,44 @@ export default function ReadingSettingsPanel() {
               )}
             </button>
           </div>
+
+          {/* Narrator Voice Selection */}
+          {voices.length > 0 && (
+            <div className="mb-6">
+              <div
+                className="text-[13px] font-medium uppercase tracking-wider mb-3"
+                style={{ color: currentTheme.secondary }}
+              >
+                Narrator Voice
+              </div>
+              <div className="grid grid-cols-2 gap-2">
+                {voices.map((voice) => (
+                  <button
+                    key={voice.id}
+                    onClick={() => setVoiceId(voice.id)}
+                    className="px-3 py-2.5 rounded-xl text-[14px] font-medium transition-all text-left truncate"
+                    style={{
+                      backgroundColor:
+                        settings.voiceId === voice.id
+                          ? "var(--accent)"
+                          : currentTheme.card,
+                      color:
+                        settings.voiceId === voice.id
+                          ? "#FFFFFF"
+                          : currentTheme.text,
+                      border: `1.5px solid ${
+                        settings.voiceId === voice.id
+                          ? "var(--accent)"
+                          : currentTheme.border
+                      }`,
+                    }}
+                  >
+                    {voice.name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Close Button */}
           <div className="flex justify-center pt-2">

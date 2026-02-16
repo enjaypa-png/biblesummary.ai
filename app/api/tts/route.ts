@@ -1,8 +1,8 @@
 import { NextRequest } from "next/server";
+import { VOICE_IDS, DEFAULT_VOICE_ID } from "@/lib/voiceIds";
 
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || "";
-// Default to Daniel — warm, calming voice ideal for Scripture reading
-const VOICE_ID = process.env.ELEVENLABS_VOICE_ID || "onwK4e9ZLuTAKqWW03F9";
+const FALLBACK_VOICE_ID = process.env.ELEVENLABS_VOICE_ID || DEFAULT_VOICE_ID;
 
 export async function POST(req: NextRequest) {
   if (!ELEVENLABS_API_KEY) {
@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const { text } = await req.json();
+    const { text, voiceId } = await req.json();
 
     if (!text || typeof text !== "string") {
       return new Response(
@@ -22,9 +22,15 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    // Validate voice ID against allowed list, fallback to default
+    const selectedVoice =
+      voiceId && (VOICE_IDS as readonly string[]).includes(voiceId)
+        ? voiceId
+        : FALLBACK_VOICE_ID;
+
     // ElevenLabs streaming endpoint for real-time audio generation
     const elevenlabsResponse = await fetch(
-      `https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}/stream`,
+      `https://api.elevenlabs.io/v1/text-to-speech/${selectedVoice}/stream`,
       {
         method: "POST",
         headers: {
