@@ -1,28 +1,13 @@
-import { createClient } from '@supabase/supabase-js';
+import { createBrowserClient } from '@supabase/ssr';
 
-/**
- * Supabase client configuration
- *
- * This file creates a Supabase client for interacting with your Supabase database and auth.
- * Make sure to set the environment variables in your .env.local file:
- * - NEXT_PUBLIC_SUPABASE_URL: Your Supabase project URL
- * - NEXT_PUBLIC_SUPABASE_ANON_KEY: Your Supabase anonymous/public key
- */
-
-// Get Supabase URL and anonymous key from environment variables
-// Use placeholder values during build if env vars are not set
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://placeholder.supabase.co';
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'placeholder-key';
 
 /**
- * Create and export the Supabase client
- * This client can be used throughout your application for:
- * - Authentication (sign up, sign in, sign out)
- * - Database queries
- * - Real-time subscriptions
- * - Storage operations
+ * Browser Supabase client — stores auth tokens in cookies so the
+ * server (middleware, route handlers, server components) can read them.
  */
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+export const supabase = createBrowserClient(supabaseUrl, supabaseAnonKey);
 
 /**
  * Helper function to get the current user

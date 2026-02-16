@@ -1,6 +1,8 @@
 export const dynamic = "force-dynamic";
 
-import { createClient } from "@supabase/supabase-js";
+import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
+import { createServerClient } from "@supabase/ssr";
 import BibleIndex from "./BibleIndex";
 
 interface Book {
@@ -12,10 +14,23 @@ interface Book {
   total_chapters: number;
 }
 
+function createSupabaseServer() {
+  const cookieStore = cookies();
+  return createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    {
+      cookies: {
+        getAll() {
+          return cookieStore.getAll();
+        },
+      },
+    }
+  );
+}
+
 async function getBooks(): Promise<Book[]> {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://placeholder.supabase.co";
-  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "placeholder";
-  const supabase = createClient(supabaseUrl, supabaseKey);
+  const supabase = createSupabaseServer();
 
   const { data, error } = await supabase
     .from("books")
@@ -27,6 +42,15 @@ async function getBooks(): Promise<Book[]> {
 }
 
 export default async function BiblePage() {
+  const supabase = createSupabaseServer();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    redirect("/login");
+  }
+
   const books = await getBooks();
 
   return <BibleIndex books={books} />;
