@@ -8,7 +8,4 @@ export const VOICE_IDS = [
   "vIpTnd6yyGAk2tJwEHLY",
   "iN4bGoWlozzDpJuOdZjH",
   "W0CVI7WJhHuV2vFY3VcB",
-  "zwbQ2XUiIlOKD6b3JWXd",
-  "h8LZpYr8y3VBz0q2x0LP",
-  "CVRACyqNcQefTlxMj9bt",
 ] as const;
