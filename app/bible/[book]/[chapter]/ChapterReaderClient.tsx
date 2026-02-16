@@ -964,6 +964,7 @@ export default function ChapterReaderClient({
                     onNote={handleOpenNoteEditor}
                     onShare={() => handleShare(verse.verse, verse.text)}
                     onHighlight={handleHighlightTap}
+                    onRemoveHighlight={() => { handleRemoveHighlight(verse.verse); handleCloseActions(); }}
                     onSummary={() => router.push(`/bible/${bookSlug}/summary`)}
                     onClose={handleCloseActions}
                     hasNote={hasNote}
