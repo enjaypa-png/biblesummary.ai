@@ -10,3 +10,6 @@ node_modules/
 .idea/
 .vscode/
 tsconfig.tsbuildinfo
+
+# Modernization script output (generated JSON files)
+scripts/modern-output/

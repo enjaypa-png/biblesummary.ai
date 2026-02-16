@@ -9,7 +9,9 @@
     "lint": "next lint",
     "seed:books": "tsx scripts/seed-books.ts",
     "seed:verses": "tsx scripts/seed-verses.ts",
-    "seed:summaries": "tsx scripts/seed-summaries.ts"
+    "seed:summaries": "tsx scripts/seed-summaries.ts",
+    "modernize": "tsx scripts/modernize-kjv.ts",
+    "seed:modern": "tsx scripts/seed-modern-text.ts"
   },
   "dependencies": {
     "@stripe/stripe-js": "^8.7.0",
