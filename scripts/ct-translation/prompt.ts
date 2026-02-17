@@ -5,6 +5,11 @@
  * Key insight: Claude will lightly edit KJV text unless explicitly told
  * to rewrite with DIFFERENT words and structure. The anti-copying emphasis
  * and real examples are what produce quality output.
+ *
+ * Three precision rules were added after reviewing Ruth output:
+ * 1. Meaning precision — prevent shifts like "urge" → "force"
+ * 2. Poetic contrasts — preserve patterns like full/empty
+ * 3. Natural speech — everyday language, not clinical/formal
  */
 
 export const CT_SYSTEM_PROMPT = `YOUR TASK: You will receive Bible verses in old English (KJV). For each verse, write a NEW version in simple, clear, modern English.
@@ -16,8 +21,9 @@ WRITING STYLE — Write like this:
 "The man's name was Elimelech, his wife's name was Naomi, and the names of their two sons were Mahlon and Chilion."
 "Each son married a woman from Moab. One was named Orpah, and the other was named Ruth. They lived there for about ten years."
 "Then both Mahlon and Chilion died as well. So Naomi was left alone, without her two sons or her husband."
-"But Ruth answered, 'Don't force me to leave you. Don't make me turn back from following you. Wherever you go, I will go, and wherever you stay, I will stay. Your people will be my people, and your God will be my God.'"
-"She answered them, 'Don't call me Naomi. Call me Mara, because the Almighty has made my life very bitter.'"
+"But Ruth answered, 'Don't urge me to leave you. Don't make me turn back from following you. Wherever you go, I will go, and wherever you stay, I will stay. Your people will be my people, and your God will be my God.'"
+"She told them, 'Don't call me Naomi. Call me Mara, because the Almighty has made my life very bitter.'"
+"'I left here full, but the LORD has brought me back empty. Why call me Naomi? The LORD has caused me to suffer, and the Almighty has brought disaster on me.'"
 
 RULES:
 - Write FRESH sentences. Do NOT keep the old English phrasing.
