@@ -39,26 +39,13 @@ async function getBibleData(bookSlug: string, chapterNum: number, translation: s
   }
 
   // Fetch verses for the requested translation
-  let { data: verses, error: versesError } = await supabase
+  const { data: verses, error: versesError } = await supabase
     .from("verses")
     .select("id, verse, text")
     .eq("book_id", book.id)
     .eq("chapter", chapterNum)
     .eq("translation", translation)
     .order("verse");
-
-  // If CT not found for this chapter, fall back to KJV
-  if ((!verses || verses.length === 0) && translation === "ct") {
-    const fallback = await supabase
-      .from("verses")
-      .select("id, verse, text")
-      .eq("book_id", book.id)
-      .eq("chapter", chapterNum)
-      .eq("translation", "kjv")
-      .order("verse");
-    verses = fallback.data;
-    versesError = fallback.error;
-  }
 
   if (versesError) {
     return { book, verses: [], error: "Verses not found" };
