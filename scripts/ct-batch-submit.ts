@@ -1,14 +1,17 @@
 /**
  * Submit Clear Translation (CT) as a Batch Job (50% cost savings)
  *
- * This script builds all remaining chapter requests and submits them
- * to the Anthropic Message Batches API for asynchronous processing.
+ * This script builds chapter requests and submits them to the Anthropic
+ * Message Batches API for asynchronous processing at 50% cost.
  * Results are typically ready within 1 hour.
  *
  * Usage:
- *   npm run ct:batch:submit                  # Submit all remaining chapters
- *   npm run ct:batch:submit -- --book genesis # Submit one book only
- *   npm run ct:batch:submit -- --force        # Resubmit even if output exists
+ *   npm run ct:batch:submit                                          # Full Bible
+ *   npm run ct:batch:submit -- --book genesis                        # One book
+ *   npm run ct:batch:submit -- --books genesis,psalms,romans         # Multiple books
+ *   npm run ct:batch:submit -- --books genesis,psalms --chapter 2    # Ch 2 of each
+ *   npm run ct:batch:submit -- --books genesis,psalms --chapters 1-3 # Ch 1-3 of each
+ *   npm run ct:batch:submit -- --force                               # Regenerate existing
  *
  * After submitting:
  *   npm run ct:batch:status                   # Check if batch is done
@@ -53,19 +56,38 @@ const BATCH_DIR = path.join(process.cwd(), 'data', 'translations', 'ct-batch');
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  let book: string | null = null;
+  let books: string[] = [];
+  let chapters: number[] | null = null;
   let force = false;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--book' && args[i + 1]) {
-      book = args[i + 1];
+      books.push(args[i + 1]);
+      i++;
+    } else if (args[i] === '--books' && args[i + 1]) {
+      // Comma-separated: --books genesis,psalms,romans
+      books.push(...args[i + 1].split(',').map(b => b.trim()));
+      i++;
+    } else if (args[i] === '--chapter' && args[i + 1]) {
+      chapters = [parseInt(args[i + 1], 10)];
+      i++;
+    } else if (args[i] === '--chapters' && args[i + 1]) {
+      // Range: --chapters 1-3  or single: --chapters 5
+      const val = args[i + 1];
+      if (val.includes('-')) {
+        const [start, end] = val.split('-').map(Number);
+        chapters = [];
+        for (let c = start; c <= end; c++) chapters.push(c);
+      } else {
+        chapters = [parseInt(val, 10)];
+      }
       i++;
     } else if (args[i] === '--force') {
       force = true;
     }
   }
 
-  return { book, force };
+  return { books: books.length > 0 ? books : null, chapters, force };
 }
 
 function chapterExists(bookSlug: string, chapter: number): boolean {
@@ -75,23 +97,27 @@ function chapterExists(bookSlug: string, chapter: number): boolean {
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const { book: bookFilter, force } = parseArgs();
+  const { books: bookFilter, chapters: chapterFilter, force } = parseArgs();
 
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log('  CT Batch Submit (50% cost savings)');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log(`  Model: ${MODEL}`);
-  if (bookFilter) console.log(`  Book filter: ${bookFilter}`);
+  if (bookFilter) console.log(`  Books: ${bookFilter.join(', ')}`);
+  if (chapterFilter) console.log(`  Chapters: ${chapterFilter.join(', ')}`);
   if (force) console.log(`  Force: yes`);
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
   // Fetch books
   let query = supabase.from('books').select('*').order('order_index');
-  if (bookFilter) query = query.eq('slug', bookFilter);
+  if (bookFilter) query = query.in('slug', bookFilter);
 
   const { data: books, error } = await query;
   if (error || !books || books.length === 0) {
     console.error('❌ No books found');
+    if (bookFilter) {
+      console.error('   Use book slugs (e.g., "genesis", "1-samuel", "song-of-solomon")');
+    }
     process.exit(1);
   }
 
@@ -100,7 +126,14 @@ async function main() {
   let skipped = 0;
 
   for (const book of books) {
-    for (let chapter = 1; chapter <= book.total_chapters; chapter++) {
+    // Determine which chapters to process for this book
+    const chaptersToProcess = chapterFilter
+      ? chapterFilter.filter(c => c >= 1 && c <= book.total_chapters)
+      : Array.from({ length: book.total_chapters }, (_, i) => i + 1);
+
+    let bookQueued = 0;
+
+    for (const chapter of chaptersToProcess) {
       // Skip already-generated chapters unless --force
       if (!force && chapterExists(book.slug, chapter)) {
         skipped++;
@@ -135,9 +168,12 @@ async function main() {
           messages: [{ role: 'user', content: userPrompt }]
         }
       });
+
+      bookQueued++;
     }
 
-    console.log(`   📖 ${book.name}: ${book.total_chapters} chapters queued`);
+    console.log(`   📖 ${book.name}: ${bookQueued} chapters queued${skipped > 0 ? ` (${chaptersToProcess.length - bookQueued} skipped)` : ''}`);
+  }
   }
 
   console.log(`\n   Total requests: ${requests.length}`);
