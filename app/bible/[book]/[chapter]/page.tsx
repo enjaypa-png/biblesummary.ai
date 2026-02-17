@@ -13,6 +13,7 @@ interface Verse {
   id: string;
   verse: number;
   text: string;
+  translation?: string;
 }
 
 interface Book {
@@ -22,7 +23,7 @@ interface Book {
   total_chapters: number;
 }
 
-async function getBibleData(bookSlug: string, chapterNum: number) {
+async function getBibleData(bookSlug: string, chapterNum: number, translation: string = "ct") {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
   const supabase = createClient(supabaseUrl, supabaseKey);
@@ -37,11 +38,13 @@ async function getBibleData(bookSlug: string, chapterNum: number) {
     return { book: null, verses: [], error: "Book not found" };
   }
 
+  // Fetch verses for the requested translation
   const { data: verses, error: versesError } = await supabase
     .from("verses")
     .select("id, verse, text")
     .eq("book_id", book.id)
     .eq("chapter", chapterNum)
+    .eq("translation", translation)
     .order("verse");
 
   if (versesError) {
@@ -111,6 +114,6 @@ export async function generateMetadata({ params }: PageProps) {
 
   return {
     title: `${bookName} ${params.chapter} - BibleSummary.ai`,
-    description: `Read ${bookName} chapter ${params.chapter} (KJV) - BibleSummary.ai`,
+    description: `Read ${bookName} chapter ${params.chapter} - BibleSummary.ai`,
   };
 }

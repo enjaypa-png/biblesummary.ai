@@ -90,6 +90,32 @@ export default function ChapterReaderClient({
   const { settings, openPanel } = useReadingSettings();
   const theme = themeStyles[settings.themeMode];
 
+  // Translation-aware verses: re-fetch when user switches translation
+  const [displayVerses, setDisplayVerses] = useState(verses);
+  const [loadingTranslation, setLoadingTranslation] = useState(false);
+
+  useEffect(() => {
+    const translation = settings.translation || "ct";
+
+    async function fetchVerses() {
+      setLoadingTranslation(true);
+      const { data, error } = await supabase
+        .from("verses")
+        .select("id, verse, text")
+        .eq("book_id", bookId)
+        .eq("chapter", chapter)
+        .eq("translation", translation)
+        .order("verse");
+
+      if (!error && data && data.length > 0) {
+        setDisplayVerses(data);
+      }
+      setLoadingTranslation(false);
+    }
+
+    fetchVerses();
+  }, [settings.translation, bookId, chapter]);
+
   // Get font stack for current font family
   const getFontStack = (fontFamily: string) => {
     switch (fontFamily) {
@@ -122,8 +148,8 @@ export default function ChapterReaderClient({
   } = useAudioPlayer();
 
   const chapters = Array.from({ length: totalChapters }, (_, i) => i + 1);
-  const firstVerse = verses.length > 0 ? verses[0].verse : 1;
-  const lastVerse = verses.length > 0 ? verses[verses.length - 1].verse : 1;
+  const firstVerse = displayVerses.length > 0 ? displayVerses[0].verse : 1;
+  const lastVerse = displayVerses.length > 0 ? displayVerses[displayVerses.length - 1].verse : 1;
 
   // Current track for this page
   const thisTrackId = `${bookSlug}:${chapter}`;
@@ -370,7 +396,8 @@ export default function ChapterReaderClient({
   }
 
   async function handleShare(verseNum: number, verseText: string) {
-    const shareText = `"${verseText}" — ${bookName} ${chapter}:${verseNum} (KJV)\nBibleSummary.ai`;
+    const translationLabel = settings.translation === "kjv" ? "KJV" : "Clear Translation";
+    const shareText = `"${verseText}" — ${bookName} ${chapter}:${verseNum} (${translationLabel})\nBibleSummary.ai`;
 
     if (navigator.share) {
       try {
@@ -881,7 +908,7 @@ export default function ChapterReaderClient({
             fontFamily: fontStack,
           }}
         >
-          {verses.map((verse: Verse) => {
+          {displayVerses.map((verse: Verse) => {
             const hasNote = !!getVerseNote(verse.verse);
             const isActive = activeVerse === verse.verse;
             const isCurrentVerse = isThisTrackActive && currentlyPlayingVerse === verse.verse;

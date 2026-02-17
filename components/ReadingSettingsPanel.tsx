@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useReadingSettings, FontFamily, ThemeMode, themeStyles, VOICE_IDS, DEFAULT_VOICE_ID } from "@/contexts/ReadingSettingsContext";
+import { useReadingSettings, FontFamily, ThemeMode, themeStyles, VOICE_IDS, DEFAULT_VOICE_ID, BibleTranslation, TRANSLATION_LABELS } from "@/contexts/ReadingSettingsContext";
 
 interface VoiceInfo {
   id: string;
@@ -24,6 +24,7 @@ export default function ReadingSettingsPanel() {
     setLineHeight,
     setThemeMode,
     setVoiceId,
+    setTranslation,
     isPanelOpen,
     closePanel,
   } = useReadingSettings();
@@ -102,6 +103,42 @@ export default function ReadingSettingsPanel() {
               className="w-10 h-1 rounded-full"
               style={{ backgroundColor: currentTheme.border }}
             />
+          </div>
+
+          {/* Translation Selection */}
+          <div className="mb-8">
+            <div
+              className="text-[13px] font-medium uppercase tracking-wider mb-3"
+              style={{ color: currentTheme.secondary }}
+            >
+              Translation
+            </div>
+            <div className="flex gap-2">
+              {(["ct", "kjv"] as BibleTranslation[]).map((t) => (
+                <button
+                  key={t}
+                  onClick={() => setTranslation(t)}
+                  className="flex-1 px-3 py-2.5 rounded-xl text-[14px] font-medium transition-all text-center"
+                  style={{
+                    backgroundColor:
+                      settings.translation === t
+                        ? "var(--accent)"
+                        : currentTheme.card,
+                    color:
+                      settings.translation === t
+                        ? "#FFFFFF"
+                        : currentTheme.text,
+                    border: `1.5px solid ${
+                      settings.translation === t
+                        ? "var(--accent)"
+                        : currentTheme.border
+                    }`,
+                  }}
+                >
+                  {TRANSLATION_LABELS[t].name}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Font Family Selection */}
