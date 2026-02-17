@@ -138,6 +138,50 @@ The user's selected theme is stored in localStorage and applied via the `Reading
 - Test across all four theme modes (light, sepia, gray, dark) when changing UI.
 - Test note creation, explanation loading, and audio playback when changing `ChapterReaderClient.tsx`.
 
+## Database Reality vs. Migration Files
+
+**CRITICAL: The migration files do NOT fully match the live Supabase database.** Always verify against the live database before making assumptions.
+
+### Live database (11 tables)
+
+`bookmarks`, `books`, `explanations`, `highlights`, `notes`, `purchases`, `reading_progress`, `subscriptions`, `summaries`, `verse_explanations`, `verses`
+
+### Live functions (9)
+
+`insert_verse_explanation`, `is_subscription_active`, `lookup_book_ids`, `rls_auto_enable`, `set_updated_at`, `update_updated_at_column`, `user_has_explain_access`, `user_has_summary_access`
+
+### Tables in migration files but NOT in live database
+
+These were planned but never created in production:
+
+| Table | Migration | Purpose |
+|-------|-----------|---------|
+| `stripe_customers` | 006 | Maps Supabase user IDs to Stripe customer IDs |
+| `user_profiles` | 005 | Onboarding and segmentation data |
+| `user_sessions` | 007 | Session tracking for abuse detection |
+| `summary_access_log` | 007 | Rate limiting for summary views |
+| `account_deletions` | 009 | Deletion audit trail |
+
+### Functions in migration files but NOT in live database
+
+| Function | Migration | Why missing |
+|----------|-----------|-------------|
+| `check_account_suspicious` | 007, 012 | Depends on `user_sessions` table which doesn't exist |
+| `check_summary_rate_limit` | 007, 012 | Depends on `summary_access_log` table which doesn't exist |
+
+### Migration 012 has NOT been run
+
+Migration `012_security_and_performance_fixes.sql` fixes search_path vulnerabilities and optimizes RLS policies, but it has **not been applied** to the live database. Evidence: the Supabase dashboard still shows all 7 function search_path warnings. **Do not assume migration 012 changes are in effect.**
+
+### Known security issues (from Supabase Dashboard, Feb 2025)
+
+1. **ERROR:** `subscriptions` table — RLS is NOT enabled
+2. **WARNING:** 7 functions have mutable `search_path` (`set_updated_at`, `update_updated_at_column`, `insert_verse_explanation`, `user_has_summary_access`, `user_has_explain_access`, `lookup_book_ids`, `is_subscription_active`)
+3. **WARNING:** `explanations` table — overly permissive RLS policy `USING (true)`
+4. **WARNING:** Leaked password protection disabled in Supabase Auth settings
+
+See `supabase/SCHEMA.md` for full details and remediation SQL.
+
 ## Sensitive Areas
 
 These areas are the most likely to cause regressions if edited carelessly:

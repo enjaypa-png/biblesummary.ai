@@ -163,18 +163,55 @@ Environment variables must be configured in the Vercel project settings.
 
 ## Database
 
-Supabase PostgreSQL with Row Level Security. Key tables:
+Supabase PostgreSQL with Row Level Security. The live database has **11 tables** and **9 functions**.
+
+### Tables (live production)
 
 | Table | Purpose | RLS |
 |-------|---------|-----|
 | `books` | 66 Bible books metadata | Public read |
-| `verses` | ~31,000 KJV verses | Public read |
-| `explanations` | Cached AI verse explanations | Public read, service write |
+| `verses` | ~31,000 KJV verses (with `verse_id` composite key) | Public read |
+| `explanations` | Legacy cached AI verse explanations | Public read (overly permissive -- see security notes) |
+| `verse_explanations` | Newer AI explanation cache (book/chapter/verse_start/verse_end) | Public read, service write |
 | `notes` | User private verse notes | User's own data only |
-| `summaries` | Book summaries (paid feature, content in progress) | Public read |
-| `highlights` | User verse highlights (not wired) | User's own data only |
-| `reading_progress` | Reading tracking (not wired) | User's own data only |
-| `purchases` | Payment records (not wired) | User's own data only |
+| `summaries` | Book summaries (paid feature) | Public read |
+| `highlights` | User verse highlights | User's own data only |
+| `bookmarks` | User bookmarks (multiple per user, unique per chapter) | User's own data only |
+| `reading_progress` | Reading tracking | User's own data only |
+| `purchases` | One-time payment records | User's own data only |
+| `subscriptions` | Recurring Stripe subscriptions | **RLS NOT ENABLED (known issue)** |
+
+### Functions (live production)
+
+| Function | Purpose |
+|----------|---------|
+| `user_has_summary_access(user_id, book_id)` | Checks purchases + subscriptions for summary access |
+| `user_has_explain_access(user_id)` | Checks subscriptions for AI explanation access |
+| `insert_verse_explanation(...)` | Cache-safe insert with ON CONFLICT DO NOTHING |
+| `is_subscription_active(...)` | Checks if a subscription is currently active |
+| `lookup_book_ids(...)` | Resolves book references to UUIDs |
+| `update_updated_at_column()` | Trigger function for `updated_at` timestamps |
+| `set_updated_at()` | Trigger function (variant) |
+| `rls_auto_enable()` | Utility for auto-enabling RLS |
+
+### Tables in migrations but NOT in live database
+
+These tables are defined in migration files but were **never created** in production:
+
+- `stripe_customers` (migration 006) -- Maps Supabase users to Stripe customer IDs
+- `user_profiles` (migration 005) -- Onboarding and segmentation data
+- `user_sessions` (migration 007) -- Session tracking for abuse detection
+- `summary_access_log` (migration 007) -- Rate limiting for summary views
+- `account_deletions` (migration 009) -- Deletion audit trail
+
+### Known Security Issues (Supabase Dashboard)
+
+See `supabase/SCHEMA.md` for the full list with remediation steps.
+
+- **ERROR:** `subscriptions` table has RLS disabled
+- **WARNING:** 7 functions have mutable `search_path` (migration 012 fixes this but has not been run)
+- **WARNING:** `explanations` table has overly permissive RLS policy (`USING (true)`)
+- **WARNING:** Leaked password protection is disabled in Auth settings
 
 ## License
 
