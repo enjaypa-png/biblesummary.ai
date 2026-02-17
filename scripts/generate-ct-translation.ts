@@ -199,12 +199,13 @@ async function processChapter(
     return false; // skipped
   }
 
-  // Fetch KJV verses for this chapter
+  // Fetch KJV verses for this chapter (filter by translation to avoid mixing in CT rows)
   const { data: verses, error } = await supabase
     .from('verses')
     .select('verse, text')
     .eq('book_id', book.id)
     .eq('chapter', chapter)
+    .eq('translation', 'kjv')
     .order('verse');
 
   if (error) throw new Error(`DB error: ${error.message}`);
