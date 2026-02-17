@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import { useReadingSettings, TRANSLATION_LABELS } from "@/contexts/ReadingSettingsContext";
 
 interface Book {
   id: string;
@@ -18,6 +19,8 @@ type IndexTab = "books" | "chapters" | "verses";
 
 export default function BibleIndex({ books }: { books: Book[] }) {
   const router = useRouter();
+  const { settings } = useReadingSettings();
+  const translationInfo = TRANSLATION_LABELS[settings.translation || "ct"];
 
   // Navigation state
   const [activeTab, setActiveTab] = useState<IndexTab>("books");
@@ -248,7 +251,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
                 lineHeight: 1.2,
               }}
             >
-              King James Version
+              {translationInfo.fullName}
             </h1>
             <h2
               className="font-semibold tracking-tight"
