@@ -12,7 +12,10 @@
     "seed:summaries": "tsx scripts/seed-summaries.ts",
     "ct:generate": "tsx scripts/generate-ct-translation.ts",
     "ct:seed": "tsx scripts/seed-ct-verses.ts",
-    "ct:progress": "tsx scripts/ct-progress.ts"
+    "ct:progress": "tsx scripts/ct-progress.ts",
+    "ct:batch:submit": "tsx scripts/ct-batch-submit.ts",
+    "ct:batch:status": "tsx scripts/ct-batch-status.ts",
+    "ct:batch:download": "tsx scripts/ct-batch-download.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.74.0",
