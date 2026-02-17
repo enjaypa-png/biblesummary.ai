@@ -3,6 +3,30 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import type { CookieOptions } from "@supabase/ssr";
 
+/**
+ * Safari drops Set-Cookie headers on 302 redirect responses (ITP).
+ * Return an HTML page that lets cookies land, then redirect via JS.
+ */
+function htmlRedirect(
+  url: string,
+  cookies: { name: string; value: string; options: CookieOptions }[]
+) {
+  const html = `<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<meta http-equiv="refresh" content="0;url=${url}">
+<script>window.location.href="${url}";</script>
+</head><body></body></html>`;
+
+  const response = new NextResponse(html, {
+    status: 200,
+    headers: { "Content-Type": "text/html" },
+  });
+  cookies.forEach(({ name, value, options }) => {
+    response.cookies.set(name, value, options);
+  });
+  return response;
+}
+
 export async function GET(request: NextRequest) {
   const { searchParams, origin } = new URL(request.url);
   const code = searchParams.get("code");
@@ -44,11 +68,8 @@ export async function GET(request: NextRequest) {
         }
       }
 
-      const response = NextResponse.redirect(redirectUrl);
-      cookiesToReturn.forEach(({ name, value, options }) => {
-        response.cookies.set(name, value, options);
-      });
-      return response;
+      // Use HTML redirect so Safari processes Set-Cookie headers
+      return htmlRedirect(redirectUrl, cookiesToReturn);
     }
   }
 
