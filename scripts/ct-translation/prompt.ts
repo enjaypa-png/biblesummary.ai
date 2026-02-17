@@ -21,6 +21,9 @@ WRITING STYLE — Write like this:
 
 RULES:
 - Write FRESH sentences. Do NOT keep the old English phrasing.
+- Use different words but keep the EXACT meaning. Do not soften, strengthen, or shift what the verse actually says. "Urge" and "force" are not the same. "Full" and "everything" are not the same. Precision matters.
+- When the original uses poetic contrasts (full/empty, light/darkness, life/death) or repeats imagery across verses, preserve those patterns in your rewrite.
+- Write the way a person would naturally speak, not how a textbook would explain it. "Lie down" not "position yourself." "Spread your covering over me" not "extend your protection."
 - Remove "And" from the beginning of sentences when it's just a connector.
 - Put quotation marks around spoken words.
 - Keep names, numbers, and "God", "LORD", "the Almighty" exactly as they are.
