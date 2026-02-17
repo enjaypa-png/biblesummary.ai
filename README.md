@@ -1,28 +1,60 @@
 # BibleSummary.ai
 
-A Bible reading web app with verse-level notes, AI-powered explanations, and audio playback. Built with Next.js 14, Supabase, and deployed on Vercel.
+A modern Bible reading companion with AI-powered summaries, verse explanations, and two built-in translations. Built with Next.js 14, Supabase, and deployed on Vercel.
 
-## What This App Does Today
+## What This App Does
 
-- **Read the Bible (KJV)** -- Browse 66 books, navigate by chapter, read verse text with customizable typography
-- **Listen** -- Verse-by-verse text-to-speech audio powered by ElevenLabs, with playback controls and verse tracking
-- **Explain** -- Tap any verse to get a plain-English AI explanation (OpenAI GPT-4o-mini), cached in the database
-- **Take Notes** -- Add, edit, and delete personal notes on any verse; notes are stored in Supabase per user
-- **Share Verses** -- Share verse text via native Web Share API or clipboard
-- **Reading Settings** -- Choose font family, font size, line height, and color theme (light, sepia, gray, dark)
-- **Authentication** -- Email/password signup and login with OTP email verification via Supabase Auth
+- **Read the Bible** — Browse 66 books with two translations:
+  - **Clear Translation (CT)** — A modern English rendering created specifically for this app using Claude Opus 4.6. Designed to read like the NIV in quality and clarity while being fully owned and license-free.
+  - **King James Version (KJV)** — The classic public domain text.
+  - Users toggle between translations in the reading settings panel (Aa button). CT is the default.
+- **Listen** — Verse-by-verse text-to-speech audio powered by ElevenLabs, with playback controls and verse tracking
+- **Explain** — Tap any verse to get a plain-English AI explanation (OpenAI GPT-4o-mini), cached in the database
+- **Take Notes** — Add, edit, and delete personal notes on any verse; stored per user in Supabase
+- **Highlights** — Color-code verses with 5 highlight colors; browse all highlights organized by book
+- **Bookmarks** — Manually bookmark a specific verse; one bookmark per user
+- **Share Verses** — Share verse text via native Web Share API or clipboard (shows current translation name)
+- **Reading Settings** — Font family, font size, line height, color theme (light/sepia/gray/dark), narrator voice, and translation toggle
+- **Book Summaries** — Paid feature. Pre-written summaries for each book of the Bible stored in `content/summaries/`
+- **Authentication** — Email/password signup and login with OTP email verification via Supabase Auth
+- **Reading Position** — Automatic tracking via localStorage with "Continue Reading" card on the index
 
-## What Is Not Built Yet
+## Clear Translation (CT)
 
-These are defined in the database schema or visible as disabled UI placeholders, but have no working logic:
+The Clear Translation is a modern English rendering of the entire Bible (31,000+ verses across 1,189 chapters). It was generated using Claude Opus 4.6 with a carefully engineered prompt system that ensures:
 
-- **Search** -- Page exists as a "Coming Soon" placeholder
-- **Highlights** -- Database table exists; button is visible but disabled in the verse action bar
-- **Bookmarks** -- Manually bookmark a specific verse; one bookmark per user, replaces previous
-- **Reading Position** -- Automatic reading position tracking (localStorage); "Continue Reading" card on the Bible index
-- **Book Summaries** -- Paid feature. Pre-written summaries for each book of the Bible. Content stored in `content/summaries/`. See `content/summaries/SUMMARY-GUIDE.md` for the generation plan covering all 66 books across 5 format categories (narrative, prophetic, poetry/wisdom, law, epistles). Genesis and Revelation are complete.
-- **Reading Progress Tracking** -- Database table exists; not wired to the UI
-- **Payments / Purchases** -- Database table and helper function exist; no Stripe integration or UI
+- **Theological precision** — Protected terms like "heaven," "created," "soul," "spirit," "grace," "righteousness," "salvation," "covenant," "sin," and "atonement" are preserved exactly
+- **Anti-embellishment** — No words, ideas, or emphasis are added that aren't in the original
+- **Repetition preservation** — When the original repeats a word for emphasis (like "created" 3x in Genesis 1:27), the CT preserves it
+- **Calibrated tone** — Clear and dignified, like a trusted friend explaining Scripture. Not formal ("luminaries") and not casual ("pack the water")
+- **Genre-aware** — Tested across narrative (Genesis), poetry (Psalms), law (Leviticus), prophecy (Isaiah), and epistles (Romans)
+
+### CT Tooling
+
+| Script | Purpose |
+|--------|---------|
+| `npm run ct:generate` | Real-time generation (one chapter at a time via Claude API) |
+| `npm run ct:batch:submit` | Submit chapters to Anthropic Batch API (50% cost savings) |
+| `npm run ct:batch:status` | Check batch processing status |
+| `npm run ct:batch:download` | Download completed batch results |
+| `npm run ct:seed` | Seed CT verses into Supabase |
+| `npm run ct:progress` | Dashboard showing generation progress |
+| `npm run ct:review` | Quality review — 100 key verses side-by-side (KJV vs CT) with HTML output |
+| `npm run ct:edit` | Fix individual verses directly in Supabase |
+
+The batch submit script supports targeted testing:
+```bash
+npm run ct:batch:submit -- --books genesis,psalms,romans --chapter 2 --dry-run
+```
+
+The verse editor allows surgical corrections:
+```bash
+npm run ct:edit -- --ref "Romans 8:28"    # Look up a verse
+npm run ct:edit -- --dry-run              # Preview fixes
+npm run ct:edit                           # Apply fixes
+```
+
+CT source files: `scripts/ct-translation/prompt.ts` (system prompt), `scripts/ct-translation/STYLE-GUIDE.md` (style rules and protected terms).
 
 ## Tech Stack
 
@@ -34,7 +66,8 @@ These are defined in the database schema or visible as disabled UI placeholders,
 | Database + Auth | Supabase (PostgreSQL, Row Level Security, Auth) |
 | State | Zustand (explanation cache), React Context (audio, reading settings) |
 | AI Explanations | OpenAI GPT-4o-mini |
-| Text-to-Speech | ElevenLabs (eleven_turbo_v2, "Daniel" voice) |
+| CT Generation | Anthropic Claude Opus 4.6 |
+| Text-to-Speech | ElevenLabs |
 | Deployment | Vercel |
 
 ## Local Development
@@ -56,22 +89,21 @@ Edit `.env.local` with your credentials:
 ```env
 NEXT_PUBLIC_SUPABASE_URL=your-project-url.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 ELEVENLABS_API_KEY=your-elevenlabs-key
 OPENAI_API_KEY=your-openai-key
+ANTHROPIC_API_KEY=your-anthropic-key
 ```
-
-`ELEVENLABS_VOICE_ID` is optional (defaults to Daniel narrator).
 
 ### 3. Seed the database
 
 Run the Supabase migrations first (see `supabase/migrations/`), then:
 
 ```bash
-npm run seed:books
-npm run seed:verses
+npm run seed:books      # Load 66 book records
+npm run seed:verses     # Fetch ~31,000 KJV verses
+npm run ct:seed         # Seed Clear Translation verses
 ```
-
-`seed:books` loads 66 book records from `data/books.json`. `seed:verses` fetches ~31,000 KJV verses from the public [aruljohn/Bible-kjv](https://github.com/aruljohn/Bible-kjv) repository.
 
 ### 4. Start the dev server
 
@@ -90,7 +122,15 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm start` | Production server |
 | `npm run lint` | ESLint |
 | `npm run seed:books` | Populate books table |
-| `npm run seed:verses` | Populate verses table |
+| `npm run seed:verses` | Populate KJV verses |
+| `npm run ct:generate` | Generate CT chapters (real-time) |
+| `npm run ct:batch:submit` | Submit CT batch (50% off) |
+| `npm run ct:batch:status` | Check batch status |
+| `npm run ct:batch:download` | Download batch results |
+| `npm run ct:seed` | Seed CT verses into Supabase |
+| `npm run ct:progress` | CT generation progress |
+| `npm run ct:review` | Review 100 key verses |
+| `npm run ct:edit` | Edit individual CT verses |
 
 ## Project Structure
 
@@ -102,12 +142,15 @@ app/
     page.tsx                      Book index (server component, fetches books)
     BibleIndex.tsx                Three-tab navigator: Books > Chapters > Verses
     [book]/page.tsx               Chapter grid for a book
-    [book]/[chapter]/page.tsx     Fetches verses (server component)
+    [book]/[chapter]/page.tsx     Fetches verses filtered by translation (server)
     [book]/[chapter]/ChapterReaderClient.tsx
-                                  Main reading experience (notes, explain, audio, share)
+                                  Main reading experience (translation toggle, notes,
+                                  explain, audio, share, highlights, bookmarks)
   listen/page.tsx                 Dedicated audio playback interface
   search/page.tsx                 Placeholder (coming soon)
   notes/page.tsx                  Notes list with search, sort, navigation to verse
+  highlights/page.tsx             Highlights list organized by book with color chips
+  bookmarks/page.tsx              Bookmarks management
   login/page.tsx                  Email/password + OTP verification
   signup/page.tsx                 Account creation + OTP verification
   more/page.tsx                   Account menu and about section
@@ -116,102 +159,82 @@ app/
     tts/route.ts                  Text-to-speech streaming (POST, ElevenLabs)
 
 components/
-  AuthGate.tsx                    Route protection (redirects unauthenticated users)
-  BottomTabBar.tsx                5-tab mobile navigation (Read, Listen, Search, Notes, More)
+  ReadingSettingsPanel.tsx        Bottom sheet: translation toggle, font, theme, voice
+  VerseActionBar.tsx              Pill-shaped action bar (Explain, Note, Share, etc.)
+  BottomTabBar.tsx                Mobile tab navigation
   InlineAudioPlayer.tsx           In-chapter audio controls
   MiniPlayer.tsx                  Floating player for background audio
-  VerseActionBar.tsx              Pill-shaped action bar (Explain, Note, Share + 3 disabled)
-  ReadingSettingsPanel.tsx        Bottom sheet for font/theme settings
+  AuthGate.tsx                    Route protection
 
 contexts/
   AudioPlayerContext.tsx           Audio playback state and verse-by-verse TTS
-  ReadingSettingsContext.tsx        Font, size, line height, theme preferences
+  ReadingSettingsContext.tsx        Font, size, line height, theme, voice, translation
 
 lib/
   supabase.ts                     Supabase client, getCurrentUser(), signOut()
   verseStore.ts                   Zustand store for explanation caching
-  audio-utils.ts                  Audio helper functions (preload, fade, error messages)
+  audio-utils.ts                  Audio helper functions
+  highlightColors.ts              5 highlight color definitions
 
-content/
-  summaries/
-    SUMMARY-GUIDE.md              Generation plan for all 66 books (categories, voice rules, prompt template)
-    01-genesis.md                 Genesis summary (chapter-by-chapter, needs Ch 2 fix)
-    66-revelation.md              Revelation summary (section-by-section)
+scripts/
+  ct-translation/
+    prompt.ts                     CT system prompt with protected terms and rules
+    STYLE-GUIDE.md                Tone calibration, examples, review checklist
+  generate-ct-translation.ts      Real-time CT generation (one chapter at a time)
+  ct-batch-submit.ts              Batch API submission (50% cost savings)
+  ct-batch-status.ts              Batch status polling
+  ct-batch-download.ts            Batch result download and JSON conversion
+  ct-review.ts                    Quality review tool (100 key verses, HTML output)
+  ct-edit.ts                      Verse editor (lookup, dry-run, apply fixes)
+  ct-progress.ts                  Generation progress dashboard
+  seed-ct-verses.ts               Seed CT into Supabase
+  seed-books.ts                   Seed books table
+  seed-verses.ts                  Seed KJV verses
 
 data/
   books.json                      66 Bible books metadata
+  translations/ct/                Generated CT JSON files (book/chapter.json)
 
-supabase/
-  migrations/                     3 migration files (schema for all tables)
-  seeds/                          Sample data SQL
-
-scripts/
-  seed-books.ts                   Loads books.json into database
-  seed-verses.ts                  Fetches KJV text from GitHub into database
+content/
+  summaries/                      Book summaries (paid feature)
 ```
 
 ## Deployment
 
-This project deploys to Vercel automatically on merge to `main`.
+This project deploys to Vercel automatically on push.
 
-1. Push code to a feature branch
-2. Open a pull request on GitHub
-3. Merge the PR into `main`
-4. Vercel builds and deploys automatically
-
-Environment variables must be configured in the Vercel project settings.
+- `vercel.json` includes an `ignoreCommand` that skips builds when only `scripts/` or `data/` files change
+- `tsconfig.json` excludes `scripts/` and `data/` from TypeScript compilation to prevent build failures from standalone tooling scripts
+- Environment variables must be configured in the Vercel project settings
 
 ## Database
 
-Supabase PostgreSQL with Row Level Security. The live database has **11 tables** and **9 functions**.
+Supabase PostgreSQL with Row Level Security. The `verses` table stores both KJV and CT translations, distinguished by the `translation` column.
 
-### Tables (live production)
+### Tables
 
 | Table | Purpose | RLS |
 |-------|---------|-----|
 | `books` | 66 Bible books metadata | Public read |
-| `verses` | ~31,000 KJV verses (with `verse_id` composite key) | Public read |
-| `explanations` | Legacy cached AI verse explanations | Public read (overly permissive -- see security notes) |
-| `verse_explanations` | Newer AI explanation cache (book/chapter/verse_start/verse_end) | Public read, service write |
+| `verses` | ~62,000 verses (KJV + CT, with `translation` column) | Public read |
+| `explanations` | Legacy cached AI verse explanations | Public read |
+| `verse_explanations` | Newer AI explanation cache | Public read, service write |
 | `notes` | User private verse notes | User's own data only |
 | `summaries` | Book summaries (paid feature) | Public read |
 | `highlights` | User verse highlights | User's own data only |
-| `bookmarks` | User bookmarks (multiple per user, unique per chapter) | User's own data only |
+| `bookmarks` | User bookmarks | User's own data only |
 | `reading_progress` | Reading tracking | User's own data only |
 | `purchases` | One-time payment records | User's own data only |
 | `subscriptions` | Recurring Stripe subscriptions | **RLS NOT ENABLED (known issue)** |
 
-### Functions (live production)
+### Known Security Issues
 
-| Function | Purpose |
-|----------|---------|
-| `user_has_summary_access(user_id, book_id)` | Checks purchases + subscriptions for summary access |
-| `user_has_explain_access(user_id)` | Checks subscriptions for AI explanation access |
-| `insert_verse_explanation(...)` | Cache-safe insert with ON CONFLICT DO NOTHING |
-| `is_subscription_active(...)` | Checks if a subscription is currently active |
-| `lookup_book_ids(...)` | Resolves book references to UUIDs |
-| `update_updated_at_column()` | Trigger function for `updated_at` timestamps |
-| `set_updated_at()` | Trigger function (variant) |
-| `rls_auto_enable()` | Utility for auto-enabling RLS |
+See `supabase/SCHEMA.md` for full details and remediation SQL.
 
-### Tables in migrations but NOT in live database
-
-These tables are defined in migration files but were **never created** in production:
-
-- `stripe_customers` (migration 006) -- Maps Supabase users to Stripe customer IDs
-- `user_profiles` (migration 005) -- Onboarding and segmentation data
-- `user_sessions` (migration 007) -- Session tracking for abuse detection
-- `summary_access_log` (migration 007) -- Rate limiting for summary views
-- `account_deletions` (migration 009) -- Deletion audit trail
-
-### Known Security Issues (Supabase Dashboard)
-
-See `supabase/SCHEMA.md` for the full list with remediation steps.
-
-- **ERROR:** `subscriptions` table has RLS disabled
-- **WARNING:** 7 functions have mutable `search_path` (migration 012 fixes this but has not been run)
-- **WARNING:** `explanations` table has overly permissive RLS policy (`USING (true)`)
-- **WARNING:** Leaked password protection is disabled in Auth settings
+1. **ERROR:** `subscriptions` table — RLS is NOT enabled
+2. **WARNING:** 7 functions have mutable `search_path`
+3. **WARNING:** `explanations` table — overly permissive RLS policy
+4. **WARNING:** Leaked password protection disabled in Supabase Auth settings
 
 ## License
 
