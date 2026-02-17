@@ -9,9 +9,13 @@
     "lint": "next lint",
     "seed:books": "tsx scripts/seed-books.ts",
     "seed:verses": "tsx scripts/seed-verses.ts",
-    "seed:summaries": "tsx scripts/seed-summaries.ts"
+    "seed:summaries": "tsx scripts/seed-summaries.ts",
+    "ct:generate": "tsx scripts/generate-ct-translation.ts",
+    "ct:seed": "tsx scripts/seed-ct-verses.ts",
+    "ct:progress": "tsx scripts/ct-progress.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.74.0",
     "@stripe/stripe-js": "^8.7.0",
     "@supabase/ssr": "^0.8.0",
     "@supabase/supabase-js": "^2.39.7",
