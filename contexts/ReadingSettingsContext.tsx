@@ -6,6 +6,12 @@ import { DEFAULT_VOICE_ID } from "@/lib/voiceIds";
 
 export type FontFamily = "Libre Baskerville" | "Spectral" | "Source Sans 3" | "System";
 export type ThemeMode = "light" | "sepia" | "gray" | "dark";
+export type BibleTranslation = "ct" | "kjv";
+
+export const TRANSLATION_LABELS: Record<BibleTranslation, { name: string; fullName: string }> = {
+  ct: { name: "Clear", fullName: "Clear Translation" },
+  kjv: { name: "KJV", fullName: "King James Version" },
+};
 
 interface ReadingSettings {
   fontFamily: FontFamily;
@@ -13,6 +19,7 @@ interface ReadingSettings {
   lineHeight: number;
   themeMode: ThemeMode;
   voiceId: string;
+  translation: BibleTranslation;
 }
 
 interface ReadingSettingsContextType {
@@ -22,6 +29,7 @@ interface ReadingSettingsContextType {
   setLineHeight: (height: number) => void;
   setThemeMode: (mode: ThemeMode) => void;
   setVoiceId: (voiceId: string) => void;
+  setTranslation: (translation: BibleTranslation) => void;
   isPanelOpen: boolean;
   openPanel: () => void;
   closePanel: () => void;
@@ -33,6 +41,7 @@ const defaultSettings: ReadingSettings = {
   lineHeight: 1.9,
   themeMode: "light",
   voiceId: DEFAULT_VOICE_ID,
+  translation: "ct",
 };
 
 const ReadingSettingsContext = createContext<ReadingSettingsContextType | null>(null);
@@ -94,6 +103,7 @@ export function ReadingSettingsProvider({ children }: { children: React.ReactNod
           lineHeight: parsed.lineHeight || defaultSettings.lineHeight,
           themeMode: parsed.themeMode || defaultSettings.themeMode,
           voiceId: parsed.voiceId || defaultSettings.voiceId,
+          translation: parsed.translation || defaultSettings.translation,
         });
       } catch (e) {
         console.error("Failed to parse reading settings:", e);
@@ -129,6 +139,10 @@ export function ReadingSettingsProvider({ children }: { children: React.ReactNod
     setSettings((prev) => ({ ...prev, voiceId }));
   }, []);
 
+  const setTranslation = useCallback((translation: BibleTranslation) => {
+    setSettings((prev) => ({ ...prev, translation }));
+  }, []);
+
   const openPanel = useCallback(() => setIsPanelOpen(true), []);
   const closePanel = useCallback(() => setIsPanelOpen(false), []);
 
@@ -139,6 +153,7 @@ export function ReadingSettingsProvider({ children }: { children: React.ReactNod
     setLineHeight,
     setThemeMode,
     setVoiceId,
+    setTranslation,
     isPanelOpen,
     openPanel,
     closePanel,

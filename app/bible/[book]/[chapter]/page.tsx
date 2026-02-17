@@ -13,6 +13,7 @@ interface Verse {
   id: string;
   verse: number;
   text: string;
+  translation?: string;
 }
 
 interface Book {
@@ -22,7 +23,7 @@ interface Book {
   total_chapters: number;
 }
 
-async function getBibleData(bookSlug: string, chapterNum: number) {
+async function getBibleData(bookSlug: string, chapterNum: number, translation: string = "ct") {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
   const supabase = createClient(supabaseUrl, supabaseKey);
@@ -37,12 +38,27 @@ async function getBibleData(bookSlug: string, chapterNum: number) {
     return { book: null, verses: [], error: "Book not found" };
   }
 
-  const { data: verses, error: versesError } = await supabase
+  // Fetch verses for the requested translation
+  let { data: verses, error: versesError } = await supabase
     .from("verses")
     .select("id, verse, text")
     .eq("book_id", book.id)
     .eq("chapter", chapterNum)
+    .eq("translation", translation)
     .order("verse");
+
+  // If CT not found for this chapter, fall back to KJV
+  if ((!verses || verses.length === 0) && translation === "ct") {
+    const fallback = await supabase
+      .from("verses")
+      .select("id, verse, text")
+      .eq("book_id", book.id)
+      .eq("chapter", chapterNum)
+      .eq("translation", "kjv")
+      .order("verse");
+    verses = fallback.data;
+    versesError = fallback.error;
+  }
 
   if (versesError) {
     return { book, verses: [], error: "Verses not found" };
@@ -111,6 +127,6 @@ export async function generateMetadata({ params }: PageProps) {
 
   return {
     title: `${bookName} ${params.chapter} - BibleSummary.ai`,
-    description: `Read ${bookName} chapter ${params.chapter} (KJV) - BibleSummary.ai`,
+    description: `Read ${bookName} chapter ${params.chapter} - BibleSummary.ai`,
   };
 }
