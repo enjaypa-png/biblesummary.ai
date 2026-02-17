@@ -80,6 +80,14 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes
 - The BibleIndex shows a "Continue Reading" card from this data.
 - This is invisible to the user — no action required to save their position.
 
+### Highlights
+
+- Highlights are stored per user in the `highlights` table (Supabase, RLS enforced).
+- Users select from 5 colors: yellow, orange, green, pink, blue (defined in `lib/highlightColors.ts`).
+- Color picker appears inline in the chapter reader when the user taps Highlight in the action bar.
+- Highlighted verses display with a theme-aware transparent background in the selected color.
+- The Highlights page (`/highlights`) lists all highlights organized by book with color chips, verse text preview, and "Go to verse" navigation.
+
 ### Summaries (Paid Feature)
 
 - Pre-written book-level summaries for each book of the Bible, stored in `content/summaries/` and seeded to Supabase.
@@ -88,28 +96,20 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles notes
 - "Book Summary" button in the verse action bar opens the summary for the current book. Access is gated by `user_has_summary_access` (purchases). Respectful paywall shown when user lacks access.
 - Summaries tab in bottom navigation shows a library of books with available summaries. Tapping a book opens its summary view.
 
-### Disabled / Placeholder Features
+### Reading Progress
 
-The `VerseActionBar` contains one disabled button: **Highlight**. It is intentionally present as a visual placeholder. Do not:
+- Reading progress is tracked per user in the `reading_progress` table (Supabase, RLS enforced).
+- Tracks last verse read and completion status per chapter.
 
-- Remove it
-- Enable it without full implementation behind them
-- Wire it to partial or stub logic
+### Purchases
 
-The **Book Summary** button is enabled and wired to the full Book Summary feature.
+- One-time payments via Stripe, stored in the `purchases` table (Supabase, RLS enforced).
+- Supports two purchase types: `single` (one book) and `lifetime` (all content).
+- Only the service role can insert purchase records; users can view their own.
 
-Similarly, the Search page (`/search/page.tsx`) is a "Coming Soon" placeholder. Do not add partial search functionality.
+### Placeholder Features
 
-### Database tables that exist but are not wired
-
-These tables exist in Supabase migrations but have no UI or app logic:
-
-- `highlights` -- for verse highlighting
-- `reading_progress` -- for tracking what the user has read
-- `purchases` -- for one-time payments (Stripe integration planned but not built)
-- `summaries` -- for book summaries (content being generated externally, see `content/summaries/SUMMARY-GUIDE.md`)
-
-Do not create UI for these without an explicit request and full implementation plan.
+The Search page (`/search/page.tsx`) is a "Coming Soon" placeholder. Do not add partial search functionality.
 
 ## Code Discipline
 
@@ -151,3 +151,4 @@ These areas are the most likely to cause regressions if edited carelessly:
 | `AuthGate.tsx` | Medium | Route protection, login redirect flow |
 | `VerseActionBar.tsx` | Low | Action bar appearance and click handlers |
 | `notes/page.tsx` | Low | Notes list and navigation to verses |
+| `highlights/page.tsx` | Low | Highlights list and navigation to verses |
