@@ -12,6 +12,7 @@
  *   npm run ct:batch:submit -- --books genesis,psalms --chapter 2    # Ch 2 of each
  *   npm run ct:batch:submit -- --books genesis,psalms --chapters 1-3 # Ch 1-3 of each
  *   npm run ct:batch:submit -- --force                               # Regenerate existing
+ *   npm run ct:batch:submit -- --dry-run                             # Preview without submitting
  *
  * After submitting:
  *   npm run ct:batch:status                   # Check if batch is done
@@ -59,20 +60,19 @@ function parseArgs() {
   let books: string[] = [];
   let chapters: number[] | null = null;
   let force = false;
+  let dryRun = false;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--book' && args[i + 1]) {
       books.push(args[i + 1]);
       i++;
     } else if (args[i] === '--books' && args[i + 1]) {
-      // Comma-separated: --books genesis,psalms,romans
       books.push(...args[i + 1].split(',').map(b => b.trim()));
       i++;
     } else if (args[i] === '--chapter' && args[i + 1]) {
       chapters = [parseInt(args[i + 1], 10)];
       i++;
     } else if (args[i] === '--chapters' && args[i + 1]) {
-      // Range: --chapters 1-3  or single: --chapters 5
       const val = args[i + 1];
       if (val.includes('-')) {
         const [start, end] = val.split('-').map(Number);
@@ -84,10 +84,12 @@ function parseArgs() {
       i++;
     } else if (args[i] === '--force') {
       force = true;
+    } else if (args[i] === '--dry-run') {
+      dryRun = true;
     }
   }
 
-  return { books: books.length > 0 ? books : null, chapters, force };
+  return { books: books.length > 0 ? books : null, chapters, force, dryRun };
 }
 
 function chapterExists(bookSlug: string, chapter: number): boolean {
@@ -97,7 +99,7 @@ function chapterExists(bookSlug: string, chapter: number): boolean {
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const { books: bookFilter, chapters: chapterFilter, force } = parseArgs();
+  const { books: bookFilter, chapters: chapterFilter, force, dryRun } = parseArgs();
 
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log('  CT Batch Submit (50% cost savings)');
@@ -106,6 +108,7 @@ async function main() {
   if (bookFilter) console.log(`  Books: ${bookFilter.join(', ')}`);
   if (chapterFilter) console.log(`  Chapters: ${chapterFilter.join(', ')}`);
   if (force) console.log(`  Force: yes`);
+  if (dryRun) console.log(`  🏜️  DRY RUN — will NOT submit to API`);
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
   // Fetch books
@@ -126,21 +129,20 @@ async function main() {
   let skipped = 0;
 
   for (const book of books) {
-    // Determine which chapters to process for this book
     const chaptersToProcess = chapterFilter
       ? chapterFilter.filter(c => c >= 1 && c <= book.total_chapters)
       : Array.from({ length: book.total_chapters }, (_, i) => i + 1);
 
     let bookQueued = 0;
+    let bookSkipped = 0;
 
     for (const chapter of chaptersToProcess) {
-      // Skip already-generated chapters unless --force
       if (!force && chapterExists(book.slug, chapter)) {
         skipped++;
+        bookSkipped++;
         continue;
       }
 
-      // Fetch KJV verses
       const { data: verses, error: vError } = await supabase
         .from('verses')
         .select('verse, text')
@@ -154,8 +156,6 @@ async function main() {
       }
 
       const userPrompt = buildUserPrompt(book.name, chapter, verses);
-
-      // custom_id format: "genesis_1" — we'll parse this when downloading results
       const customId = `${book.slug}_${chapter}`;
 
       requests.push({
@@ -172,8 +172,8 @@ async function main() {
       bookQueued++;
     }
 
-    console.log(`   📖 ${book.name}: ${bookQueued} chapters queued${skipped > 0 ? ` (${chaptersToProcess.length - bookQueued} skipped)` : ''}`);
-  }
+    const skipNote = bookSkipped > 0 ? ` (${bookSkipped} skipped)` : '';
+    console.log(`   📖 ${book.name}: ${bookQueued} chapters queued${skipNote}`);
   }
 
   console.log(`\n   Total requests: ${requests.length}`);
@@ -186,13 +186,25 @@ async function main() {
   }
 
   // Estimate cost (50% off Opus pricing)
-  // Rough: ~2500 tokens per chapter (input+output), Opus output is $75/M, with 50% = $37.50/M
   const estimatedCost = (requests.length * 2500 * 37.5) / 1_000_000;
   console.log(`   Estimated cost: ~$${estimatedCost.toFixed(0)}-${(estimatedCost * 1.5).toFixed(0)} (50% batch discount applied)`);
 
+  // Dry run — stop here
+  if (dryRun) {
+    console.log('\n   🏜️  DRY RUN complete. No batch was submitted.');
+    console.log('   Remove --dry-run to submit for real.');
+
+    console.log('\n   Sample request (first in batch):');
+    console.log(`     custom_id: ${requests[0].custom_id}`);
+    console.log(`     model: ${requests[0].params.model}`);
+    console.log(`     temperature: ${requests[0].params.temperature}`);
+    console.log(`     system prompt: ${requests[0].params.system.substring(0, 80)}...`);
+    console.log(`     user prompt: ${requests[0].params.messages[0].content.substring(0, 100)}...`);
+    return;
+  }
+
   console.log('\n   Submitting batch...');
 
-  // Submit batch
   const batch = await anthropic.messages.batches.create({
     requests: requests
   });
@@ -201,7 +213,7 @@ async function main() {
   console.log(`   Batch ID: ${batch.id}`);
   console.log(`   Status: ${batch.processing_status}`);
 
-  // Save batch ID for status checking and downloading
+  // Save batch metadata
   if (!fs.existsSync(BATCH_DIR)) fs.mkdirSync(BATCH_DIR, { recursive: true });
 
   const batchInfo = {
@@ -210,7 +222,6 @@ async function main() {
     total_requests: requests.length,
     skipped_existing: skipped,
     book_filter: bookFilter || 'all',
-    // Save the custom_id → book/chapter mapping for download script
     chapter_map: requests.map(r => {
       const [slug, ch] = r.custom_id.split('_');
       const book = books.find(b => b.slug === slug);
@@ -228,7 +239,6 @@ async function main() {
     JSON.stringify(batchInfo, null, 2)
   );
 
-  // Also save as "latest" for convenience
   fs.writeFileSync(
     path.join(BATCH_DIR, 'latest.json'),
     JSON.stringify(batchInfo, null, 2)
