@@ -51,6 +51,11 @@ function SignUpForm() {
         return;
       }
 
+      if (data.user && data.user.identities && data.user.identities.length === 0) {
+        setError("An account with this email already exists. Please sign in instead.");
+        return;
+      }
+
       if (data.user) {
         setStep("verify");
       }
