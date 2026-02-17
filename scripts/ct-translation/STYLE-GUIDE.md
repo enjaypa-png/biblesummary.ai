@@ -94,6 +94,42 @@ give readers an accessible entry point to Scripture.
 | spake | spoke |
 | nigh | near |
 
+## Protected Terms — DO NOT Change These
+
+Some KJV terms carry specific theological weight and must be preserved in the CT.
+Do NOT replace them with simpler synonyms.
+
+| KJV Term | Rule |
+|----------|------|
+| heaven / heavens | Keep as-is. Do NOT change to "sky." |
+| created | Keep when KJV uses "created." Do NOT swap to "made" or "formed." Hebrew "bara" is reserved for God's creative acts. |
+| soul | Keep as "soul." Do NOT change to "life" unless context clearly means physical life. |
+| spirit | Keep as "spirit." Do NOT change to "breath" unless context clearly means physical breath. |
+| grace | Keep as "grace." |
+| righteousness | Keep as "righteousness." |
+| salvation | Keep as "salvation." |
+| covenant | Keep as "covenant." |
+| sin | Keep as "sin." |
+| atonement | Keep as "atonement." |
+| glory | Keep as "glory." |
+| God, LORD, Lord GOD, the Almighty | Keep exactly as written. |
+
+## Tone Guidelines
+
+The CT should sound **clear and dignified** — like a trusted friend explaining Scripture, not a professor lecturing or a teenager texting.
+
+- **Too formal:** "Let luminaries appear in the expanse" → Use "lights" instead
+- **Too casual:** "pack the water in the seas" → Use "fill the waters" instead
+- **Just right:** "Let lights appear in the expanse of the heavens"
+
+Do NOT add words that aren't in the original:
+- **Bad:** "Instantly, light existed" (adds "instantly" — not in original)
+- **Good:** "And light appeared" (clean, simple, faithful)
+
+When the original repeats a word for emphasis, preserve the repetition:
+- **KJV:** "So God created man... in the image of God created he him... male and female created he them"
+- **CT:** "So God created human beings... in the image of God he created them... male and female he created them"
+
 ## Review Checklist
 
 When reviewing generated CT text, check for:
@@ -101,7 +137,12 @@ When reviewing generated CT text, check for:
 - [ ] Every KJV verse has a corresponding CT verse (no missing verses)
 - [ ] Verse numbers match exactly
 - [ ] Meaning is preserved (no additions or omissions)
-- [ ] Language is modern and accessible
+- [ ] No words/emphasis ADDED that aren't in the original
+- [ ] Protected terms preserved (heaven, created, soul, spirit, grace, etc.)
+- [ ] Word repetition for emphasis is preserved (e.g., "created" 3x in Gen 1:27)
+- [ ] Poetic contrasts preserved (full/empty, light/darkness)
+- [ ] Language is modern and accessible (no archaic phrasing)
+- [ ] Tone is clear and dignified (not too formal, not too casual)
 - [ ] Proper nouns are unchanged
 - [ ] LORD (all caps) is used consistently for YHWH
 - [ ] No theological commentary was added
