@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { useAudioPlayer } from "@/contexts/AudioPlayerContext";
-import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
+import { useReadingSettings, themeStyles, TRANSLATION_LABELS } from "@/contexts/ReadingSettingsContext";
 import { useExplanationCache, getVerseId } from "@/lib/verseStore";
 import VerseActionBar from "@/components/VerseActionBar";
 import ExplainPaywall from "@/components/ExplainPaywall";
@@ -1285,7 +1285,7 @@ export default function ChapterReaderClient({
           </div>
         </nav>
 
-        <p className="text-center mt-8 text-[11px] tracking-wide" style={{ color: theme.secondary }}>KING JAMES VERSION</p>
+        <p className="text-center mt-8 text-[11px] tracking-wide" style={{ color: theme.secondary }}>{TRANSLATION_LABELS[settings.translation || "ct"].fullName.toUpperCase()}</p>
       </main>
     </div>
   );
