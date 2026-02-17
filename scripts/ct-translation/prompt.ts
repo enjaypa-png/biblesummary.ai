@@ -43,6 +43,7 @@ Meaning and Precision:
 Protected Terms — Keep these words exactly as they appear in the KJV. Do NOT replace them:
 - "heaven" / "heavens" (do NOT change to "sky" — heaven is a theological term)
 - "created" (do NOT change to "made" or "formed" when the KJV says "created" — this is a special word in Hebrew reserved for God's creative acts)
+- "made" (when the KJV says "made," keep it as "made" — do NOT change to "produced," "formed," or other synonyms)
 - "God", "LORD", "Lord GOD", "the Almighty"
 - "soul", "spirit" (do NOT change to "life" or "breath" unless context clearly means physical breath)
 - "grace", "righteousness", "salvation", "covenant", "sin", "atonement", "glory"
