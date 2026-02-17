@@ -13,6 +13,5 @@ tsconfig.tsbuildinfo
 
 # Generated CT translation files (large, reviewed locally before seeding)
 data/translations/
--e
 # CT batch processing temp files
 data/translations/ct-batch/
