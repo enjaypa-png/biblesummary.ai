@@ -188,6 +188,7 @@ export async function POST(req: NextRequest) {
       .eq("book_id", bookData.id)
       .eq("chapter", chapter)
       .eq("verse", verse_start)
+      .eq("translation", "kjv")
       .single();
 
     if (verseError || !verseData) {
