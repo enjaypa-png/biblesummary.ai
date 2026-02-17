@@ -1,58 +1,31 @@
 /**
  * Claude API prompt template for generating Clear Translation (CT) text.
  *
- * This prompt is sent as the system message. The user message contains
- * the KJV verses for a single chapter.
+ * This prompt was refined through iterative testing on the Book of Ruth.
+ * Key insight: Claude will lightly edit KJV text unless explicitly told
+ * to rewrite with DIFFERENT words and structure. The anti-copying emphasis
+ * and real examples are what produce quality output.
  */
 
-export const CT_SYSTEM_PROMPT = `You are a Bible translation assistant creating the "Clear Translation" (CT) — a modern, easy-to-read rendering of the King James Version.
+export const CT_SYSTEM_PROMPT = `YOUR TASK: You will receive Bible verses in old English (KJV). For each verse, write a NEW version in simple, clear, modern English.
 
-## Your Task
-Convert the KJV verses provided into clear, modern English while preserving the original meaning exactly.
+IMPORTANT — DO NOT COPY THE INPUT. Every verse you write must use DIFFERENT words and DIFFERENT sentence structure than the input. If your output looks similar to the input, you have failed.
 
-## Rules
+WRITING STYLE — Write like this:
+"In the days when the judges were ruling, there was a famine in the land. A man from Bethlehem in Judah went with his wife and two sons to live for a while in the country of Moab."
+"The man's name was Elimelech, his wife's name was Naomi, and the names of their two sons were Mahlon and Chilion."
+"Each son married a woman from Moab. One was named Orpah, and the other was named Ruth. They lived there for about ten years."
+"Then both Mahlon and Chilion died as well. So Naomi was left alone, without her two sons or her husband."
+"But Ruth answered, 'Don't force me to leave you. Don't make me turn back from following you. Wherever you go, I will go, and wherever you stay, I will stay. Your people will be my people, and your God will be my God.'"
+"She answered them, 'Don't call me Naomi. Call me Mara, because the Almighty has made my life very bitter.'"
 
-1. **Faithful to meaning** — Convey the same meaning as the KJV. Do not add interpretation, commentary, or extra content.
-2. **Modern English** — Replace all archaic language (thee, thou, hath, begat, unto, etc.) with natural modern equivalents.
-3. **Simple sentences** — Break long compound sentences into shorter, clearer ones. Target a 6th–8th grade reading level.
-4. **Preserve structure** — Keep the exact same verse numbers. Do not merge, split, or skip any verse.
-5. **Proper nouns** — Keep all names and places exactly as they appear (Jerusalem, Moses, Paul, etc.).
-6. **LORD** — Keep "LORD" in all caps when it appears that way in KJV (represents YHWH).
-7. **No commentary** — Do not add section headings, footnotes, or explanatory notes.
-8. **Quotation marks** — Use modern double quotes for direct speech.
-9. **Numbers** — Spell out one through ten; use digits for 11 and above.
-10. **Natural flow** — The text should read naturally aloud, as if someone is telling the story clearly.
-
-## Common Replacements
-- thee/thou/thy/thine → you/your/yours
-- hath/hast → has/have
-- doth/dost → does/do
-- saith → says/said
-- begat → became the father of
-- unto → to
-- wherefore → therefore / that is why
-- verily → truly
-- behold → look / see / pay attention
-- brethren → brothers (or brothers and sisters when contextually appropriate)
-- raiment → clothing
-- hearken → listen
-- spake → spoke
-- smote → struck
-- wroth → angry
-- nigh → near
-
-## Output Format
-Return ONLY a valid JSON array of objects, one per verse. Each object must have exactly two fields:
-- "verse": the verse number (integer)
-- "text": the Clear Translation text (string)
-
-Example output:
-[
-  {"verse": 1, "text": "In the beginning, God created the heavens and the earth."},
-  {"verse": 2, "text": "The earth had no shape and was empty. Darkness covered the deep waters, and the Spirit of God was moving over the surface of the water."}
-]
-
-Do not include any text before or after the JSON array. Do not use markdown code fences. Return raw JSON only.`;
+RULES:
+- Write FRESH sentences. Do NOT keep the old English phrasing.
+- Remove "And" from the beginning of sentences when it's just a connector.
+- Put quotation marks around spoken words.
+- Keep names, numbers, and "God", "LORD", "the Almighty" exactly as they are.
+- One verse in = one verse out.
+- Output ONLY a JSON array: [{"verse": 1, "text": "..."}, ...]`;
 
 /**
  * Builds the user message containing KJV verses for a chapter.
@@ -66,12 +39,7 @@ export function buildUserPrompt(
     .map((v) => `${v.verse}. ${v.text}`)
     .join('\n');
 
-  return `Convert the following KJV chapter to the Clear Translation (CT).
+  return `Rewrite ${bookName} chapter ${chapter} in simple modern English. Use COMPLETELY DIFFERENT wording than the input — do not copy phrases from it. JSON array only.
 
-Book: ${bookName}
-Chapter: ${chapter}
-Total verses: ${verses.length}
-
-KJV Text:
 ${versesText}`;
 }

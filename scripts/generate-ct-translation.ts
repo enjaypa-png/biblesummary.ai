@@ -54,9 +54,10 @@ const anthropic = new Anthropic({ apiKey: anthropicApiKey });
 // Output directory for generated translations
 const OUTPUT_DIR = path.join(process.cwd(), 'data', 'translations', 'ct');
 
-// Claude model to use (Sonnet for good quality at reasonable cost)
-const MODEL = 'claude-sonnet-4-5-20250929';
+// Claude model — Opus produces significantly better rewrites than Sonnet for this task
+const MODEL = 'claude-opus-4-6';
 const MAX_TOKENS = 8192;
+const TEMPERATURE = 0.7;
 
 // Rate limiting: pause between API calls (ms)
 const DELAY_BETWEEN_CALLS = 1500;
@@ -151,6 +152,7 @@ async function generateCTChapter(
   const response = await anthropic.messages.create({
     model: MODEL,
     max_tokens: MAX_TOKENS,
+    temperature: TEMPERATURE,
     system: CT_SYSTEM_PROMPT,
     messages: [{ role: 'user', content: userPrompt }]
   });
