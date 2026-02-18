@@ -109,6 +109,18 @@ export default function ChapterReaderClient({
 
       if (!error && data && data.length > 0) {
         setDisplayVerses(data);
+      } else if (!error && translation !== "kjv") {
+        // Fall back to KJV if the selected translation has no data
+        const { data: kjvData } = await supabase
+          .from("verses")
+          .select("id, verse, text")
+          .eq("book_id", bookId)
+          .eq("chapter", chapter)
+          .eq("translation", "kjv")
+          .order("verse");
+        if (kjvData && kjvData.length > 0) {
+          setDisplayVerses(kjvData);
+        }
       }
       setLoadingTranslation(false);
     }
