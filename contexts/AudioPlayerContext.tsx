@@ -60,6 +60,8 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
   const { settings } = useReadingSettings();
   const voiceIdRef = useRef(settings.voiceId);
   voiceIdRef.current = settings.voiceId;
+  const translationRef = useRef(settings.translation || "ct");
+  translationRef.current = settings.translation || "ct";
 
   // Books cache
   const [books, setBooks] = useState<Book[]>([]);
@@ -341,12 +343,13 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     setCurrentTrackId(newTrackId);
 
     try {
-      // Fetch verses for the chapter
+      // Fetch verses for the chapter in the current translation
       const { data: verses } = await supabase
         .from("verses")
         .select("id, verse, text")
         .eq("book_id", targetBook.id)
         .eq("chapter", targetChapter)
+        .eq("translation", translationRef.current)
         .order("verse");
 
       if (!verses || verses.length === 0) {

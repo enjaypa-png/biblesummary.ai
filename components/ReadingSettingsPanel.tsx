@@ -6,6 +6,7 @@ import { useReadingSettings, FontFamily, ThemeMode, themeStyles, VOICE_IDS, DEFA
 interface VoiceInfo {
   id: string;
   name: string;
+  description?: string;
 }
 
 
@@ -364,31 +365,44 @@ export default function ReadingSettingsPanel() {
               >
                 Narrator Voice
               </div>
-              <div className="grid grid-cols-2 gap-1.5">
-                {voices.map((voice) => (
-                  <button
-                    key={voice.id}
-                    onClick={() => setVoiceId(voice.id)}
-                    className="px-3 py-2 rounded-xl text-[13px] font-medium transition-all text-left truncate"
-                    style={{
-                      backgroundColor:
-                        settings.voiceId === voice.id
+              <div className="flex flex-col gap-1.5">
+                {voices.map((voice) => {
+                  const isSelected = settings.voiceId === voice.id;
+                  return (
+                    <button
+                      key={voice.id}
+                      onClick={() => setVoiceId(voice.id)}
+                      className="w-full px-3 py-2.5 rounded-xl transition-all text-left"
+                      style={{
+                        backgroundColor: isSelected
                           ? "var(--accent)"
                           : currentTheme.card,
-                      color:
-                        settings.voiceId === voice.id
-                          ? "#FFFFFF"
-                          : currentTheme.text,
-                      border: `1.5px solid ${
-                        settings.voiceId === voice.id
-                          ? "var(--accent)"
-                          : currentTheme.border
-                      }`,
-                    }}
-                  >
-                    {voice.name}
-                  </button>
-                ))}
+                        border: `1.5px solid ${
+                          isSelected ? "var(--accent)" : currentTheme.border
+                        }`,
+                      }}
+                    >
+                      <span
+                        className="block text-[13px] font-semibold leading-tight"
+                        style={{ color: isSelected ? "#FFFFFF" : currentTheme.text }}
+                      >
+                        {voice.name}
+                      </span>
+                      {voice.description && (
+                        <span
+                          className="block text-[11px] leading-tight mt-0.5"
+                          style={{
+                            color: isSelected
+                              ? "rgba(255,255,255,0.75)"
+                              : currentTheme.secondary,
+                          }}
+                        >
+                          {voice.description}
+                        </span>
+                      )}
+                    </button>
+                  );
+                })}
               </div>
             </div>
           )}
