@@ -51,6 +51,19 @@ async function getBibleData(bookSlug: string, chapterNum: number, translation: s
     return { book, verses: [], error: "Verses not found" };
   }
 
+  // Fall back to KJV if the requested translation has no data for this chapter
+  if ((!verses || verses.length === 0) && translation !== "kjv") {
+    const { data: kjvVerses } = await supabase
+      .from("verses")
+      .select("id, verse, text")
+      .eq("book_id", book.id)
+      .eq("chapter", chapterNum)
+      .eq("translation", "kjv")
+      .order("verse");
+
+    return { book, verses: kjvVerses || [], error: null };
+  }
+
   return { book, verses: verses || [], error: null };
 }
 
