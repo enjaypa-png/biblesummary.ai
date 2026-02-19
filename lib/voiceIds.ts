@@ -14,7 +14,11 @@ export const VOICE_IDS = [
   "h8LZpYr8y3VBz0q2x0LP",
 ] as const;
 
-// Display name overrides (when ElevenLabs name should not be used)
-export const VOICE_NAME_OVERRIDES: Record<string, string> = {
-  "zaV23R4Cs5kUdQb5M7eS": "Nicholas (English) - Calm, Confident, Firm, Elderly Male",
+// Local metadata overrides — merged with ElevenLabs API data at runtime.
+// Any field set here takes priority over what the API returns.
+export const VOICE_OVERRIDES: Record<string, { name?: string; description?: string }> = {
+  "zaV23R4Cs5kUdQb5M7eS": {
+    name: "Nicholas",
+    description: "Calm, confident, firm elderly male",
+  },
 };
