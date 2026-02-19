@@ -56,8 +56,8 @@ const OUTPUT_DIR = path.join(process.cwd(), 'data', 'translations', 'ct');
 
 // Claude model — Opus produces significantly better rewrites than Sonnet for this task
 const MODEL = 'claude-opus-4-6';
-const MAX_TOKENS = 8192;
-const TEMPERATURE = 0.7;
+const MAX_TOKENS = 16384;
+const TEMPERATURE = 0.5;
 
 // Rate limiting: pause between API calls (ms)
 const DELAY_BETWEEN_CALLS = 1500;

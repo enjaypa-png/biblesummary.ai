@@ -48,8 +48,8 @@ const supabase = createClient(supabaseUrl, supabaseServiceKey, {
 const anthropic = new Anthropic({ apiKey: anthropicApiKey });
 
 const MODEL = 'claude-opus-4-6';
-const MAX_TOKENS = 8192;
-const TEMPERATURE = 0.7;
+const MAX_TOKENS = 16384;
+const TEMPERATURE = 0.5;
 const OUTPUT_DIR = path.join(process.cwd(), 'data', 'translations', 'ct');
 const BATCH_DIR = path.join(process.cwd(), 'data', 'translations', 'ct-batch');
 
