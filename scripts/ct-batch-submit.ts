@@ -148,6 +148,7 @@ async function main() {
         .select('verse, text')
         .eq('book_id', book.id)
         .eq('chapter', chapter)
+        .eq('translation', 'kjv')
         .order('verse');
 
       if (vError || !verses || verses.length === 0) {
