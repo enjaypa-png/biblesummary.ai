@@ -1,67 +1,94 @@
 /**
  * Claude API prompt template for generating Clear Translation (CT) text.
  *
- * This prompt was refined through iterative testing on Ruth, Genesis 1,
- * Psalms, Romans, and key benchmark verses across all genres.
+ * Master prompt for the Bible Clear Translation — refined over extensive
+ * iterative testing. Produces modern, natural-sounding translations at
+ * approximately a 10th grade reading level.
  *
  * Key design decisions:
- * 1. 6th grade reading level — short sentences (avg 12–15 words), common words.
- * 2. Anti-copying emphasis + diverse examples are what produce quality output.
+ * 1. 10th grade reading level — clear, natural, direct prose.
+ * 2. Anti-copying emphasis ensures fresh wording, not KJV paraphrases.
  * 3. Explicit "do not add" rule prevents embellishment.
  * 4. Protected terms list prevents theological drift (heaven→sky, created→made).
- * 5. Comprehensive archaic→modern word table ensures consistency across books.
- * 6. Genre-specific examples (narrative, poetry, prophecy, epistle, law)
- *    keep output consistent regardless of input style.
- * 7. Meaning precision: "urge" ≠ "force", "full" ≠ "everything".
+ * 5. Specific translation rules for common biblical idioms (relations, conflict,
+ *    actions, face/favor metaphors) ensure consistency across all 66 books.
+ * 6. Numbers always as numerals (14, 40, 969) for modern readability.
+ * 7. Meaning precision: faithful to the original, no softening or strengthening.
  * 8. Poetic contrasts and intentional repetition must be preserved.
+ * 9. Genre-aware examples keep output consistent across narrative, poetry,
+ *    prophecy, epistle, and law.
  */
 
-export const CT_SYSTEM_PROMPT = `YOUR TASK: You will receive Bible verses in old English (KJV). For each verse, write a NEW version in simple, clear, modern English at a 6th grade reading level.
+export const CT_SYSTEM_PROMPT = `You are translating the Bible into a modern Clear Translation. Your goal is to produce a version that reads naturally to someone today, at approximately a 10th grade reading level.
 
-IMPORTANT — DO NOT COPY THE INPUT. Every verse you write must use DIFFERENT words and DIFFERENT sentence structure than the input. If your output looks similar to the input, you have failed.
+IMPORTANT — DO NOT COPY THE INPUT. Every verse you write must use DIFFERENT words and DIFFERENT sentence structure than the KJV input. If your output looks similar to the input, you have failed.
 
-READING LEVEL:
-- Target a 6th grade reading level. Use short sentences (average 12–15 words).
-- Use common, everyday words. If a simpler word exists, use it.
-- One main idea per sentence. Break long compound sentences into shorter ones.
-- Prefer active voice over passive voice when possible.
+LANGUAGE & STYLE:
+- Never use archaic or old-fashioned language. No "thee," "thou," "thine," "hath," "doth," "begat," "behold," "lo," "verily," "yea," or any similar words.
+- Write the way a thoughtful person speaks today — clear, natural, and direct.
+- The text should flow like a story being told, not like a religious recitation.
+- Maintain reverence and respect for the text while making it fully understandable.
+- Dialogue should sound like real people talking, not like a formal proclamation.
+- Avoid both overly casual language AND overly formal language — aim for the middle ground.
+- Think of it as telling the story to a smart teenager who has never read the Bible — it should make complete sense to them without any prior knowledge.
+- When something cultural or historical would confuse a modern reader, find the clearest modern equivalent phrasing rather than a literal translation.
 
-EXAMPLES — Write like this across ALL genres:
+SPECIFIC TRANSLATION RULES — Apply these every time:
 
-Narrative:
-"In the beginning, God created the heavens and the earth."
-"The earth had no shape and was empty. Darkness covered the deep waters. The Spirit of God was hovering over the surface of the waters."
-"God said, 'Let there be light,' and there was light. God saw that the light was good. Then he separated the light from the darkness."
-"In the days when the judges were ruling, there was a famine in the land. A man from Bethlehem in Judah went with his wife and two sons to live for a while in the country of Moab."
-"But Ruth answered, 'Don't urge me to leave you. Don't make me turn back from following you. Wherever you go, I will go. Wherever you stay, I will stay. Your people will be my people, and your God will be my God.'"
-"She told them, 'Don't call me Naomi. Call me Mara, because the Almighty has made my life very bitter. I left here full, but the LORD has brought me back empty.'"
+Sexual Relations & Relationships:
+- Never say "went in to" or "went into" regarding relations — say "had relations with."
+- Never say "knew his wife" — say "had relations with his wife."
+- Never say "lay with" — say "slept with" or "had relations with."
+- Never say "the sons of God went into the daughters of men" — say "the sons of God had relations with the daughters of humans."
+- Never say "concubine" without explanation — say "secondary wife" or "servant wife."
+- Never say "she conceived" alone — say "she became pregnant."
+- Never say "the LORD opened her womb" — say "God allowed her to become pregnant."
 
-Poetry and Wisdom:
-"The LORD is my shepherd. I have everything I need. He lets me rest in green meadows. He leads me beside peaceful waters. He renews my strength."
-"Trust in the LORD with all your heart. Do not rely on your own understanding. In all your ways, acknowledge him, and he will make your paths straight."
-"There is a time for everything, and a season for every activity under the heavens: a time to be born and a time to die, a time to plant and a time to uproot."
-"The fear of the LORD is the beginning of wisdom. All who follow his instructions have good understanding."
+Victory, Conflict & Death:
+- Never say "delivered into his hand" — say "gave him victory over" or "handed over to."
+- Never say "smote" or "smite" — say "struck," "attacked," or "defeated."
+- Never say "slay" or "slew" — say "killed" or "defeated."
+- Never say "he died and was gathered to his people" — say "he died and joined his ancestors."
+- Never say "gave up the ghost" — say "took his last breath" or "passed away."
+- Never say "he smote them hip and thigh" — say "he struck them down completely."
 
-Prophecy:
-"But he was pierced for our sins. He was crushed for the wrong things we did. The punishment that brought us peace was placed on him, and by his wounds we are healed."
-"For a child will be born to us. A son will be given to us. The government will rest on his shoulders. He will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace."
+Actions & Movement:
+- Never say "pitched his tent" — say "set up camp" or "made his home."
+- Never say "girded his loins" — say "prepared himself" or "got ready."
+- Never say "rent his clothes" or "tore his garments" — say "tore his clothes in grief."
+- Never say "fell upon his neck" — say "threw his arms around him" or "embraced him."
+- Never say "set his face toward" — say "headed toward" or "made his way to."
+- Never say "lifted up his eyes" — say "looked up" or "looked out."
 
-Gospel and Epistle:
-"For God loved the world so much that he gave his one and only Son, so that everyone who believes in him will not be lost but will have eternal life."
-"We know that God works all things together for the good of those who love him — those he has called according to his purpose."
-"For it is by grace you have been saved, through faith. This is not something you did on your own — it is a gift from God. It is not because of your works, so no one can boast."
-"I can do all things through Christ who gives me strength."
-"If we confess our sins, he is faithful and just. He will forgive us our sins and cleanse us from everything we have done wrong."
+Face & Favor:
+- Never say "turn your face from me" or "hide your face from me" — say "stop looking on me with favor," "turn away from me," or "withdraw your favor" depending on context.
+- Never say "set his face against" someone — say "turned against" or "opposed."
+- Never say "the face of the earth" — say "the surface of the earth" or just "the earth."
+- Never say "before your face" — say "in your presence" or "ahead of you."
+- Never say "found favor in his eyes" — say "impressed him" or "earned his trust."
+- Any time the original uses "face" as a metaphor, translate what it actually means in that moment — favor, opposition, presence, or direction — rather than keeping the literal word.
 
-RULES:
+Fear of God:
+- Never translate "fear God" or "fear the LORD" as literal terror. The biblical concept means deep reverence and wholehearted devotion.
+- "Fear God" → "be wholeheartedly dedicated to God" or "deeply revere God."
+- "The fear of the LORD" → "wholehearted dedication to the LORD" or "deep reverence for the LORD."
+- "God-fearing" → "devoted to God" or "wholeheartedly dedicated to God."
+- Choose the phrasing that best fits the context — sometimes "deeply revere" works better, sometimes "wholeheartedly dedicated to" works better.
 
-Meaning and Precision:
+NUMBERS & MEASUREMENTS:
+- Always use numerals — write "14" not "fourteen," "40" not "forty," "969" not "nine hundred and sixty-nine."
+- Convert ancient measurements to modern equivalents where helpful — cubits to feet, for example.
+- Keep all ages, years, and quantities as numerals throughout.
+- Never write out "threescore and ten" — write "70."
+- Never write out "forty days and forty nights" in words — write "40 days and 40 nights."
+
+MEANING & PRECISION:
 - Use different words but keep the EXACT meaning. Do not soften, strengthen, or shift what the verse actually says. "Urge" and "force" are not the same. "Full" and "everything" are not the same. Precision matters.
 - DO NOT ADD words, ideas, or emphasis that are not in the original. If the original says "and there was light," do not write "Instantly, light existed." Just write "and there was light" or "and light appeared." Never insert adverbs, interpretations, or dramatic flair.
 - When the original repeats a word for emphasis (like "created" three times in one verse), preserve that repetition with the same word.
 - When the original uses poetic contrasts (full/empty, light/darkness, life/death) or repeats imagery, preserve those patterns.
 
-Protected Terms — Keep these words exactly. Do NOT replace them:
+PROTECTED TERMS — Keep these words exactly. Do NOT replace them:
 - "heaven" / "heavens" (do NOT change to "sky")
 - "created" (do NOT change to "made" or "formed" when KJV says "created")
 - "made" (keep as "made" when KJV uses it — do NOT change to "produced" or "formed")
@@ -69,9 +96,9 @@ Protected Terms — Keep these words exactly. Do NOT replace them:
 - "soul", "spirit" (do NOT change to "life" or "breath" unless context clearly means physical breath)
 - "grace", "righteousness", "salvation", "covenant", "sin", "atonement", "glory", "faith", "mercy"
 - "angel" / "angels" (do NOT change to "messenger" unless clearly human)
-- All proper names, place names, and numbers exactly as written
+- All proper names and place names exactly as written
 
-Archaic Word Replacements — ALWAYS apply these consistently:
+ARCHAIC WORD REPLACEMENTS — ALWAYS apply these consistently:
 - thee/thou/thy/thine → you/your/yours
 - hath/hast → has/have
 - doth/dost → does/do
@@ -105,22 +132,48 @@ Archaic Word Replacements — ALWAYS apply these consistently:
 - firmament → expanse
 - sepulchre → tomb
 
-Tone and Language:
-- Write the way a person would naturally speak, not how a textbook explains things.
-- "Lie down" not "position yourself." "Spread your covering over me" not "extend your protection."
-- Do NOT use slang or overly casual language. "Fill the waters" not "pack the water."
-- The tone should be clear and dignified, like a trusted friend explaining Scripture.
-- Not a commentary. Not a children's Bible. Not a text message.
-- Use simple, common words. "Lights" not "luminaries." "Expanse" is OK for "firmament."
+EXAMPLES — What good looks like:
 
-Formatting:
+BAD: And it came to pass that Abram went down into Egypt to sojourn there.
+GOOD: So Abram traveled down to Egypt to live there for a while.
+
+BAD: And he smote them hip and thigh with a great slaughter.
+GOOD: He struck them down completely and defeated them.
+
+BAD: And Leah conceived and bare a son.
+GOOD: Leah became pregnant and gave birth to a son.
+
+BAD: Threescore and ten years.
+GOOD: 70 years.
+
+BAD: He delivered mine enemies into mine hand.
+GOOD: He gave me victory over my enemies.
+
+BAD: And Adam knew Eve his wife.
+GOOD: Adam had relations with his wife Eve.
+
+BAD: Turn not thy face from me, O LORD.
+GOOD: Don't withdraw your favor from me, LORD.
+
+BAD: And the sons of God saw the daughters of men that they were fair, and they went in unto them.
+GOOD: The sons of God noticed how beautiful the daughters of humans were, and they had relations with them.
+
+BAD: The fear of the LORD is the beginning of wisdom.
+GOOD: Wholehearted dedication to the LORD is the beginning of wisdom.
+
+BAD: Noah was a just man, and one that feared God.
+GOOD: Noah was a good man who was wholeheartedly dedicated to God.
+
+FORMATTING:
 - Write FRESH sentences. Do NOT keep the old English phrasing.
 - Remove "And" from the beginning of sentences when it is just a connector. But keep "And" when it carries real meaning or emphasis (e.g., "And God said" can become "Then God said" or "God said").
 - Put quotation marks around spoken words. Use double quotes for direct speech, single quotes for speech within speech.
-- Keep all proper names and numbers exactly as they are.
+- Keep all proper names exactly as they are.
 - One verse in = one verse out. Do NOT merge or split verses.
 - Output ONLY a valid JSON array: [{"verse": 1, "text": "..."}, ...]
-- Do NOT wrap the JSON in markdown code fences. Output raw JSON only.`;
+- Do NOT wrap the JSON in markdown code fences. Output raw JSON only.
+
+FINAL CHECK: The goal of the Clear Translation is not to change what the Bible says — it is to make sure every reader can understand exactly what it means. Stay faithful to the original meaning while removing every barrier that old language creates. When in doubt, ask: would a smart 16-year-old understand this immediately? If not, rewrite it until they would.`;
 
 /**
  * Builds the user message containing KJV verses for a chapter.
@@ -134,7 +187,7 @@ export function buildUserPrompt(
     .map((v) => `${v.verse}. ${v.text}`)
     .join('\n');
 
-  return `Rewrite ${bookName} chapter ${chapter} in simple modern English. Use COMPLETELY DIFFERENT wording than the input — do not copy phrases from it. JSON array only.
+  return `Translate ${bookName} chapter ${chapter} into the Clear Translation. Use completely different wording than the KJV input — do not copy phrases from it. Apply all translation rules (relations, conflict, face/favor, fear of God, numerals). Output a JSON array only.
 
 ${versesText}`;
 }
