@@ -351,6 +351,123 @@ const FIXES: VerseFix[] = [
     reason: 'Audit (completeness): "explanation" adds content — KJV says "when Moses heard that, he was content"',
     ct: 'When Moses heard this, he was satisfied.'
   },
+  // ─── Audit #4: Leviticus 11–13 CT Corrections (Feb 2026) ──────────────────
+  // 14 of 17 findings applied. Items 3 (11:15), 5 (11:17), and 10 (11:23)
+  // were rejected: 3 & 5 are standard modernizations ("every type of" = "after
+  // his kind", dropping initial "And"); 10 asks the CT to add scientific
+  // clarification not present in the KJV, violating audit principles.
+  {
+    ref: 'Leviticus 11:13',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 13,
+    reason: 'Audit (accuracy): "black vulture" should be "osprey" — KJV says "ospray"',
+    ct: 'Among the birds, these are the ones you must consider disgusting and must not eat: the eagle, the bearded vulture, and the osprey,'
+  },
+  {
+    ref: 'Leviticus 11:14',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 14,
+    reason: 'Audit (accuracy): "red kite" and "black kite" are not in the KJV — KJV says "the vulture, and the kite after his kind"',
+    ct: 'the vulture, and every type of kite,'
+  },
+  {
+    ref: 'Leviticus 11:16',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 16,
+    reason: 'Audit (accuracy): "seagull" should be "cuckoo" — KJV says "cuckow"',
+    ct: 'the horned owl, the nighthawk, the cuckoo, and every type of hawk,'
+  },
+  {
+    ref: 'Leviticus 11:18',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 18,
+    reason: 'Audit (accuracy): CT uses different animal names — KJV says "the swan, and the pelican, and the gier eagle"',
+    ct: 'the swan, the pelican, and the gier eagle,'
+  },
+  {
+    ref: 'Leviticus 11:19',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 19,
+    reason: 'Audit (accuracy): "hoopoe" should be "lapwing" — KJV says "lapwing"',
+    ct: 'the stork, every type of heron, the lapwing, and the bat.'
+  },
+  {
+    ref: 'Leviticus 11:20',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 20,
+    reason: 'Audit (accuracy): "winged insects" should be "fowls" — KJV says "fowls that creep"',
+    ct: 'All fowls that walk on 4 legs must be considered disgusting to you.'
+  },
+  {
+    ref: 'Leviticus 11:22',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 22,
+    reason: 'Audit (accuracy): "cricket" should be "beetle" — KJV says "beetle"',
+    ct: 'Specifically, you may eat these: every type of locust, every type of bald locust, every type of beetle, and every type of grasshopper.'
+  },
+  {
+    ref: 'Leviticus 11:29',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 29,
+    reason: 'Audit (accuracy): "every type of large lizard" should be "tortoise" — KJV says "tortoise after his kind"',
+    ct: 'Among the small creatures that move along the ground, these are unclean for you: the weasel, the mouse, and every type of tortoise,'
+  },
+  {
+    ref: 'Leviticus 11:30',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 30,
+    reason: 'Audit (accuracy): CT uses different animal names — KJV says "the ferret, and the chameleon, and the lizard, and the snail, and the mole"',
+    ct: 'the ferret, the chameleon, the lizard, the snail, and the mole.'
+  },
+  {
+    ref: 'Leviticus 11:36',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 36,
+    reason: 'Audit (accuracy): "anyone who touches" narrows KJV\'s "that which toucheth" — should be "whatever touches"',
+    ct: 'A spring or a cistern that collects water will still be clean, but whatever touches their carcass becomes unclean.'
+  },
+  {
+    ref: 'Leviticus 11:41',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 41,
+    reason: 'Audit (accuracy): "disgusting" should be "abomination" — KJV says "shall be an abomination"',
+    ct: 'Every creature that crawls along the ground is an abomination and must not be eaten.'
+  },
+  {
+    ref: 'Leviticus 11:42',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 42,
+    reason: 'Audit (accuracy): "disgusting" should be "abomination" — KJV says "they are an abomination"',
+    ct: 'Whether it slithers on its belly, walks on 4 legs, or has many legs — no creature that crawls on the ground may be eaten, because they are all an abomination.'
+  },
+  {
+    ref: 'Leviticus 11:43',
+    book_slug: 'leviticus',
+    chapter: 11,
+    verse: 43,
+    reason: 'Audit (completeness): CT adds "by eating" which is not in KJV — narrows the meaning of the command',
+    ct: 'Do not make yourselves repulsive with any crawling creature. Do not contaminate yourselves with them or become defiled through them.'
+  },
+  {
+    ref: 'Leviticus 13:23',
+    book_slug: 'leviticus',
+    chapter: 13,
+    verse: 23,
+    reason: 'Audit (accuracy): "a scar from the boil" changes diagnosis — KJV says "it is a burning boil"',
+    ct: 'But if the shiny spot remains in place and does not spread, it is a burning boil, and the priest must declare the person clean.'
+  },
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
