@@ -56,6 +56,12 @@ npm run ct:edit                           # Apply fixes
 
 CT source files: `scripts/ct-translation/prompt.ts` (system prompt), `scripts/ct-translation/STYLE-GUIDE.md` (style rules and protected terms).
 
+### CT Quality Audit
+
+Nick has deployed autonomous AI agents that audit the Clear Translation to ensure it accurately portrays what the King James Version says. The agents compare each CT verse against the KJV source text, checking for accuracy, protected term usage, and style guide compliance, then produce detailed audit reports with proposed corrections.
+
+Claude Code receives each audit report from Nick, reviews the findings, and adds the approved fixes to the `FIXES` array in `scripts/ct-edit.ts`. Nick then runs `npm run ct:edit` in the terminal to apply the corrections to the database. This human-in-the-loop workflow ensures every change is reviewed before being applied, and the `ct-edit.ts` file serves as a persistent audit trail.
+
 ## Tech Stack
 
 | Layer | Technology |

@@ -67,8 +67,19 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles trans
 - When the original repeats a word for emphasis, the CT preserves the repetition.
 - Tone target: clear and dignified. Not academic, not casual.
 - CT verses are stored in the `verses` table with `translation='ct'`. KJV verses have `translation='kjv'`.
-- The `ct:edit` script (`scripts/ct-edit.ts`) is the proper way to fix individual verses. Add corrections to the `FIXES` array and run the script.
+- The `ct:edit` script (`scripts/ct-edit.ts`) is the proper way to fix individual verses. Add corrections to the `FIXES` array and run the script. The script updates both Supabase and the local JSON files (when they exist) to keep them in sync.
 - The `ct:review` script (`scripts/ct-review.ts`) generates a side-by-side HTML report of ~100 key verses for quality review.
+
+### CT Quality Audit Process
+
+Nick has deployed autonomous AI agents to audit the Clear Translation and ensure it accurately portrays what the King James Version says. The workflow is:
+
+1. **Autonomous AI agents** audit CT chapters against the KJV source text, checking for accuracy, faithfulness, protected term usage, and adherence to the style guide.
+2. **Audit reports** are delivered to Nick with specific verse-by-verse findings, proposed corrections, and pass/fail evaluations.
+3. **Nick reviews the audit** and provides the report to Claude Code, which adds the approved fixes to the `FIXES` array in `scripts/ct-edit.ts`.
+4. **Nick runs `npm run ct:edit`** in the terminal to apply the fixes to Supabase (and local JSON files if they exist).
+
+This ensures every correction is human-reviewed before being applied to the database. The `ct-edit.ts` file serves as a persistent audit trail of all corrections made to the CT.
 
 ### Translation Toggle
 
