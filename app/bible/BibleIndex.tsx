@@ -269,6 +269,14 @@ export default function BibleIndex({ books }: { books: Book[] }) {
             >
               Index
             </p>
+            {translationInfo.auditStatus && (
+              <p
+                className="mt-1 text-[11px] font-medium"
+                style={{ color: "var(--accent)" }}
+              >
+                {translationInfo.auditStatus}
+              </p>
+            )}
           </div>
 
           {/* Context string (selected book/chapter) */}

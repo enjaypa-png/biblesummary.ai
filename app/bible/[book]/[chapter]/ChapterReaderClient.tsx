@@ -396,7 +396,7 @@ export default function ChapterReaderClient({
   }
 
   async function handleShare(verseNum: number, verseText: string) {
-    const translationLabel = settings.translation === "kjv" ? "KJV" : "Clear Translation";
+    const translationLabel = settings.translation === "kjv" ? "KJV" : "Clear Text";
     const shareText = `"${verseText}" — ${bookName} ${chapter}:${verseNum} (${translationLabel})\nBibleSummary.ai`;
 
     if (navigator.share) {

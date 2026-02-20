@@ -8,8 +8,8 @@ export type FontFamily = "Libre Baskerville" | "Spectral" | "Source Sans 3" | "S
 export type ThemeMode = "light" | "sepia" | "gray" | "dark";
 export type BibleTranslation = "ct" | "kjv";
 
-export const TRANSLATION_LABELS: Record<BibleTranslation, { name: string; fullName: string }> = {
-  ct: { name: "Clear", fullName: "Clear Translation" },
+export const TRANSLATION_LABELS: Record<BibleTranslation, { name: string; fullName: string; auditStatus?: string }> = {
+  ct: { name: "Clear Text", fullName: "Clear Text", auditStatus: "Under Review" },
   kjv: { name: "KJV", fullName: "King James Version" },
 };
 
