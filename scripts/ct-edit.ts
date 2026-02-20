@@ -159,6 +159,143 @@ const FIXES: VerseFix[] = [
     reason: 'Audit: "wholeheartedly dedicated to God" is interpretive — "God-fearing" is direct and well understood',
     ct: 'Beyond that, select capable people from among all the Israelites \u2014 God-fearing people who are trustworthy and who despise dishonest profit. Appoint them as leaders over groups of 1,000, 100, 50, and 10.'
   },
+  // ─── Exodus 1–10 Audit fixes (2026-02-20) ─────────────────────────────────
+  {
+    ref: 'Exodus 1:22',
+    book_slug: 'exodus',
+    chapter: 1,
+    verse: 22,
+    reason: 'Audit: CT adds "Hebrew" which is not in the KJV — changes scope of the command',
+    ct: 'Then Pharaoh issued a command to all his people: "Throw every newborn boy into the Nile River, but let every girl live."'
+  },
+  {
+    ref: 'Exodus 2:9',
+    book_slug: 'exodus',
+    chapter: 2,
+    verse: 9,
+    reason: 'Audit: "her child" implies ownership not in KJV — should be "the child"',
+    ct: 'Pharaoh\'s daughter said to her, "Take this baby and nurse him for me, and I\'ll pay you for it." So the woman took the child and nursed him.'
+  },
+  {
+    ref: 'Exodus 2:25',
+    book_slug: 'exodus',
+    chapter: 2,
+    verse: 25,
+    reason: 'Audit: "of their suffering" adds interpretation not in KJV "had respect unto them"',
+    ct: 'God looked on the Israelites, and God took notice of them.'
+  },
+  {
+    ref: 'Exodus 3:19',
+    book_slug: 'exodus',
+    chapter: 3,
+    verse: 19,
+    reason: 'Audit: "unless a mighty force compels him" changes meaning — KJV says "no, not by a mighty hand"',
+    ct: '"But I know that the king of Egypt will not let you go, no, not by a mighty hand."'
+  },
+  {
+    ref: 'Exodus 4:13',
+    book_slug: 'exodus',
+    chapter: 4,
+    verse: 13,
+    reason: 'Audit: "send someone else instead" omits "by the hand of him whom thou wilt send"',
+    ct: 'But Moses said, "Please, Lord \u2014 send whoever you will send."'
+  },
+  {
+    ref: 'Exodus 4:18',
+    book_slug: 'exodus',
+    chapter: 4,
+    verse: 18,
+    reason: 'Audit: "Go with my blessing" adds concept not in KJV "Go in peace"',
+    ct: 'Moses went back to his father-in-law Jethro and said, "Please let me return to my people in Egypt to see if any of them are still alive." Jethro told Moses, "Go in peace."'
+  },
+  {
+    ref: 'Exodus 4:26',
+    book_slug: 'exodus',
+    chapter: 4,
+    verse: 26,
+    reason: 'Audit: CT changes subject from "he" to "the LORD" — adds interpretation not in KJV',
+    ct: 'So he let him go. She had said "husband of blood" because of the circumcision.'
+  },
+  {
+    ref: 'Exodus 5:9',
+    book_slug: 'exodus',
+    chapter: 5,
+    verse: 9,
+    reason: 'Audit: "lies" changes meaning of KJV "vain words"',
+    ct: '"Make the work harder on these men so they stay busy and stop paying attention to empty words."'
+  },
+  {
+    ref: 'Exodus 5:12',
+    book_slug: 'exodus',
+    chapter: 5,
+    verse: 12,
+    reason: 'Audit: "to use as straw" implies substitution — KJV says "instead of straw"',
+    ct: 'So the people spread out across all of Egypt to gather stubble instead of straw.'
+  },
+  {
+    ref: 'Exodus 6:3',
+    book_slug: 'exodus',
+    chapter: 6,
+    verse: 3,
+    reason: 'Audit: "the LORD" replaces KJV "JEHOVAH" — alters the specific name used',
+    ct: 'I revealed myself to Abraham, Isaac, and Jacob as God Almighty, but I did not make myself known to them by my name, JEHOVAH.'
+  },
+  {
+    ref: 'Exodus 6:12',
+    book_slug: 'exodus',
+    chapter: 6,
+    verse: 12,
+    reason: 'Audit: "I\'m a terrible speaker" adds interpretation — KJV says "uncircumcised lips"',
+    ct: 'But Moses protested to the LORD, "Look, the Israelites wouldn\'t even listen to me. Why would Pharaoh listen to me? I am a man of uncircumcised lips."'
+  },
+  {
+    ref: 'Exodus 8:16',
+    book_slug: 'exodus',
+    chapter: 8,
+    verse: 16,
+    reason: 'Audit: "gnats" changes KJV "lice"',
+    ct: 'The LORD told Moses, "Tell Aaron to extend his staff and strike the dust on the ground, so that it turns into lice throughout all of Egypt."'
+  },
+  {
+    ref: 'Exodus 8:17',
+    book_slug: 'exodus',
+    chapter: 8,
+    verse: 17,
+    reason: 'Audit: "gnats" changes KJV "lice"',
+    ct: 'They did this \u2014 Aaron extended his hand with his staff and struck the dust on the ground, and lice appeared on people and animals. All the dust across Egypt turned into lice.'
+  },
+  {
+    ref: 'Exodus 8:22',
+    book_slug: 'exodus',
+    chapter: 8,
+    verse: 22,
+    reason: 'Audit: "at work in this land" changes KJV "in the midst of the earth"',
+    ct: 'But on that day I will treat the region of Goshen differently \u2014 where my people live \u2014 so that no swarms of flies will be there. This way you will know that I am the LORD in the midst of the earth.'
+  },
+  {
+    ref: 'Exodus 8:26',
+    book_slug: 'exodus',
+    chapter: 8,
+    verse: 26,
+    reason: 'Audit: "sacred" reverses meaning — KJV says "abomination of the Egyptians"',
+    ct: 'Moses replied, "That wouldn\'t be right, because what we sacrifice to the LORD our God is an abomination to the Egyptians. If we sacrifice what is an abomination to the Egyptians right in front of them, won\'t they stone us?'
+  },
+  {
+    ref: 'Exodus 9:32',
+    book_slug: 'exodus',
+    chapter: 9,
+    verse: 32,
+    reason: 'Audit: "mature later in the season" adds detail not in KJV "they were not grown up"',
+    ct: 'But the wheat and the spelt were not destroyed because they had not yet grown up.'
+  },
+  {
+    ref: 'Exodus 10:10',
+    book_slug: 'exodus',
+    chapter: 10,
+    verse: 10,
+    reason: 'Audit: CT omits conditional nature and adds "evil plan" interpretation not in KJV',
+    ct: 'Pharaoh said to them, "Let the LORD be with you, if I ever let you and your children go! Look to it, for evil is before you."'
+  },
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
