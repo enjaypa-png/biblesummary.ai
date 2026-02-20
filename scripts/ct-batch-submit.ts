@@ -12,6 +12,7 @@
  *   npm run ct:batch:submit -- --books genesis,psalms --chapter 2    # Ch 2 of each
  *   npm run ct:batch:submit -- --books genesis,psalms --chapters 1-3 # Ch 1-3 of each
  *   npm run ct:batch:submit -- --force                               # Regenerate existing
+ *   npm run ct:batch:submit -- --force --exclude genesis:1-10        # Regenerate all except Gen 1-10
  *   npm run ct:batch:submit -- --dry-run                             # Preview without submitting
  *
  * After submitting:
@@ -55,10 +56,42 @@ const BATCH_DIR = path.join(process.cwd(), 'data', 'translations', 'ct-batch');
 
 // ─── CLI Args ────────────────────────────────────────────────────────────────
 
+/** Exclusion map: slug → Set of chapter numbers to skip */
+type ExcludeMap = Map<string, Set<number>>;
+
+function parseExclude(val: string): ExcludeMap {
+  const map: ExcludeMap = new Map();
+  for (const entry of val.split(',')) {
+    const [slug, range] = entry.trim().split(':');
+    if (!slug) continue;
+    if (!range) {
+      // Exclude entire book — will be populated later with all chapters
+      map.set(slug, new Set([-1])); // sentinel: -1 means "all"
+      continue;
+    }
+    const chapters = new Set<number>();
+    if (range.includes('-')) {
+      const [start, end] = range.split('-').map(Number);
+      for (let c = start; c <= end; c++) chapters.add(c);
+    } else {
+      chapters.add(parseInt(range, 10));
+    }
+    map.set(slug, chapters);
+  }
+  return map;
+}
+
+function isExcluded(exclude: ExcludeMap, slug: string, chapter: number): boolean {
+  const set = exclude.get(slug);
+  if (!set) return false;
+  return set.has(-1) || set.has(chapter);
+}
+
 function parseArgs() {
   const args = process.argv.slice(2);
   let books: string[] = [];
   let chapters: number[] | null = null;
+  let exclude: ExcludeMap = new Map();
   let force = false;
   let dryRun = false;
 
@@ -82,6 +115,9 @@ function parseArgs() {
         chapters = [parseInt(val, 10)];
       }
       i++;
+    } else if (args[i] === '--exclude' && args[i + 1]) {
+      exclude = parseExclude(args[i + 1]);
+      i++;
     } else if (args[i] === '--force') {
       force = true;
     } else if (args[i] === '--dry-run') {
@@ -89,7 +125,7 @@ function parseArgs() {
     }
   }
 
-  return { books: books.length > 0 ? books : null, chapters, force, dryRun };
+  return { books: books.length > 0 ? books : null, chapters, exclude, force, dryRun };
 }
 
 function chapterExists(bookSlug: string, chapter: number): boolean {
@@ -99,7 +135,7 @@ function chapterExists(bookSlug: string, chapter: number): boolean {
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const { books: bookFilter, chapters: chapterFilter, force, dryRun } = parseArgs();
+  const { books: bookFilter, chapters: chapterFilter, exclude, force, dryRun } = parseArgs();
 
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log('  CT Batch Submit (50% cost savings)');
@@ -107,6 +143,12 @@ async function main() {
   console.log(`  Model: ${MODEL}`);
   if (bookFilter) console.log(`  Books: ${bookFilter.join(', ')}`);
   if (chapterFilter) console.log(`  Chapters: ${chapterFilter.join(', ')}`);
+  if (exclude.size > 0) {
+    const excludeDesc = [...exclude.entries()].map(([slug, chs]) =>
+      chs.has(-1) ? slug : `${slug}:${[...chs].sort((a,b) => a-b).join(',')}`
+    ).join(', ');
+    console.log(`  Exclude: ${excludeDesc}`);
+  }
   if (force) console.log(`  Force: yes`);
   if (dryRun) console.log(`  🏜️  DRY RUN — will NOT submit to API`);
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
@@ -135,8 +177,14 @@ async function main() {
 
     let bookQueued = 0;
     let bookSkipped = 0;
+    let bookExcluded = 0;
 
     for (const chapter of chaptersToProcess) {
+      if (isExcluded(exclude, book.slug, chapter)) {
+        bookExcluded++;
+        continue;
+      }
+
       if (!force && chapterExists(book.slug, chapter)) {
         skipped++;
         bookSkipped++;
@@ -173,8 +221,12 @@ async function main() {
       bookQueued++;
     }
 
-    const skipNote = bookSkipped > 0 ? ` (${bookSkipped} skipped)` : '';
-    console.log(`   📖 ${book.name}: ${bookQueued} chapters queued${skipNote}`);
+    const notes = [
+      bookSkipped > 0 ? `${bookSkipped} skipped` : '',
+      bookExcluded > 0 ? `${bookExcluded} excluded` : ''
+    ].filter(Boolean).join(', ');
+    const noteStr = notes ? ` (${notes})` : '';
+    console.log(`   📖 ${book.name}: ${bookQueued} chapters queued${noteStr}`);
   }
 
   console.log(`\n   Total requests: ${requests.length}`);
