@@ -100,7 +100,7 @@ async function main() {
   let saved = 0;
   let errors = 0;
 
-  for await (const result of anthropic.messages.batches.results(batchId!)) {
+  for await (const result of await anthropic.messages.batches.results(batchId!)) {
     const customId = result.custom_id;
     const chapterInfo = chapterLookup.get(customId);
 
