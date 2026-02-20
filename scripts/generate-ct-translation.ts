@@ -6,21 +6,22 @@
  * before being seeded into the database.
  *
  * Usage:
- *   npm run ct:generate                     # Generate all books (resumes where it left off)
- *   npm run ct:generate -- --book genesis    # Generate a specific book
- *   npm run ct:generate -- --book genesis --chapter 1   # Generate a specific chapter
- *   npm run ct:generate -- --book genesis --force       # Regenerate even if files exist
+ *   npm run ct:generate                              # Generate all books (resumes where it left off)
+ *   npm run ct:generate -- --book genesis             # Generate a specific book
+ *   npm run ct:generate -- --book genesis --chapter 1       # Generate a specific chapter
+ *   npm run ct:generate -- --book genesis --chapters 11-50  # Generate a range of chapters
+ *   npm run ct:generate -- --book genesis --force           # Regenerate even if files exist
+ *   npm run ct:generate -- --book genesis --source github   # Fetch KJV from GitHub instead of Supabase
  *
  * Requirements:
  *   - ANTHROPIC_API_KEY in .env.local
- *   - NEXT_PUBLIC_SUPABASE_URL in .env.local
- *   - SUPABASE_SERVICE_ROLE_KEY in .env.local
+ *   - NEXT_PUBLIC_SUPABASE_URL in .env.local (unless --source github)
+ *   - SUPABASE_SERVICE_ROLE_KEY in .env.local (unless --source github)
  *
  * Output:
  *   data/translations/ct/{book-slug}/{chapter}.json
  */
 
-import { createClient } from '@supabase/supabase-js';
 import Anthropic from '@anthropic-ai/sdk';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -30,24 +31,13 @@ import { CT_SYSTEM_PROMPT, buildUserPrompt } from './ct-translation/prompt';
 // Load environment variables
 dotenv.config({ path: path.join(process.cwd(), '.env.local') });
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const anthropicApiKey = process.env.ANTHROPIC_API_KEY;
-
-if (!supabaseUrl || !supabaseServiceKey) {
-  console.error('❌ Missing NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in .env.local');
-  process.exit(1);
-}
 
 if (!anthropicApiKey) {
   console.error('❌ Missing ANTHROPIC_API_KEY in .env.local');
   console.error('   Get your API key at: https://console.anthropic.com/');
   process.exit(1);
 }
-
-const supabase = createClient(supabaseUrl, supabaseServiceKey, {
-  auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
-});
 
 const anthropic = new Anthropic({ apiKey: anthropicApiKey });
 
@@ -61,6 +51,9 @@ const TEMPERATURE = 0.5;
 
 // Rate limiting: pause between API calls (ms)
 const DELAY_BETWEEN_CALLS = 1500;
+
+// GitHub raw content base URL for KJV text
+const GITHUB_BASE = 'https://raw.githubusercontent.com/aruljohn/Bible-kjv/master';
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -96,27 +89,74 @@ interface ChapterOutput {
   }[];
 }
 
+interface GitHubBookData {
+  book: string;
+  chapters: {
+    chapter: string;
+    verses: { verse: string; text: string }[];
+  }[];
+}
+
+// Slug → GitHub filename mapping
+const SLUG_TO_GITHUB: Record<string, string> = {
+  'genesis': 'Genesis', 'exodus': 'Exodus', 'leviticus': 'Leviticus',
+  'numbers': 'Numbers', 'deuteronomy': 'Deuteronomy', 'joshua': 'Joshua',
+  'judges': 'Judges', 'ruth': 'Ruth', '1-samuel': '1Samuel', '2-samuel': '2Samuel',
+  '1-kings': '1Kings', '2-kings': '2Kings', '1-chronicles': '1Chronicles',
+  '2-chronicles': '2Chronicles', 'ezra': 'Ezra', 'nehemiah': 'Nehemiah',
+  'esther': 'Esther', 'job': 'Job', 'psalms': 'Psalms', 'proverbs': 'Proverbs',
+  'ecclesiastes': 'Ecclesiastes', 'song-of-solomon': 'SongofSolomon',
+  'isaiah': 'Isaiah', 'jeremiah': 'Jeremiah', 'lamentations': 'Lamentations',
+  'ezekiel': 'Ezekiel', 'daniel': 'Daniel', 'hosea': 'Hosea', 'joel': 'Joel',
+  'amos': 'Amos', 'obadiah': 'Obadiah', 'jonah': 'Jonah', 'micah': 'Micah',
+  'nahum': 'Nahum', 'habakkuk': 'Habakkuk', 'zephaniah': 'Zephaniah',
+  'haggai': 'Haggai', 'zechariah': 'Zechariah', 'malachi': 'Malachi',
+  'matthew': 'Matthew', 'mark': 'Mark', 'luke': 'Luke', 'john': 'John',
+  'acts': 'Acts', 'romans': 'Romans', '1-corinthians': '1Corinthians',
+  '2-corinthians': '2Corinthians', 'galatians': 'Galatians', 'ephesians': 'Ephesians',
+  'philippians': 'Philippians', 'colossians': 'Colossians',
+  '1-thessalonians': '1Thessalonians', '2-thessalonians': '2Thessalonians',
+  '1-timothy': '1Timothy', '2-timothy': '2Timothy', 'titus': 'Titus',
+  'philemon': 'Philemon', 'hebrews': 'Hebrews', 'james': 'James',
+  '1-peter': '1Peter', '2-peter': '2Peter', '1-john': '1John', '2-john': '2John',
+  '3-john': '3John', 'jude': 'Jude', 'revelation': 'Revelation'
+};
+
 // ─── CLI Args ────────────────────────────────────────────────────────────────
 
 function parseArgs() {
   const args = process.argv.slice(2);
   let book: string | null = null;
-  let chapter: number | null = null;
+  let chapters: number[] | null = null;
   let force = false;
+  let source: 'supabase' | 'github' = 'supabase';
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--book' && args[i + 1]) {
       book = args[i + 1];
       i++;
     } else if (args[i] === '--chapter' && args[i + 1]) {
-      chapter = parseInt(args[i + 1], 10);
+      chapters = [parseInt(args[i + 1], 10)];
+      i++;
+    } else if (args[i] === '--chapters' && args[i + 1]) {
+      const val = args[i + 1];
+      if (val.includes('-')) {
+        const [start, end] = val.split('-').map(Number);
+        chapters = [];
+        for (let c = start; c <= end; c++) chapters.push(c);
+      } else {
+        chapters = [parseInt(val, 10)];
+      }
+      i++;
+    } else if (args[i] === '--source' && args[i + 1]) {
+      source = args[i + 1] as 'supabase' | 'github';
       i++;
     } else if (args[i] === '--force') {
       force = true;
     }
   }
 
-  return { book, chapter, force };
+  return { book, chapters, force, source };
 }
 
 // ─── File I/O ────────────────────────────────────────────────────────────────
@@ -138,6 +178,69 @@ function saveChapter(data: ChapterOutput): void {
   }
 
   fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), 'utf-8');
+}
+
+// ─── KJV Verse Sources ──────────────────────────────────────────────────────
+
+// Cache for GitHub book data (so we only fetch once per book)
+const githubCache = new Map<string, GitHubBookData>();
+
+async function fetchVersesFromGitHub(bookSlug: string, chapter: number): Promise<DbVerse[] | null> {
+  const githubName = SLUG_TO_GITHUB[bookSlug];
+  if (!githubName) {
+    console.warn(`   ⚠️  No GitHub mapping for ${bookSlug}`);
+    return null;
+  }
+
+  // Check cache first
+  if (!githubCache.has(bookSlug)) {
+    // Try local file first (data/kjv-{slug}.json), then network fetch
+    const localPath = path.join(process.cwd(), 'data', `kjv-${bookSlug}.json`);
+
+    if (fs.existsSync(localPath)) {
+      githubCache.set(bookSlug, JSON.parse(fs.readFileSync(localPath, 'utf-8')));
+    } else {
+      const url = `${GITHUB_BASE}/${githubName}.json`;
+      const response = await fetch(url);
+      if (!response.ok) {
+        console.warn(`   ⚠️  Failed to fetch ${url}: ${response.statusText}`);
+        return null;
+      }
+      githubCache.set(bookSlug, await response.json());
+    }
+  }
+
+  const bookData = githubCache.get(bookSlug)!;
+  const chapterData = bookData.chapters.find(c => parseInt(c.chapter) === chapter);
+  if (!chapterData) return null;
+
+  return chapterData.verses.map(v => ({
+    verse: parseInt(v.verse),
+    text: v.text
+  }));
+}
+
+async function fetchVersesFromSupabase(bookId: string, chapter: number): Promise<DbVerse[] | null> {
+  const { createClient } = await import('@supabase/supabase-js');
+
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!supabaseUrl || !supabaseServiceKey) return null;
+
+  const supabase = createClient(supabaseUrl, supabaseServiceKey, {
+    auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
+  });
+
+  const { data: verses, error } = await supabase
+    .from('verses')
+    .select('verse, text')
+    .eq('book_id', bookId)
+    .eq('chapter', chapter)
+    .eq('translation', 'kjv')
+    .order('verse');
+
+  if (error) throw new Error(`DB error: ${error.message}`);
+  return verses && verses.length > 0 ? verses : null;
 }
 
 // ─── Claude API ──────────────────────────────────────────────────────────────
@@ -192,23 +295,23 @@ async function generateCTChapter(
 async function processChapter(
   book: DbBook,
   chapter: number,
-  force: boolean
+  force: boolean,
+  source: 'supabase' | 'github'
 ): Promise<boolean> {
   // Skip if already generated (unless --force)
   if (!force && chapterExists(book.slug, chapter)) {
     return false; // skipped
   }
 
-  // Fetch KJV verses for this chapter (filter by translation to avoid mixing in CT rows)
-  const { data: verses, error } = await supabase
-    .from('verses')
-    .select('verse, text')
-    .eq('book_id', book.id)
-    .eq('chapter', chapter)
-    .eq('translation', 'kjv')
-    .order('verse');
+  // Fetch KJV verses
+  let verses: DbVerse[] | null;
 
-  if (error) throw new Error(`DB error: ${error.message}`);
+  if (source === 'github') {
+    verses = await fetchVersesFromGitHub(book.slug, chapter);
+  } else {
+    verses = await fetchVersesFromSupabase(book.id, chapter);
+  }
+
   if (!verses || verses.length === 0) {
     console.warn(`   ⚠️  No verses found for ${book.name} ${chapter}`);
     return false;
@@ -236,9 +339,14 @@ async function processChapter(
   return true; // generated
 }
 
-async function processBook(book: DbBook, force: boolean, singleChapter?: number) {
-  const chapters = singleChapter
-    ? [singleChapter]
+async function processBook(
+  book: DbBook,
+  force: boolean,
+  source: 'supabase' | 'github',
+  chapterList?: number[]
+) {
+  const chapters = chapterList
+    ? chapterList.filter(c => c >= 1 && c <= book.total_chapters)
     : Array.from({ length: book.total_chapters }, (_, i) => i + 1);
 
   let generated = 0;
@@ -248,7 +356,7 @@ async function processBook(book: DbBook, force: boolean, singleChapter?: number)
     const label = `${book.name} ${chapter}`;
 
     try {
-      const wasGenerated = await processChapter(book, chapter, force);
+      const wasGenerated = await processChapter(book, chapter, force, source);
 
       if (wasGenerated) {
         generated++;
@@ -272,38 +380,71 @@ async function processBook(book: DbBook, force: boolean, singleChapter?: number)
 // ─── Entry Point ─────────────────────────────────────────────────────────────
 
 async function main() {
-  const { book: bookFilter, chapter: chapterFilter, force } = parseArgs();
+  const { book: bookFilter, chapters: chapterFilter, force, source } = parseArgs();
 
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log('  Clear Translation (CT) Generator');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log(`  Model: ${MODEL}`);
+  console.log(`  Source: ${source}`);
   console.log(`  Output: ${OUTPUT_DIR}`);
   if (bookFilter) console.log(`  Book filter: ${bookFilter}`);
-  if (chapterFilter) console.log(`  Chapter filter: ${chapterFilter}`);
+  if (chapterFilter) console.log(`  Chapters: ${chapterFilter.join(', ')}`);
   if (force) console.log(`  Force regenerate: yes`);
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
-  // Fetch books from database
-  let query = supabase.from('books').select('*').order('order_index');
+  let books: DbBook[];
 
-  if (bookFilter) {
-    query = query.eq('slug', bookFilter);
-  }
+  if (source === 'github') {
+    // Load books from local data/books.json
+    const booksPath = path.join(process.cwd(), 'data', 'books.json');
+    const allBooks: any[] = JSON.parse(fs.readFileSync(booksPath, 'utf-8'));
 
-  const { data: books, error } = await query;
+    books = allBooks
+      .filter(b => !bookFilter || b.slug === bookFilter)
+      .map(b => ({ ...b, id: b.slug })); // Use slug as id for GitHub mode
 
-  if (error) {
-    console.error(`❌ Failed to fetch books: ${error.message}`);
-    process.exit(1);
-  }
-
-  if (!books || books.length === 0) {
-    console.error(`❌ No books found${bookFilter ? ` matching "${bookFilter}"` : ''}`);
-    if (bookFilter) {
-      console.error('   Use the book slug (e.g., "genesis", "1-samuel", "song-of-solomon")');
+    if (books.length === 0) {
+      console.error(`❌ No books found${bookFilter ? ` matching "${bookFilter}"` : ''}`);
+      if (bookFilter) {
+        console.error('   Use the book slug (e.g., "genesis", "1-samuel", "song-of-solomon")');
+      }
+      process.exit(1);
     }
-    process.exit(1);
+  } else {
+    // Supabase mode — requires env vars
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    if (!supabaseUrl || !supabaseServiceKey) {
+      console.error('❌ Missing NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in .env.local');
+      console.error('   Tip: use --source github to fetch KJV text from GitHub instead');
+      process.exit(1);
+    }
+
+    const { createClient } = await import('@supabase/supabase-js');
+    const supabase = createClient(supabaseUrl, supabaseServiceKey, {
+      auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
+    });
+
+    let query = supabase.from('books').select('*').order('order_index');
+    if (bookFilter) query = query.eq('slug', bookFilter);
+
+    const { data, error } = await query;
+
+    if (error) {
+      console.error(`❌ Failed to fetch books: ${error.message}`);
+      process.exit(1);
+    }
+
+    if (!data || data.length === 0) {
+      console.error(`❌ No books found${bookFilter ? ` matching "${bookFilter}"` : ''}`);
+      if (bookFilter) {
+        console.error('   Use the book slug (e.g., "genesis", "1-samuel", "song-of-solomon")');
+      }
+      process.exit(1);
+    }
+
+    books = data as DbBook[];
   }
 
   let totalGenerated = 0;
@@ -313,10 +454,15 @@ async function main() {
     console.log(`\n📖 ${book.name} (${book.total_chapters} chapters)`);
 
     const result = await processBook(
-      book as DbBook,
+      book,
       force,
+      source,
       chapterFilter ?? undefined
     );
+
+    if (result.generated === 0 && result.skipped === 0 && chapterFilter) {
+      console.log(`   (no matching chapters in range)`);
+    }
 
     totalGenerated += result.generated;
     totalSkipped += result.skipped;
