@@ -10,6 +10,7 @@
  */
 
 import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
 import * as path from 'path';
 import * as dotenv from 'dotenv';
 
@@ -161,6 +162,32 @@ async function updateCT(bookId: number, chapter: number, verse: number, newText:
   return !error;
 }
 
+/**
+ * Sync a fix to the local JSON file (data/translations/ct/{book}/{chapter}.json)
+ * so that ct:seed doesn't overwrite the database fix later.
+ */
+function syncLocalJson(bookSlug: string, chapter: number, verse: number, newText: string): boolean {
+  const CT_DIR = path.join(process.cwd(), 'data', 'translations', 'ct');
+  const filePath = path.join(CT_DIR, bookSlug, `${chapter}.json`);
+
+  if (!fs.existsSync(filePath)) {
+    return false; // No local file — nothing to sync
+  }
+
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const verseObj = data.verses?.find((v: { verse: number }) => v.verse === verse);
+    if (verseObj) {
+      verseObj.ct = newText;
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n', 'utf-8');
+      return true;
+    }
+    return false;
+  } catch {
+    return false;
+  }
+}
+
 // ─── Lookup mode ─────────────────────────────────────────────────────────────
 
 async function lookupVerse(ref: string) {
@@ -261,7 +288,8 @@ async function applyFixes(dryRun: boolean) {
     if (!dryRun) {
       const success = await updateCT(bookId, fix.chapter, fix.verse, fix.ct);
       if (success) {
-        console.log(`     ✅ Updated`);
+        const synced = syncLocalJson(fix.book_slug, fix.chapter, fix.verse, fix.ct);
+        console.log(`     ✅ Updated${synced ? ' (+ local JSON synced)' : ''}`);
         applied++;
       } else {
         console.log(`     ❌ Failed to update`);
