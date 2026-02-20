@@ -133,6 +133,224 @@ const FIXES: VerseFix[] = [
     reason: 'Audit: consistency with Exodus 25:5 — "fine leather" → "durable leather" for tahaš',
     ct: 'the covering of ram skins dyed red, the covering of durable leather, and the inner curtain;'
   },
+  // ─── Audit #2: Exodus 1–10 CT Corrections (Feb 2026) ──────────────────────
+  {
+    ref: 'Exodus 1:22',
+    book_slug: 'exodus',
+    chapter: 1,
+    verse: 22,
+    reason: 'Audit (completeness): CT adds "Hebrew" which is not in the KJV — removes scope change',
+    ct: 'Then Pharaoh issued a command to all his people: "Throw every newborn boy into the Nile River, but let every girl live."'
+  },
+  {
+    ref: 'Exodus 2:9',
+    book_slug: 'exodus',
+    chapter: 2,
+    verse: 9,
+    reason: 'Audit (accuracy): "her child" implies ownership not present in KJV — should be "the child"',
+    ct: 'Pharaoh\'s daughter said to her, "Take this child and nurse him for me, and I\'ll pay you for it." So the woman took the child and nursed him.'
+  },
+  {
+    ref: 'Exodus 2:25',
+    book_slug: 'exodus',
+    chapter: 2,
+    verse: 25,
+    reason: 'Audit (completeness): "of their suffering" is not in the KJV — KJV says "God had respect unto them"',
+    ct: 'God looked on the Israelites, and God acknowledged them.'
+  },
+  {
+    ref: 'Exodus 3:19',
+    book_slug: 'exodus',
+    chapter: 3,
+    verse: 19,
+    reason: 'Audit (accuracy): "unless" changes meaning — KJV says "no, not by a mighty hand"',
+    ct: '"But I know that the king of Egypt will not let you go, no, not even by a mighty hand."'
+  },
+  {
+    ref: 'Exodus 4:13',
+    book_slug: 'exodus',
+    chapter: 4,
+    verse: 13,
+    reason: 'Audit (completeness): CT omits "by the hand of him whom thou wilt send" — changes intent',
+    ct: 'But Moses said, "Please, Lord — send by the hand of whoever you will send."'
+  },
+  {
+    ref: 'Exodus 4:18',
+    book_slug: 'exodus',
+    chapter: 4,
+    verse: 18,
+    reason: 'Audit (accuracy): "Go with my blessing" adds content not in KJV — KJV says "Go in peace"',
+    ct: 'Moses went back to his father-in-law Jethro and said, "Please let me return to my people in Egypt to see if any of them are still alive." Jethro told Moses, "Go in peace."'
+  },
+  {
+    ref: 'Exodus 4:26',
+    book_slug: 'exodus',
+    chapter: 4,
+    verse: 26,
+    reason: 'Audit (accuracy): CT changes subject from "he" to "the LORD" — KJV does not specify the LORD',
+    ct: 'So he let him go. She had said "husband of blood" because of the circumcision.'
+  },
+  {
+    ref: 'Exodus 5:9',
+    book_slug: 'exodus',
+    chapter: 5,
+    verse: 9,
+    reason: 'Audit (accuracy): "lies" is too strong — KJV says "vain words"',
+    ct: '"Make the work harder on these men so they stay busy and stop paying attention to empty words."'
+  },
+  {
+    ref: 'Exodus 5:12',
+    book_slug: 'exodus',
+    chapter: 5,
+    verse: 12,
+    reason: 'Audit (accuracy): "to use as straw" implies substitution — KJV says "instead of straw"',
+    ct: 'So the people spread out across all of Egypt to gather stubble instead of straw.'
+  },
+  {
+    ref: 'Exodus 6:3',
+    book_slug: 'exodus',
+    chapter: 6,
+    verse: 3,
+    reason: 'Audit (accuracy): KJV specifically uses "JEHOVAH" — CT must preserve the specific name',
+    ct: 'I revealed myself to Abraham, Isaac, and Jacob as God Almighty, but by my name JEHOVAH I was not known to them.'
+  },
+  {
+    ref: 'Exodus 6:12',
+    book_slug: 'exodus',
+    chapter: 6,
+    verse: 12,
+    reason: 'Audit (accuracy): "I\'m a terrible speaker" adds interpretation — KJV says "uncircumcised lips"',
+    ct: 'But Moses protested to the LORD, "Look, the Israelites wouldn\'t even listen to me. Why would Pharaoh listen to me? I am a man of uncircumcised lips."'
+  },
+  {
+    ref: 'Exodus 8:16',
+    book_slug: 'exodus',
+    chapter: 8,
+    verse: 16,
+    reason: 'Audit (accuracy): "gnats" should be "lice" to match KJV',
+    ct: 'The LORD told Moses, "Tell Aaron to extend his staff and strike the dust on the ground, so that it turns into lice throughout all of Egypt."'
+  },
+  {
+    ref: 'Exodus 8:17',
+    book_slug: 'exodus',
+    chapter: 8,
+    verse: 17,
+    reason: 'Audit (accuracy): "gnats" should be "lice" to match KJV',
+    ct: 'They did this — Aaron extended his hand with his staff and struck the dust on the ground, and lice appeared on people and animals. All the dust across Egypt turned into lice.'
+  },
+  {
+    ref: 'Exodus 8:22',
+    book_slug: 'exodus',
+    chapter: 8,
+    verse: 22,
+    reason: 'Audit (accuracy): "at work in this land" changes KJV\'s "in the midst of the earth"',
+    ct: '"But on that day I will treat the region of Goshen differently — where my people live — so that no swarms of flies will be there. This way you will know that I am the LORD in the midst of the earth."'
+  },
+  {
+    ref: 'Exodus 8:26',
+    book_slug: 'exodus',
+    chapter: 8,
+    verse: 26,
+    reason: 'Audit (accuracy): "sacred" changes meaning — KJV says "abomination of the Egyptians"',
+    ct: 'Moses replied, "That wouldn\'t be right, because the animals we sacrifice to the LORD our God are an abomination to the Egyptians. If we sacrifice what is an abomination to the Egyptians right in front of them, won\'t they stone us?'
+  },
+  {
+    ref: 'Exodus 9:32',
+    book_slug: 'exodus',
+    chapter: 9,
+    verse: 32,
+    reason: 'Audit (accuracy): "mature later in the season" adds content — KJV says "they were not grown up"',
+    ct: 'But the wheat and the spelt were not destroyed because they had not yet grown up.'
+  },
+  {
+    ref: 'Exodus 10:10',
+    book_slug: 'exodus',
+    chapter: 10,
+    verse: 10,
+    reason: 'Audit (accuracy): "evil plan" adds interpretation — KJV says "look to it; for evil is before you"',
+    ct: 'Pharaoh said to them, "The LORD had better be with you if I ever let you and your little ones go! Look to it, for evil is before you."'
+  },
+  // ─── Audit #3: Leviticus 1–10 CT Corrections (Feb 2026) ───────────────────
+  {
+    ref: 'Leviticus 2:12',
+    book_slug: 'leviticus',
+    chapter: 2,
+    verse: 12,
+    reason: 'Audit (completeness): CT adds "yeast and honey" not present in KJV — KJV says "the oblation of the firstfruits"',
+    ct: 'You may present them to the LORD as a firstfruits offering, but they must not be burned on the altar as a pleasing aroma.'
+  },
+  {
+    ref: 'Leviticus 4:26',
+    book_slug: 'leviticus',
+    chapter: 4,
+    verse: 26,
+    reason: 'Audit (accuracy): "the leader\'s sin" adds specificity — KJV says "his sin"',
+    ct: 'He must burn all the fat on the altar, just like the fat from peace offerings. In this way the priest will make atonement for him concerning his sin, and he will be forgiven.'
+  },
+  {
+    ref: 'Leviticus 7:14',
+    book_slug: 'leviticus',
+    chapter: 7,
+    verse: 14,
+    reason: 'Audit (completeness): CT omits "heave offering" and "whole oblation" — must preserve KJV terms',
+    ct: 'From the whole offering, he must set aside one portion as a heave offering to the LORD. It will belong to the priest who splashes the blood of the peace offering.'
+  },
+  {
+    ref: 'Leviticus 7:29',
+    book_slug: 'leviticus',
+    chapter: 7,
+    verse: 29,
+    reason: 'Audit (accuracy): CT omits the requirement to bring from the sacrifice itself',
+    ct: '"Tell the Israelites: Anyone who brings a peace offering to the LORD must personally bring his offering to the LORD from the sacrifice of his peace offerings.'
+  },
+  {
+    ref: 'Leviticus 7:32',
+    book_slug: 'leviticus',
+    chapter: 7,
+    verse: 32,
+    reason: 'Audit (accuracy): "contribution" should be "heave offering" and "thigh" should be "shoulder" per KJV',
+    ct: 'You must also give the right shoulder to the priest as a heave offering from your peace offerings.'
+  },
+  {
+    ref: 'Leviticus 7:33',
+    book_slug: 'leviticus',
+    chapter: 7,
+    verse: 33,
+    reason: 'Audit (accuracy): "right thigh" should be "right shoulder" per KJV',
+    ct: 'The son of Aaron who splashes the blood and presents the fat of the peace offering gets the right shoulder as his portion.'
+  },
+  {
+    ref: 'Leviticus 8:25',
+    book_slug: 'leviticus',
+    chapter: 8,
+    verse: 25,
+    reason: 'Audit (accuracy): "right thigh" should be "right shoulder" per KJV',
+    ct: 'He took the fat, the fat tail, all the fat covering the internal organs, the lobe of the liver, the 2 kidneys with their fat, and the right shoulder.'
+  },
+  {
+    ref: 'Leviticus 8:26',
+    book_slug: 'leviticus',
+    chapter: 8,
+    verse: 26,
+    reason: 'Audit (accuracy): "right thigh" should be "right shoulder" per KJV',
+    ct: 'From the basket of unleavened bread that was in the LORD\'s presence, he took one unleavened cake, one cake of bread made with oil, and one wafer, and placed them on top of the fat portions and the right shoulder.'
+  },
+  {
+    ref: 'Leviticus 9:24',
+    book_slug: 'leviticus',
+    chapter: 9,
+    verse: 24,
+    reason: 'Audit (accuracy): "shouts of praise" adds interpretation — KJV simply says "they shouted"',
+    ct: 'Fire blazed out from the LORD\'s presence and consumed the burnt offering and the fat on the altar. When all the people witnessed this, they shouted and dropped to the ground with their faces down.'
+  },
+  {
+    ref: 'Leviticus 10:20',
+    book_slug: 'leviticus',
+    chapter: 10,
+    verse: 20,
+    reason: 'Audit (completeness): "explanation" adds content — KJV says "when Moses heard that, he was content"',
+    ct: 'When Moses heard this, he was satisfied.'
+  },
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
