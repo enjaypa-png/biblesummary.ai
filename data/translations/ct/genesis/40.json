@@ -1,0 +1,125 @@
+{
+  "book": "genesis",
+  "book_name": "Genesis",
+  "chapter": 40,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:26:47.128Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass after these things, that the butler of the king of Egypt and his baker had offended their lord the king of Egypt.",
+      "ct": "Some time later, the cupbearer of the king of Egypt and his baker committed an offense against their master, the king of Egypt."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Pharaoh was wroth against two of his officers, against the chief of the butlers, and against the chief of the bakers.",
+      "ct": "Pharaoh became angry with his 2 officials — the chief cupbearer and the chief baker."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he put them in ward in the house of the captain of the guard, into the prison, the place where Joseph was bound.",
+      "ct": "He had them locked up in the house of the captain of the guard, in the same prison where Joseph was held."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the captain of the guard charged Joseph with them, and he served them: and they continued a season in ward.",
+      "ct": "The captain of the guard assigned Joseph to attend to them, and he took care of their needs. They remained in custody for some time."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they dreamed a dream both of them, each man his dream in one night, each man according to the interpretation of his dream, the butler and the baker of the king of Egypt, which were bound in the prison.",
+      "ct": "One night, both the cupbearer and the baker of the king of Egypt had dreams while locked up in prison — each man had his own dream with its own meaning."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Joseph came in unto them in the morning, and looked upon them, and, behold, they were sad.",
+      "ct": "When Joseph came to them the next morning, he noticed that they both looked troubled."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he asked Pharaoh’s officers that were with him in the ward of his lord’s house, saying, Wherefore look ye so sadly to day?",
+      "ct": "So he asked Pharaoh's officials who were being held with him in his master's prison, \"Why do you both look so upset today?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And they said unto him, We have dreamed a dream, and there is no interpreter of it. And Joseph said unto them, Do not interpretations belong to God? tell me them, I pray you.",
+      "ct": "They told him, \"We each had a dream, but there's no one here who can explain what they mean.\" Joseph replied, \"Doesn't the ability to interpret dreams come from God? Go ahead and tell me about them.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the chief butler told his dream to Joseph, and said to him, In my dream, behold, a vine was before me;",
+      "ct": "So the chief cupbearer described his dream to Joseph: \"In my dream, I saw a grapevine right in front of me."
+    },
+    {
+      "verse": 10,
+      "kjv": "And in the vine were three branches: and it was as though it budded, and her blossoms shot forth; and the clusters thereof brought forth ripe grapes:",
+      "ct": "The vine had 3 branches. As I watched, it sprouted buds, then blossoms appeared, and finally its clusters ripened into grapes."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Pharaoh’s cup was in my hand: and I took the grapes, and pressed them into Pharaoh’s cup, and I gave the cup into Pharaoh’s hand.",
+      "ct": "I was holding Pharaoh's cup, so I picked the grapes, squeezed their juice into Pharaoh's cup, and placed the cup in Pharaoh's hand.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And Joseph said unto him, This is the interpretation of it: The three branches are three days:",
+      "ct": "Joseph said to him, \"Here is what your dream means: The 3 branches represent 3 days."
+    },
+    {
+      "verse": 13,
+      "kjv": "Yet within three days shall Pharaoh lift up thine head, and restore thee unto thy place: and thou shalt deliver Pharaoh’s cup into his hand, after the former manner when thou wast his butler.",
+      "ct": "Within 3 days, Pharaoh will release you and give you back your position. You will serve Pharaoh his cup just as you used to when you were his cupbearer."
+    },
+    {
+      "verse": 14,
+      "kjv": "But think on me when it shall be well with thee, and shew kindness, I pray thee, unto me, and make mention of me unto Pharaoh, and bring me out of this house:",
+      "ct": "But when things go well for you, please remember me. Do me this kindness — mention me to Pharaoh and help get me out of this place."
+    },
+    {
+      "verse": 15,
+      "kjv": "For indeed I was stolen away out of the land of the Hebrews: and here also have I done nothing that they should put me into the dungeon.",
+      "ct": "I was kidnapped from the land of the Hebrews, and even here I've done nothing to deserve being thrown into this dungeon.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "When the chief baker saw that the interpretation was good, he said unto Joseph, I also was in my dream, and, behold, I had three white baskets on my head:",
+      "ct": "When the chief baker saw that the interpretation was favorable, he said to Joseph, \"I had a dream too! In mine, there were 3 white baskets stacked on my head."
+    },
+    {
+      "verse": 17,
+      "kjv": "And in the uppermost basket there was of all manner of bakemeats for Pharaoh; and the birds did eat them out of the basket upon my head.",
+      "ct": "The top basket was filled with all kinds of baked goods for Pharaoh, but birds were eating them out of the basket on my head.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And Joseph answered and said, This is the interpretation thereof: The three baskets are three days:",
+      "ct": "Joseph responded, \"Here is what your dream means: The 3 baskets represent 3 days."
+    },
+    {
+      "verse": 19,
+      "kjv": "Yet within three days shall Pharaoh lift up thy head from off thee, and shall hang thee on a tree; and the birds shall eat thy flesh from off thee.",
+      "ct": "Within 3 days, Pharaoh will have your head cut off and your body hung on a pole, and the birds will eat your flesh.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And it came to pass the third day, which was Pharaoh’s birthday, that he made a feast unto all his servants: and he lifted up the head of the chief butler and of the chief baker among his servants.",
+      "ct": "On the 3rd day, which was Pharaoh's birthday, he held a banquet for all his officials. In the presence of his servants, he dealt with the cases of both the chief cupbearer and the chief baker."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he restored the chief butler unto his butlership again; and he gave the cup into Pharaoh’s hand:",
+      "ct": "He restored the chief cupbearer to his position, and once again the cupbearer placed the cup in Pharaoh's hand."
+    },
+    {
+      "verse": 22,
+      "kjv": "But he hanged the chief baker: as Joseph had interpreted to them.",
+      "ct": "But he had the chief baker executed by hanging — exactly as Joseph had predicted."
+    },
+    {
+      "verse": 23,
+      "kjv": "Yet did not the chief butler remember Joseph, but forgat him.",
+      "ct": "The chief cupbearer, however, did not remember Joseph. He completely forgot about him."
+    }
+  ]
+}

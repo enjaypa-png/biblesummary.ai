@@ -1,0 +1,130 @@
+{
+  "book": "genesis",
+  "book_name": "Genesis",
+  "chapter": 3,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:23:31.320Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden?",
+      "ct": "The serpent was more cunning than any wild animal the LORD God had made. He asked the woman, \"Did God really tell you not to eat from any tree in the garden?\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And the woman said unto the serpent, We may eat of the fruit of the trees of the garden:",
+      "ct": "The woman replied to the serpent, \"We're allowed to eat fruit from the trees in the garden,"
+    },
+    {
+      "verse": 3,
+      "kjv": "But of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die.",
+      "ct": "but God did say, 'You must not eat from the tree in the center of the garden, and you must not even touch it, or you will die.'\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And the serpent said unto the woman, Ye shall not surely die:",
+      "ct": "\"You certainly won't die,\" the serpent told the woman."
+    },
+    {
+      "verse": 5,
+      "kjv": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
+      "ct": "\"God knows that the moment you eat from it, your eyes will be opened, and you'll become like gods, understanding both good and evil.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat.",
+      "ct": "The woman noticed that the tree's fruit looked good to eat, that it was attractive to look at, and that it was appealing because it could give wisdom. So she picked some of its fruit and ate it. She also gave some to her husband, who was there with her, and he ate it too."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons.",
+      "ct": "Immediately, both of their eyes were opened, and they realized they were naked. So they stitched fig leaves together and made coverings for themselves."
+    },
+    {
+      "verse": 8,
+      "kjv": "And they heard the voice of the LORD God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the LORD God amongst the trees of the garden.",
+      "ct": "Then they heard the sound of the LORD God moving through the garden in the cool part of the day, and Adam and his wife hid among the trees of the garden to avoid the presence of the LORD God."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the LORD God called unto Adam, and said unto him, Where art thou?",
+      "ct": "But the LORD God called out to Adam, \"Where are you?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And he said, I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself.",
+      "ct": "Adam answered, \"I heard you in the garden, and I was afraid because I was naked, so I hid.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And he said, Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that thou shouldest not eat?",
+      "ct": "God asked, \"Who told you that you were naked? Have you eaten from the tree I commanded you not to eat from?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat.",
+      "ct": "The man said, \"The woman you gave me as a companion — she handed me fruit from the tree, and I ate it.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat.",
+      "ct": "Then the LORD God asked the woman, \"What have you done?\" The woman answered, \"The serpent tricked me, and I ate it.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And the LORD God said unto the serpent, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:",
+      "ct": "So the LORD God said to the serpent, \"Because you have done this, you are cursed more than all livestock and more than every wild animal. You will crawl on your belly, and you will eat dust for as long as you live."
+    },
+    {
+      "verse": 15,
+      "kjv": "And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.",
+      "ct": "I will establish hostility between you and the woman, and between your offspring and hers. He will crush your head, and you will strike his heel.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee.",
+      "ct": "To the woman he said, \"I will dramatically increase your pain during pregnancy. You will give birth to children through suffering. Your desire will be directed toward your husband, and he will have authority over you.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life;",
+      "ct": "Then to Adam he said, \"Because you listened to your wife and ate from the tree that I specifically commanded you not to eat from, the ground is cursed because of you. You will struggle painfully to get food from it for the rest of your life."
+    },
+    {
+      "verse": 18,
+      "kjv": "Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field;",
+      "ct": "It will produce thorns and thistles for you, and you will have to eat the plants of the field."
+    },
+    {
+      "verse": 19,
+      "kjv": "In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return.",
+      "ct": "You will eat your food by the sweat of your labor until you return to the ground, since you were taken from it. You are dust, and to dust you will return.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Adam called his wife’s name Eve; because she was the mother of all living.",
+      "ct": "Adam named his wife Eve, because she would become the mother of every living person."
+    },
+    {
+      "verse": 21,
+      "kjv": "Unto Adam also and to his wife did the LORD God make coats of skins, and clothed them.",
+      "ct": "The LORD God made clothing from animal skins for Adam and his wife and dressed them."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:",
+      "ct": "Then the LORD God said, \"Look — the man has become like one of us, knowing good and evil. He must not be allowed to reach out and also take from the tree of life, eat from it, and live forever.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Therefore the LORD God sent him forth from the garden of Eden, to till the ground from whence he was taken.",
+      "ct": "So the LORD God expelled him from the garden of Eden to work the ground from which he had been formed."
+    },
+    {
+      "verse": 24,
+      "kjv": "So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.",
+      "ct": "After driving the man out, he stationed cherubim on the east side of the garden of Eden, along with a flaming sword that turned in every direction, to guard the path to the tree of life."
+    }
+  ]
+}

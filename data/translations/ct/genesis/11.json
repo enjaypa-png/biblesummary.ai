@@ -1,0 +1,170 @@
+{
+  "book": "genesis",
+  "book_name": "Genesis",
+  "chapter": 11,
+  "translation": "ct",
+  "generated_at": "2026-02-20T09:18:33.383Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the whole earth was of one language, and of one speech.",
+      "ct": "The entire earth shared one language and a common vocabulary."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it came to pass, as they journeyed from the east, that they found a plain in the land of Shinar; and they dwelt there.",
+      "ct": "As people migrated from the east, they discovered a flat plain in the land of Shinar and settled there."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they said one to another, Go to, let us make brick, and burn them thoroughly. And they had brick for stone, and slime had they for morter.",
+      "ct": "They said to each other, \"Come on, let's make bricks and fire them until they're hard.\" So they used bricks instead of stone, and tar instead of mortar."
+    },
+    {
+      "verse": 4,
+      "kjv": "And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth.",
+      "ct": "Then they said, \"Come on, let's construct a city with a tower that reaches up to heaven. We'll make a name for ourselves so we won't be scattered across the whole earth.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And the LORD came down to see the city and the tower, which the children of men builded.",
+      "ct": "The LORD came down to look at the city and the tower that the people had built."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the LORD said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do.",
+      "ct": "The LORD said, \"Look — these people are united, and they all speak the same language. This is just the beginning of what they'll do. Soon nothing they plan will be impossible for them.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Go to, let us go down, and there confound their language, that they may not understand one another’s speech.",
+      "ct": "\"Come, let us go down and mix up their language so they won't be able to understand each other.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "So the LORD scattered them abroad from thence upon the face of all the earth: and they left off to build the city.",
+      "ct": "So the LORD scattered them from that place across the entire earth, and they stopped building the city."
+    },
+    {
+      "verse": 9,
+      "kjv": "Therefore is the name of it called Babel; because the LORD did there confound the language of all the earth: and from thence did the LORD scatter them abroad upon the face of all the earth.",
+      "ct": "That is why it was named Babel — because that is where the LORD confused the language of the whole earth. From that place, the LORD dispersed them over the surface of the entire earth."
+    },
+    {
+      "verse": 10,
+      "kjv": "These are the generations of Shem: Shem was an hundred years old, and begat Arphaxad two years after the flood:",
+      "ct": "This is the family line of Shem: When Shem was 100 years old, he became the father of Arphaxad, 2 years after the flood."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Shem lived after he begat Arphaxad five hundred years, and begat sons and daughters.",
+      "ct": "After Arphaxad was born, Shem lived another 500 years and had other sons and daughters."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Arphaxad lived five and thirty years, and begat Salah:",
+      "ct": "When Arphaxad was 35 years old, he became the father of Salah."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Arphaxad lived after he begat Salah four hundred and three years, and begat sons and daughters.",
+      "ct": "After Salah was born, Arphaxad lived another 403 years and had other sons and daughters."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Salah lived thirty years, and begat Eber:",
+      "ct": "When Salah was 30 years old, he became the father of Eber."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Salah lived after he begat Eber four hundred and three years, and begat sons and daughters.",
+      "ct": "After Eber was born, Salah lived another 403 years and had other sons and daughters."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Eber lived four and thirty years, and begat Peleg:",
+      "ct": "When Eber was 34 years old, he became the father of Peleg."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Eber lived after he begat Peleg four hundred and thirty years, and begat sons and daughters.",
+      "ct": "After Peleg was born, Eber lived another 430 years and had other sons and daughters."
+    },
+    {
+      "verse": 18,
+      "kjv": "And Peleg lived thirty years, and begat Reu:",
+      "ct": "When Peleg was 30 years old, he became the father of Reu."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Peleg lived after he begat Reu two hundred and nine years, and begat sons and daughters.",
+      "ct": "After Reu was born, Peleg lived another 209 years and had other sons and daughters."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Reu lived two and thirty years, and begat Serug:",
+      "ct": "When Reu was 32 years old, he became the father of Serug."
+    },
+    {
+      "verse": 21,
+      "kjv": "And Reu lived after he begat Serug two hundred and seven years, and begat sons and daughters.",
+      "ct": "After Serug was born, Reu lived another 207 years and had other sons and daughters."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Serug lived thirty years, and begat Nahor:",
+      "ct": "When Serug was 30 years old, he became the father of Nahor."
+    },
+    {
+      "verse": 23,
+      "kjv": "And Serug lived after he begat Nahor two hundred years, and begat sons and daughters.",
+      "ct": "After Nahor was born, Serug lived another 200 years and had other sons and daughters."
+    },
+    {
+      "verse": 24,
+      "kjv": "And Nahor lived nine and twenty years, and begat Terah:",
+      "ct": "When Nahor was 29 years old, he became the father of Terah."
+    },
+    {
+      "verse": 25,
+      "kjv": "And Nahor lived after he begat Terah an hundred and nineteen years, and begat sons and daughters.",
+      "ct": "After Terah was born, Nahor lived another 119 years and had other sons and daughters."
+    },
+    {
+      "verse": 26,
+      "kjv": "And Terah lived seventy years, and begat Abram, Nahor, and Haran.",
+      "ct": "When Terah was 70 years old, he became the father of Abram, Nahor, and Haran."
+    },
+    {
+      "verse": 27,
+      "kjv": "Now these are the generations of Terah: Terah begat Abram, Nahor, and Haran; and Haran begat Lot.",
+      "ct": "This is the family history of Terah: Terah became the father of Abram, Nahor, and Haran. Haran became the father of Lot."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Haran died before his father Terah in the land of his nativity, in Ur of the Chaldees.",
+      "ct": "Haran died during his father Terah's lifetime, in the land where he was born — in Ur of the Chaldees."
+    },
+    {
+      "verse": 29,
+      "kjv": "And Abram and Nahor took them wives: the name of Abram’s wife was Sarai; and the name of Nahor’s wife, Milcah, the daughter of Haran, the father of Milcah, and the father of Iscah.",
+      "ct": "Both Abram and Nahor got married. Abram's wife was named Sarai, and Nahor's wife was named Milcah. Milcah was the daughter of Haran, who was also the father of Iscah."
+    },
+    {
+      "verse": 30,
+      "kjv": "But Sarai was barren; she had no child.",
+      "ct": "Sarai, however, was unable to have children; she had no child."
+    },
+    {
+      "verse": 31,
+      "kjv": "And Terah took Abram his son, and Lot the son of Haran his son’s son, and Sarai his daughter in law, his son Abram’s wife; and they went forth with them from Ur of the Chaldees, to go into the land of Canaan; and they came unto Haran, and dwelt there.",
+      "ct": "Terah took his son Abram, his grandson Lot (Haran's son), and his daughter-in-law Sarai (Abram's wife), and they all left Ur of the Chaldees, heading for the land of Canaan. But when they reached Haran, they settled there instead."
+    },
+    {
+      "verse": 32,
+      "kjv": "And the days of Terah were two hundred and five years: and Terah died in Haran.",
+      "ct": "Terah lived to be 205 years old, and he died in Haran."
+    }
+  ]
+}
