@@ -1,0 +1,90 @@
+{
+  "book": "genesis",
+  "book_name": "Genesis",
+  "chapter": 16,
+  "translation": "ct",
+  "generated_at": "2026-02-19T11:11:20.156Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now Sarai Abram’s wife bare him no children: and she had an handmaid, an Egyptian, whose name was Hagar.",
+      "ct": "Sarai, Abram's wife, had not given him any children. She had an Egyptian servant woman named Hagar."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Sarai said unto Abram, Behold now, the LORD hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her. And Abram hearkened to the voice of Sarai.",
+      "ct": "Sarai told Abram, \"Look, the LORD has kept me from having children. Please sleep with my servant. Perhaps I can have a family through her.\" Abram agreed to what Sarai said."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Sarai Abram’s wife took Hagar her maid the Egyptian, after Abram had dwelt ten years in the land of Canaan, and gave her to her husband Abram to be his wife.",
+      "ct": "So after Abram had been living in the land of Canaan for ten years, his wife Sarai took her Egyptian servant Hagar and gave her to Abram as a wife."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he went in unto Hagar, and she conceived: and when she saw that she had conceived, her mistress was despised in her eyes.",
+      "ct": "He slept with Hagar, and she became pregnant. Once she realized she was pregnant, she began to look down on her mistress."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Sarai said unto Abram, My wrong be upon thee: I have given my maid into thy bosom; and when she saw that she had conceived, I was despised in her eyes: the LORD judge between me and thee.",
+      "ct": "Sarai said to Abram, \"This wrong against me is your fault! I placed my servant in your arms, and now that she knows she is pregnant, she treats me with contempt. Let the LORD decide between you and me.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "But Abram said unto Sarai, Behold, thy maid is in thy hand; do to her as it pleaseth thee. And when Sarai dealt hardly with her, she fled from her face.",
+      "ct": "Abram replied to Sarai, \"Your servant is under your authority. Do whatever you think is right with her.\" So Sarai treated her harshly, and Hagar ran away from her."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the angel of the LORD found her by a fountain of water in the wilderness, by the fountain in the way to Shur.",
+      "ct": "The angel of the LORD discovered her beside a spring of water in the wilderness, the spring along the road to Shur."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he said, Hagar, Sarai’s maid, whence camest thou? and whither wilt thou go? And she said, I flee from the face of my mistress Sarai.",
+      "ct": "He asked, \"Hagar, servant of Sarai, where have you come from, and where are you going?\" She answered, \"I am running away from my mistress Sarai.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the angel of the LORD said unto her, Return to thy mistress, and submit thyself under her hands.",
+      "ct": "The angel of the LORD told her, \"Go back to your mistress and place yourself under her authority.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the angel of the LORD said unto her, I will multiply thy seed exceedingly, that it shall not be numbered for multitude.",
+      "ct": "The angel of the LORD also told her, \"I will make your descendants so numerous that no one will be able to count them.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And the angel of the LORD said unto her, Behold, thou art with child, and shalt bear a son, and shalt call his name Ishmael; because the LORD hath heard thy affliction.",
+      "ct": "The angel of the LORD continued, \"You are pregnant and will give birth to a son. You are to name him Ishmael, because the LORD has heard your suffering.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And he will be a wild man; his hand will be against every man, and every man’s hand against him; and he shall dwell in the presence of all his brethren.",
+      "ct": "He will be a wild man. His hand will be against every man, and every man's hand will be against him. He will live alongside all his brothers.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And she called the name of the LORD that spake unto her, Thou God seest me: for she said, Have I also here looked after him that seeth me?",
+      "ct": "She gave a name to the LORD who had spoken to her, saying, \"You are the God who sees me,\" for she said, \"Have I truly seen the one who sees me?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Wherefore the well was called Beerlahairoi; behold, it is between Kadesh and Bered.",
+      "ct": "That is why the well was named Beerlahairoi. It is located between Kadesh and Bered."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Hagar bare Abram a son: and Abram called his son’s name, which Hagar bare, Ishmael.",
+      "ct": "Hagar gave birth to a son for Abram, and Abram gave the boy the name Ishmael."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Abram was fourscore and six years old, when Hagar bare Ishmael to Abram.",
+      "ct": "Abram was eighty-six years old when Hagar bore Ishmael to him."
+    }
+  ]
+}

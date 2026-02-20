@@ -1,0 +1,170 @@
+{
+  "book": "genesis",
+  "book_name": "Genesis",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-19T11:02:41.213Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "This is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him;",
+      "ct": "This is the written record of Adam's family line. When God created human beings, he made them to look like himself."
+    },
+    {
+      "verse": 2,
+      "kjv": "Male and female created he them; and blessed them, and called their name Adam, in the day when they were created.",
+      "ct": "He created them male and female, blessed them, and called them humans."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Adam lived an hundred and thirty years, and begat a son in his own likeness, after his image; and called his name Seth:",
+      "ct": "When Adam was 130 years old, he had a son who looked just like him, and he named him Seth."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the days of Adam after he had begotten Seth were eight hundred years: and he begat sons and daughters:",
+      "ct": "After Seth was born, Adam lived another 800 years and had other sons and daughters."
+    },
+    {
+      "verse": 5,
+      "kjv": "And all the days that Adam lived were nine hundred and thirty years: and he died.",
+      "ct": "Adam lived a total of 930 years, and then he died."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Seth lived an hundred and five years, and begat Enos:",
+      "ct": "When Seth was 105 years old, he had a son named Enosh."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Seth lived after he begat Enos eight hundred and seven years, and begat sons and daughters:",
+      "ct": "After Enosh was born, Seth lived another 807 years and had other sons and daughters."
+    },
+    {
+      "verse": 8,
+      "kjv": "And all the days of Seth were nine hundred and twelve years: and he died.",
+      "ct": "Seth lived a total of 912 years, and then he died."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Enos lived ninety years, and begat Cainan:",
+      "ct": "When Enosh was 90 years old, he had a son named Kenan."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Enos lived after he begat Cainan eight hundred and fifteen years, and begat sons and daughters:",
+      "ct": "After Kenan was born, Enosh lived another 815 years and had other sons and daughters."
+    },
+    {
+      "verse": 11,
+      "kjv": "And all the days of Enos were nine hundred and five years: and he died.",
+      "ct": "Enosh lived a total of 905 years, and then he died."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Cainan lived seventy years, and begat Mahalaleel:",
+      "ct": "When Kenan was 70 years old, he had a son named Mahalalel."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Cainan lived after he begat Mahalaleel eight hundred and forty years, and begat sons and daughters:",
+      "ct": "After Mahalalel was born, Kenan lived another 840 years and had other sons and daughters."
+    },
+    {
+      "verse": 14,
+      "kjv": "And all the days of Cainan were nine hundred and ten years: and he died.",
+      "ct": "Kenan lived a total of 910 years, and then he died."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Mahalaleel lived sixty and five years, and begat Jared:",
+      "ct": "When Mahalalel was 65 years old, he had a son named Jared."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Mahalaleel lived after he begat Jared eight hundred and thirty years, and begat sons and daughters:",
+      "ct": "After Jared was born, Mahalalel lived another 830 years and had other sons and daughters."
+    },
+    {
+      "verse": 17,
+      "kjv": "And all the days of Mahalaleel were eight hundred ninety and five years: and he died.",
+      "ct": "Mahalalel lived a total of 895 years, and then he died."
+    },
+    {
+      "verse": 18,
+      "kjv": "And Jared lived an hundred sixty and two years, and he begat Enoch:",
+      "ct": "When Jared was 162 years old, he had a son named Enoch."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Jared lived after he begat Enoch eight hundred years, and begat sons and daughters:",
+      "ct": "After Enoch was born, Jared lived another 800 years and had other sons and daughters."
+    },
+    {
+      "verse": 20,
+      "kjv": "And all the days of Jared were nine hundred sixty and two years: and he died.",
+      "ct": "Jared lived a total of 962 years, and then he died."
+    },
+    {
+      "verse": 21,
+      "kjv": "And Enoch lived sixty and five years, and begat Methuselah:",
+      "ct": "When Enoch was 65 years old, he had a son named Methuselah."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Enoch walked with God after he begat Methuselah three hundred years, and begat sons and daughters:",
+      "ct": "After Methuselah was born, Enoch walked closely with God for another 300 years and had other sons and daughters."
+    },
+    {
+      "verse": 23,
+      "kjv": "And all the days of Enoch were three hundred sixty and five years:",
+      "ct": "Enoch lived a total of 365 years."
+    },
+    {
+      "verse": 24,
+      "kjv": "And Enoch walked with God: and he was not; for God took him.",
+      "ct": "Enoch walked so closely with God that one day he simply vanished — God took him."
+    },
+    {
+      "verse": 25,
+      "kjv": "And Methuselah lived an hundred eighty and seven years, and begat Lamech:",
+      "ct": "When Methuselah was 187 years old, he had a son named Lamech."
+    },
+    {
+      "verse": 26,
+      "kjv": "And Methuselah lived after he begat Lamech seven hundred eighty and two years, and begat sons and daughters:",
+      "ct": "After Lamech was born, Methuselah lived another 782 years and had other sons and daughters."
+    },
+    {
+      "verse": 27,
+      "kjv": "And all the days of Methuselah were nine hundred sixty and nine years: and he died.",
+      "ct": "Methuselah lived a total of 969 years, and then he died."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Lamech lived an hundred eighty and two years, and begat a son:",
+      "ct": "When Lamech was 182 years old, he had a son."
+    },
+    {
+      "verse": 29,
+      "kjv": "And he called his name Noah, saying, This same shall comfort us concerning our work and toil of our hands, because of the ground which the LORD hath cursed.",
+      "ct": "He named him Noah and said, \"This boy will bring us relief from the hard work and pain of farming the ground that the LORD cursed.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And Lamech lived after he begat Noah five hundred ninety and five years, and begat sons and daughters:",
+      "ct": "After Noah was born, Lamech lived another 595 years and had other sons and daughters."
+    },
+    {
+      "verse": 31,
+      "kjv": "And all the days of Lamech were seven hundred seventy and seven years: and he died.",
+      "ct": "Lamech lived a total of 777 years, and then he died."
+    },
+    {
+      "verse": 32,
+      "kjv": "And Noah was five hundred years old: and Noah begat Shem, Ham, and Japheth.",
+      "ct": "After Noah turned 500 years old, he became the father of Shem, Ham, and Japheth."
+    }
+  ]
+}

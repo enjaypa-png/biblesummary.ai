@@ -1,0 +1,200 @@
+{
+  "book": "genesis",
+  "book_name": "Genesis",
+  "chapter": 19,
+  "translation": "ct",
+  "generated_at": "2026-02-19T11:12:32.981Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And there came two angels to Sodom at even; and Lot sat in the gate of Sodom: and Lot seeing them rose up to meet them; and he bowed himself with his face toward the ground;",
+      "ct": "Two angels arrived at Sodom in the evening. Lot was sitting at the city gate, and when he saw them, he got up to greet them and bowed with his face to the ground."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he said, Behold now, my lords, turn in, I pray you, into your servant’s house, and tarry all night, and wash your feet, and ye shall rise up early, and go on your ways. And they said, Nay; but we will abide in the street all night.",
+      "ct": "He said, \"Please, my lords, come to your servant's house, spend the night, and wash your feet. Then you can get up early and continue on your journey.\" They replied, \"No, we will stay in the open square for the night.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And he pressed upon them greatly; and they turned in unto him, and entered into his house; and he made them a feast, and did bake unleavened bread, and they did eat.",
+      "ct": "But he urged them so strongly that they went with him and entered his house. He prepared a meal for them and baked unleavened bread, and they ate."
+    },
+    {
+      "verse": 4,
+      "kjv": "But before they lay down, the men of the city, even the men of Sodom, compassed the house round, both old and young, all the people from every quarter:",
+      "ct": "Before they had gone to bed, the men of the city — the men of Sodom — surrounded the house, both young and old, from every part of the city."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they called unto Lot, and said unto him, Where are the men which came in to thee this night? bring them out unto us, that we may know them.",
+      "ct": "They shouted to Lot, \"Where are the men who came to stay with you tonight? Bring them out to us so we can have sex with them.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Lot went out at the door unto them, and shut the door after him,",
+      "ct": "Lot stepped outside through the doorway to speak with them and closed the door behind him."
+    },
+    {
+      "verse": 7,
+      "kjv": "And said, I pray you, brethren, do not so wickedly.",
+      "ct": "He said, \"Please, my brothers, do not do such a wicked thing.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Behold now, I have two daughters which have not known man; let me, I pray you, bring them out unto you, and do ye to them as is good in your eyes: only unto these men do nothing; for therefore came they under the shadow of my roof.",
+      "ct": "\"Look, I have two daughters who have never been with a man. Let me bring them out to you, and you can do whatever you want with them. But do nothing to these men, because they have come under the protection of my roof.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And they said, Stand back. And they said again, This one fellow came in to sojourn, and he will needs be a judge: now will we deal worse with thee, than with them. And they pressed sore upon the man, even Lot, and came near to break the door.",
+      "ct": "They responded, \"Get out of the way!\" They also said, \"This foreigner came here to live among us, and now he wants to act as our judge! We will treat you even worse than them.\" They pushed hard against Lot and moved forward to smash the door."
+    },
+    {
+      "verse": 10,
+      "kjv": "But the men put forth their hand, and pulled Lot into the house to them, and shut to the door.",
+      "ct": "But the men inside reached out, pulled Lot back into the house with them, and shut the door."
+    },
+    {
+      "verse": 11,
+      "kjv": "And they smote the men that were at the door of the house with blindness, both small and great: so that they wearied themselves to find the door.",
+      "ct": "Then they struck the men outside the doorway with blindness, from the least to the greatest, so that they exhausted themselves trying to find the entrance."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the men said unto Lot, Hast thou here any besides? son in law, and thy sons, and thy daughters, and whatsoever thou hast in the city, bring them out of this place:",
+      "ct": "The two men asked Lot, \"Do you have anyone else here — sons-in-law, sons, daughters, or anyone else belonging to you in the city? Get them out of this place.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "For we will destroy this place, because the cry of them is waxen great before the face of the LORD; and the LORD hath sent us to destroy it.",
+      "ct": "\"We are about to destroy this place, because the outcry against its people has grown so great before the LORD that the LORD has sent us to destroy it.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And Lot went out, and spake unto his sons in law, which married his daughters, and said, Up, get you out of this place; for the LORD will destroy this city. But he seemed as one that mocked unto his sons in law.",
+      "ct": "So Lot went out and spoke to the men who were engaged to his daughters. He said, \"Hurry and leave this place, because the LORD is about to destroy this city!\" But his sons-in-law thought he was joking."
+    },
+    {
+      "verse": 15,
+      "kjv": "And when the morning arose, then the angels hastened Lot, saying, Arise, take thy wife, and thy two daughters, which are here; lest thou be consumed in the iniquity of the city.",
+      "ct": "At dawn, the angels urged Lot to hurry, saying, \"Get up! Take your wife and your two daughters who are here, or you will be swept away in the punishment of this city.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And while he lingered, the men laid hold upon his hand, and upon the hand of his wife, and upon the hand of his two daughters; the LORD being merciful unto him: and they brought him forth, and set him without the city.",
+      "ct": "When he hesitated, the men grabbed his hand, his wife's hand, and the hands of his two daughters — because the LORD was merciful to him — and they led them safely outside the city."
+    },
+    {
+      "verse": 17,
+      "kjv": "And it came to pass, when they had brought them forth abroad, that he said, Escape for thy life; look not behind thee, neither stay thou in all the plain; escape to the mountain, lest thou be consumed.",
+      "ct": "Once they had brought them out, one of them said, \"Run for your life! Do not look behind you, and do not stop anywhere on the plain. Flee to the mountains, or you will be destroyed.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And Lot said unto them, Oh, not so, my LORD:",
+      "ct": "But Lot said to them, \"No, please, my Lord!\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Behold now, thy servant hath found grace in thy sight, and thou hast magnified thy mercy, which thou hast shewed unto me in saving my life; and I cannot escape to the mountain, lest some evil take me, and I die:",
+      "ct": "\"Your servant has found grace in your sight, and you have shown me great mercy by sparing my life. But I cannot flee to the mountains — disaster might overtake me there, and I will die.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Behold now, this city is near to flee unto, and it is a little one: Oh, let me escape thither, (is it not a little one?) and my soul shall live.",
+      "ct": "\"Look, there is a small town nearby that I could escape to. It is just a little place. Please let me flee there — is it not a small town? — and my soul shall live.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And he said unto him, See, I have accepted thee concerning this thing also, that I will not overthrow this city, for the which thou hast spoken.",
+      "ct": "He replied, \"Very well, I grant you this request as well. I will not overthrow the town you have mentioned.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Haste thee, escape thither; for I cannot do anything till thou be come thither. Therefore the name of the city was called Zoar.",
+      "ct": "\"Hurry! Escape there quickly, because I cannot do anything until you arrive there.\" That is why the town was named Zoar."
+    },
+    {
+      "verse": 23,
+      "kjv": "The sun was risen upon the earth when Lot entered into Zoar.",
+      "ct": "The sun had risen over the land by the time Lot reached Zoar."
+    },
+    {
+      "verse": 24,
+      "kjv": "Then the LORD rained upon Sodom and upon Gomorrah brimstone and fire from the LORD out of heaven;",
+      "ct": "Then the LORD rained down burning sulfur and fire on Sodom and Gomorrah — from the LORD out of heaven."
+    },
+    {
+      "verse": 25,
+      "kjv": "And he overthrew those cities, and all the plain, and all the inhabitants of the cities, and that which grew upon the ground.",
+      "ct": "He overthrew those cities, the entire plain, all the people living in the cities, and everything growing on the ground."
+    },
+    {
+      "verse": 26,
+      "kjv": "But his wife looked back from behind him, and she became a pillar of salt.",
+      "ct": "But Lot's wife, who was behind him, looked back, and she turned into a pillar of salt."
+    },
+    {
+      "verse": 27,
+      "kjv": "And Abraham gat up early in the morning to the place where he stood before the LORD:",
+      "ct": "Abraham got up early that morning and went to the place where he had stood before the LORD."
+    },
+    {
+      "verse": 28,
+      "kjv": "And he looked toward Sodom and Gomorrah, and toward all the land of the plain, and beheld, and, lo, the smoke of the country went up as the smoke of a furnace.",
+      "ct": "He gazed out toward Sodom and Gomorrah and across the whole plain, and he saw thick smoke rising from the land like smoke from a furnace."
+    },
+    {
+      "verse": 29,
+      "kjv": "And it came to pass, when God destroyed the cities of the plain, that God remembered Abraham, and sent Lot out of the midst of the overthrow, when he overthrew the cities in the which Lot dwelt.",
+      "ct": "So when God destroyed the cities of the plain, God remembered Abraham and brought Lot out safely from the devastation when he overthrew the cities where Lot had been living."
+    },
+    {
+      "verse": 30,
+      "kjv": "And Lot went up out of Zoar, and dwelt in the mountain, and his two daughters with him; for he feared to dwell in Zoar: and he dwelt in a cave, he and his two daughters.",
+      "ct": "Lot left Zoar and settled in the mountains with his two daughters, because he was afraid to remain in Zoar. He and his two daughters lived in a cave."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the firstborn said unto the younger, Our father is old, and there is not a man in the earth to come in unto us after the manner of all the earth:",
+      "ct": "The older daughter said to the younger, \"Our father is getting old, and there is no man anywhere around to be with us in the normal way.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "Come, let us make our father drink wine, and we will lie with him, that we may preserve seed of our father.",
+      "ct": "\"Let us get our father to drink wine, and then we will sleep with him so that we can preserve our father's family line.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And they made their father drink wine that night: and the firstborn went in, and lay with her father; and he perceived not when she lay down, nor when she arose.",
+      "ct": "That night they got their father to drink wine, and the older daughter went in and slept with her father. He was not aware when she lay down or when she got up."
+    },
+    {
+      "verse": 34,
+      "kjv": "And it came to pass on the morrow, that the firstborn said unto the younger, Behold, I lay yesternight with my father: let us make him drink wine this night also; and go thou in, and lie with him, that we may preserve seed of our father.",
+      "ct": "The next day the older daughter said to the younger, \"Last night I slept with our father. Let us get him to drink wine again tonight, and you go in and sleep with him so we can preserve our father's family line.\""
+    },
+    {
+      "verse": 35,
+      "kjv": "And they made their father drink wine that night also: and the younger arose, and lay with him; and he perceived not when she lay down, nor when she arose.",
+      "ct": "So that night too they got their father to drink wine, and the younger daughter went and slept with him. Again, he was not aware when she lay down or when she got up."
+    },
+    {
+      "verse": 36,
+      "kjv": "Thus were both the daughters of Lot with child by their father.",
+      "ct": "In this way, both of Lot's daughters became pregnant by their father."
+    },
+    {
+      "verse": 37,
+      "kjv": "And the first born bare a son, and called his name Moab: the same is the father of the Moabites unto this day.",
+      "ct": "The older daughter gave birth to a son and named him Moab. He is the ancestor of the Moabites to this day."
+    },
+    {
+      "verse": 38,
+      "kjv": "And the younger, she also bare a son, and called his name Benammi: the same is the father of the children of Ammon unto this day.",
+      "ct": "The younger daughter also gave birth to a son and named him Benammi. He is the ancestor of the children of Ammon to this day."
+    }
+  ]
+}
