@@ -126,6 +126,39 @@ const FIXES: VerseFix[] = [
     reason: 'Audit: "be clean" changed to "be healed" — should match KJV wording',
     ct: 'But his servants approached him and said, "Sir, if the prophet had told you to do something difficult, wouldn\'t you have done it? How much easier is it when he simply tells you, \'Wash, and be clean\'?"'
   },
+  // ─── Exodus 11–20 Audit fixes (2026-02-20) ────────────────────────────────
+  {
+    ref: 'Exodus 12:41',
+    book_slug: 'exodus',
+    chapter: 12,
+    verse: 41,
+    reason: 'Audit: "hosts of the LORD" conveys organized army, not just "people"',
+    ct: 'At the end of exactly 430 years, on that very same day, all the armies of the LORD marched out of the land of Egypt.'
+  },
+  {
+    ref: 'Exodus 12:51',
+    book_slug: 'exodus',
+    chapter: 12,
+    verse: 51,
+    reason: 'Audit: "organized by their tribal divisions" is interpretation — KJV says "by their armies"',
+    ct: 'On that very day, the LORD brought the Israelites out of the land of Egypt according to their armies.'
+  },
+  {
+    ref: 'Exodus 15:2',
+    book_slug: 'exodus',
+    chapter: 15,
+    verse: 2,
+    reason: 'Audit: "build a dwelling place" is clunky — "praise him" captures the intent more naturally',
+    ct: 'The LORD is my strength and my song, and he has become my salvation. He is my God, and I will praise him; he is the God of my father, and I will lift him up in praise.'
+  },
+  {
+    ref: 'Exodus 18:21',
+    book_slug: 'exodus',
+    chapter: 18,
+    verse: 21,
+    reason: 'Audit: "wholeheartedly dedicated to God" is interpretive — "God-fearing" is direct and well understood',
+    ct: 'Beyond that, select capable people from among all the Israelites \u2014 God-fearing people who are trustworthy and who despise dishonest profit. Appoint them as leaders over groups of 1,000, 100, 50, and 10.'
+  },
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
