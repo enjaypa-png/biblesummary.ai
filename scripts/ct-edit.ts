@@ -92,15 +92,47 @@ const FIXES: VerseFix[] = [
     reason: '"find" is more natural than "discover"',
     ct: 'A woman of noble character — who can find one? Her worth is far above rubies.'
   },
-  // ─── Add more fixes below this line ─────────────────────────────────────
-  // {
-  //   ref: 'Book Chapter:Verse',
-  //   book_slug: 'book-slug',
-  //   chapter: 1,
-  //   verse: 1,
-  //   reason: 'Why this needs fixing',
-  //   ct: 'The corrected text here.'
-  // },
+  // ─── Exodus 21–40 CT Audit Corrections (Feb 2026) ───────────────────────
+  {
+    ref: 'Exodus 25:5',
+    book_slug: 'exodus',
+    chapter: 25,
+    verse: 5,
+    reason: 'Audit: "fine leather" is too generic for Hebrew tahaš — "durable leather" is more precise',
+    ct: 'ram skins dyed red, durable leather, and acacia wood,'
+  },
+  {
+    ref: 'Exodus 32:25',
+    book_slug: 'exodus',
+    chapter: 32,
+    verse: 25,
+    reason: 'Audit: improve nuance — "running wild" and "disgrace" better reflect the public shame of Hebrew pāraʿ',
+    ct: 'Moses saw that the people were running wild — Aaron had let them get out of control, making them a disgrace to their enemies.'
+  },
+  {
+    ref: 'Exodus 34:28',
+    book_slug: 'exodus',
+    chapter: 34,
+    verse: 28,
+    reason: 'Audit (accuracy): Exodus 34:1 makes clear God wrote the tablets, not Moses — CT must clarify the subject',
+    ct: 'Moses was there with the LORD for 40 days and 40 nights, and during that time he did not eat bread or drink water. Then the LORD wrote the words of the covenant — the 10 commandments — on the tablets.'
+  },
+  {
+    ref: 'Exodus 38:8',
+    book_slug: 'exodus',
+    chapter: 38,
+    verse: 8,
+    reason: 'Audit: "contributed" flows more naturally than "donated" in this context',
+    ct: 'He made the bronze basin and its bronze stand from the mirrors contributed by the women who served at the entrance of the tent of meeting.'
+  },
+  {
+    ref: 'Exodus 39:34',
+    book_slug: 'exodus',
+    chapter: 39,
+    verse: 34,
+    reason: 'Audit: consistency with Exodus 25:5 — "fine leather" → "durable leather" for tahaš',
+    ct: 'the covering of ram skins dyed red, the covering of durable leather, and the inner curtain;'
+  },
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
