@@ -94,9 +94,9 @@ can understand exactly what it means.
 ### Fear of God
 | KJV Phrase | CT Translation |
 |-----------|---------------|
-| "fear God" / "fear the LORD" | "be wholeheartedly dedicated to God/the LORD" or "deeply revere God/the LORD" |
-| "the fear of the LORD" | "wholehearted dedication to the LORD" or "deep reverence for the LORD" |
-| "God-fearing" | "devoted to God" or "wholeheartedly dedicated to God" |
+| "fear God" / "fear the LORD" | "fears God/the LORD" or "reveres God/the LORD" |
+| "the fear of the LORD" | "reverence for the LORD" or "the fear of the LORD" |
+| "God-fearing" | "devoted to God" or "God-fearing" |
 
 ## Words to Modernize
 
@@ -183,8 +183,8 @@ When the original repeats a word for emphasis, preserve the repetition:
 | He delivered mine enemies into mine hand. | He gave me victory over my enemies. |
 | And Adam knew Eve his wife. | Adam had relations with his wife Eve. |
 | Turn not thy face from me, O LORD. | Don't withdraw your favor from me, LORD. |
-| The fear of the LORD is the beginning of wisdom. | Wholehearted dedication to the LORD is the beginning of wisdom. |
-| Noah was a just man, and one that feared God. | Noah was a good man who was wholeheartedly dedicated to God. |
+| The fear of the LORD is the beginning of wisdom. | Reverence for the LORD is the beginning of wisdom. |
+| Noah was a just man, and one that feared God. | Noah was a good man who feared God. |
 
 ## Review Checklist
 

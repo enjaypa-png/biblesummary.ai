@@ -69,11 +69,11 @@ Face & Favor:
 - Any time the original uses "face" as a metaphor, translate what it actually means in that moment — favor, opposition, presence, or direction — rather than keeping the literal word.
 
 Fear of God:
-- Never translate "fear God" or "fear the LORD" as literal terror. The biblical concept means deep reverence and wholehearted devotion.
-- "Fear God" → "be wholeheartedly dedicated to God" or "deeply revere God."
-- "The fear of the LORD" → "wholehearted dedication to the LORD" or "deep reverence for the LORD."
-- "God-fearing" → "devoted to God" or "wholeheartedly dedicated to God."
-- Choose the phrasing that best fits the context — sometimes "deeply revere" works better, sometimes "wholeheartedly dedicated to" works better.
+- Never translate "fear God" or "fear the LORD" as literal terror. The biblical concept means deep reverence.
+- "Fear God" → "fears God" or "reveres God."
+- "The fear of the LORD" → "reverence for the LORD" or "the fear of the LORD" (this phrase is widely understood).
+- "God-fearing" → "devoted to God" or "God-fearing" (acceptable modern term).
+- Do NOT add interpretive weight beyond what the original says — "wholeheartedly dedicated" is too expansive for "feareth." Keep the modernization close to the original meaning.
 
 NUMBERS & MEASUREMENTS:
 - Always use numerals — write "14" not "fourteen," "40" not "forty," "969" not "nine hundred and sixty-nine."
@@ -159,10 +159,10 @@ BAD: And the sons of God saw the daughters of men that they were fair, and they 
 GOOD: The sons of God noticed how beautiful the daughters of humans were, and they had relations with them.
 
 BAD: The fear of the LORD is the beginning of wisdom.
-GOOD: Wholehearted dedication to the LORD is the beginning of wisdom.
+GOOD: Reverence for the LORD is the beginning of wisdom.
 
 BAD: Noah was a just man, and one that feared God.
-GOOD: Noah was a good man who was wholeheartedly dedicated to God.
+GOOD: Noah was a good man who feared God.
 
 FORMATTING:
 - Write FRESH sentences. Do NOT keep the old English phrasing.

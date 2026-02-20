@@ -92,15 +92,39 @@ const FIXES: VerseFix[] = [
     reason: '"find" is more natural than "discover"',
     ct: 'A woman of noble character — who can find one? Her worth is far above rubies.'
   },
-  // ─── Add more fixes below this line ─────────────────────────────────────
-  // {
-  //   ref: 'Book Chapter:Verse',
-  //   book_slug: 'book-slug',
-  //   chapter: 1,
-  //   verse: 1,
-  //   reason: 'Why this needs fixing',
-  //   ct: 'The corrected text here.'
-  // },
+  // ─── CT Audit fixes (2026-02-20) ────────────────────────────────────────
+  {
+    ref: 'Isaiah 53:3',
+    book_slug: 'isaiah',
+    chapter: 53,
+    verse: 3,
+    reason: 'Audit: "turned away in disgust" adds interpretation not present in KJV',
+    ct: 'He was looked down on and turned away by people — a man defined by suffering, deeply familiar with pain. We turned our faces away from him; he was despised, and we considered him worthless.'
+  },
+  {
+    ref: 'Proverbs 31:30',
+    book_slug: 'proverbs',
+    chapter: 31,
+    verse: 30,
+    reason: 'Audit: "wholeheartedly dedicated" adds interpretation not in KJV "feareth the LORD"',
+    ct: 'Charm can be misleading, and beauty fades away, but a woman who fears the LORD — she will be praised.'
+  },
+  {
+    ref: '1 Samuel 17:45',
+    book_slug: '1-samuel',
+    chapter: 17,
+    verse: 45,
+    reason: 'Audit: "javelin" should be "shield" to match KJV',
+    ct: 'David answered the Philistine, "You come at me with a sword, a spear, and a shield, but I come at you in the name of the LORD of Armies, the God of Israel\'s forces — the one you have mocked."'
+  },
+  {
+    ref: '2 Kings 5:13',
+    book_slug: '2-kings',
+    chapter: 5,
+    verse: 13,
+    reason: 'Audit: "be clean" changed to "be healed" — should match KJV wording',
+    ct: 'But his servants approached him and said, "Sir, if the prophet had told you to do something difficult, wouldn\'t you have done it? How much easier is it when he simply tells you, \'Wash, and be clean\'?"'
+  },
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
