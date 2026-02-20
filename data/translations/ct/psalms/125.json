@@ -1,0 +1,35 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 125,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.019Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "They that trust in the LORD shall be as mount Zion, which cannot be removed, but abideth for ever.",
+      "ct": "Those who put their trust in the LORD are like Mount Zion — it cannot be shaken and stands forever."
+    },
+    {
+      "verse": 2,
+      "kjv": "As the mountains are round about Jerusalem, so the LORD is round about his people from henceforth even for ever.",
+      "ct": "Just as mountains surround Jerusalem, the LORD surrounds his people, now and for all time."
+    },
+    {
+      "verse": 3,
+      "kjv": "For the rod of the wicked shall not rest upon the lot of the righteous; lest the righteous put forth their hands unto iniquity.",
+      "ct": "The rule of the wicked will not remain over the land given to the righteous, so that the righteous won't be driven to do evil themselves."
+    },
+    {
+      "verse": 4,
+      "kjv": "Do good, O LORD, unto those that be good, and to them that are upright in their hearts.",
+      "ct": "LORD, treat good people well — those whose hearts are honest and true."
+    },
+    {
+      "verse": 5,
+      "kjv": "As for such as turn aside unto their crooked ways, the LORD shall lead them forth with the workers of iniquity: but peace shall be upon Israel.",
+      "ct": "But those who turn down dishonest paths — the LORD will drive them out along with all who practice evil. May peace rest on Israel."
+    }
+  ]
+}

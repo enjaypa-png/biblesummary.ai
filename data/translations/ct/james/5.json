@@ -1,0 +1,110 @@
+{
+  "book": "james",
+  "book_name": "James",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.478Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Go to now, ye rich men, weep and howl for your miseries that shall come upon you.",
+      "ct": "Listen up, you wealthy people — cry and wail over the suffering that is heading your way."
+    },
+    {
+      "verse": 2,
+      "kjv": "Your riches are corrupted, and your garments are motheaten.",
+      "ct": "Your wealth has rotted away, and your clothes have been eaten by moths."
+    },
+    {
+      "verse": 3,
+      "kjv": "Your gold and silver is cankered; and the rust of them shall be a witness against you, and shall eat your flesh as it were fire. Ye have heaped treasure together for the last days.",
+      "ct": "Your gold and silver have corroded, and that corrosion will stand as evidence against you and consume your flesh like fire. You have stockpiled riches in these final days."
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, the hire of the labourers who have reaped down your fields, which is of you kept back by fraud, crieth: and the cries of them which have reaped are entered into the ears of the Lord of sabaoth.",
+      "ct": "Pay attention — the wages you withheld from the workers who harvested your fields are crying out against you. The desperate pleas of those harvesters have reached the ears of the Lord of Armies."
+    },
+    {
+      "verse": 5,
+      "kjv": "Ye have lived in pleasure on the earth, and been wanton; ye have nourished your hearts, as in a day of slaughter.",
+      "ct": "You have spent your time on earth in luxury and self-indulgence. You have fattened yourselves up as if it were the day of slaughter."
+    },
+    {
+      "verse": 6,
+      "kjv": "Ye have condemned and killed the just; and he doth not resist you.",
+      "ct": "You have condemned and murdered innocent people, and they did not fight back against you."
+    },
+    {
+      "verse": 7,
+      "kjv": "Be patient therefore, brethren, unto the coming of the Lord. Behold, the husbandman waiteth for the precious fruit of the earth, and hath long patience for it, until he receive the early and latter rain.",
+      "ct": "So be patient, brothers and sisters, until the Lord returns. Think about how a farmer waits for the valuable crop from the ground, staying patient through the early and late rains."
+    },
+    {
+      "verse": 8,
+      "kjv": "Be ye also patient; stablish your hearts: for the coming of the Lord draweth nigh.",
+      "ct": "You also must be patient. Strengthen your resolve, because the Lord's return is near."
+    },
+    {
+      "verse": 9,
+      "kjv": "Grudge not one against another, brethren, lest ye be condemned: behold, the judge standeth before the door.",
+      "ct": "Don't complain against each other, brothers and sisters, or you will be judged. Look — the Judge is standing right at the door."
+    },
+    {
+      "verse": 10,
+      "kjv": "Take, my brethren, the prophets, who have spoken in the name of the Lord, for an example of suffering affliction, and of patience.",
+      "ct": "Brothers and sisters, consider the prophets who spoke in the name of the Lord as your examples of how to endure hardship with patience."
+    },
+    {
+      "verse": 11,
+      "kjv": "Behold, we count them happy which endure. Ye have heard of the patience of Job, and have seen the end of the Lord; that the Lord is very pitiful, and of tender mercy.",
+      "ct": "We consider those who persevered to be truly blessed. You've heard about Job's endurance, and you've seen what the Lord ultimately brought about for him — because the Lord is deeply compassionate and full of tender mercy."
+    },
+    {
+      "verse": 12,
+      "kjv": "But above all things, my brethren, swear not, neither by heaven, neither by the earth, neither by any other oath: but let your yea be yea; and your nay, nay; lest ye fall into condemnation.",
+      "ct": "Most importantly, brothers and sisters, do not swear oaths — not by heaven, not by the earth, not by anything else. Simply let your \"yes\" mean yes and your \"no\" mean no, so that you don't fall under judgment."
+    },
+    {
+      "verse": 13,
+      "kjv": "Is any among you afflicted? let him pray. Is any merry? let him sing psalms.",
+      "ct": "Is anyone among you going through hard times? That person should pray. Is anyone feeling joyful? That person should sing songs of praise."
+    },
+    {
+      "verse": 14,
+      "kjv": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord:",
+      "ct": "Is anyone among you sick? That person should send for the elders of the church, and they should pray over the sick person, anointing them with oil in the name of the Lord."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him.",
+      "ct": "The prayer offered in faith will restore the sick person, and the Lord will raise them up. If they have committed sins, those sins will be forgiven."
+    },
+    {
+      "verse": 16,
+      "kjv": "Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much.",
+      "ct": "So openly admit your sins to one another and pray for each other so that you may be healed. The earnest prayer of a righteous person is powerful and effective."
+    },
+    {
+      "verse": 17,
+      "kjv": "Elias was a man subject to like passions as we are, and he prayed earnestly that it might not rain: and it rained not on the earth by the space of three years and six months.",
+      "ct": "Elijah was a human being with the same struggles we have, yet he prayed intensely that it would not rain — and no rain fell on the land for 3 years and 6 months."
+    },
+    {
+      "verse": 18,
+      "kjv": "And he prayed again, and the heaven gave rain, and the earth brought forth her fruit.",
+      "ct": "Then he prayed again, and the heaven produced rain, and the earth yielded its crops."
+    },
+    {
+      "verse": 19,
+      "kjv": "Brethren, if any of you do err from the truth, and one convert him;",
+      "ct": "Brothers and sisters, if any of you wanders away from the truth and someone brings that person back,"
+    },
+    {
+      "verse": 20,
+      "kjv": "Let him know, that he which converteth the sinner from the error of his way shall save a soul from death, and shall hide a multitude of sins.",
+      "ct": "understand this: whoever turns a sinner away from their wrong path will rescue a soul from death and cover over a huge number of sins."
+    }
+  ]
+}

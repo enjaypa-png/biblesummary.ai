@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 14,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.948Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The fool hath said in his heart, There is no God. They are corrupt, they have done abominable works, there is none that doeth good.",
+      "ct": "Fools tell themselves, \"There is no God.\" They are morally ruined, and their actions are disgusting. Not a single one of them does what is right."
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD looked down from heaven upon the children of men, to see if there were any that did understand, and seek God.",
+      "ct": "The LORD gazed down from heaven on the human race to see if anyone truly understood and was searching for God."
+    },
+    {
+      "verse": 3,
+      "kjv": "They are all gone aside, they are all together become filthy: there is none that doeth good, no, not one.",
+      "ct": "Every one of them has turned away; together they have become worthless. Not a single person does what is right — not even one."
+    },
+    {
+      "verse": 4,
+      "kjv": "Have all the workers of iniquity no knowledge? who eat up my people as they eat bread, and call not upon the LORD.",
+      "ct": "Will those who practice evil never learn? They devour my people the way someone devours bread, and they never call on the LORD."
+    },
+    {
+      "verse": 5,
+      "kjv": "There were they in great fear: for God is in the generation of the righteous.",
+      "ct": "But then they were overwhelmed with dread, because God stands with the generation of those who live rightly."
+    },
+    {
+      "verse": 6,
+      "kjv": "Ye have shamed the counsel of the poor, because the LORD is his refuge.",
+      "ct": "You mock the plans of the oppressed, but the LORD is their shelter."
+    },
+    {
+      "verse": 7,
+      "kjv": "Oh that the salvation of Israel were come out of Zion! when the LORD bringeth back the captivity of his people, Jacob shall rejoice, and Israel shall be glad.",
+      "ct": "If only salvation for Israel would come from Zion! When the LORD restores the fortunes of his people, Jacob will celebrate and Israel will be filled with joy."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "book": "joshua",
+  "book_name": "Joshua",
+  "chapter": 20,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.675Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The LORD also spake unto Joshua, saying,",
+      "ct": "The LORD spoke to Joshua and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak to the children of Israel, saying, Appoint out for you cities of refuge, whereof I spake unto you by the hand of Moses:",
+      "ct": "\"Tell the people of Israel: Designate the cities of refuge that I instructed you about through Moses."
+    },
+    {
+      "verse": 3,
+      "kjv": "That the slayer that killeth any person unawares and unwittingly may flee thither: and they shall be your refuge from the avenger of blood.",
+      "ct": "Anyone who kills a person accidentally and without intent can escape to one of these cities. They will serve as your protection from the one seeking to avenge the victim's death."
+    },
+    {
+      "verse": 4,
+      "kjv": "And when he that doth flee unto one of those cities shall stand at the entering of the gate of the city, and shall declare his cause in the ears of the elders of that city, they shall take him into the city unto them, and give him a place, that he may dwell among them.",
+      "ct": "When someone flees to one of these cities, he must stop at the entrance of the city gate and explain his situation to the city's elders. They must then welcome him into the city and provide him with a place to live among them."
+    },
+    {
+      "verse": 5,
+      "kjv": "And if the avenger of blood pursue after him, then they shall not deliver the slayer up into his hand; because he smote his neighbour unwittingly, and hated him not beforetime.",
+      "ct": "If the one seeking to avenge the death comes after him, the elders must not hand the killer over, because he struck his neighbor accidentally and had no prior hatred toward him."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he shall dwell in that city, until he stand before the congregation for judgment, and until the death of the high priest that shall be in those days: then shall the slayer return, and come unto his own city, and unto his own house, unto the city from whence he fled.",
+      "ct": "He must remain in that city until he has stood trial before the community assembly, and until the high priest serving at that time has died. After that, the one who killed may go back to his own town and his own home — the city he originally fled from.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And they appointed Kedesh in Galilee in mount Naphtali, and Shechem in mount Ephraim, and Kirjatharba, which is Hebron, in the mountain of Judah.",
+      "ct": "So they designated Kedesh in Galilee in the hill country of Naphtali, Shechem in the hill country of Ephraim, and Kirjatharba (that is, Hebron) in the hill country of Judah."
+    },
+    {
+      "verse": 8,
+      "kjv": "And on the other side Jordan by Jericho eastward, they assigned Bezer in the wilderness upon the plain out of the tribe of Reuben, and Ramoth in Gilead out of the tribe of Gad, and Golan in Bashan out of the tribe of Manasseh.",
+      "ct": "On the east side of the Jordan near Jericho, they designated Bezer on the wilderness plateau from the tribe of Reuben, Ramoth in Gilead from the tribe of Gad, and Golan in Bashan from the tribe of Manasseh."
+    },
+    {
+      "verse": 9,
+      "kjv": "These were the cities appointed for all the children of Israel, and for the stranger that sojourneth among them, that whosoever killeth any person at unawares might flee thither, and not die by the hand of the avenger of blood, until he stood before the congregation.",
+      "ct": "These were the designated cities for all the people of Israel, as well as for any foreigners living among them, so that whoever killed a person accidentally could flee there and not be put to death by the one seeking to avenge the victim's blood, before standing trial before the community assembly."
+    }
+  ]
+}

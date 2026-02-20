@@ -1,0 +1,135 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 2,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.788Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, when the LORD would take up Elijah into heaven by a whirlwind, that Elijah went with Elisha from Gilgal.",
+      "ct": "When the time came for the LORD to take Elijah up into heaven in a whirlwind, Elijah and Elisha were traveling from Gilgal."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Elijah said unto Elisha, Tarry here, I pray thee; for the LORD hath sent me to Bethel. And Elisha said unto him, As the LORD liveth, and as thy soul liveth, I will not leave thee. So they went down to Bethel.",
+      "ct": "Elijah said to Elisha, \"Stay here, please — the LORD has sent me to Bethel.\" But Elisha replied, \"As surely as the LORD lives and as you yourself live, I will not leave you.\" So the two of them went down to Bethel."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the sons of the prophets that were at Bethel came forth to Elisha, and said unto him, Knowest thou that the LORD will take away thy master from thy head to day? And he said, Yea, I know it; hold ye your peace.",
+      "ct": "The company of prophets at Bethel came out to Elisha and asked him, \"Do you realize that the LORD is going to take your master away from you today?\" He answered, \"Yes, I know. Be quiet about it.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Elijah said unto him, Elisha, tarry here, I pray thee; for the LORD hath sent me to Jericho. And he said, As the LORD liveth, and as thy soul liveth, I will not leave thee. So they came to Jericho.",
+      "ct": "Then Elijah told him, \"Elisha, please stay here — the LORD has sent me to Jericho.\" But Elisha replied, \"As surely as the LORD lives and as you yourself live, I will not leave you.\" So they traveled to Jericho."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the sons of the prophets that were at Jericho came to Elisha, and said unto him, Knowest thou that the LORD will take away thy master from thy head to day? And he answered, Yea, I know it; hold ye your peace.",
+      "ct": "The company of prophets at Jericho approached Elisha and asked him, \"Do you realize that the LORD is going to take your master away from you today?\" He answered, \"Yes, I know. Be quiet about it.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Elijah said unto him, Tarry, I pray thee, here; for the LORD hath sent me to Jordan. And he said, As the LORD liveth, and as thy soul liveth, I will not leave thee. And they two went on.",
+      "ct": "Then Elijah said to him, \"Please stay here — the LORD has sent me to the Jordan.\" But Elisha replied, \"As surely as the LORD lives and as you yourself live, I will not leave you.\" So the two of them continued on."
+    },
+    {
+      "verse": 7,
+      "kjv": "And fifty men of the sons of the prophets went, and stood to view afar off: and they two stood by Jordan.",
+      "ct": "50 men from the company of prophets followed and stood watching from a distance, while Elijah and Elisha stopped at the Jordan River."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Elijah took his mantle, and wrapped it together, and smote the waters, and they were divided hither and thither, so that they two went over on dry ground.",
+      "ct": "Elijah took his cloak, rolled it up, and struck the water with it. The water divided to the left and right, and the two of them crossed over on dry ground."
+    },
+    {
+      "verse": 9,
+      "kjv": "And it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall do for thee, before I be taken away from thee. And Elisha said, I pray thee, let a double portion of thy spirit be upon me.",
+      "ct": "After they had crossed, Elijah said to Elisha, \"Tell me what I can do for you before I am taken away from you.\" Elisha answered, \"Please let me inherit a double portion of your spirit.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And he said, Thou hast asked a hard thing: nevertheless, if thou see me when I am taken from thee, it shall be so unto thee; but if not, it shall not be so.",
+      "ct": "Elijah replied, \"That's a difficult request. However, if you see me as I am taken from you, it will be granted. But if you don't see it, then it won't.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And it came to pass, as they still went on, and talked, that, behold, there appeared a chariot of fire, and horses of fire, and parted them both asunder; and Elijah went up by a whirlwind into heaven.",
+      "ct": "As they were walking along and talking together, suddenly a chariot of fire pulled by horses of fire appeared and separated the two of them. Then Elijah was carried up into heaven by a whirlwind."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Elisha saw it, and he cried, My father, my father, the chariot of Israel, and the horsemen thereof. And he saw him no more: and he took hold of his own clothes, and rent them in two pieces.",
+      "ct": "Elisha watched and cried out, \"My father! My father! The chariots and horsemen of Israel!\" When he could no longer see Elijah, he grabbed his own clothes and tore them in two."
+    },
+    {
+      "verse": 13,
+      "kjv": "He took up also the mantle of Elijah that fell from him, and went back, and stood by the bank of Jordan;",
+      "ct": "Then he picked up Elijah's cloak that had fallen from him, went back, and stood on the bank of the Jordan."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he took the mantle of Elijah that fell from him, and smote the waters, and said, Where is the LORD God of Elijah? and when he also had smitten the waters, they parted hither and thither: and Elisha went over.",
+      "ct": "He took Elijah's cloak that had fallen from him and struck the water with it, saying, \"Where is the LORD, the God of Elijah?\" When he struck the water, it divided to the left and right, and Elisha crossed over."
+    },
+    {
+      "verse": 15,
+      "kjv": "And when the sons of the prophets which were to view at Jericho saw him, they said, The spirit of Elijah doth rest on Elisha. And they came to meet him, and bowed themselves to the ground before him.",
+      "ct": "When the company of prophets from Jericho who had been watching saw him, they said, \"The spirit of Elijah rests on Elisha!\" They went to meet him and bowed down to the ground in front of him."
+    },
+    {
+      "verse": 16,
+      "kjv": "And they said unto him, Behold now, there be with thy servants fifty strong men; let them go, we pray thee, and seek thy master: lest peradventure the Spirit of the LORD hath taken him up, and cast him upon some mountain, or into some valley. And he said, Ye shall not send.",
+      "ct": "They said to him, \"Look, we have 50 strong men among your servants. Let them go search for your master. Maybe the Spirit of the LORD picked him up and dropped him on some mountain or in some valley.\" But Elisha said, \"Don't send anyone.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And when they urged him till he was ashamed, he said, Send. They sent therefore fifty men; and they sought three days, but found him not.",
+      "ct": "They kept pressing him until he felt he couldn't refuse, so he said, \"Fine, send them.\" They sent 50 men who searched for 3 days but never found Elijah."
+    },
+    {
+      "verse": 18,
+      "kjv": "And when they came again to him, (for he tarried at Jericho,) he said unto them, Did I not say unto you, Go not?",
+      "ct": "When they returned to Elisha, who had stayed in Jericho, he said to them, \"Didn't I tell you not to go?\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And the men of the city said unto Elisha, Behold, I pray thee, the situation of this city is pleasant, as my lord seeth: but the water is naught, and the ground barren.",
+      "ct": "The people of the city said to Elisha, \"Sir, as you can see, this city has a wonderful location, but the water is bad and the land doesn't produce crops.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And he said, Bring me a new cruse, and put salt therein. And they brought it to him.",
+      "ct": "He said, \"Bring me a new bowl and put salt in it.\" So they brought it to him."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he went forth unto the spring of the waters, and cast the salt in there, and said, Thus saith the LORD, I have healed these waters; there shall not be from thence any more death or barren land.",
+      "ct": "Then he went out to the spring where the water flowed, threw the salt into it, and declared, \"This is what the LORD says: I have purified this water. It will no longer cause death or make the land unable to produce.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "So the waters were healed unto this day, according to the saying of Elisha which he spake.",
+      "ct": "The water has remained pure to this day, just as Elisha said it would."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he went up from thence unto Bethel: and as he was going up by the way, there came forth little children out of the city, and mocked him, and said unto him, Go up, thou bald head; go up, thou bald head.",
+      "ct": "From there he headed up to Bethel. While he was walking along the road, a group of young people came out of the city and started mocking him, shouting, \"Get out of here, baldy! Get out of here, baldy!\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And he turned back, and looked on them, and cursed them in the name of the LORD. And there came forth two she bears out of the wood, and tare forty and two children of them.",
+      "ct": "He turned around, looked at them, and pronounced a curse on them in the name of the LORD. Then 2 female bears came out of the woods and mauled 42 of them."
+    },
+    {
+      "verse": 25,
+      "kjv": "And he went from thence to mount Carmel, and from thence he returned to Samaria.",
+      "ct": "From there he traveled to Mount Carmel, and then he returned to Samaria."
+    }
+  ]
+}

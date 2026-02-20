@@ -1,0 +1,75 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 85,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.992Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Lord, thou hast been favourable unto thy land: thou hast brought back the captivity of Jacob.",
+      "ct": "LORD, you have shown kindness to your land; you have restored the fortunes of Jacob."
+    },
+    {
+      "verse": 2,
+      "kjv": "Thou hast forgiven the iniquity of thy people, thou hast covered all their sin. Selah.",
+      "ct": "You have forgiven the guilt of your people and covered all their sin. Selah."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thou hast taken away all thy wrath: thou hast turned thyself from the fierceness of thine anger.",
+      "ct": "You have set aside all your wrath; you have pulled back from your burning anger."
+    },
+    {
+      "verse": 4,
+      "kjv": "Turn us, O God of our salvation, and cause thine anger toward us to cease.",
+      "ct": "Restore us, God of our salvation, and let your anger toward us come to an end."
+    },
+    {
+      "verse": 5,
+      "kjv": "Wilt thou be angry with us for ever? wilt thou draw out thine anger to all generations?",
+      "ct": "Will you stay angry with us forever? Will your anger stretch on through every generation?"
+    },
+    {
+      "verse": 6,
+      "kjv": "Wilt thou not revive us again: that thy people may rejoice in thee?",
+      "ct": "Won't you bring us back to life again, so that your people can celebrate in you?"
+    },
+    {
+      "verse": 7,
+      "kjv": "Shew us thy mercy, O LORD, and grant us thy salvation.",
+      "ct": "Show us your mercy, LORD, and give us your salvation."
+    },
+    {
+      "verse": 8,
+      "kjv": "I will hear what God the LORD will speak: for he will speak peace unto his people, and to his saints: but let them not turn again to folly.",
+      "ct": "I will listen to what God the LORD has to say, because he will speak peace to his people and to his faithful ones — but they must not return to foolishness."
+    },
+    {
+      "verse": 9,
+      "kjv": "Surely his salvation is nigh them that fear him; that glory may dwell in our land.",
+      "ct": "Surely his salvation is near to those who deeply revere him, so that glory may settle in our land."
+    },
+    {
+      "verse": 10,
+      "kjv": "Mercy and truth are met together; righteousness and peace have kissed each other.",
+      "ct": "Mercy and truth have come together; righteousness and peace have embraced each other."
+    },
+    {
+      "verse": 11,
+      "kjv": "Truth shall spring out of the earth; and righteousness shall look down from heaven.",
+      "ct": "Truth will sprout up from the earth, and righteousness will look down from heaven."
+    },
+    {
+      "verse": 12,
+      "kjv": "Yea, the LORD shall give that which is good; and our land shall yield her increase.",
+      "ct": "The LORD will indeed provide what is good, and our land will produce its harvest."
+    },
+    {
+      "verse": 13,
+      "kjv": "Righteousness shall go before him; and shall set us in the way of his steps.",
+      "ct": "Righteousness will go ahead of him and will prepare the path for his steps."
+    }
+  ]
+}

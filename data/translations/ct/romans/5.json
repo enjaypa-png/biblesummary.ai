@@ -1,0 +1,115 @@
+{
+  "book": "romans",
+  "book_name": "Romans",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.404Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:",
+      "ct": "So since we have been made right with God through faith, we have peace with God through our Lord Jesus Christ."
+    },
+    {
+      "verse": 2,
+      "kjv": "By whom also we have access by faith into this grace wherein we stand, and rejoice in hope of the glory of God.",
+      "ct": "Through him we have also gained access by faith into this grace where we now stand, and we celebrate in the hope of sharing God's glory."
+    },
+    {
+      "verse": 3,
+      "kjv": "And not only so, but we glory in tribulations also: knowing that tribulation worketh patience;",
+      "ct": "Not only that, but we also take pride in our sufferings, because we know that suffering produces endurance,"
+    },
+    {
+      "verse": 4,
+      "kjv": "And patience, experience; and experience, hope:",
+      "ct": "and endurance produces proven character, and proven character produces hope."
+    },
+    {
+      "verse": 5,
+      "kjv": "And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.",
+      "ct": "This hope never disappoints us, because God's love has been poured into our hearts through the Holy Spirit, who has been given to us."
+    },
+    {
+      "verse": 6,
+      "kjv": "For when we were yet without strength, in due time Christ died for the ungodly.",
+      "ct": "You see, while we were still powerless, at just the right time Christ died for ungodly people."
+    },
+    {
+      "verse": 7,
+      "kjv": "For scarcely for a righteous man will one die: yet peradventure for a good man some would even dare to die.",
+      "ct": "It's rare for someone to die even for a righteous person — though maybe for a truly good person someone might actually be willing to die."
+    },
+    {
+      "verse": 8,
+      "kjv": "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.",
+      "ct": "But God demonstrates his love for us in this: while we were still sinners, Christ died for us."
+    },
+    {
+      "verse": 9,
+      "kjv": "Much more then, being now justified by his blood, we shall be saved from wrath through him.",
+      "ct": "How much more, then, since we have now been made right with God by his blood, will we be rescued from God's wrath through him."
+    },
+    {
+      "verse": 10,
+      "kjv": "For if, when we were enemies, we were reconciled to God by the death of his Son, much more, being reconciled, we shall be saved by his life.",
+      "ct": "Because if we were reconciled to God through the death of his Son while we were still his enemies, how much more, now that we are reconciled, will we be saved through his life."
+    },
+    {
+      "verse": 11,
+      "kjv": "And not only so, but we also joy in God through our Lord Jesus Christ, by whom we have now received the atonement.",
+      "ct": "Not only that, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received this reconciliation."
+    },
+    {
+      "verse": 12,
+      "kjv": "Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned:",
+      "ct": "That is why, just as sin entered the world through one man, and death came through sin, death spread to every person, because everyone has sinned."
+    },
+    {
+      "verse": 13,
+      "kjv": "(For until the law sin was in the world: but sin is not imputed when there is no law.",
+      "ct": "(Sin was already present in the world before the law was given, but sin isn't counted against anyone when there is no law."
+    },
+    {
+      "verse": 14,
+      "kjv": "Nevertheless death reigned from Adam to Moses, even over them that had not sinned after the similitude of Adam’s transgression, who is the figure of him that was to come.",
+      "ct": "Yet death still ruled from Adam all the way to Moses, even over those who didn't sin in the same way Adam did by breaking a direct command. Adam serves as a pattern pointing to the one who was coming."
+    },
+    {
+      "verse": 15,
+      "kjv": "But not as the offence, so also is the free gift. For if through the offence of one many be dead, much more the grace of God, and the gift by grace, which is by one man, Jesus Christ, hath abounded unto many.",
+      "ct": "But the free gift is nothing like the offense. For if the many died because of one man's offense, how much more has God's grace — and the gift that comes through the grace of one man, Jesus Christ — overflowed to the many."
+    },
+    {
+      "verse": 16,
+      "kjv": "And not as it was by one that sinned, so is the gift: for the judgment was by one to condemnation, but the free gift is of many offences unto justification.",
+      "ct": "The gift is also not like the result of one man's sin. The judgment that followed one sin led to condemnation, but the free gift that followed many offenses led to being made right with God."
+    },
+    {
+      "verse": 17,
+      "kjv": "For if by one man’s offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.)",
+      "ct": "For if death ruled because of one man's offense through that one man, how much more will those who receive the overflow of grace and the gift of righteousness rule in life through the one man, Jesus Christ.)"
+    },
+    {
+      "verse": 18,
+      "kjv": "Therefore as by the offence of one judgment came upon all men to condemnation; even so by the righteousness of one the free gift came upon all men unto justification of life.",
+      "ct": "So then, just as one offense brought condemnation for all people, so also one act of righteousness brought the free gift of being made right with God and receiving life for all people."
+    },
+    {
+      "verse": 19,
+      "kjv": "For as by one man’s disobedience many were made sinners, so by the obedience of one shall many be made righteous.",
+      "ct": "For just as through one man's disobedience the many were made sinners, so through one man's obedience the many will be made righteous."
+    },
+    {
+      "verse": 20,
+      "kjv": "Moreover the law entered, that the offence might abound. But where sin abounded, grace did much more abound:",
+      "ct": "The law came along so that the offense would increase. But where sin increased, grace overflowed even more,"
+    },
+    {
+      "verse": 21,
+      "kjv": "That as sin hath reigned unto death, even so might grace reign through righteousness unto eternal life by Jesus Christ our Lord.",
+      "ct": "so that just as sin ruled through death, grace would also rule through righteousness, leading to eternal life through Jesus Christ our Lord."
+    }
+  ]
+}

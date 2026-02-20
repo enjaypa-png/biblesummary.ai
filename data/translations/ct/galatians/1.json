@@ -1,0 +1,130 @@
+{
+  "book": "galatians",
+  "book_name": "Galatians",
+  "chapter": 1,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.434Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Paul, an apostle, (not of men, neither by man, but by Jesus Christ, and God the Father, who raised him from the dead;)",
+      "ct": "Paul, an apostle — not appointed by any human authority or through any person, but through Jesus Christ and God the Father, who raised him from the dead —"
+    },
+    {
+      "verse": 2,
+      "kjv": "And all the brethren which are with me, unto the churches of Galatia:",
+      "ct": "along with all the brothers and sisters here with me, to the churches of Galatia:"
+    },
+    {
+      "verse": 3,
+      "kjv": "Grace be to you and peace from God the Father, and from our Lord Jesus Christ,",
+      "ct": "May grace and peace be yours from God the Father and our Lord Jesus Christ,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Who gave himself for our sins, that he might deliver us from this present evil world, according to the will of God and our Father:",
+      "ct": "who offered himself for our sins to rescue us from this current evil age, according to the will of our God and Father —"
+    },
+    {
+      "verse": 5,
+      "kjv": "To whom be glory for ever and ever. Amen.",
+      "ct": "to whom be glory forever and ever. Amen."
+    },
+    {
+      "verse": 6,
+      "kjv": "I marvel that ye are so soon removed from him that called you into the grace of Christ unto another gospel:",
+      "ct": "I'm shocked that you are so quickly abandoning the one who called you by the grace of Christ and turning to a different gospel."
+    },
+    {
+      "verse": 7,
+      "kjv": "Which is not another; but there be some that trouble you, and would pervert the gospel of Christ.",
+      "ct": "Not that there actually is another gospel — but certain people are disturbing you and trying to distort the gospel of Christ."
+    },
+    {
+      "verse": 8,
+      "kjv": "But though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, let him be accursed.",
+      "ct": "Even if we ourselves, or an angel from heaven, should announce to you a gospel different from what we originally announced to you, let that person be cursed."
+    },
+    {
+      "verse": 9,
+      "kjv": "As we said before, so say I now again, If any man preach any other gospel unto you than that ye have received, let him be accursed.",
+      "ct": "As we've already said, I'm saying it once more: if anyone announces to you a gospel different from what you already accepted, let that person be cursed."
+    },
+    {
+      "verse": 10,
+      "kjv": "For do I now persuade men, or God? or do I seek to please men? for if I yet pleased men, I should not be the servant of Christ.",
+      "ct": "Am I trying to win the approval of people, or of God? Am I trying to make people happy? If I were still trying to please people, I would not be a servant of Christ."
+    },
+    {
+      "verse": 11,
+      "kjv": "But I certify you, brethren, that the gospel which was preached of me is not after man.",
+      "ct": "I want you to know, brothers and sisters, that the gospel I announced to you did not originate from any human source."
+    },
+    {
+      "verse": 12,
+      "kjv": "For I neither received it of man, neither was I taught it, but by the revelation of Jesus Christ.",
+      "ct": "I didn't receive it from any person, and no one taught it to me. Instead, it came through a revelation from Jesus Christ."
+    },
+    {
+      "verse": 13,
+      "kjv": "For ye have heard of my conversation in time past in the Jews’ religion, how that beyond measure I persecuted the church of God, and wasted it:",
+      "ct": "You've certainly heard about my former way of life in Judaism — how I relentlessly persecuted God's church and tried to destroy it."
+    },
+    {
+      "verse": 14,
+      "kjv": "And profited in the Jews’ religion above many my equals in mine own nation, being more exceedingly zealous of the traditions of my fathers.",
+      "ct": "I was advancing in Judaism beyond many of my peers in my own nation, being far more passionate about the traditions handed down from my ancestors."
+    },
+    {
+      "verse": 15,
+      "kjv": "But when it pleased God, who separated me from my mother’s womb, and called me by his grace,",
+      "ct": "But God, who set me apart even before I was born and called me through his grace, was pleased"
+    },
+    {
+      "verse": 16,
+      "kjv": "To reveal his Son in me, that I might preach him among the heathen; immediately I conferred not with flesh and blood:",
+      "ct": "to reveal his Son to me so that I could proclaim him among the non-Jewish nations. When that happened, I didn't immediately consult with any human being."
+    },
+    {
+      "verse": 17,
+      "kjv": "Neither went I up to Jerusalem to them which were apostles before me; but I went into Arabia, and returned again unto Damascus.",
+      "ct": "I also didn't go up to Jerusalem to meet with those who were apostles before me. Instead, I went away to Arabia and later returned to Damascus."
+    },
+    {
+      "verse": 18,
+      "kjv": "Then after three years I went up to Jerusalem to see Peter, and abode with him fifteen days.",
+      "ct": "Then, 3 years later, I went up to Jerusalem to get to know Peter, and I stayed with him for 15 days."
+    },
+    {
+      "verse": 19,
+      "kjv": "But other of the apostles saw I none, save James the Lord’s brother.",
+      "ct": "I didn't see any of the other apostles — only James, the Lord's brother."
+    },
+    {
+      "verse": 20,
+      "kjv": "Now the things which I write unto you, behold, before God, I lie not.",
+      "ct": "I assure you in God's presence that what I'm writing to you is not a lie."
+    },
+    {
+      "verse": 21,
+      "kjv": "Afterwards I came into the regions of Syria and Cilicia;",
+      "ct": "After that, I traveled to the regions of Syria and Cilicia."
+    },
+    {
+      "verse": 22,
+      "kjv": "And was unknown by face unto the churches of Judaea which were in Christ:",
+      "ct": "The churches in Judea that are in Christ had never met me in person."
+    },
+    {
+      "verse": 23,
+      "kjv": "But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed.",
+      "ct": "They had only heard others say, 'The man who used to persecute us is now proclaiming the very faith he once tried to destroy.'"
+    },
+    {
+      "verse": 24,
+      "kjv": "And they glorified God in me.",
+      "ct": "And they praised God because of me."
+    }
+  ]
+}

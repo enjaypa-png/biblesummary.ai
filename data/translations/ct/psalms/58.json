@@ -1,0 +1,65 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 58,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.973Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Do ye indeed speak righteousness, O congregation? do ye judge uprightly, O ye sons of men?",
+      "ct": "Do you really speak what is right, you rulers? Do you judge people fairly, you human beings?"
+    },
+    {
+      "verse": 2,
+      "kjv": "Yea, in heart ye work wickedness; ye weigh the violence of your hands in the earth.",
+      "ct": "No — in your hearts you plot evil, and your hands deal out violence across the earth."
+    },
+    {
+      "verse": 3,
+      "kjv": "The wicked are estranged from the womb: they go astray as soon as they be born, speaking lies.",
+      "ct": "The wicked have been off course since birth; from the moment they were born, they have wandered away, telling lies."
+    },
+    {
+      "verse": 4,
+      "kjv": "Their poison is like the poison of a serpent: they are like the deaf adder that stoppeth her ear;",
+      "ct": "Their venom is like the venom of a snake — they are like a cobra that plugs its ears,"
+    },
+    {
+      "verse": 5,
+      "kjv": "Which will not hearken to the voice of charmers, charming never so wisely.",
+      "ct": "refusing to listen to the snake charmer, no matter how skillful the charmer may be."
+    },
+    {
+      "verse": 6,
+      "kjv": "Break their teeth, O God, in their mouth: break out the great teeth of the young lions, O LORD.",
+      "ct": "God, shatter the teeth in their mouths! LORD, rip out the fangs of these young lions!"
+    },
+    {
+      "verse": 7,
+      "kjv": "Let them melt away as waters which run continually: when he bendeth his bow to shoot his arrows, let them be as cut in pieces.",
+      "ct": "Let them disappear like water that drains away. When they draw their bows, let their arrows be snapped in pieces."
+    },
+    {
+      "verse": 8,
+      "kjv": "As a snail which melteth, let every one of them pass away: like the untimely birth of a woman, that they may not see the sun.",
+      "ct": "Let them dissolve like a slug that shrivels as it moves. Like a stillborn child, let them never see the light of day."
+    },
+    {
+      "verse": 9,
+      "kjv": "Before your pots can feel the thorns, he shall take them away as with a whirlwind, both living, and in his wrath.",
+      "ct": "Before your cooking pots can even feel the heat of burning thorns, God will sweep them away like a whirlwind — the living and the raging alike."
+    },
+    {
+      "verse": 10,
+      "kjv": "The righteous shall rejoice when he seeth the vengeance: he shall wash his feet in the blood of the wicked.",
+      "ct": "The righteous will celebrate when they witness justice carried out; they will wade through the blood of the wicked."
+    },
+    {
+      "verse": 11,
+      "kjv": "So that a man shall say, Verily there is a reward for the righteous: verily he is a God that judgeth in the earth.",
+      "ct": "Then people will say, 'Truly, there is a reward for those who do right. Truly, there is a God who brings justice on the earth.'"
+    }
+  ]
+}

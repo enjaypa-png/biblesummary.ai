@@ -1,0 +1,40 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 23,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.953Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The LORD is my shepherd; I shall not want.",
+      "ct": "The LORD is my shepherd; I have everything I need."
+    },
+    {
+      "verse": 2,
+      "kjv": "He maketh me to lie down in green pastures: he leadeth me beside the still waters.",
+      "ct": "He lets me rest in lush meadows and guides me along peaceful streams."
+    },
+    {
+      "verse": 3,
+      "kjv": "He restoreth my soul: he leadeth me in the paths of righteousness for his name’s sake.",
+      "ct": "He renews my soul. He leads me down the right paths for the honor of his name."
+    },
+    {
+      "verse": 4,
+      "kjv": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.",
+      "ct": "Even when I walk through the darkest valley, I won't be afraid of any danger, because you are right there with me. Your rod and your staff give me comfort."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.",
+      "ct": "You spread a feast for me while my enemies look on. You pour oil on my head, and my cup overflows."
+    },
+    {
+      "verse": 6,
+      "kjv": "Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.",
+      "ct": "Without a doubt, goodness and mercy will stay with me every day of my life, and I will live in the house of the LORD forever."
+    }
+  ]
+}

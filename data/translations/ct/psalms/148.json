@@ -1,0 +1,80 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 148,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.031Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Praise ye the LORD. Praise ye the LORD from the heavens: praise him in the heights.",
+      "ct": "Praise the LORD! Give praise to the LORD from the heavens — praise him from the highest places."
+    },
+    {
+      "verse": 2,
+      "kjv": "Praise ye him, all his angels: praise ye him, all his hosts.",
+      "ct": "Praise him, all his angels — praise him, all his heavenly armies."
+    },
+    {
+      "verse": 3,
+      "kjv": "Praise ye him, sun and moon: praise him, all ye stars of light.",
+      "ct": "Praise him, sun and moon — praise him, every shining star."
+    },
+    {
+      "verse": 4,
+      "kjv": "Praise him, ye heavens of heavens, and ye waters that be above the heavens.",
+      "ct": "Praise him, you highest heavens, and you waters above the heavens."
+    },
+    {
+      "verse": 5,
+      "kjv": "Let them praise the name of the LORD: for he commanded, and they were created.",
+      "ct": "Let them all praise the name of the LORD, because he gave the command and they were created."
+    },
+    {
+      "verse": 6,
+      "kjv": "He hath also stablished them for ever and ever: he hath made a decree which shall not pass.",
+      "ct": "He established them forever and ever — he set a law that will never be broken."
+    },
+    {
+      "verse": 7,
+      "kjv": "Praise the LORD from the earth, ye dragons, and all deeps:",
+      "ct": "Praise the LORD from the earth, you great sea creatures and all ocean depths,"
+    },
+    {
+      "verse": 8,
+      "kjv": "Fire, and hail; snow, and vapours; stormy wind fulfilling his word:",
+      "ct": "lightning and hail, snow and clouds, powerful winds that carry out his command,"
+    },
+    {
+      "verse": 9,
+      "kjv": "Mountains, and all hills; fruitful trees, and all cedars:",
+      "ct": "mountains and every hill, fruit trees and every cedar,"
+    },
+    {
+      "verse": 10,
+      "kjv": "Beasts, and all cattle; creeping things, and flying fowl:",
+      "ct": "wild animals and all livestock, creatures that crawl and birds that fly,"
+    },
+    {
+      "verse": 11,
+      "kjv": "Kings of the earth, and all people; princes, and all judges of the earth:",
+      "ct": "rulers of the earth and every nation, leaders and all who govern the earth,"
+    },
+    {
+      "verse": 12,
+      "kjv": "Both young men, and maidens; old men, and children:",
+      "ct": "young men and young women alike, the elderly and children together —"
+    },
+    {
+      "verse": 13,
+      "kjv": "Let them praise the name of the LORD: for his name alone is excellent; his glory is above the earth and heaven.",
+      "ct": "let them all praise the name of the LORD, because his name alone is supreme. His glory rises above the earth and heaven."
+    },
+    {
+      "verse": 14,
+      "kjv": "He also exalteth the horn of his people, the praise of all his saints; even of the children of Israel, a people near unto him. Praise ye the LORD.",
+      "ct": "He has raised up strength for his people — the praise of all who are devoted to him — for the people of Israel, a people close to him. Praise the LORD!"
+    }
+  ]
+}

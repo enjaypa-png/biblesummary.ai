@@ -1,0 +1,245 @@
+{
+  "book": "john",
+  "book_name": "John",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.357Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "After this there was a feast of the Jews; and Jesus went up to Jerusalem.",
+      "ct": "Some time later, there was a Jewish festival, and Jesus traveled up to Jerusalem."
+    },
+    {
+      "verse": 2,
+      "kjv": "Now there is at Jerusalem by the sheep market a pool, which is called in the Hebrew tongue Bethesda, having five porches.",
+      "ct": "In Jerusalem, near the Sheep Gate, there is a pool called Bethesda in Hebrew, surrounded by 5 covered walkways."
+    },
+    {
+      "verse": 3,
+      "kjv": "In these lay a great multitude of impotent folk, of blind, halt, withered, waiting for the moving of the water.",
+      "ct": "Crowds of sick people lay in these walkways — blind, lame, and paralyzed — waiting for the water to stir."
+    },
+    {
+      "verse": 4,
+      "kjv": "For an angel went down at a certain season into the pool, and troubled the water: whosoever then first after the troubling of the water stepped in was made whole of whatsoever disease he had.",
+      "ct": "From time to time, an angel would come down and disturb the water. The first person to get into the pool after the water was stirred would be healed of whatever illness they had."
+    },
+    {
+      "verse": 5,
+      "kjv": "And a certain man was there, which had an infirmity thirty and eight years.",
+      "ct": "One man there had been suffering from his condition for 38 years."
+    },
+    {
+      "verse": 6,
+      "kjv": "When Jesus saw him lie, and knew that he had been now a long time in that case, he saith unto him, Wilt thou be made whole?",
+      "ct": "When Jesus noticed him lying there and realized he had been in this condition for a very long time, he asked him, \"Do you want to get well?\""
+    },
+    {
+      "verse": 7,
+      "kjv": "The impotent man answered him, Sir, I have no man, when the water is troubled, to put me into the pool: but while I am coming, another steppeth down before me.",
+      "ct": "The sick man replied, \"Sir, I don't have anyone to help me into the pool when the water is stirred. By the time I drag myself over, someone else always gets in ahead of me.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Jesus saith unto him, Rise, take up thy bed, and walk.",
+      "ct": "Jesus told him, \"Stand up, pick up your mat, and walk.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And immediately the man was made whole, and took up his bed, and walked: and on the same day was the sabbath.",
+      "ct": "Instantly the man was healed. He picked up his mat and started walking. This happened on a Sabbath day."
+    },
+    {
+      "verse": 10,
+      "kjv": "The Jews therefore said unto him that was cured, It is the sabbath day: it is not lawful for thee to carry thy bed.",
+      "ct": "So the Jewish leaders said to the man who had been healed, \"Today is the Sabbath! You're not allowed to carry your mat.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "He answered them, He that made me whole, the same said unto me, Take up thy bed, and walk.",
+      "ct": "He answered them, \"The man who healed me told me, 'Pick up your mat and walk.'\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then asked they him, What man is that which said unto thee, Take up thy bed, and walk?",
+      "ct": "They demanded, \"Who is this person who told you to pick up your mat and walk?\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And he that was healed wist not who it was: for Jesus had conveyed himself away, a multitude being in that place.",
+      "ct": "But the man who had been healed didn't know who it was, because Jesus had slipped away into the crowd that was there."
+    },
+    {
+      "verse": 14,
+      "kjv": "Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art made whole: sin no more, lest a worse thing come unto thee.",
+      "ct": "Later, Jesus found him in the temple and said to him, \"Look, you've been made well. Stop sinning, or something worse may happen to you.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "The man departed, and told the Jews that it was Jesus, which had made him whole.",
+      "ct": "The man went and informed the Jewish leaders that it was Jesus who had healed him."
+    },
+    {
+      "verse": 16,
+      "kjv": "And therefore did the Jews persecute Jesus, and sought to slay him, because he had done these things on the sabbath day.",
+      "ct": "Because of this, the Jewish leaders began persecuting Jesus, wanting to kill him for doing these things on the Sabbath."
+    },
+    {
+      "verse": 17,
+      "kjv": "But Jesus answered them, My Father worketh hitherto, and I work.",
+      "ct": "But Jesus responded to them, \"My Father is always at work, and so am I.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Therefore the Jews sought the more to kill him, because he not only had broken the sabbath, but said also that God was his Father, making himself equal with God.",
+      "ct": "This made the Jewish leaders even more determined to kill him, because he was not only breaking the Sabbath but also calling God his own Father, making himself equal with God."
+    },
+    {
+      "verse": 19,
+      "kjv": "Then answered Jesus and said unto them, Verily, verily, I say unto you, The Son can do nothing of himself, but what he seeth the Father do: for what things soever he doeth, these also doeth the Son likewise.",
+      "ct": "Jesus answered them, \"I tell you the absolute truth: the Son cannot do anything on his own. He only does what he sees the Father doing. Whatever the Father does, the Son does the same."
+    },
+    {
+      "verse": 20,
+      "kjv": "For the Father loveth the Son, and sheweth him all things that himself doeth: and he will shew him greater works than these, that ye may marvel.",
+      "ct": "The Father loves the Son and shows him everything he is doing. And he will show him even greater things than this, so that you will be amazed."
+    },
+    {
+      "verse": 21,
+      "kjv": "For as the Father raiseth up the dead, and quickeneth them; even so the Son quickeneth whom he will.",
+      "ct": "Just as the Father raises the dead and gives them life, the Son also gives life to whoever he chooses."
+    },
+    {
+      "verse": 22,
+      "kjv": "For the Father judgeth no man, but hath committed all judgment unto the Son:",
+      "ct": "The Father doesn't judge anyone himself but has handed over all judgment to the Son,"
+    },
+    {
+      "verse": 23,
+      "kjv": "That all men should honour the Son, even as they honour the Father. He that honoureth not the Son honoureth not the Father which hath sent him.",
+      "ct": "so that everyone will honor the Son just as they honor the Father. Whoever does not honor the Son does not honor the Father who sent him."
+    },
+    {
+      "verse": 24,
+      "kjv": "Verily, verily, I say unto you, He that heareth my word, and believeth on him that sent me, hath everlasting life, and shall not come into condemnation; but is passed from death unto life.",
+      "ct": "I tell you the absolute truth: anyone who listens to my message and trusts the one who sent me has eternal life. That person will not face condemnation but has already crossed over from death into life."
+    },
+    {
+      "verse": 25,
+      "kjv": "Verily, verily, I say unto you, The hour is coming, and now is, when the dead shall hear the voice of the Son of God: and they that hear shall live.",
+      "ct": "I tell you the absolute truth: a time is coming — and has already arrived — when the dead will hear the voice of the Son of God, and those who hear it will live."
+    },
+    {
+      "verse": 26,
+      "kjv": "For as the Father hath life in himself; so hath he given to the Son to have life in himself;",
+      "ct": "Just as the Father has life within himself, he has also granted the Son to have life within himself."
+    },
+    {
+      "verse": 27,
+      "kjv": "And hath given him authority to execute judgment also, because he is the Son of man.",
+      "ct": "He has also given him the authority to carry out judgment, because he is the Son of Man."
+    },
+    {
+      "verse": 28,
+      "kjv": "Marvel not at this: for the hour is coming, in the which all that are in the graves shall hear his voice,",
+      "ct": "Don't be surprised at this, because a time is coming when everyone in their graves will hear his voice"
+    },
+    {
+      "verse": 29,
+      "kjv": "And shall come forth; they that have done good, unto the resurrection of life; and they that have done evil, unto the resurrection of damnation.",
+      "ct": "and come out — those who did good will rise to life, and those who did evil will rise to face judgment."
+    },
+    {
+      "verse": 30,
+      "kjv": "I can of mine own self do nothing: as I hear, I judge: and my judgment is just; because I seek not mine own will, but the will of the Father which hath sent me.",
+      "ct": "I can't do anything on my own. I judge based on what I hear, and my judgment is fair, because I'm not pursuing my own agenda but the will of the Father who sent me."
+    },
+    {
+      "verse": 31,
+      "kjv": "If I bear witness of myself, my witness is not true.",
+      "ct": "If I were the only one testifying about myself, my testimony wouldn't be valid."
+    },
+    {
+      "verse": 32,
+      "kjv": "There is another that beareth witness of me; and I know that the witness which he witnesseth of me is true.",
+      "ct": "But there is someone else who testifies about me, and I know that his testimony about me is true."
+    },
+    {
+      "verse": 33,
+      "kjv": "Ye sent unto John, and he bare witness unto the truth.",
+      "ct": "You sent representatives to John, and he testified to the truth."
+    },
+    {
+      "verse": 34,
+      "kjv": "But I receive not testimony from man: but these things I say, that ye might be saved.",
+      "ct": "Not that I need human testimony — I'm telling you this so that you can be saved."
+    },
+    {
+      "verse": 35,
+      "kjv": "He was a burning and a shining light: and ye were willing for a season to rejoice in his light.",
+      "ct": "John was a lamp that burned and shone brightly, and for a while you were happy to enjoy his light."
+    },
+    {
+      "verse": 36,
+      "kjv": "But I have greater witness than that of John: for the works which the Father hath given me to finish, the same works that I do, bear witness of me, that the Father hath sent me.",
+      "ct": "But I have testimony that carries more weight than John's. The work that the Father has given me to accomplish — the very things I am doing — these testify that the Father has sent me."
+    },
+    {
+      "verse": 37,
+      "kjv": "And the Father himself, which hath sent me, hath borne witness of me. Ye have neither heard his voice at any time, nor seen his shape.",
+      "ct": "The Father who sent me has himself testified about me. You have never heard his voice or seen his form."
+    },
+    {
+      "verse": 38,
+      "kjv": "And ye have not his word abiding in you: for whom he hath sent, him ye believe not.",
+      "ct": "His word does not live in you, because you refuse to trust the one he sent."
+    },
+    {
+      "verse": 39,
+      "kjv": "Search the scriptures; for in them ye think ye have eternal life: and they are they which testify of me.",
+      "ct": "You carefully study the Scriptures because you believe they give you eternal life. But those very Scriptures point to me!"
+    },
+    {
+      "verse": 40,
+      "kjv": "And ye will not come to me, that ye might have life.",
+      "ct": "Yet you refuse to come to me so that you could have life."
+    },
+    {
+      "verse": 41,
+      "kjv": "I receive not honour from men.",
+      "ct": "I'm not looking for praise from people."
+    },
+    {
+      "verse": 42,
+      "kjv": "But I know you, that ye have not the love of God in you.",
+      "ct": "But I know you — you don't have the love of God in your hearts."
+    },
+    {
+      "verse": 43,
+      "kjv": "I am come in my Father’s name, and ye receive me not: if another shall come in his own name, him ye will receive.",
+      "ct": "I have come representing my Father, and you won't accept me. But if someone else shows up representing only themselves, you'll welcome that person."
+    },
+    {
+      "verse": 44,
+      "kjv": "How can ye believe, which receive honour one of another, and seek not the honour that cometh from God only?",
+      "ct": "How can you possibly believe when you accept praise from each other but don't pursue the honor that comes from God alone?"
+    },
+    {
+      "verse": 45,
+      "kjv": "Do not think that I will accuse you to the Father: there is one that accuseth you, even Moses, in whom ye trust.",
+      "ct": "Don't assume that I will be the one to accuse you before the Father. Moses, the one you've put your hope in — he is the one who accuses you."
+    },
+    {
+      "verse": 46,
+      "kjv": "For had ye believed Moses, ye would have believed me: for he wrote of me.",
+      "ct": "If you had actually believed Moses, you would believe me, because he wrote about me."
+    },
+    {
+      "verse": 47,
+      "kjv": "But if ye believe not his writings, how shall ye believe my words?",
+      "ct": "But if you don't believe what he wrote, how will you ever believe what I say?\""
+    }
+  ]
+}

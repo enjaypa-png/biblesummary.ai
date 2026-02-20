@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 138,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.026Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I will praise thee with my whole heart: before the gods will I sing praise unto thee.",
+      "ct": "I will thank you with everything in me. In the presence of the gods, I will sing praises to you."
+    },
+    {
+      "verse": 2,
+      "kjv": "I will worship toward thy holy temple, and praise thy name for thy lovingkindness and for thy truth: for thou hast magnified thy word above all thy name.",
+      "ct": "I will bow down toward your holy temple and give thanks to your name for your faithful love and your truth, because you have exalted your word above everything associated with your name."
+    },
+    {
+      "verse": 3,
+      "kjv": "In the day when I cried thou answeredst me, and strengthenedst me with strength in my soul.",
+      "ct": "On the day I called out, you answered me. You filled my soul with strength and courage."
+    },
+    {
+      "verse": 4,
+      "kjv": "All the kings of the earth shall praise thee, O LORD, when they hear the words of thy mouth.",
+      "ct": "Every king on earth will thank you, LORD, when they hear the words you have spoken."
+    },
+    {
+      "verse": 5,
+      "kjv": "Yea, they shall sing in the ways of the LORD: for great is the glory of the LORD.",
+      "ct": "Yes, they will sing about the ways of the LORD, because the glory of the LORD is great."
+    },
+    {
+      "verse": 6,
+      "kjv": "Though the LORD be high, yet hath he respect unto the lowly: but the proud he knoweth afar off.",
+      "ct": "Even though the LORD is exalted, he pays attention to the humble, but he recognizes the arrogant from a distance."
+    },
+    {
+      "verse": 7,
+      "kjv": "Though I walk in the midst of trouble, thou wilt revive me: thou shalt stretch forth thine hand against the wrath of mine enemies, and thy right hand shall save me.",
+      "ct": "Even when I am surrounded by trouble, you will restore my life. You will raise your hand against the fury of my enemies, and your powerful hand will rescue me."
+    },
+    {
+      "verse": 8,
+      "kjv": "The LORD will perfect that which concerneth me: thy mercy, O LORD, endureth for ever: forsake not the works of thine own hands.",
+      "ct": "The LORD will bring to completion everything that concerns me. Your mercy, LORD, lasts forever — do not abandon what your own hands have made."
+    }
+  ]
+}

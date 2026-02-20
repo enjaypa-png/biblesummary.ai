@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 130,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.022Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Out of the depths have I cried unto thee, O LORD.",
+      "ct": "From the deepest despair, I have called out to you, LORD."
+    },
+    {
+      "verse": 2,
+      "kjv": "Lord, hear my voice: let thine ears be attentive to the voice of my supplications.",
+      "ct": "Lord, listen to me! Pay close attention to my desperate pleas."
+    },
+    {
+      "verse": 3,
+      "kjv": "If thou, LORD, shouldest mark iniquities, O Lord, who shall stand?",
+      "ct": "If you kept a record of every sin, LORD, who could possibly survive?"
+    },
+    {
+      "verse": 4,
+      "kjv": "But there is forgiveness with thee, that thou mayest be feared.",
+      "ct": "But you offer forgiveness, so that people will be wholeheartedly dedicated to you."
+    },
+    {
+      "verse": 5,
+      "kjv": "I wait for the LORD, my soul doth wait, and in his word do I hope.",
+      "ct": "I wait for the LORD — my soul waits — and I put my hope in his word."
+    },
+    {
+      "verse": 6,
+      "kjv": "My soul waiteth for the Lord more than they that watch for the morning: I say, more than they that watch for the morning.",
+      "ct": "My soul longs for the Lord more than night guards long for the dawn — yes, more than night guards long for the dawn."
+    },
+    {
+      "verse": 7,
+      "kjv": "Let Israel hope in the LORD: for with the LORD there is mercy, and with him is plenteous redemption.",
+      "ct": "Israel, put your hope in the LORD, because the LORD is full of mercy, and he offers abundant redemption."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he shall redeem Israel from all his iniquities.",
+      "ct": "He himself will redeem Israel from all their sins."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 79,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.988Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O GOD, the heathen are come into thine inheritance; thy holy temple have they defiled; they have laid Jerusalem on heaps.",
+      "ct": "God, foreign nations have invaded the land that belongs to you. They have desecrated your holy temple and reduced Jerusalem to rubble."
+    },
+    {
+      "verse": 2,
+      "kjv": "The dead bodies of thy servants have they given to be meat unto the fowls of the heaven, the flesh of thy saints unto the beasts of the earth.",
+      "ct": "They have left the bodies of your servants as food for the birds, and the flesh of your faithful ones for wild animals to devour."
+    },
+    {
+      "verse": 3,
+      "kjv": "Their blood have they shed like water round about Jerusalem; and there was none to bury them.",
+      "ct": "They have spilled blood like water all around Jerusalem, and there was no one left to bury the dead."
+    },
+    {
+      "verse": 4,
+      "kjv": "We are become a reproach to our neighbours, a scorn and derision to them that are round about us.",
+      "ct": "We have become an object of mockery to our neighbors, ridiculed and laughed at by everyone around us."
+    },
+    {
+      "verse": 5,
+      "kjv": "How long, LORD? wilt thou be angry for ever? shall thy jealousy burn like fire?",
+      "ct": "How long will this last, LORD? Will you stay angry forever? Will your burning passion consume us like fire?"
+    },
+    {
+      "verse": 6,
+      "kjv": "Pour out thy wrath upon the heathen that have not known thee, and upon the kingdoms that have not called upon thy name.",
+      "ct": "Direct your fury at the nations that don't acknowledge you, at the kingdoms that never call on your name."
+    },
+    {
+      "verse": 7,
+      "kjv": "For they have devoured Jacob, and laid waste his dwelling place.",
+      "ct": "They have consumed the people of Jacob and turned his homeland into a wasteland."
+    },
+    {
+      "verse": 8,
+      "kjv": "O remember not against us former iniquities: let thy tender mercies speedily prevent us: for we are brought very low.",
+      "ct": "Don't hold the sins of past generations against us. Let your compassion come to meet us quickly, because we are completely broken."
+    },
+    {
+      "verse": 9,
+      "kjv": "Help us, O God of our salvation, for the glory of thy name: and deliver us, and purge away our sins, for thy name’s sake.",
+      "ct": "Rescue us, God of our salvation, for the honor of your name. Save us and wash away our sins for the sake of your reputation."
+    },
+    {
+      "verse": 10,
+      "kjv": "Wherefore should the heathen say, Where is their God? let him be known among the heathen in our sight by the revenging of the blood of thy servants which is shed.",
+      "ct": "Why should the nations ask, 'Where is their God?' Let us witness you making yourself known among the nations by avenging the blood of your servants that was spilled."
+    },
+    {
+      "verse": 11,
+      "kjv": "Let the sighing of the prisoner come before thee; according to the greatness of thy power preserve thou those that are appointed to die;",
+      "ct": "Let the groaning of prisoners reach your presence. With your immense power, spare those who are condemned to die."
+    },
+    {
+      "verse": 12,
+      "kjv": "And render unto our neighbours sevenfold into their bosom their reproach, wherewith they have reproached thee, O Lord.",
+      "ct": "Pay back our neighbors 7 times over, Lord, for the insults they hurled at you."
+    },
+    {
+      "verse": 13,
+      "kjv": "So we thy people and sheep of thy pasture will give thee thanks for ever: we will shew forth thy praise to all generations.",
+      "ct": "Then we, your people — the flock you care for — will thank you forever. We will declare your praise through every generation."
+    }
+  ]
+}

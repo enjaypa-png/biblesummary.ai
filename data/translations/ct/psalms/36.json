@@ -1,0 +1,70 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 36,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.961Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The transgression of the wicked saith within my heart, that there is no fear of God before his eyes.",
+      "ct": "Sin speaks to the wicked deep in their hearts — they have no reverence for God at all."
+    },
+    {
+      "verse": 2,
+      "kjv": "For he flattereth himself in his own eyes, until his iniquity be found to be hateful.",
+      "ct": "They deceive themselves with self-flattery, unable to see how hateful their sin really is."
+    },
+    {
+      "verse": 3,
+      "kjv": "The words of his mouth are iniquity and deceit: he hath left off to be wise, and to do good.",
+      "ct": "Everything they say is corrupt and dishonest; they have abandoned wisdom and stopped doing what is right."
+    },
+    {
+      "verse": 4,
+      "kjv": "He deviseth mischief upon his bed; he setteth himself in a way that is not good; he abhorreth not evil.",
+      "ct": "They lie in bed plotting evil; they commit themselves to a harmful path and never reject what is wrong."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thy mercy, O LORD, is in the heavens; and thy faithfulness reacheth unto the clouds.",
+      "ct": "Your mercy, LORD, stretches to the heavens; your faithfulness reaches to the clouds."
+    },
+    {
+      "verse": 6,
+      "kjv": "Thy righteousness is like the great mountains; thy judgments are a great deep: O LORD, thou preservest man and beast.",
+      "ct": "Your righteousness stands like the tallest mountains; your justice runs as deep as the ocean. LORD, you protect both people and animals."
+    },
+    {
+      "verse": 7,
+      "kjv": "How excellent is thy lovingkindness, O God! therefore the children of men put their trust under the shadow of thy wings.",
+      "ct": "How precious is your unfailing love, God! All of humanity finds shelter in the shadow of your wings."
+    },
+    {
+      "verse": 8,
+      "kjv": "They shall be abundantly satisfied with the fatness of thy house; and thou shalt make them drink of the river of thy pleasures.",
+      "ct": "They feast on the abundance of your house, and you let them drink from your river of delights."
+    },
+    {
+      "verse": 9,
+      "kjv": "For with thee is the fountain of life: in thy light shall we see light.",
+      "ct": "For you are the source of life itself — in your light, we see light."
+    },
+    {
+      "verse": 10,
+      "kjv": "O continue thy lovingkindness unto them that know thee; and thy righteousness to the upright in heart.",
+      "ct": "Keep pouring out your unfailing love on those who know you, and your righteousness on those whose hearts are honest."
+    },
+    {
+      "verse": 11,
+      "kjv": "Let not the foot of pride come against me, and let not the hand of the wicked remove me.",
+      "ct": "Don't let the proud trample me, and don't let the wicked drive me away."
+    },
+    {
+      "verse": 12,
+      "kjv": "There are the workers of iniquity fallen: they are cast down, and shall not be able to rise.",
+      "ct": "Look — those who practice evil have fallen! They have been thrown down and cannot get back up."
+    }
+  ]
+}

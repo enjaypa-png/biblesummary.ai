@@ -1,0 +1,135 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 4,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.286Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then was Jesus led up of the Spirit into the wilderness to be tempted of the devil.",
+      "ct": "Then the Spirit led Jesus out into the wilderness to be tempted by the devil."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when he had fasted forty days and forty nights, he was afterward an hungred.",
+      "ct": "After fasting for 40 days and 40 nights, he was extremely hungry."
+    },
+    {
+      "verse": 3,
+      "kjv": "And when the tempter came to him, he said, If thou be the Son of God, command that these stones be made bread.",
+      "ct": "The tempter approached him and said, \"If you are the Son of God, tell these stones to turn into bread.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "But he answered and said, It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.",
+      "ct": "Jesus replied, \"Scripture says, 'People don't survive on bread alone, but on every word that comes from the mouth of God.'\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the devil taketh him up into the holy city, and setteth him on a pinnacle of the temple,",
+      "ct": "Next the devil brought him to the holy city and placed him on the highest point of the temple."
+    },
+    {
+      "verse": 6,
+      "kjv": "And saith unto him, If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.",
+      "ct": "He said to him, \"If you are the Son of God, throw yourself off. After all, Scripture says, 'He will command his angels to watch over you, and they will carry you in their hands so that you won't even strike your foot on a stone.'\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Jesus said unto him, It is written again, Thou shalt not tempt the Lord thy God.",
+      "ct": "Jesus responded, \"Scripture also says, 'You must not put the Lord your God to the test.'\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Again, the devil taketh him up into an exceeding high mountain, and sheweth him all the kingdoms of the world, and the glory of them;",
+      "ct": "Then the devil brought him to an extremely high mountain and showed him all the kingdoms of the world and their glory."
+    },
+    {
+      "verse": 9,
+      "kjv": "And saith unto him, All these things will I give thee, if thou wilt fall down and worship me.",
+      "ct": "He told him, \"I will hand all of this over to you if you kneel down and worship me.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then saith Jesus unto him, Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve.",
+      "ct": "Jesus said to him, \"Get away from me, Satan! Scripture says, 'You must worship the Lord your God and serve only him.'\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Then the devil leaveth him, and, behold, angels came and ministered unto him.",
+      "ct": "At that point the devil left him, and angels came and took care of him."
+    },
+    {
+      "verse": 12,
+      "kjv": "Now when Jesus had heard that John was cast into prison, he departed into Galilee;",
+      "ct": "When Jesus learned that John had been thrown in prison, he traveled to Galilee."
+    },
+    {
+      "verse": 13,
+      "kjv": "And leaving Nazareth, he came and dwelt in Capernaum, which is upon the sea coast, in the borders of Zabulon and Nephthalim:",
+      "ct": "He left Nazareth and settled in Capernaum, a town by the lake in the region of Zabulon and Nephthalim."
+    },
+    {
+      "verse": 14,
+      "kjv": "That it might be fulfilled which was spoken by Esaias the prophet, saying,",
+      "ct": "This fulfilled what the prophet Esaias had spoken:"
+    },
+    {
+      "verse": 15,
+      "kjv": "The land of Zabulon, and the land of Nephthalim, by the way of the sea, beyond Jordan, Galilee of the Gentiles;",
+      "ct": "\"The land of Zabulon and the land of Nephthalim, along the road to the sea, across the Jordan, Galilee of the Gentiles—"
+    },
+    {
+      "verse": 16,
+      "kjv": "The people which sat in darkness saw great light; and to them which sat in the region and shadow of death light is sprung up.",
+      "ct": "the people living in darkness have seen a brilliant light, and for those dwelling in the land overshadowed by death, a light has dawned.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "From that time Jesus began to preach, and to say, Repent: for the kingdom of heaven is at hand.",
+      "ct": "From that point on, Jesus started preaching this message: \"Turn from your sins, because the kingdom of heaven is near!\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers.",
+      "ct": "As Jesus was walking along the shore of the Sea of Galilee, he noticed 2 brothers—Simon, who was called Peter, and his brother Andrew—throwing a net into the water, since they were fishermen."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he saith unto them, Follow me, and I will make you fishers of men.",
+      "ct": "He told them, \"Come, follow me, and I will make you fishers of people.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And they straightway left their nets, and followed him.",
+      "ct": "Right away they dropped their nets and went with him."
+    },
+    {
+      "verse": 21,
+      "kjv": "And going on from thence, he saw other two brethren, James the son of Zebedee, and John his brother, in a ship with Zebedee their father, mending their nets; and he called them.",
+      "ct": "Moving on from there, he saw 2 other brothers—James son of Zebedee and his brother John—sitting in a boat with their father Zebedee, repairing their nets. He called out to them."
+    },
+    {
+      "verse": 22,
+      "kjv": "And they immediately left the ship and their father, and followed him.",
+      "ct": "Immediately they left the boat and their father and followed him."
+    },
+    {
+      "verse": 23,
+      "kjv": "And Jesus went about all Galilee, teaching in their synagogues, and preaching the gospel of the kingdom, and healing all manner of sickness and all manner of disease among the people.",
+      "ct": "Jesus traveled throughout all of Galilee, teaching in their synagogues, proclaiming the good news of the kingdom, and healing every kind of sickness and disease among the people."
+    },
+    {
+      "verse": 24,
+      "kjv": "And his fame went throughout all Syria: and they brought unto him all sick people that were taken with divers diseases and torments, and those which were possessed with devils, and those which were lunatick, and those that had the palsy; and he healed them.",
+      "ct": "News about him spread across all of Syria. People brought to him everyone who was suffering from various diseases and painful conditions, along with those possessed by demons, those experiencing seizures, and those who were paralyzed—and he healed them all."
+    },
+    {
+      "verse": 25,
+      "kjv": "And there followed him great multitudes of people from Galilee, and from Decapolis, and from Jerusalem, and from Judaea, and from beyond Jordan.",
+      "ct": "Enormous crowds followed him from Galilee, Decapolis, Jerusalem, Judaea, and the region across the Jordan."
+    }
+  ]
+}

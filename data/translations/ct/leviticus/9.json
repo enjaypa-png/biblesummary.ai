@@ -1,0 +1,130 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 9,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.562Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass on the eighth day, that Moses called Aaron and his sons, and the elders of Israel;",
+      "ct": "On the 8th day, Moses summoned Aaron, his sons, and the elders of Israel."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he said unto Aaron, Take thee a young calf for a sin offering, and a ram for a burnt offering, without blemish, and offer them before the LORD.",
+      "ct": "He told Aaron, \"Select a young calf for a sin offering and a flawless ram for a burnt offering, and present them to the LORD.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And unto the children of Israel thou shalt speak, saying, Take ye a kid of the goats for a sin offering; and a calf and a lamb, both of the first year, without blemish, for a burnt offering;",
+      "ct": "\"Then tell the Israelites: 'Bring a male goat for a sin offering, along with a calf and a lamb — both 1 year old and without any defects — for a burnt offering."
+    },
+    {
+      "verse": 4,
+      "kjv": "Also a bullock and a ram for peace offerings, to sacrifice before the LORD; and a meat offering mingled with oil: for to day the LORD will appear unto you.",
+      "ct": "Also bring a bull and a ram as peace offerings to sacrifice to the LORD, plus a grain offering mixed with oil. Because today the LORD is going to reveal himself to you.'\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And they brought that which Moses commanded before the tabernacle of the congregation: and all the congregation drew near and stood before the LORD.",
+      "ct": "So they brought everything Moses had commanded to the front of the tent of meeting, and the entire community came forward and stood in the LORD's presence."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Moses said, This is the thing which the LORD commanded that ye should do: and the glory of the LORD shall appear unto you.",
+      "ct": "Moses said, \"This is what the LORD has instructed you to do, and the glory of the LORD will reveal itself to you.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And Moses said unto Aaron, Go unto the altar, and offer thy sin offering, and thy burnt offering, and make an atonement for thyself, and for the people: and offer the offering of the people, and make an atonement for them; as the LORD commanded.",
+      "ct": "Then Moses told Aaron, \"Approach the altar and present your sin offering and your burnt offering, making atonement for yourself and for the people. Then present the people's offering and make atonement for them, just as the LORD has instructed.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Aaron therefore went unto the altar, and slew the calf of the sin offering, which was for himself.",
+      "ct": "So Aaron went up to the altar and killed the calf for his own sin offering."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the sons of Aaron brought the blood unto him: and he dipped his finger in the blood, and put it upon the horns of the altar, and poured out the blood at the bottom of the altar:",
+      "ct": "Aaron's sons brought the blood to him. He dipped his finger into it, applied it to the horns of the altar, and poured the rest of the blood out at the base of the altar."
+    },
+    {
+      "verse": 10,
+      "kjv": "But the fat, and the kidneys, and the caul above the liver of the sin offering, he burnt upon the altar; as the LORD commanded Moses.",
+      "ct": "He burned the fat, the kidneys, and the covering of the liver from the sin offering on the altar, just as the LORD had instructed Moses."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the flesh and the hide he burnt with fire without the camp.",
+      "ct": "The meat and the hide, however, he burned with fire outside the camp."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he slew the burnt offering; and Aaron’s sons presented unto him the blood, which he sprinkled round about upon the altar.",
+      "ct": "Next he killed the burnt offering. Aaron's sons handed him the blood, and he splashed it on all sides of the altar."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they presented the burnt offering unto him, with the pieces thereof, and the head: and he burnt them upon the altar.",
+      "ct": "They passed him the burnt offering piece by piece, including the head, and he burned each one on the altar."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he did wash the inwards and the legs, and burnt them upon the burnt offering on the altar.",
+      "ct": "He washed the internal organs and the legs, then burned them on top of the burnt offering on the altar."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he brought the people’s offering, and took the goat, which was the sin offering for the people, and slew it, and offered it for sin, as the first.",
+      "ct": "After that, he brought forward the people's offering. He took the goat designated as the sin offering for the people, killed it, and offered it for sin just as he had done with the first one."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he brought the burnt offering, and offered it according to the manner.",
+      "ct": "He also brought the burnt offering and presented it following the prescribed procedure."
+    },
+    {
+      "verse": 17,
+      "kjv": "And he brought the meat offering, and took an handful thereof, and burnt it upon the altar, beside the burnt sacrifice of the morning.",
+      "ct": "Then he brought the grain offering, took a handful of it, and burned it on the altar in addition to the morning's burnt sacrifice."
+    },
+    {
+      "verse": 18,
+      "kjv": "He slew also the bullock and the ram for a sacrifice of peace offerings, which was for the people: and Aaron’s sons presented unto him the blood, which he sprinkled upon the altar round about,",
+      "ct": "He also killed the bull and the ram as the peace offerings on behalf of the people. Aaron's sons handed him the blood, and he splashed it on all sides of the altar."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the fat of the bullock and of the ram, the rump, and that which covereth the inwards, and the kidneys, and the caul above the liver:",
+      "ct": "They also brought the fat portions from the bull and the ram — the fat tail, the fat covering the internal organs, the kidneys, and the covering of the liver."
+    },
+    {
+      "verse": 20,
+      "kjv": "And they put the fat upon the breasts, and he burnt the fat upon the altar:",
+      "ct": "They placed these fat portions on top of the breast sections, and Aaron burned the fat on the altar."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the breasts and the right shoulder Aaron waved for a wave offering before the LORD; as Moses commanded.",
+      "ct": "Aaron lifted the breast sections and the right thigh as a wave offering in the LORD's presence, exactly as Moses had instructed."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Aaron lifted up his hand toward the people, and blessed them, and came down from offering of the sin offering, and the burnt offering, and peace offerings.",
+      "ct": "Then Aaron raised his hands toward the people and blessed them. After that, he stepped down from presenting the sin offering, the burnt offering, and the peace offerings."
+    },
+    {
+      "verse": 23,
+      "kjv": "And Moses and Aaron went into the tabernacle of the congregation, and came out, and blessed the people: and the glory of the LORD appeared unto all the people.",
+      "ct": "Moses and Aaron then entered the tent of meeting. When they came back out, they blessed the people, and the glory of the LORD appeared to the entire community."
+    },
+    {
+      "verse": 24,
+      "kjv": "And there came a fire out from before the LORD, and consumed upon the altar the burnt offering and the fat: which when all the people saw, they shouted, and fell on their faces.",
+      "ct": "Fire blazed out from the LORD's presence and consumed the burnt offering and the fat on the altar. When all the people witnessed this, they erupted in shouts of praise and dropped to the ground with their faces down."
+    }
+  ]
+}

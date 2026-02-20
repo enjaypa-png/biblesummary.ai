@@ -1,0 +1,75 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 96,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.999Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O sing unto the LORD a new song: sing unto the LORD, all the earth.",
+      "ct": "Sing a fresh song to the LORD! Sing to the LORD, everyone on earth!"
+    },
+    {
+      "verse": 2,
+      "kjv": "Sing unto the LORD, bless his name; shew forth his salvation from day to day.",
+      "ct": "Sing to the LORD and praise his name! Proclaim his salvation every single day."
+    },
+    {
+      "verse": 3,
+      "kjv": "Declare his glory among the heathen, his wonders among all people.",
+      "ct": "Tell the nations about his glory; announce his amazing works to every people."
+    },
+    {
+      "verse": 4,
+      "kjv": "For the LORD is great, and greatly to be praised: he is to be feared above all gods.",
+      "ct": "The LORD is great and deserves the highest praise. He is to be deeply revered above all gods."
+    },
+    {
+      "verse": 5,
+      "kjv": "For all the gods of the nations are idols: but the LORD made the heavens.",
+      "ct": "All the gods of the nations are nothing but idols, but the LORD made the heavens."
+    },
+    {
+      "verse": 6,
+      "kjv": "Honour and majesty are before him: strength and beauty are in his sanctuary.",
+      "ct": "Honor and majesty surround him; strength and beauty fill his sanctuary."
+    },
+    {
+      "verse": 7,
+      "kjv": "Give unto the LORD, O ye kindreds of the people, give unto the LORD glory and strength.",
+      "ct": "Attribute to the LORD, all families of the earth — attribute to the LORD glory and strength."
+    },
+    {
+      "verse": 8,
+      "kjv": "Give unto the LORD the glory due unto his name: bring an offering, and come into his courts.",
+      "ct": "Attribute to the LORD the glory his name deserves. Bring an offering and enter his courts."
+    },
+    {
+      "verse": 9,
+      "kjv": "O worship the LORD in the beauty of holiness: fear before him, all the earth.",
+      "ct": "Worship the LORD in the splendor of holiness; tremble with reverence before him, all the earth."
+    },
+    {
+      "verse": 10,
+      "kjv": "Say among the heathen that the LORD reigneth: the world also shall be established that it shall not be moved: he shall judge the people righteously.",
+      "ct": "Announce among the nations that the LORD rules! The world stands firm and cannot be shaken. He will judge all peoples with fairness."
+    },
+    {
+      "verse": 11,
+      "kjv": "Let the heavens rejoice, and let the earth be glad; let the sea roar, and the fulness thereof.",
+      "ct": "Let the heavens celebrate and the earth be glad! Let the sea thunder along with everything in it!"
+    },
+    {
+      "verse": 12,
+      "kjv": "Let the field be joyful, and all that is therein: then shall all the trees of the wood rejoice",
+      "ct": "Let the fields overflow with joy, and everything growing in them. Then all the trees of the forest will shout with delight"
+    },
+    {
+      "verse": 13,
+      "kjv": "Before the LORD: for he cometh, for he cometh to judge the earth: he shall judge the world with righteousness, and the people with his truth.",
+      "ct": "in the presence of the LORD, because he is coming — he is coming to judge the earth. He will judge the world with righteousness and all peoples with his truth."
+    }
+  ]
+}

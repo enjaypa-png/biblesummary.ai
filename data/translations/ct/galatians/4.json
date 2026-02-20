@@ -1,0 +1,165 @@
+{
+  "book": "galatians",
+  "book_name": "Galatians",
+  "chapter": 4,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.436Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now I say, That the heir, as long as he is a child, differeth nothing from a servant, though he be lord of all;",
+      "ct": "Here's what I mean: as long as an heir is still a child, he's no different from a slave, even though he technically owns everything."
+    },
+    {
+      "verse": 2,
+      "kjv": "But is under tutors and governors until the time appointed of the father.",
+      "ct": "He remains under the authority of guardians and managers until the date his father has set."
+    },
+    {
+      "verse": 3,
+      "kjv": "Even so we, when we were children, were in bondage under the elements of the world:",
+      "ct": "It was the same with us. When we were spiritually immature, we were enslaved to the basic principles of this world."
+    },
+    {
+      "verse": 4,
+      "kjv": "But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law,",
+      "ct": "But when the right time had fully arrived, God sent his Son, born of a woman, born subject to the law,"
+    },
+    {
+      "verse": 5,
+      "kjv": "To redeem them that were under the law, that we might receive the adoption of sons.",
+      "ct": "to set free those who were subject to the law, so that we could be adopted as his children."
+    },
+    {
+      "verse": 6,
+      "kjv": "And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father.",
+      "ct": "Since you are his children, God has sent the Spirit of his Son into your hearts, calling out, \"Abba, Father.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Wherefore thou art no more a servant, but a son; and if a son, then an heir of God through Christ.",
+      "ct": "So you are no longer a slave but a child of God. And since you are his child, you are also an heir through Christ."
+    },
+    {
+      "verse": 8,
+      "kjv": "Howbeit then, when ye knew not God, ye did service unto them which by nature are no gods.",
+      "ct": "Back then, when you didn't know God, you served things that aren't really gods at all."
+    },
+    {
+      "verse": 9,
+      "kjv": "But now, after that ye have known God, or rather are known of God, how turn ye again to the weak and beggarly elements, whereunto ye desire again to be in bondage?",
+      "ct": "But now that you know God — or rather, now that God knows you — how can you turn back to those weak and worthless principles? Do you really want to be enslaved by them all over again?"
+    },
+    {
+      "verse": 10,
+      "kjv": "Ye observe days, and months, and times, and years.",
+      "ct": "You are carefully observing special days, months, seasons, and years."
+    },
+    {
+      "verse": 11,
+      "kjv": "I am afraid of you, lest I have bestowed upon you labour in vain.",
+      "ct": "I'm worried about you. I'm afraid that all the effort I invested in you may have been wasted."
+    },
+    {
+      "verse": 12,
+      "kjv": "Brethren, I beseech you, be as I am; for I am as ye are: ye have not injured me at all.",
+      "ct": "Brothers and sisters, I'm pleading with you — become like me, because I became like you. You haven't done anything wrong to me."
+    },
+    {
+      "verse": 13,
+      "kjv": "Ye know how through infirmity of the flesh I preached the gospel unto you at the first.",
+      "ct": "You remember that it was because of a physical illness that I first brought the good news to you."
+    },
+    {
+      "verse": 14,
+      "kjv": "And my temptation which was in my flesh ye despised not, nor rejected; but received me as an angel of God, even as Christ Jesus.",
+      "ct": "Even though my condition was a trial for you, you didn't look down on me or push me away. Instead, you welcomed me as if I were an angel of God — as if I were Christ Jesus himself."
+    },
+    {
+      "verse": 15,
+      "kjv": "Where is then the blessedness ye spake of? for I bear you record, that, if it had been possible, ye would have plucked out your own eyes, and have given them to me.",
+      "ct": "What happened to all that joy you had? I can testify that if it had been possible, you would have torn out your own eyes and given them to me."
+    },
+    {
+      "verse": 16,
+      "kjv": "Am I therefore become your enemy, because I tell you the truth?",
+      "ct": "Have I now become your enemy simply because I'm telling you the truth?"
+    },
+    {
+      "verse": 17,
+      "kjv": "They zealously affect you, but not well; yea, they would exclude you, that ye might affect them.",
+      "ct": "Those people are eager to win you over, but their motives aren't good. They want to isolate you from us so that you'll become devoted to them instead."
+    },
+    {
+      "verse": 18,
+      "kjv": "But it is good to be zealously affected always in a good thing, and not only when I am present with you.",
+      "ct": "It's always a good thing to be pursued with good intentions — not just when I'm there with you."
+    },
+    {
+      "verse": 19,
+      "kjv": "My little children, of whom I travail in birth again until Christ be formed in you,",
+      "ct": "My dear children, I feel like I'm going through the pain of childbirth with you all over again, and it won't stop until Christ is fully shaped within you."
+    },
+    {
+      "verse": 20,
+      "kjv": "I desire to be present with you now, and to change my voice; for I stand in doubt of you.",
+      "ct": "I wish I could be there with you right now and change my tone, because I honestly don't know what to think about you."
+    },
+    {
+      "verse": 21,
+      "kjv": "Tell me, ye that desire to be under the law, do ye not hear the law?",
+      "ct": "Answer me this — you who want to live under the law: don't you actually listen to what the law says?"
+    },
+    {
+      "verse": 22,
+      "kjv": "For it is written, that Abraham had two sons, the one by a bondmaid, the other by a freewoman.",
+      "ct": "Scripture tells us that Abraham had 2 sons: one by a slave woman and the other by a free woman."
+    },
+    {
+      "verse": 23,
+      "kjv": "But he who was of the bondwoman was born after the flesh; but he of the freewoman was by promise.",
+      "ct": "The son from the slave woman was born through ordinary human means, but the son from the free woman was born as a result of God's promise."
+    },
+    {
+      "verse": 24,
+      "kjv": "Which things are an allegory: for these are the two covenants; the one from the mount Sinai, which gendereth to bondage, which is Agar.",
+      "ct": "These things can be understood as an illustration. The 2 women represent 2 covenants. One covenant comes from Mount Sinai and produces children born into slavery — that is Hagar."
+    },
+    {
+      "verse": 25,
+      "kjv": "For this Agar is mount Sinai in Arabia, and answereth to Jerusalem which now is, and is in bondage with her children.",
+      "ct": "Hagar stands for Mount Sinai in Arabia and corresponds to the present city of Jerusalem, which lives in slavery along with her children."
+    },
+    {
+      "verse": 26,
+      "kjv": "But Jerusalem which is above is free, which is the mother of us all.",
+      "ct": "But the Jerusalem that is above is free, and she is our mother."
+    },
+    {
+      "verse": 27,
+      "kjv": "For it is written, Rejoice, thou barren that bearest not; break forth and cry, thou that travailest not: for the desolate hath many more children than she which hath an husband.",
+      "ct": "As Scripture says: \"Celebrate, you childless woman who never gave birth! Shout and cry out with joy, you who never experienced labor pains! Because the abandoned woman will have far more children than the woman with a husband.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "Now we, brethren, as Isaac was, are the children of promise.",
+      "ct": "Now you, brothers and sisters, are children of the promise, just like Isaac was."
+    },
+    {
+      "verse": 29,
+      "kjv": "But as then he that was born after the flesh persecuted him that was born after the Spirit, even so it is now.",
+      "ct": "At that time, the son born through ordinary means persecuted the son born through the Spirit, and the same thing is happening now."
+    },
+    {
+      "verse": 30,
+      "kjv": "Nevertheless what saith the scripture? Cast out the bondwoman and her son: for the son of the bondwoman shall not be heir with the son of the freewoman.",
+      "ct": "But what does Scripture say? \"Send the slave woman and her son away, because the slave woman's son will never share the inheritance with the free woman's son.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "So then, brethren, we are not children of the bondwoman, but of the free.",
+      "ct": "Therefore, brothers and sisters, we are not children of the slave woman but children of the free woman."
+    }
+  ]
+}

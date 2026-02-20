@@ -1,0 +1,150 @@
+{
+  "book": "proverbs",
+  "book_name": "Proverbs",
+  "chapter": 28,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.055Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The wicked flee when no man pursueth: but the righteous are bold as a lion.",
+      "ct": "The wicked run away even when no one is chasing them, but the righteous are as confident as a lion."
+    },
+    {
+      "verse": 2,
+      "kjv": "For the transgression of a land many are the princes thereof: but by a man of understanding and knowledge the state thereof shall be prolonged.",
+      "ct": "When a nation rebels, it ends up with one ruler after another, but with a leader who has wisdom and knowledge, stability lasts."
+    },
+    {
+      "verse": 3,
+      "kjv": "A poor man that oppresseth the poor is like a sweeping rain which leaveth no food.",
+      "ct": "A poor person who exploits other poor people is like a driving rainstorm that destroys the crops and leaves nothing to eat."
+    },
+    {
+      "verse": 4,
+      "kjv": "They that forsake the law praise the wicked: but such as keep the law contend with them.",
+      "ct": "Those who abandon God's instruction end up praising the wicked, but those who follow it stand up against them."
+    },
+    {
+      "verse": 5,
+      "kjv": "Evil men understand not judgment: but they that seek the LORD understand all things.",
+      "ct": "Evil people don't understand justice, but those who seek the LORD understand it completely."
+    },
+    {
+      "verse": 6,
+      "kjv": "Better is the poor that walketh in his uprightness, than he that is perverse in his ways, though he be rich.",
+      "ct": "It's better to be poor and live with integrity than to be rich and walk a crooked path."
+    },
+    {
+      "verse": 7,
+      "kjv": "Whoso keepeth the law is a wise son: but he that is a companion of riotous men shameth his father.",
+      "ct": "Whoever follows God's instruction is a wise child, but anyone who hangs around with wild and reckless people brings shame to their father."
+    },
+    {
+      "verse": 8,
+      "kjv": "He that by usury and unjust gain increaseth his substance, he shall gather it for him that will pity the poor.",
+      "ct": "Whoever grows their wealth through excessive interest and unfair profit is just collecting it for someone who will be generous to the poor."
+    },
+    {
+      "verse": 9,
+      "kjv": "He that turneth away his ear from hearing the law, even his prayer shall be abomination.",
+      "ct": "If you refuse to listen to God's instruction, even your prayers become disgusting to him."
+    },
+    {
+      "verse": 10,
+      "kjv": "Whoso causeth the righteous to go astray in an evil way, he shall fall himself into his own pit: but the upright shall have good things in possession.",
+      "ct": "Whoever leads an honest person down a wrong path will fall into their own trap, but those with integrity will receive good things."
+    },
+    {
+      "verse": 11,
+      "kjv": "The rich man is wise in his own conceit; but the poor that hath understanding searcheth him out.",
+      "ct": "A rich person may think they're wise, but a poor person with real understanding can see right through them."
+    },
+    {
+      "verse": 12,
+      "kjv": "When righteous men do rejoice, there is great glory: but when the wicked rise, a man is hidden.",
+      "ct": "When righteous people succeed, there is great celebration, but when the wicked gain power, people go into hiding."
+    },
+    {
+      "verse": 13,
+      "kjv": "He that covereth his sins shall not prosper: but whoso confesseth and forsaketh them shall have mercy.",
+      "ct": "Whoever hides their sins will not succeed, but whoever confesses and turns away from them will receive mercy."
+    },
+    {
+      "verse": 14,
+      "kjv": "Happy is the man that feareth alway: but he that hardeneth his heart shall fall into mischief.",
+      "ct": "Blessed is the person who always maintains a reverent heart, but whoever hardens their heart will fall into disaster."
+    },
+    {
+      "verse": 15,
+      "kjv": "As a roaring lion, and a ranging bear; so is a wicked ruler over the poor people.",
+      "ct": "A wicked ruler over helpless people is like a roaring lion or a charging bear."
+    },
+    {
+      "verse": 16,
+      "kjv": "The prince that wanteth understanding is also a great oppressor: but he that hateth covetousness shall prolong his days.",
+      "ct": "A leader who lacks sense is a terrible oppressor, but one who hates dishonest gain will enjoy a long life."
+    },
+    {
+      "verse": 17,
+      "kjv": "A man that doeth violence to the blood of any person shall flee to the pit; let no man stay him.",
+      "ct": "A person burdened with the guilt of murder will be a fugitive until death — let no one help them."
+    },
+    {
+      "verse": 18,
+      "kjv": "Whoso walketh uprightly shall be saved: but he that is perverse in his ways shall fall at once.",
+      "ct": "Whoever lives with integrity will be kept safe, but whoever walks a twisted path will suddenly fall."
+    },
+    {
+      "verse": 19,
+      "kjv": "He that tilleth his land shall have plenty of bread: but he that followeth after vain persons shall have poverty enough.",
+      "ct": "Whoever works their land will have plenty of food, but whoever chases empty pursuits will have plenty of poverty."
+    },
+    {
+      "verse": 20,
+      "kjv": "A faithful man shall abound with blessings: but he that maketh haste to be rich shall not be innocent.",
+      "ct": "A trustworthy person will overflow with blessings, but whoever rushes to get rich will not go unpunished."
+    },
+    {
+      "verse": 21,
+      "kjv": "To have respect of persons is not good: for for a piece of bread that man will transgress.",
+      "ct": "Showing favoritism is never good — yet some people will do wrong for something as small as a piece of bread."
+    },
+    {
+      "verse": 22,
+      "kjv": "He that hasteth to be rich hath an evil eye, and considereth not that poverty shall come upon him.",
+      "ct": "A greedy person is in a hurry to get rich, not realizing that poverty is heading straight for them."
+    },
+    {
+      "verse": 23,
+      "kjv": "He that rebuketh a man afterwards shall find more favour than he that flattereth with the tongue.",
+      "ct": "Someone who offers honest correction will eventually be appreciated more than someone who just says what you want to hear."
+    },
+    {
+      "verse": 24,
+      "kjv": "Whoso robbeth his father or his mother, and saith, It is no transgression; the same is the companion of a destroyer.",
+      "ct": "Whoever steals from their father or mother and says, 'There's nothing wrong with that,' is no different from someone who destroys."
+    },
+    {
+      "verse": 25,
+      "kjv": "He that is of a proud heart stirreth up strife: but he that putteth his trust in the LORD shall be made fat.",
+      "ct": "A greedy person stirs up conflict, but whoever trusts in the LORD will prosper."
+    },
+    {
+      "verse": 26,
+      "kjv": "He that trusteth in his own heart is a fool: but whoso walketh wisely, he shall be delivered.",
+      "ct": "Whoever relies on their own judgment is a fool, but whoever lives with wisdom will be kept safe."
+    },
+    {
+      "verse": 27,
+      "kjv": "He that giveth unto the poor shall not lack: but he that hideth his eyes shall have many a curse.",
+      "ct": "Whoever gives to the poor will never be in need, but whoever looks the other way will receive many curses."
+    },
+    {
+      "verse": 28,
+      "kjv": "When the wicked rise, men hide themselves: but when they perish, the righteous increase.",
+      "ct": "When the wicked gain power, people go into hiding, but when the wicked fall, the righteous thrive."
+    }
+  ]
+}

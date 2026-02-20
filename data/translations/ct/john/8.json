@@ -1,0 +1,305 @@
+{
+  "book": "john",
+  "book_name": "John",
+  "chapter": 8,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.360Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Jesus went unto the mount of Olives.",
+      "ct": "Jesus went to the Mount of Olives."
+    },
+    {
+      "verse": 2,
+      "kjv": "And early in the morning he came again into the temple, and all the people came unto him; and he sat down, and taught them.",
+      "ct": "Early the next morning, he returned to the temple. The whole crowd gathered around him, so he sat down and began teaching them."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the scribes and Pharisees brought unto him a woman taken in adultery; and when they had set her in the midst,",
+      "ct": "The religious scholars and Pharisees dragged in a woman who had been caught in adultery and made her stand in front of everyone."
+    },
+    {
+      "verse": 4,
+      "kjv": "They say unto him, Master, this woman was taken in adultery, in the very act.",
+      "ct": "They said to him, \"Teacher, this woman was caught in the very act of adultery."
+    },
+    {
+      "verse": 5,
+      "kjv": "Now Moses in the law commanded us, that such should be stoned: but what sayest thou?",
+      "ct": "\"Moses commanded in the Law that women like this should be stoned to death. What do you say?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "This they said, tempting him, that they might have to accuse him. But Jesus stooped down, and with his finger wrote on the ground, as though he heard them not.",
+      "ct": "They were asking this to trap him so they could bring charges against him. But Jesus bent down and started writing on the ground with his finger, as if he hadn't heard them."
+    },
+    {
+      "verse": 7,
+      "kjv": "So when they continued asking him, he lifted up himself, and said unto them, He that is without sin among you, let him first cast a stone at her.",
+      "ct": "When they kept pressing him for an answer, he straightened up and told them, \"Whichever one of you has never sinned — let that person throw the first stone at her.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And again he stooped down, and wrote on the ground.",
+      "ct": "Then he bent down again and continued writing on the ground."
+    },
+    {
+      "verse": 9,
+      "kjv": "And they which heard it, being convicted by their own conscience, went out one by one, beginning at the eldest, even unto the last: and Jesus was left alone, and the woman standing in the midst.",
+      "ct": "When they heard this, their own consciences convicted them, and they left one by one, starting with the oldest and ending with the youngest. Eventually only Jesus remained, with the woman still standing there."
+    },
+    {
+      "verse": 10,
+      "kjv": "When Jesus had lifted up himself, and saw none but the woman, he said unto her, Woman, where are those thine accusers? hath no man condemned thee?",
+      "ct": "Jesus straightened up and, seeing no one else but the woman, asked her, \"Where did everyone go? Hasn't a single person condemned you?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "She said, No man, Lord. And Jesus said unto her, Neither do I condemn thee: go, and sin no more.",
+      "ct": "She answered, \"No one, Lord.\" Jesus told her, \"I don't condemn you either. Go, and don't sin anymore.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.",
+      "ct": "Jesus spoke to the crowd again, saying, \"I am the light of the world. Anyone who follows me will never walk in darkness but will have the light of life.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "The Pharisees therefore said unto him, Thou bearest record of thyself; thy record is not true.",
+      "ct": "The Pharisees objected, \"You're testifying about yourself — your testimony isn't valid.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Jesus answered and said unto them, Though I bear record of myself, yet my record is true: for I know whence I came, and whither I go; but ye cannot tell whence I come, and whither I go.",
+      "ct": "Jesus replied, \"Even though I testify about myself, my testimony is valid, because I know where I came from and where I'm going. But you have no idea where I come from or where I'm going."
+    },
+    {
+      "verse": 15,
+      "kjv": "Ye judge after the flesh; I judge no man.",
+      "ct": "\"You judge by human standards. I don't judge anyone."
+    },
+    {
+      "verse": 16,
+      "kjv": "And yet if I judge, my judgment is true: for I am not alone, but I and the Father that sent me.",
+      "ct": "\"But even if I do judge, my judgment is accurate, because I'm not acting alone — the Father who sent me stands with me."
+    },
+    {
+      "verse": 17,
+      "kjv": "It is also written in your law, that the testimony of two men is true.",
+      "ct": "\"Your own Law states that the testimony of 2 witnesses is valid."
+    },
+    {
+      "verse": 18,
+      "kjv": "I am one that bear witness of myself, and the Father that sent me beareth witness of me.",
+      "ct": "\"I testify about myself, and the Father who sent me also testifies about me.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Then said they unto him, Where is thy Father? Jesus answered, Ye neither know me, nor my Father: if ye had known me, ye should have known my Father also.",
+      "ct": "They asked him, \"Where is your Father?\" Jesus answered, \"You don't know me or my Father. If you knew me, you would know my Father too.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "These words spake Jesus in the treasury, as he taught in the temple: and no man laid hands on him; for his hour was not yet come.",
+      "ct": "Jesus said all of this while teaching near the treasury in the temple. Yet no one arrested him, because his time had not yet arrived."
+    },
+    {
+      "verse": 21,
+      "kjv": "Then said Jesus again unto them, I go my way, and ye shall seek me, and shall die in your sins: whither I go, ye cannot come.",
+      "ct": "Jesus told them again, \"I'm going away, and you will search for me, but you will die in your sins. Where I'm going, you cannot follow.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Then said the Jews, Will he kill himself? because he saith, Whither I go, ye cannot come.",
+      "ct": "The Jewish leaders said, \"Is he going to kill himself? Is that what he means by 'Where I'm going, you cannot follow'?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And he said unto them, Ye are from beneath; I am from above: ye are of this world; I am not of this world.",
+      "ct": "He told them, \"You belong to what is below; I belong to what is above. You are part of this world; I am not part of this world."
+    },
+    {
+      "verse": 24,
+      "kjv": "I said therefore unto you, that ye shall die in your sins: for if ye believe not that I am he, ye shall die in your sins.",
+      "ct": "\"That is why I told you that you will die in your sins. If you don't believe that I am who I say I am, you will die in your sins.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "Then said they unto him, Who art thou? And Jesus saith unto them, Even the same that I said unto you from the beginning.",
+      "ct": "\"Who exactly are you?\" they demanded. Jesus answered, \"What I have been telling you from the very start."
+    },
+    {
+      "verse": 26,
+      "kjv": "I have many things to say and to judge of you: but he that sent me is true; and I speak to the world those things which I have heard of him.",
+      "ct": "\"I have much I could say to judge you. But the one who sent me is truthful, and I tell the world only what I have heard from him.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "They understood not that he spake to them of the Father.",
+      "ct": "They didn't realize he was talking about the Father."
+    },
+    {
+      "verse": 28,
+      "kjv": "Then said Jesus unto them, When ye have lifted up the Son of man, then shall ye know that I am he, and that I do nothing of myself; but as my Father hath taught me, I speak these things.",
+      "ct": "So Jesus said, \"When you have lifted up the Son of Man, then you will understand that I am who I say I am, and that I do nothing on my own. I only speak what my Father has taught me."
+    },
+    {
+      "verse": 29,
+      "kjv": "And he that sent me is with me: the Father hath not left me alone; for I do always those things that please him.",
+      "ct": "\"The one who sent me is always with me. The Father has never left me on my own, because I always do what pleases him.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "As he spake these words, many believed on him.",
+      "ct": "As he said these things, many people put their faith in him."
+    },
+    {
+      "verse": 31,
+      "kjv": "Then said Jesus to those Jews which believed on him, If ye continue in my word, then are ye my disciples indeed;",
+      "ct": "Jesus then said to the Jews who had believed in him, \"If you hold to my teaching, you are truly my disciples."
+    },
+    {
+      "verse": 32,
+      "kjv": "And ye shall know the truth, and the truth shall make you free.",
+      "ct": "\"You will know the truth, and the truth will set you free.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "They answered him, We be Abraham’s seed, and were never in bondage to any man: how sayest thou, Ye shall be made free?",
+      "ct": "They responded, \"We are descendants of Abraham and have never been enslaved to anyone. How can you say, 'You will be set free'?\""
+    },
+    {
+      "verse": 34,
+      "kjv": "Jesus answered them, Verily, verily, I say unto you, Whosoever committeth sin is the servant of sin.",
+      "ct": "Jesus answered them, \"Truly, truly, I tell you: everyone who commits sin is a slave to sin."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the servant abideth not in the house for ever: but the Son abideth ever.",
+      "ct": "\"A slave doesn't have a permanent place in the household, but a son belongs there forever."
+    },
+    {
+      "verse": 36,
+      "kjv": "If the Son therefore shall make you free, ye shall be free indeed.",
+      "ct": "\"So if the Son sets you free, you will be genuinely free."
+    },
+    {
+      "verse": 37,
+      "kjv": "I know that ye are Abraham’s seed; but ye seek to kill me, because my word hath no place in you.",
+      "ct": "\"I know you are Abraham's descendants. Yet you are trying to kill me because my message finds no room in your hearts."
+    },
+    {
+      "verse": 38,
+      "kjv": "I speak that which I have seen with my Father: and ye do that which ye have seen with your father.",
+      "ct": "\"I speak about what I have seen in the presence of my Father, and you carry out what you have learned from your father.\""
+    },
+    {
+      "verse": 39,
+      "kjv": "They answered and said unto him, Abraham is our father. Jesus saith unto them, If ye were Abraham’s children, ye would do the works of Abraham.",
+      "ct": "They replied, \"Abraham is our father.\" Jesus said to them, \"If you were truly Abraham's children, you would act the way Abraham did."
+    },
+    {
+      "verse": 40,
+      "kjv": "But now ye seek to kill me, a man that hath told you the truth, which I have heard of God: this did not Abraham.",
+      "ct": "\"Instead, you are trying to kill me — a man who has told you the truth that I heard from God. Abraham never did anything like that."
+    },
+    {
+      "verse": 41,
+      "kjv": "Ye do the deeds of your father. Then said they to him, We be not born of fornication; we have one Father, even God.",
+      "ct": "\"You are doing what your real father does.\" They shot back, \"We are not illegitimate children! We have one Father — God himself.\""
+    },
+    {
+      "verse": 42,
+      "kjv": "Jesus said unto them, If God were your Father, ye would love me: for I proceeded forth and came from God; neither came I of myself, but he sent me.",
+      "ct": "Jesus told them, \"If God were your Father, you would love me, because I came from God and am here now. I didn't come on my own — he sent me."
+    },
+    {
+      "verse": 43,
+      "kjv": "Why do ye not understand my speech? even because ye cannot hear my word.",
+      "ct": "\"Why can't you understand what I'm saying? It's because you are unable to accept my message."
+    },
+    {
+      "verse": 44,
+      "kjv": "Ye are of your father the devil, and the lusts of your father ye will do. He was a murderer from the beginning, and abode not in the truth, because there is no truth in him. When he speaketh a lie, he speaketh of his own: for he is a liar, and the father of it.",
+      "ct": "\"Your father is the devil, and you want to carry out his desires. He has been a murderer from the very beginning and has never stood in the truth, because there is no truth in him. Whenever he lies, he speaks his native language, because he is a liar and the originator of lies."
+    },
+    {
+      "verse": 45,
+      "kjv": "And because I tell you the truth, ye believe me not.",
+      "ct": "\"Yet because I tell you the truth, you refuse to believe me."
+    },
+    {
+      "verse": 46,
+      "kjv": "Which of you convinceth me of sin? And if I say the truth, why do ye not believe me?",
+      "ct": "\"Can any of you prove that I have sinned? If I'm speaking the truth, why don't you believe me?"
+    },
+    {
+      "verse": 47,
+      "kjv": "He that is of God heareth God’s words: ye therefore hear them not, because ye are not of God.",
+      "ct": "\"Whoever belongs to God listens to God's words. The reason you don't listen is that you don't belong to God.\""
+    },
+    {
+      "verse": 48,
+      "kjv": "Then answered the Jews, and said unto him, Say we not well that thou art a Samaritan, and hast a devil?",
+      "ct": "The Jewish leaders responded, \"Aren't we right when we say you're a Samaritan and possessed by a demon?\""
+    },
+    {
+      "verse": 49,
+      "kjv": "Jesus answered, I have not a devil; but I honour my Father, and ye do dishonour me.",
+      "ct": "Jesus answered, \"I am not possessed by a demon. I honor my Father, and you dishonor me."
+    },
+    {
+      "verse": 50,
+      "kjv": "And I seek not mine own glory: there is one that seeketh and judgeth.",
+      "ct": "\"I'm not seeking my own glory. There is one who seeks it and who judges."
+    },
+    {
+      "verse": 51,
+      "kjv": "Verily, verily, I say unto you, If a man keep my saying, he shall never see death.",
+      "ct": "\"Truly, truly, I tell you: if anyone holds to my word, they will never experience death.\""
+    },
+    {
+      "verse": 52,
+      "kjv": "Then said the Jews unto him, Now we know that thou hast a devil. Abraham is dead, and the prophets; and thou sayest, If a man keep my saying, he shall never taste of death.",
+      "ct": "The Jewish leaders said, \"Now we're certain you're possessed by a demon! Abraham died, and so did the prophets, yet you claim, 'If anyone holds to my word, they will never experience death.'"
+    },
+    {
+      "verse": 53,
+      "kjv": "Art thou greater than our father Abraham, which is dead? and the prophets are dead: whom makest thou thyself?",
+      "ct": "\"Are you greater than our ancestor Abraham, who died? The prophets died too. Who do you think you are?\""
+    },
+    {
+      "verse": 54,
+      "kjv": "Jesus answered, If I honour myself, my honour is nothing: it is my Father that honoureth me; of whom ye say, that he is your God:",
+      "ct": "Jesus replied, \"If I glorify myself, my glory means nothing. It is my Father who glorifies me — the very one you claim as your God."
+    },
+    {
+      "verse": 55,
+      "kjv": "Yet ye have not known him; but I know him: and if I should say, I know him not, I shall be a liar like unto you: but I know him, and keep his saying.",
+      "ct": "\"You don't actually know him, but I know him. If I said I didn't know him, I would be a liar just like you. But I do know him, and I obey his word."
+    },
+    {
+      "verse": 56,
+      "kjv": "Your father Abraham rejoiced to see my day: and he saw it, and was glad.",
+      "ct": "\"Your ancestor Abraham was overjoyed at the prospect of seeing my day. He saw it and was filled with joy.\""
+    },
+    {
+      "verse": 57,
+      "kjv": "Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham?",
+      "ct": "The Jewish leaders protested, \"You're not even 50 years old, and you've seen Abraham?\""
+    },
+    {
+      "verse": 58,
+      "kjv": "Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.",
+      "ct": "Jesus declared, \"Truly, truly, I tell you: before Abraham existed, I am.\""
+    },
+    {
+      "verse": 59,
+      "kjv": "Then took they up stones to cast at him: but Jesus hid himself, and went out of the temple, going through the midst of them, and so passed by.",
+      "ct": "At that, they picked up stones to throw at him, but Jesus concealed himself and left the temple, passing right through the crowd and going on his way."
+    }
+  ]
+}

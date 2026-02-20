@@ -1,0 +1,75 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 56,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.972Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Be merciful unto me, O God: for man would swallow me up; he fighting daily oppresseth me.",
+      "ct": "Show me mercy, God, because people are trying to crush me; my enemies attack and pressure me all day long."
+    },
+    {
+      "verse": 2,
+      "kjv": "Mine enemies would daily swallow me up: for they be many that fight against me, O thou most High.",
+      "ct": "Those who hate me try to devour me constantly; so many are fighting against me, Most High."
+    },
+    {
+      "verse": 3,
+      "kjv": "What time I am afraid, I will trust in thee.",
+      "ct": "Whenever I'm afraid, I will place my trust in you."
+    },
+    {
+      "verse": 4,
+      "kjv": "In God I will praise his word, in God I have put my trust; I will not fear what flesh can do unto me.",
+      "ct": "I praise God for his word; I have put my trust in God. I won't be scared of what any human can do to me."
+    },
+    {
+      "verse": 5,
+      "kjv": "Every day they wrest my words: all their thoughts are against me for evil.",
+      "ct": "All day long they twist what I say; every plan they make against me is meant to cause harm."
+    },
+    {
+      "verse": 6,
+      "kjv": "They gather themselves together, they hide themselves, they mark my steps, when they wait for my soul.",
+      "ct": "They band together and lurk in hiding, watching my every move, waiting for a chance to take my life."
+    },
+    {
+      "verse": 7,
+      "kjv": "Shall they escape by iniquity? in thine anger cast down the people, O God.",
+      "ct": "Should they get away with such wickedness? In your anger, bring these people down, God."
+    },
+    {
+      "verse": 8,
+      "kjv": "Thou tellest my wanderings: put thou my tears into thy bottle: are they not in thy book?",
+      "ct": "You have kept track of all my restless wandering. Collect my tears in your bottle — aren't they already recorded in your book?"
+    },
+    {
+      "verse": 9,
+      "kjv": "When I cry unto thee, then shall mine enemies turn back: this I know; for God is for me.",
+      "ct": "When I call out to you, my enemies will retreat. This much I know: God is on my side."
+    },
+    {
+      "verse": 10,
+      "kjv": "In God will I praise his word: in the LORD will I praise his word.",
+      "ct": "I praise God for his word; I praise the LORD for his word."
+    },
+    {
+      "verse": 11,
+      "kjv": "In God have I put my trust: I will not be afraid what man can do unto me.",
+      "ct": "I have put my trust in God. I will not be afraid of what anyone can do to me."
+    },
+    {
+      "verse": 12,
+      "kjv": "Thy vows are upon me, O God: I will render praises unto thee.",
+      "ct": "I am bound by the promises I made to you, God; I will offer you my praise."
+    },
+    {
+      "verse": 13,
+      "kjv": "For thou hast delivered my soul from death: wilt not thou deliver my feet from falling, that I may walk before God in the light of the living?",
+      "ct": "For you have rescued my soul from death. Won't you also keep my feet from stumbling, so that I can live in God's presence in the light of life?"
+    }
+  ]
+}

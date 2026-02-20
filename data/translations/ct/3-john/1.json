@@ -1,0 +1,80 @@
+{
+  "book": "3-john",
+  "book_name": "3 John",
+  "chapter": 1,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.492Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The elder unto the wellbeloved Gaius, whom I love in the truth.",
+      "ct": "From the elder, to my dear friend Gaius, whom I genuinely love."
+    },
+    {
+      "verse": 2,
+      "kjv": "Beloved, I wish above all things that thou mayest prosper and be in health, even as thy soul prospereth.",
+      "ct": "Dear friend, my greatest hope is that you are doing well in every way and that your health is as strong as your soul is."
+    },
+    {
+      "verse": 3,
+      "kjv": "For I rejoiced greatly, when the brethren came and testified of the truth that is in thee, even as thou walkest in the truth.",
+      "ct": "It brought me tremendous joy when some brothers arrived and shared how you are living according to the truth — that you continue to walk in the truth."
+    },
+    {
+      "verse": 4,
+      "kjv": "I have no greater joy than to hear that my children walk in truth.",
+      "ct": "Nothing makes me happier than hearing that my children are living in the truth."
+    },
+    {
+      "verse": 5,
+      "kjv": "Beloved, thou doest faithfully whatsoever thou doest to the brethren, and to strangers;",
+      "ct": "Dear friend, you are showing real faithfulness in everything you do for the brothers, especially for those you don't even know."
+    },
+    {
+      "verse": 6,
+      "kjv": "Which have borne witness of thy charity before the church: whom if thou bring forward on their journey after a godly sort, thou shalt do well:",
+      "ct": "They have spoken about your love in front of the church. You will do a good thing if you help them continue on their journey in a way that honors God."
+    },
+    {
+      "verse": 7,
+      "kjv": "Because that for his name’s sake they went forth, taking nothing of the Gentiles.",
+      "ct": "They set out for the sake of his name, and they accepted no support from non-believers."
+    },
+    {
+      "verse": 8,
+      "kjv": "We therefore ought to receive such, that we might be fellowhelpers to the truth.",
+      "ct": "So we should welcome people like them, so that we become partners in spreading the truth."
+    },
+    {
+      "verse": 9,
+      "kjv": "I wrote unto the church: but Diotrephes, who loveth to have the preeminence among them, receiveth us not.",
+      "ct": "I wrote a letter to the church, but Diotrephes, who loves being in charge, refuses to acknowledge us."
+    },
+    {
+      "verse": 10,
+      "kjv": "Wherefore, if I come, I will remember his deeds which he doeth, prating against us with malicious words: and not content therewith, neither doth he himself receive the brethren, and forbiddeth them that would, and casteth them out of the church.",
+      "ct": "So if I come, I will call attention to what he has been doing — spreading malicious nonsense about us. And that's not all: he also refuses to welcome the brothers himself, stops those who want to, and throws them out of the church."
+    },
+    {
+      "verse": 11,
+      "kjv": "Beloved, follow not that which is evil, but that which is good. He that doeth good is of God: but he that doeth evil hath not seen God.",
+      "ct": "Dear friend, don't imitate what is evil — imitate what is good. Whoever does good belongs to God, but whoever does evil has never truly known God."
+    },
+    {
+      "verse": 12,
+      "kjv": "Demetrius hath good report of all men, and of the truth itself: yea, and we also bear record; and ye know that our record is true.",
+      "ct": "Everyone speaks well of Demetrius, and the truth itself confirms it. We also vouch for him, and you know that our testimony is reliable."
+    },
+    {
+      "verse": 13,
+      "kjv": "I had many things to write, but I will not with ink and pen write unto thee:",
+      "ct": "I have a lot more to say to you, but I'd rather not put it all down with ink and pen."
+    },
+    {
+      "verse": 14,
+      "kjv": "But I trust I shall shortly see thee, and we shall speak face to face. Peace be to thee. Our friends salute thee. Greet the friends by name.",
+      "ct": "Instead, I hope to see you very soon, and we'll talk in person. Peace to you. Our friends here send their greetings. Please greet each of our friends there by name."
+    }
+  ]
+}

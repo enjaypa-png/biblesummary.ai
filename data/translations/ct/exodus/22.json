@@ -1,0 +1,165 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 22,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.530Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen for an ox, and four sheep for a sheep.",
+      "ct": "If someone steals an ox or a sheep and slaughters it or sells it, he must pay back 5 oxen for the ox and 4 sheep for the sheep."
+    },
+    {
+      "verse": 2,
+      "kjv": "If a thief be found breaking up, and be smitten that he die, there shall no blood be shed for him.",
+      "ct": "If a thief is caught breaking in at night and is struck and killed, the one who killed him is not guilty of bloodshed."
+    },
+    {
+      "verse": 3,
+      "kjv": "If the sun be risen upon him, there shall be blood shed for him; for he should make full restitution; if he have nothing, then he shall be sold for his theft.",
+      "ct": "But if it happens after sunrise, the killer is guilty of bloodshed. The thief must make full restitution, and if he has nothing, he must be sold as a slave to pay for what he stole."
+    },
+    {
+      "verse": 4,
+      "kjv": "If the theft be certainly found in his hand alive, whether it be ox, or ass, or sheep; he shall restore double.",
+      "ct": "If the stolen animal is found alive in his possession — whether it's an ox, a donkey, or a sheep — he must pay back double."
+    },
+    {
+      "verse": 5,
+      "kjv": "If a man shall cause a field or vineyard to be eaten, and shall put in his beast, and shall feed in another man’s field; of the best of his own field, and of the best of his own vineyard, shall he make restitution.",
+      "ct": "If someone lets his livestock graze in a field or vineyard and they feed in another person's field, he must make restitution from the best produce of his own field and his own vineyard."
+    },
+    {
+      "verse": 6,
+      "kjv": "If fire break out, and catch in thorns, so that the stacks of corn, or the standing corn, or the field, be consumed therewith; he that kindled the fire shall surely make restitution.",
+      "ct": "If a fire gets out of control and spreads through thornbushes so that it burns up stacked grain, standing grain, or the whole field, the person who started the fire must make full restitution."
+    },
+    {
+      "verse": 7,
+      "kjv": "If a man shall deliver unto his neighbour money or stuff to keep, and it be stolen out of the man’s house; if the thief be found, let him pay double.",
+      "ct": "If someone gives money or goods to a neighbor for safekeeping and they are stolen from that person's house, the thief — if caught — must pay back double."
+    },
+    {
+      "verse": 8,
+      "kjv": "If the thief be not found, then the master of the house shall be brought unto the judges, to see whether he have put his hand unto his neighbour’s goods.",
+      "ct": "If the thief is not caught, the owner of the house must appear before the judges to determine whether he helped himself to his neighbor's property."
+    },
+    {
+      "verse": 9,
+      "kjv": "For all manner of trespass, whether it be for ox, for ass, for sheep, for raiment, or for any manner of lost thing, which another challengeth to be his, the cause of both parties shall come before the judges; and whom the judges shall condemn, he shall pay double unto his neighbour.",
+      "ct": "In every dispute over ownership — whether it involves an ox, a donkey, a sheep, clothing, or any lost item that someone claims as his own — both parties must bring their case before the judges. Whoever the judges find guilty must pay double to the other person."
+    },
+    {
+      "verse": 10,
+      "kjv": "If a man deliver unto his neighbour an ass, or an ox, or a sheep, or any beast, to keep; and it die, or be hurt, or driven away, no man seeing it:",
+      "ct": "If someone entrusts a donkey, an ox, a sheep, or any other animal to a neighbor for safekeeping, and it dies, gets injured, or is carried off with no witnesses,"
+    },
+    {
+      "verse": 11,
+      "kjv": "Then shall an oath of the LORD be between them both, that he hath not put his hand unto his neighbour’s goods; and the owner of it shall accept thereof, and he shall not make it good.",
+      "ct": "then the dispute must be settled by an oath before the LORD that the caretaker did not take the neighbor's property. The owner must accept this oath, and the caretaker will not have to pay anything."
+    },
+    {
+      "verse": 12,
+      "kjv": "And if it be stolen from him, he shall make restitution unto the owner thereof.",
+      "ct": "But if the animal was stolen from him, he must make restitution to the owner."
+    },
+    {
+      "verse": 13,
+      "kjv": "If it be torn in pieces, then let him bring it for witness, and he shall not make good that which was torn.",
+      "ct": "If it was torn apart by a wild animal, he should bring the remains as evidence, and he will not have to pay for what was killed."
+    },
+    {
+      "verse": 14,
+      "kjv": "And if a man borrow ought of his neighbour, and it be hurt, or die, the owner thereof being not with it, he shall surely make it good.",
+      "ct": "If someone borrows an animal from a neighbor and it gets injured or dies while the owner is not present, the borrower must make full restitution."
+    },
+    {
+      "verse": 15,
+      "kjv": "But if the owner thereof be with it, he shall not make it good: if it be an hired thing, it came for his hire.",
+      "ct": "But if the owner was present, the borrower does not have to pay. If it was a rented animal, the loss is covered by the rental fee."
+    },
+    {
+      "verse": 16,
+      "kjv": "And if a man entice a maid that is not betrothed, and lie with her, he shall surely endow her to be his wife.",
+      "ct": "If a man seduces a young woman who is not engaged and has relations with her, he must pay the bride price and marry her."
+    },
+    {
+      "verse": 17,
+      "kjv": "If her father utterly refuse to give her unto him, he shall pay money according to the dowry of virgins.",
+      "ct": "If her father absolutely refuses to give her to him, the man must still pay the amount equal to the bride price for virgins."
+    },
+    {
+      "verse": 18,
+      "kjv": "Thou shalt not suffer a witch to live.",
+      "ct": "You must not allow a sorceress to live."
+    },
+    {
+      "verse": 19,
+      "kjv": "Whosoever lieth with a beast shall surely be put to death.",
+      "ct": "Whoever has relations with an animal must be put to death."
+    },
+    {
+      "verse": 20,
+      "kjv": "He that sacrificeth unto any god, save unto the LORD only, he shall be utterly destroyed.",
+      "ct": "Anyone who offers sacrifices to any god other than the LORD alone must be completely destroyed."
+    },
+    {
+      "verse": 21,
+      "kjv": "Thou shalt neither vex a stranger, nor oppress him: for ye were strangers in the land of Egypt.",
+      "ct": "You must not mistreat or oppress a foreigner, because you yourselves were foreigners in the land of Egypt."
+    },
+    {
+      "verse": 22,
+      "kjv": "Ye shall not afflict any widow, or fatherless child.",
+      "ct": "You must not take advantage of any widow or orphan."
+    },
+    {
+      "verse": 23,
+      "kjv": "If thou afflict them in any wise, and they cry at all unto me, I will surely hear their cry;",
+      "ct": "If you mistreat them in any way and they cry out to me, I will certainly hear their cry."
+    },
+    {
+      "verse": 24,
+      "kjv": "And my wrath shall wax hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless.",
+      "ct": "My anger will burn hot, and I will kill you with the sword. Then your own wives will become widows and your own children will become orphans."
+    },
+    {
+      "verse": 25,
+      "kjv": "If thou lend money to any of my people that is poor by thee, thou shalt not be to him as an usurer, neither shalt thou lay upon him usury.",
+      "ct": "If you lend money to any of my people who are poor among you, you must not act like a moneylender toward them. You must not charge them interest."
+    },
+    {
+      "verse": 26,
+      "kjv": "If thou at all take thy neighbour’s raiment to pledge, thou shalt deliver it unto him by that the sun goeth down:",
+      "ct": "If you take your neighbor's clothing as collateral for a loan, you must return it to him before the sun goes down."
+    },
+    {
+      "verse": 27,
+      "kjv": "For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it shall come to pass, when he crieth unto me, that I will hear; for I am gracious.",
+      "ct": "That clothing may be the only covering he has — the only thing he has to wrap around his body. What else will he sleep in? When he cries out to me, I will listen, because I am gracious."
+    },
+    {
+      "verse": 28,
+      "kjv": "Thou shalt not revile the gods, nor curse the ruler of thy people.",
+      "ct": "You must not speak against God, and you must not curse the ruler of your people."
+    },
+    {
+      "verse": 29,
+      "kjv": "Thou shalt not delay to offer the first of thy ripe fruits, and of thy liquors: the firstborn of thy sons shalt thou give unto me.",
+      "ct": "You must not hold back the offering from your harvest or your presses. You must give me your firstborn sons."
+    },
+    {
+      "verse": 30,
+      "kjv": "Likewise shalt thou do with thine oxen, and with thy sheep: seven days it shall be with his dam; on the eighth day thou shalt give it me.",
+      "ct": "You must do the same with your cattle and your sheep. The young animal will stay with its mother for 7 days, and on the 8th day you must give it to me."
+    },
+    {
+      "verse": 31,
+      "kjv": "And ye shall be holy men unto me: neither shall ye eat any flesh that is torn of beasts in the field; ye shall cast it to the dogs.",
+      "ct": "You are to be my holy people. You must not eat the meat of an animal torn apart by wild beasts in the field — throw it to the dogs."
+    }
+  ]
+}

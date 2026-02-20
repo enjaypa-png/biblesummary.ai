@@ -1,0 +1,215 @@
+{
+  "book": "job",
+  "book_name": "Job",
+  "chapter": 38,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.935Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then the LORD answered Job out of the whirlwind, and said,",
+      "ct": "Then the LORD spoke to Job from the whirlwind and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Who is this that darkeneth counsel by words without knowledge?",
+      "ct": "\"Who is this that clouds my purposes with ignorant words?"
+    },
+    {
+      "verse": 3,
+      "kjv": "Gird up now thy loins like a man; for I will demand of thee, and answer thou me.",
+      "ct": "Prepare yourself like a man, because I am going to question you, and you will answer me."
+    },
+    {
+      "verse": 4,
+      "kjv": "Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.",
+      "ct": "Where were you when I established the foundations of the earth? Tell me, if you actually understand."
+    },
+    {
+      "verse": 5,
+      "kjv": "Who hath laid the measures thereof, if thou knowest? or who hath stretched the line upon it?",
+      "ct": "Who determined its dimensions — do you know? Who stretched a measuring line across it?"
+    },
+    {
+      "verse": 6,
+      "kjv": "Whereupon are the foundations thereof fastened? or who laid the corner stone thereof;",
+      "ct": "What are its foundations anchored to? Who set its cornerstone in place"
+    },
+    {
+      "verse": 7,
+      "kjv": "When the morning stars sang together, and all the sons of God shouted for joy?",
+      "ct": "while the morning stars sang in harmony and all the sons of God erupted in celebration?"
+    },
+    {
+      "verse": 8,
+      "kjv": "Or who shut up the sea with doors, when it brake forth, as if it had issued out of the womb?",
+      "ct": "Who held back the sea behind barriers when it burst out, as though born from a womb?"
+    },
+    {
+      "verse": 9,
+      "kjv": "When I made the cloud the garment thereof, and thick darkness a swaddlingband for it,",
+      "ct": "I wrapped it in clouds as its clothing and thick darkness as its blanket."
+    },
+    {
+      "verse": 10,
+      "kjv": "And brake up for it my decreed place, and set bars and doors,",
+      "ct": "I established its boundaries, putting up gates and bars,"
+    },
+    {
+      "verse": 11,
+      "kjv": "And said, Hitherto shalt thou come, but no further: and here shall thy proud waves be stayed?",
+      "ct": "and I said, 'You may come this far but no farther — here your surging waves must stop.'"
+    },
+    {
+      "verse": 12,
+      "kjv": "Hast thou commanded the morning since thy days; and caused the dayspring to know his place;",
+      "ct": "Have you ever, in all your life, commanded the morning to begin or assigned the dawn its position,"
+    },
+    {
+      "verse": 13,
+      "kjv": "That it might take hold of the ends of the earth, that the wicked might be shaken out of it?",
+      "ct": "so that it grips the edges of the earth and shakes the wicked out of it?"
+    },
+    {
+      "verse": 14,
+      "kjv": "It is turned as clay to the seal; and they stand as a garment.",
+      "ct": "The earth takes shape like clay pressed under a seal, and its features stand out like the folds of a garment."
+    },
+    {
+      "verse": 15,
+      "kjv": "And from the wicked their light is withholden, and the high arm shall be broken.",
+      "ct": "The wicked lose the light they rely on, and their raised fist of power is shattered."
+    },
+    {
+      "verse": 16,
+      "kjv": "Hast thou entered into the springs of the sea? or hast thou walked in the search of the depth?",
+      "ct": "Have you traveled to the springs at the bottom of the sea? Have you walked along the floor of the deep?"
+    },
+    {
+      "verse": 17,
+      "kjv": "Have the gates of death been opened unto thee? or hast thou seen the doors of the shadow of death?",
+      "ct": "Have the gates of death been revealed to you? Have you seen the entrance to the realm of utter darkness?"
+    },
+    {
+      "verse": 18,
+      "kjv": "Hast thou perceived the breadth of the earth? declare if thou knowest it all.",
+      "ct": "Do you grasp the full extent of the earth? Tell me, if you know all of this."
+    },
+    {
+      "verse": 19,
+      "kjv": "Where is the way where light dwelleth? and as for darkness, where is the place thereof,",
+      "ct": "Where does light have its home? And darkness — where does it reside,"
+    },
+    {
+      "verse": 20,
+      "kjv": "That thou shouldest take it to the bound thereof, and that thou shouldest know the paths to the house thereof?",
+      "ct": "so that you could escort each one back to its territory and know the paths leading to its dwelling?"
+    },
+    {
+      "verse": 21,
+      "kjv": "Knowest thou it, because thou wast then born? or because the number of thy days is great?",
+      "ct": "Surely you must know, since you were already alive back then — after all, you've lived so many years!"
+    },
+    {
+      "verse": 22,
+      "kjv": "Hast thou entered into the treasures of the snow? or hast thou seen the treasures of the hail,",
+      "ct": "Have you visited the storehouses of the snow? Have you seen where the hail is kept,"
+    },
+    {
+      "verse": 23,
+      "kjv": "Which I have reserved against the time of trouble, against the day of battle and war?",
+      "ct": "which I have stockpiled for times of crisis, for days of conflict and war?"
+    },
+    {
+      "verse": 24,
+      "kjv": "By what way is the light parted, which scattereth the east wind upon the earth?",
+      "ct": "By what route is light distributed, or the east wind scattered across the earth?"
+    },
+    {
+      "verse": 25,
+      "kjv": "Who hath divided a watercourse for the overflowing of waters, or a way for the lightning of thunder;",
+      "ct": "Who carved out channels for the torrents of rain, or a path for the thunderbolt,"
+    },
+    {
+      "verse": 26,
+      "kjv": "To cause it to rain on the earth, where no man is; on the wilderness, wherein there is no man;",
+      "ct": "to bring rain on land where no one lives, on deserts with not a single person,"
+    },
+    {
+      "verse": 27,
+      "kjv": "To satisfy the desolate and waste ground; and to cause the bud of the tender herb to spring forth?",
+      "ct": "to drench the barren wasteland and make fresh green shoots sprout from the ground?"
+    },
+    {
+      "verse": 28,
+      "kjv": "Hath the rain a father? or who hath begotten the drops of dew?",
+      "ct": "Does the rain have a father? Who fathered the drops of dew?"
+    },
+    {
+      "verse": 29,
+      "kjv": "Out of whose womb came the ice? and the hoary frost of heaven, who hath gendered it?",
+      "ct": "From whose womb did the ice emerge? Who gave birth to the frost of heaven?"
+    },
+    {
+      "verse": 30,
+      "kjv": "The waters are hid as with a stone, and the face of the deep is frozen.",
+      "ct": "Water becomes hard as stone, and the surface of the deep freezes solid."
+    },
+    {
+      "verse": 31,
+      "kjv": "Canst thou bind the sweet influences of Pleiades, or loose the bands of Orion?",
+      "ct": "Can you fasten the chains of the Pleiades or loosen the belt of Orion?"
+    },
+    {
+      "verse": 32,
+      "kjv": "Canst thou bring forth Mazzaroth in his season? or canst thou guide Arcturus with his sons?",
+      "ct": "Can you bring out the constellations in their proper season, or guide Arcturus and its companion stars?"
+    },
+    {
+      "verse": 33,
+      "kjv": "Knowest thou the ordinances of heaven? canst thou set the dominion thereof in the earth?",
+      "ct": "Do you know the laws that govern the heavens? Can you impose their authority on the earth?"
+    },
+    {
+      "verse": 34,
+      "kjv": "Canst thou lift up thy voice to the clouds, that abundance of waters may cover thee?",
+      "ct": "Can you shout orders to the clouds and make a flood of water pour down on you?"
+    },
+    {
+      "verse": 35,
+      "kjv": "Canst thou send lightnings, that they may go, and say unto thee, Here we are?",
+      "ct": "Can you dispatch bolts of lightning so they go and report back to you, 'Here we are'?"
+    },
+    {
+      "verse": 36,
+      "kjv": "Who hath put wisdom in the inward parts? or who hath given understanding to the heart?",
+      "ct": "Who placed wisdom deep within a person? Who gave the mind its ability to understand?"
+    },
+    {
+      "verse": 37,
+      "kjv": "Who can number the clouds in wisdom? or who can stay the bottles of heaven,",
+      "ct": "Who has the wisdom to count the clouds? Who can tip over heaven's water jars"
+    },
+    {
+      "verse": 38,
+      "kjv": "When the dust groweth into hardness, and the clods cleave fast together?",
+      "ct": "when the dust hardens into a mass and the clumps of soil stick tightly together?"
+    },
+    {
+      "verse": 39,
+      "kjv": "Wilt thou hunt the prey for the lion? or fill the appetite of the young lions,",
+      "ct": "Can you hunt prey for the lioness or satisfy the hunger of young lions"
+    },
+    {
+      "verse": 40,
+      "kjv": "When they couch in their dens, and abide in the covert to lie in wait?",
+      "ct": "when they crouch in their dens or lie hidden in the brush, waiting to ambush?"
+    },
+    {
+      "verse": 41,
+      "kjv": "Who provideth for the raven his food? when his young ones cry unto God, they wander for lack of meat.",
+      "ct": "Who provides food for the raven? Its young cry out to God, wandering around desperate for something to eat.\""
+    }
+  ]
+}

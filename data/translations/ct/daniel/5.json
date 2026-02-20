@@ -1,0 +1,165 @@
+{
+  "book": "daniel",
+  "book_name": "Daniel",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.219Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.",
+      "ct": "King Belshazzar hosted a massive banquet for 1,000 of his nobles and drank wine with them."
+    },
+    {
+      "verse": 2,
+      "kjv": "Belshazzar, whiles he tasted the wine, commanded to bring the golden and silver vessels which his father Nebuchadnezzar had taken out of the temple which was in Jerusalem; that the king, and his princes, his wives, and his concubines, might drink therein.",
+      "ct": "While Belshazzar was drinking the wine, he ordered that the gold and silver cups be brought out — the ones his father Nebuchadnezzar had taken from the temple in Jerusalem — so that the king, his nobles, his wives, and his secondary wives could drink from them."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then they brought the golden vessels that were taken out of the temple of the house of God which was at Jerusalem; and the king, and his princes, his wives, and his concubines, drank in them.",
+      "ct": "So they brought out the gold cups that had been taken from the temple, the house of God in Jerusalem, and the king, his nobles, his wives, and his secondary wives drank from them."
+    },
+    {
+      "verse": 4,
+      "kjv": "They drank wine, and praised the gods of gold, and of silver, of brass, of iron, of wood, and of stone.",
+      "ct": "As they drank their wine, they offered praise to gods made of gold, silver, bronze, iron, wood, and stone."
+    },
+    {
+      "verse": 5,
+      "kjv": "In the same hour came forth fingers of a man’s hand, and wrote over against the candlestick upon the plaister of the wall of the king’s palace: and the king saw the part of the hand that wrote.",
+      "ct": "At that very moment, the fingers of a human hand appeared and began writing on the plaster wall of the royal palace, near the lampstand. The king watched the hand as it wrote."
+    },
+    {
+      "verse": 6,
+      "kjv": "Then the king’s countenance was changed, and his thoughts troubled him, so that the joints of his loins were loosed, and his knees smote one against another.",
+      "ct": "The king's face went pale, and his thoughts terrified him. His legs went weak, and his knees knocked together."
+    },
+    {
+      "verse": 7,
+      "kjv": "The king cried aloud to bring in the astrologers, the Chaldeans, and the soothsayers. And the king spake, and said to the wise men of Babylon, Whosoever shall read this writing, and shew me the interpretation thereof, shall be clothed with scarlet, and have a chain of gold about his neck, and shall be the third ruler in the kingdom.",
+      "ct": "The king shouted for the astrologers, the Chaldean scholars, and the fortune-tellers to be brought in. He spoke to the wise men of Babylon and said, \"Whoever can read this writing and explain its meaning to me will be dressed in purple robes, given a gold chain for his neck, and made the 3rd highest ruler in the kingdom.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Then came in all the king’s wise men: but they could not read the writing, nor make known to the king the interpretation thereof.",
+      "ct": "All the king's wise men came in, but none of them could read the writing or explain its meaning to the king."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then was king Belshazzar greatly troubled, and his countenance was changed in him, and his lords were astonied.",
+      "ct": "King Belshazzar became deeply disturbed, his face grew even paler, and his nobles were completely baffled."
+    },
+    {
+      "verse": 10,
+      "kjv": "Now the queen by reason of the words of the king and his lords came into the banquet house: and the queen spake and said, O king, live for ever: let not thy thoughts trouble thee, nor let thy countenance be changed:",
+      "ct": "When the queen mother heard the commotion from the king and his nobles, she came into the banquet hall. She said, \"Long live the king! Don't let your thoughts frighten you, and don't look so alarmed."
+    },
+    {
+      "verse": 11,
+      "kjv": "There is a man in thy kingdom, in whom is the spirit of the holy gods; and in the days of thy father light and understanding and wisdom, like the wisdom of the gods, was found in him; whom the king Nebuchadnezzar thy father, the king, I say, thy father, made master of the magicians, astrologers, Chaldeans, and soothsayers;",
+      "ct": "There is a man in your kingdom who has the spirit of the holy gods in him. During your father's reign, he was found to have insight, understanding, and wisdom like the wisdom of the gods. King Nebuchadnezzar — your father, the king himself — appointed him chief over the magicians, astrologers, Chaldean scholars, and fortune-tellers."
+    },
+    {
+      "verse": 12,
+      "kjv": "Forasmuch as an excellent spirit, and knowledge, and understanding, interpreting of dreams, and shewing of hard sentences, and dissolving of doubts, were found in the same Daniel, whom the king named Belteshazzar: now let Daniel be called, and he will shew the interpretation.",
+      "ct": "This man Daniel, whom the king renamed Belteshazzar, was found to have an extraordinary spirit, along with knowledge, understanding, the ability to interpret dreams, explain riddles, and solve difficult problems. Send for Daniel, and he will explain the meaning.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then was Daniel brought in before the king. And the king spake and said unto Daniel, Art thou that Daniel, which art of the children of the captivity of Judah, whom the king my father brought out of Jewry?",
+      "ct": "So Daniel was brought before the king. The king asked him, \"Are you the Daniel who is one of the exiles from Judah, whom my father the king brought from Judea?"
+    },
+    {
+      "verse": 14,
+      "kjv": "I have even heard of thee, that the spirit of the gods is in thee, and that light and understanding and excellent wisdom is found in thee.",
+      "ct": "I've been told that the spirit of the gods is in you, and that you possess insight, understanding, and extraordinary wisdom."
+    },
+    {
+      "verse": 15,
+      "kjv": "And now the wise men, the astrologers, have been brought in before me, that they should read this writing, and make known unto me the interpretation thereof: but they could not shew the interpretation of the thing:",
+      "ct": "The wise men and astrologers were just brought before me to read this writing and explain its meaning, but they couldn't interpret it."
+    },
+    {
+      "verse": 16,
+      "kjv": "And I have heard of thee, that thou canst make interpretations, and dissolve doubts: now if thou canst read the writing, and make known to me the interpretation thereof, thou shalt be clothed with scarlet, and have a chain of gold about thy neck, and shalt be the third ruler in the kingdom.",
+      "ct": "However, I've heard that you can provide interpretations and solve difficult problems. If you can read this writing and tell me what it means, you will be dressed in purple robes, given a gold chain for your neck, and made the 3rd highest ruler in the kingdom.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Then Daniel answered and said before the king, Let thy gifts be to thyself, and give thy rewards to another; yet I will read the writing unto the king, and make known to him the interpretation.",
+      "ct": "Daniel replied to the king, \"Keep your gifts for yourself, and give your rewards to someone else. But I will read the writing for the king and explain what it means."
+    },
+    {
+      "verse": 18,
+      "kjv": "O thou king, the most high God gave Nebuchadnezzar thy father a kingdom, and majesty, and glory, and honour:",
+      "ct": "Your Majesty, the Most High God granted your father Nebuchadnezzar a kingdom, along with greatness, glory, and honor."
+    },
+    {
+      "verse": 19,
+      "kjv": "And for the majesty that he gave him, all people, nations, and languages, trembled and feared before him: whom he would he slew; and whom he would he kept alive; and whom he would he set up; and whom he would he put down.",
+      "ct": "Because of the greatness God gave him, people of every nation and language trembled in fear before him. He killed whoever he wanted and spared whoever he wanted. He promoted whoever he wanted and demoted whoever he wanted."
+    },
+    {
+      "verse": 20,
+      "kjv": "But when his heart was lifted up, and his mind hardened in pride, he was deposed from his kingly throne, and they took his glory from him:",
+      "ct": "But when he became arrogant and his mind grew stubborn with pride, he was removed from his royal throne, and his glory was stripped from him."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he was driven from the sons of men; and his heart was made like the beasts, and his dwelling was with the wild asses: they fed him with grass like oxen, and his body was wet with the dew of heaven; till he knew that the most high God ruled in the kingdom of men, and that he appointeth over it whomsoever he will.",
+      "ct": "He was driven away from human society. His mind became like that of an animal, and he lived among the wild donkeys. He was fed grass like cattle, and his body was drenched with the dew of heaven — until he acknowledged that the Most High God rules over human kingdoms and places over them whoever he chooses."
+    },
+    {
+      "verse": 22,
+      "kjv": "And thou his son, O Belshazzar, hast not humbled thine heart, though thou knewest all this;",
+      "ct": "But you, his son Belshazzar, have not humbled yourself, even though you knew all of this."
+    },
+    {
+      "verse": 23,
+      "kjv": "But hast lifted up thyself against the Lord of heaven; and they have brought the vessels of his house before thee, and thou, and thy lords, thy wives, and thy concubines, have drunk wine in them; and thou hast praised the gods of silver, and gold, of brass, iron, wood, and stone, which see not, nor hear, nor know: and the God in whose hand thy breath is, and whose are all thy ways, hast thou not glorified:",
+      "ct": "Instead, you have set yourself up against the Lord of heaven. You had the cups from his temple brought to you, and you, your nobles, your wives, and your secondary wives drank wine from them. You praised gods of silver, gold, bronze, iron, wood, and stone — gods that cannot see, hear, or understand anything. Yet the God who holds your very breath in his hands and controls your entire destiny — him you have refused to honor."
+    },
+    {
+      "verse": 24,
+      "kjv": "Then was the part of the hand sent from him; and this writing was written.",
+      "ct": "That is why the hand was sent from him, and this message was written."
+    },
+    {
+      "verse": 25,
+      "kjv": "And this is the writing that was written, MENE, MENE, TEKEL, UPHARSIN.",
+      "ct": "This is what was written: MENE, MENE, TEKEL, UPHARSIN."
+    },
+    {
+      "verse": 26,
+      "kjv": "This is the interpretation of the thing: MENE; God hath numbered thy kingdom, and finished it.",
+      "ct": "Here is what it means: MENE — God has counted the days of your reign and brought it to an end."
+    },
+    {
+      "verse": 27,
+      "kjv": "TEKEL; Thou art weighed in the balances, and art found wanting.",
+      "ct": "TEKEL — You have been weighed on the scales and found to be lacking."
+    },
+    {
+      "verse": 28,
+      "kjv": "PERES; Thy kingdom is divided, and given to the Medes and Persians.",
+      "ct": "PERES — Your kingdom has been split apart and handed over to the Medes and Persians.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "Then commanded Belshazzar, and they clothed Daniel with scarlet, and put a chain of gold about his neck, and made a proclamation concerning him, that he should be the third ruler in the kingdom.",
+      "ct": "Belshazzar then gave the order, and Daniel was dressed in purple robes, a gold chain was placed around his neck, and a proclamation was issued declaring him the 3rd highest ruler in the kingdom."
+    },
+    {
+      "verse": 30,
+      "kjv": "In that night was Belshazzar the king of the Chaldeans slain.",
+      "ct": "That very night, Belshazzar, king of the Chaldeans, was killed."
+    },
+    {
+      "verse": 31,
+      "kjv": "And Darius the Median took the kingdom, being about threescore and two years old.",
+      "ct": "Darius the Mede took over the kingdom. He was about 62 years old."
+    }
+  ]
+}

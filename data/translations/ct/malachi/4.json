@@ -1,0 +1,40 @@
+{
+  "book": "malachi",
+  "book_name": "Malachi",
+  "chapter": 4,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.282Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "For, behold, the day cometh, that shall burn as an oven; and all the proud, yea, and all that do wickedly, shall be stubble: and the day that cometh shall burn them up, saith the LORD of hosts, that it shall leave them neither root nor branch.",
+      "ct": "Pay attention — the day is coming that will blaze like a furnace. Every arrogant person and everyone who practices evil will be like dry straw. That coming day will completely consume them, says the LORD of hosts, leaving them with neither root nor branch."
+    },
+    {
+      "verse": 2,
+      "kjv": "But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall.",
+      "ct": "But for you who are wholeheartedly dedicated to my name, the Sun of righteousness will rise with healing in his wings. You will go out and leap like calves released from their stalls."
+    },
+    {
+      "verse": 3,
+      "kjv": "And ye shall tread down the wicked; for they shall be ashes under the soles of your feet in the day that I shall do this, saith the LORD of hosts.",
+      "ct": "You will trample the wicked, because they will be nothing but ashes beneath your feet on the day I act, says the LORD of hosts."
+    },
+    {
+      "verse": 4,
+      "kjv": "Remember ye the law of Moses my servant, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.",
+      "ct": "Hold on to the law of my servant Moses, which I gave him at Horeb for all of Israel — the statutes and the judgments."
+    },
+    {
+      "verse": 5,
+      "kjv": "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:",
+      "ct": "Look — I will send you the prophet Elijah before the great and terrifying day of the LORD arrives."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.",
+      "ct": "He will restore the hearts of fathers to their children, and the hearts of children to their fathers, so that I will not have to come and strike the earth with a curse."
+    }
+  ]
+}

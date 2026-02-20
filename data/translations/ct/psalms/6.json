@@ -1,0 +1,60 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 6,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.944Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O LORD, rebuke me not in thine anger, neither chasten me in thy hot displeasure.",
+      "ct": "LORD, don't correct me while you're angry, and don't discipline me in your burning frustration."
+    },
+    {
+      "verse": 2,
+      "kjv": "Have mercy upon me, O LORD; for I am weak: O LORD, heal me; for my bones are vexed.",
+      "ct": "Show me mercy, LORD, because I am fading. LORD, heal me — my body is in agony."
+    },
+    {
+      "verse": 3,
+      "kjv": "My soul is also sore vexed: but thou, O LORD, how long?",
+      "ct": "My soul is deeply tormented too. But you, LORD — how much longer will this last?"
+    },
+    {
+      "verse": 4,
+      "kjv": "Return, O LORD, deliver my soul: oh save me for thy mercies’ sake.",
+      "ct": "Come back to me, LORD, and rescue my soul. Save me because of your mercy."
+    },
+    {
+      "verse": 5,
+      "kjv": "For in death there is no remembrance of thee: in the grave who shall give thee thanks?",
+      "ct": "No one remembers you after they die. Who can thank you from the grave?"
+    },
+    {
+      "verse": 6,
+      "kjv": "I am weary with my groaning; all the night make I my bed to swim; I water my couch with my tears.",
+      "ct": "I'm exhausted from my groaning. Every night I drench my bed — I soak my pillow with tears."
+    },
+    {
+      "verse": 7,
+      "kjv": "Mine eye is consumed because of grief; it waxeth old because of all mine enemies.",
+      "ct": "My eyes have grown weak from sorrow; they've aged because of all my enemies."
+    },
+    {
+      "verse": 8,
+      "kjv": "Depart from me, all ye workers of iniquity; for the LORD hath heard the voice of my weeping.",
+      "ct": "Get away from me, all of you who practice evil, because the LORD has heard my desperate crying."
+    },
+    {
+      "verse": 9,
+      "kjv": "The LORD hath heard my supplication; the LORD will receive my prayer.",
+      "ct": "The LORD has heard my plea for help; the LORD will accept my prayer."
+    },
+    {
+      "verse": 10,
+      "kjv": "Let all mine enemies be ashamed and sore vexed: let them return and be ashamed suddenly.",
+      "ct": "Let all my enemies be humiliated and deeply shaken. Let them retreat in sudden disgrace."
+    }
+  ]
+}

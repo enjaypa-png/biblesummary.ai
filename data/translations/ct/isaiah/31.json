@@ -1,0 +1,55 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 31,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.095Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Woe to them that go down to Egypt for help; and stay on horses, and trust in chariots, because they are many; and in horsemen, because they are very strong; but they look not unto the Holy One of Israel, neither seek the LORD!",
+      "ct": "How terrible it will be for those who go down to Egypt looking for help, who depend on horses and put their confidence in chariots because they are numerous, and in cavalry because they are powerful — yet they never turn to the Holy One of Israel or seek the LORD!"
+    },
+    {
+      "verse": 2,
+      "kjv": "Yet he also is wise, and will bring evil, and will not call back his words: but will arise against the house of the evildoers, and against the help of them that work iniquity.",
+      "ct": "But God is wise too, and he will bring disaster. He does not take back his words. He will rise up against the household of those who do evil, and against the allies of those who practice wickedness."
+    },
+    {
+      "verse": 3,
+      "kjv": "Now the Egyptians are men, and not God; and their horses flesh, and not spirit. When the LORD shall stretch out his hand, both he that helpeth shall fall, and he that is holpen shall fall down, and they all shall fail together.",
+      "ct": "The Egyptians are only human, not God. Their horses are mere flesh, not spirit. When the LORD stretches out his hand, the one giving help will stumble, and the one receiving help will collapse, and they will all be destroyed together."
+    },
+    {
+      "verse": 4,
+      "kjv": "For thus hath the LORD spoken unto me, Like as the lion and the young lion roaring on his prey, when a multitude of shepherds is called forth against him, he will not be afraid of their voice, nor abase himself for the noise of them: so shall the LORD of hosts come down to fight for mount Zion, and for the hill thereof.",
+      "ct": "This is what the LORD told me: Just as a lion — even a young lion — growls over its prey, and when a crowd of shepherds is summoned against it, it is not frightened by their shouting or intimidated by their noise — in the same way, the LORD of hosts will come down to fight on Mount Zion and on its hill."
+    },
+    {
+      "verse": 5,
+      "kjv": "As birds flying, so will the LORD of hosts defend Jerusalem; defending also he will deliver it; and passing over he will preserve it.",
+      "ct": "Like birds hovering overhead, the LORD of hosts will shield Jerusalem. He will shield it and rescue it; he will pass over it and protect it."
+    },
+    {
+      "verse": 6,
+      "kjv": "Turn ye unto him from whom the children of Israel have deeply revolted.",
+      "ct": "Return to the one you people of Israel have so deeply rebelled against."
+    },
+    {
+      "verse": 7,
+      "kjv": "For in that day every man shall cast away his idols of silver, and his idols of gold, which your own hands have made unto you for a sin.",
+      "ct": "On that day, everyone will throw away their silver idols and their gold idols — the sinful things your own hands crafted."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then shall the Assyrian fall with the sword, not of a mighty man; and the sword, not of a mean man, shall devour him: but he shall flee from the sword, and his young men shall be discomfited.",
+      "ct": "Then Assyria will fall by a sword, but not one wielded by a human warrior. A sword will consume them, but not one held by a mortal. They will flee from that sword, and their young soldiers will be put to forced labor."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he shall pass over to his strong hold for fear, and his princes shall be afraid of the ensign, saith the LORD, whose fire is in Zion, and his furnace in Jerusalem.",
+      "ct": "Their stronghold will be abandoned in panic, and their commanders will be terrified at the sight of the battle flag, declares the LORD, whose fire burns in Zion and whose furnace blazes in Jerusalem."
+    }
+  ]
+}

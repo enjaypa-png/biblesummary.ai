@@ -1,0 +1,60 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 2,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.171Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And he said unto me, Son of man, stand upon thy feet, and I will speak unto thee.",
+      "ct": "He said to me, \"Son of man, get on your feet, and I will speak to you.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And the spirit entered into me when he spake unto me, and set me upon my feet, that I heard him that spake unto me.",
+      "ct": "As he spoke to me, the Spirit entered me and lifted me to my feet, and I listened to the one speaking to me."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he said unto me, Son of man, I send thee to the children of Israel, to a rebellious nation that hath rebelled against me: they and their fathers have transgressed against me, even unto this very day.",
+      "ct": "He said to me, \"Son of man, I am sending you to the people of Israel, a rebellious nation that has rebelled against me. They and their ancestors have sinned against me right up to this very day."
+    },
+    {
+      "verse": 4,
+      "kjv": "For they are impudent children and stiffhearted. I do send thee unto them; and thou shalt say unto them, Thus saith the Lord GOD.",
+      "ct": "These people are shameless and stubborn. I am sending you to them, and you will tell them, 'This is what the Lord GOD says.'"
+    },
+    {
+      "verse": 5,
+      "kjv": "And they, whether they will hear, or whether they will forbear, (for they are a rebellious house,) yet shall know that there hath been a prophet among them.",
+      "ct": "Whether they listen or refuse to listen — since they are a rebellious people — they will at least know that a prophet has been among them."
+    },
+    {
+      "verse": 6,
+      "kjv": "And thou, son of man, be not afraid of them, neither be afraid of their words, though briers and thorns be with thee, and thou dost dwell among scorpions: be not afraid of their words, nor be dismayed at their looks, though they be a rebellious house.",
+      "ct": "As for you, son of man, don't be afraid of them, and don't be afraid of what they say. Even though you are surrounded by thorns and briars and you live among scorpions, don't be afraid of their words or intimidated by their expressions, because they are a rebellious people."
+    },
+    {
+      "verse": 7,
+      "kjv": "And thou shalt speak my words unto them, whether they will hear, or whether they will forbear: for they are most rebellious.",
+      "ct": "You must deliver my words to them whether they listen or refuse to listen, because they are deeply rebellious."
+    },
+    {
+      "verse": 8,
+      "kjv": "But thou, son of man, hear what I say unto thee; Be not thou rebellious like that rebellious house: open thy mouth, and eat that I give thee.",
+      "ct": "But you, son of man, listen to what I tell you. Don't be rebellious like that rebellious people. Open your mouth and eat what I give you.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And when I looked, behold, an hand was sent unto me; and, lo, a roll of a book was therein;",
+      "ct": "Then I looked, and I saw a hand reaching out toward me, and in it was a written scroll."
+    },
+    {
+      "verse": 10,
+      "kjv": "And he spread it before me; and it was written within and without: and there was written therein lamentations, and mourning, and woe.",
+      "ct": "He unrolled it in front of me, and it was covered with writing on both sides. Written on it were words of grief, sorrow, and devastation."
+    }
+  ]
+}

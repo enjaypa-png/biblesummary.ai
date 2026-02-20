@@ -1,0 +1,180 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 8,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.290Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "When he was come down from the mountain, great multitudes followed him.",
+      "ct": "After Jesus came down from the mountain, huge crowds followed him."
+    },
+    {
+      "verse": 2,
+      "kjv": "And, behold, there came a leper and worshipped him, saying, Lord, if thou wilt, thou canst make me clean.",
+      "ct": "A man with leprosy approached and knelt before him, saying, \"Lord, if you are willing, you can make me clean.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And Jesus put forth his hand, and touched him, saying, I will; be thou clean. And immediately his leprosy was cleansed.",
+      "ct": "Jesus reached out his hand and touched him, saying, \"I am willing — be clean.\" Instantly his leprosy was healed."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Jesus saith unto him, See thou tell no man; but go thy way, shew thyself to the priest, and offer the gift that Moses commanded, for a testimony unto them.",
+      "ct": "Then Jesus told him, \"Don't tell anyone about this. Instead, go show yourself to the priest and present the offering that Moses required, as evidence for them.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And when Jesus was entered into Capernaum, there came unto him a centurion, beseeching him,",
+      "ct": "When Jesus arrived in Capernaum, a Roman centurion came to him, pleading for help."
+    },
+    {
+      "verse": 6,
+      "kjv": "And saying, Lord, my servant lieth at home sick of the palsy, grievously tormented.",
+      "ct": "He said, \"Lord, my servant is lying at home paralyzed, suffering terribly.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And Jesus saith unto him, I will come and heal him.",
+      "ct": "Jesus said to him, \"I will come and heal him.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "The centurion answered and said, Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed.",
+      "ct": "But the centurion replied, \"Lord, I don't deserve to have you come into my house. Just say the word, and my servant will be healed.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "For I am a man under authority, having soldiers under me: and I say to this man, Go, and he goeth; and to another, Come, and he cometh; and to my servant, Do this, and he doeth it.",
+      "ct": "\"I understand authority because I'm a man who operates under it, and I also have soldiers under my command. I tell one, 'Go,' and he goes. I tell another, 'Come,' and he comes. I tell my servant, 'Do this,' and he does it.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel.",
+      "ct": "When Jesus heard this, he was amazed and said to those following him, \"Truly I tell you, I haven't found faith this strong anywhere in Israel.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And I say unto you, That many shall come from the east and west, and shall sit down with Abraham, and Isaac, and Jacob, in the kingdom of heaven.",
+      "ct": "\"I tell you that many will come from the east and the west and take their places at the table with Abraham, Isaac, and Jacob in the kingdom of heaven.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "But the children of the kingdom shall be cast out into outer darkness: there shall be weeping and gnashing of teeth.",
+      "ct": "\"But those who were supposed to inherit the kingdom will be thrown into the outer darkness, where there will be weeping and grinding of teeth.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Jesus said unto the centurion, Go thy way; and as thou hast believed, so be it done unto thee. And his servant was healed in the selfsame hour.",
+      "ct": "Then Jesus said to the centurion, \"Go home. It will be done for you just as you believed.\" And his servant was healed at that very moment."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when Jesus was come into Peter’s house, he saw his wife’s mother laid, and sick of a fever.",
+      "ct": "When Jesus went to Peter's house, he saw Peter's mother-in-law lying in bed with a fever."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he touched her hand, and the fever left her: and she arose, and ministered unto them.",
+      "ct": "He touched her hand, and the fever left her. She got up and began serving them."
+    },
+    {
+      "verse": 16,
+      "kjv": "When the even was come, they brought unto him many that were possessed with devils: and he cast out the spirits with his word, and healed all that were sick:",
+      "ct": "That evening, people brought many who were possessed by demons to him. He drove out the spirits with just a word and healed everyone who was sick."
+    },
+    {
+      "verse": 17,
+      "kjv": "That it might be fulfilled which was spoken by Esaias the prophet, saying, Himself took our infirmities, and bare our sicknesses.",
+      "ct": "This fulfilled what was spoken through the prophet Isaiah: \"He took on our weaknesses and carried our diseases.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Now when Jesus saw great multitudes about him, he gave commandment to depart unto the other side.",
+      "ct": "When Jesus saw the large crowds surrounding him, he gave orders to cross over to the other side of the lake."
+    },
+    {
+      "verse": 19,
+      "kjv": "And a certain scribe came, and said unto him, Master, I will follow thee whithersoever thou goest.",
+      "ct": "A religious scholar came up to him and said, \"Teacher, I will follow you wherever you go.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Jesus saith unto him, The foxes have holes, and the birds of the air have nests; but the Son of man hath not where to lay his head.",
+      "ct": "Jesus replied, \"Foxes have dens, and birds of the air have nests, but the Son of Man has no place to rest his head.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And another of his disciples said unto him, Lord, suffer me first to go and bury my father.",
+      "ct": "Another one of his disciples said to him, \"Lord, let me first go and bury my father.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "But Jesus said unto him, Follow me; and let the dead bury their dead.",
+      "ct": "But Jesus told him, \"Follow me, and let the dead bury their own dead.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And when he was entered into a ship, his disciples followed him.",
+      "ct": "Then he got into a boat, and his disciples went with him."
+    },
+    {
+      "verse": 24,
+      "kjv": "And, behold, there arose a great tempest in the sea, insomuch that the ship was covered with the waves: but he was asleep.",
+      "ct": "Suddenly a violent storm hit the lake, so powerful that waves were crashing over the boat. But Jesus was sleeping."
+    },
+    {
+      "verse": 25,
+      "kjv": "And his disciples came to him, and awoke him, saying, Lord, save us: we perish.",
+      "ct": "His disciples rushed to him and woke him up, shouting, \"Lord, save us! We're going to drown!\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And he saith unto them, Why are ye fearful, O ye of little faith? Then he arose, and rebuked the winds and the sea; and there was a great calm.",
+      "ct": "He said to them, \"Why are you so afraid? Your faith is so small.\" Then he stood up and commanded the winds and the waves to stop, and everything became perfectly calm."
+    },
+    {
+      "verse": 27,
+      "kjv": "But the men marvelled, saying, What manner of man is this, that even the winds and the sea obey him!",
+      "ct": "The men were astonished and said, \"What kind of person is this? Even the winds and the waves do what he says!\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And when he was come to the other side into the country of the Gergesenes, there met him two possessed with devils, coming out of the tombs, exceeding fierce, so that no man might pass by that way.",
+      "ct": "When he reached the other side, in the region of the Gergesenes, 2 demon-possessed men came out from among the tombs to meet him. They were so violent that no one could travel along that road."
+    },
+    {
+      "verse": 29,
+      "kjv": "And, behold, they cried out, saying, What have we to do with thee, Jesus, thou Son of God? art thou come hither to torment us before the time?",
+      "ct": "They screamed, \"What do you want with us, Jesus, Son of God? Have you come here to torture us before the appointed time?\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And there was a good way off from them an herd of many swine feeding.",
+      "ct": "Some distance away, a large herd of pigs was feeding."
+    },
+    {
+      "verse": 31,
+      "kjv": "So the devils besought him, saying, If thou cast us out, suffer us to go away into the herd of swine.",
+      "ct": "The demons begged him, \"If you drive us out, send us into that herd of pigs.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And he said unto them, Go. And when they were come out, they went into the herd of swine: and, behold, the whole herd of swine ran violently down a steep place into the sea, and perished in the waters.",
+      "ct": "He said to them, \"Go.\" So they came out and entered the pigs, and the entire herd rushed down the steep bank into the lake and drowned in the water."
+    },
+    {
+      "verse": 33,
+      "kjv": "And they that kept them fled, and went their ways into the city, and told every thing, and what was befallen to the possessed of the devils.",
+      "ct": "The men tending the pigs ran off into the town and reported everything, including what had happened to the demon-possessed men."
+    },
+    {
+      "verse": 34,
+      "kjv": "And, behold, the whole city came out to meet Jesus: and when they saw him, they besought him that he would depart out of their coasts.",
+      "ct": "Then the entire town came out to meet Jesus, and when they saw him, they begged him to leave their region."
+    }
+  ]
+}

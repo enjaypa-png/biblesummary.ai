@@ -1,0 +1,80 @@
+{
+  "book": "esther",
+  "book_name": "Esther",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.897Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now it came to pass on the third day, that Esther put on her royal apparel, and stood in the inner court of the king’s house, over against the king’s house: and the king sat upon his royal throne in the royal house, over against the gate of the house.",
+      "ct": "On the 3rd day, Esther dressed in her royal robes and stood in the inner courtyard of the palace, facing the throne room. The king was seated on his royal throne inside, facing the entrance."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it was so, when the king saw Esther the queen standing in the court, that she obtained favour in his sight: and the king held out to Esther the golden sceptre that was in his hand. So Esther drew near, and touched the top of the sceptre.",
+      "ct": "When the king noticed Queen Esther standing in the courtyard, she won his approval. He extended the gold scepter in his hand toward her, and Esther approached and touched the tip of the scepter."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then said the king unto her, What wilt thou, queen Esther? and what is thy request? it shall be even given thee to the half of the kingdom.",
+      "ct": "The king asked her, \"What is it, Queen Esther? What do you want? I'll give you anything, up to half my kingdom.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Esther answered, If it seem good unto the king, let the king and Haman come this day unto the banquet that I have prepared for him.",
+      "ct": "Esther replied, \"If it pleases the king, I'd like you and Haman to come today to a banquet I've prepared for you.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the king said, Cause Haman to make haste, that he may do as Esther hath said. So the king and Haman came to the banquet that Esther had prepared.",
+      "ct": "The king said, \"Get Haman right away so we can do what Esther has asked.\" So the king and Haman went to the banquet Esther had prepared."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the king said unto Esther at the banquet of wine, What is thy petition? and it shall be granted thee: and what is thy request? even to the half of the kingdom it shall be performed.",
+      "ct": "While they were drinking wine, the king said to Esther, \"What is your petition? It will be granted. What do you want? Even up to half the kingdom, it will be done.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Then answered Esther, and said, My petition and my request is;",
+      "ct": "Esther answered, \"My petition and my request is this:"
+    },
+    {
+      "verse": 8,
+      "kjv": "If I have found favour in the sight of the king, and if it please the king to grant my petition, and to perform my request, let the king and Haman come to the banquet that I shall prepare for them, and I will do to morrow as the king hath said.",
+      "ct": "If I have earned the king's approval, and if it pleases the king to grant my petition and fulfill my request, please let the king and Haman come to another banquet that I will prepare for them tomorrow. At that time, I will answer the king's question.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Then went Haman forth that day joyful and with a glad heart: but when Haman saw Mordecai in the king’s gate, that he stood not up, nor moved for him, he was full of indignation against Mordecai.",
+      "ct": "Haman left that day feeling thrilled and in great spirits. But when he saw Mordecai at the king's gate — and Mordecai neither stood up nor showed any sign of respect — Haman was filled with rage toward him."
+    },
+    {
+      "verse": 10,
+      "kjv": "Nevertheless Haman refrained himself: and when he came home, he sent and called for his friends, and Zeresh his wife.",
+      "ct": "Still, Haman held himself back. When he got home, he gathered his friends and his wife Zeresh together."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Haman told them of the glory of his riches, and the multitude of his children, and all the things wherein the king had promoted him, and how he had advanced him above the princes and servants of the king.",
+      "ct": "Haman went on and on about his enormous wealth, his many sons, and every way the king had honored him and elevated him above all the other officials and royal servants."
+    },
+    {
+      "verse": 12,
+      "kjv": "Haman said moreover, Yea, Esther the queen did let no man come in with the king unto the banquet that she had prepared but myself; and to morrow am I invited unto her also with the king.",
+      "ct": "Then Haman added, \"On top of all that, Queen Esther invited no one but me to attend the banquet she prepared for the king. And tomorrow I'm invited again, along with the king.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Yet all this availeth me nothing, so long as I see Mordecai the Jew sitting at the king’s gate.",
+      "ct": "\"But none of this means anything to me as long as I have to see that Jew Mordecai sitting there at the king's gate.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Then said Zeresh his wife and all his friends unto him, Let a gallows be made of fifty cubits high, and to morrow speak thou unto the king that Mordecai may be hanged thereon: then go thou in merrily with the king unto the banquet. And the thing pleased Haman; and he caused the gallows to be made.",
+      "ct": "His wife Zeresh and all his friends told him, \"Have a pole set up, 75 feet tall. Then in the morning, ask the king to have Mordecai impaled on it. After that, you can go enjoy the banquet with the king.\" This idea delighted Haman, and he had the pole constructed."
+    }
+  ]
+}

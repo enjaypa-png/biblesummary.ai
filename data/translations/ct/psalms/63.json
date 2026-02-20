@@ -1,0 +1,65 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 63,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.976Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my flesh longeth for thee in a dry and thirsty land, where no water is;",
+      "ct": "God, you are my God — I search for you with everything I have. My soul thirsts for you; my body aches for you like someone stranded in a parched, waterless wasteland."
+    },
+    {
+      "verse": 2,
+      "kjv": "To see thy power and thy glory, so as I have seen thee in the sanctuary.",
+      "ct": "I long to see your power and your glory, just as I once witnessed them in the sanctuary."
+    },
+    {
+      "verse": 3,
+      "kjv": "Because thy lovingkindness is better than life, my lips shall praise thee.",
+      "ct": "Your faithful love is worth more than life itself, so my lips will praise you."
+    },
+    {
+      "verse": 4,
+      "kjv": "Thus will I bless thee while I live: I will lift up my hands in thy name.",
+      "ct": "I will honor you as long as I live; I will raise my hands in worship of your name."
+    },
+    {
+      "verse": 5,
+      "kjv": "My soul shall be satisfied as with marrow and fatness; and my mouth shall praise thee with joyful lips:",
+      "ct": "My soul will be satisfied like someone enjoying the richest feast, and my mouth will celebrate you with joyful lips —"
+    },
+    {
+      "verse": 6,
+      "kjv": "When I remember thee upon my bed, and meditate on thee in the night watches.",
+      "ct": "whenever I think about you while lying in bed, reflecting on you through the hours of the night."
+    },
+    {
+      "verse": 7,
+      "kjv": "Because thou hast been my help, therefore in the shadow of thy wings will I rejoice.",
+      "ct": "Because you have been my help, I will sing with joy in the shelter of your wings."
+    },
+    {
+      "verse": 8,
+      "kjv": "My soul followeth hard after thee: thy right hand upholdeth me.",
+      "ct": "My soul clings tightly to you; your right hand holds me up."
+    },
+    {
+      "verse": 9,
+      "kjv": "But those that seek my soul, to destroy it, shall go into the lower parts of the earth.",
+      "ct": "But those who are trying to destroy my life will sink down into the depths of the earth."
+    },
+    {
+      "verse": 10,
+      "kjv": "They shall fall by the sword: they shall be a portion for foxes.",
+      "ct": "They will be cut down by the sword; their bodies will become food for jackals."
+    },
+    {
+      "verse": 11,
+      "kjv": "But the king shall rejoice in God; every one that sweareth by him shall glory: but the mouth of them that speak lies shall be stopped.",
+      "ct": "But the king will celebrate in God; everyone who makes promises by his name will be honored, while the mouths of liars will be silenced."
+    }
+  ]
+}

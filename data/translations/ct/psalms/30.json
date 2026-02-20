@@ -1,0 +1,70 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 30,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.957Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I will extol thee, O LORD; for thou hast lifted me up, and hast not made my foes to rejoice over me.",
+      "ct": "I will praise you, LORD, because you pulled me up and didn't let my enemies celebrate my downfall."
+    },
+    {
+      "verse": 2,
+      "kjv": "O LORD my God, I cried unto thee, and thou hast healed me.",
+      "ct": "LORD my God, I called out to you, and you healed me."
+    },
+    {
+      "verse": 3,
+      "kjv": "O LORD, thou hast brought up my soul from the grave: thou hast kept me alive, that I should not go down to the pit.",
+      "ct": "LORD, you brought my soul up from the grave; you kept me alive so I wouldn't descend into the pit."
+    },
+    {
+      "verse": 4,
+      "kjv": "Sing unto the LORD, O ye saints of his, and give thanks at the remembrance of his holiness.",
+      "ct": "Sing to the LORD, all you who are devoted to him, and give thanks as you remember his holiness."
+    },
+    {
+      "verse": 5,
+      "kjv": "For his anger endureth but a moment; in his favour is life: weeping may endure for a night, but joy cometh in the morning.",
+      "ct": "His anger lasts only a moment, but his favor lasts a lifetime. Crying may last through the night, but joy arrives in the morning."
+    },
+    {
+      "verse": 6,
+      "kjv": "And in my prosperity I said, I shall never be moved.",
+      "ct": "When everything was going well, I told myself, 'Nothing will ever shake me.'"
+    },
+    {
+      "verse": 7,
+      "kjv": "LORD, by thy favour thou hast made my mountain to stand strong: thou didst hide thy face, and I was troubled.",
+      "ct": "LORD, through your favor you made me as secure as a mountain. But when you withdrew your favor, I was filled with distress."
+    },
+    {
+      "verse": 8,
+      "kjv": "I cried to thee, O LORD; and unto the LORD I made supplication.",
+      "ct": "I called out to you, LORD; I pleaded with you for mercy."
+    },
+    {
+      "verse": 9,
+      "kjv": "What profit is there in my blood, when I go down to the pit? Shall the dust praise thee? shall it declare thy truth?",
+      "ct": "What do you gain from my death, from my going down into the pit? Can dust praise you? Can it proclaim your faithfulness?"
+    },
+    {
+      "verse": 10,
+      "kjv": "Hear, O LORD, and have mercy upon me: LORD, be thou my helper.",
+      "ct": "Listen, LORD, and show me mercy! LORD, be my helper."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou hast turned for me my mourning into dancing: thou hast put off my sackcloth, and girded me with gladness;",
+      "ct": "You transformed my grief into dancing; you stripped away my mourning clothes and dressed me in joy,"
+    },
+    {
+      "verse": 12,
+      "kjv": "To the end that my glory may sing praise to thee, and not be silent. O LORD my God, I will give thanks unto thee for ever.",
+      "ct": "so that my whole being would sing praise to you and never stop. LORD my God, I will thank you forever."
+    }
+  ]
+}

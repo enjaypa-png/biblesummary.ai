@@ -1,0 +1,60 @@
+{
+  "book": "zechariah",
+  "book_name": "Zechariah",
+  "chapter": 3,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.271Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And he shewed me Joshua the high priest standing before the angel of the LORD, and Satan standing at his right hand to resist him.",
+      "ct": "Then he showed me Joshua the high priest standing in the presence of the angel of the LORD, with Satan standing at his right side to accuse him."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD said unto Satan, The LORD rebuke thee, O Satan; even the LORD that hath chosen Jerusalem rebuke thee: is not this a brand plucked out of the fire?",
+      "ct": "The LORD said to Satan, \"May the LORD rebuke you, Satan! May the LORD who has chosen Jerusalem rebuke you! Isn't this man like a burning stick pulled from the fire?\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Now Joshua was clothed with filthy garments, and stood before the angel.",
+      "ct": "Now Joshua was dressed in filthy clothes as he stood in the presence of the angel."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he answered and spake unto those that stood before him, saying, Take away the filthy garments from him. And unto him he said, Behold, I have caused thine iniquity to pass from thee, and I will clothe thee with change of raiment.",
+      "ct": "The angel spoke to those standing nearby and said, \"Remove those filthy clothes from him.\" Then he said to Joshua, \"Look — I have taken your sin away from you, and I will dress you in fine new clothing.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And I said, Let them set a fair mitre upon his head. So they set a fair mitre upon his head, and clothed him with garments. And the angel of the LORD stood by.",
+      "ct": "Then I said, \"Put a clean turban on his head.\" So they placed a clean turban on his head and dressed him in new garments while the angel of the LORD stood watching."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the angel of the LORD protested unto Joshua, saying,",
+      "ct": "Then the angel of the LORD solemnly charged Joshua, saying,"
+    },
+    {
+      "verse": 7,
+      "kjv": "Thus saith the LORD of hosts; If thou wilt walk in my ways, and if thou wilt keep my charge, then thou shalt also judge my house, and shalt also keep my courts, and I will give thee places to walk among these that stand by.",
+      "ct": "\"This is what the LORD of hosts says: If you follow my ways and carry out my instructions, then you will govern my temple and oversee my courts, and I will give you a place among those standing here.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Hear now, O Joshua the high priest, thou, and thy fellows that sit before thee: for they are men wondered at: for, behold, I will bring forth my servant the BRANCH.",
+      "ct": "\"Listen carefully, Joshua the high priest — you and your companions seated with you — because you are men who serve as a sign of things to come. Pay attention: I am going to bring my servant, the Branch.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "For behold the stone that I have laid before Joshua; upon one stone shall be seven eyes: behold, I will engrave the graving thereof, saith the LORD of hosts, and I will remove the iniquity of that land in one day.",
+      "ct": "\"Look at the stone I have placed in front of Joshua — on that single stone are 7 eyes. Pay attention: I myself will engrave an inscription on it,\" declares the LORD of hosts, \"and I will remove the sin of this land in a single day.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "In that day, saith the LORD of hosts, shall ye call every man his neighbour under the vine and under the fig tree.",
+      "ct": "\"On that day,\" declares the LORD of hosts, \"each of you will invite your neighbor to sit under your vine and under your fig tree.\""
+    }
+  ]
+}

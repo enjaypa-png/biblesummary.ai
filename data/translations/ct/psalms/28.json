@@ -1,0 +1,55 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 28,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.956Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Unto thee will I cry, O LORD my rock; be not silent to me: lest, if thou be silent to me, I become like them that go down into the pit.",
+      "ct": "I'm calling out to you, LORD, my rock. Don't stay silent toward me, because if you refuse to answer me, I'll end up like those who descend into the grave."
+    },
+    {
+      "verse": 2,
+      "kjv": "Hear the voice of my supplications, when I cry unto thee, when I lift up my hands toward thy holy oracle.",
+      "ct": "Listen to my desperate pleas as I cry out to you, as I raise my hands toward your holy sanctuary."
+    },
+    {
+      "verse": 3,
+      "kjv": "Draw me not away with the wicked, and with the workers of iniquity, which speak peace to their neighbours, but mischief is in their hearts.",
+      "ct": "Don't drag me away along with the wicked, along with those who practice evil — people who talk friendly with their neighbors while harboring malice in their hearts."
+    },
+    {
+      "verse": 4,
+      "kjv": "Give them according to their deeds, and according to the wickedness of their endeavours: give them after the work of their hands; render to them their desert.",
+      "ct": "Repay them for what they've done, for the evil of their actions. Pay them back for the work of their hands; give them exactly what they deserve."
+    },
+    {
+      "verse": 5,
+      "kjv": "Because they regard not the works of the LORD, nor the operation of his hands, he shall destroy them, and not build them up.",
+      "ct": "Since they pay no attention to what the LORD has done or to what his hands have accomplished, he will tear them down and never rebuild them."
+    },
+    {
+      "verse": 6,
+      "kjv": "Blessed be the LORD, because he hath heard the voice of my supplications.",
+      "ct": "Praise the LORD, because he has listened to my desperate pleas."
+    },
+    {
+      "verse": 7,
+      "kjv": "The LORD is my strength and my shield; my heart trusted in him, and I am helped: therefore my heart greatly rejoiceth; and with my song will I praise him.",
+      "ct": "The LORD is my strength and my shield. My heart trusted in him, and I received his help. So my heart overflows with joy, and I will praise him with my song."
+    },
+    {
+      "verse": 8,
+      "kjv": "The LORD is their strength, and he is the saving strength of his anointed.",
+      "ct": "The LORD is the strength of his people, and he is the saving refuge of his anointed one."
+    },
+    {
+      "verse": 9,
+      "kjv": "Save thy people, and bless thine inheritance: feed them also, and lift them up for ever.",
+      "ct": "Rescue your people and bless those who belong to you. Be their shepherd and carry them forever."
+    }
+  ]
+}

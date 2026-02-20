@@ -1,0 +1,60 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 141,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.028Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Lord, I cry unto thee: make haste unto me; give ear unto my voice, when I cry unto thee.",
+      "ct": "LORD, I'm calling out to you — please come quickly! Listen to my voice as I cry to you."
+    },
+    {
+      "verse": 2,
+      "kjv": "Let my prayer be set forth before thee as incense; and the lifting up of my hands as the evening sacrifice.",
+      "ct": "Let my prayer rise into your presence like incense, and let my raised hands be like an evening offering."
+    },
+    {
+      "verse": 3,
+      "kjv": "Set a watch, O LORD, before my mouth; keep the door of my lips.",
+      "ct": "LORD, place a guard over my mouth; keep watch over the door of my lips."
+    },
+    {
+      "verse": 4,
+      "kjv": "Incline not my heart to any evil thing, to practise wicked works with men that work iniquity: and let me not eat of their dainties.",
+      "ct": "Don't let my heart be drawn toward anything evil or let me join in wicked deeds with those who do wrong. Don't let me enjoy their luxuries."
+    },
+    {
+      "verse": 5,
+      "kjv": "Let the righteous smite me; it shall be a kindness: and let him reprove me; it shall be an excellent oil, which shall not break my head: for yet my prayer also shall be in their calamities.",
+      "ct": "If a righteous person strikes me, that is an act of kindness. If they correct me, it's like fine oil on my head — I won't refuse it. Yet I will continue to pray even during their times of trouble."
+    },
+    {
+      "verse": 6,
+      "kjv": "When their judges are overthrown in stony places, they shall hear my words; for they are sweet.",
+      "ct": "When their leaders are thrown down among the rocks, they will hear my words and find them pleasant."
+    },
+    {
+      "verse": 7,
+      "kjv": "Our bones are scattered at the grave’s mouth, as when one cutteth and cleaveth wood upon the earth.",
+      "ct": "Like someone splitting and chopping wood on the ground, our bones have been scattered at the edge of the grave."
+    },
+    {
+      "verse": 8,
+      "kjv": "But mine eyes are unto thee, O GOD the Lord: in thee is my trust; leave not my soul destitute.",
+      "ct": "But my eyes are fixed on you, GOD the Lord. You are my refuge — don't leave my soul abandoned."
+    },
+    {
+      "verse": 9,
+      "kjv": "Keep me from the snares which they have laid for me, and the gins of the workers of iniquity.",
+      "ct": "Protect me from the traps they have set for me, from the snares of those who practice evil."
+    },
+    {
+      "verse": 10,
+      "kjv": "Let the wicked fall into their own nets, whilst that I withal escape.",
+      "ct": "Let the wicked fall into their own nets, while I pass by safely."
+    }
+  ]
+}

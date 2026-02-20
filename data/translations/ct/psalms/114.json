@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 114,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.010Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "When Israel went out of Egypt, the house of Jacob from a people of strange language;",
+      "ct": "When Israel came out of Egypt, when Jacob's descendants left a nation that spoke a foreign tongue,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Judah was his sanctuary, and Israel his dominion.",
+      "ct": "Judah became God's holy place, and Israel became his kingdom."
+    },
+    {
+      "verse": 3,
+      "kjv": "The sea saw it, and fled: Jordan was driven back.",
+      "ct": "The sea looked and ran away; the Jordan River turned back."
+    },
+    {
+      "verse": 4,
+      "kjv": "The mountains skipped like rams, and the little hills like lambs.",
+      "ct": "The mountains leaped like rams, and the hills jumped like lambs."
+    },
+    {
+      "verse": 5,
+      "kjv": "What ailed thee, O thou sea, that thou fleddest? thou Jordan, that thou wast driven back?",
+      "ct": "What happened to you, sea, that you ran away? Jordan, why did you turn back?"
+    },
+    {
+      "verse": 6,
+      "kjv": "Ye mountains, that ye skipped like rams; and ye little hills, like lambs?",
+      "ct": "Mountains, why did you leap like rams? Hills, why did you jump like lambs?"
+    },
+    {
+      "verse": 7,
+      "kjv": "Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob;",
+      "ct": "Shake in awe, earth, in the presence of the Lord, in the presence of the God of Jacob,"
+    },
+    {
+      "verse": 8,
+      "kjv": "Which turned the rock into a standing water, the flint into a fountain of waters.",
+      "ct": "who transformed solid rock into a pool of water, and hard stone into a flowing spring."
+    }
+  ]
+}

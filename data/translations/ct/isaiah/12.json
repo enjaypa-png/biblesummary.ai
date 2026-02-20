@@ -1,0 +1,40 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 12,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.083Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And in that day thou shalt say, O LORD, I will praise thee: though thou wast angry with me, thine anger is turned away, and thou comfortedst me.",
+      "ct": "On that day you will say, \"LORD, I will praise you. Even though you were angry with me, your anger has faded, and you have comforted me.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "Behold, God is my salvation; I will trust, and not be afraid: for the LORD JEHOVAH is my strength and my song; he also is become my salvation.",
+      "ct": "Look — God is my salvation! I will trust and not be afraid, because the LORD God is my strength and my song; he has become my salvation."
+    },
+    {
+      "verse": 3,
+      "kjv": "Therefore with joy shall ye draw water out of the wells of salvation.",
+      "ct": "So with joy you will draw water from the wells of salvation."
+    },
+    {
+      "verse": 4,
+      "kjv": "And in that day shall ye say, Praise the LORD, call upon his name, declare his doings among the people, make mention that his name is exalted.",
+      "ct": "On that day you will say, \"Give praise to the LORD, call on his name, make his deeds known among the nations, and proclaim that his name is lifted high.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Sing unto the LORD; for he hath done excellent things: this is known in all the earth.",
+      "ct": "Sing to the LORD, for he has done magnificent things — let this be known across the whole earth."
+    },
+    {
+      "verse": 6,
+      "kjv": "Cry out and shout, thou inhabitant of Zion: for great is the Holy One of Israel in the midst of thee.",
+      "ct": "Shout and sing for joy, people of Zion, because the Holy One of Israel is great among you!"
+    }
+  ]
+}

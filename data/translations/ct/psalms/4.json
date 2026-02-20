@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 4,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.942Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Hear me when I call, O God of my righteousness: thou hast enlarged me when I was in distress; have mercy upon me, and hear my prayer.",
+      "ct": "Answer me when I cry out to you, God of my righteousness. You gave me relief when I was in trouble; show me mercy and listen to my prayer."
+    },
+    {
+      "verse": 2,
+      "kjv": "O ye sons of men, how long will ye turn my glory into shame? how long will ye love vanity, and seek after leasing? Selah.",
+      "ct": "People, how long will you drag my honor through the mud? How long will you chase after worthless things and pursue lies? Selah."
+    },
+    {
+      "verse": 3,
+      "kjv": "But know that the LORD hath set apart him that is godly for himself: the LORD will hear when I call unto him.",
+      "ct": "Understand this: the LORD has set apart the faithful for himself. The LORD will listen when I call out to him."
+    },
+    {
+      "verse": 4,
+      "kjv": "Stand in awe, and sin not: commune with your own heart upon your bed, and be still. Selah.",
+      "ct": "Tremble with reverence and do not sin. Search your own hearts as you lie on your beds, and be silent. Selah."
+    },
+    {
+      "verse": 5,
+      "kjv": "Offer the sacrifices of righteousness, and put your trust in the LORD.",
+      "ct": "Bring offerings of righteousness and place your trust in the LORD."
+    },
+    {
+      "verse": 6,
+      "kjv": "There be many that say, Who will shew us any good? LORD, lift thou up the light of thy countenance upon us.",
+      "ct": "Many people ask, 'Who will show us anything good?' LORD, let your favor shine on us."
+    },
+    {
+      "verse": 7,
+      "kjv": "Thou hast put gladness in my heart, more than in the time that their corn and their wine increased.",
+      "ct": "You have filled my heart with more joy than others have when their grain and wine overflow."
+    },
+    {
+      "verse": 8,
+      "kjv": "I will both lay me down in peace, and sleep: for thou, LORD, only makest me dwell in safety.",
+      "ct": "I will lie down and fall asleep in peace, because you alone, LORD, keep me safe."
+    }
+  ]
+}

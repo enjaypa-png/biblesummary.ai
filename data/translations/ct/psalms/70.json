@@ -1,0 +1,35 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 70,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.982Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "MAKE HASTE, O GOD, TO DELIVER ME; MAKE HASTE TO HELP ME, O LORD.",
+      "ct": "Hurry, God, and rescue me! Rush to help me, LORD!"
+    },
+    {
+      "verse": 2,
+      "kjv": "Let them be ashamed and confounded that seek after my soul: let them be turned backward, and put to confusion, that desire my hurt.",
+      "ct": "Let those who are trying to kill me be humiliated and disgraced. Let those who want to see me harmed be driven back in shame."
+    },
+    {
+      "verse": 3,
+      "kjv": "Let them be turned back for a reward of their shame that say, Aha, aha.",
+      "ct": "Let those who mock me saying, 'Ha! Ha!' be forced to retreat because of their disgrace."
+    },
+    {
+      "verse": 4,
+      "kjv": "Let all those that seek thee rejoice and be glad in thee: and let such as love thy salvation say continually, Let God be magnified.",
+      "ct": "But let everyone who searches for you celebrate and find joy in you. Let those who love your salvation never stop saying, 'God is great!'"
+    },
+    {
+      "verse": 5,
+      "kjv": "But I am poor and needy: make haste unto me, O God: thou art my help and my deliverer; O LORD, make no tarrying.",
+      "ct": "As for me, I am weak and in need — come quickly to me, God! You are my help and my rescuer; LORD, don't delay!"
+    }
+  ]
+}

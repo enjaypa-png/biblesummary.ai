@@ -1,0 +1,65 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 29,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.734Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the Philistines gathered together all their armies to Aphek: and the Israelites pitched by a fountain which is in Jezreel.",
+      "ct": "The Philistines assembled all their forces at Aphek, while the Israelites set up camp by the spring in Jezreel."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the lords of the Philistines passed on by hundreds, and by thousands: but David and his men passed on in the rereward with Achish.",
+      "ct": "The Philistine rulers marched past in units of 100s and 1,000s, and David and his men were marching at the rear with Achish."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then said the princes of the Philistines, What do these Hebrews here? And Achish said unto the princes of the Philistines, Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?",
+      "ct": "The Philistine commanders asked, \"What are these Hebrews doing here?\" Achish told them, \"This is David, who served King Saul of Israel. He has been with me for a long time now, and I haven't found anything wrong with him since the day he came over to my side.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And the princes of the Philistines were wroth with him; and the princes of the Philistines said unto him, Make this fellow return, that he may go again to his place which thou hast appointed him, and let him not go down with us to battle, lest in the battle he be an adversary to us: for wherewith should he reconcile himself unto his master? should it not be with the heads of these men?",
+      "ct": "But the Philistine commanders were angry with Achish and said, \"Send this man back to the place you assigned him. He must not go into battle with us — what if he turns against us during the fighting? What better way for him to win back his master's favor than by offering him the heads of our soldiers?\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Is not this David, of whom they sang one to another in dances, saying, Saul slew his thousands, and David his ten thousands?",
+      "ct": "\"Isn't this the same David they sang about while dancing: 'Saul has killed his 1,000s, and David his 10,000s'?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Then Achish called David, and said unto him, Surely, as the LORD liveth, thou hast been upright, and thy going out and thy coming in with me in the host is good in my sight: for I have not found evil in thee since the day of thy coming unto me unto this day: nevertheless the lords favour thee not.",
+      "ct": "So Achish called David over and told him, \"As surely as the LORD lives, you have been honest with me, and I would be glad to have you serve alongside me in the army. I haven't found any fault in you from the day you arrived until now. But the other rulers don't trust you.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Wherefore now return, and go in peace, that thou displease not the lords of the Philistines.",
+      "ct": "\"So go back home in peace. Don't do anything that would upset the Philistine rulers.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And David said unto Achish, But what have I done? and what hast thou found in thy servant so long as I have been with thee unto this day, that I may not go fight against the enemies of my lord the king?",
+      "ct": "David replied, \"But what have I done? What have you found against me the entire time I've served you, that I can't go and fight the enemies of my lord the king?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Achish answered and said to David, I know that thou art good in my sight, as an angel of God: notwithstanding the princes of the Philistines have said, He shall not go up with us to the battle.",
+      "ct": "Achish answered David, \"I know — in my view you're as trustworthy as an angel of God. But the Philistine commanders have insisted, 'He must not go with us into battle.'\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Wherefore now rise up early in the morning with thy master’s servants that are come with thee: and as soon as ye be up early in the morning, and have light, depart.",
+      "ct": "\"So get up early tomorrow morning — you and your master's servants who came with you — and leave at first light.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "So David and his men rose up early to depart in the morning, to return into the land of the Philistines. And the Philistines went up to Jezreel.",
+      "ct": "David and his men got up early in the morning and headed back to Philistine territory. Meanwhile, the Philistines advanced toward Jezreel."
+    }
+  ]
+}

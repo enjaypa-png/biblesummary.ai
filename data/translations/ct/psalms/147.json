@@ -1,0 +1,110 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 147,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.031Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Praise ye the LORD: for it is good to sing praises unto our God; for it is pleasant; and praise is comely.",
+      "ct": "Praise the LORD! It is good to sing praises to our God — it is delightful, and praise is fitting."
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD doth build up Jerusalem: he gathereth together the outcasts of Israel.",
+      "ct": "The LORD is rebuilding Jerusalem; he is gathering the scattered people of Israel."
+    },
+    {
+      "verse": 3,
+      "kjv": "He healeth the broken in heart, and bindeth up their wounds.",
+      "ct": "He heals those whose hearts are shattered and bandages their wounds."
+    },
+    {
+      "verse": 4,
+      "kjv": "He telleth the number of the stars; he calleth them all by their names.",
+      "ct": "He counts every star and knows each one by name."
+    },
+    {
+      "verse": 5,
+      "kjv": "Great is our Lord, and of great power: his understanding is infinite.",
+      "ct": "Our Lord is great and mighty in power; his understanding has no limit."
+    },
+    {
+      "verse": 6,
+      "kjv": "The LORD lifteth up the meek: he casteth the wicked down to the ground.",
+      "ct": "The LORD lifts up the humble but throws the wicked to the ground."
+    },
+    {
+      "verse": 7,
+      "kjv": "Sing unto the LORD with thanksgiving; sing praise upon the harp unto our God:",
+      "ct": "Sing to the LORD with gratitude; play music on the harp for our God."
+    },
+    {
+      "verse": 8,
+      "kjv": "Who covereth the heaven with clouds, who prepareth rain for the earth, who maketh grass to grow upon the mountains.",
+      "ct": "He spreads clouds across the heavens, sends rain to the earth, and makes grass spring up on the mountains."
+    },
+    {
+      "verse": 9,
+      "kjv": "He giveth to the beast his food, and to the young ravens which cry.",
+      "ct": "He provides food for the animals and feeds the young ravens when they call out."
+    },
+    {
+      "verse": 10,
+      "kjv": "He delighteth not in the strength of the horse: he taketh not pleasure in the legs of a man.",
+      "ct": "He takes no pleasure in the power of a horse or in the strength of a warrior's legs."
+    },
+    {
+      "verse": 11,
+      "kjv": "The LORD taketh pleasure in them that fear him, in those that hope in his mercy.",
+      "ct": "The LORD takes pleasure in those who deeply revere him, in those who put their hope in his mercy."
+    },
+    {
+      "verse": 12,
+      "kjv": "Praise the LORD, O Jerusalem; praise thy God, O Zion.",
+      "ct": "Praise the LORD, Jerusalem! Praise your God, Zion!"
+    },
+    {
+      "verse": 13,
+      "kjv": "For he hath strengthened the bars of thy gates; he hath blessed thy children within thee.",
+      "ct": "He has reinforced the gates that protect you and blessed your children within your walls."
+    },
+    {
+      "verse": 14,
+      "kjv": "He maketh peace in thy borders, and filleth thee with the finest of the wheat.",
+      "ct": "He brings peace to your borders and satisfies you with the finest wheat."
+    },
+    {
+      "verse": 15,
+      "kjv": "He sendeth forth his commandment upon earth: his word runneth very swiftly.",
+      "ct": "He sends his command across the earth, and his word moves with incredible speed."
+    },
+    {
+      "verse": 16,
+      "kjv": "He giveth snow like wool: he scattereth the hoarfrost like ashes.",
+      "ct": "He sends snow that blankets the ground like wool and scatters frost like ashes."
+    },
+    {
+      "verse": 17,
+      "kjv": "He casteth forth his ice like morsels: who can stand before his cold?",
+      "ct": "He hurls down hail like small stones — who can endure his bitter cold?"
+    },
+    {
+      "verse": 18,
+      "kjv": "He sendeth out his word, and melteth them: he causeth his wind to blow, and the waters flow.",
+      "ct": "Then he sends his word and melts it all; he makes his wind blow, and the waters flow again."
+    },
+    {
+      "verse": 19,
+      "kjv": "He sheweth his word unto Jacob, his statutes and his judgments unto Israel.",
+      "ct": "He has revealed his word to Jacob, his laws and regulations to Israel."
+    },
+    {
+      "verse": 20,
+      "kjv": "He hath not dealt so with any nation: and as for his judgments, they have not known them. Praise ye the LORD.",
+      "ct": "He has not done this for any other nation — they do not know his regulations. Praise the LORD!"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "book": "john",
+  "book_name": "John",
+  "chapter": 21,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.373Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "After these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he himself.",
+      "ct": "Later, Jesus revealed himself to the disciples again at the Sea of Tiberias. Here is how it happened."
+    },
+    {
+      "verse": 2,
+      "kjv": "There were together Simon Peter, and Thomas called Didymus, and Nathanael of Cana in Galilee, and the sons of Zebedee, and two other of his disciples.",
+      "ct": "Simon Peter, Thomas (called Didymus), Nathanael from Cana in Galilee, the sons of Zebedee, and 2 other disciples were all together."
+    },
+    {
+      "verse": 3,
+      "kjv": "Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing.",
+      "ct": "Simon Peter told them, \"I'm going out to fish.\" They replied, \"We'll come with you.\" So they went out and got into a boat, but they caught nothing all night."
+    },
+    {
+      "verse": 4,
+      "kjv": "But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus.",
+      "ct": "As dawn was breaking, Jesus was standing on the shore, but the disciples didn't recognize him."
+    },
+    {
+      "verse": 5,
+      "kjv": "Then Jesus saith unto them, Children, have ye any meat? They answered him, No.",
+      "ct": "Jesus called out to them, \"Friends, have you caught any fish?\" They answered, \"No.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And he said unto them, Cast the net on the right side of the ship, and ye shall find. They cast therefore, and now they were not able to draw it for the multitude of fishes.",
+      "ct": "He told them, \"Throw your net on the right side of the boat, and you'll find some.\" So they did, and they couldn't haul it back in because there were so many fish."
+    },
+    {
+      "verse": 7,
+      "kjv": "Therefore that disciple whom Jesus loved saith unto Peter, It is the Lord. Now when Simon Peter heard that it was the Lord, he girt his fisher’s coat unto him, (for he was naked,) and did cast himself into the sea.",
+      "ct": "The disciple whom Jesus loved said to Peter, \"It's the Lord!\" As soon as Simon Peter heard that it was the Lord, he wrapped his outer garment around himself (since he had stripped down for work) and jumped into the water."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the other disciples came in a little ship; (for they were not far from land, but as it were two hundred cubits,) dragging the net with fishes.",
+      "ct": "The rest of the disciples followed in the small boat, dragging the net full of fish behind them. They weren't far from shore — only about 300 feet."
+    },
+    {
+      "verse": 9,
+      "kjv": "As soon then as they were come to land, they saw a fire of coals there, and fish laid thereon, and bread.",
+      "ct": "When they stepped onto land, they saw a charcoal fire with fish cooking on it, along with bread."
+    },
+    {
+      "verse": 10,
+      "kjv": "Jesus saith unto them, Bring of the fish which ye have now caught.",
+      "ct": "Jesus said to them, \"Bring some of the fish you just caught.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Simon Peter went up, and drew the net to land full of great fishes, an hundred and fifty and three: and for all there were so many, yet was not the net broken.",
+      "ct": "Simon Peter climbed aboard and pulled the net to shore. It was full of large fish — 153 of them — and even with that many, the net didn't tear."
+    },
+    {
+      "verse": 12,
+      "kjv": "Jesus saith unto them, Come and dine. And none of the disciples durst ask him, Who art thou? knowing that it was the Lord.",
+      "ct": "Jesus said to them, \"Come and eat breakfast.\" None of the disciples dared to ask him, \"Who are you?\" They already knew it was the Lord."
+    },
+    {
+      "verse": 13,
+      "kjv": "Jesus then cometh, and taketh bread, and giveth them, and fish likewise.",
+      "ct": "Jesus came over, took the bread, and gave it to them, and did the same with the fish."
+    },
+    {
+      "verse": 14,
+      "kjv": "This is now the third time that Jesus shewed himself to his disciples, after that he was risen from the dead.",
+      "ct": "This was now the 3rd time Jesus appeared to his disciples after he had risen from the dead."
+    },
+    {
+      "verse": 15,
+      "kjv": "So when they had dined, Jesus saith to Simon Peter, Simon, son of Jonas, lovest thou me more than these? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my lambs.",
+      "ct": "After they had eaten, Jesus asked Simon Peter, \"Simon, son of Jonas, do you love me more than these others do?\" Peter replied, \"Yes, Lord; you know that I love you.\" Jesus told him, \"Feed my lambs.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "He saith to him again the second time, Simon, son of Jonas, lovest thou me? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my sheep.",
+      "ct": "A 2nd time Jesus asked him, \"Simon, son of Jonas, do you love me?\" Peter answered, \"Yes, Lord; you know that I love you.\" Jesus told him, \"Take care of my sheep.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "He saith unto him the third time, Simon, son of Jonas, lovest thou me? Peter was grieved because he said unto him the third time, Lovest thou me? And he said unto him, Lord, thou knowest all things; thou knowest that I love thee. Jesus saith unto him, Feed my sheep.",
+      "ct": "A 3rd time Jesus asked him, \"Simon, son of Jonas, do you love me?\" Peter felt hurt that Jesus asked him a 3rd time, \"Do you love me?\" He said, \"Lord, you know everything; you know that I love you.\" Jesus told him, \"Feed my sheep.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Verily, verily, I say unto thee, When thou wast young, thou girdedst thyself, and walkedst whither thou wouldest: but when thou shalt be old, thou shalt stretch forth thy hands, and another shall gird thee, and carry thee whither thou wouldest not.",
+      "ct": "\"Truly, truly, I tell you: when you were young, you dressed yourself and went wherever you wanted. But when you are old, you will stretch out your hands, and someone else will dress you and take you where you don't want to go.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "This spake he, signifying by what death he should glorify God. And when he had spoken this, he saith unto him, Follow me.",
+      "ct": "Jesus said this to indicate the kind of death by which Peter would bring glory to God. Then he said to him, \"Follow me.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Then Peter, turning about, seeth the disciple whom Jesus loved following; which also leaned on his breast at supper, and said, Lord, which is he that betrayeth thee?",
+      "ct": "Peter turned around and saw the disciple whom Jesus loved following them — the one who had leaned close to Jesus during the supper and asked, \"Lord, who is going to betray you?\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Peter seeing him saith to Jesus, Lord, and what shall this man do?",
+      "ct": "When Peter noticed him, he asked Jesus, \"Lord, what about him?\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Jesus saith unto him, If I will that he tarry till I come, what is that to thee? follow thou me.",
+      "ct": "Jesus replied, \"If I want him to remain alive until I return, what concern is that of yours? You follow me.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Then went this saying abroad among the brethren, that that disciple should not die: yet Jesus said not unto him, He shall not die; but, If I will that he tarry till I come, what is that to thee?",
+      "ct": "Because of this, a rumor spread among the brothers that this disciple would not die. But Jesus never said he wouldn't die. He only said, \"If I want him to remain alive until I return, what concern is that of yours?\""
+    },
+    {
+      "verse": 24,
+      "kjv": "This is the disciple which testifieth of these things, and wrote these things: and we know that his testimony is true.",
+      "ct": "This is the disciple who is testifying about these events and who wrote them down. We know that his testimony is trustworthy."
+    },
+    {
+      "verse": 25,
+      "kjv": "And there are also many other things which Jesus did, the which, if they should be written every one, I suppose that even the world itself could not contain the books that should be written. Amen.",
+      "ct": "Jesus did many other things as well. If every one of them were written down, I don't think the whole world could hold all the books that would need to be written. Amen."
+    }
+  ]
+}

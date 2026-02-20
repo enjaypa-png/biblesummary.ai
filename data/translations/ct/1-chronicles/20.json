@@ -1,0 +1,50 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 20,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.832Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, that after the year was expired, at the time that kings go out to battle, Joab led forth the power of the army, and wasted the country of the children of Ammon, and came and besieged Rabbah. But David tarried at Jerusalem. And Joab smote Rabbah, and destroyed it.",
+      "ct": "In the spring, when kings typically go out to war, Joab led the full strength of the army into battle. He devastated the territory of the Ammonites and then came and laid siege to Rabbah. David, however, stayed behind in Jerusalem. Joab attacked Rabbah and destroyed it."
+    },
+    {
+      "verse": 2,
+      "kjv": "And David took the crown of their king from off his head, and found it to weigh a talent of gold, and there were precious stones in it; and it was set upon David’s head: and he brought also exceeding much spoil out of the city.",
+      "ct": "David took the crown from the head of their king and discovered it weighed about 75 pounds of gold, with precious stones set in it. The crown was placed on David's head. He also carried off a massive amount of plunder from the city."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he brought out the people that were in it, and cut them with saws, and with harrows of iron, and with axes. Even so dealt David with all the cities of the children of Ammon. And David and all the people returned to Jerusalem.",
+      "ct": "He brought out the people who were in the city and put them to work with saws, iron picks, and axes. David did this to all the Ammonite cities. Then David and the entire army returned to Jerusalem."
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass after this, that there arose war at Gezer with the Philistines; at which time Sibbechai the Hushathite slew Sippai, that was of the children of the giant: and they were subdued.",
+      "ct": "Some time later, war broke out with the Philistines at Gezer. During that conflict, Sibbechai the Hushathite killed Sippai, who was a descendant of the giants, and the Philistines were defeated."
+    },
+    {
+      "verse": 5,
+      "kjv": "And there was war again with the Philistines; and Elhanan the son of Jair slew Lahmi the brother of Goliath the Gittite, whose spear staff was like a weaver’s beam.",
+      "ct": "There was another battle with the Philistines, and Elhanan son of Jair killed Lahmi, the brother of Goliath the Gittite, whose spear had a shaft as thick as a weaver's beam."
+    },
+    {
+      "verse": 6,
+      "kjv": "And yet again there was war at Gath, where was a man of great stature, whose fingers and toes were four and twenty, six on each hand, and six on each foot and he also was the son of the giant.",
+      "ct": "Yet another battle took place at Gath, where there was an enormously tall man who had 24 fingers and toes — 6 on each hand and 6 on each foot. He too was a descendant of the giants."
+    },
+    {
+      "verse": 7,
+      "kjv": "But when he defied Israel, Jonathan the son of Shimea David’s brother slew him.",
+      "ct": "When he taunted Israel, Jonathan son of Shimea, David's brother, killed him."
+    },
+    {
+      "verse": 8,
+      "kjv": "These were born unto the giant in Gath; and they fell by the hand of David, and by the hand of his servants.",
+      "ct": "These were all descendants of the giants in Gath, and they were killed by David and his warriors."
+    }
+  ]
+}

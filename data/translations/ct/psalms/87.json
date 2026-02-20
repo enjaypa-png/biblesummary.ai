@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 87,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.993Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "His foundation is in the holy mountains.",
+      "ct": "God's foundation stands on the holy mountains."
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD loveth the gates of Zion more than all the dwellings of Jacob.",
+      "ct": "The LORD loves the gates of Zion more than any other place where Jacob's descendants live."
+    },
+    {
+      "verse": 3,
+      "kjv": "Glorious things are spoken of thee, O city of God. Selah.",
+      "ct": "Wonderful things are said about you, city of God. Selah."
+    },
+    {
+      "verse": 4,
+      "kjv": "I will make mention of Rahab and Babylon to them that know me: behold Philistia, and Tyre, with Ethiopia; this man was born there.",
+      "ct": "I will mention Rahab and Babylon among those who acknowledge me: look — Philistia, Tyre, and Ethiopia — 'This person was born there.'"
+    },
+    {
+      "verse": 5,
+      "kjv": "And of Zion it shall be said, This and that man was born in her: and the highest himself shall establish her.",
+      "ct": "But about Zion it will be said, 'Person after person was born in her,' and the Most High himself will make her secure."
+    },
+    {
+      "verse": 6,
+      "kjv": "The LORD shall count, when he writeth up the people, that this man was born there. Selah.",
+      "ct": "The LORD will record, as he registers the nations, 'This one was born there.' Selah."
+    },
+    {
+      "verse": 7,
+      "kjv": "As well the singers as the players on instruments shall be there: all my springs are in thee.",
+      "ct": "Singers and musicians alike will be there, saying, 'All my sources of joy are in you.'"
+    }
+  ]
+}

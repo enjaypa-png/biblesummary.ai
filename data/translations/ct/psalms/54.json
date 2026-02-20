@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 54,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.971Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Save me, O God, by thy name, and judge me by thy strength.",
+      "ct": "Rescue me, God, by the power of your name, and defend my cause with your strength."
+    },
+    {
+      "verse": 2,
+      "kjv": "Hear my prayer, O God; give ear to the words of my mouth.",
+      "ct": "Listen to my prayer, God; pay attention to what I'm saying."
+    },
+    {
+      "verse": 3,
+      "kjv": "For strangers are risen up against me, and oppressors seek after my soul: they have not set God before them. Selah.",
+      "ct": "Ruthless strangers have turned against me, and violent people are trying to take my life — people who have no regard for God. Selah."
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, God is mine helper: the Lord is with them that uphold my soul.",
+      "ct": "Look — God is the one who helps me; the Lord stands with those who support my life."
+    },
+    {
+      "verse": 5,
+      "kjv": "He shall reward evil unto mine enemies: cut them off in thy truth.",
+      "ct": "He will turn their own evil back on my enemies. Destroy them because of your faithfulness."
+    },
+    {
+      "verse": 6,
+      "kjv": "I will freely sacrifice unto thee: I will praise thy name, O LORD; for it is good.",
+      "ct": "I will bring you a willing offering; I will praise your name, LORD, because it is good."
+    },
+    {
+      "verse": 7,
+      "kjv": "For he hath delivered me out of all trouble: and mine eye hath seen his desire upon mine enemies.",
+      "ct": "He has rescued me from every trouble, and I have seen him triumph over my enemies."
+    }
+  ]
+}

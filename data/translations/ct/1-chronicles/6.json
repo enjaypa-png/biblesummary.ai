@@ -1,0 +1,415 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 6,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.817Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The sons of Levi; Gershon, Kohath, and Merari.",
+      "ct": "Levi's sons were Gershon, Kohath, and Merari."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the sons of Kohath; Amram, Izhar, and Hebron, and Uzziel.",
+      "ct": "Kohath's sons were Amram, Izhar, Hebron, and Uzziel."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the children of Amram; Aaron, and Moses, and Miriam. The sons also of Aaron; Nadab, and Abihu, Eleazar, and Ithamar.",
+      "ct": "Amram's children were Aaron, Moses, and Miriam. Aaron's sons were Nadab, Abihu, Eleazar, and Ithamar."
+    },
+    {
+      "verse": 4,
+      "kjv": "Eleazar begat Phinehas, Phinehas begat Abishua,",
+      "ct": "Eleazar became the father of Phinehas, and Phinehas became the father of Abishua."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Abishua begat Bukki, and Bukki begat Uzzi,",
+      "ct": "Abishua became the father of Bukki, and Bukki became the father of Uzzi."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Uzzi begat Zerahiah, and Zerahiah begat Meraioth,",
+      "ct": "Uzzi became the father of Zerahiah, and Zerahiah became the father of Meraioth."
+    },
+    {
+      "verse": 7,
+      "kjv": "Meraioth begat Amariah, and Amariah begat Ahitub,",
+      "ct": "Meraioth became the father of Amariah, and Amariah became the father of Ahitub."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Ahitub begat Zadok, and Zadok begat Ahimaaz,",
+      "ct": "Ahitub became the father of Zadok, and Zadok became the father of Ahimaaz."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Ahimaaz begat Azariah, and Azariah begat Johanan,",
+      "ct": "Ahimaaz became the father of Azariah, and Azariah became the father of Johanan."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Johanan begat Azariah, (he it is that executed the priest’s office in the temple that Solomon built in Jerusalem:)",
+      "ct": "Johanan became the father of Azariah, who served as priest in the temple that Solomon constructed in Jerusalem."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Azariah begat Amariah, and Amariah begat Ahitub,",
+      "ct": "Azariah became the father of Amariah, and Amariah became the father of Ahitub."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Ahitub begat Zadok, and Zadok begat Shallum,",
+      "ct": "Ahitub became the father of Zadok, and Zadok became the father of Shallum."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Shallum begat Hilkiah, and Hilkiah begat Azariah,",
+      "ct": "Shallum became the father of Hilkiah, and Hilkiah became the father of Azariah."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Azariah begat Seraiah, and Seraiah begat Jehozadak,",
+      "ct": "Azariah became the father of Seraiah, and Seraiah became the father of Jehozadak."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Jehozadak went into captivity, when the LORD carried away Judah and Jerusalem by the hand of Nebuchadnezzar.",
+      "ct": "Jehozadak was taken into exile when the LORD allowed Nebuchadnezzar to carry Judah and Jerusalem away as captives."
+    },
+    {
+      "verse": 16,
+      "kjv": "The sons of Levi; Gershom, Kohath, and Merari.",
+      "ct": "Levi's sons were Gershom, Kohath, and Merari."
+    },
+    {
+      "verse": 17,
+      "kjv": "And these be the names of the sons of Gershom; Libni, and Shimei.",
+      "ct": "These are the names of Gershom's sons: Libni and Shimei."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the sons of Kohath were, Amram, and Izhar, and Hebron, and Uzziel.",
+      "ct": "Kohath's sons were Amram, Izhar, Hebron, and Uzziel."
+    },
+    {
+      "verse": 19,
+      "kjv": "The sons of Merari; Mahli, and Mushi. And these are the families of the Levites according to their fathers.",
+      "ct": "Merari's sons were Mahli and Mushi. These were the Levite clans, listed by their ancestral families."
+    },
+    {
+      "verse": 20,
+      "kjv": "Of Gershom; Libni his son, Jahath his son, Zimmah his son,",
+      "ct": "From Gershom: his son Libni, then Jahath, then Zimmah,"
+    },
+    {
+      "verse": 21,
+      "kjv": "Joah his son, Iddo his son, Zerah his son, Jeaterai his son.",
+      "ct": "then Joah, then Iddo, then Zerah, then Jeaterai."
+    },
+    {
+      "verse": 22,
+      "kjv": "The sons of Kohath; Amminadab his son, Korah his son, Assir his son,",
+      "ct": "The descendants of Kohath: his son Amminadab, then Korah, then Assir,"
+    },
+    {
+      "verse": 23,
+      "kjv": "Elkanah his son, and Ebiasaph his son, and Assir his son,",
+      "ct": "then Elkanah, then Ebiasaph, then Assir,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Tahath his son, Uriel his son, Uzziah his son, and Shaul his son.",
+      "ct": "then Tahath, then Uriel, then Uzziah, then Shaul."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the sons of Elkanah; Amasai, and Ahimoth.",
+      "ct": "Elkanah's sons were Amasai and Ahimoth."
+    },
+    {
+      "verse": 26,
+      "kjv": "As for Elkanah: the sons of Elkanah; Zophai his son, and Nahath his son,",
+      "ct": "As for Elkanah's line: his son Zophai, then Nahath,"
+    },
+    {
+      "verse": 27,
+      "kjv": "Eliab his son, Jeroham his son, Elkanah his son.",
+      "ct": "then Eliab, then Jeroham, then Elkanah."
+    },
+    {
+      "verse": 28,
+      "kjv": "And the sons of Samuel; the firstborn Vashni, and Abiah.",
+      "ct": "Samuel's sons were his firstborn Vashni and his second son Abiah."
+    },
+    {
+      "verse": 29,
+      "kjv": "The sons of Merari; Mahli, Libni his son, Shimei his son, Uzza his son,",
+      "ct": "The descendants of Merari: Mahli, then his son Libni, then Shimei, then Uzza,"
+    },
+    {
+      "verse": 30,
+      "kjv": "Shimea his son, Haggiah his son, Asaiah his son.",
+      "ct": "then Shimea, then Haggiah, then Asaiah."
+    },
+    {
+      "verse": 31,
+      "kjv": "And these are they whom David set over the service of song in the house of the LORD, after that the ark had rest.",
+      "ct": "These are the men David appointed to lead the music worship in the house of the LORD after the ark was placed in its permanent location."
+    },
+    {
+      "verse": 32,
+      "kjv": "And they ministered before the dwelling place of the tabernacle of the congregation with singing, until Solomon had built the house of the LORD in Jerusalem: and then they waited on their office according to their order.",
+      "ct": "They carried out their musical ministry in front of the tabernacle, the tent of meeting, until Solomon completed the house of the LORD in Jerusalem. After that, they continued serving according to their assigned duties."
+    },
+    {
+      "verse": 33,
+      "kjv": "And these are they that waited with their children. Of the sons of the Kohathites: Heman a singer, the son of Joel, the son of Shemuel,",
+      "ct": "Here are those who served along with their descendants. From the Kohathites: Heman the singer, who was the son of Joel, who was the son of Shemuel,"
+    },
+    {
+      "verse": 34,
+      "kjv": "The son of Elkanah, the son of Jeroham, the son of Eliel, the son of Toah,",
+      "ct": "who was the son of Elkanah, who was the son of Jeroham, who was the son of Eliel, who was the son of Toah,"
+    },
+    {
+      "verse": 35,
+      "kjv": "The son of Zuph, the son of Elkanah, the son of Mahath, the son of Amasai,",
+      "ct": "who was the son of Zuph, who was the son of Elkanah, who was the son of Mahath, who was the son of Amasai,"
+    },
+    {
+      "verse": 36,
+      "kjv": "The son of Elkanah, the son of Joel, the son of Azariah, the son of Zephaniah,",
+      "ct": "who was the son of Elkanah, who was the son of Joel, who was the son of Azariah, who was the son of Zephaniah,"
+    },
+    {
+      "verse": 37,
+      "kjv": "The son of Tahath, the son of Assir, the son of Ebiasaph, the son of Korah,",
+      "ct": "who was the son of Tahath, who was the son of Assir, who was the son of Ebiasaph, who was the son of Korah,"
+    },
+    {
+      "verse": 38,
+      "kjv": "The son of Izhar, the son of Kohath, the son of Levi, the son of Israel.",
+      "ct": "who was the son of Izhar, who was the son of Kohath, who was the son of Levi, who was the son of Israel."
+    },
+    {
+      "verse": 39,
+      "kjv": "And his brother Asaph, who stood on his right hand, even Asaph the son of Berachiah, the son of Shimea,",
+      "ct": "Heman's fellow musician Asaph stood at his right side. Asaph was the son of Berachiah, who was the son of Shimea,"
+    },
+    {
+      "verse": 40,
+      "kjv": "The son of Michael, the son of Baaseiah, the son of Malchiah,",
+      "ct": "who was the son of Michael, who was the son of Baaseiah, who was the son of Malchiah,"
+    },
+    {
+      "verse": 41,
+      "kjv": "The son of Ethni, the son of Zerah, the son of Adaiah,",
+      "ct": "who was the son of Ethni, who was the son of Zerah, who was the son of Adaiah,"
+    },
+    {
+      "verse": 42,
+      "kjv": "The son of Ethan, the son of Zimmah, the son of Shimei,",
+      "ct": "who was the son of Ethan, who was the son of Zimmah, who was the son of Shimei,"
+    },
+    {
+      "verse": 43,
+      "kjv": "The son of Jahath, the son of Gershom, the son of Levi.",
+      "ct": "who was the son of Jahath, who was the son of Gershom, who was the son of Levi."
+    },
+    {
+      "verse": 44,
+      "kjv": "And their brethren the sons of Merari stood on the left hand: Ethan the son of Kishi, the son of Abdi, the son of Malluch,",
+      "ct": "Their brothers, the descendants of Merari, stood on the left side. Ethan was the son of Kishi, who was the son of Abdi, who was the son of Malluch,"
+    },
+    {
+      "verse": 45,
+      "kjv": "The son of Hashabiah, the son of Amaziah, the son of Hilkiah,",
+      "ct": "who was the son of Hashabiah, who was the son of Amaziah, who was the son of Hilkiah,"
+    },
+    {
+      "verse": 46,
+      "kjv": "The son of Amzi, the son of Bani, the son of Shamer,",
+      "ct": "who was the son of Amzi, who was the son of Bani, who was the son of Shamer,"
+    },
+    {
+      "verse": 47,
+      "kjv": "The son of Mahli, the son of Mushi, the son of Merari, the son of Levi.",
+      "ct": "who was the son of Mahli, who was the son of Mushi, who was the son of Merari, who was the son of Levi."
+    },
+    {
+      "verse": 48,
+      "kjv": "Their brethren also the Levites were appointed unto all manner of service of the tabernacle of the house of God.",
+      "ct": "Their fellow Levites were assigned to handle every other kind of service at the tabernacle, the house of God."
+    },
+    {
+      "verse": 49,
+      "kjv": "But Aaron and his sons offered upon the altar of the burnt offering, and on the altar of incense, and were appointed for all the work of the place most holy, and to make an atonement for Israel, according to all that Moses the servant of God had commanded.",
+      "ct": "But Aaron and his descendants were responsible for making offerings on the altar of burnt offering and on the incense altar. They were assigned all the duties of the most holy place, making atonement for Israel, exactly as Moses the servant of God had instructed."
+    },
+    {
+      "verse": 50,
+      "kjv": "And these are the sons of Aaron; Eleazar his son, Phinehas his son, Abishua his son,",
+      "ct": "These are Aaron's descendants: his son Eleazar, then Phinehas, then Abishua,"
+    },
+    {
+      "verse": 51,
+      "kjv": "Bukki his son, Uzzi his son, Zerahiah his son,",
+      "ct": "then Bukki, then Uzzi, then Zerahiah,"
+    },
+    {
+      "verse": 52,
+      "kjv": "Meraioth his son, Amariah his son, Ahitub his son,",
+      "ct": "then Meraioth, then Amariah, then Ahitub,"
+    },
+    {
+      "verse": 53,
+      "kjv": "Zadok his son, Ahimaaz his son.",
+      "ct": "then Zadok, then Ahimaaz."
+    },
+    {
+      "verse": 54,
+      "kjv": "Now these are their dwelling places throughout their castles in their coasts, of the sons of Aaron, of the families of the Kohathites: for theirs was the lot.",
+      "ct": "These were the settlements and territories assigned to Aaron's descendants from the Kohathite clan, since they received the first allotment by lot."
+    },
+    {
+      "verse": 55,
+      "kjv": "And they gave them Hebron in the land of Judah, and the suburbs thereof round about it.",
+      "ct": "They were given Hebron in the territory of Judah, along with the surrounding pasturelands."
+    },
+    {
+      "verse": 56,
+      "kjv": "But the fields of the city, and the villages thereof, they gave to Caleb the son of Jephunneh.",
+      "ct": "However, the farmland and villages around the city had already been given to Caleb son of Jephunneh."
+    },
+    {
+      "verse": 57,
+      "kjv": "And to the sons of Aaron they gave the cities of Judah, namely, Hebron, the city of refuge, and Libnah with her suburbs, and Jattir, and Eshtemoa, with their suburbs,",
+      "ct": "Aaron's descendants received these cities in Judah: Hebron (a city of refuge), Libnah with its pasturelands, Jattir, and Eshtemoa with their pasturelands,"
+    },
+    {
+      "verse": 58,
+      "kjv": "And Hilen with her suburbs, Debir with her suburbs,",
+      "ct": "Hilen with its pasturelands, Debir with its pasturelands,"
+    },
+    {
+      "verse": 59,
+      "kjv": "And Ashan with her suburbs, and Bethshemesh with her suburbs:",
+      "ct": "Ashan with its pasturelands, and Bethshemesh with its pasturelands."
+    },
+    {
+      "verse": 60,
+      "kjv": "And out of the tribe of Benjamin; Geba with her suburbs, and Alemeth with her suburbs, and Anathoth with her suburbs. All their cities throughout their families were thirteen cities.",
+      "ct": "From the tribe of Benjamin they received Geba with its pasturelands, Alemeth with its pasturelands, and Anathoth with its pasturelands. In total, their clans received 13 cities."
+    },
+    {
+      "verse": 61,
+      "kjv": "And unto the sons of Kohath, which were left of the family of that tribe, were cities given out of the half tribe, namely, out of the half tribe of Manasseh, by lot, ten cities.",
+      "ct": "The remaining Kohathite clans received 10 cities by lot from the half-tribe of Manasseh."
+    },
+    {
+      "verse": 62,
+      "kjv": "And to the sons of Gershom throughout their families out of the tribe of Issachar, and out of the tribe of Asher, and out of the tribe of Naphtali, and out of the tribe of Manasseh in Bashan, thirteen cities.",
+      "ct": "The Gershom clans received 13 cities from the tribes of Issachar, Asher, Naphtali, and the part of Manasseh that was in Bashan."
+    },
+    {
+      "verse": 63,
+      "kjv": "Unto the sons of Merari were given by lot, throughout their families, out of the tribe of Reuben, and out of the tribe of Gad, and out of the tribe of Zebulun, twelve cities.",
+      "ct": "The Merari clans received 12 cities by lot from the tribes of Reuben, Gad, and Zebulun."
+    },
+    {
+      "verse": 64,
+      "kjv": "And the children of Israel gave to the Levites these cities with their suburbs.",
+      "ct": "So the people of Israel gave these cities along with their pasturelands to the Levites."
+    },
+    {
+      "verse": 65,
+      "kjv": "And they gave by lot out of the tribe of the children of Judah, and out of the tribe of the children of Simeon, and out of the tribe of the children of Benjamin, these cities, which are called by their names.",
+      "ct": "From the tribes of Judah, Simeon, and Benjamin, they assigned by lot the cities that are listed here by name."
+    },
+    {
+      "verse": 66,
+      "kjv": "And the residue of the families of the sons of Kohath had cities of their coasts out of the tribe of Ephraim.",
+      "ct": "The remaining Kohathite families received cities in the territory of the tribe of Ephraim."
+    },
+    {
+      "verse": 67,
+      "kjv": "And they gave unto them, of the cities of refuge, Shechem in mount Ephraim with her suburbs; they gave also Gezer with her suburbs,",
+      "ct": "They were given Shechem (a city of refuge) in the hill country of Ephraim with its pasturelands, and also Gezer with its pasturelands,"
+    },
+    {
+      "verse": 68,
+      "kjv": "And Jokmeam with her suburbs, and Bethhoron with her suburbs,",
+      "ct": "Jokmeam with its pasturelands, Bethhoron with its pasturelands,"
+    },
+    {
+      "verse": 69,
+      "kjv": "And Aijalon with her suburbs, and Gathrimmon with her suburbs:",
+      "ct": "Aijalon with its pasturelands, and Gathrimmon with its pasturelands."
+    },
+    {
+      "verse": 70,
+      "kjv": "And out of the half tribe of Manasseh; Aner with her suburbs, and Bileam with her suburbs, for the family of the remnant of the sons of Kohath.",
+      "ct": "From the half-tribe of Manasseh, the remaining Kohathite families received Aner with its pasturelands and Bileam with its pasturelands."
+    },
+    {
+      "verse": 71,
+      "kjv": "Unto the sons of Gershom were given out of the family of the half tribe of Manasseh, Golan in Bashan with her suburbs, and Ashtaroth with her suburbs:",
+      "ct": "The Gershom clan received from the half-tribe of Manasseh: Golan in Bashan with its pasturelands and Ashtaroth with its pasturelands."
+    },
+    {
+      "verse": 72,
+      "kjv": "And out of the tribe of Issachar; Kedesh with her suburbs, Daberath with her suburbs,",
+      "ct": "From the tribe of Issachar they received Kedesh with its pasturelands, Daberath with its pasturelands,"
+    },
+    {
+      "verse": 73,
+      "kjv": "And Ramoth with her suburbs, and Anem with her suburbs:",
+      "ct": "Ramoth with its pasturelands, and Anem with its pasturelands."
+    },
+    {
+      "verse": 74,
+      "kjv": "And out of the tribe of Asher; Mashal with her suburbs, and Abdon with her suburbs,",
+      "ct": "From the tribe of Asher they received Mashal with its pasturelands, Abdon with its pasturelands,"
+    },
+    {
+      "verse": 75,
+      "kjv": "And Hukok with her suburbs, and Rehob with her suburbs:",
+      "ct": "Hukok with its pasturelands, and Rehob with its pasturelands."
+    },
+    {
+      "verse": 76,
+      "kjv": "And out of the tribe of Naphtali; Kedesh in Galilee with her suburbs, and Hammon with her suburbs, and Kirjathaim with her suburbs.",
+      "ct": "From the tribe of Naphtali they received Kedesh in Galilee with its pasturelands, Hammon with its pasturelands, and Kirjathaim with its pasturelands."
+    },
+    {
+      "verse": 77,
+      "kjv": "Unto the rest of the children of Merari were given out of the tribe of Zebulun, Rimmon with her suburbs, Tabor with her suburbs:",
+      "ct": "The remaining Merari clans received from the tribe of Zebulun: Rimmon with its pasturelands and Tabor with its pasturelands."
+    },
+    {
+      "verse": 78,
+      "kjv": "And on the other side Jordan by Jericho, on the east side of Jordan, were given them out of the tribe of Reuben, Bezer in the wilderness with her suburbs, and Jahzah with her suburbs,",
+      "ct": "Across the Jordan River from Jericho, on the east side, they received from the tribe of Reuben: Bezer in the wilderness with its pasturelands, Jahzah with its pasturelands,"
+    },
+    {
+      "verse": 79,
+      "kjv": "Kedemoth also with her suburbs, and Mephaath with her suburbs:",
+      "ct": "Kedemoth with its pasturelands, and Mephaath with its pasturelands."
+    },
+    {
+      "verse": 80,
+      "kjv": "And out of the tribe of Gad; Ramoth in Gilead with her suburbs, and Mahanaim with her suburbs,",
+      "ct": "From the tribe of Gad they received Ramoth in Gilead with its pasturelands, Mahanaim with its pasturelands,"
+    },
+    {
+      "verse": 81,
+      "kjv": "And Heshbon with her suburbs, and Jazer with her suburbs.",
+      "ct": "Heshbon with its pasturelands, and Jazer with its pasturelands."
+    }
+  ]
+}

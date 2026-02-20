@@ -1,0 +1,25 @@
+{
+  "book": "esther",
+  "book_name": "Esther",
+  "chapter": 10,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.903Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the king Ahasuerus laid a tribute upon the land, and upon the isles of the sea.",
+      "ct": "King Ahasuerus imposed a tax across the entire land and on the coastal regions."
+    },
+    {
+      "verse": 2,
+      "kjv": "And all the acts of his power and of his might, and the declaration of the greatness of Mordecai, whereunto the king advanced him, are they not written in the book of the chronicles of the kings of Media and Persia?",
+      "ct": "Everything he accomplished through his power and strength, along with the full account of how he elevated Mordecai to a position of greatness — all of this is recorded in the official history of the kings of Media and Persia."
+    },
+    {
+      "verse": 3,
+      "kjv": "For Mordecai the Jew was next unto king Ahasuerus, and great among the Jews, and accepted of the multitude of his brethren, seeking the wealth of his people, and speaking peace to all his seed.",
+      "ct": "Mordecai the Jew held the highest rank under King Ahasuerus. He was honored among the Jewish people and loved by his many brothers, because he worked for the good of his people and promoted the well-being of all their descendants."
+    }
+  ]
+}

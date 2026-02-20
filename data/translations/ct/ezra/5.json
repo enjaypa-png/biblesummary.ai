@@ -1,0 +1,95 @@
+{
+  "book": "ezra",
+  "book_name": "Ezra",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.878Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then the prophets, Haggai the prophet, and Zechariah the son of Iddo, prophesied unto the Jews that were in Judah and Jerusalem in the name of the God of Israel, even unto them.",
+      "ct": "During this time, the prophets Haggai and Zechariah son of Iddo prophesied to the Jewish people living in Judah and Jerusalem, speaking in the name of the God of Israel."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then rose up Zerubbabel the son of Shealtiel, and Jeshua the son of Jozadak, and began to build the house of God which is at Jerusalem: and with them were the prophets of God helping them.",
+      "ct": "So Zerubbabel son of Shealtiel and Jeshua son of Jozadak got up and started rebuilding the house of God in Jerusalem, and the prophets of God were right there supporting them."
+    },
+    {
+      "verse": 3,
+      "kjv": "At the same time came to them Tatnai, governor on this side the river, and Shetharboznai, and their companions, and said thus unto them, Who hath commanded you to build this house, and to make up this wall?",
+      "ct": "Right away, Tatnai, the governor of the region west of the Euphrates, along with Shetharboznai and their associates, came to them and asked, \"Who authorized you to rebuild this temple and restore these walls?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said we unto them after this manner, What are the names of the men that make this building?",
+      "ct": "They also asked, \"What are the names of the men working on this construction?\""
+    },
+    {
+      "verse": 5,
+      "kjv": "But the eye of their God was upon the elders of the Jews, that they could not cause them to cease, till the matter came to Darius: and then they returned answer by letter concerning this matter.",
+      "ct": "But God was watching over the Jewish elders, and no one could force them to stop working until a report reached Darius and an official response was sent back regarding the matter."
+    },
+    {
+      "verse": 6,
+      "kjv": "The copy of the letter that Tatnai, governor on this side the river, and Shetharboznai, and his companions the Apharsachites, which were on this side the river, sent unto Darius the king:",
+      "ct": "Here is a copy of the letter that Tatnai, governor of the region west of the Euphrates, Shetharboznai, and his associates the Apharsachites from that same region sent to King Darius:"
+    },
+    {
+      "verse": 7,
+      "kjv": "They sent a letter unto him, wherein was written thus; Unto Darius the king, all peace.",
+      "ct": "In the letter they sent to him, it was written: \"To King Darius — greetings and peace."
+    },
+    {
+      "verse": 8,
+      "kjv": "Be it known unto the king, that we went into the province of Judea, to the house of the great God, which is builded with great stones, and timber is laid in the walls, and this work goeth fast on, and prospereth in their hands.",
+      "ct": "The king should know that we traveled to the province of Judah and visited the temple of the great God. It is being constructed with large stones, and timber is being set into the walls. The work is progressing quickly and successfully."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then asked we those elders, and said unto them thus, Who commanded you to build this house, and to make up these walls?",
+      "ct": "We questioned the elders there and asked them, 'Who authorized you to rebuild this temple and restore these walls?'"
+    },
+    {
+      "verse": 10,
+      "kjv": "We asked their names also, to certify thee, that we might write the names of the men that were the chief of them.",
+      "ct": "We also asked for their names so we could inform you and record the names of their leaders."
+    },
+    {
+      "verse": 11,
+      "kjv": "And thus they returned us answer, saying, We are the servants of the God of heaven and earth, and build the house that was builded these many years ago, which a great king of Israel builded and set up.",
+      "ct": "This is the answer they gave us: 'We are servants of the God of heaven and earth, and we are rebuilding the temple that was originally constructed many years ago by a great king of Israel."
+    },
+    {
+      "verse": 12,
+      "kjv": "But after that our fathers had provoked the God of heaven unto wrath, he gave them into the hand of Nebuchadnezzar the king of Babylon, the Chaldean, who destroyed this house, and carried the people away into Babylon.",
+      "ct": "But because our ancestors angered the God of heaven, he handed them over to Nebuchadnezzar king of Babylon, the Chaldean, who destroyed this temple and deported the people to Babylon."
+    },
+    {
+      "verse": 13,
+      "kjv": "But in the first year of Cyrus the king of Babylon the same king Cyrus made a decree to build this house of God.",
+      "ct": "However, in the 1st year of King Cyrus of Babylon, King Cyrus issued an official decree to rebuild this house of God."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the vessels also of gold and silver of the house of God, which Nebuchadnezzar took out of the temple that was in Jerusalem, and brought them into the temple of Babylon, those did Cyrus the king take out of the temple of Babylon, and they were delivered unto one, whose name was Sheshbazzar, whom he had made governor;",
+      "ct": "Furthermore, the gold and silver articles from the house of God that Nebuchadnezzar had taken from the temple in Jerusalem and brought to the temple in Babylon — King Cyrus removed those from the temple in Babylon and turned them over to a man named Sheshbazzar, whom he had appointed as governor."
+    },
+    {
+      "verse": 15,
+      "kjv": "And said unto him, Take these vessels, go, carry them into the temple that is in Jerusalem, and let the house of God be builded in his place.",
+      "ct": "Cyrus told him, \"Take these articles, go place them in the temple in Jerusalem, and let the house of God be rebuilt on its original site.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Then came the same Sheshbazzar, and laid the foundation of the house of God which is in Jerusalem: and since that time even until now hath it been in building, and yet it is not finished.",
+      "ct": "So Sheshbazzar came and laid the foundation of the house of God in Jerusalem. Construction has continued from that time until now, but it still isn't finished.'"
+    },
+    {
+      "verse": 17,
+      "kjv": "Now therefore, if it seem good to the king, let there be search made in the king’s treasure house, which is there at Babylon, whether it be so, that a decree was made of Cyrus the king to build this house of God at Jerusalem, and let the king send his pleasure to us concerning this matter.",
+      "ct": "So now, if it pleases the king, we request that a search be conducted in the royal archives there in Babylon to determine whether King Cyrus actually issued a decree to rebuild this house of God in Jerusalem. Then please send us the king's decision on this matter.\""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 53,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.971Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The fool hath said in his heart, There is no God. Corrupt are they, and have done abominable iniquity: there is none that doeth good.",
+      "ct": "Only a fool thinks to himself, 'There is no God.' They are morally corrupt and commit disgusting evil — not a single one of them does what is right."
+    },
+    {
+      "verse": 2,
+      "kjv": "God looked down from heaven upon the children of men, to see if there were any that did understand, that did seek God.",
+      "ct": "God looked down from heaven on the human race to see if anyone truly understood, if anyone was seeking God."
+    },
+    {
+      "verse": 3,
+      "kjv": "Every one of them is gone back: they are altogether become filthy; there is none that doeth good, no, not one.",
+      "ct": "Every one of them has turned away; all of them have become rotten to the core. Not a single one does what is right — not even one."
+    },
+    {
+      "verse": 4,
+      "kjv": "Have the workers of iniquity no knowledge? who eat up my people as they eat bread: they have not called upon God.",
+      "ct": "Don't these evildoers realize what they're doing? They devour my people the way someone devours bread, and they never call on God."
+    },
+    {
+      "verse": 5,
+      "kjv": "There were they in great fear, where no fear was: for God hath scattered the bones of him that encampeth against thee: thou hast put them to shame, because God hath despised them.",
+      "ct": "They were overwhelmed with terror where there was nothing to be afraid of, because God scattered the bones of those who attacked you. You humiliated them, because God rejected them."
+    },
+    {
+      "verse": 6,
+      "kjv": "Oh that the salvation of Israel were come out of Zion! When God bringeth back the captivity of his people, Jacob shall rejoice, and Israel shall be glad.",
+      "ct": "If only salvation for Israel would come from Zion! When God restores the fortunes of his people, Jacob will celebrate and Israel will be filled with joy."
+    }
+  ]
+}

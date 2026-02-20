@@ -1,0 +1,165 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 14,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.517Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto the children of Israel, that they turn and encamp before Pihahiroth, between Migdol and the sea, over against Baalzephon: before it shall ye encamp by the sea.",
+      "ct": "\"Tell the Israelites to turn back and set up camp near Pihahiroth, between Migdol and the sea. Camp there by the sea, across from Baalzephon.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "For Pharaoh will say of the children of Israel, They are entangled in the land, the wilderness hath shut them in.",
+      "ct": "\"Pharaoh will think the Israelites are wandering around confused, trapped by the wilderness.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And I will harden Pharaoh’s heart, that he shall follow after them; and I will be honoured upon Pharaoh, and upon all his host; that the Egyptians may know that I am the LORD. And they did so.",
+      "ct": "\"I will make Pharaoh stubborn so that he chases after them. Then I will gain glory through Pharaoh and his entire army, and the Egyptians will know that I am the LORD.\" So the Israelites did this."
+    },
+    {
+      "verse": 5,
+      "kjv": "And it was told the king of Egypt that the people fled: and the heart of Pharaoh and of his servants was turned against the people, and they said, Why have we done this, that we have let Israel go from serving us?",
+      "ct": "When the king of Egypt received word that the people had escaped, Pharaoh and his officials changed their minds about them. They said, \"What have we done? Why did we let Israel go free from working for us?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And he made ready his chariot, and took his people with him:",
+      "ct": "So Pharaoh prepared his chariot and gathered his forces."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he took six hundred chosen chariots, and all the chariots of Egypt, and captains over every one of them.",
+      "ct": "He took 600 of his best chariots along with every other chariot in Egypt, each one with an officer in command."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the LORD hardened the heart of Pharaoh king of Egypt, and he pursued after the children of Israel: and the children of Israel went out with an high hand.",
+      "ct": "The LORD made Pharaoh, king of Egypt, stubborn, and he chased after the Israelites. But the Israelites had marched out boldly."
+    },
+    {
+      "verse": 9,
+      "kjv": "But the Egyptians pursued after them, all the horses and chariots of Pharaoh, and his horsemen, and his army, and overtook them encamping by the sea, beside Pihahiroth, before Baalzephon.",
+      "ct": "The Egyptians pursued them — all of Pharaoh's horses, chariots, cavalry, and soldiers — and caught up with them as they were camped by the sea near Pihahiroth, across from Baalzephon."
+    },
+    {
+      "verse": 10,
+      "kjv": "And when Pharaoh drew nigh, the children of Israel lifted up their eyes, and, behold, the Egyptians marched after them; and they were sore afraid: and the children of Israel cried out unto the LORD.",
+      "ct": "As Pharaoh approached, the Israelites looked up and saw the Egyptian army marching toward them. They were absolutely terrified and cried out to the LORD."
+    },
+    {
+      "verse": 11,
+      "kjv": "And they said unto Moses, Because there were no graves in Egypt, hast thou taken us away to die in the wilderness? wherefore hast thou dealt thus with us, to carry us forth out of Egypt?",
+      "ct": "They said to Moses, \"Were there not enough graves in Egypt? Is that why you brought us out here to die in the wilderness? Why did you do this to us — dragging us out of Egypt?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Is not this the word that we did tell thee in Egypt, saying, Let us alone, that we may serve the Egyptians? For it had been better for us to serve the Egyptians, than that we should die in the wilderness.",
+      "ct": "\"Isn't this exactly what we told you back in Egypt? We said, 'Leave us alone and let us serve the Egyptians.' It would have been better to stay as slaves than to die out here in the wilderness.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Moses said unto the people, Fear ye not, stand still, and see the salvation of the LORD, which he will shew to you to day: for the Egyptians whom ye have seen to day, ye shall see them again no more for ever.",
+      "ct": "Moses told the people, \"Don't be afraid. Stand firm and watch the salvation that the LORD will bring you today. The Egyptians you see right now — you will never see them again.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "The LORD shall fight for you, and ye shall hold your peace.",
+      "ct": "\"The LORD will fight on your behalf. You just need to be still.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And the LORD said unto Moses, Wherefore criest thou unto me? speak unto the children of Israel, that they go forward:",
+      "ct": "The LORD said to Moses, \"Why are you crying out to me? Tell the Israelites to start moving forward.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "But lift thou up thy rod, and stretch out thine hand over the sea, and divide it: and the children of Israel shall go on dry ground through the midst of the sea.",
+      "ct": "\"Raise your staff and stretch your hand out over the sea to split it apart. Then the Israelites will walk through the middle of the sea on dry ground.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And I, behold, I will harden the hearts of the Egyptians, and they shall follow them: and I will get me honour upon Pharaoh, and upon all his host, upon his chariots, and upon his horsemen.",
+      "ct": "\"As for me, I will make the Egyptians stubborn enough to follow them in. Then I will gain glory through Pharaoh and his entire army, his chariots, and his cavalry.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And the Egyptians shall know that I am the LORD, when I have gotten me honour upon Pharaoh, upon his chariots, and upon his horsemen.",
+      "ct": "\"The Egyptians will know that I am the LORD when I gain glory through Pharaoh, his chariots, and his cavalry.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And the angel of God, which went before the camp of Israel, removed and went behind them; and the pillar of the cloud went from before their face, and stood behind them:",
+      "ct": "Then the angel of God, who had been traveling ahead of Israel's camp, moved and went behind them. The pillar of cloud shifted from in front of them and took its position behind them."
+    },
+    {
+      "verse": 20,
+      "kjv": "And it came between the camp of the Egyptians and the camp of Israel; and it was a cloud and darkness to them, but it gave light by night to these: so that the one came not near the other all the night.",
+      "ct": "It stood between the Egyptian camp and the Israelite camp. The cloud brought darkness to the Egyptians but gave light to the Israelites at night. So neither side came near the other throughout the night."
+    },
+    {
+      "verse": 21,
+      "kjv": "And Moses stretched out his hand over the sea; and the LORD caused the sea to go back by a strong east wind all that night, and made the sea dry land, and the waters were divided.",
+      "ct": "Moses stretched his hand out over the sea, and the LORD drove the sea back with a powerful east wind that blew all night long. He turned the sea into dry land, and the waters split apart."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the children of Israel went into the midst of the sea upon the dry ground: and the waters were a wall unto them on their right hand, and on their left.",
+      "ct": "The Israelites walked through the middle of the sea on dry ground, with the water standing like a wall on their right side and on their left."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the Egyptians pursued, and went in after them to the midst of the sea, even all Pharaoh’s horses, his chariots, and his horsemen.",
+      "ct": "The Egyptians chased them and followed right into the sea — all of Pharaoh's horses, chariots, and cavalry."
+    },
+    {
+      "verse": 24,
+      "kjv": "And it came to pass, that in the morning watch the LORD looked unto the host of the Egyptians through the pillar of fire and of the cloud, and troubled the host of the Egyptians,",
+      "ct": "During the early morning hours, the LORD looked down on the Egyptian army through the pillar of fire and cloud, and threw them into confusion."
+    },
+    {
+      "verse": 25,
+      "kjv": "And took off their chariot wheels, that they drave them heavily: so that the Egyptians said, Let us flee from the face of Israel; for the LORD fighteth for them against the Egyptians.",
+      "ct": "He jammed their chariot wheels so they could barely move. The Egyptians said, \"Let's get away from the Israelites! The LORD is fighting for them against us!\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And the LORD said unto Moses, Stretch out thine hand over the sea, that the waters may come again upon the Egyptians, upon their chariots, and upon their horsemen.",
+      "ct": "Then the LORD told Moses, \"Stretch your hand out over the sea so that the water rushes back over the Egyptians, their chariots, and their cavalry.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And Moses stretched forth his hand over the sea, and the sea returned to his strength when the morning appeared; and the Egyptians fled against it; and the LORD overthrew the Egyptians in the midst of the sea.",
+      "ct": "Moses stretched his hand out over the sea, and at dawn the water rushed back to its normal place. The Egyptians tried to flee from it, but the LORD swept them into the sea."
+    },
+    {
+      "verse": 28,
+      "kjv": "And the waters returned, and covered the chariots, and the horsemen, and all the host of Pharaoh that came into the sea after them; there remained not so much as one of them.",
+      "ct": "The water flowed back and covered the chariots, the cavalry, and Pharaoh's entire army that had followed them into the sea. Not a single one of them survived."
+    },
+    {
+      "verse": 29,
+      "kjv": "But the children of Israel walked upon dry land in the midst of the sea; and the waters were a wall unto them on their right hand, and on their left.",
+      "ct": "But the Israelites had walked through the middle of the sea on dry ground, with the water standing like a wall on their right side and on their left."
+    },
+    {
+      "verse": 30,
+      "kjv": "Thus the LORD saved Israel that day out of the hand of the Egyptians; and Israel saw the Egyptians dead upon the sea shore.",
+      "ct": "That day the LORD rescued Israel from the power of the Egyptians, and Israel saw the dead Egyptians lying on the seashore."
+    },
+    {
+      "verse": 31,
+      "kjv": "And Israel saw that great work which the LORD did upon the Egyptians: and the people feared the LORD, and believed the LORD, and his servant Moses.",
+      "ct": "When Israel witnessed the incredible display of power that the LORD had unleashed against the Egyptians, the people deeply revered the LORD and put their trust in the LORD and in his servant Moses."
+    }
+  ]
+}

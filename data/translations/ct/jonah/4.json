@@ -1,0 +1,65 @@
+{
+  "book": "jonah",
+  "book_name": "Jonah",
+  "chapter": 4,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.253Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "But it displeased Jonah exceedingly, and he was very angry.",
+      "ct": "This made Jonah extremely upset, and he became furious."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.",
+      "ct": "He prayed to the LORD and said, \"LORD, isn't this exactly what I said would happen while I was still back home? That's why I ran away to Tarshish in the first place — because I knew that you are a gracious and merciful God, patient and overflowing with kindness, and that you would relent from sending disaster.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Therefore now, O LORD, take, I beseech thee, my life from me; for it is better for me to die than to live.",
+      "ct": "\"So now, LORD, please just take my life. I'd rather die than go on living.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said the LORD, Doest thou well to be angry?",
+      "ct": "The LORD responded, \"Do you have any right to be this angry?\""
+    },
+    {
+      "verse": 5,
+      "kjv": "So Jonah went out of the city, and sat on the east side of the city, and there made him a booth, and sat under it in the shadow, till he might see what would become of the city.",
+      "ct": "Jonah left the city and sat down on its east side. He built a small shelter there and sat in its shade, waiting to see what would happen to the city."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the LORD God prepared a gourd, and made it to come up over Jonah, that it might be a shadow over his head, to deliver him from his grief. So Jonah was exceeding glad of the gourd.",
+      "ct": "Then the Lord GOD provided a leafy plant and made it grow up over Jonah to shade his head and relieve his misery. Jonah was thrilled about the plant."
+    },
+    {
+      "verse": 7,
+      "kjv": "But God prepared a worm when the morning rose the next day, and it smote the gourd that it withered.",
+      "ct": "But at dawn the next day, God sent a worm that attacked the plant so that it shriveled up."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted, and wished in himself to die, and said, It is better for me to die than to live.",
+      "ct": "When the sun came up, God sent a scorching east wind, and the sun blazed down on Jonah's head until he grew faint. He wished he could die, saying, \"I'd rather die than go on living.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And God said to Jonah, Doest thou well to be angry for the gourd? And he said, I do well to be angry, even unto death.",
+      "ct": "God asked Jonah, \"Do you have any right to be angry about the plant?\" Jonah replied, \"I absolutely do — angry enough to die.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then said the LORD, Thou hast had pity on the gourd, for the which thou hast not laboured, neither madest it grow; which came up in a night, and perished in a night:",
+      "ct": "The LORD said, \"You feel sorry about this plant, even though you didn't work to grow it or take care of it. It sprang up in one night and died the next."
+    },
+    {
+      "verse": 11,
+      "kjv": "And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?",
+      "ct": "So shouldn't I care about Nineveh, that enormous city, where there are more than 120,000 people who don't even know their right hand from their left — not to mention all the animals?\""
+    }
+  ]
+}

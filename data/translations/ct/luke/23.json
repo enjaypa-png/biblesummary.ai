@@ -1,0 +1,290 @@
+{
+  "book": "luke",
+  "book_name": "Luke",
+  "chapter": 23,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.350Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the whole multitude of them arose, and led him unto Pilate.",
+      "ct": "Then the entire assembly rose and brought him before Pilate."
+    },
+    {
+      "verse": 2,
+      "kjv": "And they began to accuse him, saying, We found this fellow perverting the nation, and forbidding to give tribute to Caesar, saying that he himself is Christ a King.",
+      "ct": "They started making accusations against him, saying, \"We caught this man misleading our nation, telling people not to pay taxes to Caesar, and claiming to be the Christ, a king.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And Pilate asked him, saying, Art thou the King of the Jews? And he answered him and said, Thou sayest it.",
+      "ct": "Pilate asked him, \"Are you the King of the Jews?\" Jesus replied, \"You have said it yourself.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said Pilate to the chief priests and to the people, I find no fault in this man.",
+      "ct": "Pilate told the chief priests and the crowd, \"I don't find this man guilty of anything.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And they were the more fierce, saying, He stirreth up the people, teaching throughout all Jewry, beginning from Galilee to this place.",
+      "ct": "But they pressed harder, saying, \"He stirs up the people with his teaching all across Judea, starting from Galilee and now here.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "When Pilate heard of Galilee, he asked whether the man were a Galilaean.",
+      "ct": "When Pilate heard Galilee mentioned, he asked if the man was a Galilean."
+    },
+    {
+      "verse": 7,
+      "kjv": "And as soon as he knew that he belonged unto Herod’s jurisdiction, he sent him to Herod, who himself also was at Jerusalem at that time.",
+      "ct": "Once he learned that Jesus fell under Herod's authority, he sent him over to Herod, who happened to be in Jerusalem at the time."
+    },
+    {
+      "verse": 8,
+      "kjv": "And when Herod saw Jesus, he was exceeding glad: for he was desirous to see him of a long season, because he had heard many things of him; and he hoped to have seen some miracle done by him.",
+      "ct": "Herod was thrilled when he saw Jesus, because he had wanted to meet him for a long time. He had heard a lot about him and was hoping to see him perform some miracle."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then he questioned with him in many words; but he answered him nothing.",
+      "ct": "Herod asked him question after question, but Jesus gave him no answer at all."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the chief priests and scribes stood and vehemently accused him.",
+      "ct": "Meanwhile, the chief priests and the scribes stood there making intense accusations against him."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Herod with his men of war set him at nought, and mocked him, and arrayed him in a gorgeous robe, and sent him again to Pilate.",
+      "ct": "Herod and his soldiers treated him with contempt and ridiculed him. They dressed him in an elegant robe and sent him back to Pilate."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the same day Pilate and Herod were made friends together: for before they were at enmity between themselves.",
+      "ct": "That very day, Pilate and Herod became friends — before this, they had been hostile toward each other."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Pilate, when he had called together the chief priests and the rulers and the people,",
+      "ct": "Pilate called together the chief priests, the leaders, and the people."
+    },
+    {
+      "verse": 14,
+      "kjv": "Said unto them, Ye have brought this man unto me, as one that perverteth the people: and, behold, I, having examined him before you, have found no fault in this man touching those things whereof ye accuse him:",
+      "ct": "He said to them, \"You brought this man to me, claiming he was leading the people astray. But look — I have questioned him right in front of you and found him not guilty of any of the charges you're bringing against him."
+    },
+    {
+      "verse": 15,
+      "kjv": "No, nor yet Herod: for I sent you to him; and, lo, nothing worthy of death is done unto him.",
+      "ct": "Neither has Herod, since he sent him back to us. Clearly, he has done nothing that deserves a death sentence."
+    },
+    {
+      "verse": 16,
+      "kjv": "I will therefore chastise him, and release him.",
+      "ct": "So I will have him flogged and then let him go.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "(For of necessity he must release one unto them at the feast.)",
+      "ct": "(It was customary for him to release one prisoner to them during the festival.)"
+    },
+    {
+      "verse": 18,
+      "kjv": "And they cried out all at once, saying, Away with this man, and release unto us Barabbas:",
+      "ct": "But the whole crowd shouted together, \"Get rid of this man! Release Barabbas to us!\""
+    },
+    {
+      "verse": 19,
+      "kjv": "(Who for a certain sedition made in the city, and for murder, was cast into prison.)",
+      "ct": "(Barabbas had been thrown in prison for starting a revolt in the city and for murder.)"
+    },
+    {
+      "verse": 20,
+      "kjv": "Pilate therefore, willing to release Jesus, spake again to them.",
+      "ct": "Pilate, wanting to set Jesus free, spoke to them again."
+    },
+    {
+      "verse": 21,
+      "kjv": "But they cried, saying, Crucify him, crucify him.",
+      "ct": "But they kept shouting, \"Crucify him! Crucify him!\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And he said unto them the third time, Why, what evil hath he done? I have found no cause of death in him: I will therefore chastise him, and let him go.",
+      "ct": "A 3rd time he addressed them: \"Why? What crime has he committed? I've found no reason to sentence him to death. I'll have him flogged and release him.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And they were instant with loud voices, requiring that he might be crucified. And the voices of them and of the chief priests prevailed.",
+      "ct": "But they kept demanding with loud shouts that he be crucified, and their voices won out."
+    },
+    {
+      "verse": 24,
+      "kjv": "And Pilate gave sentence that it should be as they required.",
+      "ct": "So Pilate ruled that their demand would be granted."
+    },
+    {
+      "verse": 25,
+      "kjv": "And he released unto them him that for sedition and murder was cast into prison, whom they had desired; but he delivered Jesus to their will.",
+      "ct": "He released the man who had been imprisoned for revolt and murder — the one they wanted — and handed Jesus over to their wishes."
+    },
+    {
+      "verse": 26,
+      "kjv": "And as they led him away, they laid hold upon one Simon, a Cyrenian, coming out of the country, and on him they laid the cross, that he might bear it after Jesus.",
+      "ct": "As they led him away, they grabbed a man named Simon from Cyrene, who was coming in from the countryside, and placed the cross on him to carry behind Jesus."
+    },
+    {
+      "verse": 27,
+      "kjv": "And there followed him a great company of people, and of women, which also bewailed and lamented him.",
+      "ct": "A large crowd followed him, including women who were weeping and mourning for him."
+    },
+    {
+      "verse": 28,
+      "kjv": "But Jesus turning unto them said, Daughters of Jerusalem, weep not for me, but weep for yourselves, and for your children.",
+      "ct": "Jesus turned to them and said, \"Women of Jerusalem, don't cry for me. Cry for yourselves and for your children."
+    },
+    {
+      "verse": 29,
+      "kjv": "For, behold, the days are coming, in the which they shall say, Blessed are the barren, and the wombs that never bare, and the paps which never gave suck.",
+      "ct": "Because the time is coming when people will say, 'How fortunate are the women who never had children, who never gave birth, who never nursed a baby.'"
+    },
+    {
+      "verse": 30,
+      "kjv": "Then shall they begin to say to the mountains, Fall on us; and to the hills, Cover us.",
+      "ct": "At that point, people will beg the mountains, 'Collapse on top of us!' and plead with the hills, 'Bury us!'"
+    },
+    {
+      "verse": 31,
+      "kjv": "For if they do these things in a green tree, what shall be done in the dry?",
+      "ct": "Because if they do these things when the wood is green, what will happen when it's dry?\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And there were also two other, malefactors, led with him to be put to death.",
+      "ct": "2 other men, both criminals, were also led out with him to be executed."
+    },
+    {
+      "verse": 33,
+      "kjv": "And when they were come to the place, which is called Calvary, there they crucified him, and the malefactors, one on the right hand, and the other on the left.",
+      "ct": "When they arrived at the place called The Skull, they crucified him there along with the criminals — one on his right and one on his left."
+    },
+    {
+      "verse": 34,
+      "kjv": "Then said Jesus, Father, forgive them; for they know not what they do. And they parted his raiment, and cast lots.",
+      "ct": "Jesus said, \"Father, forgive them, because they don't understand what they're doing.\" They divided up his clothing by casting lots."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the people stood beholding. And the rulers also with them derided him, saying, He saved others; let him save himself, if he be Christ, the chosen of God.",
+      "ct": "The people stood watching. The leaders sneered at him, saying, \"He rescued others — let him rescue himself if he really is the Christ, God's chosen one.\""
+    },
+    {
+      "verse": 36,
+      "kjv": "And the soldiers also mocked him, coming to him, and offering him vinegar,",
+      "ct": "The soldiers also mocked him, coming up and offering him sour wine,"
+    },
+    {
+      "verse": 37,
+      "kjv": "And saying, If thou be the king of the Jews, save thyself.",
+      "ct": "saying, \"If you're the King of the Jews, save yourself!\""
+    },
+    {
+      "verse": 38,
+      "kjv": "And a superscription also was written over him in letters of Greek, and Latin, and Hebrew, THIS IS THE KING OF THE JEWS.",
+      "ct": "An inscription was posted above him in Greek, Latin, and Hebrew: THIS IS THE KING OF THE JEWS."
+    },
+    {
+      "verse": 39,
+      "kjv": "And one of the malefactors which were hanged railed on him, saying, If thou be Christ, save thyself and us.",
+      "ct": "One of the criminals hanging there hurled insults at him: \"Aren't you the Christ? Save yourself and us!\""
+    },
+    {
+      "verse": 40,
+      "kjv": "But the other answering rebuked him, saying, Dost not thou fear God, seeing thou art in the same condemnation?",
+      "ct": "But the other criminal rebuked him, saying, \"Don't you have any reverence for God? You're under the same death sentence!"
+    },
+    {
+      "verse": 41,
+      "kjv": "And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss.",
+      "ct": "We deserve what we're getting — we're paying the price for what we did. But this man hasn't done anything wrong.\""
+    },
+    {
+      "verse": 42,
+      "kjv": "And he said unto Jesus, Lord, remember me when thou comest into thy kingdom.",
+      "ct": "Then he said, \"Jesus, Lord, remember me when you enter your kingdom.\""
+    },
+    {
+      "verse": 43,
+      "kjv": "And Jesus said unto him, Verily I say unto thee, To day shalt thou be with me in paradise.",
+      "ct": "Jesus told him, \"Truly I tell you, today you will be with me in paradise.\""
+    },
+    {
+      "verse": 44,
+      "kjv": "And it was about the sixth hour, and there was a darkness over all the earth until the ninth hour.",
+      "ct": "It was around noon, and darkness covered the whole land until 3 in the afternoon."
+    },
+    {
+      "verse": 45,
+      "kjv": "And the sun was darkened, and the veil of the temple was rent in the midst.",
+      "ct": "The sun stopped shining, and the curtain of the temple was torn right down the middle."
+    },
+    {
+      "verse": 46,
+      "kjv": "And when Jesus had cried with a loud voice, he said, Father, into thy hands I commend my spirit: and having said thus, he gave up the ghost.",
+      "ct": "Jesus called out in a loud voice, \"Father, I place my spirit in your hands.\" After saying this, he took his last breath."
+    },
+    {
+      "verse": 47,
+      "kjv": "Now when the centurion saw what was done, he glorified God, saying, Certainly this was a righteous man.",
+      "ct": "When the Roman centurion witnessed what happened, he praised God, saying, \"Without a doubt, this was a righteous man.\""
+    },
+    {
+      "verse": 48,
+      "kjv": "And all the people that came together to that sight, beholding the things which were done, smote their breasts, and returned.",
+      "ct": "All the people who had gathered to watch, when they saw what took place, beat their chests in grief and walked away."
+    },
+    {
+      "verse": 49,
+      "kjv": "And all his acquaintance, and the women that followed him from Galilee, stood afar off, beholding these things.",
+      "ct": "But everyone who knew him, including the women who had followed him from Galilee, stood at a distance watching all of this."
+    },
+    {
+      "verse": 50,
+      "kjv": "And, behold, there was a man named Joseph, a counsellor; and he was a good man, and a just:",
+      "ct": "Now there was a man named Joseph, a member of the council, who was a good and righteous man."
+    },
+    {
+      "verse": 51,
+      "kjv": "(The same had not consented to the counsel and deed of them;) he was of Arimathaea, a city of the Jews: who also himself waited for the kingdom of God.",
+      "ct": "(He had not agreed with the council's decision and actions.) He was from the Jewish town of Arimathaea, and he was waiting expectantly for the kingdom of God."
+    },
+    {
+      "verse": 52,
+      "kjv": "This man went unto Pilate, and begged the body of Jesus.",
+      "ct": "This man went to Pilate and asked for the body of Jesus."
+    },
+    {
+      "verse": 53,
+      "kjv": "And he took it down, and wrapped it in linen, and laid it in a sepulchre that was hewn in stone, wherein never man before was laid.",
+      "ct": "He took it down, wrapped it in linen cloth, and placed it in a tomb cut out of rock where no one had ever been buried before."
+    },
+    {
+      "verse": 54,
+      "kjv": "And that day was the preparation, and the sabbath drew on.",
+      "ct": "It was Preparation Day, and the Sabbath was about to begin."
+    },
+    {
+      "verse": 55,
+      "kjv": "And the women also, which came with him from Galilee, followed after, and beheld the sepulchre, and how his body was laid.",
+      "ct": "The women who had come with Jesus from Galilee followed along and saw the tomb and how his body was placed inside."
+    },
+    {
+      "verse": 56,
+      "kjv": "And they returned, and prepared spices and ointments; and rested the sabbath day according to the commandment.",
+      "ct": "Then they went home and prepared spices and perfumed oils. On the Sabbath they rested, as the commandment required."
+    }
+  ]
+}

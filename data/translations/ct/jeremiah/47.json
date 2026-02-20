@@ -1,0 +1,45 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 47,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.159Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word of the LORD that came to Jeremiah the prophet against the Philistines, before that Pharaoh smote Gaza.",
+      "ct": "This is the message from the LORD that came to the prophet Jeremiah concerning the Philistines, before Pharaoh attacked Gaza."
+    },
+    {
+      "verse": 2,
+      "kjv": "Thus saith the LORD; Behold, waters rise up out of the north, and shall be an overflowing flood, and shall overflow the land, and all that is therein; the city, and them that dwell therein: then the men shall cry, and all the inhabitants of the land shall howl.",
+      "ct": "This is what the LORD says: \"Look — waters are rising from the north, and they will become a raging flood that sweeps over the land and everything in it, the cities and everyone who lives in them. People will scream, and every inhabitant of the land will wail.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "At the noise of the stamping of the hoofs of his strong horses, at the rushing of his chariots, and at the rumbling of his wheels, the fathers shall not look back to their children for feebleness of hands;",
+      "ct": "At the thundering of his powerful horses' hooves, at the charging of his chariots, at the rumbling of his wheels, fathers won't even turn back for their children — their hands will be too weak with terror."
+    },
+    {
+      "verse": 4,
+      "kjv": "Because of the day that cometh to spoil all the Philistines, and to cut off from Tyrus and Zidon every helper that remaineth: for the LORD will spoil the Philistines, the remnant of the country of Caphtor.",
+      "ct": "For the day has arrived to destroy all the Philistines and to eliminate every remaining ally of Tyre and Zidon. The LORD will destroy the Philistines, the survivors from the shores of Caphtor."
+    },
+    {
+      "verse": 5,
+      "kjv": "Baldness is come upon Gaza; Ashkelon is cut off with the remnant of their valley: how long wilt thou cut thyself?",
+      "ct": "Gaza has shaved its head in mourning; Ashkelon has been silenced along with what remains of their valley. How long will you gash yourself in grief?"
+    },
+    {
+      "verse": 6,
+      "kjv": "O thou sword of the LORD, how long will it be ere thou be quiet? put up thyself into thy scabbard, rest, and be still.",
+      "ct": "Sword of the LORD, how long until you stop? Go back into your sheath — rest and be still!"
+    },
+    {
+      "verse": 7,
+      "kjv": "How can it be quiet, seeing the LORD hath given it a charge against Ashkelon, and against the sea shore? there hath he appointed it.",
+      "ct": "But how can it rest when the LORD has given it orders? He has directed it against Ashkelon and the coastland — that is where he has sent it."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 122,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.016Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I was glad when they said unto me, Let us go into the house of the LORD.",
+      "ct": "It filled me with joy when people said to me, 'Let's go to the house of the LORD.'"
+    },
+    {
+      "verse": 2,
+      "kjv": "Our feet shall stand within thy gates, O Jerusalem.",
+      "ct": "Now we are standing inside your gates, Jerusalem."
+    },
+    {
+      "verse": 3,
+      "kjv": "Jerusalem is builded as a city that is compact together:",
+      "ct": "Jerusalem is built as a city that is closely joined together,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Whither the tribes go up, the tribes of the LORD, unto the testimony of Israel, to give thanks unto the name of the LORD.",
+      "ct": "where the tribes travel up — the tribes of the LORD — as required of Israel, to give thanks to the name of the LORD."
+    },
+    {
+      "verse": 5,
+      "kjv": "For there are set thrones of judgment, the thrones of the house of David.",
+      "ct": "Thrones of justice are established there, the thrones of David's royal family."
+    },
+    {
+      "verse": 6,
+      "kjv": "Pray for the peace of Jerusalem: they shall prosper that love thee.",
+      "ct": "Ask God for the peace of Jerusalem — may those who love you thrive."
+    },
+    {
+      "verse": 7,
+      "kjv": "Peace be within thy walls, and prosperity within thy palaces.",
+      "ct": "May there be peace within your walls and security within your fortresses."
+    },
+    {
+      "verse": 8,
+      "kjv": "For my brethren and companions’ sakes, I will now say, Peace be within thee.",
+      "ct": "For the sake of my brothers and friends, let me say, 'May peace be with you.'"
+    },
+    {
+      "verse": 9,
+      "kjv": "Because of the house of the LORD our God I will seek thy good.",
+      "ct": "For the sake of the house of the LORD our God, I will work for your well-being."
+    }
+  ]
+}

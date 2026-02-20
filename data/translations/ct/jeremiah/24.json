@@ -1,0 +1,60 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 24,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.141Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The LORD shewed me, and, behold, two baskets of figs were set before the temple of the LORD, after that Nebuchadrezzar king of Babylon had carried away captive Jeconiah the son of Jehoiakim king of Judah, and the princes of Judah, with the carpenters and smiths, from Jerusalem, and had brought them to Babylon.",
+      "ct": "The LORD gave me a vision: two baskets of figs had been placed in front of the LORD's temple. This was after Nebuchadrezzar king of Babylon had taken Jeconiah son of Jehoiakim king of Judah into exile, along with the officials of Judah, the craftsmen, and the metalworkers, deporting them from Jerusalem to Babylon."
+    },
+    {
+      "verse": 2,
+      "kjv": "One basket had very good figs, even like the figs that are first ripe: and the other basket had very naughty figs, which could not be eaten, they were so bad.",
+      "ct": "One basket contained excellent figs, like the kind that ripen early in the season. The other basket contained terrible figs — so rotten they couldn't be eaten."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then said the LORD unto me, What seest thou, Jeremiah? And I said, Figs; the good figs, very good; and the evil, very evil, that cannot be eaten, they are so evil.",
+      "ct": "Then the LORD asked me, 'What do you see, Jeremiah?' I answered, 'Figs. The good ones are very good, and the bad ones are very bad — so bad they can't be eaten.'"
+    },
+    {
+      "verse": 4,
+      "kjv": "Again the word of the LORD came unto me, saying,",
+      "ct": "Then the LORD's message came to me:"
+    },
+    {
+      "verse": 5,
+      "kjv": "Thus saith the LORD, the God of Israel; Like these good figs, so will I acknowledge them that are carried away captive of Judah, whom I have sent out of this place into the land of the Chaldeans for their good.",
+      "ct": "\"This is what the LORD, the God of Israel, says: 'Like these good figs, I will look favorably on the exiles from Judah whom I sent away from this place to the land of the Chaldeans for their own benefit."
+    },
+    {
+      "verse": 6,
+      "kjv": "For I will set mine eyes upon them for good, and I will bring them again to this land: and I will build them, and not pull them down; and I will plant them, and not pluck them up.",
+      "ct": "I will watch over them with good intentions and bring them back to this land. I will build them up and not tear them down; I will plant them and not uproot them."
+    },
+    {
+      "verse": 7,
+      "kjv": "And I will give them an heart to know me, that I am the LORD: and they shall be my people, and I will be their God: for they shall return unto me with their whole heart.",
+      "ct": "I will give them a desire to know me — to know that I am the LORD. They will be my people, and I will be their God, because they will return to me with all their heart.'"
+    },
+    {
+      "verse": 8,
+      "kjv": "And as the evil figs, which cannot be eaten, they are so evil; surely thus saith the LORD, So will I give Zedekiah the king of Judah, and his princes, and the residue of Jerusalem, that remain in this land, and them that dwell in the land of Egypt:",
+      "ct": "\"But as for the bad figs — so rotten they can't be eaten — this is what the LORD says: 'I will make Zedekiah king of Judah, his officials, and the survivors of Jerusalem — both those remaining in this land and those living in Egypt — just like those figs."
+    },
+    {
+      "verse": 9,
+      "kjv": "And I will deliver them to be removed into all the kingdoms of the earth for their hurt, to be a reproach and a proverb, a taunt and a curse, in all places whither I shall drive them.",
+      "ct": "I will hand them over to be a horrifying example to every kingdom on earth, to be an object of disgrace, a cautionary tale, a target of mockery, and a curse word in every place where I scatter them."
+    },
+    {
+      "verse": 10,
+      "kjv": "And I will send the sword, the famine, and the pestilence, among them, till they be consumed from off the land that I gave unto them and to their fathers.",
+      "ct": "I will send war, famine, and disease against them until they are completely wiped out from the land that I gave to them and to their ancestors.'"
+    }
+  ]
+}

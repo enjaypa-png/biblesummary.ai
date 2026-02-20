@@ -1,0 +1,75 @@
+{
+  "book": "1-corinthians",
+  "book_name": "1 Corinthians",
+  "chapter": 8,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.417Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now as touching things offered unto idols, we know that we all have knowledge. Knowledge puffeth up, but charity edifieth.",
+      "ct": "Now, regarding food that has been sacrificed to idols — we know that all of us possess knowledge about this. But knowledge makes people arrogant, while love builds people up."
+    },
+    {
+      "verse": 2,
+      "kjv": "And if any man think that he knoweth any thing, he knoweth nothing yet as he ought to know.",
+      "ct": "If anyone thinks they really understand something, they don't yet understand it the way they should."
+    },
+    {
+      "verse": 3,
+      "kjv": "But if any man love God, the same is known of him.",
+      "ct": "But if someone loves God, that person is known by God."
+    },
+    {
+      "verse": 4,
+      "kjv": "As concerning therefore the eating of those things that are offered in sacrifice unto idols, we know that an idol is nothing in the world, and that there is none other God but one.",
+      "ct": "So about eating food that has been sacrificed to idols — we know that an idol has no real existence, and that there is no God except one."
+    },
+    {
+      "verse": 5,
+      "kjv": "For though there be that are called gods, whether in heaven or in earth, (as there be gods many, and lords many,)",
+      "ct": "Even though there are so-called gods in heaven or on earth — and indeed there are many \"gods\" and many \"lords\" —"
+    },
+    {
+      "verse": 6,
+      "kjv": "But to us there is but one God, the Father, of whom are all things, and we in him; and one Lord Jesus Christ, by whom are all things, and we by him.",
+      "ct": "for us there is only one God, the Father, from whom everything comes and for whom we exist, and one Lord Jesus Christ, through whom everything was made and through whom we live."
+    },
+    {
+      "verse": 7,
+      "kjv": "Howbeit there is not in every man that knowledge: for some with conscience of the idol unto this hour eat it as a thing offered unto an idol; and their conscience being weak is defiled.",
+      "ct": "However, not everyone has this understanding. Some people, because of their past association with idols, still think of the food as genuinely offered to a real idol when they eat it. Since their conscience is sensitive, it becomes guilty."
+    },
+    {
+      "verse": 8,
+      "kjv": "But meat commendeth us not to God: for neither, if we eat, are we the better; neither, if we eat not, are we the worse.",
+      "ct": "Food doesn't bring us closer to God. We are no worse off if we don't eat it, and no better off if we do."
+    },
+    {
+      "verse": 9,
+      "kjv": "But take heed lest by any means this liberty of yours become a stumblingblock to them that are weak.",
+      "ct": "But be careful that this freedom of yours doesn't become an obstacle for those whose faith is weak."
+    },
+    {
+      "verse": 10,
+      "kjv": "For if any man see thee which hast knowledge sit at meat in the idol’s temple, shall not the conscience of him which is weak be emboldened to eat those things which are offered to idols;",
+      "ct": "After all, if someone with a weak conscience sees you — with all your knowledge — eating in an idol's temple, won't they be encouraged to eat food sacrificed to idols even though it goes against their conscience?"
+    },
+    {
+      "verse": 11,
+      "kjv": "And through thy knowledge shall the weak brother perish, for whom Christ died?",
+      "ct": "So this weak brother or sister, for whom Christ died, is destroyed by your knowledge."
+    },
+    {
+      "verse": 12,
+      "kjv": "But when ye sin so against the brethren, and wound their weak conscience, ye sin against Christ.",
+      "ct": "When you sin against your brothers and sisters this way and damage their sensitive conscience, you are sinning against Christ."
+    },
+    {
+      "verse": 13,
+      "kjv": "Wherefore, if meat make my brother to offend, I will eat no flesh while the world standeth, lest I make my brother to offend.",
+      "ct": "That is why, if what I eat causes my brother or sister to stumble, I will never eat meat again — so that I won't cause them to fall."
+    }
+  ]
+}

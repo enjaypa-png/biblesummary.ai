@@ -1,0 +1,70 @@
+{
+  "book": "ecclesiastes",
+  "book_name": "Ecclesiastes",
+  "chapter": 6,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.061Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "There is an evil which I have seen under the sun, and it is common among men:",
+      "ct": "There is a terrible problem I've observed in this world, and it weighs heavily on people:"
+    },
+    {
+      "verse": 2,
+      "kjv": "A man to whom God hath given riches, wealth, and honour, so that he wanteth nothing for his soul of all that he desireth, yet God giveth him not power to eat thereof, but a stranger eateth it: this is vanity, and it is an evil disease.",
+      "ct": "God gives someone riches, wealth, and honor — everything his soul could ever want — yet God doesn't allow him to enjoy any of it. Instead, a stranger ends up consuming it all. This is meaningless and a painful tragedy."
+    },
+    {
+      "verse": 3,
+      "kjv": "If a man beget an hundred children, and live many years, so that the days of his years be many, and his soul be not filled with good, and also that he have no burial; I say, that an untimely birth is better than he.",
+      "ct": "Even if a man becomes the father of 100 children and lives for many, many years, if his soul never gets to enjoy what is good, and he doesn't even receive a proper burial — I say a stillborn child is better off than he is."
+    },
+    {
+      "verse": 4,
+      "kjv": "For he cometh in with vanity, and departeth in darkness, and his name shall be covered with darkness.",
+      "ct": "Because the stillborn arrives in futility and leaves in darkness, and its name is forgotten in obscurity."
+    },
+    {
+      "verse": 5,
+      "kjv": "Moreover he hath not seen the sun, nor known any thing: this hath more rest than the other.",
+      "ct": "It never saw the sun or experienced anything at all, yet it has more peace than that man does."
+    },
+    {
+      "verse": 6,
+      "kjv": "Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?",
+      "ct": "Even if he lived 2,000 years but never enjoyed anything good — don't both end up in the same place?"
+    },
+    {
+      "verse": 7,
+      "kjv": "All the labour of man is for his mouth, and yet the appetite is not filled.",
+      "ct": "All of a person's work goes toward feeding himself, yet his hunger is never satisfied."
+    },
+    {
+      "verse": 8,
+      "kjv": "For what hath the wise more than the fool? what hath the poor, that knoweth to walk before the living?",
+      "ct": "So what advantage does a wise person have over a fool? And what does a poor person gain by knowing how to conduct himself among the living?"
+    },
+    {
+      "verse": 9,
+      "kjv": "Better is the sight of the eyes than the wandering of the desire: this is also vanity and vexation of spirit.",
+      "ct": "It's better to enjoy what's right in front of you than to constantly chase after what you desire. This too is meaningless and like chasing the wind."
+    },
+    {
+      "verse": 10,
+      "kjv": "That which hath been is named already, and it is known that it is man: neither may he contend with him that is mightier than he.",
+      "ct": "Whatever exists has already been named, and what humanity is has already been determined. No one can argue with the one who is more powerful than they are."
+    },
+    {
+      "verse": 11,
+      "kjv": "Seeing there be many things that increase vanity, what is man the better?",
+      "ct": "The more words there are, the more meaninglessness increases — so how does that benefit anyone?"
+    },
+    {
+      "verse": 12,
+      "kjv": "For who knoweth what is good for man in this life, all the days of his vain life which he spendeth as a shadow? for who can tell a man what shall be after him under the sun?",
+      "ct": "Who really knows what is good for a person during the few days of this fleeting life that passes like a shadow? And who can tell anyone what will happen in this world after they're gone?"
+    }
+  ]
+}

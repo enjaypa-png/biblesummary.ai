@@ -1,0 +1,55 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 20,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.952Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The LORD hear thee in the day of trouble; the name of the God of Jacob defend thee;",
+      "ct": "May the LORD answer you when trouble comes; may the name of Jacob's God protect you."
+    },
+    {
+      "verse": 2,
+      "kjv": "Send thee help from the sanctuary, and strengthen thee out of Zion;",
+      "ct": "May he send you assistance from his holy place and support you from Zion."
+    },
+    {
+      "verse": 3,
+      "kjv": "Remember all thy offerings, and accept thy burnt sacrifice; Selah.",
+      "ct": "May he keep in mind all your offerings and look with favor on your burnt sacrifice. Selah."
+    },
+    {
+      "verse": 4,
+      "kjv": "Grant thee according to thine own heart, and fulfil all thy counsel.",
+      "ct": "May he give you what your heart desires and bring all your plans to success."
+    },
+    {
+      "verse": 5,
+      "kjv": "We will rejoice in thy salvation, and in the name of our God we will set up our banners: the LORD fulfil all thy petitions.",
+      "ct": "We will celebrate your salvation, and we will raise our banners in the name of our God. May the LORD grant every one of your requests."
+    },
+    {
+      "verse": 6,
+      "kjv": "Now know I that the LORD saveth his anointed; he will hear him from his holy heaven with the saving strength of his right hand.",
+      "ct": "Now I know that the LORD rescues his anointed one; he will respond to him from his holy heaven with the mighty saving power of his right hand."
+    },
+    {
+      "verse": 7,
+      "kjv": "Some trust in chariots, and some in horses: but we will remember the name of the LORD our God.",
+      "ct": "Some put their confidence in chariots, and others in horses, but we place our trust in the name of the LORD our God."
+    },
+    {
+      "verse": 8,
+      "kjv": "They are brought down and fallen: but we are risen, and stand upright.",
+      "ct": "They collapse and fall, but we rise up and stand firm."
+    },
+    {
+      "verse": 9,
+      "kjv": "Save, LORD: let the king hear us when we call.",
+      "ct": "Save us, LORD! May the king answer us on the day we call out."
+    }
+  ]
+}

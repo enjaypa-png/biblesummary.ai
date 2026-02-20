@@ -1,0 +1,75 @@
+{
+  "book": "1-corinthians",
+  "book_name": "1 Corinthians",
+  "chapter": 13,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.420Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal.",
+      "ct": "If I could speak in every human language and even the language of angels, but didn't have love, I would just be a loud gong or a clanging cymbal."
+    },
+    {
+      "verse": 2,
+      "kjv": "And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing.",
+      "ct": "If I had the gift of prophecy, and could grasp every mystery and possess all knowledge, and if I had such complete faith that I could move mountains, but didn't have love, I would be nothing."
+    },
+    {
+      "verse": 3,
+      "kjv": "And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing.",
+      "ct": "If I gave away everything I owned to feed the hungry, and if I surrendered my body to be burned, but didn't have love, I would gain absolutely nothing from it."
+    },
+    {
+      "verse": 4,
+      "kjv": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up,",
+      "ct": "Love is patient and kind. Love is not jealous. Love doesn't brag and isn't arrogant."
+    },
+    {
+      "verse": 5,
+      "kjv": "Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil;",
+      "ct": "It doesn't act dishonorably, doesn't insist on its own way, isn't quick to get angry, and doesn't keep a record of wrongs."
+    },
+    {
+      "verse": 6,
+      "kjv": "Rejoiceth not in iniquity, but rejoiceth in the truth;",
+      "ct": "It takes no pleasure in injustice but celebrates the truth."
+    },
+    {
+      "verse": 7,
+      "kjv": "Beareth all things, believeth all things, hopeth all things, endureth all things.",
+      "ct": "It bears all things, believes all things, hopes all things, endures all things."
+    },
+    {
+      "verse": 8,
+      "kjv": "Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.",
+      "ct": "Love never fails. Prophecies will come to an end. Speaking in tongues will stop. Knowledge will fade away."
+    },
+    {
+      "verse": 9,
+      "kjv": "For we know in part, and we prophesy in part.",
+      "ct": "Right now, what we know is incomplete, and what we prophesy is incomplete."
+    },
+    {
+      "verse": 10,
+      "kjv": "But when that which is perfect is come, then that which is in part shall be done away.",
+      "ct": "But when what is perfect arrives, everything incomplete will disappear."
+    },
+    {
+      "verse": 11,
+      "kjv": "When I was a child, I spake as a child, I understood as a child, I thought as a child: but when I became a man, I put away childish things.",
+      "ct": "When I was a child, I talked like a child, I thought like a child, I reasoned like a child. But when I grew up, I left childish ways behind."
+    },
+    {
+      "verse": 12,
+      "kjv": "For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known.",
+      "ct": "Right now we see only a dim reflection, like looking into a cloudy mirror, but one day we will see clearly, in full presence. Right now I know only partially, but one day I will understand fully, just as I am fully understood."
+    },
+    {
+      "verse": 13,
+      "kjv": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+      "ct": "So these 3 things remain: faith, hope, and love. But the greatest of them is love."
+    }
+  ]
+}

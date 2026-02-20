@@ -1,0 +1,40 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 126,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.019Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "When the LORD turned again the captivity of Zion, we were like them that dream.",
+      "ct": "When the LORD restored the fortunes of Zion, it felt like we were dreaming."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then was our mouth filled with laughter, and our tongue with singing: then said they among the heathen, The LORD hath done great things for them.",
+      "ct": "Our mouths were full of laughter, and our tongues shouted with joy. Even the surrounding nations said, 'The LORD has done incredible things for them.'"
+    },
+    {
+      "verse": 3,
+      "kjv": "The LORD hath done great things for us; whereof we are glad.",
+      "ct": "The LORD has done incredible things for us, and we are overjoyed."
+    },
+    {
+      "verse": 4,
+      "kjv": "Turn again our captivity, O LORD, as the streams in the south.",
+      "ct": "LORD, restore our fortunes again, like rain filling the dry riverbeds of the Negev."
+    },
+    {
+      "verse": 5,
+      "kjv": "They that sow in tears shall reap in joy.",
+      "ct": "Those who plant their seeds with tears will harvest with shouts of joy."
+    },
+    {
+      "verse": 6,
+      "kjv": "He that goeth forth and weepeth, bearing precious seed, shall doubtless come again with rejoicing, bringing his sheaves with him.",
+      "ct": "The one who walks out weeping, carrying seed to sow, will surely return celebrating, carrying bundles of grain."
+    }
+  ]
+}

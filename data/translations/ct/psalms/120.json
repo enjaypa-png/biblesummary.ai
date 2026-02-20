@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 120,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.015Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In my distress I cried unto the LORD, and he heard me.",
+      "ct": "When I was in trouble, I called out to the LORD, and he answered me."
+    },
+    {
+      "verse": 2,
+      "kjv": "Deliver my soul, O LORD, from lying lips, and from a deceitful tongue.",
+      "ct": "Rescue my soul, LORD, from those who lie and from tongues that deceive."
+    },
+    {
+      "verse": 3,
+      "kjv": "What shall be given unto thee? or what shall be done unto thee, thou false tongue?",
+      "ct": "What punishment will come to you, you deceitful tongue? What will be done to you?"
+    },
+    {
+      "verse": 4,
+      "kjv": "Sharp arrows of the mighty, with coals of juniper.",
+      "ct": "A warrior's sharpened arrows and burning coals of broom wood — that's what awaits you."
+    },
+    {
+      "verse": 5,
+      "kjv": "Woe is me, that I sojourn in Mesech, that I dwell in the tents of Kedar!",
+      "ct": "How miserable I am, living as a foreigner in Meshech, making my home among the camps of Kedar!"
+    },
+    {
+      "verse": 6,
+      "kjv": "My soul hath long dwelt with him that hateth peace.",
+      "ct": "My soul has lived far too long among people who despise peace."
+    },
+    {
+      "verse": 7,
+      "kjv": "I am for peace: but when I speak, they are for war.",
+      "ct": "I want peace, but whenever I open my mouth, they push for war."
+    }
+  ]
+}

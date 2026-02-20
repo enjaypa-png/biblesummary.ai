@@ -1,0 +1,95 @@
+{
+  "book": "jonah",
+  "book_name": "Jonah",
+  "chapter": 1,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.251Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the word of the LORD came unto Jonah the son of Amittai, saying,",
+      "ct": "The LORD spoke to Jonah son of Amittai with this message:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.",
+      "ct": "\"Get up and go to the great city of Nineveh. Speak out against it, because their evil has reached me.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "But Jonah rose up to flee unto Tarshish from the presence of the LORD, and went down to Joppa; and he found a ship going to Tarshish: so he paid the fare thereof, and went down into it, to go with them unto Tarshish from the presence of the LORD.",
+      "ct": "Instead, Jonah got up and ran away from the LORD, heading toward Tarshish. He went down to Joppa, where he found a ship bound for Tarshish. He paid for his passage and boarded the ship to sail with them to Tarshish, away from the LORD's presence."
+    },
+    {
+      "verse": 4,
+      "kjv": "But the LORD sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken.",
+      "ct": "But the LORD hurled a powerful wind across the sea, and such a violent storm hit that the ship was in danger of breaking apart."
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the mariners were afraid, and cried every man unto his god, and cast forth the wares that were in the ship into the sea, to lighten it of them. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep.",
+      "ct": "The sailors were terrified, and each one cried out to his own god. They threw the cargo overboard to make the ship lighter. Meanwhile, Jonah had gone below deck, where he lay down and fell into a deep sleep."
+    },
+    {
+      "verse": 6,
+      "kjv": "So the shipmaster came to him, and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that God will think upon us, that we perish not.",
+      "ct": "The captain went to him and said, \"How can you be sleeping? Get up and pray to your God! Maybe he will pay attention to us so we don't die.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And they said every one to his fellow, Come, and let us cast lots, that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah.",
+      "ct": "The sailors said to each other, \"Let's draw lots to find out who is responsible for this disaster.\" They drew lots, and Jonah was identified."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?",
+      "ct": "So they demanded of him, \"Tell us — who is to blame for this disaster? What do you do for a living? Where are you from? What country is yours? What is your nationality?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And he said unto them, I am an Hebrew; and I fear the LORD, the God of heaven, which hath made the sea and the dry land.",
+      "ct": "He answered them, \"I am a Hebrew, and I am wholeheartedly dedicated to the LORD, the God of heaven, who made the sea and the dry land.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them.",
+      "ct": "This absolutely terrified the men. They asked him, \"What have you done?\" They already knew he was running from the LORD, because he had told them."
+    },
+    {
+      "verse": 11,
+      "kjv": "Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous.",
+      "ct": "They asked him, \"What should we do with you to calm the sea down?\" The waves were getting worse and worse."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you.",
+      "ct": "He told them, \"Pick me up and throw me into the sea, and it will become calm for you. I know that this terrible storm is my fault.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Nevertheless the men rowed hard to bring it to the land; but they could not: for the sea wrought, and was tempestuous against them.",
+      "ct": "Even so, the men rowed as hard as they could to get back to shore, but they couldn't make it. The sea was raging against them more and more violently."
+    },
+    {
+      "verse": 14,
+      "kjv": "Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man’s life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee.",
+      "ct": "So they called out to the LORD, \"Please, LORD, please don't let us die because of this man's life, and don't hold us guilty of shedding innocent blood, because you, LORD, have done what you chose to do.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "So they took up Jonah, and cast him forth into the sea: and the sea ceased from her raging.",
+      "ct": "Then they picked Jonah up and threw him into the sea, and the raging waters grew calm."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows.",
+      "ct": "The men deeply revered the LORD after this. They offered a sacrifice to the LORD and made solemn promises to him."
+    },
+    {
+      "verse": 17,
+      "kjv": "Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.",
+      "ct": "Now the LORD had arranged for an enormous fish to swallow Jonah, and Jonah remained inside the belly of that fish for 3 days and 3 nights."
+    }
+  ]
+}

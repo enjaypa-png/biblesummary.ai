@@ -1,0 +1,60 @@
+{
+  "book": "ecclesiastes",
+  "book_name": "Ecclesiastes",
+  "chapter": 11,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.064Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Cast thy bread upon the waters: for thou shalt find it after many days.",
+      "ct": "Send your investments out across the waters — eventually you'll see returns after many days."
+    },
+    {
+      "verse": 2,
+      "kjv": "Give a portion to seven, and also to eight; for thou knowest not what evil shall be upon the earth.",
+      "ct": "Spread what you have among 7 or even 8 ventures, because you never know what disaster might strike the earth."
+    },
+    {
+      "verse": 3,
+      "kjv": "If the clouds be full of rain, they empty themselves upon the earth: and if the tree fall toward the south, or toward the north, in the place where the tree falleth, there it shall be.",
+      "ct": "When clouds are heavy with rain, they pour it out on the earth. Whether a tree falls to the south or to the north, wherever it lands, that's where it stays."
+    },
+    {
+      "verse": 4,
+      "kjv": "He that observeth the wind shall not sow; and he that regardeth the clouds shall not reap.",
+      "ct": "Whoever waits for perfect wind conditions will never plant, and whoever keeps watching the clouds will never harvest."
+    },
+    {
+      "verse": 5,
+      "kjv": "As thou knowest not what is the way of the spirit, nor how the bones do grow in the womb of her that is with child: even so thou knowest not the works of God who maketh all.",
+      "ct": "Just as you don't understand how the spirit works, or how bones form inside a pregnant woman's womb, you also cannot understand what God is doing — he who makes everything."
+    },
+    {
+      "verse": 6,
+      "kjv": "In the morning sow thy seed, and in the evening withhold not thine hand: for thou knowest not whether shall prosper, either this or that, or whether they both shall be alike good.",
+      "ct": "Plant your seed in the morning, and don't stop working in the evening either, because you have no idea which effort will succeed — this one or that one — or whether both will turn out equally well."
+    },
+    {
+      "verse": 7,
+      "kjv": "Truly the light is sweet, and a pleasant thing it is for the eyes to behold the sun:",
+      "ct": "Truly, light is wonderful, and it's a delightful thing for the eyes to see the sun."
+    },
+    {
+      "verse": 8,
+      "kjv": "But if a man live many years, and rejoice in them all; yet let him remember the days of darkness; for they shall be many. All that cometh is vanity.",
+      "ct": "Even if someone lives for many years and enjoys every one of them, they should still remember that dark days are coming — and there will be plenty of them. Everything that is coming is fleeting."
+    },
+    {
+      "verse": 9,
+      "kjv": "Rejoice, O young man, in thy youth; and let thy heart cheer thee in the days of thy youth, and walk in the ways of thine heart, and in the sight of thine eyes: but know thou, that for all these things God will bring thee into judgment.",
+      "ct": "Enjoy yourself while you're young! Let your heart bring you happiness during your youth. Follow where your heart leads and what your eyes find appealing — but understand that God will evaluate you for all of these choices."
+    },
+    {
+      "verse": 10,
+      "kjv": "Therefore remove sorrow from thy heart, and put away evil from thy flesh: for childhood and youth are vanity.",
+      "ct": "So push anxiety out of your mind and keep your body from harm, because youth and the prime of life pass quickly."
+    }
+  ]
+}

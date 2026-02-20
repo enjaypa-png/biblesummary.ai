@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 124,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.018Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "If it had not been the LORD who was on our side, now may Israel say;",
+      "ct": "If the LORD had not been fighting for us — let Israel declare this —"
+    },
+    {
+      "verse": 2,
+      "kjv": "If it had not been the LORD who was on our side, when men rose up against us:",
+      "ct": "if the LORD had not been fighting for us when people attacked us,"
+    },
+    {
+      "verse": 3,
+      "kjv": "Then they had swallowed us up quick, when their wrath was kindled against us:",
+      "ct": "they would have swallowed us alive when their anger burned against us."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then the waters had overwhelmed us, the stream had gone over our soul:",
+      "ct": "The floodwaters would have drowned us; the rushing current would have swept over our soul."
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the proud waters had gone over our soul.",
+      "ct": "The raging waters would have swept over our soul."
+    },
+    {
+      "verse": 6,
+      "kjv": "Blessed be the LORD, who hath not given us as a prey to their teeth.",
+      "ct": "Praise the LORD, who has not let us be torn apart by their teeth."
+    },
+    {
+      "verse": 7,
+      "kjv": "Our soul is escaped as a bird out of the snare of the fowlers: the snare is broken, and we are escaped.",
+      "ct": "Our soul has escaped like a bird from the hunter's trap; the trap is shattered, and we are free."
+    },
+    {
+      "verse": 8,
+      "kjv": "Our help is in the name of the LORD, who made heaven and earth.",
+      "ct": "Our help comes from the name of the LORD, who made heaven and earth."
+    }
+  ]
+}

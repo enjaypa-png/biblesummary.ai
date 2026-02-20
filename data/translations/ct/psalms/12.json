@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 12,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.947Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Help, LORD; for the godly man ceaseth; for the faithful fail from among the children of men.",
+      "ct": "Save us, LORD, because devoted people are disappearing; trustworthy people can no longer be found among humanity."
+    },
+    {
+      "verse": 2,
+      "kjv": "They speak vanity every one with his neighbour: with flattering lips and with a double heart do they speak.",
+      "ct": "Everyone lies to their neighbor; they speak with flattering words and deceptive hearts."
+    },
+    {
+      "verse": 3,
+      "kjv": "The LORD shall cut off all flattering lips, and the tongue that speaketh proud things:",
+      "ct": "The LORD will silence every flattering mouth and every tongue that boasts arrogantly—"
+    },
+    {
+      "verse": 4,
+      "kjv": "Who have said, With our tongue will we prevail; our lips are our own: who is lord over us?",
+      "ct": "those who say, 'We will win with our words; our mouths belong to us — who has authority over us?'"
+    },
+    {
+      "verse": 5,
+      "kjv": "For the oppression of the poor, for the sighing of the needy, now will I arise, saith the LORD; I will set him in safety from him that puffeth at him.",
+      "ct": "\"Because the poor are being crushed and the needy are crying out, I will now rise up,\" says the LORD. \"I will place them in the safety they long for.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "The words of the LORD are pure words: as silver tried in a furnace of earth, purified seven times.",
+      "ct": "The words of the LORD are flawless words, like silver refined in a furnace, purified 7 times over."
+    },
+    {
+      "verse": 7,
+      "kjv": "Thou shalt keep them, O LORD, thou shalt preserve them from this generation for ever.",
+      "ct": "You will protect them, LORD; you will guard them from this generation forever."
+    },
+    {
+      "verse": 8,
+      "kjv": "The wicked walk on every side, when the vilest men are exalted.",
+      "ct": "The wicked roam freely on every side whenever the most corrupt people are given positions of honor."
+    }
+  ]
+}

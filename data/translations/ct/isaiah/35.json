@@ -1,0 +1,60 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 35,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.097Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The wilderness and the solitary place shall be glad for them; and the desert shall rejoice, and blossom as the rose.",
+      "ct": "The wilderness and the dry wasteland will celebrate because of them; the desert will be filled with joy and burst into bloom like a flower."
+    },
+    {
+      "verse": 2,
+      "kjv": "It shall blossom abundantly, and rejoice even with joy and singing: the glory of Lebanon shall be given unto it, the excellency of Carmel and Sharon, they shall see the glory of the LORD, and the excellency of our God.",
+      "ct": "It will bloom in rich abundance, overflowing with joy and shouts of praise. It will be given the splendor of Lebanon, the beauty of Carmel and Sharon. Everyone will witness the glory of the LORD, the majesty of our God."
+    },
+    {
+      "verse": 3,
+      "kjv": "Strengthen ye the weak hands, and confirm the feeble knees.",
+      "ct": "Build up the strength of tired hands, and steady the knees that are buckling."
+    },
+    {
+      "verse": 4,
+      "kjv": "Say to them that are of a fearful heart, Be strong, fear not: behold, your God will come with vengeance, even God with a recompence; he will come and save you.",
+      "ct": "Tell those whose hearts are gripped with anxiety, 'Be strong! Don't be afraid! Look — your God is coming with justice. God himself is coming to repay and to rescue you.'"
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped.",
+      "ct": "At that time, the eyes of those who are blind will be opened, and the ears of those who are deaf will be cleared."
+    },
+    {
+      "verse": 6,
+      "kjv": "Then shall the lame man leap as an hart, and the tongue of the dumb sing: for in the wilderness shall waters break out, and streams in the desert.",
+      "ct": "At that time, those who couldn't walk will leap like deer, and those who couldn't speak will shout with joy. Water will gush out in the wilderness, and streams will flow through the desert."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the parched ground shall become a pool, and the thirsty land springs of water: in the habitation of dragons, where each lay, shall be grass with reeds and rushes.",
+      "ct": "The scorched ground will turn into a pool, and the parched land will become bubbling springs. In the places where jackals once rested, grass and reeds and rushes will grow."
+    },
+    {
+      "verse": 8,
+      "kjv": "And an highway shall be there, and a way, and it shall be called The way of holiness; the unclean shall not pass over it; but it shall be for those: the wayfaring men, though fools, shall not err therein.",
+      "ct": "A great road will be there — a pathway called the Way of Holiness. No one who is impure will travel on it. It will be reserved for God's people; even those without understanding will not lose their way on it."
+    },
+    {
+      "verse": 9,
+      "kjv": "No lion shall be there, nor any ravenous beast shall go up thereon, it shall not be found there; but the redeemed shall walk there:",
+      "ct": "No lions will prowl there, and no dangerous wild animals will roam along it. They will not be found anywhere on that road. Only the redeemed will travel it."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the ransomed of the LORD shall return, and come to Zion with songs and everlasting joy upon their heads: they shall obtain joy and gladness, and sorrow and sighing shall flee away.",
+      "ct": "Those the LORD has rescued will return and arrive at Zion singing, crowned with everlasting joy. Happiness and gladness will overtake them, and grief and groaning will disappear completely."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 19,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.951Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The heavens declare the glory of God; and the firmament sheweth his handywork.",
+      "ct": "The heavens proclaim the glory of God, and the expanse above displays his handiwork."
+    },
+    {
+      "verse": 2,
+      "kjv": "Day unto day uttereth speech, and night unto night sheweth knowledge.",
+      "ct": "Each day pours out its message to the next, and every night reveals knowledge to the one that follows."
+    },
+    {
+      "verse": 3,
+      "kjv": "There is no speech nor language, where their voice is not heard.",
+      "ct": "There is no language or dialect where their voice cannot be heard."
+    },
+    {
+      "verse": 4,
+      "kjv": "Their line is gone out through all the earth, and their words to the end of the world. In them hath he set a tabernacle for the sun,",
+      "ct": "Their influence reaches across the whole earth, and their words extend to the farthest corners of the world. God has placed a tent in them for the sun,"
+    },
+    {
+      "verse": 5,
+      "kjv": "Which is as a bridegroom coming out of his chamber, and rejoiceth as a strong man to run a race.",
+      "ct": "which emerges like a groom stepping out of his wedding chamber, and celebrates like an athlete eager to run his course."
+    },
+    {
+      "verse": 6,
+      "kjv": "His going forth is from the end of the heaven, and his circuit unto the ends of it: and there is nothing hid from the heat thereof.",
+      "ct": "It rises at one end of the heavens and travels in an arc to the other end, and nothing escapes its heat."
+    },
+    {
+      "verse": 7,
+      "kjv": "The law of the LORD is perfect, converting the soul: the testimony of the LORD is sure, making wise the simple.",
+      "ct": "The law of the LORD is flawless, restoring the soul. The testimony of the LORD is trustworthy, giving wisdom to the inexperienced."
+    },
+    {
+      "verse": 8,
+      "kjv": "The statutes of the LORD are right, rejoicing the heart: the commandment of the LORD is pure, enlightening the eyes.",
+      "ct": "The instructions of the LORD are just, filling the heart with joy. The commands of the LORD are pure, giving light to the eyes."
+    },
+    {
+      "verse": 9,
+      "kjv": "The fear of the LORD is clean, enduring for ever: the judgments of the LORD are true and righteous altogether.",
+      "ct": "Wholehearted dedication to the LORD is clean, lasting forever. The decisions of the LORD are true, and every one of them is righteous."
+    },
+    {
+      "verse": 10,
+      "kjv": "More to be desired are they than gold, yea, than much fine gold: sweeter also than honey and the honeycomb.",
+      "ct": "They are more desirable than gold — yes, more than an abundance of the finest gold. They are sweeter than honey, even honey fresh from the comb."
+    },
+    {
+      "verse": 11,
+      "kjv": "Moreover by them is thy servant warned: and in keeping of them there is great reward.",
+      "ct": "Through them your servant receives warning, and in following them there is great reward."
+    },
+    {
+      "verse": 12,
+      "kjv": "Who can understand his errors? cleanse thou me from secret faults.",
+      "ct": "Who can recognize all their own mistakes? Forgive me for the faults I cannot even see."
+    },
+    {
+      "verse": 13,
+      "kjv": "Keep back thy servant also from presumptuous sins; let them not have dominion over me: then shall I be upright, and I shall be innocent from the great transgression.",
+      "ct": "Also keep your servant from deliberate sins; don't let them control me. Then I will be blameless, and I will be free from serious transgression."
+    },
+    {
+      "verse": 14,
+      "kjv": "Let the words of my mouth, and the meditation of my heart, be acceptable in thy sight, O LORD, my strength, and my redeemer.",
+      "ct": "May the words I speak and the thoughts I hold in my heart be pleasing in your sight, LORD, my rock and my redeemer."
+    }
+  ]
+}

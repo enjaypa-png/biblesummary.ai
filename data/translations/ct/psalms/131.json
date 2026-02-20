@@ -1,0 +1,25 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 131,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.022Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Lord, my heart is not haughty, nor mine eyes lofty: neither do I exercise myself in great matters, or in things too high for me.",
+      "ct": "LORD, my heart isn't proud, and my eyes aren't arrogant. I don't concern myself with things too great or too complex for me to understand."
+    },
+    {
+      "verse": 2,
+      "kjv": "Surely I have behaved and quieted myself, as a child that is weaned of his mother: my soul is even as a weaned child.",
+      "ct": "Instead, I have calmed and settled my soul. Like a child resting peacefully against its mother after being weaned — that is how my soul rests within me."
+    },
+    {
+      "verse": 3,
+      "kjv": "Let Israel hope in the LORD from henceforth and for ever.",
+      "ct": "Israel, put your hope in the LORD, from now until the end of time."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 84,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.991Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "How amiable are thy tabernacles, O LORD of hosts!",
+      "ct": "How lovely is your dwelling place, LORD of hosts!"
+    },
+    {
+      "verse": 2,
+      "kjv": "My soul longeth, yea, even fainteth for the courts of the LORD: my heart and my flesh crieth out for the living God.",
+      "ct": "My soul longs — it even aches — for the courts of the LORD. My heart and my body cry out for the living God."
+    },
+    {
+      "verse": 3,
+      "kjv": "Yea, the sparrow hath found an house, and the swallow a nest for herself, where she may lay her young, even thine altars, O LORD of hosts, my King, and my God.",
+      "ct": "Even the sparrow has found a home, and the swallow a nest where she can raise her young — right there at your altars, LORD of hosts, my King and my God."
+    },
+    {
+      "verse": 4,
+      "kjv": "Blessed are they that dwell in thy house: they will be still praising thee. Selah.",
+      "ct": "How happy are those who live in your house; they are always praising you. Selah."
+    },
+    {
+      "verse": 5,
+      "kjv": "Blessed is the man whose strength is in thee; in whose heart are the ways of them.",
+      "ct": "How happy are those whose strength comes from you, who have set their hearts on pilgrimage."
+    },
+    {
+      "verse": 6,
+      "kjv": "Who passing through the valley of Baca make it a well; the rain also filleth the pools.",
+      "ct": "As they pass through the dry valley of Baca, they turn it into a place of springs; the early rain covers it with pools."
+    },
+    {
+      "verse": 7,
+      "kjv": "They go from strength to strength, every one of them in Zion appeareth before God.",
+      "ct": "They grow stronger and stronger, until each one appears in God's presence in Zion."
+    },
+    {
+      "verse": 8,
+      "kjv": "O LORD God of hosts, hear my prayer: give ear, O God of Jacob. Selah.",
+      "ct": "LORD God of hosts, hear my prayer; listen, God of Jacob. Selah."
+    },
+    {
+      "verse": 9,
+      "kjv": "Behold, O God our shield, and look upon the face of thine anointed.",
+      "ct": "Look, God our protector, and look with favor on your anointed one."
+    },
+    {
+      "verse": 10,
+      "kjv": "For a day in thy courts is better than a thousand. I had rather be a doorkeeper in the house of my God, than to dwell in the tents of wickedness.",
+      "ct": "A single day in your courts is better than 1,000 anywhere else. I would rather stand at the doorway of my God's house than live comfortably among the wicked."
+    },
+    {
+      "verse": 11,
+      "kjv": "For the LORD God is a sun and shield: the LORD will give grace and glory: no good thing will he withhold from them that walk uprightly.",
+      "ct": "The LORD God is a sun and a shield; the LORD gives grace and glory. He does not hold back anything good from those who live with integrity."
+    },
+    {
+      "verse": 12,
+      "kjv": "O LORD of hosts, blessed is the man that trusteth in thee.",
+      "ct": "LORD of hosts, how happy is the person who trusts in you."
+    }
+  ]
+}

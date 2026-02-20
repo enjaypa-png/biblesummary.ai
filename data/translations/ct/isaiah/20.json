@@ -1,0 +1,40 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 20,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.088Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In the year that Tartan came unto Ashdod, (when Sargon the king of Assyria sent him,) and fought against Ashdod, and took it;",
+      "ct": "During the year that the supreme commander arrived at Ashdod — sent by King Sargon of Assyria — he attacked the city and captured it."
+    },
+    {
+      "verse": 2,
+      "kjv": "At the same time spake the LORD by Isaiah the son of Amoz, saying, Go and loose the sackcloth from off thy loins, and put off thy shoe from thy foot. And he did so, walking naked and barefoot.",
+      "ct": "Around that same time, the LORD spoke through Isaiah son of Amoz, saying, \"Remove the rough cloth from around your waist, and take the sandals off your feet.\" Isaiah obeyed, going around stripped and barefoot."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the LORD said, Like as my servant Isaiah hath walked naked and barefoot three years for a sign and wonder upon Egypt and upon Ethiopia;",
+      "ct": "Then the LORD said, \"Just as my servant Isaiah has gone around stripped and barefoot for 3 years as a sign and warning against Egypt and Ethiopia,"
+    },
+    {
+      "verse": 4,
+      "kjv": "So shall the king of Assyria lead away the Egyptians prisoners, and the Ethiopians captives, young and old, naked and barefoot, even with their buttocks uncovered, to the shame of Egypt.",
+      "ct": "the king of Assyria will drag away Egyptian prisoners and Ethiopian captives — both young and old — stripped, barefoot, and with their backsides exposed, to Egypt's complete humiliation.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And they shall be afraid and ashamed of Ethiopia their expectation, and of Egypt their glory.",
+      "ct": "Everyone will be terrified and disappointed by Ethiopia, the nation they counted on, and by Egypt, the nation they admired."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the inhabitant of this isle shall say in that day, Behold, such is our expectation, whither we flee for help to be delivered from the king of Assyria: and how shall we escape?",
+      "ct": "The people living along this coast will say on that day, \"Look at what happened to those we relied on — the ones we ran to for protection from the king of Assyria! How can we possibly survive?\""
+    }
+  ]
+}

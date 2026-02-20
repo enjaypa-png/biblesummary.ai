@@ -1,0 +1,55 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 99,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.001Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The LORD reigneth; let the people tremble: he sitteth between the cherubims; let the earth be moved.",
+      "ct": "The LORD rules as king — let the nations shake! He sits enthroned above the cherubim — let the earth tremble!"
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD is great in Zion; and he is high above all the people.",
+      "ct": "The LORD is mighty in Zion; he is exalted far above every nation."
+    },
+    {
+      "verse": 3,
+      "kjv": "Let them praise thy great and terrible name; for it is holy.",
+      "ct": "Let them praise your great and awe-inspiring name — he is holy."
+    },
+    {
+      "verse": 4,
+      "kjv": "The king’s strength also loveth judgment; thou dost establish equity, thou executest judgment and righteousness in Jacob.",
+      "ct": "The king in his power loves justice. You have established fairness; you have carried out justice and righteousness among the people of Jacob."
+    },
+    {
+      "verse": 5,
+      "kjv": "Exalt ye the LORD our God, and worship at his footstool; for he is holy.",
+      "ct": "Lift up the LORD our God and bow down at his footstool — he is holy."
+    },
+    {
+      "verse": 6,
+      "kjv": "Moses and Aaron among his priests, and Samuel among them that call upon his name; they called upon the LORD, and he answered them.",
+      "ct": "Moses and Aaron served among his priests, and Samuel was among those who called on his name. They cried out to the LORD, and he responded to them."
+    },
+    {
+      "verse": 7,
+      "kjv": "He spake unto them in the cloudy pillar: they kept his testimonies, and the ordinance that he gave them.",
+      "ct": "He spoke to them from the pillar of cloud. They followed his commands and the laws he gave them."
+    },
+    {
+      "verse": 8,
+      "kjv": "Thou answeredst them, O LORD our God: thou wast a God that forgavest them, though thou tookest vengeance of their inventions.",
+      "ct": "You answered them, LORD our God. You were a God who forgave them, even though you punished them for their wrongdoing."
+    },
+    {
+      "verse": 9,
+      "kjv": "Exalt the LORD our God, and worship at his holy hill; for the LORD our God is holy.",
+      "ct": "Lift up the LORD our God and worship at his holy mountain, because the LORD our God is holy."
+    }
+  ]
+}

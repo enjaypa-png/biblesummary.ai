@@ -1,0 +1,70 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 64,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.118Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Oh that thou wouldest rend the heavens, that thou wouldest come down, that the mountains might flow down at thy presence,",
+      "ct": "If only you would tear open the heavens and come down, so that the mountains would melt at your presence,"
+    },
+    {
+      "verse": 2,
+      "kjv": "As when the melting fire burneth, the fire causeth the waters to boil, to make thy name known to thine adversaries, that the nations may tremble at thy presence!",
+      "ct": "like fire that ignites dry brush, like flames that make water boil — come and make your name known to your enemies, so that nations would shake at your presence!"
+    },
+    {
+      "verse": 3,
+      "kjv": "When thou didst terrible things which we looked not for, thou camest down, the mountains flowed down at thy presence.",
+      "ct": "When you did awe-inspiring things we never expected, you came down, and the mountains melted at your presence."
+    },
+    {
+      "verse": 4,
+      "kjv": "For since the beginning of the world men have not heard, nor perceived by the ear, neither hath the eye seen, O God, beside thee, what he hath prepared for him that waiteth for him.",
+      "ct": "Since the beginning of time, no one has heard, no ear has picked up, and no eye has seen any God besides you who acts on behalf of those who wait for him."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thou meetest him that rejoiceth and worketh righteousness, those that remember thee in thy ways: behold, thou art wroth; for we have sinned: in those is continuance, and we shall be saved.",
+      "ct": "You welcome those who joyfully practice righteousness, those who remember you and follow your ways. But look — you were angry because we kept sinning. We continued in sin for so long — how can we be saved?"
+    },
+    {
+      "verse": 6,
+      "kjv": "But we are all as an unclean thing, and all our righteousnesses are as filthy rags; and we all do fade as a leaf; and our iniquities, like the wind, have taken us away.",
+      "ct": "All of us have become like something unclean, and all our righteous acts are like filthy rags. We all wither like a leaf, and our sins, like the wind, sweep us away."
+    },
+    {
+      "verse": 7,
+      "kjv": "And there is none that calleth upon thy name, that stirreth up himself to take hold of thee: for thou hast hid thy face from us, and hast consumed us, because of our iniquities.",
+      "ct": "No one calls on your name or makes the effort to hold on to you, because you have withdrawn your favor from us and let our sins destroy us."
+    },
+    {
+      "verse": 8,
+      "kjv": "But now, O LORD, thou art our father; we are the clay, and thou our potter; and we all are the work of thy hand.",
+      "ct": "But still, LORD, you are our father. We are the clay, and you are our potter. All of us are the work of your hand."
+    },
+    {
+      "verse": 9,
+      "kjv": "Be not wroth very sore, O LORD, neither remember iniquity for ever: behold, see, we beseech thee, we are all thy people.",
+      "ct": "Don't stay so deeply angry, LORD, and don't hold our sins against us forever. Please, look at us — we are all your people."
+    },
+    {
+      "verse": 10,
+      "kjv": "Thy holy cities are a wilderness, Zion is a wilderness, Jerusalem a desolation.",
+      "ct": "Your holy cities have become a wasteland. Zion has become a wasteland. Jerusalem lies in ruins."
+    },
+    {
+      "verse": 11,
+      "kjv": "Our holy and our beautiful house, where our fathers praised thee, is burned up with fire: and all our pleasant things are laid waste.",
+      "ct": "Our holy and beautiful temple, where our ancestors praised you, has been burned to the ground, and everything we treasured has been destroyed."
+    },
+    {
+      "verse": 12,
+      "kjv": "Wilt thou refrain thyself for these things, O LORD? wilt thou hold thy peace, and afflict us very sore?",
+      "ct": "After all this, will you still hold back, LORD? Will you remain silent and let us suffer beyond what we can bear?"
+    }
+  ]
+}

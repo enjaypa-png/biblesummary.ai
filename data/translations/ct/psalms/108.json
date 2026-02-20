@@ -1,0 +1,75 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 108,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.007Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O God, my heart is fixed; I will sing and give praise, even with my glory.",
+      "ct": "My heart is steady, God; I will sing and make music with everything in me."
+    },
+    {
+      "verse": 2,
+      "kjv": "Awake, psaltery and harp: I myself will awake early.",
+      "ct": "Wake up, harp and lyre! I will rise before the dawn."
+    },
+    {
+      "verse": 3,
+      "kjv": "I will praise thee, O LORD, among the people: and I will sing praises unto thee among the nations.",
+      "ct": "I will thank you, LORD, in front of all people, and I will sing your praises among the nations."
+    },
+    {
+      "verse": 4,
+      "kjv": "For thy mercy is great above the heavens: and thy truth reacheth unto the clouds.",
+      "ct": "Your mercy towers higher than the heavens, and your faithfulness stretches to the clouds."
+    },
+    {
+      "verse": 5,
+      "kjv": "Be thou exalted, O God, above the heavens: and thy glory above all the earth;",
+      "ct": "Rise up above the heavens, God, and let your glory cover the entire earth,"
+    },
+    {
+      "verse": 6,
+      "kjv": "That thy beloved may be delivered: save with thy right hand, and answer me.",
+      "ct": "so that those you love may be rescued. Save us with your powerful hand and answer me."
+    },
+    {
+      "verse": 7,
+      "kjv": "God hath spoken in his holiness; I will rejoice, I will divide Shechem, and mete out the valley of Succoth.",
+      "ct": "God has declared from his sanctuary: 'I will celebrate! I will divide up Shechem and measure out the valley of Succoth."
+    },
+    {
+      "verse": 8,
+      "kjv": "Gilead is mine; Manasseh is mine; Ephraim also is the strength of mine head; Judah is my lawgiver;",
+      "ct": "Gilead belongs to me, and Manasseh belongs to me. Ephraim is my helmet, and Judah is my ruling staff."
+    },
+    {
+      "verse": 9,
+      "kjv": "Moab is my washpot; over Edom will I cast out my shoe; over Philistia will I triumph.",
+      "ct": "Moab is my washbasin; I will toss my sandal onto Edom; I will shout in victory over Philistia.'"
+    },
+    {
+      "verse": 10,
+      "kjv": "Who will bring me into the strong city? who will lead me into Edom?",
+      "ct": "Who will bring me to the fortified city? Who will lead me all the way to Edom?"
+    },
+    {
+      "verse": 11,
+      "kjv": "Wilt not thou, O God, who hast cast us off? and wilt not thou, O God, go forth with our hosts?",
+      "ct": "Haven't you rejected us, God? Won't you march out with our armies, God?"
+    },
+    {
+      "verse": 12,
+      "kjv": "Give us help from trouble: for vain is the help of man.",
+      "ct": "Give us relief from our enemies, because human help is worthless."
+    },
+    {
+      "verse": 13,
+      "kjv": "Through God we shall do valiantly: for he it is that shall tread down our enemies.",
+      "ct": "With God on our side, we will act with courage, because he is the one who will crush our enemies."
+    }
+  ]
+}

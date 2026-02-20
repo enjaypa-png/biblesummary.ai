@@ -1,0 +1,65 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 46,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.967Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "God is our refuge and strength, a very present help in trouble.",
+      "ct": "God is our shelter and our strength, always ready to help when trouble comes."
+    },
+    {
+      "verse": 2,
+      "kjv": "Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea;",
+      "ct": "So we will not be afraid, even if the earth gives way and the mountains collapse into the depths of the sea,"
+    },
+    {
+      "verse": 3,
+      "kjv": "Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof. Selah.",
+      "ct": "even if its waters churn and rage, even if the mountains tremble as the waves surge. Selah."
+    },
+    {
+      "verse": 4,
+      "kjv": "There is a river, the streams whereof shall make glad the city of God, the holy place of the tabernacles of the most High.",
+      "ct": "A river flows whose streams bring joy to the city of God, the sacred dwelling place of the Most High."
+    },
+    {
+      "verse": 5,
+      "kjv": "God is in the midst of her; she shall not be moved: God shall help her, and that right early.",
+      "ct": "God is right there within her; she will never fall. God will come to her rescue at the break of dawn."
+    },
+    {
+      "verse": 6,
+      "kjv": "The heathen raged, the kingdoms were moved: he uttered his voice, the earth melted.",
+      "ct": "Nations were in an uproar, kingdoms crumbled. He raised his voice, and the earth dissolved."
+    },
+    {
+      "verse": 7,
+      "kjv": "The LORD of hosts is with us; the God of Jacob is our refuge. Selah.",
+      "ct": "The LORD of hosts stands with us; the God of Jacob is our shelter. Selah."
+    },
+    {
+      "verse": 8,
+      "kjv": "Come, behold the works of the LORD, what desolations he hath made in the earth.",
+      "ct": "Come and see what the LORD has done — the stunning destruction he has brought upon the earth."
+    },
+    {
+      "verse": 9,
+      "kjv": "He maketh wars to cease unto the end of the earth; he breaketh the bow, and cutteth the spear in sunder; he burneth the chariot in the fire.",
+      "ct": "He puts an end to wars across the entire earth; he snaps the bow, shatters the spear, and sets the war chariots ablaze."
+    },
+    {
+      "verse": 10,
+      "kjv": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.",
+      "ct": "\"Be still, and recognize that I am God. I will be honored among the nations; I will be honored throughout the earth.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "The LORD of hosts is with us; the God of Jacob is our refuge. Selah.",
+      "ct": "The LORD of hosts stands with us; the God of Jacob is our shelter. Selah."
+    }
+  ]
+}

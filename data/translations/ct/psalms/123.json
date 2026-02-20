@@ -1,0 +1,30 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 123,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.017Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Unto thee lift I up mine eyes, O thou that dwellest in the heavens.",
+      "ct": "I look up to you, the one who is enthroned in the heavens."
+    },
+    {
+      "verse": 2,
+      "kjv": "Behold, as the eyes of servants look unto the hand of their masters, and as the eyes of a maiden unto the hand of her mistress; so our eyes wait upon the LORD our God, until that he have mercy upon us.",
+      "ct": "Just as servants watch their master's hand for direction, and as a maid watches her mistress's hand, so we keep our eyes on the LORD our God, waiting for him to show us mercy."
+    },
+    {
+      "verse": 3,
+      "kjv": "Have mercy upon us, O LORD, have mercy upon us: for we are exceedingly filled with contempt.",
+      "ct": "Show us mercy, LORD, show us mercy, because we have endured more than enough contempt."
+    },
+    {
+      "verse": 4,
+      "kjv": "Our soul is exceedingly filled with the scorning of those that are at ease, and with the contempt of the proud.",
+      "ct": "Our soul has had more than enough of the mockery of those who live in comfort, and the contempt of the arrogant."
+    }
+  ]
+}

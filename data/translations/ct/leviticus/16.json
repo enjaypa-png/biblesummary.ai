@@ -1,0 +1,180 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 16,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.569Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses after the death of the two sons of Aaron, when they offered before the LORD, and died;",
+      "ct": "The LORD spoke to Moses after the death of Aaron's 2 sons, who died when they approached the LORD's presence improperly."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD said unto Moses, Speak unto Aaron thy brother, that he come not at all times into the holy place within the vail before the mercy seat, which is upon the ark; that he die not: for I will appear in the cloud upon the mercy seat.",
+      "ct": "The LORD told Moses, \"Tell your brother Aaron that he must not enter the holy room behind the curtain whenever he wants — the room where the mercy seat sits on top of the ark — or he will die. I appear in the cloud above the mercy seat.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Thus shall Aaron come into the holy place: with a young bullock for a sin offering, and a ram for a burnt offering.",
+      "ct": "\"This is how Aaron must enter the holy room: with a young bull for a sin offering and a ram for a burnt offering.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "He shall put on the holy linen coat, and he shall have the linen breeches upon his flesh, and shall be girded with a linen girdle, and with the linen mitre shall he be attired: these are holy garments; therefore shall he wash his flesh in water, and so put them on.",
+      "ct": "\"He must dress in the sacred linen tunic, with linen undergarments next to his body, a linen sash tied around his waist, and a linen turban on his head. These are sacred garments, so he must bathe his entire body in water before putting them on.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And he shall take of the congregation of the children of Israel two kids of the goats for a sin offering, and one ram for a burnt offering.",
+      "ct": "\"From the Israelite community, he must receive 2 male goats for a sin offering and 1 ram for a burnt offering.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Aaron shall offer his bullock of the sin offering, which is for himself, and make an atonement for himself, and for his house.",
+      "ct": "\"Aaron must present the bull as a sin offering for himself and perform atonement for himself and his household.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And he shall take the two goats, and present them before the LORD at the door of the tabernacle of the congregation.",
+      "ct": "\"Then he must take the 2 goats and bring them into the LORD's presence at the entrance of the tent of meeting.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Aaron shall cast lots upon the two goats; one lot for the LORD, and the other lot for the scapegoat.",
+      "ct": "\"Aaron must draw lots for the 2 goats — one lot designated for the LORD and the other lot for the scapegoat.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Aaron shall bring the goat upon which the LORD’s lot fell, and offer him for a sin offering.",
+      "ct": "\"Aaron must take the goat chosen by lot for the LORD and sacrifice it as a sin offering.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "But the goat, on which the lot fell to be the scapegoat, shall be presented alive before the LORD, to make an atonement with him, and to let him go for a scapegoat into the wilderness.",
+      "ct": "\"But the goat chosen by lot as the scapegoat must be presented alive in the LORD's presence, so that atonement can be made over it before sending it out into the wilderness as the scapegoat.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Aaron shall bring the bullock of the sin offering, which is for himself, and shall make an atonement for himself, and for his house, and shall kill the bullock of the sin offering which is for himself:",
+      "ct": "\"Aaron must present the bull for his own sin offering and perform atonement for himself and his household. He must slaughter the bull as his sin offering.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And he shall take a censer full of burning coals of fire from off the altar before the LORD, and his hands full of sweet incense beaten small, and bring it within the vail:",
+      "ct": "\"Then he must take a firepan filled with burning coals from the altar in the LORD's presence, along with 2 handfuls of finely ground fragrant incense, and carry them behind the curtain.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And he shall put the incense upon the fire before the LORD, that the cloud of the incense may cover the mercy seat that is upon the testimony, that he die not:",
+      "ct": "\"He must place the incense on the fire in the LORD's presence so that the cloud of incense covers the mercy seat that rests above the testimony. This way he will not die.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And he shall take of the blood of the bullock, and sprinkle it with his finger upon the mercy seat eastward; and before the mercy seat shall he sprinkle of the blood with his finger seven times.",
+      "ct": "\"He must take some of the bull's blood and sprinkle it with his finger on the east side of the mercy seat. Then he must sprinkle some of the blood with his finger 7 times in front of the mercy seat.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Then shall he kill the goat of the sin offering, that is for the people, and bring his blood within the vail, and do with that blood as he did with the blood of the bullock, and sprinkle it upon the mercy seat, and before the mercy seat:",
+      "ct": "\"Next, he must slaughter the goat for the people's sin offering, bring its blood behind the curtain, and do with it exactly what he did with the bull's blood — sprinkling it on the mercy seat and in front of the mercy seat.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And he shall make an atonement for the holy place, because of the uncleanness of the children of Israel, and because of their transgressions in all their sins: and so shall he do for the tabernacle of the congregation, that remaineth among them in the midst of their uncleanness.",
+      "ct": "\"In this way he will perform atonement for the holy room because of the Israelites' impurities and their rebellious acts — all their sins. He must do the same for the tent of meeting, which stands among them surrounded by their impurities.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And there shall be no man in the tabernacle of the congregation when he goeth in to make an atonement in the holy place, until he come out, and have made an atonement for himself, and for his household, and for all the congregation of Israel.",
+      "ct": "\"No one else may be inside the tent of meeting from the time Aaron enters to perform atonement in the holy room until he comes out, having completed atonement for himself, his household, and the entire assembly of Israel.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And he shall go out unto the altar that is before the LORD, and make an atonement for it; and shall take of the blood of the bullock, and of the blood of the goat, and put it upon the horns of the altar round about.",
+      "ct": "\"Then he must go out to the altar that stands in the LORD's presence and perform atonement for it. He must take some of the bull's blood and some of the goat's blood and apply it to each of the altar's horns all around.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And he shall sprinkle of the blood upon it with his finger seven times, and cleanse it, and hallow it from the uncleanness of the children of Israel.",
+      "ct": "\"He must sprinkle some of the blood on it with his finger 7 times, purifying it and setting it apart from the impurities of the Israelites.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And when he hath made an end of reconciling the holy place, and the tabernacle of the congregation, and the altar, he shall bring the live goat:",
+      "ct": "\"Once he has finished performing atonement for the holy room, the tent of meeting, and the altar, he must bring forward the live goat.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Aaron shall lay both his hands upon the head of the live goat, and confess over him all the iniquities of the children of Israel, and all their transgressions in all their sins, putting them upon the head of the goat, and shall send him away by the hand of a fit man into the wilderness:",
+      "ct": "\"Aaron must place both of his hands on the live goat's head and confess over it every wrongdoing of the Israelites — all their rebellious acts and all their sins — symbolically transferring them onto the goat's head. Then he must send it away into the wilderness with a man appointed for the task.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And the goat shall bear upon him all their iniquities unto a land not inhabited: and he shall let go the goat in the wilderness.",
+      "ct": "\"The goat will carry all their wrongdoings on itself into a desolate region. The man must release the goat in the wilderness.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And Aaron shall come into the tabernacle of the congregation, and shall put off the linen garments, which he put on when he went into the holy place, and shall leave them there:",
+      "ct": "\"After this, Aaron must enter the tent of meeting, take off the linen garments he wore when he went into the holy room, and leave them there.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And he shall wash his flesh with water in the holy place, and put on his garments, and come forth, and offer his burnt offering, and the burnt offering of the people, and make an atonement for himself, and for the people.",
+      "ct": "\"He must bathe his body with water in the holy area, put on his regular garments, come out, and sacrifice his own burnt offering along with the people's burnt offering, performing atonement for himself and for the people.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And the fat of the sin offering shall he burn upon the altar.",
+      "ct": "\"He must also burn the fat from the sin offering on the altar.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And he that let go the goat for the scapegoat shall wash his clothes, and bathe his flesh in water, and afterward come into the camp.",
+      "ct": "\"The man who released the scapegoat into the wilderness must wash his clothes and bathe his body in water before returning to the camp.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And the bullock for the sin offering, and the goat for the sin offering, whose blood was brought in to make atonement in the holy place, shall one carry forth without the camp; and they shall burn in the fire their skins, and their flesh, and their dung.",
+      "ct": "\"The bull and the goat used for the sin offerings — whose blood was brought into the holy room to perform atonement — must be taken outside the camp. Their hides, meat, and intestinal waste must be completely burned up.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And he that burneth them shall wash his clothes, and bathe his flesh in water, and afterward he shall come into the camp.",
+      "ct": "\"The person who burns them must wash his clothes and bathe his body in water before returning to the camp.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And this shall be a statute for ever unto you: that in the seventh month, on the tenth day of the month, ye shall afflict your souls, and do no work at all, whether it be one of your own country, or a stranger that sojourneth among you:",
+      "ct": "\"This is a permanent regulation for you: On the 10th day of the 7th month, you must deny yourselves and not do any work at all — whether you are native-born Israelites or foreigners living among you.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "For on that day shall the priest make an atonement for you, to cleanse you, that ye may be clean from all your sins before the LORD.",
+      "ct": "\"On this day, atonement will be performed for you to purify you. You will be made clean from all your sins in the LORD's presence.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "It shall be a sabbath of rest unto you, and ye shall afflict your souls, by a statute for ever.",
+      "ct": "\"It is a sabbath of complete rest for you, and you must deny yourselves. This is a permanent regulation.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And the priest, whom he shall anoint, and whom he shall consecrate to minister in the priest’s office in his father’s stead, shall make the atonement, and shall put on the linen clothes, even the holy garments:",
+      "ct": "\"The priest who is anointed and ordained to serve in his father's place must perform the atonement. He must dress in the linen garments — the sacred garments.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And he shall make an atonement for the holy sanctuary, and he shall make an atonement for the tabernacle of the congregation, and for the altar, and he shall make an atonement for the priests, and for all the people of the congregation.",
+      "ct": "\"He must perform atonement for the sacred sanctuary, for the tent of meeting, for the altar, for the priests, and for all the people of the assembly.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And this shall be an everlasting statute unto you, to make an atonement for the children of Israel for all their sins once a year. And he did as the LORD commanded Moses.",
+      "ct": "\"This is a permanent regulation for you: atonement must be made for the Israelites once each year for all their sins.\" Moses carried this out exactly as the LORD had commanded him."
+    }
+  ]
+}

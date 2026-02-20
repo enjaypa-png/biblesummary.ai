@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 101,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.002Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I will sing of mercy and judgment: unto thee, O LORD, will I sing.",
+      "ct": "I will sing about your mercy and justice; to you, LORD, I will raise my song."
+    },
+    {
+      "verse": 2,
+      "kjv": "I will behave myself wisely in a perfect way. O when wilt thou come unto me? I will walk within my house with a perfect heart.",
+      "ct": "I will live with integrity and wisdom. When will you come to me? I will conduct myself with a blameless heart in my own home."
+    },
+    {
+      "verse": 3,
+      "kjv": "I will set no wicked thing before mine eyes: I hate the work of them that turn aside; it shall not cleave to me.",
+      "ct": "I will refuse to focus on anything worthless. I despise the actions of those who stray from what is right — their ways will never cling to me."
+    },
+    {
+      "verse": 4,
+      "kjv": "A froward heart shall depart from me: I will not know a wicked person.",
+      "ct": "I will reject every twisted desire; I want nothing to do with evil people."
+    },
+    {
+      "verse": 5,
+      "kjv": "Whoso privily slandereth his neighbour, him will I cut off: him that hath an high look and a proud heart will not I suffer.",
+      "ct": "Whoever secretly spreads lies about their neighbor — I will silence them. Anyone with arrogant eyes and a prideful heart — I will not tolerate them."
+    },
+    {
+      "verse": 6,
+      "kjv": "Mine eyes shall be upon the faithful of the land, that they may dwell with me: he that walketh in a perfect way, he shall serve me.",
+      "ct": "I will look for the faithful people in the land so they can live alongside me. Those who walk with integrity will be the ones who serve me."
+    },
+    {
+      "verse": 7,
+      "kjv": "He that worketh deceit shall not dwell within my house: he that telleth lies shall not tarry in my sight.",
+      "ct": "No one who practices deception will live in my house. No one who tells lies will remain in my presence."
+    },
+    {
+      "verse": 8,
+      "kjv": "I will early destroy all the wicked of the land; that I may cut off all wicked doers from the city of the LORD.",
+      "ct": "Every morning I will root out all the wicked from the land, removing every evildoer from the city of the LORD."
+    }
+  ]
+}

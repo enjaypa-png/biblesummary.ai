@@ -1,0 +1,55 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 47,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.967Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O clap your hands, all ye people; shout unto God with the voice of triumph.",
+      "ct": "Everyone, clap your hands! Shout to God with cries of victory!"
+    },
+    {
+      "verse": 2,
+      "kjv": "For the LORD most high is terrible; he is a great King over all the earth.",
+      "ct": "The LORD Most High is awe-inspiring; he is a great King over the whole earth."
+    },
+    {
+      "verse": 3,
+      "kjv": "He shall subdue the people under us, and the nations under our feet.",
+      "ct": "He brings nations under our authority and puts peoples beneath our feet."
+    },
+    {
+      "verse": 4,
+      "kjv": "He shall choose our inheritance for us, the excellency of Jacob whom he loved. Selah.",
+      "ct": "He picks out our land for us — the pride of Jacob, whom he loved. Selah."
+    },
+    {
+      "verse": 5,
+      "kjv": "God is gone up with a shout, the LORD with the sound of a trumpet.",
+      "ct": "God has ascended with a shout; the LORD has risen to the blast of a trumpet."
+    },
+    {
+      "verse": 6,
+      "kjv": "Sing praises to God, sing praises: sing praises unto our King, sing praises.",
+      "ct": "Sing praises to God, sing praises! Sing praises to our King, sing praises!"
+    },
+    {
+      "verse": 7,
+      "kjv": "For God is the King of all the earth: sing ye praises with understanding.",
+      "ct": "Because God is King over the whole earth — sing praises with understanding."
+    },
+    {
+      "verse": 8,
+      "kjv": "God reigneth over the heathen: God sitteth upon the throne of his holiness.",
+      "ct": "God rules over the nations; God sits on his holy throne."
+    },
+    {
+      "verse": 9,
+      "kjv": "The princes of the people are gathered together, even the people of the God of Abraham: for the shields of the earth belong unto God: he is greatly exalted.",
+      "ct": "The rulers of the nations have assembled together as the people of the God of Abraham, because the protectors of the earth belong to God. He is exalted above all."
+    }
+  ]
+}

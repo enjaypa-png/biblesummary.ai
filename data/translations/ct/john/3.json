@@ -1,0 +1,190 @@
+{
+  "book": "john",
+  "book_name": "John",
+  "chapter": 3,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.355Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "There was a man of the Pharisees, named Nicodemus, a ruler of the Jews:",
+      "ct": "There was a man named Nicodemus, a Pharisee and a member of the Jewish ruling council."
+    },
+    {
+      "verse": 2,
+      "kjv": "The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him.",
+      "ct": "He came to Jesus at night and said, \"Rabbi, we know that you are a teacher sent from God, because no one could perform the miraculous signs you do unless God were with him.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.",
+      "ct": "Jesus replied, \"Truly, truly, I tell you — unless a person is born again, they cannot see the kingdom of God.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother’s womb, and be born?",
+      "ct": "Nicodemus asked him, \"How is it possible for someone to be born when they're already old? They can't go back into their mother's womb a 2nd time and be born, can they?\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.",
+      "ct": "Jesus answered, \"Truly, truly, I tell you — unless a person is born of water and the Spirit, they cannot enter the kingdom of God.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "That which is born of the flesh is flesh; and that which is born of the Spirit is spirit.",
+      "ct": "What is born from the flesh is flesh, and what is born from the Spirit is spirit."
+    },
+    {
+      "verse": 7,
+      "kjv": "Marvel not that I said unto thee, Ye must be born again.",
+      "ct": "Don't be surprised that I told you, 'You must be born again.'"
+    },
+    {
+      "verse": 8,
+      "kjv": "The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit.",
+      "ct": "The wind blows wherever it wants to. You hear its sound, but you don't know where it comes from or where it's going. That's how it is with everyone born of the Spirit.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Nicodemus answered and said unto him, How can these things be?",
+      "ct": "Nicodemus responded, \"How is any of this possible?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Jesus answered and said unto him, Art thou a master of Israel, and knowest not these things?",
+      "ct": "Jesus said to him, \"You're a respected teacher of Israel, and you don't understand these things?"
+    },
+    {
+      "verse": 11,
+      "kjv": "Verily, verily, I say unto thee, We speak that we do know, and testify that we have seen; and ye receive not our witness.",
+      "ct": "Truly, truly, I tell you — we speak about what we know, and we testify about what we've seen, yet you people don't accept our testimony."
+    },
+    {
+      "verse": 12,
+      "kjv": "If I have told you earthly things, and ye believe not, how shall ye believe, if I tell you of heavenly things?",
+      "ct": "If I've explained things about this world to you and you don't believe, how will you believe if I explain things about heaven?"
+    },
+    {
+      "verse": 13,
+      "kjv": "And no man hath ascended up to heaven, but he that came down from heaven, even the Son of man which is in heaven.",
+      "ct": "No one has gone up to heaven except the one who came down from heaven — the Son of Man, who is in heaven."
+    },
+    {
+      "verse": 14,
+      "kjv": "And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up:",
+      "ct": "Just as Moses raised up the serpent in the wilderness, the Son of Man must also be raised up,"
+    },
+    {
+      "verse": 15,
+      "kjv": "That whosoever believeth in him should not perish, but have eternal life.",
+      "ct": "so that everyone who believes in him will not be destroyed but will have eternal life."
+    },
+    {
+      "verse": 16,
+      "kjv": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+      "ct": "For God loved the world so much that he gave his one and only Son, so that everyone who believes in him will not be destroyed but will have everlasting life."
+    },
+    {
+      "verse": 17,
+      "kjv": "For God sent not his Son into the world to condemn the world; but that the world through him might be saved.",
+      "ct": "God didn't send his Son into the world to condemn it, but so that the world could be saved through him."
+    },
+    {
+      "verse": 18,
+      "kjv": "He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.",
+      "ct": "Whoever believes in him is not condemned. But whoever doesn't believe stands condemned already, because they haven't put their trust in the name of God's one and only Son."
+    },
+    {
+      "verse": 19,
+      "kjv": "And this is the condemnation, that light is come into the world, and men loved darkness rather than light, because their deeds were evil.",
+      "ct": "This is the basis for condemnation: the light came into the world, but people preferred the darkness over the light because their actions were evil."
+    },
+    {
+      "verse": 20,
+      "kjv": "For every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved.",
+      "ct": "Everyone who does evil hates the light and avoids it, so that their actions won't be exposed."
+    },
+    {
+      "verse": 21,
+      "kjv": "But he that doeth truth cometh to the light, that his deeds may be made manifest, that they are wrought in God.",
+      "ct": "But whoever lives by the truth comes toward the light, so that it becomes clear their actions have been carried out through God.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "After these things came Jesus and his disciples into the land of Judaea; and there he tarried with them, and baptized.",
+      "ct": "After this, Jesus and his disciples went into the Judean countryside, where he spent time with them and baptized people."
+    },
+    {
+      "verse": 23,
+      "kjv": "And John also was baptizing in Aenon near to Salim, because there was much water there: and they came, and were baptized.",
+      "ct": "John was also baptizing at Aenon, near Salim, because there was plenty of water there. People kept coming and being baptized,"
+    },
+    {
+      "verse": 24,
+      "kjv": "For John was not yet cast into prison.",
+      "ct": "since John had not yet been thrown into prison."
+    },
+    {
+      "verse": 25,
+      "kjv": "Then there arose a question between some of John’s disciples and the Jews about purifying.",
+      "ct": "A dispute arose between some of John's disciples and a Jewish man about ceremonial washing."
+    },
+    {
+      "verse": 26,
+      "kjv": "And they came unto John, and said unto him, Rabbi, he that was with thee beyond Jordan, to whom thou barest witness, behold, the same baptizeth, and all men come to him.",
+      "ct": "They went to John and said, \"Rabbi, the man who was with you on the other side of the Jordan — the one you testified about — look, he's baptizing now, and everyone is going to him.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "John answered and said, A man can receive nothing, except it be given him from heaven.",
+      "ct": "John replied, \"A person can only receive what is given to them from heaven."
+    },
+    {
+      "verse": 28,
+      "kjv": "Ye yourselves bear me witness, that I said, I am not the Christ, but that I am sent before him.",
+      "ct": "You yourselves can confirm that I said, 'I am not the Christ, but I have been sent ahead of him.'"
+    },
+    {
+      "verse": 29,
+      "kjv": "He that hath the bride is the bridegroom: but the friend of the bridegroom, which standeth and heareth him, rejoiceth greatly because of the bridegroom’s voice: this my joy therefore is fulfilled.",
+      "ct": "The groom is the one who has the bride. The groom's friend stands nearby and listens, and he's overjoyed when he hears the groom's voice. That is my joy, and it is now complete."
+    },
+    {
+      "verse": 30,
+      "kjv": "He must increase, but I must decrease.",
+      "ct": "He must become greater, and I must become less."
+    },
+    {
+      "verse": 31,
+      "kjv": "He that cometh from above is above all: he that is of the earth is earthly, and speaketh of the earth: he that cometh from heaven is above all.",
+      "ct": "The one who comes from above is above everything. The one who belongs to the earth is earthly and speaks from an earthly perspective. The one who comes from heaven is above everything."
+    },
+    {
+      "verse": 32,
+      "kjv": "And what he hath seen and heard, that he testifieth; and no man receiveth his testimony.",
+      "ct": "He testifies about what he has seen and heard, yet no one accepts his testimony."
+    },
+    {
+      "verse": 33,
+      "kjv": "He that hath received his testimony hath set to his seal that God is true.",
+      "ct": "Whoever does accept his testimony has confirmed that God is truthful."
+    },
+    {
+      "verse": 34,
+      "kjv": "For he whom God hath sent speaketh the words of God: for God giveth not the Spirit by measure unto him.",
+      "ct": "The one God has sent speaks God's words, because God gives the Spirit to him without limit."
+    },
+    {
+      "verse": 35,
+      "kjv": "The Father loveth the Son, and hath given all things into his hand.",
+      "ct": "The Father loves the Son and has placed everything in his hands."
+    },
+    {
+      "verse": 36,
+      "kjv": "He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him.",
+      "ct": "Whoever believes in the Son has everlasting life. But whoever rejects the Son will not experience life — instead, God's wrath remains on them."
+    }
+  ]
+}

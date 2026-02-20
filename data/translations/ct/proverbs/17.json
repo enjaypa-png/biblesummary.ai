@@ -1,0 +1,150 @@
+{
+  "book": "proverbs",
+  "book_name": "Proverbs",
+  "chapter": 17,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.045Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Better is a dry morsel, and quietness therewith, than an house full of sacrifices with strife.",
+      "ct": "A stale crust of bread eaten in peace is better than a house full of feasting with conflict."
+    },
+    {
+      "verse": 2,
+      "kjv": "A wise servant shall have rule over a son that causeth shame, and shall have part of the inheritance among the brethren.",
+      "ct": "A wise servant will gain authority over a disgraceful son and will share in the inheritance among the brothers."
+    },
+    {
+      "verse": 3,
+      "kjv": "The fining pot is for silver, and the furnace for gold: but the LORD trieth the hearts.",
+      "ct": "The crucible tests silver and the furnace tests gold, but the LORD tests hearts."
+    },
+    {
+      "verse": 4,
+      "kjv": "A wicked doer giveth heed to false lips; and a liar giveth ear to a naughty tongue.",
+      "ct": "An evildoer pays attention to destructive talk, and a liar listens eagerly to a malicious tongue."
+    },
+    {
+      "verse": 5,
+      "kjv": "Whoso mocketh the poor reproacheth his Maker: and he that is glad at calamities shall not be unpunished.",
+      "ct": "Whoever mocks the poor insults their Maker, and anyone who celebrates disaster will not escape punishment."
+    },
+    {
+      "verse": 6,
+      "kjv": "Children’s children are the crown of old men; and the glory of children are their fathers.",
+      "ct": "Grandchildren are the pride of the elderly, and the glory of children is their parents."
+    },
+    {
+      "verse": 7,
+      "kjv": "Excellent speech becometh not a fool: much less do lying lips a prince.",
+      "ct": "Eloquent speech doesn't fit a fool — how much less do lying lips fit a ruler."
+    },
+    {
+      "verse": 8,
+      "kjv": "A gift is as a precious stone in the eyes of him that hath it: whithersoever it turneth, it prospereth.",
+      "ct": "A bribe works like a magic charm for the one who gives it; wherever he turns, he succeeds."
+    },
+    {
+      "verse": 9,
+      "kjv": "He that covereth a transgression seeketh love; but he that repeateth a matter separateth very friends.",
+      "ct": "Whoever forgives an offense builds love, but whoever keeps bringing it up drives close friends apart."
+    },
+    {
+      "verse": 10,
+      "kjv": "A reproof entereth more into a wise man than an hundred stripes into a fool.",
+      "ct": "A single correction impacts a wise person more deeply than 100 lashes affect a fool."
+    },
+    {
+      "verse": 11,
+      "kjv": "An evil man seeketh only rebellion: therefore a cruel messenger shall be sent against him.",
+      "ct": "A rebellious person looks only for trouble, so a merciless agent will be sent against him."
+    },
+    {
+      "verse": 12,
+      "kjv": "Let a bear robbed of her whelps meet a man, rather than a fool in his folly.",
+      "ct": "Better to run into a mother bear whose cubs have been taken than to encounter a fool caught up in his stupidity."
+    },
+    {
+      "verse": 13,
+      "kjv": "Whoso rewardeth evil for good, evil shall not depart from his house.",
+      "ct": "Whoever repays good with evil will never see trouble leave his household."
+    },
+    {
+      "verse": 14,
+      "kjv": "The beginning of strife is as when one letteth out water: therefore leave off contention, before it be meddled with.",
+      "ct": "Starting a quarrel is like opening a floodgate — so walk away from the dispute before it erupts."
+    },
+    {
+      "verse": 15,
+      "kjv": "He that justifieth the wicked, and he that condemneth the just, even they both are abomination to the LORD.",
+      "ct": "Acquitting the guilty and condemning the innocent — the LORD detests them both."
+    },
+    {
+      "verse": 16,
+      "kjv": "Wherefore is there a price in the hand of a fool to get wisdom, seeing he hath no heart to it?",
+      "ct": "What good is money in a fool's hand to buy wisdom when he has no desire to learn?"
+    },
+    {
+      "verse": 17,
+      "kjv": "A friend loveth at all times, and a brother is born for adversity.",
+      "ct": "A true friend shows love at all times, and a brother is born to help in times of hardship."
+    },
+    {
+      "verse": 18,
+      "kjv": "A man void of understanding striketh hands, and becometh surety in the presence of his friend.",
+      "ct": "A person who lacks sense shakes hands on a deal and puts up collateral for someone else's debt."
+    },
+    {
+      "verse": 19,
+      "kjv": "He loveth transgression that loveth strife: and he that exalteth his gate seeketh destruction.",
+      "ct": "Whoever loves conflict loves sin, and whoever builds his gate high invites destruction."
+    },
+    {
+      "verse": 20,
+      "kjv": "He that hath a froward heart findeth no good: and he that hath a perverse tongue falleth into mischief.",
+      "ct": "A person with a twisted mind will never find success, and someone with a deceitful tongue will fall into trouble."
+    },
+    {
+      "verse": 21,
+      "kjv": "He that begetteth a fool doeth it to his sorrow: and the father of a fool hath no joy.",
+      "ct": "The parent of a fool has nothing but grief; there is no joy in fathering a senseless child."
+    },
+    {
+      "verse": 22,
+      "kjv": "A merry heart doeth good like a medicine: but a broken spirit drieth the bones.",
+      "ct": "A joyful heart is great medicine, but a crushed spirit dries up the bones."
+    },
+    {
+      "verse": 23,
+      "kjv": "A wicked man taketh a gift out of the bosom to pervert the ways of judgment.",
+      "ct": "A corrupt person secretly accepts a bribe to twist the course of justice."
+    },
+    {
+      "verse": 24,
+      "kjv": "Wisdom is before him that hath understanding; but the eyes of a fool are in the ends of the earth.",
+      "ct": "Wisdom stays right in front of a person who has understanding, but a fool's attention wanders to the far corners of the earth."
+    },
+    {
+      "verse": 25,
+      "kjv": "A foolish son is a grief to his father, and bitterness to her that bare him.",
+      "ct": "A foolish son brings grief to his father and bitter pain to the mother who gave birth to him."
+    },
+    {
+      "verse": 26,
+      "kjv": "Also to punish the just is not good, nor to strike princes for equity.",
+      "ct": "It is wrong to punish an innocent person, and it is wrong to flog honorable leaders for their integrity."
+    },
+    {
+      "verse": 27,
+      "kjv": "He that hath knowledge spareth his words: and a man of understanding is of an excellent spirit.",
+      "ct": "A person with knowledge uses few words, and someone with understanding keeps a calm temperament."
+    },
+    {
+      "verse": 28,
+      "kjv": "Even a fool, when he holdeth his peace, is counted wise: and he that shutteth his lips is esteemed a man of understanding.",
+      "ct": "Even a fool who stays quiet is considered wise; keeping your mouth shut makes you seem intelligent."
+    }
+  ]
+}

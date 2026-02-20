@@ -1,0 +1,160 @@
+{
+  "book": "acts",
+  "book_name": "Acts",
+  "chapter": 11,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.384Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the apostles and brethren that were in Judaea heard that the Gentiles had also received the word of God.",
+      "ct": "The apostles and the brothers throughout Judaea received news that non-Jewish people had also accepted God's message."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when Peter was come up to Jerusalem, they that were of the circumcision contended with him,",
+      "ct": "When Peter went up to Jerusalem, those who insisted on circumcision confronted him."
+    },
+    {
+      "verse": 3,
+      "kjv": "Saying, Thou wentest in to men uncircumcised, and didst eat with them.",
+      "ct": "They said, \"You visited uncircumcised people and even shared meals with them!\""
+    },
+    {
+      "verse": 4,
+      "kjv": "But Peter rehearsed the matter from the beginning, and expounded it by order unto them, saying,",
+      "ct": "So Peter explained everything to them step by step from the very start."
+    },
+    {
+      "verse": 5,
+      "kjv": "I was in the city of Joppa praying: and in a trance I saw a vision, A certain vessel descend, as it had been a great sheet, let down from heaven by four corners; and it came even to me:",
+      "ct": "\"I was praying in the city of Joppa when I fell into a trance and had a vision. Something like a huge sheet was being lowered down from heaven by its 4 corners, and it came right down to where I was."
+    },
+    {
+      "verse": 6,
+      "kjv": "Upon the which when I had fastened mine eyes, I considered, and saw fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls of the air.",
+      "ct": "I stared at it closely and saw 4-legged animals, wild creatures, reptiles, and birds."
+    },
+    {
+      "verse": 7,
+      "kjv": "And I heard a voice saying unto me, Arise, Peter; slay and eat.",
+      "ct": "Then I heard a voice telling me, 'Get up, Peter. Kill these and eat.'"
+    },
+    {
+      "verse": 8,
+      "kjv": "But I said, Not so, Lord: for nothing common or unclean hath at any time entered into my mouth.",
+      "ct": "But I replied, 'Absolutely not, Lord! Nothing impure or ritually unclean has ever touched my lips.'"
+    },
+    {
+      "verse": 9,
+      "kjv": "But the voice answered me again from heaven, What God hath cleansed, that call not thou common.",
+      "ct": "The voice from heaven spoke a second time: 'Don't call anything impure that God has made clean.'"
+    },
+    {
+      "verse": 10,
+      "kjv": "And this was done three times: and all were drawn up again into heaven.",
+      "ct": "This happened 3 times, and then the whole thing was pulled back up into heaven."
+    },
+    {
+      "verse": 11,
+      "kjv": "And, behold, immediately there were three men already come unto the house where I was, sent from Caesarea unto me.",
+      "ct": "Right at that moment, 3 men who had been sent to me from Caesarea arrived at the house where I was staying."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the Spirit bade me go with them, nothing doubting. Moreover these six brethren accompanied me, and we entered into the man’s house:",
+      "ct": "The Spirit told me to go with them without any hesitation. These 6 brothers here came along with me, and we went into the man's house."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he shewed us how he had seen an angel in his house, which stood and said unto him, Send men to Joppa, and call for Simon, whose surname is Peter;",
+      "ct": "He told us how he had seen an angel appear in his home, who said to him, 'Send men to Joppa and bring back Simon, who is also called Peter."
+    },
+    {
+      "verse": 14,
+      "kjv": "Who shall tell thee words, whereby thou and all thy house shall be saved.",
+      "ct": "He will share a message with you through which you and everyone in your household will be saved.'"
+    },
+    {
+      "verse": 15,
+      "kjv": "And as I began to speak, the Holy Ghost fell on them, as on us at the beginning.",
+      "ct": "As I started speaking, the Holy Spirit came down on them exactly the way it had come on us at the very beginning."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then remembered I the word of the Lord, how that he said, John indeed baptized with water; but ye shall be baptized with the Holy Ghost.",
+      "ct": "Then I remembered what the Lord had said: 'John baptized with water, but you will be baptized with the Holy Spirit.'"
+    },
+    {
+      "verse": 17,
+      "kjv": "Forasmuch then as God gave them the like gift as he did unto us, who believed on the Lord Jesus Christ; what was I, that I could withstand God?",
+      "ct": "So if God gave them the identical gift he gave us when we put our trust in the Lord Jesus Christ, who was I to stand in God's way?\""
+    },
+    {
+      "verse": 18,
+      "kjv": "When they heard these things, they held their peace, and glorified God, saying, Then hath God also to the Gentiles granted repentance unto life.",
+      "ct": "After hearing this, they stopped objecting and praised God, saying, \"So God has given even the Gentiles the opportunity to turn to him and receive life!\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Now they which were scattered abroad upon the persecution that arose about Stephen travelled as far as Phenice, and Cyprus, and Antioch, preaching the word to none but unto the Jews only.",
+      "ct": "Meanwhile, those who had been scattered because of the persecution triggered by Stephen's death traveled as far as Phoenice, Cyprus, and Antioch, but they shared the message only with Jewish people."
+    },
+    {
+      "verse": 20,
+      "kjv": "And some of them were men of Cyprus and Cyrene, which, when they were come to Antioch, spake unto the Grecians, preaching the LORD Jesus.",
+      "ct": "However, some of them from Cyprus and Cyrene went to Antioch and spoke to Greek-speaking non-Jews as well, telling them the good news about the Lord Jesus."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the hand of the Lord was with them: and a great number believed, and turned unto the Lord.",
+      "ct": "The Lord's power was with them, and a large number of people came to believe and turned to the Lord."
+    },
+    {
+      "verse": 22,
+      "kjv": "Then tidings of these things came unto the ears of the church which was in Jerusalem: and they sent forth Barnabas, that he should go as far as Antioch.",
+      "ct": "Word about this reached the church in Jerusalem, so they sent Barnabas to Antioch."
+    },
+    {
+      "verse": 23,
+      "kjv": "Who, when he came, and had seen the grace of God, was glad, and exhorted them all, that with purpose of heart they would cleave unto the Lord.",
+      "ct": "When he arrived and saw the evidence of God's grace, he was overjoyed and encouraged all of them to stay devoted to the Lord with all their hearts."
+    },
+    {
+      "verse": 24,
+      "kjv": "For he was a good man, and full of the Holy Ghost and of faith: and much people was added unto the Lord.",
+      "ct": "Barnabas was a good man, filled with the Holy Spirit and with faith, and a significant number of people were brought to the Lord."
+    },
+    {
+      "verse": 25,
+      "kjv": "Then departed Barnabas to Tarsus, for to seek Saul:",
+      "ct": "Then Barnabas left for Tarsus to look for Saul."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when he had found him, he brought him unto Antioch. And it came to pass, that a whole year they assembled themselves with the church, and taught much people. And the disciples were called Christians first in Antioch.",
+      "ct": "After finding him, he brought him back to Antioch. For an entire year, the two of them met with the church and taught large crowds. It was in Antioch that the followers were first called Christians."
+    },
+    {
+      "verse": 27,
+      "kjv": "And in these days came prophets from Jerusalem unto Antioch.",
+      "ct": "During this time, some prophets came down from Jerusalem to Antioch."
+    },
+    {
+      "verse": 28,
+      "kjv": "And there stood up one of them named Agabus, and signified by the Spirit that there should be great dearth throughout all the world: which came to pass in the days of Claudius Caesar.",
+      "ct": "One of them, named Agabus, stood up and predicted through the Spirit that a severe famine would spread across the entire Roman world. This actually happened during the reign of Emperor Claudius."
+    },
+    {
+      "verse": 29,
+      "kjv": "Then the disciples, every man according to his ability, determined to send relief unto the brethren which dwelt in Judaea:",
+      "ct": "So the disciples each decided to contribute whatever they could afford to send aid to the brothers living in Judaea."
+    },
+    {
+      "verse": 30,
+      "kjv": "Which also they did, and sent it to the elders by the hands of Barnabas and Saul.",
+      "ct": "They followed through on this and sent their contributions to the elders through Barnabas and Saul."
+    }
+  ]
+}

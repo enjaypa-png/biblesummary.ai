@@ -1,0 +1,100 @@
+{
+  "book": "ecclesiastes",
+  "book_name": "Ecclesiastes",
+  "chapter": 1,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.058Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The words of the Preacher, the son of David, king in Jerusalem.",
+      "ct": "These are the words of the Teacher, a descendant of David, who ruled as king in Jerusalem."
+    },
+    {
+      "verse": 2,
+      "kjv": "Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity.",
+      "ct": "\"Absolutely meaningless!\" says the Teacher. \"Absolutely meaningless! Everything is meaningless.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "What profit hath a man of all his labour which he taketh under the sun?",
+      "ct": "What does anyone actually gain from all the hard work they put in during their life?"
+    },
+    {
+      "verse": 4,
+      "kjv": "One generation passeth away, and another generation cometh: but the earth abideth for ever.",
+      "ct": "One generation dies off and the next one arrives, but the earth just keeps going forever."
+    },
+    {
+      "verse": 5,
+      "kjv": "The sun also ariseth, and the sun goeth down, and hasteth to his place where he arose.",
+      "ct": "The sun comes up and the sun goes down, then rushes back to the place where it rises again."
+    },
+    {
+      "verse": 6,
+      "kjv": "The wind goeth toward the south, and turneth about unto the north; it whirleth about continually, and the wind returneth again according to his circuits.",
+      "ct": "The wind blows south, then swings around to the north. It spins around and around, always circling back on its same path."
+    },
+    {
+      "verse": 7,
+      "kjv": "All the rivers run into the sea; yet the sea is not full; unto the place from whence the rivers come, thither they return again.",
+      "ct": "Every river flows into the ocean, yet the ocean never overflows. The water returns to where the rivers began, and the cycle starts over."
+    },
+    {
+      "verse": 8,
+      "kjv": "All things are full of labour; man cannot utter it: the eye is not satisfied with seeing, nor the ear filled with hearing.",
+      "ct": "Everything is wearisome — more than anyone can express. The eye never gets enough of seeing, and the ear never gets enough of hearing."
+    },
+    {
+      "verse": 9,
+      "kjv": "The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.",
+      "ct": "Whatever has already happened is what will happen again. Whatever has already been done is what will be done again. There is nothing new under the sun."
+    },
+    {
+      "verse": 10,
+      "kjv": "Is there any thing whereof it may be said, See, this is new? it hath been already of old time, which was before us.",
+      "ct": "Can anyone point to something and say, \"Look, this is new\"? It already existed long ago, in the ages before us."
+    },
+    {
+      "verse": 11,
+      "kjv": "There is no remembrance of former things; neither shall there be any remembrance of things that are to come with those that shall come after.",
+      "ct": "No one remembers the people of the past, and future generations won't be remembered either by those who come after them."
+    },
+    {
+      "verse": 12,
+      "kjv": "I the Preacher was king over Israel in Jerusalem.",
+      "ct": "I, the Teacher, served as king over Israel in Jerusalem."
+    },
+    {
+      "verse": 13,
+      "kjv": "And I gave my heart to seek and search out by wisdom concerning all things that are done under heaven: this sore travail hath God given to the sons of man to be exercised therewith.",
+      "ct": "I dedicated myself to studying and exploring through wisdom everything that happens under heaven. This is a heavy burden that God has placed on human beings to struggle with."
+    },
+    {
+      "verse": 14,
+      "kjv": "I have seen all the works that are done under the sun; and, behold, all is vanity and vexation of spirit.",
+      "ct": "I have observed everything that is done under the sun, and look — it is all meaningless, like chasing after the wind."
+    },
+    {
+      "verse": 15,
+      "kjv": "That which is crooked cannot be made straight: and that which is wanting cannot be numbered.",
+      "ct": "What is twisted cannot be straightened, and what is missing cannot be counted."
+    },
+    {
+      "verse": 16,
+      "kjv": "I communed with mine own heart, saying, Lo, I am come to great estate, and have gotten more wisdom than all they that have been before me in Jerusalem: yea, my heart had great experience of wisdom and knowledge.",
+      "ct": "I said to myself, \"I have achieved greatness and accumulated more wisdom than anyone who ruled Jerusalem before me. My mind has taken in an enormous amount of wisdom and knowledge.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And I gave my heart to know wisdom, and to know madness and folly: I perceived that this also is vexation of spirit.",
+      "ct": "So I devoted myself to understanding wisdom, and also to understanding foolishness and stupidity. But I realized that this too is like chasing after the wind."
+    },
+    {
+      "verse": 18,
+      "kjv": "For in much wisdom is much grief: and he that increaseth knowledge increaseth sorrow.",
+      "ct": "Because the more wisdom you gain, the more grief you experience, and the more knowledge you acquire, the more sorrow increases."
+    }
+  ]
+}

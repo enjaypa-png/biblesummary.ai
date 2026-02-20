@@ -1,0 +1,35 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 93,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.997Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The LORD reigneth, he is clothed with majesty; the LORD is clothed with strength, wherewith he hath girded himself: the world also is stablished, that it cannot be moved.",
+      "ct": "The LORD is king! He wraps himself in majesty; the LORD wraps himself in strength and has prepared himself for action. The earth stands firm and cannot be shaken."
+    },
+    {
+      "verse": 2,
+      "kjv": "Thy throne is established of old: thou art from everlasting.",
+      "ct": "Your throne was set in place long ago; you have existed for all eternity."
+    },
+    {
+      "verse": 3,
+      "kjv": "The floods have lifted up, O LORD, the floods have lifted up their voice; the floods lift up their waves.",
+      "ct": "The rivers have risen, LORD, the rivers have raised their roar; the rivers surge with crashing waves."
+    },
+    {
+      "verse": 4,
+      "kjv": "The LORD on high is mightier than the noise of many waters, yea, than the mighty waves of the sea.",
+      "ct": "Yet the LORD above is more powerful than the thundering of great waters, more powerful than the mighty breakers of the sea."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thy testimonies are very sure: holiness becometh thine house, O LORD, for ever.",
+      "ct": "Your instructions are completely trustworthy; holiness defines your house, LORD, for all time."
+    }
+  ]
+}

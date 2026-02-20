@@ -1,0 +1,80 @@
+{
+  "book": "1-peter",
+  "book_name": "1 Peter",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.483Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The elders which are among you I exhort, who am also an elder, and a witness of the sufferings of Christ, and also a partaker of the glory that shall be revealed:",
+      "ct": "I'm appealing to the elders among you as a fellow elder myself, as someone who witnessed Christ's sufferings, and as someone who will share in the glory that is going to be revealed."
+    },
+    {
+      "verse": 2,
+      "kjv": "Feed the flock of God which is among you, taking the oversight thereof, not by constraint, but willingly; not for filthy lucre, but of a ready mind;",
+      "ct": "Shepherd God's flock that is in your care. Serve as their overseers — not because you have to, but because you want to. Don't do it for the money, but out of genuine eagerness."
+    },
+    {
+      "verse": 3,
+      "kjv": "Neither as being lords over God’s heritage, but being ensamples to the flock.",
+      "ct": "Don't act like tyrants over the people God has entrusted to you. Instead, be examples for the flock to follow."
+    },
+    {
+      "verse": 4,
+      "kjv": "And when the chief Shepherd shall appear, ye shall receive a crown of glory that fadeth not away.",
+      "ct": "When the chief Shepherd appears, you will receive a crown of glory that will never fade."
+    },
+    {
+      "verse": 5,
+      "kjv": "Likewise, ye younger, submit yourselves unto the elder. Yea, all of you be subject one to another, and be clothed with humility: for God resisteth the proud, and giveth grace to the humble.",
+      "ct": "In the same way, those of you who are younger, place yourselves under the authority of the elders. All of you should serve one another and wrap yourselves in humility, because God opposes the proud but gives grace to the humble."
+    },
+    {
+      "verse": 6,
+      "kjv": "Humble yourselves therefore under the mighty hand of God, that he may exalt you in due time:",
+      "ct": "So humble yourselves under God's mighty hand, and he will lift you up at the right time."
+    },
+    {
+      "verse": 7,
+      "kjv": "Casting all your care upon him; for he careth for you.",
+      "ct": "Turn all your worries over to him, because he cares about you."
+    },
+    {
+      "verse": 8,
+      "kjv": "Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour:",
+      "ct": "Stay clear-headed and alert. Your enemy the devil prowls around like a roaring lion, looking for someone to consume."
+    },
+    {
+      "verse": 9,
+      "kjv": "Whom resist stedfast in the faith, knowing that the same afflictions are accomplished in your brethren that are in the world.",
+      "ct": "Stand firm against him, solid in your faith, knowing that your brothers and sisters throughout the world are going through the same kinds of suffering."
+    },
+    {
+      "verse": 10,
+      "kjv": "But the God of all grace, who hath called us unto his eternal glory by Christ Jesus, after that ye have suffered a while, make you perfect, stablish, strengthen, settle you.",
+      "ct": "The God of all grace, who called you into his eternal glory through Christ Jesus — after you have suffered for a little while, he himself will restore you, establish you, strengthen you, and place you on a firm foundation."
+    },
+    {
+      "verse": 11,
+      "kjv": "To him be glory and dominion for ever and ever. Amen.",
+      "ct": "To him belong glory and dominion forever and ever. Amen."
+    },
+    {
+      "verse": 12,
+      "kjv": "By Silvanus, a faithful brother unto you, as I suppose, I have written briefly, exhorting, and testifying that this is the true grace of God wherein ye stand.",
+      "ct": "Through Silvanus, whom I consider a faithful brother, I have written this brief letter to encourage you and to confirm that this is the true grace of God. Stand firm in it."
+    },
+    {
+      "verse": 13,
+      "kjv": "The church that is at Babylon, elected together with you, saluteth you; and so doth Marcus my son.",
+      "ct": "The church in Babylon, chosen together with you, sends you greetings, and so does my son Marcus."
+    },
+    {
+      "verse": 14,
+      "kjv": "Greet ye one another with a kiss of charity. Peace be with you all that are in Christ Jesus. Amen.",
+      "ct": "Greet each other with a kiss of love. Peace to all of you who are in Christ Jesus. Amen."
+    }
+  ]
+}

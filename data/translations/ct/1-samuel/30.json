@@ -1,0 +1,165 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 30,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.735Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, when David and his men were come to Ziklag on the third day, that the Amalekites had invaded the south, and Ziklag, and smitten Ziklag, and burned it with fire;",
+      "ct": "On the 3rd day, when David and his men arrived back at Ziklag, the Amalekites had raided the southern region, including Ziklag. They had attacked Ziklag and burned it to the ground."
+    },
+    {
+      "verse": 2,
+      "kjv": "And had taken the women captives, that were therein: they slew not any, either great or small, but carried them away, and went on their way.",
+      "ct": "They had captured all the women and everyone else who was there. They didn't kill anyone, young or old, but took them all as prisoners and left."
+    },
+    {
+      "verse": 3,
+      "kjv": "So David and his men came to the city, and, behold, it was burned with fire; and their wives, and their sons, and their daughters, were taken captives.",
+      "ct": "When David and his men reached the town, they found it burned down, and their wives, sons, and daughters had been taken captive."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then David and the people that were with him lifted up their voice and wept, until they had no more power to weep.",
+      "ct": "David and everyone with him broke down crying. They wept until they had no strength left to cry anymore."
+    },
+    {
+      "verse": 5,
+      "kjv": "And David’s two wives were taken captives, Ahinoam the Jezreelitess, and Abigail the wife of Nabal the Carmelite.",
+      "ct": "David's 2 wives had been taken — Ahinoam from Jezreel and Abigail, the widow of Nabal from Carmel."
+    },
+    {
+      "verse": 6,
+      "kjv": "And David was greatly distressed; for the people spake of stoning him, because the soul of all the people was grieved, every man for his sons and for his daughters: but David encouraged himself in the LORD his God.",
+      "ct": "David was in serious trouble because the men were talking about stoning him. Every one of them was bitter with grief over their sons and daughters. But David found strength in the LORD his God."
+    },
+    {
+      "verse": 7,
+      "kjv": "And David said to Abiathar the priest, Ahimelech’s son, I pray thee, bring me hither the ephod. And Abiathar brought thither the ephod to David.",
+      "ct": "David told the priest Abiathar, son of Ahimelech, \"Please bring me the ephod.\" So Abiathar brought the ephod to David."
+    },
+    {
+      "verse": 8,
+      "kjv": "And David enquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all.",
+      "ct": "David asked the LORD, \"Should I go after this raiding party? Will I catch them?\" The LORD answered him, \"Go after them. You will definitely catch them and rescue everyone.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "So David went, he and the six hundred men that were with him, and came to the brook Besor, where those that were left behind stayed.",
+      "ct": "So David set out with his 600 men. When they reached the brook Besor, some of the men stayed behind there."
+    },
+    {
+      "verse": 10,
+      "kjv": "But David pursued, he and four hundred men: for two hundred abode behind, which were so faint that they could not go over the brook Besor.",
+      "ct": "David continued the pursuit with 400 men, while 200 stayed behind because they were too exhausted to cross the brook Besor."
+    },
+    {
+      "verse": 11,
+      "kjv": "And they found an Egyptian in the field, and brought him to David, and gave him bread, and he did eat; and they made him drink water;",
+      "ct": "They found an Egyptian man out in a field and brought him to David. They gave him bread to eat and water to drink."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they gave him a piece of a cake of figs, and two clusters of raisins: and when he had eaten, his spirit came again to him: for he had eaten no bread, nor drunk any water, three days and three nights.",
+      "ct": "They also gave him a piece of a fig cake and 2 clusters of raisins. After he ate, his strength returned, because he hadn't eaten any food or had any water for 3 days and 3 nights."
+    },
+    {
+      "verse": 13,
+      "kjv": "And David said unto him, To whom belongest thou? and whence art thou? And he said, I am a young man of Egypt, servant to an Amalekite; and my master left me, because three days agone I fell sick.",
+      "ct": "David asked him, \"Who do you belong to? Where are you from?\" He replied, \"I'm a young Egyptian man, a servant of an Amalekite. My master abandoned me 3 days ago when I got sick.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "We made an invasion upon the south of the Cherethites, and upon the coast which belongeth to Judah, and upon the south of Caleb; and we burned Ziklag with fire.",
+      "ct": "\"We raided the southern territory of the Cherethites, the region belonging to Judah, and the southern territory of Caleb. We also burned Ziklag down.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And David said to him, Canst thou bring me down to this company? And he said, Swear unto me by God, that thou wilt neither kill me, nor deliver me into the hands of my master, and I will bring thee down to this company.",
+      "ct": "David asked him, \"Can you lead me to this raiding party?\" He answered, \"Swear to me by God that you won't kill me or hand me back over to my master, and I'll lead you to them.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And when he had brought him down, behold, they were spread abroad upon all the earth, eating and drinking, and dancing, because of all the great spoil that they had taken out of the land of the Philistines, and out of the land of Judah.",
+      "ct": "When he led them there, the Amalekites were scattered all across the area, eating, drinking, and celebrating because of all the plunder they had taken from the land of the Philistines and the land of Judah."
+    },
+    {
+      "verse": 17,
+      "kjv": "And David smote them from the twilight even unto the evening of the next day: and there escaped not a man of them, save four hundred young men, which rode upon camels, and fled.",
+      "ct": "David attacked them from dusk until the evening of the next day. Not one of them escaped except 400 young men who jumped on camels and fled."
+    },
+    {
+      "verse": 18,
+      "kjv": "And David recovered all that the Amalekites had carried away: and David rescued his two wives.",
+      "ct": "David recovered everything the Amalekites had taken, and he rescued his 2 wives."
+    },
+    {
+      "verse": 19,
+      "kjv": "And there was nothing lacking to them, neither small nor great, neither sons nor daughters, neither spoil, nor any thing that they had taken to them: David recovered all.",
+      "ct": "Nothing was missing — not a single person, young or old, no sons or daughters, none of the plunder, nothing at all that had been taken. David got everything back."
+    },
+    {
+      "verse": 20,
+      "kjv": "And David took all the flocks and the herds, which they drave before those other cattle, and said, This is David’s spoil.",
+      "ct": "David also seized all the flocks and herds. His men drove these animals ahead of the other livestock and declared, \"This is David's share of the plunder.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And David came to the two hundred men, which were so faint that they could not follow David, whom they had made also to abide at the brook Besor: and they went forth to meet David, and to meet the people that were with him: and when David came near to the people, he saluted them.",
+      "ct": "Then David returned to the 200 men who had been too exhausted to keep following him and had stayed at the brook Besor. They came out to meet David and the men with him. As David approached, he greeted them warmly."
+    },
+    {
+      "verse": 22,
+      "kjv": "Then answered all the wicked men and men of Belial, of those that went with David, and said, Because they went not with us, we will not give them ought of the spoil that we have recovered, save to every man his wife and his children, that they may lead them away, and depart.",
+      "ct": "But all the troublemakers and worthless men among those who had gone with David spoke up and said, \"Since these men didn't come with us, we won't share any of the plunder we recovered with them. Each man can just take his wife and children and leave.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Then said David, Ye shall not do so, my brethren, with that which the LORD hath given us, who hath preserved us, and delivered the company that came against us into our hand.",
+      "ct": "But David said, \"No, my brothers, you can't do that with what the LORD has given us. He protected us and gave us victory over the raiding party that attacked us.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "For who will hearken unto you in this matter? but as his part is that goeth down to the battle, so shall his part be that tarrieth by the stuff: they shall part alike.",
+      "ct": "Who would listen to you on this? The share for those who went into battle will be the same as the share for those who stayed with the supplies. Everyone gets an equal portion.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And it was so from that day forward, that he made it a statute and an ordinance for Israel unto this day.",
+      "ct": "From that day on, David established this as a rule and regulation for Israel, and it continues to this day."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when David came to Ziklag, he sent of the spoil unto the elders of Judah, even to his friends, saying, Behold a present for you of the spoil of the enemies of the LORD;",
+      "ct": "When David returned to Ziklag, he sent portions of the plunder to the elders of Judah — his friends — with this message: \"Here is a gift for you from the plunder taken from the LORD's enemies.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "To them which were in Bethel, and to them which were in south Ramoth, and to them which were in Jattir,",
+      "ct": "He sent gifts to those in Bethel, those in south Ramoth, and those in Jattir,"
+    },
+    {
+      "verse": 28,
+      "kjv": "And to them which were in Aroer, and to them which were in Siphmoth, and to them which were in Eshtemoa,",
+      "ct": "those in Aroer, those in Siphmoth, and those in Eshtemoa,"
+    },
+    {
+      "verse": 29,
+      "kjv": "And to them which were in Rachal, and to them which were in the cities of the Jerahmeelites, and to them which were in the cities of the Kenites,",
+      "ct": "those in Rachal, those in the towns of the Jerahmeelites, and those in the towns of the Kenites,"
+    },
+    {
+      "verse": 30,
+      "kjv": "And to them which were in Hormah, and to them which were in Chorashan, and to them which were in Athach,",
+      "ct": "those in Hormah, those in Chorashan, and those in Athach,"
+    },
+    {
+      "verse": 31,
+      "kjv": "And to them which were in Hebron, and to all the places where David himself and his men were wont to haunt.",
+      "ct": "and those in Hebron — along with all the other places where David and his men had regularly spent time."
+    }
+  ]
+}

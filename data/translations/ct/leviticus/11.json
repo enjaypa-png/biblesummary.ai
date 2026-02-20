@@ -1,0 +1,245 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 11,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.564Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses and to Aaron, saying unto them,",
+      "ct": "The LORD spoke to Moses and Aaron, telling them,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth.",
+      "ct": "\"Give these instructions to the people of Israel: Of all the animals on the earth, these are the ones you may eat."
+    },
+    {
+      "verse": 3,
+      "kjv": "Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat.",
+      "ct": "You may eat any animal that has a completely split hoof and also chews its cud."
+    },
+    {
+      "verse": 4,
+      "kjv": "Nevertheless these shall ye not eat of them that chew the cud, or of them that divide the hoof: as the camel, because he cheweth the cud, but divideth not the hoof; he is unclean unto you.",
+      "ct": "However, some animals only chew the cud or only have a split hoof — you must not eat those. The camel, for example, chews its cud but does not have a split hoof, so it is unclean for you."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the coney, because he cheweth the cud, but divideth not the hoof; he is unclean unto you.",
+      "ct": "The rock badger chews its cud but does not have a split hoof, so it is unclean for you."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the hare, because he cheweth the cud, but divideth not the hoof; he is unclean unto you.",
+      "ct": "The hare chews its cud but does not have a split hoof, so it is unclean for you."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the swine, though he divide the hoof, and be clovenfooted, yet he cheweth not the cud; he is unclean to you.",
+      "ct": "The pig has a completely split hoof, but it does not chew its cud, so it is unclean for you."
+    },
+    {
+      "verse": 8,
+      "kjv": "Of their flesh shall ye not eat, and their carcase shall ye not touch; they are unclean to you.",
+      "ct": "You must not eat the meat of these animals or even touch their dead bodies. They are unclean for you."
+    },
+    {
+      "verse": 9,
+      "kjv": "These shall ye eat of all that are in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, them shall ye eat.",
+      "ct": "Of everything that lives in water — whether in the ocean or in rivers — you may eat anything that has both fins and scales."
+    },
+    {
+      "verse": 10,
+      "kjv": "And all that have not fins and scales in the seas, and in the rivers, of all that move in the waters, and of any living thing which is in the waters, they shall be an abomination unto you:",
+      "ct": "But anything in the seas or rivers that does not have fins and scales — any creature swimming or living in the water without them — you must consider disgusting."
+    },
+    {
+      "verse": 11,
+      "kjv": "They shall be even an abomination unto you; ye shall not eat of their flesh, but ye shall have their carcases in abomination.",
+      "ct": "They must remain disgusting to you. You must not eat their meat, and you must treat their dead bodies as repulsive."
+    },
+    {
+      "verse": 12,
+      "kjv": "Whatsoever hath no fins nor scales in the waters, that shall be an abomination unto you.",
+      "ct": "Every water creature that lacks fins and scales must be considered disgusting to you."
+    },
+    {
+      "verse": 13,
+      "kjv": "And these are they which ye shall have in abomination among the fowls; they shall not be eaten, they are an abomination: the eagle, and the ossifrage, and the ospray,",
+      "ct": "Among the birds, these are the ones you must consider disgusting and must not eat: the eagle, the bearded vulture, and the black vulture,"
+    },
+    {
+      "verse": 14,
+      "kjv": "And the vulture, and the kite after his kind;",
+      "ct": "the red kite and every type of black kite,"
+    },
+    {
+      "verse": 15,
+      "kjv": "Every raven after his kind;",
+      "ct": "every type of raven,"
+    },
+    {
+      "verse": 16,
+      "kjv": "And the owl, and the night hawk, and the cuckow, and the hawk after his kind,",
+      "ct": "the horned owl, the nighthawk, the seagull, and every type of hawk,"
+    },
+    {
+      "verse": 17,
+      "kjv": "And the little owl, and the cormorant, and the great owl,",
+      "ct": "the little owl, the cormorant, and the great owl,"
+    },
+    {
+      "verse": 18,
+      "kjv": "And the swan, and the pelican, and the gier eagle,",
+      "ct": "the white owl, the desert owl, and the Egyptian vulture,"
+    },
+    {
+      "verse": 19,
+      "kjv": "And the stork, the heron after her kind, and the lapwing, and the bat.",
+      "ct": "the stork, every type of heron, the hoopoe, and the bat."
+    },
+    {
+      "verse": 20,
+      "kjv": "All fowls that creep, going upon all four, shall be an abomination unto you.",
+      "ct": "All winged insects that walk on 4 legs must be considered disgusting to you."
+    },
+    {
+      "verse": 21,
+      "kjv": "Yet these may ye eat of every flying creeping thing that goeth upon all four, which have legs above their feet, to leap withal upon the earth;",
+      "ct": "However, you may eat winged insects that walk on 4 legs if they have jointed legs above their feet for jumping on the ground."
+    },
+    {
+      "verse": 22,
+      "kjv": "Even these of them ye may eat; the locust after his kind, and the bald locust after his kind, and the beetle after his kind, and the grasshopper after his kind.",
+      "ct": "Specifically, you may eat these: every type of locust, every type of bald locust, every type of cricket, and every type of grasshopper."
+    },
+    {
+      "verse": 23,
+      "kjv": "But all other flying creeping things, which have four feet, shall be an abomination unto you.",
+      "ct": "But all other winged insects with 4 feet must be considered disgusting to you."
+    },
+    {
+      "verse": 24,
+      "kjv": "And for these ye shall be unclean: whosoever toucheth the carcase of them shall be unclean until the even.",
+      "ct": "These animals will also make you unclean: anyone who touches their dead body will be unclean until evening."
+    },
+    {
+      "verse": 25,
+      "kjv": "And whosoever beareth ought of the carcase of them shall wash his clothes, and be unclean until the even.",
+      "ct": "Anyone who picks up any part of their dead body must wash their clothing and will be unclean until evening."
+    },
+    {
+      "verse": 26,
+      "kjv": "The carcases of every beast which divideth the hoof, and is not clovenfooted, nor cheweth the cud, are unclean unto you: every one that toucheth them shall be unclean.",
+      "ct": "The dead body of every animal that has a hoof but not a completely split one, or that does not chew its cud, is unclean for you. Anyone who touches one becomes unclean."
+    },
+    {
+      "verse": 27,
+      "kjv": "And whatsoever goeth upon his paws, among all manner of beasts that go on all four, those are unclean unto you: whoso toucheth their carcase shall be unclean until the even.",
+      "ct": "Among all the animals that walk on 4 legs, any that walk on paws are unclean for you. Anyone who touches their dead body will be unclean until evening."
+    },
+    {
+      "verse": 28,
+      "kjv": "And he that beareth the carcase of them shall wash his clothes, and be unclean until the even: they are unclean unto you.",
+      "ct": "Anyone who picks up their dead body must wash their clothing and will be unclean until evening. These animals are unclean for you."
+    },
+    {
+      "verse": 29,
+      "kjv": "These also shall be unclean unto you among the creeping things that creep upon the earth; the weasel, and the mouse, and the tortoise after his kind,",
+      "ct": "Among the small creatures that move along the ground, these are unclean for you: the weasel, the mouse, and every type of large lizard,"
+    },
+    {
+      "verse": 30,
+      "kjv": "And the ferret, and the chameleon, and the lizard, and the snail, and the mole.",
+      "ct": "the gecko, the monitor lizard, the wall lizard, the skink, and the chameleon."
+    },
+    {
+      "verse": 31,
+      "kjv": "These are unclean to you among all that creep: whosoever doth touch them, when they be dead, shall be unclean until the even.",
+      "ct": "These are the ones among all the small ground creatures that are unclean for you. Anyone who touches them after they are dead will be unclean until evening."
+    },
+    {
+      "verse": 32,
+      "kjv": "And upon whatsoever any of them, when they are dead, doth fall, it shall be unclean; whether it be any vessel of wood, or raiment, or skin, or sack, whatsoever vessel it be, wherein any work is done, it must be put into water, and it shall be unclean until the even; so it shall be cleansed.",
+      "ct": "When one of these creatures dies and falls on something, that object becomes unclean — whether it is made of wood, cloth, leather, or rough fabric, whatever kind of tool or container it may be. It must be soaked in water and will remain unclean until evening, after which it will be clean again."
+    },
+    {
+      "verse": 33,
+      "kjv": "And every earthen vessel, whereinto any of them falleth, whatsoever is in it shall be unclean; and ye shall break it.",
+      "ct": "If one of them falls into a clay pot, everything inside it becomes unclean, and you must smash the pot."
+    },
+    {
+      "verse": 34,
+      "kjv": "Of all meat which may be eaten, that on which such water cometh shall be unclean: and all drink that may be drunk in every such vessel shall be unclean.",
+      "ct": "Any food that could normally be eaten becomes unclean if water from such a pot touches it. Any drink in such a container becomes unclean."
+    },
+    {
+      "verse": 35,
+      "kjv": "And every thing whereupon any part of their carcase falleth shall be unclean; whether it be oven, or ranges for pots, they shall be broken down: for they are unclean, and shall be unclean unto you.",
+      "ct": "Anything that a piece of their dead body falls on becomes unclean. If it is an oven or a cooking stove, it must be demolished. It is unclean and must remain unclean for you."
+    },
+    {
+      "verse": 36,
+      "kjv": "Nevertheless a fountain or pit, wherein there is plenty of water, shall be clean: but that which toucheth their carcase shall be unclean.",
+      "ct": "A spring or a cistern that collects water will still be clean, but anyone who touches the dead body in it becomes unclean."
+    },
+    {
+      "verse": 37,
+      "kjv": "And if any part of their carcase fall upon any sowing seed which is to be sown, it shall be clean.",
+      "ct": "If part of their dead body falls on planting seed that is meant to be sown, the seed remains clean."
+    },
+    {
+      "verse": 38,
+      "kjv": "But if any water be put upon the seed, and any part of their carcase fall thereon, it shall be unclean unto you.",
+      "ct": "But if water has been put on the seed and then part of their dead body falls on it, the seed is unclean for you."
+    },
+    {
+      "verse": 39,
+      "kjv": "And if any beast, of which ye may eat, die; he that toucheth the carcase thereof shall be unclean until the even.",
+      "ct": "If an animal you are allowed to eat dies on its own, anyone who touches its dead body will be unclean until evening."
+    },
+    {
+      "verse": 40,
+      "kjv": "And he that eateth of the carcase of it shall wash his clothes, and be unclean until the even: he also that beareth the carcase of it shall wash his clothes, and be unclean until the even.",
+      "ct": "Anyone who eats some of its dead body must wash their clothing and will be unclean until evening. Anyone who picks up its dead body must also wash their clothing and will be unclean until evening."
+    },
+    {
+      "verse": 41,
+      "kjv": "And every creeping thing that creepeth upon the earth shall be an abomination; it shall not be eaten.",
+      "ct": "Every creature that crawls along the ground is disgusting and must not be eaten."
+    },
+    {
+      "verse": 42,
+      "kjv": "Whatsoever goeth upon the belly, and whatsoever goeth upon all four, or whatsoever hath more feet among all creeping things that creep upon the earth, them ye shall not eat; for they are an abomination.",
+      "ct": "Whether it slithers on its belly, walks on 4 legs, or has many legs — no creature that crawls on the ground may be eaten, because they are all disgusting."
+    },
+    {
+      "verse": 43,
+      "kjv": "Ye shall not make yourselves abominable with any creeping thing that creepeth, neither shall ye make yourselves unclean with them, that ye should be defiled thereby.",
+      "ct": "Do not make yourselves repulsive by eating any crawling creature. Do not contaminate yourselves with them or become defiled through them."
+    },
+    {
+      "verse": 44,
+      "kjv": "For I am the LORD your God: ye shall therefore sanctify yourselves, and ye shall be holy; for I am holy: neither shall ye defile yourselves with any manner of creeping thing that creepeth upon the earth.",
+      "ct": "I am the LORD your God. Set yourselves apart and be holy, because I am holy. Do not defile yourselves with any creature that crawls on the ground."
+    },
+    {
+      "verse": 45,
+      "kjv": "For I am the LORD that bringeth you up out of the land of Egypt, to be your God: ye shall therefore be holy, for I am holy.",
+      "ct": "I am the LORD who brought you out of Egypt to be your God. So you must be holy, because I am holy."
+    },
+    {
+      "verse": 46,
+      "kjv": "This is the law of the beasts, and of the fowl, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth:",
+      "ct": "These are the regulations concerning animals, birds, every living thing that moves through water, and every creature that crawls on the ground."
+    },
+    {
+      "verse": 47,
+      "kjv": "To make a difference between the unclean and the clean, and between the beast that may be eaten and the beast that may not be eaten.",
+      "ct": "Their purpose is to distinguish between what is unclean and what is clean, and between creatures that may be eaten and those that may not.\""
+    }
+  ]
+}

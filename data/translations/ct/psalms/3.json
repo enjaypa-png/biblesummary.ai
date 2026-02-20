@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 3,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.942Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Lord, how are they increased that trouble me! many are they that rise up against me.",
+      "ct": "LORD, my enemies keep growing in number! So many are turning against me."
+    },
+    {
+      "verse": 2,
+      "kjv": "Many there be which say of my soul, There is no help for him in God. Selah.",
+      "ct": "So many are saying about me, 'God won't rescue him.' Selah."
+    },
+    {
+      "verse": 3,
+      "kjv": "But thou, O LORD, art a shield for me; my glory, and the lifter up of mine head.",
+      "ct": "But you, LORD, are a shield around me; you are my glory, the one who lifts my head high."
+    },
+    {
+      "verse": 4,
+      "kjv": "I cried unto the LORD with my voice, and he heard me out of his holy hill. Selah.",
+      "ct": "I called out to the LORD, and he answered me from his holy hill. Selah."
+    },
+    {
+      "verse": 5,
+      "kjv": "I laid me down and slept; I awaked; for the LORD sustained me.",
+      "ct": "I lay down and fell asleep, and I woke up again, because the LORD kept me safe."
+    },
+    {
+      "verse": 6,
+      "kjv": "I will not be afraid of ten thousands of people, that have set themselves against me round about.",
+      "ct": "I will not be afraid of 10,000 people who have surrounded me on every side."
+    },
+    {
+      "verse": 7,
+      "kjv": "Arise, O LORD; save me, O my God: for thou hast smitten all mine enemies upon the cheek bone; thou hast broken the teeth of the ungodly.",
+      "ct": "Rise up, LORD! Rescue me, my God! You have struck all my enemies across the jaw; you have shattered the teeth of the wicked."
+    },
+    {
+      "verse": 8,
+      "kjv": "Salvation belongeth unto the LORD: thy blessing is upon thy people. Selah.",
+      "ct": "Salvation comes from the LORD; your blessing rests on your people. Selah."
+    }
+  ]
+}

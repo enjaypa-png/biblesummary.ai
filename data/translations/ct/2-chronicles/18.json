@@ -1,0 +1,180 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 18,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.858Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now Jehoshaphat had riches and honour in abundance, and joined affinity with Ahab.",
+      "ct": "Jehoshaphat had enormous wealth and honor, and he formed an alliance through marriage with Ahab."
+    },
+    {
+      "verse": 2,
+      "kjv": "And after certain years he went down to Ahab to Samaria. And Ahab killed sheep and oxen for him in abundance, and for the people that he had with him, and persuaded him to go up with him to Ramothgilead.",
+      "ct": "Some years later, he traveled down to visit Ahab in Samaria. Ahab slaughtered large numbers of sheep and cattle for him and the people who came with him, and he convinced Jehoshaphat to join him in attacking Ramothgilead."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Ahab king of Israel said unto Jehoshaphat king of Judah, Wilt thou go with me to Ramothgilead? And he answered him, I am as thou art, and my people as thy people; and we will be with thee in the war.",
+      "ct": "Ahab king of Israel asked Jehoshaphat king of Judah, \"Will you go with me to Ramothgilead?\" Jehoshaphat replied, \"I'm with you completely — my forces are your forces. We'll stand with you in this battle.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Jehoshaphat said unto the king of Israel, Enquire, I pray thee, at the word of the LORD to day.",
+      "ct": "But Jehoshaphat said to the king of Israel, \"Please, first seek a word from the LORD today.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Therefore the king of Israel gathered together of prophets four hundred men, and said unto them, Shall we go to Ramothgilead to battle, or shall I forbear? And they said, Go up; for God will deliver it into the king’s hand.",
+      "ct": "So the king of Israel assembled 400 prophets and asked them, \"Should we march against Ramothgilead, or should I hold back?\" They answered, \"Go ahead! God will hand it over to the king.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "But Jehoshaphat said, Is there not here a prophet of the LORD besides, that we might enquire of him?",
+      "ct": "But Jehoshaphat asked, \"Isn't there another prophet of the LORD here that we could consult?\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And the king of Israel said unto Jehoshaphat, There is yet one man, by whom we may enquire of the LORD: but I hate him; for he never prophesied good unto me, but always evil: the same is Micaiah the son of Imla. And Jehoshaphat said, Let not the king say so.",
+      "ct": "The king of Israel told Jehoshaphat, \"There is one more man we could ask — Micaiah son of Imla — but I can't stand him. He never prophesies anything good about me, only disaster.\" Jehoshaphat replied, \"The king shouldn't talk like that.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the king of Israel called for one of his officers, and said, Fetch quickly Micaiah the son of Imla.",
+      "ct": "So the king of Israel called one of his officials and said, \"Bring Micaiah son of Imla here right away.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the king of Israel and Jehoshaphat king of Judah sat either of them on his throne, clothed in their robes, and they sat in a void place at the entering in of the gate of Samaria; and all the prophets prophesied before them.",
+      "ct": "The king of Israel and Jehoshaphat king of Judah were each sitting on their thrones, dressed in their royal robes, in an open area near the entrance of the gate of Samaria, while all the prophets were prophesying in front of them."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Zedekiah the son of Chenaanah had made him horns of iron, and said, Thus saith the LORD, With these thou shalt push Syria until they be consumed.",
+      "ct": "Zedekiah son of Chenaanah had made iron horns for himself and declared, \"This is what the LORD says: With these you will gore the Syrians until they are completely destroyed.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And all the prophets prophesied so, saying, Go up to Ramothgilead, and prosper: for the LORD shall deliver it into the hand of the king.",
+      "ct": "All the other prophets were saying the same thing: \"March on Ramothgilead and succeed! The LORD will give the king victory over it.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And the messenger that went to call Micaiah spake to him, saying, Behold, the words of the prophets declare good to the king with one assent; let thy word therefore, I pray thee, be like one of theirs, and speak thou good.",
+      "ct": "The messenger who had gone to get Micaiah told him, \"Look, every single prophet has spoken favorably to the king. Please, let your message agree with theirs and say something positive.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Micaiah said, As the LORD liveth, even what my God saith, that will I speak.",
+      "ct": "But Micaiah said, \"As surely as the LORD lives, I will speak only what my God tells me to say.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And when he was come to the king, the king said unto him, Micaiah, shall we go to Ramothgilead to battle, or shall I forbear? And he said, Go ye up, and prosper, and they shall be delivered into your hand.",
+      "ct": "When he arrived before the king, the king asked him, \"Micaiah, should we march against Ramothgilead, or should I hold back?\" He answered, \"Sure, go ahead and succeed! They'll be handed over to you.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And the king said to him, How many times shall I adjure thee that thou say nothing but the truth to me in the name of the LORD?",
+      "ct": "The king said to him, \"How many times do I have to make you swear to tell me nothing but the truth in the name of the LORD?\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Then he said, I did see all Israel scattered upon the mountains, as sheep that have no shepherd: and the LORD said, These have no master; let them return therefore every man to his house in peace.",
+      "ct": "Then Micaiah said, \"I saw all of Israel scattered across the mountains like sheep without a shepherd. And the LORD said, 'These people have no master. Let each one go home safely.'\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the king of Israel said to Jehoshaphat, Did I not tell thee that he would not prophesy good unto me, but evil?",
+      "ct": "The king of Israel said to Jehoshaphat, \"Didn't I tell you? He never prophesies anything good about me — only disaster.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Again he said, Therefore hear the word of the LORD; I saw the LORD sitting upon his throne, and all the host of heaven standing on his right hand and on his left.",
+      "ct": "Micaiah continued, \"Then listen to the word of the LORD. I saw the LORD seated on his throne, with the entire army of heaven standing at his right and his left."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the LORD said, Who shall entice Ahab king of Israel, that he may go up and fall at Ramothgilead? And one spake saying after this manner, and another saying after that manner.",
+      "ct": "The LORD asked, 'Who will lure Ahab king of Israel into marching out to his death at Ramothgilead?' Various suggestions were offered back and forth."
+    },
+    {
+      "verse": 20,
+      "kjv": "Then there came out a spirit, and stood before the LORD, and said, I will entice him. And the LORD said unto him, Wherewith?",
+      "ct": "Then a spirit stepped forward, stood in the LORD's presence, and said, 'I will lure him.' The LORD asked, 'How?'"
+    },
+    {
+      "verse": 21,
+      "kjv": "And he said, I will go out, and be a lying spirit in the mouth of all his prophets. And the Lord said, Thou shalt entice him, and thou shalt also prevail: go out, and do even so.",
+      "ct": "The spirit answered, 'I will go and become a lying spirit in the mouths of all his prophets.' The Lord said, 'You will succeed in luring him. Go and do it.'\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Now therefore, behold, the LORD hath put a lying spirit in the mouth of these thy prophets, and the LORD hath spoken evil against thee.",
+      "ct": "\"So now, look — the LORD has placed a lying spirit in the mouths of these prophets of yours. The LORD has decreed disaster for you.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Then Zedekiah the son of Chenaanah came near, and smote Micaiah upon the cheek, and said, Which way went the Spirit of the LORD from me to speak unto thee?",
+      "ct": "At that, Zedekiah son of Chenaanah walked up and struck Micaiah on the cheek, saying, \"Since when did the Spirit of the LORD leave me to speak through you?\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And Micaiah said, Behold, thou shalt see on that day when thou shalt go into an inner chamber to hide thyself.",
+      "ct": "Micaiah replied, \"You'll find out on the day you run from room to room trying to hide.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "Then the king of Israel said, Take ye Micaiah, and carry him back to Amon the governor of the city, and to Joash the king’s son;",
+      "ct": "Then the king of Israel ordered, \"Seize Micaiah and take him back to Amon the city governor and to Joash the king's son."
+    },
+    {
+      "verse": 26,
+      "kjv": "And say, Thus saith the king, Put this fellow in the prison, and feed him with bread of affliction and with water of affliction, until I return in peace.",
+      "ct": "Tell them, 'The king says: Throw this man in prison and give him nothing but bread and water until I come back safely.'\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And Micaiah said, If thou certainly return in peace, then hath not the LORD spoken by me. And he said, Hearken, all ye people.",
+      "ct": "Micaiah declared, \"If you actually come back safely, then the LORD has not spoken through me.\" Then he added, \"Listen carefully, all you people!\""
+    },
+    {
+      "verse": 28,
+      "kjv": "So the king of Israel and Jehoshaphat the king of Judah went up to Ramothgilead.",
+      "ct": "So the king of Israel and Jehoshaphat king of Judah marched out to Ramothgilead."
+    },
+    {
+      "verse": 29,
+      "kjv": "And the king of Israel said unto Jehoshaphat, I will disguise myself, and will go to the battle; but put thou on thy robes. So the king of Israel disguised himself; and they went to the battle.",
+      "ct": "The king of Israel told Jehoshaphat, \"I'll go into battle in disguise, but you wear your royal robes.\" So the king of Israel disguised himself, and they went into battle."
+    },
+    {
+      "verse": 30,
+      "kjv": "Now the king of Syria had commanded the captains of the chariots that were with him, saying, Fight ye not with small or great, save only with the king of Israel.",
+      "ct": "Now the king of Syria had given orders to his chariot commanders: \"Don't fight with anyone — whether insignificant or important — except the king of Israel himself.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And it came to pass, when the captains of the chariots saw Jehoshaphat, that they said, It is the king of Israel. Therefore they compassed about him to fight: but Jehoshaphat cried out, and the LORD helped him; and God moved them to depart from him.",
+      "ct": "When the chariot commanders spotted Jehoshaphat, they assumed, \"That must be the king of Israel!\" They surrounded him to attack, but Jehoshaphat cried out, and the LORD came to his aid. God drew them away from him."
+    },
+    {
+      "verse": 32,
+      "kjv": "For it came to pass, that, when the captains of the chariots perceived that it was not the king of Israel, they turned back again from pursuing him.",
+      "ct": "Once the chariot commanders realized he was not the king of Israel, they stopped chasing him."
+    },
+    {
+      "verse": 33,
+      "kjv": "And a certain man drew a bow at a venture, and smote the king of Israel between the joints of the harness: therefore he said to his chariot man, Turn thine hand, that thou mayest carry me out of the host; for I am wounded.",
+      "ct": "But a soldier drew his bow and shot randomly, and the arrow struck the king of Israel in a gap between the sections of his armor. Ahab told his chariot driver, \"Turn around and get me out of the fighting — I've been hit!\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And the battle increased that day: howbeit the king of Israel stayed himself up in his chariot against the Syrians until the even: and about the time of the sun going down he died.",
+      "ct": "The battle raged on throughout that day. The king of Israel propped himself up in his chariot facing the Syrians until evening, and around sunset he died."
+    }
+  ]
+}

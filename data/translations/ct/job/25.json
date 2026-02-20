@@ -1,0 +1,40 @@
+{
+  "book": "job",
+  "book_name": "Job",
+  "chapter": 25,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.924Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then answered Bildad the Shuhite, and said,",
+      "ct": "Then Bildad the Shuhite responded:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Dominion and fear are with him, he maketh peace in his high places.",
+      "ct": "\"Supreme authority and awe belong to God; he establishes order in the highest heavens."
+    },
+    {
+      "verse": 3,
+      "kjv": "Is there any number of his armies? and upon whom doth not his light arise?",
+      "ct": "Can anyone count his armies? Is there anyone his light doesn't reach?"
+    },
+    {
+      "verse": 4,
+      "kjv": "How then can man be justified with God? or how can he be clean that is born of a woman?",
+      "ct": "So how could any human be righteous before God? How could someone born of a woman be pure?"
+    },
+    {
+      "verse": 5,
+      "kjv": "Behold even to the moon, and it shineth not; yea, the stars are not pure in his sight.",
+      "ct": "Consider — even the moon lacks brightness in his presence, and the stars aren't flawless in his sight."
+    },
+    {
+      "verse": 6,
+      "kjv": "How much less man, that is a worm? and the son of man, which is a worm?",
+      "ct": "How much less a human being, who is just a worm — a mere mortal, who is nothing but a maggot?\""
+    }
+  ]
+}

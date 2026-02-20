@@ -1,0 +1,60 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 112,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.010Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Praise ye the LORD. Blessed is the man that feareth the LORD, that delighteth greatly in his commandments.",
+      "ct": "Praise the LORD! How happy is the person who is wholeheartedly dedicated to the LORD, who finds great joy in his commands."
+    },
+    {
+      "verse": 2,
+      "kjv": "His seed shall be mighty upon earth: the generation of the upright shall be blessed.",
+      "ct": "Their descendants will be powerful in the land; the children of the godly will be blessed."
+    },
+    {
+      "verse": 3,
+      "kjv": "Wealth and riches shall be in his house: and his righteousness endureth for ever.",
+      "ct": "Prosperity and abundance will fill their home, and their righteousness lasts forever."
+    },
+    {
+      "verse": 4,
+      "kjv": "Unto the upright there ariseth light in the darkness: he is gracious, and full of compassion, and righteous.",
+      "ct": "Even in dark times, light dawns for those who live with integrity — for the one who is generous, compassionate, and righteous."
+    },
+    {
+      "verse": 5,
+      "kjv": "A good man sheweth favour, and lendeth: he will guide his affairs with discretion.",
+      "ct": "It goes well for the person who is generous and lends freely; they manage their business with good judgment."
+    },
+    {
+      "verse": 6,
+      "kjv": "Surely he shall not be moved for ever: the righteous shall be in everlasting remembrance.",
+      "ct": "They will never be shaken; the righteous will be remembered forever."
+    },
+    {
+      "verse": 7,
+      "kjv": "He shall not be afraid of evil tidings: his heart is fixed, trusting in the LORD.",
+      "ct": "They won't be terrified by bad news; their heart is steady because they trust in the LORD."
+    },
+    {
+      "verse": 8,
+      "kjv": "His heart is established, he shall not be afraid, until he see his desire upon his enemies.",
+      "ct": "Their heart is secure and unafraid, and in the end they will see the downfall of their enemies."
+    },
+    {
+      "verse": 9,
+      "kjv": "He hath dispersed, he hath given to the poor; his righteousness endureth for ever; his horn shall be exalted with honour.",
+      "ct": "They give generously to those in need; their righteousness lasts forever; they will be lifted up in honor."
+    },
+    {
+      "verse": 10,
+      "kjv": "The wicked shall see it, and be grieved; he shall gnash with his teeth, and melt away: the desire of the wicked shall perish.",
+      "ct": "The wicked will watch this and be furious; they will grind their teeth and waste away. Everything the wicked hope for will come to nothing."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 117,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.012Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O Praise the LORD, all ye nations: praise him, all ye people.",
+      "ct": "Praise the LORD, every nation! Celebrate him, all you peoples of the earth!"
+    },
+    {
+      "verse": 2,
+      "kjv": "For his merciful kindness is great toward us: and the truth of the LORD endureth for ever. Praise ye the LORD.",
+      "ct": "His faithful love for us is overwhelming, and the LORD's trustworthiness lasts forever. Praise the LORD!"
+    }
+  ]
+}

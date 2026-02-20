@@ -1,0 +1,70 @@
+{
+  "book": "hosea",
+  "book_name": "Hosea",
+  "chapter": 11,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.233Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "When Israel was a child, then I loved him, and called my son out of Egypt.",
+      "ct": "\"When Israel was young, I loved him, and I called my son out of Egypt."
+    },
+    {
+      "verse": 2,
+      "kjv": "As they called them, so they went from them: they sacrificed unto Baalim, and burned incense to graven images.",
+      "ct": "But the more I called to them, the further they walked away from me. They offered sacrifices to the Baals and burned incense to carved idols."
+    },
+    {
+      "verse": 3,
+      "kjv": "I taught Ephraim also to go, taking them by their arms; but they knew not that I healed them.",
+      "ct": "It was I who taught Ephraim to walk, holding them by their arms. But they never realized that I was the one who restored them."
+    },
+    {
+      "verse": 4,
+      "kjv": "I drew them with cords of a man, with bands of love: and I was to them as they that take off the yoke on their jaws, and I laid meat unto them.",
+      "ct": "I led them with gentle ropes, with ties of love. I was like someone who lifts the yoke from their neck, and I bent down to feed them."
+    },
+    {
+      "verse": 5,
+      "kjv": "He shall not return into the land of Egypt, but the Assyrian shall be his king, because they refused to return.",
+      "ct": "They will not go back to the land of Egypt, but Assyria will rule over them, because they refused to return to me."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the sword shall abide on his cities, and shall consume his branches, and devour them, because of their own counsels.",
+      "ct": "War will rage through their cities, destroying their gate bars and consuming them because of their own plans."
+    },
+    {
+      "verse": 7,
+      "kjv": "And my people are bent to backsliding from me: though they called them to the most High, none at all would exalt him.",
+      "ct": "My people are determined to turn away from me. Even though they are called to the Most High, not one of them will lift him up."
+    },
+    {
+      "verse": 8,
+      "kjv": "How shall I give thee up, Ephraim? how shall I deliver thee, Israel? how shall I make thee as Admah? how shall I set thee as Zeboim? mine heart is turned within me, my repentings are kindled together.",
+      "ct": "\"How can I give you up, Ephraim? How can I hand you over, Israel? How can I treat you like Admah? How can I make you like Zeboim? My heart is torn inside me, and my compassion is deeply stirred."
+    },
+    {
+      "verse": 9,
+      "kjv": "I will not execute the fierceness of mine anger, I will not return to destroy Ephraim: for I am God, and not man; the Holy One in the midst of thee: and I will not enter into the city.",
+      "ct": "I will not act on my fierce anger. I will not come back to destroy Ephraim, because I am God and not a human being — the Holy One among you — and I will not come in wrath."
+    },
+    {
+      "verse": 10,
+      "kjv": "They shall walk after the LORD: he shall roar like a lion: when he shall roar, then the children shall tremble from the west.",
+      "ct": "They will follow the LORD. He will roar like a lion, and when he roars, his children will come trembling from the west."
+    },
+    {
+      "verse": 11,
+      "kjv": "They shall tremble as a bird out of Egypt, and as a dove out of the land of Assyria: and I will place them in their houses, saith the LORD.",
+      "ct": "They will come trembling like birds from Egypt and like doves from the land of Assyria, and I will settle them back in their homes,\" says the LORD."
+    },
+    {
+      "verse": 12,
+      "kjv": "Ephraim compasseth me about with lies, and the house of Israel with deceit: but Judah yet ruleth with God, and is faithful with the saints.",
+      "ct": "Ephraim has surrounded me with lies, and the house of Israel with deception. But Judah still walks faithfully with God and remains loyal to the Holy One."
+    }
+  ]
+}

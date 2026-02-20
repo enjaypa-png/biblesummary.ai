@@ -1,0 +1,65 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 95,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.999Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O come, let us sing unto the LORD: let us make a joyful noise to the rock of our salvation.",
+      "ct": "Come, let's sing to the LORD! Let's shout with joy to the rock who saves us."
+    },
+    {
+      "verse": 2,
+      "kjv": "Let us come before his presence with thanksgiving, and make a joyful noise unto him with psalms.",
+      "ct": "Let's approach him with gratitude and celebrate him with songs of praise."
+    },
+    {
+      "verse": 3,
+      "kjv": "For the LORD is a great God, and a great King above all gods.",
+      "ct": "Because the LORD is a mighty God, a great King who reigns over all gods."
+    },
+    {
+      "verse": 4,
+      "kjv": "In his hand are the deep places of the earth: the strength of the hills is his also.",
+      "ct": "The deepest places of the earth are in his hands, and the towering mountains belong to him as well."
+    },
+    {
+      "verse": 5,
+      "kjv": "The sea is his, and he made it: and his hands formed the dry land.",
+      "ct": "The ocean is his — he made it. His hands shaped the dry ground too."
+    },
+    {
+      "verse": 6,
+      "kjv": "O come, let us worship and bow down: let us kneel before the LORD our maker.",
+      "ct": "Come, let's worship and bow low. Let's kneel in the presence of the LORD who created us."
+    },
+    {
+      "verse": 7,
+      "kjv": "For he is our God; and we are the people of his pasture, and the sheep of his hand. To day if ye will hear his voice,",
+      "ct": "He is our God, and we are the people he cares for, the flock under his guidance. Today, if you hear his voice —"
+    },
+    {
+      "verse": 8,
+      "kjv": "Harden not your heart, as in the provocation, and as in the day of temptation in the wilderness:",
+      "ct": "don't harden your hearts like at Meribah, like that day of testing in the wilderness,"
+    },
+    {
+      "verse": 9,
+      "kjv": "When your fathers tempted me, proved me, and saw my work.",
+      "ct": "when your ancestors tested me, challenged me, even though they had witnessed what I did."
+    },
+    {
+      "verse": 10,
+      "kjv": "Forty years long was I grieved with this generation, and said, It is a people that do err in their heart, and they have not known my ways:",
+      "ct": "\"For 40 years I was frustrated with that generation, and I said, 'These people constantly go astray in their hearts, and they have never understood my ways.'"
+    },
+    {
+      "verse": 11,
+      "kjv": "Unto whom I sware in my wrath that they should not enter into my rest.",
+      "ct": "So in my anger I made an oath: 'They will never enter my place of rest.'\""
+    }
+  ]
+}

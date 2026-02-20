@@ -1,0 +1,185 @@
+{
+  "book": "luke",
+  "book_name": "Luke",
+  "chapter": 14,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.342Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, as he went into the house of one of the chief Pharisees to eat bread on the sabbath day, that they watched him.",
+      "ct": "One Sabbath, Jesus went to eat a meal at the home of a prominent Pharisee, and they were watching him closely."
+    },
+    {
+      "verse": 2,
+      "kjv": "And, behold, there was a certain man before him which had the dropsy.",
+      "ct": "Right there in front of him was a man suffering from severe swelling in his body."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Jesus answering spake unto the lawyers and Pharisees, saying, Is it lawful to heal on the sabbath day?",
+      "ct": "Jesus spoke up and asked the experts in the law and the Pharisees, \"Is it permitted to heal someone on the Sabbath, or not?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And they held their peace. And he took him, and healed him, and let him go;",
+      "ct": "They stayed silent. So he took hold of the man, healed him, and sent him on his way."
+    },
+    {
+      "verse": 5,
+      "kjv": "And answered them, saying, Which of you shall have an ass or an ox fallen into a pit, and will not straightway pull him out on the sabbath day?",
+      "ct": "Then he said to them, \"If your son or your ox fell into a well on the Sabbath, wouldn't you pull him out immediately?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And they could not answer him again to these things.",
+      "ct": "They had nothing to say in response."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he put forth a parable to those which were bidden, when he marked how they chose out the chief rooms; saying unto them,",
+      "ct": "He noticed how the guests were choosing the best seats for themselves, so he told them this parable:"
+    },
+    {
+      "verse": 8,
+      "kjv": "When thou art bidden of any man to a wedding, sit not down in the highest room; lest a more honourable man than thou be bidden of him;",
+      "ct": "\"When someone invites you to a wedding banquet, don't take the seat of honor. Someone more distinguished than you may have been invited."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he that bade thee and him come and say to thee, Give this man place; and thou begin with shame to take the lowest room.",
+      "ct": "Then the host who invited both of you will come and tell you, 'Please give your seat to this person.' You'll be humiliated as you move to the last available spot."
+    },
+    {
+      "verse": 10,
+      "kjv": "But when thou art bidden, go and sit down in the lowest room; that when he that bade thee cometh, he may say unto thee, Friend, go up higher: then shalt thou have worship in the presence of them that sit at meat with thee.",
+      "ct": "Instead, when you're invited, go sit in the least important place. That way, when the host comes, he'll say to you, 'Friend, move up to a better seat!' Then you'll be honored in front of everyone at the table with you."
+    },
+    {
+      "verse": 11,
+      "kjv": "For whosoever exalteth himself shall be abased; and he that humbleth himself shall be exalted.",
+      "ct": "Because whoever promotes himself will be humbled, and whoever humbles himself will be promoted.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then said he also to him that bade him, When thou makest a dinner or a supper, call not thy friends, nor thy brethren, neither thy kinsmen, nor thy rich neighbours; lest they also bid thee again, and a recompence be made thee.",
+      "ct": "Then Jesus said to the man who had invited him, \"When you host a lunch or dinner, don't just invite your friends, your brothers, your relatives, or your wealthy neighbors. They'll just invite you back, and you'll be repaid."
+    },
+    {
+      "verse": 13,
+      "kjv": "But when thou makest a feast, call the poor, the maimed, the lame, the blind:",
+      "ct": "Instead, when you put on a banquet, invite the poor, the disabled, the crippled, and the blind."
+    },
+    {
+      "verse": 14,
+      "kjv": "And thou shalt be blessed; for they cannot recompense thee: for thou shalt be recompensed at the resurrection of the just.",
+      "ct": "Then you will be blessed, because they have no way to repay you. Your reward will come at the resurrection of the righteous.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And when one of them that sat at meat with him heard these things, he said unto him, Blessed is he that shall eat bread in the kingdom of God.",
+      "ct": "When one of the other guests heard this, he said to Jesus, \"What a blessing it will be for anyone who gets to share a meal in the kingdom of God!\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Then said he unto him, A certain man made a great supper, and bade many:",
+      "ct": "Jesus replied, \"A man once prepared a grand banquet and invited many people."
+    },
+    {
+      "verse": 17,
+      "kjv": "And sent his servant at supper time to say to them that were bidden, Come; for all things are now ready.",
+      "ct": "When everything was ready, he sent his servant to tell the invited guests, 'Come now — everything is prepared.'"
+    },
+    {
+      "verse": 18,
+      "kjv": "And they all with one consent began to make excuse. The first said unto him, I have bought a piece of ground, and I must needs go and see it: I pray thee have me excused.",
+      "ct": "But one after another, they all started making excuses. The first one said, 'I just purchased a field and need to go inspect it. Please accept my apologies.'"
+    },
+    {
+      "verse": 19,
+      "kjv": "And another said, I have bought five yoke of oxen, and I go to prove them: I pray thee have me excused.",
+      "ct": "Another said, 'I just bought 5 pairs of oxen and I'm on my way to try them out. Please accept my apologies.'"
+    },
+    {
+      "verse": 20,
+      "kjv": "And another said, I have married a wife, and therefore I cannot come.",
+      "ct": "Still another said, 'I just got married, so I'm unable to come.'"
+    },
+    {
+      "verse": 21,
+      "kjv": "So that servant came, and shewed his lord these things. Then the master of the house being angry said to his servant, Go out quickly into the streets and lanes of the city, and bring in hither the poor, and the maimed, and the halt, and the blind.",
+      "ct": "The servant returned and reported all of this to his master. The master became angry and told his servant, 'Hurry out into the streets and alleys of the city and bring back the poor, the disabled, the blind, and the crippled.'"
+    },
+    {
+      "verse": 22,
+      "kjv": "And the servant said, Lord, it is done as thou hast commanded, and yet there is room.",
+      "ct": "Later the servant reported, 'Sir, I've done what you ordered, and there's still room.'"
+    },
+    {
+      "verse": 23,
+      "kjv": "And the lord said unto the servant, Go out into the highways and hedges, and compel them to come in, that my house may be filled.",
+      "ct": "The master told the servant, 'Go out to the roads and country lanes and urge people to come in, so that my house will be full."
+    },
+    {
+      "verse": 24,
+      "kjv": "For I say unto you, That none of those men which were bidden shall taste of my supper.",
+      "ct": "I'm telling you, not a single one of those originally invited guests will get even a taste of my banquet.'\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And there went great multitudes with him: and he turned, and said unto them,",
+      "ct": "Large crowds were traveling with Jesus, and he turned around and said to them,"
+    },
+    {
+      "verse": 26,
+      "kjv": "If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, he cannot be my disciple.",
+      "ct": "\"If anyone comes to me but is not willing to put me above his father, mother, wife, children, brothers, and sisters — and even his own life — that person cannot be my disciple."
+    },
+    {
+      "verse": 27,
+      "kjv": "And whosoever doth not bear his cross, and come after me, cannot be my disciple.",
+      "ct": "Whoever doesn't carry his own cross and follow me cannot be my disciple."
+    },
+    {
+      "verse": 28,
+      "kjv": "For which of you, intending to build a tower, sitteth not down first, and counteth the cost, whether he have sufficient to finish it?",
+      "ct": "Suppose one of you wants to build a tower. Wouldn't you first sit down and calculate the expense to see if you have enough to complete it?"
+    },
+    {
+      "verse": 29,
+      "kjv": "Lest haply, after he hath laid the foundation, and is not able to finish it, all that behold it begin to mock him,",
+      "ct": "Otherwise, you might lay the foundation but be unable to finish. Then everyone who sees it will ridicule you,"
+    },
+    {
+      "verse": 30,
+      "kjv": "Saying, This man began to build, and was not able to finish.",
+      "ct": "saying, 'This person started building but couldn't finish!'"
+    },
+    {
+      "verse": 31,
+      "kjv": "Or what king, going to make war against another king, sitteth not down first, and consulteth whether he be able with ten thousand to meet him that cometh against him with twenty thousand?",
+      "ct": "Or suppose a king is about to go to war against another king. Wouldn't he first sit down and consider whether his 10,000 soldiers can defeat the one coming against him with 20,000?"
+    },
+    {
+      "verse": 32,
+      "kjv": "Or else, while the other is yet a great way off, he sendeth an ambassage, and desireth conditions of peace.",
+      "ct": "If he can't, he'll send a delegation while the other king is still far away to negotiate terms of peace."
+    },
+    {
+      "verse": 33,
+      "kjv": "So likewise, whosoever he be of you that forsaketh not all that he hath, he cannot be my disciple.",
+      "ct": "In the same way, anyone who doesn't give up everything he has cannot be my disciple."
+    },
+    {
+      "verse": 34,
+      "kjv": "Salt is good: but if the salt have lost his savour, wherewith shall it be seasoned?",
+      "ct": "Salt is useful, but if salt loses its flavor, how can it be made salty again?"
+    },
+    {
+      "verse": 35,
+      "kjv": "It is neither fit for the land, nor yet for the dunghill; but men cast it out. He that hath ears to hear, let him hear.",
+      "ct": "It's useless for the soil and useless even for the compost pile — it just gets thrown away. If you have ears to listen, then listen!\""
+    }
+  ]
+}

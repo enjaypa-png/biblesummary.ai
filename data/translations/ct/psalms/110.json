@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 110,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.009Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.",
+      "ct": "The LORD declared to my Lord, 'Take the seat of honor at my right side until I turn your enemies into a platform beneath your feet.'"
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD shall send the rod of thy strength out of Zion: rule thou in the midst of thine enemies.",
+      "ct": "The LORD will extend your mighty scepter from Zion. Exercise your authority right in the middle of your enemies."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thy people shall be willing in the day of thy power, in the beauties of holiness from the womb of the morning: thou hast the dew of thy youth.",
+      "ct": "Your people will volunteer freely on the day you lead your forces. Dressed in holy splendor, from the dawn's first light, your young warriors come to you like the morning dew."
+    },
+    {
+      "verse": 4,
+      "kjv": "The LORD hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.",
+      "ct": "The LORD has made an oath and will never take it back: 'You are a priest forever, in the tradition of Melchizedek.'"
+    },
+    {
+      "verse": 5,
+      "kjv": "The Lord at thy right hand shall strike through kings in the day of his wrath.",
+      "ct": "The Lord is at your right side; he will crush kings on the day of his fury."
+    },
+    {
+      "verse": 6,
+      "kjv": "He shall judge among the heathen, he shall fill the places with the dead bodies; he shall wound the heads over many countries.",
+      "ct": "He will pass judgment on the nations, piling up the dead. He will shatter rulers across the entire earth."
+    },
+    {
+      "verse": 7,
+      "kjv": "He shall drink of the brook in the way: therefore shall he lift up the head.",
+      "ct": "He will drink from a stream along the way, and because of this he will raise his head in triumph."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 134,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.024Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Behold, bless ye the LORD, all ye servants of the LORD, which by night stand in the house of the LORD.",
+      "ct": "Come, praise the LORD, all you who serve the LORD, you who stand watch in the LORD's house during the night."
+    },
+    {
+      "verse": 2,
+      "kjv": "Lift up your hands in the sanctuary, and bless the LORD.",
+      "ct": "Raise your hands in the holy place and praise the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "The LORD that made heaven and earth bless thee out of Zion.",
+      "ct": "May the LORD, who made heaven and earth, bless you from Zion."
+    }
+  ]
+}

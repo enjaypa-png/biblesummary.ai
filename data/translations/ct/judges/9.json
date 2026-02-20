@@ -1,0 +1,295 @@
+{
+  "book": "judges",
+  "book_name": "Judges",
+  "chapter": 9,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.689Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Abimelech the son of Jerubbaal went to Shechem unto his mother’s brethren, and communed with them, and with all the family of the house of his mother’s father, saying,",
+      "ct": "Abimelech son of Jerubbaal traveled to Shechem to visit his mother's brothers. He spoke with them and with his mother's entire extended family, saying,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak, I pray you, in the ears of all the men of Shechem, Whether is better for you, either that all the sons of Jerubbaal, which are threescore and ten persons, reign over you, or that one reign over you? remember also that I am your bone and your flesh.",
+      "ct": "\"Please bring this question to all the leading men of Shechem: 'Which is better for you — to be ruled by all 70 of Jerubbaal's sons, or to be ruled by just one man?' And keep in mind that I am your own flesh and blood.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And his mother’s brethren spake of him in the ears of all the men of Shechem all these words: and their hearts inclined to follow Abimelech; for they said, He is our brother.",
+      "ct": "His mother's brothers repeated all of this to the leading men of Shechem, and they were persuaded to support Abimelech, because they said, \"He's one of us.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And they gave him threescore and ten pieces of silver out of the house of Baalberith, wherewith Abimelech hired vain and light persons, which followed him.",
+      "ct": "They gave him 70 pieces of silver from the temple of Baal-berith, and Abimelech used it to hire reckless and worthless men who became his followers."
+    },
+    {
+      "verse": 5,
+      "kjv": "And he went unto his father’s house at Ophrah, and slew his brethren the sons of Jerubbaal, being threescore and ten persons, upon one stone: notwithstanding yet Jotham the youngest son of Jerubbaal was left; for he hid himself.",
+      "ct": "He went to his father's home in Ophrah and killed his brothers, the sons of Jerubbaal — all 70 of them — on a single stone. But Jotham, Jerubbaal's youngest son, survived because he had hidden himself."
+    },
+    {
+      "verse": 6,
+      "kjv": "And all the men of Shechem gathered together, and all the house of Millo, and went, and made Abimelech king, by the plain of the pillar that was in Shechem.",
+      "ct": "Then all the leading men of Shechem and the people of Beth-millo gathered together and crowned Abimelech as king beside the great tree at the pillar in Shechem."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when they told it to Jotham, he went and stood in the top of mount Gerizim, and lifted up his voice, and cried, and said unto them, Hearken unto me, ye men of Shechem, that God may hearken unto you.",
+      "ct": "When Jotham heard about this, he went and stood on top of Mount Gerizim and shouted down to them, \"Listen to me, men of Shechem, so that God may listen to you!\""
+    },
+    {
+      "verse": 8,
+      "kjv": "The trees went forth on a time to anoint a king over them; and they said unto the olive tree, Reign thou over us.",
+      "ct": "\"One day the trees decided to choose a king for themselves. They said to the olive tree, 'Come rule over us.'"
+    },
+    {
+      "verse": 9,
+      "kjv": "But the olive tree said unto them, Should I leave my fatness, wherewith by me they honour God and man, and go to be promoted over the trees?",
+      "ct": "\"But the olive tree replied, 'Should I give up my rich oil, which is used to honor both God and people, just to go sway over the other trees?'"
+    },
+    {
+      "verse": 10,
+      "kjv": "And the trees said to the fig tree, Come thou, and reign over us.",
+      "ct": "\"So the trees said to the fig tree, 'Come and rule over us.'"
+    },
+    {
+      "verse": 11,
+      "kjv": "But the fig tree said unto them, Should I forsake my sweetness, and my good fruit, and go to be promoted over the trees?",
+      "ct": "\"But the fig tree replied, 'Should I give up my sweetness and my delicious fruit just to go sway over the other trees?'"
+    },
+    {
+      "verse": 12,
+      "kjv": "Then said the trees unto the vine, Come thou, and reign over us.",
+      "ct": "\"Then the trees said to the grapevine, 'Come and rule over us.'"
+    },
+    {
+      "verse": 13,
+      "kjv": "And the vine said unto them, Should I leave my wine, which cheereth God and man, and go to be promoted over the trees?",
+      "ct": "\"But the grapevine replied, 'Should I give up my wine, which brings joy to both God and people, just to go sway over the other trees?'"
+    },
+    {
+      "verse": 14,
+      "kjv": "Then said all the trees unto the bramble, Come thou, and reign over us.",
+      "ct": "\"Finally, all the trees said to the thornbush, 'Come and rule over us.'"
+    },
+    {
+      "verse": 15,
+      "kjv": "And the bramble said unto the trees, If in truth ye anoint me king over you, then come and put your trust in my shadow: and if not, let fire come out of the bramble, and devour the cedars of Lebanon.",
+      "ct": "\"The thornbush replied, 'If you truly want to anoint me as your king, then come and take shelter in my shade. But if not, let fire blaze out of this thornbush and consume even the cedars of Lebanon!'\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Now therefore, if ye have done truly and sincerely, in that ye have made Abimelech king, and if ye have dealt well with Jerubbaal and his house, and have done unto him according to the deserving of his hands;",
+      "ct": "\"So now — if you acted with honesty and integrity when you made Abimelech king, and if you treated Jerubbaal and his family fairly, giving him what he deserved —"
+    },
+    {
+      "verse": 17,
+      "kjv": "(For my father fought for you, and adventured his life far, and delivered you out of the hand of Midian:",
+      "ct": "\"because my father fought on your behalf and risked his life to rescue you from Midian's power —"
+    },
+    {
+      "verse": 18,
+      "kjv": "And ye are risen up against my father’s house this day, and have slain his sons, threescore and ten persons, upon one stone, and have made Abimelech, the son of his maidservant, king over the men of Shechem, because he is your brother;)",
+      "ct": "\"but today you have turned against my father's family, killed his sons — 70 men — on a single stone, and made Abimelech, the son of his servant wife, king over the men of Shechem just because he is your relative —"
+    },
+    {
+      "verse": 19,
+      "kjv": "If ye then have dealt truly and sincerely with Jerubbaal and with his house this day, then rejoice ye in Abimelech, and let him also rejoice in you:",
+      "ct": "\"if you have truly acted with honesty and integrity toward Jerubbaal and his family today, then enjoy Abimelech, and may he enjoy you!"
+    },
+    {
+      "verse": 20,
+      "kjv": "But if not, let fire come out from Abimelech, and devour the men of Shechem, and the house of Millo; and let fire come out from the men of Shechem, and from the house of Millo, and devour Abimelech.",
+      "ct": "\"But if not, may fire blaze out from Abimelech and consume the men of Shechem and Beth-millo, and may fire blaze out from the men of Shechem and Beth-millo and consume Abimelech!\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Jotham ran away, and fled, and went to Beer, and dwelt there, for fear of Abimelech his brother.",
+      "ct": "Then Jotham escaped and fled to Beer, where he settled down, staying away because he was afraid of his brother Abimelech."
+    },
+    {
+      "verse": 22,
+      "kjv": "When Abimelech had reigned three years over Israel,",
+      "ct": "After Abimelech had governed Israel for 3 years,"
+    },
+    {
+      "verse": 23,
+      "kjv": "Then God sent an evil spirit between Abimelech and the men of Shechem; and the men of Shechem dealt treacherously with Abimelech:",
+      "ct": "God sent a spirit of hostility between Abimelech and the men of Shechem, and the men of Shechem turned against Abimelech."
+    },
+    {
+      "verse": 24,
+      "kjv": "That the cruelty done to the threescore and ten sons of Jerubbaal might come, and their blood be laid upon Abimelech their brother, which slew them; and upon the men of Shechem, which aided him in the killing of his brethren.",
+      "ct": "This happened so that the violent crime against Jerubbaal's 70 sons would be avenged — their blood charged against both their brother Abimelech, who killed them, and the men of Shechem, who helped him murder his brothers."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the men of Shechem set liers in wait for him in the top of the mountains, and they robbed all that came along that way by them: and it was told Abimelech.",
+      "ct": "The men of Shechem posted ambushes for him on the hilltops and robbed everyone who traveled along those roads. Abimelech was informed about this."
+    },
+    {
+      "verse": 26,
+      "kjv": "And Gaal the son of Ebed came with his brethren, and went over to Shechem: and the men of Shechem put their confidence in him.",
+      "ct": "Meanwhile, Gaal son of Ebed arrived in Shechem with his brothers, and the men of Shechem placed their trust in him."
+    },
+    {
+      "verse": 27,
+      "kjv": "And they went out into the fields, and gathered their vineyards, and trode the grapes, and made merry, and went into the house of their god, and did eat and drink, and cursed Abimelech.",
+      "ct": "They went out into the fields, harvested their grapes, stomped them, and held a celebration. Then they went into the temple of their god, where they ate and drank and hurled insults at Abimelech."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Gaal the son of Ebed said, Who is Abimelech, and who is Shechem, that we should serve him? is not he the son of Jerubbaal? and Zebul his officer? serve the men of Hamor the father of Shechem: for why should we serve him?",
+      "ct": "Gaal son of Ebed said, \"Who does Abimelech think he is? And why should Shechem serve him? Isn't he just the son of Jerubbaal, with Zebul as his deputy? You should serve the descendants of Hamor, the founder of Shechem! Why should we serve Abimelech?\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And would to God this people were under my hand! then would I remove Abimelech. And he said to Abimelech, Increase thine army, and come out.",
+      "ct": "\"If only these people were under my command — I would get rid of Abimelech!\" He taunted Abimelech, saying, \"Build up your army and come fight!\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And when Zebul the ruler of the city heard the words of Gaal the son of Ebed, his anger was kindled.",
+      "ct": "When Zebul, the governor of the city, heard what Gaal son of Ebed had said, he became furious."
+    },
+    {
+      "verse": 31,
+      "kjv": "And he sent messengers unto Abimelech privily, saying, Behold, Gaal the son of Ebed and his brethren be come to Shechem; and, behold, they fortify the city against thee.",
+      "ct": "He secretly sent messengers to Abimelech, saying, \"Pay attention — Gaal son of Ebed and his brothers have come to Shechem, and they are stirring up the city against you."
+    },
+    {
+      "verse": 32,
+      "kjv": "Now therefore up by night, thou and the people that is with thee, and lie in wait in the field:",
+      "ct": "\"So move tonight — you and your forces — and set up an ambush in the fields."
+    },
+    {
+      "verse": 33,
+      "kjv": "And it shall be, that in the morning, as soon as the sun is up, thou shalt rise early, and set upon the city: and, behold, when he and the people that is with him come out against thee, then mayest thou do to them as thou shalt find occasion.",
+      "ct": "\"Then at dawn, as soon as the sun rises, rush toward the city. When Gaal and his men come out to face you, do whatever the situation calls for.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And Abimelech rose up, and all the people that were with him, by night, and they laid wait against Shechem in four companies.",
+      "ct": "So Abimelech and all his forces moved out during the night and positioned themselves around Shechem in 4 groups."
+    },
+    {
+      "verse": 35,
+      "kjv": "And Gaal the son of Ebed went out, and stood in the entering of the gate of the city: and Abimelech rose up, and the people that were with him, from lying in wait.",
+      "ct": "When Gaal son of Ebed came out and was standing at the entrance of the city gate, Abimelech and his forces emerged from their hiding places."
+    },
+    {
+      "verse": 36,
+      "kjv": "And when Gaal saw the people, he said to Zebul, Behold, there come people down from the top of the mountains. And Zebul said unto him, Thou seest the shadow of the mountains as if they were men.",
+      "ct": "Gaal spotted the troops and said to Zebul, \"Look — there are people coming down from the hilltops!\" Zebul replied, \"You're just seeing the shadows of the mountains — they look like people.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "And Gaal spake again and said, See there come people down by the middle of the land, and another company come along by the plain of Meonenim.",
+      "ct": "But Gaal spoke up again: \"No, look! There are people coming down from the central highlands, and another group is approaching from the direction of the Diviners' Oak.\""
+    },
+    {
+      "verse": 38,
+      "kjv": "Then said Zebul unto him, Where is now thy mouth, wherewith thou saidst, Who is Abimelech, that we should serve him? is not this the people that thou hast despised? go out, I pray now, and fight with them.",
+      "ct": "Zebul turned to him and said, \"Where's all that big talk now? You're the one who said, 'Who is Abimelech that we should serve him?' These are the very people you mocked. Go out now and fight them!\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And Gaal went out before the men of Shechem, and fought with Abimelech.",
+      "ct": "So Gaal led the men of Shechem out and fought against Abimelech."
+    },
+    {
+      "verse": 40,
+      "kjv": "And Abimelech chased him, and he fled before him, and many were overthrown and wounded, even unto the entering of the gate.",
+      "ct": "But Abimelech chased him, and Gaal ran from him. Many fell wounded all the way to the entrance of the gate."
+    },
+    {
+      "verse": 41,
+      "kjv": "And Abimelech dwelt at Arumah: and Zebul thrust out Gaal and his brethren, that they should not dwell in Shechem.",
+      "ct": "Abimelech stayed at Arumah, while Zebul drove Gaal and his brothers out of Shechem, refusing to let them remain there."
+    },
+    {
+      "verse": 42,
+      "kjv": "And it came to pass on the morrow, that the people went out into the field; and they told Abimelech.",
+      "ct": "The next day, the people of Shechem went out into the fields, and someone reported this to Abimelech."
+    },
+    {
+      "verse": 43,
+      "kjv": "And he took the people, and divided them into three companies, and laid wait in the field, and looked, and, behold, the people were come forth out of the city; and he rose up against them, and smote them.",
+      "ct": "He took his forces, split them into 3 groups, and set up an ambush in the fields. When he saw the people coming out of the city, he attacked them."
+    },
+    {
+      "verse": 44,
+      "kjv": "And Abimelech, and the company that was with him, rushed forward, and stood in the entering of the gate of the city: and the two other companies ran upon all the people that were in the fields, and slew them.",
+      "ct": "Abimelech and the group with him rushed forward and took their position at the entrance of the city gate, while the other 2 groups charged at everyone who was out in the fields and killed them."
+    },
+    {
+      "verse": 45,
+      "kjv": "And Abimelech fought against the city all that day; and he took the city, and slew the people that was therein, and beat down the city, and sowed it with salt.",
+      "ct": "Abimelech fought against the city throughout that entire day. He captured it, killed the people inside, tore the city down, and scattered salt over the ground."
+    },
+    {
+      "verse": 46,
+      "kjv": "And when all the men of the tower of Shechem heard that, they entered into an hold of the house of the god Berith.",
+      "ct": "When the leading men in the tower of Shechem heard about this, they took refuge in the stronghold of the temple of El-berith."
+    },
+    {
+      "verse": 47,
+      "kjv": "And it was told Abimelech, that all the men of the tower of Shechem were gathered together.",
+      "ct": "Abimelech was told that all the leading men of the tower of Shechem had gathered there."
+    },
+    {
+      "verse": 48,
+      "kjv": "And Abimelech gat him up to mount Zalmon, he and all the people that were with him; and Abimelech took an axe in his hand, and cut down a bough from the trees, and took it, and laid it on his shoulder, and said unto the people that were with him, What ye have seen me do, make haste, and do as I have done.",
+      "ct": "So Abimelech went up to Mount Zalmon with all his forces. He grabbed an axe, chopped off a tree branch, lifted it onto his shoulder, and told his men, \"Hurry — do exactly what you just saw me do!\""
+    },
+    {
+      "verse": 49,
+      "kjv": "And all the people likewise cut down every man his bough, and followed Abimelech, and put them to the hold, and set the hold on fire upon them; so that all the men of the tower of Shechem died also, about a thousand men and women.",
+      "ct": "Each man cut his own branch and followed Abimelech. They piled the branches against the stronghold and set it on fire with the people still inside. Everyone in the tower of Shechem died — about 1,000 men and women."
+    },
+    {
+      "verse": 50,
+      "kjv": "Then went Abimelech to Thebez, and encamped against Thebez, and took it.",
+      "ct": "Then Abimelech marched to Thebez, besieged it, and captured it."
+    },
+    {
+      "verse": 51,
+      "kjv": "But there was a strong tower within the city, and thither fled all the men and women, and all they of the city, and shut it to them, and gat them up to the top of the tower.",
+      "ct": "But there was a fortified tower inside the city, and all the men, women, and residents of the city fled into it, locked the door behind them, and climbed to the roof."
+    },
+    {
+      "verse": 52,
+      "kjv": "And Abimelech came unto the tower, and fought against it, and went hard unto the door of the tower to burn it with fire.",
+      "ct": "Abimelech advanced to the tower and attacked it. He approached the entrance of the tower to set it on fire."
+    },
+    {
+      "verse": 53,
+      "kjv": "And a certain woman cast a piece of a millstone upon Abimelech’s head, and all to brake his skull.",
+      "ct": "But a woman dropped a piece of a millstone on Abimelech's head and cracked his skull."
+    },
+    {
+      "verse": 54,
+      "kjv": "Then he called hastily unto the young man his armourbearer, and said unto him, Draw thy sword, and slay me, that men say not of me, A woman slew him. And his young man thrust him through, and he died.",
+      "ct": "He quickly called to the young man who carried his weapons and said, \"Pull out your sword and finish me off, so no one can say a woman killed me.\" So the young man ran him through, and he died."
+    },
+    {
+      "verse": 55,
+      "kjv": "And when the men of Israel saw that Abimelech was dead, they departed every man unto his place.",
+      "ct": "When the Israelites saw that Abimelech was dead, everyone went home."
+    },
+    {
+      "verse": 56,
+      "kjv": "Thus God rendered the wickedness of Abimelech, which he did unto his father, in slaying his seventy brethren:",
+      "ct": "In this way God repaid Abimelech for the evil he had done to his father by killing his 70 brothers."
+    },
+    {
+      "verse": 57,
+      "kjv": "And all the evil of the men of Shechem did God render upon their heads: and upon them came the curse of Jotham the son of Jerubbaal.",
+      "ct": "God also brought all the evil of the men of Shechem back down on their own heads, and the curse that Jotham son of Jerubbaal had spoken came true against them."
+    }
+  ]
+}

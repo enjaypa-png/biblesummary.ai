@@ -1,0 +1,80 @@
+{
+  "book": "hebrews",
+  "book_name": "Hebrews",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.469Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "For every high priest taken from among men is ordained for men in things pertaining to God, that he may offer both gifts and sacrifices for sins:",
+      "ct": "Every high priest is chosen from among ordinary people and appointed to represent them before God, specifically to present offerings and sacrifices for sins."
+    },
+    {
+      "verse": 2,
+      "kjv": "Who can have compassion on the ignorant, and on them that are out of the way; for that he himself also is compassed with infirmity.",
+      "ct": "He is able to deal gently with those who are uninformed or wandering off track, since he himself struggles with weakness."
+    },
+    {
+      "verse": 3,
+      "kjv": "And by reason hereof he ought, as for the people, so also for himself, to offer for sins.",
+      "ct": "Because of this weakness, he must offer sacrifices for his own sins just as much as for the sins of the people."
+    },
+    {
+      "verse": 4,
+      "kjv": "And no man taketh this honour unto himself, but he that is called of God, as was Aaron.",
+      "ct": "No one takes this honored position on his own — he must be called by God, just as Aaron was."
+    },
+    {
+      "verse": 5,
+      "kjv": "So also Christ glorified not himself to be made an high priest; but he that said unto him, Thou art my Son, to day have I begotten thee.",
+      "ct": "In the same way, Christ did not promote himself to the role of high priest. Instead, God said to him, 'You are my Son; today I have become your Father.'"
+    },
+    {
+      "verse": 6,
+      "kjv": "As he saith also in another place, Thou art a priest for ever after the order of Melchisedec.",
+      "ct": "And in another passage God says, 'You are a priest forever, in the tradition of Melchisedec.'"
+    },
+    {
+      "verse": 7,
+      "kjv": "Who in the days of his flesh, when he had offered up prayers and supplications with strong crying and tears unto him that was able to save him from death, and was heard in that he feared;",
+      "ct": "During his time on earth, Jesus poured out prayers and desperate pleas with loud cries and tears to the one who could rescue him from death, and he was heard because of his deep reverence."
+    },
+    {
+      "verse": 8,
+      "kjv": "Though he were a Son, yet learned he obedience by the things which he suffered;",
+      "ct": "Even though he was God's Son, he learned obedience through the things he suffered."
+    },
+    {
+      "verse": 9,
+      "kjv": "And being made perfect, he became the author of eternal salvation unto all them that obey him;",
+      "ct": "Once he was made complete through this process, he became the source of eternal salvation for everyone who obeys him,"
+    },
+    {
+      "verse": 10,
+      "kjv": "Called of God an high priest after the order of Melchisedec.",
+      "ct": "having been designated by God as a high priest in the tradition of Melchisedec."
+    },
+    {
+      "verse": 11,
+      "kjv": "Of whom we have many things to say, and hard to be uttered, seeing ye are dull of hearing.",
+      "ct": "There is so much more we could say about this, but it's difficult to explain because you have become slow to understand."
+    },
+    {
+      "verse": 12,
+      "kjv": "For when for the time ye ought to be teachers, ye have need that one teach you again which be the first principles of the oracles of God; and are become such as have need of milk, and not of strong meat.",
+      "ct": "By now you should be teaching others, yet you need someone to go back and teach you the most basic truths of God's word all over again. You've gone back to needing milk instead of solid food."
+    },
+    {
+      "verse": 13,
+      "kjv": "For every one that useth milk is unskilful in the word of righteousness: for he is a babe.",
+      "ct": "Anyone who is still living on milk hasn't developed skill in the message of righteousness — that person is still an infant."
+    },
+    {
+      "verse": 14,
+      "kjv": "But strong meat belongeth to them that are of full age, even those who by reason of use have their senses exercised to discern both good and evil.",
+      "ct": "Solid food, however, is for the mature — those who through constant practice have trained their minds to distinguish between good and evil."
+    }
+  ]
+}

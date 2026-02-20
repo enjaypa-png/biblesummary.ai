@@ -1,0 +1,145 @@
+{
+  "book": "acts",
+  "book_name": "Acts",
+  "chapter": 24,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.397Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And after five days Ananias the high priest descended with the elders, and with a certain orator named Tertullus, who informed the governor against Paul.",
+      "ct": "5 days later, Ananias the high priest came down with some elders and a lawyer named Tertullus, and they presented their case against Paul to the governor."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when he was called forth, Tertullus began to accuse him, saying, Seeing that by thee we enjoy great quietness, and that very worthy deeds are done unto this nation by thy providence,",
+      "ct": "When Paul was brought in, Tertullus opened with his accusation: \"Because of you, we have enjoyed a long period of peace, and your wise leadership has brought about important reforms for our nation."
+    },
+    {
+      "verse": 3,
+      "kjv": "We accept it always, and in all places, most noble Felix, with all thankfulness.",
+      "ct": "We acknowledge this everywhere and at all times, most excellent Felix, with deep gratitude."
+    },
+    {
+      "verse": 4,
+      "kjv": "Notwithstanding, that I be not further tedious unto thee, I pray thee that thou wouldest hear us of thy clemency a few words.",
+      "ct": "But so that I don't take up too much of your time, I ask that you would be kind enough to listen to us briefly."
+    },
+    {
+      "verse": 5,
+      "kjv": "For we have found this man a pestilent fellow, and a mover of sedition among all the Jews throughout the world, and a ringleader of the sect of the Nazarenes:",
+      "ct": "We have discovered that this man is a troublemaker who stirs up riots among Jews all over the world. He is a leader of the Nazarene sect."
+    },
+    {
+      "verse": 6,
+      "kjv": "Who also hath gone about to profane the temple: whom we took, and would have judged according to our law.",
+      "ct": "He even tried to desecrate the temple, so we arrested him and intended to try him by our own law."
+    },
+    {
+      "verse": 7,
+      "kjv": "But the chief captain Lysias came upon us, and with great violence took him away out of our hands,",
+      "ct": "But the commander Lysias intervened and forcibly took him from our custody,"
+    },
+    {
+      "verse": 8,
+      "kjv": "Commanding his accusers to come unto thee: by examining of whom thyself mayest take knowledge of all these things, whereof we accuse him.",
+      "ct": "ordering his accusers to come before you. When you examine him yourself, you will be able to verify everything we are charging him with.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the Jews also assented, saying that these things were so.",
+      "ct": "The Jewish leaders backed this up, confirming that all of it was true."
+    },
+    {
+      "verse": 10,
+      "kjv": "Then Paul, after that the governor had beckoned unto him to speak, answered, Forasmuch as I know that thou hast been of many years a judge unto this nation, I do the more cheerfully answer for myself:",
+      "ct": "When the governor motioned for Paul to speak, he responded: \"I know that you have served as a judge over this nation for many years, so I am glad to present my defense before you."
+    },
+    {
+      "verse": 11,
+      "kjv": "Because that thou mayest understand, that there are yet but twelve days since I went up to Jerusalem for to worship.",
+      "ct": "As you can easily confirm, it has only been 12 days since I went up to Jerusalem to worship."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they neither found me in the temple disputing with any man, neither raising up the people, neither in the synagogues, nor in the city:",
+      "ct": "No one found me arguing with anyone in the temple, or stirring up crowds in the synagogues, or anywhere else in the city."
+    },
+    {
+      "verse": 13,
+      "kjv": "Neither can they prove the things whereof they now accuse me.",
+      "ct": "They cannot prove any of the charges they are now bringing against me."
+    },
+    {
+      "verse": 14,
+      "kjv": "But this I confess unto thee, that after the way which they call heresy, so worship I the God of my fathers, believing all things which are written in the law and in the prophets:",
+      "ct": "But I will admit this to you: I worship the God of my ancestors according to the Way, which they call a heresy. I believe everything written in the Law and the Prophets."
+    },
+    {
+      "verse": 15,
+      "kjv": "And have hope toward God, which they themselves also allow, that there shall be a resurrection of the dead, both of the just and unjust.",
+      "ct": "I share the same hope in God that these men themselves hold — that there will be a resurrection of both the righteous and the unrighteous."
+    },
+    {
+      "verse": 16,
+      "kjv": "And herein do I exercise myself, to have always a conscience void of offence toward God, and toward men.",
+      "ct": "Because of this, I always strive to keep my conscience clear before both God and people."
+    },
+    {
+      "verse": 17,
+      "kjv": "Now after many years I came to bring alms to my nation, and offerings.",
+      "ct": "After being away for several years, I came back to bring charitable gifts to my people and to present offerings."
+    },
+    {
+      "verse": 18,
+      "kjv": "Whereupon certain Jews from Asia found me purified in the temple, neither with multitude, nor with tumult.",
+      "ct": "That is when some Jews from the province of Asia found me in the temple. I had completed the purification rituals, and I was not with any crowd or causing any disturbance."
+    },
+    {
+      "verse": 19,
+      "kjv": "Who ought to have been here before thee, and object, if they had ought against me.",
+      "ct": "Those are the ones who should be here in front of you making accusations, if they actually have anything against me."
+    },
+    {
+      "verse": 20,
+      "kjv": "Or else let these same here say, if they have found any evil doing in me, while I stood before the council,",
+      "ct": "Or let these men here state what crime they found me guilty of when I stood before the council,"
+    },
+    {
+      "verse": 21,
+      "kjv": "Except it be for this one voice, that I cried standing among them, Touching the resurrection of the dead I am called in question by you this day.",
+      "ct": "unless it is this one statement I shouted while standing among them: 'I am on trial before you today because of the resurrection of the dead.'\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And when Felix heard these things, having more perfect knowledge of that way, he deferred them, and said, When Lysias the chief captain shall come down, I will know the uttermost of your matter.",
+      "ct": "Felix, who was already fairly well informed about the Way, adjourned the proceedings. He said, \"When Commander Lysias comes down, I will make a full decision on your case.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And he commanded a centurion to keep Paul, and to let him have liberty, and that he should forbid none of his acquaintance to minister or come unto him.",
+      "ct": "He ordered the centurion to keep Paul in custody but to give him some freedom, and not to prevent any of his friends from taking care of him or visiting him."
+    },
+    {
+      "verse": 24,
+      "kjv": "And after certain days, when Felix came with his wife Drusilla, which was a Jewess, he sent for Paul, and heard him concerning the faith in Christ.",
+      "ct": "Some days later, Felix arrived with his wife Drusilla, who was Jewish. He sent for Paul and listened to him talk about faith in Christ."
+    },
+    {
+      "verse": 25,
+      "kjv": "And as he reasoned of righteousness, temperance, and judgment to come, Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee.",
+      "ct": "But as Paul discussed righteousness, self-control, and the coming judgment, Felix became frightened and said, \"That's enough for now. You can go. I'll send for you when I find a more suitable time.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "He hoped also that money should have been given him of Paul, that he might loose him: wherefore he sent for him the oftener, and communed with him.",
+      "ct": "At the same time, he was hoping Paul would offer him a bribe to release him. So he sent for Paul frequently and talked with him."
+    },
+    {
+      "verse": 27,
+      "kjv": "But after two years Porcius Festus came into Felix’ room: and Felix, willing to shew the Jews a pleasure, left Paul bound.",
+      "ct": "After 2 years had passed, Felix was replaced by Porcius Festus. Wanting to do the Jewish leaders a favor, Felix left Paul in prison."
+    }
+  ]
+}

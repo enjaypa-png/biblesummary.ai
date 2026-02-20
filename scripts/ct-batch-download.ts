@@ -5,29 +5,63 @@
  * in the same format as the real-time generator (data/translations/ct/).
  *
  * Usage:
- *   npm run ct:batch:download                       # Download latest batch
- *   npm run ct:batch:download -- --id msgbatch_xxx   # Download specific batch
+ *   npm run ct:batch:download                                # Download latest batch
+ *   npm run ct:batch:download -- --id msgbatch_xxx            # Download specific batch
+ *   npm run ct:batch:download -- --source github              # Use local KJV files instead of Supabase
  */
 
 import Anthropic from '@anthropic-ai/sdk';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as dotenv from 'dotenv';
-import { createClient } from '@supabase/supabase-js';
 
 dotenv.config({ path: path.join(process.cwd(), '.env.local') });
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
-const supabase = createClient(supabaseUrl, supabaseServiceKey, {
-  auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
-});
-
 const OUTPUT_DIR = path.join(process.cwd(), 'data', 'translations', 'ct');
 const BATCH_DIR = path.join(process.cwd(), 'data', 'translations', 'ct-batch');
 const MODEL = 'claude-opus-4-6';
+
+// ─── GitHub / Local KJV Support ──────────────────────────────────────────────
+
+interface GitHubBookData {
+  book: string;
+  chapters: {
+    chapter: string;
+    verses: { verse: string; text: string }[];
+  }[];
+}
+
+const githubCache = new Map<string, GitHubBookData>();
+
+function getKjvVersesFromLocal(bookSlug: string, chapter: number): { verse: number; text: string }[] | null {
+  if (!githubCache.has(bookSlug)) {
+    const localPath = path.join(process.cwd(), 'data', `kjv-${bookSlug}.json`);
+    if (!fs.existsSync(localPath)) return null;
+    githubCache.set(bookSlug, JSON.parse(fs.readFileSync(localPath, 'utf-8')));
+  }
+  const bookData = githubCache.get(bookSlug)!;
+  const chapterData = bookData.chapters.find(c => parseInt(c.chapter) === chapter);
+  if (!chapterData) return null;
+  return chapterData.verses.map(v => ({ verse: parseInt(v.verse), text: v.text }));
+}
+
+// ─── Supabase (lazy-loaded only when needed) ─────────────────────────────────
+
+let supabase: any = null;
+
+function getSupabase() {
+  if (!supabase) {
+    const { createClient } = require('@supabase/supabase-js');
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+    const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+    supabase = createClient(supabaseUrl, supabaseServiceKey, {
+      auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }
+    });
+  }
+  return supabase;
+}
 
 interface ChapterMap {
   custom_id: string;
@@ -42,15 +76,23 @@ interface BatchInfo {
 }
 
 async function main() {
-  // Get batch ID
+  // Parse CLI args
   const args = process.argv.slice(2);
   let batchId: string | null = null;
+  let source: 'supabase' | 'github' = 'supabase';
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--id' && args[i + 1]) {
       batchId = args[i + 1];
       i++;
+    } else if (args[i] === '--source' && args[i + 1]) {
+      source = args[i + 1] as any;
+      i++;
     }
+  }
+
+  if (source === 'github') {
+    console.log('  Using local KJV files (--source github)\n');
   }
 
   let batchInfo: BatchInfo;
@@ -150,16 +192,27 @@ async function main() {
     }
 
     // Fetch KJV verses for side-by-side output
-    const { data: kjvVerses } = await supabase
-      .from('verses')
-      .select('verse, text')
-      .eq('book_id', (await supabase
+    let kjvVerses: { verse: number; text: string }[] | null = null;
+
+    if (source === 'github') {
+      kjvVerses = getKjvVersesFromLocal(chapterInfo.book_slug, chapterInfo.chapter);
+    } else {
+      const sb = getSupabase();
+      const { data: bookRow } = await sb
         .from('books')
         .select('id')
         .eq('slug', chapterInfo.book_slug)
-        .single()).data?.id)
-      .eq('chapter', chapterInfo.chapter)
-      .order('verse');
+        .single();
+      if (bookRow) {
+        const { data } = await sb
+          .from('verses')
+          .select('verse, text')
+          .eq('book_id', bookRow.id)
+          .eq('chapter', chapterInfo.chapter)
+          .order('verse');
+        kjvVerses = data;
+      }
+    }
 
     // Build output in same format as real-time generator
     const output = {

@@ -1,0 +1,235 @@
+{
+  "book": "mark",
+  "book_name": "Mark",
+  "chapter": 1,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.307Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The beginning of the gospel of Jesus Christ, the Son of God;",
+      "ct": "This is the starting point of the good news about Jesus Christ, the Son of God."
+    },
+    {
+      "verse": 2,
+      "kjv": "As it is written in the prophets, Behold, I send my messenger before thy face, which shall prepare thy way before thee.",
+      "ct": "As the prophets wrote long ago: \"Look, I am sending my messenger ahead of you, who will get everything ready for your arrival.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.",
+      "ct": "\"A voice is calling out in the wilderness: 'Get the road ready for the Lord! Straighten out the paths for him.'\""
+    },
+    {
+      "verse": 4,
+      "kjv": "John did baptize in the wilderness, and preach the baptism of repentance for the remission of sins.",
+      "ct": "John appeared in the wilderness, baptizing people and proclaiming that they should be baptized as a sign of turning from sin to receive forgiveness."
+    },
+    {
+      "verse": 5,
+      "kjv": "And there went out unto him all the land of Judaea, and they of Jerusalem, and were all baptized of him in the river of Jordan, confessing their sins.",
+      "ct": "People from all across Judea and Jerusalem traveled out to him. They confessed their sins and were baptized by him in the Jordan River."
+    },
+    {
+      "verse": 6,
+      "kjv": "And John was clothed with camel’s hair, and with a girdle of a skin about his loins; and he did eat locusts and wild honey;",
+      "ct": "John wore clothing made from camel's hair with a leather belt around his waist, and his diet consisted of locusts and wild honey."
+    },
+    {
+      "verse": 7,
+      "kjv": "And preached, saying, There cometh one mightier than I after me, the latchet of whose shoes I am not worthy to stoop down and unloose.",
+      "ct": "He proclaimed, \"Someone far more powerful than me is coming after me. I'm not even worthy to kneel down and untie his sandals.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "I indeed have baptized you with water: but he shall baptize you with the Holy Ghost.",
+      "ct": "\"I have baptized you with water, but he will baptize you with the Holy Spirit.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized of John in Jordan.",
+      "ct": "During that time, Jesus arrived from Nazareth in Galilee and was baptized by John in the Jordan."
+    },
+    {
+      "verse": 10,
+      "kjv": "And straightway coming up out of the water, he saw the heavens opened, and the Spirit like a dove descending upon him:",
+      "ct": "The moment he came up out of the water, he saw the heavens torn open and the Spirit coming down on him like a dove."
+    },
+    {
+      "verse": 11,
+      "kjv": "And there came a voice from heaven, saying, Thou art my beloved Son, in whom I am well pleased.",
+      "ct": "Then a voice spoke from heaven: \"You are my Son, the one I love. I am completely pleased with you.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And immediately the Spirit driveth him into the wilderness.",
+      "ct": "Right away, the Spirit drove him out into the wilderness."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he was there in the wilderness forty days, tempted of Satan; and was with the wild beasts; and the angels ministered unto him.",
+      "ct": "He stayed in the wilderness for 40 days, being tested by Satan. He was surrounded by wild animals, and the angels took care of him."
+    },
+    {
+      "verse": 14,
+      "kjv": "Now after that John was put in prison, Jesus came into Galilee, preaching the gospel of the kingdom of God,",
+      "ct": "After John was arrested, Jesus went to Galilee and began spreading the good news of God's kingdom."
+    },
+    {
+      "verse": 15,
+      "kjv": "And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel.",
+      "ct": "He said, \"The time has arrived, and God's kingdom is right here! Turn from your sins and put your faith in the good news.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Now as he walked by the sea of Galilee, he saw Simon and Andrew his brother casting a net into the sea: for they were fishers.",
+      "ct": "As he was walking along the shore of the Sea of Galilee, he noticed Simon and his brother Andrew throwing a net into the water, since they were fishermen."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Jesus said unto them, Come ye after me, and I will make you to become fishers of men.",
+      "ct": "Jesus told them, \"Follow me, and I will turn you into fishers of people.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And straightway they forsook their nets, and followed him.",
+      "ct": "Immediately they dropped their nets and went with him."
+    },
+    {
+      "verse": 19,
+      "kjv": "And when he had gone a little farther thence, he saw James the son of Zebedee, and John his brother, who also were in the ship mending their nets.",
+      "ct": "Going a little farther down the shore, he spotted James son of Zebedee and his brother John in their boat, repairing their nets."
+    },
+    {
+      "verse": 20,
+      "kjv": "And straightway he called them: and they left their father Zebedee in the ship with the hired servants, and went after him.",
+      "ct": "He called out to them right away, and they left their father Zebedee in the boat with the hired workers and went with Jesus."
+    },
+    {
+      "verse": 21,
+      "kjv": "And they went into Capernaum; and straightway on the sabbath day he entered into the synagogue, and taught.",
+      "ct": "They made their way to Capernaum, and as soon as the Sabbath came, Jesus went into the synagogue and started teaching."
+    },
+    {
+      "verse": 22,
+      "kjv": "And they were astonished at his doctrine: for he taught them as one that had authority, and not as the scribes.",
+      "ct": "The people were stunned by his teaching, because he spoke as someone with real authority — completely unlike the scribes."
+    },
+    {
+      "verse": 23,
+      "kjv": "And there was in their synagogue a man with an unclean spirit; and he cried out,",
+      "ct": "Just then, a man in their synagogue who was controlled by an evil spirit screamed out,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Saying, Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art, the Holy One of God.",
+      "ct": "\"Leave us alone! What do you want with us, Jesus of Nazareth? Have you come to destroy us? I know exactly who you are — the Holy One of God!\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And Jesus rebuked him, saying, Hold thy peace, and come out of him.",
+      "ct": "Jesus commanded the spirit sharply, \"Be quiet and come out of him!\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And when the unclean spirit had torn him, and cried with a loud voice, he came out of him.",
+      "ct": "The evil spirit threw the man into convulsions, let out a loud shriek, and came out of him."
+    },
+    {
+      "verse": 27,
+      "kjv": "And they were all amazed, insomuch that they questioned among themselves, saying, What thing is this? what new doctrine is this? for with authority commandeth he even the unclean spirits, and they do obey him.",
+      "ct": "Everyone was so amazed that they started debating with each other: \"What is this? Some kind of new teaching? He gives orders to evil spirits with authority, and they actually obey him!\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And immediately his fame spread abroad throughout all the region round about Galilee.",
+      "ct": "News about him spread rapidly across the entire region surrounding Galilee."
+    },
+    {
+      "verse": 29,
+      "kjv": "And forthwith, when they were come out of the synagogue, they entered into the house of Simon and Andrew, with James and John.",
+      "ct": "As soon as they left the synagogue, they went directly to the home of Simon and Andrew, along with James and John."
+    },
+    {
+      "verse": 30,
+      "kjv": "But Simon’s wife’s mother lay sick of a fever, and anon they tell him of her.",
+      "ct": "Simon's mother-in-law was in bed with a fever, and they immediately told Jesus about her."
+    },
+    {
+      "verse": 31,
+      "kjv": "And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministered unto them.",
+      "ct": "He went to her, took her hand, and helped her up. The fever left her instantly, and she began serving them."
+    },
+    {
+      "verse": 32,
+      "kjv": "And at even, when the sun did set, they brought unto him all that were diseased, and them that were possessed with devils.",
+      "ct": "That evening after sunset, people brought to him everyone who was sick or tormented by demons."
+    },
+    {
+      "verse": 33,
+      "kjv": "And all the city was gathered together at the door.",
+      "ct": "The whole town crowded around the doorway."
+    },
+    {
+      "verse": 34,
+      "kjv": "And he healed many that were sick of divers diseases, and cast out many devils; and suffered not the devils to speak, because they knew him.",
+      "ct": "He healed many who suffered from all kinds of diseases and drove out many demons. He refused to let the demons speak, because they knew who he was."
+    },
+    {
+      "verse": 35,
+      "kjv": "And in the morning, rising up a great while before day, he went out, and departed into a solitary place, and there prayed.",
+      "ct": "Very early the next morning, long before sunrise, Jesus got up, slipped away to an isolated spot, and prayed there."
+    },
+    {
+      "verse": 36,
+      "kjv": "And Simon and they that were with him followed after him.",
+      "ct": "Simon and the others went searching for him."
+    },
+    {
+      "verse": 37,
+      "kjv": "And when they had found him, they said unto him, All men seek for thee.",
+      "ct": "When they found him, they told him, \"Everyone is looking for you!\""
+    },
+    {
+      "verse": 38,
+      "kjv": "And he said unto them, Let us go into the next towns, that I may preach there also: for therefore came I forth.",
+      "ct": "He replied, \"Let's move on to the nearby towns so I can preach there too. That's the reason I came.\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And he preached in their synagogues throughout all Galilee, and cast out devils.",
+      "ct": "So he traveled throughout all of Galilee, teaching in their synagogues and driving out demons."
+    },
+    {
+      "verse": 40,
+      "kjv": "And there came a leper to him, beseeching him, and kneeling down to him, and saying unto him, If thou wilt, thou canst make me clean.",
+      "ct": "A man with leprosy came to him, dropped to his knees, and pleaded, \"If you are willing, you have the power to make me clean.\""
+    },
+    {
+      "verse": 41,
+      "kjv": "And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him, I will; be thou clean.",
+      "ct": "Filled with compassion, Jesus reached out his hand, touched the man, and said, \"I am willing. Be clean!\""
+    },
+    {
+      "verse": 42,
+      "kjv": "And as soon as he had spoken, immediately the leprosy departed from him, and he was cleansed.",
+      "ct": "The instant he said it, the leprosy vanished and the man was healed."
+    },
+    {
+      "verse": 43,
+      "kjv": "And he straitly charged him, and forthwith sent him away;",
+      "ct": "Jesus sent him off immediately with a stern warning:"
+    },
+    {
+      "verse": 44,
+      "kjv": "And saith unto him, See thou say nothing to any man: but go thy way, shew thyself to the priest, and offer for thy cleansing those things which Moses commanded, for a testimony unto them.",
+      "ct": "\"Don't tell anyone about this. Instead, go show yourself to the priest and present the offerings that Moses required for your cleansing, as evidence for them.\""
+    },
+    {
+      "verse": 45,
+      "kjv": "But he went out, and began to publish it much, and to blaze abroad the matter, insomuch that Jesus could no more openly enter into the city, but was without in desert places: and they came to him from every quarter.",
+      "ct": "But the man went out and started telling everyone, spreading the news so widely that Jesus could no longer enter any town openly. He had to stay out in remote areas, yet people still came to him from everywhere."
+    }
+  ]
+}

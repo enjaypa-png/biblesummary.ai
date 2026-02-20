@@ -1,0 +1,40 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 13,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.947Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "How long wilt thou forget me, O LORD? for ever? how long wilt thou hide thy face from me?",
+      "ct": "How long will you ignore me, LORD? Forever? How long will you withdraw your favor from me?"
+    },
+    {
+      "verse": 2,
+      "kjv": "How long shall I take counsel in my soul, having sorrow in my heart daily? how long shall mine enemy be exalted over me?",
+      "ct": "How long must I wrestle with my own thoughts, carrying grief in my heart every day? How long will my enemy have the upper hand over me?"
+    },
+    {
+      "verse": 3,
+      "kjv": "Consider and hear me, O LORD my God: lighten mine eyes, lest I sleep the sleep of death;",
+      "ct": "Pay attention and answer me, LORD my God. Restore the light in my eyes before I drift into the sleep of death,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Lest mine enemy say, I have prevailed against him; and those that trouble me rejoice when I am moved.",
+      "ct": "before my enemy can say, 'I defeated him,' and my opponents celebrate my downfall."
+    },
+    {
+      "verse": 5,
+      "kjv": "But I have trusted in thy mercy; my heart shall rejoice in thy salvation.",
+      "ct": "But I have put my trust in your mercy; my heart will celebrate your salvation."
+    },
+    {
+      "verse": 6,
+      "kjv": "I will sing unto the LORD, because he hath dealt bountifully with me.",
+      "ct": "I will sing to the LORD, because he has been so generous to me."
+    }
+  ]
+}

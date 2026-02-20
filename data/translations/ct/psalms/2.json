@@ -1,0 +1,70 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 2,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.941Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Why do the heathen rage, and the people imagine a vain thing?",
+      "ct": "Why do the nations revolt, and why do people plot something so pointless?"
+    },
+    {
+      "verse": 2,
+      "kjv": "The kings of the earth set themselves, and the rulers take counsel together, against the LORD, and against his anointed, saying,",
+      "ct": "The kings of the earth take their stand, and the rulers conspire together against the LORD and against his chosen one, saying,"
+    },
+    {
+      "verse": 3,
+      "kjv": "Let us break their bands asunder, and cast away their cords from us.",
+      "ct": "\"Let's tear off their chains and throw their ropes away from us!\""
+    },
+    {
+      "verse": 4,
+      "kjv": "He that sitteth in the heavens shall laugh: the LORD shall have them in derision.",
+      "ct": "The one who sits in the heavens laughs; the LORD mocks them."
+    },
+    {
+      "verse": 5,
+      "kjv": "Then shall he speak unto them in his wrath, and vex them in his sore displeasure.",
+      "ct": "Then he addresses them in his anger and terrifies them with his fierce displeasure."
+    },
+    {
+      "verse": 6,
+      "kjv": "Yet have I set my king upon my holy hill of Zion.",
+      "ct": "\"But I have installed my king on Zion, my holy mountain.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "I will declare the decree: the LORD hath said unto me, Thou art my Son; this day have I begotten thee.",
+      "ct": "I will proclaim the decree: The LORD told me, \"You are my Son; today I have become your Father.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Ask of me, and I shall give thee the heathen for thine inheritance, and the uttermost parts of the earth for thy possession.",
+      "ct": "\"Just ask me, and I will give you the nations as your inheritance, and the farthest corners of the earth as your possession.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Thou shalt break them with a rod of iron; thou shalt dash them in pieces like a potter’s vessel.",
+      "ct": "\"You will shatter them with an iron rod; you will smash them like a clay pot.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Be wise now therefore, O ye kings: be instructed, ye judges of the earth.",
+      "ct": "So then, kings, act wisely. Accept this warning, you rulers of the earth."
+    },
+    {
+      "verse": 11,
+      "kjv": "Serve the LORD with fear, and rejoice with trembling.",
+      "ct": "Serve the LORD with deep reverence, and celebrate with a sense of awe."
+    },
+    {
+      "verse": 12,
+      "kjv": "Kiss the Son, lest he be angry, and ye perish from the way, when his wrath is kindled but a little. Blessed are all they that put their trust in him.",
+      "ct": "Submit to the Son, or he will become angry and you will be destroyed along the way, because his wrath can ignite in an instant. How happy are all who take refuge in him!"
+    }
+  ]
+}

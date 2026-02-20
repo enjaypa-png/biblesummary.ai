@@ -1,0 +1,60 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 146,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.030Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Praise ye the LORD. Praise the LORD, O my soul.",
+      "ct": "Praise the LORD! Let my whole soul praise the LORD."
+    },
+    {
+      "verse": 2,
+      "kjv": "While I live will I praise the LORD: I will sing praises unto my God while I have any being.",
+      "ct": "As long as I'm alive, I will praise the LORD. I will sing to my God for every moment of my existence."
+    },
+    {
+      "verse": 3,
+      "kjv": "Put not your trust in princes, nor in the son of man, in whom there is no help.",
+      "ct": "Don't place your confidence in powerful leaders or in any human being — they cannot save you."
+    },
+    {
+      "verse": 4,
+      "kjv": "His breath goeth forth, he returneth to his earth; in that very day his thoughts perish.",
+      "ct": "When their breath leaves them, they return to the ground. On that same day, all their plans come to nothing."
+    },
+    {
+      "verse": 5,
+      "kjv": "Happy is he that hath the God of Jacob for his help, whose hope is in the LORD his God:",
+      "ct": "How blessed is the person whose help comes from the God of Jacob, whose hope rests in the LORD their God —"
+    },
+    {
+      "verse": 6,
+      "kjv": "Which made heaven, and earth, the sea, and all that therein is: which keepeth truth for ever:",
+      "ct": "the one who made heaven and earth, the sea, and everything in them — the one who remains faithful forever,"
+    },
+    {
+      "verse": 7,
+      "kjv": "Which executeth judgment for the oppressed: which giveth food to the hungry. The LORD looseth the prisoners:",
+      "ct": "who brings justice for those who are oppressed, who provides food for those who are hungry. The LORD sets captives free."
+    },
+    {
+      "verse": 8,
+      "kjv": "The LORD openeth the eyes of the blind: the LORD raiseth them that are bowed down: the LORD loveth the righteous:",
+      "ct": "The LORD gives sight to the blind. The LORD lifts up those who are crushed under burdens. The LORD loves those who live righteously."
+    },
+    {
+      "verse": 9,
+      "kjv": "The LORD preserveth the strangers; he relieveth the fatherless and widow: but the way of the wicked he turneth upside down.",
+      "ct": "The LORD watches over foreigners and supports orphans and widows, but he ruins the plans of the wicked."
+    },
+    {
+      "verse": 10,
+      "kjv": "The LORD shall reign for ever, even thy God, O Zion, unto all generations. Praise ye the LORD.",
+      "ct": "The LORD will rule forever — your God, O Zion — through every generation. Praise the LORD!"
+    }
+  ]
+}

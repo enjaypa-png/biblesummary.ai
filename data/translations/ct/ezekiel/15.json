@@ -1,0 +1,50 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 15,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.181Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the word of the LORD came unto me, saying,",
+      "ct": "The LORD spoke to me and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Son of man, What is the vine tree more than any tree, or than a branch which is among the trees of the forest?",
+      "ct": "\"Son of man, how is a grapevine better than any other kind of wood — better than a branch from any tree in the forest?"
+    },
+    {
+      "verse": 3,
+      "kjv": "Shall wood be taken thereof to do any work? or will men take a pin of it to hang any vessel thereon?",
+      "ct": "Can its wood be used to make anything useful? Can you even carve a peg from it to hang something on?"
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, it is cast into the fire for fuel; the fire devoureth both the ends of it, and the midst of it is burned. Is it meet for any work?",
+      "ct": "Look — it gets thrown into the fire as fuel. The flames consume both ends, and the middle is charred. Can it be used for anything after that?"
+    },
+    {
+      "verse": 5,
+      "kjv": "Behold, when it was whole, it was meet for no work: how much less shall it be meet yet for any work, when the fire hath devoured it, and it is burned?",
+      "ct": "Look — even when it was whole, it wasn't useful for anything. How much less useful is it after the fire has consumed and charred it?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Therefore thus saith the Lord GOD; As the vine tree among the trees of the forest, which I have given to the fire for fuel, so will I give the inhabitants of Jerusalem.",
+      "ct": "So the Lord GOD says this: \"Just as I have tossed the grapevine from among the forest trees into the fire as fuel, that is exactly what I will do with the people of Jerusalem."
+    },
+    {
+      "verse": 7,
+      "kjv": "And I will set my face against them; they shall go out from one fire, and another fire shall devour them; and ye shall know that I am the LORD, when I set my face against them.",
+      "ct": "I will turn against them. They may escape from one fire, but another fire will consume them. Then you will know that I am the LORD, when I have turned against them."
+    },
+    {
+      "verse": 8,
+      "kjv": "And I will make the land desolate, because they have committed a trespass, saith the Lord GOD.",
+      "ct": "I will turn the land into a wasteland because they have been unfaithful,\" declares the Lord GOD."
+    }
+  ]
+}

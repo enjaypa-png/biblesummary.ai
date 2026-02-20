@@ -1,0 +1,340 @@
+{
+  "book": "lamentations",
+  "book_name": "Lamentations",
+  "chapter": 3,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.166Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I AM the man that hath seen affliction by the rod of his wrath.",
+      "ct": "I am the man who has experienced suffering under the force of his anger."
+    },
+    {
+      "verse": 2,
+      "kjv": "He hath led me, and brought me into darkness, but not into light.",
+      "ct": "He has driven me along and pushed me into darkness instead of light."
+    },
+    {
+      "verse": 3,
+      "kjv": "Surely against me is he turned; he turneth his hand against me all the day.",
+      "ct": "He has turned against me repeatedly, striking me again and again all day long."
+    },
+    {
+      "verse": 4,
+      "kjv": "My flesh and my skin hath he made old; he hath broken my bones.",
+      "ct": "He has worn away my skin and my flesh; he has shattered my bones."
+    },
+    {
+      "verse": 5,
+      "kjv": "He hath builded against me, and compassed me with gall and travail.",
+      "ct": "He has surrounded me and enclosed me with hardship and misery."
+    },
+    {
+      "verse": 6,
+      "kjv": "He hath set me in dark places, as they that be dead of old.",
+      "ct": "He has made me live in darkness, like those who died long ago."
+    },
+    {
+      "verse": 7,
+      "kjv": "He hath hedged me about, that I cannot get out: he hath made my chain heavy.",
+      "ct": "He has walled me in so I cannot escape; he has weighed me down with heavy chains."
+    },
+    {
+      "verse": 8,
+      "kjv": "Also when I cry and shout, he shutteth out my prayer.",
+      "ct": "Even when I cry out and scream for help, he blocks my prayer."
+    },
+    {
+      "verse": 9,
+      "kjv": "He hath inclosed my ways with hewn stone, he hath made my paths crooked.",
+      "ct": "He has barricaded my path with cut stone and twisted my roads into dead ends."
+    },
+    {
+      "verse": 10,
+      "kjv": "He was unto me as a bear lying in wait, and as a lion in secret places.",
+      "ct": "He has been like a bear waiting to ambush me, like a lion hiding in the shadows."
+    },
+    {
+      "verse": 11,
+      "kjv": "He hath turned aside my ways, and pulled me in pieces: he hath made me desolate.",
+      "ct": "He dragged me off my path and tore me apart; he left me completely devastated."
+    },
+    {
+      "verse": 12,
+      "kjv": "He hath bent his bow, and set me as a mark for the arrow.",
+      "ct": "He drew his bow and made me the target for his arrows."
+    },
+    {
+      "verse": 13,
+      "kjv": "He hath caused the arrows of his quiver to enter into my reins.",
+      "ct": "He shot the arrows from his quiver deep into my body."
+    },
+    {
+      "verse": 14,
+      "kjv": "I was a derision to all my people; and their song all the day.",
+      "ct": "I became a joke to all my people; they mock me in songs all day long."
+    },
+    {
+      "verse": 15,
+      "kjv": "He hath filled me with bitterness, he hath made me drunken with wormwood.",
+      "ct": "He has stuffed me full of bitterness and forced me to drink poison."
+    },
+    {
+      "verse": 16,
+      "kjv": "He hath also broken my teeth with gravel stones, he hath covered me with ashes.",
+      "ct": "He has ground my teeth against gravel and pressed my face into the dirt."
+    },
+    {
+      "verse": 17,
+      "kjv": "And thou hast removed my soul far off from peace: I forgat prosperity.",
+      "ct": "You have stripped all peace from my soul; I have forgotten what happiness feels like."
+    },
+    {
+      "verse": 18,
+      "kjv": "And I said, My strength and my hope is perished from the LORD:",
+      "ct": "So I said, \"My strength is gone, and my hope from the LORD has vanished.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Remembering mine affliction and my misery, the wormwood and the gall.",
+      "ct": "I remember my suffering and my wandering — the poison and the bitterness."
+    },
+    {
+      "verse": 20,
+      "kjv": "My soul hath them still in remembrance, and is humbled in me.",
+      "ct": "My soul keeps dwelling on it all, and I am crushed inside."
+    },
+    {
+      "verse": 21,
+      "kjv": "This I recall to my mind, therefore have I hope.",
+      "ct": "But this is what I bring back to mind, and it gives me hope:"
+    },
+    {
+      "verse": 22,
+      "kjv": "It is of the LORD’s mercies that we are not consumed, because his compassions fail not.",
+      "ct": "It is because of the LORD's mercy that we have not been destroyed, because his compassion never runs out."
+    },
+    {
+      "verse": 23,
+      "kjv": "They are new every morning: great is thy faithfulness.",
+      "ct": "His mercies are fresh every morning; your faithfulness is immense."
+    },
+    {
+      "verse": 24,
+      "kjv": "The LORD is my portion, saith my soul; therefore will I hope in him.",
+      "ct": "\"The LORD is all I have,\" my soul declares, \"so I will put my hope in him.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "The LORD is good unto them that wait for him, to the soul that seeketh him.",
+      "ct": "The LORD is good to those who wait for him, to the soul that searches for him."
+    },
+    {
+      "verse": 26,
+      "kjv": "It is good that a man should both hope and quietly wait for the salvation of the LORD.",
+      "ct": "It is good to wait with quiet patience for the LORD's salvation."
+    },
+    {
+      "verse": 27,
+      "kjv": "It is good for a man that he bear the yoke in his youth.",
+      "ct": "It is good for a person to carry the burden of discipline while still young."
+    },
+    {
+      "verse": 28,
+      "kjv": "He sitteth alone and keepeth silence, because he hath borne it upon him.",
+      "ct": "Let him sit alone in silence, because God has placed this burden on him."
+    },
+    {
+      "verse": 29,
+      "kjv": "He putteth his mouth in the dust; if so be there may be hope.",
+      "ct": "Let him press his face to the ground — perhaps there is still hope."
+    },
+    {
+      "verse": 30,
+      "kjv": "He giveth his cheek to him that smiteth him: he is filled full with reproach.",
+      "ct": "Let him offer his cheek to the one who strikes him; let him accept the full weight of insult."
+    },
+    {
+      "verse": 31,
+      "kjv": "For the LORD will not cast off for ever:",
+      "ct": "For the Lord does not reject people forever."
+    },
+    {
+      "verse": 32,
+      "kjv": "But though he cause grief, yet will he have compassion according to the multitude of his mercies.",
+      "ct": "Though he brings grief, he will also show compassion because of his abundant mercy."
+    },
+    {
+      "verse": 33,
+      "kjv": "For he doth not afflict willingly nor grieve the children of men.",
+      "ct": "He does not willingly bring suffering or grief to human beings."
+    },
+    {
+      "verse": 34,
+      "kjv": "To crush under his feet all the prisoners of the earth,",
+      "ct": "When prisoners of the land are crushed underfoot,"
+    },
+    {
+      "verse": 35,
+      "kjv": "To turn aside the right of a man before the face of the most High,",
+      "ct": "when someone's rights are denied in the presence of the Most High,"
+    },
+    {
+      "verse": 36,
+      "kjv": "To subvert a man in his cause, the LORD approveth not.",
+      "ct": "when a person is cheated in court — the Lord does not approve of these things."
+    },
+    {
+      "verse": 37,
+      "kjv": "Who is he that saith, and it cometh to pass, when the Lord commandeth it not?",
+      "ct": "Who can speak something into existence unless the Lord has commanded it?"
+    },
+    {
+      "verse": 38,
+      "kjv": "Out of the mouth of the most High proceedeth not evil and good?",
+      "ct": "Don't both disaster and good things come from the mouth of the Most High?"
+    },
+    {
+      "verse": 39,
+      "kjv": "Wherefore doth a living man complain, a man for the punishment of his sins?",
+      "ct": "Why should any living person complain when they are punished for their sins?"
+    },
+    {
+      "verse": 40,
+      "kjv": "Let us search and try our ways, and turn again to the LORD.",
+      "ct": "Let us examine and test our ways, and return to the LORD."
+    },
+    {
+      "verse": 41,
+      "kjv": "Let us lift up our heart with our hands unto God in the heavens.",
+      "ct": "Let us lift up both our hearts and our hands to God in the heavens."
+    },
+    {
+      "verse": 42,
+      "kjv": "We have transgressed and have rebelled: thou hast not pardoned.",
+      "ct": "We have sinned and rebelled, and you have not forgiven."
+    },
+    {
+      "verse": 43,
+      "kjv": "Thou hast covered with anger, and persecuted us: thou hast slain, thou hast not pitied.",
+      "ct": "You wrapped yourself in anger and pursued us; you killed without pity."
+    },
+    {
+      "verse": 44,
+      "kjv": "Thou hast covered thyself with a cloud, that our prayer should not pass through.",
+      "ct": "You hid yourself behind a cloud so that no prayer could reach you."
+    },
+    {
+      "verse": 45,
+      "kjv": "Thou hast made us as the offscouring and refuse in the midst of the people.",
+      "ct": "You have made us garbage and trash among the nations."
+    },
+    {
+      "verse": 46,
+      "kjv": "All our enemies have opened their mouths against us.",
+      "ct": "All our enemies have opened their mouths wide against us."
+    },
+    {
+      "verse": 47,
+      "kjv": "Fear and a snare is come upon us, desolation and destruction.",
+      "ct": "Terror and traps have overtaken us — ruin and destruction."
+    },
+    {
+      "verse": 48,
+      "kjv": "Mine eye runneth down with rivers of water for the destruction of the daughter of my people.",
+      "ct": "Streams of tears pour from my eyes over the destruction of my people."
+    },
+    {
+      "verse": 49,
+      "kjv": "Mine eye trickleth down, and ceaseth not, without any intermission,",
+      "ct": "My tears flow without stopping, without any relief,"
+    },
+    {
+      "verse": 50,
+      "kjv": "Till the LORD look down, and behold from heaven.",
+      "ct": "until the LORD looks down and sees from heaven."
+    },
+    {
+      "verse": 51,
+      "kjv": "Mine eye affecteth mine heart because of all the daughters of my city.",
+      "ct": "What my eyes see breaks my heart, because of what has happened to all the women of my city."
+    },
+    {
+      "verse": 52,
+      "kjv": "Mine enemies chased me sore, like a bird, without cause.",
+      "ct": "My enemies hunted me relentlessly like a bird, for no reason at all."
+    },
+    {
+      "verse": 53,
+      "kjv": "They have cut off my life in the dungeon, and cast a stone upon me.",
+      "ct": "They threw me into a pit to die and dropped stones on top of me."
+    },
+    {
+      "verse": 54,
+      "kjv": "Waters flowed over mine head; then I said, I am cut off.",
+      "ct": "Water rose over my head, and I thought, \"This is the end for me.\""
+    },
+    {
+      "verse": 55,
+      "kjv": "I called upon thy name, O LORD, out of the low dungeon.",
+      "ct": "I called out your name, LORD, from the depths of that pit."
+    },
+    {
+      "verse": 56,
+      "kjv": "Thou hast heard my voice: hide not thine ear at my breathing, at my cry.",
+      "ct": "You heard my voice — do not close your ear to my gasping, to my cry for help."
+    },
+    {
+      "verse": 57,
+      "kjv": "Thou drewest near in the day that I called upon thee: thou saidst, Fear not.",
+      "ct": "You came near on the day I called to you; you said, \"Don't be afraid.\""
+    },
+    {
+      "verse": 58,
+      "kjv": "O LORD, thou hast pleaded the causes of my soul; thou hast redeemed my life.",
+      "ct": "LORD, you have taken up my case; you have rescued my life."
+    },
+    {
+      "verse": 59,
+      "kjv": "O LORD, thou hast seen my wrong: judge thou my cause.",
+      "ct": "LORD, you have witnessed the injustice done to me — now defend my cause."
+    },
+    {
+      "verse": 60,
+      "kjv": "Thou hast seen all their vengeance and all their imaginations against me.",
+      "ct": "You have seen all their revenge and all their schemes against me."
+    },
+    {
+      "verse": 61,
+      "kjv": "Thou hast heard their reproach, O LORD, and all their imaginations against me;",
+      "ct": "You have heard their insults, LORD, and all their plots against me —"
+    },
+    {
+      "verse": 62,
+      "kjv": "The lips of those that rose up against me, and their device against me all the day.",
+      "ct": "the words of my attackers and their constant scheming against me all day long."
+    },
+    {
+      "verse": 63,
+      "kjv": "Behold their sitting down, and their rising up; I am their musick.",
+      "ct": "Watch them — whether sitting or standing, I am the target of their mocking songs."
+    },
+    {
+      "verse": 64,
+      "kjv": "Render unto them a recompence, O LORD, according to the work of their hands.",
+      "ct": "Pay them back, LORD, for what their hands have done."
+    },
+    {
+      "verse": 65,
+      "kjv": "Give them sorrow of heart, thy curse unto them.",
+      "ct": "Put anguish in their hearts; let your curse fall on them."
+    },
+    {
+      "verse": 66,
+      "kjv": "Persecute and destroy them in anger from under the heavens of the LORD.",
+      "ct": "Pursue them in anger and wipe them out from under the heavens of the LORD."
+    }
+  ]
+}

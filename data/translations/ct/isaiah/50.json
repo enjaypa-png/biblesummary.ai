@@ -1,0 +1,65 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 50,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.108Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Thus saith the LORD, Where is the bill of your mother’s divorcement, whom I have put away? or which of my creditors is it to whom I have sold you? Behold, for your iniquities have ye sold yourselves, and for your transgressions is your mother put away.",
+      "ct": "This is what the LORD says: Where is your mother's certificate of divorce showing that I sent her away? Which of my creditors did I sell you to? No — you were sold because of your own sins, and your mother was sent away because of your rebellions."
+    },
+    {
+      "verse": 2,
+      "kjv": "Wherefore, when I came, was there no man? when I called, was there none to answer? Is my hand shortened at all, that it cannot redeem? or have I no power to deliver? behold, at my rebuke I dry up the sea, I make the rivers a wilderness: their fish stinketh, because there is no water, and dieth for thirst.",
+      "ct": "Why was no one there when I came? Why did no one answer when I called? Is my arm too weak to rescue? Do I lack the strength to save? Look — with just a command I dry up the sea and turn rivers into desert. Their fish rot because there is no water, dying of thirst."
+    },
+    {
+      "verse": 3,
+      "kjv": "I clothe the heavens with blackness, and I make sackcloth their covering.",
+      "ct": "I dress the heavens in darkness and wrap them in cloth of mourning."
+    },
+    {
+      "verse": 4,
+      "kjv": "The Lord GOD hath given me the tongue of the learned, that I should know how to speak a word in season to him that is weary: he wakeneth morning by morning, he wakeneth mine ear to hear as the learned.",
+      "ct": "The Lord GOD has given me the ability to speak with wisdom, so that I know how to say the right word at the right time to those who are exhausted. Every morning he wakes me up — he opens my ears to listen like someone being taught."
+    },
+    {
+      "verse": 5,
+      "kjv": "The Lord GOD hath opened mine ear, and I was not rebellious, neither turned away back.",
+      "ct": "The Lord GOD has opened my ears, and I did not resist or turn away."
+    },
+    {
+      "verse": 6,
+      "kjv": "I gave my back to the smiters, and my cheeks to them that plucked off the hair: I hid not my face from shame and spitting.",
+      "ct": "I offered my back to those who beat me and my cheeks to those who ripped out my beard. I did not shield myself from insults and spit."
+    },
+    {
+      "verse": 7,
+      "kjv": "For the Lord GOD will help me; therefore shall I not be confounded: therefore have I set my face like a flint, and I know that I shall not be ashamed.",
+      "ct": "Because the Lord GOD helps me, I will not be disgraced. That is why I have set my determination like stone, and I know I will not be put to shame."
+    },
+    {
+      "verse": 8,
+      "kjv": "He is near that justifieth me; who will contend with me? let us stand together: who is mine adversary? let him come near to me.",
+      "ct": "The one who declares me innocent is near. Who wants to bring charges against me? Let us face each other. Who is my accuser? Let him step forward."
+    },
+    {
+      "verse": 9,
+      "kjv": "Behold, the Lord GOD will help me; who is he that shall condemn me? lo, they all shall wax old as a garment; the moth shall eat them up.",
+      "ct": "Look — the Lord GOD will help me. Who can condemn me? All of them will wear out like old clothing; moths will consume them."
+    },
+    {
+      "verse": 10,
+      "kjv": "Who is among you that feareth the LORD, that obeyeth the voice of his servant, that walketh in darkness, and hath no light? let him trust in the name of the LORD, and stay upon his God.",
+      "ct": "Who among you deeply reveres the LORD and listens to the voice of his servant? If you walk in darkness with no light, put your trust in the name of the LORD and rely on your God."
+    },
+    {
+      "verse": 11,
+      "kjv": "Behold, all ye that kindle a fire, that compass yourselves about with sparks: walk in the light of your fire, and in the sparks that ye have kindled. This shall ye have of mine hand; ye shall lie down in sorrow.",
+      "ct": "But all of you who start your own fires and arm yourselves with flaming torches — go ahead, walk by the light of your own fire, among the sparks you have lit. This is what you will receive from my hand: you will lie down in torment."
+    }
+  ]
+}

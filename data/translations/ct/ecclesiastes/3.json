@@ -1,0 +1,120 @@
+{
+  "book": "ecclesiastes",
+  "book_name": "Ecclesiastes",
+  "chapter": 3,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.059Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "To every thing there is a season, and a time to every purpose under the heaven:",
+      "ct": "There is a right season for everything, and a proper time for every activity under heaven:"
+    },
+    {
+      "verse": 2,
+      "kjv": "A time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted;",
+      "ct": "A time to be born and a time to die; a time to plant and a time to uproot what was planted;"
+    },
+    {
+      "verse": 3,
+      "kjv": "A time to kill, and a time to heal; a time to break down, and a time to build up;",
+      "ct": "A time to kill and a time to heal; a time to tear down and a time to build up;"
+    },
+    {
+      "verse": 4,
+      "kjv": "A time to weep, and a time to laugh; a time to mourn, and a time to dance;",
+      "ct": "A time to cry and a time to laugh; a time to grieve and a time to dance;"
+    },
+    {
+      "verse": 5,
+      "kjv": "A time to cast away stones, and a time to gather stones together; a time to embrace, and a time to refrain from embracing;",
+      "ct": "A time to throw stones aside and a time to collect them; a time to hold someone close and a time to step back from holding them;"
+    },
+    {
+      "verse": 6,
+      "kjv": "A time to get, and a time to lose; a time to keep, and a time to cast away;",
+      "ct": "A time to search for something and a time to let it go; a time to hold on and a time to throw away;"
+    },
+    {
+      "verse": 7,
+      "kjv": "A time to rend, and a time to sew; a time to keep silence, and a time to speak;",
+      "ct": "A time to tear and a time to mend; a time to stay quiet and a time to speak up;"
+    },
+    {
+      "verse": 8,
+      "kjv": "A time to love, and a time to hate; a time of war, and a time of peace.",
+      "ct": "A time to love and a time to hate; a time for war and a time for peace."
+    },
+    {
+      "verse": 9,
+      "kjv": "What profit hath he that worketh in that wherein he laboureth?",
+      "ct": "So what does the worker actually gain from all that effort?"
+    },
+    {
+      "verse": 10,
+      "kjv": "I have seen the travail, which God hath given to the sons of men to be exercised in it.",
+      "ct": "I have observed the heavy burden that God has placed on human beings to keep them occupied."
+    },
+    {
+      "verse": 11,
+      "kjv": "He hath made every thing beautiful in his time: also he hath set the world in their heart, so that no man can find out the work that God maketh from the beginning to the end.",
+      "ct": "He has made everything fitting for its proper moment. He has also placed a sense of eternity in the human heart, yet no one can fully grasp what God is doing from start to finish."
+    },
+    {
+      "verse": 12,
+      "kjv": "I know that there is no good in them, but for a man to rejoice, and to do good in his life.",
+      "ct": "I've concluded that there is nothing better for people than to find joy and do good during their lives."
+    },
+    {
+      "verse": 13,
+      "kjv": "And also that every man should eat and drink, and enjoy the good of all his labour, it is the gift of God.",
+      "ct": "And when someone can eat and drink and find satisfaction in their work — that is a gift from God."
+    },
+    {
+      "verse": 14,
+      "kjv": "I know that, whatsoever God doeth, it shall be for ever: nothing can be put to it, nor any thing taken from it: and God doeth it, that men should fear before him.",
+      "ct": "I understand that whatever God does will last forever — nothing can be added to it, and nothing can be taken from it. God does this so that people will deeply revere him."
+    },
+    {
+      "verse": 15,
+      "kjv": "That which hath been is now; and that which is to be hath already been; and God requireth that which is past.",
+      "ct": "Whatever exists now has already existed before, and whatever will happen has already happened. God calls back what has passed away."
+    },
+    {
+      "verse": 16,
+      "kjv": "And moreover I saw under the sun the place of judgment, that wickedness was there; and the place of righteousness, that iniquity was there.",
+      "ct": "I also noticed something else in this world: in the place where justice should be carried out, wickedness was present; and in the place where righteousness should stand, corruption was there instead."
+    },
+    {
+      "verse": 17,
+      "kjv": "I said in mine heart, God shall judge the righteous and the wicked: for there is a time there for every purpose and for every work.",
+      "ct": "I told myself, \"God will judge both the righteous and the wicked, because there is an appointed time for every activity and every deed.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "I said in mine heart concerning the estate of the sons of men, that God might manifest them, and that they might see that they themselves are beasts.",
+      "ct": "I thought to myself about human beings — that God is testing them to show them that, on their own, they are no different from animals."
+    },
+    {
+      "verse": 19,
+      "kjv": "For that which befalleth the sons of men befalleth beasts; even one thing befalleth them: as the one dieth, so dieth the other; yea, they have all one breath; so that a man hath no preeminence above a beast: for all is vanity.",
+      "ct": "After all, the same fate awaits both humans and animals — the same thing happens to them both. One dies just like the other. They all share the same breath. Humans have no real advantage over animals, because everything is fleeting."
+    },
+    {
+      "verse": 20,
+      "kjv": "All go unto one place; all are of the dust, and all turn to dust again.",
+      "ct": "Everything goes to the same destination. Everything comes from dust, and everything returns to dust."
+    },
+    {
+      "verse": 21,
+      "kjv": "Who knoweth the spirit of man that goeth upward, and the spirit of the beast that goeth downward to the earth?",
+      "ct": "Who actually knows whether the human spirit rises upward and the animal spirit sinks down into the ground?"
+    },
+    {
+      "verse": 22,
+      "kjv": "Wherefore I perceive that there is nothing better, than that a man should rejoice in his own works; for that is his portion: for who shall bring him to see what shall be after him?",
+      "ct": "So I realized that there is nothing better than for people to find enjoyment in their work, since that is what they've been given. After all, who can show them what will happen after they're gone?"
+    }
+  ]
+}

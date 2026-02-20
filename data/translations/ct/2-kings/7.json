@@ -1,0 +1,110 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 7,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.792Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then Elisha said, Hear ye the word of the LORD; Thus saith the LORD, To morrow about this time shall a measure of fine flour be sold for a shekel, and two measures of barley for a shekel, in the gate of Samaria.",
+      "ct": "Then Elisha said, \"Listen to the word of the LORD. This is what the LORD says: By this time tomorrow, a measure of fine flour will sell for a shekel, and 2 measures of barley will sell for a shekel at the gate of Samaria.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "Then a lord on whose hand the king leaned answered the man of God, and said, Behold, if the LORD would make windows in heaven, might this thing be? And he said, Behold, thou shalt see it with thine eyes, but shalt not eat thereof.",
+      "ct": "The officer the king relied on responded to the man of God, \"Even if the LORD opened floodgates in the heavens, could this really happen?\" Elisha replied, \"You will witness it with your own eyes, but you won't get to eat any of it.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And there were four leprous men at the entering in of the gate: and they said one to another, Why sit we here until we die?",
+      "ct": "Now there were 4 men with leprosy sitting at the entrance of the city gate. They said to each other, \"Why should we just sit here waiting to die?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "If we say, We will enter into the city, then the famine is in the city, and we shall die there: and if we sit still here, we die also. Now therefore come, and let us fall unto the host of the Syrians: if they save us alive, we shall live; and if they kill us, we shall but die.",
+      "ct": "\"If we go into the city, the famine is there, and we'll die. If we stay here, we'll die too. So let's go surrender to the Aramean army. If they let us live, we live. If they kill us, we were going to die anyway.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And they rose up in the twilight, to go unto the camp of the Syrians: and when they were come to the uttermost part of the camp of Syria, behold, there was no man there.",
+      "ct": "So they got up at dusk and headed toward the Aramean camp. But when they reached the edge of the camp, no one was there."
+    },
+    {
+      "verse": 6,
+      "kjv": "For the LORD had made the host of the Syrians to hear a noise of chariots, and a noise of horses, even the noise of a great host: and they said one to another, Lo, the king of Israel hath hired against us the kings of the Hittites, and the kings of the Egyptians, to come upon us.",
+      "ct": "The LORD had caused the Aramean army to hear what sounded like chariots, horses, and a massive army approaching. They had said to each other, \"The king of Israel must have hired the Hittite kings and the Egyptian kings to attack us!\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Wherefore they arose and fled in the twilight, and left their tents, and their horses, and their asses, even the camp as it was, and fled for their life.",
+      "ct": "So they had jumped up and fled at dusk, abandoning their tents, their horses, and their donkeys — leaving the camp exactly as it was — and ran for their lives."
+    },
+    {
+      "verse": 8,
+      "kjv": "And when these lepers came to the uttermost part of the camp, they went into one tent, and did eat and drink, and carried thence silver, and gold, and raiment, and went and hid it; and came again, and entered into another tent, and carried thence also, and went and hid it.",
+      "ct": "When the men with leprosy reached the edge of the camp, they went into one tent, ate and drank, then grabbed silver, gold, and clothing and went off to hide it. They came back, entered another tent, took more things, and hid those as well."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then they said one to another, We do not well: this day is a day of good tidings, and we hold our peace: if we tarry till the morning light, some mischief will come upon us: now therefore come, that we may go and tell the king’s household.",
+      "ct": "Then they said to each other, \"What we're doing isn't right. This is a day of great news, and we're keeping it to ourselves. If we wait until morning, we'll be punished for this. Let's go report this to the royal palace right now.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "So they came and called unto the porter of the city: and they told them, saying, We came to the camp of the Syrians, and, behold, there was no man there, neither voice of man, but horses tied, and asses tied, and the tents as they were.",
+      "ct": "So they went and called out to the city gatekeepers. They reported, \"We went to the Aramean camp, and there wasn't a single person there — not a voice to be heard. The horses and donkeys were still tied up, and the tents were left just as they were.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And he called the porters; and they told it to the king’s house within.",
+      "ct": "The gatekeepers shouted the news, and the message was relayed inside the palace."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the king arose in the night, and said unto his servants, I will now shew you what the Syrians have done to us. They know that we be hungry; therefore are they gone out of the camp to hide themselves in the field, saying, When they come out of the city, we shall catch them alive, and get into the city.",
+      "ct": "The king got up in the middle of the night and told his officials, \"Let me tell you what the Arameans are up to. They know we're starving, so they've left the camp and hidden in the countryside, thinking, 'When they come out of the city, we'll capture them alive and then take the city.'\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And one of his servants answered and said, Let some take, I pray thee, five of the horses that remain, which are left in the city, (behold, they are as all the multitude of Israel that are left in it: behold, I say, they are even as all the multitude of the Israelites that are consumed:) and let us send and see.",
+      "ct": "One of his officials replied, \"Please, let's send some men with 5 of the horses still left in the city. They're as good as dead anyway, just like the rest of the Israelites who are left — just like all the others who have already perished. Let's send them to find out what's going on.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "They took therefore two chariot horses; and the king sent after the host of the Syrians, saying, Go and see.",
+      "ct": "So they selected 2 chariot teams with horses, and the king sent them after the Aramean army, saying, \"Go investigate.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And they went after them unto Jordan: and, lo, all the way was full of garments and vessels, which the Syrians had cast away in their haste. And the messengers returned, and told the king.",
+      "ct": "They followed the trail all the way to the Jordan River, and the entire road was littered with clothing and equipment that the Arameans had thrown aside as they fled in panic. The scouts returned and reported everything to the king."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the people went out, and spoiled the tents of the Syrians. So a measure of fine flour was sold for a shekel, and two measures of barley for a shekel, according to the word of the LORD.",
+      "ct": "Then the people rushed out and plundered the Aramean camp. Just as the LORD had promised, a measure of fine flour sold for a shekel, and 2 measures of barley sold for a shekel."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the king appointed the lord on whose hand he leaned to have the charge of the gate: and the people trode upon him in the gate, and he died, as the man of God had said, who spake when the king came down to him.",
+      "ct": "The king had put the officer he relied on in charge of the gate, but the crowd trampled him in the gateway, and he died — exactly as the man of God had predicted when the king had come to see him."
+    },
+    {
+      "verse": 18,
+      "kjv": "And it came to pass as the man of God had spoken to the king, saying, Two measures of barley for a shekel, and a measure of fine flour for a shekel, shall be to morrow about this time in the gate of Samaria:",
+      "ct": "It happened just as the man of God had told the king: \"By this time tomorrow, 2 measures of barley will sell for a shekel, and a measure of fine flour will sell for a shekel at the gate of Samaria.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And that lord answered the man of God, and said, Now, behold, if the LORD should make windows in heaven, might such a thing be? And he said, Behold, thou shalt see it with thine eyes, but shalt not eat thereof.",
+      "ct": "That officer had responded to the man of God, \"Even if the LORD opened floodgates in the heavens, could such a thing really happen?\" And Elisha had told him, \"You will witness it with your own eyes, but you won't get to eat any of it.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And so it fell out unto him: for the people trode upon him in the gate, and he died.",
+      "ct": "And that is exactly what happened to him — the people trampled him in the gateway, and he died."
+    }
+  ]
+}

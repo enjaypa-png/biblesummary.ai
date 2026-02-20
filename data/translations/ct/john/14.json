@@ -1,0 +1,165 @@
+{
+  "book": "john",
+  "book_name": "John",
+  "chapter": 14,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.367Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Let not your heart be troubled: ye believe in God, believe also in me.",
+      "ct": "\"Don't let your hearts be anxious. You trust in God — trust in me as well.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "In my Father’s house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.",
+      "ct": "\"My Father's house has plenty of rooms. If that weren't true, I would have told you. I'm going ahead to get a place ready for you.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.",
+      "ct": "\"Once I go and get a place ready for you, I'll return and take you to be with me, so that you can be wherever I am.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And whither I go ye know, and the way ye know.",
+      "ct": "\"You already know where I'm going, and you know how to get there.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Thomas saith unto him, Lord, we know not whither thou goest; and how can we know the way?",
+      "ct": "Thomas said to him, \"Lord, we don't even know where you're going. How could we possibly know the way?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.",
+      "ct": "Jesus told him, \"I am the way, the truth, and the life. No one reaches the Father except through me.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "If ye had known me, ye should have known my Father also: and from henceforth ye know him, and have seen him.",
+      "ct": "\"If you had really known me, you would have known my Father too. From now on, you do know him — you've actually seen him.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Philip saith unto him, Lord, shew us the Father, and it sufficeth us.",
+      "ct": "Philip said to him, \"Lord, just show us the Father, and that will be enough for us.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Jesus saith unto him, Have I been so long time with you, and yet hast thou not known me, Philip? he that hath seen me hath seen the Father; and how sayest thou then, Shew us the Father?",
+      "ct": "Jesus replied, \"I've been with you all this time, and you still don't recognize who I am, Philip? Whoever has seen me has seen the Father. So how can you say, 'Show us the Father'?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Believest thou not that I am in the Father, and the Father in me? the words that I speak unto you I speak not of myself: but the Father that dwelleth in me, he doeth the works.",
+      "ct": "\"Don't you believe that I exist in the Father and the Father exists in me? The things I say to you don't come from me on my own. The Father, who lives in me, is the one doing the work.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Believe me that I am in the Father, and the Father in me: or else believe me for the very works’ sake.",
+      "ct": "\"Trust me when I tell you that I am in the Father and the Father is in me. If nothing else, trust because of the works themselves.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Verily, verily, I say unto you, He that believeth on me, the works that I do shall he do also; and greater works than these shall he do; because I go unto my Father.",
+      "ct": "\"Truly, truly, I'm telling you: anyone who puts their faith in me will do the same works I do — and will actually do even greater things, because I'm going to my Father.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And whatsoever ye shall ask in my name, that will I do, that the Father may be glorified in the Son.",
+      "ct": "\"Whatever you ask for using my name, I will do it, so that the Father receives glory through the Son.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "If ye shall ask any thing in my name, I will do it.",
+      "ct": "\"If you ask me for anything using my name, I will do it.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "If ye love me, keep my commandments.",
+      "ct": "\"If you love me, follow my commands.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever;",
+      "ct": "\"Then I will ask the Father, and he will give you another Advocate who will stay with you forever —\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him; for he dwelleth with you, and shall be in you.",
+      "ct": "\"the Spirit of truth. The world is unable to accept him because it doesn't see him or recognize him. But you recognize him, because he lives alongside you and will be inside you.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "I will not leave you comfortless: I will come to you.",
+      "ct": "\"I won't abandon you like orphans. I'm coming back to you.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Yet a little while, and the world seeth me no more; but ye see me: because I live, ye shall live also.",
+      "ct": "\"In just a short time, the world won't see me anymore. But you will see me. Because I live, you also will live.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "At that day ye shall know that I am in my Father, and ye in me, and I in you.",
+      "ct": "\"On that day, you'll understand that I am in my Father, and you are in me, and I am in you.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "He that hath my commandments, and keepeth them, he it is that loveth me: and he that loveth me shall be loved of my Father, and I will love him, and will manifest myself to him.",
+      "ct": "\"The person who has my commands and actually follows them — that's the one who truly loves me. And whoever loves me will be loved by my Father, and I will love that person and reveal myself to them.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Judas saith unto him, not Iscariot, Lord, how is it that thou wilt manifest thyself unto us, and not unto the world?",
+      "ct": "Judas (not Judas Iscariot) asked him, \"Lord, why are you going to reveal yourself to us but not to the rest of the world?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Jesus answered and said unto him, If a man love me, he will keep my words: and my Father will love him, and we will come unto him, and make our abode with him.",
+      "ct": "Jesus answered him, \"Anyone who loves me will hold to what I say. My Father will love that person, and we will come to them and make our home with them.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "He that loveth me not keepeth not my sayings: and the word which ye hear is not mine, but the Father’s which sent me.",
+      "ct": "\"Someone who doesn't love me won't follow what I say. And the message you're hearing isn't really mine — it belongs to the Father who sent me.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "These things have I spoken unto you, being yet present with you.",
+      "ct": "\"I've told you all of this while I'm still here with you.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.",
+      "ct": "\"But the Advocate — the Holy Spirit, whom the Father will send in my name — he will teach you everything and remind you of all that I've said to you.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
+      "ct": "\"I'm leaving you with peace. I'm giving you my own peace. What I give isn't like what the world offers. Don't let your hearts be anxious, and don't be afraid.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "Ye have heard how I said unto you, I go away, and come again unto you. If ye loved me, ye would rejoice, because I said, I go unto the Father: for my Father is greater than I.",
+      "ct": "\"You heard me tell you, 'I'm going away, and I'm coming back to you.' If you really loved me, you'd be happy that I'm going to the Father, because my Father is greater than I am.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And now I have told you before it come to pass, that, when it is come to pass, ye might believe.",
+      "ct": "\"I've told you this now, before it happens, so that when it does happen, you'll believe.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "Hereafter I will not talk much with you: for the prince of this world cometh, and hath nothing in me.",
+      "ct": "\"I won't be speaking with you much longer, because the ruler of this world is approaching. He has no power over me.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "But that the world may know that I love the Father; and as the Father gave me commandment, even so I do. Arise, let us go hence.",
+      "ct": "\"But I do exactly what the Father instructed me to do, so that the world will know I love the Father. Get up — let's leave this place.\""
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 149,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.032Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Praise ye the LORD. Sing unto the LORD a new song, and his praise in the congregation of saints.",
+      "ct": "Praise the LORD! Sing a fresh song to the LORD — lift up his praise among the gathering of his faithful ones."
+    },
+    {
+      "verse": 2,
+      "kjv": "Let Israel rejoice in him that made him: let the children of Zion be joyful in their King.",
+      "ct": "Let Israel celebrate their Maker; let the people of Zion be filled with joy because of their King."
+    },
+    {
+      "verse": 3,
+      "kjv": "Let them praise his name in the dance: let them sing praises unto him with the timbrel and harp.",
+      "ct": "Let them honor his name with dancing; let them make music to him with tambourines and harps."
+    },
+    {
+      "verse": 4,
+      "kjv": "For the LORD taketh pleasure in his people: he will beautify the meek with salvation.",
+      "ct": "Because the LORD delights in his people — he crowns the humble with salvation."
+    },
+    {
+      "verse": 5,
+      "kjv": "Let the saints be joyful in glory: let them sing aloud upon their beds.",
+      "ct": "Let his faithful ones rejoice in his glory; let them shout for joy even from their beds."
+    },
+    {
+      "verse": 6,
+      "kjv": "Let the high praises of God be in their mouth, and a two-edged sword in their hand;",
+      "ct": "Let loud praises of God fill their mouths, and a double-edged sword be in their hands —"
+    },
+    {
+      "verse": 7,
+      "kjv": "To execute vengeance upon the heathen, and punishments upon the people;",
+      "ct": "to carry out justice on the nations and punishment on the peoples,"
+    },
+    {
+      "verse": 8,
+      "kjv": "To bind their kings with chains, and their nobles with fetters of iron;",
+      "ct": "to put their kings in chains and their rulers in iron shackles,"
+    },
+    {
+      "verse": 9,
+      "kjv": "To execute upon them the judgment written: this honour have all his saints. Praise ye the LORD.",
+      "ct": "to carry out the sentence already decreed against them. This is the honor given to all his faithful ones. Praise the LORD!"
+    }
+  ]
+}

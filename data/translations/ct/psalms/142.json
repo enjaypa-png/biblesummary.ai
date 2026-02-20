@@ -1,0 +1,45 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 142,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.028Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I cried unto the LORD with my voice; with my voice unto the LORD did I make my supplication.",
+      "ct": "I called out to the LORD with my voice; with my voice I pleaded with the LORD for help."
+    },
+    {
+      "verse": 2,
+      "kjv": "I poured out my complaint before him; I shewed before him my trouble.",
+      "ct": "I poured out my frustration in his presence; I laid out all my troubles before him."
+    },
+    {
+      "verse": 3,
+      "kjv": "When my spirit was overwhelmed within me, then thou knewest my path. In the way wherein I walked have they privily laid a snare for me.",
+      "ct": "When my spirit was completely crushed inside me, you already knew the road I was on. Along the path I was walking, my enemies had secretly set a trap for me."
+    },
+    {
+      "verse": 4,
+      "kjv": "I looked on my right hand, and beheld, but there was no man that would know me: refuge failed me; no man cared for my soul.",
+      "ct": "I looked to my right side, but no one was there to acknowledge me. Every escape route was gone; not a single person cared about my soul."
+    },
+    {
+      "verse": 5,
+      "kjv": "I cried unto thee, O LORD: I said, Thou art my refuge and my portion in the land of the living.",
+      "ct": "I cried out to you, LORD. I said, \"You are my safe place and everything I have in this life.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Attend unto my cry; for I am brought very low: deliver me from my persecutors; for they are stronger than I.",
+      "ct": "Pay attention to my desperate cry, because I have been brought so low. Rescue me from those who hunt me down, because they are more powerful than I am."
+    },
+    {
+      "verse": 7,
+      "kjv": "Bring my soul out of prison, that I may praise thy name: the righteous shall compass me about; for thou shalt deal bountifully with me.",
+      "ct": "Free my soul from this prison so that I can give thanks to your name. The righteous will gather around me, because you will treat me with generosity."
+    }
+  ]
+}

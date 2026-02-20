@@ -1,0 +1,70 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 5,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.943Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Give ear to my words, O LORD, consider my meditation.",
+      "ct": "Pay attention to my words, LORD; think about what weighs on my heart."
+    },
+    {
+      "verse": 2,
+      "kjv": "Hearken unto the voice of my cry, my King, and my God: for unto thee will I pray.",
+      "ct": "Listen to my desperate cry, my King and my God, because I am bringing my prayer to you."
+    },
+    {
+      "verse": 3,
+      "kjv": "My voice shalt thou hear in the morning, O LORD; in the morning will I direct my prayer unto thee, and will look up.",
+      "ct": "You will hear me in the morning, LORD; each morning I will lay my prayer before you and wait expectantly."
+    },
+    {
+      "verse": 4,
+      "kjv": "For thou art not a God that hath pleasure in wickedness: neither shall evil dwell with thee.",
+      "ct": "You are not a God who takes pleasure in evil; wickedness has no place with you."
+    },
+    {
+      "verse": 5,
+      "kjv": "The foolish shall not stand in thy sight: thou hatest all workers of iniquity.",
+      "ct": "The arrogant cannot stand in your presence; you despise everyone who practices wrongdoing."
+    },
+    {
+      "verse": 6,
+      "kjv": "Thou shalt destroy them that speak leasing: the LORD will abhor the bloody and deceitful man.",
+      "ct": "You will destroy those who tell lies; the LORD detests violent and dishonest people."
+    },
+    {
+      "verse": 7,
+      "kjv": "But as for me, I will come into thy house in the multitude of thy mercy: and in thy fear will I worship toward thy holy temple.",
+      "ct": "But because of your abundant mercy, I will enter your house; with deep reverence for you, I will worship facing your holy temple."
+    },
+    {
+      "verse": 8,
+      "kjv": "Lead me, O LORD, in thy righteousness because of mine enemies; make thy way straight before my face.",
+      "ct": "Guide me, LORD, in your righteousness because of those who oppose me; make your path clear ahead of me."
+    },
+    {
+      "verse": 9,
+      "kjv": "For there is no faithfulness in their mouth; their inward part is very wickedness; their throat is an open sepulchre; they flatter with their tongue.",
+      "ct": "There is nothing honest in what they say; their hearts are full of destruction; their throats are like open tombs; they use their words to manipulate."
+    },
+    {
+      "verse": 10,
+      "kjv": "Destroy thou them, O God; let them fall by their own counsels; cast them out in the multitude of their transgressions; for they have rebelled against thee.",
+      "ct": "Hold them accountable, God; let their own schemes bring them down. Drive them out because of their many sins, for they have defied you."
+    },
+    {
+      "verse": 11,
+      "kjv": "But let all those that put their trust in thee rejoice: let them ever shout for joy, because thou defendest them: let them also that love thy name be joyful in thee.",
+      "ct": "But let everyone who trusts in you celebrate; let them shout with joy forever, because you protect them. Let those who love your name be filled with happiness because of you."
+    },
+    {
+      "verse": 12,
+      "kjv": "For thou, LORD, wilt bless the righteous; with favour wilt thou compass him as with a shield.",
+      "ct": "Because you, LORD, bless those who do right; you surround them with favor like a shield."
+    }
+  ]
+}

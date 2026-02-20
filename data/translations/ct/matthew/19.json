@@ -1,0 +1,160 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 19,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.298Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, that when Jesus had finished these sayings, he departed from Galilee, and came into the coasts of Judaea beyond Jordan;",
+      "ct": "After Jesus finished teaching these things, he left Galilee and traveled to the region of Judea on the other side of the Jordan River."
+    },
+    {
+      "verse": 2,
+      "kjv": "And great multitudes followed him; and he healed them there.",
+      "ct": "Huge crowds followed him, and he healed people there."
+    },
+    {
+      "verse": 3,
+      "kjv": "The Pharisees also came unto him, tempting him, and saying unto him, Is it lawful for a man to put away his wife for every cause?",
+      "ct": "Some Pharisees approached him to test him, asking, \"Is it permitted for a man to divorce his wife for any reason at all?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And he answered and said unto them, Have ye not read, that he which made them at the beginning made them male and female,",
+      "ct": "He replied, \"Haven't you read that the one who made them from the start created them male and female,"
+    },
+    {
+      "verse": 5,
+      "kjv": "And said, For this cause shall a man leave father and mother, and shall cleave to his wife: and they twain shall be one flesh?",
+      "ct": "and said, 'For this reason a man will leave his father and mother and be united with his wife, and the 2 will become one flesh'?"
+    },
+    {
+      "verse": 6,
+      "kjv": "Wherefore they are no more twain, but one flesh. What therefore God hath joined together, let not man put asunder.",
+      "ct": "So they are no longer 2 separate people, but one flesh. Therefore, no person should separate what God has joined together.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "They say unto him, Why did Moses then command to give a writing of divorcement, and to put her away?",
+      "ct": "They asked him, \"Then why did Moses command that a man give his wife divorce papers and send her away?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "He saith unto them, Moses because of the hardness of your hearts suffered you to put away your wives: but from the beginning it was not so.",
+      "ct": "He told them, \"Moses allowed you to divorce your wives because your hearts were stubborn, but that was never how it was meant to be from the beginning."
+    },
+    {
+      "verse": 9,
+      "kjv": "And I say unto you, Whosoever shall put away his wife, except it be for fornication, and shall marry another, committeth adultery: and whoso marrieth her which is put away doth commit adultery.",
+      "ct": "I'm telling you, whoever divorces his wife — unless it's because of sexual immorality — and marries someone else commits adultery. And anyone who marries a divorced woman commits adultery.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "His disciples say unto him, If the case of the man be so with his wife, it is not good to marry.",
+      "ct": "His disciples said to him, \"If that's how it is between a husband and wife, then it's better not to get married at all.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "But he said unto them, All men cannot receive this saying, save they to whom it is given.",
+      "ct": "But he told them, \"Not everyone can accept this teaching — only those to whom it has been given."
+    },
+    {
+      "verse": 12,
+      "kjv": "For there are some eunuchs, which were so born from their mother’s womb: and there are some eunuchs, which were made eunuchs of men: and there be eunuchs, which have made themselves eunuchs for the kingdom of heaven’s sake. He that is able to receive it, let him receive it.",
+      "ct": "Some people are born unable to marry. Others have been made that way by other people. And some have chosen to live that way for the sake of the kingdom of heaven. Whoever can accept this should accept it.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then were there brought unto him little children, that he should put his hands on them, and pray: and the disciples rebuked them.",
+      "ct": "Then people brought little children to Jesus so he could place his hands on them and pray for them, but the disciples scolded them for it."
+    },
+    {
+      "verse": 14,
+      "kjv": "But Jesus said, Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven.",
+      "ct": "Jesus said, \"Let the little children come to me — don't stop them! The kingdom of heaven belongs to people like these.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And he laid his hands on them, and departed thence.",
+      "ct": "He placed his hands on them and then left that place."
+    },
+    {
+      "verse": 16,
+      "kjv": "And, behold, one came and said unto him, Good Master, what good thing shall I do, that I may have eternal life?",
+      "ct": "A man came up to him and asked, \"Good Teacher, what good thing do I need to do to receive eternal life?\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And he said unto him, Why callest thou me good? there is none good but one, that is, God: but if thou wilt enter into life, keep the commandments.",
+      "ct": "Jesus said to him, \"Why are you asking me about what is good? Only one is good — that is God. But if you want to enter into life, obey the commandments.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "He saith unto him, Which? Jesus said, Thou shalt do no murder, Thou shalt not commit adultery, Thou shalt not steal, Thou shalt not bear false witness,",
+      "ct": "The man asked, \"Which ones?\" Jesus answered, \"Don't murder. Don't commit adultery. Don't steal. Don't give false testimony."
+    },
+    {
+      "verse": 19,
+      "kjv": "Honour thy father and thy mother: and, Thou shalt love thy neighbour as thyself.",
+      "ct": "Honor your father and mother. And love your neighbor as yourself.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "The young man saith unto him, All these things have I kept from my youth up: what lack I yet?",
+      "ct": "The young man replied, \"I've followed all of these since I was young. What am I still missing?\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Jesus said unto him, If thou wilt be perfect, go and sell that thou hast, and give to the poor, and thou shalt have treasure in heaven: and come and follow me.",
+      "ct": "Jesus told him, \"If you want to be complete, go sell everything you own and give the money to the poor. You will have treasure in heaven. Then come and follow me.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "But when the young man heard that saying, he went away sorrowful: for he had great possessions.",
+      "ct": "When the young man heard this, he walked away deeply sad, because he owned a great deal of wealth."
+    },
+    {
+      "verse": 23,
+      "kjv": "Then said Jesus unto his disciples, Verily I say unto you, That a rich man shall hardly enter into the kingdom of heaven.",
+      "ct": "Then Jesus said to his disciples, \"Truly I tell you, it is extremely difficult for a wealthy person to enter the kingdom of heaven."
+    },
+    {
+      "verse": 24,
+      "kjv": "And again I say unto you, It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God.",
+      "ct": "Let me say it again: it's easier for a camel to pass through the eye of a needle than for a rich person to enter the kingdom of God.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "When his disciples heard it, they were exceedingly amazed, saying, Who then can be saved?",
+      "ct": "When the disciples heard this, they were completely shocked and asked, \"Then who can possibly be saved?\""
+    },
+    {
+      "verse": 26,
+      "kjv": "But Jesus beheld them, and said unto them, With men this is impossible; but with God all things are possible.",
+      "ct": "Jesus looked at them and said, \"For humans this is impossible, but with God everything is possible.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Then answered Peter and said unto him, Behold, we have forsaken all, and followed thee; what shall we have therefore?",
+      "ct": "Peter responded, \"Look, we've given up everything to follow you. So what will we receive?\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And Jesus said unto them, Verily I say unto you, That ye which have followed me, in the regeneration when the Son of man shall sit in the throne of his glory, ye also shall sit upon twelve thrones, judging the twelve tribes of Israel.",
+      "ct": "Jesus told them, \"Truly I tell you, in the renewal of all things, when the Son of Man sits on his glorious throne, you who have followed me will also sit on 12 thrones, governing the 12 tribes of Israel."
+    },
+    {
+      "verse": 29,
+      "kjv": "And every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my name’s sake, shall receive an hundredfold, and shall inherit everlasting life.",
+      "ct": "Everyone who has given up homes, or brothers, or sisters, or father, or mother, or wife, or children, or property for my sake will receive 100 times as much and will inherit everlasting life."
+    },
+    {
+      "verse": 30,
+      "kjv": "But many that are first shall be last; and the last shall be first.",
+      "ct": "But many who are first will end up last, and many who are last will end up first.\""
+    }
+  ]
+}

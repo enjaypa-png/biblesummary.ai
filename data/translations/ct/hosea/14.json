@@ -1,0 +1,55 @@
+{
+  "book": "hosea",
+  "book_name": "Hosea",
+  "chapter": 14,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.237Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O Israel, return unto the LORD thy God; for thou hast fallen by thine iniquity.",
+      "ct": "Come back to the LORD your God, Israel! Your sin is what brought you down."
+    },
+    {
+      "verse": 2,
+      "kjv": "Take with you words, and turn to the LORD: say unto him, Take away all iniquity, and receive us graciously: so will we render the calves of our lips.",
+      "ct": "Bring your words of repentance and return to the LORD. Say to him, 'Forgive all our sin and accept us with grace, and we will offer you the praise of our lips.'"
+    },
+    {
+      "verse": 3,
+      "kjv": "Asshur shall not save us; we will not ride upon horses: neither will we say any more to the work of our hands, Ye are our gods: for in thee the fatherless findeth mercy.",
+      "ct": "'Assyria cannot rescue us. We won't rely on warhorses. We will never again call the things we made with our own hands our gods, because it is with you that the orphan finds mercy.'"
+    },
+    {
+      "verse": 4,
+      "kjv": "I will heal their backsliding, I will love them freely: for mine anger is turned away from him.",
+      "ct": "\"I will heal their unfaithfulness. I will love them generously, because my anger has turned away from them.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "I will be as the dew unto Israel: he shall grow as the lily, and cast forth his roots as Lebanon.",
+      "ct": "\"I will be like the dew to Israel. He will blossom like the lily and send his roots deep like the cedars of Lebanon.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "His branches shall spread, and his beauty shall be as the olive tree, and his smell as Lebanon.",
+      "ct": "\"His branches will spread wide. His beauty will be like the olive tree, and his fragrance like Lebanon.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "They that dwell under his shadow shall return; they shall revive as the corn, and grow as the vine: the scent thereof shall be as the wine of Lebanon.",
+      "ct": "\"People will come back and live under his shade. They will flourish like grain and bloom like the vine. Their reputation will be like the wine of Lebanon.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Ephraim shall say, What have I to do any more with idols? I have heard him, and observed him: I am like a green fir tree. From me is thy fruit found.",
+      "ct": "\"Ephraim will say, 'What do I have to do with idols anymore?' I have answered him and watched over him. I am like a green cypress tree. Your fruitfulness comes from me.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Who is wise, and he shall understand these things? prudent, and he shall know them? for the ways of the LORD are right, and the just shall walk in them: but the transgressors shall fall therein.",
+      "ct": "Whoever is wise should understand these things. Whoever is discerning should grasp them. The ways of the LORD are right — the righteous walk in them, but those who rebel stumble over them."
+    }
+  ]
+}

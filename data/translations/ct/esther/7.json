@@ -1,0 +1,60 @@
+{
+  "book": "esther",
+  "book_name": "Esther",
+  "chapter": 7,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.899Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "So the king and Haman came to banquet with Esther the queen.",
+      "ct": "So the king and Haman arrived at Queen Esther's banquet."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the king said again unto Esther on the second day at the banquet of wine, What is thy petition, queen Esther? and it shall be granted thee: and what is thy request? and it shall be performed, even to the half of the kingdom.",
+      "ct": "On this 2nd day, while they were drinking wine, the king asked Esther again, \"What is your petition, Queen Esther? It will be given to you. What is your request? It will be done — up to half the kingdom.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Then Esther the queen answered and said, If I have found favour in thy sight, O king, and if it please the king, let my life be given me at my petition, and my people at my request:",
+      "ct": "Queen Esther replied, \"If I have earned your favor, Your Majesty, and if it pleases the king, I ask for my own life as my petition, and for the lives of my people as my request."
+    },
+    {
+      "verse": 4,
+      "kjv": "For we are sold, I and my people, to be destroyed, to be slain, and to perish. But if we had been sold for bondmen and bondwomen, I had held my tongue, although the enemy could not countervail the king’s damage.",
+      "ct": "My people and I have been sold to be wiped out, killed, and destroyed. If we had merely been sold into slavery, I would have kept quiet, since that wouldn't have been worth troubling the king over. But this is total annihilation.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the king Ahasuerus answered and said unto Esther the queen, Who is he, and where is he, that durst presume in his heart to do so?",
+      "ct": "King Ahasuerus demanded of Queen Esther, \"Who is this person? Where is the man who has dared to do such a thing?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Esther said, The adversary and enemy is this wicked Haman. Then Haman was afraid before the king and the queen.",
+      "ct": "Esther answered, \"The opponent, the enemy, is this evil man — Haman!\" Haman was overcome with terror in the presence of the king and queen."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the king arising from the banquet of wine in his wrath went into the palace garden: and Haman stood up to make request for his life to Esther the queen; for he saw that there was evil determined against him by the king.",
+      "ct": "The king got up from the wine banquet in a fury and went out to the palace garden. Meanwhile, Haman stayed behind to beg Queen Esther for his life, because he realized the king had already decided his fate."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then the king returned out of the palace garden into the place of the banquet of wine; and Haman was fallen upon the bed whereon Esther was. Then said the king, Will he force the queen also before me in the house? As the word went out of the king’s mouth, they covered Haman’s face.",
+      "ct": "When the king came back from the palace garden to the banquet hall, Haman had thrown himself onto the couch where Esther was reclining. The king exclaimed, \"Is he even going to assault the queen right here in my own palace?\" The moment those words left the king's mouth, the servants covered Haman's face."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Harbonah, one of the chamberlains, said before the king, Behold also, the gallows fifty cubits high, which Haman had made for Mordecai, who had spoken good for the king, standeth in the house of Haman. Then the king said, Hang him thereon.",
+      "ct": "Then Harbonah, one of the royal attendants, spoke up: \"There is also the pole standing at Haman's house — 75 feet tall — that Haman built for Mordecai, the man who saved the king's life.\" The king said, \"Hang him on it.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "So they hanged Haman on the gallows that he had prepared for Mordecai. Then was the king’s wrath pacified.",
+      "ct": "So they hanged Haman on the very pole he had set up for Mordecai. Then the king's anger subsided."
+    }
+  ]
+}

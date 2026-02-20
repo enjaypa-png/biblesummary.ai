@@ -1,0 +1,40 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 128,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.020Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Blessed is every one that feareth the LORD; that walketh in his ways.",
+      "ct": "How fortunate is everyone who is wholeheartedly dedicated to the LORD, who lives according to his ways."
+    },
+    {
+      "verse": 2,
+      "kjv": "For thou shalt eat the labour of thine hands: happy shalt thou be, and it shall be well with thee.",
+      "ct": "You will enjoy the fruit of your own hard work; you will be happy, and things will go well for you."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thy wife shall be as a fruitful vine by the sides of thine house: thy children like olive plants round about thy table.",
+      "ct": "Your wife will be like a productive vine growing alongside your home; your children will be like young olive trees gathered around your table."
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, that thus shall the man be blessed that feareth the LORD.",
+      "ct": "Look — this is how the person who is wholeheartedly dedicated to the LORD will be blessed."
+    },
+    {
+      "verse": 5,
+      "kjv": "The LORD shall bless thee out of Zion: and thou shalt see the good of Jerusalem all the days of thy life.",
+      "ct": "May the LORD bless you from Zion, and may you experience the prosperity of Jerusalem every day of your life."
+    },
+    {
+      "verse": 6,
+      "kjv": "Yea, thou shalt see thy children’s children, and peace upon Israel.",
+      "ct": "May you live to see your grandchildren, and may there be peace over Israel."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "book": "hosea",
+  "book_name": "Hosea",
+  "chapter": 6,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.230Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Come, and let us return unto the LORD: for he hath torn, and he will heal us; he hath smitten, and he will bind us up.",
+      "ct": "\"Come, let's go back to the LORD. He has torn us apart, but he will heal us. He has struck us down, but he will bandage our wounds.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "After two days will he revive us: in the third day he will raise us up, and we shall live in his sight.",
+      "ct": "\"After 2 days he will restore us to life. On the 3rd day he will raise us up, and we will live in his presence.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Then shall we know, if we follow on to know the LORD: his going forth is prepared as the morning; and he shall come unto us as the rain, as the latter and former rain unto the earth.",
+      "ct": "\"Then we will truly know him, if we press on to know the LORD. His appearing is as certain as the dawn, and he will come to us like the rain — like the spring and autumn rains that water the earth.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "O Ephraim, what shall I do unto thee? O Judah, what shall I do unto thee? for your goodness is as a morning cloud, and as the early dew it goeth away.",
+      "ct": "\"Ephraim, what should I do with you? Judah, what should I do with you? Your loyalty is like a morning cloud, like the early dew that quickly disappears.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Therefore have I hewed them by the prophets; I have slain them by the words of my mouth: and thy judgments are as the light that goeth forth.",
+      "ct": "\"That is why I have cut them down through the prophets; I have killed them with the words of my mouth. My judgments shine out like lightning.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "For I desired mercy, and not sacrifice; and the knowledge of God more than burnt offerings.",
+      "ct": "\"Because I want mercy, not sacrifice — and the knowledge of God rather than burnt offerings.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "But they like men have transgressed the covenant: there have they dealt treacherously against me.",
+      "ct": "\"But like Adam, they have broken the covenant. Right there they were unfaithful to me.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Gilead is a city of them that work iniquity, and is polluted with blood.",
+      "ct": "\"Gilead is a city full of evildoers, stained with blood.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And as troops of robbers wait for a man, so the company of priests murder in the way by consent: for they commit lewdness.",
+      "ct": "Like gangs of bandits lying in ambush for someone, the priests band together and commit murder along the road to Shechem. They carry out shameful crimes."
+    },
+    {
+      "verse": 10,
+      "kjv": "I have seen an horrible thing in the house of Israel: there is the whoredom of Ephraim, Israel is defiled.",
+      "ct": "\"I have seen something horrifying in the house of Israel. Ephraim has given itself to prostitution, and Israel has made itself unclean.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Also, O Judah, he hath set an harvest for thee, when I returned the captivity of my people.",
+      "ct": "\"Judah, a harvest of judgment has been appointed for you as well, when I restore the fortunes of my people.\""
+    }
+  ]
+}

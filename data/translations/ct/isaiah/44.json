@@ -1,0 +1,150 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 44,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.103Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Yet now hear, O Jacob my servant; and Israel, whom I have chosen:",
+      "ct": "But now listen, Jacob my servant, Israel whom I have chosen:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Thus saith the LORD that made thee, and formed thee from the womb, which will help thee; Fear not, O Jacob, my servant; and thou, Jesurun, whom I have chosen.",
+      "ct": "This is what the LORD says — the one who made you, who shaped you in the womb and who will help you: Don't be afraid, Jacob my servant, and Jesurun, whom I have chosen."
+    },
+    {
+      "verse": 3,
+      "kjv": "For I will pour water upon him that is thirsty, and floods upon the dry ground: I will pour my spirit upon thy seed, and my blessing upon thine offspring:",
+      "ct": "I will pour water on the thirsty land and streams on the dry ground. I will pour my spirit on your descendants and my blessing on your offspring."
+    },
+    {
+      "verse": 4,
+      "kjv": "And they shall spring up as among the grass, as willows by the water courses.",
+      "ct": "They will flourish like grass beside water, like willows along flowing streams."
+    },
+    {
+      "verse": 5,
+      "kjv": "One shall say, I am the LORD’s; and another shall call himself by the name of Jacob; and another shall subscribe with his hand unto the LORD, and surname himself by the name of Israel.",
+      "ct": "One person will say, 'I belong to the LORD.' Another will take the name of Jacob. Another will write on his hand, 'The LORD's,' and adopt the name of Israel."
+    },
+    {
+      "verse": 6,
+      "kjv": "Thus saith the LORD the King of Israel, and his redeemer the LORD of hosts; I am the first, and I am the last; and beside me there is no God.",
+      "ct": "This is what the LORD says — the King of Israel and his redeemer, the LORD of hosts: I am the first and I am the last; apart from me there is no God."
+    },
+    {
+      "verse": 7,
+      "kjv": "And who, as I, shall call, and shall declare it, and set it in order for me, since I appointed the ancient people? and the things that are coming, and shall come, let them shew unto them.",
+      "ct": "Who is like me? Let him step forward and declare it — let him lay it out before me. Since I established the ancient people, who has announced what is coming and what will happen? Let them reveal it."
+    },
+    {
+      "verse": 8,
+      "kjv": "Fear ye not, neither be afraid: have not I told thee from that time, and have declared it? ye are even my witnesses. Is there a God beside me? yea, there is no God; I know not any.",
+      "ct": "Don't be afraid, and don't tremble. Haven't I told you long ago and declared it? You are my witnesses. Is there any God besides me? There is no other Rock — I don't know of one."
+    },
+    {
+      "verse": 9,
+      "kjv": "They that make a graven image are all of them vanity; and their delectable things shall not profit; and they are their own witnesses; they see not, nor know; that they may be ashamed.",
+      "ct": "Everyone who crafts an idol is worthless, and the things they treasure are useless. Their own witnesses can't see and don't understand — so they will end up humiliated."
+    },
+    {
+      "verse": 10,
+      "kjv": "Who hath formed a god, or molten a graven image that is profitable for nothing?",
+      "ct": "Who would shape a god or cast an idol that can do absolutely nothing?"
+    },
+    {
+      "verse": 11,
+      "kjv": "Behold, all his fellows shall be ashamed: and the workmen, they are of men: let them all be gathered together, let them stand up; yet they shall fear, and they shall be ashamed together.",
+      "ct": "Look — all who follow such things will be put to shame. The craftsmen are only human. Let them all gather together and take their stand — they will be terrified and humiliated as one."
+    },
+    {
+      "verse": 12,
+      "kjv": "The smith with the tongs both worketh in the coals, and fashioneth it with hammers, and worketh it with the strength of his arms: yea, he is hungry, and his strength faileth: he drinketh no water, and is faint.",
+      "ct": "The blacksmith works at the coals with his tongs, shaping the metal with hammers, forging it with his strong arms. Yet he gets hungry and loses his strength; he drinks no water and grows faint."
+    },
+    {
+      "verse": 13,
+      "kjv": "The carpenter stretcheth out his rule; he marketh it out with a line; he fitteth it with planes, and he marketh it out with the compass, and maketh it after the figure of a man, according to the beauty of a man; that it may remain in the house.",
+      "ct": "The woodworker stretches out a measuring line, traces the outline with a marker, shapes it with chisels, and marks it with a compass. He carves it into the form of a person, with human beauty, so it can sit in a shrine."
+    },
+    {
+      "verse": 14,
+      "kjv": "He heweth him down cedars, and taketh the cypress and the oak, which he strengtheneth for himself among the trees of the forest: he planteth an ash, and the rain doth nourish it.",
+      "ct": "He cuts down cedars, or selects a cypress or an oak that he let grow strong among the trees of the forest. He plants a pine tree, and the rain makes it grow."
+    },
+    {
+      "verse": 15,
+      "kjv": "Then shall it be for a man to burn: for he will take thereof, and warm himself; yea, he kindleth it, and baketh bread; yea, he maketh a god, and worshippeth it; he maketh it a graven image, and falleth down thereto.",
+      "ct": "Then it becomes fuel for people to burn. He takes some of it and warms himself. He also lights a fire and bakes bread. But then he makes a god from it and bows down to it — he carves an idol and worships it."
+    },
+    {
+      "verse": 16,
+      "kjv": "He burneth part thereof in the fire; with part thereof he eateth flesh; he roasteth roast, and is satisfied: yea, he warmeth himself, and saith, Aha, I am warm, I have seen the fire:",
+      "ct": "He burns half of it in the fire. Over that half he cooks meat, roasts it, and eats his fill. He also warms himself and says, 'How nice! I'm warm; I can feel the heat of the fire.'"
+    },
+    {
+      "verse": 17,
+      "kjv": "And the residue thereof he maketh a god, even his graven image: he falleth down unto it, and worshippeth it, and prayeth unto it, and saith, Deliver me; for thou art my god.",
+      "ct": "From what's left over, he makes a god — his carved idol. He bows down before it and worships it. He prays to it and says, 'Save me, because you are my god.'"
+    },
+    {
+      "verse": 18,
+      "kjv": "They have not known nor understood: for he hath shut their eyes, that they cannot see; and their hearts, that they cannot understand.",
+      "ct": "These people don't know anything and don't understand. Their eyes have been sealed shut so they can't see, and their minds are closed so they can't comprehend."
+    },
+    {
+      "verse": 19,
+      "kjv": "And none considereth in his heart, neither is there knowledge nor understanding to say, I have burned part of it in the fire; yea, also I have baked bread upon the coals thereof; I have roasted flesh, and eaten it: and shall I make the residue thereof an abomination? shall I fall down to the stock of a tree?",
+      "ct": "Not one of them stops to think, and none has the sense or understanding to say, 'I burned half of this wood in the fire. I even baked bread over its coals and roasted meat and ate it. Should I then make something disgusting from what's left? Should I bow down to a block of wood?'"
+    },
+    {
+      "verse": 20,
+      "kjv": "He feedeth on ashes: a deceived heart hath turned him aside, that he cannot deliver his soul, nor say, Is there not a lie in my right hand?",
+      "ct": "He is feeding on ashes. A deceived heart has led him astray, and he cannot rescue himself or even ask, 'Isn't this thing in my hand a lie?'"
+    },
+    {
+      "verse": 21,
+      "kjv": "Remember these, O Jacob and Israel; for thou art my servant: I have formed thee; thou art my servant: O Israel, thou shalt not be forgotten of me.",
+      "ct": "Remember these things, Jacob and Israel, because you are my servant. I formed you; you are my servant. Israel, I will not forget you."
+    },
+    {
+      "verse": 22,
+      "kjv": "I have blotted out, as a thick cloud, thy transgressions, and, as a cloud, thy sins: return unto me; for I have redeemed thee.",
+      "ct": "I have swept away your rebellions like a thick cloud and your sins like morning mist. Come back to me, because I have redeemed you."
+    },
+    {
+      "verse": 23,
+      "kjv": "Sing, O ye heavens; for the LORD hath done it: shout, ye lower parts of the earth: break forth into singing, ye mountains, O forest, and every tree therein: for the LORD hath redeemed Jacob, and glorified himself in Israel.",
+      "ct": "Sing out, heavens, because the LORD has done this! Shout with joy, depths of the earth! Burst into song, mountains, forests, and every tree in them! The LORD has redeemed Jacob and displayed his glory through Israel."
+    },
+    {
+      "verse": 24,
+      "kjv": "Thus saith the LORD, thy redeemer, and he that formed thee from the womb, I am the LORD that maketh all things; that stretcheth forth the heavens alone; that spreadeth abroad the earth by myself;",
+      "ct": "This is what the LORD says — your redeemer, the one who shaped you in the womb: I am the LORD, who made all things, who stretched out the heavens by myself, who spread out the earth alone —"
+    },
+    {
+      "verse": 25,
+      "kjv": "That frustrateth the tokens of the liars, and maketh diviners mad; that turneth wise men backward, and maketh their knowledge foolish;",
+      "ct": "who exposes the signs of false prophets as nonsense and makes fools of fortune-tellers, who turns the wisdom of the wise upside down and makes their knowledge foolish —"
+    },
+    {
+      "verse": 26,
+      "kjv": "That confirmeth the word of his servant, and performeth the counsel of his messengers; that saith to Jerusalem, Thou shalt be inhabited; and to the cities of Judah, Ye shall be built, and I will raise up the decayed places thereof:",
+      "ct": "who confirms the message of his servant and carries out the plans announced by his messengers, who says about Jerusalem, 'It will be inhabited again,' and about the cities of Judah, 'They will be rebuilt, and I will restore their ruins' —"
+    },
+    {
+      "verse": 27,
+      "kjv": "That saith to the deep, Be dry, and I will dry up thy rivers:",
+      "ct": "who says to the deep waters, 'Dry up!' and 'I will make your rivers run dry' —"
+    },
+    {
+      "verse": 28,
+      "kjv": "That saith of Cyrus, He is my shepherd, and shall perform all my pleasure: even saying to Jerusalem, Thou shalt be built; and to the temple, Thy foundation shall be laid.",
+      "ct": "who says about Cyrus, 'He is my shepherd, and he will carry out everything I desire,' even commanding that Jerusalem be rebuilt and the temple's foundation be laid."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 98,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.000Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O sing unto the LORD a new song; for he hath done marvellous things: his right hand, and his holy arm, hath gotten him the victory.",
+      "ct": "Sing a fresh song to the LORD, because he has accomplished amazing things! His powerful hand and his holy arm have won the victory for him."
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD hath made known his salvation: his righteousness hath he openly shewed in the sight of the heathen.",
+      "ct": "The LORD has revealed his salvation; he has displayed his righteousness for all the nations to see."
+    },
+    {
+      "verse": 3,
+      "kjv": "He hath remembered his mercy and his truth toward the house of Israel: all the ends of the earth have seen the salvation of our God.",
+      "ct": "He has not forgotten his mercy and his faithfulness to the people of Israel. Every corner of the earth has witnessed the salvation of our God."
+    },
+    {
+      "verse": 4,
+      "kjv": "Make a joyful noise unto the LORD, all the earth: make a loud noise, and rejoice, and sing praise.",
+      "ct": "Shout with joy to the LORD, everyone on earth! Burst into celebration, be glad, and sing praises."
+    },
+    {
+      "verse": 5,
+      "kjv": "Sing unto the LORD with the harp; with the harp, and the voice of a psalm.",
+      "ct": "Make music to the LORD with the harp — with the harp and the sound of singing."
+    },
+    {
+      "verse": 6,
+      "kjv": "With trumpets and sound of cornet make a joyful noise before the LORD, the King.",
+      "ct": "With trumpets and the blast of the horn, shout joyfully in the presence of the LORD, the King."
+    },
+    {
+      "verse": 7,
+      "kjv": "Let the sea roar, and the fulness thereof; the world, and they that dwell therein.",
+      "ct": "Let the sea thunder along with everything in it, and the world with all who live there."
+    },
+    {
+      "verse": 8,
+      "kjv": "Let the floods clap their hands: let the hills be joyful together",
+      "ct": "Let the rivers clap their hands, and let the mountains celebrate together"
+    },
+    {
+      "verse": 9,
+      "kjv": "Before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity.",
+      "ct": "in the presence of the LORD, because he is coming to judge the earth. He will judge the world with righteousness and all peoples with fairness."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 32,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.958Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Blessed is he whose transgression is forgiven, whose sin is covered.",
+      "ct": "How happy is the person whose rebellion is forgiven, whose sin is wiped away."
+    },
+    {
+      "verse": 2,
+      "kjv": "Blessed is the man unto whom the LORD imputeth not iniquity, and in whose spirit there is no guile.",
+      "ct": "How happy is the one the LORD does not hold guilty, and whose spirit is free from deceit."
+    },
+    {
+      "verse": 3,
+      "kjv": "When I kept silence, my bones waxed old through my roaring all the day long.",
+      "ct": "When I refused to speak up, my body wasted away as I groaned all day long."
+    },
+    {
+      "verse": 4,
+      "kjv": "For day and night thy hand was heavy upon me: my moisture is turned into the drought of summer. Selah.",
+      "ct": "Day and night your hand pressed down hard on me; my strength dried up like water in the summer heat. Selah."
+    },
+    {
+      "verse": 5,
+      "kjv": "I acknowledged my sin unto thee, and mine iniquity have I not hid. I said, I will confess my transgressions unto the LORD; and thou forgavest the iniquity of my sin. Selah.",
+      "ct": "Then I admitted my sin to you and stopped hiding my guilt. I said, 'I will confess my rebellion to the LORD' — and you forgave the guilt of my sin. Selah."
+    },
+    {
+      "verse": 6,
+      "kjv": "For this shall every one that is godly pray unto thee in a time when thou mayest be found: surely in the floods of great waters they shall not come nigh unto him.",
+      "ct": "Because of this, every devoted person should pray to you while you can still be found. Even when floodwaters rise, they will never reach him."
+    },
+    {
+      "verse": 7,
+      "kjv": "Thou art my hiding place; thou shalt preserve me from trouble; thou shalt compass me about with songs of deliverance. Selah.",
+      "ct": "You are my shelter; you protect me from trouble; you surround me with shouts of rescue. Selah."
+    },
+    {
+      "verse": 8,
+      "kjv": "I will instruct thee and teach thee in the way which thou shalt go: I will guide thee with mine eye.",
+      "ct": "\"I will teach you and show you the path you should take; I will watch over you and guide you.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Be ye not as the horse, or as the mule, which have no understanding: whose mouth must be held in with bit and bridle, lest they come near unto thee.",
+      "ct": "Don't be like a horse or a mule that has no sense — animals that must be controlled with a bit and bridle, or they won't come near you."
+    },
+    {
+      "verse": 10,
+      "kjv": "Many sorrows shall be to the wicked: but he that trusteth in the LORD, mercy shall compass him about.",
+      "ct": "The wicked will face many sorrows, but mercy surrounds the one who trusts in the LORD."
+    },
+    {
+      "verse": 11,
+      "kjv": "Be glad in the LORD, and rejoice, ye righteous: and shout for joy, all ye that are upright in heart.",
+      "ct": "Celebrate in the LORD and be joyful, you who are righteous! Shout with gladness, all you whose hearts are honest."
+    }
+  ]
+}

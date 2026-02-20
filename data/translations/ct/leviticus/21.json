@@ -1,0 +1,130 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 21,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.574Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD said unto Moses, Speak unto the priests the sons of Aaron, and say unto them, There shall none be defiled for the dead among his people:",
+      "ct": "The LORD told Moses, \"Speak to the priests, Aaron's sons, and tell them: A priest must not make himself ceremonially unclean by contact with a dead person among his people,"
+    },
+    {
+      "verse": 2,
+      "kjv": "But for his kin, that is near unto him, that is, for his mother, and for his father, and for his son, and for his daughter, and for his brother,",
+      "ct": "except for a close relative — his mother, father, son, daughter, or brother."
+    },
+    {
+      "verse": 3,
+      "kjv": "And for his sister a virgin, that is nigh unto him, which hath had no husband; for her may he be defiled.",
+      "ct": "He may also become unclean for an unmarried sister who is close to him and has never had a husband."
+    },
+    {
+      "verse": 4,
+      "kjv": "But he shall not defile himself, being a chief man among his people, to profane himself.",
+      "ct": "But as a leader among his people, he must not make himself unclean in ways that would dishonor him."
+    },
+    {
+      "verse": 5,
+      "kjv": "They shall not make baldness upon their head, neither shall they shave off the corner of their beard, nor make any cuttings in their flesh.",
+      "ct": "Priests must not shave any part of their heads, trim the edges of their beards, or cut their bodies."
+    },
+    {
+      "verse": 6,
+      "kjv": "They shall be holy unto their God, and not profane the name of their God: for the offerings of the LORD made by fire, and the bread of their God, they do offer: therefore they shall be holy.",
+      "ct": "They must be set apart for their God and must not dishonor the name of their God, because they are the ones who present the LORD's fire offerings, the food of their God. So they must be holy."
+    },
+    {
+      "verse": 7,
+      "kjv": "They shall not take a wife that is a whore, or profane; neither shall they take a woman put away from her husband: for he is holy unto his God.",
+      "ct": "They must not marry a woman who has been a prostitute or who has been dishonored, and they must not marry a woman divorced from her husband, because each priest is set apart for his God."
+    },
+    {
+      "verse": 8,
+      "kjv": "Thou shalt sanctify him therefore; for he offereth the bread of thy God: he shall be holy unto thee: for I the LORD, which sanctify you, am holy.",
+      "ct": "You must treat him as holy, because he presents the food of your God. He must be holy to you, because I, the LORD who sets you apart, am holy."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the daughter of any priest, if she profane herself by playing the whore, she profaneth her father: she shall be burnt with fire.",
+      "ct": "If a priest's daughter dishonors herself by becoming a prostitute, she disgraces her father. She must be burned with fire."
+    },
+    {
+      "verse": 10,
+      "kjv": "And he that is the high priest among his brethren, upon whose head the anointing oil was poured, and that is consecrated to put on the garments, shall not uncover his head, nor rend his clothes;",
+      "ct": "The high priest — the one among his brothers who had the anointing oil poured on his head and who was ordained to wear the priestly garments — must not let his hair hang loose or tear his clothes in grief."
+    },
+    {
+      "verse": 11,
+      "kjv": "Neither shall he go in to any dead body, nor defile himself for his father, or for his mother;",
+      "ct": "He must not go near any dead body. He must not make himself unclean even for his father or mother."
+    },
+    {
+      "verse": 12,
+      "kjv": "Neither shall he go out of the sanctuary, nor profane the sanctuary of his God; for the crown of the anointing oil of his God is upon him: I am the LORD.",
+      "ct": "He must not leave the sanctuary, and he must not dishonor the sanctuary of his God, because the dedication of his God's anointing oil is on him. I am the LORD."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he shall take a wife in her virginity.",
+      "ct": "He must marry a woman who is a virgin."
+    },
+    {
+      "verse": 14,
+      "kjv": "A widow, or a divorced woman, or profane, or an harlot, these shall he not take: but he shall take a virgin of his own people to wife.",
+      "ct": "He must not marry a widow, a divorced woman, a dishonored woman, or a prostitute. He may only marry a virgin from his own people."
+    },
+    {
+      "verse": 15,
+      "kjv": "Neither shall he profane his seed among his people: for I the LORD do sanctify him.",
+      "ct": "He must not dishonor his descendants among his people, because I, the LORD, have set him apart.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 17,
+      "kjv": "Speak unto Aaron, saying, Whosoever he be of thy seed in their generations that hath any blemish, let him not approach to offer the bread of his God.",
+      "ct": "\"Tell Aaron: In every generation, any of your descendants who has a physical defect must not come forward to present the food of his God."
+    },
+    {
+      "verse": 18,
+      "kjv": "For whatsoever man he be that hath a blemish, he shall not approach: a blind man, or a lame, or he that hath a flat nose, or any thing superfluous,",
+      "ct": "No one with a defect may approach — whether blind, lame, disfigured, deformed,"
+    },
+    {
+      "verse": 19,
+      "kjv": "Or a man that is brokenfooted, or brokenhanded,",
+      "ct": "or someone with a crippled foot or a crippled hand,"
+    },
+    {
+      "verse": 20,
+      "kjv": "Or crookbackt, or a dwarf, or that hath a blemish in his eye, or be scurvy, or scabbed, or hath his stones broken;",
+      "ct": "or someone who is hunchbacked, or stunted in growth, or has a defective eye, or has a skin disease, sores, or damaged testicles."
+    },
+    {
+      "verse": 21,
+      "kjv": "No man that hath a blemish of the seed of Aaron the priest shall come nigh to offer the offerings of the LORD made by fire: he hath a blemish; he shall not come nigh to offer the bread of his God.",
+      "ct": "No descendant of Aaron the priest who has a physical defect may come near to present the LORD's fire offerings. Since he has a defect, he must not come near to present the food of his God."
+    },
+    {
+      "verse": 22,
+      "kjv": "He shall eat the bread of his God, both of the most holy, and of the holy.",
+      "ct": "He may still eat the food of his God, from both the most holy offerings and the holy offerings."
+    },
+    {
+      "verse": 23,
+      "kjv": "Only he shall not go in unto the vail, nor come nigh unto the altar, because he hath a blemish; that he profane not my sanctuaries: for I the LORD do sanctify them.",
+      "ct": "But he must not go behind the curtain or approach the altar, because he has a defect. He must not dishonor my holy places, because I, the LORD, have set them apart.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And Moses told it unto Aaron, and to his sons, and unto all the children of Israel.",
+      "ct": "Moses communicated all of this to Aaron, to his sons, and to all the Israelites."
+    }
+  ]
+}

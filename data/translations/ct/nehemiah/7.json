@@ -1,0 +1,375 @@
+{
+  "book": "nehemiah",
+  "book_name": "Nehemiah",
+  "chapter": 7,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.886Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now it came to pass, when the wall was built, and I had set up the doors, and the porters and the singers and the Levites were appointed,",
+      "ct": "Once the wall was finished and I had installed the doors, and the gatekeepers, singers, and Levites had been assigned their roles,"
+    },
+    {
+      "verse": 2,
+      "kjv": "That I gave my brother Hanani, and Hananiah the ruler of the palace, charge over Jerusalem: for he was a faithful man, and feared God above many.",
+      "ct": "I put my brother Hanani and Hananiah, the commander of the fortress, in charge of Jerusalem. Hananiah was a trustworthy man who was more wholeheartedly dedicated to God than most people."
+    },
+    {
+      "verse": 3,
+      "kjv": "And I said unto them, Let not the gates of Jerusalem be opened until the sun be hot; and while they stand by, let them shut the doors, and bar them: and appoint watches of the inhabitants of Jerusalem, every one in his watch, and every one to be over against his house.",
+      "ct": "I told them, \"Don't open Jerusalem's gates until the sun is well up. And while the guards are still on duty, have them close and bolt the doors. Also assign residents of Jerusalem to guard duty — some at designated posts and others near their own homes.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Now the city was large and great: but the people were few therein, and the houses were not builded.",
+      "ct": "The city covered a large area, but the population was small, and many houses had not yet been rebuilt."
+    },
+    {
+      "verse": 5,
+      "kjv": "And my God put into mine heart to gather together the nobles, and the rulers, and the people, that they might be reckoned by genealogy. And I found a register of the genealogy of them which came up at the first, and found written therein,",
+      "ct": "My God prompted me to assemble the nobles, the officials, and the common people so they could be registered by family lines. I discovered the genealogical record of those who had returned first, and this is what was written in it:"
+    },
+    {
+      "verse": 6,
+      "kjv": "These are the children of the province, that went up out of the captivity, of those that had been carried away, whom Nebuchadnezzar the king of Babylon had carried away, and came again to Jerusalem and to Judah, every one unto his city;",
+      "ct": "These are the people of the province who returned from exile — those who had been taken captive by King Nebuchadnezzar of Babylon. They came back to Jerusalem and Judah, each to their own town."
+    },
+    {
+      "verse": 7,
+      "kjv": "Who came with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, Baanah. The number, I say, of the men of the people of Israel was this;",
+      "ct": "They came with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, and Baanah. The count of the Israelite men was as follows:"
+    },
+    {
+      "verse": 8,
+      "kjv": "The children of Parosh, two thousand an hundred seventy and two.",
+      "ct": "Descendants of Parosh: 2,172."
+    },
+    {
+      "verse": 9,
+      "kjv": "The children of Shephatiah, three hundred seventy and two.",
+      "ct": "Descendants of Shephatiah: 372."
+    },
+    {
+      "verse": 10,
+      "kjv": "The children of Arah, six hundred fifty and two.",
+      "ct": "Descendants of Arah: 652."
+    },
+    {
+      "verse": 11,
+      "kjv": "The children of Pahathmoab, of the children of Jeshua and Joab, two thousand and eight hundred and eighteen.",
+      "ct": "Descendants of Pahathmoab (through the line of Jeshua and Joab): 2,818."
+    },
+    {
+      "verse": 12,
+      "kjv": "The children of Elam, a thousand two hundred fifty and four.",
+      "ct": "Descendants of Elam: 1,254."
+    },
+    {
+      "verse": 13,
+      "kjv": "The children of Zattu, eight hundred forty and five.",
+      "ct": "Descendants of Zattu: 845."
+    },
+    {
+      "verse": 14,
+      "kjv": "The children of Zaccai, seven hundred and threescore.",
+      "ct": "Descendants of Zaccai: 760."
+    },
+    {
+      "verse": 15,
+      "kjv": "The children of Binnui, six hundred forty and eight.",
+      "ct": "Descendants of Binnui: 648."
+    },
+    {
+      "verse": 16,
+      "kjv": "The children of Bebai, six hundred twenty and eight.",
+      "ct": "Descendants of Bebai: 628."
+    },
+    {
+      "verse": 17,
+      "kjv": "The children of Azgad, two thousand three hundred twenty and two.",
+      "ct": "Descendants of Azgad: 2,322."
+    },
+    {
+      "verse": 18,
+      "kjv": "The children of Adonikam, six hundred threescore and seven.",
+      "ct": "Descendants of Adonikam: 667."
+    },
+    {
+      "verse": 19,
+      "kjv": "The children of Bigvai, two thousand threescore and seven.",
+      "ct": "Descendants of Bigvai: 2,067."
+    },
+    {
+      "verse": 20,
+      "kjv": "The children of Adin, six hundred fifty and five.",
+      "ct": "Descendants of Adin: 655."
+    },
+    {
+      "verse": 21,
+      "kjv": "The children of Ater of Hezekiah, ninety and eight.",
+      "ct": "Descendants of Ater (through Hezekiah): 98."
+    },
+    {
+      "verse": 22,
+      "kjv": "The children of Hashum, three hundred twenty and eight.",
+      "ct": "Descendants of Hashum: 328."
+    },
+    {
+      "verse": 23,
+      "kjv": "The children of Bezai, three hundred twenty and four.",
+      "ct": "Descendants of Bezai: 324."
+    },
+    {
+      "verse": 24,
+      "kjv": "The children of Hariph, an hundred and twelve.",
+      "ct": "Descendants of Hariph: 112."
+    },
+    {
+      "verse": 25,
+      "kjv": "The children of Gibeon, ninety and five.",
+      "ct": "Descendants of Gibeon: 95."
+    },
+    {
+      "verse": 26,
+      "kjv": "The men of Bethlehem and Netophah, an hundred fourscore and eight.",
+      "ct": "People from Bethlehem and Netophah: 188."
+    },
+    {
+      "verse": 27,
+      "kjv": "The men of Anathoth, an hundred twenty and eight.",
+      "ct": "People from Anathoth: 128."
+    },
+    {
+      "verse": 28,
+      "kjv": "The men of Bethazmaveth, forty and two.",
+      "ct": "People from Bethazmaveth: 42."
+    },
+    {
+      "verse": 29,
+      "kjv": "The men of Kirjathjearim, Chephirah, and Beeroth, seven hundred forty and three.",
+      "ct": "People from Kirjathjearim, Chephirah, and Beeroth: 743."
+    },
+    {
+      "verse": 30,
+      "kjv": "The men of Ramah and Gaba, six hundred twenty and one.",
+      "ct": "People from Ramah and Gaba: 621."
+    },
+    {
+      "verse": 31,
+      "kjv": "The men of Michmas, an hundred and twenty and two.",
+      "ct": "People from Michmas: 122."
+    },
+    {
+      "verse": 32,
+      "kjv": "The men of Bethel and Ai, an hundred twenty and three.",
+      "ct": "People from Bethel and Ai: 123."
+    },
+    {
+      "verse": 33,
+      "kjv": "The men of the other Nebo, fifty and two.",
+      "ct": "People from the other Nebo: 52."
+    },
+    {
+      "verse": 34,
+      "kjv": "The children of the other Elam, a thousand two hundred fifty and four.",
+      "ct": "Descendants of the other Elam: 1,254."
+    },
+    {
+      "verse": 35,
+      "kjv": "The children of Harim, three hundred and twenty.",
+      "ct": "Descendants of Harim: 320."
+    },
+    {
+      "verse": 36,
+      "kjv": "The children of Jericho, three hundred forty and five.",
+      "ct": "Descendants of Jericho: 345."
+    },
+    {
+      "verse": 37,
+      "kjv": "The children of Lod, Hadid, and Ono, seven hundred twenty and one.",
+      "ct": "Descendants of Lod, Hadid, and Ono: 721."
+    },
+    {
+      "verse": 38,
+      "kjv": "The children of Senaah, three thousand nine hundred and thirty.",
+      "ct": "Descendants of Senaah: 3,930."
+    },
+    {
+      "verse": 39,
+      "kjv": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy and three.",
+      "ct": "The priests: descendants of Jedaiah (from the family of Jeshua): 973."
+    },
+    {
+      "verse": 40,
+      "kjv": "The children of Immer, a thousand fifty and two.",
+      "ct": "Descendants of Immer: 1,052."
+    },
+    {
+      "verse": 41,
+      "kjv": "The children of Pashur, a thousand two hundred forty and seven.",
+      "ct": "Descendants of Pashur: 1,247."
+    },
+    {
+      "verse": 42,
+      "kjv": "The children of Harim, a thousand and seventeen.",
+      "ct": "Descendants of Harim: 1,017."
+    },
+    {
+      "verse": 43,
+      "kjv": "The Levites: the children of Jeshua, of Kadmiel, and of the children of Hodevah, seventy and four.",
+      "ct": "The Levites: descendants of Jeshua, through Kadmiel, from the line of Hodevah: 74."
+    },
+    {
+      "verse": 44,
+      "kjv": "The singers: the children of Asaph, an hundred forty and eight.",
+      "ct": "The singers: descendants of Asaph: 148."
+    },
+    {
+      "verse": 45,
+      "kjv": "The porters: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, an hundred thirty and eight.",
+      "ct": "The gatekeepers: descendants of Shallum, Ater, Talmon, Akkub, Hatita, and Shobai: 138."
+    },
+    {
+      "verse": 46,
+      "kjv": "The Nethinims: the children of Ziha, the children of Hashupha, the children of Tabbaoth,",
+      "ct": "The temple servants: descendants of Ziha, Hashupha, and Tabbaoth,"
+    },
+    {
+      "verse": 47,
+      "kjv": "The children of Keros, the children of Sia, the children of Padon,",
+      "ct": "descendants of Keros, Sia, and Padon,"
+    },
+    {
+      "verse": 48,
+      "kjv": "The children of Lebana, the children of Hagaba, the children of Shalmai,",
+      "ct": "descendants of Lebana, Hagaba, and Shalmai,"
+    },
+    {
+      "verse": 49,
+      "kjv": "The children of Hanan, the children of Giddel, the children of Gahar,",
+      "ct": "descendants of Hanan, Giddel, and Gahar,"
+    },
+    {
+      "verse": 50,
+      "kjv": "The children of Reaiah, the children of Rezin, the children of Nekoda,",
+      "ct": "descendants of Reaiah, Rezin, and Nekoda,"
+    },
+    {
+      "verse": 51,
+      "kjv": "The children of Gazzam, the children of Uzza, the children of Phaseah,",
+      "ct": "descendants of Gazzam, Uzza, and Phaseah,"
+    },
+    {
+      "verse": 52,
+      "kjv": "The children of Besai, the children of Meunim, the children of Nephishesim,",
+      "ct": "descendants of Besai, Meunim, and Nephishesim,"
+    },
+    {
+      "verse": 53,
+      "kjv": "The children of Bakbuk, the children of Hakupha, the children of Harhur,",
+      "ct": "descendants of Bakbuk, Hakupha, and Harhur,"
+    },
+    {
+      "verse": 54,
+      "kjv": "The children of Bazlith, the children of Mehida, the children of Harsha,",
+      "ct": "descendants of Bazlith, Mehida, and Harsha,"
+    },
+    {
+      "verse": 55,
+      "kjv": "The children of Barkos, the children of Sisera, the children of Tamah,",
+      "ct": "descendants of Barkos, Sisera, and Tamah,"
+    },
+    {
+      "verse": 56,
+      "kjv": "The children of Neziah, the children of Hatipha.",
+      "ct": "descendants of Neziah and Hatipha."
+    },
+    {
+      "verse": 57,
+      "kjv": "The children of Solomon’s servants: the children of Sotai, the children of Sophereth, the children of Perida,",
+      "ct": "Descendants of Solomon's servants: descendants of Sotai, Sophereth, and Perida,"
+    },
+    {
+      "verse": 58,
+      "kjv": "The children of Jaala, the children of Darkon, the children of Giddel,",
+      "ct": "descendants of Jaala, Darkon, and Giddel,"
+    },
+    {
+      "verse": 59,
+      "kjv": "The children of Shephatiah, the children of Hattil, the children of Pochereth of Zebaim, the children of Amon.",
+      "ct": "descendants of Shephatiah, Hattil, Pochereth of Zebaim, and Amon."
+    },
+    {
+      "verse": 60,
+      "kjv": "All the Nethinims, and the children of Solomon’s servants, were three hundred ninety and two.",
+      "ct": "The total number of temple servants and descendants of Solomon's servants was 392."
+    },
+    {
+      "verse": 61,
+      "kjv": "And these were they which went up also from Telmelah, Telharesha, Cherub, Addon, and Immer: but they could not shew their father’s house, nor their seed, whether they were of Israel.",
+      "ct": "The following people came from Telmelah, Telharesha, Cherub, Addon, and Immer, but they were unable to prove their ancestral family line or demonstrate that they were Israelites:"
+    },
+    {
+      "verse": 62,
+      "kjv": "The children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred forty and two.",
+      "ct": "Descendants of Delaiah, Tobiah, and Nekoda: 642."
+    },
+    {
+      "verse": 63,
+      "kjv": "And of the priests: the children of Habaiah, the children of Koz, the children of Barzillai, which took one of the daughters of Barzillai the Gileadite to wife, and was called after their name.",
+      "ct": "Among the priests: descendants of Habaiah, Koz, and Barzillai (a man who had married one of the daughters of Barzillai the Gileadite and took their family name)."
+    },
+    {
+      "verse": 64,
+      "kjv": "These sought their register among those that were reckoned by genealogy, but it was not found: therefore were they, as polluted, put from the priesthood.",
+      "ct": "These searched for their names in the genealogical records but couldn't find them. So they were excluded from the priesthood as unqualified."
+    },
+    {
+      "verse": 65,
+      "kjv": "And the Tirshatha said unto them, that they should not eat of the most holy things, till there stood up a priest with Urim and Thummim.",
+      "ct": "The governor told them they must not eat any of the most holy food until a priest could consult God using the Urim and Thummim."
+    },
+    {
+      "verse": 66,
+      "kjv": "The whole congregation together was forty and two thousand three hundred and threescore,",
+      "ct": "The entire assembly totaled 42,360,"
+    },
+    {
+      "verse": 67,
+      "kjv": "Beside their manservants and their maidservants, of whom there were seven thousand three hundred thirty and seven: and they had two hundred forty and five singing men and singing women.",
+      "ct": "not counting their 7,337 male and female servants. They also had 245 male and female singers."
+    },
+    {
+      "verse": 68,
+      "kjv": "Their horses, seven hundred thirty and six: their mules, two hundred forty and five:",
+      "ct": "They had 736 horses and 245 mules,"
+    },
+    {
+      "verse": 69,
+      "kjv": "Their camels, four hundred thirty and five: six thousand seven hundred and twenty asses.",
+      "ct": "435 camels, and 6,720 donkeys."
+    },
+    {
+      "verse": 70,
+      "kjv": "And some of the chief of the fathers gave unto the work. The Tirshatha gave to the treasure a thousand drams of gold, fifty basons, five hundred and thirty priests’ garments.",
+      "ct": "Some of the family leaders contributed to the project. The governor donated to the treasury 1,000 gold coins, 50 bowls, and 530 priestly robes."
+    },
+    {
+      "verse": 71,
+      "kjv": "And some of the chief of the fathers gave to the treasure of the work twenty thousand drams of gold, and two thousand and two hundred pound of silver.",
+      "ct": "Some of the family leaders donated to the project treasury 20,000 gold coins and 2,200 pounds of silver."
+    },
+    {
+      "verse": 72,
+      "kjv": "And that which the rest of the people gave was twenty thousand drams of gold, and two thousand pound of silver, and threescore and seven priests’ garments.",
+      "ct": "The rest of the people contributed 20,000 gold coins, 2,000 pounds of silver, and 67 priestly robes."
+    },
+    {
+      "verse": 73,
+      "kjv": "So the priests, and the Levites, and the porters, and the singers, and some of the people, and the Nethinims, and all Israel, dwelt in their cities; and when the seventh month came, the children of Israel were in their cities.",
+      "ct": "So the priests, Levites, gatekeepers, singers, some of the common people, the temple servants — all of Israel — settled in their own towns. When the 7th month arrived, the Israelites were established in their towns."
+    }
+  ]
+}

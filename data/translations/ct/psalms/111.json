@@ -1,0 +1,60 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 111,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.009Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Praise ye the LORD. I will praise the LORD with my whole heart, in the assembly of the upright, and in the congregation.",
+      "ct": "Praise the LORD! I will thank the LORD with everything in me, among the gathering of those who live right, in the whole community."
+    },
+    {
+      "verse": 2,
+      "kjv": "The works of the LORD are great, sought out of all them that have pleasure therein.",
+      "ct": "What the LORD has done is magnificent, studied by everyone who delights in them."
+    },
+    {
+      "verse": 3,
+      "kjv": "His work is honourable and glorious: and his righteousness endureth for ever.",
+      "ct": "Everything he does is full of honor and splendor, and his righteousness lasts forever."
+    },
+    {
+      "verse": 4,
+      "kjv": "He hath made his wonderful works to be remembered: the LORD is gracious and full of compassion.",
+      "ct": "He has ensured that his amazing acts will never be forgotten. The LORD is generous and full of compassion."
+    },
+    {
+      "verse": 5,
+      "kjv": "He hath given meat unto them that fear him: he will ever be mindful of his covenant.",
+      "ct": "He has provided food for those who are wholeheartedly dedicated to him. He will always remember his covenant."
+    },
+    {
+      "verse": 6,
+      "kjv": "He hath shewed his people the power of his works, that he may give them the heritage of the heathen.",
+      "ct": "He demonstrated the power of what he does to his people, giving them the lands that belonged to other nations."
+    },
+    {
+      "verse": 7,
+      "kjv": "The works of his hands are verity and judgment; all his commandments are sure.",
+      "ct": "Everything his hands accomplish is trustworthy and just; all of his commands are reliable."
+    },
+    {
+      "verse": 8,
+      "kjv": "They stand fast for ever and ever, and are done in truth and uprightness.",
+      "ct": "They remain firm for all time, carried out with truth and integrity."
+    },
+    {
+      "verse": 9,
+      "kjv": "He sent redemption unto his people: he hath commanded his covenant for ever: holy and reverend is his name.",
+      "ct": "He brought redemption to his people and established his covenant forever. His name is holy and worthy of reverence."
+    },
+    {
+      "verse": 10,
+      "kjv": "The fear of the LORD is the beginning of wisdom: a good understanding have all they that do his commandments: his praise endureth for ever.",
+      "ct": "Wholehearted dedication to the LORD is where wisdom begins. Everyone who follows his commands gains real understanding. His praise lasts forever."
+    }
+  ]
+}

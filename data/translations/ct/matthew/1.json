@@ -1,0 +1,135 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 1,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.284Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The book of the generation of Jesus Christ, the son of David, the son of Abraham.",
+      "ct": "This is the record of the ancestry of Jesus Christ, a descendant of David, who was a descendant of Abraham."
+    },
+    {
+      "verse": 2,
+      "kjv": "Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;",
+      "ct": "Abraham became the father of Isaac, Isaac became the father of Jacob, and Jacob became the father of Judas and his brothers."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Judas begat Phares and Zara of Thamar; and Phares begat Esrom; and Esrom begat Aram;",
+      "ct": "Judas became the father of Phares and Zara by Thamar, Phares became the father of Esrom, and Esrom became the father of Aram."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Aram begat Aminadab; and Aminadab begat Naasson; and Naasson begat Salmon;",
+      "ct": "Aram became the father of Aminadab, Aminadab became the father of Naasson, and Naasson became the father of Salmon."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Salmon begat Booz of Rachab; and Booz begat Obed of Ruth; and Obed begat Jesse;",
+      "ct": "Salmon became the father of Booz by Rachab, Booz became the father of Obed by Ruth, and Obed became the father of Jesse."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Jesse begat David the king; and David the king begat Solomon of her that had been the wife of Urias;",
+      "ct": "Jesse became the father of King David, and King David became the father of Solomon by the former wife of Urias."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Solomon begat Roboam; and Roboam begat Abia; and Abia begat Asa;",
+      "ct": "Solomon became the father of Roboam, Roboam became the father of Abia, and Abia became the father of Asa."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Asa begat Josaphat; and Josaphat begat Joram; and Joram begat Ozias;",
+      "ct": "Asa became the father of Josaphat, Josaphat became the father of Joram, and Joram became the father of Ozias."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Ozias begat Joatham; and Joatham begat Achaz; and Achaz begat Ezekias;",
+      "ct": "Ozias became the father of Joatham, Joatham became the father of Achaz, and Achaz became the father of Ezekias."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Ezekias begat Manasses; and Manasses begat Amon; and Amon begat Josias;",
+      "ct": "Ezekias became the father of Manasses, Manasses became the father of Amon, and Amon became the father of Josias."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Josias begat Jechonias and his brethren, about the time they were carried away to Babylon:",
+      "ct": "Josias became the father of Jechonias and his brothers, around the time the people were taken into exile in Babylon."
+    },
+    {
+      "verse": 12,
+      "kjv": "And after they were brought to Babylon, Jechonias begat Salathiel; and Salathiel begat Zorobabel;",
+      "ct": "After the exile to Babylon, Jechonias became the father of Salathiel, and Salathiel became the father of Zorobabel."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Zorobabel begat Abiud; and Abiud begat Eliakim; and Eliakim begat Azor;",
+      "ct": "Zorobabel became the father of Abiud, Abiud became the father of Eliakim, and Eliakim became the father of Azor."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Azor begat Sadoc; and Sadoc begat Achim; and Achim begat Eliud;",
+      "ct": "Azor became the father of Sadoc, Sadoc became the father of Achim, and Achim became the father of Eliud."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Eliud begat Eleazar; and Eleazar begat Matthan; and Matthan begat Jacob;",
+      "ct": "Eliud became the father of Eleazar, Eleazar became the father of Matthan, and Matthan became the father of Jacob."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Jacob begat Joseph the husband of Mary, of whom was born Jesus, who is called Christ.",
+      "ct": "Jacob became the father of Joseph, the husband of Mary, and Mary was the mother of Jesus, who is called Christ."
+    },
+    {
+      "verse": 17,
+      "kjv": "So all the generations from Abraham to David are fourteen generations; and from David until the carrying away into Babylon are fourteen generations; and from the carrying away into Babylon unto Christ are fourteen generations.",
+      "ct": "So there were 14 generations from Abraham to David, 14 generations from David to the exile in Babylon, and 14 generations from the exile in Babylon to Christ."
+    },
+    {
+      "verse": 18,
+      "kjv": "Now the birth of Jesus Christ was on this wise: When as his mother Mary was espoused to Joseph, before they came together, she was found with child of the Holy Ghost.",
+      "ct": "Here is how the birth of Jesus Christ happened: His mother Mary was engaged to Joseph, but before they came together as husband and wife, she was discovered to be pregnant through the Holy Spirit."
+    },
+    {
+      "verse": 19,
+      "kjv": "Then Joseph her husband, being a just man, and not willing to make her a publick example, was minded to put her away privily.",
+      "ct": "Joseph, her fiancé, was a good and honorable man. He didn't want to disgrace her publicly, so he planned to quietly break off the engagement."
+    },
+    {
+      "verse": 20,
+      "kjv": "But while he thought on these things, behold, the angel of the LORD appeared unto him in a dream, saying, Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is conceived in her is of the Holy Ghost.",
+      "ct": "But while he was considering this, an angel of the Lord appeared to him in a dream and said, \"Joseph, descendant of David, don't be afraid to take Mary as your wife. The child she is carrying was conceived by the Holy Spirit.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And she shall bring forth a son, and thou shalt call his name JESUS: for he shall save his people from their sins.",
+      "ct": "\"She will give birth to a son, and you are to name him JESUS, because he will save his people from their sins.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Now all this was done, that it might be fulfilled which was spoken of the Lord by the prophet, saying,",
+      "ct": "All of this took place to fulfill what the Lord had spoken through the prophet:"
+    },
+    {
+      "verse": 23,
+      "kjv": "Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name Emmanuel, which being interpreted is, God with us.",
+      "ct": "\"Look, a virgin will become pregnant and give birth to a son, and they will call him Emmanuel\" — which means \"God with us.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Then Joseph being raised from sleep did as the angel of the Lord had bidden him, and took unto him his wife:",
+      "ct": "When Joseph woke up, he did exactly what the angel of the Lord had told him and took Mary as his wife."
+    },
+    {
+      "verse": 25,
+      "kjv": "And knew her not till she had brought forth her firstborn son: and he called his name JESUS.",
+      "ct": "But he did not have relations with her until after she gave birth to her firstborn son. And he named him JESUS."
+    }
+  ]
+}

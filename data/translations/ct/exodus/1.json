@@ -1,0 +1,120 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 1,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.495Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now these are the names of the children of Israel, which came into Egypt; every man and his household came with Jacob.",
+      "ct": "These are the names of Israel's sons who traveled to Egypt, each one arriving with his family along with Jacob:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Reuben, Simeon, Levi, and Judah,",
+      "ct": "Reuben, Simeon, Levi, and Judah,"
+    },
+    {
+      "verse": 3,
+      "kjv": "Issachar, Zebulun, and Benjamin,",
+      "ct": "Issachar, Zebulun, and Benjamin,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Dan, and Naphtali, Gad, and Asher.",
+      "ct": "Dan, Naphtali, Gad, and Asher."
+    },
+    {
+      "verse": 5,
+      "kjv": "And all the souls that came out of the loins of Jacob were seventy souls: for Joseph was in Egypt already.",
+      "ct": "In total, Jacob's direct descendants numbered 70. Joseph was already living in Egypt at the time."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Joseph died, and all his brethren, and all that generation.",
+      "ct": "Eventually Joseph died, along with all his brothers and everyone else from that generation."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the children of Israel were fruitful, and increased abundantly, and multiplied, and waxed exceeding mighty; and the land was filled with them.",
+      "ct": "But the Israelites had many children and their population exploded. They grew so numerous and powerful that the entire land was full of them."
+    },
+    {
+      "verse": 8,
+      "kjv": "Now there arose up a new king over Egypt, which knew not Joseph.",
+      "ct": "Then a new king came to power in Egypt who had no knowledge of Joseph."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he said unto his people, Behold, the people of the children of Israel are more and mightier than we:",
+      "ct": "He told his people, \"Look — the Israelites have become more numerous and more powerful than we are."
+    },
+    {
+      "verse": 10,
+      "kjv": "Come on, let us deal wisely with them; lest they multiply, and it come to pass, that, when there falleth out any war, they join also unto our enemies, and fight against us, and so get them up out of the land.",
+      "ct": "We need to deal with them strategically. Otherwise they'll keep growing, and if a war breaks out, they might side with our enemies, fight against us, and escape from the country.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Therefore they did set over them taskmasters to afflict them with their burdens. And they built for Pharaoh treasure cities, Pithom and Raamses.",
+      "ct": "So the Egyptians appointed brutal slave drivers over them to crush them with forced labor. The Israelites built the supply cities of Pithom and Raamses for Pharaoh."
+    },
+    {
+      "verse": 12,
+      "kjv": "But the more they afflicted them, the more they multiplied and grew. And they were grieved because of the children of Israel.",
+      "ct": "But the more the Egyptians oppressed them, the more the Israelites multiplied and spread. This filled the Egyptians with dread of the Israelites."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the Egyptians made the children of Israel to serve with rigour:",
+      "ct": "So the Egyptians worked the Israelites ruthlessly."
+    },
+    {
+      "verse": 14,
+      "kjv": "And they made their lives bitter with hard bondage, in morter, and in brick, and in all manner of service in the field: all their service, wherein they made them serve, was with rigour.",
+      "ct": "They made their lives miserable with harsh slavery — forcing them to mix mortar, make bricks, and do every kind of backbreaking labor in the fields. Every task imposed on them was carried out under brutal conditions."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the king of Egypt spake to the Hebrew midwives, of which the name of the one was Shiphrah, and the name of the other Puah:",
+      "ct": "The king of Egypt spoke to the Hebrew midwives, one named Shiphrah and the other named Puah."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he said, When ye do the office of a midwife to the Hebrew women, and see them upon the stools; if it be a son, then ye shall kill him: but if it be a daughter, then she shall live.",
+      "ct": "He told them, \"When you help the Hebrew women give birth and you see the baby on the delivery stool — if it's a boy, kill him. But if it's a girl, let her live.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "But the midwives feared God, and did not as the king of Egypt commanded them, but saved the men children alive.",
+      "ct": "However, the midwives deeply revered God, so they refused to carry out the king of Egypt's orders. They let the baby boys live."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the king of Egypt called for the midwives, and said unto them, Why have ye done this thing, and have saved the men children alive?",
+      "ct": "The king of Egypt summoned the midwives and demanded, \"Why have you done this? Why have you let the boys live?\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And the midwives said unto Pharaoh, Because the Hebrew women are not as the Egyptian women; for they are lively, and are delivered ere the midwives come in unto them.",
+      "ct": "The midwives answered Pharaoh, \"Hebrew women aren't like Egyptian women. They're so vigorous that they give birth before we can even get there.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Therefore God dealt well with the midwives: and the people multiplied, and waxed very mighty.",
+      "ct": "God was good to the midwives because of this. Meanwhile, the Israelite population continued to grow and become very powerful."
+    },
+    {
+      "verse": 21,
+      "kjv": "And it came to pass, because the midwives feared God, that he made them houses.",
+      "ct": "Because the midwives deeply revered God, he gave them families of their own."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Pharaoh charged all his people, saying, Every son that is born ye shall cast into the river, and every daughter ye shall save alive.",
+      "ct": "Then Pharaoh issued a command to all his people: \"Throw every newborn Hebrew boy into the Nile River, but let every girl live.\""
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "book": "romans",
+  "book_name": "Romans",
+  "chapter": 16,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.411Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I commend unto you Phebe our sister, which is a servant of the church which is at Cenchrea:",
+      "ct": "I want to introduce you to our sister Phoebe, who serves the church in Cenchrea."
+    },
+    {
+      "verse": 2,
+      "kjv": "That ye receive her in the Lord, as becometh saints, and that ye assist her in whatsoever business she hath need of you: for she hath been a succourer of many, and of myself also.",
+      "ct": "Welcome her as someone who belongs to the Lord, in a way that is worthy of God's people. Give her whatever help she needs from you, because she has been a great supporter of many people, including me."
+    },
+    {
+      "verse": 3,
+      "kjv": "Greet Priscilla and Aquila my helpers in Christ Jesus:",
+      "ct": "Give my greetings to Priscilla and Aquila, my co-workers in Christ Jesus."
+    },
+    {
+      "verse": 4,
+      "kjv": "Who have for my life laid down their own necks: unto whom not only I give thanks, but also all the churches of the Gentiles.",
+      "ct": "They risked their own lives for me. Not only am I grateful to them, but so are all the churches among the Gentiles."
+    },
+    {
+      "verse": 5,
+      "kjv": "Likewise greet the church that is in their house. Salute my well-beloved Epaenetus, who is the firstfruits of Achaia unto Christ.",
+      "ct": "Also greet the church that meets in their home. Give my greetings to my dear friend Epaenetus, who was the first person in Achaia to put his trust in Christ."
+    },
+    {
+      "verse": 6,
+      "kjv": "Greet Mary, who bestowed much labour on us.",
+      "ct": "Greet Mary, who has worked so hard for you."
+    },
+    {
+      "verse": 7,
+      "kjv": "Salute Andronicus and Junia, my kinsmen, and my fellow-prisoners, who are of note among the apostles, who also were in Christ before me.",
+      "ct": "Greet Andronicus and Junia, my relatives and fellow prisoners. They are highly respected among the apostles, and they were united with Christ even before I was."
+    },
+    {
+      "verse": 8,
+      "kjv": "Greet Amplias my beloved in the Lord.",
+      "ct": "Greet my dear friend Amplias, who belongs to the Lord."
+    },
+    {
+      "verse": 9,
+      "kjv": "Salute Urbane, our helper in Christ, and Stachys my beloved.",
+      "ct": "Greet Urbane, our co-worker in Christ, and my dear friend Stachys."
+    },
+    {
+      "verse": 10,
+      "kjv": "Salute Apelles approved in Christ. Salute them which are of Aristobulus’ household.",
+      "ct": "Greet Apelles, whose faithfulness to Christ has been proven. Greet everyone in the household of Aristobulus."
+    },
+    {
+      "verse": 11,
+      "kjv": "Salute Herodion my kinsman. Greet them that be of the household of Narcissus, which are in the Lord.",
+      "ct": "Greet my relative Herodion. Greet those in the household of Narcissus who belong to the Lord."
+    },
+    {
+      "verse": 12,
+      "kjv": "Salute Tryphena and Tryphosa, who labour in the Lord. Salute the beloved Persis, which laboured much in the Lord.",
+      "ct": "Greet Tryphena and Tryphosa, who work hard for the Lord. Greet my dear friend Persis, who has done so much work for the Lord."
+    },
+    {
+      "verse": 13,
+      "kjv": "Salute Rufus chosen in the Lord, and his mother and mine.",
+      "ct": "Greet Rufus, chosen by the Lord, and his mother, who has been like a mother to me as well."
+    },
+    {
+      "verse": 14,
+      "kjv": "Salute Asyncritus, Phlegon, Hermas, Patrobas, Hermes, and the brethren which are with them.",
+      "ct": "Greet Asyncritus, Phlegon, Hermas, Patrobas, Hermes, and the brothers and sisters with them."
+    },
+    {
+      "verse": 15,
+      "kjv": "Salute Philologus, and Julia, Nereus, and his sister, and Olympas, and all the saints which are with them.",
+      "ct": "Greet Philologus and Julia, Nereus and his sister, Olympas, and all of God's people who are with them."
+    },
+    {
+      "verse": 16,
+      "kjv": "Salute one another with an holy kiss. The churches of Christ salute you.",
+      "ct": "Greet each other with a holy kiss. All the churches of Christ send you their greetings."
+    },
+    {
+      "verse": 17,
+      "kjv": "Now I beseech you, brethren, mark them which cause divisions and offences contrary to the doctrine which ye have learned; and avoid them.",
+      "ct": "I urge you, brothers and sisters, to watch out for those who create divisions and put obstacles in your way that go against the teaching you have received. Stay away from them."
+    },
+    {
+      "verse": 18,
+      "kjv": "For they that are such serve not our Lord Jesus Christ, but their own belly; and by good words and fair speeches deceive the hearts of the simple.",
+      "ct": "People like that are not serving our Lord Jesus Christ but their own appetites. Through smooth talk and flattering words, they deceive the minds of unsuspecting people."
+    },
+    {
+      "verse": 19,
+      "kjv": "For your obedience is come abroad unto all men. I am glad therefore on your behalf: but yet I would have you wise unto that which is good, and simple concerning evil.",
+      "ct": "Everyone has heard about your obedience, so I am very happy for you. But I want you to be wise about what is good and innocent when it comes to evil."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the God of peace shall bruise Satan under your feet shortly. The grace of our Lord Jesus Christ be with you. Amen.",
+      "ct": "The God of peace will soon crush Satan under your feet. May the grace of our Lord Jesus Christ be with you. Amen."
+    },
+    {
+      "verse": 21,
+      "kjv": "Timotheus my workfellow, and Lucius, and Jason, and Sosipater, my kinsmen, salute you.",
+      "ct": "Timothy, my co-worker, sends his greetings, along with my relatives Lucius, Jason, and Sosipater."
+    },
+    {
+      "verse": 22,
+      "kjv": "I Tertius, who wrote this epistle, salute you in the Lord.",
+      "ct": "I, Tertius, the one who wrote down this letter, send you my greetings in the Lord."
+    },
+    {
+      "verse": 23,
+      "kjv": "Gaius mine host, and of the whole church, saluteth you. Erastus the chamberlain of the city saluteth you, and Quartus a brother.",
+      "ct": "Gaius, who is host to me and to the whole church, sends you his greetings. Erastus, the city treasurer, sends his greetings, as does our brother Quartus."
+    },
+    {
+      "verse": 24,
+      "kjv": "The grace of our Lord Jesus Christ be with you all. Amen.",
+      "ct": "May the grace of our Lord Jesus Christ be with all of you. Amen."
+    },
+    {
+      "verse": 25,
+      "kjv": "Now to him that is of power to stablish you according to my gospel, and the preaching of Jesus Christ, according to the revelation of the mystery, which was kept secret since the world began,",
+      "ct": "Now to the one who has the power to strengthen you through my gospel and the proclamation of Jesus Christ — according to the unveiling of the mystery that was hidden for ages and ages,"
+    },
+    {
+      "verse": 26,
+      "kjv": "But now is made manifest, and by the scriptures of the prophets, according to the commandment of the everlasting God, made known to all nations for the obedience of faith:",
+      "ct": "but has now been revealed and made known to all nations through the prophetic Scriptures, by the command of the eternal God, so that all peoples might come to the obedience that flows from faith —"
+    },
+    {
+      "verse": 27,
+      "kjv": "To God only wise, be glory through Jesus Christ for ever. Amen.",
+      "ct": "to the only wise God be glory forever through Jesus Christ! Amen."
+    }
+  ]
+}

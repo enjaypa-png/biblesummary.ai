@@ -1,0 +1,65 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 42,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.965Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "As the hart panteth after the water brooks, so panteth my soul after thee, O God.",
+      "ct": "Like a deer that craves flowing streams, my soul craves you, O God."
+    },
+    {
+      "verse": 2,
+      "kjv": "My soul thirsteth for God, for the living God: when shall I come and appear before God?",
+      "ct": "My soul is thirsty for God — for the living God. When will I finally come and stand in God's presence?"
+    },
+    {
+      "verse": 3,
+      "kjv": "My tears have been my meat day and night, while they continually say unto me, Where is thy God?",
+      "ct": "Tears have been my only food day and night, while people constantly ask me, 'Where is your God?'"
+    },
+    {
+      "verse": 4,
+      "kjv": "When I remember these things, I pour out my soul in me: for I had gone with the multitude, I went with them to the house of God, with the voice of joy and praise, with a multitude that kept holyday.",
+      "ct": "When I think back on this, my heart breaks inside me — because I used to walk with the crowd, leading them into the house of God with shouts of joy and thanksgiving, a whole multitude celebrating the festival."
+    },
+    {
+      "verse": 5,
+      "kjv": "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God: for I shall yet praise him for the help of his countenance.",
+      "ct": "Why are you so crushed, my soul? Why are you so restless inside me? Put your hope in God, because I will still praise him for the salvation that comes from his presence."
+    },
+    {
+      "verse": 6,
+      "kjv": "O my God, my soul is cast down within me: therefore will I remember thee from the land of Jordan, and of the Hermonites, from the hill Mizar.",
+      "ct": "My God, my soul is crushed inside me. That is why I will remember you from the land of Jordan, from the peaks of Hermon, and from the hill of Mizar."
+    },
+    {
+      "verse": 7,
+      "kjv": "Deep calleth unto deep at the noise of thy waterspouts: all thy waves and thy billows are gone over me.",
+      "ct": "One deep ocean calls out to another at the roar of your waterfalls — all your waves and surging waters have swept over me."
+    },
+    {
+      "verse": 8,
+      "kjv": "Yet the LORD will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.",
+      "ct": "Yet during the day the LORD sends his faithful love, and at night his song stays with me — a prayer to the God of my life."
+    },
+    {
+      "verse": 9,
+      "kjv": "I will say unto God my rock, Why hast thou forgotten me? why go I mourning because of the oppression of the enemy?",
+      "ct": "I will say to God, my rock, 'Why have you forgotten me? Why must I walk around grieving under the crushing weight of my enemies?'"
+    },
+    {
+      "verse": 10,
+      "kjv": "As with a sword in my bones, mine enemies reproach me; while they say daily unto me, Where is thy God?",
+      "ct": "It cuts like a blade through my bones when my enemies mock me, saying to me every day, 'Where is your God?'"
+    },
+    {
+      "verse": 11,
+      "kjv": "Why art thou cast down, O my soul? and why art thou disquieted within me? hope thou in God: for I shall yet praise him, who is the health of my countenance, and my God.",
+      "ct": "Why are you so crushed, my soul? Why are you so restless inside me? Put your hope in God, because I will still praise him — he is my salvation and my God."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 18,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.087Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Woe to the land shadowing with wings, which is beyond the rivers of Ethiopia:",
+      "ct": "Disaster is coming for the land of buzzing wings, the one that lies beyond the rivers of Ethiopia!"
+    },
+    {
+      "verse": 2,
+      "kjv": "That sendeth ambassadors by the sea, even in vessels of bulrushes upon the waters, saying, Go, ye swift messengers, to a nation scattered and peeled, to a people terrible from their beginning hitherto; a nation meted out and trodden down, whose land the rivers have spoiled!",
+      "ct": "It sends diplomats across the sea, traveling in papyrus boats over the water, saying, 'Go, swift messengers, to a nation tall and smooth-skinned, to a people feared everywhere from their earliest days until now — a powerful nation that conquers and tramples, whose land is divided by rivers!'"
+    },
+    {
+      "verse": 3,
+      "kjv": "All ye inhabitants of the world, and dwellers on the earth, see ye, when he lifteth up an ensign on the mountains; and when he bloweth a trumpet, hear ye.",
+      "ct": "All you people of the world, everyone living on the earth — when a banner is raised on the mountains, pay attention! When a trumpet sounds, listen!"
+    },
+    {
+      "verse": 4,
+      "kjv": "For so the LORD said unto me, I will take my rest, and I will consider in my dwelling place like a clear heat upon herbs, and like a cloud of dew in the heat of harvest.",
+      "ct": "The LORD told me this: 'I will stay calm and watch from where I dwell, like shimmering heat in the sunshine, like a cloud of dew during the warmth of harvest.'"
+    },
+    {
+      "verse": 5,
+      "kjv": "For afore the harvest, when the bud is perfect, and the sour grape is ripening in the flower, he shall both cut off the sprigs with pruning hooks, and take away and cut down the branches.",
+      "ct": "Because before the harvest arrives, when the blossoming is complete and the flower becomes a ripening grape, he will cut off the shoots with pruning knives and chop away the spreading branches."
+    },
+    {
+      "verse": 6,
+      "kjv": "They shall be left together unto the fowls of the mountains, and to the beasts of the earth: and the fowls shall summer upon them, and all the beasts of the earth shall winter upon them.",
+      "ct": "They will all be abandoned for the mountain birds and the wild animals. The birds will feed on them through the summer, and all the wild animals will feed on them through the winter."
+    },
+    {
+      "verse": 7,
+      "kjv": "In that time shall the present be brought unto the LORD of hosts of a people scattered and peeled, and from a people terrible from their beginning hitherto; a nation meted out and trodden under foot, whose land the rivers have spoiled, to the place of the name of the LORD of hosts, the mount Zion.",
+      "ct": "At that time, gifts will be brought to the LORD of Hosts from a people tall and smooth-skinned, a people feared everywhere from their earliest days until now — a powerful nation that conquers and tramples, whose land is divided by rivers. These gifts will be brought to the place where the name of the LORD of Hosts dwells: Mount Zion."
+    }
+  ]
+}

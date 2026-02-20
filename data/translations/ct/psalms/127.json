@@ -1,0 +1,35 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 127,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.020Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Except the LORD build the house, they labour in vain that build it: except the LORD keep the city, the watchman waketh but in vain.",
+      "ct": "Unless the LORD is the one constructing the house, the builders work for nothing. Unless the LORD is guarding the city, the watchman stays alert for nothing."
+    },
+    {
+      "verse": 2,
+      "kjv": "It is vain for you to rise up early, to sit up late, to eat the bread of sorrows: for so he giveth his beloved sleep.",
+      "ct": "It's pointless for you to get up before dawn and stay up late into the night, working hard just to eat the bread of anxiety — because God provides rest to those he loves."
+    },
+    {
+      "verse": 3,
+      "kjv": "Lo, children are an heritage of the LORD: and the fruit of the womb is his reward.",
+      "ct": "Pay attention: children are a gift from the LORD, and the offspring of your body are a reward from him."
+    },
+    {
+      "verse": 4,
+      "kjv": "As arrows are in the hand of a mighty man; so are children of the youth.",
+      "ct": "Like arrows in the grip of a warrior — that's what children born in your younger years are like."
+    },
+    {
+      "verse": 5,
+      "kjv": "Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate.",
+      "ct": "How blessed is the person whose quiver is full of them! They won't be put to shame when they confront their opponents at the city gate."
+    }
+  ]
+}

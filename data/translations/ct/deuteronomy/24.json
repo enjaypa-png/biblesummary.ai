@@ -1,0 +1,120 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 24,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.644Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "When a man hath taken a wife, and married her, and it come to pass that she find no favour in his eyes, because he hath found some uncleanness in her: then let him write her a bill of divorcement, and give it in her hand, and send her out of his house.",
+      "ct": "If a man marries a woman and later becomes displeased with her because he discovers something indecent about her, he must write her a certificate of divorce, hand it to her, and send her away from his home."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when she is departed out of his house, she may go and be another man’s wife.",
+      "ct": "After she leaves his home, she is free to go and marry another man."
+    },
+    {
+      "verse": 3,
+      "kjv": "And if the latter husband hate her, and write her a bill of divorcement, and giveth it in her hand, and sendeth her out of his house; or if the latter husband die, which took her to be his wife;",
+      "ct": "If this second husband also turns against her and writes her a certificate of divorce, hands it to her, and sends her away from his home — or if the second husband dies —"
+    },
+    {
+      "verse": 4,
+      "kjv": "Her former husband, which sent her away, may not take her again to be his wife, after that she is defiled; for that is abomination before the LORD: and thou shalt not cause the land to sin, which the LORD thy God giveth thee for an inheritance.",
+      "ct": "then her first husband, who divorced her, is not allowed to marry her again, since she has been made unclean. That would be disgusting to the LORD, and you must not bring sin upon the land that the LORD your God is giving you as your inheritance."
+    },
+    {
+      "verse": 5,
+      "kjv": "When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: but he shall be free at home one year, and shall cheer up his wife which he hath taken.",
+      "ct": "When a man has recently married, he must not be sent to war or assigned any public duty. He is to be free to stay home for 1 year and bring happiness to the wife he has married."
+    },
+    {
+      "verse": 6,
+      "kjv": "No man shall take the nether or the upper millstone to pledge: for he taketh a man’s life to pledge.",
+      "ct": "No one should take a pair of millstones — or even just the upper one — as collateral for a loan, because that would be taking away someone's ability to make a living."
+    },
+    {
+      "verse": 7,
+      "kjv": "If a man be found stealing any of his brethren of the children of Israel, and maketh merchandise of him, or selleth him; then that thief shall die; and thou shalt put evil away from among you.",
+      "ct": "If someone is caught kidnapping a fellow Israelite and treating that person as property or selling them, the kidnapper must be executed. You must remove this evil from among you."
+    },
+    {
+      "verse": 8,
+      "kjv": "Take heed in the plague of leprosy, that thou observe diligently, and do according to all that the priests the Levites shall teach you: as I commanded them, so ye shall observe to do.",
+      "ct": "When dealing with cases of skin diseases, be very careful to follow exactly what the Levitical priests instruct you. Carry out everything I commanded them to do."
+    },
+    {
+      "verse": 9,
+      "kjv": "Remember what the LORD thy God did unto Miriam by the way, after that ye were come forth out of Egypt.",
+      "ct": "Remember what the LORD your God did to Miriam along the road after you left Egypt."
+    },
+    {
+      "verse": 10,
+      "kjv": "When thou dost lend thy brother any thing, thou shalt not go into his house to fetch his pledge.",
+      "ct": "When you make a loan of any kind to your neighbor, do not go into their house to collect whatever they offered as collateral."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou shalt stand abroad, and the man to whom thou dost lend shall bring out the pledge abroad unto thee.",
+      "ct": "Stay outside, and let the person who borrowed from you bring the collateral out to you."
+    },
+    {
+      "verse": 12,
+      "kjv": "And if the man be poor, thou shalt not sleep with his pledge:",
+      "ct": "If the person is poor, do not keep their collateral overnight."
+    },
+    {
+      "verse": 13,
+      "kjv": "In any case thou shalt deliver him the pledge again when the sun goeth down, that he may sleep in his own raiment, and bless thee: and it shall be righteousness unto thee before the LORD thy God.",
+      "ct": "You must return it to them by sunset so they can sleep in their own clothing and be grateful to you. This will be counted as righteousness for you in the presence of the LORD your God."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thou shalt not oppress an hired servant that is poor and needy, whether he be of thy brethren, or of thy strangers that are in thy land within thy gates:",
+      "ct": "Do not take advantage of a hired worker who is poor and struggling, whether that person is a fellow Israelite or a foreigner living in your towns."
+    },
+    {
+      "verse": 15,
+      "kjv": "At his day thou shalt give him his hire, neither shall the sun go down upon it; for he is poor, and setteth his heart upon it: lest he cry against thee unto the LORD, and it be sin unto thee.",
+      "ct": "Pay them their wages each day before the sun goes down, because they are poor and counting on that money. Otherwise they may cry out to the LORD against you, and you will be guilty of sin."
+    },
+    {
+      "verse": 16,
+      "kjv": "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin.",
+      "ct": "Parents must not be executed for their children's crimes, and children must not be executed for their parents' crimes. Each person must be put to death only for their own sin."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thou shalt not pervert the judgment of the stranger, nor of the fatherless; nor take a widow’s raiment to pledge:",
+      "ct": "Do not deny justice to foreigners or orphans, and do not take a widow's clothing as collateral for a loan."
+    },
+    {
+      "verse": 18,
+      "kjv": "But thou shalt remember that thou wast a bondman in Egypt, and the LORD thy God redeemed thee thence: therefore I command thee to do this thing.",
+      "ct": "Remember that you were slaves in Egypt and the LORD your God rescued you from there. That is why I am commanding you to do this."
+    },
+    {
+      "verse": 19,
+      "kjv": "When thou cuttest down thine harvest in thy field, and hast forgot a sheaf in the field, thou shalt not go again to fetch it: it shall be for the stranger, for the fatherless, and for the widow: that the LORD thy God may bless thee in all the work of thine hands.",
+      "ct": "When you are harvesting your field and you forget a bundle of grain, do not go back to get it. Leave it for the foreigner, the orphan, and the widow, so that the LORD your God may bless you in everything you do."
+    },
+    {
+      "verse": 20,
+      "kjv": "When thou beatest thine olive tree, thou shalt not go over the boughs again: it shall be for the stranger, for the fatherless, and for the widow.",
+      "ct": "When you harvest olives from your trees, do not go over the branches a second time. What remains is for the foreigner, the orphan, and the widow."
+    },
+    {
+      "verse": 21,
+      "kjv": "When thou gatherest the grapes of thy vineyard, thou shalt not glean it afterward: it shall be for the stranger, for the fatherless, and for the widow.",
+      "ct": "When you pick grapes from your vineyard, do not go through it again afterward. What is left is for the foreigner, the orphan, and the widow."
+    },
+    {
+      "verse": 22,
+      "kjv": "And thou shalt remember that thou wast a bondman in the land of Egypt: therefore I command thee to do this thing.",
+      "ct": "Remember that you were slaves in the land of Egypt. That is why I am commanding you to do this."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 53,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.109Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Who hath believed our report? and to whom is the arm of the LORD revealed?",
+      "ct": "Who has put their trust in what we've reported? And to whom has the LORD's power been made known?"
+    },
+    {
+      "verse": 2,
+      "kjv": "For he shall grow up before him as a tender plant, and as a root out of a dry ground: he hath no form nor comeliness; and when we shall see him, there is no beauty that we should desire him.",
+      "ct": "He grew up in his presence like a fragile shoot, like a root pushing through parched soil. He had no impressive appearance or majesty; when we looked at him, there was nothing attractive that would draw us to him."
+    },
+    {
+      "verse": 3,
+      "kjv": "He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not.",
+      "ct": "He was looked down on and turned away by people — a man defined by suffering, deeply familiar with pain. We turned away from him in disgust; he was despised, and we considered him worthless."
+    },
+    {
+      "verse": 4,
+      "kjv": "Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted.",
+      "ct": "Yet it was our pain he carried, our suffering he took on himself. But we assumed he was being punished, struck down by God, and afflicted."
+    },
+    {
+      "verse": 5,
+      "kjv": "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.",
+      "ct": "Instead, he was pierced because of our rebellions, crushed because of our sins. The punishment that brought us wholeness fell on him, and through his wounds we are healed."
+    },
+    {
+      "verse": 6,
+      "kjv": "All we like sheep have gone astray; we have turned every one to his own way; and the LORD hath laid on him the iniquity of us all.",
+      "ct": "Every one of us had wandered off like sheep; each of us had gone our own direction. And the LORD placed on him the sin of all of us."
+    },
+    {
+      "verse": 7,
+      "kjv": "He was oppressed, and he was afflicted, yet he opened not his mouth: he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb, so he openeth not his mouth.",
+      "ct": "He was mistreated and made to suffer, yet he never said a word. Like a lamb led to be slaughtered, like a sheep silent in front of those who shear it, he did not open his mouth."
+    },
+    {
+      "verse": 8,
+      "kjv": "He was taken from prison and from judgment: and who shall declare his generation? for he was cut off out of the land of the living: for the transgression of my people was he stricken.",
+      "ct": "Through oppression and judgment he was taken away. Who among his generation spoke up? He was removed from the land of the living — struck down because of the rebellion of my people."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he made his grave with the wicked, and with the rich in his death; because he had done no violence, neither was any deceit in his mouth.",
+      "ct": "His burial place was assigned among criminals, yet he ended up with the wealthy in death, even though he had never committed violence and no dishonesty had ever come from his lips."
+    },
+    {
+      "verse": 10,
+      "kjv": "Yet it pleased the LORD to bruise him; he hath put him to grief: when thou shalt make his soul an offering for sin, he shall see his seed, he shall prolong his days, and the pleasure of the LORD shall prosper in his hand.",
+      "ct": "Still, it was the LORD's will to crush him and cause him to suffer. When his soul is made an offering for sin, he will see his descendants, his life will be extended, and the LORD's purpose will succeed through him."
+    },
+    {
+      "verse": 11,
+      "kjv": "He shall see of the travail of his soul, and shall be satisfied: by his knowledge shall my righteous servant justify many; for he shall bear their iniquities.",
+      "ct": "After the anguish of his soul, he will see the results and be satisfied. Through what he knows, my righteous servant will make many people right with God, because he will take their sins upon himself."
+    },
+    {
+      "verse": 12,
+      "kjv": "Therefore will I divide him a portion with the great, and he shall divide the spoil with the strong; because he hath poured out his soul unto death: and he was numbered with the transgressors; and he bare the sin of many, and made intercession for the transgressors.",
+      "ct": "For this reason, I will give him a place among the powerful, and he will share the rewards with the mighty — because he poured out his life to the point of death. He was counted among the rebels, yet he carried the sin of many and stepped in to plead on behalf of those who had rebelled."
+    }
+  ]
+}

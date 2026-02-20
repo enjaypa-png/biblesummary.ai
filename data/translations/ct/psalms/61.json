@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 61,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.975Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Hear my cry, O God; attend unto my prayer.",
+      "ct": "Listen to my cry, God; pay attention to my prayer."
+    },
+    {
+      "verse": 2,
+      "kjv": "From the end of the earth will I cry unto thee, when my heart is overwhelmed: lead me to the rock that is higher than I.",
+      "ct": "From the farthest corners of the earth I call out to you when my heart is falling apart — guide me to the rock that stands above me."
+    },
+    {
+      "verse": 3,
+      "kjv": "For thou hast been a shelter for me, and a strong tower from the enemy.",
+      "ct": "Because you have been my refuge, a fortress of protection against my enemies."
+    },
+    {
+      "verse": 4,
+      "kjv": "I will abide in thy tabernacle for ever: I will trust in the covert of thy wings. Selah.",
+      "ct": "Let me live in your dwelling place forever; let me find safety in the shelter of your wings. Selah."
+    },
+    {
+      "verse": 5,
+      "kjv": "For thou, O God, hast heard my vows: thou hast given me the heritage of those that fear thy name.",
+      "ct": "Because you, God, have heard my promises; you have given me the inheritance that belongs to those who are wholeheartedly dedicated to your name."
+    },
+    {
+      "verse": 6,
+      "kjv": "Thou wilt prolong the king’s life: and his years as many generations.",
+      "ct": "Add more days to the king's life; extend his years through many generations."
+    },
+    {
+      "verse": 7,
+      "kjv": "He shall abide before God for ever: O prepare mercy and truth, which may preserve him.",
+      "ct": "May he remain in God's presence forever; appoint mercy and truth to watch over him."
+    },
+    {
+      "verse": 8,
+      "kjv": "So will I sing praise unto thy name for ever, that I may daily perform my vows.",
+      "ct": "Then I will sing praise to your name forever, fulfilling my promises day after day."
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "book": "john",
+  "book_name": "John",
+  "chapter": 11,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.363Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now a certain man was sick, named Lazarus, of Bethany, the town of Mary and her sister Martha.",
+      "ct": "There was a man named Lazarus who was sick. He lived in Bethany, the town where Mary and her sister Martha lived."
+    },
+    {
+      "verse": 2,
+      "kjv": "(It was that Mary which anointed the Lord with ointment, and wiped his feet with her hair, whose brother Lazarus was sick.)",
+      "ct": "(This was the same Mary who poured perfume on the Lord and dried his feet with her hair. Lazarus, the sick man, was her brother.)"
+    },
+    {
+      "verse": 3,
+      "kjv": "Therefore his sisters sent unto him, saying, Lord, behold, he whom thou lovest is sick.",
+      "ct": "So the sisters sent a message to Jesus: \"Lord, the one you love is sick.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "When Jesus heard that, he said, This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby.",
+      "ct": "When Jesus heard this, he said, \"This sickness won't end in death. Instead, it's for the glory of God, so that the Son of God may be glorified through it.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Now Jesus loved Martha, and her sister, and Lazarus.",
+      "ct": "Jesus loved Martha, her sister, and Lazarus."
+    },
+    {
+      "verse": 6,
+      "kjv": "When he had heard therefore that he was sick, he abode two days still in the same place where he was.",
+      "ct": "Yet when he heard that Lazarus was sick, he stayed where he was for 2 more days."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then after that saith he to his disciples, Let us go into Judaea again.",
+      "ct": "After that, he told his disciples, \"Let's go back to Judaea.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "His disciples say unto him, Master, the Jews of late sought to stone thee; and goest thou thither again?",
+      "ct": "His disciples said to him, \"Teacher, just recently the Jewish leaders were trying to stone you, and you want to go back there?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Jesus answered, Are there not twelve hours in the day? If any man walk in the day, he stumbleth not, because he seeth the light of this world.",
+      "ct": "Jesus replied, \"Aren't there 12 hours of daylight? Anyone who walks during the day doesn't stumble, because they can see by the light of this world."
+    },
+    {
+      "verse": 10,
+      "kjv": "But if a man walk in the night, he stumbleth, because there is no light in him.",
+      "ct": "But anyone who walks at night stumbles, because they have no light.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "These things said he: and after that he saith unto them, Our friend Lazarus sleepeth; but I go, that I may awake him out of sleep.",
+      "ct": "After saying this, he told them, \"Our friend Lazarus has fallen asleep, but I'm going to wake him up.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then said his disciples, Lord, if he sleep, he shall do well.",
+      "ct": "The disciples responded, \"Lord, if he's sleeping, he'll recover.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Howbeit Jesus spake of his death: but they thought that he had spoken of taking of rest in sleep.",
+      "ct": "Jesus was talking about Lazarus's death, but they assumed he meant ordinary sleep."
+    },
+    {
+      "verse": 14,
+      "kjv": "Then said Jesus unto them plainly, Lazarus is dead.",
+      "ct": "So Jesus told them directly, \"Lazarus is dead.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And I am glad for your sakes that I was not there, to the intent ye may believe; nevertheless let us go unto him.",
+      "ct": "\"And for your sake, I'm glad I wasn't there, so that you may come to believe. But let's go to him now.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Then said Thomas, which is called Didymus, unto his fellowdisciples, Let us also go, that we may die with him.",
+      "ct": "Then Thomas (also called Didymus) said to the other disciples, \"Let's go too, so we can die alongside him.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Then when Jesus came, he found that he had lain in the grave four days already.",
+      "ct": "When Jesus arrived, he discovered that Lazarus had already been in the tomb for 4 days."
+    },
+    {
+      "verse": 18,
+      "kjv": "Now Bethany was nigh unto Jerusalem, about fifteen furlongs off:",
+      "ct": "Bethany was near Jerusalem, only about 2 miles away."
+    },
+    {
+      "verse": 19,
+      "kjv": "And many of the Jews came to Martha and Mary, to comfort them concerning their brother.",
+      "ct": "Many Jewish people had come to Martha and Mary to comfort them over the loss of their brother."
+    },
+    {
+      "verse": 20,
+      "kjv": "Then Martha, as soon as she heard that Jesus was coming, went and met him: but Mary sat still in the house.",
+      "ct": "As soon as Martha heard that Jesus was approaching, she went out to meet him, while Mary stayed at the house."
+    },
+    {
+      "verse": 21,
+      "kjv": "Then said Martha unto Jesus, Lord, if thou hadst been here, my brother had not died.",
+      "ct": "Martha said to Jesus, \"Lord, if you had been here, my brother wouldn't have died."
+    },
+    {
+      "verse": 22,
+      "kjv": "But I know, that even now, whatsoever thou wilt ask of God, God will give it thee.",
+      "ct": "But even now, I know that whatever you ask God for, God will give you.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Jesus saith unto her, Thy brother shall rise again.",
+      "ct": "Jesus told her, \"Your brother will rise again.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Martha saith unto him, I know that he shall rise again in the resurrection at the last day.",
+      "ct": "Martha replied, \"I know he'll rise again at the resurrection on the last day.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:",
+      "ct": "Jesus said to her, \"I am the resurrection and the life. The person who believes in me will live, even if they die."
+    },
+    {
+      "verse": 26,
+      "kjv": "And whosoever liveth and believeth in me shall never die. Believest thou this?",
+      "ct": "And everyone who lives and believes in me will never die. Do you believe this?\""
+    },
+    {
+      "verse": 27,
+      "kjv": "She saith unto him, Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world.",
+      "ct": "She answered, \"Yes, Lord. I believe that you are the Christ, the Son of God, the one who was to come into the world.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And when she had so said, she went her way, and called Mary her sister secretly, saying, The Master is come, and calleth for thee.",
+      "ct": "After saying this, she went back and quietly told her sister Mary, \"The Teacher is here and is asking for you.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "As soon as she heard that, she arose quickly, and came unto him.",
+      "ct": "When Mary heard this, she got up quickly and went to him."
+    },
+    {
+      "verse": 30,
+      "kjv": "Now Jesus was not yet come into the town, but was in that place where Martha met him.",
+      "ct": "Jesus hadn't entered the town yet but was still at the spot where Martha had met him."
+    },
+    {
+      "verse": 31,
+      "kjv": "The Jews then which were with her in the house, and comforted her, when they saw Mary, that she rose up hastily and went out, followed her, saying, She goeth unto the grave to weep there.",
+      "ct": "The Jewish people who were in the house comforting Mary saw her get up suddenly and leave. They followed her, thinking she was going to the tomb to cry."
+    },
+    {
+      "verse": 32,
+      "kjv": "Then when Mary was come where Jesus was, and saw him, she fell down at his feet, saying unto him, Lord, if thou hadst been here, my brother had not died.",
+      "ct": "When Mary reached the place where Jesus was and saw him, she dropped to her knees at his feet and said, \"Lord, if you had been here, my brother wouldn't have died.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "When Jesus therefore saw her weeping, and the Jews also weeping which came with her, he groaned in the spirit, and was troubled,",
+      "ct": "When Jesus saw her crying, and the Jewish people who came with her also crying, he was deeply moved in his spirit and visibly troubled."
+    },
+    {
+      "verse": 34,
+      "kjv": "And said, Where have ye laid him? They said unto him, Lord, come and see.",
+      "ct": "He asked, \"Where did you put him?\" They told him, \"Lord, come and see.\""
+    },
+    {
+      "verse": 35,
+      "kjv": "Jesus wept.",
+      "ct": "Jesus wept."
+    },
+    {
+      "verse": 36,
+      "kjv": "Then said the Jews, Behold how he loved him!",
+      "ct": "The Jewish people said, \"Look how much he loved him!\""
+    },
+    {
+      "verse": 37,
+      "kjv": "And some of them said, Could not this man, which opened the eyes of the blind, have caused that even this man should not have died?",
+      "ct": "But some of them said, \"Couldn't the man who opened the eyes of a blind person have kept Lazarus from dying?\""
+    },
+    {
+      "verse": 38,
+      "kjv": "Jesus therefore again groaning in himself cometh to the grave. It was a cave, and a stone lay upon it.",
+      "ct": "Deeply moved again, Jesus came to the tomb. It was a cave with a stone placed over the entrance."
+    },
+    {
+      "verse": 39,
+      "kjv": "Jesus said, Take ye away the stone. Martha, the sister of him that was dead, saith unto him, Lord, by this time he stinketh: for he hath been dead four days.",
+      "ct": "Jesus said, \"Remove the stone.\" Martha, the dead man's sister, said to him, \"Lord, by now there will be a terrible smell. He's been dead for 4 days.\""
+    },
+    {
+      "verse": 40,
+      "kjv": "Jesus saith unto her, Said I not unto thee, that, if thou wouldest believe, thou shouldest see the glory of God?",
+      "ct": "Jesus replied, \"Didn't I tell you that if you believe, you would see the glory of God?\""
+    },
+    {
+      "verse": 41,
+      "kjv": "Then they took away the stone from the place where the dead was laid. And Jesus lifted up his eyes, and said, Father, I thank thee that thou hast heard me.",
+      "ct": "So they removed the stone. Jesus looked up and said, \"Father, I thank you for hearing me."
+    },
+    {
+      "verse": 42,
+      "kjv": "And I knew that thou hearest me always: but because of the people which stand by I said it, that they may believe that thou hast sent me.",
+      "ct": "I know that you always hear me, but I said this for the benefit of the people standing here, so they will believe that you sent me.\""
+    },
+    {
+      "verse": 43,
+      "kjv": "And when he thus had spoken, he cried with a loud voice, Lazarus, come forth.",
+      "ct": "After saying this, he called out in a loud voice, \"Lazarus, come out!\""
+    },
+    {
+      "verse": 44,
+      "kjv": "And he that was dead came forth, bound hand and foot with graveclothes: and his face was bound about with a napkin. Jesus saith unto them, Loose him, and let him go.",
+      "ct": "The dead man came out, his hands and feet wrapped in burial cloth, and his face covered with a cloth. Jesus told them, \"Unwrap him and let him go.\""
+    },
+    {
+      "verse": 45,
+      "kjv": "Then many of the Jews which came to Mary, and had seen the things which Jesus did, believed on him.",
+      "ct": "Many of the Jewish people who had come to visit Mary and witnessed what Jesus did put their faith in him."
+    },
+    {
+      "verse": 46,
+      "kjv": "But some of them went their ways to the Pharisees, and told them what things Jesus had done.",
+      "ct": "But some of them went to the Pharisees and reported what Jesus had done."
+    },
+    {
+      "verse": 47,
+      "kjv": "Then gathered the chief priests and the Pharisees a council, and said, What do we? for this man doeth many miracles.",
+      "ct": "So the chief priests and Pharisees called a meeting of the council and said, \"What are we going to do? This man is performing many miracles."
+    },
+    {
+      "verse": 48,
+      "kjv": "If we let him thus alone, all men will believe on him: and the Romans shall come and take away both our place and nation.",
+      "ct": "If we leave him alone, everyone will believe in him, and the Romans will come and destroy both our temple and our nation.\""
+    },
+    {
+      "verse": 49,
+      "kjv": "And one of them, named Caiaphas, being the high priest that same year, said unto them, Ye know nothing at all,",
+      "ct": "One of them, Caiaphas, who was the high priest that year, spoke up: \"You people don't understand anything at all."
+    },
+    {
+      "verse": 50,
+      "kjv": "Nor consider that it is expedient for us, that one man should die for the people, and that the whole nation perish not.",
+      "ct": "Don't you realize that it's better for us if one man dies for the people than for the entire nation to be destroyed?\""
+    },
+    {
+      "verse": 51,
+      "kjv": "And this spake he not of himself: but being high priest that year, he prophesied that Jesus should die for that nation;",
+      "ct": "He didn't come up with this on his own. As high priest that year, he was actually prophesying that Jesus would die for the nation—"
+    },
+    {
+      "verse": 52,
+      "kjv": "And not for that nation only, but that also he should gather together in one the children of God that were scattered abroad.",
+      "ct": "and not just for that nation alone, but also to bring together into one all of God's scattered children."
+    },
+    {
+      "verse": 53,
+      "kjv": "Then from that day forth they took counsel together for to put him to death.",
+      "ct": "From that day on, they plotted together to kill him."
+    },
+    {
+      "verse": 54,
+      "kjv": "Jesus therefore walked no more openly among the Jews; but went thence unto a country near to the wilderness, into a city called Ephraim, and there continued with his disciples.",
+      "ct": "Because of this, Jesus no longer moved about publicly among the Jewish leaders. Instead, he left for a region near the wilderness, to a town called Ephraim, and stayed there with his disciples."
+    },
+    {
+      "verse": 55,
+      "kjv": "And the Jews’ passover was nigh at hand: and many went out of the country up to Jerusalem before the passover, to purify themselves.",
+      "ct": "The Jewish Passover was approaching, and many people from the countryside traveled up to Jerusalem before the Passover to go through purification rituals."
+    },
+    {
+      "verse": 56,
+      "kjv": "Then sought they for Jesus, and spake among themselves, as they stood in the temple, What think ye, that he will not come to the feast?",
+      "ct": "They kept looking for Jesus, and as they stood in the temple they asked each other, \"What do you think? Will he even come to the festival?\""
+    },
+    {
+      "verse": 57,
+      "kjv": "Now both the chief priests and the Pharisees had given a commandment, that, if any man knew where he were, he should shew it, that they might take him.",
+      "ct": "The chief priests and Pharisees had issued orders that anyone who knew where Jesus was must report it, so they could arrest him."
+    }
+  ]
+}

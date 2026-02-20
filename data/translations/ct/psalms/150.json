@@ -1,0 +1,40 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 150,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.032Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Praise ye the LORD. Praise God in his sanctuary: praise him in the firmament of his power.",
+      "ct": "Praise the LORD! Praise God in his sanctuary; praise him in the mighty expanse of his power."
+    },
+    {
+      "verse": 2,
+      "kjv": "Praise him for his mighty acts: praise him according to his excellent greatness.",
+      "ct": "Praise him for his powerful deeds; praise him for his surpassing greatness."
+    },
+    {
+      "verse": 3,
+      "kjv": "Praise him with the sound of the trumpet: praise him with the psaltery and harp.",
+      "ct": "Praise him with the blast of the trumpet; praise him with harps and lyres."
+    },
+    {
+      "verse": 4,
+      "kjv": "Praise him with the timbrel and dance: praise him with stringed instruments and organs.",
+      "ct": "Praise him with tambourines and dancing; praise him with stringed instruments and flutes."
+    },
+    {
+      "verse": 5,
+      "kjv": "Praise him upon the loud cymbals: praise him upon the high sounding cymbals.",
+      "ct": "Praise him with crashing cymbals; praise him with resounding cymbals."
+    },
+    {
+      "verse": 6,
+      "kjv": "Let every thing that hath breath praise the LORD. Praise ye the LORD.",
+      "ct": "Let everything that has breath praise the LORD. Praise the LORD!"
+    }
+  ]
+}

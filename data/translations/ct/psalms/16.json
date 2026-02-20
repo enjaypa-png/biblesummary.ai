@@ -1,0 +1,65 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 16,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.949Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Preserve me, O God: for in thee do I put my trust.",
+      "ct": "Protect me, God, because I place my trust in you."
+    },
+    {
+      "verse": 2,
+      "kjv": "O my soul, thou hast said unto the LORD, Thou art my Lord: my goodness extendeth not to thee;",
+      "ct": "I have told the LORD, 'You are my Lord; apart from you, I have nothing good.'"
+    },
+    {
+      "verse": 3,
+      "kjv": "But to the saints that are in the earth, and to the excellent, in whom is all my delight.",
+      "ct": "As for the faithful people in the land, they are the noble ones who bring me all my joy."
+    },
+    {
+      "verse": 4,
+      "kjv": "Their sorrows shall be multiplied that hasten after another god: their drink offerings of blood will I not offer, nor take up their names into my lips.",
+      "ct": "Those who chase after other gods will only pile up their suffering. I will not pour out their blood offerings or even speak the names of their gods."
+    },
+    {
+      "verse": 5,
+      "kjv": "The LORD is the portion of mine inheritance and of my cup: thou maintainest my lot.",
+      "ct": "The LORD is my share and my provision — you secure my future."
+    },
+    {
+      "verse": 6,
+      "kjv": "The lines are fallen unto me in pleasant places; yea, I have a goodly heritage.",
+      "ct": "The boundaries of my life have been drawn in beautiful places; yes, I have received a wonderful inheritance."
+    },
+    {
+      "verse": 7,
+      "kjv": "I will bless the LORD, who hath given me counsel: my reins also instruct me in the night seasons.",
+      "ct": "I will praise the LORD, who has guided me; even during the night, my deepest thoughts direct me."
+    },
+    {
+      "verse": 8,
+      "kjv": "I have set the LORD always before me: because he is at my right hand, I shall not be moved.",
+      "ct": "I keep the LORD constantly in front of me; with him at my right side, I will never be shaken."
+    },
+    {
+      "verse": 9,
+      "kjv": "Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope.",
+      "ct": "That is why my heart is happy and my whole being celebrates — even my body will rest securely."
+    },
+    {
+      "verse": 10,
+      "kjv": "For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption.",
+      "ct": "Because you will not abandon my soul to the grave, and you will not let your Holy One experience decay."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore.",
+      "ct": "You will reveal to me the road to life; complete joy is found in your presence, and endless pleasures are at your right hand."
+    }
+  ]
+}

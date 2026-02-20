@@ -1,0 +1,60 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 75,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.986Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Unto thee, O God, do we give thanks, unto thee do we give thanks: for that thy name is near thy wondrous works declare.",
+      "ct": "We thank you, God — we thank you! Your presence is near, and your amazing deeds prove it."
+    },
+    {
+      "verse": 2,
+      "kjv": "When I shall receive the congregation I will judge uprightly.",
+      "ct": "\"When I choose the appointed time, I will judge with fairness.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "The earth and all the inhabitants thereof are dissolved: I bear up the pillars of it. Selah.",
+      "ct": "\"When the earth and everyone on it trembles, I am the one who holds its foundations steady.\" Selah."
+    },
+    {
+      "verse": 4,
+      "kjv": "I said unto the fools, Deal not foolishly: and to the wicked, Lift not up the horn:",
+      "ct": "I warned the arrogant, \"Stop your foolishness!\" and to the wicked I said, \"Don't flaunt your power!\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Lift not up your horn on high: speak not with a stiff neck.",
+      "ct": "\"Don't raise your power up high — don't speak with stubborn defiance.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "For promotion cometh neither from the east, nor from the west, nor from the south.",
+      "ct": "Advancement doesn't come from the east, the west, or the south."
+    },
+    {
+      "verse": 7,
+      "kjv": "But God is the judge: he putteth down one, and setteth up another.",
+      "ct": "It is God who serves as judge — he brings one person down and raises another up."
+    },
+    {
+      "verse": 8,
+      "kjv": "For in the hand of the LORD there is a cup, and the wine is red; it is full of mixture; and he poureth out of the same: but the dregs thereof, all the wicked of the earth shall wring them out, and drink them.",
+      "ct": "The LORD holds a cup in his hand, filled with foaming, well-mixed wine. He pours it out, and every wicked person on earth will drain it down to the last drop."
+    },
+    {
+      "verse": 9,
+      "kjv": "But I will declare for ever; I will sing praises to the God of Jacob.",
+      "ct": "But as for me, I will proclaim this forever; I will sing praises to the God of Jacob."
+    },
+    {
+      "verse": 10,
+      "kjv": "All the horns of the wicked also will I cut off; but the horns of the righteous shall be exalted.",
+      "ct": "\"I will break off all the power of the wicked, but the power of the righteous will be lifted high.\""
+    }
+  ]
+}

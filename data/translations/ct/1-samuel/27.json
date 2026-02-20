@@ -1,0 +1,70 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 27,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.731Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And David said in his heart, I shall now perish one day by the hand of Saul: there is nothing better for me than that I should speedily escape into the land of the Philistines; and Saul shall despair of me, to seek me any more in any coast of Israel: so shall I escape out of his hand.",
+      "ct": "David thought to himself, \"Sooner or later Saul is going to kill me. The best thing I can do is get out of here and flee to Philistine territory. Then Saul will give up searching for me anywhere in Israel, and I'll finally be safe from him.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And David arose, and he passed over with the six hundred men that were with him unto Achish, the son of Maoch, king of Gath.",
+      "ct": "So David set out with his 600 men and went to Achish son of Maoch, the king of Gath."
+    },
+    {
+      "verse": 3,
+      "kjv": "And David dwelt with Achish at Gath, he and his men, every man with his household, even David with his two wives, Ahinoam the Jezreelitess, and Abigail the Carmelitess, Nabal’s wife.",
+      "ct": "David and his men settled in Gath with Achish. Each man had his family with him, and David had his 2 wives — Ahinoam from Jezreel and Abigail from Carmel, who had been Nabal's wife."
+    },
+    {
+      "verse": 4,
+      "kjv": "And it was told Saul that David was fled to Gath: and he sought no more again for him.",
+      "ct": "When Saul was told that David had fled to Gath, he stopped looking for him."
+    },
+    {
+      "verse": 5,
+      "kjv": "And David said unto Achish, If I have now found grace in thine eyes, let them give me a place in some town in the country, that I may dwell there: for why should thy servant dwell in the royal city with thee?",
+      "ct": "David said to Achish, \"If I have earned your trust, please assign me a place in one of the rural towns where I can live. There's no reason for your servant to stay here in the royal city with you.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Then Achish gave him Ziklag that day: wherefore Ziklag pertaineth unto the kings of Judah unto this day.",
+      "ct": "So that day Achish gave him the town of Ziklag. That is why Ziklag has belonged to the kings of Judah ever since."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the time that David dwelt in the country of the Philistines was a full year and four months.",
+      "ct": "David lived in Philistine territory for a total of 1 year and 4 months."
+    },
+    {
+      "verse": 8,
+      "kjv": "And David and his men went up, and invaded the Geshurites, and the Gezrites, and the Amalekites: for those nations were of old the inhabitants of the land, as thou goest to Shur, even unto the land of Egypt.",
+      "ct": "David and his men would go on raids against the Geshurites, the Gezrites, and the Amalekites — these were peoples who had long inhabited the region stretching toward Shur and all the way to Egypt."
+    },
+    {
+      "verse": 9,
+      "kjv": "And David smote the land, and left neither man nor woman alive, and took away the sheep, and the oxen, and the asses, and the camels, and the apparel, and returned, and came to Achish.",
+      "ct": "Whenever David attacked an area, he left no man or woman alive. He took the sheep, cattle, donkeys, camels, and clothing, and then returned to Achish."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Achish said, Whither have ye made a road to day? And David said, Against the south of Judah, and against the south of the Jerahmeelites, and against the south of the Kenites.",
+      "ct": "Achish would ask, \"Where did you raid today?\" David would answer, \"The southern region of Judah,\" or \"The southern region of the Jerahmeelites,\" or \"The southern region of the Kenites.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And David saved neither man nor woman alive, to bring tidings to Gath, saying, Lest they should tell on us, saying, So did David, and so will be his manner all the while he dwelleth in the country of the Philistines.",
+      "ct": "David never left anyone alive to be brought back to Gath, because he thought, \"They might report what we actually did.\" This was his practice the entire time he lived in Philistine territory."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Achish believed David, saying, He hath made his people Israel utterly to abhor him; therefore he shall be my servant for ever.",
+      "ct": "Achish trusted David completely, thinking, \"He has made himself so hated by his own people Israel that he will serve me forever.\""
+    }
+  ]
+}

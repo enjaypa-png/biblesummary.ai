@@ -1,0 +1,135 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 2,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.497Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And there went a man of the house of Levi, and took to wife a daughter of Levi.",
+      "ct": "A man from the tribe of Levi married a woman who was also from the tribe of Levi."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the woman conceived, and bare a son: and when she saw him that he was a goodly child, she hid him three months.",
+      "ct": "The woman became pregnant and gave birth to a son. When she saw what a beautiful baby he was, she kept him hidden for 3 months."
+    },
+    {
+      "verse": 3,
+      "kjv": "And when she could not longer hide him, she took for him an ark of bulrushes, and daubed it with slime and with pitch, and put the child therein; and she laid it in the flags by the river’s brink.",
+      "ct": "When she couldn't hide him any longer, she got a basket made of reeds, coated it with tar and pitch, placed the baby inside, and set it among the tall grasses along the edge of the river."
+    },
+    {
+      "verse": 4,
+      "kjv": "And his sister stood afar off, to wit what would be done to him.",
+      "ct": "His sister positioned herself at a distance to see what would happen to him."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the daughter of Pharaoh came down to wash herself at the river; and her maidens walked along by the river’s side; and when she saw the ark among the flags, she sent her maid to fetch it.",
+      "ct": "Pharaoh's daughter came down to bathe in the river while her attendants walked along the riverbank. She noticed the basket among the tall grasses and sent one of her servants to get it."
+    },
+    {
+      "verse": 6,
+      "kjv": "And when she had opened it, she saw the child: and, behold, the babe wept. And she had compassion on him, and said, This is one of the Hebrews’ children.",
+      "ct": "When she opened it, she saw the baby inside — and the infant was crying. She felt sorry for him and said, \"This must be one of the Hebrew children.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Then said his sister to Pharaoh’s daughter, Shall I go and call to thee a nurse of the Hebrew women, that she may nurse the child for thee?",
+      "ct": "Then his sister spoke up to Pharaoh's daughter: \"Should I go find a Hebrew woman who can nurse the baby for you?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Pharaoh’s daughter said to her, Go. And the maid went and called the child’s mother.",
+      "ct": "Pharaoh's daughter told her, \"Yes, go.\" So the girl went and brought back the child's own mother."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Pharaoh’s daughter said unto her, Take this child away, and nurse it for me, and I will give thee thy wages. And the woman took the child, and nursed it.",
+      "ct": "Pharaoh's daughter said to her, \"Take this baby and nurse him for me, and I'll pay you for it.\" So the woman took her child and nursed him."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the child grew, and she brought him unto Pharaoh’s daughter, and he became her son. And she called his name Moses: and she said, Because I drew him out of the water.",
+      "ct": "When the boy was old enough, she brought him to Pharaoh's daughter, and he became her son. She named him Moses, saying, \"I pulled him out of the water.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And it came to pass in those days, when Moses was grown, that he went out unto his brethren, and looked on their burdens: and he spied an Egyptian smiting an Hebrew, one of his brethren.",
+      "ct": "Years later, after Moses had grown up, he went out to where his own people were and witnessed their hard labor. He saw an Egyptian beating a Hebrew — one of his own people."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he looked this way and that way, and when he saw that there was no man, he slew the Egyptian, and hid him in the sand.",
+      "ct": "He looked around in every direction, and when he was sure no one was watching, he killed the Egyptian and buried him in the sand."
+    },
+    {
+      "verse": 13,
+      "kjv": "And when he went out the second day, behold, two men of the Hebrews strove together: and he said to him that did the wrong, Wherefore smitest thou thy fellow?",
+      "ct": "The next day he went out again and saw 2 Hebrew men fighting each other. He said to the one who was in the wrong, \"Why are you hitting your fellow Hebrew?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou killedst the Egyptian? And Moses feared, and said, Surely this thing is known.",
+      "ct": "The man replied, \"Who appointed you as our ruler and judge? Are you planning to kill me the way you killed the Egyptian?\" Moses was afraid and thought, \"People obviously know what I did.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Now when Pharaoh heard this thing, he sought to slay Moses. But Moses fled from the face of Pharaoh, and dwelt in the land of Midian: and he sat down by a well.",
+      "ct": "When Pharaoh heard about it, he tried to have Moses killed. But Moses fled from Pharaoh and settled in the land of Midian, where he sat down beside a well."
+    },
+    {
+      "verse": 16,
+      "kjv": "Now the priest of Midian had seven daughters: and they came and drew water, and filled the troughs to water their father’s flock.",
+      "ct": "Now the priest of Midian had 7 daughters. They came to draw water and fill the troughs so their father's flock could drink."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the shepherds came and drove them away: but Moses stood up and helped them, and watered their flock.",
+      "ct": "Some shepherds showed up and chased the women away, but Moses got up, came to their defense, and watered their flock for them."
+    },
+    {
+      "verse": 18,
+      "kjv": "And when they came to Reuel their father, he said, How is it that ye are come so soon to day?",
+      "ct": "When they returned to their father Reuel, he asked, \"How did you get back so quickly today?\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And they said, An Egyptian delivered us out of the hand of the shepherds, and also drew water enough for us, and watered the flock.",
+      "ct": "They answered, \"An Egyptian rescued us from the shepherds. He even drew water for us and gave the flock something to drink.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And he said unto his daughters, And where is he? why is it that ye have left the man? call him, that he may eat bread.",
+      "ct": "He said to his daughters, \"So where is he? Why did you leave him there? Invite him to come eat with us.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Moses was content to dwell with the man: and he gave Moses Zipporah his daughter.",
+      "ct": "Moses agreed to stay and live with the man, and Reuel gave his daughter Zipporah to Moses in marriage."
+    },
+    {
+      "verse": 22,
+      "kjv": "And she bare him a son, and he called his name Gershom: for he said, I have been a stranger in a strange land.",
+      "ct": "She gave birth to a son, and Moses named him Gershom, saying, \"I have been an outsider living in a foreign land.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And it came to pass in process of time, that the king of Egypt died: and the children of Israel sighed by reason of the bondage, and they cried, and their cry came up unto God by reason of the bondage.",
+      "ct": "After a long time, the king of Egypt died. The Israelites groaned under the weight of their slavery and cried out for help, and their desperate pleas rose up to God because of their bondage."
+    },
+    {
+      "verse": 24,
+      "kjv": "And God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob.",
+      "ct": "God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob."
+    },
+    {
+      "verse": 25,
+      "kjv": "And God looked upon the children of Israel, and God had respect unto them.",
+      "ct": "God looked on the Israelites, and God took notice of their suffering."
+    }
+  ]
+}

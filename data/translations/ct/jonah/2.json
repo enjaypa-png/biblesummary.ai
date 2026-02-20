@@ -1,0 +1,60 @@
+{
+  "book": "jonah",
+  "book_name": "Jonah",
+  "chapter": 2,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.252Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then Jonah prayed unto the LORD his God out of the fish’s belly,",
+      "ct": "From inside the fish, Jonah prayed to the LORD his God."
+    },
+    {
+      "verse": 2,
+      "kjv": "And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice.",
+      "ct": "He said, \"In my distress I called out to the LORD, and he answered me. From the depths of the grave I cried for help, and you heard my voice."
+    },
+    {
+      "verse": 3,
+      "kjv": "For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me.",
+      "ct": "You hurled me into the deep, into the heart of the ocean. The currents swirled around me, and all your surging waves crashed over me."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple.",
+      "ct": "I thought, 'I have been driven away from your presence.' But still, I will look once more toward your holy temple."
+    },
+    {
+      "verse": 5,
+      "kjv": "The waters compassed me about, even to the soul: the depth closed me round about, the weeds were wrapped about my head.",
+      "ct": "The water surrounded me, threatening my very soul. The ocean depths engulfed me, and seaweed wrapped around my head."
+    },
+    {
+      "verse": 6,
+      "kjv": "I went down to the bottoms of the mountains; the earth with her bars was about me for ever: yet hast thou brought up my life from corruption, O LORD my God.",
+      "ct": "I sank down to the base of the mountains. The earth locked its gates around me forever. But you, LORD my God, pulled my life up from the pit of decay."
+    },
+    {
+      "verse": 7,
+      "kjv": "When my soul fainted within me I remembered the LORD: and my prayer came in unto thee, into thine holy temple.",
+      "ct": "As my soul was slipping away within me, I turned my thoughts to the LORD, and my prayer reached you in your holy temple."
+    },
+    {
+      "verse": 8,
+      "kjv": "They that observe lying vanities forsake their own mercy.",
+      "ct": "Those who cling to worthless idols abandon the mercy that could be theirs."
+    },
+    {
+      "verse": 9,
+      "kjv": "But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD.",
+      "ct": "But I will offer sacrifices to you with shouts of gratitude. What I have promised, I will fulfill. Salvation comes from the LORD.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the LORD spake unto the fish, and it vomited out Jonah upon the dry land.",
+      "ct": "Then the LORD spoke to the fish, and it threw Jonah up onto dry land."
+    }
+  ]
+}

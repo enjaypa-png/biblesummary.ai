@@ -1,0 +1,215 @@
+{
+  "book": "john",
+  "book_name": "John",
+  "chapter": 9,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.361Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And as Jesus passed by, he saw a man which was blind from his birth.",
+      "ct": "As Jesus was walking along, he noticed a man who had been blind since birth."
+    },
+    {
+      "verse": 2,
+      "kjv": "And his disciples asked him, saying, Master, who did sin, this man, or his parents, that he was born blind?",
+      "ct": "His disciples asked him, \"Teacher, whose sin caused this man to be born blind — his own or his parents'?\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Jesus answered, Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him.",
+      "ct": "Jesus replied, \"It wasn't because of his sin or his parents' sin. This happened so that God's power could be displayed through him."
+    },
+    {
+      "verse": 4,
+      "kjv": "I must work the works of him that sent me, while it is day: the night cometh, when no man can work.",
+      "ct": "We have to carry out the work of the one who sent me while there is still daylight. Night is approaching, when no one can work."
+    },
+    {
+      "verse": 5,
+      "kjv": "As long as I am in the world, I am the light of the world.",
+      "ct": "For as long as I am in the world, I am the light of the world.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "When he had thus spoken, he spat on the ground, and made clay of the spittle, and he anointed the eyes of the blind man with the clay,",
+      "ct": "After saying this, he spit on the ground and mixed the saliva with dirt to form mud, then spread it over the blind man's eyes."
+    },
+    {
+      "verse": 7,
+      "kjv": "And said unto him, Go, wash in the pool of Siloam, (which is by interpretation, Sent.) He went his way therefore, and washed, and came seeing.",
+      "ct": "Then he told him, \"Go wash yourself in the pool of Siloam\" (the name means \"Sent\"). So the man went, washed, and came back able to see."
+    },
+    {
+      "verse": 8,
+      "kjv": "The neighbours therefore, and they which before had seen him that he was blind, said, Is not this he that sat and begged?",
+      "ct": "His neighbors and the people who had previously known him as a blind beggar asked, \"Isn't this the same man who used to sit and beg?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Some said, This is he: others said, He is like him: but he said, I am he.",
+      "ct": "Some insisted, \"That's him.\" Others said, \"No, he just looks like him.\" But the man himself declared, \"I am the same person.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Therefore said they unto him, How were thine eyes opened?",
+      "ct": "So they asked him, \"Then how did you gain your sight?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "He answered and said, A man that is called Jesus made clay, and anointed mine eyes, and said unto me, Go to the pool of Siloam, and wash: and I went and washed, and I received sight.",
+      "ct": "He answered, \"The man called Jesus made mud, spread it on my eyes, and told me, 'Go to the pool of Siloam and wash.' So I went and washed, and then I could see.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then said they unto him, Where is he? He said, I know not.",
+      "ct": "They asked him, \"Where is this man?\" He replied, \"I don't know.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "They brought to the Pharisees him that aforetime was blind.",
+      "ct": "They brought the formerly blind man to the Pharisees."
+    },
+    {
+      "verse": 14,
+      "kjv": "And it was the sabbath day when Jesus made the clay, and opened his eyes.",
+      "ct": "Now, the day Jesus had made the mud and restored the man's sight was a Sabbath."
+    },
+    {
+      "verse": 15,
+      "kjv": "Then again the Pharisees also asked him how he had received his sight. He said unto them, He put clay upon mine eyes, and I washed, and do see.",
+      "ct": "So the Pharisees also questioned him about how he had received his sight. He told them, \"He put mud on my eyes, I washed it off, and now I can see.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Therefore said some of the Pharisees, This man is not of God, because he keepeth not the sabbath day. Others said, How can a man that is a sinner do such miracles? And there was a division among them.",
+      "ct": "Some of the Pharisees said, \"This man can't be from God because he doesn't observe the Sabbath.\" But others argued, \"How could a sinful person perform such miraculous signs?\" So they were divided over the matter."
+    },
+    {
+      "verse": 17,
+      "kjv": "They say unto the blind man again, What sayest thou of him, that he hath opened thine eyes? He said, He is a prophet.",
+      "ct": "They turned back to the blind man and asked, \"What is your opinion about him, since he's the one who restored your sight?\" He answered, \"He is a prophet.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "But the Jews did not believe concerning him, that he had been blind, and received his sight, until they called the parents of him that had received his sight.",
+      "ct": "The Jewish leaders still refused to believe that the man had actually been blind and then received his sight, so they summoned his parents."
+    },
+    {
+      "verse": 19,
+      "kjv": "And they asked them, saying, Is this your son, who ye say was born blind? how then doth he now see?",
+      "ct": "They questioned them: \"Is this your son? Are you claiming he was born blind? If so, how is it that he can see now?\""
+    },
+    {
+      "verse": 20,
+      "kjv": "His parents answered them and said, We know that this is our son, and that he was born blind:",
+      "ct": "His parents responded, \"We know for certain that this is our son and that he was born blind."
+    },
+    {
+      "verse": 21,
+      "kjv": "But by what means he now seeth, we know not; or who hath opened his eyes, we know not: he is of age; ask him: he shall speak for himself.",
+      "ct": "But how he can see now, we have no idea. And we don't know who restored his sight either. He's an adult — ask him directly. He can answer for himself.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "These words spake his parents, because they feared the Jews: for the Jews had agreed already, that if any man did confess that he was Christ, he should be put out of the synagogue.",
+      "ct": "His parents said this because they were afraid of the Jewish leaders, who had already decided that anyone who acknowledged Jesus as the Christ would be expelled from the synagogue."
+    },
+    {
+      "verse": 23,
+      "kjv": "Therefore said his parents, He is of age; ask him.",
+      "ct": "That's why his parents said, \"He's an adult — ask him directly.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Then again called they the man that was blind, and said unto him, Give God the praise: we know that this man is a sinner.",
+      "ct": "So for a 2nd time, they called in the man who had been blind and told him, \"Give glory to God by telling the truth. We know that this man is a sinner.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "He answered and said, Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see.",
+      "ct": "He replied, \"Whether he's a sinner or not, I couldn't say. But here's what I do know: I used to be blind, and now I can see.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "Then said they to him again, What did he to thee? how opened he thine eyes?",
+      "ct": "They pressed him again, \"What exactly did he do to you? How did he restore your sight?\""
+    },
+    {
+      "verse": 27,
+      "kjv": "He answered them, I have told you already, and ye did not hear: wherefore would ye hear it again? will ye also be his disciples?",
+      "ct": "He answered, \"I already told you, and you didn't listen. Why do you want to hear it again? Are you hoping to become his disciples too?\""
+    },
+    {
+      "verse": 28,
+      "kjv": "Then they reviled him, and said, Thou art his disciple; but we are Moses’ disciples.",
+      "ct": "They hurled insults at him and said, \"You're his disciple! We are disciples of Moses."
+    },
+    {
+      "verse": 29,
+      "kjv": "We know that God spake unto Moses: as for this fellow, we know not from whence he is.",
+      "ct": "We know that God spoke to Moses, but as for this man, we don't even know where he comes from.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "The man answered and said unto them, Why herein is a marvellous thing, that ye know not from whence he is, and yet he hath opened mine eyes.",
+      "ct": "The man responded, \"Now that's remarkable! You don't know where he comes from, yet he opened my eyes."
+    },
+    {
+      "verse": 31,
+      "kjv": "Now we know that God heareth not sinners: but if any man be a worshipper of God, and doeth his will, him he heareth.",
+      "ct": "Everyone knows that God doesn't listen to sinners, but he does listen to those who worship him and do his will."
+    },
+    {
+      "verse": 32,
+      "kjv": "Since the world began was it not heard that any man opened the eyes of one that was born blind.",
+      "ct": "Never in all of history has anyone heard of a person restoring sight to someone born blind."
+    },
+    {
+      "verse": 33,
+      "kjv": "If this man were not of God, he could do nothing.",
+      "ct": "If this man weren't from God, he wouldn't be able to do anything like this.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "They answered and said unto him, Thou wast altogether born in sins, and dost thou teach us? And they cast him out.",
+      "ct": "They shot back, \"You were steeped in sin from the moment you were born, and you're trying to lecture us?\" Then they threw him out."
+    },
+    {
+      "verse": 35,
+      "kjv": "Jesus heard that they had cast him out; and when he had found him, he said unto him, Dost thou believe on the Son of God?",
+      "ct": "Jesus heard that they had thrown him out, and when he found the man, he asked him, \"Do you believe in the Son of God?\""
+    },
+    {
+      "verse": 36,
+      "kjv": "He answered and said, Who is he, Lord, that I might believe on him?",
+      "ct": "The man replied, \"Sir, tell me who he is so that I can believe in him.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "And Jesus said unto him, Thou hast both seen him, and it is he that talketh with thee.",
+      "ct": "Jesus said to him, \"You've already seen him. In fact, he's the one speaking with you right now.\""
+    },
+    {
+      "verse": 38,
+      "kjv": "And he said, Lord, I believe. And he worshipped him.",
+      "ct": "The man exclaimed, \"Lord, I believe!\" And he knelt down and worshipped him."
+    },
+    {
+      "verse": 39,
+      "kjv": "And Jesus said, For judgment I am come into this world, that they which see not might see; and that they which see might be made blind.",
+      "ct": "Then Jesus said, \"I came into this world to bring judgment — so that those who are blind will see, and those who think they see will become blind.\""
+    },
+    {
+      "verse": 40,
+      "kjv": "And some of the Pharisees which were with him heard these words, and said unto him, Are we blind also?",
+      "ct": "Some Pharisees who were nearby heard this and asked him, \"Are you saying that we're blind too?\""
+    },
+    {
+      "verse": 41,
+      "kjv": "Jesus said unto them, If ye were blind, ye should have no sin: but now ye say, We see; therefore your sin remaineth.",
+      "ct": "Jesus told them, \"If you were truly blind, you would not be guilty of sin. But since you claim that you can see, your sin remains.\""
+    }
+  ]
+}

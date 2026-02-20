@@ -1,0 +1,225 @@
+{
+  "book": "acts",
+  "book_name": "Acts",
+  "chapter": 9,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.382Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Saul, yet breathing out threatenings and slaughter against the disciples of the Lord, went unto the high priest,",
+      "ct": "Meanwhile, Saul was still full of murderous threats against the Lord's followers. He went to the high priest"
+    },
+    {
+      "verse": 2,
+      "kjv": "And desired of him letters to Damascus to the synagogues, that if he found any of this way, whether they were men or women, he might bring them bound unto Jerusalem.",
+      "ct": "and requested official letters addressed to the synagogues in Damascus, authorizing him to arrest any followers of the Way he found there — men or women — and bring them back to Jerusalem in chains."
+    },
+    {
+      "verse": 3,
+      "kjv": "And as he journeyed, he came near Damascus: and suddenly there shined round about him a light from heaven:",
+      "ct": "As he traveled and was approaching Damascus, a light from heaven suddenly flashed all around him."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he fell to the earth, and heard a voice saying unto him, Saul, Saul, why persecutest thou me?",
+      "ct": "He dropped to the ground and heard a voice saying to him, \"Saul, Saul, why are you persecuting me?\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And he said, Who art thou, Lord? And the Lord said, I am Jesus whom thou persecutest: it is hard for thee to kick against the pricks.",
+      "ct": "\"Who are you, Lord?\" he asked. The Lord replied, \"I am Jesus, the one you are persecuting. It is painful for you to resist me.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And he trembling and astonished said, Lord, what wilt thou have me to do? And the Lord said unto him, Arise, and go into the city, and it shall be told thee what thou must do.",
+      "ct": "Shaking and stunned, he said, \"Lord, what do you want me to do?\" The Lord told him, \"Get up and go into the city, and you will be told what you need to do.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And the men which journeyed with him stood speechless, hearing a voice, but seeing no man.",
+      "ct": "The men traveling with him stood there unable to speak. They could hear the voice but couldn't see anyone."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Saul arose from the earth; and when his eyes were opened, he saw no man: but they led him by the hand, and brought him into Damascus.",
+      "ct": "Saul got up from the ground, but when he opened his eyes, he couldn't see anything. So they took him by the hand and led him into Damascus."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he was three days without sight, and neither did eat nor drink.",
+      "ct": "For 3 days he was blind, and during that time he didn't eat or drink anything."
+    },
+    {
+      "verse": 10,
+      "kjv": "And there was a certain disciple at Damascus, named Ananias; and to him said the Lord in a vision, Ananias. And he said, Behold, I am here, Lord.",
+      "ct": "In Damascus there was a follower named Ananias. The Lord spoke to him in a vision, saying, \"Ananias.\" He answered, \"Yes, I'm here, Lord.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And the Lord said unto him, Arise, and go into the street which is called Straight, and enquire in the house of Judas for one called Saul, of Tarsus: for, behold, he prayeth,",
+      "ct": "The Lord told him, \"Get up and go to the street called Straight. At the house of Judas, ask for a man from Tarsus named Saul. Right now, he is praying,"
+    },
+    {
+      "verse": 12,
+      "kjv": "And hath seen in a vision a man named Ananias coming in, and putting his hand on him, that he might receive his sight.",
+      "ct": "and he has seen a vision of a man named Ananias coming in and placing his hands on him so that he can see again.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then Ananias answered, Lord, I have heard by many of this man, how much evil he hath done to thy saints at Jerusalem:",
+      "ct": "Ananias responded, \"Lord, I've heard from many people about this man and all the harm he has done to your holy people in Jerusalem."
+    },
+    {
+      "verse": 14,
+      "kjv": "And here he hath authority from the chief priests to bind all that call on thy name.",
+      "ct": "He has come here with authority from the chief priests to arrest everyone who calls on your name.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "But the Lord said unto him, Go thy way: for he is a chosen vessel unto me, to bear my name before the Gentiles, and kings, and the children of Israel:",
+      "ct": "But the Lord said to him, \"Go, because I have chosen this man as my instrument to carry my name to the Gentiles, to kings, and to the people of Israel."
+    },
+    {
+      "verse": 16,
+      "kjv": "For I will shew him how great things he must suffer for my name’s sake.",
+      "ct": "I will show him how much he must suffer for the sake of my name.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And Ananias went his way, and entered into the house; and putting his hands on him said, Brother Saul, the Lord, even Jesus, that appeared unto thee in the way as thou camest, hath sent me, that thou mightest receive thy sight, and be filled with the Holy Ghost.",
+      "ct": "So Ananias left and went to the house. He placed his hands on Saul and said, \"Brother Saul, the Lord Jesus — the one who appeared to you on the road as you were coming here — has sent me so that you may regain your sight and be filled with the Holy Spirit.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And immediately there fell from his eyes as it had been scales: and he received sight forthwith, and arose, and was baptized.",
+      "ct": "Immediately, something like scales fell from his eyes, and he could see again. He got up and was baptized."
+    },
+    {
+      "verse": 19,
+      "kjv": "And when he had received meat, he was strengthened. Then was Saul certain days with the disciples which were at Damascus.",
+      "ct": "After eating some food, his strength returned. Saul stayed with the followers in Damascus for several days."
+    },
+    {
+      "verse": 20,
+      "kjv": "And straightway he preached Christ in the synagogues, that he is the Son of God.",
+      "ct": "Right away he began proclaiming in the synagogues that Jesus is the Son of God."
+    },
+    {
+      "verse": 21,
+      "kjv": "But all that heard him were amazed, and said; Is not this he that destroyed them which called on this name in Jerusalem, and came hither for that intent, that he might bring them bound unto the chief priests?",
+      "ct": "Everyone who heard him was astonished. They said, \"Isn't this the same man who was destroying the people in Jerusalem who call on this name? Didn't he come here specifically to arrest them and take them to the chief priests?\""
+    },
+    {
+      "verse": 22,
+      "kjv": "But Saul increased the more in strength, and confounded the Jews which dwelt at Damascus, proving that this is very Christ.",
+      "ct": "But Saul grew more and more powerful in his message, leaving the Jewish community in Damascus completely baffled as he demonstrated that Jesus is the Christ."
+    },
+    {
+      "verse": 23,
+      "kjv": "And after that many days were fulfilled, the Jews took counsel to kill him:",
+      "ct": "After a considerable amount of time had passed, the Jewish leaders plotted together to kill him."
+    },
+    {
+      "verse": 24,
+      "kjv": "But their laying await was known of Saul. And they watched the gates day and night to kill him.",
+      "ct": "But Saul found out about their plan. They were watching the city gates around the clock, waiting to kill him."
+    },
+    {
+      "verse": 25,
+      "kjv": "Then the disciples took him by night, and let him down by the wall in a basket.",
+      "ct": "So his followers took him at night and lowered him through an opening in the wall, using a large basket."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when Saul was come to Jerusalem, he assayed to join himself to the disciples: but they were all afraid of him, and believed not that he was a disciple.",
+      "ct": "When Saul arrived in Jerusalem, he tried to connect with the other followers there, but they were all afraid of him. They didn't believe he had truly become a follower."
+    },
+    {
+      "verse": 27,
+      "kjv": "But Barnabas took him, and brought him to the apostles, and declared unto them how he had seen the Lord in the way, and that he had spoken to him, and how he had preached boldly at Damascus in the name of Jesus.",
+      "ct": "But Barnabas took him and brought him to the apostles. He explained to them how Saul had seen the Lord on the road and that the Lord had spoken to him, and how Saul had preached fearlessly in Damascus in the name of Jesus."
+    },
+    {
+      "verse": 28,
+      "kjv": "And he was with them coming in and going out at Jerusalem.",
+      "ct": "So Saul moved freely among them in Jerusalem."
+    },
+    {
+      "verse": 29,
+      "kjv": "And he spake boldly in the name of the Lord Jesus, and disputed against the Grecians: but they went about to slay him.",
+      "ct": "He spoke boldly in the name of the Lord Jesus and debated with the Greek-speaking Jews, but they started making plans to kill him."
+    },
+    {
+      "verse": 30,
+      "kjv": "Which when the brethren knew, they brought him down to Caesarea, and sent him forth to Tarsus.",
+      "ct": "When the brothers learned about this, they escorted him down to Caesarea and sent him off to Tarsus."
+    },
+    {
+      "verse": 31,
+      "kjv": "Then had the churches rest throughout all Judaea and Galilee and Samaria, and were edified; and walking in the fear of the Lord, and in the comfort of the Holy Ghost, were multiplied.",
+      "ct": "Then the church throughout all of Judea, Galilee, and Samaria experienced a time of peace. It was strengthened and grew in numbers, living in wholehearted dedication to the Lord and encouraged by the Holy Spirit."
+    },
+    {
+      "verse": 32,
+      "kjv": "And it came to pass, as Peter passed throughout all quarters, he came down also to the saints which dwelt at Lydda.",
+      "ct": "As Peter traveled through the region, he went to visit the believers living in Lydda."
+    },
+    {
+      "verse": 33,
+      "kjv": "And there he found a certain man named Aeneas, which had kept his bed eight years, and was sick of the palsy.",
+      "ct": "There he found a man named Aeneas who had been paralyzed and bedridden for 8 years."
+    },
+    {
+      "verse": 34,
+      "kjv": "And Peter said unto him, Aeneas, Jesus Christ maketh thee whole: arise, and make thy bed. And he arose immediately.",
+      "ct": "Peter said to him, \"Aeneas, Jesus Christ heals you. Get up and make your bed.\" Immediately Aeneas stood up."
+    },
+    {
+      "verse": 35,
+      "kjv": "And all that dwelt at Lydda and Saron saw him, and turned to the Lord.",
+      "ct": "Everyone living in Lydda and Sharon saw him and turned to the Lord."
+    },
+    {
+      "verse": 36,
+      "kjv": "Now there was at Joppa a certain disciple named Tabitha, which by interpretation is called Dorcas: this woman was full of good works and almsdeeds which she did.",
+      "ct": "In Joppa there was a follower named Tabitha (which translates to Dorcas). She was always doing good things and helping the poor."
+    },
+    {
+      "verse": 37,
+      "kjv": "And it came to pass in those days, that she was sick, and died: whom when they had washed, they laid her in an upper chamber.",
+      "ct": "During that time, she became sick and died. After washing her body, they placed her in an upstairs room."
+    },
+    {
+      "verse": 38,
+      "kjv": "And forasmuch as Lydda was nigh to Joppa, and the disciples had heard that Peter was there, they sent unto him two men, desiring him that he would not delay to come to them.",
+      "ct": "Since Lydda was near Joppa, the followers heard that Peter was there and sent 2 men to him, urging him to come to them without delay."
+    },
+    {
+      "verse": 39,
+      "kjv": "Then Peter arose and went with them. When he was come, they brought him into the upper chamber: and all the widows stood by him weeping, and shewing the coats and garments which Dorcas made, while she was with them.",
+      "ct": "Peter got up and went with them. When he arrived, they brought him to the upstairs room. All the widows stood around him crying, showing him the robes and other clothing that Dorcas had made while she was still alive."
+    },
+    {
+      "verse": 40,
+      "kjv": "But Peter put them all forth, and kneeled down, and prayed; and turning him to the body said, Tabitha, arise. And she opened her eyes: and when she saw Peter, she sat up.",
+      "ct": "Peter sent everyone out of the room, then knelt down and prayed. Turning toward the body, he said, \"Tabitha, get up.\" She opened her eyes, and when she saw Peter, she sat up."
+    },
+    {
+      "verse": 41,
+      "kjv": "And he gave her his hand, and lifted her up, and when he had called the saints and widows, presented her alive.",
+      "ct": "He reached out his hand and helped her to her feet. Then he called in the believers and the widows and presented her to them alive."
+    },
+    {
+      "verse": 42,
+      "kjv": "And it was known throughout all Joppa; and many believed in the Lord.",
+      "ct": "News of this spread throughout all of Joppa, and many people put their faith in the Lord."
+    },
+    {
+      "verse": 43,
+      "kjv": "And it came to pass, that he tarried many days in Joppa with one Simon a tanner.",
+      "ct": "Peter ended up staying in Joppa for quite some time, living at the home of a man named Simon who was a leather worker."
+    }
+  ]
+}

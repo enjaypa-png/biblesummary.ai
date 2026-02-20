@@ -1,0 +1,60 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 64,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.977Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Hear my voice, O God, in my prayer: preserve my life from fear of the enemy.",
+      "ct": "Listen to my voice, God, as I bring my complaint to you. Protect my life from the threat of my enemy."
+    },
+    {
+      "verse": 2,
+      "kjv": "Hide me from the secret counsel of the wicked; from the insurrection of the workers of iniquity:",
+      "ct": "Shield me from the secret schemes of the wicked, from the plots of those who do evil."
+    },
+    {
+      "verse": 3,
+      "kjv": "Who whet their tongue like a sword, and bend their bows to shoot their arrows, even bitter words:",
+      "ct": "They sharpen their tongues like swords and aim their harsh words like arrows,"
+    },
+    {
+      "verse": 4,
+      "kjv": "That they may shoot in secret at the perfect: suddenly do they shoot at him, and fear not.",
+      "ct": "shooting from hidden places at the innocent. They strike without warning and feel no guilt."
+    },
+    {
+      "verse": 5,
+      "kjv": "They encourage themselves in an evil matter: they commune of laying snares privily; they say, Who shall see them?",
+      "ct": "They strengthen each other in their evil plans. They discuss how to set hidden traps, saying, 'No one will notice.'"
+    },
+    {
+      "verse": 6,
+      "kjv": "They search out iniquities; they accomplish a diligent search: both the inward thought of every one of them, and the heart, is deep.",
+      "ct": "They devise their schemes carefully; they carry out their well-crafted plots. The inner thoughts and motives of each person run deep."
+    },
+    {
+      "verse": 7,
+      "kjv": "But God shall shoot at them with an arrow; suddenly shall they be wounded.",
+      "ct": "But God will shoot his arrow at them; without warning, they will be struck down."
+    },
+    {
+      "verse": 8,
+      "kjv": "So they shall make their own tongue to fall upon themselves: all that see them shall flee away.",
+      "ct": "Their own words will be turned against them. Everyone who sees them will shake their heads and back away."
+    },
+    {
+      "verse": 9,
+      "kjv": "And all men shall fear, and shall declare the work of God; for they shall wisely consider of his doing.",
+      "ct": "Then everyone will stand in awe and proclaim what God has done; they will reflect carefully on his actions."
+    },
+    {
+      "verse": 10,
+      "kjv": "The righteous shall be glad in the LORD, and shall trust in him; and all the upright in heart shall glory.",
+      "ct": "Those who are righteous will find their joy in the LORD and take refuge in him. All who are honest in heart will celebrate."
+    }
+  ]
+}

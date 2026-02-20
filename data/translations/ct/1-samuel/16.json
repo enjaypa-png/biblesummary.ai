@@ -1,0 +1,125 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 16,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.719Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD said unto Samuel, How long wilt thou mourn for Saul, seeing I have rejected him from reigning over Israel? fill thine horn with oil, and go, I will send thee to Jesse the Bethlehemite: for I have provided me a king among his sons.",
+      "ct": "The LORD said to Samuel, \"How much longer are you going to grieve over Saul? I have rejected him as king over Israel. Fill your horn with oil and get going — I'm sending you to Jesse in Bethlehem, because I've chosen one of his sons to be king.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And Samuel said, How can I go? if Saul hear it, he will kill me. And the LORD said, Take an heifer with thee, and say, I am come to sacrifice to the LORD.",
+      "ct": "Samuel replied, \"How can I do that? If Saul finds out, he'll kill me.\" The LORD answered, \"Bring a young cow with you and tell people, 'I've come to offer a sacrifice to the LORD.'\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And call Jesse to the sacrifice, and I will shew thee what thou shalt do: and thou shalt anoint unto me him whom I name unto thee.",
+      "ct": "\"Invite Jesse to the sacrifice, and I will show you what to do. You will anoint the one I point out to you.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Samuel did that which the LORD spake, and came to Bethlehem. And the elders of the town trembled at his coming, and said, Comest thou peaceably?",
+      "ct": "Samuel did what the LORD told him and traveled to Bethlehem. The town elders came out shaking with fear and asked, \"Do you come in peace?\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And he said, Peaceably: I am come to sacrifice unto the LORD: sanctify yourselves, and come with me to the sacrifice. And he sanctified Jesse and his sons, and called them to the sacrifice.",
+      "ct": "He answered, \"Yes, in peace. I've come to offer a sacrifice to the LORD. Purify yourselves and join me for the sacrifice.\" Then he purified Jesse and his sons and invited them to the ceremony."
+    },
+    {
+      "verse": 6,
+      "kjv": "And it came to pass, when they were come, that he looked on Eliab, and said, Surely the LORD’s anointed is before him.",
+      "ct": "When they arrived, Samuel noticed Eliab and thought, \"This must be the one the LORD has chosen.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "But the LORD said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the LORD seeth not as man seeth; for man looketh on the outward appearance, but the LORD looketh on the heart.",
+      "ct": "But the LORD told Samuel, \"Don't focus on how he looks or how tall he is — I've passed over him. The LORD doesn't evaluate the way people do. People judge by outward appearance, but the LORD examines the heart.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Then Jesse called Abinadab, and made him pass before Samuel. And he said, Neither hath the LORD chosen this.",
+      "ct": "Then Jesse called Abinadab and had him walk in front of Samuel. But Samuel said, \"The LORD hasn't chosen this one either.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Then Jesse made Shammah to pass by. And he said, Neither hath the LORD chosen this.",
+      "ct": "Next Jesse brought Shammah forward. Samuel said, \"The LORD hasn't chosen this one either.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Again, Jesse made seven of his sons to pass before Samuel. And Samuel said unto Jesse, The LORD hath not chosen these.",
+      "ct": "Jesse presented 7 of his sons to Samuel, but Samuel told Jesse, \"The LORD hasn't chosen any of these.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Samuel said unto Jesse, Are here all thy children? And he said, There remaineth yet the youngest, and, behold, he keepeth the sheep. And Samuel said unto Jesse, Send and fetch him: for we will not sit down till he come hither.",
+      "ct": "Then Samuel asked Jesse, \"Are these all the sons you have?\" Jesse replied, \"There's still the youngest — he's out tending the sheep.\" Samuel said to Jesse, \"Send someone to get him. We won't sit down to eat until he arrives.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And he sent, and brought him in. Now he was ruddy, and withal of a beautiful countenance, and goodly to look to. And the LORD said, Arise, anoint him: for this is he.",
+      "ct": "So Jesse sent for him and had him brought in. He had a healthy reddish complexion, striking features, and was handsome. The LORD said, \"Get up and anoint him — he's the one.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then Samuel took the horn of oil, and anointed him in the midst of his brethren: and the Spirit of the LORD came upon David from that day forward. So Samuel rose up, and went to Ramah.",
+      "ct": "Samuel took the horn of oil and anointed him right there among his brothers. From that day on, the Spirit of the LORD came powerfully upon David. Then Samuel left and returned to Ramah."
+    },
+    {
+      "verse": 14,
+      "kjv": "But the Spirit of the LORD departed from Saul, and an evil spirit from the LORD troubled him.",
+      "ct": "Meanwhile, the Spirit of the LORD had left Saul, and an evil spirit sent by the LORD began to torment him."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Saul’s servants said unto him, Behold now, an evil spirit from God troubleth thee.",
+      "ct": "Saul's attendants said to him, \"It's clear that an evil spirit from God is tormenting you.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Let our lord now command thy servants, which are before thee, to seek out a man, who is a cunning player on an harp: and it shall come to pass, when the evil spirit from God is upon thee, that he shall play with his hand, and thou shalt be well.",
+      "ct": "\"Give the order, and your servants here will search for someone who is skilled at playing the harp. Whenever the evil spirit from God comes over you, he can play, and you'll feel better.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And Saul said unto his servants, Provide me now a man that can play well, and bring him to me.",
+      "ct": "Saul told his attendants, \"Find me someone who plays well and bring him to me.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then answered one of the servants, and said, Behold, I have seen a son of Jesse the Bethlehemite, that is cunning in playing, and a mighty valiant man, and a man of war, and prudent in matters, and a comely person, and the LORD is with him.",
+      "ct": "One of the attendants spoke up and said, \"I've seen a son of Jesse from Bethlehem who is a talented musician. He's also a brave and capable warrior, speaks wisely, is good-looking, and the LORD is with him.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Wherefore Saul sent messengers unto Jesse, and said, Send me David thy son, which is with the sheep.",
+      "ct": "So Saul sent messengers to Jesse with this request: \"Send me your son David, the one who tends the sheep.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Jesse took an ass laden with bread, and a bottle of wine, and a kid, and sent them by David his son unto Saul.",
+      "ct": "Jesse loaded a donkey with bread, a skin of wine, and a young goat, and sent them along with his son David to Saul."
+    },
+    {
+      "verse": 21,
+      "kjv": "And David came to Saul, and stood before him: and he loved him greatly; and he became his armourbearer.",
+      "ct": "David came to Saul and entered his service. Saul developed a deep fondness for him, and David became his personal armor bearer."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Saul sent to Jesse, saying, Let David, I pray thee, stand before me; for he hath found favour in my sight.",
+      "ct": "Saul sent word to Jesse, saying, \"Please let David stay in my service, because he has impressed me greatly.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And it came to pass, when the evil spirit from God was upon Saul, that David took an harp, and played with his hand: so Saul was refreshed, and was well, and the evil spirit departed from him.",
+      "ct": "Whenever the evil spirit from God came upon Saul, David would pick up his harp and play. Saul would find relief and feel better, and the evil spirit would leave him."
+    }
+  ]
+}

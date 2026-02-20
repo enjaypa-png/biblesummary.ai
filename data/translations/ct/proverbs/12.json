@@ -1,0 +1,150 @@
+{
+  "book": "proverbs",
+  "book_name": "Proverbs",
+  "chapter": 12,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.041Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Whoso loveth instruction loveth knowledge: but he that hateth reproof is brutish.",
+      "ct": "Anyone who loves being corrected loves knowledge, but whoever hates being rebuked is foolish."
+    },
+    {
+      "verse": 2,
+      "kjv": "A good man obtaineth favour of the LORD: but a man of wicked devices will he condemn.",
+      "ct": "A good person earns the LORD's favor, but the LORD condemns those who scheme to do evil."
+    },
+    {
+      "verse": 3,
+      "kjv": "A man shall not be established by wickedness: but the root of the righteous shall not be moved.",
+      "ct": "No one becomes secure through wickedness, but the roots of the righteous cannot be uprooted."
+    },
+    {
+      "verse": 4,
+      "kjv": "A virtuous woman is a crown to her husband: but she that maketh ashamed is as rottenness in his bones.",
+      "ct": "A capable wife is her husband's crowning glory, but a wife who brings shame is like decay in his bones."
+    },
+    {
+      "verse": 5,
+      "kjv": "The thoughts of the righteous are right: but the counsels of the wicked are deceit.",
+      "ct": "The plans of the righteous are honest, but the advice of the wicked is full of deception."
+    },
+    {
+      "verse": 6,
+      "kjv": "The words of the wicked are to lie in wait for blood: but the mouth of the upright shall deliver them.",
+      "ct": "The words of the wicked are an ambush meant to kill, but the speech of the upright rescues them."
+    },
+    {
+      "verse": 7,
+      "kjv": "The wicked are overthrown, and are not: but the house of the righteous shall stand.",
+      "ct": "The wicked are toppled and disappear, but the household of the righteous endures."
+    },
+    {
+      "verse": 8,
+      "kjv": "A man shall be commended according to his wisdom: but he that is of a perverse heart shall be despised.",
+      "ct": "A person is praised based on their good sense, but someone with a twisted mind will be looked down on."
+    },
+    {
+      "verse": 9,
+      "kjv": "He that is despised, and hath a servant, is better than he that honoureth himself, and lacketh bread.",
+      "ct": "Better to be an ordinary person who has a servant than to pretend to be important while having nothing to eat."
+    },
+    {
+      "verse": 10,
+      "kjv": "A righteous man regardeth the life of his beast: but the tender mercies of the wicked are cruel.",
+      "ct": "A righteous person cares about the well-being of their animals, but even the kindest acts of the wicked are cruel."
+    },
+    {
+      "verse": 11,
+      "kjv": "He that tilleth his land shall be satisfied with bread: but he that followeth vain persons is void of understanding.",
+      "ct": "Whoever works their land will have plenty of food, but anyone who chases empty pursuits has no sense."
+    },
+    {
+      "verse": 12,
+      "kjv": "The wicked desireth the net of evil men: but the root of the righteous yieldeth fruit.",
+      "ct": "The wicked crave what evil people have stolen, but the root of the righteous produces fruit."
+    },
+    {
+      "verse": 13,
+      "kjv": "The wicked is snared by the transgression of his lips: but the just shall come out of trouble.",
+      "ct": "An evil person is trapped by their own sinful words, but the righteous escape from trouble."
+    },
+    {
+      "verse": 14,
+      "kjv": "A man shall be satisfied with good by the fruit of his mouth: and the recompence of a man’s hands shall be rendered unto him.",
+      "ct": "A person enjoys good things from the words they speak, and the work of their hands comes back to reward them."
+    },
+    {
+      "verse": 15,
+      "kjv": "The way of a fool is right in his own eyes: but he that hearkeneth unto counsel is wise.",
+      "ct": "A fool thinks their own way is right, but a wise person listens to advice."
+    },
+    {
+      "verse": 16,
+      "kjv": "A fool’s wrath is presently known: but a prudent man covereth shame.",
+      "ct": "A fool shows their anger immediately, but a sensible person overlooks an insult."
+    },
+    {
+      "verse": 17,
+      "kjv": "He that speaketh truth sheweth forth righteousness: but a false witness deceit.",
+      "ct": "An honest witness reveals the truth, but a dishonest witness spreads lies."
+    },
+    {
+      "verse": 18,
+      "kjv": "There is that speaketh like the piercings of a sword: but the tongue of the wise is health.",
+      "ct": "Reckless words cut like a sword, but the tongue of the wise brings healing."
+    },
+    {
+      "verse": 19,
+      "kjv": "The lip of truth shall be established for ever: but a lying tongue is but for a moment.",
+      "ct": "Truthful speech stands firm forever, but a lying tongue lasts only a moment."
+    },
+    {
+      "verse": 20,
+      "kjv": "Deceit is in the heart of them that imagine evil: but to the counsellors of peace is joy.",
+      "ct": "Deception fills the hearts of those who plot evil, but those who promote peace find joy."
+    },
+    {
+      "verse": 21,
+      "kjv": "There shall no evil happen to the just: but the wicked shall be filled with mischief.",
+      "ct": "No real harm comes to the righteous, but the wicked are overwhelmed with trouble."
+    },
+    {
+      "verse": 22,
+      "kjv": "Lying lips are abomination to the LORD: but they that deal truly are his delight.",
+      "ct": "The LORD despises lying lips, but people who act with honesty are his delight."
+    },
+    {
+      "verse": 23,
+      "kjv": "A prudent man concealeth knowledge: but the heart of fools proclaimeth foolishness.",
+      "ct": "A sensible person keeps their knowledge to themselves, but the heart of a fool broadcasts foolishness."
+    },
+    {
+      "verse": 24,
+      "kjv": "The hand of the diligent shall bear rule: but the slothful shall be under tribute.",
+      "ct": "Hard-working hands will gain authority, but lazy people will be put to forced labor."
+    },
+    {
+      "verse": 25,
+      "kjv": "Heaviness in the heart of man maketh it stoop: but a good word maketh it glad.",
+      "ct": "Anxiety weighs down a person's heart, but an encouraging word lifts it up."
+    },
+    {
+      "verse": 26,
+      "kjv": "The righteous is more excellent than his neighbour: but the way of the wicked seduceth them.",
+      "ct": "The righteous person guides their neighbor well, but the path of the wicked leads them astray."
+    },
+    {
+      "verse": 27,
+      "kjv": "The slothful man roasteth not that which he took in hunting: but the substance of a diligent man is precious.",
+      "ct": "A lazy person doesn't even cook the game they caught, but a diligent person values what they have."
+    },
+    {
+      "verse": 28,
+      "kjv": "In the way of righteousness is life: and in the pathway thereof there is no death.",
+      "ct": "The path of righteousness leads to life, and along that road there is no death."
+    }
+  ]
+}

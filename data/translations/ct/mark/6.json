@@ -1,0 +1,290 @@
+{
+  "book": "mark",
+  "book_name": "Mark",
+  "chapter": 6,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.313Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And he went out from thence, and came into his own country; and his disciples follow him.",
+      "ct": "Jesus left that area and went to his hometown, and his disciples went with him."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when the sabbath day was come, he began to teach in the synagogue: and many hearing him were astonished, saying, From whence hath this man these things? and what wisdom is this which is given unto him, that even such mighty works are wrought by his hands?",
+      "ct": "When the Sabbath came, he started teaching in the synagogue. Many who listened were amazed and said, \"Where did this man get all this? What kind of wisdom has he been given? How is he performing such incredible miracles?\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us? And they were offended at him.",
+      "ct": "\"Isn't this just the carpenter? Isn't he Mary's son, the brother of James, Joses, Juda, and Simon? Don't his sisters live right here among us?\" They took offense at him."
+    },
+    {
+      "verse": 4,
+      "kjv": "But Jesus said unto them, A prophet is not without honour, but in his own country, and among his own kin, and in his own house.",
+      "ct": "Jesus told them, \"A prophet is respected everywhere except in his hometown, among his relatives, and in his own household.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them.",
+      "ct": "He wasn't able to do any miracles there, except that he placed his hands on a few sick people and healed them."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he marvelled because of their unbelief. And he went round about the villages, teaching.",
+      "ct": "He was amazed at their lack of faith. Then he traveled around the surrounding villages, teaching."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he called unto him the twelve, and began to send them forth by two and two; and gave them power over unclean spirits;",
+      "ct": "He called the 12 disciples together and began sending them out in pairs, giving them authority over evil spirits."
+    },
+    {
+      "verse": 8,
+      "kjv": "And commanded them that they should take nothing for their journey, save a staff only; no scrip, no bread, no money in their purse:",
+      "ct": "He instructed them to take nothing for the trip except a walking stick — no bag, no food, no money in their belts."
+    },
+    {
+      "verse": 9,
+      "kjv": "But be shod with sandals; and not put on two coats.",
+      "ct": "They could wear sandals but should not bring an extra shirt."
+    },
+    {
+      "verse": 10,
+      "kjv": "And he said unto them, In what place soever ye enter into an house, there abide till ye depart from that place.",
+      "ct": "He told them, \"Whenever you enter a home, stay there until you leave that town.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And whosoever shall not receive you, nor hear you, when ye depart thence, shake off the dust under your feet for a testimony against them. Verily I say unto you, It shall be more tolerable for Sodom and Gomorrha in the day of judgment, than for that city.",
+      "ct": "\"If any place refuses to welcome you or listen to you, shake the dust off your feet as you leave as a witness against them. I'm telling you the truth — on judgment day it will be easier for Sodom and Gomorrah than for that town.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And they went out, and preached that men should repent.",
+      "ct": "So they went out and proclaimed that people should turn from their sins."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they cast out many devils, and anointed with oil many that were sick, and healed them.",
+      "ct": "They drove out many demons and rubbed oil on many sick people and healed them."
+    },
+    {
+      "verse": 14,
+      "kjv": "And king Herod heard of him; (for his name was spread abroad:) and he said, That John the Baptist was risen from the dead, and therefore mighty works do shew forth themselves in him.",
+      "ct": "King Herod heard about Jesus, because his reputation had spread widely. Herod said, \"John the Baptist has come back from the dead — that's why these miraculous powers are at work in him.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Others said, That it is Elias. And others said, That it is a prophet, or as one of the prophets.",
+      "ct": "Others were saying, \"He is Elijah.\" Still others claimed, \"He is a prophet, like one of the prophets from long ago.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "But when Herod heard thereof, he said, It is John, whom I beheaded: he is risen from the dead.",
+      "ct": "But when Herod heard about it, he said, \"It's John — the one I had beheaded. He has risen from the dead.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "For Herod himself had sent forth and laid hold upon John, and bound him in prison for Herodias’ sake, his brother Philip’s wife: for he had married her.",
+      "ct": "Herod himself had ordered John's arrest and had him chained up in prison. He did this because of Herodias, his brother Philip's wife, whom Herod had married."
+    },
+    {
+      "verse": 18,
+      "kjv": "For John had said unto Herod, It is not lawful for thee to have thy brother’s wife.",
+      "ct": "John had been telling Herod, \"It is against the law for you to marry your brother's wife.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Therefore Herodias had a quarrel against him, and would have killed him; but she could not:",
+      "ct": "So Herodias held a grudge against John and wanted to kill him, but she couldn't."
+    },
+    {
+      "verse": 20,
+      "kjv": "For Herod feared John, knowing that he was a just man and an holy, and observed him; and when he heard him, he did many things, and heard him gladly.",
+      "ct": "Herod deeply respected John, recognizing that he was a righteous and holy man, and he kept him safe. Whenever Herod listened to John, he was deeply troubled, yet he enjoyed hearing him."
+    },
+    {
+      "verse": 21,
+      "kjv": "And when a convenient day was come, that Herod on his birthday made a supper to his lords, high captains, and chief estates of Galilee;",
+      "ct": "Finally the right opportunity came. On his birthday, Herod threw a banquet for his high officials, military commanders, and the leading men of Galilee."
+    },
+    {
+      "verse": 22,
+      "kjv": "And when the daughter of the said Herodias came in, and danced, and pleased Herod and them that sat with him, the king said unto the damsel, Ask of me whatsoever thou wilt, and I will give it thee.",
+      "ct": "When Herodias's daughter came in and danced, she delighted Herod and his dinner guests. The king told the girl, \"Ask me for anything you want, and I'll give it to you.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And he sware unto her, Whatsoever thou shalt ask of me, I will give it thee, unto the half of my kingdom.",
+      "ct": "He swore an oath to her: \"Whatever you ask me for, I'll give it to you — up to half my kingdom.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And she went forth, and said unto her mother, What shall I ask? And she said, The head of John the Baptist.",
+      "ct": "She went out and asked her mother, \"What should I request?\" Her mother answered, \"The head of John the Baptist.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And she came in straightway with haste unto the king, and asked, saying, I will that thou give me by and by in a charger the head of John the Baptist.",
+      "ct": "The girl rushed back to the king right away and said, \"I want you to give me the head of John the Baptist on a platter, right now.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And the king was exceeding sorry; yet for his oath’s sake, and for their sakes which sat with him, he would not reject her.",
+      "ct": "The king was deeply distressed, but because of his oath and because of his guests, he didn't want to refuse her."
+    },
+    {
+      "verse": 27,
+      "kjv": "And immediately the king sent an executioner, and commanded his head to be brought: and he went and beheaded him in the prison,",
+      "ct": "So the king immediately sent an executioner with orders to bring John's head. The man went to the prison and beheaded John."
+    },
+    {
+      "verse": 28,
+      "kjv": "And brought his head in a charger, and gave it to the damsel: and the damsel gave it to her mother.",
+      "ct": "He brought the head on a platter and presented it to the girl, and the girl gave it to her mother."
+    },
+    {
+      "verse": 29,
+      "kjv": "And when his disciples heard of it, they came and took up his corpse, and laid it in a tomb.",
+      "ct": "When John's disciples found out, they came and took his body and placed it in a tomb."
+    },
+    {
+      "verse": 30,
+      "kjv": "And the apostles gathered themselves together unto Jesus, and told him all things, both what they had done, and what they had taught.",
+      "ct": "The apostles gathered around Jesus and reported everything they had done and taught."
+    },
+    {
+      "verse": 31,
+      "kjv": "And he said unto them, Come ye yourselves apart into a desert place, and rest a while: for there were many coming and going, and they had no leisure so much as to eat.",
+      "ct": "He said to them, \"Come away by yourselves to a remote place and rest for a while.\" There were so many people coming and going that they didn't even have time to eat."
+    },
+    {
+      "verse": 32,
+      "kjv": "And they departed into a desert place by ship privately.",
+      "ct": "So they left by boat to a secluded spot by themselves."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the people saw them departing, and many knew him, and ran afoot thither out of all cities, and outwent them, and came together unto him.",
+      "ct": "But many people saw them leaving and recognized them. People from all the towns ran there on foot and actually arrived ahead of them."
+    },
+    {
+      "verse": 34,
+      "kjv": "And Jesus, when he came out, saw much people, and was moved with compassion toward them, because they were as sheep not having a shepherd: and he began to teach them many things.",
+      "ct": "When Jesus stepped ashore, he saw the huge crowd and felt deep compassion for them, because they were like sheep without a shepherd. So he began teaching them many things."
+    },
+    {
+      "verse": 35,
+      "kjv": "And when the day was now far spent, his disciples came unto him, and said, This is a desert place, and now the time is far passed:",
+      "ct": "As it grew late in the day, his disciples came to him and said, \"This is a remote area, and it's already getting very late.\""
+    },
+    {
+      "verse": 36,
+      "kjv": "Send them away, that they may go into the country round about, and into the villages, and buy themselves bread: for they have nothing to eat.",
+      "ct": "\"Send the people away so they can go to the surrounding farms and villages and buy themselves something to eat, because they have no food.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "He answered and said unto them, Give ye them to eat. And they say unto him, Shall we go and buy two hundred pennyworth of bread, and give them to eat?",
+      "ct": "But he replied, \"You give them something to eat.\" They said to him, \"Should we go spend 200 denarii on bread and feed them?\""
+    },
+    {
+      "verse": 38,
+      "kjv": "He saith unto them, How many loaves have ye? go and see. And when they knew, they say, Five, and two fishes.",
+      "ct": "He asked them, \"How many loaves do you have? Go check.\" After looking, they reported, \"5 loaves and 2 fish.\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And he commanded them to make all sit down by companies upon the green grass.",
+      "ct": "Then he directed them to have everyone sit down in groups on the green grass."
+    },
+    {
+      "verse": 40,
+      "kjv": "And they sat down in ranks, by hundreds, and by fifties.",
+      "ct": "So the people sat down in rows of 100s and 50s."
+    },
+    {
+      "verse": 41,
+      "kjv": "And when he had taken the five loaves and the two fishes, he looked up to heaven, and blessed, and brake the loaves, and gave them to his disciples to set before them; and the two fishes divided he among them all.",
+      "ct": "Taking the 5 loaves and the 2 fish, he looked up to heaven, gave thanks, and broke the loaves apart. He handed the pieces to his disciples to distribute to the crowd, and he also divided the 2 fish among everyone."
+    },
+    {
+      "verse": 42,
+      "kjv": "And they did all eat, and were filled.",
+      "ct": "Everyone ate and had plenty."
+    },
+    {
+      "verse": 43,
+      "kjv": "And they took up twelve baskets full of the fragments, and of the fishes.",
+      "ct": "Afterward, they picked up 12 baskets full of leftover bread and fish."
+    },
+    {
+      "verse": 44,
+      "kjv": "And they that did eat of the loaves were about five thousand men.",
+      "ct": "The number of men who ate the bread was about 5,000."
+    },
+    {
+      "verse": 45,
+      "kjv": "And straightway he constrained his disciples to get into the ship, and to go to the other side before unto Bethsaida, while he sent away the people.",
+      "ct": "Right away, Jesus made his disciples get into the boat and go ahead of him to Bethsaida on the other side, while he dismissed the crowd."
+    },
+    {
+      "verse": 46,
+      "kjv": "And when he had sent them away, he departed into a mountain to pray.",
+      "ct": "After sending them off, he went up on a hillside to pray."
+    },
+    {
+      "verse": 47,
+      "kjv": "And when even was come, the ship was in the midst of the sea, and he alone on the land.",
+      "ct": "When evening came, the boat was out in the middle of the lake, and Jesus was alone on shore."
+    },
+    {
+      "verse": 48,
+      "kjv": "And he saw them toiling in rowing; for the wind was contrary unto them: and about the fourth watch of the night he cometh unto them, walking upon the sea, and would have passed by them.",
+      "ct": "He could see them struggling at the oars because the wind was blowing against them. Sometime between 3 and 6 in the morning, he came toward them, walking on the lake, and was about to pass by them."
+    },
+    {
+      "verse": 49,
+      "kjv": "But when they saw him walking upon the sea, they supposed it had been a spirit, and cried out:",
+      "ct": "When they saw him walking on the water, they thought he was a ghost and screamed."
+    },
+    {
+      "verse": 50,
+      "kjv": "For they all saw him, and were troubled. And immediately he talked with them, and saith unto them, Be of good cheer: it is I; be not afraid.",
+      "ct": "They all saw him and were terrified. But immediately he spoke to them and said, \"Take courage! It's me. Don't be afraid.\""
+    },
+    {
+      "verse": 51,
+      "kjv": "And he went up unto them into the ship; and the wind ceased: and they were sore amazed in themselves beyond measure, and wondered.",
+      "ct": "Then he climbed into the boat with them, and the wind died down. They were completely astonished,"
+    },
+    {
+      "verse": 52,
+      "kjv": "For they considered not the miracle of the loaves: for their heart was hardened.",
+      "ct": "because they hadn't understood the significance of the loaves — their minds were closed to it."
+    },
+    {
+      "verse": 53,
+      "kjv": "And when they had passed over, they came into the land of Gennesaret, and drew to the shore.",
+      "ct": "After crossing over, they landed at Gennesaret and anchored the boat."
+    },
+    {
+      "verse": 54,
+      "kjv": "And when they were come out of the ship, straightway they knew him,",
+      "ct": "As soon as they got out of the boat, people recognized Jesus immediately."
+    },
+    {
+      "verse": 55,
+      "kjv": "And ran through that whole region round about, and began to carry about in beds those that were sick, where they heard he was.",
+      "ct": "They rushed throughout the entire region and started carrying sick people on mats to wherever they heard he was."
+    },
+    {
+      "verse": 56,
+      "kjv": "And whithersoever he entered, into villages, or cities, or country, they laid the sick in the streets, and besought him that they might touch if it were but the border of his garment: and as many as touched him were made whole.",
+      "ct": "Everywhere he went — into villages, towns, or the countryside — people placed the sick in the marketplaces and begged him to let them touch even the edge of his robe. And everyone who touched him was healed."
+    }
+  ]
+}

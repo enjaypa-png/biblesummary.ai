@@ -1,0 +1,175 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 34,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.871Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Josiah was eight years old when he began to reign, and he reigned in Jerusalem one and thirty years.",
+      "ct": "Josiah was 8 years old when he became king, and he ruled in Jerusalem for 31 years."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he did that which was right in the sight of the LORD, and walked in the ways of David his father, and declined neither to the right hand, nor to the left.",
+      "ct": "He did what was right in the LORD's judgment, following the example of his ancestor David without straying from it in any direction."
+    },
+    {
+      "verse": 3,
+      "kjv": "For in the eighth year of his reign, while he was yet young, he began to seek after the God of David his father: and in the twelfth year he began to purge Judah and Jerusalem from the high places, and the groves, and the carved images, and the molten images.",
+      "ct": "In the 8th year of his reign, while still a teenager, he began to pursue the God of his ancestor David. Then in his 12th year, he started removing the pagan shrines, sacred poles, carved idols, and metal idols from Judah and Jerusalem."
+    },
+    {
+      "verse": 4,
+      "kjv": "And they brake down the altars of Baalim in his presence; and the images, that were on high above them, he cut down; and the groves, and the carved images, and the molten images, he brake in pieces, and made dust of them, and strowed it upon the graves of them that had sacrificed unto them.",
+      "ct": "Under his supervision, they tore down the altars of the Baals. He had the incense altars that stood above them chopped down. He smashed the sacred poles, the carved idols, and the metal idols to pieces, ground them to dust, and scattered the dust over the graves of those who had offered sacrifices to them."
+    },
+    {
+      "verse": 5,
+      "kjv": "And he burnt the bones of the priests upon their altars, and cleansed Judah and Jerusalem.",
+      "ct": "He burned the bones of the pagan priests on their own altars, and so he purified Judah and Jerusalem."
+    },
+    {
+      "verse": 6,
+      "kjv": "And so did he in the cities of Manasseh, and Ephraim, and Simeon, even unto Naphtali, with their mattocks round about.",
+      "ct": "He did the same thing in the towns of Manasseh, Ephraim, and Simeon, all the way to Naphtali, tearing down their sites with tools."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when he had broken down the altars and the groves, and had beaten the graven images into powder, and cut down all the idols throughout all the land of Israel, he returned to Jerusalem.",
+      "ct": "After he had demolished the altars and sacred poles, crushed the carved images into powder, and cut down every idol throughout the entire land of Israel, he went back to Jerusalem."
+    },
+    {
+      "verse": 8,
+      "kjv": "Now in the eighteenth year of his reign, when he had purged the land, and the house, he sent Shaphan the son of Azaliah, and Maaseiah the governor of the city, and Joah the son of Joahaz the recorder, to repair the house of the LORD his God.",
+      "ct": "In the 18th year of his reign, after he had purified the land and the temple, he sent Shaphan son of Azaliah, Maaseiah the governor of the city, and Joah son of Joahaz the recorder to restore the house of the LORD his God."
+    },
+    {
+      "verse": 9,
+      "kjv": "And when they came to Hilkiah the high priest, they delivered the money that was brought into the house of God, which the Levites that kept the doors had gathered of the hand of Manasseh and Ephraim, and of all the remnant of Israel, and of all Judah and Benjamin; and they returned to Jerusalem.",
+      "ct": "They went to Hilkiah the high priest and handed over the money that had been brought into God's house, which the Levites who guarded the doors had collected from the people of Manasseh, Ephraim, and all the rest of Israel, as well as from all of Judah and Benjamin. Then they returned to Jerusalem."
+    },
+    {
+      "verse": 10,
+      "kjv": "And they put it in the hand of the workmen that had the oversight of the house of the LORD, and they gave it to the workmen that wrought in the house of the LORD, to repair and amend the house:",
+      "ct": "They gave the money to the supervisors in charge of the LORD's house, who then paid the workers doing the restoration and repair work on the temple."
+    },
+    {
+      "verse": 11,
+      "kjv": "Even to the artificers and builders gave they it, to buy hewn stone, and timber for couplings, and to floor the houses which the kings of Judah had destroyed.",
+      "ct": "They also gave money to the craftsmen and builders to purchase cut stone and timber for beams and flooring in the buildings that the kings of Judah had allowed to fall into ruin."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the men did the work faithfully: and the overseers of them were Jahath and Obadiah, the Levites, of the sons of Merari; and Zechariah and Meshullam, of the sons of the Kohathites, to set it forward; and other of the Levites, all that could skill of instruments of musick.",
+      "ct": "The workers carried out their tasks with integrity. Their supervisors were Jahath and Obadiah, Levites descended from Merari, along with Zechariah and Meshullam, descended from the Kohathites, who directed the work. Other Levites who were skilled musicians also helped."
+    },
+    {
+      "verse": 13,
+      "kjv": "Also they were over the bearers of burdens, and were overseers of all that wrought the work in any manner of service: and of the Levites there were scribes, and officers, and porters.",
+      "ct": "They were also in charge of the laborers who carried materials and supervised everyone performing any kind of task. Some of the Levites served as scribes, officials, and gatekeepers."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when they brought out the money that was brought into the house of the LORD, Hilkiah the priest found a book of the law of the LORD given by Moses.",
+      "ct": "While they were bringing out the money that had been deposited in the LORD's house, Hilkiah the priest discovered the book of the law of the LORD that had been given through Moses."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Hilkiah answered and said to Shaphan the scribe, I have found the book of the law in the house of the LORD. And Hilkiah delivered the book to Shaphan.",
+      "ct": "Hilkiah told Shaphan the scribe, \"I've discovered the book of the law in the LORD's house.\" Then Hilkiah handed the book to Shaphan."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Shaphan carried the book to the king, and brought the king word back again, saying, All that was committed to thy servants, they do it.",
+      "ct": "Shaphan brought the book to the king and gave him a report, saying, \"Everything that was assigned to your servants is being carried out."
+    },
+    {
+      "verse": 17,
+      "kjv": "And they have gathered together the money that was found in the house of the LORD, and have delivered it into the hand of the overseers, and to the hand of the workmen.",
+      "ct": "They have collected the money that was found in the LORD's house and turned it over to the supervisors and the workers.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then Shaphan the scribe told the king, saying, Hilkiah the priest hath given me a book. And Shaphan read it before the king.",
+      "ct": "Then Shaphan the scribe informed the king, \"Hilkiah the priest has given me a book.\" Shaphan then read from it aloud to the king."
+    },
+    {
+      "verse": 19,
+      "kjv": "And it came to pass, when the king had heard the words of the law, that he rent his clothes.",
+      "ct": "When the king heard the words of the law, he tore his clothes in grief."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the king commanded Hilkiah, and Ahikam the son of Shaphan, and Abdon the son of Micah, and Shaphan the scribe, and Asaiah a servant of the king’s, saying,",
+      "ct": "The king gave orders to Hilkiah, Ahikam son of Shaphan, Abdon son of Micah, Shaphan the scribe, and Asaiah the king's attendant:"
+    },
+    {
+      "verse": 21,
+      "kjv": "Go, enquire of the LORD for me, and for them that are left in Israel and in Judah, concerning the words of the book that is found: for great is the wrath of the LORD that is poured out upon us, because our fathers have not kept the word of the LORD, to do after all that is written in this book.",
+      "ct": "\"Go and consult the LORD on my behalf and on behalf of everyone remaining in Israel and Judah about what this book says. The LORD's fury against us must be enormous, because our ancestors failed to obey the LORD's word and do everything written in this book.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Hilkiah, and they that the king had appointed, went to Huldah the prophetess, the wife of Shallum the son of Tikvath, the son of Hasrah, keeper of the wardrobe; (now she dwelt in Jerusalem in the college:) and they spake to her to that effect.",
+      "ct": "So Hilkiah and those the king had designated went to Huldah the prophetess, the wife of Shallum son of Tikvath, son of Hasrah, who was keeper of the wardrobe. She lived in the Second District of Jerusalem. They spoke with her about the matter."
+    },
+    {
+      "verse": 23,
+      "kjv": "And she answered them, Thus saith the LORD God of Israel, Tell ye the man that sent you to me,",
+      "ct": "She replied, \"This is what the LORD, the God of Israel, says: Tell the man who sent you to me,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Thus saith the LORD, Behold, I will bring evil upon this place, and upon the inhabitants thereof, even all the curses that are written in the book which they have read before the king of Judah:",
+      "ct": "'This is what the LORD says: I am going to bring disaster on this place and its people — every curse written in the book that was read to the king of Judah."
+    },
+    {
+      "verse": 25,
+      "kjv": "Because they have forsaken me, and have burned incense unto other gods, that they might provoke me to anger with all the works of their hands; therefore my wrath shall be poured out upon this place, and shall not be quenched.",
+      "ct": "Because they have abandoned me and burned incense to other gods, provoking my anger with everything they have done, my fury will be poured out on this place and will not be stopped.'"
+    },
+    {
+      "verse": 26,
+      "kjv": "And as for the king of Judah, who sent you to enquire of the LORD, so shall ye say unto him, Thus saith the LORD God of Israel concerning the words which thou hast heard;",
+      "ct": "\"But to the king of Judah, who sent you to consult the LORD, say this: 'This is what the LORD, the God of Israel, says about the words you have heard:"
+    },
+    {
+      "verse": 27,
+      "kjv": "Because thine heart was tender, and thou didst humble thyself before God, when thou heardest his words against this place, and against the inhabitants thereof, and humbledst thyself before me, and didst rend thy clothes, and weep before me; I have even heard thee also, saith the LORD.",
+      "ct": "Because your heart was responsive and you humbled yourself before God when you heard his words against this place and its people — because you humbled yourself before me, tore your clothes, and wept in my presence — I have heard you,' declares the LORD."
+    },
+    {
+      "verse": 28,
+      "kjv": "Behold, I will gather thee to thy fathers, and thou shalt be gathered to thy grave in peace, neither shall thine eyes see all the evil that I will bring upon this place, and upon the inhabitants of the same. So they brought the king word again.",
+      "ct": "'I will let you join your ancestors, and you will be buried in peace. Your eyes will not see all the disaster I am going to bring on this place and its people.'\" They brought this message back to the king."
+    },
+    {
+      "verse": 29,
+      "kjv": "Then the king sent and gathered together all the elders of Judah and Jerusalem.",
+      "ct": "Then the king summoned all the elders of Judah and Jerusalem to come together."
+    },
+    {
+      "verse": 30,
+      "kjv": "And the king went up into the house of the LORD, and all the men of Judah, and the inhabitants of Jerusalem, and the priests, and the Levites, and all the people, great and small: and he read in their ears all the words of the book of the covenant that was found in the house of the LORD.",
+      "ct": "The king went up to the LORD's house along with all the people of Judah, the residents of Jerusalem, the priests, the Levites, and everyone else from the most important to the least. He read aloud to them every word of the book of the covenant that had been found in the LORD's house."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the king stood in his place, and made a covenant before the LORD, to walk after the LORD, and to keep his commandments, and his testimonies, and his statutes, with all his heart, and with all his soul, to perform the words of the covenant which are written in this book.",
+      "ct": "The king stood in his designated place and made a covenant in the LORD's presence to follow the LORD and to obey his commands, decrees, and regulations with all his heart and all his soul, carrying out everything written in this book of the covenant."
+    },
+    {
+      "verse": 32,
+      "kjv": "And he caused all that were present in Jerusalem and Benjamin to stand to it. And the inhabitants of Jerusalem did according to the covenant of God, the God of their fathers.",
+      "ct": "He had everyone present in Jerusalem and Benjamin commit to it as well. The people of Jerusalem lived according to the covenant of God, the God of their ancestors."
+    },
+    {
+      "verse": 33,
+      "kjv": "And Josiah took away all the abominations out of all the countries that pertained to the children of Israel, and made all that were present in Israel to serve, even to serve the LORD their God. And all his days they departed not from following the LORD, the God of their fathers.",
+      "ct": "Josiah removed every detestable idol from all the territories belonging to the Israelites and required everyone in Israel to serve the LORD their God. Throughout his entire lifetime, they did not turn away from following the LORD, the God of their ancestors."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 82,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.990Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "God standeth in the congregation of the mighty; he judgeth among the gods.",
+      "ct": "God takes his place in the divine assembly; he pronounces judgment among the rulers."
+    },
+    {
+      "verse": 2,
+      "kjv": "How long will ye judge unjustly, and accept the persons of the wicked? Selah.",
+      "ct": "\"How much longer will you make corrupt decisions and show favoritism to the wicked?\" Selah."
+    },
+    {
+      "verse": 3,
+      "kjv": "Defend the poor and fatherless: do justice to the afflicted and needy.",
+      "ct": "\"Stand up for the weak and the orphaned; ensure justice for the oppressed and those in need."
+    },
+    {
+      "verse": 4,
+      "kjv": "Deliver the poor and needy: rid them out of the hand of the wicked.",
+      "ct": "Rescue the poor and desperate; free them from the grip of the wicked.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "They know not, neither will they understand; they walk on in darkness: all the foundations of the earth are out of course.",
+      "ct": "But they have no knowledge and refuse to understand; they stumble around in darkness while the very foundations of the earth are shaken."
+    },
+    {
+      "verse": 6,
+      "kjv": "I have said, Ye are gods; and all of you are children of the most High.",
+      "ct": "I declared, \"You are gods; every one of you is a child of the Most High."
+    },
+    {
+      "verse": 7,
+      "kjv": "But ye shall die like men, and fall like one of the princes.",
+      "ct": "Yet you will die just like any mortal and fall like every other ruler.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Arise, O God, judge the earth: for thou shalt inherit all nations.",
+      "ct": "Rise up, God, and bring judgment on the earth, for every nation belongs to you."
+    }
+  ]
+}

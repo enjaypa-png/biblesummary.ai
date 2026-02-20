@@ -1,0 +1,230 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 4,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.790Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now there cried a certain woman of the wives of the sons of the prophets unto Elisha, saying, Thy servant my husband is dead; and thou knowest that thy servant did fear the LORD: and the creditor is come to take unto him my two sons to be bondmen.",
+      "ct": "One day the wife of a man from the company of prophets came crying to Elisha. She said, \"Your servant, my husband, has died. You know he was wholeheartedly dedicated to the LORD. Now a creditor has come to take my 2 sons as slaves.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And Elisha said unto her, What shall I do for thee? tell me, what hast thou in the house? And she said, Thine handmaid hath not any thing in the house, save a pot of oil.",
+      "ct": "Elisha asked her, \"How can I help you? Tell me, what do you have in your house?\" She replied, \"Your servant has nothing at all in the house except a small jar of olive oil.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Then he said, Go, borrow thee vessels abroad of all thy neighbours, even empty vessels; borrow not a few.",
+      "ct": "He told her, \"Go around to all your neighbors and borrow empty containers. Get as many as you can.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And when thou art come in, thou shalt shut the door upon thee and upon thy sons, and shalt pour out into all those vessels, and thou shalt set aside that which is full.",
+      "ct": "\"Then go inside, close the door behind you and your sons, and start pouring oil into all those containers. As each one fills up, set it aside.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "So she went from him, and shut the door upon her and upon her sons, who brought the vessels to her; and she poured out.",
+      "ct": "So she left him, went home, and closed the door behind herself and her sons. They kept bringing her containers, and she kept pouring."
+    },
+    {
+      "verse": 6,
+      "kjv": "And it came to pass, when the vessels were full, that she said unto her son, Bring me yet a vessel. And he said unto her, There is not a vessel more. And the oil stayed.",
+      "ct": "When every container was full, she said to her son, \"Bring me another one.\" But he told her, \"There aren't any more.\" At that point, the oil stopped flowing."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then she came and told the man of God. And he said, Go, sell the oil, and pay thy debt, and live thou and thy children of the rest.",
+      "ct": "She went and reported this to the man of God. He said, \"Go sell the oil, pay off your debt, and you and your sons can live on what's left over.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And it fell on a day, that Elisha passed to Shunem, where was a great woman; and she constrained him to eat bread. And so it was, that as oft as he passed by, he turned in thither to eat bread.",
+      "ct": "One day Elisha traveled to Shunem, where a prominent woman lived. She insisted that he stay for a meal. After that, whenever he passed through, he would stop there to eat."
+    },
+    {
+      "verse": 9,
+      "kjv": "And she said unto her husband, Behold now, I perceive that this is an holy man of God, which passeth by us continually.",
+      "ct": "She said to her husband, \"I've come to realize that this man who regularly passes through our area is a holy man of God.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Let us make a little chamber, I pray thee, on the wall; and let us set for him there a bed, and a table, and a stool, and a candlestick: and it shall be, when he cometh to us, that he shall turn in thither.",
+      "ct": "\"Let's build a small room for him on the roof. We'll put a bed, a table, a chair, and a lamp in it. That way, whenever he visits us, he'll have a place to stay.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And it fell on a day, that he came thither, and he turned into the chamber, and lay there.",
+      "ct": "One day Elisha came by, went up to the room, and rested there."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he said to Gehazi his servant, Call this Shunammite. And when he had called her, she stood before him.",
+      "ct": "He said to his servant Gehazi, \"Ask the Shunammite woman to come here.\" So Gehazi called her, and she came and stood in front of Elisha."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he said unto him, Say now unto her, Behold, thou hast been careful for us with all this care; what is to be done for thee? wouldest thou be spoken for to the king, or to the captain of the host? And she answered, I dwell among mine own people.",
+      "ct": "Elisha told Gehazi, \"Say to her, 'You've gone to all this trouble to take care of us. What can we do for you? Would you like me to put in a word for you with the king or the commander of the army?'\" She answered, \"I'm content living among my own people.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And he said, What then is to be done for her? And Gehazi answered, Verily she hath no child, and her husband is old.",
+      "ct": "Elisha asked, \"Then what can be done for her?\" Gehazi replied, \"Well, she has no son, and her husband is old.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And he said, Call her. And when he had called her, she stood in the door.",
+      "ct": "Elisha said, \"Call her back.\" So Gehazi called her, and she stood in the doorway."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he said, About this season, according to the time of life, thou shalt embrace a son. And she said, Nay, my lord, thou man of God, do not lie unto thine handmaid.",
+      "ct": "Elisha said, \"About this time next year, you will be holding a son in your arms.\" She responded, \"No, my lord! Man of God, please don't give your servant false hope.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the woman conceived, and bare a son at that season that Elisha had said unto her, according to the time of life.",
+      "ct": "But the woman became pregnant and gave birth to a son the following year at that very time, just as Elisha had told her."
+    },
+    {
+      "verse": 18,
+      "kjv": "And when the child was grown, it fell on a day, that he went out to his father to the reapers.",
+      "ct": "The child grew, and one day he went out to be with his father among the harvest workers."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he said unto his father, My head, my head. And he said to a lad, Carry him to his mother.",
+      "ct": "He cried out to his father, \"My head! My head!\" His father told a servant, \"Carry him to his mother.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And when he had taken him, and brought him to his mother, he sat on her knees till noon, and then died.",
+      "ct": "The servant picked him up and brought him to his mother. The boy sat on her lap until noon, and then he died."
+    },
+    {
+      "verse": 21,
+      "kjv": "And she went up, and laid him on the bed of the man of God, and shut the door upon him, and went out.",
+      "ct": "She carried him upstairs and laid him on the bed of the man of God, then closed the door and left the room."
+    },
+    {
+      "verse": 22,
+      "kjv": "And she called unto her husband, and said, Send me, I pray thee, one of the young men, and one of the asses, that I may run to the man of God, and come again.",
+      "ct": "She called to her husband and said, \"Please send me one of the servants with a donkey. I need to get to the man of God quickly and come back.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And he said, Wherefore wilt thou go to him to day? it is neither new moon, nor sabbath. And she said, It shall be well.",
+      "ct": "He asked, \"Why would you go to him today? It's not a new moon celebration or a Sabbath.\" She simply said, \"Everything is fine.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Then she saddled an ass, and said to her servant, Drive, and go forward; slack not thy riding for me, except I bid thee.",
+      "ct": "She saddled the donkey and told her servant, \"Drive fast and don't slow down for me unless I tell you to.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "So she went and came unto the man of God to mount Carmel. And it came to pass, when the man of God saw her afar off, that he said to Gehazi his servant, Behold, yonder is that Shunammite:",
+      "ct": "So she set out and made her way to the man of God at Mount Carmel. When the man of God spotted her in the distance, he said to Gehazi his servant, \"Look — there's the Shunammite woman!\""
+    },
+    {
+      "verse": 26,
+      "kjv": "Run now, I pray thee, to meet her, and say unto her, Is it well with thee? is it well with thy husband? is it well with the child? And she answered, It is well.",
+      "ct": "\"Run out to meet her and ask, 'Are you alright? Is your husband alright? Is your child alright?'\" She answered, \"Everything is fine.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And when she came to the man of God to the hill, she caught him by the feet: but Gehazi came near to thrust her away. And the man of God said, Let her alone; for her soul is vexed within her: and the LORD hath hid it from me, and hath not told me.",
+      "ct": "But when she reached the man of God on the hill, she grabbed hold of his feet. Gehazi moved forward to push her away, but the man of God said, \"Leave her alone. She is in deep anguish, and the LORD has kept it from me — he hasn't told me what's wrong.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "Then she said, Did I desire a son of my lord? did I not say, Do not deceive me?",
+      "ct": "Then she said, \"Did I ask you for a son, my lord? Didn't I say, 'Don't mislead me'?\""
+    },
+    {
+      "verse": 29,
+      "kjv": "Then he said to Gehazi, Gird up thy loins, and take my staff in thine hand, and go thy way: if thou meet any man, salute him not; and if any salute thee, answer him not again: and lay my staff upon the face of the child.",
+      "ct": "Elisha turned to Gehazi and said, \"Get ready, take my staff, and go. If you meet anyone along the way, don't stop to greet them, and if anyone greets you, don't stop to respond. Go lay my staff on the child's face.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And the mother of the child said, As the LORD liveth, and as thy soul liveth, I will not leave thee. And he arose, and followed her.",
+      "ct": "But the boy's mother declared, \"As surely as the LORD lives and as you yourself live, I will not leave without you.\" So Elisha got up and went with her."
+    },
+    {
+      "verse": 31,
+      "kjv": "And Gehazi passed on before them, and laid the staff upon the face of the child; but there was neither voice, nor hearing. Wherefore he went again to meet him, and told him, saying, The child is not awaked.",
+      "ct": "Gehazi had gone on ahead and placed the staff on the child's face, but there was no sound and no response. So he went back to meet Elisha and reported, \"The child has not woken up.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And when Elisha was come into the house, behold, the child was dead, and laid upon his bed.",
+      "ct": "When Elisha arrived at the house, there was the child, lying dead on his bed."
+    },
+    {
+      "verse": 33,
+      "kjv": "He went in therefore, and shut the door upon them twain, and prayed unto the LORD.",
+      "ct": "He went in, closed the door so that just the two of them were inside, and prayed to the LORD."
+    },
+    {
+      "verse": 34,
+      "kjv": "And he went up, and lay upon the child, and put his mouth upon his mouth, and his eyes upon his eyes, and his hands upon his hands: and he stretched himself upon the child; and the flesh of the child waxed warm.",
+      "ct": "Then he got on the bed and lay on top of the child, placing his mouth on the child's mouth, his eyes on the child's eyes, and his hands on the child's hands. As he stretched himself over the boy, the child's body began to grow warm."
+    },
+    {
+      "verse": 35,
+      "kjv": "Then he returned, and walked in the house to and fro; and went up, and stretched himself upon him: and the child sneezed seven times, and the child opened his eyes.",
+      "ct": "Elisha got up and paced back and forth in the house. Then he went back up and stretched himself over the boy again. The child sneezed 7 times and opened his eyes."
+    },
+    {
+      "verse": 36,
+      "kjv": "And he called Gehazi, and said, Call this Shunammite. So he called her. And when she was come in unto him, he said, Take up thy son.",
+      "ct": "Elisha called Gehazi and said, \"Bring the Shunammite woman here.\" So he called her. When she came in, Elisha said, \"Pick up your son.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "Then she went in, and fell at his feet, and bowed herself to the ground, and took up her son, and went out.",
+      "ct": "She came in, dropped to the floor at his feet, and bowed down. Then she picked up her son and walked out."
+    },
+    {
+      "verse": 38,
+      "kjv": "And Elisha came again to Gilgal: and there was a dearth in the land; and the sons of the prophets were sitting before him: and he said unto his servant, Set on the great pot, and seethe pottage for the sons of the prophets.",
+      "ct": "Elisha returned to Gilgal during a time of famine in the land. While the company of prophets was sitting with him, he told his servant, \"Put the large pot on the fire and make some stew for the prophets.\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And one went out into the field to gather herbs, and found a wild vine, and gathered thereof wild gourds his lap full, and came and shred them into the pot of pottage: for they knew them not.",
+      "ct": "One of them went out into the field to gather herbs and found a wild vine. He picked as many wild gourds from it as he could carry and came back and sliced them into the pot of stew, not knowing what they were."
+    },
+    {
+      "verse": 40,
+      "kjv": "So they poured out for the men to eat. And it came to pass, as they were eating of the pottage, that they cried out, and said, O thou man of God, there is death in the pot. And they could not eat thereof.",
+      "ct": "The stew was served to the men to eat, but as soon as they tasted it, they cried out, \"Man of God, there's poison in this pot!\" They couldn't eat it."
+    },
+    {
+      "verse": 41,
+      "kjv": "But he said, Then bring meal. And he cast it into the pot; and he said, Pour out for the people, that they may eat. And there was no harm in the pot.",
+      "ct": "Elisha said, \"Bring me some flour.\" He threw it into the pot and said, \"Now serve it to the people so they can eat.\" After that, there was nothing harmful in the pot."
+    },
+    {
+      "verse": 42,
+      "kjv": "And there came a man from Baalshalisha, and brought the man of God bread of the firstfruits, twenty loaves of barley, and full ears of corn in the husk thereof. And he said, Give unto the people, that they may eat.",
+      "ct": "A man came from Baal-shalishah and brought the man of God 20 loaves of barley bread made from the first harvest, along with fresh grain in its husks. Elisha said, \"Give it to the people to eat.\""
+    },
+    {
+      "verse": 43,
+      "kjv": "And his servitor said, What, should I set this before an hundred men? He said again, Give the people, that they may eat: for thus saith the LORD, They shall eat, and shall leave thereof.",
+      "ct": "His servant objected, \"How am I supposed to feed 100 men with this?\" But Elisha repeated, \"Give it to the people to eat, because the LORD says this: They will eat and still have some left over.\""
+    },
+    {
+      "verse": 44,
+      "kjv": "So he set it before them, and they did eat, and left thereof, according to the word of the LORD.",
+      "ct": "So he served it to them, and they ate and had food left over, just as the LORD had said."
+    }
+  ]
+}

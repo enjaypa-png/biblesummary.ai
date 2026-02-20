@@ -1,0 +1,35 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 43,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.965Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Judge me, O God, and plead my cause against an ungodly nation: O deliver me from the deceitful and unjust man.",
+      "ct": "Defend me, God, and argue my case against a godless people. Rescue me from those who are dishonest and corrupt."
+    },
+    {
+      "verse": 2,
+      "kjv": "For thou art the God of my strength: why dost thou cast me off? why go I mourning because of the oppression of the enemy?",
+      "ct": "You are the God who gives me strength — so why have you rejected me? Why do I walk around grieving under the weight of my enemy's cruelty?"
+    },
+    {
+      "verse": 3,
+      "kjv": "O send out thy light and thy truth: let them lead me; let them bring me unto thy holy hill, and to thy tabernacles.",
+      "ct": "Send your light and your truth to guide me. Let them bring me to your sacred mountain, to the place where you dwell."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then will I go unto the altar of God, unto God my exceeding joy: yea, upon the harp will I praise thee, O God my God.",
+      "ct": "Then I will approach the altar of God, the God who is my greatest joy. I will praise you with the harp, God — my God."
+    },
+    {
+      "verse": 5,
+      "kjv": "Why art thou cast down, O my soul? and why art thou disquieted within me? hope in God: for I shall yet praise him, who is the health of my countenance, and my God.",
+      "ct": "Why are you so discouraged, my soul? Why are you so restless inside me? Put your hope in God, because I will still praise him — he is my salvation and my God."
+    }
+  ]
+}

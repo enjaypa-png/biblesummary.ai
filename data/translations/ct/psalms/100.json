@@ -1,0 +1,35 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 100,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.001Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Make a joyful noise unto the LORD, all ye lands.",
+      "ct": "Shout with joy to the LORD, everyone on earth!"
+    },
+    {
+      "verse": 2,
+      "kjv": "Serve the LORD with gladness: come before his presence with singing.",
+      "ct": "Worship the LORD with happiness — come into his presence with songs!"
+    },
+    {
+      "verse": 3,
+      "kjv": "Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his people, and the sheep of his pasture.",
+      "ct": "Understand that the LORD is God. He is the one who made us, not we ourselves. We are his people, the flock he watches over."
+    },
+    {
+      "verse": 4,
+      "kjv": "Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him, and bless his name.",
+      "ct": "Walk through his gates with gratitude and into his courtyards with praise. Give him thanks and honor his name."
+    },
+    {
+      "verse": 5,
+      "kjv": "For the LORD is good; his mercy is everlasting; and his truth endureth to all generations.",
+      "ct": "The LORD is good. His mercy lasts forever, and his faithfulness continues through every generation."
+    }
+  ]
+}

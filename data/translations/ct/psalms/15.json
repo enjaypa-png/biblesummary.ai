@@ -1,0 +1,35 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 15,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.949Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Lord, who shall abide in thy tabernacle? who shall dwell in thy holy hill?",
+      "ct": "LORD, who is welcome to stay in your dwelling place? Who can live on your holy mountain?"
+    },
+    {
+      "verse": 2,
+      "kjv": "He that walketh uprightly, and worketh righteousness, and speaketh the truth in his heart.",
+      "ct": "The person who lives with integrity, who practices righteousness, and who speaks honestly from the heart."
+    },
+    {
+      "verse": 3,
+      "kjv": "He that backbiteth not with his tongue, nor doeth evil to his neighbour, nor taketh up a reproach against his neighbour.",
+      "ct": "The one who doesn't slander others, who does no harm to a neighbor, and who doesn't spread insults about those around them."
+    },
+    {
+      "verse": 4,
+      "kjv": "In whose eyes a vile person is contemned; but he honoureth them that fear the LORD. He that sweareth to his own hurt, and changeth not.",
+      "ct": "The one who looks down on those who are corrupt, but honors those who are wholeheartedly dedicated to the LORD. The one who keeps a promise even when it costs them, and doesn't back out."
+    },
+    {
+      "verse": 5,
+      "kjv": "He that putteth not out his money to usury, nor taketh reward against the innocent. He that doeth these things shall never be moved.",
+      "ct": "The one who doesn't lend money and charge interest on it, and who refuses bribes against innocent people. Whoever does these things will stand firm forever."
+    }
+  ]
+}

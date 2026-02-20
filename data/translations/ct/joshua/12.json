@@ -1,0 +1,130 @@
+{
+  "book": "joshua",
+  "book_name": "Joshua",
+  "chapter": 12,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.663Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now these are the kings of the land, which the children of Israel smote, and possessed their land on the other side Jordan toward the rising of the sun, from the river Arnon unto mount Hermon, and all the plain on the east:",
+      "ct": "Here is the list of kings whose lands the people of Israel conquered east of the Jordan River, toward the sunrise, from the Arnon River valley to Mount Hermon, including the entire eastern plain:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Sihon king of the Amorites, who dwelt in Heshbon, and ruled from Aroer, which is upon the bank of the river Arnon, and from the middle of the river, and from half Gilead, even unto the river Jabbok, which is the border of the children of Ammon;",
+      "ct": "Sihon, king of the Amorites, who lived in Heshbon. He controlled the territory from Aroer on the edge of the Arnon River gorge, including the middle of the valley, through half of Gilead all the way to the Jabbok River, which forms the boundary with the Ammonites."
+    },
+    {
+      "verse": 3,
+      "kjv": "And from the plain to the sea of Chinneroth on the east, and unto the sea of the plain, even the salt sea on the east, the way to Bethjeshimoth; and from the south, under Ashdothpisgah:",
+      "ct": "He also controlled the eastern side of the Jordan Valley from the Sea of Chinneroth down to the Dead Sea, along the road to Beth-jeshimoth, and southward below the slopes of Pisgah."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the coast of Og king of Bashan, which was of the remnant of the giants, that dwelt at Ashtaroth and at Edrei,",
+      "ct": "There was also the territory of Og, king of Bashan, one of the last of the Rephaim giants, who lived at Ashtaroth and Edrei."
+    },
+    {
+      "verse": 5,
+      "kjv": "And reigned in mount Hermon, and in Salcah, and in all Bashan, unto the border of the Geshurites and the Maachathites, and half Gilead, the border of Sihon king of Heshbon.",
+      "ct": "He ruled over Mount Hermon, Salcah, and all of Bashan as far as the borders of the Geshurites and the Maachathites, plus half of Gilead up to the boundary of Sihon, king of Heshbon."
+    },
+    {
+      "verse": 6,
+      "kjv": "Them did Moses the servant of the LORD and the children of Israel smite: and Moses the servant of the LORD gave it for a possession unto the Reubenites, and the Gadites, and the half tribe of Manasseh.",
+      "ct": "Moses, the servant of the LORD, along with the people of Israel, defeated these kings. Then Moses, the servant of the LORD, gave their territory as an inheritance to the tribes of Reuben, Gad, and the half-tribe of Manasseh."
+    },
+    {
+      "verse": 7,
+      "kjv": "And these are the kings of the country which Joshua and the children of Israel smote on this side Jordan on the west, from Baalgad in the valley of Lebanon even unto the mount Halak, that goeth up to Seir; which Joshua gave unto the tribes of Israel for a possession according to their divisions;",
+      "ct": "Here are the kings that Joshua and the people of Israel defeated on the western side of the Jordan, from Baal-gad in the valley of Lebanon all the way to Mount Halak, which rises toward Seir. Joshua distributed this land among the tribes of Israel as their inheritance, dividing it by tribal portions."
+    },
+    {
+      "verse": 8,
+      "kjv": "In the mountains, and in the valleys, and in the plains, and in the springs, and in the wilderness, and in the south country; the Hittites, the Amorites, and the Canaanites, the Perizzites, the Hivites, and the Jebusites:",
+      "ct": "This included the hill country, the lowlands, the Jordan Valley, the mountain slopes, the wilderness, and the southern desert — the lands of the Hittites, the Amorites, the Canaanites, the Perizzites, the Hivites, and the Jebusites:"
+    },
+    {
+      "verse": 9,
+      "kjv": "The king of Jericho, one; the king of Ai, which is beside Bethel, one;",
+      "ct": "The king of Jericho — 1; the king of Ai, near Bethel — 1;"
+    },
+    {
+      "verse": 10,
+      "kjv": "The king of Jerusalem, one; the king of Hebron, one;",
+      "ct": "The king of Jerusalem — 1; the king of Hebron — 1;"
+    },
+    {
+      "verse": 11,
+      "kjv": "The king of Jarmuth, one; the king of Lachish, one;",
+      "ct": "The king of Jarmuth — 1; the king of Lachish — 1;"
+    },
+    {
+      "verse": 12,
+      "kjv": "The king of Eglon, one; the king of Gezer, one;",
+      "ct": "The king of Eglon — 1; the king of Gezer — 1;"
+    },
+    {
+      "verse": 13,
+      "kjv": "The king of Debir, one; the king of Geder, one;",
+      "ct": "The king of Debir — 1; the king of Geder — 1;"
+    },
+    {
+      "verse": 14,
+      "kjv": "The king of Hormah, one; the king of Arad, one;",
+      "ct": "The king of Hormah — 1; the king of Arad — 1;"
+    },
+    {
+      "verse": 15,
+      "kjv": "The king of Libnah, one; the king of Adullam, one;",
+      "ct": "The king of Libnah — 1; the king of Adullam — 1;"
+    },
+    {
+      "verse": 16,
+      "kjv": "The king of Makkedah, one; the king of Bethel, one;",
+      "ct": "The king of Makkedah — 1; the king of Bethel — 1;"
+    },
+    {
+      "verse": 17,
+      "kjv": "The king of Tappuah, one; the king of Hepher, one;",
+      "ct": "The king of Tappuah — 1; the king of Hepher — 1;"
+    },
+    {
+      "verse": 18,
+      "kjv": "The king of Aphek, one; the king of Lasharon, one;",
+      "ct": "The king of Aphek — 1; the king of Lasharon — 1;"
+    },
+    {
+      "verse": 19,
+      "kjv": "The king of Madon, one; the king of Hazor, one;",
+      "ct": "The king of Madon — 1; the king of Hazor — 1;"
+    },
+    {
+      "verse": 20,
+      "kjv": "The king of Shimronmeron, one; the king of Achshaph, one;",
+      "ct": "The king of Shimron-meron — 1; the king of Achshaph — 1;"
+    },
+    {
+      "verse": 21,
+      "kjv": "The king of Taanach, one; the king of Megiddo, one;",
+      "ct": "The king of Taanach — 1; the king of Megiddo — 1;"
+    },
+    {
+      "verse": 22,
+      "kjv": "The king of Kedesh, one; the king of Jokneam of Carmel, one;",
+      "ct": "The king of Kedesh — 1; the king of Jokneam in Carmel — 1;"
+    },
+    {
+      "verse": 23,
+      "kjv": "The king of Dor in the coast of Dor, one; the king of the nations of Gilgal, one;",
+      "ct": "The king of Dor in the coastal region of Dor — 1; the king of Goiim in Gilgal — 1;"
+    },
+    {
+      "verse": 24,
+      "kjv": "The king of Tirzah, one: all the kings thirty and one.",
+      "ct": "The king of Tirzah — 1. The total number of kings defeated: 31."
+    }
+  ]
+}

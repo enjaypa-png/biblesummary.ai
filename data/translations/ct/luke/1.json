@@ -1,0 +1,410 @@
+{
+  "book": "luke",
+  "book_name": "Luke",
+  "chapter": 1,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.326Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Forasmuch as many have taken in hand to set forth in order a declaration of those things which are most surely believed among us,",
+      "ct": "Since many people have already attempted to compile an account of the events that are firmly established among us,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Even as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word;",
+      "ct": "just as those who were eyewitnesses from the start and who served as ministers of the word passed them down to us,"
+    },
+    {
+      "verse": 3,
+      "kjv": "It seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, most excellent Theophilus,",
+      "ct": "I also decided, after carefully investigating everything from the beginning, to write it all down for you in an orderly way, most honorable Theophilus,"
+    },
+    {
+      "verse": 4,
+      "kjv": "That thou mightest know the certainty of those things, wherein thou hast been instructed.",
+      "ct": "so that you can be confident about the reliability of everything you have been taught."
+    },
+    {
+      "verse": 5,
+      "kjv": "There was in the days of Herod, the king of Judaea, a certain priest named Zacharias, of the course of Abia: and his wife was of the daughters of Aaron, and her name was Elisabeth.",
+      "ct": "During the reign of Herod, king of Judea, there was a priest named Zacharias who belonged to the priestly division of Abia. His wife was a descendant of Aaron, and her name was Elisabeth."
+    },
+    {
+      "verse": 6,
+      "kjv": "And they were both righteous before God, walking in all the commandments and ordinances of the Lord blameless.",
+      "ct": "Both of them lived righteously in God's sight, carefully following all of the LORD's commands and regulations without fault."
+    },
+    {
+      "verse": 7,
+      "kjv": "And they had no child, because that Elisabeth was barren, and they both were now well stricken in years.",
+      "ct": "But they had no children because Elisabeth was unable to conceive, and both of them were very old by now."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it came to pass, that while he executed the priest’s office before God in the order of his course,",
+      "ct": "One day, while Zacharias was carrying out his priestly duties in God's presence during his division's scheduled turn,"
+    },
+    {
+      "verse": 9,
+      "kjv": "According to the custom of the priest’s office, his lot was to burn incense when he went into the temple of the Lord.",
+      "ct": "he was chosen by lot, as was the custom among priests, to go into the LORD's temple and burn incense."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the whole multitude of the people were praying without at the time of incense.",
+      "ct": "The entire crowd of worshipers was outside praying during the time the incense was being offered."
+    },
+    {
+      "verse": 11,
+      "kjv": "And there appeared unto him an angel of the Lord standing on the right side of the altar of incense.",
+      "ct": "Then an angel of the LORD appeared to him, standing to the right of the incense altar."
+    },
+    {
+      "verse": 12,
+      "kjv": "And when Zacharias saw him, he was troubled, and fear fell upon him.",
+      "ct": "When Zacharias saw him, he was shaken, and terror gripped him."
+    },
+    {
+      "verse": 13,
+      "kjv": "But the angel said unto him, Fear not, Zacharias: for thy prayer is heard; and thy wife Elisabeth shall bear thee a son, and thou shalt call his name John.",
+      "ct": "But the angel told him, \"Don't be afraid, Zacharias. Your prayer has been heard. Your wife Elisabeth will give birth to a son for you, and you are to name him John."
+    },
+    {
+      "verse": 14,
+      "kjv": "And thou shalt have joy and gladness; and many shall rejoice at his birth.",
+      "ct": "He will bring you tremendous joy and happiness, and many people will celebrate his birth."
+    },
+    {
+      "verse": 15,
+      "kjv": "For he shall be great in the sight of the Lord, and shall drink neither wine nor strong drink; and he shall be filled with the Holy Ghost, even from his mother’s womb.",
+      "ct": "He will be great in the LORD's sight. He must never drink wine or any other alcoholic drink, and he will be filled with the Holy Spirit even before he is born."
+    },
+    {
+      "verse": 16,
+      "kjv": "And many of the children of Israel shall he turn to the Lord their God.",
+      "ct": "He will bring many of the people of Israel back to the LORD their God."
+    },
+    {
+      "verse": 17,
+      "kjv": "And he shall go before him in the spirit and power of Elias, to turn the hearts of the fathers to the children, and the disobedient to the wisdom of the just; to make ready a people prepared for the Lord.",
+      "ct": "He will go ahead of the Lord with the same spirit and power as Elijah, turning the hearts of parents toward their children and bringing the disobedient back to the wisdom of those who do right — preparing a people who are ready for the Lord.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And Zacharias said unto the angel, Whereby shall I know this? for I am an old man, and my wife well stricken in years.",
+      "ct": "Zacharias asked the angel, \"How can I be sure of this? I'm an old man, and my wife is well along in years too.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And the angel answering said unto him, I am Gabriel, that stand in the presence of God; and am sent to speak unto thee, and to shew thee these glad tidings.",
+      "ct": "The angel replied, \"I am Gabriel. I stand in God's presence, and I was sent to speak to you and bring you this good news."
+    },
+    {
+      "verse": 20,
+      "kjv": "And, behold, thou shalt be dumb, and not able to speak, until the day that these things shall be performed, because thou believest not my words, which shall be fulfilled in their season.",
+      "ct": "Now listen — you will be unable to speak, completely silent, until the day these things happen, because you did not believe my words, which will come true at the proper time.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And the people waited for Zacharias, and marvelled that he tarried so long in the temple.",
+      "ct": "Meanwhile, the people were waiting for Zacharias and wondering why he was taking so long inside the temple."
+    },
+    {
+      "verse": 22,
+      "kjv": "And when he came out, he could not speak unto them: and they perceived that he had seen a vision in the temple: for he beckoned unto them, and remained speechless.",
+      "ct": "When he finally came out, he couldn't talk to them. They realized he must have seen a vision inside the temple, because he kept making gestures to them but remained unable to speak."
+    },
+    {
+      "verse": 23,
+      "kjv": "And it came to pass, that, as soon as the days of his ministration were accomplished, he departed to his own house.",
+      "ct": "When his period of temple service was completed, he went back home."
+    },
+    {
+      "verse": 24,
+      "kjv": "And after those days his wife Elisabeth conceived, and hid herself five months, saying,",
+      "ct": "Sometime after that, his wife Elisabeth became pregnant and stayed in seclusion for 5 months, saying,"
+    },
+    {
+      "verse": 25,
+      "kjv": "Thus hath the Lord dealt with me in the days wherein he looked on me, to take away my reproach among men.",
+      "ct": "\"This is what the LORD has done for me. He has looked on me with favor and removed my disgrace among people.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth,",
+      "ct": "In the 6th month of Elisabeth's pregnancy, God sent the angel Gabriel to a town in Galilee called Nazareth,"
+    },
+    {
+      "verse": 27,
+      "kjv": "To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin’s name was Mary.",
+      "ct": "to a virgin who was engaged to a man named Joseph, a descendant of David. The virgin's name was Mary."
+    },
+    {
+      "verse": 28,
+      "kjv": "And the angel came in unto her, and said, Hail, thou that art highly favoured, the Lord is with thee: blessed art thou among women.",
+      "ct": "The angel came to her and said, \"Greetings, you who are highly favored! The LORD is with you. You are blessed among all women.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And when she saw him, she was troubled at his saying, and cast in her mind what manner of salutation this should be.",
+      "ct": "Mary was deeply troubled by his words and tried to figure out what kind of greeting this could be."
+    },
+    {
+      "verse": 30,
+      "kjv": "And the angel said unto her, Fear not, Mary: for thou hast found favour with God.",
+      "ct": "The angel said to her, \"Don't be afraid, Mary, because you have found favor with God."
+    },
+    {
+      "verse": 31,
+      "kjv": "And, behold, thou shalt conceive in thy womb, and bring forth a son, and shalt call his name JESUS.",
+      "ct": "Listen — you will become pregnant and give birth to a son, and you are to name him JESUS."
+    },
+    {
+      "verse": 32,
+      "kjv": "He shall be great, and shall be called the Son of the Highest: and the Lord God shall give unto him the throne of his father David:",
+      "ct": "He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his ancestor David."
+    },
+    {
+      "verse": 33,
+      "kjv": "And he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end.",
+      "ct": "He will rule over the descendants of Jacob forever, and his kingdom will never end.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "Then said Mary unto the angel, How shall this be, seeing I know not a man?",
+      "ct": "Mary asked the angel, \"How is this possible, since I have never been with a man?\""
+    },
+    {
+      "verse": 35,
+      "kjv": "And the angel answered and said unto her, The Holy Ghost shall come upon thee, and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God.",
+      "ct": "The angel answered her, \"The Holy Spirit will come over you, and the power of the Most High will surround you. For that reason, the holy child who will be born will be called the Son of God."
+    },
+    {
+      "verse": 36,
+      "kjv": "And, behold, thy cousin Elisabeth, she hath also conceived a son in her old age: and this is the sixth month with her, who was called barren.",
+      "ct": "And look — your relative Elisabeth has also become pregnant with a son in her old age. She's already in her 6th month, even though people used to say she couldn't have children."
+    },
+    {
+      "verse": 37,
+      "kjv": "For with God nothing shall be impossible.",
+      "ct": "Because nothing is impossible with God.\""
+    },
+    {
+      "verse": 38,
+      "kjv": "And Mary said, Behold the handmaid of the Lord; be it unto me according to thy word. And the angel departed from her.",
+      "ct": "Mary responded, \"I am the LORD's servant. Let it happen to me just as you've said.\" Then the angel left her."
+    },
+    {
+      "verse": 39,
+      "kjv": "And Mary arose in those days, and went into the hill country with haste, into a city of Juda;",
+      "ct": "Soon after this, Mary got up and hurried to a town in the hill country of Judah."
+    },
+    {
+      "verse": 40,
+      "kjv": "And entered into the house of Zacharias, and saluted Elisabeth.",
+      "ct": "She went into Zacharias's house and greeted Elisabeth."
+    },
+    {
+      "verse": 41,
+      "kjv": "And it came to pass, that, when Elisabeth heard the salutation of Mary, the babe leaped in her womb; and Elisabeth was filled with the Holy Ghost:",
+      "ct": "The moment Elisabeth heard Mary's greeting, the baby jumped inside her womb, and Elisabeth was filled with the Holy Spirit."
+    },
+    {
+      "verse": 42,
+      "kjv": "And she spake out with a loud voice, and said, Blessed art thou among women, and blessed is the fruit of thy womb.",
+      "ct": "She called out loudly, \"You are the most blessed of all women, and blessed is the child you are carrying!"
+    },
+    {
+      "verse": 43,
+      "kjv": "And whence is this to me, that the mother of my Lord should come to me?",
+      "ct": "Why am I so honored that the mother of my Lord would come to visit me?"
+    },
+    {
+      "verse": 44,
+      "kjv": "For, lo, as soon as the voice of thy salutation sounded in mine ears, the babe leaped in my womb for joy.",
+      "ct": "The instant the sound of your greeting reached my ears, the baby inside me jumped with joy!"
+    },
+    {
+      "verse": 45,
+      "kjv": "And blessed is she that believed: for there shall be a performance of those things which were told her from the Lord.",
+      "ct": "How happy is the woman who believed, because what the LORD told her will be fulfilled!\""
+    },
+    {
+      "verse": 46,
+      "kjv": "And Mary said, My soul doth magnify the Lord,",
+      "ct": "Then Mary said, \"My soul praises the LORD with all that I am,"
+    },
+    {
+      "verse": 47,
+      "kjv": "And my spirit hath rejoiced in God my Saviour.",
+      "ct": "and my spirit overflows with joy in God my Savior."
+    },
+    {
+      "verse": 48,
+      "kjv": "For he hath regarded the low estate of his handmaiden: for, behold, from henceforth all generations shall call me blessed.",
+      "ct": "Because he has taken notice of his humble servant. From now on, every generation will call me blessed,"
+    },
+    {
+      "verse": 49,
+      "kjv": "For he that is mighty hath done to me great things; and holy is his name.",
+      "ct": "because the Mighty One has done incredible things for me. Holy is his name."
+    },
+    {
+      "verse": 50,
+      "kjv": "And his mercy is on them that fear him from generation to generation.",
+      "ct": "His mercy extends to those who deeply revere him, from one generation to the next."
+    },
+    {
+      "verse": 51,
+      "kjv": "He hath shewed strength with his arm; he hath scattered the proud in the imagination of their hearts.",
+      "ct": "He has demonstrated his mighty power; he has scattered those who are arrogant in the thoughts of their hearts."
+    },
+    {
+      "verse": 52,
+      "kjv": "He hath put down the mighty from their seats, and exalted them of low degree.",
+      "ct": "He has toppled rulers from their thrones and lifted up the humble."
+    },
+    {
+      "verse": 53,
+      "kjv": "He hath filled the hungry with good things; and the rich he hath sent empty away.",
+      "ct": "He has satisfied the hungry with wonderful things and sent the wealthy away with nothing."
+    },
+    {
+      "verse": 54,
+      "kjv": "He hath holpen his servant Israel, in remembrance of his mercy;",
+      "ct": "He has come to the aid of his servant Israel, remembering his mercy,"
+    },
+    {
+      "verse": 55,
+      "kjv": "As he spake to our fathers, to Abraham, and to his seed for ever.",
+      "ct": "just as he promised to our ancestors — to Abraham and his descendants forever.\""
+    },
+    {
+      "verse": 56,
+      "kjv": "And Mary abode with her about three months, and returned to her own house.",
+      "ct": "Mary stayed with Elisabeth for about 3 months and then went back home."
+    },
+    {
+      "verse": 57,
+      "kjv": "Now Elisabeth’s full time came that she should be delivered; and she brought forth a son.",
+      "ct": "When the time came for Elisabeth to have her baby, she gave birth to a son."
+    },
+    {
+      "verse": 58,
+      "kjv": "And her neighbours and her cousins heard how the Lord had shewed great mercy upon her; and they rejoiced with her.",
+      "ct": "Her neighbors and relatives heard that the LORD had shown her great mercy, and they celebrated with her."
+    },
+    {
+      "verse": 59,
+      "kjv": "And it came to pass, that on the eighth day they came to circumcise the child; and they called him Zacharias, after the name of his father.",
+      "ct": "On the 8th day, they came to circumcise the child, and they were going to name him Zacharias, after his father."
+    },
+    {
+      "verse": 60,
+      "kjv": "And his mother answered and said, Not so; but he shall be called John.",
+      "ct": "But his mother spoke up and said, \"No! His name will be John.\""
+    },
+    {
+      "verse": 61,
+      "kjv": "And they said unto her, There is none of thy kindred that is called by this name.",
+      "ct": "They said to her, \"But no one in your family has that name.\""
+    },
+    {
+      "verse": 62,
+      "kjv": "And they made signs to his father, how he would have him called.",
+      "ct": "So they made gestures to his father to find out what he wanted the child to be named."
+    },
+    {
+      "verse": 63,
+      "kjv": "And he asked for a writing table, and wrote, saying, His name is John. And they marvelled all.",
+      "ct": "He motioned for a writing tablet and wrote, \"His name is John.\" Everyone was amazed."
+    },
+    {
+      "verse": 64,
+      "kjv": "And his mouth was opened immediately, and his tongue loosed, and he spake, and praised God.",
+      "ct": "Instantly his mouth was opened and his tongue was freed, and he began speaking and praising God."
+    },
+    {
+      "verse": 65,
+      "kjv": "And fear came on all that dwelt round about them: and all these sayings were noised abroad throughout all the hill country of Judaea.",
+      "ct": "A sense of awe came over everyone living in the surrounding area, and news about all of these events spread throughout the entire hill country of Judea."
+    },
+    {
+      "verse": 66,
+      "kjv": "And all they that heard them laid them up in their hearts, saying, What manner of child shall this be! And the hand of the Lord was with him.",
+      "ct": "Everyone who heard about it kept thinking about it carefully, asking, \"What is this child going to become?\" Because it was clear that the LORD's hand was on him."
+    },
+    {
+      "verse": 67,
+      "kjv": "And his father Zacharias was filled with the Holy Ghost, and prophesied, saying,",
+      "ct": "Then his father Zacharias was filled with the Holy Spirit and spoke this prophecy:"
+    },
+    {
+      "verse": 68,
+      "kjv": "Blessed be the Lord God of Israel; for he hath visited and redeemed his people,",
+      "ct": "\"Praise the Lord God of Israel, because he has come to his people and set them free."
+    },
+    {
+      "verse": 69,
+      "kjv": "And hath raised up an horn of salvation for us in the house of his servant David;",
+      "ct": "He has raised up a mighty Savior for us from the family line of his servant David,"
+    },
+    {
+      "verse": 70,
+      "kjv": "As he spake by the mouth of his holy prophets, which have been since the world began:",
+      "ct": "just as he announced long ago through his holy prophets."
+    },
+    {
+      "verse": 71,
+      "kjv": "That we should be saved from our enemies, and from the hand of all that hate us;",
+      "ct": "He promised salvation from our enemies and from the grip of everyone who hates us,"
+    },
+    {
+      "verse": 72,
+      "kjv": "To perform the mercy promised to our fathers, and to remember his holy covenant;",
+      "ct": "showing the mercy he promised to our ancestors and honoring his holy covenant —"
+    },
+    {
+      "verse": 73,
+      "kjv": "The oath which he sware to our father Abraham,",
+      "ct": "the oath he swore to our ancestor Abraham."
+    },
+    {
+      "verse": 74,
+      "kjv": "That he would grant unto us, that we being delivered out of the hand of our enemies might serve him without fear,",
+      "ct": "He promised that, once we were rescued from the grip of our enemies, we could serve him without fear,"
+    },
+    {
+      "verse": 75,
+      "kjv": "In holiness and righteousness before him, all the days of our life.",
+      "ct": "living in holiness and righteousness in his presence for all the days of our lives."
+    },
+    {
+      "verse": 76,
+      "kjv": "And thou, child, shalt be called the prophet of the Highest: for thou shalt go before the face of the Lord to prepare his ways;",
+      "ct": "And you, my child, will be called a prophet of the Most High, because you will go ahead of the Lord to prepare the way for him,"
+    },
+    {
+      "verse": 77,
+      "kjv": "To give knowledge of salvation unto his people by the remission of their sins,",
+      "ct": "giving his people an understanding of salvation through the forgiveness of their sins,"
+    },
+    {
+      "verse": 78,
+      "kjv": "Through the tender mercy of our God; whereby the dayspring from on high hath visited us,",
+      "ct": "because of the compassionate mercy of our God. Through that mercy, the dawn from heaven has come to us,"
+    },
+    {
+      "verse": 79,
+      "kjv": "To give light to them that sit in darkness and in the shadow of death, to guide our feet into the way of peace.",
+      "ct": "shining light on those living in darkness and in the shadow of death, and directing our steps onto the path of peace.\""
+    },
+    {
+      "verse": 80,
+      "kjv": "And the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.",
+      "ct": "The child grew up and became strong in spirit. He lived out in the wilderness until the day he publicly appeared to Israel."
+    }
+  ]
+}

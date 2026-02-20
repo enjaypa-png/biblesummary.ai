@@ -1,0 +1,75 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 65,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.977Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Praise waiteth for thee, O God, in Sion: and unto thee shall the vow be performed.",
+      "ct": "Praise is waiting for you in Zion, O God, and our promises to you will be fulfilled."
+    },
+    {
+      "verse": 2,
+      "kjv": "O thou that hearest prayer, unto thee shall all flesh come.",
+      "ct": "You are the one who answers prayer, and all people will come to you."
+    },
+    {
+      "verse": 3,
+      "kjv": "Iniquities prevail against me: as for our transgressions, thou shalt purge them away.",
+      "ct": "My sins have overwhelmed me, but you will wipe away our transgressions."
+    },
+    {
+      "verse": 4,
+      "kjv": "Blessed is the man whom thou choosest, and causest to approach unto thee, that he may dwell in thy courts: we shall be satisfied with the goodness of thy house, even of thy holy temple.",
+      "ct": "How happy is the person you choose and bring near to you, to live in your courts. We will be filled with the goodness of your house, your holy temple."
+    },
+    {
+      "verse": 5,
+      "kjv": "By terrible things in righteousness wilt thou answer us, O God of our salvation; who art the confidence of all the ends of the earth, and of them that are afar off upon the sea:",
+      "ct": "You answer us with awesome acts of righteousness, O God of our salvation. You are the hope of everyone on earth and those far away across the sea."
+    },
+    {
+      "verse": 6,
+      "kjv": "Which by his strength setteth fast the mountains; being girded with power:",
+      "ct": "By your strength you established the mountains, clothed with power."
+    },
+    {
+      "verse": 7,
+      "kjv": "Which stilleth the noise of the seas, the noise of their waves, and the tumult of the people.",
+      "ct": "You calm the roaring of the seas, the crashing of their waves, and the uproar of the nations."
+    },
+    {
+      "verse": 8,
+      "kjv": "They also that dwell in the uttermost parts are afraid at thy tokens: thou makest the outgoings of the morning and evening to rejoice.",
+      "ct": "Those who live at the farthest edges of the earth stand in awe of your signs. You make the places where morning and evening dawn shout with joy."
+    },
+    {
+      "verse": 9,
+      "kjv": "Thou visitest the earth, and waterest it: thou greatly enrichest it with the river of God, which is full of water: thou preparest them corn, when thou hast so provided for it.",
+      "ct": "You care for the earth and water it; you make it incredibly rich. God's river is full of water. You provide grain for the people, because you have prepared the land for it."
+    },
+    {
+      "verse": 10,
+      "kjv": "Thou waterest the ridges thereof abundantly: thou settlest the furrows thereof: thou makest it soft with showers: thou blessest the springing thereof.",
+      "ct": "You drench its plowed rows and level its ridges. You soften it with rain showers and bless everything that grows from it."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou crownest the year with thy goodness; and thy paths drop fatness.",
+      "ct": "You crown the year with your abundance, and wherever you go, prosperity overflows."
+    },
+    {
+      "verse": 12,
+      "kjv": "They drop upon the pastures of the wilderness: and the little hills rejoice on every side.",
+      "ct": "The wild grasslands overflow with plenty, and the hills are wrapped in celebration."
+    },
+    {
+      "verse": 13,
+      "kjv": "The pastures are clothed with flocks; the valleys also are covered over with corn; they shout for joy, they also sing.",
+      "ct": "The meadows are covered with flocks, and the valleys are blanketed with grain. They burst out in shouts of joy — they even sing!"
+    }
+  ]
+}

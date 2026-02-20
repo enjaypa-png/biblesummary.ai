@@ -1,0 +1,145 @@
+{
+  "book": "acts",
+  "book_name": "Acts",
+  "chapter": 25,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.398Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now when Festus was come into the province, after three days he ascended from Caesarea to Jerusalem.",
+      "ct": "3 days after Festus arrived in the province, he traveled from Caesarea up to Jerusalem."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then the high priest and the chief of the Jews informed him against Paul, and besought him,",
+      "ct": "There the chief priests and Jewish leaders presented their case against Paul and urged Festus"
+    },
+    {
+      "verse": 3,
+      "kjv": "And desired favour against him, that he would send for him to Jerusalem, laying wait in the way to kill him.",
+      "ct": "to do them a favor by having Paul transferred to Jerusalem. They were planning an ambush to kill him along the road."
+    },
+    {
+      "verse": 4,
+      "kjv": "But Festus answered, that Paul should be kept at Caesarea, and that he himself would depart shortly thither.",
+      "ct": "Festus replied that Paul was being held in Caesarea and that he himself would be returning there soon."
+    },
+    {
+      "verse": 5,
+      "kjv": "Let them therefore, said he, which among you are able, go down with me, and accuse this man, if there be any wickedness in him.",
+      "ct": "\"Let your leaders come down with me,\" he said, \"and if this man has done anything wrong, they can press charges against him there.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And when he had tarried among them more than ten days, he went down unto Caesarea; and the next day sitting on the judgment seat commanded Paul to be brought.",
+      "ct": "After spending more than 10 days with them, Festus went back to Caesarea. The following day he took his seat at the tribunal and ordered Paul to be brought in."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when he was come, the Jews which came down from Jerusalem stood round about, and laid many and grievous complaints against Paul, which they could not prove.",
+      "ct": "When Paul appeared, the Jewish leaders who had come from Jerusalem surrounded him and brought many serious accusations against him, none of which they could back up with evidence."
+    },
+    {
+      "verse": 8,
+      "kjv": "While he answered for himself, Neither against the law of the Jews, neither against the temple, nor yet against Caesar, have I offended any thing at all.",
+      "ct": "Paul defended himself by saying, \"I have not committed any offense against Jewish law, against the temple, or against Caesar.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "But Festus, willing to do the Jews a pleasure, answered Paul, and said, Wilt thou go up to Jerusalem, and there be judged of these things before me?",
+      "ct": "But Festus, wanting to gain favor with the Jewish leaders, asked Paul, \"Are you willing to go up to Jerusalem and stand trial on these charges in my presence there?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then said Paul, I stand at Caesar’s judgment seat, where I ought to be judged: to the Jews have I done no wrong, as thou very well knowest.",
+      "ct": "Paul responded, \"I am standing before Caesar's tribunal, which is exactly where I should be tried. I have done nothing wrong to the Jewish people, as you know perfectly well."
+    },
+    {
+      "verse": 11,
+      "kjv": "For if I be an offender, or have committed any thing worthy of death, I refuse not to die: but if there be none of these things whereof these accuse me, no man may deliver me unto them. I appeal unto Caesar.",
+      "ct": "If I am guilty or have done anything that deserves the death penalty, I don't refuse to die. But if none of their accusations are true, no one has the right to hand me over to them. I appeal to Caesar.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then Festus, when he had conferred with the council, answered, Hast thou appealed unto Caesar? unto Caesar shalt thou go.",
+      "ct": "After Festus discussed it with his advisors, he announced, \"You have appealed to Caesar? Then to Caesar you will go.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And after certain days king Agrippa and Bernice came unto Caesarea to salute Festus.",
+      "ct": "Some days later, King Agrippa and Bernice arrived in Caesarea to pay their respects to Festus."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when they had been there many days, Festus declared Paul’s cause unto the king, saying, There is a certain man left in bonds by Felix:",
+      "ct": "Since they were staying for quite a few days, Festus brought up Paul's case with the king. He said, \"There is a man here who was left as a prisoner by Felix."
+    },
+    {
+      "verse": 15,
+      "kjv": "About whom, when I was at Jerusalem, the chief priests and the elders of the Jews informed me, desiring to have judgment against him.",
+      "ct": "When I was in Jerusalem, the chief priests and Jewish elders brought charges against him and demanded a guilty verdict."
+    },
+    {
+      "verse": 16,
+      "kjv": "To whom I answered, It is not the manner of the Romans to deliver any man to die, before that he which is accused have the accusers face to face, and have licence to answer for himself concerning the crime laid against him.",
+      "ct": "I told them that it is not Roman practice to hand someone over for punishment before the accused has had a chance to face his accusers directly and defend himself against the charges."
+    },
+    {
+      "verse": 17,
+      "kjv": "Therefore, when they were come hither, without any delay on the morrow I sat on the judgment seat, and commanded the man to be brought forth.",
+      "ct": "So when they came here, I wasted no time. The very next day I took my seat at the tribunal and had the man brought in."
+    },
+    {
+      "verse": 18,
+      "kjv": "Against whom when the accusers stood up, they brought none accusation of such things as I supposed:",
+      "ct": "When his accusers stood up to speak, they didn't charge him with any of the crimes I had expected."
+    },
+    {
+      "verse": 19,
+      "kjv": "But had certain questions against him of their own superstition, and of one Jesus, which was dead, whom Paul affirmed to be alive.",
+      "ct": "Instead, they had disputes with him about their own religion and about a certain Jesus who had died, but whom Paul claimed was alive."
+    },
+    {
+      "verse": 20,
+      "kjv": "And because I doubted of such manner of questions, I asked him whether he would go to Jerusalem, and there be judged of these matters.",
+      "ct": "Since I was unsure how to investigate these kinds of questions, I asked Paul if he would be willing to go to Jerusalem and be tried there on these matters."
+    },
+    {
+      "verse": 21,
+      "kjv": "But when Paul had appealed to be reserved unto the hearing of Augustus, I commanded him to be kept till I might send him to Caesar.",
+      "ct": "But Paul appealed to have his case held over for the Emperor's decision, so I ordered him kept in custody until I could send him to Caesar.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Then Agrippa said unto Festus, I would also hear the man myself. To morrow, said he, thou shalt hear him.",
+      "ct": "Agrippa said to Festus, \"I would like to hear this man myself.\" Festus replied, \"Tomorrow you will hear him.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And on the morrow, when Agrippa was come, and Bernice, with great pomp, and was entered into the place of hearing, with the chief captains, and principal men of the city, at Festus’ commandment Paul was brought forth.",
+      "ct": "The next day Agrippa and Bernice arrived with great ceremony and entered the hearing hall, accompanied by military commanders and the city's prominent citizens. At Festus's command, Paul was brought in."
+    },
+    {
+      "verse": 24,
+      "kjv": "And Festus said, King Agrippa, and all men which are here present with us, ye see this man, about whom all the multitude of the Jews have dealt with me, both at Jerusalem, and also here, crying that he ought not to live any longer.",
+      "ct": "Festus said, \"King Agrippa and everyone gathered here with us, you see this man. The entire Jewish community has petitioned me about him, both in Jerusalem and here, shouting that he should no longer be allowed to live."
+    },
+    {
+      "verse": 25,
+      "kjv": "But when I found that he had committed nothing worthy of death, and that he himself hath appealed to Augustus, I have determined to send him.",
+      "ct": "But I found that he has done nothing deserving the death penalty. And since he has appealed to the Emperor, I decided to send him to Rome."
+    },
+    {
+      "verse": 26,
+      "kjv": "Of whom I have no certain thing to write unto my lord. Wherefore I have brought him forth before you, and specially before thee, O king Agrippa, that, after examination had, I might have somewhat to write.",
+      "ct": "However, I don't have anything definite to write to His Majesty about him. That is why I have brought him before all of you, and especially before you, King Agrippa, so that after this examination I might have something to put in writing."
+    },
+    {
+      "verse": 27,
+      "kjv": "For it seemeth to me unreasonable to send a prisoner, and not withal to signify the crimes laid against him.",
+      "ct": "It seems unreasonable to me to send a prisoner to Rome without clearly stating the charges against him.\""
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 26,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.304Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, when Jesus had finished all these sayings, he said unto his disciples,",
+      "ct": "When Jesus had finished saying all these things, he told his disciples,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Ye know that after two days is the feast of the passover, and the Son of man is betrayed to be crucified.",
+      "ct": "\"You know that the Passover festival is 2 days away, and the Son of Man will be handed over to be crucified.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Then assembled together the chief priests, and the scribes, and the elders of the people, unto the palace of the high priest, who was called Caiaphas,",
+      "ct": "At that time, the chief priests, the legal experts, and the elders of the people gathered at the residence of the high priest, whose name was Caiaphas."
+    },
+    {
+      "verse": 4,
+      "kjv": "And consulted that they might take Jesus by subtilty, and kill him.",
+      "ct": "They plotted together to arrest Jesus through some trick and kill him."
+    },
+    {
+      "verse": 5,
+      "kjv": "But they said, Not on the feast day, lest there be an uproar among the people.",
+      "ct": "But they said, \"Not during the festival, or it could cause a riot among the people.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Now when Jesus was in Bethany, in the house of Simon the leper,",
+      "ct": "While Jesus was in Bethany, staying at the home of Simon the leper,"
+    },
+    {
+      "verse": 7,
+      "kjv": "There came unto him a woman having an alabaster box of very precious ointment, and poured it on his head, as he sat at meat.",
+      "ct": "a woman approached him with an alabaster jar of extremely expensive perfume and poured it over his head as he was eating."
+    },
+    {
+      "verse": 8,
+      "kjv": "But when his disciples saw it, they had indignation, saying, To what purpose is this waste?",
+      "ct": "When his disciples saw this, they were outraged. \"Why this waste?\" they asked."
+    },
+    {
+      "verse": 9,
+      "kjv": "For this ointment might have been sold for much, and given to the poor.",
+      "ct": "\"This perfume could have been sold for a large amount of money and given to the poor.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "When Jesus understood it, he said unto them, Why trouble ye the woman? for she hath wrought a good work upon me.",
+      "ct": "Jesus, aware of their complaints, said to them, \"Why are you bothering this woman? She has done something beautiful for me."
+    },
+    {
+      "verse": 11,
+      "kjv": "For ye have the poor always with you; but me ye have not always.",
+      "ct": "The poor will always be among you, but I won't always be with you."
+    },
+    {
+      "verse": 12,
+      "kjv": "For in that she hath poured this ointment on my body, she did it for my burial.",
+      "ct": "By pouring this perfume on my body, she has prepared me for burial."
+    },
+    {
+      "verse": 13,
+      "kjv": "Verily I say unto you, Wheresoever this gospel shall be preached in the whole world, there shall also this, that this woman hath done, be told for a memorial of her.",
+      "ct": "Truly I tell you, wherever this good news is proclaimed throughout the entire world, what this woman has done will also be told in her memory.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Then one of the twelve, called Judas Iscariot, went unto the chief priests,",
+      "ct": "Then one of the 12 — the one called Judas Iscariot — went to the chief priests."
+    },
+    {
+      "verse": 15,
+      "kjv": "And said unto them, What will ye give me, and I will deliver him unto you? And they covenanted with him for thirty pieces of silver.",
+      "ct": "He asked them, \"What will you pay me to hand him over to you?\" They agreed on 30 pieces of silver."
+    },
+    {
+      "verse": 16,
+      "kjv": "And from that time he sought opportunity to betray him.",
+      "ct": "From that point on, he looked for the right moment to betray Jesus."
+    },
+    {
+      "verse": 17,
+      "kjv": "Now the first day of the feast of unleavened bread the disciples came to Jesus, saying unto him, Where wilt thou that we prepare for thee to eat the passover?",
+      "ct": "On the first day of the Festival of Unleavened Bread, the disciples came to Jesus and asked, \"Where do you want us to make preparations for you to eat the Passover meal?\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And he said, Go into the city to such a man, and say unto him, The Master saith, My time is at hand; I will keep the passover at thy house with my disciples.",
+      "ct": "He replied, \"Go into the city to a certain man and tell him, 'The Teacher says: My time has come. I will celebrate the Passover at your house with my disciples.'\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And the disciples did as Jesus had appointed them; and they made ready the passover.",
+      "ct": "The disciples followed Jesus' instructions and prepared the Passover meal."
+    },
+    {
+      "verse": 20,
+      "kjv": "Now when the even was come, he sat down with the twelve.",
+      "ct": "When evening arrived, he sat down to eat with the 12."
+    },
+    {
+      "verse": 21,
+      "kjv": "And as they did eat, he said, Verily I say unto you, that one of you shall betray me.",
+      "ct": "While they were eating, he said, \"Truly I tell you, one of you is going to betray me.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And they were exceeding sorrowful, and began every one of them to say unto him, Lord, is it I?",
+      "ct": "They became deeply distressed, and one after another each asked him, \"Lord, it isn't me, is it?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And he answered and said, He that dippeth his hand with me in the dish, the same shall betray me.",
+      "ct": "He answered, \"The one who dips his hand into the bowl with me — that is the one who will betray me."
+    },
+    {
+      "verse": 24,
+      "kjv": "The Son of man goeth as it is written of him: but woe unto that man by whom the Son of man is betrayed! it had been good for that man if he had not been born.",
+      "ct": "The Son of Man will go just as the Scriptures say about him, but how terrible it will be for the man who betrays the Son of Man! It would have been better for that man if he had never been born.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "Then Judas, which betrayed him, answered and said, Master, is it I? He said unto him, Thou hast said.",
+      "ct": "Then Judas, the one who would betray him, asked, \"Rabbi, it isn't me, is it?\" Jesus replied, \"You have said it yourself.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And as they were eating, Jesus took bread, and blessed it, and brake it, and gave it to the disciples, and said, Take, eat; this is my body.",
+      "ct": "While they were eating, Jesus picked up bread, gave thanks for it, broke it, and handed it to the disciples, saying, \"Take this and eat it; this is my body.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And he took the cup, and gave thanks, and gave it to them, saying, Drink ye all of it;",
+      "ct": "Then he picked up a cup, gave thanks, and passed it to them, saying, \"All of you, drink from this."
+    },
+    {
+      "verse": 28,
+      "kjv": "For this is my blood of the new testament, which is shed for many for the remission of sins.",
+      "ct": "This is my blood of the new covenant, which is poured out for many for the forgiveness of sins."
+    },
+    {
+      "verse": 29,
+      "kjv": "But I say unto you, I will not drink henceforth of this fruit of the vine, until that day when I drink it new with you in my Father’s kingdom.",
+      "ct": "I tell you, I will not drink this fruit of the vine again until the day I drink it fresh with you in my Father's kingdom.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And when they had sung an hymn, they went out into the mount of Olives.",
+      "ct": "After singing a hymn, they went out to the Mount of Olives."
+    },
+    {
+      "verse": 31,
+      "kjv": "Then saith Jesus unto them, All ye shall be offended because of me this night: for it is written, I will smite the shepherd, and the sheep of the flock shall be scattered abroad.",
+      "ct": "Then Jesus told them, \"Tonight, all of you will fall away because of me, for the Scripture says: 'I will strike the shepherd, and the sheep of the flock will be scattered.'"
+    },
+    {
+      "verse": 32,
+      "kjv": "But after I am risen again, I will go before you into Galilee.",
+      "ct": "But after I have risen, I will go ahead of you to Galilee.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "Peter answered and said unto him, Though all men shall be offended because of thee, yet will I never be offended.",
+      "ct": "Peter spoke up and said, \"Even if everyone else falls away because of you, I never will.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "Jesus said unto him, Verily I say unto thee, That this night, before the cock crow, thou shalt deny me thrice.",
+      "ct": "Jesus told him, \"Truly I tell you, tonight — before the rooster crows — you will deny me 3 times.\""
+    },
+    {
+      "verse": 35,
+      "kjv": "Peter said unto him, Though I should die with thee, yet will I not deny thee. Likewise also said all the disciples.",
+      "ct": "Peter insisted, \"Even if I have to die with you, I will never deny you.\" All the other disciples said the same thing."
+    },
+    {
+      "verse": 36,
+      "kjv": "Then cometh Jesus with them unto a place called Gethsemane, and saith unto the disciples, Sit ye here, while I go and pray yonder.",
+      "ct": "Then Jesus went with them to a place called Gethsemane and told the disciples, \"Sit here while I go over there to pray.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "And he took with him Peter and the two sons of Zebedee, and began to be sorrowful and very heavy.",
+      "ct": "He took Peter and the 2 sons of Zebedee with him, and he became overwhelmed with grief and anguish."
+    },
+    {
+      "verse": 38,
+      "kjv": "Then saith he unto them, My soul is exceeding sorrowful, even unto death: tarry ye here, and watch with me.",
+      "ct": "He said to them, \"My soul is crushed with sorrow to the point of death. Stay here and keep watch with me.\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And he went a little farther, and fell on his face, and prayed, saying, O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt.",
+      "ct": "Going a little farther, he dropped to the ground face-down and prayed, \"My Father, if there is any way, take this cup of suffering away from me. Yet not what I want, but what you want.\""
+    },
+    {
+      "verse": 40,
+      "kjv": "And he cometh unto the disciples, and findeth them asleep, and saith unto Peter, What, could ye not watch with me one hour?",
+      "ct": "He came back to the disciples and found them sleeping. He said to Peter, \"Couldn't you stay awake with me for even 1 hour?"
+    },
+    {
+      "verse": 41,
+      "kjv": "Watch and pray, that ye enter not into temptation: the spirit indeed is willing, but the flesh is weak.",
+      "ct": "Stay awake and pray so that you don't give in to temptation. Your spirit is eager, but your body is weak.\""
+    },
+    {
+      "verse": 42,
+      "kjv": "He went away again the second time, and prayed, saying, O my Father, if this cup may not pass away from me, except I drink it, thy will be done.",
+      "ct": "He went away a second time and prayed, \"My Father, if this cup cannot be taken away unless I drink it, then let your will be done.\""
+    },
+    {
+      "verse": 43,
+      "kjv": "And he came and found them asleep again: for their eyes were heavy.",
+      "ct": "When he returned, he found them sleeping again, because their eyes were heavy with exhaustion."
+    },
+    {
+      "verse": 44,
+      "kjv": "And he left them, and went away again, and prayed the third time, saying the same words.",
+      "ct": "So he left them, went away once more, and prayed a third time, using the same words."
+    },
+    {
+      "verse": 45,
+      "kjv": "Then cometh he to his disciples, and saith unto them, Sleep on now, and take your rest: behold, the hour is at hand, and the Son of man is betrayed into the hands of sinners.",
+      "ct": "Then he came back to the disciples and said, \"Are you still sleeping and resting? Look — the hour has arrived, and the Son of Man is being handed over to sinners."
+    },
+    {
+      "verse": 46,
+      "kjv": "Rise, let us be going: behold, he is at hand that doth betray me.",
+      "ct": "Get up, let's go! See — my betrayer is here.\""
+    },
+    {
+      "verse": 47,
+      "kjv": "And while he yet spake, lo, Judas, one of the twelve, came, and with him a great multitude with swords and staves, from the chief priests and elders of the people.",
+      "ct": "While he was still speaking, Judas — one of the 12 — arrived, and with him was a large crowd carrying swords and clubs, sent by the chief priests and elders of the people."
+    },
+    {
+      "verse": 48,
+      "kjv": "Now he that betrayed him gave them a sign, saying, Whomsoever I shall kiss, that same is he: hold him fast.",
+      "ct": "Now the betrayer had arranged a signal with them: \"The one I kiss is the man you want. Grab him.\""
+    },
+    {
+      "verse": 49,
+      "kjv": "And forthwith he came to Jesus, and said, Hail, master; and kissed him.",
+      "ct": "He went straight to Jesus and said, \"Greetings, Rabbi!\" and kissed him."
+    },
+    {
+      "verse": 50,
+      "kjv": "And Jesus said unto him, Friend, wherefore art thou come? Then came they, and laid hands on Jesus, and took him.",
+      "ct": "Jesus said to him, \"Friend, do what you came here to do.\" Then the men stepped forward, seized Jesus, and arrested him."
+    },
+    {
+      "verse": 51,
+      "kjv": "And, behold, one of them which were with Jesus stretched out his hand, and drew his sword, and struck a servant of the high priest’s, and smote off his ear.",
+      "ct": "At that moment, one of those with Jesus reached for his sword, pulled it out, and struck the high priest's servant, cutting off his ear."
+    },
+    {
+      "verse": 52,
+      "kjv": "Then said Jesus unto him, Put up again thy sword into his place: for all they that take the sword shall perish with the sword.",
+      "ct": "Jesus told him, \"Put your sword back where it belongs. Everyone who relies on the sword will die by the sword."
+    },
+    {
+      "verse": 53,
+      "kjv": "Thinkest thou that I cannot now pray to my Father, and he shall presently give me more than twelve legions of angels?",
+      "ct": "Do you think I couldn't ask my Father right now, and he would immediately send me more than 12 legions of angels?"
+    },
+    {
+      "verse": 54,
+      "kjv": "But how then shall the scriptures be fulfilled, that thus it must be?",
+      "ct": "But then how would the Scriptures be fulfilled that say it must happen this way?\""
+    },
+    {
+      "verse": 55,
+      "kjv": "In that same hour said Jesus to the multitudes, Are ye come out as against a thief with swords and staves for to take me? I sat daily with you teaching in the temple, and ye laid no hold on me.",
+      "ct": "At that moment, Jesus addressed the crowd: \"Have you come out with swords and clubs to capture me, as if I were a criminal? Day after day I sat teaching in the temple, and you never arrested me."
+    },
+    {
+      "verse": 56,
+      "kjv": "But all this was done, that the scriptures of the prophets might be fulfilled. Then all the disciples forsook him, and fled.",
+      "ct": "But all of this has happened so that the writings of the prophets would be fulfilled.\" Then all the disciples abandoned him and ran away."
+    },
+    {
+      "verse": 57,
+      "kjv": "And they that had laid hold on Jesus led him away to Caiaphas the high priest, where the scribes and the elders were assembled.",
+      "ct": "Those who had arrested Jesus brought him to Caiaphas the high priest, where the legal experts and the elders had already gathered."
+    },
+    {
+      "verse": 58,
+      "kjv": "But Peter followed him afar off unto the high priest’s palace, and went in, and sat with the servants, to see the end.",
+      "ct": "Peter followed at a distance all the way to the high priest's courtyard. He went inside and sat down with the guards to see how things would end."
+    },
+    {
+      "verse": 59,
+      "kjv": "Now the chief priests, and elders, and all the council, sought false witness against Jesus, to put him to death;",
+      "ct": "The chief priests, the elders, and the entire ruling council were searching for false testimony against Jesus so they could execute him."
+    },
+    {
+      "verse": 60,
+      "kjv": "But found none: yea, though many false witnesses came, yet found they none. At the last came two false witnesses,",
+      "ct": "But they couldn't find any, even though many people came forward with false accusations. Finally, 2 witnesses stepped forward"
+    },
+    {
+      "verse": 61,
+      "kjv": "And said, This fellow said, I am able to destroy the temple of God, and to build it in three days.",
+      "ct": "and declared, \"This man said, 'I am able to tear down God's temple and rebuild it in 3 days.'\""
+    },
+    {
+      "verse": 62,
+      "kjv": "And the high priest arose, and said unto him, Answerest thou nothing? what is it which these witness against thee?",
+      "ct": "The high priest stood up and demanded, \"Don't you have anything to say? What about these accusations against you?\""
+    },
+    {
+      "verse": 63,
+      "kjv": "But Jesus held his peace. And the high priest answered and said unto him, I adjure thee by the living God, that thou tell us whether thou be the Christ, the Son of God.",
+      "ct": "But Jesus remained silent. The high priest said to him, \"I command you under oath by the living God — tell us if you are the Christ, the Son of God.\""
+    },
+    {
+      "verse": 64,
+      "kjv": "Jesus saith unto him, Thou hast said: nevertheless I say unto you, Hereafter shall ye see the Son of man sitting on the right hand of power, and coming in the clouds of heaven.",
+      "ct": "Jesus replied, \"You have said it yourself. But I tell you, from now on you will see the Son of Man seated at the right hand of the Mighty One, coming on the clouds of heaven.\""
+    },
+    {
+      "verse": 65,
+      "kjv": "Then the high priest rent his clothes, saying, He hath spoken blasphemy; what further need have we of witnesses? behold, now ye have heard his blasphemy.",
+      "ct": "At this, the high priest tore his clothes in grief and declared, \"He has spoken blasphemy! Why do we need any more witnesses? You have just heard his blasphemy!"
+    },
+    {
+      "verse": 66,
+      "kjv": "What think ye? They answered and said, He is guilty of death.",
+      "ct": "What is your verdict?\" They answered, \"He deserves death.\""
+    },
+    {
+      "verse": 67,
+      "kjv": "Then did they spit in his face, and buffeted him; and others smote him with the palms of their hands,",
+      "ct": "Then they spit in his face and punched him. Others slapped him"
+    },
+    {
+      "verse": 68,
+      "kjv": "Saying, Prophesy unto us, thou Christ, Who is he that smote thee?",
+      "ct": "and said, \"Prophesy to us, Christ! Who just hit you?\""
+    },
+    {
+      "verse": 69,
+      "kjv": "Now Peter sat without in the palace: and a damsel came unto him, saying, Thou also wast with Jesus of Galilee.",
+      "ct": "Meanwhile, Peter was sitting outside in the courtyard. A servant girl came up to him and said, \"You were with Jesus the Galilean too.\""
+    },
+    {
+      "verse": 70,
+      "kjv": "But he denied before them all, saying, I know not what thou sayest.",
+      "ct": "But he denied it in front of everyone, saying, \"I don't know what you're talking about.\""
+    },
+    {
+      "verse": 71,
+      "kjv": "And when he was gone out into the porch, another maid saw him, and said unto them that were there, This fellow was also with Jesus of Nazareth.",
+      "ct": "When he moved out to the gateway, another servant girl noticed him and told the people standing there, \"This man was with Jesus of Nazareth.\""
+    },
+    {
+      "verse": 72,
+      "kjv": "And again he denied with an oath, I do not know the man.",
+      "ct": "Again he denied it, this time with an oath: \"I don't know the man!\""
+    },
+    {
+      "verse": 73,
+      "kjv": "And after a while came unto him they that stood by, and said to Peter, Surely thou also art one of them; for thy speech bewrayeth thee.",
+      "ct": "A little later, some bystanders approached Peter and said, \"You definitely are one of them — your accent gives you away.\""
+    },
+    {
+      "verse": 74,
+      "kjv": "Then began he to curse and to swear, saying, I know not the man. And immediately the cock crew.",
+      "ct": "Then he started calling down curses on himself and swearing, \"I don't know the man!\" Right then, the rooster crowed."
+    },
+    {
+      "verse": 75,
+      "kjv": "And Peter remembered the word of Jesus, which said unto him, Before the cock crow, thou shalt deny me thrice. And he went out, and wept bitterly.",
+      "ct": "Peter remembered what Jesus had told him: \"Before the rooster crows, you will deny me 3 times.\" He went outside and cried uncontrollably."
+    }
+  ]
+}

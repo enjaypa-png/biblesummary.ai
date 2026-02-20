@@ -1,0 +1,175 @@
+{
+  "book": "john",
+  "book_name": "John",
+  "chapter": 16,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.368Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "These things have I spoken unto you, that ye should not be offended.",
+      "ct": "\"I've told you all of this so that you won't fall away."
+    },
+    {
+      "verse": 2,
+      "kjv": "They shall put you out of the synagogues: yea, the time cometh, that whosoever killeth you will think that he doeth God service.",
+      "ct": "They will ban you from the synagogues. In fact, a time is coming when people who kill you will believe they are serving God."
+    },
+    {
+      "verse": 3,
+      "kjv": "And these things will they do unto you, because they have not known the Father, nor me.",
+      "ct": "They will do these things because they have never truly known the Father or me."
+    },
+    {
+      "verse": 4,
+      "kjv": "But these things have I told you, that when the time shall come, ye may remember that I told you of them. And these things I said not unto you at the beginning, because I was with you.",
+      "ct": "But I've warned you about this so that when the time arrives, you'll remember that I told you. I didn't mention these things earlier because I was still with you."
+    },
+    {
+      "verse": 5,
+      "kjv": "But now I go my way to him that sent me; and none of you asketh me, Whither goest thou?",
+      "ct": "Now I'm going back to the one who sent me, and none of you is asking me, 'Where are you going?'"
+    },
+    {
+      "verse": 6,
+      "kjv": "But because I have said these things unto you, sorrow hath filled your heart.",
+      "ct": "Instead, because I've said all this, grief has filled your hearts."
+    },
+    {
+      "verse": 7,
+      "kjv": "Nevertheless I tell you the truth; It is expedient for you that I go away: for if I go not away, the Comforter will not come unto you; but if I depart, I will send him unto you.",
+      "ct": "But I'm telling you the truth — it's actually better for you that I leave. If I don't go, the Comforter won't come to you. But when I leave, I will send him to you."
+    },
+    {
+      "verse": 8,
+      "kjv": "And when he is come, he will reprove the world of sin, and of righteousness, and of judgment:",
+      "ct": "When he comes, he will convict the world regarding sin, regarding righteousness, and regarding judgment."
+    },
+    {
+      "verse": 9,
+      "kjv": "Of sin, because they believe not on me;",
+      "ct": "Regarding sin, because they don't believe in me."
+    },
+    {
+      "verse": 10,
+      "kjv": "Of righteousness, because I go to my Father, and ye see me no more;",
+      "ct": "Regarding righteousness, because I'm going to the Father and you won't see me anymore."
+    },
+    {
+      "verse": 11,
+      "kjv": "Of judgment, because the prince of this world is judged.",
+      "ct": "Regarding judgment, because the ruler of this world has been condemned."
+    },
+    {
+      "verse": 12,
+      "kjv": "I have yet many things to say unto you, but ye cannot bear them now.",
+      "ct": "\"I still have so much more to tell you, but you can't handle it right now."
+    },
+    {
+      "verse": 13,
+      "kjv": "Howbeit when he, the Spirit of truth, is come, he will guide you into all truth: for he shall not speak of himself; but whatsoever he shall hear, that shall he speak: and he will shew you things to come.",
+      "ct": "But when the Spirit of truth comes, he will lead you into all truth. He won't speak on his own authority — he will speak only what he hears, and he will reveal to you what is coming."
+    },
+    {
+      "verse": 14,
+      "kjv": "He shall glorify me: for he shall receive of mine, and shall shew it unto you.",
+      "ct": "He will bring glory to me, because he will take what is mine and make it known to you."
+    },
+    {
+      "verse": 15,
+      "kjv": "All things that the Father hath are mine: therefore said I, that he shall take of mine, and shall shew it unto you.",
+      "ct": "Everything the Father has belongs to me. That's why I said the Spirit will take what is mine and make it known to you."
+    },
+    {
+      "verse": 16,
+      "kjv": "A little while, and ye shall not see me: and again, a little while, and ye shall see me, because I go to the Father.",
+      "ct": "\"In a short time you won't see me anymore, and then after another short time you will see me again, because I'm going to the Father.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Then said some of his disciples among themselves, What is this that he saith unto us, A little while, and ye shall not see me: and again, a little while, and ye shall see me: and, Because I go to the Father?",
+      "ct": "Some of his disciples said to each other, \"What does he mean when he says, 'In a short time you won't see me, and then after another short time you will see me,' and 'because I'm going to the Father'?\""
+    },
+    {
+      "verse": 18,
+      "kjv": "They said therefore, What is this that he saith, A little while? we cannot tell what he saith.",
+      "ct": "They kept asking, \"What does he mean by 'a short time'? We don't understand what he's talking about.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Now Jesus knew that they were desirous to ask him, and said unto them, Do ye enquire among yourselves of that I said, A little while, and ye shall not see me: and again, a little while, and ye shall see me?",
+      "ct": "Jesus realized they wanted to ask him about this, so he said to them, \"Are you trying to figure out what I meant when I said, 'In a short time you won't see me, and then after another short time you will see me'?"
+    },
+    {
+      "verse": 20,
+      "kjv": "Verily, verily, I say unto you, That ye shall weep and lament, but the world shall rejoice: and ye shall be sorrowful, but your sorrow shall be turned into joy.",
+      "ct": "I tell you the absolute truth: you will cry and mourn while the world celebrates. You will be filled with grief, but your grief will be transformed into joy."
+    },
+    {
+      "verse": 21,
+      "kjv": "A woman when she is in travail hath sorrow, because her hour is come: but as soon as she is delivered of the child, she remembereth no more the anguish, for joy that a man is born into the world.",
+      "ct": "When a woman is in labor, she suffers because her time has come. But once the baby is born, she forgets the pain because of her joy that a child has come into the world."
+    },
+    {
+      "verse": 22,
+      "kjv": "And ye now therefore have sorrow: but I will see you again, and your heart shall rejoice, and your joy no man taketh from you.",
+      "ct": "So right now you are grieving, but I will see you again, and your hearts will be filled with joy — and no one will be able to take that joy from you."
+    },
+    {
+      "verse": 23,
+      "kjv": "And in that day ye shall ask me nothing. Verily, verily, I say unto you, Whatsoever ye shall ask the Father in my name, he will give it you.",
+      "ct": "On that day you won't need to ask me anything. I tell you the absolute truth: whatever you ask the Father in my name, he will give it to you."
+    },
+    {
+      "verse": 24,
+      "kjv": "Hitherto have ye asked nothing in my name: ask, and ye shall receive, that your joy may be full.",
+      "ct": "Up to now you haven't asked for anything in my name. Ask, and you will receive, so that your joy will be complete."
+    },
+    {
+      "verse": 25,
+      "kjv": "These things have I spoken unto you in proverbs: but the time cometh, when I shall no more speak unto you in proverbs, but I shall shew you plainly of the Father.",
+      "ct": "\"I've been speaking to you in figurative language, but a time is coming when I won't use figures of speech anymore. Instead, I will tell you about the Father in plain terms."
+    },
+    {
+      "verse": 26,
+      "kjv": "At that day ye shall ask in my name: and I say not unto you, that I will pray the Father for you:",
+      "ct": "On that day you will ask in my name. I'm not saying that I will petition the Father on your behalf,"
+    },
+    {
+      "verse": 27,
+      "kjv": "For the Father himself loveth you, because ye have loved me, and have believed that I came out from God.",
+      "ct": "because the Father himself loves you. He loves you because you have loved me and have believed that I came from God."
+    },
+    {
+      "verse": 28,
+      "kjv": "I came forth from the Father, and am come into the world: again, I leave the world, and go to the Father.",
+      "ct": "I came from the Father and entered the world. Now I'm leaving the world and going back to the Father.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "His disciples said unto him, Lo, now speakest thou plainly, and speakest no proverb.",
+      "ct": "His disciples said, \"Now you're speaking plainly and not using figurative language!"
+    },
+    {
+      "verse": 30,
+      "kjv": "Now are we sure that thou knowest all things, and needest not that any man should ask thee: by this we believe that thou camest forth from God.",
+      "ct": "Now we're certain that you know everything and don't even need anyone to ask you questions. This convinces us that you came from God.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "Jesus answered them, Do ye now believe?",
+      "ct": "Jesus responded, \"Do you finally believe?"
+    },
+    {
+      "verse": 32,
+      "kjv": "Behold, the hour cometh, yea, is now come, that ye shall be scattered, every man to his own, and shall leave me alone: and yet I am not alone, because the Father is with me.",
+      "ct": "Pay attention — a time is coming, and has already arrived, when you will all be scattered, each going your own way, and you will leave me by myself. Yet I'm not truly alone, because the Father is with me."
+    },
+    {
+      "verse": 33,
+      "kjv": "These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.",
+      "ct": "I've told you all of this so that you can have peace through me. In this world you will face suffering. But take courage — I have conquered the world.\""
+    }
+  ]
+}

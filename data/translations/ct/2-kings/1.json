@@ -1,0 +1,100 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 1,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.787Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then Moab rebelled against Israel after the death of Ahab.",
+      "ct": "After Ahab died, Moab rebelled against Israel."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Ahaziah fell down through a lattice in his upper chamber that was in Samaria, and was sick: and he sent messengers, and said unto them, Go, enquire of Baalzebub the god of Ekron whether I shall recover of this disease.",
+      "ct": "Ahaziah fell through the latticed railing of his upper room in Samaria and was seriously injured. He sent messengers and told them, \"Go ask Baalzebub, the god of Ekron, whether I will recover from this injury.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "But the angel of the LORD said to Elijah the Tishbite, Arise, go up to meet the messengers of the king of Samaria, and say unto them, Is it not because there is not a God in Israel, that ye go to enquire of Baalzebub the god of Ekron?",
+      "ct": "But the angel of the LORD told Elijah the Tishbite, \"Get up and go intercept the messengers of the king of Samaria. Say to them, 'Is there no God in Israel? Is that why you're going to consult Baalzebub, the god of Ekron?'\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Now therefore thus saith the LORD, Thou shalt not come down from that bed on which thou art gone up, but shalt surely die. And Elijah departed.",
+      "ct": "\"So this is what the LORD says: You will never get up from the bed you're lying on — you will certainly die.\" Then Elijah left."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when the messengers turned back unto him, he said unto them, Why are ye now turned back?",
+      "ct": "When the messengers returned to Ahaziah, he asked them, \"Why have you come back so soon?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And they said unto him, There came a man up to meet us, and said unto us, Go, turn again unto the king that sent you, and say unto him, Thus saith the LORD, Is it not because there is not a God in Israel, that thou sendest to enquire of Baalzebub the god of Ekron? therefore thou shalt not come down from that bed on which thou art gone up, but shalt surely die.",
+      "ct": "They answered him, \"A man came to meet us and said, 'Go back to the king who sent you and tell him this is what the LORD says: Is there no God in Israel? Is that why you're sending people to consult Baalzebub, the god of Ekron? Because of this, you will never get up from the bed you're lying on — you will certainly die.'\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And he said unto them, What manner of man was he which came up to meet you, and told you these words?",
+      "ct": "The king asked them, \"What did this man look like — the one who met you and told you all this?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And they answered him, He was an hairy man, and girt with a girdle of leather about his loins. And he said, It is Elijah the Tishbite.",
+      "ct": "They replied, \"He was a man with a lot of hair, wearing a leather belt around his waist.\" The king said, \"That's Elijah the Tishbite.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Then the king sent unto him a captain of fifty with his fifty. And he went up to him: and, behold, he sat on the top of an hill. And he spake unto him, Thou man of God, the king hath said, Come down.",
+      "ct": "Then the king sent a military captain with 50 soldiers to get him. The captain went up to where Elijah was sitting on top of a hill and said to him, \"Man of God, the king commands you to come down.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And Elijah answered and said to the captain of fifty, If I be a man of God, then let fire come down from heaven, and consume thee and thy fifty. And there came down fire from heaven, and consumed him and his fifty.",
+      "ct": "Elijah responded to the captain, \"If I really am a man of God, then let fire come down from heaven and consume you and your 50 soldiers.\" Immediately fire came down from heaven and consumed him and his 50 soldiers."
+    },
+    {
+      "verse": 11,
+      "kjv": "Again also he sent unto him another captain of fifty with his fifty. And he answered and said unto him, O man of God, thus hath the king said, Come down quickly.",
+      "ct": "So the king sent another captain with 50 more soldiers. This captain called out to him, \"Man of God, the king says come down right now!\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And Elijah answered and said unto them, If I be a man of God, let fire come down from heaven, and consume thee and thy fifty. And the fire of God came down from heaven, and consumed him and his fifty.",
+      "ct": "Elijah answered them, \"If I really am a man of God, let fire come down from heaven and consume you and your 50 soldiers.\" The fire of God came down from heaven and consumed him and his 50 soldiers."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he sent again a captain of the third fifty with his fifty. And the third captain of fifty went up, and came and fell on his knees before Elijah, and besought him, and said unto him, O man of God, I pray thee, let my life, and the life of these fifty thy servants, be precious in thy sight.",
+      "ct": "The king sent a third captain with 50 soldiers. This third captain climbed up, dropped to his knees in front of Elijah, and pleaded with him, \"Man of God, please — let my life and the lives of these 50 servants of yours be valuable to you.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Behold, there came fire down from heaven, and burnt up the two captains of the former fifties with their fifties: therefore let my life now be precious in thy sight.",
+      "ct": "\"Fire already came down from heaven and destroyed the first 2 captains and their groups of 50. But please, let my life be valuable to you.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And the angel of the LORD said unto Elijah, Go down with him: be not afraid of him. And he arose, and went down with him unto the king.",
+      "ct": "The angel of the LORD told Elijah, \"Go down with him. Don't be afraid of him.\" So Elijah got up and went down with the captain to the king."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he said unto him, Thus saith the LORD, Forasmuch as thou hast sent messengers to enquire of Baalzebub the god of Ekron, is it not because there is no God in Israel to enquire of his word? therefore thou shalt not come down off that bed on which thou art gone up, but shalt surely die.",
+      "ct": "Elijah told the king, \"This is what the LORD says: Because you sent messengers to consult Baalzebub, the god of Ekron — as if there were no God in Israel whose word you could seek — you will never get up from the bed you're lying on. You will certainly die.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "So he died according to the word of the LORD which Elijah had spoken. And Jehoram reigned in his stead in the second year of Jehoram the son of Jehoshaphat king of Judah; because he had no son.",
+      "ct": "So Ahaziah died, just as the LORD had declared through Elijah. Since Ahaziah had no son, Jehoram succeeded him as king. This happened during the 2nd year of Jehoram son of Jehoshaphat, king of Judah."
+    },
+    {
+      "verse": 18,
+      "kjv": "Now the rest of the acts of Ahaziah which he did, are they not written in the book of the chronicles of the kings of Israel?",
+      "ct": "Everything else that Ahaziah did is recorded in the official history of the kings of Israel."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "book": "1-corinthians",
+  "book_name": "1 Corinthians",
+  "chapter": 4,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.414Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God.",
+      "ct": "So think of us as servants of Christ and as managers entrusted with the mysteries of God."
+    },
+    {
+      "verse": 2,
+      "kjv": "Moreover it is required in stewards, that a man be found faithful.",
+      "ct": "Now, the one thing expected of such managers is that they prove themselves trustworthy."
+    },
+    {
+      "verse": 3,
+      "kjv": "But with me it is a very small thing that I should be judged of you, or of man’s judgment: yea, I judge not mine own self.",
+      "ct": "Personally, it matters very little to me whether you or any human court evaluates me. I don't even evaluate myself."
+    },
+    {
+      "verse": 4,
+      "kjv": "For I know nothing by myself; yet am I not hereby justified: but he that judgeth me is the Lord.",
+      "ct": "My conscience is clear, but that doesn't prove I'm in the right. The Lord is the one who evaluates me."
+    },
+    {
+      "verse": 5,
+      "kjv": "Therefore judge nothing before the time, until the Lord come, who both will bring to light the hidden things of darkness, and will make manifest the counsels of the hearts: and then shall every man have praise of God.",
+      "ct": "So don't pass judgment on anything prematurely — wait until the Lord comes. He will expose what is hidden in darkness and reveal the true motives of every heart. At that point, each person will receive their recognition from God."
+    },
+    {
+      "verse": 6,
+      "kjv": "And these things, brethren, I have in a figure transferred to myself and to Apollos for your sakes; that ye might learn in us not to think of men above that which is written, that no one of you be puffed up for one against another.",
+      "ct": "Brothers and sisters, I've applied all of this to myself and Apollos as illustrations for your benefit, so that through us you can learn the principle of not going beyond what is written. That way, none of you will become arrogant by siding with one leader against another."
+    },
+    {
+      "verse": 7,
+      "kjv": "For who maketh thee to differ from another? and what hast thou that thou didst not receive? now if thou didst receive it, why dost thou glory, as if thou hadst not received it?",
+      "ct": "Who says you're better than anyone else? What do you have that wasn't given to you? And if it was given to you, why do you brag as though you earned it yourself?"
+    },
+    {
+      "verse": 8,
+      "kjv": "Now ye are full, now ye are rich, ye have reigned as kings without us: and I would to God ye did reign, that we also might reign with you.",
+      "ct": "You already have everything you need! You're already wealthy! You've started ruling like kings — and without us! I actually wish you really were ruling, so that we could rule alongside you."
+    },
+    {
+      "verse": 9,
+      "kjv": "For I think that God hath set forth us the apostles last, as it were appointed to death: for we are made a spectacle unto the world, and to angels, and to men.",
+      "ct": "Instead, it seems to me that God has put us apostles on display at the very end of the line, like prisoners sentenced to die. We've become a spectacle to the whole world — to angels and to people alike."
+    },
+    {
+      "verse": 10,
+      "kjv": "We are fools for Christ’s sake, but ye are wise in Christ; we are weak, but ye are strong; ye are honourable, but we are despised.",
+      "ct": "We are considered fools for the sake of Christ, but you are so wise in Christ. We are weak, but you are strong. You are respected, but we are looked down on."
+    },
+    {
+      "verse": 11,
+      "kjv": "Even unto this present hour we both hunger, and thirst, and are naked, and are buffeted, and have no certain dwellingplace;",
+      "ct": "Right up to this very moment, we go hungry and thirsty, we're poorly clothed, we're beaten, and we have no permanent home."
+    },
+    {
+      "verse": 12,
+      "kjv": "And labour, working with our own hands: being reviled, we bless; being persecuted, we suffer it:",
+      "ct": "We work hard with our own hands to support ourselves. When people insult us, we respond with blessing. When we're persecuted, we endure it."
+    },
+    {
+      "verse": 13,
+      "kjv": "Being defamed, we intreat: we are made as the filth of the world, and are the offscouring of all things unto this day.",
+      "ct": "When we're slandered, we answer gently. To this day, we've been treated like the garbage of the world — the scum that everyone scrapes off."
+    },
+    {
+      "verse": 14,
+      "kjv": "I write not these things to shame you, but as my beloved sons I warn you.",
+      "ct": "I'm not writing this to embarrass you. Instead, I'm warning you as my dear children."
+    },
+    {
+      "verse": 15,
+      "kjv": "For though ye have ten thousand instructors in Christ, yet have ye not many fathers: for in Christ Jesus I have begotten you through the gospel.",
+      "ct": "Even if you had 10,000 tutors in Christ, you don't have many fathers. I became your father in Christ Jesus when I brought you the good news."
+    },
+    {
+      "verse": 16,
+      "kjv": "Wherefore I beseech you, be ye followers of me.",
+      "ct": "That is why I urge you: follow my example."
+    },
+    {
+      "verse": 17,
+      "kjv": "For this cause have I sent unto you Timotheus, who is my beloved son, and faithful in the Lord, who shall bring you into remembrance of my ways which be in Christ, as I teach every where in every church.",
+      "ct": "This is exactly why I'm sending Timothy to you. He is my dear and faithful son in the Lord. He will remind you of how I live in Christ — the same way I teach in every church everywhere."
+    },
+    {
+      "verse": 18,
+      "kjv": "Now some are puffed up, as though I would not come to you.",
+      "ct": "Some of you have become arrogant, acting as if I'm never going to visit you."
+    },
+    {
+      "verse": 19,
+      "kjv": "But I will come to you shortly, if the Lord will, and will know, not the speech of them which are puffed up, but the power.",
+      "ct": "But I will come to you soon, if the Lord is willing. And when I do, I won't be interested in the impressive speeches of these arrogant people — I'll be looking at their power."
+    },
+    {
+      "verse": 20,
+      "kjv": "For the kingdom of God is not in word, but in power.",
+      "ct": "Because the kingdom of God isn't about talk — it's about power."
+    },
+    {
+      "verse": 21,
+      "kjv": "What will ye? shall I come unto you with a rod, or in love, and in the spirit of meekness?",
+      "ct": "Which do you prefer? Should I come to you with a rod of discipline, or with love and a gentle spirit?"
+    }
+  ]
+}

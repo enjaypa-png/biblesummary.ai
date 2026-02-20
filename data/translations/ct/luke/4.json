@@ -1,0 +1,230 @@
+{
+  "book": "luke",
+  "book_name": "Luke",
+  "chapter": 4,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.329Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Jesus being full of the Holy Ghost returned from Jordan, and was led by the Spirit into the wilderness,",
+      "ct": "Jesus, filled with the Holy Spirit, came back from the Jordan River and was led by the Spirit out into the wilderness."
+    },
+    {
+      "verse": 2,
+      "kjv": "Being forty days tempted of the devil. And in those days he did eat nothing: and when they were ended, he afterward hungered.",
+      "ct": "For 40 days the devil tested him there. He ate nothing during that entire time, and when it was over, he was starving."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the devil said unto him, If thou be the Son of God, command this stone that it be made bread.",
+      "ct": "The devil said to him, \"If you are the Son of God, tell this stone to turn into bread.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Jesus answered him, saying, It is written, That man shall not live by bread alone, but by every word of God.",
+      "ct": "Jesus replied, \"Scripture says, 'A person cannot survive on bread alone, but on every word of God.'\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And the devil, taking him up into an high mountain, shewed unto him all the kingdoms of the world in a moment of time.",
+      "ct": "Then the devil brought him up to a high mountain and showed him all the kingdoms of the world in a single instant."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the devil said unto him, All this power will I give thee, and the glory of them: for that is delivered unto me; and to whomsoever I will I give it.",
+      "ct": "The devil told him, \"I will hand over all this authority and glory to you, because it has been given to me, and I can give it to anyone I choose.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "If thou therefore wilt worship me, all shall be thine.",
+      "ct": "\"So if you bow down and worship me, it will all be yours.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Jesus answered and said unto him, Get thee behind me, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve.",
+      "ct": "Jesus answered him, \"Get away from me, Satan! Scripture says, 'You must worship the Lord your God and serve only him.'\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And he brought him to Jerusalem, and set him on a pinnacle of the temple, and said unto him, If thou be the Son of God, cast thyself down from hence:",
+      "ct": "Then the devil took him to Jerusalem, stood him on the highest point of the temple, and said, \"If you are the Son of God, throw yourself down from here.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "For it is written, He shall give his angels charge over thee, to keep thee:",
+      "ct": "\"After all, Scripture says, 'He will command his angels to watch over you and protect you.'\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.",
+      "ct": "\"'They will carry you in their hands so that you won't even stub your foot on a stone.'\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And Jesus answering said unto him, It is said, Thou shalt not tempt the Lord thy God.",
+      "ct": "Jesus responded, \"It also says, 'You must not put the Lord your God to the test.'\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And when the devil had ended all the temptation, he departed from him for a season.",
+      "ct": "After the devil had exhausted every kind of temptation, he left Jesus alone until a more opportune time."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Jesus returned in the power of the Spirit into Galilee: and there went out a fame of him through all the region round about.",
+      "ct": "Jesus returned to Galilee in the power of the Spirit, and news about him spread throughout the entire surrounding region."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he taught in their synagogues, being glorified of all.",
+      "ct": "He taught in their synagogues, and everyone praised him."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he came to Nazareth, where he had been brought up: and, as his custom was, he went into the synagogue on the sabbath day, and stood up for to read.",
+      "ct": "He traveled to Nazareth, where he had grown up. On the Sabbath, he went to the synagogue as he always did and stood up to read."
+    },
+    {
+      "verse": 17,
+      "kjv": "And there was delivered unto him the book of the prophet Esaias. And when he had opened the book, he found the place where it was written,",
+      "ct": "The scroll of the prophet Isaiah was handed to him. He unrolled it and found the passage that said:"
+    },
+    {
+      "verse": 18,
+      "kjv": "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised,",
+      "ct": "\"The Spirit of the Lord rests on me, because he has anointed me to bring good news to the poor. He has sent me to heal the brokenhearted, to announce freedom for prisoners, to restore sight to the blind, and to release those who are oppressed,\""
+    },
+    {
+      "verse": 19,
+      "kjv": "To preach the acceptable year of the Lord.",
+      "ct": "\"and to proclaim the year of the Lord's favor.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And he closed the book, and he gave it again to the minister, and sat down. And the eyes of all them that were in the synagogue were fastened on him.",
+      "ct": "Then he rolled up the scroll, gave it back to the attendant, and sat down. Everyone in the synagogue stared at him intently."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he began to say unto them, This day is this scripture fulfilled in your ears.",
+      "ct": "He began by telling them, \"Today, this Scripture has been fulfilled as you listened.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And all bare him witness, and wondered at the gracious words which proceeded out of his mouth. And they said, Is not this Joseph’s son?",
+      "ct": "Everyone spoke well of him and was amazed at the gracious words coming from his mouth. But they asked, \"Isn't this just Joseph's son?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And he said unto them, Ye will surely say unto me this proverb, Physician, heal thyself: whatsoever we have heard done in Capernaum, do also here in thy country.",
+      "ct": "He said to them, \"No doubt you'll quote this proverb at me: 'Doctor, cure yourself!' You'll say, 'Do the same things here in your hometown that we heard you did in Capernaum.'\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And he said, Verily I say unto you, No prophet is accepted in his own country.",
+      "ct": "Then he said, \"Truly I tell you, no prophet is welcomed in his own hometown.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "But I tell you of a truth, many widows were in Israel in the days of Elias, when the heaven was shut up three years and six months, when great famine was throughout all the land;",
+      "ct": "\"But let me remind you — there were many widows in Israel during the time of Elijah, when the heavens were shut for 3 years and 6 months and a severe famine struck the whole land.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "But unto none of them was Elias sent, save unto Sarepta, a city of Sidon, unto a woman that was a widow.",
+      "ct": "\"Yet Elijah was not sent to any of them. Instead, he was sent to a widow in Sarepta, in the region of Sidon.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And many lepers were in Israel in the time of Eliseus the prophet; and none of them was cleansed, saving Naaman the Syrian.",
+      "ct": "\"There were also many people with leprosy in Israel during the time of the prophet Eliseus, yet not one of them was healed — only Naaman the Syrian.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And all they in the synagogue, when they heard these things, were filled with wrath,",
+      "ct": "When everyone in the synagogue heard this, they were furious."
+    },
+    {
+      "verse": 29,
+      "kjv": "And rose up, and thrust him out of the city, and led him unto the brow of the hill whereon their city was built, that they might cast him down headlong.",
+      "ct": "They jumped to their feet, forced him out of the city, and dragged him to the edge of the hill their town was built on, intending to throw him off the cliff."
+    },
+    {
+      "verse": 30,
+      "kjv": "But he passing through the midst of them went his way,",
+      "ct": "But he walked right through the middle of the crowd and went on his way."
+    },
+    {
+      "verse": 31,
+      "kjv": "And came down to Capernaum, a city of Galilee, and taught them on the sabbath days.",
+      "ct": "He went down to Capernaum, a city in Galilee, and taught the people on the Sabbath."
+    },
+    {
+      "verse": 32,
+      "kjv": "And they were astonished at his doctrine: for his word was with power.",
+      "ct": "They were amazed at his teaching because his words carried real authority."
+    },
+    {
+      "verse": 33,
+      "kjv": "And in the synagogue there was a man, which had a spirit of an unclean devil, and cried out with a loud voice,",
+      "ct": "In the synagogue there was a man possessed by an unclean demonic spirit, and he screamed out loudly,"
+    },
+    {
+      "verse": 34,
+      "kjv": "Saying, Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art; the Holy One of God.",
+      "ct": "\"Leave us alone! What do you want with us, Jesus of Nazareth? Have you come to destroy us? I know exactly who you are — the Holy One of God!\""
+    },
+    {
+      "verse": 35,
+      "kjv": "And Jesus rebuked him, saying, Hold thy peace, and come out of him. And when the devil had thrown him in the midst, he came out of him, and hurt him not.",
+      "ct": "Jesus commanded him sharply, \"Be quiet and come out of him!\" The demon threw the man down in front of everyone, then came out without injuring him."
+    },
+    {
+      "verse": 36,
+      "kjv": "And they were all amazed, and spake among themselves, saying, What a word is this! for with authority and power he commandeth the unclean spirits, and they come out.",
+      "ct": "Everyone was stunned, and they said to each other, \"What kind of message is this? He orders unclean spirits with authority and power, and they actually obey!\""
+    },
+    {
+      "verse": 37,
+      "kjv": "And the fame of him went out into every place of the country round about.",
+      "ct": "News about him spread to every part of the surrounding area."
+    },
+    {
+      "verse": 38,
+      "kjv": "And he arose out of the synagogue, and entered into Simon’s house. And Simon’s wife’s mother was taken with a great fever; and they besought him for her.",
+      "ct": "Jesus left the synagogue and went to Simon's house. Simon's mother-in-law was suffering from a severe fever, and they begged him to help her."
+    },
+    {
+      "verse": 39,
+      "kjv": "And he stood over her, and rebuked the fever; and it left her: and immediately she arose and ministered unto them.",
+      "ct": "He stood over her and rebuked the fever, and it left her. She got up right away and began serving them."
+    },
+    {
+      "verse": 40,
+      "kjv": "Now when the sun was setting, all they that had any sick with divers diseases brought them unto him; and he laid his hands on every one of them, and healed them.",
+      "ct": "As the sun was going down, people brought to him everyone who was sick with all kinds of diseases. He placed his hands on each one of them and healed them."
+    },
+    {
+      "verse": 41,
+      "kjv": "And devils also came out of many, crying out, and saying, Thou art Christ the Son of God. And he rebuking them suffered them not to speak: for they knew that he was Christ.",
+      "ct": "Demons also came out of many people, shouting, \"You are Christ, the Son of God!\" But he rebuked them and would not let them speak, because they knew he was the Christ."
+    },
+    {
+      "verse": 42,
+      "kjv": "And when it was day, he departed and went into a desert place: and the people sought him, and came unto him, and stayed him, that he should not depart from them.",
+      "ct": "At daybreak, he left and went to a remote place. The crowds searched for him, and when they found him, they tried to keep him from leaving."
+    },
+    {
+      "verse": 43,
+      "kjv": "And he said unto them, I must preach the kingdom of God to other cities also: for therefore am I sent.",
+      "ct": "But he told them, \"I have to preach the good news of the kingdom of God to other towns as well — that is the reason I was sent.\""
+    },
+    {
+      "verse": 44,
+      "kjv": "And he preached in the synagogues of Galilee.",
+      "ct": "So he continued preaching in the synagogues throughout Galilee."
+    }
+  ]
+}

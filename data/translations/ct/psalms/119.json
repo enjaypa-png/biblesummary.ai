@@ -1,0 +1,890 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 119,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:14.014Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Blessed are the undefiled in the way, who walk in the law of the LORD.",
+      "ct": "How happy are those whose lives are blameless, who live according to the LORD's instructions."
+    },
+    {
+      "verse": 2,
+      "kjv": "Blessed are they that keep his testimonies, and that seek him with the whole heart.",
+      "ct": "How happy are those who follow his rules and pursue him with complete devotion."
+    },
+    {
+      "verse": 3,
+      "kjv": "They also do no iniquity: they walk in his ways.",
+      "ct": "They commit no wrong — they follow his paths."
+    },
+    {
+      "verse": 4,
+      "kjv": "Thou hast commanded us to keep thy precepts diligently.",
+      "ct": "You have ordered us to carefully obey your guidelines."
+    },
+    {
+      "verse": 5,
+      "kjv": "O that my ways were directed to keep thy statutes!",
+      "ct": "I wish my life were firmly set on obeying your decrees!"
+    },
+    {
+      "verse": 6,
+      "kjv": "Then shall I not be ashamed, when I have respect unto all thy commandments.",
+      "ct": "Then I would never be disgraced, because I would honor all your commands."
+    },
+    {
+      "verse": 7,
+      "kjv": "I will praise thee with uprightness of heart, when I shall have learned thy righteous judgments.",
+      "ct": "I will thank you with a sincere heart as I come to understand your righteous decisions."
+    },
+    {
+      "verse": 8,
+      "kjv": "I will keep thy statutes: O forsake me not utterly.",
+      "ct": "I will follow your decrees — please don't completely abandon me."
+    },
+    {
+      "verse": 9,
+      "kjv": "Wherewithal shall a young man cleanse his way? by taking heed thereto according to thy word.",
+      "ct": "How can a young person stay on the right track? By living according to your word."
+    },
+    {
+      "verse": 10,
+      "kjv": "With my whole heart have I sought thee: O let me not wander from thy commandments.",
+      "ct": "I have pursued you with everything in me — don't let me stray from your commands."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thy word have I hid in mine heart, that I might not sin against thee.",
+      "ct": "I have stored your word deep in my heart so that I won't sin against you."
+    },
+    {
+      "verse": 12,
+      "kjv": "Blessed art thou, O LORD: teach me thy statutes.",
+      "ct": "You deserve all praise, LORD — teach me your decrees."
+    },
+    {
+      "verse": 13,
+      "kjv": "With my lips have I declared all the judgments of thy mouth.",
+      "ct": "I have spoken aloud every decision that comes from your mouth."
+    },
+    {
+      "verse": 14,
+      "kjv": "I have rejoiced in the way of thy testimonies, as much as in all riches.",
+      "ct": "Following your rules brings me as much joy as having every kind of wealth."
+    },
+    {
+      "verse": 15,
+      "kjv": "I will meditate in thy precepts, and have respect unto thy ways.",
+      "ct": "I will reflect deeply on your guidelines and pay close attention to your paths."
+    },
+    {
+      "verse": 16,
+      "kjv": "I will delight myself in thy statutes: I will not forget thy word.",
+      "ct": "I will find my pleasure in your decrees — I will never forget your word."
+    },
+    {
+      "verse": 17,
+      "kjv": "Deal bountifully with thy servant, that I may live, and keep thy word.",
+      "ct": "Be generous to your servant so that I may live and follow your word."
+    },
+    {
+      "verse": 18,
+      "kjv": "Open thou mine eyes, that I may behold wondrous things out of thy law.",
+      "ct": "Open my eyes so I can see the amazing truths in your instructions."
+    },
+    {
+      "verse": 19,
+      "kjv": "I am a stranger in the earth: hide not thy commandments from me.",
+      "ct": "I am just passing through this earth — don't keep your commands hidden from me."
+    },
+    {
+      "verse": 20,
+      "kjv": "My soul breaketh for the longing that it hath unto thy judgments at all times.",
+      "ct": "My soul aches with a constant longing for your decisions."
+    },
+    {
+      "verse": 21,
+      "kjv": "Thou hast rebuked the proud that are cursed, which do err from thy commandments.",
+      "ct": "You have confronted the arrogant — those who are cursed because they wander from your commands."
+    },
+    {
+      "verse": 22,
+      "kjv": "Remove from me reproach and contempt; for I have kept thy testimonies.",
+      "ct": "Take away the shame and disrespect I face, because I have followed your rules."
+    },
+    {
+      "verse": 23,
+      "kjv": "Princes also did sit and speak against me: but thy servant did meditate in thy statutes.",
+      "ct": "Even when rulers sat together and plotted against me, your servant kept reflecting on your decrees."
+    },
+    {
+      "verse": 24,
+      "kjv": "Thy testimonies also are my delight and my counsellors.",
+      "ct": "Your rules are my source of joy and my trusted advisors."
+    },
+    {
+      "verse": 25,
+      "kjv": "My soul cleaveth unto the dust: quicken thou me according to thy word.",
+      "ct": "I am lying face down in the dust — revive me as your word promises."
+    },
+    {
+      "verse": 26,
+      "kjv": "I have declared my ways, and thou heardest me: teach me thy statutes.",
+      "ct": "I laid out my situation before you, and you answered me — now teach me your decrees."
+    },
+    {
+      "verse": 27,
+      "kjv": "Make me to understand the way of thy precepts: so shall I talk of thy wondrous works.",
+      "ct": "Help me grasp the meaning of your guidelines, and I will talk about your incredible works."
+    },
+    {
+      "verse": 28,
+      "kjv": "My soul melteth for heaviness: strengthen thou me according unto thy word.",
+      "ct": "My soul is weighed down with grief — strengthen me as your word promises."
+    },
+    {
+      "verse": 29,
+      "kjv": "Remove from me the way of lying: and grant me thy law graciously.",
+      "ct": "Keep me far from dishonest living, and graciously give me your instructions."
+    },
+    {
+      "verse": 30,
+      "kjv": "I have chosen the way of truth: thy judgments have I laid before me.",
+      "ct": "I have committed myself to the path of truth — I have placed your decisions right in front of me."
+    },
+    {
+      "verse": 31,
+      "kjv": "I have stuck unto thy testimonies: O LORD, put me not to shame.",
+      "ct": "I hold tightly to your rules — LORD, don't let me be humiliated."
+    },
+    {
+      "verse": 32,
+      "kjv": "I will run the way of thy commandments, when thou shalt enlarge my heart.",
+      "ct": "I will eagerly pursue your commands when you expand my understanding."
+    },
+    {
+      "verse": 33,
+      "kjv": "Teach me, O LORD, the way of thy statutes; and I shall keep it unto the end.",
+      "ct": "LORD, show me how to follow your decrees, and I will keep them to the very end."
+    },
+    {
+      "verse": 34,
+      "kjv": "Give me understanding, and I shall keep thy law; yea, I shall observe it with my whole heart.",
+      "ct": "Give me insight, and I will obey your instructions — yes, I will follow them wholeheartedly."
+    },
+    {
+      "verse": 35,
+      "kjv": "Make me to go in the path of thy commandments; for therein do I delight.",
+      "ct": "Guide me along the road of your commands, because that is where I find my joy."
+    },
+    {
+      "verse": 36,
+      "kjv": "Incline my heart unto thy testimonies, and not to covetousness.",
+      "ct": "Turn my heart toward your rules and away from selfish greed."
+    },
+    {
+      "verse": 37,
+      "kjv": "Turn away mine eyes from beholding vanity; and quicken thou me in thy way.",
+      "ct": "Redirect my eyes from worthless things, and revive me through your ways."
+    },
+    {
+      "verse": 38,
+      "kjv": "Stablish thy word unto thy servant, who is devoted to thy fear.",
+      "ct": "Confirm your promise to your servant — the one who is wholeheartedly dedicated to you."
+    },
+    {
+      "verse": 39,
+      "kjv": "Turn away my reproach which I fear: for thy judgments are good.",
+      "ct": "Take away the disgrace that I dread, because your decisions are good."
+    },
+    {
+      "verse": 40,
+      "kjv": "Behold, I have longed after thy precepts: quicken me in thy righteousness.",
+      "ct": "Look — I have yearned for your guidelines. Revive me through your righteousness."
+    },
+    {
+      "verse": 41,
+      "kjv": "Let thy mercies come also unto me, O LORD, even thy salvation, according to thy word.",
+      "ct": "Let your mercy reach me, LORD — your salvation, just as your word promises."
+    },
+    {
+      "verse": 42,
+      "kjv": "So shall I have wherewith to answer him that reproacheth me: for I trust in thy word.",
+      "ct": "Then I will have an answer for anyone who mocks me, because I put my trust in your word."
+    },
+    {
+      "verse": 43,
+      "kjv": "And take not the word of truth utterly out of my mouth; for I have hoped in thy judgments.",
+      "ct": "Don't ever take the word of truth completely from my mouth, because I have placed my hope in your decisions."
+    },
+    {
+      "verse": 44,
+      "kjv": "So shall I keep thy law continually for ever and ever.",
+      "ct": "Then I will always obey your instructions, forever and ever."
+    },
+    {
+      "verse": 45,
+      "kjv": "And I will walk at liberty: for I seek thy precepts.",
+      "ct": "I will live in freedom, because I pursue your guidelines."
+    },
+    {
+      "verse": 46,
+      "kjv": "I will speak of thy testimonies also before kings, and will not be ashamed.",
+      "ct": "I will speak about your rules even in the presence of kings, and I will not be embarrassed."
+    },
+    {
+      "verse": 47,
+      "kjv": "And I will delight myself in thy commandments, which I have loved.",
+      "ct": "I find great pleasure in your commands, which I truly love."
+    },
+    {
+      "verse": 48,
+      "kjv": "My hands also will I lift up unto thy commandments, which I have loved; and I will meditate in thy statutes.",
+      "ct": "I will reach out my hands toward your commands that I love, and I will reflect deeply on your decrees."
+    },
+    {
+      "verse": 49,
+      "kjv": "Remember the word unto thy servant, upon which thou hast caused me to hope.",
+      "ct": "Remember the promise you made to your servant — the one you gave me to hope in."
+    },
+    {
+      "verse": 50,
+      "kjv": "This is my comfort in my affliction: for thy word hath quickened me.",
+      "ct": "This is what comforts me in my suffering: your word has given me life."
+    },
+    {
+      "verse": 51,
+      "kjv": "The proud have had me greatly in derision: yet have I not declined from thy law.",
+      "ct": "Arrogant people have ridiculed me relentlessly, but I have not turned away from your instructions."
+    },
+    {
+      "verse": 52,
+      "kjv": "I remembered thy judgments of old, O LORD; and have comforted myself.",
+      "ct": "I recalled your ancient decisions, LORD, and they brought me comfort."
+    },
+    {
+      "verse": 53,
+      "kjv": "Horror hath taken hold upon me because of the wicked that forsake thy law.",
+      "ct": "Burning anger grips me because of the wicked who abandon your instructions."
+    },
+    {
+      "verse": 54,
+      "kjv": "Thy statutes have been my songs in the house of my pilgrimage.",
+      "ct": "Your decrees have been the songs I sing wherever I have lived as a traveler."
+    },
+    {
+      "verse": 55,
+      "kjv": "I have remembered thy name, O LORD, in the night, and have kept thy law.",
+      "ct": "During the night I remember your name, LORD, and I follow your instructions."
+    },
+    {
+      "verse": 56,
+      "kjv": "This I had, because I kept thy precepts.",
+      "ct": "This blessing has been mine because I have obeyed your guidelines."
+    },
+    {
+      "verse": 57,
+      "kjv": "Thou art my portion, O LORD: I have said that I would keep thy words.",
+      "ct": "You are my share in life, LORD — I have promised to follow your words."
+    },
+    {
+      "verse": 58,
+      "kjv": "I intreated thy favour with my whole heart: be merciful unto me according to thy word.",
+      "ct": "I sought your favor with all my heart — show me mercy as your word promises."
+    },
+    {
+      "verse": 59,
+      "kjv": "I thought on my ways, and turned my feet unto thy testimonies.",
+      "ct": "I examined my life carefully and redirected my steps toward your rules."
+    },
+    {
+      "verse": 60,
+      "kjv": "I made haste, and delayed not to keep thy commandments.",
+      "ct": "I rushed without hesitation to obey your commands."
+    },
+    {
+      "verse": 61,
+      "kjv": "The bands of the wicked have robbed me: but I have not forgotten thy law.",
+      "ct": "The ropes of the wicked have tangled around me, but I have not forgotten your instructions."
+    },
+    {
+      "verse": 62,
+      "kjv": "At midnight I will rise to give thanks unto thee because of thy righteous judgments.",
+      "ct": "At midnight I get up to thank you for your righteous decisions."
+    },
+    {
+      "verse": 63,
+      "kjv": "I am a companion of all them that fear thee, and of them that keep thy precepts.",
+      "ct": "I am a friend to everyone who deeply reveres you and follows your guidelines."
+    },
+    {
+      "verse": 64,
+      "kjv": "The earth, O LORD, is full of thy mercy: teach me thy statutes.",
+      "ct": "The earth, LORD, is filled with your mercy — teach me your decrees."
+    },
+    {
+      "verse": 65,
+      "kjv": "Thou hast dealt well with thy servant, O LORD, according unto thy word.",
+      "ct": "You have treated your servant well, LORD, just as your word promised."
+    },
+    {
+      "verse": 66,
+      "kjv": "Teach me good judgment and knowledge: for I have believed thy commandments.",
+      "ct": "Teach me sound judgment and knowledge, because I have trusted your commands."
+    },
+    {
+      "verse": 67,
+      "kjv": "Before I was afflicted I went astray: but now have I kept thy word.",
+      "ct": "Before I went through hardship, I wandered off course, but now I follow your word."
+    },
+    {
+      "verse": 68,
+      "kjv": "Thou art good, and doest good; teach me thy statutes.",
+      "ct": "You are good, and what you do is good — teach me your decrees."
+    },
+    {
+      "verse": 69,
+      "kjv": "The proud have forged a lie against me: but I will keep thy precepts with my whole heart.",
+      "ct": "Arrogant people have smeared me with lies, but I obey your guidelines with my whole heart."
+    },
+    {
+      "verse": 70,
+      "kjv": "Their heart is as fat as grease; but I delight in thy law.",
+      "ct": "Their hearts are dull and unfeeling, but I find my pleasure in your instructions."
+    },
+    {
+      "verse": 71,
+      "kjv": "It is good for me that I have been afflicted; that I might learn thy statutes.",
+      "ct": "Going through hardship was actually good for me — it helped me learn your decrees."
+    },
+    {
+      "verse": 72,
+      "kjv": "The law of thy mouth is better unto me than thousands of gold and silver.",
+      "ct": "The instructions from your mouth are worth more to me than thousands of pieces of gold and silver."
+    },
+    {
+      "verse": 73,
+      "kjv": "Thy hands have made me and fashioned me: give me understanding, that I may learn thy commandments.",
+      "ct": "Your hands made me and shaped me — give me understanding so I can learn your commands."
+    },
+    {
+      "verse": 74,
+      "kjv": "They that fear thee will be glad when they see me; because I have hoped in thy word.",
+      "ct": "Those who deeply revere you will be glad when they see me, because I have put my hope in your word."
+    },
+    {
+      "verse": 75,
+      "kjv": "I know, O LORD, that thy judgments are right, and that thou in faithfulness hast afflicted me.",
+      "ct": "I know, LORD, that your decisions are right, and that you allowed me to suffer because of your faithfulness."
+    },
+    {
+      "verse": 76,
+      "kjv": "Let, I pray thee, thy merciful kindness be for my comfort, according to thy word unto thy servant.",
+      "ct": "Please let your loyal love comfort me, as you promised your servant."
+    },
+    {
+      "verse": 77,
+      "kjv": "Let thy tender mercies come unto me, that I may live: for thy law is my delight.",
+      "ct": "Let your compassion reach me so that I may live, because your instructions are my joy."
+    },
+    {
+      "verse": 78,
+      "kjv": "Let the proud be ashamed; for they dealt perversely with me without a cause: but I will meditate in thy precepts.",
+      "ct": "Let the arrogant be put to shame, because they wronged me for no reason — but I will reflect on your guidelines."
+    },
+    {
+      "verse": 79,
+      "kjv": "Let those that fear thee turn unto me, and those that have known thy testimonies.",
+      "ct": "Let those who deeply revere you come back to me — those who understand your rules."
+    },
+    {
+      "verse": 80,
+      "kjv": "Let my heart be sound in thy statutes; that I be not ashamed.",
+      "ct": "Let my heart be completely devoted to your decrees so that I will not be disgraced."
+    },
+    {
+      "verse": 81,
+      "kjv": "My soul fainteth for thy salvation: but I hope in thy word.",
+      "ct": "My soul is exhausted waiting for your salvation, but I hold on to your word."
+    },
+    {
+      "verse": 82,
+      "kjv": "Mine eyes fail for thy word, saying, When wilt thou comfort me?",
+      "ct": "My eyes are worn out searching for your word, asking, 'When will you bring me relief?'"
+    },
+    {
+      "verse": 83,
+      "kjv": "For I am become like a bottle in the smoke; yet do I not forget thy statutes.",
+      "ct": "I have become like a wineskin dried out by smoke, yet I still haven't forgotten your decrees."
+    },
+    {
+      "verse": 84,
+      "kjv": "How many are the days of thy servant? when wilt thou execute judgment on them that persecute me?",
+      "ct": "How long must your servant wait? When will you bring justice against those who persecute me?"
+    },
+    {
+      "verse": 85,
+      "kjv": "The proud have digged pits for me, which are not after thy law.",
+      "ct": "Arrogant people have dug traps for me — people who disregard your instructions."
+    },
+    {
+      "verse": 86,
+      "kjv": "All thy commandments are faithful: they persecute me wrongfully; help thou me.",
+      "ct": "All your commands are trustworthy. These people persecute me without cause — help me!"
+    },
+    {
+      "verse": 87,
+      "kjv": "They had almost consumed me upon earth; but I forsook not thy precepts.",
+      "ct": "They nearly wiped me off the earth, but I did not abandon your guidelines."
+    },
+    {
+      "verse": 88,
+      "kjv": "Quicken me after thy lovingkindness; so shall I keep the testimony of thy mouth.",
+      "ct": "Revive me through your loyal love, and I will obey the rules you have spoken."
+    },
+    {
+      "verse": 89,
+      "kjv": "For ever, O LORD, thy word is settled in heaven.",
+      "ct": "Your word, LORD, stands firm in heaven forever."
+    },
+    {
+      "verse": 90,
+      "kjv": "Thy faithfulness is unto all generations: thou hast established the earth, and it abideth.",
+      "ct": "Your faithfulness extends through every generation — you established the earth, and it remains."
+    },
+    {
+      "verse": 91,
+      "kjv": "They continue this day according to thine ordinances: for all are thy servants.",
+      "ct": "Everything continues to this day according to your design, because all things serve you."
+    },
+    {
+      "verse": 92,
+      "kjv": "Unless thy law had been my delights, I should then have perished in mine affliction.",
+      "ct": "If your instructions had not been my joy, I would have been destroyed in my suffering."
+    },
+    {
+      "verse": 93,
+      "kjv": "I will never forget thy precepts: for with them thou hast quickened me.",
+      "ct": "I will never forget your guidelines, because through them you gave me life."
+    },
+    {
+      "verse": 94,
+      "kjv": "I am thine, save me; for I have sought thy precepts.",
+      "ct": "I belong to you — rescue me! I have devoted myself to your guidelines."
+    },
+    {
+      "verse": 95,
+      "kjv": "The wicked have waited for me to destroy me: but I will consider thy testimonies.",
+      "ct": "The wicked have been waiting to destroy me, but I carefully consider your rules."
+    },
+    {
+      "verse": 96,
+      "kjv": "I have seen an end of all perfection: but thy commandment is exceeding broad.",
+      "ct": "I have seen that everything has its limits, but your commands are boundless."
+    },
+    {
+      "verse": 97,
+      "kjv": "O how love I thy law! it is my meditation all the day.",
+      "ct": "How deeply I love your instructions! I think about them all day long."
+    },
+    {
+      "verse": 98,
+      "kjv": "Thou through thy commandments hast made me wiser than mine enemies: for they are ever with me.",
+      "ct": "Your commands have made me wiser than my enemies, because they are always with me."
+    },
+    {
+      "verse": 99,
+      "kjv": "I have more understanding than all my teachers: for thy testimonies are my meditation.",
+      "ct": "I have gained more insight than all my teachers, because your rules are what I reflect on."
+    },
+    {
+      "verse": 100,
+      "kjv": "I understand more than the ancients, because I keep thy precepts.",
+      "ct": "I have more understanding than those with years of experience, because I follow your guidelines."
+    },
+    {
+      "verse": 101,
+      "kjv": "I have refrained my feet from every evil way, that I might keep thy word.",
+      "ct": "I have kept my feet away from every wrong path so that I could obey your word."
+    },
+    {
+      "verse": 102,
+      "kjv": "I have not departed from thy judgments: for thou hast taught me.",
+      "ct": "I have not strayed from your decisions, because you yourself have taught me."
+    },
+    {
+      "verse": 103,
+      "kjv": "How sweet are thy words unto my taste! yea, sweeter than honey to my mouth!",
+      "ct": "How sweet your words taste to me — yes, sweeter than honey in my mouth!"
+    },
+    {
+      "verse": 104,
+      "kjv": "Through thy precepts I get understanding: therefore I hate every false way.",
+      "ct": "Your guidelines give me understanding — that is why I despise every dishonest path."
+    },
+    {
+      "verse": 105,
+      "kjv": "Thy word is a lamp unto my feet, and a light unto my path.",
+      "ct": "Your word is a lamp for my feet and a light for my path."
+    },
+    {
+      "verse": 106,
+      "kjv": "I have sworn, and I will perform it, that I will keep thy righteous judgments.",
+      "ct": "I have made a solemn promise, and I will keep it — to follow your righteous decisions."
+    },
+    {
+      "verse": 107,
+      "kjv": "I am afflicted very much: quicken me, O LORD, according unto thy word.",
+      "ct": "I am suffering deeply — LORD, revive me as your word promises."
+    },
+    {
+      "verse": 108,
+      "kjv": "Accept, I beseech thee, the freewill offerings of my mouth, O LORD, and teach me thy judgments.",
+      "ct": "Please accept the willing praise from my mouth, LORD, and teach me your decisions."
+    },
+    {
+      "verse": 109,
+      "kjv": "My soul is continually in my hand: yet do I not forget thy law.",
+      "ct": "My life is constantly at risk, yet I never forget your instructions."
+    },
+    {
+      "verse": 110,
+      "kjv": "The wicked have laid a snare for me: yet I erred not from thy precepts.",
+      "ct": "The wicked have set a trap for me, but I have not strayed from your guidelines."
+    },
+    {
+      "verse": 111,
+      "kjv": "Thy testimonies have I taken as an heritage for ever: for they are the rejoicing of my heart.",
+      "ct": "Your rules are my permanent inheritance — they are the joy of my heart."
+    },
+    {
+      "verse": 112,
+      "kjv": "I have inclined mine heart to perform thy statutes alway, even unto the end.",
+      "ct": "I have committed myself to carrying out your decrees always, right to the very end."
+    },
+    {
+      "verse": 113,
+      "kjv": "I hate vain thoughts: but thy law do I love.",
+      "ct": "I despise divided loyalties, but I love your instructions."
+    },
+    {
+      "verse": 114,
+      "kjv": "Thou art my hiding place and my shield: I hope in thy word.",
+      "ct": "You are my shelter and my shield — I place my hope in your word."
+    },
+    {
+      "verse": 115,
+      "kjv": "Depart from me, ye evildoers: for I will keep the commandments of my God.",
+      "ct": "Get away from me, you who do evil, because I intend to follow my God's commands."
+    },
+    {
+      "verse": 116,
+      "kjv": "Uphold me according unto thy word, that I may live: and let me not be ashamed of my hope.",
+      "ct": "Support me as your word promises so that I may live — don't let my hope end in disappointment."
+    },
+    {
+      "verse": 117,
+      "kjv": "Hold thou me up, and I shall be safe: and I will have respect unto thy statutes continually.",
+      "ct": "Hold me steady, and I will be secure — I will always pay attention to your decrees."
+    },
+    {
+      "verse": 118,
+      "kjv": "Thou hast trodden down all them that err from thy statutes: for their deceit is falsehood.",
+      "ct": "You have rejected everyone who strays from your decrees, because their scheming is nothing but lies."
+    },
+    {
+      "verse": 119,
+      "kjv": "Thou puttest away all the wicked of the earth like dross: therefore I love thy testimonies.",
+      "ct": "You discard all the wicked of the earth like worthless waste — that is why I love your rules."
+    },
+    {
+      "verse": 120,
+      "kjv": "My flesh trembleth for fear of thee; and I am afraid of thy judgments.",
+      "ct": "My body trembles in reverence before you, and I stand in awe of your decisions."
+    },
+    {
+      "verse": 121,
+      "kjv": "I have done judgment and justice: leave me not to mine oppressors.",
+      "ct": "I have acted with justice and integrity — don't leave me at the mercy of my oppressors."
+    },
+    {
+      "verse": 122,
+      "kjv": "Be surety for thy servant for good: let not the proud oppress me.",
+      "ct": "Guarantee your servant's well-being — don't let the arrogant crush me."
+    },
+    {
+      "verse": 123,
+      "kjv": "Mine eyes fail for thy salvation, and for the word of thy righteousness.",
+      "ct": "My eyes are strained from watching for your salvation and for your righteous promise."
+    },
+    {
+      "verse": 124,
+      "kjv": "Deal with thy servant according unto thy mercy, and teach me thy statutes.",
+      "ct": "Treat your servant according to your mercy, and teach me your decrees."
+    },
+    {
+      "verse": 125,
+      "kjv": "I am thy servant; give me understanding, that I may know thy testimonies.",
+      "ct": "I am your servant — give me understanding so I can grasp your rules."
+    },
+    {
+      "verse": 126,
+      "kjv": "It is time for thee, LORD, to work: for they have made void thy law.",
+      "ct": "It is time for you to act, LORD, because people have violated your instructions."
+    },
+    {
+      "verse": 127,
+      "kjv": "Therefore I love thy commandments above gold; yea, above fine gold.",
+      "ct": "That is why I love your commands more than gold — more than the purest gold."
+    },
+    {
+      "verse": 128,
+      "kjv": "Therefore I esteem all thy precepts concerning all things to be right; and I hate every false way.",
+      "ct": "That is why I consider all your guidelines to be completely right, and I despise every dishonest path."
+    },
+    {
+      "verse": 129,
+      "kjv": "Thy testimonies are wonderful: therefore doth my soul keep them.",
+      "ct": "Your rules are extraordinary — that is why my soul obeys them."
+    },
+    {
+      "verse": 130,
+      "kjv": "The entrance of thy words giveth light; it giveth understanding unto the simple.",
+      "ct": "When your words are opened up, they bring light — they give understanding to the inexperienced."
+    },
+    {
+      "verse": 131,
+      "kjv": "I opened my mouth, and panted: for I longed for thy commandments.",
+      "ct": "I opened my mouth and gasped for breath, because I was desperate for your commands."
+    },
+    {
+      "verse": 132,
+      "kjv": "Look thou upon me, and be merciful unto me, as thou usest to do unto those that love thy name.",
+      "ct": "Turn to me and show me mercy, just as you always do for those who love your name."
+    },
+    {
+      "verse": 133,
+      "kjv": "Order my steps in thy word: and let not any iniquity have dominion over me.",
+      "ct": "Direct my steps by your word, and don't let any sin control me."
+    },
+    {
+      "verse": 134,
+      "kjv": "Deliver me from the oppression of man: so will I keep thy precepts.",
+      "ct": "Rescue me from human oppression so that I can follow your guidelines."
+    },
+    {
+      "verse": 135,
+      "kjv": "Make thy face to shine upon thy servant; and teach me thy statutes.",
+      "ct": "Look on your servant with favor, and teach me your decrees."
+    },
+    {
+      "verse": 136,
+      "kjv": "Rivers of waters run down mine eyes, because they keep not thy law.",
+      "ct": "Streams of tears pour from my eyes because people do not follow your instructions."
+    },
+    {
+      "verse": 137,
+      "kjv": "Righteous art thou, O LORD, and upright are thy judgments.",
+      "ct": "You are righteous, LORD, and your decisions are fair."
+    },
+    {
+      "verse": 138,
+      "kjv": "Thy testimonies that thou hast commanded are righteous and very faithful.",
+      "ct": "The rules you have established are righteous and completely trustworthy."
+    },
+    {
+      "verse": 139,
+      "kjv": "My zeal hath consumed me, because mine enemies have forgotten thy words.",
+      "ct": "My passion burns inside me because my enemies have ignored your words."
+    },
+    {
+      "verse": 140,
+      "kjv": "Thy word is very pure: therefore thy servant loveth it.",
+      "ct": "Your word has been tested and proven pure — that is why your servant loves it."
+    },
+    {
+      "verse": 141,
+      "kjv": "I am small and despised: yet do not I forget thy precepts.",
+      "ct": "I am insignificant and looked down on, yet I do not forget your guidelines."
+    },
+    {
+      "verse": 142,
+      "kjv": "Thy righteousness is an everlasting righteousness, and thy law is the truth.",
+      "ct": "Your righteousness lasts forever, and your instructions are truth."
+    },
+    {
+      "verse": 143,
+      "kjv": "Trouble and anguish have taken hold on me: yet thy commandments are my delights.",
+      "ct": "Trouble and distress have overtaken me, yet your commands remain my joy."
+    },
+    {
+      "verse": 144,
+      "kjv": "The righteousness of thy testimonies is everlasting: give me understanding, and I shall live.",
+      "ct": "Your rules are righteous forever — give me understanding, and I will live."
+    },
+    {
+      "verse": 145,
+      "kjv": "I cried with my whole heart; hear me, O LORD: I will keep thy statutes.",
+      "ct": "I called out with all my heart — answer me, LORD! I will obey your decrees."
+    },
+    {
+      "verse": 146,
+      "kjv": "I cried unto thee; save me, and I shall keep thy testimonies.",
+      "ct": "I called out to you — save me, and I will follow your rules."
+    },
+    {
+      "verse": 147,
+      "kjv": "I prevented the dawning of the morning, and cried: I hoped in thy word.",
+      "ct": "I got up before dawn and cried for help — I placed my hope in your word."
+    },
+    {
+      "verse": 148,
+      "kjv": "Mine eyes prevent the night watches, that I might meditate in thy word.",
+      "ct": "My eyes stay open through the watches of the night so I can reflect on your word."
+    },
+    {
+      "verse": 149,
+      "kjv": "Hear my voice according unto thy lovingkindness: O LORD, quicken me according to thy judgment.",
+      "ct": "Listen to my voice because of your loyal love — LORD, revive me according to your justice."
+    },
+    {
+      "verse": 150,
+      "kjv": "They draw nigh that follow after mischief: they are far from thy law.",
+      "ct": "Those who chase after evil schemes are closing in — they are far from your instructions."
+    },
+    {
+      "verse": 151,
+      "kjv": "Thou art near, O LORD; and all thy commandments are truth.",
+      "ct": "But you are near, LORD, and all your commands are truth."
+    },
+    {
+      "verse": 152,
+      "kjv": "Concerning thy testimonies, I have known of old that thou hast founded them for ever.",
+      "ct": "Long ago I learned from your rules that you established them to last forever."
+    },
+    {
+      "verse": 153,
+      "kjv": "Consider mine affliction, and deliver me: for I do not forget thy law.",
+      "ct": "See my suffering and rescue me, because I have not forgotten your instructions."
+    },
+    {
+      "verse": 154,
+      "kjv": "Plead my cause, and deliver me: quicken me according to thy word.",
+      "ct": "Defend my cause and set me free — revive me as your word promises."
+    },
+    {
+      "verse": 155,
+      "kjv": "Salvation is far from the wicked: for they seek not thy statutes.",
+      "ct": "Salvation is far from the wicked, because they do not pursue your decrees."
+    },
+    {
+      "verse": 156,
+      "kjv": "Great are thy tender mercies, O LORD: quicken me according to thy judgments.",
+      "ct": "Your compassion is immense, LORD — revive me according to your decisions."
+    },
+    {
+      "verse": 157,
+      "kjv": "Many are my persecutors and mine enemies; yet do I not decline from thy testimonies.",
+      "ct": "I have many persecutors and enemies, yet I have not turned away from your rules."
+    },
+    {
+      "verse": 158,
+      "kjv": "I beheld the transgressors, and was grieved; because they kept not thy word.",
+      "ct": "I looked at those who betray you and felt sick, because they do not follow your word."
+    },
+    {
+      "verse": 159,
+      "kjv": "Consider how I love thy precepts: quicken me, O LORD, according to thy lovingkindness.",
+      "ct": "See how much I love your guidelines — LORD, revive me through your loyal love."
+    },
+    {
+      "verse": 160,
+      "kjv": "Thy word is true from the beginning: and every one of thy righteous judgments endureth for ever.",
+      "ct": "The essence of your word is truth, and every one of your righteous decisions lasts forever."
+    },
+    {
+      "verse": 161,
+      "kjv": "Princes have persecuted me without a cause: but my heart standeth in awe of thy word.",
+      "ct": "Powerful people have persecuted me for no reason, but my heart stands in awe of your word."
+    },
+    {
+      "verse": 162,
+      "kjv": "I rejoice at thy word, as one that findeth great spoil.",
+      "ct": "I celebrate over your word like someone who discovers a great treasure."
+    },
+    {
+      "verse": 163,
+      "kjv": "I hate and abhor lying: but thy law do I love.",
+      "ct": "I hate and detest dishonesty, but I love your instructions."
+    },
+    {
+      "verse": 164,
+      "kjv": "Seven times a day do I praise thee because of thy righteous judgments.",
+      "ct": "7 times a day I praise you for your righteous decisions."
+    },
+    {
+      "verse": 165,
+      "kjv": "Great peace have they which love thy law: and nothing shall offend them.",
+      "ct": "Those who love your instructions have deep peace, and nothing can make them stumble."
+    },
+    {
+      "verse": 166,
+      "kjv": "LORD, I have hoped for thy salvation, and done thy commandments.",
+      "ct": "LORD, I have waited for your salvation and carried out your commands."
+    },
+    {
+      "verse": 167,
+      "kjv": "My soul hath kept thy testimonies; and I love them exceedingly.",
+      "ct": "My soul has followed your rules, and I love them deeply."
+    },
+    {
+      "verse": 168,
+      "kjv": "I have kept thy precepts and thy testimonies: for all my ways are before thee.",
+      "ct": "I have obeyed your guidelines and your rules, because everything I do is visible to you."
+    },
+    {
+      "verse": 169,
+      "kjv": "Let my cry come near before thee, O LORD: give me understanding according to thy word.",
+      "ct": "Let my cry reach your presence, LORD — give me understanding as your word promises."
+    },
+    {
+      "verse": 170,
+      "kjv": "Let my supplication come before thee: deliver me according to thy word.",
+      "ct": "Let my plea come before you — rescue me as your word promises."
+    },
+    {
+      "verse": 171,
+      "kjv": "My lips shall utter praise, when thou hast taught me thy statutes.",
+      "ct": "My lips will overflow with praise when you teach me your decrees."
+    },
+    {
+      "verse": 172,
+      "kjv": "My tongue shall speak of thy word: for all thy commandments are righteousness.",
+      "ct": "My tongue will sing about your word, because all your commands are righteousness."
+    },
+    {
+      "verse": 173,
+      "kjv": "Let thine hand help me; for I have chosen thy precepts.",
+      "ct": "Let your hand be ready to help me, because I have chosen your guidelines."
+    },
+    {
+      "verse": 174,
+      "kjv": "I have longed for thy salvation, O LORD; and thy law is my delight.",
+      "ct": "I have longed for your salvation, LORD, and your instructions are my joy."
+    },
+    {
+      "verse": 175,
+      "kjv": "Let my soul live, and it shall praise thee; and let thy judgments help me.",
+      "ct": "Let me live so that I can praise you, and let your decisions sustain me."
+    },
+    {
+      "verse": 176,
+      "kjv": "I have gone astray like a lost sheep; seek thy servant; for I do not forget thy commandments.",
+      "ct": "I have wandered off like a lost sheep — come find your servant, because I have not forgotten your commands."
+    }
+  ]
+}

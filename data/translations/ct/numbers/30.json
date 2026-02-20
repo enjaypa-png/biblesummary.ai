@@ -1,0 +1,90 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 30,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.617Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Moses spake unto the heads of the tribes concerning the children of Israel, saying, This is the thing which the LORD hath commanded.",
+      "ct": "Moses spoke to the tribal leaders of Israel and said, \"This is what the LORD has commanded.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "If a man vow a vow unto the LORD, or swear an oath to bind his soul with a bond; he shall not break his word, he shall do according to all that proceedeth out of his mouth.",
+      "ct": "\"When a man makes a vow to the LORD or takes an oath that obligates himself, he must not go back on his word. He must carry out everything he has promised.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "If a woman also vow a vow unto the LORD, and bind herself by a bond, being in her father’s house in her youth;",
+      "ct": "\"When a young woman still living in her father's household makes a vow to the LORD or takes on an obligation,\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And her father hear her vow, and her bond wherewith she hath bound her soul, and her father shall hold his peace at her: then all her vows shall stand, and every bond wherewith she hath bound her soul shall stand.",
+      "ct": "\"and her father hears about her vow or the obligation she has placed on herself and says nothing to her, then all her vows and obligations remain in effect.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "But if her father disallow her in the day that he heareth; not any of her vows, or of her bonds wherewith she hath bound her soul, shall stand: and the LORD shall forgive her, because her father disallowed her.",
+      "ct": "\"But if her father objects on the day he finds out about it, then none of her vows or obligations will remain in effect. The LORD will release her from them because her father objected.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And if she had at all an husband, when she vowed, or uttered ought out of her lips, wherewith she bound her soul;",
+      "ct": "\"If she gets married while she is under a vow or a rash promise that obligates her,\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And her husband heard it, and held his peace at her in the day that he heard it: then her vows shall stand, and her bonds wherewith she bound her soul shall stand.",
+      "ct": "\"and her husband hears about it and says nothing to her on the day he learns of it, then her vows and obligations remain in effect.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "But if her husband disallowed her on the day that he heard it; then he shall make her vow which she vowed, and that which she uttered with her lips, wherewith she bound her soul, of none effect: and the LORD shall forgive her.",
+      "ct": "\"But if her husband objects on the day he hears about it, he cancels the vow she made and the rash promise that obligated her, and the LORD will release her from it.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "But every vow of a widow, and of her that is divorced, wherewith they have bound their souls, shall stand against her.",
+      "ct": "\"However, any vow or obligation made by a widow or a divorced woman is binding on her.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And if she vowed in her husband’s house, or bound her soul by a bond with an oath;",
+      "ct": "\"If a woman makes a vow or places herself under an obligation with an oath while living in her husband's household,\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And her husband heard it, and held his peace at her, and disallowed her not: then all her vows shall stand, and every bond wherewith she bound her soul shall stand.",
+      "ct": "\"and her husband hears about it but says nothing and does not object, then all her vows and obligations remain in effect.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "But if her husband hath utterly made them void on the day he heard them; then whatsoever proceeded out of her lips concerning her vows, or concerning the bond of her soul, shall not stand: her husband hath made them void; and the LORD shall forgive her.",
+      "ct": "\"But if her husband completely nullifies them on the day he hears about them, then nothing she promised — whether a vow or a personal obligation — will remain in effect. Her husband has nullified them, and the LORD will release her.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Every vow, and every binding oath to afflict the soul, her husband may establish it, or her husband may make it void.",
+      "ct": "\"Her husband has the authority to uphold or to nullify any vow or any binding oath she makes to deny herself.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "But if her husband altogether hold his peace at her from day to day; then he establisheth all her vows, or all her bonds, which are upon her: he confirmeth them, because he held his peace at her in the day that he heard them.",
+      "ct": "\"But if her husband says nothing at all to her day after day, then he has upheld all her vows and all her obligations. He has confirmed them by remaining silent on the day he heard about them.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "But if he shall any ways make them void after that he hath heard them; then he shall bear her iniquity.",
+      "ct": "\"If he nullifies them sometime after he first heard about them, then he will be held responsible for her guilt.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "These are the statutes, which the LORD commanded Moses, between a man and his wife, between the father and his daughter, being yet in her youth in her father’s house.",
+      "ct": "These are the regulations the LORD gave Moses concerning the relationship between a husband and wife, and between a father and his young daughter still living in his household."
+    }
+  ]
+}

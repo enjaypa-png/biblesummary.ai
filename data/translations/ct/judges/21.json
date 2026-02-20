@@ -1,0 +1,135 @@
+{
+  "book": "judges",
+  "book_name": "Judges",
+  "chapter": 21,
+  "translation": "ct",
+  "generated_at": "2026-02-20T10:48:13.698Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the men of Israel had sworn in Mizpeh, saying, There shall not any of us give his daughter unto Benjamin to wife.",
+      "ct": "The men of Israel had taken an oath at Mizpeh, saying, \"None of us will give our daughters in marriage to anyone from Benjamin.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And the people came to the house of God, and abode there till even before God, and lifted up their voices, and wept sore;",
+      "ct": "The people went to the house of God and stayed there until evening in God's presence. They cried out loudly and wept bitterly,"
+    },
+    {
+      "verse": 3,
+      "kjv": "And said, O LORD God of Israel, why is this come to pass in Israel, that there should be to day one tribe lacking in Israel?",
+      "ct": "saying, \"LORD God of Israel, why has this happened to Israel? Today one tribe is missing from Israel!\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass on the morrow, that the people rose early, and built there an altar, and offered burnt offerings and peace offerings.",
+      "ct": "The next morning, the people got up early, built an altar there, and presented burnt offerings and peace offerings."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the children of Israel said, Who is there among all the tribes of Israel that came not up with the congregation unto the LORD? For they had made a great oath concerning him that came not up to the LORD to Mizpeh, saying, He shall surely be put to death.",
+      "ct": "The Israelites asked, \"Which of all the tribes of Israel failed to come to the assembly before the LORD?\" They had taken a solemn oath that anyone who did not come to the LORD at Mizpeh would certainly be put to death."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the children of Israel repented them for Benjamin their brother, and said, There is one tribe cut off from Israel this day.",
+      "ct": "The Israelites felt deep grief for their brother tribe Benjamin and said, \"Today one tribe has been cut off from Israel.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "How shall we do for wives for them that remain, seeing we have sworn by the LORD that we will not give them of our daughters to wives?",
+      "ct": "\"How can we provide wives for the men who survived, since we swore an oath to the LORD that we would not give any of our daughters to them as wives?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And they said, What one is there of the tribes of Israel that came not up to Mizpeh to the LORD? And, behold, there came none to the camp from Jabeshgilead to the assembly.",
+      "ct": "Then they asked, \"Which tribe of Israel did not come up to Mizpeh before the LORD?\" It turned out that no one from Jabesh-gilead had come to the camp for the assembly."
+    },
+    {
+      "verse": 9,
+      "kjv": "For the people were numbered, and, behold, there were none of the inhabitants of Jabeshgilead there.",
+      "ct": "When the people were counted, not a single resident of Jabesh-gilead was present."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the congregation sent thither twelve thousand men of the valiantest, and commanded them, saying, Go and smite the inhabitants of Jabeshgilead with the edge of the sword, with the women and the children.",
+      "ct": "So the assembly sent 12,000 of their bravest warriors and gave them orders: \"Go and strike down the residents of Jabesh-gilead with the sword, including the women and children.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And this is the thing that ye shall do, Ye shall utterly destroy every male, and every woman that hath lain by man.",
+      "ct": "\"Here is exactly what you must do: completely destroy every male and every woman who has had relations with a man.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And they found among the inhabitants of Jabeshgilead four hundred young virgins, that had known no man by lying with any male: and they brought them unto the camp to Shiloh, which is in the land of Canaan.",
+      "ct": "Among the residents of Jabesh-gilead, they found 400 young women who had never had relations with a man. They brought them to the camp at Shiloh, which is in the land of Canaan."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the whole congregation sent some to speak to the children of Benjamin that were in the rock Rimmon, and to call peaceably unto them.",
+      "ct": "The entire assembly sent messengers to the Benjaminites who were at the rock of Rimmon, offering them peace."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Benjamin came again at that time; and they gave them wives which they had saved alive of the women of Jabeshgilead: and yet so they sufficed them not.",
+      "ct": "So the Benjaminites returned at that time, and the Israelites gave them the women from Jabesh-gilead who had been spared. But there still were not enough wives for all of them."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the people repented them for Benjamin, because that the LORD had made a breach in the tribes of Israel.",
+      "ct": "The people felt deep grief for Benjamin because the LORD had created a gap among the tribes of Israel."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then the elders of the congregation said, How shall we do for wives for them that remain, seeing the women are destroyed out of Benjamin?",
+      "ct": "The elders of the assembly said, \"How can we provide wives for the remaining men, since the women of Benjamin have been wiped out?\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And they said, There must be an inheritance for them that be escaped of Benjamin, that a tribe be not destroyed out of Israel.",
+      "ct": "They said, \"The survivors of Benjamin must have an inheritance, so that an entire tribe is not wiped out from Israel.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Howbeit we may not give them wives of our daughters: for the children of Israel have sworn, saying, Cursed be he that giveth a wife to Benjamin.",
+      "ct": "\"But we cannot give them any of our own daughters as wives, because the Israelites swore an oath saying, 'Cursed is anyone who gives a wife to Benjamin.'\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Then they said, Behold, there is a feast of the LORD in Shiloh yearly in a place which is on the north side of Bethel, on the east side of the highway that goeth up from Bethel to Shechem, and on the south of Lebonah.",
+      "ct": "Then they said, \"There is an annual festival to the LORD at Shiloh.\" The location is north of Bethel, east of the road that goes from Bethel up to Shechem, and south of Lebonah."
+    },
+    {
+      "verse": 20,
+      "kjv": "Therefore they commanded the children of Benjamin, saying, Go and lie in wait in the vineyards;",
+      "ct": "So they instructed the Benjaminites, \"Go and hide in the vineyards.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And see, and, behold, if the daughters of Shiloh come out to dance in dances, then come ye out of the vineyards, and catch you every man his wife of the daughters of Shiloh, and go to the land of Benjamin.",
+      "ct": "\"Watch carefully, and when the young women of Shiloh come out to join in the dancing, rush out from the vineyards. Each of you grab a wife for yourself from among the young women of Shiloh, and then head back to the territory of Benjamin.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And it shall be, when their fathers or their brethren come unto us to complain, that we will say unto them, Be favourable unto them for our sakes: because we reserved not to each man his wife in the war: for ye did not give unto them at this time, that ye should be guilty.",
+      "ct": "\"When their fathers or brothers come to us to protest, we will tell them, 'Do us a favor and be generous to them, because we didn't get enough wives for them during the war. And since you didn't actually give your daughters to them, you haven't broken your oath.'\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And the children of Benjamin did so, and took them wives, according to their number, of them that danced, whom they caught: and they went and returned unto their inheritance, and repaired the cities, and dwelt in them.",
+      "ct": "The Benjaminites did exactly that. Each man took a wife from among the dancers they seized, matching their number. Then they left and returned to their own territory, rebuilt their towns, and settled in them."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the children of Israel departed thence at that time, every man to his tribe and to his family, and they went out from thence every man to his inheritance.",
+      "ct": "At that time, the Israelites all went home, each person returning to their own tribe, family, and territory."
+    },
+    {
+      "verse": 25,
+      "kjv": "In those days there was no king in Israel: every man did that which was right in his own eyes.",
+      "ct": "In those days Israel had no king. Everyone did whatever they thought was right."
+    }
+  ]
+}
