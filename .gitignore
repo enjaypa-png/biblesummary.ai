@@ -11,9 +11,6 @@ node_modules/
 .vscode/
 tsconfig.tsbuildinfo
 
-# Generated CT translation files (large, reviewed locally before seeding)
-data/translations/
-
 # CT batch processing temp files
 data/translations/ct-batch/
 

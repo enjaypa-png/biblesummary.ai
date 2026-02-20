@@ -1,0 +1,295 @@
+{
+  "book": "genesis",
+  "book_name": "Genesis",
+  "chapter": 41,
+  "translation": "ct",
+  "generated_at": "2026-02-17T11:02:18.709Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass at the end of two full years, that Pharaoh dreamed: and, behold, he stood by the river.",
+      "ct": "After two complete years had passed, Pharaoh had a dream. In it, he was standing beside the river."
+    },
+    {
+      "verse": 2,
+      "kjv": "And, behold, there came up out of the river seven well favoured kine and fatfleshed; and they fed in a meadow.",
+      "ct": "Seven cows came up from the river, healthy-looking and fat, and they grazed in a meadow."
+    },
+    {
+      "verse": 3,
+      "kjv": "And, behold, seven other kine came up after them out of the river, ill favoured and leanfleshed; and stood by the other kine upon the brink of the river.",
+      "ct": "Then seven other cows came up from the river behind them, ugly and thin, and they stood next to the other cows on the riverbank."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the ill favoured and leanfleshed kine did eat up the seven well favoured and fat kine. So Pharaoh awoke.",
+      "ct": "The ugly, thin cows ate the seven healthy, fat cows. Then Pharaoh woke up."
+    },
+    {
+      "verse": 5,
+      "kjv": "And he slept and dreamed the second time: and, behold, seven ears of corn came up upon one stalk, rank and good.",
+      "ct": "He fell asleep again and had a second dream. Seven heads of grain grew on a single stalk, plump and good."
+    },
+    {
+      "verse": 6,
+      "kjv": "And, behold, seven thin ears and blasted with the east wind sprung up after them.",
+      "ct": "Then seven thin heads of grain, scorched by the east wind, sprouted up behind them."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the seven thin ears devoured the seven rank and full ears. And Pharaoh awoke, and, behold, it was a dream.",
+      "ct": "The seven thin heads swallowed up the seven plump, full heads. Pharaoh woke up and realized it had been a dream."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it came to pass in the morning that his spirit was troubled; and he sent and called for all the magicians of Egypt, and all the wise men thereof: and Pharaoh told them his dream; but there was none that could interpret them unto Pharaoh.",
+      "ct": "In the morning his spirit was troubled, so he summoned all the magicians of Egypt and all its wise men. Pharaoh described his dreams to them, but no one could interpret them for him."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then spake the chief butler unto Pharaoh, saying, I do remember my faults this day:",
+      "ct": "Then the chief cupbearer spoke to Pharaoh, saying, \"Today I must confess my failures.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Pharaoh was wroth with his servants, and put me in ward in the captain of the guard’s house, both me and the chief baker:",
+      "ct": "\"Pharaoh was angry with his servants and placed me under guard in the house of the captain of the guard, along with the chief baker.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And we dreamed a dream in one night, I and he; we dreamed each man according to the interpretation of his dream.",
+      "ct": "\"One night, both of us had dreams — each dream carrying its own distinct meaning.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And there was there with us a young man, an Hebrew, servant to the captain of the guard; and we told him, and he interpreted to us our dreams; to each man according to his dream he did interpret.",
+      "ct": "\"A young Hebrew man was there with us, a servant of the captain of the guard. We described our dreams to him, and he explained each one's meaning to each of us.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And it came to pass, as he interpreted to us, so it was; me he restored unto mine office, and him he hanged.",
+      "ct": "\"Everything turned out exactly as he said it would — I was given back my position, and the baker was hanged.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Then Pharaoh sent and called Joseph, and they brought him hastily out of the dungeon: and he shaved himself, and changed his raiment, and came in unto Pharaoh.",
+      "ct": "So Pharaoh sent for Joseph, and they quickly brought him out of the dungeon. He shaved, changed his clothes, and appeared before Pharaoh."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Pharaoh said unto Joseph, I have dreamed a dream, and there is none that can interpret it: and I have heard say of thee, that thou canst understand a dream to interpret it.",
+      "ct": "Pharaoh said to Joseph, \"I had a dream, and no one can interpret it. But I have been told that when you hear a dream, you are able to explain its meaning.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And Joseph answered Pharaoh, saying, It is not in me: God shall give Pharaoh an answer of peace.",
+      "ct": "Joseph replied to Pharaoh, \"The ability is not mine. God will give Pharaoh a favorable answer.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And Pharaoh said unto Joseph, In my dream, behold, I stood upon the bank of the river:",
+      "ct": "Pharaoh said to Joseph, \"In my dream, I was standing on the bank of the river.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And, behold, there came up out of the river seven kine, fatfleshed and well favoured; and they fed in a meadow:",
+      "ct": "\"Seven cows, fat and healthy-looking, came up from the river and grazed in a meadow.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And, behold, seven other kine came up after them, poor and very ill favoured and leanfleshed, such as I never saw in all the land of Egypt for badness:",
+      "ct": "\"Then seven other cows came up behind them — scrawny, extremely ugly, and thin. I have never seen such miserable-looking animals anywhere in Egypt.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And the lean and the ill favoured kine did eat up the first seven fat kine:",
+      "ct": "\"The thin, ugly cows ate the first seven fat cows.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And when they had eaten them up, it could not be known that they had eaten them; but they were still ill favoured, as at the beginning. So I awoke.",
+      "ct": "\"But even after consuming them, you could not tell they had eaten anything — they looked just as ugly as before. Then I woke up.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And I saw in my dream, and, behold, seven ears came up in one stalk, full and good:",
+      "ct": "\"In my dream I also saw seven heads of grain growing on one stalk, full and good.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And, behold, seven ears, withered, thin, and blasted with the east wind, sprung up after them:",
+      "ct": "\"Then seven heads of grain — withered, thin, and scorched by the east wind — sprouted up behind them.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And the thin ears devoured the seven good ears: and I told this unto the magicians; but there was none that could declare it to me.",
+      "ct": "\"The thin heads swallowed the seven good heads. I told all this to the magicians, but none of them could explain it to me.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And Joseph said unto Pharaoh, The dream of Pharaoh is one: God hath shewed Pharaoh what he is about to do.",
+      "ct": "Joseph said to Pharaoh, \"Both of Pharaoh's dreams have the same meaning. God has revealed to Pharaoh what he is about to do.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "The seven good kine are seven years; and the seven good ears are seven years: the dream is one.",
+      "ct": "\"The seven good cows represent seven years, and the seven good heads of grain represent seven years — it is one and the same dream.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And the seven thin and ill favoured kine that came up after them are seven years; and the seven empty ears blasted with the east wind shall be seven years of famine.",
+      "ct": "\"The seven thin, ugly cows that came up afterward represent seven years, and the seven empty heads of grain scorched by the east wind represent seven years of famine.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "This is the thing which I have spoken unto Pharaoh: What God is about to do he sheweth unto Pharaoh.",
+      "ct": "\"This is what I have told Pharaoh: God is showing Pharaoh what he is about to do.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "Behold, there come seven years of great plenty throughout all the land of Egypt:",
+      "ct": "\"Seven years of tremendous abundance are coming throughout all of Egypt.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And there shall arise after them seven years of famine; and all the plenty shall be forgotten in the land of Egypt; and the famine shall consume the land;",
+      "ct": "\"But after them, seven years of famine will follow, and all the abundance will be forgotten in Egypt. The famine will devastate the land.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And the plenty shall not be known in the land by reason of that famine following; for it shall be very grievous.",
+      "ct": "\"The abundance will not even be remembered because of the famine that follows, for it will be extremely severe.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And for that the dream was doubled unto Pharaoh twice; it is because the thing is established by God, and God will shortly bring it to pass.",
+      "ct": "\"The reason the dream was given to Pharaoh in two forms is that the matter has been firmly decided by God, and God will carry it out soon.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "Now therefore let Pharaoh look out a man discreet and wise, and set him over the land of Egypt.",
+      "ct": "\"So now, Pharaoh should find a man who is discerning and wise and place him in charge of the entire land of Egypt.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "Let Pharaoh do this, and let him appoint officers over the land, and take up the fifth part of the land of Egypt in the seven plenteous years.",
+      "ct": "\"Pharaoh should take action and appoint officials throughout the land to collect one-fifth of Egypt's produce during the seven years of abundance.\""
+    },
+    {
+      "verse": 35,
+      "kjv": "And let them gather all the food of those good years that come, and lay up corn under the hand of Pharaoh, and let them keep food in the cities.",
+      "ct": "\"They should gather all the food from these coming good years and store the grain under Pharaoh's authority, keeping the food supply in the cities.\""
+    },
+    {
+      "verse": 36,
+      "kjv": "And that food shall be for store to the land against the seven years of famine, which shall be in the land of Egypt; that the land perish not through the famine.",
+      "ct": "\"This food will serve as a reserve for the land during the seven years of famine that will strike Egypt, so the country will not be destroyed by the famine.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "And the thing was good in the eyes of Pharaoh, and in the eyes of all his servants.",
+      "ct": "This proposal pleased Pharaoh and all his officials."
+    },
+    {
+      "verse": 38,
+      "kjv": "And Pharaoh said unto his servants, Can we find such a one as this is, a man in whom the Spirit of God is?",
+      "ct": "Pharaoh asked his officials, \"Where can we find anyone like this — a man who has the Spirit of God in him?\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And Pharaoh said unto Joseph, Forasmuch as God hath shewed thee all this, there is none so discreet and wise as thou art:",
+      "ct": "Then Pharaoh said to Joseph, \"Since God has made all of this known to you, there is no one as discerning and wise as you.\""
+    },
+    {
+      "verse": 40,
+      "kjv": "Thou shalt be over my house, and according unto thy word shall all my people be ruled: only in the throne will I be greater than thou.",
+      "ct": "\"You will be in charge of my household, and all my people will obey your commands. Only with respect to the throne will I outrank you.\""
+    },
+    {
+      "verse": 41,
+      "kjv": "And Pharaoh said unto Joseph, See, I have set thee over all the land of Egypt.",
+      "ct": "Pharaoh also said to Joseph, \"Look, I am placing you over the entire land of Egypt.\""
+    },
+    {
+      "verse": 42,
+      "kjv": "And Pharaoh took off his ring from his hand, and put it upon Joseph’s hand, and arrayed him in vestures of fine linen, and put a gold chain about his neck;",
+      "ct": "Pharaoh removed his signet ring from his own hand and placed it on Joseph's hand. He dressed him in robes of fine linen and hung a gold chain around his neck."
+    },
+    {
+      "verse": 43,
+      "kjv": "And he made him to ride in the second chariot which he had; and they cried before him, Bow the knee: and he made him ruler over all the land of Egypt.",
+      "ct": "He had Joseph ride in his second chariot, and people shouted before him, \"Bow the knee!\" In this way, he made him ruler over the entire land of Egypt."
+    },
+    {
+      "verse": 44,
+      "kjv": "And Pharaoh said unto Joseph, I am Pharaoh, and without thee shall no man lift up his hand or foot in all the land of Egypt.",
+      "ct": "Pharaoh told Joseph, \"I am Pharaoh, but without your permission, no one in all of Egypt will lift a hand or take a step.\""
+    },
+    {
+      "verse": 45,
+      "kjv": "And Pharaoh called Joseph’s name Zaphnathpaaneah; and he gave him to wife Asenath the daughter of Potipherah priest of On. And Joseph went out over all the land of Egypt.",
+      "ct": "Pharaoh gave Joseph the name Zaphnathpaaneah and gave him Asenath, the daughter of Potipherah priest of On, as his wife. Then Joseph traveled throughout the entire land of Egypt."
+    },
+    {
+      "verse": 46,
+      "kjv": "And Joseph was thirty years old when he stood before Pharaoh king of Egypt. And Joseph went out from the presence of Pharaoh, and went throughout all the land of Egypt.",
+      "ct": "Joseph was thirty years old when he entered the service of Pharaoh king of Egypt. He left Pharaoh's presence and traveled across the whole land of Egypt."
+    },
+    {
+      "verse": 47,
+      "kjv": "And in the seven plenteous years the earth brought forth by handfuls.",
+      "ct": "During the seven years of abundance, the land produced enormous harvests."
+    },
+    {
+      "verse": 48,
+      "kjv": "And he gathered up all the food of the seven years, which were in the land of Egypt, and laid up the food in the cities: the food of the field, which was round about every city, laid he up in the same.",
+      "ct": "Joseph collected all the food produced during those seven years in Egypt and stored it in the cities. In each city, he stored the food from the surrounding fields."
+    },
+    {
+      "verse": 49,
+      "kjv": "And Joseph gathered corn as the sand of the sea, very much, until he left numbering; for it was without number.",
+      "ct": "Joseph accumulated grain in quantities as vast as the sand of the sea — so much that he eventually stopped keeping records, because it was beyond measuring."
+    },
+    {
+      "verse": 50,
+      "kjv": "And unto Joseph were born two sons before the years of famine came, which Asenath the daughter of Potipherah priest of On bare unto him.",
+      "ct": "Before the years of famine arrived, two sons were born to Joseph. Asenath, the daughter of Potipherah priest of On, bore them to him."
+    },
+    {
+      "verse": 51,
+      "kjv": "And Joseph called the name of the firstborn Manasseh: For God, said he, hath made me forget all my toil, and all my father’s house.",
+      "ct": "Joseph named his firstborn Manasseh, saying, \"God has made me forget all my hardship and all my father's household.\""
+    },
+    {
+      "verse": 52,
+      "kjv": "And the name of the second called he Ephraim: For God hath caused me to be fruitful in the land of my affliction.",
+      "ct": "He named his second son Ephraim, saying, \"God has made me fruitful in the land of my suffering.\""
+    },
+    {
+      "verse": 53,
+      "kjv": "And the seven years of plenteousness, that was in the land of Egypt, were ended.",
+      "ct": "The seven years of abundance in Egypt came to an end."
+    },
+    {
+      "verse": 54,
+      "kjv": "And the seven years of dearth began to come, according as Joseph had said: and the dearth was in all lands; but in all the land of Egypt there was bread.",
+      "ct": "Then the seven years of famine began, just as Joseph had predicted. The famine affected every land, but throughout Egypt there was food."
+    },
+    {
+      "verse": 55,
+      "kjv": "And when all the land of Egypt was famished, the people cried to Pharaoh for bread: and Pharaoh said unto all the Egyptians, Go unto Joseph; what he saith to you, do.",
+      "ct": "When all of Egypt began to feel the hunger, the people cried out to Pharaoh for food. Pharaoh told all the Egyptians, \"Go to Joseph and do whatever he tells you.\""
+    },
+    {
+      "verse": 56,
+      "kjv": "And the famine was over all the face of the earth: And Joseph opened all the storehouses, and sold unto the Egyptians; and the famine waxed sore in the land of Egypt.",
+      "ct": "The famine spread across the entire face of the earth. Joseph opened all the storehouses and sold grain to the Egyptians, as the famine grew increasingly severe in Egypt."
+    },
+    {
+      "verse": 57,
+      "kjv": "And all countries came into Egypt to Joseph for to buy corn; because that the famine was so sore in all lands.",
+      "ct": "People from every country came to Egypt to buy grain from Joseph, because the famine was devastating throughout all lands."
+    }
+  ]
+}
