@@ -152,6 +152,14 @@ export default function ReadingSettingsPanel() {
                 </button>
               ))}
             </div>
+            {settings.translation === "ct" && TRANSLATION_LABELS.ct.auditStatus && (
+              <p
+                className="text-[11px] mt-1.5 text-center"
+                style={{ color: currentTheme.secondary }}
+              >
+                {TRANSLATION_LABELS.ct.auditStatus} — being checked against the KJV for accuracy
+              </p>
+            )}
           </div>
 
           {/* Font Family Selection */}

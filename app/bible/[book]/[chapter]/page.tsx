@@ -114,6 +114,6 @@ export async function generateMetadata({ params }: PageProps) {
 
   return {
     title: `${bookName} ${params.chapter} - BibleSummary.ai`,
-    description: `Read ${bookName} chapter ${params.chapter} - BibleSummary.ai`,
+    description: `Read ${bookName} chapter ${params.chapter} in King James Version or Clear Text — BibleSummary.ai`,
   };
 }

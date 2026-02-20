@@ -300,7 +300,7 @@ export default function PricingPageClient() {
               <ul className="space-y-2 text-[14px]" style={{ color: "var(--foreground)" }}>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Full King James Version Bible text — all 66 books</span>
+                  <span>Full King James Version and Clear Text — all 66 books</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>

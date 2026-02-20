@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const FEATURES_FREE = [
-  { icon: "📖", name: "Full King James Bible", desc: "Every book, chapter, and verse — completely free." },
+  { icon: "📖", name: "Two Bible Versions", desc: "Read the King James Version and the Clear Text — both included free." },
   { icon: "🎧", name: "Read or Listen", desc: "Switch between text and audio anytime." },
   { icon: "🖍️", name: "Highlight", desc: "Mark meaningful passages as you read." },
   { icon: "📝", name: "Notes", desc: "Write your thoughts directly inside the text." },
@@ -730,7 +730,7 @@ export default function BibleSummaryLanding() {
           flexWrap: "wrap",
         }}>
           <StepCard number="1" title="Pick a Book" desc="Choose any of the 66 books of the Bible." />
-          <StepCard number="2" title="Read or Listen" desc="Full KJV text with audio playback for every chapter." />
+          <StepCard number="2" title="Read or Listen" desc="Full KJV and Clear Text with audio playback for every chapter." />
           <StepCard number="3" title="Go Deeper" desc="Tap any verse for a plain-language explanation." />
         </div>
       </section>
@@ -776,7 +776,7 @@ export default function BibleSummaryLanding() {
           maxWidth: 420,
           margin: "0 auto 32px",
         }}>
-          Start reading the full King James Bible today — completely free. Upgrade anytime.
+          Start reading the King James Version or Clear Text today — completely free. Upgrade anytime.
         </p>
         <div style={{
           display: "flex",

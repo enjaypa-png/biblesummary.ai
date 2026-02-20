@@ -10,7 +10,7 @@ import { ReadingSettingsProvider } from "@/contexts/ReadingSettingsContext";
 
 export const metadata: Metadata = {
   title: "BibleSummary.ai - Read & Understand the Bible",
-  description: "A modern Bible reading app with AI-powered summaries. Read, listen, and retain. Always free Bible text.",
+  description: "A modern Bible reading app with AI-powered summaries. Read the King James Version and Clear Text, listen, and retain. Always free.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   themeColor: "#7c5cfc",
   icons: {
