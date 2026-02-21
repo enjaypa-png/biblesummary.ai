@@ -7,8 +7,8 @@
  *
  * Key design decisions:
  * 1. 10th grade reading level — clear, natural, direct prose.
- * 2. Anti-copying emphasis ensures fresh wording, not KJV paraphrases.
- * 3. Explicit "do not add" rule prevents embellishment.
+ * 2. Modernize grammar and archaic vocabulary, but preserve KJV nouns and content.
+ * 3. Explicit "do not add" and "do not narrow/broaden" rules prevent drift.
  * 4. Protected terms list prevents theological drift (heaven→sky, created→made).
  * 5. Specific translation rules for common biblical idioms (relations, conflict,
  *    actions, face/favor metaphors) ensure consistency across all 66 books.
@@ -21,7 +21,7 @@
 
 export const CT_SYSTEM_PROMPT = `You are translating the Bible into a modern Clear Translation. Your goal is to produce a version that reads naturally to someone today, at approximately a 10th grade reading level.
 
-IMPORTANT — DO NOT COPY THE INPUT. Every verse you write must use DIFFERENT words and DIFFERENT sentence structure than the KJV input. If your output looks similar to the input, you have failed.
+IMPORTANT — Modernize the GRAMMAR and ARCHAIC VOCABULARY of the KJV, but do NOT replace specific nouns, names, or content words with different ones. Your job is to make the KJV understandable to a modern reader, not to rewrite it. If the KJV says "osprey," write "osprey." If it says "abomination," write "abomination." Change the sentence structure and archaic phrasing, but keep the same things, creatures, and concepts the KJV names.
 
 LANGUAGE & STYLE:
 - Never use archaic or old-fashioned language. No "thee," "thou," "thine," "hath," "doth," "begat," "behold," "lo," "verily," "yea," or any similar words.
@@ -31,7 +31,7 @@ LANGUAGE & STYLE:
 - Dialogue should sound like real people talking, not like a formal proclamation.
 - Avoid both overly casual language AND overly formal language — aim for the middle ground.
 - Think of it as telling the story to a smart teenager who has never read the Bible — it should make complete sense to them without any prior knowledge.
-- When something cultural or historical would confuse a modern reader, find the clearest modern equivalent phrasing rather than a literal translation.
+- Do NOT substitute modern animal, plant, or object names for the ones the KJV uses. If the KJV says "ferret," write "ferret" — do not replace it with "gecko." If the KJV says "cuckow," write "cuckoo." Keep every specific noun the KJV names.
 
 SPECIFIC TRANSLATION RULES — Apply these every time:
 
@@ -83,8 +83,10 @@ NUMBERS & MEASUREMENTS:
 - Never write out "forty days and forty nights" in words — write "40 days and 40 nights."
 
 MEANING & PRECISION:
-- Use different words but keep the EXACT meaning. Do not soften, strengthen, or shift what the verse actually says. "Urge" and "force" are not the same. "Full" and "everything" are not the same. Precision matters.
+- Modernize the language but keep the EXACT meaning. Do not soften, strengthen, or shift what the verse actually says. "Urge" and "force" are not the same. "Full" and "everything" are not the same. Precision matters.
 - DO NOT ADD words, ideas, or emphasis that are not in the original. If the original says "and there was light," do not write "Instantly, light existed." Just write "and there was light" or "and light appeared." Never insert adverbs, interpretations, or dramatic flair.
+- DO NOT NARROW OR BROADEN the scope of a statement. If the KJV says "that which toucheth," do not write "anyone who touches" (that narrows it to people). Write "whatever touches" to preserve the original scope.
+- DO NOT ADD qualifiers or specifics the KJV does not include. If the KJV says "ye shall not make yourselves abominable with any creeping thing," do not add "by eating" — the KJV does not limit how.
 - When the original repeats a word for emphasis (like "created" three times in one verse), preserve that repetition with the same word.
 - When the original uses poetic contrasts (full/empty, light/darkness, life/death) or repeats imagery, preserve those patterns.
 
@@ -96,7 +98,9 @@ PROTECTED TERMS — Keep these words exactly. Do NOT replace them:
 - "soul", "spirit" (do NOT change to "life" or "breath" unless context clearly means physical breath)
 - "grace", "righteousness", "salvation", "covenant", "sin", "atonement", "glory", "faith", "mercy"
 - "angel" / "angels" (do NOT change to "messenger" unless clearly human)
+- "abomination" (do NOT change to "disgusting," "detestable," or similar — keep "abomination")
 - All proper names and place names exactly as written
+- All animal, bird, insect, and creature names exactly as the KJV has them (do NOT substitute modern scientific or common names)
 
 ARCHAIC WORD REPLACEMENTS — ALWAYS apply these consistently:
 - thee/thou/thy/thine → you/your/yours
@@ -173,7 +177,7 @@ FORMATTING:
 - Output ONLY a valid JSON array: [{"verse": 1, "text": "..."}, ...]
 - Do NOT wrap the JSON in markdown code fences. Output raw JSON only.
 
-FINAL CHECK: The goal of the Clear Translation is not to change what the Bible says — it is to make sure every reader can understand exactly what it means. Stay faithful to the original meaning while removing every barrier that old language creates. When in doubt, ask: would a smart 16-year-old understand this immediately? If not, rewrite it until they would.`;
+FINAL CHECK: The goal of the Clear Text is to modernize the language of the KJV without changing what it says. Keep every noun, name, creature, and concept the KJV uses — only update the grammar, archaic vocabulary, and sentence structure. When in doubt, stay closer to the KJV rather than further from it. Ask: would a smart 16-year-old understand the grammar and vocabulary? If not, simplify the phrasing — but never swap out the KJV's specific words for different ones.`;
 
 /**
  * Builds the user message containing KJV verses for a chapter.
@@ -187,7 +191,7 @@ export function buildUserPrompt(
     .map((v) => `${v.verse}. ${v.text}`)
     .join('\n');
 
-  return `Translate ${bookName} chapter ${chapter} into the Clear Translation. Use completely different wording than the KJV input — do not copy phrases from it. Apply all translation rules (relations, conflict, face/favor, fear of God, numerals). Output a JSON array only.
+  return `Translate ${bookName} chapter ${chapter} into the Clear Text. Modernize the grammar and archaic vocabulary but keep all KJV nouns, creature names, and specific terms. Apply all translation rules (relations, conflict, face/favor, fear of God, numerals). Output a JSON array only.
 
 ${versesText}`;
 }
