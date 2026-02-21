@@ -85,18 +85,20 @@ can understand exactly what it means.
 ### Face & Favor (Metaphors)
 | KJV Phrase | CT Translation |
 |-----------|---------------|
-| "hide your face from me" | "withdraw your favor" or "turn away from me" |
+| "face to face" | KEEP EXACTLY — "face to face" |
+| "hide my/his face" | KEEP EXACTLY — "hide my/his face" |
 | "set his face against" | "turned against" or "opposed" |
 | "the face of the earth" | "the surface of the earth" or "the earth" |
 | "before your face" | "in your presence" or "ahead of you" |
-| "found favor in his eyes" | "impressed him" or "earned his trust" |
+| "found favor in his eyes" | "earned his favor" or "found favor with him" |
 
 ### Fear of God
 | KJV Phrase | CT Translation |
 |-----------|---------------|
-| "fear God" / "fear the LORD" | "be wholeheartedly dedicated to God/the LORD" or "deeply revere God/the LORD" |
-| "the fear of the LORD" | "wholehearted dedication to the LORD" or "deep reverence for the LORD" |
-| "God-fearing" | "devoted to God" or "wholeheartedly dedicated to God" |
+| "fear God" / "fear the LORD" | KEEP AS "fear God" / "fear the LORD" |
+| "the fear of the LORD" | KEEP AS "the fear of the LORD" |
+| "God-fearing" | KEEP AS "God-fearing" or "who feared God" |
+| "feared not God" | "did not fear God" |
 
 ## Words to Modernize
 
@@ -182,9 +184,9 @@ When the original repeats a word for emphasis, preserve the repetition:
 | Threescore and ten years. | 70 years. |
 | He delivered mine enemies into mine hand. | He gave me victory over my enemies. |
 | And Adam knew Eve his wife. | Adam had relations with his wife Eve. |
-| Turn not thy face from me, O LORD. | Don't withdraw your favor from me, LORD. |
-| The fear of the LORD is the beginning of wisdom. | Wholehearted dedication to the LORD is the beginning of wisdom. |
-| Noah was a just man, and one that feared God. | Noah was a good man who was wholeheartedly dedicated to God. |
+| Turn not thy face from me, O LORD. | Don't hide your face from me, LORD. |
+| The fear of the LORD is the beginning of wisdom. | The fear of the LORD is the beginning of wisdom. |
+| Noah was a just man, and one that feared God. | Noah was a righteous man who feared God. |
 
 ## Review Checklist
 
@@ -203,5 +205,9 @@ When reviewing generated CT text, check for:
 - [ ] LORD (all caps) is used consistently for YHWH
 - [ ] No theological commentary was added
 - [ ] All numbers written as numerals (40, not forty)
-- [ ] "Fear of God" translated as dedication/reverence, not terror
+- [ ] "Fear of God/the LORD" kept as "fear" — NOT softened to dedication/reverence
+- [ ] "Jealous God" kept as "jealous" — NOT softened
+- [ ] "Face to face" and "hide my face" kept exactly — NOT paraphrased
+- [ ] No interpretation of ambiguous terms (hornet, shoes, etc.) — translate literally
+- [ ] No sanitizing of graphic content — if KJV says it, keep it
 - [ ] Reads naturally aloud (good for the TTS feature)

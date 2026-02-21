@@ -1,9 +1,10 @@
 /**
  * Claude API prompt template for generating Clear Translation (CT) text.
  *
- * Master prompt for the Bible Clear Translation — refined over extensive
- * iterative testing. Produces modern, natural-sounding translations at
- * approximately a 10th grade reading level.
+ * Master prompt for the Bible Clear Translation — refined through
+ * systematic auditing of Genesis through Judges against the KJV.
+ * Produces modern, natural-sounding translations at approximately
+ * a 10th grade reading level.
  *
  * Key design decisions:
  * 1. 10th grade reading level — clear, natural, direct prose.
@@ -61,19 +62,42 @@ Actions & Movement:
 - Never say "lifted up his eyes" — say "looked up" or "looked out."
 
 Face & Favor:
-- Never say "turn your face from me" or "hide your face from me" — say "stop looking on me with favor," "turn away from me," or "withdraw your favor" depending on context.
-- Never say "set his face against" someone — say "turned against" or "opposed."
-- Never say "the face of the earth" — say "the surface of the earth" or just "the earth."
-- Never say "before your face" — say "in your presence" or "ahead of you."
-- Never say "found favor in his eyes" — say "impressed him" or "earned his trust."
-- Any time the original uses "face" as a metaphor, translate what it actually means in that moment — favor, opposition, presence, or direction — rather than keeping the literal word.
+- "face to face" — ALWAYS keep this exact phrase. It is iconic biblical language (e.g., "the LORD knew Moses face to face"). Do NOT replace with "directly," "personally," or "intimately."
+- "hide my face" / "hide his face" — KEEP this phrase. It is covenant language about God withdrawing his presence. Do NOT replace with "withdraw my favor" or "turn away."
+- "the face of the earth" — say "the surface of the earth" or just "the earth."
+- "before your face" — say "in your presence" or "ahead of you."
+- "set his face against" someone — say "turned against" or "opposed."
+- "found favor in his eyes" — say "earned his favor" or "found favor with him."
+- For other "face" metaphors, translate what the phrase means in context — but ALWAYS preserve "face to face" and "hide my/his face" exactly.
 
 Fear of God:
-- Never translate "fear God" or "fear the LORD" as literal terror. The biblical concept means deep reverence and wholehearted devotion.
-- "Fear God" → "be wholeheartedly dedicated to God" or "deeply revere God."
-- "The fear of the LORD" → "wholehearted dedication to the LORD" or "deep reverence for the LORD."
-- "God-fearing" → "devoted to God" or "wholeheartedly dedicated to God."
-- Choose the phrasing that best fits the context — sometimes "deeply revere" works better, sometimes "wholeheartedly dedicated to" works better.
+- KEEP "fear God," "fear the LORD," and "the fear of the LORD" exactly as they are. Do NOT replace "fear" with "revere," "be dedicated to," "be devoted to," or any other softened phrasing.
+- "Fear" in the context of God is a specific, important theological term in the KJV. It means reverential awe that includes genuine fear — do not water it down.
+- "God-fearing" → keep as "God-fearing" or use "who feared God."
+- If the KJV says "feared not God," write "did not fear God" — do NOT change to "had no reverence for" or "were not devoted to."
+- This applies everywhere: laws, narratives, poetry, prophecy. The word "fear" in relation to God must always be preserved.
+
+DO NOT INTERPRET — Translate literally, do not substitute your interpretation:
+- "hornet" — keep as "hornet." Do NOT change to "terror," "panic," or "fear." The KJV says hornet.
+- "circumcise your heart" / "circumcise the foreskin of your heart" — keep the circumcision metaphor. Do NOT change to "transform your heart" or "dedicate your heart." This is theologically significant covenant language.
+- "jealous God" — keep as "jealous God." Do NOT change to "exclusive God," "God who demands loyalty," or any paraphrase. "Jealous" is the KJV's word.
+- "plowed with my heifer" — keep this idiom exactly. Do NOT paraphrase.
+- "the sword of the LORD" — keep this phrase. Do NOT drop "the sword of."
+- "head" and "tail" as metaphors (e.g., "the head and not the tail") — keep these exact words. Do NOT replace with "leader/follower" or similar.
+- "price of a dog" — keep as "price of a dog." Do NOT interpret as "male prostitute."
+- Directional language — if the KJV says "before Shechem," write "before Shechem," not "east of Shechem." If the KJV says "behind Kirjathjearim," write "behind Kirjathjearim," not "west of." Do NOT interpret ancient directional terms into modern compass directions.
+- Unnamed places — if the KJV says "a hill," do NOT turn it into a proper noun like "Gibeah." Keep it as "a hill."
+- "dedicated it" (house dedication) — keep as "dedicated it." Do NOT change to "moved into it." Dedication is a ceremony.
+- "taught" — if the KJV says someone "taught" others (even with thorns), keep "taught." Do NOT change to "punished."
+- "secret" — if the KJV says a name is "secret," keep "secret." Do NOT change to "beyond understanding."
+- "nephews" — if the KJV says "nephews," keep "nephews." Do NOT change to "grandsons."
+- Archaic plural people-group names ending in -ims or -ites — modernize by removing the archaic -s: "Emims" → "Emim," "Anakims" → "Anakim," "Horims" → "Horites," "Zamzummims" → "Zamzummim," "Avims" → "Avvites," "Caphtorims" → "Caphtorites."
+
+DO NOT SANITIZE — Keep graphic, vivid, or uncomfortable KJV content:
+- If the KJV includes graphic physical details (e.g., "the dirt came out"), keep them. Do NOT omit or soften graphic content.
+- If the KJV uses a crude or earthy metaphor, preserve it. The CT is not a children's Bible.
+- "great terror" — keep as "great terror." Do NOT soften to "acts of wonder."
+- If the KJV says someone was "humbled" (meaning had sexual relations forced on them), translate the meaning but do NOT soften it beyond recognition.
 
 NUMBERS & MEASUREMENTS:
 - Always use numerals — write "14" not "fourteen," "40" not "forty," "969" not "nine hundred and sixty-nine."
@@ -118,6 +142,17 @@ PROTECTED TERMS — Keep these words exactly. Do NOT replace them:
 - "estimation" / "thy estimation" (do NOT drop or change to "assess" / "value" — keep "estimation")
 - "breach" (do NOT change to "broken bone" — keep "breach")
 - "at your own will" (do NOT change to "in the proper way" — keep "at your own will")
+- "jealous" / "jealous God" (do NOT change to "exclusive" or "demands loyalty" — keep "jealous")
+- "testimonies" (do NOT change to "instructions" or "teachings" — keep "testimonies")
+- "holy" (do NOT downgrade to "clean" or "pure" when KJV says "holy" — keep "holy")
+- "inheritance" (do NOT change to "treasured possession" or "share" — keep "inheritance" when KJV uses it)
+- "perfect" (do NOT change to "devoted" or "committed" when KJV says "perfect" — keep "perfect")
+- "blessed" (do NOT change to "fortunate" or "happy" when KJV uses "blessed" — keep "blessed")
+- "right hand or to the left" (do NOT generalize to "in any direction" — keep the specific idiom)
+- "mighty hand and stretched out arm" (keep both images — do NOT compress to "great power")
+- "people of inheritance" (do NOT change to "treasured people" — keep "people of inheritance")
+- "called by the name of the LORD" (do NOT change to "belong to the LORD" — keep the covenantal phrase)
+- "pure blood of the grape" (do NOT change to "foaming juice" — keep the KJV imagery)
 - All proper names, place names, and people names exactly as written
 - All animal, bird, insect, and creature names exactly as the KJV has them (do NOT substitute modern scientific or common names)
 - All materials, objects, and specific nouns exactly as the KJV has them
@@ -177,16 +212,28 @@ BAD: And Adam knew Eve his wife.
 GOOD: Adam had relations with his wife Eve.
 
 BAD: Turn not thy face from me, O LORD.
-GOOD: Don't withdraw your favor from me, LORD.
+GOOD: Don't hide your face from me, LORD.
 
 BAD: And the sons of God saw the daughters of men that they were fair, and they went in unto them.
 GOOD: The sons of God noticed how beautiful the daughters of humans were, and they had relations with them.
 
 BAD: The fear of the LORD is the beginning of wisdom.
-GOOD: Wholehearted dedication to the LORD is the beginning of wisdom.
+GOOD: The fear of the LORD is the beginning of wisdom.
 
 BAD: Noah was a just man, and one that feared God.
-GOOD: Noah was a good man who was wholeheartedly dedicated to God.
+GOOD: Noah was a righteous man who feared God.
+
+BAD (interpreting instead of translating): "the LORD will send the hornet" → "the LORD will send terror"
+GOOD (keeping KJV term): "the LORD will send the hornet" → "the LORD will send the hornet among them"
+
+BAD (sanitizing): "circumcise the foreskin of your heart" → "dedicate your hearts to God"
+GOOD (keeping the metaphor): "circumcise the foreskin of your heart" → "circumcise the foreskin of your heart"
+
+BAD (softening): "a jealous God" → "a God who demands exclusive devotion"
+GOOD (keeping KJV term): "a jealous God" → "a jealous God"
+
+BAD (interpreting direction): "which is before Shechem" → "which is east of Shechem"
+GOOD (translating literally): "which is before Shechem" → "which is before Shechem"
 
 BAD (changing pronoun number): "If he wash them not, then he shall bear his iniquity." → "If they do not wash, they will bear their guilt."
 GOOD (keeping pronoun number): "If he wash them not, then he shall bear his iniquity." → "If he does not wash them, then he will bear his iniquity."
@@ -203,7 +250,18 @@ FORMATTING:
 - Output ONLY a valid JSON array: [{"verse": 1, "text": "..."}, ...]
 - Do NOT wrap the JSON in markdown code fences. Output raw JSON only.
 
-FINAL CHECK: The goal of the Clear Text is to modernize the language of the KJV without changing what it says. Keep every noun, name, creature, and concept the KJV uses — only update the grammar, archaic vocabulary, and sentence structure. When in doubt, stay closer to the KJV rather than further from it. Ask: would a smart 16-year-old understand the grammar and vocabulary? If not, simplify the phrasing — but never swap out the KJV's specific words for different ones.`;
+FINAL CHECK — Read this before outputting:
+1. The goal is to modernize the LANGUAGE of the KJV without changing what it SAYS.
+2. Keep every noun, name, creature, concept, and theological term the KJV uses.
+3. Only update grammar, archaic vocabulary, and sentence structure.
+4. When in doubt, stay CLOSER to the KJV rather than further from it.
+5. Did you keep "fear" for "fear of God/the LORD"? If you replaced it, fix it now.
+6. Did you keep "jealous God"? If you softened it, fix it now.
+7. Did you keep "face to face" and "hide my face"? If you paraphrased them, fix it now.
+8. Did you keep every phrase from the KJV? If you dropped anything, add it back now.
+9. Did you add any words not in the KJV? If so, remove them now.
+10. Did you interpret instead of translate? ("hornet"→"terror", "shoes"→"gate bars", "a hill"→"Gibeah") If so, go back to the KJV's actual words.
+11. Ask: would a smart 16-year-old understand the grammar and vocabulary? If not, simplify the phrasing — but never swap out the KJV's specific words for different ones.`;
 
 /**
  * Builds the user message containing KJV verses for a chapter.
@@ -217,7 +275,7 @@ export function buildUserPrompt(
     .map((v) => `${v.verse}. ${v.text}`)
     .join('\n');
 
-  return `Translate ${bookName} chapter ${chapter} into the Clear Text. Modernize the grammar and archaic vocabulary but keep all KJV nouns, creature names, and specific terms. Apply all translation rules (relations, conflict, face/favor, fear of God, numerals). Output a JSON array only.
+  return `Translate ${bookName} chapter ${chapter} into the Clear Text. Modernize the grammar and archaic vocabulary but keep all KJV nouns, creature names, and specific terms. Keep "fear of God/the LORD" as "fear." Keep "jealous God" as "jealous." Keep "face to face" and "hide my face" exactly. Do NOT interpret — translate literally. Apply all translation rules (relations, conflict, face/favor, numerals). Output a JSON array only.
 
 ${versesText}`;
 }
