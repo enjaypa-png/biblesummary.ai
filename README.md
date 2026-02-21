@@ -41,6 +41,7 @@ The Clear Translation is a modern English rendering of the entire Bible (31,000+
 | `npm run ct:progress` | Dashboard showing generation progress |
 | `npm run ct:review` | Quality review — 100 key verses side-by-side (KJV vs CT) with HTML output |
 | `npm run ct:edit` | Fix individual verses directly in Supabase |
+| `npm run ct:audit` | Audit a book's CT against KJV — flags errors with corrected text |
 
 The batch submit script supports targeted testing:
 ```bash
@@ -131,6 +132,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm run ct:progress` | CT generation progress |
 | `npm run ct:review` | Review 100 key verses |
 | `npm run ct:edit` | Edit individual CT verses |
+| `npm run ct:audit` | Audit CT against KJV for any book |
 
 ## Project Structure
 
@@ -186,6 +188,7 @@ scripts/
   ct-batch-download.ts            Batch result download and JSON conversion
   ct-review.ts                    Quality review tool (100 key verses, HTML output)
   ct-edit.ts                      Verse editor (lookup, dry-run, apply fixes)
+  ct-audit.ts                     Automated CT-vs-KJV audit (per book, outputs failures)
   ct-progress.ts                  Generation progress dashboard
   seed-ct-verses.ts               Seed CT into Supabase
   seed-books.ts                   Seed books table
