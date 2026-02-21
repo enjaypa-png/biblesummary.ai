@@ -88,7 +88,8 @@ MEANING & PRECISION:
 - DO NOT ADD words, ideas, or emphasis that are not in the original. Do not insert adjectives ("bronze" altar when KJV just says "altar"), materials ("olive" oil when KJV just says "oil"), titles ("the leader" when KJV does not say it), or explanatory phrases ("to dry," "you will die," "the first time," "at least," "already") that are not in the KJV. If it is not in the KJV, it must not be in your output.
 - DO NOT NARROW OR BROADEN the scope of a statement. If the KJV says "that which toucheth," do not write "anyone who touches" (that narrows it to people). Write "whatever touches" to preserve the original scope.
 - DO NOT ADD qualifiers or specifics the KJV does not include. If the KJV says "ye shall not make yourselves abominable with any creeping thing," do not add "by eating" — the KJV does not limit how.
-- DO NOT REPLACE specific KJV terms with interpretive alternatives. "Nursing father" is not "nurse." "Soul" is not "appetite." "Princes" is not "officials." "Children" is not "descendants." "Sister" is not "kinswoman." Keep the KJV's word choices and only modernize the grammar around them.
+- DO NOT REPLACE specific KJV terms with interpretive alternatives. "Nursing father" is not "nurse." "Soul" is not "appetite." "Princes" is not "officials." "Children" is not "descendants." "Sister" is not "kinswoman." "Breach" is not "broken bone." "Images" is not "incense altars." "At your own will" is not "in the proper way." Keep the KJV's word choices and only modernize the grammar around them.
+- DO NOT CHANGE the grammatical number of pronouns. If the KJV says "he," do not write "they." If the KJV says "him," do not write "them." Preserve singular and plural exactly as the KJV has them. Do not modernize pronouns for gender neutrality.
 - When the original repeats a word for emphasis (like "created" three times in one verse), preserve that repetition with the same word.
 - When the original uses poetic contrasts (full/empty, light/darkness, life/death) or repeats imagery, preserve those patterns.
 
@@ -103,7 +104,7 @@ PROTECTED TERMS — Keep these words exactly. Do NOT replace them:
 - "abomination" (do NOT change to "disgusting," "detestable," or similar — keep "abomination")
 - "unicorn" (do NOT change to "wild ox" — keep "unicorn")
 - "Ethiopian" (do NOT change to "Cushite" — keep "Ethiopian")
-- "leprous" / "leprosy" (do NOT change to "disease" or "skin condition" — keep "leprous" / "leprosy")
+- "leprous" / "leprosy" / "plague of leprosy" / "fretting leprosy" (do NOT change to "disease," "skin condition," "mildew," or "contamination" — keep the KJV's exact leprosy terminology)
 - "heave offering" (do NOT change to "contribution" — keep "heave offering")
 - "high places" (do NOT change to "worship sites" — keep "high places")
 - "water of separation" (do NOT change to "water of purification" — keep "water of separation")
@@ -111,6 +112,12 @@ PROTECTED TERMS — Keep these words exactly. Do NOT replace them:
 - "badgers' skins" (do NOT change to "fine leather" — keep "badgers' skins")
 - "tabernacle of the congregation" (do NOT change to "tent of meeting" — keep the KJV's phrasing)
 - "princes" (do NOT change to "officials" or "leaders" — keep "princes")
+- "solemn assembly" (do NOT change to "closing celebration" — keep "solemn assembly")
+- "firstfruits" (do NOT drop or change to "first bundle" — keep "firstfruits")
+- "images" (do NOT change to "incense altars" or "idols" — keep "images")
+- "estimation" / "thy estimation" (do NOT drop or change to "assess" / "value" — keep "estimation")
+- "breach" (do NOT change to "broken bone" — keep "breach")
+- "at your own will" (do NOT change to "in the proper way" — keep "at your own will")
 - All proper names, place names, and people names exactly as written
 - All animal, bird, insect, and creature names exactly as the KJV has them (do NOT substitute modern scientific or common names)
 - All materials, objects, and specific nouns exactly as the KJV has them
@@ -180,6 +187,12 @@ GOOD: Wholehearted dedication to the LORD is the beginning of wisdom.
 
 BAD: Noah was a just man, and one that feared God.
 GOOD: Noah was a good man who was wholeheartedly dedicated to God.
+
+BAD (changing pronoun number): "If he wash them not, then he shall bear his iniquity." → "If they do not wash, they will bear their guilt."
+GOOD (keeping pronoun number): "If he wash them not, then he shall bear his iniquity." → "If he does not wash them, then he will bear his iniquity."
+
+BAD (replacing KJV terms): "the plague of leprosy" → "a mildew-like contamination"
+GOOD (keeping KJV terms): "the plague of leprosy" → "the plague of leprosy"
 
 FORMATTING:
 - Write FRESH sentences. Do NOT keep the old English phrasing.
