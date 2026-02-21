@@ -5,7 +5,7 @@ A modern Bible reading companion with AI-powered summaries, verse explanations, 
 ## What This App Does
 
 - **Read the Bible** — Browse 66 books with two translations:
-  - **Clear Translation (CT)** — A modern English rendering created specifically for this app using Claude Opus 4.6. Designed to read like the NIV in quality and clarity while being fully owned and license-free.
+  - **Clear Text (CT)** — A modern English rendering created specifically for this app using Claude Opus 4.6. Designed to read like the NIV in quality and clarity while being fully owned and license-free. Currently under review — audited through Genesis–Judges so far.
   - **King James Version (KJV)** — The classic public domain text.
   - Users toggle between translations in the reading settings panel (Aa button). CT is the default.
 - **Listen** — Verse-by-verse text-to-speech audio powered by ElevenLabs, with playback controls and verse tracking
@@ -19,15 +19,26 @@ A modern Bible reading companion with AI-powered summaries, verse explanations, 
 - **Authentication** — Email/password signup and login with OTP email verification via Supabase Auth
 - **Reading Position** — Automatic tracking via localStorage with "Continue Reading" card on the index
 
-## Clear Translation (CT)
+## Clear Text (CT)
 
-The Clear Translation is a modern English rendering of the entire Bible (31,000+ verses across 1,189 chapters). It was generated using Claude Opus 4.6 with a carefully engineered prompt system that ensures:
+The Clear Text is a modern English rendering of the entire Bible (31,000+ verses across 1,189 chapters). It was generated using Claude Opus 4.6 with a carefully engineered prompt system, then systematically audited book-by-book against the KJV. The master prompt has been refined through audits of Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, and Judges.
 
-- **Theological precision** — Protected terms like "heaven," "created," "soul," "spirit," "grace," "righteousness," "salvation," "covenant," "sin," and "atonement" are preserved exactly
-- **Anti-embellishment** — No words, ideas, or emphasis are added that aren't in the original
-- **Repetition preservation** — When the original repeats a word for emphasis (like "created" 3x in Genesis 1:27), the CT preserves it
-- **Calibrated tone** — Clear and dignified, like a trusted friend explaining Scripture. Not formal ("luminaries") and not casual ("pack the water")
-- **Genre-aware** — Tested across narrative (Genesis), poetry (Psalms), law (Leviticus), prophecy (Isaiah), and epistles (Romans)
+Key principles:
+
+- **KJV fidelity** — Modernize grammar and archaic vocabulary, but preserve every KJV noun, creature name, and specific term. If the KJV says "osprey," the CT says "osprey"
+- **No additions or omissions** — Every phrase in the KJV has a counterpart in the CT. Nothing is added, dropped, softened, or strengthened
+- **Protected terms** — Theological terms (heaven, created, soul, spirit, grace, righteousness, salvation, covenant, sin, atonement, glory, faith, mercy, abomination, etc.) and KJV-specific nouns (unicorn, Ethiopian, leprosy, heave offering, high places, badgers' skins, fiery serpent, etc.) are preserved exactly
+- **Literal translation** — No interpretation. "Hornet" stays "hornet," "jealous God" stays "jealous God," "circumcise the foreskin of your heart" stays intact
+- **Repetition and contrast preservation** — When the original repeats a word for emphasis (like "created" 3x in Genesis 1:27), the CT preserves it. Poetic contrasts (full/empty, light/darkness) are kept
+- **Calibrated tone** — Clear and dignified at a 10th grade reading level. Not formal ("luminaries") and not casual ("pack the water")
+
+### CT Audit Status
+
+| Books | Status |
+|-------|--------|
+| Genesis–Judges (7 books) | Audited, corrections applied, prompt strengthened |
+| Ruth–Malachi (32 books) | Generated, not yet audited |
+| Matthew–Revelation (27 books) | Generated, not yet audited |
 
 ### CT Tooling
 
@@ -66,7 +77,7 @@ CT source files: `scripts/ct-translation/prompt.ts` (system prompt), `scripts/ct
 | Database + Auth | Supabase (PostgreSQL, Row Level Security, Auth) |
 | State | Zustand (explanation cache), React Context (audio, reading settings) |
 | AI Explanations | OpenAI GPT-4o-mini |
-| CT Generation | Anthropic Claude Opus 4.6 |
+| Clear Text Generation | Anthropic Claude Opus 4.6 |
 | Text-to-Speech | ElevenLabs |
 | Deployment | Vercel |
 
@@ -102,7 +113,7 @@ Run the Supabase migrations first (see `supabase/migrations/`), then:
 ```bash
 npm run seed:books      # Load 66 book records
 npm run seed:verses     # Fetch ~31,000 KJV verses
-npm run ct:seed         # Seed Clear Translation verses
+npm run ct:seed         # Seed Clear Text verses
 ```
 
 ### 4. Start the dev server
@@ -216,7 +227,7 @@ Supabase PostgreSQL with Row Level Security. The `verses` table stores both KJV 
 | Table | Purpose | RLS |
 |-------|---------|-----|
 | `books` | 66 Bible books metadata | Public read |
-| `verses` | ~62,000 verses (KJV + CT, with `translation` column) | Public read |
+| `verses` | ~62,000 verses (KJV + Clear Text, with `translation` column) | Public read |
 | `explanations` | Legacy cached AI verse explanations | Public read |
 | `verse_explanations` | Newer AI explanation cache | Public read, service write |
 | `notes` | User private verse notes | User's own data only |
