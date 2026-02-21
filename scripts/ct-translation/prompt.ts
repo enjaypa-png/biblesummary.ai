@@ -8,7 +8,7 @@
  * Key design decisions:
  * 1. 10th grade reading level — clear, natural, direct prose.
  * 2. Modernize grammar and archaic vocabulary, but preserve KJV nouns and content.
- * 3. Explicit "do not add" and "do not narrow/broaden" rules prevent drift.
+ * 3. Explicit "do not add," "do not omit," and "do not narrow/broaden" rules prevent drift.
  * 4. Protected terms list prevents theological drift (heaven→sky, created→made).
  * 5. Specific translation rules for common biblical idioms (relations, conflict,
  *    actions, face/favor metaphors) ensure consistency across all 66 books.
@@ -31,7 +31,7 @@ LANGUAGE & STYLE:
 - Dialogue should sound like real people talking, not like a formal proclamation.
 - Avoid both overly casual language AND overly formal language — aim for the middle ground.
 - Think of it as telling the story to a smart teenager who has never read the Bible — it should make complete sense to them without any prior knowledge.
-- Do NOT substitute modern animal, plant, or object names for the ones the KJV uses. If the KJV says "ferret," write "ferret" — do not replace it with "gecko." If the KJV says "cuckow," write "cuckoo." Keep every specific noun the KJV names.
+- Do NOT substitute modern names for the ones the KJV uses. Keep every specific noun the KJV names — animals ("ferret," "unicorn," "badgers' skins," "heifer"), peoples ("Ethiopian"), materials ("scarlet"), terms ("alarm," "high places," "heave offering"), and descriptions ("leprous," "fiery serpent"). Modernize only the grammar around them.
 
 SPECIFIC TRANSLATION RULES — Apply these every time:
 
@@ -77,16 +77,18 @@ Fear of God:
 
 NUMBERS & MEASUREMENTS:
 - Always use numerals — write "14" not "fourteen," "40" not "forty," "969" not "nine hundred and sixty-nine."
-- Convert ancient measurements to modern equivalents where helpful — cubits to feet, for example.
 - Keep all ages, years, and quantities as numerals throughout.
 - Never write out "threescore and ten" — write "70."
 - Never write out "forty days and forty nights" in words — write "40 days and 40 nights."
+- Keep the KJV's original units of measurement — cubits, shekels, ephahs, etc. Do NOT convert to modern units like feet, pounds, or bushels.
 
 MEANING & PRECISION:
 - Modernize the language but keep the EXACT meaning. Do not soften, strengthen, or shift what the verse actually says. "Urge" and "force" are not the same. "Full" and "everything" are not the same. Precision matters.
-- DO NOT ADD words, ideas, or emphasis that are not in the original. If the original says "and there was light," do not write "Instantly, light existed." Just write "and there was light" or "and light appeared." Never insert adverbs, interpretations, or dramatic flair.
+- DO NOT OMIT any words, phrases, or clauses from the KJV. Every piece of content in the KJV verse must have a counterpart in your output. Do not compress, summarize, or skip phrases you consider redundant. If the KJV says "saying" at the end of a verse, include it. If the KJV says "so did he" or "by the hand of Moses," include those phrases. If the KJV ends a verse with "unto them," include it. Nothing gets dropped.
+- DO NOT ADD words, ideas, or emphasis that are not in the original. Do not insert adjectives ("bronze" altar when KJV just says "altar"), materials ("olive" oil when KJV just says "oil"), titles ("the leader" when KJV does not say it), or explanatory phrases ("to dry," "you will die," "the first time," "at least," "already") that are not in the KJV. If it is not in the KJV, it must not be in your output.
 - DO NOT NARROW OR BROADEN the scope of a statement. If the KJV says "that which toucheth," do not write "anyone who touches" (that narrows it to people). Write "whatever touches" to preserve the original scope.
 - DO NOT ADD qualifiers or specifics the KJV does not include. If the KJV says "ye shall not make yourselves abominable with any creeping thing," do not add "by eating" — the KJV does not limit how.
+- DO NOT REPLACE specific KJV terms with interpretive alternatives. "Nursing father" is not "nurse." "Soul" is not "appetite." "Princes" is not "officials." "Children" is not "descendants." "Sister" is not "kinswoman." Keep the KJV's word choices and only modernize the grammar around them.
 - When the original repeats a word for emphasis (like "created" three times in one verse), preserve that repetition with the same word.
 - When the original uses poetic contrasts (full/empty, light/darkness, life/death) or repeats imagery, preserve those patterns.
 
@@ -99,8 +101,19 @@ PROTECTED TERMS — Keep these words exactly. Do NOT replace them:
 - "grace", "righteousness", "salvation", "covenant", "sin", "atonement", "glory", "faith", "mercy"
 - "angel" / "angels" (do NOT change to "messenger" unless clearly human)
 - "abomination" (do NOT change to "disgusting," "detestable," or similar — keep "abomination")
-- All proper names and place names exactly as written
+- "unicorn" (do NOT change to "wild ox" — keep "unicorn")
+- "Ethiopian" (do NOT change to "Cushite" — keep "Ethiopian")
+- "leprous" / "leprosy" (do NOT change to "disease" or "skin condition" — keep "leprous" / "leprosy")
+- "heave offering" (do NOT change to "contribution" — keep "heave offering")
+- "high places" (do NOT change to "worship sites" — keep "high places")
+- "water of separation" (do NOT change to "water of purification" — keep "water of separation")
+- "fiery serpent" (do NOT change to "venomous snake" — keep "fiery serpent")
+- "badgers' skins" (do NOT change to "fine leather" — keep "badgers' skins")
+- "tabernacle of the congregation" (do NOT change to "tent of meeting" — keep the KJV's phrasing)
+- "princes" (do NOT change to "officials" or "leaders" — keep "princes")
+- All proper names, place names, and people names exactly as written
 - All animal, bird, insect, and creature names exactly as the KJV has them (do NOT substitute modern scientific or common names)
+- All materials, objects, and specific nouns exactly as the KJV has them
 
 ARCHAIC WORD REPLACEMENTS — ALWAYS apply these consistently:
 - thee/thou/thy/thine → you/your/yours
@@ -171,7 +184,7 @@ GOOD: Noah was a good man who was wholeheartedly dedicated to God.
 FORMATTING:
 - Write FRESH sentences. Do NOT keep the old English phrasing.
 - Remove "And" from the beginning of sentences when it is just a connector. But keep "And" when it carries real meaning or emphasis (e.g., "And God said" can become "Then God said" or "God said").
-- Put quotation marks around spoken words. Use double quotes for direct speech, single quotes for speech within speech.
+- Put quotation marks around spoken words. Use double quotes for direct speech, single quotes for speech within speech. Make sure every opening quotation mark has a matching closing quotation mark within the same verse or at the end of a multi-verse speech.
 - Keep all proper names exactly as they are.
 - One verse in = one verse out. Do NOT merge or split verses.
 - Output ONLY a valid JSON array: [{"verse": 1, "text": "..."}, ...]
