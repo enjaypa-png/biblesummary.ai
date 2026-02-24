@@ -18,6 +18,7 @@
     "ct:batch:download": "tsx scripts/ct-batch-download.ts",
     "ct:review": "tsx scripts/ct-review.ts",
     "ct:edit": "tsx scripts/ct-edit.ts",
+    "ct:audit": "tsx scripts/ct-audit.ts",
     "modernize": "tsx scripts/modernize-kjv.ts",
     "seed:modern": "tsx scripts/seed-modern-text.ts"
   },

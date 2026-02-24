@@ -2,62 +2,47 @@
 
 ## Purpose
 
-The Clear Translation (CT) is a modern-English rendering of the Bible
-designed for BibleSummary.ai. It sits alongside the King James Version (KJV) to
-give readers an accessible, fully understandable entry point to Scripture.
+The Clear Translation (CT) modernizes the King James Version's grammar and archaic vocabulary so any reader today can understand it. It sits alongside the KJV in BibleSummary.ai to give readers an accessible entry point to Scripture.
 
-The goal is not to change what the Bible says — it is to make sure every reader
-can understand exactly what it means.
+**The goal is not to change what the Bible says — it is to make sure every reader can understand the language it's written in.**
 
-## Core Principles
+## Core Principle
 
-### 1. Faithful to Meaning
-- Convey the same meaning as the original text
-- Do not add theological interpretation or commentary
-- Do not remove or skip content — every verse must be represented
-- Preserve the verse-by-verse structure (same verse numbers as KJV)
-- Precision matters: "urge" ≠ "force," "full" ≠ "everything"
+Modernize ONLY the grammar and archaic vocabulary. Never change nouns, names, creatures, materials, places, or theological terms. If the KJV says it, the CT keeps it — just in modern sentence structure.
 
-### 2. Modern English (10th Grade Reading Level)
-- Write the way a thoughtful person speaks today — clear, natural, and direct
-- The text should flow like a story being told, not like a religious recitation
-- Think of it as telling the story to a smart teenager who has never read the Bible
-- When something cultural or historical would confuse a modern reader, find the clearest modern equivalent phrasing
-- No archaic language whatsoever
+## Rules
 
-### 3. Natural Sentence Structure
-- Break long KJV compound sentences into shorter ones when it helps readability
-- Dialogue should sound like real people talking, not formal proclamations
-- Avoid both overly casual AND overly formal language — aim for the middle ground
-- Remove "And" from the beginning of sentences when it's just a connector
+### 1. Never Add
+No words, adjectives, titles, qualifiers, or explanatory phrases not in the KJV. If it is not in the KJV, it must not be in the CT.
 
-### 4. Consistent Terminology
-- Use the same English word for recurring concepts within a book
-- Keep proper nouns and place names as-is
-- Standard terms: LORD (all caps when representing YHWH), God, Christ, Holy Spirit
+### 2. Never Omit
+Every KJV word, phrase, and clause must have a counterpart in the CT. Do not compress, summarize, or skip anything.
 
-### 5. No Added Commentary
-- The CT is a translation, not a study Bible
-- Do not insert explanatory notes into the verse text
-- Do not add adverbs, interpretations, or dramatic flair
+### 3. Never Interpret
+Translate literally. "Hornet" stays "hornet." "Circumcise your heart" stays as-is. "A hill" stays "a hill." Directional language stays literal.
 
-## Formatting Rules
+### 4. Never Sanitize
+Keep graphic, vivid, or uncomfortable content exactly as the KJV has it.
 
-- Preserve verse numbers exactly as in KJV
-- Do not merge or split verses
-- Do not add section headings or subtitles (the app handles that)
-- Quotation marks: double quotes for direct speech, single quotes for speech within speech
-- Numbers: ALWAYS use numerals — write "14" not "fourteen," "40" not "forty," "969" not "nine hundred and sixty-nine"
-- Convert ancient measurements to modern equivalents where helpful (cubits to feet)
+### 5. Never Change Pronoun Number
+"He" stays "he." "Him" stays "him." Singular stays singular, plural stays plural.
+
+### 6. Never Narrow or Broaden Scope
+"That which toucheth" → "whatever touches," not "anyone who touches."
+
+### 7. Keep All KJV Nouns Exactly
+Every specific noun the KJV uses stays — animals, materials, terms, theological words, descriptions. Do NOT substitute modern alternatives.
+
+### 8. Preserve Emphasis & Patterns
+Keep word repetition for emphasis. Preserve poetic contrasts and specific idioms exactly.
 
 ## Specific Translation Rules
 
 ### Sexual Relations & Relationships
 | KJV Phrase | CT Translation |
 |-----------|---------------|
-| "went in to" / "went into" (relations) | "had relations with" |
 | "knew his wife" | "had relations with his wife" |
-| "lay with" | "slept with" or "had relations with" |
+| "went in to" / "lay with" | "had relations with" or "slept with" |
 | "she conceived" | "she became pregnant" |
 | "the LORD opened her womb" | "God allowed her to become pregnant" |
 | "concubine" | "secondary wife" or "servant wife" |
@@ -69,36 +54,43 @@ can understand exactly what it means.
 | "smote" / "smite" | "struck," "attacked," or "defeated" |
 | "slay" / "slew" | "killed" or "defeated" |
 | "gathered to his people" | "joined his ancestors" |
-| "gave up the ghost" | "took his last breath" or "passed away" |
-| "smote them hip and thigh" | "struck them down completely" |
+| "gave up the ghost" | "took his last breath" |
+| "smote hip and thigh" | "struck them down completely" |
 
 ### Actions & Movement
 | KJV Phrase | CT Translation |
 |-----------|---------------|
-| "pitched his tent" | "set up camp" or "made his home" |
-| "girded his loins" | "prepared himself" or "got ready" |
+| "pitched his tent" | "set up camp" |
+| "girded his loins" | "prepared himself" |
 | "rent his clothes" | "tore his clothes in grief" |
-| "fell upon his neck" | "threw his arms around him" or "embraced him" |
-| "set his face toward" | "headed toward" or "made his way to" |
-| "lifted up his eyes" | "looked up" or "looked out" |
+| "fell upon his neck" | "embraced him" |
+| "set his face toward" | "headed toward" |
+| "lifted up his eyes" | "looked up" |
 
-### Face & Favor (Metaphors)
+### Face Idioms
 | KJV Phrase | CT Translation |
 |-----------|---------------|
-| "hide your face from me" | "withdraw your favor" or "turn away from me" |
+| "face to face" | **Keep exactly** — never paraphrase |
+| "hide my/his face" | **Keep exactly** — covenant language |
+| "the face of the earth" | "the surface of the earth" |
+| "before your face" | "in your presence" |
 | "set his face against" | "turned against" or "opposed" |
-| "the face of the earth" | "the surface of the earth" or "the earth" |
-| "before your face" | "in your presence" or "ahead of you" |
-| "found favor in his eyes" | "impressed him" or "earned his trust" |
+| "found favor in his eyes" | "found favor with him" |
 
 ### Fear of God
 | KJV Phrase | CT Translation |
 |-----------|---------------|
-| "fear God" / "fear the LORD" | "be wholeheartedly dedicated to God/the LORD" or "deeply revere God/the LORD" |
-| "the fear of the LORD" | "wholehearted dedication to the LORD" or "deep reverence for the LORD" |
-| "God-fearing" | "devoted to God" or "wholeheartedly dedicated to God" |
+| "fear God" / "fear the LORD" | **Keep "fear" exactly** — never soften |
+| "the fear of the LORD" | **Keep exactly** |
+| "God-fearing" | "God-fearing" or "who feared God" |
 
-## Words to Modernize
+## Protected Terms — Never Replace
+
+heaven/heavens, created, made, God, LORD, Lord GOD, the Almighty, Christ, Holy Spirit, soul, spirit, grace, righteousness, salvation, covenant, sin, atonement, glory, faith, mercy, angel/angels, abomination, unicorn, Ethiopian, all proper names and place names
+
+Also keep exactly: leprosy/leprous, heave offering, high places, solemn assembly, tabernacle of the congregation, water of separation, fiery serpent, badgers' skins, firstfruits, images, estimation, breach, testimonies, holy, inheritance, perfect, blessed, jealous (God), princes, children, sister, nursing father
+
+## Archaic Word Replacements
 
 | KJV Term | CT Replacement |
 |----------|---------------|
@@ -106,6 +98,7 @@ can understand exactly what it means.
 | hath, hast | has, have |
 | doth, dost | does, do |
 | saith | says, said |
+| spake | spoke |
 | begat | became the father of |
 | unto | to |
 | thereof | of it |
@@ -115,18 +108,17 @@ can understand exactly what it means.
 | goeth | goes |
 | shalt, wilt | will |
 | whoso, whosoever | whoever |
-| brethren | brothers (or brothers and sisters, when contextually appropriate) |
+| brethren | brothers |
 | raiment | clothing |
 | behold / lo | look / see / pay attention |
 | hearken | listen |
 | abode | stayed / lived |
 | wroth | angry |
 | smote | struck |
-| spake | spoke |
 | nigh | near |
 | kindred | relatives / family |
 | victuals | food |
-| whence | where / from where |
+| whence | from where |
 | thither | there |
 | hither | here |
 | yea | yes |
@@ -135,73 +127,38 @@ can understand exactly what it means.
 | firmament | expanse |
 | sepulchre | tomb |
 
-## Protected Terms — DO NOT Change These
+Archaic plural people-groups: drop the extra -s (Emims → Emim, Anakims → Anakim, Zamzummims → Zamzummim, Horims → Horites, Avims → Avvites, Caphtorims → Caphtorites).
 
-Some KJV terms carry specific theological weight and must be preserved in the CT.
+## Formatting Rules
 
-| KJV Term | Rule |
-|----------|------|
-| heaven / heavens | Keep as-is. Do NOT change to "sky." |
-| created | Keep when KJV uses "created." Do NOT swap to "made" or "formed." |
-| soul | Keep as "soul." Do NOT change to "life" unless context clearly means physical life. |
-| spirit | Keep as "spirit." Do NOT change to "breath" unless context clearly means physical breath. |
-| grace | Keep as "grace." |
-| righteousness | Keep as "righteousness." |
-| salvation | Keep as "salvation." |
-| covenant | Keep as "covenant." |
-| sin | Keep as "sin." |
-| atonement | Keep as "atonement." |
-| glory | Keep as "glory." |
-| God, LORD, Lord GOD, the Almighty | Keep exactly as written. |
+- Numbers: ALWAYS use numerals (40, not "forty")
+- Units: Keep KJV units — cubits, shekels, ephahs. Do NOT convert.
+- Verse structure: One verse in = one verse out. Never merge or split.
+- Quotation marks: double for direct speech, single for speech-within-speech
+- Remove connector "And" at sentence starts; keep when meaningful
+- Proper nouns unchanged
 
-## Tone Guidelines
+## Tone
 
-The CT should sound **clear and dignified** — like a trusted friend explaining Scripture, not a professor lecturing or a teenager texting.
+Clear and dignified — like a trusted friend explaining what the KJV says in today's language. Not academic, not casual. A smart 16-year-old should understand every sentence immediately.
 
-- **Too formal:** "Let luminaries appear in the expanse" → Use "lights" instead
-- **Too casual:** "pack the water in the seas" → Use "fill the waters" instead
-- **Just right:** "Let lights appear in the expanse of the heavens"
+## Audit Checklist
 
-Do NOT add words that aren't in the original:
-- **Bad:** "Instantly, light existed" (adds "instantly" — not in original)
-- **Good:** "And light appeared" (clean, simple, faithful)
-
-When the original repeats a word for emphasis, preserve the repetition:
-- **KJV:** "So God created man... in the image of God created he him... male and female created he them"
-- **CT:** "So God created human beings... in the image of God he created them... male and female he created them"
-
-## Examples
-
-### BAD → GOOD Comparisons
-
-| BAD (Don't write this) | GOOD (Write this) |
-|------------------------|-------------------|
-| And it came to pass that Abram went down into Egypt to sojourn there. | So Abram traveled down to Egypt to live there for a while. |
-| And he smote them hip and thigh with a great slaughter. | He struck them down completely and defeated them. |
-| And Leah conceived and bare a son. | Leah became pregnant and gave birth to a son. |
-| Threescore and ten years. | 70 years. |
-| He delivered mine enemies into mine hand. | He gave me victory over my enemies. |
-| And Adam knew Eve his wife. | Adam had relations with his wife Eve. |
-| Turn not thy face from me, O LORD. | Don't withdraw your favor from me, LORD. |
-| The fear of the LORD is the beginning of wisdom. | Wholehearted dedication to the LORD is the beginning of wisdom. |
-| Noah was a just man, and one that feared God. | Noah was a good man who was wholeheartedly dedicated to God. |
-
-## Review Checklist
-
-When reviewing generated CT text, check for:
+When reviewing CT text, check for:
 
 - [ ] Every KJV verse has a corresponding CT verse (no missing verses)
 - [ ] Verse numbers match exactly
-- [ ] Meaning is preserved (no additions or omissions)
-- [ ] No words/emphasis ADDED that aren't in the original
-- [ ] Protected terms preserved (heaven, created, soul, spirit, grace, etc.)
-- [ ] Word repetition for emphasis is preserved (e.g., "created" 3x in Gen 1:27)
-- [ ] Poetic contrasts preserved (full/empty, light/darkness)
-- [ ] Language is modern and accessible (no archaic phrasing)
-- [ ] Tone is clear and dignified (not too formal, not too casual)
-- [ ] Proper nouns are unchanged
-- [ ] LORD (all caps) is used consistently for YHWH
-- [ ] No theological commentary was added
-- [ ] All numbers written as numerals (40, not forty)
-- [ ] "Fear of God" translated as dedication/reverence, not terror
-- [ ] Reads naturally aloud (good for the TTS feature)
+- [ ] No words/phrases ADDED that aren't in the KJV
+- [ ] No words/phrases OMITTED from the KJV
+- [ ] No KJV nouns replaced with different words
+- [ ] No interpretation (literal translation only)
+- [ ] No sanitizing of graphic content
+- [ ] Pronoun number preserved (he→he, not they)
+- [ ] Protected terms preserved exactly
+- [ ] "Fear of God/LORD" kept as "fear"
+- [ ] "Face to face" and "hide my face" kept exactly
+- [ ] Word repetition for emphasis preserved
+- [ ] All numbers written as numerals
+- [ ] KJV units preserved (cubits, shekels, etc.)
+- [ ] No archaic language remains
+- [ ] Reads naturally at a 10th-grade level
