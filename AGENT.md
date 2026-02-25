@@ -21,7 +21,7 @@ The Bible text on `/bible/[book]/[chapter]` is the core of the app. Do not chang
 - The flow of inline text (verses render as continuous inline text, not as block elements)
 - Page layout or max-width constraints
 
-The app supports two translations: **Clear Bible Translation (CBT)** and **King James Version (KJV)**. CT is the default. The CT is currently **under audit** to ensure it accurately tells the same story as the KJV. The user's translation preference is stored in localStorage via `ReadingSettingsContext`. When the user toggles translations, `ChapterReaderClient` re-fetches verses from Supabase filtered by the `translation` column. CT shows CT. KJV shows KJV. There is no fallback or mixing between translations.
+The app supports two translations: **Clear Bible Translation (CT)** and **King James Version (KJV)**. CT is the default. The CT is currently **under audit** to ensure it accurately tells the same story as the KJV. The user's translation preference is stored in localStorage via `ReadingSettingsContext`. When the user toggles translations, `ChapterReaderClient` re-fetches verses from Supabase filtered by the `translation` column. CT shows CT. KJV shows KJV. There is no fallback or mixing between translations.
 
 Changes to `ChapterReaderClient.tsx` require extra care. This file handles translation switching, notes, explanations, audio sync, sharing, verse highlighting, and the action bar. Test all of these flows after any edit.
 
@@ -58,7 +58,7 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles trans
 - The system prompt enforces: 2-4 sentences, plain English, no theology, no preaching.
 - Do not change the system prompt without explicit approval.
 
-### Clear Bible Translation (CBT)
+### Clear Bible Translation (CT)
 
 - The CT modernizes the KJV's grammar and archaic vocabulary so modern readers can understand it. It does NOT change what the KJV says — every KJV noun, name, creature, material, and theological term stays exactly as-is. Only the sentence structure and old-English words get updated.
 - **Audit status:** The CT is currently being audited book-by-book against the KJV. User-facing labels call it "Clear Bible Translation" and note "Under Review."

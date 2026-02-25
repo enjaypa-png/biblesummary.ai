@@ -5,7 +5,7 @@ A modern Bible reading companion with AI-powered summaries, verse explanations, 
 ## What This App Does
 
 - **Read the Bible** — Browse 66 books with two translations:
-  - **Clear Bible Translation (CBT)** — A modern English rendering created specifically for this app using Claude Opus 4.6. Designed to read like the NIV in quality and clarity while being fully owned and license-free.
+  - **Clear Bible Translation (CT)** — A modern English rendering created specifically for this app using Claude Opus 4.6. Designed to read like the NIV in quality and clarity while being fully owned and license-free.
   - **King James Version (KJV)** — The classic public domain text.
   - Users toggle between translations in the reading settings panel (Aa button). CT is the default.
 - **Listen** — Verse-by-verse text-to-speech audio powered by ElevenLabs, with playback controls and verse tracking
@@ -19,7 +19,7 @@ A modern Bible reading companion with AI-powered summaries, verse explanations, 
 - **Authentication** — Email/password signup and login with OTP email verification via Supabase Auth
 - **Reading Position** — Automatic tracking via localStorage with "Continue Reading" card on the index
 
-## Clear Bible Translation (CBT)
+## Clear Bible Translation (CT)
 
 The Clear Bible Translation is a modern English rendering of the entire Bible (31,000+ verses across 1,189 chapters). It was generated using Claude Opus 4.6 with a carefully engineered prompt system that ensures:
 
