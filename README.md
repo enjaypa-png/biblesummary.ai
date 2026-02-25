@@ -212,6 +212,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm run lint` | ESLint |
 | `npm run seed:books` | Populate books table |
 | `npm run seed:verses` | Populate KJV verses |
+| `npm run seed:summaries` | Load book summaries |
 | `npm run ct:generate` | Generate CT chapters (real-time) |
 | `npm run ct:batch:submit` | Submit CT batch (50% off) |
 | `npm run ct:batch:status` | Check batch status |
@@ -220,6 +221,13 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm run ct:progress` | CT generation progress |
 | `npm run ct:review` | Review 100 key verses |
 | `npm run ct:edit` | Edit individual CT verses |
+| `npm run ct:audit:batch:submit` | Phase 1 — Rewrite CT under stricter rules |
+| `npm run ct:audit:batch:status` | Check Phase 1 batch status |
+| `npm run ct:audit:batch:download` | Download Phase 1 results |
+| `npm run ct:audit:batch:phase2:submit` | Phase 2 — Independent verification |
+| `npm run ct:audit:batch:phase2:status` | Check Phase 2 status |
+| `npm run ct:audit:batch:phase2:download` | Download Phase 2 results |
+| `npm run ct:audit:full:run` | Full 3-phase audit orchestrator |
 
 ## Project Structure
 
@@ -269,10 +277,18 @@ scripts/
   ct-translation/
     prompt.ts                     CT system prompt with protected terms and rules
     STYLE-GUIDE.md                Tone calibration, examples, review checklist
+    AUDIT-RULES.md                "Meaning lock" rules for audit agents
   generate-ct-translation.ts      Real-time CT generation (one chapter at a time)
   ct-batch-submit.ts              Batch API submission (50% cost savings)
   ct-batch-status.ts              Batch status polling
   ct-batch-download.ts            Batch result download and JSON conversion
+  ct-audit-batch-submit.ts        Phase 1 — Rewrite CT under stricter audit rules
+  ct-audit-batch-status.ts        Phase 1 status polling
+  ct-audit-batch-download.ts      Phase 1 result download
+  ct-audit-batch-phase2-submit.ts Phase 2 — Independent verification
+  ct-audit-batch-phase2-status.ts Phase 2 status polling
+  ct-audit-batch-phase2-download.ts Phase 2 result download
+  ct-audit-full-run.ts            Full 3-phase audit orchestrator
   ct-review.ts                    Quality review tool (100 key verses, HTML output)
   ct-edit.ts                      Verse editor (lookup, dry-run, apply fixes)
   ct-progress.ts                  Generation progress dashboard

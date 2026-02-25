@@ -2,6 +2,76 @@
 
 This file defines how to work in this codebase without breaking things. Read it before making changes.
 
+## Project Overview
+
+BibleSummary.ai is a Bible reading companion built with Next.js 14 (App Router). It serves two translations (Clear Text and KJV), verse-by-verse text-to-speech audio, AI explanations, notes, highlights, bookmarks, and paid book summaries. The app is mobile-first, deployed on Vercel, backed by Supabase.
+
+### What the app does
+
+- **Read the Bible** — 66 books, two translations (Clear Text default, KJV toggle). Users switch via the Aa settings panel.
+- **Listen** — Verse-by-verse TTS audio (ElevenLabs) with playback controls and verse tracking
+- **Explain** — Tap any verse for a plain-English AI explanation (OpenAI GPT-4o-mini), cached in DB
+- **Take Notes** — Personal notes on any verse, stored per user in Supabase
+- **Highlights** — Color-code verses with 5 colors; browse all highlights organized by book
+- **Bookmarks** — One manual bookmark per user (creating a new one replaces the old)
+- **Share Verses** — Via Web Share API or clipboard (includes current translation name)
+- **Reading Settings** — Font family, font size, line height, color theme (light/sepia/gray/dark), narrator voice, translation toggle
+- **Book Summaries** — Paid feature. Pre-written summaries for each book stored in `content/summaries/`
+- **Authentication** — Email/password with OTP email verification via Supabase Auth
+- **Reading Position** — Automatic tracking via localStorage with "Continue Reading" card
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 14 (App Router), React 18 |
+| Language | TypeScript (strict mode) |
+| Styling | Tailwind CSS 3, PostCSS, CSS variables for theming |
+| Database + Auth | Supabase (PostgreSQL + Auth + Row Level Security) |
+| State | Zustand (explanation cache), React Context (audio, reading settings), localStorage (reading position) |
+| AI Explanations | OpenAI GPT-4o-mini |
+| CT Generation | Anthropic Claude Opus 4.6 |
+| Text-to-Speech | ElevenLabs (verse-by-verse) |
+| Payments | Stripe (subscriptions + one-time purchases) |
+| Deployment | Vercel |
+
+## Commands
+
+```bash
+npm run dev          # Start dev server
+npm run build        # Production build (run before pushing)
+npm run lint         # ESLint (next/core-web-vitals)
+npm run start        # Start production server
+```
+
+### Data/Content Scripts (require SUPABASE_SERVICE_ROLE_KEY)
+
+```bash
+npm run seed:books       # Seed 66 books into Supabase
+npm run seed:verses      # Fetch KJV from GitHub, load ~31k verses
+npm run seed:summaries   # Load book summaries from content/summaries/
+npm run ct:seed          # Load Clear Translation verses from data/translations/
+npm run ct:generate      # Generate CT chapters via Claude API (one at a time)
+npm run ct:batch:submit  # Submit CT chapters to Anthropic Batch API
+npm run ct:batch:status  # Check batch processing status
+npm run ct:batch:download # Download completed batches
+npm run ct:progress      # Dashboard of CT generation progress
+npm run ct:review        # Side-by-side HTML report of ~100 key verses
+npm run ct:edit          # Fix individual CT verses (uses FIXES array in script)
+```
+
+### CT Audit Scripts (Old Testament 3-phase audit)
+
+```bash
+npm run ct:audit:batch:submit            # Phase 1 — Rewrite CT under stricter rules
+npm run ct:audit:batch:status            # Check Phase 1 batch status
+npm run ct:audit:batch:download          # Download Phase 1 results
+npm run ct:audit:batch:phase2:submit     # Phase 2 — Independent verification
+npm run ct:audit:batch:phase2:status     # Check Phase 2 status
+npm run ct:audit:batch:phase2:download   # Download Phase 2 results (--json-summary)
+npm run ct:audit:full:run                # Full 3-phase orchestrator (--from-book to resume)
+```
+
 ## Project Philosophy
 
 - **Accuracy over speed.** A correct, clean change is better than a fast, sloppy one.
@@ -284,3 +354,124 @@ These areas are the most likely to cause regressions if edited carelessly:
 | `VerseActionBar.tsx` | Low | Action bar appearance and click handlers |
 | `notes/page.tsx` | Low | Notes list and navigation to verses |
 | `highlights/page.tsx` | Low | Highlights list and navigation to verses |
+
+## Project Structure
+
+```
+app/
+├── api/                    # 10 API routes (see API Routes below)
+├── auth/callback/          # OAuth callback
+├── bible/                  # Core reading experience
+│   ├── BibleIndex.tsx      # Book list with translation name
+│   ├── [book]/page.tsx     # Book/chapter selection
+│   └── [book]/[chapter]/   # Chapter reader (ChapterReaderClient.tsx)
+│       └── summary/        # Book summary view
+├── bookmarks/              # User bookmarks page
+├── highlights/             # User highlights page
+├── listen/                 # Audio listening interface
+├── login/ signup/          # Authentication
+├── notes/                  # User notes page
+├── onboarding/             # Onboarding flow
+├── pricing/                # Stripe checkout + success/cancel
+├── search/                 # Placeholder (Coming Soon)
+├── summaries/              # Summaries hub + [book] detail
+├── privacy/ terms/ refunds/ # Legal pages
+├── layout.tsx              # Root layout (providers, BottomTabBar, MiniPlayer)
+├── page.tsx                # Landing page
+└── globals.css             # CSS variables, theme definitions, verse styling
+
+components/
+├── AuthGate.tsx            # Auth state wrapper
+├── BottomTabBar.tsx        # Navigation tabs
+├── Navigation.tsx          # Header nav
+├── MiniPlayer.tsx          # Floating audio player
+├── InlineAudioPlayer.tsx   # In-chapter audio controls
+├── ReadingSettingsPanel.tsx # Font/size/theme/voice/translation panel
+├── VerseActionBar.tsx      # Verse actions (explain, highlight, bookmark, share)
+├── BookSummaryButton.tsx   # Summary access with paywall check
+├── SessionTracker.tsx      # Reading activity tracker
+├── SummaryPaywall.tsx      # Summary paywall
+├── ExplainPaywall.tsx      # Explanation paywall
+└── Footer.tsx
+
+contexts/
+├── AudioPlayerContext.tsx   # Audio playback state, verse-by-verse TTS
+└── ReadingSettingsContext.tsx # Font, size, theme, voice, translation prefs
+
+lib/
+├── supabase.ts             # Browser client + auth helpers
+├── audio-utils.ts          # Audio playback utilities
+├── voiceIds.ts             # ElevenLabs voice constants
+├── verseStore.ts           # Zustand store for explanation cache
+├── entitlements.ts         # Purchase/subscription access checks (RPC)
+├── stripe.ts               # Stripe integration
+├── parseSummary.ts         # Markdown summary parser
+├── highlightColors.ts      # 5 highlight color definitions
+└── deviceFingerprint.ts    # Device ID for abuse prevention
+
+data/
+├── books.json              # 66 book metadata
+└── translations/ct/        # Clear Translation JSON files by book/chapter
+
+content/summaries/          # 66 markdown book summaries + SUMMARY-GUIDE.md
+scripts/                    # Seeding + CT generation + audit tools (see Commands)
+supabase/                   # Migrations, seeds, SCHEMA.md
+```
+
+## API Routes
+
+| Route | Method | Purpose |
+|-------|--------|---------|
+| `/api/explain-verse` | POST | AI explanation via OpenAI GPT-4o-mini (cached in DB) |
+| `/api/tts` | POST | Text-to-speech via ElevenLabs |
+| `/api/voices` | GET | List available TTS voices |
+| `/api/checkout` | POST | Create Stripe checkout session |
+| `/api/verify-purchase` | POST | Check purchase/subscription status |
+| `/api/cancel-subscription` | POST | Cancel Stripe subscription |
+| `/api/delete-account` | POST | Account deletion |
+| `/api/track-session` | POST | Session analytics |
+| `/api/record-summary-view` | POST | Summary view tracking |
+| `/api/webhooks/stripe` | POST | Stripe webhook handler |
+
+## Architecture Decisions
+
+- **Two translations:** KJV (public domain, ~31k verses) and Clear Text (Claude-generated, ~31k verses) stored in `verses` table distinguished by `translation` column (`'kjv'` or `'ct'`). CT is the default.
+- **Persistent audio element:** Single reusable `<audio>` element across verses to avoid mobile garbage collection issues.
+- **Two-layer theme system:** CSS variables in `globals.css` for general use + `themeStyles` object in `ReadingSettingsContext.tsx` for per-theme chapter reader control. Four modes: light, sepia, gray, dark.
+- **Accent color:** `var(--accent)` = `#7c5cfc` light / `#9b82fc` dark. Use warm neutrals throughout — no harsh blacks or cool grays.
+- **Zustand only for explanations:** Everything else uses React Context or localStorage.
+- **Path alias:** `@/*` maps to project root.
+
+## Environment Variables
+
+Required (see `.env.example` for full list):
+
+- `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase client
+- `SUPABASE_SERVICE_ROLE_KEY` — scripts only, never expose publicly
+- `OPENAI_API_KEY` — verse explanations
+- `ANTHROPIC_API_KEY` — CT generation scripts
+- `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` — TTS audio
+- `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`, `STRIPE_WEBHOOK_SECRET` — payments
+- Stripe price IDs for each product tier
+
+## Deployment
+
+This project deploys to Vercel automatically on push.
+
+- `vercel.json` includes an `ignoreCommand` that skips builds when only `scripts/` or `data/` files change
+- `tsconfig.json` excludes `scripts/` and `data/` from TypeScript compilation to prevent build failures from standalone tooling scripts
+- Environment variables must be configured in the Vercel project settings
+
+## Feature Summary
+
+| Feature | Free | Paid |
+|---------|------|------|
+| Read KJV + Clear Text | Yes | — |
+| Audio (ElevenLabs TTS) | Yes | — |
+| Notes on verses | Yes | — |
+| Highlights (5 colors) | Yes | — |
+| Bookmarks | Yes | — |
+| Reading progress tracking | Yes | — |
+| Book summaries | — | Per-book ($0.99) or yearly pass ($14.99/yr) |
+| Verse explanations | — | Monthly ($4.99/mo) |
+| Premium yearly (all access) | — | $59/yr |
