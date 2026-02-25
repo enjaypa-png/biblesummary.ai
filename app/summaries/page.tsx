@@ -37,6 +37,6 @@ export default async function SummariesLibraryPage() {
 }
 
 export const metadata = {
-  title: "Book Summaries - BibleSummary.ai",
+  title: "Book Summaries - ClearBible.ai",
   description: "Neutral book summaries for every book of the Bible.",
 };

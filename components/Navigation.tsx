@@ -25,7 +25,7 @@ export default function Navigation() {
           <Link href="/" className="flex items-center">
             <Image
               src="/brand/logo.png"
-              alt="BibleSummary.ai"
+              alt="ClearBible.ai"
               width={160}
               height={36}
               className="h-8 sm:h-9 w-auto flex-shrink-0"

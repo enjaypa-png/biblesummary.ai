@@ -1,5 +1,5 @@
 /**
- * Seed Clear Translation (CT) Verses into Supabase
+ * Seed Clear Bible Translation (CBT) Verses into Supabase
  *
  * This script reads the reviewed CT translation JSON files from
  * data/translations/ct/ and inserts them into the verses table
@@ -76,7 +76,7 @@ async function main() {
   const { book: bookFilter, dryRun } = parseArgs();
 
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log('  Clear Translation (CT) — Database Seeder');
+  console.log('  Clear Bible Translation (CBT) — Database Seeder');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   if (dryRun) console.log('  Mode: DRY RUN (no database changes)');
   if (bookFilter) console.log(`  Book filter: ${bookFilter}`);

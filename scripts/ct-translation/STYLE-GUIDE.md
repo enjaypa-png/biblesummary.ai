@@ -1,8 +1,8 @@
-# Clear Translation (CT) — Style Guide
+# Clear Bible Translation (CBT) — Style Guide
 
 ## Purpose
 
-The Clear Translation (CT) modernizes the King James Version's grammar and archaic vocabulary so any reader today can understand it. It sits alongside the KJV in BibleSummary.ai to give readers an accessible entry point to Scripture.
+The Clear Bible Translation (CBT) modernizes the King James Version's grammar and archaic vocabulary so any reader today can understand it. It sits alongside the KJV in ClearBible.ai to give readers an accessible entry point to Scripture.
 
 **The goal is not to change what the Bible says — it is to make sure every reader can understand the language it's written in.**
 

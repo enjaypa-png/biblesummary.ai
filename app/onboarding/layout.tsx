@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Welcome - BibleSummary.ai",
-  description: "Learn how BibleSummary.ai helps you retain what you read.",
+  title: "Welcome - ClearBible.ai",
+  description: "Learn how ClearBible.ai helps you retain what you read.",
 };
 
 export default function OnboardingLayout({

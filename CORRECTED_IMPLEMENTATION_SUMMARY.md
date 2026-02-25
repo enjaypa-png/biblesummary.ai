@@ -3,7 +3,7 @@
 **Prepared by:** Manus AI (Senior Developer)
 **Date:** January 30, 2026
 **For:** Nick (Product Owner)
-**Project:** BibleSummary.ai - Cinematic FTUE (V2 - Corrected)
+**Project:** ClearBible.ai - Cinematic FTUE (V2 - Corrected)
 
 ---
 
@@ -72,7 +72,7 @@ I created **five new, enhanced components** that properly deliver your vision:
 
 **What it does:**
 - Displays the **full welcome script** as beautiful captions:
-  > "Welcome to BibleSummary.ai. Here, you can read the King James Version of the Bible freely..."
+  > "Welcome to ClearBible.ai. Here, you can read the King James Version of the Bible freely..."
 - **Auto-plays audio** if browser allows (older male, firm but kind voice)
 - Shows **manual play button** if autoplay is blocked
 - **Visual waveform indicator** when audio is playing
@@ -262,7 +262,7 @@ The corrected implementation will be successful if:
 
 ## Files Created
 
-All files are ready in your local repository at `/home/ubuntu/biblesummary.ai/`:
+All files are ready in your local repository at `/home/ubuntu/clearbible.ai/`:
 
 - `app/intro/components/BibleCover-ENHANCED.tsx`
 - `app/intro/components/AudioWelcome-ENHANCED.tsx`

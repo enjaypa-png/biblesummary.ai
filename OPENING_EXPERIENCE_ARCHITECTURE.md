@@ -2,7 +2,7 @@
 
 **Senior Developer Analysis & Implementation Plan**  
 **Date:** January 29, 2026  
-**Project:** BibleSummary.ai PWA Opening Experience
+**Project:** ClearBible.ai PWA Opening Experience
 
 ---
 

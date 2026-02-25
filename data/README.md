@@ -1,6 +1,6 @@
 # Bible Data
 
-This folder contains data files for seeding the BibleSummary.ai database.
+This folder contains data files for seeding the ClearBible.ai database.
 
 ## Files
 

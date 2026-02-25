@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex justify-center mb-4">
           <Image
             src="/brand/logo-icon.svg"
-            alt="BibleSummary.ai"
+            alt="ClearBible.ai"
             width={36}
             height={36}
             style={{ height: "auto", objectFit: "contain" }}
@@ -38,13 +38,13 @@ export default function Footer() {
           className="text-center text-[12px] mt-3"
           style={{ color: "var(--foreground-secondary)" }}
         >
-          Contact: support@biblesummary.ai
+          Contact: support@clearbible.ai
         </p>
         <p
           className="text-center text-[12px] mt-1"
           style={{ color: "var(--foreground-secondary)" }}
         >
-          &copy; {new Date().getFullYear()} BibleSummary.ai. All rights reserved.
+          &copy; {new Date().getFullYear()} ClearBible.ai. All rights reserved.
         </p>
       </div>
     </footer>

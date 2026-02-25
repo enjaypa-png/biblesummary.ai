@@ -1,5 +1,5 @@
 /**
- * Submit Clear Translation (CT) as a Batch Job (50% cost savings)
+ * Submit Clear Bible Translation (CBT) as a Batch Job (50% cost savings)
  *
  * This script builds chapter requests and submits them to the Anthropic
  * Message Batches API for asynchronous processing at 50% cost.

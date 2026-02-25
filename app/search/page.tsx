@@ -26,6 +26,6 @@ export default function SearchPage() {
 }
 
 export const metadata = {
-  title: "Search - BibleSummary.ai",
+  title: "Search - ClearBible.ai",
   description: "Search the Bible for any passage, verse, or keyword.",
 };

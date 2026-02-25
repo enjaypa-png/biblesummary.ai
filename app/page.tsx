@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const FEATURES_FREE = [
-  { icon: "📖", name: "Two Bible Versions", desc: "Read the King James Version and the Clear Text — both included free." },
+  { icon: "📖", name: "Two Bible Versions", desc: "Read the King James Version and the Clear Bible Translation — both included free." },
   { icon: "🎧", name: "Read or Listen", desc: "Switch between text and audio anytime." },
   { icon: "🖍️", name: "Highlight", desc: "Mark meaningful passages as you read." },
   { icon: "📝", name: "Notes", desc: "Write your thoughts directly inside the text." },
@@ -320,7 +320,7 @@ function StepCard({ number, title, desc }: { number: string; title: string; desc
   );
 }
 
-export default function BibleSummaryLanding() {
+export default function ClearBibleLanding() {
   return (
     <div style={{
       fontFamily: "'DM Sans', sans-serif",
@@ -378,7 +378,7 @@ export default function BibleSummaryLanding() {
           <div style={{ marginBottom: 28, animation: "fadeUp 0.5s ease both" }}>
             <Image
               src="/brand/logo.svg"
-              alt="BibleSummary.ai"
+              alt="ClearBible.ai"
               width={400}
               height={130}
               priority
@@ -730,7 +730,7 @@ export default function BibleSummaryLanding() {
           flexWrap: "wrap",
         }}>
           <StepCard number="1" title="Pick a Book" desc="Choose any of the 66 books of the Bible." />
-          <StepCard number="2" title="Read or Listen" desc="Full KJV and Clear Text with audio playback for every chapter." />
+          <StepCard number="2" title="Read or Listen" desc="Full KJV and Clear Bible Translation with audio playback for every chapter." />
           <StepCard number="3" title="Go Deeper" desc="Tap any verse for a plain-language explanation." />
         </div>
       </section>
@@ -749,7 +749,7 @@ export default function BibleSummaryLanding() {
             lineHeight: 1.7,
             color: "#8a8580",
           }}>
-            BibleSummary.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains in plain language.
+            ClearBible.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains in plain language.
           </p>
         </div>
       </section>
@@ -776,7 +776,7 @@ export default function BibleSummaryLanding() {
           maxWidth: 420,
           margin: "0 auto 32px",
         }}>
-          Start reading the King James Version or Clear Text today — completely free. Upgrade anytime.
+          Start reading the King James Version or Clear Bible Translation today — completely free. Upgrade anytime.
         </p>
         <div style={{
           display: "flex",
@@ -826,7 +826,7 @@ export default function BibleSummaryLanding() {
         <div style={{ marginBottom: 16 }}>
           <Image
             src="/brand/logo-icon.svg"
-            alt="BibleSummary.ai"
+            alt="ClearBible.ai"
             width={40}
             height={40}
             style={{ margin: "0 auto 12px", height: "auto", objectFit: "contain" }}
@@ -853,10 +853,10 @@ export default function BibleSummaryLanding() {
           ))}
         </div>
         <p style={{ fontSize: 13, color: "#b0a89e" }}>
-          support@biblesummary.ai
+          support@clearbible.ai
         </p>
         <p style={{ fontSize: 12, color: "#ccc", marginTop: 4 }}>
-          &copy; {new Date().getFullYear()} BibleSummary.ai
+          &copy; {new Date().getFullYear()} ClearBible.ai
         </p>
       </footer>
     </div>

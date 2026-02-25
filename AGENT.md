@@ -21,7 +21,7 @@ The Bible text on `/bible/[book]/[chapter]` is the core of the app. Do not chang
 - The flow of inline text (verses render as continuous inline text, not as block elements)
 - Page layout or max-width constraints
 
-The app supports two translations: **Clear Text (CT)** and **King James Version (KJV)**. CT is the default. The CT is currently **under audit** to ensure it accurately tells the same story as the KJV. The user's translation preference is stored in localStorage via `ReadingSettingsContext`. When the user toggles translations, `ChapterReaderClient` re-fetches verses from Supabase filtered by the `translation` column. CT shows CT. KJV shows KJV. There is no fallback or mixing between translations.
+The app supports two translations: **Clear Bible Translation (CBT)** and **King James Version (KJV)**. CT is the default. The CT is currently **under audit** to ensure it accurately tells the same story as the KJV. The user's translation preference is stored in localStorage via `ReadingSettingsContext`. When the user toggles translations, `ChapterReaderClient` re-fetches verses from Supabase filtered by the `translation` column. CT shows CT. KJV shows KJV. There is no fallback or mixing between translations.
 
 Changes to `ChapterReaderClient.tsx` require extra care. This file handles translation switching, notes, explanations, audio sync, sharing, verse highlighting, and the action bar. Test all of these flows after any edit.
 
@@ -58,10 +58,10 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles trans
 - The system prompt enforces: 2-4 sentences, plain English, no theology, no preaching.
 - Do not change the system prompt without explicit approval.
 
-### Clear Text (CT)
+### Clear Bible Translation (CBT)
 
 - The CT modernizes the KJV's grammar and archaic vocabulary so modern readers can understand it. It does NOT change what the KJV says — every KJV noun, name, creature, material, and theological term stays exactly as-is. Only the sentence structure and old-English words get updated.
-- **Audit status:** The CT is currently being audited book-by-book against the KJV. User-facing labels call it "Clear Text" and note "Under Review."
+- **Audit status:** The CT is currently being audited book-by-book against the KJV. User-facing labels call it "Clear Bible Translation" and note "Under Review."
 - The master prompt and style rules live in `scripts/ct-translation/prompt.ts` and `scripts/ct-translation/STYLE-GUIDE.md`. Do not change these without explicit approval.
 - **Core audit rule:** Modernize ONLY grammar and archaic vocabulary. Never change nouns, names, creatures, materials, places, or theological terms.
 - CT verses are stored in the `verses` table with `translation='ct'`. KJV verses have `translation='kjv'`.
@@ -73,7 +73,7 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles trans
 
 - The user's translation preference is stored in `ReadingSettingsContext` as `settings.translation` (type: `"ct" | "kjv"`, default: `"ct"`).
 - The toggle appears in `ReadingSettingsPanel.tsx` at the top of the Aa settings panel.
-- `BibleIndex.tsx` displays the current translation name in the header (e.g., "Clear Text" or "King James Version").
+- `BibleIndex.tsx` displays the current translation name in the header (e.g., "Clear Bible Translation" or "King James Version").
 - `ChapterReaderClient.tsx` re-fetches verses from Supabase when the translation changes. It uses `displayVerses` state (not the raw `verses` prop) for rendering.
 - The server-side page (`page.tsx`) defaults to `translation='ct'` for initial load.
 - Share text includes the current translation name.

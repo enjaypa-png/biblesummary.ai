@@ -1,9 +1,9 @@
 import PricingPageClient from "./PricingPageClient";
 
 export const metadata = {
-  title: "Pricing - BibleSummary.ai",
+  title: "Pricing - ClearBible.ai",
   description:
-    "BibleSummary.ai pricing. Free Bible text and audio. Optional paid summaries and verse explanations.",
+    "ClearBible.ai pricing. Free Bible text and audio. Optional paid summaries and verse explanations.",
 };
 
 export default function PricingPage() {

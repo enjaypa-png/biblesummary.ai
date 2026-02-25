@@ -116,7 +116,7 @@ export async function generateMetadata({ params }: PageProps) {
   const bookName = book?.name || params.book;
 
   return {
-    title: `${bookName} Summary - BibleSummary.ai`,
+    title: `${bookName} Summary - ClearBible.ai`,
     description: `Book summary for ${bookName}`,
   };
 }

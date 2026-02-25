@@ -1,6 +1,6 @@
 # Supabase Database Setup
 
-This folder contains SQL migration files for BibleSummary.ai's database schema.
+This folder contains SQL migration files for ClearBible.ai's database schema.
 
 ## Important: Not All Migrations Have Been Applied
 
@@ -56,7 +56,7 @@ The database consists of these parts:
 ### Step 1: Open Supabase SQL Editor
 
 1. Go to your [Supabase Dashboard](https://supabase.com/dashboard)
-2. Select your `biblesummary.ai` project
+2. Select your `clearbible.ai` project
 3. Click on **SQL Editor** in the left sidebar
 4. Click **New query** button
 

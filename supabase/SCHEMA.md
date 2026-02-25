@@ -1,6 +1,6 @@
 # Database Schema Reference
 
-Complete database schema for BibleSummary.ai. **This document reflects the live Supabase production database** as of February 2025.
+Complete database schema for ClearBible.ai. **This document reflects the live Supabase production database** as of February 2025.
 
 ## Important: Migration Files vs. Live Database
 

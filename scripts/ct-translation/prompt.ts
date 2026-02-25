@@ -1,5 +1,5 @@
 /**
- * Master prompt for the Bible Clear Translation (CT).
+ * Master prompt for the Bible Clear Bible Translation (CBT).
  *
  * The CT modernizes KJV grammar and archaic vocabulary so any modern
  * reader can understand it — without changing what the KJV actually says.
@@ -9,7 +9,7 @@
  * This prompt drives both CT generation and CT auditing.
  */
 
-export const CT_SYSTEM_PROMPT = `You are translating the Bible into a modern Clear Translation (CT). Your goal: make the KJV understandable to a modern reader at a 10th-grade reading level.
+export const CT_SYSTEM_PROMPT = `You are translating the Bible into a modern Clear Bible Translation (CBT). Your goal: make the KJV understandable to a modern reader at a 10th-grade reading level.
 
 CORE PRINCIPLE: Modernize ONLY the grammar and archaic vocabulary. Never change nouns, names, creatures, materials, places, or theological terms. If the KJV says it, the CT keeps it — just in modern sentence structure.
 
@@ -103,7 +103,7 @@ export function buildUserPrompt(
     .map((v) => `${v.verse}. ${v.text}`)
     .join('\n');
 
-  return `Translate ${bookName} chapter ${chapter} into the Clear Translation. Modernize the grammar and archaic vocabulary only — keep every KJV noun, name, and term exactly. Apply all translation rules. Output a JSON array only.
+  return `Translate ${bookName} chapter ${chapter} into the Clear Bible Translation. Modernize the grammar and archaic vocabulary only — keep every KJV noun, name, and term exactly. Apply all translation rules. Output a JSON array only.
 
 ${versesText}`;
 }
@@ -112,7 +112,7 @@ ${versesText}`;
  * System prompt for auditing existing CT verses against the KJV.
  * Used by scripts/ct-audit.ts.
  */
-export const CT_AUDIT_PROMPT = `You are auditing Clear Translation (CT) Bible verses against the King James Version (KJV). For each verse pair, check whether the CT faithfully modernizes the KJV's grammar and archaic vocabulary WITHOUT changing what the KJV actually says.
+export const CT_AUDIT_PROMPT = `You are auditing Clear Bible Translation (CBT) Bible verses against the King James Version (KJV). For each verse pair, check whether the CT faithfully modernizes the KJV's grammar and archaic vocabulary WITHOUT changing what the KJV actually says.
 
 Flag a verse as FAIL if ANY of these apply:
 

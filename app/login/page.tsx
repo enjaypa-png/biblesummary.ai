@@ -177,7 +177,7 @@ function LoginForm() {
                   Sign In
                 </h1>
                 <p className="mt-2 text-[14px]" style={{ color: "var(--secondary)" }}>
-                  Welcome back to BibleSummary.ai
+                  Welcome back to ClearBible.ai
                 </p>
               </div>
 

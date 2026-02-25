@@ -1,11 +1,11 @@
-# BibleSummary.ai
+# ClearBible.ai
 
 A modern Bible reading companion with AI-powered summaries, verse explanations, and two built-in translations. Built with Next.js 14, Supabase, and deployed on Vercel.
 
 ## What This App Does
 
 - **Read the Bible** — Browse 66 books with two translations:
-  - **Clear Translation (CT)** — A modern English rendering created specifically for this app using Claude Opus 4.6. Designed to read like the NIV in quality and clarity while being fully owned and license-free.
+  - **Clear Bible Translation (CBT)** — A modern English rendering created specifically for this app using Claude Opus 4.6. Designed to read like the NIV in quality and clarity while being fully owned and license-free.
   - **King James Version (KJV)** — The classic public domain text.
   - Users toggle between translations in the reading settings panel (Aa button). CT is the default.
 - **Listen** — Verse-by-verse text-to-speech audio powered by ElevenLabs, with playback controls and verse tracking
@@ -19,9 +19,9 @@ A modern Bible reading companion with AI-powered summaries, verse explanations, 
 - **Authentication** — Email/password signup and login with OTP email verification via Supabase Auth
 - **Reading Position** — Automatic tracking via localStorage with "Continue Reading" card on the index
 
-## Clear Translation (CT)
+## Clear Bible Translation (CBT)
 
-The Clear Translation is a modern English rendering of the entire Bible (31,000+ verses across 1,189 chapters). It was generated using Claude Opus 4.6 with a carefully engineered prompt system that ensures:
+The Clear Bible Translation is a modern English rendering of the entire Bible (31,000+ verses across 1,189 chapters). It was generated using Claude Opus 4.6 with a carefully engineered prompt system that ensures:
 
 - **Theological precision** — Protected terms like "heaven," "created," "soul," "spirit," "grace," "righteousness," "salvation," "covenant," "sin," and "atonement" are preserved exactly
 - **Anti-embellishment** — No words, ideas, or emphasis are added that aren't in the original
@@ -103,7 +103,7 @@ Run the Supabase migrations first (see `supabase/migrations/`), then:
 ```bash
 npm run seed:books      # Load 66 book records
 npm run seed:verses     # Fetch ~31,000 KJV verses
-npm run ct:seed         # Seed Clear Translation verses
+npm run ct:seed         # Seed Clear Bible Translation verses
 ```
 
 ### 4. Start the dev server
