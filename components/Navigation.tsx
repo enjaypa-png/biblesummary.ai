@@ -24,7 +24,7 @@ export default function Navigation() {
           {/* Logo/Brand */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/brand/logo.png"
+              src="/brand/logo.svg"
               alt="ClearBible.ai"
               width={160}
               height={36}

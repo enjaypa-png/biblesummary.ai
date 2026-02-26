@@ -60,12 +60,12 @@
   </g>
 
   <!-- === Text === -->
-  <!-- "BibleSummary.ai" -->
+  <!-- "ClearBible.ai" -->
   <text y="95" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="46" font-weight="700">
-    <tspan x="200" fill="#1a1a2e">Bible</tspan><tspan fill="#1a1a2e">Summary</tspan><tspan fill="#7c5cfc">.ai</tspan>
+    <tspan x="200" fill="#1a1a2e">Clear</tspan><tspan fill="#1a1a2e">Bible</tspan><tspan fill="#7c5cfc">.ai</tspan>
   </text>
   <!-- Subtitle -->
   <text x="200" y="125" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="20" font-weight="400" fill="#6b7280">
-    AI-Powered Bible Summaries
+    Your AI Bible Companion
   </text>
 </svg>
