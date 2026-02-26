@@ -8,8 +8,8 @@
   <!-- Gold cross -->
   <rect x="53" y="36" width="14" height="64" rx="3" fill="#C5A55A"/>
   <rect x="34" y="52" width="52" height="14" rx="3" fill="#C5A55A"/>
-  <!-- Combined text "BibleSummary.ai" using tspans for color control -->
+  <!-- Combined text "ClearBible.ai" using tspans for color control -->
   <text y="84" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="42" font-weight="700">
-    <tspan x="130" fill="#2D2D2D">Bible</tspan><tspan fill="#7c5cfc">Summary</tspan><tspan fill="#2D2D2D">.ai</tspan>
+    <tspan x="130" fill="#2D2D2D">Clear</tspan><tspan fill="#7c5cfc">Bible</tspan><tspan fill="#2D2D2D">.ai</tspan>
   </text>
 </svg>
