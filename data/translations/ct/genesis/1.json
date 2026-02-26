@@ -3,163 +3,195 @@
   "book_name": "Genesis",
   "chapter": 1,
   "translation": "ct",
-  "generated_at": "2026-02-19T11:02:41.209Z",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:02:47.595Z",
   "model": "claude-opus-4-6",
   "verses": [
     {
       "verse": 1,
       "kjv": "In the beginning God created the heaven and the earth.",
+      "web": "In the beginning, God created the heavens and the earth.",
       "ct": "In the beginning, God created the heavens and the earth."
     },
     {
       "verse": 2,
       "kjv": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
-      "ct": "The earth had no shape and was completely empty. Darkness covered the deep waters, and the Spirit of God hovered over the surface."
+      "web": "The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.",
+      "ct": "The earth had no shape — it was empty, and darkness covered the deep waters. God's Spirit moved over the surface of the waters."
     },
     {
       "verse": 3,
       "kjv": "And God said, Let there be light: and there was light.",
+      "web": "God said, “Let there be light,” and there was light.",
       "ct": "Then God said, \"Let there be light,\" and light appeared."
     },
     {
       "verse": 4,
       "kjv": "And God saw the light, that it was good: and God divided the light from the darkness.",
+      "web": "God saw the light, and saw that it was good. God divided the light from the darkness.",
       "ct": "God saw that the light was good, and he separated the light from the darkness."
     },
     {
       "verse": 5,
       "kjv": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
-      "ct": "God called the light Day and the darkness Night. Evening came, then morning — the first day."
+      "web": "God called the light “day”, and the darkness he called “night”. There was evening and there was morning, the first day.",
+      "ct": "God named the light \"Day\" and the darkness he named \"Night.\" Evening came, and then morning — the 1st day."
     },
     {
       "verse": 6,
       "kjv": "And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.",
-      "ct": "Then God said, \"Let there be a space in the middle of the water to divide it.\""
+      "web": "God said, “Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.”",
+      "ct": "Then God said, \"Let there be an expanse between the waters, to separate water from water.\""
     },
     {
       "verse": 7,
       "kjv": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.",
-      "ct": "So God created that space and divided the water below it from the water above it. And it happened just as he said."
+      "web": "God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so.",
+      "ct": "So God made the expanse and separated the waters beneath it from the waters above it. And so it was."
     },
     {
       "verse": 8,
       "kjv": "And God called the firmament Heaven. And the evening and the morning were the second day.",
-      "ct": "God called the space Sky. Evening came, then morning — the second day."
+      "web": "God called the expanse “sky”. There was evening and there was morning, a second day.",
+      "ct": "God called the expanse \"Heaven.\" Evening came, and then morning — the 2nd day."
     },
     {
       "verse": 9,
       "kjv": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",
-      "ct": "Then God said, \"Let the water under the sky gather into one place so dry ground can appear.\" And it happened just as he said."
+      "web": "God said, “Let the waters under the sky be gathered together to one place, and let the dry land appear;” and it was so.",
+      "ct": "Then God said, \"Let the waters beneath the heavens be gathered into one place, and let dry ground appear.\" And so it was."
     },
     {
       "verse": 10,
       "kjv": "And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.",
-      "ct": "God called the dry ground Earth and the gathered water Seas. God saw that it was good."
+      "web": "God called the dry land “earth”, and the gathering together of the waters he called “seas”. God saw that it was good.",
+      "ct": "God called the dry ground \"Earth,\" and the gathered waters he called \"Seas.\" God saw that it was good."
     },
     {
       "verse": 11,
       "kjv": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
-      "ct": "Then God said, \"Let the earth grow vegetation — plants that produce seeds, and fruit trees that produce fruit with seeds inside.\" And it happened just as he said."
+      "web": "God said, “Let the earth yield grass, herbs yielding seeds, and fruit trees bearing fruit after their kind, with their seeds in it, on the earth;” and it was so.",
+      "ct": "Then God said, \"Let the earth produce vegetation — seed-bearing plants and fruit trees that bear fruit with seeds according to their kinds.\" And so it was."
     },
     {
       "verse": 12,
       "kjv": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good.",
-      "ct": "The earth produced vegetation — plants with seeds and trees with fruit containing seeds, each one reproducing its own kind. God saw that it was good."
+      "web": "The earth yielded grass, herbs yielding seed after their kind, and trees bearing fruit, with their seeds in it, after their kind; and God saw that it was good.",
+      "ct": "The earth produced vegetation — seed-bearing plants according to their kinds and trees bearing fruit with seeds according to their kinds. God saw that it was good."
     },
     {
       "verse": 13,
       "kjv": "And the evening and the morning were the third day.",
-      "ct": "Evening came, then morning — the third day."
+      "web": "There was evening and there was morning, a third day.",
+      "ct": "Evening came, and then morning — the 3rd day."
     },
     {
       "verse": 14,
       "kjv": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:",
-      "ct": "Then God said, \"Let there be lights in the sky to separate day from night. They will mark the seasons, the days, and the years."
+      "web": "God said, “Let there be lights in the expanse of the sky to divide the day from the night; and let them be for signs to mark seasons, days, and years;",
+      "ct": "Then God said, \"Let there be lights in the expanse of the heavens to separate day from night, and let them serve as signs to mark seasons, days, and years."
     },
     {
       "verse": 15,
       "kjv": "And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so.",
-      "ct": "Let them shine over the earth.\" And it happened just as he said."
+      "web": "and let them be for lights in the expanse of the sky to give light on the earth;” and it was so.",
+      "ct": "Let them shine in the expanse of the heavens to give light on the earth.\" And so it was."
     },
     {
       "verse": 16,
       "kjv": "And God made two great lights; the greater light to rule the day, and the lesser light to rule the night: he made the stars also.",
-      "ct": "God made two great lights — the larger one to rule the day, and the smaller one to rule the night. He also made the stars."
+      "web": "God made the two great lights: the greater light to rule the day, and the lesser light to rule the night. He also made the stars.",
+      "ct": "God made 2 great lights — the larger one to govern the day and the smaller one to govern the night. He also made the stars."
     },
     {
       "verse": 17,
       "kjv": "And God set them in the firmament of the heaven to give light upon the earth,",
-      "ct": "He placed them in the sky to give light to the earth,"
+      "web": "God set them in the expanse of the sky to give light to the earth,",
+      "ct": "God placed them in the expanse of the heavens to shine light on the earth,"
     },
     {
       "verse": 18,
       "kjv": "And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good.",
-      "ct": "to govern the day and night, and to separate light from darkness. God saw that it was good."
+      "web": "and to rule over the day and over the night, and to divide the light from the darkness. God saw that it was good.",
+      "ct": "to govern the day and the night, and to separate light from darkness. God saw that it was good."
     },
     {
       "verse": 19,
       "kjv": "And the evening and the morning were the fourth day.",
-      "ct": "Evening came, then morning — the fourth day."
+      "web": "There was evening and there was morning, a fourth day.",
+      "ct": "Evening came, and then morning — the 4th day."
     },
     {
       "verse": 20,
       "kjv": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.",
-      "ct": "Then God said, \"Let the water fill up with living creatures, and let birds fly through the sky above the earth.\""
+      "web": "God said, “Let the waters abound with living creatures, and let birds fly above the earth in the open expanse of the sky.”",
+      "ct": "Then God said, \"Let the waters swarm with living creatures, and let birds fly above the earth across the open expanse of the heavens.\""
     },
     {
       "verse": 21,
       "kjv": "And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good.",
-      "ct": "So God created the great sea creatures and every living thing that moves through the water, and every kind of bird that flies. God saw that it was good."
+      "web": "God created the large sea creatures and every living creature that moves, with which the waters swarmed, after their kind, and every winged bird after its kind. God saw that it was good.",
+      "ct": "So God created the great sea creatures and every kind of living thing that moves and swarms in the waters, and every kind of winged bird. God saw that it was good."
     },
     {
       "verse": 22,
       "kjv": "And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
-      "ct": "God blessed them and said, \"Have many offspring and fill the seas, and let the birds multiply across the earth.\""
+      "web": "God blessed them, saying, “Be fruitful, and multiply, and fill the waters in the seas, and let birds multiply on the earth.”",
+      "ct": "God blessed them and said, \"Be fruitful and multiply. Fill the waters of the seas, and let the birds multiply on the earth.\""
     },
     {
       "verse": 23,
       "kjv": "And the evening and the morning were the fifth day.",
-      "ct": "Evening came, then morning — the fifth day."
+      "web": "There was evening and there was morning, a fifth day.",
+      "ct": "Evening came, and then morning — the 5th day."
     },
     {
       "verse": 24,
       "kjv": "And God said, Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind: and it was so.",
-      "ct": "Then God said, \"Let the earth produce all kinds of living animals — livestock, small creatures, and wild animals.\" And it happened just as he said."
+      "web": "God said, “Let the earth produce living creatures after their kind, livestock, creeping things, and animals of the earth after their kind;” and it was so.",
+      "ct": "Then God said, \"Let the earth produce living creatures according to their kinds — livestock, creatures that crawl along the ground, and wild animals.\" And so it was."
     },
     {
       "verse": 25,
       "kjv": "And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind: and God saw that it was good.",
-      "ct": "God made wild animals, livestock, and every small creature that crawls on the ground, each one reproducing its own kind. God saw that it was good."
+      "web": "God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good.",
+      "ct": "God made the wild animals according to their kinds, the livestock according to their kinds, and everything that crawls on the ground according to its kind. God saw that it was good."
     },
     {
       "verse": 26,
       "kjv": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.",
-      "ct": "Then God said, \"Let us make human beings in our image, to be like us. They will have authority over the fish, the birds, the livestock, and all the wild animals and small creatures on the earth.\""
+      "web": "God said, “Let’s make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”",
+      "ct": "Then God said, \"Let us make man in our image, after our likeness. Let them have dominion over the fish of the sea, the birds of the heavens, the livestock, all the earth, and every creature that crawls on the earth.\""
     },
     {
       "verse": 27,
       "kjv": "So God created man in his own image, in the image of God created he him; male and female created he them.",
-      "ct": "So God created human beings in his own image. In the image of God he created them — male and female."
+      "web": "God created man in his own image. In God’s image he created him; male and female he created them.",
+      "ct": "So God created man in his own image. In the image of God he created him — male and female he created them."
     },
     {
       "verse": 28,
       "kjv": "And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.",
-      "ct": "God blessed them and said, \"Have many children and fill the earth. Take care of it and have authority over the fish, the birds, and every living creature on earth.\""
+      "web": "God blessed them. God said to them, “Be fruitful, multiply, fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.”",
+      "ct": "God blessed them and said to them, \"Be fruitful and multiply. Fill the earth and subdue it. Have dominion over the fish of the sea, the birds of the heavens, and every living thing that moves on the earth.\""
     },
     {
       "verse": 29,
       "kjv": "And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat.",
-      "ct": "Then God said, \"Look — I have given you every seed-bearing plant on the face of the earth and every tree that produces fruit with seeds. These will be your food."
+      "web": "God said, “Behold, I have given you every herb yielding seed, which is on the surface of all the earth, and every tree, which bears fruit yielding seed. It will be your food.",
+      "ct": "Then God said, \"Look — I have given you every seed-bearing plant on the face of the whole earth and every tree that bears fruit with seeds. They will be your food."
     },
     {
       "verse": 30,
       "kjv": "And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so.",
-      "ct": "And I have given every green plant as food for the animals, the birds, and every creature that moves on the earth.\" And it happened just as he said."
+      "web": "To every animal of the earth, and to every bird of the sky, and to everything that creeps on the earth, in which there is life, I have given every green herb for food;” and it was so.",
+      "ct": "To every wild animal, every bird of the heavens, and everything that crawls on the earth — everything that has the breath of life — I have given every green plant for food.\" And so it was."
     },
     {
       "verse": 31,
       "kjv": "And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.",
-      "ct": "God looked at everything he had made, and it was very good. Evening came, then morning — the sixth day."
+      "web": "God saw everything that he had made, and, behold, it was very good. There was evening and there was morning, a sixth day.",
+      "ct": "God looked at everything he had made, and it was very good. Evening came, and then morning — the 6th day."
     }
   ]
 }

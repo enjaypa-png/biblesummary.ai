@@ -1,0 +1,245 @@
+{
+  "book": "romans",
+  "book_name": "Romans",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:03:26.405Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.",
+      "web": "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit.",
+      "ct": "So now there is no condemnation for those who belong to Christ Jesus, who live not according to the flesh but according to the Spirit."
+    },
+    {
+      "verse": 2,
+      "kjv": "For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death.",
+      "web": "For the law of the Spirit of life in Christ Jesus made me free from the law of sin and of death.",
+      "ct": "Because the law of the Spirit of life in Christ Jesus has set me free from the law of sin and death."
+    },
+    {
+      "verse": 3,
+      "kjv": "For what the law could not do, in that it was weak through the flesh, God sending his own Son in the likeness of sinful flesh, and for sin, condemned sin in the flesh:",
+      "web": "For what the law couldn’t do, in that it was weak through the flesh, God did, sending his own Son in the likeness of sinful flesh and for sin, he condemned sin in the flesh;",
+      "ct": "What the law was unable to do because it was weakened by the flesh, God accomplished by sending his own Son in the likeness of sinful flesh. As an offering for sin, he condemned sin in the flesh,"
+    },
+    {
+      "verse": 4,
+      "kjv": "That the righteousness of the law might be fulfilled in us, who walk not after the flesh, but after the Spirit.",
+      "web": "that the ordinance of the law might be fulfilled in us, who walk not after the flesh, but after the Spirit.",
+      "ct": "so that the righteous requirement of the law would be fully met in us who live not according to the flesh but according to the Spirit."
+    },
+    {
+      "verse": 5,
+      "kjv": "For they that are after the flesh do mind the things of the flesh; but they that are after the Spirit the things of the Spirit.",
+      "web": "For those who live according to the flesh set their minds on the things of the flesh, but those who live according to the Spirit, the things of the Spirit.",
+      "ct": "Those who live according to the flesh focus their minds on the things of the flesh, but those who live according to the Spirit focus on the things of the Spirit."
+    },
+    {
+      "verse": 6,
+      "kjv": "For to be carnally minded is death; but to be spiritually minded is life and peace.",
+      "web": "For the mind of the flesh is death, but the mind of the Spirit is life and peace;",
+      "ct": "A mind set on the flesh leads to death, but a mind set on the Spirit leads to life and peace."
+    },
+    {
+      "verse": 7,
+      "kjv": "Because the carnal mind is enmity against God: for it is not subject to the law of God, neither indeed can be.",
+      "web": "because the mind of the flesh is hostile toward God; for it is not subject to God’s law, neither indeed can it be.",
+      "ct": "The mind set on the flesh is hostile toward God — it does not submit to God's law, and in fact it cannot."
+    },
+    {
+      "verse": 8,
+      "kjv": "So then they that are in the flesh cannot please God.",
+      "web": "Those who are in the flesh can’t please God.",
+      "ct": "Those who are controlled by the flesh cannot please God."
+    },
+    {
+      "verse": 9,
+      "kjv": "But ye are not in the flesh, but in the Spirit, if so be that the Spirit of God dwell in you. Now if any man have not the Spirit of Christ, he is none of his.",
+      "web": "But you are not in the flesh but in the Spirit, if it is so that the Spirit of God dwells in you. But if any man doesn’t have the Spirit of Christ, he is not his.",
+      "ct": "However, you are not controlled by the flesh but by the Spirit, since the Spirit of God lives in you. If anyone does not have the Spirit of Christ, that person does not belong to him."
+    },
+    {
+      "verse": 10,
+      "kjv": "And if Christ be in you, the body is dead because of sin; but the Spirit is life because of righteousness.",
+      "web": "If Christ is in you, the body is dead because of sin, but the spirit is alive because of righteousness.",
+      "ct": "But if Christ is in you, then even though your body is dead because of sin, the Spirit gives you life because of righteousness."
+    },
+    {
+      "verse": 11,
+      "kjv": "But if the Spirit of him that raised up Jesus from the dead dwell in you, he that raised up Christ from the dead shall also quicken your mortal bodies by his Spirit that dwelleth in you.",
+      "web": "But if the Spirit of him who raised up Jesus from the dead dwells in you, he who raised up Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you.",
+      "ct": "If the Spirit of the one who raised Jesus from the dead lives in you, then he who raised Christ from the dead will also give life to your mortal bodies through his Spirit who lives in you."
+    },
+    {
+      "verse": 12,
+      "kjv": "Therefore, brethren, we are debtors, not to the flesh, to live after the flesh.",
+      "web": "So then, brothers, we are debtors, not to the flesh, to live after the flesh.",
+      "ct": "So then, brothers and sisters, we owe nothing to the flesh — we are not obligated to live according to it."
+    },
+    {
+      "verse": 13,
+      "kjv": "For if ye live after the flesh, ye shall die: but if ye through the Spirit do mortify the deeds of the body, ye shall live.",
+      "web": "For if you live after the flesh, you must die; but if by the Spirit you put to death the deeds of the body, you will live.",
+      "ct": "If you live according to the flesh, you will die. But if by the Spirit you put to death the sinful actions of the body, you will live."
+    },
+    {
+      "verse": 14,
+      "kjv": "For as many as are led by the Spirit of God, they are the sons of God.",
+      "web": "For as many as are led by the Spirit of God, these are children of God.",
+      "ct": "All who are led by the Spirit of God are sons of God."
+    },
+    {
+      "verse": 15,
+      "kjv": "For ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption, whereby we cry, Abba, Father.",
+      "web": "For you didn’t receive the spirit of bondage again to fear, but you received the Spirit of adoption, by whom we cry, “Abba! Father!”",
+      "ct": "You did not receive a spirit of slavery that brings you back into fear. Instead, you received the Spirit of adoption, by whom we cry out, \"Abba, Father!\""
+    },
+    {
+      "verse": 16,
+      "kjv": "The Spirit itself beareth witness with our spirit, that we are the children of God:",
+      "web": "The Spirit himself testifies with our spirit that we are children of God;",
+      "ct": "The Spirit himself confirms together with our spirit that we are children of God."
+    },
+    {
+      "verse": 17,
+      "kjv": "And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.",
+      "web": "and if children, then heirs: heirs of God and joint heirs with Christ, if indeed we suffer with him, that we may also be glorified with him.",
+      "ct": "If we are children, then we are heirs — heirs of God and fellow heirs with Christ — provided that we share in his sufferings so that we may also share in his glory."
+    },
+    {
+      "verse": 18,
+      "kjv": "For I reckon that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us.",
+      "web": "For I consider that the sufferings of this present time are not worthy to be compared with the glory which will be revealed toward us.",
+      "ct": "I am convinced that the sufferings we endure in this present time are not worth comparing to the glory that will be revealed in us."
+    },
+    {
+      "verse": 19,
+      "kjv": "For the earnest expectation of the creature waiteth for the manifestation of the sons of God.",
+      "web": "For the creation waits with eager expectation for the children of God to be revealed.",
+      "ct": "The whole creation waits with eager longing for the sons of God to be revealed."
+    },
+    {
+      "verse": 20,
+      "kjv": "For the creature was made subject to vanity, not willingly, but by reason of him who hath subjected the same in hope,",
+      "web": "For the creation was subjected to vanity, not of its own will, but because of him who subjected it, in hope",
+      "ct": "Creation was subjected to futility — not by its own choice, but because of the one who subjected it — yet with hope,"
+    },
+    {
+      "verse": 21,
+      "kjv": "Because the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God.",
+      "web": "that the creation itself also will be delivered from the bondage of decay into the liberty of the glory of the children of God.",
+      "ct": "because creation itself will be set free from its bondage to decay and brought into the glorious freedom of the children of God."
+    },
+    {
+      "verse": 22,
+      "kjv": "For we know that the whole creation groaneth and travaileth in pain together until now.",
+      "web": "For we know that the whole creation groans and travails in pain together until now.",
+      "ct": "We know that the entire creation has been groaning together in the pains of labor up to this very moment."
+    },
+    {
+      "verse": 23,
+      "kjv": "And not only they, but ourselves also, which have the firstfruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our body.",
+      "web": "Not only so, but ourselves also, who have the first fruits of the Spirit, even we ourselves groan within ourselves, waiting for adoption, the redemption of our body.",
+      "ct": "Not only creation, but we ourselves — who have the firstfruits of the Spirit — groan inwardly as we eagerly wait for our adoption, the redemption of our bodies."
+    },
+    {
+      "verse": 24,
+      "kjv": "For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?",
+      "web": "For we were saved in hope, but hope that is seen is not hope. For who hopes for that which he sees?",
+      "ct": "We were saved with this hope. But hope that can already be seen is not really hope — who hopes for what they can already see?"
+    },
+    {
+      "verse": 25,
+      "kjv": "But if we hope for that we see not, then do we with patience wait for it.",
+      "web": "But if we hope for that which we don’t see, we wait for it with patience.",
+      "ct": "But if we hope for what we do not yet see, we wait for it with patience."
+    },
+    {
+      "verse": 26,
+      "kjv": "Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.",
+      "web": "In the same way, the Spirit also helps our weaknesses, for we don’t know how to pray as we ought. But the Spirit himself makes intercession for us with groanings which can’t be uttered.",
+      "ct": "In the same way, the Spirit helps us in our weakness. We do not know how to pray as we should, but the Spirit himself intercedes for us with groans that words cannot express."
+    },
+    {
+      "verse": 27,
+      "kjv": "And he that searcheth the hearts knoweth what is the mind of the Spirit, because he maketh intercession for the saints according to the will of God.",
+      "web": "He who searches the hearts knows what is on the Spirit’s mind, because he makes intercession for the saints according to God.",
+      "ct": "The one who searches our hearts knows the mind of the Spirit, because the Spirit intercedes for the saints according to the will of God."
+    },
+    {
+      "verse": 28,
+      "kjv": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+      "web": "We know that all things work together for good for those who love God, for those who are called according to his purpose.",
+      "ct": "We know that all things work together for the good of those who love God — those who are called according to his purpose."
+    },
+    {
+      "verse": 29,
+      "kjv": "For whom he did foreknow, he also did predestinate to be conformed to the image of his Son, that he might be the firstborn among many brethren.",
+      "web": "For whom he foreknew, he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers.",
+      "ct": "Those God foreknew, he also predestined to be shaped into the likeness of his Son, so that his Son would be the firstborn among many brothers and sisters."
+    },
+    {
+      "verse": 30,
+      "kjv": "Moreover whom he did predestinate, them he also called: and whom he called, them he also justified: and whom he justified, them he also glorified.",
+      "web": "Whom he predestined, those he also called. Whom he called, those he also justified. Whom he justified, those he also glorified.",
+      "ct": "Those he predestined, he also called. Those he called, he also justified. Those he justified, he also glorified."
+    },
+    {
+      "verse": 31,
+      "kjv": "What shall we then say to these things? If God be for us, who can be against us?",
+      "web": "What then shall we say about these things? If God is for us, who can be against us?",
+      "ct": "What then should we say about all of this? If God is for us, who can stand against us?"
+    },
+    {
+      "verse": 32,
+      "kjv": "He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?",
+      "web": "He who didn’t spare his own Son, but delivered him up for us all, how would he not also with him freely give us all things?",
+      "ct": "He did not spare his own Son but gave him up for all of us — how will he not also, along with him, graciously give us everything else?"
+    },
+    {
+      "verse": 33,
+      "kjv": "Who shall lay any thing to the charge of God’s elect? It is God that justifieth.",
+      "web": "Who could bring a charge against God’s chosen ones? It is God who justifies.",
+      "ct": "Who can bring any accusation against God's chosen ones? It is God who declares us righteous."
+    },
+    {
+      "verse": 34,
+      "kjv": "Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us.",
+      "web": "Who is he who condemns? It is Christ who died, yes rather, who was raised from the dead, who is at the right hand of God, who also makes intercession for us.",
+      "ct": "Who then can condemn us? Christ Jesus is the one who died — and more than that, who was raised to life — and is now at the right hand of God, interceding for us."
+    },
+    {
+      "verse": 35,
+      "kjv": "Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword?",
+      "web": "Who shall separate us from the love of Christ? Could oppression, or anguish, or persecution, or famine, or nakedness, or peril, or sword?",
+      "ct": "Who can separate us from the love of Christ? Can trouble, or hardship, or persecution, or famine, or nakedness, or danger, or the sword?"
+    },
+    {
+      "verse": 36,
+      "kjv": "As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter.",
+      "web": "Even as it is written, “For your sake we are killed all day long. We were accounted as sheep for the slaughter.”",
+      "ct": "As it is written: \"For your sake we face death all day long; we are treated like sheep to be slaughtered.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "Nay, in all these things we are more than conquerors through him that loved us.",
+      "web": "No, in all these things, we are more than conquerors through him who loved us.",
+      "ct": "No — in all these things we are more than conquerors through the one who loved us."
+    },
+    {
+      "verse": 38,
+      "kjv": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come,",
+      "web": "For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers,",
+      "ct": "I am absolutely convinced that neither death nor life, neither angels nor rulers, neither things present nor things to come, nor any powers,"
+    },
+    {
+      "verse": 39,
+      "kjv": "Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
+      "web": "nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.",
+      "ct": "neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{"book":"Genesis","totalVerses":1533,"phase2Pass":1413,"phase3Corrected":122,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Exodus","totalVerses":1213,"phase2Pass":1104,"phase3Corrected":112,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Leviticus","totalVerses":804,"phase2Pass":745,"phase3Corrected":59,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Numbers","totalVerses":1288,"phase2Pass":1213,"phase3Corrected":74,"escalations":1,"errors":0,"escalationPct":0.1}
+{"book":"Deuteronomy","totalVerses":959,"phase2Pass":881,"phase3Corrected":81,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Joshua","totalVerses":658,"phase2Pass":631,"phase3Corrected":27,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Judges","totalVerses":587,"phase2Pass":530,"phase3Corrected":55,"escalations":2,"errors":0,"escalationPct":0.3}
+{"book":"Ruth","totalVerses":85,"phase2Pass":78,"phase3Corrected":7,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"1 Samuel","error":"Command failed: npm run ct:audit:batch:submit -- --book \"1 Samuel\" 2>&1","totalVerses":0,"phase2Pass":0,"phase3Corrected":0,"escalations":0,"errors":1}
+{"book":"1 Samuel","error":"Command failed: npm run ct:audit:batch:submit -- --book \"1 Samuel\" 2>&1","totalVerses":0,"phase2Pass":0,"phase3Corrected":0,"escalations":0,"errors":1}
+{"book":"1 Samuel","totalVerses":810,"phase2Pass":748,"phase3Corrected":60,"escalations":2,"errors":0,"escalationPct":0.2}
+{"book":"2 Samuel","totalVerses":695,"phase2Pass":649,"phase3Corrected":46,"escalations":1,"errors":0,"escalationPct":0.1}
+{"book":"1 Kings","totalVerses":816,"phase2Pass":775,"phase3Corrected":46,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"2 Kings","totalVerses":719,"phase2Pass":676,"phase3Corrected":43,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"1 Chronicles","totalVerses":942,"phase2Pass":854,"phase3Corrected":87,"escalations":1,"errors":0,"escalationPct":0.1}
+{"book":"2 Chronicles","totalVerses":822,"phase2Pass":738,"phase3Corrected":83,"escalations":1,"errors":0,"escalationPct":0.1}
+{"book":"Ezra","totalVerses":280,"phase2Pass":259,"phase3Corrected":22,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Nehemiah","totalVerses":406,"phase2Pass":367,"phase3Corrected":41,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Esther","totalVerses":167,"phase2Pass":147,"phase3Corrected":20,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Job","totalVerses":1070,"phase2Pass":944,"phase3Corrected":126,"escalations":1,"errors":0,"escalationPct":0.1}
+{"book":"Psalms","totalVerses":2461,"phase2Pass":2301,"phase3Corrected":160,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Proverbs","totalVerses":915,"phase2Pass":833,"phase3Corrected":82,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Ecclesiastes","totalVerses":222,"phase2Pass":190,"phase3Corrected":32,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Song of Solomon","totalVerses":117,"phase2Pass":100,"phase3Corrected":17,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Isaiah","totalVerses":1292,"phase2Pass":1104,"phase3Corrected":190,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Jeremiah","totalVerses":1364,"phase2Pass":1202,"phase3Corrected":161,"escalations":2,"errors":0,"escalationPct":0.1}
+{"book":"Lamentations","totalVerses":154,"phase2Pass":132,"phase3Corrected":22,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Ezekiel","totalVerses":1273,"phase2Pass":1120,"phase3Corrected":151,"escalations":2,"errors":0,"escalationPct":0.2}
+{"book":"Daniel","totalVerses":357,"phase2Pass":305,"phase3Corrected":52,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Hosea","totalVerses":186,"phase2Pass":149,"phase3Corrected":38,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Joel","totalVerses":73,"phase2Pass":60,"phase3Corrected":16,"escalations":1,"errors":0,"escalationPct":1.4}
+{"book":"Amos","totalVerses":146,"phase2Pass":130,"phase3Corrected":17,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Obadiah","totalVerses":21,"phase2Pass":21,"phase3Corrected":1,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Jonah","totalVerses":48,"phase2Pass":46,"phase3Corrected":2,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Micah","totalVerses":105,"phase2Pass":91,"phase3Corrected":15,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Nahum","totalVerses":47,"phase2Pass":24,"phase3Corrected":23,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Habakkuk","totalVerses":56,"phase2Pass":49,"phase3Corrected":7,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Zephaniah","totalVerses":53,"phase2Pass":48,"phase3Corrected":5,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Haggai","totalVerses":38,"phase2Pass":35,"phase3Corrected":3,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Zechariah","totalVerses":211,"phase2Pass":174,"phase3Corrected":37,"escalations":0,"errors":0,"escalationPct":0}
+{"book":"Malachi","totalVerses":55,"phase2Pass":45,"phase3Corrected":9,"escalations":1,"errors":0,"escalationPct":1.8}

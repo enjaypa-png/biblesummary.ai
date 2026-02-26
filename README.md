@@ -42,6 +42,13 @@ The Clear Bible Translation is a modern English rendering of the entire Bible (3
 | `npm run ct:review` | Quality review — 100 key verses side-by-side (KJV vs CT) with HTML output |
 | `npm run ct:edit` | Fix individual verses directly in Supabase |
 | `npm run ct:audit` | Audit a book's CT against KJV — flags errors with corrected text |
+| `npm run ct:audit:fix` | Audit CT vs KJV (two-agent + retry), apply corrections, manual review on 3× FAIL |
+| `npm run ct:audit:batch:submit` | Phase 1: Rewrite batch (KJV+CT → corrected CT) |
+| `npm run ct:audit:batch:download` | Save Phase 1 for Phase 2 audit |
+| `npm run ct:audit:batch:phase2:submit` | Phase 2: Audit batch (KJV vs new CT → PASS/FAIL) |
+| `npm run ct:audit:batch:phase2:download` | Apply only PASS to Supabase; FAIL → manual review |
+| `npm run ct:generate:v2` | **NEW** Generate CT using WEB+KJV dual input, NIV/God's Word style |
+| `npm run ct:audit:openai` | **NEW** Audit CT with GPT-4o (cross-provider — no self-auditing) |
 
 The batch submit script supports targeted testing:
 ```bash
@@ -55,7 +62,17 @@ npm run ct:edit -- --dry-run              # Preview fixes
 npm run ct:edit                           # Apply fixes
 ```
 
-CT source files: `scripts/ct-translation/prompt.ts` (system prompt), `scripts/ct-translation/STYLE-GUIDE.md` (style rules and protected terms).
+The audit-and-fix script automates applying audit rules to CT:
+```bash
+npm run ct:audit:fix -- --book ruth --dry-run     # Preview changes for Ruth
+npm run ct:audit:fix -- --book ruth               # Apply corrections to Ruth
+npm run ct:audit:fix -- --books genesis,ruth      # Multiple books
+npm run ct:audit:fix -- --book 1-samuel --chapter 10   # Single chapter
+npm run ct:audit:fix -- --write-json              # Also update JSON files
+npm run ct:audit:fix -- --limit 3                 # Process max 3 chapters (testing)
+```
+
+CT source files: `scripts/ct-translation/prompt.ts` (system prompt), `scripts/ct-translation/AUDIT-RULES.md` (audit rules for ct:audit:fix), `scripts/ct-translation/STYLE-GUIDE.md` (style rules and protected terms).
 
 ## Tech Stack
 
