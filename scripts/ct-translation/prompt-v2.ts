@@ -34,8 +34,9 @@ SIMPLE dates and introductions:
 ✅ "Jehoahaz son of Jehu became king of Israel in Samaria during the 23rd year of King Joash of Judah's reign. He ruled for 17 years."
 
 NATURAL phrasing of repeated formulas:
-❌ "He did what was evil in the sight of the LORD and did not turn away from the sins of Jeroboam."
-✅ "He did evil in the LORD's sight, following the same sinful path Jeroboam had set for Israel — and he never turned from it."
+❌ "He did what was evil in the sight of the LORD"
+❌ "He did evil in the LORD's sight"
+✅ "The LORD saw that he was evil" or "God saw that everything he did was evil" or "In God's eyes, he was evil"
 
 ❌ "Are they not written in the book of the annals of the kings of Israel?"
 ✅ "Everything else about his reign is recorded in the official history of Israel's kings."
