@@ -1,0 +1,137 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 20,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:29:53.885Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In those days was Hezekiah sick unto death. And the prophet Isaiah the son of Amoz came to him, and said unto him, Thus saith the LORD, Set thine house in order; for thou shalt die, and not live.",
+      "web": "In those days Hezekiah was sick and dying. Isaiah the prophet the son of Amoz came to him, and said to him, \u201cLORD says, \u2018Set your house in order; for you will die, and not live.\u2019\u00a0\u201d",
+      "ct": "In those days Hezekiah became deathly ill. The prophet Isaiah son of Amoz came to him and said, \"This is what the LORD says: 'Put your affairs in order, because you are going to die. You will not recover.'\""
+    },
+    {
+      "verse": 2,
+      "kjv": "Then he turned his face to the wall, and prayed unto the LORD, saying,",
+      "web": "Then he turned his face to the wall, and prayed to LORD, saying,",
+      "ct": "Hezekiah turned his face toward the wall and prayed to the LORD, saying,"
+    },
+    {
+      "verse": 3,
+      "kjv": "I beseech thee, O LORD, remember now how I have walked before thee in truth and with a perfect heart, and have done that which is good in thy sight. And Hezekiah wept sore.",
+      "web": "\u201cRemember now, LORD, I beg you, how I have walked before you in truth and with a perfect heart, and have done that which is good in your sight.\u201d And Hezekiah wept bitterly.",
+      "ct": "\"Please, LORD, remember how I have walked before you faithfully and with a wholehearted devotion, and how I have done what is good in your sight.\" Then Hezekiah wept bitterly."
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass, afore Isaiah was gone out into the middle court, that the word of the LORD came to him, saying,",
+      "web": "Before Isaiah had gone out into the middle part of the city, LORD\u2019s word came to him, saying,",
+      "ct": "Before Isaiah had left the middle courtyard, the word of the LORD came to him, saying,"
+    },
+    {
+      "verse": 5,
+      "kjv": "Turn again, and tell Hezekiah the captain of my people, Thus saith the LORD, the God of David thy father, I have heard thy prayer, I have seen thy tears: behold, I will heal thee: on the third day thou shalt go up unto the house of the LORD.",
+      "web": "\u201cTurn back, and tell Hezekiah the prince of my people, \u2018LORD, the God of David your father, says, \u201cI have heard your prayer. I have seen your tears. Behold, I will heal you. On the third day, you will go up to LORD\u2019s house.",
+      "ct": "\"Go back and tell Hezekiah, the leader of my people, 'This is what the LORD, the God of your father David, says: I have heard your prayer and seen your tears. I am going to heal you. On the 3rd day you will go up to the house of the LORD."
+    },
+    {
+      "verse": 6,
+      "kjv": "And I will add unto thy days fifteen years; and I will deliver thee and this city out of the hand of the king of Assyria; and I will defend this city for mine own sake, and for my servant David\u2019s sake.",
+      "web": "I will add to your days fifteen years. I will deliver you and this city out of the hand of the king of Assyria. I will defend this city for my own sake, and for my servant David\u2019s sake.\u201d\u00a0\u2019\u00a0\u201d",
+      "ct": "I will add 15 years to your life. I will rescue you and this city from the hand of the king of Assyria. I will defend this city for my own sake and for the sake of my servant David.'\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And Isaiah said, Take a lump of figs. And they took and laid it on the boil, and he recovered.",
+      "web": "Isaiah said, \u201cTake a cake of figs.\u201d They took and laid it on the boil, and he recovered.",
+      "ct": "Then Isaiah said, \"Prepare a lump of figs.\" So they took one and applied it to the boil, and Hezekiah recovered."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Hezekiah said unto Isaiah, What shall be the sign that the LORD will heal me, and that I shall go up into the house of the LORD the third day?",
+      "web": "Hezekiah said to Isaiah, \u201cWhat will be the sign that LORD will heal me, and that I will go up to LORD\u2019s house the third day?\u201d",
+      "ct": "Hezekiah had asked Isaiah, \"What will be the sign that the LORD will heal me and that I will go up to the house of the LORD on the 3rd day?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Isaiah said, This sign shalt thou have of the LORD, that the LORD will do the thing that he hath spoken: shall the shadow go forward ten degrees, or go back ten degrees?",
+      "web": "Isaiah said, \u201cThis will be the sign to you from LORD, that LORD will do the thing that he has spoken: should the shadow go forward ten steps, or go back ten steps?\u201d",
+      "ct": "Isaiah replied, \"This is the sign the LORD gives you to confirm that he will do what he has promised: Should the shadow move forward 10 steps, or should it go back 10 steps?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And Hezekiah answered, It is a light thing for the shadow to go down ten degrees: nay, but let the shadow return backward ten degrees.",
+      "web": "Hezekiah answered, \u201cIt is a light thing for the shadow to go forward ten steps. No, but let the shadow return backward ten steps.\u201d",
+      "ct": "Hezekiah answered, \"It's easy enough for the shadow to move forward 10 steps. Instead, let the shadow go back 10 steps.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Isaiah the prophet cried unto the LORD: and he brought the shadow ten degrees backward, by which it had gone down in the dial of Ahaz.",
+      "web": "Isaiah the prophet cried to LORD; and he brought the shadow ten steps backward, by which it had gone down on the sundial of Ahaz.",
+      "ct": "So Isaiah the prophet called out to the LORD, and the LORD made the shadow go back 10 steps on the stairway of Ahaz, reversing the distance it had already gone down."
+    },
+    {
+      "verse": 12,
+      "kjv": "At that time Berodachbaladan, the son of Baladan, king of Babylon, sent letters and a present unto Hezekiah: for he had heard that Hezekiah had been sick.",
+      "web": "At that time Berodach Baladan the son of Baladan, king of Babylon, sent letters and a present to Hezekiah; for he had heard that Hezekiah had been sick.",
+      "ct": "Around that time, Berodachbaladan son of Baladan, king of Babylon, sent letters and a gift to Hezekiah, because he had heard that Hezekiah had been ill."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Hezekiah hearkened unto them, and shewed them all the house of his precious things, the silver, and the gold, and the spices, and the precious ointment, and all the house of his armour, and all that was found in his treasures: there was nothing in his house, nor in all his dominion, that Hezekiah shewed them not.",
+      "web": "Hezekiah listened to them, and showed them all the storehouse of his precious things, the silver, the gold, the spices, and the precious oil, and the house of his armor, and all that was found in his treasures. There was nothing in his house, or in all his dominion, that Hezekiah didn\u2019t show them.",
+      "ct": "Hezekiah welcomed the envoys and showed them his entire treasury \u2014 the silver, the gold, the spices, the precious oils, his armory, and everything stored among his treasures. There was nothing in his palace or in all his kingdom that Hezekiah did not show them."
+    },
+    {
+      "verse": 14,
+      "kjv": "Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country, even from Babylon.",
+      "web": "Then Isaiah the prophet came to king Hezekiah, and said to him, \u201cWhat did these men say? From where did they come to you?\u201d Hezekiah said, \u201cThey have come from a far country, even from Babylon.\u201d",
+      "ct": "Then the prophet Isaiah came to King Hezekiah and asked him, \"What did these men say, and where did they come from?\" Hezekiah replied, \"They came from a distant land \u2014 from Babylon.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And he said, What have they seen in thine house? And Hezekiah answered, All the things that are in mine house have they seen: there is nothing among my treasures that I have not shewed them.",
+      "web": "He said, \u201cWhat have they seen in your house?\u201d Hezekiah answered, \u201cThey have seen all that is in my house. There is nothing among my treasures that I have not shown them.\u201d",
+      "ct": "Isaiah asked, \"What have they seen in your palace?\" Hezekiah answered, \"They have seen everything in my palace. There is nothing among my treasures that I did not show them.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And Isaiah said unto Hezekiah, Hear the word of the LORD.",
+      "web": "Isaiah said to Hezekiah, \u201cHear LORD\u2019s word.",
+      "ct": "Then Isaiah said to Hezekiah, \"Listen to the word of the LORD:"
+    },
+    {
+      "verse": 17,
+      "kjv": "Behold, the days come, that all that is in thine house, and that which thy fathers have laid up in store unto this day, shall be carried into Babylon: nothing shall be left, saith the LORD.",
+      "web": "\u2018Behold, the days come that all that is in your house, and that which your fathers have laid up in store to this day, will be carried to Babylon. Nothing will be left,\u2019 says LORD.",
+      "ct": "'The time is coming when everything in your palace \u2014 all that your ancestors have stored up until this day \u2014 will be carried off to Babylon. Nothing will be left,' says the LORD."
+    },
+    {
+      "verse": 18,
+      "kjv": "And of thy sons that shall issue from thee, which thou shalt beget, shall they take away; and they shall be eunuchs in the palace of the king of Babylon.",
+      "web": "\u2018They will take away some of your sons who will issue from you, whom you will father; and they will be eunuchs in the palace of the king of Babylon.\u2019\u00a0\u201d",
+      "ct": "'Some of your own descendants, your own flesh and blood, will be taken away. They will serve as eunuchs in the palace of the king of Babylon.'\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Then said Hezekiah unto Isaiah, Good is the word of the LORD which thou hast spoken. And he said, Is it not good, if peace and truth be in my days?",
+      "web": "Then Hezekiah said to Isaiah, \u201cLORD\u2019s word which you have spoken is good.\u201d He said moreover, \u201cIsn\u2019t it so, if peace and truth will be in my days?\u201d",
+      "ct": "Hezekiah said to Isaiah, \"The word of the LORD that you have spoken is good.\" Then he added, \"At least there will be peace and security during my lifetime.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And the rest of the acts of Hezekiah, and all his might, and how he made a pool, and a conduit, and brought water into the city, are they not written in the book of the chronicles of the kings of Judah?",
+      "web": "Now the rest of the acts of Hezekiah, and all his might, and how he made the pool, and the conduit, and brought water into the city, aren\u2019t they written in the book of the chronicles of the kings of Judah?",
+      "ct": "As for the rest of Hezekiah's accomplishments, all his achievements, and how he constructed the pool and the water channel to bring water into the city \u2014 are they not recorded in the book of the chronicles of the kings of Judah?"
+    },
+    {
+      "verse": 21,
+      "kjv": "And Hezekiah slept with his fathers: and Manasseh his son reigned in his stead.",
+      "web": "Hezekiah slept with his fathers, and Manasseh his son reigned in his place.",
+      "ct": "Hezekiah died and was buried with his ancestors, and his son Manasseh became king in his place."
+    }
+  ]
+}

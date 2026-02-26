@@ -1,0 +1,233 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 9,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:25:39.981Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Elisha the prophet called one of the children of the prophets, and said unto him, Gird up thy loins, and take this box of oil in thine hand, and go to Ramothgilead:",
+      "web": "Elisha the prophet called one of the sons of the prophets, and said to him, “Put your belt on your waist, take this vial of oil in your hand, and go to Ramoth Gilead.",
+      "ct": "Elisha the prophet summoned one of the sons of the prophets and told him, \"Prepare yourself, take this flask of oil in your hand, and go to Ramoth Gilead."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when thou comest thither, look out there Jehu the son of Jehoshaphat the son of Nimshi, and go in, and make him arise up from among his brethren, and carry him to an inner chamber;",
+      "web": "When you come there, find Jehu the son of Jehoshaphat the son of Nimshi, and go in, and make him rise up from among his brothers, and take him to an inner room.",
+      "ct": "When you arrive there, find Jehu son of Jehoshaphat, the son of Nimshi. Go in and get him away from his fellow officers, and take him to an inner room."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then take the box of oil, and pour it on his head, and say, Thus saith the LORD, I have anointed thee king over Israel. Then open the door, and flee, and tarry not.",
+      "web": "Then take the vial of oil, and pour it on his head, and say, ‘LORD says, “I have anointed you king over Israel.” ’ Then open the door, flee, and don’t wait.”",
+      "ct": "Then take the flask of oil, pour it on his head, and say, 'This is what the LORD says: I have anointed you king over Israel.' Then open the door, run, and do not wait.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "So the young man, even the young man the prophet, went to Ramothgilead.",
+      "web": "So the young man, even the young man, the prophet, went to Ramoth Gilead.",
+      "ct": "So the young man — the young prophet — went to Ramoth Gilead."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain.",
+      "web": "When he came, behold, the captains of the army were sitting. Then he said, “I have a message for you, captain.” Jehu said, “To which of us all?” He said, “To you, O captain.”",
+      "ct": "When he arrived, the army commanders were sitting together. He said, \"I have a message for you, commander.\" Jehu asked, \"For which one of us?\" He replied, \"For you, commander.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And he arose, and went into the house; and he poured the oil on his head, and said unto him, Thus saith the LORD God of Israel, I have anointed thee king over the people of the LORD, even over Israel.",
+      "web": "He arose, and went into the house. Then he poured the oil on his head, and said to him, “LORD, the God of Israel, says, ‘I have anointed you king over the people of LORD, even over Israel.",
+      "ct": "Jehu got up and went inside the house. Then the young man poured the oil on his head and said, \"This is what the LORD, the God of Israel, says: 'I have anointed you king over the LORD's people, over Israel."
+    },
+    {
+      "verse": 7,
+      "kjv": "And thou shalt smite the house of Ahab thy master, that I may avenge the blood of my servants the prophets, and the blood of all the servants of the LORD, at the hand of Jezebel.",
+      "web": "You must strike your master Ahab’s house, that I may avenge the blood of my servants the prophets, and the blood of all the servants of LORD, at the hand of Jezebel.",
+      "ct": "You are to strike down the house of your master Ahab, so that I may avenge the blood of my servants the prophets and the blood of all the LORD's servants shed by Jezebel."
+    },
+    {
+      "verse": 8,
+      "kjv": "For the whole house of Ahab shall perish: and I will cut off from Ahab him that pisseth against the wall, and him that is shut up and left in Israel:",
+      "web": "For the whole house of Ahab will perish. I will cut off from Ahab everyone who urinates against a wall, both him who is shut up and him who is left at large in Israel.",
+      "ct": "The entire house of Ahab will perish. I will cut off from Ahab every male in Israel, whether slave or free."
+    },
+    {
+      "verse": 9,
+      "kjv": "And I will make the house of Ahab like the house of Jeroboam the son of Nebat, and like the house of Baasha the son of Ahijah:",
+      "web": "I will make Ahab’s house like the house of Jeroboam the son of Nebat, and like the house of Baasha the son of Ahijah.",
+      "ct": "I will make the house of Ahab like the house of Jeroboam son of Nebat and like the house of Baasha son of Ahijah."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the dogs shall eat Jezebel in the portion of Jezreel, and there shall be none to bury her. And he opened the door, and fled.",
+      "web": "The dogs will eat Jezebel on the plot of ground of Jezreel, and there shall be no one to bury her.’ ” Then he opened the door and fled.",
+      "ct": "Dogs will devour Jezebel on the plot of ground at Jezreel, and no one will bury her.'\" Then he opened the door and fled."
+    },
+    {
+      "verse": 11,
+      "kjv": "Then Jehu came forth to the servants of his lord: and one said unto him, Is all well? wherefore came this mad fellow to thee? And he said unto them, Ye know the man, and his communication.",
+      "web": "When Jehu came out to the servants of his lord, and one said to him, “Is all well? Why did this mad fellow come to you?” He said to them, “You know the man and how he talks.”",
+      "ct": "When Jehu came back out to his master's officers, one of them asked him, \"Is everything all right? Why did this madman come to you?\" He replied, \"You know the man and the kind of things he says.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And they said, It is false; tell us now. And he said, Thus and thus spake he to me, saying, Thus saith the LORD, I have anointed thee king over Israel.",
+      "web": "They said, “That is a lie. Tell us now.” He said, “He said to me, ‘LORD says, I have anointed you king over Israel.’ ”",
+      "ct": "\"That's not true!\" they said. \"Tell us now.\" So he said, \"He told me, 'This is what the LORD says: I have anointed you king over Israel.'\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then they hasted, and took every man his garment, and put it under him on the top of the stairs, and blew with trumpets, saying, Jehu is king.",
+      "web": "Then they hurried, and each man took his cloak, and put it under him on the top of the stairs, and blew the trumpet, saying, “Jehu is king.”",
+      "ct": "Immediately each man grabbed his cloak and spread it under Jehu on the bare steps. Then they blew the trumpet and shouted, \"Jehu is king!\""
+    },
+    {
+      "verse": 14,
+      "kjv": "So Jehu the son of Jehoshaphat the son of Nimshi conspired against Joram. (Now Joram had kept Ramothgilead, he and all Israel, because of Hazael king of Syria.",
+      "web": "So Jehu the son of Jehoshaphat the son of Nimshi conspired against Joram. (Now Joram was keeping Ramoth Gilead, he and all Israel, because of Hazael king of Syria;",
+      "ct": "So Jehu son of Jehoshaphat, the son of Nimshi, conspired against Joram. (Now Joram had been defending Ramoth Gilead — he and all Israel — against Hazael king of Syria."
+    },
+    {
+      "verse": 15,
+      "kjv": "But king Joram was returned to be healed in Jezreel of the wounds which the Syrians had given him, when he fought with Hazael king of Syria.) And Jehu said, If it be your minds, then let none go forth nor escape out of the city to go to tell it in Jezreel.",
+      "web": "but king Joram had returned to be healed in Jezreel of the wounds which the Syrians had given him, when he fought with Hazael king of Syria.) Jehu said, “If this is your thinking, then let no one escape and go out of the city, to go to tell it in Jezreel.”",
+      "ct": "But King Joram had returned to Jezreel to recover from the wounds the Syrians had inflicted on him when he fought against Hazael king of Syria.) Jehu said, \"If this is what you want, then don't let anyone slip out of the city to go report this in Jezreel.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "So Jehu rode in a chariot, and went to Jezreel; for Joram lay there. And Ahaziah king of Judah was come down to see Joram.",
+      "web": "So Jehu rode in a chariot and went to Jezreel, for Joram lay there. Ahaziah king of Judah had come down to see Joram.",
+      "ct": "Then Jehu got into his chariot and rode to Jezreel, because Joram was resting there. Ahaziah king of Judah had also come down to visit Joram."
+    },
+    {
+      "verse": 17,
+      "kjv": "And there stood a watchman on the tower in Jezreel, and he spied the company of Jehu as he came, and said, I see a company. And Joram said, Take an horseman, and send to meet them, and let him say, Is it peace?",
+      "web": "Now the watchman was standing on the tower in Jezreel, and he spied the company of Jehu as he came, and said, “I see a company.” Joram said, “Take a horseman, and send to meet them, and let him say, ‘Is it peace?’ ”",
+      "ct": "A watchman standing on the tower in Jezreel spotted Jehu's troops approaching and called out, \"I see a group of men coming!\" Joram ordered, \"Send a horseman to meet them and ask, 'Do you come in peace?'\""
+    },
+    {
+      "verse": 18,
+      "kjv": "So there went one on horseback to meet him, and said, Thus saith the king, Is it peace? And Jehu said, What hast thou to do with peace? turn thee behind me. And the watchman told, saying, The messenger came to them, but he cometh not again.",
+      "web": "So one went on horseback to meet him, and said, “the king says, ‘Is it peace?’ ” Jehu said, “What do you have to do with peace? Fall in behind me!” The watchman said, “The messenger came to them, but he isn’t coming back.”",
+      "ct": "So a horseman rode out to meet him and said, \"The king asks, 'Do you come in peace?'\" Jehu replied, \"What do you know about peace? Fall in behind me!\" The watchman reported, \"The messenger reached them but is not coming back.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Then he sent out a second on horseback, which came to them, and said, Thus saith the king, Is it peace? And Jehu answered, What hast thou to do with peace? turn thee behind me.",
+      "web": "Then he sent out a second on horseback, who came to them, and said, “The king says, ‘Is it peace?’ ” Jehu answered, “What do you have to do with peace? Fall in behind me!”",
+      "ct": "So Joram sent a second horseman, who rode to them and said, \"The king asks, 'Do you come in peace?'\" Jehu answered, \"What do you know about peace? Fall in behind me!\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And the watchman told, saying, He came even unto them, and cometh not again: and the driving is like the driving of Jehu the son of Nimshi; for he driveth furiously.",
+      "web": "The watchman said, “He came to them, and isn’t coming back. The driving is like the driving of Jehu the son of Nimshi, for he drives furiously.”",
+      "ct": "The watchman reported, \"He reached them but is not coming back either. The driving is like that of Jehu son of Nimshi — he drives like a madman!\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Joram said, Make ready. And his chariot was made ready. And Joram king of Israel and Ahaziah king of Judah went out, each in his chariot, and they went out against Jehu, and met him in the portion of Naboth the Jezreelite.",
+      "web": "Joram said, “Get ready!” They got his chariot ready. Then Joram king of Israel and Ahaziah king of Judah went out, each in his chariot, and they went out to meet Jehu, and found him on Naboth the Jezreelite’s land.",
+      "ct": "Joram ordered, \"Get my chariot ready!\" When it was prepared, Joram king of Israel and Ahaziah king of Judah rode out, each in his own chariot, to meet Jehu. They found him at the property that had belonged to Naboth the Jezreelite."
+    },
+    {
+      "verse": 22,
+      "kjv": "And it came to pass, when Joram saw Jehu, that he said, Is it peace, Jehu? And he answered, What peace, so long as the whoredoms of thy mother Jezebel and her witchcrafts are so many?",
+      "web": "When Joram saw Jehu, he said, “Is it peace, Jehu?” He answered, “What peace, so long as the prostitution of your mother Jezebel and her witchcraft abound?”",
+      "ct": "When Joram saw Jehu, he called out, \"Do you come in peace, Jehu?\" Jehu answered, \"How can there be peace as long as the prostitution and witchcraft of your mother Jezebel continue?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And Joram turned his hands, and fled, and said to Ahaziah, There is treachery, O Ahaziah.",
+      "web": "Joram turned his hands, and fled, and said to Ahaziah, “This is treason, Ahaziah!”",
+      "ct": "Joram turned his chariot around to flee and shouted to Ahaziah, \"Treachery, Ahaziah!\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And Jehu drew a bow with his full strength, and smote Jehoram between his arms, and the arrow went out at his heart, and he sunk down in his chariot.",
+      "web": "Jehu drew his bow with his full strength, and struck Joram between his arms; and the arrow went out at his heart, and he sunk down in his chariot.",
+      "ct": "Jehu drew his bow with all his strength and shot Joram between the shoulders. The arrow pierced his heart, and he slumped down in his chariot."
+    },
+    {
+      "verse": 25,
+      "kjv": "Then said Jehu to Bidkar his captain, Take up, and cast him in the portion of the field of Naboth the Jezreelite: for remember how that, when I and thou rode together after Ahab his father, the LORD laid this burden upon him;",
+      "web": "Then Jehu said to Bidkar his captain, “Pick him up, and throw him in the plot of the field of Naboth the Jezreelite; for remember how, when you and I rode together after Ahab his father, LORD laid this burden on him:",
+      "ct": "Then Jehu said to his officer Bidkar, \"Pick him up and throw him onto the field that belonged to Naboth the Jezreelite. Remember how you and I were riding together behind his father Ahab when the LORD pronounced this judgment against him:"
+    },
+    {
+      "verse": 26,
+      "kjv": "Surely I have seen yesterday the blood of Naboth, and the blood of his sons, saith the LORD; and I will requite thee in this plat, saith the LORD. Now therefore take and cast him into the plat of ground, according to the word of the LORD.",
+      "web": "‘Surely I have seen yesterday the blood of Naboth, and the blood of his sons,’ says LORD; ‘and I will repay you in this plot of ground,’ says LORD. Now therefore take and cast him onto the plot of ground, according to LORD’s word.”",
+      "ct": "'As surely as I saw the blood of Naboth and the blood of his sons yesterday,' declares the LORD, 'I will repay you on this very plot of ground,' declares the LORD. So pick him up and throw him on the plot, just as the LORD said.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "But when Ahaziah the king of Judah saw this, he fled by the way of the garden house. And Jehu followed after him, and said, Smite him also in the chariot. And they did so at the going up to Gur, which is by Ibleam. And he fled to Megiddo, and died there.",
+      "web": "But when Ahaziah the king of Judah saw this, he fled by the way of the garden house. Jehu followed after him, and said, “Strike him also in the chariot!” They struck him at the ascent of Gur, which is by Ibleam. He fled to Megiddo, and died there.",
+      "ct": "When Ahaziah king of Judah saw what happened, he fled down the road toward Beth Haggan. Jehu chased after him and ordered, \"Shoot him too in his chariot!\" They struck him at the ascent of Gur, near Ibleam. He escaped to Megiddo but died there."
+    },
+    {
+      "verse": 28,
+      "kjv": "And his servants carried him in a chariot to Jerusalem, and buried him in his sepulchre with his fathers in the city of David.",
+      "web": "His servants carried him in a chariot to Jerusalem, and buried him in his tomb with his fathers in David’s city.",
+      "ct": "His servants carried his body by chariot to Jerusalem and buried him in his tomb with his ancestors in the city of David."
+    },
+    {
+      "verse": 29,
+      "kjv": "And in the eleventh year of Joram the son of Ahab began Ahaziah to reign over Judah.",
+      "web": "In the eleventh year of Joram the son of Ahab, Ahaziah began to reign over Judah.",
+      "ct": "Ahaziah had begun to reign over Judah in the 11th year of Joram son of Ahab."
+    },
+    {
+      "verse": 30,
+      "kjv": "And when Jehu was come to Jezreel, Jezebel heard of it; and she painted her face, and tired her head, and looked out at a window.",
+      "web": "When Jehu had come to Jezreel, Jezebel heard of it; and she painted her eyes, and adorned her head, and looked out at the window.",
+      "ct": "When Jehu arrived in Jezreel, Jezebel heard about it. She painted her eyes, arranged her hair, and looked down from a window."
+    },
+    {
+      "verse": 31,
+      "kjv": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master?",
+      "web": "As Jehu entered in at the gate, she said, “Do you come in peace, Zimri, you murderer of your master?”",
+      "ct": "As Jehu entered through the gate, she called out, \"Did Zimri have peace after he murdered his master?\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs.",
+      "web": "He lifted up his face to the window, and said, “Who is on my side? Who?” Two or three eunuchs looked out at him.",
+      "ct": "Jehu looked up at the window and said, \"Who is on my side? Anyone?\" 2 or 3 eunuchs looked down at him."
+    },
+    {
+      "verse": 33,
+      "kjv": "And he said, Throw her down. So they threw her down: and some of her blood was sprinkled on the wall, and on the horses: and he trode her under foot.",
+      "web": "He said, “Throw her down!” So they threw her down; and some of her blood was sprinkled on the wall, and on the horses. Then he trampled her under foot.",
+      "ct": "\"Throw her down!\" he ordered. So they threw her down, and some of her blood splattered on the wall and on the horses as he trampled her underfoot."
+    },
+    {
+      "verse": 34,
+      "kjv": "And when he was come in, he did eat and drink, and said, Go, see now this cursed woman, and bury her: for she is a king’s daughter.",
+      "web": "When he had come in, he ate and drank. Then he said, “See now to this cursed woman, and bury her; for she is a king’s daughter.”",
+      "ct": "Then Jehu went inside and ate and drank. Afterward he said, \"Go attend to that cursed woman and bury her, for she was a king's daughter.\""
+    },
+    {
+      "verse": 35,
+      "kjv": "And they went to bury her: but they found no more of her than the skull, and the feet, and the palms of her hands.",
+      "web": "They went to bury her, but they found no more of her than the skull, the feet, and the palms of her hands.",
+      "ct": "But when they went to bury her, they found nothing left of her except her skull, her feet, and the palms of her hands."
+    },
+    {
+      "verse": 36,
+      "kjv": "Wherefore they came again, and told him. And he said, This is the word of the LORD, which he spake by his servant Elijah the Tishbite, saying, In the portion of Jezreel shall dogs eat the flesh of Jezebel:",
+      "web": "Therefore they came back, and told him. He said, “This is LORD’s word, which he spoke by his servant Elijah the Tishbite, saying, ‘The dogs will eat the flesh of Jezebel on the plot of Jezreel,",
+      "ct": "They went back and reported this to Jehu. He said, \"This is the word of the LORD that he spoke through his servant Elijah the Tishbite: 'On the plot of ground at Jezreel, dogs will devour the flesh of Jezebel."
+    },
+    {
+      "verse": 37,
+      "kjv": "And the carcase of Jezebel shall be as dung upon the face of the field in the portion of Jezreel; so that they shall not say, This is Jezebel.",
+      "web": "and the body of Jezebel will be as dung on the face of the field on Jezreel’s land, so that they won’t say, “This is Jezebel.” ’ ”",
+      "ct": "Jezebel's body will be like dung spread on the surface of the field in Jezreel, so that no one will be able to say, \"This is Jezebel's grave.\"'\""
+    }
+  ]
+}

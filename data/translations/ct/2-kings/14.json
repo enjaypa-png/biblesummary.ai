@@ -1,0 +1,185 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 14,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:27:30.075Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In the second year of Joash son of Jehoahaz king of Israel reigned Amaziah the son of Joash king of Judah.",
+      "web": "In the second year of Joash son of Joahaz king of Israel Amaziah the son of Joash king of Judah began to reign.",
+      "ct": "In the 2nd year of Joash son of Jehoahaz, king of Israel, Amaziah son of Joash became king of Judah."
+    },
+    {
+      "verse": 2,
+      "kjv": "He was twenty and five years old when he began to reign, and reigned twenty and nine years in Jerusalem. And his mother\u2019s name was Jehoaddan of Jerusalem.",
+      "web": "He was twenty-five years old when he began to reign; and he reigned twenty-nine years in Jerusalem. His mother\u2019s name was Jehoaddin of Jerusalem.",
+      "ct": "He was 25 years old when he became king, and he reigned 29 years in Jerusalem. His mother's name was Jehoaddan of Jerusalem."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he did that which was right in the sight of the LORD, yet not like David his father: he did according to all things as Joash his father did.",
+      "web": "He did that which was right in LORD\u2019s eyes, yet not like David his father. He did according to all that Joash his father had done.",
+      "ct": "He did what was right in the sight of the LORD, but not like his ancestor David. He followed the example of his father Joash in everything."
+    },
+    {
+      "verse": 4,
+      "kjv": "Howbeit the high places were not taken away: as yet the people did sacrifice and burnt incense on the high places.",
+      "web": "However the high places were not taken away. The people still sacrificed and burned incense in the high places.",
+      "ct": "However, the high places were not removed. The people continued to offer sacrifices and burn incense at the high places."
+    },
+    {
+      "verse": 5,
+      "kjv": "And it came to pass, as soon as the kingdom was confirmed in his hand, that he slew his servants which had slain the king his father.",
+      "web": "As soon as the kingdom was established in his hand, he killed his servants who had slain the king his father,",
+      "ct": "As soon as the kingdom was firmly in his control, he executed the officials who had assassinated his father the king."
+    },
+    {
+      "verse": 6,
+      "kjv": "But the children of the murderers he slew not: according unto that which is written in the book of the law of Moses, wherein the LORD commanded, saying, The fathers shall not be put to death for the children, nor the children be put to death for the fathers; but every man shall be put to death for his own sin.",
+      "web": "but the children of the murderers he didn\u2019t put to death; according to that which is written in the book of the law of Moses, as LORD commanded, saying, \u201cThe fathers shall not be put to death for the children, nor the children be put to death for the fathers; but every man shall die for his own sin.\u201d",
+      "ct": "But he did not put the children of the murderers to death, in keeping with what is written in the Book of the Law of Moses, where the LORD commanded: \"Fathers must not be put to death for their children, and children must not be put to death for their fathers. Each person must die for his own sin.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "He slew of Edom in the valley of salt ten thousand, and took Selah by war, and called the name of it Joktheel unto this day.",
+      "web": "He killed ten thousand Edomites in the Valley of Salt, and took Sela by war, and called its name Joktheel, to this day.",
+      "ct": "He killed 10,000 Edomites in the Valley of Salt and captured Selah in battle, renaming it Joktheel \u2014 a name it still bears today."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then Amaziah sent messengers to Jehoash, the son of Jehoahaz son of Jehu, king of Israel, saying, Come, let us look one another in the face.",
+      "web": "Then Amaziah sent messengers to Jehoash, the son of Jehoahaz son of Jehu, king of Israel, saying, \u201cCome, let\u2019s look one another in the face.\u201d",
+      "ct": "Then Amaziah sent messengers to Jehoash son of Jehoahaz, son of Jehu, king of Israel, with this challenge: \"Come, let us face each other in battle.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Jehoash the king of Israel sent to Amaziah king of Judah, saying, The thistle that was in Lebanon sent to the cedar that was in Lebanon, saying, Give thy daughter to my son to wife: and there passed by a wild beast that was in Lebanon, and trode down the thistle.",
+      "web": "Jehoash the king of Israel sent to Amaziah king of Judah, saying, \u201cThe thistle that was in Lebanon sent to the cedar that was in Lebanon, saying, \u2018Give your daughter to my son as wife. Then a wild animal that was in Lebanon passed by, and trampled down the thistle.",
+      "ct": "Jehoash king of Israel sent this reply to Amaziah king of Judah: \"A thistle in Lebanon sent a message to a cedar in Lebanon, saying, 'Give your daughter in marriage to my son.' But a wild animal in Lebanon came along and trampled the thistle."
+    },
+    {
+      "verse": 10,
+      "kjv": "Thou hast indeed smitten Edom, and thine heart hath lifted thee up: glory of this, and tarry at home: for why shouldest thou meddle to thy hurt, that thou shouldest fall, even thou, and Judah with thee?",
+      "web": "You have indeed struck Edom, and your heart has lifted you up. Enjoy the glory of it, and stay at home; for why should you meddle to your harm, that you fall, even you, and Judah with you?\u2019\u00a0\u201d",
+      "ct": "You have indeed defeated Edom, and now you are filled with pride. Enjoy your glory and stay home! Why stir up trouble that will bring disaster on yourself and on Judah along with you?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "But Amaziah would not hear. Therefore Jehoash king of Israel went up; and he and Amaziah king of Judah looked one another in the face at Bethshemesh, which belongeth to Judah.",
+      "web": "But Amaziah would not listen. So Jehoash king of Israel went up; and he and Amaziah king of Judah looked one another in the face at Beth Shemesh, which belongs to Judah.",
+      "ct": "But Amaziah refused to listen. So Jehoash king of Israel advanced, and he and Amaziah king of Judah faced each other in battle at Beth Shemesh, which belongs to Judah."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Judah was put to the worse before Israel; and they fled every man to their tents.",
+      "web": "Judah was defeated by Israel; and each man fled to his tent.",
+      "ct": "Judah was defeated by Israel, and every man fled to his home."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Jehoash king of Israel took Amaziah king of Judah, the son of Jehoash the son of Ahaziah, at Bethshemesh, and came to Jerusalem, and brake down the wall of Jerusalem from the gate of Ephraim unto the corner gate, four hundred cubits.",
+      "web": "Jehoash king of Israel took Amaziah king of Judah, the son of Jehoash the son of Ahaziah, at Beth Shemesh, and came to Jerusalem, and broke down the wall of Jerusalem from the gate of Ephraim to the corner gate, four hundred cubits.",
+      "ct": "Jehoash king of Israel captured Amaziah king of Judah, the son of Jehoash, the son of Ahaziah, at Beth Shemesh. Then he marched to Jerusalem and tore down the wall of Jerusalem from the Gate of Ephraim to the Corner Gate \u2014 a distance of 400 cubits."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he took all the gold and silver, and all the vessels that were found in the house of the LORD, and in the treasures of the king\u2019s house, and hostages, and returned to Samaria.",
+      "web": "He took all the gold and silver, and all the vessels that were found in LORD\u2019s house and in the treasures of the king\u2019s house, the hostages also, and returned to Samaria.",
+      "ct": "He seized all the gold and silver and all the articles found in the house of the LORD and in the treasuries of the royal palace. He also took hostages and returned to Samaria."
+    },
+    {
+      "verse": 15,
+      "kjv": "Now the rest of the acts of Jehoash which he did, and his might, and how he fought with Amaziah king of Judah, are they not written in the book of the chronicles of the kings of Israel?",
+      "web": "Now the rest of the acts of Jehoash which he did, and his might, and how he fought with Amaziah king of Judah, aren\u2019t they written in the book of the chronicles of the kings of Israel?",
+      "ct": "The rest of the events of Jehoash's reign, including his achievements and how he fought against Amaziah king of Judah \u2014 are they not recorded in the book of the chronicles of the kings of Israel?"
+    },
+    {
+      "verse": 16,
+      "kjv": "And Jehoash slept with his fathers, and was buried in Samaria with the kings of Israel; and Jeroboam his son reigned in his stead.",
+      "web": "Jehoash slept with his fathers, and was buried in Samaria with the kings of Israel; and Jeroboam his son reigned in his place.",
+      "ct": "Jehoash died and was buried in Samaria with the kings of Israel. His son Jeroboam succeeded him as king."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Amaziah the son of Joash king of Judah lived after the death of Jehoash son of Jehoahaz king of Israel fifteen years.",
+      "web": "Amaziah the son of Joash king of Judah lived after the death of Jehoash son of Jehoahaz king of Israel fifteen years.",
+      "ct": "Amaziah son of Joash, king of Judah, lived 15 years after the death of Jehoash son of Jehoahaz, king of Israel."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the rest of the acts of Amaziah, are they not written in the book of the chronicles of the kings of Judah?",
+      "web": "Now the rest of the acts of Amaziah, aren\u2019t they written in the book of the chronicles of the kings of Judah?",
+      "ct": "The rest of the events of Amaziah's reign \u2014 are they not recorded in the book of the chronicles of the kings of Judah?"
+    },
+    {
+      "verse": 19,
+      "kjv": "Now they made a conspiracy against him in Jerusalem: and he fled to Lachish; but they sent after him to Lachish, and slew him there.",
+      "web": "They made a conspiracy against him in Jerusalem, and he fled to Lachish; but they sent after him to Lachish, and killed him there.",
+      "ct": "A conspiracy was formed against him in Jerusalem, and he fled to Lachish. But they sent men after him to Lachish and killed him there."
+    },
+    {
+      "verse": 20,
+      "kjv": "And they brought him on horses: and he was buried at Jerusalem with his fathers in the city of David.",
+      "web": "They brought him on horses, and he was buried at Jerusalem with his fathers in David\u2019s city.",
+      "ct": "They brought his body back on horses, and he was buried in Jerusalem with his ancestors in the City of David."
+    },
+    {
+      "verse": 21,
+      "kjv": "And all the people of Judah took Azariah, which was sixteen years old, and made him king instead of his father Amaziah.",
+      "web": "All the people of Judah took Azariah, who was sixteen years old, and made him king in the place of his father Amaziah.",
+      "ct": "Then all the people of Judah took Azariah, who was 16 years old, and made him king in place of his father Amaziah."
+    },
+    {
+      "verse": 22,
+      "kjv": "He built Elath, and restored it to Judah, after that the king slept with his fathers.",
+      "web": "He built Elath, and restored it to Judah. After that the king slept with his fathers.",
+      "ct": "He rebuilt Elath and restored it to Judah after the king had died and was buried with his ancestors."
+    },
+    {
+      "verse": 23,
+      "kjv": "In the fifteenth year of Amaziah the son of Joash king of Judah Jeroboam the son of Joash king of Israel began to reign in Samaria, and reigned forty and one years.",
+      "web": "In the fifteenth year of Amaziah the son of Joash king of Judah, Jeroboam the son of Joash king of Israel began to reign in Samaria for forty-one years.",
+      "ct": "In the 15th year of Amaziah son of Joash, king of Judah, Jeroboam son of Joash became king of Israel in Samaria, and he reigned 41 years."
+    },
+    {
+      "verse": 24,
+      "kjv": "And he did that which was evil in the sight of the LORD: he departed not from all the sins of Jeroboam the son of Nebat, who made Israel to sin.",
+      "web": "He did that which was evil in LORD\u2019s sight. He didn\u2019t depart from all the sins of Jeroboam the son of Nebat, with which he made Israel to sin.",
+      "ct": "He did what was evil in the sight of the LORD. He did not turn away from any of the sins of Jeroboam son of Nebat, who had caused Israel to sin."
+    },
+    {
+      "verse": 25,
+      "kjv": "He restored the coast of Israel from the entering of Hamath unto the sea of the plain, according to the word of the LORD God of Israel, which he spake by the hand of his servant Jonah, the son of Amittai, the prophet, which was of Gathhepher.",
+      "web": "He restored the border of Israel from the entrance of Hamath to the sea of the Arabah, according to LORD, the God of Israel\u2019s word, which he spoke by his servant Jonah the son of Amittai, the prophet, who was from Gath Hepher.",
+      "ct": "He restored the borders of Israel from Lebo-hamath to the Sea of the Arabah, in accordance with the word of the LORD, the God of Israel, spoken through his servant Jonah son of Amittai, the prophet from Gath Hepher."
+    },
+    {
+      "verse": 26,
+      "kjv": "For the LORD saw the affliction of Israel, that it was very bitter: for there was not any shut up, nor any left, nor any helper for Israel.",
+      "web": "For LORD saw the affliction of Israel, that it was very bitter; for all, slave and free, and there was no helper for Israel.",
+      "ct": "For the LORD saw how bitterly Israel was suffering. Whether slave or free, there was no one left, and there was no one to help Israel."
+    },
+    {
+      "verse": 27,
+      "kjv": "And the LORD said not that he would blot out the name of Israel from under heaven: but he saved them by the hand of Jeroboam the son of Joash.",
+      "web": "LORD didn\u2019t say that he would blot out the name of Israel from under the sky; but he saved them by the hand of Jeroboam the son of Joash.",
+      "ct": "The LORD had not said he would wipe out the name of Israel from under heaven, so he delivered them through Jeroboam son of Joash."
+    },
+    {
+      "verse": 28,
+      "kjv": "Now the rest of the acts of Jeroboam, and all that he did, and his might, how he warred, and how he recovered Damascus, and Hamath, which belonged to Judah, for Israel, are they not written in the book of the chronicles of the kings of Israel?",
+      "web": "Now the rest of the acts of Jeroboam, and all that he did, and his might, how he fought, and how he recovered Damascus, and Hamath, which had belonged to Judah, for Israel, aren\u2019t they written in the book of the chronicles of the kings of Israel?",
+      "ct": "The rest of the events of Jeroboam's reign \u2014 everything he accomplished, his military power, how he waged war, and how he recovered Damascus and Hamath for Israel (which had belonged to Judah) \u2014 are they not recorded in the book of the chronicles of the kings of Israel?"
+    },
+    {
+      "verse": 29,
+      "kjv": "And Jeroboam slept with his fathers, even with the kings of Israel; and Zachariah his son reigned in his stead.",
+      "web": "Jeroboam slept with his fathers, even with the kings of Israel; and Zechariah his son reigned in his place.",
+      "ct": "Jeroboam died and was buried in Samaria with the kings of Israel, and his son Zechariah succeeded him as king."
+    }
+  ]
+}

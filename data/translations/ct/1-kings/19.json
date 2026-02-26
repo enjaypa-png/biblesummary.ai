@@ -1,0 +1,137 @@
+{
+  "book": "1-kings",
+  "book_name": "1 Kings",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:51:07.485Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Ahab told Jezebel all that Elijah had done, and withal how he had slain all the prophets with the sword.",
+      "web": "Ahab told Jezebel all that Elijah had done, and how he had killed all the prophets with the sword.",
+      "ct": "Ahab told Jezebel everything Elijah had done, including how he had killed all the prophets of Baal with the sword."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then Jezebel sent a messenger unto Elijah, saying, So let the gods do to me, and more also, if I make not thy life as the life of one of them by to morrow about this time.",
+      "web": "Then Jezebel sent a messenger to Elijah, saying, “So let the gods do to me, and more also, if I don’t make your life as the life of one of them by tomorrow about this time!”",
+      "ct": "Jezebel sent a messenger to Elijah with this threat: \"May the gods strike me dead and worse if I haven't taken your life by this time tomorrow!\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And when he saw that, he arose, and went for his life, and came to Beersheba, which belongeth to Judah, and left his servant there.",
+      "web": "When he saw that, he arose, and ran for his life, and came to Beersheba, which belongs to Judah, and left his servant there.",
+      "ct": "When Elijah heard this, he fled for his life. He traveled to Beersheba in Judah and left his servant there."
+    },
+    {
+      "verse": 4,
+      "kjv": "But he himself went a day’s journey into the wilderness, and came and sat down under a juniper tree: and he requested for himself that he might die; and said, It is enough; now, O LORD, take away my life; for I am not better than my fathers.",
+      "web": "But he himself went a day’s journey into the wilderness, and came and sat down under a juniper tree. Then he requested for himself that he might die, and said, “It is enough. Now, O LORD, take away my life; for I am not better than my fathers.”",
+      "ct": "Then he went on alone, a full day's journey into the wilderness. He sat down under a juniper tree and prayed that he would die. \"I've had enough, LORD,\" he said. \"Take my life. I'm no better than my ancestors.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And as he lay and slept under a juniper tree, behold, then an angel touched him, and said unto him, Arise and eat.",
+      "web": "He lay down and slept under a juniper tree; and behold, an angel touched him, and said to him, “Arise and eat!”",
+      "ct": "He lay down and fell asleep under the juniper tree. Suddenly an angel touched him and said, \"Get up and eat.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And he looked, and, behold, there was a cake baken on the coals, and a cruse of water at his head. And he did eat and drink, and laid him down again.",
+      "web": "He looked, and behold, there was at his head a cake baked on the coals, and a jar of water. He ate and drank, and lay down again.",
+      "ct": "He looked around, and there by his head was a cake baked over hot coals and a jar of water. He ate and drank, then lay down again."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the angel of the LORD came again the second time, and touched him, and said, Arise and eat; because the journey is too great for thee.",
+      "web": "LORD’s angel came again the second time, and touched him, and said, “Arise and eat, because the journey is too great for you.”",
+      "ct": "The angel of the LORD came back a second time, touched him, and said, \"Get up and eat — the journey ahead is too much for you.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And he arose, and did eat and drink, and went in the strength of that meat forty days and forty nights unto Horeb the mount of God.",
+      "web": "He arose, and ate and drank, and went in the strength of that food forty days and forty nights to Horeb, God’s Mountain.",
+      "ct": "So he got up, ate and drank, and the strength from that food carried him 40 days and 40 nights to Horeb, the mountain of God."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he came thither unto a cave, and lodged there; and, behold, the word of the LORD came to him, and he said unto him, What doest thou here, Elijah?",
+      "web": "He came to a cave there, and camped there; and behold, LORD’s word came to him, and he said to him, “What are you doing here, Elijah?”",
+      "ct": "There he went into a cave and spent the night. Then the word of the LORD came to him: \"What are you doing here, Elijah?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And he said, I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+      "web": "He said, “I have been very jealous for LORD, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
+      "ct": "He answered, \"I have been burning with zeal for the LORD God of hosts. The people of Israel have abandoned your covenant, torn down your altars, and killed your prophets with the sword. I am the only one left, and now they're trying to kill me too.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And he said, Go forth, and stand upon the mount before the LORD. And, behold, the LORD passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the LORD; but the LORD was not in the wind: and after the wind an earthquake; but the LORD was not in the earthquake:",
+      "web": "He said, “Go out, and stand on the mountain before LORD.” Behold, LORD passed by, and a great and strong wind tore the mountains, and broke in pieces the rocks before LORD; but LORD was not in the wind. After the wind there was an earthquake; but LORD was not in the earthquake.",
+      "ct": "The LORD said, \"Go out and stand on the mountain before me.\" Then the LORD passed by. A powerful wind tore the mountains apart and shattered rocks before the LORD — but the LORD was not in the wind. After the wind came an earthquake — but the LORD was not in the earthquake."
+    },
+    {
+      "verse": 12,
+      "kjv": "And after the earthquake a fire; but the LORD was not in the fire: and after the fire a still small voice.",
+      "web": "After the earthquake a fire passed; but LORD was not in the fire. After the fire, there was a still small voice.",
+      "ct": "After the earthquake came a fire — but the LORD was not in the fire. And after the fire came a still, small voice."
+    },
+    {
+      "verse": 13,
+      "kjv": "And it was so, when Elijah heard it, that he wrapped his face in his mantle, and went out, and stood in the entering in of the cave. And, behold, there came a voice unto him, and said, What doest thou here, Elijah?",
+      "web": "When Elijah heard it, he wrapped his face in his mantle, went out, and stood in the entrance of the cave. Behold, a voice came to him, and said, “What are you doing here, Elijah?”",
+      "ct": "When Elijah heard it, he wrapped his face in his cloak, went out, and stood at the entrance of the cave. Then a voice said to him, \"What are you doing here, Elijah?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And he said, I have been very jealous for the LORD God of hosts: because the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+      "web": "He said, “I have been very jealous for LORD, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
+      "ct": "He said, \"I have been burning with zeal for the LORD God of hosts. The people of Israel have abandoned your covenant, torn down your altars, and killed your prophets with the sword. I am the only one left, and now they're trying to kill me too.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And the LORD said unto him, Go, return on thy way to the wilderness of Damascus: and when thou comest, anoint Hazael to be king over Syria:",
+      "web": "LORD said to him, “Go, return on your way to the wilderness of Damascus. When you arrive, anoint Hazael to be king over Syria.",
+      "ct": "The LORD told him, \"Go back the way you came, through the wilderness to Damascus. When you get there, anoint Hazael as king over Syria."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Jehu the son of Nimshi shalt thou anoint to be king over Israel: and Elisha the son of Shaphat of Abelmeholah shalt thou anoint to be prophet in thy room.",
+      "web": "Anoint Jehu the son of Nimshi to be king over Israel; and anoint Elisha the son of Shaphat of Abel Meholah to be prophet in your place.",
+      "ct": "Then anoint Jehu son of Nimshi as king over Israel, and anoint Elisha son of Shaphat from Abel Meholah as prophet to take your place."
+    },
+    {
+      "verse": 17,
+      "kjv": "And it shall come to pass, that him that escapeth the sword of Hazael shall Jehu slay: and him that escapeth from the sword of Jehu shall Elisha slay.",
+      "web": "He who escapes from the sword of Hazael, Jehu will kill; and he who escapes from the sword of Jehu, Elisha will kill.",
+      "ct": "Anyone who escapes Hazael's sword will be killed by Jehu, and anyone who escapes Jehu's sword will be killed by Elisha."
+    },
+    {
+      "verse": 18,
+      "kjv": "Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him.",
+      "web": "Yet I reserved seven thousand in Israel, all the knees of which have not bowed to Baal, and every mouth which has not kissed him.”",
+      "ct": "But I have preserved 7,000 in Israel — every knee that has not bowed to Baal and every mouth that has not kissed him.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "So he departed thence, and found Elisha the son of Shaphat, who was plowing with twelve yoke of oxen before him, and he with the twelfth: and Elijah passed by him, and cast his mantle upon him.",
+      "web": "So he departed from there, and found Elisha the son of Shaphat, who was plowing with twelve yoke of oxen before him, and he with the twelfth. Elijah went over to him, and put his mantle on him.",
+      "ct": "Elijah left and found Elisha son of Shaphat plowing a field. Twelve teams of oxen were working ahead of him, and he was driving the 12th pair. Elijah walked over and threw his cloak across Elisha's shoulders."
+    },
+    {
+      "verse": 20,
+      "kjv": "And he left the oxen, and ran after Elijah, and said, Let me, I pray thee, kiss my father and my mother, and then I will follow thee. And he said unto him, Go back again: for what have I done to thee?",
+      "web": "Elisha left the oxen, and ran after Elijah, and said, “Let me please kiss my father and my mother, and then I will follow you.” He said to him, “Go back again; for what have I done to you?”",
+      "ct": "Elisha left the oxen and ran after Elijah. \"Please let me go kiss my father and mother goodbye,\" he said, \"and then I'll follow you.\" Elijah replied, \"Go ahead — but consider what I've just done to you.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And he returned back from him, and took a yoke of oxen, and slew them, and boiled their flesh with the instruments of the oxen, and gave unto the people, and they did eat. Then he arose, and went after Elijah, and ministered unto him.",
+      "web": "He returned from following him, and took the yoke of oxen, and killed them, and boiled their meat with the instruments of the oxen, and gave to the people, and they ate. Then he arose, and went after Elijah, and served him.",
+      "ct": "Elisha turned back, slaughtered his pair of oxen, and used the wooden yoke and plow as fuel to cook the meat. He gave it to the people, and they ate. Then he set out after Elijah and became his servant."
+    }
+  ]
+}

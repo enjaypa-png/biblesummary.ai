@@ -1,0 +1,131 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 24,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:31:20.456Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In his days Nebuchadnezzar king of Babylon came up, and Jehoiakim became his servant three years: then he turned and rebelled against him.",
+      "web": "In his days Nebuchadnezzar king of Babylon came up, and Jehoiakim became his servant three years. Then he turned and rebelled against him.",
+      "ct": "During Jehoiakim's reign, King Nebuchadnezzar of Babylon invaded. Jehoiakim served him for 3 years, but then turned and rebelled against him."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD sent against him bands of the Chaldees, and bands of the Syrians, and bands of the Moabites, and bands of the children of Ammon, and sent them against Judah to destroy it, according to the word of the LORD, which he spake by his servants the prophets.",
+      "web": "LORD sent against him bands of the Chaldeans, and bands of the Syrians, and bands of the Moabites, and bands of the children of Ammon, and sent them against Judah to destroy it, according to LORD\u2019s word, which he spoke by his servants the prophets.",
+      "ct": "The LORD sent raiding bands of Chaldeans, Syrians, Moabites, and Ammonites against him. He sent them to destroy Judah, just as the LORD had spoken through his servants the prophets."
+    },
+    {
+      "verse": 3,
+      "kjv": "Surely at the commandment of the LORD came this upon Judah, to remove them out of his sight, for the sins of Manasseh, according to all that he did;",
+      "web": "Surely at the commandment of LORD this came on Judah, to remove them out of his sight, for the sins of Manasseh, according to all that he did,",
+      "ct": "This certainly happened to Judah at the LORD's command, to remove them from his sight because of the sins of Manasseh and everything he had done,"
+    },
+    {
+      "verse": 4,
+      "kjv": "And also for the innocent blood that he shed: for he filled Jerusalem with innocent blood; which the LORD would not pardon.",
+      "web": "and also for the innocent blood that he shed; for he filled Jerusalem with innocent blood, and LORD would not pardon.",
+      "ct": "and also because of the innocent blood he had shed. He filled Jerusalem with innocent blood, and the LORD would not forgive it."
+    },
+    {
+      "verse": 5,
+      "kjv": "Now the rest of the acts of Jehoiakim, and all that he did, are they not written in the book of the chronicles of the kings of Judah?",
+      "web": "Now the rest of the acts of Jehoiakim, and all that he did, aren\u2019t they written in the book of the chronicles of the kings of Judah?",
+      "ct": "As for the rest of the acts of Jehoiakim and everything he did, are they not recorded in the book of the chronicles of the kings of Judah?"
+    },
+    {
+      "verse": 6,
+      "kjv": "So Jehoiakim slept with his fathers: and Jehoiachin his son reigned in his stead.",
+      "web": "So Jehoiakim slept with his fathers, and Jehoiachin his son reigned in his place.",
+      "ct": "Jehoiakim died and was buried with his ancestors, and his son Jehoiachin became king in his place."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the king of Egypt came not again any more out of his land: for the king of Babylon had taken from the river of Egypt unto the river Euphrates all that pertained to the king of Egypt.",
+      "web": "The king of Egypt didn\u2019t come out of his land any more; for the king of Babylon had taken, from the brook of Egypt to the river Euphrates, all that belonged to the king of Egypt.",
+      "ct": "The king of Egypt never marched out of his own land again, because the king of Babylon had seized everything that belonged to Egypt's king, from the brook of Egypt all the way to the Euphrates River."
+    },
+    {
+      "verse": 8,
+      "kjv": "Jehoiachin was eighteen years old when he began to reign, and he reigned in Jerusalem three months. And his mother\u2019s name was Nehushta, the daughter of Elnathan of Jerusalem.",
+      "web": "Jehoiachin was eighteen years old when he began to reign, and he reigned in Jerusalem three months. His mother\u2019s name was Nehushta the daughter of Elnathan of Jerusalem.",
+      "ct": "Jehoiachin was 18 years old when he became king, and he reigned in Jerusalem for 3 months. His mother's name was Nehushta, the daughter of Elnathan of Jerusalem."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he did that which was evil in the sight of the LORD, according to all that his father had done.",
+      "web": "He did that which was evil in LORD\u2019s sight, according to all that his father had done.",
+      "ct": "He did what was evil in the sight of the LORD, just as his father had done."
+    },
+    {
+      "verse": 10,
+      "kjv": "At that time the servants of Nebuchadnezzar king of Babylon came up against Jerusalem, and the city was besieged.",
+      "web": "At that time the servants of Nebuchadnezzar king of Babylon came up to Jerusalem, and the city was besieged.",
+      "ct": "At that time, the officers of King Nebuchadnezzar of Babylon marched against Jerusalem and laid siege to the city."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Nebuchadnezzar king of Babylon came against the city, and his servants did besiege it.",
+      "web": "Nebuchadnezzar king of Babylon came to the city while his servants were besieging it,",
+      "ct": "King Nebuchadnezzar of Babylon himself came to the city while his officers were besieging it."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Jehoiachin the king of Judah went out to the king of Babylon, he, and his mother, and his servants, and his princes, and his officers: and the king of Babylon took him in the eighth year of his reign.",
+      "web": "and Jehoiachin the king of Judah went out to the king of Babylon, he, and his mother, and his servants, and his princes, and his officers; and the king of Babylon captured him in the eighth year of his reign.",
+      "ct": "Then King Jehoiachin of Judah surrendered to the king of Babylon \u2014 he, along with his mother, his servants, his officials, and his officers. The king of Babylon took him prisoner in the 8th year of his reign."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he carried out thence all the treasures of the house of the LORD, and the treasures of the king\u2019s house, and cut in pieces all the vessels of gold which Solomon king of Israel had made in the temple of the LORD, as the LORD had said.",
+      "web": "He carried out from there all the treasures of LORD\u2019s house, and the treasures of the king\u2019s house, and cut in pieces all the vessels of gold, which Solomon king of Israel had made in LORD\u2019s temple, as LORD had said.",
+      "ct": "Nebuchadnezzar carried off all the treasures from the house of the LORD and from the royal palace. He cut apart all the gold articles that King Solomon of Israel had made for the temple of the LORD, just as the LORD had declared."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he carried away all Jerusalem, and all the princes, and all the mighty men of valour, even ten thousand captives, and all the craftsmen and smiths: none remained, save the poorest sort of the people of the land.",
+      "web": "He carried away all Jerusalem, and all the princes, and all the mighty men of valor, even ten thousand captives, and all the craftsmen and the smiths. No one remained, except the poorest people of the land.",
+      "ct": "He deported all of Jerusalem \u2014 all the officials, all the fighting men (10,000 captives in all), and every craftsman and metalworker. No one was left except the poorest people of the land."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he carried away Jehoiachin to Babylon, and the king\u2019s mother, and the king\u2019s wives, and his officers, and the mighty of the land, those carried he into captivity from Jerusalem to Babylon.",
+      "web": "He carried away Jehoiachin to Babylon, with the king\u2019s mother, the king\u2019s wives, his officers, and the chief men of the land. He carried them into captivity from Jerusalem to Babylon.",
+      "ct": "He took Jehoiachin to Babylon as a captive, along with the king's mother, the king's wives, his officers, and the leading men of the land. He carried them all into exile from Jerusalem to Babylon."
+    },
+    {
+      "verse": 16,
+      "kjv": "And all the men of might, even seven thousand, and craftsmen and smiths a thousand, all that were strong and apt for war, even them the king of Babylon brought captive to Babylon.",
+      "web": "All the men of might, even seven thousand, and the craftsmen and the smiths one thousand, all of them strong and fit for war, even them the king of Babylon brought captive to Babylon.",
+      "ct": "The king of Babylon also brought to Babylon all 7,000 fighting men, along with 1,000 craftsmen and metalworkers \u2014 all of them strong and ready for war."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the king of Babylon made Mattaniah his father\u2019s brother king in his stead, and changed his name to Zedekiah.",
+      "web": "The king of Babylon made Mattaniah, Jehoiachin\u2019s father\u2019s brother, king in his place, and changed his name to Zedekiah.",
+      "ct": "The king of Babylon then made Mattaniah, Jehoiachin's uncle, king in his place and changed his name to Zedekiah."
+    },
+    {
+      "verse": 18,
+      "kjv": "Zedekiah was twenty and one years old when he began to reign, and he reigned eleven years in Jerusalem. And his mother\u2019s name was Hamutal, the daughter of Jeremiah of Libnah.",
+      "web": "Zedekiah was twenty-one years old when he began to reign, and he reigned eleven years in Jerusalem. His mother\u2019s name was Hamutal the daughter of Jeremiah of Libnah.",
+      "ct": "Zedekiah was 21 years old when he became king, and he reigned in Jerusalem for 11 years. His mother's name was Hamutal, the daughter of Jeremiah of Libnah."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he did that which was evil in the sight of the LORD, according to all that Jehoiakim had done.",
+      "web": "He did that which was evil in LORD\u2019s sight, according to all that Jehoiakim had done.",
+      "ct": "He did what was evil in the sight of the LORD, just as Jehoiakim had done."
+    },
+    {
+      "verse": 20,
+      "kjv": "For through the anger of the LORD it came to pass in Jerusalem and Judah, until he had cast them out from his presence, that Zedekiah rebelled against the king of Babylon.",
+      "web": "For through the anger of LORD, this happened in Jerusalem and Judah, until he had cast them out from his presence. Then Zedekiah rebelled against the king of Babylon.",
+      "ct": "Because of the LORD's anger, all of this happened to Jerusalem and Judah, until he finally banished them from his presence. Then Zedekiah rebelled against the king of Babylon."
+    }
+  ]
+}

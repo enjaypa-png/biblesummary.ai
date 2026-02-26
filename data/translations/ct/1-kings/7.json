@@ -1,0 +1,317 @@
+{
+  "book": "1-kings",
+  "book_name": "1 Kings",
+  "chapter": 7,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:45:31.957Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "But Solomon was building his own house thirteen years, and he finished all his house.",
+      "web": "Solomon was building his own house thirteen years, and he finished all his house.",
+      "ct": "Solomon spent 13 years building his own palace, and he completed the entire complex."
+    },
+    {
+      "verse": 2,
+      "kjv": "He built also the house of the forest of Lebanon; the length thereof was an hundred cubits, and the breadth thereof fifty cubits, and the height thereof thirty cubits, upon four rows of cedar pillars, with cedar beams upon the pillars.",
+      "web": "For he built the House of the Forest of Lebanon. Its length was one hundred cubits, its width fifty cubits, and its height thirty cubits, on four rows of cedar pillars, with cedar beams on the pillars.",
+      "ct": "He built the House of the Forest of Lebanon. It was 100 cubits long, 50 cubits wide, and 30 cubits high, supported by 4 rows of cedar pillars with cedar beams resting on them."
+    },
+    {
+      "verse": 3,
+      "kjv": "And it was covered with cedar above upon the beams, that lay on forty five pillars, fifteen in a row.",
+      "web": "It was covered with cedar above over the forty-five beams, that were on the pillars, fifteen in a row.",
+      "ct": "It was roofed with cedar over the beams that rested on the 45 pillars — 15 in each row."
+    },
+    {
+      "verse": 4,
+      "kjv": "And there were windows in three rows, and light was against light in three ranks.",
+      "web": "There were beams in three rows, and window was facing window in three ranks.",
+      "ct": "There were 3 rows of window openings, with windows facing each other in 3 tiers."
+    },
+    {
+      "verse": 5,
+      "kjv": "And all the doors and posts were square, with the windows: and light was against light in three ranks.",
+      "web": "All the doors and posts were made square with beams: and window was facing window in three ranks.",
+      "ct": "All the doorways and doorposts had square frames, and the windows faced each other in 3 tiers."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he made a porch of pillars; the length thereof was fifty cubits, and the breadth thereof thirty cubits: and the porch was before them: and the other pillars and the thick beam were before them.",
+      "web": "He made the porch of pillars. Its length was fifty cubits and its width thirty cubits; with a porch before them, and pillars and a threshold before them.",
+      "ct": "He also built a Hall of Pillars, 50 cubits long and 30 cubits wide, with a covered porch in front and pillars and a threshold before it."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then he made a porch for the throne where he might judge, even the porch of judgment: and it was covered with cedar from one side of the floor to the other.",
+      "web": "He made the porch of the throne where he was to judge, even the porch of judgment; and it was covered with cedar from floor to floor.",
+      "ct": "Then he built the Throne Hall — the Hall of Justice — where he would serve as judge. It was paneled with cedar from floor to ceiling."
+    },
+    {
+      "verse": 8,
+      "kjv": "And his house where he dwelt had another court within the porch, which was of the like work. Solomon made also an house for Pharaoh’s daughter, whom he had taken to wife, like unto this porch.",
+      "web": "His house where he was to dwell, the other court within the porch, was of the like work. He made also a house for Pharaoh’s daughter (whom Solomon had taken as wife), like this porch.",
+      "ct": "His personal residence was in another courtyard behind the hall, built in the same style. Solomon also built a house just like this hall for Pharaoh's daughter, whom he had married."
+    },
+    {
+      "verse": 9,
+      "kjv": "All these were of costly stones, according to the measures of hewed stones, sawed with saws, within and without, even from the foundation unto the coping, and so on the outside toward the great court.",
+      "web": "All these were of costly stones, even of cut stone, according to measure, sawed with saws, inside and outside, even from the foundation to the coping, and so on the outside to the great court.",
+      "ct": "All of these structures were made with expensive cut stone, precisely measured and sawed with saws on every side — from the foundation up to the top course, and from the inside out to the great courtyard."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the foundation was of costly stones, even great stones, stones of ten cubits, and stones of eight cubits.",
+      "web": "The foundation was of costly stones, even great stones, stones of ten cubits, and stones of eight cubits.",
+      "ct": "The foundations were laid with large, costly stones — some 10 cubits and some 8 cubits long."
+    },
+    {
+      "verse": 11,
+      "kjv": "And above were costly stones, after the measures of hewed stones, and cedars.",
+      "web": "Above were costly stones, even cut stone, according to measure, and cedar wood.",
+      "ct": "Above the foundation were more costly cut stones, precisely measured, along with cedar timbers."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the great court round about was with three rows of hewed stones, and a row of cedar beams, both for the inner court of the house of the LORD, and for the porch of the house.",
+      "web": "The great court around had three courses of cut stone, and a course of cedar beams; like the inner court of LORD’s house and the porch of the house.",
+      "ct": "The great courtyard was enclosed by a wall of 3 courses of cut stone topped with a course of cedar beams, just like the inner courtyard of the LORD's temple and the temple porch."
+    },
+    {
+      "verse": 13,
+      "kjv": "And king Solomon sent and fetched Hiram out of Tyre.",
+      "web": "King Solomon sent and brought Hiram out of Tyre.",
+      "ct": "King Solomon sent for a man named Hiram from Tyre."
+    },
+    {
+      "verse": 14,
+      "kjv": "He was a widow’s son of the tribe of Naphtali, and his father was a man of Tyre, a worker in brass: and he was filled with wisdom, and understanding, and cunning to work all works in brass. And he came to king Solomon, and wrought all his work.",
+      "web": "He was the son of a widow of the tribe of Naphtali, and his father was a man of Tyre, a worker in bronze; and he was filled with wisdom and understanding and skill, to work all works in bronze. He came to king Solomon, and performed all his work.",
+      "ct": "Hiram was the son of a widow from the tribe of Naphtali, and his father had been a bronze craftsman from Tyre. He was filled with wisdom, understanding, and skill for every kind of bronze work. He came to King Solomon and carried out all his work."
+    },
+    {
+      "verse": 15,
+      "kjv": "For he cast two pillars of brass, of eighteen cubits high apiece: and a line of twelve cubits did compass either of them about.",
+      "web": "For he fashioned the two pillars of bronze, eighteen cubits high apiece; and a line of twelve cubits encircled either of them.",
+      "ct": "He cast 2 bronze pillars, each 18 cubits tall, and each 12 cubits around."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he made two chapiters of molten brass, to set upon the tops of the pillars: the height of the one chapiter was five cubits, and the height of the other chapiter was five cubits:",
+      "web": "He made two capitals of molten bronze, to set on the tops of the pillars. The height of the one capital was five cubits, and the height of the other capital was five cubits.",
+      "ct": "He also made 2 capitals of cast bronze to set on top of the pillars. Each capital was 5 cubits high."
+    },
+    {
+      "verse": 17,
+      "kjv": "And nets of checker work, and wreaths of chain work, for the chapiters which were upon the top of the pillars; seven for the one chapiter, and seven for the other chapiter.",
+      "web": "There were nets of checker work, and wreaths of chain work, for the capitals which were on the top of the pillars; seven for the one capital, and seven for the other capital.",
+      "ct": "The capitals on top of the pillars were decorated with lattice networks and chain-like wreaths — 7 for one capital and 7 for the other."
+    },
+    {
+      "verse": 18,
+      "kjv": "And he made the pillars, and two rows round about upon the one network, to cover the chapiters that were upon the top, with pomegranates: and so did he for the other chapiter.",
+      "web": "So he made the pillars; and there were two rows around on the one network, to cover the capitals that were on the top of the pillars: and he did so for the other capital.",
+      "ct": "He designed the pillars with 2 rows of pomegranates around each network to cover the capitals on top."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the chapiters that were upon the top of the pillars were of lily work in the porch, four cubits.",
+      "web": "The capitals that were on the top of the pillars in the porch were of lily work, four cubits.",
+      "ct": "The capitals on top of the pillars in the porch were shaped like lilies, 4 cubits high."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the chapiters upon the two pillars had pomegranates also above, over against the belly which was by the network: and the pomegranates were two hundred in rows round about upon the other chapiter.",
+      "web": "There were capitals above also on the two pillars, close by the belly which was beside the network. There were two hundred pomegranates in rows around the other capital.",
+      "ct": "The capitals on both pillars also had 200 pomegranates in rows all around, above the rounded section next to the network."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he set up the pillars in the porch of the temple: and he set up the right pillar, and called the name thereof Jachin: and he set up the left pillar, and called the name thereof Boaz.",
+      "web": "He set up the pillars at the porch of the temple. He set up the right pillar, and called its name Jachin; and he set up the left pillar, and called its name Boaz.",
+      "ct": "He set up the pillars at the porch of the temple. He erected the right pillar and named it Jachin, and he erected the left pillar and named it Boaz."
+    },
+    {
+      "verse": 22,
+      "kjv": "And upon the top of the pillars was lily work: so was the work of the pillars finished.",
+      "web": "On the top of the pillars was lily work: so the work of the pillars was finished.",
+      "ct": "The tops of the pillars were shaped like lilies. And so the work on the pillars was completed."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he made a molten sea, ten cubits from the one brim to the other: it was round all about, and his height was five cubits: and a line of thirty cubits did compass it round about.",
+      "web": "He made the molten sea of ten cubits from brim to brim, round in shape. Its height was five cubits; and a line of thirty cubits encircled it.",
+      "ct": "He then made the cast metal Sea — a circular basin 10 cubits from rim to rim, 5 cubits high, and 30 cubits around."
+    },
+    {
+      "verse": 24,
+      "kjv": "And under the brim of it round about there were knops compassing it, ten in a cubit, compassing the sea round about: the knops were cast in two rows, when it was cast.",
+      "web": "Under its brim around there were buds which encircled it for ten cubits, encircling the sea. The buds were in two rows, cast when it was cast.",
+      "ct": "Below the rim, decorative gourds encircled it — 10 per cubit all the way around. The gourds were cast in 2 rows as part of the original casting."
+    },
+    {
+      "verse": 25,
+      "kjv": "It stood upon twelve oxen, three looking toward the north, and three looking toward the west, and three looking toward the south, and three looking toward the east: and the sea was set above upon them, and all their hinder parts were inward.",
+      "web": "It stood on twelve oxen, three looking toward the north, and three looking toward the west, and three looking toward the south, and three looking toward the east; and the sea was set on them above, and all their hindquarters were inward.",
+      "ct": "The Sea rested on 12 bronze oxen — 3 facing north, 3 facing west, 3 facing south, and 3 facing east. The basin sat on top of them, and all their hindquarters faced inward."
+    },
+    {
+      "verse": 26,
+      "kjv": "And it was an hand breadth thick, and the brim thereof was wrought like the brim of a cup, with flowers of lilies: it contained two thousand baths.",
+      "web": "It was a hand width thick. Its brim was worked like the brim of a cup, like the flower of a lily. It held two thousand baths.",
+      "ct": "The basin was a handbreadth thick, and its rim was shaped like a cup, flaring out like a lily blossom. It held 2,000 baths."
+    },
+    {
+      "verse": 27,
+      "kjv": "And he made ten bases of brass; four cubits was the length of one base, and four cubits the breadth thereof, and three cubits the height of it.",
+      "web": "He made the ten bases of bronze. The length of one base was four cubits, four cubits its width, and three cubits its height.",
+      "ct": "He also made 10 bronze stands. Each one was 4 cubits long, 4 cubits wide, and 3 cubits high."
+    },
+    {
+      "verse": 28,
+      "kjv": "And the work of the bases was on this manner: they had borders, and the borders were between the ledges:",
+      "web": "The work of the bases was like this: they had panels; and there were panels between the ledges;",
+      "ct": "The stands were constructed with panels set between upright frames."
+    },
+    {
+      "verse": 29,
+      "kjv": "And on the borders that were between the ledges were lions, oxen, and cherubims: and upon the ledges there was a base above: and beneath the lions and oxen were certain additions made of thin work.",
+      "web": "and on the panels that were between the ledges were lions, oxen, and cherubim; and on the ledges there was a pedestal above; and beneath the lions and oxen were wreaths of hanging work.",
+      "ct": "On the panels between the frames were images of lions, oxen, and cherubim. On the frames above and below the lions and oxen were decorative wreaths of hammered work."
+    },
+    {
+      "verse": 30,
+      "kjv": "And every base had four brasen wheels, and plates of brass: and the four corners thereof had undersetters: under the laver were undersetters molten, at the side of every addition.",
+      "web": "Every base had four bronze wheels, and axles of bronze; and the four feet of it had supports. The supports were cast beneath the basin, with wreaths at the side of each.",
+      "ct": "Each stand had 4 bronze wheels with bronze axles, and at its 4 corners were supports. These supports beneath the basin were cast with decorative wreaths on each side."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the mouth of it within the chapiter and above was a cubit: but the mouth thereof was round after the work of the base, a cubit and an half: and also upon the mouth of it were gravings with their borders, foursquare, not round.",
+      "web": "Its mouth within the capital and above was a cubit. Its mouth was round after the work of a pedestal, a cubit and a half; and also on its mouth were engravings, and their panels were square, not round.",
+      "ct": "The opening inside the crown of the stand extended up 1 cubit. The opening was round, shaped like a pedestal, 1 and a half cubits across. Around the opening were engravings, and the surrounding panels were square, not round."
+    },
+    {
+      "verse": 32,
+      "kjv": "And under the borders were four wheels; and the axletrees of the wheels were joined to the base: and the height of a wheel was a cubit and half a cubit.",
+      "web": "The four wheels were underneath the panels; and the axles of the wheels were in the base. The height of a wheel was a cubit and half a cubit.",
+      "ct": "The 4 wheels were underneath the panels, and the axles were attached to the stand. Each wheel was 1 and a half cubits high."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the work of the wheels was like the work of a chariot wheel: their axletrees, and their naves, and their felloes, and their spokes, were all molten.",
+      "web": "The work of the wheels was like the work of a chariot wheel. Their axles, and their rims, and their spokes, and their naves, were all of cast metal.",
+      "ct": "The wheels were made like chariot wheels — their axles, rims, spokes, and hubs were all cast metal."
+    },
+    {
+      "verse": 34,
+      "kjv": "And there were four undersetters to the four corners of one base: and the undersetters were of the very base itself.",
+      "web": "There were four supports at the four corners of each base. Its supports were of the base itself.",
+      "ct": "Each stand had 4 supports at its 4 corners, cast as one piece with the stand itself."
+    },
+    {
+      "verse": 35,
+      "kjv": "And in the top of the base was there a round compass of half a cubit high: and on the top of the base the ledges thereof and the borders thereof were of the same.",
+      "web": "In the top of the base there was a round band half a cubit high; and on the top of the base its supports and its panels were the same.",
+      "ct": "At the top of each stand was a circular band half a cubit high, and the supports and panels at the top were cast as part of the stand."
+    },
+    {
+      "verse": 36,
+      "kjv": "For on the plates of the ledges thereof, and on the borders thereof, he graved cherubims, lions, and palm trees, according to the proportion of every one, and additions round about.",
+      "web": "On the plates of its supports, and on its panels, he engraved cherubim, lions, and palm trees, each in its space, with wreaths all around.",
+      "ct": "On the surfaces of the supports and panels, he engraved cherubim, lions, and palm trees wherever there was space, with wreaths all around."
+    },
+    {
+      "verse": 37,
+      "kjv": "After this manner he made the ten bases: all of them had one casting, one measure, and one size.",
+      "web": "He made the ten bases in this way: all of them had one casting, one measure, and one form.",
+      "ct": "This is how he made all 10 stands — each one cast the same way, with the same measurements and the same design."
+    },
+    {
+      "verse": 38,
+      "kjv": "Then made he ten lavers of brass: one laver contained forty baths: and every laver was four cubits: and upon every one of the ten bases one laver.",
+      "web": "He made ten basins of bronze. One basin contained forty baths; and every basin was four cubits; and on every one of the ten bases one basin.",
+      "ct": "Then he made 10 bronze basins, one for each stand. Each basin held 40 baths and measured 4 cubits across."
+    },
+    {
+      "verse": 39,
+      "kjv": "And he put five bases on the right side of the house, and five on the left side of the house: and he set the sea on the right side of the house eastward over against the south.",
+      "web": "He set the bases, five on the right side of the house, and five on the left side of the house. He set the sea on the right side of the house eastward and toward the south.",
+      "ct": "He placed 5 stands on the south side of the temple and 5 on the north side. He positioned the Sea on the south side, at the southeast corner of the temple."
+    },
+    {
+      "verse": 40,
+      "kjv": "And Hiram made the lavers, and the shovels, and the basons. So Hiram made an end of doing all the work that he made king Solomon for the house of the LORD:",
+      "web": "Hiram made the pots, the shovels, and the basins. So Hiram finished doing all the work that he worked for king Solomon in LORD’s house:",
+      "ct": "Hiram also made the pots, shovels, and sprinkling basins. With that, Hiram finished all the work he had done for King Solomon on the LORD's temple:"
+    },
+    {
+      "verse": 41,
+      "kjv": "The two pillars, and the two bowls of the chapiters that were on the top of the two pillars; and the two networks, to cover the two bowls of the chapiters which were upon the top of the pillars;",
+      "web": "the two pillars; the two bowls of the capitals that were on the top of the pillars; the two networks to cover the two bowls of the capitals that were on the top of the pillars;",
+      "ct": "the 2 pillars; the 2 bowl-shaped capitals on top of the pillars; the 2 networks covering the bowl-shaped capitals on top of the pillars;"
+    },
+    {
+      "verse": 42,
+      "kjv": "And four hundred pomegranates for the two networks, even two rows of pomegranates for one network, to cover the two bowls of the chapiters that were upon the pillars;",
+      "web": "the four hundred pomegranates for the two networks; two rows of pomegranates for each network, to cover the two bowls of the capitals that were on the pillars;",
+      "ct": "the 400 pomegranates for the 2 networks — 2 rows of pomegranates for each network, covering the bowl-shaped capitals on the pillars;"
+    },
+    {
+      "verse": 43,
+      "kjv": "And the ten bases, and ten lavers on the bases;",
+      "web": "the ten bases; the ten basins on the bases;",
+      "ct": "the 10 stands and the 10 basins on them;"
+    },
+    {
+      "verse": 44,
+      "kjv": "And one sea, and twelve oxen under the sea;",
+      "web": "the one sea; the twelve oxen under the sea;",
+      "ct": "the Sea and the 12 oxen beneath it;"
+    },
+    {
+      "verse": 45,
+      "kjv": "And the pots, and the shovels, and the basons: and all these vessels, which Hiram made to king Solomon for the house of the LORD, were of bright brass.",
+      "web": "the pots; the shovels; and the basins: even all these vessels, which Hiram made for king Solomon, in LORD’s house, were of burnished bronze.",
+      "ct": "and the pots, shovels, and sprinkling basins. All these items that Hiram made for King Solomon for the LORD's temple were of polished bronze."
+    },
+    {
+      "verse": 46,
+      "kjv": "In the plain of Jordan did the king cast them, in the clay ground between Succoth and Zarthan.",
+      "web": "The king cast them in the plain of the Jordan, in the clay ground between Succoth and Zarethan.",
+      "ct": "The king had them cast in clay molds in the Jordan Valley between Succoth and Zarthan."
+    },
+    {
+      "verse": 47,
+      "kjv": "And Solomon left all the vessels unweighed, because they were exceeding many: neither was the weight of the brass found out.",
+      "web": "Solomon left all the vessels unweighed, because there were so many of them. The weight of the bronze could not be determined.",
+      "ct": "Solomon never had any of the items weighed because there were so many of them. The total weight of the bronze was never calculated."
+    },
+    {
+      "verse": 48,
+      "kjv": "And Solomon made all the vessels that pertained unto the house of the LORD: the altar of gold, and the table of gold, whereupon the shewbread was,",
+      "web": "Solomon made all the vessels that were in LORD’s house: the golden altar and the table that the show bread was on, of gold;",
+      "ct": "Solomon also made all the furnishings for the LORD's temple: the gold altar, the gold table for the showbread,"
+    },
+    {
+      "verse": 49,
+      "kjv": "And the candlesticks of pure gold, five on the right side, and five on the left, before the oracle, with the flowers, and the lamps, and the tongs of gold,",
+      "web": "and the lamp stands, five on the right side, and five on the left, before the inner sanctuary, of pure gold; and the flowers, the lamps, and the tongs, of gold;",
+      "ct": "the lampstands of pure gold — 5 on the right side and 5 on the left side in front of the inner sanctuary — along with the gold flowers, lamps, and tongs,"
+    },
+    {
+      "verse": 50,
+      "kjv": "And the bowls, and the snuffers, and the basons, and the spoons, and the censers of pure gold; and the hinges of gold, both for the doors of the inner house, the most holy place, and for the doors of the house, to wit, of the temple.",
+      "web": "the cups, the snuffers, the basins, the spoons, and the fire pans, of pure gold; and the hinges, both for the doors of the inner house, the most holy place, and for the doors of the house, of the temple, of gold.",
+      "ct": "the cups, wick trimmers, sprinkling basins, dishes, and firepans of pure gold, and the gold hinges for the doors of the inner room (the Most Holy Place) and for the doors of the main hall of the temple."
+    },
+    {
+      "verse": 51,
+      "kjv": "So was ended all the work that king Solomon made for the house of the LORD. And Solomon brought in the things which David his father had dedicated; even the silver, and the gold, and the vessels, did he put among the treasures of the house of the LORD.",
+      "web": "Thus all the work that king Solomon did in LORD’s house was finished. Solomon brought in the things which David his father had dedicated, the silver, the gold, and the vessels, and put them in the treasuries of LORD’s house.",
+      "ct": "When all the work King Solomon had done for the LORD's temple was finished, he brought in everything his father David had dedicated — the silver, the gold, and the other articles — and placed them in the treasuries of the LORD's temple."
+    }
+  ]
+}

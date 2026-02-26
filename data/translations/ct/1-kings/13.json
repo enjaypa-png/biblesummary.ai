@@ -1,0 +1,215 @@
+{
+  "book": "1-kings",
+  "book_name": "1 Kings",
+  "chapter": 13,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:48:37.426Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And, behold, there came a man of God out of Judah by the word of the LORD unto Bethel: and Jeroboam stood by the altar to burn incense.",
+      "web": "Behold, a man of God came out of Judah by LORD’s word to Bethel; and Jeroboam was standing by the altar to burn incense.",
+      "ct": "A man of God came from Judah to Bethel, directed by the word of the LORD. Jeroboam was standing beside the altar, about to burn incense."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he cried against the altar in the word of the LORD, and said, O altar, altar, thus saith the LORD; Behold, a child shall be born unto the house of David, Josiah by name; and upon thee shall he offer the priests of the high places that burn incense upon thee, and men’s bones shall be burnt upon thee.",
+      "web": "He cried against the altar by LORD’s word, and said, “Altar! Altar! LORD says: ‘Behold, a son will be born to David’s house, Josiah by name. On you he will sacrifice the priests of the high places who burn incense on you, and they will burn men’s bones on you.’ ”",
+      "ct": "The man cried out against the altar by the word of the LORD: \"Altar! Altar! This is what the LORD says: 'A son will be born to the house of David — his name will be Josiah. He will sacrifice the priests of the high places who burn incense on you, and human bones will be burned on you.'\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And he gave a sign the same day, saying, This is the sign which the LORD hath spoken; Behold, the altar shall be rent, and the ashes that are upon it shall be poured out.",
+      "web": "He gave a sign the same day, saying, “This is the sign which LORD has spoken: Behold, the altar will be split apart, and the ashes that are on it will be poured out.”",
+      "ct": "That same day, the man of God gave a sign: \"This is the sign the LORD has declared — the altar will split apart, and the ashes on it will spill out.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass, when king Jeroboam heard the saying of the man of God, which had cried against the altar in Bethel, that he put forth his hand from the altar, saying, Lay hold on him. And his hand, which he put forth against him, dried up, so that he could not pull it in again to him.",
+      "web": "When the king heard the saying of the man of God, which he cried against the altar in Bethel, Jeroboam put out his hand from the altar, saying, “Seize him!” His hand, which he put out against him, dried up, so that he could not draw it back again to himself.",
+      "ct": "When King Jeroboam heard what the man of God proclaimed against the altar at Bethel, he stretched out his hand from the altar and ordered, \"Seize him!\" But the hand he stretched out shriveled up, and he couldn't pull it back."
+    },
+    {
+      "verse": 5,
+      "kjv": "The altar also was rent, and the ashes poured out from the altar, according to the sign which the man of God had given by the word of the LORD.",
+      "web": "The altar was also split apart, and the ashes poured out from the altar, according to the sign which the man of God had given by LORD’s word.",
+      "ct": "The altar also split apart, and the ashes spilled out from it — exactly as the man of God had predicted by the word of the LORD."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the king answered and said unto the man of God, Intreat now the face of the LORD thy God, and pray for me, that my hand may be restored me again. And the man of God besought the LORD, and the king’s hand was restored him again, and became as it was before.",
+      "web": "The king answered the man of God, “Now intercede for the favor of LORD your God, and pray for me, that my hand may be restored me again.” The man of God interceded with LORD, and the king’s hand was restored to him again, and became as it was before.",
+      "ct": "The king pleaded with the man of God, \"Please, pray to the LORD your God for me — ask him to restore my hand.\" So the man of God prayed to the LORD, and the king's hand was restored, good as new."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the king said unto the man of God, Come home with me, and refresh thyself, and I will give thee a reward.",
+      "web": "The king said to the man of God, “Come home with me, and refresh yourself, and I will give you a reward.”",
+      "ct": "The king said to the man of God, \"Come home with me. Have a meal and rest, and I'll give you a gift.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the man of God said unto the king, If thou wilt give me half thine house, I will not go in with thee, neither will I eat bread nor drink water in this place:",
+      "web": "The man of God said to the king, “Even if you gave me half of your house, I would not go in with you, neither would I eat bread nor drink water in this place;",
+      "ct": "But the man of God told the king, \"Even if you offered me half your palace, I wouldn't go with you. I won't eat food or drink water in this place,"
+    },
+    {
+      "verse": 9,
+      "kjv": "For so was it charged me by the word of the LORD, saying, Eat no bread, nor drink water, nor turn again by the same way that thou camest.",
+      "web": "for so was it commanded me by LORD’s word, saying, ‘You shall eat no bread, drink no water, and don’t return by the way that you came.’ ”",
+      "ct": "because the LORD gave me strict orders: 'Don't eat food, don't drink water, and don't go back the way you came.'\""
+    },
+    {
+      "verse": 10,
+      "kjv": "So he went another way, and returned not by the way that he came to Bethel.",
+      "web": "So he went another way, and didn’t return by the way that he came to Bethel.",
+      "ct": "So he left by a different road and didn't return the way he had come to Bethel."
+    },
+    {
+      "verse": 11,
+      "kjv": "Now there dwelt an old prophet in Bethel; and his sons came and told him all the works that the man of God had done that day in Bethel: the words which he had spoken unto the king, them they told also to their father.",
+      "web": "Now an old prophet lived in Bethel, and one of his sons came and told him all the works that the man of God had done that day in Bethel. They also told their father the words which he had spoken to the king.",
+      "ct": "Now an old prophet lived in Bethel. His sons came and told him everything the man of God had done that day in Bethel, including the words he had spoken to the king."
+    },
+    {
+      "verse": 12,
+      "kjv": "And their father said unto them, What way went he? For his sons had seen what way the man of God went, which came from Judah.",
+      "web": "Their father said to them, “Which way did he go?” Now his sons had seen which way the man of God went, who came from Judah.",
+      "ct": "Their father asked them, \"Which way did he go?\" His sons had seen which road the man of God from Judah had taken."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he said unto his sons, Saddle me the ass. So they saddled him the ass: and he rode thereon,",
+      "web": "He said to his sons, “Saddle the donkey for me.” So they saddled the donkey for him; and he rode on it.",
+      "ct": "He told his sons, \"Saddle the donkey for me.\" They saddled it, and he rode off."
+    },
+    {
+      "verse": 14,
+      "kjv": "And went after the man of God, and found him sitting under an oak: and he said unto him, Art thou the man of God that camest from Judah? And he said, I am.",
+      "web": "He went after the man of God, and found him sitting under an oak. He said to him, “Are you the man of God who came from Judah?” He said, “I am.”",
+      "ct": "He went after the man of God and found him sitting under an oak tree. He asked, \"Are you the man of God who came from Judah?\" He answered, \"I am.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Then he said unto him, Come home with me, and eat bread.",
+      "web": "Then he said to him, “Come home with me, and eat bread.”",
+      "ct": "The old prophet said, \"Come home with me and have something to eat.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And he said, I may not return with thee, nor go in with thee: neither will I eat bread nor drink water with thee in this place:",
+      "web": "He said, “I may not return with you, nor go in with you. I will not eat bread or drink water with you in this place.",
+      "ct": "But he replied, \"I can't go back with you or come to your house. I won't eat food or drink water with you in this place,"
+    },
+    {
+      "verse": 17,
+      "kjv": "For it was said to me by the word of the LORD, Thou shalt eat no bread nor drink water there, nor turn again to go by the way that thou camest.",
+      "web": "For it was said to me by LORD’s word, ‘You shall eat no bread or drink water there, and don’t turn again to go by the way that you came.’ ”",
+      "ct": "because the LORD told me, 'You must not eat food or drink water there, and you must not return by the road you came on.'\""
+    },
+    {
+      "verse": 18,
+      "kjv": "He said unto him, I am a prophet also as thou art; and an angel spake unto me by the word of the LORD, saying, Bring him back with thee into thine house, that he may eat bread and drink water. But he lied unto him.",
+      "web": "He said to him, “I also am a prophet as you are; and an angel spoke to me by LORD’s word, saying, ‘Bring him back with you into your house, that he may eat bread and drink water.’ ” He lied to him.",
+      "ct": "The old prophet said, \"I'm a prophet too, just like you. An angel spoke to me by the word of the LORD and said, 'Bring him back to your house so he can eat and drink.'\" But he was lying to him."
+    },
+    {
+      "verse": 19,
+      "kjv": "So he went back with him, and did eat bread in his house, and drank water.",
+      "web": "So he went back with him, ate bread in his house, and drank water.",
+      "ct": "So the man of God went back with him, ate food at his house, and drank water."
+    },
+    {
+      "verse": 20,
+      "kjv": "And it came to pass, as they sat at the table, that the word of the LORD came unto the prophet that brought him back:",
+      "web": "As they sat at the table, LORD’s word came to the prophet who brought him back;",
+      "ct": "While they were sitting at the table, the word of the LORD came to the old prophet who had brought him back."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he cried unto the man of God that came from Judah, saying, Thus saith the LORD, Forasmuch as thou hast disobeyed the mouth of the LORD, and hast not kept the commandment which the LORD thy God commanded thee,",
+      "web": "and he cried out to the man of God who came from Judah, saying, “LORD says, ‘Because you have been disobedient to LORD’s mouth, and have not kept the commandment which LORD your God commanded you,",
+      "ct": "He cried out to the man of God from Judah, \"This is what the LORD says: 'You have defied the LORD's command. You did not obey the instructions the LORD your God gave you."
+    },
+    {
+      "verse": 22,
+      "kjv": "But camest back, and hast eaten bread and drunk water in the place, of the which the Lord did say to thee, Eat no bread, and drink no water; thy carcase shall not come unto the sepulchre of thy fathers.",
+      "web": "but came back, and have eaten bread and drank water in the place of which he said to you, “Eat no bread, and drink no water;” your body will not come to the tomb of your fathers.’ ”",
+      "ct": "You came back and ate food and drank water in the very place where he told you not to. Because of this, your body will not be buried in your family's tomb.'\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And it came to pass, after he had eaten bread, and after he had drunk, that he saddled for him the ass, to wit, for the prophet whom he had brought back.",
+      "web": "After he had eaten bread, and after he drank, he saddled the donkey for the prophet whom he had brought back.",
+      "ct": "After the man of God had finished eating and drinking, the old prophet saddled the donkey for him — the prophet he had brought back."
+    },
+    {
+      "verse": 24,
+      "kjv": "And when he was gone, a lion met him by the way, and slew him: and his carcase was cast in the way, and the ass stood by it, the lion also stood by the carcase.",
+      "web": "When he had gone, a lion met him by the way and killed him. His body was thrown on the path, and the donkey stood by it. The lion also stood by the body.",
+      "ct": "As he traveled on, a lion met him on the road and killed him. His body lay on the road, with the donkey standing beside it and the lion standing beside the body."
+    },
+    {
+      "verse": 25,
+      "kjv": "And, behold, men passed by, and saw the carcase cast in the way, and the lion standing by the carcase: and they came and told it in the city where the old prophet dwelt.",
+      "web": "Behold, men passed by, and saw the body thrown on the path, and the lion standing by the body; and they came and told it in the city where the old prophet lived.",
+      "ct": "Some people passing by saw the body lying on the road with the lion standing next to it. They went and reported it in the city where the old prophet lived."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when the prophet that brought him back from the way heard thereof, he said, It is the man of God, who was disobedient unto the word of the LORD: therefore the LORD hath delivered him unto the lion, which hath torn him, and slain him, according to the word of the LORD, which he spake unto him.",
+      "web": "When the prophet who brought him back from the way heard of it, he said, “It is the man of God who was disobedient to LORD’s mouth. Therefore LORD has delivered him to the lion, which has mauled him and slain him, according to LORD’s word, which he spoke to him.”",
+      "ct": "When the old prophet who had brought him back heard about it, he said, \"That's the man of God who disobeyed the word of the LORD. The LORD handed him over to the lion, which mauled and killed him — just as the LORD had warned him.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And he spake to his sons, saying, Saddle me the ass. And they saddled him.",
+      "web": "He said to his sons, saying, “Saddle the donkey for me,” and they saddled it.",
+      "ct": "He told his sons, \"Saddle the donkey for me.\" And they did."
+    },
+    {
+      "verse": 28,
+      "kjv": "And he went and found his carcase cast in the way, and the ass and the lion standing by the carcase: the lion had not eaten the carcase, nor torn the ass.",
+      "web": "He went and found his body thrown on the path, and the donkey and the lion standing by the body. The lion had not eaten the body, nor mauled the donkey.",
+      "ct": "He went and found the body lying on the road, with the donkey and the lion still standing beside it. The lion had not eaten the body or attacked the donkey."
+    },
+    {
+      "verse": 29,
+      "kjv": "And the prophet took up the carcase of the man of God, and laid it upon the ass, and brought it back: and the old prophet came to the city, to mourn and to bury him.",
+      "web": "The prophet took up the body of the man of God, and laid it on the donkey, and brought it back. He came to the city of the old prophet to mourn, and to bury him.",
+      "ct": "The old prophet lifted the body of the man of God onto the donkey and brought it back. He returned to his own city to mourn and bury him."
+    },
+    {
+      "verse": 30,
+      "kjv": "And he laid his carcase in his own grave; and they mourned over him, saying, Alas, my brother!",
+      "web": "He laid his body in his own grave; and they mourned over him, saying, “Alas, my brother!”",
+      "ct": "He placed the body in his own tomb, and they mourned over him, crying, \"Oh, my brother!\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And it came to pass, after he had buried him, that he spake to his sons, saying, When I am dead, then bury me in the sepulchre wherein the man of God is buried; lay my bones beside his bones:",
+      "web": "After he had buried him, he spoke to his sons, saying, “When I am dead, bury me in the tomb in which the man of God is buried. Lay my bones beside his bones.",
+      "ct": "After the burial, he told his sons, \"When I die, bury me in the same tomb where the man of God is buried. Lay my bones right beside his bones."
+    },
+    {
+      "verse": 32,
+      "kjv": "For the saying which he cried by the word of the LORD against the altar in Bethel, and against all the houses of the high places which are in the cities of Samaria, shall surely come to pass.",
+      "web": "For the saying which he cried by LORD’s word against the altar in Bethel, and against all the houses of the high places which are in the cities of Samaria, will surely happen.”",
+      "ct": "Because everything he proclaimed by the word of the LORD against the altar in Bethel and against all the shrines on the high places throughout the cities of Samaria will absolutely come true.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "After this thing Jeroboam returned not from his evil way, but made again of the lowest of the people priests of the high places: whosoever would, he consecrated him, and he became one of the priests of the high places.",
+      "web": "After this thing Jeroboam didn’t return from his evil way, but again made priests of the high places from among all the people. Whoever wanted to, he consecrated him, that there might be priests of the high places.",
+      "ct": "Even after all this, Jeroboam didn't turn from his evil ways. He kept appointing priests for the high places from all sorts of people — anyone who wanted the job, he ordained as a priest of the high places."
+    },
+    {
+      "verse": 34,
+      "kjv": "And this thing became sin unto the house of Jeroboam, even to cut it off, and to destroy it from off the face of the earth.",
+      "web": "This thing became sin to the house of Jeroboam, even to cut it off, and to destroy it from off the surface of the earth.",
+      "ct": "This became the sin of Jeroboam's house — a sin so serious it would lead to its total destruction, wiped off the face of the earth."
+    }
+  ]
+}
