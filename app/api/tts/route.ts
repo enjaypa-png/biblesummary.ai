@@ -40,15 +40,14 @@ export async function POST(req: NextRequest) {
         },
         body: JSON.stringify({
           text: text.trim(),
-          model_id: "eleven_turbo_v2",     // Fastest available model
+          model_id: "eleven_flash_v2_5",   // Low-latency model (turbo_v2 was deprecated)
           voice_settings: {
-            stability: 0.85,        // Higher stability for speed
-            similarity_boost: 0.9,   // Maximum similarity  
-            style: 0.0,             // No style for fastest generation
-            use_speaker_boost: true, // Enhanced clarity
+            stability: 0.85,
+            similarity_boost: 0.9,
+            style: 0.0,
+            use_speaker_boost: true,
           },
-          output_format: "mp3_22050_32", // Optimized for streaming
-          optimize_streaming_latency: 4, // Maximum latency optimization
+          output_format: "mp3_22050_32",
         }),
       }
     );
