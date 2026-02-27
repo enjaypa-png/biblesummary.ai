@@ -28,35 +28,41 @@ export async function POST(req: NextRequest) {
         ? voiceId
         : FALLBACK_VOICE_ID;
 
-    // ElevenLabs streaming endpoint for real-time audio generation
-    const elevenlabsResponse = await fetch(
-      `https://api.elevenlabs.io/v1/text-to-speech/${selectedVoice}/stream`,
-      {
-        method: "POST",
-        headers: {
-          "xi-api-key": ELEVENLABS_API_KEY,
-          "Content-Type": "application/json",
-          Accept: "audio/mpeg",
-        },
-        body: JSON.stringify({
-          text: text.trim(),
-          model_id: "eleven_flash_v2_5",   // Low-latency model (turbo_v2 was deprecated)
-          voice_settings: {
-            stability: 0.85,
-            similarity_boost: 0.9,
-            style: 0.0,
-            use_speaker_boost: true,
-          },
-          output_format: "mp3_22050_32",
-        }),
-      }
-    );
+    // output_format is a query parameter, not a body parameter
+    const url = `https://api.elevenlabs.io/v1/text-to-speech/${selectedVoice}/stream?output_format=mp3_44100_128`;
+
+    const requestBody = {
+      text: text.trim(),
+      model_id: "eleven_multilingual_v2",
+      voice_settings: {
+        stability: 0.85,
+        similarity_boost: 0.9,
+      },
+    };
+
+    console.log("[TTS] Request:", { voice: selectedVoice, model: requestBody.model_id, textLength: text.trim().length });
+
+    const elevenlabsResponse = await fetch(url, {
+      method: "POST",
+      headers: {
+        "xi-api-key": ELEVENLABS_API_KEY,
+        "Content-Type": "application/json",
+        Accept: "audio/mpeg",
+      },
+      body: JSON.stringify(requestBody),
+    });
 
     if (!elevenlabsResponse.ok) {
       const errorText = await elevenlabsResponse.text();
-      console.error("ElevenLabs streaming error:", errorText);
+      console.error("[TTS] ElevenLabs error:", {
+        status: elevenlabsResponse.status,
+        statusText: elevenlabsResponse.statusText,
+        body: errorText,
+        voice: selectedVoice,
+        model: requestBody.model_id,
+      });
       return new Response(
-        JSON.stringify({ error: "Failed to generate audio" }),
+        JSON.stringify({ error: "Failed to generate audio", detail: errorText }),
         { status: elevenlabsResponse.status, headers: { "Content-Type": "application/json" } }
       );
     }
@@ -66,16 +72,11 @@ export async function POST(req: NextRequest) {
       status: 200,
       headers: {
         "Content-Type": "audio/mpeg",
-        "Transfer-Encoding": "chunked",
-        "Connection": "keep-alive",
         "Cache-Control": "public, max-age=86400, s-maxage=604800",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "POST",
-        "Access-Control-Allow-Headers": "Content-Type",
       },
     });
   } catch (error) {
-    console.error("TTS streaming error:", error);
+    console.error("[TTS] Unexpected error:", error);
     return new Response(
       JSON.stringify({ error: "Internal server error" }),
       { status: 500, headers: { "Content-Type": "application/json" } }
