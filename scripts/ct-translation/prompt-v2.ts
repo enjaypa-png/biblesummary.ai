@@ -63,19 +63,17 @@ ANCIENT IDIOMS — explain them plainly:
 ✅ "wiped out nearly his entire army, leaving almost nothing behind"
 
 ━━━ PROTECTED TERMS — NEVER REPLACE ━━━
-These words must appear exactly as listed: God, LORD, Lord GOD, the Almighty, Christ, Holy Spirit, heaven/heavens, soul, spirit, sin, atonement, glory, salvation, angel/angels. All proper names and places stay as in the KJV.
+These words must appear exactly as listed: God, LORD, Lord GOD, the Almighty, Christ, Holy Spirit, heaven/heavens, soul, spirit, sin, atonement, glory, salvation, covenant, repent/repentance, angel/angels. All proper names and places stay as in the KJV.
 
 ━━━ PLAIN ENGLISH SUBSTITUTIONS — ALWAYS APPLY ━━━
 These traditional theological terms are replaced with plain English so modern readers understand immediately:
 
 | Traditional Term | Use Instead | Notes |
 |---|---|---|
-| grace | God's kindness | "by God's kindness" / "God showed them kindness" |
+| grace | God's kindness | "by God's kindness" / "God showed them kindness" — non-religious readers don't know what "grace" means |
 | justify / justified | declared righteous by God | "declared righteous" / "made right with God" |
 | righteousness | God's approval / doing what is right | "God's approval" in legal/justification contexts; "doing what is right" in moral contexts |
-| covenant | promise (God's unilateral) / agreement (mutual) | "God's promise to Abraham" / "the two nations made an agreement" |
 | The Law / the law of Moses | Moses' Teachings | "the Teachings of Moses" / "Moses' Teachings" |
-| repent / repentance | turn away from sin / turn back to God | "turn away from your sins" / "turn back to God" |
 | church (NT) | community of believers | "the community of believers in Corinth" |
 | sanctify / sanctification | set apart / made holy | "set apart for God" / "made holy" |
 | propitiation / atoning sacrifice | sacrifice that paid for sin | "the sacrifice that paid for our sins" |
@@ -107,7 +105,7 @@ The WEB uses "Yahweh" — always write "LORD" (all caps) instead.
 These exact words must appear in your output exactly as listed:
 - God, LORD, Lord GOD, the Almighty, Christ, Holy Spirit
 - heaven / heavens, earth, soul, spirit
-- sin, atonement, glory, salvation, faith, mercy
+- sin, atonement, glory, salvation, faith, mercy, covenant, repent / repentance
 - angel / angels, prophet / prophets
 - All proper names (people, places, tribes)
 - "fear of the LORD" / "fear God" — ALWAYS keep "fear", never soften to "revere" or "respect"
@@ -184,7 +182,7 @@ Flag a verse as FAIL if ANY of these apply:
 2. OMISSION — A significant phrase, clause, or idea from the KJV is missing from the CT.
 3. ADDITION — The CT adds ideas, explanations, or emphasis that are not in the KJV.
 4. WRONG PROTECTED TERM — "LORD", "God", "sin", "atonement", "glory", "salvation", "faith", "mercy", "soul", "spirit", "heaven/heavens", "Christ", "Holy Spirit" — any of these replaced with different words.
-4b. MISSED SUBSTITUTION — The old theological jargon was kept when it should have been replaced: "grace" (should be "God's kindness" or similar), "righteousness" in justification contexts (should be "God's approval"), "covenant" (should be "promise" or "agreement"), "the Law" (should be "Moses' Teachings"), "repent" (should be "turn away from sin" or "turn back to God"), "church" (should be "community of believers"), "iniquity" (should be "sin" or "wrongdoing"), "transgression" (should be "disobedience" or "sin").
+4b. MISSED SUBSTITUTION — The old theological jargon was kept when it should have been replaced: "grace" (should be "God's kindness" or "kindness"), "righteousness" in justification contexts (should be "God's approval"), "the Law" (should be "Moses' Teachings"), "church" (should be "community of believers"), "iniquity" (should be "sin" or "wrongdoing"), "transgression" (should be "disobedience" or "sin"). NOTE: "covenant" and "repent/repentance" are PROTECTED — do NOT flag them as missed substitutions.
 5. "FEAR" SOFTENED — "fear of the LORD" or "fear God" rendered as "revere", "respect", "honor" etc. Must stay as "fear".
 6. "YAHWEH" LEFT IN — The word "Yahweh" appears. Must be "LORD".
 7. AWKWARD ENGLISH — The sentence is stilted, confusing, or unnatural for a modern reader.
