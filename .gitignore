@@ -18,3 +18,6 @@ data/translations/ct-audit-manual-review.jsonl
 
 # Modernization script output (generated JSON files)
 scripts/modern-output/
+
+# Supabase CLI temp files
+supabase/.temp/

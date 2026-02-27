@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -28,9 +28,50 @@ const FEATURES_PREMIUM = [
 ];
 
 // Interactive demo component - this is the conversion engine
+const EXPLANATION_TEXT = "People often use this verse to mean, \u2018I can achieve anything.\u2019 In context, Paul is saying Christ gives him strength to endure every situation \u2014 having plenty or having little, being comfortable or suffering. It\u2019s about contentment and resilience, not guaranteed success.";
+
 function VerseDemo() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(true);
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+
+  useEffect(() => {
+    setSpeechSupported(typeof window !== "undefined" && "speechSynthesis" in window);
+    return () => { if (typeof window !== "undefined" && "speechSynthesis" in window) speechSynthesis.cancel(); };
+  }, []);
+
+  // Stop speech when explanation is closed
+  useEffect(() => {
+    if (!showExplanation && isSpeaking) {
+      speechSynthesis.cancel();
+      setIsSpeaking(false);
+    }
+  }, [showExplanation, isSpeaking]);
+
+  const toggleSpeech = useCallback(() => {
+    if (!speechSupported) return;
+    if (isSpeaking) {
+      speechSynthesis.cancel();
+      setIsSpeaking(false);
+      return;
+    }
+    const utterance = new SpeechSynthesisUtterance(EXPLANATION_TEXT);
+    utterance.rate = 0.95;
+    utterance.pitch = 1;
+    // Pick a natural English voice if available
+    const voices = speechSynthesis.getVoices();
+    const preferred = voices.find(v => v.lang.startsWith("en") && v.name.toLowerCase().includes("natural"))
+      || voices.find(v => v.lang.startsWith("en") && !v.name.toLowerCase().includes("compact"))
+      || voices.find(v => v.lang.startsWith("en"));
+    if (preferred) utterance.voice = preferred;
+    utterance.onend = () => setIsSpeaking(false);
+    utterance.onerror = () => setIsSpeaking(false);
+    utteranceRef.current = utterance;
+    speechSynthesis.speak(utterance);
+    setIsSpeaking(true);
+  }, [isSpeaking, speechSupported]);
 
   return (
     <div style={{ maxWidth: 620, margin: "0 auto", fontFamily: "'Source Serif 4', Georgia, serif" }}>
@@ -52,7 +93,7 @@ function VerseDemo() {
           borderBottom: "1px solid #e8e5e0",
           fontFamily: "'DM Sans', sans-serif",
         }}>
-          <span style={{ fontSize: 13, color: "#8a8580", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>Genesis 1</span>
+          <span style={{ fontSize: 13, color: "#8a8580", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>Philippians 4</span>
           <div style={{ display: "flex", gap: 12 }}>
             <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🔖</span>
             <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🎧</span>
@@ -61,16 +102,13 @@ function VerseDemo() {
 
         {/* Verses */}
         <div style={{ padding: "28px 24px 20px" }}>
+          {/* Verse 12 - context */}
           <p style={{ fontSize: 17, lineHeight: 1.85, color: "#3a3530", margin: "0 0 16px" }}>
-            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>1</span>
-            In the beginning God created the heaven and the earth.
-          </p>
-          <p style={{ fontSize: 17, lineHeight: 1.85, color: "#3a3530", margin: "0 0 16px" }}>
-            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>2</span>
-            And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.
+            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>12</span>
+            I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.
           </p>
 
-          {/* Interactive verse */}
+          {/* Verse 13 - interactive */}
           <div style={{ position: "relative" }}>
             <p
               onClick={() => setShowExplanation(!showExplanation)}
@@ -87,8 +125,8 @@ function VerseDemo() {
                 border: showExplanation ? "1.5px solid #c4b8ff" : "1.5px solid transparent",
               }}
             >
-              <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>3</span>
-              And God said, Let there be light: and there was light.
+              <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>13</span>
+              I can do all things through Christ which strengtheneth me.
               {!showExplanation && (
                 <span style={{
                   display: "inline-block",
@@ -119,18 +157,49 @@ function VerseDemo() {
                 borderLeft: "3px solid #7c5cfc",
                 animation: "slideDown 0.35s ease",
               }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
-                  <span style={{ fontSize: 14 }}>✨</span>
-                  <span style={{
-                    fontSize: 12,
-                    fontWeight: 700,
-                    color: "#7c5cfc",
-                    letterSpacing: 0.8,
-                    textTransform: "uppercase",
-                    fontFamily: "'DM Sans', sans-serif",
-                  }}>
-                    Plain-Language Explanation
-                  </span>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <span style={{ fontSize: 14 }}>✨</span>
+                    <span style={{
+                      fontSize: 12,
+                      fontWeight: 700,
+                      color: "#7c5cfc",
+                      letterSpacing: 0.8,
+                      textTransform: "uppercase",
+                      fontFamily: "'DM Sans', sans-serif",
+                    }}>
+                      Plain-Language Explanation
+                    </span>
+                  </div>
+                  {speechSupported && (
+                    <button
+                      onClick={(e) => { e.stopPropagation(); toggleSpeech(); }}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 5,
+                        padding: "4px 12px",
+                        fontSize: 12,
+                        fontWeight: 600,
+                        fontFamily: "'DM Sans', sans-serif",
+                        color: isSpeaking ? "#fff" : "#7c5cfc",
+                        background: isSpeaking ? "#7c5cfc" : "#fff",
+                        border: "1.5px solid #7c5cfc",
+                        borderRadius: 20,
+                        cursor: "pointer",
+                        transition: "all 0.2s ease",
+                      }}
+                    >
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        {isSpeaking ? (
+                          <><rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" /></>
+                        ) : (
+                          <><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" /><path d="M15.54 8.46a5 5 0 0 1 0 7.07" /><path d="M19.07 4.93a10 10 0 0 1 0 14.14" /></>
+                        )}
+                      </svg>
+                      {isSpeaking ? "Stop" : "Listen"}
+                    </button>
+                  )}
                 </div>
                 <p style={{
                   fontSize: 15,
@@ -139,7 +208,7 @@ function VerseDemo() {
                   margin: 0,
                   fontFamily: "'DM Sans', sans-serif",
                 }}>
-                  This verse describes God speaking light into existence. It is the first recorded act of creation through spoken word — God commands, and it happens. Light appears before the sun and moon are created (which happens on Day 4), marking it as a distinct creative act that separates the initial darkness described in verse 2.
+                  {EXPLANATION_TEXT}
                 </p>
               </div>
             )}
@@ -187,18 +256,23 @@ function VerseDemo() {
               textTransform: "uppercase",
               fontFamily: "'DM Sans', sans-serif",
             }}>
-              Chapter Summary — Genesis 1
+              Chapter Summary — Philippians 4
             </span>
           </div>
-          <p style={{
+          <ul style={{
             fontSize: 15,
             lineHeight: 1.75,
             color: "#4a4550",
             margin: 0,
+            paddingLeft: 20,
             fontFamily: "'DM Sans', sans-serif",
           }}>
-            Genesis 1 describes the creation of the world over six days. God creates light, separates the sky from the waters, forms dry land and vegetation, places the sun, moon, and stars, fills the seas and sky with living creatures, and finally creates humans — male and female — in His image. God gives humans authority over all living things. After each act of creation, God sees that it is good. On the seventh day, He rests.
-          </p>
+            <li style={{ marginBottom: 6 }}>Paul urges two church members, Euodia and Syntyche, to settle their disagreement.</li>
+            <li style={{ marginBottom: 6 }}>He tells believers to rejoice always and not to be anxious — instead, bring everything to God in prayer.</li>
+            <li style={{ marginBottom: 6 }}>He describes the &ldquo;peace of God&rdquo; that guards hearts and minds.</li>
+            <li style={{ marginBottom: 6 }}>Paul shares that he has learned to be content whether he has plenty or little.</li>
+            <li>He thanks the Philippians for their generous financial support and promises God will meet all their needs.</li>
+          </ul>
         </div>
       )}
     </div>
@@ -395,8 +469,8 @@ export default function ClearBibleLanding() {
             marginBottom: 20,
             animation: "fadeUp 0.7s ease both",
           }}>
-            <span style={{ color: "#7c5cfc" }}>Reading</span> the Bible shouldn&apos;t feel like{" "}
-            <span style={{ color: "#7c5cfc" }}>homework.</span>
+            <span style={{ color: "#7c5cfc" }}>Built</span> to be{" "}
+            <span style={{ color: "#7c5cfc" }}>understood.</span>
           </h1>
 
           <p style={{
@@ -407,7 +481,7 @@ export default function ClearBibleLanding() {
             margin: "0 auto 36px",
             animation: "fadeUp 0.7s ease 0.15s both",
           }}>
-            AI-powered summaries and verse explanations that make every chapter click.
+            Easy to use and easy to listen/read!
           </p>
 
           <div style={{
@@ -554,7 +628,7 @@ export default function ClearBibleLanding() {
             maxWidth: 460,
             margin: "0 auto",
           }}>
-            Tap verse 3 below, then check out the chapter summary.
+            Tap verse 13 below, then check out the chapter summary.
           </p>
         </div>
 
