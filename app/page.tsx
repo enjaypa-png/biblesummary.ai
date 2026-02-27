@@ -28,7 +28,7 @@ const FEATURES_PREMIUM = [
 ];
 
 // Interactive demo component - this is the conversion engine
-const EXPLANATION_TEXT = "People often use this verse to mean, \u2018I can achieve anything.\u2019 In context, Paul is saying Christ gives him strength to endure every situation \u2014 having plenty or having little, being comfortable or suffering. It\u2019s about contentment and resilience, not guaranteed success.";
+const EXPLANATION_TEXT = "The famous saying \u2018money is the root of all evil\u2019 is actually a misquote. The verse doesn\u2019t say money is evil \u2014 it says the love of money is. Paul is warning against greed, not wealth itself. People consumed by the desire for more money wander from their faith and bring themselves unnecessary pain.";
 
 function VerseDemo() {
   const [showExplanation, setShowExplanation] = useState(false);
@@ -93,7 +93,7 @@ function VerseDemo() {
           borderBottom: "1px solid #e8e5e0",
           fontFamily: "'DM Sans', sans-serif",
         }}>
-          <span style={{ fontSize: 13, color: "#8a8580", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>Philippians 4</span>
+          <span style={{ fontSize: 13, color: "#8a8580", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>1 Timothy 6</span>
           <div style={{ display: "flex", gap: 12 }}>
             <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🔖</span>
             <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🎧</span>
@@ -102,13 +102,13 @@ function VerseDemo() {
 
         {/* Verses */}
         <div style={{ padding: "28px 24px 20px" }}>
-          {/* Verse 12 - context */}
+          {/* Verse 9 - context */}
           <p style={{ fontSize: 17, lineHeight: 1.85, color: "#3a3530", margin: "0 0 16px" }}>
-            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>12</span>
-            I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.
+            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>9</span>
+            But they that will be rich fall into temptation and a snare, and into many foolish and hurtful lusts, which drown men in destruction and perdition.
           </p>
 
-          {/* Verse 13 - interactive */}
+          {/* Verse 10 - interactive */}
           <div style={{ position: "relative" }}>
             <p
               onClick={() => setShowExplanation(!showExplanation)}
@@ -125,8 +125,8 @@ function VerseDemo() {
                 border: showExplanation ? "1.5px solid #c4b8ff" : "1.5px solid transparent",
               }}
             >
-              <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>13</span>
-              I can do all things through Christ which strengtheneth me.
+              <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>10</span>
+              For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.
               {!showExplanation && (
                 <span style={{
                   display: "inline-block",
@@ -256,7 +256,7 @@ function VerseDemo() {
               textTransform: "uppercase",
               fontFamily: "'DM Sans', sans-serif",
             }}>
-              Chapter Summary — Philippians 4
+              Chapter Summary — 1 Timothy 6
             </span>
           </div>
           <ul style={{
@@ -267,11 +267,11 @@ function VerseDemo() {
             paddingLeft: 20,
             fontFamily: "'DM Sans', sans-serif",
           }}>
-            <li style={{ marginBottom: 6 }}>Paul urges two church members, Euodia and Syntyche, to settle their disagreement.</li>
-            <li style={{ marginBottom: 6 }}>He tells believers to rejoice always and not to be anxious — instead, bring everything to God in prayer.</li>
-            <li style={{ marginBottom: 6 }}>He describes the &ldquo;peace of God&rdquo; that guards hearts and minds.</li>
-            <li style={{ marginBottom: 6 }}>Paul shares that he has learned to be content whether he has plenty or little.</li>
-            <li>He thanks the Philippians for their generous financial support and promises God will meet all their needs.</li>
+            <li style={{ marginBottom: 6 }}>Paul instructs Timothy on how servants should treat their masters.</li>
+            <li style={{ marginBottom: 6 }}>He warns against false teachers who use religion as a way to get rich.</li>
+            <li style={{ marginBottom: 6 }}>He describes contentment as &ldquo;great gain&rdquo; — having food and clothing should be enough.</li>
+            <li style={{ marginBottom: 6 }}>He warns that the desire for wealth leads to temptation, destruction, and wandering from faith.</li>
+            <li>He tells Timothy to pursue righteousness, godliness, faith, love, and endurance instead.</li>
           </ul>
         </div>
       )}
@@ -628,7 +628,7 @@ export default function ClearBibleLanding() {
             maxWidth: 460,
             margin: "0 auto",
           }}>
-            Tap verse 13 below, then check out the chapter summary.
+            Tap verse 10 below, then check out the chapter summary.
           </p>
         </div>
 
