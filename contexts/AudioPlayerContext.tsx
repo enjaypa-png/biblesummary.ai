@@ -221,6 +221,10 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
         });
 
         if (!res.ok || !shouldContinueRef.current) {
+          if (!res.ok) {
+            const errBody = await res.text().catch(() => "");
+            console.error(`[Audio] TTS failed for verse ${verse.verse}: ${res.status} ${res.statusText}`, errBody);
+          }
           resolve(false);
           return;
         }
@@ -241,7 +245,9 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
           resolve(true);
         };
 
-        const onError = () => {
+        const onError = (e: Event) => {
+          const mediaError = (e.target as HTMLAudioElement)?.error;
+          console.error(`[Audio] Playback error for verse ${verse.verse}:`, mediaError?.message || "unknown");
           blobRef.current = null;
           URL.revokeObjectURL(url);
           resolve(false);
