@@ -210,8 +210,16 @@ export default function PricingPageClient() {
               </span>
 
               <div style={{ display: "flex", gap: 8, marginBottom: 12 }} className="mt-1">
-                  <button onClick={() => {}} className="flex-1 py-1.5 rounded-lg text-[13px] font-semibold" style={{ backgroundColor: "var(--accent)", color: "white" }}>Yearly — $79</button>
-                  <button onClick={() => {}} className="flex-1 py-1.5 rounded-lg text-[13px] font-semibold" style={{ backgroundColor: "var(--background)", color: "var(--foreground)", border: "1px solid var(--border)" }}>Monthly — $9.99</button>
+                  <button
+                    onClick={() => setBillingCycle("yearly")}
+                    className="flex-1 py-1.5 rounded-lg text-[13px] font-semibold transition-all"
+                    style={{ backgroundColor: billingCycle === "yearly" ? "var(--accent)" : "var(--background)", color: billingCycle === "yearly" ? "white" : "var(--foreground)", border: "1px solid var(--border)" }}
+                  >Annually — $79</button>
+                  <button
+                    onClick={() => setBillingCycle("monthly")}
+                    className="flex-1 py-1.5 rounded-lg text-[13px] font-semibold transition-all"
+                    style={{ backgroundColor: billingCycle === "monthly" ? "var(--accent)" : "var(--background)", color: billingCycle === "monthly" ? "white" : "var(--foreground)", border: "1px solid var(--border)" }}
+                  >Monthly — $9.99</button>
                 </div>
                 <div className="flex items-baseline justify-between mb-1">
                 <h3 className="text-[18px] font-bold" style={{ color: "var(--foreground)" }}>
