@@ -1,0 +1,95 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:30:38.567Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Moreover take thou up a lamentation for the princes of Israel,",
+      "web": "“Moreover, take up a lamentation for the princes of Israel,",
+      "ct": "\"Now sing a funeral song for the princes of Israel."
+    },
+    {
+      "verse": 2,
+      "kjv": "And say, What is thy mother? A lioness: she lay down among lions, she nourished her whelps among young lions.",
+      "web": "and say, ‘What was your mother? A lioness. She couched among lions, in the middle of the young lions she nourished her cubs.",
+      "ct": "Say to them: 'What was your mother? She was a lioness! She made her home among the lions and raised her cubs surrounded by young lions."
+    },
+    {
+      "verse": 3,
+      "kjv": "And she brought up one of her whelps: it became a young lion, and it learned to catch the prey; it devoured men.",
+      "web": "She brought up one of her cubs. He became a young lion. He learned to catch the prey. He devoured men.",
+      "ct": "She raised one of her cubs, and he grew into a young lion. He learned to hunt prey and devoured men."
+    },
+    {
+      "verse": 4,
+      "kjv": "The nations also heard of him; he was taken in their pit, and they brought him with chains unto the land of Egypt.",
+      "web": "The nations also heard of him. He was taken in their pit; and they brought him with hooks to the land of Egypt. ",
+      "ct": "The surrounding nations heard about him. He was caught in their pit, and they dragged him away with hooks to the land of Egypt."
+    },
+    {
+      "verse": 5,
+      "kjv": "Now when she saw that she had waited, and her hope was lost, then she took another of her whelps, and made him a young lion.",
+      "web": "“ ‘Now when she saw that she had waited, and her hope was lost, then she took another of her cubs, and made him a young lion.",
+      "ct": "When the mother lioness saw that her waiting was in vain and her hope was gone, she took another of her cubs and raised him into a young lion."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he went up and down among the lions, he became a young lion, and learned to catch the prey, and devoured men.",
+      "web": "He went up and down among the lions. He became a young lion. He learned to catch the prey. He devoured men.",
+      "ct": "He prowled among the lions and grew into a powerful young lion. He learned to hunt prey and devoured men."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he knew their desolate palaces, and he laid waste their cities; and the land was desolate, and the fulness thereof, by the noise of his roaring.",
+      "web": "He knew their palaces, and laid waste their cities. The land was desolate, with its fullness, because of the noise of his roaring.",
+      "ct": "He ravaged their fortresses and destroyed their cities. The whole land and everyone in it was terrified by the sound of his roaring."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then the nations set against him on every side from the provinces, and spread their net over him: he was taken in their pit.",
+      "web": "Then the nations attacked him on every side from the provinces. They spread their net over him. He was taken in their pit.",
+      "ct": "Then nations from the surrounding provinces joined forces against him. They spread their net over him, and he was caught in their pit."
+    },
+    {
+      "verse": 9,
+      "kjv": "And they put him in ward in chains, and brought him to the king of Babylon: they brought him into holds, that his voice should no more be heard upon the mountains of Israel.",
+      "web": "They put him in a cage with hooks, and brought him to the king of Babylon. They brought him into strongholds, so that his voice should no more be heard on the mountains of Israel. ",
+      "ct": "They put him in a cage with hooks and brought him to the king of Babylon. They locked him away in a fortress so that his roar would never again be heard on the mountains of Israel."
+    },
+    {
+      "verse": 10,
+      "kjv": "Thy mother is like a vine in thy blood, planted by the waters: she was fruitful and full of branches by reason of many waters.",
+      "web": "“ ‘Your mother was like a vine in your blood, planted by the waters. It was fruitful and full of branches by reason of many waters.",
+      "ct": "Your mother was like a vine planted by the water, thriving in your bloodline. She was fruitful and full of branches because she had plenty of water."
+    },
+    {
+      "verse": 11,
+      "kjv": "And she had strong rods for the sceptres of them that bare rule, and her stature was exalted among the thick branches, and she appeared in her height with the multitude of her branches.",
+      "web": "It had strong branches for the scepters of those who ruled. Their stature was exalted among the thick boughs. They were seen in their height with the multitude of their branches.",
+      "ct": "She grew strong branches — strong enough to be scepters for rulers. She towered high among the thick foliage, standing tall and visible with her many branches."
+    },
+    {
+      "verse": 12,
+      "kjv": "But she was plucked up in fury, she was cast down to the ground, and the east wind dried up her fruit: her strong rods were broken and withered; the fire consumed them.",
+      "web": "But it was plucked up in fury. It was cast down to the ground, and the east wind dried up its fruit. Its strong branches were broken off and withered. The fire consumed them.",
+      "ct": "But she was ripped out of the ground in fury and thrown down. The scorching east wind dried up her fruit. Her strong branches were snapped off and withered, and fire consumed them."
+    },
+    {
+      "verse": 13,
+      "kjv": "And now she is planted in the wilderness, in a dry and thirsty ground.",
+      "web": "Now it is planted in the wilderness, in a dry and thirsty land.",
+      "ct": "Now she is planted in the wilderness, in dry and thirsty ground."
+    },
+    {
+      "verse": 14,
+      "kjv": "And fire is gone out of a rod of her branches, which hath devoured her fruit, so that she hath no strong rod to be a sceptre to rule. This is a lamentation, and shall be for a lamentation.",
+      "web": "Fire has gone out of its branches. It has devoured its fruit, so that there is in it no strong branch to be a scepter to rule.’ This is a lamentation, and shall be for a lamentation.”",
+      "ct": "Fire has spread from her own branches and devoured her fruit. No strong branch remains — no scepter fit for a ruler.' This is a funeral song, and it will be sung as one.\""
+    }
+  ]
+}

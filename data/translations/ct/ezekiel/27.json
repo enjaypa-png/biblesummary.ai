@@ -1,0 +1,227 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 27,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:34:31.368Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word of the LORD came again unto me, saying,",
+      "web": "LORD’s word came again to me, saying,",
+      "ct": "The word of the LORD came to me again:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Now, thou son of man, take up a lamentation for Tyrus;",
+      "web": "“You, son of man, take up a lamentation over Tyre;",
+      "ct": "\"Son of man, sing a funeral song over Tyre."
+    },
+    {
+      "verse": 3,
+      "kjv": "And say unto Tyrus, O thou that art situate at the entry of the sea, which art a merchant of the people for many isles, Thus saith the Lord GOD; O Tyrus, thou hast said, I am of perfect beauty.",
+      "web": "and tell Tyre, ‘You who dwell at the entry of the sea, who are the merchant of the peoples to many islands, the Lord LORD says: “You, Tyre, have said, ‘I am perfect in beauty.’",
+      "ct": "Say to Tyre, 'You sit at the gateway of the sea, trading with nations across many coastlands. This is what the Lord GOD says: Tyre, you have boasted, \"I am perfect in beauty.\"'"
+    },
+    {
+      "verse": 4,
+      "kjv": "Thy borders are in the midst of the seas, thy builders have perfected thy beauty.",
+      "web": "Your borders are in the heart of the seas. Your builders have perfected your beauty.",
+      "ct": "Your borders stretch into the heart of the seas, and your builders have made your beauty flawless."
+    },
+    {
+      "verse": 5,
+      "kjv": "They have made all thy ship boards of fir trees of Senir: they have taken cedars from Lebanon to make masts for thee.",
+      "web": "They have made all your planks of cypress trees from Senir. They have taken a cedar from Lebanon to make a mast for you.",
+      "ct": "They crafted all your planks from cypress trees of Senir and cut cedars from Lebanon to make your masts."
+    },
+    {
+      "verse": 6,
+      "kjv": "Of the oaks of Bashan have they made thine oars; the company of the Ashurites have made thy benches of ivory, brought out of the isles of Chittim.",
+      "web": "They have made your oars of the oaks of Bashan. They have made your benches of ivory inlaid in cypress wood from the islands of Kittim.",
+      "ct": "They carved your oars from the oaks of Bashan and built your deck with ivory set into cypress wood from the coasts of Chittim."
+    },
+    {
+      "verse": 7,
+      "kjv": "Fine linen with broidered work from Egypt was that which thou spreadest forth to be thy sail; blue and purple from the isles of Elishah was that which covered thee.",
+      "web": "Your sail was of fine linen with embroidered work from Egypt, that it might be to you for a banner. Blue and purple from the islands of Elishah was your awning.",
+      "ct": "Your sail was fine Egyptian linen with embroidered designs, serving as your banner. Your awning was dyed blue and purple cloth from the coastlands of Elishah."
+    },
+    {
+      "verse": 8,
+      "kjv": "The inhabitants of Zidon and Arvad were thy mariners: thy wise men, O Tyrus, that were in thee, were thy pilots.",
+      "web": "The inhabitants of Sidon and Arvad were your rowers. Your wise men, Tyre, were in you. They were your pilots.",
+      "ct": "Men from Zidon and Arvad pulled your oars, and your own skilled men, Tyre, served as your navigators."
+    },
+    {
+      "verse": 9,
+      "kjv": "The ancients of Gebal and the wise men thereof were in thee thy calkers: all the ships of the sea with their mariners were in thee to occupy thy merchandise.",
+      "web": "The old men of Gebal and its wise men were your repairers of ship seams in you. All the ships of the sea with their mariners were in you to deal in your merchandise. ",
+      "ct": "The elders and craftsmen of Gebal were on board to seal your seams. Every ship on the sea and its sailors came to you to trade their goods."
+    },
+    {
+      "verse": 10,
+      "kjv": "They of Persia and of Lud and of Phut were in thine army, thy men of war: they hanged the shield and helmet in thee; they set forth thy comeliness.",
+      "web": "“ ‘ “Persia, Lud, and Put were in your army, your men of war. They hung the shield and helmet in you. They showed your beauty.",
+      "ct": "Soldiers from Persia, Lud, and Phut served in your army. They hung their shields and helmets on your walls, adding to your splendor."
+    },
+    {
+      "verse": 11,
+      "kjv": "The men of Arvad with thine army were upon thy walls round about, and the Gammadims were in thy towers: they hanged their shields upon thy walls round about; they have made thy beauty perfect.",
+      "web": "The men of Arvad with your army were on your walls all around, and valiant men were in your towers. They hung their shields on your walls all around. They have perfected your beauty.",
+      "ct": "Warriors from Arvad manned your walls on every side, and brave fighters stood guard in your towers. They hung their shields all around your walls, completing your beauty."
+    },
+    {
+      "verse": 12,
+      "kjv": "Tarshish was thy merchant by reason of the multitude of all kind of riches; with silver, iron, tin, and lead, they traded in thy fairs.",
+      "web": "“ ‘ “Tarshish was your merchant by reason of the multitude of all kinds of riches. They traded for your wares with silver, iron, tin, and lead.",
+      "ct": "Tarshish did business with you because of your enormous wealth. They exchanged silver, iron, tin, and lead for your goods."
+    },
+    {
+      "verse": 13,
+      "kjv": "Javan, Tubal, and Meshech, they were thy merchants: they traded the persons of men and vessels of brass in thy market.",
+      "web": "“ ‘ “Javan, Tubal, and Meshech were your traders. They traded the persons of men and vessels of bronze for your merchandise.",
+      "ct": "Javan, Tubal, and Meshech were your trading partners. They bartered slaves and bronze vessels in your markets."
+    },
+    {
+      "verse": 14,
+      "kjv": "They of the house of Togarmah traded in thy fairs with horses and horsemen and mules.",
+      "web": "“ ‘ “They of the house of Togarmah traded for your wares with horses, war horses, and mules.",
+      "ct": "The people of Togarmah traded horses, war horses, and mules for your goods."
+    },
+    {
+      "verse": 15,
+      "kjv": "The men of Dedan were thy merchants; many isles were the merchandise of thine hand: they brought thee for a present horns of ivory and ebony.",
+      "web": "“ ‘ “The men of Dedan traded with you. Many islands were the market of your hand. They brought you horns of ivory and ebony in exchange.",
+      "ct": "The men of Dedan traded with you, and many coastlands were your customers. They paid you with ivory tusks and ebony."
+    },
+    {
+      "verse": 16,
+      "kjv": "Syria was thy merchant by reason of the multitude of the wares of thy making: they occupied in thy fairs with emeralds, purple, and broidered work, and fine linen, and coral, and agate.",
+      "web": "“ ‘ “Syria was your merchant by reason of the multitude of your handiworks. They traded for your wares with emeralds, purple, embroidered work, fine linen, coral, and rubies.",
+      "ct": "Syria was your trading partner because you produced so many goods. They exchanged emeralds, purple cloth, embroidered work, fine linen, coral, and agate for your wares."
+    },
+    {
+      "verse": 17,
+      "kjv": "Judah, and the land of Israel, they were thy merchants: they traded in thy market wheat of Minnith, and Pannag, and honey, and oil, and balm.",
+      "web": "“ ‘ “Judah and the land of Israel were your traders. They traded wheat of Minnith, confections, honey, oil, and balm for your merchandise.",
+      "ct": "Judah and the land of Israel were your trading partners too. They exchanged wheat from Minnith, confections, honey, oil, and balm for your merchandise."
+    },
+    {
+      "verse": 18,
+      "kjv": "Damascus was thy merchant in the multitude of the wares of thy making, for the multitude of all riches; in the wine of Helbon, and white wool.",
+      "web": "“ ‘ “Damascus was your merchant for the multitude of your handiworks, by reason of the multitude of all kinds of riches, with the wine of Helbon, and white wool.",
+      "ct": "Damascus traded with you because of your vast production and enormous wealth, dealing in wine from Helbon and white wool."
+    },
+    {
+      "verse": 19,
+      "kjv": "Dan also and Javan going to and fro occupied in thy fairs: bright iron, cassia, and calamus, were in thy market.",
+      "web": "“ ‘ “Vedan and Javan traded with yarn for your wares: bright iron, cassia, and calamus were among your merchandise.",
+      "ct": "Dan and Javan brought goods from far away to your markets — polished iron, cassia, and calamus were among your merchandise."
+    },
+    {
+      "verse": 20,
+      "kjv": "Dedan was thy merchant in precious clothes for chariots.",
+      "web": "“ ‘ “Dedan was your trafficker in precious cloths for riding.",
+      "ct": "Dedan traded with you in fine saddle blankets for riding."
+    },
+    {
+      "verse": 21,
+      "kjv": "Arabia, and all the princes of Kedar, they occupied with thee in lambs, and rams, and goats: in these were they thy merchants.",
+      "web": "“ ‘ “Arabia, and all the princes of Kedar were the merchants of your hand; in lambs, rams, and goats. In these, they were your merchants.",
+      "ct": "Arabia and all the princes of Kedar were your customers, trading lambs, rams, and goats with you."
+    },
+    {
+      "verse": 22,
+      "kjv": "The merchants of Sheba and Raamah, they were thy merchants: they occupied in thy fairs with chief of all spices, and with all precious stones, and gold.",
+      "web": "“ ‘ “The traders of Sheba and Raamah were your traders. They traded for your wares with the chief of all spices, and with all precious stones, and gold.",
+      "ct": "The merchants of Sheba and Raamah did business with you, exchanging the finest spices, every kind of precious stone, and gold for your wares."
+    },
+    {
+      "verse": 23,
+      "kjv": "Haran, and Canneh, and Eden, the merchants of Sheba, Asshur, and Chilmad, were thy merchants.",
+      "web": "“ ‘ “Haran, Canneh, and Eden, the traders of Sheba, Asshur and Chilmad, were your traders.",
+      "ct": "Haran, Canneh, Eden, the traders of Sheba, Asshur, and Chilmad — all of them were your merchants."
+    },
+    {
+      "verse": 24,
+      "kjv": "These were thy merchants in all sorts of things, in blue clothes, and broidered work, and in chests of rich apparel, bound with cords, and made of cedar, among thy merchandise.",
+      "web": "These were your traders in choice wares, in wrappings of blue and embroidered work, and in chests of rich clothing, bound with cords and made of cedar, among your merchandise. ",
+      "ct": "They traded with you in luxury goods: blue fabrics, embroidered work, and chests of fine clothing bound with cords and packed in cedar — all part of your merchandise."
+    },
+    {
+      "verse": 25,
+      "kjv": "The ships of Tarshish did sing of thee in thy market: and thou wast replenished, and made very glorious in the midst of the seas.",
+      "web": "“ ‘ “The ships of Tarshish were your caravans for your merchandise. You were replenished and made very glorious in the heart of the seas.",
+      "ct": "The great ships of Tarshish carried your goods across the seas. You were filled with wealth and made incredibly glorious in the heart of the oceans."
+    },
+    {
+      "verse": 26,
+      "kjv": "Thy rowers have brought thee into great waters: the east wind hath broken thee in the midst of the seas.",
+      "web": "Your rowers have brought you into great waters. The east wind has broken you in the heart of the seas.",
+      "ct": "Your rowers brought you out into deep waters, but the east wind has shattered you in the heart of the seas."
+    },
+    {
+      "verse": 27,
+      "kjv": "Thy riches, and thy fairs, thy merchandise, thy mariners, and thy pilots, thy calkers, and the occupiers of thy merchandise, and all thy men of war, that are in thee, and in all thy company which is in the midst of thee, shall fall into the midst of the seas in the day of thy ruin.",
+      "web": "Your riches, your wares, your merchandise, your mariners, your pilots, your repairers of ship seams, the dealers in your merchandise, and all your men of war, who are in you, with all your company which is among you, will fall into the heart of the seas in the day of your ruin.",
+      "ct": "On the day of your destruction, everything will plunge into the depths of the sea — your wealth, your goods, your merchandise, your sailors, your navigators, your shipbuilders, your traders, all your soldiers, and every person aboard. The entire crew will sink into the heart of the seas."
+    },
+    {
+      "verse": 28,
+      "kjv": "The suburbs shall shake at the sound of the cry of thy pilots.",
+      "web": "At the sound of the cry of your pilots, the pasture lands will shake.",
+      "ct": "The surrounding shores will tremble at the sound of your pilots screaming."
+    },
+    {
+      "verse": 29,
+      "kjv": "And all that handle the oar, the mariners, and all the pilots of the sea, shall come down from their ships, they shall stand upon the land;",
+      "web": "All who handle the oars, the mariners and all the pilots of the sea, will come down from their ships. They will stand on the land,",
+      "ct": "Every oarsman, every sailor, every navigator on the sea will abandon their ships and stand on the shore."
+    },
+    {
+      "verse": 30,
+      "kjv": "And shall cause their voice to be heard against thee, and shall cry bitterly, and shall cast up dust upon their heads, they shall wallow themselves in the ashes:",
+      "web": "and will cause their voice to be heard over you, and will cry bitterly. They will cast up dust on their heads. They will wallow in the ashes.",
+      "ct": "They will raise their voices and wail bitterly over you. They will throw dust on their heads and roll in ashes."
+    },
+    {
+      "verse": 31,
+      "kjv": "And they shall make themselves utterly bald for thee, and gird them with sackcloth, and they shall weep for thee with bitterness of heart and bitter wailing.",
+      "web": "They will make themselves bald for you, and clothe themselves with sackcloth. They will weep for you in bitterness of soul, with bitter mourning.",
+      "ct": "They will shave their heads in grief for you and put on sackcloth. They will weep over you with anguished hearts and bitter mourning."
+    },
+    {
+      "verse": 32,
+      "kjv": "And in their wailing they shall take up a lamentation for thee, and lament over thee, saying, What city is like Tyrus, like the destroyed in the midst of the sea?",
+      "web": "In their wailing they will take up a lamentation for you, and lament over you, saying, ‘Who is there like Tyre, like her who is brought to silence in the middle of the sea?’",
+      "ct": "In their wailing, they will sing a funeral song over you and cry out, 'What city was ever like Tyre, now silenced and destroyed in the middle of the sea?'"
+    },
+    {
+      "verse": 33,
+      "kjv": "When thy wares went forth out of the seas, thou filledst many people; thou didst enrich the kings of the earth with the multitude of thy riches and of thy merchandise.",
+      "web": "When your wares went out of the seas, you filled many peoples. You enriched the kings of the earth with the multitude of your riches and of your merchandise.",
+      "ct": "When your goods went out across the seas, you satisfied many nations. With your vast wealth and merchandise, you made the kings of the earth rich."
+    },
+    {
+      "verse": 34,
+      "kjv": "In the time when thou shalt be broken by the seas in the depths of the waters thy merchandise and all thy company in the midst of thee shall fall.",
+      "web": "In the time that you were broken by the seas, in the depths of the waters, your merchandise and all your company fell within you.",
+      "ct": "But now the seas have smashed you in the deep waters. Your merchandise and your entire crew have gone down with you."
+    },
+    {
+      "verse": 35,
+      "kjv": "All the inhabitants of the isles shall be astonished at thee, and their kings shall be sore afraid, they shall be troubled in their countenance.",
+      "web": "All the inhabitants of the islands are astonished at you, and their kings are horribly afraid. They are troubled in their face.",
+      "ct": "Everyone living on the coastlands is stunned by what happened to you. Their kings are horrified, their faces twisted with fear."
+    },
+    {
+      "verse": 36,
+      "kjv": "The merchants among the people shall hiss at thee; thou shalt be a terror, and never shalt be any more.",
+      "web": "The merchants among the peoples hiss at you. You have become a terror, and you will be no more.” ’ ”",
+      "ct": "Merchants among the nations gasp at you in shock. You have become a thing of horror, and you will be gone forever.\""
+    }
+  ]
+}

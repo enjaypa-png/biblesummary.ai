@@ -1,0 +1,305 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 20,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:31:19.518Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass in the seventh year, in the fifth month, the tenth day of the month, that certain of the elders of Israel came to enquire of the LORD, and sat before me.",
+      "web": "In the seventh year, in the fifth month, the tenth day of the month, some of the elders of Israel came to inquire of LORD, and sat before me.",
+      "ct": "On the 10th day of the 5th month, in the 7th year, some of the elders of Israel came to seek guidance from the LORD. They sat down in front of me."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then came the word of the LORD unto me, saying,",
+      "web": "LORD’s word came to me, saying,",
+      "ct": "Then the word of the LORD came to me:"
+    },
+    {
+      "verse": 3,
+      "kjv": "Son of man, speak unto the elders of Israel, and say unto them, Thus saith the Lord GOD; Are ye come to enquire of me? As I live, saith the Lord GOD, I will not be enquired of by you.",
+      "web": "“Son of man, speak to the elders of Israel, and tell them, ‘The Lord LORD says: “Is it to inquire of me that you have come? As I live,” says the Lord LORD, “I will not be inquired of by you.” ’",
+      "ct": "\"Son of man, speak to the elders of Israel and tell them, 'This is what the Lord GOD says: Have you come to seek guidance from me? As surely as I live,' declares the Lord GOD, 'I refuse to let you consult me.'\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Wilt thou judge them, son of man, wilt thou judge them? cause them to know the abominations of their fathers:",
+      "web": "“Will you judge them, son of man? Will you judge them? Cause them to know the abominations of their fathers.",
+      "ct": "\"Are you ready to judge them, son of man? Are you ready to judge them? Then confront them with the disgusting practices of their ancestors.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And say unto them, Thus saith the Lord GOD; In the day when I chose Israel, and lifted up mine hand unto the seed of the house of Jacob, and made myself known unto them in the land of Egypt, when I lifted up mine hand unto them, saying, I am the LORD your God;",
+      "web": "Tell them, ‘The Lord LORD says: “In the day when I chose Israel, and swore to the offspring of the house of Jacob, and made myself known to them in the land of Egypt, when I swore to them, saying, ‘I am LORD your God;’",
+      "ct": "\"Tell them, 'This is what the Lord GOD says: On the day I chose Israel, I made a solemn oath to the descendants of the house of Jacob. I revealed myself to them in the land of Egypt and swore to them, saying, I am the LORD your God."
+    },
+    {
+      "verse": 6,
+      "kjv": "In the day that I lifted up mine hand unto them, to bring them forth of the land of Egypt into a land that I had espied for them, flowing with milk and honey, which is the glory of all lands:",
+      "web": "in that day I swore to them, to bring them out of the land of Egypt into a land that I had searched out for them, flowing with milk and honey, which is the glory of all lands.",
+      "ct": "On that day I swore to bring them out of Egypt and into a land I had searched out for them — a land flowing with milk and honey, the most beautiful of all lands."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then said I unto them, Cast ye away every man the abominations of his eyes, and defile not yourselves with the idols of Egypt: I am the LORD your God.",
+      "web": "I said to them, ‘Each of you throw away the abominations of his eyes. Don’t defile yourselves with the idols of Egypt. I am LORD your God.’",
+      "ct": "I told them: Each of you must throw away the disgusting idols you've set your eyes on. Don't defile yourselves with the idols of Egypt. I am the LORD your God."
+    },
+    {
+      "verse": 8,
+      "kjv": "But they rebelled against me, and would not hearken unto me: they did not every man cast away the abominations of their eyes, neither did they forsake the idols of Egypt: then I said, I will pour out my fury upon them, to accomplish my anger against them in the midst of the land of Egypt.",
+      "web": "“ ‘ “But they rebelled against me, and would not listen to me. They didn’t all throw away the abominations of their eyes. They also didn’t forsake the idols of Egypt. Then I said I would pour out my wrath on them, to accomplish my anger against them in the middle of the land of Egypt.",
+      "ct": "But they rebelled against me and refused to listen. Not one of them threw away their disgusting idols, and they didn't abandon the idols of Egypt. So I said I would pour out my fury on them and unleash my full anger against them right there in Egypt."
+    },
+    {
+      "verse": 9,
+      "kjv": "But I wrought for my name’s sake, that it should not be polluted before the heathen, among whom they were, in whose sight I made myself known unto them, in bringing them forth out of the land of Egypt.",
+      "web": "But I worked for my name’s sake, that it should not be profaned in the sight of the nations, among which they were, in whose sight I made myself known to them, in bringing them out of the land of Egypt.",
+      "ct": "But I held back for the sake of my name, so it wouldn't be dishonored among the nations where they lived — the very nations who watched me reveal myself to Israel by bringing them out of Egypt."
+    },
+    {
+      "verse": 10,
+      "kjv": "Wherefore I caused them to go forth out of the land of Egypt, and brought them into the wilderness.",
+      "web": "So I caused them to go out of the land of Egypt, and brought them into the wilderness.",
+      "ct": "So I brought them out of Egypt and led them into the wilderness."
+    },
+    {
+      "verse": 11,
+      "kjv": "And I gave them my statutes, and shewed them my judgments, which if a man do, he shall even live in them.",
+      "web": "I gave them my statutes, and showed them my ordinances, which if a man does, he will live in them.",
+      "ct": "I gave them my laws and revealed my rules to them — the commands that give life to anyone who obeys them."
+    },
+    {
+      "verse": 12,
+      "kjv": "Moreover also I gave them my sabbaths, to be a sign between me and them, that they might know that I am the LORD that sanctify them.",
+      "web": "Moreover also I gave them my Sabbaths, to be a sign between me and them, that they might know that I am LORD who sanctifies them.",
+      "ct": "I also gave them my Sabbaths as a sign between me and them, so they would know that I am the LORD who makes them holy."
+    },
+    {
+      "verse": 13,
+      "kjv": "But the house of Israel rebelled against me in the wilderness: they walked not in my statutes, and they despised my judgments, which if a man do, he shall even live in them; and my sabbaths they greatly polluted: then I said, I would pour out my fury upon them in the wilderness, to consume them.",
+      "web": "“ ‘ “But the house of Israel rebelled against me in the wilderness. They didn’t walk in my statutes, and they rejected my ordinances, which if a man keeps, he shall live in them. They greatly profaned my Sabbaths. Then I said I would pour out my wrath on them in the wilderness, to consume them.",
+      "ct": "But the house of Israel rebelled against me in the wilderness. They didn't follow my laws, they rejected my rules — the very commands that give life to anyone who obeys them — and they completely violated my Sabbaths. So I said I would pour out my fury on them in the wilderness and destroy them."
+    },
+    {
+      "verse": 14,
+      "kjv": "But I wrought for my name’s sake, that it should not be polluted before the heathen, in whose sight I brought them out.",
+      "web": "But I worked for my name’s sake, that it should not be profaned in the sight of the nations, in whose sight I brought them out.",
+      "ct": "But again I held back for the sake of my name, so it wouldn't be dishonored among the nations who had watched me bring Israel out of Egypt."
+    },
+    {
+      "verse": 15,
+      "kjv": "Yet also I lifted up my hand unto them in the wilderness, that I would not bring them into the land which I had given them, flowing with milk and honey, which is the glory of all lands;",
+      "web": "Moreover also I swore to them in the wilderness, that I would not bring them into the land which I had given them, flowing with milk and honey, which is the glory of all lands;",
+      "ct": "Yet I also swore to them in the wilderness that I would not bring them into the land I had given them — that land flowing with milk and honey, the most beautiful of all lands."
+    },
+    {
+      "verse": 16,
+      "kjv": "Because they despised my judgments, and walked not in my statutes, but polluted my sabbaths: for their heart went after their idols.",
+      "web": "because they rejected my ordinances, and didn’t walk in my statutes, and profaned my Sabbaths; for their heart went after their idols.",
+      "ct": "This was because they rejected my rules, refused to follow my laws, and violated my Sabbaths — their hearts were chasing after their idols."
+    },
+    {
+      "verse": 17,
+      "kjv": "Nevertheless mine eye spared them from destroying them, neither did I make an end of them in the wilderness.",
+      "web": "Nevertheless my eye spared them, and I didn’t destroy them. I didn’t make a full end of them in the wilderness.",
+      "ct": "Even so, I looked on them with compassion and didn't destroy them. I didn't wipe them out completely in the wilderness."
+    },
+    {
+      "verse": 18,
+      "kjv": "But I said unto their children in the wilderness, Walk ye not in the statutes of your fathers, neither observe their judgments, nor defile yourselves with their idols:",
+      "web": "I said to their children in the wilderness, ‘Don’t walk in the statutes of your fathers. Don’t observe their ordinances or defile yourselves with their idols.",
+      "ct": "Instead, I spoke to their children in the wilderness and said: Don't follow the practices of your parents. Don't observe their rules or defile yourselves with their idols."
+    },
+    {
+      "verse": 19,
+      "kjv": "I am the LORD your God; walk in my statutes, and keep my judgments, and do them;",
+      "web": "I am LORD your God. Walk in my statutes, keep my ordinances, and do them.",
+      "ct": "I am the LORD your God. Follow my laws, keep my rules, and obey them."
+    },
+    {
+      "verse": 20,
+      "kjv": "And hallow my sabbaths; and they shall be a sign between me and you, that ye may know that I am the LORD your God.",
+      "web": "Make my Sabbaths holy. They shall be a sign between me and you, that you may know that I am LORD your God.’",
+      "ct": "Keep my Sabbaths holy. They will be a sign between me and you, so you will know that I am the LORD your God."
+    },
+    {
+      "verse": 21,
+      "kjv": "Notwithstanding the children rebelled against me: they walked not in my statutes, neither kept my judgments to do them, which if a man do, he shall even live in them; they polluted my sabbaths: then I said, I would pour out my fury upon them, to accomplish my anger against them in the wilderness.",
+      "web": "“ ‘ “But the children rebelled against me. They didn’t walk in my statutes, and didn’t keep my ordinances to do them, which if a man does, he shall live in them. They profaned my Sabbaths. Then I said I would pour out my wrath on them, to accomplish my anger against them in the wilderness.",
+      "ct": "But even the children rebelled against me. They didn't follow my laws or carefully obey my rules — the commands that give life to anyone who obeys them — and they violated my Sabbaths. So I said I would pour out my fury on them and unleash my full anger against them in the wilderness."
+    },
+    {
+      "verse": 22,
+      "kjv": "Nevertheless I withdrew mine hand, and wrought for my name’s sake, that it should not be polluted in the sight of the heathen, in whose sight I brought them forth.",
+      "web": "Nevertheless I withdrew my hand, and worked for my name’s sake, that it should not be profaned in the sight of the nations, in whose sight I brought them out.",
+      "ct": "But I pulled back my hand and held back for the sake of my name, so it wouldn't be dishonored among the nations who had watched me bring them out."
+    },
+    {
+      "verse": 23,
+      "kjv": "I lifted up mine hand unto them also in the wilderness, that I would scatter them among the heathen, and disperse them through the countries;",
+      "web": "Moreover I swore to them in the wilderness, that I would scatter them among the nations, and disperse them through the countries;",
+      "ct": "I also swore to them in the wilderness that I would scatter them among the nations and disperse them across foreign lands,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Because they had not executed my judgments, but had despised my statutes, and had polluted my sabbaths, and their eyes were after their fathers’ idols.",
+      "web": "because they had not executed my ordinances, but had rejected my statutes, and had profaned my Sabbaths, and their eyes were after their fathers’ idols.",
+      "ct": "because they didn't obey my rules, they rejected my laws, they violated my Sabbaths, and their eyes kept turning to their fathers' idols."
+    },
+    {
+      "verse": 25,
+      "kjv": "Wherefore I gave them also statutes that were not good, and judgments whereby they should not live;",
+      "web": "Moreover also I gave them statutes that were not good, and ordinances in which they should not live.",
+      "ct": "So I also gave them over to laws that were not good and rules that could not give them life."
+    },
+    {
+      "verse": 26,
+      "kjv": "And I polluted them in their own gifts, in that they caused to pass through the fire all that openeth the womb, that I might make them desolate, to the end that they might know that I am the LORD.",
+      "web": "I polluted them in their own gifts, in that they caused all that opens the womb to pass through the fire, that I might make them desolate, to the end that they might know that I am LORD.” ’",
+      "ct": "I let them defile themselves through their own offerings — sacrificing every firstborn child in the fire — so that I might devastate them and make them realize that I am the LORD.'\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Therefore, son of man, speak unto the house of Israel, and say unto them, Thus saith the Lord GOD; Yet in this your fathers have blasphemed me, in that they have committed a trespass against me.",
+      "web": "“Therefore, son of man, speak to the house of Israel, and tell them, ‘The Lord LORD says: “Moreover, in this your fathers have blasphemed me, in that they have committed a trespass against me.",
+      "ct": "\"Therefore, son of man, speak to the house of Israel and tell them, 'This is what the Lord GOD says: Your ancestors insulted me even further by being unfaithful to me in yet another way."
+    },
+    {
+      "verse": 28,
+      "kjv": "For when I had brought them into the land, for the which I lifted up mine hand to give it to them, then they saw every high hill, and all the thick trees, and they offered there their sacrifices, and there they presented the provocation of their offering: there also they made their sweet savour, and poured out there their drink offerings.",
+      "web": "For when I had brought them into the land which I swore to give to them, then they saw every high hill, and every thick tree, and they offered there their sacrifices, and there they presented the provocation of their offering. There they also made their pleasant aroma, and there they poured out their drink offerings.",
+      "ct": "When I brought them into the land I had sworn to give them, they looked at every high hill and every leafy tree and set up their sacrifices there. They presented their offensive offerings there, burned their pleasing aromas, and poured out their drink offerings."
+    },
+    {
+      "verse": 29,
+      "kjv": "Then I said unto them, What is the high place whereunto ye go? And the name thereof is called Bamah unto this day.",
+      "web": "Then I said to them, ‘What does the high place where you go mean?’ So its name is called Bamah to this day.” ’",
+      "ct": "I asked them: What is this high place you keep going to? And so it has been called Bamah to this day.'\""
+    },
+    {
+      "verse": 30,
+      "kjv": "Wherefore say unto the house of Israel, Thus saith the Lord GOD; Are ye polluted after the manner of your fathers? and commit ye whoredom after their abominations?",
+      "web": "“Therefore tell the house of Israel, ‘The Lord LORD says: “Do you pollute yourselves in the way of your fathers? Do you play the prostitute after their abominations?",
+      "ct": "\"So tell the house of Israel, 'This is what the Lord GOD says: Are you going to defile yourselves the same way your ancestors did? Are you going to chase after their disgusting practices like a prostitute?"
+    },
+    {
+      "verse": 31,
+      "kjv": "For when ye offer your gifts, when ye make your sons to pass through the fire, ye pollute yourselves with all your idols, even unto this day: and shall I be enquired of by you, O house of Israel? As I live, saith the Lord GOD, I will not be enquired of by you.",
+      "web": "When you offer your gifts, when you make your sons pass through the fire, do you pollute yourselves with all your idols to this day? Should I be inquired of by you, house of Israel? As I live, says the Lord LORD, I will not be inquired of by you!",
+      "ct": "When you present your offerings and sacrifice your sons in the fire, you defile yourselves with all your idols to this very day. And you think I should let you consult me, house of Israel? As surely as I live,' declares the Lord GOD, 'I will not let you consult me!"
+    },
+    {
+      "verse": 32,
+      "kjv": "And that which cometh into your mind shall not be at all, that ye say, We will be as the heathen, as the families of the countries, to serve wood and stone.",
+      "web": "“ ‘ “That which comes into your mind will not be at all, in that you say, ‘We will be as the nations, as the families of the countries, to serve wood and stone.’",
+      "ct": "What you have in mind will never happen. You say, We want to be like the other nations, like the peoples of other countries, worshiping gods of wood and stone."
+    },
+    {
+      "verse": 33,
+      "kjv": "As I live, saith the Lord GOD, surely with a mighty hand, and with a stretched out arm, and with fury poured out, will I rule over you:",
+      "web": "As I live, says the Lord LORD, surely with a mighty hand, with an outstretched arm, and with wrath poured out, I will be king over you.",
+      "ct": "As surely as I live,' declares the Lord GOD, 'I will rule over you with a mighty hand, an outstretched arm, and fury poured out."
+    },
+    {
+      "verse": 34,
+      "kjv": "And I will bring you out from the people, and will gather you out of the countries wherein ye are scattered, with a mighty hand, and with a stretched out arm, and with fury poured out.",
+      "web": "I will bring you out from the peoples, and will gather you out of the countries in which you are scattered with a mighty hand, with an outstretched arm, and with wrath poured out.",
+      "ct": "I will bring you out from the nations and gather you from the countries where you've been scattered — with a mighty hand, an outstretched arm, and fury poured out."
+    },
+    {
+      "verse": 35,
+      "kjv": "And I will bring you into the wilderness of the people, and there will I plead with you face to face.",
+      "web": "I will bring you into the wilderness of the peoples, and there I will enter into judgment with you face to face.",
+      "ct": "I will bring you into the wilderness of the nations, and there I will judge you face to face."
+    },
+    {
+      "verse": 36,
+      "kjv": "Like as I pleaded with your fathers in the wilderness of the land of Egypt, so will I plead with you, saith the Lord GOD.",
+      "web": "Just as I entered into judgment with your fathers in the wilderness of the land of Egypt, so I will enter into judgment with you,” says the Lord LORD.",
+      "ct": "Just as I judged your ancestors in the wilderness near Egypt, so I will judge you,' declares the Lord GOD."
+    },
+    {
+      "verse": 37,
+      "kjv": "And I will cause you to pass under the rod, and I will bring you into the bond of the covenant:",
+      "web": "“I will cause you to pass under the rod, and I will bring you into the bond of the covenant.",
+      "ct": "'I will make you pass under the shepherd's rod and bring you into the bond of the covenant."
+    },
+    {
+      "verse": 38,
+      "kjv": "And I will purge out from among you the rebels, and them that transgress against me: I will bring them forth out of the country where they sojourn, and they shall not enter into the land of Israel: and ye shall know that I am the LORD.",
+      "web": "I will purge out from among you the rebels and those who disobey me. I will bring them out of the land where they live, but they shall not enter into the land of Israel. Then you will know that I am LORD.”",
+      "ct": "I will purge out the rebels and those who sin against me from among you. I will bring them out of the lands where they've been living, but they will never set foot in the land of Israel. Then you will know that I am the LORD.'"
+    },
+    {
+      "verse": 39,
+      "kjv": "As for you, O house of Israel, thus saith the Lord GOD; Go ye, serve ye every one his idols, and hereafter also, if ye will not hearken unto me: but pollute ye my holy name no more with your gifts, and with your idols.",
+      "web": "“ ‘As for you, house of Israel, the Lord LORD says: “Go, everyone serve his idols, and hereafter also, if you will not listen to me; but you shall no more profane my holy name with your gifts and with your idols.",
+      "ct": "\"As for you, house of Israel, this is what the Lord GOD says: 'Go ahead — every one of you, keep serving your idols! Go on doing it, if you won't listen to me. But you will no longer dishonor my holy name with your gifts and your idols."
+    },
+    {
+      "verse": 40,
+      "kjv": "For in mine holy mountain, in the mountain of the height of Israel, saith the Lord GOD, there shall all the house of Israel, all of them in the land, serve me: there will I accept them, and there will I require your offerings, and the firstfruits of your oblations, with all your holy things.",
+      "web": "For in my holy mountain, in the mountain of the height of Israel,” says the Lord LORD, “there all the house of Israel, all of them, shall serve me in the land. There I will accept them, and there I will require your offerings and the first fruits of your offerings, with all your holy things.",
+      "ct": "For on my holy mountain, the high mountain of Israel,' declares the Lord GOD, 'the entire house of Israel — every last one of them — will serve me in the land. There I will accept them. There I will require your offerings and the best of your gifts, along with all your holy contributions."
+    },
+    {
+      "verse": 41,
+      "kjv": "I will accept you with your sweet savour, when I bring you out from the people, and gather you out of the countries wherein ye have been scattered; and I will be sanctified in you before the heathen.",
+      "web": "I will accept you as a pleasant aroma when I bring you out from the peoples and gather you out of the countries in which you have been scattered. I will be sanctified in you in the sight of the nations.",
+      "ct": "I will accept you like a pleasing aroma when I bring you out from the nations and gather you from the countries where you've been scattered. Through you, I will demonstrate my holiness in the sight of the nations."
+    },
+    {
+      "verse": 42,
+      "kjv": "And ye shall know that I am the LORD, when I shall bring you into the land of Israel, into the country for the which I lifted up mine hand to give it to your fathers.",
+      "web": "You will know that I am LORD when I bring you into the land of Israel, into the country which I swore to give to your fathers.",
+      "ct": "You will know that I am the LORD when I bring you into the land of Israel — the country I swore to give your ancestors."
+    },
+    {
+      "verse": 43,
+      "kjv": "And there shall ye remember your ways, and all your doings, wherein ye have been defiled; and ye shall lothe yourselves in your own sight for all your evils that ye have committed.",
+      "web": "There you will remember your ways, and all your deeds in which you have polluted yourselves. Then you will loathe yourselves in your own sight for all your evils that you have committed.",
+      "ct": "There you will remember everything you did and all the ways you defiled yourselves. You will be disgusted with yourselves because of all the evil you committed."
+    },
+    {
+      "verse": 44,
+      "kjv": "And ye shall know that I am the LORD, when I have wrought with you for my name’s sake, not according to your wicked ways, nor according to your corrupt doings, O ye house of Israel, saith the Lord GOD.",
+      "web": "You will know that I am LORD, when I have dealt with you for my name’s sake, not according to your evil ways, nor according to your corrupt doings, you house of Israel,” says the Lord LORD.’ ”",
+      "ct": "Then you will know that I am the LORD, because I will have dealt with you for the sake of my name — not according to your wicked ways or your corrupt actions, house of Israel,' declares the Lord GOD.\""
+    },
+    {
+      "verse": 45,
+      "kjv": "Moreover the word of the LORD came unto me, saying,",
+      "web": "LORD’s word came to me, saying,",
+      "ct": "The word of the LORD came to me again:"
+    },
+    {
+      "verse": 46,
+      "kjv": "Son of man, set thy face toward the south, and drop thy word toward the south, and prophesy against the forest of the south field;",
+      "web": "“Son of man, set your face toward the south, and preach toward the south, and prophesy against the forest of the field in the South.",
+      "ct": "\"Son of man, turn and face the south. Preach against the south and prophesy against the forest in the southern land."
+    },
+    {
+      "verse": 47,
+      "kjv": "And say to the forest of the south, Hear the word of the LORD; Thus saith the Lord GOD; Behold, I will kindle a fire in thee, and it shall devour every green tree in thee, and every dry tree: the flaming flame shall not be quenched, and all faces from the south to the north shall be burned therein.",
+      "web": "Tell the forest of the South, ‘Hear LORD’s word: The Lord LORD says, “Behold, I will kindle a fire in you, and it will devour every green tree in you, and every dry tree. The burning flame will not be quenched, and all faces from the south to the north will be burned by it.",
+      "ct": "Tell the southern forest, 'Hear the word of the LORD! This is what the Lord GOD says: I am about to set a fire in you that will devour every tree — both green and dry. The blazing flames will not be put out, and every face from south to north will be scorched by it."
+    },
+    {
+      "verse": 48,
+      "kjv": "And all flesh shall see that I the LORD have kindled it: it shall not be quenched.",
+      "web": "All flesh will see that I, LORD, have kindled it. It will not be quenched.” ’ ”",
+      "ct": "Everyone will see that I, the LORD, have set it ablaze. It will not be put out.'\""
+    },
+    {
+      "verse": 49,
+      "kjv": "Then said I, Ah Lord GOD! they say of me, Doth he not speak parables?",
+      "web": "Then I said, “Ah Lord LORD! They say of me, ‘Isn’t he a speaker of parables?’ ”",
+      "ct": "Then I said, \"Oh, Lord GOD! The people are saying about me, 'All he does is speak in riddles!'\""
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 25,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:33:42.714Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word of the LORD came again unto me, saying,",
+      "web": "LORD’s word came to me, saying,",
+      "ct": "The word of the LORD came to me:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Son of man, set thy face against the Ammonites, and prophesy against them;",
+      "web": "“Son of man, set your face toward the children of Ammon, and prophesy against them.",
+      "ct": "\"Son of man, turn your face toward the Ammonites and prophesy against them."
+    },
+    {
+      "verse": 3,
+      "kjv": "And say unto the Ammonites, Hear the word of the Lord GOD; Thus saith the Lord GOD; Because thou saidst, Aha, against my sanctuary, when it was profaned; and against the land of Israel, when it was desolate; and against the house of Judah, when they went into captivity;",
+      "web": "Tell the children of Ammon, ‘Hear the word of the Lord LORD! The Lord LORD says, “Because you said, ‘Aha!’ against my sanctuary, when it was profaned; and against the land of Israel, when it was made desolate; and against the house of Judah, when they went into captivity:",
+      "ct": "Say to the Ammonites, 'Listen to the word of the Lord GOD! This is what the Lord GOD says: You laughed and said \"Aha!\" when my sanctuary was desecrated. You mocked the land of Israel when it was laid waste. You gloated over the people of Judah when they were dragged off into captivity."
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, therefore I will deliver thee to the men of the east for a possession, and they shall set their palaces in thee, and make their dwellings in thee: they shall eat thy fruit, and they shall drink thy milk.",
+      "web": "therefore, behold, I will deliver you to the children of the east for a possession. They will set their encampments in you, and make their dwellings in you. They will eat your fruit and they will drink your milk.",
+      "ct": "Because of this, I am handing you over to the people of the east. They will take possession of your land, set up their camps among you, and make their homes in your territory. They will eat your crops and drink your milk."
+    },
+    {
+      "verse": 5,
+      "kjv": "And I will make Rabbah a stable for camels, and the Ammonites a couching place for flocks: and ye shall know that I am the LORD.",
+      "web": "I will make Rabbah a stable for camels, and the children of Ammon a resting place for flocks. Then you will know that I am LORD.”",
+      "ct": "I will turn Rabbah into a pasture for camels and the rest of Ammon into a resting place for flocks. Then you will know that I am the LORD.'"
+    },
+    {
+      "verse": 6,
+      "kjv": "For thus saith the Lord GOD; Because thou hast clapped thine hands, and stamped with the feet, and rejoiced in heart with all thy despite against the land of Israel;",
+      "web": "For the Lord LORD says: “Because you have clapped your hands, stamped with the feet, and rejoiced with all the contempt of your soul against the land of Israel;",
+      "ct": "This is what the Lord GOD says: 'Because you clapped your hands, stomped your feet, and celebrated with utter contempt over what happened to the land of Israel—"
+    },
+    {
+      "verse": 7,
+      "kjv": "Behold, therefore I will stretch out mine hand upon thee, and will deliver thee for a spoil to the heathen; and I will cut thee off from the people, and I will cause thee to perish out of the countries: I will destroy thee; and thou shalt know that I am the LORD.",
+      "web": "therefore, behold, I have stretched out my hand on you, and will deliver you for a plunder to the nations. I will cut you off from the peoples, and I will cause you to perish out of the countries. I will destroy you. Then you will know that I am LORD.”",
+      "ct": "I am raising my hand against you. I will hand you over as plunder to other nations. I will cut you off from the peoples of the earth and wipe you out from every country. I will destroy you completely. Then you will know that I am the LORD.'"
+    },
+    {
+      "verse": 8,
+      "kjv": "Thus saith the Lord GOD; Because that Moab and Seir do say, Behold, the house of Judah is like unto all the heathen;",
+      "web": "“ ‘The Lord LORD says: “Because Moab and Seir say, ‘Behold, the house of Judah is like all the nations;’",
+      "ct": "This is what the Lord GOD says: 'Moab and Seir have said, \"Look—the people of Judah are no different from any other nation.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Therefore, behold, I will open the side of Moab from the cities, from his cities which are on his frontiers, the glory of the country, Bethjeshimoth, Baalmeon, and Kiriathaim,",
+      "web": "therefore, behold, I will open the side of Moab from the cities, from his cities which are on his frontiers, the glory of the country, Beth Jeshimoth, Baal Meon, and Kiriathaim,",
+      "ct": "Because of that, I will strip open Moab's border defenses, starting with its finest frontier cities—Beth Jeshimoth, Baal Meon, and Kiriathaim, the pride of the country."
+    },
+    {
+      "verse": 10,
+      "kjv": "Unto the men of the east with the Ammonites, and will give them in possession, that the Ammonites may not be remembered among the nations.",
+      "web": "to the children of the east, to go against the children of Ammon; and I will give them for a possession, that the children of Ammon may not be remembered among the nations.",
+      "ct": "I will hand these over to the people of the east, along with the land of the Ammonites, so that the Ammonites will be forgotten among the nations."
+    },
+    {
+      "verse": 11,
+      "kjv": "And I will execute judgments upon Moab; and they shall know that I am the LORD.",
+      "web": "I will execute judgments on Moab. Then they will know that I am LORD.”",
+      "ct": "I will carry out judgment against Moab, and they will know that I am the LORD.'"
+    },
+    {
+      "verse": 12,
+      "kjv": "Thus saith the Lord GOD; Because that Edom hath dealt against the house of Judah by taking vengeance, and hath greatly offended, and revenged himself upon them;",
+      "web": "“ ‘The Lord LORD says: “Because Edom has dealt against the house of Judah by taking vengeance, and has greatly offended, and taken revenge on them;”",
+      "ct": "This is what the Lord GOD says: 'Edom took bitter revenge against the people of Judah. They committed a terrible offense by retaliating against them."
+    },
+    {
+      "verse": 13,
+      "kjv": "Therefore thus saith the Lord GOD; I will also stretch out mine hand upon Edom, and will cut off man and beast from it; and I will make it desolate from Teman; and they of Dedan shall fall by the sword.",
+      "web": "therefore the Lord LORD says, “I will stretch out my hand on Edom, and will cut off man and animal from it; and I will make it desolate from Teman. They will fall by the sword even to Dedan.",
+      "ct": "Therefore,' says the Lord GOD, 'I will raise my hand against Edom and wipe out every person and animal in it. I will turn it into a wasteland from Teman all the way to Dedan, and its people will fall by the sword."
+    },
+    {
+      "verse": 14,
+      "kjv": "And I will lay my vengeance upon Edom by the hand of my people Israel: and they shall do in Edom according to mine anger and according to my fury; and they shall know my vengeance, saith the Lord GOD.",
+      "web": "I will lay my vengeance on Edom by the hand of my people Israel. They will do in Edom according to my anger and according to my wrath. Then they will know my vengeance,” says the Lord LORD.",
+      "ct": "I will carry out my vengeance against Edom through my people Israel. They will deal with Edom according to my fierce anger and burning fury. Then Edom will experience my vengeance firsthand,' declares the Lord GOD."
+    },
+    {
+      "verse": 15,
+      "kjv": "Thus saith the Lord GOD; Because the Philistines have dealt by revenge, and have taken vengeance with a despiteful heart, to destroy it for the old hatred;",
+      "web": "“ ‘The Lord LORD says: “Because the Philistines have taken revenge, and have taken vengeance with contempt of soul to destroy with perpetual hostility;”",
+      "ct": "This is what the Lord GOD says: 'The Philistines acted out of spite and took revenge with deep-seated hatred, trying to destroy Judah because of an ancient grudge."
+    },
+    {
+      "verse": 16,
+      "kjv": "Therefore thus saith the Lord GOD; Behold, I will stretch out mine hand upon the Philistines, and I will cut off the Cherethims, and destroy the remnant of the sea coast.",
+      "web": "therefore the Lord LORD says, “Behold, I will stretch out my hand on the Philistines, and I will cut off the Cherethites, and destroy the remnant of the sea coast.",
+      "ct": "Therefore,' says the Lord GOD, 'I am raising my hand against the Philistines. I will wipe out the Cherethites and destroy everyone left along the coast."
+    },
+    {
+      "verse": 17,
+      "kjv": "And I will execute great vengeance upon them with furious rebukes; and they shall know that I am the LORD, when I shall lay my vengeance upon them.",
+      "web": "I will execute great vengeance on them with wrathful rebukes. Then they will know that I am LORD, when I lay my vengeance on them.” ’ ”",
+      "ct": "I will unleash devastating vengeance on them with fierce punishment. Then they will know that I am the LORD, when I pour out my vengeance on them.'\""
+    }
+  ]
+}

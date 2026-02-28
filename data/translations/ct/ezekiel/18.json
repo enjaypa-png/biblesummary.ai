@@ -1,0 +1,203 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 18,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:30:26.212Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word of the LORD came unto me again, saying,",
+      "web": "LORD’s word came to me again, saying,",
+      "ct": "The word of the LORD came to me again:"
+    },
+    {
+      "verse": 2,
+      "kjv": "What mean ye, that ye use this proverb concerning the land of Israel, saying, The fathers have eaten sour grapes, and the children’s teeth are set on edge?",
+      "web": "“What do you mean, that you use this proverb concerning the land of Israel, saying, ‘The fathers have eaten sour grapes, and the children’s teeth are set on edge’?",
+      "ct": "\"Why do you keep repeating this proverb about the land of Israel: 'The fathers ate sour grapes, and the children's teeth are set on edge'?"
+    },
+    {
+      "verse": 3,
+      "kjv": "As I live, saith the Lord GOD, ye shall not have occasion any more to use this proverb in Israel.",
+      "web": "“As I live,” says the Lord LORD, “you shall not use this proverb any more in Israel.",
+      "ct": "\"As surely as I live,\" declares the Lord GOD, \"you will never use this proverb in Israel again."
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, all souls are mine; as the soul of the father, so also the soul of the son is mine: the soul that sinneth, it shall die.",
+      "web": "Behold, all souls are mine; as the soul of the father, so also the soul of the son is mine. The soul who sins, he shall die. ",
+      "ct": "Every soul belongs to me — the father's soul and the son's soul alike are mine. The soul that sins is the one that will die."
+    },
+    {
+      "verse": 5,
+      "kjv": "But if a man be just, and do that which is lawful and right,",
+      "web": "“But if a man is just, and does that which is lawful and right,",
+      "ct": "\"Now suppose a man is righteous and does what is lawful and right."
+    },
+    {
+      "verse": 6,
+      "kjv": "And hath not eaten upon the mountains, neither hath lifted up his eyes to the idols of the house of Israel, neither hath defiled his neighbour’s wife, neither hath come near to a menstruous woman,",
+      "web": "and has not eaten on the mountains, hasn’t lifted up his eyes to the idols of the house of Israel, hasn’t defiled his neighbor’s wife, hasn’t come near a woman in her impurity,",
+      "ct": "He hasn't eaten at the mountain shrines or looked to the idols of Israel for help. He hasn't slept with his neighbor's wife or with a woman during her period."
+    },
+    {
+      "verse": 7,
+      "kjv": "And hath not oppressed any, but hath restored to the debtor his pledge, hath spoiled none by violence, hath given his bread to the hungry, and hath covered the naked with a garment;",
+      "web": "and has not wronged any, but has restored to the debtor his pledge, has taken nothing by robbery, has given his bread to the hungry, and has covered the naked with a garment;",
+      "ct": "He hasn't oppressed anyone. He returns what a borrower puts up as collateral. He doesn't rob people. He gives food to the hungry and clothing to those who have none."
+    },
+    {
+      "verse": 8,
+      "kjv": "He that hath not given forth upon usury, neither hath taken any increase, that hath withdrawn his hand from iniquity, hath executed true judgment between man and man,",
+      "web": "he who hasn’t lent to them with interest, hasn’t taken any increase from them, who has withdrawn his hand from iniquity, has executed true justice between man and man,",
+      "ct": "He doesn't lend money at interest or demand extra in return. He keeps his hands clean of wrongdoing and judges fairly between people."
+    },
+    {
+      "verse": 9,
+      "kjv": "Hath walked in my statutes, and hath kept my judgments, to deal truly; he is just, he shall surely live, saith the Lord GOD.",
+      "web": "has walked in my statutes, and has kept my ordinances, to deal truly; he is just, he shall surely live,” says the Lord LORD.",
+      "ct": "He follows my statutes and carefully obeys my laws, dealing honestly in everything. That man is righteous — he will certainly live,\" declares the Lord GOD."
+    },
+    {
+      "verse": 10,
+      "kjv": "If he beget a son that is a robber, a shedder of blood, and that doeth the like to any one of these things,",
+      "web": "“If he fathers a son who is a robber who sheds blood, and who does any one of these things,",
+      "ct": "\"But suppose that man has a son who becomes a violent criminal, a murderer who does any of these things:"
+    },
+    {
+      "verse": 11,
+      "kjv": "And that doeth not any of those duties, but even hath eaten upon the mountains, and defiled his neighbour’s wife,",
+      "web": "or who does not do any of those things, but even has eaten at the mountain shrines, and defiled his neighbor’s wife,",
+      "ct": "He does none of the good things his father did. Instead, he eats at the mountain shrines and sleeps with his neighbor's wife."
+    },
+    {
+      "verse": 12,
+      "kjv": "Hath oppressed the poor and needy, hath spoiled by violence, hath not restored the pledge, and hath lifted up his eyes to the idols, hath committed abomination,",
+      "web": "has wronged the poor and needy, has taken by robbery, has not restored the pledge, and has lifted up his eyes to the idols, has committed abomination,",
+      "ct": "He oppresses the poor and needy, takes things by force, refuses to return collateral, worships idols, and commits disgusting acts."
+    },
+    {
+      "verse": 13,
+      "kjv": "Hath given forth upon usury, and hath taken increase: shall he then live? he shall not live: he hath done all these abominations; he shall surely die; his blood shall be upon him.",
+      "web": "has lent with interest, and has taken increase from the poor; shall he then live? He shall not live. He has done all these abominations. He shall surely die. His blood will be on him.",
+      "ct": "He lends money at interest and demands extra from the poor. Should such a man live? Absolutely not. He has done all these terrible things — he will certainly die, and his death will be his own fault."
+    },
+    {
+      "verse": 14,
+      "kjv": "Now, lo, if he beget a son, that seeth all his father’s sins which he hath done, and considereth, and doeth not such like,",
+      "web": "“Now, behold, if he fathers a son, who sees all his father’s sins, which he has done, and fears, and does not such like; ",
+      "ct": "\"Now suppose that violent man has a son who sees all the sins his father committed, thinks carefully about them, and chooses not to follow his example."
+    },
+    {
+      "verse": 15,
+      "kjv": "That hath not eaten upon the mountains, neither hath lifted up his eyes to the idols of the house of Israel, hath not defiled his neighbour’s wife,",
+      "web": "who hasn’t eaten on the mountains, hasn’t lifted up his eyes to the idols of the house of Israel, hasn’t defiled his neighbor’s wife,",
+      "ct": "He doesn't eat at the mountain shrines or look to the idols of Israel. He doesn't sleep with his neighbor's wife."
+    },
+    {
+      "verse": 16,
+      "kjv": "Neither hath oppressed any, hath not withholden the pledge, neither hath spoiled by violence, but hath given his bread to the hungry, and hath covered the naked with a garment,",
+      "web": "hasn’t wronged any, hasn’t taken anything to pledge, hasn’t taken by robbery, but has given his bread to the hungry, and has covered the naked with a garment;",
+      "ct": "He doesn't oppress anyone, doesn't hold on to collateral, and doesn't rob people. Instead, he gives food to the hungry and clothing to those who have none."
+    },
+    {
+      "verse": 17,
+      "kjv": "That hath taken off his hand from the poor, that hath not received usury nor increase, hath executed my judgments, hath walked in my statutes; he shall not die for the iniquity of his father, he shall surely live.",
+      "web": "who has withdrawn his hand from the poor, who hasn’t received interest or increase, has executed my ordinances, has walked in my statutes; he shall not die for the iniquity of his father. He shall surely live.",
+      "ct": "He keeps his hands off the poor, doesn't charge interest or demand extra in return, obeys my laws, and follows my statutes. This son will not die for his father's sin — he will certainly live."
+    },
+    {
+      "verse": 18,
+      "kjv": "As for his father, because he cruelly oppressed, spoiled his brother by violence, and did that which is not good among his people, lo, even he shall die in his iniquity.",
+      "web": "As for his father, because he cruelly oppressed, robbed his brother, and did that which is not good among his people, behold, he will die in his iniquity.",
+      "ct": "But his father — because he was a cruel oppressor who robbed his own people and did what was wrong among them — he will die for his own sin."
+    },
+    {
+      "verse": 19,
+      "kjv": "Yet say ye, Why? doth not the son bear the iniquity of the father? When the son hath done that which is lawful and right, and hath kept all my statutes, and hath done them, he shall surely live.",
+      "web": "“Yet you say, ‘Why doesn’t the son bear the iniquity of the father?’ When the son has done that which is lawful and right, and has kept all my statutes, and has done them, he will surely live.",
+      "ct": "\"Yet you ask, 'Why shouldn't the son pay for his father's sin?' Because the son did what was lawful and right and carefully kept all my statutes — that's why he will certainly live."
+    },
+    {
+      "verse": 20,
+      "kjv": "The soul that sinneth, it shall die. The son shall not bear the iniquity of the father, neither shall the father bear the iniquity of the son: the righteousness of the righteous shall be upon him, and the wickedness of the wicked shall be upon him.",
+      "web": "The soul who sins, he shall die. The son shall not bear the iniquity of the father, neither shall the father bear the iniquity of the son. The righteousness of the righteous shall be on him, and the wickedness of the wicked shall be on him.",
+      "ct": "The soul that sins is the one that will die. A son won't be punished for his father's sin, and a father won't be punished for his son's sin. The righteous person's righteousness belongs to him alone, and the wicked person's wickedness belongs to him alone."
+    },
+    {
+      "verse": 21,
+      "kjv": "But if the wicked will turn from all his sins that he hath committed, and keep all my statutes, and do that which is lawful and right, he shall surely live, he shall not die.",
+      "web": "“But if the wicked turns from all his sins that he has committed, and keeps all my statutes, and does that which is lawful and right, he shall surely live. He shall not die.",
+      "ct": "\"But if a wicked person turns away from all the sins he has committed, keeps all my statutes, and does what is lawful and right, he will certainly live. He won't die."
+    },
+    {
+      "verse": 22,
+      "kjv": "All his transgressions that he hath committed, they shall not be mentioned unto him: in his righteousness that he hath done he shall live.",
+      "web": "None of his transgressions that he has committed will be remembered against him. In his righteousness that he has done, he shall live.",
+      "ct": "None of the sins he committed will be held against him. Because of the righteousness he now practices, he will live."
+    },
+    {
+      "verse": 23,
+      "kjv": "Have I any pleasure at all that the wicked should die? saith the Lord GOD: and not that he should return from his ways, and live?",
+      "web": "Have I any pleasure in the death of the wicked?” says the Lord LORD; “and not rather that he should return from his way, and live?",
+      "ct": "Do I take any pleasure in the death of the wicked?\" declares the Lord GOD. \"Don't I want him to turn from his ways and live?"
+    },
+    {
+      "verse": 24,
+      "kjv": "But when the righteous turneth away from his righteousness, and committeth iniquity, and doeth according to all the abominations that the wicked man doeth, shall he live? All his righteousness that he hath done shall not be mentioned: in his trespass that he hath trespassed, and in his sin that he hath sinned, in them shall he die.",
+      "web": "“But when the righteous turns away from his righteousness, and commits iniquity, and does according to all the abominations that the wicked man does, should he live? None of his righteous deeds that he has done will be remembered. In his trespass that he has trespassed, and in his sin that he has sinned, in them he shall die.",
+      "ct": "\"But when a righteous person turns away from his righteousness and commits sin, doing the same disgusting things a wicked person does, should he live? None of the righteous things he did will be remembered. Because of the unfaithfulness and sin he has committed, he will die."
+    },
+    {
+      "verse": 25,
+      "kjv": "Yet ye say, The way of the LORD is not equal. Hear now, O house of Israel; Is not my way equal? are not your ways unequal?",
+      "web": "“Yet you say, ‘The way of the Lord is not equal.’ Hear now, house of Israel: Is my way not equal? Aren’t your ways unequal?",
+      "ct": "\"Yet you say, 'The LORD's way isn't fair.' Listen, house of Israel: Is it my way that's unfair, or is it your ways that are unfair?"
+    },
+    {
+      "verse": 26,
+      "kjv": "When a righteous man turneth away from his righteousness, and committeth iniquity, and dieth in them; for his iniquity that he hath done shall he die.",
+      "web": "When the righteous man turns away from his righteousness, and commits iniquity, and dies therein; in his iniquity that he has done he shall die.",
+      "ct": "When a righteous person turns away from doing right and commits sin, he will die because of it. He dies because of the sin he has committed."
+    },
+    {
+      "verse": 27,
+      "kjv": "Again, when the wicked man turneth away from his wickedness that he hath committed, and doeth that which is lawful and right, he shall save his soul alive.",
+      "web": "Again, when the wicked man turns away from his wickedness that he has committed, and does that which is lawful and right, he will save his soul alive.",
+      "ct": "On the other hand, when a wicked person turns away from the wickedness he has practiced and does what is lawful and right, he will save his own soul."
+    },
+    {
+      "verse": 28,
+      "kjv": "Because he considereth, and turneth away from all his transgressions that he hath committed, he shall surely live, he shall not die.",
+      "web": "Because he considers, and turns away from all his transgressions that he has committed, he shall surely live. He shall not die.",
+      "ct": "Because he thought it over and turned away from all the sins he had committed, he will certainly live. He won't die."
+    },
+    {
+      "verse": 29,
+      "kjv": "Yet saith the house of Israel, The way of the LORD is not equal. O house of Israel, are not my ways equal? are not your ways unequal?",
+      "web": "Yet the house of Israel says, ‘The way of the Lord is not fair.’ House of Israel, aren’t my ways fair? Aren’t your ways unfair?",
+      "ct": "Yet the house of Israel says, 'The LORD's way isn't fair.' House of Israel, is it really my ways that aren't fair? Isn't it your ways that are unfair?"
+    },
+    {
+      "verse": 30,
+      "kjv": "Therefore I will judge you, O house of Israel, every one according to his ways, saith the Lord GOD. Repent, and turn yourselves from all your transgressions; so iniquity shall not be your ruin.",
+      "web": "“Therefore I will judge you, house of Israel, everyone according to his ways,” says the Lord LORD. “Return, and turn yourselves from all your transgressions; so iniquity will not be your ruin.",
+      "ct": "\"So I will judge each of you according to your own actions, house of Israel,\" declares the Lord GOD. \"Repent! Turn away from all your sins so that they don't become your downfall."
+    },
+    {
+      "verse": 31,
+      "kjv": "Cast away from you all your transgressions, whereby ye have transgressed; and make you a new heart and a new spirit: for why will ye die, O house of Israel?",
+      "web": "Cast away from you all your transgressions, in which you have transgressed; and make yourself a new heart and a new spirit: for why will you die, house of Israel?",
+      "ct": "Throw off all the sins you've been committing, and get yourselves a new heart and a new spirit. Why would you choose to die, house of Israel?"
+    },
+    {
+      "verse": 32,
+      "kjv": "For I have no pleasure in the death of him that dieth, saith the Lord GOD: wherefore turn yourselves, and live ye.",
+      "web": "For I have no pleasure in the death of him who dies,” says the Lord LORD. “Therefore turn yourselves, and live!",
+      "ct": "I take no pleasure in anyone's death,\" declares the Lord GOD. \"So turn back and live!"
+    }
+  ]
+}
