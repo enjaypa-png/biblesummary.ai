@@ -1,0 +1,125 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 15,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:15:36.559Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the Spirit of God came upon Azariah the son of Oded:",
+      "web": "The Spirit of God came on Azariah the son of Oded:",
+      "ct": "The Spirit of God came upon Azariah son of Oded."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he went out to meet Asa, and said unto him, Hear ye me, Asa, and all Judah and Benjamin; The LORD is with you, while ye be with him; and if ye seek him, he will be found of you; but if ye forsake him, he will forsake you.",
+      "web": "and he went out to meet Asa, and said to him, “Hear me, Asa, and all Judah and Benjamin! LORD is with you, while you are with him; and if you seek him, he will be found by you; but if you forsake him, he will forsake you.",
+      "ct": "He went out to meet Asa and said to him, \"Listen to me, Asa, and all of Judah and Benjamin! The LORD is with you as long as you are with him. If you seek him, he will let you find him. But if you abandon him, he will abandon you.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Now for a long season Israel hath been without the true God, and without a teaching priest, and without law.",
+      "web": "Now for a long time Israel was without the true God, without a teaching priest, and without law.",
+      "ct": "\"For a long time, Israel lived without the true God, without a priest to teach them, and without the law.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "But when they in their trouble did turn unto the LORD God of Israel, and sought him, he was found of them.",
+      "web": "But when in their distress they turned to LORD, the God of Israel, and sought him, he was found by them.",
+      "ct": "\"But whenever they were in trouble and turned back to the LORD, the God of Israel, and searched for him, he let them find him.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And in those times there was no peace to him that went out, nor to him that came in, but great vexations were upon all the inhabitants of the countries.",
+      "web": "In those times there was no peace to him who went out, nor to him who came in; but great troubles were on all the inhabitants of the lands.",
+      "ct": "\"In those days, no one could travel safely — whether coming or going — because chaos and turmoil gripped everyone in every land.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And nation was destroyed of nation, and city of city: for God did vex them with all adversity.",
+      "web": "They were broken in pieces, nation against nation, and city against city; for God troubled them with all adversity.",
+      "ct": "\"Nation crushed nation, and city crushed city, because God was striking them with every kind of disaster.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Be ye strong therefore, and let not your hands be weak: for your work shall be rewarded.",
+      "web": "But you be strong, and don’t let your hands be slack; for your work will be rewarded.”",
+      "ct": "\"So be strong! Don't give up, because your work will be rewarded.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And when Asa heard these words, and the prophecy of Oded the prophet, he took courage, and put away the abominable idols out of all the land of Judah and Benjamin, and out of the cities which he had taken from mount Ephraim, and renewed the altar of the LORD, that was before the porch of the LORD.",
+      "web": "When Asa heard these words, and the prophecy of Oded the prophet, he took courage, and put away the abominations out of all the land of Judah and Benjamin, and out of the cities which he had taken from the hill country of Ephraim; and he renewed LORD’s altar that was before LORD’s porch.",
+      "ct": "When Asa heard these words and the prophecy of Oded the prophet, he took courage. He removed the disgusting idols from all the land of Judah and Benjamin, and from the cities he had captured in the hill country of Ephraim. Then he restored the altar of the LORD that stood in front of the LORD's temple porch."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he gathered all Judah and Benjamin, and the strangers with them out of Ephraim and Manasseh, and out of Simeon: for they fell to him out of Israel in abundance, when they saw that the LORD his God was with him.",
+      "web": "He gathered all Judah and Benjamin, and those who lived with them out of Ephraim, Manasseh, and Simeon; for they came to him out of Israel in abundance when they saw that LORD his God was with him.",
+      "ct": "He assembled everyone from Judah and Benjamin, along with the people from Ephraim, Manasseh, and Simeon who had settled among them. Large numbers had come over to him from Israel because they could see that the LORD his God was with him."
+    },
+    {
+      "verse": 10,
+      "kjv": "So they gathered themselves together at Jerusalem in the third month, in the fifteenth year of the reign of Asa.",
+      "web": "So they gathered themselves together at Jerusalem in the third month, in the fifteenth year of Asa’s reign.",
+      "ct": "They all gathered in Jerusalem in the 3rd month of the 15th year of Asa's reign."
+    },
+    {
+      "verse": 11,
+      "kjv": "And they offered unto the LORD the same time, of the spoil which they had brought, seven hundred oxen and seven thousand sheep.",
+      "web": "They sacrificed to LORD in that day, of the plunder which they had brought, seven hundred head of cattle and seven thousand sheep.",
+      "ct": "That day they sacrificed to the LORD from the plunder they had brought back — 700 cattle and 7,000 sheep."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they entered into a covenant to seek the LORD God of their fathers with all their heart and with all their soul;",
+      "web": "They entered into the covenant to seek LORD, the God of their fathers, with all their heart and with all their soul;",
+      "ct": "They entered into a covenant to seek the LORD, the God of their ancestors, with all their heart and all their soul."
+    },
+    {
+      "verse": 13,
+      "kjv": "That whosoever would not seek the LORD God of Israel should be put to death, whether small or great, whether man or woman.",
+      "web": "and that whoever would not seek LORD, the God of Israel, should be put to death, whether small or great, whether man or woman.",
+      "ct": "Anyone who refused to seek the LORD, the God of Israel, would be put to death — whether young or old, man or woman."
+    },
+    {
+      "verse": 14,
+      "kjv": "And they sware unto the LORD with a loud voice, and with shouting, and with trumpets, and with cornets.",
+      "web": "They swore to LORD with a loud voice, with shouting, with trumpets, and with cornets.",
+      "ct": "They swore their oath to the LORD with a loud voice, with shouts of joy, and with the blast of trumpets and horns."
+    },
+    {
+      "verse": 15,
+      "kjv": "And all Judah rejoiced at the oath: for they had sworn with all their heart, and sought him with their whole desire; and he was found of them: and the LORD gave them rest round about.",
+      "web": "All Judah rejoiced at the oath, for they had sworn with all their heart, and sought him with their whole desire; and he was found by them. Then LORD gave them rest all around.",
+      "ct": "All of Judah celebrated the oath, because they had sworn it with all their heart and searched for God with everything they had — and he let them find him. So the LORD gave them peace on every side."
+    },
+    {
+      "verse": 16,
+      "kjv": "And also concerning Maachah the mother of Asa the king, he removed her from being queen, because she had made an idol in a grove: and Asa cut down her idol, and stamped it, and burnt it at the brook Kidron.",
+      "web": "Also Maacah, the mother of Asa the king, he removed from being queen, because she had made an abominable image for an Asherah; so Asa cut down her image, ground it into dust, and burned it at the brook Kidron.",
+      "ct": "King Asa even removed his grandmother Maachah from her position as queen mother because she had made a revolting idol for the worship of Asherah. Asa chopped the idol down, ground it to dust, and burned it at the brook Kidron."
+    },
+    {
+      "verse": 17,
+      "kjv": "But the high places were not taken away out of Israel: nevertheless the heart of Asa was perfect all his days.",
+      "web": "But the high places were not taken away out of Israel; nevertheless the heart of Asa was perfect all his days.",
+      "ct": "Although the high places were never fully removed from Israel, Asa's heart was fully devoted to God throughout his life."
+    },
+    {
+      "verse": 18,
+      "kjv": "And he brought into the house of God the things that his father had dedicated, and that he himself had dedicated, silver, and gold, and vessels.",
+      "web": "He brought the things that his father had dedicated, and that he himself had dedicated, silver, gold, and vessels into God’s house.",
+      "ct": "He brought into the house of God all the silver, gold, and vessels that his father had dedicated, along with everything he himself had dedicated."
+    },
+    {
+      "verse": 19,
+      "kjv": "And there was no more war unto the five and thirtieth year of the reign of Asa.",
+      "web": "There was no more war to the thirty-fifth year of Asa’s reign.",
+      "ct": "There was no more war until the 35th year of Asa's reign."
+    }
+  ]
+}

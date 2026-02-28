@@ -1,0 +1,101 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 14,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:15:20.234Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "So Abijah slept with his fathers, and they buried him in the city of David: and Asa his son reigned in his stead. In his days the land was quiet ten years.",
+      "web": "So Abijah slept with his fathers, and they buried him in David’s city; and Asa his son reigned in his place. In his days, the land was quiet ten years.",
+      "ct": "Abijah died and was buried in the city of David. His son Asa became king after him, and the land enjoyed peace for 10 years."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Asa did that which was good and right in the eyes of the LORD his God:",
+      "web": "Asa did that which was good and right in LORD his God’s eyes;",
+      "ct": "The LORD his God saw that Asa did what was good and right."
+    },
+    {
+      "verse": 3,
+      "kjv": "For he took away the altars of the strange gods, and the high places, and brake down the images, and cut down the groves:",
+      "web": "for he took away the foreign altars and the high places, broke down the pillars, cut down the Asherah poles,",
+      "ct": "He tore down the foreign altars and the high places, smashed the sacred pillars, and chopped down the Asherah poles."
+    },
+    {
+      "verse": 4,
+      "kjv": "And commanded Judah to seek the LORD God of their fathers, and to do the law and the commandment.",
+      "web": "and commanded Judah to seek LORD, the God of their fathers, and to obey his law and command.",
+      "ct": "He commanded the people of Judah to seek the LORD, the God of their ancestors, and to obey his law and commands."
+    },
+    {
+      "verse": 5,
+      "kjv": "Also he took away out of all the cities of Judah the high places and the images: and the kingdom was quiet before him.",
+      "web": "Also he took away out of all the cities of Judah the high places and the sun images; and the kingdom was quiet before him.",
+      "ct": "He also removed the high places and sun-idol shrines from every city in Judah. Under his rule, the kingdom was at peace."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he built fenced cities in Judah: for the land had rest, and he had no war in those years; because the LORD had given him rest.",
+      "web": "He built fortified cities in Judah; for the land was quiet, and he had no war in those years, because LORD had given him rest.",
+      "ct": "He built fortified cities throughout Judah, because the land was at rest and there was no war during those years — the LORD had given him peace."
+    },
+    {
+      "verse": 7,
+      "kjv": "Therefore he said unto Judah, Let us build these cities, and make about them walls, and towers, gates, and bars, while the land is yet before us; because we have sought the LORD our God, we have sought him, and he hath given us rest on every side. So they built and prospered.",
+      "web": "For he said to Judah, “Let’s build these cities, and make walls around them, with towers, gates, and bars. The land is yet before us, because we have sought LORD our God. We have sought him, and he has given us rest on every side.” So they built and prospered.",
+      "ct": "Asa told the people of Judah, \"Let's build up these cities and surround them with walls, towers, gates, and bars while we still have the chance. We sought the LORD our God, and he has given us peace on every side.\" So they built, and everything they did prospered."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Asa had an army of men that bare targets and spears, out of Judah three hundred thousand; and out of Benjamin, that bare shields and drew bows, two hundred and fourscore thousand: all these were mighty men of valour.",
+      "web": "Asa had an army of three hundred thousand out of Judah who bore bucklers and spears, and two hundred eighty thousand out of Benjamin who bore shields and drew bows. All these were mighty men of valor.",
+      "ct": "Asa's army included 300,000 soldiers from Judah armed with large shields and spears, and 280,000 from Benjamin armed with small shields and bows. Every one of them was a skilled warrior."
+    },
+    {
+      "verse": 9,
+      "kjv": "And there came out against them Zerah the Ethiopian with an host of a thousand thousand, and three hundred chariots; and came unto Mareshah.",
+      "web": "Zerah the Ethiopian came out against them with an army of a million troops and three hundred chariots, and he came to Mareshah.",
+      "ct": "Then Zerah the Ethiopian marched against them with an army of 1,000,000 troops and 300 chariots, advancing as far as Mareshah."
+    },
+    {
+      "verse": 10,
+      "kjv": "Then Asa went out against him, and they set the battle in array in the valley of Zephathah at Mareshah.",
+      "web": "Then Asa went out to meet him, and they set the battle in array in the valley of Zephathah at Mareshah.",
+      "ct": "Asa went out to meet him, and the two armies lined up for battle in the valley of Zephathah near Mareshah."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Asa cried unto the LORD his God, and said, LORD, it is nothing with thee to help, whether with many, or with them that have no power: help us, O LORD our God; for we rest on thee, and in thy name we go against this multitude. O LORD, thou art our God; let not man prevail against thee.",
+      "web": "Asa cried to LORD his God, and said, “LORD, there is no one besides you to help, between the mighty and him who has no strength. Help us, LORD our God; for we rely on you, and in your name are we come against this multitude. LORD, you are our God. Don’t let man prevail against you.”",
+      "ct": "Asa cried out to the LORD his God: \"LORD, it makes no difference to you whether you help the strong or the weak. Help us, LORD our God, because we are depending on you! We have come against this massive army in your name. LORD, you are our God — don't let any human being stand against you.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "So the LORD smote the Ethiopians before Asa, and before Judah; and the Ethiopians fled.",
+      "web": "So LORD struck the Ethiopians before Asa and before Judah; and the Ethiopians fled.",
+      "ct": "The LORD struck down the Ethiopians before Asa and Judah, and the Ethiopians fled."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Asa and the people that were with him pursued them unto Gerar: and the Ethiopians were overthrown, that they could not recover themselves; for they were destroyed before the LORD, and before his host; and they carried away very much spoil.",
+      "web": "Asa and the people who were with him pursued them to Gerar: and so many of the Ethiopians fell that they could not recover themselves; for they were destroyed before LORD and before his army; and they carried away very much booty.",
+      "ct": "Asa and his army chased them all the way to Gerar. So many Ethiopians fell that they couldn't regroup — they were crushed before the LORD and his forces. Judah's army carried off an enormous amount of plunder."
+    },
+    {
+      "verse": 14,
+      "kjv": "And they smote all the cities round about Gerar; for the fear of the LORD came upon them: and they spoiled all the cities; for there was exceeding much spoil in them.",
+      "web": "They struck all the cities around Gerar; for the fear of LORD came on them, and they plundered all the cities; for there was much plunder in them.",
+      "ct": "They attacked all the cities around Gerar, because the fear of the LORD had fallen on everyone there. They looted every city, since there was an incredible amount of wealth in them."
+    },
+    {
+      "verse": 15,
+      "kjv": "They smote also the tents of cattle, and carried away sheep and camels in abundance, and returned to Jerusalem.",
+      "web": "They also struck the tents of livestock, and carried away sheep in abundance, and camels, and returned to Jerusalem.",
+      "ct": "They also raided the camps where livestock was kept, carrying off huge numbers of sheep and camels before returning to Jerusalem."
+    }
+  ]
+}

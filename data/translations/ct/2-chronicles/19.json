@@ -1,0 +1,77 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:16:53.563Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Jehoshaphat the king of Judah returned to his house in peace to Jerusalem.",
+      "web": "Jehoshaphat the king of Judah returned to his house in peace to Jerusalem.",
+      "ct": "Jehoshaphat, king of Judah, returned safely to his home in Jerusalem."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Jehu the son of Hanani the seer went out to meet him, and said to king Jehoshaphat, Shouldest thou help the ungodly, and love them that hate the LORD? therefore is wrath upon thee from before the LORD.",
+      "web": "Jehu the son of Hanani the seer went out to meet him, and said to king Jehoshaphat, “Should you help the wicked, and love those who hate LORD? Because of this, wrath is on you from before LORD.",
+      "ct": "Jehu son of Hanani the prophet went out to meet him and confronted him: \"Should you be helping the wicked? Should you love people who hate the LORD? Because of this, the LORD's anger is against you.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Nevertheless there are good things found in thee, in that thou hast taken away the groves out of the land, and hast prepared thine heart to seek God.",
+      "web": "Nevertheless there are good things found in you, in that you have put away the Asheroth out of the land, and have set your heart to seek God.”",
+      "ct": "\"Even so, there is good in you. You removed the Asherah poles from the land, and you have set your heart on seeking God.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Jehoshaphat dwelt at Jerusalem: and he went out again through the people from Beersheba to mount Ephraim, and brought them back unto the LORD God of their fathers.",
+      "web": "Jehoshaphat lived at Jerusalem; and he went out again among the people from Beersheba to the hill country of Ephraim, and brought them back to LORD, the God of their fathers.",
+      "ct": "Jehoshaphat stayed in Jerusalem for a time, but then went out again among the people, traveling from Beersheba all the way to the hill country of Ephraim, and he turned them back to the LORD, the God of their ancestors."
+    },
+    {
+      "verse": 5,
+      "kjv": "And he set judges in the land throughout all the fenced cities of Judah, city by city,",
+      "web": "He set judges in the land throughout all the fortified cities of Judah, city by city,",
+      "ct": "He appointed judges throughout the land in every fortified city of Judah, one by one."
+    },
+    {
+      "verse": 6,
+      "kjv": "And said to the judges, Take heed what ye do: for ye judge not for man, but for the LORD, who is with you in the judgment.",
+      "web": "and said to the judges, “Consider what you do, for you don’t judge for man, but for LORD; and he is with you in the judgment.",
+      "ct": "He told the judges, \"Think carefully about what you're doing, because you aren't judging on behalf of people — you're judging on behalf of the LORD, and he is right there with you in every decision you make.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Wherefore now let the fear of the LORD be upon you; take heed and do it: for there is no iniquity with the LORD our God, nor respect of persons, nor taking of gifts.",
+      "web": "Now therefore let the fear of LORD be on you. Take heed and do it; for there is no iniquity with LORD our God, nor respect of persons, nor taking of bribes.”",
+      "ct": "\"So let the fear of the LORD guide you. Be careful in everything you do, because the LORD our God has no tolerance for injustice, no favoritism, and no bribery.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Moreover in Jerusalem did Jehoshaphat set of the Levites, and of the priests, and of the chief of the fathers of Israel, for the judgment of the LORD, and for controversies, when they returned to Jerusalem.",
+      "web": "Moreover in Jerusalem Jehoshaphat appointed Levites and priests, and of the heads of the fathers’ households of Israel, for the judgment of LORD, and for controversies. They returned to Jerusalem.",
+      "ct": "In Jerusalem itself, Jehoshaphat also appointed Levites, priests, and heads of Israelite families to serve as judges — handling both cases involving the LORD's law and disputes between people. These judges were based in Jerusalem."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he charged them, saying, Thus shall ye do in the fear of the LORD, faithfully, and with a perfect heart.",
+      "web": "He commanded them, saying, “You shall do this in the fear of LORD, faithfully, and with a perfect heart.",
+      "ct": "He gave them these instructions: \"Carry out your duties in the fear of the LORD, faithfully and wholeheartedly."
+    },
+    {
+      "verse": 10,
+      "kjv": "And what cause soever shall come to you of your brethren that dwell in their cities, between blood and blood, between law and commandment, statutes and judgments, ye shall even warn them that they trespass not against the LORD, and so wrath come upon you, and upon your brethren: this do, and ye shall not trespass.",
+      "web": "Whenever any controversy comes to you from your brothers who dwell in their cities, between blood and blood, between law and commandment, statutes and ordinances, you must warn them, that they not be guilty toward LORD, and so wrath come on you and on your brothers. Do this, and you will not be guilty.",
+      "ct": "Whenever a case comes to you from your fellow Israelites living in their cities — whether it involves a violent crime, a question about the law, or the interpretation of commands, statutes, and regulations — you must warn them so they don't sin against the LORD. If you fail to do this, his anger will fall on both you and your fellow Israelites. Do your job well, and you won't be guilty.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And, behold, Amariah the chief priest is over you in all matters of the LORD; and Zebadiah the son of Ishmael, the ruler of the house of Judah, for all the king’s matters: also the Levites shall be officers before you. Deal courageously, and the LORD shall be with the good.",
+      "web": "Behold, Amariah the chief priest is over you in all matters of LORD; and Zebadiah the son of Ishmael, the ruler of the house of Judah, in all the king’s matters. Also the Levites shall be officers before you. Deal courageously, and may LORD be with the good.”",
+      "ct": "\"Amariah the chief priest will have authority over you in any matter related to the LORD, and Zebadiah son of Ishmael, the leader of the tribe of Judah, will handle all matters related to the king. The Levites will serve as your court officials. Be courageous in your work, and may the LORD be with those who do what is right.\""
+    }
+  ]
+}

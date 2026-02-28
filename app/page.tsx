@@ -34,46 +34,46 @@ function VerseDemo() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
-  const [speechSupported, setSpeechSupported] = useState(true);
   const [explanationText, setExplanationText] = useState<string | null>(null);
   const [explanationLoading, setExplanationLoading] = useState(false);
-  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
-
-  useEffect(() => {
-    setSpeechSupported(typeof window !== "undefined" && "speechSynthesis" in window);
-    return () => { if (typeof window !== "undefined" && "speechSynthesis" in window) speechSynthesis.cancel(); };
-  }, []);
+  const [audioEl] = useState(() => typeof window !== "undefined" ? new Audio() : null);
 
   // Stop speech when explanation is closed
   useEffect(() => {
     if (!showExplanation && isSpeaking) {
-      speechSynthesis.cancel();
+      if (audioEl) { audioEl.pause(); audioEl.src = ""; }
       setIsSpeaking(false);
     }
-  }, [showExplanation, isSpeaking]);
+  }, [showExplanation, isSpeaking, audioEl]);
 
-  const toggleSpeech = useCallback(() => {
-    if (!speechSupported) return;
+  const toggleSpeech = useCallback(async () => {
     if (isSpeaking) {
-      speechSynthesis.cancel();
+      if (audioEl) { audioEl.pause(); audioEl.src = ""; }
       setIsSpeaking(false);
       return;
     }
-    const utterance = new SpeechSynthesisUtterance(explanationText || DEMO_VERSE_TEXT);
-    utterance.rate = 0.95;
-    utterance.pitch = 1;
-    // Pick a natural English voice if available
-    const voices = speechSynthesis.getVoices();
-    const preferred = voices.find(v => v.lang.startsWith("en") && v.name.toLowerCase().includes("natural"))
-      || voices.find(v => v.lang.startsWith("en") && !v.name.toLowerCase().includes("compact"))
-      || voices.find(v => v.lang.startsWith("en"));
-    if (preferred) utterance.voice = preferred;
-    utterance.onend = () => setIsSpeaking(false);
-    utterance.onerror = () => setIsSpeaking(false);
-    utteranceRef.current = utterance;
-    speechSynthesis.speak(utterance);
+    const text = explanationText;
+    if (!text) return;
     setIsSpeaking(true);
-  }, [isSpeaking, speechSupported]);
+    try {
+      const res = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text }),
+      });
+      if (!res.ok) throw new Error("TTS failed");
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      if (audioEl) {
+        audioEl.src = url;
+        audioEl.onended = () => { setIsSpeaking(false); URL.revokeObjectURL(url); };
+        audioEl.onerror = () => { setIsSpeaking(false); URL.revokeObjectURL(url); };
+        await audioEl.play();
+      }
+    } catch {
+      setIsSpeaking(false);
+    }
+  }, [isSpeaking, explanationText, audioEl]);
 
   return (
     <div style={{ maxWidth: 620, margin: "0 auto", fontFamily: "'Source Serif 4', Georgia, serif" }}>
@@ -192,7 +192,7 @@ onClick={async () => {
                       Plain-Language Explanation
                     </span>
                   </div>
-                  {speechSupported && (
+                  {explanationText && (
                     <button
                       onClick={(e) => { e.stopPropagation(); toggleSpeech(); }}
                       style={{

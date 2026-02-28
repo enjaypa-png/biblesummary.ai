@@ -1,0 +1,83 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 22,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:18:00.998Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the inhabitants of Jerusalem made Ahaziah his youngest son king in his stead: for the band of men that came with the Arabians to the camp had slain all the eldest. So Ahaziah the son of Jehoram king of Judah reigned.",
+      "web": "The inhabitants of Jerusalem made Ahaziah his youngest son king in his place, because the band of men who came with the Arabians to the camp had slain all the oldest. So Ahaziah the son of Jehoram king of Judah reigned.",
+      "ct": "The people of Jerusalem made Ahaziah, Jehoram's youngest son, king in his place, because the raiders who had come with the Arabians into the camp had killed all of his older sons. So Ahaziah son of Jehoram became king of Judah."
+    },
+    {
+      "verse": 2,
+      "kjv": "Forty and two years old was Ahaziah when he began to reign, and he reigned one year in Jerusalem. His mother’s name also was Athaliah the daughter of Omri.",
+      "web": "Ahaziah was forty-two years old when he began to reign, and he reigned one year in Jerusalem. His mother’s name was Athaliah the daughter of Omri.",
+      "ct": "Ahaziah was 42 years old when he became king, and he ruled in Jerusalem for 1 year. His mother's name was Athaliah, a granddaughter of Omri."
+    },
+    {
+      "verse": 3,
+      "kjv": "He also walked in the ways of the house of Ahab: for his mother was his counsellor to do wickedly.",
+      "web": "He also walked in the ways of Ahab’s house, because his mother was his counselor in acting wickedly.",
+      "ct": "He followed the sinful ways of Ahab's family, because his mother was his advisor and she pushed him toward wickedness."
+    },
+    {
+      "verse": 4,
+      "kjv": "Wherefore he did evil in the sight of the LORD like the house of Ahab: for they were his counsellors after the death of his father to his destruction.",
+      "web": "He did that which was evil in LORD’s sight, as did Ahab’s house, for they were his counselors after the death of his father, to his destruction.",
+      "ct": "The LORD saw that he was evil, just like Ahab's family. After his father died, Ahab's relatives became his advisors — and they led him straight to ruin."
+    },
+    {
+      "verse": 5,
+      "kjv": "He walked also after their counsel, and went with Jehoram the son of Ahab king of Israel to war against Hazael king of Syria at Ramothgilead: and the Syrians smote Joram.",
+      "web": "He also followed their counsel, and went with Jehoram the son of Ahab king of Israel to war against Hazael king of Syria at Ramoth Gilead, and the Syrians wounded Joram.",
+      "ct": "Following their advice, he joined King Jehoram son of Ahab of Israel in a military campaign against King Hazael of Syria at Ramoth Gilead. During the battle, the Syrians wounded Jehoram."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he returned to be healed in Jezreel because of the wounds which were given him at Ramah, when he fought with Hazael king of Syria. And Azariah the son of Jehoram king of Judah went down to see Jehoram the son of Ahab at Jezreel, because he was sick.",
+      "web": "He returned to be healed in Jezreel of the wounds which they had given him at Ramah, when he fought against Hazael king of Syria. Azariah the son of Jehoram king of Judah went down to see Jehoram the son of Ahab in Jezreel, because he was sick.",
+      "ct": "Jehoram went back to Jezreel to recover from the wounds he received at Ramah while fighting King Hazael of Syria. Then Ahaziah son of Jehoram king of Judah traveled down to Jezreel to visit Jehoram son of Ahab, because Jehoram was injured."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the destruction of Ahaziah was of God by coming to Joram: for when he was come, he went out with Jehoram against Jehu the son of Nimshi, whom the LORD had anointed to cut off the house of Ahab.",
+      "web": "Now the destruction of Ahaziah was of God, in that he went to Joram; for when he had come, he went out with Jehoram against Jehu the son of Nimshi, whom LORD had anointed to cut off Ahab’s house.",
+      "ct": "God brought about Ahaziah's downfall through this visit to Jehoram. When Ahaziah arrived, he went out with Jehoram to confront Jehu son of Nimshi — the man the LORD had anointed to wipe out Ahab's entire family."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it came to pass, that, when Jehu was executing judgment upon the house of Ahab, and found the princes of Judah, and the sons of the brethren of Ahaziah, that ministered to Ahaziah, he slew them.",
+      "web": "When Jehu was executing judgment on Ahab’s house, he found the princes of Judah and the sons of the brothers of Ahaziah, serving Ahaziah, and killed them.",
+      "ct": "While Jehu was carrying out God's judgment against Ahab's family, he came across the officials of Judah and the sons of Ahaziah's brothers who served Ahaziah, and he killed them all."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he sought Ahaziah: and they caught him, (for he was hid in Samaria,) and brought him to Jehu: and when they had slain him, they buried him: Because, said they, he is the son of Jehoshaphat, who sought the LORD with all his heart. So the house of Ahaziah had no power to keep still the kingdom.",
+      "web": "He sought Ahaziah, and they caught him (now he was hiding in Samaria), and they brought him to Jehu, and killed him; and they buried him, for they said, “He is the son of Jehoshaphat, who sought LORD with all his heart.” The house of Ahaziah had no power to hold the kingdom.",
+      "ct": "Then Jehu searched for Ahaziah himself. His men found him hiding in Samaria, captured him, and brought him to Jehu, who had him executed. They gave him a burial, though, saying, \"He was the grandson of Jehoshaphat, who sought the LORD with all his heart.\" After that, no one in Ahaziah's family had the strength to hold onto the kingdom."
+    },
+    {
+      "verse": 10,
+      "kjv": "But when Athaliah the mother of Ahaziah saw that her son was dead, she arose and destroyed all the seed royal of the house of Judah.",
+      "web": "Now when Athaliah the mother of Ahaziah saw that her son was dead, she arose and destroyed all the royal offspring of the house of Judah.",
+      "ct": "When Athaliah, Ahaziah's mother, learned that her son was dead, she seized power and murdered every member of the royal family in the house of Judah."
+    },
+    {
+      "verse": 11,
+      "kjv": "But Jehoshabeath, the daughter of the king, took Joash the son of Ahaziah, and stole him from among the king’s sons that were slain, and put him and his nurse in a bedchamber. So Jehoshabeath, the daughter of king Jehoram, the wife of Jehoiada the priest, (for she was the sister of Ahaziah,) hid him from Athaliah, so that she slew him not.",
+      "web": "But Jehoshabeath, the king’s daughter, took Joash the son of Ahaziah, and stealthily rescued him from among the king’s sons who were slain, and put him and his nurse in the bedroom. So Jehoshabeath, the daughter of king Jehoram, the wife of Jehoiada the priest (for she was the sister of Ahaziah), hid him from Athaliah, so that she didn’t kill him.",
+      "ct": "But Jehoshabeath, the king's daughter, rescued Ahaziah's son Joash by sneaking him away from the other princes who were being slaughtered. She hid him and his nurse in a bedroom. Jehoshabeath — who was King Jehoram's daughter, Ahaziah's sister, and the wife of Jehoiada the priest — kept the boy hidden from Athaliah so she couldn't kill him."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he was with them hid in the house of God six years: and Athaliah reigned over the land.",
+      "web": "He was with them hidden in God’s house six years while Athaliah reigned over the land.",
+      "ct": "Joash remained hidden with them in the house of God for 6 years while Athaliah ruled the land."
+    }
+  ]
+}
