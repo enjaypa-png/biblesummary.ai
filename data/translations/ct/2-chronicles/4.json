@@ -1,0 +1,143 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:11:59.919Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Moreover he made an altar of brass, twenty cubits the length thereof, and twenty cubits the breadth thereof, and ten cubits the height thereof.",
+      "web": "Then he made an altar of bronze, twenty cubits long, twenty cubits wide, and ten cubits high.",
+      "ct": "Solomon had a bronze altar built, 20 cubits long, 20 cubits wide, and 10 cubits high."
+    },
+    {
+      "verse": 2,
+      "kjv": "Also he made a molten sea of ten cubits from brim to brim, round in compass, and five cubits the height thereof; and a line of thirty cubits did compass it round about.",
+      "web": "Also he made the molten sea of ten cubits from brim to brim. It was round, five cubits high, and thirty cubits in circumference.",
+      "ct": "He also made the large basin called the Sea out of cast metal. It was round, measuring 10 cubits from rim to rim, 5 cubits tall, and 30 cubits around."
+    },
+    {
+      "verse": 3,
+      "kjv": "And under it was the similitude of oxen, which did compass it round about: ten in a cubit, compassing the sea round about. Two rows of oxen were cast, when it was cast.",
+      "web": "Under it was the likeness of oxen, which encircled it, for ten cubits, encircling the sea. The oxen were in two rows, cast when it was cast.",
+      "ct": "Beneath the rim, figures of oxen encircled it — 10 per cubit all the way around. The oxen were arranged in two rows and were cast as one piece with the basin."
+    },
+    {
+      "verse": 4,
+      "kjv": "It stood upon twelve oxen, three looking toward the north, and three looking toward the west, and three looking toward the south, and three looking toward the east: and the sea was set above upon them, and all their hinder parts were inward.",
+      "web": "It stood on twelve oxen, three looking toward the north, and three looking toward the west, and three looking toward the south, and three looking toward the east; and the sea was set on them above, and all their hindquarters were inward.",
+      "ct": "The Sea rested on 12 bronze oxen — 3 facing north, 3 facing west, 3 facing south, and 3 facing east. The basin sat on top of them, and all their hindquarters faced inward."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the thickness of it was an handbreadth, and the brim of it like the work of the brim of a cup, with flowers of lilies; and it received and held three thousand baths.",
+      "web": "It was a handbreadth thick; and its brim was made like the brim of a cup, like the flower of a lily. It received and held three thousand baths.",
+      "ct": "The basin's walls were a handbreadth thick, and its rim was shaped like a cup with lily blossoms. It could hold 3,000 baths of water."
+    },
+    {
+      "verse": 6,
+      "kjv": "He made also ten lavers, and put five on the right hand, and five on the left, to wash in them: such things as they offered for the burnt offering they washed in them; but the sea was for the priests to wash in.",
+      "web": "He also made ten basins, and put five on the right hand, and five on the left, to wash in them. The things that belonged to the burnt offering were washed in them; but the sea was for the priests to wash in.",
+      "ct": "He made 10 smaller basins and placed 5 on the right side and 5 on the left. These were used for rinsing the items needed for burnt offerings. The Sea, however, was reserved for the priests to wash in."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he made ten candlesticks of gold according to their form, and set them in the temple, five on the right hand, and five on the left.",
+      "web": "He made the ten lamp stands of gold according to the ordinance concerning them; and he set them in the temple, five on the right hand, and five on the left.",
+      "ct": "He made 10 gold lampstands according to their design and placed them in the temple — 5 on the right side and 5 on the left."
+    },
+    {
+      "verse": 8,
+      "kjv": "He made also ten tables, and placed them in the temple, five on the right side, and five on the left. And he made an hundred basons of gold.",
+      "web": "He made also ten tables, and placed them in the temple, five on the right side, and five on the left. He made one hundred basins of gold.",
+      "ct": "He also made 10 tables and placed them in the temple — 5 on the right side and 5 on the left. In addition, he made 100 gold bowls."
+    },
+    {
+      "verse": 9,
+      "kjv": "Furthermore he made the court of the priests, and the great court, and doors for the court, and overlaid the doors of them with brass.",
+      "web": "Furthermore he made the court of the priests, the great court, and doors for the court, and overlaid their doors with bronze.",
+      "ct": "He built the courtyard for the priests and the large outer courtyard, along with doors for the courtyard, and he overlaid those doors with bronze."
+    },
+    {
+      "verse": 10,
+      "kjv": "And he set the sea on the right side of the east end, over against the south.",
+      "web": "He set the sea on the right side of the house eastward, toward the south.",
+      "ct": "He positioned the Sea on the southeast corner of the temple."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Huram made the pots, and the shovels, and the basons. And Huram finished the work that he was to make for king Solomon for the house of God;",
+      "web": "Huram made the pots, the shovels, and the basins. So Huram finished doing the work that he did for king Solomon in God’s house:",
+      "ct": "Huram also made the pots, shovels, and bowls. With that, Huram completed all the work he had been commissioned to do for King Solomon in the house of God:"
+    },
+    {
+      "verse": 12,
+      "kjv": "To wit, the two pillars, and the pommels, and the chapiters which were on the top of the two pillars, and the two wreaths to cover the two pommels of the chapiters which were on the top of the pillars;",
+      "web": "the two pillars, the bowls, the two capitals which were on the top of the pillars, the two networks to cover the two bowls of the capitals that were on the top of the pillars,",
+      "ct": "the 2 pillars; the bowl-shaped capitals on top of the 2 pillars; the 2 lattice networks that covered those capitals;"
+    },
+    {
+      "verse": 13,
+      "kjv": "And four hundred pomegranates on the two wreaths; two rows of pomegranates on each wreath, to cover the two pommels of the chapiters which were upon the pillars.",
+      "web": "and the four hundred pomegranates for the two networks; two rows of pomegranates for each network, to cover the two bowls of the capitals that were on the pillars.",
+      "ct": "the 400 pomegranates for the 2 networks — 2 rows of pomegranates on each network — covering the bowl-shaped capitals on top of the pillars;"
+    },
+    {
+      "verse": 14,
+      "kjv": "He made also bases, and lavers made he upon the bases;",
+      "web": "He also made the bases, and he made the basins on the bases;",
+      "ct": "the movable stands, and the basins mounted on them;"
+    },
+    {
+      "verse": 15,
+      "kjv": "One sea, and twelve oxen under it.",
+      "web": "one sea, and the twelve oxen under it.",
+      "ct": "the single great Sea, with the 12 oxen beneath it;"
+    },
+    {
+      "verse": 16,
+      "kjv": "The pots also, and the shovels, and the fleshhooks, and all their instruments, did Huram his father make to king Solomon for the house of the LORD of bright brass.",
+      "web": "Huram his father also made the pots, the shovels, the forks, and all its vessels for king Solomon, for LORD’s house, of bright bronze.",
+      "ct": "and the pots, shovels, meat forks, and all the related tools. Huram, Solomon's master craftsman, made all of these for the house of the LORD out of polished bronze."
+    },
+    {
+      "verse": 17,
+      "kjv": "In the plain of Jordan did the king cast them, in the clay ground between Succoth and Zeredathah.",
+      "web": "The king cast them in the plain of the Jordan, in the clay ground between Succoth and Zeredah.",
+      "ct": "The king had them cast in clay molds in the Jordan Valley, in the area between Succoth and Zeredathah."
+    },
+    {
+      "verse": 18,
+      "kjv": "Thus Solomon made all these vessels in great abundance: for the weight of the brass could not be found out.",
+      "web": "Thus Solomon made all these vessels in great abundance; for the weight of the bronze could not be determined.",
+      "ct": "Solomon made so many of these items that no one even tried to calculate the total weight of the bronze."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Solomon made all the vessels that were for the house of God, the golden altar also, and the tables whereon the shewbread was set;",
+      "web": "Solomon made all the vessels that were in God’s house, the golden altar also, and the tables with the show bread on them;",
+      "ct": "Solomon also made all the furnishings for the house of God: the golden altar, the tables that held the bread of the Presence,"
+    },
+    {
+      "verse": 20,
+      "kjv": "Moreover the candlesticks with their lamps, that they should burn after the manner before the oracle, of pure gold;",
+      "web": "and the lamp stands with their lamps, to burn according to the ordinance before the inner sanctuary, of pure gold;",
+      "ct": "the lampstands and their lamps of pure gold, designed to burn in front of the inner sanctuary as prescribed,"
+    },
+    {
+      "verse": 21,
+      "kjv": "And the flowers, and the lamps, and the tongs, made he of gold, and that perfect gold;",
+      "web": "and the flowers, the lamps, and the tongs of gold that was perfect gold;",
+      "ct": "the flower decorations, the lamps, and the tongs — all made of the finest gold;"
+    },
+    {
+      "verse": 22,
+      "kjv": "And the snuffers, and the basons, and the spoons, and the censers, of pure gold: and the entry of the house, the inner doors thereof for the most holy place, and the doors of the house of the temple, were of gold.",
+      "web": "and the snuffers, the basins, the spoons, and the fire pans of pure gold. As for the entry of the house, its inner doors for the most holy place and the doors of the main hall of the temple were of gold.",
+      "ct": "the wick trimmers, bowls, ladles, and firepans — all of pure gold. The doors at the entrance to the temple were also gold, both the inner doors leading to the Most Holy Place and the main doors of the temple hall."
+    }
+  ]
+}

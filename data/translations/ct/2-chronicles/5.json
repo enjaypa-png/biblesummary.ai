@@ -1,0 +1,95 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:12:13.418Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Thus all the work that Solomon made for the house of the LORD was finished: and Solomon brought in all the things that David his father had dedicated; and the silver, and the gold, and all the instruments, put he among the treasures of the house of God.",
+      "web": "Thus all the work that Solomon did for LORD’s house was finished. Solomon brought in the things that David his father had dedicated, even the silver, the gold, and all the vessels, and put them in the treasuries of God’s house.",
+      "ct": "When all the work Solomon had done for the house of the LORD was finally complete, he brought in everything his father David had dedicated — the silver, the gold, and all the sacred items — and placed them in the treasuries of God's house."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then Solomon assembled the elders of Israel, and all the heads of the tribes, the chief of the fathers of the children of Israel, unto Jerusalem, to bring up the ark of the covenant of the LORD out of the city of David, which is Zion.",
+      "web": "Then Solomon assembled the elders of Israel, and all the heads of the tribes, the princes of the fathers’ households of the children of Israel, to Jerusalem, to bring up the ark of LORD’s covenant out of David’s city, which is Zion.",
+      "ct": "Solomon then called together all the elders of Israel, the heads of every tribe, and the leaders of the ancestral families to Jerusalem. His purpose was to bring the ark of the covenant of the LORD up from the city of David, which is Zion."
+    },
+    {
+      "verse": 3,
+      "kjv": "Wherefore all the men of Israel assembled themselves unto the king in the feast which was in the seventh month.",
+      "web": "So all the men of Israel assembled themselves to the king at the feast, which was in the seventh month.",
+      "ct": "So all the men of Israel gathered before the king during the festival in the 7th month."
+    },
+    {
+      "verse": 4,
+      "kjv": "And all the elders of Israel came; and the Levites took up the ark.",
+      "web": "All the elders of Israel came. The Levites took up the ark;",
+      "ct": "Once all the elders of Israel arrived, the Levites lifted the ark."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they brought up the ark, and the tabernacle of the congregation, and all the holy vessels that were in the tabernacle, these did the priests and the Levites bring up.",
+      "web": "and they brought up the ark, the Tent of Meeting, and all the holy vessels that were in the Tent; these the Levitical priests brought up.",
+      "ct": "They carried the ark, the Tent of Meeting, and all the holy items that had been inside it. The Levitical priests brought everything up together."
+    },
+    {
+      "verse": 6,
+      "kjv": "Also king Solomon, and all the congregation of Israel that were assembled unto him before the ark, sacrificed sheep and oxen, which could not be told nor numbered for multitude.",
+      "web": "King Solomon and all the congregation of Israel, who were assembled to him, were before the ark, sacrificing sheep and cattle that could not be counted or numbered for multitude.",
+      "ct": "King Solomon and the entire assembly of Israel gathered in front of the ark and sacrificed so many sheep and cattle that no one could count them all."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the priests brought in the ark of the covenant of the LORD unto his place, to the oracle of the house, into the most holy place, even under the wings of the cherubims:",
+      "web": "The priests brought in the ark of LORD’s covenant to its place, into the inner sanctuary of the house, to the most holy place, even under the wings of the cherubim.",
+      "ct": "The priests carried the ark of the covenant of the LORD to its designated place — into the inner sanctuary of the temple, the most holy place — and set it beneath the wings of the cherubim."
+    },
+    {
+      "verse": 8,
+      "kjv": "For the cherubims spread forth their wings over the place of the ark, and the cherubims covered the ark and the staves thereof above.",
+      "web": "For the cherubim spread out their wings over the place of the ark, and the cherubim covered the ark and its poles above.",
+      "ct": "The cherubim spread their wings over the spot where the ark rested, covering both the ark and its carrying poles from above."
+    },
+    {
+      "verse": 9,
+      "kjv": "And they drew out the staves of the ark, that the ends of the staves were seen from the ark before the oracle; but they were not seen without. And there it is unto this day.",
+      "web": "The poles were so long that the ends of the poles were seen from the ark in front of the inner sanctuary; but they were not seen outside; and it is there to this day.",
+      "ct": "The poles were long enough that their ends could be seen extending from the ark in front of the inner sanctuary, but they couldn't be seen from outside. The ark remains there to this day."
+    },
+    {
+      "verse": 10,
+      "kjv": "There was nothing in the ark save the two tables which Moses put therein at Horeb, when the LORD made a covenant with the children of Israel, when they came out of Egypt.",
+      "web": "There was nothing in the ark except the two tablets which Moses put at Horeb, when LORD made a covenant with the children of Israel, when they came out of Egypt.",
+      "ct": "There was nothing inside the ark except the 2 stone tablets that Moses had placed there at Horeb, where the LORD made a covenant with the people of Israel after they came out of Egypt."
+    },
+    {
+      "verse": 11,
+      "kjv": "And it came to pass, when the priests were come out of the holy place: (for all the priests that were present were sanctified, and did not then wait by course:",
+      "web": "When the priests had come out of the holy place (for all the priests who were present had sanctified themselves, and didn’t keep their divisions;",
+      "ct": "When the priests came out of the holy place — every priest who was present had consecrated himself, setting aside their normal divisions —"
+    },
+    {
+      "verse": 12,
+      "kjv": "Also the Levites which were the singers, all of them of Asaph, of Heman, of Jeduthun, with their sons and their brethren, being arrayed in white linen, having cymbals and psalteries and harps, stood at the east end of the altar, and with them an hundred and twenty priests sounding with trumpets:)",
+      "web": "also the Levites who were the singers, all of them, even Asaph, Heman, Jeduthun, and their sons and their brothers, arrayed in fine linen, with cymbals and stringed instruments and harps, stood at the east end of the altar, and with them one hundred twenty priests sounding with trumpets);",
+      "ct": "all the Levite musicians — Asaph, Heman, Jeduthun, and their sons and relatives — stood at the east side of the altar dressed in fine white linen, playing cymbals, harps, and lyres. With them stood 120 priests blowing trumpets."
+    },
+    {
+      "verse": 13,
+      "kjv": "It came even to pass, as the trumpeters and singers were as one, to make one sound to be heard in praising and thanking the LORD; and when they lifted up their voice with the trumpets and cymbals and instruments of musick, and praised the LORD, saying, For he is good; for his mercy endureth for ever: that then the house was filled with a cloud, even the house of the LORD;",
+      "web": "when the trumpeters and singers were as one, to make one sound to be heard in praising and thanking LORD; and when they lifted up their voice with the trumpets and cymbals and instruments of music, and praised LORD, saying, “For he is good; for his loving kindness endures forever!” then the house was filled with a cloud, even LORD’s house,",
+      "ct": "The trumpeters and singers joined together as one voice, praising and thanking the LORD. As they raised the sound of trumpets, cymbals, and instruments and sang, \"For he is good; for his mercy endures forever!\" — a thick cloud filled the house of the LORD."
+    },
+    {
+      "verse": 14,
+      "kjv": "So that the priests could not stand to minister by reason of the cloud: for the glory of the LORD had filled the house of God.",
+      "web": "so that the priests could not stand to minister by reason of the cloud; for LORD’s glory filled God’s house.",
+      "ct": "The priests couldn't even stand to carry out their duties because of the cloud, for the glory of the LORD filled God's house."
+    }
+  ]
+}

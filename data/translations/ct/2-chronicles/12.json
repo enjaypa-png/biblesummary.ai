@@ -1,0 +1,107 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:14:45.074Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, when Rehoboam had established the kingdom, and had strengthened himself, he forsook the law of the LORD, and all Israel with him.",
+      "web": "When the kingdom of Rehoboam was established and he was strong, he abandoned LORD’s law, and all Israel with him.",
+      "ct": "Once Rehoboam had firmly established his kingdom and grown powerful, he abandoned the law of the LORD — and all Israel followed his lead."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it came to pass, that in the fifth year of king Rehoboam Shishak king of Egypt came up against Jerusalem, because they had transgressed against the LORD,",
+      "web": "In the fifth year of king Rehoboam, Shishak king of Egypt came up against Jerusalem, because they had trespassed against LORD,",
+      "ct": "Because they had sinned against the LORD, Shishak king of Egypt attacked Jerusalem in the 5th year of Rehoboam's reign."
+    },
+    {
+      "verse": 3,
+      "kjv": "With twelve hundred chariots, and threescore thousand horsemen: and the people were without number that came with him out of Egypt; the Lubims, the Sukkiims, and the Ethiopians.",
+      "web": "with twelve hundred chariots, and sixty thousand horsemen. The people were without number who came with him out of Egypt: the Lubim, the Sukkiim, and the Ethiopians.",
+      "ct": "Shishak brought 1,200 chariots, 60,000 horsemen, and a countless number of troops from Egypt — including Lubim, Sukkiim, and Ethiopian soldiers."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he took the fenced cities which pertained to Judah, and came to Jerusalem.",
+      "web": "He took the fortified cities which belonged to Judah, and came to Jerusalem.",
+      "ct": "He captured the fortified cities of Judah and then marched on Jerusalem."
+    },
+    {
+      "verse": 5,
+      "kjv": "Then came Shemaiah the prophet to Rehoboam, and to the princes of Judah, that were gathered together to Jerusalem because of Shishak, and said unto them, Thus saith the LORD, Ye have forsaken me, and therefore have I also left you in the hand of Shishak.",
+      "web": "Now Shemaiah the prophet came to Rehoboam, and to the princes of Judah, who were gathered together to Jerusalem because of Shishak, and said to them, “LORD says, ‘You have forsaken me, therefore I have also left you in the hand of Shishak.’ ”",
+      "ct": "The prophet Shemaiah came to Rehoboam and the leaders of Judah, who had gathered in Jerusalem because of Shishak's invasion. He told them, \"This is what the LORD says: 'You abandoned me, so I have handed you over to Shishak.'\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Whereupon the princes of Israel and the king humbled themselves; and they said, The LORD is righteous.",
+      "web": "Then the princes of Israel and the king humbled themselves; and they said, “LORD is righteous.”",
+      "ct": "At this, the king and the leaders of Israel humbled themselves and said, \"The LORD is righteous.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And when the LORD saw that they humbled themselves, the word of the LORD came to Shemaiah, saying, They have humbled themselves; therefore I will not destroy them, but I will grant them some deliverance; and my wrath shall not be poured out upon Jerusalem by the hand of Shishak.",
+      "web": "When LORD saw that they humbled themselves, LORD’s word came to Shemaiah, saying, “They have humbled themselves. I will not destroy them; but I will grant them some deliverance, and my wrath won’t be poured out on Jerusalem by the hand of Shishak.",
+      "ct": "When the LORD saw that they had humbled themselves, he gave this message to Shemaiah: \"They have humbled themselves, so I will not destroy them. I will give them some measure of deliverance, and my wrath will not be poured out on Jerusalem through Shishak.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Nevertheless they shall be his servants; that they may know my service, and the service of the kingdoms of the countries.",
+      "web": "Nevertheless they will be his servants, that they may know my service, and the service of the kingdoms of the countries.”",
+      "ct": "\"However, they will become his subjects, so they can learn the difference between serving me and serving the kingdoms of other nations.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "So Shishak king of Egypt came up against Jerusalem, and took away the treasures of the house of the LORD, and the treasures of the king’s house; he took all: he carried away also the shields of gold which Solomon had made.",
+      "web": "So Shishak king of Egypt came up against Jerusalem and took away the treasures of LORD’s house and the treasures of the king’s house. He took it all away. He also took away the shields of gold which Solomon had made.",
+      "ct": "So Shishak king of Egypt attacked Jerusalem and carried off the treasures from the LORD's temple and the royal palace. He took everything — including the gold shields that Solomon had made."
+    },
+    {
+      "verse": 10,
+      "kjv": "Instead of which king Rehoboam made shields of brass, and committed them to the hands of the chief of the guard, that kept the entrance of the king’s house.",
+      "web": "King Rehoboam made shields of bronze in their place, and committed them to the hands of the captains of the guard, who kept the door of the king’s house.",
+      "ct": "King Rehoboam replaced them with bronze shields and put them in the care of the captains of the royal guard who protected the entrance to the palace."
+    },
+    {
+      "verse": 11,
+      "kjv": "And when the king entered into the house of the LORD, the guard came and fetched them, and brought them again into the guard chamber.",
+      "web": "As often as the king entered into LORD’s house, the guard came and bore them, then brought them back into the guard room.",
+      "ct": "Whenever the king went to the LORD's temple, the guards would carry the shields and then return them to the guard room afterward."
+    },
+    {
+      "verse": 12,
+      "kjv": "And when he humbled himself, the wrath of the LORD turned from him, that he would not destroy him altogether: and also in Judah things went well.",
+      "web": "When he humbled himself, LORD’s wrath turned from him, so as not to destroy him altogether. Moreover, there were good things found in Judah.",
+      "ct": "Because Rehoboam humbled himself, the LORD's anger turned away from him, and the LORD chose not to destroy him completely. In fact, some good was still found in Judah."
+    },
+    {
+      "verse": 13,
+      "kjv": "So king Rehoboam strengthened himself in Jerusalem, and reigned: for Rehoboam was one and forty years old when he began to reign, and he reigned seventeen years in Jerusalem, the city which the LORD had chosen out of all the tribes of Israel, to put his name there. And his mother’s name was Naamah an Ammonitess.",
+      "web": "So king Rehoboam strengthened himself in Jerusalem and reigned; for Rehoboam was forty-one years old when he began to reign, and he reigned seventeen years in Jerusalem, the city which LORD had chosen out of all the tribes of Israel to put his name there. His mother’s name was Naamah the Ammonitess.",
+      "ct": "King Rehoboam reestablished himself in Jerusalem and continued to reign. He was 41 years old when he became king, and he ruled for 17 years in Jerusalem — the city the LORD had chosen from all the tribes of Israel as the place to put his name. His mother was Naamah, an Ammonitess."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he did evil, because he prepared not his heart to seek the LORD.",
+      "web": "He did that which was evil, because he didn’t set his heart to seek LORD.",
+      "ct": "The LORD saw that he was evil, because he never truly set his heart on seeking the LORD."
+    },
+    {
+      "verse": 15,
+      "kjv": "Now the acts of Rehoboam, first and last, are they not written in the book of Shemaiah the prophet, and of Iddo the seer concerning genealogies? And there were wars between Rehoboam and Jeroboam continually.",
+      "web": "Now the acts of Rehoboam, first and last, aren’t they written in the histories of Shemaiah the prophet and of Iddo the seer, in the genealogies? There were wars between Rehoboam and Jeroboam continually.",
+      "ct": "Everything else about Rehoboam's reign, from beginning to end, is recorded in the writings of Shemaiah the prophet and Iddo the seer, along with their genealogical records. Rehoboam and Jeroboam were constantly at war with each other."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Rehoboam slept with his fathers, and was buried in the city of David: and Abijah his son reigned in his stead.",
+      "web": "Rehoboam slept with his fathers, and was buried in David’s city; and Abijah his son reigned in his place.",
+      "ct": "Rehoboam died and was buried in the city of David. His son Abijah became king after him."
+    }
+  ]
+}

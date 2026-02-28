@@ -1,0 +1,197 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 24,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:08:50.152Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now these are the divisions of the sons of Aaron. The sons of Aaron; Nadab, and Abihu, Eleazar, and Ithamar.",
+      "web": "These were the divisions of the sons of Aaron. The sons of Aaron: Nadab, Abihu, Eleazar, and Ithamar.",
+      "ct": "Here is how the descendants of Aaron were divided into groups for service. Aaron's sons were Nadab, Abihu, Eleazar, and Ithamar."
+    },
+    {
+      "verse": 2,
+      "kjv": "But Nadab and Abihu died before their father, and had no children: therefore Eleazar and Ithamar executed the priest’s office.",
+      "web": "But Nadab and Abihu died before their father, and had no children: therefore Eleazar and Ithamar executed the priest’s office.",
+      "ct": "Nadab and Abihu died before their father and had no children, so Eleazar and Ithamar carried on as priests."
+    },
+    {
+      "verse": 3,
+      "kjv": "And David distributed them, both Zadok of the sons of Eleazar, and Ahimelech of the sons of Ithamar, according to their offices in their service.",
+      "web": "David with Zadok of the sons of Eleazar and Ahimelech of the sons of Ithamar, divided them according to their ordering in their service.",
+      "ct": "David organized them into divisions for their duties, working with Zadok (a descendant of Eleazar) and Ahimelech (a descendant of Ithamar)."
+    },
+    {
+      "verse": 4,
+      "kjv": "And there were more chief men found of the sons of Eleazar than of the sons of Ithamar; and thus were they divided. Among the sons of Eleazar there were sixteen chief men of the house of their fathers, and eight among the sons of Ithamar according to the house of their fathers.",
+      "web": "There were more chief men found of the sons of Eleazar than of the sons of Ithamar; and they were divided like this: of the sons of Eleazar there were sixteen, heads of fathers’ houses; and of the sons of Ithamar, according to their fathers’ houses, eight.",
+      "ct": "Since Eleazar's line had more leading men than Ithamar's, the divisions were split accordingly: 16 family heads from Eleazar's line and 8 from Ithamar's."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thus were they divided by lot, one sort with another; for the governors of the sanctuary, and governors of the house of God, were of the sons of Eleazar, and of the sons of Ithamar.",
+      "web": "Thus they were divided impartially by drawing lots; for there were princes of the sanctuary, and princes of God, both of the sons of Eleazar, and of the sons of Ithamar.",
+      "ct": "They were assigned by drawing lots to keep things fair, since both Eleazar's and Ithamar's descendants included leaders of the sanctuary and leaders who served God."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Shemaiah the son of Nethaneel the scribe, one of the Levites, wrote them before the king, and the princes, and Zadok the priest, and Ahimelech the son of Abiathar, and before the chief of the fathers of the priests and Levites: one principal household being taken for Eleazar, and one taken for Ithamar.",
+      "web": "Shemaiah the son of Nethanel the scribe, who was of the Levites, wrote them in the presence of the king, the princes, Zadok the priest, Ahimelech the son of Abiathar, and the heads of the fathers’ households of the priests and of the Levites; one fathers’ house being taken for Eleazar, and one taken for Ithamar.",
+      "ct": "Shemaiah son of Nethanel, a Levite scribe, recorded the assignments in the presence of King David, the officials, Zadok the priest, Ahimelech son of Abiathar, and the family heads of the priests and Levites. One family was selected from Eleazar's line, then one from Ithamar's, alternating back and forth."
+    },
+    {
+      "verse": 7,
+      "kjv": "Now the first lot came forth to Jehoiarib, the second to Jedaiah,",
+      "web": "Now the first lot came out to Jehoiarib, the second to Jedaiah,",
+      "ct": "The 1st lot went to Jehoiarib, the 2nd to Jedaiah,"
+    },
+    {
+      "verse": 8,
+      "kjv": "The third to Harim, the fourth to Seorim,",
+      "web": "the third to Harim, the fourth to Seorim,",
+      "ct": "the 3rd to Harim, the 4th to Seorim,"
+    },
+    {
+      "verse": 9,
+      "kjv": "The fifth to Malchijah, the sixth to Mijamin,",
+      "web": "the fifth to Malchijah, the sixth to Mijamin,",
+      "ct": "the 5th to Malchijah, the 6th to Mijamin,"
+    },
+    {
+      "verse": 10,
+      "kjv": "The seventh to Hakkoz, the eighth to Abijah,",
+      "web": "the seventh to Hakkoz, the eighth to Abijah,",
+      "ct": "the 7th to Hakkoz, the 8th to Abijah,"
+    },
+    {
+      "verse": 11,
+      "kjv": "The ninth to Jeshuah, the tenth to Shecaniah,",
+      "web": "the ninth to Jeshua, the tenth to Shecaniah,",
+      "ct": "the 9th to Jeshua, the 10th to Shecaniah,"
+    },
+    {
+      "verse": 12,
+      "kjv": "The eleventh to Eliashib, the twelfth to Jakim,",
+      "web": "the eleventh to Eliashib, the twelfth to Jakim,",
+      "ct": "the 11th to Eliashib, the 12th to Jakim,"
+    },
+    {
+      "verse": 13,
+      "kjv": "The thirteenth to Huppah, the fourteenth to Jeshebeab,",
+      "web": "the thirteenth to Huppah, the fourteenth to Jeshebeab,",
+      "ct": "the 13th to Huppah, the 14th to Jeshebeab,"
+    },
+    {
+      "verse": 14,
+      "kjv": "The fifteenth to Bilgah, the sixteenth to Immer,",
+      "web": "the fifteenth to Bilgah, the sixteenth to Immer,",
+      "ct": "the 15th to Bilgah, the 16th to Immer,"
+    },
+    {
+      "verse": 15,
+      "kjv": "The seventeenth to Hezir, the eighteenth to Aphses,",
+      "web": "the seventeenth to Hezir, the eighteenth to Happizzez,",
+      "ct": "the 17th to Hezir, the 18th to Aphses,"
+    },
+    {
+      "verse": 16,
+      "kjv": "The nineteenth to Pethahiah, the twentieth to Jehezekel,",
+      "web": "the nineteenth to Pethahiah, the twentieth to Jehezkel,",
+      "ct": "the 19th to Pethahiah, the 20th to Jehezekel,"
+    },
+    {
+      "verse": 17,
+      "kjv": "The one and twentieth to Jachin, the two and twentieth to Gamul,",
+      "web": "the twenty-first to Jachin, the twenty-second to Gamul,",
+      "ct": "the 21st to Jachin, the 22nd to Gamul,"
+    },
+    {
+      "verse": 18,
+      "kjv": "The three and twentieth to Delaiah, the four and twentieth to Maaziah.",
+      "web": "the twenty-third to Delaiah, and the twenty-fourth to Maaziah.",
+      "ct": "the 23rd to Delaiah, and the 24th to Maaziah."
+    },
+    {
+      "verse": 19,
+      "kjv": "These were the orderings of them in their service to come into the house of the LORD, according to their manner, under Aaron their father, as the LORD God of Israel had commanded him.",
+      "web": "This was their ordering in their service, to come into LORD’s house according to the ordinance given to them by Aaron their father, as LORD, the God of Israel, had commanded him.",
+      "ct": "This was the order in which they would take turns serving at the house of the LORD, following the regulations that their ancestor Aaron had established, just as the LORD, the God of Israel, had commanded him."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the rest of the sons of Levi were these: Of the sons of Amram; Shubael: of the sons of Shubael; Jehdeiah.",
+      "web": "Of the rest of the sons of Levi: of the sons of Amram, Shubael; of the sons of Shubael, Jehdeiah.",
+      "ct": "As for the rest of the Levites: from the descendants of Amram came Shubael, and from Shubael's descendants, Jehdeiah."
+    },
+    {
+      "verse": 21,
+      "kjv": "Concerning Rehabiah: of the sons of Rehabiah, the first was Isshiah.",
+      "web": "Of Rehabiah: of the sons of Rehabiah, Isshiah the chief.",
+      "ct": "From Rehabiah's descendants, the leading one was Isshiah."
+    },
+    {
+      "verse": 22,
+      "kjv": "Of the Izharites; Shelomoth: of the sons of Shelomoth; Jahath.",
+      "web": "Of the Izharites, Shelomoth; of the sons of Shelomoth, Jahath.",
+      "ct": "From the Izharites came Shelomoth, and from Shelomoth's descendants, Jahath."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the sons of Hebron; Jeriah the first, Amariah the second, Jahaziel the third, Jekameam the fourth.",
+      "web": "The sons of Hebron: Jeriah, Amariah the second, Jahaziel the third, and Jekameam the fourth.",
+      "ct": "The sons of Hebron were Jeriah the firstborn, Amariah the 2nd, Jahaziel the 3rd, and Jekameam the 4th."
+    },
+    {
+      "verse": 24,
+      "kjv": "Of the sons of Uzziel; Michah: of the sons of Michah; Shamir.",
+      "web": "The sons of Uzziel: Micah; of the sons of Micah, Shamir.",
+      "ct": "From the descendants of Uzziel came Michah, and from Michah's descendants, Shamir."
+    },
+    {
+      "verse": 25,
+      "kjv": "The brother of Michah was Isshiah: of the sons of Isshiah; Zechariah.",
+      "web": "The brother of Micah: Isshiah; of the sons of Isshiah, Zechariah.",
+      "ct": "Michah's brother was Isshiah, and from Isshiah's descendants came Zechariah."
+    },
+    {
+      "verse": 26,
+      "kjv": "The sons of Merari were Mahli and Mushi: the sons of Jaaziah; Beno.",
+      "web": "The sons of Merari: Mahli and Mushi. The son of Jaaziah: Beno.",
+      "ct": "The descendants of Merari were Mahli and Mushi. From Jaaziah came his son Beno."
+    },
+    {
+      "verse": 27,
+      "kjv": "The sons of Merari by Jaaziah; Beno, and Shoham, and Zaccur, and Ibri.",
+      "web": "The sons of Merari: of Jaaziah, Beno, Shoham, Zaccur, and Ibri.",
+      "ct": "Merari's descendants through Jaaziah included Beno, Shoham, Zaccur, and Ibri."
+    },
+    {
+      "verse": 28,
+      "kjv": "Of Mahli came Eleazar, who had no sons.",
+      "web": "Of Mahli: Eleazar, who had no sons.",
+      "ct": "From Mahli came Eleazar, who had no sons."
+    },
+    {
+      "verse": 29,
+      "kjv": "Concerning Kish: the son of Kish was Jerahmeel.",
+      "web": "Of Kish, the son of Kish: Jerahmeel.",
+      "ct": "From Kish came his son Jerahmeel."
+    },
+    {
+      "verse": 30,
+      "kjv": "The sons also of Mushi; Mahli, and Eder, and Jerimoth. These were the sons of the Levites after the house of their fathers.",
+      "web": "The sons of Mushi: Mahli, Eder, and Jerimoth. These were the sons of the Levites after their fathers’ houses.",
+      "ct": "The sons of Mushi were Mahli, Eder, and Jerimoth. These were the Levites listed by their family lines."
+    },
+    {
+      "verse": 31,
+      "kjv": "These likewise cast lots over against their brethren the sons of Aaron in the presence of David the king, and Zadok, and Ahimelech, and the chief of the fathers of the priests and Levites, even the principal fathers over against their younger brethren.",
+      "web": "These likewise cast lots even as their brothers the sons of Aaron in the presence of David the king, Zadok, Ahimelech, and the heads of the fathers’ households of the priests and of the Levites; the fathers’ households of the chief even as those of his younger brother.",
+      "ct": "Just like their relatives the descendants of Aaron, these Levites also cast lots for their assignments in the presence of King David, Zadok, Ahimelech, and the family heads of the priests and Levites. The senior families were treated the same as the junior ones."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 23,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:08:31.311Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "So when David was old and full of days, he made Solomon his son king over Israel.",
+      "web": "Now David was old and full of days; and he made Solomon his son king over Israel.",
+      "ct": "When David was old and had lived a long, full life, he made his son Solomon king over Israel."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he gathered together all the princes of Israel, with the priests and the Levites.",
+      "web": "He gathered together all the princes of Israel, with the priests and the Levites.",
+      "ct": "He gathered all the leaders of Israel, along with the priests and the Levites."
+    },
+    {
+      "verse": 3,
+      "kjv": "Now the Levites were numbered from the age of thirty years and upward: and their number by their polls, man by man, was thirty and eight thousand.",
+      "web": "The Levites were counted from thirty years old and upward; and their number by their polls, man by man, was thirty-eight thousand.",
+      "ct": "The Levites who were 30 years old and above were counted, and the total came to 38,000 men."
+    },
+    {
+      "verse": 4,
+      "kjv": "Of which, twenty and four thousand were to set forward the work of the house of the LORD; and six thousand were officers and judges:",
+      "web": "David said, “Of these, twenty-four thousand were to oversee the work of LORD’s house, six thousand were officers and judges,",
+      "ct": "David said, \"Of these, 24,000 are to oversee the work of the LORD's house, 6,000 are to serve as officers and judges,"
+    },
+    {
+      "verse": 5,
+      "kjv": "Moreover four thousand were porters; and four thousand praised the LORD with the instruments which I made, said David, to praise therewith.",
+      "web": "four thousand were doorkeepers, and four thousand praised LORD with the instruments which I made for giving praise.”",
+      "ct": "4,000 are to be gatekeepers, and 4,000 are to praise the LORD with the instruments I had made for that purpose.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And David divided them into courses among the sons of Levi, namely, Gershon, Kohath, and Merari.",
+      "web": "David divided them into divisions according to the sons of Levi: Gershon, Kohath, and Merari.",
+      "ct": "David organized them into divisions based on the 3 sons of Levi: Gershon, Kohath, and Merari."
+    },
+    {
+      "verse": 7,
+      "kjv": "Of the Gershonites were, Laadan, and Shimei.",
+      "web": "Of the Gershonites: Ladan and Shimei.",
+      "ct": "From the Gershonites came Laadan and Shimei."
+    },
+    {
+      "verse": 8,
+      "kjv": "The sons of Laadan; the chief was Jehiel, and Zetham, and Joel, three.",
+      "web": "The sons of Ladan: Jehiel the chief, Zetham, and Joel, three.",
+      "ct": "Laadan had 3 sons: Jehiel was the leader, followed by Zetham and Joel."
+    },
+    {
+      "verse": 9,
+      "kjv": "The sons of Shimei; Shelomith, and Haziel, and Haran, three. These were the chief of the fathers of Laadan.",
+      "web": "The sons of Shimei: Shelomoth, Haziel, and Haran, three. These were the heads of the fathers’ households of Ladan.",
+      "ct": "Shimei had 3 sons: Shelomith, Haziel, and Haran. These were the heads of Laadan's family clans."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the sons of Shimei were, Jahath, Zina, and Jeush, and Beriah. These four were the sons of Shimei.",
+      "web": "The sons of Shimei: Jahath, Zina, Jeush, and Beriah. These four were the sons of Shimei.",
+      "ct": "Shimei also had 4 other sons: Jahath, Zina, Jeush, and Beriah."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Jahath was the chief, and Zizah the second: but Jeush and Beriah had not many sons; therefore they were in one reckoning, according to their father’s house.",
+      "web": "Jahath was the chief, and Zizah the second; but Jeush and Beriah didn’t have many sons; therefore they became a fathers’ house in one reckoning.",
+      "ct": "Jahath was the leader and Zizah was second. Jeush and Beriah didn't have many sons, so they were counted together as one family clan."
+    },
+    {
+      "verse": 12,
+      "kjv": "The sons of Kohath; Amram, Izhar, Hebron, and Uzziel, four.",
+      "web": "The sons of Kohath: Amram, Izhar, Hebron, and Uzziel, four.",
+      "ct": "Kohath had 4 sons: Amram, Izhar, Hebron, and Uzziel."
+    },
+    {
+      "verse": 13,
+      "kjv": "The sons of Amram; Aaron and Moses: and Aaron was separated, that he should sanctify the most holy things, he and his sons for ever, to burn incense before the LORD, to minister unto him, and to bless in his name for ever.",
+      "web": "The sons of Amram: Aaron and Moses; and Aaron was separated, that he should sanctify the most holy things, he and his sons, forever, to burn incense before LORD, to minister to him, and to bless in his name, forever.",
+      "ct": "Amram's sons were Aaron and Moses. Aaron was set apart — he and his descendants forever — to consecrate the most holy things, to burn incense before the LORD, to serve him, and to pronounce blessings in his name for all time."
+    },
+    {
+      "verse": 14,
+      "kjv": "Now concerning Moses the man of God, his sons were named of the tribe of Levi.",
+      "web": "But as for Moses the man of God, his sons were named among the tribe of Levi.",
+      "ct": "As for Moses, the man of God, his sons were counted as part of the tribe of Levi."
+    },
+    {
+      "verse": 15,
+      "kjv": "The sons of Moses were, Gershom, and Eliezer.",
+      "web": "The sons of Moses: Gershom and Eliezer.",
+      "ct": "Moses' sons were Gershom and Eliezer."
+    },
+    {
+      "verse": 16,
+      "kjv": "Of the sons of Gershom, Shebuel was the chief.",
+      "web": "The sons of Gershom: Shebuel the chief.",
+      "ct": "From Gershom's descendants, Shebuel was the leader."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the sons of Eliezer were, Rehabiah the chief. And Eliezer had none other sons; but the sons of Rehabiah were very many.",
+      "web": "The sons of Eliezer were: Rehabiah the chief; and Eliezer had no other sons; but the sons of Rehabiah were very many.",
+      "ct": "From Eliezer's descendants, Rehabiah was the leader. Eliezer had no other sons, but Rehabiah's descendants were very numerous."
+    },
+    {
+      "verse": 18,
+      "kjv": "Of the sons of Izhar; Shelomith the chief.",
+      "web": "The sons of Izhar: Shelomith the chief.",
+      "ct": "From Izhar's descendants, Shelomith was the leader."
+    },
+    {
+      "verse": 19,
+      "kjv": "Of the sons of Hebron; Jeriah the first, Amariah the second, Jahaziel the third, and Jekameam the fourth.",
+      "web": "The sons of Hebron: Jeriah the chief, Amariah the second, Jahaziel the third, and Jekameam the fourth.",
+      "ct": "From Hebron's descendants: Jeriah was the first, Amariah the second, Jahaziel the third, and Jekameam the fourth."
+    },
+    {
+      "verse": 20,
+      "kjv": "Of the sons of Uzziel; Micah the first, and Jesiah the second.",
+      "web": "The sons of Uzziel: Micah the chief, and Isshiah the second.",
+      "ct": "From Uzziel's descendants: Micah was the first and Jesiah the second."
+    },
+    {
+      "verse": 21,
+      "kjv": "The sons of Merari; Mahli, and Mushi. The sons of Mahli; Eleazar, and Kish.",
+      "web": "The sons of Merari: Mahli and Mushi. The sons of Mahli: Eleazar and Kish.",
+      "ct": "Merari's sons were Mahli and Mushi. Mahli's sons were Eleazar and Kish."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Eleazar died, and had no sons, but daughters: and their brethren the sons of Kish took them.",
+      "web": "Eleazar died, and had no sons, but daughters only: and their brothers the sons of Kish took them as wives.",
+      "ct": "Eleazar died without having any sons — only daughters. Their relatives, the sons of Kish, married them."
+    },
+    {
+      "verse": 23,
+      "kjv": "The sons of Mushi; Mahli, and Eder, and Jeremoth, three.",
+      "web": "The sons of Mushi: Mahli, Eder, and Jeremoth, three.",
+      "ct": "Mushi had 3 sons: Mahli, Eder, and Jeremoth."
+    },
+    {
+      "verse": 24,
+      "kjv": "These were the sons of Levi after the house of their fathers; even the chief of the fathers, as they were counted by number of names by their polls, that did the work for the service of the house of the LORD, from the age of twenty years and upward.",
+      "web": "These were the sons of Levi after their fathers’ houses, even the heads of the fathers’ houses of those who were counted individually, in the number of names by their polls, who did the work for the service of LORD’s house, from twenty years old and upward.",
+      "ct": "These were the descendants of Levi listed by their family clans — the heads of each clan, counted individually by name. They carried out the work of serving in the LORD's house, from 20 years old and above."
+    },
+    {
+      "verse": 25,
+      "kjv": "For David said, The LORD God of Israel hath given rest unto his people, that they may dwell in Jerusalem for ever:",
+      "web": "For David said, “LORD, the God of Israel, has given rest to his people; and he dwells in Jerusalem forever.",
+      "ct": "David explained it this way: \"The LORD, the God of Israel, has given his people peace, and he has chosen to dwell in Jerusalem forever."
+    },
+    {
+      "verse": 26,
+      "kjv": "And also unto the Levites; they shall no more carry the tabernacle, nor any vessels of it for the service thereof.",
+      "web": "Also the Levites will no longer need to carry the tabernacle and all its vessels for its service.”",
+      "ct": "So the Levites no longer need to carry the tabernacle or any of its equipment for service.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "For by the last words of David the Levites were numbered from twenty years old and above:",
+      "web": "For by the last words of David the sons of Levi were counted, from twenty years old and upward.",
+      "ct": "According to David's final instructions, the Levites were counted from 20 years old and above."
+    },
+    {
+      "verse": 28,
+      "kjv": "Because their office was to wait on the sons of Aaron for the service of the house of the LORD, in the courts, and in the chambers, and in the purifying of all holy things, and the work of the service of the house of God;",
+      "web": "For their office was to wait on the sons of Aaron for the service of LORD’s house, in the courts, and in the rooms, and in the purifying of all holy things, even the work of the service of God’s house;",
+      "ct": "Their job was to assist Aaron's descendants in the service of the LORD's house — working in the courtyards, the storerooms, and the purification of all the holy items, along with every other task related to God's house."
+    },
+    {
+      "verse": 29,
+      "kjv": "Both for the shewbread, and for the fine flour for meat offering, and for the unleavened cakes, and for that which is baked in the pan, and for that which is fried, and for all manner of measure and size;",
+      "web": "for the show bread also, and for the fine flour for a meal offering, whether of unleavened wafers, or of that which is baked in the pan, or of that which is soaked, and for all measurements of quantity and size;",
+      "ct": "They were responsible for the bread of the Presence, the fine flour for grain offerings, the unleavened wafers, the baked goods, the fried offerings, and all measurements of weight and volume."
+    },
+    {
+      "verse": 30,
+      "kjv": "And to stand every morning to thank and praise the LORD, and likewise at even;",
+      "web": "and to stand every morning to thank and praise LORD, and likewise in the evening;",
+      "ct": "They were also to stand every morning to thank and praise the LORD, and to do the same every evening."
+    },
+    {
+      "verse": 31,
+      "kjv": "And to offer all burnt sacrifices unto the LORD in the sabbaths, in the new moons, and on the set feasts, by number, according to the order commanded unto them, continually before the LORD:",
+      "web": "and to offer all burnt offerings to LORD, on the Sabbaths, on the new moons, and on the set feasts, in number according to the ordinance concerning them, continually before LORD;",
+      "ct": "They assisted with all the burnt offerings presented to the LORD on Sabbaths, at New Moon festivals, and during appointed feasts — always in the proper number and according to the regulations — continually before the LORD."
+    },
+    {
+      "verse": 32,
+      "kjv": "And that they should keep the charge of the tabernacle of the congregation, and the charge of the holy place, and the charge of the sons of Aaron their brethren, in the service of the house of the LORD.",
+      "web": "and that they should keep the duty of the Tent of Meeting, the duty of the holy place, and the duty of the sons of Aaron their brothers, for the service of LORD’s house.",
+      "ct": "In this way, they fulfilled their duties at the Tent of Meeting and the holy place, serving alongside their relatives, the descendants of Aaron, in the work of the LORD's house."
+    }
+  ]
+}

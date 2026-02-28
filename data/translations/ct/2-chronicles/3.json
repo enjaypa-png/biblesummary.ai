@@ -1,0 +1,113 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:11:40.919Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then Solomon began to build the house of the LORD at Jerusalem in mount Moriah, where the Lord appeared unto David his father, in the place that David had prepared in the threshingfloor of Ornan the Jebusite.",
+      "web": "Then Solomon began to build LORD’s house at Jerusalem on Mount Moriah, where LORD appeared to David his father, which he prepared in the place that David had appointed, on the threshing floor of Ornan the Jebusite.",
+      "ct": "Solomon began building the house of the LORD in Jerusalem on Mount Moriah, where the LORD had appeared to his father David. This was the site David had prepared — the threshing floor of Ornan the Jebusite."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he began to build in the second day of the second month, in the fourth year of his reign.",
+      "web": "He began to build in the second day of the second month, in the fourth year of his reign.",
+      "ct": "Construction began on the 2nd day of the 2nd month, in the 4th year of Solomon's reign."
+    },
+    {
+      "verse": 3,
+      "kjv": "Now these are the things wherein Solomon was instructed for the building of the house of God. The length by cubits after the first measure was threescore cubits, and the breadth twenty cubits.",
+      "web": "Now these are the foundations which Solomon laid for the building of God’s house. The length by cubits after the first measure was sixty cubits, and the width twenty cubits.",
+      "ct": "Here are the foundation measurements Solomon established for God's house, using the older standard of measurement: the building was 60 cubits long and 20 cubits wide."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the porch that was in the front of the house, the length of it was according to the breadth of the house, twenty cubits, and the height was an hundred and twenty: and he overlaid it within with pure gold.",
+      "web": "The porch that was in front, its length, according to the width of the house, was twenty cubits, and the height one hundred twenty; and he overlaid it within with pure gold.",
+      "ct": "The entrance porch stretched across the full 20-cubit width of the building and rose to a height of 120 cubits. Solomon overlaid its interior with pure gold."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the greater house he cieled with fir tree, which he overlaid with fine gold, and set thereon palm trees and chains.",
+      "web": "He made the larger room with a ceiling of cypress wood, which he overlaid with fine gold, and ornamented it with palm trees and chains.",
+      "ct": "He lined the main hall with cypress wood, then covered it with fine gold and decorated it with carved palm trees and chain designs."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he garnished the house with precious stones for beauty: and the gold was gold of Parvaim.",
+      "web": "He decorated the house with precious stones for beauty. The gold was gold from Parvaim.",
+      "ct": "He adorned the house with precious stones for beauty. The gold he used came from Parvaim."
+    },
+    {
+      "verse": 7,
+      "kjv": "He overlaid also the house, the beams, the posts, and the walls thereof, and the doors thereof, with gold; and graved cherubims on the walls.",
+      "web": "He also overlaid the house, the beams, the thresholds, its walls, and its doors with gold; and engraved cherubim on the walls.",
+      "ct": "He covered the entire house with gold — the beams, the thresholds, the walls, and the doors — and carved cherubim into the walls."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he made the most holy house, the length whereof was according to the breadth of the house, twenty cubits, and the breadth thereof twenty cubits: and he overlaid it with fine gold, amounting to six hundred talents.",
+      "web": "He made the most holy place. Its length, according to the width of the house, was twenty cubits, and its width twenty cubits; and he overlaid it with fine gold, amounting to six hundred talents.",
+      "ct": "He constructed the Most Holy Place, which was 20 cubits long and 20 cubits wide, matching the width of the house. He overlaid it with fine gold totaling 600 talents."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the weight of the nails was fifty shekels of gold. And he overlaid the upper chambers with gold.",
+      "web": "The weight of the nails was fifty shekels of gold. He overlaid the upper rooms with gold.",
+      "ct": "The gold nails alone weighed 50 shekels. He also covered the upper rooms with gold."
+    },
+    {
+      "verse": 10,
+      "kjv": "And in the most holy house he made two cherubims of image work, and overlaid them with gold.",
+      "web": "In the most holy place he made two cherubim by carving; and they overlaid them with gold.",
+      "ct": "Inside the Most Holy Place, he had two cherubim carved and overlaid with gold."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the wings of the cherubims were twenty cubits long: one wing of the one cherub was five cubits, reaching to the wall of the house: and the other wing was likewise five cubits, reaching to the wing of the other cherub.",
+      "web": "The wings of the cherubim were twenty cubits long: the wing of the one was five cubits, reaching to the wall of the house; and the other wing was five cubits, reaching to the wing of the other cherub.",
+      "ct": "The combined wingspan of the cherubim was 20 cubits. One wing of the first cherub was 5 cubits long and touched the wall of the house, while its other wing was also 5 cubits long and reached the wing of the second cherub."
+    },
+    {
+      "verse": 12,
+      "kjv": "And one wing of the other cherub was five cubits, reaching to the wall of the house: and the other wing was five cubits also, joining to the wing of the other cherub.",
+      "web": "The wing of the other cherub was five cubits, reaching to the wall of the house; and the other wing was five cubits, joining to the wing of the other cherub.",
+      "ct": "Likewise, one wing of the second cherub was 5 cubits long and touched the opposite wall, while its other wing was 5 cubits long and met the wing of the first cherub."
+    },
+    {
+      "verse": 13,
+      "kjv": "The wings of these cherubims spread themselves forth twenty cubits: and they stood on their feet, and their faces were inward.",
+      "web": "The wings of these cherubim spread themselves out twenty cubits. They stood on their feet, and their faces were toward the house.",
+      "ct": "Together, the wings of these cherubim stretched out 20 cubits. They stood on their feet, facing toward the main hall."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he made the vail of blue, and purple, and crimson, and fine linen, and wrought cherubims thereon.",
+      "web": "He made the veil of blue, purple, crimson, and fine linen, and ornamented it with cherubim.",
+      "ct": "Solomon made the veil from blue, purple, and crimson yarn woven with fine linen, and he decorated it with cherubim."
+    },
+    {
+      "verse": 15,
+      "kjv": "Also he made before the house two pillars of thirty and five cubits high, and the chapiter that was on the top of each of them was five cubits.",
+      "web": "Also he made before the house two pillars of thirty-five cubits height, and the capital that was on the top of each of them was five cubits.",
+      "ct": "In front of the house he erected 2 pillars, each 35 cubits tall, with a capital on top of each that was 5 cubits high."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he made chains, as in the oracle, and put them on the heads of the pillars; and made an hundred pomegranates, and put them on the chains.",
+      "web": "He made chains in the inner sanctuary, and put them on the tops of the pillars; and he made one hundred pomegranates, and put them on the chains.",
+      "ct": "He crafted chains like those in the inner sanctuary and placed them on top of the pillars. He also made 100 pomegranates and attached them to the chains."
+    },
+    {
+      "verse": 17,
+      "kjv": "And he reared up the pillars before the temple, one on the right hand, and the other on the left; and called the name of that on the right hand Jachin, and the name of that on the left Boaz.",
+      "web": "He set up the pillars before the temple, one on the right hand, and the other on the left; and called the name of that on the right hand Jachin, and the name of that on the left Boaz.",
+      "ct": "He set up the pillars at the front of the temple, one on the right and one on the left. He named the one on the right Jachin and the one on the left Boaz."
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:05:12.576Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now these are they that came to David to Ziklag, while he yet kept himself close because of Saul the son of Kish: and they were among the mighty men, helpers of the war.",
+      "web": "Now these are those who came to David to Ziklag, while he was a fugitive from Saul the son of Kish. They were among the mighty men, his helpers in war.",
+      "ct": "These are the warriors who came to David at Ziklag while he was hiding from Saul son of Kish. They were among his mighty men who helped him in battle."
+    },
+    {
+      "verse": 2,
+      "kjv": "They were armed with bows, and could use both the right hand and the left in hurling stones and shooting arrows out of a bow, even of Saul’s brethren of Benjamin.",
+      "web": "They were armed with bows, and could use both the right hand and the left in slinging stones and in shooting arrows from the bow. They were of Saul’s relatives of the tribe of Benjamin.",
+      "ct": "They were skilled with bows and could sling stones and shoot arrows with either hand. They were from the tribe of Benjamin — Saul's own relatives."
+    },
+    {
+      "verse": 3,
+      "kjv": "The chief was Ahiezer, then Joash, the sons of Shemaah the Gibeathite; and Jeziel, and Pelet, the sons of Azmaveth; and Berachah, and Jehu the Antothite,",
+      "web": "The chief was Ahiezer, then Joash, the sons of Shemaah the Gibeathite; Jeziel and Pelet, the sons of Azmaveth; Beracah; Jehu the Anathothite;",
+      "ct": "Their leader was Ahiezer, then Joash — both sons of Shemaah the Gibeathite. There were also Jeziel and Pelet, sons of Azmaveth; Berachah; and Jehu the Antothite."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Ismaiah the Gibeonite, a mighty man among the thirty, and over the thirty; and Jeremiah, and Jahaziel, and Johanan, and Josabad the Gederathite,",
+      "web": "Ishmaiah the Gibeonite, a mighty man among the thirty and a leader of the thirty; Jeremiah; Jahaziel; Johanan; Jozabad the Gederathite;",
+      "ct": "Ismaiah the Gibeonite was a mighty warrior among the 30 and a leader over them. Also Jeremiah, Jahaziel, Johanan, and Josabad the Gederathite."
+    },
+    {
+      "verse": 5,
+      "kjv": "Eluzai, and Jerimoth, and Bealiah, and Shemariah, and Shephatiah the Haruphite,",
+      "web": "Eluzai; Jerimoth; Bealiah; Shemariah; Shephatiah the Haruphite;",
+      "ct": "Eluzai, Jerimoth, Bealiah, Shemariah, and Shephatiah the Haruphite."
+    },
+    {
+      "verse": 6,
+      "kjv": "Elkanah, and Jesiah, and Azareel, and Joezer, and Jashobeam, the Korhites,",
+      "web": "Elkanah, Isshiah Azarel, Joezer, and Jashobeam, the Korahites;",
+      "ct": "Elkanah, Jesiah, Azareel, Joezer, and Jashobeam — all Korhites."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Joelah, and Zebadiah, the sons of Jeroham of Gedor.",
+      "web": "and Joelah and Zebadiah, the sons of Jeroham of Gedor.",
+      "ct": "Joelah and Zebadiah, sons of Jeroham of Gedor."
+    },
+    {
+      "verse": 8,
+      "kjv": "And of the Gadites there separated themselves unto David into the hold to the wilderness men of might, and men of war fit for the battle, that could handle shield and buckler, whose faces were like the faces of lions, and were as swift as the roes upon the mountains;",
+      "web": "Some Gadites joined David in the stronghold in the wilderness, mighty men of valor, men trained for war, who could handle shield and spear; whose faces were like the faces of lions, and they were as swift as the gazelles on the mountains:",
+      "ct": "Some men from the tribe of Gad also came to David at his wilderness stronghold. They were fierce warriors trained for battle, skilled with shield and spear. Their faces were as intense as lions, and they were as fast as gazelles on the mountains."
+    },
+    {
+      "verse": 9,
+      "kjv": "Ezer the first, Obadiah the second, Eliab the third,",
+      "web": "Ezer the chief, Obadiah the second, Eliab the third,",
+      "ct": "Ezer was the first, Obadiah the 2nd, Eliab the 3rd,"
+    },
+    {
+      "verse": 10,
+      "kjv": "Mishmannah the fourth, Jeremiah the fifth,",
+      "web": "Mishmannah the fourth, Jeremiah the fifth,",
+      "ct": "Mishmannah the 4th, Jeremiah the 5th,"
+    },
+    {
+      "verse": 11,
+      "kjv": "Attai the sixth, Eliel the seventh,",
+      "web": "Attai the sixth, Eliel the seventh,",
+      "ct": "Attai the 6th, Eliel the 7th,"
+    },
+    {
+      "verse": 12,
+      "kjv": "Johanan the eighth, Elzabad the ninth,",
+      "web": "Johanan the eighth, Elzabad the ninth,",
+      "ct": "Johanan the 8th, Elzabad the 9th,"
+    },
+    {
+      "verse": 13,
+      "kjv": "Jeremiah the tenth, Machbanai the eleventh.",
+      "web": "Jeremiah the tenth, and Machbannai the eleventh.",
+      "ct": "Jeremiah the 10th, and Machbanai the 11th."
+    },
+    {
+      "verse": 14,
+      "kjv": "These were of the sons of Gad, captains of the host: one of the least was over an hundred, and the greatest over a thousand.",
+      "web": "These of the sons of Gad were captains of the army: he who was least was equal to one hundred, and the greatest to one thousand.",
+      "ct": "These men from the tribe of Gad were army commanders. The least of them was worth 100 soldiers, and the greatest was worth 1,000."
+    },
+    {
+      "verse": 15,
+      "kjv": "These are they that went over Jordan in the first month, when it had overflown all his banks; and they put to flight all them of the valleys, both toward the east, and toward the west.",
+      "web": "These are those who went over the Jordan in the first month, when it had overflowed all its banks; and they put to flight all who lived in the valleys, both toward the east and toward the west.",
+      "ct": "These were the men who crossed the Jordan River during the 1st month, when it was flooding over its banks. They drove out everyone living in the valleys to the east and west."
+    },
+    {
+      "verse": 16,
+      "kjv": "And there came of the children of Benjamin and Judah to the hold unto David.",
+      "web": "Some of the children of Benjamin and Judah came to the stronghold to David.",
+      "ct": "Some men from the tribes of Benjamin and Judah also came to David at his stronghold."
+    },
+    {
+      "verse": 17,
+      "kjv": "And David went out to meet them, and answered and said unto them, If ye be come peaceably unto me to help me, mine heart shall be knit unto you: but if ye be come to betray me to mine enemies, seeing there is no wrong in mine hands, the God of our fathers look thereon, and rebuke it.",
+      "web": "David went out to meet them, and answered them, “If you have come peaceably to me to help me, my heart will be united with you; but if you have come to betray me to my adversaries, since there is no wrong in my hands, may the God of our fathers see this and rebuke it.”",
+      "ct": "David went out to meet them and said, \"If you've come in peace to help me, I'll welcome you with all my heart. But if you've come to betray me to my enemies — even though I've done nothing wrong — may the God of our fathers see it and judge you for it.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then the spirit came upon Amasai, who was chief of the captains, and he said, Thine are we, David, and on thy side, thou son of Jesse: peace, peace be unto thee, and peace be to thine helpers; for thy God helpeth thee. Then David received them, and made them captains of the band.",
+      "web": "Then the Spirit came on Amasai, who was chief of the thirty, and he said, “We are yours, David, and on your side, you son of Jesse. Peace, peace be to you, and peace be to your helpers; for your God helps you.” Then David received them, and made them captains of the band.",
+      "ct": "Then the spirit came over Amasai, the leader of the 30, and he declared, \"We are yours, David! We stand with you, son of Jesse! Peace to you, and peace to everyone who helps you, because your God is on your side.\" So David welcomed them and made them commanders of his forces."
+    },
+    {
+      "verse": 19,
+      "kjv": "And there fell some of Manasseh to David, when he came with the Philistines against Saul to battle: but they helped them not: for the lords of the Philistines upon advisement sent him away, saying, He will fall to his master Saul to the jeopardy of our heads.",
+      "web": "Some of Manasseh also joined David, when he came with the Philistines against Saul to battle; but they didn’t help them; for the lords of the Philistines sent him away after consultation, saying, “He will desert to his master Saul to the jeopardy of our heads.”",
+      "ct": "Some men from the tribe of Manasseh also defected to David when he marched with the Philistines against Saul. However, David never actually fought in that battle — the Philistine rulers talked it over and sent him away, saying, \"He'll switch sides and go back to his master Saul, and it'll cost us our heads.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "As he went to Ziklag, there fell to him of Manasseh, Adnah, and Jozabad, and Jediael, and Michael, and Jozabad, and Elihu, and Zilthai, captains of the thousands that were of Manasseh.",
+      "web": "As he went to Ziklag, some from Manasseh joined him: Adnah, Jozabad, Jediael, Michael, Jozabad, Elihu, and Zillethai, captains of thousands who were of Manasseh.",
+      "ct": "As David traveled back to Ziklag, these men from Manasseh joined him: Adnah, Jozabad, Jediael, Michael, Jozabad, Elihu, and Zilthai — all commanders of thousands in Manasseh."
+    },
+    {
+      "verse": 21,
+      "kjv": "And they helped David against the band of the rovers: for they were all mighty men of valour, and were captains in the host.",
+      "web": "They helped David against the band of rovers; for they were all mighty men of valor, and were captains in the army.",
+      "ct": "They helped David fight against raiding bands, because every one of them was a mighty warrior, and they became commanders in his army."
+    },
+    {
+      "verse": 22,
+      "kjv": "For at that time day by day there came to David to help him, until it was a great host, like the host of God.",
+      "web": "For from day to day men came to David to help him, until there was a great army, like God’s army.",
+      "ct": "Day after day, more men came to join David, until his forces grew into a massive army — like the army of God."
+    },
+    {
+      "verse": 23,
+      "kjv": "And these are the numbers of the bands that were ready armed to the war, and came to David to Hebron, to turn the kingdom of Saul to him, according to the word of the LORD.",
+      "web": "These are the numbers of the heads of those who were armed for war, who came to David to Hebron, to turn the kingdom of Saul to him, according to LORD’s word.",
+      "ct": "Here are the numbers of armed soldiers who came to David at Hebron to transfer Saul's kingdom to him, just as the LORD had promised."
+    },
+    {
+      "verse": 24,
+      "kjv": "The children of Judah that bare shield and spear were six thousand and eight hundred, ready armed to the war.",
+      "web": "The children of Judah who bore shield and spear were six thousand eight hundred, armed for war.",
+      "ct": "From the tribe of Judah: 6,800 soldiers armed with shields and spears, ready for war."
+    },
+    {
+      "verse": 25,
+      "kjv": "Of the children of Simeon, mighty men of valour for the war, seven thousand and one hundred.",
+      "web": "Of the children of Simeon, mighty men of valor for the war: seven thousand one hundred.",
+      "ct": "From the tribe of Simeon: 7,100 mighty warriors ready for battle."
+    },
+    {
+      "verse": 26,
+      "kjv": "Of the children of Levi four thousand and six hundred.",
+      "web": "Of the children of Levi: four thousand six hundred.",
+      "ct": "From the tribe of Levi: 4,600."
+    },
+    {
+      "verse": 27,
+      "kjv": "And Jehoiada was the leader of the Aaronites, and with him were three thousand and seven hundred;",
+      "web": "Jehoiada was the leader of the household of Aaron; and with him were three thousand seven hundred,",
+      "ct": "Jehoiada was the leader of the descendants of Aaron, and he brought 3,700 men with him."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Zadok, a young man mighty of valour, and of his father’s house twenty and two captains.",
+      "web": "and Zadok, a young man mighty of valor, and of his father’s house twenty-two captains.",
+      "ct": "Zadok, a young man and mighty warrior, also came, along with 22 commanders from his father's family."
+    },
+    {
+      "verse": 29,
+      "kjv": "And of the children of Benjamin, the kindred of Saul, three thousand: for hitherto the greatest part of them had kept the ward of the house of Saul.",
+      "web": "Of the children of Benjamin, Saul’s relatives: three thousand, for until then, the greatest part of them had kept their allegiance to Saul’s house.",
+      "ct": "From the tribe of Benjamin, Saul's own tribe: 3,000. Up until that point, most of them had remained loyal to Saul's family."
+    },
+    {
+      "verse": 30,
+      "kjv": "And of the children of Ephraim twenty thousand and eight hundred, mighty men of valour, famous throughout the house of their fathers.",
+      "web": "Of the children of Ephraim: twenty thousand eight hundred, mighty men of valor, famous men in their fathers’ houses.",
+      "ct": "From the tribe of Ephraim: 20,800 mighty warriors who were well-known leaders in their clans."
+    },
+    {
+      "verse": 31,
+      "kjv": "And of the half tribe of Manasseh eighteen thousand, which were expressed by name, to come and make David king.",
+      "web": "Of the half-tribe of Manasseh: eighteen thousand, who were mentioned by name, to come and make David king.",
+      "ct": "From the half-tribe of Manasseh: 18,000 men specifically chosen by name to come and make David king."
+    },
+    {
+      "verse": 32,
+      "kjv": "And of the children of Issachar, which were men that had understanding of the times, to know what Israel ought to do; the heads of them were two hundred; and all their brethren were at their commandment.",
+      "web": "Of the children of Issachar, men who had understanding of the times, to know what Israel ought to do, their heads were two hundred; and all their brothers were at their command.",
+      "ct": "From the tribe of Issachar came men who understood the times and knew what Israel should do. They had 200 leaders, and all their relatives followed their direction."
+    },
+    {
+      "verse": 33,
+      "kjv": "Of Zebulun, such as went forth to battle, expert in war, with all instruments of war, fifty thousand, which could keep rank: they were not of double heart.",
+      "web": "Of Zebulun, such as were able to go out in the army, who could set the battle in array, with all kinds of instruments of war: fifty thousand who could command and were not of double heart.",
+      "ct": "From the tribe of Zebulun: 50,000 experienced soldiers equipped with every kind of weapon, who could hold formation and were completely loyal."
+    },
+    {
+      "verse": 34,
+      "kjv": "And of Naphtali a thousand captains, and with them with shield and spear thirty and seven thousand.",
+      "web": "Of Naphtali: one thousand captains, and with them with shield and spear thirty-seven thousand.",
+      "ct": "From the tribe of Naphtali: 1,000 commanders, along with 37,000 men armed with shields and spears."
+    },
+    {
+      "verse": 35,
+      "kjv": "And of the Danites expert in war twenty and eight thousand and six hundred.",
+      "web": "Of the Danites who could set the battle in array: twenty-eight thousand six hundred.",
+      "ct": "From the tribe of Dan: 28,600 soldiers ready for battle."
+    },
+    {
+      "verse": 36,
+      "kjv": "And of Asher, such as went forth to battle, expert in war, forty thousand.",
+      "web": "Of Asher, such as were able to go out in the army, who could set the battle in array: forty thousand.",
+      "ct": "From the tribe of Asher: 40,000 experienced soldiers ready for war."
+    },
+    {
+      "verse": 37,
+      "kjv": "And on the other side of Jordan, of the Reubenites, and the Gadites, and of the half tribe of Manasseh, with all manner of instruments of war for the battle, an hundred and twenty thousand.",
+      "web": "On the other side of the Jordan, of the Reubenites, the Gadites, and of the half-tribe of Manasseh, with all kinds of instruments of war for the battle: one hundred twenty thousand.",
+      "ct": "From the east side of the Jordan — the tribes of Reuben, Gad, and the other half-tribe of Manasseh — came 120,000 men equipped with every kind of weapon."
+    },
+    {
+      "verse": 38,
+      "kjv": "All these men of war, that could keep rank, came with a perfect heart to Hebron, to make David king over all Israel: and all the rest also of Israel were of one heart to make David king.",
+      "web": "All these were men of war, who could order the battle array, and came with a perfect heart to Hebron, to make David king over all Israel; and all the rest also of Israel were of one heart to make David king.",
+      "ct": "All these fighting men came to Hebron in battle formation, fully committed to making David king over all Israel. Everyone else in Israel was united in the same purpose."
+    },
+    {
+      "verse": 39,
+      "kjv": "And there they were with David three days, eating and drinking: for their brethren had prepared for them.",
+      "web": "They were there with David three days, eating and drinking; for their brothers had supplied provisions for them.",
+      "ct": "They stayed there with David for 3 days, eating and drinking, because their relatives had prepared everything for them."
+    },
+    {
+      "verse": 40,
+      "kjv": "Moreover they that were nigh them, even unto Issachar and Zebulun and Naphtali, brought bread on asses, and on camels, and on mules, and on oxen, and meat, meal, cakes of figs, and bunches of raisins, and wine, and oil, and oxen, and sheep abundantly: for there was joy in Israel.",
+      "web": "Moreover those who were near to them, as far as Issachar, Zebulun, and Naphtali, brought bread on donkeys, on camels, on mules, and on oxen: supplies of flour, cakes of figs, clusters of raisins, wine, oil, cattle, and sheep in abundance; for there was joy in Israel.",
+      "ct": "People from the surrounding area — as far away as Issachar, Zebulun, and Naphtali — brought food on donkeys, camels, mules, and oxen: flour, fig cakes, clusters of raisins, wine, oil, cattle, and sheep in huge quantities. There was celebration throughout Israel."
+    }
+  ]
+}

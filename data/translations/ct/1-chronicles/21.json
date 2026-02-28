@@ -1,0 +1,191 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 21,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:07:51.992Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Satan stood up against Israel, and provoked David to number Israel.",
+      "web": "Satan stood up against Israel, and moved David to take a census of Israel.",
+      "ct": "Satan turned against Israel and stirred up David to take a census of the people."
+    },
+    {
+      "verse": 2,
+      "kjv": "And David said to Joab and to the rulers of the people, Go, number Israel from Beersheba even to Dan; and bring the number of them to me, that I may know it.",
+      "web": "David said to Joab and to the princes of the people, “Go, count Israel from Beersheba even to Dan; and bring me word, that I may know how many there are.”",
+      "ct": "David told Joab and the other leaders, \"Go and count everyone in Israel, from Beersheba all the way to Dan. Then report the total back to me so I know how many there are.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And Joab answered, The LORD make his people an hundred times so many more as they be: but, my lord the king, are they not all my lord’s servants? why then doth my lord require this thing? why will he be a cause of trespass to Israel?",
+      "web": "Joab said, “May LORD make his people a hundred times as many as they are. But, my lord the king, aren’t they all my lord’s servants? Why does my lord require this thing? Why will he be a cause of guilt to Israel?”",
+      "ct": "Joab replied, \"May the LORD multiply his people a hundred times over! But my lord the king — aren't they all your servants already? Why do you want this? Why would you bring guilt on Israel?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Nevertheless the king’s word prevailed against Joab. Wherefore Joab departed, and went throughout all Israel, and came to Jerusalem.",
+      "web": "Nevertheless the king’s word prevailed against Joab. Therefore Joab departed, and went throughout all Israel, then came to Jerusalem.",
+      "ct": "But the king overruled Joab. So Joab left and traveled throughout all of Israel, then returned to Jerusalem."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Joab gave the sum of the number of the people unto David. And all they of Israel were a thousand thousand and an hundred thousand men that drew sword: and Judah was four hundred threescore and ten thousand men that drew sword.",
+      "web": "Joab gave up the sum of the census of the people to David. All those of Israel were one million one hundred thousand men who drew a sword; and in Judah were four hundred seventy thousand men who drew a sword.",
+      "ct": "Joab presented the census results to David. In all of Israel there were 1,100,000 men who could fight, and in Judah there were 470,000 fighting men."
+    },
+    {
+      "verse": 6,
+      "kjv": "But Levi and Benjamin counted he not among them: for the king’s word was abominable to Joab.",
+      "web": "But he didn’t count Levi and Benjamin among them; for the king’s word was abominable to Joab.",
+      "ct": "But Joab didn't include the tribes of Levi and Benjamin in the count, because the king's order disgusted him."
+    },
+    {
+      "verse": 7,
+      "kjv": "And God was displeased with this thing; therefore he smote Israel.",
+      "web": "God was displeased with this thing; therefore he struck Israel.",
+      "ct": "God was displeased with what David had done, so he struck Israel."
+    },
+    {
+      "verse": 8,
+      "kjv": "And David said unto God, I have sinned greatly, because I have done this thing: but now, I beseech thee, do away the iniquity of thy servant; for I have done very foolishly.",
+      "web": "David said to God, “I have sinned greatly, in that I have done this thing. But now put away, I beg you, the iniquity of your servant; for I have done very foolishly.”",
+      "ct": "David said to God, \"I have sinned terribly by doing this. Please take away your servant's guilt — I have been incredibly foolish.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the LORD spake unto Gad, David’s seer, saying,",
+      "web": "LORD spoke to Gad, David’s seer, saying,",
+      "ct": "The LORD spoke to Gad, David's prophet and seer, saying,"
+    },
+    {
+      "verse": 10,
+      "kjv": "Go and tell David, saying, Thus saith the LORD, I offer thee three things: choose thee one of them, that I may do it unto thee.",
+      "web": "“Go and speak to David, saying, ‘LORD says, “I offer you three things. Choose one of them, that I may do it to you.” ’ ”",
+      "ct": "\"Go and tell David, 'This is what the LORD says: I'm giving you 3 options. Pick one, and I will carry it out.'\""
+    },
+    {
+      "verse": 11,
+      "kjv": "So Gad came to David, and said unto him, Thus saith the LORD, Choose thee",
+      "web": "So Gad came to David, and said to him, “LORD says, ‘Take your choice:",
+      "ct": "So Gad went to David and said, \"This is what the LORD says — choose one of these:"
+    },
+    {
+      "verse": 12,
+      "kjv": "Either three years’ famine; or three months to be destroyed before thy foes, while that the sword of thine enemies overtaketh thee; or else three days the sword of the LORD, even the pestilence, in the land, and the angel of the LORD destroying throughout all the coasts of Israel. Now therefore advise thyself what word I shall bring again to him that sent me.",
+      "web": "either three years of famine; or three months to be consumed before your foes, while the sword of your enemies overtakes you; or else three days the sword of LORD, even pestilence in the land, and LORD’s angel destroying throughout all the borders of Israel. Now therefore consider what answer I shall return to him who sent me.’ ”",
+      "ct": "3 years of famine, or 3 months of being crushed by your enemies as their swords cut you down, or 3 days of plague across the land with the angel of the LORD bringing destruction throughout all of Israel. Think it over and tell me what answer to bring back to the one who sent me.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And David said unto Gad, I am in a great strait: let me fall now into the hand of the LORD; for very great are his mercies: but let me not fall into the hand of man.",
+      "web": "David said to Gad, “I am in distress. Let me fall, I pray, into LORD’s hand; for his mercies are very great. Don’t let me fall into man’s hand.”",
+      "ct": "David told Gad, \"This is an impossible choice. But let me fall into the LORD's hands, because his mercy is overwhelming. Don't let me fall into the hands of men.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "So the LORD sent pestilence upon Israel: and there fell of Israel seventy thousand men.",
+      "web": "So LORD sent a pestilence on Israel, and seventy thousand men of Israel fell.",
+      "ct": "So the LORD sent a plague on Israel, and 70,000 men died."
+    },
+    {
+      "verse": 15,
+      "kjv": "And God sent an angel unto Jerusalem to destroy it: and as he was destroying, the LORD beheld, and he repented him of the evil, and said to the angel that destroyed, It is enough, stay now thine hand. And the angel of the LORD stood by the threshingfloor of Ornan the Jebusite.",
+      "web": "God sent an angel to Jerusalem to destroy it. As he was about to destroy, LORD saw, and he relented of the disaster, and said to the destroying angel, “It is enough. Now withdraw your hand.” LORD’s angel was standing by the threshing floor of Ornan the Jebusite.",
+      "ct": "God also sent an angel to destroy Jerusalem. But as the angel was carrying out the destruction, the LORD looked down and felt grief over the disaster. He said to the destroying angel, \"Enough! Pull back your hand.\" At that moment, the angel of the LORD was standing at the threshing floor of Ornan the Jebusite."
+    },
+    {
+      "verse": 16,
+      "kjv": "And David lifted up his eyes, and saw the angel of the LORD stand between the earth and the heaven, having a drawn sword in his hand stretched out over Jerusalem. Then David and the elders of Israel, who were clothed in sackcloth, fell upon their faces.",
+      "web": "David lifted up his eyes, and saw LORD’s angel standing between earth and the sky, having a drawn sword in his hand stretched out over Jerusalem. Then David and the elders, clothed in sackcloth, fell on their faces.",
+      "ct": "David looked up and saw the angel of the LORD hovering between earth and sky, holding a drawn sword stretched out over Jerusalem. David and the elders, all wearing sackcloth, fell facedown on the ground."
+    },
+    {
+      "verse": 17,
+      "kjv": "And David said unto God, Is it not I that commanded the people to be numbered? even I it is that have sinned and done evil indeed; but as for these sheep, what have they done? let thine hand, I pray thee, O LORD my God, be on me, and on my father’s house; but not on thy people, that they should be plagued.",
+      "web": "David said to God, “Isn’t it I who commanded the people to be counted? It is even I who have sinned and done very wickedly; but these sheep, what have they done? Please let your hand, O LORD my God, be against me, and against my father’s house; but not against your people, that they should be plagued.”",
+      "ct": "David cried out to God, \"Wasn't I the one who ordered the census? I'm the one who sinned! I'm the one who did this evil! But these people — they're like sheep. What did they do wrong? Please, LORD my God, let your hand fall on me and my family, but not on your people. Don't let them suffer this plague.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then the angel of the LORD commanded Gad to say to David, that David should go up, and set up an altar unto the LORD in the threshingfloor of Ornan the Jebusite.",
+      "web": "Then LORD’s angel commanded Gad to tell David that David should go up and raise an altar to LORD on the threshing floor of Ornan the Jebusite.",
+      "ct": "Then the angel of the LORD told Gad to instruct David to go and build an altar to the LORD on the threshing floor of Ornan the Jebusite."
+    },
+    {
+      "verse": 19,
+      "kjv": "And David went up at the saying of Gad, which he spake in the name of the LORD.",
+      "web": "David went up at the saying of Gad, which he spoke in LORD’s name.",
+      "ct": "So David went, obeying the message Gad had spoken in the LORD's name."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Ornan turned back, and saw the angel; and his four sons with him hid themselves. Now Ornan was threshing wheat.",
+      "web": "Ornan turned back, and saw the angel; and his four sons who were with him hid themselves. Now Ornan was threshing wheat.",
+      "ct": "Ornan turned around and saw the angel. His 4 sons who were with him ran and hid. Ornan had been threshing wheat at the time."
+    },
+    {
+      "verse": 21,
+      "kjv": "And as David came to Ornan, Ornan looked and saw David, and went out of the threshingfloor, and bowed himself to David with his face to the ground.",
+      "web": "As David came to Ornan, Ornan looked and saw David, and went out of the threshing floor, and bowed himself to David with his face to the ground.",
+      "ct": "When David approached, Ornan looked up and saw him. He immediately left the threshing floor and bowed down before David with his face to the ground."
+    },
+    {
+      "verse": 22,
+      "kjv": "Then David said to Ornan, Grant me the place of this threshingfloor, that I may build an altar therein unto the LORD: thou shalt grant it me for the full price: that the plague may be stayed from the people.",
+      "web": "Then David said to Ornan, “Give me the place of this threshing floor, that I may build an altar to LORD on it. You shall sell it to me for the full price, that the plague may be stopped from afflicting the people.”",
+      "ct": "David said to Ornan, \"Sell me this threshing floor so I can build an altar to the LORD here. Charge me the full price, so the plague against the people can be stopped.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And Ornan said unto David, Take it to thee, and let my lord the king do that which is good in his eyes: lo, I give thee the oxen also for burnt offerings, and the threshing instruments for wood, and the wheat for the meat offering; I give it all.",
+      "web": "Ornan said to David, “Take it for yourself, and let my lord the king do that which is good in his eyes. Behold, I give the oxen for burnt offerings, and the threshing instruments for wood, and the wheat for the meal offering. I give it all.”",
+      "ct": "Ornan said to David, \"Take it! Let my lord the king do whatever he thinks is best. Look — I'll give you the oxen for burnt offerings, the threshing boards for firewood, and the wheat for the grain offering. I'll give you everything.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And king David said to Ornan, Nay; but I will verily buy it for the full price: for I will not take that which is thine for the LORD, nor offer burnt offerings without cost.",
+      "web": "King David said to Ornan, “No; but I will most certainly buy it for the full price. For I will not take that which is yours for LORD, nor offer a burnt offering that costs me nothing.”",
+      "ct": "But King David told Ornan, \"No — I insist on paying the full price. I won't take what belongs to you and give it to the LORD. I refuse to offer a burnt offering that costs me nothing.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "So David gave to Ornan for the place six hundred shekels of gold by weight.",
+      "web": "So David gave to Ornan six hundred shekels of gold by weight for the place.",
+      "ct": "So David paid Ornan 600 shekels of gold by weight for the site."
+    },
+    {
+      "verse": 26,
+      "kjv": "And David built there an altar unto the LORD, and offered burnt offerings and peace offerings, and called upon the LORD; and he answered him from heaven by fire upon the altar of burnt offering.",
+      "web": "David built an altar to LORD there, and offered burnt offerings and peace offerings, and called on LORD; and he answered him from the sky by fire on the altar of burnt offering.",
+      "ct": "David built an altar to the LORD there and offered burnt offerings and peace offerings. He called out to the LORD, and the LORD answered him by sending fire from heaven onto the altar of burnt offering."
+    },
+    {
+      "verse": 27,
+      "kjv": "And the LORD commanded the angel; and he put up his sword again into the sheath thereof.",
+      "web": "Then LORD commanded the angel, and he put his sword back into its sheath.",
+      "ct": "Then the LORD commanded the angel, and he slid his sword back into its sheath."
+    },
+    {
+      "verse": 28,
+      "kjv": "At that time when David saw that the LORD had answered him in the threshingfloor of Ornan the Jebusite, then he sacrificed there.",
+      "web": "At that time, when David saw that LORD had answered him in the threshing floor of Ornan the Jebusite, then he sacrificed there.",
+      "ct": "When David saw that the LORD had answered him there at Ornan's threshing floor, he continued to offer sacrifices at that spot."
+    },
+    {
+      "verse": 29,
+      "kjv": "For the tabernacle of the LORD, which Moses made in the wilderness, and the altar of the burnt offering, were at that season in the high place at Gibeon.",
+      "web": "For LORD’s tabernacle, which Moses made in the wilderness, and the altar of burnt offering, were at that time in the high place at Gibeon.",
+      "ct": "At that time, the LORD's tabernacle that Moses had built in the wilderness, along with the altar of burnt offering, was located at the high place in Gibeon."
+    },
+    {
+      "verse": 30,
+      "kjv": "But David could not go before it to enquire of God: for he was afraid because of the sword of the angel of the LORD.",
+      "web": "But David couldn’t go before it to inquire of God; for he was afraid because of the sword of LORD’s angel.",
+      "ct": "But David couldn't go there to seek God, because he was terrified of the sword of the angel of the LORD."
+    }
+  ]
+}

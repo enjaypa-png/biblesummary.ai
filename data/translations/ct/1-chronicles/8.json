@@ -1,0 +1,251 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:03:33.150Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now Benjamin begat Bela his firstborn, Ashbel the second, and Aharah the third,",
+      "web": "Benjamin became the father of Bela his firstborn, Ashbel the second, Aharah the third,",
+      "ct": "Benjamin had 5 sons. His firstborn was Bela, his 2nd was Ashbel, and his 3rd was Aharah."
+    },
+    {
+      "verse": 2,
+      "kjv": "Nohah the fourth, and Rapha the fifth.",
+      "web": "Nohah the fourth, and Rapha the fifth.",
+      "ct": "His 4th son was Nohah, and his 5th was Rapha."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the sons of Bela were, Addar, and Gera, and Abihud,",
+      "web": "Bela had sons: Addar, Gera, Abihud,",
+      "ct": "Bela's sons were Addar, Gera, Abihud,"
+    },
+    {
+      "verse": 4,
+      "kjv": "And Abishua, and Naaman, and Ahoah,",
+      "web": "Abishua, Naaman, Ahoah,",
+      "ct": "Abishua, Naaman, Ahoah,"
+    },
+    {
+      "verse": 5,
+      "kjv": "And Gera, and Shephuphan, and Huram.",
+      "web": "Gera, Shephuphan, and Huram.",
+      "ct": "Gera, Shephuphan, and Huram."
+    },
+    {
+      "verse": 6,
+      "kjv": "And these are the sons of Ehud: these are the heads of the fathers of the inhabitants of Geba, and they removed them to Manahath:",
+      "web": "These are the sons of Ehud. These are the heads of fathers’ households of the inhabitants of Geba, who were carried captive to Manahath:",
+      "ct": "These were the sons of Ehud. They were the leaders of the families living in Geba, but they were forced to relocate to Manahath:"
+    },
+    {
+      "verse": 7,
+      "kjv": "And Naaman, and Ahiah, and Gera, he removed them, and begat Uzza, and Ahihud.",
+      "web": "Naaman, Ahijah, and Gera, who carried them captive; and he became the father of Uzza and Ahihud.",
+      "ct": "Naaman, Ahiah, and Gera — he led them into exile. Gera also became the father of Uzza and Ahihud."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Shaharaim begat children in the country of Moab, after he had sent them away; Hushim and Baara were his wives.",
+      "web": "Shaharaim became the father of children in the field of Moab, after he had sent them away. Hushim and Baara were his wives.",
+      "ct": "Shaharaim had children in the land of Moab after he divorced his wives Hushim and Baara."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he begat of Hodesh his wife, Jobab, and Zibia, and Mesha, and Malcham,",
+      "web": "By Hodesh his wife, he became the father of Jobab, Zibia, Mesha, Malcam,",
+      "ct": "Through his wife Hodesh, he became the father of Jobab, Zibia, Mesha, Malcham,"
+    },
+    {
+      "verse": 10,
+      "kjv": "And Jeuz, and Shachia, and Mirma. These were his sons, heads of the fathers.",
+      "web": "Jeuz, Shachia, and Mirmah. These were his sons, heads of fathers’ households.",
+      "ct": "Jeuz, Shachia, and Mirma. These sons all became heads of their families."
+    },
+    {
+      "verse": 11,
+      "kjv": "And of Hushim he begat Abitub, and Elpaal.",
+      "web": "By Hushim, he became the father of Abitub and Elpaal.",
+      "ct": "Through Hushim, he had already fathered Abitub and Elpaal."
+    },
+    {
+      "verse": 12,
+      "kjv": "The sons of Elpaal; Eber, and Misham, and Shamed, who built Ono, and Lod, with the towns thereof:",
+      "web": "The sons of Elpaal: Eber, Misham, and Shemed, who built Ono and Lod, with its towns;",
+      "ct": "Elpaal's sons were Eber, Misham, and Shamed. Shamed built the towns of Ono and Lod, along with their surrounding villages."
+    },
+    {
+      "verse": 13,
+      "kjv": "Beriah also, and Shema, who were heads of the fathers of the inhabitants of Aijalon, who drove away the inhabitants of Gath:",
+      "web": "and Beriah, and Shema, who were heads of fathers’ households of the inhabitants of Aijalon, who put to flight the inhabitants of Gath;",
+      "ct": "Beriah and Shema were also his sons. They became leaders of the families living in Aijalon and drove out the people of Gath."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Ahio, Shashak, and Jeremoth,",
+      "web": "and Ahio, Shashak, Jeremoth,",
+      "ct": "Ahio, Shashak, and Jeremoth,"
+    },
+    {
+      "verse": 15,
+      "kjv": "And Zebadiah, and Arad, and Ader,",
+      "web": "Zebadiah, Arad, Eder,",
+      "ct": "Zebadiah, Arad, and Ader,"
+    },
+    {
+      "verse": 16,
+      "kjv": "And Michael, and Ispah, and Joha, the sons of Beriah;",
+      "web": "Michael, Ishpah, Joha, the sons of Beriah,",
+      "ct": "Michael, Ispah, and Joha were the sons of Beriah."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Zebadiah, and Meshullam, and Hezeki, and Heber,",
+      "web": "Zebadiah, Meshullam, Hizki, Heber,",
+      "ct": "Zebadiah, Meshullam, Hezeki, Heber,"
+    },
+    {
+      "verse": 18,
+      "kjv": "Ishmerai also, and Jezliah, and Jobab, the sons of Elpaal;",
+      "web": "Ishmerai, Izliah, Jobab, the sons of Elpaal,",
+      "ct": "Ishmerai, Jezliah, and Jobab were the sons of Elpaal."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Jakim, and Zichri, and Zabdi,",
+      "web": "Jakim, Zichri, Zabdi,",
+      "ct": "Jakim, Zichri, Zabdi,"
+    },
+    {
+      "verse": 20,
+      "kjv": "And Elienai, and Zilthai, and Eliel,",
+      "web": "Elienai, Zillethai, Eliel,",
+      "ct": "Elienai, Zilthai, Eliel,"
+    },
+    {
+      "verse": 21,
+      "kjv": "And Adaiah, and Beraiah, and Shimrath, the sons of Shimhi;",
+      "web": "Adaiah, Beraiah, Shimrath, the sons of Shimei,",
+      "ct": "Adaiah, Beraiah, and Shimrath were the sons of Shimhi."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Ishpan, and Heber, and Eliel,",
+      "web": "Ishpan, Eber, Eliel,",
+      "ct": "Ishpan, Heber, Eliel,"
+    },
+    {
+      "verse": 23,
+      "kjv": "And Abdon, and Zichri, and Hanan,",
+      "web": "Abdon, Zichri, Hanan,",
+      "ct": "Abdon, Zichri, Hanan,"
+    },
+    {
+      "verse": 24,
+      "kjv": "And Hananiah, and Elam, and Antothijah,",
+      "web": "Hananiah, Elam, Anthothijah,",
+      "ct": "Hananiah, Elam, Antothijah,"
+    },
+    {
+      "verse": 25,
+      "kjv": "And Iphedeiah, and Penuel, the sons of Shashak;",
+      "web": "Iphdeiah, Penuel, the sons of Shashak,",
+      "ct": "Iphedeiah, and Penuel were the sons of Shashak."
+    },
+    {
+      "verse": 26,
+      "kjv": "And Shamsherai, and Shehariah, and Athaliah,",
+      "web": "Shamsherai, Shehariah, Athaliah,",
+      "ct": "Shamsherai, Shehariah, Athaliah,"
+    },
+    {
+      "verse": 27,
+      "kjv": "And Jaresiah, and Eliah, and Zichri, the sons of Jeroham.",
+      "web": "Jaareshiah, Elijah, Zichri, and the sons of Jeroham.",
+      "ct": "Jaresiah, Eliah, and Zichri were the sons of Jeroham."
+    },
+    {
+      "verse": 28,
+      "kjv": "These were heads of the fathers, by their generations, chief men. These dwelt in Jerusalem.",
+      "web": "These were heads of fathers’ households throughout their generations, chief men. These lived in Jerusalem.",
+      "ct": "All of these men were leaders of their families, listed by their generations as prominent chiefs. They lived in Jerusalem."
+    },
+    {
+      "verse": 29,
+      "kjv": "And at Gibeon dwelt the father of Gibeon; whose wife’s name was Maachah:",
+      "web": "The father of Gibeon, whose wife’s name was Maacah, lived in Gibeon,",
+      "ct": "The founder of Gibeon lived in Gibeon. His wife's name was Maachah."
+    },
+    {
+      "verse": 30,
+      "kjv": "And his firstborn son Abdon, and Zur, and Kish, and Baal, and Nadab,",
+      "web": "with his firstborn son Abdon, Zur, Kish, Baal, Nadab,",
+      "ct": "His firstborn son was Abdon, followed by Zur, Kish, Baal, Nadab,"
+    },
+    {
+      "verse": 31,
+      "kjv": "And Gedor, and Ahio, and Zacher.",
+      "web": "Gedor, Ahio, and Zecher.",
+      "ct": "Gedor, Ahio, and Zacher."
+    },
+    {
+      "verse": 32,
+      "kjv": "And Mikloth begat Shimeah. And these also dwelt with their brethren in Jerusalem, over against them.",
+      "web": "Mikloth became the father of Shimeah. They also lived with their brothers in Jerusalem, near their brothers.",
+      "ct": "Mikloth was the father of Shimeah. These families also lived in Jerusalem, near their relatives."
+    },
+    {
+      "verse": 33,
+      "kjv": "And Ner begat Kish, and Kish begat Saul, and Saul begat Jonathan, and Malchishua, and Abinadab, and Eshbaal.",
+      "web": "Ner became the father of Kish. Kish became the father of Saul. Saul became the father of Jonathan, Malchishua, Abinadab, and Eshbaal.",
+      "ct": "Ner was the father of Kish. Kish was the father of Saul. Saul was the father of Jonathan, Malchishua, Abinadab, and Eshbaal."
+    },
+    {
+      "verse": 34,
+      "kjv": "And the son of Jonathan was Meribbaal; and Meribbaal begat Micah.",
+      "web": "The son of Jonathan was Merib Baal. Merib Baal became the father of Micah.",
+      "ct": "Jonathan's son was Meribbaal, and Meribbaal was the father of Micah."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the sons of Micah were, Pithon, and Melech, and Tarea, and Ahaz.",
+      "web": "The sons of Micah: Pithon, Melech, Tarea, and Ahaz.",
+      "ct": "Micah's sons were Pithon, Melech, Tarea, and Ahaz."
+    },
+    {
+      "verse": 36,
+      "kjv": "And Ahaz begat Jehoadah; and Jehoadah begat Alemeth, and Azmaveth, and Zimri; and Zimri begat Moza,",
+      "web": "Ahaz became the father of Jehoaddah. Jehoaddah became the father of Alemeth, Azmaveth, and Zimri. Zimri became the father of Moza.",
+      "ct": "Ahaz was the father of Jehoadah. Jehoadah was the father of Alemeth, Azmaveth, and Zimri. Zimri was the father of Moza."
+    },
+    {
+      "verse": 37,
+      "kjv": "And Moza begat Binea: Rapha was his son, Eleasah his son, Azel his son:",
+      "web": "Moza became the father of Binea. Raphah was his son, Eleasah his son, and Azel his son.",
+      "ct": "Moza was the father of Binea. After Binea came Rapha, then Eleasah, then Azel."
+    },
+    {
+      "verse": 38,
+      "kjv": "And Azel had six sons, whose names are these, Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan. All these were the sons of Azel.",
+      "web": "Azel had six sons, whose names are these: Azrikam, Bocheru, Ishmael, Sheariah, Obadiah, and Hanan. All these were the sons of Azel.",
+      "ct": "Azel had 6 sons: Azrikam, Bocheru, Ishmael, Sheariah, Obadiah, and Hanan. All of these were Azel's sons."
+    },
+    {
+      "verse": 39,
+      "kjv": "And the sons of Eshek his brother were, Ulam his firstborn, Jehush the second, and Eliphelet the third.",
+      "web": "The sons of Eshek his brother: Ulam his firstborn, Jeush the second, and Eliphelet the third.",
+      "ct": "His brother Eshek had sons as well: Ulam was his firstborn, Jehush was 2nd, and Eliphelet was 3rd."
+    },
+    {
+      "verse": 40,
+      "kjv": "And the sons of Ulam were mighty men of valour, archers, and had many sons, and sons’ sons, an hundred and fifty. All these are of the sons of Benjamin.",
+      "web": "The sons of Ulam were mighty men of valor, archers, and had many sons, and sons’ sons, one hundred fifty. All these were of the sons of Benjamin.",
+      "ct": "Ulam's descendants were fierce warriors and expert archers. They had many sons and grandsons — 150 in all. All of these belonged to the tribe of Benjamin."
+    }
+  ]
+}

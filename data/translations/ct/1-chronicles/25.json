@@ -1,0 +1,197 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 25,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:09:07.441Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Moreover David and the captains of the host separated to the service of the sons of Asaph, and of Heman, and of Jeduthun, who should prophesy with harps, with psalteries, and with cymbals: and the number of the workmen according to their service was:",
+      "web": "Moreover, David and the captains of the army set apart for the service certain of the sons of Asaph, and of Heman, and of Jeduthun, who were to prophesy with harps, with stringed instruments, and with cymbals. The number of those who did the work according to their service was:",
+      "ct": "David and his military commanders set apart certain men from the families of Asaph, Heman, and Jeduthun for a special role: prophesying through music with harps, lyres, and cymbals. Here is the count of those assigned to this service:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Of the sons of Asaph; Zaccur, and Joseph, and Nethaniah, and Asarelah, the sons of Asaph under the hands of Asaph, which prophesied according to the order of the king.",
+      "web": "of the sons of Asaph: Zaccur, Joseph, Nethaniah, and Asharelah. The sons of Asaph were under the hand of Asaph, who prophesied at the order of the king.",
+      "ct": "From Asaph's family: Zaccur, Joseph, Nethaniah, and Asarelah. These sons of Asaph served under their father's direction, and he prophesied under the king's authority."
+    },
+    {
+      "verse": 3,
+      "kjv": "Of Jeduthun: the sons of Jeduthun; Gedaliah, and Zeri, and Jeshaiah, Hashabiah, and Mattithiah, six, under the hands of their father Jeduthun, who prophesied with a harp, to give thanks and to praise the LORD.",
+      "web": "Of Jeduthun, the sons of Jeduthun: Gedaliah, Zeri, Jeshaiah, Shimei, Hashabiah, and Mattithiah, six, under the hands of their father Jeduthun, who prophesied in giving thanks and praising LORD with the harp.",
+      "ct": "From Jeduthun's family: Gedaliah, Zeri, Jeshaiah, Hashabiah, Shimei, and Mattithiah — 6 in all. They served under their father Jeduthun, who prophesied with the harp, giving thanks and praise to the LORD."
+    },
+    {
+      "verse": 4,
+      "kjv": "Of Heman: the sons of Heman: Bukkiah, Mattaniah, Uzziel, Shebuel, and Jerimoth, Hananiah, Hanani, Eliathah, Giddalti, and Romamtiezer, Joshbekashah, Mallothi, Hothir, and Mahazioth:",
+      "web": "Of Heman, the sons of Heman: Bukkiah, Mattaniah, Uzziel, Shebuel, Jerimoth, Hananiah, Hanani, Eliathah, Giddalti, Romamti-Ezer, Joshbekashah, Mallothi, Hothir, and Mahazioth.",
+      "ct": "From Heman's family: Bukkiah, Mattaniah, Uzziel, Shebuel, Jerimoth, Hananiah, Hanani, Eliathah, Giddalti, Romamtiezer, Joshbekashah, Mallothi, Hothir, and Mahazioth."
+    },
+    {
+      "verse": 5,
+      "kjv": "All these were the sons of Heman the king’s seer in the words of God, to lift up the horn. And God gave to Heman fourteen sons and three daughters.",
+      "web": "All these were the sons of Heman the king’s seer in the words of God, to lift up the horn. God gave to Heman fourteen sons and three daughters.",
+      "ct": "All of these were sons of Heman, the king's seer, given to him through God's promises to exalt him. God gave Heman 14 sons and 3 daughters."
+    },
+    {
+      "verse": 6,
+      "kjv": "All these were under the hands of their father for song in the house of the LORD, with cymbals, psalteries, and harps, for the service of the house of God, according to the king’s order to Asaph, Jeduthun, and Heman.",
+      "web": "All these were under the hands of their father for song in LORD’s house, with cymbals, stringed instruments, and harps, for the service of God’s house: Asaph, Jeduthun, and Heman being under the order of the king.",
+      "ct": "All of them served under their father's direction, singing in the house of the LORD with cymbals, lyres, and harps for the worship in God's house. Asaph, Jeduthun, and Heman all operated under the king's authority."
+    },
+    {
+      "verse": 7,
+      "kjv": "So the number of them, with their brethren that were instructed in the songs of the LORD, even all that were cunning, was two hundred fourscore and eight.",
+      "web": "The number of them, with their brothers who were instructed in singing to LORD, even all who were skillful, was two hundred eighty-eight.",
+      "ct": "Together with their relatives who were trained and skilled in singing to the LORD, they numbered 288."
+    },
+    {
+      "verse": 8,
+      "kjv": "And they cast lots, ward against ward, as well the small as the great, the teacher as the scholar.",
+      "web": "They cast lots for their offices, all alike, the small as well as the great, the teacher as well as the student.",
+      "ct": "They cast lots to determine their duties — young and old alike, teacher and student, all on equal footing."
+    },
+    {
+      "verse": 9,
+      "kjv": "Now the first lot came forth for Asaph to Joseph: the second to Gedaliah, who with his brethren and sons were twelve:",
+      "web": "Now the first lot came out for Asaph to Joseph; the second to Gedaliah, he and his brothers and sons were twelve;",
+      "ct": "The 1st lot fell to Joseph of Asaph's family. The 2nd went to Gedaliah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 10,
+      "kjv": "The third to Zaccur, he, his sons, and his brethren, were twelve:",
+      "web": "the third to Zaccur, his sons and his brothers, twelve;",
+      "ct": "The 3rd went to Zaccur, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 11,
+      "kjv": "The fourth to Izri, he, his sons, and his brethren, were twelve:",
+      "web": "the fourth to Izri, his sons and his brothers, twelve;",
+      "ct": "The 4th went to Izri, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 12,
+      "kjv": "The fifth to Nethaniah, he, his sons, and his brethren, were twelve:",
+      "web": "the fifth to Nethaniah, his sons and his brothers, twelve;",
+      "ct": "The 5th went to Nethaniah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 13,
+      "kjv": "The sixth to Bukkiah, he, his sons, and his brethren, were twelve:",
+      "web": "the sixth to Bukkiah, his sons and his brothers, twelve;",
+      "ct": "The 6th went to Bukkiah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 14,
+      "kjv": "The seventh to Jesharelah, he, his sons, and his brethren, were twelve:",
+      "web": "the seventh to Jesharelah, his sons and his brothers, twelve;",
+      "ct": "The 7th went to Jesharelah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 15,
+      "kjv": "The eighth to Jeshaiah, he, his sons, and his brethren, were twelve:",
+      "web": "the eighth to Jeshaiah, his sons and his brothers, twelve;",
+      "ct": "The 8th went to Jeshaiah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 16,
+      "kjv": "The ninth to Mattaniah, he, his sons, and his brethren, were twelve:",
+      "web": "the ninth to Mattaniah, his sons and his brothers, twelve;",
+      "ct": "The 9th went to Mattaniah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 17,
+      "kjv": "The tenth to Shimei, he, his sons, and his brethren, were twelve:",
+      "web": "the tenth to Shimei, his sons and his brothers, twelve;",
+      "ct": "The 10th went to Shimei, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 18,
+      "kjv": "The eleventh to Azareel, he, his sons, and his brethren, were twelve:",
+      "web": "the eleventh to Azarel, his sons and his brothers, twelve;",
+      "ct": "The 11th went to Azareel, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 19,
+      "kjv": "The twelfth to Hashabiah, he, his sons, and his brethren, were twelve:",
+      "web": "the twelfth to Hashabiah, his sons and his brothers, twelve;",
+      "ct": "The 12th went to Hashabiah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 20,
+      "kjv": "The thirteenth to Shubael, he, his sons, and his brethren, were twelve:",
+      "web": "for the thirteenth, Shubael, his sons and his brothers, twelve;",
+      "ct": "The 13th went to Shubael, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 21,
+      "kjv": "The fourteenth to Mattithiah, he, his sons, and his brethren, were twelve:",
+      "web": "for the fourteenth, Mattithiah, his sons and his brothers, twelve;",
+      "ct": "The 14th went to Mattithiah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 22,
+      "kjv": "The fifteenth to Jeremoth, he, his sons, and his brethren, were twelve:",
+      "web": "for the fifteenth to Jeremoth, his sons and his brothers, twelve;",
+      "ct": "The 15th went to Jeremoth, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 23,
+      "kjv": "The sixteenth to Hananiah, he, his sons, and his brethren, were twelve:",
+      "web": "for the sixteenth to Hananiah, his sons and his brothers, twelve;",
+      "ct": "The 16th went to Hananiah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 24,
+      "kjv": "The seventeenth to Joshbekashah, he, his sons, and his brethren, were twelve:",
+      "web": "for the seventeenth to Joshbekashah, his sons and his brothers, twelve;",
+      "ct": "The 17th went to Joshbekashah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 25,
+      "kjv": "The eighteenth to Hanani, he, his sons, and his brethren, were twelve:",
+      "web": "for the eighteenth to Hanani, his sons and his brothers, twelve;",
+      "ct": "The 18th went to Hanani, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 26,
+      "kjv": "The nineteenth to Mallothi, he, his sons, and his brethren, were twelve:",
+      "web": "for the nineteenth to Mallothi, his sons and his brothers, twelve;",
+      "ct": "The 19th went to Mallothi, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 27,
+      "kjv": "The twentieth to Eliathah, he, his sons, and his brethren, were twelve:",
+      "web": "for the twentieth to Eliathah, his sons and his brothers, twelve;",
+      "ct": "The 20th went to Eliathah, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 28,
+      "kjv": "The one and twentieth to Hothir, he, his sons, and his brethren, were twelve:",
+      "web": "for the twenty-first to Hothir, his sons and his brothers, twelve;",
+      "ct": "The 21st went to Hothir, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 29,
+      "kjv": "The two and twentieth to Giddalti, he, his sons, and his brethren, were twelve:",
+      "web": "for the twenty-second to Giddalti, his sons and his brothers, twelve;",
+      "ct": "The 22nd went to Giddalti, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 30,
+      "kjv": "The three and twentieth to Mahazioth, he, his sons, and his brethren, were twelve:",
+      "web": "for the twenty-third to Mahazioth, his sons and his brothers, twelve;",
+      "ct": "The 23rd went to Mahazioth, along with his sons and brothers — 12 in all."
+    },
+    {
+      "verse": 31,
+      "kjv": "The four and twentieth to Romamtiezer, he, his sons, and his brethren, were twelve.",
+      "web": "for the twenty-fourth to Romamti-Ezer, his sons and his brothers, twelve.",
+      "ct": "The 24th went to Romamtiezer, along with his sons and brothers — 12 in all."
+    }
+  ]
+}

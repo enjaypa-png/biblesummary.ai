@@ -1,0 +1,59 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 20,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:07:26.563Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, that after the year was expired, at the time that kings go out to battle, Joab led forth the power of the army, and wasted the country of the children of Ammon, and came and besieged Rabbah. But David tarried at Jerusalem. And Joab smote Rabbah, and destroyed it.",
+      "web": "At the time of the return of the year, at the time when kings go out, Joab led out the army, and wasted the country of the children of Ammon, and came and besieged Rabbah. But David stayed at Jerusalem. Joab struck Rabbah, and overthrew it.",
+      "ct": "In the spring, when kings typically march out to war, Joab led the full strength of Israel's army into battle. They ravaged the land of the Ammonites and laid siege to Rabbah. David, however, stayed behind in Jerusalem. Joab attacked Rabbah and destroyed it."
+    },
+    {
+      "verse": 2,
+      "kjv": "And David took the crown of their king from off his head, and found it to weigh a talent of gold, and there were precious stones in it; and it was set upon David’s head: and he brought also exceeding much spoil out of the city.",
+      "web": "David took the crown of their king from off his head, and found it to weigh a talent of gold, and there were precious stones in it. It was set on David’s head, and he brought very much plunder out of the city.",
+      "ct": "David took the crown from the head of the Ammonite king and found that it weighed a talent of gold and was set with precious stones. The crown was placed on David's head, and he carried off a massive amount of plunder from the city."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he brought out the people that were in it, and cut them with saws, and with harrows of iron, and with axes. Even so dealt David with all the cities of the children of Ammon. And David and all the people returned to Jerusalem.",
+      "web": "He brought out the people who were in it, and had them cut with saws, with iron picks, and with axes. David did so to all the cities of the children of Ammon. Then David and all the people returned to Jerusalem.",
+      "ct": "He brought out the people who lived there and put them to work with saws, iron picks, and axes. David did this to every Ammonite city. Then he and the entire army returned to Jerusalem."
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass after this, that there arose war at Gezer with the Philistines; at which time Sibbechai the Hushathite slew Sippai, that was of the children of the giant: and they were subdued.",
+      "web": "After this, war arose at Gezer with the Philistines. Then Sibbecai the Hushathite killed Sippai, of the sons of the giant; and they were subdued.",
+      "ct": "Sometime later, war broke out with the Philistines at Gezer. During that battle, Sibbechai the Hushathite killed Sippai, one of the descendants of the giants, and the Philistines were defeated."
+    },
+    {
+      "verse": 5,
+      "kjv": "And there was war again with the Philistines; and Elhanan the son of Jair slew Lahmi the brother of Goliath the Gittite, whose spear staff was like a weaver’s beam.",
+      "web": "Again there was war with the Philistines; and Elhanan the son of Jair killed Lahmi the brother of Goliath the Gittite, the staff of whose spear was like a weaver’s beam.",
+      "ct": "In another battle with the Philistines, Elhanan son of Jair killed Lahmi, the brother of Goliath the Gittite, whose spear had a shaft as thick as a weaver's beam."
+    },
+    {
+      "verse": 6,
+      "kjv": "And yet again there was war at Gath, where was a man of great stature, whose fingers and toes were four and twenty, six on each hand, and six on each foot and he also was the son of the giant.",
+      "web": "There was again war at Gath, where there was a man of great stature, who had twenty-four fingers and toes, six on each hand, and six on each foot; and he also was born to the giant.",
+      "ct": "Yet another battle took place at Gath, where there was an enormous man who had 24 fingers and toes — 6 on each hand and 6 on each foot. He too was a descendant of the giants."
+    },
+    {
+      "verse": 7,
+      "kjv": "But when he defied Israel, Jonathan the son of Shimea David’s brother slew him.",
+      "web": "When he defied Israel, Jonathan the son of Shimea David’s brother killed him.",
+      "ct": "When he taunted Israel, Jonathan son of Shimea, David's brother, killed him."
+    },
+    {
+      "verse": 8,
+      "kjv": "These were born unto the giant in Gath; and they fell by the hand of David, and by the hand of his servants.",
+      "web": "These were born to the giant in Gath; and they fell by the hand of David, and by the hand of his servants.",
+      "ct": "These giants were all born in Gath, and they all fell at the hands of David and his warriors."
+    }
+  ]
+}

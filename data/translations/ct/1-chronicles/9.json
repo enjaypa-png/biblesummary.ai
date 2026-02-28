@@ -1,0 +1,275 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 9,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:04:02.320Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "So all Israel were reckoned by genealogies; and, behold, they were written in the book of the kings of Israel and Judah, who were carried away to Babylon for their transgression.",
+      "web": "So all Israel were listed by genealogies; and behold, they are written in the book of the kings of Israel. Judah was carried away captive to Babylon for their disobedience.",
+      "ct": "All of Israel's people were recorded in genealogies, and these records are written in the official history of Israel's kings. The people of Judah were taken as captives to Babylon because of their sin."
+    },
+    {
+      "verse": 2,
+      "kjv": "Now the first inhabitants that dwelt in their possessions in their cities were, the Israelites, the priests, Levites, and the Nethinims.",
+      "web": "Now the first inhabitants who lived in their possessions in their cities were Israel, the priests, the Levites, and the temple servants.",
+      "ct": "The first people to resettle on their own land in their towns were ordinary Israelites, priests, Levites, and temple servants."
+    },
+    {
+      "verse": 3,
+      "kjv": "And in Jerusalem dwelt of the children of Judah, and of the children of Benjamin, and of the children of Ephraim, and Manasseh;",
+      "web": "In Jerusalem lived of the children of Judah, of the children of Benjamin, and of the children of Ephraim and Manasseh:",
+      "ct": "Those who settled in Jerusalem included people from the tribes of Judah, Benjamin, Ephraim, and Manasseh."
+    },
+    {
+      "verse": 4,
+      "kjv": "Uthai the son of Ammihud, the son of Omri, the son of Imri, the son of Bani, of the children of Pharez the son of Judah.",
+      "web": "Uthai the son of Ammihud, the son of Omri, the son of Imri, the son of Bani, of the children of Perez the son of Judah.",
+      "ct": "From Judah came Uthai son of Ammihud, son of Omri, son of Imri, son of Bani — a descendant of Pharez son of Judah."
+    },
+    {
+      "verse": 5,
+      "kjv": "And of the Shilonites; Asaiah the firstborn, and his sons.",
+      "web": "Of the Shilonites: Asaiah the firstborn, and his sons.",
+      "ct": "From the Shilonites came Asaiah the firstborn, along with his sons."
+    },
+    {
+      "verse": 6,
+      "kjv": "And of the sons of Zerah; Jeuel, and their brethren, six hundred and ninety.",
+      "web": "Of the sons of Zerah: Jeuel and their brothers, six hundred ninety.",
+      "ct": "From the descendants of Zerah came Jeuel, along with their relatives — 690 in all."
+    },
+    {
+      "verse": 7,
+      "kjv": "And of the sons of Benjamin; Sallu the son of Meshullam, the son of Hodaviah, the son of Hasenuah,",
+      "web": "Of the sons of Benjamin: Sallu the son of Meshullam, the son of Hodaviah, the son of Hassenuah,",
+      "ct": "From the tribe of Benjamin came Sallu son of Meshullam, son of Hodaviah, son of Hasenuah;"
+    },
+    {
+      "verse": 8,
+      "kjv": "And Ibneiah the son of Jeroham, and Elah the son of Uzzi, the son of Michri, and Meshullam the son of Shephathiah, the son of Reuel, the son of Ibnijah;",
+      "web": "and Ibneiah the son of Jeroham, and Elah the son of Uzzi, the son of Michri, and Meshullam the son of Shephatiah, the son of Reuel, the son of Ibnijah;",
+      "ct": "also Ibneiah son of Jeroham; Elah son of Uzzi, son of Michri; and Meshullam son of Shephathiah, son of Reuel, son of Ibnijah."
+    },
+    {
+      "verse": 9,
+      "kjv": "And their brethren, according to their generations, nine hundred and fifty and six. All these men were chief of the fathers in the house of their fathers.",
+      "web": "and their brothers, according to their generations, nine hundred fifty-six. All these men were heads of fathers’ households by their fathers’ houses.",
+      "ct": "Their relatives, as listed in their genealogies, numbered 956. All of these men were heads of their family clans."
+    },
+    {
+      "verse": 10,
+      "kjv": "And of the priests; Jedaiah, and Jehoiarib, and Jachin,",
+      "web": "Of the priests: Jedaiah, Jehoiarib, Jachin,",
+      "ct": "Among the priests were Jedaiah, Jehoiarib, and Jachin;"
+    },
+    {
+      "verse": 11,
+      "kjv": "And Azariah the son of Hilkiah, the son of Meshullam, the son of Zadok, the son of Meraioth, the son of Ahitub, the ruler of the house of God;",
+      "web": "and Azariah the son of Hilkiah, the son of Meshullam, the son of Zadok, the son of Meraioth, the son of Ahitub, the ruler of God’s house;",
+      "ct": "also Azariah son of Hilkiah, son of Meshullam, son of Zadok, son of Meraioth, son of Ahitub, who served as the chief official of God's house;"
+    },
+    {
+      "verse": 12,
+      "kjv": "And Adaiah the son of Jeroham, the son of Pashur, the son of Malchijah, and Maasiai the son of Adiel, the son of Jahzerah, the son of Meshullam, the son of Meshillemith, the son of Immer;",
+      "web": "and Adaiah the son of Jeroham, the son of Pashhur, the son of Malchijah, and Maasai the son of Adiel, the son of Jahzerah, the son of Meshullam, the son of Meshillemith, the son of Immer;",
+      "ct": "also Adaiah son of Jeroham, son of Pashur, son of Malchijah; and Maasiai son of Adiel, son of Jahzerah, son of Meshullam, son of Meshillemith, son of Immer."
+    },
+    {
+      "verse": 13,
+      "kjv": "And their brethren, heads of the house of their fathers, a thousand and seven hundred and threescore; very able men for the work of the service of the house of God.",
+      "web": "and their brothers, heads of their fathers’ houses, one thousand seven hundred sixty; very able men for the work of the service of God’s house.",
+      "ct": "Their relatives, who were heads of their family clans, numbered 1,760. They were highly capable men responsible for the work of serving in God's house."
+    },
+    {
+      "verse": 14,
+      "kjv": "And of the Levites; Shemaiah the son of Hasshub, the son of Azrikam, the son of Hashabiah, of the sons of Merari;",
+      "web": "Of the Levites: Shemaiah the son of Hasshub, the son of Azrikam, the son of Hashabiah, of the sons of Merari;",
+      "ct": "Among the Levites were Shemaiah son of Hasshub, son of Azrikam, son of Hashabiah, from the descendants of Merari;"
+    },
+    {
+      "verse": 15,
+      "kjv": "And Bakbakkar, Heresh, and Galal, and Mattaniah the son of Micah, the son of Zichri, the son of Asaph;",
+      "web": "and Bakbakkar, Heresh, Galal, and Mattaniah the son of Mica, the son of Zichri, the son of Asaph,",
+      "ct": "also Bakbakkar, Heresh, Galal, and Mattaniah son of Micah, son of Zichri, son of Asaph;"
+    },
+    {
+      "verse": 16,
+      "kjv": "And Obadiah the son of Shemaiah, the son of Galal, the son of Jeduthun, and Berechiah the son of Asa, the son of Elkanah, that dwelt in the villages of the Netophathites.",
+      "web": "and Obadiah the son of Shemaiah, the son of Galal, the son of Jeduthun, and Berechiah the son of Asa, the son of Elkanah, who lived in the villages of the Netophathites.",
+      "ct": "also Obadiah son of Shemaiah, son of Galal, son of Jeduthun; and Berechiah son of Asa, son of Elkanah, who lived in the villages near Netophah."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the porters were, Shallum, and Akkub, and Talmon, and Ahiman, and their brethren: Shallum was the chief;",
+      "web": "The gatekeepers: Shallum, Akkub, Talmon, Ahiman, and their brothers (Shallum was the chief),",
+      "ct": "The gatekeepers were Shallum, Akkub, Talmon, Ahiman, and their relatives. Shallum was their leader."
+    },
+    {
+      "verse": 18,
+      "kjv": "Who hitherto waited in the king’s gate eastward: they were porters in the companies of the children of Levi.",
+      "web": "who previously served in the king’s gate eastward. They were the gatekeepers for the camp of the children of Levi.",
+      "ct": "Up to that time, they had served at the king's gate on the east side. They were the gatekeepers for the Levite camp."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Shallum the son of Kore, the son of Ebiasaph, the son of Korah, and his brethren, of the house of his father, the Korahites, were over the work of the service, keepers of the gates of the tabernacle: and their fathers, being over the host of the LORD, were keepers of the entry.",
+      "web": "Shallum the son of Kore, the son of Ebiasaph, the son of Korah, and his brothers, of his father’s house, the Korahites, were over the work of the service, keepers of the thresholds of the tent. Their fathers had been over LORD’s camp, keepers of the entry.",
+      "ct": "Shallum son of Kore, son of Ebiasaph, son of Korah, along with his relatives from the Korahite clan, was responsible for guarding the entrance to the tabernacle. Their ancestors had guarded the entrance to the LORD's camp."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Phinehas the son of Eleazar was the ruler over them in time past, and the LORD was with him.",
+      "web": "Phinehas the son of Eleazar was ruler over them in time past, and LORD was with him.",
+      "ct": "In earlier times, Phinehas son of Eleazar had been their leader, and the LORD was with him."
+    },
+    {
+      "verse": 21,
+      "kjv": "And Zechariah the son of Meshelemiah was porter of the door of the tabernacle of the congregation.",
+      "web": "Zechariah the son of Meshelemiah was gatekeeper of the door of the Tent of Meeting.",
+      "ct": "Zechariah son of Meshelemiah served as gatekeeper at the entrance to the Tent of Meeting."
+    },
+    {
+      "verse": 22,
+      "kjv": "All these which were chosen to be porters in the gates were two hundred and twelve. These were reckoned by their genealogy in their villages, whom David and Samuel the seer did ordain in their set office.",
+      "web": "All these who were chosen to be gatekeepers in the thresholds were two hundred twelve. These were listed by genealogy in their villages, whom David and Samuel the seer ordained in their office of trust.",
+      "ct": "Altogether, 212 men were chosen as gatekeepers. They were registered by genealogy in their villages, and David and Samuel the prophet had appointed them to their trusted positions."
+    },
+    {
+      "verse": 23,
+      "kjv": "So they and their children had the oversight of the gates of the house of the LORD, namely, the house of the tabernacle, by wards.",
+      "web": "So they and their children had the oversight of the gates of LORD’s house, even the house of the tent, as guards.",
+      "ct": "They and their descendants were responsible for guarding the gates of the LORD's house — the house of the tabernacle — as an ongoing duty."
+    },
+    {
+      "verse": 24,
+      "kjv": "In four quarters were the porters, toward the east, west, north, and south.",
+      "web": "On the four sides were the gatekeepers, toward the east, west, north, and south.",
+      "ct": "Gatekeepers were stationed on all 4 sides: east, west, north, and south."
+    },
+    {
+      "verse": 25,
+      "kjv": "And their brethren, which were in their villages, were to come after seven days from time to time with them.",
+      "web": "Their brothers, in their villages, were to come in every seven days from time to time to be with them:",
+      "ct": "Their relatives in the surrounding villages would come and serve alongside them in rotating shifts every 7 days."
+    },
+    {
+      "verse": 26,
+      "kjv": "For these Levites, the four chief porters, were in their set office, and were over the chambers and treasuries of the house of God.",
+      "web": "for the four chief gatekeepers, who were Levites, were in an office of trust, and were over the rooms and over the treasuries in God’s house.",
+      "ct": "The 4 chief gatekeepers, all Levites, held permanent positions of trust. They were also in charge of the storerooms and treasuries in God's house."
+    },
+    {
+      "verse": 27,
+      "kjv": "And they lodged round about the house of God, because the charge was upon them, and the opening thereof every morning pertained to them.",
+      "web": "They stayed around God’s house, because that duty was on them; and to their duty was its opening morning by morning.",
+      "ct": "They stayed overnight near God's house because guarding it was their responsibility, and they were in charge of opening the gates every morning."
+    },
+    {
+      "verse": 28,
+      "kjv": "And certain of them had the charge of the ministering vessels, that they should bring them in and out by tale.",
+      "web": "Certain of them were in charge of the vessels of service; for these were brought in by count, and these were taken out by count.",
+      "ct": "Some of them were responsible for the vessels used in worship, carefully counting them when they were brought out and again when they were returned."
+    },
+    {
+      "verse": 29,
+      "kjv": "Some of them also were appointed to oversee the vessels, and all the instruments of the sanctuary, and the fine flour, and the wine, and the oil, and the frankincense, and the spices.",
+      "web": "Some of them also were appointed over the furniture, and over all the vessels of the sanctuary, over the fine flour, the wine, the oil, the frankincense, and the spices.",
+      "ct": "Others were assigned to oversee the furnishings and all the sacred equipment, as well as the supplies of fine flour, wine, oil, frankincense, and spices."
+    },
+    {
+      "verse": 30,
+      "kjv": "And some of the sons of the priests made the ointment of the spices.",
+      "web": "Some of the sons of the priests prepared the mixing of the spices.",
+      "ct": "Some of the priests' sons were responsible for blending the spiced ointments."
+    },
+    {
+      "verse": 31,
+      "kjv": "And Mattithiah, one of the Levites, who was the firstborn of Shallum the Korahite, had the set office over the things that were made in the pans.",
+      "web": "Mattithiah, one of the Levites, who was the firstborn of Shallum the Korahite, had the office of trust over the things that were baked in pans.",
+      "ct": "Mattithiah, a Levite and the firstborn son of Shallum the Korahite, held the trusted position of overseeing everything baked in pans."
+    },
+    {
+      "verse": 32,
+      "kjv": "And other of their brethren, of the sons of the Kohathites, were over the shewbread, to prepare it every sabbath.",
+      "web": "Some of their brothers, of the sons of the Kohathites, were over the show bread, to prepare it every Sabbath.",
+      "ct": "Some of their Kohathite relatives were in charge of preparing the showbread every Sabbath."
+    },
+    {
+      "verse": 33,
+      "kjv": "And these are the singers, chief of the fathers of the Levites, who remaining in the chambers were free: for they were employed in that work day and night.",
+      "web": "These are the singers, heads of fathers’ households of the Levites, who lived in the rooms and were free from other service; for they were employed in their work day and night.",
+      "ct": "The musicians, who were heads of Levite families, lived in rooms at the temple and were exempt from other duties because their work of leading worship kept them busy day and night."
+    },
+    {
+      "verse": 34,
+      "kjv": "These chief fathers of the Levites were chief throughout their generations; these dwelt at Jerusalem.",
+      "web": "These were heads of fathers’ households of the Levites, throughout their generations, chief men. These lived at Jerusalem.",
+      "ct": "These were the leading heads of the Levite families, recognized as chiefs throughout their generations. They lived in Jerusalem."
+    },
+    {
+      "verse": 35,
+      "kjv": "And in Gibeon dwelt the father of Gibeon, Jehiel, whose wife’s name was Maachah,",
+      "web": "Jeiel the father of Gibeon, whose wife’s name was Maacah, lived in Gibeon with",
+      "ct": "Jehiel, the founder of Gibeon, lived in Gibeon. His wife's name was Maachah."
+    },
+    {
+      "verse": 36,
+      "kjv": "And his firstborn son Abdon, then Zur, and Kish, and Baal, and Ner, and Nadab,",
+      "web": "his firstborn son Abdon, Zur, Kish, Baal, Ner, Nadab,",
+      "ct": "His firstborn son was Abdon, followed by Zur, Kish, Baal, Ner, Nadab,"
+    },
+    {
+      "verse": 37,
+      "kjv": "And Gedor, and Ahio, and Zechariah, and Mikloth.",
+      "web": "Gedor, Ahio, Zechariah, and Mikloth.",
+      "ct": "Gedor, Ahio, Zechariah, and Mikloth."
+    },
+    {
+      "verse": 38,
+      "kjv": "And Mikloth begat Shimeam. And they also dwelt with their brethren at Jerusalem, over against their brethren.",
+      "web": "Mikloth became the father of Shimeam. They also lived with their brothers in Jerusalem, near their brothers.",
+      "ct": "Mikloth was the father of Shimeam. They also lived near their relatives in Jerusalem."
+    },
+    {
+      "verse": 39,
+      "kjv": "And Ner begat Kish; and Kish begat Saul; and Saul begat Jonathan, and Malchishua, and Abinadab, and Eshbaal.",
+      "web": "Ner became the father of Kish. Kish became the father of Saul. Saul became the father of Jonathan, Malchishua, Abinadab, and Eshbaal.",
+      "ct": "Ner was the father of Kish. Kish was the father of Saul. Saul was the father of Jonathan, Malchishua, Abinadab, and Eshbaal."
+    },
+    {
+      "verse": 40,
+      "kjv": "And the son of Jonathan was Meribbaal: and Meribbaal begat Micah.",
+      "web": "The son of Jonathan was Merib Baal. Merib Baal became the father of Micah.",
+      "ct": "Jonathan's son was Meribbaal, and Meribbaal was the father of Micah."
+    },
+    {
+      "verse": 41,
+      "kjv": "And the sons of Micah were, Pithon, and Melech, and Tahrea, and Ahaz.",
+      "web": "The sons of Micah: Pithon, Melech, Tahrea, and Ahaz.",
+      "ct": "Micah's sons were Pithon, Melech, Tahrea, and Ahaz."
+    },
+    {
+      "verse": 42,
+      "kjv": "And Ahaz begat Jarah; and Jarah begat Alemeth, and Azmaveth, and Zimri; and Zimri begat Moza;",
+      "web": "Ahaz became the father of Jarah. Jarah became the father of Alemeth, Azmaveth, and Zimri. Zimri became the father of Moza.",
+      "ct": "Ahaz was the father of Jarah. Jarah was the father of Alemeth, Azmaveth, and Zimri. Zimri was the father of Moza."
+    },
+    {
+      "verse": 43,
+      "kjv": "And Moza begat Binea; and Rephaiah his son, Eleasah his son, Azel his son.",
+      "web": "Moza became the father of Binea; and Rephaiah his son, Eleasah his son, and Azel his son.",
+      "ct": "Moza was the father of Binea. Binea's son was Rephaiah, whose son was Eleasah, whose son was Azel."
+    },
+    {
+      "verse": 44,
+      "kjv": "And Azel had six sons, whose names are these, Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan: these were the sons of Azel.",
+      "web": "Azel had six sons, whose names are these: Azrikam, Bocheru, Ishmael, Sheariah, Obadiah, and Hanan. These were the sons of Azel.",
+      "ct": "Azel had 6 sons: Azrikam, Bocheru, Ishmael, Sheariah, Obadiah, and Hanan. These were the sons of Azel."
+    }
+  ]
+}

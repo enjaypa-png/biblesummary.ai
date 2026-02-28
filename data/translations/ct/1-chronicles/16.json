@@ -1,0 +1,269 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 16,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:06:22.076Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "So they brought the ark of God, and set it in the midst of the tent that David had pitched for it: and they offered burnt sacrifices and peace offerings before God.",
+      "web": "They brought in God’s ark, and set it in the middle of the tent that David had pitched for it; and they offered burnt offerings and peace offerings before God.",
+      "ct": "They brought the ark of God inside and placed it in the center of the tent David had set up for it. Then they presented burnt offerings and peace offerings before God."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when David had made an end of offering the burnt offerings and the peace offerings, he blessed the people in the name of the LORD.",
+      "web": "When David had finished offering the burnt offering and the peace offerings, he blessed the people in LORD’s name.",
+      "ct": "When David finished offering the burnt offerings and peace offerings, he blessed the people in the name of the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he dealt to every one of Israel, both man and woman, to every one a loaf of bread, and a good piece of flesh, and a flagon of wine.",
+      "web": "He gave to everyone of Israel, both man and woman, to everyone a loaf of bread, a portion of meat, and a cake of raisins.",
+      "ct": "He gave every person in Israel — both men and women — a loaf of bread, a portion of meat, and a cake of raisins."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he appointed certain of the Levites to minister before the ark of the LORD, and to record, and to thank and praise the LORD God of Israel:",
+      "web": "He appointed some of the Levites to minister before LORD’s ark, and to commemorate, to thank, and to praise LORD, the God of Israel:",
+      "ct": "David appointed certain Levites to serve before the ark of the LORD, to commemorate, give thanks, and praise the LORD God of Israel."
+    },
+    {
+      "verse": 5,
+      "kjv": "Asaph the chief, and next to him Zechariah, Jeiel, and Shemiramoth, and Jehiel, and Mattithiah, and Eliab, and Benaiah, and Obededom: and Jeiel with psalteries and with harps; but Asaph made a sound with cymbals;",
+      "web": "Asaph the chief, and second to him Zechariah, then Jeiel, Shemiramoth, Jehiel, Mattithiah, Eliab, Benaiah, Obed-Edom, and Jeiel, with stringed instruments and with harps; and Asaph with cymbals, sounding aloud;",
+      "ct": "Asaph was the leader, with Zechariah as his second. Then came Jeiel, Shemiramoth, Jehiel, Mattithiah, Eliab, Benaiah, Obed-edom, and Jeiel, who played harps and lyres. Asaph played the cymbals loudly."
+    },
+    {
+      "verse": 6,
+      "kjv": "Benaiah also and Jahaziel the priests with trumpets continually before the ark of the covenant of God.",
+      "web": "with Benaiah and Jahaziel the priests with trumpets continually, before the ark of the covenant of God.",
+      "ct": "The priests Benaiah and Jahaziel blew trumpets regularly before the ark of the covenant of God."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then on that day David delivered first this psalm to thank the LORD into the hand of Asaph and his brethren.",
+      "web": "Then on that day David first ordained to give thanks to LORD, by the hand of Asaph and his brothers. ",
+      "ct": "That was the day David first entrusted Asaph and his fellow Levites with this psalm of thanks to the LORD:"
+    },
+    {
+      "verse": 8,
+      "kjv": "Give thanks unto the LORD, call upon his name, make known his deeds among the people.",
+      "web": "Oh give thanks to LORD. Call on his name. Make what he has done known among the peoples.",
+      "ct": "\"Give thanks to the LORD! Call on his name! Tell the nations what he has done."
+    },
+    {
+      "verse": 9,
+      "kjv": "Sing unto him, sing psalms unto him, talk ye of all his wondrous works.",
+      "web": "Sing to him. Sing praises to him. Tell of all his marvelous works.",
+      "ct": "Sing to him! Sing praises to him! Talk about all his marvelous works."
+    },
+    {
+      "verse": 10,
+      "kjv": "Glory ye in his holy name: let the heart of them rejoice that seek the LORD.",
+      "web": "Glory in his holy name. Let the heart of those who seek LORD rejoice.",
+      "ct": "Take pride in his holy name. Let the hearts of those who seek the LORD be filled with joy."
+    },
+    {
+      "verse": 11,
+      "kjv": "Seek the LORD and his strength, seek his face continually.",
+      "web": "Seek LORD and his strength. Seek his face forever more.",
+      "ct": "Seek the LORD and his strength. Seek his face continually."
+    },
+    {
+      "verse": 12,
+      "kjv": "Remember his marvellous works that he hath done, his wonders, and the judgments of his mouth;",
+      "web": "Remember his marvelous works that he has done, his wonders, and the judgments of his mouth,",
+      "ct": "Remember the marvelous works he has done — his wonders and the judgments he has spoken —"
+    },
+    {
+      "verse": 13,
+      "kjv": "O ye seed of Israel his servant, ye children of Jacob, his chosen ones.",
+      "web": "you offspring of Israel his servant, you children of Jacob, his chosen ones.",
+      "ct": "you descendants of Israel his servant, you children of Jacob, his chosen ones."
+    },
+    {
+      "verse": 14,
+      "kjv": "He is the LORD our God; his judgments are in all the earth.",
+      "web": "He is LORD our God. His judgments are in all the earth.",
+      "ct": "He is the LORD our God. His judgments reach across the whole earth."
+    },
+    {
+      "verse": 15,
+      "kjv": "Be ye mindful always of his covenant; the word which he commanded to a thousand generations;",
+      "web": "Remember his covenant forever, the word which he commanded to a thousand generations,",
+      "ct": "Always remember his covenant — the promise he made to last a thousand generations —"
+    },
+    {
+      "verse": 16,
+      "kjv": "Even of the covenant which he made with Abraham, and of his oath unto Isaac;",
+      "web": "the covenant which he made with Abraham, his oath to Isaac.",
+      "ct": "the covenant he made with Abraham, the oath he swore to Isaac."
+    },
+    {
+      "verse": 17,
+      "kjv": "And hath confirmed the same to Jacob for a law, and to Israel for an everlasting covenant,",
+      "web": "He confirmed it to Jacob for a statute, and to Israel for an everlasting covenant,",
+      "ct": "He confirmed it to Jacob as a binding decree, and to Israel as an everlasting covenant,"
+    },
+    {
+      "verse": 18,
+      "kjv": "Saying, Unto thee will I give the land of Canaan, the lot of your inheritance;",
+      "web": "saying, “I will give you the land of Canaan, The lot of your inheritance,”",
+      "ct": "saying, 'I will give you the land of Canaan as your allotted inheritance' —"
+    },
+    {
+      "verse": 19,
+      "kjv": "When ye were but few, even a few, and strangers in it.",
+      "web": "when you were but a few men in number, yes, very few, and foreigners were in it.",
+      "ct": "even when you were few in number, just a handful of people, and strangers in that land."
+    },
+    {
+      "verse": 20,
+      "kjv": "And when they went from nation to nation, and from one kingdom to another people;",
+      "web": "They went about from nation to nation, from one kingdom to another people.",
+      "ct": "They wandered from nation to nation, from one kingdom to another."
+    },
+    {
+      "verse": 21,
+      "kjv": "He suffered no man to do them wrong: yea, he reproved kings for their sakes,",
+      "web": "He allowed no man to do them wrong. Yes, he reproved kings for their sakes,",
+      "ct": "He didn't let anyone oppress them. He even rebuked kings on their behalf,"
+    },
+    {
+      "verse": 22,
+      "kjv": "Saying, Touch not mine anointed, and do my prophets no harm.",
+      "web": "“Don’t touch my anointed ones! Do my prophets no harm!”",
+      "ct": "saying, 'Don't touch my anointed ones! Don't harm my prophets!'"
+    },
+    {
+      "verse": 23,
+      "kjv": "Sing unto the LORD, all the earth; shew forth from day to day his salvation.",
+      "web": "Sing to LORD, all the earth! Display his salvation from day to day.",
+      "ct": "Sing to the LORD, all the earth! Proclaim his salvation day after day."
+    },
+    {
+      "verse": 24,
+      "kjv": "Declare his glory among the heathen; his marvellous works among all nations.",
+      "web": "Declare his glory among the nations, and his marvelous works among all the peoples.",
+      "ct": "Declare his glory among the nations, his marvelous works among all peoples."
+    },
+    {
+      "verse": 25,
+      "kjv": "For great is the LORD, and greatly to be praised: he also is to be feared above all gods.",
+      "web": "For great is LORD, and greatly to be praised. He also is to be feared above all gods.",
+      "ct": "The LORD is great and deserves the highest praise. He is to be feared above all gods."
+    },
+    {
+      "verse": 26,
+      "kjv": "For all the gods of the people are idols: but the LORD made the heavens.",
+      "web": "For all the gods of the peoples are idols, but LORD made the heavens.",
+      "ct": "All the gods of the nations are nothing but idols, but the LORD made the heavens."
+    },
+    {
+      "verse": 27,
+      "kjv": "Glory and honour are in his presence; strength and gladness are in his place.",
+      "web": "Honor and majesty are before him. Strength and gladness are in his place.",
+      "ct": "Glory and honor surround him. Strength and gladness fill his dwelling place."
+    },
+    {
+      "verse": 28,
+      "kjv": "Give unto the LORD, ye kindreds of the people, give unto the LORD glory and strength.",
+      "web": "Ascribe to LORD, you relatives of the peoples, ascribe to LORD glory and strength!",
+      "ct": "Give to the LORD, you families of the nations — give to the LORD glory and strength!"
+    },
+    {
+      "verse": 29,
+      "kjv": "Give unto the LORD the glory due unto his name: bring an offering, and come before him: worship the LORD in the beauty of holiness.",
+      "web": "Ascribe to LORD the glory due to his name. Bring an offering, and come before him. Worship LORD in holy array.",
+      "ct": "Give the LORD the glory his name deserves. Bring an offering and come before him. Worship the LORD in the splendor of his holiness."
+    },
+    {
+      "verse": 30,
+      "kjv": "Fear before him, all the earth: the world also shall be stable, that it be not moved.",
+      "web": "Tremble before him, all the earth. The world also is established that it can’t be moved.",
+      "ct": "Tremble before him, all the earth! The world stands firm and cannot be shaken."
+    },
+    {
+      "verse": 31,
+      "kjv": "Let the heavens be glad, and let the earth rejoice: and let men say among the nations, The LORD reigneth.",
+      "web": "Let the heavens be glad, and let the earth rejoice! Let them say among the nations, “LORD reigns!”",
+      "ct": "Let the heavens be glad and the earth rejoice! Let the nations declare, 'The LORD reigns!'"
+    },
+    {
+      "verse": 32,
+      "kjv": "Let the sea roar, and the fulness thereof: let the fields rejoice, and all that is therein.",
+      "web": "Let the sea roar, and its fullness! Let the field exult, and all that is in it!",
+      "ct": "Let the sea roar with everything in it! Let the fields celebrate along with all they contain!"
+    },
+    {
+      "verse": 33,
+      "kjv": "Then shall the trees of the wood sing out at the presence of the LORD, because he cometh to judge the earth.",
+      "web": "Then the trees of the forest will sing for joy before LORD, for he comes to judge the earth.",
+      "ct": "Then the trees of the forest will sing for joy before the LORD, because he is coming to judge the earth."
+    },
+    {
+      "verse": 34,
+      "kjv": "O give thanks unto the LORD; for he is good; for his mercy endureth for ever.",
+      "web": "Oh give thanks to LORD, for he is good, for his loving kindness endures forever.",
+      "ct": "Give thanks to the LORD, for he is good! His mercy endures forever."
+    },
+    {
+      "verse": 35,
+      "kjv": "And say ye, Save us, O God of our salvation, and gather us together, and deliver us from the heathen, that we may give thanks to thy holy name, and glory in thy praise.",
+      "web": "Say, “Save us, God of our salvation! Gather us together and deliver us from the nations, to give thanks to your holy name, to triumph in your praise.”",
+      "ct": "Say to him, 'Save us, God of our salvation! Gather us together and rescue us from the nations, so we can give thanks to your holy name and glory in your praise.'\""
+    },
+    {
+      "verse": 36,
+      "kjv": "Blessed be the LORD God of Israel for ever and ever. And all the people said, Amen, and praised the LORD.",
+      "web": "Blessed be LORD, the God of Israel, from everlasting even to everlasting. All the people said, “Amen,” and praised LORD.",
+      "ct": "Blessed be the LORD, the God of Israel, from everlasting to everlasting! All the people said \"Amen\" and praised the LORD."
+    },
+    {
+      "verse": 37,
+      "kjv": "So he left there before the ark of the covenant of the LORD Asaph and his brethren, to minister before the ark continually, as every day’s work required:",
+      "web": "So he left Asaph and his brothers there before the ark of LORD’s covenant, to minister before the ark continually, as every day’s work required;",
+      "ct": "David left Asaph and his fellow Levites there to serve before the ark of the LORD's covenant on a permanent basis, handling whatever each day required."
+    },
+    {
+      "verse": 38,
+      "kjv": "And Obededom with their brethren, threescore and eight; Obededom also the son of Jeduthun and Hosah to be porters:",
+      "web": "and Obed-Edom with their brothers, sixty-eight; Obed-Edom also the son of Jeduthun and Hosah to be doorkeepers;",
+      "ct": "He also assigned Obed-edom and 68 of their fellow Levites to serve with them. Obed-edom son of Jeduthun and Hosah served as gatekeepers."
+    },
+    {
+      "verse": 39,
+      "kjv": "And Zadok the priest, and his brethren the priests, before the tabernacle of the LORD in the high place that was at Gibeon,",
+      "web": "and Zadok the priest, and his brothers the priests, before LORD’s tabernacle in the high place that was at Gibeon,",
+      "ct": "David stationed Zadok the priest and his fellow priests at the LORD's tabernacle at the worship site in Gibeon."
+    },
+    {
+      "verse": 40,
+      "kjv": "To offer burnt offerings unto the LORD upon the altar of the burnt offering continually morning and evening, and to do according to all that is written in the law of the LORD, which he commanded Israel;",
+      "web": "to offer burnt offerings to LORD on the altar of burnt offering continually morning and evening, even according to all that is written in LORD’s law, which he commanded to Israel;",
+      "ct": "Their job was to offer burnt offerings to the LORD on the altar every morning and evening, following everything written in the law of the LORD that he commanded Israel."
+    },
+    {
+      "verse": 41,
+      "kjv": "And with them Heman and Jeduthun, and the rest that were chosen, who were expressed by name, to give thanks to the LORD, because his mercy endureth for ever;",
+      "web": "and with them Heman and Jeduthun, and the rest who were chosen, who were mentioned by name, to give thanks to LORD, because his loving kindness endures forever;",
+      "ct": "Serving alongside them were Heman and Jeduthun, and the rest of those specifically chosen by name to give thanks to the LORD, because his mercy endures forever."
+    },
+    {
+      "verse": 42,
+      "kjv": "And with them Heman and Jeduthun with trumpets and cymbals for those that should make a sound, and with musical instruments of God. And the sons of Jeduthun were porters.",
+      "web": "and with them Heman and Jeduthun with trumpets and cymbals for those that should sound aloud, and with instruments for the songs of God; and the sons of Jeduthun to be at the gate.",
+      "ct": "Heman and Jeduthun had trumpets and cymbals for the musicians, along with other instruments for the songs of God. The sons of Jeduthun served as gatekeepers."
+    },
+    {
+      "verse": 43,
+      "kjv": "And all the people departed every man to his house: and David returned to bless his house.",
+      "web": "All the people departed, each man to his house; and David returned to bless his house.",
+      "ct": "Then all the people went home, and David returned to bless his own household."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 14,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:05:37.841Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now Hiram king of Tyre sent messengers to David, and timber of cedars, with masons and carpenters, to build him an house.",
+      "web": "Hiram king of Tyre sent messengers to David with cedar trees, masons, and carpenters, to build him a house.",
+      "ct": "King Hiram of Tyre sent messengers to David, along with cedar logs, stonemasons, and carpenters to build him a palace."
+    },
+    {
+      "verse": 2,
+      "kjv": "And David perceived that the LORD had confirmed him king over Israel, for his kingdom was lifted up on high, because of his people Israel.",
+      "web": "David perceived that LORD had established him king over Israel; for his kingdom was exalted on high, for his people Israel’s sake.",
+      "ct": "David realized that the LORD had truly established him as king over Israel and had elevated his kingdom to greatness for the sake of his people Israel."
+    },
+    {
+      "verse": 3,
+      "kjv": "And David took more wives at Jerusalem: and David begat more sons and daughters.",
+      "web": "David took more wives at Jerusalem, and David became the father of more sons and daughters.",
+      "ct": "David married more wives in Jerusalem and had more sons and daughters."
+    },
+    {
+      "verse": 4,
+      "kjv": "Now these are the names of his children which he had in Jerusalem; Shammua, and Shobab, Nathan, and Solomon,",
+      "web": "These are the names of the children whom he had in Jerusalem: Shammua, Shobab, Nathan, Solomon,",
+      "ct": "These are the names of the children born to him in Jerusalem: Shammua, Shobab, Nathan, Solomon,"
+    },
+    {
+      "verse": 5,
+      "kjv": "And Ibhar, and Elishua, and Elpalet,",
+      "web": "Ibhar, Elishua, Elpelet,",
+      "ct": "Ibhar, Elishua, Elpalet,"
+    },
+    {
+      "verse": 6,
+      "kjv": "And Nogah, and Nepheg, and Japhia,",
+      "web": "Nogah, Nepheg, Japhia,",
+      "ct": "Nogah, Nepheg, Japhia,"
+    },
+    {
+      "verse": 7,
+      "kjv": "And Elishama, and Beeliada, and Eliphalet.",
+      "web": "Elishama, Beeliada, and Eliphelet.",
+      "ct": "Elishama, Beeliada, and Eliphalet."
+    },
+    {
+      "verse": 8,
+      "kjv": "And when the Philistines heard that David was anointed king over all Israel, all the Philistines went up to seek David. And David heard of it, and went out against them.",
+      "web": "When the Philistines heard that David was anointed king over all Israel, all the Philistines went up to seek David; and David heard of it, and went out against them.",
+      "ct": "When the Philistines heard that David had been anointed king over all Israel, their entire army marched out to find him. David got word of it and went out to face them."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the Philistines came and spread themselves in the valley of Rephaim.",
+      "web": "Now the Philistines had come and made a raid in the valley of Rephaim.",
+      "ct": "The Philistines had invaded and spread out across the valley of Rephaim."
+    },
+    {
+      "verse": 10,
+      "kjv": "And David enquired of God, saying, Shall I go up against the Philistines? And wilt thou deliver them into mine hand? And the LORD said unto him, Go up; for I will deliver them into thine hand.",
+      "web": "David inquired of God, saying, “Shall I go up against the Philistines? Will you deliver them into my hand?” LORD said to him, “Go up; for I will deliver them into your hand.”",
+      "ct": "David asked God, \"Should I attack the Philistines? Will you hand them over to me?\" The LORD answered, \"Go. I will hand them over to you.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "So they came up to Baalperazim; and David smote them there. Then David said, God hath broken in upon mine enemies by mine hand like the breaking forth of waters: therefore they called the name of that place Baalperazim.",
+      "web": "So they came up to Baal Perazim, and David defeated them there. David said, God has broken my enemies by my hand, like waters breaking out. Therefore they called the name of that place Baal Perazim.",
+      "ct": "So David marched to Baalperazim and defeated them there. He said, \"God has used me to burst through my enemies like water breaking through a dam.\" That's why they named the place Baalperazim."
+    },
+    {
+      "verse": 12,
+      "kjv": "And when they had left their gods there, David gave a commandment, and they were burned with fire.",
+      "web": "They left their gods there; and David gave a command, and they were burned with fire.",
+      "ct": "The Philistines abandoned their idols on the battlefield, and David ordered them burned."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the Philistines yet again spread themselves abroad in the valley.",
+      "web": "The Philistines made a another raid in the valley.",
+      "ct": "Before long, the Philistines raided the valley again."
+    },
+    {
+      "verse": 14,
+      "kjv": "Therefore David enquired again of God; and God said unto him, Go not up after them; turn away from them, and come upon them over against the mulberry trees.",
+      "web": "David inquired again of God; and God said to him, “You shall not go up after them. Turn away from them, and come on them opposite the mulberry trees.",
+      "ct": "David asked God once more what to do. God told him, \"Don't attack them head-on this time. Circle around behind them and approach from the direction of the mulberry trees."
+    },
+    {
+      "verse": 15,
+      "kjv": "And it shall be, when thou shalt hear a sound of going in the tops of the mulberry trees, that then thou shalt go out to battle: for God is gone forth before thee to smite the host of the Philistines.",
+      "web": "When you hear the sound of marching in the tops of the mulberry trees, then go out to battle; for God has gone out before you to strike the army of the Philistines.”",
+      "ct": "When you hear the sound of marching in the tops of the mulberry trees, charge into battle — because that means God has gone ahead of you to strike down the Philistine army.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "David therefore did as God commanded him: and they smote the host of the Philistines from Gibeon even to Gazer.",
+      "web": "David did as God commanded him; and they attacked the army of the Philistines from Gibeon even to Gezer.",
+      "ct": "David did exactly what God commanded, and they crushed the Philistine army all the way from Gibeon to Gazer."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the fame of David went out into all lands; and the LORD brought the fear of him upon all nations.",
+      "web": "The fame of David went out into all lands; and LORD brought the fear of him on all nations.",
+      "ct": "David's fame spread to every surrounding nation, and the LORD made all of them afraid of him."
+    }
+  ]
+}

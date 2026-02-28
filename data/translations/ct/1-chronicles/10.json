@@ -1,0 +1,95 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:04:14.453Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the Philistines fought against Israel; and the men of Israel fled from before the Philistines, and fell down slain in mount Gilboa.",
+      "web": "Now the Philistines fought against Israel, and the men of Israel fled from before the Philistines, and fell down slain on Mount Gilboa.",
+      "ct": "The Philistines launched an attack against Israel. The Israelite soldiers fled before them, and many were cut down on Mount Gilboa."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the Philistines followed hard after Saul, and after his sons; and the Philistines slew Jonathan, and Abinadab, and Malchishua, the sons of Saul.",
+      "web": "The Philistines followed hard after Saul and after his sons; and the Philistines killed Jonathan, Abinadab, and Malchishua, the sons of Saul.",
+      "ct": "The Philistines closed in on Saul and his sons, killing 3 of them — Jonathan, Abinadab, and Malchishua."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the battle went sore against Saul, and the archers hit him, and he was wounded of the archers.",
+      "web": "The battle went hard against Saul, and the archers overtook him; and he was distressed by reason of the archers.",
+      "ct": "The fighting grew fierce around Saul. Enemy archers found their mark, and he was badly wounded."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said Saul to his armourbearer, Draw thy sword, and thrust me through therewith; lest these uncircumcised come and abuse me. But his armourbearer would not; for he was sore afraid. So Saul took a sword, and fell upon it.",
+      "web": "Then Saul said to his armor bearer, “Draw your sword, and thrust me through with it, lest these uncircumcised come and abuse me.” But his armor bearer would not; for he was terrified. Therefore Saul took his sword, and fell on it.",
+      "ct": "Saul told his armor bearer, \"Draw your sword and run me through with it — before these uncircumcised Philistines get to me and humiliate me.\" But his armor bearer was too terrified to do it. So Saul took his own sword and fell on it."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when his armourbearer saw that Saul was dead, he fell likewise on the sword, and died.",
+      "web": "When his armor bearer saw that Saul was dead, he likewise fell on his sword, and died.",
+      "ct": "When the armor bearer saw that Saul was dead, he also fell on his sword and died."
+    },
+    {
+      "verse": 6,
+      "kjv": "So Saul died, and his three sons, and all his house died together.",
+      "web": "So Saul died with his three sons; and all his house died together.",
+      "ct": "Saul, his 3 sons, and his entire household all died together that day."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when all the men of Israel that were in the valley saw that they fled, and that Saul and his sons were dead, then they forsook their cities, and fled: and the Philistines came and dwelt in them.",
+      "web": "When all the men of Israel who were in the valley saw that they fled, and that Saul and his sons were dead, they abandoned their cities, and fled; and the Philistines came and lived in them.",
+      "ct": "When the Israelites living in the valley saw that the army had fled and that Saul and his sons were dead, they abandoned their cities and ran. The Philistines moved in and occupied them."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it came to pass on the morrow, when the Philistines came to strip the slain, that they found Saul and his sons fallen in mount Gilboa.",
+      "web": "On the next day, when the Philistines came to strip the slain, they found Saul and his sons fallen on Mount Gilboa.",
+      "ct": "The next day, when the Philistines came to strip the dead, they found Saul and his sons lying on Mount Gilboa."
+    },
+    {
+      "verse": 9,
+      "kjv": "And when they had stripped him, they took his head, and his armour, and sent into the land of the Philistines round about, to carry tidings unto their idols, and to the people.",
+      "web": "They stripped him, and took his head and his armor, and sent into the land of the Philistines all around, to carry the news to their idols, and to the people.",
+      "ct": "They stripped Saul's body, cut off his head, and took his armor. Then they sent messengers throughout Philistine territory to spread the news among their idols and their people."
+    },
+    {
+      "verse": 10,
+      "kjv": "And they put his armour in the house of their gods, and fastened his head in the temple of Dagon.",
+      "web": "They put his armor in the house of their gods, and fastened his head in the house of Dagon.",
+      "ct": "They placed his armor in the temple of their gods and nailed his head to the wall of Dagon's temple."
+    },
+    {
+      "verse": 11,
+      "kjv": "And when all Jabeshgilead heard all that the Philistines had done to Saul,",
+      "web": "When all Jabesh Gilead heard all that the Philistines had done to Saul,",
+      "ct": "When the people of Jabesh Gilead heard everything the Philistines had done to Saul,"
+    },
+    {
+      "verse": 12,
+      "kjv": "They arose, all the valiant men, and took away the body of Saul, and the bodies of his sons, and brought them to Jabesh, and buried their bones under the oak in Jabesh, and fasted seven days.",
+      "web": "all the valiant men arose, and took away the body of Saul, and the bodies of his sons, and brought them to Jabesh, and buried their bones under the oak in Jabesh, and fasted seven days.",
+      "ct": "every brave man among them set out and retrieved the bodies of Saul and his sons. They brought them back to Jabesh, buried their bones under the oak tree there, and fasted for 7 days."
+    },
+    {
+      "verse": 13,
+      "kjv": "So Saul died for his transgression which he committed against the LORD, even against the word of the LORD, which he kept not, and also for asking counsel of one that had a familiar spirit, to enquire of it;",
+      "web": "So Saul died for his trespass which he committed against LORD, because of LORD’s word, which he didn’t keep; and also because he asked counsel of one who had a familiar spirit, to inquire,",
+      "ct": "Saul died because of his sin against the LORD. He disobeyed the LORD's direct command, and on top of that, he consulted a medium for guidance"
+    },
+    {
+      "verse": 14,
+      "kjv": "And enquired not of the LORD: therefore he slew him, and turned the kingdom unto David the son of Jesse.",
+      "web": "and didn’t inquire of LORD. Therefore he killed him, and turned the kingdom over to David the son of Jesse.",
+      "ct": "instead of seeking the LORD. Because of this, the LORD put him to death and handed the kingdom over to David son of Jesse."
+    }
+  ]
+}

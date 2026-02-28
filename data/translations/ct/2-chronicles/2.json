@@ -1,0 +1,119 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:11:26.667Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Solomon determined to build an house for the name of the LORD, and an house for his kingdom.",
+      "web": "Now Solomon decided to build a house for LORD’s name, and a house for his kingdom.",
+      "ct": "Solomon made up his mind to build a temple for the name of the LORD, and also a royal palace for himself."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Solomon told out threescore and ten thousand men to bear burdens, and fourscore thousand to hew in the mountain, and three thousand and six hundred to oversee them.",
+      "web": "Solomon counted out seventy thousand men to bear burdens, eighty thousand men who were stone cutters in the mountains, and three thousand six hundred to oversee them.",
+      "ct": "He assigned 70,000 men to carry loads, 80,000 to cut stone in the mountains, and 3,600 to supervise them."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Solomon sent to Huram the king of Tyre, saying, As thou didst deal with David my father, and didst send him cedars to build him an house to dwell therein, even so deal with me.",
+      "web": "Solomon sent to Huram the king of Tyre, saying, “As you dealt with David my father, and sent him cedars to build him a house in which to dwell, so deal with me.",
+      "ct": "Solomon sent a message to King Huram of Tyre: \"You supplied my father David with cedar to build his palace. I'm asking you to do the same for me."
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, I build an house to the name of the LORD my God, to dedicate it to him, and to burn before him sweet incense, and for the continual shewbread, and for the burnt offerings morning and evening, on the sabbaths, and on the new moons, and on the solemn feasts of the LORD our God. This is an ordinance for ever to Israel.",
+      "web": "Behold, I am about to build a house for the name of LORD my God, to dedicate it to him, to burn before him incense of sweet spices, for the continual show bread, and for the burnt offerings morning and evening, on the Sabbaths, on the new moons, and on the set feasts of LORD our God. This is an ordinance forever to Israel.",
+      "ct": "I'm about to build a temple for the name of the LORD my God, dedicated entirely to him — for burning fragrant incense before him, for displaying the bread that is always set out, and for the burnt offerings made every morning and evening, on the Sabbaths, at the New Moon festivals, and during the appointed feasts of the LORD our God. This is a permanent obligation for Israel."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the house which I build is great: for great is our God above all gods.",
+      "web": "“The house which I am building will be great; for our God is greater than all gods.",
+      "ct": "The temple I'm building will be magnificent, because our God is greater than all gods."
+    },
+    {
+      "verse": 6,
+      "kjv": "But who is able to build him an house, seeing the heaven and heaven of heavens cannot contain him? who am I then, that I should build him an house, save only to burn sacrifice before him?",
+      "web": "But who is able to build him a house, since heaven and the heaven of heavens can’t contain him? Who am I then, that I should build him a house, except just to burn incense before him?",
+      "ct": "But who could possibly build a house for him? Even the heavens — the highest heavens — can't contain him! So who am I to build him a temple? All I can really do is provide a place to burn offerings before him."
+    },
+    {
+      "verse": 7,
+      "kjv": "Send me now therefore a man cunning to work in gold, and in silver, and in brass, and in iron, and in purple, and crimson, and blue, and that can skill to grave with the cunning men that are with me in Judah and in Jerusalem, whom David my father did provide.",
+      "web": "“Now therefore send me a man skillful to work in gold, in silver, in bronze, in iron, and in purple, crimson, and blue, and who knows how to engrave engravings, to be with the skillful men who are with me in Judah and in Jerusalem, whom David my father provided.",
+      "ct": "So send me a master craftsman who can work with gold, silver, bronze, and iron, and who is skilled with purple, crimson, and blue fabrics, and who knows how to do engraving. He'll work alongside the skilled craftsmen here in Judah and Jerusalem that my father David assembled."
+    },
+    {
+      "verse": 8,
+      "kjv": "Send me also cedar trees, fir trees, and algum trees, out of Lebanon: for I know that thy servants can skill to cut timber in Lebanon; and, behold, my servants shall be with thy servants,",
+      "web": "“Send me also cedar trees, cypress trees, and algum trees out of Lebanon; for I know that your servants know how to cut timber in Lebanon. Behold, my servants will be with your servants,",
+      "ct": "Also send me cedar, cypress, and algum logs from Lebanon. I know your workers are experts at cutting timber there, and my men will work alongside yours"
+    },
+    {
+      "verse": 9,
+      "kjv": "Even to prepare me timber in abundance: for the house which I am about to build shall be wonderful great.",
+      "web": "even to prepare me timber in abundance; for the house which I am about to build will be great and wonderful.",
+      "ct": "to prepare a huge supply of lumber, because the temple I'm building will be breathtakingly grand."
+    },
+    {
+      "verse": 10,
+      "kjv": "And, behold, I will give to thy servants, the hewers that cut timber, twenty thousand measures of beaten wheat, and twenty thousand measures of barley, and twenty thousand baths of wine, and twenty thousand baths of oil.",
+      "web": "Behold, I will give to your servants, the cutters who cut timber, twenty thousand cors of beaten wheat, twenty thousand baths of barley, twenty thousand baths of wine, and twenty thousand baths of oil.”",
+      "ct": "As payment for your workers who cut the timber, I'll provide 20,000 measures of crushed wheat, 20,000 measures of barley, 20,000 baths of wine, and 20,000 baths of olive oil.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Then Huram the king of Tyre answered in writing, which he sent to Solomon, Because the LORD hath loved his people, he hath made thee king over them.",
+      "web": "Then Huram the king of Tyre answered in writing, which he sent to Solomon, “Because LORD loves his people, he has made you king over them.”",
+      "ct": "King Huram of Tyre sent a written reply to Solomon: \"Because the LORD loves his people, he has made you their king.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Huram said moreover, Blessed be the LORD God of Israel, that made heaven and earth, who hath given to David the king a wise son, endued with prudence and understanding, that might build an house for the LORD, and an house for his kingdom.",
+      "web": "Huram continued, “Blessed be LORD, the God of Israel, who made heaven and earth, who has given to David the king a wise son, endowed with discretion and understanding, who would build a house for LORD, and a house for his kingdom.",
+      "ct": "Huram also wrote, \"Blessed be the LORD, the God of Israel, who made heaven and earth! He has given King David a wise son with insight and understanding, one who will build a temple for the LORD and a royal palace for himself."
+    },
+    {
+      "verse": 13,
+      "kjv": "And now I have sent a cunning man, endued with understanding, of Huram my father’s,",
+      "web": "Now I have sent a skillful man, endowed with understanding, of Huram my father’s,",
+      "ct": "I'm sending you a master craftsman named Huram-Abi, a man of great skill."
+    },
+    {
+      "verse": 14,
+      "kjv": "The son of a woman of the daughters of Dan, and his father was a man of Tyre, skilful to work in gold, and in silver, in brass, in iron, in stone, and in timber, in purple, in blue, and in fine linen, and in crimson; also to grave any manner of graving, and to find out every device which shall be put to him, with thy cunning men, and with the cunning men of my lord David thy father.",
+      "web": "the son of a woman of the daughters of Dan; and his father was a man of Tyre, skillful to work in gold, in silver, in bronze, in iron, in stone, in timber, and in purple, in blue, in fine linen, and in crimson, also to engrave any kind of engraving and to devise any device; that there may be a place appointed to him with your skillful men, and with the skillful men of my lord David your father.",
+      "ct": "His mother is from the tribe of Dan, and his father is from Tyre. He's an expert in working with gold, silver, bronze, iron, stone, and wood, as well as purple, blue, and crimson fabrics and fine linen. He can do any kind of engraving and carry out any design given to him. He'll work alongside your skilled craftsmen and those of my lord David, your father."
+    },
+    {
+      "verse": 15,
+      "kjv": "Now therefore the wheat, and the barley, the oil, and the wine, which my lord hath spoken of, let him send unto his servants:",
+      "web": "“Now therefore the wheat, the barley, the oil, and the wine, which my lord has spoken of, let him send to his servants;",
+      "ct": "Now then, send the wheat, barley, olive oil, and wine that my lord has promised to your servants."
+    },
+    {
+      "verse": 16,
+      "kjv": "And we will cut wood out of Lebanon, as much as thou shalt need: and we will bring it to thee in floats by sea to Joppa; and thou shalt carry it up to Jerusalem.",
+      "web": "and we will cut wood out of Lebanon, as much as you need. We will bring it to you in rafts by sea to Joppa; then you shall carry it up to Jerusalem.”",
+      "ct": "We'll cut as much timber from Lebanon as you need and float it down to you in rafts by sea to Joppa. From there, you can transport it up to Jerusalem.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And Solomon numbered all the strangers that were in the land of Israel, after the numbering wherewith David his father had numbered them; and they were found an hundred and fifty thousand and three thousand and six hundred.",
+      "web": "Solomon counted all the foreigners who were in the land of Israel, after the census with which David his father had counted them; and they found one hundred fifty-three thousand six hundred.",
+      "ct": "Solomon took a census of all the foreigners living in Israel, following the census his father David had conducted, and the total came to 153,600."
+    },
+    {
+      "verse": 18,
+      "kjv": "And he set threescore and ten thousand of them to be bearers of burdens, and fourscore thousand to be hewers in the mountain, and three thousand and six hundred overseers to set the people a work.",
+      "web": "He set seventy thousand of them to bear burdens, eighty thousand who were stone cutters in the mountains, and three thousand six hundred overseers to assign the people their work.",
+      "ct": "He assigned 70,000 of them to carry loads, 80,000 to cut stone in the mountains, and 3,600 to serve as overseers keeping the workers on task."
+    }
+  ]
+}

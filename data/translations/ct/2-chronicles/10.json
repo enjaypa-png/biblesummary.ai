@@ -1,0 +1,125 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:14:12.392Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Rehoboam went to Shechem: for to Shechem were all Israel come to make him king.",
+      "web": "Rehoboam went to Shechem; for all Israel had come to Shechem to make him king.",
+      "ct": "Rehoboam traveled to Shechem, because all of Israel had gathered there to make him king."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it came to pass, when Jeroboam the son of Nebat, who was in Egypt, whither he had fled from the presence of Solomon the king, heard it, that Jeroboam returned out of Egypt.",
+      "web": "When Jeroboam the son of Nebat heard of it (for he was in Egypt, where he had fled from the presence of king Solomon), Jeroboam returned out of Egypt.",
+      "ct": "When Jeroboam son of Nebat heard about this, he was still in Egypt, where he had fled to escape King Solomon. He immediately returned from Egypt."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they sent and called him. So Jeroboam and all Israel came and spake to Rehoboam, saying,",
+      "web": "They sent and called him; and Jeroboam and all Israel came, and they spoke to Rehoboam, saying,",
+      "ct": "The people sent for Jeroboam, and he came with all of Israel to speak with Rehoboam. They said,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of thy father, and his heavy yoke that he put upon us, and we will serve thee.",
+      "web": "“Your father made our yoke grievous: now therefore make the grievous service of your father, and his heavy yoke which he put on us, lighter, and we will serve you.”",
+      "ct": "\"Your father crushed us with heavy burdens and harsh demands. Lighten the load he put on us, and we'll serve you loyally.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And he said unto them, Come again unto me after three days. And the people departed.",
+      "web": "He said to them, “Come again to me after three days.” So the people departed.",
+      "ct": "Rehoboam told them, \"Give me 3 days, then come back.\" So the people left."
+    },
+    {
+      "verse": 6,
+      "kjv": "And king Rehoboam took counsel with the old men that had stood before Solomon his father while he yet lived, saying, What counsel give ye me to return answer to this people?",
+      "web": "King Rehoboam took counsel with the old men, who had stood before Solomon his father while he yet lived, saying, “What counsel do you give me about how to answer these people?”",
+      "ct": "King Rehoboam consulted the older advisors who had served his father Solomon while he was still alive. \"How do you think I should respond to these people?\" he asked."
+    },
+    {
+      "verse": 7,
+      "kjv": "And they spake unto him, saying, If thou be kind to this people, and please them, and speak good words to them, they will be thy servants for ever.",
+      "web": "They spoke to him, saying, “If you are kind to these people, please them, and speak good words to them, then they will be your servants forever.”",
+      "ct": "They told him, \"If you treat these people with kindness, if you make them happy and speak to them with good will, they'll serve you for the rest of your life.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "But he forsook the counsel which the old men gave him, and took counsel with the young men that were brought up with him, that stood before him.",
+      "web": "But he abandoned the counsel of the old men which they had given him, and took counsel with the young men who had grown up with him, who stood before him.",
+      "ct": "But Rehoboam rejected the advice of the older men. Instead, he turned to the young men he'd grown up with, who now served as his advisors."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he said unto them, What advice give ye that we may return answer to this people, which have spoken to me, saying, Ease somewhat the yoke that thy father did put upon us?",
+      "web": "He said to them, “What counsel do you give, that we may give an answer to these people, who have spoken to me, saying, ‘Make the yoke that your father put on us lighter?’ ”",
+      "ct": "He asked them, \"What do you think? How should I answer these people who are asking me to lighten the burden my father put on them?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the young men that were brought up with him spake unto him, saying, Thus shalt thou answer the people that spake unto thee, saying, Thy father made our yoke heavy, but make thou it somewhat lighter for us; thus shalt thou say unto them, My little finger shall be thicker than my father’s loins.",
+      "web": "The young men who had grown up with him spoke to him, saying, “Thus you shall tell the people who spoke to you, saying, ‘Your father made our yoke heavy, but make it lighter on us;’ thus you shall say to them, ‘My little finger is thicker than my father’s waist.",
+      "ct": "The young men he'd grown up with told him, \"Here's what you should say to those people who want you to lighten their load: 'My little finger is thicker than my father's waist."
+    },
+    {
+      "verse": 11,
+      "kjv": "For whereas my father put a heavy yoke upon you, I will put more to your yoke: my father chastised you with whips, but I will chastise you with scorpions.",
+      "web": "Now whereas my father burdened you with a heavy yoke, I will add to your yoke. My father chastised you with whips, but I will chastise you with scorpions.’ ”",
+      "ct": "If my father burdened you with a heavy yoke, I'll make it even heavier. My father disciplined you with whips, but I'll discipline you with scorpions.'\""
+    },
+    {
+      "verse": 12,
+      "kjv": "So Jeroboam and all the people came to Rehoboam on the third day, as the king bade, saying, Come again to me on the third day.",
+      "web": "So Jeroboam and all the people came to Rehoboam the third day, as the king asked, saying, “Come to me again the third day.”",
+      "ct": "Jeroboam and all the people came back to Rehoboam on the 3rd day, just as the king had instructed when he said, \"Come back to me in 3 days.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And the king answered them roughly; and king Rehoboam forsook the counsel of the old men,",
+      "web": "The king answered them roughly; and king Rehoboam abandoned the counsel of the old men,",
+      "ct": "The king answered them harshly. He rejected the advice of the older men"
+    },
+    {
+      "verse": 14,
+      "kjv": "And answered them after the advice of the young men, saying, My father made your yoke heavy, but I will add thereto: my father chastised you with whips, but I will chastise you with scorpions.",
+      "web": "and spoke to them after the counsel of the young men, saying, “My father made your yoke heavy, but I will add to it. My father chastised you with whips, but I will chastise you with scorpions.”",
+      "ct": "and followed the advice of the young men instead. He told them, \"My father burdened you with a heavy yoke, and I'll make it even heavier. My father disciplined you with whips, but I'll discipline you with scorpions.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "So the king hearkened not unto the people: for the cause was of God, that the LORD might perform his word, which he spake by the hand of Ahijah the Shilonite to Jeroboam the son of Nebat.",
+      "web": "So the king didn’t listen to the people; for it was brought about by God, that LORD might establish his word, which he spoke by Ahijah the Shilonite to Jeroboam the son of Nebat.",
+      "ct": "The king refused to listen to the people. This was all part of God's plan, so that the LORD could fulfill the promise he had made through the prophet Ahijah from Shiloh to Jeroboam son of Nebat."
+    },
+    {
+      "verse": 16,
+      "kjv": "And when all Israel saw that the king would not hearken unto them, the people answered the king, saying, What portion have we in David? and we have none inheritance in the son of Jesse: every man to your tents, O Israel: and now, David, see to thine own house. So all Israel went to their tents.",
+      "web": "When all Israel saw that the king didn’t listen to them, the people answered the king, saying, “What portion do we have in David? We don’t have an inheritance in the son of Jesse! Every man to your tents, Israel! Now see to your own house, David.” So all Israel departed to their tents.",
+      "ct": "When all of Israel realized the king wasn't going to listen to them, the people shouted back at him: \"What connection do we have to David? We owe nothing to the son of Jesse! Go home, everyone! Let David's family take care of themselves!\" So all of Israel left and went home."
+    },
+    {
+      "verse": 17,
+      "kjv": "But as for the children of Israel that dwelt in the cities of Judah, Rehoboam reigned over them.",
+      "web": "But as for the children of Israel who lived in the cities of Judah, Rehoboam reigned over them.",
+      "ct": "But Rehoboam still ruled over the Israelites who lived in the towns of Judah."
+    },
+    {
+      "verse": 18,
+      "kjv": "Then king Rehoboam sent Hadoram that was over the tribute; and the children of Israel stoned him with stones, that he died. But king Rehoboam made speed to get him up to his chariot, to flee to Jerusalem.",
+      "web": "Then king Rehoboam sent Hadoram, who was over the men subject to forced labor; and the children of Israel stoned him to death with stones. King Rehoboam hurried to get himself up to his chariot, to flee to Jerusalem.",
+      "ct": "King Rehoboam then sent Hadoram, his chief of forced labor, to deal with the situation. But the Israelites stoned Hadoram to death. When Rehoboam heard what happened, he jumped into his chariot and raced back to Jerusalem."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Israel rebelled against the house of David unto this day.",
+      "web": "So Israel rebelled against David’s house to this day.",
+      "ct": "From that day on, Israel has been in rebellion against the house of David."
+    }
+  ]
+}

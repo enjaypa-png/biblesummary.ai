@@ -1,0 +1,215 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 27,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:09:55.360Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the children of Israel after their number, to wit, the chief fathers and captains of thousands and hundreds, and their officers that served the king in any matter of the courses, which came in and went out month by month throughout all the months of the year, of every course were twenty and four thousand.",
+      "web": "Now the children of Israel after their number, the heads of fathers’ households and the captains of thousands and of hundreds, and their officers who served the king, in any matter of the divisions which came in and went out month by month throughout all the months of the year—of every division were twenty-four thousand.",
+      "ct": "Here is the organization of Israel's people — the heads of families, the commanders of thousands and hundreds, and the officers who served the king. They were arranged in rotating divisions, with each division serving one month of the year. Every division had 24,000 men."
+    },
+    {
+      "verse": 2,
+      "kjv": "Over the first course for the first month was Jashobeam the son of Zabdiel: and in his course were twenty and four thousand.",
+      "web": "Over the first division for the first month was Jashobeam the son of Zabdiel: and in his division were twenty-four thousand.",
+      "ct": "Jashobeam son of Zabdiel commanded the 1st division for the 1st month, with 24,000 men under him."
+    },
+    {
+      "verse": 3,
+      "kjv": "Of the children of Perez was the chief of all the captains of the host for the first month.",
+      "web": "He was of the children of Perez, the chief of all the captains of the army for the first month.",
+      "ct": "He was a descendant of Perez and served as chief over all the army commanders for the 1st month."
+    },
+    {
+      "verse": 4,
+      "kjv": "And over the course of the second month was Dodai an Ahohite, and of his course was Mikloth also the ruler: in his course likewise were twenty and four thousand.",
+      "web": "Over the division of the second month was Dodai the Ahohite, and his division; and Mikloth the ruler: and in his division were twenty-four thousand.",
+      "ct": "Dodai the Ahohite commanded the 2nd division for the 2nd month, with Mikloth as his second-in-command. His division also had 24,000 men."
+    },
+    {
+      "verse": 5,
+      "kjv": "The third captain of the host for the third month was Benaiah the son of Jehoiada, a chief priest: and in his course were twenty and four thousand.",
+      "web": "The third captain of the army for the third month was Benaiah, the son of Jehoiada the chief priest. In his division were twenty-four thousand.",
+      "ct": "The 3rd army commander for the 3rd month was Benaiah son of Jehoiada the chief priest. His division had 24,000 men."
+    },
+    {
+      "verse": 6,
+      "kjv": "This is that Benaiah, who was mighty among the thirty, and above the thirty: and in his course was Ammizabad his son.",
+      "web": "This is that Benaiah who was the mighty man of the thirty, and over the thirty: and of his division was Ammizabad his son.",
+      "ct": "This was the same Benaiah who was the mightiest of David's 30 warriors and ranked above them all. His son Ammizabad served in his division."
+    },
+    {
+      "verse": 7,
+      "kjv": "The fourth captain for the fourth month was Asahel the brother of Joab, and Zebadiah his son after him: and in his course were twenty and four thousand.",
+      "web": "The fourth captain for the fourth month was Asahel the brother of Joab, and Zebadiah his son after him: and in his division were twenty-four thousand.",
+      "ct": "The 4th commander for the 4th month was Asahel, Joab's brother, and after Asahel died, his son Zebadiah took his place. His division had 24,000 men."
+    },
+    {
+      "verse": 8,
+      "kjv": "The fifth captain for the fifth month was Shamhuth the Izrahite: and in his course were twenty and four thousand.",
+      "web": "The fifth captain for the fifth month was Shamhuth the Izrahite: and in his division were twenty-four thousand.",
+      "ct": "The 5th commander for the 5th month was Shamhuth the Izrahite. His division had 24,000 men."
+    },
+    {
+      "verse": 9,
+      "kjv": "The sixth captain for the sixth month was Ira the son of Ikkesh the Tekoite: and in his course were twenty and four thousand.",
+      "web": "The sixth captain for the sixth month was Ira the son of Ikkesh the Tekoite: and in his division were twenty-four thousand.",
+      "ct": "The 6th commander for the 6th month was Ira son of Ikkesh from Tekoa. His division had 24,000 men."
+    },
+    {
+      "verse": 10,
+      "kjv": "The seventh captain for the seventh month was Helez the Pelonite, of the children of Ephraim: and in his course were twenty and four thousand.",
+      "web": "The seventh captain for the seventh month was Helez the Pelonite, of the children of Ephraim. In his division were twenty-four thousand.",
+      "ct": "The 7th commander for the 7th month was Helez the Pelonite, from the tribe of Ephraim. His division had 24,000 men."
+    },
+    {
+      "verse": 11,
+      "kjv": "The eighth captain for the eighth month was Sibbecai the Hushathite, of the Zarhites: and in his course were twenty and four thousand.",
+      "web": "The eighth captain for the eighth month was Sibbecai the Hushathite, of the Zerahites. In his division were twenty-four thousand.",
+      "ct": "The 8th commander for the 8th month was Sibbecai the Hushathite, a descendant of Zerah. His division had 24,000 men."
+    },
+    {
+      "verse": 12,
+      "kjv": "The ninth captain for the ninth month was Abiezer the Anetothite, of the Benjamites: and in his course were twenty and four thousand.",
+      "web": "The ninth captain for the ninth month was Abiezer the Anathothite, of the Benjamites. In his division were twenty-four thousand.",
+      "ct": "The 9th commander for the 9th month was Abiezer from Anathoth, of the tribe of Benjamin. His division had 24,000 men."
+    },
+    {
+      "verse": 13,
+      "kjv": "The tenth captain for the tenth month was Maharai the Netophathite, of the Zarhites: and in his course were twenty and four thousand.",
+      "web": "The tenth captain for the tenth month was Maharai the Netophathite, of the Zerahites. In his division were twenty-four thousand.",
+      "ct": "The 10th commander for the 10th month was Maharai from Netophah, a descendant of Zerah. His division had 24,000 men."
+    },
+    {
+      "verse": 14,
+      "kjv": "The eleventh captain for the eleventh month was Benaiah the Pirathonite, of the children of Ephraim: and in his course were twenty and four thousand.",
+      "web": "The eleventh captain for the eleventh month was Benaiah the Pirathonite, of the children of Ephraim. In his division were twenty-four thousand.",
+      "ct": "The 11th commander for the 11th month was Benaiah from Pirathon, of the tribe of Ephraim. His division had 24,000 men."
+    },
+    {
+      "verse": 15,
+      "kjv": "The twelfth captain for the twelfth month was Heldai the Netophathite, of Othniel: and in his course were twenty and four thousand.",
+      "web": "The twelfth captain for the twelfth month was Heldai the Netophathite, of Othniel. In his division were twenty-four thousand.",
+      "ct": "The 12th commander for the 12th month was Heldai from Netophah, a descendant of Othniel. His division had 24,000 men."
+    },
+    {
+      "verse": 16,
+      "kjv": "Furthermore over the tribes of Israel: the ruler of the Reubenites was Eliezer the son of Zichri: of the Simeonites, Shephatiah the son of Maachah:",
+      "web": "Furthermore over the tribes of Israel: of the Reubenites, Eliezer the son of Zichri was the ruler; of the Simeonites, Shephatiah the son of Maacah;",
+      "ct": "Over the individual tribes of Israel, these were the leaders: for Reuben, Eliezer son of Zichri; for Simeon, Shephatiah son of Maachah;"
+    },
+    {
+      "verse": 17,
+      "kjv": "Of the Levites, Hashabiah the son of Kemuel: of the Aaronites, Zadok:",
+      "web": "of Levi, Hashabiah the son of Kemuel; of Aaron, Zadok;",
+      "ct": "for Levi, Hashabiah son of Kemuel; for the descendants of Aaron, Zadok;"
+    },
+    {
+      "verse": 18,
+      "kjv": "Of Judah, Elihu, one of the brethren of David: of Issachar, Omri the son of Michael:",
+      "web": "of Judah, Elihu, one of the brothers of David; of Issachar, Omri the son of Michael;",
+      "ct": "for Judah, Elihu, one of David's brothers; for Issachar, Omri son of Michael;"
+    },
+    {
+      "verse": 19,
+      "kjv": "Of Zebulun, Ishmaiah the son of Obadiah: of Naphtali, Jerimoth the son of Azriel:",
+      "web": "of Zebulun, Ishmaiah the son of Obadiah; of Naphtali, Jeremoth the son of Azriel;",
+      "ct": "for Zebulun, Ishmaiah son of Obadiah; for Naphtali, Jerimoth son of Azriel;"
+    },
+    {
+      "verse": 20,
+      "kjv": "Of the children of Ephraim, Hoshea the son of Azaziah: of the half tribe of Manasseh, Joel the son of Pedaiah:",
+      "web": "of the children of Ephraim, Hoshea the son of Azaziah; of the half-tribe of Manasseh, Joel the son of Pedaiah;",
+      "ct": "for Ephraim, Hoshea son of Azaziah; for the western half-tribe of Manasseh, Joel son of Pedaiah;"
+    },
+    {
+      "verse": 21,
+      "kjv": "Of the half tribe of Manasseh in Gilead, Iddo the son of Zechariah: of Benjamin, Jaasiel the son of Abner:",
+      "web": "of the half-tribe of Manasseh in Gilead, Iddo the son of Zechariah; of Benjamin, Jaasiel the son of Abner;",
+      "ct": "for the half-tribe of Manasseh in Gilead, Iddo son of Zechariah; for Benjamin, Jaasiel son of Abner;"
+    },
+    {
+      "verse": 22,
+      "kjv": "Of Dan, Azareel the son of Jeroham. These were the princes of the tribes of Israel.",
+      "web": "of Dan, Azarel the son of Jeroham. These were the captains of the tribes of Israel.",
+      "ct": "for Dan, Azareel son of Jeroham. These were the leaders over the tribes of Israel."
+    },
+    {
+      "verse": 23,
+      "kjv": "But David took not the number of them from twenty years old and under: because the LORD had said he would increase Israel like to the stars of the heavens.",
+      "web": "But David didn’t take the number of them from twenty years old and under, because LORD had said he would increase Israel like the stars of the sky.",
+      "ct": "David didn't count anyone 20 years old or younger, because the LORD had promised to make Israel as numerous as the stars of the heavens."
+    },
+    {
+      "verse": 24,
+      "kjv": "Joab the son of Zeruiah began to number, but he finished not, because there fell wrath for it against Israel; neither was the number put in the account of the chronicles of king David.",
+      "web": "Joab the son of Zeruiah began to take a census, but didn’t finish; and wrath came on Israel for this. The number wasn’t put into the account in the chronicles of king David.",
+      "ct": "Joab son of Zeruiah had started taking a census but never finished it, because God's wrath fell on Israel because of it. The final count was never recorded in the official chronicles of King David."
+    },
+    {
+      "verse": 25,
+      "kjv": "And over the king’s treasures was Azmaveth the son of Adiel: and over the storehouses in the fields, in the cities, and in the villages, and in the castles, was Jehonathan the son of Uzziah:",
+      "web": "Over the king’s treasures was Azmaveth the son of Adiel: and over the treasures in the fields, in the cities, and in the villages, and in the towers, was Jonathan the son of Uzziah;",
+      "ct": "Azmaveth son of Adiel was in charge of the king's treasuries. Jehonathan son of Uzziah oversaw the storehouses throughout the countryside — in the cities, villages, and fortified towers."
+    },
+    {
+      "verse": 26,
+      "kjv": "And over them that did the work of the field for tillage of the ground was Ezri the son of Chelub:",
+      "web": "Over those who did the work of the field for tillage of the ground was Ezri the son of Chelub;",
+      "ct": "Ezri son of Chelub was in charge of the field workers who farmed the land."
+    },
+    {
+      "verse": 27,
+      "kjv": "And over the vineyards was Shimei the Ramathite: over the increase of the vineyards for the wine cellars was Zabdi the Shiphmite:",
+      "web": "and over the vineyards was Shimei the Ramathite; and over the increase of the vineyards for the wine cellars was Zabdi the Shiphmite;",
+      "ct": "Shimei the Ramathite managed the vineyards, and Zabdi the Shiphmite was responsible for the wine production and storage."
+    },
+    {
+      "verse": 28,
+      "kjv": "And over the olive trees and the sycomore trees that were in the low plains was Baalhanan the Gederite: and over the cellars of oil was Joash:",
+      "web": "and over the olive trees and the sycamore trees that were in the lowland was Baal Hanan the Gederite; and over the cellars of oil was Joash;",
+      "ct": "Baalhanan the Gederite oversaw the olive trees and sycamore trees in the western foothills, and Joash was in charge of the olive oil supplies."
+    },
+    {
+      "verse": 29,
+      "kjv": "And over the herds that fed in Sharon was Shitrai the Sharonite: and over the herds that were in the valleys was Shaphat the son of Adlai:",
+      "web": "and over the herds that fed in Sharon was Shitrai the Sharonite; and over the herds that were in the valleys was Shaphat the son of Adlai;",
+      "ct": "Shitrai the Sharonite managed the cattle grazing in Sharon, and Shaphat son of Adlai was over the herds in the valleys."
+    },
+    {
+      "verse": 30,
+      "kjv": "Over the camels also was Obil the Ishmaelite: and over the asses was Jehdeiah the Meronothite:",
+      "web": "and over the camels was Obil the Ishmaelite; and over the donkeys was Jehdeiah the Meronothite; and over the flocks was Jaziz the Hagrite.",
+      "ct": "Obil the Ishmaelite was in charge of the camels, and Jehdeiah the Meronothite looked after the donkeys."
+    },
+    {
+      "verse": 31,
+      "kjv": "And over the flocks was Jaziz the Hagerite. All these were the rulers of the substance which was king David’s.",
+      "web": "All these were the rulers of the property which was king David’s.",
+      "ct": "Jaziz the Hagerite managed the flocks. All of these men were the officials responsible for King David's property."
+    },
+    {
+      "verse": 32,
+      "kjv": "Also Jonathan David’s uncle was a counsellor, a wise man, and a scribe: and Jehiel the son of Hachmoni was with the king’s sons:",
+      "web": "Also Jonathan, David’s uncle, was a counselor, a man of understanding, and a scribe. Jehiel the son of Hachmoni was with the king’s sons.",
+      "ct": "Jonathan, David's uncle, served as a counselor — he was a wise man and a scribe. Jehiel son of Hachmoni was the tutor of the king's sons."
+    },
+    {
+      "verse": 33,
+      "kjv": "And Ahithophel was the king’s counsellor: and Hushai the Archite was the king’s companion:",
+      "web": "Ahithophel was the king’s counselor. Hushai the Archite was the king’s friend.",
+      "ct": "Ahithophel was the king's personal advisor, and Hushai the Archite was the king's trusted companion."
+    },
+    {
+      "verse": 34,
+      "kjv": "And after Ahithophel was Jehoiada the son of Benaiah, and Abiathar: and the general of the king’s army was Joab.",
+      "web": "After Ahithophel was Jehoiada the son of Benaiah, and Abiathar. Joab was the captain of the king’s army.",
+      "ct": "After Ahithophel, Jehoiada son of Benaiah and Abiathar served as advisors. Joab was the commander of the king's army."
+    }
+  ]
+}

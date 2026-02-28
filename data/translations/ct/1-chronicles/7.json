@@ -1,0 +1,251 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 7,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:03:13.710Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the sons of Issachar were, Tola, and Puah, Jashub, and Shimrom, four.",
+      "web": "Of the sons of Issachar: Tola, and Puah, Jashub, and Shimron, four.",
+      "ct": "Issachar had 4 sons: Tola, Puah, Jashub, and Shimron."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the sons of Tola; Uzzi, and Rephaiah, and Jeriel, and Jahmai, and Jibsam, and Shemuel, heads of their father’s house, to wit, of Tola: they were valiant men of might in their generations; whose number was in the days of David two and twenty thousand and six hundred.",
+      "web": "The sons of Tola: Uzzi, Rephaiah, Jeriel, Jahmai, Ibsam, and Shemuel, heads of their fathers’ houses, of Tola; mighty men of valor in their generations. Their number in the days of David was twenty-two thousand six hundred.",
+      "ct": "Tola's sons were Uzzi, Rephaiah, Jeriel, Jahmai, Jibsam, and Shemuel. They were heads of their family clans and mighty warriors. By the time of David, their descendants numbered 22,600."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the sons of Uzzi; Izrahiah: and the sons of Izrahiah; Michael, and Obadiah, and Joel, Ishiah, five: all of them chief men.",
+      "web": "The son of Uzzi: Izrahiah. The sons of Izrahiah: Michael, Obadiah, Joel, and Isshiah, five; all of them chief men.",
+      "ct": "Uzzi's son was Izrahiah. Izrahiah had 5 sons: Michael, Obadiah, Joel, and Ishiah — all of them leaders."
+    },
+    {
+      "verse": 4,
+      "kjv": "And with them, by their generations, after the house of their fathers, were bands of soldiers for war, six and thirty thousand men: for they had many wives and sons.",
+      "web": "With them, by their generations, after their fathers’ houses, were bands of the army for war, thirty-six thousand; for they had many wives and sons.",
+      "ct": "According to their family records, these clans could field 36,000 soldiers ready for war, because they had many wives and sons."
+    },
+    {
+      "verse": 5,
+      "kjv": "And their brethren among all the families of Issachar were valiant men of might, reckoned in all by their genealogies fourscore and seven thousand.",
+      "web": "Their brothers among all the families of Issachar, mighty men of valor, listed in all by genealogy, were eighty-seven thousand.",
+      "ct": "Across all the clans of Issachar, their relatives who were registered in the genealogies as mighty warriors totaled 87,000."
+    },
+    {
+      "verse": 6,
+      "kjv": "The sons of Benjamin; Bela, and Becher, and Jediael, three.",
+      "web": "The sons of Benjamin: Bela, Becher, and Jediael, three.",
+      "ct": "Benjamin had 3 sons: Bela, Becher, and Jediael."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the sons of Bela; Ezbon, and Uzzi, and Uzziel, and Jerimoth, and Iri, five; heads of the house of their fathers, mighty men of valour; and were reckoned by their genealogies twenty and two thousand and thirty and four.",
+      "web": "The sons of Bela: Ezbon, Uzzi, Uzziel, Jerimoth, and Iri, five; heads of fathers’ houses, mighty men of valor; and they were listed by genealogy twenty-two thousand thirty-four.",
+      "ct": "Bela had 5 sons: Ezbon, Uzzi, Uzziel, Jerimoth, and Iri. They were heads of their family clans and mighty warriors. Their genealogical records listed 22,034 men."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the sons of Becher; Zemira, and Joash, and Eliezer, and Elioenai, and Omri, and Jerimoth, and Abiah, and Anathoth, and Alameth. All these are the sons of Becher.",
+      "web": "The sons of Becher: Zemirah, Joash, Eliezer, Elioenai, Omri, Jeremoth, Abijah, Anathoth, and Alemeth. All these were the sons of Becher.",
+      "ct": "Becher's sons were Zemira, Joash, Eliezer, Elioenai, Omri, Jerimoth, Abiah, Anathoth, and Alameth. All of these were Becher's sons."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the number of them, after their genealogy by their generations, heads of the house of their fathers, mighty men of valour, was twenty thousand and two hundred.",
+      "web": "They were listed by genealogy, after their generations, heads of their fathers’ houses, mighty men of valor, twenty thousand two hundred.",
+      "ct": "Their genealogical records listed 20,200 men who were heads of their family clans and mighty warriors."
+    },
+    {
+      "verse": 10,
+      "kjv": "The sons also of Jediael; Bilhan: and the sons of Bilhan; Jeush, and Benjamin, and Ehud, and Chenaanah, and Zethan, and Tharshish, and Ahishahar.",
+      "web": "The son of Jediael: Bilhan. The sons of Bilhan: Jeush, Benjamin, Ehud, Chenaanah, Zethan, Tarshish, and Ahishahar.",
+      "ct": "Jediael's son was Bilhan. Bilhan's sons were Jeush, Benjamin, Ehud, Chenaanah, Zethan, Tharshish, and Ahishahar."
+    },
+    {
+      "verse": 11,
+      "kjv": "All these the sons of Jediael, by the heads of their fathers, mighty men of valour, were seventeen thousand and two hundred soldiers, fit to go out for war and battle.",
+      "web": "All these were sons of Jediael, according to the heads of their fathers’ households, mighty men of valor, seventeen thousand two hundred, who were able to go out in the army for war.",
+      "ct": "All of these descendants of Jediael were heads of their family clans and mighty warriors — 17,200 soldiers ready to march into battle."
+    },
+    {
+      "verse": 12,
+      "kjv": "Shuppim also, and Huppim, the children of Ir, and Hushim, the sons of Aher.",
+      "web": "So were Shuppim, Huppim, the sons of Ir, Hushim, and the sons of Aher.",
+      "ct": "Shuppim and Huppim were sons of Ir, and Hushim was a son of Aher."
+    },
+    {
+      "verse": 13,
+      "kjv": "The sons of Naphtali; Jahziel, and Guni, and Jezer, and Shallum, the sons of Bilhah.",
+      "web": "The sons of Naphtali: Jahziel, Guni, Jezer, Shallum, and the sons of Bilhah.",
+      "ct": "Naphtali's sons were Jahziel, Guni, Jezer, and Shallum — descendants of Bilhah."
+    },
+    {
+      "verse": 14,
+      "kjv": "The sons of Manasseh; Ashriel, whom she bare: (but his concubine the Aramitess bare Machir the father of Gilead:",
+      "web": "The sons of Manasseh: Asriel, whom his concubine the Aramitess bore. She bore Machir the father of Gilead.",
+      "ct": "The descendants of Manasseh included Ashriel, whom his wife bore. His Aramean concubine gave birth to Machir, who became the father of Gilead."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Machir took to wife the sister of Huppim and Shuppim, whose sister’s name was Maachah;) and the name of the second was Zelophehad: and Zelophehad had daughters.",
+      "web": "Machir took a wife of Huppim and Shuppim, whose sister’s name was Maacah. The name of the second was Zelophehad; and Zelophehad had daughters.",
+      "ct": "Machir married a woman from the families of Huppim and Shuppim; her name was Maachah. His second notable descendant was Zelophehad, who had only daughters."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Maachah the wife of Machir bare a son, and she called his name Peresh; and the name of his brother was Sheresh; and his sons were Ulam and Rakem.",
+      "web": "Maacah the wife of Machir bore a son, and she named him Peresh. The name of his brother was Sheresh; and his sons were Ulam and Rakem.",
+      "ct": "Machir's wife Maachah gave birth to a son and named him Peresh. His brother was named Sheresh, and Sheresh's sons were Ulam and Rakem."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the sons of Ulam; Bedan. These were the sons of Gilead, the son of Machir, the son of Manasseh.",
+      "web": "The sons of Ulam: Bedan. These were the sons of Gilead the son of Machir, the son of Manasseh.",
+      "ct": "Ulam's son was Bedan. These were the descendants of Gilead son of Machir, son of Manasseh."
+    },
+    {
+      "verse": 18,
+      "kjv": "And his sister Hammoleketh bare Ishod, and Abiezer, and Mahalah.",
+      "web": "His sister Hammolecheth bore Ishhod, Abiezer, and Mahlah.",
+      "ct": "Gilead's sister Hammoleketh gave birth to Ishod, Abiezer, and Mahalah."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the sons of Shemidah were, Ahian, and Shechem, and Likhi, and Aniam.",
+      "web": "The sons of Shemida were Ahian, Shechem, Likhi, and Aniam.",
+      "ct": "Shemidah's sons were Ahian, Shechem, Likhi, and Aniam."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the sons of Ephraim; Shuthelah, and Bered his son, and Tahath his son, and Eladah his son, and Tahath his son,",
+      "web": "The sons of Ephraim: Shuthelah, Bered his son, Tahath his son, Eleadah his son, Tahath his son,",
+      "ct": "The descendants of Ephraim traced through this line: Shuthelah, then his son Bered, then Tahath, then Eladah, then Tahath,"
+    },
+    {
+      "verse": 21,
+      "kjv": "And Zabad his son, and Shuthelah his son, and Ezer, and Elead, whom the men of Gath that were born in that land slew, because they came down to take away their cattle.",
+      "web": "Zabad his son, Shuthelah his son, Ezer, and Elead, whom the men of Gath who were born in the land killed, because they came down to take away their livestock.",
+      "ct": "then Zabad, then Shuthelah. Ephraim also had sons named Ezer and Elead, but the native-born men of Gath killed them when they went down to raid their livestock."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Ephraim their father mourned many days, and his brethren came to comfort him.",
+      "web": "Ephraim their father mourned many days, and his brothers came to comfort him.",
+      "ct": "Their father Ephraim grieved for many days, and his brothers came to comfort him."
+    },
+    {
+      "verse": 23,
+      "kjv": "And when he went in to his wife, she conceived, and bare a son, and he called his name Beriah, because it went evil with his house.",
+      "web": "He went in to his wife, and she conceived, and bore a son, and he named him Beriah, because there was trouble with his house.",
+      "ct": "Afterward he slept with his wife, and she became pregnant and gave birth to a son. He named the boy Beriah, because tragedy had struck his household."
+    },
+    {
+      "verse": 24,
+      "kjv": "(And his daughter was Sherah, who built Bethhoron the nether, and the upper, and Uzzensherah.)",
+      "web": "His daughter was Sheerah, who built Beth Horon the lower and the upper, and Uzzen Sheerah.",
+      "ct": "His daughter was Sherah, who built Lower Beth Horon, Upper Beth Horon, and Uzzen Sherah."
+    },
+    {
+      "verse": 25,
+      "kjv": "And Rephah was his son, also Resheph, and Telah his son, and Tahan his son,",
+      "web": "Rephah was his son, and Resheph, and Telah his son, Tahan his son,",
+      "ct": "His descendants continued through Rephah, then Resheph, then Telah, then Tahan,"
+    },
+    {
+      "verse": 26,
+      "kjv": "Laadan his son, Ammihud his son, Elishama his son,",
+      "web": "Ladan his son, Ammihud his son, Elishama his son,",
+      "ct": "then Laadan, then Ammihud, then Elishama,"
+    },
+    {
+      "verse": 27,
+      "kjv": "Non his son, Jehoshuah his son,",
+      "web": "Nun his son, and Joshua his son.",
+      "ct": "then Non, then Joshua."
+    },
+    {
+      "verse": 28,
+      "kjv": "And their possessions and habitations were, Bethel and the towns thereof, and eastward Naaran, and westward Gezer, with the towns thereof; Shechem also and the towns thereof, unto Gaza and the towns thereof:",
+      "web": "Their possessions and settlements were Bethel and its towns, and eastward Naaran, and westward Gezer, with its towns; Shechem also and its towns, to Azzah and its towns;",
+      "ct": "Their lands and settlements included Bethel and its surrounding towns, Naaran to the east, Gezer and its towns to the west, and Shechem and its towns all the way to Gaza and its towns."
+    },
+    {
+      "verse": 29,
+      "kjv": "And by the borders of the children of Manasseh, Bethshean and her towns, Taanach and her towns, Megiddo and her towns, Dor and her towns. In these dwelt the children of Joseph the son of Israel.",
+      "web": "and by the borders of the children of Manasseh, Beth Shean and its towns, Taanach and its towns, Megiddo and its towns, and Dor and its towns. The children of Joseph the son of Israel lived in these.",
+      "ct": "Along the border with Manasseh, they also held Beth Shean, Taanach, Megiddo, and Dor, each with its surrounding towns. The descendants of Joseph son of Israel lived in all these places."
+    },
+    {
+      "verse": 30,
+      "kjv": "The sons of Asher; Imnah, and Isuah, and Ishuai, and Beriah, and Serah their sister.",
+      "web": "The sons of Asher: Imnah, Ishvah, Ishvi, and Beriah. Serah was their sister.",
+      "ct": "Asher's sons were Imnah, Isuah, Ishuai, and Beriah. Their sister was Serah."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the sons of Beriah; Heber, and Malchiel, who is the father of Birzavith.",
+      "web": "The sons of Beriah: Heber and Malchiel, who was the father of Birzaith.",
+      "ct": "Beriah's sons were Heber and Malchiel. Malchiel was the father of Birzavith."
+    },
+    {
+      "verse": 32,
+      "kjv": "And Heber begat Japhlet, and Shomer, and Hotham, and Shua their sister.",
+      "web": "Heber became the father of Japhlet, Shomer, Hotham, and Shua their sister.",
+      "ct": "Heber was the father of Japhlet, Shomer, and Hotham, along with their sister Shua."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the sons of Japhlet; Pasach, and Bimhal, and Ashvath. These are the children of Japhlet.",
+      "web": "The sons of Japhlet: Pasach, Bimhal, and Ashvath. These are the children of Japhlet.",
+      "ct": "Japhlet's sons were Pasach, Bimhal, and Ashvath. These were Japhlet's descendants."
+    },
+    {
+      "verse": 34,
+      "kjv": "And the sons of Shamer; Ahi, and Rohgah, Jehubbah, and Aram.",
+      "web": "The sons of Shemer: Ahi, Rohgah, Jehubbah, and Aram.",
+      "ct": "Shamer's sons were Ahi, Rohgah, Jehubbah, and Aram."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the sons of his brother Helem; Zophah, and Imna, and Shelesh, and Amal.",
+      "web": "The sons of Helem his brother: Zophah, Imna, Shelesh, and Amal.",
+      "ct": "His brother Helem's sons were Zophah, Imna, Shelesh, and Amal."
+    },
+    {
+      "verse": 36,
+      "kjv": "The sons of Zophah; Suah, and Harnepher, and Shual, and Beri, and Imrah,",
+      "web": "The sons of Zophah: Suah, Harnepher, Shual, Beri, Imrah,",
+      "ct": "Zophah's sons were Suah, Harnepher, Shual, Beri, Imrah,"
+    },
+    {
+      "verse": 37,
+      "kjv": "Bezer, and Hod, and Shamma, and Shilshah, and Ithran, and Beera.",
+      "web": "Bezer, Hod, Shamma, Shilshah, Ithran, and Beera.",
+      "ct": "Bezer, Hod, Shamma, Shilshah, Ithran, and Beera."
+    },
+    {
+      "verse": 38,
+      "kjv": "And the sons of Jether; Jephunneh, and Pispah, and Ara.",
+      "web": "The sons of Jether: Jephunneh, Pispa, and Ara.",
+      "ct": "Jether's sons were Jephunneh, Pispah, and Ara."
+    },
+    {
+      "verse": 39,
+      "kjv": "And the sons of Ulla; Arah, and Haniel, and Rezia.",
+      "web": "The sons of Ulla: Arah, Hanniel, and Rizia.",
+      "ct": "Ulla's sons were Arah, Haniel, and Rezia."
+    },
+    {
+      "verse": 40,
+      "kjv": "All these were the children of Asher, heads of their father’s house, choice and mighty men of valour, chief of the princes. And the number throughout the genealogy of them that were apt to the war and to battle was twenty and six thousand men.",
+      "web": "All these were the children of Asher, heads of the fathers’ houses, choice and mighty men of valor, chief of the princes. The number of them listed by genealogy for service in war was twenty-six thousand men.",
+      "ct": "All of these were descendants of Asher — heads of their family clans, outstanding and mighty warriors, and leading princes. Their genealogical records listed 26,000 men fit for military service."
+    }
+  ]
+}
