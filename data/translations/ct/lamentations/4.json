@@ -1,0 +1,143 @@
+{
+  "book": "lamentations",
+  "book_name": "Lamentations",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:21:27.429Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "How is the gold become dim! how is the most fine gold changed! the stones of the sanctuary are poured out in the top of every street.",
+      "web": "How the gold has become dim! The most pure gold has changed! The stones of the sanctuary are poured out at the head of every street. ",
+      "ct": "How the gold has lost its shine! How the purest gold has tarnished! The sacred stones of the temple lie scattered at every street corner."
+    },
+    {
+      "verse": 2,
+      "kjv": "The precious sons of Zion, comparable to fine gold, how are they esteemed as earthen pitchers, the work of the hands of the potter!",
+      "web": "The precious sons of Zion, comparable to fine gold, how they are esteemed as earthen pitchers, the work of the hands of the potter! ",
+      "ct": "The precious people of Zion, once worth their weight in gold — now they're treated like cheap clay pots, shaped by an ordinary potter's hands!"
+    },
+    {
+      "verse": 3,
+      "kjv": "Even the sea monsters draw out the breast, they give suck to their young ones: the daughter of my people is become cruel, like the ostriches in the wilderness.",
+      "web": "Even the jackals offer their breast. They nurse their young ones. But the daughter of my people has become cruel, like the ostriches in the wilderness. ",
+      "ct": "Even jackals bare their breasts and nurse their young, but my people have become heartless, like ostriches that abandon their eggs in the desert."
+    },
+    {
+      "verse": 4,
+      "kjv": "The tongue of the sucking child cleaveth to the roof of his mouth for thirst: the young children ask bread, and no man breaketh it unto them.",
+      "web": "The tongue of the nursing child clings to the roof of his mouth for thirst. The young children ask bread, and no one breaks it for them. ",
+      "ct": "Nursing babies' tongues stick to the roofs of their mouths from thirst. Little children beg for bread, but no one gives them any."
+    },
+    {
+      "verse": 5,
+      "kjv": "They that did feed delicately are desolate in the streets: they that were brought up in scarlet embrace dunghills.",
+      "web": "Those who ate delicacies are desolate in the streets. Those who were brought up in purple embrace dunghills. ",
+      "ct": "Those who once feasted on rich food now waste away in the streets. Those who grew up dressed in fine purple robes now dig through garbage heaps."
+    },
+    {
+      "verse": 6,
+      "kjv": "For the punishment of the iniquity of the daughter of my people is greater than the punishment of the sin of Sodom, that was overthrown as in a moment, and no hands stayed on her.",
+      "web": "For the iniquity of the daughter of my people is greater than the sin of Sodom, which was overthrown as in a moment. No hands were laid on her. ",
+      "ct": "The punishment of my people is greater than what fell on Sodom, which was destroyed in an instant without a hand being raised against it."
+    },
+    {
+      "verse": 7,
+      "kjv": "Her Nazarites were purer than snow, they were whiter than milk, they were more ruddy in body than rubies, their polishing was of sapphire:",
+      "web": "Her nobles were purer than snow. They were whiter than milk. They were more ruddy in body than rubies. Their polishing was like sapphire. ",
+      "ct": "Her nobles were once purer than snow, whiter than milk. Their bodies glowed ruddier than rubies, and they were polished like sapphire."
+    },
+    {
+      "verse": 8,
+      "kjv": "Their visage is blacker than a coal; they are not known in the streets: their skin cleaveth to their bones; it is withered, it is become like a stick.",
+      "web": "Their appearance is blacker than a coal. They are not known in the streets. Their skin clings to their bones. It is withered. It has become like a stick. ",
+      "ct": "Now their faces are blacker than soot; no one recognizes them in the streets. Their skin clings to their bones, shriveled and dry as a stick."
+    },
+    {
+      "verse": 9,
+      "kjv": "They that be slain with the sword are better than they that be slain with hunger: for these pine away, stricken through for want of the fruits of the field.",
+      "web": "Those who are killed with the sword are better than those who are killed with hunger; For these pine away, stricken through, for lack of the fruits of the field. ",
+      "ct": "Those killed by the sword are better off than those killed by hunger, because the starving waste away slowly, pierced through by the lack of food from the fields."
+    },
+    {
+      "verse": 10,
+      "kjv": "The hands of the pitiful women have sodden their own children: they were their meat in the destruction of the daughter of my people.",
+      "web": "The hands of the pitiful women have boiled their own children. They were their food in the destruction of the daughter of my people. ",
+      "ct": "Compassionate mothers cooked their own children with their own hands. Their babies became their food during the destruction of my people."
+    },
+    {
+      "verse": 11,
+      "kjv": "The LORD hath accomplished his fury; he hath poured out his fierce anger, and hath kindled a fire in Zion, and it hath devoured the foundations thereof.",
+      "web": "LORD has accomplished his wrath. He has poured out his fierce anger. He has kindled a fire in Zion, which has devoured its foundations. ",
+      "ct": "The LORD unleashed the full force of his fury. He poured out his fierce anger and set a fire ablaze in Zion that consumed it down to its very foundations."
+    },
+    {
+      "verse": 12,
+      "kjv": "The kings of the earth, and all the inhabitants of the world, would not have believed that the adversary and the enemy should have entered into the gates of Jerusalem.",
+      "web": "The kings of the earth didn’t believe, neither did all the inhabitants of the world, that the adversary and the enemy would enter into the gates of Jerusalem. ",
+      "ct": "No king on earth — no one in the entire world — would have believed that an enemy could ever break through the gates of Jerusalem."
+    },
+    {
+      "verse": 13,
+      "kjv": "For the sins of her prophets, and the iniquities of her priests, that have shed the blood of the just in the midst of her,",
+      "web": "It is because of the sins of her prophets and the iniquities of her priests, That have shed the blood of the just in the middle of her. ",
+      "ct": "But it happened because of the sins of her prophets and the crimes of her priests, who shed the blood of the innocent right in the middle of the city."
+    },
+    {
+      "verse": 14,
+      "kjv": "They have wandered as blind men in the streets, they have polluted themselves with blood, so that men could not touch their garments.",
+      "web": "They wander as blind men in the streets. They are polluted with blood, So that men can’t touch their garments. ",
+      "ct": "They stumbled through the streets like blind men, so stained with blood that no one dared to touch even their clothes."
+    },
+    {
+      "verse": 15,
+      "kjv": "They cried unto them, Depart ye; it is unclean; depart, depart, touch not: when they fled away and wandered, they said among the heathen, They shall no more sojourn there.",
+      "web": "“Go away!” they cried to them. “Unclean! Go away! Go away! Don’t touch! When they fled away and wandered, men said among the nations, “They can’t live here any more.” ",
+      "ct": "\"Get away!\" people shouted at them. \"You're unclean! Get away! Get away! Don't touch us!\" So they fled and wandered, and the nations said, \"They can't stay here anymore.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "The anger of the LORD hath divided them; he will no more regard them: they respected not the persons of the priests, they favoured not the elders.",
+      "web": "LORD’s anger has scattered them. He will not pay attention to them any more. They didn’t respect the persons of the priests. They didn’t favor the elders. ",
+      "ct": "The LORD himself scattered them; he won't look on them with favor again. No one showed respect to the priests or kindness to the elders."
+    },
+    {
+      "verse": 17,
+      "kjv": "As for us, our eyes as yet failed for our vain help: in our watching we have watched for a nation that could not save us.",
+      "web": "Our eyes still fail, looking in vain for our help. In our watching we have watched for a nation that could not save. ",
+      "ct": "We wore out our eyes watching for help that never came. From our watchtowers we kept looking for a nation to rescue us, but it couldn't save us."
+    },
+    {
+      "verse": 18,
+      "kjv": "They hunt our steps, that we cannot go in our streets: our end is near, our days are fulfilled; for our end is come.",
+      "web": "They hunt our steps, so that we can’t go in our streets. Our end is near. Our days are fulfilled, for our end has come. ",
+      "ct": "They stalked our every step so we couldn't even walk through our own streets. Our end was closing in. Our days were numbered, because our end had come."
+    },
+    {
+      "verse": 19,
+      "kjv": "Our persecutors are swifter than the eagles of the heaven: they pursued us upon the mountains, they laid wait for us in the wilderness.",
+      "web": "Our pursuers were swifter than the eagles of the sky. They chased us on the mountains. They set an ambush for us in the wilderness. ",
+      "ct": "Our pursuers were faster than eagles in the sky. They chased us across the mountains and set ambushes for us in the wilderness."
+    },
+    {
+      "verse": 20,
+      "kjv": "The breath of our nostrils, the anointed of the LORD, was taken in their pits, of whom we said, Under his shadow we shall live among the heathen.",
+      "web": "The breath of our nostrils, the anointed of LORD, was taken in their pits; of whom we said, under his shadow we will live among the nations. ",
+      "ct": "The LORD's anointed — the very breath of our life — was caught in their traps. He was the one we had said, \"Under his protection, we'll survive among the nations.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Rejoice and be glad, O daughter of Edom, that dwellest in the land of Uz; the cup also shall pass through unto thee: thou shalt be drunken, and shalt make thyself naked.",
+      "web": "Rejoice and be glad, daughter of Edom, that dwells in the land of Uz. The cup will pass through to you also. You will be drunken, and will make yourself naked. ",
+      "ct": "Go ahead and celebrate, people of Edom, living in the land of Uz. But the cup of judgment will reach you too. You'll drink until you're drunk and strip yourself bare in shame."
+    },
+    {
+      "verse": 22,
+      "kjv": "The punishment of thine iniquity is accomplished, O daughter of Zion; he will no more carry thee away into captivity: he will visit thine iniquity, O daughter of Edom; he will discover thy sins.",
+      "web": "The punishment of your iniquity is accomplished, daughter of Zion. He will no more carry you away into captivity. He will visit your iniquity, daughter of Edom. He will uncover your sins.",
+      "ct": "Your punishment is complete, people of Zion — he won't send you into exile again. But your turn is coming, people of Edom. He will punish your guilt and expose your sins."
+    }
+  ]
+}

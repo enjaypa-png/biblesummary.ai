@@ -1,0 +1,77 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 9,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:24:25.623Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "He cried also in mine ears with a loud voice, saying, Cause them that have charge over the city to draw near, even every man with his destroying weapon in his hand.",
+      "web": "Then he cried in my ears with a loud voice, saying, “Cause those who are in charge of the city to draw near, each man with his destroying weapon in his hand.”",
+      "ct": "Then he shouted in my ears with a loud voice, \"Bring forward those who are appointed to judge the city — each one carrying his weapon of destruction!\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And, behold, six men came from the way of the higher gate, which lieth toward the north, and every man a slaughter weapon in his hand; and one man among them was clothed with linen, with a writer’s inkhorn by his side: and they went in, and stood beside the brasen altar.",
+      "web": "Behold, six men came from the way of the upper gate, which lies toward the north, every man with his slaughter weapon in his hand. One man in the middle of them was clothed in linen, with a writer’s inkhorn by his side. They went in, and stood beside the bronze altar.",
+      "ct": "I looked, and 6 men came from the direction of the upper gate that faces north, each carrying a deadly weapon. Among them was a man dressed in linen with a scribe's writing kit at his side. They entered and stood beside the bronze altar."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the glory of the God of Israel was gone up from the cherub, whereupon he was, to the threshold of the house. And he called to the man clothed with linen, which had the writer’s inkhorn by his side;",
+      "web": "The glory of the God of Israel went up from the cherub, whereupon it was, to the threshold of the house; and he called to the man clothed in linen, who had the writer’s inkhorn by his side.",
+      "ct": "Now the glory of the God of Israel had risen from above the cherub where it had been resting and moved to the threshold of the temple. From there, he called out to the man dressed in linen who had the writing kit at his side."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the LORD said unto him, Go through the midst of the city, through the midst of Jerusalem, and set a mark upon the foreheads of the men that sigh and that cry for all the abominations that be done in the midst thereof.",
+      "web": "LORD said to him, “Go through the middle of the city, through the middle of Jerusalem, and set a mark on the foreheads of the men that sigh and that cry over all the abominations that are done within it.”",
+      "ct": "The LORD told him, \"Go through the city — all through Jerusalem — and put a mark on the foreheads of everyone who grieves and mourns over the disgusting things being done there.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And to the others he said in mine hearing, Go ye after him through the city, and smite: let not your eye spare, neither have ye pity:",
+      "web": "To the others he said in my hearing, “Go through the city after him, and strike. Don’t let your eye spare, neither have pity.",
+      "ct": "Then to the others, he said within my hearing, \"Follow him through the city and strike. Show no mercy and have no pity."
+    },
+    {
+      "verse": 6,
+      "kjv": "Slay utterly old and young, both maids, and little children, and women: but come not near any man upon whom is the mark; and begin at my sanctuary. Then they began at the ancient men which were before the house.",
+      "web": "Kill utterly the old man, the young man, the virgin, little children and women; but don’t come near any man on whom is the mark. Begin at my sanctuary.” Then they began at the old men who were before the house.",
+      "ct": "Kill them all — old men, young men, young women, children, and women — but don't touch anyone who has the mark. Start at my sanctuary.\" So they began with the elders who were standing in front of the temple."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he said unto them, Defile the house, and fill the courts with the slain: go ye forth. And they went forth, and slew in the city.",
+      "web": "He said to them, “Defile the house, and fill the courts with the slain. Go out!” They went out, and struck in the city.",
+      "ct": "He told them, \"Defile the temple and fill its courtyards with the dead. Go!\" So they went out and began killing throughout the city."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it came to pass, while they were slaying them, and I was left, that I fell upon my face, and cried, and said, Ah Lord GOD! wilt thou destroy all the residue of Israel in thy pouring out of thy fury upon Jerusalem?",
+      "web": "While they were killing, and I was left, I fell on my face, and cried, and said, “Ah Lord LORD! Will you destroy all the residue of Israel in your pouring out of your wrath on Jerusalem?”",
+      "ct": "While they were carrying out the slaughter, I was left alone. I fell facedown and cried out, \"Oh, Lord GOD! Are you going to destroy everyone left in Israel by pouring out your fury on Jerusalem?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Then said he unto me, The iniquity of the house of Israel and Judah is exceeding great, and the land is full of blood, and the city full of perverseness: for they say, The LORD hath forsaken the earth, and the LORD seeth not.",
+      "web": "Then he said to me, “The iniquity of the house of Israel and Judah is exceedingly great, and the land is full of blood, and the city full of perversion; for they say, ‘LORD has forsaken the land, and LORD doesn’t see.’",
+      "ct": "He answered me, \"The sin of Israel and Judah is beyond measure. The land is drenched in blood, and the city is overflowing with corruption. They keep saying, 'The LORD has abandoned the land. The LORD doesn't see what we do.'"
+    },
+    {
+      "verse": 10,
+      "kjv": "And as for me also, mine eye shall not spare, neither will I have pity, but I will recompense their way upon their head.",
+      "web": "As for me also, my eye won’t spare, neither will I have pity, but I will bring their way on their head.”",
+      "ct": "So I will not show them mercy, and I will have no pity. I will bring the consequences of their actions down on their own heads.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And, behold, the man clothed with linen, which had the inkhorn by his side, reported the matter, saying, I have done as thou hast commanded me.",
+      "web": "Behold, the man clothed in linen, who had the inkhorn by his side, reported the matter, saying, “I have done as you have commanded me.”",
+      "ct": "Then the man dressed in linen, the one with the writing kit at his side, came back and reported, \"I have done everything you commanded me to do.\""
+    }
+  ]
+}

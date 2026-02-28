@@ -1,0 +1,119 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:24:12.580Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass in the sixth year, in the sixth month, in the fifth day of the month, as I sat in mine house, and the elders of Judah sat before me, that the hand of the Lord GOD fell there upon me.",
+      "web": "In the sixth year, in the sixth month, in the fifth day of the month, as I sat in my house, and the elders of Judah sat before me, the Lord LORD’s hand fell on me there.",
+      "ct": "On the 5th day of the 6th month, in the 6th year, I was sitting in my house with the elders of Judah gathered in front of me. Suddenly the hand of the Lord GOD came upon me."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then I beheld, and lo a likeness as the appearance of fire: from the appearance of his loins even downward, fire; and from his loins even upward, as the appearance of brightness, as the colour of amber.",
+      "web": "Then I saw, and behold, a likeness as the appearance of fire; from the appearance of his waist and downward, fire; and from his waist and upward, as the appearance of brightness, as it were glowing metal.",
+      "ct": "I looked and saw a figure that appeared like fire — from the waist down, blazing flame, and from the waist up, brilliant radiance like glowing amber."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he put forth the form of an hand, and took me by a lock of mine head; and the spirit lifted me up between the earth and the heaven, and brought me in the visions of God to Jerusalem, to the door of the inner gate that looketh toward the north; where was the seat of the image of jealousy, which provoketh to jealousy.",
+      "web": "He stretched out the form of a hand, and took me by a lock of my head; and the Spirit lifted me up between earth and the sky, and brought me in the visions of God to Jerusalem, to the door of the gate of the inner court that looks toward the north; where there was the seat of the image of jealousy, which provokes to jealousy.",
+      "ct": "He reached out what looked like a hand and grabbed me by a lock of my hair. The spirit lifted me up between earth and the heavens, and in visions from God he carried me to Jerusalem — to the entrance of the inner court's north gate. There stood the idol of jealousy, the one that provokes the LORD's jealousy."
+    },
+    {
+      "verse": 4,
+      "kjv": "And, behold, the glory of the God of Israel was there, according to the vision that I saw in the plain.",
+      "web": "Behold, the glory of the God of Israel was there, according to the appearance that I saw in the plain.",
+      "ct": "Right there before me was the glory of the God of Israel, just as I had seen it in my vision on the plain."
+    },
+    {
+      "verse": 5,
+      "kjv": "Then said he unto me, Son of man, lift up thine eyes now the way toward the north. So I lifted up mine eyes the way toward the north, and behold northward at the gate of the altar this image of jealousy in the entry.",
+      "web": "Then he said to me, “Son of man, lift up your eyes now the way toward the north.” So I lifted up my eyes the way toward the north, and saw, northward of the gate of the altar this image of jealousy in the entry.",
+      "ct": "He said to me, \"Son of man, look toward the north.\" So I looked, and there at the north side of the altar gate, right in the entrance, stood this idol of jealousy."
+    },
+    {
+      "verse": 6,
+      "kjv": "He said furthermore unto me, Son of man, seest thou what they do? even the great abominations that the house of Israel committeth here, that I should go far off from my sanctuary? but turn thee yet again, and thou shalt see greater abominations.",
+      "web": "He said to me, “Son of man, do you see what they do? Even the great abominations that the house of Israel commit here, that I should go far off from my sanctuary? But you will again see yet other great abominations.”",
+      "ct": "Then he said, \"Son of man, do you see what they're doing? The people of Israel are committing such disgusting acts here that I'm being driven away from my own sanctuary. But keep watching — you'll see even worse things than this.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And he brought me to the door of the court; and when I looked, behold a hole in the wall.",
+      "web": "He brought me to the door of the court; and when I looked, behold, a hole in the wall.",
+      "ct": "He brought me to the entrance of the courtyard, and when I looked, I noticed a hole in the wall."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then said he unto me, Son of man, dig now in the wall: and when I had digged in the wall, behold a door.",
+      "web": "Then he said to me, “Son of man, dig now in the wall.” When I had dug in the wall, I saw a door.",
+      "ct": "He told me, \"Son of man, dig into the wall.\" So I dug into it and uncovered a doorway."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he said unto me, Go in, and behold the wicked abominations that they do here.",
+      "web": "He said to me, “Go in, and see the wicked abominations that they do here.”",
+      "ct": "He said, \"Go inside and see the wicked, disgusting things they're doing in there.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "So I went in and saw; and behold every form of creeping things, and abominable beasts, and all the idols of the house of Israel, pourtrayed upon the wall round about.",
+      "web": "So I went in and looked, and saw every form of creeping things, abominable animals, and all the idols of the house of Israel, portrayed around on the wall.",
+      "ct": "So I went in and looked around. Carved all over the walls were images of every kind of crawling creature and repulsive animal, along with all the idols that the people of Israel worshiped."
+    },
+    {
+      "verse": 11,
+      "kjv": "And there stood before them seventy men of the ancients of the house of Israel, and in the midst of them stood Jaazaniah the son of Shaphan, with every man his censer in his hand; and a thick cloud of incense went up.",
+      "web": "Seventy men of the elders of the house of Israel stood before them. In the middle of them Jaazaniah the son of Shaphan stood, every man with his censer in his hand; and the smell of the cloud of incense went up.",
+      "ct": "Standing in front of these images were 70 elders of Israel, with Jaazaniah son of Shaphan among them. Each man held a censer in his hand, and a thick cloud of incense rose into the air."
+    },
+    {
+      "verse": 12,
+      "kjv": "Then said he unto me, Son of man, hast thou seen what the ancients of the house of Israel do in the dark, every man in the chambers of his imagery? for they say, The LORD seeth us not; the LORD hath forsaken the earth.",
+      "web": "Then he said to me, “Son of man, have you seen what the elders of the house of Israel do in the dark, every man in his rooms of imagery? For they say, ‘LORD doesn’t see us. LORD has forsaken the land.’ ”",
+      "ct": "He said to me, \"Son of man, do you see what the elders of Israel are doing in the dark, each one in his own shrine room full of carved images? They tell themselves, 'The LORD doesn't see us. The LORD has abandoned this land.'\""
+    },
+    {
+      "verse": 13,
+      "kjv": "He said also unto me, Turn thee yet again, and thou shalt see greater abominations that they do.",
+      "web": "He said also to me, “You will again see more of the great abominations which they do.”",
+      "ct": "Then he added, \"Keep watching — you'll see them doing things even more disgusting than this.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Then he brought me to the door of the gate of the LORD’s house which was toward the north; and, behold, there sat women weeping for Tammuz.",
+      "web": "Then he brought me to the door of the gate of LORD’s house which was toward the north; and I saw the women sit there weeping for Tammuz.",
+      "ct": "He brought me to the entrance of the north gate of the LORD's house, and there I saw women sitting and weeping for the false god Tammuz."
+    },
+    {
+      "verse": 15,
+      "kjv": "Then said he unto me, Hast thou seen this, O son of man? turn thee yet again, and thou shalt see greater abominations than these.",
+      "web": "Then he said to me, “Have you seen this, son of man? You will again see yet greater abominations than these.”",
+      "ct": "He asked me, \"Do you see this, son of man? Keep watching — you'll see abominations even worse than these.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And he brought me into the inner court of the LORD’s house, and, behold, at the door of the temple of the LORD, between the porch and the altar, were about five and twenty men, with their backs toward the temple of the LORD, and their faces toward the east; and they worshipped the sun toward the east.",
+      "web": "He brought me into the inner court of LORD’s house; and I saw at the door of LORD’s temple, between the porch and the altar, there were about twenty-five men, with their backs toward LORD’s temple, and their faces toward the east. They were worshiping the sun toward the east.",
+      "ct": "Then he brought me into the inner court of the LORD's house. There, between the porch and the altar, at the very entrance to the LORD's temple, stood about 25 men. Their backs were turned to the LORD's temple and their faces pointed east — they were bowing down and worshiping the sun."
+    },
+    {
+      "verse": 17,
+      "kjv": "Then he said unto me, Hast thou seen this, O son of man? Is it a light thing to the house of Judah that they commit the abominations which they commit here? for they have filled the land with violence, and have returned to provoke me to anger: and, lo, they put the branch to their nose.",
+      "web": "Then he said to me, “Have you seen this, son of man? Is it a light thing to the house of Judah that they commit the abominations which they commit here? For they have filled the land with violence, and have turned again to provoke me to anger. Behold, they put the branch to their nose.",
+      "ct": "He said to me, \"Do you see this, son of man? Isn't it bad enough that the people of Judah commit these disgusting acts right here? On top of that, they've filled the land with violence and keep provoking me to anger over and over. Look — they even hold the branch up to their nose in mockery."
+    },
+    {
+      "verse": 18,
+      "kjv": "Therefore will I also deal in fury: mine eye shall not spare, neither will I have pity: and though they cry in mine ears with a loud voice, yet will I not hear them.",
+      "web": "Therefore I will also deal in wrath. My eye won’t spare, neither will I have pity. Though they cry in my ears with a loud voice, yet I will not hear them.”",
+      "ct": "So I will act in fury. My eye will not spare them, and I will show no pity. Even if they scream out to me at the top of their lungs, I will not listen to them.\""
+    }
+  ]
+}

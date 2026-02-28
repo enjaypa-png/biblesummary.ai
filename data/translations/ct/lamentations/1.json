@@ -1,0 +1,143 @@
+{
+  "book": "lamentations",
+  "book_name": "Lamentations",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:20:09.999Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "How doth the city sit solitary, that was full of people! how is she become as a widow! she that was great among the nations, and princess among the provinces, how is she become tributary!",
+      "web": "How the city sits solitary, that was full of people! She has become as a widow, who was great among the nations! She who was a princess among the provinces has become a slave! ",
+      "ct": "Look at how the city sits alone — she who was once bursting with people! She has become like a widow, though she was once great among the nations. She who was a princess over provinces has been forced into slavery."
+    },
+    {
+      "verse": 2,
+      "kjv": "She weepeth sore in the night, and her tears are on her cheeks: among all her lovers she hath none to comfort her: all her friends have dealt treacherously with her, they are become her enemies.",
+      "web": "She weeps bitterly in the night. Her tears are on her cheeks. Among all her lovers she has no one to comfort her. All her friends have dealt treacherously with her. They have become her enemies. ",
+      "ct": "She weeps bitterly through the night, tears streaming down her cheeks. Of all the nations she once called allies, not one offers her comfort. Every friend has betrayed her — they've all become her enemies."
+    },
+    {
+      "verse": 3,
+      "kjv": "Judah is gone into captivity because of affliction, and because of great servitude: she dwelleth among the heathen, she findeth no rest: all her persecutors overtook her between the straits.",
+      "web": "Judah has gone into captivity because of affliction, and because of great servitude. She dwells among the nations. She finds no rest. All her persecutors overtook her within the straits. ",
+      "ct": "Judah has been dragged into captivity, crushed by suffering and harsh labor. Now she lives among foreign nations and finds no place to rest. Her persecutors cornered her in the narrow passes, and she couldn't escape."
+    },
+    {
+      "verse": 4,
+      "kjv": "The ways of Zion do mourn, because none come to the solemn feasts: all her gates are desolate: her priests sigh, her virgins are afflicted, and she is in bitterness.",
+      "web": "The roads to Zion mourn, because no one comes to the solemn assembly. All her gates are desolate. Her priests sigh. Her virgins are afflicted, and she herself is in bitterness. ",
+      "ct": "The roads to Zion are empty and grieving because no one comes to the sacred feasts anymore. All her gates stand deserted. Her priests groan, her young women suffer, and the city herself is drowning in bitterness."
+    },
+    {
+      "verse": 5,
+      "kjv": "Her adversaries are the chief, her enemies prosper; for the LORD hath afflicted her for the multitude of her transgressions: her children are gone into captivity before the enemy.",
+      "web": "Her adversaries have become the head. Her enemies prosper; for LORD has afflicted her for the multitude of her transgressions. Her young children have gone into captivity before the adversary. ",
+      "ct": "Her enemies have taken control. Those who hate her are thriving — because the LORD himself brought this suffering on her for her countless sins. Her children have been marched away as captives before the enemy."
+    },
+    {
+      "verse": 6,
+      "kjv": "And from the daughter of Zion all her beauty is departed: her princes are become like harts that find no pasture, and they are gone without strength before the pursuer.",
+      "web": "All majesty has departed from the daughter of Zion. Her princes have become like deer that find no pasture. They have gone without strength before the pursuer. ",
+      "ct": "All the beauty and majesty of Zion has vanished. Her leaders have become like deer that can't find pasture — they stumble along, too weak to outrun those chasing them."
+    },
+    {
+      "verse": 7,
+      "kjv": "Jerusalem remembered in the days of her affliction and of her miseries all her pleasant things that she had in the days of old, when her people fell into the hand of the enemy, and none did help her: the adversaries saw her, and did mock at her sabbaths.",
+      "web": "Jerusalem remembers in the days of her affliction and of her miseries all her pleasant things that were from the days of old; when her people fell into the hand of the adversary, and no one helped her. The adversaries saw her. They mocked at her desolations. ",
+      "ct": "In the days of her suffering and wandering, Jerusalem remembers all the precious things she once had in better times. But when her people fell into the enemy's hands, no one came to help. Her enemies watched her fall and laughed at her destruction."
+    },
+    {
+      "verse": 8,
+      "kjv": "Jerusalem hath grievously sinned; therefore she is removed: all that honoured her despise her, because they have seen her nakedness: yea, she sigheth, and turneth backward.",
+      "web": "Jerusalem has grievously sinned. Therefore she has become unclean. All who honored her despise her, because they have seen her nakedness. Yes, she sighs, and turns backward. ",
+      "ct": "Jerusalem sinned terribly, and so she has been cast aside as something unclean. Everyone who once honored her now despises her, because they've seen her shame laid bare. She groans and turns away in disgrace."
+    },
+    {
+      "verse": 9,
+      "kjv": "Her filthiness is in her skirts; she remembereth not her last end; therefore she came down wonderfully: she had no comforter. O LORD, behold my affliction: for the enemy hath magnified himself.",
+      "web": "Her filthiness was in her skirts. She didn’t remember her latter end. Therefore she has come down astoundingly. She has no comforter. “See, LORD, my affliction; for the enemy has magnified himself.” ",
+      "ct": "Her filth clung to her skirts, but she never considered where it would lead. So her downfall was staggering, and no one was there to comfort her. \"Look, LORD, at my suffering! The enemy gloats over me!\""
+    },
+    {
+      "verse": 10,
+      "kjv": "The adversary hath spread out his hand upon all her pleasant things: for she hath seen that the heathen entered into her sanctuary, whom thou didst command that they should not enter into thy congregation.",
+      "web": "The adversary has spread out his hand on all her pleasant things; for she has seen that the nations have entered into her sanctuary, concerning whom you commanded that they should not enter into your assembly. ",
+      "ct": "The enemy reached out and seized everything she treasured. She watched as foreign nations invaded her sanctuary — the very nations you commanded should never set foot in your assembly."
+    },
+    {
+      "verse": 11,
+      "kjv": "All her people sigh, they seek bread; they have given their pleasant things for meat to relieve the soul: see, O LORD, and consider; for I am become vile.",
+      "web": "All her people sigh. They seek bread. They have given their pleasant things for food to refresh their soul. “Look, LORD, and see; for I have become despised.” ",
+      "ct": "All her people groan as they search for bread. They've traded their most precious possessions for food just to stay alive. \"Look at me, LORD, and pay attention — I have become worthless in everyone's eyes.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Is it nothing to you, all ye that pass by? behold, and see if there be any sorrow like unto my sorrow, which is done unto me, wherewith the LORD hath afflicted me in the day of his fierce anger.",
+      "web": "“Is it nothing to you, all you who pass by? Look, and see if there is any sorrow like my sorrow, which is brought on me, with which LORD has afflicted me in the day of his fierce anger. ",
+      "ct": "\"Does this mean nothing to you, everyone passing by? Stop and look — is there any pain like the pain inflicted on me, the pain the LORD brought down on me in the day of his burning anger?\""
+    },
+    {
+      "verse": 13,
+      "kjv": "From above hath he sent fire into my bones, and it prevaileth against them: he hath spread a net for my feet, he hath turned me back: he hath made me desolate and faint all the day.",
+      "web": "“From on high has he sent fire into my bones, and it prevails against them. He has spread a net for my feet. He has turned me back. He has made me desolate and I faint all day long. ",
+      "ct": "\"From high above, he sent fire deep into my bones, and it overpowered them. He spread a net across my path and dragged me backward. He left me devastated, faint and weak all day long.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "The yoke of my transgressions is bound by his hand: they are wreathed, and come up upon my neck: he hath made my strength to fall, the LORD hath delivered me into their hands, from whom I am not able to rise up.",
+      "web": "“The yoke of my transgressions is bound by his hand. They are knit together. They have come up on my neck. He made my strength fail. The Lord has delivered me into their hands, against whom I am not able to stand. ",
+      "ct": "\"My sins have been twisted into a yoke by his own hand, woven together and draped over my neck. He drained every ounce of my strength. The Lord handed me over to enemies I cannot stand against.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "The LORD hath trodden under foot all my mighty men in the midst of me: he hath called an assembly against me to crush my young men: the LORD hath trodden the virgin, the daughter of Judah, as in a winepress.",
+      "web": "“The Lord has set at nothing all my mighty men within me. He has called a solemn assembly against me to crush my young men. The Lord has trodden the virgin daughter of Judah as in a wine press. ",
+      "ct": "\"The Lord swept aside all the warriors within my walls. He summoned an army against me to crush my young men. The Lord trampled the virgin daughter of Judah like grapes in a winepress.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "For these things I weep; mine eye, mine eye runneth down with water, because the comforter that should relieve my soul is far from me: my children are desolate, because the enemy prevailed.",
+      "web": "“For these things I weep. My eye, my eye runs down with water, because the comforter who should refresh my soul is far from me. My children are desolate, because the enemy has prevailed.” ",
+      "ct": "\"This is why I weep — my eyes, my eyes overflow with tears. The one who could comfort me and restore my soul is far away. My children are left with nothing, because the enemy has won.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Zion spreadeth forth her hands, and there is none to comfort her: the LORD hath commanded concerning Jacob, that his adversaries should be round about him: Jerusalem is as a menstruous woman among them.",
+      "web": "Zion spreads out her hands. There is no one to comfort her. LORD has commanded concerning Jacob, that those who are around him should be his adversaries. Jerusalem is among them as an unclean thing. ",
+      "ct": "Zion stretches out her hands, but no one comes to comfort her. The LORD decreed that Jacob's neighbors would become his enemies. Jerusalem has become something unclean among them."
+    },
+    {
+      "verse": 18,
+      "kjv": "The LORD is righteous; for I have rebelled against his commandment: hear, I pray you, all people, and behold my sorrow: my virgins and my young men are gone into captivity.",
+      "web": "“LORD is righteous; for I have rebelled against his commandment. Please hear all you peoples, and see my sorrow. My virgins and my young men have gone into captivity. ",
+      "ct": "\"The LORD is righteous — it was I who rebelled against his commands. Listen, all you nations, and look at my grief. My young women and my young men have been taken away into captivity.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "I called for my lovers, but they deceived me: my priests and mine elders gave up the ghost in the city, while they sought their meat to relieve their souls.",
+      "web": "“I called for my lovers, but they deceived me. My priests and my elders gave up the spirit in the city, while they sought food for themselves to refresh their souls. ",
+      "ct": "\"I cried out to my allies, but they abandoned me. My priests and my elders breathed their last inside the city while desperately searching for food to keep themselves alive.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Behold, O LORD; for I am in distress: my bowels are troubled; mine heart is turned within me; for I have grievously rebelled: abroad the sword bereaveth, at home there is as death.",
+      "web": "“Look, LORD; for I am in distress. My heart is troubled. My heart turns over within me, for I have grievously rebelled. Abroad, the sword bereaves. At home, it is like death. ",
+      "ct": "\"Look at me, LORD — I am in agony! My insides churn with anguish. My heart is torn apart because I rebelled so deeply. Outside, the sword kills. Inside, death lurks everywhere.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "They have heard that I sigh: there is none to comfort me: all mine enemies have heard of my trouble; they are glad that thou hast done it: thou wilt bring the day that thou hast called, and they shall be like unto me.",
+      "web": "“They have heard that I sigh. There is no one to comfort me. All my enemies have heard of my trouble. They are glad that you have done it. You will bring the day that you have proclaimed, and they will be like me. ",
+      "ct": "\"People hear me groaning, but no one comes to comfort me. All my enemies have heard about my disaster, and they celebrate what you've done. But bring the day you have announced — and let them suffer as I have.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Let all their wickedness come before thee; and do unto them, as thou hast done unto me for all my transgressions: for my sighs are many, and my heart is faint.",
+      "web": "“Let all their wickedness come before you. Do to them as you have done to me for all my transgressions. For my sighs are many, and my heart is faint.",
+      "ct": "\"Let all their wickedness come before you, and deal with them the way you've dealt with me because of all my sins. My groans never stop, and my heart is utterly spent.\""
+    }
+  ]
+}

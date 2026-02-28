@@ -53,6 +53,7 @@ export async function GET(request: NextRequest) {
     );
 
     const { error } = await supabase.auth.exchangeCodeForSession(code);
+    console.log("[OAuth Callback] code present:", !!code, "error:", error?.message || "none");
     if (!error) {
       let redirectUrl = `${origin}/bible`;
 
@@ -75,8 +76,6 @@ export async function GET(request: NextRequest) {
 
   // Pass error context so the login page can show a message
   const loginUrl = new URL("/login", origin);
-  if (code) {
-    loginUrl.searchParams.set("error", "oauth_exchange_failed");
-  }
+  loginUrl.searchParams.set("error", "oauth_exchange_failed");
   return NextResponse.redirect(loginUrl.toString());
 }

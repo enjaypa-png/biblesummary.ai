@@ -1,0 +1,143 @@
+{
+  "book": "lamentations",
+  "book_name": "Lamentations",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:20:34.694Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "How hath the LORD covered the daughter of Zion with a cloud in his anger, and cast down from heaven unto the earth the beauty of Israel, and remembered not his footstool in the day of his anger!",
+      "web": "How has the Lord covered the daughter of Zion with a cloud in his anger! He has cast the beauty of Israel down from heaven to the earth, and hasn’t remembered his footstool in the day of his anger. ",
+      "ct": "How the Lord has covered the daughter of Zion with a dark cloud in his anger! He hurled the beauty of Israel down from heaven to the earth. He didn't even remember his footstool — the temple — on the day of his anger!"
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD hath swallowed up all the habitations of Jacob, and hath not pitied: he hath thrown down in his wrath the strong holds of the daughter of Judah; he hath brought them down to the ground: he hath polluted the kingdom and the princes thereof.",
+      "web": "The Lord has swallowed up all the dwellings of Jacob without pity. He has thrown down in his wrath the strongholds of the daughter of Judah. He has brought them down to the ground. He has profaned the kingdom and its princes. ",
+      "ct": "The Lord swallowed up every dwelling in Jacob without pity. In his wrath he tore down the fortresses of the daughter of Judah, leveling them to the ground. He disgraced the kingdom and its princes."
+    },
+    {
+      "verse": 3,
+      "kjv": "He hath cut off in his fierce anger all the horn of Israel: he hath drawn back his right hand from before the enemy, and he burned against Jacob like a flaming fire, which devoureth round about.",
+      "web": "He has cut off all the horn of Israel in fierce anger. He has drawn back his right hand from before the enemy. He has burned up Jacob like a flaming fire, which devours all around. ",
+      "ct": "In fierce anger he cut off every source of Israel's strength. He pulled back his right hand and refused to defend them against the enemy. He burned through Jacob like a raging fire that devours everything around it."
+    },
+    {
+      "verse": 4,
+      "kjv": "He hath bent his bow like an enemy: he stood with his right hand as an adversary, and slew all that were pleasant to the eye in the tabernacle of the daughter of Zion: he poured out his fury like fire.",
+      "web": "He has bent his bow like an enemy. He has stood with his right hand as an adversary. Has killed all that were pleasant to the eye. In the tent of the daughter of Zion, he has poured out his wrath like fire. ",
+      "ct": "He drew his bow like an enemy. He stood with his right hand ready like an adversary and killed everyone who was precious to look upon. He poured out his fury like fire on the tent of the daughter of Zion."
+    },
+    {
+      "verse": 5,
+      "kjv": "The LORD was as an enemy: he hath swallowed up Israel, he hath swallowed up all her palaces: he hath destroyed his strong holds, and hath increased in the daughter of Judah mourning and lamentation.",
+      "web": "The Lord has become as an enemy. He has swallowed up Israel. He has swallowed up all her palaces. He has destroyed his strongholds. He has multiplied mourning and lamentation in the daughter of Judah. ",
+      "ct": "The Lord became like an enemy. He swallowed up Israel — swallowed up all her palaces and destroyed her fortresses. He multiplied mourning and lamentation throughout the daughter of Judah."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he hath violently taken away his tabernacle, as if it were of a garden: he hath destroyed his places of the assembly: the LORD hath caused the solemn feasts and sabbaths to be forgotten in Zion, and hath despised in the indignation of his anger the king and the priest.",
+      "web": "He has violently taken away his tabernacle, as if it were of a garden. He has destroyed his place of assembly. LORD has caused solemn assembly and Sabbath to be forgotten in Zion. In the indignation of his anger, he has despised the king and the priest. ",
+      "ct": "He ripped away his tabernacle as easily as tearing down a garden shelter. He destroyed his place of assembly. The LORD made Zion forget her sacred feasts and Sabbaths entirely. In the fury of his anger, he rejected both king and priest."
+    },
+    {
+      "verse": 7,
+      "kjv": "The LORD hath cast off his altar, he hath abhorred his sanctuary, he hath given up into the hand of the enemy the walls of her palaces; they have made a noise in the house of the LORD, as in the day of a solemn feast.",
+      "web": "The Lord has cast off his altar. He has abhorred his sanctuary. He has given the walls of her palaces into the hand of the enemy. They have made a noise in LORD’s house, as in the day of a solemn assembly. ",
+      "ct": "The Lord abandoned his altar and despised his sanctuary. He handed the walls of her palaces over to the enemy. They shouted in the house of the LORD as if it were a festival day."
+    },
+    {
+      "verse": 8,
+      "kjv": "The LORD hath purposed to destroy the wall of the daughter of Zion: he hath stretched out a line, he hath not withdrawn his hand from destroying: therefore he made the rampart and the wall to lament; they languished together.",
+      "web": "LORD has purposed to destroy the wall of the daughter of Zion. He has stretched out the line. He has not withdrawn his hand from destroying; He has made the rampart and wall lament. They languish together. ",
+      "ct": "The LORD was determined to destroy the wall of the daughter of Zion. He stretched out a measuring line and did not hold back from demolishing it. He made both rampart and wall grieve — together they crumbled."
+    },
+    {
+      "verse": 9,
+      "kjv": "Her gates are sunk into the ground; he hath destroyed and broken her bars: her king and her princes are among the Gentiles: the law is no more; her prophets also find no vision from the LORD.",
+      "web": "Her gates have sunk into the ground. He has destroyed and broken her bars. Her king and her princes are among the nations where the law is not. Yes, her prophets find no vision from LORD. ",
+      "ct": "Her gates have collapsed into the ground. He shattered and broke their bars. Her king and her princes are scattered among the nations. The law is gone. Even her prophets receive no vision from the LORD."
+    },
+    {
+      "verse": 10,
+      "kjv": "The elders of the daughter of Zion sit upon the ground, and keep silence: they have cast up dust upon their heads; they have girded themselves with sackcloth: the virgins of Jerusalem hang down their heads to the ground.",
+      "web": "The elders of the daughter of Zion sit on the ground. They keep silence. They have cast up dust on their heads. They have clothed themselves with sackcloth. The virgins of Jerusalem hang down their heads to the ground. ",
+      "ct": "The elders of the daughter of Zion sit on the ground in silence. They've thrown dust on their heads and dressed themselves in sackcloth. The young women of Jerusalem bow their faces to the ground."
+    },
+    {
+      "verse": 11,
+      "kjv": "Mine eyes do fail with tears, my bowels are troubled, my liver is poured upon the earth, for the destruction of the daughter of my people; because the children and the sucklings swoon in the streets of the city.",
+      "web": "My eyes fail with tears. My heart is troubled. My liver is poured on the earth, because of the destruction of the daughter of my people, because the young children and the infants swoon in the streets of the city. ",
+      "ct": "My eyes are worn out from weeping. My stomach churns with grief. My heart is poured out on the ground over the destruction of my people, because children and infants are collapsing in the city streets."
+    },
+    {
+      "verse": 12,
+      "kjv": "They say to their mothers, Where is corn and wine? when they swooned as the wounded in the streets of the city, when their soul was poured out into their mothers’ bosom.",
+      "web": "They ask their mothers, “Where is grain and wine?” when they swoon as the wounded in the streets of the city, when their soul is poured out into their mothers’ bosom. ",
+      "ct": "They cry out to their mothers, \"Where is there bread? Where is there wine?\" They collapse like wounded soldiers in the city streets, and their life drains away in their mothers' arms."
+    },
+    {
+      "verse": 13,
+      "kjv": "What thing shall I take to witness for thee? what thing shall I liken to thee, O daughter of Jerusalem? what shall I equal to thee, that I may comfort thee, O virgin daughter of Zion? for thy breach is great like the sea: who can heal thee?",
+      "web": "What shall I testify to you? What shall I liken to you, daughter of Jerusalem? What shall I compare to you, that I may comfort you, virgin daughter of Zion? For your breach is as big as the sea. Who can heal you? ",
+      "ct": "What can I say to you? What can I compare you to, daughter of Jerusalem? What could possibly match your suffering so I could comfort you, virgin daughter of Zion? Your wound is as vast as the sea. Who could ever heal you?"
+    },
+    {
+      "verse": 14,
+      "kjv": "Thy prophets have seen vain and foolish things for thee: and they have not discovered thine iniquity, to turn away thy captivity; but have seen for thee false burdens and causes of banishment.",
+      "web": "Your prophets have seen false and foolish visions for you. They have not uncovered your iniquity, to reverse your captivity, but have seen for you false revelations and causes of banishment. ",
+      "ct": "Your prophets gave you visions that were empty and foolish. They never exposed your sin, which could have prevented your exile. Instead, they fed you false messages that led to your banishment."
+    },
+    {
+      "verse": 15,
+      "kjv": "All that pass by clap their hands at thee; they hiss and wag their head at the daughter of Jerusalem, saying, Is this the city that men call The perfection of beauty, The joy of the whole earth?",
+      "web": "All that pass by clap their hands at you. They hiss and wag their head at the daughter of Jerusalem, saying, “Is this the city that men called ‘The perfection of beauty, the joy of the whole earth’?” ",
+      "ct": "Everyone who passes by claps their hands at you in mockery. They hiss and shake their heads at the daughter of Jerusalem, saying, \"Is this the city people once called 'The perfection of beauty, the joy of the whole earth'?\""
+    },
+    {
+      "verse": 16,
+      "kjv": "All thine enemies have opened their mouth against thee: they hiss and gnash the teeth: they say, We have swallowed her up: certainly this is the day that we looked for; we have found, we have seen it.",
+      "web": "All your enemies have opened their mouth wide against you. They hiss and gnash their teeth. They say, “We have swallowed her up. Certainly this is the day that we looked for. We have found it. We have seen it.” ",
+      "ct": "All your enemies open their mouths wide against you. They hiss and grind their teeth, saying, \"We've devoured her! This is the day we've been waiting for — we've lived to see it!\""
+    },
+    {
+      "verse": 17,
+      "kjv": "The LORD hath done that which he had devised; he hath fulfilled his word that he had commanded in the days of old: he hath thrown down, and hath not pitied: and he hath caused thine enemy to rejoice over thee, he hath set up the horn of thine adversaries.",
+      "web": "LORD has done that which he planned. He has fulfilled his word that he commanded in the days of old. He has thrown down, and has not pitied. He has caused the enemy to rejoice over you. He has exalted the horn of your adversaries. ",
+      "ct": "The LORD has carried out exactly what he planned. He fulfilled the word he decreed long ago. He tore you down without pity. He let your enemies celebrate over you and raised up the power of those who oppose you."
+    },
+    {
+      "verse": 18,
+      "kjv": "Their heart cried unto the LORD, O wall of the daughter of Zion, let tears run down like a river day and night: give thyself no rest; let not the apple of thine eye cease.",
+      "web": "Their heart cried to the Lord. O wall of the daughter of Zion, let tears run down like a river day and night. Give yourself no relief. Don’t let the your eyes rest. ",
+      "ct": "The people's hearts cry out to the Lord. O wall of the daughter of Zion, let tears pour down like a river day and night! Give yourself no relief — don't let your eyes stop weeping."
+    },
+    {
+      "verse": 19,
+      "kjv": "Arise, cry out in the night: in the beginning of the watches pour out thine heart like water before the face of the LORD: lift up thy hands toward him for the life of thy young children, that faint for hunger in the top of every street.",
+      "web": "Arise, cry out in the night, at the beginning of the watches! Pour out your heart like water before the face of the Lord. Lift up your hands toward him for the life of your young children, who faint for hunger at the head of every street. ",
+      "ct": "Get up and cry out in the night, at the start of every watch! Pour out your heart like water before the face of the Lord. Lift your hands to him for the lives of your little children, who are fainting from hunger at the corner of every street."
+    },
+    {
+      "verse": 20,
+      "kjv": "Behold, O LORD, and consider to whom thou hast done this. Shall the women eat their fruit, and children of a span long? shall the priest and the prophet be slain in the sanctuary of the Lord?",
+      "web": "“Look, LORD, and see to whom you have done thus! Should the women eat their offspring, the children that they held and bounced on their knees? Should the priest and the prophet be killed in the sanctuary of the Lord? ",
+      "ct": "\"Look, LORD, and consider — who have you done this to? Should mothers eat the children they carried and cradled? Should priests and prophets be slaughtered in the sanctuary of the Lord?\""
+    },
+    {
+      "verse": 21,
+      "kjv": "The young and the old lie on the ground in the streets: my virgins and my young men are fallen by the sword; thou hast slain them in the day of thine anger; thou hast killed, and not pitied.",
+      "web": "“The youth and the old man lie on the ground in the streets. My virgins and my young men have fallen by the sword. You have killed them in the day of your anger. You have slaughtered, and not pitied. ",
+      "ct": "\"Young and old alike lie dead on the ground in the streets. My young women and young men have fallen by the sword. You killed them on the day of your anger — you slaughtered them without pity.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Thou hast called as in a solemn day my terrors round about, so that in the day of the LORD’s anger none escaped nor remained: those that I have swaddled and brought up hath mine enemy consumed.",
+      "web": "“You have called, as in the day of a solemn assembly, my terrors on every side. There was no one that escaped or remained in the day of LORD’s anger. My enemy has consumed those whom I have cared for and brought up.",
+      "ct": "\"You summoned terrors against me from every direction, as if calling people to a festival. On the day of the LORD's anger, no one escaped and no one survived. The children I cared for and raised — my enemy has destroyed them all.\""
+    }
+  ]
+}

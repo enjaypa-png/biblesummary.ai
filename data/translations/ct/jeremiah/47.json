@@ -1,0 +1,53 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 47,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:16:07.501Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word of the LORD that came to Jeremiah the prophet against the Philistines, before that Pharaoh smote Gaza.",
+      "web": "LORD’s word that came to Jeremiah the prophet concerning the Philistines, before Pharaoh struck Gaza.",
+      "ct": "This is the word of the LORD that came to Jeremiah the prophet about the Philistines, before Pharaoh attacked Gaza."
+    },
+    {
+      "verse": 2,
+      "kjv": "Thus saith the LORD; Behold, waters rise up out of the north, and shall be an overflowing flood, and shall overflow the land, and all that is therein; the city, and them that dwell therein: then the men shall cry, and all the inhabitants of the land shall howl.",
+      "web": "LORD says: “Behold, waters rise up out of the north, and will become an overflowing stream, and will overflow the land and all that is therein, the city and those who dwell therein. The men will cry, and all the inhabitants of the land will wail.",
+      "ct": "This is what the LORD says: \"Look — waters are rising from the north, swelling into a raging flood. They will sweep over the land and everything in it, the cities and everyone who lives there. People will scream in terror, and everyone in the land will wail.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "At the noise of the stamping of the hoofs of his strong horses, at the rushing of his chariots, and at the rumbling of his wheels, the fathers shall not look back to their children for feebleness of hands;",
+      "web": "At the noise of the stamping of the hoofs of his strong ones, at the rushing of his chariots, at the rumbling of his wheels, the fathers don’t look back to their children for feebleness of hands;",
+      "ct": "At the thunder of pounding hooves from powerful warhorses, at the roar of charging chariots and the rumble of their wheels, fathers won't even turn back for their children — their hands will be too weak with fear."
+    },
+    {
+      "verse": 4,
+      "kjv": "Because of the day that cometh to spoil all the Philistines, and to cut off from Tyrus and Zidon every helper that remaineth: for the LORD will spoil the Philistines, the remnant of the country of Caphtor.",
+      "web": "because of the day that comes to destroy all the Philistines, to cut off from Tyre and Sidon every helper who remains; for LORD will destroy the Philistines, the remnant of the isle of Caphtor.",
+      "ct": "The day is coming to destroy every last Philistine and to cut off every ally that Tyre and Sidon have left. The LORD is about to wipe out the Philistines, the remnant from the shores of Caphtor."
+    },
+    {
+      "verse": 5,
+      "kjv": "Baldness is come upon Gaza; Ashkelon is cut off with the remnant of their valley: how long wilt thou cut thyself?",
+      "web": "Baldness has come on Gaza; Ashkelon is brought to nothing, the remnant of their valley: how long will you cut yourself? ",
+      "ct": "Gaza has shaved its head in mourning. Ashkelon has been silenced, along with what remains of their valley. How long will you gash yourselves in grief?"
+    },
+    {
+      "verse": 6,
+      "kjv": "O thou sword of the LORD, how long will it be ere thou be quiet? put up thyself into thy scabbard, rest, and be still.",
+      "web": "“ ‘You sword of LORD, how long will it be before you are quiet? Put yourself back into your scabbard; rest, and be still.’ ",
+      "ct": "\"Sword of the LORD, how long until you rest? Slide back into your scabbard — be still and quiet.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "How can it be quiet, seeing the LORD hath given it a charge against Ashkelon, and against the sea shore? there hath he appointed it.",
+      "web": "“How can you be quiet, since LORD has given you a command? Against Ashkelon, and against the seashore, there has he appointed it.”",
+      "ct": "But how can it rest when the LORD has given it orders? He has aimed it at Ashkelon and the coastland — that is where he has sent it."
+    }
+  ]
+}

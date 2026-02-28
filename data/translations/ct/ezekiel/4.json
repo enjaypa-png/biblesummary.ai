@@ -1,0 +1,113 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:22:54.253Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Thou also, son of man, take thee a tile, and lay it before thee, and pourtray upon it the city, even Jerusalem:",
+      "web": "“You also, son of man, take a tile, and lay it before yourself, and portray on it a city, even Jerusalem.",
+      "ct": "\"Now, son of man, take a clay tile and set it in front of you. Scratch an image of the city of Jerusalem onto it."
+    },
+    {
+      "verse": 2,
+      "kjv": "And lay siege against it, and build a fort against it, and cast a mount against it; set the camp also against it, and set battering rams against it round about.",
+      "web": "Lay siege against it, build forts against it, and cast up a mound against it. Also set camps against it and plant battering rams against it all around.",
+      "ct": "Then lay siege to it — build siege walls around it, pile up an assault ramp against it, set up military camps around it, and position battering rams on every side."
+    },
+    {
+      "verse": 3,
+      "kjv": "Moreover take thou unto thee an iron pan, and set it for a wall of iron between thee and the city: and set thy face against it, and it shall be besieged, and thou shalt lay siege against it. This shall be a sign to the house of Israel.",
+      "web": "Take for yourself an iron pan, and set it for a wall of iron between you and the city. Then set your face toward it. It will be besieged, and you shall lay siege against it. This shall be a sign to the house of Israel.",
+      "ct": "Next, take an iron pan and place it as an iron wall between you and the city. Turn your face toward it with a hard stare, and press the siege against it. This will be a sign to the people of Israel.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Lie thou also upon thy left side, and lay the iniquity of the house of Israel upon it: according to the number of the days that thou shalt lie upon it thou shalt bear their iniquity.",
+      "web": "“Moreover lie on your left side, and lay the iniquity of the house of Israel on it. According to the number of the days that you shall lie on it, you shall bear their iniquity.",
+      "ct": "\"Then lie down on your left side and take the sin of Israel upon yourself. For every day you lie there, you will carry their sin."
+    },
+    {
+      "verse": 5,
+      "kjv": "For I have laid upon thee the years of their iniquity, according to the number of the days, three hundred and ninety days: so shalt thou bear the iniquity of the house of Israel.",
+      "web": "For I have appointed the years of their iniquity to be to you a number of days, even three hundred ninety days. So you shall bear the iniquity of the house of Israel.",
+      "ct": "I have assigned you 390 days — one day for each year of Israel's sin. For that entire time, you will bear the sin of Israel."
+    },
+    {
+      "verse": 6,
+      "kjv": "And when thou hast accomplished them, lie again on thy right side, and thou shalt bear the iniquity of the house of Judah forty days: I have appointed thee each day for a year.",
+      "web": "“Again, when you have accomplished these, you shall lie on your right side, and shall bear the iniquity of the house of Judah. I have appointed forty days, each day for a year, to you.",
+      "ct": "When those days are finished, turn over and lie on your right side. This time you will bear the sin of Judah for 40 days — one day for each year I have assigned."
+    },
+    {
+      "verse": 7,
+      "kjv": "Therefore thou shalt set thy face toward the siege of Jerusalem, and thine arm shall be uncovered, and thou shalt prophesy against it.",
+      "web": "You shall set your face toward the siege of Jerusalem, with your arm uncovered; and you shall prophesy against it.",
+      "ct": "Keep your face fixed toward the siege of Jerusalem with your arm bared, and prophesy against the city."
+    },
+    {
+      "verse": 8,
+      "kjv": "And, behold, I will lay bands upon thee, and thou shalt not turn thee from one side to another, till thou hast ended the days of thy siege.",
+      "web": "Behold, I put ropes on you, and you shall not turn yourself from one side to the other, until you have accomplished the days of your siege.",
+      "ct": "I will tie you with ropes so you cannot roll from one side to the other until the full number of your siege days is complete.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Take thou also unto thee wheat, and barley, and beans, and lentiles, and millet, and fitches, and put them in one vessel, and make thee bread thereof, according to the number of the days that thou shalt lie upon thy side, three hundred and ninety days shalt thou eat thereof.",
+      "web": "“Take for yourself also wheat, barley, beans, lentils, millet, and spelt, and put them in one vessel. Make bread of it. According to the number of the days that you will lie on your side, even three hundred ninety days, you shall eat of it.",
+      "ct": "\"Now gather wheat, barley, beans, lentils, millet, and spelt. Mix them all together in a single container and bake bread from them. This is what you will eat during the 390 days you lie on your side."
+    },
+    {
+      "verse": 10,
+      "kjv": "And thy meat which thou shalt eat shall be by weight, twenty shekels a day: from time to time shalt thou eat it.",
+      "web": "Your food which you shall eat shall be by weight, twenty shekels a day. From time to time you shall eat it.",
+      "ct": "Ration your food to 20 shekels per day, eating only at set times."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou shalt drink also water by measure, the sixth part of an hin: from time to time shalt thou drink.",
+      "web": "You shall drink water by measure, the sixth part of a hin. From time to time you shall drink.",
+      "ct": "Ration your water as well — a sixth of a hin per day — and drink only at set times."
+    },
+    {
+      "verse": 12,
+      "kjv": "And thou shalt eat it as barley cakes, and thou shalt bake it with dung that cometh out of man, in their sight.",
+      "web": "You shall eat it as barley cakes, and you shall bake it in their sight with dung that comes out of man.”",
+      "ct": "Eat the bread like barley cakes, and bake it over dried human waste where everyone can see.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And the LORD said, Even thus shall the children of Israel eat their defiled bread among the Gentiles, whither I will drive them.",
+      "web": "LORD said, “Even thus will the children of Israel eat their bread unclean, among the nations where I will drive them.”",
+      "ct": "Then the LORD said, \"This is how the people of Israel will eat their food — defiled and unclean — among the nations where I will scatter them.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Then said I, Ah Lord GOD! behold, my soul hath not been polluted: for from my youth up even till now have I not eaten of that which dieth of itself, or is torn in pieces; neither came there abominable flesh into my mouth.",
+      "web": "Then I said, “Ah Lord LORD! Behold, my soul has not been polluted; for from my youth up even until now I have not eaten of that which dies of itself, or is torn of animals. No abominable meat has come into my mouth!”",
+      "ct": "I cried out, \"No, Lord GOD! My soul has never been defiled! From my youth until now, I have never eaten anything that died on its own or was torn apart by wild animals. No unclean meat has ever touched my mouth!\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Then he said unto me, Lo, I have given thee cow’s dung for man’s dung, and thou shalt prepare thy bread therewith.",
+      "web": "Then he said to me, “Behold, I have given you cow’s dung for man’s dung, and you shall prepare your bread on it.”",
+      "ct": "So he said to me, \"Very well — I will let you use cow dung instead of human waste. You may bake your bread over that.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Moreover he said unto me, Son of man, behold, I will break the staff of bread in Jerusalem: and they shall eat bread by weight, and with care; and they shall drink water by measure, and with astonishment:",
+      "web": "Moreover he said to me, “Son of man, behold, I will break the staff of bread in Jerusalem. They will eat bread by weight, and with fearfulness. They will drink water by measure, and in dismay;",
+      "ct": "Then he told me, \"Son of man, I am going to cut off the food supply in Jerusalem. The people will eat bread carefully rationed by weight, filled with anxiety. They will drink water measured out drop by drop, horrified at what's happening."
+    },
+    {
+      "verse": 17,
+      "kjv": "That they may want bread and water, and be astonied one with another, and consume away for their iniquity.",
+      "web": "that they may lack bread and water, be dismayed one with another, and pine away in their iniquity.",
+      "ct": "Bread and water will run short. They will look at each other in despair, wasting away because of their sin.\""
+    }
+  ]
+}

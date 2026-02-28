@@ -1,0 +1,179 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:25:30.461Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word of the LORD also came unto me, saying,",
+      "web": "LORD’s word also came to me, saying,",
+      "ct": "The word of the LORD came to me:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Son of man, thou dwellest in the midst of a rebellious house, which have eyes to see, and see not; they have ears to hear, and hear not: for they are a rebellious house.",
+      "web": "“Son of man, you dwell in the middle of the rebellious house, who have eyes to see, and don’t see, who have ears to hear, and don’t hear; for they are a rebellious house.",
+      "ct": "\"Son of man, you're living among a rebellious people. They have eyes but refuse to see, and ears but refuse to listen, because they are a rebellious house.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Therefore, thou son of man, prepare thee stuff for removing, and remove by day in their sight; and thou shalt remove from thy place to another place in their sight: it may be they will consider, though they be a rebellious house.",
+      "web": "“Therefore, you son of man, prepare your stuff for moving, and move by day in their sight. You shall move from your place to another place in their sight. It may be they will consider, though they are a rebellious house.",
+      "ct": "\"So, son of man, pack your belongings as if you're going into exile. Do it during the day where they can watch. Move your things from where you are to another place right in front of them. Maybe they'll take notice, even though they are a rebellious house.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then shalt thou bring forth thy stuff by day in their sight, as stuff for removing: and thou shalt go forth at even in their sight, as they that go forth into captivity.",
+      "web": "You shall bring out your stuff by day in their sight, as stuff for moving. You shall go out yourself at evening in their sight, as when men go out into exile.",
+      "ct": "\"Bring your bags out during the day while they watch, packed like an exile's luggage. Then at evening, go out yourself in their sight, the way someone leaves when they're being taken into captivity.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Dig thou through the wall in their sight, and carry out thereby.",
+      "web": "Dig through the wall in their sight, and carry your stuff out that way.",
+      "ct": "\"Dig a hole through the wall while they're watching, and carry your things out through it.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "In their sight shalt thou bear it upon thy shoulders, and carry it forth in the twilight: thou shalt cover thy face, that thou see not the ground: for I have set thee for a sign unto the house of Israel.",
+      "web": "In their sight you shall bear it on your shoulder, and carry it out in the dark. You shall cover your face, so that you don’t see the land, for I have set you for a sign to the house of Israel.”",
+      "ct": "\"Hoist your bags onto your shoulder in their sight and carry them out after dark. Cover your face so you can't see the ground, because I am making you a sign for the house of Israel.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And I did so as I was commanded: I brought forth my stuff by day, as stuff for captivity, and in the even I digged through the wall with mine hand; I brought it forth in the twilight, and I bare it upon my shoulder in their sight.",
+      "web": "I did so as I was commanded. I brought out my stuff by day, as stuff for moving, and in the evening I dug through the wall with my hand. I brought it out in the dark, and bore it on my shoulder in their sight.",
+      "ct": "So I did exactly as I was told. During the day I brought out my bags, packed like an exile's luggage. That evening I dug through the wall with my hands, and after dark I carried everything out on my shoulder while they watched."
+    },
+    {
+      "verse": 8,
+      "kjv": "And in the morning came the word of the LORD unto me, saying,",
+      "web": "In the morning, LORD’s word came to me, saying,",
+      "ct": "The next morning the word of the LORD came to me:"
+    },
+    {
+      "verse": 9,
+      "kjv": "Son of man, hath not the house of Israel, the rebellious house, said unto thee, What doest thou?",
+      "web": "“Son of man, hasn’t the house of Israel, the rebellious house, said to you, ‘What are you doing?’",
+      "ct": "\"Son of man, didn't the house of Israel — that rebellious house — ask you, 'What are you doing?'\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Say thou unto them, Thus saith the Lord GOD; This burden concerneth the prince in Jerusalem, and all the house of Israel that are among them.",
+      "web": "“Say to them, ‘The Lord LORD says: “This burden concerns the prince in Jerusalem, and all the house of Israel among whom they are.” ’",
+      "ct": "\"Tell them, 'This is what the Lord GOD says: This message is about the prince in Jerusalem and the entire house of Israel living there.'\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Say, I am your sign: like as I have done, so shall it be done unto them: they shall remove and go into captivity.",
+      "web": "“Say, ‘I am your sign. As I have done, so will it be done to them. They will go into exile, into captivity.",
+      "ct": "\"Tell them, 'I am your sign. What I have done is exactly what will happen to them — they will be driven out and taken into captivity.'\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And the prince that is among them shall bear upon his shoulder in the twilight, and shall go forth: they shall dig through the wall to carry out thereby: he shall cover his face, that he see not the ground with his eyes.",
+      "web": "“ ‘The prince who is among them will bear on his shoulder in the dark, and will go out. They will dig through the wall to carry things out that way. He will cover his face, because he will not see the land with his eyes.",
+      "ct": "\"The prince among them will load his belongings on his shoulder and slip out after dark. His people will dig through the wall to get him out. He will cover his face so that he cannot see the land with his own eyes.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "My net also will I spread upon him, and he shall be taken in my snare: and I will bring him to Babylon to the land of the Chaldeans; yet shall he not see it, though he shall die there.",
+      "web": "I will also spread my net on him, and he will be taken in my snare. I will bring him to Babylon to the land of the Chaldeans; yet he will not see it, though he will die there.",
+      "ct": "\"But I will spread my net over him, and he will be caught in my trap. I will bring him to Babylon, to the land of the Chaldeans — yet he will never see it, even though he will die there.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And I will scatter toward every wind all that are about him to help him, and all his bands; and I will draw out the sword after them.",
+      "web": "I will scatter toward every wind all who are around him to help him, and all his bands. I will draw out the sword after them.",
+      "ct": "\"I will scatter everyone around him — his advisors and all his troops — to the four winds, and I will chase them with a drawn sword.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And they shall know that I am the LORD, when I shall scatter them among the nations, and disperse them in the countries.",
+      "web": "“ ‘They will know that I am LORD when I disperse them among the nations, and scatter them through the countries.",
+      "ct": "\"They will know that I am the LORD when I scatter them among the nations and disperse them across foreign lands.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "But I will leave a few men of them from the sword, from the famine, and from the pestilence; that they may declare all their abominations among the heathen whither they come; and they shall know that I am the LORD.",
+      "web": "But I will leave a few men of them from the sword, from the famine, and from the pestilence, that they may declare all their abominations among the nations where they come. Then they will know that I am LORD.’ ”",
+      "ct": "\"But I will spare a few of them from the sword, from famine, and from plague, so they can confess all their disgusting sins among the nations where they end up. Then they will know that I am the LORD.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Moreover the word of the LORD came to me, saying,",
+      "web": "Moreover LORD’s word came to me, saying,",
+      "ct": "The word of the LORD also came to me:"
+    },
+    {
+      "verse": 18,
+      "kjv": "Son of man, eat thy bread with quaking, and drink thy water with trembling and with carefulness;",
+      "web": "“Son of man, eat your bread with quaking, and drink your water with trembling and with fearfulness.",
+      "ct": "\"Son of man, eat your bread with trembling hands, and drink your water shaking with anxiety.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And say unto the people of the land, Thus saith the Lord GOD of the inhabitants of Jerusalem, and of the land of Israel; They shall eat their bread with carefulness, and drink their water with astonishment, that her land may be desolate from all that is therein, because of the violence of all them that dwell therein.",
+      "web": "Tell the people of the land, ‘The Lord LORD says concerning the inhabitants of Jerusalem, and the land of Israel: “They will eat their bread with fearfulness, and drink their water in dismay, that her land may be desolate, and all that is therein, because of the violence of all those who dwell therein.",
+      "ct": "\"Then tell the people of the land, 'This is what the Lord GOD says about the people of Jerusalem and the land of Israel: They will eat their bread in fear and drink their water in horror, because their land will be stripped bare of everything in it — all because of the violence of those who live there.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And the cities that are inhabited shall be laid waste, and the land shall be desolate; and ye shall know that I am the LORD.",
+      "web": "The cities that are inhabited will be laid waste, and the land will be a desolation. Then you will know that I am LORD.” ’ ”",
+      "ct": "\"The populated cities will be destroyed, and the land will become a wasteland. Then you will know that I am the LORD.'\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And the word of the LORD came unto me, saying,",
+      "web": "LORD’s word came to me, saying,",
+      "ct": "The word of the LORD came to me:"
+    },
+    {
+      "verse": 22,
+      "kjv": "Son of man, what is that proverb that ye have in the land of Israel, saying, The days are prolonged, and every vision faileth?",
+      "web": "“Son of man, what is this proverb that you have in the land of Israel, saying, ‘The days are prolonged, and every vision fails?’",
+      "ct": "\"Son of man, what is this saying you have going around in Israel: 'Time drags on, and none of these visions ever come true'?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Tell them therefore, Thus saith the Lord GOD; I will make this proverb to cease, and they shall no more use it as a proverb in Israel; but say unto them, The days are at hand, and the effect of every vision.",
+      "web": "Tell them therefore, ‘The Lord LORD says: “I will make this proverb to cease, and they will no more use it as a proverb in Israel;” ’ but tell them, ‘ “The days are at hand, and the fulfillment of every vision.",
+      "ct": "\"So tell them, 'This is what the Lord GOD says: I'm putting an end to that saying. No one in Israel will use it anymore.' Instead, tell them, 'The time has come. Every vision is about to be fulfilled.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "For there shall be no more any vain vision nor flattering divination within the house of Israel.",
+      "web": "For there will be no more any false vision nor flattering divination within the house of Israel.",
+      "ct": "\"There will no longer be any false visions or flattering predictions within the house of Israel.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "For I am the LORD: I will speak, and the word that I shall speak shall come to pass; it shall be no more prolonged: for in your days, O rebellious house, will I say the word, and will perform it, saith the Lord GOD.",
+      "web": "For I am LORD. I will speak, and the word that I speak will be performed. It will be no more deferred; for in your days, rebellious house, I will speak the word, and will perform it,” says the Lord LORD.’ ”",
+      "ct": "\"For I am the LORD. When I speak, what I say will happen — no more delays. In your own lifetime, you rebellious house, I will speak the word and carry it out,\" declares the Lord GOD.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "Again the word of the LORD came to me, saying,",
+      "web": "Again LORD’s word came to me, saying,",
+      "ct": "The word of the LORD came to me again:"
+    },
+    {
+      "verse": 27,
+      "kjv": "Son of man, behold, they of the house of Israel say, The vision that he seeth is for many days to come, and he prophesieth of the times that are far off.",
+      "web": "“Son of man, behold, they of the house of Israel say, ‘The vision that he sees is for many days to come, and he prophesies of times that are far off.’",
+      "ct": "\"Son of man, look — the house of Israel keeps saying, 'The visions he sees are for the distant future. He's prophesying about things far off.'\""
+    },
+    {
+      "verse": 28,
+      "kjv": "Therefore say unto them, Thus saith the Lord GOD; There shall none of my words be prolonged any more, but the word which I have spoken shall be done, saith the Lord GOD.",
+      "web": "“Therefore tell them, ‘The Lord LORD says: “None of my words will be deferred any more, but the word which I speak will be performed,” says the Lord LORD.’ ”",
+      "ct": "\"So tell them, 'This is what the Lord GOD says: Not one of my words will be delayed any longer. Whatever I have spoken will be done,\" declares the Lord GOD.'\""
+    }
+  ]
+}

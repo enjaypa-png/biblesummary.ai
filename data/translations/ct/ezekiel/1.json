@@ -1,0 +1,179 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:22:05.871Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now it came to pass in the thirtieth year, in the fourth month, in the fifth day of the month, as I was among the captives by the river of Chebar, that the heavens were opened, and I saw visions of God.",
+      "web": "Now in the thirtieth year, in the fourth month, in the fifth day of the month, as I was among the captives by the river Chebar, the heavens were opened, and I saw visions of God.",
+      "ct": "On the 5th day of the 4th month, in the 30th year, I was living among the exiles by the Chebar River. The heavens opened, and I saw visions of God."
+    },
+    {
+      "verse": 2,
+      "kjv": "In the fifth day of the month, which was the fifth year of king Jehoiachin’s captivity,",
+      "web": "In the fifth of the month, which was the fifth year of king Jehoiachin’s captivity,",
+      "ct": "This was the 5th day of the month, during the 5th year of King Jehoiachin's exile."
+    },
+    {
+      "verse": 3,
+      "kjv": "The word of the LORD came expressly unto Ezekiel the priest, the son of Buzi, in the land of the Chaldeans by the river Chebar; and the hand of the LORD was there upon him.",
+      "web": "LORD’s word came to Ezekiel the priest, the son of Buzi, in the land of the Chaldeans by the river Chebar; and LORD’s hand was there on him.",
+      "ct": "The word of the LORD came directly to me — Ezekiel the priest, son of Buzi — there in the land of the Chaldeans by the Chebar River. The hand of the LORD was on me."
+    },
+    {
+      "verse": 4,
+      "kjv": "And I looked, and, behold, a whirlwind came out of the north, a great cloud, and a fire infolding itself, and a brightness was about it, and out of the midst thereof as the colour of amber, out of the midst of the fire.",
+      "web": "I looked, and behold, a stormy wind came out of the north: a great cloud, with flashing lightning, and a brightness around it, and out of the middle of it as it were glowing metal, out of the middle of the fire.",
+      "ct": "I looked up and saw a violent windstorm rushing in from the north — a massive cloud surrounded by blazing light, with fire churning inside it. At the center of the fire, something glowed like molten amber."
+    },
+    {
+      "verse": 5,
+      "kjv": "Also out of the midst thereof came the likeness of four living creatures. And this was their appearance; they had the likeness of a man.",
+      "web": "Out of its center came the likeness of four living creatures. This was their appearance: They had the likeness of a man.",
+      "ct": "From the middle of the fire emerged what looked like 4 living creatures. They had a human-like form,"
+    },
+    {
+      "verse": 6,
+      "kjv": "And every one had four faces, and every one had four wings.",
+      "web": "Everyone had four faces, and each one of them had four wings.",
+      "ct": "but each one had 4 faces and 4 wings."
+    },
+    {
+      "verse": 7,
+      "kjv": "And their feet were straight feet; and the sole of their feet was like the sole of a calf’s foot: and they sparkled like the colour of burnished brass.",
+      "web": "Their feet were straight feet. The sole of their feet was like the sole of a calf’s foot; and they sparkled like burnished bronze.",
+      "ct": "Their legs were straight, and their feet looked like the hooves of a calf, gleaming like polished bronze."
+    },
+    {
+      "verse": 8,
+      "kjv": "And they had the hands of a man under their wings on their four sides; and they four had their faces and their wings.",
+      "web": "They had the hands of a man under their wings on their four sides. The four of them had their faces and their wings like this:",
+      "ct": "Under their wings on each of their 4 sides, they had human hands. All 4 creatures had faces and wings,"
+    },
+    {
+      "verse": 9,
+      "kjv": "Their wings were joined one to another; they turned not when they went; they went every one straight forward.",
+      "web": "Their wings were joined to one another. They didn’t turn when they went. Each one went straight forward.",
+      "ct": "and their wings touched one another. They never turned as they moved — each one went straight ahead."
+    },
+    {
+      "verse": 10,
+      "kjv": "As for the likeness of their faces, they four had the face of a man, and the face of a lion, on the right side: and they four had the face of an ox on the left side; they four also had the face of an eagle.",
+      "web": "As for the likeness of their faces, they had the face of a man. The four of them had the face of a lion on the right side. The four of them had the face of an ox on the left side. The four of them also had the face of an eagle.",
+      "ct": "Each creature had 4 faces: the front face was human, the right side was a lion, the left side was an ox, and the back was an eagle."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thus were their faces: and their wings were stretched upward; two wings of every one were joined one to another, and two covered their bodies.",
+      "web": "Such were their faces. Their wings were spread out above. Two wings of each one touched another, and two covered their bodies.",
+      "ct": "That's how their faces looked. Their wings spread upward — 2 wings on each creature stretched out to touch the wings of the creatures beside it, while the other 2 wings covered their bodies."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they went every one straight forward: whither the spirit was to go, they went; and they turned not when they went.",
+      "web": "Each one went straight forward: where the spirit was to go, they went. They didn’t turn when they went.",
+      "ct": "Each one moved straight ahead, going wherever the spirit directed them. They never turned aside as they moved."
+    },
+    {
+      "verse": 13,
+      "kjv": "As for the likeness of the living creatures, their appearance was like burning coals of fire, and like the appearance of lamps: it went up and down among the living creatures; and the fire was bright, and out of the fire went forth lightning.",
+      "web": "As for the likeness of the living creatures, their appearance was like burning coals of fire, like the appearance of torches. The fire went up and down among the living creatures. The fire was bright, and lightning went out of the fire.",
+      "ct": "The living creatures looked like burning coals of fire, like blazing torches. Fire danced back and forth between them — brilliant, intense fire — and lightning shot out from it."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the living creatures ran and returned as the appearance of a flash of lightning.",
+      "web": "The living creatures ran and returned as the appearance of a flash of lightning.",
+      "ct": "The creatures darted back and forth like flashes of lightning."
+    },
+    {
+      "verse": 15,
+      "kjv": "Now as I beheld the living creatures, behold one wheel upon the earth by the living creatures, with his four faces.",
+      "web": "Now as I saw the living creatures, behold, there was one wheel on the earth beside the living creatures, for each of the four faces of it.",
+      "ct": "As I watched the living creatures, I noticed a wheel on the ground beside each of them — one wheel for each of the 4 creatures."
+    },
+    {
+      "verse": 16,
+      "kjv": "The appearance of the wheels and their work was like unto the colour of a beryl: and they four had one likeness: and their appearance and their work was as it were a wheel in the middle of a wheel.",
+      "web": "The appearance of the wheels and their work was like a beryl. The four of them had one likeness. Their appearance and their work was as it were a wheel within a wheel.",
+      "ct": "The wheels gleamed like beryl. All 4 looked identical, and each appeared to be constructed like a wheel intersecting a wheel at right angles."
+    },
+    {
+      "verse": 17,
+      "kjv": "When they went, they went upon their four sides: and they turned not when they went.",
+      "web": "When they went, they went in their four directions. They didn’t turn when they went.",
+      "ct": "Because of this, the wheels could move in any of the 4 directions without turning."
+    },
+    {
+      "verse": 18,
+      "kjv": "As for their rings, they were so high that they were dreadful; and their rings were full of eyes round about them four.",
+      "web": "As for their rims, they were high and dreadful; and the four of them had their rims full of eyes all around.",
+      "ct": "The rims of the wheels were enormous and terrifying, and all 4 rims were covered with eyes all the way around."
+    },
+    {
+      "verse": 19,
+      "kjv": "And when the living creatures went, the wheels went by them: and when the living creatures were lifted up from the earth, the wheels were lifted up.",
+      "web": "When the living creatures went, the wheels went beside them. When the living creatures were lifted up from the earth, the wheels were lifted up.",
+      "ct": "Whenever the living creatures moved, the wheels moved with them. When the creatures rose from the ground, the wheels rose too."
+    },
+    {
+      "verse": 20,
+      "kjv": "Whithersoever the spirit was to go, they went, thither was their spirit to go; and the wheels were lifted up over against them: for the spirit of the living creature was in the wheels.",
+      "web": "Wherever the spirit was to go, they went. The spirit was to go there. The wheels were lifted up beside them; for the spirit of the living creature was in the wheels.",
+      "ct": "Wherever the spirit went, the creatures went, and the wheels went right along with them, because the spirit of the living creatures was in the wheels."
+    },
+    {
+      "verse": 21,
+      "kjv": "When those went, these went; and when those stood, these stood; and when those were lifted up from the earth, the wheels were lifted up over against them: for the spirit of the living creature was in the wheels.",
+      "web": "When those went, these went. When those stood, these stood. When those were lifted up from the earth, the wheels were lifted up beside them; for the spirit of the living creature was in the wheels.",
+      "ct": "When the creatures moved, the wheels moved. When the creatures stopped, the wheels stopped. When the creatures rose from the ground, the wheels rose with them — because the spirit of the living creatures was in the wheels."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the likeness of the firmament upon the heads of the living creature was as the colour of the terrible crystal, stretched forth over their heads above.",
+      "web": "Over the head of the living creature there was the likeness of an expanse, like an awesome crystal to look at, stretched out over their heads above.",
+      "ct": "Stretched out above the heads of the living creatures was something like a vast expanse, shimmering like awe-inspiring crystal."
+    },
+    {
+      "verse": 23,
+      "kjv": "And under the firmament were their wings straight, the one toward the other: every one had two, which covered on this side, and every one had two, which covered on that side, their bodies.",
+      "web": "Under the expanse, their wings were straight, one toward the other. Each one had two which covered on this side, and each one had two which covered their bodies on that side.",
+      "ct": "Beneath this expanse, each creature stretched 2 wings straight out to touch the wings of the creature beside it, while the other 2 wings covered their bodies."
+    },
+    {
+      "verse": 24,
+      "kjv": "And when they went, I heard the noise of their wings, like the noise of great waters, as the voice of the Almighty, the voice of speech, as the noise of an host: when they stood, they let down their wings.",
+      "web": "When they went, I heard the noise of their wings like the noise of great waters, like the voice of the Almighty, a noise of tumult like the noise of an army. When they stood, they let down their wings.",
+      "ct": "When they moved, the sound of their wings was like the roar of rushing waters, like the voice of the Almighty, like the thunder of a marching army. When they stopped, they lowered their wings."
+    },
+    {
+      "verse": 25,
+      "kjv": "And there was a voice from the firmament that was over their heads, when they stood, and had let down their wings.",
+      "web": "There was a voice above the expanse that was over their heads. When they stood, they let down their wings.",
+      "ct": "Then a voice came from above the expanse over their heads, as they stood still with their wings lowered."
+    },
+    {
+      "verse": 26,
+      "kjv": "And above the firmament that was over their heads was the likeness of a throne, as the appearance of a sapphire stone: and upon the likeness of the throne was the likeness as the appearance of a man above upon it.",
+      "web": "Above the expanse that was over their heads was the likeness of a throne, as the appearance of a sapphire stone. On the likeness of the throne was a likeness as the appearance of a man on it above.",
+      "ct": "Above the expanse over their heads was what looked like a throne made of sapphire, and seated on the throne was a figure that looked like a man."
+    },
+    {
+      "verse": 27,
+      "kjv": "And I saw as the colour of amber, as the appearance of fire round about within it, from the appearance of his loins even upward, and from the appearance of his loins even downward, I saw as it were the appearance of fire, and it had brightness round about.",
+      "web": "I saw as it were glowing metal, as the appearance of fire within it all around, from the appearance of his waist and upward; and from the appearance of his waist and downward I saw as it were the appearance of fire, and there was brightness around him.",
+      "ct": "From the waist up, I saw what looked like glowing amber, like fire enclosed all around. From the waist down, I saw what looked like fire, and brilliant light surrounded him on every side."
+    },
+    {
+      "verse": 28,
+      "kjv": "As the appearance of the bow that is in the cloud in the day of rain, so was the appearance of the brightness round about. This was the appearance of the likeness of the glory of the LORD. And when I saw it, I fell upon my face, and I heard a voice of one that spake.",
+      "web": "As the appearance of the rainbow that is in the cloud in the day of rain, so was the appearance of the brightness all around. This was the appearance of the likeness of LORD’s glory. When I saw it, I fell on my face, and I heard a voice of one that spoke.",
+      "ct": "The radiance around him looked like a rainbow shining through the clouds on a rainy day. This was the appearance of the glory of the LORD. When I saw it, I fell facedown, and I heard a voice speaking to me."
+    }
+  ]
+}
