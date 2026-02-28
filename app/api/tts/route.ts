@@ -44,6 +44,8 @@ export async function POST(req: NextRequest) {
         voice_settings: {
           stability: 0.85,
           similarity_boost: 0.9,
+          // Speed up Gabby slightly — reads too slow at default
+          ...(selectedVoice === "GTtzqc49rk4I6RwPWgd4" ? { speed: 1.15 } : {}),
         },
       }),
     });

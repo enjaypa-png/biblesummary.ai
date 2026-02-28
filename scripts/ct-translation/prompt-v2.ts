@@ -106,6 +106,18 @@ These exact words must appear in your output exactly as listed:
 
 The WEB uses "Yahweh" — always render this as "LORD" (all caps) in your output.
 
+━━━ PLAIN ENGLISH — ANIMAL/FOOD TERMS ━━━
+
+Always explain these in plain language:
+- "chews its cud" → "brings its food back up from its stomach to chew it again"
+- "chews the cud" → same as above
+- "split hoof" / "cloven hoof" / "divided hoof" → "hooves that are completely divided in two"
+- "cloven-footed" → "hooves that are completely split in two"
+
+Example:
+❌ "any animal that has a completely split hoof and chews its cud"
+✅ "any animal that has hooves completely split in two and brings its food back up to chew it again"
+
 ━━━ ANIMAL NAMES — ALWAYS MODERNIZE ━━━
 
 Never use archaic KJV animal names. Use the WEB or modern scientific common names instead:
