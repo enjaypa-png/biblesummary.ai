@@ -1,0 +1,89 @@
+{
+  "book": "amos",
+  "book_name": "Amos",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:54:04.040Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Hear this word, ye kine of Bashan, that are in the mountain of Samaria, which oppress the poor, which crush the needy, which say to their masters, Bring, and let us drink.",
+      "web": "Listen to this word, you cows of Bashan, who are on the mountain of Samaria, who oppress the poor, who crush the needy, who tell their husbands, “Bring us drinks!” ",
+      "ct": "Listen to this, you pampered cows of Bashan living on the mountain of Samaria — you women who oppress the poor and crush the needy, who tell your husbands, \"Bring us something to drink!\""
+    },
+    {
+      "verse": 2,
+      "kjv": "The Lord GOD hath sworn by his holiness, that, lo, the days shall come upon you, that he will take you away with hooks, and your posterity with fishhooks.",
+      "web": "The Lord LORD has sworn by his holiness that behold, “The days shall come on you that they will take you away with hooks, and the last of you with fish hooks.",
+      "ct": "The Lord GOD has sworn by his own holiness: \"The days are coming when they will drag you away with hooks — every last one of you with fishhooks.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And ye shall go out at the breaches, every cow at that which is before her; and ye shall cast them into the palace, saith the LORD.",
+      "web": "You will go out at the breaks in the wall, everyone straight before her; and you will cast yourselves into Harmon,” says LORD.",
+      "ct": "\"You will be hauled out through the broken walls, each of you straight ahead through the nearest gap, and you will be thrown out toward Harmon,\" says the LORD."
+    },
+    {
+      "verse": 4,
+      "kjv": "Come to Bethel, and transgress; at Gilgal multiply transgression; and bring your sacrifices every morning, and your tithes after three years:",
+      "web": "“Go to Bethel, and sin; to Gilgal, and sin more. Bring your sacrifices every morning, your tithes every three days,",
+      "ct": "\"Go ahead to Bethel and sin! Go to Gilgal and pile up even more sin! Bring your sacrifices every morning and your tithes every 3 years."
+    },
+    {
+      "verse": 5,
+      "kjv": "And offer a sacrifice of thanksgiving with leaven, and proclaim and publish the free offerings: for this liketh you, O ye children of Israel, saith the Lord GOD.",
+      "web": "offer a sacrifice of thanksgiving of that which is leavened, and proclaim free will offerings and brag about them: for this pleases you, you children of Israel,” says the Lord LORD.",
+      "ct": "Offer your thanksgiving bread made with yeast, and announce your freewill offerings — brag about them loudly! After all, this is what you love to do, people of Israel,\" says the Lord GOD."
+    },
+    {
+      "verse": 6,
+      "kjv": "And I also have given you cleanness of teeth in all your cities, and want of bread in all your places: yet have ye not returned unto me, saith the LORD.",
+      "web": "“I also have given you cleanness of teeth in all your cities, and lack of bread in every town; yet you haven’t returned to me,” says LORD.",
+      "ct": "\"I gave you empty stomachs in every city and a shortage of bread in every town, yet you still didn't return to me,\" says the LORD."
+    },
+    {
+      "verse": 7,
+      "kjv": "And also I have withholden the rain from you, when there were yet three months to the harvest: and I caused it to rain upon one city, and caused it not to rain upon another city: one piece was rained upon, and the piece whereupon it rained not withered.",
+      "web": "“I also have withheld the rain from you, when there were yet three months to the harvest; and I caused it to rain on one city, and caused it not to rain on another city. One place was rained on, and the piece where it didn’t rain withered.",
+      "ct": "\"I also held back the rain when there were still 3 months until harvest. I sent rain on one city but withheld it from another. One field got rain while the field next to it dried up and withered."
+    },
+    {
+      "verse": 8,
+      "kjv": "So two or three cities wandered unto one city, to drink water; but they were not satisfied: yet have ye not returned unto me, saith the LORD.",
+      "web": "So two or three cities staggered to one city to drink water, and were not satisfied: yet you haven’t returned to me,” says LORD.",
+      "ct": "People from 2 or 3 towns staggered to a single town looking for water, but there wasn't enough. Yet you still didn't return to me,\" says the LORD."
+    },
+    {
+      "verse": 9,
+      "kjv": "I have smitten you with blasting and mildew: when your gardens and your vineyards and your fig trees and your olive trees increased, the palmerworm devoured them: yet have ye not returned unto me, saith the LORD.",
+      "web": "“I struck you with blight and mildew many times in your gardens and your vineyards; and the swarming locusts have devoured your fig trees and your olive trees; yet you haven’t returned to me,” says LORD.",
+      "ct": "\"I struck your gardens and vineyards with blight and mildew. Locusts devoured your fig trees and olive trees. Yet you still didn't return to me,\" says the LORD."
+    },
+    {
+      "verse": 10,
+      "kjv": "I have sent among you the pestilence after the manner of Egypt: your young men have I slain with the sword, and have taken away your horses; and I have made the stink of your camps to come up unto your nostrils: yet have ye not returned unto me, saith the LORD.",
+      "web": "“I sent plagues among you like I did Egypt. I have slain your young men with the sword, and have carried away your horses; and I filled your nostrils with the stench of your camp, yet you haven’t returned to me,” says LORD.",
+      "ct": "\"I sent plagues among you like I did to Egypt. I killed your young men with the sword and captured your horses. I filled your nostrils with the stench of your own camps. Yet you still didn't return to me,\" says the LORD."
+    },
+    {
+      "verse": 11,
+      "kjv": "I have overthrown some of you, as God overthrew Sodom and Gomorrah, and ye were as a firebrand plucked out of the burning: yet have ye not returned unto me, saith the LORD.",
+      "web": "“I have overthrown some of you, as when God overthrew Sodom and Gomorrah, and you were like a burning stick plucked out of the fire; yet you haven’t returned to me,” says LORD.",
+      "ct": "\"I destroyed some of you the way God destroyed Sodom and Gomorrah. You were like a burning stick snatched from the fire. Yet you still didn't return to me,\" says the LORD."
+    },
+    {
+      "verse": 12,
+      "kjv": "Therefore thus will I do unto thee, O Israel: and because I will do this unto thee, prepare to meet thy God, O Israel.",
+      "web": "“Therefore thus I will do to you, Israel; because I will do this to you, prepare to meet your God, Israel.",
+      "ct": "\"So this is what I'm going to do to you, Israel. And because I am going to do this — prepare to meet your God, Israel.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "For, lo, he that formeth the mountains, and createth the wind, and declareth unto man what is his thought, that maketh the morning darkness, and treadeth upon the high places of the earth, The LORD, The God of hosts, is his name.",
+      "web": "For, behold, he who forms the mountains, and creates the wind, and declares to man what is his thought; who makes the morning darkness, and treads on the high places of the earth: LORD, the God of Armies, is his name.”",
+      "ct": "He is the one who shapes the mountains and creates the wind, who reveals his thoughts to humanity, who turns the dawn into darkness and strides across the heights of the earth. The LORD, the God of Armies, is his name."
+    }
+  ]
+}

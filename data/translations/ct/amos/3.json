@@ -1,0 +1,101 @@
+{
+  "book": "amos",
+  "book_name": "Amos",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:53:50.210Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Hear this word that the LORD hath spoken against you, O children of Israel, against the whole family which I brought up from the land of Egypt, saying,",
+      "web": "Hear this word that LORD has spoken against you, children of Israel, against the whole family which I brought up out of the land of Egypt, saying: ",
+      "ct": "Listen to this message the LORD has spoken against you, people of Israel — against the entire nation I brought out of Egypt:"
+    },
+    {
+      "verse": 2,
+      "kjv": "You only have I known of all the families of the earth: therefore I will punish you for all your iniquities.",
+      "web": "“I have only chosen you of all the families of the earth. Therefore I will punish you for all of your sins.”",
+      "ct": "\"Out of all the families on earth, you are the only ones I chose. That is why I will punish you for all your sins.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Can two walk together, except they be agreed?",
+      "web": "Do two walk together, unless they have agreed?",
+      "ct": "Do 2 people walk together unless they've agreed to meet?"
+    },
+    {
+      "verse": 4,
+      "kjv": "Will a lion roar in the forest, when he hath no prey? will a young lion cry out of his den, if he have taken nothing?",
+      "web": "Will a lion roar in the thicket, when he has no prey? Does a young lion cry out of his den, if he has caught nothing?",
+      "ct": "Does a lion roar in the thicket when it has no prey? Does a young lion growl from its den unless it has caught something?"
+    },
+    {
+      "verse": 5,
+      "kjv": "Can a bird fall in a snare upon the earth, where no gin is for him? shall one take up a snare from the earth, and have taken nothing at all?",
+      "web": "Can a bird fall in a trap on the earth, where no snare is set for him? Does a snare spring up from the ground, when there is nothing to catch?",
+      "ct": "Does a bird drop into a trap on the ground when no snare has been set? Does a trap spring shut when there's nothing to catch?"
+    },
+    {
+      "verse": 6,
+      "kjv": "Shall a trumpet be blown in the city, and the people not be afraid? shall there be evil in a city, and the LORD hath not done it?",
+      "web": "Does the trumpet alarm sound in a city, without the people being afraid? Does evil happen to a city, and LORD hasn’t done it?",
+      "ct": "When a trumpet blasts an alarm in a city, don't the people tremble? When disaster strikes a city, hasn't the LORD brought it about?"
+    },
+    {
+      "verse": 7,
+      "kjv": "Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets.",
+      "web": "Surely the Lord LORD will do nothing, unless he reveals his secret to his servants the prophets.",
+      "ct": "The truth is, the Lord GOD does nothing without first revealing his plans to his servants the prophets."
+    },
+    {
+      "verse": 8,
+      "kjv": "The lion hath roared, who will not fear? the Lord GOD hath spoken, who can but prophesy?",
+      "web": "The lion has roared. Who will not fear? The Lord LORD has spoken. Who can but prophesy?",
+      "ct": "A lion has roared — who won't fear? The Lord GOD has spoken — who can keep from prophesying?"
+    },
+    {
+      "verse": 9,
+      "kjv": "Publish in the palaces at Ashdod, and in the palaces in the land of Egypt, and say, Assemble yourselves upon the mountains of Samaria, and behold the great tumults in the midst thereof, and the oppressed in the midst thereof.",
+      "web": "Proclaim in the palaces at Ashdod, and in the palaces in the land of Egypt, and say, “Assemble yourselves on the mountains of Samaria, and see what unrest is in her, and what oppression is among them.”",
+      "ct": "Shout this from the palaces of Ashdod and from the palaces of Egypt: \"Gather on the mountains of Samaria and look at the chaos inside her walls — see how her people are crushed and oppressed.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "For they know not to do right, saith the LORD, who store up violence and robbery in their palaces.",
+      "web": "“Indeed they don’t know to do right,” says LORD, “Who hoard plunder and loot in their palaces.”",
+      "ct": "\"They don't even know how to do what's right,\" says the LORD. \"They pile up stolen goods and plunder in their palaces.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Therefore thus saith the Lord GOD; An adversary there shall be even round about the land; and he shall bring down thy strength from thee, and thy palaces shall be spoiled.",
+      "web": "Therefore the Lord LORD says: “An adversary will overrun the land; and he will pull down your strongholds, and your fortresses will be plundered.”",
+      "ct": "So the Lord GOD says this: \"An enemy will surround the land, tear down your defenses, and loot your palaces.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Thus saith the LORD; As the shepherd taketh out of the mouth of the lion two legs, or a piece of an ear; so shall the children of Israel be taken out that dwell in Samaria in the corner of a bed, and in Damascus in a couch.",
+      "web": "LORD says: “As the shepherd rescues out of the mouth of the lion two legs, or a piece of an ear, so shall the children of Israel be rescued who sit in Samaria on the corner of a couch, and on the silken cushions of a bed.”",
+      "ct": "The LORD says: \"When a shepherd rescues a sheep from a lion's mouth, all he saves is 2 legs or a scrap of an ear. That's how little will be left of the Israelites living in Samaria — just the corner of a couch or the edge of a bed.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Hear ye, and testify in the house of Jacob, saith the Lord GOD, the God of hosts,",
+      "web": "“Listen, and testify against the house of Jacob,” says the Lord LORD, the God of Armies. ",
+      "ct": "\"Listen and testify against the house of Jacob,\" says the Lord GOD, the God of Armies."
+    },
+    {
+      "verse": 14,
+      "kjv": "That in the day that I shall visit the transgressions of Israel upon him I will also visit the altars of Bethel: and the horns of the altar shall be cut off, and fall to the ground.",
+      "web": "“For in the day that I visit the transgressions of Israel on him, I will also visit the altars of Bethel; and the horns of the altar will be cut off, and fall to the ground.",
+      "ct": "\"On the day I punish Israel for their sins, I will also destroy the altars at Bethel. The horns of the altar will be cut off and fall to the ground.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And I will smite the winter house with the summer house; and the houses of ivory shall perish, and the great houses shall have an end, saith the LORD.",
+      "web": "I will strike the winter house with the summer house; and the houses of ivory will perish, and the great houses will have an end,” says LORD.",
+      "ct": "\"I will demolish the winter house along with the summer house. The ivory mansions will be destroyed, and the great estates will come to an end,\" says the LORD."
+    }
+  ]
+}

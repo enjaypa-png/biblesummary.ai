@@ -1,0 +1,101 @@
+{
+  "book": "amos",
+  "book_name": "Amos",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:53:20.415Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The words of Amos, who was among the herdmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam the son of Joash king of Israel, two years before the earthquake.",
+      "web": "The words of Amos, who was among the herdsmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam the son of Joash king of Israel, two years before the earthquake.",
+      "ct": "These are the words of Amos, a herdsman from Tekoa. He received this vision about Israel during the reigns of King Uzziah of Judah and King Jeroboam son of Joash of Israel, 2 years before the earthquake."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he said, The LORD will roar from Zion, and utter his voice from Jerusalem; and the habitations of the shepherds shall mourn, and the top of Carmel shall wither.",
+      "web": "He said: “LORD will roar from Zion, and utter his voice from Jerusalem; and the pastures of the shepherds will mourn, and the top of Carmel will wither.”",
+      "ct": "Amos said: \"The LORD will roar from Zion and thunder from Jerusalem. The shepherds' pastures will dry up, and the green peak of Carmel will wither.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Thus saith the LORD; For three transgressions of Damascus, and for four, I will not turn away the punishment thereof; because they have threshed Gilead with threshing instruments of iron:",
+      "web": "LORD says: “For three transgressions of Damascus, yes, for four, I will not turn away its punishment; because they have threshed Gilead with threshing instruments of iron;",
+      "ct": "The LORD says: \"Damascus has sinned again and again, and I will not hold back its punishment. They crushed the people of Gilead with iron threshing sledges."
+    },
+    {
+      "verse": 4,
+      "kjv": "But I will send a fire into the house of Hazael, which shall devour the palaces of Benhadad.",
+      "web": "but I will send a fire into the house of Hazael, and it will devour the palaces of Ben Hadad.",
+      "ct": "So I will send fire on the house of Hazael, and it will consume the fortresses of Benhadad."
+    },
+    {
+      "verse": 5,
+      "kjv": "I will break also the bar of Damascus, and cut off the inhabitant from the plain of Aven, and him that holdeth the sceptre from the house of Eden: and the people of Syria shall go into captivity unto Kir, saith the LORD.",
+      "web": "I will break the bar of Damascus, and cut off the inhabitant from the valley of Aven, and him who holds the scepter from the house of Eden; and the people of Syria shall go into captivity to Kir,” says LORD.",
+      "ct": "I will shatter the gates of Damascus and wipe out the ruler of the valley of Aven and the one who holds power in the house of Eden. The people of Syria will be dragged away as captives to Kir,\" says the LORD."
+    },
+    {
+      "verse": 6,
+      "kjv": "Thus saith the LORD; For three transgressions of Gaza, and for four, I will not turn away the punishment thereof; because they carried away captive the whole captivity, to deliver them up to Edom:",
+      "web": "LORD says: “For three transgressions of Gaza, yes, for four, I will not turn away its punishment; because they carried away captive the whole community, to deliver them up to Edom;",
+      "ct": "The LORD says: \"Gaza has sinned again and again, and I will not hold back its punishment. They captured entire communities and handed them over to Edom as slaves."
+    },
+    {
+      "verse": 7,
+      "kjv": "But I will send a fire on the wall of Gaza, which shall devour the palaces thereof:",
+      "web": "but I will send a fire on the wall of Gaza, and it will devour its palaces.",
+      "ct": "So I will send fire on the walls of Gaza, and it will consume its fortresses."
+    },
+    {
+      "verse": 8,
+      "kjv": "And I will cut off the inhabitant from Ashdod, and him that holdeth the sceptre from Ashkelon, and I will turn mine hand against Ekron: and the remnant of the Philistines shall perish, saith the Lord GOD.",
+      "web": "I will cut off the inhabitant from Ashdod, and him who holds the scepter from Ashkelon; and I will turn my hand against Ekron; and the remnant of the Philistines will perish,” says the Lord LORD.",
+      "ct": "I will wipe out the ruler of Ashdod and the one who holds power in Ashkelon. I will strike Ekron with my hand, and the last of the Philistines will be destroyed,\" says the Lord GOD."
+    },
+    {
+      "verse": 9,
+      "kjv": "Thus saith the LORD; For three transgressions of Tyrus, and for four, I will not turn away the punishment thereof; because they delivered up the whole captivity to Edom, and remembered not the brotherly covenant:",
+      "web": "LORD says: “For three transgressions of Tyre, yes, for four, I will not turn away its punishment; because they delivered up the whole community to Edom, and didn’t remember the brotherly covenant;",
+      "ct": "The LORD says: \"Tyrus has sinned again and again, and I will not hold back its punishment. They handed over entire communities to Edom, completely ignoring their covenant of brotherhood."
+    },
+    {
+      "verse": 10,
+      "kjv": "But I will send a fire on the wall of Tyrus, which shall devour the palaces thereof.",
+      "web": "but I will send a fire on the wall of Tyre, and it will devour its palaces.”",
+      "ct": "So I will send fire on the walls of Tyrus, and it will consume its fortresses.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Thus saith the LORD; For three transgressions of Edom, and for four, I will not turn away the punishment thereof; because he did pursue his brother with the sword, and did cast off all pity, and his anger did tear perpetually, and he kept his wrath for ever:",
+      "web": "LORD says: “For three transgressions of Edom, yes, for four, I will not turn away its punishment; because he pursued his brother with the sword, and cast off all pity, and his anger raged continually, and he kept his wrath forever;",
+      "ct": "The LORD says: \"Edom has sinned again and again, and I will not hold back its punishment. He hunted down his own brother with the sword, showing no mercy at all. His rage burned without end, and his fury never let up."
+    },
+    {
+      "verse": 12,
+      "kjv": "But I will send a fire upon Teman, which shall devour the palaces of Bozrah.",
+      "web": "but I will send a fire on Teman, and it will devour the palaces of Bozrah.”",
+      "ct": "So I will send fire on Teman, and it will consume the fortresses of Bozrah.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Thus saith the LORD; For three transgressions of the children of Ammon, and for four, I will not turn away the punishment thereof; because they have ripped up the women with child of Gilead, that they might enlarge their border:",
+      "web": "LORD says: “For three transgressions of the children of Ammon, yes, for four, I will not turn away its punishment; because they have ripped open the pregnant women of Gilead, that they may enlarge their border.",
+      "ct": "The LORD says: \"The people of Ammon have sinned again and again, and I will not hold back their punishment. They ripped open pregnant women in Gilead just to expand their territory."
+    },
+    {
+      "verse": 14,
+      "kjv": "But I will kindle a fire in the wall of Rabbah, and it shall devour the palaces thereof, with shouting in the day of battle, with a tempest in the day of the whirlwind:",
+      "web": "But I will kindle a fire in the wall of Rabbah, and it will devour its palaces, with shouting in the day of battle, with a storm in the day of the whirlwind;",
+      "ct": "So I will set fire to the walls of Rabbah, and it will consume its fortresses — with war cries on the day of battle and a raging storm on the day of the whirlwind."
+    },
+    {
+      "verse": 15,
+      "kjv": "And their king shall go into captivity, he and his princes together, saith the LORD.",
+      "web": "and their king will go into captivity, he and his princes together,” says LORD.",
+      "ct": "Their king will be dragged into captivity, along with all his officials,\" says the LORD."
+    }
+  ]
+}

@@ -1,16 +1,28 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import { Suspense } from "react";
 
-export default function AuthCompletePage() {
+function AuthComplete() {
   const router = useRouter();
+  const searchParams = useSearchParams();
 
   useEffect(() => {
     async function finish() {
-      // Give Supabase a moment to parse the hash and set the session
-      await new Promise(r => setTimeout(r, 500));
+      const code = searchParams.get("code");
+
+      if (code) {
+        const { error } = await supabase.auth.exchangeCodeForSession(code);
+        if (error) {
+          console.error("[Auth complete] Exchange error:", error.message);
+          router.replace("/login?error=oauth_exchange_failed");
+          return;
+        }
+      }
+
+      // Confirm session
       const { data: { session } } = await supabase.auth.getSession();
 
       if (session?.user) {
@@ -19,13 +31,15 @@ export default function AuthCompletePage() {
           .select("onboarding_completed_at")
           .eq("user_id", session.user.id)
           .single();
+
         router.replace(profile?.onboarding_completed_at ? "/bible" : "/onboarding");
       } else {
         router.replace("/login?error=oauth_exchange_failed");
       }
     }
+
     finish();
-  }, [router]);
+  }, [router, searchParams]);
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-4"
@@ -36,5 +50,13 @@ export default function AuthCompletePage() {
         Signing you in...
       </p>
     </div>
+  );
+}
+
+export default function AuthCompletePage() {
+  return (
+    <Suspense>
+      <AuthComplete />
+    </Suspense>
   );
 }
