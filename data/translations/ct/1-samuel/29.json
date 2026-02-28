@@ -1,0 +1,77 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 29,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:49:07.036Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the Philistines gathered together all their armies to Aphek: and the Israelites pitched by a fountain which is in Jezreel.",
+      "web": "Now the Philistines gathered together all their armies to Aphek; and the Israelites encamped by the spring which is in Jezreel.",
+      "ct": "The Philistines assembled their entire army at Aphek, while the Israelites set up camp by the spring in Jezreel."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the lords of the Philistines passed on by hundreds, and by thousands: but David and his men passed on in the rereward with Achish.",
+      "web": "The lords of the Philistines passed on by hundreds and by thousands; and David and his men passed on in the rear with Achish.",
+      "ct": "The Philistine commanders marched past in units of hundreds and thousands. David and his men marched at the rear of the column with Achish."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then said the princes of the Philistines, What do these Hebrews here? And Achish said unto the princes of the Philistines, Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?",
+      "web": "Then the princes of the Philistines said, “What about these Hebrews?” Achish said to the princes of the Philistines, “Isn’t this David, the servant of Saul the king of Israel, who has been with me these days, or rather these years? I have found no fault in him since he fell away until today.”",
+      "ct": "The Philistine commanders demanded, \"What are these Hebrews doing here?\" Achish told them, \"This is David, who used to serve King Saul of Israel. He's been with me for over a year now, and I haven't found a single thing wrong with him since the day he came to me.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And the princes of the Philistines were wroth with him; and the princes of the Philistines said unto him, Make this fellow return, that he may go again to his place which thou hast appointed him, and let him not go down with us to battle, lest in the battle he be an adversary to us: for wherewith should he reconcile himself unto his master? should it not be with the heads of these men?",
+      "web": "But the princes of the Philistines were angry with him; and the princes of the Philistines said to him, “Make the man return, that he may go back to his place where you have appointed him, and let him not go down with us to battle, lest in the battle he become an adversary to us. For with what should this fellow reconcile himself to his lord? Should it not be with the heads of these men?",
+      "ct": "But the Philistine commanders were furious with Achish. \"Send this man back to whatever place you've assigned him!\" they said. \"He's not coming into battle with us. What if he turns on us in the middle of the fight? What better way to win back his old master's favor than by handing him our heads?\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Is not this David, of whom they sang one to another in dances, saying, Saul slew his thousands, and David his ten thousands?",
+      "web": "Isn’t this David, of whom people sang to one another in dances, saying, ‘Saul has slain his thousands, and David his ten thousands?’ ”",
+      "ct": "\"Isn't this the same David the Israelite women sang about when they danced, saying, 'Saul has killed his thousands, and David his 10 thousands'?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Then Achish called David, and said unto him, Surely, as the LORD liveth, thou hast been upright, and thy going out and thy coming in with me in the host is good in my sight: for I have not found evil in thee since the day of thy coming unto me unto this day: nevertheless the lords favour thee not.",
+      "web": "Then Achish called David, and said to him, “As LORD lives, you have been upright, and your going out and your coming in with me in the army is good in my sight; for I have not found evil in you since the day of your coming to me to this day. Nevertheless, the lords don’t favor you.",
+      "ct": "So Achish called David over and told him, \"As surely as the LORD lives, you've been loyal to me. Your service in my army has been beyond reproach — I haven't found any fault in you from the day you arrived until now. But the other Philistine lords don't trust you.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Wherefore now return, and go in peace, that thou displease not the lords of the Philistines.",
+      "web": "Therefore now return, and go in peace, that you not displease the lords of the Philistines.”",
+      "ct": "\"So please, go back in peace. I don't want you doing anything that would upset the Philistine lords.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And David said unto Achish, But what have I done? and what hast thou found in thy servant so long as I have been with thee unto this day, that I may not go fight against the enemies of my lord the king?",
+      "web": "David said to Achish, “But what have I done? What have you found in your servant so long as I have been before you to this day, that I may not go and fight against the enemies of my lord the king?”",
+      "ct": "David protested, \"But what have I done? What fault have you found in me the entire time I've served you, that I can't go and fight against the enemies of my lord the king?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Achish answered and said to David, I know that thou art good in my sight, as an angel of God: notwithstanding the princes of the Philistines have said, He shall not go up with us to the battle.",
+      "web": "Achish answered David, “I know that you are good in my sight, as an angel of God. Notwithstanding the princes of the Philistines have said, ‘He shall not go up with us to the battle.’",
+      "ct": "Achish replied, \"I know — as far as I'm concerned, you're as trustworthy as an angel of God. But the Philistine commanders have made up their minds: 'He is not going into battle with us.'\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Wherefore now rise up early in the morning with thy master’s servants that are come with thee: and as soon as ye be up early in the morning, and have light, depart.",
+      "web": "Therefore now rise up early in the morning with the servants of your lord who have come with you; and as soon as you are up early in the morning, and have light, depart.”",
+      "ct": "\"So get up early tomorrow morning — you and the men of your master who came with you — and leave at first light.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "So David and his men rose up early to depart in the morning, to return into the land of the Philistines. And the Philistines went up to Jezreel.",
+      "web": "So David rose up early, he and his men, to depart in the morning, to return into the land of the Philistines, and the Philistines went up to Jezreel.",
+      "ct": "David and his men got up early the next morning and headed back to Philistine territory, while the Philistines marched on toward Jezreel."
+    }
+  ]
+}

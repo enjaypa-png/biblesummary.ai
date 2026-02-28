@@ -1,0 +1,173 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:50:09.027Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now it came to pass after the death of Saul, when David was returned from the slaughter of the Amalekites, and David had abode two days in Ziklag;",
+      "web": "After the death of Saul, when David had returned from the slaughter of the Amalekites, and David had stayed two days in Ziklag;",
+      "ct": "After Saul's death, David returned from defeating the Amalekites and stayed in Ziklag for 2 days."
+    },
+    {
+      "verse": 2,
+      "kjv": "It came even to pass on the third day, that, behold, a man came out of the camp from Saul with his clothes rent, and earth upon his head: and so it was, when he came to David, that he fell to the earth, and did obeisance.",
+      "web": "on the third day, behold, a man came out of the camp from Saul, with his clothes torn, and earth on his head. When he came to David, he fell to the earth, and showed respect.",
+      "ct": "On the 3rd day, a man arrived from Saul's camp. His clothes were torn and he had dirt on his head. When he reached David, he dropped to the ground and bowed low."
+    },
+    {
+      "verse": 3,
+      "kjv": "And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped.",
+      "web": "David said to him, “Where do you come from?” He said to him, “I have escaped out of the camp of Israel.”",
+      "ct": "David asked him, \"Where are you coming from?\" The man replied, \"I escaped from the Israelite camp.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And David said unto him, How went the matter? I pray thee, tell me. And he answered, That the people are fled from the battle, and many of the people also are fallen and dead; and Saul and Jonathan his son are dead also.",
+      "web": "David said to him, “How did it go? Please tell me.” He answered, “The people have fled from the battle, and many of the people also have fallen and are dead. Saul and Jonathan his son are dead also.”",
+      "ct": "David pressed him, \"What happened? Tell me.\" The man answered, \"Our army fled from the battle. Many soldiers fell and died. Saul and his son Jonathan are both dead.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And David said unto the young man that told him, How knowest thou that Saul and Jonathan his son be dead?",
+      "web": "David said to the young man who told him, “How do you know that Saul and Jonathan his son are dead?”",
+      "ct": "David said to the young man, \"How do you know that Saul and Jonathan are dead?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And the young man that told him said, As I happened by chance upon mount Gilboa, behold, Saul leaned upon his spear; and, lo, the chariots and horsemen followed hard after him.",
+      "web": "The young man who told him said, “As I happened by chance on Mount Gilboa, behold, Saul was leaning on his spear; and behold, the chariots and the horsemen followed close behind him.",
+      "ct": "The young man said, \"I happened to be on Mount Gilboa, and there was Saul, leaning on his spear. The enemy chariots and horsemen were closing in fast."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I.",
+      "web": "When he looked behind him, he saw me, and called to me. I answered, ‘Here I am.’",
+      "ct": "He looked back and saw me, then called out to me. I answered, 'Here I am.'"
+    },
+    {
+      "verse": 8,
+      "kjv": "And he said unto me, Who art thou? And I answered him, I am an Amalekite.",
+      "web": "He said to me, ‘Who are you?’ I answered him, ‘I am an Amalekite.’",
+      "ct": "He asked me, 'Who are you?' I told him, 'I'm an Amalekite.'"
+    },
+    {
+      "verse": 9,
+      "kjv": "He said unto me again, Stand, I pray thee, upon me, and slay me: for anguish is come upon me, because my life is yet whole in me.",
+      "web": "He said to me, ‘Please stand beside me, and kill me; for anguish has taken hold of me, because my life lingers in me.’",
+      "ct": "Then he said to me, 'Come stand over me and kill me. The agony is unbearable, but I'm still alive.'"
+    },
+    {
+      "verse": 10,
+      "kjv": "So I stood upon him, and slew him, because I was sure that he could not live after that he was fallen: and I took the crown that was upon his head, and the bracelet that was on his arm, and have brought them hither unto my lord.",
+      "web": "So I stood beside him and killed him, because I was sure that he could not live after he had fallen. I took the crown that was on his head and the bracelet that was on his arm, and have brought them here to my lord.”",
+      "ct": "So I stood over him and killed him, because I knew he couldn't survive after he'd collapsed. Then I took the crown from his head and the bracelet from his arm, and I've brought them here to you, my lord.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Then David took hold on his clothes, and rent them; and likewise all the men that were with him:",
+      "web": "Then David took hold on his clothes, and tore them; and all the men who were with him did likewise.",
+      "ct": "David grabbed his own clothes and tore them, and every man with him did the same."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they mourned, and wept, and fasted until even, for Saul, and for Jonathan his son, and for the people of the LORD, and for the house of Israel; because they were fallen by the sword.",
+      "web": "They mourned, wept, and fasted until evening, for Saul, and for Jonathan his son, and for the people of LORD, and for the house of Israel; because they had fallen by the sword.",
+      "ct": "They mourned, wept, and fasted until evening — grieving for Saul, for his son Jonathan, for the LORD's people, and for the nation of Israel, because so many had fallen by the sword."
+    },
+    {
+      "verse": 13,
+      "kjv": "And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite.",
+      "web": "David said to the young man who told him, “Where are you from?” He answered, “I am the son of a foreigner, an Amalekite.”",
+      "ct": "David asked the young man again, \"Where are you from?\" He answered, \"I'm the son of a foreigner — an Amalekite.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And David said unto him, How wast thou not afraid to stretch forth thine hand to destroy the LORD’s anointed?",
+      "web": "David said to him, “Why were you not afraid to stretch out your hand to destroy LORD’s anointed?”",
+      "ct": "David said to him, \"How could you not be afraid to raise your hand and kill the LORD's anointed?\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And David called one of the young men, and said, Go near, and fall upon him. And he smote him that he died.",
+      "web": "David called one of the young men, and said, “Go near, and cut him down!” He struck him so that he died.",
+      "ct": "David called one of his soldiers and said, \"Go — strike him down.\" The soldier killed him on the spot."
+    },
+    {
+      "verse": 16,
+      "kjv": "And David said unto him, Thy blood be upon thy head; for thy mouth hath testified against thee, saying, I have slain the LORD’s anointed.",
+      "web": "David said to him, “Your blood be on your head; for your mouth has testified against you, saying, ‘I have slain LORD’s anointed.’ ”",
+      "ct": "David said to the dead man, \"Your blood is on your own head. Your own mouth condemned you when you said, 'I killed the LORD's anointed.'\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And David lamented with this lamentation over Saul and over Jonathan his son:",
+      "web": "David lamented with this lamentation over Saul and over Jonathan his son",
+      "ct": "Then David composed this lament for Saul and his son Jonathan:"
+    },
+    {
+      "verse": 18,
+      "kjv": "(Also he bade them teach the children of Judah the use of the bow: behold, it is written in the book of Jasher.)",
+      "web": "(and he commanded them to teach the children of Judah the song of the bow; behold, it is written in the book of Jashar): ",
+      "ct": "(He also ordered that the people of Judah be taught this song, called \"The Bow.\" It is recorded in the Book of Jasher.)"
+    },
+    {
+      "verse": 19,
+      "kjv": "The beauty of Israel is slain upon thy high places: how are the mighty fallen!",
+      "web": "“Your glory, Israel, was slain on your high places! How the mighty have fallen!",
+      "ct": "\"Israel, your finest lie dead on your hills! How the mighty have fallen!"
+    },
+    {
+      "verse": 20,
+      "kjv": "Tell it not in Gath, publish it not in the streets of Askelon; lest the daughters of the Philistines rejoice, lest the daughters of the uncircumcised triumph.",
+      "web": "Don’t tell it in Gath. Don’t publish it in the streets of Ashkelon, lest the daughters of the Philistines rejoice, lest the daughters of the uncircumcised triumph.",
+      "ct": "Don't announce it in Gath. Don't proclaim it in the streets of Ashkelon — or the Philistine women will celebrate, and the daughters of the uncircumcised will gloat."
+    },
+    {
+      "verse": 21,
+      "kjv": "Ye mountains of Gilboa, let there be no dew, neither let there be rain, upon you, nor fields of offerings: for there the shield of the mighty is vilely cast away, the shield of Saul, as though he had not been anointed with oil.",
+      "web": "You mountains of Gilboa, let there be no dew or rain on you, and no fields of offerings; For there the shield of the mighty was defiled and cast away, The shield of Saul was not anointed with oil.",
+      "ct": "Mountains of Gilboa, may no dew or rain ever fall on you, and may your fields yield nothing for offerings. For there the shield of the mighty was thrown aside in disgrace — Saul's shield, left unpolished with oil."
+    },
+    {
+      "verse": 22,
+      "kjv": "From the blood of the slain, from the fat of the mighty, the bow of Jonathan turned not back, and the sword of Saul returned not empty.",
+      "web": "From the blood of the slain, from the fat of the mighty, Jonathan’s bow didn’t turn back. Saul’s sword didn’t return empty.",
+      "ct": "Jonathan's bow never retreated from the blood of the slain, from the flesh of warriors. Saul's sword never returned without a kill."
+    },
+    {
+      "verse": 23,
+      "kjv": "Saul and Jonathan were lovely and pleasant in their lives, and in their death they were not divided: they were swifter than eagles, they were stronger than lions.",
+      "web": "Saul and Jonathan were lovely and pleasant in their lives. In their death, they were not divided. They were swifter than eagles. They were stronger than lions.",
+      "ct": "Saul and Jonathan — beloved and gracious in life, and not even death could separate them. They were swifter than eagles and stronger than lions."
+    },
+    {
+      "verse": 24,
+      "kjv": "Ye daughters of Israel, weep over Saul, who clothed you in scarlet, with other delights, who put on ornaments of gold upon your apparel.",
+      "web": "You daughters of Israel, weep over Saul, who clothed you delicately in scarlet, who put ornaments of gold on your clothing.",
+      "ct": "Daughters of Israel, weep for Saul! He dressed you in fine scarlet and adorned your clothing with gold ornaments."
+    },
+    {
+      "verse": 25,
+      "kjv": "How are the mighty fallen in the midst of the battle! O Jonathan, thou wast slain in thine high places.",
+      "web": "How the mighty have fallen in the middle of the battle! Jonathan was slain on your high places.",
+      "ct": "How the mighty have fallen in the heat of battle! Jonathan lies dead on the hills."
+    },
+    {
+      "verse": 26,
+      "kjv": "I am distressed for thee, my brother Jonathan: very pleasant hast thou been unto me: thy love to me was wonderful, passing the love of women.",
+      "web": "I am distressed for you, my brother Jonathan. You have been very pleasant to me. Your love to me was wonderful, passing the love of women.",
+      "ct": "I am crushed with grief for you, my brother Jonathan. You meant so much to me. Your love for me was extraordinary — deeper than the love of women."
+    },
+    {
+      "verse": 27,
+      "kjv": "How are the mighty fallen, and the weapons of war perished!",
+      "web": "How the mighty have fallen, and the weapons of war have perished!”",
+      "ct": "How the mighty have fallen, and the weapons of war have perished!\""
+    }
+  ]
+}

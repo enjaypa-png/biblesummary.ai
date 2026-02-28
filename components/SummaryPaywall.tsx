@@ -211,7 +211,7 @@ export default function SummaryPaywall({
                     style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
                   />
                 ) : (
-                  "$59/yr"
+                  "$79/yr"
                 )}
               </div>
             </button>

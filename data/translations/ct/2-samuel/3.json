@@ -1,0 +1,245 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:51:12.511Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now there was long war between the house of Saul and the house of David: but David waxed stronger and stronger, and the house of Saul waxed weaker and weaker.",
+      "web": "Now there was long war between Saul’s house and David’s house. David grew stronger and stronger, but Saul’s house grew weaker and weaker.",
+      "ct": "The war between the house of Saul and the house of David dragged on for a long time. David kept growing stronger, while Saul's house grew weaker and weaker."
+    },
+    {
+      "verse": 2,
+      "kjv": "And unto David were sons born in Hebron: and his firstborn was Amnon, of Ahinoam the Jezreelitess;",
+      "web": "Sons were born to David in Hebron. His firstborn was Amnon, of Ahinoam the Jezreelitess;",
+      "ct": "While David was living in Hebron, several sons were born to him. His firstborn was Amnon, whose mother was Ahinoam from Jezreel."
+    },
+    {
+      "verse": 3,
+      "kjv": "And his second, Chileab, of Abigail the wife of Nabal the Carmelite; and the third, Absalom the son of Maacah the daughter of Talmai king of Geshur;",
+      "web": "and his second, Chileab, of Abigail the wife of Nabal the Carmelite; and the third, Absalom the son of Maacah the daughter of Talmai king of Geshur;",
+      "ct": "His second son was Chileab, whose mother was Abigail, the former wife of Nabal the Carmelite. His third was Absalom, whose mother was Maacah, the daughter of King Talmai of Geshur."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the fourth, Adonijah the son of Haggith; and the fifth, Shephatiah the son of Abital;",
+      "web": "and the fourth, Adonijah the son of Haggith; and the fifth, Shephatiah the son of Abital;",
+      "ct": "His fourth son was Adonijah, whose mother was Haggith. His fifth was Shephatiah, whose mother was Abital."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the sixth, Ithream, by Eglah David’s wife. These were born to David in Hebron.",
+      "web": "and the sixth, Ithream, of Eglah, David’s wife. These were born to David in Hebron.",
+      "ct": "His sixth son was Ithream, whose mother was Eglah, David's wife. All of these were born to David in Hebron."
+    },
+    {
+      "verse": 6,
+      "kjv": "And it came to pass, while there was war between the house of Saul and the house of David, that Abner made himself strong for the house of Saul.",
+      "web": "While there was war between Saul’s house and David’s house, Abner made himself strong in Saul’s house.",
+      "ct": "During the war between Saul's house and David's house, Abner was steadily building his own power within Saul's house."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Saul had a concubine, whose name was Rizpah, the daughter of Aiah: and Ishbosheth said to Abner, Wherefore hast thou gone in unto my father’s concubine?",
+      "web": "Now Saul had a concubine, whose name was Rizpah, the daughter of Aiah; and Ishbosheth said to Abner, “Why have you gone in to my father’s concubine?”",
+      "ct": "Now Saul had a concubine named Rizpah, the daughter of Aiah. One day Ishbosheth confronted Abner: \"Why have you slept with my father's concubine?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Then was Abner very wroth for the words of Ishbosheth, and said, Am I a dog’s head, which against Judah do shew kindness this day unto the house of Saul thy father, to his brethren, and to his friends, and have not delivered thee into the hand of David, that thou chargest me to day with a fault concerning this woman?",
+      "web": "Then Abner was very angry about Ishbosheth’s words, and said, “Am I a dog’s head that belongs to Judah? Today I show kindness to Saul’s house your father, to his brothers, and to his friends, and have not delivered you into the hand of David; and yet you charge me today with a fault concerning this woman!",
+      "ct": "Abner was furious at this accusation. \"Am I some worthless dog loyal to Judah?\" he shot back. \"I've shown nothing but loyalty to your father Saul's family — to his brothers and his friends. I kept you from falling into David's hands. And now you accuse me over this woman?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "So do God to Abner, and more also, except, as the LORD hath sworn to David, even so I do to him;",
+      "web": "God do so to Abner, and more also, if, as LORD has sworn to David, I don’t do even so to him;",
+      "ct": "\"May God strike me down and worse if I don't carry out what the LORD swore to David —"
+    },
+    {
+      "verse": 10,
+      "kjv": "To translate the kingdom from the house of Saul, and to set up the throne of David over Israel and over Judah, from Dan even to Beersheba.",
+      "web": "to transfer the kingdom from Saul’s house, and to set up David’s throne over Israel and over Judah, from Dan even to Beersheba.”",
+      "ct": "to take the kingdom away from Saul's house and establish David's throne over both Israel and Judah, from Dan all the way to Beersheba.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And he could not answer Abner a word again, because he feared him.",
+      "web": "He could not answer Abner another word, because he was afraid of him.",
+      "ct": "Ishbosheth didn't dare say another word to Abner, because he was afraid of him."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Abner sent messengers to David on his behalf, saying, Whose is the land? saying also, Make thy league with me, and, behold, my hand shall be with thee, to bring about all Israel unto thee.",
+      "web": "Abner sent messengers to David on his behalf, saying, “Whose is the land?” and saying, “Make your alliance with me, and behold, my hand will be with you, to bring all Israel around to you.”",
+      "ct": "Abner then sent messengers to David with a proposal: \"Who really controls this land? Make an alliance with me, and I'll use my influence to bring all of Israel over to your side.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And he said, Well; I will make a league with thee: but one thing I require of thee, that is, Thou shalt not see my face, except thou first bring Michal Saul’s daughter, when thou comest to see my face.",
+      "web": "He said, “Good. I will make a treaty with you, but one thing I require of you. That is, you will not see my face unless you first bring Michal, Saul’s daughter, when you come to see my face.”",
+      "ct": "David replied, \"Good — I'll make a treaty with you. But I have one condition: don't come to see me unless you bring Michal, Saul's daughter, with you.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And David sent messengers to Ishbosheth Saul’s son, saying, Deliver me my wife Michal, which I espoused to me for an hundred foreskins of the Philistines.",
+      "web": "David sent messengers to Ishbosheth, Saul’s son, saying, “Deliver me my wife Michal, whom I was given to marry for one hundred foreskins of the Philistines.”",
+      "ct": "David also sent messengers directly to Ishbosheth, Saul's son, demanding, \"Give me back my wife Michal. I paid for her with 100 Philistine foreskins.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And Ishbosheth sent, and took her from her husband, even from Phaltiel the son of Laish.",
+      "web": "Ishbosheth sent and took her from her husband, even from Paltiel the son of Laish.",
+      "ct": "So Ishbosheth sent for Michal and took her away from her husband Phaltiel, the son of Laish."
+    },
+    {
+      "verse": 16,
+      "kjv": "And her husband went with her along weeping behind her to Bahurim. Then said Abner unto him, Go, return. And he returned.",
+      "web": "Her husband went with her, weeping as he went, and followed her to Bahurim. Then Abner said to him, “Go! Return!” and he returned.",
+      "ct": "Her husband followed her, weeping the entire way, all the way to Bahurim. Then Abner told him, \"Go back home.\" So he turned around and went back."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Abner had communication with the elders of Israel, saying, Ye sought for David in times past to be king over you:",
+      "web": "Abner had communication with the elders of Israel, saying, “In times past, you sought for David to be king over you.",
+      "ct": "Meanwhile, Abner had been meeting privately with the elders of Israel. \"For a long time now,\" he told them, \"you've wanted David to be your king.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Now then do it: for the LORD hath spoken of David, saying, By the hand of my servant David I will save my people Israel out of the hand of the Philistines, and out of the hand of all their enemies.",
+      "web": "Now then do it; for LORD has spoken of David, saying, ‘By the hand of my servant David, I will save my people Israel out of the hand of the Philistines, and out of the hand of all their enemies.’ ”",
+      "ct": "\"Now is the time to act. The LORD himself spoke about David, saying, 'Through my servant David, I will rescue my people Israel from the Philistines and from all their enemies.'\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And Abner also spake in the ears of Benjamin: and Abner went also to speak in the ears of David in Hebron all that seemed good to Israel, and that seemed good to the whole house of Benjamin.",
+      "web": "Abner also spoke in the ears of Benjamin: and Abner went also to speak in the ears of David in Hebron all that seemed good to Israel, and to the whole house of Benjamin.",
+      "ct": "Abner also spoke personally with the people of Benjamin. Then he traveled to Hebron to tell David everything that Israel and the whole tribe of Benjamin had agreed to."
+    },
+    {
+      "verse": 20,
+      "kjv": "So Abner came to David to Hebron, and twenty men with him. And David made Abner and the men that were with him a feast.",
+      "web": "So Abner came to David to Hebron, and twenty men with him. David made Abner and the men who were with him a feast.",
+      "ct": "When Abner arrived in Hebron with 20 of his men, David hosted a feast for them."
+    },
+    {
+      "verse": 21,
+      "kjv": "And Abner said unto David, I will arise and go, and will gather all Israel unto my lord the king, that they may make a league with thee, and that thou mayest reign over all that thine heart desireth. And David sent Abner away; and he went in peace.",
+      "web": "Abner said to David, “I will arise and go, and will gather all Israel to my lord the king, that they may make a covenant with you, and that you may reign over all that your soul desires.” David sent Abner away; and he went in peace.",
+      "ct": "Abner said to David, \"Let me go now and gather all of Israel to my lord the king. They'll make a covenant with you, and you'll reign over everything your soul desires.\" David sent Abner on his way, and he left in peace."
+    },
+    {
+      "verse": 22,
+      "kjv": "And, behold, the servants of David and Joab came from pursuing a troop, and brought in a great spoil with them: but Abner was not with David in Hebron; for he had sent him away, and he was gone in peace.",
+      "web": "Behold, David’s servants and Joab came from a raid, and brought in a great plunder with them; but Abner was not with David in Hebron; for he had sent him away, and he had gone in peace.",
+      "ct": "Just then, David's soldiers and Joab returned from a raid, bringing back a large amount of plunder. Abner was no longer in Hebron — David had already sent him off in peace."
+    },
+    {
+      "verse": 23,
+      "kjv": "When Joab and all the host that was with him were come, they told Joab, saying, Abner the son of Ner came to the king, and he hath sent him away, and he is gone in peace.",
+      "web": "When Joab and all the army who was with him had come, they told Joab, “Abner the son of Ner came to the king, and he has sent him away, and he has gone in peace.”",
+      "ct": "When Joab and his entire force arrived, someone told him, \"Abner son of Ner came to see the king, and the king sent him away safely.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Then Joab came to the king, and said, What hast thou done? behold, Abner came unto thee; why is it that thou hast sent him away, and he is quite gone?",
+      "web": "Then Joab came to the king, and said, “What have you done? Behold, Abner came to you. Why is it that you have sent him away, and he is already gone?",
+      "ct": "Joab went straight to the king and demanded, \"What have you done? Abner came right to you — why did you let him leave? He's already gone!\""
+    },
+    {
+      "verse": 25,
+      "kjv": "Thou knowest Abner the son of Ner, that he came to deceive thee, and to know thy going out and thy coming in, and to know all that thou doest.",
+      "web": "You know Abner the son of Ner. He came to deceive you, and to know your going out and your coming in, and to know all that you do.”",
+      "ct": "\"You know Abner son of Ner! He came here to trick you, to spy on your movements, and to find out everything you're doing.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And when Joab was come out from David, he sent messengers after Abner, which brought him again from the well of Sirah: but David knew it not.",
+      "web": "When Joab had come out from David, he sent messengers after Abner, and they brought him back from the well of Sirah; but David didn’t know it.",
+      "ct": "After leaving David, Joab sent messengers after Abner and had him brought back from the well of Sirah. David knew nothing about it."
+    },
+    {
+      "verse": 27,
+      "kjv": "And when Abner was returned to Hebron, Joab took him aside in the gate to speak with him quietly, and smote him there under the fifth rib, that he died, for the blood of Asahel his brother.",
+      "web": "When Abner was returned to Hebron, Joab took him aside into the middle of the gate to speak with him quietly, and struck him there in the body, so that he died, for the blood of Asahel his brother.",
+      "ct": "When Abner returned to Hebron, Joab pulled him aside in the gateway as if to speak privately. There he stabbed him in the stomach, and Abner died. Joab did this to avenge the blood of his brother Asahel."
+    },
+    {
+      "verse": 28,
+      "kjv": "And afterward when David heard it, he said, I and my kingdom are guiltless before the LORD for ever from the blood of Abner the son of Ner:",
+      "web": "Afterward, when David heard it, he said, “I and my kingdom are guiltless before LORD forever of the blood of Abner the son of Ner.",
+      "ct": "When David heard what had happened, he declared, \"I and my kingdom are completely innocent before the LORD — now and forever — of the blood of Abner son of Ner."
+    },
+    {
+      "verse": 29,
+      "kjv": "Let it rest on the head of Joab, and on all his father’s house; and let there not fail from the house of Joab one that hath an issue, or that is a leper, or that leaneth on a staff, or that falleth on the sword, or that lacketh bread.",
+      "web": "Let it fall on the head of Joab, and on all his father’s house. Let there not fail from the house of Joab one who has a discharge, or who is a leper, or who leans on a staff, or who falls by the sword, or who lacks bread.”",
+      "ct": "Let the guilt fall on Joab's head and on his entire family. May Joab's household never be free from disease, leprosy, men who lean on a crutch, men who die by the sword, or people who go hungry.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "So Joab and Abishai his brother slew Abner, because he had slain their brother Asahel at Gibeon in the battle.",
+      "web": "So Joab and Abishai his brother killed Abner, because he had killed their brother Asahel at Gibeon in the battle.",
+      "ct": "Joab and his brother Abishai killed Abner because he had killed their brother Asahel during the battle at Gibeon."
+    },
+    {
+      "verse": 31,
+      "kjv": "And David said to Joab, and to all the people that were with him, Rend your clothes, and gird you with sackcloth, and mourn before Abner. And king David himself followed the bier.",
+      "web": "David said to Joab, and to all the people who were with him, “Tear your clothes, and clothe yourselves with sackcloth, and mourn in front of Abner.” King David followed the bier.",
+      "ct": "David ordered Joab and everyone with him, \"Tear your clothes, put on sackcloth, and mourn for Abner.\" King David himself walked behind the funeral procession."
+    },
+    {
+      "verse": 32,
+      "kjv": "And they buried Abner in Hebron: and the king lifted up his voice, and wept at the grave of Abner; and all the people wept.",
+      "web": "They buried Abner in Hebron; and the king lifted up his voice, and wept at Abner’s grave; and all the people wept.",
+      "ct": "They buried Abner in Hebron. The king wept loudly at Abner's grave, and all the people wept with him."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the king lamented over Abner, and said, Died Abner as a fool dieth?",
+      "web": "The king lamented for Abner, and said, “Should Abner die as a fool dies?",
+      "ct": "The king sang a lament over Abner: \"Should Abner have died the way a fool dies?"
+    },
+    {
+      "verse": 34,
+      "kjv": "Thy hands were not bound, nor thy feet put into fetters: as a man falleth before wicked men, so fellest thou. And all the people wept again over him.",
+      "web": "Your hands weren’t bound, and your feet weren’t put into fetters. As a man falls before the children of iniquity, so you fell.” All the people wept again over him.",
+      "ct": "Your hands were never bound. Your feet were never chained. You fell the way a man falls before wicked men.\" The people wept over him again."
+    },
+    {
+      "verse": 35,
+      "kjv": "And when all the people came to cause David to eat meat while it was yet day, David sware, saying, So do God to me, and more also, if I taste bread, or ought else, till the sun be down.",
+      "web": "All the people came to urge David to eat bread while it was yet day; but David swore, saying, “God do so to me, and more also, if I taste bread, or anything else, until the sun goes down.”",
+      "ct": "Throughout the day, people came and urged David to eat something. But David made an oath: \"May God strike me down and worse if I taste bread or anything else before the sun goes down.\""
+    },
+    {
+      "verse": 36,
+      "kjv": "And all the people took notice of it, and it pleased them: as whatsoever the king did pleased all the people.",
+      "web": "All the people took notice of it, and it pleased them; as whatever the king did pleased all the people.",
+      "ct": "Everyone noticed this, and it pleased them. In fact, everything the king did pleased the people."
+    },
+    {
+      "verse": 37,
+      "kjv": "For all the people and all Israel understood that day that it was not of the king to slay Abner the son of Ner.",
+      "web": "So all the people and all Israel understood that day that it was not of the king to kill Abner the son of Ner.",
+      "ct": "That day, all the people and all of Israel realized that the king had nothing to do with the killing of Abner son of Ner."
+    },
+    {
+      "verse": 38,
+      "kjv": "And the king said unto his servants, Know ye not that there is a prince and a great man fallen this day in Israel?",
+      "web": "The king said to his servants, “Don’t you know that a prince and a great man has fallen today in Israel?",
+      "ct": "The king said to his servants, \"Don't you realize that a prince — a great man — has fallen today in Israel?"
+    },
+    {
+      "verse": 39,
+      "kjv": "And I am this day weak, though anointed king; and these men the sons of Zeruiah be too hard for me: the LORD shall reward the doer of evil according to his wickedness.",
+      "web": "I am weak today, though anointed king. These men, the sons of Zeruiah are too hard for me. May LORD reward the evildoer according to his wickedness.”",
+      "ct": "Even though I've been anointed king, I feel powerless today. These sons of Zeruiah are too ruthless for me. May the LORD repay the one who does evil according to his wickedness.\""
+    }
+  ]
+}

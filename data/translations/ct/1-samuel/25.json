@@ -1,0 +1,275 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 25,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:47:50.771Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Samuel died; and all the Israelites were gathered together, and lamented him, and buried him in his house at Ramah. And David arose, and went down to the wilderness of Paran.",
+      "web": "Samuel died; and all Israel gathered themselves together, and mourned for him, and buried him at his house at Ramah. Then David arose, and went down to the wilderness of Paran.",
+      "ct": "Samuel died, and all of Israel gathered to mourn him. They buried him at his home in Ramah. After that, David moved down to the wilderness of Paran."
+    },
+    {
+      "verse": 2,
+      "kjv": "And there was a man in Maon, whose possessions were in Carmel; and the man was very great, and he had three thousand sheep, and a thousand goats: and he was shearing his sheep in Carmel.",
+      "web": "There was a man in Maon, whose possessions were in Carmel; and the man was very great. He had three thousand sheep and a thousand goats; and he was shearing his sheep in Carmel.",
+      "ct": "There was a man in Maon who owned property in Carmel. He was extremely wealthy, with 3,000 sheep and 1,000 goats. At the time, he was shearing his sheep in Carmel."
+    },
+    {
+      "verse": 3,
+      "kjv": "Now the name of the man was Nabal; and the name of his wife Abigail: and she was a woman of good understanding, and of a beautiful countenance: but the man was churlish and evil in his doings; and he was of the house of Caleb.",
+      "web": "Now the name of the man was Nabal; and the name of his wife Abigail. This woman was intelligent and had a beautiful face; but the man was surly and evil in his doings. He was of the house of Caleb.",
+      "ct": "The man's name was Nabal, and his wife's name was Abigail. She was intelligent and beautiful, but he was rude and cruel in everything he did. He was a descendant of Caleb."
+    },
+    {
+      "verse": 4,
+      "kjv": "And David heard in the wilderness that Nabal did shear his sheep.",
+      "web": "David heard in the wilderness that Nabal was shearing his sheep.",
+      "ct": "While David was in the wilderness, he heard that Nabal was shearing his sheep."
+    },
+    {
+      "verse": 5,
+      "kjv": "And David sent out ten young men, and David said unto the young men, Get you up to Carmel, and go to Nabal, and greet him in my name:",
+      "web": "David sent ten young men, and David said to the young men, “Go up to Carmel, and go to Nabal, and greet him in my name.",
+      "ct": "So David sent 10 young men and told them, \"Go up to Carmel, find Nabal, and greet him on my behalf.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And thus shall ye say to him that liveth in prosperity, Peace be both to thee, and peace be to thine house, and peace be unto all that thou hast.",
+      "web": "Tell him, ‘Long life to you! Peace be to you! Peace be to your house! Peace be to all that you have!",
+      "ct": "\"Say to him: 'Long life to you! Peace to you, peace to your household, and peace to everything you own.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And now I have heard that thou hast shearers: now thy shepherds which were with us, we hurt them not, neither was there ought missing unto them, all the while they were in Carmel.",
+      "web": "Now I have heard that you have shearers. Your shepherds have now been with us, and we didn’t harm them. Nothing was missing from them all the time they were in Carmel.",
+      "ct": "\"I've heard that you're shearing your sheep. When your shepherds were near us, we never harmed them, and nothing of theirs went missing the whole time they were in Carmel.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Ask thy young men, and they will shew thee. Wherefore let the young men find favour in thine eyes: for we come in a good day: give, I pray thee, whatsoever cometh to thine hand unto thy servants, and to thy son David.",
+      "web": "Ask your young men, and they will tell you. Therefore let the young men find favor in your eyes; for we come on a good day. Please give whatever comes to your hand, to your servants, and to your son David.’ ”",
+      "ct": "\"Ask your own men — they'll confirm it. So please show my men some kindness, since we've come at a time of celebration. Give whatever you can spare to your servants and to your son David.'\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And when David’s young men came, they spake to Nabal according to all those words in the name of David, and ceased.",
+      "web": "When David’s young men came, they spoke to Nabal all those words in the name of David, and waited.",
+      "ct": "David's young men went and delivered the entire message to Nabal on David's behalf, then waited for a response."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Nabal answered David’s servants, and said, Who is David? and who is the son of Jesse? there be many servants now a days that break away every man from his master.",
+      "web": "Nabal answered David’s servants, and said, “Who is David? Who is the son of Jesse? There are many servants who break away from their masters these days.",
+      "ct": "Nabal shot back at David's servants, \"Who is David? Who is this son of Jesse? These days, all kinds of servants are running away from their masters.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Shall I then take my bread, and my water, and my flesh that I have killed for my shearers, and give it unto men, whom I know not whence they be?",
+      "web": "Shall I then take my bread, my water, and my meat that I have killed for my shearers, and give it to men who I don’t know where they come from?”",
+      "ct": "\"Why should I take my bread, my water, and the meat I've slaughtered for my shearers and hand it over to men I've never even heard of?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "So David’s young men turned their way, and went again, and came and told him all those sayings.",
+      "web": "So David’s young men turned on their way, and went back, and came and told him all these words.",
+      "ct": "David's young men turned around, went back, and reported everything Nabal had said."
+    },
+    {
+      "verse": 13,
+      "kjv": "And David said unto his men, Gird ye on every man his sword. And they girded on every man his sword; and David also girded on his sword: and there went up after David about four hundred men; and two hundred abode by the stuff.",
+      "web": "David said to his men, “Every man put on his sword!” Every man put on his sword. David also put on his sword. About four hundred men followed David, and two hundred stayed by the baggage.",
+      "ct": "David told his men, \"Strap on your swords — every one of you!\" So they all strapped on their swords, and David did the same. About 400 men went with David, while 200 stayed behind to guard the supplies."
+    },
+    {
+      "verse": 14,
+      "kjv": "But one of the young men told Abigail, Nabal’s wife, saying, Behold, David sent messengers out of the wilderness to salute our master; and he railed on them.",
+      "web": "But one of the young men told Abigail, Nabal’s wife, saying, “Behold, David sent messengers out of the wilderness to Greet our master; and he insulted them.",
+      "ct": "Meanwhile, one of Nabal's servants went to Abigail, Nabal's wife, and said, \"David sent messengers from the wilderness to pay respects to our master, and he just hurled insults at them.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "But the men were very good unto us, and we were not hurt, neither missed we any thing, as long as we were conversant with them, when we were in the fields:",
+      "web": "But the men were very good to us, and we were not harmed, and we didn’t miss anything, as long as we went with them, when we were in the fields.",
+      "ct": "\"But those men were very good to us. We were never harmed, and nothing went missing the whole time we were out in the fields with them.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "They were a wall unto us both by night and day, all the while we were with them keeping the sheep.",
+      "web": "They were a wall to us both by night and by day, all the while we were with them keeping the sheep.",
+      "ct": "\"They were like a wall of protection around us, day and night, the entire time we were with them watching the sheep.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Now therefore know and consider what thou wilt do; for evil is determined against our master, and against all his household: for he is such a son of Belial, that a man cannot speak to him.",
+      "web": "Now therefore know and consider what you will do; for evil is determined against our master, and against all his house; for he is such a worthless fellow that one can’t speak to him.”",
+      "ct": "\"You need to think carefully about what to do, because disaster is heading straight for our master and his whole household. He's so impossible that no one can even talk to him.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then Abigail made haste, and took two hundred loaves, and two bottles of wine, and five sheep ready dressed, and five measures of parched corn, and an hundred clusters of raisins, and two hundred cakes of figs, and laid them on asses.",
+      "web": "Then Abigail hurried and took two hundred loaves of bread, two containers of wine, five sheep ready dressed, five seahs of parched grain, one hundred clusters of raisins, and two hundred cakes of figs, and laid them on donkeys.",
+      "ct": "Abigail acted fast. She gathered 200 loaves of bread, 2 containers of wine, 5 butchered sheep, 5 seahs of roasted grain, 100 clusters of raisins, and 200 cakes of figs, and loaded everything onto donkeys."
+    },
+    {
+      "verse": 19,
+      "kjv": "And she said unto her servants, Go on before me; behold, I come after you. But she told not her husband Nabal.",
+      "web": "She said to her young men, “Go on before me. Behold, I am coming after you.” But she didn’t tell her husband, Nabal.",
+      "ct": "She told her servants, \"Go on ahead of me. I'll be right behind you.\" But she didn't tell her husband Nabal a thing."
+    },
+    {
+      "verse": 20,
+      "kjv": "And it was so, as she rode on the ass, that she came down by the covert of the hill, and, behold, David and his men came down against her; and she met them.",
+      "web": "As she rode on her donkey, and came down by the covert of the mountain, that behold, David and his men came down toward her, and she met them.",
+      "ct": "As she rode her donkey down a hidden path along the hillside, David and his men were coming toward her from the other direction. She met them face to face."
+    },
+    {
+      "verse": 21,
+      "kjv": "Now David had said, Surely in vain have I kept all that this fellow hath in the wilderness, so that nothing was missed of all that pertained unto him: and he hath requited me evil for good.",
+      "web": "Now David had said, “Surely in vain I have kept all that this fellow has in the wilderness, so that nothing was missed of all that pertained to him. He has returned me evil for good.",
+      "ct": "David had been saying to himself, \"I protected everything that man owns out in the wilderness for nothing! Not a single thing of his went missing, and he repaid my kindness with insults.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "So and more also do God unto the enemies of David, if I leave of all that pertain to him by the morning light any that pisseth against the wall.",
+      "web": "God do so to the enemies of David, and more also, if I leave of all that belongs to him by the morning light so much as one who urinates on a wall.”",
+      "ct": "\"May God strike down my enemies and worse if I leave even a single male in Nabal's household alive by morning!\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And when Abigail saw David, she hasted, and lighted off the ass, and fell before David on her face, and bowed herself to the ground,",
+      "web": "When Abigail saw David, she hurried and got off her donkey, and fell before David on her face, and bowed herself to the ground.",
+      "ct": "When Abigail saw David, she quickly got off her donkey, fell facedown before him, and bowed to the ground."
+    },
+    {
+      "verse": 24,
+      "kjv": "And fell at his feet, and said, Upon me, my lord, upon me let this iniquity be: and let thine handmaid, I pray thee, speak in thine audience, and hear the words of thine handmaid.",
+      "web": "She fell at his feet, and said, “On me, my lord, on me be the blame! Please let your servant speak in your ears. Hear the words of your servant.",
+      "ct": "She fell at his feet and said, \"My lord, let the blame fall on me alone! Please, let your servant speak, and hear what I have to say.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "Let not my lord, I pray thee, regard this man of Belial, even Nabal: for as his name is, so is he; Nabal is his name, and folly is with him: but I thine handmaid saw not the young men of my lord, whom thou didst send.",
+      "web": "Please don’t let my lord pay attention to this worthless fellow, Nabal; for as his name is, so is he. Nabal is his name, and folly is with him; but I, your servant, didn’t see my lord’s young men, whom you sent.",
+      "ct": "\"Please don't pay any attention to that worthless man Nabal. His name means 'fool,' and he lives up to it. As for me, your servant — I never saw the young men you sent.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "Now therefore, my lord, as the LORD liveth, and as thy soul liveth, seeing the LORD hath withholden thee from coming to shed blood, and from avenging thyself with thine own hand, now let thine enemies, and they that seek evil to my lord, be as Nabal.",
+      "web": "Now therefore, my lord, as LORD lives, and as your soul lives, since LORD has withheld you from blood guiltiness, and from avenging yourself with your own hand, now therefore let your enemies, and those who seek evil to my lord, be as Nabal.",
+      "ct": "\"My lord, as surely as the LORD lives and as your soul lives, the LORD himself has held you back from shedding blood and taking revenge with your own hand. May your enemies and everyone who wishes you harm end up like Nabal.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And now this blessing which thine handmaid hath brought unto my lord, let it even be given unto the young men that follow my lord.",
+      "web": "Now this present which your servant has brought to my lord, let it be given to the young men who follow my lord.",
+      "ct": "\"Now please accept this gift that your servant has brought for my lord, and let it be shared among the young men who follow you.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "I pray thee, forgive the trespass of thine handmaid: for the LORD will certainly make my lord a sure house; because my lord fighteth the battles of the LORD, and evil hath not been found in thee all thy days.",
+      "web": "Please forgive the trespass of your servant. For LORD will certainly make my lord a sure house, because my lord fights LORD’s battles. Evil will not be found in you all your days.",
+      "ct": "\"Please forgive your servant's boldness. The LORD will certainly establish a lasting dynasty for my lord, because you fight the LORD's battles, and no wrongdoing has been found in you all your life.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "Yet a man is risen to pursue thee, and to seek thy soul: but the soul of my lord shall be bound in the bundle of life with the LORD thy God; and the souls of thine enemies, them shall he sling out, as out of the middle of a sling.",
+      "web": "Though men may rise up to pursue you, and to seek your soul, yet the soul of my lord will be bound in the bundle of life with LORD your God. He will sling out the souls of your enemies, as from the hollow of a sling.",
+      "ct": "\"Even though someone is hunting you down and trying to take your life, the LORD your God will keep your soul safe, bundled securely in the bundle of life. But the souls of your enemies — he'll hurl them away like stones from a sling.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And it shall come to pass, when the LORD shall have done to my lord according to all the good that he hath spoken concerning thee, and shall have appointed thee ruler over Israel;",
+      "web": "It will come to pass, when LORD has done to my lord according to all the good that he has spoken concerning you, and has appointed you prince over Israel,",
+      "ct": "\"When the LORD has done for my lord every good thing he promised, and has made you ruler over Israel —\""
+    },
+    {
+      "verse": 31,
+      "kjv": "That this shall be no grief unto thee, nor offence of heart unto my lord, either that thou hast shed blood causeless, or that my lord hath avenged himself: but when the LORD shall have dealt well with my lord, then remember thine handmaid.",
+      "web": "that this shall be no grief to you, nor offense of heart to my lord, either that you have shed blood without cause, or that my lord has avenged himself. When LORD has dealt well with my lord, then remember your servant.”",
+      "ct": "\"you won't have this weighing on your conscience, the guilt of shedding innocent blood or taking revenge into your own hands. And when the LORD has blessed my lord, please remember your servant.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And David said to Abigail, Blessed be the LORD God of Israel, which sent thee this day to meet me:",
+      "web": "David said to Abigail, “Blessed is LORD, the God of Israel, who sent you today to meet me!",
+      "ct": "David said to Abigail, \"Praise the LORD, the God of Israel, who sent you to meet me today!\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And blessed be thy advice, and blessed be thou, which hast kept me this day from coming to shed blood, and from avenging myself with mine own hand.",
+      "web": "Blessed is your discretion, and blessed are you, who have kept me today from blood guiltiness, and from avenging myself with my own hand.",
+      "ct": "\"And praise your good judgment! Blessed are you for stopping me today from shedding blood and taking revenge with my own hand.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "For in very deed, as the LORD God of Israel liveth, which hath kept me back from hurting thee, except thou hadst hasted and come to meet me, surely there had not been left unto Nabal by the morning light any that pisseth against the wall.",
+      "web": "For indeed, as LORD, the God of Israel, lives, who has withheld me from harming you, unless you had hurried and come to meet me, surely there wouldn’t have been left to Nabal by the morning light so much as one who urinates on a wall.”",
+      "ct": "\"Because as surely as the LORD, the God of Israel, lives — the one who kept me from harming you — if you hadn't come so quickly to meet me, not a single male in Nabal's household would have been left alive by morning.\""
+    },
+    {
+      "verse": 35,
+      "kjv": "So David received of her hand that which she had brought him, and said unto her, Go up in peace to thine house; see, I have hearkened to thy voice, and have accepted thy person.",
+      "web": "So David received from her hand that which she had brought him. Then he said to her, “Go up in peace to your house. Behold, I have listened to your voice, and have granted your request.”",
+      "ct": "David accepted everything she had brought him and said, \"Go home in peace. I've listened to what you said and granted your request.\""
+    },
+    {
+      "verse": 36,
+      "kjv": "And Abigail came to Nabal; and, behold, he held a feast in his house, like the feast of a king; and Nabal’s heart was merry within him, for he was very drunken: wherefore she told him nothing, less or more, until the morning light.",
+      "web": "Abigail came to Nabal; and behold, he held a feast in his house, like the feast of a king. Nabal’s heart was merry within him, for he was very drunk. Therefore she told him nothing until the morning light.",
+      "ct": "When Abigail got home, she found Nabal throwing a feast fit for a king. He was in high spirits and completely drunk, so she told him nothing at all until morning."
+    },
+    {
+      "verse": 37,
+      "kjv": "But it came to pass in the morning, when the wine was gone out of Nabal, and his wife had told him these things, that his heart died within him, and he became as a stone.",
+      "web": "In the morning, when the wine had gone out of Nabal, his wife told him these things, and his heart died within him, and he became as a stone.",
+      "ct": "In the morning, after the wine had worn off, his wife told him everything that had happened. His heart failed inside him, and he became like a stone."
+    },
+    {
+      "verse": 38,
+      "kjv": "And it came to pass about ten days after, that the LORD smote Nabal, that he died.",
+      "web": "About ten days later, LORD struck Nabal, so that he died.",
+      "ct": "About 10 days later, the LORD struck Nabal, and he died."
+    },
+    {
+      "verse": 39,
+      "kjv": "And when David heard that Nabal was dead, he said, Blessed be the LORD, that hath pleaded the cause of my reproach from the hand of Nabal, and hath kept his servant from evil: for the LORD hath returned the wickedness of Nabal upon his own head. And David sent and communed with Abigail, to take her to him to wife.",
+      "web": "When David heard that Nabal was dead, he said, “Blessed is LORD, who has pleaded the cause of my reproach from the hand of Nabal, and has kept back his servant from evil. LORD has returned the evildoing of Nabal on his own head.” David sent and spoke concerning Abigail, to take her to himself as wife.",
+      "ct": "When David heard that Nabal was dead, he said, \"Praise the LORD! He has defended my honor against Nabal and kept his servant from doing evil. The LORD brought Nabal's wickedness back down on his own head.\" Then David sent messengers to Abigail to ask her to become his wife."
+    },
+    {
+      "verse": 40,
+      "kjv": "And when the servants of David were come to Abigail to Carmel, they spake unto her, saying, David sent us unto thee, to take thee to him to wife.",
+      "web": "When David’s servants had come to Abigail to Carmel, they spoke to her, saying, “David has sent us to you, to take you to him as wife.”",
+      "ct": "When David's servants arrived at Abigail's home in Carmel, they told her, \"David has sent us to bring you to him as his wife.\""
+    },
+    {
+      "verse": 41,
+      "kjv": "And she arose, and bowed herself on her face to the earth, and said, Behold, let thine handmaid be a servant to wash the feet of the servants of my lord.",
+      "web": "She arose, and bowed herself with her face to the earth, and said, “Behold, your servant is a servant to wash the feet of the servants of my lord.”",
+      "ct": "She stood up, bowed facedown to the ground, and said, \"Your servant is ready — even to wash the feet of my lord's servants.\""
+    },
+    {
+      "verse": 42,
+      "kjv": "And Abigail hasted, and arose, and rode upon an ass, with five damsels of hers that went after her; and she went after the messengers of David, and became his wife.",
+      "web": "Abigail hurried, and arose, and rode on a donkey, with five ladies of hers who followed her; and she went after the messengers of David, and became his wife.",
+      "ct": "Abigail quickly got up, mounted a donkey, and left with 5 of her female attendants. She followed David's messengers and became his wife."
+    },
+    {
+      "verse": 43,
+      "kjv": "David also took Ahinoam of Jezreel; and they were also both of them his wives.",
+      "web": "David also took Ahinoam of Jezreel; and they both became his wives.",
+      "ct": "David had also married Ahinoam from Jezreel, so both women became his wives."
+    },
+    {
+      "verse": 44,
+      "kjv": "But Saul had given Michal his daughter, David’s wife, to Phalti the son of Laish, which was of Gallim.",
+      "web": "Now Saul had given Michal his daughter, David’s wife, to Palti the son of Laish, who was of Gallim.",
+      "ct": "Meanwhile, Saul had given his daughter Michal, who was David's wife, to Phalti son of Laish, who was from Gallim."
+    }
+  ]
+}

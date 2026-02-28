@@ -1,0 +1,197 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 30,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:49:33.332Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, when David and his men were come to Ziklag on the third day, that the Amalekites had invaded the south, and Ziklag, and smitten Ziklag, and burned it with fire;",
+      "web": "When David and his men had come to Ziklag on the third day, the Amalekites had made a raid on the South, and on Ziklag, and had struck Ziklag, and burned it with fire,",
+      "ct": "On the 3rd day, when David and his men arrived back at Ziklag, they discovered that the Amalekites had raided the Negev and attacked Ziklag, burning it to the ground."
+    },
+    {
+      "verse": 2,
+      "kjv": "And had taken the women captives, that were therein: they slew not any, either great or small, but carried them away, and went on their way.",
+      "web": "and had taken captive the women and all who were in it, both small and great. They didn’t kill any, but carried them off, and went their way.",
+      "ct": "They had taken everyone captive — all the women and everyone else in the town, young and old. They didn't kill anyone, but carried them all off as they left."
+    },
+    {
+      "verse": 3,
+      "kjv": "So David and his men came to the city, and, behold, it was burned with fire; and their wives, and their sons, and their daughters, were taken captives.",
+      "web": "When David and his men came to the city, behold, it was burned with fire; and their wives, their sons, and their daughters were taken captive.",
+      "ct": "When David and his men reached the town, they found it burned down and their wives, sons, and daughters taken captive."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then David and the people that were with him lifted up their voice and wept, until they had no more power to weep.",
+      "web": "Then David and the people who were with him lifted up their voice and wept until they had no more power to weep.",
+      "ct": "David and everyone with him broke down and wept until they had no strength left to cry."
+    },
+    {
+      "verse": 5,
+      "kjv": "And David’s two wives were taken captives, Ahinoam the Jezreelitess, and Abigail the wife of Nabal the Carmelite.",
+      "web": "David’s two wives were taken captive, Ahinoam the Jezreelitess, and Abigail the wife of Nabal the Carmelite.",
+      "ct": "David's own 2 wives had been taken — Ahinoam from Jezreel and Abigail, the widow of Nabal from Carmel."
+    },
+    {
+      "verse": 6,
+      "kjv": "And David was greatly distressed; for the people spake of stoning him, because the soul of all the people was grieved, every man for his sons and for his daughters: but David encouraged himself in the LORD his God.",
+      "web": "David was greatly distressed; for the people spoke of stoning him, because the souls of all the people were grieved, every man for his sons and for his daughters; but David strengthened himself in LORD his God.",
+      "ct": "David was in deep distress because his men were so bitter over losing their sons and daughters that they talked about stoning him. But David found his strength in the LORD his God."
+    },
+    {
+      "verse": 7,
+      "kjv": "And David said to Abiathar the priest, Ahimelech’s son, I pray thee, bring me hither the ephod. And Abiathar brought thither the ephod to David.",
+      "web": "David said to Abiathar the priest, the son of Ahimelech, “Please bring the ephod here to me.” Abiathar brought the ephod to David.",
+      "ct": "David said to the priest Abiathar, son of Ahimelech, \"Please bring me the ephod.\" So Abiathar brought the ephod to David."
+    },
+    {
+      "verse": 8,
+      "kjv": "And David enquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all.",
+      "web": "David inquired of LORD, saying, “If I pursue after this troop, will I overtake them?” He answered him, “Pursue; for you will surely overtake them, and will without fail recover all.”",
+      "ct": "David asked the LORD, \"Should I go after this raiding party? Will I catch them?\" The LORD answered him, \"Go after them. You will certainly catch them and recover everything.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "So David went, he and the six hundred men that were with him, and came to the brook Besor, where those that were left behind stayed.",
+      "web": "So David went, he and the six hundred men who were with him, and came to the brook Besor, where those who were left behind stayed.",
+      "ct": "So David set out with his 600 men and marched to the brook Besor, where some of them stayed behind."
+    },
+    {
+      "verse": 10,
+      "kjv": "But David pursued, he and four hundred men: for two hundred abode behind, which were so faint that they could not go over the brook Besor.",
+      "web": "But David pursued, he and four hundred men; for two hundred stayed behind, who were so faint that they couldn’t go over the brook Besor.",
+      "ct": "David kept going with 400 men, but 200 were too exhausted to cross the brook Besor, so they stayed there."
+    },
+    {
+      "verse": 11,
+      "kjv": "And they found an Egyptian in the field, and brought him to David, and gave him bread, and he did eat; and they made him drink water;",
+      "web": "They found an Egyptian in the field, and brought him to David, and gave him bread, and he ate; and they gave him water to drink.",
+      "ct": "Out in the open field, they found an Egyptian man. They brought him to David and gave him bread to eat and water to drink."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they gave him a piece of a cake of figs, and two clusters of raisins: and when he had eaten, his spirit came again to him: for he had eaten no bread, nor drunk any water, three days and three nights.",
+      "web": "They gave him a piece of a cake of figs, and two clusters of raisins. When he had eaten, his spirit came again to him; for he had eaten no bread, and drank no water for three days and three nights.",
+      "ct": "They also gave him a piece of a fig cake and 2 clusters of raisins. After he ate, his strength returned — he hadn't eaten or had anything to drink for 3 days and 3 nights."
+    },
+    {
+      "verse": 13,
+      "kjv": "And David said unto him, To whom belongest thou? and whence art thou? And he said, I am a young man of Egypt, servant to an Amalekite; and my master left me, because three days agone I fell sick.",
+      "web": "David asked him, “To whom do you belong? Where are you from?” He said, “I am a young man of Egypt, servant to an Amalekite; and my master left me, because three days ago I got sick.",
+      "ct": "David asked him, \"Who do you belong to? Where are you from?\" The man said, \"I'm an Egyptian, a slave of an Amalekite. My master abandoned me 3 days ago when I got sick."
+    },
+    {
+      "verse": 14,
+      "kjv": "We made an invasion upon the south of the Cherethites, and upon the coast which belongeth to Judah, and upon the south of Caleb; and we burned Ziklag with fire.",
+      "web": "We made a raid on the South of the Cherethites, and on that which belongs to Judah, and on the South of Caleb; and we burned Ziklag with fire.”",
+      "ct": "We raided the Negev of the Cherethites, the territory belonging to Judah, and the Negev of Caleb. We also burned Ziklag to the ground.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And David said to him, Canst thou bring me down to this company? And he said, Swear unto me by God, that thou wilt neither kill me, nor deliver me into the hands of my master, and I will bring thee down to this company.",
+      "web": "David said to him, “Will you bring me down to this troop?” He said, “Swear to me by God that you will not kill me and not deliver me up into the hands of my master, and I will bring you down to this troop.”",
+      "ct": "David asked him, \"Can you lead me to this raiding party?\" He replied, \"Swear to me by God that you won't kill me or hand me back to my master, and I'll take you right to them.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And when he had brought him down, behold, they were spread abroad upon all the earth, eating and drinking, and dancing, because of all the great spoil that they had taken out of the land of the Philistines, and out of the land of Judah.",
+      "web": "When he had brought him down, behold, they were spread around over all the ground, eating, drinking, and dancing, because of all the great plunder that they had taken out of the land of the Philistines, and out of the land of Judah.",
+      "ct": "He led them down, and there were the Amalekites — scattered across the countryside, eating, drinking, and celebrating over the massive plunder they had taken from Philistine and Judean territory."
+    },
+    {
+      "verse": 17,
+      "kjv": "And David smote them from the twilight even unto the evening of the next day: and there escaped not a man of them, save four hundred young men, which rode upon camels, and fled.",
+      "web": "David struck them from the twilight even to the evening of the next day. Not a man of them escaped from there, except four hundred young men, who rode on camels and fled.",
+      "ct": "David attacked them from twilight until the evening of the next day. Not one of them escaped except 400 young men who jumped on camels and fled."
+    },
+    {
+      "verse": 18,
+      "kjv": "And David recovered all that the Amalekites had carried away: and David rescued his two wives.",
+      "web": "David recovered all that the Amalekites had taken, and David rescued his two wives.",
+      "ct": "David recovered everything the Amalekites had taken, and he rescued his 2 wives."
+    },
+    {
+      "verse": 19,
+      "kjv": "And there was nothing lacking to them, neither small nor great, neither sons nor daughters, neither spoil, nor any thing that they had taken to them: David recovered all.",
+      "web": "There was nothing lacking to them, neither small nor great, neither sons nor daughters, neither plunder, nor anything that they had taken to them. David brought back all.",
+      "ct": "Nothing was missing — not a single person, young or old, not a son or daughter, and none of the plunder or anything else that had been taken. David brought back every bit of it."
+    },
+    {
+      "verse": 20,
+      "kjv": "And David took all the flocks and the herds, which they drave before those other cattle, and said, This is David’s spoil.",
+      "web": "David took all the flocks and the herds, which they drove before those other livestock, and said, “This is David’s plunder.”",
+      "ct": "David also seized all the Amalekites' flocks and herds, which his men drove ahead of the other livestock, saying, \"This is David's plunder.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And David came to the two hundred men, which were so faint that they could not follow David, whom they had made also to abide at the brook Besor: and they went forth to meet David, and to meet the people that were with him: and when David came near to the people, he saluted them.",
+      "web": "David came to the two hundred men, who were so faint that they could not follow David, whom also they had made to stay at the brook Besor; and they went out to meet David, and to meet the people who were with him. When David came near to the people, he greeted them.",
+      "ct": "When David returned to the 200 men who had been too exhausted to follow and had stayed behind at the brook Besor, they came out to meet David and his men. As David approached, he greeted them warmly."
+    },
+    {
+      "verse": 22,
+      "kjv": "Then answered all the wicked men and men of Belial, of those that went with David, and said, Because they went not with us, we will not give them ought of the spoil that we have recovered, save to every man his wife and his children, that they may lead them away, and depart.",
+      "web": "Then all the wicked men and worthless fellows, of those who went with David, answered and said, “Because they didn’t go with us, we will not give them anything of the plunder that we have recovered, except to every man his wife and his children, that he may lead them away, and depart.”",
+      "ct": "But some troublemakers and worthless men among those who had fought with David spoke up and said, \"Since these men didn't come with us, we won't share any of the plunder with them. Let each man just take his wife and children and go.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Then said David, Ye shall not do so, my brethren, with that which the LORD hath given us, who hath preserved us, and delivered the company that came against us into our hand.",
+      "web": "Then David said, “Do not do so, my brothers, with that which LORD has given to us, who has preserved us, and delivered the troop that came against us into our hand.",
+      "ct": "But David said, \"No, my brothers — you can't do that with what the LORD has given us. He protected us and handed over the raiding party that attacked us."
+    },
+    {
+      "verse": 24,
+      "kjv": "For who will hearken unto you in this matter? but as his part is that goeth down to the battle, so shall his part be that tarrieth by the stuff: they shall part alike.",
+      "web": "Who will listen to you in this matter? For as his share is who goes down to the battle, so shall his share be who stays with the baggage. They shall share alike.”",
+      "ct": "Nobody is going to agree with you on this. The men who went into battle and the men who stayed with the supplies will share equally. Everyone gets the same portion.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And it was so from that day forward, that he made it a statute and an ordinance for Israel unto this day.",
+      "web": "It was so from that day forward, that he made it a statute and an ordinance for Israel to this day.",
+      "ct": "From that day on, David made this an official rule and law for Israel, and it has remained so ever since."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when David came to Ziklag, he sent of the spoil unto the elders of Judah, even to his friends, saying, Behold a present for you of the spoil of the enemies of the LORD;",
+      "web": "When David came to Ziklag, he sent some of the plunder to the elders of Judah, even to his friends, saying, “Behold, a present for you from the plunder of LORD’s enemies.”",
+      "ct": "When David got back to Ziklag, he sent portions of the plunder to the elders of Judah — his friends — with a message: \"Here is a gift for you from the plunder of the LORD's enemies.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "To them which were in Bethel, and to them which were in south Ramoth, and to them which were in Jattir,",
+      "web": "He sent it to those who were in Bethel, to those who were in Ramoth of the South, to those who were in Jattir,",
+      "ct": "He sent gifts to those in Bethel, those in Ramoth of the Negev, and those in Jattir,"
+    },
+    {
+      "verse": 28,
+      "kjv": "And to them which were in Aroer, and to them which were in Siphmoth, and to them which were in Eshtemoa,",
+      "web": "to those who were in Aroer, to those who were in Siphmoth, to those who were in Eshtemoa,",
+      "ct": "to those in Aroer, those in Siphmoth, and those in Eshtemoa,"
+    },
+    {
+      "verse": 29,
+      "kjv": "And to them which were in Rachal, and to them which were in the cities of the Jerahmeelites, and to them which were in the cities of the Kenites,",
+      "web": "to those who were in Racal, to those who were in the cities of the Jerahmeelites, to those who were in the cities of the Kenites,",
+      "ct": "to those in Rachal, those in the towns of the Jerahmeelites, and those in the towns of the Kenites,"
+    },
+    {
+      "verse": 30,
+      "kjv": "And to them which were in Hormah, and to them which were in Chorashan, and to them which were in Athach,",
+      "web": "to those who were in Hormah, to those who were in Borashan, to those who were in Athach,",
+      "ct": "to those in Hormah, those in Chorashan, and those in Athach,"
+    },
+    {
+      "verse": 31,
+      "kjv": "And to them which were in Hebron, and to all the places where David himself and his men were wont to haunt.",
+      "web": "to those who were in Hebron, and to all the places where David himself and his men used to stay.",
+      "ct": "and to those in Hebron — and to every other place where David and his men had spent time."
+    }
+  ]
+}

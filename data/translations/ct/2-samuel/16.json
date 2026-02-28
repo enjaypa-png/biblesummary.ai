@@ -1,0 +1,149 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 16,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:56:08.392Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And when David was a little past the top of the hill, behold, Ziba the servant of Mephibosheth met him, with a couple of asses saddled, and upon them two hundred loaves of bread, and an hundred bunches of raisins, and an hundred of summer fruits, and a bottle of wine.",
+      "web": "When David was a little past the top, behold, Ziba the servant of Mephibosheth met him with a couple of donkeys saddled, and on them two hundred loaves of bread, and one hundred clusters of raisins, and one hundred summer fruits, and a container of wine.",
+      "ct": "When David had just passed the summit of the hill, Ziba — the servant of Mephibosheth — came to meet him with 2 saddled donkeys loaded with 200 loaves of bread, 100 clusters of raisins, 100 pieces of summer fruit, and a container of wine."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the king said unto Ziba, What meanest thou by these? And Ziba said, The asses be for the king’s household to ride on; and the bread and summer fruit for the young men to eat; and the wine, that such as be faint in the wilderness may drink.",
+      "web": "The king said to Ziba, “What do you mean by these?” Ziba said, “The donkeys are for the king’s household to ride on; and the bread and summer fruit for the young men to eat; and the wine, that those who are faint in the wilderness may drink.”",
+      "ct": "The king asked Ziba, \"What's all this for?\" Ziba answered, \"The donkeys are for the king's household to ride. The bread and fruit are for the young men to eat, and the wine is for anyone who gets exhausted in the wilderness.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And the king said, And where is thy master’s son? And Ziba said unto the king, Behold, he abideth at Jerusalem: for he said, To day shall the house of Israel restore me the kingdom of my father.",
+      "web": "The king said, “Where is your master’s son?” Ziba said to the king, “Behold, he is staying in Jerusalem; for he said, ‘Today the house of Israel will restore me the kingdom of my father.’ ”",
+      "ct": "The king asked, \"And where is your master's grandson?\" Ziba told the king, \"He stayed behind in Jerusalem. He said, 'Today the house of Israel will give me back my grandfather's kingdom.'\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said the king to Ziba, Behold, thine are all that pertained unto Mephibosheth. And Ziba said, I humbly beseech thee that I may find grace in thy sight, my lord, O king.",
+      "web": "Then the king said to Ziba, “Behold, all that belongs to Mephibosheth is yours.” Ziba said, “I bow down. Let me find favor in your sight, my lord, O king.”",
+      "ct": "The king said to Ziba, \"Then everything that belonged to Mephibosheth is now yours.\" Ziba bowed and said, \"I only hope to find favor with you, my lord the king.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And when king David came to Bahurim, behold, thence came out a man of the family of the house of Saul, whose name was Shimei, the son of Gera: he came forth, and cursed still as he came.",
+      "web": "When king David came to Bahurim, behold, a man of the family of Saul’s house came out, whose name was Shimei, the son of Gera. He came out and cursed as he came.",
+      "ct": "When King David reached Bahurim, a man from Saul's family came out to meet him — his name was Shimei son of Gera. He came out cursing nonstop as he walked."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he cast stones at David, and at all the servants of king David: and all the people and all the mighty men were on his right hand and on his left.",
+      "web": "He cast stones at David, and at all the servants of king David, and all the people and all the mighty men were on his right hand and on his left.",
+      "ct": "He threw stones at David and all his officials, even though David's soldiers and warriors surrounded him on every side."
+    },
+    {
+      "verse": 7,
+      "kjv": "And thus said Shimei when he cursed, Come out, come out, thou bloody man, and thou man of Belial:",
+      "web": "Shimei said when he cursed, “Be gone, be gone, you man of blood, and wicked fellow!",
+      "ct": "Shimei shouted as he cursed, \"Get out! Get out, you murderer! You worthless man!"
+    },
+    {
+      "verse": 8,
+      "kjv": "The LORD hath returned upon thee all the blood of the house of Saul, in whose stead thou hast reigned; and the LORD hath delivered the kingdom into the hand of Absalom thy son: and, behold, thou art taken in thy mischief, because thou art a bloody man.",
+      "web": "LORD has returned on you all the blood of Saul’s house, in whose place you have reigned! LORD has delivered the kingdom into the hand of Absalom your son! Behold, you are caught by your own mischief, because you are a man of blood!”",
+      "ct": "The LORD has paid you back for all the blood you spilled from Saul's family — the throne you stole from them! The LORD has handed the kingdom over to your son Absalom! Now look at you — caught in your own disaster, because you're a man of blood!\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Then said Abishai the son of Zeruiah unto the king, Why should this dead dog curse my lord the king? let me go over, I pray thee, and take off his head.",
+      "web": "Then Abishai the son of Zeruiah said to the king, “Why should this dead dog curse my lord the king? Please let me go over and take off his head.”",
+      "ct": "Abishai son of Zeruiah said to the king, \"Why should this dead dog curse my lord the king? Let me go over there and cut off his head.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the king said, What have I to do with you, ye sons of Zeruiah? so let him curse, because the LORD hath said unto him, Curse David. Who shall then say, Wherefore hast thou done so?",
+      "web": "The king said, “What have I to do with you, you sons of Zeruiah? Because he curses, and because LORD has said to him, ‘Curse David;’ who then shall say, ‘Why have you done so?’ ”",
+      "ct": "But the king replied, \"This is none of your business, sons of Zeruiah. Let him curse. If the LORD told him, 'Curse David,' then who has the right to question it?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And David said to Abishai, and to all his servants, Behold, my son, which came forth of my bowels, seeketh my life: how much more now may this Benjamite do it? let him alone, and let him curse; for the LORD hath bidden him.",
+      "web": "David said to Abishai, and to all his servants, “Behold, my son, who came out of my bowels, seeks my life. How much more this Benjamite, now? Leave him alone, and let him curse; for LORD has invited him.",
+      "ct": "David said to Abishai and all his officials, \"Look — my own son, my own flesh and blood, is trying to kill me. How much more reason does this Benjamite have? Leave him alone and let him curse, because the LORD has told him to.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "It may be that the LORD will look on mine affliction, and that the LORD will requite me good for his cursing this day.",
+      "web": "It may be that LORD will look on the wrong done to me, and that LORD will repay me good for the cursing of me today.”",
+      "ct": "\"Maybe the LORD will see my suffering and repay me with something good in return for the cursing I'm receiving today.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And as David and his men went by the way, Shimei went along on the hill’s side over against him, and cursed as he went, and threw stones at him, and cast dust.",
+      "web": "So David and his men went by the way; and Shimei went along on the hillside opposite him, and cursed as he went, threw stones at him, and threw dust.",
+      "ct": "So David and his men continued down the road while Shimei walked along the hillside across from them, cursing as he went, throwing stones and kicking up dust at them."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the king, and all the people that were with him, came weary, and refreshed themselves there.",
+      "web": "The king, and all the people who were with him, came weary; and he refreshed himself there.",
+      "ct": "The king and everyone with him arrived exhausted at their destination, and they rested there."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Absalom, and all the people the men of Israel, came to Jerusalem, and Ahithophel with him.",
+      "web": "Absalom and all the people, the men of Israel, came to Jerusalem, and Ahithophel with him.",
+      "ct": "Meanwhile, Absalom and all the men of Israel arrived in Jerusalem, with Ahithophel at his side."
+    },
+    {
+      "verse": 16,
+      "kjv": "And it came to pass, when Hushai the Archite, David’s friend, was come unto Absalom, that Hushai said unto Absalom, God save the king, God save the king.",
+      "web": "When Hushai the Archite, David’s friend, had come to Absalom, Hushai said to Absalom, “Long live the king! Long live the king!”",
+      "ct": "When Hushai the Archite — David's trusted friend — came to Absalom, he called out, \"Long live the king! Long live the king!\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And Absalom said to Hushai, Is this thy kindness to thy friend? why wentest thou not with thy friend?",
+      "web": "Absalom said to Hushai, “Is this your kindness to your friend? Why didn’t you go with your friend?”",
+      "ct": "Absalom said to Hushai, \"Is this how you show loyalty to your friend? Why didn't you go with him?\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And Hushai said unto Absalom, Nay; but whom the LORD, and this people, and all the men of Israel, choose, his will I be, and with him will I abide.",
+      "web": "Hushai said to Absalom, “No; but whomever LORD, and this people, and all the men of Israel have chosen, I will be his, and I will stay with him.",
+      "ct": "Hushai answered Absalom, \"No — whoever the LORD, this people, and all the men of Israel have chosen, that's who I'll serve. I'll stay with him."
+    },
+    {
+      "verse": 19,
+      "kjv": "And again, whom should I serve? should I not serve in the presence of his son? as I have served in thy father’s presence, so will I be in thy presence.",
+      "web": "Again, whom should I serve? Shouldn’t I serve in the presence of his son? As I have served in your father’s presence, so I will be in your presence.”",
+      "ct": "Besides, who should I serve if not the son? Just as I served your father, so I will serve you.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Then said Absalom to Ahithophel, Give counsel among you what we shall do.",
+      "web": "Then Absalom said to Ahithophel, “Give your counsel what we shall do.”",
+      "ct": "Then Absalom turned to Ahithophel and said, \"Advise us — what should we do?\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Ahithophel said unto Absalom, Go in unto thy father’s concubines, which he hath left to keep the house; and all Israel shall hear that thou art abhorred of thy father: then shall the hands of all that are with thee be strong.",
+      "web": "Ahithophel said to Absalom, “Go in to your father’s concubines that he has left to keep the house. Then all Israel will hear that you are abhorred by your father. Then the hands of all who are with you will be strong.”",
+      "ct": "Ahithophel told Absalom, \"Sleep with your father's concubines — the ones he left behind to take care of the palace. When all Israel hears that you've made yourself an enemy of your father, everyone who supports you will be emboldened.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "So they spread Absalom a tent upon the top of the house; and Absalom went in unto his father’s concubines in the sight of all Israel.",
+      "web": "So they spread a tent for Absalom on the top of the house, and Absalom went in to his father’s concubines in the sight of all Israel.",
+      "ct": "So they set up a tent for Absalom on the palace roof, and Absalom slept with his father's concubines in full view of all Israel."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the counsel of Ahithophel, which he counselled in those days, was as if a man had enquired at the oracle of God: so was all the counsel of Ahithophel both with David and with Absalom.",
+      "web": "The counsel of Ahithophel, which he gave in those days, was as if a man inquired at the inner sanctuary of God. All the counsel of Ahithophel both was like this with David and with Absalom.",
+      "ct": "In those days, the advice Ahithophel gave was treated as though it came straight from God himself. That's how highly both David and Absalom regarded every word of his counsel."
+    }
+  ]
+}

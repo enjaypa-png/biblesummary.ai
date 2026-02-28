@@ -1,0 +1,149 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 6,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:52:05.767Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Again, David gathered together all the chosen men of Israel, thirty thousand.",
+      "web": "David again gathered together all the chosen men of Israel, thirty thousand.",
+      "ct": "David assembled 30,000 of Israel's finest soldiers."
+    },
+    {
+      "verse": 2,
+      "kjv": "And David arose, and went with all the people that were with him from Baale of Judah, to bring up from thence the ark of God, whose name is called by the name of the LORD of hosts that dwelleth between the cherubims.",
+      "web": "David arose, and went with all the people who were with him, from Baale Judah, to bring up from there God’s ark, which is called by the Name, even the name of LORD of Armies who sits above the cherubim.",
+      "ct": "Then David and all his men set out from Baale of Judah to bring back the ark of God — the ark that bears the name of the LORD of hosts, who is enthroned between the cherubim."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they set the ark of God upon a new cart, and brought it out of the house of Abinadab that was in Gibeah: and Uzzah and Ahio, the sons of Abinadab, drave the new cart.",
+      "web": "They set God’s ark on a new cart, and brought it out of Abinadab’s house that was on the hill; and Uzzah and Ahio, the sons of Abinadab, drove the new cart.",
+      "ct": "They loaded God's ark onto a new cart and brought it out of Abinadab's house on the hill. Abinadab's sons, Uzzah and Ahio, drove the new cart."
+    },
+    {
+      "verse": 4,
+      "kjv": "And they brought it out of the house of Abinadab which was at Gibeah, accompanying the ark of God: and Ahio went before the ark.",
+      "web": "They brought it out of Abinadab’s house, which was in the hill, with God’s ark; and Ahio went before the ark.",
+      "ct": "They brought it out from Abinadab's house on the hill, walking alongside God's ark, with Ahio going ahead of it."
+    },
+    {
+      "verse": 5,
+      "kjv": "And David and all the house of Israel played before the LORD on all manner of instruments made of fir wood, even on harps, and on psalteries, and on timbrels, and on cornets, and on cymbals.",
+      "web": "David and all the house of Israel played before LORD with all kinds of instruments made of cypress wood, with harps, with stringed instruments, with tambourines, with castanets, and with cymbals.",
+      "ct": "David and all the people of Israel celebrated before the LORD with everything they had — playing instruments made of cypress wood, along with harps, lyres, tambourines, rattles, and cymbals."
+    },
+    {
+      "verse": 6,
+      "kjv": "And when they came to Nachon’s threshingfloor, Uzzah put forth his hand to the ark of God, and took hold of it; for the oxen shook it.",
+      "web": "When they came to the threshing floor of Nacon, Uzzah reached for God’s ark, and took hold of it; for the cattle stumbled.",
+      "ct": "When they reached the threshing floor of Nachon, the oxen stumbled, and Uzzah reached out and grabbed hold of God's ark to steady it."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the anger of the LORD was kindled against Uzzah; and God smote him there for his error; and there he died by the ark of God.",
+      "web": "LORD’s anger burned against Uzzah; and God struck him there for his error; and he died there by God’s ark.",
+      "ct": "The LORD's anger burned against Uzzah, and God struck him down right there for his error. He died beside the ark of God."
+    },
+    {
+      "verse": 8,
+      "kjv": "And David was displeased, because the LORD had made a breach upon Uzzah: and he called the name of the place Perezuzzah to this day.",
+      "web": "David was displeased, because LORD had broken out against Uzzah; and he called that place Perez Uzzah, to this day.",
+      "ct": "David was upset that the LORD had struck Uzzah down, and he named that place Perezuzzah — a name it still carries today."
+    },
+    {
+      "verse": 9,
+      "kjv": "And David was afraid of the LORD that day, and said, How shall the ark of the LORD come to me?",
+      "web": "David was afraid of LORD that day; and he said, “How could LORD’s ark come to me?”",
+      "ct": "David was afraid of the LORD that day and said, \"How can I possibly bring the ark of the LORD to me?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "So David would not remove the ark of the LORD unto him into the city of David: but David carried it aside into the house of Obededom the Gittite.",
+      "web": "So David would not move LORD’s ark to be with him in David’s city; but David carried it aside into Obed-Edom the Gittite’s house.",
+      "ct": "So David decided not to bring the LORD's ark into the city of David. Instead, he had it taken to the house of Obededom the Gittite."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the ark of the LORD continued in the house of Obededom the Gittite three months: and the LORD blessed Obededom, and all his household.",
+      "web": "LORD’s ark remained in Obed-Edom the Gittite’s house three months; and LORD blessed Obed-Edom and all his house.",
+      "ct": "The ark of the LORD stayed at Obededom the Gittite's house for 3 months, and the LORD blessed Obededom and his entire household."
+    },
+    {
+      "verse": 12,
+      "kjv": "And it was told king David, saying, The LORD hath blessed the house of Obededom, and all that pertaineth unto him, because of the ark of God. So David went and brought up the ark of God from the house of Obededom into the city of David with gladness.",
+      "web": "King David was told, “LORD has blessed the house of Obed-Edom, and all that belongs to him, because of God’s ark.” So David went and brought up God’s ark from the house of Obed-Edom into David’s city with joy.",
+      "ct": "When David heard that the LORD had blessed Obededom's household and everything he owned because of God's ark, he went and brought the ark of God up from Obededom's house into the city of David with great celebration."
+    },
+    {
+      "verse": 13,
+      "kjv": "And it was so, that when they that bare the ark of the LORD had gone six paces, he sacrificed oxen and fatlings.",
+      "web": "When those who bore LORD’s ark had gone six paces, he sacrificed an ox and a fattened calf.",
+      "ct": "After the men carrying the LORD's ark had taken 6 steps, David sacrificed an ox and a fattened calf."
+    },
+    {
+      "verse": 14,
+      "kjv": "And David danced before the LORD with all his might; and David was girded with a linen ephod.",
+      "web": "David danced before LORD with all his might; and David was clothed in a linen ephod.",
+      "ct": "David danced before the LORD with all his might, wearing a linen ephod."
+    },
+    {
+      "verse": 15,
+      "kjv": "So David and all the house of Israel brought up the ark of the LORD with shouting, and with the sound of the trumpet.",
+      "web": "So David and all the house of Israel brought up LORD’s ark with shouting, and with the sound of the trumpet.",
+      "ct": "David and all the people of Israel brought the ark of the LORD into the city with shouts of joy and the blast of trumpets."
+    },
+    {
+      "verse": 16,
+      "kjv": "And as the ark of the LORD came into the city of David, Michal Saul’s daughter looked through a window, and saw king David leaping and dancing before the LORD; and she despised him in her heart.",
+      "web": "As LORD’s ark came into David’s city, Michal the daughter of Saul looked out through the window, and saw king David leaping and dancing before LORD; and she despised him in her heart.",
+      "ct": "As the ark of the LORD entered the city of David, Michal — Saul's daughter — watched from a window. She saw King David leaping and dancing before the LORD, and she despised him in her heart."
+    },
+    {
+      "verse": 17,
+      "kjv": "And they brought in the ark of the LORD, and set it in his place, in the midst of the tabernacle that David had pitched for it: and David offered burnt offerings and peace offerings before the LORD.",
+      "web": "They brought in LORD’s ark, and set it in its place, in the middle of the tent that David had pitched for it; and David offered burnt offerings and peace offerings before LORD.",
+      "ct": "They brought the LORD's ark inside and placed it in the center of the tent David had set up for it. Then David offered burnt offerings and peace offerings before the LORD."
+    },
+    {
+      "verse": 18,
+      "kjv": "And as soon as David had made an end of offering burnt offerings and peace offerings, he blessed the people in the name of the LORD of hosts.",
+      "web": "When David had finished offering the burnt offering and the peace offerings, he blessed the people in the name of LORD of Armies.",
+      "ct": "When David had finished presenting the burnt offerings and peace offerings, he blessed the people in the name of the LORD of hosts."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he dealt among all the people, even among the whole multitude of Israel, as well to the women as men, to every one a cake of bread, and a good piece of flesh, and a flagon of wine. So all the people departed every one to his house.",
+      "web": "He gave to all the people, even among the whole multitude of Israel, both to men and women, to everyone a portion of bread, dates, and raisins. So all the people departed, each to his own house.",
+      "ct": "He gave every person in the crowd — men and women alike — a loaf of bread, a portion of meat, and a cake of raisins. Then everyone went home."
+    },
+    {
+      "verse": 20,
+      "kjv": "Then David returned to bless his household. And Michal the daughter of Saul came out to meet David, and said, How glorious was the king of Israel to day, who uncovered himself to day in the eyes of the handmaids of his servants, as one of the vain fellows shamelessly uncovereth himself!",
+      "web": "Then David returned to bless his household. Michal the daughter of Saul came out to meet David, and said, “How glorious the king of Israel was today, who uncovered himself today in the eyes of his servants’ maids, as one of the vain fellows shamelessly uncovers himself!”",
+      "ct": "David went home to bless his own household, but Michal, Saul's daughter, came out to meet him. \"What a glorious display the king of Israel put on today!\" she said with contempt. \"Stripping down in front of your servants' slave girls like some shameless fool!\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And David said unto Michal, It was before the LORD, which chose me before thy father, and before all his house, to appoint me ruler over the people of the LORD, over Israel: therefore will I play before the LORD.",
+      "web": "David said to Michal, “It was before LORD, who chose me above your father, and above all his house, to appoint me prince over the people of LORD, over Israel. Therefore I will celebrate before LORD.",
+      "ct": "David fired back at Michal, \"I was dancing before the LORD — the one who chose me over your father and his entire family to be ruler over the LORD's people Israel. I will celebrate before the LORD."
+    },
+    {
+      "verse": 22,
+      "kjv": "And I will yet be more vile than thus, and will be base in mine own sight: and of the maidservants which thou hast spoken of, of them shall I be had in honour.",
+      "web": "I will be yet more vile than this, and will be worthless in my own sight. But the maids of whom you have spoken will honor me.”",
+      "ct": "I'll humble myself even more than this. I may look foolish in my own eyes, but those servant girls you mentioned — they will honor me.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Therefore Michal the daughter of Saul had no child unto the day of her death.",
+      "web": "Michal the daughter of Saul had no child to the day of her death.",
+      "ct": "Michal, Saul's daughter, never had a child for the rest of her life."
+    }
+  ]
+}

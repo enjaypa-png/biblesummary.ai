@@ -1,0 +1,209 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 14,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:55:14.277Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now Joab the son of Zeruiah perceived that the king’s heart was toward Absalom.",
+      "web": "Now Joab the son of Zeruiah perceived that the king’s heart was toward Absalom.",
+      "ct": "Joab son of Zeruiah could tell that the king's heart longed for Absalom."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Joab sent to Tekoah, and fetched thence a wise woman, and said unto her, I pray thee, feign thyself to be a mourner, and put on now mourning apparel, and anoint not thyself with oil, but be as a woman that had a long time mourned for the dead:",
+      "web": "Joab sent to Tekoa, and brought a wise woman from there, and said to her, “Please act like a mourner, and put on mourning clothing, please, and don’t anoint yourself with oil, but be as a woman who has mourned a long time for the dead.",
+      "ct": "So Joab sent messengers to Tekoa and brought back a wise woman. He told her, \"I need you to pretend you're in mourning. Put on funeral clothes, don't use any perfumed oil, and act like a woman who has been grieving over a death for a long time.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And come to the king, and speak on this manner unto him. So Joab put the words in her mouth.",
+      "web": "Go in to the king, and speak like this to him.” So Joab put the words in her mouth.",
+      "ct": "\"Then go to the king and say exactly what I tell you.\" Joab then coached her on every word to say."
+    },
+    {
+      "verse": 4,
+      "kjv": "And when the woman of Tekoah spake to the king, she fell on her face to the ground, and did obeisance, and said, Help, O king.",
+      "web": "When the woman of Tekoa spoke to the king, she fell on her face to the ground, showed respect, and said, “Help, O king!”",
+      "ct": "When the woman from Tekoa came before the king, she fell facedown on the ground and bowed low. \"Help me, my king!\" she cried."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the king said unto her, What aileth thee? And she answered, I am indeed a widow woman, and mine husband is dead.",
+      "web": "The king said to her, “What ails you?” She answered, “Truly I am a widow, and my husband is dead.",
+      "ct": "The king asked her, \"What's wrong?\" She answered, \"I'm a widow. My husband is dead.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And thy handmaid had two sons, and they two strove together in the field, and there was none to part them, but the one smote the other, and slew him.",
+      "web": "Your servant had two sons, and they both fought together in the field, and there was no one to part them, but the one struck the other, and killed him.",
+      "ct": "\"I had 2 sons, and they got into a fight out in the field. There was nobody around to break it up, and one of them struck the other and killed him.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And, behold, the whole family is risen against thine handmaid, and they said, Deliver him that smote his brother, that we may kill him, for the life of his brother whom he slew; and we will destroy the heir also: and so they shall quench my coal which is left, and shall not leave to my husband neither name nor remainder upon the earth.",
+      "web": "Behold, the whole family has risen against your servant, and they say, ‘Deliver him who struck his brother, that we may kill him for the life of his brother whom he killed, and so destroy the heir also.’ Thus they would quench my coal which is left, and would leave to my husband neither name nor remainder on the surface of the earth.”",
+      "ct": "\"Now the whole family has turned against me. They're demanding, 'Hand over the son who killed his brother so we can execute him for what he did.' But if they do that, they'll wipe out my only remaining heir. They'll snuff out the last ember I have left and leave my husband with no name and no descendants on the earth.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the king said unto the woman, Go to thine house, and I will give charge concerning thee.",
+      "web": "The king said to the woman, “Go to your house, and I will give a command concerning you.”",
+      "ct": "The king told the woman, \"Go home. I'll issue an order on your behalf.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the woman of Tekoah said unto the king, My lord, O king, the iniquity be on me, and on my father’s house: and the king and his throne be guiltless.",
+      "web": "The woman of Tekoa said to the king, “My lord, O king, may the iniquity be on me, and on my father’s house; and may the king and his throne be guiltless.”",
+      "ct": "But the woman from Tekoa said to the king, \"My lord the king, let any blame fall on me and my father's family. Let the king and his throne be free of guilt.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the king said, Whosoever saith ought unto thee, bring him to me, and he shall not touch thee any more.",
+      "web": "The king said, “Whoever says anything to you, bring him to me, and he will not bother you any more.”",
+      "ct": "The king replied, \"If anyone gives you trouble about this, bring him to me, and he won't bother you again.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Then said she, I pray thee, let the king remember the LORD thy God, that thou wouldest not suffer the revengers of blood to destroy any more, lest they destroy my son. And he said, As the LORD liveth, there shall not one hair of thy son fall to the earth.",
+      "web": "Then she said, “Please let the king remember LORD your God, that the avenger of blood destroy not any more, lest they destroy my son.” He said, “As LORD lives, not one hair of your son shall fall to the earth.”",
+      "ct": "Then she said, \"Please, let the king swear by the LORD your God that you won't let the avengers of blood keep killing, so they don't destroy my son.\" He answered, \"As surely as the LORD lives, not a single hair of your son's head will fall to the ground.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then the woman said, Let thine handmaid, I pray thee, speak one word unto my lord the king. And he said, Say on.",
+      "web": "Then the woman said, “Please let your servant speak a word to my lord the king.” He said, “Say on.”",
+      "ct": "The woman said, \"Please let me say one more thing to my lord the king.\" He replied, \"Go ahead.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And the woman said, Wherefore then hast thou thought such a thing against the people of God? for the king doth speak this thing as one which is faulty, in that the king doth not fetch home again his banished.",
+      "web": "The woman said, “Why then have you devised such a thing against the people of God? For in speaking this word the king is as one who is guilty, in that the king does not bring home again his banished one.",
+      "ct": "The woman said, \"Then why have you done the same kind of thing against God's people? By making this ruling, the king convicts himself — because you haven't brought your own banished son back home.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "For we must needs die, and are as water spilt on the ground, which cannot be gathered up again; neither doth God respect any person: yet doth he devise means, that his banished be not expelled from him.",
+      "web": "For we must die, and are like water spilled on the ground, which can’t be gathered up again; neither does God take away life, but devises means, that he who is banished not be an outcast from him.",
+      "ct": "\"We all have to die eventually. We're like water poured out on the ground — it can never be scooped back up. But God doesn't just sweep life away. Instead, he finds ways to bring the outcast back to himself.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Now therefore that I am come to speak of this thing unto my lord the king, it is because the people have made me afraid: and thy handmaid said, I will now speak unto the king; it may be that the king will perform the request of his handmaid.",
+      "web": "Now therefore seeing that I have come to speak this word to my lord the king, it is because the people have made me afraid. Your servant said, ‘I will now speak to the king; it may be that the king will perform the request of his servant.’",
+      "ct": "\"The reason I came to say all this to my lord the king is that people had frightened me. I thought, 'I'll speak to the king — maybe he'll grant what I ask.'\""
+    },
+    {
+      "verse": 16,
+      "kjv": "For the king will hear, to deliver his handmaid out of the hand of the man that would destroy me and my son together out of the inheritance of God.",
+      "web": "For the king will hear, to deliver his servant out of the hand of the man who would destroy me and my son together out of the inheritance of God.",
+      "ct": "\"I believed the king would listen and rescue me from the man who wants to cut off both me and my son from God's inheritance.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Then thine handmaid said, The word of my lord the king shall now be comfortable: for as an angel of God, so is my lord the king to discern good and bad: therefore the LORD thy God will be with thee.",
+      "web": "Then your servant said, ‘Please let the word of my lord the king bring rest; for as an angel of God, so is my lord the king to discern good and bad. May LORD, your God, be with you.’ ”",
+      "ct": "\"I also thought, 'The word of my lord the king will bring me peace.' Because my lord the king is like an angel of God — able to tell right from wrong. May the LORD your God be with you.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then the king answered and said unto the woman, Hide not from me, I pray thee, the thing that I shall ask thee. And the woman said, Let my lord the king now speak.",
+      "web": "Then the king answered the woman, “Please don’t hide anything from me that I ask you.” The woman said, “Let my lord the king now speak.”",
+      "ct": "Then the king said to the woman, \"Don't hide anything from me when I ask you this.\" She replied, \"Go ahead, my lord the king.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And the king said, Is not the hand of Joab with thee in all this? And the woman answered and said, As thy soul liveth, my lord the king, none can turn to the right hand or to the left from ought that my lord the king hath spoken: for thy servant Joab, he bade me, and he put all these words in the mouth of thine handmaid:",
+      "web": "The king said, “Is the hand of Joab with you in all this?” The woman answered, “As your soul lives, my lord the king, no one can turn to the right hand or to the left from anything that my lord the king has spoken; for your servant Joab urged me, and he put all these words in the mouth of your servant.",
+      "ct": "The king asked, \"Did Joab put you up to all of this?\" The woman answered, \"As surely as you live, my lord the king, there's no getting around what you've said. Yes — your servant Joab is the one who arranged this. He put every one of these words in my mouth.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "To fetch about this form of speech hath thy servant Joab done this thing: and my lord is wise, according to the wisdom of an angel of God, to know all things that are in the earth.",
+      "web": "Your servant Joab has done this thing to change the face of the matter. My lord is wise, according to the wisdom of an angel of God, to know all things that are in the earth.”",
+      "ct": "\"He did it to present the situation in a different light. But my lord has wisdom like the wisdom of an angel of God — you see everything that happens in the land.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And the king said unto Joab, Behold now, I have done this thing: go therefore, bring the young man Absalom again.",
+      "web": "The king said to Joab, “Behold now, I have done this thing. Go therefore, and bring the young man Absalom back.”",
+      "ct": "The king turned to Joab and said, \"All right, I've made my decision. Go and bring the young man Absalom back.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Joab fell to the ground on his face, and bowed himself, and thanked the king: and Joab said, To day thy servant knoweth that I have found grace in thy sight, my lord, O king, in that the king hath fulfilled the request of his servant.",
+      "web": "Joab fell to the ground on his face, showed respect, and blessed the king. Joab said, “Today your servant knows that I have found favor in your sight, my lord, king, in that the king has performed the request of his servant.”",
+      "ct": "Joab fell facedown on the ground, bowed low, and thanked the king. He said, \"Today I know I've found favor with you, my lord the king, because you've granted your servant's request.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "So Joab arose and went to Geshur, and brought Absalom to Jerusalem.",
+      "web": "So Joab arose and went to Geshur, and brought Absalom to Jerusalem.",
+      "ct": "So Joab set out for Geshur and brought Absalom back to Jerusalem."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the king said, Let him turn to his own house, and let him not see my face. So Absalom returned to his own house, and saw not the king’s face.",
+      "web": "The king said, “Let him return to his own house, but let him not see my face.” So Absalom returned to his own house, and didn’t see the king’s face.",
+      "ct": "But the king said, \"He can go to his own house, but he is not to come into my presence.\" So Absalom returned to his own house and did not see the king face to face."
+    },
+    {
+      "verse": 25,
+      "kjv": "But in all Israel there was none to be so much praised as Absalom for his beauty: from the sole of his foot even to the crown of his head there was no blemish in him.",
+      "web": "Now in all Israel there was no one to be so much praised as Absalom for his beauty. From the sole of his foot even to the crown of his head there was no defect in him.",
+      "ct": "Now in all of Israel, no one was as admired for his appearance as Absalom. From the soles of his feet to the top of his head, there wasn't a single flaw on him."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when he polled his head, (for it was at every year’s end that he polled it: because the hair was heavy on him, therefore he polled it:) he weighed the hair of his head at two hundred shekels after the king’s weight.",
+      "web": "When he cut the hair of his head (now it was at every year’s end that he cut it; because it was heavy on him, therefore he cut it); he weighed the hair of his head at two hundred shekels, after the king’s weight.",
+      "ct": "He would cut his hair once a year because it grew so heavy. When he cut it, the hair weighed 200 shekels by the royal standard."
+    },
+    {
+      "verse": 27,
+      "kjv": "And unto Absalom there were born three sons, and one daughter, whose name was Tamar: she was a woman of a fair countenance.",
+      "web": "Three sons were born to Absalom, and one daughter, whose name was Tamar. She was a woman with a beautiful face.",
+      "ct": "Absalom had 3 sons and 1 daughter. His daughter's name was Tamar, and she was a strikingly beautiful woman."
+    },
+    {
+      "verse": 28,
+      "kjv": "So Absalom dwelt two full years in Jerusalem, and saw not the king’s face.",
+      "web": "Absalom lived two full years in Jerusalem, and he didn’t see the king’s face.",
+      "ct": "Absalom lived in Jerusalem for 2 full years without ever seeing the king's face."
+    },
+    {
+      "verse": 29,
+      "kjv": "Therefore Absalom sent for Joab, to have sent him to the king; but he would not come to him: and when he sent again the second time, he would not come.",
+      "web": "Then Absalom sent for Joab, to send him to the king, but he would not come to him. Then he sent again a second time, but he would not come.",
+      "ct": "He sent for Joab, wanting him to go to the king on his behalf, but Joab refused to come. He sent a second time, and Joab still wouldn't come."
+    },
+    {
+      "verse": 30,
+      "kjv": "Therefore he said unto his servants, See, Joab’s field is near mine, and he hath barley there; go and set it on fire. And Absalom’s servants set the field on fire.",
+      "web": "Therefore he said to his servants, “Behold, Joab’s field is near mine, and he has barley there. Go and set it on fire.” So Absalom’s servants set the field on fire.",
+      "ct": "So Absalom told his servants, \"Look, Joab's barley field is right next to mine. Go set it on fire.\" And Absalom's servants set the field ablaze."
+    },
+    {
+      "verse": 31,
+      "kjv": "Then Joab arose, and came to Absalom unto his house, and said unto him, Wherefore have thy servants set my field on fire?",
+      "web": "Then Joab arose, and came to Absalom to his house, and said to him, “Why have your servants set my field on fire?”",
+      "ct": "That got Joab moving. He went straight to Absalom's house and demanded, \"Why did your servants set my field on fire?\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And Absalom answered Joab, Behold, I sent unto thee, saying, Come hither, that I may send thee to the king, to say, Wherefore am I come from Geshur? it had been good for me to have been there still: now therefore let me see the king’s face; and if there be any iniquity in me, let him kill me.",
+      "web": "Absalom answered Joab, “Behold, I sent to you, saying, ‘Come here, that I may send you to the king, to say, “Why have I come from Geshur? It would be better for me to be there still. Now therefore let me see the king’s face, and if there is iniquity in me, let him kill me.” ’ ”",
+      "ct": "Absalom answered, \"I sent for you twice, asking you to come so I could send you to the king with a message: 'Why did I bother coming back from Geshur? I'd be better off still living there. Let me see the king face to face — and if I'm guilty of something, let him execute me.'\""
+    },
+    {
+      "verse": 33,
+      "kjv": "So Joab came to the king, and told him: and when he had called for Absalom, he came to the king, and bowed himself on his face to the ground before the king: and the king kissed Absalom.",
+      "web": "So Joab came to the king, and told him; and when he had called for Absalom, he came to the king, and bowed himself on his face to the ground before the king; and the king kissed Absalom.",
+      "ct": "So Joab went to the king and delivered the message. The king summoned Absalom, and when he came, he bowed facedown to the ground before the king. Then the king kissed Absalom."
+    }
+  ]
+}

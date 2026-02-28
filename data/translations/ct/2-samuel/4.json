@@ -1,0 +1,83 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:51:27.262Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And when Saul’s son heard that Abner was dead in Hebron, his hands were feeble, and all the Israelites were troubled.",
+      "web": "When Saul’s son heard that Abner was dead in Hebron, his hands became feeble, and all the Israelites were troubled.",
+      "ct": "When Ishbosheth, Saul's son, heard that Abner had been killed in Hebron, he lost all courage. All of Israel was shaken by the news."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Saul’s son had two men that were captains of bands: the name of the one was Baanah, and the name of the other Rechab, the sons of Rimmon a Beerothite, of the children of Benjamin: (for Beeroth also was reckoned to Benjamin.",
+      "web": "Saul’s son had two men who were captains of raiding bands. The name of one was Baanah, and the name of the other Rechab, the sons of Rimmon the Beerothite, of the children of Benjamin (for Beeroth also is considered a part of Benjamin:",
+      "ct": "Ishbosheth had 2 men who served as captains of raiding parties — Baanah and Rechab, sons of Rimmon from Beeroth. They were Benjaminites, since Beeroth was considered part of Benjamin's territory."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the Beerothites fled to Gittaim, and were sojourners there until this day.)",
+      "web": "and the Beerothites fled to Gittaim, and have lived as foreigners there until today).",
+      "ct": "The people of Beeroth had fled to Gittaim, where they've lived as outsiders to this day."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Jonathan, Saul’s son, had a son that was lame of his feet. He was five years old when the tidings came of Saul and Jonathan out of Jezreel, and his nurse took him up, and fled: and it came to pass, as she made haste to flee, that he fell, and became lame. And his name was Mephibosheth.",
+      "web": "Now Jonathan, Saul’s son, had a son who was lame in his feet. He was five years old when the news came about Saul and Jonathan out of Jezreel; and his nurse picked him up and fled. As she hurried to flee, he fell and became lame. His name was Mephibosheth.",
+      "ct": "Now Saul's son Jonathan had a son named Mephibosheth who was crippled in both feet. He was 5 years old when the news of Saul and Jonathan's deaths arrived from Jezreel. His nurse grabbed him and ran, but in her rush to escape, she dropped him, and he became permanently lame."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the sons of Rimmon the Beerothite, Rechab and Baanah, went, and came about the heat of the day to the house of Ishbosheth, who lay on a bed at noon.",
+      "web": "The sons of Rimmon the Beerothite, Rechab and Baanah, went and came at about the heat of the day to the house of Ishbosheth, as he took his rest at noon.",
+      "ct": "Rechab and Baanah, the sons of Rimmon the Beerothite, went to Ishbosheth's house during the heat of the day, while he was lying down for his midday rest."
+    },
+    {
+      "verse": 6,
+      "kjv": "And they came thither into the midst of the house, as though they would have fetched wheat; and they smote him under the fifth rib: and Rechab and Baanah his brother escaped.",
+      "web": "They came there into the middle of the house, as though they would have fetched wheat; and they struck him in the body: and Rechab and Baanah his brother escaped.",
+      "ct": "They slipped inside, pretending they had come to get wheat, and stabbed him in the stomach. Then Rechab and his brother Baanah escaped."
+    },
+    {
+      "verse": 7,
+      "kjv": "For when they came into the house, he lay on his bed in his bedchamber, and they smote him, and slew him, and beheaded him, and took his head, and gat them away through the plain all night.",
+      "web": "Now when they came into the house, as he lay on his bed in his bedroom, they struck him, killed him, beheaded him, and took his head, and went by the way of the Arabah all night.",
+      "ct": "They had entered the house while he was lying on his bed in his bedroom. They struck him down, killed him, and cut off his head. Taking his head with them, they traveled through the Jordan Valley all night."
+    },
+    {
+      "verse": 8,
+      "kjv": "And they brought the head of Ishbosheth unto David to Hebron, and said to the king, Behold the head of Ishbosheth the son of Saul thine enemy, which sought thy life; and the LORD hath avenged my lord the king this day of Saul, and of his seed.",
+      "web": "They brought the head of Ishbosheth to David to Hebron, and said to the king, “Behold, the head of Ishbosheth, the son of Saul, your enemy, who sought your life! LORD has avenged my lord the king today of Saul, and of his offspring.”",
+      "ct": "They brought Ishbosheth's head to David in Hebron and said to the king, \"Here is the head of Ishbosheth, the son of your enemy Saul, who tried to kill you. Today the LORD has avenged my lord the king against Saul and his family.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And David answered Rechab and Baanah his brother, the sons of Rimmon the Beerothite, and said unto them, As the LORD liveth, who hath redeemed my soul out of all adversity,",
+      "web": "David answered Rechab and Baanah his brother, the sons of Rimmon the Beerothite, and said to them, “As LORD lives, who has redeemed my soul out of all adversity,",
+      "ct": "David answered Rechab and his brother Baanah, the sons of Rimmon the Beerothite, \"As surely as the LORD lives — the one who has rescued my soul from every danger —"
+    },
+    {
+      "verse": 10,
+      "kjv": "When one told me, saying, Behold, Saul is dead, thinking to have brought good tidings, I took hold of him, and slew him in Ziklag, who thought that I would have given him a reward for his tidings:",
+      "web": "when someone told me, ‘Behold, Saul is dead,’ thinking that he brought good news, I seized him and killed him in Ziklag, which was the reward I gave him for his news.",
+      "ct": "when a man came to me in Ziklag and announced, 'Saul is dead,' thinking he was bringing good news, I seized him and had him executed. That was the reward I gave him for his 'good news.'"
+    },
+    {
+      "verse": 11,
+      "kjv": "How much more, when wicked men have slain a righteous person in his own house upon his bed? shall I not therefore now require his blood of your hand, and take you away from the earth?",
+      "web": "How much more, when wicked men have slain a righteous person in his own house on his bed, should I not now require his blood from your hand, and rid the earth of you?”",
+      "ct": "How much worse is it when wicked men murder an innocent man in his own house while he sleeps in his bed? You can be sure I will demand his blood from your hands and wipe you off the face of the earth.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And David commanded his young men, and they slew them, and cut off their hands and their feet, and hanged them up over the pool in Hebron. But they took the head of Ishbosheth, and buried it in the sepulchre of Abner in Hebron.",
+      "web": "David commanded his young men, and they killed them, cut off their hands and their feet, and hanged them up beside the pool in Hebron. But they took the head of Ishbosheth, and buried it in Abner’s grave in Hebron.",
+      "ct": "David gave the order to his soldiers, and they killed Rechab and Baanah, cut off their hands and feet, and hung their bodies beside the pool in Hebron. As for Ishbosheth's head, they buried it in Abner's tomb in Hebron."
+    }
+  ]
+}

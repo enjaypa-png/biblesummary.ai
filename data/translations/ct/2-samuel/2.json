@@ -1,0 +1,203 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:50:36.134Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass after this, that David enquired of the LORD, saying, Shall I go up into any of the cities of Judah? And the LORD said unto him, Go up. And David said, Whither shall I go up? And he said, Unto Hebron.",
+      "web": "After this, David inquired of LORD, saying, “Shall I go up into any of the cities of Judah?” LORD said to him, “Go up.” David said, “Where shall I go up?” He said, “To Hebron.”",
+      "ct": "After this, David asked the LORD, \"Should I go to one of the cities of Judah?\" The LORD told him, \"Yes, go.\" David asked, \"Which one?\" The LORD answered, \"Hebron.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "So David went up thither, and his two wives also, Ahinoam the Jezreelitess, and Abigail Nabal’s wife the Carmelite.",
+      "web": "So David went up there with his two wives, Ahinoam the Jezreelitess, and Abigail the wife of Nabal the Carmelite.",
+      "ct": "So David went to Hebron, along with his 2 wives — Ahinoam from Jezreel and Abigail, the widow of Nabal from Carmel."
+    },
+    {
+      "verse": 3,
+      "kjv": "And his men that were with him did David bring up, every man with his household: and they dwelt in the cities of Hebron.",
+      "web": "David brought up his men who were with him, every man with his household. They lived in the cities of Hebron.",
+      "ct": "David also brought all the men who had been with him, each with his family. They settled in the towns around Hebron."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the men of Judah came, and there they anointed David king over the house of Judah. And they told David, saying, That the men of Jabeshgilead were they that buried Saul.",
+      "web": "The men of Judah came, and there they anointed David king over the house of Judah. They told David, “The men of Jabesh Gilead were those who buried Saul.”",
+      "ct": "The men of Judah came to Hebron and anointed David as king over the tribe of Judah. When David heard that the men of Jabesh Gilead had buried Saul,"
+    },
+    {
+      "verse": 5,
+      "kjv": "And David sent messengers unto the men of Jabeshgilead, and said unto them, Blessed be ye of the LORD, that ye have shewed this kindness unto your lord, even unto Saul, and have buried him.",
+      "web": "David sent messengers to the men of Jabesh Gilead, and said to them, “Blessed are you by LORD, that you have shown this kindness to your lord, even to Saul, and have buried him.",
+      "ct": "he sent messengers to them with this message: \"May the LORD bless you for showing such loyalty to your master Saul by giving him a proper burial."
+    },
+    {
+      "verse": 6,
+      "kjv": "And now the LORD shew kindness and truth unto you: and I also will requite you this kindness, because ye have done this thing.",
+      "web": "Now may LORD show loving kindness and truth to you. I also will reward you for this kindness, because you have done this thing.",
+      "ct": "May the LORD repay you with kindness and faithfulness. I too will treat you well because of what you've done."
+    },
+    {
+      "verse": 7,
+      "kjv": "Therefore now let your hands be strengthened, and be ye valiant: for your master Saul is dead, and also the house of Judah have anointed me king over them.",
+      "web": "Now therefore let your hands be strong, and be valiant; for Saul your lord is dead, and also the house of Judah have anointed me king over them.”",
+      "ct": "Now be strong and courageous. Your master Saul is dead, but the tribe of Judah has anointed me as their king.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "But Abner the son of Ner, captain of Saul’s host, took Ishbosheth the son of Saul, and brought him over to Mahanaim;",
+      "web": "Now Abner the son of Ner, captain of Saul’s army, had taken Ishbosheth the son of Saul, and brought him over to Mahanaim;",
+      "ct": "Meanwhile, Abner son of Ner, the commander of Saul's army, had taken Saul's son Ishbosheth and brought him to Mahanaim."
+    },
+    {
+      "verse": 9,
+      "kjv": "And made him king over Gilead, and over the Ashurites, and over Jezreel, and over Ephraim, and over Benjamin, and over all Israel.",
+      "web": "and he made him king over Gilead, and over the Ashurites, and over Jezreel, and over Ephraim, and over Benjamin, and over all Israel.",
+      "ct": "There he made Ishbosheth king over Gilead, the Ashurites, Jezreel, Ephraim, Benjamin, and all the rest of Israel."
+    },
+    {
+      "verse": 10,
+      "kjv": "Ishbosheth Saul’s son was forty years old when he began to reign over Israel, and reigned two years. But the house of Judah followed David.",
+      "web": "Ishbosheth, Saul’s son, was forty years old when he began to reign over Israel, and he reigned two years. But the house of Judah followed David.",
+      "ct": "Ishbosheth son of Saul was 40 years old when he became king over Israel, and he ruled for 2 years. The tribe of Judah, however, followed David."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the time that David was king in Hebron over the house of Judah was seven years and six months.",
+      "web": "The time that David was king in Hebron over the house of Judah was seven years and six months.",
+      "ct": "David ruled as king in Hebron over the tribe of Judah for 7 years and 6 months."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Abner the son of Ner, and the servants of Ishbosheth the son of Saul, went out from Mahanaim to Gibeon.",
+      "web": "Abner the son of Ner, and the servants of Ishbosheth the son of Saul, went out from Mahanaim to Gibeon.",
+      "ct": "One day, Abner son of Ner marched out from Mahanaim to Gibeon with the soldiers loyal to Ishbosheth son of Saul."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Joab the son of Zeruiah, and the servants of David, went out, and met together by the pool of Gibeon: and they sat down, the one on the one side of the pool, and the other on the other side of the pool.",
+      "web": "Joab the son of Zeruiah and David’s servants went out, and met them by the pool of Gibeon; and they sat down, the one on the one side of the pool, and the other on the other side of the pool.",
+      "ct": "Joab son of Zeruiah and David's soldiers also marched out and met them at the pool of Gibeon. The 2 groups sat down facing each other on opposite sides of the pool."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Abner said to Joab, Let the young men now arise, and play before us. And Joab said, Let them arise.",
+      "web": "Abner said to Joab, “Please let the young men arise and play before us!” Joab said, “Let them arise!”",
+      "ct": "Abner said to Joab, \"Let's have some of the young men get up and fight in front of us.\" Joab agreed: \"Let them fight.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Then there arose and went over by number twelve of Benjamin, which pertained to Ishbosheth the son of Saul, and twelve of the servants of David.",
+      "web": "Then they arose and went over by number: twelve for Benjamin and for Ishbosheth the son of Saul, and twelve of David’s servants.",
+      "ct": "So 12 men stepped forward from Benjamin's side, fighting for Ishbosheth son of Saul, and 12 from David's side."
+    },
+    {
+      "verse": 16,
+      "kjv": "And they caught every one his fellow by the head, and thrust his sword in his fellow’s side; so they fell down together: wherefore that place was called Helkathhazzurim, which is in Gibeon.",
+      "web": "They each caught his opponent by the head, and thrust his sword in his fellow’s side; so they fell down together: therefore that place in Gibeon was called Helkath Hazzurim.",
+      "ct": "Each man grabbed his opponent by the head and drove his sword into his opponent's side, and they all fell dead together. That place in Gibeon was named Helkath Hazzurim."
+    },
+    {
+      "verse": 17,
+      "kjv": "And there was a very sore battle that day; and Abner was beaten, and the men of Israel, before the servants of David.",
+      "web": "The battle was very severe that day; and Abner was beaten, and the men of Israel, before David’s servants.",
+      "ct": "What followed was a brutal battle that day, and Abner and the men of Israel were defeated by David's soldiers."
+    },
+    {
+      "verse": 18,
+      "kjv": "And there were three sons of Zeruiah there, Joab, and Abishai, and Asahel: and Asahel was as light of foot as a wild roe.",
+      "web": "The three sons of Zeruiah were there, Joab, and Abishai, and Asahel: and Asahel was as light of foot as a wild gazelle.",
+      "ct": "The 3 sons of Zeruiah were there — Joab, Abishai, and Asahel. Asahel was as fast on his feet as a wild gazelle."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Asahel pursued after Abner; and in going he turned not to the right hand nor to the left from following Abner.",
+      "web": "Asahel pursued Abner; and in going he didn’t turn to the right hand or to the left from following Abner.",
+      "ct": "Asahel chased after Abner, running straight after him without veering right or left."
+    },
+    {
+      "verse": 20,
+      "kjv": "Then Abner looked behind him, and said, Art thou Asahel? And he answered, I am.",
+      "web": "Then Abner looked behind him, and said, “Is that you, Asahel?” He answered, “It is.”",
+      "ct": "Abner glanced back and called out, \"Is that you, Asahel?\" He answered, \"It is.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Abner said to him, Turn thee aside to thy right hand or to thy left, and lay thee hold on one of the young men, and take thee his armour. But Asahel would not turn aside from following of him.",
+      "web": "Abner said to him, “Turn away to your right hand or to your left, and grab one of the young men, and take his armor.” But Asahel would not turn away from following him.",
+      "ct": "Abner told him, \"Turn aside — go after one of the younger soldiers and take his armor instead.\" But Asahel refused to stop chasing him."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Abner said again to Asahel, Turn thee aside from following me: wherefore should I smite thee to the ground? how then should I hold up my face to Joab thy brother?",
+      "web": "Abner said again to Asahel, “Turn away from following me. Why should I strike you to the ground? How then could I look Joab your brother in the face?”",
+      "ct": "Abner warned him again, \"Stop chasing me! Why should I have to kill you? How could I ever face your brother Joab again?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Howbeit he refused to turn aside: wherefore Abner with the hinder end of the spear smote him under the fifth rib, that the spear came out behind him; and he fell down there, and died in the same place: and it came to pass, that as many as came to the place where Asahel fell down and died stood still.",
+      "web": "However he refused to turn away. Therefore Abner with the back end of the spear struck him in the body, so that the spear came out behind him; and he fell down there, and died in the same place. As many as came to the place where Asahel fell down and died stood still.",
+      "ct": "But Asahel refused to turn away. So Abner thrust the butt end of his spear into Asahel's stomach with such force that it went straight through his back. Asahel collapsed and died right there on the spot. Everyone who came to the place where Asahel lay dead stopped in their tracks."
+    },
+    {
+      "verse": 24,
+      "kjv": "Joab also and Abishai pursued after Abner: and the sun went down when they were come to the hill of Ammah, that lieth before Giah by the way of the wilderness of Gibeon.",
+      "web": "But Joab and Abishai pursued Abner. The sun went down when they had come to the hill of Ammah, that lies before Giah by the way of the wilderness of Gibeon.",
+      "ct": "But Joab and Abishai kept pursuing Abner. By sunset they had reached the hill of Ammah, near Giah on the road to the wilderness of Gibeon."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the children of Benjamin gathered themselves together after Abner, and became one troop, and stood on the top of an hill.",
+      "web": "The children of Benjamin gathered themselves together after Abner, and became one band, and stood on the top of a hill.",
+      "ct": "The men of Benjamin rallied behind Abner, forming a single unit and taking a stand on top of a hill."
+    },
+    {
+      "verse": 26,
+      "kjv": "Then Abner called to Joab, and said, Shall the sword devour for ever? knowest thou not that it will be bitterness in the latter end? how long shall it be then, ere thou bid the people return from following their brethren?",
+      "web": "Then Abner called to Joab, and said, “Shall the sword devour forever? Don’t you know that it will be bitterness in the latter end? How long will it be then, before you ask the people to return from following their brothers?”",
+      "ct": "Abner shouted down to Joab, \"Must the sword keep devouring forever? Don't you realize this will only end in bitterness? How long before you call off your men from hunting down their own brothers?\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And Joab said, As God liveth, unless thou hadst spoken, surely then in the morning the people had gone up every one from following his brother.",
+      "web": "Joab said, “As God lives, if you had not spoken, surely then in the morning the people would have gone away, and not each followed his brother.”",
+      "ct": "Joab replied, \"As God lives, if you hadn't spoken up, my men would have kept chasing their brothers until morning.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "So Joab blew a trumpet, and all the people stood still, and pursued after Israel no more, neither fought they any more.",
+      "web": "So Joab blew the trumpet; and all the people stood still, and pursued Israel no more, and they fought no more.",
+      "ct": "So Joab blew the trumpet, and all his men halted. They stopped pursuing Israel and the fighting ended."
+    },
+    {
+      "verse": 29,
+      "kjv": "And Abner and his men walked all that night through the plain, and passed over Jordan, and went through all Bithron, and they came to Mahanaim.",
+      "web": "Abner and his men went all that night through the Arabah; and they passed over the Jordan, and went through all Bithron, and came to Mahanaim.",
+      "ct": "Abner and his men marched through the Arabah all night long, crossed the Jordan, traveled through all of Bithron, and finally reached Mahanaim."
+    },
+    {
+      "verse": 30,
+      "kjv": "And Joab returned from following Abner: and when he had gathered all the people together, there lacked of David’s servants nineteen men and Asahel.",
+      "web": "Joab returned from following Abner; and when he had gathered all the people together, nineteen men of David’s and Asahel were missing.",
+      "ct": "Joab called off the pursuit of Abner and gathered all his troops. When he counted them, 19 of David's soldiers were missing, plus Asahel."
+    },
+    {
+      "verse": 31,
+      "kjv": "But the servants of David had smitten of Benjamin, and of Abner’s men, so that three hundred and threescore men died.",
+      "web": "But David’s servants had struck Benjamin and of Abner’s men so that three hundred sixty men died.",
+      "ct": "David's soldiers, however, had killed 360 of Abner's men from Benjamin."
+    },
+    {
+      "verse": 32,
+      "kjv": "And they took up Asahel, and buried him in the sepulchre of his father, which was in Bethlehem. And Joab and his men went all night, and they came to Hebron at break of day.",
+      "web": "They took up Asahel, and buried him in the tomb of his father, which was in Bethlehem. Joab and his men went all night, and the day broke on them at Hebron.",
+      "ct": "They carried Asahel's body back and buried him in his father's tomb in Bethlehem. Then Joab and his men marched through the night and reached Hebron at daybreak."
+    }
+  ]
+}

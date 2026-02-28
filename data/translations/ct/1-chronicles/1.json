@@ -1,0 +1,335 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:00:40.606Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Adam, Sheth, Enosh,",
+      "web": "Adam, Seth, Enosh,",
+      "ct": "Adam, Seth, Enosh,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Kenan, Mahalaleel, Jered,",
+      "web": "Kenan, Mahalalel, Jared,",
+      "ct": "Kenan, Mahalaleel, Jered,"
+    },
+    {
+      "verse": 3,
+      "kjv": "Henoch, Methuselah, Lamech,",
+      "web": "Enoch, Methuselah, Lamech,",
+      "ct": "Henoch, Methuselah, Lamech,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Noah, Shem, Ham, and Japheth.",
+      "web": "Noah, Shem, Ham, and Japheth.",
+      "ct": "Noah, Shem, Ham, and Japheth."
+    },
+    {
+      "verse": 5,
+      "kjv": "The sons of Japheth; Gomer, and Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras.",
+      "web": "The sons of Japheth: Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras.",
+      "ct": "Japheth's sons were Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the sons of Gomer; Ashchenaz, and Riphath, and Togarmah.",
+      "web": "The sons of Gomer: Ashkenaz, Diphath, and Togarmah.",
+      "ct": "Gomer's sons were Ashchenaz, Riphath, and Togarmah."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the sons of Javan; Elishah, and Tarshish, Kittim, and Dodanim.",
+      "web": "The sons of Javan: Elishah, Tarshish, Kittim, and Rodanim.",
+      "ct": "Javan's sons were Elishah, Tarshish, Kittim, and Dodanim."
+    },
+    {
+      "verse": 8,
+      "kjv": "The sons of Ham; Cush, and Mizraim, Put, and Canaan.",
+      "web": "The sons of Ham: Cush, Mizraim, Put, and Canaan.",
+      "ct": "Ham's sons were Cush, Mizraim, Put, and Canaan."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the sons of Cush; Seba, and Havilah, and Sabta, and Raamah, and Sabtecha. And the sons of Raamah; Sheba, and Dedan.",
+      "web": "The sons of Cush: Seba, Havilah, Sabta, Raama, Sabteca. The sons of Raamah: Sheba and Dedan.",
+      "ct": "Cush's sons were Seba, Havilah, Sabta, Raamah, and Sabtecha. Raamah's sons were Sheba and Dedan."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Cush begat Nimrod: he began to be mighty upon the earth.",
+      "web": "Cush became the father of Nimrod. He began to be a mighty one in the earth.",
+      "ct": "Cush was the father of Nimrod, who became the first great warrior on earth."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Mizraim begat Ludim, and Anamim, and Lehabim, and Naphtuhim,",
+      "web": "Mizraim became the father of Ludim, Anamim, Lehabim, Naphtuhim,",
+      "ct": "Mizraim was the father of the Ludim, Anamim, Lehabim, Naphtuhim,"
+    },
+    {
+      "verse": 12,
+      "kjv": "And Pathrusim, and Casluhim, (of whom came the Philistines,) and Caphthorim.",
+      "web": "Pathrusim, Casluhim (where the Philistines came from), and Caphtorim.",
+      "ct": "Pathrusim, Casluhim (from whom the Philistines descended), and Caphthorim."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Canaan begat Zidon his firstborn, and Heth,",
+      "web": "Canaan became the father of Sidon his firstborn, Heth,",
+      "ct": "Canaan's firstborn was Zidon. He was also the father of Heth,"
+    },
+    {
+      "verse": 14,
+      "kjv": "The Jebusite also, and the Amorite, and the Girgashite,",
+      "web": "the Jebusite, and the Amorite, the Girgashite,",
+      "ct": "as well as the Jebusites, the Amorites, the Girgashites,"
+    },
+    {
+      "verse": 15,
+      "kjv": "And the Hivite, and the Arkite, and the Sinite,",
+      "web": "the Hivite, the Arkite, the Sinite,",
+      "ct": "the Hivites, the Arkites, the Sinites,"
+    },
+    {
+      "verse": 16,
+      "kjv": "And the Arvadite, and the Zemarite, and the Hamathite.",
+      "web": "the Arvadite, the Zemarite, and the Hamathite.",
+      "ct": "the Arvadites, the Zemarites, and the Hamathites."
+    },
+    {
+      "verse": 17,
+      "kjv": "The sons of Shem; Elam, and Asshur, and Arphaxad, and Lud, and Aram, and Uz, and Hul, and Gether, and Meshech.",
+      "web": "The sons of Shem: Elam, Asshur, Arpachshad, Lud, Aram, Uz, Hul, Gether, and Meshech.",
+      "ct": "Shem's sons were Elam, Asshur, Arphaxad, Lud, Aram, Uz, Hul, Gether, and Meshech."
+    },
+    {
+      "verse": 18,
+      "kjv": "And Arphaxad begat Shelah, and Shelah begat Eber.",
+      "web": "Arpachshad became the father of Shelah, and Shelah became the father of Eber.",
+      "ct": "Arphaxad was the father of Shelah, and Shelah was the father of Eber."
+    },
+    {
+      "verse": 19,
+      "kjv": "And unto Eber were born two sons: the name of the one was Peleg; because in his days the earth was divided: and his brother’s name was Joktan.",
+      "web": "To Eber were born two sons: the name of the one was Peleg, for in his days the earth was divided; and his brother’s name was Joktan.",
+      "ct": "Eber had 2 sons. One was named Peleg, because during his lifetime the earth was divided. His brother was named Joktan."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Joktan begat Almodad, and Sheleph, and Hazarmaveth, and Jerah,",
+      "web": "Joktan became the father of Almodad, Sheleph, Hazarmaveth, Jerah,",
+      "ct": "Joktan was the father of Almodad, Sheleph, Hazarmaveth, Jerah,"
+    },
+    {
+      "verse": 21,
+      "kjv": "Hadoram also, and Uzal, and Diklah,",
+      "web": "Hadoram, Uzal, Diklah,",
+      "ct": "Hadoram, Uzal, Diklah,"
+    },
+    {
+      "verse": 22,
+      "kjv": "And Ebal, and Abimael, and Sheba,",
+      "web": "Ebal, Abimael, Sheba,",
+      "ct": "Ebal, Abimael, Sheba,"
+    },
+    {
+      "verse": 23,
+      "kjv": "And Ophir, and Havilah, and Jobab. All these were the sons of Joktan.",
+      "web": "Ophir, Havilah, and Jobab. All these were the sons of Joktan.",
+      "ct": "Ophir, Havilah, and Jobab. All of these were Joktan's sons."
+    },
+    {
+      "verse": 24,
+      "kjv": "Shem, Arphaxad, Shelah,",
+      "web": "Shem, Arpachshad, Shelah,",
+      "ct": "Shem, Arphaxad, Shelah,"
+    },
+    {
+      "verse": 25,
+      "kjv": "Eber, Peleg, Reu,",
+      "web": "Eber, Peleg, Reu,",
+      "ct": "Eber, Peleg, Reu,"
+    },
+    {
+      "verse": 26,
+      "kjv": "Serug, Nahor, Terah,",
+      "web": "Serug, Nahor, Terah,",
+      "ct": "Serug, Nahor, Terah,"
+    },
+    {
+      "verse": 27,
+      "kjv": "Abram; the same is Abraham.",
+      "web": "Abram (also called Abraham).",
+      "ct": "Abram — who is Abraham."
+    },
+    {
+      "verse": 28,
+      "kjv": "The sons of Abraham; Isaac, and Ishmael.",
+      "web": "The sons of Abraham: Isaac and Ishmael.",
+      "ct": "Abraham's sons were Isaac and Ishmael."
+    },
+    {
+      "verse": 29,
+      "kjv": "These are their generations: The firstborn of Ishmael, Nebaioth; then Kedar, and Adbeel, and Mibsam,",
+      "web": "These are their generations: the firstborn of Ishmael, Nebaioth; then Kedar, Adbeel, Mibsam,",
+      "ct": "Here are their descendants: Ishmael's firstborn was Nebaioth, followed by Kedar, Adbeel, Mibsam,"
+    },
+    {
+      "verse": 30,
+      "kjv": "Mishma, and Dumah, Massa, Hadad, and Tema,",
+      "web": "Mishma, Dumah, Massa, Hadad, Tema,",
+      "ct": "Mishma, Dumah, Massa, Hadad, Tema,"
+    },
+    {
+      "verse": 31,
+      "kjv": "Jetur, Naphish, and Kedemah. These are the sons of Ishmael.",
+      "web": "Jetur, Naphish, and Kedemah. These are the sons of Ishmael.",
+      "ct": "Jetur, Naphish, and Kedemah. These were Ishmael's sons."
+    },
+    {
+      "verse": 32,
+      "kjv": "Now the sons of Keturah, Abraham’s concubine: she bare Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah. And the sons of Jokshan; Sheba, and Dedan.",
+      "web": "The sons of Keturah, Abraham’s concubine: she bore Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah. The sons of Jokshan: Sheba and Dedan.",
+      "ct": "Abraham's concubine Keturah gave birth to Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah. Jokshan's sons were Sheba and Dedan."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the sons of Midian; Ephah, and Epher, and Henoch, and Abida, and Eldaah. All these are the sons of Keturah.",
+      "web": "The sons of Midian: Ephah, Epher, Hanoch, Abida, and Eldaah. All these were the sons of Keturah.",
+      "ct": "Midian's sons were Ephah, Epher, Henoch, Abida, and Eldaah. All of these were descendants of Keturah."
+    },
+    {
+      "verse": 34,
+      "kjv": "And Abraham begat Isaac. The sons of Isaac; Esau and Israel.",
+      "web": "Abraham became the father of Isaac. The sons of Isaac: Esau and Israel.",
+      "ct": "Abraham was the father of Isaac. Isaac's sons were Esau and Israel."
+    },
+    {
+      "verse": 35,
+      "kjv": "The sons of Esau; Eliphaz, Reuel, and Jeush, and Jaalam, and Korah.",
+      "web": "The sons of Esau: Eliphaz, Reuel, Jeush, Jalam, and Korah.",
+      "ct": "Esau's sons were Eliphaz, Reuel, Jeush, Jaalam, and Korah."
+    },
+    {
+      "verse": 36,
+      "kjv": "The sons of Eliphaz; Teman, and Omar, Zephi, and Gatam, Kenaz, and Timna, and Amalek.",
+      "web": "The sons of Eliphaz: Teman, Omar, Zephi, Gatam, Kenaz, Timna, and Amalek.",
+      "ct": "Eliphaz's sons were Teman, Omar, Zephi, Gatam, Kenaz, Timna, and Amalek."
+    },
+    {
+      "verse": 37,
+      "kjv": "The sons of Reuel; Nahath, Zerah, Shammah, and Mizzah.",
+      "web": "The sons of Reuel: Nahath, Zerah, Shammah, and Mizzah.",
+      "ct": "Reuel's sons were Nahath, Zerah, Shammah, and Mizzah."
+    },
+    {
+      "verse": 38,
+      "kjv": "And the sons of Seir; Lotan, and Shobal, and Zibeon, and Anah, and Dishon, and Ezar, and Dishan.",
+      "web": "The sons of Seir: Lotan, Shobal, Zibeon, Anah, Dishon, Ezer, and Dishan.",
+      "ct": "Seir's sons were Lotan, Shobal, Zibeon, Anah, Dishon, Ezer, and Dishan."
+    },
+    {
+      "verse": 39,
+      "kjv": "And the sons of Lotan; Hori, and Homam: and Timna was Lotan’s sister.",
+      "web": "The sons of Lotan: Hori and Homam; and Timna was Lotan’s sister.",
+      "ct": "Lotan's sons were Hori and Homam. Lotan's sister was Timna."
+    },
+    {
+      "verse": 40,
+      "kjv": "The sons of Shobal; Alian, and Manahath, and Ebal, Shephi, and Onam. And the sons of Zibeon; Aiah, and Anah.",
+      "web": "The sons of Shobal: Alian, Manahath, Ebal, Shephi, and Onam. The sons of Zibeon: Aiah and Anah.",
+      "ct": "Shobal's sons were Alian, Manahath, Ebal, Shephi, and Onam. Zibeon's sons were Aiah and Anah."
+    },
+    {
+      "verse": 41,
+      "kjv": "The sons of Anah; Dishon. And the sons of Dishon; Amram, and Eshban, and Ithran, and Cheran.",
+      "web": "The son of Anah: Dishon. The sons of Dishon: Hamran, Eshban, Ithran, and Cheran.",
+      "ct": "Anah's son was Dishon. Dishon's sons were Amram, Eshban, Ithran, and Cheran."
+    },
+    {
+      "verse": 42,
+      "kjv": "The sons of Ezer; Bilhan, and Zavan, and Jakan. The sons of Dishan; Uz, and Aran.",
+      "web": "The sons of Ezer: Bilhan, Zaavan, and Jaakan. The sons of Dishan: Uz and Aran.",
+      "ct": "Ezer's sons were Bilhan, Zavan, and Jakan. Dishan's sons were Uz and Aran."
+    },
+    {
+      "verse": 43,
+      "kjv": "Now these are the kings that reigned in the land of Edom before any king reigned over the children of Israel; Bela the son of Beor: and the name of his city was Dinhabah.",
+      "web": "Now these are the kings who reigned in the land of Edom, before any king reigned over the children of Israel: Bela the son of Beor; and the name of his city was Dinhabah.",
+      "ct": "These are the kings who ruled in Edom before Israel ever had a king: Bela son of Beor, whose capital city was Dinhabah."
+    },
+    {
+      "verse": 44,
+      "kjv": "And when Bela was dead, Jobab the son of Zerah of Bozrah reigned in his stead.",
+      "web": "Bela died, and Jobab the son of Zerah of Bozrah reigned in his place.",
+      "ct": "When Bela died, Jobab son of Zerah from Bozrah became king after him."
+    },
+    {
+      "verse": 45,
+      "kjv": "And when Jobab was dead, Husham of the land of the Temanites reigned in his stead.",
+      "web": "Jobab died, and Husham of the land of the Temanites reigned in his place.",
+      "ct": "When Jobab died, Husham from the land of the Temanites became king after him."
+    },
+    {
+      "verse": 46,
+      "kjv": "And when Husham was dead, Hadad the son of Bedad, which smote Midian in the field of Moab, reigned in his stead: and the name of his city was Avith.",
+      "web": "Husham died, and Hadad the son of Bedad, who struck Midian in the field of Moab, reigned in his place; and the name of his city was Avith.",
+      "ct": "When Husham died, Hadad son of Bedad became king after him. Hadad was the one who defeated Midian on the plains of Moab. His capital city was Avith."
+    },
+    {
+      "verse": 47,
+      "kjv": "And when Hadad was dead, Samlah of Masrekah reigned in his stead.",
+      "web": "Hadad died, and Samlah of Masrekah reigned in his place.",
+      "ct": "When Hadad died, Samlah from Masrekah became king after him."
+    },
+    {
+      "verse": 48,
+      "kjv": "And when Samlah was dead, Shaul of Rehoboth by the river reigned in his stead.",
+      "web": "Samlah died, and Shaul of Rehoboth by the River reigned in his place.",
+      "ct": "When Samlah died, Shaul from Rehoboth by the river became king after him."
+    },
+    {
+      "verse": 49,
+      "kjv": "And when Shaul was dead, Baalhanan the son of Achbor reigned in his stead.",
+      "web": "Shaul died, and Baal Hanan the son of Achbor reigned in his place.",
+      "ct": "When Shaul died, Baalhanan son of Achbor became king after him."
+    },
+    {
+      "verse": 50,
+      "kjv": "And when Baalhanan was dead, Hadad reigned in his stead: and the name of his city was Pai; and his wife’s name was Mehetabel, the daughter of Matred, the daughter of Mezahab.",
+      "web": "Baal Hanan died, and Hadad reigned in his place; and the name of his city was Pai: and his wife’s name was Mehetabel, the daughter of Matred, the daughter of Mezahab.",
+      "ct": "When Baalhanan died, Hadad became king after him. His capital city was Pai. His wife's name was Mehetabel, the daughter of Matred and granddaughter of Mezahab."
+    },
+    {
+      "verse": 51,
+      "kjv": "Hadad died also. And the dukes of Edom were; duke Timnah, duke Aliah, duke Jetheth,",
+      "web": "Then Hadad died. The chiefs of Edom were: chief Timna, chief Aliah, chief Jetheth,",
+      "ct": "Then Hadad died. The chiefs of Edom were: Chief Timnah, Chief Aliah, Chief Jetheth,"
+    },
+    {
+      "verse": 52,
+      "kjv": "Duke Aholibamah, duke Elah, duke Pinon,",
+      "web": "chief Oholibamah, chief Elah, chief Pinon,",
+      "ct": "Chief Aholibamah, Chief Elah, Chief Pinon,"
+    },
+    {
+      "verse": 53,
+      "kjv": "Duke Kenaz, duke Teman, duke Mibzar,",
+      "web": "chief Kenaz, chief Teman, chief Mibzar,",
+      "ct": "Chief Kenaz, Chief Teman, Chief Mibzar,"
+    },
+    {
+      "verse": 54,
+      "kjv": "Duke Magdiel, duke Iram. These are the dukes of Edom.",
+      "web": "chief Magdiel, and chief Iram. These are the chiefs of Edom.",
+      "ct": "Chief Magdiel, and Chief Iram. These were the chiefs of Edom."
+    }
+  ]
+}

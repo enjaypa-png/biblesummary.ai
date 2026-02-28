@@ -1,0 +1,89 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 31,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:49:45.304Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the Philistines fought against Israel: and the men of Israel fled from before the Philistines, and fell down slain in mount Gilboa.",
+      "web": "Now the Philistines fought against Israel; and the men of Israel fled from before the Philistines, and fell down slain on Mount Gilboa.",
+      "ct": "The Philistines launched an attack against Israel, and the Israelite soldiers broke ranks and ran. Many were cut down on Mount Gilboa."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the Philistines followed hard upon Saul and upon his sons; and the Philistines slew Jonathan, and Abinadab, and Melchishua, Saul’s sons.",
+      "web": "The Philistines overtook Saul and on his sons; and the Philistines killed Jonathan, Abinadab, and Malchishua, the sons of Saul.",
+      "ct": "The Philistines closed in on Saul and his sons, killing Jonathan, Abinadab, and Melchishua — all 3 of Saul's sons."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the battle went sore against Saul, and the archers hit him; and he was sore wounded of the archers.",
+      "web": "The battle went hard against Saul, and the archers overtook him; and he was greatly distressed by reason of the archers.",
+      "ct": "The fighting around Saul grew fierce. Enemy archers found their range and hit him, leaving him badly wounded."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said Saul unto his armourbearer, Draw thy sword, and thrust me through therewith; lest these uncircumcised come and thrust me through, and abuse me. But his armourbearer would not; for he was sore afraid. Therefore Saul took a sword, and fell upon it.",
+      "web": "Then Saul said to his armor bearer, “Draw your sword, and thrust me through with it, lest these uncircumcised come and thrust me through, and abuse me!” But his armor bearer would not; for he was terrified. Therefore Saul took his sword, and fell on it.",
+      "ct": "Saul told his armor bearer, \"Draw your sword and run me through with it — before these uncircumcised Philistines get to me and torture me.\" But his armor bearer was too terrified to do it. So Saul took his own sword and fell on it."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when his armourbearer saw that Saul was dead, he fell likewise upon his sword, and died with him.",
+      "web": "When his armor bearer saw that Saul was dead, he likewise fell on his sword, and died with him.",
+      "ct": "When the armor bearer saw that Saul was dead, he fell on his own sword too and died alongside him."
+    },
+    {
+      "verse": 6,
+      "kjv": "So Saul died, and his three sons, and his armourbearer, and all his men, that same day together.",
+      "web": "So Saul died, and his three sons, and his armor bearer, and all his men, that same day together.",
+      "ct": "Saul, his 3 sons, his armor bearer, and all his men died together that same day."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when the men of Israel that were on the other side of the valley, and they that were on the other side Jordan, saw that the men of Israel fled, and that Saul and his sons were dead, they forsook the cities, and fled; and the Philistines came and dwelt in them.",
+      "web": "When the men of Israel who were on the other side of the valley, and those who were beyond the Jordan, saw that the men of Israel fled, and that Saul and his sons were dead, they abandoned the cities and fled; and the Philistines came and lived in them.",
+      "ct": "When the Israelites living across the valley and on the other side of the Jordan heard that Israel's army had fled and that Saul and his sons were dead, they abandoned their cities and ran. The Philistines moved in and occupied them."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it came to pass on the morrow, when the Philistines came to strip the slain, that they found Saul and his three sons fallen in mount Gilboa.",
+      "web": "On the next day, when the Philistines came to strip the slain, they found Saul and his three sons fallen on Mount Gilboa.",
+      "ct": "The next day, the Philistines came to strip the dead and found Saul and his 3 sons lying on Mount Gilboa."
+    },
+    {
+      "verse": 9,
+      "kjv": "And they cut off his head, and stripped off his armour, and sent into the land of the Philistines round about, to publish it in the house of their idols, and among the people.",
+      "web": "They cut off his head, stripped off his armor, and sent into the land of the Philistines all around, to carry the news to the house of their idols, and to the people.",
+      "ct": "They cut off Saul's head and stripped his armor, then sent messengers throughout Philistine territory to spread the news in the temples of their idols and among the people."
+    },
+    {
+      "verse": 10,
+      "kjv": "And they put his armour in the house of Ashtaroth: and they fastened his body to the wall of Bethshan.",
+      "web": "They put his armor in the house of the Ashtaroth, and they fastened his body to the wall of Beth Shan.",
+      "ct": "They placed his armor in the temple of Ashtaroth and nailed his body to the wall of Bethshan."
+    },
+    {
+      "verse": 11,
+      "kjv": "And when the inhabitants of Jabeshgilead heard of that which the Philistines had done to Saul;",
+      "web": "When the inhabitants of Jabesh Gilead heard what the Philistines had done to Saul,",
+      "ct": "When the people of Jabeshgilead heard what the Philistines had done to Saul,"
+    },
+    {
+      "verse": 12,
+      "kjv": "All the valiant men arose, and went all night, and took the body of Saul and the bodies of his sons from the wall of Bethshan, and came to Jabesh, and burnt them there.",
+      "web": "all the valiant men arose, went all night, and took the body of Saul and the bodies of his sons from the wall of Beth Shan; and they came to Jabesh, and burned them there.",
+      "ct": "every brave man among them set out and marched through the night. They took down the bodies of Saul and his sons from the wall of Bethshan, brought them back to Jabesh, and burned them there."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they took their bones, and buried them under a tree at Jabesh, and fasted seven days.",
+      "web": "They took their bones and buried them under the tamarisk tree in Jabesh, and fasted seven days.",
+      "ct": "Then they gathered the bones and buried them under a tamarisk tree in Jabesh, and they fasted for 7 days."
+    }
+  ]
+}

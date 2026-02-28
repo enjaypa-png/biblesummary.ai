@@ -1,0 +1,143 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 21,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:58:57.593Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then there was a famine in the days of David three years, year after year; and David enquired of the LORD. And the LORD answered, It is for Saul, and for his bloody house, because he slew the Gibeonites.",
+      "web": "There was a famine in the days of David for three years, year after year; and David sought the face of LORD. LORD said, “It is for Saul, and for his bloody house, because he put the Gibeonites to death.”",
+      "ct": "During David's reign, there was a famine that lasted 3 years in a row. David prayed to the LORD about it, and the LORD told him, \"This is happening because of Saul and his bloodstained family — he slaughtered the Gibeonites.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And the king called the Gibeonites, and said unto them; (now the Gibeonites were not of the children of Israel, but of the remnant of the Amorites; and the children of Israel had sworn unto them: and Saul sought to slay them in his zeal to the children of Israel and Judah.)",
+      "web": "The king called the Gibeonites, and said to them (now the Gibeonites were not of the children of Israel, but of the remnant of the Amorites, and the children of Israel had sworn to them; and Saul sought to kill them in his zeal for the children of Israel and Judah);",
+      "ct": "So the king summoned the Gibeonites to speak with them. Now, the Gibeonites weren't Israelites — they were survivors of the Amorites. Israel had sworn a treaty to protect them, but Saul had tried to wipe them out in his misguided loyalty to Israel and Judah."
+    },
+    {
+      "verse": 3,
+      "kjv": "Wherefore David said unto the Gibeonites, What shall I do for you? and wherewith shall I make the atonement, that ye may bless the inheritance of the LORD?",
+      "web": "and David said to the Gibeonites, “What should I do for you? And with what should I make atonement, that you may bless LORD’s inheritance?”",
+      "ct": "David asked the Gibeonites, \"What can I do for you? How can I make atonement so that you'll bless the LORD's people?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And the Gibeonites said unto him, We will have no silver nor gold of Saul, nor of his house; neither for us shalt thou kill any man in Israel. And he said, What ye shall say, that will I do for you.",
+      "web": "The Gibeonites said to him, “It is no matter of silver or gold between us and Saul, or his house; neither is it for us to put any man to death in Israel.” He said, “I will do for you whatever you say.”",
+      "ct": "The Gibeonites replied, \"This isn't about silver or gold from Saul's family, and it's not our place to put anyone in Israel to death.\" David said, \"Whatever you ask, I'll do it.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And they answered the king, The man that consumed us, and that devised against us that we should be destroyed from remaining in any of the coasts of Israel,",
+      "web": "They said to the king, “The man who consumed us, and who devised against us, that we should be destroyed from remaining in any of the borders of Israel,",
+      "ct": "They told the king, \"The man who tried to destroy us — who plotted to wipe us out completely from every corner of Israel —"
+    },
+    {
+      "verse": 6,
+      "kjv": "Let seven men of his sons be delivered unto us, and we will hang them up unto the LORD in Gibeah of Saul, whom the LORD did choose. And the king said, I will give them.",
+      "web": "let seven men of his sons be delivered to us, and we will hang them up to LORD in Gibeah of Saul, the chosen of LORD.” The king said, “I will give them.”",
+      "ct": "hand over 7 of his descendants to us, and we will hang them before the LORD at Gibeah, Saul's hometown — Saul, whom the LORD once chose as king.\" The king agreed, \"I will hand them over.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "But the king spared Mephibosheth, the son of Jonathan the son of Saul, because of the LORD’s oath that was between them, between David and Jonathan the son of Saul.",
+      "web": "But the king spared Mephibosheth, the son of Jonathan the son of Saul, because of LORD’s oath that was between them, between David and Jonathan the son of Saul.",
+      "ct": "But David spared Mephibosheth, the son of Jonathan and grandson of Saul, because of the oath David and Jonathan had sworn before the LORD."
+    },
+    {
+      "verse": 8,
+      "kjv": "But the king took the two sons of Rizpah the daughter of Aiah, whom she bare unto Saul, Armoni and Mephibosheth; and the five sons of Michal the daughter of Saul, whom she brought up for Adriel the son of Barzillai the Meholathite:",
+      "web": "But the king took the two sons of Rizpah the daughter of Aiah, whom she bore to Saul, Armoni and Mephibosheth; and the five sons of Michal the daughter of Saul, whom she bore to Adriel the son of Barzillai the Meholathite.",
+      "ct": "Instead, the king took Armoni and Mephibosheth, the 2 sons that Rizpah daughter of Aiah had borne to Saul, along with the 5 sons that Michal daughter of Saul had raised for Adriel son of Barzillai the Meholathite."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he delivered them into the hands of the Gibeonites, and they hanged them in the hill before the LORD: and they fell all seven together, and were put to death in the days of harvest, in the first days, in the beginning of barley harvest.",
+      "web": "He delivered them into the hands of the Gibeonites, and they hanged them on the mountain before LORD, and all seven of them fell together. They were put to death in the days of harvest, in the first days, at the beginning of barley harvest.",
+      "ct": "He handed all 7 of them over to the Gibeonites, who hanged them on the hill before the LORD. They died together, executed during the first days of the barley harvest."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Rizpah the daughter of Aiah took sackcloth, and spread it for her upon the rock, from the beginning of harvest until water dropped upon them out of heaven, and suffered neither the birds of the air to rest on them by day, nor the beasts of the field by night.",
+      "web": "Rizpah the daughter of Aiah took sackcloth, and spread it for herself on the rock, from the beginning of harvest until water poured on them from the sky. She allowed neither the birds of the sky to rest on them by day, nor the animals of the field by night.",
+      "ct": "Rizpah daughter of Aiah spread sackcloth on the rock and stayed there — from the start of harvest until the rains finally came from heaven. Day after day she drove away the birds that tried to land on the bodies, and night after night she chased off the wild animals."
+    },
+    {
+      "verse": 11,
+      "kjv": "And it was told David what Rizpah the daughter of Aiah, the concubine of Saul, had done.",
+      "web": "David was told what Rizpah the daughter of Aiah, the concubine of Saul, had done.",
+      "ct": "When David heard what Rizpah, Saul's concubine, had done,"
+    },
+    {
+      "verse": 12,
+      "kjv": "And David went and took the bones of Saul and the bones of Jonathan his son from the men of Jabeshgilead, which had stolen them from the street of Bethshan, where the Philistines had hanged them, when the Philistines had slain Saul in Gilboa:",
+      "web": "So David went and took the bones of Saul and the bones of Jonathan his son from the men of Jabesh Gilead, who had stolen them from the street of Beth Shan, where the Philistines had hanged them, in the day that the Philistines killed Saul in Gilboa;",
+      "ct": "he went and retrieved the bones of Saul and his son Jonathan from the men of Jabeshgilead. They had secretly taken the bodies from the public square in Bethshan, where the Philistines had hung them after killing Saul on Mount Gilboa."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he brought up from thence the bones of Saul and the bones of Jonathan his son; and they gathered the bones of them that were hanged.",
+      "web": "and he brought up from there the bones of Saul and the bones of Jonathan his son. They also gathered the bones of those who were hanged.",
+      "ct": "David brought back the bones of Saul and Jonathan, and they also gathered the remains of the 7 men who had been hanged."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the bones of Saul and Jonathan his son buried they in the country of Benjamin in Zelah, in the sepulchre of Kish his father: and they performed all that the king commanded. And after that God was intreated for the land.",
+      "web": "They buried the bones of Saul and Jonathan his son in the country of Benjamin in Zela, in the tomb of Kish his father: and they performed all that the king commanded. After that, God answered prayer for the land.",
+      "ct": "They buried the bones of Saul and Jonathan in the territory of Benjamin at Zelah, in the tomb of Saul's father Kish. Everything was carried out just as the king commanded. After that, God answered prayer for the land, and the famine ended."
+    },
+    {
+      "verse": 15,
+      "kjv": "Moreover the Philistines had yet war again with Israel; and David went down, and his servants with him, and fought against the Philistines: and David waxed faint.",
+      "web": "The Philistines had war again with Israel; and David went down, and his servants with him, and fought against the Philistines. David grew faint;",
+      "ct": "War broke out again between the Philistines and Israel. David went into battle with his men to fight the Philistines, but during the fighting he became exhausted."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Ishbibenob, which was of the sons of the giant, the weight of whose spear weighed three hundred shekels of brass in weight, he being girded with a new sword, thought to have slain David.",
+      "web": "and Ishbibenob, who was of the sons of the giant, the weight of whose spear was three hundred shekels of bronze in weight, he being armed with a new sword, thought he would kill David.",
+      "ct": "A warrior named Ishbibenob, one of the descendants of the giants, came after David intending to kill him. He carried a bronze spear weighing 300 shekels and wore a new sword at his side."
+    },
+    {
+      "verse": 17,
+      "kjv": "But Abishai the son of Zeruiah succoured him, and smote the Philistine, and killed him. Then the men of David sware unto him, saying, Thou shalt go no more out with us to battle, that thou quench not the light of Israel.",
+      "web": "But Abishai the son of Zeruiah helped him, and struck the Philistine, and killed him. Then the men of David swore to him, saying, “Don’t go out with us to battle any more, so that you don’t quench the lamp of Israel.”",
+      "ct": "But Abishai son of Zeruiah rushed to David's defense, struck the Philistine down, and killed him. After that, David's men made him swear an oath: \"You must never go into battle with us again. You are the lamp of Israel — we can't risk losing you.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And it came to pass after this, that there was again a battle with the Philistines at Gob: then Sibbechai the Hushathite slew Saph, which was of the sons of the giant.",
+      "web": "After this, there was again war with the Philistines at Gob. Then Sibbecai the Hushathite killed Saph, who was of the sons of the giant.",
+      "ct": "Sometime later, another battle broke out with the Philistines at Gob. In that fight, Sibbechai the Hushathite killed Saph, another descendant of the giants."
+    },
+    {
+      "verse": 19,
+      "kjv": "And there was again a battle in Gob with the Philistines, where Elhanan the son of Jaareoregim, a Bethlehemite, slew the brother of Goliath the Gittite, the staff of whose spear was like a weaver’s beam.",
+      "web": "There was again war with the Philistines at Gob; and Elhanan the son of Jaare-Oregim the Bethlehemite killed Goliath the Gittite’s brother, the staff of whose spear was like a weaver’s beam.",
+      "ct": "In yet another battle with the Philistines at Gob, Elhanan son of Jaareoregim from Bethlehem killed the brother of Goliath the Gittite, whose spear had a shaft as thick as a weaver's beam."
+    },
+    {
+      "verse": 20,
+      "kjv": "And there was yet a battle in Gath, where was a man of great stature, that had on every hand six fingers, and on every foot six toes, four and twenty in number; and he also was born to the giant.",
+      "web": "There was again war at Gath, where there was a man of great stature, who had six fingers on every hand, and six toes on every foot, twenty four in count; and he also was born to the giant.",
+      "ct": "Still another battle took place at Gath, where there was a massive warrior who had 6 fingers on each hand and 6 toes on each foot — 24 in all. He too was a descendant of the giants."
+    },
+    {
+      "verse": 21,
+      "kjv": "And when he defied Israel, Jonathan the son of Shimeah the brother of David slew him.",
+      "web": "When he defied Israel, Jonathan the son of Shimei, David’s brother, killed him.",
+      "ct": "When this man taunted Israel, Jonathan son of Shimeah, David's brother, struck him down and killed him."
+    },
+    {
+      "verse": 22,
+      "kjv": "These four were born to the giant in Gath, and fell by the hand of David, and by the hand of his servants.",
+      "web": "These four were born to the giant in Gath; and they fell by the hand of David, and by the hand of his servants.",
+      "ct": "All 4 of these warriors were descendants of the giants of Gath, and they all fell at the hands of David and his men."
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:58:07.416Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it was told Joab, Behold, the king weepeth and mourneth for Absalom.",
+      "web": "Joab was told, “Behold, the king weeps and mourns for Absalom.”",
+      "ct": "Someone told Joab, \"The king is weeping and mourning over Absalom.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And the victory that day was turned into mourning unto all the people: for the people heard say that day how the king was grieved for his son.",
+      "web": "The victory that day was turned into mourning among all the people; for the people heard it said that day, “The king grieves for his son.”",
+      "ct": "What should have been a day of victory turned into a day of mourning for the whole army, because word spread that the king was grief-stricken over his son."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the people gat them by stealth that day into the city, as people being ashamed steal away when they flee in battle.",
+      "web": "The people sneaked into the city that day, as people who are ashamed steal away when they flee in battle.",
+      "ct": "The soldiers slipped quietly into the city that day, the way troops slink back in shame after running from a battle."
+    },
+    {
+      "verse": 4,
+      "kjv": "But the king covered his face, and the king cried with a loud voice, O my son Absalom, O Absalom, my son, my son!",
+      "web": "The king covered his face, and the king cried with a loud voice, “My son Absalom, Absalom, my son, my son!”",
+      "ct": "The king covered his face and wailed at the top of his voice, \"My son Absalom! Absalom, my son, my son!\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And Joab came into the house to the king, and said, Thou hast shamed this day the faces of all thy servants, which this day have saved thy life, and the lives of thy sons and of thy daughters, and the lives of thy wives, and the lives of thy concubines;",
+      "web": "Joab came into the house to the king, and said, “Today you have shamed the faces of all your servants, who today have saved your life, and the lives of your sons and of your daughters, and the lives of your wives, and the lives of your concubines;",
+      "ct": "Joab went inside to confront the king. \"Today you've humiliated every one of your men — the very people who saved your life, and the lives of your sons, your daughters, your wives, and your concubines."
+    },
+    {
+      "verse": 6,
+      "kjv": "In that thou lovest thine enemies, and hatest thy friends. For thou hast declared this day, that thou regardest neither princes nor servants: for this day I perceive, that if Absalom had lived, and all we had died this day, then it had pleased thee well.",
+      "web": "in that you love those who hate you, and hate those who love you. For you have declared today that princes and servants are nothing to you. For today I perceive that if Absalom had lived, and all we had died today, then it would have pleased you well.",
+      "ct": "You love the people who hate you and hate the people who love you. You've made it clear today that your commanders and soldiers mean nothing to you. I can see that if Absalom were alive and the rest of us were dead, you'd be perfectly happy."
+    },
+    {
+      "verse": 7,
+      "kjv": "Now therefore arise, go forth, and speak comfortably unto thy servants: for I swear by the LORD, if thou go not forth, there will not tarry one with thee this night: and that will be worse unto thee than all the evil that befell thee from thy youth until now.",
+      "web": "Now therefore arise, go out, and speak to comfort your servants; for I swear by LORD, if you don’t go out, not a man will stay with you this night. That would be worse to you than all the evil that has happened to you from your youth until now.”",
+      "ct": "Now get up, go out there, and encourage your men. I swear by the LORD, if you don't go out, not a single soldier will stay with you by tonight — and that will be worse for you than every disaster you've faced since you were young.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Then the king arose, and sat in the gate. And they told unto all the people, saying, Behold, the king doth sit in the gate. And all the people came before the king: for Israel had fled every man to his tent.",
+      "web": "Then the king arose, and sat in the gate. They told to all the people, saying, “Behold, the king is sitting in the gate.” All the people came before the king. Now Israel had fled every man to his tent.",
+      "ct": "So the king got up and took his seat at the city gate. When word spread that the king was sitting in the gate, all the troops came and gathered before him. Meanwhile, the Israelite rebels had scattered, each man fleeing to his own home."
+    },
+    {
+      "verse": 9,
+      "kjv": "And all the people were at strife throughout all the tribes of Israel, saying, The king saved us out of the hand of our enemies, and he delivered us out of the hand of the Philistines; and now he is fled out of the land for Absalom.",
+      "web": "All the people were at strife throughout all the tribes of Israel, saying, “The king delivered us out of the hand of our enemies, and he saved us out of the hand of the Philistines; and now he has fled out of the land from Absalom.",
+      "ct": "Throughout all the tribes of Israel, people were arguing with each other. They said, \"The king rescued us from our enemies — he's the one who saved us from the Philistines. But then he had to flee the country because of Absalom."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Absalom, whom we anointed over us, is dead in battle. Now therefore why speak ye not a word of bringing the king back?",
+      "web": "Absalom, whom we anointed over us, is dead in battle. Now therefore why don’t you speak a word of bringing the king back?”",
+      "ct": "And Absalom, the man we anointed as our king, is dead in battle. So why isn't anyone talking about bringing King David back?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And king David sent to Zadok and to Abiathar the priests, saying, Speak unto the elders of Judah, saying, Why are ye the last to bring the king back to his house? seeing the speech of all Israel is come to the king, even to his house.",
+      "web": "King David sent to Zadok and to Abiathar the priests, saying, “Speak to the elders of Judah, saying, ‘Why are you the last to bring the king back to his house? Since the speech of all Israel has come to the king, to return him to his house.",
+      "ct": "King David sent a message to the priests Zadok and Abiathar: \"Go to the elders of Judah and ask them, 'Why are you the last ones to bring the king back to his palace? Word has already reached the king that all of Israel wants him to return.'"
+    },
+    {
+      "verse": 12,
+      "kjv": "Ye are my brethren, ye are my bones and my flesh: wherefore then are ye the last to bring back the king?",
+      "web": "You are my brothers. You are my bone and my flesh. Why then are you the last to bring back the king?’",
+      "ct": "You are my own relatives — my own flesh and blood. So why should you be the last to bring me back?\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And say ye to Amasa, Art thou not of my bone, and of my flesh? God do so to me, and more also, if thou be not captain of the host before me continually in the room of Joab.",
+      "web": "Say to Amasa, ‘Aren’t you my bone and my flesh? God do so to me, and more also, if you aren’t captain of the army before me continually instead of Joab.’ ”",
+      "ct": "\"And tell Amasa, 'You are my own flesh and blood. May God strike me dead if I don't make you commander of my army permanently, replacing Joab.'\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And he bowed the heart of all the men of Judah, even as the heart of one man; so that they sent this word unto the king, Return thou, and all thy servants.",
+      "web": "He bowed the heart of all the men of Judah, even as one man; so that they sent to the king, saying, “Return, you and all your servants.”",
+      "ct": "David won over the hearts of every man in Judah as if they were one person. They sent word to the king: \"Come back — you and all your men.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "So the king returned, and came to Jordan. And Judah came to Gilgal, to go to meet the king, to conduct the king over Jordan.",
+      "web": "So the king returned, and came to the Jordan. Judah came to Gilgal, to go to meet the king, to bring the king over the Jordan.",
+      "ct": "So the king headed back and arrived at the Jordan River. The men of Judah came to Gilgal to meet him and escort him across the Jordan."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Shimei the son of Gera, a Benjamite, which was of Bahurim, hasted and came down with the men of Judah to meet king David.",
+      "web": "Shimei the son of Gera, the Benjamite, who was of Bahurim, hurried and came down with the men of Judah to meet king David.",
+      "ct": "Shimei son of Gera, the Benjamite from Bahurim, rushed down with the men of Judah to meet King David."
+    },
+    {
+      "verse": 17,
+      "kjv": "And there were a thousand men of Benjamin with him, and Ziba the servant of the house of Saul, and his fifteen sons and his twenty servants with him; and they went over Jordan before the king.",
+      "web": "There were a thousand men of Benjamin with him, and Ziba the servant of Saul’s house, and his fifteen sons and his twenty servants with him; and they went through the Jordan in the presence of the king.",
+      "ct": "A thousand men from the tribe of Benjamin came with him, along with Ziba — the servant of Saul's household — and his 15 sons and 20 servants. They all hurried to the Jordan ahead of the king."
+    },
+    {
+      "verse": 18,
+      "kjv": "And there went over a ferry boat to carry over the king’s household, and to do what he thought good. And Shimei the son of Gera fell down before the king, as he was come over Jordan;",
+      "web": "A ferry boat went to bring over the king’s household, and to do what he thought good. Shimei the son of Gera fell down before the king, when he had come over the Jordan.",
+      "ct": "A ferryboat crossed over to bring the king's household across and to serve him however he wished. As the king was about to cross the Jordan, Shimei son of Gera threw himself facedown before him."
+    },
+    {
+      "verse": 19,
+      "kjv": "And said unto the king, Let not my lord impute iniquity unto me, neither do thou remember that which thy servant did perversely the day that my lord the king went out of Jerusalem, that the king should take it to his heart.",
+      "web": "He said to the king, “Don’t let my lord impute iniquity to me, or remember that which your servant did perversely the day that my lord the king went out of Jerusalem, that the king should take it to his heart.",
+      "ct": "He said to the king, \"Please don't hold my sin against me, my lord. Don't remember the terrible thing I did on the day you left Jerusalem. Please don't take it to heart."
+    },
+    {
+      "verse": 20,
+      "kjv": "For thy servant doth know that I have sinned: therefore, behold, I am come the first this day of all the house of Joseph to go down to meet my lord the king.",
+      "web": "For your servant knows that I have sinned. Therefore behold, I have come today as the first of all the house of Joseph to go down to meet my lord the king.”",
+      "ct": "I know I sinned. That's why I came here today — the first of anyone from the house of Joseph to come down and meet my lord the king.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "But Abishai the son of Zeruiah answered and said, Shall not Shimei be put to death for this, because he cursed the LORD’s anointed?",
+      "web": "But Abishai the son of Zeruiah answered, “Shouldn’t Shimei be put to death for this, because he cursed LORD’s anointed?”",
+      "ct": "But Abishai son of Zeruiah spoke up: \"Shouldn't Shimei be executed for this? He cursed the LORD's anointed!\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And David said, What have I to do with you, ye sons of Zeruiah, that ye should this day be adversaries unto me? shall there any man be put to death this day in Israel? for do not I know that I am this day king over Israel?",
+      "web": "David said, “What have I to do with you, you sons of Zeruiah, that you should be adversaries to me today? Shall any man be put to death today in Israel? For don’t I know that I am king over Israel today?”",
+      "ct": "David replied, \"What business is this of yours, sons of Zeruiah? Why are you trying to pick a fight with me today? No one is going to be put to death in Israel today. Don't I know that today I am king over Israel again?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Therefore the king said unto Shimei, Thou shalt not die. And the king sware unto him.",
+      "web": "The king said to Shimei, “You will not die.” The king swore to him.",
+      "ct": "Then the king turned to Shimei and said, \"You will not die.\" And the king swore an oath to him."
+    },
+    {
+      "verse": 24,
+      "kjv": "And Mephibosheth the son of Saul came down to meet the king, and had neither dressed his feet, nor trimmed his beard, nor washed his clothes, from the day the king departed until the day he came again in peace.",
+      "web": "Mephibosheth the son of Saul came down to meet the king; and he had neither groomed his feet, nor trimmed his beard, nor washed his clothes, from the day the king departed until the day he came home in peace.",
+      "ct": "Mephibosheth, Saul's grandson, also came down to meet the king. He hadn't washed his feet, trimmed his beard, or laundered his clothes from the day the king left until the day he returned safely."
+    },
+    {
+      "verse": 25,
+      "kjv": "And it came to pass, when he was come to Jerusalem to meet the king, that the king said unto him, Wherefore wentest not thou with me, Mephibosheth?",
+      "web": "When he had come to Jerusalem to meet the king, the king said to him, “Why didn’t you go with me, Mephibosheth?”",
+      "ct": "When he arrived from Jerusalem to meet the king, David asked him, \"Why didn't you come with me, Mephibosheth?\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And he answered, My lord, O king, my servant deceived me: for thy servant said, I will saddle me an ass, that I may ride thereon, and go to the king; because thy servant is lame.",
+      "web": "He answered, “My lord, O king, my servant deceived me. For your servant said, ‘I will saddle a donkey for myself, that I may ride on it and go with the king,’ because your servant is lame.",
+      "ct": "He answered, \"My lord the king, my servant Ziba deceived me. I told him, 'Saddle a donkey for me so I can ride it and go with the king,' because as you know, I'm lame."
+    },
+    {
+      "verse": 27,
+      "kjv": "And he hath slandered thy servant unto my lord the king; but my lord the king is as an angel of God: do therefore what is good in thine eyes.",
+      "web": "He has slandered your servant to my lord the king, but my lord the king is as an angel of God. Therefore do what is good in your eyes.",
+      "ct": "Ziba slandered me to my lord the king. But my lord the king is like an angel of God — so do whatever you think is right.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "For all of my father’s house were but dead men before my lord the king: yet didst thou set thy servant among them that did eat at thine own table. What right therefore have I yet to cry any more unto the king?",
+      "web": "For all my father’s house were but dead men before my lord the king; yet you set your servant among those who ate at your own table. What right therefore have I yet that I should cry any more to the king?”",
+      "ct": "\"My grandfather's entire family deserved death at your hands, yet you gave me a place at your own table. What right do I have to ask the king for anything more?\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And the king said unto him, Why speakest thou any more of thy matters? I have said, Thou and Ziba divide the land.",
+      "web": "The king said to him, “Why do you speak any more of your matters? I say, you and Ziba divide the land.”",
+      "ct": "The king said to him, \"Enough — I've made my decision. You and Ziba will split the land.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And Mephibosheth said unto the king, Yea, let him take all, forasmuch as my lord the king is come again in peace unto his own house.",
+      "web": "Mephibosheth said to the king, “Yes, let him take all, because my lord the king has come in peace to his own house.”",
+      "ct": "Mephibosheth replied, \"Let him have it all. I'm just glad my lord the king has come home safely.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And Barzillai the Gileadite came down from Rogelim, and went over Jordan with the king, to conduct him over Jordan.",
+      "web": "Barzillai the Gileadite came down from Rogelim; and he went over the Jordan with the king, to conduct him over the Jordan.",
+      "ct": "Barzillai the Gileadite came down from Rogelim and crossed the Jordan with the king to see him off on the other side."
+    },
+    {
+      "verse": 32,
+      "kjv": "Now Barzillai was a very aged man, even fourscore years old: and he had provided the king of sustenance while he lay at Mahanaim; for he was a very great man.",
+      "web": "Now Barzillai was a very aged man, even eighty years old. He had provided the king with sustenance while he stayed at Mahanaim; for he was a very great man.",
+      "ct": "Barzillai was very old — 80 years old. He had provided for the king during his stay at Mahanaim, because he was a very wealthy man."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the king said unto Barzillai, Come thou over with me, and I will feed thee with me in Jerusalem.",
+      "web": "The king said to Barzillai, “Come over with me, and I will sustain you with me in Jerusalem.”",
+      "ct": "The king said to Barzillai, \"Cross over with me and come live in Jerusalem. I'll take care of you there.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And Barzillai said unto the king, How long have I to live, that I should go up with the king unto Jerusalem?",
+      "web": "Barzillai said to the king, “How many are the days of the years of my life, that I should go up with the king to Jerusalem?",
+      "ct": "But Barzillai replied, \"How many years do I have left that I should go to Jerusalem with the king?"
+    },
+    {
+      "verse": 35,
+      "kjv": "I am this day fourscore years old: and can I discern between good and evil? can thy servant taste what I eat or what I drink? can I hear any more the voice of singing men and singing women? wherefore then should thy servant be yet a burden unto my lord the king?",
+      "web": "I am eighty years old, today. Can I discern between good and bad? Can your servant taste what I eat or what I drink? Can I hear the voice of singing men and singing women any more? Why then should your servant be a burden to my lord the king?",
+      "ct": "I'm 80 years old today. I can barely tell the difference between what's good and what's bad anymore. I can't taste my food or drink. I can't hear the singers. Why should I be a burden to my lord the king?"
+    },
+    {
+      "verse": 36,
+      "kjv": "Thy servant will go a little way over Jordan with the king: and why should the king recompense it me with such a reward?",
+      "web": "Your servant would but just go over the Jordan with the king. Why should the king repay me with such a reward?",
+      "ct": "I'll just cross the Jordan with the king — that's enough. Why should the king give me such a generous reward?"
+    },
+    {
+      "verse": 37,
+      "kjv": "Let thy servant, I pray thee, turn back again, that I may die in mine own city, and be buried by the grave of my father and of my mother. But behold thy servant Chimham; let him go over with my lord the king; and do to him what shall seem good unto thee.",
+      "web": "Please let your servant turn back again, that I may die in my own city, by the grave of my father and my mother. But behold, your servant Chimham; let him go over with my lord the king; and do to him what shall seem good to you.”",
+      "ct": "Please let me go back home so I can die in my own town, near the graves of my father and mother. But here is my son Chimham — let him go with my lord the king, and do for him whatever you think is best.\""
+    },
+    {
+      "verse": 38,
+      "kjv": "And the king answered, Chimham shall go over with me, and I will do to him that which shall seem good unto thee: and whatsoever thou shalt require of me, that will I do for thee.",
+      "web": "The king answered, “Chimham shall go over with me, and I will do to him that which shall seem good to you. Whatever you request of me, that I will do for you.”",
+      "ct": "The king answered, \"Chimham will come with me, and I'll do for him whatever you wish. And anything else you ask of me, I'll do it for you.\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And all the people went over Jordan. And when the king was come over, the king kissed Barzillai, and blessed him; and he returned unto his own place.",
+      "web": "All the people went over the Jordan, and the king went over. Then the king kissed Barzillai, and blessed him; and he returned to his own place.",
+      "ct": "So all the people crossed the Jordan, and then the king crossed over. He kissed Barzillai and blessed him, and Barzillai returned home."
+    },
+    {
+      "verse": 40,
+      "kjv": "Then the king went on to Gilgal, and Chimham went on with him: and all the people of Judah conducted the king, and also half the people of Israel.",
+      "web": "So the king went over to Gilgal, and Chimham went over with him. All the people of Judah brought the king over, and also half the people of Israel.",
+      "ct": "The king continued on to Gilgal, and Chimham went with him. All the men of Judah escorted the king across, along with half the men of Israel."
+    },
+    {
+      "verse": 41,
+      "kjv": "And, behold, all the men of Israel came to the king, and said unto the king, Why have our brethren the men of Judah stolen thee away, and have brought the king, and his household, and all David’s men with him, over Jordan?",
+      "web": "Behold, all the men of Israel came to the king, and said to the king, “Why have our brothers the men of Judah stolen you away, and brought the king, and his household, over the Jordan, and all David’s men with him?”",
+      "ct": "Then all the men of Israel came to the king and demanded, \"Why did our brothers from Judah sneak you away and bring the king and his household across the Jordan, along with all of David's men?\""
+    },
+    {
+      "verse": 42,
+      "kjv": "And all the men of Judah answered the men of Israel, Because the king is near of kin to us: wherefore then be ye angry for this matter? have we eaten at all of the king’s cost? or hath he given us any gift?",
+      "web": "All the men of Judah answered the men of Israel, “Because the king is a close relative to us. Why then are you angry about this matter? Have we eaten at all at the king’s cost? Or has he given us any gift?”",
+      "ct": "The men of Judah answered, \"Because the king is our close relative. Why are you so upset about this? Have we eaten any of the king's food? Has he given us any special gifts?\""
+    },
+    {
+      "verse": 43,
+      "kjv": "And the men of Israel answered the men of Judah, and said, We have ten parts in the king, and we have also more right in David than ye: why then did ye despise us, that our advice should not be first had in bringing back our king? And the words of the men of Judah were fiercer than the words of the men of Israel.",
+      "web": "The men of Israel answered the men of Judah, and said, “We have ten parts in the king, and we have also more claim to David than you. Why then did you despise us, that our advice should not be first had in bringing back our king?” The words of the men of Judah were fiercer than the words of the men of Israel.",
+      "ct": "The men of Israel shot back, \"We have 10 shares in the king to your one — we have a greater claim on David than you do! So why did you treat us with such contempt? Weren't we the first to talk about bringing the king back?\" But the men of Judah responded even more harshly than the men of Israel."
+    }
+  ]
+}

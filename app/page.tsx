@@ -652,7 +652,7 @@ export default function ClearBibleLanding() {
         }}>
           <StatBlock number="66" label="Books of the Bible" />
           <StatBlock number="1,189" label="Chapters" />
-          <StatBlock number="31,102" label="Verses Explained" />
+          <StatBlock number="100%" label="Free to Read" />
         </div>
       </section>
 

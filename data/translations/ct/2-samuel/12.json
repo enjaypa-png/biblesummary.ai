@@ -1,0 +1,197 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:54:05.189Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD sent Nathan unto David. And he came unto him, and said unto him, There were two men in one city; the one rich, and the other poor.",
+      "web": "LORD sent Nathan to David. He came to him, and said to him, “There were two men in one city; the one rich, and the other poor.",
+      "ct": "The LORD sent the prophet Nathan to David. Nathan came to him and said, \"There were 2 men living in the same city — one was rich and the other was poor."
+    },
+    {
+      "verse": 2,
+      "kjv": "The rich man had exceeding many flocks and herds:",
+      "web": "The rich man had very many flocks and herds,",
+      "ct": "The rich man owned enormous flocks and herds."
+    },
+    {
+      "verse": 3,
+      "kjv": "But the poor man had nothing, save one little ewe lamb, which he had bought and nourished up: and it grew up together with him, and with his children; it did eat of his own meat, and drank of his own cup, and lay in his bosom, and was unto him as a daughter.",
+      "web": "but the poor man had nothing, except one little ewe lamb, which he had bought and raised. It grew up together with him, and with his children. It ate of his own food, drank of his own cup, and lay in his bosom, and was like a daughter to him.",
+      "ct": "But the poor man had nothing except one little lamb he had bought and raised himself. It grew up alongside him and his children. It ate from his plate, drank from his cup, and slept in his arms. He loved it like a daughter."
+    },
+    {
+      "verse": 4,
+      "kjv": "And there came a traveller unto the rich man, and he spared to take of his own flock and of his own herd, to dress for the wayfaring man that was come unto him; but took the poor man’s lamb, and dressed it for the man that was come to him.",
+      "web": "A traveler came to the rich man, and he spared to take of his own flock and of his own herd, to prepare for the wayfaring man who had come to him, but took the poor man’s lamb, and prepared it for the man who had come to him.”",
+      "ct": "One day a traveler came to visit the rich man. But instead of taking an animal from his own massive flocks to prepare a meal for his guest, the rich man took the poor man's lamb and cooked it for his visitor.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And David’s anger was greatly kindled against the man; and he said to Nathan, As the LORD liveth, the man that hath done this thing shall surely die:",
+      "web": "David’s anger burned hot against the man, and he said to Nathan, “As LORD lives, the man who has done this deserves to die!",
+      "ct": "David was furious. He said to Nathan, \"As surely as the LORD lives, the man who did this deserves to die!"
+    },
+    {
+      "verse": 6,
+      "kjv": "And he shall restore the lamb fourfold, because he did this thing, and because he had no pity.",
+      "web": "He must restore the lamb fourfold, because he did this thing, and because he had no pity!”",
+      "ct": "And he must pay back 4 times the value of that lamb — because he did such a heartless thing without an ounce of pity.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And Nathan said to David, Thou art the man. Thus saith the LORD God of Israel, I anointed thee king over Israel, and I delivered thee out of the hand of Saul;",
+      "web": "Nathan said to David, “You are the man. This is what LORD, the God of Israel, says: ‘I anointed you king over Israel, and I delivered you out of the hand of Saul.",
+      "ct": "Nathan looked at David and said, \"You are that man. This is what the LORD, the God of Israel, says: 'I anointed you king over Israel. I rescued you from Saul."
+    },
+    {
+      "verse": 8,
+      "kjv": "And I gave thee thy master’s house, and thy master’s wives into thy bosom, and gave thee the house of Israel and of Judah; and if that had been too little, I would moreover have given unto thee such and such things.",
+      "web": "I gave you your master’s house, and your master’s wives into your bosom, and gave you the house of Israel and of Judah; and if that would have been too little, I would have added to you many more such things.",
+      "ct": "I gave you your master's household and your master's wives. I gave you all of Israel and Judah. And if that hadn't been enough, I would have given you even more."
+    },
+    {
+      "verse": 9,
+      "kjv": "Wherefore hast thou despised the commandment of the LORD, to do evil in his sight? thou hast killed Uriah the Hittite with the sword, and hast taken his wife to be thy wife, and hast slain him with the sword of the children of Ammon.",
+      "web": "Why have you despised LORD’s word, to do that which is evil in his sight? You have struck Uriah the Hittite with the sword, and have taken his wife to be your wife, and have slain him with the sword of the children of Ammon.",
+      "ct": "So why did you treat the LORD's command with contempt and do what he considers evil? You had Uriah the Hittite killed by the sword. You took his wife as your own. You used the Ammonite army as your murder weapon."
+    },
+    {
+      "verse": 10,
+      "kjv": "Now therefore the sword shall never depart from thine house; because thou hast despised me, and hast taken the wife of Uriah the Hittite to be thy wife.",
+      "web": "Now therefore the sword will never depart from your house, because you have despised me, and have taken Uriah the Hittite’s wife to be your wife.’",
+      "ct": "Because of this, violence will never leave your family — because you treated me with contempt and took Uriah the Hittite's wife for yourself.'"
+    },
+    {
+      "verse": 11,
+      "kjv": "Thus saith the LORD, Behold, I will raise up evil against thee out of thine own house, and I will take thy wives before thine eyes, and give them unto thy neighbour, and he shall lie with thy wives in the sight of this sun.",
+      "web": "“This is what LORD says: ‘Behold, I will raise up evil against you out of your own house; and I will take your wives before your eyes, and give them to your neighbor, and he will lie with your wives in the sight of this sun.",
+      "ct": "\"The LORD also says this: 'I am going to bring disaster on you from within your own household. Right before your eyes, I will take your wives and give them to someone close to you, and he will sleep with them in broad daylight."
+    },
+    {
+      "verse": 12,
+      "kjv": "For thou didst it secretly: but I will do this thing before all Israel, and before the sun.",
+      "web": "For you did this secretly, but I will do this thing before all Israel, and before the sun.’ ”",
+      "ct": "You did what you did in secret, but I will make this happen in full view of all Israel, under the open sun.'\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die.",
+      "web": "David said to Nathan, “I have sinned against LORD.” Nathan said to David, “LORD also has put away your sin. You will not die.",
+      "ct": "David said to Nathan, \"I have sinned against the LORD.\" Nathan replied, \"The LORD has taken away your sin. You will not die."
+    },
+    {
+      "verse": 14,
+      "kjv": "Howbeit, because by this deed thou hast given great occasion to the enemies of the LORD to blaspheme, the child also that is born unto thee shall surely die.",
+      "web": "However, because by this deed you have given great occasion to LORD’s enemies to blaspheme, the child also who is born to you will surely die.”",
+      "ct": "But because you have given the LORD's enemies a reason to mock him, the child that has been born to you will surely die.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And Nathan departed unto his house. And the LORD struck the child that Uriah’s wife bare unto David, and it was very sick.",
+      "web": "Nathan departed to his house. LORD struck the child that Uriah’s wife bore to David, and it was very sick.",
+      "ct": "Then Nathan went home. The LORD struck the child that Uriah's wife had borne to David, and the boy became very sick."
+    },
+    {
+      "verse": 16,
+      "kjv": "David therefore besought God for the child; and David fasted, and went in, and lay all night upon the earth.",
+      "web": "David therefore begged God for the child; and David fasted, and went in, and lay all night on the ground.",
+      "ct": "David begged God to spare the child. He fasted, went inside, and lay on the ground all night."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the elders of his house arose, and went to him, to raise him up from the earth: but he would not, neither did he eat bread with them.",
+      "web": "The elders of his house arose beside him, to raise him up from the earth: but he would not, and he didn’t eat bread with them.",
+      "ct": "The senior members of his household came and tried to get him up off the ground, but he refused. He wouldn't eat anything with them."
+    },
+    {
+      "verse": 18,
+      "kjv": "And it came to pass on the seventh day, that the child died. And the servants of David feared to tell him that the child was dead: for they said, Behold, while the child was yet alive, we spake unto him, and he would not hearken unto our voice: how will he then vex himself, if we tell him that the child is dead?",
+      "web": "On the seventh day, the child died. David’s servants were afraid to tell him that the child was dead, for they said, “Behold, while the child was yet alive, we spoke to him, and he didn’t listen to our voice. How will he then harm himself, if we tell him that the child is dead?”",
+      "ct": "On the 7th day, the child died. David's servants were afraid to tell him, because they said to each other, \"When the child was still alive, we talked to him and he wouldn't listen to us. What will he do to himself if we tell him the child is dead?\""
+    },
+    {
+      "verse": 19,
+      "kjv": "But when David saw that his servants whispered, David perceived that the child was dead: therefore David said unto his servants, Is the child dead? And they said, He is dead.",
+      "web": "But when David saw that his servants were whispering together, David perceived that the child was dead; and David said to his servants, “Is the child dead?” They said, “He is dead.”",
+      "ct": "But David noticed his servants whispering to each other and realized the child had died. He asked them, \"Is the child dead?\" They answered, \"He is dead.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Then David arose from the earth, and washed, and anointed himself, and changed his apparel, and came into the house of the LORD, and worshipped: then he came to his own house; and when he required, they set bread before him, and he did eat.",
+      "web": "Then David arose from the earth, and washed, and anointed himself, and changed his clothing; and he came into LORD’s house, and worshiped. Then he came to his own house; and when he requested, they set bread before him, and he ate.",
+      "ct": "David got up from the ground, washed himself, put on oil, and changed his clothes. Then he went to the house of the LORD and worshiped. After that, he went home and asked for food. When they set it before him, he ate."
+    },
+    {
+      "verse": 21,
+      "kjv": "Then said his servants unto him, What thing is this that thou hast done? thou didst fast and weep for the child, while it was alive; but when the child was dead, thou didst rise and eat bread.",
+      "web": "Then his servants said to him, “What is this that you have done? You fasted and wept for the child while he was alive, but when the child was dead, you rose up and ate bread.”",
+      "ct": "His servants were confused. They asked him, \"What are you doing? You fasted and wept while the child was alive, but now that he's dead, you get up and eat?\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And he said, While the child was yet alive, I fasted and wept: for I said, Who can tell whether GOD will be gracious to me, that the child may live?",
+      "web": "He said, “While the child was yet alive, I fasted and wept; for I said, ‘Who knows whether LORD will not be gracious to me, that the child may live?’",
+      "ct": "David said, \"While the child was still alive, I fasted and wept because I thought, 'Who knows? Maybe the LORD will be gracious to me and let the child live.'"
+    },
+    {
+      "verse": 23,
+      "kjv": "But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me.",
+      "web": "But now he is dead, why should I fast? Can I bring him back again? I will go to him, but he will not return to me.”",
+      "ct": "But now that he's dead, why would I keep fasting? Can I bring him back? I will go to him one day, but he will never come back to me.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And David comforted Bathsheba his wife, and went in unto her, and lay with her: and she bare a son, and he called his name Solomon: and the LORD loved him.",
+      "web": "David comforted Bathsheba his wife, and went in to her, and lay with her. She bore a son, and he called his name Solomon. LORD loved him;",
+      "ct": "David comforted his wife Bathsheba. He slept with her, and she became pregnant and gave birth to a son. David named him Solomon, and the LORD loved the boy."
+    },
+    {
+      "verse": 25,
+      "kjv": "And he sent by the hand of Nathan the prophet; and he called his name Jedidiah, because of the LORD.",
+      "web": "and he sent by the hand of Nathan the prophet, and he named him Jedidiah, for LORD’s sake.",
+      "ct": "God sent word through the prophet Nathan and gave the child the name Jedidiah, because of the LORD's love for him."
+    },
+    {
+      "verse": 26,
+      "kjv": "And Joab fought against Rabbah of the children of Ammon, and took the royal city.",
+      "web": "Now Joab fought against Rabbah of the children of Ammon, and took the royal city.",
+      "ct": "Meanwhile, Joab was fighting against Rabbah, the capital of the Ammonites, and he captured the royal fortress."
+    },
+    {
+      "verse": 27,
+      "kjv": "And Joab sent messengers to David, and said, I have fought against Rabbah, and have taken the city of waters.",
+      "web": "Joab sent messengers to David, and said, “I have fought against Rabbah. Yes, I have taken the city of waters.",
+      "ct": "Joab sent messengers to David with this report: \"I've attacked Rabbah and captured its water supply."
+    },
+    {
+      "verse": 28,
+      "kjv": "Now therefore gather the rest of the people together, and encamp against the city, and take it: lest I take the city, and it be called after my name.",
+      "web": "Now therefore gather the rest of the people together, and encamp against the city, and take it; lest I take the city, and it be called by my name.”",
+      "ct": "Now gather the rest of the army, come lay siege to the city, and take it yourself — otherwise I'll capture it and it will be named after me.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And David gathered all the people together, and went to Rabbah, and fought against it, and took it.",
+      "web": "David gathered all the people together, and went to Rabbah, and fought against it, and took it.",
+      "ct": "So David assembled the entire army, marched to Rabbah, attacked it, and captured it."
+    },
+    {
+      "verse": 30,
+      "kjv": "And he took their king’s crown from off his head, the weight whereof was a talent of gold with the precious stones: and it was set on David’s head. And he brought forth the spoil of the city in great abundance.",
+      "web": "He took the crown of their king from off his head; and its weight was a talent of gold, and in it were precious stones; and it was set on David’s head. He brought a great quantity of plunder out of the city.",
+      "ct": "He took the crown from the head of the Ammonite king — it weighed a talent of gold and was set with precious stones — and it was placed on David's head. He also carried off a massive amount of plunder from the city."
+    },
+    {
+      "verse": 31,
+      "kjv": "And he brought forth the people that were therein, and put them under saws, and under harrows of iron, and under axes of iron, and made them pass through the brick-kiln: and thus did he unto all the cities of the children of Ammon. So David and all the people returned unto Jerusalem.",
+      "web": "He brought out the people who were in it, and put them under saws, under iron picks, under axes of iron, and made them pass through the brick kiln; and he did so to all the cities of the children of Ammon. Then David and all the people returned to Jerusalem.",
+      "ct": "He brought out the people who lived there and put them to forced labor with saws, iron picks, and iron axes, and made them work at the brick kilns. He did this to every Ammonite city. Then David and the entire army returned to Jerusalem."
+    }
+  ]
+}

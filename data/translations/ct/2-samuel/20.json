@@ -1,0 +1,167 @@
+{
+  "book": "2-samuel",
+  "book_name": "2 Samuel",
+  "chapter": 20,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:58:32.928Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And there happened to be there a man of Belial, whose name was Sheba, the son of Bichri, a Benjamite: and he blew a trumpet, and said, We have no part in David, neither have we inheritance in the son of Jesse: every man to his tents, O Israel.",
+      "web": "There happened to be there a wicked fellow, whose name was Sheba, the son of Bichri, a Benjamite; and he blew the trumpet, and said, “We have no portion in David, neither have we inheritance in the son of Jesse. Every man to his tents, Israel!”",
+      "ct": "Now a troublemaker named Sheba son of Bichri, a Benjamite, happened to be there. He blew a trumpet and shouted, \"We have no stake in David! We owe nothing to the son of Jesse! Everyone go home, Israel!\""
+    },
+    {
+      "verse": 2,
+      "kjv": "So every man of Israel went up from after David, and followed Sheba the son of Bichri: but the men of Judah clave unto their king, from Jordan even to Jerusalem.",
+      "web": "So all the men of Israel went up from following David, and followed Sheba the son of Bichri; but the men of Judah joined with their king, from the Jordan even to Jerusalem.",
+      "ct": "So all the men of Israel abandoned David and followed Sheba son of Bichri instead. But the men of Judah stayed loyal to their king and escorted him from the Jordan all the way to Jerusalem."
+    },
+    {
+      "verse": 3,
+      "kjv": "And David came to his house at Jerusalem; and the king took the ten women his concubines, whom he had left to keep the house, and put them in ward, and fed them, but went not in unto them. So they were shut up unto the day of their death, living in widowhood.",
+      "web": "David came to his house at Jerusalem; and the king took the ten women his concubines, whom he had left to keep the house, and put them in custody, and provided them with sustenance, but didn’t go in to them. So they were shut up to the day of their death, living in widowhood.",
+      "ct": "When David arrived at his palace in Jerusalem, he took the 10 concubines he had left behind to look after the house and placed them under guard. He provided for their needs but never slept with them again. They lived like widows, confined there until the day they died."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said the king to Amasa, Assemble me the men of Judah within three days, and be thou here present.",
+      "web": "Then the king said to Amasa, “Call me the men of Judah together within three days, and be here present.”",
+      "ct": "The king told Amasa, \"Gather the men of Judah and report back to me within 3 days.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "So Amasa went to assemble the men of Judah: but he tarried longer than the set time which he had appointed him.",
+      "web": "So Amasa went to call the men of Judah together; but he stayed longer than the set time which he had appointed him.",
+      "ct": "Amasa went to assemble the men of Judah, but he took longer than the deadline David had given him."
+    },
+    {
+      "verse": 6,
+      "kjv": "And David said to Abishai, Now shall Sheba the son of Bichri do us more harm than did Absalom: take thou thy lord’s servants, and pursue after him, lest he get him fenced cities, and escape us.",
+      "web": "David said to Abishai, “Now Sheba the son of Bichri will do us more harm than Absalom did. Take your lord’s servants, and pursue after him, lest he get himself fortified cities, and escape out of our sight.”",
+      "ct": "David said to Abishai, \"Sheba son of Bichri is going to cause us more trouble than Absalom ever did. Take my soldiers and go after him before he reaches fortified cities and slips away from us.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And there went out after him Joab’s men, and the Cherethites, and the Pelethites, and all the mighty men: and they went out of Jerusalem, to pursue after Sheba the son of Bichri.",
+      "web": "Joab’s men went out after him, and the Cherethites and the Pelethites, and all the mighty men; and they went out of Jerusalem, to pursue Sheba the son of Bichri.",
+      "ct": "So Joab's men marched out along with the Cherethites, the Pelethites, and all the elite warriors. They left Jerusalem to pursue Sheba son of Bichri."
+    },
+    {
+      "verse": 8,
+      "kjv": "When they were at the great stone which is in Gibeon, Amasa went before them. And Joab’s garment that he had put on was girded unto him, and upon it a girdle with a sword fastened upon his loins in the sheath thereof; and as he went forth it fell out.",
+      "web": "When they were at the great stone which is in Gibeon, Amasa came to meet them. Joab was clothed in his apparel of war that he had put on, and on it was a sash with a sword fastened on his waist in its sheath; and as he went along it fell out.",
+      "ct": "When they reached the great stone at Gibeon, Amasa came to meet them. Joab was wearing his military gear, with a belt around his waist that held a sword in its sheath. As he stepped forward, the sword slipped out."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Joab said to Amasa, Art thou in health, my brother? And Joab took Amasa by the beard with the right hand to kiss him.",
+      "web": "Joab said to Amasa, “Is it well with you, my brother?” Joab took Amasa by the beard with his right hand to kiss him.",
+      "ct": "Joab said to Amasa, \"How are you, my brother?\" Then he grabbed Amasa's beard with his right hand as if to kiss him."
+    },
+    {
+      "verse": 10,
+      "kjv": "But Amasa took no heed to the sword that was in Joab’s hand: so he smote him therewith in the fifth rib, and shed out his bowels to the ground, and struck him not again; and he died. So Joab and Abishai his brother pursued after Sheba the son of Bichri.",
+      "web": "But Amasa took no heed to the sword that was in Joab’s hand. So he struck him with it in the body, and shed out his bowels to the ground, and didn’t strike him again; and he died. Joab and Abishai his brother pursued Sheba the son of Bichri.",
+      "ct": "Amasa didn't notice the sword in Joab's other hand. Joab stabbed him in the stomach, spilling his insides onto the ground. He didn't need to strike again — Amasa died from that single blow. Then Joab and his brother Abishai continued pursuing Sheba son of Bichri."
+    },
+    {
+      "verse": 11,
+      "kjv": "And one of Joab’s men stood by him, and said, He that favoureth Joab, and he that is for David, let him go after Joab.",
+      "web": "One of Joab’s young men stood by him, and said, “He who favors Joab, and he who is for David, let him follow Joab!”",
+      "ct": "One of Joab's men stood beside Amasa's body and called out, \"Anyone who supports Joab and is loyal to David — follow Joab!\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And Amasa wallowed in blood in the midst of the highway. And when the man saw that all the people stood still, he removed Amasa out of the highway into the field, and cast a cloth upon him, when he saw that every one that came by him stood still.",
+      "web": "Amasa lay wallowing in his blood in the middle of the highway. When the man saw that all the people stood still, he carried Amasa out of the highway into the field, and cast a garment over him, when he saw that everyone who came by him stood still.",
+      "ct": "Amasa lay in a pool of blood in the middle of the road. When the soldier noticed that everyone who passed by stopped to stare, he dragged Amasa's body off the road into a field and threw a cloth over it."
+    },
+    {
+      "verse": 13,
+      "kjv": "When he was removed out of the highway, all the people went on after Joab, to pursue after Sheba the son of Bichri.",
+      "web": "When he was removed out of the highway, all the people went on after Joab, to pursue Sheba the son of Bichri.",
+      "ct": "Once the body was moved off the road, all the troops continued on after Joab to pursue Sheba son of Bichri."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he went through all the tribes of Israel unto Abel, and to Bethmaachah, and all the Berites: and they were gathered together, and went also after him.",
+      "web": "He went through all the tribes of Israel to Abel, and to Beth Maacah, and all the Berites. They were gathered together, and went also after him.",
+      "ct": "Sheba traveled through all the tribes of Israel to Abel of Beth Maacah, and all the Berites rallied together and followed him there."
+    },
+    {
+      "verse": 15,
+      "kjv": "And they came and besieged him in Abel of Bethmaachah, and they cast up a bank against the city, and it stood in the trench: and all the people that were with Joab battered the wall, to throw it down.",
+      "web": "They came and besieged him in Abel of Beth Maacah, and they cast up a mound against the city, and it stood against the rampart; and all the people who were with Joab battered the wall, to throw it down.",
+      "ct": "Joab's forces arrived and laid siege to Sheba in Abel of Beth Maacah. They built a siege ramp against the city wall, and all of Joab's troops began battering the wall to bring it down."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee.",
+      "web": "Then a wise woman cried out of the city, “Hear, hear! Please say to Joab, ‘Come near here, that I may speak with you.’ ”",
+      "ct": "Then a wise woman called out from inside the city, \"Listen! Listen! Tell Joab to come closer so I can speak with him!\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear.",
+      "web": "He came near to her; and the woman said, “Are you Joab?” He answered, “I am.” Then she said to him, “Hear the words of your servant.” He answered, “I’m listening.”",
+      "ct": "When he came near, the woman asked, \"Are you Joab?\" He said, \"I am.\" She said, \"Please hear what your servant has to say.\" He replied, \"I'm listening.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then she spake, saying, They were wont to speak in old time, saying, They shall surely ask counsel at Abel: and so they ended the matter.",
+      "web": "Then she spoke, saying, “They used to say in old times, ‘They shall surely ask counsel at Abel;’ and so they settled a matter.",
+      "ct": "She said, \"There's an old saying: 'If you need wise counsel, go to Abel' — and that's how disputes were always settled."
+    },
+    {
+      "verse": 19,
+      "kjv": "I am one of them that are peaceable and faithful in Israel: thou seekest to destroy a city and a mother in Israel: why wilt thou swallow up the inheritance of the LORD?",
+      "web": "I am among those who are peaceable and faithful in Israel. You seek to destroy a city and a mother in Israel. Why will you swallow up LORD’s inheritance?”",
+      "ct": "I represent people who are peaceful and faithful in Israel. Yet you're trying to destroy a city that is like a mother in Israel. Why would you swallow up the inheritance of the LORD?\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Joab answered and said, Far be it, far be it from me, that I should swallow up or destroy.",
+      "web": "Joab answered, “Far be it, far be it from me, that I should swallow up or destroy.",
+      "ct": "Joab answered, \"Absolutely not! I have no desire to swallow up or destroy anything."
+    },
+    {
+      "verse": 21,
+      "kjv": "The matter is not so: but a man of mount Ephraim, Sheba the son of Bichri by name, hath lifted up his hand against the king, even against David: deliver him only, and I will depart from the city. And the woman said unto Joab, Behold, his head shall be thrown to thee over the wall.",
+      "web": "The matter is not so. But a man of the hill country of Ephraim, Sheba the son of Bichri by name, has lifted up his hand against the king, even against David. Just deliver him, and I will depart from the city.” The woman said to Joab, “Behold, his head will be thrown to you over the wall.”",
+      "ct": "That's not what this is about. A man from the hill country of Ephraim — Sheba son of Bichri — has rebelled against King David. Just hand him over, and I'll withdraw from the city.\" The woman told Joab, \"His head will be thrown over the wall to you.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Then the woman went unto all the people in her wisdom. And they cut off the head of Sheba the son of Bichri, and cast it out to Joab. And he blew a trumpet, and they retired from the city, every man to his tent. And Joab returned to Jerusalem unto the king.",
+      "web": "Then the woman went to all the people in her wisdom. They cut off the head of Sheba the son of Bichri, and threw it out to Joab. He blew the trumpet, and they were dispersed from the city, every man to his tent. Then Joab returned to Jerusalem to the king.",
+      "ct": "The woman went to the people of the city and persuaded them with her wisdom. They cut off Sheba son of Bichri's head and threw it over the wall to Joab. He blew the trumpet, and his troops dispersed from the city, each heading home. Then Joab returned to Jerusalem to the king."
+    },
+    {
+      "verse": 23,
+      "kjv": "Now Joab was over all the host of Israel: and Benaiah the son of Jehoiada was over the Cherethites and over the Pelethites:",
+      "web": "Now Joab was over all the army of Israel, Benaiah the son of Jehoiada was over the Cherethites and over the Pelethites,",
+      "ct": "Joab commanded the entire army of Israel. Benaiah son of Jehoiada was in charge of the Cherethites and Pelethites."
+    },
+    {
+      "verse": 24,
+      "kjv": "And Adoram was over the tribute: and Jehoshaphat the son of Ahilud was recorder:",
+      "web": "Adoram was over the men subject to forced labor, Jehoshaphat the son of Ahilud was the recorder,",
+      "ct": "Adoram oversaw the forced labor. Jehoshaphat son of Ahilud served as the royal recorder."
+    },
+    {
+      "verse": 25,
+      "kjv": "And Sheva was scribe: and Zadok and Abiathar were the priests:",
+      "web": "Sheva was scribe, and Zadok and Abiathar were priests,",
+      "ct": "Sheva was the court secretary, and Zadok and Abiathar served as priests."
+    },
+    {
+      "verse": 26,
+      "kjv": "And Ira also the Jairite was a chief ruler about David.",
+      "web": "and Ira the Jairite was chief minister to David.",
+      "ct": "Ira the Jairite served as David's chief minister."
+    }
+  ]
+}

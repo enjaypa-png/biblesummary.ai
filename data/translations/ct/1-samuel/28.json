@@ -1,0 +1,161 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 28,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:48:52.721Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass in those days, that the Philistines gathered their armies together for warfare, to fight with Israel. And Achish said unto David, Know thou assuredly, that thou shalt go out with me to battle, thou and thy men.",
+      "web": "In those days, the Philistines gathered their armies together for warfare, to fight with Israel. Achish said to David, “Know assuredly that you will go out with me in the army, you and your men.”",
+      "ct": "Around that time, the Philistines assembled their armies to go to war against Israel. Achish told David, \"I want you to understand clearly — you and your men will be marching into battle alongside me.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And David said to Achish, Surely thou shalt know what thy servant can do. And Achish said to David, Therefore will I make thee keeper of mine head for ever.",
+      "web": "David said to Achish, “Therefore you will know what your servant can do.” Achish said to David, “Therefore I will make you my bodyguard forever.”",
+      "ct": "David replied, \"Then you'll see for yourself what your servant can do.\" Achish said to David, \"In that case, I'm making you my permanent bodyguard.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Now Samuel was dead, and all Israel had lamented him, and buried him in Ramah, even in his own city. And Saul had put away those that had familiar spirits, and the wizards, out of the land.",
+      "web": "Now Samuel was dead, and all Israel had mourned for him, and buried him in Ramah, even in his own city. Saul had sent away those who had familiar spirits and the wizards out of the land.",
+      "ct": "Now Samuel had died, and all of Israel had mourned for him and buried him in his hometown of Ramah. Saul had also banished everyone who practiced sorcery or consulted the dead from the land."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the Philistines gathered themselves together, and came and pitched in Shunem: and Saul gathered all Israel together, and they pitched in Gilboa.",
+      "web": "The Philistines gathered themselves together, and came and encamped in Shunem; and Saul gathered all Israel together, and they encamped in Gilboa.",
+      "ct": "The Philistines gathered and set up camp at Shunem, while Saul assembled the entire Israelite army and camped at Gilboa."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when Saul saw the host of the Philistines, he was afraid, and his heart greatly trembled.",
+      "web": "When Saul saw the army of the Philistines, he was afraid, and his heart trembled greatly.",
+      "ct": "When Saul saw the size of the Philistine army, he was terrified — his heart pounded with fear."
+    },
+    {
+      "verse": 6,
+      "kjv": "And when Saul enquired of the LORD, the LORD answered him not, neither by dreams, nor by Urim, nor by prophets.",
+      "web": "When Saul inquired of LORD, LORD didn’t answer him by dreams, by Urim, or by prophets.",
+      "ct": "Saul tried to seek guidance from the LORD, but the LORD didn't answer him — not through dreams, not through the Urim, and not through prophets."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then said Saul unto his servants, Seek me a woman that hath a familiar spirit, that I may go to her, and enquire of her. And his servants said to him, Behold, there is a woman that hath a familiar spirit at Endor.",
+      "web": "Then Saul said to his servants, “Seek for me a woman who has a familiar spirit, that I may go to her, and inquire of her.” His servants said to him, “Behold, there is a woman who has a familiar spirit at Endor.”",
+      "ct": "So Saul told his servants, \"Find me a woman who can communicate with the dead so I can go consult her.\" His servants told him, \"There's a woman at Endor who has a familiar spirit.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Saul disguised himself, and put on other raiment, and he went, and two men with him, and they came to the woman by night: and he said, I pray thee, divine unto me by the familiar spirit, and bring me him up, whom I shall name unto thee.",
+      "web": "Saul disguised himself and put on other clothing, and went, he and two men with him, and they came to the woman by night. Then he said, “Please consult for me by the familiar spirit, and bring me up whomever I shall name to you.”",
+      "ct": "Saul disguised himself by putting on different clothes, then traveled to the woman at night with 2 men. He said to her, \"Please use your familiar spirit to call up someone from the dead for me — whoever I name.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the woman said unto him, Behold, thou knowest what Saul hath done, how he hath cut off those that have familiar spirits, and the wizards, out of the land: wherefore then layest thou a snare for my life, to cause me to die?",
+      "web": "The woman said to him, “Behold, you know what Saul has done, how he has cut off those who have familiar spirits, and the wizards, out of the land. Why then do you lay a snare for my life, to cause me to die?”",
+      "ct": "The woman said to him, \"You know what Saul has done — he's driven out everyone who communicates with the dead or practices sorcery. Why are you setting a trap for me? You're trying to get me killed!\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And Saul sware to her by the LORD, saying, As the LORD liveth, there shall no punishment happen to thee for this thing.",
+      "web": "Saul swore to her by LORD, saying, “As LORD lives, no punishment will happen to you for this thing.”",
+      "ct": "Saul swore an oath to her by the LORD, saying, \"As the LORD lives, you will not be punished for this.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Then said the woman, Whom shall I bring up unto thee? And he said, Bring me up Samuel.",
+      "web": "Then the woman said, “Whom shall I bring up to you?” He said, “Bring Samuel up for me.”",
+      "ct": "The woman asked, \"Who do you want me to bring up?\" He answered, \"Bring up Samuel.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And when the woman saw Samuel, she cried with a loud voice: and the woman spake to Saul, saying, Why hast thou deceived me? for thou art Saul.",
+      "web": "When the woman saw Samuel, she cried with a loud voice; and the woman spoke to Saul, saying, “Why have you deceived me? For you are Saul!”",
+      "ct": "When the woman saw Samuel, she screamed. Then she turned to Saul and said, \"Why did you deceive me? You're Saul!\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And the king said unto her, Be not afraid: for what sawest thou? And the woman said unto Saul, I saw gods ascending out of the earth.",
+      "web": "The king said to her, “Don’t be afraid! What do you see?” The woman said to Saul, “I see a god coming up out of the earth.”",
+      "ct": "The king told her, \"Don't be afraid. What do you see?\" The woman said to Saul, \"I see a spirit rising up out of the earth.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And he said unto her, What form is he of? And she said, An old man cometh up; and he is covered with a mantle. And Saul perceived that it was Samuel, and he stooped with his face to the ground, and bowed himself.",
+      "web": "He said to her, “What does he look like?” She said, “An old man comes up. He is covered with a robe.” Saul perceived that it was Samuel, and he bowed with his face to the ground, and showed respect.",
+      "ct": "He asked her, \"What does he look like?\" She said, \"An old man is coming up, wrapped in a robe.\" Saul knew it was Samuel, and he dropped to the ground, bowing with his face to the earth."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Samuel said to Saul, Why hast thou disquieted me, to bring me up? And Saul answered, I am sore distressed; for the Philistines make war against me, and God is departed from me, and answereth me no more, neither by prophets, nor by dreams: therefore I have called thee, that thou mayest make known unto me what I shall do.",
+      "web": "Samuel said to Saul, “Why have you disturbed me, to bring me up?” Saul answered, “I am very distressed; for the Philistines make war against me, and God has departed from me, and answers me no more, by prophets, or by dreams. Therefore I have called you, that you may make known to me what I shall do.”",
+      "ct": "Samuel said to Saul, \"Why have you disturbed me by bringing me up?\" Saul answered, \"I'm in terrible trouble. The Philistines are waging war against me, and God has turned away from me. He won't answer me anymore — not through prophets, not through dreams. So I called on you to tell me what I should do.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Then said Samuel, Wherefore then dost thou ask of me, seeing the LORD is departed from thee, and is become thine enemy?",
+      "web": "Samuel said, “Why then do you ask me, since LORD has departed from you and has become your adversary?",
+      "ct": "Samuel replied, \"Why are you asking me, when the LORD has turned away from you and become your enemy?\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the LORD hath done to him, as he spake by me: for the LORD hath rent the kingdom out of thine hand, and given it to thy neighbour, even to David:",
+      "web": "LORD has done to you as he spoke by me. LORD has torn the kingdom out of your hand, and given it to your neighbor, even to David.",
+      "ct": "\"The LORD has done exactly what he told you through me. He has torn the kingdom out of your hands and given it to your neighbor David.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Because thou obeyedst not the voice of the LORD, nor executedst his fierce wrath upon Amalek, therefore hath the LORD done this thing unto thee this day.",
+      "web": "Because you didn’t obey LORD’s voice, and didn’t execute his fierce wrath on Amalek, therefore LORD has done this thing to you today.",
+      "ct": "\"This happened because you didn't obey the LORD's command. You failed to carry out his fierce judgment against the Amalekites. That's why the LORD has done this to you today.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Moreover the LORD will also deliver Israel with thee into the hand of the Philistines: and to morrow shalt thou and thy sons be with me: the LORD also shall deliver the host of Israel into the hand of the Philistines.",
+      "web": "Moreover LORD will deliver Israel also with you into the hand of the Philistines; and tomorrow you and your sons will be with me. LORD will deliver the army of Israel also into the hand of the Philistines.”",
+      "ct": "\"What's more, the LORD will hand Israel over to the Philistines along with you. Tomorrow, you and your sons will be here with me. The LORD will also hand Israel's army over to the Philistines.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Then Saul fell straightway all along on the earth, and was sore afraid, because of the words of Samuel: and there was no strength in him; for he had eaten no bread all the day, nor all the night.",
+      "web": "Then Saul fell immediately his full length on the earth, and was terrified, because of Samuel’s words. There was no strength in him; for he had eaten no bread all day long or all night long.",
+      "ct": "Saul immediately collapsed flat on the ground, paralyzed with terror at Samuel's words. He had no strength left — he hadn't eaten anything all day or all night."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the woman came unto Saul, and saw that he was sore troubled, and said unto him, Behold, thine handmaid hath obeyed thy voice, and I have put my life in my hand, and have hearkened unto thy words which thou spakest unto me.",
+      "web": "The woman came to Saul, and saw that he was very troubled, and said to him, “Behold, your servant has listened to your voice, and I have put my life in my hand, and have listened to your words which you spoke to me.",
+      "ct": "The woman came over to Saul and saw how shaken he was. She said to him, \"Look, I did what you asked. I risked my life and listened to everything you told me.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Now therefore, I pray thee, hearken thou also unto the voice of thine handmaid, and let me set a morsel of bread before thee; and eat, that thou mayest have strength, when thou goest on thy way.",
+      "web": "Now therefore, please listen also to the voice of your servant, and let me set a morsel of bread before you. Eat, that you may have strength, when you go on your way.”",
+      "ct": "\"Now please listen to me in return. Let me bring you a little food to eat so you'll have the strength to travel.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "But he refused, and said, I will not eat. But his servants, together with the woman, compelled him; and he hearkened unto their voice. So he arose from the earth, and sat upon the bed.",
+      "web": "But he refused, and said, “I will not eat.” But his servants, together with the woman, constrained him; and he listened to their voice. So he arose from the earth and sat on the bed.",
+      "ct": "He refused and said, \"I won't eat.\" But his servants and the woman kept urging him until he gave in. He got up off the ground and sat on the bed."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the woman had a fat calf in the house; and she hasted, and killed it, and took flour, and kneaded it, and did bake unleavened bread thereof:",
+      "web": "The woman had a fattened calf in the house. She hurried and killed it; and she took flour, and kneaded it, and baked unleavened bread of it.",
+      "ct": "The woman had a fattened calf at her house. She quickly slaughtered it, then took flour, kneaded it, and baked unleavened bread."
+    },
+    {
+      "verse": 25,
+      "kjv": "And she brought it before Saul, and before his servants; and they did eat. Then they rose up, and went away that night.",
+      "web": "She brought it before Saul, and before his servants; and they ate. Then they rose up, and went away that night.",
+      "ct": "She served the meal to Saul and his servants, and they ate. Then they got up and left that same night."
+    }
+  ]
+}
