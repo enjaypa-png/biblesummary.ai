@@ -180,7 +180,7 @@ export default function PricingPageClient() {
             Simple, Transparent Pricing
           </h2>
           <p className="text-[15px]" style={{ color: "var(--foreground-secondary)" }}>
-            Bible text and audio are always free. Pay only for the features you want.
+            Read free forever. Upgrade for audio, AI explanations, and summaries.
           </p>
         </div>
 
@@ -218,7 +218,11 @@ export default function PricingPageClient() {
                 Recommended
               </span>
 
-              <div className="flex items-baseline justify-between mb-1 mt-1">
+              <div style={{ display: "flex", gap: 8, marginBottom: 12 }} className="mt-1">
+                  <button onClick={() => {}} className="flex-1 py-1.5 rounded-lg text-[13px] font-semibold" style={{ backgroundColor: "var(--accent)", color: "white" }}>Yearly — $79</button>
+                  <button onClick={() => {}} className="flex-1 py-1.5 rounded-lg text-[13px] font-semibold" style={{ backgroundColor: "var(--background)", color: "var(--foreground)", border: "1px solid var(--border)" }}>Monthly — $9.99</button>
+                </div>
+                <div className="flex items-baseline justify-between mb-1">
                 <h3 className="text-[18px] font-bold" style={{ color: "var(--foreground)" }}>
                   ClearBible Premium
                 </h3>
@@ -241,7 +245,7 @@ export default function PricingPageClient() {
                 </div>
                 <div className="text-right">
                   <span className="text-[24px] font-bold" style={{ color: "var(--accent)" }}>
-                    $59
+                    $79
                   </span>
                   <span className="text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
                     /year
@@ -264,6 +268,10 @@ export default function PricingPageClient() {
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
+                  <span>Audio playback for every chapter</span>
+                </li>
+                <li className="flex items-start gap-2.5">
+                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
                   <span>All future AI features included</span>
                 </li>
                 <li className="flex items-start gap-2.5">
@@ -273,7 +281,7 @@ export default function PricingPageClient() {
               </ul>
 
               {renderButton(
-                "Upgrade to Premium — $59/year",
+                "Upgrade to Premium — $79/year",
                 "premium",
                 premiumStatus,
                 false,
@@ -300,11 +308,11 @@ export default function PricingPageClient() {
               <ul className="space-y-2 text-[14px]" style={{ color: "var(--foreground)" }}>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Full King James Version and Clear Bible Translation — all 66 books</span>
+                  <span>Full KJV + Clear Bible Translation — all 66 books</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Audio playback for every chapter</span>
+                  <span>Read KJV + Clear Bible Translation — all 66 books</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
