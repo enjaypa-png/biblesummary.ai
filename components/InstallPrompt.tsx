@@ -8,10 +8,16 @@ const INSTALLED_KEY = "pwa_installed";
 
 type Platform = "android" | "ios" | "desktop" | null;
 
+interface BeforeInstallPromptEvent extends Event {
+  prompt(): Promise<void>;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
+}
+
 function getPlatform(): Platform {
   if (typeof window === "undefined") return null;
   const ua = navigator.userAgent;
-  if (/iPad|iPhone|iPod/.test(ua) && !(window as unknown as { MSStream: unknown }).MSStream) return "ios";
+  const isIOS = /iPad|iPhone|iPod/.test(ua);
+  if (isIOS) return "ios";
   if (/android/i.test(ua)) return "android";
   return "desktop";
 }
@@ -73,8 +79,8 @@ export default function InstallPrompt() {
   async function handleInstall() {
     if (!deferredPrompt) return;
     setInstalling(true);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const prompt = deferredPrompt as any;
+    
+    const prompt = deferredPrompt as BeforeInstallPromptEvent;
     prompt.prompt();
     const { outcome } = await prompt.userChoice;
     if (outcome === "accepted") {
