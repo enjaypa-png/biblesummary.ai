@@ -1,0 +1,137 @@
+{
+  "book": "obadiah",
+  "book_name": "Obadiah",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:55:53.268Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumour from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle.",
+      "web": "The vision of Obadiah. This is what the Lord LORD says about Edom. We have heard news from LORD, and an ambassador is sent among the nations, saying, “Arise, and let’s rise up against her in battle.",
+      "ct": "This is the vision of Obadiah. Here is what the Lord GOD says about Edom: We have heard a message from the LORD, and a messenger has been sent to the nations, saying, \"Get up! Let's march against her and go to war!\""
+    },
+    {
+      "verse": 2,
+      "kjv": "Behold, I have made thee small among the heathen: thou art greatly despised.",
+      "web": "Behold, I have made you small among the nations. You are greatly despised.",
+      "ct": "\"Look — I have made you insignificant among the nations. You are utterly despised."
+    },
+    {
+      "verse": 3,
+      "kjv": "The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high; that saith in his heart, Who shall bring me down to the ground?",
+      "web": "The pride of your heart has deceived you, you who dwell in the clefts of the rock, whose habitation is high, who says in his heart, ‘Who will bring me down to the ground?’",
+      "ct": "Your pride has fooled you. You live high up in the clefts of the rock, perched in your mountain fortress, telling yourself, 'No one can bring me down.'"
+    },
+    {
+      "verse": 4,
+      "kjv": "Though thou exalt thyself as the eagle, and though thou set thy nest among the stars, thence will I bring thee down, saith the LORD.",
+      "web": "Though you mount on high as the eagle, and though your nest is set among the stars, I will bring you down from there,” says LORD.",
+      "ct": "But even if you soar as high as an eagle and build your nest among the stars, I will drag you down from there,\" declares the LORD."
+    },
+    {
+      "verse": 5,
+      "kjv": "If thieves came to thee, if robbers by night, (how art thou cut off!) would they not have stolen till they had enough? if the grapegatherers came to thee, would they not leave some grapes?",
+      "web": "“If thieves came to you, if robbers by night—oh, what disaster awaits you—wouldn’t they only steal until they had enough? If grape pickers came to you, wouldn’t they leave some gleaning grapes?",
+      "ct": "\"If thieves broke into your house — oh, what ruin is coming for you! — wouldn't they only steal what they wanted? If grape harvesters came through your vineyard, wouldn't they at least leave a few grapes behind?"
+    },
+    {
+      "verse": 6,
+      "kjv": "How are the things of Esau searched out! how are his hidden things sought up!",
+      "web": "How Esau will be ransacked! How his hidden treasures are sought out!",
+      "ct": "But Esau will be stripped bare! Every hidden treasure will be found and taken!"
+    },
+    {
+      "verse": 7,
+      "kjv": "All the men of thy confederacy have brought thee even to the border: the men that were at peace with thee have deceived thee, and prevailed against thee; they that eat thy bread have laid a wound under thee: there is none understanding in him.",
+      "web": "All the men of your alliance have brought you on your way, even to the border. The men who were at peace with you have deceived you, and prevailed against you. Friends who eat your bread lay a snare under you. There is no understanding in him.”",
+      "ct": "All your allies will turn on you and drive you to the border. The nations you trusted will betray you and overpower you. The friends who ate at your table will set a trap beneath you — and you won't even see it coming.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Shall I not in that day, saith the LORD, even destroy the wise men out of Edom, and understanding out of the mount of Esau?",
+      "web": "“Won’t I in that day”, says LORD, “destroy the wise men out of Edom, and understanding out of the mountain of Esau?",
+      "ct": "\"On that day,\" declares the LORD, \"I will wipe out the wise men of Edom and destroy every bit of understanding from the mountain of Esau."
+    },
+    {
+      "verse": 9,
+      "kjv": "And thy mighty men, O Teman, shall be dismayed, to the end that every one of the mount of Esau may be cut off by slaughter.",
+      "web": "Your mighty men, Teman, will be dismayed, to the end that everyone may be cut off from the mountain of Esau by slaughter.",
+      "ct": "Your warriors, Teman, will be paralyzed with fear, so that everyone on the mountain of Esau will be slaughtered and wiped out."
+    },
+    {
+      "verse": 10,
+      "kjv": "For thy violence against thy brother Jacob shame shall cover thee, and thou shalt be cut off for ever.",
+      "web": "For the violence done to your brother Jacob, shame will cover you, and you will be cut off forever.",
+      "ct": "Because of the violence you committed against your brother Jacob, shame will swallow you whole, and you will be destroyed forever."
+    },
+    {
+      "verse": 11,
+      "kjv": "In the day that thou stoodest on the other side, in the day that the strangers carried away captive his forces, and foreigners entered into his gates, and cast lots upon Jerusalem, even thou wast as one of them.",
+      "web": "In the day that you stood on the other side, in the day that strangers carried away his substance, and foreigners entered into his gates, and cast lots for Jerusalem, even you were like one of them.",
+      "ct": "On the day you stood by and did nothing — the day foreigners carried off his wealth, when strangers marched through Jerusalem's gates and divided the city by casting lots — you were no different from the invaders themselves."
+    },
+    {
+      "verse": 12,
+      "kjv": "But thou shouldest not have looked on the day of thy brother in the day that he became a stranger; neither shouldest thou have rejoiced over the children of Judah in the day of their destruction; neither shouldest thou have spoken proudly in the day of distress.",
+      "web": "But don’t look down on your brother in the day of his disaster, and don’t rejoice over the children of Judah in the day of their destruction. Don’t speak proudly in the day of distress.",
+      "ct": "You should not have gloated over your brother on the day of his disaster. You should not have celebrated over the people of Judah on the day they were destroyed. You should not have mocked them on the day of their suffering."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou shouldest not have entered into the gate of my people in the day of their calamity; yea, thou shouldest not have looked on their affliction in the day of their calamity, nor have laid hands on their substance in the day of their calamity;",
+      "web": "Don’t enter into the gate of my people in the day of their calamity. Don’t look down on their affliction in the day of their calamity, neither seize their wealth on the day of their calamity.",
+      "ct": "You should not have marched through the gates of my people on the day of their catastrophe. You should not have stood there enjoying their misery on the day of their ruin. You should not have looted their wealth on the day of their downfall."
+    },
+    {
+      "verse": 14,
+      "kjv": "Neither shouldest thou have stood in the crossway, to cut off those of his that did escape; neither shouldest thou have delivered up those of his that did remain in the day of distress.",
+      "web": "Don’t stand in the crossroads to cut off those of his who escape. Don’t deliver up those of his who remain in the day of distress.",
+      "ct": "You should not have waited at the crossroads to cut down those trying to escape. You should not have handed over the survivors on the day of their distress."
+    },
+    {
+      "verse": 15,
+      "kjv": "For the day of the LORD is near upon all the heathen: as thou hast done, it shall be done unto thee: thy reward shall return upon thine own head.",
+      "web": "For the day of LORD is near all the nations! As you have done, it will be done to you. Your deeds will return upon your own head.",
+      "ct": "The day of the LORD is coming soon for every nation. Whatever you have done will be done to you — your own actions will come back on your own head."
+    },
+    {
+      "verse": 16,
+      "kjv": "For as ye have drunk upon my holy mountain, so shall all the heathen drink continually, yea, they shall drink, and they shall swallow down, and they shall be as though they had not been.",
+      "web": "For as you have drunk on my holy mountain, so will all the nations drink continually. Yes, they will drink, swallow down, and will be as though they had not been.",
+      "ct": "Just as you drank on my holy mountain, so all the nations will drink the cup of my judgment without stopping. They will drink it down and be swallowed up, as if they had never existed."
+    },
+    {
+      "verse": 17,
+      "kjv": "But upon mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions.",
+      "web": "But in Mount Zion, there will be those who escape, and it will be holy. The house of Jacob will possess their possessions.",
+      "ct": "But on Mount Zion there will be deliverance, and it will be holy. The house of Jacob will reclaim everything that belongs to them."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau for stubble, and they shall kindle in them, and devour them; and there shall not be any remaining of the house of Esau; for the LORD hath spoken it.",
+      "web": "The house of Jacob will be a fire, the house of Joseph a flame, and the house of Esau for stubble. They will burn among them, and devour them. There will not be any remaining to the house of Esau.” Indeed, LORD has spoken.",
+      "ct": "The house of Jacob will be a fire, and the house of Joseph a flame, but the house of Esau will be dry stubble. They will set it ablaze and consume it completely — not a single survivor will remain from the house of Esau. The LORD has spoken."
+    },
+    {
+      "verse": 19,
+      "kjv": "And they of the south shall possess the mount of Esau; and they of the plain the Philistines: and they shall possess the fields of Ephraim, and the fields of Samaria: and Benjamin shall possess Gilead.",
+      "web": "Those of the South will possess the mountain of Esau, and those of the lowland, the Philistines. They will possess the field of Ephraim, and the field of Samaria. Benjamin will possess Gilead.",
+      "ct": "The people of the Negev will take over the mountain of Esau, and those in the foothills will possess the land of the Philistines. They will occupy the territory of Ephraim and the territory of Samaria, and Benjamin will take Gilead."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south.",
+      "web": "The captives of this army of the children of Israel, who are among the Canaanites, will possess even to Zarephath; and the captives of Jerusalem, who are in Sepharad, will possess the cities of the Negev.",
+      "ct": "The exiles from Israel's army who are scattered among the Canaanites will possess the land as far as Zarephath, and the exiles from Jerusalem who are in Sepharad will possess the cities of the Negev."
+    },
+    {
+      "verse": 21,
+      "kjv": "And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD’s.",
+      "web": "Saviors will go up on Mount Zion to judge the mountains of Esau, and the kingdom will be LORD’s.",
+      "ct": "Deliverers will go up on Mount Zion to bring judgment on the mountain of Esau, and the kingdom will belong to the LORD."
+    }
+  ]
+}

@@ -13,29 +13,31 @@ function AuthComplete() {
     async function finish() {
       const code = searchParams.get("code");
 
+      // Try exchange if we have a code
       if (code) {
-        const { error } = await supabase.auth.exchangeCodeForSession(code);
-        if (error) {
-          console.error("[Auth complete] Exchange error:", error.message);
-          router.replace("/login?error=oauth_exchange_failed");
+        try {
+          await supabase.auth.exchangeCodeForSession(code);
+        } catch {
+          // ignore — will fall through to session check
+        }
+      }
+
+      // Poll for session up to 3 seconds
+      for (let i = 0; i < 6; i++) {
+        await new Promise(r => setTimeout(r, 500));
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session?.user) {
+          const { data: profile } = await supabase
+            .from("user_profiles")
+            .select("onboarding_completed_at")
+            .eq("user_id", session.user.id)
+            .single();
+          router.replace(profile?.onboarding_completed_at ? "/bible" : "/onboarding");
           return;
         }
       }
 
-      // Confirm session
-      const { data: { session } } = await supabase.auth.getSession();
-
-      if (session?.user) {
-        const { data: profile } = await supabase
-          .from("user_profiles")
-          .select("onboarding_completed_at")
-          .eq("user_id", session.user.id)
-          .single();
-
-        router.replace(profile?.onboarding_completed_at ? "/bible" : "/onboarding");
-      } else {
-        router.replace("/login?error=oauth_exchange_failed");
-      }
+      router.replace("/login?error=oauth_exchange_failed");
     }
 
     finish();

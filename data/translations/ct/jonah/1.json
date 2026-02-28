@@ -1,0 +1,113 @@
+{
+  "book": "jonah",
+  "book_name": "Jonah",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:56:11.092Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the word of the LORD came unto Jonah the son of Amittai, saying,",
+      "web": "Now LORD’s word came to Jonah the son of Amittai, saying,",
+      "ct": "The LORD spoke to Jonah son of Amittai and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.",
+      "web": "“Arise, go to Nineveh, that great city, and preach against it, for their wickedness has come up before me.”",
+      "ct": "\"Go to the great city of Nineveh and speak out against it, because I have seen how wicked its people are.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "But Jonah rose up to flee unto Tarshish from the presence of the LORD, and went down to Joppa; and he found a ship going to Tarshish: so he paid the fare thereof, and went down into it, to go with them unto Tarshish from the presence of the LORD.",
+      "web": "But Jonah rose up to flee to Tarshish from the presence of LORD. He went down to Joppa, and found a ship going to Tarshish; so he paid its fare, and went down into it, to go with them to Tarshish from the presence of LORD.",
+      "ct": "But instead of obeying, Jonah ran from the LORD's presence. He headed down to Joppa, where he found a ship bound for Tarshish. He paid the fare, boarded the ship, and sailed off toward Tarshish — as far from the LORD as he could get."
+    },
+    {
+      "verse": 4,
+      "kjv": "But the LORD sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken.",
+      "web": "But LORD sent out a great wind on the sea, and there was a mighty storm on the sea, so that the ship was likely to break up.",
+      "ct": "But the LORD hurled a powerful wind across the sea, and a violent storm hit so hard that the ship was on the verge of breaking apart."
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the mariners were afraid, and cried every man unto his god, and cast forth the wares that were in the ship into the sea, to lighten it of them. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep.",
+      "web": "Then the mariners were afraid, and every man cried to his god. They threw the cargo that was in the ship into the sea to lighten the ship. But Jonah had gone down into the innermost parts of the ship, and he was laying down, and was fast asleep.",
+      "ct": "The sailors were terrified. Each one cried out to his own god for help, and they threw the cargo overboard to lighten the ship. Meanwhile, Jonah had gone below deck, where he lay down and fell into a deep sleep."
+    },
+    {
+      "verse": 6,
+      "kjv": "So the shipmaster came to him, and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that God will think upon us, that we perish not.",
+      "web": "So the ship master came to him, and said to him, “What do you mean, sleeper? Arise, call on your God! Maybe your God will notice us, so that we won’t perish.”",
+      "ct": "The captain found him and said, \"How can you sleep at a time like this? Get up and pray to your God! Maybe he'll take notice of us and we won't die.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And they said every one to his fellow, Come, and let us cast lots, that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah.",
+      "web": "They all said to each other, “Come! Let’s cast lots, that we may know who is responsible for this evil that is on us.” So they cast lots, and the lot fell on Jonah.",
+      "ct": "The sailors said to each other, \"Let's cast lots to find out who's to blame for this disaster.\" They cast lots, and the lot pointed to Jonah."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?",
+      "web": "Then they asked him, “Tell us, please, for whose cause this evil is on us. What is your occupation? Where do you come from? What is your country? Of what people are you?”",
+      "ct": "They pressed him: \"Tell us — who brought this disaster on us? What do you do for a living? Where are you from? What country? What people?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And he said unto them, I am an Hebrew; and I fear the LORD, the God of heaven, which hath made the sea and the dry land.",
+      "web": "He said to them, “I am a Hebrew, and I fear LORD, the God of heaven, who has made the sea and the dry land.”",
+      "ct": "Jonah answered, \"I'm a Hebrew, and I fear the LORD, the God of heaven, who made the sea and the dry land.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them.",
+      "web": "Then the men were exceedingly afraid, and said to him, “What have you done?” For the men knew that he was fleeing from the presence of LORD, because he had told them.",
+      "ct": "This terrified them even more. \"What have you done?\" they demanded. They already knew he was running from the LORD, because he had told them."
+    },
+    {
+      "verse": 11,
+      "kjv": "Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous.",
+      "web": "Then they said to him, “What shall we do to you, that the sea may be calm to us?” For the sea grew more and more stormy.",
+      "ct": "The storm kept getting worse, so they asked him, \"What should we do with you to make the sea calm down?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you.",
+      "web": "He said to them, “Take me up, and throw me into the sea. Then the sea will be calm for you; for I know that because of me this great storm is on you.”",
+      "ct": "\"Pick me up and throw me into the sea,\" Jonah said. \"Then it will calm down. I know this terrible storm is my fault.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Nevertheless the men rowed hard to bring it to the land; but they could not: for the sea wrought, and was tempestuous against them.",
+      "web": "Nevertheless the men rowed hard to get them back to the land; but they could not, for the sea grew more and more stormy against them.",
+      "ct": "Instead, the men rowed with all their strength, trying to reach the shore. But they couldn't — the storm only grew fiercer against them."
+    },
+    {
+      "verse": 14,
+      "kjv": "Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man’s life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee.",
+      "web": "Therefore they cried to LORD, and said, “We beg you, LORD, we beg you, don’t let us die for this man’s life, and don’t lay on us innocent blood; for you, LORD, have done as it pleased you.”",
+      "ct": "So they cried out to the LORD, \"Please, LORD, don't let us die for taking this man's life, and don't hold us guilty of shedding innocent blood — because you, LORD, have done what you chose to do.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "So they took up Jonah, and cast him forth into the sea: and the sea ceased from her raging.",
+      "web": "So they took up Jonah, and threw him into the sea; and the sea ceased its raging.",
+      "ct": "Then they picked Jonah up and threw him into the sea, and immediately the raging waters grew calm."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows.",
+      "web": "Then the men feared LORD exceedingly; and they offered a sacrifice to LORD, and made vows.",
+      "ct": "The men were overcome with fear of the LORD. They offered a sacrifice to the LORD and made vows to him."
+    },
+    {
+      "verse": 17,
+      "kjv": "Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.",
+      "web": "LORD prepared a great fish to swallow up Jonah, and Jonah was in the belly of the fish three days and three nights.",
+      "ct": "Now the LORD had arranged for a massive fish to swallow Jonah, and Jonah spent 3 days and 3 nights inside the belly of that fish."
+    }
+  ]
+}

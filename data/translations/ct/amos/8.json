@@ -1,0 +1,95 @@
+{
+  "book": "amos",
+  "book_name": "Amos",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:55:11.147Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Thus hath the Lord GOD shewed unto me: and behold a basket of summer fruit.",
+      "web": "Thus the Lord LORD showed me: behold, a basket of summer fruit.",
+      "ct": "This is what the Lord GOD showed me: a basket of ripe summer fruit."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he said, Amos, what seest thou? And I said, A basket of summer fruit. Then said the LORD unto me, The end is come upon my people of Israel; I will not again pass by them any more.",
+      "web": "He said, “Amos, what do you see?” I said, “A basket of summer fruit.” Then LORD said to me, “The end has come on my people Israel. I will not again pass by them any more.",
+      "ct": "He asked, \"Amos, what do you see?\" I answered, \"A basket of summer fruit.\" Then the LORD said to me, \"The end has come for my people Israel. I will not spare them any longer.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And the songs of the temple shall be howlings in that day, saith the Lord GOD: there shall be many dead bodies in every place; they shall cast them forth with silence.",
+      "web": "The songs of the temple will be wailing in that day,” says the Lord LORD. “The dead bodies will be many. In every place they will throw them out with silence.",
+      "ct": "\"On that day,\" declares the Lord GOD, \"the joyful songs of the temple will turn into wailing. Dead bodies will be everywhere, thrown out in silence.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Hear this, O ye that swallow up the needy, even to make the poor of the land to fail,",
+      "web": "Hear this, you who desire to swallow up the needy, and cause the poor of the land to fail,",
+      "ct": "Listen to this, you who trample the needy and destroy the poor of the land!"
+    },
+    {
+      "verse": 5,
+      "kjv": "Saying, When will the new moon be gone, that we may sell corn? and the sabbath, that we may set forth wheat, making the ephah small, and the shekel great, and falsifying the balances by deceit?",
+      "web": "Saying, ‘When will the new moon be gone, that we may sell grain? And the Sabbath, that we may market wheat, making the ephah small, and the shekel large, and dealing falsely with balances of deceit;",
+      "ct": "You say, 'When will the new moon festival be over so we can sell grain? When will the Sabbath end so we can market wheat?' All the while you shrink the ephah, inflate the shekel, and rig your scales to cheat people."
+    },
+    {
+      "verse": 6,
+      "kjv": "That we may buy the poor for silver, and the needy for a pair of shoes; yea, and sell the refuse of the wheat?",
+      "web": "that we may buy the poor for silver, and the needy for a pair of sandals, and sell the sweepings with the wheat?’ ”",
+      "ct": "You buy the poor for silver and the needy for a pair of sandals, and you mix sweepings in with the wheat you sell."
+    },
+    {
+      "verse": 7,
+      "kjv": "The LORD hath sworn by the excellency of Jacob, Surely I will never forget any of their works.",
+      "web": "LORD has sworn by the pride of Jacob, “Surely I will never forget any of their works.",
+      "ct": "The LORD has sworn by the pride of Jacob: \"I will never forget a single thing they have done.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Shall not the land tremble for this, and every one mourn that dwelleth therein? and it shall rise up wholly as a flood; and it shall be cast out and drowned, as by the flood of Egypt.",
+      "web": "Won’t the land tremble for this, and everyone mourn who dwells in it? Yes, it will rise up wholly like the River; and it will be stirred up and sink again, like the River of Egypt.",
+      "ct": "Won't the land tremble because of this? Won't everyone who lives in it mourn? The whole land will rise and fall like the flooding Nile — surging up and sinking back again."
+    },
+    {
+      "verse": 9,
+      "kjv": "And it shall come to pass in that day, saith the Lord GOD, that I will cause the sun to go down at noon, and I will darken the earth in the clear day:",
+      "web": "It will happen in that day,” says the Lord LORD, “that I will cause the sun to go down at noon, and I will darken the earth in the clear day.",
+      "ct": "\"On that day,\" declares the Lord GOD, \"I will make the sun go down at noon and darken the earth in broad daylight.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And I will turn your feasts into mourning, and all your songs into lamentation; and I will bring up sackcloth upon all loins, and baldness upon every head; and I will make it as the mourning of an only son, and the end thereof as a bitter day.",
+      "web": "I will turn your feasts into mourning, and all your songs into lamentation; and I will make you wear sackcloth on all your bodies, and baldness on every head. I will make it like the mourning for an only son, and its end like a bitter day.",
+      "ct": "\"I will turn your festivals into funerals and all your songs into weeping. I will put sackcloth on every waist and shave every head bare. I will make it like mourning for an only son, and it will end as the bitterest of days.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Behold, the days come, saith the Lord GOD, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the LORD:",
+      "web": "Behold, the days come,” says the Lord LORD, “that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing LORD’s words.",
+      "ct": "\"The days are coming,\" declares the Lord GOD, \"when I will send a famine across the land — not a famine of bread or a thirst for water, but a famine of hearing the words of the LORD.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek the word of the LORD, and shall not find it.",
+      "web": "They will wander from sea to sea, and from the north even to the east; they will run back and forth to seek LORD’s word, and will not find it.",
+      "ct": "People will stagger from sea to sea and wander from north to east, desperately searching for the word of the LORD, but they will not find it."
+    },
+    {
+      "verse": 13,
+      "kjv": "In that day shall the fair virgins and young men faint for thirst.",
+      "web": "In that day the beautiful virgins and the young men will faint for thirst.",
+      "ct": "On that day, even the beautiful young women and the strong young men will collapse from thirst."
+    },
+    {
+      "verse": 14,
+      "kjv": "They that swear by the sin of Samaria, and say, Thy god, O Dan, liveth; and, The manner of Beersheba liveth; even they shall fall, and never rise up again.",
+      "web": "Those who swear by the sin of Samaria, and say, ‘As your god, Dan, lives;’ and, ‘As the way of Beersheba lives;’ they will fall, and never rise up again.”",
+      "ct": "Those who swear by the idol of Samaria, who say, 'As surely as your god lives, O Dan!' and 'As surely as the god of Beersheba lives!' — they will fall and never rise again."
+    }
+  ]
+}
