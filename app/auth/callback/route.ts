@@ -73,5 +73,10 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  return NextResponse.redirect(`${origin}/login`);
+  // Pass error context so the login page can show a message
+  const loginUrl = new URL("/login", origin);
+  if (code) {
+    loginUrl.searchParams.set("error", "oauth_exchange_failed");
+  }
+  return NextResponse.redirect(loginUrl.toString());
 }

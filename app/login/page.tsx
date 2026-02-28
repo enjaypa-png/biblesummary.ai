@@ -23,7 +23,12 @@ function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [otpCode, setOtpCode] = useState("");
-  const [error, setError] = useState<string | null>(null);
+  const oauthError = searchParams.get("error");
+  const [error, setError] = useState<string | null>(
+    oauthError === "oauth_exchange_failed"
+      ? "Google sign-in didn\u2019t complete. Please try again."
+      : null
+  );
   const [loading, setLoading] = useState(false);
   const [resending, setResending] = useState(false);
   const [resendSuccess, setResendSuccess] = useState(false);
