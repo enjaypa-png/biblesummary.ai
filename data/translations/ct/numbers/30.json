@@ -1,0 +1,107 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 30,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:01:40.191Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Moses spake unto the heads of the tribes concerning the children of Israel, saying, This is the thing which the LORD hath commanded.",
+      "web": "Moses spoke to the heads of the tribes of the children of Israel, saying, “This is the thing which LORD has commanded.",
+      "ct": "Moses spoke to the tribal leaders of Israel and said, \"This is what the LORD has commanded."
+    },
+    {
+      "verse": 2,
+      "kjv": "If a man vow a vow unto the LORD, or swear an oath to bind his soul with a bond; he shall not break his word, he shall do according to all that proceedeth out of his mouth.",
+      "web": "When a man vows a vow to LORD, or swears an oath to bind his soul with a bond, he shall not break his word. He shall do according to all that proceeds out of his mouth.",
+      "ct": "When a man makes a vow to the LORD or swears an oath that binds him to a commitment, he must not break his word. He must do everything he promised."
+    },
+    {
+      "verse": 3,
+      "kjv": "If a woman also vow a vow unto the LORD, and bind herself by a bond, being in her father’s house in her youth;",
+      "web": "“Also, when a woman vows a vow to LORD and binds herself by a pledge, being in her father’s house, in her youth,",
+      "ct": "\"When a young woman still living in her father's house makes a vow to the LORD or binds herself to a commitment,"
+    },
+    {
+      "verse": 4,
+      "kjv": "And her father hear her vow, and her bond wherewith she hath bound her soul, and her father shall hold his peace at her: then all her vows shall stand, and every bond wherewith she hath bound her soul shall stand.",
+      "web": "and her father hears her vow and her pledge with which she has bound her soul, and her father says nothing to her, then all her vows shall stand, and every pledge with which she has bound her soul shall stand.",
+      "ct": "and her father hears about her vow or commitment and says nothing to her, then every vow and every commitment she made will stand."
+    },
+    {
+      "verse": 5,
+      "kjv": "But if her father disallow her in the day that he heareth; not any of her vows, or of her bonds wherewith she hath bound her soul, shall stand: and the LORD shall forgive her, because her father disallowed her.",
+      "web": "But if her father forbids her in the day that he hears, none of her vows or of her pledges with which she has bound her soul, shall stand. LORD will forgive her, because her father has forbidden her.",
+      "ct": "But if her father forbids it on the day he hears about it, none of her vows or commitments will stand. The LORD will forgive her, because her father overruled her."
+    },
+    {
+      "verse": 6,
+      "kjv": "And if she had at all an husband, when she vowed, or uttered ought out of her lips, wherewith she bound her soul;",
+      "web": "“If she has a husband, while her vows are on her, or the rash utterance of her lips with which she has bound her soul,",
+      "ct": "\"If a woman makes a vow or a rash promise that binds her, and then she gets married,"
+    },
+    {
+      "verse": 7,
+      "kjv": "And her husband heard it, and held his peace at her in the day that he heard it: then her vows shall stand, and her bonds wherewith she bound her soul shall stand.",
+      "web": "and her husband hears it, and says nothing to her in the day that he hears it; then her vows shall stand, and her pledges with which she has bound her soul shall stand.",
+      "ct": "and her husband hears about it but says nothing to her on the day he finds out, then her vows and commitments will stand."
+    },
+    {
+      "verse": 8,
+      "kjv": "But if her husband disallowed her on the day that he heard it; then he shall make her vow which she vowed, and that which she uttered with her lips, wherewith she bound her soul, of none effect: and the LORD shall forgive her.",
+      "web": "But if her husband forbids her in the day that he hears it, then he makes void her vow which is on her and the rash utterance of her lips, with which she has bound her soul. LORD will forgive her.",
+      "ct": "But if her husband forbids it on the day he hears about it, he cancels the vow she made and the rash promise that bound her. The LORD will forgive her."
+    },
+    {
+      "verse": 9,
+      "kjv": "But every vow of a widow, and of her that is divorced, wherewith they have bound their souls, shall stand against her.",
+      "web": "“But the vow of a widow, or of her who is divorced, everything with which she has bound her soul shall stand against her.",
+      "ct": "\"However, any vow or commitment made by a widow or a divorced woman is binding on her."
+    },
+    {
+      "verse": 10,
+      "kjv": "And if she vowed in her husband’s house, or bound her soul by a bond with an oath;",
+      "web": "“If she vowed in her husband’s house or bound her soul by a bond with an oath,",
+      "ct": "\"If a woman makes a vow or binds herself with an oath while living in her husband's house,"
+    },
+    {
+      "verse": 11,
+      "kjv": "And her husband heard it, and held his peace at her, and disallowed her not: then all her vows shall stand, and every bond wherewith she bound her soul shall stand.",
+      "web": "and her husband heard it, and held his peace at her and didn’t disallow her, then all her vows shall stand, and every pledge with which she bound her soul shall stand.",
+      "ct": "and her husband hears about it but says nothing and doesn't object, then all her vows and commitments will stand."
+    },
+    {
+      "verse": 12,
+      "kjv": "But if her husband hath utterly made them void on the day he heard them; then whatsoever proceeded out of her lips concerning her vows, or concerning the bond of her soul, shall not stand: her husband hath made them void; and the LORD shall forgive her.",
+      "web": "But if her husband made them null and void in the day that he heard them, then whatever proceeded out of her lips concerning her vows, or concerning the bond of her soul, shall not stand. Her husband has made them void. LORD will forgive her.",
+      "ct": "But if her husband cancels them on the day he hears about them, then nothing she said — whether a vow or a binding commitment — will stand. Her husband has voided them, and the LORD will forgive her."
+    },
+    {
+      "verse": 13,
+      "kjv": "Every vow, and every binding oath to afflict the soul, her husband may establish it, or her husband may make it void.",
+      "web": "Every vow, and every binding oath to afflict the soul, her husband may establish it, or her husband may make it void.",
+      "ct": "Her husband has the authority to uphold or cancel any vow or any binding oath she makes to deny herself."
+    },
+    {
+      "verse": 14,
+      "kjv": "But if her husband altogether hold his peace at her from day to day; then he establisheth all her vows, or all her bonds, which are upon her: he confirmeth them, because he held his peace at her in the day that he heard them.",
+      "web": "But if her husband says nothing to her from day to day, then he establishes all her vows or all her pledges which are on her. He has established them, because he said nothing to her in the day that he heard them.",
+      "ct": "But if her husband says nothing to her day after day, he confirms all her vows and commitments by his silence. They stand because he didn't object on the day he heard about them."
+    },
+    {
+      "verse": 15,
+      "kjv": "But if he shall any ways make them void after that he hath heard them; then he shall bear her iniquity.",
+      "web": "But if he makes them null and void after he has heard them, then he shall bear her iniquity.”",
+      "ct": "If he waits and cancels them later, after he has already heard them, then he will bear the guilt for her broken commitment.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "These are the statutes, which the LORD commanded Moses, between a man and his wife, between the father and his daughter, being yet in her youth in her father’s house.",
+      "web": "These are the statutes which LORD commanded Moses, between a man and his wife, between a father and his daughter, being in her youth, in her father’s house.",
+      "ct": "These are the laws the LORD gave Moses regarding vows between a husband and wife, and between a father and his young daughter still living in his house."
+    }
+  ]
+}

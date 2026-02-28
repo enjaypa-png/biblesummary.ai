@@ -1,0 +1,137 @@
+{
+  "book": "philippians",
+  "book_name": "Philippians",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:00:19.448Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Finally, my brethren, rejoice in the Lord. To write the same things to you, to me indeed is not grievous, but for you it is safe.",
+      "web": "Finally, my brothers, rejoice in the Lord! To write the same things to you, to me indeed is not tiresome, but for you it is safe.",
+      "ct": "So then, brothers and sisters, find your joy in the Lord! I don't mind repeating what I've written to you before — it's no trouble for me, and it keeps you safe."
+    },
+    {
+      "verse": 2,
+      "kjv": "Beware of dogs, beware of evil workers, beware of the concision.",
+      "web": "Beware of the dogs; beware of the evil workers; beware of the false circumcision.",
+      "ct": "Watch out for those dogs. Watch out for those evil workers. Watch out for those who insist on cutting the flesh."
+    },
+    {
+      "verse": 3,
+      "kjv": "For we are the circumcision, which worship God in the spirit, and rejoice in Christ Jesus, and have no confidence in the flesh.",
+      "web": "For we are the circumcision, who worship God in the Spirit, and rejoice in Christ Jesus, and have no confidence in the flesh;",
+      "ct": "We are the true circumcision — we who worship God in the Spirit, place our confidence in Christ Jesus, and put no trust in human credentials."
+    },
+    {
+      "verse": 4,
+      "kjv": "Though I might also have confidence in the flesh. If any other man thinketh that he hath whereof he might trust in the flesh, I more:",
+      "web": "though I myself might have confidence even in the flesh. If any other man thinks that he has confidence in the flesh, I yet more:",
+      "ct": "Not that I couldn't rely on such things if I wanted to. If anyone thinks they have reason to trust in human credentials, I have even more:"
+    },
+    {
+      "verse": 5,
+      "kjv": "Circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, an Hebrew of the Hebrews; as touching the law, a Pharisee;",
+      "web": "circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; concerning the law, a Pharisee;",
+      "ct": "I was circumcised on the 8th day. I'm from the nation of Israel, the tribe of Benjamin — a Hebrew through and through. When it comes to the law, I was a Pharisee."
+    },
+    {
+      "verse": 6,
+      "kjv": "Concerning zeal, persecuting the church; touching the righteousness which is in the law, blameless.",
+      "web": "concerning zeal, persecuting the assembly; concerning the righteousness which is in the law, found blameless.",
+      "ct": "When it comes to zeal, I persecuted the church. When it comes to the righteousness that the law demands, I was without fault."
+    },
+    {
+      "verse": 7,
+      "kjv": "But what things were gain to me, those I counted loss for Christ.",
+      "web": "However, I consider those things that were gain to me as a loss for Christ.",
+      "ct": "But everything I once counted as an advantage, I now consider a loss because of Christ."
+    },
+    {
+      "verse": 8,
+      "kjv": "Yea doubtless, and I count all things but loss for the excellency of the knowledge of Christ Jesus my Lord: for whom I have suffered the loss of all things, and do count them but dung, that I may win Christ,",
+      "web": "Yes most certainly, and I count all things to be a loss for the excellency of the knowledge of Christ Jesus, my Lord, for whom I suffered the loss of all things, and count them nothing but refuse, that I may gain Christ",
+      "ct": "In fact, I consider everything to be a loss compared to the surpassing worth of knowing Christ Jesus my Lord. For his sake I've lost everything, and I count it all as garbage so that I may gain Christ"
+    },
+    {
+      "verse": 9,
+      "kjv": "And be found in him, not having mine own righteousness, which is of the law, but that which is through the faith of Christ, the righteousness which is of God by faith:",
+      "web": "and be found in him, not having a righteousness of my own, that which is of the law, but that which is through faith in Christ, the righteousness which is from God by faith,",
+      "ct": "and be found in him — not holding on to a righteousness of my own that comes from the law, but possessing the righteousness that comes from God through faith in Christ."
+    },
+    {
+      "verse": 10,
+      "kjv": "That I may know him, and the power of his resurrection, and the fellowship of his sufferings, being made conformable unto his death;",
+      "web": "that I may know him, and the power of his resurrection, and the fellowship of his sufferings, becoming conformed to his death,",
+      "ct": "I want to know Christ — to experience the power of his resurrection, to share in his sufferings, and to become like him in his death,"
+    },
+    {
+      "verse": 11,
+      "kjv": "If by any means I might attain unto the resurrection of the dead.",
+      "web": "if by any means I may attain to the resurrection from the dead.",
+      "ct": "so that somehow I may reach the resurrection from the dead."
+    },
+    {
+      "verse": 12,
+      "kjv": "Not as though I had already attained, either were already perfect: but I follow after, if that I may apprehend that for which also I am apprehended of Christ Jesus.",
+      "web": "Not that I have already obtained, or am already made perfect; but I press on, that I may take hold of that for which also I was taken hold of by Christ Jesus.",
+      "ct": "I'm not saying I've already reached this goal or that I'm already perfect. But I keep pressing forward to take hold of that for which Christ Jesus took hold of me."
+    },
+    {
+      "verse": 13,
+      "kjv": "Brethren, I count not myself to have apprehended: but this one thing I do, forgetting those things which are behind, and reaching forth unto those things which are before,",
+      "web": "Brothers, I don’t regard myself as yet having taken hold, but one thing I do: forgetting the things which are behind, and stretching forward to the things which are before,",
+      "ct": "Brothers and sisters, I don't consider myself to have taken hold of it yet. But here's the one thing I do: I forget what's behind me and strain toward what's ahead."
+    },
+    {
+      "verse": 14,
+      "kjv": "I press toward the mark for the prize of the high calling of God in Christ Jesus.",
+      "web": "I press on toward the goal for the prize of the high calling of God in Christ Jesus.",
+      "ct": "I press on toward the goal to win the prize — God's heavenly calling in Christ Jesus."
+    },
+    {
+      "verse": 15,
+      "kjv": "Let us therefore, as many as be perfect, be thus minded: and if in any thing ye be otherwise minded, God shall reveal even this unto you.",
+      "web": "Let us therefore, as many as are perfect, think this way. If in anything you think otherwise, God will also reveal that to you.",
+      "ct": "All of us who are mature should think this way. If you see things differently on some point, God will make that clear to you too."
+    },
+    {
+      "verse": 16,
+      "kjv": "Nevertheless, whereto we have already attained, let us walk by the same rule, let us mind the same thing.",
+      "web": "Nevertheless, to the extent that we have already attained, let’s walk by the same rule. Let’s be of the same mind.",
+      "ct": "But whatever progress we've already made, let's keep living by that same standard and stay united in our thinking."
+    },
+    {
+      "verse": 17,
+      "kjv": "Brethren, be followers together of me, and mark them which walk so as ye have us for an ensample.",
+      "web": "Brothers, be imitators together of me, and note those who walk this way, even as you have us for an example.",
+      "ct": "Brothers and sisters, follow my example together, and pay attention to those who live according to the pattern we've set for you."
+    },
+    {
+      "verse": 18,
+      "kjv": "(For many walk, of whom I have told you often, and now tell you even weeping, that they are the enemies of the cross of Christ:",
+      "web": "For many walk, of whom I told you often, and now tell you even weeping, as the enemies of the cross of Christ,",
+      "ct": "I've told you many times before, and now I say it again with tears: many people live as enemies of the cross of Christ."
+    },
+    {
+      "verse": 19,
+      "kjv": "Whose end is destruction, whose God is their belly, and whose glory is in their shame, who mind earthly things.)",
+      "web": "whose end is destruction, whose god is the belly, and whose glory is in their shame, who think about earthly things.",
+      "ct": "Their destiny is destruction. Their god is their appetite. They brag about things they should be ashamed of, and their minds are fixed on earthly things."
+    },
+    {
+      "verse": 20,
+      "kjv": "For our conversation is in heaven; from whence also we look for the Saviour, the Lord Jesus Christ:",
+      "web": "For our citizenship is in heaven, from where we also wait for a Savior, the Lord Jesus Christ,",
+      "ct": "But our citizenship is in heaven, and we eagerly wait for a Savior from there — the Lord Jesus Christ."
+    },
+    {
+      "verse": 21,
+      "kjv": "Who shall change our vile body, that it may be fashioned like unto his glorious body, according to the working whereby he is able even to subdue all things unto himself.",
+      "web": "who will change the body of our humiliation to be conformed to the body of his glory, according to the working by which he is able even to subject all things to himself.",
+      "ct": "He will transform our lowly bodies to be like his glorious body, through the same power that enables him to bring everything under his control."
+    }
+  ]
+}

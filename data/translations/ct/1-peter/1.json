@@ -1,0 +1,161 @@
+{
+  "book": "1-peter",
+  "book_name": "1 Peter",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:13:44.761Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Peter, an apostle of Jesus Christ, to the strangers scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia,",
+      "web": "Peter, an apostle of Jesus Christ, to the chosen ones who are living as foreigners in the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia,",
+      "ct": "From Peter, an apostle of Jesus Christ, to God's chosen people living as foreigners scattered across Pontus, Galatia, Cappadocia, Asia, and Bithynia."
+    },
+    {
+      "verse": 2,
+      "kjv": "Elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace unto you, and peace, be multiplied.",
+      "web": "according to the foreknowledge of God the Father, in sanctification of the Spirit, that you may obey Jesus Christ and be sprinkled with his blood: Grace to you and peace be multiplied.",
+      "ct": "You were chosen according to the foreknowledge of God the Father, set apart by the Holy Spirit for obedience to Jesus Christ and cleansing by his blood. May grace and peace be yours in greater and greater measure."
+    },
+    {
+      "verse": 3,
+      "kjv": "Blessed be the God and Father of our Lord Jesus Christ, which according to his abundant mercy hath begotten us again unto a lively hope by the resurrection of Jesus Christ from the dead,",
+      "web": "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,",
+      "ct": "All praise to the God and Father of our Lord Jesus Christ! In his overwhelming mercy, he gave us new birth into a living hope through the resurrection of Jesus Christ from the dead."
+    },
+    {
+      "verse": 4,
+      "kjv": "To an inheritance incorruptible, and undefiled, and that fadeth not away, reserved in heaven for you,",
+      "web": "to an incorruptible and undefiled inheritance that doesn’t fade away, reserved in Heaven for you,",
+      "ct": "This new birth brings an inheritance that can never decay, never be corrupted, and never fade away — an inheritance kept safe in heaven for you."
+    },
+    {
+      "verse": 5,
+      "kjv": "Who are kept by the power of God through faith unto salvation ready to be revealed in the last time.",
+      "web": "who by the power of God are guarded through faith for a salvation ready to be revealed in the last time.",
+      "ct": "And through faith, you are guarded by God's power until the day salvation is fully revealed in the last time."
+    },
+    {
+      "verse": 6,
+      "kjv": "Wherein ye greatly rejoice, though now for a season, if need be, ye are in heaviness through manifold temptations:",
+      "web": "Wherein you greatly rejoice, though now for a little while, if need be, you have been grieved in various trials,",
+      "ct": "This gives you tremendous reason to rejoice, even though right now you may have to endure grief through all kinds of trials for a little while."
+    },
+    {
+      "verse": 7,
+      "kjv": "That the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire, might be found unto praise and honour and glory at the appearing of Jesus Christ:",
+      "web": "that the proof of your faith, which is more precious than gold that perishes even though it is tested by fire, may be found to result in praise, glory, and honor at the revelation of Jesus Christ—",
+      "ct": "These trials test your faith the way fire tests gold — but your faith is far more precious than gold, which eventually perishes. When your faith proves genuine, it will result in praise, honor, and glory when Jesus Christ appears."
+    },
+    {
+      "verse": 8,
+      "kjv": "Whom having not seen, ye love; in whom, though now ye see him not, yet believing, ye rejoice with joy unspeakable and full of glory:",
+      "web": "whom, not having known, you love. In him, though now you don’t see him, yet believing, you rejoice greatly with joy that is unspeakable and full of glory,",
+      "ct": "You love him even though you've never seen him. And even now, though you can't see him, you believe in him and are filled with a joy so deep and glorious that words can't express it."
+    },
+    {
+      "verse": 9,
+      "kjv": "Receiving the end of your faith, even the salvation of your souls.",
+      "web": "receiving the result of your faith, the salvation of your souls.",
+      "ct": "You are receiving the ultimate goal of your faith: the salvation of your souls."
+    },
+    {
+      "verse": 10,
+      "kjv": "Of which salvation the prophets have enquired and searched diligently, who prophesied of the grace that should come unto you:",
+      "web": "Concerning this salvation, the prophets sought and searched diligently. They prophesied of the grace that would come to you,",
+      "ct": "The prophets searched and investigated this salvation with intense care. They spoke ahead of time about the grace that was meant for you."
+    },
+    {
+      "verse": 11,
+      "kjv": "Searching what, or what manner of time the Spirit of Christ which was in them did signify, when it testified beforehand the sufferings of Christ, and the glory that should follow.",
+      "web": "searching for who or what kind of time the Spirit of Christ, which was in them, pointed to, when he predicted the sufferings of Christ, and the glories that would follow them.",
+      "ct": "They tried to discover who and what time period the spirit of Christ within them was pointing to when it revealed in advance the sufferings of Christ and the glory that would follow."
+    },
+    {
+      "verse": 12,
+      "kjv": "Unto whom it was revealed, that not unto themselves, but unto us they did minister the things, which are now reported unto you by them that have preached the gospel unto you with the Holy Ghost sent down from heaven; which things the angels desire to look into.",
+      "web": "To them it was revealed, that they served not to themselves, but to you, in these things, which now have been announced to you through those who preached the Good News to you by the Holy Spirit sent out from heaven; which things angels desire to look into.",
+      "ct": "God showed them that they weren't serving themselves — they were serving you. The things they spoke about have now been announced to you by those who preached the good news through the Holy Spirit sent down from heaven. Even angels long to look into these things."
+    },
+    {
+      "verse": 13,
+      "kjv": "Wherefore gird up the loins of your mind, be sober, and hope to the end for the grace that is to be brought unto you at the revelation of Jesus Christ;",
+      "web": "Therefore prepare your minds for action. Be sober, and set your hope fully on the grace that will be brought to you at the revelation of Jesus Christ—",
+      "ct": "So prepare your minds for action. Stay clear-headed, and place all your hope on the grace that will be given to you when Jesus Christ is revealed."
+    },
+    {
+      "verse": 14,
+      "kjv": "As obedient children, not fashioning yourselves according to the former lusts in your ignorance:",
+      "web": "as children of obedience, not conforming yourselves according to your former lusts as in your ignorance,",
+      "ct": "As obedient children, don't let your lives be shaped by the desires you used to chase when you didn't know any better."
+    },
+    {
+      "verse": 15,
+      "kjv": "But as he which hath called you is holy, so be ye holy in all manner of conversation;",
+      "web": "but just as he who called you is holy, you yourselves also be holy in all of your behavior;",
+      "ct": "Instead, be holy in everything you do, just as the one who called you is holy."
+    },
+    {
+      "verse": 16,
+      "kjv": "Because it is written, Be ye holy; for I am holy.",
+      "web": "because it is written, “You shall be holy; for I am holy.”",
+      "ct": "For Scripture says, \"Be holy, because I am holy.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And if ye call on the Father, who without respect of persons judgeth according to every man’s work, pass the time of your sojourning here in fear:",
+      "web": "If you call on him as Father, who without respect of persons judges according to each man’s work, pass the time of your living as foreigners here in reverent fear,",
+      "ct": "Since you call on a Father who judges each person's actions impartially, live your time here as foreigners in reverent fear."
+    },
+    {
+      "verse": 18,
+      "kjv": "Forasmuch as ye know that ye were not redeemed with corruptible things, as silver and gold, from your vain conversation received by tradition from your fathers;",
+      "web": "knowing that you were redeemed, not with corruptible things, with silver or gold, from the useless way of life handed down from your fathers,",
+      "ct": "You know that it wasn't perishable things like silver or gold that bought your freedom from the empty way of life your ancestors handed down to you."
+    },
+    {
+      "verse": 19,
+      "kjv": "But with the precious blood of Christ, as of a lamb without blemish and without spot:",
+      "web": "but with precious blood, as of a lamb without blemish or spot, the blood of Christ,",
+      "ct": "No — you were redeemed with the precious blood of Christ, like a lamb without any blemish or defect."
+    },
+    {
+      "verse": 20,
+      "kjv": "Who verily was foreordained before the foundation of the world, but was manifest in these last times for you,",
+      "web": "who was foreknown indeed before the foundation of the world, but was revealed in this last age for your sake,",
+      "ct": "He was chosen for this purpose before the world was even created, but he was revealed in these final days for your sake."
+    },
+    {
+      "verse": 21,
+      "kjv": "Who by him do believe in God, that raised him up from the dead, and gave him glory; that your faith and hope might be in God.",
+      "web": "who through him are believers in God, who raised him from the dead, and gave him glory, so that your faith and hope might be in God.",
+      "ct": "Through him you believe in God, who raised him from the dead and gave him glory, so that your faith and hope rest firmly in God."
+    },
+    {
+      "verse": 22,
+      "kjv": "Seeing ye have purified your souls in obeying the truth through the Spirit unto unfeigned love of the brethren, see that ye love one another with a pure heart fervently:",
+      "web": "Seeing you have purified your souls in your obedience to the truth through the Spirit in sincere brotherly affection, love one another from the heart fervently,",
+      "ct": "Now that you've purified your souls by obeying the truth through the Holy Spirit, resulting in genuine love for your brothers and sisters, love each other deeply and wholeheartedly."
+    },
+    {
+      "verse": 23,
+      "kjv": "Being born again, not of corruptible seed, but of incorruptible, by the word of God, which liveth and abideth for ever.",
+      "web": "having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.",
+      "ct": "You have been born again — not from a seed that decays, but from one that is imperishable — through the living and enduring word of God."
+    },
+    {
+      "verse": 24,
+      "kjv": "For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away:",
+      "web": "For, “All flesh is like grass, and all of man’s glory like the flower in the grass. The grass withers, and its flower falls;",
+      "ct": "For \"all flesh is like grass, and all human glory is like a wildflower. The grass dries up and the flower drops away,"
+    },
+    {
+      "verse": 25,
+      "kjv": "But the word of the Lord endureth for ever. And this is the word which by the gospel is preached unto you.",
+      "web": "but the Lord’s word endures forever.” This is the word of Good News which was preached to you.",
+      "ct": "but the word of the Lord endures forever.\" And this is the word that was proclaimed to you as the good news."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:24:56.460Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Moses answered and said, But, behold, they will not believe me, nor hearken unto my voice: for they will say, The LORD hath not appeared unto thee.",
+      "web": "Moses answered, “But, behold, they will not believe me, nor listen to my voice; for they will say, ‘LORD has not appeared to you.’ ”",
+      "ct": "Moses objected, \"But what if they don't believe me or listen to me? They'll say, 'The LORD never appeared to you.'\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD said unto him, What is that in thine hand? And he said, A rod.",
+      "web": "LORD said to him, “What is that in your hand?” He said, “A rod.”",
+      "ct": "The LORD asked him, \"What's that in your hand?\" Moses said, \"A rod.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And he said, Cast it on the ground. And he cast it on the ground, and it became a serpent; and Moses fled from before it.",
+      "web": "He said, “Throw it on the ground.” He threw it on the ground, and it became a snake; and Moses ran away from it.",
+      "ct": "\"Throw it on the ground,\" God said. So Moses threw it down, and it turned into a snake. Moses ran from it."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the LORD said unto Moses, Put forth thine hand, and take it by the tail. And he put forth his hand, and caught it, and it became a rod in his hand:",
+      "web": "LORD said to Moses, “Stretch out your hand, and take it by the tail.” He stretched out his hand, and took hold of it, and it became a rod in his hand.",
+      "ct": "Then the LORD told Moses, \"Reach out and grab it by the tail.\" Moses reached out and grabbed it, and it became a rod again in his hand."
+    },
+    {
+      "verse": 5,
+      "kjv": "That they may believe that the LORD God of their fathers, the God of Abraham, the God of Isaac, and the God of Jacob, hath appeared unto thee.",
+      "web": "“This is so that they may believe that LORD, the God of their fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has appeared to you.”",
+      "ct": "\"This is so they'll believe that the LORD — the God of their ancestors, the God of Abraham, the God of Isaac, and the God of Jacob — has appeared to you.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And the LORD said furthermore unto him, Put now thine hand into thy bosom. And he put his hand into his bosom: and when he took it out, behold, his hand was leprous as snow.",
+      "web": "LORD said furthermore to him, “Now put your hand inside your cloak.” He put his hand inside his cloak, and when he took it out, behold, his hand was leprous, as white as snow.",
+      "ct": "Then the LORD said, \"Now put your hand inside your cloak.\" Moses slipped his hand inside his cloak, and when he pulled it out, his hand was covered with leprosy, white as snow."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he said, Put thine hand into thy bosom again. And he put his hand into his bosom again; and plucked it out of his bosom, and, behold, it was turned again as his other flesh.",
+      "web": "He said, “Put your hand inside your cloak again.” He put his hand inside his cloak again, and when he took it out of his cloak, behold, it had turned again as his other flesh.",
+      "ct": "God said, \"Put your hand back inside your cloak.\" Moses put it back in, and when he pulled it out again, it was completely restored — healthy like the rest of his skin."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it shall come to pass, if they will not believe thee, neither hearken to the voice of the first sign, that they will believe the voice of the latter sign.",
+      "web": "“It will happen, if they will not believe you or listen to the voice of the first sign, that they will believe the voice of the latter sign.",
+      "ct": "\"If they don't believe you or aren't convinced by the first sign, the second sign will persuade them."
+    },
+    {
+      "verse": 9,
+      "kjv": "And it shall come to pass, if they will not believe also these two signs, neither hearken unto thy voice, that thou shalt take of the water of the river, and pour it upon the dry land: and the water which thou takest out of the river shall become blood upon the dry land.",
+      "web": "It will happen, if they will not believe even these two signs or listen to your voice, that you shall take of the water of the river, and pour it on the dry land. The water which you take out of the river will become blood on the dry land.”",
+      "ct": "But if they still don't believe even after both signs and won't listen to you, take some water from the Nile and pour it on the dry ground. The water you pour out will turn to blood right there on the ground.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And Moses said unto the LORD, O my LORD, I am not eloquent, neither heretofore, nor since thou hast spoken unto thy servant: but I am slow of speech, and of a slow tongue.",
+      "web": "Moses said to LORD, “O Lord, I am not eloquent, neither before now, nor since you have spoken to your servant; for I am slow of speech, and of a slow tongue.”",
+      "ct": "Moses pleaded with the LORD, \"Please, Lord — I'm not a good speaker. I never have been, and that hasn't changed even since you started talking to me. I stumble over my words.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD said unto him, Who hath made man’s mouth? or who maketh the dumb, or deaf, or the seeing, or the blind? have not I the LORD?",
+      "web": "LORD said to him, “Who made man’s mouth? Or who makes one mute, or deaf, or seeing, or blind? Isn’t it I, LORD?",
+      "ct": "The LORD replied, \"Who made the human mouth? Who makes a person mute or deaf, able to see or blind? Isn't it I, the LORD?"
+    },
+    {
+      "verse": 12,
+      "kjv": "Now therefore go, and I will be with thy mouth, and teach thee what thou shalt say.",
+      "web": "Now therefore go, and I will be with your mouth, and teach you what you shall speak.”",
+      "ct": "Now go. I will be with you when you speak, and I will teach you what to say.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And he said, O my LORD, send, I pray thee, by the hand of him whom thou wilt send.",
+      "web": "Moses said, “Oh, Lord, please send someone else.”",
+      "ct": "But Moses said, \"Please, Lord — send someone else.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And the anger of the LORD was kindled against Moses, and he said, Is not Aaron the Levite thy brother? I know that he can speak well. And also, behold, he cometh forth to meet thee: and when he seeth thee, he will be glad in his heart.",
+      "web": "LORD’s anger burned against Moses, and he said, “What about Aaron, your brother, the Levite? I know that he can speak well. Also, behold, he is coming out to meet you. When he sees you, he will be glad in his heart.",
+      "ct": "At that, the LORD's anger burned against Moses. He said, \"What about your brother Aaron the Levite? I know he speaks well. In fact, he's already on his way to meet you, and he'll be overjoyed when he sees you."
+    },
+    {
+      "verse": 15,
+      "kjv": "And thou shalt speak unto him, and put words in his mouth: and I will be with thy mouth, and with his mouth, and will teach you what ye shall do.",
+      "web": "You shall speak to him, and put the words in his mouth. I will be with your mouth, and with his mouth, and will teach you what you shall do.",
+      "ct": "You'll speak to him and tell him exactly what to say. I will be with both of you as you speak, and I will teach you both what to do."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he shall be thy spokesman unto the people: and he shall be, even he shall be to thee instead of a mouth, and thou shalt be to him instead of God.",
+      "web": "He will be your spokesman to the people. It will happen that he will be to you a mouth, and you will be to him as God.",
+      "ct": "He will be your spokesman to the people. He'll serve as your mouth, and you will be like God to him."
+    },
+    {
+      "verse": 17,
+      "kjv": "And thou shalt take this rod in thine hand, wherewith thou shalt do signs.",
+      "web": "You shall take this rod in your hand, with which you shall do the signs.”",
+      "ct": "Take this rod with you — you'll use it to perform the signs.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray thee, and return unto my brethren which are in Egypt, and see whether they be yet alive. And Jethro said to Moses, Go in peace.",
+      "web": "Moses went and returned to Jethro his father-in-law, and said to him, “Please let me go and return to my brothers who are in Egypt, and see whether they are still alive.” Jethro said to Moses, “Go in peace.”",
+      "ct": "Moses went back to his father-in-law Jethro and said, \"Please let me return to my people in Egypt and see if they're still alive.\" Jethro told him, \"Go in peace.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And the LORD said unto Moses in Midian, Go, return into Egypt: for all the men are dead which sought thy life.",
+      "web": "LORD said to Moses in Midian, “Go, return into Egypt; for all the men who sought your life are dead.”",
+      "ct": "While still in Midian, the LORD told Moses, \"Go back to Egypt. Everyone who wanted to kill you is dead.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Moses took his wife and his sons, and set them upon an ass, and he returned to the land of Egypt: and Moses took the rod of God in his hand.",
+      "web": "Moses took his wife and his sons, and set them on a donkey, and he returned to the land of Egypt. Moses took God’s rod in his hand.",
+      "ct": "So Moses put his wife and sons on a donkey and headed back to Egypt. He carried the rod of God in his hand."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the LORD said unto Moses, When thou goest to return into Egypt, see that thou do all those wonders before Pharaoh, which I have put in thine hand: but I will harden his heart, that he shall not let the people go.",
+      "web": "LORD said to Moses, “When you go back into Egypt, see that you do before Pharaoh all the wonders which I have put in your hand, but I will harden his heart and he will not let the people go.",
+      "ct": "The LORD said to Moses, \"When you get back to Egypt, make sure you perform all the wonders I've given you the power to do in front of Pharaoh. But I will harden his heart, and he won't let the people go."
+    },
+    {
+      "verse": 22,
+      "kjv": "And thou shalt say unto Pharaoh, Thus saith the LORD, Israel is my son, even my firstborn:",
+      "web": "You shall tell Pharaoh, ‘LORD says, Israel is my son, my firstborn,",
+      "ct": "Then tell Pharaoh, 'This is what the LORD says: Israel is my son, my firstborn."
+    },
+    {
+      "verse": 23,
+      "kjv": "And I say unto thee, Let my son go, that he may serve me: and if thou refuse to let him go, behold, I will slay thy son, even thy firstborn.",
+      "web": "and I have said to you, “Let my son go, that he may serve me;” and you have refused to let him go. Behold, I will kill your firstborn son.’ ”",
+      "ct": "I told you to let my son go so he could worship me, but you refused. So now I will kill your firstborn son.'\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And it came to pass by the way in the inn, that the LORD met him, and sought to kill him.",
+      "web": "On the way at a lodging place, LORD met Moses and wanted to kill him.",
+      "ct": "Along the way, at a place where they stopped for the night, the LORD confronted Moses and was about to kill him."
+    },
+    {
+      "verse": 25,
+      "kjv": "Then Zipporah took a sharp stone, and cut off the foreskin of her son, and cast it at his feet, and said, Surely a bloody husband art thou to me.",
+      "web": "Then Zipporah took a flint, and cut off the foreskin of her son, and cast it at his feet; and she said, “Surely you are a bridegroom of blood to me.”",
+      "ct": "Zipporah quickly grabbed a sharp flint, cut off her son's foreskin, and threw it at Moses' feet. \"You are a bridegroom of blood to me!\" she said."
+    },
+    {
+      "verse": 26,
+      "kjv": "So he let him go: then she said, A bloody husband thou art, because of the circumcision.",
+      "web": "So he let him alone. Then she said, “You are a bridegroom of blood,” because of the circumcision.",
+      "ct": "So the LORD let him go. She had called him a \"bridegroom of blood\" because of the circumcision."
+    },
+    {
+      "verse": 27,
+      "kjv": "And the LORD said to Aaron, Go into the wilderness to meet Moses. And he went, and met him in the mount of God, and kissed him.",
+      "web": "LORD said to Aaron, “Go into the wilderness to meet Moses.” He went, and met him on God’s mountain, and kissed him.",
+      "ct": "Meanwhile, the LORD told Aaron, \"Go out into the wilderness to meet Moses.\" So Aaron went and found him at the mountain of God, and he embraced him."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Moses told Aaron all the words of the LORD who had sent him, and all the signs which he had commanded him.",
+      "web": "Moses told Aaron all LORD’s words with which he had sent him, and all the signs with which he had instructed him.",
+      "ct": "Moses told Aaron everything the LORD had said when he sent him, and all the signs he had commanded him to perform."
+    },
+    {
+      "verse": 29,
+      "kjv": "And Moses and Aaron went and gathered together all the elders of the children of Israel:",
+      "web": "Moses and Aaron went and gathered together all the elders of the children of Israel.",
+      "ct": "Then Moses and Aaron went to Egypt and gathered all the elders of Israel together."
+    },
+    {
+      "verse": 30,
+      "kjv": "And Aaron spake all the words which the LORD had spoken unto Moses, and did the signs in the sight of the people.",
+      "web": "Aaron spoke all the words which LORD had spoken to Moses, and did the signs in the sight of the people.",
+      "ct": "Aaron repeated everything the LORD had told Moses, and he performed the signs in front of the people."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the people believed: and when they heard that the LORD had visited the children of Israel, and that he had looked upon their affliction, then they bowed their heads and worshipped.",
+      "web": "The people believed, and when they heard that LORD had visited the children of Israel, and that he had seen their affliction, then they bowed their heads and worshiped.",
+      "ct": "The people believed. When they heard that the LORD had come to the people of Israel and had seen their suffering, they bowed their heads and worshiped."
+    }
+  ]
+}

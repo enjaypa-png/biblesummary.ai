@@ -1,0 +1,185 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 33,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:17:11.869Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And this is the blessing, wherewith Moses the man of God blessed the children of Israel before his death.",
+      "web": "This is the blessing with which Moses the man of God blessed the children of Israel before his death.",
+      "ct": "This is the blessing that Moses, the man of God, spoke over the people of Israel before he died."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he said, The LORD came from Sinai, and rose up from Seir unto them; he shined forth from mount Paran, and he came with ten thousands of saints: from his right hand went a fiery law for them.",
+      "web": "He said, “LORD came from Sinai, and rose from Seir to them. He shone from Mount Paran. He came from the ten thousands of holy ones. At his right hand was a fiery law for them.",
+      "ct": "He said, \"The LORD came from Sinai and rose over them like the dawn from Seir. He blazed forth from Mount Paran and arrived with tens of thousands of holy ones. From his right hand came a fiery law for them."
+    },
+    {
+      "verse": 3,
+      "kjv": "Yea, he loved the people; all his saints are in thy hand: and they sat down at thy feet; every one shall receive of thy words.",
+      "web": "Yes, he loves the people. All his saints are in your hand. They sat down at your feet. Each receives your words.",
+      "ct": "He truly loves his people. All his holy ones are held in your hand. They sat at your feet, and each one received your words."
+    },
+    {
+      "verse": 4,
+      "kjv": "Moses commanded us a law, even the inheritance of the congregation of Jacob.",
+      "web": "Moses commanded us a law, an inheritance for the assembly of Jacob.",
+      "ct": "Moses gave us the law — the treasured inheritance of the assembly of Jacob."
+    },
+    {
+      "verse": 5,
+      "kjv": "And he was king in Jeshurun, when the heads of the people and the tribes of Israel were gathered together.",
+      "web": "He was king in Jeshurun, when the heads of the people were gathered, all the tribes of Israel together. ",
+      "ct": "The LORD became king in Jeshurun when the leaders of the people gathered together with all the tribes of Israel."
+    },
+    {
+      "verse": 6,
+      "kjv": "Let Reuben live, and not die; and let not his men be few.",
+      "web": "“Let Reuben live, and not die; Nor let his men be few.”",
+      "ct": "\"Let Reuben live and not die out, and don't let his numbers dwindle.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And this is the blessing of Judah: and he said, Hear, LORD, the voice of Judah, and bring him unto his people: let his hands be sufficient for him; and be thou an help to him from his enemies.",
+      "web": "This is for Judah. He said, “Hear, LORD, the voice of Judah. Bring him in to his people. With his hands he contended for himself. You shall be a help against his adversaries.”",
+      "ct": "About Judah, he said this: \"LORD, hear Judah's cry and bring him back to his people. Let his own hands be strong enough to fight for himself, and be his help against his enemies.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And of Levi he said, Let thy Thummim and thy Urim be with thy holy one, whom thou didst prove at Massah, and with whom thou didst strive at the waters of Meribah;",
+      "web": "About Levi he said, “Your Thummim and your Urim are with your godly one, whom you proved at Massah, with whom you contended at the waters of Meribah.",
+      "ct": "About Levi, he said: \"Your Thummim and Urim belong to your faithful one — the one you tested at Massah and challenged at the waters of Meribah."
+    },
+    {
+      "verse": 9,
+      "kjv": "Who said unto his father and to his mother, I have not seen him; neither did he acknowledge his brethren, nor knew his own children: for they have observed thy word, and kept thy covenant.",
+      "web": "He said of his father, and of his mother, ‘I have not seen him.’ He didn’t acknowledge his brothers, nor did he know his own children; for they have observed your word, and keep your covenant.",
+      "ct": "He said of his father and mother, 'I have no regard for them.' He didn't show favoritism to his brothers or give special treatment to his own children — because the Levites obeyed your word and guarded your covenant."
+    },
+    {
+      "verse": 10,
+      "kjv": "They shall teach Jacob thy judgments, and Israel thy law: they shall put incense before thee, and whole burnt sacrifice upon thine altar.",
+      "web": "They shall teach Jacob your ordinances, and Israel your law. They shall put incense before you, and whole burnt offering on your altar.",
+      "ct": "They will teach your ordinances to Jacob and your law to Israel. They will burn incense before you and place whole burnt offerings on your altar."
+    },
+    {
+      "verse": 11,
+      "kjv": "Bless, LORD, his substance, and accept the work of his hands: smite through the loins of them that rise against him, and of them that hate him, that they rise not again.",
+      "web": "LORD, bless his skills. Accept the work of his hands. Strike through the hips of those who rise up against him, of those who hate him, that they not rise again.”",
+      "ct": "LORD, bless everything Levi has, and accept the work of his hands. Crush the strength of those who rise against him — strike down those who hate him so they never get up again.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And of Benjamin he said, The beloved of the LORD shall dwell in safety by him; and the Lord shall cover him all the day long, and he shall dwell between his shoulders.",
+      "web": "About Benjamin he said, “The beloved of LORD will dwell in safety by him. He covers him all day long. He dwells between his shoulders.”",
+      "ct": "About Benjamin, he said: \"The one the LORD loves will live safely beside him. The LORD shelters him all day long, and Benjamin rests secure between his shoulders.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And of Joseph he said, Blessed of the LORD be his land, for the precious things of heaven, for the dew, and for the deep that coucheth beneath,",
+      "web": "About Joseph he said, “His land is blessed by LORD, for the precious things of the heavens, for the dew, for the deep that couches beneath,",
+      "ct": "About Joseph, he said: \"May the LORD bless his land with the precious gifts of heaven — the dew and the deep waters that lie beneath the ground,"
+    },
+    {
+      "verse": 14,
+      "kjv": "And for the precious fruits brought forth by the sun, and for the precious things put forth by the moon,",
+      "web": "for the precious things of the fruits of the sun, for the precious things that the moon can yield,",
+      "ct": "with the finest fruits ripened by the sun and the choicest produce brought forth by the moon,"
+    },
+    {
+      "verse": 15,
+      "kjv": "And for the chief things of the ancient mountains, and for the precious things of the lasting hills,",
+      "web": "for the best things of the ancient mountains, for the precious things of the everlasting hills,",
+      "ct": "with the best of the ancient mountains and the riches of the everlasting hills,"
+    },
+    {
+      "verse": 16,
+      "kjv": "And for the precious things of the earth and fulness thereof, and for the good will of him that dwelt in the bush: let the blessing come upon the head of Joseph, and upon the top of the head of him that was separated from his brethren.",
+      "web": "for the precious things of the earth and its fullness, the good will of him who lived in the bush. Let this come on the head of Joseph, on the crown of the head of him who was separated from his brothers.",
+      "ct": "with the precious bounty of the earth and everything in it, and the favor of the one who appeared in the burning bush. Let all these blessings rest on the head of Joseph — on the brow of the one set apart from his brothers."
+    },
+    {
+      "verse": 17,
+      "kjv": "His glory is like the firstling of his bullock, and his horns are like the horns of unicorns: with them he shall push the people together to the ends of the earth: and they are the ten thousands of Ephraim, and they are the thousands of Manasseh.",
+      "web": "Majesty belongs to the firstborn of his herd. His horns are the horns of the wild ox. With them he will push all the peoples to the ends of the earth. They are the ten thousands of Ephraim. They are the thousands of Manasseh.”",
+      "ct": "His glory is like a firstborn bull, and his horns are like the horns of a wild ox. With them he will gore the nations, driving them to the ends of the earth. These are the tens of thousands of Ephraim, and these are the thousands of Manasseh.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And of Zebulun he said, Rejoice, Zebulun, in thy going out; and, Issachar, in thy tents.",
+      "web": "About Zebulun he said, “Rejoice, Zebulun, in your going out; and Issachar, in your tents.",
+      "ct": "About Zebulun and Issachar, he said: \"Celebrate, Zebulun, as you head out on your journeys, and you, Issachar, rejoice in your tents."
+    },
+    {
+      "verse": 19,
+      "kjv": "They shall call the people unto the mountain; there they shall offer sacrifices of righteousness: for they shall suck of the abundance of the seas, and of treasures hid in the sand.",
+      "web": "They will call the peoples to the mountain. There they will offer sacrifices of righteousness, for they will draw out the abundance of the seas, the hidden treasures of the sand.”",
+      "ct": "They will summon peoples to the mountain, and there they will offer righteous sacrifices. They will draw wealth from the abundance of the seas and from treasures hidden in the sand.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And of Gad he said, Blessed be he that enlargeth Gad: he dwelleth as a lion, and teareth the arm with the crown of the head.",
+      "web": "About Gad he said, “He who enlarges Gad is blessed. He dwells as a lioness, and tears the arm and the crown of the head.",
+      "ct": "About Gad, he said: \"Blessed is the one who gives Gad more room! Gad crouches like a lioness, tearing off the arm and the skull of its prey."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he provided the first part for himself, because there, in a portion of the lawgiver, was he seated; and he came with the heads of the people, he executed the justice of the LORD, and his judgments with Israel.",
+      "web": "He provided the first part for himself, for the lawgiver’s portion reserved was reserved for him. He came with the heads of the people. He executed the righteousness of LORD, His ordinances with Israel.”",
+      "ct": "He chose the best land for himself — a leader's portion was reserved for him. When the heads of the people assembled, he carried out the LORD's righteous will and his judgments alongside Israel.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And of Dan he said, Dan is a lion’s whelp: he shall leap from Bashan.",
+      "web": "About Dan he said, “Dan is a lion’s cub that leaps out of Bashan.”",
+      "ct": "About Dan, he said: \"Dan is a lion's cub that leaps out from Bashan.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And of Naphtali he said, O Naphtali, satisfied with favour, and full with the blessing of the LORD: possess thou the west and the south.",
+      "web": "About Naphtali he said, “Naphtali, satisfied with favor, full of LORD’s blessing, Possess the west and the south.”",
+      "ct": "About Naphtali, he said: \"Naphtali overflows with favor and is filled with the LORD's blessing. Take possession of the land to the west and to the south.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And of Asher he said, Let Asher be blessed with children; let him be acceptable to his brethren, and let him dip his foot in oil.",
+      "web": "About Asher he said, “Asher is blessed with children. Let him be acceptable to his brothers. Let him dip his foot in oil.",
+      "ct": "About Asher, he said: \"Most blessed among the sons is Asher. Let him be favored by his brothers, and let him bathe his feet in olive oil."
+    },
+    {
+      "verse": 25,
+      "kjv": "Thy shoes shall be iron and brass; and as thy days, so shall thy strength be.",
+      "web": "Your bars will be iron and bronze. As your days, so your strength will be. ",
+      "ct": "Your gate bars will be iron and bronze, and your strength will last as long as you live.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "There is none like unto the God of Jeshurun, who rideth upon the heaven in thy help, and in his excellency on the sky.",
+      "web": "“There is no one like God, Jeshurun, who rides on the heavens for your help, in his excellency on the skies.",
+      "ct": "\"There is no one like the God of Jeshurun, who rides across the heavens to help you, majestic upon the clouds."
+    },
+    {
+      "verse": 27,
+      "kjv": "The eternal God is thy refuge, and underneath are the everlasting arms: and he shall thrust out the enemy from before thee; and shall say, Destroy them.",
+      "web": "The eternal God is your dwelling place. Underneath are the everlasting arms. He thrust out the enemy from before you, and said, ‘Destroy!’",
+      "ct": "The eternal God is your refuge, and underneath you are his everlasting arms. He drives out the enemy before you and commands, 'Destroy them!'"
+    },
+    {
+      "verse": 28,
+      "kjv": "Israel then shall dwell in safety alone: the fountain of Jacob shall be upon a land of corn and wine; also his heavens shall drop down dew.",
+      "web": "Israel dwells in safety, the fountain of Jacob alone, In a land of grain and new wine. Yes, his heavens drop down dew.",
+      "ct": "So Israel will live in safety, undisturbed. Jacob's descendants will settle in a land of grain and new wine, where the heavens drip with dew."
+    },
+    {
+      "verse": 29,
+      "kjv": "Happy art thou, O Israel: who is like unto thee, O people saved by the LORD, the shield of thy help, and who is the sword of thy excellency! and thine enemies shall be found liars unto thee; and thou shalt tread upon their high places.",
+      "web": "You are happy, Israel! Who is like you, a people saved by LORD, the shield of your help, the sword of your excellency? Your enemies will submit themselves to you. You will tread on their high places.”",
+      "ct": "How blessed you are, Israel! Who else is like you — a people saved by the LORD? He is the shield that guards you and the sword that gives you victory. Your enemies will cower before you, and you will trample their high places underfoot.\""
+    }
+  ]
+}

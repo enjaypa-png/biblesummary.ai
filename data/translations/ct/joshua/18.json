@@ -1,0 +1,179 @@
+{
+  "book": "joshua",
+  "book_name": "Joshua",
+  "chapter": 18,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:24:08.215Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the whole congregation of the children of Israel assembled together at Shiloh, and set up the tabernacle of the congregation there. And the land was subdued before them.",
+      "web": "The whole congregation of the children of Israel assembled themselves together at Shiloh, and set up the Tent of Meeting there. The land was subdued before them.",
+      "ct": "The entire community of Israel gathered at Shiloh, where they set up the tabernacle. By this time, the land had been brought under their control."
+    },
+    {
+      "verse": 2,
+      "kjv": "And there remained among the children of Israel seven tribes, which had not yet received their inheritance.",
+      "web": "Seven tribes remained among the children of Israel, which had not yet divided their inheritance.",
+      "ct": "But 7 tribes among the Israelites still hadn't received their share of the land."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Joshua said unto the children of Israel, How long are ye slack to go to possess the land, which the LORD God of your fathers hath given you?",
+      "web": "Joshua said to the children of Israel, “How long will you neglect to go in to possess the land, which LORD, the God of your fathers, has given you?",
+      "ct": "Joshua confronted the Israelites: \"How long are you going to put off going in and taking possession of the land that the LORD, the God of your ancestors, has given you?"
+    },
+    {
+      "verse": 4,
+      "kjv": "Give out from among you three men for each tribe: and I will send them, and they shall rise, and go through the land, and describe it according to the inheritance of them; and they shall come again to me.",
+      "web": "Appoint for yourselves three men from each tribe. I will send them, and they shall arise, walk through the land, and describe it according to their inheritance; then they shall come to me.",
+      "ct": "Choose 3 men from each tribe. I'll send them out to travel through the land and map it out according to what each tribe should inherit. Then they'll report back to me."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they shall divide it into seven parts: Judah shall abide in their coast on the south, and the house of Joseph shall abide in their coasts on the north.",
+      "web": "They shall divide it into seven portions. Judah shall live in his borders on the south, and the house of Joseph shall live in their borders on the north.",
+      "ct": "They are to divide the land into 7 portions. Judah will stay in their territory to the south, and the house of Joseph will stay in their territory to the north."
+    },
+    {
+      "verse": 6,
+      "kjv": "Ye shall therefore describe the land into seven parts, and bring the description hither to me, that I may cast lots for you here before the LORD our God.",
+      "web": "You shall survey the land into seven parts, and bring the description here to me; and I will cast lots for you here before LORD our God.",
+      "ct": "Once you've surveyed the land and divided it into 7 portions, bring the written description back here to me. Then I'll cast lots for you here in the presence of the LORD our God."
+    },
+    {
+      "verse": 7,
+      "kjv": "But the Levites have no part among you; for the priesthood of the LORD is their inheritance: and Gad, and Reuben, and half the tribe of Manasseh, have received their inheritance beyond Jordan on the east, which Moses the servant of the LORD gave them.",
+      "web": "However, the Levites have no portion among you; for the priesthood of LORD is their inheritance. Gad, Reuben, and the half-tribe of Manasseh have received their inheritance east of the Jordan, which Moses the servant of LORD gave them.”",
+      "ct": "The Levites won't get a portion of land, because their inheritance is the priesthood of the LORD. And Gad, Reuben, and the half-tribe of Manasseh have already received their inheritance east of the Jordan, which Moses the servant of the LORD gave them.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the men arose, and went away: and Joshua charged them that went to describe the land, saying, Go and walk through the land, and describe it, and come again to me, that I may here cast lots for you before the LORD in Shiloh.",
+      "web": "The men arose and went. Joshua commanded those who went to survey the land, saying, “Go walk through the land, survey it, and come again to me. I will cast lots for you here before LORD in Shiloh.”",
+      "ct": "The men got up and prepared to leave. Joshua gave these instructions to the surveyors: \"Go walk through the land and write down what you find. Then come back to me, and I'll cast lots for you here before the LORD in Shiloh.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the men went and passed through the land, and described it by cities into seven parts in a book, and came again to Joshua to the host at Shiloh.",
+      "web": "The men went and passed through the land, and surveyed it by cities into seven portions in a book. They came to Joshua to the camp at Shiloh.",
+      "ct": "So the men traveled through the entire land, recorded it city by city, and divided it into 7 portions in a written document. Then they returned to Joshua at the camp in Shiloh."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Joshua cast lots for them in Shiloh before the LORD: and there Joshua divided the land unto the children of Israel according to their divisions.",
+      "web": "Joshua cast lots for them in Shiloh before LORD. There Joshua divided the land to the children of Israel according to their divisions.",
+      "ct": "Joshua cast lots for them in Shiloh before the LORD, and there he distributed the land to the Israelites, giving each division its share."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the lot of the tribe of the children of Benjamin came up according to their families: and the coast of their lot came forth between the children of Judah and the children of Joseph.",
+      "web": "The lot of the tribe of the children of Benjamin came up according to their families. The border of their lot went out between the children of Judah and the children of Joseph.",
+      "ct": "The first lot fell to the tribe of Benjamin, clan by clan. Their territory lay between the land of Judah and the land of Joseph."
+    },
+    {
+      "verse": 12,
+      "kjv": "And their border on the north side was from Jordan; and the border went up to the side of Jericho on the north side, and went up through the mountains westward; and the goings out thereof were at the wilderness of Bethaven.",
+      "web": "Their border on the north quarter was from the Jordan. The border went up to the side of Jericho on the north, and went up through the hill country westward. It ended at the wilderness of Beth Aven.",
+      "ct": "On the north side, their border started at the Jordan, went up along the north side of Jericho, then climbed westward through the hill country until it reached the wilderness of Beth-aven."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the border went over from thence toward Luz, to the side of Luz, which is Bethel, southward; and the border descended to Atarothadar, near the hill that lieth on the south side of the nether Bethhoron.",
+      "web": "The border passed along from there to Luz, to the side of Luz (also called Bethel), southward. The border went down to Ataroth Addar, by the mountain that lies on the south of Beth Horon the lower.",
+      "ct": "From there the border continued to Luz (also known as Bethel), passing along its southern side. Then it went down to Ataroth-addar, near the hill south of Lower Beth-horon."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the border was drawn thence, and compassed the corner of the sea southward, from the hill that lieth before Bethhoron southward; and the goings out thereof were at Kirjathbaal, which is Kirjathjearim, a city of the children of Judah: this was the west quarter.",
+      "web": "The border extended, and turned around on the west quarter southward, from the mountain that lies before Beth Horon southward; and ended at Kiriath Baal (also called Kiriath Jearim), a city of the children of Judah. This was the west quarter.",
+      "ct": "The border then turned and curved southward along the western side, starting from the hill facing Beth-horon, and ended at Kiriath-baal (also known as Kiriath-jearim), a city belonging to Judah. This was the western boundary."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the south quarter was from the end of Kirjathjearim, and the border went out on the west, and went out to the well of waters of Nephtoah:",
+      "web": "The south quarter was from the farthest part of Kiriath Jearim. The border went out westward, and went out to the spring of the waters of Nephtoah.",
+      "ct": "The southern boundary started at the edge of Kiriath-jearim, ran westward, and continued to the spring of the waters of Nephtoah."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the border came down to the end of the mountain that lieth before the valley of the son of Hinnom, and which is in the valley of the giants on the north, and descended to the valley of Hinnom, to the side of Jebusi on the south, and descended to Enrogel,",
+      "web": "The border went down to the farthest part of the mountain that lies before the valley of the son of Hinnom, which is in the valley of Rephaim northward. It went down to the valley of Hinnom, to the side of the Jebusite southward, and went down to En Rogel.",
+      "ct": "It then went down to the base of the mountain overlooking the Valley of Ben-hinnom, which is at the north end of the Valley of Rephaim. From there it descended through the Valley of Hinnom along the southern slope of the Jebusite city, and continued down to En-rogel."
+    },
+    {
+      "verse": 17,
+      "kjv": "And was drawn from the north, and went forth to Enshemesh, and went forth toward Geliloth, which is over against the going up of Adummim, and descended to the stone of Bohan the son of Reuben,",
+      "web": "It extended northward, went out at En Shemesh, and went out to Geliloth, which is opposite the ascent of Adummim. It went down to the stone of Bohan the son of Reuben.",
+      "ct": "It curved northward to En-shemesh, then continued to Geliloth, which faces the ascent of Adummim, and went down to the stone of Bohan son of Reuben."
+    },
+    {
+      "verse": 18,
+      "kjv": "And passed along toward the side over against Arabah northward, and went down unto Arabah:",
+      "web": "It passed along to the side opposite the Arabah northward, and went down to the Arabah.",
+      "ct": "It then passed along the ridge facing the Arabah to the north and went down into the Arabah."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the border passed along to the side of Bethhoglah northward: and the outgoings of the border were at the north bay of the salt sea at the south end of Jordan: this was the south coast.",
+      "web": "The border passed along to the side of Beth Hoglah northward; and the border ended at the north bay of the Salt Sea, at the south end of the Jordan. This was the south border.",
+      "ct": "The border continued along the north side of Beth-hoglah and ended at the northern bay of the Salt Sea, at the southern end of the Jordan. This was the southern boundary."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Jordan was the border of it on the east side. This was the inheritance of the children of Benjamin, by the coasts thereof round about, according to their families.",
+      "web": "The Jordan was its border on the east quarter. This was the inheritance of the children of Benjamin, by the borders around it, according to their families.",
+      "ct": "The Jordan River formed the eastern boundary. These were the borders surrounding the inheritance of the tribe of Benjamin, clan by clan."
+    },
+    {
+      "verse": 21,
+      "kjv": "Now the cities of the tribe of the children of Benjamin according to their families were Jericho, and Bethhoglah, and the valley of Keziz,",
+      "web": "Now the cities of the tribe of the children of Benjamin according to their families were Jericho, Beth Hoglah, Emek Keziz,",
+      "ct": "The cities assigned to the tribe of Benjamin, clan by clan, were: Jericho, Beth-hoglah, Emek-keziz,"
+    },
+    {
+      "verse": 22,
+      "kjv": "And Betharabah, and Zemaraim, and Bethel,",
+      "web": "Beth Arabah, Zemaraim, Bethel,",
+      "ct": "Beth-arabah, Zemaraim, Bethel,"
+    },
+    {
+      "verse": 23,
+      "kjv": "And Avim, and Parah, and Ophrah,",
+      "web": "Avvim, Parah, Ophrah,",
+      "ct": "Avvim, Parah, Ophrah,"
+    },
+    {
+      "verse": 24,
+      "kjv": "And Chepharhaammonai, and Ophni, and Gaba; twelve cities with their villages:",
+      "web": "Chephar Ammoni, Ophni, and Geba; twelve cities with their villages.",
+      "ct": "Chephar-ammoni, Ophni, and Geba — 12 cities along with their surrounding villages."
+    },
+    {
+      "verse": 25,
+      "kjv": "Gibeon, and Ramah, and Beeroth,",
+      "web": "Gibeon, Ramah, Beeroth,",
+      "ct": "Gibeon, Ramah, Beeroth,"
+    },
+    {
+      "verse": 26,
+      "kjv": "And Mizpeh, and Chephirah, and Mozah,",
+      "web": "Mizpeh, Chephirah, Mozah,",
+      "ct": "Mizpeh, Chephirah, Mozah,"
+    },
+    {
+      "verse": 27,
+      "kjv": "And Rekem, and Irpeel, and Taralah,",
+      "web": "Rekem, Irpeel, Taralah,",
+      "ct": "Rekem, Irpeel, Taralah,"
+    },
+    {
+      "verse": 28,
+      "kjv": "And Zelah, Eleph, and Jebusi, which is Jerusalem, Gibeath, and Kirjath; fourteen cities with their villages. This is the inheritance of the children of Benjamin according to their families.",
+      "web": "Zelah, Eleph, the Jebusite (also called Jerusalem), Gibeath, and Kiriath; fourteen cities with their villages. This is the inheritance of the children of Benjamin according to their families.",
+      "ct": "Zelah, Eleph, Jebusi (which is Jerusalem), Gibeah, and Kiriath — 14 cities along with their surrounding villages. This was the inheritance given to the tribe of Benjamin, clan by clan."
+    }
+  ]
+}

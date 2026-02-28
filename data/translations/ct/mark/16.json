@@ -1,0 +1,131 @@
+{
+  "book": "mark",
+  "book_name": "Mark",
+  "chapter": 16,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T13:51:33.952Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And when the sabbath was past, Mary Magdalene, and Mary the mother of James, and Salome, had bought sweet spices, that they might come and anoint him.",
+      "web": "When the Sabbath was past, Mary Magdalene, and Mary the mother of James, and Salome, bought spices, that they might come and anoint him.",
+      "ct": "After the Sabbath was over, Mary Magdalene, Mary the mother of James, and Salome bought spices so they could go and anoint Jesus' body."
+    },
+    {
+      "verse": 2,
+      "kjv": "And very early in the morning the first day of the week, they came unto the sepulchre at the rising of the sun.",
+      "web": "Very early on the first day of the week, they came to the tomb when the sun had risen.",
+      "ct": "Very early on Sunday morning, just as the sun was rising, they headed to the tomb."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they said among themselves, Who shall roll us away the stone from the door of the sepulchre?",
+      "web": "They were saying among themselves, “Who will roll away the stone from the door of the tomb for us?”",
+      "ct": "On the way, they asked each other, \"Who's going to roll that stone away from the entrance of the tomb for us?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And when they looked, they saw that the stone was rolled away: for it was very great.",
+      "web": "for it was very big. Looking up, they saw that the stone was rolled back.",
+      "ct": "But when they looked up, they saw that the stone had already been rolled away — and it was massive."
+    },
+    {
+      "verse": 5,
+      "kjv": "And entering into the sepulchre, they saw a young man sitting on the right side, clothed in a long white garment; and they were affrighted.",
+      "web": "Entering into the tomb, they saw a young man sitting on the right side, dressed in a white robe, and they were amazed.",
+      "ct": "They stepped inside the tomb and saw a young man sitting on the right side, dressed in a long white robe. They were terrified."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he saith unto them, Be not affrighted: Ye seek Jesus of Nazareth, which was crucified: he is risen; he is not here: behold the place where they laid him.",
+      "web": "He said to them, “Don’t be amazed. You seek Jesus, the Nazarene, who has been crucified. He has risen. He is not here. Behold, the place where they laid him!",
+      "ct": "He told them, \"Don't be afraid. You're looking for Jesus of Nazareth, the one who was crucified. He has risen! He isn't here. Look — this is where they laid his body.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "But go your way, tell his disciples and Peter that he goeth before you into Galilee: there shall ye see him, as he said unto you.",
+      "web": "But go, tell his disciples and Peter, ‘He goes before you into Galilee. There you will see him, as he said to you.’ ”",
+      "ct": "\"Now go tell his disciples — and Peter — that he is going ahead of you to Galilee. You'll see him there, just as he told you.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And they went out quickly, and fled from the sepulchre; for they trembled and were amazed: neither said they any thing to any man; for they were afraid.",
+      "web": "They went out, and fled from the tomb, for trembling and astonishment had come on them. They said nothing to anyone; for they were afraid.",
+      "ct": "The women rushed out and fled from the tomb, shaking and overwhelmed. They didn't say a word to anyone, because they were terrified."
+    },
+    {
+      "verse": 9,
+      "kjv": "Now when Jesus was risen early the first day of the week, he appeared first to Mary Magdalene, out of whom he had cast seven devils.",
+      "web": "Now when he had risen early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons.",
+      "ct": "After Jesus rose early on Sunday morning, he appeared first to Mary Magdalene, the woman he had freed from 7 demons."
+    },
+    {
+      "verse": 10,
+      "kjv": "And she went and told them that had been with him, as they mourned and wept.",
+      "web": "She went and told those who had been with him, as they mourned and wept.",
+      "ct": "She went and told his companions, who were grieving and weeping."
+    },
+    {
+      "verse": 11,
+      "kjv": "And they, when they had heard that he was alive, and had been seen of her, believed not.",
+      "web": "When they heard that he was alive, and had been seen by her, they disbelieved.",
+      "ct": "But when they heard that he was alive and that she had seen him, they refused to believe it."
+    },
+    {
+      "verse": 12,
+      "kjv": "After that he appeared in another form unto two of them, as they walked, and went into the country.",
+      "web": "After these things he was revealed in another form to two of them, as they walked, on their way into the country.",
+      "ct": "After that, Jesus appeared in a different form to 2 of them as they were walking out into the countryside."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they went and told it unto the residue: neither believed they them.",
+      "web": "They went away and told it to the rest. They didn’t believe them, either.",
+      "ct": "They went back and told the others, but no one believed them either."
+    },
+    {
+      "verse": 14,
+      "kjv": "Afterward he appeared unto the eleven as they sat at meat, and upbraided them with their unbelief and hardness of heart, because they believed not them which had seen him after he was risen.",
+      "web": "Afterward he was revealed to the eleven themselves as they sat at the table, and he rebuked them for their unbelief and hardness of heart, because they didn’t believe those who had seen him after he had risen.",
+      "ct": "Later, Jesus appeared to the 11 disciples while they were eating together. He rebuked them for their stubborn unbelief, because they had refused to believe the people who saw him after he had risen."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he said unto them, Go ye into all the world, and preach the gospel to every creature.",
+      "web": "He said to them, “Go into all the world, and preach the Good News to the whole creation.",
+      "ct": "Then he told them, \"Go into all the world and preach the good news to everyone."
+    },
+    {
+      "verse": 16,
+      "kjv": "He that believeth and is baptized shall be saved; but he that believeth not shall be damned.",
+      "web": "He who believes and is baptized will be saved; but he who disbelieves will be condemned.",
+      "ct": "Whoever believes and is baptized will be saved, but whoever refuses to believe will be condemned."
+    },
+    {
+      "verse": 17,
+      "kjv": "And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues;",
+      "web": "These signs will accompany those who believe: in my name they will cast out demons; they will speak with new languages;",
+      "ct": "These signs will accompany those who believe: in my name they will cast out demons and speak in new languages."
+    },
+    {
+      "verse": 18,
+      "kjv": "They shall take up serpents; and if they drink any deadly thing, it shall not hurt them; they shall lay hands on the sick, and they shall recover.",
+      "web": "they will take up serpents; and if they drink any deadly thing, it will in no way hurt them; they will lay hands on the sick, and they will recover.”",
+      "ct": "They will pick up serpents, and if they drink anything deadly, it won't harm them. They will place their hands on the sick, and the sick will be healed.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "So then after the Lord had spoken unto them, he was received up into heaven, and sat on the right hand of God.",
+      "web": "So then the Lord, after he had spoken to them, was received up into heaven, and sat down at the right hand of God.",
+      "ct": "After the Lord Jesus finished speaking to them, he was taken up into heaven and sat down at the right hand of God."
+    },
+    {
+      "verse": 20,
+      "kjv": "And they went forth, and preached every where, the Lord working with them, and confirming the word with signs following. Amen.",
+      "web": "They went out, and preached everywhere, the Lord working with them, and confirming the word by the signs that followed. Amen.",
+      "ct": "The disciples went out and preached everywhere, and the Lord worked alongside them, confirming his word through the miraculous signs that followed. Amen."
+    }
+  ]
+}

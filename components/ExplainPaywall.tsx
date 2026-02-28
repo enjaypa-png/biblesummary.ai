@@ -7,11 +7,15 @@ import { startCheckout } from "@/lib/entitlements";
 interface ExplainPaywallProps {
   isAuthenticated: boolean;
   onClose: () => void;
+  trialsUsed?: number;
+  trialLimit?: number;
 }
 
 export default function ExplainPaywall({
   isAuthenticated,
   onClose,
+  trialsUsed = 3,
+  trialLimit = 3,
 }: ExplainPaywallProps) {
   const [loading, setLoading] = useState<"monthly" | "premium" | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -93,8 +97,9 @@ export default function ExplainPaywall({
         className="block text-[14px] leading-relaxed text-center mb-4"
         style={{ color: "var(--foreground)" }}
       >
-        Verse explanations use AI and cost real money to provide. Bible reading
-        and audio are free forever. AI features are optional.
+        {trialsUsed >= trialLimit
+          ? `You've used all ${trialLimit} free explanations. Upgrade to keep going — Bible reading stays free forever.`
+          : "Verse explanations use AI and cost real money to provide. Bible reading and audio are free forever."}
       </span>
 
       {!isAuthenticated ? (
@@ -176,7 +181,7 @@ export default function ExplainPaywall({
                   style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
                 />
               ) : (
-                "$59/yr"
+                "$79/yr"
               )}
             </span>
           </button>

@@ -1,0 +1,191 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 6,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:40:36.667Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "If a soul sin, and commit a trespass against the LORD, and lie unto his neighbour in that which was delivered him to keep, or in fellowship, or in a thing taken away by violence, or hath deceived his neighbour;",
+      "web": "“If anyone sins, and commits a trespass against LORD, and deals falsely with his neighbor in a matter of deposit, or of bargain, or of robbery, or has oppressed his neighbor,",
+      "ct": "\"If anyone sins by being unfaithful to the LORD — whether by lying to a neighbor about something left in their care, or about a business deal, or about something stolen by force, or by cheating a neighbor in any way —"
+    },
+    {
+      "verse": 3,
+      "kjv": "Or have found that which was lost, and lieth concerning it, and sweareth falsely; in any of all these that a man doeth, sinning therein:",
+      "web": "or has found that which was lost, and lied about it, and swearing to a lie—in any of these things that a man sins in his actions—",
+      "ct": "or if someone finds a lost item and lies about it, or swears falsely about any of these things — whatever sin a person commits in this way —"
+    },
+    {
+      "verse": 4,
+      "kjv": "Then it shall be, because he hath sinned, and is guilty, that he shall restore that which he took violently away, or the thing which he hath deceitfully gotten, or that which was delivered him to keep, or the lost thing which he found,",
+      "web": "then it shall be, if he has sinned, and is guilty, he shall restore that which he took by robbery, or the thing which he has gotten by oppression, or the deposit which was committed to him, or the lost thing which he found,",
+      "ct": "then once that person is found guilty, they must return whatever they stole, whatever they took by fraud, whatever was entrusted to them for safekeeping, or whatever lost property they found."
+    },
+    {
+      "verse": 5,
+      "kjv": "Or all that about which he hath sworn falsely; he shall even restore it in the principal, and shall add the fifth part more thereto, and give it unto him to whom it appertaineth, in the day of his trespass offering.",
+      "web": "or any thing about which he has sworn falsely: he shall restore it in full, and shall add a fifth part more to it. He shall return it to him to whom it belongs in the day of his being found guilty.",
+      "ct": "For anything they swore falsely about, they must pay back the full amount plus an additional 5th of its value. They must return it to its rightful owner on the day they present their guilt offering."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he shall bring his trespass offering unto the LORD, a ram without blemish out of the flock, with thy estimation, for a trespass offering, unto the priest:",
+      "web": "He shall bring his trespass offering to LORD: a ram without defect from the flock, according to your estimation, for a trespass offering, to the priest.",
+      "ct": "They must also bring their trespass offering to the LORD: a ram without any defect from the flock, valued at the proper amount, as a trespass offering to the priest."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the priest shall make an atonement for him before the LORD: and it shall be forgiven him for any thing of all that he hath done in trespassing therein.",
+      "web": "The priest shall make atonement for him before LORD, and he will be forgiven concerning whatever he does to become guilty.”",
+      "ct": "The priest will then make atonement for that person before the LORD, and they will be forgiven for whatever they did that made them guilty.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 9,
+      "kjv": "Command Aaron and his sons, saying, This is the law of the burnt offering: It is the burnt offering, because of the burning upon the altar all night unto the morning, and the fire of the altar shall be burning in it.",
+      "web": "“Command Aaron and his sons, saying, ‘This is the law of the burnt offering: the burnt offering shall be on the hearth on the altar all night until the morning; and the fire of the altar shall be kept burning on it.",
+      "ct": "\"Give Aaron and his sons these instructions: 'Here is the law for the burnt offering. The burnt offering must stay on the altar hearth throughout the entire night until morning, and the altar fire must be kept burning."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the priest shall put on his linen garment, and his linen breeches shall he put upon his flesh, and take up the ashes which the fire hath consumed with the burnt offering on the altar, and he shall put them beside the altar.",
+      "web": "The priest shall put on his linen garment, and he shall put on his linen trousers upon his body; and he shall remove the ashes from where the fire has consumed the burnt offering on the altar, and he shall put them beside the altar.",
+      "ct": "The priest must put on his linen robe with linen undergarments worn next to his body. Then he must scoop up the ashes left after the fire has consumed the burnt offering on the altar and place them beside the altar."
+    },
+    {
+      "verse": 11,
+      "kjv": "And he shall put off his garments, and put on other garments, and carry forth the ashes without the camp unto a clean place.",
+      "web": "He shall take off his garments, and put on other garments, and carry the ashes outside the camp to a clean place.",
+      "ct": "After that, he must change out of those garments, put on different clothes, and carry the ashes outside the camp to a ceremonially clean place."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the fire upon the altar shall be burning in it; it shall not be put out: and the priest shall burn wood on it every morning, and lay the burnt offering in order upon it; and he shall burn thereon the fat of the peace offerings.",
+      "web": "The fire on the altar shall be kept burning on it, it shall not go out; and the priest shall burn wood on it every morning. He shall lay the burnt offering in order upon it, and shall burn on it the fat of the peace offerings.",
+      "ct": "The fire on the altar must be kept burning — it must never go out. Every morning the priest must add fresh wood, arrange the burnt offering on the altar, and burn the fat from the peace offerings on it."
+    },
+    {
+      "verse": 13,
+      "kjv": "The fire shall ever be burning upon the altar; it shall never go out.",
+      "web": "Fire shall be kept burning on the altar continually; it shall not go out.",
+      "ct": "The fire must burn on the altar at all times. It must never go out."
+    },
+    {
+      "verse": 14,
+      "kjv": "And this is the law of the meat offering: the sons of Aaron shall offer it before the LORD, before the altar.",
+      "web": "“ ‘This is the law of the meal offering: the sons of Aaron shall offer it before LORD, before the altar.",
+      "ct": "\"'Here is the law for the grain offering. Aaron's sons must present it before the LORD, in front of the altar."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he shall take of it his handful, of the flour of the meat offering, and of the oil thereof, and all the frankincense which is upon the meat offering, and shall burn it upon the altar for a sweet savour, even the memorial of it, unto the LORD.",
+      "web": "He shall take from there his handful of the fine flour of the meal offering, and of its oil, and all the frankincense which is on the meal offering, and shall burn it on the altar for a pleasant aroma, as its memorial portion, to LORD.",
+      "ct": "The priest must take a handful of the fine flour from the grain offering, along with its oil and all the frankincense on it, and burn this memorial portion on the altar as a pleasing aroma to the LORD."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the remainder thereof shall Aaron and his sons eat: with unleavened bread shall it be eaten in the holy place; in the court of the tabernacle of the congregation they shall eat it.",
+      "web": "That which is left of it Aaron and his sons shall eat. It shall be eaten without yeast in a holy place. They shall eat it in the court of the Tent of Meeting.",
+      "ct": "Aaron and his sons may eat whatever is left over, but it must be eaten without yeast in a holy place — specifically, in the courtyard of the Tabernacle."
+    },
+    {
+      "verse": 17,
+      "kjv": "It shall not be baken with leaven. I have given it unto them for their portion of my offerings made by fire; it is most holy, as is the sin offering, and as the trespass offering.",
+      "web": "It shall not be baked with yeast. I have given it as their portion of my offerings made by fire. It is most holy, as are the sin offering and the trespass offering.",
+      "ct": "It must not be baked with yeast. I have given it to the priests as their share of my fire offerings. It is most holy, just like the sin offering and the trespass offering."
+    },
+    {
+      "verse": 18,
+      "kjv": "All the males among the children of Aaron shall eat of it. It shall be a statute for ever in your generations concerning the offerings of the LORD made by fire: every one that toucheth them shall be holy.",
+      "web": "Every male among the children of Aaron shall eat of it, as their portion forever throughout your generations, from the offerings of LORD made by fire. Whoever touches them shall be holy.’ ”",
+      "ct": "Every male descendant of Aaron may eat from it. This is a permanent rule for all future generations regarding the LORD's fire offerings. Anyone who touches these offerings will become holy.'\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 20,
+      "kjv": "This is the offering of Aaron and of his sons, which they shall offer unto the LORD in the day when he is anointed; the tenth part of an ephah of fine flour for a meat offering perpetual, half of it in the morning, and half thereof at night.",
+      "web": "“This is the offering of Aaron and of his sons, which they shall offer to LORD in the day when he is anointed: one tenth of an ephah of fine flour for a meal offering perpetually, half of it in the morning, and half of it in the evening.",
+      "ct": "\"On the day a priest is anointed, here is the offering that Aaron and his sons must bring to the LORD: a 10th of an ephah of fine flour as a regular grain offering — half in the morning and half in the evening."
+    },
+    {
+      "verse": 21,
+      "kjv": "In a pan it shall be made with oil; and when it is baken, thou shalt bring it in: and the baken pieces of the meat offering shalt thou offer for a sweet savour unto the LORD.",
+      "web": "It shall be made with oil in a griddle. When it is soaked, you shall bring it in. You shall offer the meal offering in baked pieces for a pleasant aroma to LORD.",
+      "ct": "It must be prepared with oil on a griddle. Once it is thoroughly soaked, bring it in and offer the broken pieces of the grain offering as a pleasing aroma to the LORD."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the priest of his sons that is anointed in his stead shall offer it: it is a statute for ever unto the LORD; it shall be wholly burnt.",
+      "web": "The anointed priest that will be in his place from among his sons shall offer it. By a statute forever, it shall be wholly burned to LORD.",
+      "ct": "Whichever of Aaron's sons is anointed to succeed him as priest must offer this same sacrifice. This is a permanent rule — the entire offering must be completely burned for the LORD."
+    },
+    {
+      "verse": 23,
+      "kjv": "For every meat offering for the priest shall be wholly burnt: it shall not be eaten.",
+      "web": "Every meal offering of a priest shall be wholly burned. It shall not be eaten.”",
+      "ct": "Every grain offering made by a priest must be burned completely. None of it may be eaten.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 25,
+      "kjv": "Speak unto Aaron and to his sons, saying, This is the law of the sin offering: In the place where the burnt offering is killed shall the sin offering be killed before the LORD: it is most holy.",
+      "web": "“Speak to Aaron and to his sons, saying, ‘This is the law of the sin offering: in the place where the burnt offering is killed, the sin offering shall be killed before LORD. It is most holy.",
+      "ct": "\"Tell Aaron and his sons: 'Here is the law for the sin offering. The sin offering must be slaughtered before the LORD in the same place where the burnt offering is slaughtered. It is most holy."
+    },
+    {
+      "verse": 26,
+      "kjv": "The priest that offereth it for sin shall eat it: in the holy place shall it be eaten, in the court of the tabernacle of the congregation.",
+      "web": "The priest who offers it for sin shall eat it. It shall be eaten in a holy place, in the court of the Tent of Meeting.",
+      "ct": "The priest who offers the sin offering must eat it. It must be eaten in a holy place — in the courtyard of the Tabernacle."
+    },
+    {
+      "verse": 27,
+      "kjv": "Whatsoever shall touch the flesh thereof shall be holy: and when there is sprinkled of the blood thereof upon any garment, thou shalt wash that whereon it was sprinkled in the holy place.",
+      "web": "Whatever shall touch its flesh shall be holy. When there is any of its blood sprinkled on a garment, you shall wash that on which it was sprinkled in a holy place.",
+      "ct": "Anything that touches the meat of this offering becomes holy. If any of its blood spatters on a garment, that garment must be washed in a holy place."
+    },
+    {
+      "verse": 28,
+      "kjv": "But the earthen vessel wherein it is sodden shall be broken: and if it be sodden in a brasen pot, it shall be both scoured, and rinsed in water.",
+      "web": "But the earthen vessel in which it is boiled shall be broken; and if it is boiled in a bronze vessel, it shall be scoured, and rinsed in water.",
+      "ct": "If the meat is boiled in a clay pot, that pot must be smashed. If it is boiled in a bronze pot, the pot must be scrubbed clean and rinsed with water."
+    },
+    {
+      "verse": 29,
+      "kjv": "All the males among the priests shall eat thereof: it is most holy.",
+      "web": "Every male among the priests shall eat of it. It is most holy.",
+      "ct": "Every male among the priests may eat from it. It is most holy."
+    },
+    {
+      "verse": 30,
+      "kjv": "And no sin offering, whereof any of the blood is brought into the tabernacle of the congregation to reconcile withal in the holy place, shall be eaten: it shall be burnt in the fire.",
+      "web": "No sin offering, of which any of the blood is brought into the Tent of Meeting to make atonement in the Holy Place, shall be eaten. It shall be burned with fire.",
+      "ct": "However, if any blood from a sin offering is brought into the Tabernacle to make atonement in the Holy Place, that offering must not be eaten. It must be burned completely with fire.'\""
+    }
+  ]
+}

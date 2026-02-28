@@ -1,0 +1,161 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:30:34.650Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In the third month, when the children of Israel were gone forth out of the land of Egypt, the same day came they into the wilderness of Sinai.",
+      "web": "In the third month after the children of Israel had gone out of the land of Egypt, on that same day they came into the wilderness of Sinai.",
+      "ct": "In the 3rd month after the Israelites left Egypt, on that very day, they arrived in the wilderness of Sinai."
+    },
+    {
+      "verse": 2,
+      "kjv": "For they were departed from Rephidim, and were come to the desert of Sinai, and had pitched in the wilderness; and there Israel camped before the mount.",
+      "web": "When they had departed from Rephidim, and had come to the wilderness of Sinai, they encamped in the wilderness; and there Israel encamped before the mountain.",
+      "ct": "They had traveled from Rephidim and entered the wilderness of Sinai, where they set up camp. Israel camped there in front of the mountain."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Moses went up unto God, and the LORD called unto him out of the mountain, saying, Thus shalt thou say to the house of Jacob, and tell the children of Israel;",
+      "web": "Moses went up to God, and LORD called to him out of the mountain, saying, “This is what you shall tell the house of Jacob, and tell the children of Israel:",
+      "ct": "Moses climbed up the mountain to meet with God, and the LORD called out to him from the mountain: \"This is what you are to say to the house of Jacob — tell the people of Israel:"
+    },
+    {
+      "verse": 4,
+      "kjv": "Ye have seen what I did unto the Egyptians, and how I bare you on eagles’ wings, and brought you unto myself.",
+      "web": "‘You have seen what I did to the Egyptians, and how I bore you on eagles’ wings, and brought you to myself.",
+      "ct": "'You saw with your own eyes what I did to the Egyptians. I carried you on eagles' wings and brought you to myself."
+    },
+    {
+      "verse": 5,
+      "kjv": "Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people: for all the earth is mine:",
+      "web": "Now therefore, if you will indeed obey my voice, and keep my covenant, then you shall be my own possession from among all peoples; for all the earth is mine;",
+      "ct": "So now, if you truly obey me and keep my covenant, you will be my treasured possession above all other nations. The whole earth belongs to me,"
+    },
+    {
+      "verse": 6,
+      "kjv": "And ye shall be unto me a kingdom of priests, and an holy nation. These are the words which thou shalt speak unto the children of Israel.",
+      "web": "and you shall be to me a kingdom of priests, and a holy nation.’ These are the words which you shall speak to the children of Israel.”",
+      "ct": "but you will be my kingdom of priests, a holy nation.' These are the exact words you must speak to the people of Israel.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And Moses came and called for the elders of the people, and laid before their faces all these words which the LORD commanded him.",
+      "web": "Moses came and called for the elders of the people, and set before them all these words which LORD commanded him.",
+      "ct": "Moses came down and summoned the elders of the people. He laid before them everything the LORD had commanded him to say."
+    },
+    {
+      "verse": 8,
+      "kjv": "And all the people answered together, and said, All that the LORD hath spoken we will do. And Moses returned the words of the people unto the LORD.",
+      "web": "All the people answered together, and said, “All that LORD has spoken we will do.” Moses reported the words of the people to LORD.",
+      "ct": "The people all answered together, \"We will do everything the LORD has said.\" Moses brought their response back to the LORD."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the LORD said unto Moses, Lo, I come unto thee in a thick cloud, that the people may hear when I speak with thee, and believe thee for ever. And Moses told the words of the people unto the LORD.",
+      "web": "LORD said to Moses, “Behold, I come to you in a thick cloud, that the people may hear when I speak with you, and may also believe you forever.” Moses told the words of the people to LORD.",
+      "ct": "The LORD told Moses, \"I am going to come to you in a thick cloud so the people can hear me speaking with you and will trust you from now on.\" Then Moses reported the people's words to the LORD."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the LORD said unto Moses, Go unto the people, and sanctify them to day and to morrow, and let them wash their clothes,",
+      "web": "LORD said to Moses, “Go to the people, and sanctify them today and tomorrow, and let them wash their garments,",
+      "ct": "The LORD said to Moses, \"Go to the people and consecrate them today and tomorrow. Have them wash their clothes"
+    },
+    {
+      "verse": 11,
+      "kjv": "And be ready against the third day: for the third day the LORD will come down in the sight of all the people upon mount Sinai.",
+      "web": "and be ready for the third day; for on the third day LORD will come down in the sight of all the people on Mount Sinai.",
+      "ct": "and be ready by the 3rd day, because on the 3rd day the LORD will come down on Mount Sinai in full view of all the people."
+    },
+    {
+      "verse": 12,
+      "kjv": "And thou shalt set bounds unto the people round about, saying, Take heed to yourselves, that ye go not up into the mount, or touch the border of it: whosoever toucheth the mount shall be surely put to death:",
+      "web": "You shall set bounds to the people all around, saying, ‘Be careful that you don’t go up onto the mountain, or touch its border. Whoever touches the mountain shall be surely put to death.",
+      "ct": "Set up boundaries around the mountain for the people and warn them: 'Be careful not to go up the mountain or even touch its edge. Anyone who touches the mountain will be put to death."
+    },
+    {
+      "verse": 13,
+      "kjv": "There shall not an hand touch it, but he shall surely be stoned, or shot through; whether it be beast or man, it shall not live: when the trumpet soundeth long, they shall come up to the mount.",
+      "web": "No hand shall touch him, but he shall surely be stoned or shot through; whether it is animal or man, he shall not live.’ When the trumpet sounds long, they shall come up to the mountain.”",
+      "ct": "No one is to lay a hand on that person — they must be stoned or shot through with arrows. Whether animal or human, they must not live.' Only when the trumpet sounds a long blast may the people approach the mountain.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And Moses went down from the mount unto the people, and sanctified the people; and they washed their clothes.",
+      "web": "Moses went down from the mountain to the people, and sanctified the people; and they washed their clothes.",
+      "ct": "Moses went down from the mountain to the people and consecrated them, and they washed their clothes."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he said unto the people, Be ready against the third day: come not at your wives.",
+      "web": "He said to the people, “Be ready by the third day. Don’t have sexual relations with a woman.”",
+      "ct": "He told the people, \"Be ready by the 3rd day. Don't sleep with your wives until then.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And it came to pass on the third day in the morning, that there were thunders and lightnings, and a thick cloud upon the mount, and the voice of the trumpet exceeding loud; so that all the people that was in the camp trembled.",
+      "web": "On the third day, when it was morning, there were thunders and lightnings, and a thick cloud on the mountain, and the sound of an exceedingly loud trumpet; and all the people who were in the camp trembled.",
+      "ct": "On the morning of the 3rd day, thunder crashed, lightning flashed, and a thick cloud covered the mountain. A trumpet blast rang out so loud that everyone in the camp trembled."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Moses brought forth the people out of the camp to meet with God; and they stood at the nether part of the mount.",
+      "web": "Moses led the people out of the camp to meet God; and they stood at the lower part of the mountain.",
+      "ct": "Moses led the people out of the camp to meet God, and they stood at the base of the mountain."
+    },
+    {
+      "verse": 18,
+      "kjv": "And mount Sinai was altogether on a smoke, because the LORD descended upon it in fire: and the smoke thereof ascended as the smoke of a furnace, and the whole mount quaked greatly.",
+      "web": "All of Mount Sinai smoked, because LORD descended on it in fire; and its smoke ascended like the smoke of a furnace, and the whole mountain quaked greatly.",
+      "ct": "Mount Sinai was completely covered in smoke because the LORD had descended on it in fire. The smoke billowed up like smoke from a furnace, and the entire mountain shook violently."
+    },
+    {
+      "verse": 19,
+      "kjv": "And when the voice of the trumpet sounded long, and waxed louder and louder, Moses spake, and God answered him by a voice.",
+      "web": "When the sound of the trumpet grew louder and louder, Moses spoke, and God answered him by a voice.",
+      "ct": "The trumpet blast grew louder and louder. Moses spoke, and God answered him with a voice."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the LORD came down upon mount Sinai, on the top of the mount: and the LORD called Moses up to the top of the mount; and Moses went up.",
+      "web": "LORD came down on Mount Sinai, to the top of the mountain. LORD called Moses to the top of the mountain, and Moses went up.",
+      "ct": "The LORD came down onto the top of Mount Sinai and called Moses up to the summit. Moses climbed up."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the LORD said unto Moses, Go down, charge the people, lest they break through unto the LORD to gaze, and many of them perish.",
+      "web": "LORD said to Moses, “Go down, warn the people, lest they break through to LORD to gaze, and many of them perish.",
+      "ct": "The LORD said to Moses, \"Go back down and warn the people not to push past the boundaries to look at the LORD, or many of them will die."
+    },
+    {
+      "verse": 22,
+      "kjv": "And let the priests also, which come near to the LORD, sanctify themselves, lest the LORD break forth upon them.",
+      "web": "Let the priests also, who come near to LORD, sanctify themselves, lest LORD break out on them.”",
+      "ct": "Even the priests who approach the LORD must consecrate themselves, or the LORD will strike out against them.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And Moses said unto the LORD, The people cannot come up to mount Sinai: for thou chargedst us, saying, Set bounds about the mount, and sanctify it.",
+      "web": "Moses said to LORD, “The people can’t come up to Mount Sinai, for you warned us, saying, ‘Set bounds around the mountain, and sanctify it.’ ”",
+      "ct": "Moses said to the LORD, \"The people can't come up Mount Sinai. You yourself warned us to set boundaries around the mountain and consecrate it.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And the LORD said unto him, Away, get thee down, and thou shalt come up, thou, and Aaron with thee: but let not the priests and the people break through to come up unto the LORD, lest he break forth upon them.",
+      "web": "LORD said to him, “Go down! You shall bring Aaron up with you, but don’t let the priests and the people break through to come up to LORD, lest he break out against them.”",
+      "ct": "The LORD replied, \"Go down now, and then come back up with Aaron. But the priests and the people must not break through the boundaries to come up to the LORD, or he will strike out against them.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "So Moses went down unto the people, and spake unto them.",
+      "web": "So Moses went down to the people, and told them.",
+      "ct": "So Moses went back down to the people and told them what the LORD had said."
+    }
+  ]
+}

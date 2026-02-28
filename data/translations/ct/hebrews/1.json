@@ -1,0 +1,95 @@
+{
+  "book": "hebrews",
+  "book_name": "Hebrews",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:08:03.136Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,",
+      "web": "God, having in the past spoken to the fathers through the prophets at many times and in various ways,",
+      "ct": "Throughout history, God spoke to our ancestors through the prophets in many different ways and at many different times."
+    },
+    {
+      "verse": 2,
+      "kjv": "Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds;",
+      "web": "has at the end of these days spoken to us by his Son, whom he appointed heir of all things, through whom also he made the worlds.",
+      "ct": "But now, in these final days, he has spoken to us through his Son — the one he appointed heir of all things, and through whom he created the worlds."
+    },
+    {
+      "verse": 3,
+      "kjv": "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;",
+      "web": "His Son is the radiance of his glory, the very image of his substance, and upholding all things by the word of his power, who, when he had by himself purified us of our sins, sat down on the right hand of the Majesty on high,",
+      "ct": "The Son is the radiance of God's glory and the exact expression of his being. He sustains everything by the power of his word. After he had purified us from our sins by his own sacrifice, he sat down at the right hand of the Majesty on high."
+    },
+    {
+      "verse": 4,
+      "kjv": "Being made so much better than the angels, as he hath by inheritance obtained a more excellent name than they.",
+      "web": "having become as much better than the angels as the more excellent name he has inherited is better than theirs.",
+      "ct": "This made him as far above the angels as the name he inherited is greater than theirs."
+    },
+    {
+      "verse": 5,
+      "kjv": "For unto which of the angels said he at any time, Thou art my Son, this day have I begotten thee? And again, I will be to him a Father, and he shall be to me a Son?",
+      "web": "For to which of the angels did he say at any time, “You are my Son. Today I have become your father?” and again, “I will be to him a Father, and he will be to me a Son?”",
+      "ct": "After all, God never said to any angel, \"You are my Son. Today I have become your Father.\" And he never said of any angel, \"I will be a Father to him, and he will be a Son to me.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And again, when he bringeth in the firstbegotten into the world, he saith, And let all the angels of God worship him.",
+      "web": "When he again brings in the firstborn into the world he says, “Let all the angels of God worship him.”",
+      "ct": "And when God brings his firstborn Son into the world, he says, \"Let all the angels of God worship him.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And of the angels he saith, Who maketh his angels spirits, and his ministers a flame of fire.",
+      "web": "Of the angels he says, “He makes his angels winds, and his servants a flame of fire.”",
+      "ct": "When speaking about the angels, God says, \"He makes his angels winds, and his servants flames of fire.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "But unto the Son he saith, Thy throne, O God, is for ever and ever: a sceptre of righteousness is the sceptre of thy kingdom.",
+      "web": "But of the Son he says, “Your throne, O God, is forever and ever. The scepter of uprightness is the scepter of your Kingdom.",
+      "ct": "But about the Son, he says, \"Your throne, O God, stands forever and ever. The scepter of your kingdom is a scepter of righteousness."
+    },
+    {
+      "verse": 9,
+      "kjv": "Thou hast loved righteousness, and hated iniquity; therefore God, even thy God, hath anointed thee with the oil of gladness above thy fellows.",
+      "web": "You have loved righteousness and hated iniquity; therefore God, your God, has anointed you with the oil of gladness above your fellows.”",
+      "ct": "You have loved righteousness and hated iniquity. That is why God, your God, has anointed you with the oil of gladness above all your companions.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands:",
+      "web": "And, “You, Lord, in the beginning, laid the foundation of the earth. The heavens are the works of your hands.",
+      "ct": "He also says, \"You, Lord, laid the foundation of the earth in the beginning, and the heavens are the work of your hands."
+    },
+    {
+      "verse": 11,
+      "kjv": "They shall perish; but thou remainest; and they all shall wax old as doth a garment;",
+      "web": "They will perish, but you continue. They all will grow old like a garment does.",
+      "ct": "They will perish, but you remain. They will all wear out like a garment."
+    },
+    {
+      "verse": 12,
+      "kjv": "And as a vesture shalt thou fold them up, and they shall be changed: but thou art the same, and thy years shall not fail.",
+      "web": "You will roll them up like a mantle, and they will be changed; but you are the same. Your years won’t fail.”",
+      "ct": "You will roll them up like a cloak, and they will be changed. But you are the same, and your years will never end.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "But to which of the angels said he at any time, Sit on my right hand, until I make thine enemies thy footstool?",
+      "web": "But which of the angels has he told at any time, “Sit at my right hand, until I make your enemies the footstool of your feet?”",
+      "ct": "God has never said to any angel, \"Sit at my right hand until I make your enemies a footstool for your feet.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation?",
+      "web": "Aren’t they all serving spirits, sent out to do service for the sake of those who will inherit salvation?",
+      "ct": "Instead, angels are serving spirits, sent out by God to care for those who will inherit salvation."
+    }
+  ]
+}

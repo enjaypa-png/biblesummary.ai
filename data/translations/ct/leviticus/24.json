@@ -1,0 +1,149 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 24,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:47:45.078Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Command the children of Israel, that they bring unto thee pure oil olive beaten for the light, to cause the lamps to burn continually.",
+      "web": "“Command the children of Israel, that they bring to you pure olive oil beaten for the light, to cause a lamp to burn continually.",
+      "ct": "\"Tell the Israelites to bring you pure, pressed olive oil to keep the lamps burning at all times."
+    },
+    {
+      "verse": 3,
+      "kjv": "Without the vail of the testimony, in the tabernacle of the congregation, shall Aaron order it from the evening unto the morning before the LORD continually: it shall be a statute for ever in your generations.",
+      "web": "Outside of the veil of the Testimony, in the Tent of Meeting, Aaron shall keep it in order from evening to morning before LORD continually. It shall be a statute forever throughout your generations.",
+      "ct": "Aaron must tend the lamps every evening through morning in the LORD's presence, outside the curtain that shields the Ark of the Testimony in the Tent of Meeting. This is a permanent law for every generation."
+    },
+    {
+      "verse": 4,
+      "kjv": "He shall order the lamps upon the pure candlestick before the LORD continually.",
+      "web": "He shall keep in order the lamps on the pure gold lamp stand before LORD continually.",
+      "ct": "He must always keep the lamps on the pure gold lampstand burning before the LORD."
+    },
+    {
+      "verse": 5,
+      "kjv": "And thou shalt take fine flour, and bake twelve cakes thereof: two tenth deals shall be in one cake.",
+      "web": "“You shall take fine flour, and bake twelve cakes of it: two tenths of an ephah shall be in one cake.",
+      "ct": "\"Take fine flour and bake 12 loaves from it, using 2 tenths of an ephah of flour for each loaf."
+    },
+    {
+      "verse": 6,
+      "kjv": "And thou shalt set them in two rows, six on a row, upon the pure table before the LORD.",
+      "web": "You shall set them in two rows, six on a row, on the pure gold table before LORD.",
+      "ct": "Arrange them in 2 rows of 6 on the pure gold table before the LORD."
+    },
+    {
+      "verse": 7,
+      "kjv": "And thou shalt put pure frankincense upon each row, that it may be on the bread for a memorial, even an offering made by fire unto the LORD.",
+      "web": "You shall put pure frankincense on each row, that it may be to the bread for a memorial, even an offering made by fire to LORD.",
+      "ct": "Place pure frankincense alongside each row as a memorial portion — an offering made by fire to the LORD."
+    },
+    {
+      "verse": 8,
+      "kjv": "Every sabbath he shall set it in order before the LORD continually, being taken from the children of Israel by an everlasting covenant.",
+      "web": "Every Sabbath day he shall set it in order before LORD continually. It is an everlasting covenant on the behalf of the children of Israel.",
+      "ct": "Every Sabbath day, fresh bread must be set out before the LORD on behalf of the Israelites. This is an everlasting covenant."
+    },
+    {
+      "verse": 9,
+      "kjv": "And it shall be Aaron’s and his sons’; and they shall eat it in the holy place: for it is most holy unto him of the offerings of the LORD made by fire by a perpetual statute.",
+      "web": "It shall be for Aaron and his sons. They shall eat it in a holy place; for it is most holy to him of the offerings of LORD made by fire by a perpetual statute.”",
+      "ct": "The bread belongs to Aaron and his sons. They must eat it in a holy place, because it is the most holy portion of the offerings made by fire to the LORD. This is a permanent law.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the son of an Israelitish woman, whose father was an Egyptian, went out among the children of Israel: and this son of the Israelitish woman and a man of Israel strove together in the camp;",
+      "web": "The son of an Israelite woman, whose father was an Egyptian, went out among the children of Israel; and the son of the Israelite woman and a man of Israel strove together in the camp.",
+      "ct": "Now there was a man in the camp whose mother was an Israelite and whose father was an Egyptian. One day he got into a fight with an Israelite man."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the Israelitish woman’s son blasphemed the name of the Lord, and cursed. And they brought him unto Moses: (and his mother’s name was Shelomith, the daughter of Dibri, of the tribe of Dan:)",
+      "web": "The son of the Israelite woman blasphemed the Name, and cursed; and they brought him to Moses. His mother’s name was Shelomith, the daughter of Dibri, of the tribe of Dan.",
+      "ct": "During the fight, the son of the Israelite woman cursed and blasphemed the name of the LORD. So the people brought him to Moses. (His mother's name was Shelomith, the daughter of Dibri, from the tribe of Dan.)"
+    },
+    {
+      "verse": 12,
+      "kjv": "And they put him in ward, that the mind of the LORD might be shewed them.",
+      "web": "They put him in custody until LORD’s will should be declared to them.",
+      "ct": "They held him in custody until the LORD made his will clear to them."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "Then the LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 14,
+      "kjv": "Bring forth him that hath cursed without the camp; and let all that heard him lay their hands upon his head, and let all the congregation stone him.",
+      "web": "“Bring him who cursed out of the camp; and let all who heard him lay their hands on his head, and let all the congregation stone him.",
+      "ct": "\"Take the man who cursed outside the camp. Everyone who heard him must place their hands on his head, and then the entire community must stone him."
+    },
+    {
+      "verse": 15,
+      "kjv": "And thou shalt speak unto the children of Israel, saying, Whosoever curseth his God shall bear his sin.",
+      "web": "You shall speak to the children of Israel, saying, ‘Whoever curses his God shall bear his sin.",
+      "ct": "Tell the Israelites: 'Anyone who curses his God must bear the consequences of his sin."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he that blasphemeth the name of the LORD, he shall surely be put to death, and all the congregation shall certainly stone him: as well the stranger, as he that is born in the land, when he blasphemeth the name of the Lord, shall be put to death.",
+      "web": "He who blasphemes LORD’s name, he shall surely be put to death. All the congregation shall certainly stone him. The foreigner as well as the native-born shall be put to death when he blasphemes the Name.",
+      "ct": "Anyone who blasphemes the name of the LORD must be put to death. The entire community must stone him. It doesn't matter whether he's a foreigner or a native-born Israelite — whoever blasphemes the name of the LORD must die."
+    },
+    {
+      "verse": 17,
+      "kjv": "And he that killeth any man shall surely be put to death.",
+      "web": "“ ‘He who strikes any man mortally shall surely be put to death.",
+      "ct": "\"'Anyone who kills another person must be put to death."
+    },
+    {
+      "verse": 18,
+      "kjv": "And he that killeth a beast shall make it good; beast for beast.",
+      "web": "He who strikes an animal mortally shall make it good, life for life.",
+      "ct": "Anyone who kills someone's animal must replace it — a life for a life."
+    },
+    {
+      "verse": 19,
+      "kjv": "And if a man cause a blemish in his neighbour; as he hath done, so shall it be done to him;",
+      "web": "If anyone injures his neighbor, it shall be done to him as he has done:",
+      "ct": "If someone injures a neighbor, the same must be done to him in return:"
+    },
+    {
+      "verse": 20,
+      "kjv": "Breach for breach, eye for eye, tooth for tooth: as he hath caused a blemish in a man, so shall it be done to him again.",
+      "web": "fracture for fracture, eye for eye, tooth for tooth. It shall be done to him as he has injured someone.",
+      "ct": "fracture for fracture, eye for eye, tooth for tooth. Whatever injury he caused, the same must be done to him."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he that killeth a beast, he shall restore it: and he that killeth a man, he shall be put to death.",
+      "web": "He who kills an animal shall make it good; and he who kills a man shall be put to death.",
+      "ct": "Whoever kills an animal must replace it, but whoever kills a person must be put to death."
+    },
+    {
+      "verse": 22,
+      "kjv": "Ye shall have one manner of law, as well for the stranger, as for one of your own country: for I am the LORD your God.",
+      "web": "You shall have one kind of law for the foreigner as well as the native-born; for I am LORD your God.’ ”",
+      "ct": "The same law applies to foreigners and native-born Israelites alike, because I am the LORD your God.'\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And Moses spake to the children of Israel, that they should bring forth him that had cursed out of the camp, and stone him with stones. And the children of Israel did as the LORD commanded Moses.",
+      "web": "Moses spoke to the children of Israel; and they brought him who had cursed out of the camp, and stoned him with stones. The children of Israel did as LORD commanded Moses.",
+      "ct": "Moses told the Israelites what the LORD had said. They took the man who had cursed outside the camp and stoned him to death. The Israelites carried out exactly what the LORD had commanded Moses."
+    }
+  ]
+}

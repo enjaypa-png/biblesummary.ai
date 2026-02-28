@@ -1,0 +1,311 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 16,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:56:31.171Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now Korah, the son of Izhar, the son of Kohath, the son of Levi, and Dathan and Abiram, the sons of Eliab, and On, the son of Peleth, sons of Reuben, took men:",
+      "web": "Now Korah, the son of Izhar, the son of Kohath, the son of Levi, with Dathan and Abiram, the sons of Eliab, and On, the son of Peleth, sons of Reuben, took some men.",
+      "ct": "Korah son of Izhar, grandson of Kohath, great-grandson of Levi, along with Dathan and Abiram, the sons of Eliab, and On son of Peleth — all from the tribe of Reuben — gathered a group of men together."
+    },
+    {
+      "verse": 2,
+      "kjv": "And they rose up before Moses, with certain of the children of Israel, two hundred and fifty princes of the assembly, famous in the congregation, men of renown:",
+      "web": "They rose up before Moses, with some of the children of Israel, two hundred fifty princes of the congregation, called to the assembly, men of renown.",
+      "ct": "They confronted Moses, backed by 250 Israelite leaders — prominent members of the community, well-known men who had been chosen for the assembly."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they gathered themselves together against Moses and against Aaron, and said unto them, Ye take too much upon you, seeing all the congregation are holy, every one of them, and the LORD is among them: wherefore then lift ye up yourselves above the congregation of the LORD?",
+      "web": "They assembled themselves together against Moses and against Aaron, and said to them, “You take too much on yourself, since all the congregation are holy, everyone of them, and LORD is among them! Why do you lift yourselves up above LORD’s assembly?”",
+      "ct": "They ganged up against Moses and Aaron and said, \"You've gone too far! Every person in this community is holy, and the LORD is among all of us. So why do you set yourselves above the LORD's assembly?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And when Moses heard it, he fell upon his face:",
+      "web": "When Moses heard it, he fell on his face.",
+      "ct": "When Moses heard this, he fell facedown on the ground."
+    },
+    {
+      "verse": 5,
+      "kjv": "And he spake unto Korah and unto all his company, saying, Even to morrow the LORD will shew who are his, and who is holy; and will cause him to come near unto him: even him whom he hath chosen will he cause to come near unto him.",
+      "web": "He said to Korah and to all his company, “In the morning, LORD will show who are his, and who is holy, and will cause him to come near to him. Even him whom he shall choose, he will cause to come near to him.",
+      "ct": "Then he said to Korah and his entire group, \"Tomorrow morning, the LORD will reveal who belongs to him and who is holy. He will bring that person near to himself — the one he chooses will be the one he draws close.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "This do; Take you censers, Korah, and all his company;",
+      "web": "Do this: have Korah and all his company take censers,",
+      "ct": "\"Here's what you're going to do: Korah, you and all your followers, get censers.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And put fire therein, and put incense in them before the LORD to morrow: and it shall be that the man whom the LORD doth choose, he shall be holy: ye take too much upon you, ye sons of Levi.",
+      "web": "put fire in them, and put incense on them before LORD tomorrow. It shall be that the man whom LORD chooses, he shall be holy. You have gone too far, you sons of Levi!”",
+      "ct": "\"Tomorrow, put fire in them and add incense before the LORD. The man the LORD chooses — he will be the holy one. You sons of Levi are the ones who have gone too far!\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Moses said unto Korah, Hear, I pray you, ye sons of Levi:",
+      "web": "Moses said to Korah, “Hear now, you sons of Levi!",
+      "ct": "Then Moses said to Korah, \"Listen carefully, you sons of Levi!\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Seemeth it but a small thing unto you, that the God of Israel hath separated you from the congregation of Israel, to bring you near to himself to do the service of the tabernacle of the LORD, and to stand before the congregation to minister unto them?",
+      "web": "Is it a small thing to you that the God of Israel has separated you from the congregation of Israel, to bring you near to himself, to do the service of LORD’s tabernacle, and to stand before the congregation to minister to them;",
+      "ct": "\"Isn't it enough for you that the God of Israel has set you apart from the rest of the community? He brought you close to himself to serve in the LORD's tabernacle and to stand before the congregation and minister to them.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And he hath brought thee near to him, and all thy brethren the sons of Levi with thee: and seek ye the priesthood also?",
+      "web": "and that he has brought you near, and all your brothers the sons of Levi with you? Do you seek the priesthood also?",
+      "ct": "\"He brought you near — you and all your fellow Levites — and now you want the priesthood too?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "For which cause both thou and all thy company are gathered together against the LORD: and what is Aaron, that ye murmur against him?",
+      "web": "Therefore you and all your company have gathered together against LORD! What is Aaron that you complain against him?”",
+      "ct": "\"That's why you and your whole group have really gathered together against the LORD. Who is Aaron that you would complain against him?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And Moses sent to call Dathan and Abiram, the sons of Eliab: which said, We will not come up:",
+      "web": "Moses sent to call Dathan and Abiram, the sons of Eliab; and they said, “We won’t come up!",
+      "ct": "Moses sent for Dathan and Abiram, the sons of Eliab, but they refused. \"We're not coming!\" they said."
+    },
+    {
+      "verse": 13,
+      "kjv": "Is it a small thing that thou hast brought us up out of a land that floweth with milk and honey, to kill us in the wilderness, except thou make thyself altogether a prince over us?",
+      "web": "Is it a small thing that you have brought us up out of a land flowing with milk and honey, to kill us in the wilderness, but you must also make yourself a prince over us?",
+      "ct": "\"Isn't it bad enough that you dragged us out of a land flowing with milk and honey just to let us die in the wilderness? Now you want to lord it over us like a prince too?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Moreover thou hast not brought us into a land that floweth with milk and honey, or given us inheritance of fields and vineyards: wilt thou put out the eyes of these men? we will not come up.",
+      "web": "Moreover you haven’t brought us into a land flowing with milk and honey, nor given us inheritance of fields and vineyards. Will you put out the eyes of these men? We won’t come up.”",
+      "ct": "\"You certainly haven't brought us into a land flowing with milk and honey or given us any inheritance of fields and vineyards. Do you think you can blind these men to the truth? We will not come!\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And Moses was very wroth, and said unto the LORD, Respect not thou their offering: I have not taken one ass from them, neither have I hurt one of them.",
+      "web": "Moses was very angry, and said to LORD, “Don’t respect their offering. I have not taken one donkey from them, neither have I hurt one of them.”",
+      "ct": "Moses was furious. He said to the LORD, \"Don't accept their offering. I haven't taken so much as a single donkey from any of them, and I haven't wronged a single one of them.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And Moses said unto Korah, Be thou and all thy company before the LORD, thou, and they, and Aaron, to morrow:",
+      "web": "Moses said to Korah, “You and all your company go before LORD, you, and they, and Aaron, tomorrow.",
+      "ct": "Then Moses told Korah, \"Tomorrow, you and your entire group must appear before the LORD — you, them, and Aaron.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And take every man his censer, and put incense in them, and bring ye before the LORD every man his censer, two hundred and fifty censers; thou also, and Aaron, each of you his censer.",
+      "web": "Each man take his censer and put incense on it, and each man bring before LORD his censer, two hundred fifty censers; you also, and Aaron, each with his censer.”",
+      "ct": "\"Each man must take his censer, put incense on it, and bring it before the LORD — 250 censers in all. You and Aaron must each bring your censer as well.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And they took every man his censer, and put fire in them, and laid incense thereon, and stood in the door of the tabernacle of the congregation with Moses and Aaron.",
+      "web": "They each took his censer, and put fire in it, and laid incense on it, and stood at the door of the Tent of Meeting with Moses and Aaron.",
+      "ct": "So each man took his censer, put fire in it, laid incense on it, and stood at the entrance of the Tent of Meeting alongside Moses and Aaron."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Korah gathered all the congregation against them unto the door of the tabernacle of the congregation: and the glory of the LORD appeared unto all the congregation.",
+      "web": "Korah assembled all the congregation opposite them to the door of the Tent of Meeting. LORD’s glory appeared to all the congregation.",
+      "ct": "Korah rallied the entire community against Moses and Aaron at the entrance of the Tent of Meeting. Then the glory of the LORD appeared to everyone."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the LORD spake unto Moses and unto Aaron, saying,",
+      "web": "LORD spoke to Moses and to Aaron, saying,",
+      "ct": "The LORD said to Moses and Aaron,"
+    },
+    {
+      "verse": 21,
+      "kjv": "Separate yourselves from among this congregation, that I may consume them in a moment.",
+      "web": "“Separate yourselves from among this congregation, that I may consume them in a moment!”",
+      "ct": "\"Step away from this community so I can destroy them in an instant!\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And they fell upon their faces, and said, O God, the God of the spirits of all flesh, shall one man sin, and wilt thou be wroth with all the congregation?",
+      "web": "They fell on their faces, and said, “God, the God of the spirits of all flesh, shall one man sin, and will you be angry with all the congregation?”",
+      "ct": "But Moses and Aaron fell facedown and cried out, \"O God — God who gives breath to every living person — will you be angry with the entire community because of one man's sin?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD said to Moses,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Speak unto the congregation, saying, Get you up from about the tabernacle of Korah, Dathan, and Abiram.",
+      "web": "“Speak to the congregation, saying, ‘Get away from around the tent of Korah, Dathan, and Abiram!’ ”",
+      "ct": "\"Tell the community: 'Move away from the tents of Korah, Dathan, and Abiram!'\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And Moses rose up and went unto Dathan and Abiram; and the elders of Israel followed him.",
+      "web": "Moses rose up and went to Dathan and Abiram; and the elders of Israel followed him.",
+      "ct": "Moses got up and went to Dathan and Abiram, and the elders of Israel followed him."
+    },
+    {
+      "verse": 26,
+      "kjv": "And he spake unto the congregation, saying, Depart, I pray you, from the tents of these wicked men, and touch nothing of theirs, lest ye be consumed in all their sins.",
+      "web": "He spoke to the congregation, saying, “Depart, please, from the tents of these wicked men, and touch nothing of theirs, lest you be consumed in all their sins!”",
+      "ct": "He warned the community, \"Get away from the tents of these wicked men! Don't touch anything that belongs to them, or you'll be swept away because of all their sins.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "So they gat up from the tabernacle of Korah, Dathan, and Abiram, on every side: and Dathan and Abiram came out, and stood in the door of their tents, and their wives, and their sons, and their little children.",
+      "web": "So they went away from the tent of Korah, Dathan, and Abiram, on every side. Dathan and Abiram came out, and stood at the door of their tents with their wives, their sons, and their little ones.",
+      "ct": "So the people moved away from the tents of Korah, Dathan, and Abiram on every side. Dathan and Abiram came out and stood at the entrances of their tents with their wives, their sons, and their small children."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Moses said, Hereby ye shall know that the LORD hath sent me to do all these works; for I have not done them of mine own mind.",
+      "web": "Moses said, “Hereby you shall know that LORD has sent me to do all these works; for they are not from my own mind.",
+      "ct": "Moses said, \"This is how you'll know the LORD sent me to do all these things and that I didn't act on my own:\""
+    },
+    {
+      "verse": 29,
+      "kjv": "If these men die the common death of all men, or if they be visited after the visitation of all men; then the LORD hath not sent me.",
+      "web": "If these men die the common death of all men, or if they experience what all men experience, then LORD hasn’t sent me.",
+      "ct": "\"If these men die a natural death — the way anyone else might die — then the LORD didn't send me.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "But if the LORD make a new thing, and the earth open her mouth, and swallow them up, with all that appertain unto them, and they go down quick into the pit; then ye shall understand that these men have provoked the LORD.",
+      "web": "But if LORD makes a new thing, and the ground opens its mouth, and swallows them up with all that belong to them, and they go down alive into Sheol, then you shall understand that these men have despised LORD.”",
+      "ct": "\"But if the LORD does something unprecedented, and the ground opens up and swallows them along with everything they own, and they go down alive into the pit, then you'll know that these men have treated the LORD with contempt.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And it came to pass, as he had made an end of speaking all these words, that the ground clave asunder that was under them:",
+      "web": "As he finished speaking all these words, the ground that was under them split apart.",
+      "ct": "The moment he finished speaking, the ground beneath them split open."
+    },
+    {
+      "verse": 32,
+      "kjv": "And the earth opened her mouth, and swallowed them up, and their houses, and all the men that appertained unto Korah, and all their goods.",
+      "web": "The earth opened its mouth and swallowed them up with their households, all of Korah’s men, and all their goods.",
+      "ct": "The earth opened its mouth and swallowed them — their households, all of Korah's men, and everything they owned."
+    },
+    {
+      "verse": 33,
+      "kjv": "They, and all that appertained to them, went down alive into the pit, and the earth closed upon them: and they perished from among the congregation.",
+      "web": "So they, and all that belonged to them went down alive into Sheol. The earth closed on them, and they perished from among the assembly.",
+      "ct": "They went down alive into the pit, with everything that belonged to them. The earth closed over them, and they were gone — wiped out from the community."
+    },
+    {
+      "verse": 34,
+      "kjv": "And all Israel that were round about them fled at the cry of them: for they said, Lest the earth swallow us up also.",
+      "web": "All Israel that were around them fled at their cry; for they said, “Lest the earth swallow us up!”",
+      "ct": "All the Israelites around them fled when they heard their screams, shouting, \"Run! The earth might swallow us too!\""
+    },
+    {
+      "verse": 35,
+      "kjv": "And there came out a fire from the LORD, and consumed the two hundred and fifty men that offered incense.",
+      "web": "Fire came out from LORD, and devoured the two hundred fifty men who offered the incense.",
+      "ct": "Then fire blazed out from the LORD and consumed the 250 men who had offered incense."
+    },
+    {
+      "verse": 36,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD said to Moses,"
+    },
+    {
+      "verse": 37,
+      "kjv": "Speak unto Eleazar the son of Aaron the priest, that he take up the censers out of the burning, and scatter thou the fire yonder; for they are hallowed.",
+      "web": "“Speak to Eleazar the son of Aaron the priest, that he take up the censers out of the burning, and scatter the fire away from the camp; for they are holy,",
+      "ct": "\"Tell Eleazar son of Aaron the priest to pull the censers out of the smoldering remains and scatter the coals far from the camp, because those censers are holy.\""
+    },
+    {
+      "verse": 38,
+      "kjv": "The censers of these sinners against their own souls, let them make them broad plates for a covering of the altar: for they offered them before the LORD, therefore they are hallowed: and they shall be a sign unto the children of Israel.",
+      "web": "even the censers of those who sinned against their own lives. Let them be beaten into plates for a covering of the altar, for they offered them before LORD. Therefore they are holy. They shall be a sign to the children of Israel.”",
+      "ct": "\"The censers of these men who sinned at the cost of their own lives — have them hammered into sheets to overlay the altar. They were presented before the LORD, so they are holy. They will serve as a warning sign to the people of Israel.\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And Eleazar the priest took the brasen censers, wherewith they that were burnt had offered; and they were made broad plates for a covering of the altar:",
+      "web": "Eleazar the priest took the bronze censers which those who were burned had offered; and they beat them out for a covering of the altar,",
+      "ct": "So Eleazar the priest collected the bronze censers that the burned men had used, and they were hammered into sheets to cover the altar."
+    },
+    {
+      "verse": 40,
+      "kjv": "To be a memorial unto the children of Israel, that no stranger, which is not of the seed of Aaron, come near to offer incense before the LORD; that he be not as Korah, and as his company: as the LORD said to him by the hand of Moses.",
+      "web": "to be a memorial to the children of Israel, to the end that no stranger who isn’t of the offspring of Aaron, would come near to burn incense before LORD, that he not be as Korah, and as his company; as LORD spoke to him by Moses.",
+      "ct": "This was to remind the Israelites that no outsider — no one who isn't a descendant of Aaron — should come near to burn incense before the LORD, so that no one would end up like Korah and his followers. This was just as the LORD had told Eleazar through Moses."
+    },
+    {
+      "verse": 41,
+      "kjv": "But on the morrow all the congregation of the children of Israel murmured against Moses and against Aaron, saying, Ye have killed the people of the LORD.",
+      "web": "But on the next day all the congregation of the children of Israel complained against Moses and against Aaron, saying, “You have killed LORD’s people!”",
+      "ct": "But the very next day, the entire Israelite community complained against Moses and Aaron, saying, \"You've killed the LORD's people!\""
+    },
+    {
+      "verse": 42,
+      "kjv": "And it came to pass, when the congregation was gathered against Moses and against Aaron, that they looked toward the tabernacle of the congregation: and, behold, the cloud covered it, and the glory of the LORD appeared.",
+      "web": "When the congregation was assembled against Moses and against Aaron, they looked toward the Tent of Meeting. Behold, the cloud covered it, and LORD’s glory appeared.",
+      "ct": "As the community gathered against Moses and Aaron, they turned toward the Tent of Meeting — and there was the cloud covering it, and the glory of the LORD appeared."
+    },
+    {
+      "verse": 43,
+      "kjv": "And Moses and Aaron came before the tabernacle of the congregation.",
+      "web": "Moses and Aaron came to the front of the Tent of Meeting.",
+      "ct": "Moses and Aaron went to the front of the Tent of Meeting."
+    },
+    {
+      "verse": 44,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD said to Moses,"
+    },
+    {
+      "verse": 45,
+      "kjv": "Get you up from among this congregation, that I may consume them as in a moment. And they fell upon their faces.",
+      "web": "“Get away from among this congregation, that I may consume them in a moment!” They fell on their faces.",
+      "ct": "\"Get away from this community so I can destroy them in an instant!\" Moses and Aaron fell facedown."
+    },
+    {
+      "verse": 46,
+      "kjv": "And Moses said unto Aaron, Take a censer, and put fire therein from off the altar, and put on incense, and go quickly unto the congregation, and make an atonement for them: for there is wrath gone out from the LORD; the plague is begun.",
+      "web": "Moses said to Aaron, “Take your censer, put fire from the altar in it, lay incense on it, carry it quickly to the congregation, and make atonement for them; for wrath has gone out from LORD! The plague has begun.”",
+      "ct": "Moses said to Aaron, \"Grab your censer! Put fire from the altar in it and add incense. Then run to the community and make atonement for them — the LORD's anger has broken out, and the plague has already started!\""
+    },
+    {
+      "verse": 47,
+      "kjv": "And Aaron took as Moses commanded, and ran into the midst of the congregation; and, behold, the plague was begun among the people: and he put on incense, and made an atonement for the people.",
+      "web": "Aaron did as Moses said, and ran into the middle of the assembly. The plague had already begun among the people. He put on the incense, and made atonement for the people.",
+      "ct": "Aaron grabbed the censer just as Moses said and sprinted into the middle of the assembly. The plague had already begun striking people down. He added the incense and made atonement for the people."
+    },
+    {
+      "verse": 48,
+      "kjv": "And he stood between the dead and the living; and the plague was stayed.",
+      "web": "He stood between the dead and the living; and the plague was stayed.",
+      "ct": "He stood between the dead and the living, and the plague stopped."
+    },
+    {
+      "verse": 49,
+      "kjv": "Now they that died in the plague were fourteen thousand and seven hundred, beside them that died about the matter of Korah.",
+      "web": "Now those who died by the plague were fourteen thousand and seven hundred, in addition to those who died about the matter of Korah.",
+      "ct": "But 14,700 people had already died from the plague — and that was on top of those who died because of Korah."
+    },
+    {
+      "verse": 50,
+      "kjv": "And Aaron returned unto Moses unto the door of the tabernacle of the congregation: and the plague was stayed.",
+      "web": "Aaron returned to Moses to the door of the Tent of Meeting, and the plague was stopped.",
+      "ct": "Aaron returned to Moses at the entrance of the Tent of Meeting. The plague was over."
+    }
+  ]
+}

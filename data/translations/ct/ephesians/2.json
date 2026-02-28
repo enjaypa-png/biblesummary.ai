@@ -1,0 +1,143 @@
+{
+  "book": "ephesians",
+  "book_name": "Ephesians",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:57:54.371Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And you hath he quickened, who were dead in trespasses and sins;",
+      "web": "You were made alive when you were dead in transgressions and sins,",
+      "ct": "There was a time when you were dead because of your sins and the ways you disobeyed God."
+    },
+    {
+      "verse": 2,
+      "kjv": "Wherein in time past ye walked according to the course of this world, according to the prince of the power of the air, the spirit that now worketh in the children of disobedience:",
+      "web": "in which you once walked according to the course of this world, according to the prince of the power of the air, the spirit who now works in the children of disobedience.",
+      "ct": "Back then, you lived the way the world lives, following the prince who rules the power of the air — the spirit that is still at work in everyone who refuses to obey God."
+    },
+    {
+      "verse": 3,
+      "kjv": "Among whom also we all had our conversation in times past in the lusts of our flesh, fulfilling the desires of the flesh and of the mind; and were by nature the children of wrath, even as others.",
+      "web": "We also all once lived among them in the lusts of our flesh, doing the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest.",
+      "ct": "We were all right there with them, living to satisfy every craving of our bodies and minds. By our very nature, we deserved God's wrath just like everyone else."
+    },
+    {
+      "verse": 4,
+      "kjv": "But God, who is rich in mercy, for his great love wherewith he loved us,",
+      "web": "But God, being rich in mercy, for his great love with which he loved us,",
+      "ct": "But God is rich in mercy, and his love for us is so great"
+    },
+    {
+      "verse": 5,
+      "kjv": "Even when we were dead in sins, hath quickened us together with Christ, (by grace ye are saved;)",
+      "web": "even when we were dead through our trespasses, made us alive together with Christ—by grace you have been saved—",
+      "ct": "that even when we were dead in our sins, he made us alive together with Christ. It is by grace that you have been saved."
+    },
+    {
+      "verse": 6,
+      "kjv": "And hath raised us up together, and made us sit together in heavenly places in Christ Jesus:",
+      "web": "and raised us up with him, and made us to sit with him in the heavenly places in Christ Jesus,",
+      "ct": "He raised us up with Christ and seated us with him in the heavenly places in Christ Jesus,"
+    },
+    {
+      "verse": 7,
+      "kjv": "That in the ages to come he might shew the exceeding riches of his grace in his kindness toward us through Christ Jesus.",
+      "web": "that in the ages to come he might show the exceeding riches of his grace in kindness toward us in Christ Jesus;",
+      "ct": "so that for all the ages to come, he could display the overwhelming richness of his grace through his kindness toward us in Christ Jesus."
+    },
+    {
+      "verse": 8,
+      "kjv": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:",
+      "web": "for by grace you have been saved through faith, and that not of yourselves; it is the gift of God,",
+      "ct": "For it is by grace you have been saved, through faith — and this didn't come from you. It is the gift of God,"
+    },
+    {
+      "verse": 9,
+      "kjv": "Not of works, lest any man should boast.",
+      "web": "not of works, that no one would boast.",
+      "ct": "not the result of anything you've done, so no one can boast about it."
+    },
+    {
+      "verse": 10,
+      "kjv": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
+      "web": "For we are his workmanship, created in Christ Jesus for good works, which God prepared before that we would walk in them.",
+      "ct": "We are God's masterpiece, created in Christ Jesus to do good works that God planned long ago for us to carry out."
+    },
+    {
+      "verse": 11,
+      "kjv": "Wherefore remember, that ye being in time past Gentiles in the flesh, who are called Uncircumcision by that which is called the Circumcision in the flesh made by hands;",
+      "web": "Therefore remember that once you, the Gentiles in the flesh, who are called “uncircumcision” by that which is called “circumcision” (in the flesh, made by hands),",
+      "ct": "So remember this: you used to be Gentiles by birth — called \"the uncircumcised\" by those who call themselves \"the circumcised\" because of a procedure done to their bodies by human hands."
+    },
+    {
+      "verse": 12,
+      "kjv": "That at that time ye were without Christ, being aliens from the commonwealth of Israel, and strangers from the covenants of promise, having no hope, and without God in the world:",
+      "web": "that you were at that time separate from Christ, alienated from the commonwealth of Israel, and strangers from the covenants of the promise, having no hope and without God in the world.",
+      "ct": "In those days you were cut off from Christ, excluded from the community of Israel, and had no part in the covenants God had promised. You lived in this world without hope and without God."
+    },
+    {
+      "verse": 13,
+      "kjv": "But now in Christ Jesus ye who sometimes were far off are made nigh by the blood of Christ.",
+      "web": "But now in Christ Jesus you who once were far off are made near in the blood of Christ.",
+      "ct": "But now, in Christ Jesus, you who were once so far away have been brought near through the blood of Christ."
+    },
+    {
+      "verse": 14,
+      "kjv": "For he is our peace, who hath made both one, and hath broken down the middle wall of partition between us;",
+      "web": "For he is our peace, who made both one, and broke down the middle wall of separation,",
+      "ct": "Christ himself is our peace. He has made Jews and Gentiles into one people and has torn down the wall that divided them."
+    },
+    {
+      "verse": 15,
+      "kjv": "Having abolished in his flesh the enmity, even the law of commandments contained in ordinances; for to make in himself of twain one new man, so making peace;",
+      "web": "having abolished in his flesh the hostility, the law of commandments contained in ordinances, that he might create in himself one new man of the two, making peace,",
+      "ct": "In his own body, he put an end to the hostility between them by setting aside the law with its commandments and regulations. His purpose was to create one new humanity out of the two groups, and so make peace."
+    },
+    {
+      "verse": 16,
+      "kjv": "And that he might reconcile both unto God in one body by the cross, having slain the enmity thereby:",
+      "web": "and might reconcile them both in one body to God through the cross, having killed the hostility through it.",
+      "ct": "Through the cross, he reconciled both groups to God in one body, putting that hostility to death once and for all."
+    },
+    {
+      "verse": 17,
+      "kjv": "And came and preached peace to you which were afar off, and to them that were nigh.",
+      "web": "He came and preached peace to you who were far off and to those who were near.",
+      "ct": "He came and proclaimed peace to you who were far away from God and peace to those who were near."
+    },
+    {
+      "verse": 18,
+      "kjv": "For through him we both have access by one Spirit unto the Father.",
+      "web": "For through him we both have our access in one Spirit to the Father.",
+      "ct": "Through him, both groups now have access to the Father by one Spirit."
+    },
+    {
+      "verse": 19,
+      "kjv": "Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God;",
+      "web": "So then you are no longer strangers and foreigners, but you are fellow citizens with the saints and of the household of God,",
+      "ct": "So you are no longer outsiders or foreigners. You are fellow citizens with God's people and members of God's own household,"
+    },
+    {
+      "verse": 20,
+      "kjv": "And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone;",
+      "web": "being built on the foundation of the apostles and prophets, Christ Jesus himself being the chief cornerstone;",
+      "ct": "built on the foundation laid by the apostles and prophets, with Christ Jesus himself as the chief cornerstone."
+    },
+    {
+      "verse": 21,
+      "kjv": "In whom all the building fitly framed together groweth unto an holy temple in the Lord:",
+      "web": "in whom the whole building, fitted together, grows into a holy temple in the Lord;",
+      "ct": "In him, the whole structure is joined together and rises to become a holy temple in the Lord."
+    },
+    {
+      "verse": 22,
+      "kjv": "In whom ye also are builded together for an habitation of God through the Spirit.",
+      "web": "in whom you also are built together for a habitation of God in the Spirit.",
+      "ct": "In him, you too are being built together into a place where God lives by his Spirit."
+    }
+  ]
+}

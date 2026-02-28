@@ -1,0 +1,89 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 17,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:56:43.804Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto the children of Israel, and take of every one of them a rod according to the house of their fathers, of all their princes according to the house of their fathers twelve rods: write thou every man’s name upon his rod.",
+      "web": "“Speak to the children of Israel, and take rods from them, one for each fathers’ house, of all their princes according to their fathers’ houses, twelve rods. Write each man’s name on his rod.",
+      "ct": "\"Tell the Israelites to bring you a staff from each tribal leader — one for each ancestral tribe, 12 staffs total. Write each leader's name on his staff.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And thou shalt write Aaron’s name upon the rod of Levi: for one rod shall be for the head of the house of their fathers.",
+      "web": "You shall write Aaron’s name on Levi’s rod. There shall be one rod for each head of their fathers’ houses.",
+      "ct": "\"Write Aaron's name on the staff for the tribe of Levi, since there must be one staff for each tribal leader.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And thou shalt lay them up in the tabernacle of the congregation before the testimony, where I will meet with you.",
+      "web": "You shall lay them up in the Tent of Meeting before the covenant, where I meet with you.",
+      "ct": "\"Place the staffs in the Tabernacle, in front of the ark of the covenant, where I meet with you.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And it shall come to pass, that the man’s rod, whom I shall choose, shall blossom: and I will make to cease from me the murmurings of the children of Israel, whereby they murmur against you.",
+      "web": "It shall happen that the rod of the man whom I shall choose shall bud. I will make the murmurings of the children of Israel, which they murmur against you, cease from me.”",
+      "ct": "\"The staff belonging to the man I choose will sprout and bloom. This will put an end to the constant complaining the Israelites have been directing at you.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Moses spake unto the children of Israel, and every one of their princes gave him a rod apiece, for each prince one, according to their fathers’ houses, even twelve rods: and the rod of Aaron was among their rods.",
+      "web": "Moses spoke to the children of Israel; and all their princes gave him rods, for each prince one, according to their fathers’ houses, a total of twelve rods. Aaron’s rod was among their rods.",
+      "ct": "Moses told the Israelites what the LORD had said, and each of the 12 tribal leaders brought him a staff — one per tribe. Aaron's staff was among them."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Moses laid up the rods before the LORD in the tabernacle of witness.",
+      "web": "Moses laid up the rods before LORD in the Tent of the Testimony.",
+      "ct": "Moses placed all the staffs before the LORD inside the Tabernacle."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it came to pass, that on the morrow Moses went into the tabernacle of witness; and, behold, the rod of Aaron for the house of Levi was budded, and brought forth buds, and bloomed blossoms, and yielded almonds.",
+      "web": "On the next day, Moses went into the Tent of the Testimony; and behold, Aaron’s rod for the house of Levi had sprouted, budded, produced blossoms, and bore ripe almonds.",
+      "ct": "The next day, Moses went into the Tabernacle and found that Aaron's staff — the one representing the tribe of Levi — had sprouted. It had put out buds, burst into blossoms, and produced ripe almonds, all overnight."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Moses brought out all the rods from before the LORD unto all the children of Israel: and they looked, and took every man his rod.",
+      "web": "Moses brought out all the rods from before LORD to all the children of Israel. They looked, and each man took his rod.",
+      "ct": "Moses brought all the staffs out from the LORD's presence and showed them to the Israelites. They examined them, and each leader took back his own staff."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the LORD said unto Moses, Bring Aaron’s rod again before the testimony, to be kept for a token against the rebels; and thou shalt quite take away their murmurings from me, that they die not.",
+      "web": "LORD said to Moses, “Put back the rod of Aaron before the covenant, to be kept for a token against the children of rebellion; that you may make an end of their complaining against me, that they not die.”",
+      "ct": "The LORD told Moses, \"Put Aaron's staff back in front of the ark of the covenant. Keep it there as a warning to anyone who would rebel, so their complaining against me will stop and they won't have to die.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Moses did so: as the LORD commanded him, so did he.",
+      "web": "Moses did so. As LORD commanded him, so he did.",
+      "ct": "Moses did exactly what the LORD commanded him."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the children of Israel spake unto Moses, saying, Behold, we die, we perish, we all perish.",
+      "web": "The children of Israel spoke to Moses, saying, “Behold, we perish! We are undone! We are all undone!",
+      "ct": "But the Israelites cried out to Moses, \"We're dying! We're doomed! Every one of us is doomed!\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Whosoever cometh any thing near unto the tabernacle of the LORD shall die: shall we be consumed with dying?",
+      "web": "Everyone who keeps approaching LORD’s tabernacle, dies! Will we all perish?”",
+      "ct": "\"Anyone who even comes near the LORD's Tabernacle dies! Are we all going to be wiped out?\""
+    }
+  ]
+}

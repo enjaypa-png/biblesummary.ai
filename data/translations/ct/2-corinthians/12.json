@@ -1,0 +1,137 @@
+{
+  "book": "2-corinthians",
+  "book_name": "2 Corinthians",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:55:00.168Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "It is not expedient for me doubtless to glory. I will come to visions and revelations of the Lord.",
+      "web": "It is doubtless not profitable for me to boast. For I will come to visions and revelations of the Lord.",
+      "ct": "Boasting about myself isn't really helpful, but I'm going to do it anyway. Let me tell you about visions and revelations the Lord has given me."
+    },
+    {
+      "verse": 2,
+      "kjv": "I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the body, I cannot tell: God knoweth;) such an one caught up to the third heaven.",
+      "web": "I know a man in Christ, fourteen years ago (whether in the body, I don’t know, or whether out of the body, I don’t know; God knows), such a one caught up into the third heaven.",
+      "ct": "I know a man who belongs to Christ who, 14 years ago, was caught up to the third heaven. Whether he was there physically or only in spirit, I don't know — only God knows."
+    },
+    {
+      "verse": 3,
+      "kjv": "And I knew such a man, (whether in the body, or out of the body, I cannot tell: God knoweth;)",
+      "web": "I know such a man (whether in the body, or outside of the body, I don’t know; God knows),",
+      "ct": "I know this man — whether he was in his body or out of it, I can't say; God knows —"
+    },
+    {
+      "verse": 4,
+      "kjv": "How that he was caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utter.",
+      "web": "how he was caught up into Paradise, and heard unspeakable words, which it is not lawful for a man to utter.",
+      "ct": "was caught up into paradise and heard things too sacred for any human being to repeat."
+    },
+    {
+      "verse": 5,
+      "kjv": "Of such an one will I glory: yet of myself I will not glory, but in mine infirmities.",
+      "web": "On behalf of such a one I will boast, but on my own behalf I will not boast, except in my weaknesses.",
+      "ct": "I'll boast about someone like that, but I won't boast about myself — except when it comes to my weaknesses."
+    },
+    {
+      "verse": 6,
+      "kjv": "For though I would desire to glory, I shall not be a fool; for I will say the truth: but now I forbear, lest any man should think of me above that which he seeth me to be, or that he heareth of me.",
+      "web": "For if I would desire to boast, I will not be foolish; for I will speak the truth. But I refrain, so that no man may think more of me than that which he sees in me or hears from me.",
+      "ct": "Even if I did choose to boast, I wouldn't be a fool for doing it, because I'd be telling the truth. But I'll hold back, so that no one thinks more of me than what they can see with their own eyes or hear from my own lips."
+    },
+    {
+      "verse": 7,
+      "kjv": "And lest I should be exalted above measure through the abundance of the revelations, there was given to me a thorn in the flesh, the messenger of Satan to buffet me, lest I should be exalted above measure.",
+      "web": "By reason of the exceeding greatness of the revelations, that I should not be exalted excessively, a thorn in the flesh was given to me: a messenger of Satan to torment me, that I should not be exalted excessively.",
+      "ct": "To keep me from becoming proud because of these incredible revelations, I was given a thorn in the flesh — a messenger of Satan to torment me and keep me humble."
+    },
+    {
+      "verse": 8,
+      "kjv": "For this thing I besought the Lord thrice, that it might depart from me.",
+      "web": "Concerning this thing, I begged the Lord three times that it might depart from me.",
+      "ct": "3 times I begged the Lord to take it away from me."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.",
+      "web": "He has said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” Most gladly therefore I will rather glory in my weaknesses, that the power of Christ may rest on me.",
+      "ct": "But he told me, \"My grace is all you need. My power reaches its full strength in weakness.\" So I will gladly boast about my weaknesses, because then the power of Christ rests on me."
+    },
+    {
+      "verse": 10,
+      "kjv": "Therefore I take pleasure in infirmities, in reproaches, in necessities, in persecutions, in distresses for Christ’s sake: for when I am weak, then am I strong.",
+      "web": "Therefore I take pleasure in weaknesses, in injuries, in necessities, in persecutions, and in distresses, for Christ’s sake. For when I am weak, then am I strong.",
+      "ct": "That's why I'm actually glad when I face weakness, insults, hardships, persecution, and trouble for Christ's sake. Because when I am weak, that's when I am truly strong."
+    },
+    {
+      "verse": 11,
+      "kjv": "I am become a fool in glorying; ye have compelled me: for I ought to have been commended of you: for in nothing am I behind the very chiefest apostles, though I be nothing.",
+      "web": "I have become foolish in boasting. You compelled me, for I ought to have been commended by you, for I am in no way inferior to the very best apostles, though I am nothing.",
+      "ct": "I've been acting like a fool with all this boasting — but you forced me into it. You should have been the ones speaking up for me! I'm not the least bit inferior to those so-called \"super apostles,\" even though I'm nothing on my own."
+    },
+    {
+      "verse": 12,
+      "kjv": "Truly the signs of an apostle were wrought among you in all patience, in signs, and wonders, and mighty deeds.",
+      "web": "Truly the signs of an apostle were worked among you in all perseverance, in signs and wonders and mighty works.",
+      "ct": "The proof that I'm a genuine apostle was demonstrated right there among you — through patient endurance, miraculous signs, wonders, and displays of power."
+    },
+    {
+      "verse": 13,
+      "kjv": "For what is it wherein ye were inferior to other churches, except it be that I myself was not burdensome to you? forgive me this wrong.",
+      "web": "For what is there in which you were made inferior to the rest of the assemblies, unless it is that I myself was not a burden to you? Forgive me this wrong.",
+      "ct": "How were you treated worse than any other church? The only difference is that I never asked you for financial support. Please, forgive me for that terrible offense!"
+    },
+    {
+      "verse": 14,
+      "kjv": "Behold, the third time I am ready to come to you; and I will not be burdensome to you: for I seek not yours, but you: for the children ought not to lay up for the parents, but the parents for the children.",
+      "web": "Behold, this is the third time I am ready to come to you, and I will not be a burden to you; for I seek not your possessions, but you. For the children ought not to save up for the parents, but the parents for the children.",
+      "ct": "Look, this will be my 3rd visit to you, and I still won't be a burden. I'm not after your money — I'm after you. Children shouldn't have to save up for their parents; parents should provide for their children."
+    },
+    {
+      "verse": 15,
+      "kjv": "And I will very gladly spend and be spent for you; though the more abundantly I love you, the less I be loved.",
+      "web": "I will most gladly spend and be spent for your souls. If I love you more abundantly, am I loved the less?",
+      "ct": "I will gladly spend everything I have — and exhaust myself completely — for your souls. If I love you more and more, does that mean you'll love me less and less?"
+    },
+    {
+      "verse": 16,
+      "kjv": "But be it so, I did not burden you: nevertheless, being crafty, I caught you with guile.",
+      "web": "Even so, I myself didn’t burden you. “But, being crafty, I caught you with deception.”",
+      "ct": "Fine, you agree I wasn't a financial burden. But some of you are saying, \"He's clever — he tricked us through some scheme.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Did I make a gain of you by any of them whom I sent unto you?",
+      "web": "Did I take advantage of you by anyone of those whom I have sent to you?",
+      "ct": "Really? Did I exploit you through anyone I sent to you?"
+    },
+    {
+      "verse": 18,
+      "kjv": "I desired Titus, and with him I sent a brother. Did Titus make a gain of you? walked we not in the same spirit? walked we not in the same steps?",
+      "web": "I exhorted Titus, and I sent the brother with him. Did Titus take any advantage of you? Didn’t we walk in the same spirit? Didn’t we walk in the same steps?",
+      "ct": "I urged Titus to visit you and sent another brother along with him. Did Titus take advantage of you? Didn't we act with the same spirit? Didn't we follow the same path?"
+    },
+    {
+      "verse": 19,
+      "kjv": "Again, think ye that we excuse ourselves unto you? we speak before God in Christ: but we do all things, dearly beloved, for your edifying.",
+      "web": "Again, do you think that we are excusing ourselves to you? In the sight of God we speak in Christ. But all things, beloved, are for your edifying.",
+      "ct": "Have you been thinking this whole time that we're just defending ourselves to you? We speak before God as people who belong to Christ. Everything we do, dear friends, is to build you up."
+    },
+    {
+      "verse": 20,
+      "kjv": "For I fear, lest, when I come, I shall not find you such as I would, and that I shall be found unto you such as ye would not: lest there be debates, envyings, wraths, strifes, backbitings, whisperings, swellings, tumults:",
+      "web": "For I am afraid that by any means, when I come, I might find you not the way I want to, and that I might be found by you as you don’t desire, that by any means there would be strife, jealousy, outbursts of anger, factions, slander, whisperings, proud thoughts, or riots,",
+      "ct": "I'm honestly afraid that when I arrive, I won't like what I find — and you won't like how I respond. I'm worried there will be quarreling, jealousy, angry outbursts, selfish rivalries, slander, gossip, arrogance, and chaos."
+    },
+    {
+      "verse": 21,
+      "kjv": "And lest, when I come again, my God will humble me among you, and that I shall bewail many which have sinned already, and have not repented of the uncleanness and fornication and lasciviousness which they have committed.",
+      "web": "that again when I come my God would humble me before you, and I would mourn for many of those who have sinned before now, and not repented of the uncleanness, sexual immorality, and lustfulness which they committed.",
+      "ct": "I'm afraid that when I come again, my God will humble me in front of you, and I'll end up grieving over many who sinned before and still haven't repented of their impurity, sexual sin, and shameless behavior."
+    }
+  ]
+}

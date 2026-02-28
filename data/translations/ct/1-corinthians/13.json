@@ -1,0 +1,89 @@
+{
+  "book": "1-corinthians",
+  "book_name": "1 Corinthians",
+  "chapter": 13,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:49:41.451Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal.",
+      "web": "If I speak with the languages of men and of angels, but don’t have love, I have become sounding brass, or a clanging cymbal.",
+      "ct": "If I could speak every human language and even the language of angels, but didn't have love, I'd be nothing more than a loud gong or a clanging cymbal."
+    },
+    {
+      "verse": 2,
+      "kjv": "And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing.",
+      "web": "If I have the gift of prophecy, and know all mysteries and all knowledge; and if I have all faith, so as to remove mountains, but don’t have love, I am nothing.",
+      "ct": "If I had the gift of prophecy and understood every mystery and possessed all knowledge — if I had faith powerful enough to move mountains — but didn't have love, I would be nothing."
+    },
+    {
+      "verse": 3,
+      "kjv": "And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing.",
+      "web": "If I give away all my goods to feed the poor, and if I give my body to be burned, but don’t have love, it profits me nothing.",
+      "ct": "If I gave away everything I owned to feed the poor, and even surrendered my body to be burned, but didn't have love, I would gain nothing from it."
+    },
+    {
+      "verse": 4,
+      "kjv": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up,",
+      "web": "Love is patient and is kind. Love doesn’t envy. Love doesn’t brag, is not proud,",
+      "ct": "Love is patient and kind. Love doesn't envy. It doesn't brag, and it isn't proud."
+    },
+    {
+      "verse": 5,
+      "kjv": "Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil;",
+      "web": "doesn’t behave itself inappropriately, doesn’t seek its own way, is not provoked, takes no account of evil;",
+      "ct": "It isn't rude, it doesn't demand its own way, it isn't easily angered, and it keeps no record of wrongs."
+    },
+    {
+      "verse": 6,
+      "kjv": "Rejoiceth not in iniquity, but rejoiceth in the truth;",
+      "web": "doesn’t rejoice in unrighteousness, but rejoices with the truth;",
+      "ct": "Love finds no joy in injustice but celebrates the truth."
+    },
+    {
+      "verse": 7,
+      "kjv": "Beareth all things, believeth all things, hopeth all things, endureth all things.",
+      "web": "bears all things, believes all things, hopes all things, and endures all things.",
+      "ct": "It bears all things, believes all things, hopes all things, and endures all things."
+    },
+    {
+      "verse": 8,
+      "kjv": "Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.",
+      "web": "Love never fails. But where there are prophecies, they will be done away with. Where there are various languages, they will cease. Where there is knowledge, it will be done away with.",
+      "ct": "Love never fails. Prophecies will come to an end. Speaking in tongues will stop. Knowledge will fade away."
+    },
+    {
+      "verse": 9,
+      "kjv": "For we know in part, and we prophesy in part.",
+      "web": "For we know in part and we prophesy in part;",
+      "ct": "Right now, we only know part of the picture, and we only prophesy part of the picture."
+    },
+    {
+      "verse": 10,
+      "kjv": "But when that which is perfect is come, then that which is in part shall be done away.",
+      "web": "but when that which is complete has come, then that which is partial will be done away with.",
+      "ct": "But when what is perfect finally comes, everything partial will disappear."
+    },
+    {
+      "verse": 11,
+      "kjv": "When I was a child, I spake as a child, I understood as a child, I thought as a child: but when I became a man, I put away childish things.",
+      "web": "When I was a child, I spoke as a child, I felt as a child, I thought as a child. Now that I have become a man, I have put away childish things.",
+      "ct": "When I was a child, I talked like a child, I understood like a child, I thought like a child. But when I grew up, I left those childish ways behind."
+    },
+    {
+      "verse": 12,
+      "kjv": "For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known.",
+      "web": "For now we see in a mirror, dimly, but then face to face. Now I know in part, but then I will know fully, even as I was also fully known.",
+      "ct": "Right now we see only a dim reflection, like looking into a clouded mirror — but one day we'll see face to face. Right now I know only part of the truth, but one day I'll know fully, just as God already knows me fully."
+    },
+    {
+      "verse": 13,
+      "kjv": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+      "web": "But now faith, hope, and love remain—these three. The greatest of these is love.",
+      "ct": "So three things will last forever: faith, hope, and love — and the greatest of these is love."
+    }
+  ]
+}

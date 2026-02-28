@@ -1,0 +1,221 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 35,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:36:49.691Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Moses gathered all the congregation of the children of Israel together, and said unto them, These are the words which the LORD hath commanded, that ye should do them.",
+      "web": "Moses assembled all the congregation of the children of Israel, and said to them, “These are the words which LORD has commanded, that you should do them.",
+      "ct": "Moses gathered the entire community of Israel together and told them, \"These are the things the LORD has commanded you to do."
+    },
+    {
+      "verse": 2,
+      "kjv": "Six days shall work be done, but on the seventh day there shall be to you an holy day, a sabbath of rest to the LORD: whosoever doeth work therein shall be put to death.",
+      "web": "‘Six days shall work be done, but on the seventh day there shall be a holy day for you, a Sabbath of solemn rest to LORD: whoever does any work in it shall be put to death.",
+      "ct": "You may work for 6 days, but the 7th day must be set apart as holy — a Sabbath of complete rest dedicated to the LORD. Anyone who does any work on that day must be put to death."
+    },
+    {
+      "verse": 3,
+      "kjv": "Ye shall kindle no fire throughout your habitations upon the sabbath day.",
+      "web": "You shall kindle no fire throughout your habitations on the Sabbath day.’ ”",
+      "ct": "You must not even light a fire in any of your homes on the Sabbath day.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Moses spake unto all the congregation of the children of Israel, saying, This is the thing which the LORD commanded, saying,",
+      "web": "Moses spoke to all the congregation of the children of Israel, saying, “This is the thing which LORD commanded, saying,",
+      "ct": "Then Moses addressed the whole community of Israel: \"Here is what the LORD has commanded."
+    },
+    {
+      "verse": 5,
+      "kjv": "Take ye from among you an offering unto the LORD: whosoever is of a willing heart, let him bring it, an offering of the LORD; gold, and silver, and brass,",
+      "web": "‘Take from among you an offering to LORD. Whoever is of a willing heart, let him bring it as LORD’s offering: gold, silver, bronze,",
+      "ct": "Collect an offering for the LORD from among yourselves. Everyone who is willing should bring a contribution to the LORD: gold, silver, bronze,"
+    },
+    {
+      "verse": 6,
+      "kjv": "And blue, and purple, and scarlet, and fine linen, and goats’ hair,",
+      "web": "blue, purple, scarlet, fine linen, goats’ hair,",
+      "ct": "blue, purple, and scarlet yarn, fine linen, goats' hair,"
+    },
+    {
+      "verse": 7,
+      "kjv": "And rams’ skins dyed red, and badgers’ skins, and shittim wood,",
+      "web": "rams’ skins dyed red, sea cow hides, acacia wood,",
+      "ct": "rams' skins dyed red, badgers' skins, and acacia wood,"
+    },
+    {
+      "verse": 8,
+      "kjv": "And oil for the light, and spices for anointing oil, and for the sweet incense,",
+      "web": "oil for the light, spices for the anointing oil and for the sweet incense,",
+      "ct": "oil for the lampstand, spices for the anointing oil and for the fragrant incense,"
+    },
+    {
+      "verse": 9,
+      "kjv": "And onyx stones, and stones to be set for the ephod, and for the breastplate.",
+      "web": "onyx stones, and stones to be set for the ephod and for the breastplate.",
+      "ct": "onyx stones, and gemstones to be mounted on the ephod and the breastplate."
+    },
+    {
+      "verse": 10,
+      "kjv": "And every wise hearted among you shall come, and make all that the LORD hath commanded;",
+      "web": "“ ‘Let every wise-hearted man among you come, and make all that LORD has commanded:",
+      "ct": "Every skilled craftsman among you should come and make everything the LORD has commanded:"
+    },
+    {
+      "verse": 11,
+      "kjv": "The tabernacle, his tent, and his covering, his taches, and his boards, his bars, his pillars, and his sockets,",
+      "web": "the tabernacle, its outer covering, its roof, its clasps, its boards, its bars, its pillars, and its sockets;",
+      "ct": "the tabernacle itself — its outer covering, its roof, its clasps, its frames, its crossbars, its posts, and its bases;"
+    },
+    {
+      "verse": 12,
+      "kjv": "The ark, and the staves thereof, with the mercy seat, and the vail of the covering,",
+      "web": "the ark, and its poles, the mercy seat, the veil of the screen;",
+      "ct": "the ark with its carrying poles, the mercy seat, and the inner curtain that screens it;"
+    },
+    {
+      "verse": 13,
+      "kjv": "The table, and his staves, and all his vessels, and the shewbread,",
+      "web": "the table with its poles and all its vessels, and the show bread;",
+      "ct": "the table with its carrying poles, all its utensils, and the bread of the Presence;"
+    },
+    {
+      "verse": 14,
+      "kjv": "The candlestick also for the light, and his furniture, and his lamps, with the oil for the light,",
+      "web": "the lamp stand also for the light, with its vessels, its lamps, and the oil for the light;",
+      "ct": "the lampstand for light along with its accessories, its lamps, and the oil for the light;"
+    },
+    {
+      "verse": 15,
+      "kjv": "And the incense altar, and his staves, and the anointing oil, and the sweet incense, and the hanging for the door at the entering in of the tabernacle,",
+      "web": "and the altar of incense with its poles, the anointing oil, the sweet incense, the screen for the door, at the door of the tabernacle;",
+      "ct": "the incense altar with its carrying poles, the anointing oil, the fragrant incense, and the curtain for the entrance of the tabernacle;"
+    },
+    {
+      "verse": 16,
+      "kjv": "The altar of burnt offering, with his brasen grate, his staves, and all his vessels, the laver and his foot,",
+      "web": "the altar of burnt offering, with its grating of bronze, its poles, and all its vessels, the basin and its base;",
+      "ct": "the altar of burnt offering with its bronze grating, its carrying poles, and all its utensils; the basin and its stand;"
+    },
+    {
+      "verse": 17,
+      "kjv": "The hangings of the court, his pillars, and their sockets, and the hanging for the door of the court,",
+      "web": "the hangings of the court, its pillars, their sockets, and the screen for the gate of the court;",
+      "ct": "the curtains for the courtyard, its posts and their bases, and the screen for the courtyard gate;"
+    },
+    {
+      "verse": 18,
+      "kjv": "The pins of the tabernacle, and the pins of the court, and their cords,",
+      "web": "the pins of the tabernacle, the pins of the court, and their cords;",
+      "ct": "the tent pegs for the tabernacle and the courtyard, along with their ropes;"
+    },
+    {
+      "verse": 19,
+      "kjv": "The cloths of service, to do service in the holy place, the holy garments for Aaron the priest, and the garments of his sons, to minister in the priest’s office.",
+      "web": "the finely worked garments for ministering in the holy place—the holy garments for Aaron the priest, and the garments of his sons—to minister in the priest’s office.’ ”",
+      "ct": "and the finely crafted garments for serving in the holy place — the sacred garments for Aaron the priest and the garments for his sons to wear while serving as priests.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And all the congregation of the children of Israel departed from the presence of Moses.",
+      "web": "All the congregation of the children of Israel departed from the presence of Moses.",
+      "ct": "The whole community then left Moses' presence."
+    },
+    {
+      "verse": 21,
+      "kjv": "And they came, every one whose heart stirred him up, and every one whom his spirit made willing, and they brought the LORD’s offering to the work of the tabernacle of the congregation, and for all his service, and for the holy garments.",
+      "web": "They came, everyone whose heart stirred him up, and everyone whom his spirit made willing, and brought LORD’s offering for the work of the Tent of Meeting, and for all of its service, and for the holy garments.",
+      "ct": "Everyone whose heart was stirred and whose spirit was willing came back and brought an offering to the LORD for the construction of the tabernacle, for all its furnishings, and for the sacred garments."
+    },
+    {
+      "verse": 22,
+      "kjv": "And they came, both men and women, as many as were willing hearted, and brought bracelets, and earrings, and rings, and tablets, all jewels of gold: and every man that offered offered an offering of gold unto the LORD.",
+      "web": "They came, both men and women, as many as were willing-hearted, and brought brooches, earrings, signet rings, and armlets, all jewels of gold; even every man who offered an offering of gold to LORD.",
+      "ct": "Men and women alike came — everyone who was willing — bringing brooches, earrings, rings, and necklaces, all kinds of gold jewelry. Each person who gave gold presented it as an offering to the LORD."
+    },
+    {
+      "verse": 23,
+      "kjv": "And every man, with whom was found blue, and purple, and scarlet, and fine linen, and goats’ hair, and red skins of rams, and badgers’ skins, brought them.",
+      "web": "Everyone with whom was found blue, purple, scarlet, fine linen, goats’ hair, rams’ skins dyed red, and sea cow hides, brought them.",
+      "ct": "Everyone who had blue, purple, or scarlet yarn, fine linen, goats' hair, rams' skins dyed red, or badgers' skins brought them."
+    },
+    {
+      "verse": 24,
+      "kjv": "Every one that did offer an offering of silver and brass brought the LORD’s offering: and every man, with whom was found shittim wood for any work of the service, brought it.",
+      "web": "Everyone who offered an offering of silver and bronze brought LORD’s offering; and everyone with whom was found acacia wood for any work of the service, brought it.",
+      "ct": "Everyone who wanted to give silver or bronze brought it as an offering to the LORD, and anyone who had acacia wood useful for the project brought that as well."
+    },
+    {
+      "verse": 25,
+      "kjv": "And all the women that were wise hearted did spin with their hands, and brought that which they had spun, both of blue, and of purple, and of scarlet, and of fine linen.",
+      "web": "All the women who were wise-hearted spun with their hands, and brought that which they had spun: the blue, the purple, the scarlet, and the fine linen.",
+      "ct": "Every woman skilled with her hands spun thread and brought what she had made — blue, purple, and scarlet yarn, and fine linen."
+    },
+    {
+      "verse": 26,
+      "kjv": "And all the women whose heart stirred them up in wisdom spun goats’ hair.",
+      "web": "All the women whose heart stirred them up in wisdom spun the goats’ hair.",
+      "ct": "Other women whose hearts moved them to use their skill spun thread from goats' hair."
+    },
+    {
+      "verse": 27,
+      "kjv": "And the rulers brought onyx stones, and stones to be set, for the ephod, and for the breastplate;",
+      "web": "The rulers brought the onyx stones and the stones to be set for the ephod and for the breastplate;",
+      "ct": "The leaders brought onyx stones and other gemstones to be set into the ephod and the breastplate,"
+    },
+    {
+      "verse": 28,
+      "kjv": "And spice, and oil for the light, and for the anointing oil, and for the sweet incense.",
+      "web": "with the spice and the oil for the light, for the anointing oil, and for the sweet incense.",
+      "ct": "along with spices and olive oil for the lampstand, for the anointing oil, and for the fragrant incense."
+    },
+    {
+      "verse": 29,
+      "kjv": "The children of Israel brought a willing offering unto the LORD, every man and woman, whose heart made them willing to bring for all manner of work, which the LORD had commanded to be made by the hand of Moses.",
+      "web": "The children of Israel brought a free will offering to LORD; every man and woman whose heart made them willing to bring for all the work, which LORD had commanded to be made by Moses.",
+      "ct": "Every man and woman among the Israelites whose heart moved them to contribute brought a freewill offering to the LORD for all the work the LORD had commanded through Moses."
+    },
+    {
+      "verse": 30,
+      "kjv": "And Moses said unto the children of Israel, See, the LORD hath called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah;",
+      "web": "Moses said to the children of Israel, “Behold, LORD has called by name Bezalel the son of Uri, the son of Hur, of the tribe of Judah.",
+      "ct": "Then Moses told the Israelites, \"Look — the LORD has chosen Bezaleel by name, the son of Uri and grandson of Hur, from the tribe of Judah."
+    },
+    {
+      "verse": 31,
+      "kjv": "And he hath filled him with the spirit of God, in wisdom, in understanding, and in knowledge, and in all manner of workmanship;",
+      "web": "He has filled him with the Spirit of God, in wisdom, in understanding, in knowledge, and in all kinds of workmanship;",
+      "ct": "God has filled him with the Spirit of God, giving him extraordinary wisdom, understanding, knowledge, and skill in every kind of craft."
+    },
+    {
+      "verse": 32,
+      "kjv": "And to devise curious works, to work in gold, and in silver, and in brass,",
+      "web": "and to make skillful works, to work in gold, in silver, in bronze,",
+      "ct": "He can design artistic works and execute them in gold, silver, and bronze."
+    },
+    {
+      "verse": 33,
+      "kjv": "And in the cutting of stones, to set them, and in carving of wood, to make any manner of cunning work.",
+      "web": "in cutting of stones for setting, and in carving of wood, to work in all kinds of skillful workmanship.",
+      "ct": "He can cut and set gemstones, carve wood, and produce every kind of masterful work."
+    },
+    {
+      "verse": 34,
+      "kjv": "And he hath put in his heart that he may teach, both he, and Aholiab, the son of Ahisamach, of the tribe of Dan.",
+      "web": "He has put in his heart that he may teach, both he and Oholiab, the son of Ahisamach, of the tribe of Dan.",
+      "ct": "God has also given him the ability to teach others — both him and Aholiab son of Ahisamach, from the tribe of Dan."
+    },
+    {
+      "verse": 35,
+      "kjv": "Them hath he filled with wisdom of heart, to work all manner of work, of the engraver, and of the cunning workman, and of the embroiderer, in blue, and in purple, in scarlet, and in fine linen, and of the weaver, even of them that do any work, and of those that devise cunning work.",
+      "web": "He has filled them with wisdom of heart to work all kinds of workmanship, of the engraver, of the skillful workman, and of the embroiderer, in blue, in purple, in scarlet, and in fine linen, and of the weaver, even of those who do any workmanship, and of those who make skillful works.",
+      "ct": "God has filled both of them with exceptional skill to do every kind of work — engraving, designing, embroidering with blue, purple, and scarlet yarn and fine linen, weaving, and crafting works of every kind.\""
+    }
+  ]
+}

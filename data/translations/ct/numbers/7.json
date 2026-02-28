@@ -1,0 +1,545 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 7,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:52:46.774Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass on the day that Moses had fully set up the tabernacle, and had anointed it, and sanctified it, and all the instruments thereof, both the altar and all the vessels thereof, and had anointed them, and sanctified them;",
+      "web": "On the day that Moses had finished setting up the tabernacle, and had anointed it and sanctified it with all its furniture, and the altar with all its vessels, and had anointed and sanctified them;",
+      "ct": "On the day Moses finished setting up the tabernacle, he anointed and consecrated it along with all its furnishings, the altar, and all its utensils."
+    },
+    {
+      "verse": 2,
+      "kjv": "That the princes of Israel, heads of the house of their fathers, who were the princes of the tribes, and were over them that were numbered, offered:",
+      "web": "the princes of Israel, the heads of their fathers’ houses, offered. These were the princes of the tribes. These are they who were over those who were counted;",
+      "ct": "The leaders of Israel — the heads of each ancestral family and the chiefs of each tribe who had overseen the census — brought their offerings."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they brought their offering before the LORD, six covered wagons, and twelve oxen; a wagon for two of the princes, and for each one an ox: and they brought them before the tabernacle.",
+      "web": "and they brought their offering before LORD, six covered wagons and twelve oxen; a wagon for every two of the princes, and for each one an ox. They presented them before the tabernacle.",
+      "ct": "They presented their gifts before the LORD: 6 covered wagons and 12 oxen, with every 2 leaders sharing a wagon and each one providing an ox. They brought these to the front of the tabernacle."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 5,
+      "kjv": "Take it of them, that they may be to do the service of the tabernacle of the congregation; and thou shalt give them unto the Levites, to every man according to his service.",
+      "web": "“Accept these from them, that they may be used in doing the service of the Tent of Meeting; and you shall give them to the Levites, to every man according to his service.”",
+      "ct": "\"Accept these from them so they can be used for the work of the Tent of Meeting. Give them to the Levites, distributing them based on each group's responsibilities.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Moses took the wagons and the oxen, and gave them unto the Levites.",
+      "web": "Moses took the wagons and the oxen, and gave them to the Levites.",
+      "ct": "So Moses took the wagons and oxen and gave them to the Levites."
+    },
+    {
+      "verse": 7,
+      "kjv": "Two wagons and four oxen he gave unto the sons of Gershon, according to their service:",
+      "web": "He gave two wagons and four oxen to the sons of Gershon, according to their service.",
+      "ct": "He gave 2 wagons and 4 oxen to the sons of Gershon, matching what their duties required."
+    },
+    {
+      "verse": 8,
+      "kjv": "And four wagons and eight oxen he gave unto the sons of Merari, according unto their service, under the hand of Ithamar the son of Aaron the priest.",
+      "web": "He gave four wagons and eight oxen to the sons of Merari, according to their service, under the direction of Ithamar the son of Aaron the priest.",
+      "ct": "He gave 4 wagons and 8 oxen to the sons of Merari, matching their heavier workload. They served under the direction of Ithamar son of Aaron the priest."
+    },
+    {
+      "verse": 9,
+      "kjv": "But unto the sons of Kohath he gave none: because the service of the sanctuary belonging unto them was that they should bear upon their shoulders.",
+      "web": "But to the sons of Kohath he gave none, because the service of the sanctuary belonged to them; they carried it on their shoulders.",
+      "ct": "But he didn't give any wagons to the sons of Kohath, because their responsibility was to carry the holy objects of the sanctuary on their shoulders."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the princes offered for dedicating of the altar in the day that it was anointed, even the princes offered their offering before the altar.",
+      "web": "The princes gave offerings for the dedication of the altar in the day that it was anointed. The princes gave their offerings before the altar.",
+      "ct": "The tribal leaders also brought offerings to dedicate the altar on the day it was anointed. They presented their gifts before the altar."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD said unto Moses, They shall offer their offering, each prince on his day, for the dedicating of the altar.",
+      "web": "LORD said to Moses, “They shall offer their offering, each prince on his day, for the dedication of the altar.”",
+      "ct": "The LORD told Moses, \"Have one leader present his offering each day for the dedication of the altar.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And he that offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah:",
+      "web": "He who offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah,",
+      "ct": "The first to bring his offering on the 1st day was Nahshon son of Amminadab, from the tribe of Judah."
+    },
+    {
+      "verse": 13,
+      "kjv": "And his offering was one silver charger, the weight thereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them were full of fine flour mingled with oil for a meat offering:",
+      "web": "and his offering was: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 14,
+      "kjv": "One spoon of ten shekels of gold, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 15,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 16,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 17,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Nahshon the son of Amminadab.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Nahshon the son of Amminadab.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Nahshon son of Amminadab."
+    },
+    {
+      "verse": 18,
+      "kjv": "On the second day Nethaneel the son of Zuar, prince of Issachar, did offer:",
+      "web": "On the second day Nethanel the son of Zuar, prince of Issachar, gave his offering.",
+      "ct": "On the 2nd day, Nethanel son of Zuar, the leader of the tribe of Issachar, presented his offering."
+    },
+    {
+      "verse": 19,
+      "kjv": "He offered for his offering one silver charger, the weight whereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "He offered for his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 20,
+      "kjv": "One spoon of gold of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 21,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 22,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 23,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Nethaneel the son of Zuar.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, five male lambs a year old. This was the offering of Nethanel the son of Zuar.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Nethanel son of Zuar."
+    },
+    {
+      "verse": 24,
+      "kjv": "On the third day Eliab the son of Helon, prince of the children of Zebulun, did offer:",
+      "web": "On the third day Eliab the son of Helon, prince of the children of Zebulun,",
+      "ct": "On the 3rd day, Eliab son of Helon, the leader of the tribe of Zebulun, presented his offering."
+    },
+    {
+      "verse": 25,
+      "kjv": "His offering was one silver charger, the weight whereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was a hundred and thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 26,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 27,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 28,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 29,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Eliab the son of Helon.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliab the son of Helon.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Eliab son of Helon."
+    },
+    {
+      "verse": 30,
+      "kjv": "On the fourth day Elizur the son of Shedeur, prince of the children of Reuben, did offer:",
+      "web": "On the fourth day Elizur the son of Shedeur, prince of the children of Reuben,",
+      "ct": "On the 4th day, Elizur son of Shedeur, the leader of the tribe of Reuben, presented his offering."
+    },
+    {
+      "verse": 31,
+      "kjv": "His offering was one silver charger of the weight of an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 32,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 33,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 34,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 35,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Elizur the son of Shedeur.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elizur the son of Shedeur.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Elizur son of Shedeur."
+    },
+    {
+      "verse": 36,
+      "kjv": "On the fifth day Shelumiel the son of Zurishaddai, prince of the children of Simeon, did offer:",
+      "web": "On the fifth day Shelumiel the son of Zurishaddai, prince of the children of Simeon,",
+      "ct": "On the 5th day, Shelumiel son of Zurishaddai, the leader of the tribe of Simeon, presented his offering."
+    },
+    {
+      "verse": 37,
+      "kjv": "His offering was one silver charger, the weight whereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 38,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 39,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 40,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 41,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Shelumiel the son of Zurishaddai.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old: this was the offering of Shelumiel the son of Zurishaddai.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Shelumiel son of Zurishaddai."
+    },
+    {
+      "verse": 42,
+      "kjv": "On the sixth day Eliasaph the son of Deuel, prince of the children of Gad, offered:",
+      "web": "On the sixth day, Eliasaph the son of Deuel, prince of the children of Gad,",
+      "ct": "On the 6th day, Eliasaph son of Deuel, the leader of the tribe of Gad, presented his offering."
+    },
+    {
+      "verse": 43,
+      "kjv": "His offering was one silver charger of the weight of an hundred and thirty shekels, a silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 44,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 45,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 46,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 47,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Eliasaph the son of Deuel.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliasaph the son of Deuel.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Eliasaph son of Deuel."
+    },
+    {
+      "verse": 48,
+      "kjv": "On the seventh day Elishama the son of Ammihud, prince of the children of Ephraim, offered:",
+      "web": "On the seventh day Elishama the son of Ammihud, prince of the children of Ephraim,",
+      "ct": "On the 7th day, Elishama son of Ammihud, the leader of the tribe of Ephraim, presented his offering."
+    },
+    {
+      "verse": 49,
+      "kjv": "His offering was one silver charger, the weight whereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 50,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 51,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 52,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 53,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Elishama the son of Ammihud.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elishama the son of Ammihud.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Elishama son of Ammihud."
+    },
+    {
+      "verse": 54,
+      "kjv": "On the eighth day offered Gamaliel the son of Pedahzur, prince of the children of Manasseh:",
+      "web": "On the eighth day Gamaliel the son of Pedahzur, prince of the children of Manasseh,",
+      "ct": "On the 8th day, Gamaliel son of Pedahzur, the leader of the tribe of Manasseh, presented his offering."
+    },
+    {
+      "verse": 55,
+      "kjv": "His offering was one silver charger of the weight of an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 56,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 57,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 58,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 59,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Gamaliel the son of Pedahzur.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Gamaliel the son of Pedahzur.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Gamaliel son of Pedahzur."
+    },
+    {
+      "verse": 60,
+      "kjv": "On the ninth day Abidan the son of Gideoni, prince of the children of Benjamin, offered:",
+      "web": "On the ninth day Abidan the son of Gideoni, prince of the children of Benjamin,",
+      "ct": "On the 9th day, Abidan son of Gideoni, the leader of the tribe of Benjamin, presented his offering."
+    },
+    {
+      "verse": 61,
+      "kjv": "His offering was one silver charger, the weight whereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 62,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 63,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 64,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 65,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Abidan the son of Gideoni.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Abidan the son of Gideoni.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Abidan son of Gideoni."
+    },
+    {
+      "verse": 66,
+      "kjv": "On the tenth day Ahiezer the son of Ammishaddai, prince of the children of Dan, offered:",
+      "web": "On the tenth day Ahiezer the son of Ammishaddai, prince of the children of Dan,",
+      "ct": "On the 10th day, Ahiezer son of Ammishaddai, the leader of the tribe of Dan, presented his offering."
+    },
+    {
+      "verse": 67,
+      "kjv": "His offering was one silver charger, the weight whereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 68,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 69,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 70,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 71,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Ahiezer the son of Ammishaddai.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Ahiezer the son of Ammishaddai.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Ahiezer son of Ammishaddai."
+    },
+    {
+      "verse": 72,
+      "kjv": "On the eleventh day Pagiel the son of Ocran, prince of the children of Asher, offered:",
+      "web": "On the eleventh day Pagiel the son of Ochran, prince of the children of Asher,",
+      "ct": "On the 11th day, Pagiel son of Ocran, the leader of the tribe of Asher, presented his offering."
+    },
+    {
+      "verse": 73,
+      "kjv": "His offering was one silver charger, the weight whereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 74,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden ladle of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 75,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 76,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 77,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Pagiel the son of Ocran.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Pagiel the son of Ochran.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Pagiel son of Ocran."
+    },
+    {
+      "verse": 78,
+      "kjv": "On the twelfth day Ahira the son of Enan, prince of the children of Naphtali, offered:",
+      "web": "On the twelfth day Ahira the son of Enan, prince of the children of Naphtali,",
+      "ct": "On the 12th day, Ahira son of Enan, the leader of the tribe of Naphtali, presented his offering."
+    },
+    {
+      "verse": 79,
+      "kjv": "His offering was one silver charger, the weight whereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them full of fine flour mingled with oil for a meat offering:",
+      "web": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary; both of them full of fine flour mixed with oil for a meal offering;",
+      "ct": "His offering included one silver platter weighing 130 shekels and one silver bowl weighing 70 shekels, both measured by the sanctuary standard. Each was filled with fine flour mixed with oil as a grain offering."
+    },
+    {
+      "verse": 80,
+      "kjv": "One golden spoon of ten shekels, full of incense:",
+      "web": "one golden spoon of ten shekels, full of incense;",
+      "ct": "He also brought one gold ladle weighing 10 shekels, filled with incense."
+    },
+    {
+      "verse": 81,
+      "kjv": "One young bullock, one ram, one lamb of the first year, for a burnt offering:",
+      "web": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
+      "ct": "For the burnt offering, he brought one young bull, one ram, and one year-old male lamb."
+    },
+    {
+      "verse": 82,
+      "kjv": "One kid of the goats for a sin offering:",
+      "web": "one male goat for a sin offering;",
+      "ct": "He brought one male goat as a sin offering."
+    },
+    {
+      "verse": 83,
+      "kjv": "And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this was the offering of Ahira the son of Enan.",
+      "web": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Ahira the son of Enan.",
+      "ct": "For the peace offerings, he brought 2 oxen, 5 rams, 5 male goats, and 5 year-old male lambs. This was the offering of Ahira son of Enan."
+    },
+    {
+      "verse": 84,
+      "kjv": "This was the dedication of the altar, in the day when it was anointed, by the princes of Israel: twelve chargers of silver, twelve silver bowls, twelve spoons of gold:",
+      "web": "This was the dedication offering of the altar, on the day when it was anointed, by the princes of Israel: twelve silver platters, twelve silver bowls, twelve golden ladles;",
+      "ct": "So this was the total dedication offering for the altar on the day it was anointed, given by the leaders of Israel: 12 silver platters, 12 silver bowls, and 12 gold ladles."
+    },
+    {
+      "verse": 85,
+      "kjv": "Each charger of silver weighing an hundred and thirty shekels, each bowl seventy: all the silver vessels weighed two thousand and four hundred shekels, after the shekel of the sanctuary:",
+      "web": "each silver platter weighing one hundred thirty shekels, and each bowl seventy; all the silver of the vessels two thousand four hundred shekels, according to the shekel of the sanctuary;",
+      "ct": "Each silver platter weighed 130 shekels and each bowl weighed 70 shekels. The total weight of all the silver vessels came to 2,400 shekels by the sanctuary standard."
+    },
+    {
+      "verse": 86,
+      "kjv": "The golden spoons were twelve, full of incense, weighing ten shekels apiece, after the shekel of the sanctuary: all the gold of the spoons was an hundred and twenty shekels.",
+      "web": "the twelve golden ladles, full of incense, weighing ten shekels apiece, according to the shekel of the sanctuary; all the gold of the ladles weighed one hundred twenty shekels;",
+      "ct": "The 12 gold ladles, each filled with incense and weighing 10 shekels apiece by the sanctuary standard, totaled 120 shekels of gold."
+    },
+    {
+      "verse": 87,
+      "kjv": "All the oxen for the burnt offering were twelve bullocks, the rams twelve, the lambs of the first year twelve, with their meat offering: and the kids of the goats for sin offering twelve.",
+      "web": "all the cattle for the burnt offering twelve bulls, the rams twelve, the male lambs a year old twelve, and their meal offering; and twelve male goats for a sin offering;",
+      "ct": "The animals for the burnt offerings totaled 12 bulls, 12 rams, and 12 year-old male lambs, along with their grain offerings. There were also 12 male goats for the sin offerings."
+    },
+    {
+      "verse": 88,
+      "kjv": "And all the oxen for the sacrifice of the peace offerings were twenty and four bullocks, the rams sixty, the he goats sixty, the lambs of the first year sixty. This was the dedication of the altar, after that it was anointed.",
+      "web": "and all the cattle for the sacrifice of peace offerings: twenty-four bulls, sixty rams, sixty male goats, and sixty male lambs a year old. This was the dedication offering of the altar, after it was anointed.",
+      "ct": "The animals for the peace offerings totaled 24 bulls, 60 rams, 60 male goats, and 60 year-old male lambs. This completed the dedication offering for the altar after it was anointed."
+    },
+    {
+      "verse": 89,
+      "kjv": "And when Moses was gone into the tabernacle of the congregation to speak with him, then he heard the voice of one speaking unto him from off the mercy seat that was upon the ark of testimony, from between the two cherubims: and he spake unto him.",
+      "web": "When Moses went into the Tent of Meeting to speak with LORD, he heard his voice speaking to him from above the mercy seat that was on the ark of the Testimony, from between the two cherubim; and he spoke to him.",
+      "ct": "Whenever Moses entered the Tent of Meeting to speak with the LORD, he heard God's voice speaking to him from above the mercy seat on the ark of the Testimony, from between the 2 cherubim. And God spoke with him there."
+    }
+  ]
+}

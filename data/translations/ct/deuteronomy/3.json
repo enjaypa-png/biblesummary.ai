@@ -1,0 +1,185 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:05:47.205Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then we turned, and went up the way to Bashan: and Og the king of Bashan came out against us, he and all his people, to battle at Edrei.",
+      "web": "Then we turned, and went up the way to Bashan. Og the king of Bashan came out against us, he and all his people, to battle at Edrei.",
+      "ct": "Then we turned and headed up the road toward Bashan. King Og of Bashan marched out with his entire army to fight us at Edrei."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD said unto me, Fear him not: for I will deliver him, and all his people, and his land, into thy hand; and thou shalt do unto him as thou didst unto Sihon king of the Amorites, which dwelt at Heshbon.",
+      "web": "LORD said to me, “Don’t fear him; for I have delivered him, with all his people, and his land, into your hand. You shall do to him as you did to Sihon king of the Amorites, who lived at Heshbon.”",
+      "ct": "The LORD told me, \"Don't be afraid of him. I'm handing him over to you — him, his entire army, and his land. Do to him exactly what you did to Sihon, the Amorite king who ruled from Heshbon.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "So the LORD our God delivered into our hands Og also, the king of Bashan, and all his people: and we smote him until none was left to him remaining.",
+      "web": "So LORD our God delivered into our hand Og also, the king of Bashan, and all his people. We struck him until no one was left to him remaining.",
+      "ct": "So the LORD our God handed King Og of Bashan and all his people over to us. We struck them down until not a single survivor remained."
+    },
+    {
+      "verse": 4,
+      "kjv": "And we took all his cities at that time, there was not a city which we took not from them, threescore cities, all the region of Argob, the kingdom of Og in Bashan.",
+      "web": "We took all his cities at that time. There was not a city which we didn’t take from them: sixty cities, all the region of Argob, the kingdom of Og in Bashan.",
+      "ct": "We captured every one of his cities — all 60 of them — the entire region of Argob, which was Og's kingdom in Bashan. Not one city escaped us."
+    },
+    {
+      "verse": 5,
+      "kjv": "All these cities were fenced with high walls, gates, and bars; beside unwalled towns a great many.",
+      "web": "All these were cities fortified with high walls, gates, and bars, in addition to a great many villages without walls.",
+      "ct": "All of these were fortified cities with high walls, gates, and iron bars, and there were also a great many unwalled villages beyond those."
+    },
+    {
+      "verse": 6,
+      "kjv": "And we utterly destroyed them, as we did unto Sihon king of Heshbon, utterly destroying the men, women, and children, of every city.",
+      "web": "We utterly destroyed them, as we did to Sihon king of Heshbon, utterly destroying every inhabited city, with the women and the little ones.",
+      "ct": "We completely destroyed them, just as we had done to King Sihon of Heshbon — wiping out every city, including the men, women, and children."
+    },
+    {
+      "verse": 7,
+      "kjv": "But all the cattle, and the spoil of the cities, we took for a prey to ourselves.",
+      "web": "But all the livestock, and the plunder of the cities, we took for plunder for ourselves.",
+      "ct": "But we kept all the livestock and the plunder from the cities for ourselves."
+    },
+    {
+      "verse": 8,
+      "kjv": "And we took at that time out of the hand of the two kings of the Amorites the land that was on this side Jordan, from the river of Arnon unto mount Hermon;",
+      "web": "We took the land at that time out of the hand of the two kings of the Amorites who were beyond the Jordan, from the valley of the Arnon to Mount Hermon.",
+      "ct": "At that time, we took the land from the 2 Amorite kings who controlled the territory east of the Jordan, stretching from the Arnon Valley all the way to Mount Hermon."
+    },
+    {
+      "verse": 9,
+      "kjv": "(Which Hermon the Sidonians call Sirion; and the Amorites call it Shenir;)",
+      "web": "(The Sidonians call Hermon Sirion, and the Amorites call it Senir.)",
+      "ct": "(The Sidonians call Hermon \"Sirion,\" and the Amorites call it \"Shenir.\")"
+    },
+    {
+      "verse": 10,
+      "kjv": "All the cities of the plain, and all Gilead, and all Bashan, unto Salchah and Edrei, cities of the kingdom of Og in Bashan.",
+      "web": "We took all the cities of the plain, and all Gilead, and all Bashan, to Salecah and Edrei, cities of the kingdom of Og in Bashan.",
+      "ct": "We captured all the cities of the plateau, all of Gilead, and all of Bashan as far as Salchah and Edrei — cities that belonged to Og's kingdom in Bashan."
+    },
+    {
+      "verse": 11,
+      "kjv": "For only Og king of Bashan remained of the remnant of giants; behold, his bedstead was a bedstead of iron; is it not in Rabbath of the children of Ammon? nine cubits was the length thereof, and four cubits the breadth of it, after the cubit of a man.",
+      "web": "(For only Og king of Bashan remained of the remnant of the Rephaim. Behold, his bedstead was a bedstead of iron. Isn’t it in Rabbah of the children of Ammon? Nine cubits was its length, and four cubits its width, after the cubit of a man.)",
+      "ct": "King Og of Bashan was the last surviving member of the giants. His bed was made of iron — it's still on display in Rabbath of the Ammonites. It measured 9 cubits long and 4 cubits wide, by standard measurement."
+    },
+    {
+      "verse": 12,
+      "kjv": "And this land, which we possessed at that time, from Aroer, which is by the river Arnon, and half mount Gilead, and the cities thereof, gave I unto the Reubenites and to the Gadites.",
+      "web": "This land we took in possession at that time: from Aroer, which is by the valley of the Arnon, and half the hill country of Gilead with its cities, I gave to the Reubenites and to the Gadites;",
+      "ct": "When we took possession of this land, I gave the territory from Aroer along the Arnon Valley, plus the southern half of the hill country of Gilead and its cities, to the tribes of Reuben and Gad."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the rest of Gilead, and all Bashan, being the kingdom of Og, gave I unto the half tribe of Manasseh; all the region of Argob, with all Bashan, which was called the land of giants.",
+      "web": "and the rest of Gilead, and all Bashan, the kingdom of Og, I gave to the half-tribe of Manasseh—all the region of Argob, even all Bashan. (The same is called the land of Rephaim.",
+      "ct": "The rest of Gilead and all of Bashan — Og's former kingdom — I gave to the half-tribe of Manasseh. This included the entire region of Argob. (All of Bashan used to be called the land of the giants.)"
+    },
+    {
+      "verse": 14,
+      "kjv": "Jair the son of Manasseh took all the country of Argob unto the coasts of Geshuri and Maachathi; and called them after his own name, Bashanhavothjair, unto this day.",
+      "web": "Jair the son of Manasseh took all the region of Argob, to the border of the Geshurites and the Maacathites, and called them, even Bashan, after his own name, Havvoth Jair, to this day.)",
+      "ct": "Jair, a descendant of Manasseh, took the entire region of Argob up to the border of the Geshurites and the Maachathites. He renamed those settlements after himself, calling them Bashanhavothjair — and that name has stuck to this day."
+    },
+    {
+      "verse": 15,
+      "kjv": "And I gave Gilead unto Machir.",
+      "web": "I gave Gilead to Machir.",
+      "ct": "I gave Gilead to Machir."
+    },
+    {
+      "verse": 16,
+      "kjv": "And unto the Reubenites and unto the Gadites I gave from Gilead even unto the river Arnon half the valley, and the border even unto the river Jabbok, which is the border of the children of Ammon;",
+      "web": "To the Reubenites and to the Gadites I gave from Gilead even to the valley of the Arnon, the middle of the valley, and its border, even to the river Jabbok, which is the border of the children of Ammon;",
+      "ct": "To the tribes of Reuben and Gad, I gave the territory from Gilead down to the Arnon Valley — with the middle of the valley as one boundary — and up to the Jabbok River, which forms the border with the Ammonites."
+    },
+    {
+      "verse": 17,
+      "kjv": "The plain also, and Jordan, and the coast thereof, from Chinnereth even unto the sea of the plain, even the salt sea, under Ashdothpisgah eastward.",
+      "web": "the Arabah also, and the Jordan and its border, from Chinnereth even to the sea of the Arabah, the Salt Sea, under the slopes of Pisgah eastward.",
+      "ct": "Their territory also included the Arabah along the Jordan, from Chinnereth in the north down to the Salt Sea in the south, below the slopes of Pisgah on the east."
+    },
+    {
+      "verse": 18,
+      "kjv": "And I commanded you at that time, saying, The LORD your God hath given you this land to possess it: ye shall pass over armed before your brethren the children of Israel, all that are meet for the war.",
+      "web": "I commanded you at that time, saying, “LORD your God has given you this land to possess it. All of you men of valor shall pass over armed before your brothers, the children of Israel.",
+      "ct": "At that time I gave these tribes an order: \"The LORD your God has given you this land as your own. But every fighting man among you must cross the Jordan armed and ready, marching ahead of your Israelite brothers."
+    },
+    {
+      "verse": 19,
+      "kjv": "But your wives, and your little ones, and your cattle, (for I know that ye have much cattle,) shall abide in your cities which I have given you;",
+      "web": "But your wives, and your little ones, and your livestock, (I know that you have much livestock), shall live in your cities which I have given you,",
+      "ct": "Your wives, your children, and your livestock — and I know you have plenty of livestock — will stay behind in the cities I've given you."
+    },
+    {
+      "verse": 20,
+      "kjv": "Until the LORD have given rest unto your brethren, as well as unto you, and until they also possess the land which the LORD your God hath given them beyond Jordan: and then shall ye return every man unto his possession, which I have given you.",
+      "web": "until LORD gives rest to your brothers, as to you, and they also possess the land which LORD your God gives them beyond the Jordan. Then you shall each return to his own possession, which I have given you.”",
+      "ct": "You'll keep fighting until the LORD gives your brothers the same security he's given you, and until they've taken possession of the land the LORD your God is giving them on the other side of the Jordan. Only then may each of you return to the territory I've assigned you.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And I commanded Joshua at that time, saying, Thine eyes have seen all that the LORD your God hath done unto these two kings: so shall the LORD do unto all the kingdoms whither thou passest.",
+      "web": "I commanded Joshua at that time, saying, “Your eyes have seen all that LORD your God has done to these two kings. So shall LORD do to all the kingdoms where you go over.",
+      "ct": "I also gave Joshua instructions at that time: \"You've seen with your own eyes everything the LORD your God did to these 2 kings. The LORD will do the same thing to every kingdom you encounter when you cross over."
+    },
+    {
+      "verse": 22,
+      "kjv": "Ye shall not fear them: for the LORD your God he shall fight for you.",
+      "web": "You shall not fear them; for LORD your God himself fights for you.”",
+      "ct": "Don't fear them, because the LORD your God himself is fighting for you.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And I besought the LORD at that time, saying,",
+      "web": "I begged LORD at that time, saying,",
+      "ct": "At that time, I pleaded with the LORD:"
+    },
+    {
+      "verse": 24,
+      "kjv": "O Lord GOD, thou hast begun to shew thy servant thy greatness, and thy mighty hand: for what God is there in heaven or in earth, that can do according to thy works, and according to thy might?",
+      "web": "“Lord LORD, you have begun to show your servant your greatness, and your strong hand. For what god is there in heaven or in earth that can do works like yours, and mighty acts like yours?",
+      "ct": "\"Lord GOD, you've only begun to show your servant your greatness and your mighty power. What god in heaven or on earth can match your works or your mighty acts?"
+    },
+    {
+      "verse": 25,
+      "kjv": "I pray thee, let me go over, and see the good land that is beyond Jordan, that goodly mountain, and Lebanon.",
+      "web": "Please let me go over and see the good land that is beyond the Jordan, that fine mountain, and Lebanon.”",
+      "ct": "Please, let me cross over and see the good land beyond the Jordan — those beautiful hills and Lebanon.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "But the LORD was wroth with me for your sakes, and would not hear me: and the LORD said unto me, Let it suffice thee; speak no more unto me of this matter.",
+      "web": "But LORD was angry with me because of you, and didn’t listen to me. LORD said to me, “That is enough! Speak no more to me of this matter.",
+      "ct": "But the LORD was angry with me because of you, and he refused to listen. The LORD said to me, \"Enough! Don't bring this up with me again."
+    },
+    {
+      "verse": 27,
+      "kjv": "Get thee up into the top of Pisgah, and lift up thine eyes westward, and northward, and southward, and eastward, and behold it with thine eyes: for thou shalt not go over this Jordan.",
+      "web": "Go up to the top of Pisgah, and lift up your eyes westward, and northward, and southward, and eastward, and see with your eyes; for you shall not go over this Jordan.",
+      "ct": "Climb to the top of Pisgah and look in every direction — west, north, south, and east. Take a long look, because you will never cross this Jordan."
+    },
+    {
+      "verse": 28,
+      "kjv": "But charge Joshua, and encourage him, and strengthen him: for he shall go over before this people, and he shall cause them to inherit the land which thou shalt see.",
+      "web": "But commission Joshua, and encourage him, and strengthen him; for he shall go over before this people, and he shall cause them to inherit the land which you shall see.”",
+      "ct": "Instead, commission Joshua. Encourage him and strengthen him, because he's the one who will lead this people across and help them take possession of the land you can only see from here.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "So we abode in the valley over against Bethpeor.",
+      "web": "So we stayed in the valley near Beth Peor.",
+      "ct": "So we stayed in the valley near Beth Peor."
+    }
+  ]
+}

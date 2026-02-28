@@ -1,0 +1,245 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 23,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:16:00.017Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then spake Jesus to the multitude, and to his disciples,",
+      "web": "Then Jesus spoke to the multitudes and to his disciples,",
+      "ct": "Then Jesus spoke to the crowds and to his disciples."
+    },
+    {
+      "verse": 2,
+      "kjv": "Saying, The scribes and the Pharisees sit in Moses’ seat:",
+      "web": "saying, “The scribes and the Pharisees sat on Moses’ seat.",
+      "ct": "He said, \"The scribes and the Pharisees have the authority to teach the Law of Moses."
+    },
+    {
+      "verse": 3,
+      "kjv": "All therefore whatsoever they bid you observe, that observe and do; but do not ye after their works: for they say, and do not.",
+      "web": "All things therefore whatever they tell you to observe, observe and do, but don’t do their works; for they say, and don’t do.",
+      "ct": "So obey and follow whatever they tell you. But don't follow their example, because they don't practice what they preach."
+    },
+    {
+      "verse": 4,
+      "kjv": "For they bind heavy burdens and grievous to be borne, and lay them on men’s shoulders; but they themselves will not move them with one of their fingers.",
+      "web": "For they bind heavy burdens that are grievous to be borne, and lay them on men’s shoulders; but they themselves will not lift a finger to help them.",
+      "ct": "They pile heavy, crushing burdens on people's shoulders, but they won't lift a finger to help carry the load."
+    },
+    {
+      "verse": 5,
+      "kjv": "But all their works they do for to be seen of men: they make broad their phylacteries, and enlarge the borders of their garments,",
+      "web": "But they do all their works to be seen by men. They make their phylacteries broad, enlarge the fringes of their garments,",
+      "ct": "Everything they do is for show. They wear extra-wide phylacteries and make the tassels on their garments extra long."
+    },
+    {
+      "verse": 6,
+      "kjv": "And love the uppermost rooms at feasts, and the chief seats in the synagogues,",
+      "web": "and love the place of honor at feasts, the best seats in the synagogues,",
+      "ct": "They love the seats of honor at banquets and the best seats in the synagogues."
+    },
+    {
+      "verse": 7,
+      "kjv": "And greetings in the markets, and to be called of men, Rabbi, Rabbi.",
+      "web": "the salutations in the marketplaces, and to be called ‘Rabbi, Rabbi’ by men.",
+      "ct": "They love being greeted with respect in the marketplaces and having people call them 'Rabbi, Rabbi.'"
+    },
+    {
+      "verse": 8,
+      "kjv": "But be not ye called Rabbi: for one is your Master, even Christ; and all ye are brethren.",
+      "web": "But don’t you be called ‘Rabbi,’ for one is your teacher, the Christ, and all of you are brothers.",
+      "ct": "But don't let anyone call you 'Rabbi,' because you have one Teacher — Christ — and you are all brothers and sisters."
+    },
+    {
+      "verse": 9,
+      "kjv": "And call no man your father upon the earth: for one is your Father, which is in heaven.",
+      "web": "Call no man on the earth your father, for one is your Father, he who is in heaven.",
+      "ct": "Don't call anyone on earth your father, because you have one Father, and he is in heaven."
+    },
+    {
+      "verse": 10,
+      "kjv": "Neither be ye called masters: for one is your Master, even Christ.",
+      "web": "Neither be called masters, for one is your master, the Christ.",
+      "ct": "Don't let anyone call you 'master' either, because you have one Master — Christ."
+    },
+    {
+      "verse": 11,
+      "kjv": "But he that is greatest among you shall be your servant.",
+      "web": "But he who is greatest among you will be your servant.",
+      "ct": "The greatest among you must be the one who serves the others."
+    },
+    {
+      "verse": 12,
+      "kjv": "And whosoever shall exalt himself shall be abased; and he that shall humble himself shall be exalted.",
+      "web": "Whoever exalts himself will be humbled, and whoever humbles himself will be exalted.",
+      "ct": "Whoever lifts himself up will be brought low, and whoever humbles himself will be lifted up."
+    },
+    {
+      "verse": 13,
+      "kjv": "But woe unto you, scribes and Pharisees, hypocrites! for ye shut up the kingdom of heaven against men: for ye neither go in yourselves, neither suffer ye them that are entering to go in.",
+      "web": "“Woe to you, scribes and Pharisees, hypocrites! For you devour widows’ houses, and as a pretense you make long prayers. Therefore you will receive greater condemnation.",
+      "ct": "How terrible it will be for you, scribes and Pharisees, you hypocrites! You slam the door of the kingdom of heaven in people's faces. You won't go in yourselves, and you won't let anyone else in either."
+    },
+    {
+      "verse": 14,
+      "kjv": "Woe unto you, scribes and Pharisees, hypocrites! for ye devour widows’ houses, and for a pretence make long prayer: therefore ye shall receive the greater damnation.",
+      "web": "“But woe to you, scribes and Pharisees, hypocrites! Because you shut up the Kingdom of Heaven against men; for you don’t enter in yourselves, neither do you allow those who are entering in to enter.",
+      "ct": "How terrible it will be for you, scribes and Pharisees, you hypocrites! You devour widows' homes and then cover it up with long, showy prayers. Because of this, your punishment will be even worse."
+    },
+    {
+      "verse": 15,
+      "kjv": "Woe unto you, scribes and Pharisees, hypocrites! for ye compass sea and land to make one proselyte, and when he is made, ye make him twofold more the child of hell than yourselves.",
+      "web": "Woe to you, scribes and Pharisees, hypocrites! For you travel around by sea and land to make one proselyte; and when he becomes one, you make him twice as much a son of Gehenna as yourselves.",
+      "ct": "How terrible it will be for you, scribes and Pharisees, you hypocrites! You cross land and sea to win a single convert, and when you do, you turn that person into twice the child of hell that you are."
+    },
+    {
+      "verse": 16,
+      "kjv": "Woe unto you, ye blind guides, which say, Whosoever shall swear by the temple, it is nothing; but whosoever shall swear by the gold of the temple, he is a debtor!",
+      "web": "“Woe to you, you blind guides, who say, ‘Whoever swears by the temple, it is nothing; but whoever swears by the gold of the temple, he is obligated.’",
+      "ct": "How terrible it will be for you, blind guides! You say, 'If someone swears by the temple, it means nothing. But if someone swears by the gold of the temple, that oath is binding.'"
+    },
+    {
+      "verse": 17,
+      "kjv": "Ye fools and blind: for whether is greater, the gold, or the temple that sanctifieth the gold?",
+      "web": "You blind fools! For which is greater, the gold, or the temple that sanctifies the gold?",
+      "ct": "You blind fools! Which is greater — the gold, or the temple that makes the gold sacred?"
+    },
+    {
+      "verse": 18,
+      "kjv": "And, Whosoever shall swear by the altar, it is nothing; but whosoever sweareth by the gift that is upon it, he is guilty.",
+      "web": "‘Whoever swears by the altar, it is nothing; but whoever swears by the gift that is on it, he is obligated?’",
+      "ct": "You also say, 'If someone swears by the altar, it means nothing. But if someone swears by the gift on the altar, that oath is binding.'"
+    },
+    {
+      "verse": 19,
+      "kjv": "Ye fools and blind: for whether is greater, the gift, or the altar that sanctifieth the gift?",
+      "web": "You blind fools! For which is greater, the gift, or the altar that sanctifies the gift?",
+      "ct": "You blind fools! Which is greater — the gift, or the altar that makes the gift sacred?"
+    },
+    {
+      "verse": 20,
+      "kjv": "Whoso therefore shall swear by the altar, sweareth by it, and by all things thereon.",
+      "web": "He therefore who swears by the altar, swears by it, and by everything on it.",
+      "ct": "So when someone swears by the altar, they're swearing by it and by everything on it."
+    },
+    {
+      "verse": 21,
+      "kjv": "And whoso shall swear by the temple, sweareth by it, and by him that dwelleth therein.",
+      "web": "He who swears by the temple, swears by it, and by him who has been living in it.",
+      "ct": "When someone swears by the temple, they're swearing by it and by God who lives in it."
+    },
+    {
+      "verse": 22,
+      "kjv": "And he that shall swear by heaven, sweareth by the throne of God, and by him that sitteth thereon.",
+      "web": "He who swears by heaven, swears by the throne of God, and by him who sits on it.",
+      "ct": "And when someone swears by heaven, they're swearing by God's throne and by the one who sits on it."
+    },
+    {
+      "verse": 23,
+      "kjv": "Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint and anise and cummin, and have omitted the weightier matters of the law, judgment, mercy, and faith: these ought ye to have done, and not to leave the other undone.",
+      "web": "“Woe to you, scribes and Pharisees, hypocrites! For you tithe mint, dill, and cumin, and have left undone the weightier matters of the law: justice, mercy, and faith. But you ought to have done these, and not to have left the other undone.",
+      "ct": "How terrible it will be for you, scribes and Pharisees, you hypocrites! You carefully tithe your mint, dill, and cumin, but you've neglected the things that matter most in the Law — justice, mercy, and faith. You should have practiced these without neglecting the others."
+    },
+    {
+      "verse": 24,
+      "kjv": "Ye blind guides, which strain at a gnat, and swallow a camel.",
+      "web": "You blind guides, who strain out a gnat, and swallow a camel!",
+      "ct": "You blind guides! You strain out a gnat but swallow a camel."
+    },
+    {
+      "verse": 25,
+      "kjv": "Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter, but within they are full of extortion and excess.",
+      "web": "“Woe to you, scribes and Pharisees, hypocrites! For you clean the outside of the cup and of the platter, but within they are full of extortion and unrighteousness.",
+      "ct": "How terrible it will be for you, scribes and Pharisees, you hypocrites! You polish the outside of the cup and dish, but inside they're full of greed and self-indulgence."
+    },
+    {
+      "verse": 26,
+      "kjv": "Thou blind Pharisee, cleanse first that which is within the cup and platter, that the outside of them may be clean also.",
+      "web": "You blind Pharisee, first clean the inside of the cup and of the platter, that its outside may become clean also.",
+      "ct": "Blind Pharisee! First clean the inside of the cup and dish, and then the outside will be clean too."
+    },
+    {
+      "verse": 27,
+      "kjv": "Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men’s bones, and of all uncleanness.",
+      "web": "“Woe to you, scribes and Pharisees, hypocrites! For you are like whitened tombs, which outwardly appear beautiful, but inwardly are full of dead men’s bones, and of all uncleanness.",
+      "ct": "How terrible it will be for you, scribes and Pharisees, you hypocrites! You're like whitewashed tombs — beautiful on the outside, but inside you're full of dead men's bones and everything unclean."
+    },
+    {
+      "verse": 28,
+      "kjv": "Even so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity.",
+      "web": "Even so you also outwardly appear righteous to men, but inwardly you are full of hypocrisy and iniquity.",
+      "ct": "That's exactly what you're like. On the outside you look righteous to everyone, but on the inside you're full of hypocrisy and wickedness."
+    },
+    {
+      "verse": 29,
+      "kjv": "Woe unto you, scribes and Pharisees, hypocrites! because ye build the tombs of the prophets, and garnish the sepulchres of the righteous,",
+      "web": "“Woe to you, scribes and Pharisees, hypocrites! For you build the tombs of the prophets, and decorate the tombs of the righteous,",
+      "ct": "How terrible it will be for you, scribes and Pharisees, you hypocrites! You build monuments for the prophets and decorate the tombs of the righteous,"
+    },
+    {
+      "verse": 30,
+      "kjv": "And say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets.",
+      "web": "and say, ‘If we had lived in the days of our fathers, we wouldn’t have been partakers with them in the blood of the prophets.’",
+      "ct": "and you say, 'If we had lived back in our ancestors' day, we never would have joined them in killing the prophets.'"
+    },
+    {
+      "verse": 31,
+      "kjv": "Wherefore ye be witnesses unto yourselves, that ye are the children of them which killed the prophets.",
+      "web": "Therefore you testify to yourselves that you are children of those who killed the prophets.",
+      "ct": "By saying that, you're admitting that you are the descendants of those who murdered the prophets."
+    },
+    {
+      "verse": 32,
+      "kjv": "Fill ye up then the measure of your fathers.",
+      "web": "Fill up, then, the measure of your fathers.",
+      "ct": "Go ahead then — finish what your ancestors started."
+    },
+    {
+      "verse": 33,
+      "kjv": "Ye serpents, ye generation of vipers, how can ye escape the damnation of hell?",
+      "web": "You serpents, you offspring of vipers, how will you escape the judgment of Gehenna?",
+      "ct": "You snakes! You brood of vipers! How will you escape being condemned to hell?"
+    },
+    {
+      "verse": 34,
+      "kjv": "Wherefore, behold, I send unto you prophets, and wise men, and scribes: and some of them ye shall kill and crucify; and some of them shall ye scourge in your synagogues, and persecute them from city to city:",
+      "web": "Therefore behold, I send to you prophets, wise men, and scribes. Some of them you will kill and crucify; and some of them you will scourge in your synagogues, and persecute from city to city;",
+      "ct": "Listen — I am sending you prophets, wise men, and scribes. Some of them you will kill and crucify. Others you will whip in your synagogues and chase from city to city."
+    },
+    {
+      "verse": 35,
+      "kjv": "That upon you may come all the righteous blood shed upon the earth, from the blood of righteous Abel unto the blood of Zacharias son of Barachias, whom ye slew between the temple and the altar.",
+      "web": "that on you may come all the righteous blood shed on the earth, from the blood of righteous Abel to the blood of Zachariah son of Barachiah, whom you killed between the sanctuary and the altar.",
+      "ct": "As a result, you will be held responsible for all the righteous blood ever shed on the earth, from the blood of righteous Abel to the blood of Zacharias son of Barachias, whom you murdered between the temple and the altar."
+    },
+    {
+      "verse": 36,
+      "kjv": "Verily I say unto you, All these things shall come upon this generation.",
+      "web": "Most certainly I tell you, all these things will come upon this generation.",
+      "ct": "I tell you the truth: all of this will fall on this generation."
+    },
+    {
+      "verse": 37,
+      "kjv": "O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!",
+      "web": "“Jerusalem, Jerusalem, who kills the prophets, and stones those who are sent to her! How often I would have gathered your children together, even as a hen gathers her chicks under her wings, and you would not!",
+      "ct": "\"Jerusalem, Jerusalem — you who kill the prophets and stone those sent to you! How many times I wanted to gather your children together, the way a hen gathers her chicks under her wings, but you refused!"
+    },
+    {
+      "verse": 38,
+      "kjv": "Behold, your house is left unto you desolate.",
+      "web": "Behold, your house is left to you desolate.",
+      "ct": "Look — your house is left to you abandoned and empty."
+    },
+    {
+      "verse": 39,
+      "kjv": "For I say unto you, Ye shall not see me henceforth, till ye shall say, Blessed is he that cometh in the name of the Lord.",
+      "web": "For I tell you, you will not see me from now on, until you say, ‘Blessed is he who comes in the name of the Lord!’ ”",
+      "ct": "I tell you this: you will not see me again until you say, 'Blessed is he who comes in the name of the Lord.'\""
+    }
+  ]
+}

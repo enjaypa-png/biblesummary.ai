@@ -1,0 +1,101 @@
+{
+  "book": "2-corinthians",
+  "book_name": "2 Corinthians",
+  "chapter": 9,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:53:48.184Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "For as touching the ministering to the saints, it is superfluous for me to write to you:",
+      "web": "It is indeed unnecessary for me to write to you concerning the service to the saints,",
+      "ct": "I really don't need to write to you about the collection for God's people."
+    },
+    {
+      "verse": 2,
+      "kjv": "For I know the forwardness of your mind, for which I boast of you to them of Macedonia, that Achaia was ready a year ago; and your zeal hath provoked very many.",
+      "web": "for I know your readiness, of which I boast on your behalf to those of Macedonia, that Achaia has been prepared for the past year. Your zeal has stirred up very many of them.",
+      "ct": "I already know how eager you are to help. In fact, I've been bragging about you to the believers in Macedonia, telling them that you in Achaia have been ready to give since last year. Your enthusiasm has inspired many of them to give as well."
+    },
+    {
+      "verse": 3,
+      "kjv": "Yet have I sent the brethren, lest our boasting of you should be in vain in this behalf; that, as I said, ye may be ready:",
+      "web": "But I have sent the brothers that our boasting on your behalf may not be in vain in this respect, that, just as I said, you may be prepared,",
+      "ct": "Still, I'm sending these brothers ahead so that our bragging about you won't turn out to be empty talk. I want you to actually be ready, just like I told them you would be."
+    },
+    {
+      "verse": 4,
+      "kjv": "Lest haply if they of Macedonia come with me, and find you unprepared, we (that we say not, ye) should be ashamed in this same confident boasting.",
+      "web": "lest by any means, if anyone from Macedonia comes there with me and finds you unprepared, we (to say nothing of you) would be disappointed in this confident boasting.",
+      "ct": "Otherwise, if some Macedonians come with me and find you unprepared, we would be humiliated — to say nothing of how you'd feel — after all our confident boasting."
+    },
+    {
+      "verse": 5,
+      "kjv": "Therefore I thought it necessary to exhort the brethren, that they would go before unto you, and make up beforehand your bounty, whereof ye had notice before, that the same might be ready, as a matter of bounty, and not as of covetousness.",
+      "web": "I thought it necessary therefore to entreat the brothers that they would go before to you and arrange ahead of time the generous gift that you promised before, that the same might be ready as a matter of generosity, and not of greediness.",
+      "ct": "That's why I thought it was important to ask these brothers to go ahead of me and help you finish organizing the generous gift you already promised. That way it will be ready as a true act of generosity, not something squeezed out of you at the last minute."
+    },
+    {
+      "verse": 6,
+      "kjv": "But this I say, He which soweth sparingly shall reap also sparingly; and he which soweth bountifully shall reap also bountifully.",
+      "web": "Remember this: he who sows sparingly will also reap sparingly. He who sows bountifully will also reap bountifully.",
+      "ct": "Remember this: whoever plants only a few seeds will harvest only a small crop, but whoever plants generously will harvest generously."
+    },
+    {
+      "verse": 7,
+      "kjv": "Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver.",
+      "web": "Let each man give according as he has determined in his heart, not grudgingly or under compulsion, for God loves a cheerful giver.",
+      "ct": "Each of you should give whatever you've decided in your heart to give — not reluctantly, and not because you feel pressured. God loves a cheerful giver."
+    },
+    {
+      "verse": 8,
+      "kjv": "And God is able to make all grace abound toward you; that ye, always having all sufficiency in all things, may abound to every good work:",
+      "web": "And God is able to make all grace abound to you, that you, always having all sufficiency in everything, may abound to every good work.",
+      "ct": "God is able to pour out every kind of grace on you, so that in every situation you'll always have more than enough — not just for yourselves, but to overflow into every good thing you do."
+    },
+    {
+      "verse": 9,
+      "kjv": "(As it is written, He hath dispersed abroad; he hath given to the poor: his righteousness remaineth for ever.",
+      "web": "As it is written, “He has scattered abroad. He has given to the poor. His righteousness remains forever.”",
+      "ct": "As Scripture says: \"He scattered his gifts freely; he gave to the poor. His righteousness lasts forever.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Now he that ministereth seed to the sower both minister bread for your food, and multiply your seed sown, and increase the fruits of your righteousness;)",
+      "web": "Now may he who supplies seed to the sower and bread for food, supply and multiply your seed for sowing, and increase the fruits of your righteousness,",
+      "ct": "The God who provides seed for the farmer and bread for food will also provide and multiply what you have to give, increasing the harvest that grows from your righteousness."
+    },
+    {
+      "verse": 11,
+      "kjv": "Being enriched in every thing to all bountifulness, which causeth through us thanksgiving to God.",
+      "web": "you being enriched in everything to all generosity, which produces thanksgiving to God through us.",
+      "ct": "You will be made rich in every way so that you can be generous on every occasion, and your generosity — delivered through us — will cause people to thank God."
+    },
+    {
+      "verse": 12,
+      "kjv": "For the administration of this service not only supplieth the want of the saints, but is abundant also by many thanksgivings unto God;",
+      "web": "For this service of giving that you perform not only makes up for lack among the saints, but abounds also through much giving of thanks to God,",
+      "ct": "This act of service doesn't just meet the needs of God's people. It also overflows in wave after wave of thanksgiving to God."
+    },
+    {
+      "verse": 13,
+      "kjv": "Whiles by the experiment of this ministration they glorify God for your professed subjection unto the gospel of Christ, and for your liberal distribution unto them, and unto all men;",
+      "web": "seeing that through the proof given by this service, they glorify God for the obedience of your confession to the Good News of Christ and for the generosity of your contribution to them and to all,",
+      "ct": "Through the proof of your generosity, others will praise God because you live out your commitment to the gospel of Christ and because you share so freely with them and with everyone."
+    },
+    {
+      "verse": 14,
+      "kjv": "And by their prayer for you, which long after you for the exceeding grace of God in you.",
+      "web": "while they themselves also, with supplication on your behalf, yearn for you by reason of the exceeding grace of God in you.",
+      "ct": "They will pray for you with deep affection, drawn to you because of the extraordinary grace God has given you."
+    },
+    {
+      "verse": 15,
+      "kjv": "Thanks be unto God for his unspeakable gift.",
+      "web": "Now thanks be to God for his unspeakable gift!",
+      "ct": "Thanks be to God for his gift — it's too wonderful for words!"
+    }
+  ]
+}

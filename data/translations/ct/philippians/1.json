@@ -1,0 +1,191 @@
+{
+  "book": "philippians",
+  "book_name": "Philippians",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:59:40.023Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Paul and Timotheus, the servants of Jesus Christ, to all the saints in Christ Jesus which are at Philippi, with the bishops and deacons:",
+      "web": "Paul and Timothy, servants of Jesus Christ; To all the saints in Christ Jesus who are at Philippi, with the overseers and servants:",
+      "ct": "From Paul and Timothy, servants of Jesus Christ — to all of God's people in Christ Jesus at Philippi, along with your bishops and deacons:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Grace be unto you, and peace, from God our Father, and from the Lord Jesus Christ.",
+      "web": "Grace to you, and peace from God our Father and the Lord Jesus Christ.",
+      "ct": "May grace and peace be yours from God our Father and the Lord Jesus Christ."
+    },
+    {
+      "verse": 3,
+      "kjv": "I thank my God upon every remembrance of you,",
+      "web": "I thank my God whenever I remember you,",
+      "ct": "Every time I think of you, I thank my God."
+    },
+    {
+      "verse": 4,
+      "kjv": "Always in every prayer of mine for you all making request with joy,",
+      "web": "always in every request of mine on behalf of you all, making my requests with joy,",
+      "ct": "Whenever I pray for any of you, I do it with joy,"
+    },
+    {
+      "verse": 5,
+      "kjv": "For your fellowship in the gospel from the first day until now;",
+      "web": "for your partnership in furtherance of the Good News from the first day until now;",
+      "ct": "because you've been my partners in spreading the gospel from the very first day until now."
+    },
+    {
+      "verse": 6,
+      "kjv": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:",
+      "web": "being confident of this very thing, that he who began a good work in you will complete it until the day of Jesus Christ.",
+      "ct": "I'm absolutely confident that God, who started this good work in you, will carry it through to completion by the day of Jesus Christ."
+    },
+    {
+      "verse": 7,
+      "kjv": "Even as it is meet for me to think this of you all, because I have you in my heart; inasmuch as both in my bonds, and in the defence and confirmation of the gospel, ye all are partakers of my grace.",
+      "web": "It is even right for me to think this way on behalf of all of you, because I have you in my heart, because both in my bonds and in the defense and confirmation of the Good News, you all are partakers with me of grace.",
+      "ct": "It's only right for me to feel this way about all of you, because you hold a special place in my heart. Whether I'm in chains or out defending and confirming the gospel, you've shared in God's grace right alongside me."
+    },
+    {
+      "verse": 8,
+      "kjv": "For God is my record, how greatly I long after you all in the bowels of Jesus Christ.",
+      "web": "For God is my witness, how I long after all of you in the tender mercies of Christ Jesus.",
+      "ct": "God is my witness — I long for every one of you with the deep affection of Christ Jesus himself."
+    },
+    {
+      "verse": 9,
+      "kjv": "And this I pray, that your love may abound yet more and more in knowledge and in all judgment;",
+      "web": "This I pray, that your love may abound yet more and more in knowledge and all discernment,",
+      "ct": "Here's what I pray: that your love will keep growing and growing, hand in hand with knowledge and sharp discernment,"
+    },
+    {
+      "verse": 10,
+      "kjv": "That ye may approve things that are excellent; that ye may be sincere and without offence till the day of Christ;",
+      "web": "so that you may approve the things that are excellent, that you may be sincere and without offense to the day of Christ,",
+      "ct": "so that you can recognize what truly matters and live with pure hearts, free from blame, until the day of Christ."
+    },
+    {
+      "verse": 11,
+      "kjv": "Being filled with the fruits of righteousness, which are by Jesus Christ, unto the glory and praise of God.",
+      "web": "being filled with the fruits of righteousness, which are through Jesus Christ, to the glory and praise of God.",
+      "ct": "May your lives overflow with the fruit of righteousness that comes through Jesus Christ, bringing glory and praise to God."
+    },
+    {
+      "verse": 12,
+      "kjv": "But I would ye should understand, brethren, that the things which happened unto me have fallen out rather unto the furtherance of the gospel;",
+      "web": "Now I desire to have you know, brothers, that the things which happened to me have turned out rather to the progress of the Good News,",
+      "ct": "Brothers and sisters, I want you to know that everything that's happened to me has actually helped the gospel move forward."
+    },
+    {
+      "verse": 13,
+      "kjv": "So that my bonds in Christ are manifest in all the palace, and in all other places;",
+      "web": "so that it became evident to the whole palace guard, and to all the rest, that my bonds are in Christ,",
+      "ct": "The entire palace guard — and everyone else around — now knows that I'm in chains because of Christ."
+    },
+    {
+      "verse": 14,
+      "kjv": "And many of the brethren in the Lord, waxing confident by my bonds, are much more bold to speak the word without fear.",
+      "web": "and that most of the brothers in the Lord, being confident through my bonds, are more abundantly bold to speak the word of God without fear.",
+      "ct": "On top of that, most of the believers here have grown bolder because of my imprisonment. They speak the word of God with more courage and without fear."
+    },
+    {
+      "verse": 15,
+      "kjv": "Some indeed preach Christ even of envy and strife; and some also of good will:",
+      "web": "Some indeed preach Christ even out of envy and strife, and some also out of good will.",
+      "ct": "It's true that some preach Christ out of jealousy and rivalry, but others do it with genuine goodwill."
+    },
+    {
+      "verse": 16,
+      "kjv": "The one preach Christ of contention, not sincerely, supposing to add affliction to my bonds:",
+      "web": "The former insincerely preach Christ from selfish ambition, thinking that they add affliction to my chains;",
+      "ct": "Those driven by selfish ambition preach Christ with impure motives, thinking they can pile more trouble on top of my chains."
+    },
+    {
+      "verse": 17,
+      "kjv": "But the other of love, knowing that I am set for the defence of the gospel.",
+      "web": "but the latter out of love, knowing that I am appointed for the defense of the Good News.",
+      "ct": "But the others preach out of love, knowing that God placed me here to defend the gospel."
+    },
+    {
+      "verse": 18,
+      "kjv": "What then? notwithstanding, every way, whether in pretence, or in truth, Christ is preached; and I therein do rejoice, yea, and will rejoice.",
+      "web": "What does it matter? Only that in every way, whether in pretense or in truth, Christ is proclaimed. I rejoice in this, yes, and will rejoice.",
+      "ct": "So what does it matter? Either way — whether their motives are fake or sincere — Christ is being proclaimed. That makes me glad, and I'll keep on being glad."
+    },
+    {
+      "verse": 19,
+      "kjv": "For I know that this shall turn to my salvation through your prayer, and the supply of the Spirit of Jesus Christ,",
+      "web": "For I know that this will turn out to my salvation, through your prayers and the supply of the Spirit of Jesus Christ,",
+      "ct": "I know that through your prayers and the help of the Spirit of Jesus Christ, all of this will lead to my salvation."
+    },
+    {
+      "verse": 20,
+      "kjv": "According to my earnest expectation and my hope, that in nothing I shall be ashamed, but that with all boldness, as always, so now also Christ shall be magnified in my body, whether it be by life, or by death.",
+      "web": "according to my earnest expectation and hope, that I will in no way be disappointed, but with all boldness, as always, now also Christ will be magnified in my body, whether by life or by death.",
+      "ct": "My deep hope and expectation is that I won't be put to shame in any way. Instead, with complete boldness — just as always — Christ will be honored through my body, whether I live or whether I die."
+    },
+    {
+      "verse": 21,
+      "kjv": "For to me to live is Christ, and to die is gain.",
+      "web": "For to me to live is Christ, and to die is gain.",
+      "ct": "For me, living means Christ, and dying is gain."
+    },
+    {
+      "verse": 22,
+      "kjv": "But if I live in the flesh, this is the fruit of my labour: yet what I shall choose I wot not.",
+      "web": "But if I live on in the flesh, this will bring fruit from my work; yet I don’t know what I will choose.",
+      "ct": "But if I go on living in this body, that means fruitful work for me. Honestly, I don't know which I would choose."
+    },
+    {
+      "verse": 23,
+      "kjv": "For I am in a strait betwixt two, having a desire to depart, and to be with Christ; which is far better:",
+      "web": "But I am hard pressed between the two, having the desire to depart and be with Christ, which is far better.",
+      "ct": "I'm torn between the two. Part of me longs to leave this life and be with Christ, which would be far better."
+    },
+    {
+      "verse": 24,
+      "kjv": "Nevertheless to abide in the flesh is more needful for you.",
+      "web": "Yet to remain in the flesh is more needful for your sake.",
+      "ct": "But staying alive in this body is more necessary for your sake."
+    },
+    {
+      "verse": 25,
+      "kjv": "And having this confidence, I know that I shall abide and continue with you all for your furtherance and joy of faith;",
+      "web": "Having this confidence, I know that I will remain, yes, and remain with you all for your progress and joy in the faith,",
+      "ct": "Since I'm convinced of this, I know I'll remain and continue with all of you, helping you grow and find joy in your faith."
+    },
+    {
+      "verse": 26,
+      "kjv": "That your rejoicing may be more abundant in Jesus Christ for me by my coming to you again.",
+      "web": "that your rejoicing may abound in Christ Jesus in me through my presence with you again.",
+      "ct": "That way, when I come to you again, you'll have even more reason to rejoice in Christ Jesus because of me."
+    },
+    {
+      "verse": 27,
+      "kjv": "Only let your conversation be as it becometh the gospel of Christ: that whether I come and see you, or else be absent, I may hear of your affairs, that ye stand fast in one spirit, with one mind striving together for the faith of the gospel;",
+      "web": "Only let your way of life be worthy of the Good News of Christ, that whether I come and see you or am absent, I may hear of your state, that you stand firm in one spirit, with one soul striving for the faith of the Good News;",
+      "ct": "Above all, live in a way that's worthy of the gospel of Christ. Then, whether I come and see you in person or only hear about you from a distance, I'll know that you're standing firm together in one spirit, fighting side by side for the faith of the gospel."
+    },
+    {
+      "verse": 28,
+      "kjv": "And in nothing terrified by your adversaries: which is to them an evident token of perdition, but to you of salvation, and that of God.",
+      "web": "and in nothing frightened by the adversaries, which is for them a proof of destruction, but to you of salvation, and that from God.",
+      "ct": "Don't be intimidated in any way by those who oppose you. Your courage is a clear sign to them that they're headed for destruction — but for you, it's a sign of salvation, and that comes from God."
+    },
+    {
+      "verse": 29,
+      "kjv": "For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake;",
+      "web": "Because it has been granted to you on behalf of Christ, not only to believe in him, but also to suffer on his behalf,",
+      "ct": "God has given you the privilege not only of believing in Christ, but also of suffering for his sake."
+    },
+    {
+      "verse": 30,
+      "kjv": "Having the same conflict which ye saw in me, and now hear to be in me.",
+      "web": "having the same conflict which you saw in me and now hear is in me.",
+      "ct": "You're going through the same struggle you once watched me face — and that you hear I'm still facing now."
+    }
+  ]
+}

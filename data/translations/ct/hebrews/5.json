@@ -1,0 +1,95 @@
+{
+  "book": "hebrews",
+  "book_name": "Hebrews",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:08:58.852Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "For every high priest taken from among men is ordained for men in things pertaining to God, that he may offer both gifts and sacrifices for sins:",
+      "web": "For every high priest, being taken from among men, is appointed for men in things pertaining to God, that he may offer both gifts and sacrifices for sins.",
+      "ct": "Every high priest is chosen from among ordinary people and appointed to represent them before God. His job is to offer gifts and sacrifices for sins."
+    },
+    {
+      "verse": 2,
+      "kjv": "Who can have compassion on the ignorant, and on them that are out of the way; for that he himself also is compassed with infirmity.",
+      "web": "The high priest can deal gently with those who are ignorant and going astray, because he himself is also surrounded with weakness.",
+      "ct": "He's able to deal gently with those who are ignorant or have wandered off course, because he himself struggles with weakness."
+    },
+    {
+      "verse": 3,
+      "kjv": "And by reason hereof he ought, as for the people, so also for himself, to offer for sins.",
+      "web": "Because of this, he must offer sacrifices for sins for the people, as well as for himself.",
+      "ct": "Because of this, he has to offer sacrifices for his own sins, not just for the sins of the people."
+    },
+    {
+      "verse": 4,
+      "kjv": "And no man taketh this honour unto himself, but he that is called of God, as was Aaron.",
+      "web": "Nobody takes this honor on himself, but he is called by God, just like Aaron was.",
+      "ct": "No one takes this honor for himself — he must be called by God, just as Aaron was."
+    },
+    {
+      "verse": 5,
+      "kjv": "So also Christ glorified not himself to be made an high priest; but he that said unto him, Thou art my Son, to day have I begotten thee.",
+      "web": "So also Christ didn’t glorify himself to be made a high priest, but it was he who said to him, “You are my Son. Today I have become your father.”",
+      "ct": "In the same way, Christ didn't promote himself to the position of high priest. Instead, God said to him, \"You are my Son. Today I have become your Father.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "As he saith also in another place, Thou art a priest for ever after the order of Melchisedec.",
+      "web": "As he says also in another place, “You are a priest forever, after the order of Melchizedek.”",
+      "ct": "And in another passage God says, \"You are a priest forever, after the order of Melchisedec.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Who in the days of his flesh, when he had offered up prayers and supplications with strong crying and tears unto him that was able to save him from death, and was heard in that he feared;",
+      "web": "He, in the days of his flesh, having offered up prayers and petitions with strong crying and tears to him who was able to save him from death, and having been heard for his godly fear,",
+      "ct": "During his time on earth, Jesus poured out prayers and desperate pleas with loud cries and tears to the one who could save him from death. And God heard him because of his reverent surrender."
+    },
+    {
+      "verse": 8,
+      "kjv": "Though he were a Son, yet learned he obedience by the things which he suffered;",
+      "web": "though he was a Son, yet learned obedience by the things which he suffered.",
+      "ct": "Even though he was God's Son, he learned obedience through what he suffered."
+    },
+    {
+      "verse": 9,
+      "kjv": "And being made perfect, he became the author of eternal salvation unto all them that obey him;",
+      "web": "Having been made perfect, he became to all of those who obey him the author of eternal salvation,",
+      "ct": "Once he had been made perfect through that process, he became the source of eternal salvation for everyone who obeys him."
+    },
+    {
+      "verse": 10,
+      "kjv": "Called of God an high priest after the order of Melchisedec.",
+      "web": "named by God a high priest after the order of Melchizedek.",
+      "ct": "God designated him a high priest after the order of Melchisedec."
+    },
+    {
+      "verse": 11,
+      "kjv": "Of whom we have many things to say, and hard to be uttered, seeing ye are dull of hearing.",
+      "web": "About him we have many words to say, and hard to interpret, seeing you have become dull of hearing.",
+      "ct": "There's so much more we could say about this, but it's hard to explain because you've become slow to understand."
+    },
+    {
+      "verse": 12,
+      "kjv": "For when for the time ye ought to be teachers, ye have need that one teach you again which be the first principles of the oracles of God; and are become such as have need of milk, and not of strong meat.",
+      "web": "For although by this time you should be teachers, you again need to have someone teach you the rudiments of the first principles of the revelations of God. You have come to need milk, and not solid food.",
+      "ct": "By now you should be teachers yourselves, but instead you need someone to go back and teach you the basics of God's word all over again. You've gone back to needing milk instead of solid food."
+    },
+    {
+      "verse": 13,
+      "kjv": "For every one that useth milk is unskilful in the word of righteousness: for he is a babe.",
+      "web": "For everyone who lives on milk is not experienced in the word of righteousness, for he is a baby.",
+      "ct": "Anyone who still lives on milk is inexperienced in the teaching about righteousness — they're still an infant."
+    },
+    {
+      "verse": 14,
+      "kjv": "But strong meat belongeth to them that are of full age, even those who by reason of use have their senses exercised to discern both good and evil.",
+      "web": "But solid food is for those who are full grown, who by reason of use have their senses exercised to discern good and evil.",
+      "ct": "Solid food is for the mature — for those who have trained themselves through practice to tell the difference between good and evil."
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "book": "1-corinthians",
+  "book_name": "1 Corinthians",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:48:45.665Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Moreover, brethren, I would not that ye should be ignorant, how that all our fathers were under the cloud, and all passed through the sea;",
+      "web": "Now I would not have you ignorant, brothers, that our fathers were all under the cloud, and all passed through the sea;",
+      "ct": "Brothers and sisters, I don't want you to forget what happened to our ancestors. They were all guided by the cloud, and they all passed through the sea."
+    },
+    {
+      "verse": 2,
+      "kjv": "And were all baptized unto Moses in the cloud and in the sea;",
+      "web": "and were all baptized into Moses in the cloud and in the sea;",
+      "ct": "They were all baptized into Moses in the cloud and in the sea."
+    },
+    {
+      "verse": 3,
+      "kjv": "And did all eat the same spiritual meat;",
+      "web": "and all ate the same spiritual food;",
+      "ct": "They all ate the same spiritual food,"
+    },
+    {
+      "verse": 4,
+      "kjv": "And did all drink the same spiritual drink: for they drank of that spiritual Rock that followed them: and that Rock was Christ.",
+      "web": "and all drank the same spiritual drink. For they drank of a spiritual rock that followed them, and the rock was Christ.",
+      "ct": "and they all drank the same spiritual drink. They drank from a spiritual rock that traveled with them — and that rock was Christ."
+    },
+    {
+      "verse": 5,
+      "kjv": "But with many of them God was not well pleased: for they were overthrown in the wilderness.",
+      "web": "However with most of them, God was not well pleased, for they were overthrown in the wilderness.",
+      "ct": "Yet God was not pleased with most of them, and their bodies were scattered across the wilderness."
+    },
+    {
+      "verse": 6,
+      "kjv": "Now these things were our examples, to the intent we should not lust after evil things, as they also lusted.",
+      "web": "Now these things were our examples, to the intent we should not lust after evil things, as they also lusted.",
+      "ct": "These events serve as warnings for us, so that we won't crave evil things the way they did."
+    },
+    {
+      "verse": 7,
+      "kjv": "Neither be ye idolaters, as were some of them; as it is written, The people sat down to eat and drink, and rose up to play.",
+      "web": "Don’t be idolaters, as some of them were. As it is written, “The people sat down to eat and drink, and rose up to play.”",
+      "ct": "Don't become idolaters like some of them were. As Scripture says, \"The people sat down to eat and drink, and rose up to play.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Neither let us commit fornication, as some of them committed, and fell in one day three and twenty thousand.",
+      "web": "Let’s not commit sexual immorality, as some of them committed, and in one day twenty-three thousand fell.",
+      "ct": "We must not commit sexual immorality, as some of them did — and 23,000 of them died in a single day."
+    },
+    {
+      "verse": 9,
+      "kjv": "Neither let us tempt Christ, as some of them also tempted, and were destroyed of serpents.",
+      "web": "Let’s not test Christ, as some of them tested, and perished by the serpents.",
+      "ct": "We must not test Christ, as some of them did — and they were killed by serpents."
+    },
+    {
+      "verse": 10,
+      "kjv": "Neither murmur ye, as some of them also murmured, and were destroyed of the destroyer.",
+      "web": "Don’t grumble, as some of them also grumbled, and perished by the destroyer.",
+      "ct": "Don't grumble, as some of them did — and they were destroyed by the destroyer."
+    },
+    {
+      "verse": 11,
+      "kjv": "Now all these things happened unto them for ensamples: and they are written for our admonition, upon whom the ends of the world are come.",
+      "web": "Now all these things happened to them by way of example, and they were written for our admonition, on whom the ends of the ages have come.",
+      "ct": "All of these things happened to them as examples, and they were written down as warnings for us — the people living at the end of the ages."
+    },
+    {
+      "verse": 12,
+      "kjv": "Wherefore let him that thinketh he standeth take heed lest he fall.",
+      "web": "Therefore let him who thinks he stands be careful that he doesn’t fall.",
+      "ct": "So if you think you're standing firm, be careful that you don't fall."
+    },
+    {
+      "verse": 13,
+      "kjv": "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.",
+      "web": "No temptation has taken you except what is common to man. God is faithful, who will not allow you to be tempted above what you are able, but will with the temptation also make the way of escape, that you may be able to endure it.",
+      "ct": "Every temptation you face is something others have faced too. But God is faithful — he won't let you be tempted beyond what you can handle. Along with every temptation, he will provide a way out so you can endure it."
+    },
+    {
+      "verse": 14,
+      "kjv": "Wherefore, my dearly beloved, flee from idolatry.",
+      "web": "Therefore, my beloved, flee from idolatry.",
+      "ct": "So then, my dear friends, run from idolatry."
+    },
+    {
+      "verse": 15,
+      "kjv": "I speak as to wise men; judge ye what I say.",
+      "web": "I speak as to wise men. Judge what I say.",
+      "ct": "I'm speaking to you as thoughtful people. Weigh what I'm saying for yourselves."
+    },
+    {
+      "verse": 16,
+      "kjv": "The cup of blessing which we bless, is it not the communion of the blood of Christ? The bread which we break, is it not the communion of the body of Christ?",
+      "web": "The cup of blessing which we bless, isn’t it a sharing of the blood of Christ? The bread which we break, isn’t it a sharing of the body of Christ?",
+      "ct": "When we bless the cup of blessing, isn't that a sharing in the blood of Christ? When we break the bread, isn't that a sharing in the body of Christ?"
+    },
+    {
+      "verse": 17,
+      "kjv": "For we being many are one bread, and one body: for we are all partakers of that one bread.",
+      "web": "Because there is one loaf of bread, we, who are many, are one body; for we all partake of the one loaf of bread.",
+      "ct": "Because there is one loaf, we who are many form one body, since we all share that one loaf."
+    },
+    {
+      "verse": 18,
+      "kjv": "Behold Israel after the flesh: are not they which eat of the sacrifices partakers of the altar?",
+      "web": "Consider Israel according to the flesh. Don’t those who eat the sacrifices participate in the altar?",
+      "ct": "Think about the people of Israel. Don't those who eat the sacrifices become participants in what happens at the altar?"
+    },
+    {
+      "verse": 19,
+      "kjv": "What say I then? that the idol is any thing, or that which is offered in sacrifice to idols is any thing?",
+      "web": "What am I saying then? That a thing sacrificed to idols is anything, or that an idol is anything?",
+      "ct": "So what am I saying? That an idol is real? Or that food sacrificed to an idol has some special power?"
+    },
+    {
+      "verse": 20,
+      "kjv": "But I say, that the things which the Gentiles sacrifice, they sacrifice to devils, and not to God: and I would not that ye should have fellowship with devils.",
+      "web": "But I say that the things which the Gentiles sacrifice, they sacrifice to demons, and not to God, and I don’t desire that you would have fellowship with demons.",
+      "ct": "Not at all. What I'm saying is that when the Gentiles offer sacrifices, they're sacrificing to demons, not to God. And I don't want you to have any partnership with demons."
+    },
+    {
+      "verse": 21,
+      "kjv": "Ye cannot drink the cup of the Lord, and the cup of devils: ye cannot be partakers of the Lord’s table, and of the table of devils.",
+      "web": "You can’t both drink the cup of the Lord and the cup of demons. You can’t both partake of the table of the Lord and of the table of demons.",
+      "ct": "You can't drink the cup of the Lord and the cup of demons too. You can't eat at the Lord's table and at the table of demons."
+    },
+    {
+      "verse": 22,
+      "kjv": "Do we provoke the Lord to jealousy? are we stronger than he?",
+      "web": "Or do we provoke the Lord to jealousy? Are we stronger than he?",
+      "ct": "Are we trying to provoke the Lord to jealousy? Do we think we're stronger than he is?"
+    },
+    {
+      "verse": 23,
+      "kjv": "All things are lawful for me, but all things are not expedient: all things are lawful for me, but all things edify not.",
+      "web": "“All things are lawful for me,” but not all things are profitable. “All things are lawful for me,” but not all things build up.",
+      "ct": "\"Everything is permissible\" — but not everything is beneficial. \"Everything is permissible\" — but not everything builds others up."
+    },
+    {
+      "verse": 24,
+      "kjv": "Let no man seek his own, but every man another’s wealth.",
+      "web": "Let no one seek his own, but each one his neighbor’s good.",
+      "ct": "Nobody should look out only for themselves. Instead, look out for the good of others."
+    },
+    {
+      "verse": 25,
+      "kjv": "Whatsoever is sold in the shambles, that eat, asking no question for conscience sake:",
+      "web": "Whatever is sold in the butcher shop, eat, asking no question for the sake of conscience,",
+      "ct": "Eat whatever is sold at the meat market without raising questions about it for the sake of conscience,"
+    },
+    {
+      "verse": 26,
+      "kjv": "For the earth is the Lord’s, and the fulness thereof.",
+      "web": "for “the earth is the Lord’s, and its fullness.”",
+      "ct": "because \"the earth is the Lord's, and everything in it.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "If any of them that believe not bid you to a feast, and ye be disposed to go; whatsoever is set before you, eat, asking no question for conscience sake.",
+      "web": "But if one of those who don’t believe invites you to a meal, and you are inclined to go, eat whatever is set before you, asking no questions for the sake of conscience.",
+      "ct": "If an unbeliever invites you to a meal and you decide to go, eat whatever is put in front of you without raising questions for the sake of conscience."
+    },
+    {
+      "verse": 28,
+      "kjv": "But if any man say unto you, This is offered in sacrifice unto idols, eat not for his sake that shewed it, and for conscience sake: for the earth is the Lord’s, and the fulness thereof:",
+      "web": "But if anyone says to you, “This was offered to idols,” don’t eat it for the sake of the one who told you, and for the sake of conscience. For “the earth is the Lord’s, with all its fullness.”",
+      "ct": "But if someone tells you, \"This meat was offered to idols,\" then don't eat it — for the sake of the person who told you and for the sake of conscience. For \"the earth is the Lord's, and everything in it.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "Conscience, I say, not thine own, but of the other: for why is my liberty judged of another man’s conscience?",
+      "web": "Conscience, I say, not your own, but the other’s conscience. For why is my liberty judged by another conscience?",
+      "ct": "I'm talking about the other person's conscience, not yours. After all, why should my freedom be restricted by someone else's conscience?"
+    },
+    {
+      "verse": 30,
+      "kjv": "For if I by grace be a partaker, why am I evil spoken of for that for which I give thanks?",
+      "web": "If I partake with thankfulness, why am I denounced for something I give thanks for?",
+      "ct": "If I eat with a thankful heart, why should I be criticized for something I'm giving thanks for?"
+    },
+    {
+      "verse": 31,
+      "kjv": "Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God.",
+      "web": "Whether therefore you eat, or drink, or whatever you do, do all to the glory of God.",
+      "ct": "So whether you eat or drink or whatever you do, do it all for the glory of God."
+    },
+    {
+      "verse": 32,
+      "kjv": "Give none offence, neither to the Jews, nor to the Gentiles, nor to the church of God:",
+      "web": "Give no occasion for stumbling, whether to Jews, or to Greeks, or to the assembly of God;",
+      "ct": "Don't cause anyone to stumble — not Jews, not Greeks, and not the church of God."
+    },
+    {
+      "verse": 33,
+      "kjv": "Even as I please all men in all things, not seeking mine own profit, but the profit of many, that they may be saved.",
+      "web": "even as I also please all men in all things, not seeking my own profit, but the profit of the many, that they may be saved.",
+      "ct": "That's what I try to do. I aim to please everyone in everything, not looking out for my own benefit but for the benefit of many, so that they may be saved."
+    }
+  ]
+}

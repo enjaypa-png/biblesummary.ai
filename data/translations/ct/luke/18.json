@@ -1,0 +1,269 @@
+{
+  "book": "luke",
+  "book_name": "Luke",
+  "chapter": 18,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T14:00:41.416Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And he spake a parable unto them to this end, that men ought always to pray, and not to faint;",
+      "web": "He also spoke a parable to them that they must always pray, and not give up,",
+      "ct": "Jesus told his disciples a parable to show them that they should always pray and never give up."
+    },
+    {
+      "verse": 2,
+      "kjv": "Saying, There was in a city a judge, which feared not God, neither regarded man:",
+      "web": "saying, “There was a judge in a certain city who didn’t fear God, and didn’t respect man.",
+      "ct": "He said, \"There was a judge in a certain city who didn't fear God and didn't care what anyone thought of him."
+    },
+    {
+      "verse": 3,
+      "kjv": "And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary.",
+      "web": "A widow was in that city, and she often came to him, saying, ‘Defend me from my adversary!’",
+      "ct": "A widow in that city kept coming to him, pleading, 'Give me justice against the person who has wronged me!'"
+    },
+    {
+      "verse": 4,
+      "kjv": "And he would not for a while: but afterward he said within himself, Though I fear not God, nor regard man;",
+      "web": "He wouldn’t for a while, but afterward he said to himself, ‘Though I neither fear God, nor respect man,",
+      "ct": "For a long time the judge refused. But eventually he said to himself, 'I don't fear God, and I don't care about people's opinions."
+    },
+    {
+      "verse": 5,
+      "kjv": "Yet because this widow troubleth me, I will avenge her, lest by her continual coming she weary me.",
+      "web": "yet because this widow bothers me, I will defend her, or else she will wear me out by her continual coming.’ ”",
+      "ct": "But this widow keeps bothering me. I'm going to give her justice, or she'll wear me out with her constant visits.'\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And the Lord said, Hear what the unjust judge saith.",
+      "web": "The Lord said, “Listen to what the unrighteous judge says.",
+      "ct": "Then the Lord said, \"Pay attention to what this corrupt judge said."
+    },
+    {
+      "verse": 7,
+      "kjv": "And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them?",
+      "web": "Won’t God avenge his chosen ones who are crying out to him day and night, and yet he exercises patience with them?",
+      "ct": "Won't God bring justice for his chosen people who cry out to him day and night? Will he keep putting them off?"
+    },
+    {
+      "verse": 8,
+      "kjv": "I tell you that he will avenge them speedily. Nevertheless when the Son of man cometh, shall he find faith on the earth?",
+      "web": "I tell you that he will avenge them quickly. Nevertheless, when the Son of Man comes, will he find faith on the earth?”",
+      "ct": "I tell you, he will bring them justice quickly. But when the Son of Man comes, will he find faith on the earth?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And he spake this parable unto certain which trusted in themselves that they were righteous, and despised others:",
+      "web": "He spoke also this parable to certain people who were convinced of their own righteousness, and who despised all others.",
+      "ct": "Jesus also told this parable to some people who were confident in their own righteousness and looked down on everyone else."
+    },
+    {
+      "verse": 10,
+      "kjv": "Two men went up into the temple to pray; the one a Pharisee, and the other a publican.",
+      "web": "“Two men went up into the temple to pray; one was a Pharisee, and the other was a tax collector.",
+      "ct": "\"Two men went up to the temple to pray. One was a Pharisee, and the other was a tax collector."
+    },
+    {
+      "verse": 11,
+      "kjv": "The Pharisee stood and prayed thus with himself, God, I thank thee, that I am not as other men are, extortioners, unjust, adulterers, or even as this publican.",
+      "web": "The Pharisee stood and prayed to himself like this: ‘God, I thank you that I am not like the rest of men, extortionists, unrighteous, adulterers, or even like this tax collector.",
+      "ct": "The Pharisee stood by himself and prayed, 'God, I thank you that I'm not like other people — cheaters, sinners, adulterers — or even like this tax collector."
+    },
+    {
+      "verse": 12,
+      "kjv": "I fast twice in the week, I give tithes of all that I possess.",
+      "web": "I fast twice a week. I give tithes of all that I get.’",
+      "ct": "I fast twice a week, and I give a tenth of everything I earn.'"
+    },
+    {
+      "verse": 13,
+      "kjv": "And the publican, standing afar off, would not lift up so much as his eyes unto heaven, but smote upon his breast, saying, God be merciful to me a sinner.",
+      "web": "But the tax collector, standing far away, wouldn’t even lift up his eyes to heaven, but beat his breast, saying, ‘God, be merciful to me, a sinner!’",
+      "ct": "But the tax collector stood at a distance. He wouldn't even look up toward heaven. Instead, he beat his chest and said, 'God, have mercy on me, a sinner.'"
+    },
+    {
+      "verse": 14,
+      "kjv": "I tell you, this man went down to his house justified rather than the other: for every one that exalteth himself shall be abased; and he that humbleth himself shall be exalted.",
+      "web": "I tell you, this man went down to his house justified rather than the other; for everyone who exalts himself will be humbled, but he who humbles himself will be exalted.”",
+      "ct": "I tell you, this man — not the Pharisee — went home right with God. Because everyone who lifts himself up will be brought low, and everyone who humbles himself will be lifted up.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And they brought unto him also infants, that he would touch them: but when his disciples saw it, they rebuked them.",
+      "web": "They were also bringing their babies to him, that he might touch them. But when the disciples saw it, they rebuked them.",
+      "ct": "People were bringing their babies to Jesus so he could touch them. When the disciples saw this, they told the people to stop."
+    },
+    {
+      "verse": 16,
+      "kjv": "But Jesus called them unto him, and said, Suffer little children to come unto me, and forbid them not: for of such is the kingdom of God.",
+      "web": "Jesus summoned them, saying, “Allow the little children to come to me, and don’t hinder them, for God’s Kingdom belongs to such as these.",
+      "ct": "But Jesus called the children over and said, \"Let the little children come to me. Don't stop them, because the kingdom of God belongs to people like these."
+    },
+    {
+      "verse": 17,
+      "kjv": "Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child shall in no wise enter therein.",
+      "web": "Most certainly, I tell you, whoever doesn’t receive God’s Kingdom like a little child, he will in no way enter into it.”",
+      "ct": "I tell you the truth: anyone who doesn't receive the kingdom of God like a little child will never enter it.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And a certain ruler asked him, saying, Good Master, what shall I do to inherit eternal life?",
+      "web": "A certain ruler asked him, saying, “Good Teacher, what shall I do to inherit eternal life?”",
+      "ct": "One of the Jewish leaders asked him, \"Good Teacher, what must I do to inherit eternal life?\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And Jesus said unto him, Why callest thou me good? none is good, save one, that is, God.",
+      "web": "Jesus asked him, “Why do you call me good? No one is good, except one: God.",
+      "ct": "Jesus replied, \"Why do you call me good? No one is good except God alone."
+    },
+    {
+      "verse": 20,
+      "kjv": "Thou knowest the commandments, Do not commit adultery, Do not kill, Do not steal, Do not bear false witness, Honour thy father and thy mother.",
+      "web": "You know the commandments: ‘Don’t commit adultery,’ ‘Don’t murder,’ ‘Don’t steal,’ ‘Don’t give false testimony,’ ‘Honor your father and your mother.’ ”",
+      "ct": "You know the commandments: 'Don't commit adultery,' 'Don't murder,' 'Don't steal,' 'Don't give false testimony,' 'Honor your father and mother.'\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And he said, All these have I kept from my youth up.",
+      "web": "He said, “I have observed all these things from my youth up.”",
+      "ct": "The man said, \"I've kept all of these since I was young.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Now when Jesus heard these things, he said unto him, Yet lackest thou one thing: sell all that thou hast, and distribute unto the poor, and thou shalt have treasure in heaven: and come, follow me.",
+      "web": "When Jesus heard these things, he said to him, “You still lack one thing. Sell all that you have, and distribute it to the poor. Then you will have treasure in heaven; then come, follow me.”",
+      "ct": "When Jesus heard this, he told him, \"There's still one thing you're missing. Sell everything you own and give the money to the poor. You'll have treasure in heaven. Then come and follow me.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And when he heard this, he was very sorrowful: for he was very rich.",
+      "web": "But when he heard these things, he became very sad, for he was very rich.",
+      "ct": "When the man heard this, he became deeply sad, because he was extremely wealthy."
+    },
+    {
+      "verse": 24,
+      "kjv": "And when Jesus saw that he was very sorrowful, he said, How hardly shall they that have riches enter into the kingdom of God!",
+      "web": "Jesus, seeing that he became very sad, said, “How hard it is for those who have riches to enter into God’s Kingdom!",
+      "ct": "Jesus saw how sad he was and said, \"How hard it is for rich people to enter the kingdom of God!"
+    },
+    {
+      "verse": 25,
+      "kjv": "For it is easier for a camel to go through a needle’s eye, than for a rich man to enter into the kingdom of God.",
+      "web": "For it is easier for a camel to enter in through a needle’s eye than for a rich man to enter into God’s Kingdom.”",
+      "ct": "It's easier for a camel to squeeze through the eye of a needle than for a rich person to enter the kingdom of God.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And they that heard it said, Who then can be saved?",
+      "web": "Those who heard it said, “Then who can be saved?”",
+      "ct": "The people who heard this asked, \"Then who can possibly be saved?\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And he said, The things which are impossible with men are possible with God.",
+      "web": "But he said, “The things which are impossible with men are possible with God.”",
+      "ct": "Jesus answered, \"What is impossible for people is possible with God.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "Then Peter said, Lo, we have left all, and followed thee.",
+      "web": "Peter said, “Look, we have left everything and followed you.”",
+      "ct": "Peter spoke up and said, \"We've left everything behind to follow you.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And he said unto them, Verily I say unto you, There is no man that hath left house, or parents, or brethren, or wife, or children, for the kingdom of God’s sake,",
+      "web": "He said to them, “Most certainly I tell you, there is no one who has left house, or wife, or brothers, or parents, or children, for God’s Kingdom’s sake,",
+      "ct": "Jesus told them, \"I tell you the truth: anyone who has left home, wife, brothers, parents, or children for the sake of the kingdom of God"
+    },
+    {
+      "verse": 30,
+      "kjv": "Who shall not receive manifold more in this present time, and in the world to come life everlasting.",
+      "web": "who will not receive many times more in this time, and in the world to come, eternal life.”",
+      "ct": "will receive many times more in this life, and in the age to come, eternal life.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "Then he took unto him the twelve, and said unto them, Behold, we go up to Jerusalem, and all things that are written by the prophets concerning the Son of man shall be accomplished.",
+      "web": "He took the twelve aside, and said to them, “Behold, we are going up to Jerusalem, and all the things that are written through the prophets concerning the Son of Man will be completed.",
+      "ct": "Jesus pulled the 12 disciples aside and told them, \"Listen — we're going up to Jerusalem, and everything the prophets wrote about the Son of Man is about to come true."
+    },
+    {
+      "verse": 32,
+      "kjv": "For he shall be delivered unto the Gentiles, and shall be mocked, and spitefully entreated, and spitted on:",
+      "web": "For he will be delivered up to the Gentiles, will be mocked, treated shamefully, and spit on.",
+      "ct": "He will be handed over to the Gentiles. They will mock him, insult him, and spit on him."
+    },
+    {
+      "verse": 33,
+      "kjv": "And they shall scourge him, and put him to death: and the third day he shall rise again.",
+      "web": "They will scourge and kill him. On the third day, he will rise again.”",
+      "ct": "They will whip him and kill him. But on the 3rd day, he will rise again.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And they understood none of these things: and this saying was hid from them, neither knew they the things which were spoken.",
+      "web": "They understood none of these things. This saying was hidden from them, and they didn’t understand the things that were said.",
+      "ct": "The disciples didn't understand any of this. The meaning was hidden from them, and they couldn't grasp what he was talking about."
+    },
+    {
+      "verse": 35,
+      "kjv": "And it came to pass, that as he was come nigh unto Jericho, a certain blind man sat by the way side begging:",
+      "web": "As he came near Jericho, a certain blind man sat by the road, begging.",
+      "ct": "As Jesus approached Jericho, a blind man was sitting beside the road, begging."
+    },
+    {
+      "verse": 36,
+      "kjv": "And hearing the multitude pass by, he asked what it meant.",
+      "web": "Hearing a multitude going by, he asked what this meant.",
+      "ct": "When the blind man heard a crowd passing by, he asked what was going on."
+    },
+    {
+      "verse": 37,
+      "kjv": "And they told him, that Jesus of Nazareth passeth by.",
+      "web": "They told him that Jesus of Nazareth was passing by.",
+      "ct": "They told him, \"Jesus of Nazareth is coming through.\""
+    },
+    {
+      "verse": 38,
+      "kjv": "And he cried, saying, Jesus, thou son of David, have mercy on me.",
+      "web": "He cried out, “Jesus, you son of David, have mercy on me!”",
+      "ct": "He shouted, \"Jesus, Son of David, have mercy on me!\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And they which went before rebuked him, that he should hold his peace: but he cried so much the more, Thou son of David, have mercy on me.",
+      "web": "Those who led the way rebuked him, that he should be quiet; but he cried out all the more, “You son of David, have mercy on me!”",
+      "ct": "The people at the front of the crowd told him to be quiet, but he shouted even louder, \"Son of David, have mercy on me!\""
+    },
+    {
+      "verse": 40,
+      "kjv": "And Jesus stood, and commanded him to be brought unto him: and when he was come near, he asked him,",
+      "web": "Standing still, Jesus commanded him to be brought to him. When he had come near, he asked him,",
+      "ct": "Jesus stopped and ordered the man to be brought to him. When the man came close, Jesus asked him,"
+    },
+    {
+      "verse": 41,
+      "kjv": "Saying, What wilt thou that I shall do unto thee? And he said, Lord, that I may receive my sight.",
+      "web": "“What do you want me to do?” He said, “Lord, that I may see again.”",
+      "ct": "\"What do you want me to do for you?\" He answered, \"Lord, I want to see again.\""
+    },
+    {
+      "verse": 42,
+      "kjv": "And Jesus said unto him, Receive thy sight: thy faith hath saved thee.",
+      "web": "Jesus said to him, “Receive your sight. Your faith has healed you.”",
+      "ct": "Jesus said to him, \"Receive your sight. Your faith has healed you.\""
+    },
+    {
+      "verse": 43,
+      "kjv": "And immediately he received his sight, and followed him, glorifying God: and all the people, when they saw it, gave praise unto God.",
+      "web": "Immediately he received his sight and followed him, glorifying God. All the people, when they saw it, praised God.",
+      "ct": "Instantly the man could see. He followed Jesus, praising God. And when all the people saw what happened, they praised God too."
+    }
+  ]
+}

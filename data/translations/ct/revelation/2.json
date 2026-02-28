@@ -1,0 +1,185 @@
+{
+  "book": "revelation",
+  "book_name": "Revelation",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:18:41.836Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Unto the angel of the church of Ephesus write; These things saith he that holdeth the seven stars in his right hand, who walketh in the midst of the seven golden candlesticks;",
+      "web": "“To the angel of the assembly in Ephesus write: “He who holds the seven stars in his right hand, he who walks among the seven golden lamp stands says these things:",
+      "ct": "Write this to the angel of the church in Ephesus: These are the words of the one who holds the 7 stars in his right hand and walks among the 7 golden lampstands:"
+    },
+    {
+      "verse": 2,
+      "kjv": "I know thy works, and thy labour, and thy patience, and how thou canst not bear them which are evil: and thou hast tried them which say they are apostles, and are not, and hast found them liars:",
+      "web": "“I know your works, and your toil and perseverance, and that you can’t tolerate evil men, and have tested those who call themselves apostles, and they are not, and found them false.",
+      "ct": "\"I know everything you've done — your hard work, your endurance, and how you refuse to tolerate evil people. You've tested those who claim to be apostles but aren't, and you exposed them as liars."
+    },
+    {
+      "verse": 3,
+      "kjv": "And hast borne, and hast patience, and for my name’s sake hast laboured, and hast not fainted.",
+      "web": "You have perseverance and have endured for my name’s sake, and have not grown weary.",
+      "ct": "You have endured hardship and suffered for my name without giving up."
+    },
+    {
+      "verse": 4,
+      "kjv": "Nevertheless I have somewhat against thee, because thou hast left thy first love.",
+      "web": "But I have this against you, that you left your first love.",
+      "ct": "But I have this against you: you've abandoned the love you had at first."
+    },
+    {
+      "verse": 5,
+      "kjv": "Remember therefore from whence thou art fallen, and repent, and do the first works; or else I will come unto thee quickly, and will remove thy candlestick out of his place, except thou repent.",
+      "web": "Remember therefore from where you have fallen, and repent and do the first works; or else I am coming to you swiftly, and will move your lamp stand out of its place, unless you repent.",
+      "ct": "Think about how far you've fallen. Repent and go back to doing what you did at the beginning. If you don't repent, I will come quickly and remove your lampstand from its place."
+    },
+    {
+      "verse": 6,
+      "kjv": "But this thou hast, that thou hatest the deeds of the Nicolaitanes, which I also hate.",
+      "web": "But this you have, that you hate the works of the Nicolaitans, which I also hate.",
+      "ct": "But you do have this in your favor: you hate the practices of the Nicolaitans, which I also hate."
+    },
+    {
+      "verse": 7,
+      "kjv": "He that hath an ear, let him hear what the Spirit saith unto the churches; To him that overcometh will I give to eat of the tree of life, which is in the midst of the paradise of God.",
+      "web": "He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes I will give to eat from the tree of life, which is in the Paradise of my God.",
+      "ct": "If you have ears, listen to what the Spirit says to the churches. To everyone who overcomes, I will give the right to eat from the tree of life, which stands in the paradise of God.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And unto the angel of the church in Smyrna write; These things saith the first and the last, which was dead, and is alive;",
+      "web": "“To the angel of the assembly in Smyrna write: “The first and the last, who was dead, and has come to life says these things:",
+      "ct": "Write this to the angel of the church in Smyrna: These are the words of the First and the Last, who died and came back to life:"
+    },
+    {
+      "verse": 9,
+      "kjv": "I know thy works, and tribulation, and poverty, (but thou art rich) and I know the blasphemy of them which say they are Jews, and are not, but are the synagogue of Satan.",
+      "web": "“I know your works, oppression, and your poverty (but you are rich), and the blasphemy of those who say they are Jews, and they are not, but are a synagogue of Satan.",
+      "ct": "\"I know your suffering and your poverty — though in truth you are rich. I know the slander coming from those who claim to be Jews but are not. They are a synagogue of Satan."
+    },
+    {
+      "verse": 10,
+      "kjv": "Fear none of those things which thou shalt suffer: behold, the devil shall cast some of you into prison, that ye may be tried; and ye shall have tribulation ten days: be thou faithful unto death, and I will give thee a crown of life.",
+      "web": "Don’t be afraid of the things which you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested; and you will have oppression for ten days. Be faithful to death, and I will give you the crown of life.",
+      "ct": "Don't be afraid of what you're about to suffer. The devil is going to throw some of you into prison to test you, and you will face tribulation for 10 days. Stay faithful even if it costs you your life, and I will give you the crown of life."
+    },
+    {
+      "verse": 11,
+      "kjv": "He that hath an ear, let him hear what the Spirit saith unto the churches; He that overcometh shall not be hurt of the second death.",
+      "web": "He who has an ear, let him hear what the Spirit says to the assemblies. He who overcomes won’t be harmed by the second death.",
+      "ct": "If you have ears, listen to what the Spirit says to the churches. Whoever overcomes will not be harmed by the second death.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And to the angel of the church in Pergamos write; These things saith he which hath the sharp sword with two edges;",
+      "web": "“To the angel of the assembly in Pergamum write: “He who has the sharp two-edged sword says these things:",
+      "ct": "Write this to the angel of the church in Pergamos: These are the words of the one who holds the sharp, double-edged sword:"
+    },
+    {
+      "verse": 13,
+      "kjv": "I know thy works, and where thou dwellest, even where Satan’s seat is: and thou holdest fast my name, and hast not denied my faith, even in those days wherein Antipas was my faithful martyr, who was slain among you, where Satan dwelleth.",
+      "web": "“I know your works and where you dwell, where Satan’s throne is. You hold firmly to my name, and didn’t deny my faith in the days of Antipas my witness, my faithful one, who was killed among you, where Satan dwells.",
+      "ct": "\"I know where you live — right where Satan has his throne. Yet you hold firmly to my name. You didn't deny your faith in me, even during the time when Antipas, my faithful witness, was killed among you in that city where Satan dwells."
+    },
+    {
+      "verse": 14,
+      "kjv": "But I have a few things against thee, because thou hast there them that hold the doctrine of Balaam, who taught Balac to cast a stumblingblock before the children of Israel, to eat things sacrificed unto idols, and to commit fornication.",
+      "web": "But I have a few things against you, because you have there some who hold the teaching of Balaam, who taught Balak to throw a stumbling block before the children of Israel, to eat things sacrificed to idols, and to commit sexual immorality.",
+      "ct": "But I have a few things against you. Some among you follow the teaching of Balaam, who taught Balak how to set a trap for the people of Israel by luring them into eating food sacrificed to idols and committing sexual immorality."
+    },
+    {
+      "verse": 15,
+      "kjv": "So hast thou also them that hold the doctrine of the Nicolaitanes, which thing I hate.",
+      "web": "So you also have some who hold to the teaching of the Nicolaitans likewise.",
+      "ct": "In the same way, you also have people who follow the teaching of the Nicolaitans, which I hate."
+    },
+    {
+      "verse": 16,
+      "kjv": "Repent; or else I will come unto thee quickly, and will fight against them with the sword of my mouth.",
+      "web": "Repent therefore, or else I am coming to you quickly, and I will make war against them with the sword of my mouth.",
+      "ct": "Repent! Otherwise, I will come to you quickly and wage war against them with the sword of my mouth."
+    },
+    {
+      "verse": 17,
+      "kjv": "He that hath an ear, let him hear what the Spirit saith unto the churches; To him that overcometh will I give to eat of the hidden manna, and will give him a white stone, and in the stone a new name written, which no man knoweth saving he that receiveth it.",
+      "web": "He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna, and I will give him a white stone, and on the stone a new name written, which no one knows but he who receives it.",
+      "ct": "If you have ears, listen to what the Spirit says to the churches. To everyone who overcomes, I will give some of the hidden manna. I will also give them a white stone with a new name written on it — a name that no one knows except the one who receives it.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And unto the angel of the church in Thyatira write; These things saith the Son of God, who hath his eyes like unto a flame of fire, and his feet are like fine brass;",
+      "web": "“To the angel of the assembly in Thyatira write: “The Son of God, who has his eyes like a flame of fire, and his feet are like burnished brass, says these things:",
+      "ct": "Write this to the angel of the church in Thyatira: These are the words of the Son of God, whose eyes blaze like fire and whose feet gleam like polished bronze:"
+    },
+    {
+      "verse": 19,
+      "kjv": "I know thy works, and charity, and service, and faith, and thy patience, and thy works; and the last to be more than the first.",
+      "web": "“I know your works, your love, faith, service, patient endurance, and that your last works are more than the first.",
+      "ct": "\"I know everything you've done — your love, your faith, your service, and your endurance. And your recent works are even greater than what you did at first."
+    },
+    {
+      "verse": 20,
+      "kjv": "Notwithstanding I have a few things against thee, because thou sufferest that woman Jezebel, which calleth herself a prophetess, to teach and to seduce my servants to commit fornication, and to eat things sacrificed unto idols.",
+      "web": "But I have this against you, that you tolerate your woman, Jezebel, who calls herself a prophetess. She teaches and seduces my servants to commit sexual immorality, and to eat things sacrificed to idols.",
+      "ct": "But I have this against you: you tolerate that woman Jezebel, who calls herself a prophetess. She teaches and misleads my servants into committing sexual immorality and eating food sacrificed to idols."
+    },
+    {
+      "verse": 21,
+      "kjv": "And I gave her space to repent of her fornication; and she repented not.",
+      "web": "I gave her time to repent, but she refuses to repent of her sexual immorality.",
+      "ct": "I gave her time to repent, but she refuses to turn from her sexual immorality."
+    },
+    {
+      "verse": 22,
+      "kjv": "Behold, I will cast her into a bed, and them that commit adultery with her into great tribulation, except they repent of their deeds.",
+      "web": "Behold, I will throw her into a bed, and those who commit adultery with her into great oppression, unless they repent of her works.",
+      "ct": "So watch — I will throw her onto a bed of suffering, and everyone who commits adultery with her will face terrible tribulation, unless they repent of what they've done."
+    },
+    {
+      "verse": 23,
+      "kjv": "And I will kill her children with death; and all the churches shall know that I am he which searcheth the reins and hearts: and I will give unto every one of you according to your works.",
+      "web": "I will kill her children with Death, and all the assemblies will know that I am he who searches the minds and hearts. I will give to each one of you according to your deeds.",
+      "ct": "I will strike her followers with death, and every church will know that I am the one who searches minds and hearts. I will repay each of you according to what you've done."
+    },
+    {
+      "verse": 24,
+      "kjv": "But unto you I say, and unto the rest in Thyatira, as many as have not this doctrine, and which have not known the depths of Satan, as they speak; I will put upon you none other burden.",
+      "web": "But to you I say, to the rest who are in Thyatira, as many as don’t have this teaching, who don’t know what some call ‘the deep things of Satan,’ to you I say, I am not putting any other burden on you.",
+      "ct": "Now to the rest of you in Thyatira — those who don't follow her teaching and haven't explored what they call 'the deep things of Satan' — I won't place any additional burden on you."
+    },
+    {
+      "verse": 25,
+      "kjv": "But that which ye have already hold fast till I come.",
+      "web": "Nevertheless, hold that which you have firmly until I come.",
+      "ct": "Just hold on to what you have until I come."
+    },
+    {
+      "verse": 26,
+      "kjv": "And he that overcometh, and keepeth my works unto the end, to him will I give power over the nations:",
+      "web": "He who overcomes, and he who keeps my works to the end, to him I will give authority over the nations.",
+      "ct": "To everyone who overcomes and keeps doing my work until the end, I will give authority over the nations."
+    },
+    {
+      "verse": 27,
+      "kjv": "And he shall rule them with a rod of iron; as the vessels of a potter shall they be broken to shivers: even as I received of my Father.",
+      "web": "He will rule them with a rod of iron, shattering them like clay pots; as I also have received of my Father:",
+      "ct": "They will rule with a rod of iron and shatter the nations like clay pots — the same authority I received from my Father."
+    },
+    {
+      "verse": 28,
+      "kjv": "And I will give him the morning star.",
+      "web": "and I will give him the morning star.",
+      "ct": "I will also give them the morning star."
+    },
+    {
+      "verse": 29,
+      "kjv": "He that hath an ear, let him hear what the Spirit saith unto the churches.",
+      "web": "He who has an ear, let him hear what the Spirit says to the assemblies.",
+      "ct": "If you have ears, listen to what the Spirit says to the churches.\""
+    }
+  ]
+}

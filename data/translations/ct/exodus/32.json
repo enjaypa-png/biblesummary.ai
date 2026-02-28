@@ -1,0 +1,221 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 32,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:35:38.083Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And when the people saw that Moses delayed to come down out of the mount, the people gathered themselves together unto Aaron, and said unto him, Up, make us gods, which shall go before us; for as for this Moses, the man that brought us up out of the land of Egypt, we wot not what is become of him.",
+      "web": "When the people saw that Moses delayed coming down from the mountain, the people gathered themselves together to Aaron, and said to him, “Come, make us gods, which shall go before us; for as for this Moses, the man who brought us up out of the land of Egypt, we don’t know what has become of him.”",
+      "ct": "When the people realized Moses was taking a long time to come back down the mountain, they crowded around Aaron and said, \"Come on, make us gods to lead us! As for this Moses — the man who brought us out of Egypt — we have no idea what's happened to him.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me.",
+      "web": "Aaron said to them, “Take off the golden rings, which are in the ears of your wives, of your sons, and of your daughters, and bring them to me.”",
+      "ct": "Aaron told them, \"Pull the gold earrings off your wives, your sons, and your daughters, and bring them to me.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And all the people brake off the golden earrings which were in their ears, and brought them unto Aaron.",
+      "web": "All the people took off the golden rings which were in their ears, and brought them to Aaron.",
+      "ct": "So everyone removed their gold earrings and brought them to Aaron."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he received them at their hand, and fashioned it with a graving tool, after he had made it a molten calf: and they said, These be thy gods, O Israel, which brought thee up out of the land of Egypt.",
+      "web": "He received what they handed him, fashioned it with an engraving tool, and made it a molded calf. Then they said, “These are your gods, Israel, which brought you up out of the land of Egypt.”",
+      "ct": "He took what they gave him, melted it down, and shaped it with a carving tool into a calf. Then the people declared, \"These are your gods, Israel — the ones who brought you out of Egypt!\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And when Aaron saw it, he built an altar before it; and Aaron made proclamation, and said, To morrow is a feast to the LORD.",
+      "web": "When Aaron saw this, he built an altar before it; and Aaron made a proclamation, and said, “Tomorrow shall be a feast to LORD.”",
+      "ct": "When Aaron saw their reaction, he built an altar in front of the calf and announced, \"Tomorrow there will be a feast to the LORD.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And they rose up early on the morrow, and offered burnt offerings, and brought peace offerings; and the people sat down to eat and to drink, and rose up to play.",
+      "web": "They rose up early on the next day, and offered burnt offerings, and brought peace offerings; and the people sat down to eat and to drink, and rose up to play.",
+      "ct": "The next morning the people got up early, offered burnt offerings, and brought peace offerings. Then they sat down to eat and drink, and got up to celebrate wildly."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the LORD said unto Moses, Go, get thee down; for thy people, which thou broughtest out of the land of Egypt, have corrupted themselves:",
+      "web": "LORD spoke to Moses, “Go, get down; for your people, who you brought up out of the land of Egypt, have corrupted themselves!",
+      "ct": "The LORD told Moses, \"Go — get down there now. Your people, the ones you brought out of Egypt, have completely corrupted themselves."
+    },
+    {
+      "verse": 8,
+      "kjv": "They have turned aside quickly out of the way which I commanded them: they have made them a molten calf, and have worshipped it, and have sacrificed thereunto, and said, These be thy gods, O Israel, which have brought thee up out of the land of Egypt.",
+      "web": "They have turned away quickly out of the way which I commanded them. They have made themselves a molded calf, and have worshiped it, and have sacrificed to it, and said, ‘These are your gods, Israel, which brought you up out of the land of Egypt.’ ”",
+      "ct": "They've already abandoned the path I commanded them to follow. They've made themselves a molten calf, bowed down to it, offered sacrifices to it, and said, 'These are your gods, Israel, who brought you out of Egypt.'\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the LORD said unto Moses, I have seen this people, and, behold, it is a stiffnecked people:",
+      "web": "LORD said to Moses, “I have seen these people, and behold, they are a stiff-necked people.",
+      "ct": "Then the LORD said to Moses, \"I've watched these people closely, and they are stubborn and hard-hearted."
+    },
+    {
+      "verse": 10,
+      "kjv": "Now therefore let me alone, that my wrath may wax hot against them, and that I may consume them: and I will make of thee a great nation.",
+      "web": "Now therefore leave me alone, that my wrath may burn hot against them, and that I may consume them; and I will make of you a great nation.”",
+      "ct": "Now leave me alone so my anger can burn against them and destroy them. Then I'll start over and make you into a great nation.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Moses besought the LORD his God, and said, LORD, why doth thy wrath wax hot against thy people, which thou hast brought forth out of the land of Egypt with great power, and with a mighty hand?",
+      "web": "Moses begged LORD his God, and said, “LORD, why does your wrath burn hot against your people, that you have brought out of the land of Egypt with great power and with a mighty hand?",
+      "ct": "But Moses pleaded with the LORD his God. \"LORD, why let your anger burn against your own people — the ones you brought out of Egypt with such incredible power and a mighty hand?"
+    },
+    {
+      "verse": 12,
+      "kjv": "Wherefore should the Egyptians speak, and say, For mischief did he bring them out, to slay them in the mountains, and to consume them from the face of the earth? Turn from thy fierce wrath, and repent of this evil against thy people.",
+      "web": "Why should the Egyptians talk, saying, ‘He brought them out for evil, to kill them in the mountains, and to consume them from the surface of the earth?’ Turn from your fierce wrath, and turn away from this evil against your people.",
+      "ct": "Why give the Egyptians a reason to say, 'He brought them out just to kill them in the mountains and wipe them off the face of the earth'? Turn away from your fierce anger. repent of this disaster you've planned against your people."
+    },
+    {
+      "verse": 13,
+      "kjv": "Remember Abraham, Isaac, and Israel, thy servants, to whom thou swarest by thine own self, and saidst unto them, I will multiply your seed as the stars of heaven, and all this land that I have spoken of will I give unto your seed, and they shall inherit it for ever.",
+      "web": "Remember Abraham, Isaac, and Israel, your servants, to whom you swore by your own self, and said to them, ‘I will multiply your offspring as the stars of the sky, and all this land that I have spoken of I will give to your offspring, and they shall inherit it forever.’ ”",
+      "ct": "Remember your servants Abraham, Isaac, and Israel. You swore to them by your own name, saying, 'I will make your descendants as countless as the stars in the sky, and I will give them all this land I promised. It will be their inheritance forever.'\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And the LORD repented of the evil which he thought to do unto his people.",
+      "web": "So LORD turned away from the evil which he said he would do to his people.",
+      "ct": "So the LORD relented and did not bring the disaster he had threatened against his people."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Moses turned, and went down from the mount, and the two tables of the testimony were in his hand: the tables were written on both their sides; on the one side and on the other were they written.",
+      "web": "Moses turned, and went down from the mountain, with the two tablets of the covenant in his hand; tablets that were written on both their sides. They were written on one side and on the other.",
+      "ct": "Moses turned and headed down the mountain, carrying the 2 stone tablets of the covenant in his hands. The tablets were inscribed on both sides — front and back."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the tables were the work of God, and the writing was the writing of God, graven upon the tables.",
+      "web": "The tablets were the work of God, and the writing was the writing of God, engraved on the tablets.",
+      "ct": "The tablets themselves were the work of God, and the writing engraved on them was God's own writing."
+    },
+    {
+      "verse": 17,
+      "kjv": "And when Joshua heard the noise of the people as they shouted, he said unto Moses, There is a noise of war in the camp.",
+      "web": "When Joshua heard the noise of the people as they shouted, he said to Moses, “There is the noise of war in the camp.”",
+      "ct": "When Joshua heard the loud noise of the people shouting, he said to Moses, \"It sounds like war in the camp!\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And he said, It is not the voice of them that shout for mastery, neither is it the voice of them that cry for being overcome: but the noise of them that sing do I hear.",
+      "web": "He said, “It isn’t the voice of those who shout for victory. It is not the voice of those who cry for being overcome; but the noise of those who sing that I hear.”",
+      "ct": "Moses replied, \"That's not the sound of a victory cheer, and it's not the cry of defeat either. What I hear is the sound of singing.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And it came to pass, as soon as he came nigh unto the camp, that he saw the calf, and the dancing: and Moses’ anger waxed hot, and he cast the tables out of his hands, and brake them beneath the mount.",
+      "web": "As soon as he came near to the camp, he saw the calf and the dancing. Then Moses’ anger grew hot, and he threw the tablets out of his hands, and broke them beneath the mountain.",
+      "ct": "As soon as Moses got close to the camp and saw the calf and the people dancing around it, his anger exploded. He hurled the stone tablets from his hands and shattered them at the base of the mountain."
+    },
+    {
+      "verse": 20,
+      "kjv": "And he took the calf which they had made, and burnt it in the fire, and ground it to powder, and strawed it upon the water, and made the children of Israel drink of it.",
+      "web": "He took the calf which they had made, and burned it with fire, ground it to powder, and scattered it on the water, and made the children of Israel drink it.",
+      "ct": "Then he grabbed the calf they had made, burned it in the fire, ground it into fine powder, scattered it over the water, and forced the Israelites to drink it."
+    },
+    {
+      "verse": 21,
+      "kjv": "And Moses said unto Aaron, What did this people unto thee, that thou hast brought so great a sin upon them?",
+      "web": "Moses said to Aaron, “What did these people do to you, that you have brought a great sin on them?”",
+      "ct": "Moses turned to Aaron and demanded, \"What did these people do to you that you led them into such a terrible sin?\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Aaron said, Let not the anger of my lord wax hot: thou knowest the people, that they are set on mischief.",
+      "web": "Aaron said, “Don’t let the anger of my lord grow hot. You know the people, that they are set on evil.",
+      "ct": "Aaron answered, \"Don't be angry with me, my lord. You know how these people are — they're bent on doing evil."
+    },
+    {
+      "verse": 23,
+      "kjv": "For they said unto me, Make us gods, which shall go before us: for as for this Moses, the man that brought us up out of the land of Egypt, we wot not what is become of him.",
+      "web": "For they said to me, ‘Make us gods, which shall go before us. As for this Moses, the man who brought us up out of the land of Egypt, we don’t know what has become of him.’",
+      "ct": "They told me, 'Make us gods to lead us, because this Moses who brought us out of Egypt — we don't know what's happened to him.'"
+    },
+    {
+      "verse": 24,
+      "kjv": "And I said unto them, Whosoever hath any gold, let them break it off. So they gave it me: then I cast it into the fire, and there came out this calf.",
+      "web": "I said to them, ‘Whoever has any gold, let them take it off.’ So they gave it to me; and I threw it into the fire, and out came this calf.”",
+      "ct": "So I told them, 'Anyone who has gold, take it off.' They gave it to me, I threw it into the fire, and out came this calf.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And when Moses saw that the people were naked; (for Aaron had made them naked unto their shame among their enemies:)",
+      "web": "When Moses saw that the people were out of control, (for Aaron had let them lose control, causing derision among their enemies),",
+      "ct": "Moses could see that the people were completely out of control — Aaron had let them run wild, making them a disgrace to any enemy who might see them."
+    },
+    {
+      "verse": 26,
+      "kjv": "Then Moses stood in the gate of the camp, and said, Who is on the LORD’s side? let him come unto me. And all the sons of Levi gathered themselves together unto him.",
+      "web": "then Moses stood in the gate of the camp, and said, “Whoever is on LORD’s side, come to me!” All the sons of Levi gathered themselves together to him.",
+      "ct": "So Moses stood at the entrance of the camp and shouted, \"Whoever is on the LORD's side, come to me!\" Every man from the tribe of Levi rallied to him."
+    },
+    {
+      "verse": 27,
+      "kjv": "And he said unto them, Thus saith the LORD God of Israel, Put every man his sword by his side, and go in and out from gate to gate throughout the camp, and slay every man his brother, and every man his companion, and every man his neighbour.",
+      "web": "He said to them, “LORD, the God of Israel, says, ‘Every man put his sword on his thigh, and go back and forth from gate to gate throughout the camp, and every man kill his brother, and every man his companion, and every man his neighbor.’ ”",
+      "ct": "He told them, \"This is what the LORD, the God of Israel, says: 'Strap on your swords. Go back and forth through the camp from one end to the other, and each of you strike down your brother, your friend, and your neighbor.'\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And the children of Levi did according to the word of Moses: and there fell of the people that day about three thousand men.",
+      "web": "The sons of Levi did according to the word of Moses. About three thousand men fell of the people that day.",
+      "ct": "The Levites did exactly what Moses commanded, and about 3,000 men died that day."
+    },
+    {
+      "verse": 29,
+      "kjv": "For Moses had said, Consecrate yourselves today to the LORD, even every man upon his son, and upon his brother; that he may bestow upon you a blessing this day.",
+      "web": "Moses said, “Consecrate yourselves today to LORD, for every man was against his son and against his brother, that he may give you a blessing today.”",
+      "ct": "Moses said, \"Today you have consecrated yourselves to the LORD, because each of you stood against even his own son and his own brother. Because of this, the LORD gives you his blessing today.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And it came to pass on the morrow, that Moses said unto the people, Ye have sinned a great sin: and now I will go up unto the LORD; peradventure I shall make an atonement for your sin.",
+      "web": "On the next day, Moses said to the people, “You have sinned a great sin. Now I will go up to LORD. Perhaps I shall make atonement for your sin.”",
+      "ct": "The next day Moses told the people, \"You have committed a terrible sin. Now I'm going back up to the LORD — maybe I can make atonement for your sin.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And Moses returned unto the LORD, and said, Oh, this people have sinned a great sin, and have made them gods of gold.",
+      "web": "Moses returned to LORD, and said, “Oh, this people have sinned a great sin, and have made themselves gods of gold.",
+      "ct": "So Moses went back to the LORD and said, \"Please — these people have committed a terrible sin. They made themselves gods out of gold."
+    },
+    {
+      "verse": 32,
+      "kjv": "Yet now, if thou wilt forgive their sin--; and if not, blot me, I pray thee, out of thy book which thou hast written.",
+      "web": "Yet now, if you will, forgive their sin—and if not, please blot me out of your book which you have written.”",
+      "ct": "But now, if you're willing, please forgive their sin. If not, then blot me out of the book you have written.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And the LORD said unto Moses, Whosoever hath sinned against me, him will I blot out of my book.",
+      "web": "LORD said to Moses, “Whoever has sinned against me, I will blot him out of my book.",
+      "ct": "The LORD answered Moses, \"Whoever has sinned against me — that is who I will blot out of my book."
+    },
+    {
+      "verse": 34,
+      "kjv": "Therefore now go, lead the people unto the place of which I have spoken unto thee: behold, mine Angel shall go before thee: nevertheless in the day when I visit I will visit their sin upon them.",
+      "web": "Now go, lead the people to the place of which I have spoken to you. Behold, my angel shall go before you. Nevertheless, in the day when I punish, I will punish them for their sin.”",
+      "ct": "Now go. Lead the people to the place I told you about. My angel will go ahead of you. But when the day of reckoning comes, I will punish them for their sin.\""
+    },
+    {
+      "verse": 35,
+      "kjv": "And the LORD plagued the people, because they made the calf, which Aaron made.",
+      "web": "LORD struck the people, because of what they did with the calf, which Aaron made.",
+      "ct": "The LORD struck the people with a plague because of what they did with the calf that Aaron had made."
+    }
+  ]
+}

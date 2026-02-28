@@ -1,0 +1,137 @@
+{
+  "book": "revelation",
+  "book_name": "Revelation",
+  "chapter": 22,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:23:38.036Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And he shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb.",
+      "web": "He showed me a river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb,",
+      "ct": "Then the angel showed me a river of the water of life, pure and clear as crystal, flowing from the throne of God and of the Lamb."
+    },
+    {
+      "verse": 2,
+      "kjv": "In the midst of the street of it, and on either side of the river, was there the tree of life, which bare twelve manner of fruits, and yielded her fruit every month: and the leaves of the tree were for the healing of the nations.",
+      "web": "in the middle of its street. On this side of the river and on that was the tree of life, bearing twelve kinds of fruits, yielding its fruit every month. The leaves of the tree were for the healing of the nations.",
+      "ct": "Down the middle of the city's main street, and on each side of the river, stood the tree of life. It produced 12 kinds of fruit, bearing a fresh crop every month, and its leaves brought healing to the nations."
+    },
+    {
+      "verse": 3,
+      "kjv": "And there shall be no more curse: but the throne of God and of the Lamb shall be in it; and his servants shall serve him:",
+      "web": "There will be no curse any more. The throne of God and of the Lamb will be in it, and his servants will serve him.",
+      "ct": "There will never be any curse again. The throne of God and of the Lamb will be in the city, and his servants will serve him."
+    },
+    {
+      "verse": 4,
+      "kjv": "And they shall see his face; and his name shall be in their foreheads.",
+      "web": "They will see his face, and his name will be on their foreheads.",
+      "ct": "They will see his face, and his name will be written on their foreheads."
+    },
+    {
+      "verse": 5,
+      "kjv": "And there shall be no night there; and they need no candle, neither light of the sun; for the Lord God giveth them light: and they shall reign for ever and ever.",
+      "web": "There will be no night, and they need no lamp light or sun light; for the Lord God will illuminate them. They will reign forever and ever.",
+      "ct": "Night will no longer exist there. They won't need lamplight or sunlight, because the Lord God himself will shine on them. And they will reign forever and ever."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he said unto me, These sayings are faithful and true: and the Lord God of the holy prophets sent his angel to shew unto his servants the things which must shortly be done.",
+      "web": "He said to me, “These words are faithful and true. The Lord God of the spirits of the prophets sent his angel to show to his bondservants the things which must happen soon.”",
+      "ct": "Then the angel told me, \"These words are faithful and true. The Lord God, who speaks through the spirit of the prophets, sent his angel to show his servants what must happen soon.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Behold, I come quickly: blessed is he that keepeth the sayings of the prophecy of this book.",
+      "web": "“Behold, I come quickly. Blessed is he who keeps the words of the prophecy of this book.”",
+      "ct": "\"Look — I am coming soon! Blessed is the one who obeys the words of prophecy in this book.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And I John saw these things, and heard them. And when I had heard and seen, I fell down to worship before the feet of the angel which shewed me these things.",
+      "web": "Now I, John, am the one who heard and saw these things. When I heard and saw, I fell down to worship before the feet of the angel who had shown me these things.",
+      "ct": "I, John, am the one who heard and saw all of this. After hearing and seeing it, I fell down to worship at the feet of the angel who had shown me these things."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then saith he unto me, See thou do it not: for I am thy fellowservant, and of thy brethren the prophets, and of them which keep the sayings of this book: worship God.",
+      "web": "He said to me, “See you don’t do it! I am a fellow bondservant with you and with your brothers, the prophets, and with those who keep the words of this book. Worship God.”",
+      "ct": "But he told me, \"Don't do that! I'm a fellow servant alongside you, your brothers the prophets, and everyone who obeys the words of this book. Worship God.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And he saith unto me, Seal not the sayings of the prophecy of this book: for the time is at hand.",
+      "web": "He said to me, “Don’t seal up the words of the prophecy of this book, for the time is at hand.",
+      "ct": "Then he told me, \"Don't seal up the words of prophecy in this book, because the time is near.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still.",
+      "web": "He who acts unjustly, let him act unjustly still. He who is filthy, let him be filthy still. He who is righteous, let him do righteousness still. He who is holy, let him be holy still.”",
+      "ct": "\"Let the one who does wrong keep doing wrong. Let the one who is filthy stay filthy. Let the one who does right keep doing right. And let the one who is holy remain holy.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And, behold, I come quickly; and my reward is with me, to give every man according as his work shall be.",
+      "web": "“Behold, I come quickly. My reward is with me, to repay to each man according to his work.",
+      "ct": "\"Look — I am coming soon, and I'm bringing my reward with me. I will repay each person according to what they have done.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "I am Alpha and Omega, the beginning and the end, the first and the last.",
+      "web": "I am the Alpha and the Omega, the First and the Last, the Beginning and the End.",
+      "ct": "\"I am the Alpha and the Omega, the First and the Last, the Beginning and the End.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Blessed are they that do his commandments, that they may have right to the tree of life, and may enter in through the gates into the city.",
+      "web": "Blessed are those who do his commandments, that they may have the right to the tree of life, and may enter in by the gates into the city.",
+      "ct": "Blessed are those who obey his commandments, so that they may have the right to the tree of life and may enter through the gates into the city."
+    },
+    {
+      "verse": 15,
+      "kjv": "For without are dogs, and sorcerers, and whoremongers, and murderers, and idolaters, and whosoever loveth and maketh a lie.",
+      "web": "Outside are the dogs, the sorcerers, the sexually immoral, the murderers, the idolaters, and everyone who loves and practices falsehood.",
+      "ct": "But outside the city are the dogs — the sorcerers, the sexually immoral, the murderers, the idolaters, and everyone who loves and practices falsehood."
+    },
+    {
+      "verse": 16,
+      "kjv": "I Jesus have sent mine angel to testify unto you these things in the churches. I am the root and the offspring of David, and the bright and morning star.",
+      "web": "I, Jesus, have sent my angel to testify these things to you for the assemblies. I am the root and the offspring of David, the Bright and Morning Star.”",
+      "ct": "\"I, Jesus, have sent my angel to give you this testimony for the churches. I am the root and the descendant of David, the bright Morning Star.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the Spirit and the bride say, Come. And let him that heareth say, Come. And let him that is athirst come. And whosoever will, let him take the water of life freely.",
+      "web": "The Spirit and the bride say, “Come!” He who hears, let him say, “Come!” He who is thirsty, let him come. He who desires, let him take the water of life freely.",
+      "ct": "The Holy Spirit and the bride say, \"Come!\" Let everyone who hears this say, \"Come!\" Let anyone who is thirsty come. Let anyone who wants it take the water of life as a free gift."
+    },
+    {
+      "verse": 18,
+      "kjv": "For I testify unto every man that heareth the words of the prophecy of this book, If any man shall add unto these things, God shall add unto him the plagues that are written in this book:",
+      "web": "I testify to everyone who hears the words of the prophecy of this book, if anyone adds to them, may God add to him the plagues which are written in this book.",
+      "ct": "I give this warning to everyone who hears the words of prophecy in this book: if anyone adds anything to them, God will add to that person the plagues described in this book."
+    },
+    {
+      "verse": 19,
+      "kjv": "And if any man shall take away from the words of the book of this prophecy, God shall take away his part out of the book of life, and out of the holy city, and from the things which are written in this book.",
+      "web": "If anyone takes away from the words of the book of this prophecy, may God take away his part from the tree of life, and out of the holy city, which are written in this book.",
+      "ct": "And if anyone takes away from the words of this prophetic book, God will take away that person's share in the tree of life and in the holy city that are described in this book."
+    },
+    {
+      "verse": 20,
+      "kjv": "He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus.",
+      "web": "He who testifies these things says, “Yes, I come quickly.” Amen! Yes, come, Lord Jesus.",
+      "ct": "The one who testifies to all of this says, \"Yes, I am coming soon.\" Amen! Come, Lord Jesus!"
+    },
+    {
+      "verse": 21,
+      "kjv": "The grace of our Lord Jesus Christ be with you all. Amen.",
+      "web": "The grace of the Lord Jesus Christ be with all the saints. Amen.",
+      "ct": "May the grace of the Lord Jesus Christ be with you all. Amen."
+    }
+  ]
+}

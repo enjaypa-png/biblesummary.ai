@@ -1,0 +1,251 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 25,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:32:44.939Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.",
+      "web": "“Speak to the children of Israel, that they take an offering for me. From everyone whose heart makes him willing you shall take my offering.",
+      "ct": "\"Tell the people of Israel to bring me an offering. Accept my offering from everyone who gives it freely from the heart."
+    },
+    {
+      "verse": 3,
+      "kjv": "And this is the offering which ye shall take of them; gold, and silver, and brass,",
+      "web": "This is the offering which you shall take from them: gold, silver, bronze,",
+      "ct": "Here is what you should collect from them: gold, silver, bronze,"
+    },
+    {
+      "verse": 4,
+      "kjv": "And blue, and purple, and scarlet, and fine linen, and goats’ hair,",
+      "web": "blue, purple, scarlet, fine linen, goats’ hair,",
+      "ct": "blue, purple, and scarlet yarn, fine linen, goats' hair,"
+    },
+    {
+      "verse": 5,
+      "kjv": "And rams’ skins dyed red, and badgers’ skins, and shittim wood,",
+      "web": "rams’ skins dyed red, sea cow hides, acacia wood,",
+      "ct": "rams' skins dyed red, badgers' skins, and acacia wood,"
+    },
+    {
+      "verse": 6,
+      "kjv": "Oil for the light, spices for anointing oil, and for sweet incense,",
+      "web": "oil for the light, spices for the anointing oil and for the sweet incense,",
+      "ct": "oil for the lamps, spices for the anointing oil and for the fragrant incense,"
+    },
+    {
+      "verse": 7,
+      "kjv": "Onyx stones, and stones to be set in the ephod, and in the breastplate.",
+      "web": "onyx stones, and stones to be set for the ephod and for the breastplate.",
+      "ct": "onyx stones, and gemstones to be set into the ephod and the breastplate."
+    },
+    {
+      "verse": 8,
+      "kjv": "And let them make me a sanctuary; that I may dwell among them.",
+      "web": "Let them make me a sanctuary, that I may dwell among them.",
+      "ct": "Have them build me a sanctuary so that I can live among them."
+    },
+    {
+      "verse": 9,
+      "kjv": "According to all that I shew thee, after the pattern of the tabernacle, and the pattern of all the instruments thereof, even so shall ye make it.",
+      "web": "According to all that I show you, the pattern of the tabernacle, and the pattern of all of its furniture, even so you shall make it.",
+      "ct": "Build it exactly according to the design I'm about to show you — the tabernacle itself and every piece of its furnishings."
+    },
+    {
+      "verse": 10,
+      "kjv": "And they shall make an ark of shittim wood: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof, and a cubit and a half the height thereof.",
+      "web": "“They shall make an ark of acacia wood. Its length shall be two and a half cubits, its width a cubit and a half, and a cubit and a half its height.",
+      "ct": "\"They are to build an ark out of acacia wood, 2 and a half cubits long, a cubit and a half wide, and a cubit and a half tall."
+    },
+    {
+      "verse": 11,
+      "kjv": "And thou shalt overlay it with pure gold, within and without shalt thou overlay it, and shalt make upon it a crown of gold round about.",
+      "web": "You shall overlay it with pure gold. You shall overlay it inside and outside, and you shall make a gold molding around it.",
+      "ct": "Cover it with pure gold inside and out, and put a gold molding all the way around it."
+    },
+    {
+      "verse": 12,
+      "kjv": "And thou shalt cast four rings of gold for it, and put them in the four corners thereof; and two rings shall be in the one side of it, and two rings in the other side of it.",
+      "web": "You shall cast four rings of gold for it, and put them in its four feet. Two rings shall be on the one side of it, and two rings on the other side of it.",
+      "ct": "Cast 4 gold rings and attach them to its 4 feet — 2 rings on one side and 2 on the other."
+    },
+    {
+      "verse": 13,
+      "kjv": "And thou shalt make staves of shittim wood, and overlay them with gold.",
+      "web": "You shall make poles of acacia wood, and overlay them with gold.",
+      "ct": "Make carrying poles out of acacia wood and cover them with gold."
+    },
+    {
+      "verse": 14,
+      "kjv": "And thou shalt put the staves into the rings by the sides of the ark, that the ark may be borne with them.",
+      "web": "You shall put the poles into the rings on the sides of the ark to carry the ark.",
+      "ct": "Slide the poles through the rings on the sides of the ark so it can be carried."
+    },
+    {
+      "verse": 15,
+      "kjv": "The staves shall be in the rings of the ark: they shall not be taken from it.",
+      "web": "The poles shall be in the rings of the ark. They shall not be taken from it.",
+      "ct": "The poles must stay in the rings permanently — never remove them."
+    },
+    {
+      "verse": 16,
+      "kjv": "And thou shalt put into the ark the testimony which I shall give thee.",
+      "web": "You shall put the covenant which I shall give you into the ark.",
+      "ct": "Place inside the ark the stone tablets of the covenant that I will give you."
+    },
+    {
+      "verse": 17,
+      "kjv": "And thou shalt make a mercy seat of pure gold: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof.",
+      "web": "You shall make a mercy seat of pure gold. Two and a half cubits shall be its length, and a cubit and a half its width.",
+      "ct": "Make a mercy seat out of pure gold, 2 and a half cubits long and a cubit and a half wide."
+    },
+    {
+      "verse": 18,
+      "kjv": "And thou shalt make two cherubims of gold, of beaten work shalt thou make them, in the two ends of the mercy seat.",
+      "web": "You shall make two cherubim of hammered gold. You shall make them at the two ends of the mercy seat.",
+      "ct": "Make 2 cherubim out of hammered gold, one at each end of the mercy seat."
+    },
+    {
+      "verse": 19,
+      "kjv": "And make one cherub on the one end, and the other cherub on the other end: even of the mercy seat shall ye make the cherubims on the two ends thereof.",
+      "web": "Make one cherub at the one end, and one cherub at the other end. You shall make the cherubim on its two ends of one piece with the mercy seat.",
+      "ct": "Place one cherub at one end and the other cherub at the opposite end. The cherubim must be formed as one piece with the mercy seat itself."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the cherubims shall stretch forth their wings on high, covering the mercy seat with their wings, and their faces shall look one to another; toward the mercy seat shall the faces of the cherubims be.",
+      "web": "The cherubim shall spread out their wings upward, covering the mercy seat with their wings, with their faces toward one another. The faces of the cherubim shall be toward the mercy seat.",
+      "ct": "The cherubim are to spread their wings upward, sheltering the mercy seat with their wings. They must face each other, looking down toward the mercy seat."
+    },
+    {
+      "verse": 21,
+      "kjv": "And thou shalt put the mercy seat above upon the ark; and in the ark thou shalt put the testimony that I shall give thee.",
+      "web": "You shall put the mercy seat on top of the ark, and in the ark you shall put the covenant that I will give you.",
+      "ct": "Set the mercy seat on top of the ark, and place inside the ark the covenant that I will give you."
+    },
+    {
+      "verse": 22,
+      "kjv": "And there I will meet with thee, and I will commune with thee from above the mercy seat, from between the two cherubims which are upon the ark of the testimony, of all things which I will give thee in commandment unto the children of Israel.",
+      "web": "There I will meet with you, and I will tell you from above the mercy seat, from between the two cherubim which are on the ark of the covenant, all that I command you for the children of Israel.",
+      "ct": "That is where I will meet with you. From above the mercy seat, between the 2 cherubim on the ark of the covenant, I will speak to you and give you all my commands for the people of Israel."
+    },
+    {
+      "verse": 23,
+      "kjv": "Thou shalt also make a table of shittim wood: two cubits shall be the length thereof, and a cubit the breadth thereof, and a cubit and a half the height thereof.",
+      "web": "“You shall make a table of acacia wood. Its length shall be two cubits, and its width a cubit, and its height one and a half cubits.",
+      "ct": "\"Make a table out of acacia wood, 2 cubits long, a cubit wide, and a cubit and a half tall."
+    },
+    {
+      "verse": 24,
+      "kjv": "And thou shalt overlay it with pure gold, and make thereto a crown of gold round about.",
+      "web": "You shall overlay it with pure gold, and make a gold molding around it.",
+      "ct": "Cover it with pure gold and put a gold molding all the way around it."
+    },
+    {
+      "verse": 25,
+      "kjv": "And thou shalt make unto it a border of an hand breadth round about, and thou shalt make a golden crown to the border thereof round about.",
+      "web": "You shall make a rim of a hand width around it. You shall make a golden molding on its rim around it.",
+      "ct": "Add a rim around it about a hand's width across, with a gold molding along the edge of the rim."
+    },
+    {
+      "verse": 26,
+      "kjv": "And thou shalt make for it four rings of gold, and put the rings in the four corners that are on the four feet thereof.",
+      "web": "You shall make four rings of gold for it, and put the rings in the four corners that are on its four feet.",
+      "ct": "Make 4 gold rings and attach them to the 4 corners at its 4 feet."
+    },
+    {
+      "verse": 27,
+      "kjv": "Over against the border shall the rings be for places of the staves to bear the table.",
+      "web": "the rings shall be close to the rim, for places for the poles to carry the table.",
+      "ct": "The rings should be close to the rim, to hold the carrying poles for the table."
+    },
+    {
+      "verse": 28,
+      "kjv": "And thou shalt make the staves of shittim wood, and overlay them with gold, that the table may be borne with them.",
+      "web": "You shall make the poles of acacia wood, and overlay them with gold, that the table may be carried with them.",
+      "ct": "Make the poles out of acacia wood and cover them with gold, so the table can be carried."
+    },
+    {
+      "verse": 29,
+      "kjv": "And thou shalt make the dishes thereof, and spoons thereof, and covers thereof, and bowls thereof, to cover withal: of pure gold shalt thou make them.",
+      "web": "You shall make its dishes, its spoons, its ladles, and its bowls to pour out offerings with. You shall make them of pure gold.",
+      "ct": "Make its plates, ladles, pitchers, and bowls for pouring drink offerings — all out of pure gold."
+    },
+    {
+      "verse": 30,
+      "kjv": "And thou shalt set upon the table shewbread before me alway.",
+      "web": "You shall set bread of the presence on the table before me always.",
+      "ct": "Keep the bread of the Presence on the table before me at all times."
+    },
+    {
+      "verse": 31,
+      "kjv": "And thou shalt make a candlestick of pure gold: of beaten work shall the candlestick be made: his shaft, and his branches, his bowls, his knops, and his flowers, shall be of the same.",
+      "web": "“You shall make a lamp stand of pure gold. The lamp stand shall be made of hammered work. Its base, its shaft, its cups, its buds, and its flowers shall be of one piece with it.",
+      "ct": "\"Make a lampstand out of pure gold. Hammer it from a single piece — its base, shaft, cups, buds, and flowers should all be one solid work."
+    },
+    {
+      "verse": 32,
+      "kjv": "And six branches shall come out of the sides of it; three branches of the candlestick out of the one side, and three branches of the candlestick out of the other side:",
+      "web": "There shall be six branches going out of its sides: three branches of the lamp stand out of its one side, and three branches of the lamp stand out of its other side;",
+      "ct": "6 branches are to extend from its sides — 3 branches on one side and 3 on the other."
+    },
+    {
+      "verse": 33,
+      "kjv": "Three bowls made like unto almonds, with a knop and a flower in one branch; and three bowls made like almonds in the other branch, with a knop and a flower: so in the six branches that come out of the candlestick.",
+      "web": "three cups made like almond blossoms in one branch, a bud and a flower; and three cups made like almond blossoms in the other branch, a bud and a flower, so for the six branches going out of the lamp stand;",
+      "ct": "Each branch should have 3 cups shaped like almond blossoms, each with a bud and a flower. All 6 branches must follow this same pattern."
+    },
+    {
+      "verse": 34,
+      "kjv": "And in the candlestick shall be four bowls made like unto almonds, with their knops and their flowers.",
+      "web": "and in the lamp stand four cups made like almond blossoms, its buds and its flowers;",
+      "ct": "The central shaft of the lampstand should have 4 cups shaped like almond blossoms, with their buds and flowers."
+    },
+    {
+      "verse": 35,
+      "kjv": "And there shall be a knop under two branches of the same, and a knop under two branches of the same, and a knop under two branches of the same, according to the six branches that proceed out of the candlestick.",
+      "web": "and a bud under two branches of one piece with it, and a bud under two branches of one piece with it, and a bud under two branches of one piece with it, for the six branches going out of the lamp stand.",
+      "ct": "Where each pair of branches extends from the shaft, place a bud beneath them — one bud under the first pair, one under the second, and one under the third, for all 6 branches."
+    },
+    {
+      "verse": 36,
+      "kjv": "Their knops and their branches shall be of the same: all it shall be one beaten work of pure gold.",
+      "web": "Their buds and their branches shall be of one piece with it, all of it one beaten work of pure gold.",
+      "ct": "The buds and branches must all be one piece with the lampstand, the whole thing hammered from a single piece of pure gold."
+    },
+    {
+      "verse": 37,
+      "kjv": "And thou shalt make the seven lamps thereof: and they shall light the lamps thereof, that they may give light over against it.",
+      "web": "You shall make its lamps seven, and they shall light its lamps to give light to the space in front of it.",
+      "ct": "Make 7 lamps for it and set them up so they light the area in front of the lampstand."
+    },
+    {
+      "verse": 38,
+      "kjv": "And the tongs thereof, and the snuffdishes thereof, shall be of pure gold.",
+      "web": "Its snuffers and its snuff dishes shall be of pure gold.",
+      "ct": "Its wick trimmers and trays must also be made of pure gold."
+    },
+    {
+      "verse": 39,
+      "kjv": "Of a talent of pure gold shall he make it, with all these vessels.",
+      "web": "It shall be made of a talent of pure gold, with all these accessories.",
+      "ct": "Use a full talent of pure gold to make the lampstand and all of its accessories."
+    },
+    {
+      "verse": 40,
+      "kjv": "And look that thou make them after their pattern, which was shewed thee in the mount.",
+      "web": "See that you make them after their pattern, which has been shown to you on the mountain.",
+      "ct": "Make sure you build everything exactly according to the pattern I showed you on the mountain.\""
+    }
+  ]
+}

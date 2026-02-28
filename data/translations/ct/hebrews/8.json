@@ -1,0 +1,89 @@
+{
+  "book": "hebrews",
+  "book_name": "Hebrews",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:09:52.192Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now of the things which we have spoken this is the sum: We have such an high priest, who is set on the right hand of the throne of the Majesty in the heavens;",
+      "web": "Now in the things which we are saying, the main point is this. We have such a high priest, who sat down on the right hand of the throne of the Majesty in the heavens,",
+      "ct": "Here's the main point of everything we've been saying: we have a high priest who sat down at the right hand of the throne of the Majesty in the heavens."
+    },
+    {
+      "verse": 2,
+      "kjv": "A minister of the sanctuary, and of the true tabernacle, which the Lord pitched, and not man.",
+      "web": "a servant of the sanctuary and of the true tabernacle, which the Lord pitched, not man.",
+      "ct": "He serves in the true sanctuary — the real tabernacle that the Lord set up, not one built by human hands."
+    },
+    {
+      "verse": 3,
+      "kjv": "For every high priest is ordained to offer gifts and sacrifices: wherefore it is of necessity that this man have somewhat also to offer.",
+      "web": "For every high priest is appointed to offer both gifts and sacrifices. Therefore it is necessary that this high priest also have something to offer.",
+      "ct": "Every high priest is appointed to offer gifts and sacrifices, so it's necessary that this high priest also have something to offer."
+    },
+    {
+      "verse": 4,
+      "kjv": "For if he were on earth, he should not be a priest, seeing that there are priests that offer gifts according to the law:",
+      "web": "For if he were on earth, he would not be a priest at all, seeing there are priests who offer the gifts according to the law,",
+      "ct": "If he were on earth, he wouldn't be a priest at all, since there are already priests who offer gifts according to the law."
+    },
+    {
+      "verse": 5,
+      "kjv": "Who serve unto the example and shadow of heavenly things, as Moses was admonished of God when he was about to make the tabernacle: for, See, saith he, that thou make all things according to the pattern shewed to thee in the mount.",
+      "web": "who serve a copy and shadow of the heavenly things, even as Moses was warned by God when he was about to make the tabernacle, for he said, “See, you shall make everything according to the pattern that was shown to you on the mountain.”",
+      "ct": "But those priests serve in a sanctuary that is only a copy and shadow of what exists in heaven. That's why God warned Moses when he was about to build the tabernacle: \"See to it that you make everything according to the pattern I showed you on the mountain.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "But now hath he obtained a more excellent ministry, by how much also he is the mediator of a better covenant, which was established upon better promises.",
+      "web": "But now he has obtained a more excellent ministry, by so much as he is also the mediator of a better covenant, which on better promises has been given as law.",
+      "ct": "But the ministry Jesus has received is far superior to theirs, just as the covenant he mediates is better — because it's built on better promises."
+    },
+    {
+      "verse": 7,
+      "kjv": "For if that first covenant had been faultless, then should no place have been sought for the second.",
+      "web": "For if that first covenant had been faultless, then no place would have been sought for a second.",
+      "ct": "If that first covenant had been without flaws, there would have been no need for a second one."
+    },
+    {
+      "verse": 8,
+      "kjv": "For finding fault with them, he saith, Behold, the days come, saith the Lord, when I will make a new covenant with the house of Israel and with the house of Judah:",
+      "web": "For finding fault with them, he said, “Behold, the days come”, says the Lord, “that I will make a new covenant with the house of Israel and with the house of Judah;",
+      "ct": "But God found fault with the people and said, \"Look, the days are coming, says the LORD, when I will make a new covenant with the house of Israel and with the house of Judah."
+    },
+    {
+      "verse": 9,
+      "kjv": "Not according to the covenant that I made with their fathers in the day when I took them by the hand to lead them out of the land of Egypt; because they continued not in my covenant, and I regarded them not, saith the Lord.",
+      "web": "not according to the covenant that I made with their fathers, in the day that I took them by the hand to lead them out of the land of Egypt; for they didn’t continue in my covenant, and I disregarded them,” says the Lord.",
+      "ct": "It won't be like the covenant I made with their ancestors on the day I took them by the hand and led them out of Egypt — because they didn't keep my covenant, and so I turned away from them,\" says the LORD."
+    },
+    {
+      "verse": 10,
+      "kjv": "For this is the covenant that I will make with the house of Israel after those days, saith the Lord; I will put my laws into their mind, and write them in their hearts: and I will be to them a God, and they shall be to me a people:",
+      "web": "“For this is the covenant that I will make with the house of Israel. After those days,” says the Lord; “I will put my laws into their mind, I will also write them on their heart. I will be their God, and they will be my people.",
+      "ct": "\"This is the covenant I will make with the house of Israel after those days,\" says the LORD. \"I will put my laws into their minds and write them on their hearts. I will be their God, and they will be my people."
+    },
+    {
+      "verse": 11,
+      "kjv": "And they shall not teach every man his neighbour, and every man his brother, saying, Know the Lord: for all shall know me, from the least to the greatest.",
+      "web": "They will not teach every man his fellow citizen, and every man his brother, saying, ‘Know the Lord,’ for all will know me, from their least to their greatest.",
+      "ct": "No one will need to teach their neighbor or their brother, saying, 'Know the LORD,' because everyone will know me — from the least of them to the greatest."
+    },
+    {
+      "verse": 12,
+      "kjv": "For I will be merciful to their unrighteousness, and their sins and their iniquities will I remember no more.",
+      "web": "For I will be merciful to their unrighteousness. I will remember their sins and lawless deeds no more.”",
+      "ct": "I will show mercy for their wrongdoing, and I will remember their sins no more.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "In that he saith, A new covenant, he hath made the first old. Now that which decayeth and waxeth old is ready to vanish away.",
+      "web": "In that he says, “A new covenant”, he has made the first old. But that which is becoming old and grows aged is near to vanishing away.",
+      "ct": "By calling it a \"new\" covenant, God declared the first one outdated. And whatever is outdated and aging is about to disappear."
+    }
+  ]
+}

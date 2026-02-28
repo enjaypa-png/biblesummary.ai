@@ -1,0 +1,185 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 34,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:03:28.024Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Command the children of Israel, and say unto them, When ye come into the land of Canaan; (this is the land that shall fall unto you for an inheritance, even the land of Canaan with the coasts thereof:)",
+      "web": "“Command the children of Israel, and tell them, ‘When you come into the land of Canaan (this is the land that shall fall to you for an inheritance, even the land of Canaan according to its borders),",
+      "ct": "\"Give these instructions to the people of Israel: When you enter the land of Canaan, this is the territory that will be given to you as your inheritance — the land of Canaan as defined by these borders:"
+    },
+    {
+      "verse": 3,
+      "kjv": "Then your south quarter shall be from the wilderness of Zin along by the coast of Edom, and your south border shall be the outmost coast of the salt sea eastward:",
+      "web": "then your south quarter shall be from the wilderness of Zin along by the side of Edom, and your south border shall be from the end of the Salt Sea eastward.",
+      "ct": "Your southern boundary will start at the wilderness of Zin, running along the border of Edom. On the east side, it will begin at the southern end of the Salt Sea."
+    },
+    {
+      "verse": 4,
+      "kjv": "And your border shall turn from the south to the ascent of Akrabbim, and pass on to Zin: and the going forth thereof shall be from the south to Kadeshbarnea, and shall go on to Hazaraddar, and pass on to Azmon:",
+      "web": "Your border shall turn about southward of the ascent of Akrabbim, and pass along to Zin; and it shall pass southward of Kadesh Barnea; and it shall go from there to Hazar Addar, and pass along to Azmon.",
+      "ct": "From there, the border will curve south of the Ascent of Akrabbim, continue through Zin, and pass south of Kadeshbarnea. Then it will go on to Hazaraddar and across to Azmon."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the border shall fetch a compass from Azmon unto the river of Egypt, and the goings out of it shall be at the sea.",
+      "web": "The border shall turn about from Azmon to the brook of Egypt, and it shall end at the sea.",
+      "ct": "From Azmon, the border will curve toward the river of Egypt and end at the Mediterranean Sea."
+    },
+    {
+      "verse": 6,
+      "kjv": "And as for the western border, ye shall even have the great sea for a border: this shall be your west border.",
+      "web": "“ ‘For the western border, you shall have the great sea and its border. This shall be your west border.",
+      "ct": "Your western border will simply be the coastline of the Great Sea. That is your boundary on the west."
+    },
+    {
+      "verse": 7,
+      "kjv": "And this shall be your north border: from the great sea ye shall point out for you mount Hor:",
+      "web": "“ ‘This shall be your north border: from the great sea you shall mark out for yourselves Mount Hor.",
+      "ct": "For your northern border, mark a line from the Great Sea to Mount Hor."
+    },
+    {
+      "verse": 8,
+      "kjv": "From mount Hor ye shall point out your border unto the entrance of Hamath; and the goings forth of the border shall be to Zedad:",
+      "web": "From Mount Hor you shall mark out to the entrance of Hamath; and the border shall pass by Zedad.",
+      "ct": "From Mount Hor, trace the border to the entrance of Hamath, and from there it will continue on to Zedad."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the border shall go on to Ziphron, and the goings out of it shall be at Hazarenan: this shall be your north border.",
+      "web": "Then the border shall go to Ziphron, and it shall end at Hazar Enan. This shall be your north border.",
+      "ct": "Then the border will extend to Ziphron and end at Hazarenan. That is your northern boundary."
+    },
+    {
+      "verse": 10,
+      "kjv": "And ye shall point out your east border from Hazarenan to Shepham:",
+      "web": "“ ‘You shall mark out your east border from Hazar Enan to Shepham.",
+      "ct": "For your eastern border, draw a line from Hazarenan south to Shepham."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the coast shall go down from Shepham to Riblah, on the east side of Ain; and the border shall descend, and shall reach unto the side of the sea of Chinnereth eastward:",
+      "web": "The border shall go down from Shepham to Riblah, on the east side of Ain. The border shall go down, and shall reach to the side of the sea of Chinnereth eastward.",
+      "ct": "From Shepham, the border will go down to Riblah on the east side of Ain. It will continue downhill until it reaches the eastern shore of the Sea of Chinnereth."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the border shall go down to Jordan, and the goings out of it shall be at the salt sea: this shall be your land with the coasts thereof round about.",
+      "web": "The border shall go down to the Jordan, and end at the Salt Sea. This shall be your land according to its borders around it.’ ”",
+      "ct": "From there, the border will follow the Jordan River south and end at the Salt Sea. These are the boundaries that surround your land on every side.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Moses commanded the children of Israel, saying, This is the land which ye shall inherit by lot, which the LORD commanded to give unto the nine tribes, and to the half tribe:",
+      "web": "Moses commanded the children of Israel, saying, “This is the land which you shall inherit by lot, which LORD has commanded to give to the nine tribes, and to the half-tribe;",
+      "ct": "Moses then told the people of Israel, \"This is the land you will receive by casting lots, which the LORD has commanded to be given to the 9 tribes and the half-tribe."
+    },
+    {
+      "verse": 14,
+      "kjv": "For the tribe of the children of Reuben according to the house of their fathers, and the tribe of the children of Gad according to the house of their fathers, have received their inheritance; and half the tribe of Manasseh have received their inheritance:",
+      "web": "for the tribe of the children of Reuben according to their fathers’ houses, the tribe of the children of Gad according to their fathers’ houses, and the half-tribe of Manasseh have received their inheritance.",
+      "ct": "The tribe of Reuben, the tribe of Gad, and the half-tribe of Manasseh have already received their inheritance, divided by their family clans."
+    },
+    {
+      "verse": 15,
+      "kjv": "The two tribes and the half tribe have received their inheritance on this side Jordan near Jericho eastward, toward the sunrising.",
+      "web": "The two tribes and the half-tribe have received their inheritance beyond the Jordan at Jericho eastward, toward the sunrise.”",
+      "ct": "These 2 and a half tribes received their land on the east side of the Jordan River, across from Jericho, toward the sunrise.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 17,
+      "kjv": "These are the names of the men which shall divide the land unto you: Eleazar the priest, and Joshua the son of Nun.",
+      "web": "“These are the names of the men who shall divide the land to you for inheritance: Eleazar the priest, and Joshua the son of Nun.",
+      "ct": "\"These are the men who will divide the land among you: Eleazar the priest and Joshua son of Nun."
+    },
+    {
+      "verse": 18,
+      "kjv": "And ye shall take one prince of every tribe, to divide the land by inheritance.",
+      "web": "You shall take one prince of every tribe, to divide the land for inheritance.",
+      "ct": "You must also appoint one leader from each tribe to help distribute the land."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the names of the men are these: Of the tribe of Judah, Caleb the son of Jephunneh.",
+      "web": "These are the names of the men: Of the tribe of Judah, Caleb the son of Jephunneh.",
+      "ct": "Here are their names: From the tribe of Judah — Caleb son of Jephunneh."
+    },
+    {
+      "verse": 20,
+      "kjv": "And of the tribe of the children of Simeon, Shemuel the son of Ammihud.",
+      "web": "Of the tribe of the children of Simeon, Shemuel the son of Ammihud.",
+      "ct": "From the tribe of Simeon — Shemuel son of Ammihud."
+    },
+    {
+      "verse": 21,
+      "kjv": "Of the tribe of Benjamin, Elidad the son of Chislon.",
+      "web": "Of the tribe of Benjamin, Elidad the son of Chislon.",
+      "ct": "From the tribe of Benjamin — Elidad son of Chislon."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the prince of the tribe of the children of Dan, Bukki the son of Jogli.",
+      "web": "Of the tribe of the children of Dan a prince, Bukki the son of Jogli.",
+      "ct": "From the tribe of Dan — the leader Bukki son of Jogli."
+    },
+    {
+      "verse": 23,
+      "kjv": "The prince of the children of Joseph, for the tribe of the children of Manasseh, Hanniel the son of Ephod.",
+      "web": "Of the children of Joseph: of the tribe of the children of Manasseh a prince, Hanniel the son of Ephod.",
+      "ct": "From the descendants of Joseph: for the tribe of Manasseh — the leader Hanniel son of Ephod."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the prince of the tribe of the children of Ephraim, Kemuel the son of Shiphtan.",
+      "web": "Of the tribe of the children of Ephraim a prince, Kemuel the son of Shiphtan.",
+      "ct": "From the tribe of Ephraim — the leader Kemuel son of Shiphtan."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the prince of the tribe of the children of Zebulun, Elizaphan the son of Parnach.",
+      "web": "Of the tribe of the children of Zebulun a prince, Elizaphan the son of Parnach.",
+      "ct": "From the tribe of Zebulun — the leader Elizaphan son of Parnach."
+    },
+    {
+      "verse": 26,
+      "kjv": "And the prince of the tribe of the children of Issachar, Paltiel the son of Azzan.",
+      "web": "Of the tribe of the children of Issachar a prince, Paltiel the son of Azzan.",
+      "ct": "From the tribe of Issachar — the leader Paltiel son of Azzan."
+    },
+    {
+      "verse": 27,
+      "kjv": "And the prince of the tribe of the children of Asher, Ahihud the son of Shelomi.",
+      "web": "Of the tribe of the children of Asher a prince, Ahihud the son of Shelomi.",
+      "ct": "From the tribe of Asher — the leader Ahihud son of Shelomi."
+    },
+    {
+      "verse": 28,
+      "kjv": "And the prince of the tribe of the children of Naphtali, Pedahel the son of Ammihud.",
+      "web": "Of the tribe of the children of Naphtali a prince, Pedahel the son of Ammihud.”",
+      "ct": "From the tribe of Naphtali — the leader Pedahel son of Ammihud.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "These are they whom the LORD commanded to divide the inheritance unto the children of Israel in the land of Canaan.",
+      "web": "These are they whom LORD commanded to divide the inheritance to the children of Israel in the land of Canaan.",
+      "ct": "These were the men the LORD appointed to divide the inheritance among the people of Israel in the land of Canaan."
+    }
+  ]
+}

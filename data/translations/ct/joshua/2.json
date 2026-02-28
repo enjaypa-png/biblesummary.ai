@@ -1,0 +1,155 @@
+{
+  "book": "joshua",
+  "book_name": "Joshua",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:18:04.224Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlot’s house, named Rahab, and lodged there.",
+      "web": "Joshua the son of Nun secretly sent two men out of Shittim as spies, saying, “Go, view the land, including Jericho.” They went and came into the house of a prostitute whose name was Rahab, and slept there.",
+      "ct": "Joshua son of Nun secretly sent 2 spies from Shittim. He told them, \"Go scout out the land, especially Jericho.\" So they went and ended up at the house of a prostitute named Rahab, where they stayed for the night."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it was told the king of Jericho, saying, Behold, there came men in hither to night of the children of Israel to search out the country.",
+      "web": "The king of Jericho was told, “Behold, men of the children of Israel came in here tonight to spy out the land.”",
+      "ct": "Someone told the king of Jericho, \"Israelite men slipped into the city tonight to spy out the land.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And the king of Jericho sent unto Rahab, saying, Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country.",
+      "web": "Jericho’s king sent to Rahab, saying, “Bring out the men who have come to you, who have entered into your house; for they have come to spy out all the land.”",
+      "ct": "So the king of Jericho sent a message to Rahab: \"Hand over the men who came to your house. They're here to spy on our entire land.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they were:",
+      "web": "The woman took the two men and hid them. Then she said, “Yes, the men came to me, but I didn’t know where they came from.",
+      "ct": "But Rahab had already hidden the 2 men. She said, \"Yes, some men did come to me, but I had no idea where they were from.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And it came to pass about the time of shutting of the gate, when it was dark, that the men went out: whither the men went I wot not: pursue after them quickly; for ye shall overtake them.",
+      "web": "About the time of the shutting of the gate, when it was dark, the men went out. Where the men went, I don’t know. Pursue them quickly. You may catch up with them.”",
+      "ct": "\"They left around the time the city gate was closing at dark. I don't know which direction they went. If you go after them quickly, you can probably catch them.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "But she had brought them up to the roof of the house, and hid them with the stalks of flax, which she had laid in order upon the roof.",
+      "web": "But she had brought them up to the roof, and hidden them under the stalks of flax which she had laid in order on the roof.",
+      "ct": "In reality, she had taken them up to the roof and hidden them under stalks of flax that she had spread out there."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the men pursued after them the way to Jordan unto the fords: and as soon as they which pursued after them were gone out, they shut the gate.",
+      "web": "The men pursued them along the way to the fords of the Jordan River. As soon as those who pursued them had gone out, they shut the gate.",
+      "ct": "The king's men chased after them along the road toward the fords of the Jordan River. As soon as the pursuers left the city, the gate was shut behind them."
+    },
+    {
+      "verse": 8,
+      "kjv": "And before they were laid down, she came up unto them upon the roof;",
+      "web": "Before they had lain down, she came up to them on the roof.",
+      "ct": "Before the spies had settled down for the night, Rahab came up to them on the roof."
+    },
+    {
+      "verse": 9,
+      "kjv": "And she said unto the men, I know that the LORD hath given you the land, and that your terror is fallen upon us, and that all the inhabitants of the land faint because of you.",
+      "web": "She said to the men, “I know that LORD has given you the land, and that the fear of you has fallen upon us, and that all the inhabitants of the land melt away before you.",
+      "ct": "She told them, \"I know the LORD has given you this land. Everyone here is terrified of you. The whole country is paralyzed with fear.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "For we have heard how the LORD dried up the water of the Red sea for you, when ye came out of Egypt; and what ye did unto the two kings of the Amorites, that were on the other side Jordan, Sihon and Og, whom ye utterly destroyed.",
+      "web": "For we have heard how LORD dried up the water of the Red Sea before you, when you came out of Egypt; and what you did to the two kings of the Amorites, who were beyond the Jordan, to Sihon and to Og, whom you utterly destroyed.",
+      "ct": "\"We've heard how the LORD dried up the Red Sea for you when you came out of Egypt. We also heard what you did to Sihon and Og, the 2 Amorite kings east of the Jordan — how you completely destroyed them.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And as soon as we had heard these things, our hearts did melt, neither did there remain any more courage in any man, because of you: for the LORD your God, he is God in heaven above, and in earth beneath.",
+      "web": "As soon as we had heard it, our hearts melted, and there wasn’t any more spirit in any man, because of you: for LORD your God, he is God in heaven above, and on earth beneath.",
+      "ct": "\"The moment we heard about it, our hearts melted and every last bit of courage drained out of us. The LORD your God is God of heaven above and earth below.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Now therefore, I pray you, swear unto me by the LORD, since I have shewed you kindness, that ye will also shew kindness unto my father’s house, and give me a true token:",
+      "web": "Now therefore, please swear to me by LORD, since I have dealt kindly with you, that you also will deal kindly with my father’s house, and give me a true sign;",
+      "ct": "\"So please, swear to me by the LORD — since I've shown you kindness, promise that you'll show kindness to my family too. Give me a guarantee I can trust.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And that ye will save alive my father, and my mother, and my brethren, and my sisters, and all that they have, and deliver our lives from death.",
+      "web": "and that you will save alive my father, my mother, my brothers, and my sisters, and all that they have, and will deliver our lives from death.”",
+      "ct": "\"Promise that you'll spare my father, my mother, my brothers, my sisters, and everyone who belongs to them. Save us from death.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And the men answered her, Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee.",
+      "web": "The men said to her, “Our life for yours, if you don’t talk about this business of ours; and it shall be, when LORD gives us the land, that we will deal kindly and truly with you.”",
+      "ct": "The men told her, \"We pledge our lives for yours — as long as you don't tell anyone what we're doing. When the LORD gives us this land, we will treat you with kindness and faithfulness.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Then she let them down by a cord through the window: for her house was upon the town wall, and she dwelt upon the wall.",
+      "web": "Then she let them down by a cord through the window; for her house was on the side of the wall, and she lived on the wall.",
+      "ct": "Then she lowered them down through a window with a rope, since her house was built right into the city wall."
+    },
+    {
+      "verse": 16,
+      "kjv": "And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way.",
+      "web": "She said to them, “Go to the mountain, lest the pursuers find you. Hide yourselves there three days, until the pursuers have returned. Afterward, you may go your way.”",
+      "ct": "She told them, \"Head for the hills so the search party doesn't find you. Hide there for 3 days until they give up and come back. After that, you can go on your way.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the men said unto her, We will be blameless of this thine oath which thou hast made us swear.",
+      "web": "The men said to her, “We will be guiltless of this your oath which you’ve made us to swear.",
+      "ct": "The men said to her, \"We'll be free from this oath you made us swear — but only under these conditions:"
+    },
+    {
+      "verse": 18,
+      "kjv": "Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father’s household, home unto thee.",
+      "web": "Behold, when we come into the land, tie this line of scarlet thread in the window which you used to let us down. Gather to yourself into the house your father, your mother, your brothers, and all your father’s household.",
+      "ct": "\"When we enter the land, tie this scarlet cord in the window you lowered us from. Bring your father, your mother, your brothers, and your father's entire household together inside your house."
+    },
+    {
+      "verse": 19,
+      "kjv": "And it shall be, that whosoever shall go out of the doors of thy house into the street, his blood shall be upon his head, and we will be guiltless: and whosoever shall be with thee in the house, his blood shall be on our head, if any hand be upon him.",
+      "web": "It shall be that whoever goes out of the doors of your house into the street, his blood will be on his head, and we will be guiltless. Whoever is with you in the house, his blood shall be on our head, if any hand is on him.",
+      "ct": "\"Anyone who steps outside your door into the street — their death will be their own fault, and we won't be responsible. But if anyone inside your house is harmed, their blood will be on our heads.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And if thou utter this our business, then we will be quit of thine oath which thou hast made us to swear.",
+      "web": "But if you talk about this business of ours, then we shall be guiltless of your oath which you’ve made us to swear.”",
+      "ct": "\"However, if you tell anyone about our mission, then we're released from the oath you made us swear.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And she said, According unto your words, so be it. And she sent them away, and they departed: and she bound the scarlet line in the window.",
+      "web": "She said, “Let it be as you have said.” She sent them away, and they departed. Then she tied the scarlet line in the window.",
+      "ct": "She agreed, \"Let it be exactly as you've said.\" Then she sent them on their way, and as soon as they left, she tied the scarlet cord in the window."
+    },
+    {
+      "verse": 22,
+      "kjv": "And they went, and came unto the mountain, and abode there three days, until the pursuers were returned: and the pursuers sought them throughout all the way, but found them not.",
+      "web": "They went and came to the mountain, and stayed there three days, until the pursuers had returned. The pursuers sought them all along the way, but didn’t find them.",
+      "ct": "The spies headed for the hills and stayed there 3 days. The search party looked for them all along the road but never found them, and eventually returned to the city."
+    },
+    {
+      "verse": 23,
+      "kjv": "So the two men returned, and descended from the mountain, and passed over, and came to Joshua the son of Nun, and told him all things that befell them:",
+      "web": "Then the two men returned, descended from the mountain, crossed the river, and came to Joshua the son of Nun. They told him all that had happened to them.",
+      "ct": "Then the 2 men came down from the hills, crossed the Jordan, and reported back to Joshua son of Nun. They told him everything that had happened."
+    },
+    {
+      "verse": 24,
+      "kjv": "And they said unto Joshua, Truly the LORD hath delivered into our hands all the land; for even all the inhabitants of the country do faint because of us.",
+      "web": "They said to Joshua, “Truly LORD has delivered all the land into our hands. Moreover, all the inhabitants of the land melt away before us.”",
+      "ct": "They said to Joshua, \"The LORD has absolutely handed the entire land over to us. Everyone who lives there is terrified of us.\""
+    }
+  ]
+}

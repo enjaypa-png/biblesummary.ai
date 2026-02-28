@@ -1,0 +1,131 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 30,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:15:44.906Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it shall come to pass, when all these things are come upon thee, the blessing and the curse, which I have set before thee, and thou shalt call them to mind among all the nations, whither the LORD thy God hath driven thee,",
+      "web": "It shall happen, when all these things have come on you, the blessing and the curse, which I have set before you, and you shall call them to mind among all the nations where LORD your God has driven you,",
+      "ct": "When all of this comes true — both the blessings and the curses I've laid out before you — and you find yourselves scattered among the nations where the LORD your God has driven you, and you start thinking about everything I've said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "And shalt return unto the LORD thy God, and shalt obey his voice according to all that I command thee this day, thou and thy children, with all thine heart, and with all thy soul;",
+      "web": "and return to LORD your God and obey his voice according to all that I command you today, you and your children, with all your heart and with all your soul,",
+      "ct": "and when you and your children return to the LORD your God and obey him with all your heart and all your soul, following everything I'm commanding you today,"
+    },
+    {
+      "verse": 3,
+      "kjv": "That then the LORD thy God will turn thy captivity, and have compassion upon thee, and will return and gather thee from all the nations, whither the LORD thy God hath scattered thee.",
+      "web": "that then LORD your God will release you from captivity, have compassion on you, and will return and gather you from all the peoples where LORD your God has scattered you.",
+      "ct": "then the LORD your God will have compassion on you. He will free you from captivity and gather you back from all the nations where he scattered you."
+    },
+    {
+      "verse": 4,
+      "kjv": "If any of thine be driven out unto the outmost parts of heaven, from thence will the LORD thy God gather thee, and from thence will he fetch thee:",
+      "web": "If your outcasts are in the uttermost parts of the heavens, from there LORD your God will gather you, and from there he will bring you back.",
+      "ct": "Even if you've been driven to the farthest corners of the earth, the LORD your God will find you there and bring you back."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the LORD thy God will bring thee into the land which thy fathers possessed, and thou shalt possess it; and he will do thee good, and multiply thee above thy fathers.",
+      "web": "LORD your God will bring you into the land which your fathers possessed, and you will possess it. He will do you good, and increase your numbers more than your fathers.",
+      "ct": "The LORD your God will bring you into the land your ancestors once owned, and you will possess it again. He will make you prosper and increase your numbers beyond what your ancestors ever knew."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the LORD thy God will circumcise thine heart, and the heart of thy seed, to love the LORD thy God with all thine heart, and with all thy soul, that thou mayest live.",
+      "web": "LORD your God will circumcise your heart, and the heart of your offspring, to love LORD your God with all your heart and with all your soul, that you may live.",
+      "ct": "The LORD your God will circumcise your heart and the hearts of your descendants, so that you love the LORD your God with all your heart and all your soul — and truly live."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the LORD thy God will put all these curses upon thine enemies, and on them that hate thee, which persecuted thee.",
+      "web": "LORD your God will put all these curses on your enemies and on those who hate you, who persecuted you.",
+      "ct": "Then the LORD your God will turn all these curses against your enemies — the people who hated and persecuted you."
+    },
+    {
+      "verse": 8,
+      "kjv": "And thou shalt return and obey the voice of the LORD, and do all his commandments which I command thee this day.",
+      "web": "You shall return and obey LORD’s voice, and do all his commandments which I command you today.",
+      "ct": "You will come back and obey the LORD's voice, keeping all the commandments I'm giving you today."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the LORD thy God will make thee plenteous in every work of thine hand, in the fruit of thy body, and in the fruit of thy cattle, and in the fruit of thy land, for good: for the LORD will again rejoice over thee for good, as he rejoiced over thy fathers:",
+      "web": "LORD your God will make you prosperous in all the work of your hand, in the fruit of your body, in the fruit of your livestock, and in the fruit of your ground, for good; for LORD will again rejoice over you for good, as he rejoiced over your fathers,",
+      "ct": "The LORD your God will make you prosper in everything you do — your children, your livestock, and your crops will all flourish. The LORD will once again take delight in blessing you, just as he delighted in blessing your ancestors,"
+    },
+    {
+      "verse": 10,
+      "kjv": "If thou shalt hearken unto the voice of the LORD thy God, to keep his commandments and his statutes which are written in this book of the law, and if thou turn unto the LORD thy God with all thine heart, and with all thy soul.",
+      "web": "if you will obey LORD your God’s voice, to keep his commandments and his statutes which are written in this book of the law; if you turn to LORD your God with all your heart and with all your soul.",
+      "ct": "as long as you obey the LORD your God by keeping his commandments and laws written in this book of the law, and as long as you turn to the LORD your God with all your heart and all your soul."
+    },
+    {
+      "verse": 11,
+      "kjv": "For this commandment which I command thee this day, it is not hidden from thee, neither is it far off.",
+      "web": "For this commandment which I command you today is not too hard for you or too distant.",
+      "ct": "What I'm commanding you today isn't too difficult for you, and it isn't out of reach."
+    },
+    {
+      "verse": 12,
+      "kjv": "It is not in heaven, that thou shouldest say, Who shall go up for us to heaven, and bring it unto us, that we may hear it, and do it?",
+      "web": "It is not in heaven, that you should say, “Who will go up for us to heaven, bring it to us, and proclaim it to us, that we may do it?”",
+      "ct": "It isn't up in heaven, so that you'd have to ask, \"Who will go up to heaven for us, bring it down, and explain it to us so we can follow it?\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Neither is it beyond the sea, that thou shouldest say, Who shall go over the sea for us, and bring it unto us, that we may hear it, and do it?",
+      "web": "Neither is it beyond the sea, that you should say, “Who will go over the sea for us, bring it to us, and proclaim it to us, that we may do it?”",
+      "ct": "And it isn't across the sea, so that you'd have to ask, \"Who will cross the sea for us, bring it back, and explain it to us so we can follow it?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "But the word is very nigh unto thee, in thy mouth, and in thy heart, that thou mayest do it.",
+      "web": "But the word is very near to you, in your mouth and in your heart, that you may do it.",
+      "ct": "No — the word is right here with you. It's already on your lips and in your heart, ready for you to live it out."
+    },
+    {
+      "verse": 15,
+      "kjv": "See, I have set before thee this day life and good, and death and evil;",
+      "web": "Behold, I have set before you today life and prosperity, and death and evil.",
+      "ct": "Look, today I've placed two paths in front of you: life and what is good, or death and what is evil."
+    },
+    {
+      "verse": 16,
+      "kjv": "In that I command thee this day to love the LORD thy God, to walk in his ways, and to keep his commandments and his statutes and his judgments, that thou mayest live and multiply: and the LORD thy God shall bless thee in the land whither thou goest to possess it.",
+      "web": "For I command you today to love LORD your God, to walk in his ways and to keep his commandments, his statutes, and his ordinances, that you may live and multiply, and that LORD your God may bless you in the land where you go in to possess it.",
+      "ct": "I'm commanding you today to love the LORD your God, to walk in his ways, and to keep his commandments, laws, and regulations. If you do, you will live and multiply, and the LORD your God will bless you in the land you're crossing over to possess."
+    },
+    {
+      "verse": 17,
+      "kjv": "But if thine heart turn away, so that thou wilt not hear, but shalt be drawn away, and worship other gods, and serve them;",
+      "web": "But if your heart turns away, and you will not hear, but are drawn away and worship other gods, and serve them,",
+      "ct": "But if your heart turns away and you refuse to listen — if you let yourselves be lured into worshiping and serving other gods —"
+    },
+    {
+      "verse": 18,
+      "kjv": "I denounce unto you this day, that ye shall surely perish, and that ye shall not prolong your days upon the land, whither thou passest over Jordan to go to possess it.",
+      "web": "I declare to you today that you will surely perish. You will not prolong your days in the land where you pass over the Jordan to go in to possess it.",
+      "ct": "then I'm telling you plainly today: you will be destroyed. You won't last long in the land you're crossing the Jordan to possess."
+    },
+    {
+      "verse": 19,
+      "kjv": "I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live:",
+      "web": "I call heaven and earth to witness against you today that I have set before you life and death, the blessing and the curse. Therefore choose life, that you may live, you and your descendants,",
+      "ct": "I call heaven and earth as witnesses against you today: I have set before you life and death, blessing and cursing. So choose life, so that you and your descendants may live!"
+    },
+    {
+      "verse": 20,
+      "kjv": "That thou mayest love the LORD thy God, and that thou mayest obey his voice, and that thou mayest cleave unto him: for he is thy life, and the length of thy days: that thou mayest dwell in the land which the LORD sware unto thy fathers, to Abraham, to Isaac, and to Jacob, to give them.",
+      "web": "to love LORD your God, to obey his voice, and to cling to him; for he is your life, and the length of your days, that you may dwell in the land which LORD swore to your fathers, to Abraham, to Isaac, and to Jacob, to give them.",
+      "ct": "Love the LORD your God, obey his voice, and hold tightly to him — because he is your life and the source of a long future in the land the LORD promised to your ancestors Abraham, Isaac, and Jacob."
+    }
+  ]
+}

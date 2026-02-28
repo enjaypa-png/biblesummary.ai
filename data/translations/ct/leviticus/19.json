@@ -1,0 +1,233 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:45:53.635Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto all the congregation of the children of Israel, and say unto them, Ye shall be holy: for I the LORD your God am holy.",
+      "web": "“Speak to all the congregation of the children of Israel, and tell them, ‘You shall be holy; for I, LORD your God, am holy.",
+      "ct": "\"Tell the entire community of Israel: You must be holy, because I, the LORD your God, am holy."
+    },
+    {
+      "verse": 3,
+      "kjv": "Ye shall fear every man his mother, and his father, and keep my sabbaths: I am the LORD your God.",
+      "web": "“ ‘Each one of you shall respect his mother and his father. You shall keep my Sabbaths. I am LORD your God.",
+      "ct": "\"Each of you must fear your mother and father, and you must keep my Sabbaths. I am the LORD your God."
+    },
+    {
+      "verse": 4,
+      "kjv": "Turn ye not unto idols, nor make to yourselves molten gods: I am the LORD your God.",
+      "web": "“ ‘Don’t turn to idols, nor make molten gods for yourselves. I am LORD your God.",
+      "ct": "\"Don't turn to idols, and don't make metal gods for yourselves. I am the LORD your God."
+    },
+    {
+      "verse": 5,
+      "kjv": "And if ye offer a sacrifice of peace offerings unto the LORD, ye shall offer it at your own will.",
+      "web": "“ ‘When you offer a sacrifice of peace offerings to LORD, you shall offer it so that you may be accepted.",
+      "ct": "\"When you offer a peace offering to the LORD, offer it properly so it will be accepted."
+    },
+    {
+      "verse": 6,
+      "kjv": "It shall be eaten the same day ye offer it, and on the morrow: and if ought remain until the third day, it shall be burnt in the fire.",
+      "web": "It shall be eaten the same day you offer it, and on the next day. If anything remains until the third day, it shall be burned with fire.",
+      "ct": "It must be eaten on the same day you offer it, or the next day. If any of it is still left on the 3rd day, burn it completely."
+    },
+    {
+      "verse": 7,
+      "kjv": "And if it be eaten at all on the third day, it is abominable; it shall not be accepted.",
+      "web": "If it is eaten at all on the third day, it is an abomination. It will not be accepted;",
+      "ct": "If anyone eats it on the 3rd day, it is disgusting to God and will not be accepted."
+    },
+    {
+      "verse": 8,
+      "kjv": "Therefore every one that eateth it shall bear his iniquity, because he hath profaned the hallowed thing of the LORD: and that soul shall be cut off from among his people.",
+      "web": "but everyone who eats it shall bear his iniquity, because he has profaned the holy thing of LORD, and that soul shall be cut off from his people.",
+      "ct": "Anyone who eats it will bear the guilt of their sin, because they have treated something holy to the LORD as common. That person must be cut off from their people."
+    },
+    {
+      "verse": 9,
+      "kjv": "And when ye reap the harvest of your land, thou shalt not wholly reap the corners of thy field, neither shalt thou gather the gleanings of thy harvest.",
+      "web": "“ ‘When you reap the harvest of your land, you shall not wholly reap the corners of your field, neither shall you gather the gleanings of your harvest.",
+      "ct": "\"When you harvest your fields, don't cut all the way to the edges, and don't go back to pick up what you missed."
+    },
+    {
+      "verse": 10,
+      "kjv": "And thou shalt not glean thy vineyard, neither shalt thou gather every grape of thy vineyard; thou shalt leave them for the poor and stranger: I am the LORD your God.",
+      "web": "You shall not glean your vineyard, neither shall you gather the fallen grapes of your vineyard. You shall leave them for the poor and for the foreigner. I am LORD your God.",
+      "ct": "Don't strip your vineyard bare or pick up the fallen grapes. Leave them for the poor and for foreigners. I am the LORD your God."
+    },
+    {
+      "verse": 11,
+      "kjv": "Ye shall not steal, neither deal falsely, neither lie one to another.",
+      "web": "“ ‘You shall not steal. “ ‘You shall not lie. “ ‘You shall not deceive one another.",
+      "ct": "\"Don't steal. Don't lie. Don't deceive each other."
+    },
+    {
+      "verse": 12,
+      "kjv": "And ye shall not swear by my name falsely, neither shalt thou profane the name of thy God: I am the LORD.",
+      "web": "“ ‘You shall not swear by my name falsely, and profane the name of your God. I am LORD.",
+      "ct": "\"Don't swear falsely by my name — that dishonors the name of your God. I am the LORD."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou shalt not defraud thy neighbour, neither rob him: the wages of him that is hired shall not abide with thee all night until the morning.",
+      "web": "“ ‘You shall not oppress your neighbor, nor rob him. “ ‘The wages of a hired servant shall not remain with you all night until the morning.",
+      "ct": "\"Don't cheat your neighbor or rob them. If you hire a worker, don't hold their wages overnight — pay them before morning."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thou shalt not curse the deaf, nor put a stumblingblock before the blind, but shalt fear thy God: I am the LORD.",
+      "web": "“ ‘You shall not curse the deaf, nor put a stumbling block before the blind; but you shall fear your God. I am LORD.",
+      "ct": "\"Don't curse a deaf person, and don't put an obstacle in front of a blind person. Fear your God. I am the LORD."
+    },
+    {
+      "verse": 15,
+      "kjv": "Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honor the person of the mighty: but in righteousness shalt thou judge thy neighbour.",
+      "web": "“ ‘You shall do no injustice in judgment. You shall not be partial to the poor, nor show favoritism to the great; but you shall judge your neighbor in righteousness.",
+      "ct": "\"Don't pervert justice. Don't show favoritism to the poor, and don't give special treatment to the powerful. Judge your neighbor fairly."
+    },
+    {
+      "verse": 16,
+      "kjv": "Thou shalt not go up and down as a talebearer among thy people: neither shalt thou stand against the blood of thy neighbour: I am the LORD.",
+      "web": "“ ‘You shall not go around as a slanderer among your people. “ ‘You shall not endanger the life of your neighbor. I am LORD.",
+      "ct": "\"Don't go around spreading slander among your people. Don't do anything that endangers your neighbor's life. I am the LORD."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thou shalt not hate thy brother in thine heart: thou shalt in any wise rebuke thy neighbour, and not suffer sin upon him.",
+      "web": "“ ‘You shall not hate your brother in your heart. You shall surely rebuke your neighbor, and not bear sin because of him.",
+      "ct": "\"Don't harbor hatred toward your brother in your heart. If your neighbor does wrong, confront them directly — don't let their sin become yours by staying silent."
+    },
+    {
+      "verse": 18,
+      "kjv": "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.",
+      "web": "“ ‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am LORD.",
+      "ct": "\"Don't take revenge, and don't hold a grudge against your own people. Instead, love your neighbor as yourself. I am the LORD."
+    },
+    {
+      "verse": 19,
+      "kjv": "Ye shall keep my statutes. Thou shalt not let thy cattle gender with a diverse kind: thou shalt not sow thy field with mingled seed: neither shall a garment mingled of linen and woollen come upon thee.",
+      "web": "“ ‘You shall keep my statutes. “ ‘You shall not cross-breed different kinds of animals. “ ‘You shall not sow your field with two kinds of seed; “ ‘Don’t wear a garment made of two kinds of material.",
+      "ct": "\"Keep my statutes. Don't crossbreed different kinds of animals. Don't plant your field with 2 different kinds of seed. Don't wear clothing made from 2 different kinds of fabric."
+    },
+    {
+      "verse": 20,
+      "kjv": "And whosoever lieth carnally with a woman, that is a bondmaid, betrothed to an husband, and not at all redeemed, nor freedom given her; she shall be scourged; they shall not be put to death, because she was not free.",
+      "web": "“ ‘If a man lies carnally with a woman who is a slave girl, pledged to be married to another man, and not ransomed or given her freedom; they shall be punished. They shall not be put to death, because she was not free.",
+      "ct": "\"If a man sleeps with a slave woman who is promised to another man but hasn't been bought back or given her freedom, they must both be punished — but not put to death, because she was not free."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he shall bring his trespass offering unto the LORD, unto the door of the tabernacle of the congregation, even a ram for a trespass offering.",
+      "web": "He shall bring his trespass offering to LORD, to the door of the Tent of Meeting, even a ram for a trespass offering.",
+      "ct": "The man must bring a ram as a trespass offering to the LORD at the entrance of the Tent of Meeting."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the priest shall make an atonement for him with the ram of the trespass offering before the LORD for his sin which he hath done: and the sin which he hath done shall be forgiven him.",
+      "web": "The priest shall make atonement for him with the ram of the trespass offering before LORD for his sin which he has committed; and the sin which he has committed shall be forgiven him.",
+      "ct": "The priest will make atonement for him before the LORD with the ram of the trespass offering, and the sin he committed will be forgiven."
+    },
+    {
+      "verse": 23,
+      "kjv": "And when ye shall come into the land, and shall have planted all manner of trees for food, then ye shall count the fruit thereof as uncircumcised: three years shall it be as uncircumcised unto you: it shall not be eaten of.",
+      "web": "“ ‘When you come into the land, and have planted all kinds of trees for food, then you shall count their fruit as forbidden. For three years it shall be forbidden to you. It shall not be eaten.",
+      "ct": "\"When you enter the land and plant any kind of fruit tree, treat its fruit as forbidden for the first 3 years. Don't eat any of it."
+    },
+    {
+      "verse": 24,
+      "kjv": "But in the fourth year all the fruit thereof shall be holy to praise the LORD withal.",
+      "web": "But in the fourth year all its fruit shall be holy, for giving praise to LORD.",
+      "ct": "In the 4th year, all its fruit will be set apart as holy — an offering of praise to the LORD."
+    },
+    {
+      "verse": 25,
+      "kjv": "And in the fifth year shall ye eat of the fruit thereof, that it may yield unto you the increase thereof: I am the LORD your God.",
+      "web": "In the fifth year you shall eat its fruit, that it may yield its increase to you. I am LORD your God.",
+      "ct": "Then in the 5th year, you may eat its fruit. This way the trees will produce even more for you. I am the LORD your God."
+    },
+    {
+      "verse": 26,
+      "kjv": "Ye shall not eat any thing with the blood: neither shall ye use enchantment, nor observe times.",
+      "web": "“ ‘You shall not eat any meat with the blood still in it. You shall not use enchantments, nor practice sorcery.",
+      "ct": "\"Don't eat any meat with the blood still in it. Don't practice any kind of sorcery or divination."
+    },
+    {
+      "verse": 27,
+      "kjv": "Ye shall not round the corners of your heads, neither shalt thou mar the corners of thy beard.",
+      "web": "“ ‘You shall not cut the hair on the sides of your head or clip off the edge of your beard.",
+      "ct": "\"Don't cut the hair at the sides of your head, and don't trim the edges of your beard."
+    },
+    {
+      "verse": 28,
+      "kjv": "Ye shall not make any cuttings in your flesh for the dead, nor print any marks upon you: I am the LORD.",
+      "web": "“ ‘You shall not make any cuttings in your flesh for the dead, nor tattoo any marks on you. I am LORD.",
+      "ct": "\"Don't cut your bodies as part of mourning for the dead, and don't put tattoo marks on yourselves. I am the LORD."
+    },
+    {
+      "verse": 29,
+      "kjv": "Do not prostitute thy daughter, to cause her to be a whore; lest the land fall to whoredom, and the land become full of wickedness.",
+      "web": "“ ‘Don’t profane your daughter, to make her a prostitute; lest the land fall to prostitution, and the land become full of wickedness.",
+      "ct": "\"Don't degrade your daughter by making her a prostitute. If you do, the whole land will turn to prostitution and be filled with wickedness."
+    },
+    {
+      "verse": 30,
+      "kjv": "Ye shall keep my sabbaths, and reverence my sanctuary: I am the LORD.",
+      "web": "“ ‘You shall keep my Sabbaths, and reverence my sanctuary; I am LORD.",
+      "ct": "\"Keep my Sabbaths, and treat my sanctuary with reverence. I am the LORD."
+    },
+    {
+      "verse": 31,
+      "kjv": "Regard not them that have familiar spirits, neither seek after wizards, to be defiled by them: I am the LORD your God.",
+      "web": "“ ‘Don’t turn to those who are mediums, nor to the wizards. Don’t seek them out, to be defiled by them. I am LORD your God.",
+      "ct": "\"Don't consult mediums or seek out those who practice witchcraft — they will make you unclean. I am the LORD your God."
+    },
+    {
+      "verse": 32,
+      "kjv": "Thou shalt rise up before the hoary head, and honour the face of the old man, and fear thy God: I am the LORD.",
+      "web": "“ ‘You shall rise up before the gray head and honor the face of the elderly; and you shall fear your God. I am LORD.",
+      "ct": "\"Stand up in the presence of the elderly and show respect for the aged. Fear your God. I am the LORD."
+    },
+    {
+      "verse": 33,
+      "kjv": "And if a stranger sojourn with thee in your land, ye shall not vex him.",
+      "web": "“ ‘If a stranger lives as a foreigner with you in your land, you shall not do him wrong.",
+      "ct": "\"When a foreigner lives among you in your land, don't mistreat them."
+    },
+    {
+      "verse": 34,
+      "kjv": "But the stranger that dwelleth with you shall be unto you as one born among you, and thou shalt love him as thyself; for ye were strangers in the land of Egypt: I am the LORD your God.",
+      "web": "The stranger who lives as a foreigner with you shall be to you as the native-born among you, and you shall love him as yourself; for you lived as foreigners in the land of Egypt. I am LORD your God.",
+      "ct": "Treat the foreigner living among you the same as someone born in your own country. Love them as yourself, because you were once foreigners in Egypt. I am the LORD your God."
+    },
+    {
+      "verse": 35,
+      "kjv": "Ye shall do no unrighteousness in judgment, in meteyard, in weight, or in measure.",
+      "web": "“ ‘You shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity.",
+      "ct": "\"Don't use dishonest standards when measuring length, weight, or quantity."
+    },
+    {
+      "verse": 36,
+      "kjv": "Just balances, just weights, a just ephah, and a just hin, shall ye have: I am the LORD your God, which brought you out of the land of Egypt.",
+      "web": "You shall have just balances, just weights, a just ephah, and a just hin. I am LORD your God, who brought you out of the land of Egypt.",
+      "ct": "Use honest scales, honest weights, an honest ephah, and an honest hin. I am the LORD your God, who brought you out of Egypt."
+    },
+    {
+      "verse": 37,
+      "kjv": "Therefore shall ye observe all my statutes, and all my judgments, and do them: I am the LORD.",
+      "web": "“ ‘You shall observe all my statutes and all my ordinances, and do them. I am LORD.’ ”",
+      "ct": "\"Obey all my statutes and all my laws, and follow them. I am the LORD.\""
+    }
+  ]
+}

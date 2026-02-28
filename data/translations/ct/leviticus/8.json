@@ -1,0 +1,227 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:41:27.566Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Take Aaron and his sons with him, and the garments, and the anointing oil, and a bullock for the sin offering, and two rams, and a basket of unleavened bread;",
+      "web": "“Take Aaron and his sons with him, and the garments, and the anointing oil, and the bull of the sin offering, and the two rams, and the basket of unleavened bread;",
+      "ct": "\"Bring Aaron and his sons, along with the priestly garments, the anointing oil, the bull for the sin offering, the 2 rams, and the basket of unleavened bread."
+    },
+    {
+      "verse": 3,
+      "kjv": "And gather thou all the congregation together unto the door of the tabernacle of the congregation.",
+      "web": "and assemble all the congregation at the door of the Tent of Meeting.”",
+      "ct": "Then gather the entire community at the entrance of the Tent of Meeting.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Moses did as the LORD commanded him; and the assembly was gathered together unto the door of the tabernacle of the congregation.",
+      "web": "Moses did as LORD commanded him; and the congregation was assembled at the door of the Tent of Meeting.",
+      "ct": "Moses did exactly what the LORD commanded. When the whole community had assembled at the entrance of the Tent of Meeting,"
+    },
+    {
+      "verse": 5,
+      "kjv": "And Moses said unto the congregation, This is the thing which the LORD commanded to be done.",
+      "web": "Moses said to the congregation, “This is the thing which LORD has commanded to be done.”",
+      "ct": "Moses told them, \"What you are about to see is what the LORD has commanded us to do.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Moses brought Aaron and his sons, and washed them with water.",
+      "web": "Moses brought Aaron and his sons, and washed them with water.",
+      "ct": "Moses brought Aaron and his sons forward and washed them with water."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he put upon him the coat, and girded him with the girdle, and clothed him with the robe, and put the ephod upon him, and he girded him with the curious girdle of the ephod, and bound it unto him therewith.",
+      "web": "He put the tunic on him, tied the sash on him, clothed him with the robe, put the ephod on him, and he tied the skillfully woven band of the ephod on him and fastened it to him with it.",
+      "ct": "He dressed Aaron in the tunic, tied the sash around his waist, put the robe on him, and placed the ephod over it. Then he fastened the ephod's skillfully woven band around him to hold it in place."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he put the breastplate upon him: also he put in the breastplate the Urim and the Thummim.",
+      "web": "He placed the breastplate on him. He put the Urim and Thummim in the breastplate.",
+      "ct": "He placed the breastplate on Aaron's chest and put the Urim and Thummim inside it."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he put the mitre upon his head; also upon the mitre, even upon his forefront, did he put the golden plate, the holy crown; as the LORD commanded Moses.",
+      "web": "He set the turban on his head. He set the golden plate, the holy crown, on the front of the turban, as LORD commanded Moses.",
+      "ct": "He set the turban on Aaron's head and attached the golden plate — the holy crown — to the front of it, just as the LORD had commanded Moses."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Moses took the anointing oil, and anointed the tabernacle and all that was therein, and sanctified them.",
+      "web": "Moses took the anointing oil, and anointed the tabernacle and all that was in it, and sanctified them.",
+      "ct": "Then Moses took the anointing oil and anointed the tabernacle and everything in it, setting them apart as holy."
+    },
+    {
+      "verse": 11,
+      "kjv": "And he sprinkled thereof upon the altar seven times, and anointed the altar and all his vessels, both the laver and his foot, to sanctify them.",
+      "web": "He sprinkled it on the altar seven times, and anointed the altar and all its vessels, and the basin and its base, to sanctify them.",
+      "ct": "He sprinkled some of the oil on the altar 7 times, anointing the altar, all its utensils, the basin, and its stand, to set them apart as holy."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he poured of the anointing oil upon Aaron’s head, and anointed him, to sanctify him.",
+      "web": "He poured some of the anointing oil on Aaron’s head, and anointed him, to sanctify him.",
+      "ct": "He poured some of the anointing oil on Aaron's head, anointing him to set him apart as holy."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Moses brought Aaron’s sons, and put coats upon them, and girded them with girdles, and put bonnets upon them; as the LORD commanded Moses.",
+      "web": "Moses brought Aaron’s sons, and clothed them with tunics, and tied sashes on them, and put headbands on them, as LORD commanded Moses.",
+      "ct": "Moses then brought Aaron's sons forward, dressed them in tunics, tied sashes around their waists, and put headbands on them, just as the LORD had commanded Moses."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he brought the bullock for the sin offering: and Aaron and his sons laid their hands upon the head of the bullock for the sin offering.",
+      "web": "He brought the bull of the sin offering, and Aaron and his sons laid their hands on the head of the bull of the sin offering.",
+      "ct": "He brought the bull for the sin offering, and Aaron and his sons placed their hands on the bull's head."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he slew it; and Moses took the blood, and put it upon the horns of the altar round about with his finger, and purified the altar, and poured the blood at the bottom of the altar, and sanctified it, to make reconciliation upon it.",
+      "web": "He killed it; and Moses took the blood, and put it around on the horns of the altar with his finger, and purified the altar, and poured out the blood at the base of the altar, and sanctified it, to make atonement for it.",
+      "ct": "Moses slaughtered it, then took the blood and applied it with his finger to each of the horns around the altar, purifying the altar. He poured the rest of the blood at the base of the altar, setting it apart as holy and making atonement for it."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he took all the fat that was upon the inwards, and the caul above the liver, and the two kidneys, and their fat, and Moses burned it upon the altar.",
+      "web": "He took all the fat that was on the innards, and the cover of the liver, and the two kidneys, and their fat; and Moses burned it on the altar.",
+      "ct": "He removed all the fat covering the internal organs, the covering of the liver, and the 2 kidneys with their fat, and Moses burned it all on the altar."
+    },
+    {
+      "verse": 17,
+      "kjv": "But the bullock, and his hide, his flesh, and his dung, he burnt with fire without the camp; as the LORD commanded Moses.",
+      "web": "But the bull, and its skin, and its meat, and its dung, he burned with fire outside the camp, as LORD commanded Moses.",
+      "ct": "The rest of the bull — its hide, meat, and waste — he burned outside the camp, just as the LORD had commanded Moses."
+    },
+    {
+      "verse": 18,
+      "kjv": "And he brought the ram for the burnt offering: and Aaron and his sons laid their hands upon the head of the ram.",
+      "web": "He presented the ram of the burnt offering. Aaron and his sons laid their hands on the head of the ram.",
+      "ct": "Next, he brought the ram for the burnt offering. Aaron and his sons placed their hands on the ram's head."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he killed it; and Moses sprinkled the blood upon the altar round about.",
+      "web": "He killed it; and Moses sprinkled the blood around on the altar.",
+      "ct": "Moses slaughtered it and splashed the blood on all sides of the altar."
+    },
+    {
+      "verse": 20,
+      "kjv": "And he cut the ram into pieces; and Moses burnt the head, and the pieces, and the fat.",
+      "web": "He cut the ram into its pieces; and Moses burned the head, and the pieces, and the fat.",
+      "ct": "He cut the ram into pieces, and Moses burned the head, the pieces, and the fat on the altar."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he washed the inwards and the legs in water; and Moses burnt the whole ram upon the altar: it was a burnt sacrifice for a sweet savour, and an offering made by fire unto the LORD; as the LORD commanded Moses.",
+      "web": "He washed the innards and the legs with water; and Moses burned the whole ram on the altar. It was a burnt offering for a pleasant aroma. It was an offering made by fire to LORD, as LORD commanded Moses.",
+      "ct": "He washed the internal organs and the legs with water, then burned the entire ram on the altar. It was a burnt offering with a pleasing aroma — an offering made by fire to the LORD, just as the LORD had commanded Moses."
+    },
+    {
+      "verse": 22,
+      "kjv": "And he brought the other ram, the ram of consecration: and Aaron and his sons laid their hands upon the head of the ram.",
+      "web": "He presented the other ram, the ram of consecration. Aaron and his sons laid their hands on the head of the ram.",
+      "ct": "Then he brought the second ram — the ram of consecration. Aaron and his sons placed their hands on its head."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he slew it; and Moses took of the blood of it, and put it upon the tip of Aaron’s right ear, and upon the thumb of his right hand, and upon the great toe of his right foot.",
+      "web": "He killed it; and Moses took some of its blood, and put it on the tip of Aaron’s right ear, and on the thumb of his right hand, and on the great toe of his right foot.",
+      "ct": "Moses slaughtered it and took some of its blood. He applied it to the tip of Aaron's right ear, the thumb of his right hand, and the big toe of his right foot."
+    },
+    {
+      "verse": 24,
+      "kjv": "And he brought Aaron’s sons, and Moses put of the blood upon the tip of their right ear, and upon the thumbs of their right hands, and upon the great toes of their right feet: and Moses sprinkled the blood upon the altar round about.",
+      "web": "He brought Aaron’s sons; and Moses put some of the blood on the tip of their right ear, and on the thumb of their right hand, and on the great toe of their right foot; and Moses sprinkled the blood around on the altar.",
+      "ct": "He then brought Aaron's sons forward and applied some of the blood to the tip of each one's right ear, the thumb of each right hand, and the big toe of each right foot. Moses splashed the remaining blood on all sides of the altar."
+    },
+    {
+      "verse": 25,
+      "kjv": "And he took the fat, and the rump, and all the fat that was upon the inwards, and the caul above the liver, and the two kidneys, and their fat, and the right shoulder:",
+      "web": "He took the fat, the fat tail, all the fat that was on the innards, the cover of the liver, the two kidneys and their fat, and the right thigh;",
+      "ct": "He took the fat, the fat tail, all the fat covering the internal organs, the covering of the liver, the 2 kidneys with their fat, and the right thigh."
+    },
+    {
+      "verse": 26,
+      "kjv": "And out of the basket of unleavened bread, that was before the LORD, he took one unleavened cake, and a cake of oiled bread, and one wafer, and put them on the fat, and upon the right shoulder:",
+      "web": "and out of the basket of unleavened bread that was before LORD, he took one unleavened cake, one cake of oiled bread, and one wafer, and placed them on the fat and on the right thigh.",
+      "ct": "From the basket of unleavened bread that was before the LORD, he took one unleavened cake, one cake made with oil, and one wafer, and placed them on top of the fat portions and the right thigh."
+    },
+    {
+      "verse": 27,
+      "kjv": "And he put all upon Aaron’s hands, and upon his sons’ hands, and waved them for a wave offering before the LORD.",
+      "web": "He put all these in Aaron’s hands and in his sons’ hands, and waved them for a wave offering before LORD.",
+      "ct": "He put all of this into the hands of Aaron and his sons, and they waved it before the LORD as a wave offering."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Moses took them from off their hands, and burnt them on the altar upon the burnt offering: they were consecrations for a sweet savour: it is an offering made by fire unto the LORD.",
+      "web": "Moses took them from their hands, and burned them on the altar on the burnt offering. They were a consecration offering for a pleasant aroma. It was an offering made by fire to LORD.",
+      "ct": "Moses then took everything from their hands and burned it on the altar alongside the burnt offering. This was the consecration offering — a pleasing aroma, an offering made by fire to the LORD."
+    },
+    {
+      "verse": 29,
+      "kjv": "And Moses took the breast, and waved it for a wave offering before the LORD: for of the ram of consecration it was Moses’ part; as the LORD commanded Moses.",
+      "web": "Moses took the breast, and waved it for a wave offering before LORD. It was Moses’ portion of the ram of consecration, as LORD commanded Moses.",
+      "ct": "Moses took the breast and waved it before the LORD as a wave offering. This was Moses' portion of the ram of consecration, just as the LORD had commanded him."
+    },
+    {
+      "verse": 30,
+      "kjv": "And Moses took of the anointing oil, and of the blood which was upon the altar, and sprinkled it upon Aaron, and upon his garments, and upon his sons, and upon his sons’ garments with him; and sanctified Aaron, and his garments, and his sons, and his sons’ garments with him.",
+      "web": "Moses took some of the anointing oil, and some of the blood which was on the altar, and sprinkled it on Aaron, on his garments, and on his sons, and on his sons’ garments with him, and sanctified Aaron, his garments, and his sons, and his sons’ garments with him.",
+      "ct": "Moses took some of the anointing oil and some of the blood from the altar and sprinkled it on Aaron and his garments, and on his sons and their garments. In this way he set apart Aaron and his garments, and his sons and their garments, as holy."
+    },
+    {
+      "verse": 31,
+      "kjv": "And Moses said unto Aaron and to his sons, Boil the flesh at the door of the tabernacle of the congregation: and there eat it with the bread that is in the basket of consecrations, as I commanded, saying, Aaron and his sons shall eat it.",
+      "web": "Moses said to Aaron and to his sons, “Boil the meat at the door of the Tent of Meeting, and there eat it and the bread that is in the basket of consecration, as I commanded, saying, ‘Aaron and his sons shall eat it.’",
+      "ct": "Moses told Aaron and his sons, \"Cook the meat at the entrance of the Tent of Meeting and eat it there with the bread from the basket of consecration, just as I was commanded: 'Aaron and his sons are to eat it.'"
+    },
+    {
+      "verse": 32,
+      "kjv": "And that which remaineth of the flesh and of the bread shall ye burn with fire.",
+      "web": "What remains of the meat and of the bread you shall burn with fire.",
+      "ct": "Whatever meat and bread is left over, burn it."
+    },
+    {
+      "verse": 33,
+      "kjv": "And ye shall not go out of the door of the tabernacle of the congregation in seven days, until the days of your consecration be at an end: for seven days shall he consecrate you.",
+      "web": "You shall not go out from the door of the Tent of Meeting for seven days, until the days of your consecration are fulfilled: for he shall consecrate you seven days.",
+      "ct": "Don't leave the entrance of the Tent of Meeting for 7 days, until your consecration period is complete. It will take 7 days to fully consecrate you."
+    },
+    {
+      "verse": 34,
+      "kjv": "As he hath done this day, so the LORD hath commanded to do, to make an atonement for you.",
+      "web": "What has been done today, so LORD has commanded to do, to make atonement for you.",
+      "ct": "What was done today is what the LORD commanded, in order to make atonement for you."
+    },
+    {
+      "verse": 35,
+      "kjv": "Therefore shall ye abide at the door of the tabernacle of the congregation day and night seven days, and keep the charge of the LORD, that ye die not: for so I am commanded.",
+      "web": "You shall stay at the door of the Tent of Meeting day and night seven days, and keep LORD’s command, that you don’t die: for so I am commanded.”",
+      "ct": "You must stay at the entrance of the Tent of Meeting day and night for 7 days, carrying out the LORD's instructions — otherwise you will die. This is what I've been commanded.\""
+    },
+    {
+      "verse": 36,
+      "kjv": "So Aaron and his sons did all things which the LORD commanded by the hand of Moses.",
+      "web": "Aaron and his sons did all the things which LORD commanded by Moses.",
+      "ct": "Aaron and his sons did everything the LORD had commanded through Moses."
+    }
+  ]
+}

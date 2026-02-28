@@ -1,0 +1,173 @@
+{
+  "book": "revelation",
+  "book_name": "Revelation",
+  "chapter": 21,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:23:22.293Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.",
+      "web": "I saw a new heaven and a new earth: for the first heaven and the first earth have passed away, and the sea is no more.",
+      "ct": "Then I saw a new heaven and a new earth, because the first heaven and the first earth had disappeared. The sea was gone too."
+    },
+    {
+      "verse": 2,
+      "kjv": "And I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband.",
+      "web": "I saw the holy city, New Jerusalem, coming down out of heaven from God, prepared like a bride adorned for her husband.",
+      "ct": "I, John, saw the holy city — the new Jerusalem — coming down out of heaven from God, as beautiful as a bride dressed and ready for her husband."
+    },
+    {
+      "verse": 3,
+      "kjv": "And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God.",
+      "web": "I heard a loud voice out of heaven saying, “Behold, God’s dwelling is with people, and he will dwell with them, and they will be his people, and God himself will be with them as their God.",
+      "ct": "Then I heard a loud voice from the throne say, \"Look! God's home is now among his people. He will live with them, and they will be his people. God himself will be right there with them as their God."
+    },
+    {
+      "verse": 4,
+      "kjv": "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.",
+      "web": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away.”",
+      "ct": "He will wipe every tear from their eyes. There will be no more death, no more grief, no more crying, and no more pain. The old world and everything in it has passed away.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And he that sat upon the throne said, Behold, I make all things new. And he said unto me, Write: for these words are true and faithful.",
+      "web": "He who sits on the throne said, “Behold, I am making all things new.” He said, “Write, for these words of God are faithful and true.”",
+      "ct": "The one sitting on the throne said, \"Look! I am making everything new.\" Then he said to me, \"Write this down, because these words are true and trustworthy.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And he said unto me, It is done. I am Alpha and Omega, the beginning and the end. I will give unto him that is athirst of the fountain of the water of life freely.",
+      "web": "He said to me, “I have become the Alpha and the Omega, the Beginning and the End. I will give freely to him who is thirsty from the spring of the water of life.",
+      "ct": "He said to me, \"It is done. I am the Alpha and the Omega — the Beginning and the End. To anyone who is thirsty, I will give water freely from the spring of the water of life."
+    },
+    {
+      "verse": 7,
+      "kjv": "He that overcometh shall inherit all things; and I will be his God, and he shall be my son.",
+      "web": "He who overcomes, I will give him these things. I will be his God, and he will be my son.",
+      "ct": "Everyone who overcomes will inherit all of this. I will be their God, and they will be my children."
+    },
+    {
+      "verse": 8,
+      "kjv": "But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.",
+      "web": "But for the cowardly, unbelieving, sinners, abominable, murderers, sexually immoral, sorcerers, idolaters, and all liars, their part is in the lake that burns with fire and sulfur, which is the second death.”",
+      "ct": "But cowards, the unfaithful, the vile, murderers, the sexually immoral, sorcerers, idolaters, and all liars — their place will be in the lake that burns with fire and sulfur. That is the second death.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And there came unto me one of the seven angels which had the seven vials full of the seven last plagues, and talked with me, saying, Come hither, I will shew thee the bride, the Lamb’s wife.",
+      "web": "One of the seven angels who had the seven bowls, who were loaded with the seven last plagues came, and he spoke with me, saying, “Come here. I will show you the wife, the Lamb’s bride.”",
+      "ct": "Then one of the 7 angels who had carried the 7 bowls filled with the 7 final plagues came to me and said, \"Come with me, and I will show you the bride, the wife of the Lamb.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And he carried me away in the spirit to a great and high mountain, and shewed me that great city, the holy Jerusalem, descending out of heaven from God,",
+      "web": "He carried me away in the Spirit to a great and high mountain, and showed me the holy city, Jerusalem, coming down out of heaven from God,",
+      "ct": "He carried me away in the Spirit to the top of a massive, towering mountain and showed me the holy city, Jerusalem, descending out of heaven from God."
+    },
+    {
+      "verse": 11,
+      "kjv": "Having the glory of God: and her light was like unto a stone most precious, even like a jasper stone, clear as crystal;",
+      "web": "having the glory of God. Her light was like a most precious stone, as if it were a jasper stone, clear as crystal;",
+      "ct": "It radiated the glory of God. Its brilliance was like the most precious gemstone — like jasper, clear as crystal."
+    },
+    {
+      "verse": 12,
+      "kjv": "And had a wall great and high, and had twelve gates, and at the gates twelve angels, and names written thereon, which are the names of the twelve tribes of the children of Israel:",
+      "web": "having a great and high wall; having twelve gates, and at the gates twelve angels; and names written on them, which are the names of the twelve tribes of the children of Israel.",
+      "ct": "It had a great, high wall with 12 gates, and an angel stood at each gate. Written on the gates were the names of the 12 tribes of the children of Israel."
+    },
+    {
+      "verse": 13,
+      "kjv": "On the east three gates; on the north three gates; on the south three gates; and on the west three gates.",
+      "web": "On the east were three gates; and on the north three gates; and on the south three gates; and on the west three gates.",
+      "ct": "There were 3 gates on the east side, 3 on the north, 3 on the south, and 3 on the west."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the wall of the city had twelve foundations, and in them the names of the twelve apostles of the Lamb.",
+      "web": "The wall of the city had twelve foundations, and on them twelve names of the twelve Apostles of the Lamb.",
+      "ct": "The city wall had 12 foundations, and inscribed on them were the names of the 12 apostles of the Lamb."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he that talked with me had a golden reed to measure the city, and the gates thereof, and the wall thereof.",
+      "web": "He who spoke with me had for a measure a golden reed to measure the city, its gates, and its walls.",
+      "ct": "The angel who spoke with me held a golden measuring rod to measure the city, its gates, and its wall."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the city lieth foursquare, and the length is as large as the breadth: and he measured the city with the reed, twelve thousand furlongs. The length and the breadth and the height of it are equal.",
+      "web": "The city is square, and its length is as great as its width. He measured the city with the reed, twelve thousand twelve stadia. Its length, width, and height are equal.",
+      "ct": "The city was laid out as a perfect square, with its length equal to its width. He measured it with the rod: 12,000 furlongs on each side. Its length, width, and height were all equal."
+    },
+    {
+      "verse": 17,
+      "kjv": "And he measured the wall thereof, an hundred and forty and four cubits, according to the measure of a man, that is, of the angel.",
+      "web": "Its wall is one hundred forty-four cubits, by the measure of a man, that is, of an angel.",
+      "ct": "He measured the wall and found it to be 144 cubits thick, by human measurement — which the angel was also using."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the building of the wall of it was of jasper: and the city was pure gold, like unto clear glass.",
+      "web": "The construction of its wall was jasper. The city was pure gold, like pure glass.",
+      "ct": "The wall was built of jasper, and the city itself was pure gold, as clear as glass."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the foundations of the wall of the city were garnished with all manner of precious stones. The first foundation was jasper; the second, sapphire; the third, a chalcedony; the fourth, an emerald;",
+      "web": "The foundations of the city’s wall were adorned with all kinds of precious stones. The first foundation was jasper; the second, sapphire; the third, chalcedony; the fourth, emerald;",
+      "ct": "The foundations of the city wall were decorated with every kind of precious stone. The 1st foundation was jasper, the 2nd sapphire, the 3rd chalcedony, the 4th emerald,"
+    },
+    {
+      "verse": 20,
+      "kjv": "The fifth, sardonyx; the sixth, sardius; the seventh, chrysolyte; the eighth, beryl; the ninth, a topaz; the tenth, a chrysoprasus; the eleventh, a jacinth; the twelfth, an amethyst.",
+      "web": "the fifth, sardonyx; the sixth, sardius; the seventh, chrysolite; the eighth, beryl; the ninth, topaz; the tenth, chrysoprase; the eleventh, jacinth; and the twelfth, amethyst.",
+      "ct": "the 5th sardonyx, the 6th sardius, the 7th chrysolite, the 8th beryl, the 9th topaz, the 10th chrysoprase, the 11th jacinth, and the 12th amethyst."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the twelve gates were twelve pearls: every several gate was of one pearl: and the street of the city was pure gold, as it were transparent glass.",
+      "web": "The twelve gates were twelve pearls. Each one of the gates was made of one pearl. The street of the city was pure gold, like transparent glass.",
+      "ct": "The 12 gates were 12 pearls — each gate carved from a single pearl. The main street of the city was pure gold, transparent as glass."
+    },
+    {
+      "verse": 22,
+      "kjv": "And I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it.",
+      "web": "I saw no temple in it, for the Lord God, the Almighty, and the Lamb, are its temple.",
+      "ct": "I didn't see a temple anywhere in the city, because the Lord God, the Almighty, and the Lamb are its temple."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the city had no need of the sun, neither of the moon, to shine in it: for the glory of God did lighten it, and the Lamb is the light thereof.",
+      "web": "The city has no need for the sun or moon to shine, for the very glory of God illuminated it, and its lamp is the Lamb.",
+      "ct": "The city doesn't need the sun or the moon to shine on it, because the glory of God lights it up, and the Lamb is its lamp."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the nations of them which are saved shall walk in the light of it: and the kings of the earth do bring their glory and honour into it.",
+      "web": "The nations will walk in its light. The kings of the earth bring the glory and honor of the nations into it.",
+      "ct": "The nations who are saved will walk by its light, and the kings of the earth will bring their glory and honor into it."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the gates of it shall not be shut at all by day: for there shall be no night there.",
+      "web": "Its gates will in no way be shut by day (for there will be no night there),",
+      "ct": "Its gates will never be shut during the day — and there won't be any night there."
+    },
+    {
+      "verse": 26,
+      "kjv": "And they shall bring the glory and honour of the nations into it.",
+      "web": "and they shall bring the glory and the honor of the nations into it so that they may enter.",
+      "ct": "The glory and honor of the nations will be carried into it."
+    },
+    {
+      "verse": 27,
+      "kjv": "And there shall in no wise enter into it any thing that defileth, neither whatsoever worketh abomination, or maketh a lie: but they which are written in the Lamb’s book of life.",
+      "web": "There will in no way enter into it anything profane, or one who causes an abomination or a lie, but only those who are written in the Lamb’s book of life.",
+      "ct": "Nothing impure will ever enter it — no one who does what is vile or dishonest — but only those whose names are written in the Lamb's book of life."
+    }
+  ]
+}

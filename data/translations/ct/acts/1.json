@@ -1,0 +1,167 @@
+{
+  "book": "acts",
+  "book_name": "Acts",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T14:04:18.109Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The former treatise have I made, O Theophilus, of all that Jesus began both to do and teach,",
+      "web": "The first book I wrote, Theophilus, concerned all that Jesus began both to do and to teach,",
+      "ct": "In my first book, Theophilus, I wrote about everything Jesus began to do and teach,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Until the day in which he was taken up, after that he through the Holy Ghost had given commandments unto the apostles whom he had chosen:",
+      "web": "until the day in which he was received up, after he had given commandment through the Holy Spirit to the apostles whom he had chosen.",
+      "ct": "right up until the day he was taken up into heaven. Before he left, he gave instructions through the Holy Spirit to the apostles he had chosen."
+    },
+    {
+      "verse": 3,
+      "kjv": "To whom also he shewed himself alive after his passion by many infallible proofs, being seen of them forty days, and speaking of the things pertaining to the kingdom of God:",
+      "web": "To these he also showed himself alive after he suffered, by many proofs, appearing to them over a period of forty days, and speaking about God’s Kingdom.",
+      "ct": "After his suffering and death, he showed himself alive to these apostles with many convincing proofs. Over a period of 40 days he appeared to them and talked with them about the kingdom of God."
+    },
+    {
+      "verse": 4,
+      "kjv": "And, being assembled together with them, commanded them that they should not depart from Jerusalem, but wait for the promise of the Father, which, saith he, ye have heard of me.",
+      "web": "Being assembled together with them, he commanded them, “Don’t depart from Jerusalem, but wait for the promise of the Father, which you heard from me.",
+      "ct": "During one of these gatherings, he gave them this command: \"Don't leave Jerusalem. Wait here for the gift the Father promised — the one I told you about."
+    },
+    {
+      "verse": 5,
+      "kjv": "For John truly baptized with water; but ye shall be baptized with the Holy Ghost not many days hence.",
+      "web": "For John indeed baptized in water, but you will be baptized in the Holy Spirit not many days from now.”",
+      "ct": "John baptized with water, but in just a few days, you will be baptized with the Holy Spirit.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "When they therefore were come together, they asked of him, saying, Lord, wilt thou at this time restore again the kingdom to Israel?",
+      "web": "Therefore when they had come together, they asked him, “Lord, are you now restoring the kingdom to Israel?”",
+      "ct": "So when they were all together, they asked him, \"Lord, is this the time when you're going to restore the kingdom to Israel?\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And he said unto them, It is not for you to know the times or the seasons, which the Father hath put in his own power.",
+      "web": "He said to them, “It isn’t for you to know times or seasons which the Father has set within his own authority.",
+      "ct": "He told them, \"It's not for you to know the times or dates that the Father has set by his own authority."
+    },
+    {
+      "verse": 8,
+      "kjv": "But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth.",
+      "web": "But you will receive power when the Holy Spirit has come upon you. You will be witnesses to me in Jerusalem, in all Judea and Samaria, and to the uttermost parts of the earth.”",
+      "ct": "But you will receive power when the Holy Spirit comes upon you. And you will be my witnesses — in Jerusalem, throughout all Judaea and Samaria, and to the farthest corners of the earth.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And when he had spoken these things, while they beheld, he was taken up; and a cloud received him out of their sight.",
+      "web": "When he had said these things, as they were looking, he was taken up, and a cloud received him out of their sight.",
+      "ct": "After he said this, they watched as he was lifted up, and a cloud took him out of their sight."
+    },
+    {
+      "verse": 10,
+      "kjv": "And while they looked stedfastly toward heaven as he went up, behold, two men stood by them in white apparel;",
+      "web": "While they were looking steadfastly into the sky as he went, behold, two men stood by them in white clothing,",
+      "ct": "They stood there staring into the sky as he went up. Suddenly, 2 men dressed in white appeared beside them."
+    },
+    {
+      "verse": 11,
+      "kjv": "Which also said, Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven.",
+      "web": "who also said, “You men of Galilee, why do you stand looking into the sky? This Jesus, who was received up from you into the sky, will come back in the same way as you saw him going into the sky.”",
+      "ct": "\"Men of Galilee,\" they said, \"why are you standing here looking up at the sky? This same Jesus, who has been taken from you into heaven, will come back in exactly the same way you've seen him go.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then returned they unto Jerusalem from the mount called Olivet, which is from Jerusalem a sabbath day’s journey.",
+      "web": "Then they returned to Jerusalem from the mountain called Olivet, which is near Jerusalem, a Sabbath day’s journey away.",
+      "ct": "Then they returned to Jerusalem from the Mount of Olives, which is about a Sabbath day's journey from the city."
+    },
+    {
+      "verse": 13,
+      "kjv": "And when they were come in, they went up into an upper room, where abode both Peter, and James, and John, and Andrew, Philip, and Thomas, Bartholomew, and Matthew, James the son of Alphaeus, and Simon Zelotes, and Judas the brother of James.",
+      "web": "When they had come in, they went up into the upper room where they were staying; that is Peter, John, James, Andrew, Philip, Thomas, Bartholomew, Matthew, James the son of Alphaeus, Simon the Zealot, and Judas the son of James.",
+      "ct": "When they arrived, they went to the upstairs room where they had been staying. Those present were Peter, John, James, Andrew, Philip, Thomas, Bartholomew, Matthew, James son of Alphaeus, Simon the Zealot, and Judas son of James."
+    },
+    {
+      "verse": 14,
+      "kjv": "These all continued with one accord in prayer and supplication, with the women, and Mary the mother of Jesus, and with his brethren.",
+      "web": "All these with one accord continued steadfastly in prayer and supplication, along with the women, and Mary the mother of Jesus, and with his brothers.",
+      "ct": "They all joined together constantly in prayer, along with the women, Mary the mother of Jesus, and his brothers."
+    },
+    {
+      "verse": 15,
+      "kjv": "And in those days Peter stood up in the midst of the disciples, and said, (the number of names together were about an hundred and twenty,)",
+      "web": "In these days, Peter stood up in the middle of the disciples (and the number of names was about one hundred twenty), and said,",
+      "ct": "During those days, Peter stood up among the believers — a group of about 120 people — and said,"
+    },
+    {
+      "verse": 16,
+      "kjv": "Men and brethren, this scripture must needs have been fulfilled, which the Holy Ghost by the mouth of David spake before concerning Judas, which was guide to them that took Jesus.",
+      "web": "“Brothers, it was necessary that this Scripture should be fulfilled, which the Holy Spirit spoke before by the mouth of David concerning Judas, who was guide to those who took Jesus.",
+      "ct": "\"Brothers, the Scripture had to be fulfilled that the Holy Spirit spoke long ago through David about Judas, the one who guided the mob to arrest Jesus."
+    },
+    {
+      "verse": 17,
+      "kjv": "For he was numbered with us, and had obtained part of this ministry.",
+      "web": "For he was counted with us, and received his portion in this ministry.",
+      "ct": "Judas was one of us. He had been given his share in this ministry."
+    },
+    {
+      "verse": 18,
+      "kjv": "Now this man purchased a field with the reward of iniquity; and falling headlong, he burst asunder in the midst, and all his bowels gushed out.",
+      "web": "Now this man obtained a field with the reward for his wickedness, and falling headlong, his body burst open, and all his intestines gushed out.",
+      "ct": "But with the money he earned for his wickedness, he bought a field. There he fell headfirst, his body split open, and his intestines spilled out."
+    },
+    {
+      "verse": 19,
+      "kjv": "And it was known unto all the dwellers at Jerusalem; insomuch as that field is called in their proper tongue, Aceldama, that is to say, The field of blood.",
+      "web": "It became known to everyone who lived in Jerusalem that in their language that field was called ‘Akeldama,’ that is, ‘The field of blood.’",
+      "ct": "Everyone in Jerusalem heard about this, so they named that field Aceldama in their own language, which means 'The Field of Blood.'"
+    },
+    {
+      "verse": 20,
+      "kjv": "For it is written in the book of Psalms, Let his habitation be desolate, and let no man dwell therein: and his bishoprick let another take.",
+      "web": "For it is written in the book of Psalms, ‘Let his habitation be made desolate. Let no one dwell in it;’ and, ‘Let another take his office.’",
+      "ct": "Peter continued, \"It's written in the book of Psalms: 'Let his home become deserted; let no one live in it,' and also, 'Let someone else take his position.'"
+    },
+    {
+      "verse": 21,
+      "kjv": "Wherefore of these men which have companied with us all the time that the Lord Jesus went in and out among us,",
+      "web": "“Of the men therefore who have accompanied us all the time that the Lord Jesus went in and out among us,",
+      "ct": "So we need to choose someone who has been with us the entire time the Lord Jesus was among us —"
+    },
+    {
+      "verse": 22,
+      "kjv": "Beginning from the baptism of John, unto that same day that he was taken up from us, must one be ordained to be a witness with us of his resurrection.",
+      "web": "beginning from the baptism of John, to the day that he was received up from us, of these one must become a witness with us of his resurrection.”",
+      "ct": "from the time of John's baptism all the way until the day Jesus was taken up from us. This person must join us as a witness of his resurrection.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And they appointed two, Joseph called Barsabas, who was surnamed Justus, and Matthias.",
+      "web": "They put forward two, Joseph called Barsabbas, who was also called Justus, and Matthias.",
+      "ct": "They nominated 2 men: Joseph called Barsabas (also known as Justus) and Matthias."
+    },
+    {
+      "verse": 24,
+      "kjv": "And they prayed, and said, Thou, Lord, which knowest the hearts of all men, shew whether of these two thou hast chosen,",
+      "web": "They prayed and said, “You, Lord, who know the hearts of all men, show which one of these two you have chosen",
+      "ct": "Then they prayed, \"Lord, you know everyone's heart. Show us which of these 2 you have chosen"
+    },
+    {
+      "verse": 25,
+      "kjv": "That he may take part of this ministry and apostleship, from which Judas by transgression fell, that he might go to his own place.",
+      "web": "to take part in this ministry and apostleship from which Judas fell away, that he might go to his own place.”",
+      "ct": "to take over this ministry and apostleship that Judas abandoned to go where he belongs.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And they gave forth their lots; and the lot fell upon Matthias; and he was numbered with the eleven apostles.",
+      "web": "They drew lots for them, and the lot fell on Matthias, and he was counted with the eleven apostles.",
+      "ct": "Then they cast lots, and the lot fell to Matthias. He was added to the 11 apostles."
+    }
+  ]
+}

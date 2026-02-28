@@ -1,0 +1,233 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:05:20.832Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then we turned, and took our journey into the wilderness by the way of the Red sea, as the LORD spake unto me: and we compassed mount Seir many days.",
+      "web": "Then we turned, and took our journey into the wilderness by the way to the Red Sea, as LORD spoke to me; and we encircled Mount Seir many days.",
+      "ct": "Then we turned around and headed into the wilderness along the road toward the Red Sea, just as the LORD had told me. We spent a long time traveling around Mount Seir."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD spake unto me, saying,",
+      "web": "LORD spoke to me, saying,",
+      "ct": "Then the LORD said to me,"
+    },
+    {
+      "verse": 3,
+      "kjv": "Ye have compassed this mountain long enough: turn you northward.",
+      "web": "“You have encircled this mountain long enough. Turn northward.",
+      "ct": "\"You've been circling this mountain long enough. Turn north."
+    },
+    {
+      "verse": 4,
+      "kjv": "And command thou the people, saying, Ye are to pass through the coast of your brethren the children of Esau, which dwell in Seir; and they shall be afraid of you: take ye good heed unto yourselves therefore:",
+      "web": "Command the people, saying, ‘You are to pass through the border of your brothers, the children of Esau, who dwell in Seir; and they will be afraid of you. Therefore be careful.",
+      "ct": "Give the people these instructions: 'You're about to pass through the territory of your relatives, the descendants of Esau, who live in Seir. They'll be afraid of you, so be very careful."
+    },
+    {
+      "verse": 5,
+      "kjv": "Meddle not with them; for I will not give you of their land, no, not so much as a foot breadth; because I have given mount Seir unto Esau for a possession.",
+      "web": "Don’t contend with them; for I will not give you any of their land, no, not so much as for the sole of the foot to tread on, because I have given Mount Seir to Esau for a possession.",
+      "ct": "Don't provoke them. I won't give you even a footstep of their land, because I've given Mount Seir to Esau as his own possession."
+    },
+    {
+      "verse": 6,
+      "kjv": "Ye shall buy meat of them for money, that ye may eat; and ye shall also buy water of them for money, that ye may drink.",
+      "web": "You shall purchase food from them for money, that you may eat. You shall also buy water from them for money, that you may drink.’ ”",
+      "ct": "Pay them with silver for any food you eat, and pay them with silver for any water you drink.'\""
+    },
+    {
+      "verse": 7,
+      "kjv": "For the LORD thy God hath blessed thee in all the works of thy hand: he knoweth thy walking through this great wilderness: these forty years the LORD thy God hath been with thee; thou hast lacked nothing.",
+      "web": "For LORD your God has blessed you in all the work of your hands. He has known your walking through this great wilderness. These forty years, LORD your God has been with you. You have lacked nothing.",
+      "ct": "The LORD your God has blessed everything you've done. He has watched over you through this vast wilderness. For 40 years the LORD your God has been with you, and you haven't lacked a thing."
+    },
+    {
+      "verse": 8,
+      "kjv": "And when we passed by from our brethren the children of Esau, which dwelt in Seir, through the way of the plain from Elath, and from Eziongaber, we turned and passed by the way of the wilderness of Moab.",
+      "web": "So we passed by from our brothers, the children of Esau, who dwell in Seir, from the way of the Arabah from Elath and from Ezion Geber. We turned and passed by the way of the wilderness of Moab.",
+      "ct": "So we passed through the territory of our relatives, the descendants of Esau who live in Seir. We left the Arabah road that comes from Elath and Ezion Geber, and turned to travel along the wilderness road of Moab."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the LORD said unto me, Distress not the Moabites, neither contend with them in battle: for I will not give thee of their land for a possession; because I have given Ar unto the children of Lot for a possession.",
+      "web": "LORD said to me, “Don’t bother Moab, neither contend with them in battle; for I will not give you any of his land for a possession, because I have given Ar to the children of Lot for a possession.”",
+      "ct": "The LORD told me, \"Don't harass the Moabites or pick a fight with them. I won't give you any of their land, because I've given Ar to the descendants of Lot as their possession.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "The Emims dwelt therein in times past, a people great, and many, and tall, as the Anakims;",
+      "web": "(The Emim lived there before, a great and numerous people, and tall as the Anakim.",
+      "ct": "(A people called the Emim used to live there — a large and powerful nation, as tall as the Anakim."
+    },
+    {
+      "verse": 11,
+      "kjv": "Which also were accounted giants, as the Anakims; but the Moabites call them Emims.",
+      "web": "These also are considered to be Rephaim, as the Anakim; but the Moabites call them Emim.",
+      "ct": "Like the Anakim, they were considered giants, but the Moabites called them Emim."
+    },
+    {
+      "verse": 12,
+      "kjv": "The Horims also dwelt in Seir beforetime; but the children of Esau succeeded them, when they had destroyed them from before them, and dwelt in their stead; as Israel did unto the land of his possession, which the LORD gave unto them.",
+      "web": "The Horites also lived in Seir in the past, but the children of Esau succeeded them. They destroyed them from before them, and lived in their place, as Israel did to the land of his possession, which LORD gave to them.)",
+      "ct": "The Horites also used to live in Seir, but the descendants of Esau drove them out, destroyed them, and settled in their place — just as Israel later did in the land the LORD gave them.)"
+    },
+    {
+      "verse": 13,
+      "kjv": "Now rise up, said I, and get you over the brook Zered. And we went over the brook Zered.",
+      "web": "“Now rise up, and cross over the brook Zered.” We went over the brook Zered.",
+      "ct": "\"Now get up and cross the brook Zered,\" the LORD said. So we crossed the brook Zered."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the space in which we came from Kadeshbarnea, until we were come over the brook Zered, was thirty and eight years; until all the generation of the men of war were wasted out from among the host, as the LORD sware unto them.",
+      "web": "The days in which we came from Kadesh Barnea until we had come over the brook Zered were thirty-eight years: until all the generation of the men of war were consumed from the middle of the camp, as LORD swore to them.",
+      "ct": "The journey from Kadesh Barnea to the crossing of the brook Zered took 38 years. By that time, every fighting man from that generation had died off, just as the LORD had sworn would happen."
+    },
+    {
+      "verse": 15,
+      "kjv": "For indeed the hand of the LORD was against them, to destroy them from among the host, until they were consumed.",
+      "web": "Moreover LORD’s hand was against them, to destroy them from the middle of the camp, until they were consumed.",
+      "ct": "The LORD's hand was against them, striking them down within the camp until every last one of them was gone."
+    },
+    {
+      "verse": 16,
+      "kjv": "So it came to pass, when all the men of war were consumed and dead from among the people,",
+      "web": "So, when all the men of war were consumed and dead from among the people,",
+      "ct": "Once all those fighting men had died out from among the people,"
+    },
+    {
+      "verse": 17,
+      "kjv": "That the LORD spake unto me, saying,",
+      "web": "LORD spoke to me, saying,",
+      "ct": "the LORD said to me,"
+    },
+    {
+      "verse": 18,
+      "kjv": "Thou art to pass over through Ar, the coast of Moab, this day:",
+      "web": "“You are to pass over Ar, the border of Moab, today.",
+      "ct": "\"Today you are to cross through Ar, the border region of Moab."
+    },
+    {
+      "verse": 19,
+      "kjv": "And when thou comest nigh over against the children of Ammon, distress them not, nor meddle with them: for I will not give thee of the land of the children of Ammon any possession; because I have given it unto the children of Lot for a possession.",
+      "web": "When you come near the border of the children of Ammon, don’t bother them, nor contend with them; for I will not give you any of the land of the children of Ammon for a possession, because I have given it to the children of Lot for a possession.”",
+      "ct": "When you get close to the Ammonites, don't harass them or provoke them. I won't give you any of the Ammonites' land, because I've given it to the descendants of Lot as their possession.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "(That also was accounted a land of giants: giants dwelt therein in old time; and the Ammonites call them Zamzummims;",
+      "web": "(That also is considered a land of Rephaim. Rephaim lived there in the past, but the Ammonites call them Zamzummim,",
+      "ct": "(That region was also considered a land of giants. Giants called Rephaim lived there long ago, though the Ammonites called them Zamzummim."
+    },
+    {
+      "verse": 21,
+      "kjv": "A people great, and many, and tall, as the Anakims; but the LORD destroyed them before them; and they succeeded them, and dwelt in their stead:",
+      "web": "a great people, many, and tall, as the Anakim; but LORD destroyed them from before Israel, and they succeeded them, and lived in their place;",
+      "ct": "They were a large and powerful people, as tall as the Anakim. But the LORD wiped them out so the Ammonites could take over their land and settle there."
+    },
+    {
+      "verse": 22,
+      "kjv": "As he did to the children of Esau, which dwelt in Seir, when he destroyed the Horims from before them; and they succeeded them, and dwelt in their stead even unto this day:",
+      "web": "as he did for the children of Esau who dwell in Seir, when he destroyed the Horites from before them; and they succeeded them, and lived in their place even to this day.",
+      "ct": "He did the same thing for the descendants of Esau in Seir — he destroyed the Horites so Esau's people could take their place, and they live there to this day."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the Avims which dwelt in Hazerim, even unto Azzah, the Caphtorims, which came forth out of Caphtor, destroyed them, and dwelt in their stead.)",
+      "web": "Then the Avvim, who lived in villages as far as Gaza: the Caphtorim, who came out of Caphtor, destroyed them and lived in their place.)",
+      "ct": "The same thing happened with the Avvim, who lived in villages as far as Gaza. The Caphtorim, who came from Caphtor, destroyed them and settled in their place.)"
+    },
+    {
+      "verse": 24,
+      "kjv": "Rise ye up, take your journey, and pass over the river Arnon: behold, I have given into thine hand Sihon the Amorite, king of Heshbon, and his land: begin to possess it, and contend with him in battle.",
+      "web": "“Rise up, take your journey, and pass over the valley of the Arnon. Behold, I have given into your hand Sihon the Amorite, king of Heshbon, and his land; begin to possess it, and contend with him in battle.",
+      "ct": "\"Get moving! Cross the Arnon Valley. I'm handing over Sihon the Amorite, king of Heshbon, along with his land. Start taking possession of it and engage him in battle."
+    },
+    {
+      "verse": 25,
+      "kjv": "This day will I begin to put the dread of thee and the fear of thee upon the nations that are under the whole heaven, who shall hear report of thee, and shall tremble, and be in anguish because of thee.",
+      "web": "Today I will begin to put the dread of you and the fear of you on the peoples who are under the whole sky, who shall hear the report of you, and shall tremble and be in anguish because of you.”",
+      "ct": "Starting today, I will make every nation under heaven dread you and fear you. When they hear about you, they will tremble and be gripped with terror.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And I sent messengers out of the wilderness of Kedemoth unto Sihon king of Heshbon with words of peace, saying,",
+      "web": "I sent messengers out of the wilderness of Kedemoth to Sihon king of Heshbon with words of peace, saying,",
+      "ct": "From the wilderness of Kedemoth, I sent messengers to King Sihon of Heshbon with an offer of peace. The message said,"
+    },
+    {
+      "verse": 27,
+      "kjv": "Let me pass through thy land: I will go along by the high way, I will neither turn unto the right hand nor to the left.",
+      "web": "“Let me pass through your land. I will go along by the highway. I will turn neither to the right hand nor to the left.",
+      "ct": "\"Let me pass through your land. I'll stay on the main road and won't turn to the right or the left."
+    },
+    {
+      "verse": 28,
+      "kjv": "Thou shalt sell me meat for money, that I may eat; and give me water for money, that I may drink: only I will pass through on my feet;",
+      "web": "You shall sell me food for money, that I may eat; and give me water for money, that I may drink. Just let me pass through on my feet,",
+      "ct": "Sell me food for silver so I can eat, and sell me water for silver so I can drink. Just let me walk through on foot —"
+    },
+    {
+      "verse": 29,
+      "kjv": "(As the children of Esau which dwell in Seir, and the Moabites which dwell in Ar, did unto me;) until I shall pass over Jordan into the land which the LORD our God giveth us.",
+      "web": "as the children of Esau who dwell in Seir, and the Moabites who dwell in Ar, did to me; until I pass over the Jordan into the land which LORD our God gives us.”",
+      "ct": "the same way the descendants of Esau in Seir and the Moabites in Ar let me pass through — until I cross the Jordan into the land the LORD our God is giving us.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "But Sihon king of Heshbon would not let us pass by him: for the LORD thy God hardened his spirit, and made his heart obstinate, that he might deliver him into thy hand, as appeareth this day.",
+      "web": "But Sihon king of Heshbon would not let us pass by him; for LORD your God hardened his spirit and made his heart obstinate, that he might deliver him into your hand, as it is today.",
+      "ct": "But King Sihon of Heshbon refused to let us pass. The LORD your God had made his spirit stubborn and his heart defiant so that he could hand him over to you — which is exactly what happened."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the LORD said unto me, Behold, I have begun to give Sihon and his land before thee: begin to possess, that thou mayest inherit his land.",
+      "web": "LORD said to me, “Behold, I have begun to deliver up Sihon and his land before you. Begin to possess, that you may inherit his land.”",
+      "ct": "The LORD told me, \"Look, I've already begun handing Sihon and his land over to you. Start taking possession of his territory.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "Then Sihon came out against us, he and all his people, to fight at Jahaz.",
+      "web": "Then Sihon came out against us, he and all his people, to battle at Jahaz.",
+      "ct": "Sihon marched out with his entire army to fight us at Jahaz."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the LORD our God delivered him before us; and we smote him, and his sons, and all his people.",
+      "web": "LORD our God delivered him up before us; and we struck him, his sons, and all his people.",
+      "ct": "But the LORD our God handed him over to us, and we struck down Sihon, his sons, and his entire army."
+    },
+    {
+      "verse": 34,
+      "kjv": "And we took all his cities at that time, and utterly destroyed the men, and the women, and the little ones, of every city, we left none to remain:",
+      "web": "We took all his cities at that time, and utterly destroyed every inhabited city, with the women and the little ones. We left no one remaining.",
+      "ct": "We captured all his cities and completely destroyed every one of them — men, women, and children. We left no survivors."
+    },
+    {
+      "verse": 35,
+      "kjv": "Only the cattle we took for a prey unto ourselves, and the spoil of the cities which we took.",
+      "web": "Only the livestock we took for plunder for ourselves, with the plunder of the cities which we had taken.",
+      "ct": "The only things we kept for ourselves were the livestock and the plunder from the cities we captured."
+    },
+    {
+      "verse": 36,
+      "kjv": "From Aroer, which is by the brink of the river of Arnon, and from the city that is by the river, even unto Gilead, there was not one city too strong for us: the LORD our God delivered all unto us:",
+      "web": "From Aroer, which is on the edge of the valley of the Arnon, and the city that is in the valley, even to Gilead, there was not a city too high for us. LORD our God delivered up all before us.",
+      "ct": "From Aroer on the edge of the Arnon Valley, including the city in the valley itself, all the way to Gilead — not a single city was too strong for us. The LORD our God handed them all over to us."
+    },
+    {
+      "verse": 37,
+      "kjv": "Only unto the land of the children of Ammon thou camest not, nor unto any place of the river Jabbok, nor unto the cities in the mountains, nor unto whatsoever the LORD our God forbad us.",
+      "web": "Only to the land of the children of Ammon you didn’t come near: all the banks of the river Jabbok, and the cities of the hill country, and wherever LORD our God forbade us.",
+      "ct": "But we stayed away from the land of the Ammonites — the entire area along the Jabbok River, the hill country cities, and everywhere else the LORD our God had told us not to go."
+    }
+  ]
+}

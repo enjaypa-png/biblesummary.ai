@@ -1,0 +1,71 @@
+{
+  "book": "1-thessalonians",
+  "book_name": "1 Thessalonians",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:02:17.277Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians which is in God the Father and in the Lord Jesus Christ: Grace be unto you, and peace, from God our Father, and the Lord Jesus Christ.",
+      "web": "Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God the Father and the Lord Jesus Christ: Grace to you and peace from God our Father and the Lord Jesus Christ.",
+      "ct": "From Paul, Silvanus, and Timothy, to the church of the Thessalonians who belong to God the Father and the Lord Jesus Christ: May grace and peace be yours from God our Father and the Lord Jesus Christ."
+    },
+    {
+      "verse": 2,
+      "kjv": "We give thanks to God always for you all, making mention of you in our prayers;",
+      "web": "We always give thanks to God for all of you, mentioning you in our prayers,",
+      "ct": "We always thank God for all of you and mention you constantly in our prayers."
+    },
+    {
+      "verse": 3,
+      "kjv": "Remembering without ceasing your work of faith, and labour of love, and patience of hope in our Lord Jesus Christ, in the sight of God and our Father;",
+      "web": "remembering without ceasing your work of faith and labor of love and perseverance of hope in our Lord Jesus Christ, before our God and Father.",
+      "ct": "We never stop remembering how your faith produces action, how your love drives you to work hard, and how your hope in our Lord Jesus Christ gives you endurance — all of this before our God and Father."
+    },
+    {
+      "verse": 4,
+      "kjv": "Knowing, brethren beloved, your election of God.",
+      "web": "We know, brothers loved by God, that you are chosen,",
+      "ct": "Brothers and sisters loved by God, we know that he has chosen you."
+    },
+    {
+      "verse": 5,
+      "kjv": "For our gospel came not unto you in word only, but also in power, and in the Holy Ghost, and in much assurance; as ye know what manner of men we were among you for your sake.",
+      "web": "and that our Good News came to you not in word only, but also in power, and in the Holy Spirit, and with much assurance. You know what kind of men we showed ourselves to be among you for your sake.",
+      "ct": "When we brought the gospel to you, it wasn't just words. It came with power, with the Holy Spirit, and with deep conviction. You saw for yourselves the kind of people we were when we lived among you for your benefit."
+    },
+    {
+      "verse": 6,
+      "kjv": "And ye became followers of us, and of the Lord, having received the word in much affliction, with joy of the Holy Ghost:",
+      "web": "You became imitators of us and of the Lord, having received the word in much affliction, with joy of the Holy Spirit,",
+      "ct": "You became imitators of us and of the Lord, welcoming the message with the joy that comes from the Holy Spirit even though it brought you great suffering."
+    },
+    {
+      "verse": 7,
+      "kjv": "So that ye were ensamples to all that believe in Macedonia and Achaia.",
+      "web": "so that you became an example to all who believe in Macedonia and in Achaia.",
+      "ct": "As a result, you became an example to every believer in Macedonia and Achaia."
+    },
+    {
+      "verse": 8,
+      "kjv": "For from you sounded out the word of the Lord not only in Macedonia and Achaia, but also in every place your faith to God-ward is spread abroad; so that we need not to speak any thing.",
+      "web": "For from you the word of the Lord has been declared, not only in Macedonia and Achaia, but also in every place your faith toward God has gone out, so that we need not to say anything.",
+      "ct": "The word of the Lord rang out from you — not just in Macedonia and Achaia, but everywhere. News of your faith in God has spread so far that we don't even need to say anything about it."
+    },
+    {
+      "verse": 9,
+      "kjv": "For they themselves shew of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God;",
+      "web": "For they themselves report concerning us what kind of a reception we had from you, and how you turned to God from idols, to serve a living and true God,",
+      "ct": "People everywhere are already talking about the welcome you gave us and how you turned away from idols to serve the living and true God,"
+    },
+    {
+      "verse": 10,
+      "kjv": "And to wait for his Son from heaven, whom he raised from the dead, even Jesus, which delivered us from the wrath to come.",
+      "web": "and to wait for his Son from heaven, whom he raised from the dead: Jesus, who delivers us from the wrath to come.",
+      "ct": "and to wait for his Son from heaven — Jesus, whom he raised from the dead, the one who rescues us from the coming wrath."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 15,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:10:20.441Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "At the end of every seven years thou shalt make a release.",
+      "web": "At the end of every seven years, you shall cancel debts.",
+      "ct": "Every 7 years, you must cancel all debts."
+    },
+    {
+      "verse": 2,
+      "kjv": "And this is the manner of the release: Every creditor that lendeth ought unto his neighbour shall release it; he shall not exact it of his neighbour, or of his brother; because it is called the LORD’s release.",
+      "web": "This is the way it shall be done: every creditor shall release that which he has lent to his neighbor. He shall not require payment from his neighbor and his brother, because LORD’s release has been proclaimed.",
+      "ct": "Here's how it works: every creditor must forgive whatever he has loaned to a fellow Israelite. He must not demand repayment from his neighbor or relative, because the LORD has declared a cancellation of debts."
+    },
+    {
+      "verse": 3,
+      "kjv": "Of a foreigner thou mayest exact it again: but that which is thine with thy brother thine hand shall release;",
+      "web": "Of a foreigner you may require it; but whatever of yours is with your brother, your hand shall release.",
+      "ct": "You may still collect debts from a foreigner, but you must cancel whatever a fellow Israelite owes you."
+    },
+    {
+      "verse": 4,
+      "kjv": "Save when there shall be no poor among you; for the LORD shall greatly bless thee in the land which the LORD thy God giveth thee for an inheritance to possess it:",
+      "web": "However there will be no poor with you (for LORD will surely bless you in the land which LORD your God gives you for an inheritance to possess)",
+      "ct": "There shouldn't be any poor people among you, because the LORD will richly bless you in the land he's giving you to possess as your inheritance—"
+    },
+    {
+      "verse": 5,
+      "kjv": "Only if thou carefully hearken unto the voice of the LORD thy God, to observe to do all these commandments which I command thee this day.",
+      "web": "if only you diligently listen to LORD your God’s voice, to observe to do all this commandment which I command you today.",
+      "ct": "but only if you carefully obey the LORD your God and follow every command I'm giving you today."
+    },
+    {
+      "verse": 6,
+      "kjv": "For the LORD thy God blesseth thee, as he promised thee: and thou shalt lend unto many nations, but thou shalt not borrow; and thou shalt reign over many nations, but they shall not reign over thee.",
+      "web": "For LORD your God will bless you, as he promised you. You will lend to many nations, but you will not borrow. You will rule over many nations, but they will not rule over you.",
+      "ct": "The LORD your God will bless you just as he promised. You'll lend to many nations but never need to borrow. You'll rule over many nations, but none of them will rule over you."
+    },
+    {
+      "verse": 7,
+      "kjv": "If there be among you a poor man of one of thy brethren within any of thy gates in thy land which the LORD thy God giveth thee, thou shalt not harden thine heart, nor shut thine hand from thy poor brother:",
+      "web": "If a poor man, one of your brothers, is with you within any of your gates in your land which LORD your God gives you, you shall not harden your heart, nor shut your hand from your poor brother;",
+      "ct": "If there's a poor person among your people in any of the towns in the land the LORD your God is giving you, don't be hardhearted or tightfisted toward them."
+    },
+    {
+      "verse": 8,
+      "kjv": "But thou shalt open thine hand wide unto him, and shalt surely lend him sufficient for his need, in that which he wanteth.",
+      "web": "but you shall surely open your hand to him, and shall surely lend him sufficient for his need, which he lacks.",
+      "ct": "Instead, be generous and freely lend them whatever they need."
+    },
+    {
+      "verse": 9,
+      "kjv": "Beware that there be not a thought in thy wicked heart, saying, The seventh year, the year of release, is at hand; and thine eye be evil against thy poor brother, and thou givest him nought; and he cry unto the LORD against thee, and it be sin unto thee.",
+      "web": "Beware that there not be a wicked thought in your heart, saying, “The seventh year, the year of release, is at hand,” and your eye be evil against your poor brother and you give him nothing; and he cry to LORD against you, and it be sin to you.",
+      "ct": "Be careful not to think this wicked thought: 'The 7th year — the year of debt cancellation — is almost here,' and then refuse to help your poor neighbor. If you turn them away, they'll cry out to the LORD against you, and you'll be guilty of sin."
+    },
+    {
+      "verse": 10,
+      "kjv": "Thou shalt surely give him, and thine heart shall not be grieved when thou givest unto him: because that for this thing the LORD thy God shall bless thee in all thy works, and in all that thou puttest thine hand unto.",
+      "web": "You shall surely give, and your heart shall not be grieved when you give to him, because it is for this thing LORD your God will bless you in all your work and in all that you put your hand to.",
+      "ct": "Give generously and don't resent it when you do, because the LORD your God will bless you in everything you work on and everything you put your hand to."
+    },
+    {
+      "verse": 11,
+      "kjv": "For the poor shall never cease out of the land: therefore I command thee, saying, Thou shalt open thine hand wide unto thy brother, to thy poor, and to thy needy, in thy land.",
+      "web": "For the poor will never cease out of the land. Therefore I command you to surely open your hand to your brother, to your needy, and to your poor, in your land.",
+      "ct": "There will always be poor people in the land. That's why I'm commanding you: be openhanded toward your fellow Israelites — toward the poor and needy in your land."
+    },
+    {
+      "verse": 12,
+      "kjv": "And if thy brother, an Hebrew man, or an Hebrew woman, be sold unto thee, and serve thee six years; then in the seventh year thou shalt let him go free from thee.",
+      "web": "If your brother, a Hebrew man, or a Hebrew woman, is sold to you and serves you six years, then in the seventh year you shall let him go free from you.",
+      "ct": "If a fellow Hebrew — whether a man or a woman — is sold to you and serves you for 6 years, you must set them free in the 7th year."
+    },
+    {
+      "verse": 13,
+      "kjv": "And when thou sendest him out free from thee, thou shalt not let him go away empty:",
+      "web": "When you let him go free from you, you shall not let him go empty.",
+      "ct": "When you set them free, don't send them away empty-handed."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thou shalt furnish him liberally out of thy flock, and out of thy floor, and out of thy winepress: of that wherewith the LORD thy God hath blessed thee thou shalt give unto him.",
+      "web": "You shall furnish him liberally out of your flock, out of your threshing floor, and out of your wine press. As LORD your God has blessed you, you shall give to him.",
+      "ct": "Supply them generously from your flock, your threshing floor, and your winepress. Share with them from the blessings the LORD your God has given you."
+    },
+    {
+      "verse": 15,
+      "kjv": "And thou shalt remember that thou wast a bondman in the land of Egypt, and the LORD thy God redeemed thee: therefore I command thee this thing to day.",
+      "web": "You shall remember that you were a slave in the land of Egypt, and LORD your God redeemed you. Therefore I command you this thing today.",
+      "ct": "Remember that you were once slaves in Egypt and the LORD your God set you free. That's why I'm giving you this command today."
+    },
+    {
+      "verse": 16,
+      "kjv": "And it shall be, if he say unto thee, I will not go away from thee; because he loveth thee and thine house, because he is well with thee;",
+      "web": "It shall be, if he tells you, “I will not go out from you,” because he loves you and your house, because he is well with you,",
+      "ct": "But if your servant says to you, \"I don't want to leave,\" because he loves you and your family and has a good life with you,"
+    },
+    {
+      "verse": 17,
+      "kjv": "Then thou shalt take an aul, and thrust it through his ear unto the door, and he shall be thy servant for ever. And also unto thy maidservant thou shalt do likewise.",
+      "web": "then you shall take an awl, and thrust it through his ear to the door, and he shall be your servant forever. Also to your female servant you shall do likewise.",
+      "ct": "then take an awl and push it through his earlobe into the door. He will be your servant for life. Do the same for a female servant who chooses to stay."
+    },
+    {
+      "verse": 18,
+      "kjv": "It shall not seem hard unto thee, when thou sendest him away free from thee; for he hath been worth a double hired servant to thee, in serving thee six years: and the LORD thy God shall bless thee in all that thou doest.",
+      "web": "It shall not seem hard to you when you let him go free from you; for he has been double the value of a hired hand as he served you six years. LORD your God will bless you in all that you do.",
+      "ct": "Don't feel cheated when you set a servant free. After all, they served you for 6 years at half the cost of a hired worker. And the LORD your God will bless you in everything you do."
+    },
+    {
+      "verse": 19,
+      "kjv": "All the firstling males that come of thy herd and of thy flock thou shalt sanctify unto the LORD thy God: thou shalt do no work with the firstling of thy bullock, nor shear the firstling of thy sheep.",
+      "web": "You shall dedicate all the firstborn males that are born of your herd and of your flock to LORD your God. You shall do no work with the firstborn of your herd, nor shear the firstborn of your flock.",
+      "ct": "Set apart every firstborn male from your herds and flocks — they belong to the LORD your God. Don't put a firstborn ox to work, and don't shear a firstborn sheep."
+    },
+    {
+      "verse": 20,
+      "kjv": "Thou shalt eat it before the LORD thy God year by year in the place which the LORD shall choose, thou and thy household.",
+      "web": "You shall eat it before LORD your God year by year in the place which LORD shall choose, you and your household.",
+      "ct": "Each year, you and your family are to eat them in the LORD's presence at the place he chooses."
+    },
+    {
+      "verse": 21,
+      "kjv": "And if there be any blemish therein, as if it be lame, or blind, or have any ill blemish, thou shalt not sacrifice it unto the LORD thy God.",
+      "web": "If it has any defect—is lame or blind, or has any defect whatever, you shall not sacrifice it to LORD your God.",
+      "ct": "But if the animal has any defect — if it's lame, blind, or flawed in any way — you must not sacrifice it to the LORD your God."
+    },
+    {
+      "verse": 22,
+      "kjv": "Thou shalt eat it within thy gates: the unclean and the clean person shall eat it alike, as the roebuck, and as the hart.",
+      "web": "You shall eat it within your gates. The unclean and the clean shall eat it alike, as the gazelle and as the deer.",
+      "ct": "Instead, eat it at home in your own town. Anyone may eat it, whether ceremonially clean or unclean, just as you would eat a gazelle or a deer."
+    },
+    {
+      "verse": 23,
+      "kjv": "Only thou shalt not eat the blood thereof; thou shalt pour it upon the ground as water.",
+      "web": "Only you shall not eat its blood. You shall pour it out on the ground like water.",
+      "ct": "The only rule is this: don't eat the blood. Pour it out on the ground like water."
+    }
+  ]
+}

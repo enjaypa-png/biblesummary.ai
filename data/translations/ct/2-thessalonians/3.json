@@ -1,0 +1,119 @@
+{
+  "book": "2-thessalonians",
+  "book_name": "2 Thessalonians",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:04:02.789Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorified, even as it is with you:",
+      "web": "Finally, brothers, pray for us, that the word of the Lord may spread rapidly and be glorified, even as also with you,",
+      "ct": "One last thing, brothers and sisters — pray for us. Pray that the Lord's message will spread quickly and be honored everywhere, just as it has been among you."
+    },
+    {
+      "verse": 2,
+      "kjv": "And that we may be delivered from unreasonable and wicked men: for all men have not faith.",
+      "web": "and that we may be delivered from unreasonable and evil men; for not all have faith.",
+      "ct": "Also pray that we'll be rescued from twisted and wicked people, because not everyone has faith."
+    },
+    {
+      "verse": 3,
+      "kjv": "But the Lord is faithful, who shall stablish you, and keep you from evil.",
+      "web": "But the Lord is faithful, who will establish you and guard you from the evil one.",
+      "ct": "But the Lord is faithful. He will strengthen you and guard you from the evil one."
+    },
+    {
+      "verse": 4,
+      "kjv": "And we have confidence in the Lord touching you, that ye both do and will do the things which we command you.",
+      "web": "We have confidence in the Lord concerning you, that you both do and will do the things we command.",
+      "ct": "We have confidence in the Lord that you are doing — and will keep doing — everything we've instructed you to do."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the Lord direct your hearts into the love of God, and into the patient waiting for Christ.",
+      "web": "May the Lord direct your hearts into God’s love, and into the perseverance of Christ.",
+      "ct": "May the Lord guide your hearts deeper into God's love and into the patient endurance of Christ."
+    },
+    {
+      "verse": 6,
+      "kjv": "Now we command you, brethren, in the name of our Lord Jesus Christ, that ye withdraw yourselves from every brother that walketh disorderly, and not after the tradition which he received of us.",
+      "web": "Now we command you, brothers, in the name of our Lord Jesus Christ, that you withdraw yourselves from every brother who walks in rebellion, and not after the tradition which they received from us.",
+      "ct": "Now we command you, brothers and sisters, in the name of our Lord Jesus Christ: stay away from any believer who lives an undisciplined life and refuses to follow the teaching they received from us."
+    },
+    {
+      "verse": 7,
+      "kjv": "For yourselves know how ye ought to follow us: for we behaved not ourselves disorderly among you;",
+      "web": "For you know how you ought to imitate us. For we didn’t behave ourselves rebelliously among you,",
+      "ct": "You already know you should follow our example. When we were with you, we didn't live undisciplined lives."
+    },
+    {
+      "verse": 8,
+      "kjv": "Neither did we eat any man’s bread for nought; but wrought with labour and travail night and day, that we might not be chargeable to any of you:",
+      "web": "neither did we eat bread from anyone’s hand without paying for it, but in labor and travail worked night and day, that we might not burden any of you,",
+      "ct": "We never ate anyone's food without paying for it. Instead, we worked hard day and night, wearing ourselves out so we wouldn't be a burden to any of you."
+    },
+    {
+      "verse": 9,
+      "kjv": "Not because we have not power, but to make ourselves an ensample unto you to follow us.",
+      "web": "not because we don’t have the right, but to make ourselves an example to you, that you should imitate us.",
+      "ct": "It's not that we didn't have the right to ask for support — we did. But we wanted to set an example for you to follow."
+    },
+    {
+      "verse": 10,
+      "kjv": "For even when we were with you, this we commanded you, that if any would not work, neither should he eat.",
+      "web": "For even when we were with you, we commanded you this: “If anyone is not willing to work, don’t let him eat.”",
+      "ct": "Even when we were with you, we gave you this rule: \"If someone refuses to work, don't let them eat.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "For we hear that there are some which walk among you disorderly, working not at all, but are busybodies.",
+      "web": "For we hear of some who walk among you in rebellion, who don’t work at all, but are busybodies.",
+      "ct": "We say this because we hear that some among you are living undisciplined lives. They aren't doing any work at all — they're just meddling in everyone else's business."
+    },
+    {
+      "verse": 12,
+      "kjv": "Now them that are such we command and exhort by our Lord Jesus Christ, that with quietness they work, and eat their own bread.",
+      "web": "Now those who are that way, we command and exhort in the Lord Jesus Christ, that they work with quietness and eat their own bread.",
+      "ct": "To those people, we command and urge in the Lord Jesus Christ: settle down, do your own work, and earn your own food."
+    },
+    {
+      "verse": 13,
+      "kjv": "But ye, brethren, be not weary in well doing.",
+      "web": "But you, brothers, don’t be weary in doing what is right.",
+      "ct": "As for the rest of you, brothers and sisters, don't get tired of doing what is right."
+    },
+    {
+      "verse": 14,
+      "kjv": "And if any man obey not our word by this epistle, note that man, and have no company with him, that he may be ashamed.",
+      "web": "If any man doesn’t obey our word in this letter, note that man, that you have no company with him, to the end that he may be ashamed.",
+      "ct": "If anyone refuses to obey what we've said in this letter, take note of that person and don't associate with them. Let them feel the weight of their shame."
+    },
+    {
+      "verse": 15,
+      "kjv": "Yet count him not as an enemy, but admonish him as a brother.",
+      "web": "Don’t count him as an enemy, but admonish him as a brother.",
+      "ct": "But don't treat them like an enemy. Warn them as you would a brother."
+    },
+    {
+      "verse": 16,
+      "kjv": "Now the Lord of peace himself give you peace always by all means. The Lord be with you all.",
+      "web": "Now may the Lord of peace himself give you peace at all times in all ways. The Lord be with you all.",
+      "ct": "Now may the Lord of peace himself give you peace at all times and in every situation. The Lord be with all of you."
+    },
+    {
+      "verse": 17,
+      "kjv": "The salutation of Paul with mine own hand, which is the token in every epistle: so I write.",
+      "web": "The greeting of me, Paul, with my own hand, which is the sign in every letter: this is how I write.",
+      "ct": "I, Paul, am writing this greeting with my own hand. This is my signature mark in every letter — this is how I write."
+    },
+    {
+      "verse": 18,
+      "kjv": "The grace of our Lord Jesus Christ be with you all. Amen.",
+      "web": "The grace of our Lord Jesus Christ be with you all. Amen.",
+      "ct": "The grace of our Lord Jesus Christ be with all of you. Amen."
+    }
+  ]
+}

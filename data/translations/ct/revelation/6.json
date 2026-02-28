@@ -1,0 +1,113 @@
+{
+  "book": "revelation",
+  "book_name": "Revelation",
+  "chapter": 6,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:19:35.762Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And I saw when the Lamb opened one of the seals, and I heard, as it were the noise of thunder, one of the four beasts saying, Come and see.",
+      "web": "I saw that the Lamb opened one of the seven seals, and I heard one of the four living creatures saying, as with a voice of thunder, “Come and see!”",
+      "ct": "I watched as the Lamb broke open the first of the 7 seals. Then one of the 4 living creatures spoke with a voice like thunder: \"Come and see!\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And I saw, and behold a white horse: and he that sat on him had a bow; and a crown was given unto him: and he went forth conquering, and to conquer.",
+      "web": "And behold, a white horse, and he who sat on it had a bow. A crown was given to him, and he came out conquering, and to conquer.",
+      "ct": "I looked, and there was a white horse. Its rider carried a bow, and he was given a crown. He rode out as a conqueror, bent on conquest."
+    },
+    {
+      "verse": 3,
+      "kjv": "And when he had opened the second seal, I heard the second beast say, Come and see.",
+      "web": "When he opened the second seal, I heard the second living creature saying, “Come!”",
+      "ct": "When the Lamb opened the second seal, I heard the second living creature say, \"Come and see!\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And there went out another horse that was red: and power was given to him that sat thereon to take peace from the earth, and that they should kill one another: and there was given unto him a great sword.",
+      "web": "Another came out: a red horse. To him who sat on it was given power to take peace from the earth, and that they should kill one another. There was given to him a great sword.",
+      "ct": "Then another horse appeared — this one fiery red. Its rider was given the power to strip peace from the earth so that people would slaughter one another. He was handed a massive sword."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when he had opened the third seal, I heard the third beast say, Come and see. And I beheld, and lo a black horse; and he that sat on him had a pair of balances in his hand.",
+      "web": "When he opened the third seal, I heard the third living creature saying, “Come and see!” And behold, a black horse, and he who sat on it had a balance in his hand.",
+      "ct": "When the Lamb opened the third seal, I heard the third living creature say, \"Come and see!\" I looked, and there was a black horse. Its rider held a pair of scales in his hand."
+    },
+    {
+      "verse": 6,
+      "kjv": "And I heard a voice in the midst of the four beasts say, A measure of wheat for a penny, and three measures of barley for a penny; and see thou hurt not the oil and the wine.",
+      "web": "I heard a voice in the middle of the four living creatures saying, “A choenix of wheat for a denarius, and three choenix of barley for a denarius! Don’t damage the oil and the wine!”",
+      "ct": "Then I heard what sounded like a voice from among the 4 living creatures, announcing, \"A measure of wheat for a denarius, and 3 measures of barley for a denarius! But don't damage the oil and the wine!\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And when he had opened the fourth seal, I heard the voice of the fourth beast say, Come and see.",
+      "web": "When he opened the fourth seal, I heard the fourth living creature saying, “Come and see!”",
+      "ct": "When the Lamb opened the fourth seal, I heard the voice of the fourth living creature say, \"Come and see!\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And I looked, and behold a pale horse: and his name that sat on him was Death, and Hell followed with him. And power was given unto them over the fourth part of the earth, to kill with sword, and with hunger, and with death, and with the beasts of the earth.",
+      "web": "And behold, a pale horse, and the name of he who sat on it was Death. Hades followed with him. Authority over one fourth of the earth, to kill with the sword, with famine, with death, and by the wild animals of the earth was given to him.",
+      "ct": "I looked, and there was a pale horse. The name of its rider was Death, and Hell followed close behind him. They were given authority over a fourth of the earth — to kill with the sword, with famine, with plague, and with the wild animals of the earth."
+    },
+    {
+      "verse": 9,
+      "kjv": "And when he had opened the fifth seal, I saw under the altar the souls of them that were slain for the word of God, and for the testimony which they held:",
+      "web": "When he opened the fifth seal, I saw underneath the altar the souls of those who had been killed for the Word of God, and for the testimony of the Lamb which they had.",
+      "ct": "When the Lamb opened the fifth seal, I saw beneath the altar the souls of those who had been killed because of the word of God and the testimony they had faithfully held."
+    },
+    {
+      "verse": 10,
+      "kjv": "And they cried with a loud voice, saying, How long, O Lord, holy and true, dost thou not judge and avenge our blood on them that dwell on the earth?",
+      "web": "They cried with a loud voice, saying, “How long, Master, the holy and true, until you judge and avenge our blood on those who dwell on the earth?”",
+      "ct": "They cried out in a loud voice, \"How long, O Lord — holy and true — will you wait before you judge the people of the earth and avenge our blood?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And white robes were given unto every one of them; and it was said unto them, that they should rest yet for a little season, until their fellowservants also and their brethren, that should be killed as they were, should be fulfilled.",
+      "web": "A long white robe was given to each of them. They were told that they should rest yet for a while, until their fellow servants and their brothers, who would also be killed even as they were, should complete their course.",
+      "ct": "Each of them was given a white robe, and they were told to rest a little while longer — until the full number of their fellow servants and brothers and sisters, who would be killed just as they had been, was complete."
+    },
+    {
+      "verse": 12,
+      "kjv": "And I beheld when he had opened the sixth seal, and, lo, there was a great earthquake; and the sun became black as sackcloth of hair, and the moon became as blood;",
+      "web": "I saw when he opened the sixth seal, and there was a great earthquake. The sun became black as sackcloth made of hair, and the whole moon became as blood.",
+      "ct": "I watched as the Lamb opened the sixth seal. A massive earthquake struck. The sun turned black like dark cloth, and the entire moon turned blood red."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the stars of heaven fell unto the earth, even as a fig tree casteth her untimely figs, when she is shaken of a mighty wind.",
+      "web": "The stars of the sky fell to the earth, like a fig tree dropping its unripe figs when it is shaken by a great wind.",
+      "ct": "The stars of heaven fell to the earth like unripe figs shaken loose from a tree by a violent wind."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the heaven departed as a scroll when it is rolled together; and every mountain and island were moved out of their places.",
+      "web": "The sky was removed like a scroll when it is rolled up. Every mountain and island were moved out of their places.",
+      "ct": "The sky split apart and rolled up like a scroll. Every mountain and every island was torn from its place."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the kings of the earth, and the great men, and the rich men, and the chief captains, and the mighty men, and every bondman, and every free man, hid themselves in the dens and in the rocks of the mountains;",
+      "web": "The kings of the earth, the princes, the commanding officers, the rich, the strong, and every slave and free person, hid themselves in the caves and in the rocks of the mountains.",
+      "ct": "Then the kings of the earth, the rulers, the generals, the wealthy, the powerful — along with every slave and every free person — hid themselves in caves and among the rocks of the mountains."
+    },
+    {
+      "verse": 16,
+      "kjv": "And said to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb:",
+      "web": "They told the mountains and the rocks, “Fall on us, and hide us from the face of him who sits on the throne, and from the wrath of the Lamb,",
+      "ct": "They screamed at the mountains and the rocks, \"Fall on us! Hide us from the face of the one who sits on the throne and from the wrath of the Lamb!\""
+    },
+    {
+      "verse": 17,
+      "kjv": "For the great day of his wrath is come; and who shall be able to stand?",
+      "web": "for the great day of his wrath has come; and who is able to stand?”",
+      "ct": "\"The great day of their wrath has arrived — and who can possibly survive it?\""
+    }
+  ]
+}

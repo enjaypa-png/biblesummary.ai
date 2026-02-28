@@ -1,0 +1,365 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 13,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:43:27.815Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses and Aaron, saying,",
+      "web": "LORD spoke to Moses and to Aaron, saying,",
+      "ct": "The LORD spoke to Moses and Aaron and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "When a man shall have in the skin of his flesh a rising, a scab, or bright spot, and it be in the skin of his flesh like the plague of leprosy; then he shall be brought unto Aaron the priest, or unto one of his sons the priests:",
+      "web": "“When a man shall have a swelling in his body’s skin, or a scab, or a bright spot, and it becomes in the skin of his body the plague of leprosy, then he shall be brought to Aaron the priest or to one of his sons, the priests.",
+      "ct": "\"If someone develops a swelling, a rash, or a shiny spot on their skin that might be a case of leprosy, they must be brought to Aaron the priest or to one of his sons who serve as priests."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the priest shall look on the plague in the skin of the flesh: and when the hair in the plague is turned white, and the plague in sight be deeper than the skin of his flesh, it is a plague of leprosy: and the priest shall look on him, and pronounce him unclean.",
+      "web": "The priest shall examine the plague in the skin of the body. If the hair in the plague has turned white, and the appearance of the plague is deeper than the body’s skin, it is the plague of leprosy; so the priest shall examine him and pronounce him unclean.",
+      "ct": "The priest will examine the affected area on the skin. If the hair in that spot has turned white and the sore appears to go deeper than the surface of the skin, it is leprosy. After examining the person, the priest must declare them unclean."
+    },
+    {
+      "verse": 4,
+      "kjv": "If the bright spot be white in the skin of his flesh, and in sight be not deeper than the skin, and the hair thereof be not turned white; then the priest shall shut up him that hath the plague seven days:",
+      "web": "If the bright spot is white in the skin of his body, and its appearance isn’t deeper than the skin, and its hair hasn’t turned white, then the priest shall isolate the infected person for seven days.",
+      "ct": "However, if the shiny spot on the skin is white but doesn't appear to go deeper than the surface, and the hair in it hasn't turned white, the priest must isolate the person for 7 days."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the priest shall look on him the seventh day: and, behold, if the plague in his sight be at a stay, and the plague spread not in the skin; then the priest shall shut him up seven days more:",
+      "web": "The priest shall examine him on the seventh day. Behold, if in his eyes the plague is arrested and the plague hasn’t spread in the skin, then the priest shall isolate him for seven more days.",
+      "ct": "On the 7th day, the priest will examine them again. If the sore looks the same and hasn't spread across the skin, the priest must isolate them for another 7 days."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the priest shall look on him again the seventh day: and, behold, if the plague be somewhat dark, and the plague spread not in the skin, the priest shall pronounce him clean: it is but a scab: and he shall wash his clothes, and be clean.",
+      "web": "The priest shall examine him again on the seventh day. Behold, if the plague has faded and the plague hasn’t spread in the skin, then the priest shall pronounce him clean. It is a scab. He shall wash his clothes, and be clean.",
+      "ct": "On the 7th day, the priest will examine them once more. If the sore has faded and hasn't spread, the priest must declare them clean — it's just a rash. The person must wash their clothes, and they will be clean."
+    },
+    {
+      "verse": 7,
+      "kjv": "But if the scab spread much abroad in the skin, after that he hath been seen of the priest for his cleansing, he shall be seen of the priest again:",
+      "web": "But if the scab spreads on the skin after he has shown himself to the priest for his cleansing, he shall show himself to the priest again.",
+      "ct": "But if the rash spreads across the skin after the person has been examined by the priest and declared clean, they must go back to the priest for another examination."
+    },
+    {
+      "verse": 8,
+      "kjv": "And if the priest see that, behold, the scab spreadeth in the skin, then the priest shall pronounce him unclean: it is a leprosy.",
+      "web": "The priest shall examine him; and behold, if the scab has spread on the skin, then the priest shall pronounce him unclean. It is leprosy.",
+      "ct": "The priest will examine them, and if the rash has spread across the skin, the priest must declare them unclean. It is leprosy."
+    },
+    {
+      "verse": 9,
+      "kjv": "When the plague of leprosy is in a man, then he shall be brought unto the priest;",
+      "web": "“When the plague of leprosy is in a man, then he shall be brought to the priest;",
+      "ct": "When someone has a case of leprosy, they must be brought to the priest."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the priest shall see him: and, behold, if the rising be white in the skin, and it have turned the hair white, and there be quick raw flesh in the rising;",
+      "web": "and the priest shall examine him. Behold, if there is a white swelling in the skin, and it has turned the hair white, and there is raw flesh in the swelling,",
+      "ct": "The priest will examine them. If there is a white swelling on the skin that has turned the hair white, and raw, exposed flesh is visible in the swelling,"
+    },
+    {
+      "verse": 11,
+      "kjv": "It is an old leprosy in the skin of his flesh, and the priest shall pronounce him unclean, and shall not shut him up: for he is unclean.",
+      "web": "it is a chronic leprosy in the skin of his body, and the priest shall pronounce him unclean. He shall not isolate him, for he is already unclean.",
+      "ct": "it is a chronic case of leprosy, and the priest must declare them unclean. There's no need to isolate them for observation — they are clearly unclean."
+    },
+    {
+      "verse": 12,
+      "kjv": "And if a leprosy break out abroad in the skin, and the leprosy cover all the skin of him that hath the plague from his head even to his foot, wheresoever the priest looketh;",
+      "web": "“If the leprosy breaks out all over the skin, and the leprosy covers all the skin of the infected person from his head even to his feet, as far as it appears to the priest,",
+      "ct": "If the leprosy breaks out and spreads across the entire body, covering the person's skin from head to foot — everywhere the priest can see —"
+    },
+    {
+      "verse": 13,
+      "kjv": "Then the priest shall consider: and, behold, if the leprosy have covered all his flesh, he shall pronounce him clean that hath the plague: it is all turned white: he is clean.",
+      "web": "then the priest shall examine him. Behold, if the leprosy has covered all his flesh, he shall pronounce him clean of the plague. It has all turned white: he is clean.",
+      "ct": "then the priest will examine them. If the leprosy has covered their entire body and it has all turned white, the priest must declare them clean. They are clean."
+    },
+    {
+      "verse": 14,
+      "kjv": "But when raw flesh appeareth in him, he shall be unclean.",
+      "web": "But whenever raw flesh appears in him, he shall be unclean.",
+      "ct": "But whenever raw flesh appears on them, they are unclean."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the priest shall see the raw flesh, and pronounce him to be unclean: for the raw flesh is unclean: it is a leprosy.",
+      "web": "The priest shall examine the raw flesh, and pronounce him unclean: the raw flesh is unclean. It is leprosy.",
+      "ct": "The priest must examine the raw flesh and declare the person unclean. Raw flesh is unclean — it is leprosy."
+    },
+    {
+      "verse": 16,
+      "kjv": "Or if the raw flesh turn again, and be changed unto white, he shall come unto the priest;",
+      "web": "Or if the raw flesh turns again, and is changed to white, then he shall come to the priest.",
+      "ct": "If the raw flesh later changes back to white, the person must go to the priest."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the priest shall see him: and, behold, if the plague be turned into white; then the priest shall pronounce him clean that hath the plague: he is clean.",
+      "web": "The priest shall examine him. Behold, if the plague has turned white, then the priest shall pronounce him clean of the plague. He is clean.",
+      "ct": "The priest will examine them, and if the affected area has turned white, the priest must declare them clean. They are clean."
+    },
+    {
+      "verse": 18,
+      "kjv": "The flesh also, in which, even in the skin thereof, was a boil, and is healed,",
+      "web": "“When the body has a boil on its skin, and it has healed,",
+      "ct": "When someone has had a boil on their skin and it has healed,"
+    },
+    {
+      "verse": 19,
+      "kjv": "And in the place of the boil there be a white rising, or a bright spot, white, and somewhat reddish, and it be shewed to the priest;",
+      "web": "and in the place of the boil there is a white swelling, or a bright spot, reddish-white, then it shall be shown to the priest.",
+      "ct": "but a white swelling or a reddish-white shiny spot appears where the boil was, the person must show it to the priest."
+    },
+    {
+      "verse": 20,
+      "kjv": "And if, when the priest seeth it, behold, it be in sight lower than the skin, and the hair thereof be turned white; the priest shall pronounce him unclean: it is a plague of leprosy broken out of the boil.",
+      "web": "The priest shall examine it. Behold, if its appearance is deeper than the skin, and its hair has turned white, then the priest shall pronounce him unclean. It is the plague of leprosy. It has broken out in the boil.",
+      "ct": "The priest will examine it. If it appears to go deeper than the surrounding skin and the hair in it has turned white, the priest must declare the person unclean. It is leprosy that has broken out from the boil."
+    },
+    {
+      "verse": 21,
+      "kjv": "But if the priest look on it, and, behold, there be no white hairs therein, and if it be not lower than the skin, but be somewhat dark; then the priest shall shut him up seven days:",
+      "web": "But if the priest examines it, and behold, there are no white hairs in it, and it isn’t deeper than the skin, but is dim, then the priest shall isolate him seven days.",
+      "ct": "But if the priest examines it and finds no white hair in it, and it isn't deeper than the surrounding skin but has faded, the priest must isolate the person for 7 days."
+    },
+    {
+      "verse": 22,
+      "kjv": "And if it spread much abroad in the skin, then the priest shall pronounce him unclean: it is a plague.",
+      "web": "If it spreads in the skin, then the priest shall pronounce him unclean. It is a plague.",
+      "ct": "If it spreads across the skin, the priest must declare them unclean. It is a disease."
+    },
+    {
+      "verse": 23,
+      "kjv": "But if the bright spot stay in his place, and spread not, it is a burning boil; and the priest shall pronounce him clean.",
+      "web": "But if the bright spot stays in its place, and hasn’t spread, it is the scar from the boil; and the priest shall pronounce him clean.",
+      "ct": "But if the shiny spot stays in one place and doesn't spread, it's just a scar from the boil, and the priest must declare them clean."
+    },
+    {
+      "verse": 24,
+      "kjv": "Or if there be any flesh, in the skin whereof there is a hot burning, and the quick flesh that burneth have a white bright spot, somewhat reddish, or white;",
+      "web": "“Or when the body has a burn from fire on its skin, and the raw flesh of the burn becomes a bright spot, reddish-white, or white,",
+      "ct": "When someone has a burn on their skin, and the raw flesh of the burn develops a shiny spot that is reddish-white or white,"
+    },
+    {
+      "verse": 25,
+      "kjv": "Then the priest shall look upon it: and, behold, if the hair in the bright spot be turned white, and it be in sight deeper than the skin; it is a leprosy broken out of the burning: wherefore the priest shall pronounce him unclean: it is the plague of leprosy.",
+      "web": "then the priest shall examine it; and behold, if the hair in the bright spot has turned white, and its appearance is deeper than the skin, it is leprosy. It has broken out in the burning, and the priest shall pronounce him unclean. It is the plague of leprosy.",
+      "ct": "the priest must examine it. If the hair in the shiny spot has turned white and it appears to go deeper than the surrounding skin, it is leprosy that has broken out in the burn. The priest must declare the person unclean. It is leprosy."
+    },
+    {
+      "verse": 26,
+      "kjv": "But if the priest look on it, and, behold, there be no white hair in the bright spot, and it be no lower than the other skin, but be somewhat dark; then the priest shall shut him up seven days:",
+      "web": "But if the priest examines it, and behold, there is no white hair in the bright spot, and it isn’t deeper than the skin, but has faded, then the priest shall isolate him seven days.",
+      "ct": "But if the priest examines it and finds no white hair in the shiny spot, and it isn't deeper than the surrounding skin but has faded, the priest must isolate the person for 7 days."
+    },
+    {
+      "verse": 27,
+      "kjv": "And the priest shall look upon him the seventh day: and if it be spread much abroad in the skin, then the priest shall pronounce him unclean: it is the plague of leprosy.",
+      "web": "The priest shall examine him on the seventh day. If it has spread in the skin, then the priest shall pronounce him unclean. It is the plague of leprosy.",
+      "ct": "On the 7th day, the priest will examine them. If it has spread across the skin, the priest must declare them unclean. It is leprosy."
+    },
+    {
+      "verse": 28,
+      "kjv": "And if the bright spot stay in his place, and spread not in the skin, but it be somewhat dark; it is a rising of the burning, and the priest shall pronounce him clean: for it is an inflammation of the burning.",
+      "web": "If the bright spot stays in its place, and hasn’t spread in the skin, but is faded, it is the swelling from the burn, and the priest shall pronounce him clean, for it is the scar from the burn.",
+      "ct": "But if the shiny spot stays in one place and hasn't spread across the skin but has faded, it is just swelling from the burn. The priest must declare them clean, because it is only a scar from the burn."
+    },
+    {
+      "verse": 29,
+      "kjv": "If a man or woman have a plague upon the head or the beard;",
+      "web": "“When a man or woman has a plague on the head or on the beard,",
+      "ct": "When a man or woman has a sore on the head or on the chin,"
+    },
+    {
+      "verse": 30,
+      "kjv": "Then the priest shall see the plague: and, behold, if it be in sight deeper than the skin; and there be in it a yellow thin hair; then the priest shall pronounce him unclean: it is a dry scall, even a leprosy upon the head or beard.",
+      "web": "then the priest shall examine the plague; and behold, if its appearance is deeper than the skin, and the hair in it is yellow and thin, then the priest shall pronounce him unclean. It is an itch. It is leprosy of the head or of the beard.",
+      "ct": "the priest must examine it. If it appears to go deeper than the skin and the hair in it is thin and yellowish, the priest must declare the person unclean. It is a scaly infection — leprosy of the head or beard."
+    },
+    {
+      "verse": 31,
+      "kjv": "And if the priest look on the plague of the scall, and, behold, it be not in sight deeper than the skin, and that there is no black hair in it; then the priest shall shut up him that hath the plague of the scall seven days:",
+      "web": "If the priest examines the plague of itching, and behold, its appearance isn’t deeper than the skin, and there is no black hair in it, then the priest shall isolate the person infected with itching seven days.",
+      "ct": "But if the priest examines the scaly infection and it doesn't appear deeper than the skin, and there is no dark hair in it, the priest must isolate the person for 7 days."
+    },
+    {
+      "verse": 32,
+      "kjv": "And in the seventh day the priest shall look on the plague: and, behold, if the scall spread not, and there be in it no yellow hair, and the scall be not in sight deeper than the skin;",
+      "web": "On the seventh day the priest shall examine the plague; and behold, if the itch hasn’t spread, and there is no yellow hair in it, and the appearance of the itch isn’t deeper than the skin,",
+      "ct": "On the 7th day, the priest will examine the infection. If the scaly area hasn't spread, there is no yellowish hair in it, and it doesn't appear deeper than the skin,"
+    },
+    {
+      "verse": 33,
+      "kjv": "He shall be shaven, but the scall shall he not shave; and the priest shall shut up him that hath the scall seven days more:",
+      "web": "then he shall be shaved, but he shall not shave the itch. Then the priest shall isolate the one who has the itch seven more days.",
+      "ct": "the person must shave the area around the infection but not shave the scaly patch itself. Then the priest must isolate them for another 7 days."
+    },
+    {
+      "verse": 34,
+      "kjv": "And in the seventh day the priest shall look on the scall: and, behold, if the scall be not spread in the skin, nor be in sight deeper than the skin; then the priest shall pronounce him clean: and he shall wash his clothes, and be clean.",
+      "web": "On the seventh day, the priest shall examine the itch; and behold, if the itch hasn’t spread in the skin, and its appearance isn’t deeper than the skin, then the priest shall pronounce him clean. He shall wash his clothes and be clean.",
+      "ct": "On the 7th day, the priest will examine the scaly area again. If it hasn't spread across the skin and doesn't appear deeper than the surface, the priest must declare them clean. The person must wash their clothes, and they will be clean."
+    },
+    {
+      "verse": 35,
+      "kjv": "But if the scall spread much in the skin after his cleansing;",
+      "web": "But if the itch spreads in the skin after his cleansing,",
+      "ct": "But if the scaly infection spreads across the skin after the person has been declared clean,"
+    },
+    {
+      "verse": 36,
+      "kjv": "Then the priest shall look on him: and, behold, if the scall be spread in the skin, the priest shall not seek for yellow hair; he is unclean.",
+      "web": "then the priest shall examine him; and behold, if the itch has spread in the skin, the priest shall not look for the yellow hair; he is unclean.",
+      "ct": "the priest must examine them again. If the infection has spread, the priest doesn't even need to look for yellowish hair — the person is unclean."
+    },
+    {
+      "verse": 37,
+      "kjv": "But if the scall be in his sight at a stay, and that there is black hair grown up therein; the scall is healed, he is clean: and the priest shall pronounce him clean.",
+      "web": "But if in his eyes the itch is arrested and black hair has grown in it, then the itch is healed. He is clean. The priest shall pronounce him clean.",
+      "ct": "But if the scaly area looks unchanged and dark hair has grown back in it, the infection has healed. The person is clean, and the priest must declare them clean."
+    },
+    {
+      "verse": 38,
+      "kjv": "If a man also or a woman have in the skin of their flesh bright spots, even white bright spots;",
+      "web": "“When a man or a woman has bright spots in the skin of the body, even white bright spots,",
+      "ct": "When a man or woman has white shiny spots on their skin,"
+    },
+    {
+      "verse": 39,
+      "kjv": "Then the priest shall look: and, behold, if the bright spots in the skin of their flesh be darkish white; it is a freckled spot that groweth in the skin; he is clean.",
+      "web": "then the priest shall examine them. Behold, if the bright spots on the skin of their body are a dull white, it is a harmless rash. It has broken out in the skin. He is clean.",
+      "ct": "the priest must examine them. If the spots are a dull white, it is just a harmless rash that has broken out on the skin. The person is clean."
+    },
+    {
+      "verse": 40,
+      "kjv": "And the man whose hair is fallen off his head, he is bald; yet is he clean.",
+      "web": "“If a man’s hair has fallen from his head, he is bald. He is clean.",
+      "ct": "If a man's hair has fallen out and he is bald, he is still clean."
+    },
+    {
+      "verse": 41,
+      "kjv": "And he that hath his hair fallen off from the part of his head toward his face, he is forehead bald: yet is he clean.",
+      "web": "If his hair has fallen off from the front part of his head, he is forehead bald. He is clean.",
+      "ct": "If his hair has fallen out from the front of his head and he is bald at the forehead, he is still clean."
+    },
+    {
+      "verse": 42,
+      "kjv": "And if there be in the bald head, or bald forehead, a white reddish sore; it is a leprosy sprung up in his bald head, or his bald forehead.",
+      "web": "But if a reddish-white plague is in the bald head or the bald forehead, it is leprosy breaking out in his bald head or his bald forehead.",
+      "ct": "But if a reddish-white sore appears on the bald area of his head or forehead, it is leprosy breaking out there."
+    },
+    {
+      "verse": 43,
+      "kjv": "Then the priest shall look upon it: and, behold, if the rising of the sore be white reddish in his bald head, or in his bald forehead, as the leprosy appeareth in the skin of the flesh;",
+      "web": "Then the priest shall examine him. Behold, if the swelling of the plague is reddish-white in his bald head, or in his bald forehead, like the appearance of leprosy in the skin of the body,",
+      "ct": "The priest must examine him. If the swelling of the sore on his bald head or forehead is reddish-white, looking like leprosy appears on the rest of the body,"
+    },
+    {
+      "verse": 44,
+      "kjv": "He is a leprous man, he is unclean: the priest shall pronounce him utterly unclean; his plague is in his head.",
+      "web": "he is a leprous man. He is unclean. The priest shall surely pronounce him unclean. His plague is on his head.",
+      "ct": "the man has leprosy. He is unclean. The priest must absolutely declare him unclean — the disease is on his head."
+    },
+    {
+      "verse": 45,
+      "kjv": "And the leper in whom the plague is, his clothes shall be rent, and his head bare, and he shall put a covering upon his upper lip, and shall cry, Unclean, unclean.",
+      "web": "“The leper in whom the plague is shall wear torn clothes, and the hair of his head shall hang loose. He shall cover his upper lip, and shall cry, ‘Unclean! Unclean!’",
+      "ct": "Anyone who has leprosy must wear torn clothes, leave their hair uncombed, cover the lower part of their face, and call out, 'Unclean! Unclean!'"
+    },
+    {
+      "verse": 46,
+      "kjv": "All the days wherein the plague shall be in him he shall be defiled; he is unclean: he shall dwell alone; without the camp shall his habitation be.",
+      "web": "All the days in which the plague is in him he shall be unclean. He is unclean. He shall dwell alone. His dwelling shall be outside of the camp.",
+      "ct": "As long as the disease lasts, they remain unclean. They must live alone, outside the camp."
+    },
+    {
+      "verse": 47,
+      "kjv": "The garment also that the plague of leprosy is in, whether it be a woollen garment, or a linen garment;",
+      "web": "“The garment also that the plague of leprosy is in, whether it is a woolen garment, or a linen garment;",
+      "ct": "When a fabric is contaminated with something like mildew — whether it's a wool garment or a linen garment,"
+    },
+    {
+      "verse": 48,
+      "kjv": "Whether it be in the warp, or woof; of linen, or of woollen; whether in a skin, or in any thing made of skin;",
+      "web": "whether it is in warp or woof; of linen or of wool; whether in a leather, or in anything made of leather;",
+      "ct": "whether in the woven threads or the cross-threads of linen or wool, or in leather or anything made from leather —"
+    },
+    {
+      "verse": 49,
+      "kjv": "And if the plague be greenish or reddish in the garment, or in the skin, either in the warp, or in the woof, or in any thing of skin; it is a plague of leprosy, and shall be shewed unto the priest:",
+      "web": "if the plague is greenish or reddish in the garment, or in the leather, or in the warp, or in the woof, or in anything made of leather; it is the plague of leprosy, and shall be shown to the priest.",
+      "ct": "if the contamination appears greenish or reddish in the fabric, the leather, the woven threads, the cross-threads, or anything made of leather, it is a contamination that must be shown to the priest."
+    },
+    {
+      "verse": 50,
+      "kjv": "And the priest shall look upon the plague, and shut up it that hath the plague seven days:",
+      "web": "The priest shall examine the plague, and isolate the plague seven days.",
+      "ct": "The priest will examine it and set the contaminated item aside for 7 days."
+    },
+    {
+      "verse": 51,
+      "kjv": "And he shall look on the plague on the seventh day: if the plague be spread in the garment, either in the warp, or in the woof, or in a skin, or in any work that is made of skin; the plague is a fretting leprosy; it is unclean.",
+      "web": "He shall examine the plague on the seventh day. If the plague has spread in the garment, either in the warp, or in the woof, or in the skin, whatever use the skin is used for, the plague is a destructive mildew. It is unclean.",
+      "ct": "On the 7th day, he will examine it again. If the contamination has spread in the fabric — whether in the woven threads, the cross-threads, or the leather, whatever its use — it is a destructive mildew. The item is unclean."
+    },
+    {
+      "verse": 52,
+      "kjv": "He shall therefore burn that garment, whether warp or woof, in woollen or in linen, or any thing of skin, wherein the plague is: for it is a fretting leprosy; it shall be burnt in the fire.",
+      "web": "He shall burn the garment, whether the warp or the woof, in wool or in linen, or anything of leather, in which the plague is, for it is a destructive mildew. It shall be burned in the fire.",
+      "ct": "He must burn the garment — whether the contamination is in the woven threads or cross-threads of wool or linen, or in anything made of leather. Because it is destructive mildew, the item must be burned in the fire."
+    },
+    {
+      "verse": 53,
+      "kjv": "And if the priest shall look, and, behold, the plague be not spread in the garment, either in the warp, or in the woof, or in any thing of skin;",
+      "web": "“If the priest examines it, and behold, the plague hasn’t spread in the garment, either in the warp, or in the woof, or in anything of skin;",
+      "ct": "But if the priest examines it and the contamination hasn't spread in the fabric, the threads, or the leather,"
+    },
+    {
+      "verse": 54,
+      "kjv": "Then the priest shall command that they wash the thing wherein the plague is, and he shall shut it up seven days more:",
+      "web": "then the priest shall command that they wash the thing that the plague is in, and he shall isolate it seven more days.",
+      "ct": "the priest will order that the contaminated item be washed and then set aside for another 7 days."
+    },
+    {
+      "verse": 55,
+      "kjv": "And the priest shall look on the plague, after that it is washed: and, behold, if the plague have not changed his colour, and the plague be not spread; it is unclean; thou shalt burn it in the fire; it is fret inward, whether it be bare within or without.",
+      "web": "Then the priest shall examine it, after the plague is washed; and behold, if the plague hasn’t changed its color, and the plague hasn’t spread, it is unclean; you shall burn it in the fire. It is a mildewed spot, whether the bareness is inside or outside.",
+      "ct": "After it has been washed, the priest will examine it again. If the contamination hasn't changed color and hasn't spread — even though it hasn't faded — the item is still unclean. You must burn it in the fire. The mildew has eaten into it, whether on the inside or the outside."
+    },
+    {
+      "verse": 56,
+      "kjv": "And if the priest look, and, behold, the plague be somewhat dark after the washing of it; then he shall rend it out of the garment, or out of the skin, or out of the warp, or out of the woof:",
+      "web": "If the priest looks, and behold, the plague has faded after it is washed, then he shall tear it out of the garment, or out of the skin, or out of the warp, or out of the woof;",
+      "ct": "But if the priest examines it and the contamination has faded after washing, he must tear the affected section out of the garment, the leather, or the threads."
+    },
+    {
+      "verse": 57,
+      "kjv": "And if it appear still in the garment, either in the warp, or in the woof, or in any thing of skin; it is a spreading plague: thou shalt burn that wherein the plague is with fire.",
+      "web": "and if it appears again in the garment, either in the warp, or in the woof, or in anything of skin, it is spreading. You shall burn with fire that in which the plague is.",
+      "ct": "If the contamination reappears in the fabric — in the woven threads, the cross-threads, or anything made of leather — it is spreading. You must burn the entire contaminated item in the fire."
+    },
+    {
+      "verse": 58,
+      "kjv": "And the garment, either warp, or woof, or whatsoever thing of skin it be, which thou shalt wash, if the plague be departed from them, then it shall be washed the second time, and shall be clean.",
+      "web": "The garment, either the warp, or the woof, or whatever thing of skin it is, which you shall wash, if the plague has departed from them, then it shall be washed the second time, and it will be clean.”",
+      "ct": "But if the contamination disappears from the fabric, threads, or leather item after washing, it must be washed a 2nd time, and then it will be clean.\""
+    },
+    {
+      "verse": 59,
+      "kjv": "This is the law of the plague of leprosy in a garment of woollen or linen, either in the warp, or woof, or any thing of skins, to pronounce it clean, or to pronounce it unclean.",
+      "web": "This is the law of the plague of mildew in a garment of wool or linen, either in the warp, or the woof, or in anything of skin, to pronounce it clean, or to pronounce it unclean.",
+      "ct": "These are the rules for dealing with mildew contamination in wool or linen garments — whether in the woven threads, the cross-threads, or anything made of leather — to determine whether the item is clean or unclean."
+    }
+  ]
+}

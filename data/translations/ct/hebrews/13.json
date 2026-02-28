@@ -1,0 +1,161 @@
+{
+  "book": "hebrews",
+  "book_name": "Hebrews",
+  "chapter": 13,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:11:55.694Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Let brotherly love continue.",
+      "web": "Let brotherly love continue.",
+      "ct": "Keep loving each other like the brothers and sisters you are."
+    },
+    {
+      "verse": 2,
+      "kjv": "Be not forgetful to entertain strangers: for thereby some have entertained angels unawares.",
+      "web": "Don’t forget to show hospitality to strangers, for in doing so, some have entertained angels without knowing it.",
+      "ct": "Don't forget to show hospitality to strangers — some people have done this and ended up welcoming angels without even knowing it."
+    },
+    {
+      "verse": 3,
+      "kjv": "Remember them that are in bonds, as bound with them; and them which suffer adversity, as being yourselves also in the body.",
+      "web": "Remember those who are in bonds, as bound with them, and those who are ill-treated, since you are also in the body.",
+      "ct": "Remember those who are in prison as if you were locked up with them. Care for those who are mistreated as if you could feel their pain in your own body."
+    },
+    {
+      "verse": 4,
+      "kjv": "Marriage is honourable in all, and the bed undefiled: but whoremongers and adulterers God will judge.",
+      "web": "Let marriage be held in honor among all, and let the bed be undefiled; but God will judge the sexually immoral and adulterers.",
+      "ct": "Marriage should be honored by everyone, and the marriage bed kept pure. God will judge those who are sexually immoral and those who commit adultery."
+    },
+    {
+      "verse": 5,
+      "kjv": "Let your conversation be without covetousness; and be content with such things as ye have: for he hath said, I will never leave thee, nor forsake thee.",
+      "web": "Be free from the love of money, content with such things as you have, for he has said, “I will in no way leave you, neither will I in any way forsake you.”",
+      "ct": "Live free from the love of money, and be satisfied with what you have. After all, God himself has said, \"I will never leave you, and I will never abandon you.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "So that we may boldly say, The Lord is my helper, and I will not fear what man shall do unto me.",
+      "web": "So that with good courage we say, “The Lord is my helper. I will not fear. What can man do to me?”",
+      "ct": "So we can say with confidence, \"The Lord is my helper — I won't be afraid. What can anyone do to me?\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Remember them which have the rule over you, who have spoken unto you the word of God: whose faith follow, considering the end of their conversation.",
+      "web": "Remember your leaders, men who spoke to you the word of God, and considering the results of their conduct, imitate their faith.",
+      "ct": "Remember your leaders who taught you the word of God. Look at how their lives turned out, and follow their example of faith."
+    },
+    {
+      "verse": 8,
+      "kjv": "Jesus Christ the same yesterday, and to day, and for ever.",
+      "web": "Jesus Christ is the same yesterday, today, and forever.",
+      "ct": "Jesus Christ is the same yesterday, today, and forever."
+    },
+    {
+      "verse": 9,
+      "kjv": "Be not carried about with divers and strange doctrines. For it is a good thing that the heart be established with grace; not with meats, which have not profited them that have been occupied therein.",
+      "web": "Don’t be carried away by various and strange teachings, for it is good that the heart be established by grace, not by food, through which those who were so occupied were not benefited.",
+      "ct": "Don't get swept away by all kinds of strange teachings. What strengthens your heart is grace, not rules about food — those rules have never done any good for the people who follow them."
+    },
+    {
+      "verse": 10,
+      "kjv": "We have an altar, whereof they have no right to eat which serve the tabernacle.",
+      "web": "We have an altar from which those who serve the holy tabernacle have no right to eat.",
+      "ct": "We have an altar that the priests who serve in the tabernacle have no right to eat from."
+    },
+    {
+      "verse": 11,
+      "kjv": "For the bodies of those beasts, whose blood is brought into the sanctuary by the high priest for sin, are burned without the camp.",
+      "web": "For the bodies of those animals, whose blood is brought into the holy place by the high priest as an offering for sin, are burned outside of the camp.",
+      "ct": "Under the old system, the high priest carries animal blood into the holy place as an offering for sin, but the bodies of those animals are burned outside the camp."
+    },
+    {
+      "verse": 12,
+      "kjv": "Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate.",
+      "web": "Therefore Jesus also, that he might sanctify the people through his own blood, suffered outside of the gate.",
+      "ct": "In the same way, Jesus suffered outside the city gate so he could make the people holy through his own blood."
+    },
+    {
+      "verse": 13,
+      "kjv": "Let us go forth therefore unto him without the camp, bearing his reproach.",
+      "web": "Let’s therefore go out to him outside of the camp, bearing his reproach.",
+      "ct": "So let's go to him outside the camp, willing to share in his disgrace."
+    },
+    {
+      "verse": 14,
+      "kjv": "For here have we no continuing city, but we seek one to come.",
+      "web": "For we don’t have here an enduring city, but we seek that which is to come.",
+      "ct": "This world has no permanent city for us — we're looking ahead to the city that is coming."
+    },
+    {
+      "verse": 15,
+      "kjv": "By him therefore let us offer the sacrifice of praise to God continually, that is, the fruit of our lips giving thanks to his name.",
+      "web": "Through him, then, let’s offer up a sacrifice of praise to God continually, that is, the fruit of lips which proclaim allegiance to his name.",
+      "ct": "Through Jesus, then, let's continually offer God a sacrifice of praise — that is, words from our lips that openly declare his name."
+    },
+    {
+      "verse": 16,
+      "kjv": "But to do good and to communicate forget not: for with such sacrifices God is well pleased.",
+      "web": "But don’t forget to be doing good and sharing, for with such sacrifices God is well pleased.",
+      "ct": "And don't forget to do good and share what you have, because these are the kinds of sacrifices that please God."
+    },
+    {
+      "verse": 17,
+      "kjv": "Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account, that they may do it with joy, and not with grief: for that is unprofitable for you.",
+      "web": "Obey your leaders and submit to them, for they watch on behalf of your souls, as those who will give account, that they may do this with joy, and not with groaning, for that would be unprofitable for you.",
+      "ct": "Obey your leaders and submit to their authority. They watch over your souls and will have to answer to God for how they did it. Let them do this work with joy, not with frustration — that wouldn't help any of you."
+    },
+    {
+      "verse": 18,
+      "kjv": "Pray for us: for we trust we have a good conscience, in all things willing to live honestly.",
+      "web": "Pray for us, for we are persuaded that we have a good conscience, desiring to live honorably in all things.",
+      "ct": "Pray for us. We're confident that our conscience is clear, and we want to live with integrity in everything we do."
+    },
+    {
+      "verse": 19,
+      "kjv": "But I beseech you the rather to do this, that I may be restored to you the sooner.",
+      "web": "I strongly urge you to do this, that I may be restored to you sooner.",
+      "ct": "I especially urge you to pray so that I can come back to you soon."
+    },
+    {
+      "verse": 20,
+      "kjv": "Now the God of peace, that brought again from the dead our Lord Jesus, that great shepherd of the sheep, through the blood of the everlasting covenant,",
+      "web": "Now may the God of peace, who brought again from the dead the great shepherd of the sheep with the blood of an eternal covenant, our Lord Jesus,",
+      "ct": "Now may the God of peace — who raised from the dead our Lord Jesus, the great shepherd of the sheep, through the blood of the eternal covenant —"
+    },
+    {
+      "verse": 21,
+      "kjv": "Make you perfect in every good work to do his will, working in you that which is wellpleasing in his sight, through Jesus Christ; to whom be glory for ever and ever. Amen.",
+      "web": "make you complete in every good work to do his will, working in you that which is well pleasing in his sight, through Jesus Christ, to whom be the glory forever and ever. Amen.",
+      "ct": "equip you with everything good so you can do his will. May he produce in you, through Jesus Christ, whatever is pleasing to him. To Christ be glory forever and ever. Amen."
+    },
+    {
+      "verse": 22,
+      "kjv": "And I beseech you, brethren, suffer the word of exhortation: for I have written a letter unto you in few words.",
+      "web": "But I exhort you, brothers, endure the word of exhortation; for I have written to you in few words.",
+      "ct": "Brothers and sisters, I ask you to take this message of encouragement to heart. After all, I've kept this letter fairly short."
+    },
+    {
+      "verse": 23,
+      "kjv": "Know ye that our brother Timothy is set at liberty; with whom, if he come shortly, I will see you.",
+      "web": "Know that our brother Timothy has been freed, with whom, if he comes shortly, I will see you.",
+      "ct": "I want you to know that our brother Timothy has been released from prison. If he arrives soon, I'll bring him with me when I come to see you."
+    },
+    {
+      "verse": 24,
+      "kjv": "Salute all them that have the rule over you, and all the saints. They of Italy salute you.",
+      "web": "Greet all of your leaders and all the saints. The Italians greet you.",
+      "ct": "Give my greetings to all your leaders and to all of God's people. Those from Italy send their greetings to you."
+    },
+    {
+      "verse": 25,
+      "kjv": "Grace be with you all. Amen.",
+      "web": "Grace be with you all. Amen.",
+      "ct": "Grace be with all of you. Amen."
+    }
+  ]
+}

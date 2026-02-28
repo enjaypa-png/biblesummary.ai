@@ -1,0 +1,275 @@
+{
+  "book": "mark",
+  "book_name": "Mark",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T13:49:40.086Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And he began to speak unto them by parables. A certain man planted a vineyard, and set an hedge about it, and digged a place for the winefat, and built a tower, and let it out to husbandmen, and went into a far country.",
+      "web": "He began to speak to them in parables. “A man planted a vineyard, put a hedge around it, dug a pit for the wine press, built a tower, rented it out to a farmer, and went into another country.",
+      "ct": "Then Jesus began teaching them with parables. He said, \"A man planted a vineyard, built a wall around it, dug a pit for the winepress, and put up a watchtower. Then he rented it out to some tenant farmers and left for a distant country."
+    },
+    {
+      "verse": 2,
+      "kjv": "And at the season he sent to the husbandmen a servant, that he might receive from the husbandmen of the fruit of the vineyard.",
+      "web": "When it was time, he sent a servant to the farmer to get from the farmer his share of the fruit of the vineyard.",
+      "ct": "When harvest season came, he sent a servant to the tenants to collect his share of the vineyard's fruit."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they caught him, and beat him, and sent him away empty.",
+      "web": "They took him, beat him, and sent him away empty.",
+      "ct": "But they grabbed the servant, beat him, and sent him back with nothing."
+    },
+    {
+      "verse": 4,
+      "kjv": "And again he sent unto them another servant; and at him they cast stones, and wounded him in the head, and sent him away shamefully handled.",
+      "web": "Again, he sent another servant to them; and they threw stones at him, wounded him in the head, and sent him away shamefully treated.",
+      "ct": "So the owner sent another servant. This time they threw stones at him, cracked his head open, and sent him away humiliated."
+    },
+    {
+      "verse": 5,
+      "kjv": "And again he sent another; and him they killed, and many others; beating some, and killing some.",
+      "web": "Again he sent another; and they killed him; and many others, beating some, and killing some.",
+      "ct": "He sent yet another servant, and they killed that one. He sent many more after that — some they beat, and some they killed."
+    },
+    {
+      "verse": 6,
+      "kjv": "Having yet therefore one son, his wellbeloved, he sent him also last unto them, saying, They will reverence my son.",
+      "web": "Therefore still having one, his beloved son, he sent him last to them, saying, ‘They will respect my son.’",
+      "ct": "He had one person left to send: his beloved son. Finally he sent him, thinking, 'Surely they will respect my son.'"
+    },
+    {
+      "verse": 7,
+      "kjv": "But those husbandmen said among themselves, This is the heir; come, let us kill him, and the inheritance shall be our’s.",
+      "web": "But those farmers said among themselves, ‘This is the heir. Come, let’s kill him, and the inheritance will be ours.’",
+      "ct": "But the tenants said to each other, 'This is the heir! Let's kill him, and the inheritance will be ours.'"
+    },
+    {
+      "verse": 8,
+      "kjv": "And they took him, and killed him, and cast him out of the vineyard.",
+      "web": "They took him, killed him, and cast him out of the vineyard.",
+      "ct": "So they grabbed him, killed him, and threw his body out of the vineyard."
+    },
+    {
+      "verse": 9,
+      "kjv": "What shall therefore the lord of the vineyard do? he will come and destroy the husbandmen, and will give the vineyard unto others.",
+      "web": "What therefore will the lord of the vineyard do? He will come and destroy the farmers, and will give the vineyard to others.",
+      "ct": "Now what do you think the owner of the vineyard will do? He'll come and destroy those tenants and give the vineyard to others."
+    },
+    {
+      "verse": 10,
+      "kjv": "And have ye not read this scripture; The stone which the builders rejected is become the head of the corner:",
+      "web": "Haven’t you even read this Scripture: ‘The stone which the builders rejected was made the head of the corner.",
+      "ct": "Haven't you read this Scripture: 'The stone that the builders rejected has become the cornerstone."
+    },
+    {
+      "verse": 11,
+      "kjv": "This was the Lord’s doing, and it is marvellous in our eyes?",
+      "web": "This was from the Lord. It is marvelous in our eyes’?”",
+      "ct": "This was the Lord's doing, and it is an amazing thing to see'?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And they sought to lay hold on him, but feared the people: for they knew that he had spoken the parable against them: and they left him, and went their way.",
+      "web": "They tried to seize him, but they feared the multitude; for they perceived that he spoke the parable against them. They left him, and went away.",
+      "ct": "The religious leaders wanted to arrest him because they knew the parable was aimed at them. But they were afraid of the crowd, so they left him alone and walked away."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they send unto him certain of the Pharisees and of the Herodians, to catch him in his words.",
+      "web": "They sent some of the Pharisees and the Herodians to him, that they might trap him with words.",
+      "ct": "Later they sent some Pharisees and Herodians to Jesus, hoping to trap him with his own words."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when they were come, they say unto him, Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Caesar, or not?",
+      "web": "When they had come, they asked him, “Teacher, we know that you are honest, and don’t defer to anyone; for you aren’t partial to anyone, but truly teach the way of God. Is it lawful to pay taxes to Caesar, or not?",
+      "ct": "They came to him and said, \"Teacher, we know you're an honest man who isn't swayed by anyone's opinion. You don't play favorites — you truly teach the way of God. So tell us: is it lawful to pay taxes to Caesar, or not?\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Shall we give, or shall we not give? But he, knowing their hypocrisy, said unto them, Why tempt ye me? bring me a penny, that I may see it.",
+      "web": "Shall we give, or shall we not give?” But he, knowing their hypocrisy, said to them, “Why do you test me? Bring me a denarius, that I may see it.”",
+      "ct": "\"Should we pay, or shouldn't we?\" But Jesus saw right through their hypocrisy and said, \"Why are you trying to trap me? Bring me a denarius so I can look at it.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And they brought it. And he saith unto them, Whose is this image and superscription? And they said unto him, Caesar’s.",
+      "web": "They brought it. He said to them, “Whose is this image and inscription?” They said to him, “Caesar’s.”",
+      "ct": "They brought him one. He asked them, \"Whose face and name are stamped on this coin?\" They answered, \"Caesar's.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And Jesus answering said unto them, Render to Caesar the things that are Caesar’s, and to God the things that are God’s. And they marvelled at him.",
+      "web": "Jesus answered them, “Render to Caesar the things that are Caesar’s, and to God the things that are God’s.” They marveled greatly at him.",
+      "ct": "Jesus replied, \"Give to Caesar what belongs to Caesar, and give to God what belongs to God.\" They were completely amazed by his answer."
+    },
+    {
+      "verse": 18,
+      "kjv": "Then come unto him the Sadducees, which say there is no resurrection; and they asked him, saying,",
+      "web": "Some Sadducees, who say that there is no resurrection, came to him. They asked him, saying,",
+      "ct": "Next, some Sadducees came to him — these are the ones who say there's no resurrection — and they posed a question."
+    },
+    {
+      "verse": 19,
+      "kjv": "Master, Moses wrote unto us, If a man’s brother die, and leave his wife behind him, and leave no children, that his brother should take his wife, and raise up seed unto his brother.",
+      "web": "“Teacher, Moses wrote to us, ‘If a man’s brother dies, and leaves a wife behind him, and leaves no children, that his brother should take his wife, and raise up offspring for his brother.’",
+      "ct": "\"Teacher, Moses wrote that if a man dies and leaves a wife but no children, his brother must marry the widow and have children to carry on his brother's name."
+    },
+    {
+      "verse": 20,
+      "kjv": "Now there were seven brethren: and the first took a wife, and dying left no seed.",
+      "web": "There were seven brothers. The first took a wife, and dying left no offspring.",
+      "ct": "Now, there were 7 brothers. The first one married a woman but died without having any children."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the second took her, and died, neither left he any seed: and the third likewise.",
+      "web": "The second took her, and died, leaving no children behind him. The third likewise;",
+      "ct": "The second brother married her and also died without children. The same thing happened with the third."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the seven had her, and left no seed: last of all the woman died also.",
+      "web": "and the seven took her and left no children. Last of all the woman also died.",
+      "ct": "In fact, all 7 brothers married her and died without leaving any children. Finally, the woman herself died too."
+    },
+    {
+      "verse": 23,
+      "kjv": "In the resurrection therefore, when they shall rise, whose wife shall she be of them? for the seven had her to wife.",
+      "web": "In the resurrection, when they rise, whose wife will she be of them? For the seven had her as a wife.”",
+      "ct": "So here's our question: at the resurrection, when they all rise from the dead, whose wife will she be? After all, all 7 of them were married to her.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And Jesus answering said unto them, Do ye not therefore err, because ye know not the scriptures, neither the power of God?",
+      "web": "Jesus answered them, “Isn’t this because you are mistaken, not knowing the Scriptures, nor the power of God?",
+      "ct": "Jesus replied, \"You're completely wrong, and here's why — you don't know the Scriptures, and you don't understand the power of God."
+    },
+    {
+      "verse": 25,
+      "kjv": "For when they shall rise from the dead, they neither marry, nor are given in marriage; but are as the angels which are in heaven.",
+      "web": "For when they will rise from the dead, they neither marry, nor are given in marriage, but are like angels in heaven.",
+      "ct": "When people rise from the dead, they won't marry or be given in marriage. They'll be like the angels in heaven."
+    },
+    {
+      "verse": 26,
+      "kjv": "And as touching the dead, that they rise: have ye not read in the book of Moses, how in the bush God spake unto him, saying, I am the God of Abraham, and the God of Isaac, and the God of Jacob?",
+      "web": "But about the dead, that they are raised; haven’t you read in the book of Moses, about the Bush, how God spoke to him, saying, ‘I am the God of Abraham, the God of Isaac, and the God of Jacob’?",
+      "ct": "Now, as for whether the dead are raised — haven't you read in the book of Moses, in the passage about the burning bush, how God said to him, 'I am the God of Abraham, the God of Isaac, and the God of Jacob'?"
+    },
+    {
+      "verse": 27,
+      "kjv": "He is not the God of the dead, but the God of the living: ye therefore do greatly err.",
+      "web": "He is not the God of the dead, but of the living. You are therefore badly mistaken.”",
+      "ct": "He is not the God of the dead but of the living. You are badly mistaken.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And one of the scribes came, and having heard them reasoning together, and perceiving that he had answered them well, asked him, Which is the first commandment of all?",
+      "web": "One of the scribes came, and heard them questioning together, and knowing that he had answered them well, asked him, “Which commandment is the greatest of all?”",
+      "ct": "One of the scribes had been listening to the whole debate. Impressed by how well Jesus answered, he asked him, \"Which commandment is the greatest of all?\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And Jesus answered him, The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord:",
+      "web": "Jesus answered, “The greatest is, ‘Hear, Israel, the Lord our God, the Lord is one:",
+      "ct": "Jesus answered, \"The greatest is this: 'Hear, O Israel: the Lord our God, the Lord is one."
+    },
+    {
+      "verse": 30,
+      "kjv": "And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment.",
+      "web": "you shall love the Lord your God with all your heart, and with all your soul, and with all your mind, and with all your strength.’ This is the first commandment.",
+      "ct": "Love the Lord your God with all your heart, with all your soul, with all your mind, and with all your strength.' This is the first commandment."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the second is like, namely this, Thou shalt love thy neighbour as thyself. There is none other commandment greater than these.",
+      "web": "The second is like this, ‘You shall love your neighbor as yourself.’ There is no other commandment greater than these.”",
+      "ct": "The second is this: 'Love your neighbor as yourself.' No commandment is greater than these.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And the scribe said unto him, Well, Master, thou hast said the truth: for there is one God; and there is none other but he:",
+      "web": "The scribe said to him, “Truly, teacher, you have said well that he is one, and there is none other but he,",
+      "ct": "The scribe said, \"Well said, Teacher. You're absolutely right that God is one and there is no other besides him."
+    },
+    {
+      "verse": 33,
+      "kjv": "And to love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love his neighbour as himself, is more than all whole burnt offerings and sacrifices.",
+      "web": "and to love him with all the heart, and with all the understanding, with all the soul, and with all the strength, and to love his neighbor as himself, is more important than all whole burnt offerings and sacrifices.”",
+      "ct": "To love him with all your heart, all your understanding, all your soul, and all your strength, and to love your neighbor as yourself — that matters more than all the burnt offerings and sacrifices combined.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And when Jesus saw that he answered discreetly, he said unto him, Thou art not far from the kingdom of God. And no man after that durst ask him any question.",
+      "web": "When Jesus saw that he answered wisely, he said to him, “You are not far from God’s Kingdom.” No one dared ask him any question after that.",
+      "ct": "When Jesus saw how wisely the man answered, he told him, \"You are not far from the kingdom of God.\" After that, no one dared ask him any more questions."
+    },
+    {
+      "verse": 35,
+      "kjv": "And Jesus answered and said, while he taught in the temple, How say the scribes that Christ is the son of David?",
+      "web": "Jesus responded, as he taught in the temple, “How is it that the scribes say that the Christ is the son of David?",
+      "ct": "While teaching in the temple, Jesus raised a question: \"How can the scribes say that the Christ is the son of David?"
+    },
+    {
+      "verse": 36,
+      "kjv": "For David himself said by the Holy Ghost, The LORD said to my Lord, Sit thou on my right hand, till I make thine enemies thy footstool.",
+      "web": "For David himself said in the Holy Spirit, ‘The Lord said to my Lord, “Sit at my right hand, until I make your enemies the footstool of your feet.” ’",
+      "ct": "David himself, speaking through the Holy Spirit, said: 'The LORD said to my Lord, sit at my right hand until I make your enemies a footstool for your feet.'"
+    },
+    {
+      "verse": 37,
+      "kjv": "David therefore himself calleth him Lord; and whence is he then his son? And the common people heard him gladly.",
+      "web": "Therefore David himself calls him Lord, so how can he be his son?” The common people heard him gladly.",
+      "ct": "If David himself calls him 'Lord,' then how can he simply be David's son?\" The large crowd listened to him with delight."
+    },
+    {
+      "verse": 38,
+      "kjv": "And he said unto them in his doctrine, Beware of the scribes, which love to go in long clothing, and love salutations in the marketplaces,",
+      "web": "In his teaching he said to them, “Beware of the scribes, who like to walk in long robes, and to get greetings in the marketplaces,",
+      "ct": "As he taught, he warned them, \"Watch out for the scribes. They love to walk around in long, flowing robes and be greeted with respect in the marketplaces."
+    },
+    {
+      "verse": 39,
+      "kjv": "And the chief seats in the synagogues, and the uppermost rooms at feasts:",
+      "web": "and the best seats in the synagogues, and the best places at feasts:",
+      "ct": "They grab the best seats in the synagogues and the places of honor at banquets."
+    },
+    {
+      "verse": 40,
+      "kjv": "Which devour widows’ houses, and for a pretence make long prayers: these shall receive greater damnation.",
+      "web": "those who devour widows’ houses, and for a pretense make long prayers. These will receive greater condemnation.”",
+      "ct": "They cheat widows out of their homes and then cover it up with long, showy prayers. These men will be punished most severely.\""
+    },
+    {
+      "verse": 41,
+      "kjv": "And Jesus sat over against the treasury, and beheld how the people cast money into the treasury: and many that were rich cast in much.",
+      "web": "Jesus sat down opposite the treasury, and saw how the multitude cast money into the treasury. Many who were rich cast in much.",
+      "ct": "Jesus sat down across from the temple treasury and watched as people dropped in their money. Many wealthy people put in large amounts."
+    },
+    {
+      "verse": 42,
+      "kjv": "And there came a certain poor widow, and she threw in two mites, which make a farthing.",
+      "web": "A poor widow came, and she cast in two small brass coins, which equal a quadrans coin.",
+      "ct": "Then a poor widow came and dropped in 2 tiny copper coins, worth almost nothing."
+    },
+    {
+      "verse": 43,
+      "kjv": "And he called unto him his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury:",
+      "web": "He called his disciples to himself, and said to them, “Most certainly I tell you, this poor widow gave more than all those who are giving into the treasury,",
+      "ct": "Jesus called his disciples over and said, \"I tell you the truth: this poor widow has put in more than everyone else who gave to the treasury."
+    },
+    {
+      "verse": 44,
+      "kjv": "For all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living.",
+      "web": "for they all gave out of their abundance, but she, out of her poverty, gave all that she had to live on.”",
+      "ct": "All the others gave out of their wealth, but she, out of her poverty, gave everything she had — every last coin she had to live on.\""
+    }
+  ]
+}

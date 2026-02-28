@@ -1,0 +1,263 @@
+{
+  "book": "luke",
+  "book_name": "Luke",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T13:56:59.536Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "After these things the LORD appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come.",
+      "web": "Now after these things, the Lord also appointed seventy others, and sent them two by two ahead of him into every city and place where he was about to come.",
+      "ct": "After this, the Lord appointed 70 others and sent them out in pairs ahead of him to every town and place he planned to visit."
+    },
+    {
+      "verse": 2,
+      "kjv": "Therefore said he unto them, The harvest truly is great, but the labourers are few: pray ye therefore the Lord of the harvest, that he would send forth labourers into his harvest.",
+      "web": "Then he said to them, “The harvest is indeed plentiful, but the laborers are few. Pray therefore to the Lord of the harvest, that he may send out laborers into his harvest.",
+      "ct": "He told them, \"The harvest is huge, but there aren't enough workers. So pray and ask the Lord of the harvest to send more workers into his fields."
+    },
+    {
+      "verse": 3,
+      "kjv": "Go your ways: behold, I send you forth as lambs among wolves.",
+      "web": "Go your ways. Behold, I send you out as lambs among wolves.",
+      "ct": "Now go! But understand this — I'm sending you out like lambs into a pack of wolves."
+    },
+    {
+      "verse": 4,
+      "kjv": "Carry neither purse, nor scrip, nor shoes: and salute no man by the way.",
+      "web": "Carry no purse, nor wallet, nor sandals. Greet no one on the way.",
+      "ct": "Don't carry a money bag, a travel pack, or extra sandals. And don't stop to chat with anyone along the road."
+    },
+    {
+      "verse": 5,
+      "kjv": "And into whatsoever house ye enter, first say, Peace be to this house.",
+      "web": "Into whatever house you enter, first say, ‘Peace be to this house.’",
+      "ct": "When you enter a house, the first thing you should say is, 'Peace be to this house.'"
+    },
+    {
+      "verse": 6,
+      "kjv": "And if the son of peace be there, your peace shall rest upon it: if not, it shall turn to you again.",
+      "web": "If a son of peace is there, your peace will rest on him; but if not, it will return to you.",
+      "ct": "If someone there is open to peace, your blessing will rest on that person. If not, your blessing will come back to you."
+    },
+    {
+      "verse": 7,
+      "kjv": "And in the same house remain, eating and drinking such things as they give: for the labourer is worthy of his hire. Go not from house to house.",
+      "web": "Remain in that same house, eating and drinking the things they give, for the laborer is worthy of his wages. Don’t go from house to house.",
+      "ct": "Stay in that same house, and eat and drink whatever they offer you, because a worker deserves to be paid. Don't keep moving from house to house."
+    },
+    {
+      "verse": 8,
+      "kjv": "And into whatsoever city ye enter, and they receive you, eat such things as are set before you:",
+      "web": "Into whatever city you enter, and they receive you, eat the things that are set before you.",
+      "ct": "When you enter a town and the people welcome you, eat whatever food they put in front of you."
+    },
+    {
+      "verse": 9,
+      "kjv": "And heal the sick that are therein, and say unto them, The kingdom of God is come nigh unto you.",
+      "web": "Heal the sick who are there, and tell them, ‘God’s Kingdom has come near to you.’",
+      "ct": "Heal the sick who are there, and tell them, 'The kingdom of God has come near to you.'"
+    },
+    {
+      "verse": 10,
+      "kjv": "But into whatsoever city ye enter, and they receive you not, go your ways out into the streets of the same, and say,",
+      "web": "But into whatever city you enter, and they don’t receive you, go out into its streets and say,",
+      "ct": "But when you enter a town and they don't welcome you, go out into the streets and say,"
+    },
+    {
+      "verse": 11,
+      "kjv": "Even the very dust of your city, which cleaveth on us, we do wipe off against you: notwithstanding be ye sure of this, that the kingdom of God is come nigh unto you.",
+      "web": "‘Even the dust from your city that clings to us, we wipe off against you. Nevertheless know this, that God’s Kingdom has come near to you.’",
+      "ct": "'We're wiping off even the dust of your town that clings to our feet as a witness against you. But know this — the kingdom of God has come near to you.'"
+    },
+    {
+      "verse": 12,
+      "kjv": "But I say unto you, that it shall be more tolerable in that day for Sodom, than for that city.",
+      "web": "I tell you, it will be more tolerable in that day for Sodom than for that city.",
+      "ct": "I'm telling you, on judgment day it will be more bearable for Sodom than for that town."
+    },
+    {
+      "verse": 13,
+      "kjv": "Woe unto thee, Chorazin! woe unto thee, Bethsaida! for if the mighty works had been done in Tyre and Sidon, which have been done in you, they had a great while ago repented, sitting in sackcloth and ashes.",
+      "web": "“Woe to you, Chorazin! Woe to you, Bethsaida! For if the mighty works had been done in Tyre and Sidon which were done in you, they would have repented long ago, sitting in sackcloth and ashes.",
+      "ct": "How terrible it will be for you, Chorazin! How terrible for you, Bethsaida! If the miracles done among you had been done in Tyre and Sidon, those cities would have repented long ago, sitting in sackcloth and ashes."
+    },
+    {
+      "verse": 14,
+      "kjv": "But it shall be more tolerable for Tyre and Sidon at the judgment, than for you.",
+      "web": "But it will be more tolerable for Tyre and Sidon in the judgment than for you.",
+      "ct": "But on judgment day, it will be more bearable for Tyre and Sidon than for you."
+    },
+    {
+      "verse": 15,
+      "kjv": "And thou, Capernaum, which art exalted to heaven, shalt be thrust down to hell.",
+      "web": "You, Capernaum, who are exalted to heaven, will be brought down to Hades.",
+      "ct": "And you, Capernaum — do you think you'll be lifted up to heaven? No, you'll be thrown down to hell."
+    },
+    {
+      "verse": 16,
+      "kjv": "He that heareth you heareth me; and he that despiseth you despiseth me; and he that despiseth me despiseth him that sent me.",
+      "web": "Whoever listens to you listens to me, and whoever rejects you rejects me. Whoever rejects me rejects him who sent me.”",
+      "ct": "Whoever listens to you is listening to me. Whoever rejects you is rejecting me. And whoever rejects me is rejecting the one who sent me.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the seventy returned again with joy, saying, Lord, even the devils are subject unto us through thy name.",
+      "web": "The seventy returned with joy, saying, “Lord, even the demons are subject to us in your name!”",
+      "ct": "The 70 came back overjoyed. \"Lord,\" they said, \"even the demons obey us when we use your name!\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And he said unto them, I beheld Satan as lightning fall from heaven.",
+      "web": "He said to them, “I saw Satan having fallen like lightning from heaven.",
+      "ct": "Jesus replied, \"I watched Satan fall from heaven like a bolt of lightning."
+    },
+    {
+      "verse": 19,
+      "kjv": "Behold, I give unto you power to tread on serpents and scorpions, and over all the power of the enemy: and nothing shall by any means hurt you.",
+      "web": "Behold, I give you authority to tread on serpents and scorpions, and over all the power of the enemy. Nothing will in any way hurt you.",
+      "ct": "Listen — I've given you authority to trample on snakes and scorpions and to overpower every force of the enemy. Nothing will harm you in any way."
+    },
+    {
+      "verse": 20,
+      "kjv": "Notwithstanding in this rejoice not, that the spirits are subject unto you; but rather rejoice, because your names are written in heaven.",
+      "web": "Nevertheless, don’t rejoice in this, that the spirits are subject to you, but rejoice that your names are written in heaven.”",
+      "ct": "But don't celebrate because the spirits submit to you. Instead, celebrate because your names are written in heaven.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "In that hour Jesus rejoiced in spirit, and said, I thank thee, O Father, Lord of heaven and earth, that thou hast hid these things from the wise and prudent, and hast revealed them unto babes: even so, Father; for so it seemed good in thy sight.",
+      "web": "In that same hour Jesus rejoiced in the Holy Spirit, and said, “I thank you, O Father, Lord of heaven and earth, that you have hidden these things from the wise and understanding, and revealed them to little children. Yes, Father, for so it was well-pleasing in your sight.”",
+      "ct": "In that very moment, Jesus was filled with joy through the Holy Spirit and said, \"I thank you, Father, Lord of heaven and earth, because you've hidden these things from the wise and educated and revealed them to little children. Yes, Father, this is exactly what pleased you.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "All things are delivered to me of my Father: and no man knoweth who the Son is, but the Father; and who the Father is, but the Son, and he to whom the Son will reveal him.",
+      "web": "Turning to the disciples, he said, “All things have been delivered to me by my Father. No one knows who the Son is, except the Father, and who the Father is, except the Son, and he to whomever the Son desires to reveal him.”",
+      "ct": "Then turning to his disciples, he said, \"My Father has entrusted everything to me. No one knows who the Son is except the Father, and no one knows who the Father is except the Son — and anyone the Son chooses to reveal him to.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And he turned him unto his disciples, and said privately, Blessed are the eyes which see the things that ye see:",
+      "web": "Turning to the disciples, he said privately, “Blessed are the eyes which see the things that you see,",
+      "ct": "Then he turned to his disciples privately and said, \"How blessed are the eyes that see what you're seeing!"
+    },
+    {
+      "verse": 24,
+      "kjv": "For I tell you, that many prophets and kings have desired to see those things which ye see, and have not seen them; and to hear those things which ye hear, and have not heard them.",
+      "web": "for I tell you that many prophets and kings desired to see the things which you see, and didn’t see them, and to hear the things which you hear, and didn’t hear them.”",
+      "ct": "I tell you, many prophets and kings longed to see what you're seeing but never saw it, and to hear what you're hearing but never heard it.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And, behold, a certain lawyer stood up, and tempted him, saying, Master, what shall I do to inherit eternal life?",
+      "web": "Behold, a certain lawyer stood up and tested him, saying, “Teacher, what shall I do to inherit eternal life?”",
+      "ct": "One day an expert in the law stood up to test Jesus. \"Teacher,\" he asked, \"what must I do to inherit eternal life?\""
+    },
+    {
+      "verse": 26,
+      "kjv": "He said unto him, What is written in the law? how readest thou?",
+      "web": "He said to him, “What is written in the law? How do you read it?”",
+      "ct": "Jesus said to him, \"What does the law say? How do you read it?\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And he answering said, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy strength, and with all thy mind; and thy neighbour as thyself.",
+      "web": "He answered, “You shall love the Lord your God with all your heart, with all your soul, with all your strength, and with all your mind; and your neighbor as yourself.”",
+      "ct": "The man answered, \"'Love the Lord your God with all your heart, with all your soul, with all your strength, and with all your mind' — and 'love your neighbor as yourself.'\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And he said unto him, Thou hast answered right: this do, and thou shalt live.",
+      "web": "He said to him, “You have answered correctly. Do this, and you will live.”",
+      "ct": "\"That's the right answer,\" Jesus told him. \"Do this, and you will live.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "But he, willing to justify himself, said unto Jesus, And who is my neighbour?",
+      "web": "But he, desiring to justify himself, asked Jesus, “Who is my neighbor?”",
+      "ct": "But the man wanted to justify himself, so he asked Jesus, \"And who exactly is my neighbor?\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And Jesus answering said, A certain man went down from Jerusalem to Jericho, and fell among thieves, which stripped him of his raiment, and wounded him, and departed, leaving him half dead.",
+      "web": "Jesus answered, “A certain man was going down from Jerusalem to Jericho, and he fell among robbers, who both stripped him and beat him, and departed, leaving him half dead.",
+      "ct": "Jesus answered with a story: \"A man was traveling the road from Jerusalem down to Jericho when he was attacked by robbers. They stripped him, beat him, and left him lying there half dead."
+    },
+    {
+      "verse": 31,
+      "kjv": "And by chance there came down a certain priest that way: and when he saw him, he passed by on the other side.",
+      "web": "By chance a certain priest was going down that way. When he saw him, he passed by on the other side.",
+      "ct": "A priest happened to be going down that same road. When he saw the man, he crossed to the other side and kept walking."
+    },
+    {
+      "verse": 32,
+      "kjv": "And likewise a Levite, when he was at the place, came and looked on him, and passed by on the other side.",
+      "web": "In the same way a Levite also, when he came to the place, and saw him, passed by on the other side.",
+      "ct": "A Levite came along too. He walked over, looked at the man, and then crossed to the other side and kept going."
+    },
+    {
+      "verse": 33,
+      "kjv": "But a certain Samaritan, as he journeyed, came where he was: and when he saw him, he had compassion on him,",
+      "web": "But a certain Samaritan, as he traveled, came where he was. When he saw him, he was moved with compassion,",
+      "ct": "Then a Samaritan came traveling down the road. When he saw the man, his heart broke for him."
+    },
+    {
+      "verse": 34,
+      "kjv": "And went to him, and bound up his wounds, pouring in oil and wine, and set him on his own beast, and brought him to an inn, and took care of him.",
+      "web": "came to him, and bound up his wounds, pouring on oil and wine. He set him on his own animal, brought him to an inn, and took care of him.",
+      "ct": "He went to him, bandaged his wounds, and poured oil and wine on them to help them heal. Then he lifted the man onto his own animal, brought him to an inn, and took care of him."
+    },
+    {
+      "verse": 35,
+      "kjv": "And on the morrow when he departed, he took out two pence, and gave them to the host, and said unto him, Take care of him; and whatsoever thou spendest more, when I come again, I will repay thee.",
+      "web": "On the next day, when he departed, he took out two denarii, gave them to the host, and said to him, ‘Take care of him. Whatever you spend beyond that, I will repay you when I return.’",
+      "ct": "The next morning before he left, he gave the innkeeper 2 denarii and said, 'Take care of him. If you spend more than this, I'll pay you back when I return.'"
+    },
+    {
+      "verse": 36,
+      "kjv": "Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves?",
+      "web": "Now which of these three do you think seemed to be a neighbor to him who fell among the robbers?”",
+      "ct": "Now which of these 3 men do you think was a neighbor to the man who was attacked by robbers?\""
+    },
+    {
+      "verse": 37,
+      "kjv": "And he said, He that shewed mercy on him. Then said Jesus unto him, Go, and do thou likewise.",
+      "web": "He said, “He who showed mercy on him.” Then Jesus said to him, “Go and do likewise.”",
+      "ct": "The expert in the law replied, \"The one who showed him mercy.\" Jesus said to him, \"Go and do the same.\""
+    },
+    {
+      "verse": 38,
+      "kjv": "Now it came to pass, as they went, that he entered into a certain village: and a certain woman named Martha received him into her house.",
+      "web": "As they went on their way, he entered into a certain village, and a certain woman named Martha received him into her house.",
+      "ct": "As Jesus and his disciples continued their journey, he came to a village where a woman named Martha welcomed him into her home."
+    },
+    {
+      "verse": 39,
+      "kjv": "And she had a sister called Mary, which also sat at Jesus’ feet, and heard his word.",
+      "web": "She had a sister called Mary, who also sat at Jesus’ feet, and heard his word.",
+      "ct": "Martha had a sister named Mary, who sat at Jesus' feet and listened to what he was teaching."
+    },
+    {
+      "verse": 40,
+      "kjv": "But Martha was cumbered about much serving, and came to him, and said, Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me.",
+      "web": "But Martha was distracted with much serving, and she came up to him, and said, “Lord, don’t you care that my sister left me to serve alone? Ask her therefore to help me.”",
+      "ct": "But Martha was overwhelmed with all the preparations. She came to Jesus and said, \"Lord, doesn't it bother you that my sister has left me to do all the work by myself? Tell her to come help me!\""
+    },
+    {
+      "verse": 41,
+      "kjv": "And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things:",
+      "web": "Jesus answered her, “Martha, Martha, you are anxious and troubled about many things,",
+      "ct": "\"Martha, Martha,\" Jesus answered, \"you're worried and stressed about so many things."
+    },
+    {
+      "verse": 42,
+      "kjv": "But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.",
+      "web": "but one thing is needed. Mary has chosen the good part, which will not be taken away from her.”",
+      "ct": "But only one thing really matters. Mary has chosen what's best, and it won't be taken away from her.\""
+    }
+  ]
+}

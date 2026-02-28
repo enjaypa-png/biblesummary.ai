@@ -1,0 +1,71 @@
+{
+  "book": "joshua",
+  "book_name": "Joshua",
+  "chapter": 16,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:23:26.606Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the lot of the children of Joseph fell from Jordan by Jericho, unto the water of Jericho on the east, to the wilderness that goeth up from Jericho throughout mount Bethel,",
+      "web": "The lot came out for the children of Joseph from the Jordan at Jericho, at the waters of Jericho on the east, even the wilderness, going up from Jericho through the hill country to Bethel.",
+      "ct": "The land allotted to the descendants of Joseph started at the Jordan River near Jericho, east of the springs of Jericho. From there the boundary went up through the wilderness, climbing through the hill country toward Bethel."
+    },
+    {
+      "verse": 2,
+      "kjv": "And goeth out from Bethel to Luz, and passeth along unto the borders of Archi to Ataroth,",
+      "web": "It went out from Bethel to Luz, and passed along to the border of the Archites to Ataroth;",
+      "ct": "From Bethel it continued to Luz, then crossed over to the territory of the Archites at Ataroth."
+    },
+    {
+      "verse": 3,
+      "kjv": "And goeth down westward to the coast of Japhleti, unto the coast of Bethhoron the nether, and to Gezer; and the goings out thereof are at the sea.",
+      "web": "and it went down westward to the border of the Japhletites, to the border of Beth Horon the lower, and on to Gezer; and ended at the sea.",
+      "ct": "It then went down westward to the territory of the Japhletites, continuing to Lower Beth Horon and on to Gezer, ending at the Mediterranean Sea."
+    },
+    {
+      "verse": 4,
+      "kjv": "So the children of Joseph, Manasseh and Ephraim, took their inheritance.",
+      "web": "The children of Joseph, Manasseh and Ephraim, took their inheritance.",
+      "ct": "This is how the descendants of Joseph — the tribes of Manasseh and Ephraim — received their inheritance."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the border of the children of Ephraim according to their families was thus: even the border of their inheritance on the east side was Atarothaddar, unto Bethhoron the upper;",
+      "web": "This was the border of the children of Ephraim according to their families. The border of their inheritance eastward was Ataroth Addar, to Beth Horon the upper.",
+      "ct": "Here is the boundary for the tribe of Ephraim, divided by their family groups: On the eastern side, their border ran from Ataroth Addar up to Upper Beth Horon."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the border went out toward the sea to Michmethah on the north side; and the border went about eastward unto Taanathshiloh, and passed by it on the east to Janohah;",
+      "web": "The border went out westward at Michmethath on the north. The border turned about eastward to Taanath Shiloh, and passed along it on the east of Janoah.",
+      "ct": "The border then extended westward to Michmethah on the north side. From there it curved eastward toward Taanath Shiloh, passing along its eastern side to Janoah."
+    },
+    {
+      "verse": 7,
+      "kjv": "And it went down from Janohah to Ataroth, and to Naarath, and came to Jericho, and went out at Jordan.",
+      "web": "It went down from Janoah to Ataroth, to Naarah, reached to Jericho, and went out at the Jordan.",
+      "ct": "From Janoah it went down to Ataroth and Naarath, reached Jericho, and ended at the Jordan River."
+    },
+    {
+      "verse": 8,
+      "kjv": "The border went out from Tappuah westward unto the river Kanah; and the goings out thereof were at the sea. This is the inheritance of the tribe of the children of Ephraim by their families.",
+      "web": "From Tappuah the border went along westward to the brook of Kanah; and ended at the sea. This is the inheritance of the tribe of the children of Ephraim according to their families;",
+      "ct": "From Tappuah the border ran westward along the brook of Kanah and ended at the Mediterranean Sea. This was the land given to the tribe of Ephraim, distributed among their family groups."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the separate cities for the children of Ephraim were among the inheritance of the children of Manasseh, all the cities with their villages.",
+      "web": "together with the cities which were set apart for the children of Ephraim in the middle of the inheritance of the children of Manasseh, all the cities with their villages.",
+      "ct": "In addition, certain towns and their surrounding villages within Manasseh's territory were set apart specifically for the people of Ephraim."
+    },
+    {
+      "verse": 10,
+      "kjv": "And they drave not out the Canaanites that dwelt in Gezer: but the Canaanites dwell among the Ephraimites unto this day, and serve under tribute.",
+      "web": "They didn’t drive out the Canaanites who lived in Gezer; but the Canaanites dwell in the territory of Ephraim to this day, and have become servants to do forced labor.",
+      "ct": "However, the Ephraimites never drove out the Canaanites living in Gezer. So to this day, the Canaanites live among the people of Ephraim, though they've been forced into slave labor."
+    }
+  ]
+}

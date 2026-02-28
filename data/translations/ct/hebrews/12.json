@@ -1,0 +1,185 @@
+{
+  "book": "hebrews",
+  "book_name": "Hebrews",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:11:36.049Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us,",
+      "web": "Therefore let’s also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let’s run with perseverance the race that is set before us,",
+      "ct": "Since we are surrounded by such an enormous crowd of witnesses, let's throw off everything that weighs us down — especially the sin that so easily entangles us — and run with endurance the race that's been laid out for us."
+    },
+    {
+      "verse": 2,
+      "kjv": "Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God.",
+      "web": "looking to Jesus, the author and perfecter of faith, who for the joy that was set before him endured the cross, despising its shame, and has sat down at the right hand of the throne of God.",
+      "ct": "Let's keep our eyes fixed on Jesus, the one who started our faith and will bring it to completion. Because of the joy waiting for him on the other side, he endured the cross, treating its shame as nothing, and now sits at the right hand of God's throne."
+    },
+    {
+      "verse": 3,
+      "kjv": "For consider him that endured such contradiction of sinners against himself, lest ye be wearied and faint in your minds.",
+      "web": "For consider him who has endured such contradiction of sinners against himself, that you don’t grow weary, fainting in your souls.",
+      "ct": "Think carefully about how he endured such hostility from sinful people. When you do, you won't grow weary or lose heart."
+    },
+    {
+      "verse": 4,
+      "kjv": "Ye have not yet resisted unto blood, striving against sin.",
+      "web": "You have not yet resisted to blood, striving against sin.",
+      "ct": "In your struggle against sin, you haven't yet had to fight to the point of shedding your blood."
+    },
+    {
+      "verse": 5,
+      "kjv": "And ye have forgotten the exhortation which speaketh unto you as unto children, My son, despise not thou the chastening of the Lord, nor faint when thou art rebuked of him:",
+      "web": "You have forgotten the exhortation which reasons with you as with children, “My son, don’t take lightly the chastening of the Lord, nor faint when you are reproved by him;",
+      "ct": "And you've forgotten the encouragement that speaks to you as children: \"My son, don't take the Lord's discipline lightly, and don't give up when he corrects you."
+    },
+    {
+      "verse": 6,
+      "kjv": "For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth.",
+      "web": "for whom the Lord loves, he disciplines, and chastises every son whom he receives.”",
+      "ct": "Because the Lord disciplines those he loves, and he punishes every child he accepts.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not?",
+      "web": "It is for discipline that you endure. God deals with you as with children, for what son is there whom his father doesn’t discipline?",
+      "ct": "Endure hardship as discipline. God is treating you as his children. After all, what father doesn't discipline his child?"
+    },
+    {
+      "verse": 8,
+      "kjv": "But if ye be without chastisement, whereof all are partakers, then are ye bastards, and not sons.",
+      "web": "But if you are without discipline, of which all have been made partakers, then you are illegitimate, and not children.",
+      "ct": "If you aren't being disciplined — and every true child experiences it — then you aren't really his children at all."
+    },
+    {
+      "verse": 9,
+      "kjv": "Furthermore we have had fathers of our flesh which corrected us, and we gave them reverence: shall we not much rather be in subjection unto the Father of spirits, and live?",
+      "web": "Furthermore, we had the fathers of our flesh to chasten us, and we paid them respect. Shall we not much rather be in subjection to the Father of spirits, and live?",
+      "ct": "Think about it: we had earthly fathers who disciplined us, and we respected them for it. How much more should we submit to the Father of our spirits and truly live?"
+    },
+    {
+      "verse": 10,
+      "kjv": "For they verily for a few days chastened us after their own pleasure; but he for our profit, that we might be partakers of his holiness.",
+      "web": "For they indeed, for a few days, punished us as seemed good to them; but he for our profit, that we may be partakers of his holiness.",
+      "ct": "Our earthly fathers disciplined us for a short time based on what they thought was best. But God disciplines us for our good, so that we can share in his holiness."
+    },
+    {
+      "verse": 11,
+      "kjv": "Now no chastening for the present seemeth to be joyous, but grievous: nevertheless afterward it yieldeth the peaceable fruit of righteousness unto them which are exercised thereby.",
+      "web": "All chastening seems for the present to be not joyous but grievous; yet afterward it yields the peaceful fruit of righteousness to those who have been trained by it.",
+      "ct": "No discipline feels pleasant at the time — it's painful. But later on, it produces a harvest of peace and righteousness in those who have been trained by it."
+    },
+    {
+      "verse": 12,
+      "kjv": "Wherefore lift up the hands which hang down, and the feeble knees;",
+      "web": "Therefore lift up the hands that hang down and the feeble knees,",
+      "ct": "So strengthen your tired arms and your weak knees."
+    },
+    {
+      "verse": 13,
+      "kjv": "And make straight paths for your feet, lest that which is lame be turned out of the way; but let it rather be healed.",
+      "web": "and make straight paths for your feet, so what is lame may not be dislocated, but rather be healed.",
+      "ct": "Make level paths for your feet, so that what is injured won't be made worse but will instead be healed."
+    },
+    {
+      "verse": 14,
+      "kjv": "Follow peace with all men, and holiness, without which no man shall see the Lord:",
+      "web": "Follow after peace with all men, and the sanctification without which no man will see the Lord,",
+      "ct": "Make every effort to live at peace with everyone, and pursue holiness — because without it, no one will see the Lord."
+    },
+    {
+      "verse": 15,
+      "kjv": "Looking diligently lest any man fail of the grace of God; lest any root of bitterness springing up trouble you, and thereby many be defiled;",
+      "web": "looking carefully lest there be any man who falls short of the grace of God, lest any root of bitterness springing up trouble you, and many be defiled by it,",
+      "ct": "Watch out for each other so that no one falls short of God's grace, and so that no root of bitterness grows up to cause trouble and poison many people."
+    },
+    {
+      "verse": 16,
+      "kjv": "Lest there be any fornicator, or profane person, as Esau, who for one morsel of meat sold his birthright.",
+      "web": "lest there be any sexually immoral person, or profane person, like Esau, who sold his birthright for one meal.",
+      "ct": "Make sure no one is sexually immoral or treats sacred things as worthless, like Esau, who traded away his birthright for a single meal."
+    },
+    {
+      "verse": 17,
+      "kjv": "For ye know how that afterward, when he would have inherited the blessing, he was rejected: for he found no place of repentance, though he sought it carefully with tears.",
+      "web": "For you know that even when he afterward desired to inherit the blessing, he was rejected, for he found no place for a change of mind though he sought it diligently with tears.",
+      "ct": "You know what happened after that — when he wanted to inherit the blessing, he was rejected. He couldn't undo what he'd done, even though he begged for it with tears. There was no room for repentance."
+    },
+    {
+      "verse": 18,
+      "kjv": "For ye are not come unto the mount that might be touched, and that burned with fire, nor unto blackness, and darkness, and tempest,",
+      "web": "For you have not come to a mountain that might be touched, and that burned with fire, and to blackness, darkness, storm,",
+      "ct": "You haven't come to a mountain you can touch, one that blazed with fire, shrouded in darkness, gloom, and a raging storm —"
+    },
+    {
+      "verse": 19,
+      "kjv": "And the sound of a trumpet, and the voice of words; which voice they that heard intreated that the word should not be spoken to them any more:",
+      "web": "the sound of a trumpet, and the voice of words; which those who heard it begged that not one more word should be spoken to them,",
+      "ct": "with the blast of a trumpet and a voice speaking words so terrifying that everyone who heard it begged for it to stop."
+    },
+    {
+      "verse": 20,
+      "kjv": "(For they could not endure that which was commanded, And if so much as a beast touch the mountain, it shall be stoned, or thrust through with a dart:",
+      "web": "for they could not stand that which was commanded, “If even an animal touches the mountain, it shall be stoned”.",
+      "ct": "They couldn't bear the command that said, \"If even an animal touches the mountain, it must be stoned to death.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And so terrible was the sight, that Moses said, I exceedingly fear and quake:)",
+      "web": "So fearful was the appearance that Moses said, “I am terrified and trembling.”",
+      "ct": "The sight was so terrifying that even Moses said, \"I am shaking with fear.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "But ye are come unto mount Sion, and unto the city of the living God, the heavenly Jerusalem, and to an innumerable company of angels,",
+      "web": "But you have come to Mount Zion, and to the city of the living God, the heavenly Jerusalem, and to innumerable multitudes of angels,",
+      "ct": "Instead, you have come to Mount Zion — to the city of the living God, the heavenly Jerusalem — and to countless thousands of angels gathered in celebration,"
+    },
+    {
+      "verse": 23,
+      "kjv": "To the general assembly and church of the firstborn, which are written in heaven, and to God the Judge of all, and to the spirits of just men made perfect,",
+      "web": "to the festal gathering and assembly of the firstborn who are enrolled in heaven, to God the Judge of all, to the spirits of just men made perfect,",
+      "ct": "to the joyful assembly of God's firstborn children whose names are written in heaven, to God who is the Judge of all, and to the spirits of righteous people who have been made perfect."
+    },
+    {
+      "verse": 24,
+      "kjv": "And to Jesus the mediator of the new covenant, and to the blood of sprinkling, that speaketh better things than that of Abel.",
+      "web": "to Jesus, the mediator of a new covenant, and to the blood of sprinkling that speaks better than that of Abel.",
+      "ct": "You have come to Jesus, the mediator of a new covenant, and to his sprinkled blood, which speaks a better word than the blood of Abel."
+    },
+    {
+      "verse": 25,
+      "kjv": "See that ye refuse not him that speaketh. For if they escaped not who refused him that spake on earth, much more shall not we escape, if we turn away from him that speaketh from heaven:",
+      "web": "See that you don’t refuse him who speaks. For if they didn’t escape when they refused him who warned on the earth, how much more will we not escape who turn away from him who warns from heaven,",
+      "ct": "Be careful not to refuse the one who is speaking. If the people of Israel didn't escape when they rejected the one who warned them on earth, how much less will we escape if we turn away from the one who warns us from heaven?"
+    },
+    {
+      "verse": 26,
+      "kjv": "Whose voice then shook the earth: but now he hath promised, saying, Yet once more I shake not the earth only, but also heaven.",
+      "web": "whose voice shook the earth then, but now he has promised, saying, “Yet once more I will shake not only the earth, but also the heavens.”",
+      "ct": "His voice shook the earth back then, but now he has made a promise: \"Once more I will shake not only the earth, but the heavens as well.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And this word, Yet once more, signifieth the removing of those things that are shaken, as of things that are made, that those things which cannot be shaken may remain.",
+      "web": "This phrase, “Yet once more” signifies the removing of those things that are shaken, as of things that have been made, that those things which are not shaken may remain.",
+      "ct": "The words \"once more\" tell us that everything that can be shaken — everything that was created — will be removed, so that only what cannot be shaken will remain."
+    },
+    {
+      "verse": 28,
+      "kjv": "Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and godly fear:",
+      "web": "Therefore, receiving a Kingdom that can’t be shaken, let’s have grace, through which we serve God acceptably, with reverence and awe,",
+      "ct": "Since we are receiving a kingdom that cannot be shaken, let's be thankful and worship God in a way that pleases him, with reverence and holy fear."
+    },
+    {
+      "verse": 29,
+      "kjv": "For our God is a consuming fire.",
+      "web": "for our God is a consuming fire.",
+      "ct": "For our God is a consuming fire."
+    }
+  ]
+}

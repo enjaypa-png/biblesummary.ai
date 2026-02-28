@@ -1,0 +1,125 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 26,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:13:54.970Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it shall be, when thou art come in unto the land which the LORD thy God giveth thee for an inheritance, and possessest it, and dwellest therein;",
+      "web": "It shall be, when you have come in to the land which LORD your God gives you for an inheritance, possess it, and dwell in it,",
+      "ct": "When you finally enter the land the LORD your God is giving you as your inheritance, and you've taken possession of it and settled there,"
+    },
+    {
+      "verse": 2,
+      "kjv": "That thou shalt take of the first of all the fruit of the earth, which thou shalt bring of thy land that the LORD thy God giveth thee, and shalt put it in a basket, and shalt go unto the place which the LORD thy God shall choose to place his name there.",
+      "web": "that you shall take some of the first of all the fruit of the ground, which you shall bring in from your land that LORD your God gives you. You shall put it in a basket, and shall go to the place which LORD your God shall choose to cause his name to dwell there.",
+      "ct": "you must take some of the first produce harvested from the soil of that land — the land the LORD your God is giving you — and place it in a basket. Then carry it to the place the LORD your God chooses as the dwelling for his name."
+    },
+    {
+      "verse": 3,
+      "kjv": "And thou shalt go unto the priest that shall be in those days, and say unto him, I profess this day unto the LORD thy God, that I am come unto the country which the LORD sware unto our fathers for to give us.",
+      "web": "You shall come to the priest who shall be in those days, and tell him, “I profess today to LORD your God, that I have come to the land which LORD swore to our fathers to give us.”",
+      "ct": "Go to the priest serving at that time and tell him, \"I declare today to the LORD your God that I have entered the land the LORD promised our ancestors he would give us.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And the priest shall take the basket out of thine hand, and set it down before the altar of the LORD thy God.",
+      "web": "The priest shall take the basket out of your hand, and set it down before LORD your God’s altar.",
+      "ct": "The priest will then take the basket from your hands and set it down in front of the altar of the LORD your God."
+    },
+    {
+      "verse": 5,
+      "kjv": "And thou shalt speak and say before the LORD thy God, A Syrian ready to perish was my father, and he went down into Egypt, and sojourned there with a few, and became there a nation, great, mighty, and populous:",
+      "web": "You shall answer and say before LORD your God, “My father was a Syrian ready to perish. He went down into Egypt, and lived there, few in number. There he became a great, mighty, and populous nation.",
+      "ct": "Then you must stand before the LORD your God and say: \"My ancestor was a wandering Aramean on the verge of death. He went down to Egypt with just a handful of people and lived there as a foreigner. But there he grew into a great, powerful, and numerous nation."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the Egyptians evil entreated us, and afflicted us, and laid upon us hard bondage:",
+      "web": "The Egyptians mistreated us, afflicted us, and imposed hard labor on us.",
+      "ct": "The Egyptians treated us cruelly, oppressed us, and forced us into brutal slavery."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when we cried unto the LORD God of our fathers, the LORD heard our voice, and looked on our affliction, and our labour, and our oppression:",
+      "web": "Then we cried to LORD, the God of our fathers. LORD heard our voice, and saw our affliction, our toil, and our oppression.",
+      "ct": "So we cried out to the LORD, the God of our ancestors. The LORD heard our cries and saw our suffering, our exhausting labor, and our oppression."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the LORD brought us forth out of Egypt with a mighty hand, and with an outstretched arm, and with great terribleness, and with signs, and with wonders:",
+      "web": "LORD brought us out of Egypt with a mighty hand, with an outstretched arm, with great terror, with signs, and with wonders;",
+      "ct": "The LORD brought us out of Egypt with his mighty hand and outstretched arm, with terrifying power, with miraculous signs and wonders."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he hath brought us into this place, and hath given us this land, even a land that floweth with milk and honey.",
+      "web": "and he has brought us into this place, and has given us this land, a land flowing with milk and honey.",
+      "ct": "He brought us to this place and gave us this land — a land flowing with milk and honey."
+    },
+    {
+      "verse": 10,
+      "kjv": "And now, behold, I have brought the firstfruits of the land, which thou, O LORD, hast given me. And thou shalt set it before the LORD thy God, and worship before the LORD thy God:",
+      "web": "Now, behold, I have brought the first of the fruit of the ground, which you, LORD, have given me.” You shall set it down before LORD your God, and worship before LORD your God.",
+      "ct": "So now, LORD, I am bringing the first produce from the land you have given me.\" Then you must set the basket down before the LORD your God and bow in worship before him."
+    },
+    {
+      "verse": 11,
+      "kjv": "And thou shalt rejoice in every good thing which the LORD thy God hath given unto thee, and unto thine house, thou, and the Levite, and the stranger that is among you.",
+      "web": "You shall rejoice in all the good which LORD your God has given to you, and to your house, you, and the Levite, and the foreigner who is among you.",
+      "ct": "After that, celebrate! Enjoy every good thing the LORD your God has given to you and your household — you, the Levites, and the foreigners living among you."
+    },
+    {
+      "verse": 12,
+      "kjv": "When thou hast made an end of tithing all the tithes of thine increase the third year, which is the year of tithing, and hast given it unto the Levite, the stranger, the fatherless, and the widow, that they may eat within thy gates, and be filled;",
+      "web": "When you have finished tithing all the tithe of your increase in the third year, which is the year of tithing, then you shall give it to the Levite, to the foreigner, to the fatherless, and to the widow, that they may eat within your gates and be filled.",
+      "ct": "In the 3rd year — the year of the special tithe — when you have finished setting aside a 10th of all your produce, you must give it to the Levites, the foreigners, the orphans, and the widows, so they can eat within your towns and be satisfied."
+    },
+    {
+      "verse": 13,
+      "kjv": "Then thou shalt say before the LORD thy God, I have brought away the hallowed things out of mine house, and also have given them unto the Levite, and unto the stranger, to the fatherless, and to the widow, according to all thy commandments which thou hast commanded me: I have not transgressed thy commandments, neither have I forgotten them:",
+      "web": "You shall say before LORD your God, “I have put away the holy things out of my house, and also have given them to the Levite, to the foreigner, to the fatherless, and to the widow, according to all your commandment which you have commanded me. I have not transgressed any of your commandments, neither have I forgotten them.",
+      "ct": "Then declare before the LORD your God: \"I have removed the sacred portion from my house and given it to the Levites, the foreigners, the orphans, and the widows, exactly as you commanded me. I haven't broken any of your commands, and I haven't forgotten a single one."
+    },
+    {
+      "verse": 14,
+      "kjv": "I have not eaten thereof in my mourning, neither have I taken away ought thereof for any unclean use, nor given ought thereof for the dead: but I have hearkened to the voice of the LORD my God, and have done according to all that thou hast commanded me.",
+      "web": "I have not eaten of it in my mourning, neither have I removed any of it while I was unclean, nor given of it for the dead. I have listened to LORD my God’s voice. I have done according to all that you have commanded me.",
+      "ct": "I haven't eaten any of this sacred portion while mourning. I haven't handled any of it while I was unclean. I haven't offered any of it to the dead. I have obeyed the LORD my God and done everything you commanded me to do."
+    },
+    {
+      "verse": 15,
+      "kjv": "Look down from thy holy habitation, from heaven, and bless thy people Israel, and the land which thou hast given us, as thou swarest unto our fathers, a land that floweth with milk and honey.",
+      "web": "Look down from your holy habitation, from heaven, and bless your people Israel, and the ground which you have given us, as you swore to our fathers, a land flowing with milk and honey.”",
+      "ct": "Look down from heaven, your holy dwelling place, and bless your people Israel and the land you have given us — just as you promised our ancestors — this land flowing with milk and honey.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "This day the LORD thy God hath commanded thee to do these statutes and judgments: thou shalt therefore keep and do them with all thine heart, and with all thy soul.",
+      "web": "Today LORD your God commands you to do these statutes and ordinances. You shall therefore keep and do them with all your heart and with all your soul.",
+      "ct": "Today the LORD your God commands you to follow these laws and regulations. Obey them wholeheartedly, with all your heart and all your soul."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thou hast avouched the LORD this day to be thy God, and to walk in his ways, and to keep his statutes, and his commandments, and his judgments, and to hearken unto his voice:",
+      "web": "You have declared today that LORD is your God, and that you would walk in his ways, keep his statutes, his commandments, and his ordinances, and listen to his voice.",
+      "ct": "Today you have declared that the LORD is your God, and that you will walk in his ways, keep his laws, his commands, and his regulations, and listen to his voice."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the LORD hath avouched thee this day to be his peculiar people, as he hath promised thee, and that thou shouldest keep all his commandments;",
+      "web": "LORD has declared today that you are a people for his own possession, as he has promised you, and that you should keep all his commandments.",
+      "ct": "And today the LORD has declared that you are his treasured people, just as he promised you, and that you must keep all his commands."
+    },
+    {
+      "verse": 19,
+      "kjv": "And to make thee high above all nations which he hath made, in praise, and in name, and in honour; and that thou mayest be an holy people unto the LORD thy God, as he hath spoken.",
+      "web": "He will make you high above all nations that he has made, in praise, in name, and in honor; and that you may be a holy people to LORD your God, as he has spoken.",
+      "ct": "He will raise you high above every nation he has made — giving you praise, fame, and honor — so that you will be a people set apart as holy to the LORD your God, just as he promised."
+    }
+  ]
+}

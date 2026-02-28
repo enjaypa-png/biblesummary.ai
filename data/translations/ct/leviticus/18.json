@@ -1,0 +1,191 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 18,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:45:28.074Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD said to Moses,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto the children of Israel, and say unto them, I am the LORD your God.",
+      "web": "“Speak to the children of Israel, and say to them, ‘I am LORD your God.",
+      "ct": "\"Tell the people of Israel: I am the LORD your God."
+    },
+    {
+      "verse": 3,
+      "kjv": "After the doings of the land of Egypt, wherein ye dwelt, shall ye not do: and after the doings of the land of Canaan, whither I bring you, shall ye not do: neither shall ye walk in their ordinances.",
+      "web": "You shall not do as they do in the land of Egypt, where you lived. You shall not do as they do in the land of Canaan, where I am bringing you. You shall not follow their statutes.",
+      "ct": "Don't live the way the Egyptians did when you were among them, and don't adopt the practices of the Canaanites in the land where I'm taking you. You must not follow their customs."
+    },
+    {
+      "verse": 4,
+      "kjv": "Ye shall do my judgments, and keep mine ordinances, to walk therein: I am the LORD your God.",
+      "web": "You shall do my ordinances. You shall keep my statutes and walk in them. I am LORD your God.",
+      "ct": "You must obey my laws and carefully follow my commands. I am the LORD your God."
+    },
+    {
+      "verse": 5,
+      "kjv": "Ye shall therefore keep my statutes, and my judgments: which if a man do, he shall live in them: I am the LORD.",
+      "web": "You shall therefore keep my statutes and my ordinances, which if a man does, he shall live in them. I am LORD.",
+      "ct": "Keep my statutes and my laws. The person who obeys them will find life through them. I am the LORD."
+    },
+    {
+      "verse": 6,
+      "kjv": "None of you shall approach to any that is near of kin to him, to uncover their nakedness: I am the LORD.",
+      "web": "“ ‘None of you shall approach any close relatives, to uncover their nakedness: I am LORD.",
+      "ct": "No one may have sexual relations with a close relative. I am the LORD."
+    },
+    {
+      "verse": 7,
+      "kjv": "The nakedness of thy father, or the nakedness of thy mother, shalt thou not uncover: she is thy mother; thou shalt not uncover her nakedness.",
+      "web": "“ ‘You shall not uncover the nakedness of your father, nor the nakedness of your mother: she is your mother. You shall not uncover her nakedness.",
+      "ct": "You must not sleep with your mother. She is your mother — you must not have sexual relations with her."
+    },
+    {
+      "verse": 8,
+      "kjv": "The nakedness of thy father’s wife shalt thou not uncover: it is thy father’s nakedness.",
+      "web": "“ ‘You shall not uncover the nakedness of your father’s wife. It is your father’s nakedness.",
+      "ct": "You must not sleep with your father's wife. That would dishonor your father."
+    },
+    {
+      "verse": 9,
+      "kjv": "The nakedness of thy sister, the daughter of thy father, or daughter of thy mother, whether she be born at home, or born abroad, even their nakedness thou shalt not uncover.",
+      "web": "“ ‘You shall not uncover the nakedness of your sister, the daughter of your father, or the daughter of your mother, whether born at home or born abroad.",
+      "ct": "You must not have sexual relations with your sister, whether she's your father's daughter or your mother's daughter, whether she was born in your household or somewhere else."
+    },
+    {
+      "verse": 10,
+      "kjv": "The nakedness of thy son’s daughter, or of thy daughter’s daughter, even their nakedness thou shalt not uncover: for theirs is thine own nakedness.",
+      "web": "“ ‘You shall not uncover the nakedness of your son’s daughter, or of your daughter’s daughter, even their nakedness; for theirs is your own nakedness.",
+      "ct": "You must not have sexual relations with your granddaughter — whether your son's daughter or your daughter's daughter — because that would be a disgrace to yourself."
+    },
+    {
+      "verse": 11,
+      "kjv": "The nakedness of thy father’s wife’s daughter, begotten of thy father, she is thy sister, thou shalt not uncover her nakedness.",
+      "web": "“ ‘You shall not uncover the nakedness of your father’s wife’s daughter, conceived by your father, since she is your sister.",
+      "ct": "You must not have sexual relations with the daughter of your father's wife if she was fathered by your father. She is your sister."
+    },
+    {
+      "verse": 12,
+      "kjv": "Thou shalt not uncover the nakedness of thy father’s sister: she is thy father’s near kinswoman.",
+      "web": "“ ‘You shall not uncover the nakedness of your father’s sister. She is your father’s near kinswoman.",
+      "ct": "You must not have sexual relations with your father's sister. She is your father's close relative."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou shalt not uncover the nakedness of thy mother’s sister: for she is thy mother’s near kinswoman.",
+      "web": "“ ‘You shall not uncover the nakedness of your mother’s sister, for she is your mother’s near kinswoman.",
+      "ct": "You must not have sexual relations with your mother's sister. She is your mother's close relative."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thou shalt not uncover the nakedness of thy father’s brother, thou shalt not approach to his wife: she is thine aunt.",
+      "web": "“ ‘You shall not uncover the nakedness of your father’s brother. You shall not approach his wife. She is your aunt.",
+      "ct": "You must not dishonor your father's brother by sleeping with his wife. She is your aunt."
+    },
+    {
+      "verse": 15,
+      "kjv": "Thou shalt not uncover the nakedness of thy daughter in law: she is thy son’s wife; thou shalt not uncover her nakedness.",
+      "web": "“ ‘You shall not uncover the nakedness of your daughter-in-law. She is your son’s wife. You shall not uncover her nakedness.",
+      "ct": "You must not have sexual relations with your daughter-in-law. She is your son's wife — you must not sleep with her."
+    },
+    {
+      "verse": 16,
+      "kjv": "Thou shalt not uncover the nakedness of thy brother’s wife: it is thy brother’s nakedness.",
+      "web": "“ ‘You shall not uncover the nakedness of your brother’s wife. It is your brother’s nakedness.",
+      "ct": "You must not have sexual relations with your brother's wife. That would dishonor your brother."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thou shalt not uncover the nakedness of a woman and her daughter, neither shalt thou take her son’s daughter, or her daughter’s daughter, to uncover her nakedness; for they are her near kinswomen: it is wickedness.",
+      "web": "“ ‘You shall not uncover the nakedness of a woman and her daughter. You shall not take her son’s daughter, or her daughter’s daughter, to uncover her nakedness. They are near kinswomen. It is wickedness.",
+      "ct": "You must not have sexual relations with both a woman and her daughter. And you must not sleep with her granddaughter — whether her son's daughter or her daughter's daughter. They are her close relatives. This is wickedness."
+    },
+    {
+      "verse": 18,
+      "kjv": "Neither shalt thou take a wife to her sister, to vex her, to uncover her nakedness, beside the other in her life time.",
+      "web": "“ ‘You shall not take a wife in addition to her sister, to be a rival, to uncover her nakedness, while her sister is still alive.",
+      "ct": "You must not marry your wife's sister as a rival wife and sleep with her while your wife is still alive."
+    },
+    {
+      "verse": 19,
+      "kjv": "Also thou shalt not approach unto a woman to uncover her nakedness, as long as she is put apart for her uncleanness.",
+      "web": "“ ‘You shall not approach a woman to uncover her nakedness, as long as she is impure by her uncleanness.",
+      "ct": "You must not have sexual relations with a woman during her monthly period of uncleanness."
+    },
+    {
+      "verse": 20,
+      "kjv": "Moreover thou shalt not lie carnally with thy neighbour’s wife, to defile thyself with her.",
+      "web": "“ ‘You shall not lie carnally with your neighbor’s wife, and defile yourself with her.",
+      "ct": "You must not sleep with your neighbor's wife and defile yourself with her."
+    },
+    {
+      "verse": 21,
+      "kjv": "And thou shalt not let any of thy seed pass through the fire to Molech, neither shalt thou profane the name of thy God: I am the LORD.",
+      "web": "“ ‘You shall not give any of your children as a sacrifice to Molech. You shall not profane the name of your God. I am LORD.",
+      "ct": "You must never sacrifice any of your children in the fire to Molech. Don't profane the name of your God. I am the LORD."
+    },
+    {
+      "verse": 22,
+      "kjv": "Thou shalt not lie with mankind, as with womankind: it is abomination.",
+      "web": "“ ‘You shall not lie with a man as with a woman. That is detestable.",
+      "ct": "You must not sleep with a man as one sleeps with a woman. That is an abomination."
+    },
+    {
+      "verse": 23,
+      "kjv": "Neither shalt thou lie with any beast to defile thyself therewith: neither shall any woman stand before a beast to lie down thereto: it is confusion.",
+      "web": "“ ‘You shall not lie with any animal to defile yourself with it. No woman may give herself to an animal, to lie down with it: it is a perversion.",
+      "ct": "You must not have sexual relations with any animal and defile yourself with it. A woman must not offer herself to an animal to mate with it. That is a perversion."
+    },
+    {
+      "verse": 24,
+      "kjv": "Defile not ye yourselves in any of these things: for in all these the nations are defiled which I cast out before you:",
+      "web": "“ ‘Don’t defile yourselves in any of these things; for in all these the nations which I am casting out before you were defiled.",
+      "ct": "Don't defile yourselves with any of these practices, because the nations I am driving out ahead of you defiled themselves with all of them."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the land is defiled: therefore I do visit the iniquity thereof upon it, and the land itself vomiteth out her inhabitants.",
+      "web": "The land was defiled. Therefore I punished its iniquity, and the land vomited out her inhabitants.",
+      "ct": "The land itself became defiled, so I punished it for its sin, and the land vomited out its inhabitants."
+    },
+    {
+      "verse": 26,
+      "kjv": "Ye shall therefore keep my statutes and my judgments, and shall not commit any of these abominations; neither any of your own nation, nor any stranger that sojourneth among you:",
+      "web": "You therefore shall keep my statutes and my ordinances, and shall not do any of these abominations; neither the native-born, nor the stranger who lives as a foreigner among you",
+      "ct": "But you must keep my statutes and my laws. Neither native-born Israelites nor foreigners living among you may commit any of these abominations."
+    },
+    {
+      "verse": 27,
+      "kjv": "(For all these abominations have the men of the land done, which were before you, and the land is defiled;)",
+      "web": "(for the men of the land that were before you had done all these abominations, and the land became defiled),",
+      "ct": "(The people who lived in the land before you practiced all these abominations, and the land became defiled.)"
+    },
+    {
+      "verse": 28,
+      "kjv": "That the land spue not you out also, when ye defile it, as it spued out the nations that were before you.",
+      "web": "that the land not vomit you out also, when you defile it, as it vomited out the nation that was before you.",
+      "ct": "If you defile the land, it will vomit you out just as it vomited out the nations that came before you."
+    },
+    {
+      "verse": 29,
+      "kjv": "For whosoever shall commit any of these abominations, even the souls that commit them shall be cut off from among their people.",
+      "web": "“ ‘For whoever shall do any of these abominations, even the souls that do them shall be cut off from among their people.",
+      "ct": "Anyone who commits any of these abominations will be cut off from their people."
+    },
+    {
+      "verse": 30,
+      "kjv": "Therefore shall ye keep mine ordinance, that ye commit not any one of these abominable customs, which were committed before you, and that ye defile not yourselves therein: I am the LORD your God.",
+      "web": "Therefore you shall keep my requirements, that you do not practice any of these abominable customs which were practiced before you, and that you do not defile yourselves with them. I am LORD your God.’ ”",
+      "ct": "So keep my commands and don't follow any of the disgusting customs that were practiced before you arrived. Don't defile yourselves with them. I am the LORD your God.\""
+    }
+  ]
+}

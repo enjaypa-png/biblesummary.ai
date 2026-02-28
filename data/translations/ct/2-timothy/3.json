@@ -1,0 +1,113 @@
+{
+  "book": "2-timothy",
+  "book_name": "2 Timothy",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:06:30.788Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "This know also, that in the last days perilous times shall come.",
+      "web": "But know this: that in the last days, grievous times will come.",
+      "ct": "Understand this: in the last days, dangerous times will come."
+    },
+    {
+      "verse": 2,
+      "kjv": "For men shall be lovers of their own selves, covetous, boasters, proud, blasphemers, disobedient to parents, unthankful, unholy,",
+      "web": "For men will be lovers of self, lovers of money, boastful, arrogant, blasphemers, disobedient to parents, unthankful, unholy,",
+      "ct": "People will be obsessed with themselves, greedy for money, boastful, arrogant, abusive in their speech, disobedient to their parents, ungrateful, and unholy."
+    },
+    {
+      "verse": 3,
+      "kjv": "Without natural affection, trucebreakers, false accusers, incontinent, fierce, despisers of those that are good,",
+      "web": "without natural affection, unforgiving, slanderers, without self-control, fierce, not lovers of good,",
+      "ct": "They'll be without natural affection, unforgiving, slanderous, lacking any self-control, brutal, and hostile to anything good."
+    },
+    {
+      "verse": 4,
+      "kjv": "Traitors, heady, highminded, lovers of pleasures more than lovers of God;",
+      "web": "traitors, headstrong, conceited, lovers of pleasure rather than lovers of God,",
+      "ct": "They'll be treacherous, reckless, swollen with pride — people who love pleasure more than they love God."
+    },
+    {
+      "verse": 5,
+      "kjv": "Having a form of godliness, but denying the power thereof: from such turn away.",
+      "web": "holding a form of godliness, but having denied its power. Turn away from these, also.",
+      "ct": "They'll keep up an outward appearance of godliness but reject its real power. Stay away from people like that."
+    },
+    {
+      "verse": 6,
+      "kjv": "For of this sort are they which creep into houses, and lead captive silly women laden with sins, led away with divers lusts,",
+      "web": "For some of these are people who creep into houses and take captive gullible women loaded down with sins, led away by various lusts,",
+      "ct": "Some of them worm their way into homes and manipulate vulnerable women who are weighed down by sin and driven by all kinds of desires —"
+    },
+    {
+      "verse": 7,
+      "kjv": "Ever learning, and never able to come to the knowledge of the truth.",
+      "web": "always learning, and never able to come to the knowledge of the truth.",
+      "ct": "women who are always trying to learn but never able to arrive at the knowledge of the truth."
+    },
+    {
+      "verse": 8,
+      "kjv": "Now as Jannes and Jambres withstood Moses, so do these also resist the truth: men of corrupt minds, reprobate concerning the faith.",
+      "web": "Even as Jannes and Jambres opposed Moses, so these also oppose the truth, men corrupted in mind, who concerning the faith are rejected.",
+      "ct": "Just as Jannes and Jambres opposed Moses, these people oppose the truth. Their minds are corrupted, and their faith is counterfeit."
+    },
+    {
+      "verse": 9,
+      "kjv": "But they shall proceed no further: for their folly shall be manifest unto all men, as theirs also was.",
+      "web": "But they will proceed no further. For their folly will be evident to all men, as theirs also came to be.",
+      "ct": "But they won't get very far, because their foolishness will become obvious to everyone — just as it did with Jannes and Jambres."
+    },
+    {
+      "verse": 10,
+      "kjv": "But thou hast fully known my doctrine, manner of life, purpose, faith, longsuffering, charity, patience,",
+      "web": "But you followed my teaching, conduct, purpose, faith, patience, love, steadfastness,",
+      "ct": "You, however, have closely followed my teaching, my way of life, my purpose, my faith, my patience, my love, and my endurance."
+    },
+    {
+      "verse": 11,
+      "kjv": "Persecutions, afflictions, which came unto me at Antioch, at Iconium, at Lystra; what persecutions I endured: but out of them all the Lord delivered me.",
+      "web": "persecutions, and sufferings: those things that happened to me at Antioch, Iconium, and Lystra. I endured those persecutions. The Lord delivered me out of them all.",
+      "ct": "You know about the persecutions and sufferings I faced in Antioch, Iconium, and Lystra — the terrible things I endured. Yet the Lord rescued me from every one of them."
+    },
+    {
+      "verse": 12,
+      "kjv": "Yea, and all that will live godly in Christ Jesus shall suffer persecution.",
+      "web": "Yes, and all who desire to live godly in Christ Jesus will suffer persecution.",
+      "ct": "The truth is, everyone who wants to live a godly life in Christ Jesus will face persecution."
+    },
+    {
+      "verse": 13,
+      "kjv": "But evil men and seducers shall wax worse and worse, deceiving, and being deceived.",
+      "web": "But evil men and impostors will grow worse and worse, deceiving and being deceived.",
+      "ct": "Meanwhile, evil people and impostors will go from bad to worse, deceiving others and being deceived themselves."
+    },
+    {
+      "verse": 14,
+      "kjv": "But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them;",
+      "web": "But you remain in the things which you have learned and have been assured of, knowing from whom you have learned them.",
+      "ct": "But you — hold firmly to what you've learned and become convinced of, because you know who taught you these things."
+    },
+    {
+      "verse": 15,
+      "kjv": "And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus.",
+      "web": "From infancy, you have known the holy Scriptures which are able to make you wise for salvation through faith, which is in Christ Jesus.",
+      "ct": "Since childhood you've known the holy Scriptures, which have the power to make you wise for salvation through faith in Christ Jesus."
+    },
+    {
+      "verse": 16,
+      "kjv": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness:",
+      "web": "Every Scripture is God-breathed and profitable for teaching, for reproof, for correction, and for instruction in righteousness,",
+      "ct": "All Scripture is God-breathed and is useful for teaching, for correcting errors, for setting things right, and for training in righteousness,"
+    },
+    {
+      "verse": 17,
+      "kjv": "That the man of God may be perfect, throughly furnished unto all good works.",
+      "web": "that each person who belongs to God may be complete, thoroughly equipped for every good work.",
+      "ct": "so that the person who belongs to God may be fully mature and thoroughly equipped for every good work."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "book": "1-timothy",
+  "book_name": "1 Timothy",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:04:35.513Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men;",
+      "web": "I exhort therefore, first of all, that petitions, prayers, intercessions, and givings of thanks be made for all men:",
+      "ct": "First and foremost, I urge that requests, prayers, intercessions, and thanksgiving be offered for everyone —"
+    },
+    {
+      "verse": 2,
+      "kjv": "For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty.",
+      "web": "for kings and all who are in high places, that we may lead a tranquil and quiet life in all godliness and reverence.",
+      "ct": "for kings and all those in positions of authority — so that we can live peaceful, quiet lives marked by godliness and integrity."
+    },
+    {
+      "verse": 3,
+      "kjv": "For this is good and acceptable in the sight of God our Saviour;",
+      "web": "For this is good and acceptable in the sight of God our Savior,",
+      "ct": "This is good and pleasing to God our Savior,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Who will have all men to be saved, and to come unto the knowledge of the truth.",
+      "web": "who desires all people to be saved and come to full knowledge of the truth.",
+      "ct": "who wants all people to be saved and to come to a full understanding of the truth."
+    },
+    {
+      "verse": 5,
+      "kjv": "For there is one God, and one mediator between God and men, the man Christ Jesus;",
+      "web": "For there is one God, and one mediator between God and men, the man Christ Jesus,",
+      "ct": "There is one God, and there is one mediator between God and humanity — the man Christ Jesus,"
+    },
+    {
+      "verse": 6,
+      "kjv": "Who gave himself a ransom for all, to be testified in due time.",
+      "web": "who gave himself as a ransom for all, the testimony in its own times,",
+      "ct": "who gave himself as a ransom for everyone. This was the testimony given at just the right time,"
+    },
+    {
+      "verse": 7,
+      "kjv": "Whereunto I am ordained a preacher, and an apostle, (I speak the truth in Christ, and lie not;) a teacher of the Gentiles in faith and verity.",
+      "web": "to which I was appointed a preacher and an apostle—I am telling the truth in Christ, not lying—a teacher of the Gentiles in faith and truth.",
+      "ct": "and I was appointed as a preacher and an apostle to share it — I'm telling the truth in Christ, I'm not lying — as a teacher of the Gentiles in faith and truth."
+    },
+    {
+      "verse": 8,
+      "kjv": "I will therefore that men pray every where, lifting up holy hands, without wrath and doubting.",
+      "web": "I desire therefore that the men in every place pray, lifting up holy hands without anger and doubting.",
+      "ct": "So I want men everywhere to pray, lifting up holy hands, free from anger and doubt."
+    },
+    {
+      "verse": 9,
+      "kjv": "In like manner also, that women adorn themselves in modest apparel, with shamefacedness and sobriety; not with broided hair, or gold, or pearls, or costly array;",
+      "web": "In the same way, that women also adorn themselves in decent clothing, with modesty and propriety, not just with braided hair, gold, pearls, or expensive clothing,",
+      "ct": "In the same way, I want women to dress modestly and with good sense — not drawing attention with elaborate hairstyles, gold jewelry, pearls, or expensive clothes,"
+    },
+    {
+      "verse": 10,
+      "kjv": "But (which becometh women professing godliness) with good works.",
+      "web": "but with good works, which is appropriate for women professing godliness.",
+      "ct": "but with good works, which is what's fitting for women who claim to honor God."
+    },
+    {
+      "verse": 11,
+      "kjv": "Let the woman learn in silence with all subjection.",
+      "web": "Let a woman learn in quietness with full submission.",
+      "ct": "A woman should learn quietly and with complete submission."
+    },
+    {
+      "verse": 12,
+      "kjv": "But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence.",
+      "web": "But I don’t permit a woman to teach, nor to exercise authority over a man, but to be in quietness.",
+      "ct": "I don't allow a woman to teach or to have authority over a man. Instead, she is to remain quiet."
+    },
+    {
+      "verse": 13,
+      "kjv": "For Adam was first formed, then Eve.",
+      "web": "For Adam was formed first, then Eve.",
+      "ct": "Adam was created first, and then Eve."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Adam was not deceived, but the woman being deceived was in the transgression.",
+      "web": "Adam wasn’t deceived, but the woman, being deceived, has fallen into disobedience;",
+      "ct": "It wasn't Adam who was deceived — it was the woman who was deceived and fell into sin."
+    },
+    {
+      "verse": 15,
+      "kjv": "Notwithstanding she shall be saved in childbearing, if they continue in faith and charity and holiness with sobriety.",
+      "web": "but she will be saved through her childbearing, if they continue in faith, love, and sanctification with sobriety.",
+      "ct": "Yet she will be saved through childbearing, if they continue in faith, love, and holiness, living with self-control."
+    }
+  ]
+}

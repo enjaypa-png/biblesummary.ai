@@ -1,0 +1,89 @@
+{
+  "book": "1-corinthians",
+  "book_name": "1 Corinthians",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:48:01.876Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now as touching things offered unto idols, we know that we all have knowledge. Knowledge puffeth up, but charity edifieth.",
+      "web": "Now concerning things sacrificed to idols: We know that we all have knowledge. Knowledge puffs up, but love builds up.",
+      "ct": "Now, about food that has been sacrificed to idols: we all think we understand this issue. But knowledge by itself just makes people arrogant. It's love that actually builds people up."
+    },
+    {
+      "verse": 2,
+      "kjv": "And if any man think that he knoweth any thing, he knoweth nothing yet as he ought to know.",
+      "web": "But if anyone thinks that he knows anything, he doesn’t yet know as he ought to know.",
+      "ct": "If anyone thinks they've got it all figured out, they don't really understand things the way they should yet."
+    },
+    {
+      "verse": 3,
+      "kjv": "But if any man love God, the same is known of him.",
+      "web": "But if anyone loves God, the same is known by him.",
+      "ct": "But the person who loves God — that person is truly known by God."
+    },
+    {
+      "verse": 4,
+      "kjv": "As concerning therefore the eating of those things that are offered in sacrifice unto idols, we know that an idol is nothing in the world, and that there is none other God but one.",
+      "web": "Therefore concerning the eating of things sacrificed to idols, we know that no idol is anything in the world, and that there is no other God but one.",
+      "ct": "So when it comes to eating food that was sacrificed to idols, we know that an idol has no real existence, and that there is no God but one."
+    },
+    {
+      "verse": 5,
+      "kjv": "For though there be that are called gods, whether in heaven or in earth, (as there be gods many, and lords many,)",
+      "web": "For though there are things that are called “gods”, whether in the heavens or on earth; as there are many “gods” and many “lords”;",
+      "ct": "Sure, there are so-called \"gods\" out there, whether in the heavens or on earth — and people worship plenty of \"gods\" and \"lords\" —"
+    },
+    {
+      "verse": 6,
+      "kjv": "But to us there is but one God, the Father, of whom are all things, and we in him; and one Lord Jesus Christ, by whom are all things, and we by him.",
+      "web": "yet to us there is one God, the Father, of whom are all things, and we for him; and one Lord, Jesus Christ, through whom are all things, and we live through him.",
+      "ct": "but for us there is one God, the Father, from whom everything comes and for whom we exist, and one Lord, Jesus Christ, through whom everything was made and through whom we live."
+    },
+    {
+      "verse": 7,
+      "kjv": "Howbeit there is not in every man that knowledge: for some with conscience of the idol unto this hour eat it as a thing offered unto an idol; and their conscience being weak is defiled.",
+      "web": "However, that knowledge isn’t in all men. But some, with consciousness of the idol until now, eat as of a thing sacrificed to an idol, and their conscience, being weak, is defiled.",
+      "ct": "Not everyone understands this, though. Some people are so used to thinking of idols as real that when they eat food sacrificed to an idol, their conscience treats it as an act of idol worship. Because their conscience is weak, it becomes stained with guilt."
+    },
+    {
+      "verse": 8,
+      "kjv": "But meat commendeth us not to God: for neither, if we eat, are we the better; neither, if we eat not, are we the worse.",
+      "web": "But food will not commend us to God. For neither, if we don’t eat, are we the worse; nor, if we eat, are we the better.",
+      "ct": "Food doesn't affect our standing with God. We're no worse off if we don't eat it, and no better off if we do."
+    },
+    {
+      "verse": 9,
+      "kjv": "But take heed lest by any means this liberty of yours become a stumblingblock to them that are weak.",
+      "web": "But be careful that by no means does this liberty of yours become a stumbling block to the weak.",
+      "ct": "But be careful that this freedom of yours doesn't become an obstacle for someone whose faith is weak."
+    },
+    {
+      "verse": 10,
+      "kjv": "For if any man see thee which hast knowledge sit at meat in the idol’s temple, shall not the conscience of him which is weak be emboldened to eat those things which are offered to idols;",
+      "web": "For if a man sees you who have knowledge sitting in an idol’s temple, won’t his conscience, if he is weak, be emboldened to eat things sacrificed to idols?",
+      "ct": "Think about it: if someone with a weak conscience sees you — someone who \"knows better\" — eating in an idol's temple, won't they be encouraged to eat that food too, even though it violates their conscience?"
+    },
+    {
+      "verse": 11,
+      "kjv": "And through thy knowledge shall the weak brother perish, for whom Christ died?",
+      "web": "And through your knowledge, he who is weak perishes, the brother for whose sake Christ died.",
+      "ct": "So your \"knowledge\" ends up destroying a weak brother or sister — someone for whom Christ died."
+    },
+    {
+      "verse": 12,
+      "kjv": "But when ye sin so against the brethren, and wound their weak conscience, ye sin against Christ.",
+      "web": "Thus, sinning against the brothers, and wounding their conscience when it is weak, you sin against Christ.",
+      "ct": "When you sin against your brothers and sisters this way, wounding their fragile conscience, you are sinning against Christ himself."
+    },
+    {
+      "verse": 13,
+      "kjv": "Wherefore, if meat make my brother to offend, I will eat no flesh while the world standeth, lest I make my brother to offend.",
+      "web": "Therefore if food causes my brother to stumble, I will eat no meat forever more, that I don’t cause my brother to stumble.",
+      "ct": "That's why, if what I eat causes my brother to stumble, I will never eat meat again — ever — rather than be the reason my brother falls."
+    }
+  ]
+}

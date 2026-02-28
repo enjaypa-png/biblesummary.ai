@@ -1,0 +1,191 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:14:19.257Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, that when Jesus had finished these sayings, he departed from Galilee, and came into the coasts of Judaea beyond Jordan;",
+      "web": "When Jesus had finished these words, he departed from Galilee, and came into the borders of Judea beyond the Jordan.",
+      "ct": "When Jesus finished teaching these things, he left Galilee and traveled to the region of Judea on the other side of the Jordan River."
+    },
+    {
+      "verse": 2,
+      "kjv": "And great multitudes followed him; and he healed them there.",
+      "web": "Great multitudes followed him, and he healed them there.",
+      "ct": "Large crowds followed him, and he healed them there."
+    },
+    {
+      "verse": 3,
+      "kjv": "The Pharisees also came unto him, tempting him, and saying unto him, Is it lawful for a man to put away his wife for every cause?",
+      "web": "Pharisees came to him, testing him, and saying, “Is it lawful for a man to divorce his wife for any reason?”",
+      "ct": "Some Pharisees came to him, trying to trap him. They asked, \"Is it lawful for a man to divorce his wife for any reason at all?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And he answered and said unto them, Have ye not read, that he which made them at the beginning made them male and female,",
+      "web": "He answered, “Haven’t you read that he who made them from the beginning made them male and female,",
+      "ct": "Jesus answered, \"Haven't you read that the one who created them in the beginning made them male and female,"
+    },
+    {
+      "verse": 5,
+      "kjv": "And said, For this cause shall a man leave father and mother, and shall cleave to his wife: and they twain shall be one flesh?",
+      "web": "and said, ‘For this cause a man shall leave his father and mother, and shall be joined to his wife; and the two shall become one flesh?’",
+      "ct": "and said, 'For this reason a man will leave his father and mother and be united with his wife, and the two will become one flesh'?"
+    },
+    {
+      "verse": 6,
+      "kjv": "Wherefore they are no more twain, but one flesh. What therefore God hath joined together, let not man put asunder.",
+      "web": "So that they are no more two, but one flesh. What therefore God has joined together, don’t let man tear apart.”",
+      "ct": "So they are no longer two people, but one flesh. Therefore, what God has joined together, no one should tear apart.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "They say unto him, Why did Moses then command to give a writing of divorcement, and to put her away?",
+      "web": "They asked him, “Why then did Moses command us to give her a certificate of divorce, and divorce her?”",
+      "ct": "They pressed him, \"Then why did Moses command that a man give his wife a certificate of divorce and send her away?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "He saith unto them, Moses because of the hardness of your hearts suffered you to put away your wives: but from the beginning it was not so.",
+      "web": "He said to them, “Moses, because of the hardness of your hearts, allowed you to divorce your wives, but from the beginning it has not been so.",
+      "ct": "Jesus told them, \"Moses allowed you to divorce your wives because your hearts were hard. But that was never God's original design."
+    },
+    {
+      "verse": 9,
+      "kjv": "And I say unto you, Whosoever shall put away his wife, except it be for fornication, and shall marry another, committeth adultery: and whoso marrieth her which is put away doth commit adultery.",
+      "web": "I tell you that whoever divorces his wife, except for sexual immorality, and marries another, commits adultery; and he who marries her when she is divorced commits adultery.”",
+      "ct": "I'm telling you: whoever divorces his wife — unless it's because of sexual immorality — and marries another woman commits adultery. And anyone who marries a divorced woman commits adultery.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "His disciples say unto him, If the case of the man be so with his wife, it is not good to marry.",
+      "web": "His disciples said to him, “If this is the case of the man with his wife, it is not expedient to marry.”",
+      "ct": "His disciples said to him, \"If that's how it is between a husband and wife, it's better not to marry at all.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "But he said unto them, All men cannot receive this saying, save they to whom it is given.",
+      "web": "But he said to them, “Not all men can receive this saying, but those to whom it is given.",
+      "ct": "Jesus replied, \"Not everyone can accept this teaching — only those to whom it has been given."
+    },
+    {
+      "verse": 12,
+      "kjv": "For there are some eunuchs, which were so born from their mother’s womb: and there are some eunuchs, which were made eunuchs of men: and there be eunuchs, which have made themselves eunuchs for the kingdom of heaven’s sake. He that is able to receive it, let him receive it.",
+      "web": "For there are eunuchs who were born that way from their mother’s womb, and there are eunuchs who were made eunuchs by men; and there are eunuchs who made themselves eunuchs for the Kingdom of Heaven’s sake. He who is able to receive it, let him receive it.”",
+      "ct": "Some people are born unable to marry. Others have been made that way by other people. And some choose not to marry for the sake of the kingdom of heaven. Whoever can accept this, let them accept it.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then were there brought unto him little children, that he should put his hands on them, and pray: and the disciples rebuked them.",
+      "web": "Then little children were brought to him, that he should lay his hands on them and pray; and the disciples rebuked them.",
+      "ct": "Then people brought little children to Jesus so he could place his hands on them and pray for them. But the disciples scolded them for it."
+    },
+    {
+      "verse": 14,
+      "kjv": "But Jesus said, Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven.",
+      "web": "But Jesus said, “Allow the little children, and don’t forbid them to come to me; for the Kingdom of Heaven belongs to ones like these.”",
+      "ct": "Jesus said, \"Let the little children come to me. Don't stop them, because the kingdom of heaven belongs to people like these.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And he laid his hands on them, and departed thence.",
+      "web": "He laid his hands on them, and departed from there.",
+      "ct": "He placed his hands on the children, and then he left that place."
+    },
+    {
+      "verse": 16,
+      "kjv": "And, behold, one came and said unto him, Good Master, what good thing shall I do, that I may have eternal life?",
+      "web": "Behold, one came to him and said, “Good teacher, what good thing shall I do, that I may have eternal life?”",
+      "ct": "A man came up to Jesus and asked, \"Good Teacher, what good thing must I do to receive eternal life?\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And he said unto him, Why callest thou me good? there is none good but one, that is, God: but if thou wilt enter into life, keep the commandments.",
+      "web": "He said to him, “Why do you call me good? No one is good but one, that is, God. But if you want to enter into life, keep the commandments.”",
+      "ct": "Jesus said to him, \"Why do you call me good? No one is good except God alone. But if you want to enter into life, obey the commandments.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "He saith unto him, Which? Jesus said, Thou shalt do no murder, Thou shalt not commit adultery, Thou shalt not steal, Thou shalt not bear false witness,",
+      "web": "He said to him, “Which ones?” Jesus said, “ ‘You shall not murder.’ ‘You shall not commit adultery.’ ‘You shall not steal.’ ‘You shall not offer false testimony.’",
+      "ct": "\"Which ones?\" the man asked. Jesus said, \"'Do not murder.' 'Do not commit adultery.' 'Do not steal.' 'Do not give false testimony.'"
+    },
+    {
+      "verse": 19,
+      "kjv": "Honour thy father and thy mother: and, Thou shalt love thy neighbour as thyself.",
+      "web": "‘Honor your father and your mother.’ And, ‘You shall love your neighbor as yourself.’ ”",
+      "ct": "'Honor your father and mother.' And, 'Love your neighbor as yourself.'\""
+    },
+    {
+      "verse": 20,
+      "kjv": "The young man saith unto him, All these things have I kept from my youth up: what lack I yet?",
+      "web": "The young man said to him, “All these things I have observed from my youth. What do I still lack?”",
+      "ct": "The young man said, \"I've kept all of these since I was a boy. What am I still missing?\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Jesus said unto him, If thou wilt be perfect, go and sell that thou hast, and give to the poor, and thou shalt have treasure in heaven: and come and follow me.",
+      "web": "Jesus said to him, “If you want to be perfect, go, sell what you have, and give to the poor, and you will have treasure in heaven; and come, follow me.”",
+      "ct": "Jesus told him, \"If you want to be perfect, go and sell everything you own. Give the money to the poor, and you will have treasure in heaven. Then come and follow me.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "But when the young man heard that saying, he went away sorrowful: for he had great possessions.",
+      "web": "But when the young man heard the saying, he went away sad, for he was one who had great possessions.",
+      "ct": "When the young man heard this, he walked away deeply sad — because he was very wealthy."
+    },
+    {
+      "verse": 23,
+      "kjv": "Then said Jesus unto his disciples, Verily I say unto you, That a rich man shall hardly enter into the kingdom of heaven.",
+      "web": "Jesus said to his disciples, “Most certainly I say to you, a rich man will enter into the Kingdom of Heaven with difficulty.",
+      "ct": "Then Jesus said to his disciples, \"I tell you the truth: it is extremely hard for a rich person to enter the kingdom of heaven."
+    },
+    {
+      "verse": 24,
+      "kjv": "And again I say unto you, It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God.",
+      "web": "Again I tell you, it is easier for a camel to go through a needle’s eye, than for a rich man to enter into God’s Kingdom.”",
+      "ct": "Let me say it again — it's easier for a camel to pass through the eye of a needle than for a rich person to enter God's kingdom.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "When his disciples heard it, they were exceedingly amazed, saying, Who then can be saved?",
+      "web": "When the disciples heard it, they were exceedingly astonished, saying, “Who then can be saved?”",
+      "ct": "When the disciples heard this, they were completely stunned. \"Then who can possibly be saved?\" they asked."
+    },
+    {
+      "verse": 26,
+      "kjv": "But Jesus beheld them, and said unto them, With men this is impossible; but with God all things are possible.",
+      "web": "Looking at them, Jesus said, “With men this is impossible, but with God all things are possible.”",
+      "ct": "Jesus looked at them and said, \"For people, this is impossible. But with God, all things are possible.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Then answered Peter and said unto him, Behold, we have forsaken all, and followed thee; what shall we have therefore?",
+      "web": "Then Peter answered, “Behold, we have left everything, and followed you. What then will we have?”",
+      "ct": "Peter spoke up and said, \"Look, we've given up everything to follow you. What will we get in return?\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And Jesus said unto them, Verily I say unto you, That ye which have followed me, in the regeneration when the Son of man shall sit in the throne of his glory, ye also shall sit upon twelve thrones, judging the twelve tribes of Israel.",
+      "web": "Jesus said to them, “Most certainly I tell you that you who have followed me, in the regeneration when the Son of Man will sit on the throne of his glory, you also will sit on twelve thrones, judging the twelve tribes of Israel.",
+      "ct": "Jesus told them, \"I tell you the truth: when the world is made new and the Son of Man sits on his glorious throne, you who have followed me will also sit on 12 thrones, judging the 12 tribes of Israel."
+    },
+    {
+      "verse": 29,
+      "kjv": "And every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my name’s sake, shall receive an hundredfold, and shall inherit everlasting life.",
+      "web": "Everyone who has left houses, or brothers, or sisters, or father, or mother, or wife, or children, or lands, for my name’s sake, will receive one hundred times, and will inherit eternal life.",
+      "ct": "Everyone who has given up homes, brothers, sisters, father, mother, wife, children, or land for my sake will receive 100 times as much and will inherit eternal life."
+    },
+    {
+      "verse": 30,
+      "kjv": "But many that are first shall be last; and the last shall be first.",
+      "web": "But many will be last who are first; and first who are last.",
+      "ct": "But many who are first will end up last, and many who are last will end up first.\""
+    }
+  ]
+}

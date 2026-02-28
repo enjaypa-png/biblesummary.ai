@@ -1,0 +1,227 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:53:48.671Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Make thee two trumpets of silver; of a whole piece shalt thou make them: that thou mayest use them for the calling of the assembly, and for the journeying of the camps.",
+      "web": "“Make two trumpets of silver. You shall make them of beaten work. You shall use them for the calling of the congregation, and for the journeying of the camps.",
+      "ct": "\"Make 2 trumpets out of hammered silver. Use them to call the community together and to signal the camps to move out.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And when they shall blow with them, all the assembly shall assemble themselves to thee at the door of the tabernacle of the congregation.",
+      "web": "When they blow them, all the congregation shall gather themselves to you at the door of the Tent of Meeting.",
+      "ct": "\"When both trumpets are blown, the entire assembly must gather around you at the entrance of the Tent of Meeting.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And if they blow but with one trumpet, then the princes, which are heads of the thousands of Israel, shall gather themselves unto thee.",
+      "web": "If they blow just one, then the princes, the heads of the thousands of Israel, shall gather themselves to you.",
+      "ct": "\"If only one trumpet is blown, then just the leaders — the heads of Israel's clans — must come to you.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "When ye blow an alarm, then the camps that lie on the east parts shall go forward.",
+      "web": "When you blow an alarm, the camps that lie on the east side shall go forward.",
+      "ct": "\"When you sound a battle alarm, the camps positioned on the east side must move out.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "When ye blow an alarm the second time, then the camps that lie on the south side shall take their journey: they shall blow an alarm for their journeys.",
+      "web": "When you blow an alarm the second time, the camps that lie on the south side shall go forward. They shall blow an alarm for their journeys.",
+      "ct": "\"When you sound the alarm a second time, the camps on the south side must move out. The alarm signal is specifically for breaking camp and marching.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "But when the congregation is to be gathered together, ye shall blow, but ye shall not sound an alarm.",
+      "web": "But when the assembly is to be gathered together, you shall blow, but you shall not sound an alarm.",
+      "ct": "\"But when you're calling the whole community together, blow the trumpets with a long, steady blast — don't use the alarm signal.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the sons of Aaron, the priests, shall blow with the trumpets; and they shall be to you for an ordinance for ever throughout your generations.",
+      "web": "“The sons of Aaron, the priests, shall blow the trumpets. This shall be to you for a statute forever throughout your generations.",
+      "ct": "\"Aaron's sons, the priests, are the ones who must blow the trumpets. This is a permanent rule for you and all your descendants.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And if ye go to war in your land against the enemy that oppresseth you, then ye shall blow an alarm with the trumpets; and ye shall be remembered before the LORD your God, and ye shall be saved from your enemies.",
+      "web": "When you go to war in your land against the adversary who oppresses you, then you shall sound an alarm with the trumpets. Then you will be remembered before LORD your God, and you will be saved from your enemies.",
+      "ct": "\"When you go to war in your own land against an enemy who is oppressing you, sound the alarm on the trumpets. Then the LORD your God will remember you and rescue you from your enemies.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Also in the day of your gladness, and in your solemn days, and in the beginnings of your months, ye shall blow with the trumpets over your burnt offerings, and over the sacrifices of your peace offerings; that they may be to you for a memorial before your God: I am the LORD your God.",
+      "web": "“Also in the day of your gladness, and in your set feasts, and in the beginnings of your months, you shall blow the trumpets over your burnt offerings, and over the sacrifices of your peace offerings; and they shall be to you for a memorial before your God. I am LORD your God.”",
+      "ct": "\"On your days of celebration, at your appointed feasts, and at the beginning of each month, blow the trumpets over your burnt offerings and your peace offerings. They will serve as a reminder of you before your God. I am the LORD your God.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And it came to pass on the twentieth day of the second month, in the second year, that the cloud was taken up from off the tabernacle of the testimony.",
+      "web": "In the second year, in the second month, on the twentieth day of the month, the cloud was taken up from over the tabernacle of the covenant.",
+      "ct": "On the 20th day of the 2nd month, in the 2nd year after leaving Egypt, the cloud lifted from above the tabernacle of the covenant."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the children of Israel took their journeys out of the wilderness of Sinai; and the cloud rested in the wilderness of Paran.",
+      "web": "The children of Israel went forward on their journeys out of the wilderness of Sinai; and the cloud stayed in the wilderness of Paran.",
+      "ct": "So the Israelites set out on their journey from the wilderness of Sinai, and the cloud came to rest in the wilderness of Paran."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they first took their journey according to the commandment of the LORD by the hand of Moses.",
+      "web": "They first went forward according to the commandment of LORD by Moses.",
+      "ct": "This was the first time they broke camp, and they did so at the LORD's command through Moses."
+    },
+    {
+      "verse": 14,
+      "kjv": "In the first place went the standard of the camp of the children of Judah according to their armies: and over his host was Nahshon the son of Amminadab.",
+      "web": "First, the standard of the camp of the children of Judah went forward according to their armies. Nahshon the son of Amminadab was over his army.",
+      "ct": "The division of Judah marched out first under their banner, with their troops organized by units. Nahshon son of Amminadab commanded their army."
+    },
+    {
+      "verse": 15,
+      "kjv": "And over the host of the tribe of the children of Issachar was Nethaneel the son of Zuar.",
+      "web": "Nethanel the son of Zuar was over the army of the tribe of the children of Issachar.",
+      "ct": "Nethanel son of Zuar commanded the army of the tribe of Issachar."
+    },
+    {
+      "verse": 16,
+      "kjv": "And over the host of the tribe of the children of Zebulun was Eliab the son of Helon.",
+      "web": "Eliab the son of Helon was over the army of the tribe of the children of Zebulun.",
+      "ct": "Eliab son of Helon commanded the army of the tribe of Zebulun."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the tabernacle was taken down; and the sons of Gershon and the sons of Merari set forward, bearing the tabernacle.",
+      "web": "The tabernacle was taken down; and the sons of Gershon and the sons of Merari, who bore the tabernacle, went forward.",
+      "ct": "Then the tabernacle was taken down, and the sons of Gershon and the sons of Merari marched out carrying it."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the standard of the camp of Reuben set forward according to their armies: and over his host was Elizur the son of Shedeur.",
+      "web": "The standard of the camp of Reuben went forward according to their armies. Elizur the son of Shedeur was over his army.",
+      "ct": "Next, the division of Reuben marched out under their banner, with their troops organized by units. Elizur son of Shedeur commanded their army."
+    },
+    {
+      "verse": 19,
+      "kjv": "And over the host of the tribe of the children of Simeon was Shelumiel the son of Zurishaddai.",
+      "web": "Shelumiel the son of Zurishaddai was over the army of the tribe of the children of Simeon.",
+      "ct": "Shelumiel son of Zurishaddai commanded the army of the tribe of Simeon."
+    },
+    {
+      "verse": 20,
+      "kjv": "And over the host of the tribe of the children of Gad was Eliasaph the son of Deuel.",
+      "web": "Eliasaph the son of Deuel was over the army of the tribe of the children of Gad.",
+      "ct": "Eliasaph son of Deuel commanded the army of the tribe of Gad."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the Kohathites set forward, bearing the sanctuary: and the other did set up the tabernacle against they came.",
+      "web": "The Kohathites set forward, bearing the sanctuary. The others set up the tabernacle before they arrived.",
+      "ct": "Then the Kohathites marched out, carrying the holy objects from the sanctuary. The others would have the tabernacle set up and ready before they arrived at the next camp."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the standard of the camp of the children of Ephraim set forward according to their armies: and over his host was Elishama the son of Ammihud.",
+      "web": "The standard of the camp of the children of Ephraim set forward according to their armies. Elishama the son of Ammihud was over his army.",
+      "ct": "Next, the division of Ephraim marched out under their banner, with their troops organized by units. Elishama son of Ammihud commanded their army."
+    },
+    {
+      "verse": 23,
+      "kjv": "And over the host of the tribe of the children of Manasseh was Gamaliel the son of Pedahzur.",
+      "web": "Gamaliel the son of Pedahzur was over the army of the tribe of the children of Manasseh.",
+      "ct": "Gamaliel son of Pedahzur commanded the army of the tribe of Manasseh."
+    },
+    {
+      "verse": 24,
+      "kjv": "And over the host of the tribe of the children of Benjamin was Abidan the son of Gideoni.",
+      "web": "Abidan the son of Gideoni was over the army of the tribe of the children of Benjamin.",
+      "ct": "Abidan son of Gideoni commanded the army of the tribe of Benjamin."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the standard of the camp of the children of Dan set forward, which was the rereward of all the camps throughout their hosts: and over his host was Ahiezer the son of Ammishaddai.",
+      "web": "The standard of the camp of the children of Dan, which was the rear guard of all the camps, set forward according to their armies. Ahiezer the son of Ammishaddai was over his army.",
+      "ct": "Finally, the division of Dan marched out under their banner, serving as the rear guard for all the other camps. Their troops were organized by units, and Ahiezer son of Ammishaddai commanded their army."
+    },
+    {
+      "verse": 26,
+      "kjv": "And over the host of the tribe of the children of Asher was Pagiel the son of Ocran.",
+      "web": "Pagiel the son of Ochran was over the army of the tribe of the children of Asher.",
+      "ct": "Pagiel son of Ocran commanded the army of the tribe of Asher."
+    },
+    {
+      "verse": 27,
+      "kjv": "And over the host of the tribe of the children of Naphtali was Ahira the son of Enan.",
+      "web": "Ahira the son of Enan was over the army of the tribe of the children of Naphtali.",
+      "ct": "Ahira son of Enan commanded the army of the tribe of Naphtali."
+    },
+    {
+      "verse": 28,
+      "kjv": "Thus were the journeyings of the children of Israel according to their armies, when they set forward.",
+      "web": "Thus were the travels of the children of Israel according to their armies; and they went forward.",
+      "ct": "This was the marching order of the Israelite divisions whenever they broke camp and moved out."
+    },
+    {
+      "verse": 29,
+      "kjv": "And Moses said unto Hobab, the son of Raguel the Midianite, Moses’ father in law, We are journeying unto the place of which the LORD said, I will give it you: come thou with us, and we will do thee good: for the LORD hath spoken good concerning Israel.",
+      "web": "Moses said to Hobab, the son of Reuel the Midianite, Moses’ father-in-law, “We are journeying to the place of which LORD said, ‘I will give it to you.’ Come with us, and we will treat you well; for LORD has spoken good concerning Israel.”",
+      "ct": "Moses spoke to Hobab son of Raguel the Midianite, who was Moses' father-in-law. He said, \"We're heading to the place the LORD promised to give us. Come with us, and we'll treat you well, because the LORD has promised good things for Israel.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And he said unto him, I will not go; but I will depart to mine own land, and to my kindred.",
+      "web": "He said to him, “I will not go; but I will depart to my own land, and to my relatives.”",
+      "ct": "But Hobab replied, \"No, I won't go. I'm heading back to my own land and my own people.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And he said, Leave us not, I pray thee; forasmuch as thou knowest how we are to encamp in the wilderness, and thou mayest be to us instead of eyes.",
+      "web": "Moses said, “Don’t leave us, please; because you know how we are to encamp in the wilderness, and you can be our eyes.",
+      "ct": "Moses urged him, \"Please don't leave us. You know this wilderness and where to set up camp — you can be our eyes out here.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And it shall be, if thou go with us, yea, it shall be, that what goodness the LORD shall do unto us, the same will we do unto thee.",
+      "web": "It shall be, if you go with us—yes, it shall be—that whatever good LORD does to us, we will do the same to you.”",
+      "ct": "\"If you come with us, we promise that whatever good the LORD gives us, we'll share it with you.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And they departed from the mount of the LORD three days’ journey: and the ark of the covenant of the LORD went before them in the three days’ journey, to search out a resting place for them.",
+      "web": "They set forward from the Mount of LORD three days’ journey. The ark of LORD’s covenant went before them three days’ journey, to seek out a resting place for them.",
+      "ct": "They set out from the mountain of the LORD and traveled for 3 days. The ark of the LORD's covenant went ahead of them during those 3 days to find them a place to rest."
+    },
+    {
+      "verse": 34,
+      "kjv": "And the cloud of the LORD was upon them by day, when they went out of the camp.",
+      "web": "The cloud of LORD was over them by day, when they set forward from the camp.",
+      "ct": "The cloud of the LORD was over them by day whenever they set out from camp."
+    },
+    {
+      "verse": 35,
+      "kjv": "And it came to pass, when the ark set forward, that Moses said, Rise up, LORD, and let thine enemies be scattered; and let them that hate thee flee before thee.",
+      "web": "When the ark went forward, Moses said, “Rise up, LORD, and let your enemies be scattered! Let those who hate you flee before you!”",
+      "ct": "Whenever the ark moved forward, Moses would cry out, \"Rise up, LORD! Let your enemies be scattered! Let those who hate you flee before you!\""
+    },
+    {
+      "verse": 36,
+      "kjv": "And when it rested, he said, Return, O LORD, unto the many thousands of Israel.",
+      "web": "When it rested, he said, “Return, LORD, to the ten thousands of the thousands of Israel.”",
+      "ct": "And whenever it came to rest, he would say, \"Return, O LORD, to the countless thousands of Israel.\""
+    }
+  ]
+}

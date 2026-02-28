@@ -1,0 +1,119 @@
+{
+  "book": "joshua",
+  "book_name": "Joshua",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:17:41.884Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now after the death of Moses the servant of the LORD it came to pass, that the LORD spake unto Joshua the son of Nun, Moses’ minister, saying,",
+      "web": "Now after the death of Moses the servant of LORD, LORD spoke to Joshua the son of Nun, Moses’ servant, saying,",
+      "ct": "After Moses the servant of the LORD died, the LORD spoke to Joshua son of Nun, who had served as Moses' assistant."
+    },
+    {
+      "verse": 2,
+      "kjv": "Moses my servant is dead; now therefore arise, go over this Jordan, thou, and all this people, unto the land which I do give to them, even to the children of Israel.",
+      "web": "“Moses my servant is dead. Now therefore arise, go across this Jordan, you and all these people, to the land which I am giving to them, even to the children of Israel.",
+      "ct": "\"Moses my servant is dead. Now get up and cross the Jordan River — you and all these people — into the land I am giving to the people of Israel."
+    },
+    {
+      "verse": 3,
+      "kjv": "Every place that the sole of your foot shall tread upon, that have I given unto you, as I said unto Moses.",
+      "web": "I have given you every place that the sole of your foot will tread on, as I told Moses.",
+      "ct": "Every piece of ground your foot touches will be yours. I promised this to Moses, and that promise stands."
+    },
+    {
+      "verse": 4,
+      "kjv": "From the wilderness and this Lebanon even unto the great river, the river Euphrates, all the land of the Hittites, and unto the great sea toward the going down of the sun, shall be your coast.",
+      "web": "From the wilderness and this Lebanon even to the great river, the river Euphrates, all the land of the Hittites, and to the great sea toward the going down of the sun, shall be your border.",
+      "ct": "Your territory will stretch from the wilderness in the south to Lebanon in the north, from the great Euphrates River across all the land of the Hittites to the Mediterranean Sea in the west."
+    },
+    {
+      "verse": 5,
+      "kjv": "There shall not any man be able to stand before thee all the days of thy life: as I was with Moses, so I will be with thee: I will not fail thee, nor forsake thee.",
+      "web": "No man will be able to stand before you all the days of your life. As I was with Moses, so I will be with you. I will not fail you nor forsake you.",
+      "ct": "No one will be able to stand against you for as long as you live. Just as I was with Moses, I will be with you. I will never let you down, and I will never abandon you."
+    },
+    {
+      "verse": 6,
+      "kjv": "Be strong and of a good courage: for unto this people shalt thou divide for an inheritance the land, which I sware unto their fathers to give them.",
+      "web": "“Be strong and courageous; for you shall cause this people to inherit the land which I swore to their fathers to give them.",
+      "ct": "Be strong and courageous, because you are the one who will lead these people to take possession of the land I swore to give their ancestors."
+    },
+    {
+      "verse": 7,
+      "kjv": "Only be thou strong and very courageous, that thou mayest observe to do according to all the law, which Moses my servant commanded thee: turn not from it to the right hand or to the left, that thou mayest prosper whithersoever thou goest.",
+      "web": "Only be strong and very courageous. Be careful to observe to do according to all the law which Moses my servant commanded you. Don’t turn from it to the right hand or to the left, that you may have good success wherever you go.",
+      "ct": "Just be strong and very courageous. Be careful to follow every part of the law that my servant Moses gave you. Don't turn away from it to the right or to the left, and you will succeed wherever you go."
+    },
+    {
+      "verse": 8,
+      "kjv": "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night, that thou mayest observe to do according to all that is written therein: for then thou shalt make thy way prosperous, and then thou shalt have good success.",
+      "web": "This book of the law shall not depart from your mouth, but you shall meditate on it day and night, that you may observe to do according to all that is written in it; for then you shall make your way prosperous, and then you shall have good success.",
+      "ct": "Never stop speaking the words of this law. Think deeply about it day and night so that you carefully follow everything written in it. Do this, and your path will be prosperous and you will succeed."
+    },
+    {
+      "verse": 9,
+      "kjv": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.",
+      "web": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for LORD your God is with you wherever you go.”",
+      "ct": "Remember — I have commanded you: be strong and courageous! Don't be afraid, and don't lose heart, because the LORD your God is with you wherever you go.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then Joshua commanded the officers of the people, saying,",
+      "web": "Then Joshua commanded the officers of the people, saying,",
+      "ct": "Then Joshua gave orders to the officers of the people:"
+    },
+    {
+      "verse": 11,
+      "kjv": "Pass through the host, and command the people, saying, Prepare you victuals; for within three days ye shall pass over this Jordan, to go in to possess the land, which the LORD your God giveth you to possess it.",
+      "web": "“Pass through the middle of the camp, and command the people, saying, ‘Prepare food; for within three days you are to pass over this Jordan, to go in to possess the land which LORD your God gives you to possess.’ ”",
+      "ct": "\"Go through the camp and tell the people, 'Get your supplies ready. In 3 days you will cross the Jordan River to go in and take possession of the land the LORD your God is giving you.'\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And to the Reubenites, and to the Gadites, and to half the tribe of Manasseh, spake Joshua, saying,",
+      "web": "Joshua spoke to the Reubenites, and to the Gadites, and to the half-tribe of Manasseh, saying,",
+      "ct": "Then Joshua spoke to the tribes of Reuben, Gad, and the half-tribe of Manasseh:"
+    },
+    {
+      "verse": 13,
+      "kjv": "Remember the word which Moses the servant of the LORD commanded you, saying, The LORD your God hath given you rest, and hath given you this land.",
+      "web": "“Remember the word which Moses the servant of LORD commanded you, saying, ‘LORD your God gives you rest, and will give you this land.",
+      "ct": "\"Remember what Moses the servant of the LORD commanded you when he said, 'The LORD your God is giving you a place to settle, and he has given you this land.'"
+    },
+    {
+      "verse": 14,
+      "kjv": "Your wives, your little ones, and your cattle, shall remain in the land which Moses gave you on this side Jordan; but ye shall pass before your brethren armed, all the mighty men of valour, and help them;",
+      "web": "Your wives, your little ones, and your livestock shall live in the land which Moses gave you beyond the Jordan; but you shall pass over before your brothers armed, all the mighty men of valor, and shall help them",
+      "ct": "Your wives, your children, and your livestock may stay here in the land Moses gave you on this side of the Jordan. But every one of your fighting men must cross over ahead of your fellow Israelites, fully armed, and help them"
+    },
+    {
+      "verse": 15,
+      "kjv": "Until the LORD have given your brethren rest, as he hath given you, and they also have possessed the land which the LORD your God giveth them: then ye shall return unto the land of your possession, and enjoy it, which Moses the LORD’s servant gave you on this side Jordan toward the sunrising.",
+      "web": "until LORD has given your brothers rest, as he has given you, and they have also possessed the land which LORD your God gives them. Then you shall return to the land of your possession and possess it, which Moses the servant of LORD gave you beyond the Jordan toward the sunrise.’ ”",
+      "ct": "until the LORD gives your brothers the same rest he has given you, and they too have taken possession of the land the LORD your God is giving them. After that, you may return to your own land east of the Jordan — the land Moses the LORD's servant gave you — and settle there.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And they answered Joshua, saying, All that thou commandest us we will do, and whithersoever thou sendest us, we will go.",
+      "web": "They answered Joshua, saying, “All that you have commanded us we will do, and wherever you send us we will go.",
+      "ct": "They answered Joshua, \"We will do everything you command, and we will go wherever you send us."
+    },
+    {
+      "verse": 17,
+      "kjv": "According as we hearkened unto Moses in all things, so will we hearken unto thee: only the LORD thy God be with thee, as he was with Moses.",
+      "web": "Just as we listened to Moses in all things, so will we listen to you. Only may LORD your God be with you, as he was with Moses.",
+      "ct": "We obeyed Moses in everything, and we will obey you the same way. We only ask that the LORD your God be with you the way he was with Moses."
+    },
+    {
+      "verse": 18,
+      "kjv": "Whosoever he be that doth rebel against thy commandment, and will not hearken unto thy words in all that thou commandest him, he shall be put to death: only be strong and of a good courage.",
+      "web": "Whoever rebels against your commandment, and doesn’t listen to your words in all that you command him shall himself be put to death. Only be strong and courageous.”",
+      "ct": "Anyone who rebels against your authority or refuses to obey your commands will be put to death. Just be strong and courageous.\""
+    }
+  ]
+}

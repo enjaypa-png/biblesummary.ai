@@ -1,0 +1,161 @@
+{
+  "book": "jude",
+  "book_name": "Jude",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:18:02.183Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, and called:",
+      "web": "Jude, a servant of Jesus Christ, and brother of James, to those who are called, sanctified by God the Father, and kept for Jesus Christ:",
+      "ct": "From Jude, a servant of Jesus Christ and brother of James. To those who are called, set apart by God the Father, and kept safe in Jesus Christ:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Mercy unto you, and peace, and love, be multiplied.",
+      "web": "Mercy to you and peace and love be multiplied.",
+      "ct": "May mercy, peace, and love be yours in abundance."
+    },
+    {
+      "verse": 3,
+      "kjv": "Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, and exhort you that ye should earnestly contend for the faith which was once delivered unto the saints.",
+      "web": "Beloved, while I was very eager to write to you about our common salvation, I was constrained to write to you exhorting you to contend earnestly for the faith which was once for all delivered to the saints.",
+      "ct": "Dear friends, I was eager to write to you about the salvation we share, but I felt an urgent need to write and encourage you instead: fight hard for the faith that was delivered once and for all to God's people."
+    },
+    {
+      "verse": 4,
+      "kjv": "For there are certain men crept in unawares, who were before of old ordained to this condemnation, ungodly men, turning the grace of our God into lasciviousness, and denying the only Lord God, and our Lord Jesus Christ.",
+      "web": "For there are certain men who crept in secretly, even those who were long ago written about for this condemnation: ungodly men, turning the grace of our God into indecency, and denying our only Master, God, and Lord, Jesus Christ.",
+      "ct": "Certain people have slipped in among you unnoticed — people whose condemnation was written about long ago. They are ungodly, twisting the grace of our God into an excuse for immoral living and rejecting the only Lord God and our Lord Jesus Christ."
+    },
+    {
+      "verse": 5,
+      "kjv": "I will therefore put you in remembrance, though ye once knew this, how that the Lord, having saved the people out of the land of Egypt, afterward destroyed them that believed not.",
+      "web": "Now I desire to remind you, though you already know this, that the Lord, having saved a people out of the land of Egypt, afterward destroyed those who didn’t believe.",
+      "ct": "I want to remind you — even though you already know this — that the Lord rescued his people out of Egypt, but later destroyed those among them who refused to believe."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the angels which kept not their first estate, but left their own habitation, he hath reserved in everlasting chains under darkness unto the judgment of the great day.",
+      "web": "Angels who didn’t keep their first domain, but deserted their own dwelling place, he has kept in everlasting bonds under darkness for the judgment of the great day.",
+      "ct": "And the angels who abandoned their rightful place and left their proper home — he has locked them in everlasting chains in deep darkness, holding them for judgment on the great day."
+    },
+    {
+      "verse": 7,
+      "kjv": "Even as Sodom and Gomorrha, and the cities about them in like manner, giving themselves over to fornication, and going after strange flesh, are set forth for an example, suffering the vengeance of eternal fire.",
+      "web": "Even as Sodom and Gomorrah and the cities around them, having in the same way as these given themselves over to sexual immorality and gone after strange flesh, are shown as an example, suffering the punishment of eternal fire.",
+      "ct": "In the same way, Sodom and Gomorrha and the surrounding cities gave themselves over to sexual immorality and pursued unnatural desires. They stand as a warning, suffering the punishment of eternal fire."
+    },
+    {
+      "verse": 8,
+      "kjv": "Likewise also these filthy dreamers defile the flesh, despise dominion, and speak evil of dignities.",
+      "web": "Yet in the same way, these also in their dreaming defile the flesh, despise authority, and slander celestial beings.",
+      "ct": "In the same way, these people pollute their own bodies with their dreaming, reject authority, and slander celestial beings."
+    },
+    {
+      "verse": 9,
+      "kjv": "Yet Michael the archangel, when contending with the devil he disputed about the body of Moses, durst not bring against him a railing accusation, but said, The Lord rebuke thee.",
+      "web": "But Michael, the archangel, when contending with the devil and arguing about the body of Moses, dared not bring against him an abusive condemnation, but said, “May the Lord rebuke you!”",
+      "ct": "But even Michael the archangel, when he was arguing with the devil over the body of Moses, didn't dare to hurl an abusive accusation at him. Instead, he simply said, \"May the Lord rebuke you!\""
+    },
+    {
+      "verse": 10,
+      "kjv": "But these speak evil of those things which they know not: but what they know naturally, as brute beasts, in those things they corrupt themselves.",
+      "web": "But these speak evil of whatever things they don’t know. They are destroyed in these things that they understand naturally, like the creatures without reason.",
+      "ct": "These people, however, mock whatever they don't understand. And the things they do grasp by instinct — like animals without reason — those are the very things that destroy them."
+    },
+    {
+      "verse": 11,
+      "kjv": "Woe unto them! for they have gone in the way of Cain, and ran greedily after the error of Balaam for reward, and perished in the gainsaying of Core.",
+      "web": "Woe to them! For they went in the way of Cain, and ran riotously in the error of Balaam for hire, and perished in Korah’s rebellion.",
+      "ct": "How terrible for them! They've followed the path of Cain, rushed headlong into Balaam's error for the sake of profit, and destroyed themselves in rebellion like Korah."
+    },
+    {
+      "verse": 12,
+      "kjv": "These are spots in your feasts of charity, when they feast with you, feeding themselves without fear: clouds they are without water, carried about of winds; trees whose fruit withereth, without fruit, twice dead, plucked up by the roots;",
+      "web": "These are hidden rocky reefs in your love feasts when they feast with you, shepherds who without fear feed themselves; clouds without water, carried along by winds; autumn trees without fruit, twice dead, plucked up by the roots;",
+      "ct": "These people are dangerous reefs lurking beneath the surface at your love feasts, eating alongside you without any shame, caring only for themselves. They are clouds blown around by the wind but carrying no rain, trees in autumn with no fruit — doubly dead and ripped up by the roots."
+    },
+    {
+      "verse": 13,
+      "kjv": "Raging waves of the sea, foaming out their own shame; wandering stars, to whom is reserved the blackness of darkness for ever.",
+      "web": "wild waves of the sea, foaming out their own shame; wandering stars, for whom the blackness of darkness has been reserved forever.",
+      "ct": "They are wild waves of the sea, churning up the foam of their own disgrace. They are wandering stars, and the deepest darkness has been reserved for them forever."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints,",
+      "web": "About these also Enoch, the seventh from Adam, prophesied, saying, “Behold, the Lord came with ten thousands of his holy ones,",
+      "ct": "Enoch, the 7th generation from Adam, prophesied about these people when he said, \"Look! The Lord is coming with tens of thousands of his holy ones"
+    },
+    {
+      "verse": 15,
+      "kjv": "To execute judgment upon all, and to convince all that are ungodly among them of all their ungodly deeds which they have ungodly committed, and of all their hard speeches which ungodly sinners have spoken against him.",
+      "web": "to execute judgment on all, and to convict all the ungodly of all their works of ungodliness which they have done in an ungodly way, and of all the hard things which ungodly sinners have spoken against him.”",
+      "ct": "to carry out judgment on everyone, and to convict every ungodly person of all the ungodly things they have done and all the harsh words ungodly sinners have spoken against him.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "These are murmurers, complainers, walking after their own lusts; and their mouth speaketh great swelling words, having men’s persons in admiration because of advantage.",
+      "web": "These are murmurers and complainers, walking after their lusts—and their mouth speaks proud things—showing respect of persons to gain advantage.",
+      "ct": "These people are constant grumblers and complainers, driven by their own desires. They talk big about themselves and flatter others whenever it benefits them."
+    },
+    {
+      "verse": 17,
+      "kjv": "But, beloved, remember ye the words which were spoken before of the apostles of our Lord Jesus Christ;",
+      "web": "But you, beloved, remember the words which have been spoken before by the apostles of our Lord Jesus Christ.",
+      "ct": "But you, dear friends, remember what the apostles of our Lord Jesus Christ told you ahead of time."
+    },
+    {
+      "verse": 18,
+      "kjv": "How that they told you there should be mockers in the last time, who should walk after their own ungodly lusts.",
+      "web": "They said to you, “In the last time there will be mockers, walking after their own ungodly lusts.”",
+      "ct": "They said to you, \"In the last days, mockers will come along, driven by their own ungodly desires.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "These be they who separate themselves, sensual, having not the Spirit.",
+      "web": "These are those who cause divisions and are sensual, not having the Spirit.",
+      "ct": "These are the ones who cause divisions. They are ruled by their natural instincts and don't have the Spirit."
+    },
+    {
+      "verse": 20,
+      "kjv": "But ye, beloved, building up yourselves on your most holy faith, praying in the Holy Ghost,",
+      "web": "But you, beloved, keep building up yourselves on your most holy faith, praying in the Holy Spirit.",
+      "ct": "But you, dear friends — keep building yourselves up in your most holy faith, and keep praying in the Holy Spirit."
+    },
+    {
+      "verse": 21,
+      "kjv": "Keep yourselves in the love of God, looking for the mercy of our Lord Jesus Christ unto eternal life.",
+      "web": "Keep yourselves in God’s love, looking for the mercy of our Lord Jesus Christ to eternal life.",
+      "ct": "Stay rooted in God's love as you wait for the mercy of our Lord Jesus Christ, which leads to eternal life."
+    },
+    {
+      "verse": 22,
+      "kjv": "And of some have compassion, making a difference:",
+      "web": "On some have compassion, making a distinction,",
+      "ct": "Show compassion to those who are wavering."
+    },
+    {
+      "verse": 23,
+      "kjv": "And others save with fear, pulling them out of the fire; hating even the garment spotted by the flesh.",
+      "web": "and some save, snatching them out of the fire with fear, hating even the clothing stained by the flesh.",
+      "ct": "Save others by snatching them out of the fire. To still others, show mercy mixed with fear, hating even the clothing stained by their corrupt lives."
+    },
+    {
+      "verse": 24,
+      "kjv": "Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy,",
+      "web": "Now to him who is able to keep them from stumbling, and to present you faultless before the presence of his glory in great joy,",
+      "ct": "Now to him who is able to keep you from stumbling and to bring you into the presence of his glory — blameless and overflowing with joy —"
+    },
+    {
+      "verse": 25,
+      "kjv": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen.",
+      "web": "to God our Savior, who alone is wise, be glory and majesty, dominion and power, both now and forever. Amen.",
+      "ct": "to the only wise God our Savior, be glory, majesty, dominion, and power, both now and forever. Amen."
+    }
+  ]
+}

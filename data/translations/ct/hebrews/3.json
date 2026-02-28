@@ -1,0 +1,125 @@
+{
+  "book": "hebrews",
+  "book_name": "Hebrews",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:08:33.843Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Wherefore, holy brethren, partakers of the heavenly calling, consider the Apostle and High Priest of our profession, Christ Jesus;",
+      "web": "Therefore, holy brothers, partakers of a heavenly calling, consider the Apostle and High Priest of our confession: Jesus,",
+      "ct": "So then, my holy brothers and sisters — you who share in this heavenly calling — fix your thoughts on Jesus, the Apostle and High Priest we confess."
+    },
+    {
+      "verse": 2,
+      "kjv": "Who was faithful to him that appointed him, as also Moses was faithful in all his house.",
+      "web": "who was faithful to him who appointed him, as also Moses was in all his house.",
+      "ct": "He was faithful to God who appointed him, just as Moses was faithful in all of God's house."
+    },
+    {
+      "verse": 3,
+      "kjv": "For this man was counted worthy of more glory than Moses, inasmuch as he who hath builded the house hath more honour than the house.",
+      "web": "For he has been counted worthy of more glory than Moses, because he who built the house has more honor than the house.",
+      "ct": "But Jesus deserves far greater glory than Moses, just as the person who builds a house receives more honor than the house itself."
+    },
+    {
+      "verse": 4,
+      "kjv": "For every house is builded by some man; but he that built all things is God.",
+      "web": "For every house is built by someone; but he who built all things is God.",
+      "ct": "Every house is built by someone, but God is the one who built everything."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Moses verily was faithful in all his house, as a servant, for a testimony of those things which were to be spoken after;",
+      "web": "Moses indeed was faithful in all his house as a servant, for a testimony of those things which were afterward to be spoken,",
+      "ct": "Moses was indeed faithful as a servant in all of God's house, and his life pointed ahead to the things God would reveal later."
+    },
+    {
+      "verse": 6,
+      "kjv": "But Christ as a son over his own house; whose house are we, if we hold fast the confidence and the rejoicing of the hope firm unto the end.",
+      "web": "but Christ is faithful as a Son over his house. We are his house, if we hold fast our confidence and the glorying of our hope firm to the end.",
+      "ct": "But Christ is faithful as a Son over God's house. And we are his house — if we hold firmly to our confidence and the hope we celebrate, all the way to the end."
+    },
+    {
+      "verse": 7,
+      "kjv": "Wherefore (as the Holy Ghost saith, To day if ye will hear his voice,",
+      "web": "Therefore, even as the Holy Spirit says, “Today if you will hear his voice,",
+      "ct": "That's why the Holy Spirit says: \"Today, if you hear his voice,"
+    },
+    {
+      "verse": 8,
+      "kjv": "Harden not your hearts, as in the provocation, in the day of temptation in the wilderness:",
+      "web": "don’t harden your hearts, as in the rebellion, like as in the day of the trial in the wilderness,",
+      "ct": "don't harden your hearts the way your ancestors did during the rebellion, on that day of testing in the wilderness,"
+    },
+    {
+      "verse": 9,
+      "kjv": "When your fathers tempted me, proved me, and saw my works forty years.",
+      "web": "where your fathers tested me and tried me, and saw my deeds for forty years.",
+      "ct": "where your fathers tested me and pushed me, even though they watched what I did for 40 years."
+    },
+    {
+      "verse": 10,
+      "kjv": "Wherefore I was grieved with that generation, and said, They do alway err in their heart; and they have not known my ways.",
+      "web": "Therefore I was displeased with that generation, and said, ‘They always err in their heart, but they didn’t know my ways.’",
+      "ct": "That's why I was angry with that generation and said, 'Their hearts always go the wrong way, and they have never understood how I work.'"
+    },
+    {
+      "verse": 11,
+      "kjv": "So I sware in my wrath, They shall not enter into my rest.)",
+      "web": "As I swore in my wrath, ‘They will not enter into my rest.’ ”",
+      "ct": "So in my anger I made an oath: 'They will never enter my rest.'\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Take heed, brethren, lest there be in any of you an evil heart of unbelief, in departing from the living God.",
+      "web": "Beware, brothers, lest perhaps there might be in any one of you an evil heart of unbelief, in falling away from the living God;",
+      "ct": "Be careful, brothers and sisters, that none of you develops an evil, unbelieving heart that turns away from the living God."
+    },
+    {
+      "verse": 13,
+      "kjv": "But exhort one another daily, while it is called To day; lest any of you be hardened through the deceitfulness of sin.",
+      "web": "but exhort one another day by day, so long as it is called “today”, lest any one of you be hardened by the deceitfulness of sin.",
+      "ct": "Instead, encourage each other every day — while it's still called \"today\" — so that none of you becomes hardened by sin's tricks."
+    },
+    {
+      "verse": 14,
+      "kjv": "For we are made partakers of Christ, if we hold the beginning of our confidence stedfast unto the end;",
+      "web": "For we have become partakers of Christ, if we hold the beginning of our confidence firm to the end,",
+      "ct": "We share in all that Christ offers, but only if we hold on to the confidence we had at the beginning and keep it firm until the very end."
+    },
+    {
+      "verse": 15,
+      "kjv": "While it is said, To day if ye will hear his voice, harden not your hearts, as in the provocation.",
+      "web": "while it is said, “Today if you will hear his voice, don’t harden your hearts, as in the rebellion.”",
+      "ct": "As it says: \"Today, if you hear his voice, don't harden your hearts the way they did during the rebellion.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "For some, when they had heard, did provoke: howbeit not all that came out of Egypt by Moses.",
+      "web": "For who, when they heard, rebelled? Wasn’t it all those who came out of Egypt led by Moses?",
+      "ct": "Now, who heard God and still rebelled? Wasn't it all the people Moses led out of Egypt?"
+    },
+    {
+      "verse": 17,
+      "kjv": "But with whom was he grieved forty years? was it not with them that had sinned, whose carcases fell in the wilderness?",
+      "web": "With whom was he displeased forty years? Wasn’t it with those who sinned, whose bodies fell in the wilderness?",
+      "ct": "And who made God angry for 40 years? Wasn't it the ones who sinned — the ones whose bodies dropped dead in the wilderness?"
+    },
+    {
+      "verse": 18,
+      "kjv": "And to whom sware he that they should not enter into his rest, but to them that believed not?",
+      "web": "To whom did he swear that they wouldn’t enter into his rest, but to those who were disobedient?",
+      "ct": "And when God swore that certain people would never enter his rest, who was he talking about? Those who refused to believe him."
+    },
+    {
+      "verse": 19,
+      "kjv": "So we see that they could not enter in because of unbelief.",
+      "web": "We see that they weren’t able to enter in because of unbelief.",
+      "ct": "So we can see plainly: they couldn't enter his rest because of their unbelief."
+    }
+  ]
+}

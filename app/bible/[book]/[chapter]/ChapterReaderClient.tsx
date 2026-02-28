@@ -9,6 +9,7 @@ import { useReadingSettings, themeStyles, TRANSLATION_LABELS } from "@/contexts/
 import { useExplanationCache, getVerseId } from "@/lib/verseStore";
 import VerseActionBar from "@/components/VerseActionBar";
 import ExplainPaywall from "@/components/ExplainPaywall";
+import UpgradeNudge from "@/components/UpgradeNudge";
 import { HIGHLIGHT_COLORS, getHighlightBg } from "@/lib/highlightColors";
 
 interface Verse {
@@ -85,6 +86,8 @@ export default function ChapterReaderClient({
 
   // Explain entitlement
   const [hasExplainAccess, setHasExplainAccess] = useState<boolean | null>(null);
+  const [freeTrialsUsed, setFreeTrialsUsed] = useState<number>(0);
+  const FREE_TRIAL_LIMIT = 3;
 
   // Reading settings
   const { settings, openPanel } = useReadingSettings();
@@ -254,6 +257,14 @@ export default function ChapterReaderClient({
           p_user_id: currentUser.id,
         });
         setHasExplainAccess(explainAccess === true);
+
+        // Load free trial count
+        const { data: profileData } = await supabase
+          .from("user_profiles")
+          .select("free_explain_count")
+          .eq("user_id", currentUser.id)
+          .single();
+        setFreeTrialsUsed(profileData?.free_explain_count ?? 0);
       } else {
         setHasExplainAccess(false);
       }
@@ -427,8 +438,9 @@ export default function ChapterReaderClient({
   }
 
   async function handleExplain(verseNum: number) {
-    // Check entitlement first
-    if (!hasExplainAccess) {
+    // Check entitlement — allow free trials
+    const hasTrial = freeTrialsUsed < FREE_TRIAL_LIMIT;
+    if (!hasExplainAccess && !hasTrial) {
       setExplainStatus("paywall");
       return;
     }
@@ -727,6 +739,8 @@ export default function ChapterReaderClient({
     : "rgba(124, 92, 252, 0.4)";
 
   return (
+    <>
+    <UpgradeNudge />
     <div className="min-h-screen transition-colors duration-300" style={{ backgroundColor: theme.background }}>
       {/* ── Header ── */}
       <header
@@ -1165,6 +1179,8 @@ export default function ChapterReaderClient({
                   <ExplainPaywall
                     isAuthenticated={!!user}
                     onClose={handleCloseActions}
+                    trialsUsed={freeTrialsUsed}
+                    trialLimit={FREE_TRIAL_LIMIT}
                   />
                 )}
 
@@ -1282,5 +1298,6 @@ export default function ChapterReaderClient({
         <p className="text-center mt-8 text-[11px] tracking-wide" style={{ color: theme.secondary }}>{TRANSLATION_LABELS[settings.translation || "ct"].fullName.toUpperCase()}</p>
       </main>
     </div>
+    </>
   );
 }

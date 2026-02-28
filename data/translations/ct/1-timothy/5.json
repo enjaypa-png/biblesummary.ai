@@ -1,0 +1,161 @@
+{
+  "book": "1-timothy",
+  "book_name": "1 Timothy",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:05:22.640Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Rebuke not an elder, but intreat him as a father; and the younger men as brethren;",
+      "web": "Don’t rebuke an older man, but exhort him as a father; the younger men as brothers;",
+      "ct": "Don't harshly correct an older man. Instead, appeal to him as you would your own father. Treat younger men like brothers."
+    },
+    {
+      "verse": 2,
+      "kjv": "The elder women as mothers; the younger as sisters, with all purity.",
+      "web": "the elder women as mothers; the younger as sisters, in all purity.",
+      "ct": "Treat older women like mothers, and younger women like sisters — with complete purity."
+    },
+    {
+      "verse": 3,
+      "kjv": "Honour widows that are widows indeed.",
+      "web": "Honor widows who are widows indeed.",
+      "ct": "Give honor and support to widows who are truly on their own."
+    },
+    {
+      "verse": 4,
+      "kjv": "But if any widow have children or nephews, let them learn first to shew piety at home, and to requite their parents: for that is good and acceptable before God.",
+      "web": "But if any widow has children or grandchildren, let them learn first to show piety toward their own family and to repay their parents, for this is acceptable in the sight of God.",
+      "ct": "But if a widow has children or grandchildren, those family members should learn to honor God by taking care of their own household first and repaying their parents for all they've done. This is what pleases God."
+    },
+    {
+      "verse": 5,
+      "kjv": "Now she that is a widow indeed, and desolate, trusteth in God, and continueth in supplications and prayers night and day.",
+      "web": "Now she who is a widow indeed and desolate, has her hope set on God, and continues in petitions and prayers night and day.",
+      "ct": "A widow who is truly alone in the world puts her hope in God and devotes herself to prayer and petition night and day."
+    },
+    {
+      "verse": 6,
+      "kjv": "But she that liveth in pleasure is dead while she liveth.",
+      "web": "But she who gives herself to pleasure is dead while she lives.",
+      "ct": "But a widow who lives for pleasure is spiritually dead even while she's still alive."
+    },
+    {
+      "verse": 7,
+      "kjv": "And these things give in charge, that they may be blameless.",
+      "web": "Also command these things, that they may be without reproach.",
+      "ct": "Teach these things so that everyone involved will be above reproach."
+    },
+    {
+      "verse": 8,
+      "kjv": "But if any provide not for his own, and specially for those of his own house, he hath denied the faith, and is worse than an infidel.",
+      "web": "But if anyone doesn’t provide for his own, and especially his own household, he has denied the faith, and is worse than an unbeliever.",
+      "ct": "If anyone fails to provide for their own relatives — especially those in their own household — that person has denied the faith and is worse than an unbeliever."
+    },
+    {
+      "verse": 9,
+      "kjv": "Let not a widow be taken into the number under threescore years old, having been the wife of one man,",
+      "web": "Let no one be enrolled as a widow under sixty years old, having been the wife of one man,",
+      "ct": "To be enrolled on the list of widows supported by the church, a woman must be at least 60 years old and must have been faithful to her husband."
+    },
+    {
+      "verse": 10,
+      "kjv": "Well reported of for good works; if she have brought up children, if she have lodged strangers, if she have washed the saints’ feet, if she have relieved the afflicted, if she have diligently followed every good work.",
+      "web": "being approved by good works, if she has brought up children, if she has been hospitable to strangers, if she has washed the saints’ feet, if she has relieved the afflicted, and if she has diligently followed every good work.",
+      "ct": "She should be known for doing good — raising children well, showing hospitality to strangers, washing the feet of God's people, helping those in trouble, and devoting herself to every kind of good work."
+    },
+    {
+      "verse": 11,
+      "kjv": "But the younger widows refuse: for when they have begun to wax wanton against Christ, they will marry;",
+      "web": "But refuse younger widows, for when they have grown wanton against Christ, they desire to marry,",
+      "ct": "But don't put younger widows on the list. When their desires pull them away from their commitment to Christ, they'll want to remarry,"
+    },
+    {
+      "verse": 12,
+      "kjv": "Having damnation, because they have cast off their first faith.",
+      "web": "having condemnation, because they have rejected their first pledge.",
+      "ct": "and they'll bring judgment on themselves for breaking their original pledge."
+    },
+    {
+      "verse": 13,
+      "kjv": "And withal they learn to be idle, wandering about from house to house; and not only idle, but tattlers also and busybodies, speaking things which they ought not.",
+      "web": "Besides, they also learn to be idle, going about from house to house. Not only idle, but also gossips and busybodies, saying things which they ought not.",
+      "ct": "On top of that, they pick up the habit of being idle, going from house to house. And it's not just idleness — they become gossips and busybodies, talking about things they shouldn't."
+    },
+    {
+      "verse": 14,
+      "kjv": "I will therefore that the younger women marry, bear children, guide the house, give none occasion to the adversary to speak reproachfully.",
+      "web": "I desire therefore that the younger widows marry, bear children, rule the household, and give no occasion to the adversary for insulting.",
+      "ct": "So I want younger widows to marry, have children, and manage their homes. That way they give the enemy no opportunity to attack us."
+    },
+    {
+      "verse": 15,
+      "kjv": "For some are already turned aside after Satan.",
+      "web": "For already some have turned away after Satan.",
+      "ct": "Some have already wandered off to follow Satan."
+    },
+    {
+      "verse": 16,
+      "kjv": "If any man or woman that believeth have widows, let them relieve them, and let not the church be charged; that it may relieve them that are widows indeed.",
+      "web": "If any man or woman who believes has widows, let them relieve them, and don’t let the assembly be burdened, that it might relieve those who are widows indeed.",
+      "ct": "If any believing man or woman has widows in their family, they should take care of them personally. Don't let the church carry that burden, so it can focus its resources on widows who are truly alone."
+    },
+    {
+      "verse": 17,
+      "kjv": "Let the elders that rule well be counted worthy of double honour, especially they who labour in the word and doctrine.",
+      "web": "Let the elders who rule well be counted worthy of double honor, especially those who labor in the word and in teaching.",
+      "ct": "Elders who lead well deserve double honor, especially those who work hard at preaching and teaching."
+    },
+    {
+      "verse": 18,
+      "kjv": "For the scripture saith, Thou shalt not muzzle the ox that treadeth out the corn. And, The labourer is worthy of his reward.",
+      "web": "For the Scripture says, “You shall not muzzle the ox when it treads out the grain.” And, “The laborer is worthy of his wages.”",
+      "ct": "Scripture says, \"Don't muzzle an ox while it's treading out the grain,\" and also, \"The worker deserves his wages.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Against an elder receive not an accusation, but before two or three witnesses.",
+      "web": "Don’t receive an accusation against an elder, except at the word of two or three witnesses.",
+      "ct": "Don't accept an accusation against an elder unless it's backed by 2 or 3 witnesses."
+    },
+    {
+      "verse": 20,
+      "kjv": "Them that sin rebuke before all, that others also may fear.",
+      "web": "Those who sin, reprove in the sight of all, that the rest also may be in fear.",
+      "ct": "Those who are sinning should be rebuked publicly, so that everyone else will take it seriously."
+    },
+    {
+      "verse": 21,
+      "kjv": "I charge thee before God, and the Lord Jesus Christ, and the elect angels, that thou observe these things without preferring one before another, doing nothing by partiality.",
+      "web": "I command you in the sight of God, and the Lord Jesus Christ, and the chosen angels, that you observe these things without prejudice, doing nothing by partiality.",
+      "ct": "I charge you before God, before the Lord Jesus Christ, and before the chosen angels: follow these instructions without prejudice. Play no favorites. Show no partiality."
+    },
+    {
+      "verse": 22,
+      "kjv": "Lay hands suddenly on no man, neither be partaker of other men’s sins: keep thyself pure.",
+      "web": "Lay hands hastily on no one. Don’t be a participant in other people’s sins. Keep yourself pure.",
+      "ct": "Don't be too quick to lay hands on anyone to appoint them to leadership. Don't make yourself a partner in someone else's sin. Keep yourself pure."
+    },
+    {
+      "verse": 23,
+      "kjv": "Drink no longer water, but use a little wine for thy stomach’s sake and thine often infirmities.",
+      "web": "Be no longer a drinker of water only, but use a little wine for your stomach’s sake and your frequent infirmities.",
+      "ct": "Stop drinking only water — use a little wine for the sake of your stomach and your frequent illnesses."
+    },
+    {
+      "verse": 24,
+      "kjv": "Some men’s sins are open beforehand, going before to judgment; and some men they follow after.",
+      "web": "Some men’s sins are evident, preceding them to judgment, and some also follow later.",
+      "ct": "Some people's sins are obvious and run ahead of them to judgment. For others, their sins only catch up with them later."
+    },
+    {
+      "verse": 25,
+      "kjv": "Likewise also the good works of some are manifest beforehand; and they that are otherwise cannot be hid.",
+      "web": "In the same way also there are good works that are obvious, and those that are otherwise can’t be hidden.",
+      "ct": "In the same way, some people's good works are plain for everyone to see. And even the ones that aren't obvious now can't stay hidden forever."
+    }
+  ]
+}

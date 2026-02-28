@@ -1,0 +1,143 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 24,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:13:18.073Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "When a man hath taken a wife, and married her, and it come to pass that she find no favour in his eyes, because he hath found some uncleanness in her: then let him write her a bill of divorcement, and give it in her hand, and send her out of his house.",
+      "web": "When a man takes a wife and marries her, then it shall be, if she finds no favor in his eyes because he has found some unseemly thing in her, that he shall write her a certificate of divorce, put it in her hand, and send her out of his house.",
+      "ct": "If a man marries a woman and later finds something indecent about her that makes him unhappy with her, he may write her a certificate of divorce, hand it to her, and send her away from his house."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when she is departed out of his house, she may go and be another man’s wife.",
+      "web": "When she has departed out of his house, she may go and be another man’s wife.",
+      "ct": "After she leaves his house, she is free to go and marry another man."
+    },
+    {
+      "verse": 3,
+      "kjv": "And if the latter husband hate her, and write her a bill of divorcement, and giveth it in her hand, and sendeth her out of his house; or if the latter husband die, which took her to be his wife;",
+      "web": "If the latter husband hates her, and write her a certificate of divorce, puts it in her hand, and sends her out of his house; or if the latter husband dies, who took her to be his wife;",
+      "ct": "If this second husband also turns against her and writes her a certificate of divorce, hands it to her, and sends her away — or if the second husband dies —"
+    },
+    {
+      "verse": 4,
+      "kjv": "Her former husband, which sent her away, may not take her again to be his wife, after that she is defiled; for that is abomination before the LORD: and thou shalt not cause the land to sin, which the LORD thy God giveth thee for an inheritance.",
+      "web": "her former husband, who sent her away, may not take her again to be his wife after she is defiled; for that would be an abomination to LORD. You shall not cause the land to sin, which LORD your God gives you for an inheritance.",
+      "ct": "then her first husband, who divorced her, must not marry her again, because she has been defiled. That would be an abomination to the LORD. You must not bring sin on the land that the LORD your God is giving you as an inheritance."
+    },
+    {
+      "verse": 5,
+      "kjv": "When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: but he shall be free at home one year, and shall cheer up his wife which he hath taken.",
+      "web": "When a man takes a new wife, he shall not go out in the army, neither shall he be assigned any business. He shall be free at home one year, and shall cheer his wife whom he has taken.",
+      "ct": "When a man has just married a new wife, he must not be sent to war or given any other public duty. He is to stay home free of obligations for 1 year so he can bring happiness to the wife he has married."
+    },
+    {
+      "verse": 6,
+      "kjv": "No man shall take the nether or the upper millstone to pledge: for he taketh a man’s life to pledge.",
+      "web": "No man shall take the mill or the upper millstone as a pledge, for he takes a life in pledge.",
+      "ct": "No one may take a millstone — either the upper or lower stone — as collateral for a debt. That would be taking away someone's ability to make a living."
+    },
+    {
+      "verse": 7,
+      "kjv": "If a man be found stealing any of his brethren of the children of Israel, and maketh merchandise of him, or selleth him; then that thief shall die; and thou shalt put evil away from among you.",
+      "web": "If a man is found stealing any of his brothers of the children of Israel, and he deals with him as a slave, or sells him, then that thief shall die. So you shall remove the evil from among you.",
+      "ct": "If anyone is caught kidnapping a fellow Israelite and treating that person as a slave or selling them, the kidnapper must be put to death. You must purge this evil from among you."
+    },
+    {
+      "verse": 8,
+      "kjv": "Take heed in the plague of leprosy, that thou observe diligently, and do according to all that the priests the Levites shall teach you: as I commanded them, so ye shall observe to do.",
+      "web": "Be careful in the plague of leprosy, that you observe diligently and do according to all that the Levitical priests teach you. As I commanded them, so you shall observe to do.",
+      "ct": "When an outbreak of leprosy appears, be very careful to follow every instruction the Levitical priests give you. Obey exactly what I commanded them."
+    },
+    {
+      "verse": 9,
+      "kjv": "Remember what the LORD thy God did unto Miriam by the way, after that ye were come forth out of Egypt.",
+      "web": "Remember what LORD your God did to Miriam, by the way as you came out of Egypt.",
+      "ct": "Remember what the LORD your God did to Miriam along the road after you left Egypt."
+    },
+    {
+      "verse": 10,
+      "kjv": "When thou dost lend thy brother any thing, thou shalt not go into his house to fetch his pledge.",
+      "web": "When you lend your neighbor any kind of loan, you shall not go into his house to get his pledge.",
+      "ct": "When you make a loan of any kind to your neighbor, don't go into his house to collect whatever he's offering as collateral."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou shalt stand abroad, and the man to whom thou dost lend shall bring out the pledge abroad unto thee.",
+      "web": "You shall stand outside, and the man to whom you lend shall bring the pledge outside to you.",
+      "ct": "Stay outside, and let the person you're lending to bring the collateral out to you."
+    },
+    {
+      "verse": 12,
+      "kjv": "And if the man be poor, thou shalt not sleep with his pledge:",
+      "web": "If he is a poor man, you shall not sleep with his pledge.",
+      "ct": "If the borrower is poor, don't keep his collateral overnight."
+    },
+    {
+      "verse": 13,
+      "kjv": "In any case thou shalt deliver him the pledge again when the sun goeth down, that he may sleep in his own raiment, and bless thee: and it shall be righteousness unto thee before the LORD thy God.",
+      "web": "You shall surely restore to him the pledge when the sun goes down, that he may sleep in his garment and bless you. It shall be righteousness to you before LORD your God.",
+      "ct": "Make sure you return it to him by sunset so he can sleep in his own cloak and be grateful to you. The LORD your God will count this as righteousness on your behalf."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thou shalt not oppress an hired servant that is poor and needy, whether he be of thy brethren, or of thy strangers that are in thy land within thy gates:",
+      "web": "You shall not oppress a hired servant who is poor and needy, whether he is one of your brothers or one of the foreigners who are in your land within your gates.",
+      "ct": "Don't take advantage of a hired worker who is poor and struggling, whether that person is a fellow Israelite or a foreigner living in one of your towns."
+    },
+    {
+      "verse": 15,
+      "kjv": "At his day thou shalt give him his hire, neither shall the sun go down upon it; for he is poor, and setteth his heart upon it: lest he cry against thee unto the LORD, and it be sin unto thee.",
+      "web": "In his day you shall give him his wages, neither shall the sun go down on it; for he is poor and sets his heart on it; lest he cry against you to LORD, and it be sin to you.",
+      "ct": "Pay him his wages each day before the sun goes down, because he is poor and counting on that money. Otherwise he may cry out to the LORD against you, and you will be guilty of sin."
+    },
+    {
+      "verse": 16,
+      "kjv": "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin.",
+      "web": "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers. Every man shall be put to death for his own sin.",
+      "ct": "Parents must not be executed for their children's crimes, and children must not be executed for their parents' crimes. Each person must be put to death only for their own sin."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thou shalt not pervert the judgment of the stranger, nor of the fatherless; nor take a widow’s raiment to pledge:",
+      "web": "You shall not deprive the foreigner or the fatherless of justice, nor take a widow’s clothing in pledge;",
+      "ct": "Don't deny justice to a foreigner or an orphan, and never take a widow's clothing as collateral for a debt."
+    },
+    {
+      "verse": 18,
+      "kjv": "But thou shalt remember that thou wast a bondman in Egypt, and the LORD thy God redeemed thee thence: therefore I command thee to do this thing.",
+      "web": "but you shall remember that you were a slave in Egypt, and LORD your God redeemed you there. Therefore I command you to do this thing.",
+      "ct": "Remember that you were once slaves in Egypt, and the LORD your God rescued you from there. That's why I'm commanding you to do this."
+    },
+    {
+      "verse": 19,
+      "kjv": "When thou cuttest down thine harvest in thy field, and hast forgot a sheaf in the field, thou shalt not go again to fetch it: it shall be for the stranger, for the fatherless, and for the widow: that the LORD thy God may bless thee in all the work of thine hands.",
+      "web": "When you reap your harvest in your field, and have forgotten a sheaf in the field, you shall not go again to get it. It shall be for the foreigner, for the fatherless, and for the widow, that LORD your God may bless you in all the work of your hands.",
+      "ct": "When you're harvesting your field and you forget a sheaf behind, don't go back to get it. Leave it for the foreigner, the orphan, and the widow, so that the LORD your God may bless everything you do."
+    },
+    {
+      "verse": 20,
+      "kjv": "When thou beatest thine olive tree, thou shalt not go over the boughs again: it shall be for the stranger, for the fatherless, and for the widow.",
+      "web": "When you beat your olive tree, you shall not go over the boughs again. It shall be for the foreigner, for the fatherless, and for the widow.",
+      "ct": "When you beat the olives from your trees, don't go over the branches a second time. What's left behind is for the foreigner, the orphan, and the widow."
+    },
+    {
+      "verse": 21,
+      "kjv": "When thou gatherest the grapes of thy vineyard, thou shalt not glean it afterward: it shall be for the stranger, for the fatherless, and for the widow.",
+      "web": "When you harvest your vineyard, you shall not glean it after yourselves. It shall be for the foreigner, for the fatherless, and for the widow.",
+      "ct": "When you harvest your vineyard, don't go back and pick what you missed. Leave it for the foreigner, the orphan, and the widow."
+    },
+    {
+      "verse": 22,
+      "kjv": "And thou shalt remember that thou wast a bondman in the land of Egypt: therefore I command thee to do this thing.",
+      "web": "You shall remember that you were a slave in the land of Egypt. Therefore I command you to do this thing.",
+      "ct": "Remember that you were once slaves in the land of Egypt. That's why I'm commanding you to do this."
+    }
+  ]
+}

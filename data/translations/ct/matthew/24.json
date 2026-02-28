@@ -1,0 +1,317 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 24,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:17:30.734Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Jesus went out, and departed from the temple: and his disciples came to him for to shew him the buildings of the temple.",
+      "web": "Jesus went out from the temple, and was going on his way. His disciples came to him to show him the buildings of the temple.",
+      "ct": "Jesus left the temple and was walking away when his disciples came up to him, pointing out the temple buildings."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Jesus said unto them, See ye not all these things? verily I say unto you, There shall not be left here one stone upon another, that shall not be thrown down.",
+      "web": "But he answered them, “You see all of these things, don’t you? Most certainly I tell you, there will not be left here one stone on another, that will not be thrown down.”",
+      "ct": "Jesus replied, \"You see all of this, don't you? I tell you the truth — not one stone here will be left standing on another. Every one of them will be torn down.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And as he sat upon the mount of Olives, the disciples came unto him privately, saying, Tell us, when shall these things be? and what shall be the sign of thy coming, and of the end of the world?",
+      "web": "As he sat on the Mount of Olives, the disciples came to him privately, saying, “Tell us, when will these things be? What is the sign of your coming, and of the end of the age?”",
+      "ct": "Later, as he sat on the Mount of Olives, the disciples came to him privately. \"Tell us,\" they said, \"when will this happen? And what will be the sign of your coming and the end of the age?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Jesus answered and said unto them, Take heed that no man deceive you.",
+      "web": "Jesus answered them, “Be careful that no one leads you astray.",
+      "ct": "Jesus answered, \"Be careful that no one deceives you."
+    },
+    {
+      "verse": 5,
+      "kjv": "For many shall come in my name, saying, I am Christ; and shall deceive many.",
+      "web": "For many will come in my name, saying, ‘I am the Christ,’ and will lead many astray.",
+      "ct": "Many will come using my name, claiming, 'I am the Christ,' and they will deceive many people."
+    },
+    {
+      "verse": 6,
+      "kjv": "And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet.",
+      "web": "You will hear of wars and rumors of wars. See that you aren’t troubled, for all this must happen, but the end is not yet.",
+      "ct": "You'll hear about wars and rumors of wars, but don't be alarmed. These things must happen, but the end hasn't come yet."
+    },
+    {
+      "verse": 7,
+      "kjv": "For nation shall rise against nation, and kingdom against kingdom: and there shall be famines, and pestilences, and earthquakes, in divers places.",
+      "web": "For nation will rise against nation, and kingdom against kingdom; and there will be famines, plagues, and earthquakes in various places.",
+      "ct": "Nation will go to war against nation, and kingdom against kingdom. There will be famines, plagues, and earthquakes in various places."
+    },
+    {
+      "verse": 8,
+      "kjv": "All these are the beginning of sorrows.",
+      "web": "But all these things are the beginning of birth pains.",
+      "ct": "All of these are just the beginning of birth pains."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then shall they deliver you up to be afflicted, and shall kill you: and ye shall be hated of all nations for my name’s sake.",
+      "web": "Then they will deliver you up to oppression, and will kill you. You will be hated by all of the nations for my name’s sake.",
+      "ct": "Then they will hand you over to be persecuted and put to death. Every nation will hate you because of me."
+    },
+    {
+      "verse": 10,
+      "kjv": "And then shall many be offended, and shall betray one another, and shall hate one another.",
+      "web": "Then many will stumble, and will deliver up one another, and will hate one another.",
+      "ct": "At that time, many will turn away from the faith. They'll betray each other and hate each other."
+    },
+    {
+      "verse": 11,
+      "kjv": "And many false prophets shall rise, and shall deceive many.",
+      "web": "Many false prophets will arise, and will lead many astray.",
+      "ct": "Many false prophets will appear and deceive large numbers of people."
+    },
+    {
+      "verse": 12,
+      "kjv": "And because iniquity shall abound, the love of many shall wax cold.",
+      "web": "Because iniquity will be multiplied, the love of many will grow cold.",
+      "ct": "Because sin will be everywhere, the love of most people will grow cold."
+    },
+    {
+      "verse": 13,
+      "kjv": "But he that shall endure unto the end, the same shall be saved.",
+      "web": "But he who endures to the end will be saved.",
+      "ct": "But whoever endures to the end will be saved."
+    },
+    {
+      "verse": 14,
+      "kjv": "And this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then shall the end come.",
+      "web": "This Good News of the Kingdom will be preached in the whole world for a testimony to all the nations, and then the end will come.",
+      "ct": "This good news of the kingdom will be proclaimed throughout the whole world as a testimony to every nation — and then the end will come."
+    },
+    {
+      "verse": 15,
+      "kjv": "When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place, (whoso readeth, let him understand:)",
+      "web": "“When, therefore, you see the abomination of desolation, which was spoken of through Daniel the prophet, standing in the holy place (let the reader understand),",
+      "ct": "So when you see the abomination of desolation that the prophet Daniel spoke about, standing in the holy place — let the reader understand —"
+    },
+    {
+      "verse": 16,
+      "kjv": "Then let them which be in Judaea flee into the mountains:",
+      "web": "then let those who are in Judea flee to the mountains.",
+      "ct": "then those in Judea should flee to the mountains."
+    },
+    {
+      "verse": 17,
+      "kjv": "Let him which is on the housetop not come down to take any thing out of his house:",
+      "web": "Let him who is on the housetop not go down to take out the things that are in his house.",
+      "ct": "If you're on the roof of your house, don't go back inside to grab your belongings."
+    },
+    {
+      "verse": 18,
+      "kjv": "Neither let him which is in the field return back to take his clothes.",
+      "web": "Let him who is in the field not return back to get his clothes.",
+      "ct": "If you're out in the field, don't go back for your coat."
+    },
+    {
+      "verse": 19,
+      "kjv": "And woe unto them that are with child, and to them that give suck in those days!",
+      "web": "But woe to those who are with child and to nursing mothers in those days!",
+      "ct": "How terrible it will be for pregnant women and nursing mothers in those days!"
+    },
+    {
+      "verse": 20,
+      "kjv": "But pray ye that your flight be not in the winter, neither on the sabbath day:",
+      "web": "Pray that your flight will not be in the winter, nor on a Sabbath,",
+      "ct": "Pray that your escape doesn't happen in winter or on the Sabbath,"
+    },
+    {
+      "verse": 21,
+      "kjv": "For then shall be great tribulation, such as was not since the beginning of the world to this time, no, nor ever shall be.",
+      "web": "for then there will be great suffering, such as has not been from the beginning of the world until now, no, nor ever will be.",
+      "ct": "because there will be a great tribulation unlike anything the world has ever seen from the beginning until now — and nothing like it will ever happen again."
+    },
+    {
+      "verse": 22,
+      "kjv": "And except those days should be shortened, there should no flesh be saved: but for the elect’s sake those days shall be shortened.",
+      "web": "Unless those days had been shortened, no flesh would have been saved. But for the sake of the chosen ones, those days will be shortened.",
+      "ct": "If those days weren't cut short, no one would survive. But for the sake of God's chosen ones, those days will be cut short."
+    },
+    {
+      "verse": 23,
+      "kjv": "Then if any man shall say unto you, Lo, here is Christ, or there; believe it not.",
+      "web": "“Then if any man tells you, ‘Behold, here is the Christ,’ or, ‘There,’ don’t believe it.",
+      "ct": "If anyone tells you then, 'Look, here is the Christ!' or 'He's over there!' — don't believe it."
+    },
+    {
+      "verse": 24,
+      "kjv": "For there shall arise false Christs, and false prophets, and shall shew great signs and wonders; insomuch that, if it were possible, they shall deceive the very elect.",
+      "web": "For there will arise false christs, and false prophets, and they will show great signs and wonders, so as to lead astray, if possible, even the chosen ones.",
+      "ct": "False christs and false prophets will appear and perform spectacular signs and wonders, so convincing that they would deceive even God's chosen ones if that were possible."
+    },
+    {
+      "verse": 25,
+      "kjv": "Behold, I have told you before.",
+      "web": "“Behold, I have told you beforehand.",
+      "ct": "Remember, I've warned you ahead of time."
+    },
+    {
+      "verse": 26,
+      "kjv": "Wherefore if they shall say unto you, Behold, he is in the desert; go not forth: behold, he is in the secret chambers; believe it not.",
+      "web": "If therefore they tell you, ‘Behold, he is in the wilderness,’ don’t go out; or ‘Behold, he is in the inner rooms,’ don’t believe it.",
+      "ct": "So if someone says, 'He's out in the wilderness!' — don't go. Or if they say, 'He's hiding in a secret room!' — don't believe it."
+    },
+    {
+      "verse": 27,
+      "kjv": "For as the lightning cometh out of the east, and shineth even unto the west; so shall also the coming of the Son of man be.",
+      "web": "For as the lightning flashes from the east, and is seen even to the west, so will the coming of the Son of Man be.",
+      "ct": "The coming of the Son of Man will be like lightning that flashes across the sky from east to west — visible to everyone."
+    },
+    {
+      "verse": 28,
+      "kjv": "For wheresoever the carcase is, there will the eagles be gathered together.",
+      "web": "For wherever the carcass is, that is where the vultures gather together.",
+      "ct": "Wherever there's a carcass, the vultures will gather."
+    },
+    {
+      "verse": 29,
+      "kjv": "Immediately after the tribulation of those days shall the sun be darkened, and the moon shall not give her light, and the stars shall fall from heaven, and the powers of the heavens shall be shaken:",
+      "web": "But immediately after the suffering of those days, the sun will be darkened, the moon will not give its light, the stars will fall from the sky, and the powers of the heavens will be shaken;",
+      "ct": "Immediately after the tribulation of those days, the sun will go dark, the moon will stop giving its light, the stars will fall from the sky, and the powers of the heavens will be shaken."
+    },
+    {
+      "verse": 30,
+      "kjv": "And then shall appear the sign of the Son of man in heaven: and then shall all the tribes of the earth mourn, and they shall see the Son of man coming in the clouds of heaven with power and great glory.",
+      "web": "and then the sign of the Son of Man will appear in the sky. Then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of the sky with power and great glory.",
+      "ct": "Then the sign of the Son of Man will appear in the sky. Every tribe on earth will mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory."
+    },
+    {
+      "verse": 31,
+      "kjv": "And he shall send his angels with a great sound of a trumpet, and they shall gather together his elect from the four winds, from one end of heaven to the other.",
+      "web": "He will send out his angels with a great sound of a trumpet, and they will gather together his chosen ones from the four winds, from one end of the sky to the other.",
+      "ct": "He will send out his angels with a loud trumpet blast, and they will gather his chosen ones from the four winds — from one end of the heavens to the other."
+    },
+    {
+      "verse": 32,
+      "kjv": "Now learn a parable of the fig tree; When his branch is yet tender, and putteth forth leaves, ye know that summer is nigh:",
+      "web": "“Now from the fig tree learn this parable. When its branch has now become tender, and produces its leaves, you know that the summer is near.",
+      "ct": "Now learn this lesson from the fig tree: When its branches become tender and its leaves start to sprout, you know summer is near."
+    },
+    {
+      "verse": 33,
+      "kjv": "So likewise ye, when ye shall see all these things, know that it is near, even at the doors.",
+      "web": "Even so you also, when you see all these things, know that it is near, even at the doors.",
+      "ct": "In the same way, when you see all these things happening, you'll know that the time is near — right at the door."
+    },
+    {
+      "verse": 34,
+      "kjv": "Verily I say unto you, This generation shall not pass, till all these things be fulfilled.",
+      "web": "Most certainly I tell you, this generation will not pass away, until all these things are accomplished.",
+      "ct": "I tell you the truth, this generation will not pass away until all these things have taken place."
+    },
+    {
+      "verse": 35,
+      "kjv": "Heaven and earth shall pass away, but my words shall not pass away.",
+      "web": "Heaven and earth will pass away, but my words will not pass away.",
+      "ct": "Heaven and earth will pass away, but my words will never pass away."
+    },
+    {
+      "verse": 36,
+      "kjv": "But of that day and hour knoweth no man, no, not the angels of heaven, but my Father only.",
+      "web": "But no one knows of that day and hour, not even the angels of heaven, but my Father only.",
+      "ct": "No one knows the day or the hour — not the angels in heaven, not anyone — only my Father knows."
+    },
+    {
+      "verse": 37,
+      "kjv": "But as the days of Noe were, so shall also the coming of the Son of man be.",
+      "web": "“As the days of Noah were, so will the coming of the Son of Man be.",
+      "ct": "The coming of the Son of Man will be just like the days of Noah."
+    },
+    {
+      "verse": 38,
+      "kjv": "For as in the days that were before the flood they were eating and drinking, marrying and giving in marriage, until the day that Noe entered into the ark,",
+      "web": "For as in those days which were before the flood they were eating and drinking, marrying and giving in marriage, until the day that Noah entered into the ship,",
+      "ct": "In the days before the flood, people were eating and drinking, getting married and giving their children in marriage, right up until the day Noah entered the ark."
+    },
+    {
+      "verse": 39,
+      "kjv": "And knew not until the flood came, and took them all away; so shall also the coming of the Son of man be.",
+      "web": "and they didn’t know until the flood came, and took them all away, so will the coming of the Son of Man be.",
+      "ct": "They had no idea what was coming until the flood swept them all away. That's exactly how the coming of the Son of Man will be."
+    },
+    {
+      "verse": 40,
+      "kjv": "Then shall two be in the field; the one shall be taken, and the other left.",
+      "web": "Then two men will be in the field: one will be taken and one will be left.",
+      "ct": "Two men will be working in a field — one will be taken and the other left behind."
+    },
+    {
+      "verse": 41,
+      "kjv": "Two women shall be grinding at the mill; the one shall be taken, and the other left.",
+      "web": "Two women will be grinding at the mill: one will be taken and one will be left.",
+      "ct": "Two women will be grinding grain at the mill — one will be taken and the other left behind."
+    },
+    {
+      "verse": 42,
+      "kjv": "Watch therefore: for ye know not what hour your Lord doth come.",
+      "web": "Watch therefore, for you don’t know in what hour your Lord comes.",
+      "ct": "So stay alert, because you don't know what day your Lord is coming."
+    },
+    {
+      "verse": 43,
+      "kjv": "But know this, that if the goodman of the house had known in what watch the thief would come, he would have watched, and would not have suffered his house to be broken up.",
+      "web": "But know this, that if the master of the house had known in what watch of the night the thief was coming, he would have watched, and would not have allowed his house to be broken into.",
+      "ct": "Understand this: if a homeowner had known what time of night a thief was coming, he would have stayed awake and not let his house be broken into."
+    },
+    {
+      "verse": 44,
+      "kjv": "Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh.",
+      "web": "Therefore also be ready, for in an hour that you don’t expect, the Son of Man will come.",
+      "ct": "So you must be ready too, because the Son of Man will come at an hour you don't expect."
+    },
+    {
+      "verse": 45,
+      "kjv": "Who then is a faithful and wise servant, whom his lord hath made ruler over his household, to give them meat in due season?",
+      "web": "“Who then is the faithful and wise servant, whom his lord has set over his household, to give them their food in due season?",
+      "ct": "Who then is the faithful and wise servant that the master has put in charge of his household, to give the others their food at the right time?"
+    },
+    {
+      "verse": 46,
+      "kjv": "Blessed is that servant, whom his lord when he cometh shall find so doing.",
+      "web": "Blessed is that servant whom his lord finds doing so when he comes.",
+      "ct": "That servant is blessed if his master arrives and finds him doing his job."
+    },
+    {
+      "verse": 47,
+      "kjv": "Verily I say unto you, That he shall make him ruler over all his goods.",
+      "web": "Most certainly I tell you that he will set him over all that he has.",
+      "ct": "I tell you the truth, the master will put that servant in charge of everything he owns."
+    },
+    {
+      "verse": 48,
+      "kjv": "But and if that evil servant shall say in his heart, My lord delayeth his coming;",
+      "web": "But if that evil servant should say in his heart, ‘My lord is delaying his coming,’",
+      "ct": "But suppose that servant is wicked and thinks to himself, 'My master won't be back for a long time.'"
+    },
+    {
+      "verse": 49,
+      "kjv": "And shall begin to smite his fellowservants, and to eat and drink with the drunken;",
+      "web": "and begins to beat his fellow servants, and eat and drink with the drunkards,",
+      "ct": "Then he starts beating the other servants and eating and drinking with drunkards."
+    },
+    {
+      "verse": 50,
+      "kjv": "The lord of that servant shall come in a day when he looketh not for him, and in an hour that he is not aware of,",
+      "web": "the lord of that servant will come in a day when he doesn’t expect it, and in an hour when he doesn’t know it,",
+      "ct": "That servant's master will show up on a day he doesn't expect, at a time he doesn't know."
+    },
+    {
+      "verse": 51,
+      "kjv": "And shall cut him asunder, and appoint him his portion with the hypocrites: there shall be weeping and gnashing of teeth.",
+      "web": "and will cut him in pieces, and appoint his portion with the hypocrites. That is where the weeping and grinding of teeth will be.",
+      "ct": "The master will cut him to pieces and throw him in with the hypocrites, where there will be weeping and grinding of teeth.\""
+    }
+  ]
+}

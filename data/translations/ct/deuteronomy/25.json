@@ -1,0 +1,125 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 25,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:13:35.885Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "If there be a controversy between men, and they come unto judgment, that the judges may judge them; then they shall justify the righteous, and condemn the wicked.",
+      "web": "If there is a controversy between men, and they come to judgment and the judges judge them, then they shall justify the righteous and condemn the wicked.",
+      "ct": "When two people have a dispute and bring it to court, the judges must declare the innocent party not guilty and the guilty party guilty."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it shall be, if the wicked man be worthy to be beaten, that the judge shall cause him to lie down, and to be beaten before his face, according to his fault, by a certain number.",
+      "web": "It shall be, if the wicked man is worthy to be beaten, that the judge shall cause him to lie down and to be beaten before his face, according to his wickedness, by number.",
+      "ct": "If the guilty person deserves a beating, the judge will have him lie face down and be struck in the judge's presence. The number of lashes must match the severity of his offense."
+    },
+    {
+      "verse": 3,
+      "kjv": "Forty stripes he may give him, and not exceed: lest, if he should exceed, and beat him above these with many stripes, then thy brother should seem vile unto thee.",
+      "web": "He may sentence him to no more than forty stripes. He shall not give more, lest if he should give more and beat him more than that many stripes, then your brother will be degraded in your sight.",
+      "ct": "He may receive up to 40 lashes, but no more. Going beyond that would publicly humiliate your fellow Israelite and strip him of his dignity."
+    },
+    {
+      "verse": 4,
+      "kjv": "Thou shalt not muzzle the ox when he treadeth out the corn.",
+      "web": "You shall not muzzle the ox when he treads out the grain.",
+      "ct": "Don't muzzle an ox while it's treading out the grain."
+    },
+    {
+      "verse": 5,
+      "kjv": "If brethren dwell together, and one of them die, and have no child, the wife of the dead shall not marry without unto a stranger: her husband’s brother shall go in unto her, and take her to him to wife, and perform the duty of an husband’s brother unto her.",
+      "web": "If brothers dwell together, and one of them dies and has no son, the wife of the dead shall not be married outside to a stranger. Her husband’s brother shall go in to her, and take her as his wife, and perform the duty of a husband’s brother to her.",
+      "ct": "If brothers are living near each other and one of them dies without having a son, his widow must not marry an outsider. Instead, her husband's brother must marry her and fulfill his duty as a brother-in-law."
+    },
+    {
+      "verse": 6,
+      "kjv": "And it shall be, that the firstborn which she beareth shall succeed in the name of his brother which is dead, that his name be not put out of Israel.",
+      "web": "It shall be that the firstborn whom she bears shall succeed in the name of his brother who is dead, that his name not be blotted out of Israel.",
+      "ct": "The first son she has will carry on the dead brother's name, so that his family line won't be wiped out in Israel."
+    },
+    {
+      "verse": 7,
+      "kjv": "And if the man like not to take his brother’s wife, then let his brother’s wife go up to the gate unto the elders, and say, My husband’s brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband’s brother.",
+      "web": "If the man doesn’t want to take his brother’s wife, then his brother’s wife shall go up to the gate to the elders, and say, “My husband’s brother refuses to raise up to his brother a name in Israel. He will not perform the duty of a husband’s brother to me.”",
+      "ct": "But if the man refuses to marry his brother's widow, she must go to the elders at the town gate and say, \"My brother-in-law refuses to carry on his brother's name in Israel. He won't do his duty as my husband's brother.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Then the elders of his city shall call him, and speak unto him: and if he stand to it, and say, I like not to take her;",
+      "web": "Then the elders of his city shall call him, and speak to him. If he stands and says, “I don’t want to take her,”",
+      "ct": "The elders of the town will then summon him and talk to him. If he still insists and says, \"I don't want to marry her,\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Then shall his brother’s wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother’s house.",
+      "web": "then his brother’s wife shall come to him in the presence of the elders, and loose his sandal from off his foot, and spit in his face. She shall answer and say, “So shall it be done to the man who does not build up his brother’s house.”",
+      "ct": "then his brother's widow must walk up to him in front of the elders, pull the sandal off his foot, spit in his face, and declare, \"This is what happens to a man who refuses to carry on his brother's family line.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And his name shall be called in Israel, The house of him that hath his shoe loosed.",
+      "web": "His name shall be called in Israel, “The house of him who had his sandal removed.”",
+      "ct": "From then on, his family will be known throughout Israel as \"the house of the man who had his sandal pulled off.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "When men strive together one with another, and the wife of the one draweth near for to deliver her husband out of the hand of him that smiteth him, and putteth forth her hand, and taketh him by the secrets:",
+      "web": "When men strive against each other, and the wife of one draws near to deliver her husband out of the hand of him who strikes him, and puts out her hand, and grabs him by his private parts,",
+      "ct": "If two men are fighting and the wife of one of them steps in to rescue her husband by reaching out and grabbing the other man's private parts,"
+    },
+    {
+      "verse": 12,
+      "kjv": "Then thou shalt cut off her hand, thine eye shall not pity her.",
+      "web": "then you shall cut off her hand. Your eye shall have no pity.",
+      "ct": "you must cut off her hand. Show her no mercy."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou shalt not have in thy bag divers weights, a great and a small.",
+      "web": "You shall not have in your bag diverse weights, one heavy and one light.",
+      "ct": "Don't carry two different sets of weights in your bag — one heavy and one light."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thou shalt not have in thine house divers measures, a great and a small.",
+      "web": "You shall not have in your house diverse measures, one large and one small.",
+      "ct": "Don't keep two different measuring containers in your house — one large and one small."
+    },
+    {
+      "verse": 15,
+      "kjv": "But thou shalt have a perfect and just weight, a perfect and just measure shalt thou have: that thy days may be lengthened in the land which the LORD thy God giveth thee.",
+      "web": "You shall have a perfect and just weight. You shall have a perfect and just measure, that your days may be long in the land which LORD your God gives you.",
+      "ct": "Use only accurate and honest weights and measures. If you do, you'll live long in the land the LORD your God is giving you."
+    },
+    {
+      "verse": 16,
+      "kjv": "For all that do such things, and all that do unrighteously, are an abomination unto the LORD thy God.",
+      "web": "For all who do such things, all who do unrighteously, are an abomination to LORD your God.",
+      "ct": "Everyone who cheats like this — everyone who deals dishonestly — is disgusting to the LORD your God."
+    },
+    {
+      "verse": 17,
+      "kjv": "Remember what Amalek did unto thee by the way, when ye were come forth out of Egypt;",
+      "web": "Remember what Amalek did to you by the way as you came out of Egypt;",
+      "ct": "Never forget what the Amalekites did to you on your way out of Egypt."
+    },
+    {
+      "verse": 18,
+      "kjv": "How he met thee by the way, and smote the hindmost of thee, even all that were feeble behind thee, when thou wast faint and weary; and he feared not God.",
+      "web": "how he met you by the way, and struck the rearmost of you, all who were feeble behind you, when you were faint and weary; and he didn’t fear God.",
+      "ct": "They ambushed you on the road and attacked the people straggling at the back — the weak, the exhausted, and the worn out. The Amalekites had no fear of God."
+    },
+    {
+      "verse": 19,
+      "kjv": "Therefore it shall be, when the LORD thy God hath given thee rest from all thine enemies round about, in the land which the LORD thy God giveth thee for an inheritance to possess it, that thou shalt blot out the remembrance of Amalek from under heaven; thou shalt not forget it.",
+      "web": "Therefore it shall be, when LORD your God has given you rest from all your enemies all around, in the land which LORD your God gives you for an inheritance to possess it, that you shall blot out the memory of Amalek from under the sky. You shall not forget.",
+      "ct": "So when the LORD your God gives you peace from all the enemies surrounding you in the land he's giving you as your inheritance, you must wipe out every trace of Amalek from under heaven. Don't forget this."
+    }
+  ]
+}

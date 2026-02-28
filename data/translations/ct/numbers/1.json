@@ -1,0 +1,335 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:49:57.356Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses in the wilderness of Sinai, in the tabernacle of the congregation, on the first day of the second month, in the second year after they were come out of the land of Egypt, saying,",
+      "web": "LORD spoke to Moses in the wilderness of Sinai, in the Tent of Meeting, on the first day of the second month, in the second year after they had come out of the land of Egypt, saying,",
+      "ct": "On the 1st day of the 2nd month, in the 2nd year after Israel left Egypt, the LORD spoke to Moses in the Tent of Meeting in the wilderness of Sinai. He said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Take ye the sum of all the congregation of the children of Israel, after their families, by the house of their fathers, with the number of their names, every male by their polls;",
+      "web": "“Take a census of all the congregation of the children of Israel, by their families, by their fathers’ houses, according to the number of the names, every male, one by one,",
+      "ct": "\"Take a census of the entire Israelite community. Count every male individually, organized by their clans and families,"
+    },
+    {
+      "verse": 3,
+      "kjv": "From twenty years old and upward, all that are able to go forth to war in Israel: thou and Aaron shall number them by their armies.",
+      "web": "from twenty years old and upward, all who are able to go out to war in Israel. You and Aaron shall count them by their divisions.",
+      "ct": "everyone 20 years old and older who is able to serve in Israel's army. You and Aaron will count them, organized by their military divisions."
+    },
+    {
+      "verse": 4,
+      "kjv": "And with you there shall be a man of every tribe; every one head of the house of his fathers.",
+      "web": "With you there shall be a man of every tribe, each one head of his fathers’ house.",
+      "ct": "One man from each tribe will assist you — each one the head of his family's household."
+    },
+    {
+      "verse": 5,
+      "kjv": "And these are the names of the men that shall stand with you: of the tribe of Reuben; Elizur the son of Shedeur.",
+      "web": "These are the names of the men who shall stand with you: Of Reuben: Elizur the son of Shedeur.",
+      "ct": "Here are the names of the men who will help you: from the tribe of Reuben, Elizur son of Shedeur;"
+    },
+    {
+      "verse": 6,
+      "kjv": "Of Simeon; Shelumiel the son of Zurishaddai.",
+      "web": "Of Simeon: Shelumiel the son of Zurishaddai.",
+      "ct": "from Simeon, Shelumiel son of Zurishaddai;"
+    },
+    {
+      "verse": 7,
+      "kjv": "Of Judah; Nahshon the son of Amminadab.",
+      "web": "Of Judah: Nahshon the son of Amminadab.",
+      "ct": "from Judah, Nahshon son of Amminadab;"
+    },
+    {
+      "verse": 8,
+      "kjv": "Of Issachar; Nethaneel the son of Zuar.",
+      "web": "Of Issachar: Nethanel the son of Zuar.",
+      "ct": "from Issachar, Nethaneel son of Zuar;"
+    },
+    {
+      "verse": 9,
+      "kjv": "Of Zebulun; Eliab the son of Helon.",
+      "web": "Of Zebulun: Eliab the son of Helon.",
+      "ct": "from Zebulun, Eliab son of Helon;"
+    },
+    {
+      "verse": 10,
+      "kjv": "Of the children of Joseph: of Ephraim; Elishama the son of Ammihud: of Manasseh; Gamaliel the son of Pedahzur.",
+      "web": "Of the children of Joseph: of Ephraim: Elishama the son of Ammihud; of Manasseh: Gamaliel the son of Pedahzur.",
+      "ct": "from the descendants of Joseph: Elishama son of Ammihud for Ephraim, and Gamaliel son of Pedahzur for Manasseh;"
+    },
+    {
+      "verse": 11,
+      "kjv": "Of Benjamin; Abidan the son of Gideoni.",
+      "web": "Of Benjamin: Abidan the son of Gideoni.",
+      "ct": "from Benjamin, Abidan son of Gideoni;"
+    },
+    {
+      "verse": 12,
+      "kjv": "Of Dan; Ahiezer the son of Ammishaddai.",
+      "web": "Of Dan: Ahiezer the son of Ammishaddai.",
+      "ct": "from Dan, Ahiezer son of Ammishaddai;"
+    },
+    {
+      "verse": 13,
+      "kjv": "Of Asher; Pagiel the son of Ocran.",
+      "web": "Of Asher: Pagiel the son of Ochran.",
+      "ct": "from Asher, Pagiel son of Ocran;"
+    },
+    {
+      "verse": 14,
+      "kjv": "Of Gad; Eliasaph the son of Deuel.",
+      "web": "Of Gad: Eliasaph the son of Deuel.",
+      "ct": "from Gad, Eliasaph son of Deuel;"
+    },
+    {
+      "verse": 15,
+      "kjv": "Of Naphtali; Ahira the son of Enan.",
+      "web": "Of Naphtali: Ahira the son of Enan.”",
+      "ct": "from Naphtali, Ahira son of Enan.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "These were the renowned of the congregation, princes of the tribes of their fathers, heads of thousands in Israel.",
+      "web": "These are those who were called of the congregation, the princes of the tribes of their fathers; they were the heads of the thousands of Israel.",
+      "ct": "These were the chosen representatives of the community — leaders of their ancestral tribes and commanders over the thousands of Israel."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Moses and Aaron took these men which are expressed by their names:",
+      "web": "Moses and Aaron took these men who are mentioned by name.",
+      "ct": "Moses and Aaron gathered these men who had been selected by name."
+    },
+    {
+      "verse": 18,
+      "kjv": "And they assembled all the congregation together on the first day of the second month, and they declared their pedigrees after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, by their polls.",
+      "web": "They assembled all the congregation together on the first day of the second month; and they declared their ancestry by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, one by one.",
+      "ct": "On the 1st day of the 2nd month, they assembled the entire community. Every man 20 years old and older registered himself individually, listed by his clan and family."
+    },
+    {
+      "verse": 19,
+      "kjv": "As the LORD commanded Moses, so he numbered them in the wilderness of Sinai.",
+      "web": "As LORD commanded Moses, so he counted them in the wilderness of Sinai.",
+      "ct": "Moses counted them in the wilderness of Sinai, just as the LORD had commanded him."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the children of Reuben, Israel’s eldest son, by their generations, after their families, by the house of their fathers, according to the number of the names, by their polls, every male from twenty years old and upward, all that were able to go forth to war;",
+      "web": "The children of Reuben, Israel’s firstborn, their generations, by their families, by their fathers’ houses, according to the number of the names, one by one, every male from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Reuben, Israel's firstborn, were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted individually."
+    },
+    {
+      "verse": 21,
+      "kjv": "Those that were numbered of them, even of the tribe of Reuben, were forty and six thousand and five hundred.",
+      "web": "those who were counted of them, of the tribe of Reuben, were forty-six thousand five hundred.",
+      "ct": "The tribe of Reuben totaled 46,500."
+    },
+    {
+      "verse": 22,
+      "kjv": "Of the children of Simeon, by their generations, after their families, by the house of their fathers, those that were numbered of them, according to the number of the names, by their polls, every male from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Simeon, their generations, by their families, by their fathers’ houses, those who were counted of it, according to the number of the names, one by one, every male from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Simeon were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted individually."
+    },
+    {
+      "verse": 23,
+      "kjv": "Those that were numbered of them, even of the tribe of Simeon, were fifty and nine thousand and three hundred.",
+      "web": "those who were counted of them, of the tribe of Simeon, were fifty-nine thousand three hundred.",
+      "ct": "The tribe of Simeon totaled 59,300."
+    },
+    {
+      "verse": 24,
+      "kjv": "Of the children of Gad, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Gad, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Gad were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 25,
+      "kjv": "Those that were numbered of them, even of the tribe of Gad, were forty and five thousand six hundred and fifty.",
+      "web": "those who were counted of them, of the tribe of Gad, were forty-five thousand six hundred fifty.",
+      "ct": "The tribe of Gad totaled 45,650."
+    },
+    {
+      "verse": 26,
+      "kjv": "Of the children of Judah, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Judah, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Judah were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 27,
+      "kjv": "Those that were numbered of them, even of the tribe of Judah, were threescore and fourteen thousand and six hundred.",
+      "web": "those who were counted of them, of the tribe of Judah, were seventy-four thousand six hundred.",
+      "ct": "The tribe of Judah totaled 74,600."
+    },
+    {
+      "verse": 28,
+      "kjv": "Of the children of Issachar, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Issachar, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Issachar were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 29,
+      "kjv": "Those that were numbered of them, even of the tribe of Issachar, were fifty and four thousand and four hundred.",
+      "web": "those who were counted of them, of the tribe of Issachar, were fifty-four thousand four hundred.",
+      "ct": "The tribe of Issachar totaled 54,400."
+    },
+    {
+      "verse": 30,
+      "kjv": "Of the children of Zebulun, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Zebulun, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Zebulun were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 31,
+      "kjv": "Those that were numbered of them, even of the tribe of Zebulun, were fifty and seven thousand and four hundred.",
+      "web": "those who were counted of them, of the tribe of Zebulun, were fifty-seven thousand four hundred.",
+      "ct": "The tribe of Zebulun totaled 57,400."
+    },
+    {
+      "verse": 32,
+      "kjv": "Of the children of Joseph, namely, of the children of Ephraim, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Joseph: of the children of Ephraim, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "From the descendants of Joseph — specifically the descendants of Ephraim — they were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 33,
+      "kjv": "Those that were numbered of them, even of the tribe of Ephraim, were forty thousand and five hundred.",
+      "web": "those who were counted of them, of the tribe of Ephraim, were forty thousand five hundred.",
+      "ct": "The tribe of Ephraim totaled 40,500."
+    },
+    {
+      "verse": 34,
+      "kjv": "Of the children of Manasseh, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Manasseh, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Manasseh were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 35,
+      "kjv": "Those that were numbered of them, even of the tribe of Manasseh, were thirty and two thousand and two hundred.",
+      "web": "those who were counted of them, of the tribe of Manasseh, were thirty-two thousand two hundred.",
+      "ct": "The tribe of Manasseh totaled 32,200."
+    },
+    {
+      "verse": 36,
+      "kjv": "Of the children of Benjamin, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Benjamin, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Benjamin were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 37,
+      "kjv": "Those that were numbered of them, even of the tribe of Benjamin, were thirty and five thousand and four hundred.",
+      "web": "those who were counted of them, of the tribe of Benjamin, were thirty-five thousand four hundred.",
+      "ct": "The tribe of Benjamin totaled 35,400."
+    },
+    {
+      "verse": 38,
+      "kjv": "Of the children of Dan, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Dan, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Dan were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 39,
+      "kjv": "Those that were numbered of them, even of the tribe of Dan, were threescore and two thousand and seven hundred.",
+      "web": "those who were counted of them, of the tribe of Dan, were sixty-two thousand seven hundred.",
+      "ct": "The tribe of Dan totaled 62,700."
+    },
+    {
+      "verse": 40,
+      "kjv": "Of the children of Asher, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Asher, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Asher were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 41,
+      "kjv": "Those that were numbered of them, even of the tribe of Asher, were forty and one thousand and five hundred.",
+      "web": "those who were counted of them, of the tribe of Asher, were forty-one thousand five hundred.",
+      "ct": "The tribe of Asher totaled 41,500."
+    },
+    {
+      "verse": 42,
+      "kjv": "Of the children of Naphtali, throughout their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;",
+      "web": "Of the children of Naphtali, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
+      "ct": "The descendants of Naphtali were registered by their clans and families. Every male 20 years old and older who was able to serve in the army was counted."
+    },
+    {
+      "verse": 43,
+      "kjv": "Those that were numbered of them, even of the tribe of Naphtali, were fifty and three thousand and four hundred.",
+      "web": "those who were counted of them, of the tribe of Naphtali, were fifty-three thousand four hundred.",
+      "ct": "The tribe of Naphtali totaled 53,400."
+    },
+    {
+      "verse": 44,
+      "kjv": "These are those that were numbered, which Moses and Aaron numbered, and the princes of Israel, being twelve men: each one was for the house of his fathers.",
+      "web": "These are those who were counted, whom Moses and Aaron counted, and the twelve men who were princes of Israel, each one for his fathers’ house.",
+      "ct": "These are the totals that Moses and Aaron recorded, assisted by the 12 tribal leaders, each representing his own ancestral family."
+    },
+    {
+      "verse": 45,
+      "kjv": "So were all those that were numbered of the children of Israel, by the house of their fathers, from twenty years old and upward, all that were able to go forth to war in Israel;",
+      "web": "So all those who were counted of the children of Israel by their fathers’ houses, from twenty years old and upward, all who were able to go out to war in Israel—",
+      "ct": "The grand total of all Israelite men 20 years old and older who were able to serve in Israel's army, counted by their families, was as follows:"
+    },
+    {
+      "verse": 46,
+      "kjv": "Even all they that were numbered were six hundred thousand and three thousand and five hundred and fifty.",
+      "web": "all those who were counted were six hundred three thousand five hundred fifty.",
+      "ct": "The total came to 603,550."
+    },
+    {
+      "verse": 47,
+      "kjv": "But the Levites after the tribe of their fathers were not numbered among them.",
+      "web": "But the Levites after the tribe of their fathers were not counted among them.",
+      "ct": "The Levites, however, were not included in this count with the rest of the tribes."
+    },
+    {
+      "verse": 48,
+      "kjv": "For the LORD had spoken unto Moses, saying,",
+      "web": "For LORD spoke to Moses, saying,",
+      "ct": "The LORD had already told Moses,"
+    },
+    {
+      "verse": 49,
+      "kjv": "Only thou shalt not number the tribe of Levi, neither take the sum of them among the children of Israel:",
+      "web": "“Only the tribe of Levi you shall not count, neither shall you take a census of them among the children of Israel;",
+      "ct": "\"Do not count the tribe of Levi or include them in the census of the Israelites."
+    },
+    {
+      "verse": 50,
+      "kjv": "But thou shalt appoint the Levites over the tabernacle of testimony, and over all the vessels thereof, and over all things that belong to it: they shall bear the tabernacle, and all the vessels thereof; and they shall minister unto it, and shall encamp round about the tabernacle.",
+      "web": "but appoint the Levites over the Tabernacle of the Testimony, and over all its furnishings, and over all that belongs to it. They shall carry the tabernacle and all its furnishings; and they shall take care of it, and shall encamp around it.",
+      "ct": "Instead, put the Levites in charge of the Tabernacle of the Testimony, all its furnishings, and everything that belongs to it. They will carry the tabernacle and all its equipment, take care of it, and set up camp around it."
+    },
+    {
+      "verse": 51,
+      "kjv": "And when the tabernacle setteth forward, the Levites shall take it down: and when the tabernacle is to be pitched, the Levites shall set it up: and the stranger that cometh nigh shall be put to death.",
+      "web": "When the tabernacle is to move, the Levites shall take it down; and when the tabernacle is to be set up, the Levites shall set it up. The stranger who comes near shall be put to death.",
+      "ct": "Whenever the tabernacle needs to move, the Levites will take it down. Whenever it's time to stop, the Levites will set it up. Any unauthorized person who comes near it must be put to death."
+    },
+    {
+      "verse": 52,
+      "kjv": "And the children of Israel shall pitch their tents, every man by his own camp, and every man by his own standard, throughout their hosts.",
+      "web": "The children of Israel shall pitch their tents, every man by his own camp, and every man by his own standard, according to their divisions.",
+      "ct": "The rest of the Israelites will set up camp in their assigned positions, each man with his own tribal division under his own banner."
+    },
+    {
+      "verse": 53,
+      "kjv": "But the Levites shall pitch round about the tabernacle of testimony, that there be no wrath upon the congregation of the children of Israel: and the Levites shall keep the charge of the tabernacle of testimony.",
+      "web": "But the Levites shall encamp around the Tabernacle of the Testimony, that there may be no wrath on the congregation of the children of Israel. The Levites shall be responsible for the Tabernacle of the Testimony.”",
+      "ct": "But the Levites will camp around the Tabernacle of the Testimony so that God's wrath doesn't fall on the Israelite community. The Levites are responsible for guarding the Tabernacle of the Testimony.\""
+    },
+    {
+      "verse": 54,
+      "kjv": "And the children of Israel did according to all that the LORD commanded Moses, so did they.",
+      "web": "Thus the children of Israel did. According to all that LORD commanded Moses, so they did.",
+      "ct": "The Israelites did everything exactly as the LORD had commanded Moses."
+    }
+  ]
+}

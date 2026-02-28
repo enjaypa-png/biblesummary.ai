@@ -1,0 +1,143 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 16,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:10:39.292Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Observe the month of Abib, and keep the passover unto the LORD thy God: for in the month of Abib the LORD thy God brought thee forth out of Egypt by night.",
+      "web": "Observe the month of Abib, and keep the Passover to LORD your God; for in the month of Abib LORD your God brought you out of Egypt by night.",
+      "ct": "Keep track of the month of Abib and celebrate the Passover to honor the LORD your God, because it was during the month of Abib that the LORD your God brought you out of Egypt by night."
+    },
+    {
+      "verse": 2,
+      "kjv": "Thou shalt therefore sacrifice the passover unto the LORD thy God, of the flock and the herd, in the place which the LORD shall choose to place his name there.",
+      "web": "You shall sacrifice the Passover to LORD your God, of the flock and the herd, in the place which LORD shall choose to cause his name to dwell there.",
+      "ct": "Sacrifice the Passover offering to the LORD your God from your flocks and herds at the place the LORD chooses as the dwelling for his name."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thou shalt eat no leavened bread with it; seven days shalt thou eat unleavened bread therewith, even the bread of affliction; for thou camest forth out of the land of Egypt in haste: that thou mayest remember the day when thou camest forth out of the land of Egypt all the days of thy life.",
+      "web": "You shall eat no leavened bread with it. You shall eat unleavened bread with it seven days, even the bread of affliction (for you came out of the land of Egypt in haste) that you may remember the day when you came out of the land of Egypt all the days of your life.",
+      "ct": "Don't eat any bread made with yeast during this time. For 7 days, eat only unleavened bread — the bread of hardship — because you left Egypt in such a rush. This way, you'll remember the day you came out of Egypt for the rest of your life."
+    },
+    {
+      "verse": 4,
+      "kjv": "And there shall be no leavened bread seen with thee in all thy coast seven days; neither shall there any thing of the flesh, which thou sacrificedst the first day at even, remain all night until the morning.",
+      "web": "No yeast shall be seen with you in all your borders seven days; neither shall any of the meat, which you sacrifice the first day at evening, remain all night until the morning.",
+      "ct": "No yeast should be found anywhere in your territory for 7 days. And none of the meat you sacrifice on the evening of the first day should be left over until morning."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thou mayest not sacrifice the passover within any of thy gates, which the LORD thy God giveth thee:",
+      "web": "You may not sacrifice the Passover within any of your gates which LORD your God gives you;",
+      "ct": "You must not sacrifice the Passover offering in just any town that the LORD your God gives you."
+    },
+    {
+      "verse": 6,
+      "kjv": "But at the place which the LORD thy God shall choose to place his name in, there thou shalt sacrifice the passover at even, at the going down of the sun, at the season that thou camest forth out of Egypt.",
+      "web": "but at the place which LORD your God shall choose to cause his name to dwell in, there you shall sacrifice the Passover at evening, at the going down of the sun, at the season that you came out of Egypt.",
+      "ct": "Instead, sacrifice the Passover at the place the LORD your God chooses as the dwelling for his name. Do it in the evening, as the sun goes down, at the same time of year you came out of Egypt."
+    },
+    {
+      "verse": 7,
+      "kjv": "And thou shalt roast and eat it in the place which the LORD thy God shall choose: and thou shalt turn in the morning, and go unto thy tents.",
+      "web": "You shall roast and eat it in the place which LORD your God chooses. In the morning you shall return to your tents.",
+      "ct": "Roast it and eat it at the place the LORD your God chooses. Then in the morning, head back to your homes."
+    },
+    {
+      "verse": 8,
+      "kjv": "Six days thou shalt eat unleavened bread: and on the seventh day shall be a solemn assembly to the LORD thy God: thou shalt do no work therein.",
+      "web": "Six days you shall eat unleavened bread. On the seventh day shall be a solemn assembly to LORD your God. You shall do no work.",
+      "ct": "Eat unleavened bread for 6 days. On the 7th day, hold a sacred assembly for the LORD your God, and do no work that day."
+    },
+    {
+      "verse": 9,
+      "kjv": "Seven weeks shalt thou number unto thee: begin to number the seven weeks from such time as thou beginnest to put the sickle to the corn.",
+      "web": "You shall count for yourselves seven weeks. From the time you begin to put the sickle to the standing grain you shall begin to count seven weeks.",
+      "ct": "Count off 7 weeks for yourselves, starting from the day you first put the sickle to the standing grain."
+    },
+    {
+      "verse": 10,
+      "kjv": "And thou shalt keep the feast of weeks unto the LORD thy God with a tribute of a freewill offering of thine hand, which thou shalt give unto the LORD thy God, according as the LORD thy God hath blessed thee:",
+      "web": "You shall keep the feast of weeks to LORD your God with a tribute of a free will offering of your hand, which you shall give according to how LORD your God blesses you.",
+      "ct": "Then celebrate the Festival of Weeks before the LORD your God by bringing a freewill offering — giving generously in proportion to how the LORD your God has blessed you."
+    },
+    {
+      "verse": 11,
+      "kjv": "And thou shalt rejoice before the LORD thy God, thou, and thy son, and thy daughter, and thy manservant, and thy maidservant, and the Levite that is within thy gates, and the stranger, and the fatherless, and the widow, that are among you, in the place which the LORD thy God hath chosen to place his name there.",
+      "web": "You shall rejoice before LORD your God: you, your son, your daughter, your male servant, your female servant, the Levite who is within your gates, the foreigner, the fatherless, and the widow who are among you, in the place which LORD your God shall choose to cause his name to dwell there.",
+      "ct": "Celebrate with joy in the LORD your God's presence — you, your sons, your daughters, your male and female servants, the Levites in your towns, the foreigners, the orphans, and the widows among you. Do this at the place the LORD your God chooses as the dwelling for his name."
+    },
+    {
+      "verse": 12,
+      "kjv": "And thou shalt remember that thou wast a bondman in Egypt: and thou shalt observe and do these statutes.",
+      "web": "You shall remember that you were a slave in Egypt. You shall observe and do these statutes.",
+      "ct": "Remember that you were once slaves in Egypt, and be careful to follow these commands."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou shalt observe the feast of tabernacles seven days, after that thou hast gathered in thy corn and thy wine:",
+      "web": "You shall keep the feast of booths seven days, after you have gathered in from your threshing floor and from your wine press.",
+      "ct": "Celebrate the Festival of Tabernacles for 7 days after you've gathered the harvest from your threshing floor and your winepress."
+    },
+    {
+      "verse": 14,
+      "kjv": "And thou shalt rejoice in thy feast, thou, and thy son, and thy daughter, and thy manservant, and thy maidservant, and the Levite, the stranger, and the fatherless, and the widow, that are within thy gates.",
+      "web": "You shall rejoice in your feast, you, your son, your daughter, your male servant, your female servant, the Levite, the foreigner, the fatherless, and the widow who are within your gates.",
+      "ct": "Enjoy this festival — you, your sons, your daughters, your male and female servants, along with the Levites, the foreigners, the orphans, and the widows living in your towns."
+    },
+    {
+      "verse": 15,
+      "kjv": "Seven days shalt thou keep a solemn feast unto the LORD thy God in the place which the LORD shall choose: because the LORD thy God shall bless thee in all thine increase, and in all the works of thine hands, therefore thou shalt surely rejoice.",
+      "web": "You shall keep a feast to LORD your God seven days in the place which LORD chooses, because LORD your God will bless you in all your increase and in all the work of your hands, and you shall be altogether joyful.",
+      "ct": "Celebrate this festival for 7 days at the place the LORD chooses, because the LORD your God will bless you in everything you produce and everything you do. So let your joy be complete."
+    },
+    {
+      "verse": 16,
+      "kjv": "Three times in a year shall all thy males appear before the LORD thy God in the place which he shall choose; in the feast of unleavened bread, and in the feast of weeks, and in the feast of tabernacles: and they shall not appear before the LORD empty:",
+      "web": "Three times in a year all of your males shall appear before LORD your God in the place which he chooses: in the feast of unleavened bread, in the feast of weeks, and in the feast of booths. They shall not appear before LORD empty.",
+      "ct": "3 times a year, every male among you must appear before the LORD your God at the place he chooses: during the Festival of Unleavened Bread, the Festival of Weeks, and the Festival of Tabernacles. No one should come before the LORD empty-handed."
+    },
+    {
+      "verse": 17,
+      "kjv": "Every man shall give as he is able, according to the blessing of the LORD thy God which he hath given thee.",
+      "web": "Every man shall give as he is able, according to LORD your God’s blessing which he has given you.",
+      "ct": "Each person should give what he can, based on how generously the LORD your God has blessed him."
+    },
+    {
+      "verse": 18,
+      "kjv": "Judges and officers shalt thou make thee in all thy gates, which the LORD thy God giveth thee, throughout thy tribes: and they shall judge the people with just judgment.",
+      "web": "You shall make judges and officers in all your gates, which LORD your God gives you, according to your tribes; and they shall judge the people with righteous judgment.",
+      "ct": "Appoint judges and officials for each of your tribes in every town the LORD your God gives you. They must judge the people fairly and honestly."
+    },
+    {
+      "verse": 19,
+      "kjv": "Thou shalt not wrest judgment; thou shalt not respect persons, neither take a gift: for a gift doth blind the eyes of the wise, and pervert the words of the righteous.",
+      "web": "You shall not pervert justice. You shall not show partiality. You shall not take a bribe, for a bribe blinds the eyes of the wise and perverts the words of the righteous.",
+      "ct": "Never twist justice. Never show favoritism. Never accept a bribe, because a bribe blinds the eyes of the wise and corrupts the words of the righteous."
+    },
+    {
+      "verse": 20,
+      "kjv": "That which is altogether just shalt thou follow, that thou mayest live, and inherit the land which the LORD thy God giveth thee.",
+      "web": "You shall follow that which is altogether just, that you may live and inherit the land which LORD your God gives you.",
+      "ct": "Pursue justice — and nothing but justice — so that you may thrive and take possession of the land the LORD your God is giving you."
+    },
+    {
+      "verse": 21,
+      "kjv": "Thou shalt not plant thee a grove of any trees near unto the altar of the LORD thy God, which thou shalt make thee.",
+      "web": "You shall not plant for yourselves an Asherah of any kind of tree beside LORD your God’s altar, which you shall make for yourselves.",
+      "ct": "Don't set up any wooden Asherah pole beside the altar you build for the LORD your God."
+    },
+    {
+      "verse": 22,
+      "kjv": "Neither shalt thou set thee up any image; which the LORD thy God hateth.",
+      "web": "Neither shall you set yourself up a sacred stone which LORD your God hates.",
+      "ct": "Don't set up any sacred stone either — the LORD your God hates them."
+    }
+  ]
+}

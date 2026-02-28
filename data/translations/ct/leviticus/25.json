@@ -1,0 +1,341 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 25,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:48:27.899Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses in mount Sinai, saying,",
+      "web": "LORD said to Moses in Mount Sinai,",
+      "ct": "The LORD spoke to Moses on Mount Sinai and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the LORD.",
+      "web": "“Speak to the children of Israel, and tell them, ‘When you come into the land which I give you, then the land shall keep a Sabbath to LORD.",
+      "ct": "\"Tell the people of Israel: When you enter the land I'm giving you, the land itself must observe a Sabbath to the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "Six years thou shalt sow thy field, and six years thou shalt prune thy vineyard, and gather in the fruit thereof;",
+      "web": "You shall sow your field six years, and you shall prune your vineyard six years, and gather in its fruits;",
+      "ct": "For 6 years you may plant your fields, prune your vineyards, and harvest your crops."
+    },
+    {
+      "verse": 4,
+      "kjv": "But in the seventh year shall be a sabbath of rest unto the land, a sabbath for the LORD: thou shalt neither sow thy field, nor prune thy vineyard.",
+      "web": "but in the seventh year there shall be a Sabbath of solemn rest for the land, a Sabbath to LORD. You shall not sow your field or prune your vineyard.",
+      "ct": "But the 7th year must be a Sabbath of complete rest for the land — a Sabbath to the LORD. You must not plant your fields or prune your vineyards."
+    },
+    {
+      "verse": 5,
+      "kjv": "That which groweth of its own accord of thy harvest thou shalt not reap, neither gather the grapes of thy vine undressed: for it is a year of rest unto the land.",
+      "web": "What grows of itself in your harvest you shall not reap, and you shall not gather the grapes of your undressed vine. It shall be a year of solemn rest for the land.",
+      "ct": "Don't harvest whatever grows on its own from the previous crop, and don't pick grapes from your untended vines. It's a year of rest for the land."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the sabbath of the land shall be meat for you; for thee, and for thy servant, and for thy maid, and for thy hired servant, and for thy stranger that sojourneth with thee,",
+      "web": "The Sabbath of the land shall be for food for you; for yourself, for your servant, for your maid, for your hired servant, and for your stranger, who lives as a foreigner with you.",
+      "ct": "Whatever the land produces during its Sabbath year will serve as food for all of you — for you, your male and female servants, your hired workers, and any foreigners living among you."
+    },
+    {
+      "verse": 7,
+      "kjv": "And for thy cattle, and for the beast that are in thy land, shall all the increase thereof be meat.",
+      "web": "For your livestock also, and for the animals that are in your land, shall all its increase be for food.",
+      "ct": "Your livestock and the wild animals in your land may also eat whatever the land produces."
+    },
+    {
+      "verse": 8,
+      "kjv": "And thou shalt number seven sabbaths of years unto thee, seven times seven years; and the space of the seven sabbaths of years shall be unto thee forty and nine years.",
+      "web": "“ ‘You shall count off seven Sabbaths of years, seven times seven years; and there shall be to you the days of seven Sabbaths of years, even forty-nine years.",
+      "ct": "\"Count off 7 sets of 7 years — 7 times 7 — for a total of 49 years."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then shalt thou cause the trumpet of the jubile to sound on the tenth day of the seventh month, in the day of atonement shall ye make the trumpet sound throughout all your land.",
+      "web": "Then you shall sound the loud trumpet on the tenth day of the seventh month. On the Day of Atonement you shall sound the trumpet throughout all your land.",
+      "ct": "Then on the 10th day of the 7th month, blow the trumpet loud across the land. On the Day of Atonement, sound the trumpet throughout your entire country."
+    },
+    {
+      "verse": 10,
+      "kjv": "And ye shall hallow the fiftieth year, and proclaim liberty throughout all the land unto all the inhabitants thereof: it shall be a jubile unto you; and ye shall return every man unto his possession, and ye shall return every man unto his family.",
+      "web": "You shall make the fiftieth year holy, and proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee to you; and each of you shall return to his own property, and each of you shall return to his family.",
+      "ct": "Set apart the 50th year as holy and announce freedom throughout the land for everyone living in it. This will be your Jubilee — every person will return to their own property, and every person will return to their own family."
+    },
+    {
+      "verse": 11,
+      "kjv": "A jubile shall that fiftieth year be unto you: ye shall not sow, neither reap that which groweth of itself in it, nor gather the grapes in it of thy vine undressed.",
+      "web": "That fiftieth year shall be a jubilee to you. In it you shall not sow, neither reap that which grows of itself, nor gather from the undressed vines.",
+      "ct": "The 50th year is your Jubilee. During that year, don't plant crops, don't harvest what grows on its own, and don't pick grapes from untended vines."
+    },
+    {
+      "verse": 12,
+      "kjv": "For it is the jubile; it shall be holy unto you: ye shall eat the increase thereof out of the field.",
+      "web": "For it is a jubilee; it shall be holy to you. You shall eat of its increase out of the field.",
+      "ct": "It is the Jubilee, and it is holy to you. You may eat only what the field produces on its own."
+    },
+    {
+      "verse": 13,
+      "kjv": "In the year of this jubile ye shall return every man unto his possession.",
+      "web": "“ ‘In this Year of Jubilee each of you shall return to his property.",
+      "ct": "\"In this Year of Jubilee, everyone must return to their own property."
+    },
+    {
+      "verse": 14,
+      "kjv": "And if thou sell ought unto thy neighbour, or buyest ought of thy neighbour’s hand, ye shall not oppress one another:",
+      "web": "“ ‘If you sell anything to your neighbor, or buy from your neighbor, you shall not wrong one another.",
+      "ct": "\"When you sell something to your neighbor or buy something from your neighbor, don't take advantage of each other."
+    },
+    {
+      "verse": 15,
+      "kjv": "According to the number of years after the jubile thou shalt buy of thy neighbour, and according unto the number of years of the fruits he shall sell unto thee:",
+      "web": "According to the number of years after the Jubilee you shall buy from your neighbor. According to the number of years of the crops he shall sell to you.",
+      "ct": "When you buy from your neighbor, base the price on the number of years since the last Jubilee. When your neighbor sells to you, the price should reflect the number of harvests remaining."
+    },
+    {
+      "verse": 16,
+      "kjv": "According to the multitude of years thou shalt increase the price thereof, and according to the fewness of years thou shalt diminish the price of it: for according to the number of the years of the fruits doth he sell unto thee.",
+      "web": "According to the length of the years you shall increase its price, and according to the shortness of the years you shall diminish its price; for he is selling the number of the crops to you.",
+      "ct": "If many years remain, the price goes up. If only a few years remain, the price goes down. What's really being sold is the number of harvests until the next Jubilee."
+    },
+    {
+      "verse": 17,
+      "kjv": "Ye shall not therefore oppress one another; but thou shalt fear thy God:for I am the LORD your God.",
+      "web": "You shall not wrong one another, but you shall fear your God; for I am LORD your God.",
+      "ct": "Don't cheat each other. Instead, fear your God, because I am the LORD your God."
+    },
+    {
+      "verse": 18,
+      "kjv": "Wherefore ye shall do my statutes, and keep my judgments, and do them; and ye shall dwell in the land in safety.",
+      "web": "“ ‘Therefore you shall do my statutes, and keep my ordinances and do them; and you shall dwell in the land in safety.",
+      "ct": "\"Follow my laws and obey my rules — put them into practice — and you will live safely in the land."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the land shall yield her fruit, and ye shall eat your fill, and dwell therein in safety.",
+      "web": "The land shall yield its fruit, and you shall eat your fill, and dwell therein in safety.",
+      "ct": "The land will produce its crops, you'll have plenty to eat, and you'll live there in safety."
+    },
+    {
+      "verse": 20,
+      "kjv": "And if ye shall say, What shall we eat the seventh year? behold, we shall not sow, nor gather in our increase:",
+      "web": "If you said, “What shall we eat the seventh year? Behold, we shall not sow, nor gather in our increase;”",
+      "ct": "You might ask, 'What will we eat during the 7th year if we can't plant or harvest?'"
+    },
+    {
+      "verse": 21,
+      "kjv": "Then I will command my blessing upon you in the sixth year, and it shall bring forth fruit for three years.",
+      "web": "then I will command my blessing on you in the sixth year, and it shall bear fruit for the three years.",
+      "ct": "Here's my answer: I will send such a blessing in the 6th year that the land will produce enough crops to last for 3 years."
+    },
+    {
+      "verse": 22,
+      "kjv": "And ye shall sow the eighth year, and eat yet of old fruit until the ninth year; until her fruits come in ye shall eat of the old store.",
+      "web": "You shall sow the eighth year, and eat of the fruits from the old store until the ninth year. Until its fruits come in, you shall eat the old store.",
+      "ct": "When you plant in the 8th year, you'll still be eating from the stored harvest of the 6th year. You'll keep eating from that supply until the 9th year's crops come in."
+    },
+    {
+      "verse": 23,
+      "kjv": "The land shall not be sold for ever: for the land is mine; for ye are strangers and sojourners with me.",
+      "web": "“ ‘The land shall not be sold in perpetuity, for the land is mine; for you are strangers and live as foreigners with me.",
+      "ct": "\"Land must never be sold permanently, because the land belongs to me. You are just foreigners and temporary residents on my land."
+    },
+    {
+      "verse": 24,
+      "kjv": "And in all the land of your possession ye shall grant a redemption for the land.",
+      "web": "In all the land of your possession you shall grant a redemption for the land.",
+      "ct": "Throughout the land you possess, you must always allow land to be bought back."
+    },
+    {
+      "verse": 25,
+      "kjv": "If thy brother be waxen poor, and hath sold away some of his possession, and if any of his kin come to redeem it, then shall he redeem that which his brother sold.",
+      "web": "“ ‘If your brother becomes poor, and sells some of his possessions, then his kinsman who is next to him shall come, and redeem that which his brother has sold.",
+      "ct": "\"If one of your people becomes poor and has to sell some of their property, their closest relative should come and buy it back for them."
+    },
+    {
+      "verse": 26,
+      "kjv": "And if the man have none to redeem it, and himself be able to redeem it;",
+      "web": "If a man has no one to redeem it, and he becomes prosperous and finds sufficient means to redeem it,",
+      "ct": "If someone has no relative to buy it back but later becomes prosperous enough to do it themselves,"
+    },
+    {
+      "verse": 27,
+      "kjv": "Then let him count the years of the sale thereof, and restore the overplus unto the man to whom he sold it; that he may return unto his possession.",
+      "web": "then let him reckon the years since its sale, and restore the surplus to the man to whom he sold it; and he shall return to his property.",
+      "ct": "they should calculate the years since the sale, refund the difference to the buyer, and take back their property."
+    },
+    {
+      "verse": 28,
+      "kjv": "But if he be not able to restore it to him, then that which is sold shall remain in the hand of him that hath bought it until the year of jubile: and in the jubile it shall go out, and he shall return unto his possession.",
+      "web": "But if he isn’t able to get it back for himself, then what he has sold shall remain in the hand of him who has bought it until the Year of Jubilee. In the Jubilee it shall be released, and he shall return to his property.",
+      "ct": "But if they can't afford to buy it back, the property stays with the buyer until the Year of Jubilee. At the Jubilee, it will be released, and the original owner will get their property back."
+    },
+    {
+      "verse": 29,
+      "kjv": "And if a man sell a dwelling house in a walled city, then he may redeem it within a whole year after it is sold; within a full year may he redeem it.",
+      "web": "“ ‘If a man sells a dwelling house in a walled city, then he may redeem it within a whole year after it has been sold. For a full year he shall have the right of redemption.",
+      "ct": "\"If someone sells a house in a walled city, they have the right to buy it back for a full year after the sale."
+    },
+    {
+      "verse": 30,
+      "kjv": "And if it be not redeemed within the space of a full year, then the house that is in the walled city shall be established for ever to him that bought it throughout his generations: it shall not go out in the jubile.",
+      "web": "If it isn’t redeemed within the space of a full year, then the house that is in the walled city shall be made sure in perpetuity to him who bought it, throughout his generations. It shall not be released in the Jubilee.",
+      "ct": "If it isn't bought back within that full year, the house in the walled city permanently belongs to the buyer and their descendants. It will not be returned in the Jubilee."
+    },
+    {
+      "verse": 31,
+      "kjv": "But the houses of the villages which have no wall round about them shall be counted as the fields of the country: they may be redeemed, and they shall go out in the jubile.",
+      "web": "But the houses of the villages which have no wall around them shall be accounted for with the fields of the country: they may be redeemed, and they shall be released in the Jubilee.",
+      "ct": "But houses in unwalled villages are treated like open farmland — they can be bought back, and they must be returned in the Jubilee."
+    },
+    {
+      "verse": 32,
+      "kjv": "Notwithstanding the cities of the Levites, and the houses of the cities of their possession, may the Levites redeem at any time.",
+      "web": "“ ‘Nevertheless, in the cities of the Levites, the Levites may redeem the houses in the cities of their possession at any time.",
+      "ct": "\"There's an exception for the Levites: they may buy back their houses in the Levitical cities at any time."
+    },
+    {
+      "verse": 33,
+      "kjv": "And if a man purchase of the Levites, then the house that was sold, and the city of his possession, shall go out in the year of jubile: for the houses of the cities of the Levites are their possession among the children of Israel.",
+      "web": "The Levites may redeem the house that was sold, and the city of his possession, and it shall be released in the Jubilee; for the houses of the cities of the Levites are their possession among the children of Israel.",
+      "ct": "If a Levite's house in one of their cities is sold and not bought back, it must still be returned in the Year of Jubilee, because houses in the Levitical cities are their permanent inheritance among the people of Israel."
+    },
+    {
+      "verse": 34,
+      "kjv": "But the field of the suburbs of their cities may not be sold; for it is their perpetual possession.",
+      "web": "But the field of the pasture lands of their cities may not be sold, for it is their perpetual possession.",
+      "ct": "Also, the pasturelands surrounding their cities must never be sold, because that land is their permanent possession."
+    },
+    {
+      "verse": 35,
+      "kjv": "And if thy brother be waxen poor, and fallen in decay with thee; then thou shalt relieve him: yea, though he be a stranger, or a sojourner; that he may live with thee.",
+      "web": "“ ‘If your brother has become poor, and his hand can’t support himself among you, then you shall uphold him. He shall live with you like an alien and a temporary resident.",
+      "ct": "\"If one of your people becomes poor and can't support themselves, you must help them — whether they're a fellow Israelite, a foreigner, or a temporary resident — so they can continue to live among you."
+    },
+    {
+      "verse": 36,
+      "kjv": "Take thou no usury of him, or increase: but fear thy God; that thy brother may live with thee.",
+      "web": "Take no interest from him or profit; but fear your God, that your brother may live among you.",
+      "ct": "Don't charge them interest or make a profit off them. Fear your God, and let your fellow Israelite survive among you."
+    },
+    {
+      "verse": 37,
+      "kjv": "Thou shalt not give him thy money upon usury, nor lend him thy victuals for increase.",
+      "web": "You shall not lend him your money at interest, nor give him your food for profit.",
+      "ct": "Don't lend them money at interest, and don't sell them food at a markup."
+    },
+    {
+      "verse": 38,
+      "kjv": "I am the LORD your God, which brought you forth out of the land of Egypt, to give you the land of Canaan, and to be your God.",
+      "web": "I am LORD your God, who brought you out of the land of Egypt, to give you the land of Canaan, and to be your God.",
+      "ct": "I am the LORD your God, who brought you out of Egypt to give you the land of Canaan and to be your God."
+    },
+    {
+      "verse": 39,
+      "kjv": "And if thy brother that dwelleth by thee be waxen poor, and be sold unto thee; thou shalt not compel him to serve as a bondservant:",
+      "web": "“ ‘If your brother has grown poor among you, and sells himself to you, you shall not make him to serve as a slave.",
+      "ct": "\"If one of your people becomes so poor that they sell themselves to you, don't make them work as a slave."
+    },
+    {
+      "verse": 40,
+      "kjv": "But as an hired servant, and as a sojourner, he shall be with thee, and shall serve thee unto the year of jubile:",
+      "web": "As a hired servant, and as a temporary resident, he shall be with you; he shall serve with you until the Year of Jubilee.",
+      "ct": "Treat them like a hired worker or a temporary resident. They will serve you until the Year of Jubilee."
+    },
+    {
+      "verse": 41,
+      "kjv": "And then shall he depart from thee, both he and his children with him, and shall return unto his own family, and unto the possession of his fathers shall he return.",
+      "web": "Then he shall go out from you, he and his children with him, and shall return to his own family, and to the possession of his fathers.",
+      "ct": "Then they will leave your service — they and their children — and return to their own family and to the property of their ancestors."
+    },
+    {
+      "verse": 42,
+      "kjv": "For they are my servants, which I brought forth out of the land of Egypt: they shall not be sold as bondmen.",
+      "web": "For they are my servants, whom I brought out of the land of Egypt. They shall not be sold as slaves.",
+      "ct": "The Israelites are my servants — I brought them out of Egypt. They must not be sold as slaves."
+    },
+    {
+      "verse": 43,
+      "kjv": "Thou shalt not rule over him with rigour; but shalt fear thy God.",
+      "web": "You shall not rule over him with harshness, but shall fear your God.",
+      "ct": "Don't rule over them harshly. Fear your God."
+    },
+    {
+      "verse": 44,
+      "kjv": "Both thy bondmen, and thy bondmaids, which thou shalt have, shall be of the heathen that are round about you; of them shall ye buy bondmen and bondmaids.",
+      "web": "“ ‘As for your male and your female slaves, whom you may have from the nations that are around you, from them you may buy male and female slaves.",
+      "ct": "\"As for male and female slaves, you may purchase them from the surrounding nations."
+    },
+    {
+      "verse": 45,
+      "kjv": "Moreover of the children of the strangers that do sojourn among you, of them shall ye buy, and of their families that are with you, which they begat in your land: and they shall be your possession.",
+      "web": "Moreover, of the children of the aliens who live among you, of them you may buy, and of their families who are with you, which they have conceived in your land; and they will be your property.",
+      "ct": "You may also buy the children of foreigners living among you, including those born in your land. They may become your property."
+    },
+    {
+      "verse": 46,
+      "kjv": "And ye shall take them as an inheritance for your children after you, to inherit them for a possession; they shall be your bondmen for ever: but over your brethren the children of Israel, ye shall not rule one over another with rigour.",
+      "web": "You may make them an inheritance for your children after you, to hold for a possession. Of them you may take your slaves forever, but over your brothers the children of Israel you shall not rule, one over another, with harshness.",
+      "ct": "You may pass them down as an inheritance to your children, and they may serve as slaves permanently. But you must never rule harshly over your fellow Israelites."
+    },
+    {
+      "verse": 47,
+      "kjv": "And if a sojourner or stranger wax rich by thee, and thy brother that dwelleth by him wax poor, and sell himself unto the stranger or sojourner by thee, or to the stock of the stranger’s family:",
+      "web": "“ ‘If an alien or temporary resident with you becomes rich, and your brother beside him has grown poor, and sells himself to the stranger or foreigner living among you, or to a member of the stranger’s family,",
+      "ct": "\"Suppose a foreigner or temporary resident among you becomes wealthy, while one of your people living nearby becomes poor and sells themselves to that foreigner, or to a member of the foreigner's family."
+    },
+    {
+      "verse": 48,
+      "kjv": "After that he is sold he may be redeemed again; one of his brethren may redeem him:",
+      "web": "after he is sold he may be redeemed. One of his brothers may redeem him;",
+      "ct": "After the sale, the Israelite still has the right to be bought back. Any of their relatives may buy their freedom."
+    },
+    {
+      "verse": 49,
+      "kjv": "Either his uncle, or his uncle’s son, may redeem him, or any that is nigh of kin unto him of his family may redeem him; or if he be able, he may redeem himself.",
+      "web": "or his uncle, or his uncle’s son, may redeem him, or any who is a close relative to him of his family may redeem him; or if he has grown rich, he may redeem himself.",
+      "ct": "An uncle, a cousin, or any close relative from their family may buy them back. Or if they become prosperous enough, they may buy their own freedom."
+    },
+    {
+      "verse": 50,
+      "kjv": "And he shall reckon with him that bought him from the year that he was sold to him unto the year of jubile: and the price of his sale shall be according unto the number of years, according to the time of an hired servant shall it be with him.",
+      "web": "He shall reckon with him who bought him from the year that he sold himself to him to the Year of Jubilee. The price of his sale shall be according to the number of years; he shall be with him according to the time of a hired servant.",
+      "ct": "They must calculate the price with the buyer based on the number of years from the date of the sale to the next Year of Jubilee. The cost should be figured like the wages of a hired worker for that number of years."
+    },
+    {
+      "verse": 51,
+      "kjv": "If there be yet many years behind, according unto them he shall give again the price of his redemption out of the money that he was bought for.",
+      "web": "If there are yet many years, according to them he shall give back the price of his redemption out of the money that he was bought for.",
+      "ct": "If many years remain until the Jubilee, they must pay back a larger portion of the original purchase price."
+    },
+    {
+      "verse": 52,
+      "kjv": "And if there remain but few years unto the year of jubile, then he shall count with him, and according unto his years shall he give him again the price of his redemption.",
+      "web": "If there remain but a few years to the year of jubilee, then he shall reckon with him; according to his years of service he shall give back the price of his redemption.",
+      "ct": "If only a few years remain until the Jubilee, they should calculate accordingly and pay a smaller amount based on the years of service left."
+    },
+    {
+      "verse": 53,
+      "kjv": "And as a yearly hired servant shall he be with him: and the other shall not rule with rigour over him in thy sight.",
+      "web": "As a servant hired year by year shall he be with him. He shall not rule with harshness over him in your sight.",
+      "ct": "The buyer must treat them like a worker hired year by year. They must not rule over them harshly while you look on."
+    },
+    {
+      "verse": 54,
+      "kjv": "And if he be not redeemed in these years, then he shall go out in the year of jubile, both he, and his children with him.",
+      "web": "If he isn’t redeemed by these means, then he shall be released in the Year of Jubilee: he and his children with him.",
+      "ct": "If they aren't bought back by any of these means, they and their children must still be set free in the Year of Jubilee."
+    },
+    {
+      "verse": 55,
+      "kjv": "For unto me the children of Israel are servants; they are my servants whom I brought forth out of the land of Egypt: I am the LORD your God.",
+      "web": "For to me the children of Israel are servants; they are my servants whom I brought out of the land of Egypt. I am LORD your God.",
+      "ct": "The people of Israel belong to me as servants. They are my servants — I brought them out of Egypt. I am the LORD your God.\""
+    }
+  ]
+}

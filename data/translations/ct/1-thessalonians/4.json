@@ -1,0 +1,119 @@
+{
+  "book": "1-thessalonians",
+  "book_name": "1 Thessalonians",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:03:04.641Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Furthermore then we beseech you, brethren, and exhort you by the Lord Jesus, that as ye have received of us how ye ought to walk and to please God, so ye would abound more and more.",
+      "web": "Finally then, brothers, we beg and exhort you in the Lord Jesus, that as you received from us how you ought to walk and to please God, that you abound more and more.",
+      "ct": "Finally, brothers and sisters, we urge and encourage you in the Lord Jesus: you already learned from us how to live in a way that pleases God, and you're doing it. Now keep growing in it more and more."
+    },
+    {
+      "verse": 2,
+      "kjv": "For ye know what commandments we gave you by the Lord Jesus.",
+      "web": "For you know what instructions we gave you through the Lord Jesus.",
+      "ct": "You know the instructions we gave you through the authority of the Lord Jesus."
+    },
+    {
+      "verse": 3,
+      "kjv": "For this is the will of God, even your sanctification, that ye should abstain from fornication:",
+      "web": "For this is the will of God: your sanctification, that you abstain from sexual immorality,",
+      "ct": "Here is what God wants: for you to be set apart and holy — and that means staying away from sexual sin."
+    },
+    {
+      "verse": 4,
+      "kjv": "That every one of you should know how to possess his vessel in sanctification and honour;",
+      "web": "that each one of you know how to control his own body in sanctification and honor,",
+      "ct": "Each of you should learn to control your own body in a way that is holy and honorable,"
+    },
+    {
+      "verse": 5,
+      "kjv": "Not in the lust of concupiscence, even as the Gentiles which know not God:",
+      "web": "not in the passion of lust, even as the Gentiles who don’t know God,",
+      "ct": "not driven by lustful passions like people who don't know God."
+    },
+    {
+      "verse": 6,
+      "kjv": "That no man go beyond and defraud his brother in any matter: because that the Lord is the avenger of all such, as we also have forewarned you and testified.",
+      "web": "that no one should take advantage of and wrong a brother or sister in this matter; because the Lord is an avenger in all these things, as also we forewarned you and testified.",
+      "ct": "No one should cross the line and take advantage of a fellow believer in this matter, because the Lord will punish all who do. We warned you about this before and made it absolutely clear."
+    },
+    {
+      "verse": 7,
+      "kjv": "For God hath not called us unto uncleanness, but unto holiness.",
+      "web": "For God called us not for uncleanness, but in sanctification.",
+      "ct": "God didn't call us to live impure lives — he called us to live in holiness."
+    },
+    {
+      "verse": 8,
+      "kjv": "He therefore that despiseth, despiseth not man, but God, who hath also given unto us his holy Spirit.",
+      "web": "Therefore he who rejects this doesn’t reject man, but God, who has also given his Holy Spirit to you.",
+      "ct": "So anyone who rejects this teaching isn't rejecting a human authority — they're rejecting God himself, the one who gives you his Holy Spirit."
+    },
+    {
+      "verse": 9,
+      "kjv": "But as touching brotherly love ye need not that I write unto you: for ye yourselves are taught of God to love one another.",
+      "web": "But concerning brotherly love, you have no need that one write to you. For you yourselves are taught by God to love one another,",
+      "ct": "Now about loving each other as brothers and sisters — I don't really need to write to you about that. God himself has taught you to love one another."
+    },
+    {
+      "verse": 10,
+      "kjv": "And indeed ye do it toward all the brethren which are in all Macedonia: but we beseech you, brethren, that ye increase more and more;",
+      "web": "for indeed you do it toward all the brothers who are in all Macedonia. But we exhort you, brothers, that you abound more and more;",
+      "ct": "And you're already showing that love to all the believers throughout Macedonia. But we encourage you, brothers and sisters, to keep doing it more and more."
+    },
+    {
+      "verse": 11,
+      "kjv": "And that ye study to be quiet, and to do your own business, and to work with your own hands, as we commanded you;",
+      "web": "and that you make it your ambition to lead a quiet life, and to do your own business, and to work with your own hands, even as we instructed you;",
+      "ct": "Make it your goal to live a quiet life, mind your own affairs, and work with your own hands, just as we told you to do."
+    },
+    {
+      "verse": 12,
+      "kjv": "That ye may walk honestly toward them that are without, and that ye may have lack of nothing.",
+      "web": "that you may walk properly toward those who are outside, and may have need of nothing.",
+      "ct": "That way, your daily life will earn the respect of outsiders, and you won't have to depend on anyone for what you need."
+    },
+    {
+      "verse": 13,
+      "kjv": "But I would not have you to be ignorant, brethren, concerning them which are asleep, that ye sorrow not, even as others which have no hope.",
+      "web": "But we don’t want you to be ignorant, brothers, concerning those who have fallen asleep, so that you don’t grieve like the rest, who have no hope.",
+      "ct": "Brothers and sisters, we don't want you to be uninformed about those who have died, so that you won't grieve like everyone else who has no hope."
+    },
+    {
+      "verse": 14,
+      "kjv": "For if we believe that Jesus died and rose again, even so them also which sleep in Jesus will God bring with him.",
+      "web": "For if we believe that Jesus died and rose again, even so God will bring with him those who have fallen asleep in Jesus.",
+      "ct": "Since we believe that Jesus died and rose again, we can also be sure that God will bring back with Jesus those who have died believing in him."
+    },
+    {
+      "verse": 15,
+      "kjv": "For this we say unto you by the word of the Lord, that we which are alive and remain unto the coming of the Lord shall not prevent them which are asleep.",
+      "web": "For this we tell you by the word of the Lord, that we who are alive, who are left until the coming of the Lord, will in no way precede those who have fallen asleep.",
+      "ct": "We're telling you this directly from the Lord's own word: those of us who are still alive when the Lord returns will not go ahead of those who have already died."
+    },
+    {
+      "verse": 16,
+      "kjv": "For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first:",
+      "web": "For the Lord himself will descend from heaven with a shout, with the voice of the archangel and with God’s trumpet. The dead in Christ will rise first,",
+      "ct": "The Lord himself will come down from heaven with a commanding shout, with the voice of the archangel, and with the trumpet of God. And the dead in Christ will rise first."
+    },
+    {
+      "verse": 17,
+      "kjv": "Then we which are alive and remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord.",
+      "web": "then we who are alive, who are left, will be caught up together with them in the clouds, to meet the Lord in the air. So we will be with the Lord forever.",
+      "ct": "Then those of us who are still alive will be caught up together with them in the clouds to meet the Lord in the air. And from that moment on, we will be with the Lord forever."
+    },
+    {
+      "verse": 18,
+      "kjv": "Wherefore comfort one another with these words.",
+      "web": "Therefore comfort one another with these words.",
+      "ct": "So encourage each other with these words."
+    }
+  ]
+}

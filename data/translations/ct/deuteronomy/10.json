@@ -1,0 +1,143 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:08:31.696Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "At that time the LORD said unto me, Hew thee two tables of stone like unto the first, and come up unto me into the mount, and make thee an ark of wood.",
+      "web": "At that time LORD said to me, “Cut two stone tablets like the first, and come up to me onto the mountain, and make an ark of wood.",
+      "ct": "At that time the LORD told me, \"Cut 2 stone tablets just like the first ones, then come up to me on the mountain. Also build a wooden chest."
+    },
+    {
+      "verse": 2,
+      "kjv": "And I will write on the tables the words that were in the first tables which thou brakest, and thou shalt put them in the ark.",
+      "web": "I will write on the tablets the words that were on the first tablets which you broke, and you shall put them in the ark.”",
+      "ct": "I will write on these tablets the same words that were on the first tablets — the ones you smashed. Then you are to place them inside the chest.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And I made an ark of shittim wood, and hewed two tables of stone like unto the first, and went up into the mount, having the two tables in mine hand.",
+      "web": "So I made an ark of acacia wood, and cut two stone tablets like the first, and went up onto the mountain, having the two tablets in my hand.",
+      "ct": "So I built a chest out of acacia wood, cut 2 stone tablets identical to the first ones, and climbed the mountain carrying both tablets."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he wrote on the tables, according to the first writing, the ten commandments, which the LORD spake unto you in the mount out of the midst of the fire in the day of the assembly: and the LORD gave them unto me.",
+      "web": "He wrote on the tablets, according to the first writing, the ten commandments, which LORD spoke to you on the mountain out of the middle of the fire in the day of the assembly; and LORD gave them to me.",
+      "ct": "The LORD wrote on these tablets exactly what he had written before — the 10 commandments he had spoken to you from the fire on the mountain during the day of the assembly. Then the LORD handed them to me."
+    },
+    {
+      "verse": 5,
+      "kjv": "And I turned myself and came down from the mount, and put the tables in the ark which I had made; and there they be, as the LORD commanded me.",
+      "web": "I turned and came down from the mountain, and put the tablets in the ark which I had made; and there they are as LORD commanded me.",
+      "ct": "I turned and came back down the mountain, placed the tablets inside the chest I had made, and that is where they remain, just as the LORD commanded me."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the children of Israel took their journey from Beeroth of the children of Jaakan to Mosera: there Aaron died, and there he was buried; and Eleazar his son ministered in the priest’s office in his stead.",
+      "web": "(The children of Israel traveled from Beeroth Bene Jaakan to Moserah. There Aaron died, and there he was buried; and Eleazar his son ministered in the priest’s office in his place.",
+      "ct": "(The Israelites traveled from Beeroth Bene Jaakan to Moserah. That is where Aaron died and was buried, and his son Eleazar took over as priest in his place."
+    },
+    {
+      "verse": 7,
+      "kjv": "From thence they journeyed unto Gudgodah; and from Gudgodah to Jotbath, a land of rivers of waters.",
+      "web": "From there they traveled to Gudgodah; and from Gudgodah to Jotbathah, a land of brooks of water.",
+      "ct": "From there they traveled to Gudgodah, and from Gudgodah to Jotbathah, a region rich with flowing streams."
+    },
+    {
+      "verse": 8,
+      "kjv": "At that time the LORD separated the tribe of Levi, to bear the ark of the covenant of the LORD, to stand before the LORD to minister unto him, and to bless in his name, unto this day.",
+      "web": "At that time LORD set apart the tribe of Levi to bear the ark of LORD’s covenant, to stand before LORD to minister to him, and to bless in his name, to this day.",
+      "ct": "At that time the LORD set apart the tribe of Levi to carry the ark of the LORD's covenant, to stand in the LORD's presence and serve him, and to pronounce blessings in his name — and they still do this today."
+    },
+    {
+      "verse": 9,
+      "kjv": "Wherefore Levi hath no part nor inheritance with his brethren; the LORD is his inheritance, according as the LORD thy God promised him.",
+      "web": "Therefore Levi has no portion nor inheritance with his brothers; LORD is his inheritance, according as LORD your God spoke to him.)",
+      "ct": "That is why Levi received no land or inheritance like the other tribes. The LORD himself is their inheritance, just as the LORD your God promised them.)"
+    },
+    {
+      "verse": 10,
+      "kjv": "And I stayed in the mount, according to the first time, forty days and forty nights; and the LORD hearkened unto me at that time also, and the LORD would not destroy thee.",
+      "web": "I stayed on the mountain, as at the first time, forty days and forty nights; and LORD listened to me that time also. LORD would not destroy you.",
+      "ct": "I stayed on the mountain for 40 days and 40 nights, just like the first time. Once again the LORD listened to me, and the LORD chose not to destroy you."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD said unto me, Arise, take thy journey before the people, that they may go in and possess the land, which I sware unto their fathers to give unto them.",
+      "web": "LORD said to me, “Arise, take your journey before the people; and they shall go in and possess the land which I swore to their fathers to give to them.”",
+      "ct": "Then the LORD said to me, \"Get up and lead the people on their journey, so they can enter and take possession of the land I swore to give their ancestors.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And now, Israel, what doth the LORD thy God require of thee, but to fear the LORD thy God, to walk in all his ways, and to love him, and to serve the LORD thy God with all thy heart and with all thy soul,",
+      "web": "Now, Israel, what does LORD your God require of you, but to fear LORD your God, to walk in all his ways, to love him, and to serve LORD your God with all your heart and with all your soul,",
+      "ct": "So now, Israel, what does the LORD your God ask of you? Simply this: fear the LORD your God, follow all his ways, love him, and serve the LORD your God with everything you have — your whole heart and your whole soul —"
+    },
+    {
+      "verse": 13,
+      "kjv": "To keep the commandments of the LORD, and his statutes, which I command thee this day for thy good?",
+      "web": "to keep LORD’s commandments and statutes, which I command you today for your good?",
+      "ct": "and obey the LORD's commands and laws that I'm giving you today for your own good."
+    },
+    {
+      "verse": 14,
+      "kjv": "Behold, the heaven and the heaven of heavens is the LORD’s thy God, the earth also, with all that therein is.",
+      "web": "Behold, to LORD your God belongs heaven, the heaven of heavens, and the earth, with all that is therein.",
+      "ct": "Think about this: the heavens belong to the LORD your God — even the highest heavens — along with the earth and everything in it."
+    },
+    {
+      "verse": 15,
+      "kjv": "Only the LORD had a delight in thy fathers to love them, and he chose their seed after them, even you above all people, as it is this day.",
+      "web": "Only LORD had a delight in your fathers to love them, and he chose their offspring after them, even you above all peoples, as it is today.",
+      "ct": "Yet out of all that, the LORD set his heart on your ancestors and loved them. He chose their descendants — that's you — above every other nation on earth, and that's still true today."
+    },
+    {
+      "verse": 16,
+      "kjv": "Circumcise therefore the foreskin of your heart, and be no more stiffnecked.",
+      "web": "Circumcise therefore the foreskin of your heart, and be no more stiff-necked.",
+      "ct": "So open your hearts to God — stop being so stubborn!"
+    },
+    {
+      "verse": 17,
+      "kjv": "For the LORD your God is God of gods, and Lord of lords, a great God, a mighty, and a terrible, which regardeth not persons, nor taketh reward:",
+      "web": "For LORD your God, he is God of gods and Lord of lords, the great God, the mighty, and the awesome, who doesn’t respect persons or take bribes.",
+      "ct": "The LORD your God is the God above all gods and the Lord above all lords. He is the great God — mighty and awe-inspiring — who shows no favoritism and accepts no bribes."
+    },
+    {
+      "verse": 18,
+      "kjv": "He doth execute the judgment of the fatherless and widow, and loveth the stranger, in giving him food and raiment.",
+      "web": "He executes justice for the fatherless and widow and loves the foreigner in giving him food and clothing.",
+      "ct": "He makes sure orphans and widows receive justice, and he loves the foreigner by providing them with food and clothing."
+    },
+    {
+      "verse": 19,
+      "kjv": "Love ye therefore the stranger: for ye were strangers in the land of Egypt.",
+      "web": "Therefore love the foreigner, for you were foreigners in the land of Egypt.",
+      "ct": "So you must love the foreigner too, because you yourselves were once foreigners in the land of Egypt."
+    },
+    {
+      "verse": 20,
+      "kjv": "Thou shalt fear the LORD thy God; him shalt thou serve, and to him shalt thou cleave, and swear by his name.",
+      "web": "You shall fear LORD your God. You shall serve him. You shall cling to him, and you shall swear by his name.",
+      "ct": "Fear the LORD your God. Serve him. Hold tightly to him, and take your oaths in his name alone."
+    },
+    {
+      "verse": 21,
+      "kjv": "He is thy praise, and he is thy God, that hath done for thee these great and terrible things, which thine eyes have seen.",
+      "web": "He is your praise, and he is your God, who has done for you these great and awesome things which your eyes have seen.",
+      "ct": "He is the one you praise. He is your God — the one who did those great and awe-inspiring things you saw with your own eyes."
+    },
+    {
+      "verse": 22,
+      "kjv": "Thy fathers went down into Egypt with threescore and ten persons; and now the LORD thy God hath made thee as the stars of heaven for multitude.",
+      "web": "Your fathers went down into Egypt with seventy persons; and now LORD your God has made you as the stars of the sky for multitude.",
+      "ct": "When your ancestors went down to Egypt, there were only 70 of them. But now the LORD your God has made you as countless as the stars in the sky."
+    }
+  ]
+}

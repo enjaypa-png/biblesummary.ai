@@ -1,0 +1,161 @@
+{
+  "book": "1-peter",
+  "book_name": "1 Peter",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:14:03.428Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Wherefore laying aside all malice, and all guile, and hypocrisies, and envies, and all evil speakings,",
+      "web": "Putting away therefore all wickedness, all deceit, hypocrisies, envies, and all evil speaking,",
+      "ct": "So get rid of all malice, all deceit, all hypocrisy, all envy, and every kind of slander."
+    },
+    {
+      "verse": 2,
+      "kjv": "As newborn babes, desire the sincere milk of the word, that ye may grow thereby:",
+      "web": "as newborn babies, long for the pure milk of the Word, that with it you may grow,",
+      "ct": "Like newborn babies, crave the pure milk of God's word so that you can grow through it."
+    },
+    {
+      "verse": 3,
+      "kjv": "If so be ye have tasted that the Lord is gracious.",
+      "web": "if indeed you have tasted that the Lord is gracious:",
+      "ct": "You can do this because you've already tasted how good the Lord is."
+    },
+    {
+      "verse": 4,
+      "kjv": "To whom coming, as unto a living stone, disallowed indeed of men, but chosen of God, and precious,",
+      "web": "coming to him, a living stone, rejected indeed by men, but chosen by God, precious.",
+      "ct": "Come to him — the living stone. People rejected him, but God chose him and considers him precious."
+    },
+    {
+      "verse": 5,
+      "kjv": "Ye also, as lively stones, are built up a spiritual house, an holy priesthood, to offer up spiritual sacrifices, acceptable to God by Jesus Christ.",
+      "web": "You also, as living stones, are built up as a spiritual house, to be a holy priesthood, to offer up spiritual sacrifices, acceptable to God through Jesus Christ.",
+      "ct": "You too are living stones, and God is building you into a spiritual house. You serve as a holy priesthood, offering spiritual sacrifices that are pleasing to God through Jesus Christ."
+    },
+    {
+      "verse": 6,
+      "kjv": "Wherefore also it is contained in the scripture, Behold, I lay in Sion a chief corner stone, elect, precious: and he that believeth on him shall not be confounded.",
+      "web": "Because it is contained in Scripture, “Behold, I lay in Zion a chief cornerstone, chosen and precious: He who believes in him will not be disappointed.”",
+      "ct": "Scripture says it this way: \"Look — I am placing in Zion a chief cornerstone, chosen and precious. Whoever believes in him will never be put to shame.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Unto you therefore which believe he is precious: but unto them which be disobedient, the stone which the builders disallowed, the same is made the head of the corner,",
+      "web": "For you who believe therefore is the honor, but for those who are disobedient, “The stone which the builders rejected has become the chief cornerstone,”",
+      "ct": "So for those of you who believe, he is precious beyond measure. But for those who refuse to believe, \"the stone the builders rejected has become the chief cornerstone,\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And a stone of stumbling, and a rock of offence, even to them which stumble at the word, being disobedient: whereunto also they were appointed.",
+      "web": "and, “a stumbling stone and a rock of offense.” For they stumble at the word, being disobedient, to which also they were appointed.",
+      "ct": "and also \"a stumbling stone and a rock of offense.\" They stumble because they disobey the word — and this is what they were destined for."
+    },
+    {
+      "verse": 9,
+      "kjv": "But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light:",
+      "web": "But you are a chosen race, a royal priesthood, a holy nation, a people for God’s own possession, that you may proclaim the excellence of him who called you out of darkness into his marvelous light.",
+      "ct": "But you are a chosen people, a royal priesthood, a holy nation, God's own treasured possession — so that you would declare the greatness of the one who called you out of darkness into his marvelous light."
+    },
+    {
+      "verse": 10,
+      "kjv": "Which in time past were not a people, but are now the people of God: which had not obtained mercy, but now have obtained mercy.",
+      "web": "In the past, you were not a people, but now are God’s people, who had not obtained mercy, but now have obtained mercy.",
+      "ct": "There was a time when you weren't a people at all, but now you are God's people. Once you hadn't received mercy, but now mercy has been poured out on you."
+    },
+    {
+      "verse": 11,
+      "kjv": "Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against the soul;",
+      "web": "Beloved, I beg you as foreigners and pilgrims, to abstain from fleshly lusts, which war against the soul;",
+      "ct": "Dear friends, I urge you — as strangers and pilgrims in this world — to stay away from sinful desires that wage war against your soul."
+    },
+    {
+      "verse": 12,
+      "kjv": "Having your conversation honest among the Gentiles: that, whereas they speak against you as evildoers, they may by your good works, which they shall behold, glorify God in the day of visitation.",
+      "web": "having good behavior among the nations, so in that of which they speak against you as evildoers, they may by your good works, which they see, glorify God in the day of visitation.",
+      "ct": "Live honorably among those who don't know God. Even though they accuse you of doing wrong, let them see your good works so clearly that they end up giving glory to God when he comes."
+    },
+    {
+      "verse": 13,
+      "kjv": "Submit yourselves to every ordinance of man for the Lord’s sake: whether it be to the king, as supreme;",
+      "web": "Therefore subject yourselves to every ordinance of man for the Lord’s sake: whether to the king, as supreme;",
+      "ct": "For the Lord's sake, submit to every human authority — whether to the king as the highest ruler,"
+    },
+    {
+      "verse": 14,
+      "kjv": "Or unto governors, as unto them that are sent by him for the punishment of evildoers, and for the praise of them that do well.",
+      "web": "or to governors, as sent by him for vengeance on evildoers and for praise to those who do well.",
+      "ct": "or to governors who are appointed by him to punish those who do wrong and to honor those who do right."
+    },
+    {
+      "verse": 15,
+      "kjv": "For so is the will of God, that with well doing ye may put to silence the ignorance of foolish men:",
+      "web": "For this is the will of God, that by well-doing you should put to silence the ignorance of foolish men:",
+      "ct": "It is God's will that by doing good you silence the ignorant talk of foolish people."
+    },
+    {
+      "verse": 16,
+      "kjv": "As free, and not using your liberty for a cloke of maliciousness, but as the servants of God.",
+      "web": "as free, and not using your freedom for a cloak of wickedness, but as bondservants of God.",
+      "ct": "Live as free people, but don't use your freedom as a cover for wickedness. Instead, live as servants of God."
+    },
+    {
+      "verse": 17,
+      "kjv": "Honour all men. Love the brotherhood. Fear God. Honour the king.",
+      "web": "Honor all men. Love the brotherhood. Fear God. Honor the king.",
+      "ct": "Honor everyone. Love your fellow believers. Fear God. Honor the king."
+    },
+    {
+      "verse": 18,
+      "kjv": "Servants, be subject to your masters with all fear; not only to the good and gentle, but also to the froward.",
+      "web": "Servants, be in subjection to your masters with all respect: not only to the good and gentle, but also to the wicked.",
+      "ct": "Servants, submit to your masters with complete respect — not only to those who are kind and reasonable, but also to those who are harsh."
+    },
+    {
+      "verse": 19,
+      "kjv": "For this is thankworthy, if a man for conscience toward God endure grief, suffering wrongfully.",
+      "web": "For it is commendable if someone endures pain, suffering unjustly, because of conscience toward God.",
+      "ct": "God is pleased when someone endures unjust suffering because their conscience is directed toward him."
+    },
+    {
+      "verse": 20,
+      "kjv": "For what glory is it, if, when ye be buffeted for your faults, ye shall take it patiently? but if, when ye do well, and suffer for it, ye take it patiently, this is acceptable with God.",
+      "web": "For what glory is it if, when you sin, you patiently endure beating? But if, when you do well, you patiently endure suffering, this is commendable with God.",
+      "ct": "After all, what credit is it if you endure a beating you deserve for doing wrong? But if you suffer for doing good and you bear it patiently, that is something God values."
+    },
+    {
+      "verse": 21,
+      "kjv": "For even hereunto were ye called: because Christ also suffered for us, leaving us an example, that ye should follow his steps:",
+      "web": "For you were called to this, because Christ also suffered for us, leaving you an example, that you should follow his steps,",
+      "ct": "This is what you were called to, because Christ also suffered for us and left an example for you to follow in his footsteps."
+    },
+    {
+      "verse": 22,
+      "kjv": "Who did no sin, neither was guile found in his mouth:",
+      "web": "who didn’t sin, “neither was deceit found in his mouth.”",
+      "ct": "He never committed a sin, and no deceit was ever found in his mouth."
+    },
+    {
+      "verse": 23,
+      "kjv": "Who, when he was reviled, reviled not again; when he suffered, he threatened not; but committed himself to him that judgeth righteously:",
+      "web": "When he was cursed, he didn’t curse back. When he suffered, he didn’t threaten, but committed himself to him who judges righteously.",
+      "ct": "When people hurled insults at him, he didn't insult them back. When he suffered, he made no threats. Instead, he entrusted himself to the one who judges righteously."
+    },
+    {
+      "verse": 24,
+      "kjv": "Who his own self bare our sins in his own body on the tree, that we, being dead to sins, should live unto righteousness: by whose stripes ye were healed.",
+      "web": "He himself bore our sins in his body on the tree, that we, having died to sins, might live to righteousness. You were healed by his wounds.",
+      "ct": "He himself carried our sins in his own body on the cross so that we could die to sin and live for righteousness. By his wounds, you have been healed."
+    },
+    {
+      "verse": 25,
+      "kjv": "For ye were as sheep going astray; but are now returned unto the Shepherd and Bishop of your souls.",
+      "web": "For you were going astray like sheep; but now you have returned to the Shepherd and Overseer of your souls.",
+      "ct": "You were like sheep wandering off on your own, but now you have returned to the Shepherd and Overseer of your souls."
+    }
+  ]
+}

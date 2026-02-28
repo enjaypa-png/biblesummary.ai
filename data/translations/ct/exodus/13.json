@@ -1,0 +1,143 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 13,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:28:25.313Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine.",
+      "web": "“Sanctify to me all the firstborn, whatever opens the womb among the children of Israel, both of man and of animal. It is mine.”",
+      "ct": "\"Set apart to me every firstborn — every first child and first offspring of every animal among the Israelites. They belong to me.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten.",
+      "web": "Moses said to the people, “Remember this day, in which you came out of Egypt, out of the house of bondage; for by strength of hand LORD brought you out from this place. No leavened bread shall be eaten.",
+      "ct": "Moses told the people, \"Remember this day — the day you came out of Egypt, out of the land where you were slaves. The LORD brought you out of this place by his mighty power. No bread made with yeast is to be eaten."
+    },
+    {
+      "verse": 4,
+      "kjv": "This day came ye out in the month Abib.",
+      "web": "Today you go out in the month Abib.",
+      "ct": "Today, in the month of Abib, you are leaving."
+    },
+    {
+      "verse": 5,
+      "kjv": "And it shall be when the LORD shall bring thee into the land of the Canaanites, and the Hittites, and the Amorites, and the Hivites, and the Jebusites, which he sware unto thy fathers to give thee, a land flowing with milk and honey, that thou shalt keep this service in this month.",
+      "web": "It shall be, when LORD brings you into the land of the Canaanite, and the Hittite, and the Amorite, and the Hivite, and the Jebusite, which he swore to your fathers to give you, a land flowing with milk and honey, that you shall keep this service in this month.",
+      "ct": "When the LORD brings you into the land of the Canaanites, the Hittites, the Amorites, the Hivites, and the Jebusites — the land flowing with milk and honey that he swore to your ancestors he would give you — you must observe this ceremony during this month."
+    },
+    {
+      "verse": 6,
+      "kjv": "Seven days thou shalt eat unleavened bread, and in the seventh day shall be a feast to the LORD.",
+      "web": "Seven days you shall eat unleavened bread, and in the seventh day shall be a feast to LORD.",
+      "ct": "For 7 days you are to eat unleavened bread, and on the 7th day, hold a feast to the LORD."
+    },
+    {
+      "verse": 7,
+      "kjv": "Unleavened bread shall be eaten seven days; and there shall no leavened bread be seen with thee, neither shall there be leaven seen with thee in all thy quarters.",
+      "web": "Unleavened bread shall be eaten throughout the seven days; and no leavened bread shall be seen with you. No yeast shall be seen with you, within all your borders.",
+      "ct": "Unleavened bread must be eaten throughout all 7 days. No bread made with yeast should be found anywhere among you — no yeast at all within your borders."
+    },
+    {
+      "verse": 8,
+      "kjv": "And thou shalt shew thy son in that day, saying, This is done because of that which the LORD did unto me when I came forth out of Egypt.",
+      "web": "You shall tell your son in that day, saying, ‘It is because of that which LORD did for me when I came out of Egypt.’",
+      "ct": "On that day, explain it to your son and say, 'I do this because of what the LORD did for me when I came out of Egypt.'"
+    },
+    {
+      "verse": 9,
+      "kjv": "And it shall be for a sign unto thee upon thine hand, and for a memorial between thine eyes, that the LORD’s law may be in thy mouth: for with a strong hand hath the LORD brought thee out of Egypt.",
+      "web": "It shall be for a sign to you on your hand, and for a memorial between your eyes, that LORD’s law may be in your mouth; for with a strong hand LORD has brought you out of Egypt.",
+      "ct": "This observance will be like a sign on your hand and a reminder on your forehead, so that the LORD's law will always be on your lips. For the LORD brought you out of Egypt with his mighty power."
+    },
+    {
+      "verse": 10,
+      "kjv": "Thou shalt therefore keep this ordinance in his season from year to year.",
+      "web": "You shall therefore keep this ordinance in its season from year to year.",
+      "ct": "You must keep this ordinance at its appointed time, year after year."
+    },
+    {
+      "verse": 11,
+      "kjv": "And it shall be when the LORD shall bring thee into the land of the Canaanites, as he sware unto thee and to thy fathers, and shall give it thee,",
+      "web": "“It shall be, when LORD brings you into the land of the Canaanite, as he swore to you and to your fathers, and will give it you,",
+      "ct": "\"When the LORD brings you into the land of the Canaanites, just as he swore to you and your ancestors, and gives it to you,"
+    },
+    {
+      "verse": 12,
+      "kjv": "That thou shalt set apart unto the LORD all that openeth the matrix, and every firstling that cometh of a beast which thou hast; the males shall be the LORD’s.",
+      "web": "that you shall set apart to LORD all that opens the womb, and every firstborn that comes from an animal which you have. The males shall be LORD’s.",
+      "ct": "you must set apart to the LORD every firstborn that comes from the womb, including every firstborn male from your livestock. The males belong to the LORD."
+    },
+    {
+      "verse": 13,
+      "kjv": "And every firstling of an ass thou shalt redeem with a lamb; and if thou wilt not redeem it, then thou shalt break his neck: and all the firstborn of man among thy children shalt thou redeem.",
+      "web": "Every firstborn of a donkey you shall redeem with a lamb; and if you will not redeem it, then you shall break its neck; and you shall redeem all the firstborn of man among your sons.",
+      "ct": "Every firstborn donkey must be redeemed by sacrificing a lamb in its place. If you don't redeem it, you must break its neck. You must also redeem every firstborn son."
+    },
+    {
+      "verse": 14,
+      "kjv": "And it shall be when thy son asketh thee in time to come, saying, What is this? that thou shalt say unto him, By strength of hand the LORD brought us out from Egypt, from the house of bondage:",
+      "web": "It shall be, when your son asks you in time to come, saying, ‘What is this?’ that you shall tell him, ‘By strength of hand LORD brought us out from Egypt, from the house of bondage.",
+      "ct": "In the future, when your son asks you, 'What does this mean?' tell him, 'The LORD brought us out of Egypt by his mighty power — out of the land where we were slaves."
+    },
+    {
+      "verse": 15,
+      "kjv": "And it came to pass, when Pharaoh would hardly let us go, that the LORD slew all the firstborn in the land of Egypt, both the firstborn of man, and the firstborn of beast: therefore I sacrifice to the LORD all that openeth the matrix, being males; but all the firstborn of my children I redeem.",
+      "web": "When Pharaoh stubbornly refused to let us go, LORD killed all the firstborn in the land of Egypt, both the firstborn of man, and the firstborn of livestock. Therefore I sacrifice to LORD all that opens the womb, being males; but all the firstborn of my sons I redeem.’",
+      "ct": "When Pharaoh stubbornly refused to let us go, the LORD killed every firstborn in the land of Egypt — both the firstborn of people and the firstborn of animals. That is why I sacrifice to the LORD every firstborn male animal, but I redeem every firstborn son.'"
+    },
+    {
+      "verse": 16,
+      "kjv": "And it shall be for a token upon thine hand, and for frontlets between thine eyes: for by strength of hand the LORD brought us forth out of Egypt.",
+      "web": "It shall be for a sign on your hand, and for symbols between your eyes; for by strength of hand LORD brought us out of Egypt.”",
+      "ct": "This will be like a sign on your hand and a symbol on your forehead, because the LORD brought us out of Egypt by his mighty power.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And it came to pass, when Pharaoh had let the people go, that God led them not through the way of the land of the Philistines, although that was near; for God said, Lest peradventure the people repent when they see war, and they return to Egypt:",
+      "web": "When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, “Lest perhaps the people change their minds when they see war, and they return to Egypt”;",
+      "ct": "When Pharaoh finally let the people go, God did not lead them along the road through Philistine territory, even though that was the shortest route. God said, \"If they face war, they might change their minds and go back to Egypt.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "But God led the people about, through the way of the wilderness of the Red sea: and the children of Israel went up harnessed out of the land of Egypt.",
+      "web": "but God led the people around by the way of the wilderness by the Red Sea; and the children of Israel went up armed out of the land of Egypt.",
+      "ct": "Instead, God led the people on a roundabout path through the wilderness toward the Red Sea. The Israelites left Egypt armed and ready for battle."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Moses took the bones of Joseph with him: for he had straitly sworn the children of Israel, saying, God will surely visit you; and ye shall carry up my bones away hence with you.",
+      "web": "Moses took the bones of Joseph with him, for he had made the children of Israel swear, saying, “God will surely visit you, and you shall carry up my bones away from here with you.”",
+      "ct": "Moses brought the bones of Joseph with him, because Joseph had made the Israelites swear an oath, saying, \"God will certainly come to your aid. When he does, you must carry my bones out of here with you.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And they took their journey from Succoth, and encamped in Etham, in the edge of the wilderness.",
+      "web": "They took their journey from Succoth, and encamped in Etham, in the edge of the wilderness.",
+      "ct": "They left Succoth and set up camp at Etham, on the edge of the wilderness."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the LORD went before them by day in a pillar of a cloud, to lead them the way; and by night in a pillar of fire, to give them light; to go by day and night:",
+      "web": "LORD went before them by day in a pillar of cloud, to lead them on their way, and by night in a pillar of fire, to give them light, that they might go by day and by night:",
+      "ct": "The LORD went ahead of them — during the day as a pillar of cloud to guide their way, and at night as a pillar of fire to give them light — so they could travel both day and night."
+    },
+    {
+      "verse": 22,
+      "kjv": "He took not away the pillar of the cloud by day, nor the pillar of fire by night, from before the people.",
+      "web": "the pillar of cloud by day, and the pillar of fire by night, didn’t depart from before the people.",
+      "ct": "The pillar of cloud never left them during the day, and the pillar of fire never left them at night."
+    }
+  ]
+}

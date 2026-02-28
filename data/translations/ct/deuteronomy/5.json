@@ -1,0 +1,209 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:06:47.774Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Moses called all Israel, and said unto them, Hear, O Israel, the statutes and judgments which I speak in your ears this day, that ye may learn them, and keep, and do them.",
+      "web": "Moses called to all Israel, and said to them, “Hear, Israel, the statutes and the ordinances which I speak in your ears today, that you may learn them, and observe to do them.”",
+      "ct": "Moses gathered all of Israel together and said to them, \"Listen, Israel! I'm giving you these laws and regulations today. Learn them, and make sure you follow them.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD our God made a covenant with us in Horeb.",
+      "web": "LORD our God made a covenant with us in Horeb.",
+      "ct": "The LORD our God made a covenant with us at Horeb."
+    },
+    {
+      "verse": 3,
+      "kjv": "The LORD made not this covenant with our fathers, but with us, even us, who are all of us here alive this day.",
+      "web": "LORD didn’t make this covenant with our fathers, but with us, even us, who are all of us here alive today.",
+      "ct": "The LORD didn't make this covenant with our ancestors — he made it with us, all of us standing here alive today."
+    },
+    {
+      "verse": 4,
+      "kjv": "The LORD talked with you face to face in the mount out of the midst of the fire,",
+      "web": "LORD spoke with you face to face on the mountain out of the middle of the fire,",
+      "ct": "The LORD spoke to you face to face on the mountain from the middle of the fire."
+    },
+    {
+      "verse": 5,
+      "kjv": "(I stood between the LORD and you at that time, to shew you the word of the LORD: for ye were afraid by reason of the fire, and went not up into the mount;) saying,",
+      "web": "(I stood between LORD and you at that time, to show you LORD’s word; for you were afraid because of the fire, and didn’t go up onto the mountain) saying, ",
+      "ct": "(I stood between the LORD and you at that time to relay his word to you, because you were terrified of the fire and wouldn't go up the mountain.) He said:"
+    },
+    {
+      "verse": 6,
+      "kjv": "I am the LORD thy God, which brought thee out of the land of Egypt, from the house of bondage.",
+      "web": "“I am LORD your God, who brought you out of the land of Egypt, out of the house of bondage.",
+      "ct": "\"I am the LORD your God, who brought you out of Egypt, out of the land where you were slaves."
+    },
+    {
+      "verse": 7,
+      "kjv": "Thou shalt have none other gods before me.",
+      "web": "“You shall have no other gods before me.",
+      "ct": "\"You must have no other gods besides me."
+    },
+    {
+      "verse": 8,
+      "kjv": "Thou shalt not make thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the waters beneath the earth:",
+      "web": "“You shall not make a carved image for yourself—any likeness of what is in heaven above, or what is in the earth beneath, or that is in the water under the earth.",
+      "ct": "\"You must not make an idol for yourself — no carved image of anything in the heavens above, on the earth below, or in the waters beneath the earth."
+    },
+    {
+      "verse": 9,
+      "kjv": "Thou shalt not bow down thyself unto them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me,",
+      "web": "You shall not bow yourself down to them, nor serve them; for I, LORD your God, am a jealous God, visiting the iniquity of the fathers on the children and on the third and on the fourth generation of those who hate me;",
+      "ct": "You must not bow down to them or worship them, because I, the LORD your God, am a jealous God. I hold children accountable for the sin of their parents to the 3rd and 4th generation of those who hate me,"
+    },
+    {
+      "verse": 10,
+      "kjv": "And shewing mercy unto thousands of them that love me and keep my commandments.",
+      "web": "and showing loving kindness to thousands of those who love me and keep my commandments.",
+      "ct": "but I show mercy to thousands of generations of those who love me and obey my commandments."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou shalt not take the name of the LORD thy God in vain: for the LORD will not hold him guiltless that taketh his name in vain.",
+      "web": "“You shall not misuse the name of LORD your God; for LORD will not hold him guiltless who misuses his name.",
+      "ct": "\"You must not misuse the name of the LORD your God, because the LORD will not let anyone go unpunished who misuses his name."
+    },
+    {
+      "verse": 12,
+      "kjv": "Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee.",
+      "web": "“Observe the Sabbath day, to keep it holy, as LORD your God commanded you.",
+      "ct": "\"Keep the Sabbath day holy, just as the LORD your God commanded you."
+    },
+    {
+      "verse": 13,
+      "kjv": "Six days thou shalt labour, and do all thy work:",
+      "web": "You shall labor six days, and do all your work;",
+      "ct": "You have 6 days to do all your work,"
+    },
+    {
+      "verse": 14,
+      "kjv": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou.",
+      "web": "but the seventh day is a Sabbath to LORD your God, in which you shall not do any work— neither you, nor your son, nor your daughter, nor your male servant, nor your female servant, nor your ox, nor your donkey, nor any of your livestock, nor your stranger who is within your gates; that your male servant and your female servant may rest as well as you.",
+      "ct": "but the 7th day is a Sabbath belonging to the LORD your God. On that day, no one may do any work — not you, your son, your daughter, your male servant, your female servant, your ox, your donkey, any of your livestock, or any foreigner living among you. Your servants must rest just as you do."
+    },
+    {
+      "verse": 15,
+      "kjv": "And remember that thou wast a servant in the land of Egypt, and that the LORD thy God brought thee out thence through a mighty hand and by a stretched out arm: therefore the LORD thy God commanded thee to keep the sabbath day.",
+      "web": "You shall remember that you were a servant in the land of Egypt, and LORD your God brought you out of there by a mighty hand and by an outstretched arm. Therefore LORD your God commanded you to keep the Sabbath day.",
+      "ct": "Remember that you were once slaves in Egypt, and the LORD your God brought you out of there with his mighty hand and outstretched arm. That is why the LORD your God commands you to observe the Sabbath day."
+    },
+    {
+      "verse": 16,
+      "kjv": "Honour thy father and thy mother, as the LORD thy God hath commanded thee; that thy days may be prolonged, and that it may go well with thee, in the land which the LORD thy God giveth thee.",
+      "web": "“Honor your father and your mother, as LORD your God commanded you; that your days may be long, and that it may go well with you in the land which LORD your God gives you.",
+      "ct": "\"Honor your father and your mother, as the LORD your God commanded you, so that you will live a long life and things will go well for you in the land the LORD your God is giving you."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thou shalt not kill.",
+      "web": "“You shall not murder.",
+      "ct": "\"You must not murder."
+    },
+    {
+      "verse": 18,
+      "kjv": "Neither shalt thou commit adultery.",
+      "web": "“You shall not commit adultery.",
+      "ct": "\"You must not commit adultery."
+    },
+    {
+      "verse": 19,
+      "kjv": "Neither shalt thou steal.",
+      "web": "“You shall not steal.",
+      "ct": "\"You must not steal."
+    },
+    {
+      "verse": 20,
+      "kjv": "Neither shalt thou bear false witness against thy neighbour.",
+      "web": "“You shall not give false testimony against your neighbor.",
+      "ct": "\"You must not give false testimony against your neighbor."
+    },
+    {
+      "verse": 21,
+      "kjv": "Neither shalt thou desire thy neighbour’s wife, neither shalt thou covet thy neighbour’s house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour’s.",
+      "web": "“You shall not covet your neighbor’s wife. Neither shall you desire your neighbor’s house, his field, or his male servant, or his female servant, his ox, or his donkey, or anything that is your neighbor’s.”",
+      "ct": "\"You must not desire your neighbor's wife. You must not covet your neighbor's house, his field, his male servant, his female servant, his ox, his donkey, or anything that belongs to your neighbor.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.",
+      "web": "LORD spoke these words to all your assembly on the mountain out of the middle of the fire, of the cloud, and of the thick darkness, with a great voice. He added no more. He wrote them on two stone tablets, and gave them to me.",
+      "ct": "The LORD spoke these words to your entire assembly on the mountain, out of the fire, the cloud, and the deep darkness, with a thundering voice. He added nothing more. Then he wrote them on 2 stone tablets and gave them to me."
+    },
+    {
+      "verse": 23,
+      "kjv": "And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders;",
+      "web": "When you heard the voice out of the middle of the darkness, while the mountain was burning with fire, you came near to me, even all the heads of your tribes, and your elders;",
+      "ct": "When you heard that voice coming out of the darkness while the mountain blazed with fire, all the leaders of your tribes and your elders came to me."
+    },
+    {
+      "verse": 24,
+      "kjv": "And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.",
+      "web": "and you said, “Behold, LORD our God has shown us his glory and his greatness, and we have heard his voice out of the middle of the fire. We have seen today that God does speak with man, and he lives.",
+      "ct": "You said, \"The LORD our God has shown us his glory and his greatness! We've heard his voice from the middle of the fire. Today we've seen that God can speak directly to a human being, and that person can still live."
+    },
+    {
+      "verse": 25,
+      "kjv": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die.",
+      "web": "Now therefore, why should we die? For this great fire will consume us. If we hear LORD our God’s voice any more, then we shall die.",
+      "ct": "But why should we risk death? This enormous fire will destroy us! If we hear the voice of the LORD our God again, we'll die."
+    },
+    {
+      "verse": 26,
+      "kjv": "For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+      "web": "For who is there of all flesh, that has heard the voice of the living God speaking out of the middle of the fire, as we have, and lived?",
+      "ct": "Has any mortal ever heard the voice of the living God speaking from the middle of a fire the way we have — and survived?"
+    },
+    {
+      "verse": 27,
+      "kjv": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it.",
+      "web": "Go near, and hear all that LORD our God shall say, and tell us all that LORD our God tells you; and we will hear it, and do it.”",
+      "ct": "You go closer and listen to everything the LORD our God says. Then tell us what he told you, and we'll listen and obey.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And the LORD heard the voice of your words, when ye spake unto me; and the LORD said unto me, I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken.",
+      "web": "LORD heard the voice of your words when you spoke to me; and LORD said to me, “I have heard the voice of the words of this people which they have spoken to you. They have well said all that they have spoken.",
+      "ct": "The LORD heard what you said to me, and he told me, \"I've heard every word these people said to you. Everything they've said is right."
+    },
+    {
+      "verse": 29,
+      "kjv": "O that there were such an heart in them, that they would fear me, and keep all my commandments always, that it might be well with them, and with their children for ever!",
+      "web": "Oh that there were such a heart in them that they would fear me and keep all my commandments always, that it might be well with them and with their children forever!",
+      "ct": "If only they would always have hearts like this — hearts that fear me and keep all my commandments — then things would go well for them and their children forever!"
+    },
+    {
+      "verse": 30,
+      "kjv": "Go say to them, Get you into your tents again.",
+      "web": "“Go tell them, ‘Return to your tents.’",
+      "ct": "\"Go tell them to return to their tents."
+    },
+    {
+      "verse": 31,
+      "kjv": "But as for thee, stand thou here by me, and I will speak unto thee all the commandments, and the statutes, and the judgments, which thou shalt teach them, that they may do them in the land which I give them to possess it.",
+      "web": "But as for you, stand here by me, and I will tell you all the commandments, and the statutes, and the ordinances, which you shall teach them, that they may do them in the land which I give them to possess.”",
+      "ct": "But you stay here with me. I will give you all the commandments, laws, and regulations that you are to teach them, so they can follow them in the land I'm giving them to possess.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "Ye shall observe to do therefore as the LORD your God hath commanded you: ye shall not turn aside to the right hand or to the left.",
+      "web": "You shall observe to do therefore as LORD your God has commanded you. You shall not turn away to the right hand or to the left.",
+      "ct": "So be careful to do exactly what the LORD your God has commanded you. Don't stray to the right or to the left."
+    },
+    {
+      "verse": 33,
+      "kjv": "Ye shall walk in all the ways which the LORD your God hath commanded you, that ye may live, and that it may be well with you, and that ye may prolong your days in the land which ye shall possess.",
+      "web": "You shall walk in all the way which LORD your God has commanded you, that you may live and that it may be well with you, and that you may prolong your days in the land which you shall possess.",
+      "ct": "Follow every path the LORD your God has laid out for you, so that you will live, things will go well for you, and you will enjoy a long life in the land you are about to possess."
+    }
+  ]
+}

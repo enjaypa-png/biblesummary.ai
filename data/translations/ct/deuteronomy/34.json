@@ -1,0 +1,83 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 34,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:17:23.099Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Moses went up from the plains of Moab unto the mountain of Nebo, to the top of Pisgah, that is over against Jericho. And the LORD shewed him all the land of Gilead, unto Dan,",
+      "web": "Moses went up from the plains of Moab to Mount Nebo, to the top of Pisgah, that is opposite Jericho. LORD showed him all the land of Gilead to Dan,",
+      "ct": "Moses climbed from the plains of Moab up to Mount Nebo, to the peak of Pisgah, which faces Jericho. There the LORD showed him the entire land — from Gilead all the way to Dan,"
+    },
+    {
+      "verse": 2,
+      "kjv": "And all Naphtali, and the land of Ephraim, and Manasseh, and all the land of Judah, unto the utmost sea,",
+      "web": "and all Naphtali, and the land of Ephraim and Manasseh, and all the land of Judah, to the Western Sea,",
+      "ct": "the whole territory of Naphtali, the lands of Ephraim and Manasseh, and all of Judah stretching west to the Mediterranean Sea,"
+    },
+    {
+      "verse": 3,
+      "kjv": "And the south, and the plain of the valley of Jericho, the city of palm trees, unto Zoar.",
+      "web": "and the south, and the Plain of the valley of Jericho the city of palm trees, to Zoar.",
+      "ct": "the southern desert region, and the Jordan Valley around Jericho — the city of palm trees — all the way down to Zoar."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the LORD said unto him, This is the land which I sware unto Abraham, unto Isaac, and unto Jacob, saying, I will give it unto thy seed: I have caused thee to see it with thine eyes, but thou shalt not go over thither.",
+      "web": "LORD said to him, “This is the land which I swore to Abraham, to Isaac, and to Jacob, saying, ‘I will give it to your offspring.’ I have caused you to see it with your eyes, but you shall not go over there.”",
+      "ct": "Then the LORD told him, \"This is the land I promised to Abraham, Isaac, and Jacob when I said, 'I will give it to your descendants.' I've let you see it with your own eyes, but you will not cross over into it.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "So Moses the servant of the LORD died there in the land of Moab, according to the word of the LORD.",
+      "web": "So Moses the servant of LORD died there in the land of Moab, according to LORD’s word.",
+      "ct": "Moses, the servant of the LORD, died there in the land of Moab, just as the LORD had said."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he buried him in a valley in the land of Moab, over against Bethpeor: but no man knoweth of his sepulchre unto this day.",
+      "web": "He buried him in the valley in the land of Moab opposite Beth Peor, but no man knows where his tomb is to this day.",
+      "ct": "God buried him in a valley in Moab, across from Beth Peor, but to this day no one knows where his grave is."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Moses was an hundred and twenty years old when he died: his eye was not dim, nor his natural force abated.",
+      "web": "Moses was one hundred twenty years old when he died. His eye was not dim, nor his strength gone.",
+      "ct": "Moses was 120 years old when he died. His eyesight was still sharp, and his strength hadn't faded."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the children of Israel wept for Moses in the plains of Moab thirty days: so the days of weeping and mourning for Moses were ended.",
+      "web": "The children of Israel wept for Moses in the plains of Moab thirty days, until the days of weeping in the mourning for Moses were ended.",
+      "ct": "The people of Israel mourned for Moses in the plains of Moab for 30 days. Then the time of weeping and mourning came to an end."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Joshua the son of Nun was full of the spirit of wisdom; for Moses had laid his hands upon him: and the children of Israel hearkened unto him, and did as the LORD commanded Moses.",
+      "web": "Joshua the son of Nun was full of the spirit of wisdom, for Moses had laid his hands on him. The children of Israel listened to him, and did as LORD commanded Moses.",
+      "ct": "Joshua son of Nun was filled with the spirit of wisdom, because Moses had laid his hands on him. The people of Israel followed his leadership and obeyed everything the LORD had commanded through Moses."
+    },
+    {
+      "verse": 10,
+      "kjv": "And there arose not a prophet since in Israel like unto Moses, whom the LORD knew face to face,",
+      "web": "Since then, there has not arisen a prophet in Israel like Moses, whom LORD knew face to face,",
+      "ct": "No prophet has ever risen in Israel like Moses, whom the LORD knew face to face —"
+    },
+    {
+      "verse": 11,
+      "kjv": "In all the signs and the wonders, which the LORD sent him to do in the land of Egypt to Pharaoh, and to all his servants, and to all his land,",
+      "web": "in all the signs and the wonders which LORD sent him to do in the land of Egypt, to Pharaoh, and to all his servants, and to all his land,",
+      "ct": "no one who matched the signs and wonders the LORD sent him to perform in Egypt against Pharaoh, all his officials, and his entire land,"
+    },
+    {
+      "verse": 12,
+      "kjv": "And in all that mighty hand, and in all the great terror which Moses shewed in the sight of all Israel.",
+      "web": "and in all the mighty hand, and in all the awesome deeds, which Moses did in the sight of all Israel.",
+      "ct": "and no one who displayed such mighty power or carried out such terrifying acts as Moses did before the eyes of all Israel."
+    }
+  ]
+}

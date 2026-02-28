@@ -1,0 +1,317 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:50:46.819Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "These also are the generations of Aaron and Moses in the day that the LORD spake with Moses in mount Sinai.",
+      "web": "Now this is the history of the generations of Aaron and Moses in the day that LORD spoke with Moses in Mount Sinai.",
+      "ct": "This is the family record of Aaron and Moses from the time the LORD spoke with Moses on Mount Sinai."
+    },
+    {
+      "verse": 2,
+      "kjv": "And these are the names of the sons of Aaron; Nadab the firstborn, and Abihu, Eleazar, and Ithamar.",
+      "web": "These are the names of the sons of Aaron: Nadab the firstborn, and Abihu, Eleazar, and Ithamar.",
+      "ct": "Aaron's sons were Nadab the firstborn, Abihu, Eleazar, and Ithamar."
+    },
+    {
+      "verse": 3,
+      "kjv": "These are the names of the sons of Aaron, the priests which were anointed, whom he consecrated to minister in the priest’s office.",
+      "web": "These are the names of the sons of Aaron, the priests who were anointed, whom he consecrated to minister in the priest’s office.",
+      "ct": "These were Aaron's sons, the anointed priests who were consecrated to serve in the priesthood."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Nadab and Abihu died before the LORD, when they offered strange fire before the LORD, in the wilderness of Sinai, and they had no children: and Eleazar and Ithamar ministered in the priest’s office in the sight of Aaron their father.",
+      "web": "Nadab and Abihu died before LORD when they offered strange fire before LORD in the wilderness of Sinai, and they had no children. Eleazar and Ithamar ministered in the priest’s office in the presence of Aaron their father.",
+      "ct": "But Nadab and Abihu died in the LORD's presence when they offered unauthorized fire before the LORD in the wilderness of Sinai. They had no children, so Eleazar and Ithamar carried out the priestly duties under the supervision of their father Aaron."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD said to Moses,"
+    },
+    {
+      "verse": 6,
+      "kjv": "Bring the tribe of Levi near, and present them before Aaron the priest, that they may minister unto him.",
+      "web": "“Bring the tribe of Levi near, and set them before Aaron the priest, that they may minister to him.",
+      "ct": "\"Bring the tribe of Levi forward and present them to Aaron the priest so they can serve under him."
+    },
+    {
+      "verse": 7,
+      "kjv": "And they shall keep his charge, and the charge of the whole congregation before the tabernacle of the congregation, to do the service of the tabernacle.",
+      "web": "They shall keep his requirements, and the requirements of the whole congregation before the Tent of Meeting, to do the service of the tabernacle.",
+      "ct": "They will carry out duties for Aaron and for the whole community at the Tent of Meeting, doing the work of the tabernacle."
+    },
+    {
+      "verse": 8,
+      "kjv": "And they shall keep all the instruments of the tabernacle of the congregation, and the charge of the children of Israel, to do the service of the tabernacle.",
+      "web": "They shall keep all the furnishings of the Tent of Meeting, and the obligations of the children of Israel, to do the service of the tabernacle.",
+      "ct": "They will take care of all the furnishings of the Tent of Meeting and handle the responsibilities assigned by the Israelites for the service of the tabernacle."
+    },
+    {
+      "verse": 9,
+      "kjv": "And thou shalt give the Levites unto Aaron and to his sons: they are wholly given unto him out of the children of Israel.",
+      "web": "You shall give the Levites to Aaron and to his sons. They are wholly given to him on the behalf of the children of Israel.",
+      "ct": "Assign the Levites to Aaron and his sons. They are given entirely to him from among the Israelites."
+    },
+    {
+      "verse": 10,
+      "kjv": "And thou shalt appoint Aaron and his sons, and they shall wait on their priest’s office: and the stranger that cometh nigh shall be put to death.",
+      "web": "You shall appoint Aaron and his sons, and they shall keep their priesthood, but the stranger who comes near shall be put to death.”",
+      "ct": "Appoint Aaron and his sons to carry out the priesthood. Any unauthorized person who approaches the sanctuary must be put to death.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD also said to Moses,"
+    },
+    {
+      "verse": 12,
+      "kjv": "And I, behold, I have taken the Levites from among the children of Israel instead of all the firstborn that openeth the matrix among the children of Israel: therefore the Levites shall be mine;",
+      "web": "“Behold, I have taken the Levites from among the children of Israel instead of all the firstborn who open the womb among the children of Israel; and the Levites shall be mine,",
+      "ct": "\"I have chosen the Levites from among the Israelites as substitutes for every firstborn son. The Levites belong to me,"
+    },
+    {
+      "verse": 13,
+      "kjv": "Because all the firstborn are mine; for on the day that I smote all the firstborn in the land of Egypt I hallowed unto me all the firstborn in Israel, both man and beast: mine shall they be: I am the LORD.",
+      "web": "for all the firstborn are mine. On the day that I struck down all the firstborn in the land of Egypt I made holy to me all the firstborn in Israel, both man and animal. They shall be mine. I am LORD.”",
+      "ct": "because every firstborn is mine. On the day I struck down all the firstborn in Egypt, I set apart every firstborn in Israel for myself — both people and animals. They are mine. I am the LORD.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And the LORD spake unto Moses in the wilderness of Sinai, saying,",
+      "web": "LORD spoke to Moses in the wilderness of Sinai, saying,",
+      "ct": "The LORD spoke to Moses in the wilderness of Sinai and said,"
+    },
+    {
+      "verse": 15,
+      "kjv": "Number the children of Levi after the house of their fathers, by their families: every male from a month old and upward shalt thou number them.",
+      "web": "“Count the children of Levi by their fathers’ houses, by their families. You shall count every male from a month old and upward.”",
+      "ct": "\"Count the Levites by their ancestral families and clans. Count every male who is 1 month old or older.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And Moses numbered them according to the word of the LORD, as he was commanded.",
+      "web": "Moses counted them according to LORD’s word, as he was commanded.",
+      "ct": "So Moses counted them just as the LORD commanded."
+    },
+    {
+      "verse": 17,
+      "kjv": "And these were the sons of Levi by their names; Gershon, and Kohath, and Merari.",
+      "web": "These were the sons of Levi by their names: Gershon, Kohath, and Merari.",
+      "ct": "Levi had 3 sons: Gershon, Kohath, and Merari."
+    },
+    {
+      "verse": 18,
+      "kjv": "And these are the names of the sons of Gershon by their families; Libni, and Shimei.",
+      "web": "These are the names of the sons of Gershon by their families: Libni and Shimei.",
+      "ct": "Gershon's sons and their clans were Libni and Shimei."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the sons of Kohath by their families; Amram, and Izehar, Hebron, and Uzziel.",
+      "web": "The sons of Kohath by their families: Amram, Izhar, Hebron, and Uzziel.",
+      "ct": "Kohath's sons and their clans were Amram, Izehar, Hebron, and Uzziel."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the sons of Merari by their families; Mahli, and Mushi. These are the families of the Levites according to the house of their fathers.",
+      "web": "The sons of Merari by their families: Mahli and Mushi. These are the families of the Levites according to their fathers’ houses.",
+      "ct": "Merari's sons and their clans were Mahli and Mushi. These were the Levite clans, organized by their ancestral families."
+    },
+    {
+      "verse": 21,
+      "kjv": "Of Gershon was the family of the Libnites, and the family of the Shimites: these are the families of the Gershonites.",
+      "web": "Of Gershon was the family of the Libnites, and the family of the Shimeites. These are the families of the Gershonites.",
+      "ct": "From Gershon came the clan of the Libnites and the clan of the Shimites. Together they made up the Gershonite clans."
+    },
+    {
+      "verse": 22,
+      "kjv": "Those that were numbered of them, according to the number of all the males, from a month old and upward, even those that were numbered of them were seven thousand and five hundred.",
+      "web": "Those who were counted of them, according to the number of all the males from a month old and upward, even those who were counted of them were seven thousand five hundred.",
+      "ct": "The total number of males 1 month old or older among the Gershonites was 7,500."
+    },
+    {
+      "verse": 23,
+      "kjv": "The families of the Gershonites shall pitch behind the tabernacle westward.",
+      "web": "The families of the Gershonites shall encamp behind the tabernacle westward.",
+      "ct": "The Gershonite clans were to set up camp behind the tabernacle, on the west side."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the chief of the house of the father of the Gershonites shall be Eliasaph the son of Lael.",
+      "web": "Eliasaph the son of Lael shall be the prince of the fathers’ house of the Gershonites.",
+      "ct": "Their leader was Eliasaph son of Lael."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the charge of the sons of Gershon in the tabernacle of the congregation shall be the tabernacle, and the tent, the covering thereof, and the hanging for the door of the tabernacle of the congregation,",
+      "web": "The duty of the sons of Gershon in the Tent of Meeting shall be the tabernacle, the tent, its covering, the screen for the door of the Tent of Meeting,",
+      "ct": "The Gershonites were responsible for the tabernacle itself, including the tent, its outer covering, and the curtain at the entrance to the Tent of Meeting."
+    },
+    {
+      "verse": 26,
+      "kjv": "And the hangings of the court, and the curtain for the door of the court, which is by the tabernacle, and by the altar round about, and the cords of it for all the service thereof.",
+      "web": "the hangings of the court, the screen for the door of the court which is by the tabernacle and around the altar, and its cords for all of its service.",
+      "ct": "They also cared for the courtyard curtains, the screen at the courtyard entrance near the tabernacle and altar, and the ropes — everything related to maintaining these items."
+    },
+    {
+      "verse": 27,
+      "kjv": "And of Kohath was the family of the Amramites, and the family of the Izeharites, and the family of the Hebronites, and the family of the Uzzielites: these are the families of the Kohathites.",
+      "web": "Of Kohath was the family of the Amramites, the family of the Izharites, the family of the Hebronites, and the family of the Uzzielites. These are the families of the Kohathites.",
+      "ct": "From Kohath came the clan of the Amramites, the Izeharites, the Hebronites, and the Uzzielites. Together they made up the Kohathite clans."
+    },
+    {
+      "verse": 28,
+      "kjv": "In the number of all the males, from a month old and upward, were eight thousand and six hundred, keeping the charge of the sanctuary.",
+      "web": "According to the number of all the males from a month old and upward, there were eight thousand six hundred keeping the requirements of the sanctuary.",
+      "ct": "The total number of males 1 month old or older was 8,600. They were responsible for the care of the sanctuary."
+    },
+    {
+      "verse": 29,
+      "kjv": "The families of the sons of Kohath shall pitch on the side of the tabernacle southward.",
+      "web": "The families of the sons of Kohath shall encamp on the south side of the tabernacle.",
+      "ct": "The Kohathite clans were to set up camp on the south side of the tabernacle."
+    },
+    {
+      "verse": 30,
+      "kjv": "And the chief of the house of the father of the families of the Kohathites shall be Elizaphan the son of Uzziel.",
+      "web": "The prince of the fathers’ house of the families of the Kohathites shall be Elizaphan the son of Uzziel.",
+      "ct": "Their leader was Elizaphan son of Uzziel."
+    },
+    {
+      "verse": 31,
+      "kjv": "And their charge shall be the ark, and the table, and the candlestick, and the altars, and the vessels of the sanctuary wherewith they minister, and the hanging, and all the service thereof.",
+      "web": "Their duty shall be the ark, the table, the lamp stand, the altars, the vessels of the sanctuary with which they minister, the screen, and all its service.",
+      "ct": "They were responsible for the ark, the table, the lampstand, the altars, the sacred vessels used in worship, the inner curtain, and everything related to their upkeep."
+    },
+    {
+      "verse": 32,
+      "kjv": "And Eleazar the son of Aaron the priest shall be chief over the chief of the Levites, and have the oversight of them that keep the charge of the sanctuary.",
+      "web": "Eleazar the son of Aaron the priest shall be prince of the princes of the Levites, with the oversight of those who keep the requirements of the sanctuary.",
+      "ct": "Eleazar son of Aaron the priest served as the chief leader over all the Levites, overseeing everyone assigned to care for the sanctuary."
+    },
+    {
+      "verse": 33,
+      "kjv": "Of Merari was the family of the Mahlites, and the family of the Mushites: these are the families of Merari.",
+      "web": "Of Merari was the family of the Mahlites and the family of the Mushites. These are the families of Merari.",
+      "ct": "From Merari came the clan of the Mahlites and the clan of the Mushites. Together they made up the Merarite clans."
+    },
+    {
+      "verse": 34,
+      "kjv": "And those that were numbered of them, according to the number of all the males, from a month old and upward, were six thousand and two hundred.",
+      "web": "Those who were counted of them, according to the number of all the males from a month old and upward, were six thousand two hundred.",
+      "ct": "The total number of males 1 month old or older was 6,200."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the chief of the house of the father of the families of Merari was Zuriel the son of Abihail: these shall pitch on the side of the tabernacle northward.",
+      "web": "The prince of the fathers’ house of the families of Merari was Zuriel the son of Abihail. They shall encamp on the north side of the tabernacle.",
+      "ct": "Their leader was Zuriel son of Abihail. The Merarite clans were to set up camp on the north side of the tabernacle."
+    },
+    {
+      "verse": 36,
+      "kjv": "And under the custody and charge of the sons of Merari shall be the boards of the tabernacle, and the bars thereof, and the pillars thereof, and the sockets thereof, and all the vessels thereof, and all that serveth thereto,",
+      "web": "The appointed duty of the sons of Merari shall be the tabernacle’s boards, its bars, its pillars, its sockets, all its instruments, all its service,",
+      "ct": "The Merarites were assigned to care for the tabernacle's frames, crossbars, posts, bases, all its equipment, and everything related to their upkeep."
+    },
+    {
+      "verse": 37,
+      "kjv": "And the pillars of the court round about, and their sockets, and their pins, and their cords.",
+      "web": "the pillars of the court around it, their sockets, their pins, and their cords.",
+      "ct": "They also cared for the posts around the courtyard, along with their bases, tent pegs, and ropes."
+    },
+    {
+      "verse": 38,
+      "kjv": "But those that encamp before the tabernacle toward the east, even before the tabernacle of the congregation eastward, shall be Moses, and Aaron and his sons, keeping the charge of the sanctuary for the charge of the children of Israel; and the stranger that cometh nigh shall be put to death.",
+      "web": "Those who encamp before the tabernacle eastward, in front of the Tent of Meeting toward the sunrise, shall be Moses, and Aaron and his sons, keeping the requirements of the sanctuary for the duty of the children of Israel. The outsider who comes near shall be put to death.",
+      "ct": "Moses, Aaron, and Aaron's sons were to camp on the east side, directly in front of the Tent of Meeting, toward the sunrise. They were responsible for the sanctuary duties on behalf of the Israelites. Any unauthorized person who approached the sanctuary was to be put to death."
+    },
+    {
+      "verse": 39,
+      "kjv": "All that were numbered of the Levites, which Moses and Aaron numbered at the commandment of the LORD, throughout their families, all the males from a month old and upward, were twenty and two thousand.",
+      "web": "All who were counted of the Levites, whom Moses and Aaron counted at the commandment of LORD, by their families, all the males from a month old and upward, were twenty-two thousand.",
+      "ct": "The total number of Levite males 1 month old or older, counted by Moses and Aaron at the LORD's command and organized by clan, was 22,000."
+    },
+    {
+      "verse": 40,
+      "kjv": "And the LORD said unto Moses, Number all the firstborn of the males of the children of Israel from a month old and upward, and take the number of their names.",
+      "web": "LORD said to Moses, “Count all the firstborn males of the children of Israel from a month old and upward, and take the number of their names.",
+      "ct": "Then the LORD told Moses, \"Count every firstborn male among the Israelites who is 1 month old or older, and record their names."
+    },
+    {
+      "verse": 41,
+      "kjv": "And thou shalt take the Levites for me (I am the LORD) instead of all the firstborn among the children of Israel; and the cattle of the Levites instead of all the firstlings among the cattle of the children of Israel.",
+      "web": "You shall take the Levites for me—I am LORD—instead of all the firstborn among the children of Israel; and the livestock of the Levites instead of all the firstborn among the livestock of the children of Israel.”",
+      "ct": "Set apart the Levites for me — I am the LORD — as substitutes for all the firstborn among the Israelites. Also set apart the Levites' livestock as substitutes for all the firstborn livestock of the Israelites.\""
+    },
+    {
+      "verse": 42,
+      "kjv": "And Moses numbered, as the LORD commanded him, all the firstborn among the children of Israel.",
+      "web": "Moses counted, as LORD commanded him, all the firstborn among the children of Israel.",
+      "ct": "So Moses counted all the firstborn among the Israelites, just as the LORD commanded."
+    },
+    {
+      "verse": 43,
+      "kjv": "And all the firstborn males by the number of names, from a month old and upward, of those that were numbered of them, were twenty and two thousand two hundred and threescore and thirteen.",
+      "web": "All the firstborn males according to the number of names from a month old and upward, of those who were counted of them, were twenty-two thousand two hundred seventy-three.",
+      "ct": "The total number of firstborn males 1 month old or older, counted by name, was 22,273."
+    },
+    {
+      "verse": 44,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD said to Moses,"
+    },
+    {
+      "verse": 45,
+      "kjv": "Take the Levites instead of all the firstborn among the children of Israel, and the cattle of the Levites instead of their cattle; and the Levites shall be mine: I am the LORD.",
+      "web": "“Take the Levites instead of all the firstborn among the children of Israel, and the livestock of the Levites instead of their livestock; and the Levites shall be mine. I am LORD.",
+      "ct": "\"Take the Levites as substitutes for all the firstborn among the Israelites, and take the Levites' livestock as substitutes for their livestock. The Levites are mine. I am the LORD."
+    },
+    {
+      "verse": 46,
+      "kjv": "And for those that are to be redeemed of the two hundred and threescore and thirteen of the firstborn of the children of Israel, which are more than the Levites;",
+      "web": "For the redemption of the two hundred seventy-three of the firstborn of the children of Israel who exceed the number of the Levites,",
+      "ct": "Since there are 273 more firstborn Israelites than there are Levites, you must pay a redemption price for those extra 273."
+    },
+    {
+      "verse": 47,
+      "kjv": "Thou shalt even take five shekels apiece by the poll, after the shekel of the sanctuary shalt thou take them: (the shekel is twenty gerahs:)",
+      "web": "you shall take five shekels apiece for each one; according to the shekel of the sanctuary you shall take them (the shekel is twenty gerahs);",
+      "ct": "Collect 5 shekels for each one, measured by the sanctuary standard — which is 20 gerahs per shekel."
+    },
+    {
+      "verse": 48,
+      "kjv": "And thou shalt give the money, wherewith the odd number of them is to be redeemed, unto Aaron and to his sons.",
+      "web": "and you shall give the money, with which their remainder is redeemed, to Aaron and to his sons.”",
+      "ct": "Give this redemption money to Aaron and his sons.\""
+    },
+    {
+      "verse": 49,
+      "kjv": "And Moses took the redemption money of them that were over and above them that were redeemed by the Levites:",
+      "web": "Moses took the redemption money from those who exceeded the number of those who were redeemed by the Levites;",
+      "ct": "So Moses collected the redemption money for those firstborn who exceeded the number of Levites."
+    },
+    {
+      "verse": 50,
+      "kjv": "Of the firstborn of the children of Israel took he the money; a thousand three hundred and threescore and five shekels, after the shekel of the sanctuary:",
+      "web": "from the firstborn of the children of Israel he took the money, one thousand three hundred sixty-five shekels, according to the shekel of the sanctuary;",
+      "ct": "From the firstborn of the Israelites, he collected 1,365 shekels, measured by the sanctuary standard."
+    },
+    {
+      "verse": 51,
+      "kjv": "And Moses gave the money of them that were redeemed unto Aaron and to his sons, according to the word of the LORD, as the LORD commanded Moses.",
+      "web": "and Moses gave the redemption money to Aaron and to his sons, according to LORD’s word, as LORD commanded Moses.",
+      "ct": "Moses gave the redemption money to Aaron and his sons, just as the LORD had commanded."
+    }
+  ]
+}

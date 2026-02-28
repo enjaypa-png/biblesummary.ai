@@ -1,0 +1,143 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:57:35.283Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses and unto Aaron, saying,",
+      "web": "LORD spoke to Moses and to Aaron, saying,",
+      "ct": "The LORD spoke to Moses and Aaron and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "This is the ordinance of the law which the LORD hath commanded, saying, Speak unto the children of Israel, that they bring thee a red heifer without spot, wherein is no blemish, and upon which never came yoke:",
+      "web": "“This is the statute of the law which LORD has commanded. Tell the children of Israel to bring you a red heifer without spot, in which is no defect, and which was never yoked.",
+      "ct": "\"This is what the law requires, as the LORD has commanded: Tell the Israelites to bring you a red heifer that has no spot or defect and has never worn a yoke."
+    },
+    {
+      "verse": 3,
+      "kjv": "And ye shall give her unto Eleazar the priest, that he may bring her forth without the camp, and one shall slay her before his face:",
+      "web": "You shall give her to Eleazar the priest, and he shall bring her outside of the camp, and one shall kill her before his face.",
+      "ct": "Give it to Eleazar the priest. He will have it taken outside the camp, and it will be slaughtered in his presence."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Eleazar the priest shall take of her blood with his finger, and sprinkle of her blood directly before the tabernacle of the congregation seven times:",
+      "web": "Eleazar the priest shall take some of her blood with his finger, and sprinkle her blood toward the front of the Tent of Meeting seven times.",
+      "ct": "Eleazar the priest must then dip his finger in its blood and sprinkle it 7 times toward the front of the Tabernacle."
+    },
+    {
+      "verse": 5,
+      "kjv": "And one shall burn the heifer in his sight; her skin, and her flesh, and her blood, with her dung, shall he burn:",
+      "web": "One shall burn the heifer in his sight; her skin, and her meat, and her blood, with her dung, shall he burn.",
+      "ct": "While he watches, someone must burn the entire heifer — its skin, its flesh, its blood, and its dung."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the priest shall take cedar wood, and hyssop, and scarlet, and cast it into the midst of the burning of the heifer.",
+      "web": "The priest shall take cedar wood, hyssop, and scarlet, and cast it into the middle of the burning of the heifer.",
+      "ct": "The priest must then take cedar wood, hyssop, and scarlet yarn and throw them into the fire where the heifer is burning."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then the priest shall wash his clothes, and he shall bathe his flesh in water, and afterward he shall come into the camp, and the priest shall be unclean until the even.",
+      "web": "Then the priest shall wash his clothes, and he shall bathe his flesh in water, and afterward he shall come into the camp, and the priest shall be unclean until the evening.",
+      "ct": "After that, the priest must wash his clothes and bathe himself in water. He may then return to the camp, but he will remain unclean until evening."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he that burneth her shall wash his clothes in water, and bathe his flesh in water, and shall be unclean until the even.",
+      "web": "He who burns her shall wash his clothes in water, and bathe his flesh in water, and shall be unclean until the evening.",
+      "ct": "The person who burned the heifer must also wash his clothes and bathe in water, and he too will be unclean until evening."
+    },
+    {
+      "verse": 9,
+      "kjv": "And a man that is clean shall gather up the ashes of the heifer, and lay them up without the camp in a clean place, and it shall be kept for the congregation of the children of Israel for a water of separation: it is a purification for sin.",
+      "web": "“A man who is clean shall gather up the ashes of the heifer, and lay them up outside of the camp in a clean place; and it shall be kept for the congregation of the children of Israel for use in water for cleansing impurity. It is a sin offering.",
+      "ct": "Someone who is ceremonially clean must gather up the ashes of the heifer and store them in a clean place outside the camp. These ashes will be kept for the Israelite community to mix with water for purification. This is a sin offering."
+    },
+    {
+      "verse": 10,
+      "kjv": "And he that gathereth the ashes of the heifer shall wash his clothes, and be unclean until the even: and it shall be unto the children of Israel, and unto the stranger that sojourneth among them, for a statute for ever.",
+      "web": "He who gathers the ashes of the heifer shall wash his clothes, and be unclean until the evening. It shall be to the children of Israel, and to the stranger who lives as a foreigner among them, for a statute forever.",
+      "ct": "The person who gathers the ashes must wash his clothes and will be unclean until evening. This is a permanent law for both the Israelites and any foreigners living among them."
+    },
+    {
+      "verse": 11,
+      "kjv": "He that toucheth the dead body of any man shall be unclean seven days.",
+      "web": "“He who touches the dead body of any man shall be unclean seven days.",
+      "ct": "Anyone who touches a dead human body will be unclean for 7 days."
+    },
+    {
+      "verse": 12,
+      "kjv": "He shall purify himself with it on the third day, and on the seventh day he shall be clean: but if he purify not himself the third day, then the seventh day he shall not be clean.",
+      "web": "He shall purify himself with water on the third day, and on the seventh day he shall be clean; but if he doesn’t purify himself the third day, then the seventh day he shall not be clean.",
+      "ct": "He must purify himself with the water on the 3rd day and again on the 7th day, and then he will be clean. But if he doesn't purify himself on the 3rd day, he won't be clean on the 7th day either."
+    },
+    {
+      "verse": 13,
+      "kjv": "Whosoever toucheth the dead body of any man that is dead, and purifieth not himself, defileth the tabernacle of the LORD; and that soul shall be cut off from Israel: because the water of separation was not sprinkled upon him, he shall be unclean; his uncleanness is yet upon him.",
+      "web": "Whoever touches a dead person, the body of a man who has died, and doesn’t purify himself, defiles LORD’s tabernacle; and that soul shall be cut off from Israel; because the water for impurity was not sprinkled on him, he shall be unclean. His uncleanness is yet on him.",
+      "ct": "Anyone who touches a dead body and fails to go through purification has defiled the LORD's Tabernacle. That person must be cut off from Israel. Because the purification water was never sprinkled on him, he remains unclean — his defilement stays on him."
+    },
+    {
+      "verse": 14,
+      "kjv": "This is the law, when a man dieth in a tent: all that come into the tent, and all that is in the tent, shall be unclean seven days.",
+      "web": "“This is the law when a man dies in a tent: everyone who comes into the tent, and everyone who is in the tent, shall be unclean seven days.",
+      "ct": "Here is the rule when someone dies inside a tent: everyone who enters that tent and everyone already inside it will be unclean for 7 days."
+    },
+    {
+      "verse": 15,
+      "kjv": "And every open vessel, which hath no covering bound upon it, is unclean.",
+      "web": "Every open vessel, which has no covering bound on it, is unclean.",
+      "ct": "Any open container that doesn't have a lid fastened on it is also unclean."
+    },
+    {
+      "verse": 16,
+      "kjv": "And whosoever toucheth one that is slain with a sword in the open fields, or a dead body, or a bone of a man, or a grave, shall be unclean seven days.",
+      "web": "“Whoever in the open field touches one who is slain with a sword, or a dead body, or a bone of a man, or a grave, shall be unclean seven days.",
+      "ct": "Anyone out in the open who touches someone killed by a sword, or any dead body, or a human bone, or a grave, will be unclean for 7 days."
+    },
+    {
+      "verse": 17,
+      "kjv": "And for an unclean person they shall take of the ashes of the burnt heifer of purification for sin, and running water shall be put thereto in a vessel:",
+      "web": "“For the unclean, they shall take of the ashes of the burning of the sin offering; and running water shall be poured on them in a vessel.",
+      "ct": "To purify an unclean person, take some of the ashes from the burned sin offering and put them in a container, then pour fresh running water over them."
+    },
+    {
+      "verse": 18,
+      "kjv": "And a clean person shall take hyssop, and dip it in the water, and sprinkle it upon the tent, and upon all the vessels, and upon the persons that were there, and upon him that touched a bone, or one slain, or one dead, or a grave:",
+      "web": "A clean person shall take hyssop, dip it in the water, and sprinkle it on the tent, on all the vessels, on the persons who were there, and on him who touched the bone, or the slain, or the dead, or the grave.",
+      "ct": "A person who is ceremonially clean must take a branch of hyssop, dip it in the water, and sprinkle it on the tent, on every object in it, and on every person who was there. He must also sprinkle anyone who touched a bone, a body killed in battle, someone who died naturally, or a grave."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the clean person shall sprinkle upon the unclean on the third day, and on the seventh day: and on the seventh day he shall purify himself, and wash his clothes, and bathe himself in water, and shall be clean at even.",
+      "web": "The clean person shall sprinkle on the unclean on the third day, and on the seventh day. On the seventh day, he shall purify him. He shall wash his clothes and bathe himself in water, and shall be clean at evening.",
+      "ct": "The clean person must sprinkle the unclean person on the 3rd day and on the 7th day. On the 7th day, the unclean person must complete his purification by washing his clothes and bathing in water. By evening, he will be clean."
+    },
+    {
+      "verse": 20,
+      "kjv": "But the man that shall be unclean, and shall not purify himself, that soul shall be cut off from among the congregation, because he hath defiled the sanctuary of the LORD: the water of separation hath not been sprinkled upon him; he is unclean.",
+      "web": "But the man who shall be unclean, and shall not purify himself, that soul shall be cut off from among the assembly, because he has defiled the sanctuary of LORD. The water for impurity has not been sprinkled on him. He is unclean.",
+      "ct": "But if someone who is unclean refuses to go through purification, that person must be cut off from the community, because he has defiled the LORD's sanctuary. The purification water was never sprinkled on him — he is still unclean."
+    },
+    {
+      "verse": 21,
+      "kjv": "And it shall be a perpetual statute unto them, that he that sprinkleth the water of separation shall wash his clothes; and he that toucheth the water of separation shall be unclean until even.",
+      "web": "It shall be a perpetual statute to them. He who sprinkles the water for impurity shall wash his clothes, and he who touches the water for impurity shall be unclean until evening.",
+      "ct": "This will be a permanent law for them: the person who sprinkles the purification water must wash his clothes, and anyone who touches the purification water will be unclean until evening."
+    },
+    {
+      "verse": 22,
+      "kjv": "And whatsoever the unclean person toucheth shall be unclean; and the soul that toucheth it shall be unclean until even.",
+      "web": "“Whatever the unclean person touches shall be unclean; and the soul that touches it shall be unclean until evening.”",
+      "ct": "Whatever an unclean person touches becomes unclean, and anyone who touches that object will be unclean until evening.\""
+    }
+  ]
+}

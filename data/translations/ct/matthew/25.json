@@ -1,0 +1,287 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 25,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:17:55.812Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then shall the kingdom of heaven be likened unto ten virgins, which took their lamps, and went forth to meet the bridegroom.",
+      "web": "“Then the Kingdom of Heaven will be like ten virgins, who took their lamps, and went out to meet the bridegroom.",
+      "ct": "\"At that time, the kingdom of heaven will be like 10 young women who took their lamps and went out to meet the bridegroom."
+    },
+    {
+      "verse": 2,
+      "kjv": "And five of them were wise, and five were foolish.",
+      "web": "Five of them were foolish, and five were wise.",
+      "ct": "5 of them were foolish, and 5 were wise."
+    },
+    {
+      "verse": 3,
+      "kjv": "They that were foolish took their lamps, and took no oil with them:",
+      "web": "Those who were foolish, when they took their lamps, took no oil with them,",
+      "ct": "The foolish ones brought their lamps but didn't bring any extra oil."
+    },
+    {
+      "verse": 4,
+      "kjv": "But the wise took oil in their vessels with their lamps.",
+      "web": "but the wise took oil in their vessels with their lamps.",
+      "ct": "The wise ones, however, brought jars of oil along with their lamps."
+    },
+    {
+      "verse": 5,
+      "kjv": "While the bridegroom tarried, they all slumbered and slept.",
+      "web": "Now while the bridegroom delayed, they all slumbered and slept.",
+      "ct": "The bridegroom took a long time to arrive, and all 10 of them grew drowsy and fell asleep."
+    },
+    {
+      "verse": 6,
+      "kjv": "And at midnight there was a cry made, Behold, the bridegroom cometh; go ye out to meet him.",
+      "web": "But at midnight there was a cry, ‘Behold! The bridegroom is coming! Come out to meet him!’",
+      "ct": "Then at midnight, someone shouted, \"Look! The bridegroom is coming! Come out to meet him!\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Then all those virgins arose, and trimmed their lamps.",
+      "web": "Then all those virgins arose, and trimmed their lamps.",
+      "ct": "All 10 women woke up and trimmed their lamps."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the foolish said unto the wise, Give us of your oil; for our lamps are gone out.",
+      "web": "The foolish said to the wise, ‘Give us some of your oil, for our lamps are going out.’",
+      "ct": "The foolish ones said to the wise, \"Give us some of your oil — our lamps are going out!\""
+    },
+    {
+      "verse": 9,
+      "kjv": "But the wise answered, saying, Not so; lest there be not enough for us and you: but go ye rather to them that sell, and buy for yourselves.",
+      "web": "But the wise answered, saying, ‘What if there isn’t enough for us and you? You go rather to those who sell, and buy for yourselves.’",
+      "ct": "But the wise ones replied, \"There won't be enough for all of us if we share. Go to the merchants and buy some for yourselves.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And while they went to buy, the bridegroom came; and they that were ready went in with him to the marriage: and the door was shut.",
+      "web": "While they went away to buy, the bridegroom came, and those who were ready went in with him to the wedding feast, and the door was shut.",
+      "ct": "While they were gone to buy oil, the bridegroom arrived. The women who were ready went in with him to the wedding feast, and the door was shut behind them."
+    },
+    {
+      "verse": 11,
+      "kjv": "Afterward came also the other virgins, saying, Lord, Lord, open to us.",
+      "web": "Afterward the other virgins also came, saying, ‘Lord, Lord, open to us.’",
+      "ct": "Later, the other women came back and called out, \"Lord, Lord, open the door for us!\""
+    },
+    {
+      "verse": 12,
+      "kjv": "But he answered and said, Verily I say unto you, I know you not.",
+      "web": "But he answered, ‘Most certainly I tell you, I don’t know you.’",
+      "ct": "But he answered, \"I tell you the truth — I don't know you.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Watch therefore, for ye know neither the day nor the hour wherein the Son of man cometh.",
+      "web": "Watch therefore, for you don’t know the day nor the hour in which the Son of Man is coming.",
+      "ct": "So stay alert, because you don't know the day or the hour when the Son of Man will come."
+    },
+    {
+      "verse": 14,
+      "kjv": "For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods.",
+      "web": "“For it is like a man, going into another country, who called his own servants, and entrusted his goods to them.",
+      "ct": "\"Again, the kingdom of heaven is like a man about to leave on a long journey. He called his servants together and put them in charge of his wealth."
+    },
+    {
+      "verse": 15,
+      "kjv": "And unto one he gave five talents, to another two, and to another one; to every man according to his several ability; and straightway took his journey.",
+      "web": "To one he gave five talents, to another two, to another one; to each according to his own ability. Then he went on his journey.",
+      "ct": "He gave 5 talents to one servant, 2 talents to another, and 1 talent to a third — each according to his ability. Then he left on his journey."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then he that had received the five talents went and traded with the same, and made them other five talents.",
+      "web": "Immediately he who received the five talents went and traded with them, and made another five talents.",
+      "ct": "The servant who received 5 talents immediately went to work investing the money, and he earned 5 more."
+    },
+    {
+      "verse": 17,
+      "kjv": "And likewise he that had received two, he also gained other two.",
+      "web": "In the same way, he also who got the two gained another two.",
+      "ct": "The one with 2 talents did the same and earned 2 more."
+    },
+    {
+      "verse": 18,
+      "kjv": "But he that had received one went and digged in the earth, and hid his lord’s money.",
+      "web": "But he who received the one talent went away and dug in the earth, and hid his lord’s money.",
+      "ct": "But the servant who received 1 talent went off, dug a hole in the ground, and buried his master's money."
+    },
+    {
+      "verse": 19,
+      "kjv": "After a long time the lord of those servants cometh, and reckoneth with them.",
+      "web": "“Now after a long time the lord of those servants came, and reconciled accounts with them.",
+      "ct": "After a long time, the master returned and settled accounts with them."
+    },
+    {
+      "verse": 20,
+      "kjv": "And so he that had received five talents came and brought other five talents, saying, Lord, thou deliveredst unto me five talents: behold, I have gained beside them five talents more.",
+      "web": "He who received the five talents came and brought another five talents, saying, ‘Lord, you delivered to me five talents. Behold, I have gained another five talents in addition to them.’",
+      "ct": "The servant who had received 5 talents came forward and presented 5 more, saying, \"Master, you entrusted me with 5 talents. Look — I've earned 5 more.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "His lord said unto him, Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord.",
+      "web": "“His lord said to him, ‘Well done, good and faithful servant. You have been faithful over a few things, I will set you over many things. Enter into the joy of your lord.’",
+      "ct": "His master said, \"Well done, good and faithful servant! You've been faithful with a small amount, so I'll put you in charge of much more. Come and share in your master's joy!\""
+    },
+    {
+      "verse": 22,
+      "kjv": "He also that had received two talents came and said, Lord, thou deliveredst unto me two talents: behold, I have gained two other talents beside them.",
+      "web": "“He also who got the two talents came and said, ‘Lord, you delivered to me two talents. Behold, I have gained another two talents in addition to them.’",
+      "ct": "The servant with 2 talents also came forward and said, \"Master, you entrusted me with 2 talents. Look — I've earned 2 more.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "His lord said unto him, Well done, good and faithful servant; thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord.",
+      "web": "“His lord said to him, ‘Well done, good and faithful servant. You have been faithful over a few things, I will set you over many things. Enter into the joy of your lord.’",
+      "ct": "His master said, \"Well done, good and faithful servant! You've been faithful with a small amount, so I'll put you in charge of much more. Come and share in your master's joy!\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Then he which had received the one talent came and said, Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and gathering where thou hast not strawed:",
+      "web": "“He also who had received the one talent came and said, ‘Lord, I knew you that you are a hard man, reaping where you didn’t sow, and gathering where you didn’t scatter.",
+      "ct": "Then the servant who had received 1 talent came forward and said, \"Master, I knew you were a hard man. You harvest where you didn't plant and gather where you didn't scatter seed."
+    },
+    {
+      "verse": 25,
+      "kjv": "And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine.",
+      "web": "I was afraid, and went away and hid your talent in the earth. Behold, you have what is yours.’",
+      "ct": "I was afraid, so I went and buried your talent in the ground. Here — you have what belongs to you.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "His lord answered and said unto him, Thou wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed:",
+      "web": "“But his lord answered him, ‘You wicked and slothful servant. You knew that I reap where I didn’t sow, and gather where I didn’t scatter.",
+      "ct": "His master replied, \"You wicked, lazy servant! So you knew that I harvest where I didn't plant and gather where I didn't scatter?"
+    },
+    {
+      "verse": 27,
+      "kjv": "Thou oughtest therefore to have put my money to the exchangers, and then at my coming I should have received mine own with usury.",
+      "web": "You ought therefore to have deposited my money with the bankers, and at my coming I should have received back my own with interest.",
+      "ct": "Then you should have at least deposited my money with the bankers so I would have gotten it back with interest when I returned."
+    },
+    {
+      "verse": 28,
+      "kjv": "Take therefore the talent from him, and give it unto him which hath ten talents.",
+      "web": "Take away therefore the talent from him, and give it to him who has the ten talents.",
+      "ct": "Take the talent away from him and give it to the one who has 10."
+    },
+    {
+      "verse": 29,
+      "kjv": "For unto every one that hath shall be given, and he shall have abundance: but from him that hath not shall be taken away even that which he hath.",
+      "web": "For to everyone who has will be given, and he will have abundance, but from him who doesn’t have, even that which he has will be taken away.",
+      "ct": "Everyone who has will be given more, and they will have an abundance. But the one who has nothing — even what they have will be taken away."
+    },
+    {
+      "verse": 30,
+      "kjv": "And cast ye the unprofitable servant into outer darkness: there shall be weeping and gnashing of teeth.",
+      "web": "Throw out the unprofitable servant into the outer darkness, where there will be weeping and gnashing of teeth.’",
+      "ct": "Now throw this worthless servant into the outer darkness, where there will be weeping and gnashing of teeth.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "When the Son of man shall come in his glory, and all the holy angels with him, then shall he sit upon the throne of his glory:",
+      "web": "“But when the Son of Man comes in his glory, and all the holy angels with him, then he will sit on the throne of his glory.",
+      "ct": "\"When the Son of Man comes in his glory, and all the holy angels with him, he will sit on his glorious throne."
+    },
+    {
+      "verse": 32,
+      "kjv": "And before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats:",
+      "web": "Before him all the nations will be gathered, and he will separate them one from another, as a shepherd separates the sheep from the goats.",
+      "ct": "Every nation will be gathered before him, and he will separate the people from one another the way a shepherd separates sheep from goats."
+    },
+    {
+      "verse": 33,
+      "kjv": "And he shall set the sheep on his right hand, but the goats on the left.",
+      "web": "He will set the sheep on his right hand, but the goats on the left.",
+      "ct": "He will place the sheep on his right and the goats on his left."
+    },
+    {
+      "verse": 34,
+      "kjv": "Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world:",
+      "web": "Then the King will tell those on his right hand, ‘Come, blessed of my Father, inherit the Kingdom prepared for you from the foundation of the world;",
+      "ct": "Then the King will say to those on his right, \"Come, you who are blessed by my Father. Inherit the kingdom that has been prepared for you since the creation of the world."
+    },
+    {
+      "verse": 35,
+      "kjv": "For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in:",
+      "web": "for I was hungry, and you gave me food to eat. I was thirsty, and you gave me drink. I was a stranger, and you took me in.",
+      "ct": "I was hungry, and you gave me food. I was thirsty, and you gave me something to drink. I was a stranger, and you welcomed me in."
+    },
+    {
+      "verse": 36,
+      "kjv": "Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me.",
+      "web": "I was naked, and you clothed me. I was sick, and you visited me. I was in prison, and you came to me.’",
+      "ct": "I was naked, and you gave me clothes. I was sick, and you looked after me. I was in prison, and you came to visit me.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "Then shall the righteous answer him, saying, Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink?",
+      "web": "“Then the righteous will answer him, saying, ‘Lord, when did we see you hungry, and feed you; or thirsty, and give you a drink?",
+      "ct": "The righteous will answer him, \"Lord, when did we ever see you hungry and feed you, or thirsty and give you something to drink?"
+    },
+    {
+      "verse": 38,
+      "kjv": "When saw we thee a stranger, and took thee in? or naked, and clothed thee?",
+      "web": "When did we see you as a stranger, and take you in; or naked, and clothe you?",
+      "ct": "When did we see you as a stranger and welcome you in, or naked and give you clothes?"
+    },
+    {
+      "verse": 39,
+      "kjv": "Or when saw we thee sick, or in prison, and came unto thee?",
+      "web": "When did we see you sick, or in prison, and come to you?’",
+      "ct": "When did we see you sick or in prison and come to visit you?\""
+    },
+    {
+      "verse": 40,
+      "kjv": "And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.",
+      "web": "“The King will answer them, ‘Most certainly I tell you, because you did it to one of the least of these my brothers, you did it to me.’",
+      "ct": "The King will answer them, \"I tell you the truth — whatever you did for one of the least of these brothers and sisters of mine, you did for me.\""
+    },
+    {
+      "verse": 41,
+      "kjv": "Then shall he say also unto them on the left hand, Depart from me, ye cursed, into everlasting fire, prepared for the devil and his angels:",
+      "web": "Then he will say also to those on the left hand, ‘Depart from me, you cursed, into the eternal fire which is prepared for the devil and his angels;",
+      "ct": "Then he will say to those on his left, \"Get away from me, you who are cursed, into the everlasting fire prepared for the devil and his angels."
+    },
+    {
+      "verse": 42,
+      "kjv": "For I was an hungred, and ye gave me no meat: I was thirsty, and ye gave me no drink:",
+      "web": "for I was hungry, and you didn’t give me food to eat; I was thirsty, and you gave me no drink;",
+      "ct": "I was hungry, and you gave me nothing to eat. I was thirsty, and you gave me nothing to drink."
+    },
+    {
+      "verse": 43,
+      "kjv": "I was a stranger, and ye took me not in: naked, and ye clothed me not: sick, and in prison, and ye visited me not.",
+      "web": "I was a stranger, and you didn’t take me in; naked, and you didn’t clothe me; sick, and in prison, and you didn’t visit me.’",
+      "ct": "I was a stranger, and you didn't welcome me. I was naked, and you didn't clothe me. I was sick and in prison, and you never came to see me.\""
+    },
+    {
+      "verse": 44,
+      "kjv": "Then shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee?",
+      "web": "“Then they will also answer, saying, ‘Lord, when did we see you hungry, or thirsty, or a stranger, or naked, or sick, or in prison, and didn’t help you?’",
+      "ct": "They will answer, \"Lord, when did we ever see you hungry, or thirsty, or a stranger, or naked, or sick, or in prison, and not help you?\""
+    },
+    {
+      "verse": 45,
+      "kjv": "Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me.",
+      "web": "“Then he will answer them, saying, ‘Most certainly I tell you, because you didn’t do it to one of the least of these, you didn’t do it to me.’",
+      "ct": "He will reply, \"I tell you the truth — whatever you failed to do for one of the least of these, you failed to do for me.\""
+    },
+    {
+      "verse": 46,
+      "kjv": "And these shall go away into everlasting punishment: but the righteous into life eternal.",
+      "web": "These will go away into eternal punishment, but the righteous into eternal life.”",
+      "ct": "Then they will go away into everlasting punishment, but the righteous will enter eternal life.\""
+    }
+  ]
+}

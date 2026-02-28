@@ -1,0 +1,233 @@
+{
+  "book": "acts",
+  "book_name": "Acts",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T14:05:39.619Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And as they spake unto the people, the priests, and the captain of the temple, and the Sadducees, came upon them,",
+      "web": "As they spoke to the people, the priests and the captain of the temple and the Sadducees came to them,",
+      "ct": "While Peter and John were still speaking to the crowd, the priests, the captain of the temple guard, and the Sadducees came up to them."
+    },
+    {
+      "verse": 2,
+      "kjv": "Being grieved that they taught the people, and preached through Jesus the resurrection from the dead.",
+      "web": "being upset because they taught the people and proclaimed in Jesus the resurrection from the dead.",
+      "ct": "They were furious that Peter and John were teaching the people and proclaiming that Jesus had risen from the dead."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they laid hands on them, and put them in hold unto the next day: for it was now eventide.",
+      "web": "They laid hands on them, and put them in custody until the next day, for it was now evening.",
+      "ct": "They arrested them and threw them in jail until the next day, since it was already evening."
+    },
+    {
+      "verse": 4,
+      "kjv": "Howbeit many of them which heard the word believed; and the number of the men was about five thousand.",
+      "web": "But many of those who heard the word believed, and the number of the men came to be about five thousand.",
+      "ct": "But many of the people who heard the message believed, and the total number of male believers grew to about 5,000."
+    },
+    {
+      "verse": 5,
+      "kjv": "And it came to pass on the morrow, that their rulers, and elders, and scribes,",
+      "web": "In the morning, their rulers, elders, and scribes were gathered together in Jerusalem.",
+      "ct": "The next morning, the Jewish rulers, elders, and teachers of the law assembled in Jerusalem."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Annas the high priest, and Caiaphas, and John, and Alexander, and as many as were of the kindred of the high priest, were gathered together at Jerusalem.",
+      "web": "Annas the high priest was there, with Caiaphas, John, Alexander, and as many as were relatives of the high priest.",
+      "ct": "Annas the high priest was there, along with Caiaphas, John, Alexander, and everyone else from the high priest's family."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when they had set them in the midst, they asked, By what power, or by what name, have ye done this?",
+      "web": "When they had stood Peter and John in the middle of them, they inquired, “By what power, or in what name, have you done this?”",
+      "ct": "They brought Peter and John before them and demanded, \"By what power or in whose name did you do this?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Then Peter, filled with the Holy Ghost, said unto them, Ye rulers of the people, and elders of Israel,",
+      "web": "Then Peter, filled with the Holy Spirit, said to them, “You rulers of the people, and elders of Israel,",
+      "ct": "Then Peter, filled with the Holy Spirit, answered them, \"Rulers of the people and elders of Israel,"
+    },
+    {
+      "verse": 9,
+      "kjv": "If we this day be examined of the good deed done to the impotent man, by what means he is made whole;",
+      "web": "if we are examined today concerning a good deed done to a crippled man, by what means this man has been healed,",
+      "ct": "if we are being questioned today about an act of kindness shown to a crippled man — how he was healed —"
+    },
+    {
+      "verse": 10,
+      "kjv": "Be it known unto you all, and to all the people of Israel, that by the name of Jesus Christ of Nazareth, whom ye crucified, whom God raised from the dead, even by him doth this man stand here before you whole.",
+      "web": "may it be known to you all, and to all the people of Israel, that in the name of Jesus Christ of Nazareth, whom you crucified, whom God raised from the dead, this man stands here before you whole in him.",
+      "ct": "then let every one of you and all the people of Israel know this: it was by the name of Jesus Christ of Nazareth, the one you crucified and God raised from the dead, that this man stands before you completely healed."
+    },
+    {
+      "verse": 11,
+      "kjv": "This is the stone which was set at nought of you builders, which is become the head of the corner.",
+      "web": "He is ‘the stone which was regarded as worthless by you, the builders, which has become the head of the corner.’",
+      "ct": "Jesus is 'the stone you builders rejected, which has become the cornerstone.'"
+    },
+    {
+      "verse": 12,
+      "kjv": "Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.",
+      "web": "There is salvation in no one else, for there is no other name under heaven that is given among men, by which we must be saved!”",
+      "ct": "There is no salvation through anyone else. There is no other name under heaven given to humanity by which we must be saved.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Now when they saw the boldness of Peter and John, and perceived that they were unlearned and ignorant men, they marvelled; and they took knowledge of them, that they had been with Jesus.",
+      "web": "Now when they saw the boldness of Peter and John, and had perceived that they were unlearned and ignorant men, they marveled. They recognized that they had been with Jesus.",
+      "ct": "The council members were amazed at the boldness of Peter and John, especially when they realized these were ordinary men with no formal training. Then it clicked — these men had been with Jesus."
+    },
+    {
+      "verse": 14,
+      "kjv": "And beholding the man which was healed standing with them, they could say nothing against it.",
+      "web": "Seeing the man who was healed standing with them, they could say nothing against it.",
+      "ct": "And since the man who had been healed was standing right there with them, the council had nothing they could say against it."
+    },
+    {
+      "verse": 15,
+      "kjv": "But when they had commanded them to go aside out of the council, they conferred among themselves,",
+      "web": "But when they had commanded them to go aside out of the council, they conferred among themselves,",
+      "ct": "So they ordered Peter and John to step outside the council chamber and began debating among themselves."
+    },
+    {
+      "verse": 16,
+      "kjv": "Saying, What shall we do to these men? for that indeed a notable miracle hath been done by them is manifest to all them that dwell in Jerusalem; and we cannot deny it.",
+      "web": "saying, “What shall we do to these men? Because indeed a notable miracle has been done through them, as can be plainly seen by all who dwell in Jerusalem, and we can’t deny it.",
+      "ct": "\"What are we going to do with these men?\" they said. \"Everyone in Jerusalem knows they performed an undeniable miracle. We can't pretend it didn't happen."
+    },
+    {
+      "verse": 17,
+      "kjv": "But that it spread no further among the people, let us straitly threaten them, that they speak henceforth to no man in this name.",
+      "web": "But so that this spreads no further among the people, let’s threaten them, that from now on they don’t speak to anyone in this name.”",
+      "ct": "But to keep this from spreading any further among the people, let's warn them with serious threats never to speak to anyone in this name again.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And they called them, and commanded them not to speak at all nor teach in the name of Jesus.",
+      "web": "They called them, and commanded them not to speak at all nor teach in the name of Jesus.",
+      "ct": "So they called Peter and John back in and ordered them to stop speaking or teaching in the name of Jesus — period."
+    },
+    {
+      "verse": 19,
+      "kjv": "But Peter and John answered and said unto them, Whether it be right in the sight of God to hearken unto you more than unto God, judge ye.",
+      "web": "But Peter and John answered them, “Whether it is right in the sight of God to listen to you rather than to God, judge for yourselves,",
+      "ct": "But Peter and John replied, \"You decide for yourselves whether it's right in God's sight to obey you rather than God."
+    },
+    {
+      "verse": 20,
+      "kjv": "For we cannot but speak the things which we have seen and heard.",
+      "web": "for we can’t help telling the things which we saw and heard.”",
+      "ct": "Because we simply cannot stop talking about what we've seen and heard.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "So when they had further threatened them, they let them go, finding nothing how they might punish them, because of the people: for all men glorified God for that which was done.",
+      "web": "When they had further threatened them, they let them go, finding no way to punish them, because of the people; for everyone glorified God for that which was done.",
+      "ct": "After threatening them further, the council let them go. They couldn't figure out how to punish them without causing a riot, because everyone was praising God for what had happened."
+    },
+    {
+      "verse": 22,
+      "kjv": "For the man was above forty years old, on whom this miracle of healing was shewed.",
+      "web": "For the man on whom this miracle of healing was performed was more than forty years old.",
+      "ct": "After all, the man who had been miraculously healed was over 40 years old."
+    },
+    {
+      "verse": 23,
+      "kjv": "And being let go, they went to their own company, and reported all that the chief priests and elders had said unto them.",
+      "web": "Being let go, they came to their own company and reported all that the chief priests and the elders had said to them.",
+      "ct": "As soon as they were released, Peter and John went back to the other believers and told them everything the chief priests and elders had said."
+    },
+    {
+      "verse": 24,
+      "kjv": "And when they heard that, they lifted up their voice to God with one accord, and said, Lord, thou art God, which hast made heaven, and earth, and the sea, and all that in them is:",
+      "web": "When they heard it, they lifted up their voice to God with one accord, and said, “O Lord, you are God, who made the heaven, the earth, the sea, and all that is in them;",
+      "ct": "When the believers heard this, they raised their voices together in prayer to God: \"Lord, you are God! You made the heaven, the earth, the sea, and everything in them."
+    },
+    {
+      "verse": 25,
+      "kjv": "Who by the mouth of thy servant David hast said, Why did the heathen rage, and the people imagine vain things?",
+      "web": "who by the mouth of your servant, David, said, ‘Why do the nations rage, and the peoples plot a vain thing?",
+      "ct": "You spoke through your servant David by the Holy Spirit when he said: 'Why do the nations rage, and the peoples plot useless schemes?"
+    },
+    {
+      "verse": 26,
+      "kjv": "The kings of the earth stood up, and the rulers were gathered together against the Lord, and against his Christ.",
+      "web": "The kings of the earth take a stand, and the rulers take council together, against the Lord, and against his Christ.’",
+      "ct": "The kings of the earth take their stand, and the rulers band together against the Lord and against his Christ.'"
+    },
+    {
+      "verse": 27,
+      "kjv": "For of a truth against thy holy child Jesus, whom thou hast anointed, both Herod, and Pontius Pilate, with the Gentiles, and the people of Israel, were gathered together,",
+      "web": "“For truly, both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant, Jesus, whom you anointed,",
+      "ct": "And that's exactly what happened in this city. Herod and Pontius Pilate joined forces with the Gentiles and the people of Israel against your holy servant Jesus, the one you anointed."
+    },
+    {
+      "verse": 28,
+      "kjv": "For to do whatsoever thy hand and thy counsel determined before to be done.",
+      "web": "to do whatever your hand and your council foreordained to happen.",
+      "ct": "They carried out everything your power and purpose had already determined would take place."
+    },
+    {
+      "verse": 29,
+      "kjv": "And now, Lord, behold their threatenings: and grant unto thy servants, that with all boldness they may speak thy word,",
+      "web": "Now, Lord, look at their threats, and grant to your servants to speak your word with all boldness,",
+      "ct": "Now, Lord, see how they're threatening us, and give your servants the courage to speak your word with complete boldness."
+    },
+    {
+      "verse": 30,
+      "kjv": "By stretching forth thine hand to heal; and that signs and wonders may be done by the name of thy holy child Jesus.",
+      "web": "while you stretch out your hand to heal; and that signs and wonders may be done through the name of your holy Servant Jesus.”",
+      "ct": "Stretch out your hand to heal, and let signs and wonders be performed through the name of your holy servant Jesus.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And when they had prayed, the place was shaken where they were assembled together; and they were all filled with the Holy Ghost, and they spake the word of God with boldness.",
+      "web": "When they had prayed, the place was shaken where they were gathered together. They were all filled with the Holy Spirit, and they spoke the word of God with boldness.",
+      "ct": "When they finished praying, the place where they were meeting shook. They were all filled with the Holy Spirit and began speaking the word of God with boldness."
+    },
+    {
+      "verse": 32,
+      "kjv": "And the multitude of them that believed were of one heart and of one soul: neither said any of them that ought of the things which he possessed was his own; but they had all things common.",
+      "web": "The multitude of those who believed were of one heart and soul. Not one of them claimed that anything of the things which he possessed was his own, but they had all things in common.",
+      "ct": "The whole community of believers was united in heart and soul. No one claimed that any of their possessions were their own — they shared everything."
+    },
+    {
+      "verse": 33,
+      "kjv": "And with great power gave the apostles witness of the resurrection of the Lord Jesus: and great grace was upon them all.",
+      "web": "With great power, the apostles gave their testimony of the resurrection of the Lord Jesus. Great grace was on them all.",
+      "ct": "With tremendous power, the apostles continued to testify about the resurrection of the Lord Jesus, and God's grace was powerfully at work in all of them."
+    },
+    {
+      "verse": 34,
+      "kjv": "Neither was there any among them that lacked: for as many as were possessors of lands or houses sold them, and brought the prices of the things that were sold,",
+      "web": "For neither was there among them any who lacked, for as many as were owners of lands or houses sold them, and brought the proceeds of the things that were sold,",
+      "ct": "No one among them was in need, because those who owned land or houses would sell them and bring the money from the sales"
+    },
+    {
+      "verse": 35,
+      "kjv": "And laid them down at the apostles’ feet: and distribution was made unto every man according as he had need.",
+      "web": "and laid them at the apostles’ feet, and distribution was made to each, according as anyone had need.",
+      "ct": "and place it at the apostles' feet. Then it was distributed to anyone who had a need."
+    },
+    {
+      "verse": 36,
+      "kjv": "And Joses, who by the apostles was surnamed Barnabas, (which is, being interpreted, The son of consolation,) a Levite, and of the country of Cyprus,",
+      "web": "Joses, who by the apostles was also called Barnabas (which is, being interpreted, Son of Encouragement), a Levite, a man of Cyprus by race,",
+      "ct": "One example was a Levite from Cyprus named Joses, whom the apostles called Barnabas — which means \"Son of Encouragement.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "Having land, sold it, and brought the money, and laid it at the apostles’ feet.",
+      "web": "having a field, sold it and brought the money and laid it at the apostles’ feet.",
+      "ct": "He sold a field he owned, brought the money, and laid it at the apostles' feet."
+    }
+  ]
+}

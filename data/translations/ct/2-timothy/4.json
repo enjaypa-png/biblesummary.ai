@@ -1,0 +1,143 @@
+{
+  "book": "2-timothy",
+  "book_name": "2 Timothy",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:06:46.181Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I charge thee therefore before God, and the Lord Jesus Christ, who shall judge the quick and the dead at his appearing and his kingdom;",
+      "web": "I command you therefore before God and the Lord Jesus Christ, who will judge the living and the dead at his appearing and his Kingdom:",
+      "ct": "I give you this solemn charge before God and before the Lord Jesus Christ, who will judge the living and the dead when he appears to establish his kingdom:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine.",
+      "web": "preach the word; be urgent in season and out of season; reprove, rebuke, and exhort with all patience and teaching.",
+      "ct": "Preach the word. Be ready at all times — whether it's convenient or not. Correct people, confront them, and encourage them with endless patience and careful teaching."
+    },
+    {
+      "verse": 3,
+      "kjv": "For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;",
+      "web": "For the time will come when they will not listen to the sound doctrine, but having itching ears, will heap up for themselves teachers after their own lusts,",
+      "ct": "A time is coming when people won't put up with sound teaching. Instead, they'll surround themselves with teachers who tell them whatever they want to hear, because their ears itch for something new."
+    },
+    {
+      "verse": 4,
+      "kjv": "And they shall turn away their ears from the truth, and shall be turned unto fables.",
+      "web": "and will turn away their ears from the truth, and turn away to fables.",
+      "ct": "They'll stop listening to the truth and chase after myths instead."
+    },
+    {
+      "verse": 5,
+      "kjv": "But watch thou in all things, endure afflictions, do the work of an evangelist, make full proof of thy ministry.",
+      "web": "But you be sober in all things, suffer hardship, do the work of an evangelist, and fulfill your ministry.",
+      "ct": "But you — stay clear-headed in every situation. Endure hardship. Do the work of an evangelist. Carry out every part of your ministry."
+    },
+    {
+      "verse": 6,
+      "kjv": "For I am now ready to be offered, and the time of my departure is at hand.",
+      "web": "For I am already being offered, and the time of my departure has come.",
+      "ct": "As for me, my life is already being poured out like an offering, and the time for my departure has arrived."
+    },
+    {
+      "verse": 7,
+      "kjv": "I have fought a good fight, I have finished my course, I have kept the faith:",
+      "web": "I have fought the good fight. I have finished the course. I have kept the faith.",
+      "ct": "I have fought the good fight. I have finished the race. I have kept the faith."
+    },
+    {
+      "verse": 8,
+      "kjv": "Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only, but unto all them also that love his appearing.",
+      "web": "From now on, the crown of righteousness is stored up for me, which the Lord, the righteous judge, will give to me on that day; and not to me only, but also to all those who have loved his appearing.",
+      "ct": "Now a crown of righteousness is waiting for me, and the Lord — the righteous judge — will give it to me on that day. And not just to me, but to everyone who has loved and longed for his appearing."
+    },
+    {
+      "verse": 9,
+      "kjv": "Do thy diligence to come shortly unto me:",
+      "web": "Be diligent to come to me soon,",
+      "ct": "Do your best to come to me soon."
+    },
+    {
+      "verse": 10,
+      "kjv": "For Demas hath forsaken me, having loved this present world, and is departed unto Thessalonica; Crescens to Galatia, Titus unto Dalmatia.",
+      "web": "for Demas left me, having loved this present world, and went to Thessalonica; Crescens to Galatia; and Titus to Dalmatia.",
+      "ct": "Demas fell in love with this present world and abandoned me. He's gone to Thessalonica. Crescens left for Galatia, and Titus for Dalmatia."
+    },
+    {
+      "verse": 11,
+      "kjv": "Only Luke is with me. Take Mark, and bring him with thee: for he is profitable to me for the ministry.",
+      "web": "Only Luke is with me. Take Mark, and bring him with you, for he is useful to me for service.",
+      "ct": "Only Luke is still with me. Pick up Mark and bring him with you — he's been very helpful to me in the ministry."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Tychicus have I sent to Ephesus.",
+      "web": "But I sent Tychicus to Ephesus.",
+      "ct": "I've sent Tychicus to Ephesus."
+    },
+    {
+      "verse": 13,
+      "kjv": "The cloke that I left at Troas with Carpus, when thou comest, bring with thee, and the books, but especially the parchments.",
+      "web": "Bring the cloak that I left at Troas with Carpus when you come, and the books, especially the parchments.",
+      "ct": "When you come, bring the cloak I left with Carpus in Troas, and the books — especially the parchments."
+    },
+    {
+      "verse": 14,
+      "kjv": "Alexander the coppersmith did me much evil: the Lord reward him according to his works:",
+      "web": "Alexander, the coppersmith, did much evil to me. The Lord will repay him according to his deeds,",
+      "ct": "Alexander the coppersmith caused me a great deal of harm. The Lord will repay him for what he's done."
+    },
+    {
+      "verse": 15,
+      "kjv": "Of whom be thou ware also; for he hath greatly withstood our words.",
+      "web": "of whom you also must beware; for he greatly opposed our words.",
+      "ct": "Watch out for him yourself, because he fiercely opposed everything we said."
+    },
+    {
+      "verse": 16,
+      "kjv": "At my first answer no man stood with me, but all men forsook me: I pray God that it may not be laid to their charge.",
+      "web": "At my first defense, no one came to help me, but all left me. May it not be held against them.",
+      "ct": "At my first defense in court, no one stood by me. Everyone deserted me. I pray God won't hold it against them."
+    },
+    {
+      "verse": 17,
+      "kjv": "Notwithstanding the Lord stood with me, and strengthened me; that by me the preaching might be fully known, and that all the Gentiles might hear: and I was delivered out of the mouth of the lion.",
+      "web": "But the Lord stood by me and strengthened me, that through me the message might be fully proclaimed, and that all the Gentiles might hear. So I was delivered out of the mouth of the lion.",
+      "ct": "But the Lord stood with me and gave me strength so that through me the full message could be proclaimed and every Gentile could hear it. He rescued me from the lion's mouth."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the Lord shall deliver me from every evil work, and will preserve me unto his heavenly kingdom: to whom be glory for ever and ever. Amen.",
+      "web": "And the Lord will deliver me from every evil work, and will preserve me for his heavenly Kingdom. To him be the glory forever and ever. Amen.",
+      "ct": "The Lord will rescue me from every evil attack and bring me safely into his heavenly kingdom. To him be glory forever and ever. Amen."
+    },
+    {
+      "verse": 19,
+      "kjv": "Salute Prisca and Aquila, and the household of Onesiphorus.",
+      "web": "Greet Prisca and Aquila, and the house of Onesiphorus.",
+      "ct": "Give my greetings to Prisca and Aquila, and to the household of Onesiphorus."
+    },
+    {
+      "verse": 20,
+      "kjv": "Erastus abode at Corinth: but Trophimus have I left at Miletum sick.",
+      "web": "Erastus remained at Corinth, but I left Trophimus at Miletus sick.",
+      "ct": "Erastus stayed behind in Corinth, and I had to leave Trophimus in Miletus because he was sick."
+    },
+    {
+      "verse": 21,
+      "kjv": "Do thy diligence to come before winter. Eubulus greeteth thee, and Pudens, and Linus, and Claudia, and all the brethren.",
+      "web": "Be diligent to come before winter. Eubulus salutes you, as do Pudens, Linus, Claudia, and all the brothers.",
+      "ct": "Do your best to get here before winter. Eubulus sends his greetings, and so do Pudens, Linus, Claudia, and all the brothers and sisters."
+    },
+    {
+      "verse": 22,
+      "kjv": "The Lord Jesus Christ be with thy spirit. Grace be with you. Amen.",
+      "web": "The Lord Jesus Christ be with your spirit. Grace be with you. Amen.",
+      "ct": "The Lord Jesus Christ be with your spirit. Grace be with you. Amen."
+    }
+  ]
+}

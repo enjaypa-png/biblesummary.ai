@@ -1,0 +1,317 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:28:06.883Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses and Aaron in the land of Egypt, saying,",
+      "web": "LORD spoke to Moses and Aaron in the land of Egypt, saying,",
+      "ct": "The LORD spoke to Moses and Aaron while they were still in Egypt."
+    },
+    {
+      "verse": 2,
+      "kjv": "This month shall be unto you the beginning of months: it shall be the first month of the year to you.",
+      "web": "“This month shall be to you the beginning of months. It shall be the first month of the year to you.",
+      "ct": "\"This month will mark a new beginning for you. It will be the 1st month of your year."
+    },
+    {
+      "verse": 3,
+      "kjv": "Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house:",
+      "web": "Speak to all the congregation of Israel, saying, ‘On the tenth day of this month, they shall take to them every man a lamb, according to their fathers’ houses, a lamb for a household;",
+      "ct": "Tell the whole community of Israel: On the 10th day of this month, every family must select a lamb — one lamb per household."
+    },
+    {
+      "verse": 4,
+      "kjv": "And if the household be too little for the lamb, let him and his neighbour next unto his house take it according to the number of the souls; every man according to his eating shall make your count for the lamb.",
+      "web": "and if the household is too little for a lamb, then he and his neighbor next to his house shall take one according to the number of the souls. You shall make your count for the lamb according to what everyone can eat.",
+      "ct": "If a family is too small to eat a whole lamb, they should share one with their nearest neighbor. Divide it based on how much each person will eat."
+    },
+    {
+      "verse": 5,
+      "kjv": "Your lamb shall be without blemish, a male of the first year: ye shall take it out from the sheep, or from the goats:",
+      "web": "Your lamb shall be without defect, a male a year old. You shall take it from the sheep, or from the goats.",
+      "ct": "The lamb must be a 1-year-old male with no defects. You may choose it from either the sheep or the goats."
+    },
+    {
+      "verse": 6,
+      "kjv": "And ye shall keep it up until the fourteenth day of the same month: and the whole assembly of the congregation of Israel shall kill it in the evening.",
+      "web": "You shall keep it until the fourteenth day of the same month; and the whole assembly of the congregation of Israel shall kill it at evening.",
+      "ct": "Keep the animal until the 14th day of the month. Then the entire assembly of Israel must slaughter their lambs at twilight."
+    },
+    {
+      "verse": 7,
+      "kjv": "And they shall take of the blood, and strike it on the two side posts and on the upper door post of the houses, wherein they shall eat it.",
+      "web": "They shall take some of the blood, and put it on the two door posts and on the lintel, on the houses in which they shall eat it.",
+      "ct": "They must take some of the blood and spread it on the two doorposts and the top beam of the doorframe of every house where the lamb will be eaten."
+    },
+    {
+      "verse": 8,
+      "kjv": "And they shall eat the flesh in that night, roast with fire, and unleavened bread; and with bitter herbs they shall eat it.",
+      "web": "They shall eat the meat in that night, roasted with fire, and unleavened bread. They shall eat it with bitter herbs.",
+      "ct": "That night they must eat the meat roasted over fire, along with unleavened bread and bitter herbs."
+    },
+    {
+      "verse": 9,
+      "kjv": "Eat not of it raw, nor sodden at all with water, but roast with fire; his head with his legs, and with the purtenance thereof.",
+      "web": "Don’t eat it raw, nor boiled at all with water, but roasted with fire; with its head, its legs and its inner parts.",
+      "ct": "Don't eat any of it raw or boiled in water. Roast the whole animal over fire — head, legs, and internal organs."
+    },
+    {
+      "verse": 10,
+      "kjv": "And ye shall let nothing of it remain until the morning; and that which remaineth of it until the morning ye shall burn with fire.",
+      "web": "You shall let nothing of it remain until the morning; but that which remains of it until the morning you shall burn with fire.",
+      "ct": "Don't let any of it remain until morning. If anything is left over by morning, burn it."
+    },
+    {
+      "verse": 11,
+      "kjv": "And thus shall ye eat it; with your loins girded, your shoes on your feet, and your staff in your hand; and ye shall eat it in haste: it is the LORD’s passover.",
+      "web": "This is how you shall eat it: with your belt on your waist, your sandals on your feet, and your staff in your hand; and you shall eat it in haste: it is LORD’s Passover.",
+      "ct": "Here is how you must eat it: with your belt fastened, your sandals on your feet, and your staff in your hand. Eat it quickly — this is the LORD's Passover."
+    },
+    {
+      "verse": 12,
+      "kjv": "For I will pass through the land of Egypt this night, and will smite all the firstborn in the land of Egypt, both man and beast; and against all the gods of Egypt I will execute judgment: I am the LORD.",
+      "web": "For I will go through the land of Egypt in that night, and will strike all the firstborn in the land of Egypt, both man and animal. I will execute judgments against all the gods of Egypt. I am LORD.",
+      "ct": "That night I will pass through the land of Egypt and strike down every firstborn — both human and animal. I will bring judgment against all the gods of Egypt. I am the LORD."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the blood shall be to you for a token upon the houses where ye are: and when I see the blood, I will pass over you, and the plague shall not be upon you to destroy you, when I smite the land of Egypt.",
+      "web": "The blood shall be to you for a token on the houses where you are. When I see the blood, I will pass over you, and no plague will be on you to destroy you when I strike the land of Egypt.",
+      "ct": "The blood on your houses will be a sign that marks where you are. When I see the blood, I will pass over you. No destructive plague will touch you when I strike Egypt."
+    },
+    {
+      "verse": 14,
+      "kjv": "And this day shall be unto you for a memorial; and ye shall keep it a feast to the LORD throughout your generations; ye shall keep it a feast by an ordinance for ever.",
+      "web": "This day shall be a memorial for you. You shall keep it as a feast to LORD. You shall keep it as a feast throughout your generations by an ordinance forever.",
+      "ct": "This day will be a memorial for you. You must celebrate it as a feast to the LORD — a permanent observance for every generation to come."
+    },
+    {
+      "verse": 15,
+      "kjv": "Seven days shall ye eat unleavened bread; even the first day ye shall put away leaven out of your houses: for whosoever eateth leavened bread from the first day until the seventh day, that soul shall be cut off from Israel.",
+      "web": "“ ‘Seven days you shall eat unleavened bread; even the first day you shall put away yeast out of your houses, for whoever eats leavened bread from the first day until the seventh day, that soul shall be cut off from Israel.",
+      "ct": "For 7 days you must eat unleavened bread. On the very 1st day, remove all yeast from your houses. Anyone who eats leavened bread during those 7 days will be cut off from Israel."
+    },
+    {
+      "verse": 16,
+      "kjv": "And in the first day there shall be an holy convocation, and in the seventh day there shall be an holy convocation to you; no manner of work shall be done in them, save that which every man must eat, that only may be done of you.",
+      "web": "In the first day there shall be to you a holy convocation, and in the seventh day a holy convocation; no kind of work shall be done in them, except that which every man must eat, only that may be done by you.",
+      "ct": "On the 1st day, hold a sacred assembly, and do the same on the 7th day. No work of any kind may be done on those days, except for preparing food — that is the only exception."
+    },
+    {
+      "verse": 17,
+      "kjv": "And ye shall observe the feast of unleavened bread; for in this selfsame day have I brought your armies out of the land of Egypt: therefore shall ye observe this day in your generations by an ordinance for ever.",
+      "web": "You shall observe the feast of unleavened bread; for in this same day I have brought your armies out of the land of Egypt. Therefore you shall observe this day throughout your generations by an ordinance forever.",
+      "ct": "You must observe the Festival of Unleavened Bread, because on this very day I brought your people out of Egypt like an army on the march. Celebrate this day as a permanent observance for every generation."
+    },
+    {
+      "verse": 18,
+      "kjv": "In the first month, on the fourteenth day of the month at even, ye shall eat unleavened bread, until the one and twentieth day of the month at even.",
+      "web": "In the first month, on the fourteenth day of the month at evening, you shall eat unleavened bread, until the twenty first day of the month at evening.",
+      "ct": "Starting on the evening of the 14th day of the 1st month, eat unleavened bread until the evening of the 21st day of the month."
+    },
+    {
+      "verse": 19,
+      "kjv": "Seven days shall there be no leaven found in your houses: for whosoever eateth that which is leavened, even that soul shall be cut off from the congregation of Israel, whether he be a stranger, or born in the land.",
+      "web": "There shall be no yeast found in your houses for seven days, for whoever eats that which is leavened, that soul shall be cut off from the congregation of Israel, whether he is a foreigner, or one who is born in the land.",
+      "ct": "For 7 days, no yeast may be found anywhere in your houses. Anyone who eats something leavened — whether an Israelite or a foreigner living among you — that person will be cut off from the community of Israel."
+    },
+    {
+      "verse": 20,
+      "kjv": "Ye shall eat nothing leavened; in all your habitations shall ye eat unleavened bread.",
+      "web": "You shall eat nothing leavened. In all your habitations you shall eat unleavened bread.’ ”",
+      "ct": "Eat nothing with yeast in it. Wherever you live, eat only unleavened bread.'\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Then Moses called for all the elders of Israel, and said unto them, Draw out and take you a lamb according to your families, and kill the passover.",
+      "web": "Then Moses called for all the elders of Israel, and said to them, “Draw out, and take lambs according to your families, and kill the Passover.",
+      "ct": "Then Moses summoned all the elders of Israel and told them, \"Go, select lambs for your families, and slaughter the Passover lamb."
+    },
+    {
+      "verse": 22,
+      "kjv": "And ye shall take a bunch of hyssop, and dip it in the blood that is in the bason, and strike the lintel and the two side posts with the blood that is in the bason; and none of you shall go out at the door of his house until the morning.",
+      "web": "You shall take a bunch of hyssop, and dip it in the blood that is in the basin, and strike the lintel and the two door posts with the blood that is in the basin. None of you shall go out of the door of his house until the morning.",
+      "ct": "Take a bundle of hyssop, dip it in the blood that's in the basin, and brush the blood on the top beam and both doorposts of your doorframe. Then no one is to step outside their house until morning."
+    },
+    {
+      "verse": 23,
+      "kjv": "For the LORD will pass through to smite the Egyptians; and when he seeth the blood upon the lintel, and on the two side posts, the LORD will pass over the door, and will not suffer the destroyer to come in unto your houses to smite you.",
+      "web": "For LORD will pass through to strike the Egyptians; and when he sees the blood on the lintel, and on the two door posts, LORD will pass over the door, and will not allow the destroyer to come in to your houses to strike you.",
+      "ct": "The LORD will pass through to strike the Egyptians, but when he sees the blood on the top beam and the two doorposts, the LORD will pass over that door and will not allow the destroyer to enter your homes and strike you."
+    },
+    {
+      "verse": 24,
+      "kjv": "And ye shall observe this thing for an ordinance to thee and to thy sons for ever.",
+      "web": "You shall observe this thing for an ordinance to you and to your sons forever.",
+      "ct": "You must observe these instructions as a permanent law for you and your descendants."
+    },
+    {
+      "verse": 25,
+      "kjv": "And it shall come to pass, when ye be come to the land which the LORD will give you, according as he hath promised, that ye shall keep this service.",
+      "web": "It shall happen when you have come to the land which LORD will give you, as he has promised, that you shall keep this service.",
+      "ct": "When you enter the land the LORD will give you, just as he promised, you must continue to observe this ceremony."
+    },
+    {
+      "verse": 26,
+      "kjv": "And it shall come to pass, when your children shall say unto you, What mean ye by this service?",
+      "web": "It will happen, when your children ask you, ‘What do you mean by this service?’",
+      "ct": "And when your children ask you, 'What does this ceremony mean?'"
+    },
+    {
+      "verse": 27,
+      "kjv": "That ye shall say, It is the sacrifice of the LORD’s passover, who passed over the houses of the children of Israel in Egypt, when he smote the Egyptians, and delivered our houses. And the people bowed the head and worshipped.",
+      "web": "that you shall say, ‘It is the sacrifice of LORD’s Passover, who passed over the houses of the children of Israel in Egypt, when he struck the Egyptians, and spared our houses.’ ” The people bowed their heads and worshiped.",
+      "ct": "you must tell them, 'This is the Passover sacrifice to the LORD, who passed over the houses of the Israelites in Egypt when he struck the Egyptians but spared our families.'\" When the people heard this, they bowed down and worshiped."
+    },
+    {
+      "verse": 28,
+      "kjv": "And the children of Israel went away, and did as the LORD had commanded Moses and Aaron, so did they.",
+      "web": "The children of Israel went and did so; as LORD had commanded Moses and Aaron, so they did.",
+      "ct": "The Israelites went and did exactly what the LORD had commanded Moses and Aaron."
+    },
+    {
+      "verse": 29,
+      "kjv": "And it came to pass, that at midnight the LORD smote all the firstborn in the land of Egypt, from the firstborn of Pharaoh that sat on his throne unto the firstborn of the captive that was in the dungeon; and all the firstborn of cattle.",
+      "web": "At midnight, LORD struck all the firstborn in the land of Egypt, from the firstborn of Pharaoh who sat on his throne to the firstborn of the captive who was in the dungeon, and all the firstborn of livestock.",
+      "ct": "At midnight, the LORD struck down every firstborn in Egypt — from the firstborn of Pharaoh sitting on his throne, to the firstborn of the prisoner locked in the dungeon, and every firstborn among the livestock."
+    },
+    {
+      "verse": 30,
+      "kjv": "And Pharaoh rose up in the night, he, and all his servants, and all the Egyptians; and there was a great cry in Egypt; for there was not a house where there was not one dead.",
+      "web": "Pharaoh rose up in the night, he, and all his servants, and all the Egyptians; and there was a great cry in Egypt, for there was not a house where there was not one dead.",
+      "ct": "Pharaoh got up in the middle of the night — he, all his officials, and all the Egyptians. A terrible cry of grief swept across Egypt, because there wasn't a single house without someone dead."
+    },
+    {
+      "verse": 31,
+      "kjv": "And he called for Moses and Aaron by night, and said, Rise up, and get you forth from among my people, both ye and the children of Israel; and go, serve the LORD, as ye have said.",
+      "web": "He called for Moses and Aaron by night, and said, “Rise up, get out from among my people, both you and the children of Israel; and go, serve LORD, as you have said!",
+      "ct": "That night Pharaoh summoned Moses and Aaron and said, \"Get up! Get out from among my people — you and all the Israelites! Go and serve the LORD, just as you demanded."
+    },
+    {
+      "verse": 32,
+      "kjv": "Also take your flocks and your herds, as ye have said, and be gone; and bless me also.",
+      "web": "Take both your flocks and your herds, as you have said, and be gone; and bless me also!”",
+      "ct": "Take your flocks and your herds, just as you said, and go! And bless me as well.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And the Egyptians were urgent upon the people, that they might send them out of the land in haste; for they said, We be all dead men.",
+      "web": "The Egyptians were urgent with the people, to send them out of the land in haste, for they said, “We are all dead men.”",
+      "ct": "The Egyptians pressed the people to leave the country as fast as possible, saying, \"If you don't go, we'll all be dead!\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And the people took their dough before it was leavened, their kneadingtroughs being bound up in their clothes upon their shoulders.",
+      "web": "The people took their dough before it was leavened, their kneading troughs being bound up in their clothes on their shoulders.",
+      "ct": "So the people grabbed their bread dough before the yeast had been added, wrapped their kneading bowls in cloth, and carried them on their shoulders."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the children of Israel did according to the word of Moses; and they borrowed of the Egyptians jewels of silver, and jewels of gold, and raiment:",
+      "web": "The children of Israel did according to the word of Moses; and they asked of the Egyptians jewels of silver, and jewels of gold, and clothing.",
+      "ct": "The Israelites did what Moses had told them and asked the Egyptians for silver jewelry, gold jewelry, and clothing."
+    },
+    {
+      "verse": 36,
+      "kjv": "And the LORD gave the people favour in the sight of the Egyptians, so that they lent unto them such things as they required. And they spoiled the Egyptians.",
+      "web": "LORD gave the people favor in the sight of the Egyptians, so that they let them have what they asked. They plundered the Egyptians.",
+      "ct": "The LORD made the Egyptians look favorably on the Israelites, so they gave them whatever they asked for. In this way, the Israelites stripped Egypt of its wealth."
+    },
+    {
+      "verse": 37,
+      "kjv": "And the children of Israel journeyed from Rameses to Succoth, about six hundred thousand on foot that were men, beside children.",
+      "web": "The children of Israel traveled from Rameses to Succoth, about six hundred thousand on foot who were men, in addition to children.",
+      "ct": "The Israelites set out from Rameses toward Succoth — about 600,000 men on foot, not counting women and children."
+    },
+    {
+      "verse": 38,
+      "kjv": "And a mixed multitude went up also with them; and flocks, and herds, even very much cattle.",
+      "web": "A mixed multitude went up also with them, with flocks, herds, and even very much livestock.",
+      "ct": "A large mixed crowd of non-Israelites also went with them, along with massive herds of sheep, goats, and cattle."
+    },
+    {
+      "verse": 39,
+      "kjv": "And they baked unleavened cakes of the dough which they brought forth out of Egypt, for it was not leavened; because they were thrust out of Egypt, and could not tarry, neither had they prepared for themselves any victual.",
+      "web": "They baked unleavened cakes of the dough which they brought out of Egypt; for it wasn’t leavened, because they were thrust out of Egypt, and couldn’t wait, and they had not prepared any food for themselves.",
+      "ct": "They baked the dough they had brought from Egypt into flat, unleavened loaves. There was no yeast in it because they had been driven out of Egypt so suddenly that they couldn't wait for dough to rise, and they hadn't prepared any other food for the journey."
+    },
+    {
+      "verse": 40,
+      "kjv": "Now the sojourning of the children of Israel, who dwelt in Egypt, was four hundred and thirty years.",
+      "web": "Now the time that the children of Israel lived in Egypt was four hundred thirty years.",
+      "ct": "The Israelites had lived in Egypt for 430 years."
+    },
+    {
+      "verse": 41,
+      "kjv": "And it came to pass at the end of the four hundred and thirty years, even the selfsame day it came to pass, that all the hosts of the LORD went out from the land of Egypt.",
+      "web": "At the end of four hundred thirty years, to the day, all of LORD’s armies went out from the land of Egypt.",
+      "ct": "On the very day those 430 years ended, all the LORD's people marched out of Egypt like an army."
+    },
+    {
+      "verse": 42,
+      "kjv": "It is a night to be much observed unto the LORD for bringing them out from the land of Egypt: this is that night of the LORD to be observed of all the children of Israel in their generations.",
+      "web": "It is a night to be much observed to LORD for bringing them out from the land of Egypt. This is that night of LORD, to be much observed by all the children of Israel throughout their generations.",
+      "ct": "That night belongs to the LORD — a night to be honored because he brought them out of Egypt. Every generation of Israelites must observe this night in honor of the LORD."
+    },
+    {
+      "verse": 43,
+      "kjv": "And the LORD said unto Moses and Aaron, This is the ordinance of the passover: There shall no stranger eat thereof:",
+      "web": "LORD said to Moses and Aaron, “This is the ordinance of the Passover. No foreigner shall eat of it,",
+      "ct": "The LORD said to Moses and Aaron, \"These are the rules for the Passover: No foreigner may eat it."
+    },
+    {
+      "verse": 44,
+      "kjv": "But every man’s servant that is bought for money, when thou hast circumcised him, then shall he eat thereof.",
+      "web": "but every man’s servant who is bought for money, when you have circumcised him, then shall he eat of it.",
+      "ct": "However, any slave you have purchased may eat it, once he has been circumcised."
+    },
+    {
+      "verse": 45,
+      "kjv": "A foreigner and an hired servant shall not eat thereof.",
+      "web": "A foreigner and a hired servant shall not eat of it.",
+      "ct": "But a temporary resident or a hired worker may not eat it."
+    },
+    {
+      "verse": 46,
+      "kjv": "In one house shall it be eaten; thou shalt not carry forth ought of the flesh abroad out of the house; neither shall ye break a bone thereof.",
+      "web": "It must be eaten in one house. You shall not carry any of the meat outside of the house. Do not break any of its bones.",
+      "ct": "The meal must be eaten inside one house. Don't carry any of the meat outside, and don't break any of the lamb's bones."
+    },
+    {
+      "verse": 47,
+      "kjv": "All the congregation of Israel shall keep it.",
+      "web": "All the congregation of Israel shall keep it.",
+      "ct": "The entire community of Israel must celebrate it."
+    },
+    {
+      "verse": 48,
+      "kjv": "And when a stranger shall sojourn with thee, and will keep the passover to the LORD, let all his males be circumcised, and then let him come near and keep it; and he shall be as one that is born in the land: for no uncircumcised person shall eat thereof.",
+      "web": "When a stranger lives as a foreigner with you, and would like to keep the Passover to LORD, let all his males be circumcised, and then let him come near and keep it. He shall be as one who is born in the land; but no uncircumcised person shall eat of it.",
+      "ct": "If a foreigner living among you wants to celebrate the LORD's Passover, every male in his household must first be circumcised. Then he may take part as though he were born an Israelite. But no uncircumcised person may eat it."
+    },
+    {
+      "verse": 49,
+      "kjv": "One law shall be to him that is homeborn, and unto the stranger that sojourneth among you.",
+      "web": "One law shall be to him who is born at home, and to the stranger who lives as a foreigner among you.”",
+      "ct": "The same law applies to both native-born Israelites and foreigners living among you.\""
+    },
+    {
+      "verse": 50,
+      "kjv": "Thus did all the children of Israel; as the LORD commanded Moses and Aaron, so did they.",
+      "web": "All the children of Israel did so. As LORD commanded Moses and Aaron, so they did.",
+      "ct": "All the Israelites obeyed. They did exactly what the LORD had commanded Moses and Aaron."
+    },
+    {
+      "verse": 51,
+      "kjv": "And it came to pass the selfsame day, that the LORD did bring the children of Israel out of the land of Egypt by their armies.",
+      "web": "That same day, LORD brought the children of Israel out of the land of Egypt by their armies.",
+      "ct": "On that very day, the LORD brought the Israelites out of Egypt, marching out by their divisions."
+    }
+  ]
+}

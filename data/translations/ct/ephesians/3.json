@@ -1,0 +1,137 @@
+{
+  "book": "ephesians",
+  "book_name": "Ephesians",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:58:11.823Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "For this cause I Paul, the prisoner of Jesus Christ for you Gentiles,",
+      "web": "For this cause I, Paul, am the prisoner of Christ Jesus on behalf of you Gentiles,",
+      "ct": "This is why I, Paul, am now a prisoner for the sake of Christ Jesus — because of my work among you Gentiles."
+    },
+    {
+      "verse": 2,
+      "kjv": "If ye have heard of the dispensation of the grace of God which is given me to you-ward:",
+      "web": "if it is so that you have heard of the administration of that grace of God which was given me toward you,",
+      "ct": "Surely you've heard that God gave me a special assignment to bring his grace to you."
+    },
+    {
+      "verse": 3,
+      "kjv": "How that by revelation he made known unto me the mystery; (as I wrote afore in few words,",
+      "web": "how that by revelation the mystery was made known to me, as I wrote before in few words,",
+      "ct": "He revealed his mystery to me directly, as I briefly mentioned earlier in this letter."
+    },
+    {
+      "verse": 4,
+      "kjv": "Whereby, when ye read, ye may understand my knowledge in the mystery of Christ)",
+      "web": "by which, when you read, you can perceive my understanding in the mystery of Christ,",
+      "ct": "When you read what I wrote, you'll be able to see how deeply I understand the mystery of Christ."
+    },
+    {
+      "verse": 5,
+      "kjv": "Which in other ages was not made known unto the sons of men, as it is now revealed unto his holy apostles and prophets by the Spirit;",
+      "web": "which in other generations was not made known to the children of men, as it has now been revealed to his holy apostles and prophets in the Spirit,",
+      "ct": "In previous generations, this mystery was never revealed to anyone. But now the Holy Spirit has made it known to God's holy apostles and prophets."
+    },
+    {
+      "verse": 6,
+      "kjv": "That the Gentiles should be fellowheirs, and of the same body, and partakers of his promise in Christ by the gospel:",
+      "web": "that the Gentiles are fellow heirs and fellow members of the body, and fellow partakers of his promise in Christ Jesus through the Good News,",
+      "ct": "Here is the mystery: through the gospel, the Gentiles are now equal heirs with Israel, members of the same body, and sharers in the promise that comes through Christ Jesus."
+    },
+    {
+      "verse": 7,
+      "kjv": "Whereof I was made a minister, according to the gift of the grace of God given unto me by the effectual working of his power.",
+      "web": "of which I was made a servant according to the gift of that grace of God which was given me according to the working of his power.",
+      "ct": "God made me a servant of this gospel as a gift of his grace, working through me with his power."
+    },
+    {
+      "verse": 8,
+      "kjv": "Unto me, who am less than the least of all saints, is this grace given, that I should preach among the Gentiles the unsearchable riches of Christ;",
+      "web": "To me, the very least of all saints, was this grace given, to preach to the Gentiles the unsearchable riches of Christ,",
+      "ct": "Even though I'm the least deserving of all God's people, he gave me this grace — to proclaim to the Gentiles the endless, unsearchable riches of Christ."
+    },
+    {
+      "verse": 9,
+      "kjv": "And to make all men see what is the fellowship of the mystery, which from the beginning of the world hath been hid in God, who created all things by Jesus Christ:",
+      "web": "and to make all men see what is the administration of the mystery which for ages has been hidden in God, who created all things through Jesus Christ,",
+      "ct": "My job is to help everyone see how this mystery works — the one that was hidden in God, the Creator of all things through Jesus Christ, since the beginning of the world."
+    },
+    {
+      "verse": 10,
+      "kjv": "To the intent that now unto the principalities and powers in heavenly places might be known by the church the manifold wisdom of God,",
+      "web": "to the intent that now through the assembly the manifold wisdom of God might be made known to the principalities and the powers in the heavenly places,",
+      "ct": "God's plan was that now, through the church, even the rulers and authorities in the heavenly places would see his wisdom displayed in all its rich variety."
+    },
+    {
+      "verse": 11,
+      "kjv": "According to the eternal purpose which he purposed in Christ Jesus our Lord:",
+      "web": "according to the eternal purpose which he accomplished in Christ Jesus our Lord.",
+      "ct": "This was his eternal purpose, and he carried it out through Christ Jesus our Lord."
+    },
+    {
+      "verse": 12,
+      "kjv": "In whom we have boldness and access with confidence by the faith of him.",
+      "web": "In him we have boldness and access in confidence through our faith in him.",
+      "ct": "Because of him, and through our faith in him, we can approach God boldly and with complete confidence."
+    },
+    {
+      "verse": 13,
+      "kjv": "Wherefore I desire that ye faint not at my tribulations for you, which is your glory.",
+      "web": "Therefore I ask that you may not lose heart at my troubles for you, which are your glory.",
+      "ct": "So I'm asking you — don't lose heart because of the suffering I'm going through for your sake. My suffering is actually an honor for you."
+    },
+    {
+      "verse": 14,
+      "kjv": "For this cause I bow my knees unto the Father of our Lord Jesus Christ,",
+      "web": "For this cause, I bow my knees to the Father of our Lord Jesus Christ,",
+      "ct": "For this reason, I kneel before the Father of our Lord Jesus Christ,"
+    },
+    {
+      "verse": 15,
+      "kjv": "Of whom the whole family in heaven and earth is named,",
+      "web": "from whom every family in heaven and on earth is named,",
+      "ct": "from whom every family in heaven and on earth gets its name."
+    },
+    {
+      "verse": 16,
+      "kjv": "That he would grant you, according to the riches of his glory, to be strengthened with might by his Spirit in the inner man;",
+      "web": "that he would grant you, according to the riches of his glory, that you may be strengthened with power through his Spirit in the inner person,",
+      "ct": "I pray that out of the riches of his glory, he would strengthen you with power through his Spirit deep in your inner being,"
+    },
+    {
+      "verse": 17,
+      "kjv": "That Christ may dwell in your hearts by faith; that ye, being rooted and grounded in love,",
+      "web": "that Christ may dwell in your hearts through faith, to the end that you, being rooted and grounded in love,",
+      "ct": "so that Christ would make his home in your hearts through faith. I pray that you would be deeply rooted and firmly grounded in love,"
+    },
+    {
+      "verse": 18,
+      "kjv": "May be able to comprehend with all saints what is the breadth, and length, and depth, and height;",
+      "web": "may be strengthened to comprehend with all the saints what is the width and length and height and depth,",
+      "ct": "so that you, together with all of God's people, would have the strength to grasp how wide, how long, how high, and how deep his love truly is —"
+    },
+    {
+      "verse": 19,
+      "kjv": "And to know the love of Christ, which passeth knowledge, that ye might be filled with all the fulness of God.",
+      "web": "and to know Christ’s love which surpasses knowledge, that you may be filled with all the fullness of God.",
+      "ct": "to actually know the love of Christ, even though it goes beyond anything we can fully understand — and to be filled with the complete fullness of God himself."
+    },
+    {
+      "verse": 20,
+      "kjv": "Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us,",
+      "web": "Now to him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us,",
+      "ct": "Now to the one who is able to do an incredible amount more than anything we could ever ask or even imagine, through his power already at work within us —"
+    },
+    {
+      "verse": 21,
+      "kjv": "Unto him be glory in the church by Christ Jesus throughout all ages, world without end. Amen.",
+      "web": "to him be the glory in the assembly and in Christ Jesus to all generations forever and ever. Amen.",
+      "ct": "to him be glory in the church and in Christ Jesus through every generation, forever and ever. Amen."
+    }
+  ]
+}

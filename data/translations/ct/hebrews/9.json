@@ -1,0 +1,179 @@
+{
+  "book": "hebrews",
+  "book_name": "Hebrews",
+  "chapter": 9,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:10:15.776Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then verily the first covenant had also ordinances of divine service, and a worldly sanctuary.",
+      "web": "Now indeed even the first covenant had ordinances of divine service and an earthly sanctuary.",
+      "ct": "Now, the first covenant had its own rules for worship and an earthly sanctuary."
+    },
+    {
+      "verse": 2,
+      "kjv": "For there was a tabernacle made; the first, wherein was the candlestick, and the table, and the shewbread; which is called the sanctuary.",
+      "web": "For a tabernacle was prepared. In the first part were the lamp stand, the table, and the show bread; which is called the Holy Place.",
+      "ct": "A tabernacle was set up, and in its first room were the lampstand, the table, and the consecrated bread. This room was called the Holy Place."
+    },
+    {
+      "verse": 3,
+      "kjv": "And after the second veil, the tabernacle which is called the Holiest of all;",
+      "web": "After the second veil was the tabernacle which is called the Holy of Holies,",
+      "ct": "Behind the second curtain was another room called the Holy of Holies."
+    },
+    {
+      "verse": 4,
+      "kjv": "Which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein was the golden pot that had manna, and Aaron’s rod that budded, and the tables of the covenant;",
+      "web": "having a golden altar of incense, and the ark of the covenant overlaid on all sides with gold, in which was a golden pot holding the manna, Aaron’s rod that budded, and the tablets of the covenant;",
+      "ct": "This room contained the golden altar of incense and the ark of the covenant, which was covered on every side with gold. Inside the ark were a golden jar of manna, Aaron's staff that had sprouted buds, and the stone tablets of the covenant."
+    },
+    {
+      "verse": 5,
+      "kjv": "And over it the cherubims of glory shadowing the mercyseat; of which we cannot now speak particularly.",
+      "web": "and above it cherubim of glory overshadowing the mercy seat, of which things we can’t speak now in detail.",
+      "ct": "Above the ark were the cherubim of glory, whose wings overshadowed the mercy seat. But we can't go into all of these details right now."
+    },
+    {
+      "verse": 6,
+      "kjv": "Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service of God.",
+      "web": "Now these things having been thus prepared, the priests go in continually into the first tabernacle, accomplishing the services,",
+      "ct": "Once everything was arranged this way, the priests regularly entered the first room to carry out their duties before God."
+    },
+    {
+      "verse": 7,
+      "kjv": "But into the second went the high priest alone once every year, not without blood, which he offered for himself, and for the errors of the people:",
+      "web": "but into the second the high priest alone, once in the year, not without blood, which he offers for himself, and for the errors of the people.",
+      "ct": "But only the high priest entered the second room, and only once a year. He never went in without blood, which he offered for his own sins and for the sins the people had committed in ignorance."
+    },
+    {
+      "verse": 8,
+      "kjv": "The Holy Ghost this signifying, that the way into the holiest of all was not yet made manifest, while as the first tabernacle was yet standing:",
+      "web": "The Holy Spirit is indicating this, that the way into the Holy Place wasn’t yet revealed while the first tabernacle was still standing.",
+      "ct": "The Holy Spirit was making something clear through all of this: the way into the true Holy Place had not yet been opened as long as the first tabernacle was still in use."
+    },
+    {
+      "verse": 9,
+      "kjv": "Which was a figure for the time then present, in which were offered both gifts and sacrifices, that could not make him that did the service perfect, as pertaining to the conscience;",
+      "web": "This is a symbol of the present age, where gifts and sacrifices are offered that are incapable, concerning the conscience, of making the worshiper perfect,",
+      "ct": "This whole arrangement was an illustration pointing to the present age. The gifts and sacrifices offered under that system could never clear the conscience of the worshiper."
+    },
+    {
+      "verse": 10,
+      "kjv": "Which stood only in meats and drinks, and divers washings, and carnal ordinances, imposed on them until the time of reformation.",
+      "web": "being only (with meats and drinks and various washings) fleshly ordinances, imposed until a time of reformation.",
+      "ct": "They dealt only with food, drink, and various ceremonial washings — outward regulations that were in effect until the time when God would set everything right."
+    },
+    {
+      "verse": 11,
+      "kjv": "But Christ being come an high priest of good things to come, by a greater and more perfect tabernacle, not made with hands, that is to say, not of this building;",
+      "web": "But Christ having come as a high priest of the coming good things, through the greater and more perfect tabernacle, not made with hands, that is to say, not of this creation,",
+      "ct": "But when Christ came as the high priest of the good things that are now here, he passed through a greater and more perfect tabernacle — one not made by human hands and not part of this created world."
+    },
+    {
+      "verse": 12,
+      "kjv": "Neither by the blood of goats and calves, but by his own blood he entered in once into the holy place, having obtained eternal redemption for us.",
+      "web": "nor yet through the blood of goats and calves, but through his own blood, entered in once for all into the Holy Place, having obtained eternal redemption.",
+      "ct": "He didn't enter by means of the blood of goats and calves. Instead, he entered the Holy Place once for all by his own blood, securing eternal redemption for us."
+    },
+    {
+      "verse": 13,
+      "kjv": "For if the blood of bulls and of goats, and the ashes of an heifer sprinkling the unclean, sanctifieth to the purifying of the flesh:",
+      "web": "For if the blood of goats and bulls, and the ashes of a heifer sprinkling those who have been defiled, sanctify to the cleanness of the flesh,",
+      "ct": "Think about it: if the blood of goats and bulls, and the ashes of a heifer sprinkled on those who are ceremonially unclean, can make their bodies ritually pure —"
+    },
+    {
+      "verse": 14,
+      "kjv": "How much more shall the blood of Christ, who through the eternal Spirit offered himself without spot to God, purge your conscience from dead works to serve the living God?",
+      "web": "how much more will the blood of Christ, who through the eternal Spirit offered himself without defect to God, cleanse your conscience from dead works to serve the living God?",
+      "ct": "how much more will the blood of Christ, who through the eternal Spirit offered himself without flaw to God, cleanse your conscience from dead works so that you can serve the living God?"
+    },
+    {
+      "verse": 15,
+      "kjv": "And for this cause he is the mediator of the new testament, that by means of death, for the redemption of the transgressions that were under the first testament, they which are called might receive the promise of eternal inheritance.",
+      "web": "For this reason he is the mediator of a new covenant, since a death has occurred for the redemption of the transgressions that were under the first covenant, that those who have been called may receive the promise of the eternal inheritance.",
+      "ct": "This is why he is the mediator of a new covenant. His death paid the price to redeem people from the sins committed under the first covenant, so that everyone who is called by God can receive the promised eternal inheritance."
+    },
+    {
+      "verse": 16,
+      "kjv": "For where a testament is, there must also of necessity be the death of the testator.",
+      "web": "For where a last will and testament is, there must of necessity be the death of him who made it.",
+      "ct": "Think of it like a will: for a will to take effect, the death of the person who made it must be established."
+    },
+    {
+      "verse": 17,
+      "kjv": "For a testament is of force after men are dead: otherwise it is of no strength at all while the testator liveth.",
+      "web": "For a will is in force where there has been death, for it is never in force while he who made it lives.",
+      "ct": "A will only goes into force after the person dies. It has no power at all while the one who made it is still alive."
+    },
+    {
+      "verse": 18,
+      "kjv": "Whereupon neither the first testament was dedicated without blood.",
+      "web": "Therefore even the first covenant has not been dedicated without blood.",
+      "ct": "That's why even the first covenant wasn't put into effect without blood."
+    },
+    {
+      "verse": 19,
+      "kjv": "For when Moses had spoken every precept to all the people according to the law, he took the blood of calves and of goats, with water, and scarlet wool, and hyssop, and sprinkled both the book, and all the people,",
+      "web": "For when every commandment had been spoken by Moses to all the people according to the law, he took the blood of the calves and the goats, with water and scarlet wool and hyssop, and sprinkled both the book itself and all the people,",
+      "ct": "After Moses had read every commandment of the law to all the people, he took the blood of calves and goats, along with water, scarlet wool, and hyssop, and sprinkled both the scroll and all the people."
+    },
+    {
+      "verse": 20,
+      "kjv": "Saying, This is the blood of the testament which God hath enjoined unto you.",
+      "web": "saying, “This is the blood of the covenant which God has commanded you.”",
+      "ct": "He declared, \"This is the blood of the covenant that God has commanded you to keep.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Moreover he sprinkled with blood both the tabernacle, and all the vessels of the ministry.",
+      "web": "Moreover he sprinkled the tabernacle and all the vessels of the ministry in the same way with the blood.",
+      "ct": "In the same way, he sprinkled blood on the tabernacle and on every piece of equipment used in worship."
+    },
+    {
+      "verse": 22,
+      "kjv": "And almost all things are by the law purged with blood; and without shedding of blood is no remission.",
+      "web": "According to the law, nearly everything is cleansed with blood, and apart from shedding of blood there is no remission.",
+      "ct": "Under the law, nearly everything is made clean with blood, and without the shedding of blood there is no forgiveness."
+    },
+    {
+      "verse": 23,
+      "kjv": "It was therefore necessary that the patterns of things in the heavens should be purified with these; but the heavenly things themselves with better sacrifices than these.",
+      "web": "It was necessary therefore that the copies of the things in the heavens should be cleansed with these, but the heavenly things themselves with better sacrifices than these.",
+      "ct": "So the copies of the heavenly realities had to be purified with these animal sacrifices, but the heavenly things themselves required far better sacrifices."
+    },
+    {
+      "verse": 24,
+      "kjv": "For Christ is not entered into the holy places made with hands, which are the figures of the true; but into heaven itself, now to appear in the presence of God for us:",
+      "web": "For Christ hasn’t entered into holy places made with hands, which are representations of the true, but into heaven itself, now to appear in the presence of God for us;",
+      "ct": "Christ didn't enter a sanctuary made by human hands — a mere copy of the real one. He entered heaven itself, where he now stands in God's presence on our behalf."
+    },
+    {
+      "verse": 25,
+      "kjv": "Nor yet that he should offer himself often, as the high priest entereth into the holy place every year with blood of others;",
+      "web": "nor yet that he should offer himself often, as the high priest enters into the holy place year by year with blood not his own,",
+      "ct": "He doesn't need to offer himself again and again the way the high priest enters the Holy Place year after year with blood that isn't his own."
+    },
+    {
+      "verse": 26,
+      "kjv": "For then must he often have suffered since the foundation of the world: but now once in the end of the world hath he appeared to put away sin by the sacrifice of himself.",
+      "web": "or else he must have suffered often since the foundation of the world. But now once at the end of the ages, he has been revealed to put away sin by the sacrifice of himself.",
+      "ct": "If that were necessary, he would have had to suffer over and over since the creation of the world. Instead, he appeared once at the climax of the ages to do away with sin by sacrificing himself."
+    },
+    {
+      "verse": 27,
+      "kjv": "And as it is appointed unto men once to die, but after this the judgment:",
+      "web": "Inasmuch as it is appointed for men to die once, and after this, judgment,",
+      "ct": "Every person is destined to die once, and after that comes judgment."
+    },
+    {
+      "verse": 28,
+      "kjv": "So Christ was once offered to bear the sins of many; and unto them that look for him shall he appear the second time without sin unto salvation.",
+      "web": "so Christ also, having been offered once to bear the sins of many, will appear a second time, without sin, to those who are eagerly waiting for him for salvation.",
+      "ct": "In the same way, Christ was offered once to bear the sins of many. He will appear a second time — not to deal with sin — but to bring salvation to those who are eagerly waiting for him."
+    }
+  ]
+}

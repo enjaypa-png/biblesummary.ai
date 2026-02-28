@@ -1,0 +1,185 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 37,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:37:35.416Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Bezaleel made the ark of shittim wood: two cubits and a half was the length of it, and a cubit and a half the breadth of it, and a cubit and a half the height of it:",
+      "web": "Bezalel made the ark of acacia wood. Its length was two and a half cubits, and its width a cubit and a half, and a cubit and a half its height.",
+      "ct": "Bezaleel built the ark out of acacia wood. It was 2 and a half cubits long, a cubit and a half wide, and a cubit and a half tall."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he overlaid it with pure gold within and without, and made a crown of gold to it round about.",
+      "web": "He overlaid it with pure gold inside and outside, and made a molding of gold for it around it.",
+      "ct": "He covered it inside and out with pure gold and added a gold molding all the way around it."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he cast for it four rings of gold, to be set by the four corners of it; even two rings upon the one side of it, and two rings upon the other side of it.",
+      "web": "He cast four rings of gold for it, in its four feet—two rings on its one side, and two rings on its other side.",
+      "ct": "He cast 4 gold rings and attached them to the 4 feet of the ark — 2 rings on one side and 2 on the other."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he made staves of shittim wood, and overlaid them with gold.",
+      "web": "He made poles of acacia wood, and overlaid them with gold.",
+      "ct": "He made carrying poles from acacia wood and covered them with gold."
+    },
+    {
+      "verse": 5,
+      "kjv": "And he put the staves into the rings by the sides of the ark, to bear the ark.",
+      "web": "He put the poles into the rings on the sides of the ark, to bear the ark.",
+      "ct": "He slid the poles through the rings on each side of the ark so it could be carried."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he made the mercy seat of pure gold: two cubits and a half was the length thereof, and one cubit and a half the breadth thereof.",
+      "web": "He made a mercy seat of pure gold. Its length was two and a half cubits, and a cubit and a half its width.",
+      "ct": "He made the mercy seat from pure gold — 2 and a half cubits long and a cubit and a half wide."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he made two cherubims of gold, beaten out of one piece made he them, on the two ends of the mercy seat;",
+      "web": "He made two cherubim of gold. He made them of beaten work, at the two ends of the mercy seat:",
+      "ct": "He crafted 2 cherubim out of hammered gold, one at each end of the mercy seat."
+    },
+    {
+      "verse": 8,
+      "kjv": "One cherub on the end on this side, and another cherub on the other end on that side: out of the mercy seat made he the cherubims on the two ends thereof.",
+      "web": "one cherub at the one end, and one cherub at the other end. He made the cherubim of one piece with the mercy seat at its two ends.",
+      "ct": "One cherub stood at one end and the other at the opposite end. The cherubim were formed as a single piece with the mercy seat itself."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the cherubims spread out their wings on high, and covered with their wings over the mercy seat, with their faces one to another; even to the mercy seatward were the faces of the cherubims.",
+      "web": "The cherubim spread out their wings above, covering the mercy seat with their wings, with their faces toward one another. The faces of the cherubim were toward the mercy seat.",
+      "ct": "The cherubim had their wings spread upward, sheltering the mercy seat beneath them. They faced each other, looking down toward the mercy seat."
+    },
+    {
+      "verse": 10,
+      "kjv": "And he made the table of shittim wood: two cubits was the length thereof, and a cubit the breadth thereof, and a cubit and a half the height thereof:",
+      "web": "He made the table of acacia wood. Its length was two cubits, and its width was a cubit, and its height was a cubit and a half.",
+      "ct": "He built the table out of acacia wood — 2 cubits long, a cubit wide, and a cubit and a half tall."
+    },
+    {
+      "verse": 11,
+      "kjv": "And he overlaid it with pure gold, and made thereunto a crown of gold round about.",
+      "web": "He overlaid it with pure gold, and made a gold molding around it.",
+      "ct": "He covered it with pure gold and added a gold molding all the way around it."
+    },
+    {
+      "verse": 12,
+      "kjv": "Also he made thereunto a border of an handbreadth round about; and made a crown of gold for the border thereof round about.",
+      "web": "He made a border of a hand’s width around it, and made a golden molding on its border around it.",
+      "ct": "He also made a rim around it about a hand's width wide, with a gold molding along the edge of the rim."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he cast for it four rings of gold, and put the rings upon the four corners that were in the four feet thereof.",
+      "web": "He cast four rings of gold for it, and put the rings in the four corners that were on its four feet.",
+      "ct": "He cast 4 gold rings and fastened them at the 4 corners where the legs were."
+    },
+    {
+      "verse": 14,
+      "kjv": "Over against the border were the rings, the places for the staves to bear the table.",
+      "web": "The rings were close by the border, the places for the poles to carry the table.",
+      "ct": "The rings were positioned near the rim to hold the carrying poles for the table."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he made the staves of shittim wood, and overlaid them with gold, to bear the table.",
+      "web": "He made the poles of acacia wood, and overlaid them with gold, to carry the table.",
+      "ct": "He made the carrying poles from acacia wood and covered them with gold."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he made the vessels which were upon the table, his dishes, and his spoons, and his bowls, and his covers to cover withal, of pure gold.",
+      "web": "He made the vessels which were on the table, its dishes, its spoons, its bowls, and its pitchers with which to pour out, of pure gold.",
+      "ct": "He also crafted all the items that went on the table — the plates, ladles, bowls, and pitchers for pouring — all from pure gold."
+    },
+    {
+      "verse": 17,
+      "kjv": "And he made the candlestick of pure gold: of beaten work made he the candlestick; his shaft, and his branch, his bowls, his knops, and his flowers, were of the same:",
+      "web": "He made the lamp stand of pure gold. He made the lamp stand of beaten work. Its base, its shaft, its cups, its buds, and its flowers were of one piece with it.",
+      "ct": "He made the lampstand from pure gold, hammered from a single piece. Its base, shaft, cups, buds, and flower petals were all formed together as one."
+    },
+    {
+      "verse": 18,
+      "kjv": "And six branches going out of the sides thereof; three branches of the candlestick out of the one side thereof, and three branches of the candlestick out of the other side thereof:",
+      "web": "There were six branches going out of its sides: three branches of the lamp stand out of its one side, and three branches of the lamp stand out of its other side:",
+      "ct": "6 branches extended from its sides — 3 from one side and 3 from the other."
+    },
+    {
+      "verse": 19,
+      "kjv": "Three bowls made after the fashion of almonds in one branch, a knop and a flower; and three bowls made like almonds in another branch, a knop and a flower: so throughout the six branches going out of the candlestick.",
+      "web": "three cups made like almond blossoms in one branch, a bud and a flower, and three cups made like almond blossoms in the other branch, a bud and a flower; so for the six branches going out of the lamp stand.",
+      "ct": "Each branch had 3 cups shaped like almond blossoms, each with a bud and a flower. This pattern was the same across all 6 branches."
+    },
+    {
+      "verse": 20,
+      "kjv": "And in the candlestick were four bowls made like almonds, his knops, and his flowers:",
+      "web": "In the lamp stand were four cups made like almond blossoms, its buds and its flowers;",
+      "ct": "The central shaft of the lampstand had 4 cups shaped like almond blossoms, complete with buds and flowers."
+    },
+    {
+      "verse": 21,
+      "kjv": "And a knop under two branches of the same, and a knop under two branches of the same, and a knop under two branches of the same, according to the six branches going out of it.",
+      "web": "and a bud under two branches of one piece with it, and a bud under two branches of one piece with it, and a bud under two branches of one piece with it, for the six branches going out of it.",
+      "ct": "Where each pair of branches met the shaft, there was a bud beneath them — one bud under the first pair, one under the second, and one under the third, for all 6 branches."
+    },
+    {
+      "verse": 22,
+      "kjv": "Their knops and their branches were of the same: all of it was one beaten work of pure gold.",
+      "web": "Their buds and their branches were of one piece with it. The whole thing was one beaten work of pure gold.",
+      "ct": "The buds and branches were all part of the same piece. The entire lampstand was hammered from a single piece of pure gold."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he made his seven lamps, and his snuffers, and his snuffdishes, of pure gold.",
+      "web": "He made its seven lamps, and its snuffers, and its snuff dishes, of pure gold.",
+      "ct": "He made its 7 lamps, along with its wick trimmers and trays, all from pure gold."
+    },
+    {
+      "verse": 24,
+      "kjv": "Of a talent of pure gold made he it, and all the vessels thereof.",
+      "web": "He made it of a talent of pure gold, with all its vessels.",
+      "ct": "He used one talent of pure gold to make the lampstand and all its accessories."
+    },
+    {
+      "verse": 25,
+      "kjv": "And he made the incense altar of shittim wood: the length of it was a cubit, and the breadth of it a cubit; it was foursquare; and two cubits was the height of it; the horns thereof were of the same.",
+      "web": "He made the altar of incense of acacia wood. It was square: its length was a cubit, and its width a cubit. Its height was two cubits. Its horns were of one piece with it.",
+      "ct": "He built the incense altar from acacia wood. It was square — a cubit long and a cubit wide — and stood 2 cubits tall. Its horns were formed as one piece with it."
+    },
+    {
+      "verse": 26,
+      "kjv": "And he overlaid it with pure gold, both the top of it, and the sides thereof round about, and the horns of it: also he made unto it a crown of gold round about.",
+      "web": "He overlaid it with pure gold: its top, its sides around it, and its horns. He made a gold molding around it.",
+      "ct": "He covered the top, all the sides, and the horns with pure gold, and added a gold molding all the way around it."
+    },
+    {
+      "verse": 27,
+      "kjv": "And he made two rings of gold for it under the crown thereof, by the two corners of it, upon the two sides thereof, to be places for the staves to bear it withal.",
+      "web": "He made two golden rings for it under its molding crown, on its two ribs, on its two sides, for places for poles with which to carry it.",
+      "ct": "He attached 2 gold rings beneath the molding on opposite sides to hold the carrying poles."
+    },
+    {
+      "verse": 28,
+      "kjv": "And he made the staves of shittim wood, and overlaid them with gold.",
+      "web": "He made the poles of acacia wood, and overlaid them with gold.",
+      "ct": "He made the carrying poles from acacia wood and covered them with gold."
+    },
+    {
+      "verse": 29,
+      "kjv": "And he made the holy anointing oil, and the pure incense of sweet spices, according to the work of the apothecary.",
+      "web": "He made the holy anointing oil and the pure incense of sweet spices, after the art of the perfumer.",
+      "ct": "He also prepared the holy anointing oil and the pure, fragrant incense, blended with the skill of a perfumer."
+    }
+  ]
+}

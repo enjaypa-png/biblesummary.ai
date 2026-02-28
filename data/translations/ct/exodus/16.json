@@ -1,0 +1,227 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 16,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:29:39.223Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.",
+      "web": "They took their journey from Elim, and all the congregation of the children of Israel came to the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.",
+      "ct": "The entire community of Israel left Elim and arrived at the wilderness of Sin, which lies between Elim and Sinai. This was on the 15th day of the 2nd month after they had left Egypt."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the whole congregation of the children of Israel murmured against Moses and Aaron in the wilderness:",
+      "web": "The whole congregation of the children of Israel murmured against Moses and against Aaron in the wilderness;",
+      "ct": "There in the wilderness, the whole community began to complain against Moses and Aaron."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the children of Israel said unto them, Would to God we had died by the hand of the LORD in the land of Egypt, when we sat by the flesh pots, and when we did eat bread to the full; for ye have brought us forth into this wilderness, to kill this whole assembly with hunger.",
+      "web": "and the children of Israel said to them, “We wish that we had died by LORD’s hand in the land of Egypt, when we sat by the meat pots, when we ate our fill of bread, for you have brought us out into this wilderness to kill this whole assembly with hunger.”",
+      "ct": "The Israelites said to them, \"We wish the LORD had just killed us back in Egypt! At least there we sat around pots of meat and ate all the bread we wanted. But you've dragged us out into this wilderness to starve us all to death!\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said the LORD unto Moses, Behold, I will rain bread from heaven for you; and the people shall go out and gather a certain rate every day, that I may prove them, whether they will walk in my law, or no.",
+      "web": "Then LORD said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law or not.",
+      "ct": "Then the LORD told Moses, \"I'm going to rain down bread from heaven for you. Each day the people must go out and gather only what they need for that day. I will use this to test them — to see whether they will follow my instructions or not."
+    },
+    {
+      "verse": 5,
+      "kjv": "And it shall come to pass, that on the sixth day they shall prepare that which they bring in; and it shall be twice as much as they gather daily.",
+      "web": "It shall come to pass on the sixth day, that they shall prepare that which they bring in, and it shall be twice as much as they gather daily.”",
+      "ct": "On the 6th day, when they prepare what they've brought in, it will turn out to be twice as much as they gather on any other day.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Moses and Aaron said unto all the children of Israel, At even, then ye shall know that the LORD hath brought you out from the land of Egypt:",
+      "web": "Moses and Aaron said to all the children of Israel, “At evening, you shall know that LORD has brought you out from the land of Egypt.",
+      "ct": "So Moses and Aaron told all the Israelites, \"This evening you will know for certain that the LORD is the one who brought you out of Egypt."
+    },
+    {
+      "verse": 7,
+      "kjv": "And in the morning, then ye shall see the glory of the LORD; for that he heareth your murmurings against the LORD: and what are we, that ye murmur against us?",
+      "web": "In the morning, you shall see LORD’s glory; because he hears your murmurings against LORD. Who are we, that you murmur against us?”",
+      "ct": "In the morning you will see the glory of the LORD, because he has heard your complaints against him. Who are we that you should complain against us?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Moses said, This shall be, when the LORD shall give you in the evening flesh to eat, and in the morning bread to the full; for that the LORD heareth your murmurings which ye murmur against him: and what are we? your murmurings are not against us, but against the LORD.",
+      "web": "Moses said, “Now LORD will give you meat to eat in the evening, and in the morning bread to satisfy you, because LORD hears your murmurings which you murmur against him. And who are we? Your murmurings are not against us, but against LORD.”",
+      "ct": "Moses continued, \"The LORD will give you meat to eat this evening and all the bread you want in the morning, because he has heard how you've been complaining against him. Who are we? Your complaints aren't really against us — they're against the LORD.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Moses spake unto Aaron, Say unto all the congregation of the children of Israel, Come near before the LORD: for he hath heard your murmurings.",
+      "web": "Moses said to Aaron, “Tell all the congregation of the children of Israel, ‘Come close to LORD, for he has heard your murmurings.’ ”",
+      "ct": "Then Moses said to Aaron, \"Tell the entire Israelite community, 'Come and stand before the LORD, because he has heard your complaints.'\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And it came to pass, as Aaron spake unto the whole congregation of the children of Israel, that they looked toward the wilderness, and, behold, the glory of the LORD appeared in the cloud.",
+      "web": "As Aaron spoke to the whole congregation of the children of Israel, they looked toward the wilderness, and behold, LORD’s glory appeared in the cloud.",
+      "ct": "As Aaron was speaking to the whole Israelite community, they turned and looked toward the wilderness, and there was the glory of the LORD appearing in the cloud."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 12,
+      "kjv": "I have heard the murmurings of the children of Israel: speak unto them, saying, At even ye shall eat flesh, and in the morning ye shall be filled with bread; and ye shall know that I am the LORD your God.",
+      "web": "“I have heard the murmurings of the children of Israel. Speak to them, saying, ‘At evening you shall eat meat, and in the morning you shall be filled with bread. Then you will know that I am LORD your God.’ ”",
+      "ct": "\"I have heard the complaints of the Israelites. Tell them this: 'At evening you will eat meat, and in the morning you will have all the bread you can eat. Then you will know that I am the LORD your God.'\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And it came to pass, that at even the quails came up, and covered the camp: and in the morning the dew lay round about the host.",
+      "web": "In the evening, quail came up and covered the camp; and in the morning the dew lay around the camp.",
+      "ct": "That evening, quail flew in and covered the entire camp. The next morning, dew blanketed the ground all around the camp."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when the dew that lay was gone up, behold, upon the face of the wilderness there lay a small round thing, as small as the hoar frost on the ground.",
+      "web": "When the dew that lay had gone, behold, on the surface of the wilderness was a small round thing, small as the frost on the ground.",
+      "ct": "When the dew evaporated, there on the surface of the wilderness lay thin, flaky stuff — as fine as frost on the ground."
+    },
+    {
+      "verse": 15,
+      "kjv": "And when the children of Israel saw it, they said one to another, It is manna: for they wist not what it was. And Moses said unto them, This is the bread which the LORD hath given you to eat.",
+      "web": "When the children of Israel saw it, they said to one another, “What is it?” For they didn’t know what it was. Moses said to them, “It is the bread which LORD has given you to eat.",
+      "ct": "When the Israelites saw it, they asked each other, \"What is it?\" because they had no idea what they were looking at. Moses told them, \"This is the bread the LORD has given you to eat."
+    },
+    {
+      "verse": 16,
+      "kjv": "This is the thing which the LORD hath commanded, Gather of it every man according to his eating, an omer for every man, according to the number of your persons; take ye every man for them which are in his tents.",
+      "web": "“This is the thing which LORD has commanded: ‘Gather of it everyone according to his eating; an omer a head, according to the number of your persons, you shall take it, every man for those who are in his tent.’ ”",
+      "ct": "Here is what the LORD has commanded: 'Each person should gather as much as they need — 1 omer per person. Everyone collect enough for the people in your tent.'\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the children of Israel did so, and gathered, some more, some less.",
+      "web": "The children of Israel did so, and some gathered more, some less.",
+      "ct": "The Israelites did as they were told. Some gathered more, some gathered less."
+    },
+    {
+      "verse": 18,
+      "kjv": "And when they did mete it with an omer, he that gathered much had nothing over, and he that gathered little had no lack; they gathered every man according to his eating.",
+      "web": "When they measured it with an omer, he who gathered much had nothing over, and he who gathered little had no lack. They each gathered according to his eating.",
+      "ct": "But when they measured it out by the omer, those who had gathered a lot didn't have too much, and those who had gathered only a little didn't come up short. Everyone ended up with exactly what they needed."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Moses said, Let no man leave of it till the morning.",
+      "web": "Moses said to them, “Let no one leave of it until the morning.”",
+      "ct": "Moses told them, \"No one is to keep any of it until morning.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Notwithstanding they hearkened not unto Moses; but some of them left of it until the morning, and it bred worms, and stank: and Moses was wroth with them.",
+      "web": "Notwithstanding they didn’t listen to Moses, but some of them left of it until the morning, so it bred worms and became foul; and Moses was angry with them.",
+      "ct": "But some of them didn't listen to Moses and saved part of it overnight. By morning it was crawling with worms and smelled terrible. Moses was angry with them."
+    },
+    {
+      "verse": 21,
+      "kjv": "And they gathered it every morning, every man according to his eating: and when the sun waxed hot, it melted.",
+      "web": "They gathered it morning by morning, everyone according to his eating. When the sun grew hot, it melted.",
+      "ct": "So each morning everyone gathered what they needed. Once the sun grew hot, whatever was left on the ground melted away."
+    },
+    {
+      "verse": 22,
+      "kjv": "And it came to pass, that on the sixth day they gathered twice as much bread, two omers for one man: and all the rulers of the congregation came and told Moses.",
+      "web": "On the sixth day, they gathered twice as much bread, two omers for each one; and all the rulers of the congregation came and told Moses.",
+      "ct": "On the 6th day, the people gathered twice as much — 2 omers per person. The leaders of the community came and reported this to Moses."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he said unto them, This is that which the LORD hath said, To morrow is the rest of the holy sabbath unto the LORD: bake that which ye will bake to day, and seethe that ye will seethe; and that which remaineth over lay up for you to be kept until the morning.",
+      "web": "He said to them, “This is that which LORD has spoken, ‘Tomorrow is a solemn rest, a holy Sabbath to LORD. Bake that which you want to bake, and boil that which you want to boil; and all that remains over lay up for yourselves to be kept until the morning.’ ”",
+      "ct": "He told them, \"This is what the LORD has said: 'Tomorrow is a day of complete rest, a holy Sabbath to the LORD. Bake what you want to bake and boil what you want to boil today. Then set aside whatever is left over and keep it until morning.'\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And they laid it up till the morning, as Moses bade: and it did not stink, neither was there any worm therein.",
+      "web": "They laid it up until the morning, as Moses ordered, and it didn’t become foul, and there were no worms in it.",
+      "ct": "So they saved it until morning, just as Moses instructed. This time it didn't smell bad, and there were no worms in it."
+    },
+    {
+      "verse": 25,
+      "kjv": "And Moses said, Eat that to day; for to day is a sabbath unto the LORD: to day ye shall not find it in the field.",
+      "web": "Moses said, “Eat that today, for today is a Sabbath to LORD. Today you shall not find it in the field.",
+      "ct": "Moses said, \"Eat it today, because today is a Sabbath to the LORD. You won't find any on the ground today."
+    },
+    {
+      "verse": 26,
+      "kjv": "Six days ye shall gather it; but on the seventh day, which is the sabbath, in it there shall be none.",
+      "web": "Six days you shall gather it, but on the seventh day is the Sabbath. In it there shall be none.”",
+      "ct": "You are to gather it for 6 days, but the 7th day is the Sabbath — there won't be any.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And it came to pass, that there went out some of the people on the seventh day for to gather, and they found none.",
+      "web": "On the seventh day, some of the people went out to gather, and they found none.",
+      "ct": "Sure enough, on the 7th day some people went out to gather it anyway, but they found nothing."
+    },
+    {
+      "verse": 28,
+      "kjv": "And the LORD said unto Moses, How long refuse ye to keep my commandments and my laws?",
+      "web": "LORD said to Moses, “How long do you refuse to keep my commandments and my laws?",
+      "ct": "The LORD said to Moses, \"How long will these people refuse to obey my commandments and my laws?"
+    },
+    {
+      "verse": 29,
+      "kjv": "See, for that the LORD hath given you the sabbath, therefore he giveth you on the sixth day the bread of two days; abide ye every man in his place, let no man go out of his place on the seventh day.",
+      "web": "Behold, because LORD has given you the Sabbath, therefore he gives you on the sixth day the bread of two days. Everyone stay in his place. Let no one go out of his place on the seventh day.”",
+      "ct": "Understand this: the LORD has given you the Sabbath. That's why he provides you with 2 days' worth of bread on the 6th day. Everyone must stay where they are — no one should leave their place on the 7th day.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "So the people rested on the seventh day.",
+      "web": "So the people rested on the seventh day.",
+      "ct": "So the people rested on the 7th day."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the house of Israel called the name thereof Manna: and it was like coriander seed, white; and the taste of it was like wafers made with honey.",
+      "web": "The house of Israel called its name “Manna”, and it was like coriander seed, white; and its taste was like wafers with honey.",
+      "ct": "The Israelites called the bread \"manna.\" It looked like white coriander seeds and tasted like honey wafers."
+    },
+    {
+      "verse": 32,
+      "kjv": "And Moses said, This is the thing which the LORD commandeth, Fill an omer of it to be kept for your generations; that they may see the bread wherewith I have fed you in the wilderness, when I brought you forth from the land of Egypt.",
+      "web": "Moses said, “This is the thing which LORD has commanded, ‘Let an omer-full of it be kept throughout your generations, that they may see the bread with which I fed you in the wilderness, when I brought you out of the land of Egypt.’ ”",
+      "ct": "Moses said, \"This is what the LORD has commanded: 'Keep 1 omer of manna for future generations, so your descendants can see the bread I fed you in the wilderness when I brought you out of Egypt.'\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And Moses said unto Aaron, Take a pot, and put an omer full of manna therein, and lay it up before the LORD, to be kept for your generations.",
+      "web": "Moses said to Aaron, “Take a pot, and put an omer-full of manna in it, and lay it up before LORD, to be kept throughout your generations.”",
+      "ct": "Moses told Aaron, \"Take a jar and put 1 omer of manna in it. Place it before the LORD to be preserved for future generations.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "As the LORD commanded Moses, so Aaron laid it up before the Testimony, to be kept.",
+      "web": "As LORD commanded Moses, so Aaron laid it up before the Testimony, to be kept.",
+      "ct": "Just as the LORD commanded Moses, Aaron placed it in front of the Testimony to be preserved."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the children of Israel did eat manna forty years, until they came to a land inhabited; they did eat manna, until they came unto the borders of the land of Canaan.",
+      "web": "The children of Israel ate the manna forty years, until they came to an inhabited land. They ate the manna until they came to the borders of the land of Canaan.",
+      "ct": "The Israelites ate manna for 40 years — all the way until they reached an inhabited land. They ate manna until they arrived at the border of Canaan."
+    },
+    {
+      "verse": 36,
+      "kjv": "Now an omer is the tenth part of an ephah.",
+      "web": "Now an omer is one tenth of an ephah.",
+      "ct": "An omer is 1/10 of an ephah."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "book": "1-john",
+  "book_name": "1 John",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:16:40.671Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: therefore the world knoweth us not, because it knew him not.",
+      "web": "See how great a love the Father has given to us, that we should be called children of God! For this cause the world doesn’t know us, because it didn’t know him.",
+      "ct": "Look at how incredible the Father's love for us is — he calls us his own children, and that's exactly what we are! The reason the world doesn't recognize us is that it never recognized him either."
+    },
+    {
+      "verse": 2,
+      "kjv": "Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know that, when he shall appear, we shall be like him; for we shall see him as he is.",
+      "web": "Beloved, now we are children of God. It is not yet revealed what we will be; but we know that when he is revealed, we will be like him; for we will see him just as he is.",
+      "ct": "Dear friends, right now we are already God's children. What we'll ultimately become hasn't been revealed yet, but we know this: when Christ appears, we will be like him, because we'll see him exactly as he is."
+    },
+    {
+      "verse": 3,
+      "kjv": "And every man that hath this hope in him purifieth himself, even as he is pure.",
+      "web": "Everyone who has this hope set on him purifies himself, even as he is pure.",
+      "ct": "Everyone who holds on to this hope purifies themselves, just as he is pure."
+    },
+    {
+      "verse": 4,
+      "kjv": "Whosoever committeth sin transgresseth also the law: for sin is the transgression of the law.",
+      "web": "Everyone who sins also commits lawlessness. Sin is lawlessness.",
+      "ct": "Everyone who sins is breaking God's law, because sin is, by definition, lawlessness."
+    },
+    {
+      "verse": 5,
+      "kjv": "And ye know that he was manifested to take away our sins; and in him is no sin.",
+      "web": "You know that he was revealed to take away our sins, and no sin is in him.",
+      "ct": "You know that Christ appeared to take away our sins, and there is no sin in him at all."
+    },
+    {
+      "verse": 6,
+      "kjv": "Whosoever abideth in him sinneth not: whosoever sinneth hath not seen him, neither known him.",
+      "web": "Whoever remains in him doesn’t sin. Whoever sins hasn’t seen him and doesn’t know him.",
+      "ct": "No one who remains in him keeps on sinning. Anyone who keeps on sinning has never truly seen him or known him."
+    },
+    {
+      "verse": 7,
+      "kjv": "Little children, let no man deceive you: he that doeth righteousness is righteous, even as he is righteous.",
+      "web": "Little children, let no one lead you astray. He who does righteousness is righteous, even as he is righteous.",
+      "ct": "Dear children, don't let anyone mislead you. The person who does what is right is righteous, just as Christ is righteous."
+    },
+    {
+      "verse": 8,
+      "kjv": "He that committeth sin is of the devil; for the devil sinneth from the beginning. For this purpose the Son of God was manifested, that he might destroy the works of the devil.",
+      "web": "He who sins is of the devil, for the devil has been sinning from the beginning. To this end the Son of God was revealed: that he might destroy the works of the devil.",
+      "ct": "The person who keeps sinning belongs to the devil, because the devil has been sinning from the very beginning. This is exactly why the Son of God appeared — to destroy the devil's work."
+    },
+    {
+      "verse": 9,
+      "kjv": "Whosoever is born of God doth not commit sin; for his seed remaineth in him: and he cannot sin, because he is born of God.",
+      "web": "Whoever is born of God doesn’t commit sin, because his seed remains in him, and he can’t sin, because he is born of God.",
+      "ct": "No one who is born of God makes a practice of sinning, because God's seed remains in them. They cannot go on sinning, because they have been born of God."
+    },
+    {
+      "verse": 10,
+      "kjv": "In this the children of God are manifest, and the children of the devil: whosoever doeth not righteousness is not of God, neither he that loveth not his brother.",
+      "web": "In this the children of God are revealed, and the children of the devil. Whoever doesn’t do righteousness is not of God, neither is he who doesn’t love his brother.",
+      "ct": "This is how you can tell God's children apart from the devil's children: anyone who doesn't do what is right does not belong to God, and neither does anyone who doesn't love their brother or sister."
+    },
+    {
+      "verse": 11,
+      "kjv": "For this is the message that ye heard from the beginning, that we should love one another.",
+      "web": "For this is the message which you heard from the beginning, that we should love one another;",
+      "ct": "This is the message you've heard from the very beginning: we should love one another."
+    },
+    {
+      "verse": 12,
+      "kjv": "Not as Cain, who was of that wicked one, and slew his brother. And wherefore slew he him? Because his own works were evil, and his brother’s righteous.",
+      "web": "unlike Cain, who was of the evil one, and killed his brother. Why did he kill him? Because his deeds were evil, and his brother’s righteous.",
+      "ct": "Don't be like Cain, who belonged to the evil one and murdered his brother. And why did he murder him? Because his own actions were evil, and his brother's were righteous."
+    },
+    {
+      "verse": 13,
+      "kjv": "Marvel not, my brethren, if the world hate you.",
+      "web": "Don’t be surprised, my brothers, if the world hates you.",
+      "ct": "Brothers and sisters, don't be surprised if the world hates you."
+    },
+    {
+      "verse": 14,
+      "kjv": "We know that we have passed from death unto life, because we love the brethren. He that loveth not his brother abideth in death.",
+      "web": "We know that we have passed out of death into life, because we love the brothers. He who doesn’t love his brother remains in death.",
+      "ct": "We know that we have crossed over from death to life, because we love our brothers and sisters. Anyone who doesn't love remains trapped in death."
+    },
+    {
+      "verse": 15,
+      "kjv": "Whosoever hateth his brother is a murderer: and ye know that no murderer hath eternal life abiding in him.",
+      "web": "Whoever hates his brother is a murderer, and you know that no murderer has eternal life remaining in him.",
+      "ct": "Anyone who hates a brother or sister is a murderer, and you know that no murderer has eternal life living inside them."
+    },
+    {
+      "verse": 16,
+      "kjv": "Hereby perceive we the love of God, because he laid down his life for us: and we ought to lay down our lives for the brethren.",
+      "web": "By this we know love, because he laid down his life for us. And we ought to lay down our lives for the brothers.",
+      "ct": "This is how we understand what love really is: Christ laid down his life for us. So we should be willing to lay down our lives for our brothers and sisters."
+    },
+    {
+      "verse": 17,
+      "kjv": "But whoso hath this world’s good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him?",
+      "web": "But whoever has the world’s goods and sees his brother in need, then closes his heart of compassion against him, how does God’s love remain in him?",
+      "ct": "If someone has enough money to live well but sees a brother or sister in need and slams the door of their heart shut — how can God's love possibly be living in that person?"
+    },
+    {
+      "verse": 18,
+      "kjv": "My little children, let us not love in word, neither in tongue; but in deed and in truth.",
+      "web": "My little children, let’s not love in word only, or with the tongue only, but in deed and truth.",
+      "ct": "Dear children, let's not love with just words or speeches. Let's love with our actions and in truth."
+    },
+    {
+      "verse": 19,
+      "kjv": "And hereby we know that we are of the truth, and shall assure our hearts before him.",
+      "web": "And by this we know that we are of the truth, and persuade our hearts before him,",
+      "ct": "This is how we'll know that we belong to the truth, and this is how we'll put our hearts at ease in his presence."
+    },
+    {
+      "verse": 20,
+      "kjv": "For if our heart condemn us, God is greater than our heart, and knoweth all things.",
+      "web": "because if our heart condemns us, God is greater than our heart, and knows all things.",
+      "ct": "Even if our hearts condemn us, God is greater than our hearts, and he knows everything."
+    },
+    {
+      "verse": 21,
+      "kjv": "Beloved, if our heart condemn us not, then have we confidence toward God.",
+      "web": "Beloved, if our hearts don’t condemn us, we have boldness toward God;",
+      "ct": "Dear friends, if our hearts don't condemn us, we can approach God with confidence."
+    },
+    {
+      "verse": 22,
+      "kjv": "And whatsoever we ask, we receive of him, because we keep his commandments, and do those things that are pleasing in his sight.",
+      "web": "so whatever we ask, we receive from him, because we keep his commandments and do the things that are pleasing in his sight.",
+      "ct": "Whatever we ask, we receive from him, because we obey his commands and do what pleases him."
+    },
+    {
+      "verse": 23,
+      "kjv": "And this is his commandment, That we should believe on the name of his Son Jesus Christ, and love one another, as he gave us commandment.",
+      "web": "This is his commandment, that we should believe in the name of his Son, Jesus Christ, and love one another, even as he commanded.",
+      "ct": "This is his command: that we believe in the name of his Son, Jesus Christ, and that we love one another — just as he told us to."
+    },
+    {
+      "verse": 24,
+      "kjv": "And he that keepeth his commandments dwelleth in him, and he in him. And hereby we know that he abideth in us, by the Spirit which he hath given us.",
+      "web": "He who keeps his commandments remains in him, and he in him. By this we know that he remains in us, by the Spirit which he gave us.",
+      "ct": "Whoever obeys his commands lives in God, and God lives in them. This is how we know he remains in us — by the Holy Spirit he has given us."
+    }
+  ]
+}

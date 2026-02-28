@@ -1,0 +1,155 @@
+{
+  "book": "joshua",
+  "book_name": "Joshua",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:18:40.688Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, when all the people were clean passed over Jordan, that the LORD spake unto Joshua, saying,",
+      "web": "When all the nation had completely crossed over the Jordan, LORD spoke to Joshua, saying,",
+      "ct": "Once the entire nation had finished crossing the Jordan, the LORD said to Joshua,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Take you twelve men out of the people, out of every tribe a man,",
+      "web": "“Take twelve men out of the people, a man out of every tribe,",
+      "ct": "\"Choose 12 men from the people — one from each tribe —"
+    },
+    {
+      "verse": 3,
+      "kjv": "And command ye them, saying, Take you hence out of the midst of Jordan, out of the place where the priests’ feet stood firm, twelve stones, and ye shall carry them over with you, and leave them in the lodging place, where ye shall lodge this night.",
+      "web": "and command them, saying, ‘Take from out of the middle of the Jordan, out of the place where the priests’ feet stood firm, twelve stones, carry them over with you, and lay them down in the place where you’ll camp tonight.’ ”",
+      "ct": "and give them this order: 'Go to the middle of the Jordan, right where the priests' feet stood firm, and pick up 12 stones. Carry them with you and set them down at the place where you camp tonight.'\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then Joshua called the twelve men, whom he had prepared of the children of Israel, out of every tribe a man:",
+      "web": "Then Joshua called the twelve men whom he had prepared of the children of Israel, a man out of every tribe.",
+      "ct": "So Joshua called together the 12 men he had already selected from the tribes of Israel, one from each tribe."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Joshua said unto them, Pass over before the ark of the LORD your God into the midst of Jordan, and take you up every man of you a stone upon his shoulder, according unto the number of the tribes of the children of Israel:",
+      "web": "Joshua said to them, “Cross before the ark of LORD your God into the middle of the Jordan, and each of you pick up a stone and put it on your shoulder, according to the number of the tribes of the children of Israel;",
+      "ct": "Joshua told them, \"Walk out ahead of the ark of the LORD your God into the middle of the Jordan. Each of you pick up one stone and carry it on your shoulder — one stone for each of the 12 tribes of Israel."
+    },
+    {
+      "verse": 6,
+      "kjv": "That this may be a sign among you, that when your children ask their fathers in time to come, saying, What mean ye by these stones?",
+      "web": "that this may be a sign among you, that when your children ask in the future, saying, ‘What do you mean by these stones?’",
+      "ct": "These stones will serve as a sign for you. Someday your children will ask, 'What do these stones mean?'"
+    },
+    {
+      "verse": 7,
+      "kjv": "Then ye shall answer them, That the waters of Jordan were cut off before the ark of the covenant of the LORD; when it passed over Jordan, the waters of Jordan were cut off: and these stones shall be for a memorial unto the children of Israel for ever.",
+      "web": "then you shall tell them, ‘Because the waters of the Jordan were cut off before the ark of LORD’s covenant. When it crossed over the Jordan, the waters of the Jordan were cut off. These stones shall be for a memorial to the children of Israel forever.’ ”",
+      "ct": "Then you'll tell them, 'The waters of the Jordan were cut off right in front of the ark of the LORD's covenant. When the ark crossed the Jordan, the river stopped flowing.' These stones will stand as a permanent memorial for the people of Israel.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the children of Israel did so as Joshua commanded, and took up twelve stones out of the midst of Jordan, as the LORD spake unto Joshua, according to the number of the tribes of the children of Israel, and carried them over with them unto the place where they lodged, and laid them down there.",
+      "web": "The children of Israel did as Joshua commanded, and took up twelve stones out of the middle of the Jordan, as LORD spoke to Joshua, according to the number of the tribes of the children of Israel. They carried them over with them to the place where they camped, and laid them down there.",
+      "ct": "The Israelites did exactly what Joshua commanded. They took 12 stones from the middle of the Jordan — one for each tribe, just as the LORD had told Joshua — carried them to the place where they camped, and set them down there."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Joshua set up twelve stones in the midst of Jordan, in the place where the feet of the priests which bare the ark of the covenant stood: and they are there unto this day.",
+      "web": "Joshua set up twelve stones in the middle of the Jordan, in the place where the feet of the priests who bore the ark of the covenant stood; and they are there to this day.",
+      "ct": "Joshua also set up 12 stones in the middle of the Jordan itself, right where the priests carrying the ark of the covenant had stood. Those stones are still there to this day."
+    },
+    {
+      "verse": 10,
+      "kjv": "For the priests which bare the ark stood in the midst of Jordan, until everything was finished that the LORD commanded Joshua to speak unto the people, according to all that Moses commanded Joshua: and the people hasted and passed over.",
+      "web": "For the priests who bore the ark stood in the middle of the Jordan until everything was finished that LORD commanded Joshua to speak to the people, according to all that Moses commanded Joshua; and the people hurried and passed over.",
+      "ct": "The priests carrying the ark stood in the middle of the Jordan until everything the LORD had commanded Joshua to tell the people was carried out — following all the instructions Moses had given Joshua. The people hurried across."
+    },
+    {
+      "verse": 11,
+      "kjv": "And it came to pass, when all the people were clean passed over, that the ark of the LORD passed over, and the priests, in the presence of the people.",
+      "web": "When all the people had completely crossed over, LORD’s ark crossed over with the priests in the presence of the people.",
+      "ct": "Once everyone had finished crossing, the ark of the LORD passed over too, with the priests carrying it, as all the people watched."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the children of Reuben, and the children of Gad, and half the tribe of Manasseh, passed over armed before the children of Israel, as Moses spake unto them:",
+      "web": "The children of Reuben, and the children of Gad, and the half-tribe of Manasseh crossed over armed before the children of Israel, as Moses spoke to them.",
+      "ct": "The men of Reuben, Gad, and the half-tribe of Manasseh crossed over fully armed ahead of the other Israelites, just as Moses had instructed them."
+    },
+    {
+      "verse": 13,
+      "kjv": "About forty thousand prepared for war passed over before the LORD unto battle, to the plains of Jericho.",
+      "web": "About forty thousand men, ready and armed for war, passed over before LORD to battle, to the plains of Jericho.",
+      "ct": "About 40,000 soldiers, armed and ready for battle, marched ahead of the LORD onto the plains of Jericho."
+    },
+    {
+      "verse": 14,
+      "kjv": "On that day the LORD magnified Joshua in the sight of all Israel; and they feared him, as they feared Moses, all the days of his life.",
+      "web": "On that day, LORD magnified Joshua in the sight of all Israel; and they feared him, as they feared Moses, all the days of his life.",
+      "ct": "That day the LORD made Joshua great in the eyes of all Israel. From then on, the people respected him just as they had respected Moses for the rest of his life."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the LORD spake unto Joshua, saying,",
+      "web": "LORD spoke to Joshua, saying,",
+      "ct": "Then the LORD said to Joshua,"
+    },
+    {
+      "verse": 16,
+      "kjv": "Command the priests that bear the ark of the testimony, that they come up out of Jordan.",
+      "web": "“Command the priests who bear the ark of the covenant, that they come up out of the Jordan.”",
+      "ct": "\"Tell the priests carrying the ark of the testimony to come up out of the Jordan.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Joshua therefore commanded the priests, saying, Come ye up out of Jordan.",
+      "web": "Joshua therefore commanded the priests, saying, “Come up out of the Jordan!”",
+      "ct": "So Joshua called out to the priests, \"Come up out of the Jordan!\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And it came to pass, when the priests that bare the ark of the covenant of the LORD were come up out of the midst of Jordan, and the soles of the priests’ feet were lifted up unto the dry land, that the waters of Jordan returned unto their place, and flowed over all his banks, as they did before.",
+      "web": "When the priests who bore the ark of LORD’s covenant had come up out of the middle of the Jordan, and the soles of the priests’ feet had been lifted up to the dry ground, the waters of the Jordan returned to their place, and went over all its banks, as before.",
+      "ct": "The moment the priests carrying the ark of the LORD's covenant stepped out of the riverbed and their feet touched dry ground, the waters of the Jordan rushed back into place and flooded over its banks just as before."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the people came up out of Jordan on the tenth day of the first month, and encamped in Gilgal, in the east border of Jericho.",
+      "web": "The people came up out of the Jordan on the tenth day of the first month, and encamped in Gilgal, on the east border of Jericho.",
+      "ct": "The people came up out of the Jordan on the 10th day of the 1st month and set up camp at Gilgal, on the eastern edge of Jericho."
+    },
+    {
+      "verse": 20,
+      "kjv": "And those twelve stones, which they took out of Jordan, did Joshua pitch in Gilgal.",
+      "web": "Joshua set up those twelve stones, which they took out of the Jordan, in Gilgal.",
+      "ct": "Joshua set up the 12 stones they had taken from the Jordan right there at Gilgal."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he spake unto the children of Israel, saying, When your children shall ask their fathers in time to come, saying, What mean these stones?",
+      "web": "He spoke to the children of Israel, saying, “When your children ask their fathers in time to come, saying, ‘What do these stones mean?’",
+      "ct": "Then he said to the Israelites, \"Someday your children will ask their fathers, 'What do these stones mean?'"
+    },
+    {
+      "verse": 22,
+      "kjv": "Then ye shall let your children know, saying, Israel came over this Jordan on dry land.",
+      "web": "Then you shall let your children know, saying, ‘Israel came over this Jordan on dry land.",
+      "ct": "When they do, tell them, 'Israel crossed this Jordan on dry land."
+    },
+    {
+      "verse": 23,
+      "kjv": "For the LORD your God dried up the waters of Jordan from before you, until ye were passed over, as the LORD your God did to the Red sea, which he dried up from before us, until we were gone over:",
+      "web": "For LORD your God dried up the waters of the Jordan from before you until you had crossed over, as LORD your God did to the Red Sea, which he dried up from before us, until we had crossed over,",
+      "ct": "The LORD your God dried up the Jordan right in front of you until you had all crossed over — the same thing the LORD your God did to the Red Sea, which he dried up ahead of us until we had all passed through."
+    },
+    {
+      "verse": 24,
+      "kjv": "That all the people of the earth might know the hand of the LORD, that it is mighty: that ye might fear the LORD your God for ever.",
+      "web": "that all the peoples of the earth may know that LORD’s hand is mighty, and that you may fear LORD your God forever.’ ”",
+      "ct": "He did this so that every nation on earth would know how mighty the LORD's hand is, and so that you would fear the LORD your God forever.'\""
+    }
+  ]
+}

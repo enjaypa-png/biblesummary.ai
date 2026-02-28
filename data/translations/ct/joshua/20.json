@@ -1,0 +1,65 @@
+{
+  "book": "joshua",
+  "book_name": "Joshua",
+  "chapter": 20,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:24:45.546Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The LORD also spake unto Joshua, saying,",
+      "web": "LORD spoke to Joshua, saying,",
+      "ct": "The LORD spoke to Joshua and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak to the children of Israel, saying, Appoint out for you cities of refuge, whereof I spake unto you by the hand of Moses:",
+      "web": "“Speak to the children of Israel, saying, ‘Assign the cities of refuge, of which I spoke to you by Moses,",
+      "ct": "\"Tell the people of Israel to designate cities of refuge, just as I instructed you through Moses."
+    },
+    {
+      "verse": 3,
+      "kjv": "That the slayer that killeth any person unawares and unwittingly may flee thither: and they shall be your refuge from the avenger of blood.",
+      "web": "that the man slayer who kills any person accidentally or unintentionally may flee there. They shall be to you for a refuge from the avenger of blood.",
+      "ct": "If someone accidentally kills another person without meaning to, they can escape to one of these cities. The cities will serve as a safe haven from anyone seeking to avenge the victim's death.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And when he that doth flee unto one of those cities shall stand at the entering of the gate of the city, and shall declare his cause in the ears of the elders of that city, they shall take him into the city unto them, and give him a place, that he may dwell among them.",
+      "web": "He shall flee to one of those cities, and shall stand at the entrance of the gate of the city, and declare his case in the ears of the elders of that city. They shall take him into the city with them, and give him a place, that he may live among them.",
+      "ct": "When the person who caused the death arrives at one of these cities, he must stand at the entrance of the city gate and explain what happened to the city elders. They must then welcome him into the city and give him a place to live among them."
+    },
+    {
+      "verse": 5,
+      "kjv": "And if the avenger of blood pursue after him, then they shall not deliver the slayer up into his hand; because he smote his neighbour unwittingly, and hated him not beforetime.",
+      "web": "If the avenger of blood pursues him, then they shall not deliver up the man slayer into his hand; because he struck his neighbor unintentionally, and didn’t hate him before.",
+      "ct": "If the avenger of blood comes after him, the elders must not hand him over, because he killed his neighbor by accident and had no prior hatred toward him."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he shall dwell in that city, until he stand before the congregation for judgment, and until the death of the high priest that shall be in those days: then shall the slayer return, and come unto his own city, and unto his own house, unto the city from whence he fled.",
+      "web": "He shall dwell in that city until he stands before the congregation for judgment, until the death of the high priest that shall be in those days. Then the man slayer shall return, and come to his own city, and to his own house, to the city he fled from.’ ”",
+      "ct": "He must stay in that city until he has stood trial before the community and until the high priest serving at that time dies. After that, he is free to return to his own city and his own home — the place he originally fled from."
+    },
+    {
+      "verse": 7,
+      "kjv": "And they appointed Kedesh in Galilee in mount Naphtali, and Shechem in mount Ephraim, and Kirjatharba, which is Hebron, in the mountain of Judah.",
+      "web": "They set apart Kedesh in Galilee in the hill country of Naphtali, Shechem in the hill country of Ephraim, and Kiriath Arba (also called Hebron) in the hill country of Judah.",
+      "ct": "So they set apart Kedesh in Galilee in the hill country of Naphtali, Shechem in the hill country of Ephraim, and Kirjatharba (also known as Hebron) in the hill country of Judah."
+    },
+    {
+      "verse": 8,
+      "kjv": "And on the other side Jordan by Jericho eastward, they assigned Bezer in the wilderness upon the plain out of the tribe of Reuben, and Ramoth in Gilead out of the tribe of Gad, and Golan in Bashan out of the tribe of Manasseh.",
+      "web": "Beyond the Jordan at Jericho eastward, they assigned Bezer in the wilderness in the plain out of the tribe of Reuben, Ramoth in Gilead out of the tribe of Gad, and Golan in Bashan out of the tribe of Manasseh.",
+      "ct": "On the east side of the Jordan, near Jericho, they designated Bezer in the wilderness plateau from the tribe of Reuben, Ramoth in Gilead from the tribe of Gad, and Golan in Bashan from the tribe of Manasseh."
+    },
+    {
+      "verse": 9,
+      "kjv": "These were the cities appointed for all the children of Israel, and for the stranger that sojourneth among them, that whosoever killeth any person at unawares might flee thither, and not die by the hand of the avenger of blood, until he stood before the congregation.",
+      "web": "These were the appointed cities for all the children of Israel, and for the alien who lives among them, that whoever kills any person unintentionally might flee there, and not die by the hand of the avenger of blood, until he stands trial before the congregation.",
+      "ct": "These were the designated cities of refuge for all the people of Israel, as well as for any foreigners living among them. Anyone who accidentally killed another person could flee to one of these cities and be protected from the avenger of blood until they stood trial before the community."
+    }
+  ]
+}

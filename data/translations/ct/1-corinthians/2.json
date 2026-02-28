@@ -1,0 +1,107 @@
+{
+  "book": "1-corinthians",
+  "book_name": "1 Corinthians",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:46:12.778Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And I, brethren, when I came to you, came not with excellency of speech or of wisdom, declaring unto you the testimony of God.",
+      "web": "When I came to you, brothers, I didn’t come with excellence of speech or of wisdom, proclaiming to you the testimony of God.",
+      "ct": "Brothers, when I came to you, I didn't come with impressive rhetoric or brilliant philosophy to announce God's testimony to you."
+    },
+    {
+      "verse": 2,
+      "kjv": "For I determined not to know any thing among you, save Jesus Christ, and him crucified.",
+      "web": "For I determined not to know anything among you except Jesus Christ and him crucified.",
+      "ct": "I made up my mind to focus on one thing while I was with you: Jesus Christ, and the fact that he was crucified."
+    },
+    {
+      "verse": 3,
+      "kjv": "And I was with you in weakness, and in fear, and in much trembling.",
+      "web": "I was with you in weakness, in fear, and in much trembling.",
+      "ct": "When I was among you, I was weak, afraid, and shaking with anxiety."
+    },
+    {
+      "verse": 4,
+      "kjv": "And my speech and my preaching was not with enticing words of man’s wisdom, but in demonstration of the Spirit and of power:",
+      "web": "My speech and my preaching were not in persuasive words of human wisdom, but in demonstration of the Spirit and of power,",
+      "ct": "My message and my preaching didn't rely on clever, persuasive arguments based on human wisdom. Instead, the Holy Spirit demonstrated his power through me."
+    },
+    {
+      "verse": 5,
+      "kjv": "That your faith should not stand in the wisdom of men, but in the power of God.",
+      "web": "that your faith wouldn’t stand in the wisdom of men, but in the power of God.",
+      "ct": "I did this so that your faith would rest on God's power, not on human wisdom."
+    },
+    {
+      "verse": 6,
+      "kjv": "Howbeit we speak wisdom among them that are perfect: yet not the wisdom of this world, nor of the princes of this world, that come to nought:",
+      "web": "We speak wisdom, however, among those who are full grown, yet a wisdom not of this world nor of the rulers of this world who are coming to nothing.",
+      "ct": "Now, we do speak wisdom to those who are spiritually mature — but it's not the wisdom of this world or of the rulers of this age, who are all heading toward irrelevance."
+    },
+    {
+      "verse": 7,
+      "kjv": "But we speak the wisdom of God in a mystery, even the hidden wisdom, which God ordained before the world unto our glory:",
+      "web": "But we speak God’s wisdom in a mystery, the wisdom that has been hidden, which God foreordained before the worlds for our glory,",
+      "ct": "What we speak is God's wisdom, wrapped in mystery — a hidden wisdom that God planned before the world began, intended for our glory."
+    },
+    {
+      "verse": 8,
+      "kjv": "Which none of the princes of this world knew: for had they known it, they would not have crucified the Lord of glory.",
+      "web": "which none of the rulers of this world has known. For had they known it, they wouldn’t have crucified the Lord of glory.",
+      "ct": "None of the rulers of this age understood it. If they had, they never would have crucified the Lord of glory."
+    },
+    {
+      "verse": 9,
+      "kjv": "But as it is written, Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love him.",
+      "web": "But as it is written, “Things which an eye didn’t see, and an ear didn’t hear, which didn’t enter into the heart of man, these God has prepared for those who love him.”",
+      "ct": "But as Scripture says, \"No eye has seen, no ear has heard, and no human mind has imagined the things God has prepared for those who love him.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "But God hath revealed them unto us by his Spirit: for the Spirit searcheth all things, yea, the deep things of God.",
+      "web": "But to us, God revealed them through the Spirit. For the Spirit searches all things, yes, the deep things of God.",
+      "ct": "Yet God has revealed these things to us through his Spirit. The Spirit searches everything, even the deepest mysteries of God."
+    },
+    {
+      "verse": 11,
+      "kjv": "For what man knoweth the things of a man, save the spirit of man which is in him? even so the things of God knoweth no man, but the Spirit of God.",
+      "web": "For who among men knows the things of a man, except the spirit of the man, which is in him? Even so, no one knows the things of God, except God’s Spirit.",
+      "ct": "After all, who really knows a person's thoughts except that person's own spirit? In the same way, no one knows God's thoughts except the Spirit of God."
+    },
+    {
+      "verse": 12,
+      "kjv": "Now we have received, not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God.",
+      "web": "But we received not the spirit of the world, but the Spirit which is from God, that we might know the things that were freely given to us by God.",
+      "ct": "We haven't received the spirit of the world. We've received the Spirit who comes from God, so that we can understand the gifts God has freely given us."
+    },
+    {
+      "verse": 13,
+      "kjv": "Which things also we speak, not in the words which man’s wisdom teacheth, but which the Holy Ghost teacheth; comparing spiritual things with spiritual.",
+      "web": "We also speak these things, not in words which man’s wisdom teaches, but which the Holy Spirit teaches, comparing spiritual things with spiritual things.",
+      "ct": "And when we talk about these things, we don't use words taught by human wisdom. We use words taught by the Holy Spirit, explaining spiritual truths in spiritual terms."
+    },
+    {
+      "verse": 14,
+      "kjv": "But the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned.",
+      "web": "Now the natural man doesn’t receive the things of God’s Spirit, for they are foolishness to him, and he can’t know them, because they are spiritually discerned.",
+      "ct": "A person without the Spirit can't accept the things that come from God's Spirit. They seem like foolishness to him, and he can't understand them because they can only be discerned through the Spirit."
+    },
+    {
+      "verse": 15,
+      "kjv": "But he that is spiritual judgeth all things, yet he himself is judged of no man.",
+      "web": "But he who is spiritual discerns all things, and he himself is judged by no one.",
+      "ct": "But the person who has the Spirit can evaluate everything, while no one without the Spirit is able to evaluate him."
+    },
+    {
+      "verse": 16,
+      "kjv": "For who hath known the mind of the Lord, that he may instruct him? But we have the mind of Christ.",
+      "web": "“For who has known the mind of the Lord, that he should instruct him?” But we have Christ’s mind.",
+      "ct": "For \"who has ever known the mind of the Lord well enough to instruct him?\" But we have the mind of Christ."
+    }
+  ]
+}

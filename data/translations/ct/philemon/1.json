@@ -1,0 +1,161 @@
+{
+  "book": "philemon",
+  "book_name": "Philemon",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:07:49.657Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Paul, a prisoner of Jesus Christ, and Timothy our brother, unto Philemon our dearly beloved, and fellowlabourer,",
+      "web": "Paul, a prisoner of Christ Jesus, and Timothy our brother, to Philemon, our beloved fellow worker,",
+      "ct": "From Paul, a prisoner for Christ Jesus, and from Timothy our brother — to Philemon, our dear friend and fellow worker:"
+    },
+    {
+      "verse": 2,
+      "kjv": "And to our beloved Apphia, and Archippus our fellowsoldier, and to the church in thy house:",
+      "web": "to the beloved Apphia, to Archippus our fellow soldier, and to the assembly in your house:",
+      "ct": "To our dear Apphia, to Archippus our fellow soldier, and to the church that meets in your house:"
+    },
+    {
+      "verse": 3,
+      "kjv": "Grace to you, and peace, from God our Father and the Lord Jesus Christ.",
+      "web": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+      "ct": "May grace and peace be yours from God our Father and the Lord Jesus Christ."
+    },
+    {
+      "verse": 4,
+      "kjv": "I thank my God, making mention of thee always in my prayers,",
+      "web": "I thank my God always, making mention of you in my prayers,",
+      "ct": "I always thank my God whenever I mention you in my prayers,"
+    },
+    {
+      "verse": 5,
+      "kjv": "Hearing of thy love and faith, which thou hast toward the Lord Jesus, and toward all saints;",
+      "web": "hearing of your love and of the faith which you have toward the Lord Jesus, and toward all the saints,",
+      "ct": "because I keep hearing about your love and your faith — your faith toward the Lord Jesus and your love for all God's people."
+    },
+    {
+      "verse": 6,
+      "kjv": "That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.",
+      "web": "that the fellowship of your faith may become effective in the knowledge of every good thing which is in us in Christ Jesus.",
+      "ct": "I pray that as you share your faith, it will deepen your understanding of every good thing we have in Christ Jesus."
+    },
+    {
+      "verse": 7,
+      "kjv": "For we have great joy and consolation in thy love, because the bowels of the saints are refreshed by thee, brother.",
+      "web": "For we have much joy and comfort in your love, because the hearts of the saints have been refreshed through you, brother.",
+      "ct": "Your love has brought me so much joy and encouragement, brother, because you have refreshed the hearts of God's people."
+    },
+    {
+      "verse": 8,
+      "kjv": "Wherefore, though I might be much bold in Christ to enjoin thee that which is convenient,",
+      "web": "Therefore though I have all boldness in Christ to command you that which is appropriate,",
+      "ct": "So even though I could be bold enough in Christ to order you to do what's right,"
+    },
+    {
+      "verse": 9,
+      "kjv": "Yet for love’s sake I rather beseech thee, being such an one as Paul the aged, and now also a prisoner of Jesus Christ.",
+      "web": "yet for love’s sake I rather beg, being such a one as Paul, the aged, but also a prisoner of Jesus Christ.",
+      "ct": "I'd rather appeal to you out of love. I'm asking as Paul — an old man now, and also a prisoner for Christ Jesus."
+    },
+    {
+      "verse": 10,
+      "kjv": "I beseech thee for my son Onesimus, whom I have begotten in my bonds:",
+      "web": "I beg you for my child, whom I have become the father of in my chains, Onesimus,",
+      "ct": "I'm appealing to you on behalf of Onesimus, who became like a son to me while I was in chains."
+    },
+    {
+      "verse": 11,
+      "kjv": "Which in time past was to thee unprofitable, but now profitable to thee and to me:",
+      "web": "who once was useless to you, but now is useful to you and to me.",
+      "ct": "There was a time when he was useless to you, but now he's become useful to both you and me."
+    },
+    {
+      "verse": 12,
+      "kjv": "Whom I have sent again: thou therefore receive him, that is, mine own bowels:",
+      "web": "I am sending him back. Therefore receive him, that is, my own heart,",
+      "ct": "I'm sending him back to you — and with him goes my very heart."
+    },
+    {
+      "verse": 13,
+      "kjv": "Whom I would have retained with me, that in thy stead he might have ministered unto me in the bonds of the gospel:",
+      "web": "whom I desired to keep with me, that on your behalf he might serve me in my chains for the Good News.",
+      "ct": "I would have loved to keep him here with me so he could serve me on your behalf while I'm in chains for the gospel."
+    },
+    {
+      "verse": 14,
+      "kjv": "But without thy mind would I do nothing; that thy benefit should not be as it were of necessity, but willingly.",
+      "web": "But I was willing to do nothing without your consent, that your goodness would not be as of necessity, but of free will.",
+      "ct": "But I didn't want to do anything without your consent. That way, any kindness you show wouldn't be forced — it would be freely given."
+    },
+    {
+      "verse": 15,
+      "kjv": "For perhaps he therefore departed for a season, that thou shouldest receive him for ever;",
+      "web": "For perhaps he was therefore separated from you for a while, that you would have him forever,",
+      "ct": "Maybe the reason he was separated from you for a while was so you could have him back forever —"
+    },
+    {
+      "verse": 16,
+      "kjv": "Not now as a servant, but above a servant, a brother beloved, specially to me, but how much more unto thee, both in the flesh, and in the Lord?",
+      "web": "no longer as a slave, but more than a slave, a beloved brother, especially to me, but how much rather to you, both in the flesh and in the Lord.",
+      "ct": "no longer as a slave, but as something far better than a slave: a beloved brother. He's especially dear to me, but how much more should he be to you, both as a person and as a fellow believer in the Lord."
+    },
+    {
+      "verse": 17,
+      "kjv": "If thou count me therefore a partner, receive him as myself.",
+      "web": "If then you count me a partner, receive him as you would receive me.",
+      "ct": "So if you consider me your partner, welcome him the same way you'd welcome me."
+    },
+    {
+      "verse": 18,
+      "kjv": "If he hath wronged thee, or oweth thee ought, put that on mine account;",
+      "web": "But if he has wronged you at all or owes you anything, put that to my account.",
+      "ct": "If he's wronged you in any way or owes you anything, charge it to me."
+    },
+    {
+      "verse": 19,
+      "kjv": "I Paul have written it with mine own hand, I will repay it: albeit I do not say to thee how thou owest unto me even thine own self besides.",
+      "web": "I, Paul, write this with my own hand: I will repay it (not to mention to you that you owe to me even your own self besides).",
+      "ct": "I, Paul, am writing this with my own hand: I will pay it back. And I won't even mention that you owe me your very self."
+    },
+    {
+      "verse": 20,
+      "kjv": "Yea, brother, let me have joy of thee in the Lord: refresh my bowels in the Lord.",
+      "web": "Yes, brother, let me have joy from you in the Lord. Refresh my heart in the Lord.",
+      "ct": "Yes, brother — let me benefit from you in the Lord. Refresh my heart in Christ."
+    },
+    {
+      "verse": 21,
+      "kjv": "Having confidence in thy obedience I wrote unto thee, knowing that thou wilt also do more than I say.",
+      "web": "Having confidence in your obedience, I write to you, knowing that you will do even beyond what I say.",
+      "ct": "I'm writing to you with full confidence that you'll do what I ask — and even more than I'm asking."
+    },
+    {
+      "verse": 22,
+      "kjv": "But withal prepare me also a lodging: for I trust that through your prayers I shall be given unto you.",
+      "web": "Also, prepare a guest room for me, for I hope that through your prayers I will be restored to you.",
+      "ct": "One more thing: get a guest room ready for me, because I'm hoping that through your prayers, God will bring me back to you."
+    },
+    {
+      "verse": 23,
+      "kjv": "There salute thee Epaphras, my fellowprisoner in Christ Jesus;",
+      "web": "Epaphras, my fellow prisoner in Christ Jesus, greets you,",
+      "ct": "Epaphras, my fellow prisoner in Christ Jesus, sends you his greetings,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Marcus, Aristarchus, Demas, Lucas, my fellowlabourers.",
+      "web": "as do Mark, Aristarchus, Demas, and Luke, my fellow workers.",
+      "ct": "and so do Mark, Aristarchus, Demas, and Luke — my fellow workers."
+    },
+    {
+      "verse": 25,
+      "kjv": "The grace of our Lord Jesus Christ be with your spirit. Amen.",
+      "web": "The grace of our Lord Jesus Christ be with your spirit. Amen.",
+      "ct": "May the grace of our Lord Jesus Christ be with your spirit. Amen."
+    }
+  ]
+}

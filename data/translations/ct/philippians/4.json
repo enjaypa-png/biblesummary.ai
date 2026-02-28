@@ -1,0 +1,149 @@
+{
+  "book": "philippians",
+  "book_name": "Philippians",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:00:36.825Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Therefore, my brethren dearly beloved and longed for, my joy and crown, so stand fast in the Lord, my dearly beloved.",
+      "web": "Therefore, my brothers, beloved and longed for, my joy and crown, stand firm in the Lord in this way, my beloved.",
+      "ct": "So then, my dear brothers and sisters — you whom I love and long for, my joy and my crown — stand firm in the Lord, my beloved ones."
+    },
+    {
+      "verse": 2,
+      "kjv": "I beseech Euodias, and beseech Syntyche, that they be of the same mind in the Lord.",
+      "web": "I exhort Euodia, and I exhort Syntyche, to think the same way in the Lord.",
+      "ct": "I urge Euodia and I urge Syntyche to settle their differences and be united in the Lord."
+    },
+    {
+      "verse": 3,
+      "kjv": "And I intreat thee also, true yokefellow, help those women which laboured with me in the gospel, with Clement also, and with other my fellowlabourers, whose names are in the book of life.",
+      "web": "Yes, I beg you also, true partner, help these women, for they labored with me in the Good News with Clement also, and the rest of my fellow workers, whose names are in the book of life.",
+      "ct": "And I ask you too, my true partner, to help these women. They worked side by side with me to spread the gospel, along with Clement and the rest of my fellow workers, whose names are written in the book of life."
+    },
+    {
+      "verse": 4,
+      "kjv": "Rejoice in the Lord alway: and again I say, Rejoice.",
+      "web": "Rejoice in the Lord always! Again I will say, “Rejoice!”",
+      "ct": "Always find your joy in the Lord. Let me say it again — rejoice!"
+    },
+    {
+      "verse": 5,
+      "kjv": "Let your moderation be known unto all men. The Lord is at hand.",
+      "web": "Let your gentleness be known to all men. The Lord is at hand.",
+      "ct": "Let everyone see your gentleness. The Lord is near."
+    },
+    {
+      "verse": 6,
+      "kjv": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.",
+      "web": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God.",
+      "ct": "Don't be anxious about anything. Instead, bring everything to God in prayer and heartfelt requests, always with thanksgiving."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+      "web": "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.",
+      "ct": "Then the peace of God, which surpasses all understanding, will guard your hearts and minds through Christ Jesus."
+    },
+    {
+      "verse": 8,
+      "kjv": "Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.",
+      "web": "Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report: if there is any virtue and if there is any praise, think about these things.",
+      "ct": "Finally, brothers and sisters, fill your minds with whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is admirable. If something is excellent or praiseworthy, dwell on it."
+    },
+    {
+      "verse": 9,
+      "kjv": "Those things, which ye have both learned, and received, and heard, and seen in me, do: and the God of peace shall be with you.",
+      "web": "The things which you learned, received, heard, and saw in me: do these things, and the God of peace will be with you.",
+      "ct": "Put into practice everything you've learned from me, received from me, heard from me, and seen me do. And the God of peace will be with you."
+    },
+    {
+      "verse": 10,
+      "kjv": "But I rejoiced in the Lord greatly, that now at the last your care of me hath flourished again; wherein ye were also careful, but ye lacked opportunity.",
+      "web": "But I rejoice in the Lord greatly, that now at length you have revived your thought for me; in which you did indeed take thought, but you lacked opportunity.",
+      "ct": "I was overjoyed in the Lord that you've finally been able to show your concern for me again. You always cared — you just didn't have the chance to show it."
+    },
+    {
+      "verse": 11,
+      "kjv": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.",
+      "web": "Not that I speak because of lack, for I have learned in whatever state I am, to be content in it.",
+      "ct": "I'm not saying this because I'm in need. I've learned to be content no matter what my circumstances are."
+    },
+    {
+      "verse": 12,
+      "kjv": "I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.",
+      "web": "I know how to be humbled, and I also know how to abound. In everything and in all things I have learned the secret both to be filled and to be hungry, both to abound and to be in need.",
+      "ct": "I know what it's like to have nothing, and I know what it's like to have plenty. I've learned the secret of being content in every situation — whether I'm well-fed or hungry, whether I have more than enough or not enough."
+    },
+    {
+      "verse": 13,
+      "kjv": "I can do all things through Christ which strengtheneth me.",
+      "web": "I can do all things through Christ, who strengthens me.",
+      "ct": "I can handle anything through Christ, who gives me strength."
+    },
+    {
+      "verse": 14,
+      "kjv": "Notwithstanding ye have well done, that ye did communicate with my affliction.",
+      "web": "However you did well that you shared in my affliction.",
+      "ct": "Even so, it was good of you to share in my troubles."
+    },
+    {
+      "verse": 15,
+      "kjv": "Now ye Philippians know also, that in the beginning of the gospel, when I departed from Macedonia, no church communicated with me as concerning giving and receiving, but ye only.",
+      "web": "You yourselves also know, you Philippians, that in the beginning of the Good News, when I departed from Macedonia, no assembly shared with me in the matter of giving and receiving but you only.",
+      "ct": "You Philippians know that in the early days of the gospel, when I left Macedonia, not a single church partnered with me in giving and receiving — except you."
+    },
+    {
+      "verse": 16,
+      "kjv": "For even in Thessalonica ye sent once and again unto my necessity.",
+      "web": "For even in Thessalonica you sent once and again to my need.",
+      "ct": "Even when I was in Thessalonica, you sent help for my needs more than once."
+    },
+    {
+      "verse": 17,
+      "kjv": "Not because I desire a gift: but I desire fruit that may abound to your account.",
+      "web": "Not that I seek for the gift, but I seek for the fruit that increases to your account.",
+      "ct": "It's not that I'm looking for a gift. What I really want is for the reward to keep growing in your favor."
+    },
+    {
+      "verse": 18,
+      "kjv": "But I have all, and abound: I am full, having received of Epaphroditus the things which were sent from you, an odour of a sweet smell, a sacrifice acceptable, wellpleasing to God.",
+      "web": "But I have all things and abound. I am filled, having received from Epaphroditus the things that came from you, a sweet-smelling fragrance, an acceptable and well-pleasing sacrifice to God.",
+      "ct": "I have everything I need and more. I'm fully supplied now that Epaphroditus has delivered your gifts to me. They are a fragrant offering — a sacrifice that is acceptable and deeply pleasing to God."
+    },
+    {
+      "verse": 19,
+      "kjv": "But my God shall supply all your need according to his riches in glory by Christ Jesus.",
+      "web": "My God will supply every need of yours according to his riches in glory in Christ Jesus.",
+      "ct": "And my God will meet every need you have out of his glorious riches in Christ Jesus."
+    },
+    {
+      "verse": 20,
+      "kjv": "Now unto God and our Father be glory for ever and ever. Amen.",
+      "web": "Now to our God and Father be the glory forever and ever! Amen.",
+      "ct": "To our God and Father be glory forever and ever. Amen."
+    },
+    {
+      "verse": 21,
+      "kjv": "Salute every saint in Christ Jesus. The brethren which are with me greet you.",
+      "web": "Greet every saint in Christ Jesus. The brothers who are with me greet you.",
+      "ct": "Give my greetings to every one of God's people in Christ Jesus. The brothers and sisters here with me send their greetings too."
+    },
+    {
+      "verse": 22,
+      "kjv": "All the saints salute you, chiefly they that are of Caesar’s household.",
+      "web": "All the saints greet you, especially those who are of Caesar’s household.",
+      "ct": "All of God's people here send you greetings, especially those who serve in Caesar's household."
+    },
+    {
+      "verse": 23,
+      "kjv": "The grace of our Lord Jesus Christ be with you all. Amen.",
+      "web": "The grace of the Lord Jesus Christ be with you all. Amen.",
+      "ct": "May the grace of the Lord Jesus Christ be with you all. Amen."
+    }
+  ]
+}

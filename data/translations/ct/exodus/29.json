@@ -1,0 +1,287 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 29,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:34:27.932Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And this is the thing that thou shalt do unto them to hallow them, to minister unto me in the priest’s office: Take one young bullock, and two rams without blemish,",
+      "web": "“This is the thing that you shall do to them to make them holy, to minister to me in the priest’s office: take one young bull and two rams without defect,",
+      "ct": "\"Here is what you must do to set Aaron and his sons apart as holy so they can serve me as priests: Take 1 young bull and 2 rams, both without any defects."
+    },
+    {
+      "verse": 2,
+      "kjv": "And unleavened bread, and cakes unleavened tempered with oil, and wafers unleavened anointed with oil: of wheaten flour shalt thou make them.",
+      "web": "unleavened bread, unleavened cakes mixed with oil, and unleavened wafers anointed with oil. You shall make them of fine wheat flour.",
+      "ct": "Also prepare unleavened bread, unleavened cakes mixed with oil, and unleavened wafers coated with oil — all made from fine wheat flour."
+    },
+    {
+      "verse": 3,
+      "kjv": "And thou shalt put them into one basket, and bring them in the basket, with the bullock and the two rams.",
+      "web": "You shall put them into one basket, and bring them in the basket, with the bull and the two rams.",
+      "ct": "Place them all in a single basket and bring the basket along with the bull and the 2 rams."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Aaron and his sons thou shalt bring unto the door of the tabernacle of the congregation, and shalt wash them with water.",
+      "web": "You shall bring Aaron and his sons to the door of the Tent of Meeting, and shall wash them with water.",
+      "ct": "Bring Aaron and his sons to the entrance of the Tabernacle and wash them with water."
+    },
+    {
+      "verse": 5,
+      "kjv": "And thou shalt take the garments, and put upon Aaron the coat, and the robe of the ephod, and the ephod, and the breastplate, and gird him with the curious girdle of the ephod:",
+      "web": "You shall take the garments, and put on Aaron the tunic, the robe of the ephod, the ephod, and the breastplate, and clothe him with the skillfully woven band of the ephod.",
+      "ct": "Then take the priestly garments and dress Aaron in the tunic, the robe of the ephod, the ephod itself, and the breastplate. Fasten the skillfully woven belt of the ephod around him."
+    },
+    {
+      "verse": 6,
+      "kjv": "And thou shalt put the mitre upon his head, and put the holy crown upon the mitre.",
+      "web": "You shall set the turban on his head, and put the holy crown on the turban.",
+      "ct": "Place the turban on his head and attach the holy crown to the front of the turban."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then shalt thou take the anointing oil, and pour it upon his head, and anoint him.",
+      "web": "Then you shall take the anointing oil, and pour it on his head, and anoint him.",
+      "ct": "Then take the anointing oil, pour it over his head, and anoint him."
+    },
+    {
+      "verse": 8,
+      "kjv": "And thou shalt bring his sons, and put coats upon them.",
+      "web": "You shall bring his sons, and put tunics on them.",
+      "ct": "Next, bring his sons forward and dress them in their tunics."
+    },
+    {
+      "verse": 9,
+      "kjv": "And thou shalt gird them with girdles, Aaron and his sons, and put the bonnets on them: and the priest’s office shall be theirs for a perpetual statute: and thou shalt consecrate Aaron and his sons.",
+      "web": "You shall clothe them with belts, Aaron and his sons, and bind headbands on them. They shall have the priesthood by a perpetual statute. You shall consecrate Aaron and his sons.",
+      "ct": "Tie belts around Aaron and his sons and put headbands on them. The priesthood will belong to them as a permanent law. This is how you will consecrate Aaron and his sons."
+    },
+    {
+      "verse": 10,
+      "kjv": "And thou shalt cause a bullock to be brought before the tabernacle of the congregation: and Aaron and his sons shall put their hands upon the head of the bullock.",
+      "web": "“You shall bring the bull before the Tent of Meeting; and Aaron and his sons shall lay their hands on the head of the bull.",
+      "ct": "\"Bring the bull to the front of the Tabernacle, and have Aaron and his sons place their hands on the bull's head."
+    },
+    {
+      "verse": 11,
+      "kjv": "And thou shalt kill the bullock before the LORD, by the door of the tabernacle of the congregation.",
+      "web": "You shall kill the bull before LORD at the door of the Tent of Meeting.",
+      "ct": "Then slaughter the bull in the LORD's presence at the entrance of the Tabernacle."
+    },
+    {
+      "verse": 12,
+      "kjv": "And thou shalt take of the blood of the bullock, and put it upon the horns of the altar with thy finger, and pour all the blood beside the bottom of the altar.",
+      "web": "You shall take of the blood of the bull, and put it on the horns of the altar with your finger; and you shall pour out all the blood at the base of the altar.",
+      "ct": "Take some of the bull's blood and use your finger to put it on the horns of the altar. Pour out the rest of the blood at the base of the altar."
+    },
+    {
+      "verse": 13,
+      "kjv": "And thou shalt take all the fat that covereth the inwards, and the caul that is above the liver, and the two kidneys, and the fat that is upon them, and burn them upon the altar.",
+      "web": "You shall take all the fat that covers the innards, the cover of the liver, the two kidneys, and the fat that is on them, and burn them on the altar.",
+      "ct": "Remove all the fat covering the internal organs, the lobe of the liver, and both kidneys with the fat on them, and burn it all on the altar."
+    },
+    {
+      "verse": 14,
+      "kjv": "But the flesh of the bullock, and his skin, and his dung, shalt thou burn with fire without the camp: it is a sin offering.",
+      "web": "But the meat of the bull, and its skin, and its dung, you shall burn with fire outside of the camp. It is a sin offering.",
+      "ct": "But take the bull's meat, hide, and dung outside the camp and burn them there. This is a sin offering."
+    },
+    {
+      "verse": 15,
+      "kjv": "Thou shalt also take one ram; and Aaron and his sons shall put their hands upon the head of the ram.",
+      "web": "“You shall also take the one ram, and Aaron and his sons shall lay their hands on the head of the ram.",
+      "ct": "\"Then take 1 of the rams, and have Aaron and his sons place their hands on the ram's head."
+    },
+    {
+      "verse": 16,
+      "kjv": "And thou shalt slay the ram, and thou shalt take his blood, and sprinkle it round about upon the altar.",
+      "web": "You shall kill the ram, and you shall take its blood, and sprinkle it around on the altar.",
+      "ct": "Slaughter the ram, collect its blood, and splash it on all sides of the altar."
+    },
+    {
+      "verse": 17,
+      "kjv": "And thou shalt cut the ram in pieces, and wash the inwards of him, and his legs, and put them unto his pieces, and unto his head.",
+      "web": "You shall cut the ram into its pieces, and wash its innards, and its legs, and put them with its pieces, and with its head.",
+      "ct": "Cut the ram into pieces. Wash the internal organs and the legs, then arrange them with the other pieces and the head."
+    },
+    {
+      "verse": 18,
+      "kjv": "And thou shalt burn the whole ram upon the altar: it is a burnt offering unto the LORD: it is a sweet savour, an offering made by fire unto the LORD.",
+      "web": "You shall burn the whole ram on the altar: it is a burnt offering to LORD; it is a pleasant aroma, an offering made by fire to LORD.",
+      "ct": "Burn the entire ram on the altar. This is a burnt offering to the LORD — a pleasing aroma, an offering made by fire to the LORD."
+    },
+    {
+      "verse": 19,
+      "kjv": "And thou shalt take the other ram; and Aaron and his sons shall put their hands upon the head of the ram.",
+      "web": "“You shall take the other ram, and Aaron and his sons shall lay their hands on the head of the ram.",
+      "ct": "\"Now take the second ram, and have Aaron and his sons place their hands on its head."
+    },
+    {
+      "verse": 20,
+      "kjv": "Then shalt thou kill the ram, and take of his blood, and put it upon the tip of the right ear of Aaron, and upon the tip of the right ear of his sons, and upon the thumb of their right hand, and upon the great toe of their right foot, and sprinkle the blood upon the altar round about.",
+      "web": "Then you shall kill the ram, and take some of its blood, and put it on the tip of the right ear of Aaron, and on the tip of the right ear of his sons, and on the thumb of their right hand, and on the big toe of their right foot; and sprinkle the blood around on the altar.",
+      "ct": "Slaughter the ram and take some of its blood. Put it on the tip of Aaron's right ear, on the tip of each of his sons' right ears, on the thumb of their right hands, and on the big toe of their right feet. Then splash the rest of the blood on all sides of the altar."
+    },
+    {
+      "verse": 21,
+      "kjv": "And thou shalt take of the blood that is upon the altar, and of the anointing oil, and sprinkle it upon Aaron, and upon his garments, and upon his sons, and upon the garments of his sons with him: and he shall be hallowed, and his garments, and his sons, and his sons’ garments with him.",
+      "web": "You shall take of the blood that is on the altar, and of the anointing oil, and sprinkle it on Aaron, and on his garments, and on his sons, and on the garments of his sons with him: and he shall be made holy, and his garments, and his sons, and his sons’ garments with him.",
+      "ct": "Take some of the blood from the altar and some of the anointing oil, and sprinkle it on Aaron and his garments, and on his sons and their garments. This will make Aaron and his garments holy, along with his sons and their garments."
+    },
+    {
+      "verse": 22,
+      "kjv": "Also thou shalt take of the ram the fat and the rump, and the fat that covereth the inwards, and the caul above the liver, and the two kidneys, and the fat that is upon them, and the right shoulder; for it is a ram of consecration:",
+      "web": "Also you shall take some of the ram’s fat, the fat tail, the fat that covers the innards, the cover of the liver, the two kidneys, the fat that is on them, and the right thigh (for it is a ram of consecration),",
+      "ct": "From this ram — the ram of consecration — take the fat, the fat tail, the fat covering the internal organs, the lobe of the liver, both kidneys with the fat on them, and the right thigh."
+    },
+    {
+      "verse": 23,
+      "kjv": "And one loaf of bread, and one cake of oiled bread, and one wafer out of the basket of the unleavened bread that is before the LORD:",
+      "web": "and one loaf of bread, one cake of oiled bread, and one wafer out of the basket of unleavened bread that is before LORD.",
+      "ct": "From the basket of unleavened bread that is before the LORD, take 1 loaf of bread, 1 cake made with oil, and 1 wafer."
+    },
+    {
+      "verse": 24,
+      "kjv": "And thou shalt put all in the hands of Aaron, and in the hands of his sons; and shalt wave them for a wave offering before the LORD.",
+      "web": "You shall put all of this in Aaron’s hands, and in his sons’ hands, and shall wave them for a wave offering before LORD.",
+      "ct": "Place all of these in the hands of Aaron and his sons, and have them wave the offerings before the LORD as a wave offering."
+    },
+    {
+      "verse": 25,
+      "kjv": "And thou shalt receive them of their hands, and burn them upon the altar for a burnt offering, for a sweet savour before the LORD: it is an offering made by fire unto the LORD.",
+      "web": "You shall take them from their hands, and burn them on the altar on the burnt offering, for a pleasant aroma before LORD: it is an offering made by fire to LORD.",
+      "ct": "Then take them back from their hands and burn them on the altar along with the burnt offering. It is a pleasing aroma before the LORD — an offering made by fire to the LORD."
+    },
+    {
+      "verse": 26,
+      "kjv": "And thou shalt take the breast of the ram of Aaron’s consecration, and wave it for a wave offering before the LORD: and it shall be thy part.",
+      "web": "“You shall take the breast of Aaron’s ram of consecration, and wave it for a wave offering before LORD. It shall be your portion.",
+      "ct": "\"Take the breast of the ram used for Aaron's consecration and wave it before the LORD as a wave offering. This portion will be yours."
+    },
+    {
+      "verse": 27,
+      "kjv": "And thou shalt sanctify the breast of the wave offering, and the shoulder of the heave offering, which is waved, and which is heaved up, of the ram of the consecration, even of that which is for Aaron, and of that which is for his sons:",
+      "web": "You shall sanctify the breast of the wave offering and the thigh of the wave offering, which is waved, and which is raised up, of the ram of consecration, even of that which is for Aaron, and of that which is for his sons.",
+      "ct": "Set apart as holy the breast of the wave offering and the thigh of the raised offering — the parts that were waved and raised up from the ram of consecration belonging to Aaron and his sons."
+    },
+    {
+      "verse": 28,
+      "kjv": "And it shall be Aaron’s and his sons’ by a statute for ever from the children of Israel: for it is an heave offering: and it shall be an heave offering from the children of Israel of the sacrifice of their peace offerings, even their heave offering unto the LORD.",
+      "web": "It shall be for Aaron and his sons as their portion forever from the children of Israel; for it is a wave offering. It shall be a wave offering from the children of Israel of the sacrifices of their peace offerings, even their wave offering to LORD.",
+      "ct": "This will be the permanent share for Aaron and his sons from the people of Israel. It is a wave offering — a portion the Israelites will give to the LORD from their peace offerings."
+    },
+    {
+      "verse": 29,
+      "kjv": "And the holy garments of Aaron shall be his sons’ after him, to be anointed therein, and to be consecrated in them.",
+      "web": "“The holy garments of Aaron shall be for his sons after him, to be anointed in them, and to be consecrated in them.",
+      "ct": "\"Aaron's holy garments will be passed down to his sons after him. They will wear them when they are anointed and consecrated."
+    },
+    {
+      "verse": 30,
+      "kjv": "And that son that is priest in his stead shall put them on seven days, when he cometh into the tabernacle of the congregation to minister in the holy place.",
+      "web": "Seven days shall the son who is priest in his place put them on, when he comes into the Tent of Meeting to minister in the holy place.",
+      "ct": "Whichever son succeeds Aaron as priest must wear these garments for 7 days when he enters the Tabernacle to serve in the holy place."
+    },
+    {
+      "verse": 31,
+      "kjv": "And thou shalt take the ram of the consecration, and seethe his flesh in the holy place.",
+      "web": "“You shall take the ram of consecration and boil its meat in a holy place.",
+      "ct": "\"Take the ram of consecration and boil its meat in a holy place."
+    },
+    {
+      "verse": 32,
+      "kjv": "And Aaron and his sons shall eat the flesh of the ram, and the bread that is in the basket, by the door of the tabernacle of the congregation.",
+      "web": "Aaron and his sons shall eat the meat of the ram, and the bread that is in the basket, at the door of the Tent of Meeting.",
+      "ct": "Aaron and his sons will eat the ram's meat and the bread from the basket at the entrance of the Tabernacle."
+    },
+    {
+      "verse": 33,
+      "kjv": "And they shall eat those things wherewith the atonement was made, to consecrate and to sanctify them: but a stranger shall not eat thereof, because they are holy.",
+      "web": "They shall eat those things with which atonement was made, to consecrate and sanctify them; but a stranger shall not eat of it, because they are holy.",
+      "ct": "They must eat these items that were used to make atonement during their consecration and setting apart. No outsider may eat any of it, because it is holy."
+    },
+    {
+      "verse": 34,
+      "kjv": "And if ought of the flesh of the consecrations, or of the bread, remain unto the morning, then thou shalt burn the remainder with fire: it shall not be eaten, because it is holy.",
+      "web": "If anything of the meat of the consecration, or of the bread, remains to the morning, then you shall burn the remainder with fire. It shall not be eaten, because it is holy.",
+      "ct": "If any of the consecration meat or bread is left over until morning, burn what remains. It must not be eaten, because it is holy."
+    },
+    {
+      "verse": 35,
+      "kjv": "And thus shalt thou do unto Aaron, and to his sons, according to all things which I have commanded thee: seven days shalt thou consecrate them.",
+      "web": "“You shall do so to Aaron and to his sons, according to all that I have commanded you. You shall consecrate them seven days.",
+      "ct": "\"Do everything I have commanded you for Aaron and his sons. The consecration ceremony must last 7 days."
+    },
+    {
+      "verse": 36,
+      "kjv": "And thou shalt offer every day a bullock for a sin offering for atonement: and thou shalt cleanse the altar, when thou hast made an atonement for it, and thou shalt anoint it, to sanctify it.",
+      "web": "Every day you shall offer the bull of sin offering for atonement. You shall cleanse the altar when you make atonement for it. You shall anoint it, to sanctify it.",
+      "ct": "Each day, offer a bull as a sin offering for atonement. Purify the altar by making atonement for it, and anoint it to make it holy."
+    },
+    {
+      "verse": 37,
+      "kjv": "Seven days thou shalt make an atonement for the altar, and sanctify it; and it shall be an altar most holy: whatsoever toucheth the altar shall be holy.",
+      "web": "Seven days you shall make atonement for the altar, and sanctify it; and the altar shall be most holy. Whatever touches the altar shall be holy.",
+      "ct": "For 7 days, make atonement for the altar and set it apart as holy. The altar will become most holy — anything that touches it will become holy."
+    },
+    {
+      "verse": 38,
+      "kjv": "Now this is that which thou shalt offer upon the altar; two lambs of the first year day by day continually.",
+      "web": "“Now this is that which you shall offer on the altar: two lambs a year old day by day continually.",
+      "ct": "\"Here is what you must offer on the altar every day without fail: 2 year-old lambs."
+    },
+    {
+      "verse": 39,
+      "kjv": "The one lamb thou shalt offer in the morning; and the other lamb thou shalt offer at even:",
+      "web": "The one lamb you shall offer in the morning; and the other lamb you shall offer at evening;",
+      "ct": "Offer 1 lamb in the morning and the other lamb in the evening."
+    },
+    {
+      "verse": 40,
+      "kjv": "And with the one lamb a tenth deal of flour mingled with the fourth part of an hin of beaten oil; and the fourth part of an hin of wine for a drink offering.",
+      "web": "and with the one lamb a tenth part of an ephah of fine flour mixed with the fourth part of a hin of beaten oil, and the fourth part of a hin of wine for a drink offering.",
+      "ct": "With the first lamb, offer a tenth of an ephah of fine flour mixed with a quarter hin of pressed olive oil, along with a quarter hin of wine as a drink offering."
+    },
+    {
+      "verse": 41,
+      "kjv": "And the other lamb thou shalt offer at even, and shalt do thereto according to the meat offering of the morning, and according to the drink offering thereof, for a sweet savour, an offering made by fire unto the LORD.",
+      "web": "The other lamb you shall offer at evening, and shall do to it according to the meal offering of the morning and according to its drink offering, for a pleasant aroma, an offering made by fire to LORD.",
+      "ct": "Offer the second lamb in the evening with the same grain offering and drink offering as the morning sacrifice. It will be a pleasing aroma, an offering made by fire to the LORD."
+    },
+    {
+      "verse": 42,
+      "kjv": "This shall be a continual burnt offering throughout your generations at the door of the tabernacle of the congregation before the LORD: where I will meet you, to speak there unto thee.",
+      "web": "It shall be a continual burnt offering throughout your generations at the door of the Tent of Meeting before LORD, where I will meet with you, to speak there to you.",
+      "ct": "This burnt offering must be made continually throughout every generation at the entrance of the Tabernacle before the LORD. That is where I will meet with you and speak to you."
+    },
+    {
+      "verse": 43,
+      "kjv": "And there I will meet with the children of Israel, and the tabernacle shall be sanctified by my glory.",
+      "web": "There I will meet with the children of Israel; and the place shall be sanctified by my glory.",
+      "ct": "There I will meet with the people of Israel, and the place will be made holy by my glory."
+    },
+    {
+      "verse": 44,
+      "kjv": "And I will sanctify the tabernacle of the congregation, and the altar: I will sanctify also both Aaron and his sons, to minister to me in the priest’s office.",
+      "web": "I will sanctify the Tent of Meeting and the altar. I will also sanctify Aaron and his sons to minister to me in the priest’s office.",
+      "ct": "I will make the Tabernacle and the altar holy. I will also set apart Aaron and his sons to serve me as priests."
+    },
+    {
+      "verse": 45,
+      "kjv": "And I will dwell among the children of Israel, and will be their God.",
+      "web": "I will dwell among the children of Israel, and will be their God.",
+      "ct": "I will live among the people of Israel and be their God."
+    },
+    {
+      "verse": 46,
+      "kjv": "And they shall know that I am the LORD their God, that brought them forth out of the land of Egypt, that I may dwell among them: I am the LORD their God.",
+      "web": "They shall know that I am LORD their God, who brought them out of the land of Egypt, that I might dwell among them: I am LORD their God.",
+      "ct": "They will know that I am the LORD their God, who brought them out of Egypt so that I could live among them. I am the LORD their God.\""
+    }
+  ]
+}

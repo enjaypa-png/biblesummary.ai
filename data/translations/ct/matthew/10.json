@@ -1,0 +1,263 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:10:42.201Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease.",
+      "web": "He called to himself his twelve disciples, and gave them authority over unclean spirits, to cast them out, and to heal every disease and every sickness.",
+      "ct": "Jesus called his 12 disciples together and gave them authority over unclean spirits — the power to drive them out — and to heal every kind of sickness and disease."
+    },
+    {
+      "verse": 2,
+      "kjv": "Now the names of the twelve apostles are these; The first, Simon, who is called Peter, and Andrew his brother; James the son of Zebedee, and John his brother;",
+      "web": "Now the names of the twelve apostles are these. The first, Simon, who is called Peter; Andrew, his brother; James the son of Zebedee; John, his brother;",
+      "ct": "Here are the names of the 12 apostles: first, Simon (called Peter) and his brother Andrew; then James son of Zebedee and his brother John;"
+    },
+    {
+      "verse": 3,
+      "kjv": "Philip, and Bartholomew; Thomas, and Matthew the publican; James the son of Alphaeus, and Lebbaeus, whose surname was Thaddaeus;",
+      "web": "Philip; Bartholomew; Thomas; Matthew the tax collector; James the son of Alphaeus; Lebbaeus, who was also called Thaddaeus;",
+      "ct": "Philip and Bartholomew; Thomas and Matthew the tax collector; James son of Alphaeus and Lebbaeus (also known as Thaddaeus);"
+    },
+    {
+      "verse": 4,
+      "kjv": "Simon the Canaanite, and Judas Iscariot, who also betrayed him.",
+      "web": "Simon the Zealot; and Judas Iscariot, who also betrayed him.",
+      "ct": "Simon the Canaanite, and Judas Iscariot — the one who later betrayed him."
+    },
+    {
+      "verse": 5,
+      "kjv": "These twelve Jesus sent forth, and commanded them, saying, Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not:",
+      "web": "Jesus sent these twelve out, and commanded them, saying, “Don’t go among the Gentiles, and don’t enter into any city of the Samaritans.",
+      "ct": "Jesus sent these 12 out with strict instructions: \"Don't go to Gentile regions, and don't enter any Samaritan town."
+    },
+    {
+      "verse": 6,
+      "kjv": "But go rather to the lost sheep of the house of Israel.",
+      "web": "Rather, go to the lost sheep of the house of Israel.",
+      "ct": "Instead, go to the lost sheep of the house of Israel."
+    },
+    {
+      "verse": 7,
+      "kjv": "And as ye go, preach, saying, The kingdom of heaven is at hand.",
+      "web": "As you go, preach, saying, ‘The Kingdom of Heaven is at hand!’",
+      "ct": "As you go, preach this message: 'The kingdom of heaven is at hand!'"
+    },
+    {
+      "verse": 8,
+      "kjv": "Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give.",
+      "web": "Heal the sick, cleanse the lepers, and cast out demons. Freely you received, so freely give.",
+      "ct": "Heal the sick, cleanse the lepers, raise the dead, and cast out demons. You received all of this freely, so give it freely."
+    },
+    {
+      "verse": 9,
+      "kjv": "Provide neither gold, nor silver, nor brass in your purses,",
+      "web": "Don’t take any gold, silver, or brass in your money belts.",
+      "ct": "Don't carry gold, silver, or copper in your money belts."
+    },
+    {
+      "verse": 10,
+      "kjv": "Nor scrip for your journey, neither two coats, neither shoes, nor yet staves: for the workman is worthy of his meat.",
+      "web": "Take no bag for your journey, neither two coats, nor sandals, nor staff: for the laborer is worthy of his food.",
+      "ct": "Don't pack a bag for the trip, and don't bring an extra coat, sandals, or a walking stick. A worker deserves to be fed."
+    },
+    {
+      "verse": 11,
+      "kjv": "And into whatsoever city or town ye shall enter, enquire who in it is worthy; and there abide till ye go thence.",
+      "web": "Into whatever city or village you enter, find out who in it is worthy; and stay there until you go on.",
+      "ct": "When you enter any city or village, find someone there who is worthy of hosting you, and stay at their home until you leave that place."
+    },
+    {
+      "verse": 12,
+      "kjv": "And when ye come into an house, salute it.",
+      "web": "As you enter into the household, greet it.",
+      "ct": "When you enter a home, greet the household with peace."
+    },
+    {
+      "verse": 13,
+      "kjv": "And if the house be worthy, let your peace come upon it: but if it be not worthy, let your peace return to you.",
+      "web": "If the household is worthy, let your peace come on it, but if it isn’t worthy, let your peace return to you.",
+      "ct": "If the household is worthy, let your peace rest on it. But if it isn't, take your peace back."
+    },
+    {
+      "verse": 14,
+      "kjv": "And whosoever shall not receive you, nor hear your words, when ye depart out of that house or city, shake off the dust of your feet.",
+      "web": "Whoever doesn’t receive you, nor hear your words, as you go out of that house or that city, shake the dust off your feet.",
+      "ct": "If anyone refuses to welcome you or listen to your message, shake the dust off your feet as you leave that house or town."
+    },
+    {
+      "verse": 15,
+      "kjv": "Verily I say unto you, It shall be more tolerable for the land of Sodom and Gomorrha in the day of judgment, than for that city.",
+      "web": "Most certainly I tell you, it will be more tolerable for the land of Sodom and Gomorrah in the day of judgment than for that city.",
+      "ct": "I tell you the truth: on the day of judgment, it will go easier for Sodom and Gomorrah than for that town."
+    },
+    {
+      "verse": 16,
+      "kjv": "Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as serpents, and harmless as doves.",
+      "web": "“Behold, I send you out as sheep among wolves. Therefore be wise as serpents, and harmless as doves.",
+      "ct": "Listen — I'm sending you out like sheep among wolves. So be wise as serpents and harmless as doves."
+    },
+    {
+      "verse": 17,
+      "kjv": "But beware of men: for they will deliver you up to the councils, and they will scourge you in their synagogues;",
+      "web": "But beware of men: for they will deliver you up to councils, and in their synagogues they will scourge you.",
+      "ct": "Watch out for people, because they will hand you over to local courts and whip you in their synagogues."
+    },
+    {
+      "verse": 18,
+      "kjv": "And ye shall be brought before governors and kings for my sake, for a testimony against them and the Gentiles.",
+      "web": "Yes, and you will be brought before governors and kings for my sake, for a testimony to them and to the nations.",
+      "ct": "You'll be dragged before governors and kings because of me, as a testimony to them and to the Gentiles."
+    },
+    {
+      "verse": 19,
+      "kjv": "But when they deliver you up, take no thought how or what ye shall speak: for it shall be given you in that same hour what ye shall speak.",
+      "web": "But when they deliver you up, don’t be anxious how or what you will say, for it will be given you in that hour what you will say.",
+      "ct": "But when they arrest you, don't worry about what to say or how to say it. In that moment, the right words will be given to you."
+    },
+    {
+      "verse": 20,
+      "kjv": "For it is not ye that speak, but the Spirit of your Father which speaketh in you.",
+      "web": "For it is not you who speak, but the Spirit of your Father who speaks in you.",
+      "ct": "It won't be you speaking — it will be the Spirit of your Father speaking through you."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the brother shall deliver up the brother to death, and the father the child: and the children shall rise up against their parents, and cause them to be put to death.",
+      "web": "“Brother will deliver up brother to death, and the father his child. Children will rise up against parents, and cause them to be put to death.",
+      "ct": "Brothers will betray their own brothers to death, and fathers will turn on their children. Children will rebel against their parents and have them killed."
+    },
+    {
+      "verse": 22,
+      "kjv": "And ye shall be hated of all men for my name’s sake: but he that endureth to the end shall be saved.",
+      "web": "You will be hated by all men for my name’s sake, but he who endures to the end will be saved.",
+      "ct": "Everyone will hate you because of me. But whoever endures to the end will be saved."
+    },
+    {
+      "verse": 23,
+      "kjv": "But when they persecute you in this city, flee ye into another: for verily I say unto you, Ye shall not have gone over the cities of Israel, till the Son of man be come.",
+      "web": "But when they persecute you in this city, flee into the next, for most certainly I tell you, you will not have gone through the cities of Israel until the Son of Man has come.",
+      "ct": "When they persecute you in one city, escape to the next. I tell you the truth: you won't finish going through all the cities of Israel before the Son of Man comes."
+    },
+    {
+      "verse": 24,
+      "kjv": "The disciple is not above his master, nor the servant above his lord.",
+      "web": "“A disciple is not above his teacher, nor a servant above his lord.",
+      "ct": "A disciple isn't above his teacher, and a servant isn't above his master."
+    },
+    {
+      "verse": 25,
+      "kjv": "It is enough for the disciple that he be as his master, and the servant as his lord. If they have called the master of the house Beelzebub, how much more shall they call them of his household?",
+      "web": "It is enough for the disciple that he be like his teacher, and the servant like his lord. If they have called the master of the house Beelzebul, how much more those of his household!",
+      "ct": "It's enough for a disciple to become like his teacher, and a servant like his master. If people have called the head of the house Beelzebub, how much worse will they treat the rest of his household!"
+    },
+    {
+      "verse": 26,
+      "kjv": "Fear them not therefore: for there is nothing covered, that shall not be revealed; and hid, that shall not be known.",
+      "web": "Therefore don’t be afraid of them, for there is nothing covered that will not be revealed; and hidden that will not be known.",
+      "ct": "So don't be afraid of them. Everything that's covered up will be uncovered, and every secret will be brought to light."
+    },
+    {
+      "verse": 27,
+      "kjv": "What I tell you in darkness, that speak ye in light: and what ye hear in the ear, that preach ye upon the housetops.",
+      "web": "What I tell you in the darkness, speak in the light; and what you hear whispered in the ear, proclaim on the housetops.",
+      "ct": "What I tell you in the dark, speak openly in the daylight. What I whisper in your ear, shout from the rooftops."
+    },
+    {
+      "verse": 28,
+      "kjv": "And fear not them which kill the body, but are not able to kill the soul: but rather fear him which is able to destroy both soul and body in hell.",
+      "web": "Don’t be afraid of those who kill the body, but are not able to kill the soul. Rather, fear him who is able to destroy both soul and body in Gehenna.",
+      "ct": "Don't fear those who can kill the body but can't touch the soul. Instead, fear the one who can destroy both soul and body in hell."
+    },
+    {
+      "verse": 29,
+      "kjv": "Are not two sparrows sold for a farthing? and one of them shall not fall on the ground without your Father.",
+      "web": "“Aren’t two sparrows sold for an assarion coin? Not one of them falls on the ground apart from your Father’s will,",
+      "ct": "Aren't two sparrows sold for practically nothing? Yet not a single one of them falls to the ground outside your Father's will."
+    },
+    {
+      "verse": 30,
+      "kjv": "But the very hairs of your head are all numbered.",
+      "web": "but the very hairs of your head are all numbered.",
+      "ct": "Even the hairs on your head are all counted."
+    },
+    {
+      "verse": 31,
+      "kjv": "Fear ye not therefore, ye are of more value than many sparrows.",
+      "web": "Therefore don’t be afraid. You are of more value than many sparrows.",
+      "ct": "So don't be afraid — you are worth far more than many sparrows."
+    },
+    {
+      "verse": 32,
+      "kjv": "Whosoever therefore shall confess me before men, him will I confess also before my Father which is in heaven.",
+      "web": "Everyone therefore who confesses me before men, I will also confess him before my Father who is in heaven.",
+      "ct": "Everyone who acknowledges me before others, I will acknowledge before my Father in heaven."
+    },
+    {
+      "verse": 33,
+      "kjv": "But whosoever shall deny me before men, him will I also deny before my Father which is in heaven.",
+      "web": "But whoever denies me before men, I will also deny him before my Father who is in heaven.",
+      "ct": "But whoever denies me before others, I will deny before my Father in heaven."
+    },
+    {
+      "verse": 34,
+      "kjv": "Think not that I am come to send peace on earth: I came not to send peace, but a sword.",
+      "web": "“Don’t think that I came to send peace on the earth. I didn’t come to send peace, but a sword.",
+      "ct": "Don't assume I came to bring peace to the earth. I didn't come to bring peace — I came to bring a sword."
+    },
+    {
+      "verse": 35,
+      "kjv": "For I am come to set a man at variance against his father, and the daughter against her mother, and the daughter in law against her mother in law.",
+      "web": "For I came to set a man at odds against his father, and a daughter against her mother, and a daughter-in-law against her mother-in-law.",
+      "ct": "I came to turn a man against his father, a daughter against her mother, and a daughter-in-law against her mother-in-law."
+    },
+    {
+      "verse": 36,
+      "kjv": "And a man’s foes shall be they of his own household.",
+      "web": "A man’s foes will be those of his own household.",
+      "ct": "A person's worst enemies will be the members of their own family."
+    },
+    {
+      "verse": 37,
+      "kjv": "He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me.",
+      "web": "He who loves father or mother more than me is not worthy of me; and he who loves son or daughter more than me isn’t worthy of me.",
+      "ct": "Anyone who loves their father or mother more than me isn't worthy of me. Anyone who loves their son or daughter more than me isn't worthy of me."
+    },
+    {
+      "verse": 38,
+      "kjv": "And he that taketh not his cross, and followeth after me, is not worthy of me.",
+      "web": "He who doesn’t take his cross and follow after me, isn’t worthy of me.",
+      "ct": "Anyone who won't take up their cross and follow me isn't worthy of me."
+    },
+    {
+      "verse": 39,
+      "kjv": "He that findeth his life shall lose it: and he that loseth his life for my sake shall find it.",
+      "web": "He who seeks his life will lose it; and he who loses his life for my sake will find it.",
+      "ct": "Whoever clings to their life will lose it, but whoever gives up their life for my sake will find it."
+    },
+    {
+      "verse": 40,
+      "kjv": "He that receiveth you receiveth me, and he that receiveth me receiveth him that sent me.",
+      "web": "He who receives you receives me, and he who receives me receives him who sent me.",
+      "ct": "Whoever welcomes you welcomes me, and whoever welcomes me welcomes the one who sent me."
+    },
+    {
+      "verse": 41,
+      "kjv": "He that receiveth a prophet in the name of a prophet shall receive a prophet’s reward; and he that receiveth a righteous man in the name of a righteous man shall receive a righteous man’s reward.",
+      "web": "He who receives a prophet in the name of a prophet will receive a prophet’s reward. He who receives a righteous man in the name of a righteous man will receive a righteous man’s reward.",
+      "ct": "Whoever welcomes a prophet because that person is a prophet will receive a prophet's reward. Whoever welcomes a righteous person because they are righteous will receive a righteous person's reward."
+    },
+    {
+      "verse": 42,
+      "kjv": "And whosoever shall give to drink unto one of these little ones a cup of cold water only in the name of a disciple, verily I say unto you, he shall in no wise lose his reward.",
+      "web": "Whoever gives one of these little ones just a cup of cold water to drink in the name of a disciple, most certainly I tell you he will in no way lose his reward.”",
+      "ct": "And I tell you the truth: whoever gives even a cup of cold water to one of these little ones because they are my disciple will certainly not lose their reward.\""
+    }
+  ]
+}

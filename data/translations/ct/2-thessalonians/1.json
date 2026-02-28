@@ -1,0 +1,83 @@
+{
+  "book": "2-thessalonians",
+  "book_name": "2 Thessalonians",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:03:35.030Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Paul, and Silvanus, and Timotheus, unto the church of the Thessalonians in God our Father and the Lord Jesus Christ:",
+      "web": "Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God our Father, and the Lord Jesus Christ:",
+      "ct": "From Paul, Silvanus, and Timothy, to the church of the Thessalonians who belong to God our Father and the Lord Jesus Christ:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Grace unto you, and peace, from God our Father and the Lord Jesus Christ.",
+      "web": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+      "ct": "May grace and peace be yours from God our Father and the Lord Jesus Christ."
+    },
+    {
+      "verse": 3,
+      "kjv": "We are bound to thank God always for you, brethren, as it is meet, because that your faith groweth exceedingly, and the charity of every one of you all toward each other aboundeth;",
+      "web": "We are bound to always give thanks to God for you, brothers, even as it is appropriate, because your faith grows exceedingly, and the love of each and every one of you toward one another abounds,",
+      "ct": "Brothers, we feel compelled to always thank God for you — and rightly so — because your faith is growing tremendously, and every single one of you is overflowing with love for each other."
+    },
+    {
+      "verse": 4,
+      "kjv": "So that we ourselves glory in you in the churches of God for your patience and faith in all your persecutions and tribulations that ye endure:",
+      "web": "so that we ourselves boast about you in the assemblies of God for your perseverance and faith in all your persecutions and in the afflictions which you endure.",
+      "ct": "In fact, we brag about you to the other churches of God, telling them how you've stayed strong in your faith through every persecution and hardship you've endured."
+    },
+    {
+      "verse": 5,
+      "kjv": "Which is a manifest token of the righteous judgment of God, that ye may be counted worthy of the kingdom of God, for which ye also suffer:",
+      "web": "This is an obvious sign of the righteous judgment of God, to the end that you may be counted worthy of God’s Kingdom, for which you also suffer.",
+      "ct": "This is clear proof that God's judgment is right. Through your suffering, he is making you worthy of his kingdom — the very kingdom you're suffering for."
+    },
+    {
+      "verse": 6,
+      "kjv": "Seeing it is a righteous thing with God to recompense tribulation to them that trouble you;",
+      "web": "Since it is a righteous thing with God to repay affliction to those who afflict you,",
+      "ct": "After all, God is just. He will pay back trouble to those who are causing you trouble,"
+    },
+    {
+      "verse": 7,
+      "kjv": "And to you who are troubled rest with us, when the Lord Jesus shall be revealed from heaven with his mighty angels,",
+      "web": "and to give relief to you who are afflicted with us, when the Lord Jesus is revealed from heaven with his mighty angels in flaming fire,",
+      "ct": "and he will give relief to you who are suffering — and to us as well. This will happen when the Lord Jesus is revealed from heaven with his mighty angels in blazing fire,"
+    },
+    {
+      "verse": 8,
+      "kjv": "In flaming fire taking vengeance on them that know not God, and that obey not the gospel of our Lord Jesus Christ:",
+      "web": "punishing those who don’t know God, and to those who don’t obey the Good News of our Lord Jesus,",
+      "ct": "bringing vengeance on those who don't know God and on those who refuse to obey the gospel of our Lord Jesus Christ."
+    },
+    {
+      "verse": 9,
+      "kjv": "Who shall be punished with everlasting destruction from the presence of the Lord, and from the glory of his power;",
+      "web": "who will pay the penalty: eternal destruction from the face of the Lord and from the glory of his might,",
+      "ct": "They will face the penalty of eternal destruction, cut off from the presence of the Lord and from the glory of his power."
+    },
+    {
+      "verse": 10,
+      "kjv": "When he shall come to be glorified in his saints, and to be admired in all them that believe (because our testimony among you was believed) in that day.",
+      "web": "when he comes in that day to be glorified in his saints and to be admired among all those who have believed, because our testimony to you was believed.",
+      "ct": "This will happen on the day he comes to be glorified among his saints and marveled at by all who believed — and that includes you, because you believed the testimony we brought to you."
+    },
+    {
+      "verse": 11,
+      "kjv": "Wherefore also we pray always for you, that our God would count you worthy of this calling, and fulfil all the good pleasure of his goodness, and the work of faith with power:",
+      "web": "To this end we also pray always for you, that our God may count you worthy of your calling, and fulfill every desire of goodness and work of faith with power,",
+      "ct": "With all this in mind, we constantly pray for you, asking that our God would make you worthy of the calling he's given you, and that by his power he would bring to completion every good desire and every act of faith in your lives."
+    },
+    {
+      "verse": 12,
+      "kjv": "That the name of our Lord Jesus Christ may be glorified in you, and ye in him, according to the grace of our God and the Lord Jesus Christ.",
+      "web": "that the name of our Lord Jesus may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ.",
+      "ct": "We pray this so that the name of our Lord Jesus Christ will be glorified in you, and you in him, through the grace of our God and the Lord Jesus Christ."
+    }
+  ]
+}

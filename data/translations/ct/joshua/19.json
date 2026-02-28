@@ -1,0 +1,317 @@
+{
+  "book": "joshua",
+  "book_name": "Joshua",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:24:35.053Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the second lot came forth to Simeon, even for the tribe of the children of Simeon according to their families: and their inheritance was within the inheritance of the children of Judah.",
+      "web": "The second lot came out for Simeon, even for the tribe of the children of Simeon according to their families. Their inheritance was in the middle of the inheritance of the children of Judah.",
+      "ct": "The second lot was drawn for the tribe of Simeon, clan by clan. Their territory fell within the land already given to the tribe of Judah."
+    },
+    {
+      "verse": 2,
+      "kjv": "And they had in their inheritance Beersheba, and Sheba, and Moladah,",
+      "web": "They had for their inheritance Beersheba (or Sheba), Moladah,",
+      "ct": "Their inheritance included Beersheba, Sheba, Moladah,"
+    },
+    {
+      "verse": 3,
+      "kjv": "And Hazarshual, and Balah, and Azem,",
+      "web": "Hazar Shual, Balah, Ezem,",
+      "ct": "Hazarshual, Balah, Azem,"
+    },
+    {
+      "verse": 4,
+      "kjv": "And Eltolad, and Bethul, and Hormah,",
+      "web": "Eltolad, Bethul, Hormah,",
+      "ct": "Eltolad, Bethul, Hormah,"
+    },
+    {
+      "verse": 5,
+      "kjv": "And Ziklag, and Bethmarcaboth, and Hazarsusah,",
+      "web": "Ziklag, Beth Marcaboth, Hazar Susah,",
+      "ct": "Ziklag, Bethmarcaboth, Hazarsusah,"
+    },
+    {
+      "verse": 6,
+      "kjv": "And Bethlebaoth, and Sharuhen; thirteen cities and their villages:",
+      "web": "Beth Lebaoth, and Sharuhen; thirteen cities with their villages;",
+      "ct": "Bethlebaoth, and Sharuhen — 13 cities along with their surrounding villages."
+    },
+    {
+      "verse": 7,
+      "kjv": "Ain, Remmon, and Ether, and Ashan; four cities and their villages:",
+      "web": "Ain, Rimmon, Ether, and Ashan; four cities with their villages;",
+      "ct": "They also received Ain, Remmon, Ether, and Ashan — 4 cities with their villages,"
+    },
+    {
+      "verse": 8,
+      "kjv": "And all the villages that were round about these cities to Baalathbeer, Ramath of the south. This is the inheritance of the tribe of the children of Simeon according to their families.",
+      "web": "and all the villages that were around these cities to Baalath Beer, Ramah of the South. This is the inheritance of the tribe of the children of Simeon according to their families.",
+      "ct": "plus all the villages surrounding these cities as far as Baalathbeer (also called Ramath of the south). This was the land given to the tribe of Simeon, distributed by clan."
+    },
+    {
+      "verse": 9,
+      "kjv": "Out of the portion of the children of Judah was the inheritance of the children of Simeon: for the part of the children of Judah was too much for them: therefore the children of Simeon had their inheritance within the inheritance of them.",
+      "web": "Out of the part of the children of Judah was the inheritance of the children of Simeon; for the portion of the children of Judah was too much for them. Therefore the children of Simeon had inheritance in the middle of their inheritance.",
+      "ct": "Simeon's territory was carved out of Judah's share because Judah's portion turned out to be more than they needed. So the people of Simeon received their inheritance inside Judah's borders."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the third lot came up for the children of Zebulun according to their families: and the border of their inheritance was unto Sarid:",
+      "web": "The third lot came up for the children of Zebulun according to their families. The border of their inheritance was to Sarid.",
+      "ct": "The third lot was drawn for the tribe of Zebulun, clan by clan. The boundary of their territory extended to Sarid."
+    },
+    {
+      "verse": 11,
+      "kjv": "And their border went up toward the sea, and Maralah, and reached to Dabbasheth, and reached to the river that is before Jokneam;",
+      "web": "Their border went up westward, even to Maralah, and reached to Dabbesheth. It reached to the brook that is before Jokneam.",
+      "ct": "From there, the border went westward to Maralah, reached Dabbasheth, and continued to the brook east of Jokneam."
+    },
+    {
+      "verse": 12,
+      "kjv": "And turned from Sarid eastward toward the sunrising unto the border of Chislothtabor, and then goeth out to Daberath, and goeth up to Japhia,",
+      "web": "It turned from Sarid eastward toward the sunrise to the border of Chisloth Tabor. It went out to Daberath, and went up to Japhia.",
+      "ct": "From Sarid it turned eastward toward the sunrise to the border of Chislothtabor, then continued on to Daberath and up to Japhia."
+    },
+    {
+      "verse": 13,
+      "kjv": "And from thence passeth on along on the east to Gittahhepher, to Ittahkazin, and goeth out to Remmonmethoar to Neah;",
+      "web": "From there it passed along eastward to Gath Hepher, to Ethkazin; and it went out at Rimmon which stretches to Neah.",
+      "ct": "From there it ran eastward to Gittahhepher and Ittahkazin, then extended to Remmon, stretching as far as Neah."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the border compasseth it on the north side to Hannathon: and the outgoings thereof are in the valley of Jiphthahel:",
+      "web": "The border turned around it on the north to Hannathon; and it ended at the valley of Iphtah El;",
+      "ct": "The border curved around on the north side to Hannathon and ended at the valley of Jiphthahel."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Kattath, and Nahallal, and Shimron, and Idalah, and Bethlehem: twelve cities with their villages.",
+      "web": "Kattath, Nahalal, Shimron, Idalah, and Bethlehem: twelve cities with their villages.",
+      "ct": "Their territory also included Kattath, Nahallal, Shimron, Idalah, and Bethlehem — 12 cities with their villages."
+    },
+    {
+      "verse": 16,
+      "kjv": "This is the inheritance of the children of Zebulun according to their families, these cities with their villages.",
+      "web": "This is the inheritance of the children of Zebulun according to their families, these cities with their villages.",
+      "ct": "This was the inheritance of the tribe of Zebulun, distributed by clan — these cities and their villages."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the fourth lot came out to Issachar, for the children of Issachar according to their families.",
+      "web": "The fourth lot came out for Issachar, even for the children of Issachar according to their families.",
+      "ct": "The fourth lot was drawn for the tribe of Issachar, clan by clan."
+    },
+    {
+      "verse": 18,
+      "kjv": "And their border was toward Jezreel, and Chesulloth, and Shunem,",
+      "web": "Their border was to Jezreel, Chesulloth, Shunem,",
+      "ct": "Their territory included Jezreel, Chesulloth, Shunem,"
+    },
+    {
+      "verse": 19,
+      "kjv": "And Haphraim, and Shihon, and Anaharath,",
+      "web": "Hapharaim, Shion, Anaharath,",
+      "ct": "Haphraim, Shihon, Anaharath,"
+    },
+    {
+      "verse": 20,
+      "kjv": "And Rabbith, and Kishion, and Abez,",
+      "web": "Rabbith, Kishion, Ebez,",
+      "ct": "Rabbith, Kishion, Abez,"
+    },
+    {
+      "verse": 21,
+      "kjv": "And Remeth, and Engannim, and Enhaddah, and Bethpazzez;",
+      "web": "Remeth, Engannim, En Haddah, and Beth Pazzez.",
+      "ct": "Remeth, Engannim, Enhaddah, and Bethpazzez."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the coast reacheth to Tabor, and Shahazimah, and Bethshemesh; and the outgoings of their border were at Jordan: sixteen cities with their villages.",
+      "web": "The border reached to Tabor, Shahazumah, and Beth Shemesh. Their border ended at the Jordan: sixteen cities with their villages.",
+      "ct": "The border reached to Tabor, Shahazimah, and Bethshemesh, ending at the Jordan River — 16 cities with their villages."
+    },
+    {
+      "verse": 23,
+      "kjv": "This is the inheritance of the tribe of the children of Issachar according to their families, the cities and their villages.",
+      "web": "This is the inheritance of the tribe of the children of Issachar according to their families, the cities with their villages.",
+      "ct": "This was the inheritance of the tribe of Issachar, distributed by clan — these cities and their villages."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the fifth lot came out for the tribe of the children of Asher according to their families.",
+      "web": "The fifth lot came out for the tribe of the children of Asher according to their families.",
+      "ct": "The fifth lot was drawn for the tribe of Asher, clan by clan."
+    },
+    {
+      "verse": 25,
+      "kjv": "And their border was Helkath, and Hali, and Beten, and Achshaph,",
+      "web": "Their border was Helkath, Hali, Beten, Achshaph,",
+      "ct": "Their territory included Helkath, Hali, Beten, Achshaph,"
+    },
+    {
+      "verse": 26,
+      "kjv": "And Alammelech, and Amad, and Misheal; and reacheth to Carmel westward, and to Shihorlibnath;",
+      "web": "Allammelech, Amad, Mishal. It reached to Carmel westward, and to Shihorlibnath.",
+      "ct": "Alammelech, Amad, and Misheal. The border reached westward to Carmel and to Shihorlibnath."
+    },
+    {
+      "verse": 27,
+      "kjv": "And turneth toward the sunrising to Bethdagon, and reacheth to Zebulun, and to the valley of Jiphthahel toward the north side of Bethemek, and Neiel, and goeth out to Cabul on the left hand,",
+      "web": "It turned toward the sunrise to Beth Dagon, and reached to Zebulun, and to the valley of Iphtah El northward to Beth Emek and Neiel. It went out to Cabul on the left hand,",
+      "ct": "It then turned eastward toward Bethdagon, touched Zebulun's territory and the valley of Jiphthahel, then ran north past Bethemek and Neiel, continuing out to Cabul on the north side."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Hebron, and Rehob, and Hammon, and Kanah, even unto great Zidon;",
+      "web": "and Ebron, Rehob, Hammon, and Kanah, even to great Sidon.",
+      "ct": "It also included Hebron, Rehob, Hammon, and Kanah, extending all the way to great Zidon."
+    },
+    {
+      "verse": 29,
+      "kjv": "And then the coast turneth to Ramah, and to the strong city Tyre; and the coast turneth to Hosah; and the outgoings thereof are at the sea from the coast to Achzib:",
+      "web": "The border turned to Ramah, to the fortified city of Tyre; and the border turned to Hosah. It ended at the sea by the region of Achzib;",
+      "ct": "The border then turned toward Ramah and continued to the fortified city of Tyre. From there it turned toward Hosah and came out at the Mediterranean Sea near the region of Achzib."
+    },
+    {
+      "verse": 30,
+      "kjv": "Ummah also, and Aphek, and Rehob: twenty and two cities with their villages.",
+      "web": "Ummah also, and Aphek, and Rehob: twenty-two cities with their villages.",
+      "ct": "Their territory also included Ummah, Aphek, and Rehob — 22 cities with their villages."
+    },
+    {
+      "verse": 31,
+      "kjv": "This is the inheritance of the tribe of the children of Asher according to their families, these cities with their villages.",
+      "web": "This is the inheritance of the tribe of the children of Asher according to their families, these cities with their villages.",
+      "ct": "This was the inheritance of the tribe of Asher, distributed by clan — these cities and their villages."
+    },
+    {
+      "verse": 32,
+      "kjv": "The sixth lot came out to the children of Naphtali, even for the children of Naphtali according to their families.",
+      "web": "The sixth lot came out for the children of Naphtali, even for the children of Naphtali according to their families.",
+      "ct": "The sixth lot was drawn for the tribe of Naphtali, clan by clan."
+    },
+    {
+      "verse": 33,
+      "kjv": "And their coast was from Heleph, from Allon to Zaanannim, and Adami, Nekeb, and Jabneel, unto Lakum; and the outgoings thereof were at Jordan:",
+      "web": "Their border was from Heleph, from the oak in Zaanannim, Adami-nekeb, and Jabneel, to Lakkum. It ended at the Jordan.",
+      "ct": "Their border ran from Heleph, from the oak at Zaanannim, through Adami, Nekeb, and Jabneel, all the way to Lakum, ending at the Jordan River."
+    },
+    {
+      "verse": 34,
+      "kjv": "And then the coast turneth westward to Aznothtabor, and goeth out from thence to Hukkok, and reacheth to Zebulun on the south side, and reacheth to Asher on the west side, and to Judah upon Jordan toward the sunrising.",
+      "web": "The border turned westward to Aznoth Tabor, and went out from there to Hukkok. It reached to Zebulun on the south, and reached to Asher on the west, and to Judah at the Jordan toward the sunrise.",
+      "ct": "The border then turned westward to Aznothtabor and continued from there to Hukkok. It touched Zebulun's territory on the south, Asher's on the west, and reached Judah at the Jordan toward the east."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the fenced cities are Ziddim, Zer, and Hammath, Rakkath, and Chinnereth,",
+      "web": "The fortified cities were Ziddim, Zer, Hammath, Rakkath, Chinnereth,",
+      "ct": "The fortified cities were Ziddim, Zer, Hammath, Rakkath, Chinnereth,"
+    },
+    {
+      "verse": 36,
+      "kjv": "And Adamah, and Ramah, and Hazor,",
+      "web": "Adamah, Ramah, Hazor,",
+      "ct": "Adamah, Ramah, Hazor,"
+    },
+    {
+      "verse": 37,
+      "kjv": "And Kedesh, and Edrei, and Enhazor,",
+      "web": "Kedesh, Edrei, En Hazor,",
+      "ct": "Kedesh, Edrei, Enhazor,"
+    },
+    {
+      "verse": 38,
+      "kjv": "And Iron, and Migdalel, Horem, and Bethanath, and Bethshemesh; nineteen cities with their villages.",
+      "web": "Iron, Migdal El, Horem, Beth Anath, and Beth Shemesh; nineteen cities with their villages.",
+      "ct": "Iron, Migdalel, Horem, Bethanath, and Bethshemesh — 19 cities with their villages."
+    },
+    {
+      "verse": 39,
+      "kjv": "This is the inheritance of the tribe of the children of Naphtali according to their families, the cities and their villages.",
+      "web": "This is the inheritance of the tribe of the children of Naphtali according to their families, the cities with their villages.",
+      "ct": "This was the inheritance of the tribe of Naphtali, distributed by clan — these cities and their villages."
+    },
+    {
+      "verse": 40,
+      "kjv": "And the seventh lot came out for the tribe of the children of Dan according to their families.",
+      "web": "The seventh lot came out for the tribe of the children of Dan according to their families.",
+      "ct": "The seventh lot was drawn for the tribe of Dan, clan by clan."
+    },
+    {
+      "verse": 41,
+      "kjv": "And the coast of their inheritance was Zorah, and Eshtaol, and Irshemesh,",
+      "web": "The border of their inheritance was Zorah, Eshtaol, Irshemesh,",
+      "ct": "Their territory included Zorah, Eshtaol, Irshemesh,"
+    },
+    {
+      "verse": 42,
+      "kjv": "And Shaalabbin, and Ajalon, and Jethlah,",
+      "web": "Shaalabbin, Aijalon, Ithlah,",
+      "ct": "Shaalabbin, Ajalon, Jethlah,"
+    },
+    {
+      "verse": 43,
+      "kjv": "And Elon, and Thimnathah, and Ekron,",
+      "web": "Elon, Timnah, Ekron,",
+      "ct": "Elon, Thimnathah, Ekron,"
+    },
+    {
+      "verse": 44,
+      "kjv": "And Eltekeh, and Gibbethon, and Baalath,",
+      "web": "Eltekeh, Gibbethon, Baalath,",
+      "ct": "Eltekeh, Gibbethon, Baalath,"
+    },
+    {
+      "verse": 45,
+      "kjv": "And Jehud, and Beneberak, and Gathrimmon,",
+      "web": "Jehud, Bene Berak, Gath Rimmon,",
+      "ct": "Jehud, Beneberak, Gathrimmon,"
+    },
+    {
+      "verse": 46,
+      "kjv": "And Mejarkon, and Rakkon, with the border before Japho.",
+      "web": "Me Jarkon, and Rakkon, with the border opposite Joppa.",
+      "ct": "Mejarkon, and Rakkon, along with the area opposite Japho."
+    },
+    {
+      "verse": 47,
+      "kjv": "And the coast of the children of Dan went out too little for them: therefore the children of Dan went up to fight against Leshem, and took it, and smote it with the edge of the sword, and possessed it, and dwelt therein, and called Leshem, Dan, after the name of Dan their father.",
+      "web": "The border of the children of Dan went out beyond them; for the children of Dan went up and fought against Leshem, and took it, and struck it with the edge of the sword, and possessed it, and lived therein, and called Leshem, Dan, after the name of Dan their forefather.",
+      "ct": "But the people of Dan struggled to hold their territory, so they marched north and attacked Leshem. They captured it, put its people to the sword, and took possession of the city. They settled there and renamed it Dan, after their ancestor."
+    },
+    {
+      "verse": 48,
+      "kjv": "This is the inheritance of the tribe of the children of Dan according to their families, these cities with their villages.",
+      "web": "This is the inheritance of the tribe of the children of Dan according to their families, these cities with their villages.",
+      "ct": "This was the inheritance of the tribe of Dan, distributed by clan — these cities and their villages."
+    },
+    {
+      "verse": 49,
+      "kjv": "When they had made an end of dividing the land for inheritance by their coasts, the children of Israel gave an inheritance to Joshua the son of Nun among them:",
+      "web": "So they finished distributing the land for inheritance by its borders. The children of Israel gave an inheritance to Joshua the son of Nun among them.",
+      "ct": "When the Israelites had finished dividing up the entire land by its boundaries, they gave a special inheritance to Joshua son of Nun among them."
+    },
+    {
+      "verse": 50,
+      "kjv": "According to the word of the LORD they gave him the city which he asked, even Timnathserah in mount Ephraim: and he built the city, and dwelt therein.",
+      "web": "According to LORD’s commandment, they gave him the city which he asked, even Timnathserah in the hill country of Ephraim; and he built the city, and lived there.",
+      "ct": "As the LORD had commanded, they gave him the city he requested — Timnathserah in the hill country of Ephraim. He rebuilt the city and made it his home."
+    },
+    {
+      "verse": 51,
+      "kjv": "These are the inheritances, which Eleazar the priest, and Joshua the son of Nun, and the heads of the fathers of the tribes of the children of Israel, divided for an inheritance by lot in Shiloh before the LORD, at the door of the tabernacle of the congregation. So they made an end of dividing the country.",
+      "web": "These are the inheritances, which Eleazar the priest, Joshua the son of Nun, and the heads of the fathers’ houses of the tribes of the children of Israel, distributed for inheritance by lot in Shiloh before LORD, at the door of the Tent of Meeting. So they finished dividing the land.",
+      "ct": "These are the territories that Eleazar the priest, Joshua son of Nun, and the heads of Israel's tribal families distributed by casting lots at Shiloh, in the presence of the LORD at the entrance to the tabernacle. With that, the division of the land was complete."
+    }
+  ]
+}

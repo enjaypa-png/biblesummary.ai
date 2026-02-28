@@ -1,0 +1,77 @@
+{
+  "book": "revelation",
+  "book_name": "Revelation",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:19:09.396Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "After this I looked, and, behold, a door was opened in heaven: and the first voice which I heard was as it were of a trumpet talking with me; which said, Come up hither, and I will shew thee things which must be hereafter.",
+      "web": "After these things I looked and saw a door opened in heaven, and the first voice that I heard, like a trumpet speaking with me, was one saying, “Come up here, and I will show you the things which must happen after this.”",
+      "ct": "After this, I looked up and saw a door standing open in heaven. The first voice I had heard — the one that sounded like a trumpet — spoke to me again and said, \"Come up here, and I will show you what must take place after this.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And immediately I was in the spirit: and, behold, a throne was set in heaven, and one sat on the throne.",
+      "web": "Immediately I was in the Spirit. Behold, there was a throne set in heaven, and one sitting on the throne",
+      "ct": "Instantly, the Spirit took hold of me. There before me was a throne set in heaven, and someone was sitting on it."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he that sat was to look upon like a jasper and a sardine stone: and there was a rainbow round about the throne, in sight like unto an emerald.",
+      "web": "that looked like a jasper stone and a sardius. There was a rainbow around the throne, like an emerald to look at.",
+      "ct": "The one seated on the throne gleamed like jasper and sardius stone, and a rainbow that shone like emerald encircled the throne."
+    },
+    {
+      "verse": 4,
+      "kjv": "And round about the throne were four and twenty seats: and upon the seats I saw four and twenty elders sitting, clothed in white raiment; and they had on their heads crowns of gold.",
+      "web": "Around the throne were twenty-four thrones. On the thrones were twenty-four elders sitting, dressed in white garments, with crowns of gold on their heads.",
+      "ct": "Surrounding the throne were 24 other thrones, and seated on them were 24 elders dressed in white robes with golden crowns on their heads."
+    },
+    {
+      "verse": 5,
+      "kjv": "And out of the throne proceeded lightnings and thunderings and voices: and there were seven lamps of fire burning before the throne, which are the seven Spirits of God.",
+      "web": "Out of the throne proceed lightnings, sounds, and thunders. There were seven lamps of fire burning before his throne, which are the seven Spirits of God.",
+      "ct": "From the throne came flashes of lightning, rumbling sounds, and peals of thunder. 7 blazing lamps burned before the throne — these are the 7 Spirits of God."
+    },
+    {
+      "verse": 6,
+      "kjv": "And before the throne there was a sea of glass like unto crystal: and in the midst of the throne, and round about the throne, were four beasts full of eyes before and behind.",
+      "web": "Before the throne was something like a sea of glass, similar to crystal. In the middle of the throne, and around the throne were four living creatures full of eyes before and behind.",
+      "ct": "In front of the throne stretched what looked like a sea of glass, clear as crystal. In the center, around the throne on every side, were 4 living creatures covered with eyes on their front and back."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the first beast was like a lion, and the second beast like a calf, and the third beast had a face as a man, and the fourth beast was like a flying eagle.",
+      "web": "The first creature was like a lion, and the second creature like a calf, and the third creature had a face like a man, and the fourth was like a flying eagle.",
+      "ct": "The first living creature looked like a lion, the second like a calf, the third had a face like a human, and the fourth looked like an eagle in flight."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the four beasts had each of them six wings about him; and they were full of eyes within: and they rest not day and night, saying, Holy, holy, holy, LORD God Almighty, which was, and is, and is to come.",
+      "web": "The four living creatures, each one of them having six wings, are full of eyes around and within. They have no rest day and night, saying, “Holy, holy, holy is the Lord God, the Almighty, who was and who is and who is to come!”",
+      "ct": "Each of the 4 living creatures had 6 wings and was covered with eyes all around and underneath. Day and night they never stop saying, \"Holy, holy, holy is the Lord God, the Almighty — who was, and who is, and who is to come!\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And when those beasts give glory and honour and thanks to him that sat on the throne, who liveth for ever and ever,",
+      "web": "When the living creatures give glory, honor, and thanks to him who sits on the throne, to him who lives forever and ever,",
+      "ct": "Whenever the living creatures give glory, honor, and thanks to the one seated on the throne — the one who lives forever and ever —"
+    },
+    {
+      "verse": 10,
+      "kjv": "The four and twenty elders fall down before him that sat on the throne, and worship him that liveth for ever and ever, and cast their crowns before the throne, saying,",
+      "web": "the twenty-four elders fall down before him who sits on the throne, and worship him who lives forever and ever, and throw their crowns before the throne, saying,",
+      "ct": "the 24 elders fall down before him who sits on the throne and worship him who lives forever and ever. They lay their crowns before the throne and say,"
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.",
+      "web": "“Worthy are you, our Lord and God, the Holy One, to receive the glory, the honor, and the power, for you created all things, and because of your desire they existed, and were created!”",
+      "ct": "\"You are worthy, our Lord and God, to receive glory and honor and power, because you created all things. By your will they exist and were created.\""
+    }
+  ]
+}

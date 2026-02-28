@@ -1,0 +1,167 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 20,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:30:53.003Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And God spake all these words, saying,",
+      "web": "God spoke all these words, saying,",
+      "ct": "God spoke all these words:"
+    },
+    {
+      "verse": 2,
+      "kjv": "I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.",
+      "web": "“I am LORD your God, who brought you out of the land of Egypt, out of the house of bondage.",
+      "ct": "\"I am the LORD your God, who brought you out of Egypt, out of the land where you were slaves."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thou shalt have no other gods before me.",
+      "web": "“You shall have no other gods before me.",
+      "ct": "\"You must have no other gods besides me."
+    },
+    {
+      "verse": 4,
+      "kjv": "Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth:",
+      "web": "“You shall not make for yourselves an idol, nor any image of anything that is in the heavens above, or that is in the earth beneath, or that is in the water under the earth:",
+      "ct": "\"You must not make an idol for yourself — no carved image of anything in the heavens above, on the earth below, or in the waters beneath the earth."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;",
+      "web": "you shall not bow yourself down to them, nor serve them, for I, LORD your God, am a jealous God, visiting the iniquity of the fathers on the children, on the third and on the fourth generation of those who hate me,",
+      "ct": "You must not bow down to them or worship them, because I, the LORD your God, am a jealous God. When people hate me, I hold their sin against their children, down to the 3rd and 4th generation."
+    },
+    {
+      "verse": 6,
+      "kjv": "And shewing mercy unto thousands of them that love me, and keep my commandments.",
+      "web": "and showing loving kindness to thousands of those who love me and keep my commandments.",
+      "ct": "But I show mercy to thousands of generations of those who love me and obey my commandments."
+    },
+    {
+      "verse": 7,
+      "kjv": "Thou shalt not take the name of the LORD thy God in vain; for the LORD will not hold him guiltless that taketh his name in vain.",
+      "web": "“You shall not misuse the name of LORD your God, for LORD will not hold him guiltless who misuses his name.",
+      "ct": "\"You must not misuse the name of the LORD your God, because the LORD will not let anyone who misuses his name go unpunished."
+    },
+    {
+      "verse": 8,
+      "kjv": "Remember the sabbath day, to keep it holy.",
+      "web": "“Remember the Sabbath day, to keep it holy.",
+      "ct": "\"Remember the Sabbath day and keep it holy."
+    },
+    {
+      "verse": 9,
+      "kjv": "Six days shalt thou labour, and do all thy work:",
+      "web": "You shall labor six days, and do all your work,",
+      "ct": "You have 6 days to do all your work,"
+    },
+    {
+      "verse": 10,
+      "kjv": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates:",
+      "web": "but the seventh day is a Sabbath to LORD your God. You shall not do any work in it, you, nor your son, nor your daughter, your male servant, nor your female servant, nor your livestock, nor your stranger who is within your gates;",
+      "ct": "but the 7th day is a Sabbath belonging to the LORD your God. On that day, no one may do any work — not you, not your sons or daughters, not your male or female servants, not your livestock, and not any foreigner living among you."
+    },
+    {
+      "verse": 11,
+      "kjv": "For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.",
+      "web": "for in six days LORD made heaven and earth, the sea, and all that is in them, and rested the seventh day; therefore LORD blessed the Sabbath day, and made it holy.",
+      "ct": "The LORD made heaven and earth, the sea, and everything in them in 6 days, and he rested on the 7th day. That is why the LORD blessed the Sabbath day and made it holy."
+    },
+    {
+      "verse": 12,
+      "kjv": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.",
+      "web": "“Honor your father and your mother, that your days may be long in the land which LORD your God gives you.",
+      "ct": "\"Honor your father and your mother, so that you may live a long life in the land the LORD your God is giving you."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou shalt not kill.",
+      "web": "“You shall not murder.",
+      "ct": "\"You must not murder."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thou shalt not commit adultery.",
+      "web": "“You shall not commit adultery.",
+      "ct": "\"You must not commit adultery."
+    },
+    {
+      "verse": 15,
+      "kjv": "Thou shalt not steal.",
+      "web": "“You shall not steal.",
+      "ct": "\"You must not steal."
+    },
+    {
+      "verse": 16,
+      "kjv": "Thou shalt not bear false witness against thy neighbour.",
+      "web": "“You shall not give false testimony against your neighbor.",
+      "ct": "\"You must not give false testimony against your neighbor."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thou shalt not covet thy neighbour’s house, thou shalt not covet thy neighbour’s wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour’s.",
+      "web": "“You shall not covet your neighbor’s house. You shall not covet your neighbor’s wife, nor his male servant, nor his female servant, nor his ox, nor his donkey, nor anything that is your neighbor’s.”",
+      "ct": "\"You must not covet your neighbor's house. You must not covet your neighbor's wife, his male or female servant, his ox, his donkey, or anything that belongs to your neighbor.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And all the people saw the thunderings, and the lightnings, and the noise of the trumpet, and the mountain smoking: and when the people saw it, they removed, and stood afar off.",
+      "web": "All the people perceived the thunderings, the lightnings, the sound of the trumpet, and the mountain smoking. When the people saw it, they trembled, and stayed at a distance.",
+      "ct": "The people witnessed the thunder and lightning, heard the blast of the trumpet, and saw the mountain covered in smoke. They were terrified and backed away, keeping their distance."
+    },
+    {
+      "verse": 19,
+      "kjv": "And they said unto Moses, Speak thou with us, and we will hear: but let not God speak with us, lest we die.",
+      "web": "They said to Moses, “Speak with us yourself, and we will listen; but don’t let God speak with us, lest we die.”",
+      "ct": "They said to Moses, \"You speak to us and we'll listen, but don't let God speak to us directly — we'll die!\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Moses said unto the people, Fear not: for God is come to prove you, and that his fear may be before your faces, that ye sin not.",
+      "web": "Moses said to the people, “Don’t be afraid, for God has come to test you, and that his fear may be before you, that you won’t sin.”",
+      "ct": "Moses told the people, \"Don't be afraid. God has come to test you, so that the fear of him will stay with you and keep you from sin.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And the people stood afar off, and Moses drew near unto the thick darkness where God was.",
+      "web": "The people stayed at a distance, and Moses came near to the thick darkness where God was.",
+      "ct": "The people stayed far back while Moses approached the thick darkness where God was."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the LORD said unto Moses, Thus thou shalt say unto the children of Israel, Ye have seen that I have talked with you from heaven.",
+      "web": "LORD said to Moses, “This is what you shall tell the children of Israel: ‘You yourselves have seen that I have talked with you from heaven.",
+      "ct": "The LORD told Moses, \"Say this to the people of Israel: 'You saw for yourselves that I spoke to you from heaven."
+    },
+    {
+      "verse": 23,
+      "kjv": "Ye shall not make with me gods of silver, neither shall ye make unto you gods of gold.",
+      "web": "You shall most certainly not make gods of silver or gods of gold for yourselves to be alongside me.",
+      "ct": "You must not make any gods of silver or gold to stand alongside me."
+    },
+    {
+      "verse": 24,
+      "kjv": "An altar of earth thou shalt make unto me, and shalt sacrifice thereon thy burnt offerings, and thy peace offerings, thy sheep, and thine oxen: in all places where I record my name I will come unto thee, and I will bless thee.",
+      "web": "You shall make an altar of earth for me, and shall sacrifice on it your burnt offerings and your peace offerings, your sheep and your cattle. In every place where I record my name I will come to you and I will bless you.",
+      "ct": "Build an altar of earth for me, and sacrifice your burnt offerings and peace offerings on it — your sheep and your cattle. Wherever I cause my name to be remembered, I will come to you and bless you."
+    },
+    {
+      "verse": 25,
+      "kjv": "And if thou wilt make me an altar of stone, thou shalt not build it of hewn stone: for if thou lift up thy tool upon it, thou hast polluted it.",
+      "web": "If you make me an altar of stone, you shall not build it of cut stones; for if you lift up your tool on it, you have polluted it.",
+      "ct": "If you build me an altar of stone, don't use cut stones. The moment you take a chisel to the stone, you've made it unclean."
+    },
+    {
+      "verse": 26,
+      "kjv": "Neither shalt thou go up by steps unto mine altar, that thy nakedness be not discovered thereon.",
+      "web": "You shall not go up by steps to my altar, that your nakedness may not be exposed to it.’",
+      "ct": "And don't build steps leading up to my altar, so that your nakedness isn't exposed on it.'\""
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "book": "numbers",
+  "book_name": "Numbers",
+  "chapter": 33,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:03:09.080Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "These are the journeys of the children of Israel, which went forth out of the land of Egypt with their armies under the hand of Moses and Aaron.",
+      "web": "These are the journeys of the children of Israel, when they went out of the land of Egypt by their armies under the hand of Moses and Aaron.",
+      "ct": "Here is the record of every place the Israelites stopped as they traveled out of Egypt, organized by their armies under the leadership of Moses and Aaron."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Moses wrote their goings out according to their journeys by the commandment of the LORD: and these are their journeys according to their goings out.",
+      "web": "Moses wrote the starting points of their journeys by the commandment of LORD. These are their journeys according to their starting points.",
+      "ct": "The LORD commanded Moses to write down each starting point along their journey, and this is that record."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they departed from Rameses in the first month, on the fifteenth day of the first month; on the morrow after the passover the children of Israel went out with an high hand in the sight of all the Egyptians.",
+      "web": "They traveled from Rameses in the first month, on the fifteenth day of the first month; on the next day after the Passover, the children of Israel went out with a high hand in the sight of all the Egyptians,",
+      "ct": "They left Rameses on the 15th day of the 1st month — the day after the Passover. The Israelites marched out boldly, right in front of all the Egyptians,"
+    },
+    {
+      "verse": 4,
+      "kjv": "For the Egyptians buried all their firstborn, which the LORD had smitten among them: upon their gods also the LORD executed judgments.",
+      "web": "while the Egyptians were burying all their firstborn, whom LORD had struck among them. LORD also executed judgments on their gods.",
+      "ct": "who were busy burying every firstborn son the LORD had struck down. The LORD had also brought judgment on Egypt's gods."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the children of Israel removed from Rameses, and pitched in Succoth.",
+      "web": "The children of Israel traveled from Rameses, and encamped in Succoth.",
+      "ct": "The Israelites left Rameses and set up camp at Succoth."
+    },
+    {
+      "verse": 6,
+      "kjv": "And they departed from Succoth, and pitched in Etham, which is in the edge of the wilderness.",
+      "web": "They traveled from Succoth, and encamped in Etham, which is in the edge of the wilderness.",
+      "ct": "They left Succoth and set up camp at Etham, on the edge of the wilderness."
+    },
+    {
+      "verse": 7,
+      "kjv": "And they removed from Etham, and turned again unto Pihahiroth, which is before Baalzephon: and they pitched before Migdol.",
+      "web": "They traveled from Etham, and turned back to Pihahiroth, which is before Baal Zephon, and they encamped before Migdol.",
+      "ct": "They left Etham and turned back toward Pihahiroth, which faces Baalzephon, and they set up camp near Migdol."
+    },
+    {
+      "verse": 8,
+      "kjv": "And they departed from before Pihahiroth, and passed through the midst of the sea into the wilderness, and went three days’ journey in the wilderness of Etham, and pitched in Marah.",
+      "web": "They traveled from before Hahiroth, and crossed through the middle of the sea into the wilderness. They went three days’ journey in the wilderness of Etham, and encamped in Marah.",
+      "ct": "They left Pihahiroth and crossed through the middle of the sea into the wilderness. After traveling 3 days through the wilderness of Etham, they set up camp at Marah."
+    },
+    {
+      "verse": 9,
+      "kjv": "And they removed from Marah, and came unto Elim: and in Elim were twelve fountains of water, and threescore and ten palm trees; and they pitched there.",
+      "web": "They traveled from Marah, and came to Elim. In Elim, there were twelve springs of water and seventy palm trees, and they encamped there.",
+      "ct": "They left Marah and arrived at Elim, where there were 12 springs of water and 70 palm trees, and they set up camp there."
+    },
+    {
+      "verse": 10,
+      "kjv": "And they removed from Elim, and encamped by the Red sea.",
+      "web": "They traveled from Elim, and encamped by the Red Sea.",
+      "ct": "They left Elim and set up camp by the Red Sea."
+    },
+    {
+      "verse": 11,
+      "kjv": "And they removed from the Red sea, and encamped in the wilderness of Sin.",
+      "web": "They traveled from the Red Sea, and encamped in the wilderness of Sin.",
+      "ct": "They left the Red Sea and set up camp in the wilderness of Sin."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they took their journey out of the wilderness of Sin, and encamped in Dophkah.",
+      "web": "They traveled from the wilderness of Sin, and encamped in Dophkah.",
+      "ct": "They left the wilderness of Sin and set up camp at Dophkah."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they departed from Dophkah, and encamped in Alush.",
+      "web": "They traveled from Dophkah, and encamped in Alush.",
+      "ct": "They left Dophkah and set up camp at Alush."
+    },
+    {
+      "verse": 14,
+      "kjv": "And they removed from Alush, and encamped at Rephidim, where was no water for the people to drink.",
+      "web": "They traveled from Alush, and encamped in Rephidim, where there was no water for the people to drink.",
+      "ct": "They left Alush and set up camp at Rephidim, where there was no water for the people to drink."
+    },
+    {
+      "verse": 15,
+      "kjv": "And they departed from Rephidim, and pitched in the wilderness of Sinai.",
+      "web": "They traveled from Rephidim, and encamped in the wilderness of Sinai.",
+      "ct": "They left Rephidim and set up camp in the wilderness of Sinai."
+    },
+    {
+      "verse": 16,
+      "kjv": "And they removed from the desert of Sinai, and pitched at Kibrothhattaavah.",
+      "web": "They traveled from the wilderness of Sinai, and encamped in Kibroth Hattaavah.",
+      "ct": "They left the wilderness of Sinai and set up camp at Kibrothhattaavah."
+    },
+    {
+      "verse": 17,
+      "kjv": "And they departed from Kibrothhattaavah, and encamped at Hazeroth.",
+      "web": "They traveled from Kibroth Hattaavah, and encamped in Hazeroth.",
+      "ct": "They left Kibrothhattaavah and set up camp at Hazeroth."
+    },
+    {
+      "verse": 18,
+      "kjv": "And they departed from Hazeroth, and pitched in Rithmah.",
+      "web": "They traveled from Hazeroth, and encamped in Rithmah.",
+      "ct": "They left Hazeroth and set up camp at Rithmah."
+    },
+    {
+      "verse": 19,
+      "kjv": "And they departed from Rithmah, and pitched at Rimmonparez.",
+      "web": "They traveled from Rithmah, and encamped in Rimmon Perez.",
+      "ct": "They left Rithmah and set up camp at Rimmonparez."
+    },
+    {
+      "verse": 20,
+      "kjv": "And they departed from Rimmonparez, and pitched in Libnah.",
+      "web": "They traveled from Rimmon Perez, and encamped in Libnah.",
+      "ct": "They left Rimmonparez and set up camp at Libnah."
+    },
+    {
+      "verse": 21,
+      "kjv": "And they removed from Libnah, and pitched at Rissah.",
+      "web": "They traveled from Libnah, and encamped in Rissah.",
+      "ct": "They left Libnah and set up camp at Rissah."
+    },
+    {
+      "verse": 22,
+      "kjv": "And they journeyed from Rissah, and pitched in Kehelathah.",
+      "web": "They traveled from Rissah, and encamped in Kehelathah.",
+      "ct": "They left Rissah and set up camp at Kehelathah."
+    },
+    {
+      "verse": 23,
+      "kjv": "And they went from Kehelathah, and pitched in mount Shapher.",
+      "web": "They traveled from Kehelathah, and encamped in Mount Shepher.",
+      "ct": "They left Kehelathah and set up camp at Mount Shapher."
+    },
+    {
+      "verse": 24,
+      "kjv": "And they removed from mount Shapher, and encamped in Haradah.",
+      "web": "They traveled from Mount Shepher, and encamped in Haradah.",
+      "ct": "They left Mount Shapher and set up camp at Haradah."
+    },
+    {
+      "verse": 25,
+      "kjv": "And they removed from Haradah, and pitched in Makheloth.",
+      "web": "They traveled from Haradah, and encamped in Makheloth.",
+      "ct": "They left Haradah and set up camp at Makheloth."
+    },
+    {
+      "verse": 26,
+      "kjv": "And they removed from Makheloth, and encamped at Tahath.",
+      "web": "They traveled from Makheloth, and encamped in Tahath.",
+      "ct": "They left Makheloth and set up camp at Tahath."
+    },
+    {
+      "verse": 27,
+      "kjv": "And they departed from Tahath, and pitched at Tarah.",
+      "web": "They traveled from Tahath, and encamped in Terah.",
+      "ct": "They left Tahath and set up camp at Tarah."
+    },
+    {
+      "verse": 28,
+      "kjv": "And they removed from Tarah, and pitched in Mithcah.",
+      "web": "They traveled from Terah, and encamped in Mithkah.",
+      "ct": "They left Tarah and set up camp at Mithcah."
+    },
+    {
+      "verse": 29,
+      "kjv": "And they went from Mithcah, and pitched in Hashmonah.",
+      "web": "They traveled from Mithkah, and encamped in Hashmonah.",
+      "ct": "They left Mithcah and set up camp at Hashmonah."
+    },
+    {
+      "verse": 30,
+      "kjv": "And they departed from Hashmonah, and encamped at Moseroth.",
+      "web": "They traveled from Hashmonah, and encamped in Moseroth.",
+      "ct": "They left Hashmonah and set up camp at Moseroth."
+    },
+    {
+      "verse": 31,
+      "kjv": "And they departed from Moseroth, and pitched in Benejaakan.",
+      "web": "They traveled from Moseroth, and encamped in Bene Jaakan.",
+      "ct": "They left Moseroth and set up camp at Benejaakan."
+    },
+    {
+      "verse": 32,
+      "kjv": "And they removed from Benejaakan, and encamped at Horhagidgad.",
+      "web": "They traveled from Bene Jaakan, and encamped in Hor Haggidgad.",
+      "ct": "They left Benejaakan and set up camp at Horhagidgad."
+    },
+    {
+      "verse": 33,
+      "kjv": "And they went from Horhagidgad, and pitched in Jotbathah.",
+      "web": "They traveled from Hor Haggidgad, and encamped in Jotbathah.",
+      "ct": "They left Horhagidgad and set up camp at Jotbathah."
+    },
+    {
+      "verse": 34,
+      "kjv": "And they removed from Jotbathah, and encamped at Ebronah.",
+      "web": "They traveled from Jotbathah, and encamped in Abronah.",
+      "ct": "They left Jotbathah and set up camp at Ebronah."
+    },
+    {
+      "verse": 35,
+      "kjv": "And they departed from Ebronah, and encamped at Eziongaber.",
+      "web": "They traveled from Abronah, and encamped in Ezion Geber.",
+      "ct": "They left Ebronah and set up camp at Eziongaber."
+    },
+    {
+      "verse": 36,
+      "kjv": "And they removed from Eziongaber, and pitched in the wilderness of Zin, which is Kadesh.",
+      "web": "They traveled from Ezion Geber, and encamped at Kadesh in the wilderness of Zin.",
+      "ct": "They left Eziongaber and set up camp at Kadesh, in the wilderness of Zin."
+    },
+    {
+      "verse": 37,
+      "kjv": "And they removed from Kadesh, and pitched in mount Hor, in the edge of the land of Edom.",
+      "web": "They traveled from Kadesh, and encamped in Mount Hor, in the edge of the land of Edom.",
+      "ct": "They left Kadesh and set up camp at Mount Hor, on the border of Edom."
+    },
+    {
+      "verse": 38,
+      "kjv": "And Aaron the priest went up into mount Hor at the commandment of the LORD, and died there, in the fortieth year after the children of Israel were come out of the land of Egypt, in the first day of the fifth month.",
+      "web": "Aaron the priest went up into Mount Hor at the commandment of LORD and died there, in the fortieth year after the children of Israel had come out of the land of Egypt, in the fifth month, on the first day of the month.",
+      "ct": "At the LORD's command, Aaron the priest climbed Mount Hor, and he died there on the 1st day of the 5th month, in the 40th year after the Israelites had left Egypt."
+    },
+    {
+      "verse": 39,
+      "kjv": "And Aaron was an hundred and twenty and three years old when he died in mount Hor.",
+      "web": "Aaron was one hundred twenty-three years old when he died in Mount Hor.",
+      "ct": "Aaron was 123 years old when he died on Mount Hor."
+    },
+    {
+      "verse": 40,
+      "kjv": "And king Arad the Canaanite, which dwelt in the south in the land of Canaan, heard of the coming of the children of Israel.",
+      "web": "The Canaanite king of Arad, who lived in the South in the land of Canaan, heard of the coming of the children of Israel.",
+      "ct": "The Canaanite king of Arad, who lived in the southern part of Canaan, heard that the Israelites were coming."
+    },
+    {
+      "verse": 41,
+      "kjv": "And they departed from mount Hor, and pitched in Zalmonah.",
+      "web": "They traveled from Mount Hor, and encamped in Zalmonah.",
+      "ct": "They left Mount Hor and set up camp at Zalmonah."
+    },
+    {
+      "verse": 42,
+      "kjv": "And they departed from Zalmonah, and pitched in Punon.",
+      "web": "They traveled from Zalmonah, and encamped in Punon.",
+      "ct": "They left Zalmonah and set up camp at Punon."
+    },
+    {
+      "verse": 43,
+      "kjv": "And they departed from Punon, and pitched in Oboth.",
+      "web": "They traveled from Punon, and encamped in Oboth.",
+      "ct": "They left Punon and set up camp at Oboth."
+    },
+    {
+      "verse": 44,
+      "kjv": "And they departed from Oboth, and pitched in Ijeabarim, in the border of Moab.",
+      "web": "They traveled from Oboth, and encamped in Iye Abarim, in the border of Moab.",
+      "ct": "They left Oboth and set up camp at Ijeabarim, on the border of Moab."
+    },
+    {
+      "verse": 45,
+      "kjv": "And they departed from Iim, and pitched in Dibongad.",
+      "web": "They traveled from Iyim, and encamped in Dibon Gad.",
+      "ct": "They left Iim and set up camp at Dibongad."
+    },
+    {
+      "verse": 46,
+      "kjv": "And they removed from Dibongad, and encamped in Almondiblathaim.",
+      "web": "They traveled from Dibon Gad, and encamped in Almon Diblathaim.",
+      "ct": "They left Dibongad and set up camp at Almondiblathaim."
+    },
+    {
+      "verse": 47,
+      "kjv": "And they removed from Almondiblathaim, and pitched in the mountains of Abarim, before Nebo.",
+      "web": "They traveled from Almon Diblathaim, and encamped in the mountains of Abarim, before Nebo.",
+      "ct": "They left Almondiblathaim and set up camp in the mountains of Abarim, across from Nebo."
+    },
+    {
+      "verse": 48,
+      "kjv": "And they departed from the mountains of Abarim, and pitched in the plains of Moab by Jordan near Jericho.",
+      "web": "They traveled from the mountains of Abarim, and encamped in the plains of Moab by the Jordan at Jericho.",
+      "ct": "They left the mountains of Abarim and set up camp on the plains of Moab, beside the Jordan River across from Jericho."
+    },
+    {
+      "verse": 49,
+      "kjv": "And they pitched by Jordan, from Bethjesimoth even unto Abelshittim in the plains of Moab.",
+      "web": "They encamped by the Jordan, from Beth Jeshimoth even to Abel Shittim in the plains of Moab.",
+      "ct": "Their camp along the Jordan stretched from Beth Jeshimoth all the way to Abel Shittim on the plains of Moab."
+    },
+    {
+      "verse": 50,
+      "kjv": "And the LORD spake unto Moses in the plains of Moab by Jordan near Jericho, saying,",
+      "web": "LORD spoke to Moses in the plains of Moab by the Jordan at Jericho, saying,",
+      "ct": "There on the plains of Moab beside the Jordan across from Jericho, the LORD spoke to Moses:"
+    },
+    {
+      "verse": 51,
+      "kjv": "Speak unto the children of Israel, and say unto them, When ye are passed over Jordan into the land of Canaan;",
+      "web": "Speak to the children of Israel, and tell them, “When you pass over the Jordan into the land of Canaan,",
+      "ct": "\"Tell the Israelites: When you cross the Jordan into the land of Canaan,"
+    },
+    {
+      "verse": 52,
+      "kjv": "Then ye shall drive out all the inhabitants of the land from before you, and destroy all their pictures, and destroy all their molten images, and quite pluck down all their high places:",
+      "web": "then you shall drive out all the inhabitants of the land from before you, destroy all their stone idols, destroy all their molten images, and demolish all their high places.",
+      "ct": "you must drive out everyone living in the land. Destroy all their carved stones, destroy all their metal idols, and tear down every one of their high places."
+    },
+    {
+      "verse": 53,
+      "kjv": "And ye shall dispossess the inhabitants of the land, and dwell therein: for I have given you the land to possess it.",
+      "web": "You shall take possession of the land, and dwell therein; for I have given the land to you to possess it.",
+      "ct": "Take possession of the land and settle in it, because I have given it to you as your own."
+    },
+    {
+      "verse": 54,
+      "kjv": "And ye shall divide the land by lot for an inheritance among your families: and to the more ye shall give the more inheritance, and to the fewer ye shall give the less inheritance: every man’s inheritance shall be in the place where his lot falleth; according to the tribes of your fathers ye shall inherit.",
+      "web": "You shall inherit the land by lot according to your families; to the more you shall give the more inheritance, and to the fewer you shall give the less inheritance. Wherever the lot falls to any man, that shall be his. You shall inherit according to the tribes of your fathers.",
+      "ct": "Divide the land by casting lots among your clans. Give a larger portion to larger clans and a smaller portion to smaller ones. Whatever land the lot assigns to each person will be theirs. Distribute it according to your ancestral tribes."
+    },
+    {
+      "verse": 55,
+      "kjv": "But if ye will not drive out the inhabitants of the land from before you; then it shall come to pass, that those which ye let remain of them shall be pricks in your eyes, and thorns in your sides, and shall vex you in the land wherein ye dwell.",
+      "web": "“But if you do not drive out the inhabitants of the land from before you, then those you let remain of them will be like pricks in your eyes and thorns in your sides. They will harass you in the land in which you dwell.",
+      "ct": "But if you don't drive out the people living in the land, whoever you allow to stay will become like pricks in your eyes and thorns in your sides. They will constantly harass you in the land where you live."
+    },
+    {
+      "verse": 56,
+      "kjv": "Moreover it shall come to pass, that I shall do unto you, as I thought to do unto them.",
+      "web": "It shall happen that as I thought to do to them, so I will do to you.”",
+      "ct": "And what I planned to do to them, I will do to you instead.\""
+    }
+  ]
+}

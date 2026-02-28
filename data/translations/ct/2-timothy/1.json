@@ -1,0 +1,119 @@
+{
+  "book": "2-timothy",
+  "book_name": "2 Timothy",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:05:57.319Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Paul, an apostle of Jesus Christ by the will of God, according to the promise of life which is in Christ Jesus,",
+      "web": "Paul, an apostle of Jesus Christ through the will of God, according to the promise of the life which is in Christ Jesus,",
+      "ct": "This letter is from Paul, an apostle of Jesus Christ by the will of God, sent to share the promise of life found in Christ Jesus."
+    },
+    {
+      "verse": 2,
+      "kjv": "To Timothy, my dearly beloved son: Grace, mercy, and peace, from God the Father and Christ Jesus our Lord.",
+      "web": "to Timothy, my beloved child: Grace, mercy, and peace, from God the Father and Christ Jesus our Lord.",
+      "ct": "To Timothy, my dearly loved son: May grace, mercy, and peace be yours from God the Father and Christ Jesus our Lord."
+    },
+    {
+      "verse": 3,
+      "kjv": "I thank God, whom I serve from my forefathers with pure conscience, that without ceasing I have remembrance of thee in my prayers night and day;",
+      "web": "I thank God, whom I serve as my forefathers did, with a pure conscience. How unceasing is my memory of you in my petitions, night and day",
+      "ct": "I thank God — the God I serve with a clear conscience, just as my ancestors did — because I never stop remembering you in my prayers, night and day."
+    },
+    {
+      "verse": 4,
+      "kjv": "Greatly desiring to see thee, being mindful of thy tears, that I may be filled with joy;",
+      "web": "longing to see you, remembering your tears, that I may be filled with joy;",
+      "ct": "I long to see you. I still remember your tears when we parted, and seeing you again would fill me with joy."
+    },
+    {
+      "verse": 5,
+      "kjv": "When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy grandmother Lois, and thy mother Eunice; and I am persuaded that in thee also.",
+      "web": "having been reminded of the sincere faith that is in you, which lived first in your grandmother Lois, and your mother Eunice, and, I am persuaded, in you also.",
+      "ct": "I'm reminded of the sincere faith that lives in you — a faith that first took root in your grandmother Lois and then in your mother Eunice. I'm convinced that same faith is alive in you too."
+    },
+    {
+      "verse": 6,
+      "kjv": "Wherefore I put thee in remembrance that thou stir up the gift of God, which is in thee by the putting on of my hands.",
+      "web": "For this cause, I remind you that you should stir up the gift of God which is in you through the laying on of my hands.",
+      "ct": "That's why I'm urging you to fan into flame the gift of God that was given to you when I laid my hands on you."
+    },
+    {
+      "verse": 7,
+      "kjv": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.",
+      "web": "For God didn’t give us a spirit of fear, but of power, love, and self-control.",
+      "ct": "Because God didn't give us a spirit of fear. He gave us a spirit of power, love, and a sound mind."
+    },
+    {
+      "verse": 8,
+      "kjv": "Be not thou therefore ashamed of the testimony of our Lord, nor of me his prisoner: but be thou partaker of the afflictions of the gospel according to the power of God;",
+      "web": "Therefore don’t be ashamed of the testimony of our Lord, nor of me his prisoner; but endure hardship for the Good News according to the power of God,",
+      "ct": "So don't be ashamed to speak up for our Lord, and don't be ashamed of me just because I'm his prisoner. Instead, be willing to suffer for the gospel, trusting in God's power to carry you through."
+    },
+    {
+      "verse": 9,
+      "kjv": "Who hath saved us, and called us with an holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before the world began,",
+      "web": "who saved us and called us with a holy calling, not according to our works, but according to his own purpose and grace, which was given to us in Christ Jesus before times eternal,",
+      "ct": "He is the one who saved us and called us to a holy calling — not because of anything we did, but because of his own purpose and grace, which he gave us in Christ Jesus before time even began."
+    },
+    {
+      "verse": 10,
+      "kjv": "But is now made manifest by the appearing of our Saviour Jesus Christ, who hath abolished death, and hath brought life and immortality to light through the gospel:",
+      "web": "but has now been revealed by the appearing of our Savior, Christ Jesus, who abolished death, and brought life and immortality to light through the Good News.",
+      "ct": "And now that grace has been revealed through the appearing of our Savior Jesus Christ, who destroyed the power of death and brought life and immortality into the light through the gospel."
+    },
+    {
+      "verse": 11,
+      "kjv": "Whereunto I am appointed a preacher, and an apostle, and a teacher of the Gentiles.",
+      "web": "For this I was appointed as a preacher, an apostle, and a teacher of the Gentiles.",
+      "ct": "This is the gospel I was appointed to preach, as an apostle and a teacher to the Gentiles."
+    },
+    {
+      "verse": 12,
+      "kjv": "For the which cause I also suffer these things: nevertheless I am not ashamed: for I know whom I have believed, and am persuaded that he is able to keep that which I have committed unto him against that day.",
+      "web": "For this cause I also suffer these things. Yet I am not ashamed, for I know him whom I have believed, and I am persuaded that he is able to guard that which I have committed to him against that day.",
+      "ct": "That's exactly why I'm suffering now. But I'm not ashamed, because I know the one I've put my trust in, and I'm absolutely convinced that he is able to guard everything I've entrusted to him until that final day."
+    },
+    {
+      "verse": 13,
+      "kjv": "Hold fast the form of sound words, which thou hast heard of me, in faith and love which is in Christ Jesus.",
+      "web": "Hold the pattern of sound words which you have heard from me, in faith and love which is in Christ Jesus.",
+      "ct": "Hold on to the pattern of trustworthy teaching you heard from me, and live it out with the faith and love that come from being in Christ Jesus."
+    },
+    {
+      "verse": 14,
+      "kjv": "That good thing which was committed unto thee keep by the Holy Ghost which dwelleth in us.",
+      "web": "That good thing which was committed to you, guard through the Holy Spirit who dwells in us.",
+      "ct": "Guard the precious truth that was entrusted to you, with the help of the Holy Spirit who lives in us."
+    },
+    {
+      "verse": 15,
+      "kjv": "This thou knowest, that all they which are in Asia be turned away from me; of whom are Phygellus and Hermogenes.",
+      "web": "This you know, that all who are in Asia turned away from me, of whom are Phygelus and Hermogenes.",
+      "ct": "You already know that everyone in the province of Asia has abandoned me, including Phygellus and Hermogenes."
+    },
+    {
+      "verse": 16,
+      "kjv": "The Lord give mercy unto the house of Onesiphorus; for he oft refreshed me, and was not ashamed of my chain:",
+      "web": "May the Lord grant mercy to the house of Onesiphorus, for he often refreshed me, and was not ashamed of my chain,",
+      "ct": "May the Lord show mercy to the household of Onesiphorus, because he refreshed my spirit many times and wasn't ashamed that I was in chains."
+    },
+    {
+      "verse": 17,
+      "kjv": "But, when he was in Rome, he sought me out very diligently, and found me.",
+      "web": "but when he was in Rome, he sought me diligently and found me",
+      "ct": "In fact, when he arrived in Rome, he searched hard for me until he found me."
+    },
+    {
+      "verse": 18,
+      "kjv": "The Lord grant unto him that he may find mercy of the Lord in that day: and in how many things he ministered unto me at Ephesus, thou knowest very well.",
+      "web": "(the Lord grant to him to find the Lord’s mercy in that day); and in how many things he served at Ephesus, you know very well.",
+      "ct": "May the Lord grant him mercy on that final day. And you know better than anyone how much he served and helped me back in Ephesus."
+    }
+  ]
+}

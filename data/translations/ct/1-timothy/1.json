@@ -1,0 +1,131 @@
+{
+  "book": "1-timothy",
+  "book_name": "1 Timothy",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:04:24.441Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Paul, an apostle of Jesus Christ by the commandment of God our Saviour, and Lord Jesus Christ, which is our hope;",
+      "web": "Paul, an apostle of Jesus Christ according to the commandment of God our Savior and the Lord Jesus Christ our hope;",
+      "ct": "From Paul, an apostle of Christ Jesus — appointed by the command of God our Savior and the Lord Jesus Christ, who is our hope."
+    },
+    {
+      "verse": 2,
+      "kjv": "Unto Timothy, my own son in the faith: Grace, mercy, and peace, from God our Father and Jesus Christ our Lord.",
+      "web": "to Timothy, my true child in faith: Grace, mercy, and peace, from God our Father and Christ Jesus our Lord.",
+      "ct": "To Timothy, my true son in the faith: May grace, mercy, and peace be yours from God our Father and Christ Jesus our Lord."
+    },
+    {
+      "verse": 3,
+      "kjv": "As I besought thee to abide still at Ephesus, when I went into Macedonia, that thou mightest charge some that they teach no other doctrine,",
+      "web": "As I urged you when I was going into Macedonia, stay at Ephesus that you might command certain men not to teach a different doctrine,",
+      "ct": "When I left for Macedonia, I urged you to stay in Ephesus so you could confront certain people and order them to stop teaching false doctrines."
+    },
+    {
+      "verse": 4,
+      "kjv": "Neither give heed to fables and endless genealogies, which minister questions, rather than godly edifying which is in faith: so do.",
+      "web": "and not to pay attention to myths and endless genealogies, which cause disputes, rather than God’s stewardship, which is in faith—",
+      "ct": "Tell them to stop wasting time on myths and endless genealogies. Those things only stir up arguments instead of advancing God's work, which is built on faith."
+    },
+    {
+      "verse": 5,
+      "kjv": "Now the end of the commandment is charity out of a pure heart, and of a good conscience, and of faith unfeigned:",
+      "web": "but the goal of this command is love, out of a pure heart and a good conscience and sincere faith,",
+      "ct": "The whole point of this command is love — love that flows from a pure heart, a clear conscience, and sincere faith."
+    },
+    {
+      "verse": 6,
+      "kjv": "From which some having swerved have turned aside unto vain jangling;",
+      "web": "from which things some, having missed the mark, have turned away to vain talking,",
+      "ct": "Some people have wandered away from these things and drifted into pointless debates."
+    },
+    {
+      "verse": 7,
+      "kjv": "Desiring to be teachers of the law; understanding neither what they say, nor whereof they affirm.",
+      "web": "desiring to be teachers of the law, though they understand neither what they say, nor about what they strongly affirm.",
+      "ct": "They want to be recognized as experts in the law, but they don't even understand the words coming out of their own mouths or the claims they make so confidently."
+    },
+    {
+      "verse": 8,
+      "kjv": "But we know that the law is good, if a man use it lawfully;",
+      "web": "But we know that the law is good, if a person uses it lawfully,",
+      "ct": "We know the law is good — as long as someone uses it the way it was intended."
+    },
+    {
+      "verse": 9,
+      "kjv": "Knowing this, that the law is not made for a righteous man, but for the lawless and disobedient, for the ungodly and for sinners, for unholy and profane, for murderers of fathers and murderers of mothers, for manslayers,",
+      "web": "as knowing this, that law is not made for a righteous person, but for the lawless and insubordinate, for the ungodly and sinners, for the unholy and profane, for murderers of fathers and murderers of mothers, for manslayers,",
+      "ct": "We also know this: the law wasn't designed for people who already do what's right. It was made for the lawless and rebellious, for the ungodly and sinful, for those with no regard for what is holy, for people who murder their own fathers or mothers, and for anyone who takes a human life."
+    },
+    {
+      "verse": 10,
+      "kjv": "For whoremongers, for them that defile themselves with mankind, for menstealers, for liars, for perjured persons, and if there be any other thing that is contrary to sound doctrine;",
+      "web": "for the sexually immoral, for homosexuals, for slave-traders, for liars, for perjurers, and for any other thing contrary to the sound doctrine,",
+      "ct": "It was made for the sexually immoral, for those who practice homosexuality, for slave traders, for liars, for those who swear false oaths — and for anyone else whose behavior goes against sound doctrine."
+    },
+    {
+      "verse": 11,
+      "kjv": "According to the glorious gospel of the blessed God, which was committed to my trust.",
+      "web": "according to the Good News of the glory of the blessed God, which was committed to my trust.",
+      "ct": "This is all in line with the glorious gospel of the blessed God, the gospel he entrusted to me."
+    },
+    {
+      "verse": 12,
+      "kjv": "And I thank Christ Jesus our Lord, who hath enabled me, for that he counted me faithful, putting me into the ministry;",
+      "web": "I thank him who enabled me, Christ Jesus our Lord, because he counted me faithful, appointing me to service;",
+      "ct": "I'm grateful to Christ Jesus our Lord, who gave me the strength for this work. He considered me trustworthy and appointed me to serve him,"
+    },
+    {
+      "verse": 13,
+      "kjv": "Who was before a blasphemer, and a persecutor, and injurious: but I obtained mercy, because I did it ignorantly in unbelief.",
+      "web": "although I used to be a blasphemer, a persecutor, and insolent. However, I obtained mercy, because I did it ignorantly in unbelief.",
+      "ct": "even though I used to be a blasphemer, a persecutor, and a violent man. But God showed me mercy because I acted out of ignorance and unbelief."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the grace of our Lord was exceeding abundant with faith and love which is in Christ Jesus.",
+      "web": "The grace of our Lord abounded exceedingly with faith and love which is in Christ Jesus.",
+      "ct": "The grace of our Lord poured over me in an overwhelming flood, bringing with it the faith and love that come through Christ Jesus."
+    },
+    {
+      "verse": 15,
+      "kjv": "This is a faithful saying, and worthy of all acceptation, that Christ Jesus came into the world to save sinners; of whom I am chief.",
+      "web": "The saying is faithful and worthy of all acceptance, that Christ Jesus came into the world to save sinners, of whom I am chief.",
+      "ct": "Here is a statement you can trust completely: Christ Jesus came into the world to save sinners — and I am the worst of them all."
+    },
+    {
+      "verse": 16,
+      "kjv": "Howbeit for this cause I obtained mercy, that in me first Jesus Christ might shew forth all longsuffering, for a pattern to them which should hereafter believe on him to life everlasting.",
+      "web": "However, for this cause I obtained mercy, that in me first, Jesus Christ might display all his patience for an example of those who were going to believe in him for eternal life.",
+      "ct": "But that's exactly why God showed me mercy. Jesus Christ used me — the worst sinner — as a demonstration of his unlimited patience, making me an example for everyone who would later put their faith in him and receive eternal life."
+    },
+    {
+      "verse": 17,
+      "kjv": "Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen.",
+      "web": "Now to the King eternal, immortal, invisible, to God who alone is wise, be honor and glory forever and ever. Amen.",
+      "ct": "Now to the King who is eternal, immortal, and invisible — the only wise God — be honor and glory forever and ever. Amen."
+    },
+    {
+      "verse": 18,
+      "kjv": "This charge I commit unto thee, son Timothy, according to the prophecies which went before on thee, that thou by them mightest war a good warfare;",
+      "web": "I commit this instruction to you, my child Timothy, according to the prophecies which were given to you before, that by them you may wage the good warfare,",
+      "ct": "Timothy, my child, I'm giving you this charge based on the prophecies that were spoken over you earlier. Let those words fuel you as you fight the good fight,"
+    },
+    {
+      "verse": 19,
+      "kjv": "Holding faith, and a good conscience; which some having put away concerning faith have made shipwreck:",
+      "web": "holding faith and a good conscience, which some having thrust away made a shipwreck concerning the faith,",
+      "ct": "holding on to your faith and keeping a clear conscience. Some people threw their conscience aside, and their faith crashed like a ship on the rocks."
+    },
+    {
+      "verse": 20,
+      "kjv": "Of whom is Hymenaeus and Alexander; whom I have delivered unto Satan, that they may learn not to blaspheme.",
+      "web": "of whom are Hymenaeus and Alexander, whom I delivered to Satan, that they might be taught not to blaspheme.",
+      "ct": "Hymenaeus and Alexander are among them. I handed them over to Satan so they would learn not to blaspheme."
+    }
+  ]
+}

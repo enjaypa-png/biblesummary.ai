@@ -1,0 +1,161 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 23,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:12:59.270Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "He that is wounded in the stones, or hath his privy member cut off, shall not enter into the congregation of the LORD.",
+      "web": "He who is emasculated by crushing or cutting shall not enter into LORD’s assembly.",
+      "ct": "No man whose testicles have been crushed or whose male organ has been cut off may enter the assembly of the LORD."
+    },
+    {
+      "verse": 2,
+      "kjv": "A bastard shall not enter into the congregation of the LORD; even to his tenth generation shall he not enter into the congregation of the LORD.",
+      "web": "A person born of a forbidden union shall not enter into LORD’s assembly; even to the tenth generation shall no one of his enter into LORD’s assembly.",
+      "ct": "No one born from a forbidden union may enter the assembly of the LORD. Even after 10 generations, none of his descendants may enter the assembly of the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "An Ammonite or Moabite shall not enter into the congregation of the LORD; even to their tenth generation shall they not enter into the congregation of the LORD for ever:",
+      "web": "An Ammonite or a Moabite shall not enter into LORD’s assembly; even to the tenth generation shall no one belonging to them enter into LORD’s assembly forever,",
+      "ct": "No Ammonite or Moabite may enter the assembly of the LORD. Even after 10 generations, none of their descendants may ever enter the assembly of the LORD."
+    },
+    {
+      "verse": 4,
+      "kjv": "Because they met you not with bread and with water in the way, when ye came forth out of Egypt; and because they hired against thee Balaam the son of Beor of Pethor of Mesopotamia, to curse thee.",
+      "web": "because they didn’t meet you with bread and with water on the way when you came out of Egypt, and because they hired against you Balaam the son of Beor from Pethor of Mesopotamia, to curse you.",
+      "ct": "This is because they didn't bring you bread and water when you were on the road coming out of Egypt, and because they hired Balaam son of Beor from Pethor in Mesopotamia to curse you."
+    },
+    {
+      "verse": 5,
+      "kjv": "Nevertheless the LORD thy God would not hearken unto Balaam; but the LORD thy God turned the curse into a blessing unto thee, because the LORD thy God loved thee.",
+      "web": "Nevertheless LORD your God wouldn’t listen to Balaam, but LORD your God turned the curse into a blessing to you, because LORD your God loved you.",
+      "ct": "But the LORD your God refused to listen to Balaam. Instead, the LORD your God turned the curse into a blessing for you, because the LORD your God loves you."
+    },
+    {
+      "verse": 6,
+      "kjv": "Thou shalt not seek their peace nor their prosperity all thy days for ever.",
+      "web": "You shall not seek their peace nor their prosperity all your days forever.",
+      "ct": "Never seek peace or good relations with them for as long as you live."
+    },
+    {
+      "verse": 7,
+      "kjv": "Thou shalt not abhor an Edomite; for he is thy brother: thou shalt not abhor an Egyptian; because thou wast a stranger in his land.",
+      "web": "You shall not abhor an Edomite, for he is your brother. You shall not abhor an Egyptian, because you lived as a foreigner in his land.",
+      "ct": "Don't despise an Edomite, because he is your brother. Don't despise an Egyptian, because you once lived as foreigners in his land."
+    },
+    {
+      "verse": 8,
+      "kjv": "The children that are begotten of them shall enter into the congregation of the LORD in their third generation.",
+      "web": "The children of the third generation who are born to them may enter into LORD’s assembly.",
+      "ct": "The grandchildren of Edomites and Egyptians — the 3rd generation born among you — may enter the assembly of the LORD."
+    },
+    {
+      "verse": 9,
+      "kjv": "When the host goeth forth against thine enemies, then keep thee from every wicked thing.",
+      "web": "When you go out and camp against your enemies, then you shall keep yourselves from every evil thing.",
+      "ct": "When your army marches out to fight your enemies, stay away from everything impure."
+    },
+    {
+      "verse": 10,
+      "kjv": "If there be among you any man, that is not clean by reason of uncleanness that chanceth him by night, then shall he go abroad out of the camp, he shall not come within the camp:",
+      "web": "If there is among you any man who is not clean by reason of that which happens to him by night, then shall he go outside of the camp. He shall not come within the camp;",
+      "ct": "If any man in the camp becomes unclean because of something that happens to him during the night, he must leave the camp and stay outside."
+    },
+    {
+      "verse": 11,
+      "kjv": "But it shall be, when evening cometh on, he shall wash himself with water: and when the sun is down, he shall come into the camp again.",
+      "web": "but it shall be, when evening comes, he shall bathe himself in water. When the sun is down, he shall come within the camp.",
+      "ct": "When evening comes, he must wash himself with water. Then after the sun goes down, he may return to the camp."
+    },
+    {
+      "verse": 12,
+      "kjv": "Thou shalt have a place also without the camp, whither thou shalt go forth abroad:",
+      "web": "You shall have a place also outside of the camp where you go relieve yourself.",
+      "ct": "Set aside a designated area outside the camp where you can go to relieve yourselves."
+    },
+    {
+      "verse": 13,
+      "kjv": "And thou shalt have a paddle upon thy weapon; and it shall be, when thou wilt ease thyself abroad, thou shalt dig therewith, and shalt turn back and cover that which cometh from thee:",
+      "web": "You shall have a trowel among your weapons. It shall be, when you relieve yourself, you shall dig with it, and shall turn back and cover your excrement;",
+      "ct": "Keep a small shovel with your equipment. When you relieve yourself outside the camp, dig a hole with it, and then cover up your waste before you leave."
+    },
+    {
+      "verse": 14,
+      "kjv": "For the LORD thy God walketh in the midst of thy camp, to deliver thee, and to give up thine enemies before thee; therefore shall thy camp be holy: that he see no unclean thing in thee, and turn away from thee.",
+      "web": "for LORD your God walks in the middle of your camp, to deliver you, and to give up your enemies before you. Therefore your camp shall be holy, that he may not see an unclean thing in you, and turn away from you.",
+      "ct": "The LORD your God moves through the middle of your camp to protect you and hand your enemies over to you. So your camp must be kept holy. If he sees anything unclean among you, he will turn away from you."
+    },
+    {
+      "verse": 15,
+      "kjv": "Thou shalt not deliver unto his master the servant which is escaped from his master unto thee:",
+      "web": "You shall not deliver to his master a servant who has escaped from his master to you.",
+      "ct": "If a slave escapes from his master and comes to you for refuge, don't hand him back."
+    },
+    {
+      "verse": 16,
+      "kjv": "He shall dwell with thee, even among you, in that place which he shall choose in one of thy gates, where it liketh him best: thou shalt not oppress him.",
+      "web": "He shall dwell with you, among you, in the place which he shall choose within one of your gates, where it pleases him best. You shall not oppress him.",
+      "ct": "Let him live among you in whatever town he chooses, wherever he likes best. Don't mistreat him."
+    },
+    {
+      "verse": 17,
+      "kjv": "There shall be no whore of the daughters of Israel, nor a sodomite of the sons of Israel.",
+      "web": "There shall be no prostitute of the daughters of Israel, neither shall there be a sodomite of the sons of Israel.",
+      "ct": "No Israelite woman or man shall serve as a cult prostitute."
+    },
+    {
+      "verse": 18,
+      "kjv": "Thou shalt not bring the hire of a whore, or the price of a dog, into the house of the LORD thy God for any vow: for even both these are abomination unto the LORD thy God.",
+      "web": "You shall not bring the hire of a prostitute, or the wages of a male prostitute, into the house of LORD your God for any vow; for both of these are an abomination to LORD your God.",
+      "ct": "Never bring the earnings of a female prostitute or a male prostitute into the house of the LORD your God to fulfill any vow. Both are an abomination to the LORD your God."
+    },
+    {
+      "verse": 19,
+      "kjv": "Thou shalt not lend upon usury to thy brother; usury of money, usury of victuals, usury of any thing that is lent upon usury:",
+      "web": "You shall not lend on interest to your brother: interest of money, interest of food, interest of anything that is lent on interest.",
+      "ct": "Don't charge interest when you lend to a fellow Israelite — not on money, not on food, not on anything at all."
+    },
+    {
+      "verse": 20,
+      "kjv": "Unto a stranger thou mayest lend upon usury; but unto thy brother thou shalt not lend upon usury: that the LORD thy God may bless thee in all that thou settest thine hand to in the land whither thou goest to possess it.",
+      "web": "You may charge a foreigner interest; but you shall not your brother interest, that LORD your God may bless you in all that you put your hand to, in the land where you go in to possess it.",
+      "ct": "You may charge interest to a foreigner, but not to a fellow Israelite. Follow this so that the LORD your God will bless everything you do in the land you are about to enter and possess."
+    },
+    {
+      "verse": 21,
+      "kjv": "When thou shalt vow a vow unto the LORD thy God, thou shalt not slack to pay it: for the LORD thy God will surely require it of thee; and it would be sin in thee.",
+      "web": "When you vow a vow to LORD your God, you shall not be slack to pay it, for LORD your God will surely require it of you; and it would be sin in you.",
+      "ct": "When you make a vow to the LORD your God, don't put off fulfilling it. The LORD your God will hold you to it, and failing to keep it would be sin."
+    },
+    {
+      "verse": 22,
+      "kjv": "But if thou shalt forbear to vow, it shall be no sin in thee.",
+      "web": "But if you refrain from making a vow, it shall be no sin in you.",
+      "ct": "If you choose not to make a vow at all, that's perfectly fine — there's no sin in that."
+    },
+    {
+      "verse": 23,
+      "kjv": "That which is gone out of thy lips thou shalt keep and perform; even a freewill offering, according as thou hast vowed unto the LORD thy God, which thou hast promised with thy mouth.",
+      "web": "You shall observe and do that which has gone out of your lips. Whatever you have vowed to LORD your God as a free will offering, which you have promised with your mouth, you must do.",
+      "ct": "But whatever promise leaves your lips, you must follow through on it. If you've made a voluntary vow to the LORD your God — something you promised with your own mouth — you must do it."
+    },
+    {
+      "verse": 24,
+      "kjv": "When thou comest into thy neighbour’s vineyard, then thou mayest eat grapes thy fill at thine own pleasure; but thou shalt not put any in thy vessel.",
+      "web": "When you come into your neighbor’s vineyard, then you may eat your fill of grapes at your own pleasure; but you shall not put any in your container.",
+      "ct": "When you walk through your neighbor's vineyard, you're free to eat as many grapes as you want while you're there. But don't take any away in a container."
+    },
+    {
+      "verse": 25,
+      "kjv": "When thou comest into the standing corn of thy neighbour, then thou mayest pluck the ears with thine hand; but thou shalt not move a sickle unto thy neighbour’s standing corn.",
+      "web": "When you come into your neighbor’s standing grain, then you may pluck the ears with your hand; but you shall not use a sickle on your neighbor’s standing grain.",
+      "ct": "When you walk through your neighbor's grain field, you may pick heads of grain by hand. But don't take a sickle to your neighbor's standing grain."
+    }
+  ]
+}

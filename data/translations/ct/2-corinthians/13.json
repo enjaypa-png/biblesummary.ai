@@ -1,0 +1,95 @@
+{
+  "book": "2-corinthians",
+  "book_name": "2 Corinthians",
+  "chapter": 13,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:55:13.832Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "This is the third time I am coming to you. In the mouth of two or three witnesses shall every word be established.",
+      "web": "This is the third time I am coming to you. “At the mouth of two or three witnesses shall every word be established.”",
+      "ct": "This is the 3rd time I'm coming to visit you. As Scripture says, \"Every matter must be confirmed by the testimony of 2 or 3 witnesses.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "I told you before, and foretell you, as if I were present, the second time; and being absent now I write to them which heretofore have sinned, and to all other, that, if I come again, I will not spare:",
+      "web": "I have said beforehand, and I do say beforehand, as when I was present the second time, so now, being absent, I write to those who have sinned before now, and to all the rest, that, if I come again, I will not spare;",
+      "ct": "I already warned you during my 2nd visit, and now I'm warning you again while I'm away: when I come back, I won't go easy on those who sinned before or on anyone else who is sinning."
+    },
+    {
+      "verse": 3,
+      "kjv": "Since ye seek a proof of Christ speaking in me, which to you-ward is not weak, but is mighty in you.",
+      "web": "seeing that you seek a proof of Christ who speaks in me; who toward you is not weak, but is powerful in you.",
+      "ct": "You keep demanding proof that Christ is speaking through me. Well, Christ isn't weak when he deals with you — he is powerful among you."
+    },
+    {
+      "verse": 4,
+      "kjv": "For though he was crucified through weakness, yet he liveth by the power of God. For we also are weak in him, but we shall live with him by the power of God toward you.",
+      "web": "For he was crucified through weakness, yet he lives through the power of God. For we also are weak in him, but we will live with him through the power of God toward you.",
+      "ct": "Yes, he was crucified in weakness, but he lives by the power of God. In the same way, we share in his weakness, but by God's power we will live with him as we deal with you."
+    },
+    {
+      "verse": 5,
+      "kjv": "Examine yourselves, whether ye be in the faith; prove your own selves. Know ye not your own selves, how that Jesus Christ is in you, except ye be reprobates?",
+      "web": "Examine your own selves, whether you are in the faith. Test your own selves. Or don’t you know about your own selves, that Jesus Christ is in you?—unless indeed you are disqualified.",
+      "ct": "Take a hard look at yourselves and test whether you're really living in the faith. Examine your own lives. Don't you realize that Jesus Christ is in you? — unless, of course, you fail the test."
+    },
+    {
+      "verse": 6,
+      "kjv": "But I trust that ye shall know that we are not reprobates.",
+      "web": "But I hope that you will know that we aren’t disqualified.",
+      "ct": "I'm confident that when you examine us, you'll see that we haven't failed it."
+    },
+    {
+      "verse": 7,
+      "kjv": "Now I pray to God that ye do no evil; not that we should appear approved, but that ye should do that which is honest, though we be as reprobates.",
+      "web": "Now I pray to God that you do no evil; not that we may appear approved, but that you may do that which is honorable, though we are as reprobate.",
+      "ct": "I pray to God that you won't do anything wrong — not so we can look good, but so that you'll do what is right, even if it makes us look like we've failed."
+    },
+    {
+      "verse": 8,
+      "kjv": "For we can do nothing against the truth, but for the truth.",
+      "web": "For we can do nothing against the truth, but for the truth.",
+      "ct": "We can't do anything against the truth — only for it."
+    },
+    {
+      "verse": 9,
+      "kjv": "For we are glad, when we are weak, and ye are strong: and this also we wish, even your perfection.",
+      "web": "For we rejoice when we are weak and you are strong. We also pray for this: your becoming perfect.",
+      "ct": "We're actually glad when we are weak and you are strong. What we pray for above all is your growth to maturity."
+    },
+    {
+      "verse": 10,
+      "kjv": "Therefore I write these things being absent, lest being present I should use sharpness, according to the power which the Lord hath given me to edification, and not to destruction.",
+      "web": "For this cause I write these things while absent, that I may not deal sharply when present, according to the authority which the Lord gave me for building up, and not for tearing down.",
+      "ct": "That's why I'm writing all this while I'm still away — so that when I arrive, I won't have to be harsh with you. The Lord gave me authority to build you up, not to tear you down."
+    },
+    {
+      "verse": 11,
+      "kjv": "Finally, brethren, farewell. Be perfect, be of good comfort, be of one mind, live in peace; and the God of love and peace shall be with you.",
+      "web": "Finally, brothers, rejoice! Be perfected. Be comforted. Be of the same mind. Live in peace, and the God of love and peace will be with you.",
+      "ct": "Finally, brothers and sisters, goodbye. Aim for maturity. Take comfort in each other. Be united in heart and mind. Live in peace. And the God of love and peace will be with you."
+    },
+    {
+      "verse": 12,
+      "kjv": "Greet one another with an holy kiss.",
+      "web": "Greet one another with a holy kiss.",
+      "ct": "Greet one another with a holy kiss."
+    },
+    {
+      "verse": 13,
+      "kjv": "All the saints salute you.",
+      "web": "All the saints greet you.",
+      "ct": "All of God's people here send you their greetings."
+    },
+    {
+      "verse": 14,
+      "kjv": "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all. Amen.",
+      "web": "The grace of the Lord Jesus Christ, God’s love, and the fellowship of the Holy Spirit be with you all. Amen.",
+      "ct": "May the grace of the Lord Jesus Christ, the love of God, and the fellowship of the Holy Spirit be with every one of you. Amen."
+    }
+  ]
+}

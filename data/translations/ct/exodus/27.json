@@ -1,0 +1,137 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 27,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:33:27.273Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And thou shalt make an altar of shittim wood, five cubits long, and five cubits broad; the altar shall be foursquare: and the height thereof shall be three cubits.",
+      "web": "“You shall make the altar of acacia wood, five cubits long, and five cubits wide. The altar shall be square. Its height shall be three cubits.",
+      "ct": "\"Build an altar out of acacia wood. It must be square — 5 cubits long and 5 cubits wide — and stand 3 cubits tall."
+    },
+    {
+      "verse": 2,
+      "kjv": "And thou shalt make the horns of it upon the four corners thereof: his horns shall be of the same: and thou shalt overlay it with brass.",
+      "web": "You shall make its horns on its four corners. Its horns shall be of one piece with it. You shall overlay it with bronze.",
+      "ct": "Make a horn at each of its 4 corners, formed as one piece with the altar itself. Then overlay the whole thing with bronze."
+    },
+    {
+      "verse": 3,
+      "kjv": "And thou shalt make his pans to receive his ashes, and his shovels, and his basons, and his fleshhooks, and his firepans: all the vessels thereof thou shalt make of brass.",
+      "web": "You shall make its pots to take away its ashes; and its shovels, its basins, its meat hooks, and its fire pans. You shall make all its vessels of bronze.",
+      "ct": "Make all of its equipment out of bronze: pots for collecting the ashes, shovels, basins, meat hooks, and fire pans."
+    },
+    {
+      "verse": 4,
+      "kjv": "And thou shalt make for it a grate of network of brass; and upon the net shalt thou make four brasen rings in the four corners thereof.",
+      "web": "You shall make a grating for it of network of bronze. On the net you shall make four bronze rings in its four corners.",
+      "ct": "Make a bronze grating of mesh work for it, and attach a bronze ring to each of its 4 corners."
+    },
+    {
+      "verse": 5,
+      "kjv": "And thou shalt put it under the compass of the altar beneath, that the net may be even to the midst of the altar.",
+      "web": "You shall put it under the ledge around the altar beneath, that the net may reach halfway up the altar.",
+      "ct": "Place this grating beneath the altar's ledge so that it reaches halfway up the altar."
+    },
+    {
+      "verse": 6,
+      "kjv": "And thou shalt make staves for the altar, staves of shittim wood, and overlay them with brass.",
+      "web": "You shall make poles for the altar, poles of acacia wood, and overlay them with bronze.",
+      "ct": "Make carrying poles for the altar out of acacia wood and overlay them with bronze."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the staves shall be put into the rings, and the staves shall be upon the two sides of the altar, to bear it.",
+      "web": "Its poles shall be put into the rings, and the poles shall be on the two sides of the altar when carrying it.",
+      "ct": "Slide the poles through the rings on both sides of the altar so it can be carried."
+    },
+    {
+      "verse": 8,
+      "kjv": "Hollow with boards shalt thou make it: as it was shewed thee in the mount, so shall they make it.",
+      "web": "You shall make it hollow with planks. They shall make it as it has been shown you on the mountain.",
+      "ct": "Build the altar hollow, using planks. Make it exactly as I showed you on the mountain.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And thou shalt make the court of the tabernacle: for the south side southward there shall be hangings for the court of fine twined linen of an hundred cubits long for one side:",
+      "web": "“You shall make the court of the tabernacle: for the south side southward there shall be hangings for the court of fine twined linen one hundred cubits long for one side.",
+      "ct": "\"Next, build a courtyard around the tabernacle. The south side must have curtains of finely woven linen stretching 100 cubits long."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the twenty pillars thereof and their twenty sockets shall be of brass; the hooks of the pillars and their fillets shall be of silver.",
+      "web": "Its pillars shall be twenty, and their sockets twenty, of bronze. The hooks of the pillars and their fillets shall be of silver.",
+      "ct": "These curtains will hang from 20 pillars set in 20 bronze bases. The hooks and connecting rods on the pillars must be silver."
+    },
+    {
+      "verse": 11,
+      "kjv": "And likewise for the north side in length there shall be hangings of an hundred cubits long, and his twenty pillars and their twenty sockets of brass; the hooks of the pillars and their fillets of silver.",
+      "web": "Likewise for the length of the north side, there shall be hangings one hundred cubits long, and its pillars twenty, and their sockets twenty, of bronze; the hooks of the pillars, and their fillets, of silver.",
+      "ct": "The north side will be the same: curtains 100 cubits long, hung from 20 pillars set in 20 bronze bases, with silver hooks and connecting rods."
+    },
+    {
+      "verse": 12,
+      "kjv": "And for the breadth of the court on the west side shall be hangings of fifty cubits: their pillars ten, and their sockets ten.",
+      "web": "For the width of the court on the west side shall be hangings of fifty cubits; their pillars ten, and their sockets ten.",
+      "ct": "The west side of the courtyard will have curtains 50 cubits wide, hung from 10 pillars set in 10 bases."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the breadth of the court on the east side eastward shall be fifty cubits.",
+      "web": "The width of the court on the east side eastward shall be fifty cubits.",
+      "ct": "The east side — the front of the courtyard — will also be 50 cubits wide."
+    },
+    {
+      "verse": 14,
+      "kjv": "The hangings of one side of the gate shall be fifteen cubits: their pillars three, and their sockets three.",
+      "web": "The hangings for the one side of the gate shall be fifteen cubits; their pillars three, and their sockets three.",
+      "ct": "On one side of the entrance, hang 15 cubits of curtains from 3 pillars set in 3 bases."
+    },
+    {
+      "verse": 15,
+      "kjv": "And on the other side shall be hangings fifteen cubits: their pillars three, and their sockets three.",
+      "web": "For the other side shall be hangings of fifteen cubits; their pillars three, and their sockets three.",
+      "ct": "On the other side of the entrance, hang another 15 cubits of curtains from 3 pillars set in 3 bases."
+    },
+    {
+      "verse": 16,
+      "kjv": "And for the gate of the court shall be an hanging of twenty cubits, of blue, and purple, and scarlet, and fine twined linen, wrought with needlework: and their pillars shall be four, and their sockets four.",
+      "web": "For the gate of the court shall be a screen of twenty cubits, of blue, and purple, and scarlet, and fine twined linen, the work of the embroiderer; their pillars four, and their sockets four.",
+      "ct": "For the entrance gate itself, make a screen 20 cubits wide out of blue, purple, and scarlet yarn and finely woven linen, decorated with embroidery. It will hang from 4 pillars set in 4 bases."
+    },
+    {
+      "verse": 17,
+      "kjv": "All the pillars round about the court shall be filleted with silver; their hooks shall be of silver, and their sockets of brass.",
+      "web": "All the pillars of the court around shall be filleted with silver; their hooks of silver, and their sockets of bronze.",
+      "ct": "Every pillar around the courtyard must have silver connecting rods and silver hooks, all set in bronze bases."
+    },
+    {
+      "verse": 18,
+      "kjv": "The length of the court shall be an hundred cubits, and the breadth fifty every where, and the height five cubits of fine twined linen, and their sockets of brass.",
+      "web": "The length of the court shall be one hundred cubits, and the width fifty throughout, and the height five cubits, of fine twined linen, and their sockets of bronze.",
+      "ct": "The entire courtyard will be 100 cubits long, 50 cubits wide, and 5 cubits tall, enclosed with curtains of finely woven linen hung from bronze bases."
+    },
+    {
+      "verse": 19,
+      "kjv": "All the vessels of the tabernacle in all the service thereof, and all the pins thereof, and all the pins of the court, shall be of brass.",
+      "web": "All the instruments of the tabernacle in all its service, and all its pins, and all the pins of the court, shall be of bronze.",
+      "ct": "Every tool used for service in the tabernacle, along with all the tent pegs for both the tabernacle and the courtyard, must be made of bronze."
+    },
+    {
+      "verse": 20,
+      "kjv": "And thou shalt command the children of Israel, that they bring thee pure oil olive beaten for the light, to cause the lamp to burn always.",
+      "web": "“You shall command the children of Israel, that they bring to you pure olive oil beaten for the light, to cause a lamp to burn continually.",
+      "ct": "\"Command the people of Israel to bring you pure, pressed olive oil so the lamp can burn continuously."
+    },
+    {
+      "verse": 21,
+      "kjv": "In the tabernacle of the congregation without the vail, which is before the testimony, Aaron and his sons shall order it from evening to morning before the LORD: it shall be a statute for ever unto their generations on the behalf of the children of Israel.",
+      "web": "In the Tent of Meeting, outside the veil which is before the covenant, Aaron and his sons shall keep it in order from evening to morning before LORD: it shall be a statute forever throughout their generations on the behalf of the children of Israel.",
+      "ct": "Aaron and his sons must tend this lamp from evening until morning in the LORD's presence, inside the Tent of Meeting, just outside the curtain that hangs in front of the ark of the covenant. This is a permanent requirement for every generation of the people of Israel.\""
+    }
+  ]
+}

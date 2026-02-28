@@ -1,0 +1,137 @@
+{
+  "book": "1-john",
+  "book_name": "1 John",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:16:55.736Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world.",
+      "web": "Beloved, don’t believe every spirit, but test the spirits, whether they are of God, because many false prophets have gone out into the world.",
+      "ct": "Dear friends, don't believe every spirit. Instead, test them to see if they are from God, because many false prophets have gone out into the world."
+    },
+    {
+      "verse": 2,
+      "kjv": "Hereby know ye the Spirit of God: Every spirit that confesseth that Jesus Christ is come in the flesh is of God:",
+      "web": "By this you know the Spirit of God: every spirit who confesses that Jesus Christ has come in the flesh is of God,",
+      "ct": "Here's how you can recognize the Spirit of God: every spirit that declares Jesus Christ came in an actual human body is from God."
+    },
+    {
+      "verse": 3,
+      "kjv": "And every spirit that confesseth not that Jesus Christ is come in the flesh is not of God: and this is that spirit of antichrist, whereof ye have heard that it should come; and even now already is it in the world.",
+      "web": "and every spirit who doesn’t confess that Jesus Christ has come in the flesh is not of God, and this is the spirit of the Antichrist, of whom you have heard that it comes. Now it is in the world already.",
+      "ct": "But every spirit that refuses to acknowledge this about Jesus is not from God. This is the spirit of the Antichrist, which you've heard is coming — and it's already at work in the world."
+    },
+    {
+      "verse": 4,
+      "kjv": "Ye are of God, little children, and have overcome them: because greater is he that is in you, than he that is in the world.",
+      "web": "You are of God, little children, and have overcome them; because greater is he who is in you than he who is in the world.",
+      "ct": "But you belong to God, dear children, and you have already overcome these false spirits. The one who lives in you is greater than the one who is in the world."
+    },
+    {
+      "verse": 5,
+      "kjv": "They are of the world: therefore speak they of the world, and the world heareth them.",
+      "web": "They are of the world. Therefore they speak of the world, and the world hears them.",
+      "ct": "These false prophets belong to the world, so they speak from the world's perspective, and the world listens to them."
+    },
+    {
+      "verse": 6,
+      "kjv": "We are of God: he that knoweth God heareth us; he that is not of God heareth not us. Hereby know we the spirit of truth, and the spirit of error.",
+      "web": "We are of God. He who knows God listens to us. He who is not of God doesn’t listen to us. By this we know the spirit of truth, and the spirit of error.",
+      "ct": "We belong to God. Anyone who knows God listens to us; anyone who doesn't belong to God won't listen to us. This is how we can tell the difference between the spirit of truth and the spirit of deception."
+    },
+    {
+      "verse": 7,
+      "kjv": "Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God.",
+      "web": "Beloved, let’s love one another, for love is of God; and everyone who loves has been born of God, and knows God.",
+      "ct": "Dear friends, let's love one another, because love comes from God. Everyone who loves has been born of God and knows God."
+    },
+    {
+      "verse": 8,
+      "kjv": "He that loveth not knoweth not God; for God is love.",
+      "web": "He who doesn’t love doesn’t know God, for God is love.",
+      "ct": "Whoever doesn't love doesn't know God, because God is love."
+    },
+    {
+      "verse": 9,
+      "kjv": "In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him.",
+      "web": "By this God’s love was revealed in us, that God has sent his one and only Son into the world that we might live through him.",
+      "ct": "God showed his love for us by sending his one and only Son into the world so that we could have life through him."
+    },
+    {
+      "verse": 10,
+      "kjv": "Herein is love, not that we loved God, but that he loved us, and sent his Son to be the propitiation for our sins.",
+      "web": "In this is love, not that we loved God, but that he loved us, and sent his Son as the atoning sacrifice for our sins.",
+      "ct": "This is what real love looks like — not that we loved God, but that he loved us and sent his Son as the atonement for our sins."
+    },
+    {
+      "verse": 11,
+      "kjv": "Beloved, if God so loved us, we ought also to love one another.",
+      "web": "Beloved, if God loved us in this way, we also ought to love one another.",
+      "ct": "Dear friends, since God loved us this much, we should love one another too."
+    },
+    {
+      "verse": 12,
+      "kjv": "No man hath seen God at any time. If we love one another, God dwelleth in us, and his love is perfected in us.",
+      "web": "No one has seen God at any time. If we love one another, God remains in us, and his love has been perfected in us.",
+      "ct": "No one has ever seen God. But if we love one another, God lives in us, and his love reaches its full expression in us."
+    },
+    {
+      "verse": 13,
+      "kjv": "Hereby know we that we dwell in him, and he in us, because he hath given us of his Spirit.",
+      "web": "By this we know that we remain in him and he in us, because he has given us of his Spirit.",
+      "ct": "We know that we live in him and he lives in us because he has given us his Spirit."
+    },
+    {
+      "verse": 14,
+      "kjv": "And we have seen and do testify that the Father sent the Son to be the Saviour of the world.",
+      "web": "We have seen and testify that the Father has sent the Son as the Savior of the world.",
+      "ct": "We have seen it ourselves and can testify that the Father sent his Son to be the Savior of the world."
+    },
+    {
+      "verse": 15,
+      "kjv": "Whosoever shall confess that Jesus is the Son of God, God dwelleth in him, and he in God.",
+      "web": "Whoever confesses that Jesus is the Son of God, God remains in him, and he in God.",
+      "ct": "Whoever openly declares that Jesus is the Son of God — God lives in that person, and that person lives in God."
+    },
+    {
+      "verse": 16,
+      "kjv": "And we have known and believed the love that God hath to us. God is love; and he that dwelleth in love dwelleth in God, and God in him.",
+      "web": "We know and have believed the love which God has for us. God is love, and he who remains in love remains in God, and God remains in him.",
+      "ct": "We have come to know and trust the love God has for us. God is love, and whoever lives in love lives in God, and God lives in them."
+    },
+    {
+      "verse": 17,
+      "kjv": "Herein is our love made perfect, that we may have boldness in the day of judgment: because as he is, so are we in this world.",
+      "web": "In this love has been made perfect among us, that we may have boldness in the day of judgment, because as he is, even so we are in this world.",
+      "ct": "This is how love is made complete among us: so that we can stand with confidence on the day of judgment, because we live in this world just as he does."
+    },
+    {
+      "verse": 18,
+      "kjv": "There is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.",
+      "web": "There is no fear in love; but perfect love casts out fear, because fear has punishment. He who fears is not made perfect in love.",
+      "ct": "There is no fear in love. Instead, perfect love drives fear away, because fear carries with it the expectation of punishment. Anyone still gripped by fear hasn't yet experienced love in its fullness."
+    },
+    {
+      "verse": 19,
+      "kjv": "We love him, because he first loved us.",
+      "web": "We love him, because he first loved us.",
+      "ct": "We love him because he loved us first."
+    },
+    {
+      "verse": 20,
+      "kjv": "If a man say, I love God, and hateth his brother, he is a liar: for he that loveth not his brother whom he hath seen, how can he love God whom he hath not seen?",
+      "web": "If a man says, “I love God,” and hates his brother, he is a liar; for he who doesn’t love his brother whom he has seen, how can he love God whom he has not seen?",
+      "ct": "If someone says, \"I love God,\" but hates a fellow believer, that person is a liar. After all, if you can't love a brother or sister you can see, how can you love God, whom you've never seen?"
+    },
+    {
+      "verse": 21,
+      "kjv": "And this commandment have we from him, That he who loveth God love his brother also.",
+      "web": "This commandment we have from him, that he who loves God should also love his brother.",
+      "ct": "This is the commandment he gave us: whoever loves God must also love their brother and sister."
+    }
+  ]
+}

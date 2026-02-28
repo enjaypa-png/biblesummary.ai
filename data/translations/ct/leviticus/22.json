@@ -1,0 +1,209 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 22,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:46:59.103Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto Aaron and to his sons, that they separate themselves from the holy things of the children of Israel, and that they profane not my holy name in those things which they hallow unto me: I am the LORD.",
+      "web": "“Tell Aaron and his sons to separate themselves from the holy things of the children of Israel, which they make holy to me, and that they not profane my holy name. I am LORD.",
+      "ct": "\"Tell Aaron and his sons to treat the sacred offerings of the Israelites with great care, so they don't dishonor my holy name by mishandling the things the people set apart for me. I am the LORD.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Say unto them, Whosoever he be of all your seed among your generations, that goeth unto the holy things, which the children of Israel hallow unto the LORD, having his uncleanness upon him, that soul shall be cut off from my presence: I am the LORD.",
+      "web": "“Tell them, ‘If anyone of all your offspring throughout your generations approaches the holy things which the children of Israel make holy to LORD, having his uncleanness on him, that soul shall be cut off from before me. I am LORD.",
+      "ct": "\"Tell them: If any of your descendants, in any generation, approaches the sacred offerings that the Israelites have set apart for the LORD while he is ceremonially unclean, that person will be cut off from my presence. I am the LORD.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "What man soever of the seed of Aaron is a leper, or hath a running issue; he shall not eat of the holy things, until he be clean. And whoso toucheth any thing that is unclean by the dead, or a man whose seed goeth from him;",
+      "web": "“ ‘Whoever of the offspring of Aaron is a leper or has a discharge shall not eat of the holy things until he is clean. Whoever touches anything that is unclean by the dead, or a man who has a seminal emission,",
+      "ct": "\"No descendant of Aaron who has a skin disease or a bodily discharge may eat any of the sacred food until he is clean. The same applies to anyone who touches something made unclean by a dead body, or to a man who has a seminal emission,\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Or whosoever toucheth any creeping thing, whereby he may be made unclean, or a man of whom he may take uncleanness, whatsoever uncleanness he hath;",
+      "web": "or whoever touches any creeping thing whereby he may be made unclean, or a man from whom he may become unclean, whatever uncleanness he has—",
+      "ct": "\"or anyone who touches a crawling creature that makes him unclean, or who touches another person whose uncleanness rubs off on him — whatever kind of uncleanness it may be.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "The soul which hath touched any such shall be unclean until even, and shall not eat of the holy things, unless he wash his flesh with water.",
+      "web": "the person that touches any such shall be unclean until the evening, and shall not eat of the holy things unless he bathes his body in water.",
+      "ct": "\"Anyone who touches any of these things will be unclean until evening and must not eat any of the sacred food unless he has bathed his whole body in water.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And when the sun is down, he shall be clean, and shall afterward eat of the holy things; because it is his food.",
+      "web": "When the sun is down, he shall be clean; and afterward he shall eat of the holy things, because it is his bread.",
+      "ct": "\"After the sun goes down, he will be clean again, and then he may eat the sacred food, because that is his share of the provisions.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "That which dieth of itself, or is torn with beasts, he shall not eat to defile himself therewith: I am the LORD.",
+      "web": "He shall not eat that which dies of itself or is torn by animals, defiling himself by it. I am LORD.",
+      "ct": "\"He must not eat anything that died on its own or was killed by wild animals — that would make him unclean. I am the LORD.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "They shall therefore keep mine ordinance, lest they bear sin for it, and die therefore, if they profane it: I the LORD do sanctify them.",
+      "web": "“ ‘They shall therefore follow my commandment, lest they bear sin for it and die in it, if they profane it. I am LORD who sanctifies them.",
+      "ct": "\"The priests must follow my instructions carefully, or they will be guilty of sin and die for treating these things as common. I am the LORD who makes them holy.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "There shall no stranger eat of the holy thing: a sojourner of the priest, or an hired servant, shall not eat of the holy thing.",
+      "web": "“ ‘No stranger shall eat of the holy thing: a foreigner living with the priests, or a hired servant, shall not eat of the holy thing.",
+      "ct": "\"No outsider may eat the sacred food. This includes anyone staying temporarily with a priest and any hired worker.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "But if the priest buy any soul with his money, he shall eat of it, and he that is born in his house: they shall eat of his meat.",
+      "web": "But if a priest buys a slave, purchased by his money, he shall eat of it; and those who are born in his house shall eat of his bread.",
+      "ct": "\"However, if a priest purchases a slave with his own money, that slave may eat the sacred food. Slaves born in the priest's household may also eat from it.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "If the priest’s daughter also be married unto a stranger, she may not eat of an offering of the holy things.",
+      "web": "If a priest’s daughter is married to an outsider, she shall not eat of the heave offering of the holy things.",
+      "ct": "\"If a priest's daughter marries someone who is not a priest, she can no longer eat from the sacred offerings.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "But if the priest’s daughter be a widow, or divorced, and have no child, and is returned unto her father’s house, as in her youth, she shall eat of her father’s meat: but there shall no stranger eat thereof.",
+      "web": "But if a priest’s daughter is a widow, or divorced, and has no child, and has returned to her father’s house as in her youth, she may eat of her father’s bread; but no stranger shall eat any of it.",
+      "ct": "\"But if a priest's daughter becomes a widow or gets divorced and has no children, and she returns to live in her father's house as she did when she was young, she may eat from her father's food again. No outsider, however, may eat any of it.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And if a man eat of the holy thing unwittingly, then he shall put the fifth part thereof unto it, and shall give it unto the priest with the holy thing.",
+      "web": "“ ‘If a man eats something holy unwittingly, then he shall add the fifth part of its value to it, and shall give the holy thing to the priest.",
+      "ct": "\"If someone accidentally eats sacred food, he must pay back its value plus an additional 20 percent and give it to the priest.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And they shall not profane the holy things of the children of Israel, which they offer unto the LORD;",
+      "web": "The priests shall not profane the holy things of the children of Israel, which they offer to LORD,",
+      "ct": "\"The priests must not let the sacred offerings that the Israelites present to the LORD be treated as common,\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Or suffer them to bear the iniquity of trespass, when they eat their holy things: for I the LORD do sanctify them.",
+      "web": "and so cause them to bear the iniquity that brings guilt when they eat their holy things; for I am LORD who sanctifies them.’ ”",
+      "ct": "\"allowing people to bring guilt on themselves by eating what is holy. I am the LORD who makes these things holy.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 18,
+      "kjv": "Speak unto Aaron, and to his sons, and unto all the children of Israel, and say unto them, Whatsoever he be of the house of Israel, or of the strangers in Israel, that will offer his oblation for all his vows, and for all his freewill offerings, which they will offer unto the LORD for a burnt offering;",
+      "web": "“Speak to Aaron, and to his sons, and to all the children of Israel, and say to them, ‘Whoever is of the house of Israel, or of the foreigners in Israel, who offers his offering, whether it is any of their vows or any of their free will offerings, which they offer to LORD for a burnt offering:",
+      "ct": "\"Speak to Aaron, his sons, and all the Israelites. Tell them: Whether someone is an Israelite or a foreigner living in Israel, whenever anyone brings an offering to the LORD — whether to fulfill a vow or as a freewill offering — if it is a burnt offering,\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Ye shall offer at your own will a male without blemish, of the beeves, of the sheep, or of the goats.",
+      "web": "that you may be accepted, you shall offer a male without defect, of the bulls, of the sheep, or of the goats.",
+      "ct": "\"it must be a male animal without any defect, chosen from the cattle, sheep, or goats, so that it will be accepted.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "But whatsoever hath a blemish, that shall ye not offer: for it shall not be acceptable for you.",
+      "web": "But you shall not offer whatever has a defect, for it shall not be acceptable for you.",
+      "ct": "\"Do not offer any animal that has a defect, because it will not be accepted on your behalf.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And whosoever offereth a sacrifice of peace offerings unto the LORD to accomplish his vow, or a freewill offering in beeves or sheep, it shall be perfect to be accepted; there shall be no blemish therein.",
+      "web": "Whoever offers a sacrifice of peace offerings to LORD to accomplish a vow, or for a free will offering of the herd or of the flock, it shall be perfect to be accepted. It shall have no defect.",
+      "ct": "\"When anyone brings a peace offering to the LORD — whether to fulfill a vow or as a freewill offering — the animal from the herd or flock must be completely free of defects in order to be accepted.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Blind, or broken, or maimed, or having a wen, or scurvy, or scabbed, ye shall not offer these unto the LORD, nor make an offering by fire of them upon the altar unto the LORD.",
+      "web": "You shall not offer what is blind, is injured, is maimed, has a wart, is festering, or has a running sore to LORD, nor make an offering by fire of them on the altar to LORD.",
+      "ct": "\"Do not offer to the LORD any animal that is blind, injured, maimed, or that has warts, sores, or a running infection. Do not place any such animal on the altar as a fire offering to the LORD.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Either a bullock or a lamb that hath any thing superfluous or lacking in his parts, that mayest thou offer for a freewill offering; but for a vow it shall not be accepted.",
+      "web": "Either a bull or a lamb that has any deformity or lacking in his parts, that you may offer for a free will offering; but for a vow it shall not be accepted.",
+      "ct": "\"You may offer a bull or lamb with a stunted or oversized limb as a freewill offering, but it will not be accepted to fulfill a vow.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Ye shall not offer unto the LORD that which is bruised, or crushed, or broken, or cut; neither shall ye make any offering thereof in your land.",
+      "web": "You must not offer to LORD that which has its testicles bruised, crushed, broken, or cut. You must not do this in your land.",
+      "ct": "\"Do not offer to the LORD any animal whose testicles are bruised, crushed, torn, or cut. You must never do this in your land.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "Neither from a stranger’s hand shall ye offer the bread of your God of any of these; because their corruption is in them, and blemishes be in them: they shall not be accepted for you.",
+      "web": "You must not offer any of these as the bread of your God from the hand of a foreigner, because their corruption is in them. There is a defect in them. They shall not be accepted for you.’ ”",
+      "ct": "\"And you must not accept such animals from a foreigner to offer as food to your God. Because they are damaged and defective, they will not be accepted on your behalf.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 27,
+      "kjv": "When a bullock, or a sheep, or a goat, is brought forth, then it shall be seven days under the dam; and from the eighth day and thenceforth it shall be accepted for an offering made by fire unto the LORD.",
+      "web": "“When a bull, a sheep, or a goat is born, it shall remain seven days with its mother. From the eighth day on it shall be accepted for the offering of an offering made by fire to LORD.",
+      "ct": "\"When a calf, lamb, or young goat is born, it must stay with its mother for 7 days. From the 8th day on, it may be accepted as a fire offering to the LORD.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And whether it be cow or ewe, ye shall not kill it and her young both in one day.",
+      "web": "Whether it is a cow or ewe, you shall not kill it and its young both in one day.",
+      "ct": "\"Whether it is a cow or a ewe, do not slaughter the mother and her young on the same day.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And when ye will offer a sacrifice of thanksgiving unto the LORD, offer it at your own will.",
+      "web": "“When you sacrifice a sacrifice of thanksgiving to LORD, you shall sacrifice it so that you may be accepted.",
+      "ct": "\"When you offer a thanksgiving sacrifice to the LORD, offer it in the proper way so that it will be accepted.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "On the same day it shall be eaten up; ye shall leave none of it until the morrow: I am the LORD.",
+      "web": "It shall be eaten on the same day; you shall leave none of it until the morning. I am LORD.",
+      "ct": "\"It must be eaten that same day — don't leave any of it until morning. I am the LORD.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "Therefore shall ye keep my commandments, and do them: I am the LORD.",
+      "web": "“Therefore you shall keep my commandments, and do them. I am LORD.",
+      "ct": "\"Keep my commandments and follow them. I am the LORD.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "Neither shall ye profane my holy name; but I will be hallowed among the children of Israel: I am the LORD which hallow you,",
+      "web": "You shall not profane my holy name, but I will be made holy among the children of Israel. I am LORD who makes you holy,",
+      "ct": "\"Do not dishonor my holy name. I will be treated as holy among the Israelites. I am the LORD who makes you holy,\""
+    },
+    {
+      "verse": 33,
+      "kjv": "That brought you out of the land of Egypt, to be your God: I am the LORD.",
+      "web": "who brought you out of the land of Egypt, to be your God. I am LORD.”",
+      "ct": "\"the one who brought you out of Egypt to be your God. I am the LORD.\""
+    }
+  ]
+}

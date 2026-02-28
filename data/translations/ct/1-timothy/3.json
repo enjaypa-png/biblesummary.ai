@@ -1,0 +1,107 @@
+{
+  "book": "1-timothy",
+  "book_name": "1 Timothy",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:04:49.440Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "This is a true saying, If a man desire the office of a bishop, he desireth a good work.",
+      "web": "This is a faithful saying: someone who seeks to be an overseer desires a good work.",
+      "ct": "Here is a trustworthy statement: if someone aspires to be an overseer, they desire a noble task."
+    },
+    {
+      "verse": 2,
+      "kjv": "A bishop then must be blameless, the husband of one wife, vigilant, sober, of good behaviour, given to hospitality, apt to teach;",
+      "web": "The overseer therefore must be without reproach, the husband of one wife, temperate, sensible, modest, hospitable, good at teaching;",
+      "ct": "An overseer must be above reproach — faithful to his wife, self-controlled, level-headed, respectable, welcoming to strangers, and skilled at teaching."
+    },
+    {
+      "verse": 3,
+      "kjv": "Not given to wine, no striker, not greedy of filthy lucre; but patient, not a brawler, not covetous;",
+      "web": "not a drinker, not violent, not greedy for money, but gentle, not quarrelsome, not covetous;",
+      "ct": "He must not be a heavy drinker or a violent man, and he must not be greedy for money. Instead, he should be gentle, peaceable, and free from the love of wealth."
+    },
+    {
+      "verse": 4,
+      "kjv": "One that ruleth well his own house, having his children in subjection with all gravity;",
+      "web": "one who rules his own house well, having children in subjection with all reverence;",
+      "ct": "He must manage his own household well, with children who respect and obey him."
+    },
+    {
+      "verse": 5,
+      "kjv": "(For if a man know not how to rule his own house, how shall he take care of the church of God?)",
+      "web": "(but how could someone who doesn’t know how to rule one’s own house take care of God’s assembly?)",
+      "ct": "(After all, if a man can't manage his own family, how could he possibly take care of God's church?)"
+    },
+    {
+      "verse": 6,
+      "kjv": "Not a novice, lest being lifted up with pride he fall into the condemnation of the devil.",
+      "web": "not a new convert, lest being puffed up he fall into the same condemnation as the devil.",
+      "ct": "He must not be a new convert, because pride could easily go to his head, and he'd fall under the same condemnation as the devil."
+    },
+    {
+      "verse": 7,
+      "kjv": "Moreover he must have a good report of them which are without; lest he fall into reproach and the snare of the devil.",
+      "web": "Moreover he must have good testimony from those who are outside, to avoid falling into reproach and the snare of the devil.",
+      "ct": "He must also have a good reputation with people outside the church. Otherwise, he'll be open to disgrace and fall into the devil's trap."
+    },
+    {
+      "verse": 8,
+      "kjv": "Likewise must the deacons be grave, not doubletongued, not given to much wine, not greedy of filthy lucre;",
+      "web": "Servants, in the same way, must be reverent, not double-tongued, not addicted to much wine, not greedy for money,",
+      "ct": "In the same way, deacons must be dignified and sincere — not saying one thing to one person and something else to another. They must not be heavy drinkers or greedy for money."
+    },
+    {
+      "verse": 9,
+      "kjv": "Holding the mystery of the faith in a pure conscience.",
+      "web": "holding the mystery of the faith in a pure conscience.",
+      "ct": "They must hold firmly to the deep truths of the faith with a clear conscience."
+    },
+    {
+      "verse": 10,
+      "kjv": "And let these also first be proved; then let them use the office of a deacon, being found blameless.",
+      "web": "Let them also first be tested; then let them serve if they are blameless.",
+      "ct": "They should be tested first, and only after proving themselves blameless should they serve as deacons."
+    },
+    {
+      "verse": 11,
+      "kjv": "Even so must their wives be grave, not slanderers, sober, faithful in all things.",
+      "web": "Their wives in the same way must be reverent, not slanderers, temperate, and faithful in all things.",
+      "ct": "Their wives, likewise, must be dignified — not gossips, but self-controlled and trustworthy in everything."
+    },
+    {
+      "verse": 12,
+      "kjv": "Let the deacons be the husbands of one wife, ruling their children and their own houses well.",
+      "web": "Let servants be husbands of one wife, ruling their children and their own houses well.",
+      "ct": "Deacons must be faithful to their wives and must manage their children and households well."
+    },
+    {
+      "verse": 13,
+      "kjv": "For they that have used the office of a deacon well purchase to themselves a good degree, and great boldness in the faith which is in Christ Jesus.",
+      "web": "For those who have served well gain for themselves a good standing, and great boldness in the faith which is in Christ Jesus.",
+      "ct": "Those who serve well as deacons earn an excellent standing for themselves and grow deeply confident in their faith in Christ Jesus."
+    },
+    {
+      "verse": 14,
+      "kjv": "These things write I unto thee, hoping to come unto thee shortly:",
+      "web": "These things I write to you, hoping to come to you shortly;",
+      "ct": "I'm writing these instructions to you now, and I hope to visit you soon."
+    },
+    {
+      "verse": 15,
+      "kjv": "But if I tarry long, that thou mayest know how thou oughtest to behave thyself in the house of God, which is the church of the living God, the pillar and ground of the truth.",
+      "web": "but if I wait long, that you may know how men ought to behave themselves in God’s house, which is the assembly of the living God, the pillar and ground of the truth.",
+      "ct": "But in case I'm delayed, I want you to know how people should conduct themselves in God's household — which is the church of the living God, the pillar and foundation of the truth."
+    },
+    {
+      "verse": 16,
+      "kjv": "And without controversy great is the mystery of godliness: God was manifest in the flesh, justified in the Spirit, seen of angels, preached unto the Gentiles, believed on in the world, received up into glory.",
+      "web": "Without controversy, the mystery of godliness is great: God was revealed in the flesh, justified in the spirit, seen by angels, preached among the nations, believed on in the world, and received up in glory.",
+      "ct": "And everyone agrees that the mystery of godliness is profound: God was revealed in human flesh, vindicated by the Spirit, seen by angels, proclaimed among the nations, believed in throughout the world, and taken up into glory."
+    }
+  ]
+}

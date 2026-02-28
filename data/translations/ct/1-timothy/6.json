@@ -1,0 +1,137 @@
+{
+  "book": "1-timothy",
+  "book_name": "1 Timothy",
+  "chapter": 6,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:05:39.768Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Let as many servants as are under the yoke count their own masters worthy of all honour, that the name of God and his doctrine be not blasphemed.",
+      "web": "Let as many as are bondservants under the yoke count their own masters worthy of all honor, that the name of God and the doctrine not be blasphemed.",
+      "ct": "All who are slaves should show their masters complete respect, so that no one speaks against the name of God or his teaching."
+    },
+    {
+      "verse": 2,
+      "kjv": "And they that have believing masters, let them not despise them, because they are brethren; but rather do them service, because they are faithful and beloved, partakers of the benefit. These things teach and exhort.",
+      "web": "Those who have believing masters, let them not despise them because they are brothers, but rather let them serve them, because those who partake of the benefit are believing and beloved. Teach and exhort these things.",
+      "ct": "Those who have masters who are believers shouldn't show them less respect just because they're fellow believers. Instead, they should serve them even better, since the ones benefiting from their work are believers they love. Teach and urge everyone to follow these instructions."
+    },
+    {
+      "verse": 3,
+      "kjv": "If any man teach otherwise, and consent not to wholesome words, even the words of our Lord Jesus Christ, and to the doctrine which is according to godliness;",
+      "web": "If anyone teaches a different doctrine, and doesn’t consent to sound words, the words of our Lord Jesus Christ, and to the doctrine which is according to godliness,",
+      "ct": "If anyone teaches something different and refuses to accept the sound words of our Lord Jesus Christ and the teaching that leads to godliness,"
+    },
+    {
+      "verse": 4,
+      "kjv": "He is proud, knowing nothing, but doting about questions and strifes of words, whereof cometh envy, strife, railings, evil surmisings,",
+      "web": "he is conceited, knowing nothing, but obsessed with arguments, disputes, and word battles, from which come envy, strife, insulting, evil suspicions,",
+      "ct": "that person is arrogant and understands nothing. They have an unhealthy obsession with arguments and fights over words, which only produce envy, conflict, insults, and evil suspicions."
+    },
+    {
+      "verse": 5,
+      "kjv": "Perverse disputings of men of corrupt minds, and destitute of the truth, supposing that gain is godliness: from such withdraw thyself.",
+      "web": "constant friction of people of corrupt minds and destitute of the truth, who suppose that godliness is a means of gain. Withdraw yourself from such.",
+      "ct": "These people have corrupted minds and have lost their grip on the truth. They think godliness is just a way to get rich. Stay away from people like that."
+    },
+    {
+      "verse": 6,
+      "kjv": "But godliness with contentment is great gain.",
+      "web": "But godliness with contentment is great gain.",
+      "ct": "But godliness paired with contentment — that is true wealth."
+    },
+    {
+      "verse": 7,
+      "kjv": "For we brought nothing into this world, and it is certain we can carry nothing out.",
+      "web": "For we brought nothing into the world, and we certainly can’t carry anything out.",
+      "ct": "After all, we brought nothing into this world, and we certainly can't take anything out of it."
+    },
+    {
+      "verse": 8,
+      "kjv": "And having food and raiment let us be therewith content.",
+      "web": "But having food and clothing, we will be content with that.",
+      "ct": "So if we have food and clothing, let's be satisfied with that."
+    },
+    {
+      "verse": 9,
+      "kjv": "But they that will be rich fall into temptation and a snare, and into many foolish and hurtful lusts, which drown men in destruction and perdition.",
+      "web": "But those who are determined to be rich fall into a temptation, a snare, and many foolish and harmful lusts, such as drown men in ruin and destruction.",
+      "ct": "But people who are determined to get rich fall into temptation and a trap, caught by many foolish and destructive desires that drag them down into ruin and destruction."
+    },
+    {
+      "verse": 10,
+      "kjv": "For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.",
+      "web": "For the love of money is a root of all kinds of evil. Some have been led astray from the faith in their greed, and have pierced themselves through with many sorrows.",
+      "ct": "The love of money is the root of all kinds of evil. Some people, in their greed, have wandered away from the faith and stabbed themselves with countless sorrows."
+    },
+    {
+      "verse": 11,
+      "kjv": "But thou, O man of God, flee these things; and follow after righteousness, godliness, faith, love, patience, meekness.",
+      "web": "But you, man of God, flee these things, and follow after righteousness, godliness, faith, love, perseverance, and gentleness.",
+      "ct": "But you, man of God, run from all of this. Instead, pursue righteousness, godliness, faith, love, patience, and gentleness."
+    },
+    {
+      "verse": 12,
+      "kjv": "Fight the good fight of faith, lay hold on eternal life, whereunto thou art also called, and hast professed a good profession before many witnesses.",
+      "web": "Fight the good fight of faith. Take hold of the eternal life to which you were called, and you confessed the good confession in the sight of many witnesses.",
+      "ct": "Fight the good fight of faith. Take hold of the eternal life you were called to, the life you declared your commitment to before many witnesses."
+    },
+    {
+      "verse": 13,
+      "kjv": "I give thee charge in the sight of God, who quickeneth all things, and before Christ Jesus, who before Pontius Pilate witnessed a good confession;",
+      "web": "I command you before God, who gives life to all things, and before Christ Jesus, who before Pontius Pilate testified the good confession,",
+      "ct": "In the presence of God, who gives life to all things, and of Christ Jesus, who made his bold confession before Pontius Pilate, I give you this charge:"
+    },
+    {
+      "verse": 14,
+      "kjv": "That thou keep this commandment without spot, unrebukeable, until the appearing of our Lord Jesus Christ:",
+      "web": "that you keep the commandment without spot, blameless, until the appearing of our Lord Jesus Christ,",
+      "ct": "Obey this command and keep it without stain or blame until the day our Lord Jesus Christ appears."
+    },
+    {
+      "verse": 15,
+      "kjv": "Which in his times he shall shew, who is the blessed and only Potentate, the King of kings, and Lord of lords;",
+      "web": "which in its own times he will show, who is the blessed and only Ruler, the King of kings, and Lord of lords.",
+      "ct": "At just the right time, God will reveal him — God, the blessed and only Ruler, the King of kings and Lord of lords."
+    },
+    {
+      "verse": 16,
+      "kjv": "Who only hath immortality, dwelling in the light which no man can approach unto; whom no man hath seen, nor can see: to whom be honour and power everlasting. Amen.",
+      "web": "He alone has immortality, dwelling in unapproachable light, whom no man has seen, nor can see: to whom be honor and eternal power. Amen.",
+      "ct": "He alone possesses immortality, living in light so brilliant that no one can approach it. No one has ever seen him, and no one can. To him be honor and eternal power. Amen."
+    },
+    {
+      "verse": 17,
+      "kjv": "Charge them that are rich in this world, that they be not highminded, nor trust in uncertain riches, but in the living God, who giveth us richly all things to enjoy;",
+      "web": "Charge those who are rich in this present world that they not be arrogant, nor have their hope set on the uncertainty of riches, but on the living God, who richly provides us with everything to enjoy;",
+      "ct": "Tell those who are rich in this present world not to be arrogant or to put their hope in wealth, which is so uncertain. Instead, they should put their hope in the living God, who generously gives us everything to enjoy."
+    },
+    {
+      "verse": 18,
+      "kjv": "That they do good, that they be rich in good works, ready to distribute, willing to communicate;",
+      "web": "that they do good, that they be rich in good works, that they be ready to distribute, willing to share;",
+      "ct": "Tell them to do good, to be rich in good deeds, and to be generous and willing to share."
+    },
+    {
+      "verse": 19,
+      "kjv": "Laying up in store for themselves a good foundation against the time to come, that they may lay hold on eternal life.",
+      "web": "laying up in store for themselves a good foundation against the time to come, that they may lay hold of eternal life.",
+      "ct": "By doing this, they'll be storing up treasure as a solid foundation for the future, so they can take hold of the life that is truly life."
+    },
+    {
+      "verse": 20,
+      "kjv": "O Timothy, keep that which is committed to thy trust, avoiding profane and vain babblings, and oppositions of science falsely so called:",
+      "web": "Timothy, guard that which is committed to you, turning away from the empty chatter and oppositions of what is falsely called knowledge,",
+      "ct": "Timothy, guard what has been entrusted to you. Turn away from godless chatter and the opposing ideas of what people falsely call knowledge."
+    },
+    {
+      "verse": 21,
+      "kjv": "Which some professing have erred concerning the faith. Grace be with thee. Amen.",
+      "web": "which some profess, and thus have wandered from the faith. Grace be with you. Amen.",
+      "ct": "Some who have claimed such knowledge have wandered away from the faith. Grace be with you. Amen."
+    }
+  ]
+}

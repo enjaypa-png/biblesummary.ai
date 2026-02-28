@@ -1,0 +1,95 @@
+{
+  "book": "revelation",
+  "book_name": "Revelation",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:19:20.925Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And I saw in the right hand of him that sat on the throne a book written within and on the backside, sealed with seven seals.",
+      "web": "I saw, in the right hand of him who sat on the throne, a book written inside and outside, sealed shut with seven seals.",
+      "ct": "Then I saw a scroll in the right hand of the one sitting on the throne. It was covered with writing on both sides and sealed shut with 7 seals."
+    },
+    {
+      "verse": 2,
+      "kjv": "And I saw a strong angel proclaiming with a loud voice, Who is worthy to open the book, and to loose the seals thereof?",
+      "web": "I saw a mighty angel proclaiming with a loud voice, “Who is worthy to open the book, and to break its seals?”",
+      "ct": "I saw a mighty angel calling out in a loud voice, \"Who is worthy to open the scroll and break its seals?\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And no man in heaven, nor in earth, neither under the earth, was able to open the book, neither to look thereon.",
+      "web": "No one in heaven above, or on the earth, or under the earth, was able to open the book or to look in it.",
+      "ct": "But no one in heaven, on earth, or beneath the earth was able to open the scroll or even look inside it."
+    },
+    {
+      "verse": 4,
+      "kjv": "And I wept much, because no man was found worthy to open and to read the book, neither to look thereon.",
+      "web": "Then I wept much, because no one was found worthy to open the book or to look in it.",
+      "ct": "I broke down weeping because no one could be found who was worthy to open the scroll or look inside it."
+    },
+    {
+      "verse": 5,
+      "kjv": "And one of the elders saith unto me, Weep not: behold, the Lion of the tribe of Juda, the Root of David, hath prevailed to open the book, and to loose the seven seals thereof.",
+      "web": "One of the elders said to me, “Don’t weep. Behold, the Lion who is of the tribe of Judah, the Root of David, has overcome: he who opens the book and its seven seals.”",
+      "ct": "Then one of the elders said to me, \"Don't weep! Look — the Lion from the tribe of Judah, the Root of David, has conquered. He is able to open the scroll and break its 7 seals.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And I beheld, and, lo, in the midst of the throne and of the four beasts, and in the midst of the elders, stood a Lamb as it had been slain, having seven horns and seven eyes, which are the seven Spirits of God sent forth into all the earth.",
+      "web": "I saw in the middle of the throne and of the four living creatures, and in the middle of the elders, a Lamb standing, as though it had been slain, having seven horns and seven eyes, which are the seven Spirits of God, sent out into all the earth.",
+      "ct": "Then I looked, and there in the center — among the throne, the 4 living creatures, and the elders — stood a Lamb that looked as though it had been slaughtered. It had 7 horns and 7 eyes, which are the 7 Spirits of God sent out into all the earth."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he came and took the book out of the right hand of him that sat upon the throne.",
+      "web": "Then he came, and he took it out of the right hand of him who sat on the throne.",
+      "ct": "The Lamb stepped forward and took the scroll from the right hand of the one sitting on the throne."
+    },
+    {
+      "verse": 8,
+      "kjv": "And when he had taken the book, the four beasts and four and twenty elders fell down before the Lamb, having every one of them harps, and golden vials full of odours, which are the prayers of saints.",
+      "web": "Now when he had taken the book, the four living creatures and the twenty-four elders fell down before the Lamb, each one having a harp, and golden bowls full of incense, which are the prayers of the saints.",
+      "ct": "The moment he took the scroll, the 4 living creatures and the 24 elders fell down before the Lamb. Each one held a harp and golden bowls filled with incense, which are the prayers of the saints."
+    },
+    {
+      "verse": 9,
+      "kjv": "And they sung a new song, saying, Thou art worthy to take the book, and to open the seals thereof: for thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation;",
+      "web": "They sang a new song, saying, “You are worthy to take the book and to open its seals: for you were killed, and bought us for God with your blood out of every tribe, language, people, and nation,",
+      "ct": "They sang a new song: \"You are worthy to take the scroll and open its seals, because you were slain, and with your blood you purchased people for God from every tribe, language, people, and nation."
+    },
+    {
+      "verse": 10,
+      "kjv": "And hast made us unto our God kings and priests: and we shall reign on the earth.",
+      "web": "and made us kings and priests to our God, and we will reign on the earth.”",
+      "ct": "You have made them kings and priests to serve our God, and they will reign on the earth.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And I beheld, and I heard the voice of many angels round about the throne and the beasts and the elders: and the number of them was ten thousand times ten thousand, and thousands of thousands;",
+      "web": "I saw, and I heard something like a voice of many angels around the throne, the living creatures, and the elders. The number of them was ten thousands of ten thousands, and thousands of thousands;",
+      "ct": "Then I looked and heard the voices of countless angels surrounding the throne, the living creatures, and the elders. Their number was ten thousand times ten thousand, and thousands upon thousands."
+    },
+    {
+      "verse": 12,
+      "kjv": "Saying with a loud voice, Worthy is the Lamb that was slain to receive power, and riches, and wisdom, and strength, and honour, and glory, and blessing.",
+      "web": "saying with a loud voice, “Worthy is the Lamb who has been killed to receive the power, wealth, wisdom, strength, honor, glory, and blessing!”",
+      "ct": "They cried out in a loud voice, \"Worthy is the Lamb who was slain to receive power, riches, wisdom, strength, honor, glory, and blessing!\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And every creature which is in heaven, and on the earth, and under the earth, and such as are in the sea, and all that are in them, heard I saying, Blessing, and honour, and glory, and power, be unto him that sitteth upon the throne, and unto the Lamb for ever and ever.",
+      "web": "I heard every created thing which is in heaven, on the earth, under the earth, on the sea, and everything in them, saying, “To him who sits on the throne, and to the Lamb be the blessing, the honor, the glory, and the dominion, forever and ever! Amen!”",
+      "ct": "Then I heard every creature in heaven, on earth, under the earth, and in the sea — everything in all creation — singing, \"To the one who sits on the throne and to the Lamb be blessing, honor, glory, and power forever and ever!\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And the four beasts said, Amen. And the four and twenty elders fell down and worshipped him that liveth for ever and ever.",
+      "web": "The four living creatures said, “Amen!” Then the elders fell down and worshiped.",
+      "ct": "The 4 living creatures said, \"Amen!\" And the 24 elders fell down and worshiped him who lives forever and ever."
+    }
+  ]
+}

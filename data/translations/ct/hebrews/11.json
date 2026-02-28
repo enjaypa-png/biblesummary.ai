@@ -1,0 +1,251 @@
+{
+  "book": "hebrews",
+  "book_name": "Hebrews",
+  "chapter": 11,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:11:12.383Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now faith is the substance of things hoped for, the evidence of things not seen.",
+      "web": "Now faith is assurance of things hoped for, proof of things not seen.",
+      "ct": "Faith is the foundation of everything we hope for and the proof of realities we cannot see."
+    },
+    {
+      "verse": 2,
+      "kjv": "For by it the elders obtained a good report.",
+      "web": "For by this, the elders obtained testimony.",
+      "ct": "It was because of their faith that the people of old earned God's approval."
+    },
+    {
+      "verse": 3,
+      "kjv": "Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.",
+      "web": "By faith, we understand that the universe has been framed by the word of God, so that what is seen has not been made out of things which are visible.",
+      "ct": "By faith we understand that the entire universe was created by God's word, so that everything we see was made from what is invisible."
+    },
+    {
+      "verse": 4,
+      "kjv": "By faith Abel offered unto God a more excellent sacrifice than Cain, by which he obtained witness that he was righteous, God testifying of his gifts: and by it he being dead yet speaketh.",
+      "web": "By faith, Abel offered to God a more excellent sacrifice than Cain, through which he had testimony given to him that he was righteous, God testifying with respect to his gifts; and through it he, being dead, still speaks.",
+      "ct": "By faith, Abel offered God a better sacrifice than Cain did. Through that offering, God declared Abel righteous, personally approving his gifts. And even though Abel is dead, his faith still speaks."
+    },
+    {
+      "verse": 5,
+      "kjv": "By faith Enoch was translated that he should not see death; and was not found, because God had translated him: for before his translation he had this testimony, that he pleased God.",
+      "web": "By faith, Enoch was taken away, so that he wouldn’t see death, and he was not found, because God translated him. For he has had testimony given to him that before his translation he had been well pleasing to God.",
+      "ct": "By faith, Enoch was taken up so that he would never experience death. He simply vanished, because God had taken him away. Before he was taken, he was known as someone who pleased God."
+    },
+    {
+      "verse": 6,
+      "kjv": "But without faith it is impossible to please him: for he that cometh to God must believe that he is, and that he is a rewarder of them that diligently seek him.",
+      "web": "Without faith it is impossible to be well pleasing to him, for he who comes to God must believe that he exists, and that he is a rewarder of those who seek him.",
+      "ct": "Without faith it is impossible to please God. Anyone who comes to him must believe that he exists and that he rewards those who earnestly seek him."
+    },
+    {
+      "verse": 7,
+      "kjv": "By faith Noah, being warned of God of things not seen as yet, moved with fear, prepared an ark to the saving of his house; by the which he condemned the world, and became heir of the righteousness which is by faith.",
+      "web": "By faith, Noah, being warned about things not yet seen, moved with godly fear, prepared a ship for the saving of his house, through which he condemned the world, and became heir of the righteousness which is according to faith.",
+      "ct": "By faith, Noah — warned by God about things that hadn't happened yet — took the warning seriously and built an ark to save his family. By doing so, he exposed the sin of the world and inherited the righteousness that comes through faith."
+    },
+    {
+      "verse": 8,
+      "kjv": "By faith Abraham, when he was called to go out into a place which he should after receive for an inheritance, obeyed; and he went out, not knowing whither he went.",
+      "web": "By faith, Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went.",
+      "ct": "By faith, Abraham obeyed when God called him to leave home and go to a place he would later receive as an inheritance. He set out without even knowing where he was going."
+    },
+    {
+      "verse": 9,
+      "kjv": "By faith he sojourned in the land of promise, as in a strange country, dwelling in tabernacles with Isaac and Jacob, the heirs with him of the same promise:",
+      "web": "By faith, he lived as an alien in the land of promise, as in a land not his own, dwelling in tents with Isaac and Jacob, the heirs with him of the same promise.",
+      "ct": "By faith, he lived as a foreigner in the land God had promised him, dwelling in tents alongside Isaac and Jacob, who shared the same promise."
+    },
+    {
+      "verse": 10,
+      "kjv": "For he looked for a city which hath foundations, whose builder and maker is God.",
+      "web": "For he looked for the city which has the foundations, whose builder and maker is God.",
+      "ct": "He was looking ahead to a city with permanent foundations — a city designed and built by God himself."
+    },
+    {
+      "verse": 11,
+      "kjv": "Through faith also Sara herself received strength to conceive seed, and was delivered of a child when she was past age, because she judged him faithful who had promised.",
+      "web": "By faith, even Sarah herself received power to conceive, and she bore a child when she was past age, since she counted him faithful who had promised.",
+      "ct": "By faith, Sarah herself received the ability to become pregnant and gave birth even though she was far too old, because she trusted that God would keep his promise."
+    },
+    {
+      "verse": 12,
+      "kjv": "Therefore sprang there even of one, and him as good as dead, so many as the stars of the sky in multitude, and as the sand which is by the sea shore innumerable.",
+      "web": "Therefore as many as the stars of the sky in multitude, and as innumerable as the sand which is by the sea shore, were fathered by one man, and him as good as dead.",
+      "ct": "So from one man — and a man as good as dead — came descendants as countless as the stars in the sky and as numberless as the grains of sand on the seashore."
+    },
+    {
+      "verse": 13,
+      "kjv": "These all died in faith, not having received the promises, but having seen them afar off, and were persuaded of them, and embraced them, and confessed that they were strangers and pilgrims on the earth.",
+      "web": "These all died in faith, not having received the promises, but having seen them and embraced them from afar, and having confessed that they were strangers and pilgrims on the earth.",
+      "ct": "All these people died still holding on to their faith. They never received what was promised, but they saw it from a distance, welcomed it, and openly admitted that they were strangers and wanderers on this earth."
+    },
+    {
+      "verse": 14,
+      "kjv": "For they that say such things declare plainly that they seek a country.",
+      "web": "For those who say such things make it clear that they are seeking a country of their own.",
+      "ct": "People who talk like that make it clear they are searching for a homeland."
+    },
+    {
+      "verse": 15,
+      "kjv": "And truly, if they had been mindful of that country from whence they came out, they might have had opportunity to have returned.",
+      "web": "If indeed they had been thinking of that country from which they went out, they would have had enough time to return.",
+      "ct": "If they had been longing for the country they left behind, they would have had plenty of chances to go back."
+    },
+    {
+      "verse": 16,
+      "kjv": "But now they desire a better country, that is, an heavenly: wherefore God is not ashamed to be called their God: for he hath prepared for them a city.",
+      "web": "But now they desire a better country, that is, a heavenly one. Therefore God is not ashamed of them, to be called their God, for he has prepared a city for them.",
+      "ct": "Instead, they longed for a better homeland — a heavenly one. That is why God is not ashamed to be called their God. He has prepared a city for them."
+    },
+    {
+      "verse": 17,
+      "kjv": "By faith Abraham, when he was tried, offered up Isaac: and he that had received the promises offered up his only begotten son,",
+      "web": "By faith, Abraham, being tested, offered up Isaac. Yes, he who had gladly received the promises was offering up his one and only son,",
+      "ct": "By faith, Abraham — when God tested him — offered up Isaac. The very man who had received God's promises was ready to sacrifice his only son,"
+    },
+    {
+      "verse": 18,
+      "kjv": "Of whom it was said, That in Isaac shall thy seed be called:",
+      "web": "to whom it was said, “Your offspring will be accounted as from Isaac,”",
+      "ct": "the son about whom God had said, \"Your descendants will come through Isaac.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Accounting that God was able to raise him up, even from the dead; from whence also he received him in a figure.",
+      "web": "concluding that God is able to raise up even from the dead. Figuratively speaking, he also did receive him back from the dead.",
+      "ct": "Abraham reasoned that God was powerful enough to raise Isaac from the dead, and in a sense, that is exactly what happened — he received his son back from death."
+    },
+    {
+      "verse": 20,
+      "kjv": "By faith Isaac blessed Jacob and Esau concerning things to come.",
+      "web": "By faith, Isaac blessed Jacob and Esau, even concerning things to come.",
+      "ct": "By faith, Isaac blessed Jacob and Esau with words about their future."
+    },
+    {
+      "verse": 21,
+      "kjv": "By faith Jacob, when he was a dying, blessed both the sons of Joseph; and worshipped, leaning upon the top of his staff.",
+      "web": "By faith, Jacob, when he was dying, blessed each of the sons of Joseph, and worshiped, leaning on the top of his staff.",
+      "ct": "By faith, Jacob — as he lay dying — blessed each of Joseph's sons and worshiped God while leaning on the top of his staff."
+    },
+    {
+      "verse": 22,
+      "kjv": "By faith Joseph, when he died, made mention of the departing of the children of Israel; and gave commandment concerning his bones.",
+      "web": "By faith, Joseph, when his end was near, made mention of the departure of the children of Israel, and gave instructions concerning his bones.",
+      "ct": "By faith, Joseph — near the end of his life — spoke about the future exodus of the Israelites from Egypt and gave instructions about what to do with his bones."
+    },
+    {
+      "verse": 23,
+      "kjv": "By faith Moses, when he was born, was hid three months of his parents, because they saw he was a proper child; and they were not afraid of the king’s commandment.",
+      "web": "By faith, Moses, when he was born, was hidden for three months by his parents, because they saw that he was a beautiful child, and they were not afraid of the king’s commandment.",
+      "ct": "By faith, Moses' parents hid him for 3 months after he was born, because they saw he was a beautiful child. They weren't afraid of the king's order to kill Hebrew babies."
+    },
+    {
+      "verse": 24,
+      "kjv": "By faith Moses, when he was come to years, refused to be called the son of Pharaoh’s daughter;",
+      "web": "By faith, Moses, when he had grown up, refused to be called the son of Pharaoh’s daughter,",
+      "ct": "By faith, Moses — once he had grown up — refused to be known as the son of Pharaoh's daughter."
+    },
+    {
+      "verse": 25,
+      "kjv": "Choosing rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season;",
+      "web": "choosing rather to share ill treatment with God’s people than to enjoy the pleasures of sin for a time,",
+      "ct": "He chose to suffer alongside God's people rather than enjoy the temporary pleasures of sin."
+    },
+    {
+      "verse": 26,
+      "kjv": "Esteeming the reproach of Christ greater riches than the treasures in Egypt: for he had respect unto the recompence of the reward.",
+      "web": "considering the reproach of Christ greater riches than the treasures of Egypt; for he looked to the reward.",
+      "ct": "He considered the disgrace of following Christ to be worth more than all the treasures of Egypt, because he was focused on the reward that was coming."
+    },
+    {
+      "verse": 27,
+      "kjv": "By faith he forsook Egypt, not fearing the wrath of the king: for he endured, as seeing him who is invisible.",
+      "web": "By faith, he left Egypt, not fearing the wrath of the king; for he endured, as seeing him who is invisible.",
+      "ct": "By faith, he left Egypt without fearing the king's anger. He kept going because he could see the invisible God as clearly as if he were standing right in front of him."
+    },
+    {
+      "verse": 28,
+      "kjv": "Through faith he kept the passover, and the sprinkling of blood, lest he that destroyed the firstborn should touch them.",
+      "web": "By faith, he kept the Passover, and the sprinkling of the blood, that the destroyer of the firstborn should not touch them.",
+      "ct": "By faith, he established the Passover and the sprinkling of blood so that the angel who destroyed the firstborn would not touch the Israelites."
+    },
+    {
+      "verse": 29,
+      "kjv": "By faith they passed through the Red sea as by dry land: which the Egyptians assaying to do were drowned.",
+      "web": "By faith, they passed through the Red Sea as on dry land. When the Egyptians tried to do so, they were swallowed up.",
+      "ct": "By faith, the Israelites walked through the Red Sea on dry ground. But when the Egyptians tried to follow, they drowned."
+    },
+    {
+      "verse": 30,
+      "kjv": "By faith the walls of Jericho fell down, after they were compassed about seven days.",
+      "web": "By faith, the walls of Jericho fell down, after they had been encircled for seven days.",
+      "ct": "By faith, the walls of Jericho collapsed after the Israelites marched around them for 7 days."
+    },
+    {
+      "verse": 31,
+      "kjv": "By faith the harlot Rahab perished not with them that believed not, when she had received the spies with peace.",
+      "web": "By faith, Rahab the prostitute didn’t perish with those who were disobedient, having received the spies in peace.",
+      "ct": "By faith, Rahab the prostitute was not killed with those who disobeyed God, because she had welcomed the Israelite spies in peace."
+    },
+    {
+      "verse": 32,
+      "kjv": "And what shall I more say? for the time would fail me to tell of Gedeon, and of Barak, and of Samson, and of Jephthae; of David also, and Samuel, and of the prophets:",
+      "web": "What more shall I say? For the time would fail me if I told of Gideon, Barak, Samson, Jephthah, David, Samuel, and the prophets,",
+      "ct": "What more can I say? I don't have time to tell about Gideon, Barak, Samson, Jephthah, David, Samuel, and the prophets."
+    },
+    {
+      "verse": 33,
+      "kjv": "Who through faith subdued kingdoms, wrought righteousness, obtained promises, stopped the mouths of lions,",
+      "web": "who through faith subdued kingdoms, worked out righteousness, obtained promises, stopped the mouths of lions,",
+      "ct": "Through faith, these people conquered kingdoms, carried out justice, received what God had promised, and shut the mouths of lions."
+    },
+    {
+      "verse": 34,
+      "kjv": "Quenched the violence of fire, escaped the edge of the sword, out of weakness were made strong, waxed valiant in fight, turned to flight the armies of the aliens.",
+      "web": "quenched the power of fire, escaped the edge of the sword, from weakness were made strong, grew mighty in war, and caused foreign armies to flee.",
+      "ct": "They quenched raging fires, escaped death by the sword, found strength in their weakness, became mighty warriors, and routed foreign armies."
+    },
+    {
+      "verse": 35,
+      "kjv": "Women received their dead raised to life again: and others were tortured, not accepting deliverance; that they might obtain a better resurrection:",
+      "web": "Women received their dead by resurrection. Others were tortured, not accepting their deliverance, that they might obtain a better resurrection.",
+      "ct": "Women received their loved ones back from the dead. Others were tortured and refused to accept release, because they were looking ahead to a better resurrection."
+    },
+    {
+      "verse": 36,
+      "kjv": "And others had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment:",
+      "web": "Others were tried by mocking and scourging, yes, moreover by bonds and imprisonment.",
+      "ct": "Still others endured mockery and flogging, and even chains and prison."
+    },
+    {
+      "verse": 37,
+      "kjv": "They were stoned, they were sawn asunder, were tempted, were slain with the sword: they wandered about in sheepskins and goatskins; being destitute, afflicted, tormented;",
+      "web": "They were stoned. They were sawn apart. They were tempted. They were slain with the sword. They went around in sheep skins and in goat skins; being destitute, afflicted, ill-treated—",
+      "ct": "They were stoned. They were sawed in half. They were put to the test. They were killed with swords. They wandered around in sheepskins and goatskins — poor, persecuted, and mistreated."
+    },
+    {
+      "verse": 38,
+      "kjv": "(Of whom the world was not worthy:) they wandered in deserts, and in mountains, and in dens and caves of the earth.",
+      "web": "of whom the world was not worthy—wandering in deserts, mountains, caves, and the holes of the earth.",
+      "ct": "The world didn't deserve them. They roamed through deserts and mountains, hiding in caves and holes in the ground."
+    },
+    {
+      "verse": 39,
+      "kjv": "And these all, having obtained a good report through faith, received not the promise:",
+      "web": "These all, having had testimony given to them through their faith, didn’t receive the promise,",
+      "ct": "All of these people earned God's approval through their faith, yet none of them received the fullness of what was promised."
+    },
+    {
+      "verse": 40,
+      "kjv": "God having provided some better thing for us, that they without us should not be made perfect.",
+      "web": "God having provided some better thing concerning us, so that apart from us they should not be made perfect.",
+      "ct": "God had planned something better that included us, so that they would not reach perfection without us."
+    }
+  ]
+}

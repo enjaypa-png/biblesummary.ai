@@ -1,0 +1,173 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 15,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:29:10.939Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then sang Moses and the children of Israel this song unto the LORD, and spake, saying, I will sing unto the LORD, for he hath triumphed gloriously: the horse and his rider hath he thrown into the sea.",
+      "web": "Then Moses and the children of Israel sang this song to LORD, and said, “I will sing to LORD, for he has triumphed gloriously. He has thrown the horse and his rider into the sea.",
+      "ct": "Then Moses and the people of Israel sang this song to the LORD: \"I will sing to the LORD, because he has won a magnificent victory! He has hurled the horse and its rider into the sea."
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father’s God, and I will exalt him.",
+      "web": "Yah is my strength and song. He has become my salvation. This is my God, and I will praise him; my father’s God, and I will exalt him.",
+      "ct": "The LORD is my strength and my song — he has become my salvation. He is my God, and I will praise him; my father's God, and I will exalt him."
+    },
+    {
+      "verse": 3,
+      "kjv": "The LORD is a man of war: the LORD is his name.",
+      "web": "LORD is a man of war. LORD is his name.",
+      "ct": "The LORD is a warrior. The LORD is his name."
+    },
+    {
+      "verse": 4,
+      "kjv": "Pharaoh’s chariots and his host hath he cast into the sea: his chosen captains also are drowned in the Red sea.",
+      "web": "He has cast Pharaoh’s chariots and his army into the sea. His chosen captains are sunk in the Red Sea.",
+      "ct": "He hurled Pharaoh's chariots and army into the sea. Pharaoh's finest officers drowned in the Red Sea."
+    },
+    {
+      "verse": 5,
+      "kjv": "The depths have covered them: they sank into the bottom as a stone.",
+      "web": "The deeps cover them. They went down into the depths like a stone.",
+      "ct": "The deep waters swallowed them whole. They plunged to the bottom like a stone."
+    },
+    {
+      "verse": 6,
+      "kjv": "Thy right hand, O LORD, is become glorious in power: thy right hand, O LORD, hath dashed in pieces the enemy.",
+      "web": "Your right hand, LORD, is glorious in power. Your right hand, LORD, dashes the enemy in pieces.",
+      "ct": "Your right hand, O LORD, is glorious in power. Your right hand, O LORD, shatters the enemy to pieces."
+    },
+    {
+      "verse": 7,
+      "kjv": "And in the greatness of thine excellency thou hast overthrown them that rose up against thee: thou sentest forth thy wrath, which consumed them as stubble.",
+      "web": "In the greatness of your excellency, you overthrow those who rise up against you. You send out your wrath. It consumes them as stubble.",
+      "ct": "In the greatness of your majesty, you crush everyone who rises against you. You unleash your fury, and it burns them up like straw."
+    },
+    {
+      "verse": 8,
+      "kjv": "And with the blast of thy nostrils the waters were gathered together, the floods stood upright as an heap, and the depths were congealed in the heart of the sea.",
+      "web": "With the blast of your nostrils, the waters were piled up. The floods stood upright as a heap. The deeps were congealed in the heart of the sea.",
+      "ct": "With a blast from your nostrils, the waters piled up. The rushing currents stood firm like a wall, and the deep waters froze solid in the heart of the sea."
+    },
+    {
+      "verse": 9,
+      "kjv": "The enemy said, I will pursue, I will overtake, I will divide the spoil; my lust shall be satisfied upon them; I will draw my sword, my hand shall destroy them.",
+      "web": "The enemy said, ‘I will pursue. I will overtake. I will divide the plunder. My desire will be satisfied on them. I will draw my sword. My hand will destroy them.’",
+      "ct": "The enemy boasted, 'I will chase them down. I will overtake them. I will divide the plunder. I will gorge myself on them. I will draw my sword, and my own hand will destroy them.'"
+    },
+    {
+      "verse": 10,
+      "kjv": "Thou didst blow with thy wind, the sea covered them: they sank as lead in the mighty waters.",
+      "web": "You blew with your wind. The sea covered them. They sank like lead in the mighty waters.",
+      "ct": "But you blew with your wind, and the sea crashed over them. They sank like lead in the mighty waters."
+    },
+    {
+      "verse": 11,
+      "kjv": "Who is like unto thee, O LORD, among the gods? who is like thee, glorious in holiness, fearful in praises, doing wonders?",
+      "web": "Who is like you, LORD, among the gods? Who is like you, glorious in holiness, fearful in praises, doing wonders?",
+      "ct": "Who among the gods is like you, O LORD? Who is like you — glorious in holiness, awesome in praises, working wonders?"
+    },
+    {
+      "verse": 12,
+      "kjv": "Thou stretchedst out thy right hand, the earth swallowed them.",
+      "web": "You stretched out your right hand. The earth swallowed them.",
+      "ct": "You stretched out your right hand, and the earth swallowed them."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou in thy mercy hast led forth the people which thou hast redeemed: thou hast guided them in thy strength unto thy holy habitation.",
+      "web": "“You, in your loving kindness, have led the people that you have redeemed. You have guided them in your strength to your holy habitation.",
+      "ct": "In your mercy, you have led the people you redeemed. In your strength, you have guided them to your holy dwelling place."
+    },
+    {
+      "verse": 14,
+      "kjv": "The people shall hear, and be afraid: sorrow shall take hold on the inhabitants of Palestina.",
+      "web": "The peoples have heard. They tremble. Pangs have taken hold of the inhabitants of Philistia.",
+      "ct": "The nations will hear about this and tremble. Anguish will grip the people of Philistia."
+    },
+    {
+      "verse": 15,
+      "kjv": "Then the dukes of Edom shall be amazed; the mighty men of Moab, trembling shall take hold upon them; all the inhabitants of Canaan shall melt away.",
+      "web": "Then the chiefs of Edom were dismayed. Trembling takes hold of the mighty men of Moab. All the inhabitants of Canaan have melted away.",
+      "ct": "The chiefs of Edom will be horrified. The mighty warriors of Moab will shake with fear. Every person living in Canaan will melt with dread."
+    },
+    {
+      "verse": 16,
+      "kjv": "Fear and dread shall fall upon them; by the greatness of thine arm they shall be as still as a stone; till thy people pass over, O LORD, till the people pass over, which thou hast purchased.",
+      "web": "Terror and dread falls on them. By the greatness of your arm they are as still as a stone, until your people pass over, LORD, until the people you have purchased pass over.",
+      "ct": "Terror and dread will fall on them. The power of your arm will make them freeze like stone — until your people pass by safely, O LORD, until the people you have claimed as your own pass by."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thou shalt bring them in, and plant them in the mountain of thine inheritance, in the place, O LORD, which thou hast made for thee to dwell in, in the Sanctuary, O LORD, which thy hands have established.",
+      "web": "You will bring them in, and plant them in the mountain of your inheritance, the place, LORD, which you have made for yourself to dwell in; the sanctuary, Lord, which your hands have established.",
+      "ct": "You will bring them in and plant them on the mountain that is your inheritance — the place, O LORD, that you have made as your dwelling, the sanctuary that your own hands have established."
+    },
+    {
+      "verse": 18,
+      "kjv": "The LORD shall reign for ever and ever.",
+      "web": "LORD will reign forever and ever.”",
+      "ct": "The LORD will reign forever and ever!\""
+    },
+    {
+      "verse": 19,
+      "kjv": "For the horse of Pharaoh went in with his chariots and with his horsemen into the sea, and the LORD brought again the waters of the sea upon them; but the children of Israel went on dry land in the midst of the sea.",
+      "web": "For the horses of Pharaoh went in with his chariots and with his horsemen into the sea, and LORD brought back the waters of the sea on them; but the children of Israel walked on dry land in the middle of the sea.",
+      "ct": "When Pharaoh's horses, chariots, and horsemen charged into the sea, the LORD brought the waters crashing back over them. But the people of Israel had walked through on dry ground right in the middle of the sea."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Miriam the prophetess, the sister of Aaron, took a timbrel in her hand; and all the women went out after her with timbrels and with dances.",
+      "web": "Miriam the prophetess, the sister of Aaron, took a tambourine in her hand; and all the women went out after her with tambourines and with dances.",
+      "ct": "Then Miriam the prophetess, Aaron's sister, grabbed a tambourine, and all the women followed her out with tambourines, dancing."
+    },
+    {
+      "verse": 21,
+      "kjv": "And Miriam answered them, Sing ye to the LORD, for he hath triumphed gloriously; the horse and his rider hath he thrown into the sea.",
+      "web": "Miriam answered them, “Sing to LORD, for he has triumphed gloriously. The horse and his rider he has thrown into the sea.”",
+      "ct": "Miriam sang out to them, \"Sing to the LORD, because he has won a magnificent victory! He has hurled the horse and its rider into the sea.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "So Moses brought Israel from the Red sea, and they went out into the wilderness of Shur; and they went three days in the wilderness, and found no water.",
+      "web": "Moses led Israel onward from the Red Sea, and they went out into the wilderness of Shur; and they went three days in the wilderness, and found no water.",
+      "ct": "Moses led Israel away from the Red Sea, and they headed out into the wilderness of Shur. They traveled for 3 days through the wilderness without finding any water."
+    },
+    {
+      "verse": 23,
+      "kjv": "And when they came to Marah, they could not drink of the waters of Marah, for they were bitter: therefore the name of it was called Marah.",
+      "web": "When they came to Marah, they couldn’t drink from the waters of Marah, for they were bitter. Therefore its name was called Marah.",
+      "ct": "When they finally reached Marah, they couldn't drink the water there because it was bitter. That's why the place was called Marah, which means \"bitter.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And the people murmured against Moses, saying, What shall we drink?",
+      "web": "The people murmured against Moses, saying, “What shall we drink?”",
+      "ct": "The people complained to Moses, demanding, \"What are we supposed to drink?\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And he cried unto the LORD; and the LORD shewed him a tree, which when he had cast into the waters, the waters were made sweet: there he made for them a statute and an ordinance, and there he proved them,",
+      "web": "Then he cried to LORD. LORD showed him a tree, and he threw it into the waters, and the waters were made sweet. There he made a statute and an ordinance for them, and there he tested them.",
+      "ct": "Moses cried out to the LORD, and the LORD showed him a piece of wood. When Moses threw it into the water, the water turned fresh and drinkable. It was there that the LORD gave them a rule and a command, and there he put them to the test."
+    },
+    {
+      "verse": 26,
+      "kjv": "And said, If thou wilt diligently hearken to the voice of the LORD thy God, and wilt do that which is right in his sight, and wilt give ear to his commandments, and keep all his statutes, I will put none of these diseases upon thee, which I have brought upon the Egyptians: for I am the LORD that healeth thee.",
+      "web": "He said, “If you will diligently listen to LORD your God’s voice, and will do that which is right in his eyes, and will pay attention to his commandments, and keep all his statutes, I will put none of the diseases on you, which I have put on the Egyptians; for I am LORD who heals you.”",
+      "ct": "He said, \"If you truly listen to the voice of the LORD your God, do what is right before him, pay attention to his commands, and obey all his laws, I won't bring on you any of the diseases I brought on the Egyptians. I am the LORD who heals you.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And they came to Elim, where were twelve wells of water, and threescore and ten palm trees: and they encamped there by the waters.",
+      "web": "They came to Elim, where there were twelve springs of water, and seventy palm trees. They encamped there by the waters.",
+      "ct": "Then they came to Elim, where there were 12 springs of water and 70 palm trees. They set up camp there beside the water."
+    }
+  ]
+}

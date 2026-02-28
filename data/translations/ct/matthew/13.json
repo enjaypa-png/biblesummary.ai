@@ -1,0 +1,359 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 13,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:12:12.387Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The same day went Jesus out of the house, and sat by the sea side.",
+      "web": "On that day Jesus went out of the house, and sat by the seaside.",
+      "ct": "That same day, Jesus left the house and went to sit by the lake."
+    },
+    {
+      "verse": 2,
+      "kjv": "And great multitudes were gathered together unto him, so that he went into a ship, and sat; and the whole multitude stood on the shore.",
+      "web": "Great multitudes gathered to him, so that he entered into a boat, and sat, and all the multitude stood on the beach.",
+      "ct": "Such a huge crowd gathered around him that he got into a boat and sat down, while the entire crowd stood along the shore."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he spake many things unto them in parables, saying, Behold, a sower went forth to sow;",
+      "web": "He spoke to them many things in parables, saying, “Behold, a farmer went out to sow.",
+      "ct": "He taught them many things through parables. He said, \"Listen — a farmer went out to plant his seeds."
+    },
+    {
+      "verse": 4,
+      "kjv": "And when he sowed, some seeds fell by the way side, and the fowls came and devoured them up:",
+      "web": "As he sowed, some seeds fell by the roadside, and the birds came and devoured them.",
+      "ct": "As he scattered them, some seeds fell along the path, and birds came and ate them up."
+    },
+    {
+      "verse": 5,
+      "kjv": "Some fell upon stony places, where they had not much earth: and forthwith they sprung up, because they had no deepness of earth:",
+      "web": "Others fell on rocky ground, where they didn’t have much soil, and immediately they sprang up, because they had no depth of earth.",
+      "ct": "Some fell on rocky ground where the soil was thin. They sprouted quickly because the soil was so shallow."
+    },
+    {
+      "verse": 6,
+      "kjv": "And when the sun was up, they were scorched; and because they had no root, they withered away.",
+      "web": "When the sun had risen, they were scorched. Because they had no root, they withered away.",
+      "ct": "But when the sun came up, the young plants were scorched. Since they had no real roots, they shriveled and died."
+    },
+    {
+      "verse": 7,
+      "kjv": "And some fell among thorns; and the thorns sprung up, and choked them:",
+      "web": "Others fell among thorns. The thorns grew up and choked them.",
+      "ct": "Other seeds fell among thorn bushes, and the thorns grew up and choked them out."
+    },
+    {
+      "verse": 8,
+      "kjv": "But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold.",
+      "web": "Others fell on good soil, and yielded fruit: some one hundred times as much, some sixty, and some thirty.",
+      "ct": "But some seeds fell on good soil and produced a harvest — some 100 times what was planted, some 60 times, and some 30 times."
+    },
+    {
+      "verse": 9,
+      "kjv": "Who hath ears to hear, let him hear.",
+      "web": "He who has ears to hear, let him hear.”",
+      "ct": "If you have ears to hear, then listen carefully!\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the disciples came, and said unto him, Why speakest thou unto them in parables?",
+      "web": "The disciples came, and said to him, “Why do you speak to them in parables?”",
+      "ct": "Later, the disciples came to him and asked, \"Why do you teach the crowds using parables?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "He answered and said unto them, Because it is given unto you to know the mysteries of the kingdom of heaven, but to them it is not given.",
+      "web": "He answered them, “To you it is given to know the mysteries of the Kingdom of Heaven, but it is not given to them.",
+      "ct": "He answered, \"You've been given the ability to understand the mysteries of the kingdom of heaven, but they haven't."
+    },
+    {
+      "verse": 12,
+      "kjv": "For whosoever hath, to him shall be given, and he shall have more abundance: but whosoever hath not, from him shall be taken away even that he hath.",
+      "web": "For whoever has, to him will be given, and he will have abundance, but whoever doesn’t have, from him will be taken away even that which he has.",
+      "ct": "Whoever already has understanding will be given even more, until they have an abundance. But whoever lacks it will lose even the little they have."
+    },
+    {
+      "verse": 13,
+      "kjv": "Therefore speak I to them in parables: because they seeing see not; and hearing they hear not, neither do they understand.",
+      "web": "Therefore I speak to them in parables, because seeing they don’t see, and hearing, they don’t hear, neither do they understand.",
+      "ct": "That's why I speak to them in parables — because even though they look, they don't really see, and even though they listen, they don't really hear or understand."
+    },
+    {
+      "verse": 14,
+      "kjv": "And in them is fulfilled the prophecy of Esaias, which saith, By hearing ye shall hear, and shall not understand; and seeing ye shall see, and shall not perceive:",
+      "web": "In them the prophecy of Isaiah is fulfilled, which says, ‘By hearing you will hear, and will in no way understand; Seeing you will see, and will in no way perceive:",
+      "ct": "In them, the prophecy of Isaiah is coming true: 'You will hear and hear but never understand. You will look and look but never truly see."
+    },
+    {
+      "verse": 15,
+      "kjv": "For this people’s heart is waxed gross, and their ears are dull of hearing, and their eyes they have closed; lest at any time they should see with their eyes and hear with their ears, and should understand with their heart, and should be converted, and I should heal them.",
+      "web": "for this people’s heart has grown callous, their ears are dull of hearing, they have closed their eyes; or else perhaps they might perceive with their eyes, hear with their ears, understand with their heart, and would turn again; and I would heal them.’",
+      "ct": "For this people's hearts have grown hard. Their ears can barely hear, and they've shut their eyes — so they won't see with their eyes, hear with their ears, or understand with their hearts, and turn back to me so I could heal them.'"
+    },
+    {
+      "verse": 16,
+      "kjv": "But blessed are your eyes, for they see: and your ears, for they hear.",
+      "web": "“But blessed are your eyes, for they see; and your ears, for they hear.",
+      "ct": "\"But how blessed are your eyes, because they see! And your ears, because they hear!"
+    },
+    {
+      "verse": 17,
+      "kjv": "For verily I say unto you, That many prophets and righteous men have desired to see those things which ye see, and have not seen them; and to hear those things which ye hear, and have not heard them.",
+      "web": "For most certainly I tell you that many prophets and righteous men desired to see the things which you see, and didn’t see them; and to hear the things which you hear, and didn’t hear them.",
+      "ct": "I tell you the truth: many prophets and righteous people longed to see what you're seeing and never saw it, and to hear what you're hearing and never heard it."
+    },
+    {
+      "verse": 18,
+      "kjv": "Hear ye therefore the parable of the sower.",
+      "web": "“Hear, then, the parable of the farmer.",
+      "ct": "\"Now listen to what the parable of the farmer means."
+    },
+    {
+      "verse": 19,
+      "kjv": "When any one heareth the word of the kingdom, and understandeth it not, then cometh the wicked one, and catcheth away that which was sown in his heart. This is he which received seed by the way side.",
+      "web": "When anyone hears the word of the Kingdom, and doesn’t understand it, the evil one comes, and snatches away that which has been sown in his heart. This is what was sown by the roadside.",
+      "ct": "When someone hears the message about the kingdom but doesn't understand it, the evil one comes and snatches away what was planted in their heart. This is the seed that fell along the path."
+    },
+    {
+      "verse": 20,
+      "kjv": "But he that received the seed into stony places, the same is he that heareth the word, and anon with joy receiveth it;",
+      "web": "What was sown on the rocky places, this is he who hears the word, and immediately with joy receives it;",
+      "ct": "The seed that fell on rocky ground represents someone who hears the message and immediately receives it with joy."
+    },
+    {
+      "verse": 21,
+      "kjv": "Yet hath he not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended.",
+      "web": "yet he has no root in himself, but endures for a while. When oppression or persecution arises because of the word, immediately he stumbles.",
+      "ct": "But it never takes deep root in them, so it only lasts a short time. The moment trouble or persecution comes because of the message, they quickly fall away."
+    },
+    {
+      "verse": 22,
+      "kjv": "He also that received seed among the thorns is he that heareth the word; and the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful.",
+      "web": "What was sown among the thorns, this is he who hears the word, but the cares of this age and the deceitfulness of riches choke the word, and he becomes unfruitful.",
+      "ct": "The seed that fell among thorns represents someone who hears the message, but the worries of life and the seductive pull of wealth choke it out, and it never produces anything."
+    },
+    {
+      "verse": 23,
+      "kjv": "But he that received seed into the good ground is he that heareth the word, and understandeth it; which also beareth fruit, and bringeth forth, some an hundredfold, some sixty, some thirty.",
+      "web": "What was sown on the good ground, this is he who hears the word, and understands it, who most certainly bears fruit, and produces, some one hundred times as much, some sixty, and some thirty.”",
+      "ct": "But the seed that fell on good soil represents someone who hears the message and truly understands it. That person produces a harvest — some 100 times, some 60 times, and some 30 times what was planted.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Another parable put he forth unto them, saying, The kingdom of heaven is likened unto a man which sowed good seed in his field:",
+      "web": "He set another parable before them, saying, “The Kingdom of Heaven is like a man who sowed good seed in his field,",
+      "ct": "Jesus told them another parable: \"The kingdom of heaven is like a man who planted good seed in his field."
+    },
+    {
+      "verse": 25,
+      "kjv": "But while men slept, his enemy came and sowed tares among the wheat, and went his way.",
+      "web": "but while people slept, his enemy came and sowed darnel weeds also among the wheat, and went away.",
+      "ct": "But while everyone was sleeping, his enemy came and scattered weeds among the wheat, then slipped away."
+    },
+    {
+      "verse": 26,
+      "kjv": "But when the blade was sprung up, and brought forth fruit, then appeared the tares also.",
+      "web": "But when the blade sprang up and produced fruit, then the darnel weeds appeared also.",
+      "ct": "When the wheat sprouted and began forming grain, the weeds appeared too."
+    },
+    {
+      "verse": 27,
+      "kjv": "So the servants of the householder came and said unto him, Sir, didst not thou sow good seed in thy field? from whence then hath it tares?",
+      "web": "The servants of the householder came and said to him, ‘Sir, didn’t you sow good seed in your field? Where did these darnel weeds come from?’",
+      "ct": "The owner's servants came to him and said, 'Sir, didn't you plant good seed in your field? Where did all these weeds come from?'"
+    },
+    {
+      "verse": 28,
+      "kjv": "He said unto them, An enemy hath done this. The servants said unto him, Wilt thou then that we go and gather them up?",
+      "web": "“He said to them, ‘An enemy has done this.’ “The servants asked him, ‘Do you want us to go and gather them up?’",
+      "ct": "He told them, 'An enemy did this.' The servants asked, 'Do you want us to go pull them up?'"
+    },
+    {
+      "verse": 29,
+      "kjv": "But he said, Nay; lest while ye gather up the tares, ye root up also the wheat with them.",
+      "web": "“But he said, ‘No, lest perhaps while you gather up the darnel weeds, you root up the wheat with them.",
+      "ct": "\"'No,' he said, 'because if you pull up the weeds, you might uproot the wheat along with them."
+    },
+    {
+      "verse": 30,
+      "kjv": "Let both grow together until the harvest: and in the time of harvest I will say to the reapers, Gather ye together first the tares, and bind them in bundles to burn them: but gather the wheat into my barn.",
+      "web": "Let both grow together until the harvest, and in the harvest time I will tell the reapers, “First, gather up the darnel weeds, and bind them in bundles to burn them; but gather the wheat into my barn.” ’ ”",
+      "ct": "Let them both grow together until harvest time. Then I'll tell the harvesters: First, collect the weeds and tie them in bundles to be burned. Then gather the wheat into my barn.'\""
+    },
+    {
+      "verse": 31,
+      "kjv": "Another parable put he forth unto them, saying, The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field:",
+      "web": "He set another parable before them, saying, “The Kingdom of Heaven is like a grain of mustard seed, which a man took, and sowed in his field;",
+      "ct": "He told them yet another parable: \"The kingdom of heaven is like a mustard seed that a man planted in his field."
+    },
+    {
+      "verse": 32,
+      "kjv": "Which indeed is the least of all seeds: but when it is grown, it is the greatest among herbs, and becometh a tree, so that the birds of the air come and lodge in the branches thereof.",
+      "web": "which indeed is smaller than all seeds. But when it is grown, it is greater than the herbs, and becomes a tree, so that the birds of the air come and lodge in its branches.”",
+      "ct": "It's the smallest of all seeds, but when it grows, it becomes the largest of garden plants — it turns into a tree so big that birds come and nest in its branches.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "Another parable spake he unto them; The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the whole was leavened.",
+      "web": "He spoke another parable to them. “The Kingdom of Heaven is like yeast, which a woman took, and hid in three measures of meal, until it was all leavened.”",
+      "ct": "He shared another parable with them: \"The kingdom of heaven is like yeast that a woman mixed into 3 measures of flour until it worked all the way through the dough.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "All these things spake Jesus unto the multitude in parables; and without a parable spake he not unto them:",
+      "web": "Jesus spoke all these things in parables to the multitudes; and without a parable, he didn’t speak to them,",
+      "ct": "Jesus spoke all of these things to the crowds in parables. In fact, he didn't teach them anything without using a parable."
+    },
+    {
+      "verse": 35,
+      "kjv": "That it might be fulfilled which was spoken by the prophet, saying, I will open my mouth in parables; I will utter things which have been kept secret from the foundation of the world.",
+      "web": "that it might be fulfilled which was spoken through the prophet, saying, “I will open my mouth in parables; I will utter things hidden from the foundation of the world.”",
+      "ct": "This fulfilled what the prophet had spoken: \"I will speak in parables. I will reveal things that have been hidden since the creation of the world.\""
+    },
+    {
+      "verse": 36,
+      "kjv": "Then Jesus sent the multitude away, and went into the house: and his disciples came unto him, saying, Declare unto us the parable of the tares of the field.",
+      "web": "Then Jesus sent the multitudes away, and went into the house. His disciples came to him, saying, “Explain to us the parable of the darnel weeds of the field.”",
+      "ct": "Then Jesus sent the crowds away and went back into the house. His disciples came to him and said, \"Explain the parable of the weeds in the field to us.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "He answered and said unto them, He that soweth the good seed is the Son of man;",
+      "web": "He answered them, “He who sows the good seed is the Son of Man,",
+      "ct": "He answered, \"The one who plants the good seed is the Son of Man."
+    },
+    {
+      "verse": 38,
+      "kjv": "The field is the world; the good seed are the children of the kingdom; but the tares are the children of the wicked one;",
+      "web": "the field is the world; and the good seed, these are the children of the Kingdom; and the darnel weeds are the children of the evil one.",
+      "ct": "The field is the world. The good seeds are the people who belong to the kingdom, and the weeds are the people who belong to the evil one."
+    },
+    {
+      "verse": 39,
+      "kjv": "The enemy that sowed them is the devil; the harvest is the end of the world; and the reapers are the angels.",
+      "web": "The enemy who sowed them is the devil. The harvest is the end of the age, and the reapers are angels.",
+      "ct": "The enemy who planted the weeds is the devil. The harvest is the end of the age, and the harvesters are angels."
+    },
+    {
+      "verse": 40,
+      "kjv": "As therefore the tares are gathered and burned in the fire; so shall it be in the end of this world.",
+      "web": "As therefore the darnel weeds are gathered up and burned with fire; so will it be at the end of this age.",
+      "ct": "Just as the weeds are pulled up and burned in the fire, that's how it will be at the end of the age."
+    },
+    {
+      "verse": 41,
+      "kjv": "The Son of man shall send forth his angels, and they shall gather out of his kingdom all things that offend, and them which do iniquity;",
+      "web": "The Son of Man will send out his angels, and they will gather out of his Kingdom all things that cause stumbling, and those who do iniquity,",
+      "ct": "The Son of Man will send out his angels, and they will remove from his kingdom everything that causes sin and everyone who does evil."
+    },
+    {
+      "verse": 42,
+      "kjv": "And shall cast them into a furnace of fire: there shall be wailing and gnashing of teeth.",
+      "web": "and will cast them into the furnace of fire. There will be the weeping and the gnashing of teeth.",
+      "ct": "They will throw them into the blazing furnace, where there will be weeping and grinding of teeth."
+    },
+    {
+      "verse": 43,
+      "kjv": "Then shall the righteous shine forth as the sun in the kingdom of their Father. Who hath ears to hear, let him hear.",
+      "web": "Then the righteous will shine like the sun in the Kingdom of their Father. He who has ears to hear, let him hear.",
+      "ct": "Then the righteous will shine like the sun in their Father's kingdom. If you have ears to hear, then listen!"
+    },
+    {
+      "verse": 44,
+      "kjv": "Again, the kingdom of heaven is like unto treasure hid in a field; the which when a man hath found, he hideth, and for joy thereof goeth and selleth all that he hath, and buyeth that field.",
+      "web": "“Again, the Kingdom of Heaven is like treasure hidden in the field, which a man found, and hid. In his joy, he goes and sells all that he has, and buys that field.",
+      "ct": "\"The kingdom of heaven is like treasure hidden in a field. When a man found it, he hid it again, and then — overjoyed — he went and sold everything he owned and bought that field."
+    },
+    {
+      "verse": 45,
+      "kjv": "Again, the kingdom of heaven is like unto a merchant man, seeking goodly pearls:",
+      "web": "“Again, the Kingdom of Heaven is like a man who is a merchant seeking fine pearls,",
+      "ct": "\"The kingdom of heaven is also like a merchant searching for fine pearls."
+    },
+    {
+      "verse": 46,
+      "kjv": "Who, when he had found one pearl of great price, went and sold all that he had, and bought it.",
+      "web": "who having found one pearl of great price, he went and sold all that he had, and bought it.",
+      "ct": "When he discovered one pearl of incredible value, he went and sold everything he had and bought it."
+    },
+    {
+      "verse": 47,
+      "kjv": "Again, the kingdom of heaven is like unto a net, that was cast into the sea, and gathered of every kind:",
+      "web": "“Again, the Kingdom of Heaven is like a dragnet, that was cast into the sea, and gathered some fish of every kind,",
+      "ct": "\"The kingdom of heaven is also like a large net thrown into the sea that caught all kinds of fish."
+    },
+    {
+      "verse": 48,
+      "kjv": "Which, when it was full, they drew to shore, and sat down, and gathered the good into vessels, but cast the bad away.",
+      "web": "which, when it was filled, they drew up on the beach. They sat down, and gathered the good into containers, but the bad they threw away.",
+      "ct": "When it was full, the fishermen pulled it up onto the shore. They sat down and sorted the good fish into containers but threw the bad ones away."
+    },
+    {
+      "verse": 49,
+      "kjv": "So shall it be at the end of the world: the angels shall come forth, and sever the wicked from among the just,",
+      "web": "So will it be in the end of the world. The angels will come and separate the wicked from among the righteous,",
+      "ct": "That's how it will be at the end of the age. The angels will come and separate the wicked from the righteous,"
+    },
+    {
+      "verse": 50,
+      "kjv": "And shall cast them into the furnace of fire: there shall be wailing and gnashing of teeth.",
+      "web": "and will cast them into the furnace of fire. There will be the weeping and the gnashing of teeth.”",
+      "ct": "and throw them into the blazing furnace, where there will be weeping and grinding of teeth.\""
+    },
+    {
+      "verse": 51,
+      "kjv": "Jesus saith unto them, Have ye understood all these things? They say unto him, Yea, Lord.",
+      "web": "Jesus said to them, “Have you understood all these things?” They answered him, “Yes, Lord.”",
+      "ct": "Jesus asked them, \"Do you understand all of this?\" They answered, \"Yes, Lord.\""
+    },
+    {
+      "verse": 52,
+      "kjv": "Then said he unto them, Therefore every scribe which is instructed unto the kingdom of heaven is like unto a man that is an householder, which bringeth forth out of his treasure things new and old.",
+      "web": "He said to them, “Therefore every scribe who has been made a disciple in the Kingdom of Heaven is like a man who is a householder, who brings out of his treasure new and old things.”",
+      "ct": "He said to them, \"That's why every teacher of the law who has become a student of the kingdom of heaven is like a homeowner who brings both new and old treasures out of his storeroom.\""
+    },
+    {
+      "verse": 53,
+      "kjv": "And it came to pass, that when Jesus had finished these parables, he departed thence.",
+      "web": "When Jesus had finished these parables, he departed from there.",
+      "ct": "When Jesus finished telling these parables, he left that area."
+    },
+    {
+      "verse": 54,
+      "kjv": "And when he was come into his own country, he taught them in their synagogue, insomuch that they were astonished, and said, Whence hath this man this wisdom, and these mighty works?",
+      "web": "Coming into his own country, he taught them in their synagogue, so that they were astonished, and said, “Where did this man get this wisdom, and these mighty works?",
+      "ct": "He went to his hometown and began teaching in their synagogue. The people were amazed and said, \"Where did this man get such wisdom and the ability to do these miracles?"
+    },
+    {
+      "verse": 55,
+      "kjv": "Is not this the carpenter’s son? is not his mother called Mary? and his brethren, James, and Joses, and Simon, and Judas?",
+      "web": "Isn’t this the carpenter’s son? Isn’t his mother called Mary, and his brothers, James, Joses, Simon, and Judas?",
+      "ct": "Isn't he the carpenter's son? Isn't his mother named Mary? Aren't James, Joses, Simon, and Judas his brothers?"
+    },
+    {
+      "verse": 56,
+      "kjv": "And his sisters, are they not all with us? Whence then hath this man all these things?",
+      "web": "Aren’t all of his sisters with us? Where then did this man get all of these things?”",
+      "ct": "And don't all his sisters live right here among us? So where did he get all of this?\""
+    },
+    {
+      "verse": 57,
+      "kjv": "And they were offended in him. But Jesus said unto them, A prophet is not without honour, save in his own country, and in his own house.",
+      "web": "They were offended by him. But Jesus said to them, “A prophet is not without honor, except in his own country, and in his own house.”",
+      "ct": "They took offense at him. But Jesus told them, \"A prophet is honored everywhere except in his own hometown and his own family.\""
+    },
+    {
+      "verse": 58,
+      "kjv": "And he did not many mighty works there because of their unbelief.",
+      "web": "He didn’t do many mighty works there because of their unbelief.",
+      "ct": "He didn't do many miracles there because of their unbelief."
+    }
+  ]
+}

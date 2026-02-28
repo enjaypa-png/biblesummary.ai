@@ -1,0 +1,191 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 31,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:16:10.751Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Moses went and spake these words unto all Israel.",
+      "web": "Moses went and spoke these words to all Israel.",
+      "ct": "Moses went and spoke these words to all of Israel."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he said unto them, I am an hundred and twenty years old this day; I can no more go out and come in: also the LORD hath said unto me, Thou shalt not go over this Jordan.",
+      "web": "He said to them, “I am one hundred twenty years old today. I can no more go out and come in. LORD has said to me, ‘You shall not go over this Jordan.’",
+      "ct": "He told them, \"I'm 120 years old today. I can no longer lead you in and out of battle. And the LORD has told me, 'You will not cross the Jordan.'"
+    },
+    {
+      "verse": 3,
+      "kjv": "The LORD thy God, he will go over before thee, and he will destroy these nations from before thee, and thou shalt possess them: and Joshua, he shall go over before thee, as the LORD hath said.",
+      "web": "LORD your God himself will go over before you. He will destroy these nations from before you, and you shall dispossess them. Joshua will go over before you, as LORD has spoken.",
+      "ct": "But the LORD your God himself will cross over ahead of you. He will destroy these nations in your path so you can take their land. Joshua will lead you across, just as the LORD has promised."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the LORD shall do unto them as he did to Sihon and to Og, kings of the Amorites, and unto the land of them, whom he destroyed.",
+      "web": "LORD will do to them as he did to Sihon and to Og, the kings of the Amorites, and to their land, when he destroyed them.",
+      "ct": "The LORD will do to them exactly what he did to Sihon and Og, the Amorite kings, and to their land — he wiped them out completely."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the LORD shall give them up before your face, that ye may do unto them according unto all the commandments which I have commanded you.",
+      "web": "LORD will deliver them up before you, and you shall do to them according to all the commandment which I have commanded you.",
+      "ct": "The LORD will hand them over to you, and you must deal with them exactly as I've commanded you."
+    },
+    {
+      "verse": 6,
+      "kjv": "Be strong and of a good courage, fear not, nor be afraid of them: for the LORD thy God, he it is that doth go with thee; he will not fail thee, nor forsake thee.",
+      "web": "Be strong and courageous. Don’t be afraid or scared of them; for LORD your God himself is who goes with you. He will not fail you nor forsake you.”",
+      "ct": "Be strong and courageous. Don't be afraid of them or let them intimidate you, because the LORD your God is the one going with you. He will never fail you or abandon you.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And Moses called unto Joshua, and said unto him in the sight of all Israel, Be strong and of a good courage: for thou must go with this people unto the land which the LORD hath sworn unto their fathers to give them; and thou shalt cause them to inherit it.",
+      "web": "Moses called to Joshua, and said to him in the sight of all Israel, “Be strong and courageous, for you shall go with this people into the land which LORD has sworn to their fathers to give them; and you shall cause them to inherit it.",
+      "ct": "Then Moses called Joshua forward and said to him in front of all Israel, \"Be strong and courageous, because you are the one who will lead this people into the land the LORD promised their ancestors. You will help them take possession of it."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the LORD, he it is that doth go before thee; he will be with thee, he will not fail thee, neither forsake thee: fear not, neither be dismayed.",
+      "web": "LORD himself is who goes before you. He will be with you. He will not fail you nor forsake you. Don’t be afraid. Don’t be discouraged.”",
+      "ct": "The LORD himself goes ahead of you. He will be with you. He won't fail you or abandon you. Don't be afraid, and don't lose heart.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Moses wrote this law, and delivered it unto the priests the sons of Levi, which bare the ark of the covenant of the LORD, and unto all the elders of Israel.",
+      "web": "Moses wrote this law and delivered it to the priests the sons of Levi, who bore the ark of LORD’s covenant, and to all the elders of Israel.",
+      "ct": "Moses wrote down this law and gave it to the priests — the descendants of Levi who carried the ark of the LORD's covenant — and to all the elders of Israel."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Moses commanded them, saying, At the end of every seven years, in the solemnity of the year of release, in the feast of tabernacles,",
+      "web": "Moses commanded them, saying, “At the end of every seven years, in the set time of the year of release, in the feast of booths,",
+      "ct": "Moses gave them this command: \"At the end of every 7 years, during the year of debt cancellation, at the Feast of Tabernacles,"
+    },
+    {
+      "verse": 11,
+      "kjv": "When all Israel is come to appear before the LORD thy God in the place which he shall choose, thou shalt read this law before all Israel in their hearing.",
+      "web": "when all Israel has come to appear before LORD your God in the place which he will choose, you shall read this law before all Israel in their hearing.",
+      "ct": "when all Israel comes to stand before the LORD your God at the place he chooses, you must read this law out loud so that all Israel can hear it."
+    },
+    {
+      "verse": 12,
+      "kjv": "Gather the people together, men, and women, and children, and thy stranger that is within thy gates, that they may hear, and that they may learn, and fear the LORD your God, and observe to do all the words of this law:",
+      "web": "Assemble the people, the men and the women and the little ones, and the foreigners who are within your gates, that they may hear, learn, fear LORD your God, and observe to do all the words of this law,",
+      "ct": "Gather everyone together — men, women, children, and the foreigners living in your towns — so they can listen, learn, and fear the LORD your God, and carefully follow every word of this law."
+    },
+    {
+      "verse": 13,
+      "kjv": "And that their children, which have not known any thing, may hear, and learn to fear the LORD your God, as long as ye live in the land whither ye go over Jordan to possess it.",
+      "web": "and that their children, who have not known, may hear and learn to fear LORD your God, as long as you live in the land where you go over the Jordan to possess it.”",
+      "ct": "Their children who don't yet know this law must also hear it and learn to fear the LORD your God for as long as you live in the land you're crossing the Jordan to possess.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And the LORD said unto Moses, Behold, thy days approach that thou must die: call Joshua, and present yourselves in the tabernacle of the congregation, that I may give him a charge. And Moses and Joshua went, and presented themselves in the tabernacle of the congregation.",
+      "web": "LORD said to Moses, “Behold, your days approach that you must die. Call Joshua, and present yourselves in the Tent of Meeting, that I may commission him.” Moses and Joshua went, and presented themselves in the Tent of Meeting.",
+      "ct": "The LORD said to Moses, \"The time of your death is near. Bring Joshua and present yourselves at the Tent of Meeting so I can commission him.\" So Moses and Joshua went and presented themselves at the Tent of Meeting."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the LORD appeared in the tabernacle in a pillar of a cloud: and the pillar of the cloud stood over the door of the tabernacle.",
+      "web": "LORD appeared in the Tent in a pillar of cloud, and the pillar of cloud stood over the Tent’s door.",
+      "ct": "The LORD appeared at the tent in a pillar of cloud, and the pillar of cloud stood over the entrance of the tent."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the LORD said unto Moses, Behold, thou shalt sleep with thy fathers; and this people will rise up, and go a whoring after the gods of the strangers of the land, whither they go to be among them, and will forsake me, and break my covenant which I have made with them.",
+      "web": "LORD said to Moses, “Behold, you shall sleep with your fathers. This people will rise up and play the prostitute after the strange gods of the land where they go to be among them, and will forsake me and break my covenant which I have made with them.",
+      "ct": "The LORD said to Moses, \"You are about to die. After you're gone, this people will chase after the foreign gods of the land they're entering. They will abandon me and break the covenant I made with them."
+    },
+    {
+      "verse": 17,
+      "kjv": "Then my anger shall be kindled against them in that day, and I will forsake them, and I will hide my face from them, and they shall be devoured, and many evils and troubles shall befall them; so that they will say in that day, Are not these evils come upon us, because our God is not among us?",
+      "web": "Then my anger shall be kindled against them in that day, and I will forsake them, and I will hide my face from them, and they shall be devoured, and many evils and troubles shall come on them; so that they will say in that day, ‘Haven’t these evils come on us because our God is not among us?’",
+      "ct": "When that happens, my anger will burn against them. I will abandon them and hide my face from them. They will be destroyed, and disaster after disaster will crash down on them. Then they'll say, 'Aren't these terrible things happening because our God is no longer with us?'"
+    },
+    {
+      "verse": 18,
+      "kjv": "And I will surely hide my face in that day for all the evils which they shall have wrought, in that they are turned unto other gods.",
+      "web": "I will surely hide my face in that day for all the evil which they have done, in that they have turned to other gods.",
+      "ct": "And I will absolutely hide my face from them on that day because of all the evil they've done by turning to other gods."
+    },
+    {
+      "verse": 19,
+      "kjv": "Now therefore write ye this song for you, and teach it the children of Israel: put it in their mouths, that this song may be a witness for me against the children of Israel.",
+      "web": "“Now therefore write this song for yourselves, and teach it to the children of Israel. Put it in their mouths, that this song may be a witness for me against the children of Israel.",
+      "ct": "So write down this song and teach it to the people of Israel. Make them memorize it, so that this song will serve as my witness against them."
+    },
+    {
+      "verse": 20,
+      "kjv": "For when I shall have brought them into the land which I sware unto their fathers, that floweth with milk and honey; and they shall have eaten and filled themselves, and waxen fat; then will they turn unto other gods, and serve them, and provoke me, and break my covenant.",
+      "web": "For when I have brought them into the land which I swore to their fathers, flowing with milk and honey, and they have eaten and filled themselves, and grown fat, then they will turn to other gods, and serve them, and despise me, and break my covenant.",
+      "ct": "When I bring them into the land I promised their ancestors — a land flowing with milk and honey — they'll eat until they're full and grow comfortable. Then they'll turn to other gods and worship them, treating me with contempt and breaking my covenant."
+    },
+    {
+      "verse": 21,
+      "kjv": "And it shall come to pass, when many evils and troubles are befallen them, that this song shall testify against them as a witness; for it shall not be forgotten out of the mouths of their seed: for I know their imagination which they go about, even now, before I have brought them into the land which I sware.",
+      "web": "It will happen, when many evils and troubles have come on them, that this song will testify before them as a witness; for it will not be forgotten out of the mouths of their descendants; for I know their ways and what they are doing today, before I have brought them into the land which I promised them.”",
+      "ct": "When wave after wave of disaster and trouble hits them, this song will stand as a witness against them, because their descendants will never forget it. I already know the intentions forming in their hearts, even now, before I've brought them into the land I promised.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Moses therefore wrote this song the same day, and taught it the children of Israel.",
+      "web": "So Moses wrote this song the same day, and taught it to the children of Israel.",
+      "ct": "That same day, Moses wrote down the song and taught it to the people of Israel."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he gave Joshua the son of Nun a charge, and said, Be strong and of a good courage: for thou shalt bring the children of Israel into the land which I sware unto them: and I will be with thee.",
+      "web": "He commissioned Joshua the son of Nun, and said, “Be strong and courageous; for you shall bring the children of Israel into the land which I swore to them. I will be with you.”",
+      "ct": "Then the LORD commissioned Joshua son of Nun and said, \"Be strong and courageous, because you will bring the people of Israel into the land I promised them. I will be with you.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And it came to pass, when Moses had made an end of writing the words of this law in a book, until they were finished,",
+      "web": "When Moses had finished writing the words of this law in a book, until they were finished,",
+      "ct": "When Moses had finished writing every word of this law in a book,"
+    },
+    {
+      "verse": 25,
+      "kjv": "That Moses commanded the Levites, which bare the ark of the covenant of the LORD, saying,",
+      "web": "Moses commanded the Levites, who bore the ark of LORD’s covenant, saying,",
+      "ct": "he gave this command to the Levites who carried the ark of the LORD's covenant:"
+    },
+    {
+      "verse": 26,
+      "kjv": "Take this book of the law, and put it in the side of the ark of the covenant of the LORD your God, that it may be there for a witness against thee.",
+      "web": "“Take this book of the law, and put it by the side of the ark of LORD your God’s covenant, that it may be there for a witness against you.",
+      "ct": "\"Take this book of the law and place it beside the ark of the covenant of the LORD your God. It will remain there as a witness against you."
+    },
+    {
+      "verse": 27,
+      "kjv": "For I know thy rebellion, and thy stiff neck: behold, while I am yet alive with you this day, ye have been rebellious against the LORD; and how much more after my death?",
+      "web": "For I know your rebellion and your stiff neck. Behold, while I am yet alive with you today, you have been rebellious against LORD. How much more after my death?",
+      "ct": "I know how rebellious and stubborn you are. If you've been rebelling against the LORD while I'm still alive and standing right here, how much worse will it be after I'm dead?"
+    },
+    {
+      "verse": 28,
+      "kjv": "Gather unto me all the elders of your tribes, and your officers, that I may speak these words in their ears, and call heaven and earth to record against them.",
+      "web": "Assemble to me all the elders of your tribes and your officers, that I may speak these words in their ears, and call heaven and earth to witness against them.",
+      "ct": "Bring together all the elders of your tribes and your officials so I can speak these words directly to them, and call heaven and earth as witnesses against them."
+    },
+    {
+      "verse": 29,
+      "kjv": "For I know that after my death ye will utterly corrupt yourselves, and turn aside from the way which I have commanded you; and evil will befall you in the latter days; because ye will do evil in the sight of the LORD, to provoke him to anger through the work of your hands.",
+      "web": "For I know that after my death you will utterly corrupt yourselves, and turn away from the way which I have commanded you; and evil will happen to you in the latter days, because you will do that which is evil in LORD’s sight, to provoke him to anger through the work of your hands.”",
+      "ct": "I know that after I die, you will completely corrupt yourselves and turn away from the path I've commanded you to follow. In the days to come, disaster will fall on you because the LORD will see the evil you do, provoking his anger with the things you make with your own hands.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And Moses spake in the ears of all the congregation of Israel the words of this song, until they were ended.",
+      "web": "Moses spoke in the ears of all the assembly of Israel the words of this song, until they were finished.",
+      "ct": "Then Moses recited the words of this song from beginning to end, with the entire assembly of Israel listening."
+    }
+  ]
+}

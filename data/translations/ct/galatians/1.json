@@ -1,0 +1,155 @@
+{
+  "book": "galatians",
+  "book_name": "Galatians",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:55:33.722Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Paul, an apostle, (not of men, neither by man, but by Jesus Christ, and God the Father, who raised him from the dead;)",
+      "web": "Paul, an apostle—not from men, nor through man, but through Jesus Christ, and God the Father, who raised him from the dead—",
+      "ct": "This letter is from Paul, an apostle — not appointed by any human authority or human institution, but by Jesus Christ and God the Father, who raised him from the dead."
+    },
+    {
+      "verse": 2,
+      "kjv": "And all the brethren which are with me, unto the churches of Galatia:",
+      "web": "and all the brothers who are with me, to the assemblies of Galatia:",
+      "ct": "All the brothers and sisters here with me join me in writing to the churches throughout Galatia."
+    },
+    {
+      "verse": 3,
+      "kjv": "Grace be to you and peace from God the Father, and from our Lord Jesus Christ,",
+      "web": "Grace to you and peace from God the Father and our Lord Jesus Christ,",
+      "ct": "May grace and peace be yours from God the Father and our Lord Jesus Christ,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Who gave himself for our sins, that he might deliver us from this present evil world, according to the will of God and our Father:",
+      "web": "who gave himself for our sins, that he might deliver us out of this present evil age, according to the will of our God and Father—",
+      "ct": "who gave himself for our sins to rescue us from this present evil age, just as God our Father planned."
+    },
+    {
+      "verse": 5,
+      "kjv": "To whom be glory for ever and ever. Amen.",
+      "web": "to whom be the glory forever and ever. Amen.",
+      "ct": "To God be glory forever and ever. Amen."
+    },
+    {
+      "verse": 6,
+      "kjv": "I marvel that ye are so soon removed from him that called you into the grace of Christ unto another gospel:",
+      "web": "I marvel that you are so quickly deserting him who called you in the grace of Christ to a different “good news”,",
+      "ct": "I'm shocked that you're already turning away from the one who called you by the grace of Christ, and chasing after a different gospel."
+    },
+    {
+      "verse": 7,
+      "kjv": "Which is not another; but there be some that trouble you, and would pervert the gospel of Christ.",
+      "web": "but there isn’t another “good news.” Only there are some who trouble you and want to pervert the Good News of Christ.",
+      "ct": "There is no other gospel — it's just that certain people are stirring up confusion among you and trying to twist the gospel of Christ into something it's not."
+    },
+    {
+      "verse": 8,
+      "kjv": "But though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, let him be accursed.",
+      "web": "But even though we, or an angel from heaven, should preach to you any “good news” other than that which we preached to you, let him be cursed.",
+      "ct": "But even if we ourselves — or an angel from heaven — were to preach a gospel different from the one we already gave you, let that person be cursed."
+    },
+    {
+      "verse": 9,
+      "kjv": "As we said before, so say I now again, If any man preach any other gospel unto you than that ye have received, let him be accursed.",
+      "web": "As we have said before, so I now say again: if any man preaches to you any “good news” other than that which you received, let him be cursed.",
+      "ct": "I've said it before, and I'll say it again: if anyone preaches a gospel to you that contradicts what you already received, let that person be cursed."
+    },
+    {
+      "verse": 10,
+      "kjv": "For do I now persuade men, or God? or do I seek to please men? for if I yet pleased men, I should not be the servant of Christ.",
+      "web": "For am I now seeking the favor of men, or of God? Or am I striving to please men? For if I were still pleasing men, I wouldn’t be a servant of Christ.",
+      "ct": "Am I trying to win the approval of people, or of God? Am I trying to please people? If I were still trying to please people, I wouldn't be a servant of Christ."
+    },
+    {
+      "verse": 11,
+      "kjv": "But I certify you, brethren, that the gospel which was preached of me is not after man.",
+      "web": "But I make known to you, brothers, concerning the Good News which was preached by me, that it is not according to man.",
+      "ct": "I want you to know, brothers and sisters, that the gospel I preached to you didn't come from any human source."
+    },
+    {
+      "verse": 12,
+      "kjv": "For I neither received it of man, neither was I taught it, but by the revelation of Jesus Christ.",
+      "web": "For I didn’t receive it from man, nor was I taught it, but it came to me through revelation of Jesus Christ.",
+      "ct": "I didn't receive it from any person, and no one taught it to me. It came to me through a direct revelation from Jesus Christ."
+    },
+    {
+      "verse": 13,
+      "kjv": "For ye have heard of my conversation in time past in the Jews’ religion, how that beyond measure I persecuted the church of God, and wasted it:",
+      "web": "For you have heard of my way of living in time past in the Jews’ religion, how that beyond measure I persecuted the assembly of God and ravaged it.",
+      "ct": "You've heard about my former life in Judaism — how I violently persecuted God's church and did everything I could to destroy it."
+    },
+    {
+      "verse": 14,
+      "kjv": "And profited in the Jews’ religion above many my equals in mine own nation, being more exceedingly zealous of the traditions of my fathers.",
+      "web": "I advanced in the Jews’ religion beyond many of my own age among my countrymen, being more exceedingly zealous for the traditions of my fathers.",
+      "ct": "I was advancing in Judaism faster than many of my peers, driven by an extreme devotion to the traditions of my ancestors."
+    },
+    {
+      "verse": 15,
+      "kjv": "But when it pleased God, who separated me from my mother’s womb, and called me by his grace,",
+      "web": "But when it was the good pleasure of God, who separated me from my mother’s womb and called me through his grace",
+      "ct": "But God, who set me apart before I was even born and called me by his grace,"
+    },
+    {
+      "verse": 16,
+      "kjv": "To reveal his Son in me, that I might preach him among the heathen; immediately I conferred not with flesh and blood:",
+      "web": "to reveal his Son in me, that I might preach him among the Gentiles, I didn’t immediately confer with flesh and blood,",
+      "ct": "chose to reveal his Son to me so that I could preach him among the Gentiles. When that happened, I didn't consult with anyone."
+    },
+    {
+      "verse": 17,
+      "kjv": "Neither went I up to Jerusalem to them which were apostles before me; but I went into Arabia, and returned again unto Damascus.",
+      "web": "nor did I go up to Jerusalem to those who were apostles before me, but I went away into Arabia. Then I returned to Damascus.",
+      "ct": "I didn't go up to Jerusalem to meet with the apostles who came before me. Instead, I went to Arabia, and later returned to Damascus."
+    },
+    {
+      "verse": 18,
+      "kjv": "Then after three years I went up to Jerusalem to see Peter, and abode with him fifteen days.",
+      "web": "Then after three years I went up to Jerusalem to visit Peter, and stayed with him fifteen days.",
+      "ct": "Then, 3 years later, I went up to Jerusalem to visit Peter and stayed with him for 15 days."
+    },
+    {
+      "verse": 19,
+      "kjv": "But other of the apostles saw I none, save James the Lord’s brother.",
+      "web": "But of the other apostles I saw no one except James, the Lord’s brother.",
+      "ct": "I didn't see any of the other apostles — only James, the Lord's brother."
+    },
+    {
+      "verse": 20,
+      "kjv": "Now the things which I write unto you, behold, before God, I lie not.",
+      "web": "Now about the things which I write to you, behold, before God, I’m not lying.",
+      "ct": "I swear before God that everything I'm writing to you is the truth."
+    },
+    {
+      "verse": 21,
+      "kjv": "Afterwards I came into the regions of Syria and Cilicia;",
+      "web": "Then I came to the regions of Syria and Cilicia.",
+      "ct": "After that, I traveled to the regions of Syria and Cilicia."
+    },
+    {
+      "verse": 22,
+      "kjv": "And was unknown by face unto the churches of Judaea which were in Christ:",
+      "web": "I was still unknown by face to the assemblies of Judea which were in Christ,",
+      "ct": "The churches in Judea that belonged to Christ had never met me in person."
+    },
+    {
+      "verse": 23,
+      "kjv": "But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed.",
+      "web": "but they only heard: “He who once persecuted us now preaches the faith that he once tried to destroy.”",
+      "ct": "All they knew was what others told them: \"The man who used to persecute us is now preaching the very faith he once tried to destroy.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And they glorified God in me.",
+      "web": "So they glorified God in me.",
+      "ct": "And they praised God because of what he had done in me."
+    }
+  ]
+}

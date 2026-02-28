@@ -1,0 +1,299 @@
+{
+  "book": "luke",
+  "book_name": "Luke",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T14:01:09.539Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Jesus entered and passed through Jericho.",
+      "web": "He entered and was passing through Jericho.",
+      "ct": "Jesus entered Jericho and was making his way through the city."
+    },
+    {
+      "verse": 2,
+      "kjv": "And, behold, there was a man named Zacchaeus, which was the chief among the publicans, and he was rich.",
+      "web": "There was a man named Zacchaeus. He was a chief tax collector, and he was rich.",
+      "ct": "There was a man there named Zacchaeus. He was a chief tax collector and very wealthy."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he sought to see Jesus who he was; and could not for the press, because he was little of stature.",
+      "web": "He was trying to see who Jesus was, and couldn’t because of the crowd, because he was short.",
+      "ct": "Zacchaeus was trying to get a look at Jesus, but he couldn't see over the crowd because he was short."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he ran before, and climbed up into a sycomore tree to see him: for he was to pass that way.",
+      "web": "He ran on ahead, and climbed up into a sycamore tree to see him, for he was going to pass that way.",
+      "ct": "So he ran ahead and climbed a sycamore tree along the route where Jesus was about to pass."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when Jesus came to the place, he looked up, and saw him, and said unto him, Zacchaeus, make haste, and come down; for to day I must abide at thy house.",
+      "web": "When Jesus came to the place, he looked up and saw him, and said to him, “Zacchaeus, hurry and come down, for today I must stay at your house.”",
+      "ct": "When Jesus reached that spot, he looked up and said, \"Zacchaeus, come down quickly! I need to stay at your house today.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And he made haste, and came down, and received him joyfully.",
+      "web": "He hurried, came down, and received him joyfully.",
+      "ct": "Zacchaeus scrambled down immediately and welcomed Jesus with great joy."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when they saw it, they all murmured, saying, That he was gone to be guest with a man that is a sinner.",
+      "web": "When they saw it, they all murmured, saying, “He has gone in to lodge with a man who is a sinner.”",
+      "ct": "Everyone who saw this began to grumble, saying, \"He's gone to be the guest of a sinner.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Zacchaeus stood, and said unto the Lord; Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold.",
+      "web": "Zacchaeus stood and said to the Lord, “Behold, Lord, half of my goods I give to the poor. If I have wrongfully exacted anything of anyone, I restore four times as much.”",
+      "ct": "But Zacchaeus stood up and said to the Lord, \"Lord, I'm giving half of everything I own to the poor. And if I've cheated anyone, I'll pay them back 4 times as much.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Jesus said unto him, This day is salvation come to this house, forsomuch as he also is a son of Abraham.",
+      "web": "Jesus said to him, “Today, salvation has come to this house, because he also is a son of Abraham.",
+      "ct": "Jesus said to him, \"Today, salvation has come to this house, because this man too is a son of Abraham."
+    },
+    {
+      "verse": 10,
+      "kjv": "For the Son of man is come to seek and to save that which was lost.",
+      "web": "For the Son of Man came to seek and to save that which was lost.”",
+      "ct": "The Son of Man came to seek and to save those who are lost.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And as they heard these things, he added and spake a parable, because he was nigh to Jerusalem, and because they thought that the kingdom of God should immediately appear.",
+      "web": "As they heard these things, he went on and told a parable, because he was near Jerusalem, and they supposed that God’s Kingdom would be revealed immediately.",
+      "ct": "While the people were listening, Jesus told them a parable, because he was near Jerusalem and they expected God's Kingdom to appear at any moment."
+    },
+    {
+      "verse": 12,
+      "kjv": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return.",
+      "web": "He said therefore, “A certain nobleman went into a far country to receive for himself a kingdom and to return.",
+      "ct": "He said, \"A nobleman traveled to a distant country to be appointed king and then return."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come.",
+      "web": "He called ten servants of his and gave them ten mina coins, and told them, ‘Conduct business until I come.’",
+      "ct": "Before leaving, he called 10 of his servants, gave each of them one mina, and told them, 'Put this money to work until I come back.'"
+    },
+    {
+      "verse": 14,
+      "kjv": "But his citizens hated him, and sent a message after him, saying, We will not have this man to reign over us.",
+      "web": "But his citizens hated him, and sent an envoy after him, saying, ‘We don’t want this man to reign over us.’",
+      "ct": "But his own people hated him and sent a delegation after him with this message: 'We don't want this man ruling over us.'"
+    },
+    {
+      "verse": 15,
+      "kjv": "And it came to pass, that when he was returned, having received the kingdom, then he commanded these servants to be called unto him, to whom he had given the money, that he might know how much every man had gained by trading.",
+      "web": "“When he had come back again, having received the kingdom, he commanded these servants, to whom he had given the money, to be called to him, that he might know what they had gained by conducting business.",
+      "ct": "\"After he was appointed king and returned home, he summoned the servants he had given the money to, so he could find out what each one had earned."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then came the first, saying, Lord, thy pound hath gained ten pounds.",
+      "web": "The first came before him, saying, ‘Lord, your mina has made ten more minas.’",
+      "ct": "The first servant came and said, 'Lord, your one mina has earned 10 more minas.'"
+    },
+    {
+      "verse": 17,
+      "kjv": "And he said unto him, Well, thou good servant: because thou hast been faithful in a very little, have thou authority over ten cities.",
+      "web": "“He said to him, ‘Well done, you good servant! Because you were found faithful with very little, you shall have authority over ten cities.’",
+      "ct": "The king replied, 'Well done, good servant! Because you were faithful with something so small, you will now govern 10 cities.'"
+    },
+    {
+      "verse": 18,
+      "kjv": "And the second came, saying, Lord, thy pound hath gained five pounds.",
+      "web": "“The second came, saying, ‘Your mina, Lord, has made five minas.’",
+      "ct": "The second servant came and said, 'Lord, your mina has earned 5 more minas.'"
+    },
+    {
+      "verse": 19,
+      "kjv": "And he said likewise to him, Be thou also over five cities.",
+      "web": "“So he said to him, ‘And you are to be over five cities.’",
+      "ct": "The king told him, 'You will govern 5 cities.'"
+    },
+    {
+      "verse": 20,
+      "kjv": "And another came, saying, Lord, behold, here is thy pound, which I have kept laid up in a napkin:",
+      "web": "Another came, saying, ‘Lord, behold, your mina, which I kept laid away in a handkerchief,",
+      "ct": "Then another servant came and said, 'Lord, here is your mina. I kept it wrapped up in a cloth."
+    },
+    {
+      "verse": 21,
+      "kjv": "For I feared thee, because thou art an austere man: thou takest up that thou layedst not down, and reapest that thou didst not sow.",
+      "web": "for I feared you, because you are an exacting man. You take up that which you didn’t lay down, and reap that which you didn’t sow.’",
+      "ct": "I was afraid of you because you're a harsh man. You collect what you didn't deposit and harvest what you didn't plant.'"
+    },
+    {
+      "verse": 22,
+      "kjv": "And he saith unto him, Out of thine own mouth will I judge thee, thou wicked servant. Thou knewest that I was an austere man, taking up that I laid not down, and reaping that I did not sow:",
+      "web": "“He said to him, ‘Out of your own mouth I will judge you, you wicked servant! You knew that I am an exacting man, taking up that which I didn’t lay down, and reaping that which I didn’t sow.",
+      "ct": "The king said, 'I'll judge you by your own words, you wicked servant! So you knew I was a harsh man, collecting what I didn't deposit and harvesting what I didn't plant?"
+    },
+    {
+      "verse": 23,
+      "kjv": "Wherefore then gavest not thou my money into the bank, that at my coming I might have required mine own with usury?",
+      "web": "Then why didn’t you deposit my money in the bank, and at my coming, I might have earned interest on it?’",
+      "ct": "Then why didn't you at least put my money in the bank? That way I could have collected it with interest when I returned.'"
+    },
+    {
+      "verse": 24,
+      "kjv": "And he said unto them that stood by, Take from him the pound, and give it to him that hath ten pounds.",
+      "web": "He said to those who stood by, ‘Take the mina away from him and give it to him who has the ten minas.’",
+      "ct": "Then he said to those standing nearby, 'Take the mina from him and give it to the one who has 10 minas.'"
+    },
+    {
+      "verse": 25,
+      "kjv": "(And they said unto him, Lord, he hath ten pounds.)",
+      "web": "“They said to him, ‘Lord, he has ten minas!’",
+      "ct": "They said, 'Lord, he already has 10 minas!'"
+    },
+    {
+      "verse": 26,
+      "kjv": "For I say unto you, That unto every one which hath shall be given; and from him that hath not, even that he hath shall be taken away from him.",
+      "web": "‘For I tell you that to everyone who has, will more be given; but from him who doesn’t have, even that which he has will be taken away from him.",
+      "ct": "'I tell you, everyone who has will be given more. But the one who has nothing — even what he has will be taken away."
+    },
+    {
+      "verse": 27,
+      "kjv": "But those mine enemies, which would not that I should reign over them, bring hither, and slay them before me.",
+      "web": "But bring those enemies of mine who didn’t want me to reign over them here, and kill them before me.’ ”",
+      "ct": "As for those enemies of mine who didn't want me to reign over them — bring them here and execute them in front of me.'\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And when he had thus spoken, he went before, ascending up to Jerusalem.",
+      "web": "Having said these things, he went on ahead, going up to Jerusalem.",
+      "ct": "After saying this, Jesus continued on ahead, heading up toward Jerusalem."
+    },
+    {
+      "verse": 29,
+      "kjv": "And it came to pass, when he was come nigh to Bethphage and Bethany, at the mount called the mount of Olives, he sent two of his disciples,",
+      "web": "When he came near to Bethsphage and Bethany, at the mountain that is called Olivet, he sent two of his disciples,",
+      "ct": "As he approached Bethphage and Bethany near the Mount of Olives, he sent 2 of his disciples ahead."
+    },
+    {
+      "verse": 30,
+      "kjv": "Saying, Go ye into the village over against you; in the which at your entering ye shall find a colt tied, whereon yet never man sat: loose him, and bring him hither.",
+      "web": "saying, “Go your way into the village on the other side, in which, as you enter, you will find a colt tied, which no man had ever sat upon. Untie it and bring it.",
+      "ct": "He told them, \"Go into the village just ahead. As you enter it, you'll find a young donkey tied up that no one has ever ridden. Untie it and bring it here."
+    },
+    {
+      "verse": 31,
+      "kjv": "And if any man ask you, Why do ye loose him? thus shall ye say unto him, Because the Lord hath need of him.",
+      "web": "If anyone asks you, ‘Why are you untying it?’ say to him: ‘The Lord needs it.’ ”",
+      "ct": "If anyone asks you, 'Why are you untying it?' just say, 'The Lord needs it.'\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And they that were sent went their way, and found even as he had said unto them.",
+      "web": "Those who were sent went away, and found things just as he had told them.",
+      "ct": "The 2 disciples went and found everything exactly as Jesus had told them."
+    },
+    {
+      "verse": 33,
+      "kjv": "And as they were loosing the colt, the owners thereof said unto them, Why loose ye the colt?",
+      "web": "As they were untying the colt, its owners said to them, “Why are you untying the colt?”",
+      "ct": "As they were untying the colt, its owners asked them, \"Why are you untying the colt?\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And they said, The Lord hath need of him.",
+      "web": "They said, “The Lord needs it.”",
+      "ct": "They answered, \"The Lord needs it.\""
+    },
+    {
+      "verse": 35,
+      "kjv": "And they brought him to Jesus: and they cast their garments upon the colt, and they set Jesus thereon.",
+      "web": "Then they brought it to Jesus. They threw their cloaks on the colt, and sat Jesus on them.",
+      "ct": "They brought the colt to Jesus, threw their cloaks over it, and helped Jesus onto it."
+    },
+    {
+      "verse": 36,
+      "kjv": "And as he went, they spread their clothes in the way.",
+      "web": "As he went, they spread their cloaks on the road.",
+      "ct": "As he rode along, people spread their cloaks on the road in front of him."
+    },
+    {
+      "verse": 37,
+      "kjv": "And when he was come nigh, even now at the descent of the mount of Olives, the whole multitude of the disciples began to rejoice and praise God with a loud voice for all the mighty works that they had seen;",
+      "web": "As he was now getting near, at the descent of the Mount of Olives, the whole multitude of the disciples began to rejoice and praise God with a loud voice for all the mighty works which they had seen,",
+      "ct": "As he reached the downward slope of the Mount of Olives, the entire crowd of disciples burst into joyful praise, thanking God loudly for all the miracles they had witnessed."
+    },
+    {
+      "verse": 38,
+      "kjv": "Saying, Blessed be the King that cometh in the name of the Lord: peace in heaven, and glory in the highest.",
+      "web": "saying, “Blessed is the King who comes in the name of the Lord! Peace in heaven, and glory in the highest!”",
+      "ct": "They shouted, \"Blessed is the King who comes in the name of the Lord! Peace in heaven and glory in the highest!\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And some of the Pharisees from among the multitude said unto him, Master, rebuke thy disciples.",
+      "web": "Some of the Pharisees from the multitude said to him, “Teacher, rebuke your disciples!”",
+      "ct": "Some Pharisees in the crowd called out to him, \"Teacher, tell your disciples to stop!\""
+    },
+    {
+      "verse": 40,
+      "kjv": "And he answered and said unto them, I tell you that, if these should hold their peace, the stones would immediately cry out.",
+      "web": "He answered them, “I tell you that if these were silent, the stones would cry out.”",
+      "ct": "Jesus replied, \"I tell you, if they kept silent, the very stones would cry out.\""
+    },
+    {
+      "verse": 41,
+      "kjv": "And when he was come near, he beheld the city, and wept over it,",
+      "web": "When he came near, he saw the city and wept over it,",
+      "ct": "As he came closer and saw the city of Jerusalem, he wept over it."
+    },
+    {
+      "verse": 42,
+      "kjv": "Saying, If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes.",
+      "web": "saying, “If you, even you, had known today the things which belong to your peace! But now, they are hidden from your eyes.",
+      "ct": "He said, \"If only you had recognized today what would bring you peace! But now it is hidden from your eyes."
+    },
+    {
+      "verse": 43,
+      "kjv": "For the days shall come upon thee, that thine enemies shall cast a trench about thee, and compass thee round, and keep thee in on every side,",
+      "web": "For the days will come on you, when your enemies will throw up a barricade against you, surround you, hem you in on every side,",
+      "ct": "The days are coming when your enemies will build siege walls around you, surround you, and close in on you from every side."
+    },
+    {
+      "verse": 44,
+      "kjv": "And shall lay thee even with the ground, and thy children within thee; and they shall not leave in thee one stone upon another; because thou knewest not the time of thy visitation.",
+      "web": "and will dash you and your children within you to the ground. They will not leave in you one stone on another, because you didn’t know the time of your visitation.”",
+      "ct": "They will crush you to the ground — you and your children within your walls. They won't leave one stone standing on another, because you did not recognize the time when God came to save you.\""
+    },
+    {
+      "verse": 45,
+      "kjv": "And he went into the temple, and began to cast out them that sold therein, and them that bought;",
+      "web": "He entered into the temple, and began to drive out those who bought and sold in it,",
+      "ct": "Then Jesus entered the temple and began driving out those who were buying and selling there."
+    },
+    {
+      "verse": 46,
+      "kjv": "Saying unto them, It is written, My house is the house of prayer: but ye have made it a den of thieves.",
+      "web": "saying to them, “It is written, ‘My house is a house of prayer,’ but you have made it a ‘den of robbers’!”",
+      "ct": "He told them, \"Scripture says, 'My house will be a house of prayer,' but you have turned it into a den of robbers!\""
+    },
+    {
+      "verse": 47,
+      "kjv": "And he taught daily in the temple. But the chief priests and the scribes and the chief of the people sought to destroy him,",
+      "web": "He was teaching daily in the temple, but the chief priests, the scribes, and the leading men among the people sought to destroy him.",
+      "ct": "Every day he taught in the temple. Meanwhile, the chief priests, the scribes, and the leading citizens were looking for a way to kill him."
+    },
+    {
+      "verse": 48,
+      "kjv": "And could not find what they might do: for all the people were very attentive to hear him.",
+      "web": "They couldn’t find what they might do, for all the people hung on to every word that he said.",
+      "ct": "But they couldn't figure out how to do it, because all the people hung on every word he said."
+    }
+  ]
+}

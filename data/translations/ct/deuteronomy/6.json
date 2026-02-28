@@ -1,0 +1,161 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 6,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:07:06.268Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now these are the commandments, the statutes, and the judgments, which the LORD your God commanded to teach you, that ye might do them in the land whither ye go to possess it:",
+      "web": "Now these are the commandments, the statutes, and the ordinances, which LORD your God commanded to teach you, that you might do them in the land that you go over to possess;",
+      "ct": "These are the commands, laws, and regulations that the LORD your God told me to teach you, so that you would follow them in the land you're about to cross over and take as your own."
+    },
+    {
+      "verse": 2,
+      "kjv": "That thou mightest fear the LORD thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son’s son, all the days of thy life; and that thy days may be prolonged.",
+      "web": "that you might fear LORD your God, to keep all his statutes and his commandments, which I command you—you, your son, and your son’s son, all the days of your life; and that your days may be prolonged.",
+      "ct": "The purpose is that you would fear the LORD your God and obey all his laws and commands — you, your children, and your grandchildren — every day of your lives, so that you may live long."
+    },
+    {
+      "verse": 3,
+      "kjv": "Hear therefore, O Israel, and observe to do it; that it may be well with thee, and that ye may increase mightily, as the LORD God of thy fathers hath promised thee, in the land that floweth with milk and honey.",
+      "web": "Hear therefore, Israel, and observe to do it, that it may be well with you, and that you may increase mightily, as LORD, the God of your fathers, has promised to you, in a land flowing with milk and honey.",
+      "ct": "So listen carefully, Israel, and be sure to obey. Then things will go well for you, and you will multiply greatly, just as the LORD, the God of your ancestors, promised you — in a land flowing with milk and honey."
+    },
+    {
+      "verse": 4,
+      "kjv": "Hear, O Israel: The LORD our God is one LORD:",
+      "web": "Hear, Israel: LORD is our God. LORD is one.",
+      "ct": "Listen, Israel: The LORD our God, the LORD is one."
+    },
+    {
+      "verse": 5,
+      "kjv": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.",
+      "web": "You shall love LORD your God with all your heart, with all your soul, and with all your might.",
+      "ct": "Love the LORD your God with all your heart, with all your soul, and with all your might."
+    },
+    {
+      "verse": 6,
+      "kjv": "And these words, which I command thee this day, shall be in thine heart:",
+      "web": "These words, which I command you today, shall be on your heart;",
+      "ct": "These words I'm giving you today must be planted deep in your heart."
+    },
+    {
+      "verse": 7,
+      "kjv": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.",
+      "web": "and you shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+      "ct": "Teach them carefully to your children. Talk about them when you're sitting at home, when you're walking down the road, when you lie down at night, and when you get up in the morning."
+    },
+    {
+      "verse": 8,
+      "kjv": "And thou shalt bind them for a sign upon thine hand, and they shall be as frontlets between thine eyes.",
+      "web": "You shall bind them for a sign on your hand, and they shall be for frontlets between your eyes.",
+      "ct": "Tie them as a reminder on your hand, and wear them as a symbol on your forehead."
+    },
+    {
+      "verse": 9,
+      "kjv": "And thou shalt write them upon the posts of thy house, and on thy gates.",
+      "web": "You shall write them on the door posts of your house and on your gates.",
+      "ct": "Write them on the doorframes of your house and on your gates."
+    },
+    {
+      "verse": 10,
+      "kjv": "And it shall be, when the LORD thy God shall have brought thee into the land which he sware unto thy fathers, to Abraham, to Isaac, and to Jacob, to give thee great and goodly cities, which thou buildedst not,",
+      "web": "It shall be, when LORD your God brings you into the land which he swore to your fathers, to Abraham, to Isaac, and to Jacob, to give you, great and goodly cities which you didn’t build,",
+      "ct": "When the LORD your God brings you into the land he swore to give your ancestors — to Abraham, Isaac, and Jacob — you'll find large, beautiful cities that you didn't build,"
+    },
+    {
+      "verse": 11,
+      "kjv": "And houses full of all good things, which thou filledst not, and wells digged, which thou diggedst not, vineyards and olive trees, which thou plantedst not; when thou shalt have eaten and be full;",
+      "web": "and houses full of all good things which you didn’t fill, and cisterns dug out which you didn’t dig, vineyards and olive trees which you didn’t plant, and you shall eat and be full;",
+      "ct": "houses already filled with good things you didn't put there, cisterns you didn't dig, and vineyards and olive groves you didn't plant. When you've eaten your fill,"
+    },
+    {
+      "verse": 12,
+      "kjv": "Then beware lest thou forget the LORD, which brought thee forth out of the land of Egypt, from the house of bondage.",
+      "web": "then beware lest you forget LORD, who brought you out of the land of Egypt, out of the house of bondage.",
+      "ct": "be careful that you don't forget the LORD, who brought you out of Egypt, out of the land where you were slaves."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou shalt fear the LORD thy God, and serve him, and shalt swear by his name.",
+      "web": "You shall fear LORD your God; and you shall serve him, and shall swear by his name.",
+      "ct": "Fear the LORD your God, serve him, and take your oaths in his name alone."
+    },
+    {
+      "verse": 14,
+      "kjv": "Ye shall not go after other gods, of the gods of the people which are round about you;",
+      "web": "You shall not go after other gods, of the gods of the peoples who are around you,",
+      "ct": "Don't chase after other gods — the gods of the nations around you —"
+    },
+    {
+      "verse": 15,
+      "kjv": "(For the LORD thy God is a jealous God among you) lest the anger of the LORD thy God be kindled against thee, and destroy thee from off the face of the earth.",
+      "web": "for LORD your God among you is a jealous God, lest the anger of LORD your God be kindled against you, and he destroy you from off the face of the earth.",
+      "ct": "because the LORD your God, who lives among you, is a jealous God. If you do, his anger will burn against you, and he will wipe you off the face of the earth."
+    },
+    {
+      "verse": 16,
+      "kjv": "Ye shall not tempt the LORD your God, as ye tempted him in Massah.",
+      "web": "You shall not tempt LORD your God, as you tempted him in Massah.",
+      "ct": "Don't test the LORD your God the way you tested him at Massah."
+    },
+    {
+      "verse": 17,
+      "kjv": "Ye shall diligently keep the commandments of the LORD your God, and his testimonies, and his statutes, which he hath commanded thee.",
+      "web": "You shall diligently keep the commandments of LORD your God, and his testimonies, and his statutes, which he has commanded you.",
+      "ct": "Be diligent about keeping the commands of the LORD your God — his testimonies and his laws that he has given you."
+    },
+    {
+      "verse": 18,
+      "kjv": "And thou shalt do that which is right and good in the sight of the LORD: that it may be well with thee, and that thou mayest go in and possess the good land which the LORD sware unto thy fathers,",
+      "web": "You shall do that which is right and good in LORD’s sight, that it may be well with you and that you may go in and possess the good land which LORD swore to your fathers,",
+      "ct": "Do what the LORD considers right and good. Then things will go well for you, and you'll be able to enter and take possession of the good land the LORD promised to your ancestors,"
+    },
+    {
+      "verse": 19,
+      "kjv": "To cast out all thine enemies from before thee, as the LORD hath spoken.",
+      "web": "to thrust out all your enemies from before you, as LORD has spoken.",
+      "ct": "driving out all your enemies ahead of you, just as the LORD said he would."
+    },
+    {
+      "verse": 20,
+      "kjv": "And when thy son asketh thee in time to come, saying, What mean the testimonies, and the statutes, and the judgments, which the LORD our God hath commanded you?",
+      "web": "When your son asks you in time to come, saying, “What do the testimonies, the statutes, and the ordinances, which LORD our God has commanded you mean?”",
+      "ct": "Someday your son will ask you, \"What do these testimonies, laws, and regulations that the LORD our God gave you actually mean?\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Then thou shalt say unto thy son, We were Pharaoh’s bondmen in Egypt; and the LORD brought us out of Egypt with a mighty hand:",
+      "web": "then you shall tell your son, “We were Pharaoh’s slaves in Egypt. LORD brought us out of Egypt with a mighty hand;",
+      "ct": "Tell him, \"We were slaves under Pharaoh in Egypt, and the LORD brought us out of Egypt with his mighty hand."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the LORD shewed signs and wonders, great and sore, upon Egypt, upon Pharaoh, and upon all his household, before our eyes:",
+      "web": "and LORD showed great and awesome signs and wonders on Egypt, on Pharaoh, and on all his house, before our eyes;",
+      "ct": "Right before our eyes, the LORD sent devastating signs and wonders against Egypt, against Pharaoh, and against his entire household."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he brought us out from thence, that he might bring us in, to give us the land which he sware unto our fathers.",
+      "web": "and he brought us out from there, that he might bring us in, to give us the land which he swore to our fathers.",
+      "ct": "He brought us out of there so he could bring us here — to give us the land he had sworn to our ancestors."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the LORD commanded us to do all these statutes, to fear the LORD our God, for our good always, that he might preserve us alive, as it is at this day.",
+      "web": "LORD commanded us to do all these statutes, to fear LORD our God, for our good always, that he might preserve us alive, as we are today.",
+      "ct": "The LORD commanded us to follow all these laws and to fear the LORD our God. It's always for our own good, so that he can keep us alive, as we are today."
+    },
+    {
+      "verse": 25,
+      "kjv": "And it shall be our righteousness, if we observe to do all these commandments before the LORD our God, as he hath commanded us.",
+      "web": "It shall be righteousness to us, if we observe to do all these commandments before LORD our God, as he has commanded us.”",
+      "ct": "We will be counted as righteous if we carefully obey all these commands in the presence of the LORD our God, just as he told us to.\""
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:11:35.380Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "At that time Jesus went on the sabbath day through the corn; and his disciples were an hungred, and began to pluck the ears of corn, and to eat.",
+      "web": "At that time, Jesus went on the Sabbath day through the grain fields. His disciples were hungry and began to pluck heads of grain and to eat.",
+      "ct": "Around that time, Jesus was walking through the grain fields on the Sabbath. His disciples were hungry, so they started picking heads of grain and eating them."
+    },
+    {
+      "verse": 2,
+      "kjv": "But when the Pharisees saw it, they said unto him, Behold, thy disciples do that which is not lawful to do upon the sabbath day.",
+      "web": "But the Pharisees, when they saw it, said to him, “Behold, your disciples do what is not lawful to do on the Sabbath.”",
+      "ct": "When the Pharisees saw this, they said to him, \"Look! Your disciples are doing something that's not allowed on the Sabbath.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "But he said unto them, Have ye not read what David did, when he was an hungred, and they that were with him;",
+      "web": "But he said to them, “Haven’t you read what David did, when he was hungry, and those who were with him;",
+      "ct": "Jesus replied, \"Haven't you read what David did when he and his companions were hungry?"
+    },
+    {
+      "verse": 4,
+      "kjv": "How he entered into the house of God, and did eat the shewbread, which was not lawful for him to eat, neither for them which were with him, but only for the priests?",
+      "web": "how he entered into God’s house, and ate the show bread, which was not lawful for him to eat, neither for those who were with him, but only for the priests?",
+      "ct": "He went into God's house and ate the sacred bread — which neither he nor his men were allowed to eat. Only the priests could eat it."
+    },
+    {
+      "verse": 5,
+      "kjv": "Or have ye not read in the law, how that on the sabbath days the priests in the temple profane the sabbath, and are blameless?",
+      "web": "Or have you not read in the law, that on the Sabbath day, the priests in the temple profane the Sabbath, and are guiltless?",
+      "ct": "And haven't you read in the Law that the priests work in the temple every Sabbath, technically breaking the Sabbath, and yet they're considered blameless?"
+    },
+    {
+      "verse": 6,
+      "kjv": "But I say unto you, That in this place is one greater than the temple.",
+      "web": "But I tell you that one greater than the temple is here.",
+      "ct": "I'm telling you, someone greater than the temple is standing right here."
+    },
+    {
+      "verse": 7,
+      "kjv": "But if ye had known what this meaneth, I will have mercy, and not sacrifice, ye would not have condemned the guiltless.",
+      "web": "But if you had known what this means, ‘I desire mercy, and not sacrifice,’ you wouldn’t have condemned the guiltless.",
+      "ct": "If you understood what this means — 'I desire mercy, not sacrifice' — you wouldn't have condemned people who've done nothing wrong."
+    },
+    {
+      "verse": 8,
+      "kjv": "For the Son of man is Lord even of the sabbath day.",
+      "web": "For the Son of Man is Lord of the Sabbath.”",
+      "ct": "The Son of Man is Lord even over the Sabbath.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And when he was departed thence, he went into their synagogue:",
+      "web": "He departed from there, and went into their synagogue.",
+      "ct": "Jesus left that place and went into their synagogue."
+    },
+    {
+      "verse": 10,
+      "kjv": "And, behold, there was a man which had his hand withered. And they asked him, saying, Is it lawful to heal on the sabbath days? that they might accuse him.",
+      "web": "And behold there was a man with a withered hand. They asked him, “Is it lawful to heal on the Sabbath day?” that they might accuse him.",
+      "ct": "A man with a withered hand was there. Looking for a reason to accuse Jesus, they asked him, \"Is it lawful to heal someone on the Sabbath?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And he said unto them, What man shall there be among you, that shall have one sheep, and if it fall into a pit on the sabbath day, will he not lay hold on it, and lift it out?",
+      "web": "He said to them, “What man is there among you, who has one sheep, and if this one falls into a pit on the Sabbath day, won’t he grab on to it, and lift it out?",
+      "ct": "He answered them, \"If any of you had a sheep that fell into a pit on the Sabbath, wouldn't you grab it and pull it out?"
+    },
+    {
+      "verse": 12,
+      "kjv": "How much then is a man better than a sheep? Wherefore it is lawful to do well on the sabbath days.",
+      "web": "Of how much more value then is a man than a sheep! Therefore it is lawful to do good on the Sabbath day.”",
+      "ct": "A person is worth far more than a sheep! So yes, it is lawful to do good on the Sabbath.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then saith he to the man, Stretch forth thine hand. And he stretched it forth; and it was restored whole, like as the other.",
+      "web": "Then he told the man, “Stretch out your hand.” He stretched it out; and it was restored whole, just like the other.",
+      "ct": "Then he said to the man, \"Stretch out your hand.\" The man stretched it out, and it was completely restored — as healthy as the other one."
+    },
+    {
+      "verse": 14,
+      "kjv": "Then the Pharisees went out, and held a council against him, how they might destroy him.",
+      "web": "But the Pharisees went out, and conspired against him, how they might destroy him.",
+      "ct": "The Pharisees walked out and began plotting how they could destroy Jesus."
+    },
+    {
+      "verse": 15,
+      "kjv": "But when Jesus knew it, he withdrew himself from thence: and great multitudes followed him, and he healed them all;",
+      "web": "Jesus, perceiving that, withdrew from there. Great multitudes followed him; and he healed them all,",
+      "ct": "When Jesus learned of this, he left that area. Large crowds followed him, and he healed everyone who was sick."
+    },
+    {
+      "verse": 16,
+      "kjv": "And charged them that they should not make him known:",
+      "web": "and commanded them that they should not make him known:",
+      "ct": "But he warned them not to tell others who he was."
+    },
+    {
+      "verse": 17,
+      "kjv": "That it might be fulfilled which was spoken by Esaias the prophet, saying,",
+      "web": "that it might be fulfilled which was spoken through Isaiah the prophet, saying, ",
+      "ct": "This fulfilled what God spoke through the prophet Isaiah:"
+    },
+    {
+      "verse": 18,
+      "kjv": "Behold my servant, whom I have chosen; my beloved, in whom my soul is well pleased: I will put my spirit upon him, and he shall shew judgment to the Gentiles.",
+      "web": "“Behold, my servant whom I have chosen; my beloved in whom my soul is well pleased: I will put my Spirit on him. He will proclaim justice to the nations.",
+      "ct": "\"Here is my servant, whom I have chosen — my beloved, in whom my soul is well pleased. I will put my Spirit on him, and he will proclaim justice to the nations."
+    },
+    {
+      "verse": 19,
+      "kjv": "He shall not strive, nor cry; neither shall any man hear his voice in the streets.",
+      "web": "He will not strive, nor shout; neither will anyone hear his voice in the streets.",
+      "ct": "He won't argue or shout. No one will hear his voice yelling in the streets."
+    },
+    {
+      "verse": 20,
+      "kjv": "A bruised reed shall he not break, and smoking flax shall he not quench, till he send forth judgment unto victory.",
+      "web": "He won’t break a bruised reed. He won’t quench a smoking flax, until he leads justice to victory.",
+      "ct": "He won't snap a bruised reed or snuff out a smoldering wick, until he brings justice to victory."
+    },
+    {
+      "verse": 21,
+      "kjv": "And in his name shall the Gentiles trust.",
+      "web": "In his name, the nations will hope.”",
+      "ct": "And in his name, the nations will put their trust.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Then was brought unto him one possessed with a devil, blind, and dumb: and he healed him, insomuch that the blind and dumb both spake and saw.",
+      "web": "Then one possessed by a demon, blind and mute, was brought to him and he healed him, so that the blind and mute man both spoke and saw.",
+      "ct": "Then people brought Jesus a man who was demon-possessed, blind, and unable to speak. Jesus healed him, and the man could both talk and see."
+    },
+    {
+      "verse": 23,
+      "kjv": "And all the people were amazed, and said, Is not this the son of David?",
+      "web": "All the multitudes were amazed, and said, “Can this be the son of David?”",
+      "ct": "The whole crowd was stunned. \"Could this really be the Son of David?\" they asked."
+    },
+    {
+      "verse": 24,
+      "kjv": "But when the Pharisees heard it, they said, This fellow doth not cast out devils, but by Beelzebub the prince of the devils.",
+      "web": "But when the Pharisees heard it, they said, “This man does not cast out demons, except by Beelzebul, the prince of the demons.”",
+      "ct": "But when the Pharisees heard this, they said, \"He only drives out demons by the power of Beelzebub, the prince of demons.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And Jesus knew their thoughts, and said unto them, Every kingdom divided against itself is brought to desolation; and every city or house divided against itself shall not stand:",
+      "web": "Knowing their thoughts, Jesus said to them, “Every kingdom divided against itself is brought to desolation, and every city or house divided against itself will not stand.",
+      "ct": "Jesus knew what they were thinking and said to them, \"Any kingdom torn apart by civil war collapses. Any city or household divided against itself won't survive."
+    },
+    {
+      "verse": 26,
+      "kjv": "And if Satan cast out Satan, he is divided against himself; how shall then his kingdom stand?",
+      "web": "If Satan casts out Satan, he is divided against himself. How then will his kingdom stand?",
+      "ct": "If Satan is driving out Satan, he's fighting against himself. How could his kingdom possibly stand?"
+    },
+    {
+      "verse": 27,
+      "kjv": "And if I by Beelzebub cast out devils, by whom do your children cast them out? therefore they shall be your judges.",
+      "web": "If I by Beelzebul cast out demons, by whom do your children cast them out? Therefore they will be your judges.",
+      "ct": "And if I drive out demons by Beelzebub, then by whose power do your own followers drive them out? They'll be the ones to judge you for saying that."
+    },
+    {
+      "verse": 28,
+      "kjv": "But if I cast out devils by the Spirit of God, then the kingdom of God is come unto you.",
+      "web": "But if I by the Spirit of God cast out demons, then God’s Kingdom has come upon you.",
+      "ct": "But if I'm driving out demons by the Spirit of God, then the kingdom of God has arrived right at your doorstep."
+    },
+    {
+      "verse": 29,
+      "kjv": "Or else how can one enter into a strong man’s house, and spoil his goods, except he first bind the strong man? and then he will spoil his house.",
+      "web": "Or how can one enter into the house of the strong man, and plunder his goods, unless he first bind the strong man? Then he will plunder his house.",
+      "ct": "Think about it — how can anyone break into a strong man's house and steal his possessions unless he first ties up the strong man? Only then can he ransack the house."
+    },
+    {
+      "verse": 30,
+      "kjv": "He that is not with me is against me; and he that gathereth not with me scattereth abroad.",
+      "web": "“He who is not with me is against me, and he who doesn’t gather with me, scatters.",
+      "ct": "Anyone who isn't with me is against me, and anyone who doesn't gather with me is scattering."
+    },
+    {
+      "verse": 31,
+      "kjv": "Wherefore I say unto you, All manner of sin and blasphemy shall be forgiven unto men: but the blasphemy against the Holy Ghost shall not be forgiven unto men.",
+      "web": "Therefore I tell you, every sin and blasphemy will be forgiven men, but the blasphemy against the Spirit will not be forgiven men.",
+      "ct": "So I'm telling you this: every sin and blasphemy will be forgiven, but blasphemy against the Holy Spirit will not be forgiven."
+    },
+    {
+      "verse": 32,
+      "kjv": "And whosoever speaketh a word against the Son of man, it shall be forgiven him: but whosoever speaketh against the Holy Ghost, it shall not be forgiven him, neither in this world, neither in the world to come.",
+      "web": "Whoever speaks a word against the Son of Man, it will be forgiven him; but whoever speaks against the Holy Spirit, it will not be forgiven him, neither in this age, nor in that which is to come.",
+      "ct": "Anyone who speaks a word against the Son of Man can be forgiven. But anyone who speaks against the Holy Spirit will never be forgiven — not in this age, and not in the age to come."
+    },
+    {
+      "verse": 33,
+      "kjv": "Either make the tree good, and his fruit good; or else make the tree corrupt, and his fruit corrupt: for the tree is known by his fruit.",
+      "web": "“Either make the tree good, and its fruit good, or make the tree corrupt, and its fruit corrupt; for the tree is known by its fruit.",
+      "ct": "A tree is identified by its fruit. If the tree is good, its fruit will be good. If the tree is rotten, its fruit will be rotten."
+    },
+    {
+      "verse": 34,
+      "kjv": "O generation of vipers, how can ye, being evil, speak good things? for out of the abundance of the heart the mouth speaketh.",
+      "web": "You offspring of vipers, how can you, being evil, speak good things? For out of the abundance of the heart, the mouth speaks.",
+      "ct": "You brood of vipers! How can evil people like you say anything good? The mouth speaks whatever fills the heart."
+    },
+    {
+      "verse": 35,
+      "kjv": "A good man out of the good treasure of the heart bringeth forth good things: and an evil man out of the evil treasure bringeth forth evil things.",
+      "web": "The good man out of his good treasure brings out good things, and the evil man out of his evil treasure brings out evil things.",
+      "ct": "A good person draws good things from the good stored up inside them. An evil person draws evil things from the evil stored up inside them."
+    },
+    {
+      "verse": 36,
+      "kjv": "But I say unto you, That every idle word that men shall speak, they shall give account thereof in the day of judgment.",
+      "web": "I tell you that every idle word that men speak, they will give account of it in the day of judgment.",
+      "ct": "I'm warning you: on the day of judgment, people will have to answer for every careless word they've spoken."
+    },
+    {
+      "verse": 37,
+      "kjv": "For by thy words thou shalt be justified, and by thy words thou shalt be condemned.",
+      "web": "For by your words you will be justified, and by your words you will be condemned.”",
+      "ct": "Your own words will either prove you innocent or prove you guilty.\""
+    },
+    {
+      "verse": 38,
+      "kjv": "Then certain of the scribes and of the Pharisees answered, saying, Master, we would see a sign from thee.",
+      "web": "Then certain of the scribes and Pharisees answered, “Teacher, we want to see a sign from you.”",
+      "ct": "Then some of the scribes and Pharisees said to him, \"Teacher, we want to see you perform a miraculous sign.\""
+    },
+    {
+      "verse": 39,
+      "kjv": "But he answered and said unto them, An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it, but the sign of the prophet Jonas:",
+      "web": "But he answered them, “An evil and adulterous generation seeks after a sign, but no sign will be given to it but the sign of Jonah the prophet.",
+      "ct": "Jesus answered, \"An evil and unfaithful generation demands a sign, but the only sign it will get is the sign of the prophet Jonah."
+    },
+    {
+      "verse": 40,
+      "kjv": "For as Jonas was three days and three nights in the whale’s belly; so shall the Son of man be three days and three nights in the heart of the earth.",
+      "web": "For as Jonah was three days and three nights in the belly of the whale, so will the Son of Man be three days and three nights in the heart of the earth.",
+      "ct": "Just as Jonah spent 3 days and 3 nights in the belly of a great fish, the Son of Man will spend 3 days and 3 nights in the heart of the earth."
+    },
+    {
+      "verse": 41,
+      "kjv": "The men of Nineveh shall rise in judgment with this generation, and shall condemn it: because they repented at the preaching of Jonas; and, behold, a greater than Jonas is here.",
+      "web": "The men of Nineveh will stand up in the judgment with this generation, and will condemn it, for they repented at the preaching of Jonah; and behold, someone greater than Jonah is here.",
+      "ct": "On judgment day, the people of Nineveh will stand up and condemn this generation, because they repented when Jonah preached to them — and someone far greater than Jonah is here now."
+    },
+    {
+      "verse": 42,
+      "kjv": "The queen of the south shall rise up in the judgment with this generation, and shall condemn it: for she came from the uttermost parts of the earth to hear the wisdom of Solomon; and, behold, a greater than Solomon is here.",
+      "web": "The Queen of the South will rise up in the judgment with this generation, and will condemn it, for she came from the ends of the earth to hear the wisdom of Solomon; and behold, someone greater than Solomon is here.",
+      "ct": "On judgment day, the Queen of the South will rise up and condemn this generation, because she traveled from the ends of the earth to hear Solomon's wisdom — and someone far greater than Solomon is here now."
+    },
+    {
+      "verse": 43,
+      "kjv": "When the unclean spirit is gone out of a man, he walketh through dry places, seeking rest, and findeth none.",
+      "web": "When an unclean spirit has gone out of a man, he passes through waterless places, seeking rest, and doesn’t find it.",
+      "ct": "When an evil spirit leaves a person, it wanders through dry, barren places looking for rest but finds none."
+    },
+    {
+      "verse": 44,
+      "kjv": "Then he saith, I will return into my house from whence I came out; and when he is come, he findeth it empty, swept, and garnished.",
+      "web": "Then he says, ‘I will return into my house from which I came out,’ and when he has come back, he finds it empty, swept, and put in order.",
+      "ct": "Then it says, 'I'll go back to the house I left.' When it returns, it finds the place empty, swept clean, and neatly arranged."
+    },
+    {
+      "verse": 45,
+      "kjv": "Then goeth he, and taketh with himself seven other spirits more wicked than himself, and they enter in and dwell there: and the last state of that man is worse than the first. Even so shall it be also unto this wicked generation.",
+      "web": "Then he goes, and takes with himself seven other spirits more evil than he is, and they enter in and dwell there. The last state of that man becomes worse than the first. Even so will it be also to this evil generation.”",
+      "ct": "So it goes and brings along 7 other spirits even more wicked than itself. They all move in and settle there, and that person ends up worse off than before. That's exactly what will happen to this wicked generation.\""
+    },
+    {
+      "verse": 46,
+      "kjv": "While he yet talked to the people, behold, his mother and his brethren stood without, desiring to speak with him.",
+      "web": "While he was yet speaking to the multitudes, behold, his mother and his brothers stood outside, seeking to speak to him.",
+      "ct": "While Jesus was still speaking to the crowd, his mother and brothers arrived and stood outside, wanting to talk to him."
+    },
+    {
+      "verse": 47,
+      "kjv": "Then one said unto him, Behold, thy mother and thy brethren stand without, desiring to speak with thee.",
+      "web": "One said to him, “Behold, your mother and your brothers stand outside, seeking to speak to you.”",
+      "ct": "Someone told him, \"Your mother and brothers are standing outside, asking to speak with you.\""
+    },
+    {
+      "verse": 48,
+      "kjv": "But he answered and said unto him that told him, Who is my mother? and who are my brethren?",
+      "web": "But he answered him who spoke to him, “Who is my mother? Who are my brothers?”",
+      "ct": "Jesus replied to the one who told him, \"Who is my mother? And who are my brothers?\""
+    },
+    {
+      "verse": 49,
+      "kjv": "And he stretched forth his hand toward his disciples, and said, Behold my mother and my brethren!",
+      "web": "He stretched out his hand toward his disciples, and said, “Behold, my mother and my brothers!",
+      "ct": "Then he gestured toward his disciples and said, \"Here are my mother and my brothers!"
+    },
+    {
+      "verse": 50,
+      "kjv": "For whosoever shall do the will of my Father which is in heaven, the same is my brother, and sister, and mother.",
+      "web": "For whoever does the will of my Father who is in heaven, he is my brother, and sister, and mother.”",
+      "ct": "Anyone who does the will of my Father in heaven — that person is my brother, my sister, and my mother.\""
+    }
+  ]
+}

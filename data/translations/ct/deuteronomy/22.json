@@ -1,0 +1,191 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 22,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:12:39.526Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Thou shalt not see thy brother’s ox or his sheep go astray, and hide thyself from them: thou shalt in any case bring them again unto thy brother.",
+      "web": "You shall not see your brother’s ox or his sheep go astray and hide yourself from them. You shall surely bring them again to your brother.",
+      "ct": "If you see a fellow Israelite's ox or sheep wandering off, don't look the other way. You must bring the animal back to its owner."
+    },
+    {
+      "verse": 2,
+      "kjv": "And if thy brother be not nigh unto thee, or if thou know him not, then thou shalt bring it unto thine own house, and it shall be with thee until thy brother seek after it, and thou shalt restore it to him again.",
+      "web": "If your brother isn’t near to you, or if you don’t know him, then you shall bring it home to your house, and it shall be with you until your brother comes looking for it, and you shall restore it to him.",
+      "ct": "If the owner doesn't live nearby, or you don't know who the owner is, take the animal home with you and keep it until the owner comes looking for it. Then give it back."
+    },
+    {
+      "verse": 3,
+      "kjv": "In like manner shalt thou do with his ass; and so shalt thou do with his raiment; and with all lost thing of thy brother’s, which he hath lost, and thou hast found, shalt thou do likewise: thou mayest not hide thyself.",
+      "web": "So you shall do with his donkey. So you shall do with his garment. So you shall do with every lost thing of your brother’s, which he has lost and you have found. You may not hide yourself.",
+      "ct": "Do the same with a donkey, a piece of clothing, or anything else that someone has lost and you've found. You must not ignore it."
+    },
+    {
+      "verse": 4,
+      "kjv": "Thou shalt not see thy brother’s ass or his ox fall down by the way, and hide thyself from them: thou shalt surely help him to lift them up again.",
+      "web": "You shall not see your brother’s donkey or his ox fallen down by the way, and hide yourself from them. You shall surely help him to lift them up again.",
+      "ct": "If you see a fellow Israelite's donkey or ox collapsed on the road, don't walk past and pretend you didn't notice. You must help the owner get the animal back on its feet."
+    },
+    {
+      "verse": 5,
+      "kjv": "The woman shall not wear that which pertaineth unto a man, neither shall a man put on a woman’s garment: for all that do so are abomination unto the LORD thy God.",
+      "web": "A woman shall not wear men’s clothing, neither shall a man put on women’s clothing; for whoever does these things is an abomination to LORD your God.",
+      "ct": "A woman must not wear men's clothing, and a man must not wear women's clothing. Anyone who does this is an abomination to the LORD your God."
+    },
+    {
+      "verse": 6,
+      "kjv": "If a bird’s nest chance to be before thee in the way in any tree, or on the ground, whether they be young ones, or eggs, and the dam sitting upon the young, or upon the eggs, thou shalt not take the dam with the young:",
+      "web": "If you come across a bird’s nest on the way, in any tree or on the ground, with young ones or eggs, and the hen sitting on the young, or on the eggs, you shall not take the hen with the young.",
+      "ct": "If you come across a bird's nest along the road — whether in a tree or on the ground — and the mother bird is sitting on her young or on her eggs, don't take the mother along with the young."
+    },
+    {
+      "verse": 7,
+      "kjv": "But thou shalt in any wise let the dam go, and take the young to thee; that it may be well with thee, and that thou mayest prolong thy days.",
+      "web": "You shall surely let the hen go, but the young you may take for yourself, that it may be well with you, and that you may prolong your days.",
+      "ct": "You must let the mother bird go, but you may take the young for yourself. If you do this, things will go well for you and you'll live a long life."
+    },
+    {
+      "verse": 8,
+      "kjv": "When thou buildest a new house, then thou shalt make a battlement for thy roof, that thou bring not blood upon thine house, if any man fall from thence.",
+      "web": "When you build a new house, then you shall make a railing around your roof, so that you don’t bring blood on your house if anyone falls from there.",
+      "ct": "When you build a new house, put a railing around the edge of your roof. That way, if someone falls off, you won't be guilty of their blood."
+    },
+    {
+      "verse": 9,
+      "kjv": "Thou shalt not sow thy vineyard with divers seeds: lest the fruit of thy seed which thou hast sown, and the fruit of thy vineyard, be defiled.",
+      "web": "You shall not sow your vineyard with two kinds of seed, lest all the fruit be defiled, the seed which you have sown, and the increase of the vineyard.",
+      "ct": "Don't plant two different kinds of seed in your vineyard. If you do, the entire harvest — both the crops and the grapes — will be considered defiled."
+    },
+    {
+      "verse": 10,
+      "kjv": "Thou shalt not plow with an ox and an ass together.",
+      "web": "You shall not plow with an ox and a donkey together.",
+      "ct": "Don't plow with an ox and a donkey yoked together."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou shalt not wear a garment of divers sorts, as of woollen and linen together.",
+      "web": "You shall not wear clothes of wool and linen woven together.",
+      "ct": "Don't wear clothing made from a blend of wool and linen woven together."
+    },
+    {
+      "verse": 12,
+      "kjv": "Thou shalt make thee fringes upon the four quarters of thy vesture, wherewith thou coverest thyself.",
+      "web": "You shall make yourselves fringes on the four corners of your cloak with which you cover yourself.",
+      "ct": "Attach tassels to the 4 corners of the cloak you wear."
+    },
+    {
+      "verse": 13,
+      "kjv": "If any man take a wife, and go in unto her, and hate her,",
+      "web": "If any man takes a wife, and goes in to her, hates her,",
+      "ct": "Suppose a man marries a woman, sleeps with her, and then turns against her."
+    },
+    {
+      "verse": 14,
+      "kjv": "And give occasions of speech against her, and bring up an evil name upon her, and say, I took this woman, and when I came to her, I found her not a maid:",
+      "web": "accuses her of shameful things, gives her a bad name, and says, “I took this woman, and when I came near to her, I didn’t find in her the tokens of virginity;”",
+      "ct": "He publicly accuses her and ruins her reputation by saying, \"I married this woman, but when I slept with her, I discovered she wasn't a virgin.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Then shall the father of the damsel, and her mother, take and bring forth the tokens of the damsel’s virginity unto the elders of the city in the gate:",
+      "web": "then the young lady’s father and mother shall take and bring the tokens of the young lady’s virginity to the elders of the city in the gate.",
+      "ct": "In that case, the young woman's father and mother must bring proof of her virginity to the city elders at the town gate."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the damsel’s father shall say unto the elders, I gave my daughter unto this man to wife, and he hateth her;",
+      "web": "The young lady’s father shall tell the elders, “I gave my daughter to this man as his wife, and he hates her.",
+      "ct": "The father will say to the elders, \"I gave my daughter to this man in marriage, and now he has turned against her.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And, lo, he hath given occasions of speech against her, saying, I found not thy daughter a maid; and yet these are the tokens of my daughter’s virginity. And they shall spread the cloth before the elders of the city.",
+      "web": "Behold, he has accused her of shameful things, saying, ‘I didn’t find in your daughter the tokens of virginity;’ and yet these are the tokens of my daughter’s virginity.” They shall spread the cloth before the elders of the city.",
+      "ct": "\"He has publicly accused her, saying, 'I found that your daughter was not a virgin.' But here is the proof of my daughter's virginity.\" Then they will spread the cloth before the city elders."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the elders of that city shall take that man and chastise him;",
+      "web": "The elders of that city shall take the man and chastise him.",
+      "ct": "The elders of that city must then take the husband and punish him."
+    },
+    {
+      "verse": 19,
+      "kjv": "And they shall amerce him in an hundred shekels of silver, and give them unto the father of the damsel, because he hath brought up an evil name upon a virgin of Israel: and she shall be his wife; he may not put her away all his days.",
+      "web": "They shall fine him one hundred shekels of silver, and give them to the father of the young lady, because he has given a bad name to a virgin of Israel. She shall be his wife. He may not put her away all his days.",
+      "ct": "They must fine him 100 shekels of silver and give the money to the young woman's father, because the husband publicly shamed a virgin of Israel. She will remain his wife, and he can never divorce her as long as he lives."
+    },
+    {
+      "verse": 20,
+      "kjv": "But if this thing be true, and the tokens of virginity be not found for the damsel:",
+      "web": "But if this thing is true, that the tokens of virginity were not found in the young lady,",
+      "ct": "However, if the accusation turns out to be true and no proof of the young woman's virginity can be found,"
+    },
+    {
+      "verse": 21,
+      "kjv": "Then they shall bring out the damsel to the door of her father’s house, and the men of her city shall stone her with stones that she die: because she hath wrought folly in Israel, to play the whore in her father’s house: so shalt thou put evil away from among you.",
+      "web": "then they shall bring out the young lady to the door of her father’s house, and the men of her city shall stone her to death with stones, because she has done folly in Israel, to play the prostitute in her father’s house. So you shall remove the evil from among you.",
+      "ct": "then the men of her city must bring her to the doorway of her father's house and stone her to death, because she committed a disgraceful act in Israel by acting like a prostitute while living in her father's house. You must purge this evil from among you."
+    },
+    {
+      "verse": 22,
+      "kjv": "If a man be found lying with a woman married to an husband, then they shall both of them die, both the man that lay with the woman, and the woman: so shalt thou put away evil from Israel.",
+      "web": "If a man is found lying with a woman married to a husband, then they shall both die, the man who lay with the woman and the woman. So you shall remove the evil from Israel.",
+      "ct": "If a man is caught sleeping with another man's wife, both of them must die — the man and the woman. You must purge this evil from Israel."
+    },
+    {
+      "verse": 23,
+      "kjv": "If a damsel that is a virgin be betrothed unto an husband, and a man find her in the city, and lie with her;",
+      "web": "If there is a young lady who is a virgin pledged to be married to a husband, and a man finds her in the city, and lies with her,",
+      "ct": "If a young woman who is a virgin and engaged to be married is found in the city by another man, and he sleeps with her,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Then ye shall bring them both out unto the gate of that city, and ye shall stone them with stones that they die; the damsel, because she cried not, being in the city; and the man, because he hath humbled his neighbour’s wife: so thou shalt put away evil from among you.",
+      "web": "then you shall bring them both out to the gate of that city, and you shall stone them to death with stones; the lady, because she didn’t cry, being in the city; and the man, because he has humbled his neighbor’s wife. So you shall remove the evil from among you.",
+      "ct": "you must bring both of them to the gate of that city and stone them to death — the young woman because she didn't cry out for help even though she was in the city, and the man because he violated another man's future wife. You must purge this evil from among you."
+    },
+    {
+      "verse": 25,
+      "kjv": "But if a man find a betrothed damsel in the field, and the man force her, and lie with her: then the man only that lay with her shall die:",
+      "web": "But if the man finds the lady who is pledged to be married in the field, and the man forces her and lies with her, then only the man who lay with her shall die;",
+      "ct": "But if a man encounters an engaged young woman out in the open countryside and forces her and sleeps with her, only the man must die."
+    },
+    {
+      "verse": 26,
+      "kjv": "But unto the damsel thou shalt do nothing; there is in the damsel no sin worthy of death: for as when a man riseth against his neighbour, and slayeth him, even so is this matter:",
+      "web": "but to the lady you shall do nothing. There is in the lady no sin worthy of death; for as when a man rises against his neighbor and kills him, even so is this matter;",
+      "ct": "Don't do anything to the young woman — she has committed no sin deserving death. This situation is like someone being attacked and murdered by another person."
+    },
+    {
+      "verse": 27,
+      "kjv": "For he found her in the field, and the betrothed damsel cried, and there was none to save her.",
+      "web": "for he found her in the field, the pledged to be married lady cried, and there was no one to save her.",
+      "ct": "He found her out in the field where, even though she cried out, there was no one around to rescue her."
+    },
+    {
+      "verse": 28,
+      "kjv": "If a man find a damsel that is a virgin, which is not betrothed, and lay hold on her, and lie with her, and they be found;",
+      "web": "If a man finds a lady who is a virgin, who is not pledged to be married, grabs her and lies with her, and they are found,",
+      "ct": "If a man encounters a young woman who is a virgin and not engaged, and he grabs her and sleeps with her, and they are discovered,"
+    },
+    {
+      "verse": 29,
+      "kjv": "Then the man that lay with her shall give unto the damsel’s father fifty shekels of silver, and she shall be his wife; because he hath humbled her, he may not put her away all his days.",
+      "web": "then the man who lay with her shall give to the lady’s father fifty shekels of silver. She shall be his wife, because he has humbled her. He may not put her away all his days.",
+      "ct": "the man who slept with her must pay the young woman's father 50 shekels of silver. She will become his wife because he violated her, and he can never divorce her as long as he lives."
+    },
+    {
+      "verse": 30,
+      "kjv": "A man shall not take his father’s wife, nor discover his father’s skirt.",
+      "web": "A man shall not take his father’s wife, and shall not uncover his father’s skirt.",
+      "ct": "A man must never marry his father's wife or dishonor his father's marriage bed."
+    }
+  ]
+}

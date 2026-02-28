@@ -1,0 +1,191 @@
+{
+  "book": "philippians",
+  "book_name": "Philippians",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:00:01.704Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "If there be therefore any consolation in Christ, if any comfort of love, if any fellowship of the Spirit, if any bowels and mercies,",
+      "web": "If therefore there is any exhortation in Christ, if any consolation of love, if any fellowship of the Spirit, if any tender mercies and compassion,",
+      "ct": "If your life in Christ gives you any encouragement, if love brings you any comfort, if you share anything together through the Holy Spirit, if you have any tenderness and compassion at all —"
+    },
+    {
+      "verse": 2,
+      "kjv": "Fulfil ye my joy, that ye be likeminded, having the same love, being of one accord, of one mind.",
+      "web": "make my joy full by being like-minded, having the same love, being of one accord, of one mind;",
+      "ct": "then make my joy complete by being united in thought, sharing the same love, and living in harmony with one mind and one purpose."
+    },
+    {
+      "verse": 3,
+      "kjv": "Let nothing be done through strife or vainglory; but in lowliness of mind let each esteem other better than themselves.",
+      "web": "doing nothing through rivalry or through conceit, but in humility, each counting others better than himself;",
+      "ct": "Don't do anything out of selfish ambition or empty pride. Instead, be humble, and consider others as more important than yourselves."
+    },
+    {
+      "verse": 4,
+      "kjv": "Look not every man on his own things, but every man also on the things of others.",
+      "web": "each of you not just looking to his own things, but each of you also to the things of others.",
+      "ct": "Don't just look out for your own interests — pay attention to the interests of others too."
+    },
+    {
+      "verse": 5,
+      "kjv": "Let this mind be in you, which was also in Christ Jesus:",
+      "web": "Have this in your mind, which was also in Christ Jesus,",
+      "ct": "Adopt the same attitude that Christ Jesus had:"
+    },
+    {
+      "verse": 6,
+      "kjv": "Who, being in the form of God, thought it not robbery to be equal with God:",
+      "web": "who, existing in the form of God, didn’t consider equality with God a thing to be grasped,",
+      "ct": "Though he existed in the very form of God, he didn't cling to his equality with God as something to hold onto."
+    },
+    {
+      "verse": 7,
+      "kjv": "But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men:",
+      "web": "but emptied himself, taking the form of a servant, being made in the likeness of men.",
+      "ct": "Instead, he emptied himself of all privilege, took on the form of a servant, and was born in human likeness."
+    },
+    {
+      "verse": 8,
+      "kjv": "And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross.",
+      "web": "And being found in human form, he humbled himself, becoming obedient to the point of death, yes, the death of the cross.",
+      "ct": "Appearing as an ordinary man, he humbled himself even further by obeying God all the way to death — even death on a cross."
+    },
+    {
+      "verse": 9,
+      "kjv": "Wherefore God also hath highly exalted him, and given him a name which is above every name:",
+      "web": "Therefore God also highly exalted him, and gave to him the name which is above every name,",
+      "ct": "Because of this, God raised him to the highest place and gave him the name that is above every other name,"
+    },
+    {
+      "verse": 10,
+      "kjv": "That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth;",
+      "web": "that at the name of Jesus every knee should bow, of those in heaven, those on earth, and those under the earth,",
+      "ct": "so that at the name of Jesus every knee will bow — in heaven, on earth, and under the earth —"
+    },
+    {
+      "verse": 11,
+      "kjv": "And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.",
+      "web": "and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.",
+      "ct": "and every tongue will confess that Jesus Christ is Lord, to the glory of God the Father."
+    },
+    {
+      "verse": 12,
+      "kjv": "Wherefore, my beloved, as ye have always obeyed, not as in my presence only, but now much more in my absence, work out your own salvation with fear and trembling.",
+      "web": "So then, my beloved, even as you have always obeyed, not only in my presence, but now much more in my absence, work out your own salvation with fear and trembling.",
+      "ct": "So then, my dear friends, just as you've always obeyed — not only when I was with you, but even more now that I'm away — keep working out your salvation with fear and trembling."
+    },
+    {
+      "verse": 13,
+      "kjv": "For it is God which worketh in you both to will and to do of his good pleasure.",
+      "web": "For it is God who works in you both to will and to work, for his good pleasure.",
+      "ct": "Because it is God who is at work inside you, giving you both the desire and the power to do what pleases him."
+    },
+    {
+      "verse": 14,
+      "kjv": "Do all things without murmurings and disputings:",
+      "web": "Do all things without complaining and arguing,",
+      "ct": "Do everything without complaining or arguing,"
+    },
+    {
+      "verse": 15,
+      "kjv": "That ye may be blameless and harmless, the sons of God, without rebuke, in the midst of a crooked and perverse nation, among whom ye shine as lights in the world;",
+      "web": "that you may become blameless and harmless, children of God without defect in the middle of a crooked and perverse generation, among whom you are seen as lights in the world,",
+      "ct": "so that you'll be blameless and pure, children of God without fault in the middle of a twisted and corrupt generation. Among them, you shine like stars in the sky,"
+    },
+    {
+      "verse": 16,
+      "kjv": "Holding forth the word of life; that I may rejoice in the day of Christ, that I have not run in vain, neither laboured in vain.",
+      "web": "holding up the word of life, that I may have something to boast in the day of Christ, that I didn’t run in vain nor labor in vain.",
+      "ct": "holding out the word of life. Then on the day of Christ, I'll have reason to be proud that I didn't run my race for nothing or work for nothing."
+    },
+    {
+      "verse": 17,
+      "kjv": "Yea, and if I be offered upon the sacrifice and service of your faith, I joy, and rejoice with you all.",
+      "web": "Yes, and if I am poured out on the sacrifice and service of your faith, I rejoice, and rejoice with you all.",
+      "ct": "Even if my life is poured out like a drink offering on top of the sacrifice and service that your faith offers to God, I'm glad — and I share that joy with all of you."
+    },
+    {
+      "verse": 18,
+      "kjv": "For the same cause also do ye joy, and rejoice with me.",
+      "web": "In the same way, you also rejoice, and rejoice with me.",
+      "ct": "In the same way, you should be glad too, and share your joy with me."
+    },
+    {
+      "verse": 19,
+      "kjv": "But I trust in the Lord Jesus to send Timotheus shortly unto you, that I also may be of good comfort, when I know your state.",
+      "web": "But I hope in the Lord Jesus to send Timothy to you soon, that I also may be cheered up when I know how you are doing.",
+      "ct": "I hope in the Lord Jesus to send Timothy to you soon, so that I can be encouraged when I hear how you're doing."
+    },
+    {
+      "verse": 20,
+      "kjv": "For I have no man likeminded, who will naturally care for your state.",
+      "web": "For I have no one else like-minded, who will truly care about you.",
+      "ct": "I don't have anyone else like him — someone who genuinely cares about your well-being."
+    },
+    {
+      "verse": 21,
+      "kjv": "For all seek their own, not the things which are Jesus Christ’s.",
+      "web": "For they all seek their own, not the things of Jesus Christ.",
+      "ct": "Everyone else is focused on their own interests, not the things that matter to Jesus Christ."
+    },
+    {
+      "verse": 22,
+      "kjv": "But ye know the proof of him, that, as a son with the father, he hath served with me in the gospel.",
+      "web": "But you know the proof of him, that as a child serves a father, so he served with me in furtherance of the Good News.",
+      "ct": "But you already know Timothy's proven character. Like a son working alongside his father, he has served with me in spreading the gospel."
+    },
+    {
+      "verse": 23,
+      "kjv": "Him therefore I hope to send presently, so soon as I shall see how it will go with me.",
+      "web": "Therefore I hope to send him at once, as soon as I see how it will go with me.",
+      "ct": "So I hope to send him as soon as I see how things turn out for me."
+    },
+    {
+      "verse": 24,
+      "kjv": "But I trust in the Lord that I also myself shall come shortly.",
+      "web": "But I trust in the Lord that I myself also will come shortly.",
+      "ct": "And I'm confident in the Lord that I myself will come to you soon as well."
+    },
+    {
+      "verse": 25,
+      "kjv": "Yet I supposed it necessary to send to you Epaphroditus, my brother, and companion in labour, and fellowsoldier, but your messenger, and he that ministered to my wants.",
+      "web": "But I counted it necessary to send to you Epaphroditus, my brother, fellow worker, fellow soldier, and your apostle and servant of my need,",
+      "ct": "In the meantime, I felt it was necessary to send Epaphroditus back to you — my brother, my coworker, my fellow soldier, and the messenger you sent to take care of my needs."
+    },
+    {
+      "verse": 26,
+      "kjv": "For he longed after you all, and was full of heaviness, because that ye had heard that he had been sick.",
+      "web": "since he longed for you all, and was very troubled because you had heard that he was sick.",
+      "ct": "He's been longing to see all of you and has been deeply distressed because you heard he was sick."
+    },
+    {
+      "verse": 27,
+      "kjv": "For indeed he was sick nigh unto death: but God had mercy on him; and not on him only, but on me also, lest I should have sorrow upon sorrow.",
+      "web": "For indeed he was sick, nearly to death, but God had mercy on him, and not on him only, but on me also, that I might not have sorrow on sorrow.",
+      "ct": "He really was sick — so sick he nearly died. But God had mercy on him, and not just on him but on me too, so I wouldn't have to bear one grief on top of another."
+    },
+    {
+      "verse": 28,
+      "kjv": "I sent him therefore the more carefully, that, when ye see him again, ye may rejoice, and that I may be the less sorrowful.",
+      "web": "I have sent him therefore the more diligently, that when you see him again, you may rejoice, and that I may be the less sorrowful.",
+      "ct": "That's why I'm all the more eager to send him, so that when you see him again you'll be filled with joy, and my own worry will be eased."
+    },
+    {
+      "verse": 29,
+      "kjv": "Receive him therefore in the Lord with all gladness; and hold such in reputation:",
+      "web": "Receive him therefore in the Lord with all joy, and hold such people in honor,",
+      "ct": "Welcome him back in the Lord with open arms and great joy, and hold people like him in the highest honor."
+    },
+    {
+      "verse": 30,
+      "kjv": "Because for the work of Christ he was nigh unto death, not regarding his life, to supply your lack of service toward me.",
+      "web": "because for the work of Christ he came near to death, risking his life to supply that which was lacking in your service toward me.",
+      "ct": "He nearly died doing the work of Christ, risking his own life to make up for the help you couldn't give me in person."
+    }
+  ]
+}

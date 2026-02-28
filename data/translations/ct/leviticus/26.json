@@ -1,0 +1,287 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 26,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:49:01.569Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Ye shall make you no idols nor graven image, neither rear you up a standing image, neither shall ye set up any image of stone in your land, to bow down unto it: for I am the LORD your God.",
+      "web": "“ ‘You shall make for yourselves no idols, and you shall not raise up a carved image or a pillar, and you shall not place any figured stone in your land, to bow down to it; for I am LORD your God.",
+      "ct": "\"Don't make idols for yourselves. Don't set up carved images, sacred pillars, or engraved stones anywhere in your land to bow down to them. I am the LORD your God."
+    },
+    {
+      "verse": 2,
+      "kjv": "Ye shall keep my sabbaths, and reverence my sanctuary: I am the LORD.",
+      "web": "“ ‘You shall keep my Sabbaths, and have reverence for my sanctuary. I am LORD.",
+      "ct": "Keep my Sabbaths and treat my sanctuary with reverence. I am the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "If ye walk in my statutes, and keep my commandments, and do them;",
+      "web": "“ ‘If you walk in my statutes and keep my commandments, and do them,",
+      "ct": "If you follow my statutes, keep my commandments, and carry them out,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Then I will give you rain in due season, and the land shall yield her increase, and the trees of the field shall yield their fruit.",
+      "web": "then I will give you your rains in their season, and the land shall yield its increase, and the trees of the field shall yield their fruit.",
+      "ct": "then I will send your rains at the right time. The land will produce its crops, and the trees in the fields will bear their fruit."
+    },
+    {
+      "verse": 5,
+      "kjv": "And your threshing shall reach unto the vintage, and the vintage shall reach unto the sowing time: and ye shall eat your bread to the full, and dwell in your land safely.",
+      "web": "Your threshing shall continue until the vintage, and the vintage shall continue until the sowing time. You shall eat your bread to the full, and dwell in your land safely.",
+      "ct": "Your harvest season will be so abundant that you'll still be threshing grain when it's time to pick grapes, and you'll still be picking grapes when it's time to plant again. You'll have all the food you need, and you'll live safely in your land."
+    },
+    {
+      "verse": 6,
+      "kjv": "And I will give peace in the land, and ye shall lie down, and none shall make you afraid: and I will rid evil beasts out of the land, neither shall the sword go through your land.",
+      "web": "“ ‘I will give peace in the land, and you shall lie down, and no one will make you afraid. I will remove evil animals out of the land, neither shall the sword go through your land.",
+      "ct": "I will give you peace throughout the land. You'll lie down to sleep with nothing to fear. I will rid the land of dangerous animals, and no army will march through your territory."
+    },
+    {
+      "verse": 7,
+      "kjv": "And ye shall chase your enemies, and they shall fall before you by the sword.",
+      "web": "You shall chase your enemies, and they shall fall before you by the sword.",
+      "ct": "You will chase your enemies, and they will fall before your swords."
+    },
+    {
+      "verse": 8,
+      "kjv": "And five of you shall chase an hundred, and an hundred of you shall put ten thousand to flight: and your enemies shall fall before you by the sword.",
+      "web": "Five of you shall chase a hundred, and a hundred of you shall chase ten thousand; and your enemies shall fall before you by the sword.",
+      "ct": "5 of you will chase 100, and 100 of you will put 10,000 to flight. Your enemies will fall before your swords."
+    },
+    {
+      "verse": 9,
+      "kjv": "For I will have respect unto you, and make you fruitful, and multiply you, and establish my covenant with you.",
+      "web": "“ ‘I will have respect for you, make you fruitful, multiply you, and will establish my covenant with you.",
+      "ct": "I will look on you with favor. I will make you fruitful, multiply your numbers, and keep my covenant with you."
+    },
+    {
+      "verse": 10,
+      "kjv": "And ye shall eat old store, and bring forth the old because of the new.",
+      "web": "You shall eat old supplies long kept, and you shall move out the old because of the new.",
+      "ct": "Your harvests will be so plentiful that you'll still be eating last year's stored grain when you need to clear it out to make room for the new crop."
+    },
+    {
+      "verse": 11,
+      "kjv": "And I will set my tabernacle among you: and my soul shall not abhor you.",
+      "web": "I will set my tent among you, and my soul won’t abhor you.",
+      "ct": "I will place my tabernacle among you, and my soul will not reject you."
+    },
+    {
+      "verse": 12,
+      "kjv": "And I will walk among you, and will be your God, and ye shall be my people.",
+      "web": "I will walk among you, and will be your God, and you will be my people.",
+      "ct": "I will walk among you. I will be your God, and you will be my people."
+    },
+    {
+      "verse": 13,
+      "kjv": "I am the LORD your God, which brought you forth out of the land of Egypt, that ye should not be their bondmen; and I have broken the bands of your yoke, and made you go upright.",
+      "web": "I am LORD your God, who brought you out of the land of Egypt, that you should not be their slaves. I have broken the bars of your yoke, and made you walk upright.",
+      "ct": "I am the LORD your God, who brought you out of Egypt so you would no longer be slaves. I broke the bars of your yoke and let you walk with your heads held high."
+    },
+    {
+      "verse": 14,
+      "kjv": "But if ye will not hearken unto me, and will not do all these commandments;",
+      "web": "“ ‘But if you will not listen to me, and will not do all these commandments,",
+      "ct": "But if you refuse to listen to me and won't carry out all these commandments —"
+    },
+    {
+      "verse": 15,
+      "kjv": "And if ye shall despise my statutes, or if your soul abhor my judgments, so that ye will not do all my commandments, but that ye break my covenant:",
+      "web": "and if you shall reject my statutes, and if your soul abhors my ordinances, so that you will not do all my commandments, but break my covenant,",
+      "ct": "if you reject my statutes, and if your soul despises my laws, so that you refuse to obey my commandments and break my covenant —"
+    },
+    {
+      "verse": 16,
+      "kjv": "I also will do this unto you; I will even appoint over you terror, consumption, and the burning ague, that shall consume the eyes, and cause sorrow of heart: and ye shall sow your seed in vain, for your enemies shall eat it.",
+      "web": "I also will do this to you: I will appoint terror over you, even consumption and fever, that shall consume the eyes, and make the soul to pine away. You will sow your seed in vain, for your enemies will eat it.",
+      "ct": "then here is what I will do to you: I will bring terror on you, along with wasting disease and burning fever that will drain your eyes and crush your spirit. You will plant your crops for nothing, because your enemies will eat the harvest."
+    },
+    {
+      "verse": 17,
+      "kjv": "And I will set my face against you, and ye shall be slain before your enemies: they that hate you shall reign over you; and ye shall flee when none pursueth you.",
+      "web": "I will set my face against you, and you will be struck before your enemies. Those who hate you will rule over you; and you will flee when no one pursues you.",
+      "ct": "I will turn my face against you, and your enemies will strike you down. Those who hate you will rule over you, and you will run in panic even when no one is chasing you."
+    },
+    {
+      "verse": 18,
+      "kjv": "And if ye will not yet for all this hearken unto me, then I will punish you seven times more for your sins.",
+      "web": "“ ‘If you in spite of these things will not listen to me, then I will chastise you seven times more for your sins.",
+      "ct": "If after all this you still won't listen to me, I will punish you 7 times over for your sins."
+    },
+    {
+      "verse": 19,
+      "kjv": "And I will break the pride of your power; and I will make your heaven as iron, and your earth as brass:",
+      "web": "I will break the pride of your power, and I will make your sky like iron, and your soil like bronze.",
+      "ct": "I will shatter the pride of your power. I will make your sky hard as iron and your ground hard as bronze."
+    },
+    {
+      "verse": 20,
+      "kjv": "And your strength shall be spent in vain: for your land shall not yield her increase, neither shall the trees of the land yield their fruits.",
+      "web": "Your strength will be spent in vain; for your land won’t yield its increase, neither will the trees of the land yield their fruit.",
+      "ct": "All your hard work will be wasted, because your land won't produce crops and your trees won't bear fruit."
+    },
+    {
+      "verse": 21,
+      "kjv": "And if ye walk contrary unto me, and will not hearken unto me; I will bring seven times more plagues upon you according to your sins.",
+      "web": "“ ‘If you walk contrary to me, and won’t listen to me, then I will bring seven times more plagues on you according to your sins.",
+      "ct": "If you continue to defy me and refuse to listen, I will multiply your plagues 7 times over, matching your sins."
+    },
+    {
+      "verse": 22,
+      "kjv": "I will also send wild beasts among you, which shall rob you of your children, and destroy your cattle, and make you few in number; and your high ways shall be desolate.",
+      "web": "I will send the wild animals among you, which will rob you of your children, destroy your livestock, and make you few in number. Your roads will become desolate.",
+      "ct": "I will unleash wild animals among you. They will snatch your children, destroy your livestock, and reduce your numbers until your roads are empty and deserted."
+    },
+    {
+      "verse": 23,
+      "kjv": "And if ye will not be reformed by me by these things, but will walk contrary unto me;",
+      "web": "“ ‘If by these things you won’t be turned back to me, but will walk contrary to me,",
+      "ct": "If even after all this you still won't turn back to me, but keep on defying me,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Then will I also walk contrary unto you, and will punish you yet seven times for your sins.",
+      "web": "then I will also walk contrary to you; and I will strike you, even I, seven times for your sins.",
+      "ct": "then I myself will defy you in return. I will strike you 7 times over for your sins."
+    },
+    {
+      "verse": 25,
+      "kjv": "And I will bring a sword upon you, that shall avenge the quarrel of my covenant: and when ye are gathered together within your cities, I will send the pestilence among you; and ye shall be delivered into the hand of the enemy.",
+      "web": "I will bring a sword upon you that will execute the vengeance of the covenant. You will be gathered together within your cities, and I will send the pestilence among you. You will be delivered into the hand of the enemy.",
+      "ct": "I will bring war against you to avenge my broken covenant. When you retreat behind your city walls, I will send plague among you, and you will be handed over to your enemies."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when I have broken the staff of your bread, ten women shall bake your bread in one oven, and they shall deliver you your bread again by weight: and ye shall eat, and not be satisfied.",
+      "web": "When I break your staff of bread, ten women shall bake your bread in one oven, and they shall deliver your bread again by weight. You shall eat, and not be satisfied.",
+      "ct": "When I cut off your food supply, 10 women will be able to bake all your bread in a single oven. They'll ration it out by weight, and you'll eat but never have enough."
+    },
+    {
+      "verse": 27,
+      "kjv": "And if ye will not for all this hearken unto me, but walk contrary unto me;",
+      "web": "“ ‘If you in spite of this won’t listen to me, but walk contrary to me,",
+      "ct": "If after all of this you still won't listen to me but keep on defying me,"
+    },
+    {
+      "verse": 28,
+      "kjv": "Then I will walk contrary unto you also in fury; and I, even I, will chastise you seven times for your sins.",
+      "web": "then I will walk contrary to you in wrath. I will also chastise you seven times for your sins.",
+      "ct": "then I will defy you with furious anger. I myself will punish you 7 times over for your sins."
+    },
+    {
+      "verse": 29,
+      "kjv": "And ye shall eat the flesh of your sons, and the flesh of your daughters shall ye eat.",
+      "web": "You will eat the flesh of your sons, and you will eat the flesh of your daughters.",
+      "ct": "You will be driven to eat the flesh of your own sons and daughters."
+    },
+    {
+      "verse": 30,
+      "kjv": "And I will destroy your high places, and cut down your images, and cast your carcases upon the carcases of your idols, and my soul shall abhor you.",
+      "web": "I will destroy your high places, and cut down your incense altars, and cast your dead bodies upon the bodies of your idols; and my soul will abhor you.",
+      "ct": "I will destroy your pagan shrines, smash your incense altars, and pile your corpses on top of your broken idols. My soul will despise you."
+    },
+    {
+      "verse": 31,
+      "kjv": "And I will make your cities waste, and bring your sanctuaries unto desolation, and I will not smell the savour of your sweet odours.",
+      "web": "I will lay your cities waste, and will bring your sanctuaries to desolation. I will not take delight in the sweet fragrance of your offerings.",
+      "ct": "I will turn your cities into ruins and lay waste to your sanctuaries. I will no longer accept the pleasing aroma of your offerings."
+    },
+    {
+      "verse": 32,
+      "kjv": "And I will bring the land into desolation: and your enemies which dwell therein shall be astonished at it.",
+      "web": "I will bring the land into desolation, and your enemies that dwell in it will be astonished at it.",
+      "ct": "I will devastate the land so completely that even your enemies who settle there will be shocked by what they see."
+    },
+    {
+      "verse": 33,
+      "kjv": "And I will scatter you among the heathen, and will draw out a sword after you: and your land shall be desolate, and your cities waste.",
+      "web": "I will scatter you among the nations, and I will draw out the sword after you. Your land will be a desolation, and your cities shall be a waste.",
+      "ct": "I will scatter you among the nations and pursue you with the sword. Your land will be left desolate, and your cities will lie in ruins."
+    },
+    {
+      "verse": 34,
+      "kjv": "Then shall the land enjoy her sabbaths, as long as it lieth desolate, and ye be in your enemies’ land; even then shall the land rest, and enjoy her sabbaths.",
+      "web": "Then the land will enjoy its Sabbaths as long as it lies desolate and you are in your enemies’ land. Even then the land will rest and enjoy its Sabbaths.",
+      "ct": "Then, while the land lies empty and you are living in your enemies' territory, the land will finally enjoy its Sabbath rest."
+    },
+    {
+      "verse": 35,
+      "kjv": "As long as it lieth desolate it shall rest; because it did not rest in your sabbaths, when ye dwelt upon it.",
+      "web": "As long as it lies desolate it shall have rest, even the rest which it didn’t have in your Sabbaths when you lived on it.",
+      "ct": "The entire time it lies desolate, the land will have the rest it never got during the Sabbaths when you lived on it."
+    },
+    {
+      "verse": 36,
+      "kjv": "And upon them that are left alive of you I will send a faintness into their hearts in the lands of their enemies; and the sound of a shaken leaf shall chase them; and they shall flee, as fleeing from a sword; and they shall fall when none pursueth.",
+      "web": "“ ‘As for those of you who are left, I will send a faintness into their hearts in the lands of their enemies. The sound of a driven leaf will put them to flight; and they shall flee, as one flees from the sword. They will fall when no one pursues.",
+      "ct": "As for those of you who survive, I will fill your hearts with dread while you live in your enemies' lands. The rustle of a windblown leaf will send you running as if a sword were behind you, and you'll collapse even when no one is chasing you."
+    },
+    {
+      "verse": 37,
+      "kjv": "And they shall fall one upon another, as it were before a sword, when none pursueth: and ye shall have no power to stand before your enemies.",
+      "web": "They will stumble over one another, as it were before the sword, when no one pursues. You will have no power to stand before your enemies.",
+      "ct": "You'll stumble over each other as though fleeing from battle, even when no one is pursuing you. You will have no strength to stand against your enemies."
+    },
+    {
+      "verse": 38,
+      "kjv": "And ye shall perish among the heathen, and the land of your enemies shall eat you up.",
+      "web": "You will perish among the nations. The land of your enemies will eat you up.",
+      "ct": "You will die off among the nations, swallowed up by the lands of your enemies."
+    },
+    {
+      "verse": 39,
+      "kjv": "And they that are left of you shall pine away in their iniquity in your enemies’ lands; and also in the iniquities of their fathers shall they pine away with them.",
+      "web": "Those of you who are left will pine away in their iniquity in your enemies’ lands; and also in the iniquities of their fathers they shall pine away with them.",
+      "ct": "Those of you who remain will waste away in your enemies' lands because of your sins — and because of the sins of your ancestors piled on top of your own."
+    },
+    {
+      "verse": 40,
+      "kjv": "If they shall confess their iniquity, and the iniquity of their fathers, with their trespass which they trespassed against me, and that also they have walked contrary unto me;",
+      "web": "“ ‘If they confess their iniquity and the iniquity of their fathers, in their trespass which they trespassed against me; and also that because they walked contrary to me,",
+      "ct": "But if they confess their sins and the sins of their ancestors — the unfaithfulness they committed against me and the way they defied me,"
+    },
+    {
+      "verse": 41,
+      "kjv": "And that I also have walked contrary unto them, and have brought them into the land of their enemies; if then their uncircumcised hearts be humbled, and they then accept of the punishment of their iniquity:",
+      "web": "I also walked contrary to them, and brought them into the land of their enemies; if then their uncircumcised heart is humbled, and they then accept the punishment of their iniquity,",
+      "ct": "which caused me to defy them in return and send them into their enemies' land — if their stubborn hearts are finally humbled and they accept the punishment for their sins,"
+    },
+    {
+      "verse": 42,
+      "kjv": "Then will I remember my covenant with Jacob, and also my covenant with Isaac, and also my covenant with Abraham will I remember; and I will remember the land.",
+      "web": "then I will remember my covenant with Jacob, my covenant with Isaac, and also my covenant with Abraham; and I will remember the land.",
+      "ct": "then I will remember my covenant with Jacob, my covenant with Isaac, and my covenant with Abraham. And I will remember the land."
+    },
+    {
+      "verse": 43,
+      "kjv": "The land also shall be left of them, and shall enjoy her sabbaths, while she lieth desolate without them: and they shall accept of the punishment of their iniquity: because, even because they despised my judgments, and because their soul abhorred my statutes.",
+      "web": "The land also will be left by them, and will enjoy its Sabbaths while it lies desolate without them; and they will accept the punishment of their iniquity because they rejected my ordinances, and their soul abhorred my statutes.",
+      "ct": "The land will be left behind by them and will enjoy its Sabbaths while it lies empty without them. They will accept the punishment for their sins, because they rejected my laws and their soul despised my statutes."
+    },
+    {
+      "verse": 44,
+      "kjv": "And yet for all that, when they be in the land of their enemies, I will not cast them away, neither will I abhor them, to destroy them utterly, and to break my covenant with them: for I am the LORD their God.",
+      "web": "Yet for all that, when they are in the land of their enemies, I will not reject them, neither will I abhor them, to destroy them utterly and to break my covenant with them; for I am LORD their God.",
+      "ct": "Yet even so, while they are living in their enemies' land, I will not completely reject them or despise them enough to destroy them entirely and break my covenant with them. I am the LORD their God."
+    },
+    {
+      "verse": 45,
+      "kjv": "But I will for their sakes remember the covenant of their ancestors, whom I brought forth out of the land of Egypt in the sight of the heathen, that I might be their God: I am the LORD.",
+      "web": "But I will for their sake remember the covenant of their ancestors, whom I brought out of the land of Egypt in the sight of the nations, that I might be their God. I am LORD.’ ”",
+      "ct": "For their sake, I will remember the covenant I made with their ancestors — the people I brought out of Egypt while the nations watched — so that I could be their God. I am the LORD.\""
+    },
+    {
+      "verse": 46,
+      "kjv": "These are the statutes and judgments and laws, which the LORD made between him and the children of Israel in mount Sinai by the hand of Moses.",
+      "web": "These are the statutes, ordinances, and laws, which LORD made between him and the children of Israel in Mount Sinai by Moses.",
+      "ct": "These are the statutes, laws, and regulations that the LORD established between himself and the people of Israel at Mount Sinai through Moses."
+    }
+  ]
+}

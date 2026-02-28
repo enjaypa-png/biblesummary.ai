@@ -1,0 +1,119 @@
+{
+  "book": "2-peter",
+  "book_name": "2 Peter",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:15:50.263Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "This second epistle, beloved, I now write unto you; in both which I stir up your pure minds by way of remembrance:",
+      "web": "This is now, beloved, the second letter that I have written to you; and in both of them I stir up your sincere mind by reminding you,",
+      "ct": "Dear friends, this is now my second letter to you. In both letters, I've been trying to stir up your honest thinking by reminding you of important things."
+    },
+    {
+      "verse": 2,
+      "kjv": "That ye may be mindful of the words which were spoken before by the holy prophets, and of the commandment of us the apostles of the Lord and Saviour:",
+      "web": "that you should remember the words which were spoken before by the holy prophets, and the commandment of us, the apostles of the Lord and Savior:",
+      "ct": "I want you to remember what the holy prophets said long ago, and the command that our Lord and Savior gave through us, his apostles."
+    },
+    {
+      "verse": 3,
+      "kjv": "Knowing this first, that there shall come in the last days scoffers, walking after their own lusts,",
+      "web": "knowing this first, that in the last days mockers will come, walking after their own lusts",
+      "ct": "First and foremost, understand this: in the last days, mockers will show up who are driven by their own desires."
+    },
+    {
+      "verse": 4,
+      "kjv": "And saying, Where is the promise of his coming? for since the fathers fell asleep, all things continue as they were from the beginning of the creation.",
+      "web": "and saying, “Where is the promise of his coming? For, from the day that the fathers fell asleep, all things continue as they were from the beginning of the creation.”",
+      "ct": "They'll say, \"So where is this 'coming' he promised? Our ancestors died, and everything keeps going exactly the way it has since the beginning of creation.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "For this they willingly are ignorant of, that by the word of God the heavens were of old, and the earth standing out of the water and in the water:",
+      "web": "For this they willfully forget that there were heavens from of old, and an earth formed out of water and amid water by the word of God,",
+      "ct": "They deliberately ignore the fact that long ago, God spoke the heavens into existence, and the earth was formed out of water and by means of water."
+    },
+    {
+      "verse": 6,
+      "kjv": "Whereby the world that then was, being overflowed with water, perished:",
+      "web": "by which means the world that existed then, being overflowed with water, perished.",
+      "ct": "And it was through water that the world of that time was flooded and destroyed."
+    },
+    {
+      "verse": 7,
+      "kjv": "But the heavens and the earth, which are now, by the same word are kept in store, reserved unto fire against the day of judgment and perdition of ungodly men.",
+      "web": "But the heavens that exist now and the earth, by the same word have been stored up for fire, being reserved against the day of judgment and destruction of ungodly men.",
+      "ct": "By that same word of God, the present heavens and earth are being held in reserve for fire, kept for the day of judgment and the destruction of ungodly people."
+    },
+    {
+      "verse": 8,
+      "kjv": "But, beloved, be not ignorant of this one thing, that one day is with the Lord as a thousand years, and a thousand years as one day.",
+      "web": "But don’t forget this one thing, beloved, that one day is with the Lord as a thousand years, and a thousand years as one day.",
+      "ct": "Dear friends, don't overlook this one thing: to the Lord, a single day is like a thousand years, and a thousand years is like a single day."
+    },
+    {
+      "verse": 9,
+      "kjv": "The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance.",
+      "web": "The Lord is not slow concerning his promise, as some count slowness; but he is patient with us, not wishing that anyone should perish, but that all should come to repentance.",
+      "ct": "The Lord isn't slow to keep his promise the way some people think of slowness. Instead, he's patient with you, because he doesn't want anyone to perish. He wants everyone to come to repentance."
+    },
+    {
+      "verse": 10,
+      "kjv": "But the day of the Lord will come as a thief in the night; in the which the heavens shall pass away with a great noise, and the elements shall melt with fervent heat, the earth also and the works that are therein shall be burned up.",
+      "web": "But the day of the Lord will come as a thief in the night; in which the heavens will pass away with a great noise, and the elements will be dissolved with fervent heat, and the earth and the works that are in it will be burned up.",
+      "ct": "But the day of the Lord will arrive like a thief in the night. The heavens will disappear with a thunderous roar, the elements will melt in intense heat, and the earth and everything done on it will be burned up."
+    },
+    {
+      "verse": 11,
+      "kjv": "Seeing then that all these things shall be dissolved, what manner of persons ought ye to be in all holy conversation and godliness,",
+      "web": "Therefore since all these things will be destroyed like this, what kind of people ought you to be in holy living and godliness,",
+      "ct": "Since everything will be destroyed like this, think about what kind of people you should be — living holy and godly lives,"
+    },
+    {
+      "verse": 12,
+      "kjv": "Looking for and hasting unto the coming of the day of God, wherein the heavens being on fire shall be dissolved, and the elements shall melt with fervent heat?",
+      "web": "looking for and earnestly desiring the coming of the day of God, which will cause the burning heavens to be dissolved, and the elements will melt with fervent heat?",
+      "ct": "eagerly looking forward to and hastening the coming of the day of God. On that day, the heavens will be set on fire and dissolved, and the elements will melt in intense heat."
+    },
+    {
+      "verse": 13,
+      "kjv": "Nevertheless we, according to his promise, look for new heavens and a new earth, wherein dwelleth righteousness.",
+      "web": "But, according to his promise, we look for new heavens and a new earth, in which righteousness dwells.",
+      "ct": "But based on his promise, we're looking forward to new heavens and a new earth, where righteousness is at home."
+    },
+    {
+      "verse": 14,
+      "kjv": "Wherefore, beloved, seeing that ye look for such things, be diligent that ye may be found of him in peace, without spot, and blameless.",
+      "web": "Therefore, beloved, seeing that you look for these things, be diligent to be found in peace, without defect and blameless in his sight.",
+      "ct": "So then, dear friends, since you're waiting for these things, make every effort to be found at peace with him — spotless and blameless."
+    },
+    {
+      "verse": 15,
+      "kjv": "And account that the longsuffering of our Lord is salvation; even as our beloved brother Paul also according to the wisdom given unto him hath written unto you;",
+      "web": "Regard the patience of our Lord as salvation; even as our beloved brother Paul also, according to the wisdom given to him, wrote to you,",
+      "ct": "Understand that our Lord's patience means salvation. Our dear brother Paul wrote the same thing to you, using the wisdom God gave him."
+    },
+    {
+      "verse": 16,
+      "kjv": "As also in all his epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable wrest, as they do also the other scriptures, unto their own destruction.",
+      "web": "as also in all of his letters, speaking in them of these things. In those, there are some things that are hard to understand, which the ignorant and unsettled twist, as they also do to the other Scriptures, to their own destruction.",
+      "ct": "He talks about these things in all his letters. Some parts of his writing are hard to understand, and ignorant and unstable people twist them — just as they twist the rest of the Scriptures — and it leads to their own destruction."
+    },
+    {
+      "verse": 17,
+      "kjv": "Ye therefore, beloved, seeing ye know these things before, beware lest ye also, being led away with the error of the wicked, fall from your own stedfastness.",
+      "web": "You therefore, beloved, knowing these things beforehand, beware, lest being carried away with the error of the wicked, you fall from your own steadfastness.",
+      "ct": "So then, dear friends, since you already know this ahead of time, be on your guard. Don't let the errors of lawless people drag you away and cause you to lose your firm footing."
+    },
+    {
+      "verse": 18,
+      "kjv": "But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and for ever. Amen.",
+      "web": "But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be the glory both now and forever. Amen.",
+      "ct": "Instead, keep growing in the grace and knowledge of our Lord and Savior Jesus Christ. To him be glory now and forever. Amen."
+    }
+  ]
+}

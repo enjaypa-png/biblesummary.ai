@@ -1,0 +1,215 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 27,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:49:28.513Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto the children of Israel, and say unto them, When a man shall make a singular vow, the persons shall be for the LORD by thy estimation.",
+      "web": "“Speak to the children of Israel, and say to them, ‘When a man consecrates a person to LORD in a vow, according to your valuation,",
+      "ct": "\"Tell the people of Israel: When someone makes a special vow to dedicate a person to the LORD, the following values apply."
+    },
+    {
+      "verse": 3,
+      "kjv": "And thy estimation shall be of the male from twenty years old even unto sixty years old, even thy estimation shall be fifty shekels of silver, after the shekel of the sanctuary.",
+      "web": "your valuation of a male from twenty years old to sixty years old shall be fifty shekels of silver, according to the shekel of the sanctuary.",
+      "ct": "A male between 20 and 60 years old shall be valued at 50 shekels of silver, measured by the sanctuary standard."
+    },
+    {
+      "verse": 4,
+      "kjv": "And if it be a female, then thy estimation shall be thirty shekels.",
+      "web": "If she is a female, then your valuation shall be thirty shekels.",
+      "ct": "A female in that same age range shall be valued at 30 shekels."
+    },
+    {
+      "verse": 5,
+      "kjv": "And if it be from five years old even unto twenty years old, then thy estimation shall be of the male twenty shekels, and for the female ten shekels.",
+      "web": "If the person is from five years old to twenty years old, then your valuation shall be for a male twenty shekels, and for a female ten shekels.",
+      "ct": "For anyone between 5 and 20 years old, the value shall be 20 shekels for a male and 10 shekels for a female."
+    },
+    {
+      "verse": 6,
+      "kjv": "And if it be from a month old even unto five years old, then thy estimation shall be of the male five shekels of silver, and for the female thy estimation shall be three shekels of silver.",
+      "web": "If the person is from a month old to five years old, then your valuation shall be for a male five shekels of silver, and for a female your valuation shall be three shekels of silver.",
+      "ct": "For a child between 1 month and 5 years old, the value shall be 5 shekels of silver for a male and 3 shekels of silver for a female."
+    },
+    {
+      "verse": 7,
+      "kjv": "And if it be from sixty years old and above; if it be a male, then thy estimation shall be fifteen shekels, and for the female ten shekels.",
+      "web": "If the person is from sixty years old and upward; if he is a male, then your valuation shall be fifteen shekels, and for a female ten shekels.",
+      "ct": "For anyone 60 years old or older, the value shall be 15 shekels for a male and 10 shekels for a female."
+    },
+    {
+      "verse": 8,
+      "kjv": "But if he be poorer than thy estimation, then he shall present himself before the priest, and the priest shall value him; according to his ability that vowed shall the priest value him.",
+      "web": "But if he is poorer than your valuation, then he shall be set before the priest, and the priest shall assign a value to him. The priest shall assign a value according to his ability to pay.",
+      "ct": "If the person who made the vow is too poor to pay the set amount, they must appear before the priest, and the priest will set a value based on what that person can afford."
+    },
+    {
+      "verse": 9,
+      "kjv": "And if it be a beast, whereof men bring an offering unto the LORD, all that any man giveth of such unto the LORD shall be holy.",
+      "web": "“ ‘If it is an animal of which men offer an offering to LORD, all that any man gives of such to LORD becomes holy.",
+      "ct": "If someone vows to give the LORD an animal that is acceptable as an offering, that animal becomes holy the moment it is given."
+    },
+    {
+      "verse": 10,
+      "kjv": "He shall not alter it, nor change it, a good for a bad, or a bad for a good: and if he shall at all change beast for beast, then it and the exchange thereof shall be holy.",
+      "web": "He shall not alter it, nor exchange it, a good for a bad, or a bad for a good. If he shall at all exchange animal for animal, then both it and that for which it is exchanged shall be holy.",
+      "ct": "The person must not swap it out or replace it — not a good one for a bad one, and not a bad one for a good one. If anyone does try to exchange one animal for another, both animals become holy."
+    },
+    {
+      "verse": 11,
+      "kjv": "And if it be any unclean beast, of which they do not offer a sacrifice unto the LORD, then he shall present the beast before the priest:",
+      "web": "If it is any unclean animal, of which they do not offer as an offering to LORD, then he shall set the animal before the priest;",
+      "ct": "If the animal is an unclean one that cannot be offered as a sacrifice to the LORD, the person must bring it before the priest."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the priest shall value it, whether it be good or bad: as thou valuest it, who art the priest, so shall it be.",
+      "web": "and the priest shall evaluate it, whether it is good or bad. As the priest evaluates it, so it shall be.",
+      "ct": "The priest will then evaluate it as good or bad, and whatever value the priest sets — that's the price."
+    },
+    {
+      "verse": 13,
+      "kjv": "But if he will at all redeem it, then he shall add a fifth part thereof unto thy estimation.",
+      "web": "But if he will indeed redeem it, then he shall add the fifth part of it to its valuation.",
+      "ct": "If the owner wants to buy it back, he must pay the priest's value plus an additional 20 percent."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when a man shall sanctify his house to be holy unto the LORD, then the priest shall estimate it, whether it be good or bad: as the priest shall estimate it, so shall it stand.",
+      "web": "“ ‘When a man dedicates his house to be holy to LORD, then the priest shall evaluate it, whether it is good or bad. As the priest evaluates it, so it shall stand.",
+      "ct": "When someone dedicates their house as holy to the LORD, the priest will evaluate it as good or bad. Whatever value the priest assigns will stand."
+    },
+    {
+      "verse": 15,
+      "kjv": "And if he that sanctified it will redeem his house, then he shall add the fifth part of the money of thy estimation unto it, and it shall be his.",
+      "web": "If he who dedicates it will redeem his house, then he shall add the fifth part of the money of your valuation to it, and it shall be his.",
+      "ct": "If the person who dedicated the house wants to buy it back, he must pay the assessed value plus an additional 20 percent, and the house will be his again."
+    },
+    {
+      "verse": 16,
+      "kjv": "And if a man shall sanctify unto the LORD some part of a field of his possession, then thy estimation shall be according to the seed thereof: an homer of barley seed shall be valued at fifty shekels of silver.",
+      "web": "“ ‘If a man dedicates to LORD part of the field of his possession, then your valuation shall be according to the seed for it. The sowing of a homer of barley shall be valued at fifty shekels of silver.",
+      "ct": "If someone dedicates to the LORD a portion of their family land, the value will be based on how much seed is needed to plant it: a homer of barley seed is valued at 50 shekels of silver."
+    },
+    {
+      "verse": 17,
+      "kjv": "If he sanctify his field from the year of jubile, according to thy estimation it shall stand.",
+      "web": "If he dedicates his field from the Year of Jubilee, according to your valuation it shall stand.",
+      "ct": "If the field is dedicated starting from the Year of Jubilee, the full assessed value applies."
+    },
+    {
+      "verse": 18,
+      "kjv": "But if he sanctify his field after the jubile, then the priest shall reckon unto him the money according to the years that remain, even unto the year of the jubile, and it shall be abated from thy estimation.",
+      "web": "But if he dedicates his field after the Jubilee, then the priest shall reckon to him the money according to the years that remain to the Year of Jubilee; and an abatement shall be made from your valuation.",
+      "ct": "But if the field is dedicated after the Jubilee, the priest will calculate the price based on the number of years remaining until the next Jubilee, reducing the value accordingly."
+    },
+    {
+      "verse": 19,
+      "kjv": "And if he that sanctified the field will in any wise redeem it, then he shall add the fifth part of the money of thy estimation unto it, and it shall be assured to him.",
+      "web": "If he who dedicated the field will indeed redeem it, then he shall add the fifth part of the money of your valuation to it, and it shall remain his.",
+      "ct": "If the person who dedicated the field wants to buy it back, he must pay the assessed value plus an additional 20 percent, and the field will be guaranteed back to him."
+    },
+    {
+      "verse": 20,
+      "kjv": "And if he will not redeem the field, or if he have sold the field to another man, it shall not be redeemed any more.",
+      "web": "If he will not redeem the field, or if he has sold the field to another man, it shall not be redeemed any more;",
+      "ct": "However, if he doesn't buy it back, or if he has already sold the field to someone else, it can never be redeemed."
+    },
+    {
+      "verse": 21,
+      "kjv": "But the field, when it goeth out in the jubile, shall be holy unto the LORD, as a field devoted; the possession thereof shall be the priest’s.",
+      "web": "but the field, when it goes out in the Jubilee, shall be holy to LORD, as a devoted field. It shall be owned by the priests.",
+      "ct": "When the field is released in the Jubilee, it will become permanently holy to the LORD, like a field that has been completely devoted. It will become the property of the priests."
+    },
+    {
+      "verse": 22,
+      "kjv": "And if a man sanctify unto the LORD a field which he hath bought, which is not of the fields of his possession;",
+      "web": "“ ‘If he dedicates a field to LORD which he has bought, which is not of the field of his possession,",
+      "ct": "If someone dedicates to the LORD a field they purchased — one that isn't part of their family inheritance —"
+    },
+    {
+      "verse": 23,
+      "kjv": "Then the priest shall reckon unto him the worth of thy estimation, even unto the year of the jubile: and he shall give thine estimation in that day, as a holy thing unto the LORD.",
+      "web": "then the priest shall reckon to him the worth of your valuation up to the Year of Jubilee; and he shall give your valuation on that day, as a holy thing to LORD.",
+      "ct": "the priest will calculate its value based on the years remaining until the Jubilee. The person must pay that amount on the same day as a holy contribution to the LORD."
+    },
+    {
+      "verse": 24,
+      "kjv": "In the year of the jubile the field shall return unto him of whom it was bought, even to him to whom the possession of the land did belong.",
+      "web": "In the Year of Jubilee the field shall return to him from whom it was bought, even to him to whom the possession of the land belongs.",
+      "ct": "In the Year of Jubilee, the field will go back to the original owner — the person from whom it was purchased, whose family inheritance it belongs to."
+    },
+    {
+      "verse": 25,
+      "kjv": "And all thy estimations shall be according to the shekel of the sanctuary: twenty gerahs shall be the shekel.",
+      "web": "All your valuations shall be according to the shekel of the sanctuary: twenty gerahs to the shekel.",
+      "ct": "All valuations must be measured by the sanctuary standard, where 1 shekel equals 20 gerahs."
+    },
+    {
+      "verse": 26,
+      "kjv": "Only the firstling of the beasts, which should be the LORD’s firstling, no man shall sanctify it; whether it be ox, or sheep: it is the LORD’s.",
+      "web": "“ ‘However the firstborn among animals, which belongs to LORD as a firstborn, no man may dedicate, whether an ox or a sheep. It is LORD’s.",
+      "ct": "No one may dedicate a firstborn animal to the LORD, because the firstborn already belongs to him — whether it's an ox or a sheep, it is the LORD's."
+    },
+    {
+      "verse": 27,
+      "kjv": "And if it be of an unclean beast, then he shall redeem it according to thine estimation, and shall add a fifth part of it thereto: or if it be not redeemed, then it shall be sold according to thy estimation.",
+      "web": "If it is an unclean animal, then he shall buy it back according to your valuation, and shall add to it the fifth part of it; or if it isn’t redeemed, then it shall be sold according to your valuation.",
+      "ct": "If the firstborn is from an unclean animal, the owner may buy it back at the assessed value plus an additional 20 percent. If it isn't bought back, it will be sold at the assessed value."
+    },
+    {
+      "verse": 28,
+      "kjv": "Notwithstanding no devoted thing, that a man shall devote unto the LORD of all that he hath, both of man and beast, and of the field of his possession, shall be sold or redeemed: every devoted thing is most holy unto the LORD.",
+      "web": "“ ‘Notwithstanding, no devoted thing that a man devotes to LORD of all that he has, whether of man or animal, or of the field of his possession, shall be sold or redeemed. Everything that is permanently devoted is most holy to LORD.",
+      "ct": "However, anything that a person permanently devotes to the LORD — whether a person, an animal, or family land — cannot be sold or bought back. Everything permanently devoted is most holy to the LORD."
+    },
+    {
+      "verse": 29,
+      "kjv": "None devoted, which shall be devoted of men, shall be redeemed; but shall surely be put to death.",
+      "web": "“ ‘No one devoted to destruction, who shall be devoted from among men, shall be ransomed. He shall surely be put to death.",
+      "ct": "No person who has been devoted to destruction may be ransomed. That person must be put to death."
+    },
+    {
+      "verse": 30,
+      "kjv": "And all the tithe of the land, whether of the seed of the land, or of the fruit of the tree, is the LORD’s: it is holy unto the LORD.",
+      "web": "“ ‘All the tithe of the land, whether of the seed of the land or of the fruit of the trees, is LORD’s. It is holy to LORD.",
+      "ct": "A tenth of everything the land produces — whether grain from the fields or fruit from the trees — belongs to the LORD. It is holy to the LORD."
+    },
+    {
+      "verse": 31,
+      "kjv": "And if a man will at all redeem ought of his tithes, he shall add thereto the fifth part thereof.",
+      "web": "If a man redeems anything of his tithe, he shall add a fifth part to it.",
+      "ct": "If someone wants to buy back any part of their tithe, they must pay its value plus an additional 20 percent."
+    },
+    {
+      "verse": 32,
+      "kjv": "And concerning the tithe of the herd, or of the flock, even of whatsoever passeth under the rod, the tenth shall be holy unto the LORD.",
+      "web": "All the tithe of the herds or the flocks, whatever passes under the rod, the tenth shall be holy to LORD.",
+      "ct": "Every tenth animal from the herds or flocks — each one that passes under the shepherd's counting rod — is holy to the LORD."
+    },
+    {
+      "verse": 33,
+      "kjv": "He shall not search whether it be good or bad, neither shall he change it: and if he change it at all, then both it and the change thereof shall be holy; it shall not be redeemed.",
+      "web": "He shall not examine whether it is good or bad, neither shall he exchange it. If he exchanges it at all, then both it and that for which it is exchanged shall be holy. It shall not be redeemed.’ ”",
+      "ct": "The owner must not pick through the animals to see which is good or bad, and must not make substitutions. If anyone does swap one animal for another, both animals become holy and neither can be bought back.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "These are the commandments, which the LORD commanded Moses for the children of Israel in mount Sinai.",
+      "web": "These are the commandments which LORD commanded Moses for the children of Israel on Mount Sinai.",
+      "ct": "These are the commands the LORD gave to Moses for the people of Israel at Mount Sinai."
+    }
+  ]
+}

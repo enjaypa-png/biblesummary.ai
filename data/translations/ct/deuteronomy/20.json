@@ -1,0 +1,131 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 20,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:11:54.469Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "When thou goest out to battle against thine enemies, and seest horses, and chariots, and a people more than thou, be not afraid of them: for the LORD thy God is with thee, which brought thee up out of the land of Egypt.",
+      "web": "When you go out to battle against your enemies, and see horses, chariots, and a people more numerous than you, you shall not be afraid of them; for LORD your God is with you, who brought you up out of the land of Egypt.",
+      "ct": "When you march out to fight your enemies and you see horses, chariots, and an army larger than yours, don't be afraid of them. The LORD your God is with you — the same God who brought you out of Egypt."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it shall be, when ye are come nigh unto the battle, that the priest shall approach and speak unto the people,",
+      "web": "It shall be, when you draw near to the battle, that the priest shall approach and speak to the people,",
+      "ct": "Before the battle begins, the priest will step forward and address the troops."
+    },
+    {
+      "verse": 3,
+      "kjv": "And shall say unto them, Hear, O Israel, ye approach this day unto battle against your enemies: let not your hearts faint, fear not, and do not tremble, neither be ye terrified because of them;",
+      "web": "and shall tell them, “Hear, Israel, you draw near today to battle against your enemies. Don’t let your heart faint! Don’t be afraid, nor tremble, neither be scared of them;",
+      "ct": "He will say, \"Listen, Israel! Today you are going into battle against your enemies. Don't lose heart. Don't be afraid, don't panic, and don't be terrified of them."
+    },
+    {
+      "verse": 4,
+      "kjv": "For the LORD your God is he that goeth with you, to fight for you against your enemies, to save you.",
+      "web": "for LORD your God is he who goes with you, to fight for you against your enemies, to save you.”",
+      "ct": "The LORD your God is the one going with you. He will fight for you against your enemies and give you victory.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And the officers shall speak unto the people, saying, What man is there that hath built a new house, and hath not dedicated it? let him go and return to his house, lest he die in the battle, and another man dedicate it.",
+      "web": "The officers shall speak to the people, saying, “What man is there who has built a new house, and has not dedicated it? Let him go and return to his house, lest he die in the battle, and another man dedicate it.",
+      "ct": "Then the officers will speak to the troops and say, \"Has anyone here built a new house but not yet dedicated it? He should go home, so that if he dies in battle, someone else won't be the one to dedicate it."
+    },
+    {
+      "verse": 6,
+      "kjv": "And what man is he that hath planted a vineyard, and hath not yet eaten of it? let him also go and return unto his house, lest he die in the battle, and another man eat of it.",
+      "web": "What man is there who has planted a vineyard, and has not used its fruit? Let him go and return to his house, lest he die in the battle, and another man use its fruit.",
+      "ct": "Has anyone planted a vineyard but not yet enjoyed its fruit? He should go home, so that if he dies in battle, someone else won't be the one to enjoy it."
+    },
+    {
+      "verse": 7,
+      "kjv": "And what man is there that hath betrothed a wife, and hath not taken her? let him go and return unto his house, lest he die in the battle, and another man take her.",
+      "web": "What man is there who has pledged to be married to a wife, and has not taken her? Let him go and return to his house, lest he die in the battle, and another man take her.”",
+      "ct": "Has anyone become engaged to a woman but not yet married her? He should go home, so that if he dies in battle, someone else won't marry her.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the officers shall speak further unto the people, and they shall say, What man is there that is fearful and fainthearted? let him go and return unto his house, lest his brethren’s heart faint as well as his heart.",
+      "web": "The officers shall speak further to the people, and they shall say, “What man is there who is fearful and faint-hearted? Let him go and return to his house, lest his brother’s heart melt as his heart.”",
+      "ct": "The officers will also say, \"Is anyone here afraid or losing his nerve? He should go home, so he doesn't drain the courage of his fellow soldiers.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And it shall be, when the officers have made an end of speaking unto the people, that they shall make captains of the armies to lead the people.",
+      "web": "It shall be, when the officers have finished speaking to the people, that they shall appoint captains of armies at the head of the people.",
+      "ct": "Once the officers have finished speaking to the troops, they will appoint commanders to lead the army."
+    },
+    {
+      "verse": 10,
+      "kjv": "When thou comest nigh unto a city to fight against it, then proclaim peace unto it.",
+      "web": "When you draw near to a city to fight against it, then proclaim peace to it.",
+      "ct": "When you approach a city to attack it, first offer it terms of peace."
+    },
+    {
+      "verse": 11,
+      "kjv": "And it shall be, if it make thee answer of peace, and open unto thee, then it shall be, that all the people that is found therein shall be tributaries unto thee, and they shall serve thee.",
+      "web": "It shall be, if it gives you answer of peace and opens to you, then it shall be that all the people who are found therein shall become forced laborers to you, and shall serve you.",
+      "ct": "If the city accepts your offer and opens its gates, then all the people living there will become your forced laborers and serve you."
+    },
+    {
+      "verse": 12,
+      "kjv": "And if it will make no peace with thee, but will make war against thee, then thou shalt besiege it:",
+      "web": "If it will make no peace with you, but will make war against you, then you shall besiege it.",
+      "ct": "But if the city refuses to make peace and chooses to fight, then lay siege to it."
+    },
+    {
+      "verse": 13,
+      "kjv": "And when the LORD thy God hath delivered it into thine hands, thou shalt smite every male thereof with the edge of the sword:",
+      "web": "When LORD your God delivers it into your hand, you shall strike every male of it with the edge of the sword;",
+      "ct": "When the LORD your God hands it over to you, kill every male in the city with the sword."
+    },
+    {
+      "verse": 14,
+      "kjv": "But the women, and the little ones, and the cattle, and all that is in the city, even all the spoil thereof, shalt thou take unto thyself; and thou shalt eat the spoil of thine enemies, which the LORD thy God hath given thee.",
+      "web": "but the women, the little ones, the livestock, and all that is in the city, even all its plunder, you shall take for plunder for yourself. You may use the plunder of your enemies, which LORD your God has given you.",
+      "ct": "But the women, children, livestock, and everything else in the city — all its plunder — you may keep for yourselves. You may use the plunder from your enemies that the LORD your God has given you."
+    },
+    {
+      "verse": 15,
+      "kjv": "Thus shalt thou do unto all the cities which are very far off from thee, which are not of the cities of these nations.",
+      "web": "Thus you shall do to all the cities which are very far off from you, which are not of the cities of these nations.",
+      "ct": "This is how you are to treat cities that are far away from you — cities that don't belong to the nations nearby."
+    },
+    {
+      "verse": 16,
+      "kjv": "But of the cities of these people, which the LORD thy God doth give thee for an inheritance, thou shalt save alive nothing that breatheth:",
+      "web": "But of the cities of these peoples that LORD your God gives you for an inheritance, you shall save alive nothing that breathes;",
+      "ct": "But in the cities of the nations that the LORD your God is giving you as an inheritance, you must not leave anything alive that breathes."
+    },
+    {
+      "verse": 17,
+      "kjv": "But thou shalt utterly destroy them; namely, the Hittites, and the Amorites, the Canaanites, and the Perizzites, the Hivites, and the Jebusites; as the LORD thy God hath commanded thee:",
+      "web": "but you shall utterly destroy them: the Hittite, the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite, as LORD your God has commanded you;",
+      "ct": "You must completely destroy them — the Hittites, Amorites, Canaanites, Perizzites, Hivites, and Jebusites — just as the LORD your God has commanded you."
+    },
+    {
+      "verse": 18,
+      "kjv": "That they teach you not to do after all their abominations, which they have done unto their gods; so should ye sin against the LORD your God.",
+      "web": "that they not teach you to follow all their abominations, which they have done for their gods; so would you sin against LORD your God.",
+      "ct": "This is so they can't teach you to imitate the disgusting things they do for their gods, which would lead you to sin against the LORD your God."
+    },
+    {
+      "verse": 19,
+      "kjv": "When thou shalt besiege a city a long time, in making war against it to take it, thou shalt not destroy the trees thereof by forcing an axe against them: for thou mayest eat of them, and thou shalt not cut them down (for the tree of the field is man’s life) to employ them in the siege:",
+      "web": "When you shall besiege a city a long time, in making war against it to take it, you shall not destroy its trees by wielding an ax against them; for you may eat of them. You shall not cut them down, for is the tree of the field man, that it should be besieged by you?",
+      "ct": "When you lay siege to a city for a long time while fighting to capture it, don't take an ax to its trees. You can eat their fruit, so don't cut them down. A tree in the field isn't your enemy — it shouldn't be caught up in your siege."
+    },
+    {
+      "verse": 20,
+      "kjv": "Only the trees which thou knowest that they be not trees for meat, thou shalt destroy and cut them down; and thou shalt build bulwarks against the city that maketh war with thee, until it be subdued.",
+      "web": "Only the trees that you know are not trees for food, you shall destroy and cut them down. You shall build bulwarks against the city that makes war with you, until it falls.",
+      "ct": "However, trees that you know don't produce food — those you may cut down and destroy. Use them to build siege works against the city that is fighting you, until it falls."
+    }
+  ]
+}

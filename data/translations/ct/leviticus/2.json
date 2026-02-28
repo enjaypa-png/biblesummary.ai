@@ -1,0 +1,107 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:39:17.121Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And when any will offer a meat offering unto the LORD, his offering shall be of fine flour; and he shall pour oil upon it, and put frankincense thereon:",
+      "web": "“ ‘When anyone offers an offering of a meal offering to LORD, his offering shall be of fine flour. He shall pour oil on it, and put frankincense on it.",
+      "ct": "When someone brings a grain offering to the LORD, it must be made from fine flour. They are to pour oil over it and add frankincense."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he shall bring it to Aaron’s sons the priests: and he shall take thereout his handful of the flour thereof, and of the oil thereof, with all the frankincense thereof; and the priest shall burn the memorial of it upon the altar, to be an offering made by fire, of a sweet savour unto the LORD:",
+      "web": "He shall bring it to Aaron’s sons, the priests. He shall take his handful of its fine flour, and of its oil, with all its frankincense, and the priest shall burn its memorial on the altar, an offering made by fire, of a pleasant aroma to LORD.",
+      "ct": "They must bring it to Aaron's sons, the priests. The priest will scoop up a handful of the flour and oil, along with all the frankincense, and burn this portion on the altar as a memorial. It is an offering made by fire, and its aroma is pleasing to the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the remnant of the meat offering shall be Aaron’s and his sons’: it is a thing most holy of the offerings of the LORD made by fire.",
+      "web": "That which is left of the meal offering shall be Aaron’s and his sons’. It is a most holy part of the offerings of LORD made by fire.",
+      "ct": "Whatever is left of the grain offering belongs to Aaron and his sons. It is an especially holy part of the offerings made by fire to the LORD."
+    },
+    {
+      "verse": 4,
+      "kjv": "And if thou bring an oblation of a meat offering baken in the oven, it shall be unleavened cakes of fine flour mingled with oil, or unleavened wafers anointed with oil.",
+      "web": "“ ‘When you offer an offering of a meal offering baked in the oven, it shall be unleavened cakes of fine flour mixed with oil, or unleavened wafers anointed with oil.",
+      "ct": "If you bring a grain offering baked in an oven, it must be either thick cakes of fine flour made without yeast and mixed with oil, or thin wafers made without yeast and brushed with oil."
+    },
+    {
+      "verse": 5,
+      "kjv": "And if thy oblation be a meat offering baken in a pan, it shall be of fine flour unleavened, mingled with oil.",
+      "web": "If your offering is a meal offering made on a griddle, it shall be of unleavened fine flour, mixed with oil.",
+      "ct": "If your grain offering is prepared on a griddle, it must be made of fine flour mixed with oil and without yeast."
+    },
+    {
+      "verse": 6,
+      "kjv": "Thou shalt part it in pieces, and pour oil thereon: it is a meat offering.",
+      "web": "You shall cut it in pieces, and pour oil on it. It is a meal offering.",
+      "ct": "Break it into pieces and pour oil over it. This is a grain offering."
+    },
+    {
+      "verse": 7,
+      "kjv": "And if thy oblation be a meat offering baken in the fryingpan, it shall be made of fine flour with oil.",
+      "web": "If your offering is a meal offering of the pan, it shall be made of fine flour with oil.",
+      "ct": "If your grain offering is cooked in a pan, it must be made of fine flour with oil."
+    },
+    {
+      "verse": 8,
+      "kjv": "And thou shalt bring the meat offering that is made of these things unto the LORD: and when it is presented unto the priest, he shall bring it unto the altar.",
+      "web": "You shall bring the meal offering that is made of these things to LORD. It shall be presented to the priest, and he shall bring it to the altar.",
+      "ct": "Bring the grain offering prepared in any of these ways to the LORD. Present it to the priest, and he will carry it to the altar."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the priest shall take from the meat offering a memorial thereof, and shall burn it upon the altar: it is an offering made by fire, of a sweet savour unto the LORD.",
+      "web": "The priest shall take from the meal offering its memorial, and shall burn it on the altar, an offering made by fire, of a pleasant aroma to LORD.",
+      "ct": "The priest will remove the memorial portion from the grain offering and burn it on the altar. It is an offering made by fire, and its aroma is pleasing to the LORD."
+    },
+    {
+      "verse": 10,
+      "kjv": "And that which is left of the meat offering shall be Aaron’s and his sons’: it is a thing most holy of the offerings of the LORD made by fire.",
+      "web": "That which is left of the meal offering shall be Aaron’s and his sons’. It is a most holy part of the offerings of LORD made by fire.",
+      "ct": "Whatever is left of the grain offering belongs to Aaron and his sons. It is an especially holy part of the offerings made by fire to the LORD."
+    },
+    {
+      "verse": 11,
+      "kjv": "No meat offering, which ye shall bring unto the LORD, shall be made with leaven: for ye shall burn no leaven, nor any honey, in any offering of the LORD made by fire.",
+      "web": "“ ‘No meal offering which you shall offer to LORD shall be made with yeast; for you shall burn no yeast, nor any honey, as an offering made by fire to LORD.",
+      "ct": "No grain offering that you bring to the LORD may contain yeast. You must never burn yeast or honey as an offering made by fire to the LORD."
+    },
+    {
+      "verse": 12,
+      "kjv": "As for the oblation of the firstfruits, ye shall offer them unto the LORD: but they shall not be burnt on the altar for a sweet savour.",
+      "web": "As an offering of first fruits you shall offer them to LORD, but they shall not rise up as a pleasant aroma on the altar.",
+      "ct": "You may present yeast and honey to the LORD as an offering of firstfruits, but they must not be burned on the altar as a pleasing aroma."
+    },
+    {
+      "verse": 13,
+      "kjv": "And every oblation of thy meat offering shalt thou season with salt; neither shalt thou suffer the salt of the covenant of thy God to be lacking from thy meat offering: with all thine offerings thou shalt offer salt.",
+      "web": "Every offering of your meal offering you shall season with salt. You shall not allow the salt of the covenant of your God to be lacking from your meal offering. With all your offerings you shall offer salt.",
+      "ct": "Season every grain offering with salt. Never leave out the salt of the covenant of your God from your grain offering. Include salt with all your offerings."
+    },
+    {
+      "verse": 14,
+      "kjv": "And if thou offer a meat offering of thy firstfruits unto the LORD, thou shalt offer for the meat offering of thy firstfruits green ears of corn dried by the fire, even corn beaten out of full ears.",
+      "web": "“ ‘If you offer a meal offering of first fruits to LORD, you shall offer for the meal offering of your first fruits fresh heads of grain parched with fire and crushed.",
+      "ct": "If you bring a grain offering of firstfruits to the LORD, offer fresh heads of grain that have been roasted over fire and then crushed."
+    },
+    {
+      "verse": 15,
+      "kjv": "And thou shalt put oil upon it, and lay frankincense thereon: it is a meat offering.",
+      "web": "You shall put oil on it and lay frankincense on it. It is a meal offering.",
+      "ct": "Pour oil over it and add frankincense. This is a grain offering."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the priest shall burn the memorial of it, part of the beaten corn thereof, and part of the oil thereof, with all the frankincense thereof: it is an offering made by fire unto the LORD.",
+      "web": "The priest shall burn as its memorial part of its crushed grain and part of its oil, along with all its frankincense. It is an offering made by fire to LORD.",
+      "ct": "The priest will burn the memorial portion — some of the crushed grain and some of the oil, along with all the frankincense — as an offering made by fire to the LORD."
+    }
+  ]
+}

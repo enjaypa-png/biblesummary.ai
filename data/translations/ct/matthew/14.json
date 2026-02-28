@@ -1,0 +1,227 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 14,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:12:35.735Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "At that time Herod the tetrarch heard of the fame of Jesus,",
+      "web": "At that time, Herod the tetrarch heard the report concerning Jesus,",
+      "ct": "Around that time, Herod the tetrarch heard reports about Jesus."
+    },
+    {
+      "verse": 2,
+      "kjv": "And said unto his servants, This is John the Baptist; he is risen from the dead; and therefore mighty works do shew forth themselves in him.",
+      "web": "and said to his servants, “This is John the Baptizer. He is risen from the dead. That is why these powers work in him.”",
+      "ct": "He told his servants, \"This must be John the Baptist — he's risen from the dead! That's why these miraculous powers are at work in him.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "For Herod had laid hold on John, and bound him, and put him in prison for Herodias’ sake, his brother Philip’s wife.",
+      "web": "For Herod had arrested John, and bound him, and put him in prison for the sake of Herodias, his brother Philip’s wife.",
+      "ct": "Herod was the one who had arrested John, chained him up, and thrown him in prison. He did it because of Herodias, his brother Philip's wife."
+    },
+    {
+      "verse": 4,
+      "kjv": "For John said unto him, It is not lawful for thee to have her.",
+      "web": "For John said to him, “It is not lawful for you to have her.”",
+      "ct": "John had confronted Herod directly, telling him, \"It's not lawful for you to have her.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And when he would have put him to death, he feared the multitude, because they counted him as a prophet.",
+      "web": "When he would have put him to death, he feared the multitude, because they counted him as a prophet.",
+      "ct": "Herod wanted to kill John, but he was afraid of the people, because they considered John a prophet."
+    },
+    {
+      "verse": 6,
+      "kjv": "But when Herod’s birthday was kept, the daughter of Herodias danced before them, and pleased Herod.",
+      "web": "But when Herod’s birthday came, the daughter of Herodias danced among them and pleased Herod.",
+      "ct": "On Herod's birthday, the daughter of Herodias danced for the guests and delighted Herod."
+    },
+    {
+      "verse": 7,
+      "kjv": "Whereupon he promised with an oath to give her whatsoever she would ask.",
+      "web": "Whereupon he promised with an oath to give her whatever she should ask.",
+      "ct": "He was so pleased that he swore an oath to give her whatever she asked for."
+    },
+    {
+      "verse": 8,
+      "kjv": "And she, being before instructed of her mother, said, Give me here John Baptist’s head in a charger.",
+      "web": "She, being prompted by her mother, said, “Give me here on a platter the head of John the Baptizer.”",
+      "ct": "Her mother had already coached her on what to say, so the girl told him, \"Give me the head of John the Baptist on a platter.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the king was sorry: nevertheless for the oath’s sake, and them which sat with him at meat, he commanded it to be given her.",
+      "web": "The king was grieved, but for the sake of his oaths, and of those who sat at the table with him, he commanded it to be given,",
+      "ct": "The king was deeply troubled by this, but because of his oath — and because his dinner guests had heard him make it — he ordered it done."
+    },
+    {
+      "verse": 10,
+      "kjv": "And he sent, and beheaded John in the prison.",
+      "web": "and he sent and beheaded John in the prison.",
+      "ct": "He sent soldiers to the prison, and they beheaded John."
+    },
+    {
+      "verse": 11,
+      "kjv": "And his head was brought in a charger, and given to the damsel: and she brought it to her mother.",
+      "web": "His head was brought on a platter, and given to the young lady; and she brought it to her mother.",
+      "ct": "His head was brought in on a platter and given to the girl, and she carried it to her mother."
+    },
+    {
+      "verse": 12,
+      "kjv": "And his disciples came, and took up the body, and buried it, and went and told Jesus.",
+      "web": "His disciples came, and took the body, and buried it. Then they went and told Jesus.",
+      "ct": "John's disciples came and took his body and buried it. Then they went and told Jesus what had happened."
+    },
+    {
+      "verse": 13,
+      "kjv": "When Jesus heard of it, he departed thence by ship into a desert place apart: and when the people had heard thereof, they followed him on foot out of the cities.",
+      "web": "Now when Jesus heard this, he withdrew from there in a boat, to a deserted place apart. When the multitudes heard it, they followed him on foot from the cities.",
+      "ct": "When Jesus heard the news, he got in a boat and withdrew to a remote place to be alone. But when the crowds found out, they followed him on foot from the surrounding towns."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Jesus went forth, and saw a great multitude, and was moved with compassion toward them, and he healed their sick.",
+      "web": "Jesus went out, and he saw a great multitude. He had compassion on them, and healed their sick.",
+      "ct": "Jesus stepped ashore and saw the massive crowd. His heart went out to them, and he healed those among them who were sick."
+    },
+    {
+      "verse": 15,
+      "kjv": "And when it was evening, his disciples came to him, saying, This is a desert place, and the time is now past; send the multitude away, that they may go into the villages, and buy themselves victuals.",
+      "web": "When evening had come, his disciples came to him, saying, “This place is deserted, and the hour is already late. Send the multitudes away, that they may go into the villages, and buy themselves food.”",
+      "ct": "As evening approached, his disciples came to him and said, \"This place is remote, and it's getting late. Send the crowds away so they can go to the villages and buy food for themselves.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "But Jesus said unto them, They need not depart; give ye them to eat.",
+      "web": "But Jesus said to them, “They don’t need to go away. You give them something to eat.”",
+      "ct": "But Jesus told them, \"They don't need to leave. You give them something to eat.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And they say unto him, We have here but five loaves, and two fishes.",
+      "web": "They told him, “We only have here five loaves and two fish.”",
+      "ct": "They replied, \"All we have here is 5 loaves of bread and 2 fish.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "He said, Bring them hither to me.",
+      "web": "He said, “Bring them here to me.”",
+      "ct": "\"Bring them to me,\" he said."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he commanded the multitude to sit down on the grass, and took the five loaves, and the two fishes, and looking up to heaven, he blessed, and brake, and gave the loaves to his disciples, and the disciples to the multitude.",
+      "web": "He commanded the multitudes to sit down on the grass; and he took the five loaves and the two fish, and looking up to heaven, he blessed, broke and gave the loaves to the disciples, and the disciples gave to the multitudes.",
+      "ct": "He told the crowds to sit down on the grass. Then he took the 5 loaves and the 2 fish, looked up toward heaven, and gave thanks. He broke the bread and handed it to his disciples, and they distributed it to the crowds."
+    },
+    {
+      "verse": 20,
+      "kjv": "And they did all eat, and were filled: and they took up of the fragments that remained twelve baskets full.",
+      "web": "They all ate, and were filled. They took up twelve baskets full of that which remained left over from the broken pieces.",
+      "ct": "Everyone ate until they were full, and when they collected the leftovers, there were 12 baskets full of broken pieces."
+    },
+    {
+      "verse": 21,
+      "kjv": "And they that had eaten were about five thousand men, beside women and children.",
+      "web": "Those who ate were about five thousand men, in addition to women and children.",
+      "ct": "About 5,000 men had eaten — and that's not counting the women and children."
+    },
+    {
+      "verse": 22,
+      "kjv": "And straightway Jesus constrained his disciples to get into a ship, and to go before him unto the other side, while he sent the multitudes away.",
+      "web": "Immediately Jesus made the disciples get into the boat, and to go ahead of him to the other side, while he sent the multitudes away.",
+      "ct": "Right away, Jesus insisted that his disciples get into the boat and go ahead of him to the other side of the lake while he dismissed the crowds."
+    },
+    {
+      "verse": 23,
+      "kjv": "And when he had sent the multitudes away, he went up into a mountain apart to pray: and when the evening was come, he was there alone.",
+      "web": "After he had sent the multitudes away, he went up into the mountain by himself to pray. When evening had come, he was there alone.",
+      "ct": "After he had sent everyone away, he went up on a mountainside by himself to pray. When evening came, he was there alone."
+    },
+    {
+      "verse": 24,
+      "kjv": "But the ship was now in the midst of the sea, tossed with waves: for the wind was contrary.",
+      "web": "But the boat was now in the middle of the sea, distressed by the waves, for the wind was contrary.",
+      "ct": "Meanwhile, the boat was already far out on the lake, battered by the waves because the wind was blowing against them."
+    },
+    {
+      "verse": 25,
+      "kjv": "And in the fourth watch of the night Jesus went unto them, walking on the sea.",
+      "web": "In the fourth watch of the night, Jesus came to them, walking on the sea.",
+      "ct": "Sometime between 3 and 6 in the morning, Jesus came toward them, walking on the water."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when the disciples saw him walking on the sea, they were troubled, saying, It is a spirit; and they cried out for fear.",
+      "web": "When the disciples saw him walking on the sea, they were troubled, saying, “It’s a ghost!” and they cried out for fear.",
+      "ct": "When the disciples saw him walking on the lake, they were terrified. \"It's a ghost!\" they screamed, crying out in fear."
+    },
+    {
+      "verse": 27,
+      "kjv": "But straightway Jesus spake unto them, saying, Be of good cheer; it is I; be not afraid.",
+      "web": "But immediately Jesus spoke to them, saying, “Cheer up! It is I! Don’t be afraid.”",
+      "ct": "But Jesus immediately called out to them, \"Take courage! It's me. Don't be afraid.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And Peter answered him and said, Lord, if it be thou, bid me come unto thee on the water.",
+      "web": "Peter answered him and said, “Lord, if it is you, command me to come to you on the waters.”",
+      "ct": "Peter spoke up: \"Lord, if it's really you, tell me to come to you on the water.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And he said, Come. And when Peter was come down out of the ship, he walked on the water, to go to Jesus.",
+      "web": "He said, “Come!” Peter stepped down from the boat, and walked on the waters to come to Jesus.",
+      "ct": "\"Come,\" Jesus said. So Peter climbed out of the boat and walked on the water toward Jesus."
+    },
+    {
+      "verse": 30,
+      "kjv": "But when he saw the wind boisterous, he was afraid; and beginning to sink, he cried, saying, Lord, save me.",
+      "web": "But when he saw that the wind was strong, he was afraid, and beginning to sink, he cried out, saying, “Lord, save me!”",
+      "ct": "But when he noticed how fierce the wind was, fear overtook him. He started to sink and cried out, \"Lord, save me!\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And immediately Jesus stretched forth his hand, and caught him, and said unto him, O thou of little faith, wherefore didst thou doubt?",
+      "web": "Immediately Jesus stretched out his hand, took hold of him, and said to him, “You of little faith, why did you doubt?”",
+      "ct": "Instantly, Jesus reached out his hand and caught him. \"You have so little faith,\" he said. \"Why did you doubt?\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And when they were come into the ship, the wind ceased.",
+      "web": "When they got up into the boat, the wind ceased.",
+      "ct": "As soon as they climbed into the boat, the wind died down."
+    },
+    {
+      "verse": 33,
+      "kjv": "Then they that were in the ship came and worshipped him, saying, Of a truth thou art the Son of God.",
+      "web": "Those who were in the boat came and worshiped him, saying, “You are truly the Son of God!”",
+      "ct": "The men in the boat fell down and worshiped him, saying, \"You truly are the Son of God!\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And when they were gone over, they came into the land of Gennesaret.",
+      "web": "When they had crossed over, they came to the land of Gennesaret.",
+      "ct": "They crossed the lake and landed at Gennesaret."
+    },
+    {
+      "verse": 35,
+      "kjv": "And when the men of that place had knowledge of him, they sent out into all that country round about, and brought unto him all that were diseased;",
+      "web": "When the people of that place recognized him, they sent into all that surrounding region, and brought to him all who were sick;",
+      "ct": "When the people there recognized Jesus, they sent word throughout the entire region, and everyone brought their sick to him."
+    },
+    {
+      "verse": 36,
+      "kjv": "And besought him that they might only touch the hem of his garment: and as many as touched were made perfectly whole.",
+      "web": "and they begged him that they might just touch the fringe of his garment. As many as touched it were made whole.",
+      "ct": "They begged him to let the sick just touch the edge of his robe — and everyone who touched it was completely healed."
+    }
+  ]
+}

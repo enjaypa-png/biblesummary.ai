@@ -1,0 +1,197 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 22,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:31:43.277Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen for an ox, and four sheep for a sheep.",
+      "web": "“If a man steals an ox or a sheep, and kills it or sells it, he shall pay five oxen for an ox, and four sheep for a sheep.",
+      "ct": "\"If someone steals an ox or a sheep and then kills it or sells it, he must pay back 5 oxen for the ox and 4 sheep for the sheep."
+    },
+    {
+      "verse": 2,
+      "kjv": "If a thief be found breaking up, and be smitten that he die, there shall no blood be shed for him.",
+      "web": "If the thief is found breaking in, and is struck so that he dies, there shall be no guilt of bloodshed for him.",
+      "ct": "If a thief is caught breaking into a house at night and is struck and killed, the one who killed him is not guilty of murder."
+    },
+    {
+      "verse": 3,
+      "kjv": "If the sun be risen upon him, there shall be blood shed for him; for he should make full restitution; if he have nothing, then he shall be sold for his theft.",
+      "web": "If the sun has risen on him, he is guilty of bloodshed. He shall make restitution. If he has nothing, then he shall be sold for his theft.",
+      "ct": "But if it happens after sunrise, the one who kills the thief is guilty of murder. The thief must pay full restitution for what he stole. If he has nothing to pay with, he must be sold as a slave to cover the cost of his theft."
+    },
+    {
+      "verse": 4,
+      "kjv": "If the theft be certainly found in his hand alive, whether it be ox, or ass, or sheep; he shall restore double.",
+      "web": "If the stolen property is found in his hand alive, whether it is ox, donkey, or sheep, he shall pay double.",
+      "ct": "If the stolen animal — whether an ox, a donkey, or a sheep — is found alive and still in his possession, he must pay back double."
+    },
+    {
+      "verse": 5,
+      "kjv": "If a man shall cause a field or vineyard to be eaten, and shall put in his beast, and shall feed in another man’s field; of the best of his own field, and of the best of his own vineyard, shall he make restitution.",
+      "web": "“If a man causes a field or vineyard to be eaten by letting his animal loose, and it grazes in another man’s field, he shall make restitution from the best of his own field, and from the best of his own vineyard.",
+      "ct": "\"If someone lets his animal loose and it grazes in another person's field or vineyard, he must make restitution from the best of his own field and the best of his own vineyard."
+    },
+    {
+      "verse": 6,
+      "kjv": "If fire break out, and catch in thorns, so that the stacks of corn, or the standing corn, or the field, be consumed therewith; he that kindled the fire shall surely make restitution.",
+      "web": "“If fire breaks out, and catches in thorns so that the shocks of grain, or the standing grain, or the field are consumed; he who kindled the fire shall surely make restitution.",
+      "ct": "\"If a fire breaks out and spreads through thornbushes, burning up stacked grain, standing grain, or an entire field, the person who started the fire must pay full restitution."
+    },
+    {
+      "verse": 7,
+      "kjv": "If a man shall deliver unto his neighbour money or stuff to keep, and it be stolen out of the man’s house; if the thief be found, let him pay double.",
+      "web": "“If a man delivers to his neighbor money or stuff to keep, and it is stolen out of the man’s house, if the thief is found, he shall pay double.",
+      "ct": "\"If someone gives money or goods to a neighbor for safekeeping and they are stolen from that neighbor's house, the thief — if caught — must pay back double."
+    },
+    {
+      "verse": 8,
+      "kjv": "If the thief be not found, then the master of the house shall be brought unto the judges, to see whether he have put his hand unto his neighbour’s goods.",
+      "web": "If the thief isn’t found, then the master of the house shall come near to God, to find out whether or not he has put his hand on his neighbor’s goods.",
+      "ct": "If the thief is not caught, the owner of the house must appear before the judges so they can determine whether he helped himself to his neighbor's property."
+    },
+    {
+      "verse": 9,
+      "kjv": "For all manner of trespass, whether it be for ox, for ass, for sheep, for raiment, or for any manner of lost thing, which another challengeth to be his, the cause of both parties shall come before the judges; and whom the judges shall condemn, he shall pay double unto his neighbour.",
+      "web": "For every matter of trespass, whether it is for ox, for donkey, for sheep, for clothing, or for any kind of lost thing, about which one says, ‘This is mine,’ the cause of both parties shall come before God. He whom God condemns shall pay double to his neighbor.",
+      "ct": "In any dispute over ownership — whether it involves an ox, a donkey, a sheep, clothing, or anything else that someone claims as their own — both parties must bring their case before the judges. Whoever the judges find guilty must pay double to the other person."
+    },
+    {
+      "verse": 10,
+      "kjv": "If a man deliver unto his neighbour an ass, or an ox, or a sheep, or any beast, to keep; and it die, or be hurt, or driven away, no man seeing it:",
+      "web": "“If a man delivers to his neighbor a donkey, an ox, a sheep, or any animal to keep, and it dies or is injured, or driven away, no man seeing it;",
+      "ct": "\"If someone entrusts a donkey, an ox, a sheep, or any other animal to a neighbor's care, and the animal dies, is injured, or is driven off while no one is watching,"
+    },
+    {
+      "verse": 11,
+      "kjv": "Then shall an oath of the LORD be between them both, that he hath not put his hand unto his neighbour’s goods; and the owner of it shall accept thereof, and he shall not make it good.",
+      "web": "the oath of LORD shall be between them both, he has not put his hand on his neighbor’s goods; and its owner shall accept it, and he shall not make restitution.",
+      "ct": "the matter must be settled by an oath before the LORD. The caretaker must swear that he did not take his neighbor's property. The owner must accept this oath, and no restitution will be required."
+    },
+    {
+      "verse": 12,
+      "kjv": "And if it be stolen from him, he shall make restitution unto the owner thereof.",
+      "web": "But if it is stolen from him, the one who stole shall make restitution to its owner.",
+      "ct": "But if the animal was stolen while in his care, he must make restitution to the owner."
+    },
+    {
+      "verse": 13,
+      "kjv": "If it be torn in pieces, then let him bring it for witness, and he shall not make good that which was torn.",
+      "web": "If it is torn in pieces, let him bring it for evidence. He shall not make good that which was torn.",
+      "ct": "If a wild animal tore it apart, he should bring the remains as evidence. He won't have to pay for what was torn apart."
+    },
+    {
+      "verse": 14,
+      "kjv": "And if a man borrow ought of his neighbour, and it be hurt, or die, the owner thereof being not with it, he shall surely make it good.",
+      "web": "“If a man borrows anything of his neighbor’s, and it is injured, or dies, its owner not being with it, he shall surely make restitution.",
+      "ct": "\"If someone borrows an animal from a neighbor and it gets injured or dies while the owner isn't present, the borrower must pay full restitution."
+    },
+    {
+      "verse": 15,
+      "kjv": "But if the owner thereof be with it, he shall not make it good: if it be an hired thing, it came for his hire.",
+      "web": "If its owner is with it, he shall not make it good. If it is a leased thing, it came for its lease.",
+      "ct": "But if the owner was there with the animal, no restitution is required. If the animal was hired, the loss is covered by the rental fee."
+    },
+    {
+      "verse": 16,
+      "kjv": "And if a man entice a maid that is not betrothed, and lie with her, he shall surely endow her to be his wife.",
+      "web": "“If a man entices a virgin who isn’t pledged to be married, and lies with her, he shall surely pay a dowry for her to be his wife.",
+      "ct": "\"If a man seduces a virgin who is not engaged and sleeps with her, he must pay the full bride price and marry her."
+    },
+    {
+      "verse": 17,
+      "kjv": "If her father utterly refuse to give her unto him, he shall pay money according to the dowry of virgins.",
+      "web": "If her father utterly refuses to give her to him, he shall pay money according to the dowry of virgins.",
+      "ct": "If her father absolutely refuses to let her marry him, the man must still pay the amount equal to the bride price for a virgin."
+    },
+    {
+      "verse": 18,
+      "kjv": "Thou shalt not suffer a witch to live.",
+      "web": "“You shall not allow a sorceress to live.",
+      "ct": "\"You must not allow a sorceress to live."
+    },
+    {
+      "verse": 19,
+      "kjv": "Whosoever lieth with a beast shall surely be put to death.",
+      "web": "“Whoever has sex with an animal shall surely be put to death.",
+      "ct": "\"Anyone who has sex with an animal must be put to death."
+    },
+    {
+      "verse": 20,
+      "kjv": "He that sacrificeth unto any god, save unto the LORD only, he shall be utterly destroyed.",
+      "web": "“He who sacrifices to any god, except to LORD only, shall be utterly destroyed.",
+      "ct": "\"Anyone who sacrifices to any god other than the LORD alone must be completely destroyed."
+    },
+    {
+      "verse": 21,
+      "kjv": "Thou shalt neither vex a stranger, nor oppress him: for ye were strangers in the land of Egypt.",
+      "web": "“You shall not wrong an alien or oppress him, for you were aliens in the land of Egypt.",
+      "ct": "\"You must not mistreat or oppress a foreigner, because you yourselves were foreigners in the land of Egypt."
+    },
+    {
+      "verse": 22,
+      "kjv": "Ye shall not afflict any widow, or fatherless child.",
+      "web": "“You shall not take advantage of any widow or fatherless child.",
+      "ct": "\"You must not take advantage of any widow or fatherless child."
+    },
+    {
+      "verse": 23,
+      "kjv": "If thou afflict them in any wise, and they cry at all unto me, I will surely hear their cry;",
+      "web": "If you take advantage of them at all, and they cry at all to me, I will surely hear their cry;",
+      "ct": "If you mistreat them in any way and they cry out to me, I will certainly hear their cry."
+    },
+    {
+      "verse": 24,
+      "kjv": "And my wrath shall wax hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless.",
+      "web": "and my wrath will grow hot, and I will kill you with the sword; and your wives shall be widows, and your children fatherless.",
+      "ct": "My anger will burn hot, and I will kill you with the sword. Then your own wives will become widows and your own children will be fatherless."
+    },
+    {
+      "verse": 25,
+      "kjv": "If thou lend money to any of my people that is poor by thee, thou shalt not be to him as an usurer, neither shalt thou lay upon him usury.",
+      "web": "“If you lend money to any of my people with you who is poor, you shall not be to him as a creditor. You shall not charge him interest.",
+      "ct": "\"If you lend money to any of my people who are poor among you, don't act like a moneylender toward them. You must not charge them interest."
+    },
+    {
+      "verse": 26,
+      "kjv": "If thou at all take thy neighbour’s raiment to pledge, thou shalt deliver it unto him by that the sun goeth down:",
+      "web": "If you take your neighbor’s garment as collateral, you shall restore it to him before the sun goes down,",
+      "ct": "If you take your neighbor's garment as collateral for a loan, you must return it to him before the sun goes down."
+    },
+    {
+      "verse": 27,
+      "kjv": "For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it shall come to pass, when he crieth unto me, that I will hear; for I am gracious.",
+      "web": "for that is his only covering, it is his garment for his skin. What would he sleep in? It will happen, when he cries to me, that I will hear, for I am gracious.",
+      "ct": "That garment may be the only blanket he owns — the only thing he has to keep himself warm at night. What else would he sleep in? When he cries out to me, I will hear him, because I am gracious."
+    },
+    {
+      "verse": 28,
+      "kjv": "Thou shalt not revile the gods, nor curse the ruler of thy people.",
+      "web": "“You shall not blaspheme God, nor curse a ruler of your people.",
+      "ct": "\"You must not blaspheme God, and you must not curse a leader of your people."
+    },
+    {
+      "verse": 29,
+      "kjv": "Thou shalt not delay to offer the first of thy ripe fruits, and of thy liquors: the firstborn of thy sons shalt thou give unto me.",
+      "web": "“You shall not delay to offer from your harvest and from the outflow of your presses. “You shall give the firstborn of your sons to me.",
+      "ct": "\"Don't hold back the first portion of your harvest or the first flow from your presses. You must give me the firstborn of your sons."
+    },
+    {
+      "verse": 30,
+      "kjv": "Likewise shalt thou do with thine oxen, and with thy sheep: seven days it shall be with his dam; on the eighth day thou shalt give it me.",
+      "web": "You shall do likewise with your cattle and with your sheep. It shall be with its mother seven days, then on the eighth day you shall give it to me.",
+      "ct": "Do the same with your cattle and your sheep. Let the firstborn stay with its mother for 7 days, and on the 8th day, give it to me."
+    },
+    {
+      "verse": 31,
+      "kjv": "And ye shall be holy men unto me: neither shall ye eat any flesh that is torn of beasts in the field; ye shall cast it to the dogs.",
+      "web": "“You shall be holy men to me, therefore you shall not eat any meat that is torn by animals in the field. You shall cast it to the dogs.",
+      "ct": "\"You are to be holy people set apart for me. Therefore, you must not eat meat from an animal that has been torn apart by wild beasts in the field. Throw it to the dogs."
+    }
+  ]
+}

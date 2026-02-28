@@ -1,0 +1,119 @@
+{
+  "book": "2-corinthians",
+  "book_name": "2 Corinthians",
+  "chapter": 6,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:52:51.680Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "We then, as workers together with him, beseech you also that ye receive not the grace of God in vain.",
+      "web": "Working together, we entreat also that you do not receive the grace of God in vain,",
+      "ct": "As God's coworkers, we urge you: don't let the grace God has given you be wasted."
+    },
+    {
+      "verse": 2,
+      "kjv": "(For he saith, I have heard thee in a time accepted, and in the day of salvation have I succoured thee: behold, now is the accepted time; behold, now is the day of salvation.)",
+      "web": "for he says, “At an acceptable time I listened to you. In a day of salvation I helped you.” Behold, now is the acceptable time. Behold, now is the day of salvation.",
+      "ct": "For God says, \"At just the right time, I heard you. On the day of salvation, I helped you.\" Listen — right now is the right time. Today is the day of salvation."
+    },
+    {
+      "verse": 3,
+      "kjv": "Giving no offence in any thing, that the ministry be not blamed:",
+      "web": "We give no occasion of stumbling in anything, that our service may not be blamed,",
+      "ct": "We do everything we can to avoid giving anyone a reason to find fault with our ministry."
+    },
+    {
+      "verse": 4,
+      "kjv": "But in all things approving ourselves as the ministers of God, in much patience, in afflictions, in necessities, in distresses,",
+      "web": "but in everything commending ourselves, as servants of God, in great endurance, in afflictions, in hardships, in distresses,",
+      "ct": "Instead, in every situation we prove ourselves to be true servants of God — through great endurance, through afflictions, hardships, and desperate circumstances,"
+    },
+    {
+      "verse": 5,
+      "kjv": "In stripes, in imprisonments, in tumults, in labours, in watchings, in fastings;",
+      "web": "in beatings, in imprisonments, in riots, in labors, in watchings, in fastings;",
+      "ct": "through beatings, imprisonments, and riots, through exhausting labor, sleepless nights, and hunger,"
+    },
+    {
+      "verse": 6,
+      "kjv": "By pureness, by knowledge, by longsuffering, by kindness, by the Holy Ghost, by love unfeigned,",
+      "web": "in pureness, in knowledge, in perseverance, in kindness, in the Holy Spirit, in sincere love,",
+      "ct": "through purity, knowledge, patience, and kindness, through the Holy Spirit and sincere love,"
+    },
+    {
+      "verse": 7,
+      "kjv": "By the word of truth, by the power of God, by the armour of righteousness on the right hand and on the left,",
+      "web": "in the word of truth, in the power of God; by the armor of righteousness on the right hand and on the left,",
+      "ct": "through the word of truth and the power of God, wielding the armor of righteousness in both hands — ready for any attack,"
+    },
+    {
+      "verse": 8,
+      "kjv": "By honour and dishonour, by evil report and good report: as deceivers, and yet true;",
+      "web": "by glory and dishonor, by evil report and good report; as deceivers, and yet true;",
+      "ct": "whether we're honored or disgraced, whether people slander us or praise us. Some call us frauds, but we speak the truth."
+    },
+    {
+      "verse": 9,
+      "kjv": "As unknown, and yet well known; as dying, and, behold, we live; as chastened, and not killed;",
+      "web": "as unknown, and yet well known; as dying, and behold, we live; as punished, and not killed;",
+      "ct": "We're treated as nobodies, yet everyone knows us. We face death constantly, and yet — look — we're still alive. We're beaten down but never destroyed."
+    },
+    {
+      "verse": 10,
+      "kjv": "As sorrowful, yet alway rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things.",
+      "web": "as sorrowful, yet always rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things.",
+      "ct": "We carry deep sorrow, yet we're always filled with joy. We're poor, yet we make many people rich. We have nothing, yet we possess everything."
+    },
+    {
+      "verse": 11,
+      "kjv": "O ye Corinthians, our mouth is open unto you, our heart is enlarged.",
+      "web": "Our mouth is open to you, Corinthians. Our heart is enlarged.",
+      "ct": "Corinthians, we've spoken to you with complete openness. We've thrown our hearts wide open to you."
+    },
+    {
+      "verse": 12,
+      "kjv": "Ye are not straitened in us, but ye are straitened in your own bowels.",
+      "web": "You are not restricted by us, but you are restricted by your own affections.",
+      "ct": "We haven't held anything back from you — but you've held back from us. The walls are on your side, not ours."
+    },
+    {
+      "verse": 13,
+      "kjv": "Now for a recompence in the same, (I speak as unto my children,) be ye also enlarged.",
+      "web": "Now in return, I speak as to my children: you also open your hearts.",
+      "ct": "So as a fair exchange — and I'm talking to you like a father talks to his children — open your hearts wide to us too."
+    },
+    {
+      "verse": 14,
+      "kjv": "Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness? and what communion hath light with darkness?",
+      "web": "Don’t be unequally yoked with unbelievers, for what fellowship do righteousness and iniquity have? Or what fellowship does light have with darkness?",
+      "ct": "Don't tie yourselves to unbelievers in binding partnerships. What does righteousness have in common with wickedness? What does light have to do with darkness?"
+    },
+    {
+      "verse": 15,
+      "kjv": "And what concord hath Christ with Belial? or what part hath he that believeth with an infidel?",
+      "web": "What agreement does Christ have with Belial? Or what portion does a believer have with an unbeliever?",
+      "ct": "What agreement could Christ possibly have with Belial? What does a believer share with an unbeliever?"
+    },
+    {
+      "verse": 16,
+      "kjv": "And what agreement hath the temple of God with idols? for ye are the temple of the living God; as God hath said, I will dwell in them, and walk in them; and I will be their God, and they shall be my people.",
+      "web": "What agreement does a temple of God have with idols? For you are a temple of the living God. Even as God said, “I will dwell in them and walk in them. I will be their God and they will be my people.”",
+      "ct": "How can the temple of God coexist with idols? Because you are the temple of the living God! As God himself said, \"I will live in them and walk among them. I will be their God, and they will be my people.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you,",
+      "web": "Therefore “ ‘Come out from among them, and be separate,’ says the Lord. ‘Touch no unclean thing. I will receive you.",
+      "ct": "That's why the Lord says, \"Come out from among them and be separate. Don't touch anything unclean, and I will receive you."
+    },
+    {
+      "verse": 18,
+      "kjv": "And will be a Father unto you, and ye shall be my sons and daughters, saith the Lord Almighty.",
+      "web": "I will be to you a Father. You will be to me sons and daughters,’ says the Lord Almighty.”",
+      "ct": "I will be a Father to you, and you will be my sons and daughters,\" says the Lord Almighty."
+    }
+  ]
+}

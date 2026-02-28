@@ -1,0 +1,299 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:08:50.785Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him:",
+      "web": "Seeing the multitudes, he went up onto the mountain. When he had sat down, his disciples came to him.",
+      "ct": "When Jesus saw the large crowds gathering, he went up on a mountainside and sat down. His disciples came and gathered around him."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he opened his mouth, and taught them, saying,",
+      "web": "He opened his mouth and taught them, saying, ",
+      "ct": "Then he began to teach them, saying:"
+    },
+    {
+      "verse": 3,
+      "kjv": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
+      "web": "“Blessed are the poor in spirit, for theirs is the Kingdom of Heaven.",
+      "ct": "\"Blessed are those who are poor in spirit, for the kingdom of heaven belongs to them."
+    },
+    {
+      "verse": 4,
+      "kjv": "Blessed are they that mourn: for they shall be comforted.",
+      "web": "Blessed are those who mourn, for they shall be comforted.",
+      "ct": "Blessed are those who mourn, for they will be comforted."
+    },
+    {
+      "verse": 5,
+      "kjv": "Blessed are the meek: for they shall inherit the earth.",
+      "web": "Blessed are the gentle, for they shall inherit the earth.",
+      "ct": "Blessed are the meek, for they will inherit the earth."
+    },
+    {
+      "verse": 6,
+      "kjv": "Blessed are they which do hunger and thirst after righteousness: for they shall be filled.",
+      "web": "Blessed are those who hunger and thirst after righteousness, for they shall be filled.",
+      "ct": "Blessed are those who hunger and thirst for righteousness, for they will be satisfied."
+    },
+    {
+      "verse": 7,
+      "kjv": "Blessed are the merciful: for they shall obtain mercy.",
+      "web": "Blessed are the merciful, for they shall obtain mercy.",
+      "ct": "Blessed are the merciful, for they will receive mercy."
+    },
+    {
+      "verse": 8,
+      "kjv": "Blessed are the pure in heart: for they shall see God.",
+      "web": "Blessed are the pure in heart, for they shall see God.",
+      "ct": "Blessed are the pure in heart, for they will see God."
+    },
+    {
+      "verse": 9,
+      "kjv": "Blessed are the peacemakers: for they shall be called the children of God.",
+      "web": "Blessed are the peacemakers, for they shall be called children of God.",
+      "ct": "Blessed are the peacemakers, for they will be called children of God."
+    },
+    {
+      "verse": 10,
+      "kjv": "Blessed are they which are persecuted for righteousness’ sake: for theirs is the kingdom of heaven.",
+      "web": "Blessed are those who have been persecuted for righteousness’ sake, for theirs is the Kingdom of Heaven.",
+      "ct": "Blessed are those who are persecuted for doing what is right, for the kingdom of heaven belongs to them."
+    },
+    {
+      "verse": 11,
+      "kjv": "Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake.",
+      "web": "“Blessed are you when people reproach you, persecute you, and say all kinds of evil against you falsely, for my sake.",
+      "ct": "Blessed are you when people insult you, persecute you, and falsely say every kind of evil thing about you because of me."
+    },
+    {
+      "verse": 12,
+      "kjv": "Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you.",
+      "web": "Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.",
+      "ct": "Rejoice and be overjoyed, because your reward in heaven is great! After all, they persecuted the prophets who came before you in the same way."
+    },
+    {
+      "verse": 13,
+      "kjv": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men.",
+      "web": "“You are the salt of the earth, but if the salt has lost its flavor, with what will it be salted? It is then good for nothing, but to be cast out and trodden under the feet of men.",
+      "ct": "You are the salt of the earth. But if salt loses its flavor, how can it be made salty again? It's worthless — fit only to be thrown out and trampled underfoot."
+    },
+    {
+      "verse": 14,
+      "kjv": "Ye are the light of the world. A city that is set on an hill cannot be hid.",
+      "web": "You are the light of the world. A city located on a hill can’t be hidden.",
+      "ct": "You are the light of the world. A city built on a hill cannot be hidden."
+    },
+    {
+      "verse": 15,
+      "kjv": "Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house.",
+      "web": "Neither do you light a lamp, and put it under a measuring basket, but on a stand; and it shines to all who are in the house.",
+      "ct": "No one lights a lamp and then puts it under a basket. Instead, they set it on a stand, and it gives light to everyone in the house."
+    },
+    {
+      "verse": 16,
+      "kjv": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
+      "web": "Even so, let your light shine before men; that they may see your good works, and glorify your Father who is in heaven.",
+      "ct": "In the same way, let your light shine in front of others so they can see the good things you do and give glory to your Father in heaven."
+    },
+    {
+      "verse": 17,
+      "kjv": "Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil.",
+      "web": "“Don’t think that I came to destroy the law or the prophets. I didn’t come to destroy, but to fulfill.",
+      "ct": "Don't think I came to abolish the law or the prophets. I didn't come to abolish them but to fulfill them."
+    },
+    {
+      "verse": 18,
+      "kjv": "For verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled.",
+      "web": "For most certainly, I tell you, until heaven and earth pass away, not even one smallest letter or one tiny pen stroke shall in any way pass away from the law, until all things are accomplished.",
+      "ct": "I tell you the truth: until heaven and earth disappear, not the smallest letter or the tiniest stroke of a pen will disappear from the law until everything it points to has been accomplished."
+    },
+    {
+      "verse": 19,
+      "kjv": "Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach them, the same shall be called great in the kingdom of heaven.",
+      "web": "Whoever, therefore, shall break one of these least commandments, and teach others to do so, shall be called least in the Kingdom of Heaven; but whoever shall do and teach them shall be called great in the Kingdom of Heaven.",
+      "ct": "So anyone who breaks even the least of these commandments and teaches others to do the same will be called least in the kingdom of heaven. But whoever practices and teaches them will be called great in the kingdom of heaven."
+    },
+    {
+      "verse": 20,
+      "kjv": "For I say unto you, That except your righteousness shall exceed the righteousness of the scribes and Pharisees, ye shall in no case enter into the kingdom of heaven.",
+      "web": "For I tell you that unless your righteousness exceeds that of the scribes and Pharisees, there is no way you will enter into the Kingdom of Heaven.",
+      "ct": "I'm telling you, unless your righteousness goes far beyond that of the scribes and Pharisees, you will never enter the kingdom of heaven."
+    },
+    {
+      "verse": 21,
+      "kjv": "Ye have heard that it was said by them of old time, Thou shalt not kill; and whosoever shall kill shall be in danger of the judgment:",
+      "web": "“You have heard that it was said to the ancient ones, ‘You shall not murder;’ and ‘Whoever murders will be in danger of the judgment.’",
+      "ct": "You've heard that it was said to those who lived long ago, 'You shall not murder,' and 'Anyone who murders will face judgment.'"
+    },
+    {
+      "verse": 22,
+      "kjv": "But I say unto you, That whosoever is angry with his brother without a cause shall be in danger of the judgment: and whosoever shall say to his brother, Raca, shall be in danger of the council: but whosoever shall say, Thou fool, shall be in danger of hell fire.",
+      "web": "But I tell you that everyone who is angry with his brother without a cause will be in danger of the judgment. Whoever says to his brother, ‘Raca!’ will be in danger of the council. Whoever says, ‘You fool!’ will be in danger of the fire of Gehenna.",
+      "ct": "But I tell you, anyone who is angry with his brother without cause will face judgment. Anyone who calls his brother 'Raca' will answer to the council. And anyone who says, 'You fool!' will be in danger of the fire of hell."
+    },
+    {
+      "verse": 23,
+      "kjv": "Therefore if thou bring thy gift to the altar, and there rememberest that thy brother hath ought against thee;",
+      "web": "“If therefore you are offering your gift at the altar, and there remember that your brother has anything against you,",
+      "ct": "So if you're bringing your gift to the altar and suddenly remember that your brother has something against you,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Leave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift.",
+      "web": "leave your gift there before the altar, and go your way. First be reconciled to your brother, and then come and offer your gift.",
+      "ct": "leave your gift right there in front of the altar. Go and make things right with your brother first, and then come back and offer your gift."
+    },
+    {
+      "verse": 25,
+      "kjv": "Agree with thine adversary quickly, whiles thou art in the way with him; lest at any time the adversary deliver thee to the judge, and the judge deliver thee to the officer, and thou be cast into prison.",
+      "web": "Agree with your adversary quickly, while you are with him on the way; lest perhaps the prosecutor deliver you to the judge, and the judge deliver you to the officer, and you be cast into prison.",
+      "ct": "Settle matters quickly with someone who has a case against you, while you're still on the way to court. Otherwise, they may hand you over to the judge, the judge may hand you over to the officer, and you'll be thrown into prison."
+    },
+    {
+      "verse": 26,
+      "kjv": "Verily I say unto thee, Thou shalt by no means come out thence, till thou hast paid the uttermost farthing.",
+      "web": "Most certainly I tell you, you shall by no means get out of there, until you have paid the last penny.",
+      "ct": "I tell you the truth, you won't get out of there until you've paid every last penny."
+    },
+    {
+      "verse": 27,
+      "kjv": "Ye have heard that it was said by them of old time, Thou shalt not commit adultery:",
+      "web": "“You have heard that it was said, ‘You shall not commit adultery;’",
+      "ct": "You've heard that it was said, 'You shall not commit adultery.'"
+    },
+    {
+      "verse": 28,
+      "kjv": "But I say unto you, That whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart.",
+      "web": "but I tell you that everyone who gazes at a woman to lust after her has committed adultery with her already in his heart.",
+      "ct": "But I tell you, anyone who looks at a woman with lust has already committed adultery with her in his heart."
+    },
+    {
+      "verse": 29,
+      "kjv": "And if thy right eye offend thee, pluck it out, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell.",
+      "web": "If your right eye causes you to stumble, pluck it out and throw it away from you. For it is more profitable for you that one of your members should perish, than for your whole body to be cast into Gehenna.",
+      "ct": "If your right eye causes you to sin, tear it out and throw it away. It's better to lose one part of your body than for your whole body to be thrown into hell."
+    },
+    {
+      "verse": 30,
+      "kjv": "And if thy right hand offend thee, cut it off, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell.",
+      "web": "If your right hand causes you to stumble, cut it off, and throw it away from you. For it is more profitable for you that one of your members should perish, than for your whole body to be cast into Gehenna.",
+      "ct": "If your right hand causes you to sin, cut it off and throw it away. It's better to lose one part of your body than for your whole body to be thrown into hell."
+    },
+    {
+      "verse": 31,
+      "kjv": "It hath been said, Whosoever shall put away his wife, let him give her a writing of divorcement:",
+      "web": "“It was also said, ‘Whoever shall put away his wife, let him give her a writing of divorce,’",
+      "ct": "It has also been said, 'Anyone who divorces his wife must give her a certificate of divorce.'"
+    },
+    {
+      "verse": 32,
+      "kjv": "But I say unto you, That whosoever shall put away his wife, saving for the cause of fornication, causeth her to commit adultery: and whosoever shall marry her that is divorced committeth adultery.",
+      "web": "but I tell you that whoever puts away his wife, except for the cause of sexual immorality, makes her an adulteress; and whoever marries her when she is put away commits adultery.",
+      "ct": "But I tell you, anyone who divorces his wife — except for sexual immorality — causes her to commit adultery. And anyone who marries a divorced woman commits adultery."
+    },
+    {
+      "verse": 33,
+      "kjv": "Again, ye have heard that it hath been said by them of old time, Thou shalt not forswear thyself, but shalt perform unto the Lord thine oaths:",
+      "web": "“Again you have heard that it was said to the ancient ones, ‘You shall not make false vows, but shall perform to the Lord your vows,’",
+      "ct": "Again, you've heard that it was said to those who lived long ago, 'Don't break your oaths, but fulfill the vows you've made to the Lord.'"
+    },
+    {
+      "verse": 34,
+      "kjv": "But I say unto you, Swear not at all; neither by heaven; for it is God’s throne:",
+      "web": "but I tell you, don’t swear at all: neither by heaven, for it is the throne of God;",
+      "ct": "But I tell you, don't swear oaths at all — not by heaven, because it is God's throne;"
+    },
+    {
+      "verse": 35,
+      "kjv": "Nor by the earth; for it is his footstool: neither by Jerusalem; for it is the city of the great King.",
+      "web": "nor by the earth, for it is the footstool of his feet; nor by Jerusalem, for it is the city of the great King.",
+      "ct": "not by the earth, because it is his footstool; and not by Jerusalem, because it is the city of the great King."
+    },
+    {
+      "verse": 36,
+      "kjv": "Neither shalt thou swear by thy head, because thou canst not make one hair white or black.",
+      "web": "Neither shall you swear by your head, for you can’t make one hair white or black.",
+      "ct": "Don't even swear by your own head, because you can't make a single hair white or black."
+    },
+    {
+      "verse": 37,
+      "kjv": "But let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil.",
+      "web": "But let your ‘Yes’ be ‘Yes’ and your ‘No’ be ‘No.’ Whatever is more than these is of the evil one.",
+      "ct": "Simply let your 'Yes' be 'Yes' and your 'No' be 'No.' Anything beyond that comes from the evil one."
+    },
+    {
+      "verse": 38,
+      "kjv": "Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth:",
+      "web": "“You have heard that it was said, ‘An eye for an eye, and a tooth for a tooth.’",
+      "ct": "You've heard that it was said, 'An eye for an eye and a tooth for a tooth.'"
+    },
+    {
+      "verse": 39,
+      "kjv": "But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also.",
+      "web": "But I tell you, don’t resist him who is evil; but whoever strikes you on your right cheek, turn to him the other also.",
+      "ct": "But I tell you, don't resist an evil person. If someone strikes you on the right cheek, turn the other cheek to them as well."
+    },
+    {
+      "verse": 40,
+      "kjv": "And if any man will sue thee at the law, and take away thy coat, let him have thy cloak also.",
+      "web": "If anyone sues you to take away your coat, let him have your cloak also.",
+      "ct": "If someone sues you and takes your coat, give them your cloak too."
+    },
+    {
+      "verse": 41,
+      "kjv": "And whosoever shall compel thee to go a mile, go with him twain.",
+      "web": "Whoever compels you to go one mile, go with him two.",
+      "ct": "If someone forces you to go 1 mile, go 2 miles with them."
+    },
+    {
+      "verse": 42,
+      "kjv": "Give to him that asketh thee, and from him that would borrow of thee turn not thou away.",
+      "web": "Give to him who asks you, and don’t turn away him who desires to borrow from you.",
+      "ct": "Give to anyone who asks you, and don't turn away from someone who wants to borrow from you."
+    },
+    {
+      "verse": 43,
+      "kjv": "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.",
+      "web": "“You have heard that it was said, ‘You shall love your neighbor and hate your enemy.’",
+      "ct": "You've heard that it was said, 'Love your neighbor and hate your enemy.'"
+    },
+    {
+      "verse": 44,
+      "kjv": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;",
+      "web": "But I tell you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you,",
+      "ct": "But I tell you: love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you."
+    },
+    {
+      "verse": 45,
+      "kjv": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.",
+      "web": "that you may be children of your Father who is in heaven. For he makes his sun to rise on the evil and the good, and sends rain on the just and the unjust.",
+      "ct": "Then you will truly be children of your Father in heaven. He makes his sun rise on the evil and the good alike, and sends rain on both the righteous and the unrighteous."
+    },
+    {
+      "verse": 46,
+      "kjv": "For if ye love them which love you, what reward have ye? do not even the publicans the same?",
+      "web": "For if you love those who love you, what reward do you have? Don’t even the tax collectors do the same?",
+      "ct": "If you only love the people who love you, what reward is there in that? Even the tax collectors do that much."
+    },
+    {
+      "verse": 47,
+      "kjv": "And if ye salute your brethren only, what do ye more than others? do not even the publicans so?",
+      "web": "If you only greet your friends, what more do you do than others? Don’t even the tax collectors do the same?",
+      "ct": "If you only greet your own people, what are you doing that's any different? Even the tax collectors do that."
+    },
+    {
+      "verse": 48,
+      "kjv": "Be ye therefore perfect, even as your Father which is in heaven is perfect.",
+      "web": "Therefore you shall be perfect, just as your Father in heaven is perfect.",
+      "ct": "So be perfect, just as your Father in heaven is perfect.\""
+    }
+  ]
+}

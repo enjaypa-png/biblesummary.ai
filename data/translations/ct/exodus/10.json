@@ -1,0 +1,185 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:27:14.559Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD said unto Moses, Go in unto Pharaoh: for I have hardened his heart, and the heart of his servants, that I might shew these my signs before him:",
+      "web": "LORD said to Moses, “Go in to Pharaoh, for I have hardened his heart and the heart of his servants, that I may show these my signs among them;",
+      "ct": "The LORD told Moses, \"Go to Pharaoh. I have hardened his heart and the hearts of his officials so that I can display these signs of my power among them,"
+    },
+    {
+      "verse": 2,
+      "kjv": "And that thou mayest tell in the ears of thy son, and of thy son’s son, what things I have wrought in Egypt, and my signs which I have done among them; that ye may know how that I am the LORD.",
+      "web": "and that you may tell in the hearing of your son, and of your son’s son, what things I have done to Egypt, and my signs which I have done among them; that you may know that I am LORD.”",
+      "ct": "and so that you can tell your children and grandchildren what I did to Egypt and the signs I performed there. Then you will know that I am the LORD.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And Moses and Aaron came in unto Pharaoh, and said unto him, Thus saith the LORD God of the Hebrews, How long wilt thou refuse to humble thyself before me? let my people go, that they may serve me.",
+      "web": "Moses and Aaron went in to Pharaoh, and said to him, “This is what LORD, the God of the Hebrews, says: ‘How long will you refuse to humble yourself before me? Let my people go, that they may serve me.",
+      "ct": "So Moses and Aaron went to Pharaoh and told him, \"This is what the LORD, the God of the Hebrews, says: 'How long will you refuse to humble yourself before me? Let my people go so they can worship me."
+    },
+    {
+      "verse": 4,
+      "kjv": "Else, if thou refuse to let my people go, behold, to morrow will I bring the locusts into thy coast:",
+      "web": "Or else, if you refuse to let my people go, behold, tomorrow I will bring locusts into your country,",
+      "ct": "If you refuse to let my people go, then tomorrow I will bring locusts into your country."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they shall cover the face of the earth, that one cannot be able to see the earth: and they shall eat the residue of that which is escaped, which remaineth unto you from the hail, and shall eat every tree which groweth for you out of the field:",
+      "web": "and they shall cover the surface of the earth, so that one won’t be able to see the earth. They shall eat the residue of that which has escaped, which remains to you from the hail, and shall eat every tree which grows for you out of the field.",
+      "ct": "They will cover every inch of ground until you can't even see the earth beneath them. They will devour whatever the hail left behind and strip every tree still growing in your fields."
+    },
+    {
+      "verse": 6,
+      "kjv": "And they shall fill thy houses, and the houses of all thy servants, and the houses of all the Egyptians; which neither thy fathers, nor thy fathers’ fathers have seen, since the day that they were upon the earth unto this day. And he turned himself, and went out from Pharaoh.",
+      "web": "Your houses shall be filled, and the houses of all your servants, and the houses of all the Egyptians, as neither your fathers nor your fathers’ fathers have seen, since the day that they were on the earth to this day.’ ” He turned, and went out from Pharaoh.",
+      "ct": "They will fill your palace, the homes of all your officials, and every house in Egypt — something neither your fathers nor your grandfathers have ever seen since the day they walked this earth.'\" Then Moses turned and walked out of Pharaoh's presence."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Pharaoh’s servants said unto him, How long shall this man be a snare unto us? let the men go, that they may serve the LORD their God: knowest thou not yet that Egypt is destroyed?",
+      "web": "Pharaoh’s servants said to him, “How long will this man be a snare to us? Let the men go, that they may serve LORD, their God. Don’t you yet know that Egypt is destroyed?”",
+      "ct": "Pharaoh's officials said to him, \"How long are we going to let this man be a trap for us? Let the people go so they can worship the LORD their God. Don't you realize Egypt is already ruined?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Moses and Aaron were brought again unto Pharaoh: and he said unto them, Go, serve the LORD your God: but who are they that shall go?",
+      "web": "Moses and Aaron were brought again to Pharaoh, and he said to them, “Go, serve LORD your God; but who are those who will go?”",
+      "ct": "So Moses and Aaron were brought back to Pharaoh. He said to them, \"Fine — go worship the LORD your God. But exactly who will be going?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Moses said, We will go with our young and with our old, with our sons and with our daughters, with our flocks and with our herds will we go; for we must hold a feast unto the LORD.",
+      "web": "Moses said, “We will go with our young and with our old. We will go with our sons and with our daughters, with our flocks and with our herds; for we must hold a feast to LORD.”",
+      "ct": "Moses answered, \"Everyone is going — young and old, sons and daughters, along with our flocks and herds. We have a feast to celebrate for the LORD.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And he said unto them, Let the LORD be so with you, as I will let you go, and your little ones: look to it; for evil is before you.",
+      "web": "He said to them, “LORD be with you if I let you go with your little ones! See, evil is clearly before your faces.",
+      "ct": "Pharaoh replied sarcastically, \"May the LORD be with you the day I let you take your women and children! Clearly you're up to no good."
+    },
+    {
+      "verse": 11,
+      "kjv": "Not so: go now ye that are men, and serve the LORD; for that ye did desire. And they were driven out from Pharaoh’s presence.",
+      "web": "Not so! Go now you who are men, and serve LORD; for that is what you desire!” Then they were driven out from Pharaoh’s presence.",
+      "ct": "Absolutely not. Only the men may go and worship the LORD, since that's supposedly what you wanted.\" Then Moses and Aaron were thrown out of Pharaoh's presence."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the LORD said unto Moses, Stretch out thine hand over the land of Egypt for the locusts, that they may come up upon the land of Egypt, and eat every herb of the land, even all that the hail hath left.",
+      "web": "LORD said to Moses, “Stretch out your hand over the land of Egypt for the locusts, that they may come up on the land of Egypt, and eat every herb of the land, even all that the hail has left.”",
+      "ct": "The LORD said to Moses, \"Stretch out your hand over the land of Egypt to summon the locusts. They will swarm across the land and eat every plant — everything the hail left behind.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Moses stretched forth his rod over the land of Egypt, and the LORD brought an east wind upon the land all that day, and all that night; and when it was morning, the east wind brought the locusts.",
+      "web": "Moses stretched out his rod over the land of Egypt, and LORD brought an east wind on the land all that day, and all night; and when it was morning, the east wind brought the locusts.",
+      "ct": "Moses stretched out his staff over the land of Egypt, and the LORD sent an east wind blowing across the land all that day and all through the night. By morning, the east wind had carried in the locusts."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the locusts went up over all the land of Egypt, and rested in all the coasts of Egypt: very grievous were they; before them there were no such locusts as they, neither after them shall be such.",
+      "web": "The locusts went up over all the land of Egypt, and rested in all the borders of Egypt. They were very grievous. Before them there were no such locusts as they, nor will there ever be again.",
+      "ct": "The locusts swarmed over the entire land of Egypt and settled across every region. It was the worst locust plague anyone had ever seen — and nothing like it would ever come again."
+    },
+    {
+      "verse": 15,
+      "kjv": "For they covered the face of the whole earth, so that the land was darkened; and they did eat every herb of the land, and all the fruit of the trees which the hail had left: and there remained not any green thing in the trees, or in the herbs of the field, through all the land of Egypt.",
+      "web": "For they covered the surface of the whole earth, so that the land was darkened, and they ate every herb of the land, and all the fruit of the trees which the hail had left. There remained nothing green, either tree or herb of the field, through all the land of Egypt.",
+      "ct": "They blanketed the ground until the land turned dark beneath them. They ate every plant and every piece of fruit the hail had spared. Not a single green thing was left on any tree or plant anywhere in Egypt."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then Pharaoh called for Moses and Aaron in haste; and he said, I have sinned against the LORD your God, and against you.",
+      "web": "Then Pharaoh called for Moses and Aaron in haste, and he said, “I have sinned against LORD your God, and against you.",
+      "ct": "Pharaoh urgently summoned Moses and Aaron. \"I have sinned against the LORD your God and against you,\" he said."
+    },
+    {
+      "verse": 17,
+      "kjv": "Now therefore forgive, I pray thee, my sin only this once, and intreat the LORD your God, that he may take away from me this death only.",
+      "web": "Now therefore please forgive my sin again, and pray to LORD your God, that he may also take away from me this death.”",
+      "ct": "\"Please forgive my sin just this once, and pray to the LORD your God to take this deadly plague away from me.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And he went out from Pharaoh, and intreated the LORD.",
+      "web": "Moses went out from Pharaoh, and prayed to LORD.",
+      "ct": "Moses left Pharaoh and prayed to the LORD."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the LORD turned a mighty strong west wind, which took away the locusts, and cast them into the Red sea; there remained not one locust in all the coasts of Egypt.",
+      "web": "LORD sent an exceedingly strong west wind, which took up the locusts, and drove them into the Red Sea. There remained not one locust in all the borders of Egypt.",
+      "ct": "The LORD shifted the wind to a powerful west wind that swept up every locust and drove them into the Red Sea. Not a single locust remained anywhere in Egypt."
+    },
+    {
+      "verse": 20,
+      "kjv": "But the LORD hardened Pharaoh’s heart, so that he would not let the children of Israel go.",
+      "web": "But LORD hardened Pharaoh’s heart, and he didn’t let the children of Israel go.",
+      "ct": "But the LORD hardened Pharaoh's heart, and he refused to let the Israelites go."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the LORD said unto Moses, Stretch out thine hand toward heaven, that there may be darkness over the land of Egypt, even darkness which may be felt.",
+      "web": "LORD said to Moses, “Stretch out your hand toward the sky, that there may be darkness over the land of Egypt, even darkness which may be felt.”",
+      "ct": "Then the LORD said to Moses, \"Stretch out your hand toward heaven so that darkness will spread over the land of Egypt — a darkness so thick it can be felt.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Moses stretched forth his hand toward heaven; and there was a thick darkness in all the land of Egypt three days:",
+      "web": "Moses stretched out his hand toward the sky, and there was a thick darkness in all the land of Egypt for three days.",
+      "ct": "Moses stretched out his hand toward heaven, and a heavy darkness covered all of Egypt for 3 days."
+    },
+    {
+      "verse": 23,
+      "kjv": "They saw not one another, neither rose any from his place for three days: but all the children of Israel had light in their dwellings.",
+      "web": "They didn’t see one another, and nobody rose from his place for three days; but all the children of Israel had light in their dwellings.",
+      "ct": "No one could see anyone else, and no one left their home for 3 days. But all the Israelites had light where they lived."
+    },
+    {
+      "verse": 24,
+      "kjv": "And Pharaoh called unto Moses, and said, Go ye, serve the LORD; only let your flocks and your herds be stayed: let your little ones also go with you.",
+      "web": "Pharaoh called to Moses, and said, “Go, serve LORD. Only let your flocks and your herds stay behind. Let your little ones also go with you.”",
+      "ct": "Pharaoh summoned Moses and said, \"Go — worship the LORD. You can even take your children. Just leave your flocks and herds behind.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And Moses said, Thou must give us also sacrifices and burnt offerings, that we may sacrifice unto the LORD our God.",
+      "web": "Moses said, “You must also give into our hand sacrifices and burnt offerings, that we may sacrifice to LORD our God.",
+      "ct": "But Moses said, \"You must also provide us with animals for sacrifices and burnt offerings so we can offer them to the LORD our God."
+    },
+    {
+      "verse": 26,
+      "kjv": "Our cattle also shall go with us; there shall not an hoof be left behind; for thereof must we take to serve the LORD our God; and we know not with what we must serve the LORD, until we come thither.",
+      "web": "Our livestock also shall go with us. Not a hoof shall be left behind, for of it we must take to serve LORD our God; and we don’t know with what we must serve LORD, until we come there.”",
+      "ct": "Our livestock is coming with us too — not a single hoof will be left behind. We need them to worship the LORD our God, and we won't know exactly what the LORD requires until we get there.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "But the LORD hardened Pharaoh’s heart, and he would not let them go.",
+      "web": "But LORD hardened Pharaoh’s heart, and he wouldn’t let them go.",
+      "ct": "But the LORD hardened Pharaoh's heart, and he refused to let them go."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Pharaoh said unto him, Get thee from me, take heed to thyself, see my face no more; for in that day thou seest my face thou shalt die.",
+      "web": "Pharaoh said to him, “Get away from me! Be careful to see my face no more; for in the day you see my face you shall die!”",
+      "ct": "Pharaoh said to Moses, \"Get out of my sight! Make sure you never appear before me again, because the day you see my face, you will die.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And Moses said, Thou hast spoken well, I will see thy face again no more.",
+      "web": "Moses said, “You have spoken well. I will see your face again no more.”",
+      "ct": "Moses replied, \"You've spoken well. I will never see your face again.\""
+    }
+  ]
+}

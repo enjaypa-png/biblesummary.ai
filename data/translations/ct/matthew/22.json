@@ -1,0 +1,287 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 22,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:15:35.947Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Jesus answered and spake unto them again by parables, and said,",
+      "web": "Jesus answered and spoke to them again in parables, saying,",
+      "ct": "Jesus responded by telling them another parable."
+    },
+    {
+      "verse": 2,
+      "kjv": "The kingdom of heaven is like unto a certain king, which made a marriage for his son,",
+      "web": "“The Kingdom of Heaven is like a certain king, who made a wedding feast for his son,",
+      "ct": "\"The kingdom of heaven is like a king who prepared a wedding banquet for his son."
+    },
+    {
+      "verse": 3,
+      "kjv": "And sent forth his servants to call them that were bidden to the wedding: and they would not come.",
+      "web": "and sent out his servants to call those who were invited to the wedding feast, but they would not come.",
+      "ct": "He sent his servants to tell the invited guests that the feast was ready, but they refused to come."
+    },
+    {
+      "verse": 4,
+      "kjv": "Again, he sent forth other servants, saying, Tell them which are bidden, Behold, I have prepared my dinner: my oxen and my fatlings are killed, and all things are ready: come unto the marriage.",
+      "web": "Again he sent out other servants, saying, ‘Tell those who are invited, “Behold, I have prepared my dinner. My cattle and my fatlings are killed, and all things are ready. Come to the wedding feast!” ’",
+      "ct": "So he sent more servants with this message: 'Tell the guests, \"Look, the banquet is prepared! My oxen and fattened cattle have been slaughtered, and everything is ready. Come to the wedding feast!\"'"
+    },
+    {
+      "verse": 5,
+      "kjv": "But they made light of it, and went their ways, one to his farm, another to his merchandise:",
+      "web": "But they made light of it, and went their ways, one to his own farm, another to his merchandise,",
+      "ct": "But the guests didn't care. They shrugged it off and went about their business — one headed to his farm, another to his shop."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the remnant took his servants, and entreated them spitefully, and slew them.",
+      "web": "and the rest grabbed his servants, and treated them shamefully, and killed them.",
+      "ct": "The rest seized his servants, beat them, and killed them."
+    },
+    {
+      "verse": 7,
+      "kjv": "But when the king heard thereof, he was wroth: and he sent forth his armies, and destroyed those murderers, and burned up their city.",
+      "web": "When the king heard that, he was angry, and sent his armies, destroyed those murderers, and burned their city.",
+      "ct": "The king was furious. He sent his armies to destroy those murderers and burn their city to the ground."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then saith he to his servants, The wedding is ready, but they which were bidden were not worthy.",
+      "web": "“Then he said to his servants, ‘The wedding is ready, but those who were invited weren’t worthy.",
+      "ct": "Then he told his servants, 'The wedding banquet is ready, but the people I invited didn't deserve to come."
+    },
+    {
+      "verse": 9,
+      "kjv": "Go ye therefore into the highways, and as many as ye shall find, bid to the marriage.",
+      "web": "Go therefore to the intersections of the highways, and as many as you may find, invite to the wedding feast.’",
+      "ct": "So go out to the main roads and invite everyone you can find to the feast.'"
+    },
+    {
+      "verse": 10,
+      "kjv": "So those servants went out into the highways, and gathered together all as many as they found, both bad and good: and the wedding was furnished with guests.",
+      "web": "Those servants went out into the highways, and gathered together as many as they found, both bad and good. The wedding was filled with guests.",
+      "ct": "The servants went out into the streets and gathered everyone they could find — both bad and good — until the wedding hall was packed with guests."
+    },
+    {
+      "verse": 11,
+      "kjv": "And when the king came in to see the guests, he saw there a man which had not on a wedding garment:",
+      "web": "But when the king came in to see the guests, he saw there a man who didn’t have on wedding clothing,",
+      "ct": "But when the king came in to greet the guests, he noticed a man who wasn't wearing wedding clothes."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he saith unto him, Friend, how camest thou in hither not having a wedding garment? And he was speechless.",
+      "web": "and he said to him, ‘Friend, how did you come in here not wearing wedding clothing?’ He was speechless.",
+      "ct": "He said to him, 'Friend, how did you get in here without wedding clothes?' The man had nothing to say."
+    },
+    {
+      "verse": 13,
+      "kjv": "Then said the king to the servants, Bind him hand and foot, and take him away, and cast him into outer darkness; there shall be weeping and gnashing of teeth.",
+      "web": "Then the king said to the servants, ‘Bind him hand and foot, take him away, and throw him into the outer darkness. That is where the weeping and grinding of teeth will be.’",
+      "ct": "Then the king told his servants, 'Tie him hand and foot and throw him outside into the darkness, where there will be weeping and gnashing of teeth.'"
+    },
+    {
+      "verse": 14,
+      "kjv": "For many are called, but few are chosen.",
+      "web": "For many are called, but few chosen.”",
+      "ct": "For many are called, but few are chosen.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Then went the Pharisees, and took counsel how they might entangle him in his talk.",
+      "web": "Then the Pharisees went and took counsel how they might entrap him in his talk.",
+      "ct": "After this, the Pharisees got together and plotted how to trap Jesus with his own words."
+    },
+    {
+      "verse": 16,
+      "kjv": "And they sent out unto him their disciples with the Herodians, saying, Master, we know that thou art true, and teachest the way of God in truth, neither carest thou for any man: for thou regardest not the person of men.",
+      "web": "They sent their disciples to him, along with the Herodians, saying, “Teacher, we know that you are honest, and teach the way of God in truth, no matter whom you teach, for you aren’t partial to anyone.",
+      "ct": "They sent their disciples to him along with supporters of Herod. \"Teacher,\" they said, \"we know you're an honest man who teaches God's way truthfully. You don't play favorites or care about anyone's status."
+    },
+    {
+      "verse": 17,
+      "kjv": "Tell us therefore, What thinkest thou? Is it lawful to give tribute unto Caesar, or not?",
+      "web": "Tell us therefore, what do you think? Is it lawful to pay taxes to Caesar, or not?”",
+      "ct": "So tell us what you think: Is it lawful to pay taxes to Caesar, or not?\""
+    },
+    {
+      "verse": 18,
+      "kjv": "But Jesus perceived their wickedness, and said, Why tempt ye me, ye hypocrites?",
+      "web": "But Jesus perceived their wickedness, and said, “Why do you test me, you hypocrites?",
+      "ct": "But Jesus saw right through their scheme. \"Why are you trying to trap me, you hypocrites?\" he said."
+    },
+    {
+      "verse": 19,
+      "kjv": "Shew me the tribute money. And they brought unto him a penny.",
+      "web": "Show me the tax money.” They brought to him a denarius.",
+      "ct": "\"Show me the coin used to pay the tax.\" They handed him a denarius."
+    },
+    {
+      "verse": 20,
+      "kjv": "And he saith unto them, Whose is this image and superscription?",
+      "web": "He asked them, “Whose is this image and inscription?”",
+      "ct": "\"Whose image and inscription is on this?\" he asked them."
+    },
+    {
+      "verse": 21,
+      "kjv": "They say unto him, Caesar’s. Then saith he unto them, Render therefore unto Caesar the things which are Caesar’s; and unto God the things that are God’s.",
+      "web": "They said to him, “Caesar’s.” Then he said to them, “Give therefore to Caesar the things that are Caesar’s, and to God the things that are God’s.”",
+      "ct": "\"Caesar's,\" they answered. Then Jesus said, \"So give to Caesar what belongs to Caesar, and give to God what belongs to God.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "When they had heard these words, they marvelled, and left him, and went their way.",
+      "web": "When they heard it, they marveled, and left him, and went away.",
+      "ct": "His answer stunned them. They had nothing to say, so they walked away."
+    },
+    {
+      "verse": 23,
+      "kjv": "The same day came to him the Sadducees, which say that there is no resurrection, and asked him,",
+      "web": "On that day Sadducees (those who say that there is no resurrection) came to him. They asked him,",
+      "ct": "That same day, some Sadducees — who don't believe in the resurrection — came to Jesus with a question."
+    },
+    {
+      "verse": 24,
+      "kjv": "Saying, Master, Moses said, If a man die, having no children, his brother shall marry his wife, and raise up seed unto his brother.",
+      "web": "saying, “Teacher, Moses said, ‘If a man dies, having no children, his brother shall marry his wife, and raise up offspring for his brother.’",
+      "ct": "\"Teacher,\" they said, \"Moses taught that if a man dies without having children, his brother must marry the widow and have children on his behalf."
+    },
+    {
+      "verse": 25,
+      "kjv": "Now there were with us seven brethren: and the first, when he had married a wife, deceased, and, having no issue, left his wife unto his brother:",
+      "web": "Now there were with us seven brothers. The first married and died, and having no offspring left his wife to his brother.",
+      "ct": "Now, there were 7 brothers among us. The first one married and died without children, so his wife passed to his brother."
+    },
+    {
+      "verse": 26,
+      "kjv": "Likewise the second also, and the third, unto the seventh.",
+      "web": "In the same way, the second also, and the third, to the seventh.",
+      "ct": "The same thing happened with the second brother, then the third, and so on through all 7."
+    },
+    {
+      "verse": 27,
+      "kjv": "And last of all the woman died also.",
+      "web": "After them all, the woman died.",
+      "ct": "Finally, the woman died too."
+    },
+    {
+      "verse": 28,
+      "kjv": "Therefore in the resurrection whose wife shall she be of the seven? for they all had her.",
+      "web": "In the resurrection therefore, whose wife will she be of the seven? For they all had her.”",
+      "ct": "So here's our question: In the resurrection, whose wife will she be? After all, she was married to all 7 of them.\""
+    },
+    {
+      "verse": 29,
+      "kjv": "Jesus answered and said unto them, Ye do err, not knowing the scriptures, nor the power of God.",
+      "web": "But Jesus answered them, “You are mistaken, not knowing the Scriptures, nor the power of God.",
+      "ct": "Jesus replied, \"You're completely wrong, because you don't understand the Scriptures or the power of God."
+    },
+    {
+      "verse": 30,
+      "kjv": "For in the resurrection they neither marry, nor are given in marriage, but are as the angels of God in heaven.",
+      "web": "For in the resurrection they neither marry, nor are given in marriage, but are like God’s angels in heaven.",
+      "ct": "In the resurrection, people won't marry or be given in marriage. They'll be like the angels of God in heaven."
+    },
+    {
+      "verse": 31,
+      "kjv": "But as touching the resurrection of the dead, have ye not read that which was spoken unto you by God, saying,",
+      "web": "But concerning the resurrection of the dead, haven’t you read that which was spoken to you by God, saying,",
+      "ct": "And as for whether the dead are raised — haven't you read what God himself said to you:"
+    },
+    {
+      "verse": 32,
+      "kjv": "I am the God of Abraham, and the God of Isaac, and the God of Jacob? God is not the God of the dead, but of the living.",
+      "web": "‘I am the God of Abraham, and the God of Isaac, and the God of Jacob?’ God is not the God of the dead, but of the living.”",
+      "ct": "'I am the God of Abraham, the God of Isaac, and the God of Jacob'? He's not the God of the dead — he's the God of the living.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And when the multitude heard this, they were astonished at his doctrine.",
+      "web": "When the multitudes heard it, they were astonished at his teaching.",
+      "ct": "When the crowd heard this, they were amazed at his teaching."
+    },
+    {
+      "verse": 34,
+      "kjv": "But when the Pharisees had heard that he had put the Sadducees to silence, they were gathered together.",
+      "web": "But the Pharisees, when they heard that he had silenced the Sadducees, gathered themselves together.",
+      "ct": "When the Pharisees heard that Jesus had silenced the Sadducees, they gathered together."
+    },
+    {
+      "verse": 35,
+      "kjv": "Then one of them, which was a lawyer, asked him a question, tempting him, and saying,",
+      "web": "One of them, a lawyer, asked him a question, testing him.",
+      "ct": "One of them, an expert in the law, tested him with a question."
+    },
+    {
+      "verse": 36,
+      "kjv": "Master, which is the great commandment in the law?",
+      "web": "“Teacher, which is the greatest commandment in the law?”",
+      "ct": "\"Teacher, which is the greatest commandment in the law?\""
+    },
+    {
+      "verse": 37,
+      "kjv": "Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.",
+      "web": "Jesus said to him, “ ‘You shall love the Lord your God with all your heart, with all your soul, and with all your mind.’",
+      "ct": "Jesus answered, \"'Love the Lord your God with all your heart, with all your soul, and with all your mind.'"
+    },
+    {
+      "verse": 38,
+      "kjv": "This is the first and great commandment.",
+      "web": "This is the first and great commandment.",
+      "ct": "This is the first and greatest commandment."
+    },
+    {
+      "verse": 39,
+      "kjv": "And the second is like unto it, Thou shalt love thy neighbour as thyself.",
+      "web": "A second likewise is this, ‘You shall love your neighbor as yourself.’",
+      "ct": "The second is just as important: 'Love your neighbor as yourself.'"
+    },
+    {
+      "verse": 40,
+      "kjv": "On these two commandments hang all the law and the prophets.",
+      "web": "The whole law and the prophets depend on these two commandments.”",
+      "ct": "Everything in the law and the prophets hangs on these 2 commandments.\""
+    },
+    {
+      "verse": 41,
+      "kjv": "While the Pharisees were gathered together, Jesus asked them,",
+      "web": "Now while the Pharisees were gathered together, Jesus asked them a question,",
+      "ct": "While the Pharisees were still gathered, Jesus asked them a question of his own."
+    },
+    {
+      "verse": 42,
+      "kjv": "Saying, What think ye of Christ? whose son is he? They say unto him, The son of David.",
+      "web": "saying, “What do you think of the Christ? Whose son is he?” They said to him, “Of David.”",
+      "ct": "\"What do you think about the Christ? Whose son is he?\" They answered, \"He is the son of David.\""
+    },
+    {
+      "verse": 43,
+      "kjv": "He saith unto them, How then doth David in spirit call him Lord, saying,",
+      "web": "He said to them, “How then does David in the Spirit call him Lord, saying, ",
+      "ct": "Jesus said, \"Then how is it that David, speaking by the Spirit, calls him Lord? David said,"
+    },
+    {
+      "verse": 44,
+      "kjv": "The LORD said unto my Lord, Sit thou on my right hand, till I make thine enemies thy footstool?",
+      "web": "‘The Lord said to my Lord, sit on my right hand, until I make your enemies a footstool for your feet?’",
+      "ct": "'The LORD said to my Lord, sit at my right hand until I put your enemies under your feet.'"
+    },
+    {
+      "verse": 45,
+      "kjv": "If David then call him Lord, how is he his son?",
+      "web": "“If then David calls him Lord, how is he his son?”",
+      "ct": "If David calls him Lord, how can he be David's son?\""
+    },
+    {
+      "verse": 46,
+      "kjv": "And no man was able to answer him a word, neither durst any man from that day forth ask him any more questions.",
+      "web": "No one was able to answer him a word, neither did any man dare ask him any more questions from that day forward.",
+      "ct": "No one could answer him. And from that day on, nobody dared ask him any more questions."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "book": "matthew",
+  "book_name": "Matthew",
+  "chapter": 17,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T12:13:37.712Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And after six days Jesus taketh Peter, James, and John his brother, and bringeth them up into an high mountain apart,",
+      "web": "After six days, Jesus took with him Peter, James, and John his brother, and brought them up into a high mountain by themselves.",
+      "ct": "6 days later, Jesus took Peter, James, and James's brother John and led them up a high mountain where they could be alone."
+    },
+    {
+      "verse": 2,
+      "kjv": "And was transfigured before them: and his face did shine as the sun, and his raiment was white as the light.",
+      "web": "He was changed before them. His face shone like the sun, and his garments became as white as the light.",
+      "ct": "There, his appearance was completely transformed right before their eyes. His face shone like the sun, and his clothes became as white as light itself."
+    },
+    {
+      "verse": 3,
+      "kjv": "And, behold, there appeared unto them Moses and Elias talking with him.",
+      "web": "Behold, Moses and Elijah appeared to them talking with him.",
+      "ct": "Suddenly, Moses and Elijah appeared and began talking with Jesus."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then answered Peter, and said unto Jesus, Lord, it is good for us to be here: if thou wilt, let us make here three tabernacles; one for thee, and one for Moses, and one for Elias.",
+      "web": "Peter answered, and said to Jesus, “Lord, it is good for us to be here. If you want, let’s make three tents here: one for you, one for Moses, and one for Elijah.”",
+      "ct": "Peter spoke up and said to Jesus, \"Lord, it's wonderful that we're here! If you'd like, I'll build 3 shelters — one for you, one for Moses, and one for Elijah.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "While he yet spake, behold, a bright cloud overshadowed them: and behold a voice out of the cloud, which said, This is my beloved Son, in whom I am well pleased; hear ye him.",
+      "web": "While he was still speaking, behold, a bright cloud overshadowed them. Behold, a voice came out of the cloud, saying, “This is my beloved Son, in whom I am well pleased. Listen to him.”",
+      "ct": "While Peter was still speaking, a bright cloud covered them, and a voice from the cloud said, \"This is my beloved Son, in whom I am well pleased. Listen to him.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And when the disciples heard it, they fell on their face, and were sore afraid.",
+      "web": "When the disciples heard it, they fell on their faces, and were very afraid.",
+      "ct": "When the disciples heard this, they fell facedown on the ground, terrified."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Jesus came and touched them, and said, Arise, and be not afraid.",
+      "web": "Jesus came and touched them and said, “Get up, and don’t be afraid.”",
+      "ct": "Jesus came over, touched them, and said, \"Get up. Don't be afraid.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And when they had lifted up their eyes, they saw no man, save Jesus only.",
+      "web": "Lifting up their eyes, they saw no one, except Jesus alone.",
+      "ct": "When they looked up, they saw no one except Jesus standing there alone."
+    },
+    {
+      "verse": 9,
+      "kjv": "And as they came down from the mountain, Jesus charged them, saying, Tell the vision to no man, until the Son of man be risen again from the dead.",
+      "web": "As they were coming down from the mountain, Jesus commanded them, saying, “Don’t tell anyone what you saw, until the Son of Man has risen from the dead.”",
+      "ct": "As they made their way down the mountain, Jesus gave them strict orders: \"Don't tell anyone what you saw until the Son of Man has risen from the dead.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And his disciples asked him, saying, Why then say the scribes that Elias must first come?",
+      "web": "His disciples asked him, saying, “Then why do the scribes say that Elijah must come first?”",
+      "ct": "His disciples asked him, \"Then why do the scribes say that Elijah must come first?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Jesus answered and said unto them, Elias truly shall first come, and restore all things.",
+      "web": "Jesus answered them, “Elijah indeed comes first, and will restore all things,",
+      "ct": "Jesus replied, \"Elijah does come first, and he will restore all things.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "But I say unto you, That Elias is come already, and they knew him not, but have done unto him whatsoever they listed. Likewise shall also the Son of man suffer of them.",
+      "web": "but I tell you that Elijah has come already, and they didn’t recognize him, but did to him whatever they wanted to. Even so the Son of Man will also suffer by them.”",
+      "ct": "\"But I'm telling you, Elijah has already come. People didn't recognize him and did whatever they wanted to him. In the same way, the Son of Man is going to suffer at their hands.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then the disciples understood that he spake unto them of John the Baptist.",
+      "web": "Then the disciples understood that he spoke to them of John the Baptizer.",
+      "ct": "Then the disciples realized he was talking about John the Baptist."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when they were come to the multitude, there came to him a certain man, kneeling down to him, and saying,",
+      "web": "When they came to the multitude, a man came to him, kneeling down to him, and saying,",
+      "ct": "When they reached the crowd, a man came and knelt before Jesus."
+    },
+    {
+      "verse": 15,
+      "kjv": "Lord, have mercy on my son: for he is lunatick, and sore vexed: for ofttimes he falleth into the fire, and oft into the water.",
+      "web": "“Lord, have mercy on my son, for he is epileptic, and suffers grievously; for he often falls into the fire, and often into the water.",
+      "ct": "\"Lord, have mercy on my son,\" he said. \"He has seizures and suffers terribly. He keeps falling into the fire or into the water.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And I brought him to thy disciples, and they could not cure him.",
+      "web": "So I brought him to your disciples, and they could not cure him.”",
+      "ct": "\"I brought him to your disciples, but they couldn't heal him.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Then Jesus answered and said, O faithless and perverse generation, how long shall I be with you? how long shall I suffer you? bring him hither to me.",
+      "web": "Jesus answered, “Faithless and perverse generation! How long will I be with you? How long will I bear with you? Bring him here to me.”",
+      "ct": "Jesus answered, \"What a faithless and twisted generation! How long must I stay with you? How long must I put up with you? Bring the boy to me.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And Jesus rebuked the devil; and he departed out of him: and the child was cured from that very hour.",
+      "web": "Jesus rebuked him, the demon went out of him, and the boy was cured from that hour.",
+      "ct": "Jesus rebuked the demon, and it came out of the boy. From that moment on, the child was completely healed."
+    },
+    {
+      "verse": 19,
+      "kjv": "Then came the disciples to Jesus apart, and said, Why could not we cast him out?",
+      "web": "Then the disciples came to Jesus privately, and said, “Why weren’t we able to cast it out?”",
+      "ct": "Afterward, the disciples came to Jesus privately and asked, \"Why couldn't we drive it out?\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Jesus said unto them, Because of your unbelief: for verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you.",
+      "web": "He said to them, “Because of your unbelief. For most certainly I tell you, if you have faith as a grain of mustard seed, you will tell this mountain, ‘Move from here to there,’ and it will move; and nothing will be impossible for you.",
+      "ct": "He told them, \"Because of your unbelief. I tell you the truth — if you have faith even as small as a mustard seed, you could say to this mountain, 'Move from here to there,' and it would move. Nothing would be impossible for you.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Howbeit this kind goeth not out but by prayer and fasting.",
+      "web": "But this kind doesn’t go out except by prayer and fasting.”",
+      "ct": "\"But this kind of demon only comes out through prayer and fasting.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And while they abode in Galilee, Jesus said unto them, The Son of man shall be betrayed into the hands of men:",
+      "web": "While they were staying in Galilee, Jesus said to them, “The Son of Man is about to be delivered up into the hands of men,",
+      "ct": "While they were gathered together in Galilee, Jesus told them, \"The Son of Man is about to be handed over to men.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And they shall kill him, and the third day he shall be raised again. And they were exceeding sorry.",
+      "web": "and they will kill him, and the third day he will be raised up.” They were exceedingly sorry.",
+      "ct": "\"They will kill him, and on the 3rd day he will be raised back to life.\" The disciples were overwhelmed with grief."
+    },
+    {
+      "verse": 24,
+      "kjv": "And when they were come to Capernaum, they that received tribute money came to Peter, and said, Doth not your master pay tribute?",
+      "web": "When they had come to Capernaum, those who collected the didrachma coins came to Peter, and said, “Doesn’t your teacher pay the didrachma?”",
+      "ct": "When they arrived in Capernaum, the collectors of the temple tax approached Peter and asked, \"Doesn't your teacher pay the temple tax?\""
+    },
+    {
+      "verse": 25,
+      "kjv": "He saith, Yes. And when he was come into the house, Jesus prevented him, saying, What thinkest thou, Simon? of whom do the kings of the earth take custom or tribute? of their own children, or of strangers?",
+      "web": "He said, “Yes.” When he came into the house, Jesus anticipated him, saying, “What do you think, Simon? From whom do the kings of the earth receive toll or tribute? From their children, or from strangers?”",
+      "ct": "\"Yes, he does,\" Peter answered. When Peter came into the house, Jesus spoke first: \"What do you think, Simon? Who do the kings of the earth collect taxes and duties from — their own children or from others?\""
+    },
+    {
+      "verse": 26,
+      "kjv": "Peter saith unto him, Of strangers. Jesus saith unto him, Then are the children free.",
+      "web": "Peter said to him, “From strangers.” Jesus said to him, “Therefore the children are exempt.",
+      "ct": "\"From others,\" Peter replied. Jesus said, \"Then the children are exempt.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Notwithstanding, lest we should offend them, go thou to the sea, and cast an hook, and take up the fish that first cometh up; and when thou hast opened his mouth, thou shalt find a piece of money: that take, and give unto them for me and thee.",
+      "web": "But, lest we cause them to stumble, go to the sea, cast a hook, and take up the first fish that comes up. When you have opened its mouth, you will find a stater coin. Take that, and give it to them for me and you.”",
+      "ct": "\"But so we don't cause an offense, go to the lake and cast a hook. Open the mouth of the first fish you catch, and you'll find a coin inside. Take it and pay the tax for both of us.\""
+    }
+  ]
+}

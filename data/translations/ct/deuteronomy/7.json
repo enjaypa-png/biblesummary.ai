@@ -1,0 +1,167 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 7,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:07:28.898Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "When the LORD thy God shall bring thee into the land whither thou goest to possess it, and hath cast out many nations before thee, the Hittites, and the Girgashites, and the Amorites, and the Canaanites, and the Perizzites, and the Hivites, and the Jebusites, seven nations greater and mightier than thou;",
+      "web": "When LORD your God brings you into the land where you go to possess it, and casts out many nations before you—the Hittite, the Girgashite, the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite—seven nations greater and mightier than you;",
+      "ct": "When the LORD your God brings you into the land you are about to enter and take possession of, he will drive out many nations ahead of you — the Hittites, the Girgashites, the Amorites, the Canaanites, the Perizzites, the Hivites, and the Jebusites — 7 nations that are larger and more powerful than you."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when the LORD thy God shall deliver them before thee; thou shalt smite them, and utterly destroy them; thou shalt make no covenant with them, nor shew mercy unto them:",
+      "web": "and when LORD your God delivers them up before you, and you strike them, then you shall utterly destroy them. You shall make no covenant with them, nor show mercy to them.",
+      "ct": "When the LORD your God hands them over to you and you defeat them, you must completely destroy them. Don't make any covenant with them, and don't show them mercy."
+    },
+    {
+      "verse": 3,
+      "kjv": "Neither shalt thou make marriages with them; thy daughter thou shalt not give unto his son, nor his daughter shalt thou take unto thy son.",
+      "web": "You shall not make marriages with them. You shall not give your daughter to his son, nor shall you take his daughter for your son.",
+      "ct": "Don't intermarry with them. Don't give your daughters to their sons, and don't take their daughters for your sons."
+    },
+    {
+      "verse": 4,
+      "kjv": "For they will turn away thy son from following me, that they may serve other gods: so will the anger of the LORD be kindled against you, and destroy thee suddenly.",
+      "web": "For that would turn away your sons from following me, that they may serve other gods. So LORD’s anger would be kindled against you, and he would destroy you quickly.",
+      "ct": "Because they will lead your children away from following me, and your children will end up serving other gods. Then the LORD's anger will burn against you, and he will destroy you quickly."
+    },
+    {
+      "verse": 5,
+      "kjv": "But thus shall ye deal with them; ye shall destroy their altars, and break down their images, and cut down their groves, and burn their graven images with fire.",
+      "web": "But you shall deal with them like this: you shall break down their altars, dash their pillars in pieces, cut down their Asherah poles, and burn their engraved images with fire.",
+      "ct": "Instead, here's what you must do to them: tear down their altars, smash their sacred pillars, chop down their Asherah poles, and burn their carved idols in the fire."
+    },
+    {
+      "verse": 6,
+      "kjv": "For thou art an holy people unto the LORD thy God: the LORD thy God hath chosen thee to be a special people unto himself, above all people that are upon the face of the earth.",
+      "web": "For you are a holy people to LORD your God. LORD your God has chosen you to be a people for his own possession, above all peoples who are on the face of the earth.",
+      "ct": "You are a people set apart as holy to the LORD your God. Out of all the peoples on the face of the earth, the LORD your God chose you to be his own treasured people."
+    },
+    {
+      "verse": 7,
+      "kjv": "The LORD did not set his love upon you, nor choose you, because ye were more in number than any people; for ye were the fewest of all people:",
+      "web": "LORD didn’t set his love on you nor choose you, because you were more in number than any people; for you were the fewest of all peoples;",
+      "ct": "The LORD didn't set his love on you and choose you because you were the largest nation — in fact, you were the smallest of all peoples."
+    },
+    {
+      "verse": 8,
+      "kjv": "But because the LORD loved you, and because he would keep the oath which he had sworn unto your fathers, hath the LORD brought you out with a mighty hand, and redeemed you out of the house of bondmen, from the hand of Pharaoh king of Egypt.",
+      "web": "but because LORD loves you, and because he desires to keep the oath which he swore to your fathers, LORD has brought you out with a mighty hand and redeemed you out of the house of bondage, from the hand of Pharaoh king of Egypt.",
+      "ct": "It was because the LORD loved you and because he was keeping the oath he swore to your ancestors. That's why the LORD brought you out with his mighty hand and rescued you from slavery, from the grip of Pharaoh king of Egypt."
+    },
+    {
+      "verse": 9,
+      "kjv": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations;",
+      "web": "Know therefore that LORD your God himself is God, the faithful God, who keeps covenant and loving kindness with them who love him and keep his commandments to a thousand generations,",
+      "ct": "So understand this: the LORD your God is the true God, the faithful God who keeps his covenant and shows mercy to those who love him and obey his commandments, for a thousand generations."
+    },
+    {
+      "verse": 10,
+      "kjv": "And repayeth them that hate him to their face, to destroy them: he will not be slack to him that hateth him, he will repay him to his face.",
+      "web": "and repays those who hate him to their face, to destroy them. He will not be slack to him who hates him. He will repay him to his face.",
+      "ct": "But those who hate him, he repays directly and destroys. He doesn't hesitate — he pays back anyone who hates him to their face."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thou shalt therefore keep the commandments, and the statutes, and the judgments, which I command thee this day, to do them.",
+      "web": "You shall therefore keep the commandments, the statutes, and the ordinances which I command you today, to do them.",
+      "ct": "So be careful to follow the commandments, statutes, and laws that I'm giving you today."
+    },
+    {
+      "verse": 12,
+      "kjv": "Wherefore it shall come to pass, if ye hearken to these judgments, and keep, and do them, that the LORD thy God shall keep unto thee the covenant and the mercy which he sware unto thy fathers:",
+      "web": "It shall happen, because you listen to these ordinances and keep and do them, that LORD your God will keep with you the covenant and the loving kindness which he swore to your fathers.",
+      "ct": "If you listen to these laws and faithfully obey them, the LORD your God will keep the covenant and the mercy he promised to your ancestors."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he will love thee, and bless thee, and multiply thee: he will also bless the fruit of thy womb, and the fruit of thy land, thy corn, and thy wine, and thine oil, the increase of thy kine, and the flocks of thy sheep, in the land which he sware unto thy fathers to give thee.",
+      "web": "He will love you, bless you, and multiply you. He will also bless the fruit of your body and the fruit of your ground, your grain and your new wine and your oil, the increase of your livestock and the young of your flock, in the land which he swore to your fathers to give you.",
+      "ct": "He will love you, bless you, and make your numbers grow. He will bless your children, your crops — your grain, your wine, and your olive oil — and the offspring of your herds and flocks, in the land he swore to your ancestors he would give you."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thou shalt be blessed above all people: there shall not be male or female barren among you, or among your cattle.",
+      "web": "You will be blessed above all peoples. There won’t be male or female barren among you, or among your livestock.",
+      "ct": "You will be blessed more than any other people. None of your men or women will be unable to have children, and none of your livestock will be barren."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the LORD will take away from thee all sickness, and will put none of the evil diseases of Egypt, which thou knowest, upon thee; but will lay them upon all them that hate thee.",
+      "web": "LORD will take away from you all sickness; and he will put none of the evil diseases of Egypt, which you know, on you, but will lay them on all those who hate you.",
+      "ct": "The LORD will keep you free from every disease. He won't inflict on you any of the terrible diseases you saw in Egypt, but he will bring them on everyone who hates you."
+    },
+    {
+      "verse": 16,
+      "kjv": "And thou shalt consume all the people which the LORD thy God shall deliver thee; thine eye shall have no pity upon them: neither shalt thou serve their gods; for that will be a snare unto thee.",
+      "web": "You shall consume all the peoples whom LORD your God shall deliver to you. Your eye shall not pity them. You shall not serve their gods; for that would be a snare to you.",
+      "ct": "You must destroy every people group the LORD your God hands over to you. Don't feel sorry for them, and don't worship their gods — that would become a trap for you."
+    },
+    {
+      "verse": 17,
+      "kjv": "If thou shalt say in thine heart, These nations are more than I; how can I dispossess them?",
+      "web": "If you shall say in your heart, “These nations are more than I; how can I dispossess them?”",
+      "ct": "You might think to yourself, 'These nations are stronger than we are. How can we possibly drive them out?'"
+    },
+    {
+      "verse": 18,
+      "kjv": "Thou shalt not be afraid of them: but shalt well remember what the LORD thy God did unto Pharaoh, and unto all Egypt;",
+      "web": "you shall not be afraid of them. You shall remember well what LORD your God did to Pharaoh and to all Egypt:",
+      "ct": "Don't be afraid of them. Instead, remember clearly what the LORD your God did to Pharaoh and to all of Egypt —"
+    },
+    {
+      "verse": 19,
+      "kjv": "The great temptations which thine eyes saw, and the signs, and the wonders, and the mighty hand, and the stretched out arm, whereby the LORD thy God brought thee out: so shall the LORD thy God do unto all the people of whom thou art afraid.",
+      "web": "the great trials which your eyes saw, the signs, the wonders, the mighty hand, and the outstretched arm, by which LORD your God brought you out. So shall LORD your God do to all the peoples of whom you are afraid.",
+      "ct": "the incredible trials you witnessed with your own eyes, the signs, the wonders, the mighty hand, and the outstretched arm the LORD your God used to bring you out. The LORD your God will do the same thing to every nation you're afraid of."
+    },
+    {
+      "verse": 20,
+      "kjv": "Moreover the LORD thy God will send the hornet among them, until they that are left, and hide themselves from thee, be destroyed.",
+      "web": "Moreover LORD your God will send the hornet among them, until those who are left, and hide themselves, perish from before you.",
+      "ct": "On top of that, the LORD your God will send the hornet among them until even those who survive and hide from you are wiped out."
+    },
+    {
+      "verse": 21,
+      "kjv": "Thou shalt not be affrighted at them: for the LORD thy God is among you, a mighty God and terrible.",
+      "web": "You shall not be scared of them; for LORD your God is among you, a great and awesome God.",
+      "ct": "Don't be terrified of them, because the LORD your God is right there among you — a great and awesome God."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the LORD thy God will put out those nations before thee by little and little: thou mayest not consume them at once, lest the beasts of the field increase upon thee.",
+      "web": "LORD your God will cast out those nations before you little by little. You may not consume them at once, lest the animals of the field increase on you.",
+      "ct": "The LORD your God will drive those nations out ahead of you little by little. You won't be able to eliminate them all at once, or the wild animals would multiply and overrun you."
+    },
+    {
+      "verse": 23,
+      "kjv": "But the LORD thy God shall deliver them unto thee, and shall destroy them with a mighty destruction, until they be destroyed.",
+      "web": "But LORD your God will deliver them up before you, and will confuse them with a great confusion, until they are destroyed.",
+      "ct": "But the LORD your God will hand them over to you and throw them into total chaos until they are destroyed."
+    },
+    {
+      "verse": 24,
+      "kjv": "And he shall deliver their kings into thine hand, and thou shalt destroy their name from under heaven: there shall no man be able to stand before thee, until thou have destroyed them.",
+      "web": "He will deliver their kings into your hand, and you shall make their name perish from under the sky. No one will be able to stand before you until you have destroyed them.",
+      "ct": "He will deliver their kings into your hands, and you will wipe out their very names from under heaven. No one will be able to stand against you — you will destroy them all."
+    },
+    {
+      "verse": 25,
+      "kjv": "The graven images of their gods shall ye burn with fire: thou shalt not desire the silver or gold that is on them, nor take it unto thee, lest thou be snared therein: for it is an abomination to the LORD thy God.",
+      "web": "You shall burn the engraved images of their gods with fire. You shall not covet the silver or the gold that is on them, nor take it for yourself, lest you be snared in it; for it is an abomination to LORD your God.",
+      "ct": "Burn the carved images of their gods in the fire. Don't be tempted by the silver or gold on them, and don't take it for yourself, or it will become a trap for you. It is an abomination to the LORD your God."
+    },
+    {
+      "verse": 26,
+      "kjv": "Neither shalt thou bring an abomination into thine house, lest thou be a cursed thing like it: but thou shalt utterly detest it, and thou shalt utterly abhor it; for it is a cursed thing.",
+      "web": "You shall not bring an abomination into your house and become a devoted thing like it. You shall utterly detest it. You shall utterly abhor it; for it is a devoted thing.",
+      "ct": "Don't bring any of these disgusting things into your house, or you will be set apart for destruction just like them. You must completely detest and utterly despise them, because they are set apart for destruction."
+    }
+  ]
+}

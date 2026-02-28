@@ -1,0 +1,257 @@
+{
+  "book": "mark",
+  "book_name": "Mark",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T13:45:48.205Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And he began again to teach by the sea side: and there was gathered unto him a great multitude, so that he entered into a ship, and sat in the sea; and the whole multitude was by the sea on the land.",
+      "web": "Again he began to teach by the seaside. A great multitude was gathered to him, so that he entered into a boat in the sea, and sat down. All the multitude were on the land by the sea.",
+      "ct": "Jesus began teaching again beside the sea. Such a huge crowd gathered around him that he got into a boat and sat down on the water, while the entire crowd stood along the shore."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he taught them many things by parables, and said unto them in his doctrine,",
+      "web": "He taught them many things in parables, and told them in his teaching,",
+      "ct": "He taught them many things using parables, and as he was teaching he said,"
+    },
+    {
+      "verse": 3,
+      "kjv": "Hearken; Behold, there went out a sower to sow:",
+      "web": "“Listen! Behold, the farmer went out to sow,",
+      "ct": "\"Listen! A farmer went out to plant his seed."
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass, as he sowed, some fell by the way side, and the fowls of the air came and devoured it up.",
+      "web": "and as he sowed, some seed fell by the road, and the birds came and devoured it.",
+      "ct": "As he scattered it, some seed fell along the path, and birds came and ate it up."
+    },
+    {
+      "verse": 5,
+      "kjv": "And some fell on stony ground, where it had not much earth; and immediately it sprang up, because it had no depth of earth:",
+      "web": "Others fell on the rocky ground, where it had little soil, and immediately it sprang up, because it had no depth of soil.",
+      "ct": "Some fell on rocky ground where there wasn't much soil. It sprouted quickly because the soil was so shallow."
+    },
+    {
+      "verse": 6,
+      "kjv": "But when the sun was up, it was scorched; and because it had no root, it withered away.",
+      "web": "When the sun had risen, it was scorched; and because it had no root, it withered away.",
+      "ct": "But when the sun came up, it was scorched, and since it had no roots, it withered and died."
+    },
+    {
+      "verse": 7,
+      "kjv": "And some fell among thorns, and the thorns grew up, and choked it, and it yielded no fruit.",
+      "web": "Others fell among the thorns, and the thorns grew up, and choked it, and it yielded no fruit.",
+      "ct": "Some seed fell among thorn bushes. The thorns grew up and choked it out, so it produced nothing."
+    },
+    {
+      "verse": 8,
+      "kjv": "And other fell on good ground, and did yield fruit that sprang up and increased; and brought forth, some thirty, and some sixty, and some an hundred.",
+      "web": "Others fell into the good ground, and yielded fruit, growing up and increasing. Some produced thirty times, some sixty times, and some one hundred times as much.”",
+      "ct": "But some seed fell on good soil. It grew up strong and produced a harvest — 30, 60, even 100 times what was planted.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And he said unto them, He that hath ears to hear, let him hear.",
+      "web": "He said, “Whoever has ears to hear, let him hear.”",
+      "ct": "Then he said, \"If you have ears to hear, then listen carefully.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And when he was alone, they that were about him with the twelve asked of him the parable.",
+      "web": "When he was alone, those who were around him with the twelve asked him about the parables.",
+      "ct": "Later, when Jesus was alone, the 12 disciples and the others close to him asked him what the parable meant."
+    },
+    {
+      "verse": 11,
+      "kjv": "And he said unto them, Unto you it is given to know the mystery of the kingdom of God: but unto them that are without, all these things are done in parables:",
+      "web": "He said to them, “To you is given the mystery of God’s Kingdom, but to those who are outside, all things are done in parables,",
+      "ct": "He told them, \"You've been given the ability to understand the mystery of God's Kingdom. But for those on the outside, everything comes in parables,"
+    },
+    {
+      "verse": 12,
+      "kjv": "That seeing they may see, and not perceive; and hearing they may hear, and not understand; lest at any time they should be converted, and their sins should be forgiven them.",
+      "web": "that ‘seeing they may see, and not perceive; and hearing they may hear, and not understand; lest perhaps they should turn again, and their sins should be forgiven them.’ ”",
+      "ct": "so that 'they may look but never truly see, and listen but never truly understand — otherwise they might turn back to God and have their sins forgiven.'\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And he said unto them, Know ye not this parable? and how then will ye know all parables?",
+      "web": "He said to them, “Don’t you understand this parable? How will you understand all of the parables?",
+      "ct": "Then he said to them, \"You don't understand this parable? Then how will you understand any of the others?"
+    },
+    {
+      "verse": 14,
+      "kjv": "The sower soweth the word.",
+      "web": "The farmer sows the word.",
+      "ct": "The farmer is planting the word of God."
+    },
+    {
+      "verse": 15,
+      "kjv": "And these are they by the way side, where the word is sown; but when they have heard, Satan cometh immediately, and taketh away the word that was sown in their hearts.",
+      "web": "The ones by the road are the ones where the word is sown; and when they have heard, immediately Satan comes, and takes away the word which has been sown in them.",
+      "ct": "The seed that falls along the path represents people who hear the word, but Satan immediately comes and snatches away what was planted in their hearts."
+    },
+    {
+      "verse": 16,
+      "kjv": "And these are they likewise which are sown on stony ground; who, when they have heard the word, immediately receive it with gladness;",
+      "web": "These in the same way are those who are sown on the rocky places, who, when they have heard the word, immediately receive it with joy.",
+      "ct": "The seed on rocky ground represents people who hear the word and immediately accept it with joy."
+    },
+    {
+      "verse": 17,
+      "kjv": "And have no root in themselves, and so endure but for a time: afterward, when affliction or persecution ariseth for the word’s sake, immediately they are offended.",
+      "web": "They have no root in themselves, but are short-lived. When oppression or persecution arises because of the word, immediately they stumble.",
+      "ct": "But they have no deep roots, so they only last for a short time. The moment trouble or persecution comes because of the word, they quickly fall away."
+    },
+    {
+      "verse": 18,
+      "kjv": "And these are they which are sown among thorns; such as hear the word,",
+      "web": "Others are those who are sown among the thorns. These are those who have heard the word,",
+      "ct": "The seed that falls among the thorns represents people who hear the word,"
+    },
+    {
+      "verse": 19,
+      "kjv": "And the cares of this world, and the deceitfulness of riches, and the lusts of other things entering in, choke the word, and it becometh unfruitful.",
+      "web": "and the cares of this age, and the deceitfulness of riches, and the lusts of other things entering in choke the word, and it becomes unfruitful.",
+      "ct": "but the worries of everyday life, the seduction of wealth, and cravings for other things crowd in and choke the word, making it produce nothing."
+    },
+    {
+      "verse": 20,
+      "kjv": "And these are they which are sown on good ground; such as hear the word, and receive it, and bring forth fruit, some thirtyfold, some sixty, and some an hundred.",
+      "web": "Those which were sown on the good ground are those who hear the word, and accept it, and bear fruit, some thirty times, some sixty times, and some one hundred times.”",
+      "ct": "But the seed planted in good soil represents people who hear the word, embrace it, and produce a harvest — 30, 60, even 100 times what was planted.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And he said unto them, Is a candle brought to be put under a bushel, or under a bed? and not to be set on a candlestick?",
+      "web": "He said to them, “Is the lamp brought to be put under a basket or under a bed? Isn’t it put on a stand?",
+      "ct": "He said to them, \"Does anyone light a lamp and then hide it under a basket or shove it under a bed? Of course not — you put it on a stand."
+    },
+    {
+      "verse": 22,
+      "kjv": "For there is nothing hid, which shall not be manifested; neither was any thing kept secret, but that it should come abroad.",
+      "web": "For there is nothing hidden, except that it should be made known; neither was anything made secret, but that it should come to light.",
+      "ct": "Everything that is hidden will eventually be brought into the open, and every secret will come to light."
+    },
+    {
+      "verse": 23,
+      "kjv": "If any man have ears to hear, let him hear.",
+      "web": "If any man has ears to hear, let him hear.”",
+      "ct": "If you have ears to hear, then listen carefully.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And he said unto them, Take heed what ye hear: with what measure ye mete, it shall be measured to you: and unto you that hear shall more be given.",
+      "web": "He said to them, “Take heed what you hear. With whatever measure you measure, it will be measured to you, and more will be given to you who hear.",
+      "ct": "He also said, \"Pay close attention to what you hear. The standard you use to measure will be used to measure you — and then some. Those who really listen will be given even more."
+    },
+    {
+      "verse": 25,
+      "kjv": "For he that hath, to him shall be given: and he that hath not, from him shall be taken even that which he hath.",
+      "web": "For whoever has, to him more will be given, and he who doesn’t have, even that which he has will be taken away from him.”",
+      "ct": "Whoever has something will be given more. But whoever has nothing — even what little they have will be taken away.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And he said, So is the kingdom of God, as if a man should cast seed into the ground;",
+      "web": "He said, “God’s Kingdom is as if a man should cast seed on the earth,",
+      "ct": "He also said, \"The Kingdom of God is like a man who scatters seed on the ground."
+    },
+    {
+      "verse": 27,
+      "kjv": "And should sleep, and rise night and day, and the seed should spring and grow up, he knoweth not how.",
+      "web": "and should sleep and rise night and day, and the seed should spring up and grow, though he doesn’t know how.",
+      "ct": "He goes to sleep at night and gets up each morning, and the seed sprouts and grows — though he has no idea how."
+    },
+    {
+      "verse": 28,
+      "kjv": "For the earth bringeth forth fruit of herself; first the blade, then the ear, after that the full corn in the ear.",
+      "web": "For the earth bears fruit: first the blade, then the ear, then the full grain in the ear.",
+      "ct": "The soil produces the crop all by itself: first the stalk, then the head, then the full grain in the head."
+    },
+    {
+      "verse": 29,
+      "kjv": "But when the fruit is brought forth, immediately he putteth in the sickle, because the harvest is come.",
+      "web": "But when the fruit is ripe, immediately he puts in the sickle, because the harvest has come.”",
+      "ct": "As soon as the grain is ripe, the farmer swings his sickle, because harvest time has come.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "And he said, Whereunto shall we liken the kingdom of God? or with what comparison shall we compare it?",
+      "web": "He said, “How will we liken God’s Kingdom? Or with what parable will we illustrate it?",
+      "ct": "He continued, \"What can we compare God's Kingdom to? What picture can we use to describe it?"
+    },
+    {
+      "verse": 31,
+      "kjv": "It is like a grain of mustard seed, which, when it is sown in the earth, is less than all the seeds that be in the earth:",
+      "web": "It’s like a grain of mustard seed, which, when it is sown in the earth, though it is less than all the seeds that are on the earth,",
+      "ct": "It's like a mustard seed. When it's planted in the ground, it's the smallest of all seeds on earth."
+    },
+    {
+      "verse": 32,
+      "kjv": "But when it is sown, it groweth up, and becometh greater than all herbs, and shooteth out great branches; so that the fowls of the air may lodge under the shadow of it.",
+      "web": "yet when it is sown, grows up, and becomes greater than all the herbs, and puts out great branches, so that the birds of the sky can lodge under its shadow.”",
+      "ct": "But once it's planted, it grows up and becomes the largest of all garden plants, putting out branches so big that birds can nest in its shade.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And with many such parables spake he the word unto them, as they were able to hear it.",
+      "web": "With many such parables he spoke the word to them, as they were able to hear it.",
+      "ct": "Jesus used many parables like these to share the word with the people, giving them as much as they could take in."
+    },
+    {
+      "verse": 34,
+      "kjv": "But without a parable spake he not unto them: and when they were alone, he expounded all things to his disciples.",
+      "web": "Without a parable he didn’t speak to them; but privately to his own disciples he explained everything.",
+      "ct": "He never spoke to the crowds without using parables. But when he was alone with his disciples, he explained everything to them."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the same day, when the even was come, he saith unto them, Let us pass over unto the other side.",
+      "web": "On that day, when evening had come, he said to them, “Let’s go over to the other side.”",
+      "ct": "That evening, he said to his disciples, \"Let's cross over to the other side of the lake.\""
+    },
+    {
+      "verse": 36,
+      "kjv": "And when they had sent away the multitude, they took him even as he was in the ship. And there were also with him other little ships.",
+      "web": "Leaving the multitude, they took him with them, even as he was, in the boat. Other small boats were also with him.",
+      "ct": "They left the crowd behind and took Jesus in the boat just as he was. Several other boats went along with them."
+    },
+    {
+      "verse": 37,
+      "kjv": "And there arose a great storm of wind, and the waves beat into the ship, so that it was now full.",
+      "web": "A big wind storm arose, and the waves beat into the boat, so much that the boat was already filled.",
+      "ct": "A violent windstorm blew in, and waves crashed over the sides of the boat until it was nearly swamped."
+    },
+    {
+      "verse": 38,
+      "kjv": "And he was in the hinder part of the ship, asleep on a pillow: and they awake him, and say unto him, Master, carest thou not that we perish?",
+      "web": "He himself was in the stern, asleep on the cushion, and they woke him up, and told him, “Teacher, don’t you care that we are dying?”",
+      "ct": "But Jesus was in the back of the boat, sound asleep on a cushion. They shook him awake and shouted, \"Teacher, don't you care that we're about to drown?\""
+    },
+    {
+      "verse": 39,
+      "kjv": "And he arose, and rebuked the wind, and said unto the sea, Peace, be still. And the wind ceased, and there was a great calm.",
+      "web": "He awoke, and rebuked the wind, and said to the sea, “Peace! Be still!” The wind ceased, and there was a great calm.",
+      "ct": "He got up, commanded the wind to stop, and said to the sea, \"Peace! Be still!\" Instantly the wind died down, and everything became perfectly calm."
+    },
+    {
+      "verse": 40,
+      "kjv": "And he said unto them, Why are ye so fearful? how is it that ye have no faith?",
+      "web": "He said to them, “Why are you so afraid? How is it that you have no faith?”",
+      "ct": "Then he turned to them and said, \"Why are you so afraid? Do you still have no faith?\""
+    },
+    {
+      "verse": 41,
+      "kjv": "And they feared exceedingly, and said one to another, What manner of man is this, that even the wind and the sea obey him?",
+      "web": "They were greatly afraid, and said to one another, “Who then is this, that even the wind and the sea obey him?”",
+      "ct": "They were absolutely terrified and whispered to each other, \"Who is this man? Even the wind and the sea do what he says!\""
+    }
+  ]
+}

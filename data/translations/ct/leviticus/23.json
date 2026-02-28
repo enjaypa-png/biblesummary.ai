@@ -1,0 +1,275 @@
+{
+  "book": "leviticus",
+  "book_name": "Leviticus",
+  "chapter": 23,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:47:28.225Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak unto the children of Israel, and say unto them, Concerning the feasts of the LORD, which ye shall proclaim to be holy convocations, even these are my feasts.",
+      "web": "“Speak to the children of Israel, and tell them, ‘The set feasts of LORD, which you shall proclaim to be holy convocations, even these are my set feasts.",
+      "ct": "\"Tell the people of Israel: These are the appointed feasts of the LORD that you are to announce as sacred assemblies. These are my feasts."
+    },
+    {
+      "verse": 3,
+      "kjv": "Six days shall work be done: but the seventh day is the sabbath of rest, an holy convocation; ye shall do no work therein: it is the sabbath of the LORD in all your dwellings.",
+      "web": "“ ‘Six days shall work be done, but on the seventh day is a Sabbath of solemn rest, a holy convocation; you shall do no kind of work. It is a Sabbath to LORD in all your dwellings.",
+      "ct": "You may work for 6 days, but the 7th day is a Sabbath of complete rest — a sacred assembly. You must not do any work on that day. It is a Sabbath dedicated to the LORD, wherever you live."
+    },
+    {
+      "verse": 4,
+      "kjv": "These are the feasts of the LORD, even holy convocations, which ye shall proclaim in their seasons.",
+      "web": "“ ‘These are the set feasts of LORD, even holy convocations, which you shall proclaim in their appointed season.",
+      "ct": "These are the appointed feasts of the LORD — sacred assemblies you are to announce at their proper times."
+    },
+    {
+      "verse": 5,
+      "kjv": "In the fourteenth day of the first month at even is the LORD’s passover.",
+      "web": "In the first month, on the fourteenth day of the month in the evening, is LORD’s Passover.",
+      "ct": "The LORD's Passover begins on the evening of the 14th day of the 1st month."
+    },
+    {
+      "verse": 6,
+      "kjv": "And on the fifteenth day of the same month is the feast of unleavened bread unto the LORD: seven days ye must eat unleavened bread.",
+      "web": "On the fifteenth day of the same month is the feast of unleavened bread to LORD. Seven days you shall eat unleavened bread.",
+      "ct": "Then on the 15th day of that same month, the Feast of Unleavened Bread to the LORD begins. For 7 days you must eat bread made without yeast."
+    },
+    {
+      "verse": 7,
+      "kjv": "In the first day ye shall have an holy convocation: ye shall do no servile work therein.",
+      "web": "In the first day you shall have a holy convocation. You shall do no regular work.",
+      "ct": "On the 1st day, hold a sacred assembly. Don't do any regular work."
+    },
+    {
+      "verse": 8,
+      "kjv": "But ye shall offer an offering made by fire unto the LORD seven days: in the seventh day is an holy convocation: ye shall do no servile work therein.",
+      "web": "But you shall offer an offering made by fire to LORD seven days. In the seventh day is a holy convocation. You shall do no regular work.’ ”",
+      "ct": "Present an offering made by fire to the LORD each of the 7 days. On the 7th day, hold another sacred assembly. Don't do any regular work.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 10,
+      "kjv": "Speak unto the children of Israel, and say unto them, When ye be come into the land which I give unto you, and shall reap the harvest thereof, then ye shall bring a sheaf of the firstfruits of your harvest unto the priest:",
+      "web": "“Speak to the children of Israel, and tell them, ‘When you have come into the land which I give to you, and shall reap its harvest, then you shall bring the sheaf of the first fruits of your harvest to the priest.",
+      "ct": "\"Tell the people of Israel: When you enter the land I am giving you and you harvest its crops, bring a sheaf from the first grain you cut to the priest."
+    },
+    {
+      "verse": 11,
+      "kjv": "And he shall wave the sheaf before the LORD, to be accepted for you: on the morrow after the sabbath the priest shall wave it.",
+      "web": "He shall wave the sheaf before LORD, to be accepted for you. On the next day after the Sabbath the priest shall wave it.",
+      "ct": "The priest will wave the sheaf before the LORD so it will be accepted on your behalf. He is to wave it on the day after the Sabbath."
+    },
+    {
+      "verse": 12,
+      "kjv": "And ye shall offer that day when ye wave the sheaf an he lamb without blemish of the first year for a burnt offering unto the LORD.",
+      "web": "On the day when you wave the sheaf, you shall offer a male lamb without defect a year old for a burnt offering to LORD.",
+      "ct": "On the same day you present the wave offering, sacrifice a 1-year-old male lamb without any defect as a burnt offering to the LORD."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the meat offering thereof shall be two tenth deals of fine flour mingled with oil, an offering made by fire unto the LORD for a sweet savour: and the drink offering thereof shall be of wine, the fourth part of an hin.",
+      "web": "The meal offering with it shall be two tenths of an ephah of fine flour mixed with oil, an offering made by fire to LORD for a pleasant aroma; and the drink offering with it shall be of wine, the fourth part of a hin.",
+      "ct": "Along with it, bring a grain offering of 2 tenths of an ephah of fine flour mixed with oil — an offering made by fire, producing an aroma pleasing to the LORD. Also bring a drink offering of wine, 1/4 of a hin."
+    },
+    {
+      "verse": 14,
+      "kjv": "And ye shall eat neither bread, nor parched corn, nor green ears, until the selfsame day that ye have brought an offering unto your God: it shall be a statute for ever throughout your generations in all your dwellings.",
+      "web": "You must not eat bread, or roasted grain, or fresh grain, until this same day, until you have brought the offering of your God. This is a statute forever throughout your generations in all your dwellings.",
+      "ct": "Don't eat any bread, roasted grain, or fresh grain until that very day — until you have brought this offering to your God. This is a permanent law for every generation, wherever you live."
+    },
+    {
+      "verse": 15,
+      "kjv": "And ye shall count unto you from the morrow after the sabbath, from the day that ye brought the sheaf of the wave offering; seven sabbaths shall be complete:",
+      "web": "“ ‘You shall count from the next day after the Sabbath, from the day that you brought the sheaf of the wave offering: seven Sabbaths shall be completed.",
+      "ct": "Starting from the day after the Sabbath — the day you brought the sheaf as a wave offering — count off 7 full weeks."
+    },
+    {
+      "verse": 16,
+      "kjv": "Even unto the morrow after the seventh sabbath shall ye number fifty days; and ye shall offer a new meat offering unto the LORD.",
+      "web": "The next day after the seventh Sabbath you shall count fifty days; and you shall offer a new meal offering to LORD.",
+      "ct": "Count 50 days, up to the day after the 7th Sabbath, and then present a new grain offering to the LORD."
+    },
+    {
+      "verse": 17,
+      "kjv": "Ye shall bring out of your habitations two wave loaves of two tenth deals: they shall be of fine flour; they shall be baken with leaven; they are the firstfruits unto the LORD.",
+      "web": "You shall bring out of your habitations two loaves of bread for a wave offering made of two tenths of an ephah of fine flour. They shall be baked with yeast, for first fruits to LORD.",
+      "ct": "From wherever you live, bring 2 loaves of bread as a wave offering. Make them from 2 tenths of an ephah of fine flour, baked with yeast. They are an offering of firstfruits to the LORD."
+    },
+    {
+      "verse": 18,
+      "kjv": "And ye shall offer with the bread seven lambs without blemish of the first year, and one young bullock, and two rams: they shall be for a burnt offering unto the LORD, with their meat offering, and their drink offerings, even an offering made by fire, of sweet savour unto the LORD.",
+      "web": "You shall present with the bread seven lambs without defect a year old, one young bull, and two rams. They shall be a burnt offering to LORD, with their meal offering and their drink offerings, even an offering made by fire, of a sweet aroma to LORD.",
+      "ct": "Along with the bread, present 7 1-year-old lambs without defect, 1 young bull, and 2 rams. These will be a burnt offering to the LORD, together with their grain offering and drink offerings — an offering made by fire, producing an aroma pleasing to the LORD."
+    },
+    {
+      "verse": 19,
+      "kjv": "Then ye shall sacrifice one kid of the goats for a sin offering, and two lambs of the first year for a sacrifice of peace offerings.",
+      "web": "You shall offer one male goat for a sin offering, and two male lambs a year old for a sacrifice of peace offerings.",
+      "ct": "Then sacrifice 1 male goat as a sin offering and 2 1-year-old male lambs as a peace offering."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the priest shall wave them with the bread of the firstfruits for a wave offering before the LORD, with the two lambs: they shall be holy to the LORD for the priest.",
+      "web": "The priest shall wave them with the bread of the first fruits for a wave offering before LORD, with the two lambs. They shall be holy to LORD for the priest.",
+      "ct": "The priest will wave the 2 lambs together with the bread of the firstfruits as a wave offering before the LORD. They are holy to the LORD and belong to the priest."
+    },
+    {
+      "verse": 21,
+      "kjv": "And ye shall proclaim on the selfsame day, that it may be an holy convocation unto you: ye shall do no servile work therein: it shall be a statute for ever in all your dwellings throughout your generations.",
+      "web": "You shall make proclamation on the same day that there shall be a holy convocation to you. You shall do no regular work. This is a statute forever in all your dwellings throughout your generations.",
+      "ct": "On that same day, announce a sacred assembly. Don't do any regular work. This is a permanent law for every generation, wherever you live."
+    },
+    {
+      "verse": 22,
+      "kjv": "And when ye reap the harvest of your land, thou shalt not make clean riddance of the corners of thy field when thou reapest, neither shalt thou gather any gleaning of thy harvest: thou shalt leave them unto the poor, and to the stranger: I am the LORD your God.",
+      "web": "“ ‘When you reap the harvest of your land, you must not wholly reap into the corners of your field, and you must not gather the gleanings of your harvest. You must leave them for the poor, and for the foreigner. I am LORD your God.’ ”",
+      "ct": "When you harvest your land, don't cut all the way to the edges of your field, and don't go back to pick up what you missed. Leave that for the poor and for foreigners. I am the LORD your God.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Speak unto the children of Israel, saying, In the seventh month, in the first day of the month, shall ye have a sabbath, a memorial of blowing of trumpets, an holy convocation.",
+      "web": "“Speak to the children of Israel, saying, ‘In the seventh month, on the first day of the month, there shall be a solemn rest for you, a memorial of blowing of trumpets, a holy convocation.",
+      "ct": "\"Tell the people of Israel: On the 1st day of the 7th month, you are to have a day of complete rest — a sacred assembly marked by the blowing of trumpets."
+    },
+    {
+      "verse": 25,
+      "kjv": "Ye shall do no servile work therein: but ye shall offer an offering made by fire unto the LORD.",
+      "web": "You shall do no regular work. You shall offer an offering made by fire to LORD.’ ”",
+      "ct": "Don't do any regular work. Present an offering made by fire to the LORD.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 27,
+      "kjv": "Also on the tenth day of this seventh month there shall be a day of atonement: it shall be an holy convocation unto you; and ye shall afflict your souls, and offer an offering made by fire unto the LORD.",
+      "web": "“However on the tenth day of this seventh month is the day of atonement. It shall be a holy convocation to you. You shall afflict yourselves and you shall offer an offering made by fire to LORD.",
+      "ct": "\"The 10th day of this 7th month is the Day of Atonement. Hold a sacred assembly, deny yourselves, and present an offering made by fire to the LORD."
+    },
+    {
+      "verse": 28,
+      "kjv": "And ye shall do no work in that same day: for it is a day of atonement, to make an atonement for you before the LORD your God.",
+      "web": "You shall do no kind of work in that same day, for it is a day of atonement, to make atonement for you before LORD your God.",
+      "ct": "Do no work at all on that day, because it is the Day of Atonement, when atonement is made for you before the LORD your God."
+    },
+    {
+      "verse": 29,
+      "kjv": "For whatsoever soul it be that shall not be afflicted in that same day, he shall be cut off from among his people.",
+      "web": "For whoever it is who shall not deny himself in that same day shall be cut off from his people.",
+      "ct": "Anyone who does not deny themselves on that day will be cut off from their people."
+    },
+    {
+      "verse": 30,
+      "kjv": "And whatsoever soul it be that doeth any work in that same day, the same soul will I destroy from among his people.",
+      "web": "Whoever does any kind of work in that same day, I will destroy that person from among his people.",
+      "ct": "Anyone who does any work on that day — I will destroy that person from among their people."
+    },
+    {
+      "verse": 31,
+      "kjv": "Ye shall do no manner of work: it shall be a statute for ever throughout your generations in all your dwellings.",
+      "web": "You shall do no kind of work: it is a statute forever throughout your generations in all your dwellings.",
+      "ct": "You must not do any work at all. This is a permanent law for every generation, wherever you live."
+    },
+    {
+      "verse": 32,
+      "kjv": "It shall be unto you a sabbath of rest, and ye shall afflict your souls: in the ninth day of the month at even, from even unto even, shall ye celebrate your sabbath.",
+      "web": "It shall be a Sabbath of solemn rest for you, and you shall deny yourselves. In the ninth day of the month at evening, from evening to evening, you shall keep your Sabbath.”",
+      "ct": "It is a Sabbath of complete rest for you, and you must deny yourselves. Beginning on the evening of the 9th day of the month, from evening to evening, you are to observe your Sabbath.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And the LORD spake unto Moses, saying,",
+      "web": "LORD spoke to Moses, saying,",
+      "ct": "The LORD spoke to Moses and said,"
+    },
+    {
+      "verse": 34,
+      "kjv": "Speak unto the children of Israel, saying, The fifteenth day of this seventh month shall be the feast of tabernacles for seven days unto the LORD.",
+      "web": "“Speak to the children of Israel, and say, ‘On the fifteenth day of this seventh month is the feast of booths for seven days to LORD.",
+      "ct": "\"Tell the people of Israel: The Feast of Tabernacles to the LORD begins on the 15th day of this 7th month and lasts for 7 days."
+    },
+    {
+      "verse": 35,
+      "kjv": "On the first day shall be an holy convocation: ye shall do no servile work therein.",
+      "web": "On the first day shall be a holy convocation. You shall do no regular work.",
+      "ct": "On the 1st day, hold a sacred assembly. Don't do any regular work."
+    },
+    {
+      "verse": 36,
+      "kjv": "Seven days ye shall offer an offering made by fire unto the LORD: on the eighth day shall be an holy convocation unto you; and ye shall offer an offering made by fire unto the LORD: it is a solemn assembly; and ye shall do no servile work therein.",
+      "web": "Seven days you shall offer an offering made by fire to LORD. On the eighth day shall be a holy convocation to you. You shall offer an offering made by fire to LORD. It is a solemn assembly; you shall do no regular work.",
+      "ct": "For 7 days, present offerings made by fire to the LORD. On the 8th day, hold a sacred assembly and present an offering made by fire to the LORD. It is a closing assembly — don't do any regular work."
+    },
+    {
+      "verse": 37,
+      "kjv": "These are the feasts of the LORD, which ye shall proclaim to be holy convocations, to offer an offering made by fire unto the LORD, a burnt offering, and a meat offering, a sacrifice, and drink offerings, every thing upon his day:",
+      "web": "“ ‘These are the appointed feasts of LORD which you shall proclaim to be holy convocations, to offer an offering made by fire to LORD, a burnt offering, a meal offering, a sacrifice, and drink offerings, each on its own day—",
+      "ct": "These are the appointed feasts of the LORD that you are to announce as sacred assemblies — times for presenting offerings made by fire to the LORD: burnt offerings, grain offerings, sacrifices, and drink offerings, each on its proper day."
+    },
+    {
+      "verse": 38,
+      "kjv": "Beside the sabbaths of the LORD, and beside your gifts, and beside all your vows, and beside all your freewill offerings, which ye give unto the LORD.",
+      "web": "in addition to the Sabbaths of LORD, and in addition to your gifts, and in addition to all your vows, and in addition to all your free will offerings, which you give to LORD.",
+      "ct": "These feasts are in addition to the LORD's regular Sabbaths, and the offerings are in addition to your gifts, your vow offerings, and your freewill offerings that you give to the LORD."
+    },
+    {
+      "verse": 39,
+      "kjv": "Also in the fifteenth day of the seventh month, when ye have gathered in the fruit of the land, ye shall keep a feast unto the LORD seven days: on the first day shall be a sabbath, and on the eighth day shall be a sabbath.",
+      "web": "“ ‘So on the fifteenth day of the seventh month, when you have gathered in the fruits of the land, you shall keep the feast of LORD seven days. On the first day shall be a solemn rest, and on the eighth day shall be a solemn rest.",
+      "ct": "Also, beginning on the 15th day of the 7th month, after you have gathered your crops, celebrate the LORD's feast for 7 days. The 1st day is a day of complete rest, and the 8th day is also a day of complete rest."
+    },
+    {
+      "verse": 40,
+      "kjv": "And ye shall take you on the first day the boughs of goodly trees, branches of palm trees, and the boughs of thick trees, and willows of the brook; and ye shall rejoice before the LORD your God seven days.",
+      "web": "You shall take on the first day the fruit of majestic trees, branches of palm trees, and boughs of thick trees, and willows of the brook; and you shall rejoice before LORD your God seven days.",
+      "ct": "On the 1st day, gather fruit from majestic trees, palm branches, boughs from leafy trees, and willows from the brook. Then celebrate with joy before the LORD your God for 7 days."
+    },
+    {
+      "verse": 41,
+      "kjv": "And ye shall keep it a feast unto the LORD seven days in the year. It shall be a statute for ever in your generations: ye shall celebrate it in the seventh month.",
+      "web": "You shall keep it as a feast to LORD seven days in the year. It is a statute forever throughout your generations. You shall keep it in the seventh month.",
+      "ct": "Celebrate this feast to the LORD for 7 days each year. This is a permanent law for every generation — celebrate it in the 7th month."
+    },
+    {
+      "verse": 42,
+      "kjv": "Ye shall dwell in booths seven days; all that are Israelites born shall dwell in booths:",
+      "web": "You shall dwell in temporary shelters for seven days. All who are native-born in Israel shall dwell in temporary shelters,",
+      "ct": "Live in temporary shelters for 7 days. Every native-born Israelite must live in these shelters,"
+    },
+    {
+      "verse": 43,
+      "kjv": "That your generations may know that I made the children of Israel to dwell in booths, when I brought them out of the land of Egypt: I am the LORD your God.",
+      "web": "that your generations may know that I made the children of Israel to dwell in temporary shelters when I brought them out of the land of Egypt. I am LORD your God.’ ”",
+      "ct": "so that your descendants will know that I made the people of Israel live in temporary shelters when I brought them out of Egypt. I am the LORD your God.\""
+    },
+    {
+      "verse": 44,
+      "kjv": "And Moses declared unto the children of Israel the feasts of the LORD.",
+      "web": "So Moses declared to the children of Israel the appointed feasts of LORD.",
+      "ct": "Moses announced all of the LORD's appointed feasts to the people of Israel."
+    }
+  ]
+}

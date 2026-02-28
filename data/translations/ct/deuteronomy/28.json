@@ -1,0 +1,419 @@
+{
+  "book": "deuteronomy",
+  "book_name": "Deuteronomy",
+  "chapter": 28,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:15:02.637Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it shall come to pass, if thou shalt hearken diligently unto the voice of the LORD thy God, to observe and to do all his commandments which I command thee this day, that the LORD thy God will set thee on high above all nations of the earth:",
+      "web": "It shall happen, if you shall listen diligently to LORD your God’s voice, to observe to do all his commandments which I command you today, that LORD your God will set you high above all the nations of the earth.",
+      "ct": "If you fully obey the LORD your God and carefully follow every command I'm giving you today, the LORD your God will raise you up above every nation on earth."
+    },
+    {
+      "verse": 2,
+      "kjv": "And all these blessings shall come on thee, and overtake thee, if thou shalt hearken unto the voice of the LORD thy God.",
+      "web": "All these blessings will come upon you, and overtake you, if you listen to LORD your God’s voice.",
+      "ct": "All these blessings will chase you down and overtake you, if you listen to the voice of the LORD your God."
+    },
+    {
+      "verse": 3,
+      "kjv": "Blessed shalt thou be in the city, and blessed shalt thou be in the field.",
+      "web": "You shall be blessed in the city, and you shall be blessed in the field.",
+      "ct": "You'll be blessed in the city and blessed in the countryside."
+    },
+    {
+      "verse": 4,
+      "kjv": "Blessed shall be the fruit of thy body, and the fruit of thy ground, and the fruit of thy cattle, the increase of thy kine, and the flocks of thy sheep.",
+      "web": "You shall be blessed in the fruit of your body, the fruit of your ground, the fruit of your animals, the increase of your livestock, and the young of your flock.",
+      "ct": "Your children will be blessed, your crops will be blessed, and your livestock — both your herds and your flocks — will be blessed."
+    },
+    {
+      "verse": 5,
+      "kjv": "Blessed shall be thy basket and thy store.",
+      "web": "Your basket and your kneading trough shall be blessed.",
+      "ct": "Your basket and your kneading trough will be blessed."
+    },
+    {
+      "verse": 6,
+      "kjv": "Blessed shalt thou be when thou comest in, and blessed shalt thou be when thou goest out.",
+      "web": "You shall be blessed when you come in, and you shall be blessed when you go out.",
+      "ct": "You'll be blessed when you come home and blessed when you go out."
+    },
+    {
+      "verse": 7,
+      "kjv": "The LORD shall cause thine enemies that rise up against thee to be smitten before thy face: they shall come out against thee one way, and flee before thee seven ways.",
+      "web": "LORD will cause your enemies who rise up against you to be struck before you. They will come out against you one way, and will flee before you seven ways.",
+      "ct": "The LORD will strike down the enemies who attack you. They'll march against you from one direction but scatter and run from you in 7 different directions."
+    },
+    {
+      "verse": 8,
+      "kjv": "The LORD shall command the blessing upon thee in thy storehouses, and in all that thou settest thine hand unto; and he shall bless thee in the land which the LORD thy God giveth thee.",
+      "web": "LORD will command the blessing on you in your barns, and in all that you put your hand to. He will bless you in the land which LORD your God gives you.",
+      "ct": "The LORD will command his blessing on your barns and on everything you do. He will bless you in the land the LORD your God is giving you."
+    },
+    {
+      "verse": 9,
+      "kjv": "The LORD shall establish thee an holy people unto himself, as he hath sworn unto thee, if thou shalt keep the commandments of the LORD thy God, and walk in his ways.",
+      "web": "LORD will establish you for a holy people to himself, as he has sworn to you, if you shall keep the commandments of LORD your God, and walk in his ways.",
+      "ct": "The LORD will establish you as his holy people, just as he promised you — if you keep the commandments of the LORD your God and walk in his ways."
+    },
+    {
+      "verse": 10,
+      "kjv": "And all people of the earth shall see that thou art called by the name of the LORD; and they shall be afraid of thee.",
+      "web": "All the peoples of the earth shall see that you are called by LORD’s name, and they will be afraid of you.",
+      "ct": "Every nation on earth will see that you belong to the LORD, and they will fear you."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD shall make thee plenteous in goods, in the fruit of thy body, and in the fruit of thy cattle, and in the fruit of thy ground, in the land which the LORD sware unto thy fathers to give thee.",
+      "web": "LORD will grant you abundant prosperity in the fruit of your body, in the fruit of your livestock, and in the fruit of your ground, in the land which LORD swore to your fathers to give you.",
+      "ct": "The LORD will give you overwhelming abundance — in your children, in your livestock, and in your crops — in the land the LORD swore to your ancestors he would give you."
+    },
+    {
+      "verse": 12,
+      "kjv": "The LORD shall open unto thee his good treasure, the heaven to give the rain unto thy land in his season, and to bless all the work of thine hand: and thou shalt lend unto many nations, and thou shalt not borrow.",
+      "web": "LORD will open to you his good treasure in the sky, to give the rain of your land in its season, and to bless all the work of your hand. You will lend to many nations, and you will not borrow.",
+      "ct": "The LORD will open up the heavens, his rich storehouse, to send rain on your land at just the right time and to bless everything you do. You'll lend to many nations but never need to borrow from anyone."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the LORD shall make thee the head, and not the tail; and thou shalt be above only, and thou shalt not be beneath; if that thou hearken unto the commandments of the LORD thy God, which I command thee this day, to observe and to do them:",
+      "web": "LORD will make you the head, and not the tail. You will be above only, and you will not be beneath, if you listen to the commandments of LORD your God which I command you today, to observe and to do,",
+      "ct": "The LORD will make you the head, not the tail. You'll always be on top, never on the bottom — if you obey the commandments of the LORD your God that I'm giving you today and carefully follow them."
+    },
+    {
+      "verse": 14,
+      "kjv": "And thou shalt not go aside from any of the words which I command thee this day, to the right hand, or to the left, to go after other gods to serve them.",
+      "web": "and shall not turn away from any of the words which I command you today, to the right hand or to the left, to go after other gods to serve them.",
+      "ct": "Don't turn aside from anything I command you today, not to the right or to the left, and don't chase after other gods to worship them."
+    },
+    {
+      "verse": 15,
+      "kjv": "But it shall come to pass, if thou wilt not hearken unto the voice of the LORD thy God, to observe to do all his commandments and his statutes which I command thee this day; that all these curses shall come upon thee, and overtake thee:",
+      "web": "But it shall come to pass, if you will not listen to LORD your God’s voice, to observe to do all his commandments and his statutes which I command you today, that all these curses will come on you and overtake you.",
+      "ct": "But if you refuse to listen to the LORD your God and don't carefully follow all his commandments and statutes that I'm giving you today, then all these curses will come crashing down on you and overtake you."
+    },
+    {
+      "verse": 16,
+      "kjv": "Cursed shalt thou be in the city, and cursed shalt thou be in the field.",
+      "web": "You will be cursed in the city, and you will be cursed in the field.",
+      "ct": "You'll be cursed in the city and cursed in the countryside."
+    },
+    {
+      "verse": 17,
+      "kjv": "Cursed shall be thy basket and thy store.",
+      "web": "Your basket and your kneading trough will be cursed.",
+      "ct": "Your basket and your kneading trough will be cursed."
+    },
+    {
+      "verse": 18,
+      "kjv": "Cursed shall be the fruit of thy body, and the fruit of thy land, the increase of thy kine, and the flocks of thy sheep.",
+      "web": "The fruit of your body, the fruit of your ground, the increase of your livestock, and the young of your flock will be cursed.",
+      "ct": "Your children will be cursed, your crops will be cursed, and your livestock — both your herds and your flocks — will be cursed."
+    },
+    {
+      "verse": 19,
+      "kjv": "Cursed shalt thou be when thou comest in, and cursed shalt thou be when thou goest out.",
+      "web": "You will be cursed when you come in, and you will be cursed when you go out.",
+      "ct": "You'll be cursed when you come home and cursed when you go out."
+    },
+    {
+      "verse": 20,
+      "kjv": "The LORD shall send upon thee cursing, vexation, and rebuke, in all that thou settest thine hand unto for to do, until thou be destroyed, and until thou perish quickly; because of the wickedness of thy doings, whereby thou hast forsaken me.",
+      "web": "LORD will send on you cursing, confusion, and rebuke in all that you put your hand to do, until you are destroyed and until you perish quickly, because of the evil of your doings, by which you have forsaken me.",
+      "ct": "The LORD will send curses, confusion, and frustration on everything you try to do, until you are destroyed and quickly wiped out — because of the evil things you've done in abandoning him."
+    },
+    {
+      "verse": 21,
+      "kjv": "The LORD shall make the pestilence cleave unto thee, until he have consumed thee from off the land, whither thou goest to possess it.",
+      "web": "LORD will make the pestilence cling to you, until he has consumed you from off the land where you go in to possess it.",
+      "ct": "The LORD will make plague cling to you until it has consumed you from the land you are entering to possess."
+    },
+    {
+      "verse": 22,
+      "kjv": "The LORD shall smite thee with a consumption, and with a fever, and with an inflammation, and with an extreme burning, and with the sword, and with blasting, and with mildew; and they shall pursue thee until thou perish.",
+      "web": "LORD will strike you with consumption, with fever, with inflammation, with fiery heat, with the sword, with blight, and with mildew. They will pursue you until you perish.",
+      "ct": "The LORD will strike you with wasting disease, fever, inflammation, scorching heat, drought, blight, and mildew. These disasters will hunt you down until you are destroyed."
+    },
+    {
+      "verse": 23,
+      "kjv": "And thy heaven that is over thy head shall be brass, and the earth that is under thee shall be iron.",
+      "web": "Your sky that is over your head will be bronze, and the earth that is under you will be iron.",
+      "ct": "The sky above your head will turn to bronze, and the ground beneath your feet will become hard as iron."
+    },
+    {
+      "verse": 24,
+      "kjv": "The LORD shall make the rain of thy land powder and dust: from heaven shall it come down upon thee, until thou be destroyed.",
+      "web": "LORD will make the rain of your land powder and dust. It will come down on you from the sky, until you are destroyed.",
+      "ct": "Instead of rain, the LORD will send dust and powder falling from the sky until you are destroyed."
+    },
+    {
+      "verse": 25,
+      "kjv": "The LORD shall cause thee to be smitten before thine enemies: thou shalt go out one way against them, and flee seven ways before them: and shalt be removed into all the kingdoms of the earth.",
+      "web": "LORD will cause you to be struck before your enemies. You will go out one way against them, and will flee seven ways before them. You will be tossed back and forth among all the kingdoms of the earth.",
+      "ct": "The LORD will let your enemies defeat you. You'll march out against them from one direction but flee from them in 7 directions. You'll become an object of horror to every kingdom on earth."
+    },
+    {
+      "verse": 26,
+      "kjv": "And thy carcase shall be meat unto all fowls of the air, and unto the beasts of the earth, and no man shall fray them away.",
+      "web": "Your dead bodies will be food to all birds of the sky, and to the animals of the earth; and there will be no one to frighten them away.",
+      "ct": "Your dead bodies will be food for the birds and wild animals, and no one will be there to scare them away."
+    },
+    {
+      "verse": 27,
+      "kjv": "The LORD will smite thee with the botch of Egypt, and with the emerods, and with the scab, and with the itch, whereof thou canst not be healed.",
+      "web": "LORD will strike you with the boils of Egypt, with the tumors, with the scurvy, and with the itch, of which you can not be healed.",
+      "ct": "The LORD will strike you with the boils of Egypt, with tumors, scurvy, and an itch that can never be healed."
+    },
+    {
+      "verse": 28,
+      "kjv": "The LORD shall smite thee with madness, and blindness, and astonishment of heart:",
+      "web": "LORD will strike you with madness, with blindness, and with astonishment of heart.",
+      "ct": "The LORD will strike you with madness, blindness, and panic."
+    },
+    {
+      "verse": 29,
+      "kjv": "And thou shalt grope at noonday, as the blind gropeth in darkness, and thou shalt not prosper in thy ways: and thou shalt be only oppressed and spoiled evermore, and no man shall save thee.",
+      "web": "You will grope at noonday, as the blind gropes in darkness, and you shall not prosper in your ways. You will only be oppressed and robbed always, and there will be no one to save you.",
+      "ct": "You'll stumble around at noon like a blind person groping in the dark. Nothing you do will succeed. You'll be constantly oppressed and robbed, and no one will come to rescue you."
+    },
+    {
+      "verse": 30,
+      "kjv": "Thou shalt betroth a wife, and another man shall lie with her: thou shalt build an house, and thou shalt not dwell therein: thou shalt plant a vineyard, and shalt not gather the grapes thereof.",
+      "web": "You will betroth a wife, and another man shall lie with her. You will build a house, and you won’t dwell in it. You will plant a vineyard, and not use its fruit.",
+      "ct": "You'll get engaged to a woman, but another man will sleep with her. You'll build a house but never live in it. You'll plant a vineyard but never enjoy its fruit."
+    },
+    {
+      "verse": 31,
+      "kjv": "Thine ox shall be slain before thine eyes, and thou shalt not eat thereof: thine ass shall be violently taken away from before thy face, and shall not be restored to thee: thy sheep shall be given unto thine enemies, and thou shalt have none to rescue them.",
+      "web": "Your ox will be slain before your eyes, and you will not eat any of it. Your donkey will be violently taken away from before your face, and will not be restored to you. Your sheep will be given to your enemies, and you will have no one to save you.",
+      "ct": "Your ox will be slaughtered right in front of you, but you won't eat any of it. Your donkey will be stolen from you and never returned. Your sheep will be handed over to your enemies, and no one will help you."
+    },
+    {
+      "verse": 32,
+      "kjv": "Thy sons and thy daughters shall be given unto another people, and thine eyes shall look, and fail with longing for them all the day long: and there shall be no might in thine hand:",
+      "web": "Your sons and your daughters will be given to another people. Your eyes will look, and fail with longing for them all day long. There will be no power in your hand.",
+      "ct": "Your sons and daughters will be given away to a foreign people. You'll watch for them all day long, your eyes aching with longing, but you'll be powerless to do anything about it."
+    },
+    {
+      "verse": 33,
+      "kjv": "The fruit of thy land, and all thy labours, shall a nation which thou knowest not eat up; and thou shalt be only oppressed and crushed alway:",
+      "web": "A nation which you don’t know will eat the fruit of your ground and all of your work. You will only be oppressed and crushed always,",
+      "ct": "A nation you've never even heard of will devour your crops and everything you've worked for. You'll be nothing but oppressed and crushed, day after day."
+    },
+    {
+      "verse": 34,
+      "kjv": "So that thou shalt be mad for the sight of thine eyes which thou shalt see.",
+      "web": "so that the sights that you see with your eyes will drive you mad.",
+      "ct": "The things you see with your own eyes will drive you insane."
+    },
+    {
+      "verse": 35,
+      "kjv": "The LORD shall smite thee in the knees, and in the legs, with a sore botch that cannot be healed, from the sole of thy foot unto the top of thy head.",
+      "web": "LORD will strike you in the knees and in the legs with a sore boil, of which you cannot be healed, from the sole of your foot to the crown of your head.",
+      "ct": "The LORD will strike you with painful, incurable boils on your knees and legs — from the soles of your feet to the top of your head."
+    },
+    {
+      "verse": 36,
+      "kjv": "The LORD shall bring thee, and thy king which thou shalt set over thee, unto a nation which neither thou nor thy fathers have known; and there shalt thou serve other gods, wood and stone.",
+      "web": "LORD will bring you, and your king whom you will set over yourselves, to a nation that you have not known, you nor your fathers. There you will serve other gods of wood and stone.",
+      "ct": "The LORD will send you and the king you've placed over yourselves to a nation that neither you nor your ancestors have ever known. There you'll worship other gods made of wood and stone."
+    },
+    {
+      "verse": 37,
+      "kjv": "And thou shalt become an astonishment, a proverb, and a byword, among all nations whither the LORD shall lead thee.",
+      "web": "You will become an astonishment, a proverb, and a byword among all the peoples where LORD will lead you away.",
+      "ct": "You'll become an object of horror, a cautionary tale, and a joke among every nation where the LORD sends you."
+    },
+    {
+      "verse": 38,
+      "kjv": "Thou shalt carry much seed out into the field, and shalt gather but little in; for the locust shall consume it.",
+      "web": "You will carry much seed out into the field, and will gather little in, for the locust will consume it.",
+      "ct": "You'll plant plenty of seed in your fields but harvest almost nothing, because locusts will devour it."
+    },
+    {
+      "verse": 39,
+      "kjv": "Thou shalt plant vineyards, and dress them, but shalt neither drink of the wine, nor gather the grapes; for the worms shall eat them.",
+      "web": "You will plant vineyards and dress them, but you will neither drink of the wine, nor harvest, because worms will eat them.",
+      "ct": "You'll plant vineyards and tend them carefully, but you won't drink the wine or pick the grapes, because worms will eat them."
+    },
+    {
+      "verse": 40,
+      "kjv": "Thou shalt have olive trees throughout all thy coasts, but thou shalt not anoint thyself with the oil; for thine olive shall cast his fruit.",
+      "web": "You will have olive trees throughout all your borders, but you won’t anoint yourself with the oil, for your olives will drop off.",
+      "ct": "You'll have olive trees throughout your land, but you won't have oil to use, because the olives will fall off before they ripen."
+    },
+    {
+      "verse": 41,
+      "kjv": "Thou shalt beget sons and daughters, but thou shalt not enjoy them; for they shall go into captivity.",
+      "web": "You will father sons and daughters, but they will not be yours, for they will go into captivity.",
+      "ct": "You'll have sons and daughters, but you won't get to keep them — they'll be taken away into captivity."
+    },
+    {
+      "verse": 42,
+      "kjv": "All thy trees and fruit of thy land shall the locust consume.",
+      "web": "Locusts will consume all of your trees and the fruit of your ground.",
+      "ct": "Swarms of locusts will consume all your trees and the produce of your land."
+    },
+    {
+      "verse": 43,
+      "kjv": "The stranger that is within thee shall get up above thee very high; and thou shalt come down very low.",
+      "web": "The foreigner who is among you will mount up above you higher and higher, and you will come down lower and lower.",
+      "ct": "The foreigners living among you will rise higher and higher above you, while you sink lower and lower."
+    },
+    {
+      "verse": 44,
+      "kjv": "He shall lend to thee, and thou shalt not lend to him: he shall be the head, and thou shalt be the tail.",
+      "web": "He will lend to you, and you won’t lend to him. He will be the head, and you will be the tail.",
+      "ct": "They'll lend to you, but you won't lend to them. They'll be the head, and you'll be the tail."
+    },
+    {
+      "verse": 45,
+      "kjv": "Moreover all these curses shall come upon thee, and shall pursue thee, and overtake thee, till thou be destroyed; because thou hearkenedst not unto the voice of the LORD thy God, to keep his commandments and his statutes which he commanded thee:",
+      "web": "All these curses will come on you, and will pursue you and overtake you, until you are destroyed, because you didn’t listen to LORD your God’s voice, to keep his commandments and his statutes which he commanded you.",
+      "ct": "All these curses will come after you, chase you down, and overtake you until you are destroyed — because you refused to listen to the LORD your God and follow the commandments and statutes he gave you."
+    },
+    {
+      "verse": 46,
+      "kjv": "And they shall be upon thee for a sign and for a wonder, and upon thy seed for ever.",
+      "web": "They will be for a sign and for a wonder to you and to your offspring forever.",
+      "ct": "These curses will be a sign and a warning to you and your descendants forever."
+    },
+    {
+      "verse": 47,
+      "kjv": "Because thou servedst not the LORD thy God with joyfulness, and with gladness of heart, for the abundance of all things;",
+      "web": "Because you didn’t serve LORD your God with joyfulness and with gladness of heart, by reason of the abundance of all things;",
+      "ct": "Because you didn't serve the LORD your God with joy and a grateful heart when you had an abundance of everything,"
+    },
+    {
+      "verse": 48,
+      "kjv": "Therefore shalt thou serve thine enemies which the LORD shall send against thee, in hunger, and in thirst, and in nakedness, and in want of all things: and he shall put a yoke of iron upon thy neck, until he have destroyed thee.",
+      "web": "therefore you will serve your enemies whom LORD sends against you, in hunger, in thirst, in nakedness, and in lack of all things. He will put an iron yoke on your neck until he has destroyed you.",
+      "ct": "you'll end up serving the enemies the LORD sends against you — in hunger, thirst, nakedness, and desperate need. He will put an iron yoke on your neck until he has destroyed you."
+    },
+    {
+      "verse": 49,
+      "kjv": "The LORD shall bring a nation against thee from far, from the end of the earth, as swift as the eagle flieth; a nation whose tongue thou shalt not understand;",
+      "web": "LORD will bring a nation against you from far, from the end of the earth, as the eagle flies: a nation whose language you will not understand,",
+      "ct": "The LORD will bring a nation against you from far away, from the ends of the earth, swooping down like an eagle — a nation whose language you won't understand."
+    },
+    {
+      "verse": 50,
+      "kjv": "A nation of fierce countenance, which shall not regard the person of the old, nor shew favour to the young:",
+      "web": "a nation of fierce facial expressions, that doesn’t respect the elderly, nor show favor to the young.",
+      "ct": "They'll be a fierce-looking people who show no respect for the elderly and no mercy to the young."
+    },
+    {
+      "verse": 51,
+      "kjv": "And he shall eat the fruit of thy cattle, and the fruit of thy land, until thou be destroyed: which also shall not leave thee either corn, wine, or oil, or the increase of thy kine, or flocks of thy sheep, until he have destroyed thee.",
+      "web": "They will eat the fruit of your livestock and the fruit of your ground, until you are destroyed. They also won’t leave you grain, new wine, oil, the increase of your livestock, or the young of your flock, until they have caused you to perish.",
+      "ct": "They'll devour your livestock and your crops until you're destroyed. They won't leave you any grain, wine, oil, calves, or lambs — until they've wiped you out completely."
+    },
+    {
+      "verse": 52,
+      "kjv": "And he shall besiege thee in all thy gates, until thy high and fenced walls come down, wherein thou trustedst, throughout all thy land: and he shall besiege thee in all thy gates throughout all thy land, which the LORD thy God hath given thee.",
+      "web": "They will besiege you in all your gates until your high and fortified walls in which you trusted come down throughout all your land. They will besiege you in all your gates throughout all your land which LORD your God has given you.",
+      "ct": "They'll lay siege to every town in your land until the tall, fortified walls you trusted in come crashing down — every city throughout the land the LORD your God has given you."
+    },
+    {
+      "verse": 53,
+      "kjv": "And thou shalt eat the fruit of thine own body, the flesh of thy sons and of thy daughters, which the LORD thy God hath given thee, in the siege, and in the straitness, wherewith thine enemies shall distress thee:",
+      "web": "You will eat the fruit of your own body, the flesh of your sons and of your daughters, whom LORD your God has given you, in the siege and in the distress with which your enemies will distress you.",
+      "ct": "During the siege, when your enemies have you in such desperate straits, you'll be driven to eat your own children — the flesh of the sons and daughters the LORD your God gave you."
+    },
+    {
+      "verse": 54,
+      "kjv": "So that the man that is tender among you, and very delicate, his eye shall be evil toward his brother, and toward the wife of his bosom, and toward the remnant of his children which he shall leave:",
+      "web": "The man who is tender among you, and very delicate, his eye will be evil toward his brother, toward the wife whom he loves, and toward the remnant of his children whom he has remaining,",
+      "ct": "Even the most gentle and sensitive man among you will turn cruel toward his own brother, toward the wife he loves, and toward his surviving children."
+    },
+    {
+      "verse": 55,
+      "kjv": "So that he will not give to any of them of the flesh of his children whom he shall eat: because he hath nothing left him in the siege, and in the straitness, wherewith thine enemies shall distress thee in all thy gates.",
+      "web": "so that he will not give to any of them of the flesh of his children whom he will eat, because he has nothing left to him, in the siege and in the distress with which your enemy will distress you in all your gates.",
+      "ct": "He won't share with any of them the flesh of his children that he's eating, because he has nothing else left — so terrible will be the siege your enemy imposes on all your towns."
+    },
+    {
+      "verse": 56,
+      "kjv": "The tender and delicate woman among you, which would not adventure to set the sole of her foot upon the ground for delicateness and tenderness, her eye shall be evil toward the husband of her bosom, and toward her son, and toward her daughter,",
+      "web": "The tender and delicate woman among you, who would not venture to set the sole of her foot on the ground for delicateness and tenderness, her eye will be evil toward the husband that she loves, toward her son, toward her daughter,",
+      "ct": "Even the most gentle and delicate woman among you — so refined she wouldn't dare let the sole of her foot touch the ground — will turn cruel toward the husband she loves, toward her own son, and toward her own daughter."
+    },
+    {
+      "verse": 57,
+      "kjv": "And toward her young one that cometh out from between her feet, and toward her children which she shall bear: for she shall eat them for want of all things secretly in the siege and straitness, wherewith thine enemy shall distress thee in thy gates.",
+      "web": "toward her young one who comes out from between her feet, and toward her children whom she bears; for she will eat them secretly for lack of all things in the siege and in the distress with which your enemy will distress you in your gates.",
+      "ct": "She'll secretly eat her newborn child and the afterbirth, because she has absolutely nothing else. That's how desperate the siege will be when your enemy surrounds your towns."
+    },
+    {
+      "verse": 58,
+      "kjv": "If thou wilt not observe to do all the words of this law that are written in this book, that thou mayest fear this glorious and fearful name, THE LORD THY GOD;",
+      "web": "If you will not observe to do all the words of this law that are written in this book, that you may fear this glorious and fearful name, YAHWEH your God,",
+      "ct": "If you don't carefully obey every word of this law written in this book — if you don't fear this glorious and awesome name, the LORD your God —"
+    },
+    {
+      "verse": 59,
+      "kjv": "Then the LORD will make thy plagues wonderful, and the plagues of thy seed, even great plagues, and of long continuance, and sore sicknesses, and of long continuance.",
+      "web": "then LORD will make your plagues and the plagues of your offspring fearful, even great plagues, and of long duration, and severe sicknesses, and of long duration.",
+      "ct": "then the LORD will bring extraordinary plagues on you and your descendants: severe and lingering diseases, terrible and lasting sicknesses."
+    },
+    {
+      "verse": 60,
+      "kjv": "Moreover he will bring upon thee all the diseases of Egypt, which thou wast afraid of; and they shall cleave unto thee.",
+      "web": "He will bring on you again all the diseases of Egypt, which you were afraid of; and they will cling to you.",
+      "ct": "He'll bring back on you every disease from Egypt that you dreaded, and they'll cling to you and not let go."
+    },
+    {
+      "verse": 61,
+      "kjv": "Also every sickness, and every plague, which is not written in the book of this law, them will the LORD bring upon thee, until thou be destroyed.",
+      "web": "Also every sickness and every plague which is not written in the book of this law, LORD will bring them on you until you are destroyed.",
+      "ct": "On top of that, the LORD will bring every kind of sickness and plague not even written in this book of the law, until you are destroyed."
+    },
+    {
+      "verse": 62,
+      "kjv": "And ye shall be left few in number, whereas ye were as the stars of heaven for multitude; because thou wouldest not obey the voice of the LORD thy God.",
+      "web": "You will be left few in number, even though you were as the stars of the sky for multitude, because you didn’t listen to LORD your God’s voice.",
+      "ct": "Though you once were as numerous as the stars in the heavens, only a handful of you will survive — because you refused to obey the LORD your God."
+    },
+    {
+      "verse": 63,
+      "kjv": "And it shall come to pass, that as the LORD rejoiced over you to do you good, and to multiply you; so the LORD will rejoice over you to destroy you, and to bring you to nought; and ye shall be plucked from off the land whither thou goest to possess it.",
+      "web": "It will happen that as LORD rejoiced over you to do you good, and to multiply you, so LORD will rejoice over you to cause you to perish and to destroy you. You will be plucked from the land that you are going in to possess.",
+      "ct": "Just as the LORD once took delight in making you prosper and multiply, so the LORD will take delight in ruining and destroying you. You'll be ripped out of the land you are entering to possess."
+    },
+    {
+      "verse": 64,
+      "kjv": "And the LORD shall scatter thee among all people, from the one end of the earth even unto the other; and there thou shalt serve other gods, which neither thou nor thy fathers have known, even wood and stone.",
+      "web": "LORD will scatter you among all peoples, from one end of the earth to the other end of the earth. There you will serve other gods which you have not known, you nor your fathers, even wood and stone.",
+      "ct": "The LORD will scatter you among every nation, from one end of the earth to the other. There you'll worship other gods made of wood and stone — gods neither you nor your ancestors ever knew."
+    },
+    {
+      "verse": 65,
+      "kjv": "And among these nations shalt thou find no ease, neither shall the sole of thy foot have rest: but the LORD shall give thee there a trembling heart, and failing of eyes, and sorrow of mind:",
+      "web": "Among these nations you will find no ease, and there will be no rest for the sole of your foot; but LORD will give you there a trembling heart, failing of eyes, and pining of soul.",
+      "ct": "Among those nations you'll find no peace, and your feet will find no place to rest. The LORD will give you an anxious mind, eyes tired from weeping, and a soul heavy with despair."
+    },
+    {
+      "verse": 66,
+      "kjv": "And thy life shall hang in doubt before thee; and thou shalt fear day and night, and shalt have none assurance of thy life:",
+      "web": "Your life will hang in doubt before you. You will be afraid night and day, and will have no assurance of your life.",
+      "ct": "Your life will hang by a thread. You'll live in terror day and night, never sure you'll survive."
+    },
+    {
+      "verse": 67,
+      "kjv": "In the morning thou shalt say, Would God it were even! and at even thou shalt say, Would God it were morning! for the fear of thine heart wherewith thou shalt fear, and for the sight of thine eyes which thou shalt see.",
+      "web": "In the morning you will say, “I wish it were evening!” and at evening you will say, “I wish it were morning!” for the fear of your heart which you will fear, and for the sights which your eyes will see.",
+      "ct": "In the morning you'll say, \"If only it were evening!\" and in the evening you'll say, \"If only it were morning!\" — because of the terror gripping your heart and the horrors you'll witness with your own eyes."
+    },
+    {
+      "verse": 68,
+      "kjv": "And the LORD shall bring thee into Egypt again with ships, by the way whereof I spake unto thee, Thou shalt see it no more again: and there ye shall be sold unto your enemies for bondmen and bondwomen, and no man shall buy you.",
+      "web": "LORD will bring you into Egypt again with ships, by the way of which I told to you that you would never see it again. There you will offer yourselves to your enemies for male and female slaves, and nobody will buy you.",
+      "ct": "The LORD will send you back to Egypt in ships, by a route I told you that you would never see again. There you'll try to sell yourselves to your enemies as slaves — both men and women — but no one will even want to buy you."
+    }
+  ]
+}

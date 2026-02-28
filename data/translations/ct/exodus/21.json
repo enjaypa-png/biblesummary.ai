@@ -1,0 +1,227 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 21,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:31:17.162Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now these are the judgments which thou shalt set before them.",
+      "web": "“Now these are the ordinances which you shall set before them:",
+      "ct": "\"These are the laws you must present to the people:"
+    },
+    {
+      "verse": 2,
+      "kjv": "If thou buy an Hebrew servant, six years he shall serve: and in the seventh he shall go out free for nothing.",
+      "web": "“If you buy a Hebrew servant, he shall serve six years, and in the seventh he shall go out free without paying anything.",
+      "ct": "If you buy a Hebrew servant, he will serve you for 6 years. In the 7th year, he goes free without paying anything."
+    },
+    {
+      "verse": 3,
+      "kjv": "If he came in by himself, he shall go out by himself: if he were married, then his wife shall go out with him.",
+      "web": "If he comes in by himself, he shall go out by himself. If he is married, then his wife shall go out with him.",
+      "ct": "If he came to you unmarried, he leaves unmarried. If he was married when he arrived, his wife leaves with him."
+    },
+    {
+      "verse": 4,
+      "kjv": "If his master have given him a wife, and she have born him sons or daughters; the wife and her children shall be her master’s, and he shall go out by himself.",
+      "web": "If his master gives him a wife and she bears him sons or daughters, the wife and her children shall be her master’s, and he shall go out by himself.",
+      "ct": "If his master gave him a wife and she bore him sons or daughters, the wife and children belong to the master, and the servant must leave on his own."
+    },
+    {
+      "verse": 5,
+      "kjv": "And if the servant shall plainly say, I love my master, my wife, and my children; I will not go out free:",
+      "web": "But if the servant shall plainly say, ‘I love my master, my wife, and my children. I will not go out free;’",
+      "ct": "But if the servant openly declares, 'I love my master, my wife, and my children — I don't want to go free,'"
+    },
+    {
+      "verse": 6,
+      "kjv": "Then his master shall bring him unto the judges; he shall also bring him to the door, or unto the door post; and his master shall bore his ear through with an aul; and he shall serve him for ever.",
+      "web": "then his master shall bring him to God, and shall bring him to the door or to the doorpost, and his master shall bore his ear through with an awl, and he shall serve him forever.",
+      "ct": "then his master must bring him before God. He will take him to the door or the doorpost, pierce his ear with an awl, and the servant will belong to him for life."
+    },
+    {
+      "verse": 7,
+      "kjv": "And if a man sell his daughter to be a maidservant, she shall not go out as the menservants do.",
+      "web": "“If a man sells his daughter to be a female servant, she shall not go out as the male servants do.",
+      "ct": "If a man sells his daughter as a servant, she is not released the same way male servants are."
+    },
+    {
+      "verse": 8,
+      "kjv": "If she please not her master, who hath betrothed her to himself, then shall he let her be redeemed: to sell her unto a strange nation he shall have no power, seeing he hath dealt deceitfully with her.",
+      "web": "If she doesn’t please her master, who has married her to himself, then he shall let her be redeemed. He shall have no right to sell her to a foreign people, since he has dealt deceitfully with her.",
+      "ct": "If she doesn't please the master who chose her for himself, he must allow her to be bought back. He has no right to sell her to foreigners, since he broke faith with her."
+    },
+    {
+      "verse": 9,
+      "kjv": "And if he have betrothed her unto his son, he shall deal with her after the manner of daughters.",
+      "web": "If he marries her to his son, he shall deal with her as a daughter.",
+      "ct": "If he gives her to his son instead, he must treat her as his own daughter."
+    },
+    {
+      "verse": 10,
+      "kjv": "If he take him another wife; her food, her raiment, and her duty of marriage, shall he not diminish.",
+      "web": "If he takes another wife to himself, he shall not diminish her food, her clothing, and her marital rights.",
+      "ct": "If the son marries another woman, he must not reduce the first woman's food, clothing, or marital rights."
+    },
+    {
+      "verse": 11,
+      "kjv": "And if he do not these three unto her, then shall she go out free without money.",
+      "web": "If he doesn’t do these three things for her, she may go free without paying any money.",
+      "ct": "If he fails to provide these 3 things for her, she may leave free of charge, owing nothing."
+    },
+    {
+      "verse": 12,
+      "kjv": "He that smiteth a man, so that he die, shall be surely put to death.",
+      "web": "“One who strikes a man so that he dies shall surely be put to death,",
+      "ct": "Anyone who strikes and kills another person must be put to death."
+    },
+    {
+      "verse": 13,
+      "kjv": "And if a man lie not in wait, but God deliver him into his hand; then I will appoint thee a place whither he shall flee.",
+      "web": "but not if it is unintentional, but God allows it to happen; then I will appoint you a place where he shall flee.",
+      "ct": "However, if it wasn't intentional — if God allowed it to happen — then I will designate a place where that person can flee for safety."
+    },
+    {
+      "verse": 14,
+      "kjv": "But if a man come presumptuously upon his neighbour, to slay him with guile; thou shalt take him from mine altar, that he may die.",
+      "web": "If a man schemes and comes presumptuously on his neighbor to kill him, you shall take him from my altar, that he may die.",
+      "ct": "But if someone deliberately plots to murder his neighbor, you must drag him away even from my altar to be executed."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he that smiteth his father, or his mother, shall be surely put to death.",
+      "web": "“Anyone who attacks his father or his mother shall be surely put to death.",
+      "ct": "Anyone who strikes his father or mother must be put to death."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he that stealeth a man, and selleth him, or if he be found in his hand, he shall surely be put to death.",
+      "web": "“Anyone who kidnaps someone and sells him, or if he is found in his hand, he shall surely be put to death.",
+      "ct": "Anyone who kidnaps someone — whether he sells the victim or is caught still holding him — must be put to death."
+    },
+    {
+      "verse": 17,
+      "kjv": "And he that curseth his father, or his mother, shall surely be put to death.",
+      "web": "“Anyone who curses his father or his mother shall surely be put to death.",
+      "ct": "Anyone who curses his father or mother must be put to death."
+    },
+    {
+      "verse": 18,
+      "kjv": "And if men strive together, and one smite another with a stone, or with his fist, and he die not, but keepeth his bed:",
+      "web": "“If men quarrel and one strikes the other with a stone, or with his fist, and he doesn’t die, but is confined to bed;",
+      "ct": "If 2 men get into a fight and one hits the other with a stone or his fist, and the injured man doesn't die but is stuck in bed,"
+    },
+    {
+      "verse": 19,
+      "kjv": "If he rise again, and walk abroad upon his staff, then shall he that smote him be quit: only he shall pay for the loss of his time, and shall cause him to be thoroughly healed.",
+      "web": "if he rises again and walks around with his staff, then he who struck him shall be cleared; only he shall pay for the loss of his time, and shall provide for his healing until he is thoroughly healed.",
+      "ct": "then if the injured man recovers enough to get up and walk around with a staff, the one who hit him won't be held guilty. He must, however, pay for the man's lost wages and cover his medical care until he's fully healed."
+    },
+    {
+      "verse": 20,
+      "kjv": "And if a man smite his servant, or his maid, with a rod, and he die under his hand; he shall be surely punished.",
+      "web": "“If a man strikes his servant or his maid with a rod, and he dies under his hand, the man shall surely be punished.",
+      "ct": "If a man beats his male or female servant with a rod and the servant dies from the beating, the master must be punished."
+    },
+    {
+      "verse": 21,
+      "kjv": "Notwithstanding, if he continue a day or two, he shall not be punished: for he is his money.",
+      "web": "Notwithstanding, if his servant gets up after a day or two, he shall not be punished, for the servant is his property.",
+      "ct": "But if the servant survives for a day or two, the master won't be punished, since the servant is his property."
+    },
+    {
+      "verse": 22,
+      "kjv": "If men strive, and hurt a woman with child, so that her fruit depart from her, and yet no mischief follow: he shall be surely punished, according as the woman’s husband will lay upon him; and he shall pay as the judges determine.",
+      "web": "“If men fight and hurt a pregnant woman so that she gives birth prematurely, and yet no harm follows, he shall be surely fined as much as the woman’s husband demands and the judges allow.",
+      "ct": "If men are fighting and they injure a pregnant woman so that she gives birth prematurely, but no serious harm results, the one responsible must pay whatever fine the woman's husband demands, subject to the judges' approval."
+    },
+    {
+      "verse": 23,
+      "kjv": "And if any mischief follow, then thou shalt give life for life,",
+      "web": "But if any harm follows, then you must take life for life,",
+      "ct": "But if there is serious harm, then the penalty is life for life,"
+    },
+    {
+      "verse": 24,
+      "kjv": "Eye for eye, tooth for tooth, hand for hand, foot for foot,",
+      "web": "eye for eye, tooth for tooth, hand for hand, foot for foot,",
+      "ct": "eye for eye, tooth for tooth, hand for hand, foot for foot,"
+    },
+    {
+      "verse": 25,
+      "kjv": "Burning for burning, wound for wound, stripe for stripe.",
+      "web": "burning for burning, wound for wound, and bruise for bruise.",
+      "ct": "burn for burn, wound for wound, bruise for bruise."
+    },
+    {
+      "verse": 26,
+      "kjv": "And if a man smite the eye of his servant, or the eye of his maid, that it perish; he shall let him go free for his eye’s sake.",
+      "web": "“If a man strikes his servant’s eye, or his maid’s eye, and destroys it, he shall let him go free for his eye’s sake.",
+      "ct": "If a man strikes the eye of his male or female servant and destroys it, he must set the servant free as compensation for the eye."
+    },
+    {
+      "verse": 27,
+      "kjv": "And if he smite out his manservant’s tooth, or his maidservant’s tooth; he shall let him go free for his tooth’s sake.",
+      "web": "If he strikes out his male servant’s tooth, or his female servant’s tooth, he shall let the servant go free for his tooth’s sake.",
+      "ct": "If he knocks out his male or female servant's tooth, he must set the servant free as compensation for the tooth."
+    },
+    {
+      "verse": 28,
+      "kjv": "If an ox gore a man or a woman, that they die: then the ox shall be surely stoned, and his flesh shall not be eaten; but the owner of the ox shall be quit.",
+      "web": "“If a bull gores a man or a woman to death, the bull shall surely be stoned, and its meat shall not be eaten; but the owner of the bull shall not be held responsible.",
+      "ct": "If a bull gores a man or woman to death, the bull must be stoned and its meat must not be eaten. But the bull's owner is not held responsible."
+    },
+    {
+      "verse": 29,
+      "kjv": "But if the ox were wont to push with his horn in time past, and it hath been testified to his owner, and he hath not kept him in, but that he hath killed a man or a woman; the ox shall be stoned, and his owner also shall be put to death.",
+      "web": "But if the bull had a habit of goring in the past, and this has been testified to its owner, and he has not kept it in, but it has killed a man or a woman, the bull shall be stoned, and its owner shall also be put to death.",
+      "ct": "However, if the bull had a history of goring and the owner was warned but still didn't keep it penned in, and it kills a man or woman, the bull must be stoned and the owner must also be put to death."
+    },
+    {
+      "verse": 30,
+      "kjv": "If there be laid on him a sum of money, then he shall give for the ransom of his life whatsoever is laid upon him.",
+      "web": "If a ransom is imposed on him, then he shall give for the redemption of his life whatever is imposed.",
+      "ct": "If a ransom is demanded instead, the owner may save his life by paying whatever amount is required of him."
+    },
+    {
+      "verse": 31,
+      "kjv": "Whether he have gored a son, or have gored a daughter, according to this judgment shall it be done unto him.",
+      "web": "Whether it has gored a son or has gored a daughter, according to this judgment it shall be done to him.",
+      "ct": "This same rule applies whether the bull gores someone's son or someone's daughter."
+    },
+    {
+      "verse": 32,
+      "kjv": "If the ox shall push a manservant or a maidservant; he shall give unto their master thirty shekels of silver, and the ox shall be stoned.",
+      "web": "If the bull gores a male servant or a female servant, thirty shekels of silver shall be given to their master, and the ox shall be stoned.",
+      "ct": "If the bull gores a male or female servant, the owner must pay 30 shekels of silver to the servant's master, and the bull must be stoned."
+    },
+    {
+      "verse": 33,
+      "kjv": "And if a man shall open a pit, or if a man shall dig a pit, and not cover it, and an ox or an ass fall therein;",
+      "web": "“If a man opens a pit, or if a man digs a pit and doesn’t cover it, and a bull or a donkey falls into it,",
+      "ct": "If someone uncovers a pit, or digs a pit and doesn't cover it, and a bull or donkey falls into it,"
+    },
+    {
+      "verse": 34,
+      "kjv": "The owner of the pit shall make it good, and give money unto the owner of them; and the dead beast shall be his.",
+      "web": "the owner of the pit shall make it good. He shall give money to its owner, and the dead animal shall be his.",
+      "ct": "the owner of the pit must pay full compensation to the animal's owner. The dead animal then belongs to the one who pays."
+    },
+    {
+      "verse": 35,
+      "kjv": "And if one man’s ox hurt another’s, that he die; then they shall sell the live ox, and divide the money of it; and the dead ox also they shall divide.",
+      "web": "“If one man’s bull injures another’s, so that it dies, then they shall sell the live bull, and divide its price; and they shall also divide the dead animal.",
+      "ct": "If one man's bull injures another man's bull and it dies, they must sell the living bull and split the money equally. They must also split the dead animal."
+    },
+    {
+      "verse": 36,
+      "kjv": "Or if it be known that the ox hath used to push in time past, and his owner hath not kept him in; he shall surely pay ox for ox; and the dead shall be his own.",
+      "web": "Or if it is known that the bull was in the habit of goring in the past, and its owner has not kept it in, he shall surely pay bull for bull, and the dead animal shall be his own.",
+      "ct": "But if it was known that the bull had a habit of goring and its owner didn't keep it penned in, the owner must pay bull for bull, and the dead animal becomes his.\""
+    }
+  ]
+}

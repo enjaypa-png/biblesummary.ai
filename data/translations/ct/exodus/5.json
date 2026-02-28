@@ -1,0 +1,149 @@
+{
+  "book": "exodus",
+  "book_name": "Exodus",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T08:25:16.839Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.",
+      "web": "Afterward Moses and Aaron came, and said to Pharaoh, “This is what LORD, the God of Israel, says, ‘Let my people go, that they may hold a feast to me in the wilderness.’ ”",
+      "ct": "After that, Moses and Aaron went to Pharaoh and said, \"This is what the LORD, the God of Israel, says: 'Let my people go so they can hold a feast to honor me in the wilderness.'\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go.",
+      "web": "Pharaoh said, “Who is LORD, that I should listen to his voice to let Israel go? I don’t know LORD, and moreover I will not let Israel go.”",
+      "ct": "Pharaoh replied, \"Who is the LORD that I should obey him and let Israel go? I don't know the LORD, and I will not let Israel go.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And they said, The God of the Hebrews hath met with us: let us go, we pray thee, three days’ journey into the desert, and sacrifice unto the LORD our God; lest he fall upon us with pestilence, or with the sword.",
+      "web": "They said, “The God of the Hebrews has met with us. Please let us go three days’ journey into the wilderness, and sacrifice to LORD, our God, lest he fall on us with pestilence, or with the sword.”",
+      "ct": "They said, \"The God of the Hebrews has met with us. Please let us travel 3 days into the wilderness to offer sacrifices to the LORD our God. If we don't, he may strike us with plague or with the sword.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And the king of Egypt said unto them, Wherefore do ye, Moses and Aaron, let the people from their works? get you unto your burdens.",
+      "web": "The king of Egypt said to them, “Why do you, Moses and Aaron, take the people from their work? Get back to your burdens!”",
+      "ct": "The king of Egypt shot back, \"Moses and Aaron, why are you pulling these people away from their work? Get back to your labor!\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And Pharaoh said, Behold, the people of the land now are many, and ye make them rest from their burdens.",
+      "web": "Pharaoh said, “Behold, the people of the land are now many, and you make them rest from their burdens.”",
+      "ct": "Pharaoh added, \"Look — there are already so many of these people, and now you want to give them a break from their work?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Pharaoh commanded the same day the taskmasters of the people, and their officers, saying,",
+      "web": "The same day Pharaoh commanded the taskmasters of the people and their officers, saying,",
+      "ct": "That very day, Pharaoh gave new orders to the slave drivers and the Israelite foremen who worked under them."
+    },
+    {
+      "verse": 7,
+      "kjv": "Ye shall no more give the people straw to make brick, as heretofore: let them go and gather straw for themselves.",
+      "web": "“You shall no longer give the people straw to make brick, as before. Let them go and gather straw for themselves.",
+      "ct": "\"Stop giving the people straw for making bricks like you've been doing. Make them go out and find their own straw."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the tale of the bricks, which they did make heretofore, ye shall lay upon them; ye shall not diminish ought thereof: for they be idle; therefore they cry, saying, Let us go and sacrifice to our God.",
+      "web": "You shall require from them the number of the bricks which they made before. You shall not diminish anything of it, for they are idle. Therefore they cry, saying, ‘Let’s go and sacrifice to our God.’",
+      "ct": "But still require the same number of bricks they were making before — not one brick less. They're lazy, and that's why they're crying out, 'Let us go sacrifice to our God.'"
+    },
+    {
+      "verse": 9,
+      "kjv": "Let there more work be laid upon the men, that they may labour therein; and let them not regard vain words.",
+      "web": "Let heavier work be laid on the men, that they may labor in it. Don’t let them pay any attention to lying words.”",
+      "ct": "Pile heavier work on them so they stay busy. Then they won't have time to listen to these lies.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the taskmasters of the people went out, and their officers, and they spake to the people, saying, Thus saith Pharaoh, I will not give you straw.",
+      "web": "The taskmasters of the people went out, and their officers, and they spoke to the people, saying, “This is what Pharaoh says: ‘I will not give you straw.",
+      "ct": "So the slave drivers and the Israelite foremen went out and told the people, \"Pharaoh says this: 'I will no longer give you straw."
+    },
+    {
+      "verse": 11,
+      "kjv": "Go ye, get you straw where ye can find it: yet not ought of your work shall be diminished.",
+      "web": "Go yourselves, get straw where you can find it, for nothing of your work shall be diminished.’ ”",
+      "ct": "Go find your own straw wherever you can, but your workload will not be reduced one bit.'\""
+    },
+    {
+      "verse": 12,
+      "kjv": "So the people were scattered abroad throughout all the land of Egypt to gather stubble instead of straw.",
+      "web": "So the people were scattered abroad throughout all the land of Egypt to gather stubble for straw.",
+      "ct": "So the people scattered across all of Egypt, scraping together stubble to use as straw."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw.",
+      "web": "The taskmasters were urgent saying, “Fulfill your work quota daily, as when there was straw!”",
+      "ct": "The slave drivers kept pressuring them, saying, \"Finish your full daily quota — the same amount as when straw was provided!\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And the officers of the children of Israel, which Pharaoh’s taskmasters had set over them, were beaten, and demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore?",
+      "web": "The officers of the children of Israel, whom Pharaoh’s taskmasters had set over them, were beaten, and were asked, “Why haven’t you fulfilled your quota both yesterday and today, in making brick as before?”",
+      "ct": "The Israelite foremen that Pharaoh's slave drivers had put in charge were beaten and interrogated: \"Why haven't you met your brick quota yesterday and today, like you did before?\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants?",
+      "web": "Then the officers of the children of Israel came and cried to Pharaoh, saying, “Why do you deal this way with your servants?",
+      "ct": "The Israelite foremen went directly to Pharaoh and pleaded, \"Why are you treating your servants this way?"
+    },
+    {
+      "verse": 16,
+      "kjv": "There is no straw given unto thy servants, and they say to us, Make brick: and, behold, thy servants are beaten; but the fault is in thine own people.",
+      "web": "No straw is given to your servants, and they tell us, ‘Make brick!’ and behold, your servants are beaten; but the fault is in your own people.”",
+      "ct": "No straw is being given to us, yet they keep telling us, 'Make bricks!' Your servants are being beaten, but the fault lies with your own people.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "But he said, Ye are idle, ye are idle: therefore ye say, Let us go and do sacrifice to the LORD.",
+      "web": "But Pharaoh said, “You are idle! You are idle! Therefore you say, ‘Let’s go and sacrifice to LORD.’",
+      "ct": "But Pharaoh said, \"You're lazy — that's what you are, lazy! That's why you keep saying, 'Let us go sacrifice to the LORD.'"
+    },
+    {
+      "verse": 18,
+      "kjv": "Go therefore now, and work; for there shall no straw be given you, yet shall ye deliver the tale of bricks.",
+      "web": "Go therefore now, and work; for no straw shall be given to you; yet you shall deliver the same number of bricks!”",
+      "ct": "Now get back to work! No straw will be given to you, but you will still produce the same number of bricks.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And the officers of the children of Israel did see that they were in evil case, after it was said, Ye shall not minish ought from your bricks of your daily task.",
+      "web": "The officers of the children of Israel saw that they were in trouble when it was said, “You shall not diminish anything from your daily quota of bricks!”",
+      "ct": "The Israelite foremen realized they were in deep trouble when they were told, \"You will not reduce your daily brick quota by even one brick.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And they met Moses and Aaron, who stood in the way, as they came forth from Pharaoh:",
+      "web": "They met Moses and Aaron, who stood along the way, as they came out from Pharaoh.",
+      "ct": "As they left Pharaoh's presence, they ran into Moses and Aaron, who were waiting for them outside."
+    },
+    {
+      "verse": 21,
+      "kjv": "And they said unto them, The LORD look upon you, and judge; because ye have made our savour to be abhorred in the eyes of Pharaoh, and in the eyes of his servants, to put a sword in their hand to slay us.",
+      "web": "They said to them, “May LORD look at you and judge, because you have made us a stench to be abhorred in the eyes of Pharaoh, and in the eyes of his servants, to put a sword in their hand to kill us!”",
+      "ct": "The foremen said to them, \"May the LORD see what you've done and judge you for it! You've made us absolutely despised by Pharaoh and his officials. You've practically handed them a sword to kill us with!\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Moses returned unto the LORD, and said, LORD, wherefore hast thou so evil entreated this people? why is it that thou hast sent me?",
+      "web": "Moses returned to LORD, and said, “Lord, why have you brought trouble on this people? Why is it that you have sent me?",
+      "ct": "Moses went back to the LORD and said, \"Lord, why have you brought such trouble on this people? Why did you even send me?"
+    },
+    {
+      "verse": 23,
+      "kjv": "For since I came to Pharaoh to speak in thy name, he hath done evil to this people; neither hast thou delivered thy people at all.",
+      "web": "For since I came to Pharaoh to speak in your name, he has brought trouble on this people. You have not rescued your people at all!”",
+      "ct": "Ever since I went to Pharaoh to speak in your name, he has only made things worse for this people. And you haven't rescued your people at all.\""
+    }
+  ]
+}

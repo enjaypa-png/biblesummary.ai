@@ -1,0 +1,149 @@
+{
+  "book": "ephesians",
+  "book_name": "Ephesians",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T07:57:37.167Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Paul, an apostle of Jesus Christ by the will of God, to the saints which are at Ephesus, and to the faithful in Christ Jesus:",
+      "web": "Paul, an apostle of Christ Jesus through the will of God, to the saints who are at Ephesus, and the faithful in Christ Jesus:",
+      "ct": "This letter is from Paul, an apostle of Christ Jesus by the will of God. I'm writing to God's holy people in Ephesus — those who are faithful in Christ Jesus."
+    },
+    {
+      "verse": 2,
+      "kjv": "Grace be to you, and peace, from God our Father, and from the Lord Jesus Christ.",
+      "web": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+      "ct": "May grace and peace be yours from God our Father and the Lord Jesus Christ."
+    },
+    {
+      "verse": 3,
+      "kjv": "Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with all spiritual blessings in heavenly places in Christ:",
+      "web": "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ,",
+      "ct": "All praise to the God and Father of our Lord Jesus Christ! He has blessed us with every spiritual blessing in the heavenly places through our union with Christ."
+    },
+    {
+      "verse": 4,
+      "kjv": "According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love:",
+      "web": "even as he chose us in him before the foundation of the world, that we would be holy and without defect before him in love,",
+      "ct": "Before the world was even created, God chose us in Christ to be holy and blameless before him in love."
+    },
+    {
+      "verse": 5,
+      "kjv": "Having predestinated us unto the adoption of children by Jesus Christ to himself, according to the good pleasure of his will,",
+      "web": "having predestined us for adoption as children through Jesus Christ to himself, according to the good pleasure of his desire,",
+      "ct": "He decided in advance to adopt us as his own children through Jesus Christ. This was his plan all along, and it gave him great pleasure."
+    },
+    {
+      "verse": 6,
+      "kjv": "To the praise of the glory of his grace, wherein he hath made us accepted in the beloved.",
+      "web": "to the praise of the glory of his grace, by which he freely gave us favor in the Beloved,",
+      "ct": "So we praise him for the glorious grace he has poured out on us — grace freely given to us through his Beloved Son."
+    },
+    {
+      "verse": 7,
+      "kjv": "In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace;",
+      "web": "in whom we have our redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,",
+      "ct": "In Christ, we have redemption through his blood — the forgiveness of our sins — because God's grace is so incredibly rich."
+    },
+    {
+      "verse": 8,
+      "kjv": "Wherein he hath abounded toward us in all wisdom and prudence;",
+      "web": "which he made to abound toward us in all wisdom and prudence,",
+      "ct": "He has lavished that grace on us with all wisdom and understanding,"
+    },
+    {
+      "verse": 9,
+      "kjv": "Having made known unto us the mystery of his will, according to his good pleasure which he hath purposed in himself:",
+      "web": "making known to us the mystery of his will, according to his good pleasure which he purposed in him",
+      "ct": "revealing to us the mystery of his will. This was his good plan, which he set in motion through Christ —"
+    },
+    {
+      "verse": 10,
+      "kjv": "That in the dispensation of the fulness of times he might gather together in one all things in Christ, both which are in heaven, and which are on earth; even in him:",
+      "web": "to an administration of the fullness of the times, to sum up all things in Christ, the things in the heavens and the things on the earth, in him.",
+      "ct": "that when the time was fully right, he would bring everything together under one head, Christ himself — everything in heaven and everything on earth."
+    },
+    {
+      "verse": 11,
+      "kjv": "In whom also we have obtained an inheritance, being predestinated according to the purpose of him who worketh all things after the counsel of his own will:",
+      "web": "We were also assigned an inheritance in him, having been foreordained according to the purpose of him who does all things after the counsel of his will,",
+      "ct": "In Christ, we have also received an inheritance. God predestined this according to his purpose, and he accomplishes everything according to the plan of his own will."
+    },
+    {
+      "verse": 12,
+      "kjv": "That we should be to the praise of his glory, who first trusted in Christ.",
+      "web": "to the end that we should be to the praise of his glory, we who had before hoped in Christ.",
+      "ct": "His purpose was that we — the first to put our hope in Christ — would live for the praise of his glory."
+    },
+    {
+      "verse": 13,
+      "kjv": "In whom ye also trusted, after that ye heard the word of truth, the gospel of your salvation: in whom also after that ye believed, ye were sealed with that holy Spirit of promise,",
+      "web": "In him you also, having heard the word of the truth, the Good News of your salvation—in whom, having also believed, you were sealed with the promised Holy Spirit,",
+      "ct": "And you also were included in Christ when you heard the word of truth, the good news of your salvation. When you believed, you were sealed with the promised Holy Spirit,"
+    },
+    {
+      "verse": 14,
+      "kjv": "Which is the earnest of our inheritance until the redemption of the purchased possession, unto the praise of his glory.",
+      "web": "who is a pledge of our inheritance, to the redemption of God’s own possession, to the praise of his glory.",
+      "ct": "who serves as a down payment guaranteeing our inheritance until God fully redeems those who belong to him — all to the praise of his glory."
+    },
+    {
+      "verse": 15,
+      "kjv": "Wherefore I also, after I heard of your faith in the Lord Jesus, and love unto all the saints,",
+      "web": "For this cause I also, having heard of the faith in the Lord Jesus which is among you, and the love which you have toward all the saints,",
+      "ct": "That's why, ever since I heard about your faith in the Lord Jesus and your love for all of God's people,"
+    },
+    {
+      "verse": 16,
+      "kjv": "Cease not to give thanks for you, making mention of you in my prayers;",
+      "web": "don’t cease to give thanks for you, making mention of you in my prayers,",
+      "ct": "I haven't stopped thanking God for you. I remember you every time I pray,"
+    },
+    {
+      "verse": 17,
+      "kjv": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him:",
+      "web": "that the God of our Lord Jesus Christ, the Father of glory, may give to you a spirit of wisdom and revelation in the knowledge of him,",
+      "ct": "asking that the God of our Lord Jesus Christ, the Father of glory, would give you a spirit of wisdom and revelation so that you can truly know him."
+    },
+    {
+      "verse": 18,
+      "kjv": "The eyes of your understanding being enlightened; that ye may know what is the hope of his calling, and what the riches of the glory of his inheritance in the saints,",
+      "web": "having the eyes of your hearts enlightened, that you may know what is the hope of his calling, and what are the riches of the glory of his inheritance in the saints,",
+      "ct": "I pray that the eyes of your heart would be opened so you can see the hope he's called you to, and how rich and glorious the inheritance is that he's given his people,"
+    },
+    {
+      "verse": 19,
+      "kjv": "And what is the exceeding greatness of his power to us-ward who believe, according to the working of his mighty power,",
+      "web": "and what is the exceeding greatness of his power toward us who believe, according to that working of the strength of his might",
+      "ct": "and how incredibly great his power is for us who believe. This power works in us with the same mighty strength"
+    },
+    {
+      "verse": 20,
+      "kjv": "Which he wrought in Christ, when he raised him from the dead, and set him at his own right hand in the heavenly places,",
+      "web": "which he worked in Christ, when he raised him from the dead and made him to sit at his right hand in the heavenly places,",
+      "ct": "that God demonstrated in Christ when he raised him from the dead and seated him at his right hand in the heavenly places,"
+    },
+    {
+      "verse": 21,
+      "kjv": "Far above all principality, and power, and might, and dominion, and every name that is named, not only in this world, but also in that which is to come:",
+      "web": "far above all rule, authority, power, dominion, and every name that is named, not only in this age, but also in that which is to come.",
+      "ct": "far above every ruler, authority, power, and dominion — above every name that can be named, not only in this age but in the age to come."
+    },
+    {
+      "verse": 22,
+      "kjv": "And hath put all things under his feet, and gave him to be the head over all things to the church,",
+      "web": "He put all things in subjection under his feet, and gave him to be head over all things for the assembly,",
+      "ct": "God has placed everything under Christ's feet and made him the head over all things for the church,"
+    },
+    {
+      "verse": 23,
+      "kjv": "Which is his body, the fulness of him that filleth all in all.",
+      "web": "which is his body, the fullness of him who fills all in all.",
+      "ct": "which is his body — the fullness of him who fills everything in every way."
+    }
+  ]
+}
