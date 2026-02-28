@@ -1,0 +1,305 @@
+{
+  "book": "daniel",
+  "book_name": "Daniel",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:44:17.780Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And in the second year of the reign of Nebuchadnezzar Nebuchadnezzar dreamed dreams, wherewith his spirit was troubled, and his sleep brake from him.",
+      "web": "In the second year of the reign of Nebuchadnezzar, Nebuchadnezzar dreamed dreams; and his spirit was troubled, and his sleep went from him.",
+      "ct": "During the 2nd year of Nebuchadnezzar's reign, the king had dreams that deeply troubled his spirit and kept him from sleeping."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then the king commanded to call the magicians, and the astrologers, and the sorcerers, and the Chaldeans, for to shew the king his dreams. So they came and stood before the king.",
+      "web": "Then the king commanded that the magicians, the enchanters, the sorcerers, and the Chaldeans be called to tell the king his dreams. So they came in and stood before the king.",
+      "ct": "So the king summoned his magicians, astrologers, sorcerers, and Chaldean advisors to explain his dreams to him. They came and stood before the king."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the king said unto them, I have dreamed a dream, and my spirit was troubled to know the dream.",
+      "web": "The king said to them, “I have dreamed a dream, and my spirit is troubled to know the dream.”",
+      "ct": "The king told them, \"I've had a dream, and my spirit is troubled because I need to understand what it means.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then spake the Chaldeans to the king in Syriack, O king, live for ever: tell thy servants the dream, and we will shew the interpretation.",
+      "web": "Then the Chaldeans spoke to the king in the Syrian language, “O king, live forever! Tell your servants the dream, and we will show the interpretation.”",
+      "ct": "The Chaldeans answered the king in Aramaic, \"Long live the king! Tell us the dream, and we will give you the interpretation.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "The king answered and said to the Chaldeans, The thing is gone from me: if ye will not make known unto me the dream, with the interpretation thereof, ye shall be cut in pieces, and your houses shall be made a dunghill.",
+      "web": "The king answered the Chaldeans, “The thing has gone from me. If you don’t make known to me the dream and its interpretation, you will be cut in pieces, and your houses will be made a dunghill.",
+      "ct": "The king replied to the Chaldeans, \"My decision is final. If you don't tell me both the dream and its meaning, you will be cut to pieces and your houses will be turned into rubble.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "But if ye shew the dream, and the interpretation thereof, ye shall receive of me gifts and rewards and great honour: therefore shew me the dream, and the interpretation thereof.",
+      "web": "But if you show the dream and its interpretation, you will receive of me gifts and rewards and great honor. Therefore show me the dream and its interpretation.”",
+      "ct": "\"But if you reveal the dream and its meaning, I will shower you with gifts, rewards, and great honor. So tell me the dream and what it means.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "They answered again and said, Let the king tell his servants the dream, and we will shew the interpretation of it.",
+      "web": "They answered the second time and said, “Let the king tell his servants the dream, and we will show the interpretation.”",
+      "ct": "They answered a 2nd time, \"Let the king tell his servants the dream, and we will provide the interpretation.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "The king answered and said, I know of certainty that ye would gain the time, because ye see the thing is gone from me.",
+      "web": "The king answered, “I know of a certainty that you are trying to gain time, because you see the thing has gone from me.",
+      "ct": "The king replied, \"I know for certain that you're stalling for time, because you can see my mind is made up.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "But if ye will not make known unto me the dream, there is but one decree for you: for ye have prepared lying and corrupt words to speak before me, till the time be changed: therefore tell me the dream, and I shall know that ye can shew me the interpretation thereof.",
+      "web": "But if you don’t make known to me the dream, there is but one law for you; for you have prepared lying and corrupt words to speak before me, until the situation changes. Therefore tell me the dream, and I will know that you can show me its interpretation.”",
+      "ct": "\"If you can't tell me the dream, there's only one sentence for you — because you've conspired to feed me lies and deception, hoping the situation will change. So tell me the dream, and then I'll know you can actually give me the true interpretation.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "The Chaldeans answered before the king, and said, There is not a man upon the earth that can shew the king’s matter: therefore there is no king, lord, nor ruler, that asked such things at any magician, or astrologer, or Chaldean.",
+      "web": "The Chaldeans answered before the king, and said, “There is not a man on the earth who can show the king’s matter, because no king, lord, or ruler, has asked such a thing of any magician, or enchanter, or Chaldean.",
+      "ct": "The Chaldeans answered the king, \"There isn't a person alive on earth who can do what the king asks. No king, lord, or ruler has ever demanded such a thing from any magician, astrologer, or Chaldean.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And it is a rare thing that the king requireth, and there is none other that can shew it before the king, except the gods, whose dwelling is not with flesh.",
+      "web": "It is a rare thing that the king requires, and there is no other who can show it before the king, except the gods, whose dwelling is not with flesh.”",
+      "ct": "\"What the king demands is impossible. No one can reveal it except the gods, and they don't dwell among mortals.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "For this cause the king was angry and very furious, and commanded to destroy all the wise men of Babylon.",
+      "web": "Because of this, the king was angry and very furious, and commanded that all the wise men of Babylon be destroyed.",
+      "ct": "This made the king furious, and in his rage he ordered the execution of every wise man in Babylon."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the decree went forth that the wise men should be slain; and they sought Daniel and his fellows to be slain.",
+      "web": "So the decree went out, and the wise men were to be slain. They sought Daniel and his companions to be slain.",
+      "ct": "The decree went out that all the wise men were to be killed, and soldiers went looking for Daniel and his companions to execute them as well."
+    },
+    {
+      "verse": 14,
+      "kjv": "Then Daniel answered with counsel and wisdom to Arioch the captain of the king’s guard, which was gone forth to slay the wise men of Babylon:",
+      "web": "Then Daniel returned answer with counsel and prudence to Arioch the captain of the king’s guard, who had gone out to kill the wise men of Babylon.",
+      "ct": "Daniel responded with wisdom and tact to Arioch, the captain of the king's guard, who had been sent out to kill the wise men of Babylon."
+    },
+    {
+      "verse": 15,
+      "kjv": "He answered and said to Arioch the king’s captain, Why is the decree so hasty from the king? Then Arioch made the thing known to Daniel.",
+      "web": "He answered Arioch the king’s captain, “Why is the decree so urgent from the king?” Then Arioch made the thing known to Daniel.",
+      "ct": "He asked Arioch, \"Why has the king issued such a harsh decree?\" Arioch then explained the whole situation to Daniel."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then Daniel went in, and desired of the king that he would give him time, and that he would shew the king the interpretation.",
+      "web": "Daniel went in, and desired of the king that he would appoint him a time, and he would show the king the interpretation.",
+      "ct": "Daniel went to the king and asked for more time, promising that he would give the king the interpretation."
+    },
+    {
+      "verse": 17,
+      "kjv": "Then Daniel went to his house, and made the thing known to Hananiah, Mishael, and Azariah, his companions:",
+      "web": "Then Daniel went to his house and made the thing known to Hananiah, Mishael, and Azariah, his companions:",
+      "ct": "Then Daniel went home and told his companions Hananiah, Mishael, and Azariah what had happened."
+    },
+    {
+      "verse": 18,
+      "kjv": "That they would desire mercies of the God of heaven concerning this secret; that Daniel and his fellows should not perish with the rest of the wise men of Babylon.",
+      "web": "that they would desire mercies of the God of heaven concerning this secret; that Daniel and his companions would not perish with the rest of the wise men of Babylon.",
+      "ct": "He urged them to plead for mercy from the God of heaven concerning this mystery, so that Daniel and his friends wouldn't be executed along with the rest of Babylon's wise men."
+    },
+    {
+      "verse": 19,
+      "kjv": "Then was the secret revealed unto Daniel in a night vision. Then Daniel blessed the God of heaven.",
+      "web": "Then the secret was revealed to Daniel in a vision of the night. Then Daniel blessed the God of heaven.",
+      "ct": "That night, the mystery was revealed to Daniel in a vision. Daniel praised the God of heaven,"
+    },
+    {
+      "verse": 20,
+      "kjv": "Daniel answered and said, Blessed be the name of God for ever and ever: for wisdom and might are his:",
+      "web": "Daniel answered, “Blessed be the name of God forever and ever; for wisdom and might are his.",
+      "ct": "saying, \"Blessed be the name of God forever and ever, for wisdom and power belong to him."
+    },
+    {
+      "verse": 21,
+      "kjv": "And he changeth the times and the seasons: he removeth kings, and setteth up kings: he giveth wisdom unto the wise, and knowledge to them that know understanding:",
+      "web": "He changes the times and the seasons. He removes kings, and sets up kings. He gives wisdom to the wise, and knowledge to those who have understanding.",
+      "ct": "He controls the seasons and the course of history. He removes kings and raises up kings. He gives wisdom to the wise and knowledge to those who have understanding."
+    },
+    {
+      "verse": 22,
+      "kjv": "He revealeth the deep and secret things: he knoweth what is in the darkness, and the light dwelleth with him.",
+      "web": "He reveals the deep and secret things. He knows what is in the darkness, and the light dwells with him.",
+      "ct": "He reveals deep and hidden things. He knows what lies in the darkness, and light dwells with him."
+    },
+    {
+      "verse": 23,
+      "kjv": "I thank thee, and praise thee, O thou God of my fathers, who hast given me wisdom and might, and hast made known unto me now what we desired of thee: for thou hast now made known unto us the king’s matter.",
+      "web": "I thank you, and praise you, you God of my fathers, who have given me wisdom and might, and have now made known to me what we desired of you; for you have made known to us the king’s matter.”",
+      "ct": "I thank you and praise you, God of my fathers, because you have given me wisdom and strength. You have now revealed to me what we asked of you — you have shown us the king's mystery.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Therefore Daniel went in unto Arioch, whom the king had ordained to destroy the wise men of Babylon: he went and said thus unto him; Destroy not the wise men of Babylon: bring me in before the king, and I will shew unto the king the interpretation.",
+      "web": "Therefore Daniel went in to Arioch, whom the king had appointed to destroy the wise men of Babylon. He went and said this to him: “Don’t destroy the wise men of Babylon. Bring me in before the king, and I will show to the king the interpretation.”",
+      "ct": "Daniel immediately went to Arioch, the man the king had appointed to destroy Babylon's wise men, and told him, \"Don't execute the wise men of Babylon! Take me to the king, and I will give him the interpretation.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "Then Arioch brought in Daniel before the king in haste, and said thus unto him, I have found a man of the captives of Judah, that will make known unto the king the interpretation.",
+      "web": "Then Arioch brought in Daniel before the king in haste, and said this to him: “I have found a man of the children of the captivity of Judah who will make known to the king the interpretation.”",
+      "ct": "Arioch rushed Daniel before the king and announced, \"I've found a man among the Judean captives who can give the king the interpretation.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "The king answered and said to Daniel, whose name was Belteshazzar, Art thou able to make known unto me the dream which I have seen, and the interpretation thereof?",
+      "web": "The king answered Daniel, whose name was Belteshazzar, “Are you able to make known to me the dream which I have seen, and its interpretation?”",
+      "ct": "The king said to Daniel, whose Babylonian name was Belteshazzar, \"Are you really able to tell me the dream I had and explain what it means?\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Daniel answered in the presence of the king, and said, The secret which the king hath demanded cannot the wise men, the astrologers, the magicians, the soothsayers, shew unto the king;",
+      "web": "Daniel answered before the king, and said, “The secret which the king has demanded can’t be shown to the king by wise men, enchanters, magicians, or soothsayers;",
+      "ct": "Daniel answered the king, \"No wise man, astrologer, magician, or fortune-teller can reveal the mystery the king has asked about.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "But there is a God in heaven that revealeth secrets, and maketh known to the king Nebuchadnezzar what shall be in the latter days. Thy dream, and the visions of thy head upon thy bed, are these;",
+      "web": "but there is a God in heaven who reveals secrets, and he has made known to the king Nebuchadnezzar what will be in the latter days. Your dream, and the visions of your head on your bed, are these:",
+      "ct": "\"But there is a God in heaven who reveals mysteries, and he has shown King Nebuchadnezzar what will happen in the days to come. Here is the dream and the visions that filled your mind as you lay in bed:"
+    },
+    {
+      "verse": 29,
+      "kjv": "As for thee, O king, thy thoughts came into thy mind upon thy bed, what should come to pass hereafter: and he that revealeth secrets maketh known to thee what shall come to pass.",
+      "web": "“As for you, O king, your thoughts came on your bed, what should happen hereafter; and he who reveals secrets has made known to you what will happen.",
+      "ct": "\"As you were lying in bed, O king, your thoughts turned to what the future holds, and the one who reveals mysteries showed you what is going to happen."
+    },
+    {
+      "verse": 30,
+      "kjv": "But as for me, this secret is not revealed to me for any wisdom that I have more than any living, but for their sakes that shall make known the interpretation to the king, and that thou mightest know the thoughts of thy heart.",
+      "web": "But as for me, this secret is not revealed to me for any wisdom that I have more than any living, but to the intent that the interpretation may be made known to the king, and that you may know the thoughts of your heart.",
+      "ct": "\"As for me, this mystery wasn't revealed to me because I'm wiser than anyone else. It was revealed so that the king could receive the interpretation and so that you would understand the thoughts of your own heart."
+    },
+    {
+      "verse": 31,
+      "kjv": "Thou, O king, sawest, and behold a great image. This great image, whose brightness was excellent, stood before thee; and the form thereof was terrible.",
+      "web": "“You, O king, saw, and behold, a great image. This image, which was mighty, and whose brightness was excellent, stood before you; and its appearance was terrifying.",
+      "ct": "\"In your vision, O king, you saw a massive statue standing before you. It was enormous, dazzlingly bright, and terrifying to look at."
+    },
+    {
+      "verse": 32,
+      "kjv": "This image’s head was of fine gold, his breast and his arms of silver, his belly and his thighs of brass,",
+      "web": "As for this image, its head was of fine gold, its breast and its arms of silver, its belly and its thighs of bronze,",
+      "ct": "The head of the statue was made of pure gold, its chest and arms were silver, and its belly and thighs were bronze."
+    },
+    {
+      "verse": 33,
+      "kjv": "His legs of iron, his feet part of iron and part of clay.",
+      "web": "its legs of iron, its feet part of iron, and part of clay.",
+      "ct": "Its legs were iron, and its feet were partly iron and partly clay."
+    },
+    {
+      "verse": 34,
+      "kjv": "Thou sawest till that a stone was cut out without hands, which smote the image upon his feet that were of iron and clay, and brake them to pieces.",
+      "web": "You saw until a stone was cut out without hands, which struck the image on its feet that were of iron and clay, and broke them in pieces.",
+      "ct": "As you watched, a stone was cut out — but not by human hands — and it struck the statue on its feet of iron and clay, smashing them to pieces."
+    },
+    {
+      "verse": 35,
+      "kjv": "Then was the iron, the clay, the brass, the silver, and the gold, broken to pieces together, and became like the chaff of the summer threshingfloors; and the wind carried them away, that no place was found for them: and the stone that smote the image became a great mountain, and filled the whole earth.",
+      "web": "Then the iron, the clay, the bronze, the silver, and the gold were broken in pieces together, and became like the chaff of the summer threshing floors. The wind carried them away, so that no place was found for them. The stone that struck the image became a great mountain, and filled the whole earth.",
+      "ct": "Then the entire statue — the iron, clay, bronze, silver, and gold — shattered all at once and became like chaff blown from a threshing floor in summer. The wind swept it all away without a trace. But the stone that struck the statue grew into a great mountain that filled the whole earth."
+    },
+    {
+      "verse": 36,
+      "kjv": "This is the dream; and we will tell the interpretation thereof before the king.",
+      "web": "“This is the dream; and we will tell its interpretation before the king.",
+      "ct": "\"That was the dream. Now we will tell the king what it means."
+    },
+    {
+      "verse": 37,
+      "kjv": "Thou, O king, art a king of kings: for the God of heaven hath given thee a kingdom, power, and strength, and glory.",
+      "web": "You, O king, are king of kings, to whom the God of heaven has given the kingdom, the power, the strength, and the glory.",
+      "ct": "\"You, O king, are the king of kings. The God of heaven has given you dominion, power, strength, and glory."
+    },
+    {
+      "verse": 38,
+      "kjv": "And wheresoever the children of men dwell, the beasts of the field and the fowls of the heaven hath he given into thine hand, and hath made thee ruler over them all. Thou art this head of gold.",
+      "web": "Wherever the children of men dwell, he has given the animals of the field and the birds of the sky into your hand, and has made you rule over them all. You are the head of gold.",
+      "ct": "Wherever people live — and even the wild animals and the birds of the sky — he has placed them under your authority and made you ruler over them all. You are the head of gold."
+    },
+    {
+      "verse": 39,
+      "kjv": "And after thee shall arise another kingdom inferior to thee, and another third kingdom of brass, which shall bear rule over all the earth.",
+      "web": "“After you, another kingdom will arise that is inferior to you; and another third kingdom of bronze, which will rule over all the earth.",
+      "ct": "\"After you, another kingdom will rise, but it will be inferior to yours. Then a 3rd kingdom, one of bronze, will rule over the whole earth."
+    },
+    {
+      "verse": 40,
+      "kjv": "And the fourth kingdom shall be strong as iron: forasmuch as iron breaketh in pieces and subdueth all things: and as iron that breaketh all these, shall it break in pieces and bruise.",
+      "web": "The fourth kingdom will be strong as iron, because iron breaks in pieces and subdues all things; and as iron that crushes all these, it will break in pieces and crush.",
+      "ct": "\"A 4th kingdom will be as strong as iron. Just as iron shatters and crushes everything, this kingdom will crush and break all the others."
+    },
+    {
+      "verse": 41,
+      "kjv": "And whereas thou sawest the feet and toes, part of potters’ clay, and part of iron, the kingdom shall be divided; but there shall be in it of the strength of the iron, forasmuch as thou sawest the iron mixed with miry clay.",
+      "web": "Whereas you saw the feet and toes, part of potters’ clay, and part of iron, it will be a divided kingdom; but there will be in it of the strength of the iron, because you saw the iron mixed with miry clay.",
+      "ct": "\"You saw that the feet and toes were partly potter's clay and partly iron. This means the kingdom will be divided. It will have some of the strength of iron in it, since you saw iron mixed with soft clay."
+    },
+    {
+      "verse": 42,
+      "kjv": "And as the toes of the feet were part of iron, and part of clay, so the kingdom shall be partly strong, and partly broken.",
+      "web": "As the toes of the feet were part of iron, and part of clay, so the kingdom will be partly strong, and partly broken.",
+      "ct": "Just as the toes were partly iron and partly clay, this kingdom will be partly strong and partly brittle."
+    },
+    {
+      "verse": 43,
+      "kjv": "And whereas thou sawest iron mixed with miry clay, they shall mingle themselves with the seed of men: but they shall not cleave one to another, even as iron is not mixed with clay.",
+      "web": "Whereas you saw the iron mixed with miry clay, they will mingle themselves with the seed of men; but they won’t cling to one another, even as iron does not mix with clay.",
+      "ct": "You saw the iron mixed with soft clay — the rulers of this kingdom will try to strengthen themselves through human alliances, but they won't hold together, just as iron doesn't bond with clay."
+    },
+    {
+      "verse": 44,
+      "kjv": "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand for ever.",
+      "web": "“In the days of those kings the God of heaven will set up a kingdom which will never be destroyed, nor will its sovereignty be left to another people; but it will break in pieces and consume all these kingdoms, and it will stand forever.",
+      "ct": "\"During the reign of those kings, the God of heaven will establish a kingdom that will never be destroyed. It will never be handed over to another people. Instead, it will crush all those other kingdoms and bring them to an end, and it will stand forever."
+    },
+    {
+      "verse": 45,
+      "kjv": "Forasmuch as thou sawest that the stone was cut out of the mountain without hands, and that it brake in pieces the iron, the brass, the clay, the silver, and the gold; the great God hath made known to the king what shall come to pass hereafter: and the dream is certain, and the interpretation thereof sure.",
+      "web": "Because you saw that a stone was cut out of the mountain without hands, and that it broke in pieces the iron, the bronze, the clay, the silver, and the gold; the great God has made known to the king what will happen hereafter. The dream is certain, and its interpretation sure.”",
+      "ct": "This is the meaning of the stone you saw cut from the mountain without human hands — the stone that shattered the iron, bronze, clay, silver, and gold. The great God has shown the king what will happen in the future. The dream is true, and its interpretation is trustworthy.\""
+    },
+    {
+      "verse": 46,
+      "kjv": "Then the king Nebuchadnezzar fell upon his face, and worshipped Daniel, and commanded that they should offer an oblation and sweet odours unto him.",
+      "web": "Then the king Nebuchadnezzar fell on his face, worshiped Daniel, and commanded that they should offer an offering and sweet odors to him.",
+      "ct": "Then King Nebuchadnezzar fell facedown before Daniel in reverence and ordered that an offering and incense be presented to him."
+    },
+    {
+      "verse": 47,
+      "kjv": "The king answered unto Daniel, and said, Of a truth it is, that your God is a God of gods, and a Lord of kings, and a revealer of secrets, seeing thou couldest reveal this secret.",
+      "web": "The king answered to Daniel, and said, “Of a truth your God is the God of gods, and the Lord of kings, and a revealer of secrets, since you have been able to reveal this secret.”",
+      "ct": "The king said to Daniel, \"Truly, your God is the God of gods and the Lord of kings, and a revealer of mysteries, since you were able to reveal this mystery.\""
+    },
+    {
+      "verse": 48,
+      "kjv": "Then the king made Daniel a great man, and gave him many great gifts, and made him ruler over the whole province of Babylon, and chief of the governors over all the wise men of Babylon.",
+      "web": "Then the king made Daniel great, and gave him many great gifts, and made him rule over the whole province of Babylon, and to be chief governor over all the wise men of Babylon.",
+      "ct": "The king then promoted Daniel to a position of great authority, lavished him with gifts, made him ruler over the entire province of Babylon, and appointed him chief over all of Babylon's wise men."
+    },
+    {
+      "verse": 49,
+      "kjv": "Then Daniel requested of the king, and he set Shadrach, Meshach, and Abednego, over the affairs of the province of Babylon: but Daniel sat in the gate of the king.",
+      "web": "Daniel requested of the king, and he appointed Shadrach, Meshach, and Abednego over the affairs of the province of Babylon; but Daniel was in the king’s gate.",
+      "ct": "At Daniel's request, the king appointed Shadrach, Meshach, and Abednego to administer the affairs of the province of Babylon, while Daniel himself served in the king's court."
+    }
+  ]
+}

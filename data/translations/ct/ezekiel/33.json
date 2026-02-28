@@ -1,0 +1,209 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 33,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:37:01.906Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Again the word of the LORD came unto me, saying,",
+      "web": "LORD’s word came to me, saying,",
+      "ct": "The word of the LORD came to me again:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Son of man, speak to the children of thy people, and say unto them, When I bring the sword upon a land, if the people of the land take a man of their coasts, and set him for their watchman:",
+      "web": "“Son of man, speak to the children of your people, and tell them, ‘When I bring the sword on a land, and the people of the land take a man from among them, and set him for their watchman;",
+      "ct": "\"Son of man, speak to your people and tell them: When I send war against a land, the people of that land choose one of their own to serve as a watchman."
+    },
+    {
+      "verse": 3,
+      "kjv": "If when he seeth the sword come upon the land, he blow the trumpet, and warn the people;",
+      "web": "if, when he sees the sword come on the land, he blows the trumpet, and warns the people;",
+      "ct": "If the watchman sees the enemy coming and blows the trumpet to warn everyone,"
+    },
+    {
+      "verse": 4,
+      "kjv": "Then whosoever heareth the sound of the trumpet, and taketh not warning; if the sword come, and take him away, his blood shall be upon his own head.",
+      "web": "then whoever hears the sound of the trumpet, and doesn’t heed the warning, if the sword comes, and takes him away, his blood will be on his own head.",
+      "ct": "then anyone who hears the trumpet but ignores the warning — if the sword comes and kills him, his death is his own fault."
+    },
+    {
+      "verse": 5,
+      "kjv": "He heard the sound of the trumpet, and took not warning; his blood shall be upon him. But he that taketh warning shall deliver his soul.",
+      "web": "He heard the sound of the trumpet, and didn’t take warning. His blood will be on him; whereas if he had heeded the warning, he would have delivered his soul.",
+      "ct": "He heard the trumpet and ignored the warning, so his death is on him. If he had listened, he would have saved his own life."
+    },
+    {
+      "verse": 6,
+      "kjv": "But if the watchman see the sword come, and blow not the trumpet, and the people be not warned; if the sword come, and take any person from among them, he is taken away in his iniquity; but his blood will I require at the watchman’s hand.",
+      "web": "But if the watchman sees the sword come, and doesn’t blow the trumpet, and the people aren’t warned, and the sword comes, and takes any person from among them; he is taken away in his iniquity, but his blood I will require at the watchman’s hand.’",
+      "ct": "But if the watchman sees the enemy coming and doesn't blow the trumpet, and the people aren't warned, and the sword comes and kills someone — that person dies because of their own sin, but I will hold the watchman responsible for their death.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "So thou, O son of man, I have set thee a watchman unto the house of Israel; therefore thou shalt hear the word at my mouth, and warn them from me.",
+      "web": "“So you, son of man: I have set you a watchman to the house of Israel. Therefore hear the word from my mouth, and give them warnings from me.",
+      "ct": "\"Now, son of man, I have made you a watchman for the house of Israel. Whenever you hear a message from me, you must pass my warning on to them."
+    },
+    {
+      "verse": 8,
+      "kjv": "When I say unto the wicked, O wicked man, thou shalt surely die; if thou dost not speak to warn the wicked from his way, that wicked man shall die in his iniquity; but his blood will I require at thine hand.",
+      "web": "When I tell the wicked, ‘O wicked man, you will surely die,’ and you don’t speak to warn the wicked from his way; that wicked man will die in his iniquity, but I will require his blood at your hand.",
+      "ct": "If I tell a wicked person, 'You will certainly die,' and you don't speak up to warn that person to change their ways, they will die in their sin — but I will hold you responsible for their death."
+    },
+    {
+      "verse": 9,
+      "kjv": "Nevertheless, if thou warn the wicked of his way to turn from it; if he do not turn from his way, he shall die in his iniquity; but thou hast delivered thy soul.",
+      "web": "Nevertheless, if you warn the wicked of his way to turn from it, and he doesn’t turn from his way; he will die in his iniquity, but you have delivered your soul.",
+      "ct": "However, if you do warn a wicked person to turn from their ways and they refuse to change, they will die in their sin, but you will have saved your own life."
+    },
+    {
+      "verse": 10,
+      "kjv": "Therefore, O thou son of man, speak unto the house of Israel; Thus ye speak, saying, If our transgressions and our sins be upon us, and we pine away in them, how should we then live?",
+      "web": "“You, son of man, tell the house of Israel: ‘You say this, “Our transgressions and our sins are on us, and we pine away in them. How then can we live?” ’",
+      "ct": "\"Son of man, say to the house of Israel: You keep saying, 'Our sins and transgressions are crushing us. We're wasting away because of them. How can we possibly survive?'"
+    },
+    {
+      "verse": 11,
+      "kjv": "Say unto them, As I live, saith the Lord GOD, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live: turn ye, turn ye from your evil ways; for why will ye die, O house of Israel?",
+      "web": "Tell them, ‘ “As I live,” says the Lord LORD, “I have no pleasure in the death of the wicked; but that the wicked turn from his way and live. Turn, turn from your evil ways! For why will you die, house of Israel?” ’",
+      "ct": "Tell them, 'As I live,' declares the Lord GOD, 'I take no pleasure in the death of the wicked. I want them to turn from their ways and live! Turn back! Turn back from your evil ways! Why should you die, house of Israel?'"
+    },
+    {
+      "verse": 12,
+      "kjv": "Therefore, thou son of man, say unto the children of thy people, The righteousness of the righteous shall not deliver him in the day of his transgression: as for the wickedness of the wicked, he shall not fall thereby in the day that he turneth from his wickedness; neither shall the righteous be able to live for his righteousness in the day that he sinneth.",
+      "web": "“You, son of man, tell the children of your people, ‘The righteousness of the righteous will not deliver him in the day of his disobedience. And as for the wickedness of the wicked, he will not fall by it in the day that he turns from his wickedness; neither will he who is righteous be able to live by it in the day that he sins.",
+      "ct": "\"Son of man, tell your people: A righteous person's past goodness won't save them on the day they choose to sin. And a wicked person's past evil won't destroy them on the day they turn away from it. A righteous person cannot coast on their record the day they start sinning."
+    },
+    {
+      "verse": 13,
+      "kjv": "When I shall say to the righteous, that he shall surely live; if he trust to his own righteousness, and commit iniquity, all his righteousnesses shall not be remembered; but for his iniquity that he hath committed, he shall die for it.",
+      "web": "When I tell the righteous that he will surely live; if he trusts in his righteousness, and commits iniquity, none of his righteous deeds will be remembered; but he will die in his iniquity that he has committed.",
+      "ct": "Even if I tell a righteous person, 'You will surely live,' but they start trusting in their own goodness and commit sin — none of their past righteous deeds will count for anything. They will die because of the sin they committed."
+    },
+    {
+      "verse": 14,
+      "kjv": "Again, when I say unto the wicked, Thou shalt surely die; if he turn from his sin, and do that which is lawful and right;",
+      "web": "Again, when I say to the wicked, “You will surely die;” if he turns from his sin, and does that which is lawful and right;",
+      "ct": "On the other hand, if I tell a wicked person, 'You will surely die,' but they turn away from their sin and start doing what is just and right —"
+    },
+    {
+      "verse": 15,
+      "kjv": "If the wicked restore the pledge, give again that he had robbed, walk in the statutes of life, without committing iniquity; he shall surely live, he shall not die.",
+      "web": "if the wicked restore the pledge, give again that which he had taken by robbery, walk in the statutes of life, committing no iniquity; he will surely live. He will not die.",
+      "ct": "if they return what they took as collateral, pay back what they stole, and follow the laws that lead to life without committing sin — they will surely live. They will not die."
+    },
+    {
+      "verse": 16,
+      "kjv": "None of his sins that he hath committed shall be mentioned unto him: he hath done that which is lawful and right; he shall surely live.",
+      "web": "None of his sins that he has committed will be remembered against him. He has done that which is lawful and right. He will surely live.",
+      "ct": "None of the sins they previously committed will be held against them. They have done what is just and right, and they will surely live."
+    },
+    {
+      "verse": 17,
+      "kjv": "Yet the children of thy people say, The way of the Lord is not equal: but as for them, their way is not equal.",
+      "web": "“ ‘Yet the children of your people say, “The way of the Lord is not fair;” but as for them, their way is not fair.",
+      "ct": "\"Yet your people say, 'The Lord's way isn't fair.' But it's their way that isn't fair!"
+    },
+    {
+      "verse": 18,
+      "kjv": "When the righteous turneth from his righteousness, and committeth iniquity, he shall even die thereby.",
+      "web": "When the righteous turns from his righteousness, and commits iniquity, he will even die therein.",
+      "ct": "When a righteous person turns away from doing right and starts sinning, they will die because of it."
+    },
+    {
+      "verse": 19,
+      "kjv": "But if the wicked turn from his wickedness, and do that which is lawful and right, he shall live thereby.",
+      "web": "When the wicked turns from his wickedness, and does that which is lawful and right, he will live by it.",
+      "ct": "But when a wicked person turns away from their wickedness and does what is just and right, they will live because of it."
+    },
+    {
+      "verse": 20,
+      "kjv": "Yet ye say, The way of the Lord is not equal. O ye house of Israel, I will judge you every one after his ways.",
+      "web": "Yet you say, “The way of the Lord is not fair.” House of Israel, I will judge every one of you after his ways.’ ”",
+      "ct": "Yet you keep saying, 'The Lord's way isn't fair.' House of Israel, I will judge each of you according to your own actions.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And it came to pass in the twelfth year of our captivity, in the tenth month, in the fifth day of the month, that one that had escaped out of Jerusalem came unto me, saying, The city is smitten.",
+      "web": "In the twelfth year of our captivity, in the tenth month, in the fifth day of the month, one who had escaped out of Jerusalem came to me, saying, “The city has been defeated!”",
+      "ct": "In the 12th year of our exile, on the 5th day of the 10th month, a man who had escaped from Jerusalem came to me and said, \"The city has fallen!\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Now the hand of the LORD was upon me in the evening, afore he that was escaped came; and had opened my mouth, until he came to me in the morning; and my mouth was opened, and I was no more dumb.",
+      "web": "Now LORD’s hand had been on me in the evening, before he who had escaped came; and he had opened my mouth, until he came to me in the morning; and my mouth was opened, and I was no longer mute.",
+      "ct": "The evening before the survivor arrived, the hand of the LORD had come upon me and opened my mouth. So by the time he reached me the next morning, I could speak again — I was no longer mute."
+    },
+    {
+      "verse": 23,
+      "kjv": "Then the word of the LORD came unto me, saying,",
+      "web": "LORD’s word came to me, saying,",
+      "ct": "Then the word of the LORD came to me:"
+    },
+    {
+      "verse": 24,
+      "kjv": "Son of man, they that inhabit those wastes of the land of Israel speak, saying, Abraham was one, and he inherited the land: but we are many; the land is given us for inheritance.",
+      "web": "“Son of man, those who inhabit the waste places in the land of Israel speak, saying, ‘Abraham was one, and he inherited the land; but we are many. The land is given us for inheritance.’",
+      "ct": "\"Son of man, the people living in the ruins throughout the land of Israel are saying, 'Abraham was just one man, and he received this whole land. There are many of us — surely the land belongs to us!'"
+    },
+    {
+      "verse": 25,
+      "kjv": "Wherefore say unto them, Thus saith the Lord GOD; Ye eat with the blood, and lift up your eyes toward your idols, and shed blood: and shall ye possess the land?",
+      "web": "Therefore tell them, ‘The Lord LORD says: “You eat with the blood, and lift up your eyes to your idols, and shed blood. So should you possess the land?",
+      "ct": "So tell them, 'This is what the Lord GOD says: You eat meat with the blood still in it, you worship your idols, and you shed innocent blood — and you think you deserve to possess the land?"
+    },
+    {
+      "verse": 26,
+      "kjv": "Ye stand upon your sword, ye work abomination, and ye defile every one his neighbour’s wife: and shall ye possess the land?",
+      "web": "You stand on your sword, you work abomination, and every one of you defiles his neighbor’s wife. So should you possess the land?” ’",
+      "ct": "You rely on your swords, you do disgusting things, and every one of you sleeps with his neighbor's wife — and you think you deserve to possess the land?'"
+    },
+    {
+      "verse": 27,
+      "kjv": "Say thou thus unto them, Thus saith the Lord GOD; As I live, surely they that are in the wastes shall fall by the sword, and him that is in the open field will I give to the beasts to be devoured, and they that be in the forts and in the caves shall die of the pestilence.",
+      "web": "“You shall tell them, ‘The Lord LORD says: “As I live, surely those who are in the waste places will fall by the sword. I will give he who is in the open field to the animals to be devoured; and those who are in the strongholds and in the caves will die of the pestilence.",
+      "ct": "\"Tell them this: 'The Lord GOD says: As I live, those living in the ruins will fall by the sword. Those out in the open fields I will give to wild animals to devour. And those hiding in strongholds and caves will die from disease."
+    },
+    {
+      "verse": 28,
+      "kjv": "For I will lay the land most desolate, and the pomp of her strength shall cease; and the mountains of Israel shall be desolate, that none shall pass through.",
+      "web": "I will make the land a desolation and an astonishment. The pride of her power will cease. The mountains of Israel will be desolate, so that no one will pass through.",
+      "ct": "I will turn the land into a complete wasteland. The pride they take in their strength will be shattered. The mountains of Israel will be so desolate that no one will even travel through them."
+    },
+    {
+      "verse": 29,
+      "kjv": "Then shall they know that I am the LORD, when I have laid the land most desolate because of all their abominations which they have committed.",
+      "web": "Then they will know that I am LORD, when I have made the land a desolation and an astonishment, because of all their abominations which they have committed.” ’",
+      "ct": "Then they will know that I am the LORD, when I have made the land an utter wasteland because of all the disgusting things they have done.'"
+    },
+    {
+      "verse": 30,
+      "kjv": "Also, thou son of man, the children of thy people still are talking against thee by the walls and in the doors of the houses, and speak one to another, every one to his brother, saying, Come, I pray you, and hear what is the word that cometh forth from the LORD.",
+      "web": "“As for you, son of man, the children of your people talk about you by the walls and in the doors of the houses, and speak to one another, everyone to his brother, saying, ‘Please come and hear what the word is that comes out from LORD.’",
+      "ct": "\"As for you, son of man, your people are talking about you along the walls and in their doorways, saying to each other, 'Come on, let's go hear what the LORD has to say!'"
+    },
+    {
+      "verse": 31,
+      "kjv": "And they come unto thee as the people cometh, and they sit before thee as my people, and they hear thy words, but they will not do them: for with their mouth they shew much love, but their heart goeth after their covetousness.",
+      "web": "They come to you as the people come, and they sit before you as my people, and they hear your words, but don’t do them; for with their mouth they show much love, but their heart goes after their gain.",
+      "ct": "They come to you in crowds and sit in front of you like they're my people. They listen to your words, but they don't act on them. Their mouths are full of devotion, but their hearts are chasing after profit."
+    },
+    {
+      "verse": 32,
+      "kjv": "And, lo, thou art unto them as a very lovely song of one that hath a pleasant voice, and can play well on an instrument: for they hear thy words, but they do them not.",
+      "web": "Behold, you are to them as a very lovely song of one who has a pleasant voice, and can play well on an instrument; for they hear your words, but they don’t do them.",
+      "ct": "To them, you're nothing more than a singer with a beautiful voice who plays an instrument well — they enjoy listening to your words, but they refuse to put them into practice."
+    },
+    {
+      "verse": 33,
+      "kjv": "And when this cometh to pass, (lo, it will come,) then shall they know that a prophet hath been among them.",
+      "web": "“When this comes to pass—behold, it comes—then they will know that a prophet has been among them.”",
+      "ct": "When everything I've said comes true — and it will — then they will finally realize that a prophet was among them.\""
+    }
+  ]
+}

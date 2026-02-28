@@ -1,0 +1,131 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 42,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:40:45.343Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then he brought me forth into the utter court, the way toward the north: and he brought me into the chamber that was over against the separate place, and which was before the building toward the north.",
+      "web": "Then he brought me out into the outer court, the way toward the north. Then he brought me into the room that was opposite the separate place, and which was opposite the building toward the north.",
+      "ct": "Then the man led me out into the outer court, heading north. He brought me to the block of rooms that faced the restricted area and the building to the north."
+    },
+    {
+      "verse": 2,
+      "kjv": "Before the length of an hundred cubits was the north door, and the breadth was fifty cubits.",
+      "web": "Before the length of one hundred cubits was the north door, and the width was fifty cubits.",
+      "ct": "The building with these rooms was 100 cubits long on its north side and 50 cubits wide."
+    },
+    {
+      "verse": 3,
+      "kjv": "Over against the twenty cubits which were for the inner court, and over against the pavement which was for the utter court, was gallery against gallery in three stories.",
+      "web": "Opposite the twenty cubits which belonged to the inner court, and opposite the pavement which belonged to the outer court, was gallery against gallery in the third floor.",
+      "ct": "Across from the 20-cubit space belonging to the inner court, and across from the pavement of the outer court, the building had galleries facing each other on 3 levels."
+    },
+    {
+      "verse": 4,
+      "kjv": "And before the chambers was a walk of ten cubits breadth inward, a way of one cubit; and their doors toward the north.",
+      "web": "Before the rooms was a walk of ten cubits’ width inward, a way of one cubit; and their doors were toward the north.",
+      "ct": "In front of the rooms was a walkway 10 cubits wide running along the interior, with a passage 1 cubit wide. The doors of the rooms opened toward the north."
+    },
+    {
+      "verse": 5,
+      "kjv": "Now the upper chambers were shorter: for the galleries were higher than these, than the lower, and than the middlemost of the building.",
+      "web": "Now the upper rooms were shorter; for the galleries took away from these, more than from the lower and the middle, in the building.",
+      "ct": "The upper rooms were narrower than the others, because the galleries on the upper level took up more space than those on the lower and middle levels."
+    },
+    {
+      "verse": 6,
+      "kjv": "For they were in three stories, but had not pillars as the pillars of the courts: therefore the building was straitened more than the lowest and the middlemost from the ground.",
+      "web": "For they were in three stories, and they didn’t have pillars as the pillars of the courts. Therefore the uppermost was set back more than the lowest and the middle from the ground.",
+      "ct": "The building was 3 stories high, but unlike the courts, it had no supporting pillars. So each successive floor was set back farther than the one below it."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the wall that was without over against the chambers, toward the utter court on the forepart of the chambers, the length thereof was fifty cubits.",
+      "web": "The wall that was outside by the side of the rooms, toward the outer court before the rooms, its length was fifty cubits.",
+      "ct": "An outer wall ran alongside the rooms, facing the outer court in front of the rooms. It was 50 cubits long."
+    },
+    {
+      "verse": 8,
+      "kjv": "For the length of the chambers that were in the utter court was fifty cubits: and, lo, before the temple were an hundred cubits.",
+      "web": "For the length of the rooms that were in the outer court was fifty cubits. Behold, before the temple were one hundred cubits.",
+      "ct": "The row of rooms along the outer court was 50 cubits long, while the row facing the temple was 100 cubits long."
+    },
+    {
+      "verse": 9,
+      "kjv": "And from under these chambers was the entry on the east side, as one goeth into them from the utter court.",
+      "web": "From under these rooms was the entry on the east side, as one goes into them from the outer court.",
+      "ct": "Below these rooms, on the east side, there was an entrance for those coming in from the outer court."
+    },
+    {
+      "verse": 10,
+      "kjv": "The chambers were in the thickness of the wall of the court toward the east, over against the separate place, and over against the building.",
+      "web": "In the thickness of the wall of the court toward the east, before the separate place, and before the building, there were rooms.",
+      "ct": "On the south side, along the thick wall of the outer court and facing the restricted area and the building, there were also rooms."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the way before them was like the appearance of the chambers which were toward the north, as long as they, and as broad as they: and all their goings out were both according to their fashions, and according to their doors.",
+      "web": "The way before them was like the appearance of the rooms which were toward the north; according to their length so was their width: and all their exits were both according to their fashions, and according to their doors.",
+      "ct": "The walkway in front of these rooms looked just like the one by the northern rooms. They had the same length and width, the same layout, and the same style of doors."
+    },
+    {
+      "verse": 12,
+      "kjv": "And according to the doors of the chambers that were toward the south was a door in the head of the way, even the way directly before the wall toward the east, as one entereth into them.",
+      "web": "According to the doors of the rooms that were toward the south was a door at the head of the way, even the way directly before the wall toward the east, as one enters into them.",
+      "ct": "Matching the doors of the northern rooms, there was a door at the beginning of the walkway that ran along the wall on the east side, where people would enter."
+    },
+    {
+      "verse": 13,
+      "kjv": "Then said he unto me, The north chambers and the south chambers, which are before the separate place, they be holy chambers, where the priests that approach unto the LORD shall eat the most holy things: there shall they lay the most holy things, and the meat offering, and the sin offering, and the trespass offering; for the place is holy.",
+      "web": "Then he said to me, “The north rooms and the south rooms, which are before the separate place, are the holy rooms, where the priests who are near to LORD shall eat the most holy things. There they shall lay the most holy things, with the meal offering, the sin offering, and the trespass offering; for the place is holy.",
+      "ct": "Then he told me, \"The northern and southern rooms that face the restricted area are holy rooms. This is where the priests who serve the LORD will eat the most holy offerings. They will also store the most holy offerings there — the grain offerings, the sin offerings, and the guilt offerings — because this area is holy.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "When the priests enter therein, then shall they not go out of the holy place into the utter court, but there they shall lay their garments wherein they minister; for they are holy; and shall put on other garments, and shall approach to those things which are for the people.",
+      "web": "When the priests enter in, then they shall not go out of the holy place into the outer court, but they shall lay their garments in which they minister there; for they are holy. Then they shall put on other garments, and shall approach that which is for the people.”",
+      "ct": "\"Once the priests enter these holy rooms, they must not go back out into the outer court until they have changed out of the garments they wore while serving, because those garments are holy. They must put on different clothes before going near the areas open to the people.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Now when he had made an end of measuring the inner house, he brought me forth toward the gate whose prospect is toward the east, and measured it round about.",
+      "web": "Now when he had finished measuring the inner house, he brought me out by the way of the gate which faces toward the east, and measured it all around.",
+      "ct": "When he had finished measuring the interior of the temple complex, he led me out through the east gate and measured the entire perimeter."
+    },
+    {
+      "verse": 16,
+      "kjv": "He measured the east side with the measuring reed, five hundred reeds, with the measuring reed round about.",
+      "web": "He measured on the east side with the measuring reed five hundred reeds, with the measuring reed all around.",
+      "ct": "He measured the east side with his measuring reed: 500 reeds from end to end."
+    },
+    {
+      "verse": 17,
+      "kjv": "He measured the north side, five hundred reeds, with the measuring reed round about.",
+      "web": "He measured on the north side five hundred reeds with the measuring reed all around.",
+      "ct": "He measured the north side: 500 reeds with the measuring reed."
+    },
+    {
+      "verse": 18,
+      "kjv": "He measured the south side, five hundred reeds, with the measuring reed.",
+      "web": "He measured on the south side five hundred reeds with the measuring reed.",
+      "ct": "He measured the south side: 500 reeds with the measuring reed."
+    },
+    {
+      "verse": 19,
+      "kjv": "He turned about to the west side, and measured five hundred reeds with the measuring reed.",
+      "web": "He turned about to the west side, and measured five hundred reeds with the measuring reed.",
+      "ct": "Then he turned to the west side and measured it: 500 reeds with the measuring reed."
+    },
+    {
+      "verse": 20,
+      "kjv": "He measured it by the four sides: it had a wall round about, five hundred reeds long, and five hundred broad, to make a separation between the sanctuary and the profane place.",
+      "web": "He measured it on the four sides. It had a wall around it, the length five hundred, and the width five hundred, to make a separation between that which was holy and that which was common.",
+      "ct": "He measured all 4 sides. A wall surrounded the entire area — 500 reeds long and 500 reeds wide — creating a clear boundary between what was holy and what was common."
+    }
+  ]
+}

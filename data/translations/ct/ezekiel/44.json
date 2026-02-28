@@ -1,0 +1,197 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 44,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:41:40.351Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then he brought me back the way of the gate of the outward sanctuary which looketh toward the east; and it was shut.",
+      "web": "Then he brought me back by the way of the outer gate of the sanctuary, which looks toward the east; and it was shut.",
+      "ct": "Then the man brought me back to the outer gate of the sanctuary — the one facing east. It was shut."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then said the LORD unto me; This gate shall be shut, it shall not be opened, and no man shall enter in by it; because the LORD, the God of Israel, hath entered in by it, therefore it shall be shut.",
+      "web": "LORD said to me, “This gate shall be shut. It shall not be opened, no man shall enter in by it; for LORD, the God of Israel, has entered in by it. Therefore it shall be shut.",
+      "ct": "The LORD said to me, \"This gate will stay shut. It must never be opened, and no one may enter through it, because the LORD, the God of Israel, has entered through it. So it will remain shut.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "It is for the prince; the prince, he shall sit in it to eat bread before the LORD; he shall enter by the way of the porch of that gate, and shall go out by the way of the same.",
+      "web": "As for the prince, he shall sit in it as prince to eat bread before LORD. He shall enter by the way of the porch of the gate, and shall go out the same way.”",
+      "ct": "\"Only the prince may sit inside its gateway to eat a meal in the LORD's presence. He must enter through the gate's portico and leave the same way.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then brought he me the way of the north gate before the house: and I looked, and, behold, the glory of the LORD filled the house of the LORD: and I fell upon my face.",
+      "web": "Then he brought me by the way of the north gate before the house; and I looked, and behold, LORD’s glory filled LORD’s house; so I fell on my face.",
+      "ct": "Then he brought me around to the north gate, to the front of the temple. I looked, and the glory of the LORD filled the LORD's house. I fell facedown on the ground."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the LORD said unto me, Son of man, mark well, and behold with thine eyes, and hear with thine ears all that I say unto thee concerning all the ordinances of the house of the LORD, and all the laws thereof; and mark well the entering in of the house, with every going forth of the sanctuary.",
+      "web": "LORD said to me, “Son of man, mark well, and see with your eyes, and hear with your ears all that I tell you concerning all the ordinances of LORD’s house, and all its laws; and mark well the entrance of the house, with every exit of the sanctuary.",
+      "ct": "The LORD said to me, \"Son of man, pay close attention. Look carefully and listen to everything I tell you about the regulations and laws of the LORD's house. Take careful note of who may enter the temple and who must be excluded from the sanctuary.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And thou shalt say to the rebellious, even to the house of Israel, Thus saith the Lord GOD; O ye house of Israel, let it suffice you of all your abominations,",
+      "web": "You shall tell the rebellious, even the house of Israel, ‘The Lord LORD says: “You house of Israel, let that be enough of all your abominations,",
+      "ct": "\"Tell the rebellious people of Israel: 'This is what the Lord GOD says: Enough of your disgusting practices, house of Israel!"
+    },
+    {
+      "verse": 7,
+      "kjv": "In that ye have brought into my sanctuary strangers, uncircumcised in heart, and uncircumcised in flesh, to be in my sanctuary, to pollute it, even my house, when ye offer my bread, the fat and the blood, and they have broken my covenant because of all your abominations.",
+      "web": "in that you have brought in foreigners, uncircumcised in heart and uncircumcised in flesh, to be in my sanctuary, to profane it, even my house, when you offer my bread, the fat and the blood, and they have broken my covenant, to add to all your abominations.",
+      "ct": "You brought foreigners into my sanctuary — people uncircumcised in both heart and body — and by doing so you defiled my house. You offered my food, the fat and the blood, while these outsiders broke my covenant. You piled your detestable acts one on top of another."
+    },
+    {
+      "verse": 8,
+      "kjv": "And ye have not kept the charge of mine holy things: but ye have set keepers of my charge in my sanctuary for yourselves.",
+      "web": "You have not performed the duty of my holy things; but you have set performers of my duty in my sanctuary for yourselves.”",
+      "ct": "Instead of carrying out your duties over my holy things yourselves, you handed that responsibility to others and put them in charge of my sanctuary.'\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Thus saith the Lord GOD; No stranger, uncircumcised in heart, nor uncircumcised in flesh, shall enter into my sanctuary, of any stranger that is among the children of Israel.",
+      "web": "The Lord LORD says, “No foreigner, uncircumcised in heart and uncircumcised in flesh, shall enter into my sanctuary, of any foreigners who are among the children of Israel.",
+      "ct": "This is what the Lord GOD says: \"No foreigner who is uncircumcised in heart and body may enter my sanctuary — not any foreigner living among the people of Israel.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the Levites that are gone away far from me, when Israel went astray, which went astray away from me after their idols; they shall even bear their iniquity.",
+      "web": "“ ‘ “But the Levites who went far from me, when Israel went astray, who went astray from me after their idols, they will bear their iniquity.",
+      "ct": "\"As for the Levites who abandoned me when Israel wandered away — who strayed from me to chase after their idols — they will suffer the consequences of their sin."
+    },
+    {
+      "verse": 11,
+      "kjv": "Yet they shall be ministers in my sanctuary, having charge at the gates of the house, and ministering to the house: they shall slay the burnt offering and the sacrifice for the people, and they shall stand before them to minister unto them.",
+      "web": "Yet they shall be ministers in my sanctuary, having oversight at the gates of the house, and ministering in the house. They shall kill the burnt offering and the sacrifice for the people, and they shall stand before them to minister to them.",
+      "ct": "They will still serve in my sanctuary, standing guard at the temple gates and performing duties in the house. They will slaughter the burnt offerings and sacrifices for the people and stand ready to serve them."
+    },
+    {
+      "verse": 12,
+      "kjv": "Because they ministered unto them before their idols, and caused the house of Israel to fall into iniquity; therefore have I lifted up mine hand against them, saith the Lord GOD, and they shall bear their iniquity.",
+      "web": "Because they ministered to them before their idols, and became a stumbling block of iniquity to the house of Israel. Therefore I have lifted up my hand against them,” says the Lord LORD, “and they will bear their iniquity.",
+      "ct": "But because they served the people in front of their idols and led the house of Israel into sin, I have raised my hand against them,\" declares the Lord GOD. \"They will bear the weight of their guilt."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they shall not come near unto me, to do the office of a priest unto me, nor to come near to any of my holy things, in the most holy place: but they shall bear their shame, and their abominations which they have committed.",
+      "web": "They shall not come near to me, to execute the office of priest to me, nor to come near to any of my holy things, to the things that are most holy; but they will bear their shame, and their abominations which they have committed.",
+      "ct": "They will not be allowed to approach me to serve as my priests or come near any of my holy things — especially the most holy things. They must carry the shame of the detestable acts they committed."
+    },
+    {
+      "verse": 14,
+      "kjv": "But I will make them keepers of the charge of the house, for all the service thereof, and for all that shall be done therein.",
+      "web": "Yet I will make them performers of the duty of the house, for all its service, and for all that will be done therein.",
+      "ct": "Still, I will assign them to maintain the temple, handling all its general duties and everything that needs to be done there.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "But the priests the Levites, the sons of Zadok, that kept the charge of my sanctuary when the children of Israel went astray from me, they shall come near to me to minister unto me, and they shall stand before me to offer unto me the fat and the blood, saith the Lord GOD:",
+      "web": "“ ‘ “But the Levitical priests, the sons of Zadok, who performed the duty of my sanctuary when the children of Israel went astray from me, shall come near to me to minister to me. They shall stand before me to offer to me the fat and the blood,” says the Lord LORD.",
+      "ct": "\"But the Levitical priests descended from Zadok — the ones who faithfully carried out their duties in my sanctuary when the rest of Israel turned away from me — they are the ones who may approach me to serve. They will stand before me to offer the fat and the blood,\" declares the Lord GOD."
+    },
+    {
+      "verse": 16,
+      "kjv": "They shall enter into my sanctuary, and they shall come near to my table, to minister unto me, and they shall keep my charge.",
+      "web": "“They shall enter into my sanctuary, and they shall come near to my table, to minister to me, and they shall keep my instruction.",
+      "ct": "\"They will enter my sanctuary and approach my table to serve me. They will carry out my instructions."
+    },
+    {
+      "verse": 17,
+      "kjv": "And it shall come to pass, that when they enter in at the gates of the inner court, they shall be clothed with linen garments; and no wool shall come upon them, whiles they minister in the gates of the inner court, and within.",
+      "web": "“ ‘ “It will be that, when they enter in at the gates of the inner court, they shall be clothed with linen garments. No wool shall come on them while they minister in the gates of the inner court, and within.",
+      "ct": "\"Whenever they enter the gates of the inner court, they must wear linen clothing. They must not wear wool while serving inside the inner court or within the temple."
+    },
+    {
+      "verse": 18,
+      "kjv": "They shall have linen bonnets upon their heads, and shall have linen breeches upon their loins; they shall not gird themselves with any thing that causeth sweat.",
+      "web": "They shall have linen turbans on their heads, and shall have linen trousers on their waists. They shall not clothe themselves with anything that makes them sweat.",
+      "ct": "They must wear linen turbans on their heads and linen undergarments around their waists. They must not wear anything that makes them sweat."
+    },
+    {
+      "verse": 19,
+      "kjv": "And when they go forth into the utter court, even into the utter court to the people, they shall put off their garments wherein they ministered, and lay them in the holy chambers, and they shall put on other garments; and they shall not sanctify the people with their garments.",
+      "web": "When they go out into the outer court, even into the outer court to the people, they shall put off their garments in which they minister, and lay them in the holy rooms. They shall put on other garments, that they not sanctify the people with their garments.",
+      "ct": "When they go out to the outer court where the people are, they must take off the garments they wore while serving and leave them in the holy rooms. Then they must put on different clothes, so that their sacred garments don't transfer holiness to the people."
+    },
+    {
+      "verse": 20,
+      "kjv": "Neither shall they shave their heads, nor suffer their locks to grow long; they shall only poll their heads.",
+      "web": "“ ‘ “They shall not shave their heads, or allow their locks to grow long. They shall only cut off the hair of their heads.",
+      "ct": "\"They must not shave their heads or let their hair grow wild. They must keep it neatly trimmed."
+    },
+    {
+      "verse": 21,
+      "kjv": "Neither shall any priest drink wine, when they enter into the inner court.",
+      "web": "None of the priests shall drink wine when they enter into the inner court.",
+      "ct": "No priest may drink wine before entering the inner court."
+    },
+    {
+      "verse": 22,
+      "kjv": "Neither shall they take for their wives a widow, nor her that is put away: but they shall take maidens of the seed of the house of Israel, or a widow that had a priest before.",
+      "web": "They shall not take for their wives a widow, or her who is put away; but they shall take virgins of the offspring of the house of Israel, or a widow who is the widow of a priest.",
+      "ct": "They must not marry a widow or a divorced woman. They may only marry an Israelite virgin, or the widow of another priest."
+    },
+    {
+      "verse": 23,
+      "kjv": "And they shall teach my people the difference between the holy and profane, and cause them to discern between the unclean and the clean.",
+      "web": "They shall teach my people the difference between the holy and the common, and cause them to discern between the unclean and the clean.",
+      "ct": "They must teach my people the difference between what is holy and what is common, and help them distinguish between what is clean and what is unclean."
+    },
+    {
+      "verse": 24,
+      "kjv": "And in controversy they shall stand in judgment; and they shall judge it according to my judgments: and they shall keep my laws and my statutes in all mine assemblies; and they shall hallow my sabbaths.",
+      "web": "“ ‘ “In a controversy they shall stand to judge. They shall judge it according to my ordinances. They shall keep my laws and my statutes in all my appointed feasts. They shall make my Sabbaths holy.",
+      "ct": "\"In legal disputes, the priests will serve as judges, deciding cases according to my laws. They must observe my instructions and regulations at all my appointed festivals, and they must keep my Sabbaths holy."
+    },
+    {
+      "verse": 25,
+      "kjv": "And they shall come at no dead person to defile themselves: but for father, or for mother, or for son, or for daughter, for brother, or for sister that hath had no husband, they may defile themselves.",
+      "web": "“ ‘ “They shall go in to no dead person to defile themselves; but for father, or for mother, or for son, or for daughter, for brother, or for sister who has had no husband, they may defile themselves.",
+      "ct": "\"A priest must not go near a dead body, or he will become ceremonially unclean. The only exceptions are for his father, mother, son, daughter, brother, or an unmarried sister."
+    },
+    {
+      "verse": 26,
+      "kjv": "And after he is cleansed, they shall reckon unto him seven days.",
+      "web": "After he is cleansed, they shall reckon to him seven days.",
+      "ct": "After he has been cleansed, he must wait an additional 7 days."
+    },
+    {
+      "verse": 27,
+      "kjv": "And in the day that he goeth into the sanctuary, unto the inner court, to minister in the sanctuary, he shall offer his sin offering, saith the Lord GOD.",
+      "web": "In the day that he goes into the sanctuary, into the inner court, to minister in the sanctuary, he shall offer his sin offering,” says the Lord LORD.",
+      "ct": "On the day he returns to the sanctuary — entering the inner court to resume his duties — he must offer a sin offering,\" declares the Lord GOD."
+    },
+    {
+      "verse": 28,
+      "kjv": "And it shall be unto them for an inheritance: I am their inheritance: and ye shall give them no possession in Israel: I am their possession.",
+      "web": "“ ‘They shall have an inheritance. I am their inheritance; and you shall give them no possession in Israel. I am their possession.",
+      "ct": "\"As for their inheritance: I am their inheritance. You must not give them any property in Israel, because I am their possession."
+    },
+    {
+      "verse": 29,
+      "kjv": "They shall eat the meat offering, and the sin offering, and the trespass offering: and every dedicated thing in Israel shall be theirs.",
+      "web": "They shall eat the meal offering, and the sin offering, and the trespass offering; and every devoted thing in Israel shall be theirs.",
+      "ct": "They will eat from the grain offerings, the sin offerings, and the guilt offerings. Everything in Israel that is devoted to God will belong to them."
+    },
+    {
+      "verse": 30,
+      "kjv": "And the first of all the firstfruits of all things, and every oblation of all, of every sort of your oblations, shall be the priest’s: ye shall also give unto the priest the first of your dough, that he may cause the blessing to rest in thine house.",
+      "web": "The first of all the first fruits of every thing, and every offering of everything, of all your offerings, shall be for the priest. You shall also give to the priests the first of your dough, to cause a blessing to rest on your house.",
+      "ct": "The best of every firstfruit harvest and every special contribution of any kind will go to the priests. You must also give the priests the first portion of your ground meal, so that a blessing will rest on your household."
+    },
+    {
+      "verse": 31,
+      "kjv": "The priests shall not eat of any thing that is dead of itself, or torn, whether it be fowl or beast.",
+      "web": "The priests shall not eat of anything that dies of itself, or is torn, whether it is bird or animal.",
+      "ct": "The priests must never eat any bird or animal that died naturally or was torn apart by wild animals.\""
+    }
+  ]
+}

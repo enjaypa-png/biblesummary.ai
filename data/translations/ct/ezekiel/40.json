@@ -1,0 +1,305 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 40,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:40:03.397Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In the five and twentieth year of our captivity, in the beginning of the year, in the tenth day of the month, in the fourteenth year after that the city was smitten, in the selfsame day the hand of the LORD was upon me, and brought me thither.",
+      "web": "In the twenty-fifth year of our captivity, in the beginning of the year, in the tenth day of the month, in the fourteenth year after that the city was struck, in the same day, LORD’s hand was on me, and he brought me there.",
+      "ct": "It was the 25th year of our captivity, on the 10th day of the 1st month — 14 years after Jerusalem was destroyed. On that very day, the hand of the LORD came upon me and brought me there."
+    },
+    {
+      "verse": 2,
+      "kjv": "In the visions of God brought he me into the land of Israel, and set me upon a very high mountain, by which was as the frame of a city on the south.",
+      "web": "In the visions of God he brought me into the land of Israel, and set me down on a very high mountain, on which was something like the frame of a city to the south.",
+      "ct": "In visions from God, he brought me to the land of Israel and set me down on a very high mountain. To the south, I could see something that looked like the framework of a city."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he brought me thither, and, behold, there was a man, whose appearance was like the appearance of brass, with a line of flax in his hand, and a measuring reed; and he stood in the gate.",
+      "web": "He brought me there; and, behold, there was a man, whose appearance was like the appearance of bronze, with a line of flax in his hand, and a measuring reed; and he stood in the gate.",
+      "ct": "He brought me closer, and there stood a man whose appearance gleamed like bronze. He held a linen cord and a measuring reed in his hand, and he was standing at the gate."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the man said unto me, Son of man, behold with thine eyes, and hear with thine ears, and set thine heart upon all that I shall shew thee; for to the intent that I might shew them unto thee art thou brought hither: declare all that thou seest to the house of Israel.",
+      "web": "The man said to me, “Son of man, see with your eyes, and hear with your ears, and set your heart on all that I will show you; for you have been brought here so that I may show them to you. Declare all that you see to the house of Israel.”",
+      "ct": "The man said to me, \"Son of man, look carefully with your eyes, listen closely with your ears, and pay attention to everything I'm about to show you. This is why you were brought here — so I could show you these things. Tell the house of Israel everything you see.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And behold a wall on the outside of the house round about, and in the man’s hand a measuring reed of six cubits long by the cubit and an hand breadth: so he measured the breadth of the building, one reed; and the height, one reed.",
+      "web": "Behold, there was a wall on the outside of the house all around, and in the man’s hand a measuring reed six cubits long, of a cubit and a hand width each. So he measured the thickness of the building, one reed; and the height, one reed.",
+      "ct": "I saw a wall surrounding the outside of the temple complex. The measuring reed in the man's hand was 6 cubits long (each cubit being a standard cubit plus a hand width). He measured the wall's thickness — 1 reed. Its height — 1 reed."
+    },
+    {
+      "verse": 6,
+      "kjv": "Then came he unto the gate which looketh toward the east, and went up the stairs thereof, and measured the threshold of the gate, which was one reed broad; and the other threshold of the gate, which was one reed broad.",
+      "web": "Then he came to the gate which looks toward the east, and went up its steps. He measured the threshold of the gate, one reed wide; and the other threshold, one reed wide.",
+      "ct": "Then he went to the gate that faced east and climbed its steps. He measured the first threshold of the gate — 1 reed wide — and the second threshold — also 1 reed wide."
+    },
+    {
+      "verse": 7,
+      "kjv": "And every little chamber was one reed long, and one reed broad; and between the little chambers were five cubits; and the threshold of the gate by the porch of the gate within was one reed.",
+      "web": "Every lodge was one reed long and one reed wide. Between the lodges was five cubits. The threshold of the gate by the porch of the gate toward the house was one reed.",
+      "ct": "Each guard room was 1 reed long and 1 reed wide, with 5 cubits between each room. The threshold of the gate next to the inner porch was 1 reed."
+    },
+    {
+      "verse": 8,
+      "kjv": "He measured also the porch of the gate within, one reed.",
+      "web": "He measured also the porch of the gate toward the house, one reed.",
+      "ct": "He also measured the gate's inner porch — 1 reed."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then measured he the porch of the gate, eight cubits; and the posts thereof, two cubits; and the porch of the gate was inward.",
+      "web": "Then he measured the porch of the gate, eight cubits; and its posts, two cubits; and the porch of the gate was toward the house.",
+      "ct": "Then he measured the gate's porch — 8 cubits, with posts that were 2 cubits wide. The porch of the gate faced the temple."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the little chambers of the gate eastward were three on this side, and three on that side; they three were of one measure: and the posts had one measure on this side and on that side.",
+      "web": "The lodges of the gate eastward were three on this side, and three on that side. The three of them were of one measure. The posts had one measure on this side and on that side.",
+      "ct": "The east gate had 3 guard rooms on each side — 6 in all. All 3 rooms on each side were the same size, and the posts on both sides were identical in measurement."
+    },
+    {
+      "verse": 11,
+      "kjv": "And he measured the breadth of the entry of the gate, ten cubits; and the length of the gate, thirteen cubits.",
+      "web": "He measured the width of the opening of the gate, ten cubits; and the length of the gate, thirteen cubits;",
+      "ct": "He measured the width of the gate's entrance — 10 cubits — and the total length of the gate passage — 13 cubits."
+    },
+    {
+      "verse": 12,
+      "kjv": "The space also before the little chambers was one cubit on this side, and the space was one cubit on that side: and the little chambers were six cubits on this side, and six cubits on that side.",
+      "web": "and a border before the lodges, one cubit on this side, and a border, one cubit on that side; and the lodges, six cubits on this side, and six cubits on that side.",
+      "ct": "In front of each guard room was a low wall 1 cubit wide on each side. The guard rooms themselves were 6 cubits on each side."
+    },
+    {
+      "verse": 13,
+      "kjv": "He measured then the gate from the roof of one little chamber to the roof of another: the breadth was five and twenty cubits, door against door.",
+      "web": "He measured the gate from the roof of the one lodge to the roof of the other, a width of twenty-five cubits, door against door.",
+      "ct": "He then measured the gate from the back wall of one guard room to the back wall of the one across from it — 25 cubits wide, measured door to door."
+    },
+    {
+      "verse": 14,
+      "kjv": "He made also posts of threescore cubits, even unto the post of the court round about the gate.",
+      "web": "He also made posts, sixty cubits; and the court reached to the posts, around the gate.",
+      "ct": "He measured the posts at 60 cubits. The courtyard extended to the posts all around the gate."
+    },
+    {
+      "verse": 15,
+      "kjv": "And from the face of the gate of the entrance unto the face of the porch of the inner gate were fifty cubits.",
+      "web": "From the forefront of the gate at the entrance to the forefront of the inner porch of the gate were fifty cubits.",
+      "ct": "From the front of the gate's entrance to the front of the inner porch was 50 cubits."
+    },
+    {
+      "verse": 16,
+      "kjv": "And there were narrow windows to the little chambers, and to their posts within the gate round about, and likewise to the arches: and windows were round about inward: and upon each post were palm trees.",
+      "web": "There were closed windows to the lodges, and to their posts within the gate all around, and likewise to the arches. Windows were around inward. Palm trees were on each post.",
+      "ct": "There were narrow windows in the guard rooms and their posts throughout the gate on all sides, and also in the archways. The windows faced inward all around, and each post was decorated with carved palm trees."
+    },
+    {
+      "verse": 17,
+      "kjv": "Then brought he me into the outward court, and, lo, there were chambers, and a pavement made for the court round about: thirty chambers were upon the pavement.",
+      "web": "Then he brought me into the outer court. Behold, there were rooms and a pavement made for the court all around. Thirty rooms were on the pavement.",
+      "ct": "Then he brought me into the outer court. There I saw rooms and a stone pavement running along the court all around. 30 rooms lined the pavement."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the pavement by the side of the gates over against the length of the gates was the lower pavement.",
+      "web": "The pavement was by the side of the gates, corresponding to the length of the gates, even the lower pavement.",
+      "ct": "The pavement ran alongside the gates, matching their length. This was the lower pavement."
+    },
+    {
+      "verse": 19,
+      "kjv": "Then he measured the breadth from the forefront of the lower gate unto the forefront of the inner court without, an hundred cubits eastward and northward.",
+      "web": "Then he measured the width from the forefront of the lower gate to the forefront of the inner court outside, one hundred cubits, both on the east and on the north.",
+      "ct": "He measured the distance from the front of the lower gate to the outside wall of the inner court — 100 cubits on both the east and north sides."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the gate of the outward court that looked toward the north, he measured the length thereof, and the breadth thereof.",
+      "web": "He measured the length and width of the gate of the outer court which faces toward the north.",
+      "ct": "Next he measured the length and width of the gate in the outer court that faced north."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the little chambers thereof were three on this side and three on that side; and the posts thereof and the arches thereof were after the measure of the first gate: the length thereof was fifty cubits, and the breadth five and twenty cubits.",
+      "web": "The lodges of it were three on this side and three on that side. Its posts and its arches were the same as the measure of the first gate: its length was fifty cubits, and the width twenty-five cubits.",
+      "ct": "It had 3 guard rooms on each side, and its posts and archways matched the measurements of the first gate — 50 cubits long and 25 cubits wide."
+    },
+    {
+      "verse": 22,
+      "kjv": "And their windows, and their arches, and their palm trees, were after the measure of the gate that looketh toward the east; and they went up unto it by seven steps; and the arches thereof were before them.",
+      "web": "Its windows, its arches, and its palm trees were the same as the measure of the gate which faces toward the east. They went up to it by seven steps. Its arches were before them.",
+      "ct": "Its windows, archways, and palm tree carvings matched the dimensions of the east gate. 7 steps led up to it, and its archways were on the inner side."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the gate of the inner court was over against the gate toward the north, and toward the east; and he measured from gate to gate an hundred cubits.",
+      "web": "There was a gate to the inner court facing the other gate, on the north and on the east. He measured one hundred cubits from gate to gate.",
+      "ct": "Across from this north gate was a gate leading into the inner court, just as on the east side. He measured the distance from the outer gate to the inner gate — 100 cubits."
+    },
+    {
+      "verse": 24,
+      "kjv": "After that he brought me toward the south, and behold a gate toward the south: and he measured the posts thereof and the arches thereof according to these measures.",
+      "web": "He led me toward the south; and behold, there was a gate toward the south. He measured its posts and its arches according to these measurements.",
+      "ct": "Then he led me toward the south, where there was another gate. He measured its posts and archways, and they matched the same dimensions as the others."
+    },
+    {
+      "verse": 25,
+      "kjv": "And there were windows in it and in the arches thereof round about, like those windows: the length was fifty cubits, and the breadth five and twenty cubits.",
+      "web": "There were windows in it and in its arches all around, like those windows: the length was fifty cubits, and the width twenty-five cubits.",
+      "ct": "It had windows all around in both the gate and its archways, just like the other gates. It was 50 cubits long and 25 cubits wide."
+    },
+    {
+      "verse": 26,
+      "kjv": "And there were seven steps to go up to it, and the arches thereof were before them: and it had palm trees, one on this side, and another on that side, upon the posts thereof.",
+      "web": "There were seven steps to go up to it, and its arches were before them. It had palm trees, one on this side, and another on that side, on its posts.",
+      "ct": "7 steps led up to it, and its archways were on the inner side. It had palm trees carved on its posts, one on each side."
+    },
+    {
+      "verse": 27,
+      "kjv": "And there was a gate in the inner court toward the south: and he measured from gate to gate toward the south an hundred cubits.",
+      "web": "There was a gate to the inner court toward the south. He measured one hundred cubits from gate to gate toward the south.",
+      "ct": "There was also a gate to the inner court on the south side. He measured from this gate to the outer south gate — 100 cubits."
+    },
+    {
+      "verse": 28,
+      "kjv": "And he brought me to the inner court by the south gate: and he measured the south gate according to these measures;",
+      "web": "Then he brought me to the inner court by the south gate. He measured the south gate according to these measurements;",
+      "ct": "Then he brought me into the inner court through the south gate. He measured the south gate, and it matched the same dimensions as the others."
+    },
+    {
+      "verse": 29,
+      "kjv": "And the little chambers thereof, and the posts thereof, and the arches thereof, according to these measures: and there were windows in it and in the arches thereof round about: it was fifty cubits long, and five and twenty cubits broad.",
+      "web": "with its lodges, its posts, and its arches, according to these measurements. There were windows in it and in its arches all around. It was fifty cubits long, and twenty-five cubits wide.",
+      "ct": "Its guard rooms, posts, and archways all matched the same measurements. It had windows in the gate and archways all around. It was 50 cubits long and 25 cubits wide."
+    },
+    {
+      "verse": 30,
+      "kjv": "And the arches round about were five and twenty cubits long, and five cubits broad.",
+      "web": "There were arches all around, twenty-five cubits long, and five cubits wide.",
+      "ct": "The archways around it were 25 cubits long and 5 cubits wide."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the arches thereof were toward the utter court; and palm trees were upon the posts thereof: and the going up to it had eight steps.",
+      "web": "Its arches were toward the outer court. Palm trees were on its posts. The ascent to it had eight steps.",
+      "ct": "Its archways faced the outer court. Palm trees decorated its posts, and 8 steps led up to it."
+    },
+    {
+      "verse": 32,
+      "kjv": "And he brought me into the inner court toward the east: and he measured the gate according to these measures.",
+      "web": "He brought me into the inner court toward the east. He measured the gate according to these measurements;",
+      "ct": "He brought me into the inner court on the east side and measured the gate there. It matched the same dimensions."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the little chambers thereof, and the posts thereof, and the arches thereof, were according to these measures: and there were windows therein and in the arches thereof round about: it was fifty cubits long, and five and twenty cubits broad.",
+      "web": "with its lodges, its posts, and its arches, according to these measurements. There were windows in it and in its arches all around. It was fifty cubits long, and twenty-five cubits wide.",
+      "ct": "Its guard rooms, posts, and archways all matched the same measurements. It had windows in the gate and archways all around. It was 50 cubits long and 25 cubits wide."
+    },
+    {
+      "verse": 34,
+      "kjv": "And the arches thereof were toward the outward court; and palm trees were upon the posts thereof, on this side, and on that side: and the going up to it had eight steps.",
+      "web": "Its arches were toward the outer court. Palm trees were on its posts on this side and on that side. The ascent to it had eight steps.",
+      "ct": "Its archways faced the outer court. Palm trees decorated its posts on both sides, and 8 steps led up to it."
+    },
+    {
+      "verse": 35,
+      "kjv": "And he brought me to the north gate, and measured it according to these measures;",
+      "web": "He brought me to the north gate, and he measured it according to these measurements;",
+      "ct": "Then he brought me to the north gate and measured it. It matched the same dimensions."
+    },
+    {
+      "verse": 36,
+      "kjv": "The little chambers thereof, the posts thereof, and the arches thereof, and the windows to it round about: the length was fifty cubits, and the breadth five and twenty cubits.",
+      "web": "its lodges, its posts, and its arches. There were windows in it all around. The length was fifty cubits and the width twenty-five cubits.",
+      "ct": "Its guard rooms, posts, and archways all had windows around them. It was 50 cubits long and 25 cubits wide."
+    },
+    {
+      "verse": 37,
+      "kjv": "And the posts thereof were toward the utter court; and palm trees were upon the posts thereof, on this side, and on that side: and the going up to it had eight steps.",
+      "web": "Its posts were toward the outer court. Palm trees were on its posts on this side and on that side. The ascent to it had eight steps.",
+      "ct": "Its posts faced the outer court. Palm trees decorated the posts on both sides, and 8 steps led up to it."
+    },
+    {
+      "verse": 38,
+      "kjv": "And the chambers and the entries thereof were by the posts of the gates, where they washed the burnt offering.",
+      "web": "A room with its door was by the posts at the gates. They washed the burnt offering there.",
+      "ct": "There was a room with a doorway next to the posts at the gates. This was where they washed the burnt offerings."
+    },
+    {
+      "verse": 39,
+      "kjv": "And in the porch of the gate were two tables on this side, and two tables on that side, to slay thereon the burnt offering and the sin offering and the trespass offering.",
+      "web": "In the porch of the gate were two tables on this side, and two tables on that side, on which to kill the burnt offering, the sin offering, and the trespass offering.",
+      "ct": "In the porch of the gate, there were 2 tables on each side — 4 tables total — used for slaughtering the burnt offerings, sin offerings, and trespass offerings."
+    },
+    {
+      "verse": 40,
+      "kjv": "And at the side without, as one goeth up to the entry of the north gate, were two tables; and on the other side, which was at the porch of the gate, were two tables.",
+      "web": "On the one side outside, as one goes up to the entry of the gate toward the north, were two tables; and on the other side, which belonged to the porch of the gate, were two tables.",
+      "ct": "Outside the entrance, on the way up to the north gate, were 2 more tables on one side and 2 tables on the other side by the gate's porch."
+    },
+    {
+      "verse": 41,
+      "kjv": "Four tables were on this side, and four tables on that side, by the side of the gate; eight tables, whereupon they slew their sacrifices.",
+      "web": "Four tables were on this side, and four tables on that side, by the side of the gate: eight tables, on which they killed the sacrifices.",
+      "ct": "So there were 4 tables on each side of the gate — 8 tables in all — where the sacrifices were slaughtered."
+    },
+    {
+      "verse": 42,
+      "kjv": "And the four tables were of hewn stone for the burnt offering, of a cubit and an half long, and a cubit and an half broad, and one cubit high: whereupon also they laid the instruments wherewith they slew the burnt offering and the sacrifice.",
+      "web": "There were four tables for the burnt offering, of cut stone, a cubit and a half long, and a cubit and a half wide, and one cubit high. They laid the instruments with which they killed the burnt offering and the sacrifice on them.",
+      "ct": "There were also 4 tables of cut stone for the burnt offerings, each 1 and a half cubits long, 1 and a half cubits wide, and 1 cubit high. On these tables they laid the tools used for slaughtering the burnt offerings and other sacrifices."
+    },
+    {
+      "verse": 43,
+      "kjv": "And within were hooks, an hand broad, fastened round about: and upon the tables was the flesh of the offering.",
+      "web": "The hooks, a hand width long, were fastened within all around. The meat of the offering was on the tables.",
+      "ct": "Double-pronged hooks, each a hand width long, were fastened all around the inside walls. The meat of the offerings was placed on the tables."
+    },
+    {
+      "verse": 44,
+      "kjv": "And without the inner gate were the chambers of the singers in the inner court, which was at the side of the north gate; and their prospect was toward the south: one at the side of the east gate having the prospect toward the north.",
+      "web": "Outside of the inner gate were rooms for the singers in the inner court, which was at the side of the north gate. They faced toward the south. One at the side of the east gate faced toward the north.",
+      "ct": "Outside the inner gate, in the inner court, were rooms for the singers. One set of rooms was beside the north gate and faced south. Another was beside the east gate and faced north."
+    },
+    {
+      "verse": 45,
+      "kjv": "And he said unto me, This chamber, whose prospect is toward the south, is for the priests, the keepers of the charge of the house.",
+      "web": "He said to me, “This room, which faces toward the south, is for the priests, the keepers of the duty of the house.",
+      "ct": "He told me, \"The room facing south is for the priests who are responsible for the care of the temple.\""
+    },
+    {
+      "verse": 46,
+      "kjv": "And the chamber whose prospect is toward the north is for the priests, the keepers of the charge of the altar: these are the sons of Zadok among the sons of Levi, which come near to the LORD to minister unto him.",
+      "web": "The room which faces toward the north is for the priests, the keepers of the duty of the altar. These are the sons of Zadok, who from among the sons of Levi come near to LORD to minister to him.”",
+      "ct": "\"The room facing north is for the priests who are responsible for the altar. These are the descendants of Zadok — the only ones among the Levites who may approach the LORD to serve him directly.\""
+    },
+    {
+      "verse": 47,
+      "kjv": "So he measured the court, an hundred cubits long, and an hundred cubits broad, foursquare; and the altar that was before the house.",
+      "web": "He measured the court, one hundred cubits long, and a hundred cubits wide, square. The altar was before the house.",
+      "ct": "He measured the inner court — 100 cubits long and 100 cubits wide, a perfect square. The altar stood in front of the temple."
+    },
+    {
+      "verse": 48,
+      "kjv": "And he brought me to the porch of the house, and measured each post of the porch, five cubits on this side, and five cubits on that side: and the breadth of the gate was three cubits on this side, and three cubits on that side.",
+      "web": "Then he brought me to the porch of the house, and measured each post of the porch, five cubits on this side, and five cubits on that side. The width of the gate was three cubits on this side and three cubits on that side.",
+      "ct": "Then he brought me to the porch of the temple and measured each post of the porch — 5 cubits on each side. The gateway was 3 cubits wide on each side."
+    },
+    {
+      "verse": 49,
+      "kjv": "The length of the porch was twenty cubits, and the breadth eleven cubits; and he brought me by the steps whereby they went up to it: and there were pillars by the posts, one on this side, and another on that side.",
+      "web": "The length of the porch was twenty cubits, and the width eleven cubits; even by the steps by which they went up to it. There were pillars by the posts, one on this side, and another on that side.",
+      "ct": "The porch was 20 cubits long and 11 cubits wide. Steps led up to it, and there was a pillar on each side of the posts."
+    }
+  ]
+}

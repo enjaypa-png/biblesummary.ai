@@ -1,0 +1,191 @@
+{
+  "book": "daniel",
+  "book_name": "Daniel",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:44:44.743Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Nebuchadnezzar the king made an image of gold, whose height was threescore cubits, and the breadth thereof six cubits: he set it up in the plain of Dura, in the province of Babylon.",
+      "web": "Nebuchadnezzar the king made an image of gold, whose height was sixty cubits, and its width six cubits. He set it up in the plain of Dura, in the province of Babylon.",
+      "ct": "King Nebuchadnezzar had a golden statue built — 60 cubits tall and 6 cubits wide — and set it up on the plain of Dura in the province of Babylon."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then Nebuchadnezzar the king sent to gather together the princes, the governors, and the captains, the judges, the treasurers, the counsellors, the sheriffs, and all the rulers of the provinces, to come to the dedication of the image which Nebuchadnezzar the king had set up.",
+      "web": "Then Nebuchadnezzar the king sent to gather together the local governors, the deputies, and the governors, the judges, the treasurers, the counselors, the sheriffs, and all the rulers of the provinces, to come to the dedication of the image which Nebuchadnezzar the king had set up.",
+      "ct": "He then sent word to gather all the officials of the empire — the governors, deputies, commanders, judges, treasurers, counselors, magistrates, and every other ruler of the provinces — to attend the dedication of the statue he had set up."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then the princes, the governors, and captains, the judges, the treasurers, the counsellors, the sheriffs, and all the rulers of the provinces, were gathered together unto the dedication of the image that Nebuchadnezzar the king had set up; and they stood before the image that Nebuchadnezzar had set up.",
+      "web": "Then the local governors, the deputies, and the governors, the judges, the treasurers, the counselors, the sheriffs, and all the rulers of the provinces, were gathered together to the dedication of the image that Nebuchadnezzar the king had set up; and they stood before the image that Nebuchadnezzar had set up.",
+      "ct": "So all of them assembled — the governors, deputies, commanders, judges, treasurers, counselors, magistrates, and every provincial ruler — and they stood before the statue that King Nebuchadnezzar had set up."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then an herald cried aloud, To you it is commanded, O people, nations, and languages,",
+      "web": "Then the herald cried aloud, “To you it is commanded, peoples, nations, and languages,",
+      "ct": "Then a herald shouted to the crowd, \"This is the command for all peoples, nations, and languages:"
+    },
+    {
+      "verse": 5,
+      "kjv": "That at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, dulcimer, and all kinds of musick, ye fall down and worship the golden image that Nebuchadnezzar the king hath set up:",
+      "web": "that whenever you hear the sound of the horn, flute, zither, lyre, harp, pipe, and all kinds of music, you fall down and worship the golden image that Nebuchadnezzar the king has set up.",
+      "ct": "The moment you hear the sound of the horn, flute, zither, lyre, harp, pipe, and every other kind of instrument, you must fall down and worship the golden statue that King Nebuchadnezzar has set up."
+    },
+    {
+      "verse": 6,
+      "kjv": "And whoso falleth not down and worshippeth shall the same hour be cast into the midst of a burning fiery furnace.",
+      "web": "Whoever doesn’t fall down and worship shall be cast into the middle of a burning fiery furnace the same hour.”",
+      "ct": "Anyone who does not fall down and worship will immediately be thrown into a blazing furnace.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Therefore at that time, when all the people heard the sound of the cornet, flute, harp, sackbut, psaltery, and all kinds of musick, all the people, the nations, and the languages, fell down and worshipped the golden image that Nebuchadnezzar the king had set up.",
+      "web": "Therefore at that time, when all the peoples heard the sound of the horn, flute, zither, lyre, harp, pipe, and all kinds of music, all the peoples, the nations, and the languages, fell down and worshiped the golden image that Nebuchadnezzar the king had set up.",
+      "ct": "So as soon as the music began — the horns, flutes, zithers, lyres, harps, pipes, and every kind of instrument — all the peoples, nations, and languages fell down and worshiped the golden statue that King Nebuchadnezzar had set up."
+    },
+    {
+      "verse": 8,
+      "kjv": "Wherefore at that time certain Chaldeans came near, and accused the Jews.",
+      "web": "Therefore at that time certain Chaldeans came near, and brought accusation against the Jews.",
+      "ct": "It was at this time that certain Chaldeans came forward and brought accusations against some of the Jews."
+    },
+    {
+      "verse": 9,
+      "kjv": "They spake and said to the king Nebuchadnezzar, O king, live for ever.",
+      "web": "They answered Nebuchadnezzar the king, “O king, live for ever!",
+      "ct": "They said to King Nebuchadnezzar, \"O king, may you live forever!"
+    },
+    {
+      "verse": 10,
+      "kjv": "Thou, O king, hast made a decree, that every man that shall hear the sound of the cornet, flute, harp, sackbut, psaltery, and dulcimer, and all kinds of musick, shall fall down and worship the golden image:",
+      "web": "You, O king, have made a decree, that every man that hears the sound of the horn, flute, zither, lyre, harp, pipe, and all kinds of music, shall fall down and worship the golden image;",
+      "ct": "You issued a decree, Your Majesty, that everyone who hears the sound of the horn, flute, zither, lyre, harp, pipe, and every kind of instrument must fall down and worship the golden statue."
+    },
+    {
+      "verse": 11,
+      "kjv": "And whoso falleth not down and worshippeth, that he should be cast into the midst of a burning fiery furnace.",
+      "web": "and whoever doesn’t fall down and worship shall be cast into the middle of a burning fiery furnace.",
+      "ct": "And whoever does not fall down and worship is to be thrown into a blazing furnace."
+    },
+    {
+      "verse": 12,
+      "kjv": "There are certain Jews whom thou hast set over the affairs of the province of Babylon, Shadrach, Meshach, and Abednego; these men, O king, have not regarded thee: they serve not thy gods, nor worship the golden image which thou hast set up.",
+      "web": "There are certain Jews whom you have appointed over the affairs of the province of Babylon: Shadrach, Meshach, and Abednego. These men, O king, have not respected you. They don’t serve your gods, and don’t worship the golden image which you have set up.”",
+      "ct": "But there are certain Jews — Shadrach, Meshach, and Abednego — whom you appointed over the affairs of the province of Babylon. These men have defied you, O king. They refuse to serve your gods or worship the golden statue you set up.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then Nebuchadnezzar in his rage and fury commanded to bring Shadrach, Meshach, and Abednego. Then they brought these men before the king.",
+      "web": "Then Nebuchadnezzar in rage and fury commanded that Shadrach, Meshach, and Abednego be brought. Then these men were brought before the king.",
+      "ct": "Nebuchadnezzar flew into a rage and ordered that Shadrach, Meshach, and Abednego be brought before him. When they arrived, they stood before the king."
+    },
+    {
+      "verse": 14,
+      "kjv": "Nebuchadnezzar spake and said unto them, Is it true, O Shadrach, Meshach, and Abednego, do not ye serve my gods, nor worship the golden image which I have set up?",
+      "web": "Nebuchadnezzar answered them, “Is it on purpose, Shadrach, Meshach, and Abednego, that you don’t serve my god, nor worship the golden image which I have set up?",
+      "ct": "Nebuchadnezzar demanded, \"Is it true, Shadrach, Meshach, and Abednego, that you refuse to serve my gods or worship the golden statue I set up?"
+    },
+    {
+      "verse": 15,
+      "kjv": "Now if ye be ready that at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, and dulcimer, and all kinds of musick, ye fall down and worship the image which I have made; well: but if ye worship not, ye shall be cast the same hour into the midst of a burning fiery furnace; and who is that God that shall deliver you out of my hands?",
+      "web": "Now if you are ready whenever you hear the sound of the horn, flute, zither, lyre, harp, pipe, and all kinds of music to fall down and worship the image which I have made, good; but if you don’t worship, you shall be cast the same hour into the middle of a burning fiery furnace. Who is that god that will deliver you out of my hands?”",
+      "ct": "I'll give you one more chance. If you're ready to fall down and worship the statue I've made the next time you hear the horn, flute, zither, lyre, harp, pipe, and every kind of instrument — good. But if you refuse, you will be thrown immediately into a blazing furnace. And what god could possibly rescue you from my power?\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Shadrach, Meshach, and Abednego, answered and said to the king, O Nebuchadnezzar, we are not careful to answer thee in this matter.",
+      "web": "Shadrach, Meshach, and Abednego answered the king, “Nebuchadnezzar, we have no need to answer you in this matter.",
+      "ct": "Shadrach, Meshach, and Abednego answered the king, \"Nebuchadnezzar, we don't need to defend ourselves before you on this matter."
+    },
+    {
+      "verse": 17,
+      "kjv": "If it be so, our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of thine hand, O king.",
+      "web": "If it happens, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of your hand, O king.",
+      "ct": "If we are thrown into the furnace, the God we serve is able to rescue us from it. He will deliver us from your hand, O king."
+    },
+    {
+      "verse": 18,
+      "kjv": "But if not, be it known unto thee, O king, that we will not serve thy gods, nor worship the golden image which thou hast set up.",
+      "web": "But if not, let it be known to you, O king, that we will not serve your gods or worship the golden image which you have set up.”",
+      "ct": "But even if he doesn't, understand this, O king: we will never serve your gods or worship the golden statue you have set up.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Then was Nebuchadnezzar full of fury, and the form of his visage was changed against Shadrach, Meshach, and Abednego: therefore he spake, and commanded that they should heat the furnace one seven times more than it was wont to be heated.",
+      "web": "Then Nebuchadnezzar was full of fury, and the form of his appearance was changed against Shadrach, Meshach, and Abednego. He spoke, and commanded that they should heat the furnace seven times more than it was usually heated.",
+      "ct": "Nebuchadnezzar was so furious that his face twisted with rage against Shadrach, Meshach, and Abednego. He ordered the furnace heated 7 times hotter than usual."
+    },
+    {
+      "verse": 20,
+      "kjv": "And he commanded the most mighty men that were in his army to bind Shadrach, Meshach, and Abednego, and to cast them into the burning fiery furnace.",
+      "web": "He commanded certain mighty men who were in his army to bind Shadrach, Meshach, and Abednego, and to cast them into the burning fiery furnace.",
+      "ct": "Then he commanded some of the strongest soldiers in his army to tie up Shadrach, Meshach, and Abednego and throw them into the blazing furnace."
+    },
+    {
+      "verse": 21,
+      "kjv": "Then these men were bound in their coats, their hosen, and their hats, and their other garments, and were cast into the midst of the burning fiery furnace.",
+      "web": "Then these men were bound in their pants, their tunics, and their mantles, and their other clothes, and were cast into the middle of the burning fiery furnace.",
+      "ct": "So the 3 men were bound — still wearing their tunics, trousers, mantles, and all their other clothing — and thrown into the blazing furnace."
+    },
+    {
+      "verse": 22,
+      "kjv": "Therefore because the king’s commandment was urgent, and the furnace exceeding hot, the flame of the fire slew those men that took up Shadrach, Meshach, and Abednego.",
+      "web": "Therefore because the king’s commandment was urgent, and the furnace exceedingly hot, the flame of the fire killed those men who took up Shadrach, Meshach, and Abednego.",
+      "ct": "Because the king's order was so urgent and the furnace so incredibly hot, the flames killed the soldiers who threw Shadrach, Meshach, and Abednego in."
+    },
+    {
+      "verse": 23,
+      "kjv": "And these three men, Shadrach, Meshach, and Abednego, fell down bound into the midst of the burning fiery furnace.",
+      "web": "These three men, Shadrach, Meshach, and Abednego, fell down bound into the middle of the burning fiery furnace.",
+      "ct": "And the 3 men — Shadrach, Meshach, and Abednego — fell bound into the heart of the blazing furnace."
+    },
+    {
+      "verse": 24,
+      "kjv": "Then Nebuchadnezzar the king was astonied, and rose up in haste, and spake, and said unto his counsellors, Did not we cast three men bound into the midst of the fire? They answered and said unto the king, True, O king.",
+      "web": "Then Nebuchadnezzar the king was astonished, and rose up in haste. He spoke and said to his counselors, “Didn’t we cast three men bound into the middle of the fire?” They answered the king, “True, O king.”",
+      "ct": "Suddenly King Nebuchadnezzar jumped to his feet in shock. He asked his counselors, \"Didn't we throw 3 men into the fire, tied up?\" They answered, \"Yes, O king, that's correct.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "He answered and said, Lo, I see four men loose, walking in the midst of the fire, and they have no hurt; and the form of the fourth is like the Son of God.",
+      "web": "He answered, “Look, I see four men loose, walking in the middle of the fire, and they are unharmed. The appearance of the fourth is like a son of the gods.”",
+      "ct": "He said, \"Look! I see 4 men walking around freely in the fire, completely unharmed. And the 4th one looks like the Son of God.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "Then Nebuchadnezzar came near to the mouth of the burning fiery furnace, and spake, and said, Shadrach, Meshach, and Abednego, ye servants of the most high God, come forth, and come hither. Then Shadrach, Meshach, and Abednego, came forth of the midst of the fire.",
+      "web": "Then Nebuchadnezzar came near to the mouth of the burning fiery furnace. He spoke and said, “Shadrach, Meshach, and Abednego, you servants of the Most High God, come out, and come here!” Then Shadrach, Meshach, and Abednego came out of the middle of the fire.",
+      "ct": "Nebuchadnezzar rushed to the opening of the blazing furnace and shouted, \"Shadrach, Meshach, and Abednego, servants of the Most High God — come out! Come here!\" So Shadrach, Meshach, and Abednego walked out of the fire."
+    },
+    {
+      "verse": 27,
+      "kjv": "And the princes, governors, and captains, and the king’s counsellors, being gathered together, saw these men, upon whose bodies the fire had no power, nor was an hair of their head singed, neither were their coats changed, nor the smell of fire had passed on them.",
+      "web": "The local governors, the deputies, and the governors, and the king’s counselors, being gathered together, saw these men, that the fire had no power on their bodies. The hair of their head wasn’t singed. Their pants weren’t changed, the smell of fire wasn’t even on them.",
+      "ct": "The governors, deputies, commanders, and royal counselors crowded around them and saw for themselves: the fire had done nothing to their bodies. Not a hair on their heads was singed. Their clothing wasn't damaged. They didn't even smell like smoke."
+    },
+    {
+      "verse": 28,
+      "kjv": "Then Nebuchadnezzar spake, and said, Blessed be the God of Shadrach, Meshach, and Abednego, who hath sent his angel, and delivered his servants that trusted in him, and have changed the king’s word, and yielded their bodies, that they might not serve nor worship any god, except their own God.",
+      "web": "Nebuchadnezzar spoke and said, “Blessed be the God of Shadrach, Meshach, and Abednego, who has sent his angel, and delivered his servants who trusted in him, and have changed the king’s word, and have yielded their bodies, that they might not serve nor worship any god, except their own God.",
+      "ct": "Nebuchadnezzar declared, \"Praise be to the God of Shadrach, Meshach, and Abednego! He sent his angel and rescued his servants who trusted in him. They defied the king's command and were willing to give up their lives rather than serve or worship any god except their own God."
+    },
+    {
+      "verse": 29,
+      "kjv": "Therefore I make a decree, That every people, nation, and language, which speak any thing amiss against the God of Shadrach, Meshach, and Abednego, shall be cut in pieces, and their houses shall be made a dunghill: because there is no other God that can deliver after this sort.",
+      "web": "Therefore I make a decree, that every people, nation, and language, which speak anything evil against the God of Shadrach, Meshach, and Abednego, shall be cut in pieces, and their houses shall be made a dunghill; because there is no other god who is able to deliver like this.”",
+      "ct": "Therefore, I decree that anyone of any people, nation, or language who says anything against the God of Shadrach, Meshach, and Abednego will be torn limb from limb, and their houses will be reduced to rubble. There is no other god who can rescue like this.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "Then the king promoted Shadrach, Meshach, and Abednego, in the province of Babylon.",
+      "web": "Then the king promoted Shadrach, Meshach, and Abednego in the province of Babylon.",
+      "ct": "After that, the king promoted Shadrach, Meshach, and Abednego to even higher positions in the province of Babylon."
+    }
+  ]
+}

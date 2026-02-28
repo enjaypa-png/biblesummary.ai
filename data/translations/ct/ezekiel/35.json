@@ -1,0 +1,101 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 35,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:37:41.316Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Moreover the word of the LORD came unto me, saying,",
+      "web": "Moreover LORD’s word came to me, saying,",
+      "ct": "The LORD spoke to me and said,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Son of man, set thy face against mount Seir, and prophesy against it,",
+      "web": "“Son of man, set your face against Mount Seir, and prophesy against it,",
+      "ct": "\"Son of man, turn and face Mount Seir and prophesy against it."
+    },
+    {
+      "verse": 3,
+      "kjv": "And say unto it, Thus saith the Lord GOD; Behold, O mount Seir, I am against thee, and I will stretch out mine hand against thee, and I will make thee most desolate.",
+      "web": "and tell it, ‘The Lord LORD says: “Behold, I am against you, Mount Seir, and I will stretch out my hand against you. I will make you a desolation and an astonishment.",
+      "ct": "Tell it, 'This is what the Lord GOD says: I am against you, Mount Seir. I will raise my hand against you and turn you into an empty wasteland."
+    },
+    {
+      "verse": 4,
+      "kjv": "I will lay thy cities waste, and thou shalt be desolate, and thou shalt know that I am the LORD.",
+      "web": "I will lay your cities waste, and you will be desolate. Then you will know that I am LORD.",
+      "ct": "I will destroy your cities and leave you desolate. Then you will know that I am the LORD."
+    },
+    {
+      "verse": 5,
+      "kjv": "Because thou hast had a perpetual hatred, and hast shed the blood of the children of Israel by the force of the sword in the time of their calamity, in the time that their iniquity had an end:",
+      "web": "“ ‘ “Because you have had a perpetual hostility, and have given over the children of Israel to the power of the sword in the time of their calamity, in the time of the iniquity of the end;",
+      "ct": "You have nursed an ancient hatred against Israel, and when disaster struck them — when their sin finally caught up with them — you handed them over to be slaughtered."
+    },
+    {
+      "verse": 6,
+      "kjv": "Therefore, as I live, saith the Lord GOD, I will prepare thee unto blood, and blood shall pursue thee: sith thou hast not hated blood, even blood shall pursue thee.",
+      "web": "therefore, as I live,” says the Lord LORD, “I will prepare you for blood, and blood will pursue you. Since you have not hated blood, therefore blood will pursue you.",
+      "ct": "So as surely as I live, declares the Lord GOD, I will hand you over to bloodshed, and bloodshed will chase you down. Since you didn't hate bloodshed, bloodshed will hunt you relentlessly."
+    },
+    {
+      "verse": 7,
+      "kjv": "Thus will I make mount Seir most desolate, and cut off from it him that passeth out and him that returneth.",
+      "web": "Thus I will make Mount Seir an astonishment and a desolation. I will cut off from it him who passes through and him who returns.",
+      "ct": "I will turn Mount Seir into a desolate wasteland and wipe out everyone who comes or goes."
+    },
+    {
+      "verse": 8,
+      "kjv": "And I will fill his mountains with his slain men: in thy hills, and in thy valleys, and in all thy rivers, shall they fall that are slain with the sword.",
+      "web": "I will fill its mountains with its slain. The slain with the sword will fall in your hills and in your valleys and in all your watercourses.",
+      "ct": "I will cover your mountains with the dead. Bodies of those killed by the sword will litter your hills, your valleys, and every riverbed."
+    },
+    {
+      "verse": 9,
+      "kjv": "I will make thee perpetual desolations, and thy cities shall not return: and ye shall know that I am the LORD.",
+      "web": "I will make you a perpetual desolation, and your cities will not be inhabited. Then you will know that I am LORD.",
+      "ct": "I will make you a wasteland forever. Your cities will never be lived in again. Then you will know that I am the LORD."
+    },
+    {
+      "verse": 10,
+      "kjv": "Because thou hast said, These two nations and these two countries shall be mine, and we will possess it; whereas the LORD was there:",
+      "web": "“ ‘ “Because you have said, ‘These two nations and these two countries will be mine, and we will possess it;’ whereas LORD was there:",
+      "ct": "You said, 'These 2 nations and their lands — Israel and Judah — will be ours, and we will take possession of them,' even though the LORD was there."
+    },
+    {
+      "verse": 11,
+      "kjv": "Therefore, as I live, saith the Lord GOD, I will even do according to thine anger, and according to thine envy which thou hast used out of thy hatred against them; and I will make myself known among them, when I have judged thee.",
+      "web": "therefore, as I live,” says the Lord LORD, “I will do according to your anger, and according to your envy which you have shown out of your hatred against them; and I will make myself known among them when I judge you.",
+      "ct": "So as surely as I live, declares the Lord GOD, I will treat you exactly the way your anger, jealousy, and hatred toward them deserve. When I judge you, they will know who I am."
+    },
+    {
+      "verse": 12,
+      "kjv": "And thou shalt know that I am the LORD, and that I have heard all thy blasphemies which thou hast spoken against the mountains of Israel, saying, They are laid desolate, they are given us to consume.",
+      "web": "You will know that I, LORD, have heard all your insults which you have spoken against the mountains of Israel, saying, ‘They have been laid desolate. They have been given us to devour.’",
+      "ct": "Then you will know that I am the LORD, and that I heard every insult you hurled at the mountains of Israel when you said, 'They're destroyed! They've been handed over to us to devour!'"
+    },
+    {
+      "verse": 13,
+      "kjv": "Thus with your mouth ye have boasted against me, and have multiplied your words against me: I have heard them.",
+      "web": "You have magnified yourselves against me with your mouth, and have multiplied your words against me. I have heard it.”",
+      "ct": "You used your mouths to boast against me and piled up your arrogant words against me. I heard every one of them."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thus saith the Lord GOD; When the whole earth rejoiceth, I will make thee desolate.",
+      "web": "The Lord LORD says: “When the whole earth rejoices, I will make you desolate.",
+      "ct": "This is what the Lord GOD says: When the rest of the earth celebrates, I will make you desolate."
+    },
+    {
+      "verse": 15,
+      "kjv": "As thou didst rejoice at the inheritance of the house of Israel, because it was desolate, so will I do unto thee: thou shalt be desolate, O mount Seir, and all Idumea, even all of it: and they shall know that I am the LORD.",
+      "web": "As you rejoiced over the inheritance of the house of Israel because it was desolate, so I will do to you. You will be desolate, Mount Seir, and all Edom, even all of it. Then they will know that I am LORD.’ ”",
+      "ct": "You celebrated when Israel's land was left desolate, so I will do the same to you. You will become a wasteland, Mount Seir — and all of Edom with you. Then they will know that I am the LORD.'\""
+    }
+  ]
+}

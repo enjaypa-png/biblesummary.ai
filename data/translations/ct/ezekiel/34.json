@@ -1,0 +1,197 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 34,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:37:27.693Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the word of the LORD came unto me, saying,",
+      "web": "LORD’s word came to me, saying,",
+      "ct": "The word of the LORD came to me:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Son of man, prophesy against the shepherds of Israel, prophesy, and say unto them, Thus saith the Lord GOD unto the shepherds; Woe be to the shepherds of Israel that do feed themselves! should not the shepherds feed the flocks?",
+      "web": "“Son of man, prophesy against the shepherds of Israel. Prophesy, and tell them, even the shepherds, ‘The Lord LORD says: “Woe to the shepherds of Israel who feed themselves! Shouldn’t the shepherds feed the sheep?",
+      "ct": "\"Son of man, prophesy against the shepherds of Israel. Prophesy and tell them, 'This is what the Lord GOD says to the shepherds: How terrible it will be for the shepherds of Israel who only take care of themselves! Aren't shepherds supposed to take care of the flock?'"
+    },
+    {
+      "verse": 3,
+      "kjv": "Ye eat the fat, and ye clothe you with the wool, ye kill them that are fed: but ye feed not the flock.",
+      "web": "You eat the fat. You clothe yourself with the wool. You kill the fatlings, but you don’t feed the sheep.",
+      "ct": "You eat the best food, you dress yourselves in wool, and you slaughter the fattened animals — but you don't feed the sheep."
+    },
+    {
+      "verse": 4,
+      "kjv": "The diseased have ye not strengthened, neither have ye healed that which was sick, neither have ye bound up that which was broken, neither have ye brought again that which was driven away, neither have ye sought that which was lost; but with force and with cruelty have ye ruled them.",
+      "web": "You haven’t strengthened the diseased. You haven’t healed that which was sick. You haven’t bound up that which was broken. You haven’t brought back that which was driven away. You haven’t sought that which was lost, but you have ruled over them with force and with rigor.",
+      "ct": "You haven't strengthened the weak. You haven't healed the sick. You haven't bandaged the injured. You haven't gone after the strays or searched for the lost. Instead, you've ruled over them with brute force and cruelty."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they were scattered, because there is no shepherd: and they became meat to all the beasts of the field, when they were scattered.",
+      "web": "They were scattered, because there was no shepherd. They became food to all the animals of the field, and were scattered.",
+      "ct": "So my sheep scattered because they had no shepherd. Once scattered, they became prey for every wild animal."
+    },
+    {
+      "verse": 6,
+      "kjv": "My sheep wandered through all the mountains, and upon every high hill: yea, my flock was scattered upon all the face of the earth, and none did search or seek after them.",
+      "web": "My sheep wandered through all the mountains, and on every high hill. Yes, my sheep were scattered on all the surface of the earth. There was no one who searched or sought.”",
+      "ct": "My sheep wandered across every mountain and every high hill. They were scattered across the whole face of the earth, and no one went looking for them. No one even tried to find them.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Therefore, ye shepherds, hear the word of the LORD;",
+      "web": "“ ‘Therefore, you shepherds, hear LORD’s word:",
+      "ct": "\"So listen, you shepherds — hear the word of the LORD:"
+    },
+    {
+      "verse": 8,
+      "kjv": "As I live, saith the Lord GOD, surely because my flock became a prey, and my flock became meat to every beast of the field, because there was no shepherd, neither did my shepherds search for my flock, but the shepherds fed themselves, and fed not my flock;",
+      "web": "“As I live,” says the Lord LORD, “surely because my sheep became a prey, and my sheep became food to all the animals of the field, because there was no shepherd. My shepherds didn’t search for my sheep, but the shepherds fed themselves, and didn’t feed my sheep.”",
+      "ct": "\"As I live,\" declares the Lord GOD, \"because my flock became prey and my sheep became food for every wild animal — because there was no real shepherd, because my shepherds didn't bother searching for my sheep but only fed themselves instead of feeding my flock —"
+    },
+    {
+      "verse": 9,
+      "kjv": "Therefore, O ye shepherds, hear the word of the LORD;",
+      "web": "Therefore, you shepherds, hear LORD’s word:",
+      "ct": "therefore, you shepherds, hear the word of the LORD:"
+    },
+    {
+      "verse": 10,
+      "kjv": "Thus saith the Lord GOD; Behold, I am against the shepherds; and I will require my flock at their hand, and cause them to cease from feeding the flock; neither shall the shepherds feed themselves any more; for I will deliver my flock from their mouth, that they may not be meat for them.",
+      "web": "The Lord LORD says: “Behold, I am against the shepherds. I will require my sheep at their hand, and cause them to cease from feeding the sheep. The shepherds won’t feed themselves any more. I will deliver my sheep from their mouth, that they may not be food for them.”",
+      "ct": "This is what the Lord GOD says: I am against the shepherds. I will hold them accountable for my flock and remove them from tending the sheep. They will never again feed off the flock. I will rescue my sheep from their mouths so my flock will no longer be their food.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "For thus saith the Lord GOD; Behold, I, even I, will both search my sheep, and seek them out.",
+      "web": "“ ‘For the Lord LORD says: “Behold, I myself, even I, will search for my sheep, and will seek them out.",
+      "ct": "\"For this is what the Lord GOD says: I myself — yes, I personally — will search for my sheep and find them."
+    },
+    {
+      "verse": 12,
+      "kjv": "As a shepherd seeketh out his flock in the day that he is among his sheep that are scattered; so will I seek out my sheep, and will deliver them out of all places where they have been scattered in the cloudy and dark day.",
+      "web": "As a shepherd seeks out his flock in the day that he is among his sheep that are scattered abroad, so I will seek out my sheep. I will deliver them out of all places where they have been scattered in the cloudy and dark day.",
+      "ct": "Just as a shepherd searches for his scattered flock when he finds himself among them, I will search for my sheep. I will rescue them from every place where they were scattered on that dark and cloudy day."
+    },
+    {
+      "verse": 13,
+      "kjv": "And I will bring them out from the people, and gather them from the countries, and will bring them to their own land, and feed them upon the mountains of Israel by the rivers, and in all the inhabited places of the country.",
+      "web": "I will bring them out from the peoples, and gather them from the countries, and will bring them into their own land. I will feed them on the mountains of Israel, by the watercourses, and in all the inhabited places of the country.",
+      "ct": "I will bring them out from among the nations and gather them from foreign countries. I will bring them back to their own land and feed them on the mountains of Israel, beside the streams, and in every inhabited place throughout the country."
+    },
+    {
+      "verse": 14,
+      "kjv": "I will feed them in a good pasture, and upon the high mountains of Israel shall their fold be: there shall they lie in a good fold, and in a fat pasture shall they feed upon the mountains of Israel.",
+      "web": "I will feed them with good pasture; and their fold will be on the mountains of the height of Israel. There they will lie down in a good fold. They will feed on fat pasture on the mountains of Israel.",
+      "ct": "I will give them rich pasture, and the high mountains of Israel will be their grazing land. They will rest in lush meadows and feed on green pastures across the mountains of Israel."
+    },
+    {
+      "verse": 15,
+      "kjv": "I will feed my flock, and I will cause them to lie down, saith the Lord GOD.",
+      "web": "I myself will be the shepherd of my sheep, and I will cause them to lie down,” says the Lord LORD.",
+      "ct": "I myself will shepherd my flock and give them a place to rest,\" declares the Lord GOD."
+    },
+    {
+      "verse": 16,
+      "kjv": "I will seek that which was lost, and bring again that which was driven away, and will bind up that which was broken, and will strengthen that which was sick: but I will destroy the fat and the strong; I will feed them with judgment.",
+      "web": "“I will seek that which was lost, and will bring back that which was driven away, and will bind up that which was broken, and will strengthen that which was sick; but I will destroy the fat and the strong. I will feed them in justice.” ’",
+      "ct": "\"I will search for the lost and bring back the strays. I will bandage the injured and strengthen the weak. But the fat and powerful ones I will destroy. I will shepherd my flock with justice.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And as for you, O my flock, thus saith the Lord GOD; Behold, I judge between cattle and cattle, between the rams and the he goats.",
+      "web": "“As for you, O my flock, the Lord LORD says: ‘Behold, I judge between sheep and sheep, the rams and the male goats.",
+      "ct": "\"As for you, my flock, this is what the Lord GOD says: I am going to judge between one sheep and another — between the rams and the male goats."
+    },
+    {
+      "verse": 18,
+      "kjv": "Seemeth it a small thing unto you to have eaten up the good pasture, but ye must tread down with your feet the residue of your pastures? and to have drunk of the deep waters, but ye must foul the residue with your feet?",
+      "web": "Does it seem a small thing to you to have fed on the good pasture, but you must tread down with your feet the residue of your pasture? And to have drunk of the clear waters, but must you foul the residue with your feet?",
+      "ct": "Isn't it enough for you to graze on the best pasture? Do you also have to trample the rest of it with your feet? Isn't it enough to drink the clear water? Do you also have to muddy what's left with your feet?"
+    },
+    {
+      "verse": 19,
+      "kjv": "And as for my flock, they eat that which ye have trodden with your feet; and they drink that which ye have fouled with your feet.",
+      "web": "As for my sheep, they eat that which you have trodden with your feet, and they drink that which you have fouled with your feet.’",
+      "ct": "My sheep are forced to eat what you've trampled and drink what you've muddied with your feet.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Therefore thus saith the Lord GOD unto them; Behold, I, even I, will judge between the fat cattle and between the lean cattle.",
+      "web": "“Therefore the Lord LORD says to them: ‘Behold, I, even I, will judge between the fat sheep and the lean sheep.",
+      "ct": "\"So this is what the Lord GOD says to them: I myself will judge between the fat sheep and the thin sheep."
+    },
+    {
+      "verse": 21,
+      "kjv": "Because ye have thrust with side and with shoulder, and pushed all the diseased with your horns, till ye have scattered them abroad;",
+      "web": "Because you thrust with side and with shoulder, and push all the diseased with your horns, until you have scattered them abroad;",
+      "ct": "You shove with your sides and shoulders, and you ram the weak ones with your horns until you've driven them away."
+    },
+    {
+      "verse": 22,
+      "kjv": "Therefore will I save my flock, and they shall no more be a prey; and I will judge between cattle and cattle.",
+      "web": "therefore I will save my flock, and they will no more be a prey. I will judge between sheep and sheep.",
+      "ct": "Therefore I will rescue my flock, and they will no longer be prey. I will judge between one sheep and another."
+    },
+    {
+      "verse": 23,
+      "kjv": "And I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd.",
+      "web": "I will set up one shepherd over them, and he will feed them, even my servant David. He will feed them, and he will be their shepherd.",
+      "ct": "I will place one shepherd over them — my servant David — and he will feed them. He will care for them and be their shepherd."
+    },
+    {
+      "verse": 24,
+      "kjv": "And I the LORD will be their God, and my servant David a prince among them; I the LORD have spoken it.",
+      "web": "I, LORD, will be their God, and my servant David prince among them. I, LORD, have spoken it.",
+      "ct": "I, the LORD, will be their God, and my servant David will be a prince among them. I, the LORD, have spoken."
+    },
+    {
+      "verse": 25,
+      "kjv": "And I will make with them a covenant of peace, and will cause the evil beasts to cease out of the land: and they shall dwell safely in the wilderness, and sleep in the woods.",
+      "web": "“ ‘I will make with them a covenant of peace, and will cause evil animals to cease out of the land. They will dwell securely in the wilderness, and sleep in the woods.",
+      "ct": "\"I will make a covenant of peace with them and rid the land of dangerous animals. They will live safely in the wilderness and sleep securely in the forests."
+    },
+    {
+      "verse": 26,
+      "kjv": "And I will make them and the places round about my hill a blessing; and I will cause the shower to come down in his season; there shall be showers of blessing.",
+      "web": "I will make them and the places around my hill a blessing. I will cause the shower to come down in its season. There will be showers of blessing.",
+      "ct": "I will bless them and the land surrounding my hill. I will send rain in its proper season — showers of blessing."
+    },
+    {
+      "verse": 27,
+      "kjv": "And the tree of the field shall yield her fruit, and the earth shall yield her increase, and they shall be safe in their land, and shall know that I am the LORD, when I have broken the bands of their yoke, and delivered them out of the hand of those that served themselves of them.",
+      "web": "The tree of the field will yield its fruit, and the earth will yield its increase, and they will be secure in their land. Then they will know that I am LORD, when I have broken the bars of their yoke, and have delivered them out of the hand of those who made slaves of them.",
+      "ct": "The trees will bear fruit, and the ground will produce its crops. My people will be secure in their land. They will know that I am the LORD when I break the chains of their yoke and free them from those who enslaved them."
+    },
+    {
+      "verse": 28,
+      "kjv": "And they shall no more be a prey to the heathen, neither shall the beast of the land devour them; but they shall dwell safely, and none shall make them afraid.",
+      "web": "They will no more be a prey to the nations, neither will the animals of the earth devour them; but they will dwell securely, and no one will make them afraid.",
+      "ct": "They will never again be plundered by the nations, and wild animals will no longer devour them. They will live in safety, and no one will make them afraid."
+    },
+    {
+      "verse": 29,
+      "kjv": "And I will raise up for them a plant of renown, and they shall be no more consumed with hunger in the land, neither bear the shame of the heathen any more.",
+      "web": "I will raise up to them a plantation for renown, and they will no more be consumed with famine in the land, and not bear the shame of the nations any more.",
+      "ct": "I will provide them with a land famous for its crops. They will never again suffer famine, and they will no longer endure the mockery of other nations."
+    },
+    {
+      "verse": 30,
+      "kjv": "Thus shall they know that I the LORD their God am with them, and that they, even the house of Israel, are my people, saith the Lord GOD.",
+      "web": "They will know that I, LORD, their God am with them, and that they, the house of Israel, are my people, says the Lord LORD.",
+      "ct": "Then they will know that I, the LORD their God, am with them, and that they — the house of Israel — are my people,\" declares the Lord GOD."
+    },
+    {
+      "verse": 31,
+      "kjv": "And ye my flock, the flock of my pasture, are men, and I am your God, saith the Lord GOD.",
+      "web": "You my sheep, the sheep of my pasture, are men, and I am your God,’ says the Lord LORD.”",
+      "ct": "\"You are my flock, the sheep of my pasture, and you are my people. I am your God,\" declares the Lord GOD."
+    }
+  ]
+}

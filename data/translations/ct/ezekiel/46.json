@@ -1,0 +1,155 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 46,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:42:28.492Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Thus saith the Lord GOD; The gate of the inner court that looketh toward the east shall be shut the six working days; but on the sabbath it shall be opened, and in the day of the new moon it shall be opened.",
+      "web": "“ ‘The Lord LORD says: “The gate of the inner court that looks toward the east shall be shut the six working days; but on the Sabbath day it shall be opened, and on the day of the new moon it shall be opened.",
+      "ct": "The Lord GOD says: \"The gate of the inner court that faces east must stay shut during the 6 working days, but it will be opened on the Sabbath and on the day of the new moon."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the prince shall enter by the way of the porch of that gate without, and shall stand by the post of the gate, and the priests shall prepare his burnt offering and his peace offerings, and he shall worship at the threshold of the gate: then he shall go forth; but the gate shall not be shut until the evening.",
+      "web": "The prince shall enter by the way of the porch of the gate outside, and shall stand by the post of the gate; and the priests shall prepare his burnt offering and his peace offerings, and he shall worship at the threshold of the gate. Then he shall go out; but the gate shall not be shut until the evening.",
+      "ct": "The prince will enter through the porchway of that gate from the outside and stand beside the gatepost. The priests will prepare his burnt offering and his peace offerings, and he will worship at the threshold of the gate. Then he will leave, but the gate must not be shut until evening."
+    },
+    {
+      "verse": 3,
+      "kjv": "Likewise the people of the land shall worship at the door of this gate before the LORD in the sabbaths and in the new moons.",
+      "web": "The people of the land shall worship at the door of that gate before LORD on the Sabbaths and on the new moons.",
+      "ct": "The common people will also worship at the entrance of this gate before the LORD on the Sabbaths and new moons."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the burnt offering that the prince shall offer unto the LORD in the sabbath day shall be six lambs without blemish, and a ram without blemish.",
+      "web": "The burnt offering that the prince shall offer to LORD shall be on the Sabbath day six lambs without defect and a ram without defect;",
+      "ct": "The burnt offering the prince presents to the LORD on the Sabbath will be 6 lambs without any defect and a ram without any defect."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the meat offering shall be an ephah for a ram, and the meat offering for the lambs as he shall be able to give, and an hin of oil to an ephah.",
+      "web": "and the meal offering shall be an ephah for the ram, and the meal offering for the lambs as he is able to give, and a hin of oil to an ephah.",
+      "ct": "The grain offering will be an ephah of flour for the ram, and for the lambs whatever he is able to give, along with a hin of oil for each ephah."
+    },
+    {
+      "verse": 6,
+      "kjv": "And in the day of the new moon it shall be a young bullock without blemish, and six lambs, and a ram: they shall be without blemish.",
+      "web": "On the day of the new moon it shall be a young bull without defect, and six lambs, and a ram. They shall be without defect.",
+      "ct": "On the day of the new moon, the offering will be a young bull without defect, 6 lambs, and a ram — all without any defect."
+    },
+    {
+      "verse": 7,
+      "kjv": "And he shall prepare a meat offering, an ephah for a bullock, and an ephah for a ram, and for the lambs according as his hand shall attain unto, and an hin of oil to an ephah.",
+      "web": "He shall prepare a meal offering, an ephah for the bull, and an ephah for the ram, and for the lambs according as he is able, and a hin of oil to an ephah.",
+      "ct": "He will prepare a grain offering of an ephah for the bull and an ephah for the ram. For the lambs, he will give whatever he can afford, along with a hin of oil for each ephah."
+    },
+    {
+      "verse": 8,
+      "kjv": "And when the prince shall enter, he shall go in by the way of the porch of that gate, and he shall go forth by the way thereof.",
+      "web": "When the prince enters, he shall go in by the way of the porch of the gate, and he shall go out by its way.",
+      "ct": "When the prince enters, he must go in through the porchway of the gate, and he must leave the same way."
+    },
+    {
+      "verse": 9,
+      "kjv": "But when the people of the land shall come before the LORD in the solemn feasts, he that entereth in by the way of the north gate to worship shall go out by the way of the south gate; and he that entereth by the way of the south gate shall go forth by the way of the north gate: he shall not return by the way of the gate whereby he came in, but shall go forth over against it.",
+      "web": "“ ‘ “But when the people of the land come before LORD in the appointed feasts, he who enters by the way of the north gate to worship shall go out by the way of the south gate; and he who enters by the way of the south gate shall go out by the way of the north gate. He shall not return by the way of the gate by which he came in, but shall go out straight before him.",
+      "ct": "But when the common people come before the LORD during the appointed feasts, anyone who enters through the north gate to worship must exit through the south gate, and anyone who enters through the south gate must exit through the north gate. No one may leave by the same gate they came in — they must go out the opposite side."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the prince in the midst of them, when they go in, shall go in; and when they go forth, shall go forth.",
+      "web": "The prince shall go in with them when they go in. When they go out, he shall go out.",
+      "ct": "The prince will enter along with the people when they come in, and he will leave when they leave."
+    },
+    {
+      "verse": 11,
+      "kjv": "And in the feasts and in the solemnities the meat offering shall be an ephah to a bullock, and an ephah to a ram, and to the lambs as he is able to give, and an hin of oil to an ephah.",
+      "web": "“ ‘ “In the feasts and in the solemnities the meal offering shall be an ephah for a bull, and an ephah for a ram, and for the lambs as he is able to give, and a hin of oil to an ephah.",
+      "ct": "At the feasts and appointed celebrations, the grain offering will be an ephah for each bull, an ephah for each ram, and whatever the giver can afford for the lambs, along with a hin of oil for each ephah."
+    },
+    {
+      "verse": 12,
+      "kjv": "Now when the prince shall prepare a voluntary burnt offering or peace offerings voluntarily unto the LORD, one shall then open him the gate that looketh toward the east, and he shall prepare his burnt offering and his peace offerings, as he did on the sabbath day: then he shall go forth; and after his going forth one shall shut the gate.",
+      "web": "When the prince prepares a free will offering, a burnt offering or peace offerings as a free will offering to LORD, one shall open for him the gate that looks toward the east; and he shall prepare his burnt offering and his peace offerings, as he does on the Sabbath day. Then he shall go out; and after his going out one shall shut the gate.",
+      "ct": "Whenever the prince wants to make a freewill offering to the LORD — whether a burnt offering or peace offerings given voluntarily — the east-facing gate will be opened for him. He will prepare his burnt offering and peace offerings just as he does on the Sabbath. Then he will leave, and after he goes out, the gate will be shut behind him."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou shalt daily prepare a burnt offering unto the LORD of a lamb of the first year without blemish: thou shalt prepare it every morning.",
+      "web": "“ ‘ “You shall prepare a lamb a year old without defect for a burnt offering to LORD daily. Morning by morning you shall prepare it.",
+      "ct": "Every day you must prepare a year-old lamb without defect as a burnt offering to the LORD. You must prepare it every morning."
+    },
+    {
+      "verse": 14,
+      "kjv": "And thou shalt prepare a meat offering for it every morning, the sixth part of an ephah, and the third part of an hin of oil, to temper with the fine flour; a meat offering continually by a perpetual ordinance unto the LORD.",
+      "web": "You shall prepare a meal offering with it morning by morning, the sixth part of an ephah, and the third part of a hin of oil, to moisten the fine flour; a meal offering to LORD continually by a perpetual ordinance.",
+      "ct": "Along with it, you must prepare a grain offering every morning: a 6th of an ephah of fine flour moistened with a 3rd of a hin of oil. This grain offering to the LORD is a permanent, ongoing requirement."
+    },
+    {
+      "verse": 15,
+      "kjv": "Thus shall they prepare the lamb, and the meat offering, and the oil, every morning for a continual burnt offering.",
+      "web": "Thus they shall prepare the lamb, the meal offering, and the oil, morning by morning, for a continual burnt offering.”",
+      "ct": "So the lamb, the grain offering, and the oil must be prepared every morning as a continual burnt offering.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Thus saith the Lord GOD; If the prince give a gift unto any of his sons, the inheritance thereof shall be his sons’; it shall be their possession by inheritance.",
+      "web": "“ ‘The Lord LORD says: “If the prince gives a gift to any of his sons, it is his inheritance. It shall belong to his sons. It is their possession by inheritance.",
+      "ct": "The Lord GOD says: \"If the prince gives a gift of land to any of his sons, it becomes their inheritance. It belongs to them as their permanent possession."
+    },
+    {
+      "verse": 17,
+      "kjv": "But if he give a gift of his inheritance to one of his servants, then it shall be his to the year of liberty; after it shall return to the prince: but his inheritance shall be his sons’ for them.",
+      "web": "But if he gives of his inheritance a gift to one of his servants, it shall be his to the year of liberty; then it shall return to the prince; but as for his inheritance, it shall be for his sons.",
+      "ct": "But if he gives a gift from his inheritance to one of his servants, it belongs to that servant only until the year of liberty, when it returns to the prince. Only gifts to his sons become permanent."
+    },
+    {
+      "verse": 18,
+      "kjv": "Moreover the prince shall not take of the people’s inheritance by oppression, to thrust them out of their possession; but he shall give his sons inheritance out of his own possession: that my people be not scattered every man from his possession.",
+      "web": "Moreover the prince shall not take of the people’s inheritance, to thrust them out of their possession. He shall give inheritance to his sons out of his own possession, that my people not each be scattered from his possession.” ’ ”",
+      "ct": "The prince must never seize land from the people by force or drive them off their property. He must provide for his sons only from his own holdings, so that none of my people are displaced from what belongs to them.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "After he brought me through the entry, which was at the side of the gate, into the holy chambers of the priests, which looked toward the north: and, behold, there was a place on the two sides westward.",
+      "web": "Then he brought me through the entry, which was at the side of the gate, into the holy rooms for the priests, which looked toward the north. Behold, there was a place on the back part westward.",
+      "ct": "Then the man brought me through the entrance beside the gate into the holy rooms reserved for the priests, which faced north. There I noticed a space at the far western end."
+    },
+    {
+      "verse": 20,
+      "kjv": "Then said he unto me, This is the place where the priests shall boil the trespass offering and the sin offering, where they shall bake the meat offering; that they bear them not out into the utter court, to sanctify the people.",
+      "web": "He said to me, “This is the place where the priests shall boil the trespass offering and the sin offering, and where they shall bake the meal offering; that they not bring them out into the outer court, to sanctify the people.”",
+      "ct": "He told me, \"This is where the priests will boil the guilt offering and the sin offering, and where they will bake the grain offering. They do this here so they don't carry the holy food out into the outer court and transfer its holiness to the people.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Then he brought me forth into the utter court, and caused me to pass by the four corners of the court; and, behold, in every corner of the court there was a court.",
+      "web": "Then he brought me out into the outer court, and caused me to pass by the four corners of the court; and behold, in every corner of the court there was a court.",
+      "ct": "Then he brought me out into the outer court and led me past the 4 corners of the courtyard. In each corner, there was a smaller enclosed court."
+    },
+    {
+      "verse": 22,
+      "kjv": "In the four corners of the court there were courts joined of forty cubits long and thirty broad: these four corners were of one measure.",
+      "web": "In the four corners of the court there were courts enclosed, forty cubits long and thirty wide. These four in the corners were the same size.",
+      "ct": "In all 4 corners of the court there were enclosed courtyards, each 40 cubits long and 30 cubits wide. All 4 were the same size."
+    },
+    {
+      "verse": 23,
+      "kjv": "And there was a row of building round about in them, round about them four, and it was made with boiling places under the rows round about.",
+      "web": "There was a wall around in them, around the four, and boiling places were made under the walls all around.",
+      "ct": "A stone ledge ran around the inside walls of each one, and cooking hearths were built into the base of these ledges all the way around."
+    },
+    {
+      "verse": 24,
+      "kjv": "Then said he unto me, These are the places of them that boil, where the ministers of the house shall boil the sacrifice of the people.",
+      "web": "Then he said to me, “These are the boiling houses, where the ministers of the house shall boil the sacrifice of the people.”",
+      "ct": "He said to me, \"These are the cooking areas where the temple servants will boil the sacrifices brought by the people.\""
+    }
+  ]
+}

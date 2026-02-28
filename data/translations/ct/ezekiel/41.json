@@ -1,0 +1,167 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 41,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:40:27.711Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Afterward he brought me to the temple, and measured the posts, six cubits broad on the one side, and six cubits broad on the other side, which was the breadth of the tabernacle.",
+      "web": "He brought me to the temple, and measured the posts, six cubits wide on the one side, and six cubits wide on the other side, which was the width of the tent.",
+      "ct": "Then the man brought me into the main hall of the temple and measured the doorposts — 6 cubits wide on one side and 6 cubits wide on the other, matching the width of the entrance structure."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the breadth of the door was ten cubits; and the sides of the door were five cubits on the one side, and five cubits on the other side: and he measured the length thereof, forty cubits: and the breadth, twenty cubits.",
+      "web": "The width of the entrance was ten cubits; and the sides of the entrance were five cubits on the one side, and five cubits on the other side. He measured its length, forty cubits, and the width, twenty cubits.",
+      "ct": "The entrance itself was 10 cubits wide, with walls extending 5 cubits on each side. He measured the length of the main hall at 40 cubits and its width at 20 cubits."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then went he inward, and measured the post of the door, two cubits; and the door, six cubits; and the breadth of the door, seven cubits.",
+      "web": "Then he went inward and measured each post of the entrance, two cubits; and the entrance, six cubits; and the width of the entrance, seven cubits.",
+      "ct": "Then he went further inside and measured the doorposts of the inner entrance — 2 cubits each. The entrance was 6 cubits wide, and the walls on either side were 7 cubits wide."
+    },
+    {
+      "verse": 4,
+      "kjv": "So he measured the length thereof, twenty cubits; and the breadth, twenty cubits, before the temple: and he said unto me, This is the most holy place.",
+      "web": "He measured its length, twenty cubits, and the width, twenty cubits, before the temple. He said to me, “This is the most holy place.”",
+      "ct": "He measured the inner room: 20 cubits long and 20 cubits wide, set behind the main hall. He told me, \"This is the most holy place.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "After he measured the wall of the house, six cubits; and the breadth of every side chamber, four cubits, round about the house on every side.",
+      "web": "Then he measured the wall of the house, six cubits; and the width of every side room, four cubits, all around the house on every side.",
+      "ct": "Next he measured the outer wall of the temple — 6 cubits thick — and the side rooms that surrounded the temple on every side, each 4 cubits wide."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the side chambers were three, one over another, and thirty in order; and they entered into the wall which was of the house for the side chambers round about, that they might have hold, but they had not hold in the wall of the house.",
+      "web": "The side rooms were in three stories, one over another, and thirty in order. They entered into the wall which belonged to the house for the side rooms all around, that they might be supported, and not penetrate the wall of the house.",
+      "ct": "The side rooms were stacked in 3 levels, with 30 rooms on each level. They were supported by ledges built into the temple's outer wall so that the beams wouldn't have to be inserted into the wall itself."
+    },
+    {
+      "verse": 7,
+      "kjv": "And there was an enlarging, and a winding about still upward to the side chambers: for the winding about of the house went still upward round about the house: therefore the breadth of the house was still upward, and so increased from the lowest chamber to the highest by the midst.",
+      "web": "The side rooms were wider on the higher levels, because the walls were narrower at the higher levels. Therefore the width of the house increased upward; and so one went up from the lowest level to the highest through the middle level.",
+      "ct": "The side rooms grew wider at each higher level because the temple wall narrowed as it went up. So the building got wider toward the top, and a person could go from the lowest level to the highest by way of the middle level."
+    },
+    {
+      "verse": 8,
+      "kjv": "I saw also the height of the house round about: the foundations of the side chambers were a full reed of six great cubits.",
+      "web": "I saw also that the house had a raised base all around. The foundations of the side rooms were a full reed of six great cubits.",
+      "ct": "I also noticed that the temple sat on a raised platform all around. The foundations of the side rooms measured a full reed — 6 long cubits."
+    },
+    {
+      "verse": 9,
+      "kjv": "The thickness of the wall, which was for the side chamber without, was five cubits: and that which was left was the place of the side chambers that were within.",
+      "web": "The thickness of the wall, which was for the side rooms, on the outside, was five cubits. That which was left was the place of the side rooms that belonged to the house.",
+      "ct": "The outer wall of the side rooms was 5 cubits thick. An open area remained between the side rooms attached to the temple"
+    },
+    {
+      "verse": 10,
+      "kjv": "And between the chambers was the wideness of twenty cubits round about the house on every side.",
+      "web": "Between the rooms was a width of twenty cubits around the house on every side.",
+      "ct": "and the other chambers, measuring 20 cubits wide all around the temple on every side."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the doors of the side chambers were toward the place that was left, one door toward the north, and another door toward the south: and the breadth of the place that was left was five cubits round about.",
+      "web": "The doors of the side rooms were toward an open area that was left, one door toward the north, and another door toward the south. The width of the open area was five cubits all around.",
+      "ct": "The side rooms opened onto this open area, with one door facing north and another facing south. The open area was 5 cubits wide all around."
+    },
+    {
+      "verse": 12,
+      "kjv": "Now the building that was before the separate place at the end toward the west was seventy cubits broad; and the wall of the building was five cubits thick round about, and the length thereof ninety cubits.",
+      "web": "The building that was before the separate place at the side toward the west was seventy cubits wide; and the wall of the building was five cubits thick all around, and its length ninety cubits.",
+      "ct": "A large building stood to the west, facing the temple's restricted area. It was 70 cubits wide, with walls 5 cubits thick all around, and 90 cubits long."
+    },
+    {
+      "verse": 13,
+      "kjv": "So he measured the house, an hundred cubits long; and the separate place, and the building, with the walls thereof, an hundred cubits long;",
+      "web": "So he measured the house, one hundred cubits long; and the separate place, and the building, with its walls, one hundred cubits long;",
+      "ct": "He measured the temple itself — 100 cubits long. The restricted area, the western building, and its walls also totaled 100 cubits in length."
+    },
+    {
+      "verse": 14,
+      "kjv": "Also the breadth of the face of the house, and of the separate place toward the east, an hundred cubits.",
+      "web": "also the width of the face of the house, and of the separate place toward the east, one hundred cubits.",
+      "ct": "The width of the temple's east-facing front, including the restricted area, was 100 cubits."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he measured the length of the building over against the separate place which was behind it, and the galleries thereof on the one side and on the other side, an hundred cubits, with the inner temple, and the porches of the court;",
+      "web": "He measured the length of the building before the separate place which was at its back, and its galleries on the one side and on the other side, one hundred cubits from the inner temple, and the porches of the court",
+      "ct": "He measured the length of the building facing the restricted area behind the temple, including its galleries on both sides — 100 cubits. This included the inner temple and the porches of the courtyard."
+    },
+    {
+      "verse": 16,
+      "kjv": "The door posts, and the narrow windows, and the galleries round about on their three stories, over against the door, cieled with wood round about, and from the ground up to the windows, and the windows were covered;",
+      "web": "the thresholds, and the closed windows, and the galleries around on their three stories, opposite the threshold, with wood ceilings all around, and from the ground up to the windows, (now the windows were covered),",
+      "ct": "The thresholds, the narrow windows, and the three-story galleries opposite the doorways were all paneled with wood from the floor up to the windows. The windows were covered with lattice."
+    },
+    {
+      "verse": 17,
+      "kjv": "To that above the door, even unto the inner house, and without, and by all the wall round about within and without, by measure.",
+      "web": "to the space above the door, even to the inner house, and outside, and by all the wall all around inside and outside, by measure.",
+      "ct": "This woodwork extended from above the doorway throughout the inner and outer rooms. Every wall surface — inside and outside — was measured and decorated according to a precise pattern."
+    },
+    {
+      "verse": 18,
+      "kjv": "And it was made with cherubims and palm trees, so that a palm tree was between a cherub and a cherub; and every cherub had two faces;",
+      "web": "It was made with cherubim and palm trees. A palm tree was between cherub and cherub, and every cherub had two faces;",
+      "ct": "The walls were carved with cherubim and palm trees, with a palm tree between each pair of cherubim. Every cherub had 2 faces:"
+    },
+    {
+      "verse": 19,
+      "kjv": "So that the face of a man was toward the palm tree on the one side, and the face of a young lion toward the palm tree on the other side: it was made through all the house round about.",
+      "web": "so that there was the face of a man toward the palm tree on the one side, and the face of a young lion toward the palm tree on the other side. It was made like this through all the house all around.",
+      "ct": "a human face looking toward the palm tree on one side, and a young lion's face looking toward the palm tree on the other side. These carvings covered every wall throughout the entire temple."
+    },
+    {
+      "verse": 20,
+      "kjv": "From the ground unto above the door were cherubims and palm trees made, and on the wall of the temple.",
+      "web": "Cherubim and palm trees were made from the ground to above the door. The wall of the temple was like this.",
+      "ct": "From the floor all the way up above the doorway, cherubim and palm trees were carved on the temple walls."
+    },
+    {
+      "verse": 21,
+      "kjv": "The posts of the temple were squared, and the face of the sanctuary; the appearance of the one as the appearance of the other.",
+      "web": "As for the temple, the door posts were squared. As for the face of the sanctuary, its appearance was as the appearance of the temple.",
+      "ct": "The doorposts of the main hall were square. The front of the most holy place looked just like the front of the main hall."
+    },
+    {
+      "verse": 22,
+      "kjv": "The altar of wood was three cubits high, and the length thereof two cubits; and the corners thereof, and the length thereof, and the walls thereof, were of wood: and he said unto me, This is the table that is before the LORD.",
+      "web": "The altar was of wood, three cubits high, and its length two cubits. Its corners, its length, and its walls were of wood. He said to me, “This is the table that is before LORD.”",
+      "ct": "A wooden altar stood there, 3 cubits high and 2 cubits long. Its corners, its base, and its sides were all made of wood. The man told me, \"This is the table that stands before the LORD.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And the temple and the sanctuary had two doors.",
+      "web": "The temple and the sanctuary had two doors.",
+      "ct": "Both the main hall and the most holy place had double doors."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the doors had two leaves apiece, two turning leaves; two leaves for the one door, and two leaves for the other door.",
+      "web": "The doors had two leaves each, two turning leaves: two for the one door, and two leaves for the other.",
+      "ct": "Each door had 2 swinging panels — 2 panels for one door and 2 panels for the other."
+    },
+    {
+      "verse": 25,
+      "kjv": "And there were made on them, on the doors of the temple, cherubims and palm trees, like as were made upon the walls; and there were thick planks upon the face of the porch without.",
+      "web": "There were made on them, on the doors of the temple, cherubim and palm trees, like those made on the walls. There was a threshold of wood on the face of the porch outside.",
+      "ct": "Cherubim and palm trees were carved on the temple doors, just like those on the walls. A wooden canopy covered the front of the outer porch."
+    },
+    {
+      "verse": 26,
+      "kjv": "And there were narrow windows and palm trees on the one side and on the other side, on the sides of the porch, and upon the side chambers of the house, and thick planks.",
+      "web": "There were closed windows and palm trees on the one side and on the other side, on the sides of the porch. This is how the side rooms of the house and the thresholds were arranged.",
+      "ct": "Narrow windows and palm tree carvings decorated both sides of the porch. The side rooms of the temple and the wooden canopies were arranged in the same way."
+    }
+  ]
+}
