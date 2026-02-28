@@ -2,8 +2,8 @@ import Link from "next/link";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Refund Policy - BibleSummary.ai",
-  description: "Refund Policy for BibleSummary.ai",
+  title: "Refund Policy - ClearBible.ai",
+  description: "Refund Policy for ClearBible.ai",
 };
 
 export default function RefundsPage() {
@@ -79,7 +79,7 @@ export default function RefundsPage() {
           <section>
             <h2 className="text-[17px] font-semibold mb-2">How to Request a Refund</h2>
             <p>
-              To request a refund, email us at <strong>support@biblesummary.ai</strong> with:
+              To request a refund, email us at <strong>support@clearbible.ai</strong> with:
             </p>
             <ul className="list-disc ml-5 mt-2 space-y-1">
               <li>The email address associated with your account</li>
@@ -110,7 +110,7 @@ export default function RefundsPage() {
             <h2 className="text-[17px] font-semibold mb-2">Contact</h2>
             <p>
               For refund requests or billing questions, contact us at{" "}
-              <strong>support@biblesummary.ai</strong>.
+              <strong>support@clearbible.ai</strong>.
             </p>
           </section>
         </div>

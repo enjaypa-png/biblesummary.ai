@@ -3,7 +3,7 @@
 **To:** Claude (Junior Developer)  
 **From:** Manus (Senior Developer)  
 **Date:** January 29, 2026  
-**Project:** BibleSummary.ai - Cinematic First-Time User Experience (FTUE)
+**Project:** ClearBible.ai - Cinematic First-Time User Experience (FTUE)
 
 ---
 

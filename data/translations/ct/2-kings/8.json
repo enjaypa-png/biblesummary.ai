@@ -1,0 +1,185 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T10:10:37.279Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then spake Elisha unto the woman, whose son he had restored to life, saying, Arise, and go thou and thine household, and sojourn wheresoever thou canst sojourn: for the LORD hath called for a famine; and it shall also come upon the land seven years.",
+      "web": "Now Elisha had spoken to the woman whose son he had restored to life, saying, “Arise, and go, you and your household, and stay for a while wherever you can; for LORD has called for a famine. It will also come on the land for seven years.”",
+      "ct": "Earlier, Elisha had spoken to the woman whose son he had brought back to life. He told her, \"Take your family and go live somewhere else — wherever you can find a place — because the LORD has declared a famine that will strike this land for 7 years.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And the woman arose, and did after the saying of the man of God: and she went with her household, and sojourned in the land of the Philistines seven years.",
+      "web": "The woman arose, and did according to the man of God’s word. She went with her household, and lived in the land of the Philistines for seven years.",
+      "ct": "The woman did exactly what the man of God said. She took her household and settled in the land of the Philistines for 7 years."
+    },
+    {
+      "verse": 3,
+      "kjv": "And it came to pass at the seven years’ end, that the woman returned out of the land of the Philistines: and she went forth to cry unto the king for her house and for her land.",
+      "web": "At the end of seven years, the woman returned from the land of the Philistines. Then she went out to beg the king for her house and for her land.",
+      "ct": "When the 7 years were over, the woman came back from Philistine territory. She went to the king to beg for the return of her house and her land."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the king talked with Gehazi the servant of the man of God, saying, Tell me, I pray thee, all the great things that Elisha hath done.",
+      "web": "Now the king was talking with Gehazi the servant of the man of God, saying, “Please tell me all the great things that Elisha has done.”",
+      "ct": "Now at that very time, the king happened to be talking with Gehazi, the servant of the man of God. He said, \"Tell me about all the amazing things Elisha has done.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And it came to pass, as he was telling the king how he had restored a dead body to life, that, behold, the woman, whose son he had restored to life, cried to the king for her house and for her land. And Gehazi said, My lord, O king, this is the woman, and this is her son, whom Elisha restored to life.",
+      "web": "As he was telling the king how he had restored to life him who was dead, behold, the woman, whose son he had restored to life, begged the king for her house and for her land. Gehazi said, “My lord, O king, this is the woman, and this is her son, whom Elisha restored to life.”",
+      "ct": "Right as Gehazi was telling the king how Elisha had brought a dead boy back to life, the very woman whose son Elisha had raised walked in to plead with the king about her house and land. Gehazi said, \"My lord the king — this is the woman! And this is her son, the one Elisha restored to life!\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And when the king asked the woman, she told him. So the king appointed unto her a certain officer, saying, Restore all that was hers, and all the fruits of the field since the day that she left the land, even until now.",
+      "web": "When the king asked the woman, she told him. So the king appointed to her a certain officer, saying, “Restore all that was hers, and all the fruits of the field since the day that she left the land, even until now.”",
+      "ct": "The king questioned the woman, and she confirmed the whole story. So the king assigned an official to her case and ordered, \"Give back everything that belongs to her, including all the crops her land produced from the day she left until now.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And Elisha came to Damascus; and Benhadad the king of Syria was sick; and it was told him, saying, The man of God is come hither.",
+      "web": "Elisha came to Damascus; and Benhadad the king of Syria was sick. He was told, “The man of God has come here.”",
+      "ct": "Elisha traveled to Damascus, where Benhadad king of Syria was sick. When the king was told, \"The man of God has come here,\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the king said unto Hazael, Take a present in thine hand, and go, meet the man of God, and enquire of the LORD by him, saying, Shall I recover of this disease?",
+      "web": "The king said to Hazael, “Take a present in your hand, and go, meet the man of God, and inquire of LORD by him, saying, ‘Will I recover from this sickness?’ ”",
+      "ct": "he said to Hazael, \"Take a gift and go meet the man of God. Ask the LORD through him, 'Will I recover from this illness?'\""
+    },
+    {
+      "verse": 9,
+      "kjv": "So Hazael went to meet him, and took a present with him, even of every good thing of Damascus, forty camels’ burden, and came and stood before him, and said, Thy son Benhadad king of Syria hath sent me to thee, saying, Shall I recover of this disease?",
+      "web": "So Hazael went to meet him, and took a present with him, even of every good thing of Damascus, forty camels’ burden, and came and stood before him, and said, “Your son Benhadad king of Syria has sent me to you, saying, ‘Will I recover from this sickness?’ ”",
+      "ct": "So Hazael went to meet Elisha, bringing a gift loaded on 40 camels — the finest goods Damascus had to offer. He stood before Elisha and said, \"Your son Benhadad, king of Syria, sent me to ask you, 'Will I recover from this illness?'\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And Elisha said unto him, Go, say unto him, Thou mayest certainly recover: howbeit the LORD hath shewed me that he shall surely die.",
+      "web": "Elisha said to him, “Go, tell him, ‘You will surely recover;’ however LORD has shown me that he will surely die.”",
+      "ct": "Elisha told him, \"Go tell him, 'You will certainly recover.' But the LORD has shown me that he will actually die.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And he settled his countenance stedfastly, until he was ashamed: and the man of God wept.",
+      "web": "He settled his gaze steadfastly on him, until he was ashamed. Then the man of God wept.",
+      "ct": "Elisha stared at Hazael with a fixed gaze for so long that Hazael became uncomfortable. Then the man of God began to weep."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Hazael said, Why weepeth my lord? And he answered, Because I know the evil that thou wilt do unto the children of Israel: their strong holds wilt thou set on fire, and their young men wilt thou slay with the sword, and wilt dash their children, and rip up their women with child.",
+      "web": "Hazael said, “Why do you weep, my lord?” He answered, “Because I know the evil that you will do to the children of Israel. You will set their strongholds on fire, and you will kill their young men with the sword, and will dash their little ones in pieces, and rip up their pregnant women.”",
+      "ct": "Hazael asked, \"Why are you crying, my lord?\" Elisha answered, \"Because I know the terrible things you will do to the people of Israel. You will set their fortresses on fire, slaughter their young men with the sword, smash their children to pieces, and rip open their pregnant women.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Hazael said, But what, is thy servant a dog, that he should do this great thing? And Elisha answered, The LORD hath shewed me that thou shalt be king over Syria.",
+      "web": "Hazael said, “But what is your servant, who is but a dog, that he could do this great thing?” Elisha answered, “LORD has shown me that you will be king over Syria.”",
+      "ct": "Hazael protested, \"How could your servant — a mere dog — ever do something so monstrous?\" Elisha replied, \"The LORD has shown me that you will become king over Syria.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "So he departed from Elisha, and came to his master; who said to him, What said Elisha to thee? And he answered, He told me that thou shouldest surely recover.",
+      "web": "Then he departed from Elisha, and came to his master, who said to him, “What did Elisha say to you?” He answered, “He told me that you would surely recover.”",
+      "ct": "Hazael left Elisha and returned to his master. Benhadad asked him, \"What did Elisha say to you?\" Hazael answered, \"He told me you will certainly recover.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And it came to pass on the morrow, that he took a thick cloth, and dipped it in water, and spread it on his face, so that he died: and Hazael reigned in his stead.",
+      "web": "On the next day, he took a thick cloth, dipped it in water, and spread it on his face, so that he died. Then Hazael reigned in his place.",
+      "ct": "But the next day, Hazael took a thick cloth, soaked it in water, and pressed it over Benhadad's face until he suffocated and died. Then Hazael took the throne in his place."
+    },
+    {
+      "verse": 16,
+      "kjv": "And in the fifth year of Joram the son of Ahab king of Israel, Jehoshaphat being then king of Judah, Jehoram the son of Je hoshaphat king of Judah began to reign.",
+      "web": "In the fifth year of Joram the son of Ahab king of Israel, Jehoshaphat being king of Judah then, Jehoram the son of Jehoshaphat king of Judah began to reign.",
+      "ct": "Jehoram son of Jehoshaphat became king of Judah during the 5th year of King Joram son of Ahab of Israel, while Jehoshaphat was still king of Judah."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thirty and two years old was he when he began to reign; and he reigned eight years in Jerusalem.",
+      "web": "He was thirty-two years old when he began to reign. He reigned eight years in Jerusalem.",
+      "ct": "Jehoram was 32 years old when he became king, and he ruled in Jerusalem for 8 years."
+    },
+    {
+      "verse": 18,
+      "kjv": "And he walked in the way of the kings of Israel, as did the house of Ahab: for the daughter of Ahab was his wife: and he did evil in the sight of the LORD.",
+      "web": "He walked in the way of the kings of Israel, as did Ahab’s house; for he married Ahab’s daughter. He did that which was evil in LORD’s sight.",
+      "ct": "He followed the ways of Israel's kings, just as Ahab's family had done — which wasn't surprising, since he had married Ahab's daughter. The LORD saw that he was evil."
+    },
+    {
+      "verse": 19,
+      "kjv": "Yet the LORD would not destroy Judah for David his servant’s sake, as he promised him to give him alway a light, and to his children.",
+      "web": "However LORD would not destroy Judah, for David his servant’s sake, as he promised him to give to him a lamp for his children always.",
+      "ct": "Even so, the LORD refused to destroy Judah, because of his promise to his servant David. He had promised David that his descendants would always have a lamp burning before him."
+    },
+    {
+      "verse": 20,
+      "kjv": "In his days Edom revolted from under the hand of Judah, and made a king over themselves.",
+      "web": "In his days Edom revolted from under the hand of Judah, and made a king over themselves.",
+      "ct": "During Jehoram's reign, Edom rebelled against Judah's control and set up their own king."
+    },
+    {
+      "verse": 21,
+      "kjv": "So Joram went over to Zair, and all the chariots with him: and he rose by night, and smote the Edomites which compassed him about, and the captains of the chariots: and the people fled into their tents.",
+      "web": "Then Joram passed over to Zair, and all his chariots with him: and he rose up by night, and struck the Edomites who surrounded him, and the captains of the chariots; and the people fled to their tents.",
+      "ct": "Joram marched to Zair with all his chariots. During the night, he attacked and broke through the Edomite forces that had surrounded him, along with their chariot commanders. But his own troops scattered and fled to their homes."
+    },
+    {
+      "verse": 22,
+      "kjv": "Yet Edom revolted from under the hand of Judah unto this day. Then Libnah revolted at the same time.",
+      "web": "So Edom revolted from under the hand of Judah to this day. Then Libnah revolted at the same time.",
+      "ct": "So Edom has remained independent from Judah to this day. Libnah also revolted at the same time."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the rest of the acts of Joram, and all that he did, are they not written in the book of the chronicles of the kings of Judah?",
+      "web": "The rest of the acts of Joram, and all that he did, aren’t they written in the book of the chronicles of the kings of Judah?",
+      "ct": "Everything else about Joram's reign and all that he did is recorded in the official history of Judah's kings."
+    },
+    {
+      "verse": 24,
+      "kjv": "And Joram slept with his fathers, and was buried with his fathers in the city of David: and Ahaziah his son reigned in his stead.",
+      "web": "Joram slept with his fathers, and was buried with his fathers in David’s city; and Ahaziah his son reigned in his place.",
+      "ct": "Joram died and was buried with his ancestors in the city of David. His son Ahaziah became king after him."
+    },
+    {
+      "verse": 25,
+      "kjv": "In the twelfth year of Joram the son of Ahab king of Israel did Ahaziah the son of Jehoram king of Judah begin to reign.",
+      "web": "In the twelfth year of Joram the son of Ahab king of Israel, Ahaziah the son of Jehoram king of Judah began to reign.",
+      "ct": "Ahaziah son of Jehoram became king of Judah during the 12th year of King Joram son of Ahab of Israel."
+    },
+    {
+      "verse": 26,
+      "kjv": "Two and twenty years old was Ahaziah when he began to reign; and he reigned one year in Jerusalem. And his mother’s name was Athaliah, the daughter of Omri king of Israel.",
+      "web": "Ahaziah was twenty-two years old when he began to reign; and he reigned one year in Jerusalem. His mother’s name was Athaliah the daughter of Omri king of Israel.",
+      "ct": "Ahaziah was 22 years old when he became king, and he ruled in Jerusalem for 1 year. His mother's name was Athaliah, granddaughter of King Omri of Israel."
+    },
+    {
+      "verse": 27,
+      "kjv": "And he walked in the way of the house of Ahab, and did evil in the sight of the LORD, as did the house of Ahab: for he was the son in law of the house of Ahab.",
+      "web": "He walked in the way of Ahab’s house, and did that which was evil in LORD’s sight, as did Ahab’s house; for he was the son-in-law of Ahab’s house.",
+      "ct": "He followed the ways of Ahab's family and did what the LORD saw as evil, just like Ahab's house — because he was related to Ahab's family by marriage."
+    },
+    {
+      "verse": 28,
+      "kjv": "And he went with Joram the son of Ahab to the war against Hazael king of Syria in Ramothgilead; and the Syrians wounded Joram.",
+      "web": "He went with Joram the son of Ahab to war against Hazael king of Syria at Ramoth Gilead, and the Syrians wounded Joram.",
+      "ct": "He joined Joram son of Ahab in a military campaign against King Hazael of Syria at Ramothgilead, where the Syrians wounded Joram."
+    },
+    {
+      "verse": 29,
+      "kjv": "And king Joram went back to be healed in Jezreel of the wounds which the Syrians had given him at Ramah, when he fought against Hazael king of Syria. And Ahaziah the son of Jehoram king of Judah went down to see Joram the son of Ahab in Jezreel, because he was sick.",
+      "web": "King Joram returned to be healed in Jezreel from the wounds which the Syrians had given him at Ramah, when he fought against Hazael king of Syria. Ahaziah the son of Jehoram king of Judah went down to see Joram the son of Ahab in Jezreel, because he was sick.",
+      "ct": "King Joram returned to Jezreel to recover from the wounds the Syrians had inflicted on him at Ramah during the battle against King Hazael of Syria. Ahaziah son of Jehoram, king of Judah, went down to Jezreel to visit Joram son of Ahab because he was recovering from his injuries."
+    }
+  ]
+}

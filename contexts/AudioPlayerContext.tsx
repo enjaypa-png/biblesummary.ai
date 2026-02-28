@@ -221,6 +221,10 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
         });
 
         if (!res.ok || !shouldContinueRef.current) {
+          if (!res.ok) {
+            const errBody = await res.text().catch(() => "");
+            console.error(`[Audio] TTS failed for verse ${verse.verse}: ${res.status} ${res.statusText}`, errBody);
+          }
           resolve(false);
           return;
         }
@@ -241,7 +245,9 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
           resolve(true);
         };
 
-        const onError = () => {
+        const onError = (e: Event) => {
+          const mediaError = (e.target as HTMLAudioElement)?.error;
+          console.error(`[Audio] Playback error for verse ${verse.verse}:`, mediaError?.message || "unknown");
           blobRef.current = null;
           URL.revokeObjectURL(url);
           resolve(false);
@@ -275,10 +281,11 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     });
   }, []);
 
-  // Play all verses sequentially
+  // Play all verses sequentially (skips failed verses instead of stopping)
   const playVerses = useCallback(async (verses: Verse[], startIndex: number = 0) => {
     const abortController = new AbortController();
     abortControllerRef.current = abortController;
+    let consecutiveFailures = 0;
 
     for (let i = startIndex; i < verses.length; i++) {
       // Check if we should stop
@@ -292,11 +299,24 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
       if (!shouldContinueRef.current) break;
 
       currentVerseIndexRef.current = i;
-      const success = await playVerse(verses[i], abortController.signal);
+      let success = await playVerse(verses[i], abortController.signal);
 
+      // Retry once on failure before skipping
       if (!success && shouldContinueRef.current) {
-        // Error occurred, stop playback
-        break;
+        await new Promise(resolve => setTimeout(resolve, 500));
+        success = await playVerse(verses[i], abortController.signal);
+      }
+
+      if (success) {
+        consecutiveFailures = 0;
+      } else if (shouldContinueRef.current) {
+        consecutiveFailures++;
+        console.warn(`[Audio] Verse ${verses[i].verse} failed, skipping (${consecutiveFailures} consecutive failures)`);
+        // Stop only if 3+ consecutive verses fail (likely API is down)
+        if (consecutiveFailures >= 3) {
+          console.error("[Audio] Too many consecutive failures, stopping playback");
+          break;
+        }
       }
     }
 

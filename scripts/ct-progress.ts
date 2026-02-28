@@ -1,5 +1,5 @@
 /**
- * Clear Translation (CT) Progress Report
+ * Clear Bible Translation (CT) Progress Report
  *
  * Shows how many chapters have been generated for each book,
  * what percentage of the Bible is complete, and what's left.
@@ -26,7 +26,7 @@ function main() {
   const books: Book[] = JSON.parse(fs.readFileSync(BOOKS_PATH, 'utf-8'));
 
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log('  Clear Translation (CT) — Progress Report');
+  console.log('  Clear Bible Translation (CT) — Progress Report');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
   let totalChapters = 0;

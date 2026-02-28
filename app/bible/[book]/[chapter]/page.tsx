@@ -113,7 +113,7 @@ export async function generateMetadata({ params }: PageProps) {
   const bookName = book ? book.name : params.book.charAt(0).toUpperCase() + params.book.slice(1);
 
   return {
-    title: `${bookName} ${params.chapter} - BibleSummary.ai`,
-    description: `Read ${bookName} chapter ${params.chapter} in King James Version or Clear Text — BibleSummary.ai`,
+    title: `${bookName} ${params.chapter} - ClearBible.ai`,
+    description: `Read ${bookName} chapter ${params.chapter} in King James Version or Clear Bible Translation — ClearBible.ai`,
   };
 }

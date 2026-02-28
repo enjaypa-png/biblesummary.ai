@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Checkout Canceled - BibleSummary.ai",
+  title: "Checkout Canceled - ClearBible.ai",
 };
 
 export default function PricingCancelPage() {

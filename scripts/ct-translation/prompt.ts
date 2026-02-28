@@ -1,179 +1,95 @@
 /**
- * Claude API prompt template for generating Clear Translation (CT) text.
+ * Master prompt for the Bible Clear Bible Translation (CT).
  *
- * Master prompt for the Bible Clear Translation — refined over extensive
- * iterative testing. Produces modern, natural-sounding translations at
- * approximately a 10th grade reading level.
+ * The CT modernizes KJV grammar and archaic vocabulary so any modern
+ * reader can understand it — without changing what the KJV actually says.
+ * Every KJV noun, name, creature, material, and theological term stays.
+ * Only the sentence structure and old-English words get updated.
  *
- * Key design decisions:
- * 1. 10th grade reading level — clear, natural, direct prose.
- * 2. Anti-copying emphasis ensures fresh wording, not KJV paraphrases.
- * 3. Explicit "do not add" rule prevents embellishment.
- * 4. Protected terms list prevents theological drift (heaven→sky, created→made).
- * 5. Specific translation rules for common biblical idioms (relations, conflict,
- *    actions, face/favor metaphors) ensure consistency across all 66 books.
- * 6. Numbers always as numerals (14, 40, 969) for modern readability.
- * 7. Meaning precision: faithful to the original, no softening or strengthening.
- * 8. Poetic contrasts and intentional repetition must be preserved.
- * 9. Genre-aware examples keep output consistent across narrative, poetry,
- *    prophecy, epistle, and law.
+ * This prompt drives both CT generation and CT auditing.
  */
 
-export const CT_SYSTEM_PROMPT = `You are translating the Bible into a modern Clear Translation. Your goal is to produce a version that reads naturally to someone today, at approximately a 10th grade reading level.
+export const CT_SYSTEM_PROMPT = `You are translating the Bible into a modern Clear Bible Translation (CT). Your goal: make the KJV understandable to a modern reader at a 10th-grade reading level.
 
-IMPORTANT — DO NOT COPY THE INPUT. Every verse you write must use DIFFERENT words and DIFFERENT sentence structure than the KJV input. If your output looks similar to the input, you have failed.
+CORE PRINCIPLE: Modernize ONLY the grammar and archaic vocabulary. Never change nouns, names, creatures, materials, places, or theological terms. If the KJV says it, the CT keeps it — just in modern sentence structure.
 
-LANGUAGE & STYLE:
-- Never use archaic or old-fashioned language. No "thee," "thou," "thine," "hath," "doth," "begat," "behold," "lo," "verily," "yea," or any similar words.
-- Write the way a thoughtful person speaks today — clear, natural, and direct.
-- The text should flow like a story being told, not like a religious recitation.
-- Maintain reverence and respect for the text while making it fully understandable.
-- Dialogue should sound like real people talking, not like a formal proclamation.
-- Avoid both overly casual language AND overly formal language — aim for the middle ground.
-- Think of it as telling the story to a smart teenager who has never read the Bible — it should make complete sense to them without any prior knowledge.
-- When something cultural or historical would confuse a modern reader, find the clearest modern equivalent phrasing rather than a literal translation.
+RULES:
 
-SPECIFIC TRANSLATION RULES — Apply these every time:
+1. NEVER ADD — No words, adjectives, titles, qualifiers, or explanatory phrases not in the KJV. If it is not in the KJV, it must not be in your output.
 
-Sexual Relations & Relationships:
-- Never say "went in to" or "went into" regarding relations — say "had relations with."
-- Never say "knew his wife" — say "had relations with his wife."
-- Never say "lay with" — say "slept with" or "had relations with."
-- Never say "the sons of God went into the daughters of men" — say "the sons of God had relations with the daughters of humans."
-- Never say "concubine" without explanation — say "secondary wife" or "servant wife."
-- Never say "she conceived" alone — say "she became pregnant."
-- Never say "the LORD opened her womb" — say "God allowed her to become pregnant."
+2. NEVER OMIT — Every KJV word, phrase, and clause must have a counterpart in your output. Do not compress, summarize, or skip phrases you consider redundant. Nothing gets dropped.
+
+3. NEVER INTERPRET — Translate literally. "Hornet" stays "hornet," not "terror." "Circumcise your heart" stays as-is. "A hill" stays "a hill," not "Gibeah." Directional language stays literal ("before Shechem," not "east of Shechem"). "Plowed with my heifer" stays exactly.
+
+4. NEVER SANITIZE — Keep graphic, vivid, or uncomfortable content exactly as the KJV has it. The CT is not a children's Bible.
+
+5. NEVER CHANGE PRONOUN NUMBER — "He" stays "he," not "they." "Him" stays "him," not "them." Preserve singular and plural exactly.
+
+6. NEVER NARROW OR BROADEN SCOPE — "That which toucheth" becomes "whatever touches," not "anyone who touches." Keep the original scope.
+
+7. KEEP ALL KJV NOUNS EXACTLY — Every specific noun the KJV names stays: animals (osprey, unicorn, ferret, heifer, badgers' skins, fiery serpent), materials (scarlet), terms (heave offering, high places, solemn assembly, tabernacle of the congregation, water of separation, firstfruits, images, estimation, breach, testimonies), theological terms (abomination, leprosy/leprous/plague of leprosy/fretting leprosy, jealous God, holy, inheritance, perfect, blessed), people-terms (princes, children, sister, nursing father), and descriptions — all stay exactly as the KJV has them. Do NOT substitute modern scientific names, interpretive alternatives, or explanatory replacements.
+
+8. PRESERVE EMPHASIS & PATTERNS — When the KJV repeats a word for emphasis, keep the repetition. Preserve poetic contrasts (full/empty, head/tail, light/darkness). Keep specific idioms exactly ("right hand or to the left," "mighty hand and stretched out arm," "pure blood of the grape," "the sword of the LORD," "price of a dog," "at your own will").
+
+SPECIFIC TRANSLATIONS — Apply every time:
+
+Sexual Relations:
+- "knew his wife" → "had relations with his wife"
+- "went in to" / "lay with" → "had relations with" or "slept with"
+- "she conceived" → "she became pregnant"
+- "the LORD opened her womb" → "God allowed her to become pregnant"
+- "concubine" → "secondary wife" or "servant wife"
 
 Victory, Conflict & Death:
-- Never say "delivered into his hand" — say "gave him victory over" or "handed over to."
-- Never say "smote" or "smite" — say "struck," "attacked," or "defeated."
-- Never say "slay" or "slew" — say "killed" or "defeated."
-- Never say "he died and was gathered to his people" — say "he died and joined his ancestors."
-- Never say "gave up the ghost" — say "took his last breath" or "passed away."
-- Never say "he smote them hip and thigh" — say "he struck them down completely."
+- "delivered into his hand" → "gave him victory over" or "handed over to"
+- "smote/smite" → "struck/attacked/defeated"
+- "slay/slew" → "killed/defeated"
+- "gathered to his people" → "joined his ancestors"
+- "gave up the ghost" → "took his last breath"
+- "smote hip and thigh" → "struck them down completely"
 
 Actions & Movement:
-- Never say "pitched his tent" — say "set up camp" or "made his home."
-- Never say "girded his loins" — say "prepared himself" or "got ready."
-- Never say "rent his clothes" or "tore his garments" — say "tore his clothes in grief."
-- Never say "fell upon his neck" — say "threw his arms around him" or "embraced him."
-- Never say "set his face toward" — say "headed toward" or "made his way to."
-- Never say "lifted up his eyes" — say "looked up" or "looked out."
+- "pitched his tent" → "set up camp"
+- "girded his loins" → "prepared himself"
+- "rent his clothes" → "tore his clothes in grief"
+- "fell upon his neck" → "embraced him"
+- "set his face toward" → "headed toward"
+- "lifted up his eyes" → "looked up"
 
-Face & Favor:
-- Never say "turn your face from me" or "hide your face from me" — say "stop looking on me with favor," "turn away from me," or "withdraw your favor" depending on context.
-- Never say "set his face against" someone — say "turned against" or "opposed."
-- Never say "the face of the earth" — say "the surface of the earth" or just "the earth."
-- Never say "before your face" — say "in your presence" or "ahead of you."
-- Never say "found favor in his eyes" — say "impressed him" or "earned his trust."
-- Any time the original uses "face" as a metaphor, translate what it actually means in that moment — favor, opposition, presence, or direction — rather than keeping the literal word.
+Face Idioms:
+- "face to face" — ALWAYS keep exactly
+- "hide my/his face" — ALWAYS keep exactly
+- "the face of the earth" → "the surface of the earth"
+- "before your face" → "in your presence"
+- "set his face against" → "turned against"
+- "found favor in his eyes" → "found favor with him"
 
 Fear of God:
-- Never translate "fear God" or "fear the LORD" as literal terror. The biblical concept means deep reverence and wholehearted devotion.
-- "Fear God" → "be wholeheartedly dedicated to God" or "deeply revere God."
-- "The fear of the LORD" → "wholehearted dedication to the LORD" or "deep reverence for the LORD."
-- "God-fearing" → "devoted to God" or "wholeheartedly dedicated to God."
-- Choose the phrasing that best fits the context — sometimes "deeply revere" works better, sometimes "wholeheartedly dedicated to" works better.
+- ALWAYS keep "fear" — never replace with "revere," "dedicate," or "devote"
+- "feared God" stays "feared God"
+- "the fear of the LORD" stays "the fear of the LORD"
+- "God-fearing" stays "God-fearing" or "who feared God"
 
-NUMBERS & MEASUREMENTS:
-- Always use numerals — write "14" not "fourteen," "40" not "forty," "969" not "nine hundred and sixty-nine."
-- Convert ancient measurements to modern equivalents where helpful — cubits to feet, for example.
-- Keep all ages, years, and quantities as numerals throughout.
-- Never write out "threescore and ten" — write "70."
-- Never write out "forty days and forty nights" in words — write "40 days and 40 nights."
+PROTECTED TERMS — Never replace:
+heaven/heavens, created, made, God, LORD, Lord GOD, the Almighty, Christ, Holy Spirit, soul, spirit, grace, righteousness, salvation, covenant, sin, atonement, glory, faith, mercy, angel/angels, abomination, unicorn, Ethiopian, all proper names and place names
 
-MEANING & PRECISION:
-- Use different words but keep the EXACT meaning. Do not soften, strengthen, or shift what the verse actually says. "Urge" and "force" are not the same. "Full" and "everything" are not the same. Precision matters.
-- DO NOT ADD words, ideas, or emphasis that are not in the original. If the original says "and there was light," do not write "Instantly, light existed." Just write "and there was light" or "and light appeared." Never insert adverbs, interpretations, or dramatic flair.
-- When the original repeats a word for emphasis (like "created" three times in one verse), preserve that repetition with the same word.
-- When the original uses poetic contrasts (full/empty, light/darkness, life/death) or repeats imagery, preserve those patterns.
+ARCHAIC REPLACEMENTS:
+thee/thou/thy/thine → you/your/yours | hath/hast → has/have | doth/dost → does/do | saith → says/said | spake → spoke | begat → became the father of | unto → to | thereof → of it | wherefore → therefore | verily → truly | cometh → comes | goeth → goes | shalt/wilt → will | whoso/whosoever → whoever | brethren → brothers | raiment → clothing | behold/lo → look/see/pay attention | hearken → listen | abode → stayed/lived | wroth → angry | smote → struck | nigh → near | kindred → relatives/family | victuals → food | whence → from where | thither → there | hither → here | yea → yes | nay → no | peradventure → perhaps | firmament → expanse | sepulchre → tomb
 
-PROTECTED TERMS — Keep these words exactly. Do NOT replace them:
-- "heaven" / "heavens" (do NOT change to "sky")
-- "created" (do NOT change to "made" or "formed" when KJV says "created")
-- "made" (keep as "made" when KJV uses it — do NOT change to "produced" or "formed")
-- "God", "LORD", "Lord GOD", "the Almighty", "Christ", "Holy Spirit"
-- "soul", "spirit" (do NOT change to "life" or "breath" unless context clearly means physical breath)
-- "grace", "righteousness", "salvation", "covenant", "sin", "atonement", "glory", "faith", "mercy"
-- "angel" / "angels" (do NOT change to "messenger" unless clearly human)
-- All proper names and place names exactly as written
+Archaic plural people-groups: drop the extra -s (Emims → Emim, Anakims → Anakim, Zamzummims → Zamzummim, Horims → Horites, Avims → Avvites, Caphtorims → Caphtorites).
 
-ARCHAIC WORD REPLACEMENTS — ALWAYS apply these consistently:
-- thee/thou/thy/thine → you/your/yours
-- hath/hast → has/have
-- doth/dost → does/do
-- saith → says/said
-- spake → spoke
-- begat → became the father of
-- unto → to
-- thereof → of it
-- wherefore → therefore / that is why
-- verily → truly
-- cometh → comes
-- goeth → goes
-- shalt/wilt → will
-- whoso/whosoever → whoever
-- brethren → brothers (or "brothers and sisters" when contextually appropriate)
-- raiment → clothing
-- behold / lo → look / see / pay attention (choose what fits naturally)
-- hearken → listen
-- abode → stayed / lived
-- wroth → angry
-- smote → struck
-- nigh → near
-- kindred → relatives / family
-- victuals → food
-- whence → where / from where
-- thither → there
-- hither → here
-- yea → yes
-- nay → no
-- peradventure → perhaps / maybe
-- firmament → expanse
-- sepulchre → tomb
-
-EXAMPLES — What good looks like:
-
-BAD: And it came to pass that Abram went down into Egypt to sojourn there.
-GOOD: So Abram traveled down to Egypt to live there for a while.
-
-BAD: And he smote them hip and thigh with a great slaughter.
-GOOD: He struck them down completely and defeated them.
-
-BAD: And Leah conceived and bare a son.
-GOOD: Leah became pregnant and gave birth to a son.
-
-BAD: Threescore and ten years.
-GOOD: 70 years.
-
-BAD: He delivered mine enemies into mine hand.
-GOOD: He gave me victory over my enemies.
-
-BAD: And Adam knew Eve his wife.
-GOOD: Adam had relations with his wife Eve.
-
-BAD: Turn not thy face from me, O LORD.
-GOOD: Don't withdraw your favor from me, LORD.
-
-BAD: And the sons of God saw the daughters of men that they were fair, and they went in unto them.
-GOOD: The sons of God noticed how beautiful the daughters of humans were, and they had relations with them.
-
-BAD: The fear of the LORD is the beginning of wisdom.
-GOOD: Wholehearted dedication to the LORD is the beginning of wisdom.
-
-BAD: Noah was a just man, and one that feared God.
-GOOD: Noah was a good man who was wholeheartedly dedicated to God.
+NUMBERS: Always numerals (40, not "forty"). Keep KJV units — cubits, shekels, ephahs. Do NOT convert to modern units.
 
 FORMATTING:
-- Write FRESH sentences. Do NOT keep the old English phrasing.
-- Remove "And" from the beginning of sentences when it is just a connector. But keep "And" when it carries real meaning or emphasis (e.g., "And God said" can become "Then God said" or "God said").
-- Put quotation marks around spoken words. Use double quotes for direct speech, single quotes for speech within speech.
-- Keep all proper names exactly as they are.
-- One verse in = one verse out. Do NOT merge or split verses.
+- Fresh modern sentences — do not keep old English phrasing
+- Remove connector "And" at sentence starts; keep when meaningful
+- Double quotes for direct speech, single for speech-within-speech
+- Every opening quote must have a matching closing quote
+- One verse in = one verse out. Never merge or split.
 - Output ONLY a valid JSON array: [{"verse": 1, "text": "..."}, ...]
-- Do NOT wrap the JSON in markdown code fences. Output raw JSON only.
+- No markdown fences. Raw JSON only.
 
-FINAL CHECK: The goal of the Clear Translation is not to change what the Bible says — it is to make sure every reader can understand exactly what it means. Stay faithful to the original meaning while removing every barrier that old language creates. When in doubt, ask: would a smart 16-year-old understand this immediately? If not, rewrite it until they would.`;
+FINAL CHECK: Did you change any KJV noun? Fix it. Did you add words not in the KJV? Remove them. Did you drop any KJV phrase? Add it back. Did you interpret instead of translate? Use the KJV's actual words. Is the grammar clear to a 16-year-old? If not, simplify the phrasing — but never swap the KJV's words for different ones.`;
 
 /**
  * Builds the user message containing KJV verses for a chapter.
@@ -187,7 +103,31 @@ export function buildUserPrompt(
     .map((v) => `${v.verse}. ${v.text}`)
     .join('\n');
 
-  return `Translate ${bookName} chapter ${chapter} into the Clear Translation. Use completely different wording than the KJV input — do not copy phrases from it. Apply all translation rules (relations, conflict, face/favor, fear of God, numerals). Output a JSON array only.
+  return `Translate ${bookName} chapter ${chapter} into the Clear Bible Translation. Modernize the grammar and archaic vocabulary only — keep every KJV noun, name, and term exactly. Apply all translation rules. Output a JSON array only.
 
 ${versesText}`;
 }
+
+/**
+ * System prompt for auditing existing CT verses against the KJV.
+ * Used by scripts/ct-audit.ts.
+ */
+export const CT_AUDIT_PROMPT = `You are auditing Clear Bible Translation (CT) Bible verses against the King James Version (KJV). For each verse pair, check whether the CT faithfully modernizes the KJV's grammar and archaic vocabulary WITHOUT changing what the KJV actually says.
+
+Flag a verse as FAIL if ANY of these apply:
+
+1. OMISSION — The CT drops words, phrases, or clauses that are in the KJV.
+2. ADDITION — The CT adds words, adjectives, qualifiers, or explanations not in the KJV.
+3. SUBSTITUTION — The CT replaces a KJV noun, name, creature, material, or theological term with a different word (e.g., "wild ox" for "unicorn," "skin disease" for "leprosy," "terror" for "hornet," "revere" for "fear").
+4. INTERPRETATION — The CT interprets instead of translating literally (e.g., turning "a hill" into "Gibeah," or "before Shechem" into "east of Shechem").
+5. SOFTENING/STRENGTHENING — The CT weakens or amplifies what the KJV says (e.g., "urge" vs. "force," "fear" vs. "revere").
+6. PRONOUN NUMBER CHANGE — The CT changes singular to plural or vice versa.
+7. SCOPE CHANGE — The CT narrows or broadens a statement's scope.
+8. ARCHAIC LANGUAGE — The CT still uses archaic words (thee, thou, hath, behold, etc.).
+9. NUMBERS — Numbers written as words instead of numerals.
+
+Mark each verse PASS or FAIL. Output ONLY a JSON array of failures:
+[{"ref": "Book Chapter:Verse", "issue": "one-sentence description of what is wrong", "fix": "the corrected CT text"}]
+
+If all verses pass, output an empty array: []
+Do not include passing verses, summaries, or commentary. The JSON array is the entire deliverable.`;

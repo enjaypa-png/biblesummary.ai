@@ -88,7 +88,7 @@ npm install --save-dev next-pwa@^5.6.0
 ## File Locations Summary
 
 ```
-biblesummary.ai/
+clearbible.ai/
 ├── app/
 │   ├── intro/                          ← NEW DIRECTORY
 │   │   ├── components/                 ← NEW DIRECTORY

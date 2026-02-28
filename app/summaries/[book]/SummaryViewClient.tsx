@@ -5,6 +5,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
 import { parseSummaryMarkdown } from "@/lib/parseSummary";
+import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
 import SummaryPaywall from "@/components/SummaryPaywall";
 
 interface SummaryViewClientProps {
@@ -43,6 +44,8 @@ export default function SummaryViewClient({
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [rateLimited, setRateLimited] = useState(false);
   const searchParams = useSearchParams();
+  const { settings, openPanel } = useReadingSettings();
+  const theme = themeStyles[settings.themeMode];
 
   // TTS state
   const [ttsState, setTtsState] = useState<TtsState>("idle");
@@ -60,13 +63,13 @@ export default function SummaryViewClient({
   }, [summaryText]);
 
   // Play a single chunk, returns true if finished successfully
-  const playChunk = useCallback(async (text: string): Promise<boolean> => {
+  const playChunk = useCallback(async (text: string, voiceId?: string): Promise<boolean> => {
     if (abortRef.current) return false;
 
     const response = await fetch("/api/tts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text }),
+      body: JSON.stringify({ text, voiceId }),
     });
 
     if (!response.ok || abortRef.current) return false;
@@ -75,19 +78,16 @@ export default function SummaryViewClient({
     if (abortRef.current) return false;
 
     const url = URL.createObjectURL(blob);
-    const audio = new Audio(url);
-    audioRef.current = audio;
+    const audio = audioRef.current;
+    if (!audio) return false;
+    audio.src = url;
 
     return new Promise<boolean>((resolve) => {
-      audio.onended = () => {
-        URL.revokeObjectURL(url);
-        resolve(true);
-      };
-      audio.onerror = () => {
-        URL.revokeObjectURL(url);
-        resolve(false);
-      };
-      audio.play().catch(() => resolve(false));
+      const onEnded = () => { URL.revokeObjectURL(url); resolve(true); };
+      const onError = () => { URL.revokeObjectURL(url); resolve(false); };
+      audio.addEventListener("ended", onEnded, { once: true });
+      audio.addEventListener("error", onError, { once: true });
+      audio.play().catch(() => { URL.revokeObjectURL(url); resolve(false); });
     });
   }, []);
 
@@ -96,19 +96,19 @@ export default function SummaryViewClient({
     const chunks = chunkText(getPlainText());
     abortRef.current = false;
     setTtsState("loading");
+    const voiceId = settings.voiceId;
 
     for (let i = 0; i < chunks.length; i++) {
       if (abortRef.current) break;
-      const ok = await playChunk(chunks[i]);
+      const ok = await playChunk(chunks[i], voiceId);
       if (i === 0 && !abortRef.current) setTtsState("playing");
       if (!ok) break;
     }
 
     if (!abortRef.current) {
       setTtsState("idle");
-      audioRef.current = null;
     }
-  }, [getPlainText, playChunk]);
+  }, [getPlainText, playChunk, settings.voiceId]);
 
   function handleTtsToggle() {
     if (ttsState === "idle") {
@@ -121,8 +121,7 @@ export default function SummaryViewClient({
       setTtsState("playing");
     } else if (ttsState === "loading") {
       abortRef.current = true;
-      audioRef.current?.pause();
-      audioRef.current = null;
+      if (audioRef.current) { audioRef.current.pause(); audioRef.current.src = ""; }
       setTtsState("idle");
     }
   }
@@ -133,7 +132,7 @@ export default function SummaryViewClient({
       abortRef.current = true;
       if (audioRef.current) {
         audioRef.current.pause();
-        audioRef.current = null;
+        audioRef.current.src = "";
       }
     };
   }, []);
@@ -218,16 +217,16 @@ export default function SummaryViewClient({
         onClick={handleTtsToggle}
         className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[13px] font-semibold active:opacity-70 transition-all"
         style={{
-          backgroundColor: isActive ? "var(--accent)" : "var(--card)",
-          color: isActive ? "white" : "var(--foreground)",
-          border: isActive ? "none" : "1px solid var(--border)",
+          backgroundColor: isActive ? "var(--accent)" : theme.card,
+          color: isActive ? "white" : theme.text,
+          border: isActive ? "none" : `1px solid ${theme.border}`,
         }}
       >
         {ttsState === "loading" ? (
           <>
             <div
               className="w-3.5 h-3.5 border-2 rounded-full animate-spin flex-shrink-0"
-              style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
+              style={{ borderColor: theme.border, borderTopColor: "var(--accent)" }}
             />
             Loading...
           </>
@@ -254,6 +253,24 @@ export default function SummaryViewClient({
             Listen
           </>
         )}
+      </button>
+    );
+  }
+
+  // Settings gear button for the header
+  function SettingsButton() {
+    return (
+      <button
+        onClick={openPanel}
+        title="Reading settings"
+        className="w-9 h-9 flex items-center justify-center rounded-full active:opacity-70 transition-opacity"
+        aria-label="Reading settings"
+        style={{ backgroundColor: theme.card }}
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke={theme.secondary} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+          <circle cx="12" cy="12" r="3" />
+        </svg>
       </button>
     );
   }
@@ -359,6 +376,8 @@ export default function SummaryViewClient({
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "var(--background)" }}>
+      {/* Persistent audio element for mobile-safe TTS playback */}
+      <audio ref={audioRef} playsInline style={{ display: "none" }} preload="none" />
       <header
         className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
         style={{
@@ -380,7 +399,10 @@ export default function SummaryViewClient({
           >
             {bookName}
           </h1>
-          <TtsButton />
+          <div className="flex items-center gap-2">
+            <TtsButton />
+            <SettingsButton />
+          </div>
         </div>
       </header>
 

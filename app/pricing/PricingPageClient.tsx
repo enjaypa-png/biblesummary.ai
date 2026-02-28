@@ -220,7 +220,7 @@ export default function PricingPageClient() {
 
               <div className="flex items-baseline justify-between mb-1 mt-1">
                 <h3 className="text-[18px] font-bold" style={{ color: "var(--foreground)" }}>
-                  BibleSummary Premium
+                  ClearBible Premium
                 </h3>
               </div>
               <p className="text-[13px] mb-4" style={{ color: "var(--foreground-secondary)" }}>
@@ -300,7 +300,7 @@ export default function PricingPageClient() {
               <ul className="space-y-2 text-[14px]" style={{ color: "var(--foreground)" }}>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Full King James Version and Clear Text — all 66 books</span>
+                  <span>Full King James Version and Clear Bible Translation — all 66 books</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
@@ -486,7 +486,7 @@ export default function PricingPageClient() {
           className="text-center text-[12px] leading-relaxed mt-8"
           style={{ color: "var(--foreground-secondary)" }}
         >
-          All paid features are optional. BibleSummary.ai is an educational reading tool.
+          All paid features are optional. ClearBible.ai is an educational reading tool.
           AI-generated content describes what the biblical text contains without interpretation.
           See our{" "}
           <Link href="/refunds" className="underline" style={{ color: "var(--accent)" }}>

@@ -28,57 +28,54 @@ export async function POST(req: NextRequest) {
         ? voiceId
         : FALLBACK_VOICE_ID;
 
-    // ElevenLabs streaming endpoint for real-time audio generation
-    const elevenlabsResponse = await fetch(
-      `https://api.elevenlabs.io/v1/text-to-speech/${selectedVoice}/stream`,
-      {
-        method: "POST",
-        headers: {
-          "xi-api-key": ELEVENLABS_API_KEY,
-          "Content-Type": "application/json",
-          Accept: "audio/mpeg",
+    // Use the non-streaming convert endpoint (more reliable on serverless)
+    // output_format is a query parameter per ElevenLabs docs
+    const url = `https://api.elevenlabs.io/v1/text-to-speech/${selectedVoice}?output_format=mp3_44100_128`;
+
+    const elevenlabsResponse = await fetch(url, {
+      method: "POST",
+      headers: {
+        "xi-api-key": ELEVENLABS_API_KEY,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        text: text.trim(),
+        model_id: "eleven_multilingual_v2",
+        voice_settings: {
+          stability: 0.85,
+          similarity_boost: 0.9,
         },
-        body: JSON.stringify({
-          text: text.trim(),
-          model_id: "eleven_turbo_v2",     // Fastest available model
-          voice_settings: {
-            stability: 0.85,        // Higher stability for speed
-            similarity_boost: 0.9,   // Maximum similarity  
-            style: 0.0,             // No style for fastest generation
-            use_speaker_boost: true, // Enhanced clarity
-          },
-          output_format: "mp3_22050_32", // Optimized for streaming
-          optimize_streaming_latency: 4, // Maximum latency optimization
-        }),
-      }
-    );
+      }),
+    });
 
     if (!elevenlabsResponse.ok) {
       const errorText = await elevenlabsResponse.text();
-      console.error("ElevenLabs streaming error:", errorText);
+      console.error("[TTS] ElevenLabs error:", elevenlabsResponse.status, errorText);
       return new Response(
-        JSON.stringify({ error: "Failed to generate audio" }),
+        JSON.stringify({
+          error: "TTS failed",
+          status: elevenlabsResponse.status,
+          detail: errorText,
+        }),
         { status: elevenlabsResponse.status, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    // Stream the audio response directly back to client
-    return new Response(elevenlabsResponse.body, {
+    // Buffer the full audio response before sending to client
+    const audioBuffer = await elevenlabsResponse.arrayBuffer();
+
+    return new Response(audioBuffer, {
       status: 200,
       headers: {
         "Content-Type": "audio/mpeg",
-        "Transfer-Encoding": "chunked",
-        "Connection": "keep-alive",
+        "Content-Length": audioBuffer.byteLength.toString(),
         "Cache-Control": "public, max-age=86400, s-maxage=604800",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "POST",
-        "Access-Control-Allow-Headers": "Content-Type",
       },
     });
   } catch (error) {
-    console.error("TTS streaming error:", error);
+    console.error("[TTS] Unexpected error:", error);
     return new Response(
-      JSON.stringify({ error: "Internal server error" }),
+      JSON.stringify({ error: "Internal server error", detail: String(error) }),
       { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }

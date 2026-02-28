@@ -1,0 +1,47 @@
+{
+  "book": "psalms",
+  "book_name": "Psalms",
+  "chapter": 23,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-26T09:03:10.604Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The LORD is my shepherd; I shall not want.",
+      "web": "LORD is my shepherd: I shall lack nothing.",
+      "ct": "The LORD is my shepherd — I have everything I need."
+    },
+    {
+      "verse": 2,
+      "kjv": "He maketh me to lie down in green pastures: he leadeth me beside the still waters.",
+      "web": "He makes me lie down in green pastures. He leads me beside still waters.",
+      "ct": "He lets me rest in green meadows and leads me to peaceful streams."
+    },
+    {
+      "verse": 3,
+      "kjv": "He restoreth my soul: he leadeth me in the paths of righteousness for his name’s sake.",
+      "web": "He restores my soul. He guides me in the paths of righteousness for his name’s sake.",
+      "ct": "He refreshes my soul and guides me along right paths for the sake of his name."
+    },
+    {
+      "verse": 4,
+      "kjv": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.",
+      "web": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me.",
+      "ct": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff — they comfort me."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.",
+      "web": "You prepare a table before me in the presence of my enemies. You anoint my head with oil. My cup runs over.",
+      "ct": "You prepare a table for me in the presence of my enemies. You anoint my head with oil, and my cup overflows."
+    },
+    {
+      "verse": 6,
+      "kjv": "Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.",
+      "web": "Surely goodness and loving kindness shall follow me all the days of my life, and I will dwell in LORD’s house forever.",
+      "ct": "Surely goodness and mercy will follow me all the days of my life, and I will dwell in the house of the LORD forever."
+    }
+  ]
+}

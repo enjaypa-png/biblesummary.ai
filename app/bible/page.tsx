@@ -57,6 +57,6 @@ export default async function BiblePage() {
 }
 
 export const metadata = {
-  title: "Bible Index - BibleSummary.ai",
+  title: "Bible Index - ClearBible.ai",
   description: "Navigate the King James Version Holy Bible. Browse books, chapters, and verses.",
 };

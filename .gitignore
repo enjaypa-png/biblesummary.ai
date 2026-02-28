@@ -13,6 +13,11 @@ tsconfig.tsbuildinfo
 
 # CT batch processing temp files
 data/translations/ct-batch/
+data/translations/ct-audit-batch/
+data/translations/ct-audit-manual-review.jsonl
 
 # Modernization script output (generated JSON files)
 scripts/modern-output/
+
+# Supabase CLI temp files
+supabase/.temp/

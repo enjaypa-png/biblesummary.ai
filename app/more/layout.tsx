@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "More - BibleSummary.ai",
-  description: "Settings and account for BibleSummary.ai.",
+  title: "More - ClearBible.ai",
+  description: "Settings and account for ClearBible.ai.",
 };
 
 export default function MoreLayout({

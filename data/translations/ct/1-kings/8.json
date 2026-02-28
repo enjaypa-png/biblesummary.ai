@@ -1,0 +1,407 @@
+{
+  "book": "1-kings",
+  "book_name": "1 Kings",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T09:17:08.770Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then Solomon assembled the elders of Israel, and all the heads of the tribes, the chief of the fathers of the children of Israel, unto king Solomon in Jerusalem, that they might bring up the ark of the covenant of the LORD out of the city of David, which is Zion.",
+      "web": "Then Solomon assembled the elders of Israel, with all the heads of the tribes, the princes of the fathers’ households of the children of Israel, to king Solomon in Jerusalem, to bring up the ark of LORD’s covenant out of David’s city, which is Zion.",
+      "ct": "Solomon called together all the elders of Israel, every tribal leader, and every head of the ancestral families to meet with him in Jerusalem. His purpose was to bring the ark of the covenant of the LORD up from the city of David, which is Zion."
+    },
+    {
+      "verse": 2,
+      "kjv": "And all the men of Israel assembled themselves unto king Solomon at the feast in the month Ethanim, which is the seventh month.",
+      "web": "All the men of Israel assembled themselves to king Solomon at the feast, in the month Ethanim, which is the seventh month.",
+      "ct": "All the men of Israel gathered before King Solomon for the festival in the month of Ethanim, which is the 7th month."
+    },
+    {
+      "verse": 3,
+      "kjv": "And all the elders of Israel came, and the priests took up the ark.",
+      "web": "All the elders of Israel came, and the priests picked up the ark.",
+      "ct": "Once all the elders of Israel arrived, the priests lifted the ark"
+    },
+    {
+      "verse": 4,
+      "kjv": "And they brought up the ark of the LORD, and the tabernacle of the congregation, and all the holy vessels that were in the tabernacle, even those did the priests and the Levites bring up.",
+      "web": "They brought up LORD’s ark, the Tent of Meeting, and all the holy vessels that were in the Tent. The priests and the Levites brought these up.",
+      "ct": "and carried it up to the temple, along with the Tent of Meeting and all the sacred items that had been kept inside it. The priests and the Levites brought everything up together."
+    },
+    {
+      "verse": 5,
+      "kjv": "And king Solomon, and all the congregation of Israel, that were assembled unto him, were with him before the ark, sacrificing sheep and oxen, that could not be told nor numbered for multitude.",
+      "web": "King Solomon and all the congregation of Israel, who were assembled to him, were with him before the ark, sacrificing sheep and cattle, that could not be counted or numbered for multitude.",
+      "ct": "King Solomon and the entire assembly of Israel gathered in front of the ark, sacrificing so many sheep and cattle that no one could count them all."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the priests brought in the ark of the covenant of the LORD unto his place, into the oracle of the house, to the most holy place, even under the wings of the cherubims.",
+      "web": "The priests brought in the ark of LORD’s covenant to its place, into the inner sanctuary of the house, to the most holy place, even under the cherubim’s wings.",
+      "ct": "The priests carried the ark of the covenant of the LORD to its designated place inside the inner sanctuary of the temple — the most holy place — and set it beneath the wings of the cherubim."
+    },
+    {
+      "verse": 7,
+      "kjv": "For the cherubims spread forth their two wings over the place of the ark, and the cherubims covered the ark and the staves thereof above.",
+      "web": "For the cherubim spread their wings out over the place of the ark, and the cherubim covered the ark and its poles above.",
+      "ct": "The cherubim's wings were spread wide over the spot where the ark rested, forming a canopy over the ark and its carrying poles."
+    },
+    {
+      "verse": 8,
+      "kjv": "And they drew out the staves, that the ends of the staves were seen out in the holy place before the oracle, and they were not seen without: and there they are unto this day.",
+      "web": "The poles were so long that the ends of the poles were seen from the holy place before the inner sanctuary; but they were not seen outside. They are there to this day.",
+      "ct": "The poles were long enough that their ends could be seen from the holy place in front of the inner sanctuary, but they couldn't be seen from outside. They remain there to this day."
+    },
+    {
+      "verse": 9,
+      "kjv": "There was nothing in the ark save the two tables of stone, which Moses put there at Horeb, when the LORD made a covenant with the children of Israel, when they came out of the land of Egypt.",
+      "web": "There was nothing in the ark except the two stone tablets which Moses put there at Horeb, when LORD made a covenant with the children of Israel, when they came out of the land of Egypt.",
+      "ct": "There was nothing inside the ark except the 2 stone tablets that Moses had placed there at Horeb, when the LORD made a covenant with the people of Israel after bringing them out of Egypt."
+    },
+    {
+      "verse": 10,
+      "kjv": "And it came to pass, when the priests were come out of the holy place, that the cloud filled the house of the LORD,",
+      "web": "It came to pass, when the priests had come out of the holy place, that the cloud filled LORD’s house,",
+      "ct": "When the priests came out of the holy place, a cloud filled the house of the LORD."
+    },
+    {
+      "verse": 11,
+      "kjv": "So that the priests could not stand to minister because of the cloud: for the glory of the LORD had filled the house of the LORD.",
+      "web": "so that the priests could not stand to minister by reason of the cloud; for LORD’s glory filled LORD’s house.",
+      "ct": "The priests couldn't continue their duties because of the cloud, for the glory of the LORD filled the entire house of the LORD."
+    },
+    {
+      "verse": 12,
+      "kjv": "Then spake Solomon, The LORD said that he would dwell in the thick darkness.",
+      "web": "Then Solomon said, “LORD has said that he would dwell in the thick darkness.",
+      "ct": "Then Solomon declared, \"The LORD has said that he would dwell in thick darkness."
+    },
+    {
+      "verse": 13,
+      "kjv": "I have surely built thee an house to dwell in, a settled place for thee to abide in for ever.",
+      "web": "I have surely built you a house of habitation, a place for you to dwell in forever.”",
+      "ct": "I have built a magnificent house for you — a permanent place for you to live forever.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And the king turned his face about, and blessed all the congregation of Israel: (and all the congregation of Israel stood;)",
+      "web": "The king turned his face around, and blessed all the assembly of Israel; and all the assembly of Israel stood.",
+      "ct": "Then the king turned around and blessed the whole assembly of Israel as they stood before him."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he said, Blessed be the LORD God of Israel, which spake with his mouth unto David my father, and hath with his hand fulfilled it, saying,",
+      "web": "He said, “Blessed is LORD, the God of Israel, who spoke with his mouth to David your father, and has with his hand fulfilled it, saying,",
+      "ct": "He said, \"Praise the LORD, the God of Israel! He personally promised my father David, and now with his own hand he has fulfilled that promise. He said,"
+    },
+    {
+      "verse": 16,
+      "kjv": "Since the day that I brought forth my people Israel out of Egypt, I chose no city out of all the tribes of Israel to build an house, that my name might be therein; but I chose David to be over my people Israel.",
+      "web": "‘Since the day that I brought my people Israel out of Egypt, I chose no city out of all the tribes of Israel to build a house, that my name might be there; but I chose David to be over my people Israel.’",
+      "ct": "'From the day I brought my people Israel out of Egypt, I never chose a city from any tribe of Israel as the place to build a house for my name. But I did choose David to rule over my people Israel.'"
+    },
+    {
+      "verse": 17,
+      "kjv": "And it was in the heart of David my father to build an house for the name of the LORD God of Israel.",
+      "web": "“Now it was in the heart of David my father to build a house for the name of LORD, the God of Israel.",
+      "ct": "My father David had his heart set on building a house for the name of the LORD, the God of Israel."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the LORD said unto David my father, Whereas it was in thine heart to build an house unto my name, thou didst well that it was in thine heart.",
+      "web": "But LORD said to David my father, ‘Whereas it was in your heart to build a house for my name, you did well that it was in your heart.",
+      "ct": "But the LORD told my father David, 'It was good that your heart wanted to build a house for my name."
+    },
+    {
+      "verse": 19,
+      "kjv": "Nevertheless thou shalt not build the house; but thy son that shall come forth out of thy loins, he shall build the house unto my name.",
+      "web": "Nevertheless, you shall not build the house; but your son who shall come out of your body, he shall build the house for my name.’",
+      "ct": "However, you are not the one who will build it. Your own son will be the one to build the house for my name.'"
+    },
+    {
+      "verse": 20,
+      "kjv": "And the LORD hath performed his word that he spake, and I am risen up in the room of David my father, and sit on the throne of Israel, as the LORD promised, and have built an house for the name of the LORD God of Israel.",
+      "web": "LORD has established his word that he spoke; for I have risen up in the place of David my father, and I sit on the throne of Israel, as LORD promised, and have built the house for the name of LORD, the God of Israel.",
+      "ct": "The LORD has kept his word. I have taken my father David's place and now sit on the throne of Israel, just as the LORD promised. And I have built this house for the name of the LORD, the God of Israel."
+    },
+    {
+      "verse": 21,
+      "kjv": "And I have set there a place for the ark, wherein is the covenant of the LORD, which he made with our fathers, when he brought them out of the land of Egypt.",
+      "web": "There I have set a place for the ark, in which is LORD’s covenant, which he made with our fathers, when he brought them out of the land of Egypt.”",
+      "ct": "I have prepared a place in it for the ark, which holds the covenant the LORD made with our ancestors when he brought them out of Egypt.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Solomon stood before the altar of the LORD in the presence of all the congregation of Israel, and spread forth his hands toward heaven:",
+      "web": "Solomon stood before LORD’s altar in the presence of all the assembly of Israel, and spread out his hands toward heaven;",
+      "ct": "Then Solomon stood before the altar of the LORD in front of the entire assembly of Israel and stretched out his hands toward heaven."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he said, LORD God of Israel, there is no God like thee, in heaven above, or on earth beneath, who keepest covenant and mercy with thy servants that walk before thee with all their heart:",
+      "web": "and he said, “LORD, the God of Israel, there is no God like you, in heaven above, or on earth beneath; who keeps covenant and loving kindness with your servants, who walk before you with all their heart;",
+      "ct": "He prayed, \"LORD, God of Israel, there is no God like you in heaven above or on earth below. You keep your covenant and show mercy to your servants who walk before you with all their heart."
+    },
+    {
+      "verse": 24,
+      "kjv": "Who hast kept with thy servant David my father that thou promisedst him: thou spakest also with thy mouth, and hast fulfilled it with thine hand, as it is this day.",
+      "web": "who has kept with your servant David my father that which you promised him. Yes, you spoke with your mouth, and have fulfilled it with your hand, as it is today.",
+      "ct": "You have kept the promise you made to your servant David, my father. What you spoke with your own mouth, you have fulfilled with your own hand — and today we see it."
+    },
+    {
+      "verse": 25,
+      "kjv": "Therefore now, LORD God of Israel, keep with thy servant David my father that thou promisedst him, saying, There shall not fail thee a man in my sight to sit on the throne of Israel; so that thy children take heed to their way, that they walk before me as thou hast walked before me.",
+      "web": "Now therefore, may LORD, the God of Israel, keep with your servant David my father that which you have promised him, saying, ‘There shall not fail from you a man in my sight to sit on the throne of Israel, if only your children take heed to their way, to walk before me as you have walked before me.’",
+      "ct": "Now, LORD, God of Israel, keep the other promise you made to my father David when you said, 'You will never lack a descendant to sit on the throne of Israel — as long as your sons are careful to walk before me the way you have walked before me.'"
+    },
+    {
+      "verse": 26,
+      "kjv": "And now, O God of Israel, let thy word, I pray thee, be verified, which thou spakest unto thy servant David my father.",
+      "web": "“Now therefore, God of Israel, please let your word be verified, which you spoke to your servant David my father.",
+      "ct": "So now, God of Israel, please let the word you spoke to your servant David my father prove true."
+    },
+    {
+      "verse": 27,
+      "kjv": "But will God indeed dwell on the earth? behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?",
+      "web": "But will God in very deed dwell on the earth? Behold, heaven and the heaven of heavens can’t contain you; how much less this house that I have built!",
+      "ct": "But will God really live on earth? The heavens — even the highest heavens — cannot contain you. How much less this house I have built!"
+    },
+    {
+      "verse": 28,
+      "kjv": "Yet have thou respect unto the prayer of thy servant, and to his supplication, O LORD my God, to hearken unto the cry and to the prayer, which thy servant prayeth before thee to day:",
+      "web": "Yet have respect for the prayer of your servant, and for his supplication, LORD my God, to listen to the cry and to the prayer which your servant prays before you today;",
+      "ct": "Yet please pay attention to the prayer of your servant and his plea, LORD my God. Hear the cry and the prayer that your servant is praying before you today."
+    },
+    {
+      "verse": 29,
+      "kjv": "That thine eyes may be open toward this house night and day, even toward the place of which thou hast said, My name shall be there: that thou mayest hearken unto the prayer which thy servant shall make toward this place.",
+      "web": "that your eyes may be open toward this house night and day, even toward the place of which you have said, ‘My name shall be there;’ to listen to the prayer which your servant prays toward this place.",
+      "ct": "May your eyes be open toward this house night and day — this place where you said, 'My name shall be there' — so that you will hear the prayer your servant prays toward this place."
+    },
+    {
+      "verse": 30,
+      "kjv": "And hearken thou to the supplication of thy servant, and of thy people Israel, when they shall pray toward this place: and hear thou in heaven thy dwelling place: and when thou hearest, forgive.",
+      "web": "Listen to the supplication of your servant, and of your people Israel, when they pray toward this place. Yes, hear in heaven, your dwelling place; and when you hear, forgive.",
+      "ct": "Hear the plea of your servant and of your people Israel when they pray toward this place. Hear from heaven, your dwelling place, and when you hear, forgive."
+    },
+    {
+      "verse": 31,
+      "kjv": "If any man trespass against his neighbour, and an oath be laid upon him to cause him to swear, and the oath come before thine altar in this house:",
+      "web": "“If a man sins against his neighbor, and an oath is laid on him to cause him to swear, and he comes and swears before your altar in this house;",
+      "ct": "When someone sins against their neighbor and is required to take an oath, and they come and swear before your altar in this house,"
+    },
+    {
+      "verse": 32,
+      "kjv": "Then hear thou in heaven, and do, and judge thy servants, condemning the wicked, to bring his way upon his head; and justifying the righteous, to give him according to his righteousness.",
+      "web": "then hear in heaven, and act, and judge your servants, condemning the wicked, to bring his way on his own head, and justifying the righteous, to give him according to his righteousness.",
+      "ct": "then hear from heaven and act. Judge between your servants — punish the guilty by bringing the consequences of their actions on their own head, and declare the innocent to be in the right, rewarding them for their righteousness."
+    },
+    {
+      "verse": 33,
+      "kjv": "When thy people Israel be smitten down before the enemy, because they have sinned against thee, and shall turn again to thee, and confess thy name, and pray, and make supplication unto thee in this house:",
+      "web": "“When your people Israel are struck down before the enemy, because they have sinned against you; if they turn again to you, and confess your name, and pray and make supplication to you in this house;",
+      "ct": "When your people Israel are defeated by an enemy because they have sinned against you, and then they turn back to you, praise your name, and pray and plead with you in this house,"
+    },
+    {
+      "verse": 34,
+      "kjv": "Then hear thou in heaven, and forgive the sin of thy people Israel, and bring them again unto the land which thou gavest unto their fathers.",
+      "web": "then hear in heaven, and forgive the sin of your people Israel, and bring them again to the land which you gave to their fathers.",
+      "ct": "then hear from heaven, forgive the sin of your people Israel, and bring them back to the land you gave their ancestors."
+    },
+    {
+      "verse": 35,
+      "kjv": "When heaven is shut up, and there is no rain, because they have sinned against thee; if they pray toward this place, and confess thy name, and turn from their sin, when thou afflictest them:",
+      "web": "“When the sky is shut up, and there is no rain, because they have sinned against you; if they pray toward this place, and confess your name, and turn from their sin, when you afflict them,",
+      "ct": "When the skies are shut and there is no rain because they have sinned against you, and then they pray toward this place, praise your name, and turn from their sin because you have humbled them,"
+    },
+    {
+      "verse": 36,
+      "kjv": "Then hear thou in heaven, and forgive the sin of thy servants, and of thy people Israel, that thou teach them the good way wherein they should walk, and give rain upon thy land, which thou hast given to thy people for an inheritance.",
+      "web": "then hear in heaven, and forgive the sin of your servants, and of your people Israel, when you teach them the good way in which they should walk; and send rain on your land, which you have given to your people for an inheritance.",
+      "ct": "then hear from heaven and forgive the sin of your servants, your people Israel. Teach them the right way to live, and send rain on the land you gave your people as their inheritance."
+    },
+    {
+      "verse": 37,
+      "kjv": "If there be in the land famine, if there be pestilence, blasting, mildew, locust, or if there be caterpiller; if their enemy besiege them in the land of their cities; whatsoever plague, whatsoever sickness there be;",
+      "web": "“If there is famine in the land, if there is pestilence, if there is blight, mildew, locust or caterpillar; if their enemy besieges them in the land of their cities; whatever plague, whatever sickness there is;",
+      "ct": "When famine strikes the land, or plague, or crop disease, or mildew, or locusts, or caterpillars — or when enemies lay siege to any of their cities — whatever disaster or sickness comes,"
+    },
+    {
+      "verse": 38,
+      "kjv": "What prayer and supplication soever be made by any man, or by all thy people Israel, which shall know every man the plague of his own heart, and spread forth his hands toward this house:",
+      "web": "whatever prayer and supplication is made by any man, or by all your people Israel, who shall each know the plague of his own heart, and spread out his hands toward this house,",
+      "ct": "whatever prayer or plea is made by anyone among your people Israel — each one aware of their own suffering and heartache — when they stretch out their hands toward this house,"
+    },
+    {
+      "verse": 39,
+      "kjv": "Then hear thou in heaven thy dwelling place, and forgive, and do, and give to every man according to his ways, whose heart thou knowest; (for thou, even thou only, knowest the hearts of all the children of men;)",
+      "web": "then hear in heaven, your dwelling place, and forgive, and act, and give to every man according to all his ways, whose heart you know (for you, even you only, know the hearts of all the children of men);",
+      "ct": "then hear from heaven, your dwelling place. Forgive, act, and deal with each person according to how they live, since you know their heart. You alone — only you — know what is truly in every human heart."
+    },
+    {
+      "verse": 40,
+      "kjv": "That they may fear thee all the days that they live in the land which thou gavest unto our fathers.",
+      "web": "that they may fear you all the days that they live in the land which you gave to our fathers.",
+      "ct": "Do this so that they will fear you for as long as they live in the land you gave our ancestors."
+    },
+    {
+      "verse": 41,
+      "kjv": "Moreover concerning a stranger, that is not of thy people Israel, but cometh out of a far country for thy name’s sake;",
+      "web": "“Moreover concerning the foreigner, who is not of your people Israel, when he comes out of a far country for your name’s sake",
+      "ct": "As for the foreigner who is not part of your people Israel but comes from a distant land because of your name —"
+    },
+    {
+      "verse": 42,
+      "kjv": "(For they shall hear of thy great name, and of thy strong hand, and of thy stretched out arm;) when he shall come and pray toward this house;",
+      "web": "(for they shall hear of your great name, and of your mighty hand, and of your outstretched arm); when he comes and prays toward this house;",
+      "ct": "because people everywhere will hear about your great name, your mighty hand, and your outstretched arm — when that person comes and prays toward this house,"
+    },
+    {
+      "verse": 43,
+      "kjv": "Hear thou in heaven thy dwelling place, and do according to all that the stranger calleth to thee for: that all people of the earth may know thy name, to fear thee, as do thy people Israel; and that they may know that this house, which I have builded, is called by thy name.",
+      "web": "hear in heaven, your dwelling place, and do according to all that the foreigner calls to you for; that all the peoples of the earth may know your name, to fear you, as do your people Israel, and that they may know that this house which I have built is called by your name.",
+      "ct": "hear from heaven, your dwelling place, and do whatever the foreigner asks of you. Do this so that all the peoples of the earth may know your name and fear you, just as your people Israel do, and so they may know that this house I have built bears your name."
+    },
+    {
+      "verse": 44,
+      "kjv": "If thy people go out to battle against their enemy, whithersoever thou shalt send them, and shall pray unto the LORD toward the city which thou hast chosen, and toward the house that I have built for thy name:",
+      "web": "“If your people go out to battle against their enemy, by whatever way you shall send them, and they pray to LORD toward the city which you have chosen, and toward the house which I have built for your name;",
+      "ct": "When your people go out to war against their enemies, wherever you send them, and they pray to the LORD toward this city you have chosen and the house I have built for your name,"
+    },
+    {
+      "verse": 45,
+      "kjv": "Then hear thou in heaven their prayer and their supplication, and maintain their cause.",
+      "web": "then hear in heaven their prayer and their supplication, and maintain their cause.",
+      "ct": "then hear their prayer and their plea from heaven, and uphold their cause."
+    },
+    {
+      "verse": 46,
+      "kjv": "If they sin against thee, (for there is no man that sinneth not,) and thou be angry with them, and deliver them to the enemy, so that they carry them away captives unto the land of the enemy, far or near;",
+      "web": "If they sin against you (for there is no man who doesn’t sin), and you are angry with them, and deliver them to the enemy, so that they carry them away captive to the land of the enemy, far off or near;",
+      "ct": "When they sin against you — and there is no one who does not sin — and you become angry with them and hand them over to an enemy who carries them away as captives to a foreign land, whether far away or nearby,"
+    },
+    {
+      "verse": 47,
+      "kjv": "Yet if they shall bethink themselves in the land whither they were carried captives, and repent, and make supplication unto thee in the land of them that carried them captives, saying, We have sinned, and have done perversely, we have committed wickedness;",
+      "web": "yet if they repent in the land where they are carried captive, and turn again, and make supplication to you in the land of those who carried them captive, saying, ‘We have sinned, and have done perversely; we have dealt wickedly;’",
+      "ct": "and if they come to their senses in the land of their captivity, and they repent and plead with you there, saying, 'We have sinned, we have done wrong, we have acted wickedly,'"
+    },
+    {
+      "verse": 48,
+      "kjv": "And so return unto thee with all their heart, and with all their soul, in the land of their enemies, which led them away captive, and pray unto thee toward their land, which thou gavest unto their fathers, the city which thou hast chosen, and the house which I have built for thy name:",
+      "web": "if they return to you with all their heart and with all their soul in the land of their enemies, who carried them captive, and pray to you toward their land, which you gave to their fathers, the city which you have chosen, and the house which I have built for your name;",
+      "ct": "and if they return to you with all their heart and all their soul while in the land of their enemies who took them captive, and they pray toward this land you gave their ancestors, toward this city you have chosen, and toward this house I have built for your name,"
+    },
+    {
+      "verse": 49,
+      "kjv": "Then hear thou their prayer and their supplication in heaven thy dwelling place, and maintain their cause,",
+      "web": "then hear their prayer and their supplication in heaven, your dwelling place, and maintain their cause;",
+      "ct": "then hear their prayer and their plea from heaven, your dwelling place, and uphold their cause."
+    },
+    {
+      "verse": 50,
+      "kjv": "And forgive thy people that have sinned against thee, and all their transgressions wherein they have transgressed against thee, and give them compassion before them who carried them captive, that they may have compassion on them:",
+      "web": "and forgive your people who have sinned against you, and all their transgressions in which they have transgressed against you; and give them compassion before those who carried them captive, that they may have compassion on them",
+      "ct": "Forgive your people who have sinned against you — forgive every offense they have committed — and cause their captors to show them mercy."
+    },
+    {
+      "verse": 51,
+      "kjv": "For they be thy people, and thine inheritance, which thou broughtest forth out of Egypt, from the midst of the furnace of iron:",
+      "web": "(for they are your people, and your inheritance, which you brought out of Egypt, from the middle of the iron furnace);",
+      "ct": "After all, they are your people, your own inheritance, the ones you brought out of Egypt, out of the iron furnace of slavery."
+    },
+    {
+      "verse": 52,
+      "kjv": "That thine eyes may be open unto the supplication of thy servant, and unto the supplication of thy people Israel, to hearken unto them in all that they call for unto thee.",
+      "web": "that your eyes may be open to the supplication of your servant, and to the supplication of your people Israel, to listen to them whenever they cry to you.",
+      "ct": "May your eyes be open to the plea of your servant and to the plea of your people Israel, listening to them whenever they cry out to you."
+    },
+    {
+      "verse": 53,
+      "kjv": "For thou didst separate them from among all the people of the earth, to be thine inheritance, as thou spakest by the hand of Moses thy servant, when thou broughtest our fathers out of Egypt, O LORD God.",
+      "web": "For you separated them from among all the peoples of the earth, to be your inheritance, as you spoke by Moses your servant, when you brought our fathers out of Egypt, Lord LORD.”",
+      "ct": "For you set them apart from all the peoples of the earth to be your own inheritance, just as you declared through your servant Moses when you brought our ancestors out of Egypt, O Lord GOD.\""
+    },
+    {
+      "verse": 54,
+      "kjv": "And it was so, that when Solomon had made an end of praying all this prayer and supplication unto the LORD, he arose from before the altar of the LORD, from kneeling on his knees with his hands spread up to heaven.",
+      "web": "It was so, that when Solomon had finished praying all this prayer and supplication to LORD, he arose from before LORD’s altar, from kneeling on his knees with his hands spread out toward heaven.",
+      "ct": "When Solomon finished praying this entire prayer and plea to the LORD, he rose from where he had been kneeling before the altar of the LORD, his hands stretched out toward heaven."
+    },
+    {
+      "verse": 55,
+      "kjv": "And he stood, and blessed all the congregation of Israel with a loud voice, saying,",
+      "web": "He stood, and blessed all the assembly of Israel with a loud voice, saying,",
+      "ct": "He stood and blessed the entire assembly of Israel in a loud voice, saying,"
+    },
+    {
+      "verse": 56,
+      "kjv": "Blessed be the LORD, that hath given rest unto his people Israel, according to all that he promised: there hath not failed one word of all his good promise, which he promised by the hand of Moses his servant.",
+      "web": "“Blessed be LORD, who has given rest to his people Israel, according to all that he promised. There has not failed one word of all his good promise, which he promised by Moses his servant.",
+      "ct": "\"Praise the LORD, who has given rest to his people Israel, just as he promised. Not a single word of all the good promises he made through his servant Moses has failed."
+    },
+    {
+      "verse": 57,
+      "kjv": "The LORD our God be with us, as he was with our fathers: let him not leave us, nor forsake us:",
+      "web": "May LORD our God be with us, as he was with our fathers. Let him not leave us or forsake us;",
+      "ct": "May the LORD our God be with us, just as he was with our ancestors. May he never leave us or abandon us."
+    },
+    {
+      "verse": 58,
+      "kjv": "That he may incline our hearts unto him, to walk in all his ways, and to keep his commandments, and his statutes, and his judgments, which he commanded our fathers.",
+      "web": "that he may incline our hearts to him, to walk in all his ways, and to keep his commandments, and his statutes, and his ordinances, which he commanded our fathers.",
+      "ct": "May he turn our hearts toward him, so that we walk in all his ways and keep his commands, his statutes, and his laws that he gave our ancestors."
+    },
+    {
+      "verse": 59,
+      "kjv": "And let these my words, wherewith I have made supplication before the LORD, be nigh unto the LORD our God day and night, that he maintain the cause of his servant, and the cause of his people Israel at all times, as the matter shall require:",
+      "web": "Let these my words, with which I have made supplication before LORD, be near to LORD our God day and night, that he may maintain the cause of his servant, and the cause of his people Israel, as every day requires;",
+      "ct": "May these words of mine, which I have prayed before the LORD, stay close to the LORD our God day and night, so that he upholds the cause of his servant and the cause of his people Israel — whatever each day requires."
+    },
+    {
+      "verse": 60,
+      "kjv": "That all the people of the earth may know that the LORD is God, and that there is none else.",
+      "web": "that all the peoples of the earth may know that LORD himself is God. There is no one else.",
+      "ct": "May this happen so that all the peoples of the earth will know that the LORD is God, and there is no other."
+    },
+    {
+      "verse": 61,
+      "kjv": "Let your heart therefore be perfect with the LORD our God, to walk in his statutes, and to keep his commandments, as at this day.",
+      "web": "“Let your heart therefore be perfect with LORD our God, to walk in his statutes, and to keep his commandments, as it is today.”",
+      "ct": "So let your hearts be fully devoted to the LORD our God — living by his statutes and keeping his commands, just as you are doing today.\""
+    },
+    {
+      "verse": 62,
+      "kjv": "And the king, and all Israel with him, offered sacrifice before the LORD.",
+      "web": "The king, and all Israel with him, offered sacrifice before LORD.",
+      "ct": "Then the king and all Israel with him offered sacrifices before the LORD."
+    },
+    {
+      "verse": 63,
+      "kjv": "And Solomon offered a sacrifice of peace offerings, which he offered unto the LORD, two and twenty thousand oxen, and an hundred and twenty thousand sheep. So the king and all the children of Israel dedicated the house of the LORD.",
+      "web": "Solomon offered for the sacrifice of peace offerings, which he offered to LORD, twenty two thousand head of cattle, and one hundred twenty thousand sheep. So the king and all the children of Israel dedicated LORD’s house.",
+      "ct": "Solomon offered peace offerings to the LORD: 22,000 cattle and 120,000 sheep. In this way, the king and all the people of Israel dedicated the house of the LORD."
+    },
+    {
+      "verse": 64,
+      "kjv": "The same day did the king hallow the middle of the court that was before the house of the LORD: for there he offered burnt offerings, and meat offerings, and the fat of the peace offerings: because the brasen altar that was before the LORD was too little to receive the burnt offerings, and meat offerings, and the fat of the peace offerings.",
+      "web": "The same day the king made the middle of the court holy that was before LORD’s house; for there he offered the burnt offering, and the meal offering, and the fat of the peace offerings, because the bronze altar that was before LORD was too little to receive the burnt offering, the meal offering, and the fat of the peace offerings.",
+      "ct": "That same day, the king consecrated the center of the courtyard in front of the house of the LORD. He offered burnt offerings, grain offerings, and the fat of the peace offerings there, because the bronze altar before the LORD was too small to hold all the burnt offerings, grain offerings, and fat of the peace offerings."
+    },
+    {
+      "verse": 65,
+      "kjv": "And at that time Solomon held a feast, and all Israel with him, a great congregation, from the entering in of Hamath unto the river of Egypt, before the LORD our God, seven days and seven days, even fourteen days.",
+      "web": "So Solomon held the feast at that time, and all Israel with him, a great assembly, from the entrance of Hamath to the brook of Egypt, before LORD our God, seven days and seven more days, even fourteen days.",
+      "ct": "Solomon held the festival at that time, and all Israel with him — a massive assembly of people from as far north as the entrance of Hamath to as far south as the river of Egypt. They celebrated before the LORD our God for 7 days, and then 7 more days — 14 days in all."
+    },
+    {
+      "verse": 66,
+      "kjv": "On the eighth day he sent the people away: and they blessed the king, and went unto their tents joyful and glad of heart for all the goodness that the LORD had done for David his servant, and for Israel his people.",
+      "web": "On the eighth day he sent the people away; and they blessed the king, and went to their tents joyful and glad in their hearts for all the goodness that LORD had shown to David his servant, and to Israel his people.",
+      "ct": "On the 8th day after the second week, he sent the people home. They blessed the king and returned to their homes full of joy and gladness for all the good things the LORD had done for his servant David and for his people Israel."
+    }
+  ]
+}

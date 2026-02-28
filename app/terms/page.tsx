@@ -2,8 +2,8 @@ import Link from "next/link";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Terms of Service - BibleSummary.ai",
-  description: "Terms of Service for BibleSummary.ai",
+  title: "Terms of Service - ClearBible.ai",
+  description: "Terms of Service for ClearBible.ai",
 };
 
 export default function TermsPage() {
@@ -43,7 +43,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-[17px] font-semibold mb-2">1. Agreement to Terms</h2>
             <p>
-              By accessing or using BibleSummary.ai (&ldquo;the Service&rdquo;), you agree to be
+              By accessing or using ClearBible.ai (&ldquo;the Service&rdquo;), you agree to be
               bound by these Terms of Service. If you do not agree to these terms, do not use the
               Service.
             </p>
@@ -52,14 +52,14 @@ export default function TermsPage() {
           <section>
             <h2 className="text-[17px] font-semibold mb-2">2. Description of Service</h2>
             <p>
-              BibleSummary.ai is a digital Bible reading application. The Service provides free
+              ClearBible.ai is a digital Bible reading application. The Service provides free
               access to the King James Version Bible text and audio playback. We also offer optional
               paid features including AI-generated book summaries and AI-generated verse
               explanations. These paid features are educational reading tools designed to help users
               retain and understand what they read.
             </p>
             <p className="mt-2">
-              BibleSummary.ai does not provide spiritual counseling, religious advice, pastoral
+              ClearBible.ai does not provide spiritual counseling, religious advice, pastoral
               guidance, or interpretive theology. All AI-generated content describes what the
               biblical text contains without theological interpretation.
             </p>
@@ -125,7 +125,7 @@ export default function TermsPage() {
             <h2 className="text-[17px] font-semibold mb-2">8. Intellectual Property</h2>
             <p>
               The King James Version Bible text is in the public domain. All other content,
-              including AI-generated summaries, app design, and branding, is owned by BibleSummary.ai
+              including AI-generated summaries, app design, and branding, is owned by ClearBible.ai
               and protected by applicable intellectual property laws.
             </p>
           </section>
@@ -151,7 +151,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-[17px] font-semibold mb-2">11. Limitation of Liability</h2>
             <p>
-              To the fullest extent permitted by law, BibleSummary.ai shall not be liable for any
+              To the fullest extent permitted by law, ClearBible.ai shall not be liable for any
               indirect, incidental, special, consequential, or punitive damages arising from your
               use of the Service.
             </p>
@@ -169,7 +169,7 @@ export default function TermsPage() {
             <h2 className="text-[17px] font-semibold mb-2">13. Contact</h2>
             <p>
               For questions about these Terms, contact us at{" "}
-              <strong>support@biblesummary.ai</strong>.
+              <strong>support@clearbible.ai</strong>.
             </p>
           </section>
         </div>

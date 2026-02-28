@@ -1,11 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 const FEATURES_FREE = [
-  { icon: "📖", name: "Two Bible Versions", desc: "Read the King James Version and the Clear Text — both included free." },
+  { icon: "📖", name: "Two Bible Versions", desc: "Read the King James Version and the Clear Bible Translation — both included free." },
   { icon: "🎧", name: "Read or Listen", desc: "Switch between text and audio anytime." },
   { icon: "🖍️", name: "Highlight", desc: "Mark meaningful passages as you read." },
   { icon: "📝", name: "Notes", desc: "Write your thoughts directly inside the text." },
@@ -28,9 +28,50 @@ const FEATURES_PREMIUM = [
 ];
 
 // Interactive demo component - this is the conversion engine
+const EXPLANATION_TEXT = "The famous saying \u2018money is the root of all evil\u2019 is actually a misquote. The verse doesn\u2019t say money is evil \u2014 it says the love of money is. Paul is warning against greed, not wealth itself. People consumed by the desire for more money wander from their faith and bring themselves unnecessary pain.";
+
 function VerseDemo() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(true);
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+
+  useEffect(() => {
+    setSpeechSupported(typeof window !== "undefined" && "speechSynthesis" in window);
+    return () => { if (typeof window !== "undefined" && "speechSynthesis" in window) speechSynthesis.cancel(); };
+  }, []);
+
+  // Stop speech when explanation is closed
+  useEffect(() => {
+    if (!showExplanation && isSpeaking) {
+      speechSynthesis.cancel();
+      setIsSpeaking(false);
+    }
+  }, [showExplanation, isSpeaking]);
+
+  const toggleSpeech = useCallback(() => {
+    if (!speechSupported) return;
+    if (isSpeaking) {
+      speechSynthesis.cancel();
+      setIsSpeaking(false);
+      return;
+    }
+    const utterance = new SpeechSynthesisUtterance(EXPLANATION_TEXT);
+    utterance.rate = 0.95;
+    utterance.pitch = 1;
+    // Pick a natural English voice if available
+    const voices = speechSynthesis.getVoices();
+    const preferred = voices.find(v => v.lang.startsWith("en") && v.name.toLowerCase().includes("natural"))
+      || voices.find(v => v.lang.startsWith("en") && !v.name.toLowerCase().includes("compact"))
+      || voices.find(v => v.lang.startsWith("en"));
+    if (preferred) utterance.voice = preferred;
+    utterance.onend = () => setIsSpeaking(false);
+    utterance.onerror = () => setIsSpeaking(false);
+    utteranceRef.current = utterance;
+    speechSynthesis.speak(utterance);
+    setIsSpeaking(true);
+  }, [isSpeaking, speechSupported]);
 
   return (
     <div style={{ maxWidth: 620, margin: "0 auto", fontFamily: "'Source Serif 4', Georgia, serif" }}>
@@ -52,7 +93,7 @@ function VerseDemo() {
           borderBottom: "1px solid #e8e5e0",
           fontFamily: "'DM Sans', sans-serif",
         }}>
-          <span style={{ fontSize: 13, color: "#8a8580", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>Genesis 1</span>
+          <span style={{ fontSize: 13, color: "#8a8580", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>1 Timothy 6</span>
           <div style={{ display: "flex", gap: 12 }}>
             <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🔖</span>
             <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🎧</span>
@@ -61,16 +102,13 @@ function VerseDemo() {
 
         {/* Verses */}
         <div style={{ padding: "28px 24px 20px" }}>
+          {/* Verse 9 - context */}
           <p style={{ fontSize: 17, lineHeight: 1.85, color: "#3a3530", margin: "0 0 16px" }}>
-            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>1</span>
-            In the beginning God created the heaven and the earth.
-          </p>
-          <p style={{ fontSize: 17, lineHeight: 1.85, color: "#3a3530", margin: "0 0 16px" }}>
-            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>2</span>
-            And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.
+            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>9</span>
+            But they that will be rich fall into temptation and a snare, and into many foolish and hurtful lusts, which drown men in destruction and perdition.
           </p>
 
-          {/* Interactive verse */}
+          {/* Verse 10 - interactive */}
           <div style={{ position: "relative" }}>
             <p
               onClick={() => setShowExplanation(!showExplanation)}
@@ -87,8 +125,8 @@ function VerseDemo() {
                 border: showExplanation ? "1.5px solid #c4b8ff" : "1.5px solid transparent",
               }}
             >
-              <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>3</span>
-              And God said, Let there be light: and there was light.
+              <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>10</span>
+              For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.
               {!showExplanation && (
                 <span style={{
                   display: "inline-block",
@@ -119,18 +157,49 @@ function VerseDemo() {
                 borderLeft: "3px solid #7c5cfc",
                 animation: "slideDown 0.35s ease",
               }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
-                  <span style={{ fontSize: 14 }}>✨</span>
-                  <span style={{
-                    fontSize: 12,
-                    fontWeight: 700,
-                    color: "#7c5cfc",
-                    letterSpacing: 0.8,
-                    textTransform: "uppercase",
-                    fontFamily: "'DM Sans', sans-serif",
-                  }}>
-                    Plain-Language Explanation
-                  </span>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <span style={{ fontSize: 14 }}>✨</span>
+                    <span style={{
+                      fontSize: 12,
+                      fontWeight: 700,
+                      color: "#7c5cfc",
+                      letterSpacing: 0.8,
+                      textTransform: "uppercase",
+                      fontFamily: "'DM Sans', sans-serif",
+                    }}>
+                      Plain-Language Explanation
+                    </span>
+                  </div>
+                  {speechSupported && (
+                    <button
+                      onClick={(e) => { e.stopPropagation(); toggleSpeech(); }}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 5,
+                        padding: "4px 12px",
+                        fontSize: 12,
+                        fontWeight: 600,
+                        fontFamily: "'DM Sans', sans-serif",
+                        color: isSpeaking ? "#fff" : "#7c5cfc",
+                        background: isSpeaking ? "#7c5cfc" : "#fff",
+                        border: "1.5px solid #7c5cfc",
+                        borderRadius: 20,
+                        cursor: "pointer",
+                        transition: "all 0.2s ease",
+                      }}
+                    >
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        {isSpeaking ? (
+                          <><rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" /></>
+                        ) : (
+                          <><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" /><path d="M15.54 8.46a5 5 0 0 1 0 7.07" /><path d="M19.07 4.93a10 10 0 0 1 0 14.14" /></>
+                        )}
+                      </svg>
+                      {isSpeaking ? "Stop" : "Listen"}
+                    </button>
+                  )}
                 </div>
                 <p style={{
                   fontSize: 15,
@@ -139,7 +208,7 @@ function VerseDemo() {
                   margin: 0,
                   fontFamily: "'DM Sans', sans-serif",
                 }}>
-                  This verse describes God speaking light into existence. It is the first recorded act of creation through spoken word — God commands, and it happens. Light appears before the sun and moon are created (which happens on Day 4), marking it as a distinct creative act that separates the initial darkness described in verse 2.
+                  {EXPLANATION_TEXT}
                 </p>
               </div>
             )}
@@ -187,18 +256,23 @@ function VerseDemo() {
               textTransform: "uppercase",
               fontFamily: "'DM Sans', sans-serif",
             }}>
-              Chapter Summary — Genesis 1
+              Chapter Summary — 1 Timothy 6
             </span>
           </div>
-          <p style={{
+          <ul style={{
             fontSize: 15,
             lineHeight: 1.75,
             color: "#4a4550",
             margin: 0,
+            paddingLeft: 20,
             fontFamily: "'DM Sans', sans-serif",
           }}>
-            Genesis 1 describes the creation of the world over six days. God creates light, separates the sky from the waters, forms dry land and vegetation, places the sun, moon, and stars, fills the seas and sky with living creatures, and finally creates humans — male and female — in His image. God gives humans authority over all living things. After each act of creation, God sees that it is good. On the seventh day, He rests.
-          </p>
+            <li style={{ marginBottom: 6 }}>Paul instructs Timothy on how servants should treat their masters.</li>
+            <li style={{ marginBottom: 6 }}>He warns against false teachers who use religion as a way to get rich.</li>
+            <li style={{ marginBottom: 6 }}>He describes contentment as &ldquo;great gain&rdquo; — having food and clothing should be enough.</li>
+            <li style={{ marginBottom: 6 }}>He warns that the desire for wealth leads to temptation, destruction, and wandering from faith.</li>
+            <li>He tells Timothy to pursue righteousness, godliness, faith, love, and endurance instead.</li>
+          </ul>
         </div>
       )}
     </div>
@@ -320,7 +394,7 @@ function StepCard({ number, title, desc }: { number: string; title: string; desc
   );
 }
 
-export default function BibleSummaryLanding() {
+export default function ClearBibleLanding() {
   return (
     <div style={{
       fontFamily: "'DM Sans', sans-serif",
@@ -378,9 +452,9 @@ export default function BibleSummaryLanding() {
           <div style={{ marginBottom: 28, animation: "fadeUp 0.5s ease both" }}>
             <Image
               src="/brand/logo.svg"
-              alt="BibleSummary.ai"
+              alt="ClearBible.ai"
               width={400}
-              height={130}
+              height={108}
               priority
               style={{ margin: "0 auto", maxWidth: 400, width: "100%", height: "auto" }}
             />
@@ -395,8 +469,8 @@ export default function BibleSummaryLanding() {
             marginBottom: 20,
             animation: "fadeUp 0.7s ease both",
           }}>
-            <span style={{ color: "#7c5cfc" }}>Reading</span> the Bible shouldn&apos;t feel like{" "}
-            <span style={{ color: "#7c5cfc" }}>homework.</span>
+            <span style={{ color: "#7c5cfc" }}>The Bible.</span> Finally easy to{" "}
+            <span style={{ color: "#7c5cfc" }}>understand.</span>
           </h1>
 
           <p style={{
@@ -407,7 +481,7 @@ export default function BibleSummaryLanding() {
             margin: "0 auto 36px",
             animation: "fadeUp 0.7s ease 0.15s both",
           }}>
-            AI-powered summaries and verse explanations that make every chapter click.
+            Read in plain modern English or the KJV — free forever. AI explains every verse instantly.
           </p>
 
           <div style={{
@@ -554,7 +628,7 @@ export default function BibleSummaryLanding() {
             maxWidth: 460,
             margin: "0 auto",
           }}>
-            Tap verse 3 below, then check out the chapter summary.
+            Tap verse 10 below, then check out the chapter summary.
           </p>
         </div>
 
@@ -730,7 +804,7 @@ export default function BibleSummaryLanding() {
           flexWrap: "wrap",
         }}>
           <StepCard number="1" title="Pick a Book" desc="Choose any of the 66 books of the Bible." />
-          <StepCard number="2" title="Read or Listen" desc="Full KJV and Clear Text with audio playback for every chapter." />
+          <StepCard number="2" title="Read or Listen" desc="Full KJV and Clear Bible Translation with audio playback for every chapter." />
           <StepCard number="3" title="Go Deeper" desc="Tap any verse for a plain-language explanation." />
         </div>
       </section>
@@ -749,7 +823,7 @@ export default function BibleSummaryLanding() {
             lineHeight: 1.7,
             color: "#8a8580",
           }}>
-            BibleSummary.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains in plain language.
+            ClearBible.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains in plain language.
           </p>
         </div>
       </section>
@@ -776,7 +850,7 @@ export default function BibleSummaryLanding() {
           maxWidth: 420,
           margin: "0 auto 32px",
         }}>
-          Start reading the King James Version or Clear Text today — completely free. Upgrade anytime.
+          Start reading the King James Version or Clear Bible Translation today — completely free. Upgrade anytime.
         </p>
         <div style={{
           display: "flex",
@@ -826,7 +900,7 @@ export default function BibleSummaryLanding() {
         <div style={{ marginBottom: 16 }}>
           <Image
             src="/brand/logo-icon.svg"
-            alt="BibleSummary.ai"
+            alt="ClearBible.ai"
             width={40}
             height={40}
             style={{ margin: "0 auto 12px", height: "auto", objectFit: "contain" }}
@@ -853,10 +927,10 @@ export default function BibleSummaryLanding() {
           ))}
         </div>
         <p style={{ fontSize: 13, color: "#b0a89e" }}>
-          support@biblesummary.ai
+          support@clearbible.ai
         </p>
         <p style={{ fontSize: 12, color: "#ccc", marginTop: 4 }}>
-          &copy; {new Date().getFullYear()} BibleSummary.ai
+          &copy; {new Date().getFullYear()} ClearBible.ai
         </p>
       </footer>
     </div>

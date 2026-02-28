@@ -1,0 +1,179 @@
+{
+  "book": "1-kings",
+  "book_name": "1 Kings",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T09:14:21.006Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Solomon made affinity with Pharaoh king of Egypt, and took Pharaoh’s daughter, and brought her into the city of David, until he had made an end of building his own house, and the house of the LORD, and the wall of Jerusalem round about.",
+      "web": "Solomon made an alliance with Pharaoh king of Egypt, and took Pharaoh’s daughter, and brought her into David’s city, until he had finished building his own house, LORD’s house, and the wall around Jerusalem.",
+      "ct": "Solomon formed an alliance with Pharaoh, the king of Egypt, by marrying Pharaoh's daughter. He brought her to live in the city of David while he finished building his own palace, the house of the LORD, and the wall around Jerusalem."
+    },
+    {
+      "verse": 2,
+      "kjv": "Only the people sacrificed in high places, because there was no house built unto the name of the LORD, until those days.",
+      "web": "However the people sacrificed in the high places, because there was not yet a house built for LORD’s name.",
+      "ct": "At that time, the people were still offering sacrifices at hilltop shrines, because no house had yet been built for the name of the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Solomon loved the LORD, walking in the statutes of David his father: only he sacrificed and burnt incense in high places.",
+      "web": "Solomon loved LORD, walking in the statutes of David his father; except that he sacrificed and burned incense in the high places.",
+      "ct": "Solomon loved the LORD and followed the ways his father David had taught him, though he still offered sacrifices and burned incense at the hilltop shrines."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the king went to Gibeon to sacrifice there; for that was the great high place: a thousand burnt offerings did Solomon offer upon that altar.",
+      "web": "The king went to Gibeon to sacrifice there; for that was the great high place. Solomon offered a thousand burnt offerings on that altar.",
+      "ct": "The king traveled to Gibeon to offer sacrifices there, because it was the most important of the hilltop shrines. Solomon presented 1,000 burnt offerings on that altar."
+    },
+    {
+      "verse": 5,
+      "kjv": "In Gibeon the LORD appeared to Solomon in a dream by night: and God said, Ask what I shall give thee.",
+      "web": "In Gibeon, LORD appeared to Solomon in a dream by night; and God said, “Ask for what I should give you.”",
+      "ct": "That night at Gibeon, the LORD appeared to Solomon in a dream. God said, \"Ask me for whatever you want, and I will give it to you.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Solomon said, Thou hast shewed unto thy servant David my father great mercy, according as he walked before thee in truth, and in righteousness, and in uprightness of heart with thee; and thou hast kept for him this great kindness, that thou hast given him a son to sit on his throne, as it is this day.",
+      "web": "Solomon said, “You have shown to your servant David my father great loving kindness, because he walked before you in truth, in righteousness, and in uprightness of heart with you. You have kept for him this great loving kindness, that you have given him a son to sit on his throne, as it is today.",
+      "ct": "Solomon answered, \"You showed tremendous mercy to your servant, my father David, because he lived before you with honesty, righteousness, and an upright heart. And you have continued that great kindness by giving him a son to sit on his throne — as I do today."
+    },
+    {
+      "verse": 7,
+      "kjv": "And now, O LORD my God, thou hast made thy servant king instead of David my father: and I am but a little child: I know not how to go out or come in.",
+      "web": "Now, LORD my God, you have made your servant king instead of David my father. I am just a little child. I don’t know how to go out or come in.",
+      "ct": "Now, LORD my God, you have made me king in my father David's place, but I'm like a young child. I don't even know how to carry out my duties."
+    },
+    {
+      "verse": 8,
+      "kjv": "And thy servant is in the midst of thy people which thou hast chosen, a great people, that cannot be numbered nor counted for multitude.",
+      "web": "Your servant is among your people which you have chosen, a great people, that can’t be numbered or counted for multitude.",
+      "ct": "Your servant stands in the middle of the people you have chosen — a nation so vast it can't be numbered or counted."
+    },
+    {
+      "verse": 9,
+      "kjv": "Give therefore thy servant an understanding heart to judge thy people, that I may discern between good and bad: for who is able to judge this thy so great a people?",
+      "web": "Give your servant therefore an understanding heart to judge your people, that I may discern between good and evil; for who is able to judge this great people of yours?”",
+      "ct": "So give your servant a heart that understands, so I can govern your people and tell the difference between right and wrong. For who could possibly judge a people as great as yours?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the speech pleased the LORD, that Solomon had asked this thing.",
+      "web": "This request pleased the Lord, that Solomon had asked this thing.",
+      "ct": "The LORD was pleased that Solomon had asked for this."
+    },
+    {
+      "verse": 11,
+      "kjv": "And God said unto him, Because thou hast asked this thing, and hast not asked for thyself long life; neither hast asked riches for thyself, nor hast asked the life of thine enemies; but hast asked for thyself understanding to discern judgment;",
+      "web": "God said to him, “Because you have asked this thing, and have not asked for yourself long life, nor have you asked for riches for yourself, nor have you asked for the life of your enemies, but have asked for yourself understanding to discern justice;",
+      "ct": "God said to him, \"Because you asked for this — and didn't ask for a long life, or wealth for yourself, or the death of your enemies, but instead asked for the understanding to make wise judgments —"
+    },
+    {
+      "verse": 12,
+      "kjv": "Behold, I have done according to thy words: lo, I have given thee a wise and an understanding heart; so that there was none like thee before thee, neither after thee shall any arise like unto thee.",
+      "web": "behold, I have done according to your word. Behold, I have given you a wise and understanding heart; so that there has been no one like you before you, and after you none will arise like you.",
+      "ct": "I have done exactly what you asked. I'm giving you a heart so wise and discerning that no one before you has ever been your equal, and no one after you ever will be."
+    },
+    {
+      "verse": 13,
+      "kjv": "And I have also given thee that which thou hast not asked, both riches, and honour: so that there shall not be any among the kings like unto thee all thy days.",
+      "web": "I have also given you that which you have not asked, both riches and honor, so that there will not be any among the kings like you for all your days.",
+      "ct": "On top of that, I'm giving you what you didn't ask for — both riches and honor — so that no other king will compare to you for as long as you live."
+    },
+    {
+      "verse": 14,
+      "kjv": "And if thou wilt walk in my ways, to keep my statutes and my commandments, as thy father David did walk, then I will lengthen thy days.",
+      "web": "If you will walk in my ways, to keep my statutes and my commandments, as your father David walked, then I will lengthen your days.”",
+      "ct": "And if you walk in my ways and obey my statutes and commands, just as your father David did, then I will also give you a long life.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And Solomon awoke; and, behold, it was a dream. And he came to Jerusalem, and stood before the ark of the covenant of the LORD, and offered up burnt offerings, and offered peace offerings, and made a feast to all his servants.",
+      "web": "Solomon awoke; and behold, it was a dream. Then he came to Jerusalem, and stood before the ark of LORD’s covenant, and offered up burnt offerings, offered peace offerings, and made a feast for all his servants.",
+      "ct": "Solomon woke up and realized it had been a dream. He went to Jerusalem, stood before the ark of the covenant of the LORD, and offered burnt offerings and peace offerings. Then he held a feast for all his officials."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then came there two women, that were harlots, unto the king, and stood before him.",
+      "web": "Then two women who were prostitutes came to the king, and stood before him.",
+      "ct": "Sometime later, 2 women who were prostitutes came and stood before the king."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the one woman said, O my lord, I and this woman dwell in one house; and I was delivered of a child with her in the house.",
+      "web": "The one woman said, “Oh, my lord, I and this woman dwell in one house. I delivered a child with her in the house.",
+      "ct": "The first woman said, \"My lord, this woman and I live in the same house. I gave birth to a baby while she was there with me."
+    },
+    {
+      "verse": 18,
+      "kjv": "And it came to pass the third day after that I was delivered, that this woman was delivered also: and we were together; there was no stranger with us in the house, save we two in the house.",
+      "web": "The third day after I delivered, this woman delivered also. We were together. There was no stranger with us in the house, just us two in the house.",
+      "ct": "3 days after my baby was born, she also gave birth. We were alone — no one else was in the house, just the 2 of us."
+    },
+    {
+      "verse": 19,
+      "kjv": "And this woman’s child died in the night; because she overlaid it.",
+      "web": "This woman’s child died in the night, because she lay on it.",
+      "ct": "During the night, her baby died because she rolled over on it."
+    },
+    {
+      "verse": 20,
+      "kjv": "And she arose at midnight, and took my son from beside me, while thine handmaid slept, and laid it in her bosom, and laid her dead child in my bosom.",
+      "web": "She arose at midnight, and took my son from beside me, while your servant slept, and laid it in her bosom, and laid her dead child in my bosom.",
+      "ct": "So she got up in the middle of the night and took my son from beside me while I was sleeping. She put him at her breast and laid her dead child next to me."
+    },
+    {
+      "verse": 21,
+      "kjv": "And when I rose in the morning to give my child suck, behold, it was dead: but when I had considered it in the morning, behold, it was not my son, which I did bear.",
+      "web": "When I rose in the morning to nurse my child, behold, it was dead; but when I had looked at it in the morning, behold, it was not my son, whom I bore.”",
+      "ct": "When I got up in the morning to nurse my baby, I saw that it was dead. But when I looked more closely in the daylight, I realized it wasn't my son at all.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And the other woman said, Nay; but the living is my son, and the dead is thy son. And this said, No; but the dead is thy son, and the living is my son. Thus they spake before the king.",
+      "web": "The other woman said, “No; but the living one is my son, and the dead one is your son.” The first one said, “No; but the dead one is your son, and the living one is my son.” They argued like this before the king.",
+      "ct": "The other woman cut in, \"No! The living baby is my son, and the dead one is yours!\" But the first woman shot back, \"No! The dead one is yours, and the living one is mine!\" They went back and forth like this in front of the king."
+    },
+    {
+      "verse": 23,
+      "kjv": "Then said the king, The one saith, This is my son that liveth, and thy son is the dead: and the other saith, Nay; but thy son is the dead, and my son is the living.",
+      "web": "Then the king said, “One says, ‘This is my son who lives, and your son is the dead;’ and the other says, ‘No; but your son is the dead one, and my son is the living one.’ ”",
+      "ct": "The king said, \"So one of you claims, 'My son is the one who's alive, and your son is dead,' and the other one says, 'No, your son is dead, and my son is alive.'\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And the king said, Bring me a sword. And they brought a sword before the king.",
+      "web": "The king said, “Get me a sword.” So they brought a sword before the king.",
+      "ct": "Then the king said, \"Bring me a sword.\" So they brought a sword to him."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the king said, Divide the living child in two, and give half to the one, and half to the other.",
+      "web": "The king said, “Divide the living child in two, and give half to the one, and half to the other.”",
+      "ct": "The king ordered, \"Cut the living child in 2 and give half to each woman.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "Then spake the woman whose the living child was unto the king, for her bowels yearned upon her son, and she said, O my lord, give her the living child, and in no wise slay it. But the other said, Let it be neither mine nor thine, but divide it.",
+      "web": "Then the woman whose the living child was spoke to the king, for her heart yearned over her son, and she said, “Oh, my lord, give her the living child, and in no way kill him!” But the other said, “He shall be neither mine nor yours. Divide him.”",
+      "ct": "The woman whose son was actually alive was overwhelmed with love for her child. She cried out, \"Please, my lord — give her the baby! Just don't kill him!\" But the other woman said, \"Neither of us will have him. Go ahead and divide him.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Then the king answered and said, Give her the living child, and in no wise slay it: she is the mother thereof.",
+      "web": "Then the king answered, “Give her the living child, and definitely do not kill him. She is his mother.”",
+      "ct": "Then the king gave his ruling: \"Give the living child to the first woman. Do not kill him. She is his real mother.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And all Israel heard of the judgment which the king had judged; and they feared the king: for they saw that the wisdom of God was in him, to do judgment.",
+      "web": "All Israel heard of the judgment which the king had judged; and they feared the king; for they saw that the wisdom of God was in him, to do justice.",
+      "ct": "When all of Israel heard about the king's judgment, they stood in awe of him, because they could see that the wisdom of God was in him, guiding him to deliver justice."
+    }
+  ]
+}

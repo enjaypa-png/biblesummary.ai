@@ -1,4 +1,4 @@
-# BibleSummary.ai Opening Experience - Implementation Summary
+# ClearBible.ai Opening Experience - Implementation Summary
 
 **Prepared by:** Manus AI (Senior Developer)  
 **Date:** January 29, 2026  
@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-I have completed a comprehensive analysis of your BibleSummary.ai codebase and prepared a complete implementation plan for the cinematic opening experience described in your handoff documents. All code has been written, documented, and organized for your junior developer (Claude) to execute.
+I have completed a comprehensive analysis of your ClearBible.ai codebase and prepared a complete implementation plan for the cinematic opening experience described in your handoff documents. All code has been written, documented, and organized for your junior developer (Claude) to execute.
 
 **Status:** Ready for your review and approval before deployment.
 
@@ -53,7 +53,7 @@ After completion, users are seamlessly transitioned to the main Bible reading in
 ### File Structure
 
 ```
-biblesummary.ai/
+clearbible.ai/
 ├── app/
 │   ├── intro/                          # NEW: Opening experience route
 │   │   ├── layout.tsx                  # Clean layout (no tab bar)
@@ -153,7 +153,7 @@ Before Claude can implement this, you need to prepare the following media assets
 
 **Script for welcome message** (from your handoff doc):
 
-> "Welcome to BibleSummary.ai. Here, you can read the King James Version of the Bible freely — just as it was written. When I set out to read the Bible in full, I realized how long the journey truly was… and how difficult it could be to retain what I had read. This app was created to help you understand, remember, and return to Scripture — without replacing it. Reading the Bible will always remain free here. Summaries help support the work behind this project, but the Word itself is never hidden."
+> "Welcome to ClearBible.ai. Here, you can read the King James Version of the Bible freely — just as it was written. When I set out to read the Bible in full, I realized how long the journey truly was… and how difficult it could be to retain what I had read. This app was created to help you understand, remember, and return to Scripture — without replacing it. Reading the Bible will always remain free here. Summaries help support the work behind this project, but the Word itself is never hidden."
 
 ### Required Image Assets
 

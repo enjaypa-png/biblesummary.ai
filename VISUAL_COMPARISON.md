@@ -65,7 +65,7 @@ Some white text flashes briefly
 │                                         │
 │         ♪ ▂▃▅▆▅▃▂ Playing...            │
 │                                         │
-│     Welcome to BibleSummary.ai.         │
+│     Welcome to ClearBible.ai.         │
 │                                         │
 │   Here, you can read the King James    │
 │   Version of the Bible freely — just   │

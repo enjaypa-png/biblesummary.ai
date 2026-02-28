@@ -1,8 +1,8 @@
 /**
- * Generate Clear Translation (CT) Bible Text
+ * Generate Clear Bible Translation (CT) Bible Text
  *
  * This script processes KJV Bible text chapter-by-chapter through the Claude API
- * to produce the Clear Translation. Output is saved as JSON files for review
+ * to produce the Clear Bible Translation. Output is saved as JSON files for review
  * before being seeded into the database.
  *
  * Usage:
@@ -383,7 +383,7 @@ async function main() {
   const { book: bookFilter, chapters: chapterFilter, force, source } = parseArgs();
 
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log('  Clear Translation (CT) Generator');
+  console.log('  Clear Bible Translation (CT) Generator');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log(`  Model: ${MODEL}`);
   console.log(`  Source: ${source}`);

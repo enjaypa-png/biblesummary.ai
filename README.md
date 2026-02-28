@@ -1,11 +1,11 @@
-# BibleSummary.ai
+# ClearBible.ai
 
 A modern Bible reading companion with AI-powered summaries, verse explanations, and two built-in translations. Built with Next.js 14, Supabase, and deployed on Vercel.
 
 ## What This App Does
 
 - **Read the Bible** — Browse 66 books with two translations:
-  - **Clear Translation (CT)** — A modern English rendering created specifically for this app using Claude Opus 4.6. Designed to read like the NIV in quality and clarity while being fully owned and license-free.
+  - **Clear Bible Translation (CT)** — A modern English rendering created specifically for this app using Claude Opus 4.6. Designed to read like the NIV in quality and clarity while being fully owned and license-free.
   - **King James Version (KJV)** — The classic public domain text.
   - Users toggle between translations in the reading settings panel (Aa button). CT is the default.
 - **Listen** — Verse-by-verse text-to-speech audio powered by ElevenLabs, with playback controls and verse tracking
@@ -19,9 +19,9 @@ A modern Bible reading companion with AI-powered summaries, verse explanations, 
 - **Authentication** — Email/password signup and login with OTP email verification via Supabase Auth
 - **Reading Position** — Automatic tracking via localStorage with "Continue Reading" card on the index
 
-## Clear Translation (CT)
+## Clear Bible Translation (CT)
 
-The Clear Translation is a modern English rendering of the entire Bible (31,000+ verses across 1,189 chapters) at a **10th-grade reading level**, designed for younger and modern readers who find the KJV difficult to follow. It was generated using Claude Opus 4.6 with a carefully engineered prompt system that ensures:
+The Clear Bible Translation is a modern English rendering of the entire Bible (31,000+ verses across 1,189 chapters). It was generated using Claude Opus 4.6 with a carefully engineered prompt system that ensures:
 
 - **Theological precision** — Protected terms like "heaven," "created," "soul," "spirit," "grace," "righteousness," "salvation," "covenant," "sin," and "atonement" are preserved exactly
 - **Anti-embellishment** — No words, ideas, or emphasis are added that aren't in the original
@@ -125,6 +125,14 @@ npm run ct:audit:full:run -- --from-book "Jonah"
 | `npm run ct:progress` | Dashboard showing generation progress |
 | `npm run ct:review` | Quality review — 100 key verses side-by-side (KJV vs CT) with HTML output |
 | `npm run ct:edit` | Fix individual verses directly in Supabase |
+| `npm run ct:audit` | Audit a book's CT against KJV — flags errors with corrected text |
+| `npm run ct:audit:fix` | Audit CT vs KJV (two-agent + retry), apply corrections, manual review on 3× FAIL |
+| `npm run ct:audit:batch:submit` | Phase 1: Rewrite batch (KJV+CT → corrected CT) |
+| `npm run ct:audit:batch:download` | Save Phase 1 for Phase 2 audit |
+| `npm run ct:audit:batch:phase2:submit` | Phase 2: Audit batch (KJV vs new CT → PASS/FAIL) |
+| `npm run ct:audit:batch:phase2:download` | Apply only PASS to Supabase; FAIL → manual review |
+| `npm run ct:generate:v2` | **NEW** Generate CT using WEB+KJV dual input, NIV/God's Word style |
+| `npm run ct:audit:openai` | **NEW** Audit CT with GPT-4o (cross-provider — no self-auditing) |
 
 The batch submit script supports targeted testing:
 ```bash
@@ -138,12 +146,17 @@ npm run ct:edit -- --dry-run              # Preview fixes
 npm run ct:edit                           # Apply fixes
 ```
 
-The seeding script supports scoped runs:
+The audit-and-fix script automates applying audit rules to CT:
 ```bash
-npm run ct:seed                           # Seed all CT chapters
-npm run ct:seed -- --book genesis         # Seed only Genesis
-npm run ct:seed -- --dry-run              # Preview without writing
+npm run ct:audit:fix -- --book ruth --dry-run     # Preview changes for Ruth
+npm run ct:audit:fix -- --book ruth               # Apply corrections to Ruth
+npm run ct:audit:fix -- --books genesis,ruth      # Multiple books
+npm run ct:audit:fix -- --book 1-samuel --chapter 10   # Single chapter
+npm run ct:audit:fix -- --write-json              # Also update JSON files
+npm run ct:audit:fix -- --limit 3                 # Process max 3 chapters (testing)
 ```
+
+CT source files: `scripts/ct-translation/prompt.ts` (system prompt), `scripts/ct-translation/AUDIT-RULES.md` (audit rules for ct:audit:fix), `scripts/ct-translation/STYLE-GUIDE.md` (style rules and protected terms).
 
 ## Tech Stack
 
@@ -191,7 +204,7 @@ Run the Supabase migrations first (see `supabase/migrations/`), then:
 ```bash
 npm run seed:books      # Load 66 book records
 npm run seed:verses     # Fetch ~31,000 KJV verses
-npm run ct:seed         # Seed Clear Translation verses
+npm run ct:seed         # Seed Clear Bible Translation verses
 ```
 
 ### 4. Start the dev server
@@ -221,13 +234,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm run ct:progress` | CT generation progress |
 | `npm run ct:review` | Review 100 key verses |
 | `npm run ct:edit` | Edit individual CT verses |
-| `npm run ct:audit:batch:submit` | Phase 1 — Rewrite CT under stricter rules |
-| `npm run ct:audit:batch:status` | Check Phase 1 batch status |
-| `npm run ct:audit:batch:download` | Download Phase 1 results |
-| `npm run ct:audit:batch:phase2:submit` | Phase 2 — Independent verification |
-| `npm run ct:audit:batch:phase2:status` | Check Phase 2 status |
-| `npm run ct:audit:batch:phase2:download` | Download Phase 2 results |
-| `npm run ct:audit:full:run` | Full 3-phase audit orchestrator |
+| `npm run ct:audit` | Audit CT against KJV for any book |
 
 ## Project Structure
 
@@ -291,6 +298,7 @@ scripts/
   ct-audit-full-run.ts            Full 3-phase audit orchestrator
   ct-review.ts                    Quality review tool (100 key verses, HTML output)
   ct-edit.ts                      Verse editor (lookup, dry-run, apply fixes)
+  ct-audit.ts                     Automated CT-vs-KJV audit (per book, outputs failures)
   ct-progress.ts                  Generation progress dashboard
   seed-ct-verses.ts               Seed CT into Supabase
   seed-books.ts                   Seed books table

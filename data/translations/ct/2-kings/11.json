@@ -1,0 +1,137 @@
+{
+  "book": "2-kings",
+  "book_name": "2 Kings",
+  "chapter": 11,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-27T10:12:09.738Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And when Athaliah the mother of Ahaziah saw that her son was dead, she arose and destroyed all the seed royal.",
+      "web": "Now when Athaliah the mother of Ahaziah saw that her son was dead, she arose and destroyed all the royal offspring.",
+      "ct": "When Athaliah, the mother of Ahaziah, learned that her son was dead, she set out to destroy every member of the royal family."
+    },
+    {
+      "verse": 2,
+      "kjv": "But Jehosheba, the daughter of king Joram, sister of Ahaziah, took Joash the son of Ahaziah, and stole him from among the king’s sons which were slain; and they hid him, even him and his nurse, in the bedchamber from Athaliah, so that he was not slain.",
+      "web": "But Jehosheba, the daughter of king Joram, sister of Ahaziah, took Joash the son of Ahaziah, and stole him away from among the king’s sons who were slain, even him and his nurse, and put them in the bedroom; and they hid him from Athaliah, so that he was not slain.",
+      "ct": "But Jehosheba — the daughter of King Joram and sister of Ahaziah — secretly rescued Joash, Ahaziah's son, snatching him away from among the royal princes who were being murdered. She hid him and his nurse in a bedroom, keeping him out of Athaliah's reach so he wasn't killed."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he was with her hid in the house of the LORD six years. And Athaliah did reign over the land.",
+      "web": "He was with her hidden in LORD’s house six years while Athaliah reigned over the land.",
+      "ct": "Joash stayed hidden with Jehosheba in the house of the LORD for 6 years while Athaliah ruled the land."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the seventh year Jehoiada sent and fetched the rulers over hundreds, with the captains and the guard, and brought them to him into the house of the LORD, and made a covenant with them, and took an oath of them in the house of the LORD, and shewed them the king’s son.",
+      "web": "In the seventh year Jehoiada sent and fetched the captains over hundreds of the Carites and of the guard, and brought them to him into LORD’s house; and he made a covenant with them, and made a covenant with them in LORD’s house, and showed them the king’s son.",
+      "ct": "In the 7th year, Jehoiada the priest summoned the commanders of the royal guard units of hundreds and brought them into the house of the LORD. There he made a covenant with them, had them swear an oath in the house of the LORD, and then revealed the king's son to them."
+    },
+    {
+      "verse": 5,
+      "kjv": "And he commanded them, saying, This is the thing that ye shall do; A third part of you that enter in on the sabbath shall even be keepers of the watch of the king’s house;",
+      "web": "He commanded them, saying, “This is what you must do: a third of you, who come in on the Sabbath, shall be keepers of the watch of the king’s house;",
+      "ct": "He gave them their orders: \"Here's what you're going to do. A third of you who come on duty on the Sabbath will guard the royal palace."
+    },
+    {
+      "verse": 6,
+      "kjv": "And a third part shall be at the gate of Sur; and a third part at the gate behind the guard: so shall ye keep the watch of the house, that it be not broken down.",
+      "web": "a third of you shall be at the gate Sur; and a third of you at the gate behind the guard. So you shall keep the watch of the house, and be a barrier.",
+      "ct": "A third will be stationed at the Sur Gate, and a third at the gate behind the guard post. Together you'll secure the palace so no one breaks through."
+    },
+    {
+      "verse": 7,
+      "kjv": "And two parts of all you that go forth on the sabbath, even they shall keep the watch of the house of the LORD about the king.",
+      "web": "The two companies of you, even all who go out on the Sabbath, shall keep the watch of LORD’s house around the king.",
+      "ct": "The two divisions going off duty on the Sabbath will guard the house of the LORD, forming a perimeter around the king."
+    },
+    {
+      "verse": 8,
+      "kjv": "And ye shall compass the king round about, every man with his weapons in his hand: and he that cometh within the ranges, let him be slain: and be ye with the king as he goeth out and as he cometh in.",
+      "web": "You shall surround the king, every man with his weapons in his hand; and he who comes within the ranks, let him be slain. Be with the king when he goes out, and when he comes in.”",
+      "ct": "Surround the king on every side, each man with his weapon drawn. Anyone who tries to break through your ranks — kill him. Stay with the king wherever he goes, whether coming in or going out.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the captains over the hundreds did according to all things that Jehoiada the priest commanded: and they took every man his men that were to come in on the sabbath, with them that should go out on the sabbath, and came to Jehoiada the priest.",
+      "web": "The captains over hundreds did according to all that Jehoiada the priest commanded; and they each took his men, those who were to come in on the Sabbath, with those who were to go out on the Sabbath, and came to Jehoiada the priest.",
+      "ct": "The commanders of hundreds carried out everything Jehoiada the priest ordered. Each one gathered his men — both those coming on duty for the Sabbath and those going off — and reported to Jehoiada the priest."
+    },
+    {
+      "verse": 10,
+      "kjv": "And to the captains over hundreds did the priest give king David’s spears and shields, that were in the temple of the LORD.",
+      "web": "The priest delivered to the captains over hundreds the spears and shields that had been king David’s, which were in LORD’s house.",
+      "ct": "Jehoiada then handed out the spears and shields that had belonged to King David, which were stored in the house of the LORD."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the guard stood, every man with his weapons in his hand, round about the king, from the right corner of the temple to the left corner of the temple, along by the altar and the temple.",
+      "web": "The guard stood, every man with his weapons in his hand, from the right side of the house to the left side of the house, along by the altar and the house, around the king.",
+      "ct": "The guards took their positions, weapons in hand, lining up from the south side of the temple to the north side, along the altar and the temple, forming a protective ring around the king."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he brought forth the king’s son, and put the crown upon him, and gave him the testimony; and they made him king, and anointed him; and they clapped their hands, and said, God save the king.",
+      "web": "Then he brought out the king’s son, and put the crown on him, and gave him the covenant; and they made him king, and anointed him; and they clapped their hands, and said, “Long live the king!”",
+      "ct": "Then Jehoiada brought out the king's son, placed the crown on his head, and presented him with the testimony. They proclaimed him king and anointed him. The people clapped and shouted, \"Long live the king!\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And when Athaliah heard the noise of the guard and of the people, she came to the people into the temple of the LORD.",
+      "web": "When Athaliah heard the noise of the guard and of the people, she came to the people into LORD’s house:",
+      "ct": "When Athaliah heard the commotion from the guards and the crowd, she rushed to the people at the house of the LORD."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when she looked, behold, the king stood by a pillar, as the manner was, and the princes and the trumpeters by the king, and all the people of the land rejoiced, and blew with trumpets: and Athaliah rent her clothes, and cried, Treason, Treason.",
+      "web": "and she looked, and behold, the king stood by the pillar, as the tradition was, with the captains and the trumpets by the king; and all the people of the land rejoiced, and blew trumpets. Then Athaliah tore her clothes, and cried, “Treason! Treason!”",
+      "ct": "She looked and saw the young king standing by the pillar, as was the custom, with the commanders and trumpeters beside him. All the people of the land were celebrating and blowing trumpets. Athaliah tore her clothes and screamed, \"Treason! Treason!\""
+    },
+    {
+      "verse": 15,
+      "kjv": "But Jehoiada the priest commanded the captains of the hundreds, the officers of the host, and said unto them, Have her forth without the ranges: and him that followeth her kill with the sword. For the priest had said, Let her not be slain in the house of the LORD.",
+      "web": "Jehoiada the priest commanded the captains of hundreds who were set over the army, and said to them, “Bring her out between the ranks. Kill anyone who follows her with the sword.” For the priest said, “Don’t let her be slain in LORD’s house.”",
+      "ct": "Jehoiada the priest ordered the commanders of hundreds who led the troops, \"Take her out through the ranks. If anyone tries to follow her, kill them with the sword.\" He had specifically said, \"She must not be killed inside the house of the LORD.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And they laid hands on her; and she went by the way by the which the horses came into the king’s house: and there was she slain.",
+      "web": "So they made way for her; and she went by the way of the horses’ entry to the king’s house, and she was slain there.",
+      "ct": "So they seized her and forced her out through the horse entrance of the royal palace, and there they put her to death."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Jehoiada made a covenant between the LORD and the king and the people, that they should be the LORD’s people; between the king also and the people.",
+      "web": "Jehoiada made a covenant between LORD and the king and the people, that they should be LORD’s people; also between the king and the people.",
+      "ct": "Jehoiada then established a covenant between the LORD, the king, and the people — that they would be the LORD's people. He also made a covenant between the king and the people."
+    },
+    {
+      "verse": 18,
+      "kjv": "And all the people of the land went into the house of Baal, and brake it down; his altars and his images brake they in pieces thoroughly, and slew Mattan the priest of Baal before the altars. And the priest appointed officers over the house of the LORD.",
+      "web": "All the people of the land went to the house of Baal, and broke it down. They broke his altars and his images in pieces thoroughly, and killed Mattan the priest of Baal before the altars. The priest appointed officers over LORD’s house.",
+      "ct": "After that, all the people of the land stormed the temple of Baal and tore it down. They smashed its altars and idols to pieces and killed Mattan, the priest of Baal, right in front of the altars. Jehoiada the priest then appointed guards over the house of the LORD."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he took the rulers over hundreds, and the captains, and the guard, and all the people of the land; and they brought down the king from the house of the LORD, and came by the way of the gate of the guard to the king’s house. And he sat on the throne of the kings.",
+      "web": "He took the captains over hundreds, and the Carites, and the guard, and all the people of the land; and they brought down the king from LORD’s house, and came by the way of the gate of the guard to the king’s house. He sat on the throne of the kings.",
+      "ct": "He assembled the commanders of hundreds, the royal guard, and all the people of the land, and together they escorted the king down from the house of the LORD. They entered the palace through the guard gate, and the young king took his seat on the royal throne."
+    },
+    {
+      "verse": 20,
+      "kjv": "And all the people of the land rejoiced, and the city was in quiet: and they slew Athaliah with the sword beside the king’s house.",
+      "web": "So all the people of the land rejoiced, and the city was quiet. They had slain Athaliah with the sword at the king’s house.",
+      "ct": "All the people of the land celebrated, and the city was at peace. As for Athaliah, she had been put to the sword at the royal palace."
+    },
+    {
+      "verse": 21,
+      "kjv": "Seven years old was Jehoash when he began to reign.",
+      "web": "Jehoash was seven years old when he began to reign.",
+      "ct": "Jehoash was 7 years old when he became king."
+    }
+  ]
+}

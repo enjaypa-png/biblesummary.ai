@@ -92,6 +92,30 @@ const FIXES: VerseFix[] = [
     reason: '"find" is more natural than "discover"',
     ct: 'A woman of noble character — who can find one? Her worth is far above rubies.'
   },
+  {
+    ref: 'Ecclesiastes 1:1',
+    book_slug: 'ecclesiastes',
+    chapter: 1,
+    verse: 1,
+    reason: 'Make Ecclesiastes 1:1 more clearly modern while keeping meaning identical',
+    ct: 'These are the words of King David\'s son, the Teacher who was king in Jerusalem.'
+  },
+  {
+    ref: '2 Kings 13:1',
+    book_slug: '2-kings',
+    chapter: 13,
+    verse: 1,
+    reason: 'Make 2 Kings 13:1 more readable modern English while keeping the same facts',
+    ct: 'In the twenty-third year of Joash son of Ahaziah, king of Judah, Jehoahaz son of Jehu became king over Israel in Samaria and ruled for seventeen years.'
+  },
+  {
+    ref: '1 Kings 15:27',
+    book_slug: '1-kings',
+    chapter: 15,
+    verse: 27,
+    reason: 'Make 1 Kings 15:27 clearer while keeping the same historical facts',
+    ct: 'Baasha son of Ahijah, from the tribe of Issachar, plotted against Nadab. While Nadab and all Israel were besieging the Philistine town of Gibbethon, Baasha killed him there.'
+  },
   // ─── Exodus 21–40 CT Audit Corrections (Feb 2026) ───────────────────────
   {
     ref: 'Exodus 25:5',
@@ -468,6 +492,39 @@ const FIXES: VerseFix[] = [
     reason: 'Audit (accuracy): "a scar from the boil" changes diagnosis — KJV says "it is a burning boil"',
     ct: 'But if the shiny spot remains in place and does not spread, it is a burning boil, and the priest must declare the person clean.'
   },
+  // ─── Isaiah 1 Manual Correction Pass (Feb 2026) — 4 failed audit verses ───
+  {
+    ref: 'Isaiah 1:11',
+    book_slug: 'isaiah',
+    chapter: 1,
+    verse: 11,
+    reason: 'Manual override: keep "I am full of" (satiated) — audit rejected "I have had enough of"',
+    ct: 'To what purpose is the multitude of your sacrifices to me? says the LORD. I am full of the burnt offerings of rams and the fat of fed beasts; I delight not in the blood of bulls, or of lambs, or of goats.'
+  },
+  {
+    ref: 'Isaiah 1:17',
+    book_slug: 'isaiah',
+    chapter: 1,
+    verse: 17,
+    reason: 'Manual override: keep "judgment" and "judge" — audit rejected justice/defend',
+    ct: 'Learn to do well; seek judgment, relieve the oppressed, judge the fatherless, plead for the widow.'
+  },
+  {
+    ref: 'Isaiah 1:21',
+    book_slug: 'isaiah',
+    chapter: 1,
+    verse: 21,
+    reason: 'Manual override: keep "harlot" and "judgment"; use "it" not "she"',
+    ct: 'How the faithful city has become a harlot! It was full of judgment; righteousness lodged in it; but now murderers.'
+  },
+  {
+    ref: 'Isaiah 1:23',
+    book_slug: 'isaiah',
+    chapter: 1,
+    verse: 23,
+    reason: 'Manual override: keep "judge not the fatherless" — audit rejected "defend"',
+    ct: 'Your princes are rebellious, and companions of thieves; every one loves gifts, and follows after rewards; they judge not the fatherless, neither does the cause of the widow come to them.'
+  }
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────

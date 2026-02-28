@@ -325,7 +325,7 @@ function generateHTML(results: VerseResult[]): string {
 </head>
 <body>
 <h1>CT Quality Review</h1>
-<p class="subtitle">${results.length} key verses — side-by-side KJV and Clear Text</p>
+<p class="subtitle">${results.length} key verses — side-by-side KJV and Clear Bible Translation</p>
 
 <div class="stats">
   <div><div class="stat-num">${results.length}</div>Verses</div>

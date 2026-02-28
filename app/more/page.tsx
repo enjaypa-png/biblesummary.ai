@@ -309,16 +309,16 @@ export default function MorePage() {
           </h2>
           <div className="rounded-xl p-4" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
             <p className="text-[14px] leading-relaxed mb-3" style={{ color: "var(--foreground)" }}>
-              BibleSummary.ai helps you read, listen to, and finish the entire Bible—without losing track of where you are or what you&apos;ve already read.
+              ClearBible.ai helps you read, listen to, and finish the entire Bible—without losing track of where you are or what you&apos;ve already read.
             </p>
             <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
-              Two versions are available: the King James Version (KJV) and the Clear Text, a modern English rendering currently being reviewed for accuracy against the KJV. Switch between them anytime in Reading Settings.
+              Two versions are available: the King James Version (KJV) and the Clear Bible Translation, a modern English rendering currently being reviewed for accuracy against the KJV. Switch between them anytime in Reading Settings.
             </p>
             <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
               Bible text and audio are always free. We offer optional AI-generated book summaries designed to help you retain what you read, understand the structure of each book, and return to Scripture with clarity instead of starting over.
             </p>
             <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
-              BibleSummary.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains without interpretation.
+              ClearBible.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains without interpretation.
             </p>
             <p className="text-[13px] font-medium" style={{ color: "var(--secondary)" }}>
               No ads. No opinions.
@@ -355,7 +355,7 @@ export default function MorePage() {
             ))}
           </div>
           <p className="text-[12px] mt-2 px-1" style={{ color: "var(--secondary)" }}>
-            Contact: support@biblesummary.ai
+            Contact: support@clearbible.ai
           </p>
         </section>
 
