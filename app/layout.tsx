@@ -9,13 +9,27 @@ import { AudioPlayerProvider } from "@/contexts/AudioPlayerContext";
 import { ReadingSettingsProvider } from "@/contexts/ReadingSettingsContext";
 
 export const metadata: Metadata = {
-  title: "ClearBible.ai - Read & Understand the Bible",
-  description: "A modern Bible reading app with AI-powered summaries. Read the King James Version and Clear Bible Translation, listen, and retain. Always free.",
+  title: "ClearBible.ai — Read the Bible in Plain English | Free Bible App",
+  description: "Read the Bible in plain, clear English — free. The Clear Bible Translation makes scripture easy to understand for the first time. AI explanations, audio, notes & more.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   themeColor: "#7c5cfc",
   icons: {
     icon: "/brand/logo-192.png",
     apple: "/brand/apple-touch-icon.png",
+  },
+  openGraph: {
+    title: "ClearBible.ai — Read the Bible in Plain English",
+    description: "The Bible, finally easy to understand. Free forever. Read the Clear Bible Translation or KJV, listen to audio, get AI explanations for any verse.",
+    url: "https://clearbible.ai",
+    siteName: "ClearBible.ai",
+    images: [{ url: "/brand/logo-512.png" }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ClearBible.ai — Read the Bible in Plain English",
+    description: "The Bible, finally easy to understand. Free forever.",
+    images: ["/brand/logo-512.png"],
   },
 };
 
@@ -35,7 +49,6 @@ export default function RootLayout({
         />
         <link rel="icon" type="image/png" href="/brand/logo-192.png" />
         <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
-        <meta property="og:image" content="/brand/logo-512.png" />
         <meta name="theme-color" content="#7c5cfc" />
         <link rel="manifest" href="/manifest.json" />
       </head>

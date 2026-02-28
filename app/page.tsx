@@ -469,8 +469,8 @@ export default function ClearBibleLanding() {
             marginBottom: 20,
             animation: "fadeUp 0.7s ease both",
           }}>
-            <span style={{ color: "#7c5cfc" }}>Built</span> to be{" "}
-            <span style={{ color: "#7c5cfc" }}>understood.</span>
+            <span style={{ color: "#7c5cfc" }}>The Bible.</span> Finally easy to{" "}
+            <span style={{ color: "#7c5cfc" }}>understand.</span>
           </h1>
 
           <p style={{
@@ -481,7 +481,7 @@ export default function ClearBibleLanding() {
             margin: "0 auto 36px",
             animation: "fadeUp 0.7s ease 0.15s both",
           }}>
-            Easy to use and easy to listen/read!
+            Read in plain modern English or the KJV — free forever. AI explains every verse instantly.
           </p>
 
           <div style={{
