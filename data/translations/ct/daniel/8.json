@@ -1,0 +1,173 @@
+{
+  "book": "daniel",
+  "book_name": "Daniel",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:47:05.011Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In the third year of the reign of king Belshazzar a vision appeared unto me, even unto me Daniel, after that which appeared unto me at the first.",
+      "web": "In the third year of the reign of king Belshazzar a vision appeared to me, even to me, Daniel, after that which appeared to me at the first.",
+      "ct": "During the 3rd year of King Belshazzar's reign, I, Daniel, received another vision — this one came after the vision I'd had before."
+    },
+    {
+      "verse": 2,
+      "kjv": "And I saw in a vision; and it came to pass, when I saw, that I was at Shushan in the palace, which is in the province of Elam; and I saw in a vision, and I was by the river of Ulai.",
+      "web": "I saw the vision. Now it was so, that when I saw, I was in the citadel of Susa, which is in the province of Elam. I saw in the vision, and I was by the river Ulai.",
+      "ct": "In this vision, I found myself at the citadel of Shushan in the province of Elam, standing beside the river Ulai."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then I lifted up mine eyes, and saw, and, behold, there stood before the river a ram which had two horns: and the two horns were high; but one was higher than the other, and the higher came up last.",
+      "web": "Then I lifted up my eyes, and saw, and behold, there stood before the river a ram which had two horns. The two horns were high; but one was higher than the other, and the higher came up last.",
+      "ct": "I looked up and saw a ram standing by the river. It had 2 horns, both tall, but one was taller than the other — and the taller one had grown up last."
+    },
+    {
+      "verse": 4,
+      "kjv": "I saw the ram pushing westward, and northward, and southward; so that no beasts might stand before him, neither was there any that could deliver out of his hand; but he did according to his will, and became great.",
+      "web": "I saw the ram pushing westward, northward, and southward. No animals could stand before him. There wasn’t any who could deliver out of his hand; but he did according to his will, and magnified himself.",
+      "ct": "I watched the ram charge westward, northward, and southward. No animal could stand against it, and nothing could escape its power. It did whatever it wanted and grew mighty."
+    },
+    {
+      "verse": 5,
+      "kjv": "And as I was considering, behold, an he goat came from the west on the face of the whole earth, and touched not the ground: and the goat had a notable horn between his eyes.",
+      "web": "As I was considering, behold, a male goat came from the west over the surface of the whole earth, and didn’t touch the ground. The goat had a notable horn between his eyes.",
+      "ct": "While I was thinking about what I'd seen, a male goat came racing from the west, crossing the entire earth so fast its feet didn't even touch the ground. Between its eyes was a single massive horn."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he came to the ram that had two horns, which I had seen standing before the river, and ran unto him in the fury of his power.",
+      "web": "He came to the ram that had the two horns, which I saw standing before the river, and ran on him in the fury of his power.",
+      "ct": "The goat charged straight at the 2-horned ram I had seen standing by the river, rushing at it with furious power."
+    },
+    {
+      "verse": 7,
+      "kjv": "And I saw him come close unto the ram, and he was moved with choler against him, and smote the ram, and brake his two horns: and there was no power in the ram to stand before him, but he cast him down to the ground, and stamped upon him: and there was none that could deliver the ram out of his hand.",
+      "web": "I saw him come close to the ram, and he was moved with anger against him, and struck the ram, and broke his two horns. There was no power in the ram to stand before him; but he cast him down to the ground, and trampled on him. There was no one who could deliver the ram out of his hand.",
+      "ct": "I watched the goat close in on the ram, seething with rage. It struck the ram and shattered both its horns. The ram had no strength left to fight back. The goat threw it to the ground and trampled it, and no one could rescue the ram."
+    },
+    {
+      "verse": 8,
+      "kjv": "Therefore the he goat waxed very great: and when he was strong, the great horn was broken; and for it came up four notable ones toward the four winds of heaven.",
+      "web": "The male goat magnified himself exceedingly. When he was strong, the great horn was broken; and instead of it there came up four notable horns toward the four winds of the sky.",
+      "ct": "The male goat became incredibly powerful. But at the height of its strength, the great horn snapped off, and in its place 4 prominent horns grew up, pointing toward the 4 winds of heaven."
+    },
+    {
+      "verse": 9,
+      "kjv": "And out of one of them came forth a little horn, which waxed exceeding great, toward the south, and toward the east, and toward the pleasant land.",
+      "web": "Out of one of them came out a little horn, which grew exceedingly great, toward the south, and toward the east, and toward the glorious land.",
+      "ct": "Out of one of those 4 horns came a small horn that grew enormously powerful, expanding toward the south, toward the east, and toward the beautiful land."
+    },
+    {
+      "verse": 10,
+      "kjv": "And it waxed great, even to the host of heaven; and it cast down some of the host and of the stars to the ground, and stamped upon them.",
+      "web": "It grew great, even to the army of the sky; and it cast down some of the army and of the stars to the ground, and trampled on them.",
+      "ct": "It grew so powerful that it reached up to the host of heaven itself, throwing some of that heavenly army and some of the stars down to the ground and trampling them."
+    },
+    {
+      "verse": 11,
+      "kjv": "Yea, he magnified himself even to the prince of the host, and by him the daily sacrifice was taken away, and the place of his sanctuary was cast down.",
+      "web": "Yes, it magnified itself, even to the prince of the army; and it took away from him the continual burnt offering, and the place of his sanctuary was cast down.",
+      "ct": "It even exalted itself against the prince of the host. It abolished the daily sacrifice and tore down the place of his sanctuary."
+    },
+    {
+      "verse": 12,
+      "kjv": "And an host was given him against the daily sacrifice by reason of transgression, and it cast down the truth to the ground; and it practised, and prospered.",
+      "web": "The army was given over to it together with the continual burnt offering through disobedience. It cast down truth to the ground, and it did its pleasure and prospered.",
+      "ct": "Because of rebellion, the host was handed over to it along with the daily sacrifice. It threw truth to the ground, and everything it did succeeded."
+    },
+    {
+      "verse": 13,
+      "kjv": "Then I heard one saint speaking, and another saint said unto that certain saint which spake, How long shall be the vision concerning the daily sacrifice, and the transgression of desolation, to give both the sanctuary and the host to be trodden under foot?",
+      "web": "Then I heard a holy one speaking; and another holy one said to that certain one who spoke, “How long will the vision about the continual burnt offering, and the disobedience that makes desolate, to give both the sanctuary and the army to be trodden under foot be?”",
+      "ct": "Then I heard a holy one speaking, and another holy one asked the first, \"How long will this vision last — the removal of the daily sacrifice, the rebellion that causes devastation, and the trampling of the sanctuary and the host?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And he said unto me, Unto two thousand and three hundred days; then shall the sanctuary be cleansed.",
+      "web": "He said to me, “To two thousand and three hundred evenings and mornings. Then the sanctuary will be cleansed.”",
+      "ct": "He answered me, \"For 2,300 evenings and mornings. After that, the sanctuary will be restored.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And it came to pass, when I, even I Daniel, had seen the vision, and sought for the meaning, then, behold, there stood before me as the appearance of a man.",
+      "web": "When I, even I Daniel, had seen the vision, I sought to understand it. Then behold, there stood before me something like the appearance of a man.",
+      "ct": "As I, Daniel, watched this vision and tried to understand it, suddenly someone who looked like a man appeared standing in front of me."
+    },
+    {
+      "verse": 16,
+      "kjv": "And I heard a man’s voice between the banks of Ulai, which called, and said, Gabriel, make this man to understand the vision.",
+      "web": "I heard a man’s voice between the banks of the Ulai, which called, and said, “Gabriel, make this man understand the vision.”",
+      "ct": "Then I heard a man's voice calling out from between the banks of the Ulai: \"Gabriel, explain the vision to this man so he can understand it.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "So he came near where I stood: and when he came, I was afraid, and fell upon my face: but he said unto me, Understand, O son of man: for at the time of the end shall be the vision.",
+      "web": "So he came near where I stood; and when he came, I was frightened, and fell on my face; but he said to me, “Understand, son of man; for the vision belongs to the time of the end.”",
+      "ct": "Gabriel came toward where I was standing. When he approached, I was terrified and fell facedown on the ground. He said to me, \"Understand this, son of man — this vision concerns the time of the end.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Now as he was speaking with me, I was in a deep sleep on my face toward the ground: but he touched me, and set me upright.",
+      "web": "Now as he was speaking with me, I fell into a deep sleep with my face toward the ground; but he touched me, and set me upright.",
+      "ct": "While he was speaking to me, I fell into a deep sleep with my face to the ground. But he touched me and lifted me back to my feet."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he said, Behold, I will make thee know what shall be in the last end of the indignation: for at the time appointed the end shall be.",
+      "web": "He said, “Behold, I will make you know what will be in the latter time of the indignation; for it belongs to the appointed time of the end.",
+      "ct": "He said, \"Pay attention — I'm going to tell you what will happen during the final period of God's wrath, because this vision points to the appointed time of the end."
+    },
+    {
+      "verse": 20,
+      "kjv": "The ram which thou sawest having two horns are the kings of Media and Persia.",
+      "web": "The ram which you saw, that had the two horns, they are the kings of Media and Persia.",
+      "ct": "The ram you saw with 2 horns represents the kings of Media and Persia."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the rough goat is the king of Grecia: and the great horn that is between his eyes is the first king.",
+      "web": "The rough male goat is the king of Greece. The great horn that is between his eyes is the first king.",
+      "ct": "The shaggy male goat is the king of Greece, and the large horn between its eyes is the first king."
+    },
+    {
+      "verse": 22,
+      "kjv": "Now that being broken, whereas four stood up for it, four kingdoms shall stand up out of the nation, but not in his power.",
+      "web": "As for that which was broken, in the place where four stood up, four kingdoms will stand up out of the nation, but not with his power.",
+      "ct": "The horn that broke off and was replaced by 4 horns means that 4 kingdoms will rise from that nation, but none of them will match the first king's power."
+    },
+    {
+      "verse": 23,
+      "kjv": "And in the latter time of their kingdom, when the transgressors are come to the full, a king of fierce countenance, and understanding dark sentences, shall stand up.",
+      "web": "“In the latter time of their kingdom, when the transgressors have come to the full, a king of fierce face, and understanding dark sentences, will stand up.",
+      "ct": "Near the end of their rule, when rebellion has reached its peak, a fierce-looking king who is a master of intrigue will rise to power."
+    },
+    {
+      "verse": 24,
+      "kjv": "And his power shall be mighty, but not by his own power: and he shall destroy wonderfully, and shall prosper, and practise, and shall destroy the mighty and the holy people.",
+      "web": "His power will be mighty, but not by his own power. He will destroy awesomely, and will prosper in what he does. He will destroy the mighty ones and the holy people.",
+      "ct": "His power will be enormous, but it won't come from his own strength. He will cause shocking destruction and will succeed in everything he does. He will destroy powerful leaders and the holy people."
+    },
+    {
+      "verse": 25,
+      "kjv": "And through his policy also he shall cause craft to prosper in his hand; and he shall magnify himself in his heart, and by peace shall destroy many: he shall also stand up against the Prince of princes; but he shall be broken without hand.",
+      "web": "Through his policy he will cause deceit to prosper in his hand. He will magnify himself in his heart, and he will destroy many in their security. He will also stand up against the prince of princes; but he will be broken without hand.",
+      "ct": "Through his cunning, he will make deception thrive under his rule. He will become arrogant in his heart and will destroy many who feel secure. He will even rise up against the Prince of princes — but he will be destroyed, not by human hands."
+    },
+    {
+      "verse": 26,
+      "kjv": "And the vision of the evening and the morning which was told is true: wherefore shut thou up the vision; for it shall be for many days.",
+      "web": "“The vision of the evenings and mornings which has been told is true; but seal up the vision, for it belongs to many days to come.”",
+      "ct": "The vision of the evenings and mornings that was explained to you is true. But seal up this vision, because it won't be fulfilled for a long time.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And I Daniel fainted, and was sick certain days; afterward I rose up, and did the king’s business; and I was astonished at the vision, but none understood it.",
+      "web": "I, Daniel, fainted, and was sick for some days. Then I rose up, and did the king’s business. I wondered at the vision, but no one understood it.",
+      "ct": "After this, I, Daniel, was exhausted and lay sick for several days. Then I got up and went back to serving the king. But the vision haunted me — and no one could explain what it meant."
+    }
+  ]
+}
