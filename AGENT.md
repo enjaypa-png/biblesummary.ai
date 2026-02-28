@@ -2,6 +2,76 @@
 
 This file defines how to work in this codebase without breaking things. Read it before making changes.
 
+## Project Overview
+
+BibleSummary.ai is a Bible reading companion built with Next.js 14 (App Router). It serves two translations (Clear Text and KJV), verse-by-verse text-to-speech audio, AI explanations, notes, highlights, bookmarks, and paid book summaries. The app is mobile-first, deployed on Vercel, backed by Supabase.
+
+### What the app does
+
+- **Read the Bible** — 66 books, two translations (Clear Text default, KJV toggle). Users switch via the Aa settings panel.
+- **Listen** — Verse-by-verse TTS audio (ElevenLabs) with playback controls and verse tracking
+- **Explain** — Tap any verse for a plain-English AI explanation (OpenAI GPT-4o-mini), cached in DB
+- **Take Notes** — Personal notes on any verse, stored per user in Supabase
+- **Highlights** — Color-code verses with 5 colors; browse all highlights organized by book
+- **Bookmarks** — One manual bookmark per user (creating a new one replaces the old)
+- **Share Verses** — Via Web Share API or clipboard (includes current translation name)
+- **Reading Settings** — Font family, font size, line height, color theme (light/sepia/gray/dark), narrator voice, translation toggle
+- **Book Summaries** — Paid feature. Pre-written summaries for each book stored in `content/summaries/`
+- **Authentication** — Email/password with OTP email verification via Supabase Auth
+- **Reading Position** — Automatic tracking via localStorage with "Continue Reading" card
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 14 (App Router), React 18 |
+| Language | TypeScript (strict mode) |
+| Styling | Tailwind CSS 3, PostCSS, CSS variables for theming |
+| Database + Auth | Supabase (PostgreSQL + Auth + Row Level Security) |
+| State | Zustand (explanation cache), React Context (audio, reading settings), localStorage (reading position) |
+| AI Explanations | OpenAI GPT-4o-mini |
+| CT Generation | Anthropic Claude Opus 4.6 |
+| Text-to-Speech | ElevenLabs (verse-by-verse) |
+| Payments | Stripe (subscriptions + one-time purchases) |
+| Deployment | Vercel |
+
+## Commands
+
+```bash
+npm run dev          # Start dev server
+npm run build        # Production build (run before pushing)
+npm run lint         # ESLint (next/core-web-vitals)
+npm run start        # Start production server
+```
+
+### Data/Content Scripts (require SUPABASE_SERVICE_ROLE_KEY)
+
+```bash
+npm run seed:books       # Seed 66 books into Supabase
+npm run seed:verses      # Fetch KJV from GitHub, load ~31k verses
+npm run seed:summaries   # Load book summaries from content/summaries/
+npm run ct:seed          # Load Clear Translation verses from data/translations/
+npm run ct:generate      # Generate CT chapters via Claude API (one at a time)
+npm run ct:batch:submit  # Submit CT chapters to Anthropic Batch API
+npm run ct:batch:status  # Check batch processing status
+npm run ct:batch:download # Download completed batches
+npm run ct:progress      # Dashboard of CT generation progress
+npm run ct:review        # Side-by-side HTML report of ~100 key verses
+npm run ct:edit          # Fix individual CT verses (uses FIXES array in script)
+```
+
+### CT Audit Scripts (Old Testament 3-phase audit)
+
+```bash
+npm run ct:audit:batch:submit            # Phase 1 — Rewrite CT under stricter rules
+npm run ct:audit:batch:status            # Check Phase 1 batch status
+npm run ct:audit:batch:download          # Download Phase 1 results
+npm run ct:audit:batch:phase2:submit     # Phase 2 — Independent verification
+npm run ct:audit:batch:phase2:status     # Check Phase 2 status
+npm run ct:audit:batch:phase2:download   # Download Phase 2 results (--json-summary)
+npm run ct:audit:full:run                # Full 3-phase orchestrator (--from-book to resume)
+```
+
 ## Project Philosophy
 
 - **Accuracy over speed.** A correct, clean change is better than a fast, sloppy one.
@@ -68,6 +138,56 @@ Changes to `ChapterReaderClient.tsx` require extra care. This file handles trans
 - The `ct:audit` script (`scripts/ct-audit.ts`) runs an automated audit of any book — fetches CT and KJV from Supabase, sends them to Claude for comparison, and outputs a Markdown table of failures with corrected text. Use `--apply` to write fixes directly to Supabase.
 - The `ct:edit` script (`scripts/ct-edit.ts`) is for manual verse fixes. Add corrections to the `FIXES` array and run the script.
 - The `ct:review` script (`scripts/ct-review.ts`) generates a side-by-side HTML report of ~100 key verses for quality review.
+
+### CT Pipeline Architecture
+
+The CT is produced through a multi-stage offline pipeline. **None of this affects runtime behavior** — the app simply reads from Supabase.
+
+#### Data flow
+
+```
+KJV in Supabase → Claude generation → local JSON files → 3-phase audit → manual fixes → seed to Supabase → app reads
+```
+
+#### Generation
+
+- Claude Opus 4.6 generates CT chapter-by-chapter using `CT_SYSTEM_PROMPT` + `buildUserPrompt()` from `scripts/ct-translation/prompt.ts`.
+- Output: per-chapter JSON at `data/translations/ct/{book-slug}/{chapter}.json` containing both KJV and CT text per verse.
+- Batch scripts (`ct-batch-submit`, `ct-batch-status`, `ct-batch-download`) orchestrate API calls with 50% cost savings.
+
+#### 3-Phase Old Testament Audit
+
+The OT is audited book-by-book via `scripts/ct-audit-full-run.ts`:
+
+1. **Phase 1 — Rewrite:** `ct:audit:batch:submit` sends KJV + current CT through stricter audit rules (from `AUDIT-RULES.md`), produces corrected CT. Metadata tracked in `data/translations/ct-audit-batch/latest.json`.
+2. **Phase 2 — Verification:** An independent agent checks Phase 1 output against KJV, marks each verse PASS/FAIL. Stats tracked in `phase2_latest.json`.
+3. **Phase 3 — Auto-correction:** The orchestrator applies corrections via `ct-audit-fix.ts`, logs results to `data/translations/ct-full-run-log.jsonl`.
+
+**Safety:** If escalations for a book exceed 5% of verses, the script pauses for manual review.
+
+**Current OT status:** Genesis through Obadiah complete (31 books). Remaining: Jonah through Malachi (8 books). Resume with:
+```bash
+npm run ct:audit:full:run -- --from-book "Jonah"
+```
+
+#### Manual correction tools
+
+- **`npm run ct:review`** — Side-by-side KJV vs CT comparison of ~100 key verses. Outputs HTML at `data/translations/ct-review.html`.
+- **`npm run ct:edit`** — Surgical verse-level fixes via a `FIXES` array in `scripts/ct-edit.ts`. Supports `--dry-run` and `--ref` for preview. Writes directly to Supabase.
+- **Genesis 1–10 import** — One-off script (`scripts/import-ct-genesis-1-10.ts`) that replaces CT from a parsed text file while preserving KJV fields.
+
+#### Seeding to Supabase
+
+- `npm run ct:seed` reads local JSON files, maps book slugs to IDs via the `books` table, and upserts CT rows into `verses` with unique constraint `(book_id, chapter, verse, translation)`.
+- Supports `--book genesis` for scoped runs and `--dry-run` for preview.
+
+#### CT governance documents
+
+| Document | Purpose |
+|----------|---------|
+| `scripts/ct-translation/prompt.ts` | Master system prompt (`CT_SYSTEM_PROMPT`) and user prompt builder |
+| `scripts/ct-translation/STYLE-GUIDE.md` | Tone rules, idiom mappings, protected terms, review checklist |
+| `scripts/ct-translation/AUDIT-RULES.md` | "Meaning lock" rules — may change form but never meaning |
 
 ### Translation Toggle
 
@@ -141,6 +261,8 @@ The Search page (`/search/page.tsx`) is a "Coming Soon" placeholder. Do not add 
 - `contexts/ReadingSettingsContext.tsx` -- theme color definitions, translation types
 - `scripts/ct-translation/prompt.ts` -- CT generation system prompt and protected terms
 - `scripts/ct-translation/STYLE-GUIDE.md` -- CT tone rules and style examples
+- `scripts/ct-translation/AUDIT-RULES.md` -- CT audit "meaning lock" rules
+- `scripts/ct-audit-full-run.ts` -- 3-phase audit orchestrator
 - `supabase/migrations/` -- database schema (changes here require migration planning)
 - The system prompt in `app/api/explain-verse/route.ts`
 - Authentication flow in `AuthGate.tsx`, `login/page.tsx`, `signup/page.tsx`
@@ -218,6 +340,8 @@ These areas are the most likely to cause regressions if edited carelessly:
 | `AudioPlayerContext.tsx` | High | Audio playback, verse tracking, MiniPlayer state |
 | `ReadingSettingsContext.tsx` | High | Translation toggle, theme mode, font/size preferences across the app |
 | `scripts/ct-translation/prompt.ts` | High | Quality of all future CT generation |
+| `scripts/ct-translation/AUDIT-RULES.md` | High | Correctness of all CT audit passes |
+| `scripts/ct-audit-full-run.ts` | High | 3-phase audit orchestration, OT audit progress |
 | `globals.css` | Medium | Theme colors, verse number styling, font definitions |
 | `AuthGate.tsx` | Medium | Route protection, login redirect flow |
 | `ReadingSettingsPanel.tsx` | Medium | Translation toggle UI, all reading settings |
@@ -225,3 +349,124 @@ These areas are the most likely to cause regressions if edited carelessly:
 | `VerseActionBar.tsx` | Low | Action bar appearance and click handlers |
 | `notes/page.tsx` | Low | Notes list and navigation to verses |
 | `highlights/page.tsx` | Low | Highlights list and navigation to verses |
+
+## Project Structure
+
+```
+app/
+├── api/                    # 10 API routes (see API Routes below)
+├── auth/callback/          # OAuth callback
+├── bible/                  # Core reading experience
+│   ├── BibleIndex.tsx      # Book list with translation name
+│   ├── [book]/page.tsx     # Book/chapter selection
+│   └── [book]/[chapter]/   # Chapter reader (ChapterReaderClient.tsx)
+│       └── summary/        # Book summary view
+├── bookmarks/              # User bookmarks page
+├── highlights/             # User highlights page
+├── listen/                 # Audio listening interface
+├── login/ signup/          # Authentication
+├── notes/                  # User notes page
+├── onboarding/             # Onboarding flow
+├── pricing/                # Stripe checkout + success/cancel
+├── search/                 # Placeholder (Coming Soon)
+├── summaries/              # Summaries hub + [book] detail
+├── privacy/ terms/ refunds/ # Legal pages
+├── layout.tsx              # Root layout (providers, BottomTabBar, MiniPlayer)
+├── page.tsx                # Landing page
+└── globals.css             # CSS variables, theme definitions, verse styling
+
+components/
+├── AuthGate.tsx            # Auth state wrapper
+├── BottomTabBar.tsx        # Navigation tabs
+├── Navigation.tsx          # Header nav
+├── MiniPlayer.tsx          # Floating audio player
+├── InlineAudioPlayer.tsx   # In-chapter audio controls
+├── ReadingSettingsPanel.tsx # Font/size/theme/voice/translation panel
+├── VerseActionBar.tsx      # Verse actions (explain, highlight, bookmark, share)
+├── BookSummaryButton.tsx   # Summary access with paywall check
+├── SessionTracker.tsx      # Reading activity tracker
+├── SummaryPaywall.tsx      # Summary paywall
+├── ExplainPaywall.tsx      # Explanation paywall
+└── Footer.tsx
+
+contexts/
+├── AudioPlayerContext.tsx   # Audio playback state, verse-by-verse TTS
+└── ReadingSettingsContext.tsx # Font, size, theme, voice, translation prefs
+
+lib/
+├── supabase.ts             # Browser client + auth helpers
+├── audio-utils.ts          # Audio playback utilities
+├── voiceIds.ts             # ElevenLabs voice constants
+├── verseStore.ts           # Zustand store for explanation cache
+├── entitlements.ts         # Purchase/subscription access checks (RPC)
+├── stripe.ts               # Stripe integration
+├── parseSummary.ts         # Markdown summary parser
+├── highlightColors.ts      # 5 highlight color definitions
+└── deviceFingerprint.ts    # Device ID for abuse prevention
+
+data/
+├── books.json              # 66 book metadata
+└── translations/ct/        # Clear Translation JSON files by book/chapter
+
+content/summaries/          # 66 markdown book summaries + SUMMARY-GUIDE.md
+scripts/                    # Seeding + CT generation + audit tools (see Commands)
+supabase/                   # Migrations, seeds, SCHEMA.md
+```
+
+## API Routes
+
+| Route | Method | Purpose |
+|-------|--------|---------|
+| `/api/explain-verse` | POST | AI explanation via OpenAI GPT-4o-mini (cached in DB) |
+| `/api/tts` | POST | Text-to-speech via ElevenLabs |
+| `/api/voices` | GET | List available TTS voices |
+| `/api/checkout` | POST | Create Stripe checkout session |
+| `/api/verify-purchase` | POST | Check purchase/subscription status |
+| `/api/cancel-subscription` | POST | Cancel Stripe subscription |
+| `/api/delete-account` | POST | Account deletion |
+| `/api/track-session` | POST | Session analytics |
+| `/api/record-summary-view` | POST | Summary view tracking |
+| `/api/webhooks/stripe` | POST | Stripe webhook handler |
+
+## Architecture Decisions
+
+- **Two translations:** KJV (public domain, ~31k verses) and Clear Text (Claude-generated, ~31k verses) stored in `verses` table distinguished by `translation` column (`'kjv'` or `'ct'`). CT is the default.
+- **Persistent audio element:** Single reusable `<audio>` element across verses to avoid mobile garbage collection issues.
+- **Two-layer theme system:** CSS variables in `globals.css` for general use + `themeStyles` object in `ReadingSettingsContext.tsx` for per-theme chapter reader control. Four modes: light, sepia, gray, dark.
+- **Accent color:** `var(--accent)` = `#7c5cfc` light / `#9b82fc` dark. Use warm neutrals throughout — no harsh blacks or cool grays.
+- **Zustand only for explanations:** Everything else uses React Context or localStorage.
+- **Path alias:** `@/*` maps to project root.
+
+## Environment Variables
+
+Required (see `.env.example` for full list):
+
+- `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` — Supabase client
+- `SUPABASE_SERVICE_ROLE_KEY` — scripts only, never expose publicly
+- `OPENAI_API_KEY` — verse explanations
+- `ANTHROPIC_API_KEY` — CT generation scripts
+- `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` — TTS audio
+- `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`, `STRIPE_WEBHOOK_SECRET` — payments
+- Stripe price IDs for each product tier
+
+## Deployment
+
+This project deploys to Vercel automatically on push.
+
+- `vercel.json` includes an `ignoreCommand` that skips builds when only `scripts/` or `data/` files change
+- `tsconfig.json` excludes `scripts/` and `data/` from TypeScript compilation to prevent build failures from standalone tooling scripts
+- Environment variables must be configured in the Vercel project settings
+
+## Feature Summary
+
+| Feature | Free | Paid |
+|---------|------|------|
+| Read KJV + Clear Text | Yes | — |
+| Audio (ElevenLabs TTS) | Yes | — |
+| Notes on verses | Yes | — |
+| Highlights (5 colors) | Yes | — |
+| Bookmarks | Yes | — |
+| Reading progress tracking | Yes | — |
+| Book summaries | — | Per-book ($0.99) or yearly pass ($14.99/yr) |
+| Verse explanations | — | Monthly ($4.99/mo) |
+| Premium yearly (all access) | — | $59/yr |
