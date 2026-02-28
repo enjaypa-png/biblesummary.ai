@@ -1,0 +1,149 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 24,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:44:02.145Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Behold, the LORD maketh the earth empty, and maketh it waste, and turneth it upside down, and scattereth abroad the inhabitants thereof.",
+      "web": "Behold, LORD makes the earth empty, makes it waste, turns it upside down, and scatters its inhabitants.",
+      "ct": "Look! The LORD is about to devastate the earth. He will lay it waste, turn it upside down, and scatter its people in every direction."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it shall be, as with the people, so with the priest; as with the servant, so with his master; as with the maid, so with her mistress; as with the buyer, so with the seller; as with the lender, so with the borrower; as with the taker of usury, so with the giver of usury to him.",
+      "web": "It will be as with the people, so with the priest; as with the servant, so with his master; as with the maid, so with her mistress; as with the buyer, so with the seller; as with the creditor, so with the debtor; as with the taker of interest, so with the giver of interest.",
+      "ct": "No one will be spared — priest and common person alike, master and servant, mistress and maid, buyer and seller, lender and borrower, creditor and debtor."
+    },
+    {
+      "verse": 3,
+      "kjv": "The land shall be utterly emptied, and utterly spoiled: for the LORD hath spoken this word.",
+      "web": "The earth will be utterly emptied and utterly laid waste; for LORD has spoken this word.",
+      "ct": "The earth will be completely emptied and thoroughly plundered. The LORD himself has spoken it."
+    },
+    {
+      "verse": 4,
+      "kjv": "The earth mourneth and fadeth away, the world languisheth and fadeth away, the haughty people of the earth do languish.",
+      "web": "The earth mourns and fades away. The world languishes and fades away. The lofty people of the earth languish.",
+      "ct": "The earth dries up and withers. The whole world wilts and fades. Even the proudest people on earth waste away."
+    },
+    {
+      "verse": 5,
+      "kjv": "The earth also is defiled under the inhabitants thereof; because they have transgressed the laws, changed the ordinance, broken the everlasting covenant.",
+      "web": "The earth also is polluted under its inhabitants, because they have transgressed the laws, violated the statutes, and broken the everlasting covenant.",
+      "ct": "The earth is polluted by the people living on it, because they have broken God's laws, violated his commands, and shattered the everlasting covenant."
+    },
+    {
+      "verse": 6,
+      "kjv": "Therefore hath the curse devoured the earth, and they that dwell therein are desolate: therefore the inhabitants of the earth are burned, and few men left.",
+      "web": "Therefore the curse has devoured the earth, and those who dwell therein are found guilty. Therefore the inhabitants of the earth are burned, and few men are left.",
+      "ct": "Because of this, a curse is devouring the earth, and its people are paying the price. The inhabitants of the earth are being consumed, and only a few survive."
+    },
+    {
+      "verse": 7,
+      "kjv": "The new wine mourneth, the vine languisheth, all the merryhearted do sigh.",
+      "web": "The new wine mourns. The vine languishes. All the merry-hearted sigh.",
+      "ct": "The new wine dries up, the grapevines wither, and everyone who once celebrated now groans."
+    },
+    {
+      "verse": 8,
+      "kjv": "The mirth of tabrets ceaseth, the noise of them that rejoice endeth, the joy of the harp ceaseth.",
+      "web": "The mirth of tambourines ceases. The sound of those who rejoice ends. The joy of the harp ceases.",
+      "ct": "The joyful sound of tambourines has stopped. The noise of celebration has ended. The music of the harp has gone silent."
+    },
+    {
+      "verse": 9,
+      "kjv": "They shall not drink wine with a song; strong drink shall be bitter to them that drink it.",
+      "web": "They will not drink wine with a song. Strong drink will be bitter to those who drink it.",
+      "ct": "No one drinks wine with singing anymore. Even strong drink tastes bitter to those who drink it."
+    },
+    {
+      "verse": 10,
+      "kjv": "The city of confusion is broken down: every house is shut up, that no man may come in.",
+      "web": "The confused city is broken down. Every house is shut up, that no man may come in.",
+      "ct": "The ruined city lies shattered. Every house is boarded shut, and no one goes in."
+    },
+    {
+      "verse": 11,
+      "kjv": "There is a crying for wine in the streets; all joy is darkened, the mirth of the land is gone.",
+      "web": "There is a crying in the streets because of the wine. All joy is darkened. The mirth of the land is gone.",
+      "ct": "People cry out in the streets because the wine is gone. All joy has turned to darkness. Every trace of happiness has vanished from the land."
+    },
+    {
+      "verse": 12,
+      "kjv": "In the city is left desolation, and the gate is smitten with destruction.",
+      "web": "The city is left in desolation, and the gate is struck with destruction.",
+      "ct": "The city is left in ruins, and its gates are smashed to pieces."
+    },
+    {
+      "verse": 13,
+      "kjv": "When thus it shall be in the midst of the land among the people, there shall be as the shaking of an olive tree, and as the gleaning grapes when the vintage is done.",
+      "web": "For it will be so within the earth among the peoples, as the shaking of an olive tree, as the gleanings when the vintage is done.",
+      "ct": "This is how it will be across the earth, among all the nations — like an olive tree after it's been shaken, or like the few grapes left behind after the harvest."
+    },
+    {
+      "verse": 14,
+      "kjv": "They shall lift up their voice, they shall sing for the majesty of the LORD, they shall cry aloud from the sea.",
+      "web": "These shall lift up their voice. They will shout for the majesty of LORD. They cry aloud from the sea.",
+      "ct": "But those who remain will raise their voices and shout for joy. From the west they cry out, celebrating the majesty of the LORD."
+    },
+    {
+      "verse": 15,
+      "kjv": "Wherefore glorify ye the LORD in the fires, even the name of the LORD God of Israel in the isles of the sea.",
+      "web": "Therefore glorify LORD in the east, even the name of LORD, the God of Israel, in the islands of the sea!",
+      "ct": "So glorify the LORD in the east! Honor the name of the LORD, the God of Israel, even in the islands of the sea!"
+    },
+    {
+      "verse": 16,
+      "kjv": "From the uttermost part of the earth have we heard songs, even glory to the righteous. But I said, My leanness, my leanness, woe unto me! the treacherous dealers have dealt treacherously; yea, the treacherous dealers have dealt very treacherously.",
+      "web": "From the uttermost part of the earth have we heard songs. Glory to the righteous! But I said, “I pine away! I pine away! woe is me!” The treacherous have dealt treacherously. Yes, the treacherous have dealt very treacherously.",
+      "ct": "From the farthest corners of the earth we hear songs: \"Glory to the Righteous One!\" But I said, \"I'm wasting away! I'm wasting away! How terrible for me!\" The traitors keep betraying. Over and over, the treacherous deal in treachery."
+    },
+    {
+      "verse": 17,
+      "kjv": "Fear, and the pit, and the snare, are upon thee, O inhabitant of the earth.",
+      "web": "Fear, the pit, and the snare, are on you who inhabit the earth.",
+      "ct": "Terror, the pit, and the snare are waiting for you, people of the earth."
+    },
+    {
+      "verse": 18,
+      "kjv": "And it shall come to pass, that he who fleeth from the noise of the fear shall fall into the pit; and he that cometh up out of the midst of the pit shall be taken in the snare: for the windows from on high are open, and the foundations of the earth do shake.",
+      "web": "It will happen that he who flees from the noise of the fear will fall into the pit; and he who comes up out of the middle of the pit will be taken in the snare; for the windows on high are opened, and the foundations of the earth tremble.",
+      "ct": "Whoever runs from the sound of terror will fall into the pit. Whoever climbs out of the pit will be caught in the snare. The floodgates of heaven are thrown open, and the foundations of the earth are shaking."
+    },
+    {
+      "verse": 19,
+      "kjv": "The earth is utterly broken down, the earth is clean dissolved, the earth is moved exceedingly.",
+      "web": "The earth is utterly broken. The earth is torn apart. The earth is shaken violently.",
+      "ct": "The earth is completely shattered. The earth is split apart. The earth is violently shaken."
+    },
+    {
+      "verse": 20,
+      "kjv": "The earth shall reel to and fro like a drunkard, and shall be removed like a cottage; and the transgression thereof shall be heavy upon it; and it shall fall, and not rise again.",
+      "web": "The earth will stagger like a drunken man, and will sway back and forth like a hammock. Its disobedience will be heavy on it, and it will fall and not rise again.",
+      "ct": "The earth staggers like a drunk and sways like a hut in the wind. Its sin weighs so heavily on it that it collapses and never rises again."
+    },
+    {
+      "verse": 21,
+      "kjv": "And it shall come to pass in that day, that the LORD shall punish the host of the high ones that are on high, and the kings of the earth upon the earth.",
+      "web": "It will happen in that day that LORD will punish the army of the high ones on high, and the kings of the earth on the earth.",
+      "ct": "On that day, the LORD will punish the powers in the heavens above and the kings on the earth below."
+    },
+    {
+      "verse": 22,
+      "kjv": "And they shall be gathered together, as prisoners are gathered in the pit, and shall be shut up in the prison, and after many days shall they be visited.",
+      "web": "They will be gathered together, as prisoners are gathered in the pit, and will be shut up in the prison; and after many days they will be visited.",
+      "ct": "They will be rounded up like prisoners thrown into a dungeon. They will be locked away, and after many days, they will be called to account."
+    },
+    {
+      "verse": 23,
+      "kjv": "Then the moon shall be confounded, and the sun ashamed, when the LORD of hosts shall reign in mount Zion, and in Jerusalem, and before his ancients gloriously.",
+      "web": "Then the moon will be confounded, and the sun ashamed; for LORD of Armies will reign on Mount Zion, and in Jerusalem; and glory will be before his elders.",
+      "ct": "Then the moon will be humiliated and the sun put to shame, because the LORD of Armies will reign on Mount Zion and in Jerusalem, and his glory will blaze before the elders of his people."
+    }
+  ]
+}

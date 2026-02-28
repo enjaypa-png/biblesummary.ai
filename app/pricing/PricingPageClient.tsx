@@ -51,7 +51,7 @@ export default function PricingPageClient() {
               : "canceled"
             : "none";
 
-          if (sub.type === "premium_yearly" || sub.type === "premium_monthly") {
+          if (sub.type === "premium_annual" || sub.type === "premium_monthly") {
             setPremiumStatus(status);
           }
         }
@@ -67,7 +67,7 @@ export default function PricingPageClient() {
   const [billingCycle, setBillingCycle] = useState<"yearly" | "monthly">("yearly");
 
   async function handleCheckout(
-    product: "premium_yearly" | "premium_monthly",
+    product: "premium_annual" | "premium_monthly",
     key: string
   ) {
     if (!isAuthenticated) {
@@ -276,7 +276,7 @@ export default function PricingPageClient() {
                 "premium",
                 premiumStatus,
                 false,
-                () => handleCheckout(billingCycle === "yearly" ? "premium_yearly" : "premium_monthly", "premium")
+                () => handleCheckout(billingCycle === "yearly" ? "premium_annual" : "premium_monthly", "premium")
               )}
             </div>
 

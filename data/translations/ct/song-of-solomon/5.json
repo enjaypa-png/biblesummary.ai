@@ -1,0 +1,107 @@
+{
+  "book": "song-of-solomon",
+  "book_name": "Song of Solomon",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:36:16.417Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I am come into my garden, my sister, my spouse: I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk: eat, O friends; drink, yea, drink abundantly, O beloved.",
+      "web": "I have come into my garden, my sister, my bride. I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk. Eat, friends! Drink, yes, drink abundantly, beloved.",
+      "ct": "\"I have come into my garden, my sister, my bride. I have gathered my myrrh with my spices and eaten my honeycomb with my honey. I have drunk my wine with my milk.\" Eat, friends! Drink deeply, beloved ones!"
+    },
+    {
+      "verse": 2,
+      "kjv": "I sleep, but my heart waketh: it is the voice of my beloved that knocketh, saying, Open to me, my sister, my love, my dove, my undefiled: for my head is filled with dew, and my locks with the drops of the night.",
+      "web": "I was asleep, but my heart was awake. It is the voice of my beloved who knocks: “Open to me, my sister, my love, my dove, my undefiled; for my head is filled with dew, and my hair with the dampness of the night.”",
+      "ct": "I was asleep, but my heart was wide awake. Then I heard my beloved knocking at the door: \"Open up for me, my sister, my love, my dove, my perfect one! My head is soaked with dew, and my hair is damp from the night air.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "I have put off my coat; how shall I put it on? I have washed my feet; how shall I defile them?",
+      "web": "I have taken off my robe. Indeed, must I put it on? I have washed my feet. Indeed, must I soil them?",
+      "ct": "But I had already taken off my robe — must I really put it back on? I had already washed my feet — must I really get them dirty again?"
+    },
+    {
+      "verse": 4,
+      "kjv": "My beloved put in his hand by the hole of the door, and my bowels were moved for him.",
+      "web": "My beloved thrust his hand in through the latch opening. My heart pounded for him.",
+      "ct": "My beloved reached his hand through the latch opening, and my heart raced for him."
+    },
+    {
+      "verse": 5,
+      "kjv": "I rose up to open to my beloved; and my hands dropped with myrrh, and my fingers with sweet smelling myrrh, upon the handles of the lock.",
+      "web": "I rose up to open for my beloved. My hands dripped with myrrh, my fingers with liquid myrrh, on the handles of the lock.",
+      "ct": "I got up to open the door for my beloved. My hands dripped with myrrh, and liquid myrrh ran from my fingers onto the handles of the lock."
+    },
+    {
+      "verse": 6,
+      "kjv": "I opened to my beloved; but my beloved had withdrawn himself, and was gone: my soul failed when he spake: I sought him, but I could not find him; I called him, but he gave me no answer.",
+      "web": "I opened to my beloved; but my beloved left, and had gone away. My heart went out when he spoke. I looked for him, but I didn’t find him. I called him, but he didn’t answer.",
+      "ct": "I opened the door for my beloved, but he had already turned and gone. My soul sank when I realized he had left. I searched for him but couldn't find him. I called out to him, but he didn't answer."
+    },
+    {
+      "verse": 7,
+      "kjv": "The watchmen that went about the city found me, they smote me, they wounded me; the keepers of the walls took away my veil from me.",
+      "web": "The watchmen who go about the city found me. They beat me. They bruised me. The keepers of the walls took my cloak away from me. ",
+      "ct": "The watchmen making their rounds through the city found me. They beat me and bruised me. The guards on the walls tore my cloak away from me."
+    },
+    {
+      "verse": 8,
+      "kjv": "I charge you, O daughters of Jerusalem, if ye find my beloved, that ye tell him, that I am sick of love.",
+      "web": "I adjure you, daughters of Jerusalem, If you find my beloved, that you tell him that I am faint with love.",
+      "ct": "I beg you, daughters of Jerusalem — if you find my beloved, tell him I am overwhelmed with love for him."
+    },
+    {
+      "verse": 9,
+      "kjv": "What is thy beloved more than another beloved, O thou fairest among women? what is thy beloved more than another beloved, that thou dost so charge us?",
+      "web": "How is your beloved better than another beloved, you fairest among women? How is your beloved better than another beloved, that you do so adjure us?",
+      "ct": "\"What makes your beloved better than any other, most beautiful of women? What makes your beloved so special that you beg us like this?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "My beloved is white and ruddy, the chiefest among ten thousand.",
+      "web": "My beloved is white and ruddy. The best among ten thousand.",
+      "ct": "My beloved is radiant and healthy, standing out among 10,000 men."
+    },
+    {
+      "verse": 11,
+      "kjv": "His head is as the most fine gold, his locks are bushy, and black as a raven.",
+      "web": "His head is like the purest gold. His hair is bushy, black as a raven.",
+      "ct": "His head is like the purest gold. His hair is thick and wavy, black as a raven."
+    },
+    {
+      "verse": 12,
+      "kjv": "His eyes are as the eyes of doves by the rivers of waters, washed with milk, and fitly set.",
+      "web": "His eyes are like doves beside the water brooks, washed with milk, mounted like jewels.",
+      "ct": "His eyes are like doves beside streams of water, washed in milk and perfectly set like jewels."
+    },
+    {
+      "verse": 13,
+      "kjv": "His cheeks are as a bed of spices, as sweet flowers: his lips like lilies, dropping sweet smelling myrrh.",
+      "web": "His cheeks are like a bed of spices with towers of perfumes. His lips are like lilies, dropping liquid myrrh.",
+      "ct": "His cheeks are like beds of spices, like towers of sweet perfume. His lips are like lilies, dripping with liquid myrrh."
+    },
+    {
+      "verse": 14,
+      "kjv": "His hands are as gold rings set with the beryl: his belly is as bright ivory overlaid with sapphires.",
+      "web": "His hands are like rings of gold set with beryl. His body is like ivory work overlaid with sapphires.",
+      "ct": "His hands are like gold rings set with beryl. His body is like polished ivory decorated with sapphires."
+    },
+    {
+      "verse": 15,
+      "kjv": "His legs are as pillars of marble, set upon sockets of fine gold: his countenance is as Lebanon, excellent as the cedars.",
+      "web": "His legs are like pillars of marble set on sockets of fine gold. His appearance is like Lebanon, excellent as the cedars.",
+      "ct": "His legs are like pillars of marble set on bases of fine gold. His presence is majestic as Lebanon, as magnificent as its cedars."
+    },
+    {
+      "verse": 16,
+      "kjv": "His mouth is most sweet: yea, he is altogether lovely. This is my beloved, and this is my friend, O daughters of Jerusalem.",
+      "web": "His mouth is sweetness; yes, he is altogether lovely. This is my beloved, and this is my friend, daughters of Jerusalem.",
+      "ct": "His mouth is pure sweetness — everything about him is lovely. This is my beloved, and this is my friend, daughters of Jerusalem."
+    }
+  ]
+}

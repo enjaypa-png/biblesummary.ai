@@ -1,0 +1,113 @@
+{
+  "book": "song-of-solomon",
+  "book_name": "Song of Solomon",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:35:27.342Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The song of songs, which is Solomon’s.",
+      "web": "The Song of songs, which is Solomon’s. ",
+      "ct": "This is the Song of Songs, written by Solomon."
+    },
+    {
+      "verse": 2,
+      "kjv": "Let him kiss me with the kisses of his mouth: for thy love is better than wine.",
+      "web": "Let him kiss me with the kisses of his mouth; for your love is better than wine.",
+      "ct": "Let him kiss me with the kisses of his mouth — your love is sweeter than wine."
+    },
+    {
+      "verse": 3,
+      "kjv": "Because of the savour of thy good ointments thy name is as ointment poured forth, therefore do the virgins love thee.",
+      "web": "Your oils have a pleasing fragrance. Your name is oil poured out, therefore the virgins love you.",
+      "ct": "The fragrance of your perfume is wonderful. Your name itself is like perfume poured out — no wonder all the young women adore you."
+    },
+    {
+      "verse": 4,
+      "kjv": "Draw me, we will run after thee: the king hath brought me into his chambers: we will be glad and rejoice in thee, we will remember thy love more than wine: the upright love thee.",
+      "web": "Take me away with you. Let’s hurry. The king has brought me into his rooms. We will be glad and rejoice in you. We will praise your love more than wine! They are right to love you.",
+      "ct": "Take me with you — let's run together! The king has brought me into his chambers. We will celebrate and delight in you; we will treasure your love more than wine. They are right to love you!"
+    },
+    {
+      "verse": 5,
+      "kjv": "I am black, but comely, O ye daughters of Jerusalem, as the tents of Kedar, as the curtains of Solomon.",
+      "web": "I am dark, but lovely, you daughters of Jerusalem, like Kedar’s tents, like Solomon’s curtains.",
+      "ct": "I am dark-skinned but beautiful, daughters of Jerusalem — dark like the tents of Kedar, lovely like the curtains of Solomon."
+    },
+    {
+      "verse": 6,
+      "kjv": "Look not upon me, because I am black, because the sun hath looked upon me: my mother’s children were angry with me; they made me the keeper of the vineyards; but mine own vineyard have I not kept.",
+      "web": "Don’t stare at me because I am dark, because the sun has scorched me. My mother’s sons were angry with me. They made me keeper of the vineyards. I haven’t kept my own vineyard.",
+      "ct": "Don't stare at me because my skin is dark — the sun has scorched me. My brothers were angry with me and made me work in their vineyards, so I had no time to care for my own."
+    },
+    {
+      "verse": 7,
+      "kjv": "Tell me, O thou whom my soul loveth, where thou feedest, where thou makest thy flock to rest at noon: for why should I be as one that turneth aside by the flocks of thy companions?",
+      "web": "Tell me, you whom my soul loves, where you graze your flock, where you rest them at noon; for why should I be as one who is veiled beside the flocks of your companions?",
+      "ct": "Tell me, you whom my soul loves — where do you graze your flock? Where do you let them rest at noon? Why should I have to wander veiled among the flocks of your companions?"
+    },
+    {
+      "verse": 8,
+      "kjv": "If thou know not, O thou fairest among women, go thy way forth by the footsteps of the flock, and feed thy kids beside the shepherds’ tents.",
+      "web": "If you don’t know, most beautiful among women, follow the tracks of the sheep. Graze your young goats beside the shepherds’ tents. ",
+      "ct": "If you don't know, most beautiful of women, just follow the tracks of the sheep and graze your young goats beside the shepherds' tents."
+    },
+    {
+      "verse": 9,
+      "kjv": "I have compared thee, O my love, to a company of horses in Pharaoh’s chariots.",
+      "web": "I have compared you, my love, to a steed in Pharaoh’s chariots.",
+      "ct": "My love, I compare you to a mare among Pharaoh's chariot horses."
+    },
+    {
+      "verse": 10,
+      "kjv": "Thy cheeks are comely with rows of jewels, thy neck with chains of gold.",
+      "web": "Your cheeks are beautiful with earrings, your neck with strings of jewels.",
+      "ct": "Your cheeks are stunning framed by jeweled earrings, and your neck is gorgeous with strings of gold."
+    },
+    {
+      "verse": 11,
+      "kjv": "We will make thee borders of gold with studs of silver.",
+      "web": "We will make you earrings of gold, with studs of silver.",
+      "ct": "We will craft gold earrings for you, studded with silver."
+    },
+    {
+      "verse": 12,
+      "kjv": "While the king sitteth at his table, my spikenard sendeth forth the smell thereof.",
+      "web": "While the king sat at his table, my perfume spread its fragrance.",
+      "ct": "While the king reclined at his table, my perfume filled the air with its fragrance."
+    },
+    {
+      "verse": 13,
+      "kjv": "A bundle of myrrh is my well-beloved unto me; he shall lie all night betwixt my breasts.",
+      "web": "My beloved is to me a sachet of myrrh, that lies between my breasts.",
+      "ct": "My beloved is like a sachet of myrrh resting between my breasts all through the night."
+    },
+    {
+      "verse": 14,
+      "kjv": "My beloved is unto me as a cluster of camphire in the vineyards of Engedi.",
+      "web": "My beloved is to me a cluster of henna blossoms from the vineyards of En Gedi.",
+      "ct": "My beloved is like a cluster of henna blossoms from the vineyards of En Gedi."
+    },
+    {
+      "verse": 15,
+      "kjv": "Behold, thou art fair, my love; behold, thou art fair; thou hast doves’ eyes.",
+      "web": "Behold, you are beautiful, my love. Behold, you are beautiful. Your eyes are like doves.",
+      "ct": "How beautiful you are, my love! How truly beautiful — your eyes are soft like doves."
+    },
+    {
+      "verse": 16,
+      "kjv": "Behold, thou art fair, my beloved, yea, pleasant: also our bed is green.",
+      "web": "Behold, you are beautiful, my beloved, yes, pleasant; and our couch is verdant.",
+      "ct": "How handsome you are, my beloved — how wonderful! The green grass is our bed."
+    },
+    {
+      "verse": 17,
+      "kjv": "The beams of our house are cedar, and our rafters of fir.",
+      "web": "The beams of our house are cedars. Our rafters are firs.",
+      "ct": "Cedar beams hold up our house, and fir trees form our rafters."
+    }
+  ]
+}

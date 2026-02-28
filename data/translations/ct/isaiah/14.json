@@ -1,0 +1,203 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 14,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:41:19.557Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "For the LORD will have mercy on Jacob, and will yet choose Israel, and set them in their own land: and the strangers shall be joined with them, and they shall cleave to the house of Jacob.",
+      "web": "For LORD will have compassion on Jacob, and will yet choose Israel, and set them in their own land. The foreigner will join himself with them, and they will unite with the house of Jacob.",
+      "ct": "The LORD will have mercy on Jacob and will once again choose Israel, settling them back in their own land. Foreigners will join them there, uniting themselves with the house of Jacob."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the people shall take them, and bring them to their place: and the house of Israel shall possess them in the land of the LORD for servants and handmaids: and they shall take them captives, whose captives they were; and they shall rule over their oppressors.",
+      "web": "The peoples will take them, and bring them to their place. The house of Israel will possess them in LORD’s land for servants and for handmaids. They will take as captives those whose captives they were; and they shall rule over their oppressors.",
+      "ct": "Other nations will escort them home to their own land. There, the house of Israel will make servants of those who once held them captive. They will take captive their former captors and rule over the people who once oppressed them."
+    },
+    {
+      "verse": 3,
+      "kjv": "And it shall come to pass in the day that the LORD shall give thee rest from thy sorrow, and from thy fear, and from the hard bondage wherein thou wast made to serve,",
+      "web": "It will happen in the day that LORD will give you rest from your sorrow, from your trouble, and from the hard service in which you were made to serve,",
+      "ct": "When the day comes that the LORD gives you relief from your sorrow, your anxiety, and the brutal slavery you were forced to endure,"
+    },
+    {
+      "verse": 4,
+      "kjv": "That thou shalt take up this proverb against the king of Babylon, and say, How hath the oppressor ceased! the golden city ceased!",
+      "web": "that you will take up this parable against the king of Babylon, and say, “How the oppressor has ceased! The golden city has ceased!”",
+      "ct": "you will mock the king of Babylon with this taunt: \"Look how the oppressor has met his end! The golden city is no more!\""
+    },
+    {
+      "verse": 5,
+      "kjv": "The LORD hath broken the staff of the wicked, and the sceptre of the rulers.",
+      "web": "LORD has broken the staff of the wicked, the scepter of the rulers,",
+      "ct": "The LORD has snapped the staff of the wicked and shattered the scepter of tyrant rulers—"
+    },
+    {
+      "verse": 6,
+      "kjv": "He who smote the people in wrath with a continual stroke, he that ruled the nations in anger, is persecuted, and none hindereth.",
+      "web": "who struck the peoples in wrath with a continual stroke, who ruled the nations in anger, with a persecution that no one restrained.",
+      "ct": "the one who struck down nations in fury with blow after relentless blow, who dominated peoples in rage with unstoppable persecution."
+    },
+    {
+      "verse": 7,
+      "kjv": "The whole earth is at rest, and is quiet: they break forth into singing.",
+      "web": "The whole earth is at rest, and is quiet. They break out in song.",
+      "ct": "Now the whole earth is at rest and at peace. Everywhere, people burst into song."
+    },
+    {
+      "verse": 8,
+      "kjv": "Yea, the fir trees rejoice at thee, and the cedars of Lebanon, saying, Since thou art laid down, no feller is come up against us.",
+      "web": "Yes, the cypress trees rejoice with you, with the cedars of Lebanon, saying, “Since you are humbled, no lumberjack has come up against us.”",
+      "ct": "Even the cypress trees and the cedars of Lebanon celebrate over you, saying, \"Since you fell, no one comes to cut us down anymore.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Hell from beneath is moved for thee to meet thee at thy coming: it stirreth up the dead for thee, even all the chief ones of the earth; it hath raised up from their thrones all the kings of the nations.",
+      "web": "Sheol from beneath has moved for you to meet you at your coming. It stirs up the departed spirits for you, even all the rulers of the earth. It has raised up from their thrones all the kings of the nations.",
+      "ct": "The realm of the dead below stirs to greet you when you arrive. It rouses the spirits of the departed for you—every great ruler of the earth. All the kings of the nations rise from their thrones."
+    },
+    {
+      "verse": 10,
+      "kjv": "All they shall speak and say unto thee, Art thou also become weak as we? art thou become like unto us?",
+      "web": "They all will answer and ask you, “Have you also become as weak as we are? Have you become like us?”",
+      "ct": "Every one of them will speak up and say to you, \"So you've become as weak as we are? You've ended up just like us?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Thy pomp is brought down to the grave, and the noise of thy viols: the worm is spread under thee, and the worms cover thee.",
+      "web": "Your pomp is brought down to Sheol, with the sound of your stringed instruments. Maggots are spread out under you, and worms cover you.",
+      "ct": "All your splendor has been dragged down to the grave, along with the music of your harps. Maggots are your bed beneath you, and worms are your blanket."
+    },
+    {
+      "verse": 12,
+      "kjv": "How art thou fallen from heaven, O Lucifer, son of the morning! how art thou cut down to the ground, which didst weaken the nations!",
+      "web": "How you have fallen from heaven, shining one, son of the dawn! How you are cut down to the ground, who laid the nations low!",
+      "ct": "How you have fallen from heaven, O morning star, son of the dawn! You've been hurled down to the ground—you who once brought nations to their knees!"
+    },
+    {
+      "verse": 13,
+      "kjv": "For thou hast said in thine heart, I will ascend into heaven, I will exalt my throne above the stars of God: I will sit also upon the mount of the congregation, in the sides of the north:",
+      "web": "You said in your heart, “I will ascend into heaven! I will exalt my throne above the stars of God! I will sit on the mountain of assembly, in the far north!",
+      "ct": "You said in your heart, \"I will climb up to heaven! I will raise my throne above the stars of God! I will sit on the mountain of assembly, far away in the north!"
+    },
+    {
+      "verse": 14,
+      "kjv": "I will ascend above the heights of the clouds; I will be like the most High.",
+      "web": "I will ascend above the heights of the clouds! I will make myself like the Most High!”",
+      "ct": "I will rise above the tops of the clouds! I will make myself like the Most High!\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Yet thou shalt be brought down to hell, to the sides of the pit.",
+      "web": "Yet you shall be brought down to Sheol, to the depths of the pit.",
+      "ct": "But instead, you've been dragged down to the grave, to the deepest depths of the pit."
+    },
+    {
+      "verse": 16,
+      "kjv": "They that see thee shall narrowly look upon thee, and consider thee, saying, Is this the man that made the earth to tremble, that did shake kingdoms;",
+      "web": "Those who see you will stare at you. They will ponder you, saying, “Is this the man who made the earth to tremble, who shook kingdoms,",
+      "ct": "Those who see you will stare and study your face, saying, \"Is this really the man who made the earth tremble? The one who shook entire kingdoms?"
+    },
+    {
+      "verse": 17,
+      "kjv": "That made the world as a wilderness, and destroyed the cities thereof; that opened not the house of his prisoners?",
+      "web": "who made the world like a wilderness, and overthrew its cities, who didn’t release his prisoners to their home?”",
+      "ct": "The one who turned the world into a wasteland, demolished its cities, and never let his prisoners go home?\""
+    },
+    {
+      "verse": 18,
+      "kjv": "All the kings of the nations, even all of them, lie in glory, every one in his own house.",
+      "web": "All the kings of the nations, sleep in glory, everyone in his own house.",
+      "ct": "Every other king of the nations lies in honor, each one in his own royal tomb."
+    },
+    {
+      "verse": 19,
+      "kjv": "But thou art cast out of thy grave like an abominable branch, and as the raiment of those that are slain, thrust through with a sword, that go down to the stones of the pit; as a carcase trodden under feet.",
+      "web": "But you are cast away from your tomb like an abominable branch, clothed with the slain, who are thrust through with the sword, who go down to the stones of the pit; like a dead body trodden under foot.",
+      "ct": "But you have been thrown out of your grave like a worthless, rotting branch—buried under the bodies of soldiers killed by the sword, tossed down among the stones at the bottom of the pit, trampled like a corpse in the dirt."
+    },
+    {
+      "verse": 20,
+      "kjv": "Thou shalt not be joined with them in burial, because thou hast destroyed thy land, and slain thy people: the seed of evildoers shall never be renowned.",
+      "web": "You will not join them in burial, because you have destroyed your land. You have killed your people. The offspring of evildoers will not be named forever.",
+      "ct": "You won't be given a proper burial like other kings, because you destroyed your own land and slaughtered your own people. The descendants of evildoers will never be remembered."
+    },
+    {
+      "verse": 21,
+      "kjv": "Prepare slaughter for his children for the iniquity of their fathers; that they do not rise, nor possess the land, nor fill the face of the world with cities.",
+      "web": "Prepare for slaughter of his children because of the iniquity of their fathers, that they not rise up and possess the earth, and fill the surface of the world with cities.",
+      "ct": "Prepare a place of slaughter for his sons because of their fathers' sins, so they never rise to power, take over the earth, or fill the world with their cities."
+    },
+    {
+      "verse": 22,
+      "kjv": "For I will rise up against them, saith the LORD of hosts, and cut off from Babylon the name, and remnant, and son, and nephew, saith the LORD.",
+      "web": "“I will rise up against them,” says LORD of Armies, “and cut off from Babylon name and remnant, and son and son’s son,” says LORD.",
+      "ct": "\"I will rise up against them,\" declares the LORD of hosts. \"I will wipe out Babylon's name and every survivor—children and grandchildren alike,\" says the LORD."
+    },
+    {
+      "verse": 23,
+      "kjv": "I will also make it a possession for the bittern, and pools of water: and I will sweep it with the besom of destruction, saith the LORD of hosts.",
+      "web": "“I will also make it a possession for the porcupine, and pools of water. I will sweep it with the broom of destruction,” says LORD of Armies.",
+      "ct": "\"I will turn it into a swamp where porcupines live, surrounded by stagnant pools. I will sweep it clean with the broom of destruction,\" declares the LORD of hosts."
+    },
+    {
+      "verse": 24,
+      "kjv": "The LORD of hosts hath sworn, saying, Surely as I have thought, so shall it come to pass; and as I have purposed, so shall it stand:",
+      "web": "LORD of Armies has sworn, saying, “Surely, as I have thought, so shall it happen; and as I have purposed, so shall it stand:",
+      "ct": "The LORD of hosts has sworn an oath: \"What I have planned will absolutely happen. What I have decided will stand:"
+    },
+    {
+      "verse": 25,
+      "kjv": "That I will break the Assyrian in my land, and upon my mountains tread him under foot: then shall his yoke depart from off them, and his burden depart from off their shoulders.",
+      "web": "that I will break the Assyrian in my land, and tread him under foot on my mountains. Then his yoke will leave them, and his burden leave their shoulders.",
+      "ct": "I will crush the Assyrian in my land and trample him on my mountains. His yoke will be lifted from my people, and his burden will fall from their shoulders.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "This is the purpose that is purposed upon the whole earth: and this is the hand that is stretched out upon all the nations.",
+      "web": "This is the plan that is determined for the whole earth. This is the hand that is stretched out over all the nations.",
+      "ct": "This is the plan the LORD has laid out for the whole earth. This is the hand he has stretched out over every nation."
+    },
+    {
+      "verse": 27,
+      "kjv": "For the LORD of hosts hath purposed, and who shall disannul it? and his hand is stretched out, and who shall turn it back?",
+      "web": "For LORD of Armies has planned, and who can stop it? His hand is stretched out, and who can turn it back?”",
+      "ct": "The LORD of hosts has made his plan—who can stop it? His hand is stretched out—who can push it back?"
+    },
+    {
+      "verse": 28,
+      "kjv": "In the year that king Ahaz died was this burden.",
+      "web": "This burden was in the year that king Ahaz died.",
+      "ct": "This message came in the year that King Ahaz died."
+    },
+    {
+      "verse": 29,
+      "kjv": "Rejoice not thou, whole Palestina, because the rod of him that smote thee is broken: for out of the serpent’s root shall come forth a cockatrice, and his fruit shall be a fiery flying serpent.",
+      "web": "Don’t rejoice, O Philistia, all of you, because the rod that struck you is broken; for out of the serpent’s root an adder will emerge, and his fruit will be a fiery flying serpent.",
+      "ct": "Don't celebrate, all you Philistines, just because the rod that struck you is broken. From that serpent's root, a viper will emerge, and its offspring will be a deadly, flying serpent."
+    },
+    {
+      "verse": 30,
+      "kjv": "And the firstborn of the poor shall feed, and the needy shall lie down in safety: and I will kill thy root with famine, and he shall slay thy remnant.",
+      "web": "The firstborn of the poor will eat, and the needy will lie down in safety; and I will kill your root with famine, and your remnant will be killed.",
+      "ct": "The poorest of the poor will find food to eat, and the needy will rest in safety. But I will starve your roots with famine, and whatever is left of you will be killed."
+    },
+    {
+      "verse": 31,
+      "kjv": "Howl, O gate; cry, O city; thou, whole Palestina, art dissolved: for there shall come from the north a smoke, and none shall be alone in his appointed times.",
+      "web": "Howl, gate! Cry, city! You are melted away, Philistia, all of you; for smoke comes out of the north, and there is no straggler in his ranks.",
+      "ct": "Wail at the gates! Cry out, O city! Melt in fear, all of Philistia! A cloud of smoke is rolling in from the north—an army marching in perfect formation with not a single straggler."
+    },
+    {
+      "verse": 32,
+      "kjv": "What shall one then answer the messengers of the nation? That the LORD hath founded Zion, and the poor of his people shall trust in it.",
+      "web": "What will they answer the messengers of the nation? That LORD has founded Zion, and in her the afflicted of his people will take refuge.",
+      "ct": "What answer will be given to the messengers of that nation? That the LORD has established Zion, and the afflicted among his people will find refuge there."
+    }
+  ]
+}

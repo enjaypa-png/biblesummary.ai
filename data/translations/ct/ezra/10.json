@@ -1,0 +1,275 @@
+{
+  "book": "ezra",
+  "book_name": "Ezra",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:27:26.915Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now when Ezra had prayed, and when he had confessed, weeping and casting himself down before the house of God, there assembled unto him out of Israel a very great congregation of men and women and children: for the people wept very sore.",
+      "web": "Now while Ezra prayed and made confession, weeping and casting himself down before God’s house, there was gathered together to him out of Israel a very great assembly of men and women and children; for the people wept very bitterly.",
+      "ct": "While Ezra was praying and confessing these sins, weeping and throwing himself facedown in front of God's house, a huge crowd of Israelite men, women, and children gathered around him. The people were weeping bitterly."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Shechaniah the son of Jehiel, one of the sons of Elam, answered and said unto Ezra, We have trespassed against our God, and have taken strange wives of the people of the land: yet now there is hope in Israel concerning this thing.",
+      "web": "Shecaniah the son of Jehiel, one of the sons of Elam, answered Ezra, “We have trespassed against our God, and have married foreign women of the peoples of the land. Yet now there is hope for Israel concerning this thing.",
+      "ct": "Then Shechaniah son of Jehiel, from the family of Elam, spoke up and said to Ezra, \"We have sinned against our God by marrying foreign women from the surrounding peoples. But even so, there is still hope for Israel."
+    },
+    {
+      "verse": 3,
+      "kjv": "Now therefore let us make a covenant with our God to put away all the wives, and such as are born of them, according to the counsel of my lord, and of those that tremble at the commandment of our God; and let it be done according to the law.",
+      "web": "Now therefore let’s make a covenant with our God to put away all the wives, and those who are born of them, according to the counsel of my lord, and of those who tremble at the commandment of our God. Let it be done according to the law.",
+      "ct": "Let's make a covenant with our God right now to send away all these foreign wives and their children, following the advice of my lord and of everyone who trembles at the commandment of our God. Let this be done according to the law."
+    },
+    {
+      "verse": 4,
+      "kjv": "Arise; for this matter belongeth unto thee: we also will be with thee: be of good courage, and do it.",
+      "web": "Arise; for the matter belongs to you, and we are with you. Be courageous, and do it.”",
+      "ct": "Stand up, Ezra — this is your responsibility, and we're behind you. Be courageous and take action.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Then arose Ezra, and made the chief priests, the Levites, and all Israel, to swear that they should do according to this word. And they sware.",
+      "web": "Then Ezra arose, and made the chiefs of the priests, the Levites, and all Israel, to swear that they would do according to this word. So they swore.",
+      "ct": "So Ezra stood up and made the leading priests, the Levites, and all of Israel swear an oath that they would do what Shechaniah had said. They all swore to it."
+    },
+    {
+      "verse": 6,
+      "kjv": "Then Ezra rose up from before the house of God, and went into the chamber of Johanan the son of Eliashib: and when he came thither, he did eat no bread, nor drink water: for he mourned because of the transgression of them that had been carried away.",
+      "web": "Then Ezra rose up from before God’s house, and went into the room of Jehohanan the son of Eliashib. When he came there, he ate no bread, nor drank water; for he mourned because of their trespass of the captivity.",
+      "ct": "Then Ezra got up from in front of God's house and went to the room of Johanan son of Eliashib. While he was there, he refused to eat or drink because he was still grieving over the sin of the returned exiles."
+    },
+    {
+      "verse": 7,
+      "kjv": "And they made proclamation throughout Judah and Jerusalem unto all the children of the captivity, that they should gather themselves together unto Jerusalem;",
+      "web": "They made a proclamation throughout Judah and Jerusalem to all the children of the captivity, that they should gather themselves together to Jerusalem;",
+      "ct": "A proclamation was sent throughout Judah and Jerusalem, ordering all the returned exiles to assemble in Jerusalem."
+    },
+    {
+      "verse": 8,
+      "kjv": "And that whosoever would not come within three days, according to the counsel of the princes and the elders, all his substance should be forfeited, and himself separated from the congregation of those that had been carried away.",
+      "web": "and that whoever didn’t come within three days, according to the counsel of the princes and the elders, all his possessions should be forfeited, and himself separated from the assembly of the captivity.",
+      "ct": "Anyone who failed to show up within 3 days — as the leaders and elders had decided — would have all their property seized and would be expelled from the community of exiles."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then all the men of Judah and Benjamin gathered themselves together unto Jerusalem within three days. It was the ninth month, on the twentieth day of the month; and all the people sat in the street of the house of God, trembling because of this matter, and for the great rain.",
+      "web": "Then all the men of Judah and Benjamin gathered themselves together to Jerusalem within the three days. It was the ninth month, on the twentieth day of the month; and all the people sat in the wide place in front of God’s house, trembling because of this matter, and because of the great rain.",
+      "ct": "Within 3 days, all the men of Judah and Benjamin had gathered in Jerusalem. It was the 20th day of the 9th month. The entire crowd sat in the open square in front of God's house, shaking — both because of the seriousness of the situation and because of the heavy rain pouring down."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Ezra the priest stood up, and said unto them, Ye have transgressed, and have taken strange wives, to increase the trespass of Israel.",
+      "web": "Ezra the priest stood up and said to them, “You have trespassed, and have married foreign women, to increase the guilt of Israel.",
+      "ct": "Ezra the priest stood and addressed them: \"You have sinned. By marrying foreign women, you have added to Israel's guilt."
+    },
+    {
+      "verse": 11,
+      "kjv": "Now therefore make confession unto the LORD God of your fathers, and do his pleasure: and separate yourselves from the people of the land, and from the strange wives.",
+      "web": "Now therefore make confession to LORD, the God of your fathers, and do his pleasure; and separate yourselves from the peoples of the land, and from the foreign women.”",
+      "ct": "Now confess your sin to the LORD, the God of your ancestors, and do what pleases him. Separate yourselves from the foreign peoples around you and from your foreign wives.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then all the congregation answered and said with a loud voice, As thou hast said, so must we do.",
+      "web": "Then all the assembly answered with a loud voice, “We must do as you have said concerning us.",
+      "ct": "The whole assembly shouted back, \"You're right! We must do exactly as you say."
+    },
+    {
+      "verse": 13,
+      "kjv": "But the people are many, and it is a time of much rain, and we are not able to stand without, neither is this a work of one day or two: for we are many that have transgressed in this thing.",
+      "web": "But the people are many, and it is a time of much rain, and we are not able to stand outside. This is not a work of one day or two, for we have greatly transgressed in this matter.",
+      "ct": "But there are a lot of us, and it's the rainy season — we can't keep standing out here in the open. Besides, this isn't something that can be resolved in a day or two, because so many of us are guilty."
+    },
+    {
+      "verse": 14,
+      "kjv": "Let now our rulers of all the congregation stand, and let all them which have taken strange wives in our cities come at appointed times, and with them the elders of every city, and the judges thereof, until the fierce wrath of our God for this matter be turned from us.",
+      "web": "Now let our princes be appointed for all the assembly, and let all those who are in our cities who have married foreign women come at appointed times, and with them the elders of every city, and its judges, until the fierce wrath of our God is turned from us, until this matter is resolved.”",
+      "ct": "Let our leaders represent the whole assembly. Then let everyone in our towns who has married a foreign woman come at scheduled times, along with the elders and judges of each town, until God's fierce anger over this matter is turned away from us.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Only Jonathan the son of Asahel and Jahaziah the son of Tikvah were employed about this matter: and Meshullam and Shabbethai the Levite helped them.",
+      "web": "Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah stood up against this; and Meshullam and Shabbethai the Levite helped them.",
+      "ct": "Only Jonathan son of Asahel and Jahaziah son of Tikvah opposed this plan, and Meshullam and Shabbethai the Levite supported them."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the children of the captivity did so. And Ezra the priest, with certain chief of the fathers, after the house of their fathers, and all of them by their names, were separated, and sat down in the first day of the tenth month to examine the matter.",
+      "web": "The children of the captivity did so. Ezra the priest, with certain heads of fathers’ households, after their fathers’ houses, and all of them by their names, were set apart; and they sat down in the first day of the tenth month to examine the matter.",
+      "ct": "But the returned exiles went ahead with it. Ezra the priest selected certain family heads, one from each clan, all listed by name. They began their investigation on the 1st day of the 10th month."
+    },
+    {
+      "verse": 17,
+      "kjv": "And they made an end with all the men that had taken strange wives by the first day of the first month.",
+      "web": "They finished with all the men who had married foreign women by the first day of the first month.",
+      "ct": "By the 1st day of the 1st month, they had finished reviewing every case of a man who had married a foreign woman."
+    },
+    {
+      "verse": 18,
+      "kjv": "And among the sons of the priests there were found that had taken strange wives: namely, of the sons of Jeshua the son of Jozadak, and his brethren; Maaseiah, and Eliezer, and Jarib, and Gedaliah.",
+      "web": "Among the sons of the priests there were found who had married foreign women: of the sons of Jeshua, the son of Jozadak, and his brothers, Maaseiah, and Eliezer, and Jarib, and Gedaliah.",
+      "ct": "Among the priests, the following were found to have married foreign women: From the family of Jeshua son of Jozadak and his brothers — Maaseiah, Eliezer, Jarib, and Gedaliah."
+    },
+    {
+      "verse": 19,
+      "kjv": "And they gave their hands that they would put away their wives; and being guilty, they offered a ram of the flock for their trespass.",
+      "web": "They gave their hand that they would put away their wives; and being guilty, they offered a ram of the flock for their guilt.",
+      "ct": "They pledged to send their wives away, and because they were guilty, each offered a ram from the flock as a guilt offering."
+    },
+    {
+      "verse": 20,
+      "kjv": "And of the sons of Immer; Hanani, and Zebadiah.",
+      "web": "Of the sons of Immer: Hanani and Zebadiah.",
+      "ct": "From the family of Immer: Hanani and Zebadiah."
+    },
+    {
+      "verse": 21,
+      "kjv": "And of the sons of Harim; Maaseiah, and Elijah, and Shemaiah, and Jehiel, and Uzziah.",
+      "web": "Of the sons of Harim: Maaseiah, and Elijah, and Shemaiah, and Jehiel, and Uzziah.",
+      "ct": "From the family of Harim: Maaseiah, Elijah, Shemaiah, Jehiel, and Uzziah."
+    },
+    {
+      "verse": 22,
+      "kjv": "And of the sons of Pashur; Elioenai, Maaseiah, Ishmael, Nethaneel, Jozabad, and Elasah.",
+      "web": "Of the sons of Pashhur: Elioenai, Maaseiah, Ishmael, Nethanel, Jozabad, and Elasah. ",
+      "ct": "From the family of Pashur: Elioenai, Maaseiah, Ishmael, Nethaneel, Jozabad, and Elasah."
+    },
+    {
+      "verse": 23,
+      "kjv": "Also of the Levites; Jozabad, and Shimei, and Kelaiah, (the same is Kelita,) Pethahiah, Judah, and Eliezer.",
+      "web": "Of the Levites: Jozabad, and Shimei, and Kelaiah (also called Kelita), Pethahiah, Judah, and Eliezer. ",
+      "ct": "From the Levites: Jozabad, Shimei, Kelaiah (also known as Kelita), Pethahiah, Judah, and Eliezer."
+    },
+    {
+      "verse": 24,
+      "kjv": "Of the singers also; Eliashib: and of the porters; Shallum, and Telem, and Uri.",
+      "web": "Of the singers: Eliashib. Of the gatekeepers: Shallum, and Telem, and Uri. ",
+      "ct": "From the singers: Eliashib. From the gatekeepers: Shallum, Telem, and Uri."
+    },
+    {
+      "verse": 25,
+      "kjv": "Moreover of Israel: of the sons of Parosh; Ramiah, and Jeziah, and Malchiah, and Miamin, and Eleazar, and Malchijah, and Benaiah.",
+      "web": "Of Israel: Of the sons of Parosh: Ramiah, and Izziah, and Malchijah, and Mijamin, and Eleazar, and Malchijah, and Benaiah.",
+      "ct": "From the rest of Israel — from the family of Parosh: Ramiah, Jeziah, Malchiah, Miamin, Eleazar, Malchijah, and Benaiah."
+    },
+    {
+      "verse": 26,
+      "kjv": "And of the sons of Elam; Mattaniah, Zechariah, and Jehiel, and Abdi, and Jeremoth, and Eliah.",
+      "web": "Of the sons of Elam: Mattaniah, Zechariah, and Jehiel, and Abdi, and Jeremoth, and Elijah.",
+      "ct": "From the family of Elam: Mattaniah, Zechariah, Jehiel, Abdi, Jeremoth, and Eliah."
+    },
+    {
+      "verse": 27,
+      "kjv": "And of the sons of Zattu; Elioenai, Eliashib, Mattaniah, and Jeremoth, and Zabad, and Aziza.",
+      "web": "Of the sons of Zattu: Elioenai, Eliashib, Mattaniah, and Jeremoth, and Zabad, and Aziza.",
+      "ct": "From the family of Zattu: Elioenai, Eliashib, Mattaniah, Jeremoth, Zabad, and Aziza."
+    },
+    {
+      "verse": 28,
+      "kjv": "Of the sons also of Bebai; Jehohanan, Hananiah, Zabbai, and Athlai.",
+      "web": "Of the sons of Bebai: Jehohanan, Hananiah, Zabbai, Athlai.",
+      "ct": "From the family of Bebai: Jehohanan, Hananiah, Zabbai, and Athlai."
+    },
+    {
+      "verse": 29,
+      "kjv": "And of the sons of Bani; Meshullam, Malluch, and Adaiah, Jashub, and Sheal, and Ramoth.",
+      "web": "Of the sons of Bani: Meshullam, Malluch, and Adaiah, Jashub, and Sheal, Jeremoth.",
+      "ct": "From the family of Bani: Meshullam, Malluch, Adaiah, Jashub, Sheal, and Ramoth."
+    },
+    {
+      "verse": 30,
+      "kjv": "And of the sons of Pahathmoab; Adna, and Chelal, Benaiah, Maaseiah, Mattaniah, Bezaleel, and Binnui, and Manasseh.",
+      "web": "Of the sons of Pahathmoab: Adna, and Chelal, Benaiah, Maaseiah, Mattaniah, Bezalel, and Binnui, and Manasseh.",
+      "ct": "From the family of Pahathmoab: Adna, Chelal, Benaiah, Maaseiah, Mattaniah, Bezaleel, Binnui, and Manasseh."
+    },
+    {
+      "verse": 31,
+      "kjv": "And of the sons of Harim; Eliezer, Ishijah, Malchiah, Shemaiah, Shimeon,",
+      "web": "Of the sons of Harim: Eliezer, Isshijah, Malchijah, Shemaiah, Shimeon,",
+      "ct": "From the family of Harim: Eliezer, Ishijah, Malchiah, Shemaiah, Shimeon,"
+    },
+    {
+      "verse": 32,
+      "kjv": "Benjamin, Malluch, and Shemariah.",
+      "web": "Benjamin, Malluch, Shemariah.",
+      "ct": "Benjamin, Malluch, and Shemariah."
+    },
+    {
+      "verse": 33,
+      "kjv": "Of the sons of Hashum; Mattenai, Mattathah, Zabad, Eliphelet, Jeremai, Manasseh, and Shimei.",
+      "web": "Of the sons of Hashum: Mattenai, Mattattah, Zabad, Eliphelet, Jeremai, Manasseh, Shimei.",
+      "ct": "From the family of Hashum: Mattenai, Mattathah, Zabad, Eliphelet, Jeremai, Manasseh, and Shimei."
+    },
+    {
+      "verse": 34,
+      "kjv": "Of the sons of Bani; Maadai, Amram, and Uel,",
+      "web": "Of the sons of Bani: Maadai, Amram, and Uel,",
+      "ct": "From the family of Bani: Maadai, Amram, Uel,"
+    },
+    {
+      "verse": 35,
+      "kjv": "Benaiah, Bedeiah, Chelluh,",
+      "web": "Benaiah, Bedeiah, Cheluhi,",
+      "ct": "Benaiah, Bedeiah, Chelluh,"
+    },
+    {
+      "verse": 36,
+      "kjv": "Vaniah, Meremoth, Eliashib,",
+      "web": "Vaniah, Meremoth, Eliashib,",
+      "ct": "Vaniah, Meremoth, Eliashib,"
+    },
+    {
+      "verse": 37,
+      "kjv": "Mattaniah, Mattenai, and Jaasau,",
+      "web": "Mattaniah, Mattenai, and Jaasu,",
+      "ct": "Mattaniah, Mattenai, Jaasau,"
+    },
+    {
+      "verse": 38,
+      "kjv": "And Bani, and Binnui, Shimei,",
+      "web": "and Bani, and Binnui, Shimei,",
+      "ct": "Bani, Binnui, Shimei,"
+    },
+    {
+      "verse": 39,
+      "kjv": "And Shelemiah, and Nathan, and Adaiah,",
+      "web": "and Shelemiah, and Nathan, and Adaiah,",
+      "ct": "Shelemiah, Nathan, Adaiah,"
+    },
+    {
+      "verse": 40,
+      "kjv": "Machnadebai, Shashai, Sharai,",
+      "web": "Machnadebai, Shashai, Sharai,",
+      "ct": "Machnadebai, Shashai, Sharai,"
+    },
+    {
+      "verse": 41,
+      "kjv": "Azareel, and Shelemiah, Shemariah,",
+      "web": "Azarel, and Shelemiah, Shemariah,",
+      "ct": "Azareel, Shelemiah, Shemariah,"
+    },
+    {
+      "verse": 42,
+      "kjv": "Shallum, Amariah, and Joseph.",
+      "web": "Shallum, Amariah, Joseph.",
+      "ct": "Shallum, Amariah, and Joseph."
+    },
+    {
+      "verse": 43,
+      "kjv": "Of the sons of Nebo; Jeiel, Mattithiah, Zabad, Zebina, Jadau, and Joel, Benaiah.",
+      "web": "Of the sons of Nebo: Jeiel, Mattithiah, Zabad, Zebina, Iddo, and Joel, Benaiah.",
+      "ct": "From the family of Nebo: Jeiel, Mattithiah, Zabad, Zebina, Jadau, Joel, and Benaiah."
+    },
+    {
+      "verse": 44,
+      "kjv": "All these had taken strange wives: and some of them had wives by whom they had children.",
+      "web": "All these had taken foreign wives; and some of them had wives by whom they had children.",
+      "ct": "All of these men had married foreign women, and some of them had children by these wives."
+    }
+  ]
+}

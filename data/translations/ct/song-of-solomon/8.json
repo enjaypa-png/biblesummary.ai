@@ -1,0 +1,95 @@
+{
+  "book": "song-of-solomon",
+  "book_name": "Song of Solomon",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:36:52.065Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "O that thou wert as my brother, that sucked the breasts of my mother! when I should find thee without, I would kiss thee; yea, I should not be despised.",
+      "web": "Oh that you were like my brother, who nursed from the breasts of my mother! If I found you outside, I would kiss you; yes, and no one would despise me.",
+      "ct": "If only you were like a brother to me, one who nursed at my mother's breast! Then if I found you out in public, I could kiss you, and no one would look down on me for it."
+    },
+    {
+      "verse": 2,
+      "kjv": "I would lead thee, and bring thee into my mother’s house, who would instruct me: I would cause thee to drink of spiced wine of the juice of my pomegranate.",
+      "web": "I would lead you, bringing you into the house of my mother, who would instruct me. I would have you drink spiced wine, of the juice of my pomegranate.",
+      "ct": "I would take you by the hand and bring you to my mother's house, where she could teach me. I'd give you spiced wine to drink, the sweet juice of my pomegranates."
+    },
+    {
+      "verse": 3,
+      "kjv": "His left hand should be under my head, and his right hand should embrace me.",
+      "web": "His left hand would be under my head. His right hand would embrace me. ",
+      "ct": "His left hand would cradle my head, and his right arm would hold me close."
+    },
+    {
+      "verse": 4,
+      "kjv": "I charge you, O daughters of Jerusalem, that ye stir not up, nor awake my love, until he please.",
+      "web": "I adjure you, daughters of Jerusalem, that you not stir up, nor awaken love, until it so desires.",
+      "ct": "Promise me, daughters of Jerusalem — don't stir up or awaken love until it's ready."
+    },
+    {
+      "verse": 5,
+      "kjv": "Who is this that cometh up from the wilderness, leaning upon her beloved? I raised thee up under the apple tree: there thy mother brought thee forth: there she brought thee forth that bare thee.",
+      "web": "Who is this who comes up from the wilderness, leaning on her beloved? Under the apple tree I aroused you. There your mother conceived you. There she was in labor and bore you. ",
+      "ct": "Who is this coming up from the wilderness, leaning on her beloved? Under the apple tree I awakened you — the same place where your mother conceived you, where she labored and gave you birth."
+    },
+    {
+      "verse": 6,
+      "kjv": "Set me as a seal upon thine heart, as a seal upon thine arm: for love is strong as death; jealousy is cruel as the grave: the coals thereof are coals of fire, which hath a most vehement flame.",
+      "web": "Set me as a seal on your heart, as a seal on your arm; for love is strong as death. Jealousy is as cruel as Sheol. Its flashes are flashes of fire, a very flame of LORD.",
+      "ct": "Wear me like a seal over your heart, like a seal on your arm. Love is as fierce as death, and jealousy as unyielding as Sheol. Its passion blazes like fire — a mighty flame from the LORD himself."
+    },
+    {
+      "verse": 7,
+      "kjv": "Many waters cannot quench love, neither can the floods drown it: if a man would give all the substance of his house for love, it would utterly be contemned.",
+      "web": "Many waters can’t quench love, neither can floods drown it. If a man would give all the wealth of his house for love, he would be utterly scorned.",
+      "ct": "Oceans of water cannot put out love, and rivers cannot sweep it away. If someone offered everything they owned to buy love, they would be completely rejected."
+    },
+    {
+      "verse": 8,
+      "kjv": "We have a little sister, and she hath no breasts: what shall we do for our sister in the day when she shall be spoken for?",
+      "web": "We have a little sister. She has no breasts. What shall we do for our sister in the day when she is to be spoken for? ",
+      "ct": "We have a little sister whose body hasn't yet matured. What should we do for her when the day comes that someone asks for her hand?"
+    },
+    {
+      "verse": 9,
+      "kjv": "If she be a wall, we will build upon her a palace of silver: and if she be a door, we will inclose her with boards of cedar.",
+      "web": "If she is a wall, we will build on her a turret of silver. If she is a door, we will enclose her with boards of cedar.",
+      "ct": "If she proves to be a wall, we'll crown her with a turret of silver. But if she proves to be a door, we'll board her up with planks of cedar."
+    },
+    {
+      "verse": 10,
+      "kjv": "I am a wall, and my breasts like towers: then was I in his eyes as one that found favour.",
+      "web": "I am a wall, and my breasts like towers, then I was in his eyes like one who found peace.",
+      "ct": "I am a wall, and my breasts are like towers. So in his eyes, I became like one who has found favor."
+    },
+    {
+      "verse": 11,
+      "kjv": "Solomon had a vineyard at Baalhamon; he let out the vineyard unto keepers; every one for the fruit thereof was to bring a thousand pieces of silver.",
+      "web": "Solomon had a vineyard at Baal Hamon. He leased out the vineyard to keepers. Each was to bring a thousand shekels of silver for its fruit.",
+      "ct": "Solomon owned a vineyard at Baal Hamon. He leased it out to caretakers, and each one was to pay 1,000 shekels of silver for its fruit."
+    },
+    {
+      "verse": 12,
+      "kjv": "My vineyard, which is mine, is before me: thou, O Solomon, must have a thousand, and those that keep the fruit thereof two hundred.",
+      "web": "My own vineyard is before me. The thousand are for you, Solomon, two hundred for those who tend its fruit.",
+      "ct": "But my own vineyard is mine to give. You can have your 1,000 shekels, Solomon, and the caretakers can keep their 200. What I have belongs to me."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thou that dwellest in the gardens, the companions hearken to thy voice: cause me to hear it.",
+      "web": "You who dwell in the gardens, with friends in attendance, let me hear your voice!",
+      "ct": "You who linger in the gardens — your friends are listening. Let me hear your voice!"
+    },
+    {
+      "verse": 14,
+      "kjv": "Make haste, my beloved, and be thou like to a roe or to a young hart upon the mountains of spices.",
+      "web": "Come away, my beloved! Be like a gazelle or a young stag on the mountains of spices!",
+      "ct": "Hurry to me, my beloved! Be like a gazelle or a young stag bounding across the mountains of spices!"
+    }
+  ]
+}

@@ -61,7 +61,7 @@ export default function SummariesPageClient({ books }: { books: Book[] }) {
         .from("subscriptions")
         .select("type, status, current_period_end")
         .eq("user_id", user.id)
-        .in("type", ["summary_annual", "premium_yearly"]);
+        .in("type", ["summary_annual", "premium_annual"]);
 
       const hasActiveSub = subs?.some(
         (sub) =>

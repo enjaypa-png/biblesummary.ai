@@ -1,0 +1,95 @@
+{
+  "book": "ecclesiastes",
+  "book_name": "Ecclesiastes",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:35:12.560Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;",
+      "web": "Remember also your Creator in the days of your youth, before the evil days come, and the years draw near, when you will say, “I have no pleasure in them;”",
+      "ct": "Remember your Creator while you're still young — before the hard days come and the years arrive when you'll say, \"There's nothing left in life that I enjoy.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain:",
+      "web": "Before the sun, the light, the moon, and the stars are darkened, and the clouds return after the rain;",
+      "ct": "Do it before the sun, the light, the moon, and the stars grow dark for you, and the clouds keep rolling back after every rain."
+    },
+    {
+      "verse": 3,
+      "kjv": "In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened,",
+      "web": "in the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those who look out of the windows are darkened,",
+      "ct": "A day is coming when the keepers of the house will tremble, and strong men will stoop over. The grinders will stop because so few are left, and those who look out through the windows will see only dimness."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low;",
+      "web": "and the doors shall be shut in the street; when the sound of the grinding is low, and one shall rise up at the voice of a bird, and all the daughters of music shall be brought low;",
+      "ct": "The doors to the street will be shut, and the sound of grinding will fade to almost nothing. You'll wake at the first chirp of a bird, yet every song will grow faint and distant."
+    },
+    {
+      "verse": 5,
+      "kjv": "Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets:",
+      "web": "yes, they shall be afraid of heights, and terrors will be on the way; and the almond tree shall blossom, and the grasshopper shall be a burden, and desire shall fail; because man goes to his everlasting home, and the mourners go about the streets:",
+      "ct": "Heights will terrify you, and every path will feel dangerous. The almond tree will burst into bloom, the grasshopper will drag itself along, and desire will wither away — because each person is heading to their everlasting home, while mourners walk the streets."
+    },
+    {
+      "verse": 6,
+      "kjv": "Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.",
+      "web": "before the silver cord is severed, or the golden bowl is broken, or the pitcher is broken at the spring, or the wheel broken at the cistern,",
+      "ct": "Remember him before the silver cord is snapped, the golden bowl is shattered, the pitcher is broken at the spring, and the wheel is smashed at the cistern."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+      "web": "and the dust returns to the earth as it was, and the spirit returns to God who gave it.",
+      "ct": "Then the dust will return to the earth where it came from, and the spirit will return to God who gave it."
+    },
+    {
+      "verse": 8,
+      "kjv": "Vanity of vanities, saith the preacher; all is vanity.",
+      "web": "“Vanity of vanities,” says the Preacher. “All is vanity!”",
+      "ct": "\"Absolutely meaningless!\" says the Preacher. \"Everything is meaningless!\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And moreover, because the preacher was wise, he still taught the people knowledge; yea, he gave good heed, and sought out, and set in order many proverbs.",
+      "web": "Further, because the Preacher was wise, he still taught the people knowledge. Yes, he pondered, sought out, and set in order many proverbs.",
+      "ct": "Beyond being wise himself, the Preacher also taught the people what he knew. He carefully weighed, researched, and arranged many proverbs."
+    },
+    {
+      "verse": 10,
+      "kjv": "The preacher sought to find out acceptable words: and that which was written was upright, even words of truth.",
+      "web": "The Preacher sought to find out acceptable words, and that which was written blamelessly, words of truth.",
+      "ct": "The Preacher searched for just the right words, and what he wrote was honest and true."
+    },
+    {
+      "verse": 11,
+      "kjv": "The words of the wise are as goads, and as nails fastened by the masters of assemblies, which are given from one shepherd.",
+      "web": "The words of the wise are like goads; and like nails well fastened are words from the masters of assemblies, which are given from one shepherd.",
+      "ct": "The words of the wise are like cattle goads — they prod you forward. Collected sayings from the masters are like nails driven deep, and they all come from one shepherd."
+    },
+    {
+      "verse": 12,
+      "kjv": "And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh.",
+      "web": "Furthermore, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh.",
+      "ct": "One more thing, my son — let me warn you: there's no end to the making of books, and too much study will wear you out."
+    },
+    {
+      "verse": 13,
+      "kjv": "Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man.",
+      "web": "This is the end of the matter. All has been heard. Fear God and keep his commandments; for this is the whole duty of man.",
+      "ct": "Here is the final conclusion, after everything has been heard: Fear God and keep his commandments, because this is the whole duty of every person."
+    },
+    {
+      "verse": 14,
+      "kjv": "For God shall bring every work into judgment, with every secret thing, whether it be good, or whether it be evil.",
+      "web": "For God will bring every work into judgment, with every hidden thing, whether it is good, or whether it is evil.",
+      "ct": "God will bring every deed to judgment — including every hidden thing, whether it's good or evil."
+    }
+  ]
+}

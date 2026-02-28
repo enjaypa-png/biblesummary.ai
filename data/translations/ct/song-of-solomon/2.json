@@ -1,0 +1,113 @@
+{
+  "book": "song-of-solomon",
+  "book_name": "Song of Solomon",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:35:40.639Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I am the rose of Sharon, and the lily of the valleys.",
+      "web": "I am a rose of Sharon, a lily of the valleys.",
+      "ct": "I am a wildflower of Sharon, a lily growing in the valleys."
+    },
+    {
+      "verse": 2,
+      "kjv": "As the lily among thorns, so is my love among the daughters.",
+      "web": "As a lily among thorns, so is my love among the daughters.",
+      "ct": "Like a lily among thorns — that's what my love is compared to all other women."
+    },
+    {
+      "verse": 3,
+      "kjv": "As the apple tree among the trees of the wood, so is my beloved among the sons. I sat down under his shadow with great delight, and his fruit was sweet to my taste.",
+      "web": "As the apple tree among the trees of the wood, so is my beloved among the sons. I sat down under his shadow with great delight, his fruit was sweet to my taste.",
+      "ct": "Like an apple tree standing among the trees of the forest — that's what my beloved is compared to all other men. I sat down in his shade with pure delight, and his fruit was sweet on my lips."
+    },
+    {
+      "verse": 4,
+      "kjv": "He brought me to the banqueting house, and his banner over me was love.",
+      "web": "He brought me to the banquet hall. His banner over me is love.",
+      "ct": "He brought me into the banquet hall, and his banner over me was love."
+    },
+    {
+      "verse": 5,
+      "kjv": "Stay me with flagons, comfort me with apples: for I am sick of love.",
+      "web": "Strengthen me with raisins, refresh me with apples; for I am faint with love.",
+      "ct": "Strengthen me with raisins, refresh me with apples — I am overwhelmed with love."
+    },
+    {
+      "verse": 6,
+      "kjv": "His left hand is under my head, and his right hand doth embrace me.",
+      "web": "His left hand is under my head. His right hand embraces me.",
+      "ct": "His left hand cradles my head, and his right arm holds me close."
+    },
+    {
+      "verse": 7,
+      "kjv": "I charge you, O ye daughters of Jerusalem, by the roes, and by the hinds of the field, that ye stir not up, nor awake my love, till he please.",
+      "web": "I adjure you, daughters of Jerusalem, by the roes, or by the hinds of the field, that you not stir up, nor awaken love, until it so desires. ",
+      "ct": "I beg you, daughters of Jerusalem — by the gazelles and the wild deer — don't stir up or awaken love until it's ready."
+    },
+    {
+      "verse": 8,
+      "kjv": "The voice of my beloved! behold, he cometh leaping upon the mountains, skipping upon the hills.",
+      "web": "The voice of my beloved! Behold, he comes, leaping on the mountains, skipping on the hills.",
+      "ct": "Listen! It's my beloved! Here he comes, leaping across the mountains, bounding over the hills."
+    },
+    {
+      "verse": 9,
+      "kjv": "My beloved is like a roe or a young hart: behold, he standeth behind our wall, he looketh forth at the windows, shewing himself through the lattice.",
+      "web": "My beloved is like a roe or a young deer. Behold, he stands behind our wall! He looks in at the windows. He glances through the lattice. ",
+      "ct": "My beloved is like a gazelle or a young deer. Look — he's standing just behind our wall, peering through the windows, gazing through the lattice."
+    },
+    {
+      "verse": 10,
+      "kjv": "My beloved spake, and said unto me, Rise up, my love, my fair one, and come away.",
+      "web": "My beloved spoke, and said to me, “Rise up, my love, my beautiful one, and come away.",
+      "ct": "My beloved spoke to me and said, \"Get up, my love, my beautiful one — come away with me.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "For, lo, the winter is past, the rain is over and gone;",
+      "web": "For behold, the winter is past. The rain is over and gone.",
+      "ct": "\"Look, the winter is over. The rains have come and gone.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "The flowers appear on the earth; the time of the singing of birds is come, and the voice of the turtle is heard in our land;",
+      "web": "The flowers appear on the earth. The time of the singing has come, and the voice of the turtledove is heard in our land.",
+      "ct": "\"Flowers are blooming across the land. The season for singing has arrived, and the call of the turtledove fills our countryside.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "The fig tree putteth forth her green figs, and the vines with the tender grape give a good smell. Arise, my love, my fair one, and come away.",
+      "web": "The fig tree ripens her green figs. The vines are in blossom. They give out their fragrance. Arise, my love, my beautiful one, and come away.”",
+      "ct": "\"The fig trees are forming their early fruit, and the grapevines are blossoming with sweet fragrance. Get up, my love, my beautiful one — come away with me.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "O my dove, that art in the clefts of the rock, in the secret places of the stairs, let me see thy countenance, let me hear thy voice; for sweet is thy voice, and thy countenance is comely.",
+      "web": "My dove in the clefts of the rock, in the hiding places of the mountainside, let me see your face. let me hear your voice; for your voice is sweet and your face is lovely.",
+      "ct": "\"My dove, hiding in the clefts of the rock, tucked away on the mountainside — let me see your face. Let me hear your voice. Your voice is so sweet, and your face is so lovely.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Take us the foxes, the little foxes, that spoil the vines: for our vines have tender grapes.",
+      "web": "Catch for us the foxes, the little foxes that plunder the vineyards; for our vineyards are in blossom.",
+      "ct": "Catch the foxes for us — the little foxes that ruin the vineyards — because our vines are in bloom."
+    },
+    {
+      "verse": 16,
+      "kjv": "My beloved is mine, and I am his: he feedeth among the lilies.",
+      "web": "My beloved is mine, and I am his. He browses among the lilies.",
+      "ct": "My beloved is mine, and I am his. He wanders among the lilies."
+    },
+    {
+      "verse": 17,
+      "kjv": "Until the day break, and the shadows flee away, turn, my beloved, and be thou like a roe or a young hart upon the mountains of Bether.",
+      "web": "Until the day is cool, and the shadows flee away, turn, my beloved, and be like a roe or a young deer on the mountains of Bether.",
+      "ct": "Until the day breaks and the shadows slip away, come back to me, my beloved. Be like a gazelle or a young deer on the mountains of Bether."
+    }
+  ]
+}

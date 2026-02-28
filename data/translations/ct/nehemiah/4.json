@@ -1,0 +1,149 @@
+{
+  "book": "nehemiah",
+  "book_name": "Nehemiah",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:28:49.637Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "But it came to pass, that when Sanballat heard that we builded the wall, he was wroth, and took great indignation, and mocked the Jews.",
+      "web": "But when Sanballat heard that we were building the wall, he was angry, and was very indignant, and mocked the Jews.",
+      "ct": "When Sanballat found out we were rebuilding the wall, he was furious. He flew into a rage and began mocking the Jews."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he spake before his brethren and the army of Samaria, and said, What do these feeble Jews? will they fortify themselves? will they sacrifice? will they make an end in a day? will they revive the stones out of the heaps of the rubbish which are burned?",
+      "web": "He spoke before his brothers and the army of Samaria, and said, “What are these feeble Jews doing? Will they fortify themselves? Will they sacrifice? Will they finish in a day? Will they revive the stones out of the heaps of rubbish, since they are burned?”",
+      "ct": "He stood up in front of his allies and the army of Samaria and said, \"What do these pathetic Jews think they're doing? Are they going to rebuild their fortifications? Offer sacrifices? Finish in a single day? Pull usable stones out of piles of charred rubble?\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Now Tobiah the Ammonite was by him, and he said, Even that which they build, if a fox go up, he shall even break down their stone wall.",
+      "web": "Now Tobiah the Ammonite was by him, and he said, “What they are building, if a fox climbed up it, he would break down their stone wall.”",
+      "ct": "Tobiah the Ammonite was standing right beside him and added, \"Even if they do build something, a fox climbing on it would knock their stone wall down!\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Hear, O our God; for we are despised: and turn their reproach upon their own head, and give them for a prey in the land of captivity:",
+      "web": "“Hear, our God; for we are despised. Turn back their reproach on their own head. Give them up for a plunder in a land of captivity.",
+      "ct": "I prayed, \"Hear us, our God — they treat us with contempt! Let their insults fall back on their own heads. Hand them over as plunder in a land of captivity."
+    },
+    {
+      "verse": 5,
+      "kjv": "And cover not their iniquity, and let not their sin be blotted out from before thee: for they have provoked thee to anger before the builders.",
+      "web": "Don’t cover their iniquity. Don’t let their sin be blotted out from before you; for they have insulted the builders.”",
+      "ct": "Don't overlook their guilt, and don't let their sin be erased from your sight. They have deliberately provoked you in front of the builders.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "So built we the wall; and all the wall was joined together unto the half thereof: for the people had a mind to work.",
+      "web": "So we built the wall; and all the wall was joined together to half its height: for the people had a mind to work.",
+      "ct": "So we kept building the wall, and before long the entire wall was connected and stood at half its full height — because the people threw themselves into the work with all their hearts."
+    },
+    {
+      "verse": 7,
+      "kjv": "But it came to pass, that when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and the Ashdodites, heard that the walls of Jerusalem were made up, and that the breaches began to be stopped, then they were very wroth,",
+      "web": "But when Sanballat, Tobiah, the Arabians, the Ammonites, and the Ashdodites heard that the repairing of the walls of Jerusalem went forward, and that the breaches began to be filled, they were very angry;",
+      "ct": "But when Sanballat, Tobiah, the Arabians, the Ammonites, and the people of Ashdod heard that the repairs to Jerusalem's walls were making progress and the gaps were being closed, they were absolutely furious."
+    },
+    {
+      "verse": 8,
+      "kjv": "And conspired all of them together to come and to fight against Jerusalem, and to hinder it.",
+      "web": "and they all conspired together to come and fight against Jerusalem, and to cause confusion among us.",
+      "ct": "They all plotted together to march against Jerusalem and attack it, throwing our work into chaos."
+    },
+    {
+      "verse": 9,
+      "kjv": "Nevertheless we made our prayer unto our God, and set a watch against them day and night, because of them.",
+      "web": "But we made our prayer to our God, and set a watch against them day and night because of them.",
+      "ct": "We prayed to our God and posted guards day and night to protect against them."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Judah said, The strength of the bearers of burdens is decayed, and there is much rubbish; so that we are not able to build the wall.",
+      "web": "Judah said, “The strength of the bearers of burdens is fading, and there is much rubble; so that we are not able to build the wall.”",
+      "ct": "Meanwhile, the people of Judah were saying, \"The laborers are exhausted, and there's so much rubble we can't keep building the wall.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And our adversaries said, They shall not know, neither see, till we come in the midst among them, and slay them, and cause the work to cease.",
+      "web": "Our adversaries said, “They will not know or see, until we come in among them and kill them, and cause the work to cease.”",
+      "ct": "On top of that, our enemies were saying, \"Before they even know what's happening, we'll be right in the middle of them. We'll kill them and shut the whole project down.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And it came to pass, that when the Jews which dwelt by them came, they said unto us ten times, From all places whence ye shall return unto us they will be upon you.",
+      "web": "When the Jews who lived by them came, they said to us ten times from all places, “Wherever you turn, they will attack us.”",
+      "ct": "The Jews who lived near our enemies came to us again and again — at least 10 times — warning, \"Wherever you turn, they're planning to attack us.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Therefore set I in the lower places behind the wall, and on the higher places, I even set the people after their families with their swords, their spears, and their bows.",
+      "web": "Therefore I set guards in the lowest parts of the space behind the wall, in the open places. I set the people by family groups with their swords, their spears, and their bows.",
+      "ct": "So I stationed people at the lowest and most exposed points behind the wall. I organized them by families, armed with swords, spears, and bows."
+    },
+    {
+      "verse": 14,
+      "kjv": "And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of the people, Be not ye afraid of them: remember the LORD, which is great and terrible, and fight for your brethren, your sons, and your daughters, your wives, and your houses.",
+      "web": "I looked, and rose up, and said to the nobles, to the rulers, and to the rest of the people, “Don’t be afraid of them! Remember the Lord, who is great and awesome, and fight for your brothers, your sons, your daughters, your wives, and your houses.”",
+      "ct": "I surveyed the situation, then stood and addressed the nobles, the officials, and the rest of the people: \"Don't be afraid of them! Remember the Lord, who is great and awesome, and fight for your brothers, your sons, your daughters, your wives, and your homes.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And it came to pass, when our enemies heard that it was known unto us, and God had brought their counsel to nought, that we returned all of us to the wall, every one unto his work.",
+      "web": "When our enemies heard that it was known to us, and God had brought their counsel to nothing, all of us returned to the wall, everyone to his work.",
+      "ct": "When our enemies learned that we knew about their plan and that God had ruined it, we all went back to the wall, each person returning to their work."
+    },
+    {
+      "verse": 16,
+      "kjv": "And it came to pass from that time forth, that the half of my servants wrought in the work, and the other half of them held both the spears, the shields, and the bows, and the habergeons; and the rulers were behind all the house of Judah.",
+      "web": "From that time forth, half of my servants did the work, and half of them held the spears, the shields, the bows, and the coats of mail; and the rulers were behind all the house of Judah.",
+      "ct": "From that day on, half of my men worked on construction while the other half stood guard with spears, shields, bows, and armor. The officials stood behind all the people of Judah, backing them up."
+    },
+    {
+      "verse": 17,
+      "kjv": "They which builded on the wall, and they that bare burdens, with those that laded, every one with one of his hands wrought in the work, and with the other hand held a weapon.",
+      "web": "Those who built the wall, and those who bore burdens loaded themselves; everyone with one of his hands did the work, and with the other held his weapon.",
+      "ct": "Those who built the wall and those who carried materials all worked with one hand and held a weapon in the other."
+    },
+    {
+      "verse": 18,
+      "kjv": "For the builders, every one had his sword girded by his side, and so builded. And he that sounded the trumpet was by me.",
+      "web": "Among the builders, everyone wore his sword at his side, and so built. He who sounded the trumpet was by me.",
+      "ct": "Every builder wore a sword strapped to his side as he worked. The man who sounded the trumpet stayed right beside me."
+    },
+    {
+      "verse": 19,
+      "kjv": "And I said unto the nobles, and to the rulers, and to the rest of the people, The work is great and large, and we are separated upon the wall, one far from another.",
+      "web": "I said to the nobles, and to the rulers and to the rest of the people, “The work is great and large, and we are separated on the wall, far from one another.",
+      "ct": "I told the nobles, the officials, and the rest of the people, \"The work is spread out over a huge area, and we're scattered far apart along the wall."
+    },
+    {
+      "verse": 20,
+      "kjv": "In what place therefore ye hear the sound of the trumpet, resort ye thither unto us: our God shall fight for us.",
+      "web": "Wherever you hear the sound of the trumpet, rally there to us. Our God will fight for us.”",
+      "ct": "Wherever you hear the trumpet blast, rush to that spot and join us there. Our God will fight for us.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "So we laboured in the work: and half of them held the spears from the rising of the morning till the stars appeared.",
+      "web": "So we did the work. Half of the people held the spears from the rising of the morning until the stars appeared.",
+      "ct": "So we pressed on with the work. Half the men gripped their spears from the first light of dawn until the stars came out at night."
+    },
+    {
+      "verse": 22,
+      "kjv": "Likewise at the same time said I unto the people, Let every one with his servant lodge within Jerusalem, that in the night they may be a guard to us, and labour on the day.",
+      "web": "Likewise at the same time I said to the people, “Let everyone with his servant lodge within Jerusalem, that in the night they may be a guard to us, and may labor in the day.”",
+      "ct": "I also told the people at that time, \"Every worker and his servant must spend the night inside Jerusalem so they can stand guard for us at night and work during the day.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "So neither I, nor my brethren, nor my servants, nor the men of the guard which followed me, none of us put off our clothes, saving that every one put them off for washing.",
+      "web": "So neither I, nor my brothers, nor my servants, nor the men of the guard who followed me, none of us took off our clothes. Everyone took his weapon to the water.",
+      "ct": "None of us — not me, not my brothers, not my servants, not the guards with me — ever took off our clothes. Each of us kept his weapon at hand, even when going for water."
+    }
+  ]
+}

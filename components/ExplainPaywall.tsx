@@ -25,7 +25,7 @@ export default function ExplainPaywall({
     setError(null);
 
     const { url, error: checkoutError } = await startCheckout({
-      product: plan === "monthly" ? "explain_monthly" : "premium_yearly",
+      product: plan === "monthly" ? "explain_monthly" : "premium_annual",
       returnPath: typeof window !== "undefined" ? window.location.pathname : "/bible",
     });
 

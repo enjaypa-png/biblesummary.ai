@@ -66,9 +66,9 @@ export async function POST(req: NextRequest) {
           );
         }
 
-        // Subscription purchase (summary_annual, explain_monthly, or premium_yearly)
+        // Subscription purchase (summary_annual, explain_monthly, or premium_annual)
         if (
-          (productType === "summary_annual" || productType === "explain_monthly" || productType === "premium_yearly") &&
+          (productType === "summary_annual" || productType === "explain_monthly" || productType === "premium_annual") &&
           session.subscription
         ) {
           const subscriptionId =
@@ -153,7 +153,7 @@ export async function POST(req: NextRequest) {
           break;
         }
 
-        if (productType !== "summary_annual" && productType !== "explain_monthly" && productType !== "premium_yearly") {
+        if (productType !== "summary_annual" && productType !== "explain_monthly" && productType !== "premium_annual") {
           break;
         }
 

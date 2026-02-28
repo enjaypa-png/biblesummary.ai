@@ -1,0 +1,47 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 20,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:42:42.143Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In the year that Tartan came unto Ashdod, (when Sargon the king of Assyria sent him,) and fought against Ashdod, and took it;",
+      "web": "In the year that Tartan came to Ashdod, when Sargon the king of Assyria sent him, and he fought against Ashdod and took it;",
+      "ct": "In the year that Sargon, king of Assyria, sent his commander Tartan to attack Ashdod, Tartan fought against the city and captured it."
+    },
+    {
+      "verse": 2,
+      "kjv": "At the same time spake the LORD by Isaiah the son of Amoz, saying, Go and loose the sackcloth from off thy loins, and put off thy shoe from thy foot. And he did so, walking naked and barefoot.",
+      "web": "at that time LORD spoke by Isaiah the son of Amoz, saying, “Go, and loosen the sackcloth from off your waist, and take your sandals from off your feet.” He did so, walking naked and barefoot.",
+      "ct": "Around that same time, the LORD spoke through Isaiah son of Amoz, saying, \"Take the sackcloth off your waist and remove the sandals from your feet.\" Isaiah obeyed, and from then on he walked around naked and barefoot."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the LORD said, Like as my servant Isaiah hath walked naked and barefoot three years for a sign and wonder upon Egypt and upon Ethiopia;",
+      "web": "LORD said, “As my servant Isaiah has walked naked and barefoot three years for a sign and a wonder concerning Egypt and concerning Ethiopia,",
+      "ct": "Then the LORD said, \"My servant Isaiah has been walking naked and barefoot for 3 years as a sign and a warning against Egypt and Ethiopia."
+    },
+    {
+      "verse": 4,
+      "kjv": "So shall the king of Assyria lead away the Egyptians prisoners, and the Ethiopians captives, young and old, naked and barefoot, even with their buttocks uncovered, to the shame of Egypt.",
+      "web": "so the king of Assyria will lead away the captives of Egypt and the exiles of Ethiopia, young and old, naked and barefoot, and with buttocks uncovered, to the shame of Egypt.",
+      "ct": "In the same way, the king of Assyria will drag away Egyptian prisoners and Ethiopian captives — young and old alike — naked, barefoot, and stripped bare, to Egypt's utter humiliation."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they shall be afraid and ashamed of Ethiopia their expectation, and of Egypt their glory.",
+      "web": "They will be dismayed and confounded, because of Ethiopia their expectation, and of Egypt their glory.",
+      "ct": "Everyone who looked to Ethiopia for protection and boasted about Egypt's power will be horrified and put to shame."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the inhabitant of this isle shall say in that day, Behold, such is our expectation, whither we flee for help to be delivered from the king of Assyria: and how shall we escape?",
+      "web": "The inhabitants of this coast land will say in that day, ‘Behold, this is our expectation, where we fled for help to be delivered from the king of Assyria. And we, how will we escape?’ ”",
+      "ct": "When that day comes, the people living along this coastland will say, 'Look at what happened to the ones we counted on! We ran to them for help, hoping they would save us from the king of Assyria. Now how will we ever escape?'\""
+    }
+  ]
+}

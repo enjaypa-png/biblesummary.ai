@@ -1,0 +1,137 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 26,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:44:35.642Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In that day shall this song be sung in the land of Judah; We have a strong city; salvation will God appoint for walls and bulwarks.",
+      "web": "In that day, this song will be sung in the land of Judah: “We have a strong city. God appoints salvation for walls and bulwarks.",
+      "ct": "On that day, this song will be sung throughout the land of Judah: \"We have a strong city! God himself has set up salvation as our walls and defenses."
+    },
+    {
+      "verse": 2,
+      "kjv": "Open ye the gates, that the righteous nation which keepeth the truth may enter in.",
+      "web": "Open the gates, that the righteous nation may enter: the one which keeps faith.",
+      "ct": "Open the gates so the righteous nation can enter — the people who have remained faithful."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee.",
+      "web": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you.",
+      "ct": "You will keep in perfect peace everyone whose mind is fixed on you, because they trust in you."
+    },
+    {
+      "verse": 4,
+      "kjv": "Trust ye in the LORD for ever: for in the LORD JEHOVAH is everlasting strength:",
+      "web": "Trust in LORD forever; for in Yah, LORD, is an everlasting Rock.",
+      "ct": "Trust in the LORD forever, for the LORD is an everlasting rock."
+    },
+    {
+      "verse": 5,
+      "kjv": "For he bringeth down them that dwell on high; the lofty city, he layeth it low; he layeth it low, even to the ground; he bringeth it even to the dust.",
+      "web": "For he has brought down those who dwell on high, the lofty city. He lays it low. He lays it low even to the ground. He brings it even to the dust.",
+      "ct": "He has brought down those who lived in arrogance. The proud city — he has leveled it. He has leveled it to the ground and dragged it down to the dust."
+    },
+    {
+      "verse": 6,
+      "kjv": "The foot shall tread it down, even the feet of the poor, and the steps of the needy.",
+      "web": "The foot shall tread it down, even the feet of the poor and the steps of the needy.”",
+      "ct": "Now the poor trample over it; the feet of the needy walk where it once stood.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "The way of the just is uprightness: thou, most upright, dost weigh the path of the just.",
+      "web": "The way of the just is uprightness. You who are upright make the path of the righteous level. ",
+      "ct": "The path of the righteous is smooth and straight. You, the perfectly upright One, make the road level for those who do right."
+    },
+    {
+      "verse": 8,
+      "kjv": "Yea, in the way of thy judgments, O LORD, have we waited for thee; the desire of our soul is to thy name, and to the remembrance of thee.",
+      "web": "Yes, in the way of your judgments, LORD, we have waited for you. Your name and your renown are the desire of our soul.",
+      "ct": "Yes, LORD, we have waited for you along the path of your justice. Our soul longs for your name and for the memory of who you are."
+    },
+    {
+      "verse": 9,
+      "kjv": "With my soul have I desired thee in the night; yea, with my spirit within me will I seek thee early: for when thy judgments are in the earth, the inhabitants of the world will learn righteousness.",
+      "web": "With my soul I have desired you in the night. Yes, with my spirit within me I will seek you earnestly; for when your judgments are in the earth, the inhabitants of the world learn righteousness.",
+      "ct": "My soul aches for you in the night; my spirit searches for you at the break of dawn. When your judgments come upon the earth, the people of the world learn what righteousness means."
+    },
+    {
+      "verse": 10,
+      "kjv": "Let favour be shewed to the wicked, yet will he not learn righteousness: in the land of uprightness will he deal unjustly, and will not behold the majesty of the LORD.",
+      "web": "Let favor be shown to the wicked, yet he will not learn righteousness. In the land of uprightness he will deal wrongfully, and will not see LORD’s majesty. ",
+      "ct": "Even when the wicked are shown mercy, they never learn righteousness. In a land of honest people they still act unjustly, blind to the majesty of the LORD."
+    },
+    {
+      "verse": 11,
+      "kjv": "LORD, when thy hand is lifted up, they will not see: but they shall see, and be ashamed for their envy at the people; yea, the fire of thine enemies shall devour them.",
+      "web": "LORD, your hand is lifted up, yet they don’t see; but they will see your zeal for the people, and be disappointed. Yes, fire will consume your adversaries.",
+      "ct": "LORD, your hand is raised to act, but they refuse to see it. Let them see your fierce devotion to your people and be put to shame. Let the fire reserved for your enemies consume them."
+    },
+    {
+      "verse": 12,
+      "kjv": "LORD, thou wilt ordain peace for us: for thou also hast wrought all our works in us.",
+      "web": "LORD, you will ordain peace for us, for you have also done all our work for us.",
+      "ct": "LORD, you will establish peace for us, because everything we have accomplished, you have done through us."
+    },
+    {
+      "verse": 13,
+      "kjv": "O LORD our God, other lords beside thee have had dominion over us: but by thee only will we make mention of thy name.",
+      "web": "LORD our God, other lords besides you have had dominion over us, but we will only acknowledge your name.",
+      "ct": "LORD our God, other rulers have lorded over us, but you alone are the one we honor — only your name will be on our lips."
+    },
+    {
+      "verse": 14,
+      "kjv": "They are dead, they shall not live; they are deceased, they shall not rise: therefore hast thou visited and destroyed them, and made all their memory to perish.",
+      "web": "The dead shall not live. The departed spirits shall not rise. Therefore you have visited and destroyed them, and caused all memory of them to perish.",
+      "ct": "Those rulers are dead and will not live again. Their spirits will not rise. You came against them and destroyed them, wiping out every trace of their memory."
+    },
+    {
+      "verse": 15,
+      "kjv": "Thou hast increased the nation, O LORD, thou hast increased the nation: thou art glorified: thou hadst removed it far unto all the ends of the earth.",
+      "web": "You have increased the nation, O LORD. You have increased the nation! You are glorified! You have enlarged all the borders of the land. ",
+      "ct": "You have grown the nation, LORD — you have grown the nation! You are glorified! You have pushed its borders to the far ends of the earth."
+    },
+    {
+      "verse": 16,
+      "kjv": "LORD, in trouble have they visited thee, they poured out a prayer when thy chastening was upon them.",
+      "web": "LORD, in trouble they have visited you. They poured out a prayer when your chastening was on them.",
+      "ct": "LORD, in their distress your people turned to you. When your discipline fell on them, they poured out desperate prayers."
+    },
+    {
+      "verse": 17,
+      "kjv": "Like as a woman with child, that draweth near the time of her delivery, is in pain, and crieth out in her pangs; so have we been in thy sight, O LORD.",
+      "web": "Just as a woman with child, who draws near the time of her delivery, is in pain and cries out in her pangs, so we have been before you, LORD.",
+      "ct": "Like a pregnant woman near the moment of delivery who writhes and cries out in her labor pains — that is what we were like before you, LORD."
+    },
+    {
+      "verse": 18,
+      "kjv": "We have been with child, we have been in pain, we have as it were brought forth wind; we have not wrought any deliverance in the earth; neither have the inhabitants of the world fallen.",
+      "web": "We have been with child. We have been in pain. We gave birth, it seems, only to wind. We have not worked any deliverance in the earth; neither have the inhabitants of the world fallen.",
+      "ct": "We were pregnant with hope, we writhed in pain, but all we gave birth to was wind. We accomplished no deliverance for the earth, and none of the world's inhabitants were brought down."
+    },
+    {
+      "verse": 19,
+      "kjv": "Thy dead men shall live, together with my dead body shall they arise. Awake and sing, ye that dwell in dust: for thy dew is as the dew of herbs, and the earth shall cast out the dead.",
+      "web": "Your dead shall live. My dead bodies shall arise. Awake and sing, you who dwell in the dust; for your dew is like the dew of herbs, and the earth will cast out the departed spirits. ",
+      "ct": "But your dead will live! Their bodies will rise! Wake up and shout for joy, you who lie in the dust! Your dew is like the dew that makes plants spring to life, and the earth will give up its dead."
+    },
+    {
+      "verse": 20,
+      "kjv": "Come, my people, enter thou into thy chambers, and shut thy doors about thee: hide thyself as it were for a little moment, until the indignation be overpast.",
+      "web": "Come, my people, enter into your rooms, and shut your doors behind you. Hide yourself for a little moment, until the indignation is past.",
+      "ct": "Come, my people, go into your rooms and shut the doors behind you. Hide yourselves for just a little while until the fury has passed."
+    },
+    {
+      "verse": 21,
+      "kjv": "For, behold, the LORD cometh out of his place to punish the inhabitants of the earth for their iniquity: the earth also shall disclose her blood, and shall no more cover her slain.",
+      "web": "For, behold, LORD comes out of his place to punish the inhabitants of the earth for their iniquity. The earth also will disclose her blood, and will no longer cover her slain.",
+      "ct": "Look — the LORD is coming from his dwelling place to punish the people of the earth for their sin. The earth will expose the blood that was spilled on it and will no longer hide those who were killed."
+    }
+  ]
+}

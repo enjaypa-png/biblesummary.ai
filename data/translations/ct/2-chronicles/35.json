@@ -1,0 +1,173 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 35,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:23:26.983Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Moreover Josiah kept a passover unto the LORD in Jerusalem: and they killed the passover on the fourteenth day of the first month.",
+      "web": "Josiah kept a Passover to LORD in Jerusalem. They killed the Passover on the fourteenth day of the first month.",
+      "ct": "Josiah celebrated the Passover to the LORD in Jerusalem, and the Passover lamb was slaughtered on the 14th day of the 1st month."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he set the priests in their charges, and encouraged them to the service of the house of the LORD,",
+      "web": "He set the priests in their offices, and encouraged them in the service of LORD’s house.",
+      "ct": "He assigned the priests to their duties and encouraged them in their service at the house of the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "And said unto the Levites that taught all Israel, which were holy unto the LORD, Put the holy ark in the house which Solomon the son of David king of Israel did build; it shall not be a burden upon your shoulders: serve now the LORD your God, and his people Israel,",
+      "web": "He said to the Levites who taught all Israel, who were holy to LORD, “Put the holy ark in the house which Solomon the son of David king of Israel built. It will no longer be a burden on your shoulders. Now serve LORD your God, and his people Israel.",
+      "ct": "He told the Levites who taught all Israel and were set apart as holy to the LORD, \"Place the holy ark in the temple that Solomon son of David, king of Israel, built. You no longer need to carry it on your shoulders. Now devote yourselves to serving the LORD your God and his people Israel.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And prepare yourselves by the houses of your fathers, after your courses, according to the writing of David king of Israel, and according to the writing of Solomon his son.",
+      "web": "Prepare yourselves after your fathers’ houses by your divisions, according to the writing of David king of Israel, and according to the writing of Solomon his son.",
+      "ct": "\"Organize yourselves by your family groups and divisions, following the instructions written by David king of Israel and his son Solomon.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And stand in the holy place according to the divisions of the families of the fathers of your brethren the people, and after the division of the families of the Levites.",
+      "web": "Stand in the holy place according to the divisions of the fathers’ houses of your brothers the children of the people, and let there be for each a portion of a fathers’ house of the Levites.",
+      "ct": "\"Take your positions in the holy place, arranged so that each division of Levite families serves a corresponding group of the people.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "So kill the passover, and sanctify yourselves, and prepare your brethren, that they may do according to the word of the LORD by the hand of Moses.",
+      "web": "Kill the Passover, sanctify yourselves, and prepare for your brothers, to do according to LORD’s word by Moses.”",
+      "ct": "\"Then slaughter the Passover lambs, consecrate yourselves, and make preparations for your fellow Israelites, so that everything is done according to the word of the LORD given through Moses.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And Josiah gave to the people, of the flock, lambs and kids, all for the passover offerings, for all that were present, to the number of thirty thousand, and three thousand bullocks: these were of the king’s substance.",
+      "web": "Josiah gave to the children of the people, of the flock, lambs and young goats, all of them for the Passover offerings, to all who were present, to the number of thirty thousand, and three thousand bulls. These were of the king’s substance.",
+      "ct": "From his own flocks and herds, Josiah provided 30,000 lambs and young goats for Passover offerings for everyone present, along with 3,000 bulls — all from the king's personal wealth."
+    },
+    {
+      "verse": 8,
+      "kjv": "And his princes gave willingly unto the people, to the priests, and to the Levites: Hilkiah and Zechariah and Jehiel, rulers of the house of God, gave unto the priests for the passover offerings two thousand and six hundred small cattle, and three hundred oxen.",
+      "web": "His princes gave for a free will offering to the people, to the priests, and to the Levites. Hilkiah, Zechariah, and Jehiel, the rulers of God’s house, gave to the priests for the Passover offerings two thousand six hundred small livestock, and three hundred head of cattle.",
+      "ct": "His officials also gave generously to the people, the priests, and the Levites. Hilkiah, Zechariah, and Jehiel, the leaders in charge of God's house, donated 2,600 small livestock and 300 cattle to the priests for Passover offerings."
+    },
+    {
+      "verse": 9,
+      "kjv": "Conaniah also, and Shemaiah and Nethaneel, his brethren, and Hashabiah and Jeiel and Jozabad, chief of the Levites, gave unto the Levites for passover offerings five thousand small cattle, and five hundred oxen.",
+      "web": "Conaniah also, and Shemaiah and Nethanel, his brothers, and Hashabiah, Jeiel, and Jozabad, the chiefs of the Levites, gave to the Levites for the Passover offerings five thousand small livestock and five hundred head of cattle.",
+      "ct": "Conaniah, along with his brothers Shemaiah and Nethaneel, and the Levite chiefs Hashabiah, Jeiel, and Jozabad, contributed 5,000 small livestock and 500 cattle to the Levites for Passover offerings."
+    },
+    {
+      "verse": 10,
+      "kjv": "So the service was prepared, and the priests stood in their place, and the Levites in their courses, according to the king’s commandment.",
+      "web": "So the service was prepared, and the priests stood in their place, and the Levites by their divisions, according to the king’s commandment.",
+      "ct": "With everything in place, the priests stood at their stations and the Levites took their positions by divisions, just as the king had commanded."
+    },
+    {
+      "verse": 11,
+      "kjv": "And they killed the passover, and the priests sprinkled the blood from their hands, and the Levites flayed them.",
+      "web": "They killed the Passover, and the priests sprinkled the blood which they received of their hand, and the Levites skinned them.",
+      "ct": "They slaughtered the Passover lambs, and the priests sprinkled the blood that was handed to them while the Levites skinned the animals."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they removed the burnt offerings, that they might give according to the divisions of the families of the people, to offer unto the LORD, as it is written in the book of Moses. And so did they with the oxen.",
+      "web": "They removed the burnt offerings, that they might give them according to the divisions of the fathers’ houses of the children of the people, to offer to LORD, as it is written in the book of Moses. They did the same with the cattle.",
+      "ct": "They set aside the portions meant for burnt offerings so they could distribute them to the family groups of the people for offering to the LORD, as prescribed in the book of Moses. They did the same with the cattle."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they roasted the passover with fire according to the ordinance: but the other holy offerings sod they in pots, and in caldrons, and in pans, and divided them speedily among all the people.",
+      "web": "They roasted the Passover with fire according to the ordinance. They boiled the holy offerings in pots, in cauldrons, and in pans, and carried them quickly to all the children of the people.",
+      "ct": "They roasted the Passover lambs over fire as the law required, and they boiled the other holy offerings in pots, cauldrons, and pans, then quickly distributed the food to all the people."
+    },
+    {
+      "verse": 14,
+      "kjv": "And afterward they made ready for themselves, and for the priests: because the priests the sons of Aaron were busied in offering of burnt offerings and the fat until night; therefore the Levites prepared for themselves, and for the priests the sons of Aaron.",
+      "web": "Afterward they prepared for themselves and for the priests, because the priests the sons of Aaron were busy with offering the burnt offerings and the fat until night. Therefore the Levites prepared for themselves and for the priests the sons of Aaron.",
+      "ct": "Afterward, the Levites prepared portions for themselves and for the priests, because the priests — the descendants of Aaron — were busy offering burnt offerings and fat portions until nightfall. So the Levites took care of both their own needs and those of the priests."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the singers the sons of Asaph were in their place, according to the commandment of David, and Asaph, and Heman, and Jeduthun the king’s seer; and the porters waited at every gate; they might not depart from their service; for their brethren the Levites prepared for them.",
+      "web": "The singers the sons of Asaph were in their place, according to the commandment of David, Asaph, Heman, and Jeduthun the king’s seer; and the gatekeepers were at every gate. They didn’t need to depart from their service, because their brothers the Levites prepared for them.",
+      "ct": "The musicians, the descendants of Asaph, were at their posts as David, Asaph, Heman, and Jeduthun the king's seer had directed. The gatekeepers stood guard at every gate. None of them had to leave their duties, because their fellow Levites prepared everything for them."
+    },
+    {
+      "verse": 16,
+      "kjv": "So all the service of the LORD was prepared the same day, to keep the passover, and to offer burnt offerings upon the altar of the LORD, according to the commandment of king Josiah.",
+      "web": "So all the service of LORD was prepared the same day, to keep the Passover, and to offer burnt offerings on LORD’s altar, according to the commandment of king Josiah.",
+      "ct": "So on that single day, everything needed for the LORD's service was ready — the Passover was celebrated and burnt offerings were presented on the LORD's altar, all according to King Josiah's command."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the children of Israel that were present kept the passover at that time, and the feast of unleavened bread seven days.",
+      "web": "The children of Israel who were present kept the Passover at that time, and the feast of unleavened bread seven days.",
+      "ct": "The Israelites who were present celebrated the Passover at that time, followed by the Festival of Unleavened Bread for 7 days."
+    },
+    {
+      "verse": 18,
+      "kjv": "And there was no passover like to that kept in Israel from the days of Samuel the prophet; neither did all the kings of Israel keep such a passover as Josiah kept, and the priests, and the Levites, and all Judah and Israel that were present, and the inhabitants of Jerusalem.",
+      "web": "There was no Passover like that kept in Israel from the days of Samuel the prophet, nor did any of the kings of Israel keep such a Passover as Josiah kept, with the priests, the Levites, and all Judah and Israel who were present, and the inhabitants of Jerusalem.",
+      "ct": "No Passover like this one had been celebrated in Israel since the days of Samuel the prophet. None of the kings of Israel had ever held a Passover like the one Josiah celebrated with the priests, the Levites, all of Judah and Israel who were present, and the people of Jerusalem."
+    },
+    {
+      "verse": 19,
+      "kjv": "In the eighteenth year of the reign of Josiah was this passover kept.",
+      "web": "This Passover was kept in the eighteenth year of the reign of Josiah.",
+      "ct": "This Passover was celebrated in the 18th year of Josiah's reign."
+    },
+    {
+      "verse": 20,
+      "kjv": "After all this, when Josiah had prepared the temple, Necho king of Egypt came up to fight against Charchemish by Euphrates: and Josiah went out against him.",
+      "web": "After all this, when Josiah had prepared the temple, Neco king of Egypt went up to fight against Carchemish by the Euphrates, and Josiah went out against him.",
+      "ct": "After all this, once Josiah had restored the temple, Pharaoh Necho king of Egypt marched north to fight at Carchemish on the Euphrates River. Josiah went out to confront him."
+    },
+    {
+      "verse": 21,
+      "kjv": "But he sent ambassadors to him, saying, What have I to do with thee, thou king of Judah? I come not against thee this day, but against the house wherewith I have war: for God commanded me to make haste: forbear thee from meddling with God, who is with me, that he destroy thee not.",
+      "web": "But he sent ambassadors to him, saying, “What have I to do with you, you king of Judah? I come not against you today, but against the house with which I have war. God has commanded me to make haste. Beware that it is God who is with me, that he not destroy you.”",
+      "ct": "But Necho sent messengers to him, saying, \"What quarrel do you have with me, king of Judah? I'm not coming against you today — my war is with another nation. God himself has told me to hurry. Stop opposing God, who is on my side, or he will destroy you.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Nevertheless Josiah would not turn his face from him, but disguised himself, that he might fight with him, and hearkened not unto the words of Necho from the mouth of God, and came to fight in the valley of Megiddo.",
+      "web": "Nevertheless Josiah would not turn his face from him, but disguised himself, that he might fight with him, and didn’t listen to the words of Neco from the mouth of God, and came to fight in the valley of Megiddo.",
+      "ct": "But Josiah refused to back down. He disguised himself and went into battle against Necho, ignoring the warning that had come from the mouth of God. He rode out to fight in the valley of Megiddo."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the archers shot at king Josiah; and the king said to his servants, Have me away; for I am sore wounded.",
+      "web": "The archers shot at king Josiah; and the king said to his servants, “Take me away, because I am seriously wounded!”",
+      "ct": "Enemy archers struck King Josiah, and the king cried out to his servants, \"Get me out of here — I'm badly wounded!\""
+    },
+    {
+      "verse": 24,
+      "kjv": "His servants therefore took him out of that chariot, and put him in the second chariot that he had; and they brought him to Jerusalem, and he died, and was buried in one of the sepulchres of his fathers. And all Judah and Jerusalem mourned for Josiah.",
+      "web": "So his servants took him out of the chariot, and put him in the second chariot that he had, and brought him to Jerusalem; and he died, and was buried in the tombs of his fathers. All Judah and Jerusalem mourned for Josiah.",
+      "ct": "His servants lifted him out of his chariot and placed him in his backup chariot, then rushed him back to Jerusalem. He died there and was buried in the tombs of his ancestors. All of Judah and Jerusalem mourned for Josiah."
+    },
+    {
+      "verse": 25,
+      "kjv": "And Jeremiah lamented for Josiah: and all the singing men and the singing women spake of Josiah in their lamentations to this day, and made them an ordinance in Israel: and, behold, they are written in the lamentations.",
+      "web": "Jeremiah lamented for Josiah, and all the singing men and singing women spoke of Josiah in their lamentations to this day; and they made them an ordinance in Israel. Behold, they are written in the lamentations.",
+      "ct": "Jeremiah composed a lament for Josiah, and to this day all the male and female singers mention Josiah in their songs of mourning. This became an established tradition in Israel, and these laments are recorded in the book of lamentations."
+    },
+    {
+      "verse": 26,
+      "kjv": "Now the rest of the acts of Josiah, and his goodness, according to that which was written in the law of the LORD,",
+      "web": "Now the rest of the acts of Josiah, and his good deeds, according to that which is written in LORD’s law,",
+      "ct": "Everything else about Josiah's reign, including his acts of devotion carried out in obedience to what was written in the law of the LORD,"
+    },
+    {
+      "verse": 27,
+      "kjv": "And his deeds, first and last, behold, they are written in the book of the kings of Israel and Judah.",
+      "web": "and his acts, first and last, behold, they are written in the book of the kings of Israel and Judah.",
+      "ct": "and all his deeds from beginning to end — these are recorded in the book of the kings of Israel and Judah."
+    }
+  ]
+}

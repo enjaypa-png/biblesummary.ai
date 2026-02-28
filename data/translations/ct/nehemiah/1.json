@@ -1,0 +1,77 @@
+{
+  "book": "nehemiah",
+  "book_name": "Nehemiah",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:27:42.161Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The words of Nehemiah the son of Hachaliah. And it came to pass in the month Chisleu, in the twentieth year, as I was in Shushan the palace,",
+      "web": "The words of Nehemiah the son of Hacaliah. Now in the month Chislev, in the twentieth year, as I was in Susa the palace,",
+      "ct": "This is the account of Nehemiah son of Hachaliah. In the month of Chisleu, during the 20th year, I was in the citadel of Shushan."
+    },
+    {
+      "verse": 2,
+      "kjv": "That Hanani, one of my brethren, came, he and certain men of Judah; and I asked them concerning the Jews that had escaped, which were left of the captivity, and concerning Jerusalem.",
+      "web": "Hanani, one of my brothers, came, he and certain men out of Judah; and I asked them about the Jews who had escaped, who were left of the captivity, and concerning Jerusalem.",
+      "ct": "My brother Hanani arrived with some men from Judah, and I asked them about the Jewish survivors — those who had made it through the exile — and about the condition of Jerusalem."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they said unto me, The remnant that are left of the captivity there in the province are in great affliction and reproach: the wall of Jerusalem also is broken down, and the gates thereof are burned with fire.",
+      "web": "They said to me, “The remnant who are left of the captivity there in the province are in great affliction and reproach. The wall of Jerusalem is also broken down, and its gates are burned with fire.”",
+      "ct": "They told me, \"The survivors back in the province are in terrible shape. They face constant hardship and disgrace. Jerusalem's wall is in ruins, and its gates have been burned down.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass, when I heard these words, that I sat down and wept, and mourned certain days, and fasted, and prayed before the God of heaven,",
+      "web": "When I heard these words, I sat down and wept, and mourned several days; and I fasted and prayed before the God of heaven,",
+      "ct": "When I heard this, I sat down and wept. For days I mourned, fasting and praying before the God of heaven."
+    },
+    {
+      "verse": 5,
+      "kjv": "And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth covenant and mercy for them that love him and observe his commandments:",
+      "web": "and said, “I beg you, LORD, the God of heaven, the great and awesome God, who keeps covenant and loving kindness with those who love him and keep his commandments:",
+      "ct": "I said, \"Please, LORD God of heaven — you are the great and awesome God who keeps his covenant and shows mercy to those who love him and obey his commandments."
+    },
+    {
+      "verse": 6,
+      "kjv": "Let thine ear now be attentive, and thine eyes open, that thou mayest hear the prayer of thy servant, which I pray before thee now, day and night, for the children of Israel thy servants, and confess the sins of the children of Israel, which we have sinned against thee: both I and my father’s house have sinned.",
+      "web": "Let your ear now be attentive, and your eyes open, that you may listen to the prayer of your servant, which I pray before you at this time, day and night, for the children of Israel your servants, while I confess the sins of the children of Israel, which we have sinned against you. Yes, I and my father’s house have sinned.",
+      "ct": "Let your ears be open and your eyes attentive. Hear the prayer your servant is bringing before you right now, day and night, on behalf of your servants, the people of Israel. I am confessing the sins we have committed against you — yes, both I and my father's family have sinned."
+    },
+    {
+      "verse": 7,
+      "kjv": "We have dealt very corruptly against thee, and have not kept the commandments, nor the statutes, nor the judgments, which thou commandedst thy servant Moses.",
+      "web": "We have dealt very corruptly against you, and have not kept the commandments, nor the statutes, nor the ordinances, which you commanded your servant Moses.",
+      "ct": "We have acted corruptly toward you. We haven't followed the commandments, the laws, or the rules you gave your servant Moses."
+    },
+    {
+      "verse": 8,
+      "kjv": "Remember, I beseech thee, the word that thou commandedst thy servant Moses, saying, If ye transgress, I will scatter you abroad among the nations:",
+      "web": "“Remember, I beg you, the word that you commanded your servant Moses, saying, ‘If you trespass, I will scatter you among the peoples;",
+      "ct": "Please remember what you told your servant Moses: 'If you are unfaithful, I will scatter you among the nations."
+    },
+    {
+      "verse": 9,
+      "kjv": "But if ye turn unto me, and keep my commandments, and do them; though there were of you cast out unto the uttermost part of the heaven, yet will I gather them from thence, and will bring them unto the place that I have chosen to set my name there.",
+      "web": "but if you return to me, and keep my commandments and do them, though your outcasts were in the uttermost part of the heavens, yet I will gather them from there, and will bring them to the place that I have chosen, to cause my name to dwell there.’",
+      "ct": "But if you return to me and obey my commandments and follow them, then even if your people have been driven to the farthest corners of the heavens, I will gather them from there and bring them back to the place I have chosen for my name to dwell.'"
+    },
+    {
+      "verse": 10,
+      "kjv": "Now these are thy servants and thy people, whom thou hast redeemed by thy great power, and by thy strong hand.",
+      "web": "“Now these are your servants and your people, whom you have redeemed by your great power, and by your strong hand.",
+      "ct": "These are your servants, your own people, whom you rescued with your great power and your mighty hand."
+    },
+    {
+      "verse": 11,
+      "kjv": "O LORD, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to the prayer of thy servants, who desire to fear thy name: and prosper, I pray thee, thy servant this day, and grant him mercy in the sight of this man. For I was the king’s cupbearer.",
+      "web": "Lord, I beg you, let your ear be attentive now to the prayer of your servant, and to the prayer of your servants, who delight to fear your name; and please prosper your servant today, and grant him mercy in the sight of this man.” Now I was cup bearer to the king.",
+      "ct": "LORD, please let your ear be attentive to my prayer and to the prayers of all your servants who long to fear your name. Give me success today, and let this man show me mercy.\" I said this because I served as the king's cupbearer."
+    }
+  ]
+}

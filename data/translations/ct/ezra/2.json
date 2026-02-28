@@ -1,0 +1,431 @@
+{
+  "book": "ezra",
+  "book_name": "Ezra",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:24:30.129Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now these are the children of the province that went up out of the captivity, of those which had been carried away, whom Nebuchadnezzar the king of Babylon had carried away unto Babylon, and came again unto Jerusalem and Judah, every one unto his city;",
+      "web": "Now these are the children of the province, who went up out of the captivity of those who had been carried away, whom Nebuchadnezzar the king of Babylon had carried away to Babylon, and who returned to Jerusalem and Judah, everyone to his city;",
+      "ct": "Here is the list of people from the province of Judah who returned from exile. These were the descendants of the captives that King Nebuchadnezzar of Babylon had taken away to Babylon. They came back to Jerusalem and Judah, each to their own town."
+    },
+    {
+      "verse": 2,
+      "kjv": "Which came with Zerubbabel: Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mizpar, Bigvai, Rehum, Baanah. The number of the men of the people of Israel:",
+      "web": "who came with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah. The number of the men of the people of Israel:",
+      "ct": "They came back with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mizpar, Bigvai, Rehum, and Baanah. Here is the count of the men of Israel:"
+    },
+    {
+      "verse": 3,
+      "kjv": "The children of Parosh, two thousand an hundred seventy and two.",
+      "web": "The children of Parosh, two thousand one hundred seventy-two.",
+      "ct": "Descendants of Parosh: 2,172."
+    },
+    {
+      "verse": 4,
+      "kjv": "The children of Shephatiah, three hundred seventy and two.",
+      "web": "The children of Shephatiah, three hundred seventy-two.",
+      "ct": "Descendants of Shephatiah: 372."
+    },
+    {
+      "verse": 5,
+      "kjv": "The children of Arah, seven hundred seventy and five.",
+      "web": "The children of Arah, seven hundred seventy-five.",
+      "ct": "Descendants of Arah: 775."
+    },
+    {
+      "verse": 6,
+      "kjv": "The children of Pahathmoab, of the children of Jeshua and Joab, two thousand eight hundred and twelve.",
+      "web": "The children of Pahathmoab, of the children of Jeshua and Joab, two thousand eight hundred twelve.",
+      "ct": "Descendants of Pahathmoab, through the line of Jeshua and Joab: 2,812."
+    },
+    {
+      "verse": 7,
+      "kjv": "The children of Elam, a thousand two hundred fifty and four.",
+      "web": "The children of Elam, one thousand two hundred fifty-four.",
+      "ct": "Descendants of Elam: 1,254."
+    },
+    {
+      "verse": 8,
+      "kjv": "The children of Zattu, nine hundred forty and five.",
+      "web": "The children of Zattu, nine hundred forty-five.",
+      "ct": "Descendants of Zattu: 945."
+    },
+    {
+      "verse": 9,
+      "kjv": "The children of Zaccai, seven hundred and threescore.",
+      "web": "The children of Zaccai, seven hundred sixty.",
+      "ct": "Descendants of Zaccai: 760."
+    },
+    {
+      "verse": 10,
+      "kjv": "The children of Bani, six hundred forty and two.",
+      "web": "The children of Bani, six hundred forty-two.",
+      "ct": "Descendants of Bani: 642."
+    },
+    {
+      "verse": 11,
+      "kjv": "The children of Bebai, six hundred twenty and three.",
+      "web": "The children of Bebai, six hundred twenty-three.",
+      "ct": "Descendants of Bebai: 623."
+    },
+    {
+      "verse": 12,
+      "kjv": "The children of Azgad, a thousand two hundred twenty and two.",
+      "web": "The children of Azgad, one thousand two hundred twenty-two.",
+      "ct": "Descendants of Azgad: 1,222."
+    },
+    {
+      "verse": 13,
+      "kjv": "The children of Adonikam, six hundred sixty and six.",
+      "web": "The children of Adonikam, six hundred sixty-six.",
+      "ct": "Descendants of Adonikam: 666."
+    },
+    {
+      "verse": 14,
+      "kjv": "The children of Bigvai, two thousand fifty and six.",
+      "web": "The children of Bigvai, two thousand fifty-six.",
+      "ct": "Descendants of Bigvai: 2,056."
+    },
+    {
+      "verse": 15,
+      "kjv": "The children of Adin, four hundred fifty and four.",
+      "web": "The children of Adin, four hundred fifty-four.",
+      "ct": "Descendants of Adin: 454."
+    },
+    {
+      "verse": 16,
+      "kjv": "The children of Ater of Hezekiah, ninety and eight.",
+      "web": "The children of Ater, of Hezekiah, ninety-eight.",
+      "ct": "Descendants of Ater, through the line of Hezekiah: 98."
+    },
+    {
+      "verse": 17,
+      "kjv": "The children of Bezai, three hundred twenty and three.",
+      "web": "The children of Bezai, three hundred twenty-three.",
+      "ct": "Descendants of Bezai: 323."
+    },
+    {
+      "verse": 18,
+      "kjv": "The children of Jorah, an hundred and twelve.",
+      "web": "The children of Jorah, one hundred twelve.",
+      "ct": "Descendants of Jorah: 112."
+    },
+    {
+      "verse": 19,
+      "kjv": "The children of Hashum, two hundred twenty and three.",
+      "web": "The children of Hashum, two hundred twenty-three.",
+      "ct": "Descendants of Hashum: 223."
+    },
+    {
+      "verse": 20,
+      "kjv": "The children of Gibbar, ninety and five.",
+      "web": "The children of Gibbar, ninety-five.",
+      "ct": "Descendants of Gibbar: 95."
+    },
+    {
+      "verse": 21,
+      "kjv": "The children of Bethlehem, an hundred twenty and three.",
+      "web": "The children of Bethlehem, one hundred twenty-three.",
+      "ct": "People from Bethlehem: 123."
+    },
+    {
+      "verse": 22,
+      "kjv": "The men of Netophah, fifty and six.",
+      "web": "The men of Netophah, fifty-six.",
+      "ct": "Men of Netophah: 56."
+    },
+    {
+      "verse": 23,
+      "kjv": "The men of Anathoth, an hundred twenty and eight.",
+      "web": "The men of Anathoth, one hundred twenty-eight.",
+      "ct": "Men of Anathoth: 128."
+    },
+    {
+      "verse": 24,
+      "kjv": "The children of Azmaveth, forty and two.",
+      "web": "The children of Azmaveth, forty-two.",
+      "ct": "People from Azmaveth: 42."
+    },
+    {
+      "verse": 25,
+      "kjv": "The children of Kirjatharim, Chephirah, and Beeroth, seven hundred and forty and three.",
+      "web": "The children of Kiriath Arim, Chephirah, and Beeroth, seven hundred forty-three.",
+      "ct": "People from Kirjatharim, Chephirah, and Beeroth: 743."
+    },
+    {
+      "verse": 26,
+      "kjv": "The children of Ramah and Gaba, six hundred twenty and one.",
+      "web": "The children of Ramah and Geba, six hundred twenty-one.",
+      "ct": "People from Ramah and Gaba: 621."
+    },
+    {
+      "verse": 27,
+      "kjv": "The men of Michmas, an hundred twenty and two.",
+      "web": "The men of Michmas, one hundred twenty-two.",
+      "ct": "Men of Michmas: 122."
+    },
+    {
+      "verse": 28,
+      "kjv": "The men of Bethel and Ai, two hundred twenty and three.",
+      "web": "The men of Bethel and Ai, two hundred twenty-three.",
+      "ct": "Men of Bethel and Ai: 223."
+    },
+    {
+      "verse": 29,
+      "kjv": "The children of Nebo, fifty and two.",
+      "web": "The children of Nebo, fifty-two.",
+      "ct": "People from Nebo: 52."
+    },
+    {
+      "verse": 30,
+      "kjv": "The children of Magbish, an hundred fifty and six.",
+      "web": "The children of Magbish, one hundred fifty-six.",
+      "ct": "People from Magbish: 156."
+    },
+    {
+      "verse": 31,
+      "kjv": "The children of the other Elam, a thousand two hundred fifty and four.",
+      "web": "The children of the other Elam, one thousand two hundred fifty-four.",
+      "ct": "Descendants of the other Elam: 1,254."
+    },
+    {
+      "verse": 32,
+      "kjv": "The children of Harim, three hundred and twenty.",
+      "web": "The children of Harim, three hundred twenty.",
+      "ct": "Descendants of Harim: 320."
+    },
+    {
+      "verse": 33,
+      "kjv": "The children of Lod, Hadid, and Ono, seven hundred twenty and five.",
+      "web": "The children of Lod, Hadid, and Ono, seven hundred twenty-five.",
+      "ct": "People from Lod, Hadid, and Ono: 725."
+    },
+    {
+      "verse": 34,
+      "kjv": "The children of Jericho, three hundred forty and five.",
+      "web": "The children of Jericho, three hundred forty-five.",
+      "ct": "People from Jericho: 345."
+    },
+    {
+      "verse": 35,
+      "kjv": "The children of Senaah, three thousand and six hundred and thirty.",
+      "web": "The children of Senaah, three thousand six hundred thirty.",
+      "ct": "People from Senaah: 3,630."
+    },
+    {
+      "verse": 36,
+      "kjv": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy and three.",
+      "web": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy-three.",
+      "ct": "The priests: descendants of Jedaiah, from the family of Jeshua: 973."
+    },
+    {
+      "verse": 37,
+      "kjv": "The children of Immer, a thousand fifty and two.",
+      "web": "The children of Immer, one thousand fifty-two.",
+      "ct": "Descendants of Immer: 1,052."
+    },
+    {
+      "verse": 38,
+      "kjv": "The children of Pashur, a thousand two hundred forty and seven.",
+      "web": "The children of Pashhur, one thousand two hundred forty-seven.",
+      "ct": "Descendants of Pashur: 1,247."
+    },
+    {
+      "verse": 39,
+      "kjv": "The children of Harim, a thousand and seventeen.",
+      "web": "The children of Harim, one thousand seventeen.",
+      "ct": "Descendants of Harim: 1,017."
+    },
+    {
+      "verse": 40,
+      "kjv": "The Levites: the children of Jeshua and Kadmiel, of the children of Hodaviah, seventy and four.",
+      "web": "The Levites: the children of Jeshua and Kadmiel, of the children of Hodaviah, seventy-four.",
+      "ct": "The Levites: descendants of Jeshua and Kadmiel, through the line of Hodaviah: 74."
+    },
+    {
+      "verse": 41,
+      "kjv": "The singers: the children of Asaph, an hundred twenty and eight.",
+      "web": "The singers: the children of Asaph, one hundred twenty-eight.",
+      "ct": "The singers: descendants of Asaph: 128."
+    },
+    {
+      "verse": 42,
+      "kjv": "The children of the porters: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, in all an hundred thirty and nine.",
+      "web": "The children of the gatekeepers: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, in all one hundred thirty-nine.",
+      "ct": "The gatekeepers: descendants of Shallum, Ater, Talmon, Akkub, Hatita, and Shobai: 139 in all."
+    },
+    {
+      "verse": 43,
+      "kjv": "The Nethinims: the children of Ziha, the children of Hasupha, the children of Tabbaoth,",
+      "web": "The temple servants: the children of Ziha, the children of Hasupha, the children of Tabbaoth,",
+      "ct": "The temple servants: descendants of Ziha, Hasupha, Tabbaoth,"
+    },
+    {
+      "verse": 44,
+      "kjv": "The children of Keros, the children of Siaha, the children of Padon,",
+      "web": "the children of Keros, the children of Siaha, the children of Padon,",
+      "ct": "Keros, Siaha, Padon,"
+    },
+    {
+      "verse": 45,
+      "kjv": "The children of Lebanah, the children of Hagabah, the children of Akkub,",
+      "web": "the children of Lebanah, the children of Hagabah, the children of Akkub,",
+      "ct": "Lebanah, Hagabah, Akkub,"
+    },
+    {
+      "verse": 46,
+      "kjv": "The children of Hagab, the children of Shalmai, the children of Hanan,",
+      "web": "the children of Hagab, the children of Shamlai, the children of Hanan,",
+      "ct": "Hagab, Shalmai, Hanan,"
+    },
+    {
+      "verse": 47,
+      "kjv": "The children of Giddel, the children of Gahar, the children of Reaiah,",
+      "web": "the children of Giddel, the children of Gahar, the children of Reaiah,",
+      "ct": "Giddel, Gahar, Reaiah,"
+    },
+    {
+      "verse": 48,
+      "kjv": "The children of Rezin, the children of Nekoda, the children of Gazzam,",
+      "web": "the children of Rezin, the children of Nekoda, the children of Gazzam,",
+      "ct": "Rezin, Nekoda, Gazzam,"
+    },
+    {
+      "verse": 49,
+      "kjv": "The children of Uzza, the children of Paseah, the children of Besai,",
+      "web": "the children of Uzza, the children of Paseah, the children of Besai,",
+      "ct": "Uzza, Paseah, Besai,"
+    },
+    {
+      "verse": 50,
+      "kjv": "The children of Asnah, the children of Mehunim, the children of Nephusim,",
+      "web": "the children of Asnah, the children of Meunim, the children of Nephisim,",
+      "ct": "Asnah, Mehunim, Nephusim,"
+    },
+    {
+      "verse": 51,
+      "kjv": "The children of Bakbuk, the children of Hakupha, the children of Harhur,",
+      "web": "the children of Bakbuk, the children of Hakupha, the children of Harhur,",
+      "ct": "Bakbuk, Hakupha, Harhur,"
+    },
+    {
+      "verse": 52,
+      "kjv": "The children of Bazluth, the children of Mehida, the children of Harsha,",
+      "web": "the children of Bazluth, the children of Mehida, the children of Harsha,",
+      "ct": "Bazluth, Mehida, Harsha,"
+    },
+    {
+      "verse": 53,
+      "kjv": "The children of Barkos, the children of Sisera, the children of Thamah,",
+      "web": "the children of Barkos, the children of Sisera, the children of Temah,",
+      "ct": "Barkos, Sisera, Thamah,"
+    },
+    {
+      "verse": 54,
+      "kjv": "The children of Neziah, the children of Hatipha.",
+      "web": "the children of Neziah, the children of Hatipha.",
+      "ct": "Neziah, and Hatipha."
+    },
+    {
+      "verse": 55,
+      "kjv": "The children of Solomon’s servants: the children of Sotai, the children of Sophereth, the children of Peruda,",
+      "web": "The children of Solomon’s servants: the children of Sotai, the children of Hassophereth, the children of Peruda,",
+      "ct": "Descendants of Solomon's servants: descendants of Sotai, Sophereth, Peruda,"
+    },
+    {
+      "verse": 56,
+      "kjv": "The children of Jaalah, the children of Darkon, the children of Giddel,",
+      "web": "the children of Jaalah, the children of Darkon, the children of Giddel,",
+      "ct": "Jaalah, Darkon, Giddel,"
+    },
+    {
+      "verse": 57,
+      "kjv": "The children of Shephatiah, the children of Hattil, the children of Pochereth of Zebaim, the children of Ami.",
+      "web": "the children of Shephatiah, the children of Hattil, the children of Pochereth Hazzebaim, the children of Ami.",
+      "ct": "Shephatiah, Hattil, Pochereth of Zebaim, and Ami."
+    },
+    {
+      "verse": 58,
+      "kjv": "All the Nethinims, and the children of Solomon’s servants, were three hundred ninety and two.",
+      "web": "All the temple servants, and the children of Solomon’s servants, were three hundred ninety-two.",
+      "ct": "The total number of temple servants and descendants of Solomon's servants was 392."
+    },
+    {
+      "verse": 59,
+      "kjv": "And these were they which went up from Telmelah, Telharsa, Cherub, Addan, and Immer: but they could not shew their father’s house, and their seed, whether they were of Israel:",
+      "web": "These were those who went up from Tel Melah, Tel Harsha, Cherub, Addan, and Immer; but they could not show their fathers’ houses, and their offspring, whether they were of Israel:",
+      "ct": "The following people came from the towns of Telmelah, Telharsa, Cherub, Addan, and Immer, but they couldn't prove that their families were descended from Israel:"
+    },
+    {
+      "verse": 60,
+      "kjv": "The children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred fifty and two.",
+      "web": "the children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred fifty-two.",
+      "ct": "Descendants of Delaiah, Tobiah, and Nekoda: 652."
+    },
+    {
+      "verse": 61,
+      "kjv": "And of the children of the priests: the children of Habaiah, the children of Koz, the children of Barzillai; which took a wife of the daughters of Barzillai the Gileadite, and was called after their name:",
+      "web": "Of the children of the priests: the children of Habaiah, the children of Hakkoz, and the children of Barzillai, who took a wife of the daughters of Barzillai the Gileadite, and was called after their name.",
+      "ct": "Among the priests, these families also couldn't prove their ancestry: descendants of Habaiah, Koz, and Barzillai. (This Barzillai had married a woman descended from Barzillai the Gileadite and had taken that family's name.)"
+    },
+    {
+      "verse": 62,
+      "kjv": "These sought their register among those that were reckoned by genealogy, but they were not found: therefore were they, as polluted, put from the priesthood.",
+      "web": "These sought their place among those who were registered by genealogy, but they were not found: therefore were they deemed disqualified and removed from the priesthood.",
+      "ct": "They searched for their names in the genealogical records but couldn't find them. Because of this, they were considered unqualified and removed from the priesthood."
+    },
+    {
+      "verse": 63,
+      "kjv": "And the Tirshatha said unto them, that they should not eat of the most holy things, till there stood up a priest with Urim and with Thummim.",
+      "web": "The governor told them that they should not eat of the most holy things until a priest stood up to serve with Urim and with Thummim.",
+      "ct": "The governor told them they must not eat any of the most holy food until a priest could consult God using the Urim and Thummim."
+    },
+    {
+      "verse": 64,
+      "kjv": "The whole congregation together was forty and two thousand three hundred and threescore,",
+      "web": "The whole assembly together was forty-two thousand three hundred sixty,",
+      "ct": "The entire assembly totaled 42,360 people,"
+    },
+    {
+      "verse": 65,
+      "kjv": "Beside their servants and their maids, of whom there were seven thousand three hundred thirty and seven: and there were among them two hundred singing men and singing women.",
+      "web": "in addition to their male servants and their female servants, of whom there were seven thousand three hundred thirty-seven; and they had two hundred singing men and singing women.",
+      "ct": "not counting their 7,337 male and female servants. They also had 200 male and female singers with them."
+    },
+    {
+      "verse": 66,
+      "kjv": "Their horses were seven hundred thirty and six; their mules, two hundred forty and five;",
+      "web": "Their horses were seven hundred thirty-six; their mules, two hundred forty-five;",
+      "ct": "They brought 736 horses and 245 mules,"
+    },
+    {
+      "verse": 67,
+      "kjv": "Their camels, four hundred thirty and five; their asses, six thousand seven hundred and twenty.",
+      "web": "their camels, four hundred thirty-five; their donkeys, six thousand seven hundred twenty.",
+      "ct": "435 camels, and 6,720 donkeys."
+    },
+    {
+      "verse": 68,
+      "kjv": "And some of the chief of the fathers, when they came to the house of the LORD which is at Jerusalem, offered freely for the house of God to set it up in his place:",
+      "web": "Some of the heads of fathers’ households, when they came to LORD’s house which is in Jerusalem, offered willingly for God’s house to set it up in its place.",
+      "ct": "When they arrived at the LORD's house in Jerusalem, some of the family leaders gave generous, voluntary offerings to rebuild God's house on its original site."
+    },
+    {
+      "verse": 69,
+      "kjv": "They gave after their ability unto the treasure of the work threescore and one thousand drams of gold, and five thousand pound of silver, and one hundred priests’ garments.",
+      "web": "They gave according to their ability into the treasury of the work sixty-one thousand darics of gold, and five thousand minas of silver, and one hundred priests’ garments.",
+      "ct": "They gave what they could afford to the construction fund: 61,000 drams of gold, 5,000 pounds of silver, and 100 priestly garments."
+    },
+    {
+      "verse": 70,
+      "kjv": "So the priests, and the Levites, and some of the people, and the singers, and the porters, and the Nethinims, dwelt in their cities, and all Israel in their cities.",
+      "web": "So the priests and the Levites, with some of the people, the singers, the gatekeepers, and the temple servants, lived in their cities, and all Israel in their cities.",
+      "ct": "So the priests, the Levites, some of the common people, the singers, the gatekeepers, and the temple servants all settled in their towns. And so all Israel was back in their own cities."
+    }
+  ]
+}

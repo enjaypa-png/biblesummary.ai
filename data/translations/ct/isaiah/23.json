@@ -1,0 +1,119 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 23,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:43:43.359Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The burden of Tyre. Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no entering in: from the land of Chittim it is revealed to them.",
+      "web": "The burden of Tyre. Howl, you ships of Tarshish! For it is laid waste, so that there is no house, no entering in. From the land of Kittim it is revealed to them.",
+      "ct": "A prophecy against Tyre. Cry out in grief, you ships of Tarshish! Tyre has been destroyed — every house demolished, every harbor sealed off. The news reached them from the shores of Kittim."
+    },
+    {
+      "verse": 2,
+      "kjv": "Be still, ye inhabitants of the isle; thou whom the merchants of Zidon, that pass over the sea, have replenished.",
+      "web": "Be still, you inhabitants of the coast, you whom the merchants of Sidon that pass over the sea, have replenished.",
+      "ct": "Fall silent, you people of the coast — you whose wealth was built up by the merchants of Sidon who sailed the seas."
+    },
+    {
+      "verse": 3,
+      "kjv": "And by great waters the seed of Sihor, the harvest of the river, is her revenue; and she is a mart of nations.",
+      "web": "On great waters, the seed of the Shihor, the harvest of the Nile, was her revenue. She was the market of nations.",
+      "ct": "Her income came from grain shipped across the great waters — the crops of the Shihor, the harvest of the Nile. She was the marketplace of nations."
+    },
+    {
+      "verse": 4,
+      "kjv": "Be thou ashamed, O Zidon: for the sea hath spoken, even the strength of the sea, saying, I travail not, nor bring forth children, neither do I nourish up young men, nor bring up virgins.",
+      "web": "Be ashamed, Sidon; for the sea has spoken, the stronghold of the sea, saying, “I have not travailed, nor given birth, neither have I nourished young men, nor brought up virgins.”",
+      "ct": "Be ashamed, Sidon! For the sea has spoken — the fortress of the sea has declared: \"I have never been in labor or given birth. I have never raised young men or brought up young women.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "As at the report concerning Egypt, so shall they be sorely pained at the report of Tyre.",
+      "web": "When the report comes to Egypt, they will be in anguish at the report of Tyre.",
+      "ct": "When the news reaches Egypt, they will be in agony over what has happened to Tyre."
+    },
+    {
+      "verse": 6,
+      "kjv": "Pass ye over to Tarshish; howl, ye inhabitants of the isle.",
+      "web": "Pass over to Tarshish! Wail, you inhabitants of the coast!",
+      "ct": "Flee to Tarshish! Wail, you people of the coast!"
+    },
+    {
+      "verse": 7,
+      "kjv": "Is this your joyous city, whose antiquity is of ancient days? her own feet shall carry her afar off to sojourn.",
+      "web": "Is this your joyous city, whose antiquity is of ancient days, whose feet carried her far away to travel?",
+      "ct": "Is this really your celebrated city, the one founded in ancient times, whose people traveled far and wide to settle distant lands?"
+    },
+    {
+      "verse": 8,
+      "kjv": "Who hath taken this counsel against Tyre, the crowning city, whose merchants are princes, whose traffickers are the honourable of the earth?",
+      "web": "Who has planned this against Tyre, the giver of crowns, whose merchants are princes, whose traders are the honorable of the earth?",
+      "ct": "Who planned this against Tyre — the city that crowned kings, whose merchants were princes, whose traders were honored throughout the earth?"
+    },
+    {
+      "verse": 9,
+      "kjv": "The LORD of hosts hath purposed it, to stain the pride of all glory, and to bring into contempt all the honourable of the earth.",
+      "web": "LORD of Armies has planned it, to stain the pride of all glory, to bring into contempt all the honorable of the earth.",
+      "ct": "The LORD of hosts planned it, to shatter the pride behind all that glory and to humiliate every honored figure on earth."
+    },
+    {
+      "verse": 10,
+      "kjv": "Pass through thy land as a river, O daughter of Tarshish: there is no more strength.",
+      "web": "Pass through your land like the Nile, daughter of Tarshish. There is no restraint any more.",
+      "ct": "Spread out freely across your land like the Nile, people of Tarshish — there is nothing to hold you back anymore."
+    },
+    {
+      "verse": 11,
+      "kjv": "He stretched out his hand over the sea, he shook the kingdoms: the LORD hath given a commandment against the merchant city, to destroy the strong holds thereof.",
+      "web": "He has stretched out his hand over the sea. He has shaken the kingdoms. LORD has ordered the destruction of Canaan’s strongholds.",
+      "ct": "The LORD stretched out his hand over the sea and shook kingdoms. He gave the command to destroy the strongholds of that merchant city."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he said, Thou shalt no more rejoice, O thou oppressed virgin, daughter of Zidon: arise, pass over to Chittim; there also shalt thou have no rest.",
+      "web": "He said, “You shall rejoice no more, you oppressed virgin daughter of Sidon. Arise, pass over to Kittim. Even there you will have no rest.”",
+      "ct": "He said, \"You will never celebrate again, you crushed virgin daughter of Sidon. Get up and flee to Kittim — but even there you will find no rest.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Behold the land of the Chaldeans; this people was not, till the Assyrian founded it for them that dwell in the wilderness: they set up the towers thereof, they raised up the palaces thereof; and he brought it to ruin.",
+      "web": "Behold, the land of the Chaldeans. This people didn’t exist. The Assyrians founded it for those who dwell in the wilderness. They set up their towers. They overthrew its palaces. They made it a ruin.",
+      "ct": "Look at the land of the Chaldeans — this people didn't even exist as a nation until the Assyrians established it for desert dwellers. They built their siege towers, tore down Tyre's palaces, and turned the city into a pile of rubble."
+    },
+    {
+      "verse": 14,
+      "kjv": "Howl, ye ships of Tarshish: for your strength is laid waste.",
+      "web": "Howl, you ships of Tarshish, for your stronghold is laid waste!",
+      "ct": "Cry out in grief, you ships of Tarshish, because your stronghold has been destroyed!"
+    },
+    {
+      "verse": 15,
+      "kjv": "And it shall come to pass in that day, that Tyre shall be forgotten seventy years, according to the days of one king: after the end of seventy years shall Tyre sing as an harlot.",
+      "web": "It will come to pass in that day that Tyre will be forgotten seventy years, according to the days of one king. After the end of seventy years it will be to Tyre like in the song of the prostitute.",
+      "ct": "When that day comes, Tyre will be forgotten for 70 years — the span of one king's lifetime. After those 70 years, Tyre will be like the prostitute in the old song:"
+    },
+    {
+      "verse": 16,
+      "kjv": "Take an harp, go about the city, thou harlot that hast been forgotten; make sweet melody, sing many songs, that thou mayest be remembered.",
+      "web": "Take a harp; go about the city, you prostitute that has been forgotten. Make sweet melody. Sing many songs, that you may be remembered.",
+      "ct": "\"Pick up your harp and walk through the city, you forgotten prostitute. Play sweet music and sing song after song, so someone will remember you.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And it shall come to pass after the end of seventy years, that the LORD will visit Tyre, and she shall turn to her hire, and shall commit fornication with all the kingdoms of the world upon the face of the earth.",
+      "web": "It will happen after the end of seventy years that LORD will visit Tyre. She will return to her wages, and will play the prostitute with all the kingdoms of the world on the surface of the earth.",
+      "ct": "After those 70 years are over, the LORD will turn his attention back to Tyre. She will return to her trade and sell herself like a prostitute to every kingdom on the face of the earth."
+    },
+    {
+      "verse": 18,
+      "kjv": "And her merchandise and her hire shall be holiness to the LORD: it shall not be treasured nor laid up; for her merchandise shall be for them that dwell before the LORD, to eat sufficiently, and for durable clothing.",
+      "web": "Her merchandise and her wages will be holiness to LORD. It will not be treasured nor laid up; for her merchandise will be for those who dwell before LORD, to eat sufficiently, and for durable clothing.",
+      "ct": "But eventually, her profits and her earnings will be set apart as holy to the LORD. Her wealth won't be hoarded or stored away. Instead, it will go to those who serve the LORD, providing them with plenty of food and fine clothing."
+    }
+  ]
+}

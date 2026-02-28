@@ -1,0 +1,47 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:38:02.847Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And in that day seven women shall take hold of one man, saying, We will eat our own bread, and wear our own apparel: only let us be called by thy name, to take away our reproach.",
+      "web": "Seven women shall take hold of one man in that day, saying, “We will eat our own bread, and wear our own clothing. Just let us be called by your name. Take away our reproach.”",
+      "ct": "When that day comes, 7 women will grab hold of one man and say, \"We'll provide our own food and our own clothing — just let us carry your name. Take away our disgrace.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "In that day shall the branch of the LORD be beautiful and glorious, and the fruit of the earth shall be excellent and comely for them that are escaped of Israel.",
+      "web": "In that day, LORD’s branch will be beautiful and glorious, and the fruit of the land will be the beauty and glory of the survivors of Israel.",
+      "ct": "When that day comes, the branch of the LORD will be beautiful and glorious, and the fruit of the land will be the pride and splendor of Israel's survivors."
+    },
+    {
+      "verse": 3,
+      "kjv": "And it shall come to pass, that he that is left in Zion, and he that remaineth in Jerusalem, shall be called holy, even every one that is written among the living in Jerusalem:",
+      "web": "It will happen that he who is left in Zion and he who remains in Jerusalem shall be called holy, even everyone who is written among the living in Jerusalem,",
+      "ct": "Everyone who remains in Zion and is left in Jerusalem will be called holy — every person whose name is recorded among the living in Jerusalem."
+    },
+    {
+      "verse": 4,
+      "kjv": "When the Lord shall have washed away the filth of the daughters of Zion, and shall have purged the blood of Jerusalem from the midst thereof by the spirit of judgment, and by the spirit of burning.",
+      "web": "when the Lord shall have washed away the filth of the daughters of Zion, and shall have purged the blood of Jerusalem from within it, by the spirit of justice and by the spirit of burning.",
+      "ct": "This will happen when the Lord has washed away the filth of Zion's daughters and cleansed the bloodstains from Jerusalem through a spirit of judgment and a spirit of burning."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the LORD will create upon every dwelling place of mount Zion, and upon her assemblies, a cloud and smoke by day, and the shining of a flaming fire by night: for upon all the glory shall be a defence.",
+      "web": "LORD will create over the whole habitation of Mount Zion and over her assemblies, a cloud and smoke by day, and the shining of a flaming fire by night, for over all the glory will be a canopy.",
+      "ct": "Then the LORD will create over every home on Mount Zion and over all its gatherings a cloud of smoke by day and the glow of blazing fire by night. Over all the glory there will be a protective covering."
+    },
+    {
+      "verse": 6,
+      "kjv": "And there shall be a tabernacle for a shadow in the day time from the heat, and for a place of refuge, and for a covert from storm and from rain.",
+      "web": "There will be a pavilion for a shade in the daytime from the heat, and for a refuge and for a shelter from storm and from rain.",
+      "ct": "It will serve as a shelter, providing shade from the daytime heat and a refuge from storms and rain."
+    }
+  ]
+}

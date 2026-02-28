@@ -1,0 +1,167 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:37:55.575Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "For, behold, the Lord, the LORD of hosts, doth take away from Jerusalem and from Judah the stay and the staff, the whole stay of bread, and the whole stay of water.",
+      "web": "For, behold, the Lord, LORD of Armies, takes away from Jerusalem and from Judah supply and support, the whole supply of bread, and the whole supply of water;",
+      "ct": "Pay attention — the Lord, the LORD of Armies, is about to strip Jerusalem and Judah of everything they depend on: their entire supply of food and their entire supply of water."
+    },
+    {
+      "verse": 2,
+      "kjv": "The mighty man, and the man of war, the judge, and the prophet, and the prudent, and the ancient,",
+      "web": "the mighty man, the man of war, the judge, the prophet, the diviner, the elder,",
+      "ct": "He will remove their warriors and soldiers, their judges and prophets, their wisest advisors and their elders,"
+    },
+    {
+      "verse": 3,
+      "kjv": "The captain of fifty, and the honourable man, and the counsellor, and the cunning artificer, and the eloquent orator.",
+      "web": "the captain of fifty, the honorable man, the counselor, the skilled craftsman, and the clever enchanter.",
+      "ct": "their military commanders and their most respected citizens, their counselors, their skilled craftsmen, and their persuasive speakers."
+    },
+    {
+      "verse": 4,
+      "kjv": "And I will give children to be their princes, and babes shall rule over them.",
+      "web": "I will give boys to be their princes, and children shall rule over them.",
+      "ct": "\"I will give them boys as their leaders, and children will rule over them.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And the people shall be oppressed, every one by another, and every one by his neighbour: the child shall behave himself proudly against the ancient, and the base against the honourable.",
+      "web": "The people will be oppressed, everyone by another, and everyone by his neighbor. The child will behave himself proudly against the old man, and the wicked against the honorable.",
+      "ct": "The people will turn on each other — everyone oppressing their neighbor. The young will disrespect the old, and the worthless will mock the honorable."
+    },
+    {
+      "verse": 6,
+      "kjv": "When a man shall take hold of his brother of the house of his father, saying, Thou hast clothing, be thou our ruler, and let this ruin be under thy hand:",
+      "web": "Indeed a man shall take hold of his brother in the house of his father, saying, “You have clothing, you be our ruler, and let this ruin be under your hand.”",
+      "ct": "A man will grab his own brother in their father's house and say, \"You still have a coat on your back — you be our leader! Take charge of this mess!\""
+    },
+    {
+      "verse": 7,
+      "kjv": "In that day shall he swear, saying, I will not be an healer; for in my house is neither bread nor clothing: make me not a ruler of the people.",
+      "web": "In that day he will cry out, saying, “I will not be a healer; for in my house is neither bread nor clothing. You shall not make me ruler of the people.”",
+      "ct": "But that day, the brother will protest: \"I can't fix this! I don't even have food or clothing in my own house. Don't make me the leader of these people.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "For Jerusalem is ruined, and Judah is fallen: because their tongue and their doings are against the LORD, to provoke the eyes of his glory.",
+      "web": "For Jerusalem is ruined, and Judah is fallen; because their tongue and their doings are against LORD, to provoke the eyes of his glory.",
+      "ct": "Jerusalem lies in ruins and Judah has collapsed, because everything they say and do defies the LORD, provoking the eyes of his glory."
+    },
+    {
+      "verse": 9,
+      "kjv": "The shew of their countenance doth witness against them; and they declare their sin as Sodom, they hide it not. Woe unto their soul! for they have rewarded evil unto themselves.",
+      "web": "The look of their faces testify against them. They parade their sin like Sodom. They don’t hide it. Woe to their soul! For they have brought disaster upon themselves.",
+      "ct": "The look on their faces gives them away. They parade their sin openly like Sodom and don't even try to hide it. How terrible for their soul! They have brought disaster on themselves."
+    },
+    {
+      "verse": 10,
+      "kjv": "Say ye to the righteous, that it shall be well with him: for they shall eat the fruit of their doings.",
+      "web": "Tell the righteous “Good!” For they shall eat the fruit of their deeds.",
+      "ct": "Tell the righteous that things will go well for them, because they will enjoy the fruit of what they've done."
+    },
+    {
+      "verse": 11,
+      "kjv": "Woe unto the wicked! it shall be ill with him: for the reward of his hands shall be given him.",
+      "web": "Woe to the wicked! Disaster is upon them; for the deeds of his hands will be paid back to him.",
+      "ct": "But how terrible for the wicked! Disaster is coming for them, because they will be paid back for what their own hands have done."
+    },
+    {
+      "verse": 12,
+      "kjv": "As for my people, children are their oppressors, and women rule over them. O my people, they which lead thee cause thee to err, and destroy the way of thy paths.",
+      "web": "As for my people, children are their oppressors, and women rule over them. My people, those who lead you cause you to err, and destroy the way of your paths. ",
+      "ct": "My people — children oppress them, and women rule over them. My people, your leaders are leading you down the wrong path, steering you away from the road you should be on."
+    },
+    {
+      "verse": 13,
+      "kjv": "The LORD standeth up to plead, and standeth to judge the people.",
+      "web": "LORD stands up to contend, and stands to judge the peoples.",
+      "ct": "The LORD rises to present his case. He stands to judge the nations."
+    },
+    {
+      "verse": 14,
+      "kjv": "The LORD will enter into judgment with the ancients of his people, and the princes thereof: for ye have eaten up the vineyard; the spoil of the poor is in your houses.",
+      "web": "LORD will enter into judgment with the elders of his people and their leaders: “It is you who have eaten up the vineyard. The plunder of the poor is in your houses.",
+      "ct": "The LORD brings charges against the elders and leaders of his people: \"You are the ones who have devoured the vineyard. The goods you stole from the poor are sitting in your houses.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "What mean ye that ye beat my people to pieces, and grind the faces of the poor? saith the Lord GOD of hosts.",
+      "web": "What do you mean that you crush my people, and grind the face of the poor?” says the Lord, LORD of Armies. ",
+      "ct": "\"How dare you crush my people and grind the faces of the poor into the dirt?\" declares the Lord GOD of Armies."
+    },
+    {
+      "verse": 16,
+      "kjv": "Moreover the LORD saith, Because the daughters of Zion are haughty, and walk with stretched forth necks and wanton eyes, walking and mincing as they go, and making a tinkling with their feet:",
+      "web": "Moreover LORD said, “Because the daughters of Zion are arrogant, and walk with outstretched necks and flirting eyes, walking to trip as they go, jingling ornaments on their feet;",
+      "ct": "The LORD also said, \"The women of Zion are arrogant — they strut around with their noses in the air, flirting with their eyes, taking dainty little steps, and jingling the ornaments on their ankles.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Therefore the LORD will smite with a scab the crown of the head of the daughters of Zion, and the LORD will discover their secret parts.",
+      "web": "therefore the Lord brings sores on the crown of the head of the women of Zion, and LORD will make their scalps bald.”",
+      "ct": "So the Lord will strike the heads of Zion's women with sores, and the LORD will strip them bare for all to see."
+    },
+    {
+      "verse": 18,
+      "kjv": "In that day the Lord will take away the bravery of their tinkling ornaments about their feet, and their cauls, and their round tires like the moon,",
+      "web": "In that day the Lord will take away the beauty of their anklets, the headbands, the crescent necklaces,",
+      "ct": "When that day comes, the Lord will take away all their finery — their ankle ornaments, their headbands, their crescent necklaces,"
+    },
+    {
+      "verse": 19,
+      "kjv": "The chains, and the bracelets, and the mufflers,",
+      "web": "the earrings, the bracelets, the veils,",
+      "ct": "their earrings, their bracelets, and their veils,"
+    },
+    {
+      "verse": 20,
+      "kjv": "The bonnets, and the ornaments of the legs, and the headbands, and the tablets, and the earrings,",
+      "web": "the headdresses, the ankle chains, the sashes, the perfume containers, the charms,",
+      "ct": "their headdresses, their ankle chains, their sashes, their perfume bottles, and their charms,"
+    },
+    {
+      "verse": 21,
+      "kjv": "The rings, and nose jewels,",
+      "web": "the signet rings, the nose rings,",
+      "ct": "their signet rings and their nose rings,"
+    },
+    {
+      "verse": 22,
+      "kjv": "The changeable suits of apparel, and the mantles, and the wimples, and the crisping pins,",
+      "web": "the fine robes, the capes, the cloaks, the purses,",
+      "ct": "their fine robes, their capes, their cloaks, and their purses,"
+    },
+    {
+      "verse": 23,
+      "kjv": "The glasses, and the fine linen, and the hoods, and the vails.",
+      "web": "the hand mirrors, the fine linen garments, the tiaras, and the shawls. ",
+      "ct": "their mirrors, their linen garments, their tiaras, and their shawls."
+    },
+    {
+      "verse": 24,
+      "kjv": "And it shall come to pass, that instead of sweet smell there shall be stink; and instead of a girdle a rent; and instead of well set hair baldness; and instead of a stomacher a girding of sackcloth; and burning instead of beauty.",
+      "web": "It shall happen that instead of sweet spices, there shall be rottenness; instead of a belt, a rope; instead of well set hair, baldness; instead of a robe, a wearing of sackcloth; and branding instead of beauty.",
+      "ct": "Instead of perfume, there will be the stench of rot. Instead of a belt, a rope. Instead of styled hair, a shaved head. Instead of fine robes, sackcloth wrapped around them. Instead of beauty, the scars of branding."
+    },
+    {
+      "verse": 25,
+      "kjv": "Thy men shall fall by the sword, and thy mighty in the war.",
+      "web": "Your men shall fall by the sword, and your mighty in the war.",
+      "ct": "Your men will die by the sword, and your warriors will fall in battle."
+    },
+    {
+      "verse": 26,
+      "kjv": "And her gates shall lament and mourn; and she being desolate shall sit upon the ground.",
+      "web": "Her gates shall lament and mourn. She shall be desolate and sit on the ground.",
+      "ct": "The gates of the city will cry out in grief. Stripped of everything, she will sit alone on the ground."
+    }
+  ]
+}

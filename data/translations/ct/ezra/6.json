@@ -1,0 +1,143 @@
+{
+  "book": "ezra",
+  "book_name": "Ezra",
+  "chapter": 6,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:25:52.413Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then Darius the king made a decree, and search was made in the house of the rolls, where the treasures were laid up in Babylon.",
+      "web": "Then Darius the king made a decree, and the house of the archives, where the treasures were laid up in Babylon, was searched.",
+      "ct": "King Darius then issued an order, and a search was conducted in the royal archives where records were stored in Babylon."
+    },
+    {
+      "verse": 2,
+      "kjv": "And there was found at Achmetha, in the palace that is in the province of the Medes, a roll, and therein was a record thus written:",
+      "web": "A scroll was found at Achmetha, in the palace that is in the province of Media, and in it this was written for a record:",
+      "ct": "A scroll was found at Achmetha, in the royal palace in the province of the Medes. This is what was written on it:"
+    },
+    {
+      "verse": 3,
+      "kjv": "In the first year of Cyrus the king the same Cyrus the king made a decree concerning the house of God at Jerusalem, Let the house be builded, the place where they offered sacrifices, and let the foundations thereof be strongly laid; the height thereof threescore cubits, and the breadth thereof threescore cubits;",
+      "web": "In the first year of Cyrus the king, Cyrus the king made a decree: Concerning God’s house at Jerusalem, let the house be built, the place where they offer sacrifices, and let its foundations be strongly laid; with its height sixty cubits, and its width sixty cubits;",
+      "ct": "\"In the 1st year of King Cyrus, the king issued a decree about the house of God in Jerusalem: Let the temple be rebuilt on the site where sacrifices were offered, with its foundations firmly laid. It is to be 60 cubits high and 60 cubits wide,"
+    },
+    {
+      "verse": 4,
+      "kjv": "With three rows of great stones, and a row of new timber: and let the expenses be given out of the king’s house:",
+      "web": "with three courses of great stones and a course of new timber. Let the expenses be given out of the king’s house.",
+      "ct": "with 3 rows of large stones and one row of new timber. The costs are to be paid from the royal treasury."
+    },
+    {
+      "verse": 5,
+      "kjv": "And also let the golden and silver vessels of the house of God, which Nebuchadnezzar took forth out of the temple which is at Jerusalem, and brought unto Babylon, be restored, and brought again unto the temple which is at Jerusalem, every one to his place, and place them in the house of God.",
+      "web": "Also let the gold and silver vessels of God’s house, which Nebuchadnezzar took out of the temple which is at Jerusalem, and brought to Babylon, be restored and brought again to the temple which is at Jerusalem, everything to its place. You shall put them in God’s house.",
+      "ct": "Also, the gold and silver articles from God's house — the ones Nebuchadnezzar took from the temple in Jerusalem and carried off to Babylon — must be returned. Every item is to go back to its proper place in the temple in Jerusalem and be put back in God's house.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Now therefore, Tatnai, governor beyond the river, Shetharboznai, and your companions the Apharsachites, which are beyond the river, be ye far from thence:",
+      "web": "Now therefore, Tattenai, governor beyond the River, Shetharbozenai, and your companions the Apharsachites, who are beyond the River, you must stay far from there.",
+      "ct": "Darius then wrote: \"Now then — Tatnai, governor of the region west of the Euphrates, Shetharboznai, and your fellow officials in that region — stay away from that place."
+    },
+    {
+      "verse": 7,
+      "kjv": "Let the work of this house of God alone; let the governor of the Jews and the elders of the Jews build this house of God in his place.",
+      "web": "Leave the work of this house of God alone; let the governor of the Jews and the elders of the Jews build this house of God in its place.",
+      "ct": "Leave the construction of God's house alone. Let the governor of the Jews and their elders rebuild God's house on its original site."
+    },
+    {
+      "verse": 8,
+      "kjv": "Moreover I make a decree what ye shall do to the elders of these Jews for the building of this house of God: that of the king’s goods, even of the tribute beyond the river, forthwith expenses be given unto these men, that they be not hindered.",
+      "web": "Moreover I make a decree what you shall do for these elders of the Jews for the building of this house of God: that of the king’s goods, even of the tribute beyond the River, expenses must be given with all diligence to these men, that they not be hindered.",
+      "ct": "Furthermore, I am issuing a decree about what you must do for the Jewish elders as they build God's house: their full expenses are to be paid promptly from the royal revenue — specifically from the taxes collected west of the Euphrates — so that the work is not interrupted."
+    },
+    {
+      "verse": 9,
+      "kjv": "And that which they have need of, both young bullocks, and rams, and lambs, for the burnt offerings of the God of heaven, wheat, salt, wine, and oil, according to the appointment of the priests which are at Jerusalem, let it be given them day by day without fail:",
+      "web": "That which they have need of, including young bulls, rams, and lambs, for burnt offerings to the God of heaven; also wheat, salt, wine, and oil, according to the word of the priests who are at Jerusalem, let it be given them day by day without fail;",
+      "ct": "Whatever they need — young bulls, rams, lambs for burnt offerings to the God of heaven, along with wheat, salt, wine, and oil — must be given to them daily without fail, as the priests in Jerusalem request."
+    },
+    {
+      "verse": 10,
+      "kjv": "That they may offer sacrifices of sweet savours unto the God of heaven, and pray for the life of the king, and of his sons.",
+      "web": "that they may offer sacrifices of pleasant aroma to the God of heaven, and pray for the life of the king, and of his sons.",
+      "ct": "This way, they can offer pleasing sacrifices to the God of heaven and pray for the well-being of the king and his sons."
+    },
+    {
+      "verse": 11,
+      "kjv": "Also I have made a decree, that whosoever shall alter this word, let timber be pulled down from his house, and being set up, let him be hanged thereon; and let his house be made a dunghill for this.",
+      "web": "I have also made a decree that whoever alters this message, let a beam be pulled out from his house, and let him be lifted up and fastened on it; and let his house be made a dunghill for this.",
+      "ct": "I also decree that if anyone changes this order, a beam will be torn from his house, and he will be impaled on it. His house will then be turned into a pile of rubble."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the God that hath caused his name to dwell there destroy all kings and people, that shall put to their hand to alter and to destroy this house of God which is at Jerusalem. I Darius have made a decree; let it be done with speed.",
+      "web": "May the God who has caused his name to dwell there overthrow all kings and peoples who stretch out their hand to alter this, to destroy this house of God which is at Jerusalem. I Darius have made a decree. Let it be done with all diligence.",
+      "ct": "May the God who has made Jerusalem the dwelling place of his name overthrow any king or nation that tries to change this decree or destroy God's house in Jerusalem. I, Darius, have issued this order. Let it be carried out immediately.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then Tatnai, governor on this side the river, Shetharboznai, and their companions, according to that which Darius the king had sent, so they did speedily.",
+      "web": "Then Tattenai, the governor beyond the River, Shetharbozenai, and their companions did accordingly with all diligence, because Darius the king had sent a decree.",
+      "ct": "Tatnai, the governor west of the Euphrates, Shetharboznai, and their fellow officials carried out King Darius's orders promptly and completely."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the elders of the Jews builded, and they prospered through the prophesying of Haggai the prophet and Zechariah the son of Iddo. And they builded, and finished it, according to the commandment of the God of Israel, and according to the commandment of Cyrus, and Darius, and Artaxerxes king of Persia.",
+      "web": "The elders of the Jews built and prospered, through the prophesying of Haggai the prophet and Zechariah the son of Iddo. They built and finished it, according to the commandment of the God of Israel, and according to the decree of Cyrus, Darius, and Artaxerxes king of Persia.",
+      "ct": "The Jewish elders continued building and making progress, encouraged by the prophesying of Haggai the prophet and Zechariah son of Iddo. They completed the construction as the God of Israel had commanded and as Cyrus, Darius, and Artaxerxes, kings of Persia, had decreed."
+    },
+    {
+      "verse": 15,
+      "kjv": "And this house was finished on the third day of the month Adar, which was in the sixth year of the reign of Darius the king.",
+      "web": "This house was finished on the third day of the month Adar, which was in the sixth year of the reign of Darius the king.",
+      "ct": "The temple was completed on the 3rd day of the month of Adar, in the 6th year of King Darius's reign."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the children of Israel, the priests, and the Levites, and the rest of the children of the captivity, kept the dedication of this house of God with joy,",
+      "web": "The children of Israel, the priests, the Levites, and the rest of the children of the captivity, kept the dedication of this house of God with joy.",
+      "ct": "The people of Israel — the priests, the Levites, and all the others who had returned from exile — celebrated the dedication of God's house with great joy."
+    },
+    {
+      "verse": 17,
+      "kjv": "And offered at the dedication of this house of God an hundred bullocks, two hundred rams, four hundred lambs; and for a sin offering for all Israel, twelve he goats, according to the number of the tribes of Israel.",
+      "web": "They offered at the dedication of this house of God one hundred bulls, two hundred rams, four hundred lambs; and for a sin offering for all Israel, twelve male goats, according to the number of the tribes of Israel.",
+      "ct": "For the dedication, they offered 100 bulls, 200 rams, and 400 lambs. They also sacrificed 12 male goats as a sin offering for all Israel — one for each tribe."
+    },
+    {
+      "verse": 18,
+      "kjv": "And they set the priests in their divisions, and the Levites in their courses, for the service of God, which is at Jerusalem; as it is written in the book of Moses.",
+      "web": "They set the priests in their divisions, and the Levites in their courses, for the service of God, which is at Jerusalem, as it is written in the book of Moses.",
+      "ct": "They organized the priests into their divisions and the Levites into their groups for the service of God in Jerusalem, just as it is written in the book of Moses."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the children of the captivity kept the passover upon the fourteenth day of the first month.",
+      "web": "The children of the captivity kept the Passover on the fourteenth day of the first month.",
+      "ct": "On the 14th day of the 1st month, the returned exiles celebrated the Passover."
+    },
+    {
+      "verse": 20,
+      "kjv": "For the priests and the Levites were purified together, all of them were pure, and killed the passover for all the children of the captivity, and for their brethren the priests, and for themselves.",
+      "web": "Because the priests and the Levites had purified themselves together, all of them were pure. They killed the Passover for all the children of the captivity, for their brothers the priests, and for themselves.",
+      "ct": "The priests and Levites had all purified themselves together, so every one of them was ceremonially clean. They slaughtered the Passover lamb for all the exiles, for their fellow priests, and for themselves."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the children of Israel, which were come again out of captivity, and all such as had separated themselves unto them from the filthiness of the heathen of the land, to seek the LORD God of Israel, did eat,",
+      "web": "The children of Israel who had returned out of the captivity, and all who had separated themselves to them from the filthiness of the nations of the land, to seek LORD, the God of Israel, ate,",
+      "ct": "The Israelites who had returned from exile ate the Passover meal, along with everyone who had separated themselves from the unclean practices of the surrounding nations in order to seek the LORD, the God of Israel."
+    },
+    {
+      "verse": 22,
+      "kjv": "And kept the feast of unleavened bread seven days with joy: for the LORD had made them joyful, and turned the heart of the king of Assyria unto them, to strengthen their hands in the work of the house of God, the God of Israel.",
+      "web": "and kept the feast of unleavened bread seven days with joy; because LORD had made them joyful, and had turned the heart of the king of Assyria to them, to strengthen their hands in the work of God, the God of Israel’s house.",
+      "ct": "They celebrated the Feast of Unleavened Bread for 7 days with great joy, because the LORD had filled them with gladness. He had changed the heart of the king of Assyria in their favor, giving them support in the work of rebuilding the house of God, the God of Israel."
+    }
+  ]
+}

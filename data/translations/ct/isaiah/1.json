@@ -1,0 +1,197 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:37:18.373Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah.",
+      "web": "The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah. ",
+      "ct": "This is the vision that Isaiah son of Amoz received about Judah and Jerusalem during the reigns of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah."
+    },
+    {
+      "verse": 2,
+      "kjv": "Hear, O heavens, and give ear, O earth: for the LORD hath spoken, I have nourished and brought up children, and they have rebelled against me.",
+      "web": "Hear, heavens, and listen, earth; for LORD has spoken: “I have nourished and brought up children and they have rebelled against me.",
+      "ct": "Listen, heavens! Pay attention, earth! The LORD has spoken: \"I raised my children and cared for them, but they have rebelled against me."
+    },
+    {
+      "verse": 3,
+      "kjv": "The ox knoweth his owner, and the ass his master’s crib: but Israel doth not know, my people doth not consider.",
+      "web": "The ox knows his owner, and the donkey his master’s crib; but Israel doesn’t know. My people don’t consider.”",
+      "ct": "An ox knows its owner, and a donkey knows where its master feeds it — but Israel doesn't know me. My people don't even stop to think.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Ah sinful nation, a people laden with iniquity, a seed of evildoers, children that are corrupters: they have forsaken the LORD, they have provoked the Holy One of Israel unto anger, they are gone away backward.",
+      "web": "Ah sinful nation, a people loaded with iniquity, offspring of evildoers, children who deal corruptly! They have forsaken LORD. They have despised the Holy One of Israel. They are estranged and backward.",
+      "ct": "What a sinful nation — a people weighed down with guilt, descendants of evildoers, children who have become corrupt! They have abandoned the LORD. They have insulted the Holy One of Israel and turned their backs on him."
+    },
+    {
+      "verse": 5,
+      "kjv": "Why should ye be stricken any more? ye will revolt more and more: the whole head is sick, and the whole heart faint.",
+      "web": "Why should you be beaten more, that you revolt more and more? The whole head is sick, and the whole heart faint.",
+      "ct": "Why do you keep asking to be punished? You just rebel more and more! Your whole head is injured, and your whole heart is weak."
+    },
+    {
+      "verse": 6,
+      "kjv": "From the sole of the foot even unto the head there is no soundness in it; but wounds, and bruises, and putrifying sores: they have not been closed, neither bound up, neither mollified with ointment.",
+      "web": "From the sole of the foot even to the head there is no soundness in it: wounds, welts, and open sores. They haven’t been closed, bandaged, or soothed with oil.",
+      "ct": "From the bottom of your feet to the top of your head, nothing is healthy — only wounds, bruises, and open, festering sores. They haven't been cleaned, bandaged, or soothed with oil."
+    },
+    {
+      "verse": 7,
+      "kjv": "Your country is desolate, your cities are burned with fire: your land, strangers devour it in your presence, and it is desolate, as overthrown by strangers.",
+      "web": "Your country is desolate. Your cities are burned with fire. Strangers devour your land in your presence and it is desolate, as overthrown by strangers.",
+      "ct": "Your country lies in ruins. Your cities have been burned to the ground. Foreigners are devouring your land right in front of you, leaving it wrecked as if destroyed by invaders."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the daughter of Zion is left as a cottage in a vineyard, as a lodge in a garden of cucumbers, as a besieged city.",
+      "web": "The daughter of Zion is left like a shelter in a vineyard, like a hut in a field of melons, like a besieged city.",
+      "ct": "The daughter of Zion is left standing alone — like a flimsy shelter in a vineyard, like a shack in a melon field, like a city under siege."
+    },
+    {
+      "verse": 9,
+      "kjv": "Except the LORD of hosts had left unto us a very small remnant, we should have been as Sodom, and we should have been like unto Gomorrah.",
+      "web": "Unless LORD of Armies had left to us a very small remnant, we would have been as Sodom. We would have been like Gomorrah. ",
+      "ct": "If the LORD of hosts hadn't spared a tiny remnant of us, we would have been wiped out completely — just like Sodom and Gomorrah."
+    },
+    {
+      "verse": 10,
+      "kjv": "Hear the word of the LORD, ye rulers of Sodom; give ear unto the law of our God, ye people of Gomorrah.",
+      "web": "Hear LORD’s word, you rulers of Sodom! Listen to the law of our God, you people of Gomorrah!",
+      "ct": "Listen to the word of the LORD, you rulers of Sodom! Pay attention to the law of our God, you people of Gomorrah!"
+    },
+    {
+      "verse": 11,
+      "kjv": "To what purpose is the multitude of your sacrifices unto me? saith the LORD: I am full of the burnt offerings of rams, and the fat of fed beasts; and I delight not in the blood of bullocks, or of lambs, or of he goats.",
+      "web": "“What are the multitude of your sacrifices to me?”, says LORD. “I have had enough of the burnt offerings of rams and the fat of fed animals. I don’t delight in the blood of bulls, or of lambs, or of male goats.",
+      "ct": "\"What good are all your sacrifices to me?\" says the LORD. \"I've had more than enough of your burnt offerings of rams and the fat of fattened animals. The blood of bulls, lambs, and goats brings me no pleasure."
+    },
+    {
+      "verse": 12,
+      "kjv": "When ye come to appear before me, who hath required this at your hand, to tread my courts?",
+      "web": "When you come to appear before me, who has required this at your hand, to trample my courts?",
+      "ct": "When you come to appear before me, who asked you to trample through my courts?"
+    },
+    {
+      "verse": 13,
+      "kjv": "Bring no more vain oblations; incense is an abomination unto me; the new moons and sabbaths, the calling of assemblies, I cannot away with; it is iniquity, even the solemn meeting.",
+      "web": "Bring no more vain offerings. Incense is an abomination to me. New moons, Sabbaths, and convocations: I can’t stand evil assemblies.",
+      "ct": "Stop bringing me meaningless offerings! Your incense disgusts me. Your new moon festivals, your Sabbath gatherings, your special assemblies — I can't stand them. You mix worship with wickedness."
+    },
+    {
+      "verse": 14,
+      "kjv": "Your new moons and your appointed feasts my soul hateth: they are a trouble unto me; I am weary to bear them.",
+      "web": "My soul hates your New Moons and your appointed feasts. They are a burden to me. I am weary of bearing them.",
+      "ct": "My soul hates your monthly festivals and your appointed celebrations. They've become a burden to me; I'm exhausted from putting up with them."
+    },
+    {
+      "verse": 15,
+      "kjv": "And when ye spread forth your hands, I will hide mine eyes from you: yea, when ye make many prayers, I will not hear: your hands are full of blood.",
+      "web": "When you spread out your hands, I will hide my eyes from you. Yes, when you make many prayers, I will not hear. Your hands are full of blood.",
+      "ct": "When you lift your hands in prayer, I will look away. Even if you pray over and over, I won't listen. Your hands are covered in blood."
+    },
+    {
+      "verse": 16,
+      "kjv": "Wash you, make you clean; put away the evil of your doings from before mine eyes; cease to do evil;",
+      "web": "Wash yourselves. Make yourself clean. Put away the evil of your doings from before my eyes. Cease to do evil.",
+      "ct": "Wash yourselves and be clean! Get your evil actions out of my sight. Stop doing evil."
+    },
+    {
+      "verse": 17,
+      "kjv": "Learn to do well; seek judgment, relieve the oppressed, judge the fatherless, plead for the widow.",
+      "web": "Learn to do well. Seek justice. Relieve the oppressed. Defend the fatherless. Plead for the widow.” ",
+      "ct": "Learn to do what is right. Pursue justice. Defend the oppressed. Stand up for orphans. Fight for widows.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Come now, and let us reason together, saith the LORD: though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.",
+      "web": "“Come now, and let’s reason together,” says LORD: “Though your sins are as scarlet, they shall be as white as snow. Though they are red like crimson, they shall be as wool.",
+      "ct": "\"Come now, let's settle this,\" says the LORD. \"Even though your sins are as bright as scarlet, they can become as white as snow. Even though they are as red as crimson, they can become as clean as wool."
+    },
+    {
+      "verse": 19,
+      "kjv": "If ye be willing and obedient, ye shall eat the good of the land:",
+      "web": "If you are willing and obedient, you will eat the good of the land;",
+      "ct": "If you are willing and obedient, you will enjoy the best the land has to offer."
+    },
+    {
+      "verse": 20,
+      "kjv": "But if ye refuse and rebel, ye shall be devoured with the sword: for the mouth of the LORD hath spoken it.",
+      "web": "but if you refuse and rebel, you will be devoured with the sword; for the mouth of LORD has spoken it.” ",
+      "ct": "But if you refuse and rebel, the sword will devour you.\" The LORD himself has spoken."
+    },
+    {
+      "verse": 21,
+      "kjv": "How is the faithful city become an harlot! it was full of judgment; righteousness lodged in it; but now murderers.",
+      "web": "How the faithful city has become a prostitute! She was full of justice. Righteousness lodged in her, but now there are murderers.",
+      "ct": "How did the faithful city become a prostitute! She was once full of justice. Righteousness made its home in her — but now she's full of murderers."
+    },
+    {
+      "verse": 22,
+      "kjv": "Thy silver is become dross, thy wine mixed with water:",
+      "web": "Your silver has become dross, your wine mixed with water.",
+      "ct": "Your silver has turned to worthless slag. Your wine has been watered down."
+    },
+    {
+      "verse": 23,
+      "kjv": "Thy princes are rebellious, and companions of thieves: every one loveth gifts, and followeth after rewards: they judge not the fatherless, neither doth the cause of the widow come unto them.",
+      "web": "Your princes are rebellious and companions of thieves. Everyone loves bribes and follows after rewards. They don’t defend the fatherless, neither does the cause of the widow come to them. ",
+      "ct": "Your leaders are rebels and friends of thieves. Every one of them loves bribes and chases after payoffs. They don't defend orphans, and the widow's case never even reaches them."
+    },
+    {
+      "verse": 24,
+      "kjv": "Therefore saith the LORD, the LORD of hosts, the mighty One of Israel, Ah, I will ease me of mine adversaries, and avenge me of mine enemies:",
+      "web": "Therefore the Lord, LORD of Armies, the Mighty One of Israel, says: “Ah, I will get relief from my adversaries, and avenge myself on my enemies.",
+      "ct": "So the Lord — the LORD of hosts, the Mighty One of Israel — declares: \"Enough! I will get relief from my enemies and take vengeance on my foes."
+    },
+    {
+      "verse": 25,
+      "kjv": "And I will turn my hand upon thee, and purely purge away thy dross, and take away all thy tin:",
+      "web": "I will turn my hand on you, thoroughly purge away your dross, and will take away all your tin.",
+      "ct": "I will turn my hand against you. I will burn away your impurities completely and remove every bit of corruption from you."
+    },
+    {
+      "verse": 26,
+      "kjv": "And I will restore thy judges as at the first, and thy counsellors as at the beginning: afterward thou shalt be called, The city of righteousness, the faithful city.",
+      "web": "I will restore your judges as at the first, and your counselors as at the beginning. Afterward you shall be called ‘The city of righteousness, a faithful town.’",
+      "ct": "I will give you judges like you had in the beginning and counselors like you had at the start. After that, you will be called 'The City of Righteousness, the Faithful City.'\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Zion shall be redeemed with judgment, and her converts with righteousness.",
+      "web": "Zion shall be redeemed with justice, and her converts with righteousness.",
+      "ct": "Zion will be rescued through justice, and those in her who repent will be saved through righteousness."
+    },
+    {
+      "verse": 28,
+      "kjv": "And the destruction of the transgressors and of the sinners shall be together, and they that forsake the LORD shall be consumed.",
+      "web": "But the destruction of transgressors and sinners shall be together, and those who forsake LORD shall be consumed.",
+      "ct": "But rebels and sinners will be destroyed together, and everyone who abandons the LORD will be consumed."
+    },
+    {
+      "verse": 29,
+      "kjv": "For they shall be ashamed of the oaks which ye have desired, and ye shall be confounded for the gardens that ye have chosen.",
+      "web": "For they shall be ashamed of the oaks which you have desired, and you shall be confounded for the gardens that you have chosen.",
+      "ct": "You will be ashamed of the sacred oaks you once desired, and you will be humiliated by the idol gardens you chose."
+    },
+    {
+      "verse": 30,
+      "kjv": "For ye shall be as an oak whose leaf fadeth, and as a garden that hath no water.",
+      "web": "For you shall be as an oak whose leaf fades, and as a garden that has no water.",
+      "ct": "You will become like an oak tree with withering leaves, like a garden with no water."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the strong shall be as tow, and the maker of it as a spark, and they shall both burn together, and none shall quench them.",
+      "web": "The strong will be like tinder, and his work like a spark. They will both burn together, and no one will quench them.”",
+      "ct": "The mighty will become like dry kindling, and their deeds like a spark. Both will burn together, and no one will be able to put out the fire."
+    }
+  ]
+}

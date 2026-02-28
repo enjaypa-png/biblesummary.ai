@@ -1,0 +1,209 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 32,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:22:03.971Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "After these things, and the establishment thereof, Sennacherib king of Assyria came, and entered into Judah, and encamped against the fenced cities, and thought to win them for himself.",
+      "web": "After these things and this faithfulness, Sennacherib king of Assyria came, entered into Judah, and encamped against the fortified cities, and intended to win them for himself.",
+      "ct": "After Hezekiah had faithfully carried out all these reforms, King Sennacherib of Assyria invaded Judah. He set up camp around the fortified cities, intending to conquer them for himself."
+    },
+    {
+      "verse": 2,
+      "kjv": "And when Hezekiah saw that Sennacherib was come, and that he was purposed to fight against Jerusalem,",
+      "web": "When Hezekiah saw that Sennacherib had come, and that he was planning to fight against Jerusalem,",
+      "ct": "When Hezekiah realized that Sennacherib had arrived and was planning to attack Jerusalem,"
+    },
+    {
+      "verse": 3,
+      "kjv": "He took counsel with his princes and his mighty men to stop the waters of the fountains which were without the city: and they did help him.",
+      "web": "he took counsel with his princes and his mighty men to stop the waters of the springs which were outside of the city, and they helped him.",
+      "ct": "he consulted with his officials and military commanders about blocking the water sources outside the city. They agreed to help him."
+    },
+    {
+      "verse": 4,
+      "kjv": "So there was gathered much people together, who stopped all the fountains, and the brook that ran through the midst of the land, saying, Why should the kings of Assyria come, and find much water?",
+      "web": "So, many people gathered together and they stopped all the springs and the brook that flowed through the middle of the land, saying, “Why should the kings of Assyria come, and find abundant water?”",
+      "ct": "A large workforce gathered and blocked every spring and the stream that flowed through the region. \"Why should the kings of Assyria show up and find plenty of water?\" they said."
+    },
+    {
+      "verse": 5,
+      "kjv": "Also he strengthened himself, and built up all the wall that was broken, and raised it up to the towers, and another wall without, and repaired Millo in the city of David, and made darts and shields in abundance.",
+      "web": "He took courage, built up all the wall that was broken down, and raised it up to the towers, with the other wall outside, and strengthened Millo in David’s city, and made weapons and shields in abundance.",
+      "ct": "Hezekiah threw himself into the defense effort. He rebuilt every section of the wall that had crumbled, raised towers on it, and constructed a second outer wall. He also reinforced the Millo in the city of David and produced large quantities of weapons and shields."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he set captains of war over the people, and gathered them together to him in the street of the gate of the city, and spake comfortably to them, saying,",
+      "web": "He set captains of war over the people, and gathered them together to him in the wide place at the gate of the city, and spoke encouragingly to them, saying,",
+      "ct": "He appointed military commanders over the people, then assembled everyone in the open square by the city gate and spoke to encourage them:"
+    },
+    {
+      "verse": 7,
+      "kjv": "Be strong and courageous, be not afraid nor dismayed for the king of Assyria, nor for all the multitude that is with him: for there be more with us than with him:",
+      "web": "“Be strong and courageous. Don’t be afraid or dismayed because of the king of Assyria, nor for all the multitude who is with him; for there is a greater one with us than with him.",
+      "ct": "\"Be strong and courageous! Don't be afraid or shaken by the king of Assyria or the massive army with him. The one on our side is greater than the one on his."
+    },
+    {
+      "verse": 8,
+      "kjv": "With him is an arm of flesh; but with us is the LORD our God to help us, and to fight our battles. And the people rested themselves upon the words of Hezekiah king of Judah.",
+      "web": "An arm of flesh is with him, but LORD our God is with us to help us and to fight our battles.” The people rested themselves on the words of Hezekiah king of Judah.",
+      "ct": "All he has is human strength, but we have the LORD our God to help us and fight our battles.\" The people took heart from the words of King Hezekiah of Judah."
+    },
+    {
+      "verse": 9,
+      "kjv": "After this did Sennacherib king of Assyria send his servants to Jerusalem, (but he himself laid siege against Lachish, and all his power with him,) unto Hezekiah king of Judah, and unto all Judah that were at Jerusalem, saying,",
+      "web": "After this, Sennacherib king of Assyria sent his servants to Jerusalem, (now he was before Lachish, and all his power with him), to Hezekiah king of Judah, and to all Judah who were at Jerusalem, saying,",
+      "ct": "Later, while Sennacherib himself was besieging Lachish with his full army, he sent messengers to Jerusalem with this message for King Hezekiah and all the people of Judah in the city:"
+    },
+    {
+      "verse": 10,
+      "kjv": "Thus saith Sennacherib king of Assyria, Whereon do ye trust, that ye abide in the siege in Jerusalem?",
+      "web": "Sennacherib king of Assyria says, “In whom do you trust, that you remain under siege in Jerusalem?",
+      "ct": "\"This is what King Sennacherib of Assyria says: What exactly are you trusting in, that you stay holed up under siege in Jerusalem?"
+    },
+    {
+      "verse": 11,
+      "kjv": "Doth not Hezekiah persuade you to give over yourselves to die by famine and by thirst, saying, The LORD our God shall deliver us out of the hand of the king of Assyria?",
+      "web": "Doesn’t Hezekiah persuade you, to give you over to die by famine and by thirst, saying, ‘LORD our God will deliver us out of the hand of the king of Assyria?’",
+      "ct": "Isn't Hezekiah misleading you? He's setting you up to die of hunger and thirst by telling you, 'The LORD our God will rescue us from the king of Assyria.'"
+    },
+    {
+      "verse": 12,
+      "kjv": "Hath not the same Hezekiah taken away his high places and his altars, and commanded Judah and Jerusalem, saying, Ye shall worship before one altar, and burn incense upon it?",
+      "web": "Hasn’t the same Hezekiah taken away his high places and his altars, and commanded Judah and Jerusalem, saying, ‘You shall worship before one altar, and you shall burn incense on it?’",
+      "ct": "Isn't this the same Hezekiah who tore down God's high places and altars and then ordered Judah and Jerusalem, 'You must worship at only one altar and burn incense on it alone'?"
+    },
+    {
+      "verse": 13,
+      "kjv": "Know ye not what I and my fathers have done unto all the people of other lands? were the gods of the nations of those lands any ways able to deliver their lands out of mine hand?",
+      "web": "Don’t you know what I and my fathers have done to all the peoples of the lands? Were the gods of the nations of the lands in any way able to deliver their land out of my hand?",
+      "ct": "Don't you know what my ancestors and I have done to every other nation? Were the gods of those nations ever able to save their lands from me?"
+    },
+    {
+      "verse": 14,
+      "kjv": "Who was there among all the gods of those nations that my fathers utterly destroyed, that could deliver his people out of mine hand, that your God should be able to deliver you out of mine hand?",
+      "web": "Who was there among all the gods of those nations which my fathers utterly destroyed, that could deliver his people out of my hand, that your God should be able to deliver you out of my hand?",
+      "ct": "Of all the gods of the nations my ancestors completely destroyed, which one was able to rescue his people from me? So what makes you think your God can rescue you from my hand?"
+    },
+    {
+      "verse": 15,
+      "kjv": "Now therefore let not Hezekiah deceive you, nor persuade you on this manner, neither yet believe him: for no god of any nation or kingdom was able to deliver his people out of mine hand, and out of the hand of my fathers: how much less shall your God deliver you out of mine hand?",
+      "web": "Now therefore don’t let Hezekiah deceive you, nor persuade you in this way. Don’t believe him, for no god of any nation or kingdom was able to deliver his people out of my hand, and out of the hand of my fathers. How much less will your God deliver you out of my hand?”",
+      "ct": "Don't let Hezekiah fool you or talk you into this. Don't believe him. No god of any nation or kingdom has ever been able to save his people from me or my ancestors. Your God certainly won't save you either.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And his servants spake yet more against the LORD God, and against his servant Hezekiah.",
+      "web": "His servants spoke yet more against LORD God, and against his servant Hezekiah.",
+      "ct": "Sennacherib's messengers kept on mocking the LORD God and insulting his servant Hezekiah."
+    },
+    {
+      "verse": 17,
+      "kjv": "He wrote also letters to rail on the LORD God of Israel, and to speak against him, saying, As the gods of the nations of other lands have not delivered their people out of mine hand, so shall not the God of Hezekiah deliver his people out of mine hand.",
+      "web": "He also wrote letters insulting LORD, the God of Israel, and speaking against him, saying, “As the gods of the nations of the lands, which have not delivered their people out of my hand, so shall the God of Hezekiah not deliver his people out of my hand.”",
+      "ct": "Sennacherib also wrote letters ridiculing the LORD, the God of Israel. In them he said, \"Just as the gods of other nations couldn't save their people from me, the God of Hezekiah won't save his people from me either.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then they cried with a loud voice in the Jews’ speech unto the people of Jerusalem that were on the wall, to affright them, and to trouble them; that they might take the city.",
+      "web": "They called out with a loud voice in the Jews’ language to the people of Jerusalem who were on the wall, to frighten them, and to trouble them; that they might take the city.",
+      "ct": "Then the messengers shouted in Hebrew to the people of Jerusalem standing on the wall, trying to terrify and demoralize them so they could capture the city."
+    },
+    {
+      "verse": 19,
+      "kjv": "And they spake against the God of Jerusalem, as against the gods of the people of the earth, which were the work of the hands of man.",
+      "web": "They spoke of the God of Jerusalem as of the gods of the peoples of the earth, which are the work of men’s hands.",
+      "ct": "They talked about the God of Jerusalem as if he were just like the gods of other nations — nothing more than objects crafted by human hands."
+    },
+    {
+      "verse": 20,
+      "kjv": "And for this cause Hezekiah the king, and the prophet Isaiah the son of Amoz, prayed and cried to heaven.",
+      "web": "Hezekiah the king and Isaiah the prophet the son of Amoz, prayed because of this, and cried to heaven.",
+      "ct": "In response, King Hezekiah and the prophet Isaiah son of Amoz prayed and cried out to heaven."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the LORD sent an angel, which cut off all the mighty men of valour, and the leaders and captains in the camp of the king of Assyria. So he returned with shame of face to his own land. And when he was come into the house of his god, they that came forth of his own bowels slew him there with the sword.",
+      "web": "LORD sent an angel, who cut off all the mighty men of valor, and the leaders and captains, in the camp of the king of Assyria. So he returned with shame of face to his own land. When he had come into the house of his god, those who came out of his own body killed him there with the sword.",
+      "ct": "The LORD sent an angel who wiped out every warrior, commander, and officer in the Assyrian camp. Sennacherib retreated to his own country in disgrace, and when he entered the temple of his god, his own sons killed him there with a sword."
+    },
+    {
+      "verse": 22,
+      "kjv": "Thus the LORD saved Hezekiah and the inhabitants of Jerusalem from the hand of Sennacherib the king of Assyria, and from the hand of all other, and guided them on every side.",
+      "web": "Thus LORD saved Hezekiah and the inhabitants of Jerusalem from the hand of Sennacherib the king of Assyria and from the hand of all others, and guided them on every side.",
+      "ct": "That is how the LORD saved Hezekiah and the people of Jerusalem from King Sennacherib of Assyria and from every other threat, guarding them on all sides."
+    },
+    {
+      "verse": 23,
+      "kjv": "And many brought gifts unto the LORD to Jerusalem, and presents to Hezekiah king of Judah: so that he was magnified in the sight of all nations from thenceforth.",
+      "web": "Many brought gifts to LORD to Jerusalem, and precious things to Hezekiah king of Judah; so that he was exalted in the sight of all nations from then on.",
+      "ct": "Many people brought gifts to the LORD in Jerusalem and valuable presents to King Hezekiah. From that point on, he was highly respected among all the surrounding nations."
+    },
+    {
+      "verse": 24,
+      "kjv": "In those days Hezekiah was sick to the death, and prayed unto the LORD: and he spake unto him, and he gave him a sign.",
+      "web": "In those days Hezekiah was terminally ill, and he prayed to LORD; and he spoke to him, and gave him a sign.",
+      "ct": "Around that time, Hezekiah became deathly ill. He prayed to the LORD, and the LORD spoke to him and gave him a miraculous sign."
+    },
+    {
+      "verse": 25,
+      "kjv": "But Hezekiah rendered not again according to the benefit done unto him; for his heart was lifted up: therefore there was wrath upon him, and upon Judah and Jerusalem.",
+      "web": "But Hezekiah didn’t reciprocate appropriate to the benefit done for him, because his heart was lifted up. Therefore there was wrath on him, and on Judah and Jerusalem.",
+      "ct": "But Hezekiah didn't respond with the gratitude that matched what God had done for him, because pride had crept into his heart. Because of this, God's anger fell on him, on Judah, and on Jerusalem."
+    },
+    {
+      "verse": 26,
+      "kjv": "Notwithstanding Hezekiah humbled himself for the pride of his heart, both he and the inhabitants of Jerusalem, so that the wrath of the LORD came not upon them in the days of Hezekiah.",
+      "web": "Notwithstanding Hezekiah humbled himself for the pride of his heart, both he and the inhabitants of Jerusalem, so that LORD’s wrath didn’t come on them in the days of Hezekiah.",
+      "ct": "However, Hezekiah humbled himself and turned from his pride — and so did the people of Jerusalem — so the LORD's anger didn't fall on them during Hezekiah's lifetime."
+    },
+    {
+      "verse": 27,
+      "kjv": "And Hezekiah had exceeding much riches and honour: and he made himself treasuries for silver, and for gold, and for precious stones, and for spices, and for shields, and for all manner of pleasant jewels;",
+      "web": "Hezekiah had exceedingly much riches and honor. He provided himself with treasuries for silver, for gold, for precious stones, for spices, for shields, and for all kinds of valuable vessels;",
+      "ct": "Hezekiah accumulated enormous wealth and honor. He built treasuries to store silver, gold, precious stones, spices, shields, and every kind of valuable item."
+    },
+    {
+      "verse": 28,
+      "kjv": "Storehouses also for the increase of corn, and wine, and oil; and stalls for all manner of beasts, and cotes for flocks.",
+      "web": "also storehouses for the increase of grain, new wine, and oil; and stalls for all kinds of animals, and flocks in folds.",
+      "ct": "He also built storehouses for the harvests of grain, wine, and olive oil, along with stalls for every kind of livestock and pens for his flocks."
+    },
+    {
+      "verse": 29,
+      "kjv": "Moreover he provided him cities, and possessions of flocks and herds in abundance: for God had given him substance very much.",
+      "web": "Moreover he provided for himself cities, and possessions of flocks and herds in abundance; for God had given him abundant possessions.",
+      "ct": "He acquired cities for himself and vast herds and flocks, because God had blessed him with tremendous wealth."
+    },
+    {
+      "verse": 30,
+      "kjv": "This same Hezekiah also stopped the upper watercourse of Gihon, and brought it straight down to the west side of the city of David. And Hezekiah prospered in all his works.",
+      "web": "This same Hezekiah also stopped the upper spring of the waters of Gihon, and brought them straight down on the west side of David’s city. Hezekiah prospered in all his works.",
+      "ct": "It was this same Hezekiah who blocked the upper outlet of the Gihon spring and channeled the water down to the west side of the city of David. Hezekiah succeeded in everything he did."
+    },
+    {
+      "verse": 31,
+      "kjv": "Howbeit in the business of the ambassadors of the princes of Babylon, who sent unto him to enquire of the wonder that was done in the land, God left him, to try him, that he might know all that was in his heart.",
+      "web": "However concerning the ambassadors of the princes of Babylon, who sent to him to inquire of the wonder that was done in the land, God left him, to try him, that he might know all that was in his heart.",
+      "ct": "However, when envoys from the rulers of Babylon came to investigate the miraculous sign that had occurred in the land, God stepped back and left Hezekiah on his own — to test him and reveal what was truly in his heart."
+    },
+    {
+      "verse": 32,
+      "kjv": "Now the rest of the acts of Hezekiah, and his goodness, behold, they are written in the vision of Isaiah the prophet, the son of Amoz, and in the book of the kings of Judah and Israel.",
+      "web": "Now the rest of the acts of Hezekiah, and his good deeds, behold, they are written in the vision of Isaiah the prophet the son of Amoz, in the book of the kings of Judah and Israel.",
+      "ct": "Everything else about Hezekiah's reign, including his acts of devotion, is recorded in the vision of the prophet Isaiah son of Amoz and in the official history of the kings of Judah and Israel."
+    },
+    {
+      "verse": 33,
+      "kjv": "And Hezekiah slept with his fathers, and they buried him in the chiefest of the sepulchres of the sons of David: and all Judah and the inhabitants of Jerusalem did him honour at his death. And Manasseh his son reigned in his stead.",
+      "web": "Hezekiah slept with his fathers, and they buried him in the ascent of the tombs of the sons of David. All Judah and the inhabitants of Jerusalem honored him at his death. Manasseh his son reigned in his place.",
+      "ct": "Hezekiah died and was buried in the upper section of the tombs of David's descendants. All of Judah and the people of Jerusalem honored him at his death. His son Manasseh became king after him."
+    }
+  ]
+}

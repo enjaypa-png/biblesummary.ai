@@ -1,0 +1,107 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 11,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:40:26.666Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And there shall come forth a rod out of the stem of Jesse, and a Branch shall grow out of his roots:",
+      "web": "A shoot will come out of the stock of Jesse, and a branch out of his roots will bear fruit.",
+      "ct": "A new shoot will spring up from the stump of Jesse, and a branch will grow from his roots and bear fruit."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD;",
+      "web": "LORD’s Spirit will rest on him: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of LORD.",
+      "ct": "The spirit of the LORD will rest on him — the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "And shall make him of quick understanding in the fear of the LORD: and he shall not judge after the sight of his eyes, neither reprove after the hearing of his ears:",
+      "web": "His delight will be in the fear of LORD. He will not judge by the sight of his eyes, neither decide by the hearing of his ears;",
+      "ct": "He will delight in the fear of the LORD. He won't judge by what his eyes see or make decisions based on what his ears hear."
+    },
+    {
+      "verse": 4,
+      "kjv": "But with righteousness shall he judge the poor, and reprove with equity for the meek of the earth: and he shall smite the earth with the rod of his mouth, and with the breath of his lips shall he slay the wicked.",
+      "web": "but he will judge the poor with righteousness, and decide with equity for the humble of the earth. He will strike the earth with the rod of his mouth; and with the breath of his lips he will kill the wicked.",
+      "ct": "Instead, he will judge the poor with righteousness and defend the humble of the earth with fairness. He will strike the earth with the rod of his mouth, and with the breath of his lips he will slay the wicked."
+    },
+    {
+      "verse": 5,
+      "kjv": "And righteousness shall be the girdle of his loins, and faithfulness the girdle of his reins.",
+      "web": "Righteousness will be the belt of his waist, and faithfulness the belt of his waist. ",
+      "ct": "Righteousness will be the belt around his waist, and faithfulness will be wrapped around him."
+    },
+    {
+      "verse": 6,
+      "kjv": "The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid; and the calf and the young lion and the fatling together; and a little child shall lead them.",
+      "web": "The wolf will live with the lamb, and the leopard will lie down with the young goat, the calf, the young lion, and the fattened calf together; and a little child will lead them.",
+      "ct": "The wolf will live alongside the lamb, and the leopard will lie down with the young goat. The calf, the young lion, and the fattened calf will be together, and a little child will lead them."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the cow and the bear shall feed; their young ones shall lie down together: and the lion shall eat straw like the ox.",
+      "web": "The cow and the bear will graze. Their young ones will lie down together. The lion will eat straw like the ox.",
+      "ct": "The cow and the bear will graze side by side, and their young will lie down together. The lion will eat straw like the ox."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the sucking child shall play on the hole of the asp, and the weaned child shall put his hand on the cockatrice’ den.",
+      "web": "The nursing child will play near a cobra’s hole, and the weaned child will put his hand on the viper’s den.",
+      "ct": "A nursing baby will play safely near a cobra's hole, and a toddler will reach into a viper's den."
+    },
+    {
+      "verse": 9,
+      "kjv": "They shall not hurt nor destroy in all my holy mountain: for the earth shall be full of the knowledge of the LORD, as the waters cover the sea.",
+      "web": "They will not hurt nor destroy in all my holy mountain; for the earth will be full of the knowledge of LORD, as the waters cover the sea.",
+      "ct": "Nothing will hurt or destroy anywhere on my holy mountain, because the earth will be filled with the knowledge of the LORD, as the waters cover the sea."
+    },
+    {
+      "verse": 10,
+      "kjv": "And in that day there shall be a root of Jesse, which shall stand for an ensign of the people; to it shall the Gentiles seek: and his rest shall be glorious.",
+      "web": "It will happen in that day that the nations will seek the root of Jesse, who stands as a banner of the peoples; and his resting place will be glorious.",
+      "ct": "On that day, the root of Jesse will stand as a banner for the nations. The Gentiles will seek him out, and his resting place will be glorious."
+    },
+    {
+      "verse": 11,
+      "kjv": "And it shall come to pass in that day, that the Lord shall set his hand again the second time to recover the remnant of his people, which shall be left, from Assyria, and from Egypt, and from Pathros, and from Cush, and from Elam, and from Shinar, and from Hamath, and from the islands of the sea.",
+      "web": "It will happen in that day that the Lord will set his hand again the second time to recover the remnant that is left of his people from Assyria, from Egypt, from Pathros, from Cush, from Elam, from Shinar, from Hamath, and from the islands of the sea.",
+      "ct": "On that day, the Lord will reach out his hand a second time to reclaim the remnant of his people — those still scattered in Assyria, Egypt, Pathros, Cush, Elam, Shinar, Hamath, and the coastlands of the sea."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he shall set up an ensign for the nations, and shall assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth.",
+      "web": "He will set up a banner for the nations, and will assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth.",
+      "ct": "He will raise a banner for the nations, gather the outcasts of Israel, and bring together the scattered people of Judah from the 4 corners of the earth."
+    },
+    {
+      "verse": 13,
+      "kjv": "The envy also of Ephraim shall depart, and the adversaries of Judah shall be cut off: Ephraim shall not envy Judah, and Judah shall not vex Ephraim.",
+      "web": "The envy also of Ephraim will depart, and those who persecute Judah will be cut off. Ephraim won’t envy Judah, and Judah won’t persecute Ephraim.",
+      "ct": "Ephraim's jealousy will disappear, and those who harass Judah will be cut off. Ephraim won't be jealous of Judah, and Judah won't antagonize Ephraim."
+    },
+    {
+      "verse": 14,
+      "kjv": "But they shall fly upon the shoulders of the Philistines toward the west; they shall spoil them of the east together: they shall lay their hand upon Edom and Moab; and the children of Ammon shall obey them.",
+      "web": "They will fly down on the shoulders of the Philistines on the west. Together they will plunder the children of the east. They will extend their power over Edom and Moab, and the children of Ammon will obey them.",
+      "ct": "Together they will swoop down on the Philistine hills to the west and plunder the peoples to the east. They will seize Edom and Moab, and the people of Ammon will submit to them."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the LORD shall utterly destroy the tongue of the Egyptian sea; and with his mighty wind shall he shake his hand over the river, and shall smite it in the seven streams, and make men go over dryshod.",
+      "web": "LORD will utterly destroy the tongue of the Egyptian sea; and with his scorching wind he will wave his hand over the River, and will split it into seven streams, and cause men to march over in sandals.",
+      "ct": "The LORD will completely dry up the gulf of the Egyptian sea. He will wave his hand over the Euphrates River with a scorching wind, splitting it into 7 streams so people can cross on dry ground."
+    },
+    {
+      "verse": 16,
+      "kjv": "And there shall be an highway for the remnant of his people, which shall be left, from Assyria; like as it was to Israel in the day that he came up out of the land of Egypt.",
+      "web": "There will be a highway for the remnant that is left of his people from Assyria, like there was for Israel in the day that he came up out of the land of Egypt.",
+      "ct": "There will be a highway for the remnant of his people coming back from Assyria — just as there was for Israel on the day they came up out of Egypt."
+    }
+  ]
+}

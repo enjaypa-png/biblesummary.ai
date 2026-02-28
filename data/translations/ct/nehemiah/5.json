@@ -1,0 +1,125 @@
+{
+  "book": "nehemiah",
+  "book_name": "Nehemiah",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:29:11.940Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And there was a great cry of the people and of their wives against their brethren the Jews.",
+      "web": "Then there arose a great cry of the people and of their wives against their brothers the Jews.",
+      "ct": "Around this time, a loud outcry arose from the common people and their wives against their fellow Jews."
+    },
+    {
+      "verse": 2,
+      "kjv": "For there were that said, We, our sons, and our daughters, are many: therefore we take up corn for them, that we may eat, and live.",
+      "web": "For there were some who said, “We, our sons and our daughters, are many. Let us get grain, that we may eat and live.”",
+      "ct": "Some were saying, \"We have large families — sons and daughters to feed. We need grain just to eat and stay alive.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Some also there were that said, We have mortgaged our lands, vineyards, and houses, that we might buy corn, because of the dearth.",
+      "web": "There were also some who said, “We are mortgaging our fields, our vineyards, and our houses. Let us get grain, because of the famine.”",
+      "ct": "Others said, \"We've had to mortgage our fields, vineyards, and homes just to buy grain during this famine.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "There were also that said, We have borrowed money for the king’s tribute, and that upon our lands and vineyards.",
+      "web": "There were also some who said, “We have borrowed money for the king’s tribute using our fields and our vineyards as collateral.",
+      "ct": "Still others said, \"We've had to borrow money against our fields and vineyards just to pay the king's taxes.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Yet now our flesh is as the flesh of our brethren, our children as their children: and, lo, we bring into bondage our sons and our daughters to be servants, and some of our daughters are brought unto bondage already: neither is it in our power to redeem them; for other men have our lands and vineyards.",
+      "web": "Yet now our flesh is as the flesh of our brothers, our children as their children. Behold, we bring our sons and our daughters into bondage to be servants, and some of our daughters have been brought into bondage. It is also not in our power to help it, because other men have our fields and our vineyards.”",
+      "ct": "\"We're the same flesh and blood as these wealthy Jews — our children are no different from theirs. Yet we're being forced to sell our sons and daughters into slavery. Some of our daughters have already been enslaved, and there's nothing we can do about it, because our fields and vineyards belong to other people now.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And I was very angry when I heard their cry and these words.",
+      "web": "I was very angry when I heard their cry and these words.",
+      "ct": "When I heard their outcry and these complaints, I was furious."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then I consulted with myself, and I rebuked the nobles, and the rulers, and said unto them, Ye exact usury, every one of his brother. And I set a great assembly against them.",
+      "web": "Then I consulted with myself, and contended with the nobles and the rulers, and said to them, “You exact usury, everyone of his brother.” I held a great assembly against them.",
+      "ct": "After thinking it over carefully, I confronted the nobles and officials. \"You are charging interest to your own people!\" I told them. Then I called a large public assembly to deal with the matter."
+    },
+    {
+      "verse": 8,
+      "kjv": "And I said unto them, We after our ability have redeemed our brethren the Jews, which were sold unto the heathen; and will ye even sell your brethren? or shall they be sold unto us? Then held they their peace, and found nothing to answer.",
+      "web": "I said to them, “We, after our ability, have redeemed our brothers the Jews that were sold to the nations; and would you even sell your brothers, and should they be sold to us?” Then they held their peace, and found not a word to say.",
+      "ct": "I said to them, \"We've done everything we could to buy back our fellow Jews who were sold to foreign nations. And now you're selling your own people, so that we have to buy them back again?\" They had nothing to say. They just stood there in silence."
+    },
+    {
+      "verse": 9,
+      "kjv": "Also I said, It is not good that ye do: ought ye not to walk in the fear of our God because of the reproach of the heathen our enemies?",
+      "web": "Also I said, “The thing that you do is not good. Shouldn’t you walk in the fear of our God, because of the reproach of the nations our enemies?",
+      "ct": "Then I continued, \"What you're doing is wrong. Shouldn't you live in the fear of our God? You're giving our enemies among the nations reason to mock us.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "I likewise, and my brethren, and my servants, might exact of them money and corn: I pray you, let us leave off this usury.",
+      "web": "I likewise, my brothers and my servants, lend them money and grain. Please let us stop this usury.",
+      "ct": "\"Even I, along with my relatives and my servants, have been lending the people money and grain. But let's stop charging interest on these loans.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Restore, I pray you, to them, even this day, their lands, their vineyards, their oliveyards, and their houses, also the hundredth part of the money, and of the corn, the wine, and the oil, that ye exact of them.",
+      "web": "Please restore to them, even today, their fields, their vineyards, their olive groves, and their houses, also the hundredth part of the money, and of the grain, the new wine, and the oil, that you are charging them.”",
+      "ct": "\"Give back their fields, vineyards, olive groves, and homes — today. And return the interest you've been charging them: the 1 percent on the money, grain, new wine, and olive oil.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then said they, We will restore them, and will require nothing of them; so will we do as thou sayest. Then I called the priests, and took an oath of them, that they should do according to this promise.",
+      "web": "Then they said, “We will restore them, and will require nothing of them. We will do so, even as you say.” Then I called the priests, and took an oath of them, that they would do according to this promise.",
+      "ct": "They answered, \"We'll give it all back and demand nothing more from them. We'll do exactly what you say.\" So I called the priests and made the nobles and officials take an oath in front of them to keep this promise."
+    },
+    {
+      "verse": 13,
+      "kjv": "Also I shook my lap, and said, So God shake out every man from his house, and from his labour, that performeth not this promise, even thus be he shaken out, and emptied. And all the congregation said, Amen, and praised the LORD. And the people did according to this promise.",
+      "web": "Also I shook out my lap, and said, “So may God shake out every man from his house, and from his labor, that doesn’t perform this promise; even may he be shaken out and emptied like this.” All the assembly said, “Amen,” and praised LORD. The people did according to this promise.",
+      "ct": "Then I shook out the folds of my robe and said, \"May God shake out and empty every person from their home and livelihood if they don't keep this promise — shaken out and left with nothing, just like this.\" The whole assembly said, \"Amen,\" and praised the LORD. And the people followed through on the promise."
+    },
+    {
+      "verse": 14,
+      "kjv": "Moreover from the time that I was appointed to be their governor in the land of Judah, from the twentieth year even unto the two and thirtieth year of Artaxerxes the king, that is, twelve years, I and my brethren have not eaten the bread of the governor.",
+      "web": "Moreover from the time that I was appointed to be their governor in the land of Judah, from the twentieth year even to the thirty-second year of Artaxerxes the king, that is, twelve years, I and my brothers have not eaten the bread of the governor.",
+      "ct": "From the day I was appointed governor of Judah — from the 20th year to the 32nd year of King Artaxerxes, a total of 12 years — neither I nor my relatives ever collected the food allowance that was owed to the governor."
+    },
+    {
+      "verse": 15,
+      "kjv": "But the former governors that had been before me were chargeable unto the people, and had taken of them bread and wine, beside forty shekels of silver; yea, even their servants bare rule over the people: but so did not I, because of the fear of God.",
+      "web": "But the former governors who were before me were supported by the people, and took bread and wine from them, plus forty shekels of silver; yes, even their servants ruled over the people; but I didn’t do so, because of the fear of God.",
+      "ct": "The governors before me had been a heavy burden on the people, taking food and wine from them plus 40 shekels of silver. Even their servants lorded it over the people. But I refused to do any of that, because of the fear of God."
+    },
+    {
+      "verse": 16,
+      "kjv": "Yea, also I continued in the work of this wall, neither bought we any land: and all my servants were gathered thither unto the work.",
+      "web": "Yes, I also continued in the work of this wall. We didn’t buy any land. All my servants were gathered there to the work.",
+      "ct": "Instead, I threw myself into the work on the wall. We didn't buy up any land for ourselves. All my servants joined in the construction work."
+    },
+    {
+      "verse": 17,
+      "kjv": "Moreover there were at my table an hundred and fifty of the Jews and rulers, beside those that came unto us from among the heathen that are about us.",
+      "web": "Moreover there were at my table, of the Jews and the rulers, one hundred fifty men, in addition to those who came to us from among the nations that were around us.",
+      "ct": "On top of that, 150 Jewish officials and leaders ate at my table regularly, along with visitors who came to us from the surrounding nations."
+    },
+    {
+      "verse": 18,
+      "kjv": "Now that which was prepared for me daily was one ox and six choice sheep; also fowls were prepared for me, and once in ten days store of all sorts of wine: yet for all this required not I the bread of the governor, because the bondage was heavy upon this people.",
+      "web": "Now that which was prepared for one day was one ox and six choice sheep. Also fowls were prepared for me, and once in ten days a store of all sorts of wine. Yet for all this, I didn’t demand the governor’s pay, because the bondage was heavy on this people.",
+      "ct": "Every day, 1 ox and 6 prime sheep were prepared at my expense, along with poultry. Every 10 days, a fresh supply of all kinds of wine was brought in. Yet despite all this cost, I never demanded the governor's food allowance, because the people were already struggling under a heavy burden."
+    },
+    {
+      "verse": 19,
+      "kjv": "Think upon me, my God, for good, according to all that I have done for this people.",
+      "web": "Remember me, my God, for good, all that I have done for this people.",
+      "ct": "Remember me favorably, my God, for everything I have done for this people."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "book": "song-of-solomon",
+  "book_name": "Song of Solomon",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:36:03.585Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Behold, thou art fair, my love; behold, thou art fair; thou hast doves’ eyes within thy locks: thy hair is as a flock of goats, that appear from mount Gilead.",
+      "web": "Behold, you are beautiful, my love. Behold, you are beautiful. Your eyes are like doves behind your veil. Your hair is as a flock of goats, that descend from Mount Gilead.",
+      "ct": "How beautiful you are, my love — so incredibly beautiful! Your eyes behind your veil are soft as doves. Your hair flows like a flock of goats streaming down the slopes of Mount Gilead."
+    },
+    {
+      "verse": 2,
+      "kjv": "Thy teeth are like a flock of sheep that are even shorn, which came up from the washing; whereof every one bear twins, and none is barren among them.",
+      "web": "Your teeth are like a newly shorn flock, which have come up from the washing, where every one of them has twins. None is bereaved among them.",
+      "ct": "Your teeth are white as freshly shorn sheep just coming up from the washing — perfectly matched in pairs, not one of them missing."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thy lips are like a thread of scarlet, and thy speech is comely: thy temples are like a piece of a pomegranate within thy locks.",
+      "web": "Your lips are like scarlet thread. Your mouth is lovely. Your temples are like a piece of a pomegranate behind your veil.",
+      "ct": "Your lips are like a thread of scarlet, and your mouth is lovely. Your cheeks glow like slices of pomegranate behind your veil."
+    },
+    {
+      "verse": 4,
+      "kjv": "Thy neck is like the tower of David builded for an armoury, whereon there hang a thousand bucklers, all shields of mighty men.",
+      "web": "Your neck is like David’s tower built for an armory, on which a thousand shields hang, all the shields of the mighty men.",
+      "ct": "Your neck is stately like the tower of David, built as an armory, hung with a thousand shields — all of them belonging to mighty warriors."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thy two breasts are like two young roes that are twins, which feed among the lilies.",
+      "web": "Your two breasts are like two fawns that are twins of a roe, which feed among the lilies. ",
+      "ct": "Your two breasts are like twin fawns of a gazelle, grazing among the lilies."
+    },
+    {
+      "verse": 6,
+      "kjv": "Until the day break, and the shadows flee away, I will get me to the mountain of myrrh, and to the hill of frankincense.",
+      "web": "Until the day is cool, and the shadows flee away, I will go to the mountain of myrrh, to the hill of frankincense. ",
+      "ct": "Until the day breaks and the shadows slip away, I will go to the mountain of myrrh and the hill of frankincense."
+    },
+    {
+      "verse": 7,
+      "kjv": "Thou art all fair, my love; there is no spot in thee.",
+      "web": "You are all beautiful, my love. There is no spot in you.",
+      "ct": "You are completely beautiful, my love. There isn't a single flaw in you."
+    },
+    {
+      "verse": 8,
+      "kjv": "Come with me from Lebanon, my spouse, with me from Lebanon: look from the top of Amana, from the top of Shenir and Hermon, from the lions’ dens, from the mountains of the leopards.",
+      "web": "Come with me from Lebanon, my bride, with me from Lebanon. Look from the top of Amana, from the top of Senir and Hermon, from the lions’ dens, from the mountains of the leopards. ",
+      "ct": "Come with me from Lebanon, my bride — come with me from Lebanon! Look down from the peak of Amana, from the summit of Senir and Hermon, from the dens where lions hide, from the mountains where leopards roam."
+    },
+    {
+      "verse": 9,
+      "kjv": "Thou hast ravished my heart, my sister, my spouse; thou hast ravished my heart with one of thine eyes, with one chain of thy neck.",
+      "web": "You have ravished my heart, my sister, my bride. You have ravished my heart with one of your eyes, with one chain of your neck.",
+      "ct": "You have stolen my heart, my sister, my bride. You have stolen my heart with just one glance of your eyes, with a single jewel on your necklace."
+    },
+    {
+      "verse": 10,
+      "kjv": "How fair is thy love, my sister, my spouse! how much better is thy love than wine! and the smell of thine ointments than all spices!",
+      "web": "How beautiful is your love, my sister, my bride! How much better is your love than wine, the fragrance of your perfumes than all kinds of spices!",
+      "ct": "How wonderful is your love, my sister, my bride! Your love is so much better than wine, and the fragrance of your perfumes surpasses every spice."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thy lips, O my spouse, drop as the honeycomb: honey and milk are under thy tongue; and the smell of thy garments is like the smell of Lebanon.",
+      "web": "Your lips, my bride, drip like the honeycomb. Honey and milk are under your tongue. The smell of your garments is like the smell of Lebanon.",
+      "ct": "Your lips drip sweetness like the honeycomb, my bride. Honey and milk rest under your tongue, and the scent of your garments is like the fragrance of Lebanon."
+    },
+    {
+      "verse": 12,
+      "kjv": "A garden inclosed is my sister, my spouse; a spring shut up, a fountain sealed.",
+      "web": "My sister, my bride, is a locked up garden; a locked up spring, a sealed fountain.",
+      "ct": "My sister, my bride, you are a garden locked away — a spring sealed shut, a fountain kept for me alone."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thy plants are an orchard of pomegranates, with pleasant fruits; camphire, with spikenard,",
+      "web": "Your shoots are an orchard of pomegranates, with precious fruits, henna with spikenard plants,",
+      "ct": "Your body is an orchard of pomegranates bursting with delicious fruit, with henna and spikenard,"
+    },
+    {
+      "verse": 14,
+      "kjv": "Spikenard and saffron; calamus and cinnamon, with all trees of frankincense; myrrh and aloes, with all the chief spices:",
+      "web": "spikenard and saffron, calamus and cinnamon, with every kind of incense tree; myrrh and aloes, with all the best spices,",
+      "ct": "spikenard and saffron, calamus and cinnamon, with every kind of frankincense tree — myrrh and aloes, along with all the finest spices."
+    },
+    {
+      "verse": 15,
+      "kjv": "A fountain of gardens, a well of living waters, and streams from Lebanon.",
+      "web": "a fountain of gardens, a well of living waters, flowing streams from Lebanon.",
+      "ct": "You are a garden fountain, a well of living waters, with streams flowing fresh from Lebanon."
+    },
+    {
+      "verse": 16,
+      "kjv": "Awake, O north wind; and come, thou south; blow upon my garden, that the spices thereof may flow out. Let my beloved come into his garden, and eat his pleasant fruits.",
+      "web": "Awake, north wind, and come, you south! Blow on my garden, that its spices may flow out. Let my beloved come into his garden, and taste his precious fruits.",
+      "ct": "Wake up, north wind! Come, south wind! Blow through my garden and let its spices drift on the air. Let my beloved come into his garden and taste its delicious fruit."
+    }
+  ]
+}

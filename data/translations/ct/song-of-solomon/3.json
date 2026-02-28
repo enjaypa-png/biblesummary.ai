@@ -1,0 +1,77 @@
+{
+  "book": "song-of-solomon",
+  "book_name": "Song of Solomon",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:35:51.255Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "By night on my bed I sought him whom my soul loveth: I sought him, but I found him not.",
+      "web": "By night on my bed, I sought him whom my soul loves. I sought him, but I didn’t find him.",
+      "ct": "Night after night I lay in bed, reaching for the one my soul loves. I searched for him, but I couldn't find him."
+    },
+    {
+      "verse": 2,
+      "kjv": "I will rise now, and go about the city in the streets, and in the broad ways I will seek him whom my soul loveth: I sought him, but I found him not.",
+      "web": "I will get up now, and go about the city; in the streets and in the squares I will seek him whom my soul loves. I sought him, but I didn’t find him.",
+      "ct": "\"I'll get up now,\" I told myself. \"I'll go through the city — down every street and through every square — searching for the one my soul loves.\" I searched for him, but I couldn't find him."
+    },
+    {
+      "verse": 3,
+      "kjv": "The watchmen that go about the city found me: to whom I said, Saw ye him whom my soul loveth?",
+      "web": "The watchmen who go about the city found me; “Have you seen him whom my soul loves?”",
+      "ct": "The watchmen making their rounds through the city found me. \"Have you seen the one my soul loves?\" I asked them."
+    },
+    {
+      "verse": 4,
+      "kjv": "It was but a little that I passed from them, but I found him whom my soul loveth: I held him, and would not let him go, until I had brought him into my mother’s house, and into the chamber of her that conceived me.",
+      "web": "I had scarcely passed from them, when I found him whom my soul loves. I held him, and would not let him go, until I had brought him into my mother’s house, into the room of her who conceived me. ",
+      "ct": "I had barely passed them when I found the one my soul loves. I held onto him and wouldn't let go until I had brought him to my mother's house — into the room of the woman who gave me life."
+    },
+    {
+      "verse": 5,
+      "kjv": "I charge you, O ye daughters of Jerusalem, by the roes, and by the hinds of the field, that ye stir not up, nor awake my love, till he please.",
+      "web": "I adjure you, daughters of Jerusalem, by the roes, or by the hinds of the field, that you not stir up nor awaken love, until it so desires. ",
+      "ct": "I beg you, daughters of Jerusalem, by the gazelles and the wild deer: don't stir up or awaken love until it's ready."
+    },
+    {
+      "verse": 6,
+      "kjv": "Who is this that cometh out of the wilderness like pillars of smoke, perfumed with myrrh and frankincense, with all powders of the merchant?",
+      "web": "Who is this who comes up from the wilderness like pillars of smoke, perfumed with myrrh and frankincense, with all spices of the merchant?",
+      "ct": "Who is this coming up from the wilderness like pillars of smoke, perfumed with myrrh and frankincense, with every fine spice a merchant could offer?"
+    },
+    {
+      "verse": 7,
+      "kjv": "Behold his bed, which is Solomon’s; threescore valiant men are about it, of the valiant of Israel.",
+      "web": "Behold, it is Solomon’s carriage! Sixty mighty men are around it, of the mighty men of Israel.",
+      "ct": "Look — it's Solomon's royal carriage! 60 of Israel's mightiest warriors surround it."
+    },
+    {
+      "verse": 8,
+      "kjv": "They all hold swords, being expert in war: every man hath his sword upon his thigh because of fear in the night.",
+      "web": "They all handle the sword, and are expert in war. Every man has his sword on his thigh, because of fear in the night. ",
+      "ct": "Every one of them carries a sword and is trained for battle. Each man keeps his blade strapped to his thigh, ready to guard against any danger in the night."
+    },
+    {
+      "verse": 9,
+      "kjv": "King Solomon made himself a chariot of the wood of Lebanon.",
+      "web": "King Solomon made himself a carriage of the wood of Lebanon.",
+      "ct": "King Solomon built himself a carriage from the wood of Lebanon."
+    },
+    {
+      "verse": 10,
+      "kjv": "He made the pillars thereof of silver, the bottom thereof of gold, the covering of it of purple, the midst thereof being paved with love, for the daughters of Jerusalem.",
+      "web": "He made its pillars of silver, its bottom of gold, its seat of purple, the middle of it being paved with love, from the daughters of Jerusalem.",
+      "ct": "He crafted its pillars from silver, its base from gold, and its seat from purple fabric. Its interior was lovingly decorated by the daughters of Jerusalem."
+    },
+    {
+      "verse": 11,
+      "kjv": "Go forth, O ye daughters of Zion, and behold king Solomon with the crown wherewith his mother crowned him in the day of his espousals, and in the day of the gladness of his heart.",
+      "web": "Go out, you daughters of Zion, and see king Solomon, with the crown with which his mother has crowned him, in the day of his weddings, in the day of the gladness of his heart.",
+      "ct": "Come out, daughters of Zion, and gaze at King Solomon wearing the crown his mother placed on his head — on his wedding day, the happiest day of his life."
+    }
+  ]
+}

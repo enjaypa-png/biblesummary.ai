@@ -1,0 +1,89 @@
+{
+  "book": "song-of-solomon",
+  "book_name": "Song of Solomon",
+  "chapter": 7,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:36:38.567Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "How beautiful are thy feet with shoes, O prince’s daughter! the joints of thy thighs are like jewels, the work of the hands of a cunning workman.",
+      "web": "How beautiful are your feet in sandals, prince’s daughter! Your rounded thighs are like jewels, the work of the hands of a skillful workman.",
+      "ct": "How beautiful your feet look in sandals, O prince's daughter! The curves of your thighs are like jewels shaped by a master craftsman's hands."
+    },
+    {
+      "verse": 2,
+      "kjv": "Thy navel is like a round goblet, which wanteth not liquor: thy belly is like an heap of wheat set about with lilies.",
+      "web": "Your body is like a round goblet, no mixed wine is wanting. Your waist is like a heap of wheat, set about with lilies.",
+      "ct": "Your body is like a rounded goblet that never runs dry of wine. Your waist is like a mound of wheat bordered by lilies."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thy two breasts are like two young roes that are twins.",
+      "web": "Your two breasts are like two fawns, that are twins of a roe.",
+      "ct": "Your two breasts are like twin fawns of a gazelle."
+    },
+    {
+      "verse": 4,
+      "kjv": "Thy neck is as a tower of ivory; thine eyes like the fishpools in Heshbon, by the gate of Bathrabbim: thy nose is as the tower of Lebanon which looketh toward Damascus.",
+      "web": "Your neck is like an ivory tower. Your eyes are like the pools in Heshbon by the gate of Bathrabbim. Your nose is like the tower of Lebanon which looks toward Damascus.",
+      "ct": "Your neck is like a tower of ivory. Your eyes are like the pools of Heshbon by the gate of Bathrabbim. Your nose is like the tower of Lebanon that faces Damascus."
+    },
+    {
+      "verse": 5,
+      "kjv": "Thine head upon thee is like Carmel, and the hair of thine head like purple; the king is held in the galleries.",
+      "web": "Your head on you is like Carmel. The hair of your head like purple. The king is held captive in its tresses.",
+      "ct": "Your head crowns you like Mount Carmel, and the flowing hair on your head shimmers like purple cloth. A king is held captive in those tresses."
+    },
+    {
+      "verse": 6,
+      "kjv": "How fair and how pleasant art thou, O love, for delights!",
+      "web": "How beautiful and how pleasant you are, love, for delights!",
+      "ct": "How beautiful you are, how delightful, my love — you are pure pleasure!"
+    },
+    {
+      "verse": 7,
+      "kjv": "This thy stature is like to a palm tree, and thy breasts to clusters of grapes.",
+      "web": "This, your stature, is like a palm tree, your breasts like its fruit.",
+      "ct": "You stand tall and graceful like a palm tree, and your breasts are like clusters of its fruit."
+    },
+    {
+      "verse": 8,
+      "kjv": "I said, I will go up to the palm tree, I will take hold of the boughs thereof: now also thy breasts shall be as clusters of the vine, and the smell of thy nose like apples;",
+      "web": "I said, “I will climb up into the palm tree. I will take hold of its fruit.” Let your breasts be like clusters of the vine, the smell of your breath like apples.",
+      "ct": "I said, \"I will climb that palm tree and take hold of its branches.\" Let your breasts be like clusters on the vine, and the scent of your breath like apples,"
+    },
+    {
+      "verse": 9,
+      "kjv": "And the roof of thy mouth like the best wine for my beloved, that goeth down sweetly, causing the lips of those that are asleep to speak.",
+      "web": "Your mouth is like the best wine, that goes down smoothly for my beloved, gliding through the lips of those who are asleep.",
+      "ct": "and your kisses like the finest wine — flowing smoothly for my beloved, gliding over the lips of those drifting into sleep."
+    },
+    {
+      "verse": 10,
+      "kjv": "I am my beloved’s, and his desire is toward me.",
+      "web": "I am my beloved’s. His desire is toward me.",
+      "ct": "I belong to my beloved, and his desire is for me."
+    },
+    {
+      "verse": 11,
+      "kjv": "Come, my beloved, let us go forth into the field; let us lodge in the villages.",
+      "web": "Come, my beloved! Let’s go out into the field. Let’s lodge in the villages.",
+      "ct": "Come, my beloved! Let's go out to the open fields and spend the night in the villages."
+    },
+    {
+      "verse": 12,
+      "kjv": "Let us get up early to the vineyards; let us see if the vine flourish, whether the tender grape appear, and the pomegranates bud forth: there will I give thee my loves.",
+      "web": "Let’s go early up to the vineyards. Let’s see whether the vine has budded, its blossom is open, and the pomegranates are in flower. There I will give you my love.",
+      "ct": "Let's rise early and go to the vineyards to see if the vines have budded, if the blossoms have opened, and if the pomegranates are in bloom. There I will give you my love."
+    },
+    {
+      "verse": 13,
+      "kjv": "The mandrakes give a smell, and at our gates are all manner of pleasant fruits, new and old, which I have laid up for thee, O my beloved.",
+      "web": "The mandrakes produce fragrance. At our doors are all kinds of precious fruits, new and old, which I have stored up for you, my beloved.",
+      "ct": "The mandrakes fill the air with fragrance, and at our doors are every kind of precious fruit — both new and old — that I've been saving for you, my beloved."
+    }
+  ]
+}

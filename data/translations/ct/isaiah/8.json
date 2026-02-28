@@ -1,0 +1,143 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:39:23.687Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Moreover the LORD said unto me, Take thee a great roll, and write in it with a man’s pen concerning Mahershalalhashbaz.",
+      "web": "LORD said to me, “Take a large tablet, and write on it with a man’s pen, ‘For Maher Shalal Hash Baz’;",
+      "ct": "The LORD told me, \"Get a large tablet and write on it in clear letters: 'Maher-shalal-hash-baz.'\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And I took unto me faithful witnesses to record, Uriah the priest, and Zechariah the son of Jeberechiah.",
+      "web": "and I will take for myself faithful witnesses to testify: Uriah the priest, and Zechariah the son of Jeberechiah.”",
+      "ct": "So I called in 2 trustworthy witnesses to verify what I wrote: Uriah the priest and Zechariah son of Jeberechiah."
+    },
+    {
+      "verse": 3,
+      "kjv": "And I went unto the prophetess; and she conceived, and bare a son. Then said the LORD to me, Call his name Mahershalalhashbaz.",
+      "web": "I went to the prophetess, and she conceived, and bore a son. Then LORD said to me, “Call his name ‘Maher Shalal Hash Baz.’",
+      "ct": "Then I slept with the prophetess, and she became pregnant and gave birth to a son. The LORD told me, \"Name him Maher-shalal-hash-baz.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "For before the child shall have knowledge to cry, My father, and my mother, the riches of Damascus and the spoil of Samaria shall be taken away before the king of Assyria.",
+      "web": "For before the child knows how to say, ‘My father,’ and, ‘My mother,’ the riches of Damascus and the plunder of Samaria will be carried away by the king of Assyria.”",
+      "ct": "\"Before this child is old enough to say 'Daddy' or 'Mommy,' the king of Assyria will carry off the wealth of Damascus and the plunder of Samaria.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "The LORD spake also unto me again, saying,",
+      "web": "LORD spoke to me yet again, saying,",
+      "ct": "The LORD spoke to me again:"
+    },
+    {
+      "verse": 6,
+      "kjv": "Forasmuch as this people refuseth the waters of Shiloah that go softly, and rejoice in Rezin and Remaliah’s son;",
+      "web": "“Because this people has refused the waters of Shiloah that go softly, and rejoice in Rezin and Remaliah’s son;",
+      "ct": "\"Because this people has rejected the gentle waters of Shiloah and instead takes delight in Rezin and Remaliah's son,"
+    },
+    {
+      "verse": 7,
+      "kjv": "Now therefore, behold, the Lord bringeth up upon them the waters of the river, strong and many, even the king of Assyria, and all his glory: and he shall come up over all his channels, and go over all his banks:",
+      "web": "now therefore, behold, the Lord brings upon them the mighty flood waters of the River: the king of Assyria and all his glory. It will come up over all its channels, and go over all its banks.",
+      "ct": "the Lord is about to bring against them the mighty floodwaters of the Euphrates River — the king of Assyria in all his glory. It will rise over every channel and burst over every bank."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he shall pass through Judah; he shall overflow and go over, he shall reach even to the neck; and the stretching out of his wings shall fill the breadth of thy land, O Immanuel.",
+      "web": "It will sweep onward into Judah. It will overflow and pass through. It will reach even to the neck. The stretching out of its wings will fill the width of your land, Immanuel.",
+      "ct": "It will sweep into Judah, flooding and surging until it reaches up to the neck. Its spreading wings will cover the entire width of your land, O Immanuel.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Associate yourselves, O ye people, and ye shall be broken in pieces; and give ear, all ye of far countries: gird yourselves, and ye shall be broken in pieces; gird yourselves, and ye shall be broken in pieces.",
+      "web": "Make an uproar, you peoples, and be broken in pieces! Listen, all you from far countries: dress for battle, and be shattered! Dress for battle, and be shattered!",
+      "ct": "Band together, you nations — you will be shattered! Listen, all you distant lands: prepare for war, and you will be crushed! Prepare for war, and you will be crushed!"
+    },
+    {
+      "verse": 10,
+      "kjv": "Take counsel together, and it shall come to nought; speak the word, and it shall not stand: for God is with us.",
+      "web": "Take counsel together, and it will be brought to nothing; speak the word, and it will not stand, for God is with us.”",
+      "ct": "Hatch your plans, and they will fall apart. Issue your commands, and they won't stand — because God is with us."
+    },
+    {
+      "verse": 11,
+      "kjv": "For the LORD spake thus to me with a strong hand, and instructed me that I should not walk in the way of this people, saying,",
+      "web": "For LORD spoke this to me with a strong hand, and instructed me not to walk in the way of this people, saying,",
+      "ct": "The LORD gripped me with his powerful hand and warned me not to follow the path of this people. He said,"
+    },
+    {
+      "verse": 12,
+      "kjv": "Say ye not, A confederacy, to all them to whom this people shall say, A confederacy; neither fear ye their fear, nor be afraid.",
+      "web": "“Don’t say, ‘A conspiracy!’ concerning all about which this people say, ‘A conspiracy!’ neither fear their threats, nor be terrorized.",
+      "ct": "\"Don't call everything a conspiracy just because this people does. Don't fear what they fear, and don't be terrified."
+    },
+    {
+      "verse": 13,
+      "kjv": "Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.",
+      "web": "LORD of Armies is who you must respect as holy. He is the one you must fear. He is the one you must dread.",
+      "ct": "The LORD of hosts — he is the one you must treat as holy. He is the one you must fear. He is the one you must dread."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he shall be for a sanctuary; but for a stone of stumbling and for a rock of offence to both the houses of Israel, for a gin and for a snare to the inhabitants of Jerusalem.",
+      "web": "He will be a sanctuary, but for both houses of Israel, he will be a stumbling stone and a rock that makes them fall. For the people of Jerusalem, he will be a trap and a snare.",
+      "ct": "He will be a sanctuary for those who trust him. But to both houses of Israel, he will be a stone that makes them stumble and a rock that trips them up. To the people of Jerusalem, he will be a trap and a snare."
+    },
+    {
+      "verse": 15,
+      "kjv": "And many among them shall stumble, and fall, and be broken, and be snared, and be taken.",
+      "web": "Many will stumble over it, fall, be broken, be snared, and be captured.”",
+      "ct": "Many of them will stumble and fall, be broken, be caught in the snare, and be captured.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Bind up the testimony, seal the law among my disciples.",
+      "web": "Wrap up the covenant. Seal the law among my disciples.",
+      "ct": "Seal up this testimony. Preserve the law among my disciples."
+    },
+    {
+      "verse": 17,
+      "kjv": "And I will wait upon the LORD, that hideth his face from the house of Jacob, and I will look for him.",
+      "web": "I will wait for LORD, who hides his face from the house of Jacob, and I will look for him.",
+      "ct": "I will wait for the LORD, even though he hides his face from the house of Jacob. I will put my hope in him."
+    },
+    {
+      "verse": 18,
+      "kjv": "Behold, I and the children whom the LORD hath given me are for signs and for wonders in Israel from the LORD of hosts, which dwelleth in mount Zion.",
+      "web": "Behold, I and the children whom LORD has given me are for signs and for wonders in Israel from LORD of Armies, who dwells in Mount Zion.",
+      "ct": "Look — I and the children the LORD has given me serve as signs and warnings in Israel, sent by the LORD of hosts, who dwells on Mount Zion."
+    },
+    {
+      "verse": 19,
+      "kjv": "And when they shall say unto you, Seek unto them that have familiar spirits, and unto wizards that peep, and that mutter: should not a people seek unto their God? for the living to the dead?",
+      "web": "When they tell you, “Consult with those who have familiar spirits and with the wizards, who chirp and who mutter,” shouldn’t a people consult with their God? Should they consult the dead on behalf of the living?",
+      "ct": "When people tell you, \"Go consult the mediums and spiritists who whisper and mutter,\" you should answer: shouldn't a people seek their God? Why consult the dead on behalf of the living?"
+    },
+    {
+      "verse": 20,
+      "kjv": "To the law and to the testimony: if they speak not according to this word, it is because there is no light in them.",
+      "web": "Turn to the law and to the covenant! If they don’t speak according to this word, surely there is no morning for them.",
+      "ct": "Turn to the law and to the testimony! If anyone speaks a message that contradicts this word, there is no light in them."
+    },
+    {
+      "verse": 21,
+      "kjv": "And they shall pass through it, hardly bestead and hungry: and it shall come to pass, that when they shall be hungry, they shall fret themselves, and curse their king and their God, and look upward.",
+      "web": "They will pass through it, very distressed and hungry. It will happen that when they are hungry, they will worry, and curse by their king and by their God. They will turn their faces upward,",
+      "ct": "They will wander through the land, desperate and starving. When hunger overtakes them, they will rage and curse their king and their God. They will look up toward heaven,"
+    },
+    {
+      "verse": 22,
+      "kjv": "And they shall look unto the earth; and behold trouble and darkness, dimness of anguish; and they shall be driven to darkness.",
+      "web": "and look to the earth, and see distress, darkness, and the gloom of anguish. They will be driven into thick darkness.",
+      "ct": "then look down at the earth — and everywhere they turn, they will find only trouble and darkness, deep anguish and gloom. They will be driven into total darkness."
+    }
+  ]
+}

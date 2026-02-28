@@ -84,10 +84,10 @@ export async function POST(req: NextRequest) {
         metadata.product_type = "explain_monthly";
         break;
 
-      case "premium_yearly":
-        productConfig = PRODUCTS.PREMIUM_YEARLY;
+      case "premium_annual":
+        productConfig = PRODUCTS.PREMIUM_ANNUAL;
         mode = "subscription";
-        metadata.product_type = "premium_yearly";
+        metadata.product_type = "premium_annual";
         break;
 
       default:

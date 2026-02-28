@@ -1,0 +1,161 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:42:33.378Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The burden of Egypt. Behold, the LORD rideth upon a swift cloud, and shall come into Egypt: and the idols of Egypt shall be moved at his presence, and the heart of Egypt shall melt in the midst of it.",
+      "web": "The burden of Egypt. “Behold, LORD rides on a swift cloud, and comes to Egypt. The idols of Egypt will tremble at his presence; and the heart of Egypt will melt within it.",
+      "ct": "A message about Egypt: Look — the LORD is riding on a fast-moving cloud, heading straight for Egypt! The idols of Egypt will tremble at his arrival, and the courage of Egypt will melt away."
+    },
+    {
+      "verse": 2,
+      "kjv": "And I will set the Egyptians against the Egyptians: and they shall fight every one against his brother, and every one against his neighbour; city against city, and kingdom against kingdom.",
+      "web": "I will stir up the Egyptians against the Egyptians, and they will fight everyone against his brother, and everyone against his neighbor; city against city, and kingdom against kingdom.",
+      "ct": "\"I will turn the Egyptians against each other. Brother will fight brother, neighbor will fight neighbor, city will battle city, and kingdom will clash with kingdom."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the spirit of Egypt shall fail in the midst thereof; and I will destroy the counsel thereof: and they shall seek to the idols, and to the charmers, and to them that have familiar spirits, and to the wizards.",
+      "web": "The spirit of Egypt will fail within it. I will destroy its counsel. They will seek the idols, the charmers, those who have familiar spirits, and the wizards.",
+      "ct": "Egypt's spirit will crumble from within, and I will shatter their plans. They'll turn to their idols for answers, to sorcerers, mediums, and fortune-tellers."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the Egyptians will I give over into the hand of a cruel lord; and a fierce king shall rule over them, saith the Lord, the LORD of hosts.",
+      "web": "I will give over the Egyptians into the hand of a cruel lord. A fierce king will rule over them,” says the Lord, LORD of Armies.",
+      "ct": "I will hand the Egyptians over to a cruel master, and a ruthless king will rule over them,\" declares the Lord, the LORD of Armies."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the waters shall fail from the sea, and the river shall be wasted and dried up.",
+      "web": "The waters will fail from the sea, and the river will be wasted and become dry.",
+      "ct": "The waters of the sea will dry up, and the river will shrink until it's gone."
+    },
+    {
+      "verse": 6,
+      "kjv": "And they shall turn the rivers far away; and the brooks of defence shall be emptied and dried up: the reeds and flags shall wither.",
+      "web": "The rivers will become foul. The streams of Egypt will be diminished and dried up. The reeds and flags will wither away.",
+      "ct": "The canals will turn foul, and Egypt's streams will dwindle and dry out. The reeds and rushes will wither away."
+    },
+    {
+      "verse": 7,
+      "kjv": "The paper reeds by the brooks, by the mouth of the brooks, and every thing sown by the brooks, shall wither, be driven away, and be no more.",
+      "web": "The meadows by the Nile, by the brink of the Nile, and all the sown fields of the Nile, will become dry, be driven away, and be no more.",
+      "ct": "Every plant along the Nile — at the river's edge and in the fields beside it — will dry up, blow away, and disappear."
+    },
+    {
+      "verse": 8,
+      "kjv": "The fishers also shall mourn, and all they that cast angle into the brooks shall lament, and they that spread nets upon the waters shall languish.",
+      "web": "The fishermen will lament, and all those who fish in the Nile will mourn, and those who spread nets on the waters will languish.",
+      "ct": "The fishermen will grieve. Everyone who casts a hook into the Nile will mourn, and those who spread nets on the water will waste away."
+    },
+    {
+      "verse": 9,
+      "kjv": "Moreover they that work in fine flax, and they that weave networks, shall be confounded.",
+      "web": "Moreover those who work in combed flax, and those who weave white cloth, will be confounded.",
+      "ct": "The workers who comb fine flax and the weavers of white linen will be thrown into confusion."
+    },
+    {
+      "verse": 10,
+      "kjv": "And they shall be broken in the purposes thereof, all that make sluices and ponds for fish.",
+      "web": "The pillars will be broken in pieces. All those who work for hire will be grieved in soul.",
+      "ct": "Egypt's foundations will be shattered, and all its workers will be sick with grief."
+    },
+    {
+      "verse": 11,
+      "kjv": "Surely the princes of Zoan are fools, the counsel of the wise counsellors of Pharaoh is become brutish: how say ye unto Pharaoh, I am the son of the wise, the son of ancient kings?",
+      "web": "The princes of Zoan are utterly foolish. The counsel of the wisest counselors of Pharaoh has become stupid. How do you say to Pharaoh, “I am the son of the wise, the son of ancient kings?”",
+      "ct": "The officials of Zoan are complete fools! Pharaoh's wisest advisors give idiotic counsel. How can you say to Pharaoh, \"I come from a line of wise men, descended from ancient kings\"?"
+    },
+    {
+      "verse": 12,
+      "kjv": "Where are they? where are thy wise men? and let them tell thee now, and let them know what the LORD of hosts hath purposed upon Egypt.",
+      "web": "Where then are your wise men? Let them tell you now; and let them know what LORD of Armies has purposed concerning Egypt.",
+      "ct": "Where are your wise men now, Egypt? Let them tell you — let them figure out what the LORD of Armies has planned for Egypt."
+    },
+    {
+      "verse": 13,
+      "kjv": "The princes of Zoan are become fools, the princes of Noph are deceived; they have also seduced Egypt, even they that are the stay of the tribes thereof.",
+      "web": "The princes of Zoan have become fools. The princes of Memphis are deceived. They have caused Egypt to go astray, who are the cornerstone of her tribes.",
+      "ct": "The officials of Zoan have become fools, and the leaders of Memphis have been deceived. The very people who should be Egypt's cornerstones have led the nation astray."
+    },
+    {
+      "verse": 14,
+      "kjv": "The LORD hath mingled a perverse spirit in the midst thereof: and they have caused Egypt to err in every work thereof, as a drunken man staggereth in his vomit.",
+      "web": "LORD has mixed a spirit of perverseness in the middle of her; and they have caused Egypt to go astray in all of its works, like a drunken man staggers in his vomit.",
+      "ct": "The LORD has poured a spirit of confusion into Egypt's core. Its leaders have made Egypt stumble in everything it does, like a drunk staggering through his own vomit."
+    },
+    {
+      "verse": 15,
+      "kjv": "Neither shall there be any work for Egypt, which the head or tail, branch or rush, may do.",
+      "web": "Neither shall there be any work for Egypt, which head or tail, palm branch or rush, may do.",
+      "ct": "No one in Egypt — whether powerful or lowly, whether leader or commoner — will be able to accomplish anything."
+    },
+    {
+      "verse": 16,
+      "kjv": "In that day shall Egypt be like unto women: and it shall be afraid and fear because of the shaking of the hand of the LORD of hosts, which he shaketh over it.",
+      "web": "In that day the Egyptians will be like women. They will tremble and fear because of the shaking of LORD of Armies’s hand, which he shakes over them.",
+      "ct": "When that day comes, the Egyptians will be as fearful as frightened women. They will tremble in terror when the LORD of Armies raises his hand against them."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the land of Judah shall be a terror unto Egypt, every one that maketh mention thereof shall be afraid in himself, because of the counsel of the LORD of hosts, which he hath determined against it.",
+      "web": "The land of Judah will become a terror to Egypt. Everyone to whom mention is made of it will be afraid, because of the plans of LORD of Armies, which he determines against it.",
+      "ct": "The land of Judah will become a source of dread for Egypt. The mere mention of it will fill them with fear, because of what the LORD of Armies has planned against them."
+    },
+    {
+      "verse": 18,
+      "kjv": "In that day shall five cities in the land of Egypt speak the language of Canaan, and swear to the LORD of hosts; one shall be called, The city of destruction.",
+      "web": "In that day, there will be five cities in the land of Egypt that speak the language of Canaan, and swear to LORD of Armies. One will be called “The city of destruction.”",
+      "ct": "When that day comes, 5 cities in Egypt will speak the language of Canaan and swear loyalty to the LORD of Armies. One of them will be called \"The City of Destruction.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "In that day shall there be an altar to the LORD in the midst of the land of Egypt, and a pillar at the border thereof to the LORD.",
+      "web": "In that day, there will be an altar to LORD in the middle of the land of Egypt, and a pillar to LORD at its border.",
+      "ct": "When that day comes, there will be an altar to the LORD in the heart of Egypt and a pillar dedicated to the LORD at its border."
+    },
+    {
+      "verse": 20,
+      "kjv": "And it shall be for a sign and for a witness unto the LORD of hosts in the land of Egypt: for they shall cry unto the LORD because of the oppressors, and he shall send them a saviour, and a great one, and he shall deliver them.",
+      "web": "It will be for a sign and for a witness to LORD of Armies in the land of Egypt; for they will cry to LORD because of oppressors, and he will send them a savior and a defender, and he will deliver them.",
+      "ct": "These will stand as a sign and a witness to the LORD of Armies in the land of Egypt. When the people cry out to the LORD because of their oppressors, he will send them a savior and defender who will rescue them."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the LORD shall be known to Egypt, and the Egyptians shall know the LORD in that day, and shall do sacrifice and oblation; yea, they shall vow a vow unto the LORD, and perform it.",
+      "web": "LORD will be known to Egypt, and the Egyptians will know LORD in that day. Yes, they will worship with sacrifice and offering, and will vow a vow to LORD, and will perform it.",
+      "ct": "The LORD will make himself known to Egypt, and the Egyptians will know the LORD on that day. They will worship him with sacrifices and offerings, and they will make vows to the LORD and keep them."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the LORD shall smite Egypt: he shall smite and heal it: and they shall return even to the LORD, and he shall be intreated of them, and shall heal them.",
+      "web": "LORD will strike Egypt, striking and healing. They will return to LORD, and he will be entreated by them, and will heal them.",
+      "ct": "The LORD will strike Egypt — he will strike and then heal. The Egyptians will turn back to the LORD, and he will hear their prayers and heal them."
+    },
+    {
+      "verse": 23,
+      "kjv": "In that day shall there be a highway out of Egypt to Assyria, and the Assyrian shall come into Egypt, and the Egyptian into Assyria, and the Egyptians shall serve with the Assyrians.",
+      "web": "In that day there will be a highway out of Egypt to Assyria, and the Assyrian shall come into Egypt, and the Egyptian into Assyria; and the Egyptians will worship with the Assyrians.",
+      "ct": "When that day comes, there will be a highway running from Egypt to Assyria. The Assyrians will travel to Egypt and the Egyptians to Assyria, and together they will worship the LORD."
+    },
+    {
+      "verse": 24,
+      "kjv": "In that day shall Israel be the third with Egypt and with Assyria, even a blessing in the midst of the land:",
+      "web": "In that day, Israel will be the third with Egypt and with Assyria, a blessing within the earth;",
+      "ct": "When that day comes, Israel will stand as a third partner alongside Egypt and Assyria — a blessing to the whole earth."
+    },
+    {
+      "verse": 25,
+      "kjv": "Whom the LORD of hosts shall bless, saying, Blessed be Egypt my people, and Assyria the work of my hands, and Israel mine inheritance.",
+      "web": "because LORD of Armies has blessed them, saying, “Blessed be Egypt my people, Assyria the work of my hands, and Israel my inheritance.”",
+      "ct": "The LORD of Armies will bless them, saying, \"Blessed be Egypt my people, Assyria the work of my hands, and Israel my inheritance.\""
+    }
+  ]
+}

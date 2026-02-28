@@ -1,0 +1,53 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 18,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:42:12.143Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Woe to the land shadowing with wings, which is beyond the rivers of Ethiopia:",
+      "web": "Ah, the land of the rustling of wings, which is beyond the rivers of Ethiopia;",
+      "ct": "Disaster is coming for the land of buzzing wings, the country that lies beyond the rivers of Ethiopia!"
+    },
+    {
+      "verse": 2,
+      "kjv": "That sendeth ambassadors by the sea, even in vessels of bulrushes upon the waters, saying, Go, ye swift messengers, to a nation scattered and peeled, to a people terrible from their beginning hitherto; a nation meted out and trodden down, whose land the rivers have spoiled!",
+      "web": "that sends ambassadors by the sea, even in vessels of papyrus on the waters, saying, “Go, you swift messengers, to a nation tall and smooth, to a people awesome from their beginning onward, a nation that measures out and treads down, whose land the rivers divide!”",
+      "ct": "It sends ambassadors across the sea, gliding over the water in papyrus boats. Go, swift messengers! Travel to a nation tall and smooth-skinned, to a people feared from the very beginning — a powerful nation that conquers and tramples, whose land is divided by rivers!"
+    },
+    {
+      "verse": 3,
+      "kjv": "All ye inhabitants of the world, and dwellers on the earth, see ye, when he lifteth up an ensign on the mountains; and when he bloweth a trumpet, hear ye.",
+      "web": "All you inhabitants of the world, and you dwellers on the earth, when a banner is lifted up on the mountains, look! When the trumpet is blown, listen!",
+      "ct": "Everyone on earth, all who live in this world — when a banner is raised on the mountains, look! When a trumpet sounds, listen!"
+    },
+    {
+      "verse": 4,
+      "kjv": "For so the LORD said unto me, I will take my rest, and I will consider in my dwelling place like a clear heat upon herbs, and like a cloud of dew in the heat of harvest.",
+      "web": "For LORD said to me, “I will be still, and I will see in my dwelling place, like clear heat in sunshine, like a cloud of dew in the heat of harvest.”",
+      "ct": "The LORD told me this: \"I will watch quietly from where I dwell, calm as shimmering heat in the sunshine, still as a cloud of dew during the warmth of harvest.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "For afore the harvest, when the bud is perfect, and the sour grape is ripening in the flower, he shall both cut off the sprigs with pruning hooks, and take away and cut down the branches.",
+      "web": "For before the harvest, when the blossom is over, and the flower becomes a ripening grape, he will cut off the sprigs with pruning hooks, and he will cut down and take away the spreading branches.",
+      "ct": "But before the harvest arrives, when the blossoms have faded and the flowers are becoming ripening grapes, he will cut off the new shoots with pruning hooks and hack away the spreading branches."
+    },
+    {
+      "verse": 6,
+      "kjv": "They shall be left together unto the fowls of the mountains, and to the beasts of the earth: and the fowls shall summer upon them, and all the beasts of the earth shall winter upon them.",
+      "web": "They will be left together for the ravenous birds of the mountains, and for the animals of the earth. The ravenous birds will eat them in the summer, and all the animals of the earth will eat them in the winter.",
+      "ct": "The cut branches will be left for the mountain birds of prey and the wild animals. The birds will feed on them all summer, and the animals will gnaw on them all winter."
+    },
+    {
+      "verse": 7,
+      "kjv": "In that time shall the present be brought unto the LORD of hosts of a people scattered and peeled, and from a people terrible from their beginning hitherto; a nation meted out and trodden under foot, whose land the rivers have spoiled, to the place of the name of the LORD of hosts, the mount Zion.",
+      "web": "In that time, a present will be brought to LORD of Armies from a people tall and smooth, even from a people awesome from their beginning onward, a nation that measures out and treads down, whose land the rivers divide, to the place of the name of LORD of Armies, Mount Zion.",
+      "ct": "When that time comes, gifts will be brought to the LORD of hosts from that tall, smooth-skinned people — a nation feared from the very beginning, powerful and conquering, whose land is divided by rivers. Their gifts will be carried to Mount Zion, the place where the name of the LORD of hosts dwells."
+    }
+  ]
+}

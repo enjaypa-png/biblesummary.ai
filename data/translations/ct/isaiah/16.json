@@ -1,0 +1,95 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 16,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:41:46.328Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Send ye the lamb to the ruler of the land from Sela to the wilderness, unto the mount of the daughter of Zion.",
+      "web": "Send the lambs for the ruler of the land from Selah to the wilderness, to the mountain of the daughter of Zion.",
+      "ct": "Send lambs as tribute to the ruler of the land — from Sela, through the wilderness, to the mountain of the daughter of Zion."
+    },
+    {
+      "verse": 2,
+      "kjv": "For it shall be, that, as a wandering bird cast out of the nest, so the daughters of Moab shall be at the fords of Arnon.",
+      "web": "For it will be that as wandering birds, as a scattered nest, so will the daughters of Moab be at the fords of the Arnon.",
+      "ct": "The women of Moab will be like birds fluttering helplessly, scattered from their nests, as they gather at the fords of the Arnon River."
+    },
+    {
+      "verse": 3,
+      "kjv": "Take counsel, execute judgment; make thy shadow as the night in the midst of the noonday; hide the outcasts; bewray not him that wandereth.",
+      "web": "Give counsel! Execute justice! Make your shade like the night in the middle of the noonday! Hide the outcasts! Don’t betray the fugitive!",
+      "ct": "\"Give us your counsel! Act with justice! Spread your shade over us like nightfall in the blazing noon! Hide the outcasts! Don't betray those who are running for their lives!\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Let mine outcasts dwell with thee, Moab; be thou a covert to them from the face of the spoiler: for the extortioner is at an end, the spoiler ceaseth, the oppressors are consumed out of the land.",
+      "web": "Let my outcasts dwell with you! As for Moab, be a hiding place for him from the face of the destroyer. For the extortionist is brought to nothing. Destruction ceases. The oppressors are consumed out of the land.",
+      "ct": "\"Let my outcasts find shelter with you, Moab. Be a hiding place for them from the destroyer.\" For the oppressor will come to an end, the destruction will stop, and those who trample others will be wiped from the land."
+    },
+    {
+      "verse": 5,
+      "kjv": "And in mercy shall the throne be established: and he shall sit upon it in truth in the tabernacle of David, judging, and seeking judgment, and hasting righteousness.",
+      "web": "A throne will be established in loving kindness. One will sit on it in truth, in the tent of David, judging, seeking justice, and swift to do righteousness.",
+      "ct": "Then a throne will be established through mercy, and on it — in the tent of David — one will sit who rules with truth, who pursues justice and is quick to do what is right."
+    },
+    {
+      "verse": 6,
+      "kjv": "We have heard of the pride of Moab; he is very proud: even of his haughtiness, and his pride, and his wrath: but his lies shall not be so.",
+      "web": "We have heard of the pride of Moab, that he is very proud; even of his arrogance, his pride, and his wrath. His boastings are nothing.",
+      "ct": "We've all heard about Moab's pride — his incredible arrogance, his haughtiness, and his rage. But his boasting amounts to nothing."
+    },
+    {
+      "verse": 7,
+      "kjv": "Therefore shall Moab howl for Moab, every one shall howl: for the foundations of Kirhareseth shall ye mourn; surely they are stricken.",
+      "web": "Therefore Moab will wail for Moab. Everyone will wail. You will mourn for the raisin cakes of Kir Hareseth, utterly stricken.",
+      "ct": "Because of this, Moab will cry out in grief — everyone in the nation will wail. You will mourn over the raisin cakes of Kir Hareseth, for they are utterly destroyed."
+    },
+    {
+      "verse": 8,
+      "kjv": "For the fields of Heshbon languish, and the vine of Sibmah: the lords of the heathen have broken down the principal plants thereof, they are come even unto Jazer, they wandered through the wilderness: her branches are stretched out, they are gone over the sea.",
+      "web": "For the fields of Heshbon languish with the vine of Sibmah. The lords of the nations have broken down its choice branches, which reached even to Jazer, which wandered into the wilderness. Its shoots were spread abroad. They passed over the sea.",
+      "ct": "The fields of Heshbon are withering, and the vineyards of Sibmah are ruined. Foreign rulers have smashed their finest vines — vines that once stretched as far as Jazer, spread into the wilderness, and sent their branches all the way across the sea."
+    },
+    {
+      "verse": 9,
+      "kjv": "Therefore I will bewail with the weeping of Jazer the vine of Sibmah: I will water thee with my tears, O Heshbon, and Elealeh: for the shouting for thy summer fruits and for thy harvest is fallen.",
+      "web": "Therefore I will weep with the weeping of Jazer for the vine of Sibmah. I will water you with my tears, Heshbon, and Elealeh: for on your summer fruits and on your harvest the battle shout has fallen.",
+      "ct": "So I will weep alongside Jazer for the vineyards of Sibmah. I will drench you with my tears, Heshbon and Elealeh, because the shouts of battle have replaced the joyful cries of your harvest."
+    },
+    {
+      "verse": 10,
+      "kjv": "And gladness is taken away, and joy out of the plentiful field; and in the vineyards there shall be no singing, neither shall there be shouting: the treaders shall tread out no wine in their presses; I have made their vintage shouting to cease.",
+      "web": "Gladness is taken away, and joy out of the fruitful field; and in the vineyards there will be no singing, neither joyful noise. Nobody will tread out wine in the presses. I have made the shouting stop.",
+      "ct": "All gladness and joy have been stripped from the fertile fields. No one sings in the vineyards anymore, and no one shouts for joy. No one treads out wine in the presses. I have silenced every harvest celebration."
+    },
+    {
+      "verse": 11,
+      "kjv": "Wherefore my bowels shall sound like an harp for Moab, and mine inward parts for Kirharesh.",
+      "web": "Therefore my heart sounds like a harp for Moab, and my inward parts for Kir Heres.",
+      "ct": "My heart groans like a harp for Moab; deep inside, I ache for Kir Heres."
+    },
+    {
+      "verse": 12,
+      "kjv": "And it shall come to pass, when it is seen that Moab is weary on the high place, that he shall come to his sanctuary to pray; but he shall not prevail.",
+      "web": "It will happen that when Moab presents himself, when he wearies himself on the high place, and comes to his sanctuary to pray, that he will not prevail.",
+      "ct": "When Moab wears himself out praying at his high places and goes to his sanctuary to plead with his gods, it will do him no good."
+    },
+    {
+      "verse": 13,
+      "kjv": "This is the word that the LORD hath spoken concerning Moab since that time.",
+      "web": "This is the word that LORD spoke concerning Moab in time past.",
+      "ct": "This is the message the LORD spoke about Moab long ago."
+    },
+    {
+      "verse": 14,
+      "kjv": "But now the LORD hath spoken, saying, Within three years, as the years of an hireling, and the glory of Moab shall be contemned, with all that great multitude; and the remnant shall be very small and feeble.",
+      "web": "But now LORD has spoken, saying, “Within three years, as a worker bound by contract would count them, the glory of Moab shall be brought into contempt, with all his great multitude; and the remnant will be very small and feeble.”",
+      "ct": "But now the LORD has spoken again, saying: \"Within 3 years — counted precisely, the way a hired worker counts the days of a contract — Moab's glory will be turned to shame, along with all its vast population. The survivors will be few and weak.\""
+    }
+  ]
+}

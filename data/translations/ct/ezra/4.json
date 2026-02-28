@@ -1,0 +1,155 @@
+{
+  "book": "ezra",
+  "book_name": "Ezra",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:25:10.506Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now when the adversaries of Judah and Benjamin heard that the children of the captivity builded the temple unto the LORD God of Israel;",
+      "web": "Now when the adversaries of Judah and Benjamin heard that the children of the captivity were building a temple to LORD, the God of Israel;",
+      "ct": "When the enemies of Judah and Benjamin heard that the returned exiles were building a temple to the LORD, the God of Israel,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Then they came to Zerubbabel, and to the chief of the fathers, and said unto them, Let us build with you: for we seek your God, as ye do; and we do sacrifice unto him since the days of Esarhaddon king of Assur, which brought us up hither.",
+      "web": "they came near to Zerubbabel, and to the heads of fathers’ households, and said to them, “Let us build with you; for we seek your God, as you do; and we have been sacrificing to him since the days of Esar Haddon king of Assyria, who brought us up here.”",
+      "ct": "they approached Zerubbabel and the heads of the families and said, \"Let us help you build! We worship your God just as you do. We've been offering sacrifices to him ever since King Esarhaddon of Assyria brought us here.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "But Zerubbabel, and Jeshua, and the rest of the chief of the fathers of Israel, said unto them, Ye have nothing to do with us to build an house unto our God; but we ourselves together will build unto the LORD God of Israel, as king Cyrus the king of Persia hath commanded us.",
+      "web": "But Zerubbabel, and Jeshua, and the rest of the heads of fathers’ households of Israel, said to them, “You have nothing to do with us in building a house to our God; but we ourselves together will build to LORD, the God of Israel, as king Cyrus the king of Persia has commanded us.”",
+      "ct": "But Zerubbabel, Jeshua, and the other family leaders of Israel told them, \"You have no part in what we're doing. We will build the temple to the LORD, the God of Israel, by ourselves, just as King Cyrus of Persia commanded us.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then the people of the land weakened the hands of the people of Judah, and troubled them in building,",
+      "web": "Then the people of the land weakened the hands of the people of Judah, and troubled them in building.",
+      "ct": "After that, the local people did everything they could to discourage and intimidate the people of Judah and keep them from building."
+    },
+    {
+      "verse": 5,
+      "kjv": "And hired counsellors against them, to frustrate their purpose, all the days of Cyrus king of Persia, even until the reign of Darius king of Persia.",
+      "web": "They hired counselors against them, to frustrate their purpose, all the days of Cyrus king of Persia, even until the reign of Darius king of Persia.",
+      "ct": "They even hired advisors to work against them and undermine their plans. This opposition continued throughout the reign of King Cyrus of Persia and lasted all the way until King Darius of Persia took the throne."
+    },
+    {
+      "verse": 6,
+      "kjv": "And in the reign of Ahasuerus, in the beginning of his reign, wrote they unto him an accusation against the inhabitants of Judah and Jerusalem.",
+      "web": "In the reign of Ahasuerus, in the beginning of his reign, they wrote an accusation against the inhabitants of Judah and Jerusalem.",
+      "ct": "Later, at the beginning of King Ahasuerus's reign, they filed a formal written accusation against the people living in Judah and Jerusalem."
+    },
+    {
+      "verse": 7,
+      "kjv": "And in the days of Artaxerxes wrote Bishlam, Mithredath, Tabeel, and the rest of their companions, unto Artaxerxes king of Persia; and the writing of the letter was written in the Syrian tongue, and interpreted in the Syrian tongue.",
+      "web": "In the days of Artaxerxes, Bishlam, Mithredath, Tabeel, and the rest of his companions, wrote to Artaxerxes king of Persia; and the writing of the letter was written in Syrian, and delivered in the Syrian language.",
+      "ct": "Then during the reign of Artaxerxes, Bishlam, Mithredath, Tabeel, and their associates wrote a letter to King Artaxerxes of Persia. The letter was written in Aramaic and translated into Aramaic."
+    },
+    {
+      "verse": 8,
+      "kjv": "Rehum the chancellor and Shimshai the scribe wrote a letter against Jerusalem to Artaxerxes the king in this sort:",
+      "web": "Rehum the chancellor and Shimshai the scribe wrote a letter against Jerusalem to Artaxerxes the king as follows,",
+      "ct": "Rehum the commanding officer and Shimshai the secretary also composed a letter against Jerusalem and sent it to King Artaxerxes. It read as follows:"
+    },
+    {
+      "verse": 9,
+      "kjv": "Then wrote Rehum the chancellor, and Shimshai the scribe, and the rest of their companions; the Dinaites, the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Susanchites, the Dehavites, and the Elamites,",
+      "web": "then Rehum the chancellor, Shimshai the scribe, and the rest of their companions, the Dinaites, and the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Shushanchites, the Dehaites, the Elamites,",
+      "ct": "From Rehum the commanding officer, Shimshai the secretary, and their associates — the Dinaites, the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Susanchites, the Dehavites, the Elamites,"
+    },
+    {
+      "verse": 10,
+      "kjv": "And the rest of the nations whom the great and noble Asnapper brought over, and set in the cities of Samaria, and the rest that are on this side the river, and at such a time.",
+      "web": "and the rest of the nations whom the great and noble Osnappar brought over, and set in the city of Samaria, and in the rest of the country beyond the River, and so forth, wrote.",
+      "ct": "and all the other peoples whom the great and noble Asnapper had deported and resettled in the cities of Samaria and throughout the rest of the province west of the Euphrates River."
+    },
+    {
+      "verse": 11,
+      "kjv": "This is the copy of the letter that they sent unto him, even unto Artaxerxes the king; Thy servants the men on this side the river, and at such a time.",
+      "web": "This is the copy of the letter that they sent: To King Artaxerxes, From your servants the men beyond the River.",
+      "ct": "This is a copy of the letter they sent: \"To King Artaxerxes, from your servants living in the province west of the Euphrates River."
+    },
+    {
+      "verse": 12,
+      "kjv": "Be it known unto the king, that the Jews which came up from thee to us are come unto Jerusalem, building the rebellious and the bad city, and have set up the walls thereof, and joined the foundations.",
+      "web": "Be it known to the king that the Jews who came up from you have come to us to Jerusalem. They are building the rebellious and bad city, and have finished the walls, and repaired the foundations.",
+      "ct": "Your Majesty should know that the Jews who came from you to us have arrived in Jerusalem. They are rebuilding that rebellious and wicked city — they are repairing the walls and restoring the foundations."
+    },
+    {
+      "verse": 13,
+      "kjv": "Be it known now unto the king, that, if this city be builded, and the walls set up again, then will they not pay toll, tribute, and custom, and so thou shalt endamage the revenue of the kings.",
+      "web": "Be it known now to the king that if this city is built and the walls finished, they will not pay tribute, custom, or toll, and in the end it will be hurtful to the kings.",
+      "ct": "Your Majesty should also know that if this city is rebuilt and its walls are completed, the people will refuse to pay any taxes, tribute, or tolls. This will directly cut into the royal treasury."
+    },
+    {
+      "verse": 14,
+      "kjv": "Now because we have maintenance from the king’s palace, and it was not meet for us to see the king’s dishonour, therefore have we sent and certified the king;",
+      "web": "Now because we eat the salt of the palace, and it is not appropriate for us to see the king’s dishonor, therefore we have sent and informed the king,",
+      "ct": "Since we are loyal to the king and receive our support from the palace, we couldn't stand by and watch the king be dishonored. That's why we're sending this report."
+    },
+    {
+      "verse": 15,
+      "kjv": "That search may be made in the book of the records of thy fathers: so shalt thou find in the book of the records, and know that this city is a rebellious city, and hurtful unto kings and provinces, and that they have moved sedition within the same of old time: for which cause was this city destroyed.",
+      "web": "that search may be made in the book of the records of your fathers. You will see in the book of the records, and know that this city is a rebellious city, and hurtful to kings and provinces, and that they have started rebellions within it in the past. That is why this city was destroyed.",
+      "ct": "We urge you to search the historical records of your predecessors. You'll find in those records that this city has a long history of rebellion — a city that has been nothing but trouble for kings and provinces. Its people have stirred up revolts since ancient times. That's exactly why this city was destroyed in the first place."
+    },
+    {
+      "verse": 16,
+      "kjv": "We certify the king that, if this city be builded again, and the walls thereof set up, by this means thou shalt have no portion on this side the river.",
+      "web": "We inform the king that, if this city is built and the walls finished, then you will have no possession beyond the River.",
+      "ct": "We want the king to understand: if this city is rebuilt and its walls are completed, you will lose control of the entire province west of the Euphrates River.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Then sent the king an answer unto Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions that dwell in Samaria, and unto the rest beyond the river, Peace, and at such a time.",
+      "web": "Then the king sent an answer to Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions who live in Samaria, and in the rest of the country beyond the River: Peace.",
+      "ct": "The king sent this reply to Rehum the commanding officer, Shimshai the secretary, and their associates living in Samaria and the rest of the province west of the Euphrates River: \"Greetings."
+    },
+    {
+      "verse": 18,
+      "kjv": "The letter which ye sent unto us hath been plainly read before me.",
+      "web": "The letter which you sent to us has been plainly read before me.",
+      "ct": "The letter you sent has been read aloud and translated for me."
+    },
+    {
+      "verse": 19,
+      "kjv": "And I commanded, and search hath been made, and it is found that this city of old time hath made insurrection against kings, and that rebellion and sedition have been made therein.",
+      "web": "I decreed, and search has been made, and it was found that this city has made insurrection against kings in the past, and that rebellion and revolts have been made in it.",
+      "ct": "I ordered an investigation, and sure enough, the records confirm that this city has a long history of rising up against kings. Rebellion and revolt have been common there."
+    },
+    {
+      "verse": 20,
+      "kjv": "There have been mighty kings also over Jerusalem, which have ruled over all countries beyond the river; and toll, tribute, and custom, was paid unto them.",
+      "web": "There have also been mighty kings over Jerusalem, who have ruled over all the country beyond the River; and tribute, custom, and toll, was paid to them.",
+      "ct": "Powerful kings once ruled from Jerusalem and controlled the entire region west of the Euphrates, collecting taxes, tribute, and tolls from everyone."
+    },
+    {
+      "verse": 21,
+      "kjv": "Give ye now commandment to cause these men to cease, and that this city be not builded, until another commandment shall be given from me.",
+      "web": "Make a decree now to cause these men to cease, and that this city not be built, until a decree is made by me.",
+      "ct": "Therefore, issue an order immediately to make these men stop. This city must not be rebuilt until I personally authorize it."
+    },
+    {
+      "verse": 22,
+      "kjv": "Take heed now that ye fail not to do this: why should damage grow to the hurt of the kings?",
+      "web": "Be careful that you not be slack doing so. Why should damage grow to the hurt of the kings?",
+      "ct": "See to it that you don't neglect this matter. Why let the situation get worse and cause further harm to the royal interests?\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Now when the copy of king Artaxerxes’ letter was read before Rehum, and Shimshai the scribe, and their companions, they went up in haste to Jerusalem unto the Jews, and made them to cease by force and power.",
+      "web": "Then when the copy of king Artaxerxes’ letter was read before Rehum, Shimshai the scribe, and their companions, they went in haste to Jerusalem to the Jews, and made them to cease by force of arms.",
+      "ct": "As soon as King Artaxerxes' letter was read to Rehum, Shimshai the secretary, and their associates, they rushed to Jerusalem and forced the Jews to stop building, backing up their demands with armed troops."
+    },
+    {
+      "verse": 24,
+      "kjv": "Then ceased the work of the house of God which is at Jerusalem. So it ceased unto the second year of the reign of Darius king of Persia.",
+      "web": "Then work stopped on God’s house which is at Jerusalem. It stopped until the second year of the reign of Darius king of Persia.",
+      "ct": "That's when all work on God's temple in Jerusalem came to a halt. It stayed shut down until the 2nd year of the reign of King Darius of Persia."
+    }
+  ]
+}

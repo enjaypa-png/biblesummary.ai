@@ -1,0 +1,137 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 9,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:39:42.457Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Nevertheless the dimness shall not be such as was in her vexation, when at the first he lightly afflicted the land of Zebulun and the land of Naphtali, and afterward did more grievously afflict her by the way of the sea, beyond Jordan, in Galilee of the nations.",
+      "web": "But there shall be no more gloom for her who was in anguish. In the former time, he brought into contempt the land of Zebulun and the land of Naphtali; but in the latter time he has made it glorious, by the way of the sea, beyond the Jordan, Galilee of the nations.",
+      "ct": "But the gloom won't last for those who suffered. In the past, God humiliated the land of Zebulun and the land of Naphtali, but in the days to come he will bring honor to the region along the road to the sea, beyond the Jordan — Galilee of the nations."
+    },
+    {
+      "verse": 2,
+      "kjv": "The people that walked in darkness have seen a great light: they that dwell in the land of the shadow of death, upon them hath the light shined.",
+      "web": "The people who walked in darkness have seen a great light. The light has shined on those who lived in the land of the shadow of death.",
+      "ct": "The people who walked in darkness have seen a great light. For those living in the land of the shadow of death, a light has broken through and shined on them."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thou hast multiplied the nation, and not increased the joy: they joy before thee according to the joy in harvest, and as men rejoice when they divide the spoil.",
+      "web": "You have multiplied the nation. You have increased their joy. They rejoice before you according to the joy in harvest, as men rejoice when they divide the plunder.",
+      "ct": "You have made the nation grow and filled it with joy. They celebrate before you the way people celebrate at harvest time, like soldiers cheering as they divide the plunder."
+    },
+    {
+      "verse": 4,
+      "kjv": "For thou hast broken the yoke of his burden, and the staff of his shoulder, the rod of his oppressor, as in the day of Midian.",
+      "web": "For the yoke of his burden, and the staff of his shoulder, the rod of his oppressor, you have broken as in the day of Midian.",
+      "ct": "Because you have shattered the yoke that burdened them, the bar across their shoulders, and the rod of their oppressor — just as you did on the day you defeated Midian."
+    },
+    {
+      "verse": 5,
+      "kjv": "For every battle of the warrior is with confused noise, and garments rolled in blood; but this shall be with burning and fuel of fire.",
+      "web": "For all the armor of the armed man in the noisy battle, and the garments rolled in blood, will be for burning, fuel for the fire.",
+      "ct": "Every boot that thundered on the battlefield and every uniform soaked in blood will be thrown into the fire and burned up."
+    },
+    {
+      "verse": 6,
+      "kjv": "For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.",
+      "web": "For a child is born to us. A son is given to us; and the government will be on his shoulders. His name will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.",
+      "ct": "For a child is born to us, a son is given to us, and the authority to rule will rest on his shoulders. He will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace."
+    },
+    {
+      "verse": 7,
+      "kjv": "Of the increase of his government and peace there shall be no end, upon the throne of David, and upon his kingdom, to order it, and to establish it with judgment and with justice from henceforth even for ever. The zeal of the LORD of hosts will perform this.",
+      "web": "Of the increase of his government and of peace there shall be no end, on David’s throne, and on his kingdom, to establish it, and to uphold it with justice and with righteousness from that time on, even forever. The zeal of LORD of Armies will perform this.",
+      "ct": "His government and his peace will expand without end. He will reign on David's throne and over his kingdom, establishing and sustaining it with justice and righteousness from that day forward and forever. The passionate commitment of the LORD of hosts will make this happen."
+    },
+    {
+      "verse": 8,
+      "kjv": "The Lord sent a word into Jacob, and it hath lighted upon Israel.",
+      "web": "The Lord sent a word into Jacob, and it falls on Israel.",
+      "ct": "The Lord sent a message against Jacob, and it landed squarely on Israel."
+    },
+    {
+      "verse": 9,
+      "kjv": "And all the people shall know, even Ephraim and the inhabitant of Samaria, that say in the pride and stoutness of heart,",
+      "web": "All the people will know, including Ephraim and the inhabitants of Samaria, who say in pride and in arrogance of heart,",
+      "ct": "All the people will feel it — including Ephraim and the people of Samaria — who say with pride and arrogance,"
+    },
+    {
+      "verse": 10,
+      "kjv": "The bricks are fallen down, but we will build with hewn stones: the sycomores are cut down, but we will change them into cedars.",
+      "web": "“The bricks have fallen, but we will build with cut stone. The sycamore fig trees have been cut down, but we will put cedars in their place.”",
+      "ct": "\"The bricks have fallen, but we'll rebuild with cut stone. The sycamore trees have been chopped down, but we'll replace them with cedars.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Therefore the LORD shall set up the adversaries of Rezin against him, and join his enemies together;",
+      "web": "Therefore LORD will set up on high against him the adversaries of Rezin, and will stir up his enemies,",
+      "ct": "So the LORD will raise up Rezin's enemies against Israel and stir up all its foes at once —"
+    },
+    {
+      "verse": 12,
+      "kjv": "The Syrians before, and the Philistines behind; and they shall devour Israel with open mouth. For all this his anger is not turned away, but his hand is stretched out still.",
+      "web": "The Syrians in front, and the Philistines behind; and they will devour Israel with open mouth. For all this, his anger is not turned away, but his hand is stretched out still. ",
+      "ct": "the Syrians attacking from the east and the Philistines from the west — and they will devour Israel with open mouths. Even after all this, his anger is not turned away, and his hand is still stretched out to strike."
+    },
+    {
+      "verse": 13,
+      "kjv": "For the people turneth not unto him that smiteth them, neither do they seek the LORD of hosts.",
+      "web": "Yet the people have not turned to him who struck them, neither have they sought LORD of Armies.",
+      "ct": "Yet the people have not turned back to the one who struck them, and they have not sought the LORD of hosts."
+    },
+    {
+      "verse": 14,
+      "kjv": "Therefore the LORD will cut off from Israel head and tail, branch and rush, in one day.",
+      "web": "Therefore LORD will cut off from Israel head and tail, palm branch and reed, in one day.",
+      "ct": "So the LORD will cut off from Israel both head and tail, both palm branch and reed, in a single day."
+    },
+    {
+      "verse": 15,
+      "kjv": "The ancient and honourable, he is the head; and the prophet that teacheth lies, he is the tail.",
+      "web": "The elder and the honorable man is the head, and the prophet who teaches lies is the tail.",
+      "ct": "The elders and prominent leaders are the head, and the prophets who teach lies are the tail."
+    },
+    {
+      "verse": 16,
+      "kjv": "For the leaders of this people cause them to err; and they that are led of them are destroyed.",
+      "web": "For those who lead this people lead them astray; and those who are led by them are destroyed.",
+      "ct": "Those who guide this people lead them down the wrong path, and those who follow them are destroyed."
+    },
+    {
+      "verse": 17,
+      "kjv": "Therefore the LORD shall have no joy in their young men, neither shall have mercy on their fatherless and widows: for every one is an hypocrite and an evildoer, and every mouth speaketh folly. For all this his anger is not turned away, but his hand is stretched out still.",
+      "web": "Therefore the Lord will not rejoice over their young men, neither will he have compassion on their fatherless and widows; for everyone is profane and an evildoer, and every mouth speaks folly. For all this his anger is not turned away, but his hand is stretched out still. ",
+      "ct": "That is why the Lord takes no pleasure in their young men and shows no mercy to their orphans and widows — because every one of them is godless and wicked, and every mouth speaks foolishness. Even after all this, his anger is not turned away, and his hand is still stretched out to strike."
+    },
+    {
+      "verse": 18,
+      "kjv": "For wickedness burneth as the fire: it shall devour the briers and thorns, and shall kindle in the thickets of the forest, and they shall mount up like the lifting up of smoke.",
+      "web": "For wickedness burns like a fire. It devours the briers and thorns; yes, it kindles in the thickets of the forest, and they roll upward in a column of smoke.",
+      "ct": "Wickedness burns like a fire — it devours the briers and thorns, then ignites the dense forest, and the flames spiral upward in towering columns of smoke."
+    },
+    {
+      "verse": 19,
+      "kjv": "Through the wrath of the LORD of hosts is the land darkened, and the people shall be as the fuel of the fire: no man shall spare his brother.",
+      "web": "Through LORD of Armies’ wrath, the land is burned up; and the people are the fuel for the fire. No one spares his brother.",
+      "ct": "Under the wrath of the LORD of hosts the land is scorched, and the people themselves become fuel for the fire. No one shows mercy to his own brother."
+    },
+    {
+      "verse": 20,
+      "kjv": "And he shall snatch on the right hand, and be hungry; and he shall eat on the left hand, and they shall not be satisfied: they shall eat every man the flesh of his own arm:",
+      "web": "One will devour on the right hand, and be hungry; and he will eat on the left hand, and they will not be satisfied. Everyone will eat the flesh of his own arm:",
+      "ct": "They grab food on the right and are still hungry; they devour what's on the left and are never satisfied. People even consume the flesh of their own families —"
+    },
+    {
+      "verse": 21,
+      "kjv": "Manasseh, Ephraim; and Ephraim, Manasseh: and they together shall be against Judah. For all this his anger is not turned away, but his hand is stretched out still.",
+      "web": "Manasseh, Ephraim; and Ephraim, Manasseh; and they together shall be against Judah. For all this his anger is not turned away, but his hand is stretched out still.",
+      "ct": "Manasseh turns against Ephraim, and Ephraim against Manasseh, and together they attack Judah. Even after all this, his anger is not turned away, and his hand is still stretched out to strike."
+    }
+  ]
+}

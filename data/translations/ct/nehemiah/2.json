@@ -1,0 +1,131 @@
+{
+  "book": "nehemiah",
+  "book_name": "Nehemiah",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:28:03.178Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass in the month Nisan, in the twentieth year of Artaxerxes the king, that wine was before him: and I took up the wine, and gave it unto the king. Now I had not been beforetime sad in his presence.",
+      "web": "In the month Nisan, in the twentieth year of Artaxerxes the king, when wine was before him, I picked up the wine, and gave it to the king. Now I had not been sad before in his presence.",
+      "ct": "In the month of Nisan, during the 20th year of King Artaxerxes' reign, I was serving wine to the king as usual. I picked up the wine and handed it to him. I had never looked sad in his presence before."
+    },
+    {
+      "verse": 2,
+      "kjv": "Wherefore the king said unto me, Why is thy countenance sad, seeing thou art not sick? this is nothing else but sorrow of heart. Then I was very sore afraid,",
+      "web": "The king said to me, “Why is your face sad, since you are not sick? This is nothing else but sorrow of heart.” Then I was very much afraid.",
+      "ct": "The king asked me, \"Why do you look so sad? You're not sick, so this must be something weighing on your heart.\" When he said that, I became very afraid."
+    },
+    {
+      "verse": 3,
+      "kjv": "And said unto the king, Let the king live for ever: why should not my countenance be sad, when the city, the place of my fathers’ sepulchres, lieth waste, and the gates thereof are consumed with fire?",
+      "web": "I said to the king, “Let the king live forever! Why shouldn’t my face be sad, when the city, the place of my fathers’ tombs, lies waste, and its gates have been consumed with fire?”",
+      "ct": "I answered, \"Long live the king! How could I not look sad? The city where my ancestors are buried lies in ruins, and its gates have been destroyed by fire.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then the king said unto me, For what dost thou make request? So I prayed to the God of heaven.",
+      "web": "Then the king said to me, “What is your request?” So I prayed to the God of heaven.",
+      "ct": "The king asked, \"What are you asking for?\" So right there, I silently prayed to the God of heaven."
+    },
+    {
+      "verse": 5,
+      "kjv": "And I said unto the king, If it please the king, and if thy servant have found favour in thy sight, that thou wouldest send me unto Judah, unto the city of my fathers’ sepulchres, that I may build it.",
+      "web": "I said to the king, “If it pleases the king, and if your servant has found favor in your sight, that you would send me to Judah, to the city of my fathers’ tombs, that I may build it.”",
+      "ct": "Then I said, \"If it pleases the king, and if I have found favor with you, please send me to Judah — to the city where my ancestors are buried — so I can rebuild it.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And the king said unto me, (the queen also sitting by him,) For how long shall thy journey be? and when wilt thou return? So it pleased the king to send me; and I set him a time.",
+      "web": "The king said to me (the queen was also sitting by him), “How long will your journey be? When will you return?” So it pleased the king to send me, and I set a time for him.",
+      "ct": "The king, with the queen sitting beside him, asked, \"How long will you be gone? When will you return?\" He was willing to send me, so I gave him a specific timeframe."
+    },
+    {
+      "verse": 7,
+      "kjv": "Moreover I said unto the king, If it please the king, let letters be given me to the governors beyond the river, that they may convey me over till I come into Judah;",
+      "web": "Moreover I said to the king, “If it pleases the king, let letters be given me to the governors beyond the River, that they may let me pass through until I come to Judah;",
+      "ct": "I also asked, \"If it pleases the king, give me letters for the governors of the province beyond the River, so they'll grant me safe passage on my way to Judah."
+    },
+    {
+      "verse": 8,
+      "kjv": "And a letter unto Asaph the keeper of the king’s forest, that he may give me timber to make beams for the gates of the palace which appertained to the house, and for the wall of the city, and for the house that I shall enter into. And the king granted me, according to the good hand of my God upon me.",
+      "web": "and a letter to Asaph the keeper of the king’s forest, that he may give me timber to make beams for the gates of the citadel by the temple, for the wall of the city, and for the house that I will occupy.” The king granted my requests, because of the good hand of my God on me.",
+      "ct": "Also, a letter to Asaph, the keeper of the royal forest, so he'll provide me timber for beams — for the gates of the citadel near the temple, for the city wall, and for the house I'll live in.\" The king granted everything I asked, because the good hand of my God was on me."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then I came to the governors beyond the river, and gave them the king’s letters. Now the king had sent captains of the army and horsemen with me.",
+      "web": "Then I came to the governors beyond the River, and gave them the king’s letters. Now the king had sent captains of the army and horsemen with me.",
+      "ct": "When I arrived in the province beyond the River, I presented the king's letters to the governors there. The king had also sent army officers and cavalry to escort me."
+    },
+    {
+      "verse": 10,
+      "kjv": "When Sanballat the Horonite, and Tobiah the servant, the Ammonite, heard of it, it grieved them exceedingly that there was come a man to seek the welfare of the children of Israel.",
+      "web": "When Sanballat the Horonite, and Tobiah the servant, the Ammonite, heard of it, it grieved them exceedingly, because a man had come to seek the welfare of the children of Israel.",
+      "ct": "When Sanballat the Horonite and Tobiah the Ammonite official heard about this, they were furious that someone had come to work for the good of the people of Israel."
+    },
+    {
+      "verse": 11,
+      "kjv": "So I came to Jerusalem, and was there three days.",
+      "web": "So I came to Jerusalem, and was there three days.",
+      "ct": "I arrived in Jerusalem and stayed there for 3 days."
+    },
+    {
+      "verse": 12,
+      "kjv": "And I arose in the night, I and some few men with me; neither told I any man what my God had put in my heart to do at Jerusalem: neither was there any beast with me, save the beast that I rode upon.",
+      "web": "I arose in the night, I and a few men with me. I didn’t tell anyone what my God put into my heart to do for Jerusalem. There wasn’t any animal with me, except the animal that I rode on.",
+      "ct": "Then I got up during the night and took a few men with me. I didn't tell anyone what my God had put in my heart to do for Jerusalem. The only animal with us was the one I was riding."
+    },
+    {
+      "verse": 13,
+      "kjv": "And I went out by night by the gate of the valley, even before the dragon well, and to the dung port, and viewed the walls of Jerusalem, which were broken down, and the gates thereof were consumed with fire.",
+      "web": "I went out by night by the valley gate, even toward the jackal’s well, then to the dung gate, and inspected the walls of Jerusalem, which were broken down, and its gates were consumed with fire.",
+      "ct": "I rode out at night through the Valley Gate, past the Jackal's Well, and on to the Dung Gate, inspecting the walls of Jerusalem as I went. They were broken down everywhere, and the gates had been destroyed by fire."
+    },
+    {
+      "verse": 14,
+      "kjv": "Then I went on to the gate of the fountain, and to the king’s pool: but there was no place for the beast that was under me to pass.",
+      "web": "Then I went on to the spring gate and to the king’s pool, but there was no place for the animal that was under me to pass.",
+      "ct": "I continued on to the Fountain Gate and the King's Pool, but the rubble was so thick that my animal couldn't get through."
+    },
+    {
+      "verse": 15,
+      "kjv": "Then went I up in the night by the brook, and viewed the wall, and turned back, and entered by the gate of the valley, and so returned.",
+      "web": "Then I went up in the night by the brook, and inspected the wall; and I turned back, and entered by the valley gate, and so returned.",
+      "ct": "So I went up along the Kidron Valley in the darkness, examining the wall as I went. Then I turned back and re-entered the city through the Valley Gate."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the rulers knew not whither I went, or what I did; neither had I as yet told it to the Jews, nor to the priests, nor to the nobles, nor to the rulers, nor to the rest that did the work.",
+      "web": "The rulers didn’t know where I went, or what I did. I had not as yet told it to the Jews, nor to the priests, nor to the nobles, nor to the rulers, nor to the rest who did the work.",
+      "ct": "None of the officials knew where I had gone or what I had been doing. Up to that point, I hadn't told anyone my plans — not the Jewish leaders, the priests, the nobles, the officials, or any of the workers."
+    },
+    {
+      "verse": 17,
+      "kjv": "Then said I unto them, Ye see the distress that we are in, how Jerusalem lieth waste, and the gates thereof are burned with fire: come, and let us build up the wall of Jerusalem, that we be no more a reproach.",
+      "web": "Then I said to them, “You see the bad situation that we are in, how Jerusalem lies waste, and its gates are burned with fire. Come, let’s build up the wall of Jerusalem, that we won’t be disgraced.”",
+      "ct": "Then I said to them, \"You can see the terrible shape we're in. Jerusalem is in ruins, and its gates have been burned down. Come on — let's rebuild the wall of Jerusalem so we're no longer living in disgrace.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then I told them of the hand of my God which was good upon me; as also the king’s words that he had spoken unto me. And they said, Let us rise up and build. So they strengthened their hands for this good work.",
+      "web": "I told them of the hand of my God which was good on me, as also of the king’s words that he had spoken to me. They said, “Let’s rise up and build.” So they strengthened their hands for the good work.",
+      "ct": "I told them how the good hand of my God had been on me, and I shared what the king had said to me. They responded, \"Let's get up and start building!\" And they committed themselves wholeheartedly to the work."
+    },
+    {
+      "verse": 19,
+      "kjv": "But when Sanballat the Horonite, and Tobiah the servant, the Ammonite, and Geshem the Arabian, heard it, they laughed us to scorn, and despised us, and said, What is this thing that ye do? will ye rebel against the king?",
+      "web": "But when Sanballat the Horonite, Tobiah the Ammonite servant, and Geshem the Arabian, heard it, they ridiculed us, and despised us, and said, “What is this thing that you are doing? Will you rebel against the king?”",
+      "ct": "But when Sanballat the Horonite, Tobiah the Ammonite official, and Geshem the Arab heard about it, they mocked and ridiculed us. \"What do you think you're doing?\" they said. \"Are you rebelling against the king?\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Then answered I them, and said unto them, The God of heaven, he will prosper us; therefore we his servants will arise and build: but ye have no portion, nor right, nor memorial, in Jerusalem.",
+      "web": "Then I answered them, and said to them, “The God of heaven will prosper us. Therefore we, his servants, will arise and build; but you have no portion, nor right, nor memorial, in Jerusalem.”",
+      "ct": "I answered them directly: \"The God of heaven will give us success. We are his servants, and we will get up and build. But you? You have no share in Jerusalem, no claim to it, and no history here.\""
+    }
+  ]
+}

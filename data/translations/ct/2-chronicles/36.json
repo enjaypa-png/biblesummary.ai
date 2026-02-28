@@ -1,0 +1,149 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 36,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:23:47.851Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then the people of the land took Jehoahaz the son of Josiah, and made him king in his father’s stead in Jerusalem.",
+      "web": "Then the people of the land took Jehoahaz the son of Josiah, and made him king in his father’s place in Jerusalem.",
+      "ct": "The people of the land chose Jehoahaz son of Josiah and made him king in Jerusalem to succeed his father."
+    },
+    {
+      "verse": 2,
+      "kjv": "Jehoahaz was twenty and three years old when he began to reign, and he reigned three months in Jerusalem.",
+      "web": "Joahaz was twenty-three years old when he began to reign; and he reigned three months in Jerusalem.",
+      "ct": "Jehoahaz was 23 years old when he became king, and he ruled in Jerusalem for just 3 months."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the king of Egypt put him down at Jerusalem, and condemned the land in an hundred talents of silver and a talent of gold.",
+      "web": "The king of Egypt removed him from office at Jerusalem, and fined the land one hundred talents of silver and a talent of gold.",
+      "ct": "The king of Egypt removed him from power in Jerusalem and imposed a fine on the land of 100 talents of silver and a talent of gold."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the king of Egypt made Eliakim his brother king over Judah and Jerusalem, and turned his name to Jehoiakim. And Necho took Jehoahaz his brother, and carried him to Egypt.",
+      "web": "The king of Egypt made Eliakim his brother king over Judah and Jerusalem, and changed his name to Jehoiakim. Neco took Joahaz his brother, and carried him to Egypt.",
+      "ct": "Then the king of Egypt placed Jehoahaz's brother Eliakim on the throne of Judah and Jerusalem, changing his name to Jehoiakim. Necho took Jehoahaz away to Egypt."
+    },
+    {
+      "verse": 5,
+      "kjv": "Jehoiakim was twenty and five years old when he began to reign, and he reigned eleven years in Jerusalem: and he did that which was evil in the sight of the LORD his God.",
+      "web": "Jehoiakim was twenty-five years old when he began to reign, and he reigned eleven years in Jerusalem. He did that which was evil in LORD his God’s sight.",
+      "ct": "Jehoiakim was 25 years old when he became king, and he ruled in Jerusalem for 11 years. The LORD his God saw that he was evil."
+    },
+    {
+      "verse": 6,
+      "kjv": "Against him came up Nebuchadnezzar king of Babylon, and bound him in fetters, to carry him to Babylon.",
+      "web": "Nebuchadnezzar king of Babylon came up against him, and bound him in fetters to carry him to Babylon.",
+      "ct": "King Nebuchadnezzar of Babylon attacked him, bound him in bronze chains, and took him away to Babylon."
+    },
+    {
+      "verse": 7,
+      "kjv": "Nebuchadnezzar also carried of the vessels of the house of the LORD to Babylon, and put them in his temple at Babylon.",
+      "web": "Nebuchadnezzar also carried some of the vessels of LORD’s house to Babylon, and put them in his temple at Babylon.",
+      "ct": "Nebuchadnezzar also carried off some of the vessels from the house of the LORD and placed them in his own temple in Babylon."
+    },
+    {
+      "verse": 8,
+      "kjv": "Now the rest of the acts of Jehoiakim, and his abominations which he did, and that which was found in him, behold, they are written in the book of the kings of Israel and Judah: and Jehoiachin his son reigned in his stead.",
+      "web": "Now the rest of the acts of Jehoiakim, and his abominations which he did, and that which was found in him, behold, they are written in the book of the kings of Israel and Judah; and Jehoiachin his son reigned in his place.",
+      "ct": "Everything else about Jehoiakim's reign — including the disgusting things he did and the charges found against him — is recorded in the official history of the kings of Israel and Judah. His son Jehoiachin succeeded him as king."
+    },
+    {
+      "verse": 9,
+      "kjv": "Jehoiachin was eight years old when he began to reign, and he reigned three months and ten days in Jerusalem: and he did that which was evil in the sight of the LORD.",
+      "web": "Jehoiachin was eight years old when he began to reign, and he reigned three months and ten days in Jerusalem. He did that which was evil in LORD’s sight.",
+      "ct": "Jehoiachin was 8 years old when he became king, and he ruled in Jerusalem for 3 months and 10 days. The LORD saw that he was evil."
+    },
+    {
+      "verse": 10,
+      "kjv": "And when the year was expired, king Nebuchadnezzar sent, and brought him to Babylon, with the goodly vessels of the house of the LORD, and made Zedekiah his brother king over Judah and Jerusalem.",
+      "web": "At the return of the year, king Nebuchadnezzar sent and brought him to Babylon, with the valuable vessels of LORD’s house, and made Zedekiah his brother king over Judah and Jerusalem.",
+      "ct": "When the new year came, King Nebuchadnezzar sent for Jehoiachin and brought him to Babylon, along with the precious vessels from the house of the LORD. Then he made Jehoiachin's brother Zedekiah king over Judah and Jerusalem."
+    },
+    {
+      "verse": 11,
+      "kjv": "Zedekiah was one and twenty years old when he began to reign, and reigned eleven years in Jerusalem.",
+      "web": "Zedekiah was twenty-one years old when he began to reign, and he reigned eleven years in Jerusalem.",
+      "ct": "Zedekiah was 21 years old when he became king, and he ruled in Jerusalem for 11 years."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he did that which was evil in the sight of the LORD his God, and humbled not himself before Jeremiah the prophet speaking from the mouth of the LORD.",
+      "web": "He did that which was evil in LORD his God’s sight. He didn’t humble himself before Jeremiah the prophet speaking from LORD’s mouth.",
+      "ct": "The LORD his God saw that he was evil. He refused to humble himself when Jeremiah the prophet spoke to him with messages straight from the LORD."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he also rebelled against king Nebuchadnezzar, who had made him swear by God: but he stiffened his neck, and hardened his heart from turning unto the LORD God of Israel.",
+      "web": "He also rebelled against king Nebuchadnezzar, who had made him swear by God; but he stiffened his neck, and hardened his heart against turning to LORD, the God of Israel.",
+      "ct": "He also rebelled against King Nebuchadnezzar, who had made him swear loyalty by God. He became stubborn and hardened his heart, refusing to turn back to the LORD, the God of Israel."
+    },
+    {
+      "verse": 14,
+      "kjv": "Moreover all the chief of the priests, and the people, transgressed very much after all the abominations of the heathen; and polluted the house of the LORD which he had hallowed in Jerusalem.",
+      "web": "Moreover all the chiefs of the priests, and the people, trespassed very greatly after all the abominations of the nations; and they polluted LORD’s house which he had made holy in Jerusalem.",
+      "ct": "On top of that, all the leading priests and the people became deeply unfaithful, copying the disgusting practices of the surrounding nations. They defiled the house of the LORD, which he had set apart as holy in Jerusalem."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the LORD God of their fathers sent to them by his messengers, rising up betimes, and sending; because he had compassion on his people, and on his dwelling place:",
+      "web": "LORD, the God of their fathers, sent to them by his messengers, rising up early and sending, because he had compassion on his people, and on his dwelling place;",
+      "ct": "The LORD, the God of their ancestors, sent warning after warning through his messengers because he had compassion on his people and on his dwelling place."
+    },
+    {
+      "verse": 16,
+      "kjv": "But they mocked the messengers of God, and despised his words, and misused his prophets, until the wrath of the LORD arose against his people, till there was no remedy.",
+      "web": "but they mocked the messengers of God, and despised his words, and scoffed at his prophets, until LORD’s wrath arose against his people, until there was no remedy.",
+      "ct": "But they mocked God's messengers, despised his words, and ridiculed his prophets until the LORD's anger burned against his people and there was no turning back."
+    },
+    {
+      "verse": 17,
+      "kjv": "Therefore he brought upon them the king of the Chaldees, who slew their young men with the sword in the house of their sanctuary, and had no compassion upon young man or maiden, old man, or him that stooped for age: he gave them all into his hand.",
+      "web": "Therefore he brought on them the king of the Chaldeans, who killed their young men with the sword in the house of their sanctuary, and had no compassion on young man or virgin, old man or gray-headed. He gave them all into his hand.",
+      "ct": "So God brought the king of the Chaldeans against them. He slaughtered their young men with the sword right inside the sanctuary. He showed no mercy — not to young men or young women, not to the elderly or the frail. God handed them all over to him."
+    },
+    {
+      "verse": 18,
+      "kjv": "And all the vessels of the house of God, great and small, and the treasures of the house of the LORD, and the treasures of the king, and of his princes; all these he brought to Babylon.",
+      "web": "All the vessels of God’s house, great and small, and the treasures of LORD’s house, and the treasures of the king, and of his princes, all these he brought to Babylon.",
+      "ct": "Every vessel from the house of God, large and small, along with the treasures of the LORD's house and the treasures of the king and his officials — all of it was carried off to Babylon."
+    },
+    {
+      "verse": 19,
+      "kjv": "And they burnt the house of God, and brake down the wall of Jerusalem, and burnt all the palaces thereof with fire, and destroyed all the goodly vessels thereof.",
+      "web": "They burned God’s house, and broke down the wall of Jerusalem, and burned all its palaces with fire, and destroyed all of its valuable vessels.",
+      "ct": "The Chaldeans burned down the house of God, tore down the walls of Jerusalem, set fire to every palace, and destroyed everything of value."
+    },
+    {
+      "verse": 20,
+      "kjv": "And them that had escaped from the sword carried he away to Babylon; where they were servants to him and his sons until the reign of the kingdom of Persia:",
+      "web": "He carried those who had escaped from the sword away to Babylon, and they were servants to him and his sons until the reign of the kingdom of Persia,",
+      "ct": "Those who survived the sword were taken as captives to Babylon, where they served the king and his sons as slaves until the Persian empire rose to power."
+    },
+    {
+      "verse": 21,
+      "kjv": "To fulfil the word of the LORD by the mouth of Jeremiah, until the land had enjoyed her sabbaths: for as long as she lay desolate she kept sabbath, to fulfil threescore and ten years.",
+      "web": "to fulfill LORD’s word by Jeremiah’s mouth, until the land had enjoyed its Sabbaths. As long as it lay desolate, it kept Sabbath, to fulfill seventy years.",
+      "ct": "This fulfilled the word of the LORD spoken through Jeremiah: the land would finally enjoy its missed Sabbath rests. The entire time it lay empty and desolate, the land kept its Sabbath — for 70 years."
+    },
+    {
+      "verse": 22,
+      "kjv": "Now in the first year of Cyrus king of Persia, that the word of the LORD spoken by the mouth of Jeremiah might be accomplished, the LORD stirred up the spirit of Cyrus king of Persia, that he made a proclamation throughout all his kingdom, and put it also in writing, saying,",
+      "web": "Now in the first year of Cyrus king of Persia, that LORD’s word by the mouth of Jeremiah might be accomplished, LORD stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom, and put it also in writing, saying,",
+      "ct": "In the 1st year of King Cyrus of Persia, the LORD stirred Cyrus's spirit so that the word he had spoken through Jeremiah would be fulfilled. Cyrus sent a proclamation throughout his entire kingdom and put it in writing:"
+    },
+    {
+      "verse": 23,
+      "kjv": "Thus saith Cyrus king of Persia, All the kingdoms of the earth hath the LORD God of heaven given me; and he hath charged me to build him an house in Jerusalem, which is in Judah. Who is there among you of all his people? The LORD his God be with him, and let him go up.",
+      "web": "“Cyrus king of Persia says, ‘LORD, the God of heaven, has given all the kingdoms of the earth to me; and he has commanded me to build him a house in Jerusalem, which is in Judah. Whoever there is among you of all his people, LORD his God be with him, and let him go up.’ ”",
+      "ct": "\"This is what King Cyrus of Persia declares: 'The LORD, the God of heaven, has given me every kingdom on earth, and he has appointed me to build him a house in Jerusalem, which is in Judah. Anyone among you who belongs to his people — may the LORD his God be with him. Let him go up.'\""
+    }
+  ]
+}

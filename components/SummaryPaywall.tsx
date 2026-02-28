@@ -27,7 +27,7 @@ export default function SummaryPaywall({
     const productMap = {
       single: "summary_single" as const,
       annual: "summary_annual" as const,
-      premium: "premium_yearly" as const,
+      premium: "premium_annual" as const,
     };
 
     const { url, error: checkoutError } = await startCheckout({

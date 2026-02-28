@@ -1,0 +1,95 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 17,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:42:02.741Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The burden of Damascus. Behold, Damascus is taken away from being a city, and it shall be a ruinous heap.",
+      "web": "The burden of Damascus. “Behold, Damascus is taken away from being a city, and it will be a ruinous heap.",
+      "ct": "A message about Damascus: Look — Damascus will no longer be a city. It will be reduced to a pile of rubble."
+    },
+    {
+      "verse": 2,
+      "kjv": "The cities of Aroer are forsaken: they shall be for flocks, which shall lie down, and none shall make them afraid.",
+      "web": "The cities of Aroer are forsaken. They will be for flocks, which shall lie down, and no one shall make them afraid.",
+      "ct": "The cities of Aroer will be abandoned. Flocks will roam freely there and lie down with no one to disturb them."
+    },
+    {
+      "verse": 3,
+      "kjv": "The fortress also shall cease from Ephraim, and the kingdom from Damascus, and the remnant of Syria: they shall be as the glory of the children of Israel, saith the LORD of hosts.",
+      "web": "The fortress shall cease from Ephraim, and the kingdom from Damascus, and the remnant of Syria. They will be as the glory of the children of Israel,” says LORD of Armies.",
+      "ct": "Ephraim will lose its fortified cities, Damascus will lose its kingdom, and what's left of Syria will fade away — just like Israel's glory faded. This is what the LORD of hosts declares."
+    },
+    {
+      "verse": 4,
+      "kjv": "And in that day it shall come to pass, that the glory of Jacob shall be made thin, and the fatness of his flesh shall wax lean.",
+      "web": "“It will happen in that day that the glory of Jacob will be made thin, and the fatness of his flesh will become lean.",
+      "ct": "When that day comes, Jacob's glory will waste away, and his healthy body will grow thin and weak."
+    },
+    {
+      "verse": 5,
+      "kjv": "And it shall be as when the harvestman gathereth the corn, and reapeth the ears with his arm; and it shall be as he that gathereth ears in the valley of Rephaim.",
+      "web": "It will be like when the harvester gathers the wheat, and his arm reaps the grain. Yes, it will be like when one gleans grain in the valley of Rephaim.",
+      "ct": "It will be like a field after harvest — when the reaper has gathered the wheat and stripped the stalks bare with his arm. It will be like gleaning the last ears of grain in the valley of Rephaim."
+    },
+    {
+      "verse": 6,
+      "kjv": "Yet gleaning grapes shall be left in it, as the shaking of an olive tree, two or three berries in the top of the uppermost bough, four or five in the outmost fruitful branches thereof, saith the LORD God of Israel.",
+      "web": "Yet gleanings will be left there, like the shaking of an olive tree, two or three olives in the top of the uppermost bough, four or five in the outermost branches of a fruitful tree,” says LORD, the God of Israel.",
+      "ct": "Still, a few will be left behind — like the olives that remain after an olive tree is shaken: 2 or 3 at the very top, 4 or 5 on the outer branches. This is what the LORD God of Israel declares."
+    },
+    {
+      "verse": 7,
+      "kjv": "At that day shall a man look to his Maker, and his eyes shall have respect to the Holy One of Israel.",
+      "web": "In that day, people will look to their Maker, and their eyes will have respect for the Holy One of Israel.",
+      "ct": "When that day comes, people will turn their eyes back to their Maker and look with respect to the Holy One of Israel."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he shall not look to the altars, the work of his hands, neither shall respect that which his fingers have made, either the groves, or the images.",
+      "web": "They will not look to the altars, the work of their hands; neither shall they respect that which their fingers have made, either the Asherah poles, or the incense altars.",
+      "ct": "They will stop looking to the altars they built with their own hands. They won't pay attention to what their fingers crafted — not the Asherah poles, not the incense altars."
+    },
+    {
+      "verse": 9,
+      "kjv": "In that day shall his strong cities be as a forsaken bough, and an uppermost branch, which they left because of the children of Israel: and there shall be desolation.",
+      "web": "In that day, their strong cities will be like the forsaken places in the woods and on the mountain top, which were forsaken from before the children of Israel; and it will be a desolation.",
+      "ct": "When that day comes, their fortified cities will be as empty as the places in the woods and hilltops that were abandoned when the Israelites arrived. Everything will be desolate."
+    },
+    {
+      "verse": 10,
+      "kjv": "Because thou hast forgotten the God of thy salvation, and hast not been mindful of the rock of thy strength, therefore shalt thou plant pleasant plants, and shalt set it with strange slips:",
+      "web": "For you have forgotten the God of your salvation, and have not remembered the rock of your strength. Therefore you plant pleasant plants, and set out foreign seedlings.",
+      "ct": "You forgot the God of your salvation. You didn't remember the Rock who was your strength. So you planted beautiful gardens and filled them with foreign vines."
+    },
+    {
+      "verse": 11,
+      "kjv": "In the day shalt thou make thy plant to grow, and in the morning shalt thou make thy seed to flourish: but the harvest shall be a heap in the day of grief and of desperate sorrow.",
+      "web": "In the day of your planting, you hedge it in. In the morning, you make your seed blossom, but the harvest flees away in the day of grief and of desperate sorrow.",
+      "ct": "You carefully tended your plants the day you put them in the ground, and by morning your seeds were blossoming — but the harvest will be nothing but a heap of grief and desperate sorrow."
+    },
+    {
+      "verse": 12,
+      "kjv": "Woe to the multitude of many people, which make a noise like the noise of the seas; and to the rushing of nations, that make a rushing like the rushing of mighty waters!",
+      "web": "Ah, the uproar of many peoples, who roar like the roaring of the seas; and the rushing of nations, that rush like the rushing of mighty waters!",
+      "ct": "Disaster is coming to the hordes of nations! They roar like the crashing of the seas. They rush forward like the surge of mighty waters!"
+    },
+    {
+      "verse": 13,
+      "kjv": "The nations shall rush like the rushing of many waters: but God shall rebuke them, and they shall flee far off, and shall be chased as the chaff of the mountains before the wind, and like a rolling thing before the whirlwind.",
+      "web": "The nations will rush like the rushing of many waters: but he will rebuke them, and they will flee far off, and will be chased like the chaff of the mountains before the wind, and like the whirling dust before the storm.",
+      "ct": "The nations rush in like a flood of churning waters — but God will rebuke them, and they'll flee into the distance, scattered like chaff blown off a mountain by the wind, like tumbling dust before a whirlwind."
+    },
+    {
+      "verse": 14,
+      "kjv": "And behold at eveningtide trouble; and before the morning he is not. This is the portion of them that spoil us, and the lot of them that rob us.",
+      "web": "At evening, behold, terror! Before the morning, they are no more. This is the portion of those who plunder us, and the lot of those who rob us.",
+      "ct": "At evening, sudden terror strikes. Before morning comes, they're gone — vanished. That is the fate of those who plunder us, the destiny of those who rob us."
+    }
+  ]
+}
