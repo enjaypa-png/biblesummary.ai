@@ -1,0 +1,167 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:02:08.582Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now the sons of Reuben the firstborn of Israel, (for he was the firstborn; but, forasmuch as he defiled his father’s bed, his birthright was given unto the sons of Joseph the son of Israel: and the genealogy is not to be reckoned after the birthright.",
+      "web": "The sons of Reuben the firstborn of Israel (for he was the firstborn; but, because he defiled his father’s couch, his birthright was given to the sons of Joseph the son of Israel; and the genealogy is not to be listed according to the birthright.",
+      "ct": "Now for the descendants of Reuben, Israel's firstborn son. Reuben was indeed the firstborn, but because he slept with his father's wife and dishonored him, his birthright was given to the sons of Joseph son of Israel. So the genealogy is not recorded according to birthright."
+    },
+    {
+      "verse": 2,
+      "kjv": "For Judah prevailed above his brethren, and of him came the chief ruler; but the birthright was Joseph’s:)",
+      "web": "For Judah prevailed above his brothers, and from him came the prince; but the birthright was Joseph’s)—",
+      "ct": "Judah became the strongest among his brothers, and from his line came the ruler. But the birthright belonged to Joseph."
+    },
+    {
+      "verse": 3,
+      "kjv": "The sons, I say, of Reuben the firstborn of Israel were, Hanoch, and Pallu, Hezron, and Carmi.",
+      "web": "the sons of Reuben the firstborn of Israel: Hanoch, Pallu, Hezron, and Carmi.",
+      "ct": "The sons of Reuben, Israel's firstborn, were Hanoch, Pallu, Hezron, and Carmi."
+    },
+    {
+      "verse": 4,
+      "kjv": "The sons of Joel; Shemaiah his son, Gog his son, Shimei his son,",
+      "web": "The sons of Joel: Shemaiah his son, Gog his son, Shimei his son,",
+      "ct": "The descendants of Joel were: his son Shemaiah, then Gog, then Shimei,"
+    },
+    {
+      "verse": 5,
+      "kjv": "Micah his son, Reaia his son, Baal his son,",
+      "web": "Micah his son, Reaiah his son, Baal his son,",
+      "ct": "then Micah, then Reaia, then Baal,"
+    },
+    {
+      "verse": 6,
+      "kjv": "Beerah his son, whom Tilgathpilneser king of Assyria carried away captive: he was prince of the Reubenites.",
+      "web": "and Beerah his son, whom Tilgath Pilneser king of Assyria carried away captive. He was prince of the Reubenites.",
+      "ct": "then Beerah — who was a leader of the Reubenites until Tilgathpilneser king of Assyria carried him away into exile."
+    },
+    {
+      "verse": 7,
+      "kjv": "And his brethren by their families, when the genealogy of their generations was reckoned, were the chief, Jeiel, and Zechariah,",
+      "web": "His brothers by their families, when the genealogy of their generations was listed: the chief, Jeiel, and Zechariah,",
+      "ct": "His relatives, listed by their clans in the genealogical records, were Jeiel the chief, then Zechariah,"
+    },
+    {
+      "verse": 8,
+      "kjv": "And Bela the son of Azaz, the son of Shema, the son of Joel, who dwelt in Aroer, even unto Nebo and Baalmeon:",
+      "web": "and Bela the son of Azaz, the son of Shema, the son of Joel, who lived in Aroer, even to Nebo and Baal Meon;",
+      "ct": "and Bela son of Azaz, son of Shema, son of Joel. Bela lived in Aroer and as far as Nebo and Baalmeon."
+    },
+    {
+      "verse": 9,
+      "kjv": "And eastward he inhabited unto the entering in of the wilderness from the river Euphrates: because their cattle were multiplied in the land of Gilead.",
+      "web": "and he lived eastward even to the entrance of the wilderness from the river Euphrates, because their livestock were multiplied in the land of Gilead.",
+      "ct": "To the east, his territory stretched to the edge of the wilderness along the Euphrates River, because their herds had grown so large in the land of Gilead."
+    },
+    {
+      "verse": 10,
+      "kjv": "And in the days of Saul they made war with the Hagarites, who fell by their hand: and they dwelt in their tents throughout all the east land of Gilead.",
+      "web": "In the days of Saul, they made war with the Hagrites, who fell by their hand; and they lived in their tents throughout all the land east of Gilead.",
+      "ct": "During the reign of Saul, they went to war against the Hagarites and defeated them. Then they took over their territory and lived in their camps throughout the entire eastern region of Gilead."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the children of Gad dwelt over against them, in the land of Bashan unto Salcah:",
+      "web": "The sons of Gad lived beside them, in the land of Bashan to Salecah:",
+      "ct": "The descendants of Gad settled next to them in the land of Bashan, stretching as far as Salcah."
+    },
+    {
+      "verse": 12,
+      "kjv": "Joel the chief, and Shapham the next, and Jaanai, and Shaphat in Bashan.",
+      "web": "Joel the chief, Shapham the second, Janai, and Shaphat in Bashan.",
+      "ct": "Joel was the chief, Shapham was second, then Jaanai and Shaphat — all in Bashan."
+    },
+    {
+      "verse": 13,
+      "kjv": "And their brethren of the house of their fathers were, Michael, and Meshullam, and Sheba, and Jorai, and Jachan, and Zia, and Heber, seven.",
+      "web": "Their brothers of their fathers’ houses: Michael, Meshullam, Sheba, Jorai, Jacan, Zia, and Eber, seven.",
+      "ct": "Their relatives from other branches of the family were Michael, Meshullam, Sheba, Jorai, Jachan, Zia, and Heber — 7 in all."
+    },
+    {
+      "verse": 14,
+      "kjv": "These are the children of Abihail the son of Huri, the son of Jaroah, the son of Gilead, the son of Michael, the son of Jeshishai, the son of Jahdo, the son of Buz;",
+      "web": "These were the sons of Abihail, the son of Huri, the son of Jaroah, the son of Gilead, the son of Michael, the son of Jeshishai, the son of Jahdo, the son of Buz;",
+      "ct": "These were the descendants of Abihail son of Huri, son of Jaroah, son of Gilead, son of Michael, son of Jeshishai, son of Jahdo, son of Buz."
+    },
+    {
+      "verse": 15,
+      "kjv": "Ahi the son of Abdiel, the son of Guni, chief of the house of their fathers.",
+      "web": "Ahi the son of Abdiel, the son of Guni, chief of their fathers’ houses.",
+      "ct": "Ahi son of Abdiel, son of Guni, was the head of their family."
+    },
+    {
+      "verse": 16,
+      "kjv": "And they dwelt in Gilead in Bashan, and in her towns, and in all the suburbs of Sharon, upon their borders.",
+      "web": "They lived in Gilead in Bashan, and in its towns, and in all the pasture lands of Sharon, as far as their borders.",
+      "ct": "They lived in Gilead, in Bashan and its surrounding towns, and in all the pasturelands of Sharon as far as their borders extended."
+    },
+    {
+      "verse": 17,
+      "kjv": "All these were reckoned by genealogies in the days of Jotham king of Judah, and in the days of Jeroboam king of Israel.",
+      "web": "All these were listed by genealogies in the days of Jotham king of Judah, and in the days of Jeroboam king of Israel.",
+      "ct": "All of these were recorded in the genealogies during the reigns of King Jotham of Judah and King Jeroboam of Israel."
+    },
+    {
+      "verse": 18,
+      "kjv": "The sons of Reuben, and the Gadites, and half the tribe of Manasseh, of valiant men, men able to bear buckler and sword, and to shoot with bow, and skilful in war, were four and forty thousand seven hundred and threescore, that went out to the war.",
+      "web": "The sons of Reuben, the Gadites, and the half-tribe of Manasseh, of valiant men, men able to bear buckler and sword, and to shoot with bow, and skillful in war, were forty-four thousand seven hundred sixty, that were able to go out to war.",
+      "ct": "The tribes of Reuben, Gad, and the half-tribe of Manasseh had 44,760 fighting men — brave warriors trained with shields, swords, and bows, skilled and ready for battle."
+    },
+    {
+      "verse": 19,
+      "kjv": "And they made war with the Hagarites, with Jetur, and Nephish, and Nodab.",
+      "web": "They made war with the Hagrites, with Jetur, and Naphish, and Nodab.",
+      "ct": "They went to war against the Hagarites, along with Jetur, Nephish, and Nodab."
+    },
+    {
+      "verse": 20,
+      "kjv": "And they were helped against them, and the Hagarites were delivered into their hand, and all that were with them: for they cried to God in the battle, and he was intreated of them; because they put their trust in him.",
+      "web": "They were helped against them, and the Hagrites were delivered into their hand, and all who were with them; for they cried to God in the battle, and he answered them, because they put their trust in him.",
+      "ct": "God gave them victory over the Hagarites and all their allies, because during the battle they cried out to God for help, and he answered them because they put their trust in him."
+    },
+    {
+      "verse": 21,
+      "kjv": "And they took away their cattle; of their camels fifty thousand, and of sheep two hundred and fifty thousand, and of asses two thousand, and of men an hundred thousand.",
+      "web": "They took away their livestock; of their camels fifty thousand, and of sheep two hundred fifty thousand, and of donkeys two thousand, and of men one hundred thousand.",
+      "ct": "They captured the enemy's livestock: 50,000 camels, 250,000 sheep, 2,000 donkeys, and 100,000 people."
+    },
+    {
+      "verse": 22,
+      "kjv": "For there fell down many slain, because the war was of God. And they dwelt in their steads until the captivity.",
+      "web": "For many fell slain, because the war was of God. They lived in their place until the captivity.",
+      "ct": "Many of the enemy were killed, because this war was God's doing. The Israelites then settled in that territory and lived there until the exile."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the children of the half tribe of Manasseh dwelt in the land: they increased from Bashan unto Baalhermon and Senir, and unto mount Hermon.",
+      "web": "The children of the half-tribe of Manasseh lived in the land: they increased from Bashan to Baal Hermon, Senir, and Mount Hermon.",
+      "ct": "The half-tribe of Manasseh also settled in the land, spreading out from Bashan all the way to Baalhermon, Senir, and Mount Hermon. They grew into a large population."
+    },
+    {
+      "verse": 24,
+      "kjv": "And these were the heads of the house of their fathers, even Epher, and Ishi, and Eliel, and Azriel, and Jeremiah, and Hodaviah, and Jahdiel, mighty men of valour, famous men, and heads of the house of their fathers.",
+      "web": "These were the heads of their fathers’ houses: even Epher, Ishi, Eliel, Azriel, Jeremiah, Hodaviah, and Jahdiel, mighty men of valor, famous men, heads of their fathers’ houses.",
+      "ct": "The heads of their families were Epher, Ishi, Eliel, Azriel, Jeremiah, Hodaviah, and Jahdiel. These were mighty warriors, famous men, and leaders of their clans."
+    },
+    {
+      "verse": 25,
+      "kjv": "And they transgressed against the God of their fathers, and went a whoring after the gods of the people of the land, whom God destroyed before them.",
+      "web": "They trespassed against the God of their fathers, and played the prostitute after the gods of the peoples of the land, whom God destroyed before them.",
+      "ct": "But they sinned against the God of their ancestors and chased after the gods of the peoples in the land — the very nations God had destroyed to make room for them."
+    },
+    {
+      "verse": 26,
+      "kjv": "And the God of Israel stirred up the spirit of Pul king of Assyria, and the spirit of Tilgathpilneser king of Assyria, and he carried them away, even the Reubenites, and the Gadites, and the half tribe of Manasseh, and brought them unto Halah, and Habor, and Hara, and to the river Gozan, unto this day.",
+      "web": "So the God of Israel stirred up the spirit of Pul king of Assyria, and the spirit of Tilgath Pilneser king of Assyria, and he carried them away, even the Reubenites, and the Gadites, and the half-tribe of Manasseh, and brought them to Halah, Habor, Hara, and to the river of Gozan, to this day.",
+      "ct": "So the God of Israel stirred up King Pul of Assyria and King Tilgathpilneser of Assyria, who carried away the tribes of Reuben, Gad, and the half-tribe of Manasseh into exile. They were taken to Halah, Habor, Hara, and the river Gozan, where they remain to this day."
+    }
+  ]
+}

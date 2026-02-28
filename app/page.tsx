@@ -28,13 +28,15 @@ const FEATURES_PREMIUM = [
 ];
 
 // Interactive demo component - this is the conversion engine
-const EXPLANATION_TEXT = "The famous saying \u2018money is the root of all evil\u2019 is actually a misquote. The verse doesn\u2019t say money is evil \u2014 it says the love of money is. Paul is warning against greed, not wealth itself. People consumed by the desire for more money wander from their faith and bring themselves unnecessary pain.";
+const DEMO_VERSE_TEXT = "For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.";
 
 function VerseDemo() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [speechSupported, setSpeechSupported] = useState(true);
+  const [explanationText, setExplanationText] = useState<string | null>(null);
+  const [explanationLoading, setExplanationLoading] = useState(false);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
   useEffect(() => {
@@ -57,7 +59,7 @@ function VerseDemo() {
       setIsSpeaking(false);
       return;
     }
-    const utterance = new SpeechSynthesisUtterance(EXPLANATION_TEXT);
+    const utterance = new SpeechSynthesisUtterance(explanationText || DEMO_VERSE_TEXT);
     utterance.rate = 0.95;
     utterance.pitch = 1;
     // Pick a natural English voice if available
@@ -111,7 +113,26 @@ function VerseDemo() {
           {/* Verse 10 - interactive */}
           <div style={{ position: "relative" }}>
             <p
-              onClick={() => setShowExplanation(!showExplanation)}
+onClick={async () => {
+                  const next = !showExplanation;
+                  setShowExplanation(next);
+                  if (next && !explanationText) {
+                    setExplanationLoading(true);
+                    try {
+                      const res = await fetch("/api/explain-verse", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                          book: "1 Timothy", chapter: 6, verse_start: 10,
+                          verseText: DEMO_VERSE_TEXT,
+                        }),
+                      });
+                      const data = await res.json();
+                      setExplanationText(data.explanation || data.text || null);
+                    } catch { /* keep null */ }
+                    setExplanationLoading(false);
+                  }
+                }}
               style={{
                 fontSize: 17,
                 lineHeight: 1.85,
@@ -208,7 +229,7 @@ function VerseDemo() {
                   margin: 0,
                   fontFamily: "'DM Sans', sans-serif",
                 }}>
-                  {EXPLANATION_TEXT}
+                  {explanationText || "Loading explanation..."}
                 </p>
               </div>
             )}

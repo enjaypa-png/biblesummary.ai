@@ -1,0 +1,341 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:01:09.104Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "These are the sons of Israel; Reuben, Simeon, Levi, and Judah, Issachar, and Zebulun,",
+      "web": "These are the sons of Israel: Reuben, Simeon, Levi, Judah, Issachar, Zebulun,",
+      "ct": "These are the sons of Israel: Reuben, Simeon, Levi, Judah, Issachar, Zebulun,"
+    },
+    {
+      "verse": 2,
+      "kjv": "Dan, Joseph, and Benjamin, Naphtali, Gad, and Asher.",
+      "web": "Dan, Joseph, Benjamin, Naphtali, Gad, and Asher.",
+      "ct": "Dan, Joseph, Benjamin, Naphtali, Gad, and Asher."
+    },
+    {
+      "verse": 3,
+      "kjv": "The sons of Judah; Er, and Onan, and Shelah: which three were born unto him of the daughter of Shua the Canaanitess. And Er, the firstborn of Judah, was evil in the sight of the LORD; and he slew him.",
+      "web": "The sons of Judah: Er, Onan, and Shelah; which three were born to him of Shua’s daughter the Canaanitess. Er, Judah’s firstborn, was wicked in LORD’s sight; and he killed him.",
+      "ct": "Judah's sons were Er, Onan, and Shelah. Their mother was Shua's daughter, a Canaanite woman. The LORD saw that Er, Judah's firstborn, was evil, so he put him to death."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Tamar his daughter in law bore him Pharez and Zerah. All the sons of Judah were five.",
+      "web": "Tamar his daughter-in-law bore him Perez and Zerah. All the sons of Judah were five.",
+      "ct": "Judah's daughter-in-law Tamar gave him 2 more sons: Pharez and Zerah. So Judah had 5 sons in all."
+    },
+    {
+      "verse": 5,
+      "kjv": "The sons of Pharez; Hezron, and Hamul.",
+      "web": "The sons of Perez: Hezron and Hamul.",
+      "ct": "The sons of Pharez were Hezron and Hamul."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the sons of Zerah; Zimri, and Ethan, and Heman, and Calcol, and Dara: five of them in all.",
+      "web": "The sons of Zerah: Zimri, Ethan, Heman, Calcol, and Dara; five of them in all.",
+      "ct": "Zerah had 5 sons: Zimri, Ethan, Heman, Calcol, and Dara."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the sons of Carmi; Achar, the troubler of Israel, who transgressed in the thing accursed.",
+      "web": "The son of Carmi: Achar, the troubler of Israel, who committed a trespass in the devoted thing.",
+      "ct": "Carmi's son was Achar, who brought trouble on Israel by taking what had been set apart for destruction."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the sons of Ethan; Azariah.",
+      "web": "The son of Ethan: Azariah.",
+      "ct": "Ethan's son was Azariah."
+    },
+    {
+      "verse": 9,
+      "kjv": "The sons also of Hezron, that were born unto him; Jerahmeel, and Ram, and Chelubai.",
+      "web": "The sons also of Hezron, who were born to him: Jerahmeel, Ram, and Chelubai.",
+      "ct": "Hezron's sons were Jerahmeel, Ram, and Chelubai."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Ram begat Amminadab; and Amminadab begat Nahshon, prince of the children of Judah;",
+      "web": "Ram became the father of Amminadab, and Amminadab became the father of Nahshon, prince of the children of Judah;",
+      "ct": "Ram was the father of Amminadab, and Amminadab was the father of Nahshon, a leader among the people of Judah."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Nahshon begat Salma, and Salma begat Boaz,",
+      "web": "and Nahshon became the father of Salma, and Salma became the father of Boaz,",
+      "ct": "Nahshon was the father of Salma, and Salma was the father of Boaz."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Boaz begat Obed, and Obed begat Jesse,",
+      "web": "and Boaz became the father of Obed, and Obed became the father of Jesse;",
+      "ct": "Boaz was the father of Obed, and Obed was the father of Jesse."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Jesse begat his firstborn Eliab, and Abinadab the second, and Shimma the third,",
+      "web": "and Jesse became the father of his firstborn Eliab, and Abinadab the second, and Shimea the third,",
+      "ct": "Jesse's firstborn was Eliab, his 2nd son was Abinadab, and his 3rd was Shimma."
+    },
+    {
+      "verse": 14,
+      "kjv": "Nethaneel the fourth, Raddai the fifth,",
+      "web": "Nethanel the fourth, Raddai the fifth,",
+      "ct": "Nethaneel was the 4th, and Raddai was the 5th."
+    },
+    {
+      "verse": 15,
+      "kjv": "Ozem the sixth, David the seventh:",
+      "web": "Ozem the sixth, David the seventh;",
+      "ct": "Ozem was the 6th, and David was the 7th."
+    },
+    {
+      "verse": 16,
+      "kjv": "Whose sisters were Zeruiah, and Abigail. And the sons of Zeruiah; Abishai, and Joab, and Asahel, three.",
+      "web": "and their sisters were Zeruiah and Abigail. The sons of Zeruiah: Abishai, Joab, and Asahel, three.",
+      "ct": "Their sisters were Zeruiah and Abigail. Zeruiah had 3 sons: Abishai, Joab, and Asahel."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Abigail bare Amasa: and the father of Amasa was Jether the Ishmeelite.",
+      "web": "Abigail bore Amasa; and the father of Amasa was Jether the Ishmaelite.",
+      "ct": "Abigail gave birth to Amasa, whose father was Jether the Ishmeelite."
+    },
+    {
+      "verse": 18,
+      "kjv": "And Caleb the son of Hezron begat children of Azubah his wife, and of Jerioth: her sons are these; Jesher, and Shobab, and Ardon.",
+      "web": "Caleb the son of Hezron became the father of children of Azubah his wife, and of Jerioth; and these were her sons: Jesher, Shobab, and Ardon.",
+      "ct": "Caleb son of Hezron had children by his wife Azubah and by Jerioth. Her sons were Jesher, Shobab, and Ardon."
+    },
+    {
+      "verse": 19,
+      "kjv": "And when Azubah was dead, Caleb took unto him Ephrath, which bare him Hur.",
+      "web": "Azubah died, and Caleb married Ephrath, who bore him Hur.",
+      "ct": "After Azubah died, Caleb married Ephrath, and she gave him a son named Hur."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Hur begat Uri, and Uri begat Bezaleel.",
+      "web": "Hur became the father of Uri, and Uri became the father of Bezalel.",
+      "ct": "Hur was the father of Uri, and Uri was the father of Bezaleel."
+    },
+    {
+      "verse": 21,
+      "kjv": "And afterward Hezron went in to the daughter of Machir the father of Gilead, whom he married when he was threescore years old; and she bare him Segub.",
+      "web": "Afterward Hezron went in to the daughter of Machir the father of Gilead, whom he took as wife when he was sixty years old; and she bore him Segub.",
+      "ct": "Later, when Hezron was 60 years old, he married the daughter of Machir, the founder of Gilead. She gave him a son named Segub."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Segub begat Jair, who had three and twenty cities in the land of Gilead.",
+      "web": "Segub became the father of Jair, who had twenty-three cities in the land of Gilead.",
+      "ct": "Segub was the father of Jair, who controlled 23 cities in the land of Gilead."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he took Geshur, and Aram, with the towns of Jair, from them, with Kenath, and the towns thereof, even threescore cities. All these belonged to the sons of Machir the father of Gilead.",
+      "web": "Geshur and Aram took the towns of Jair from them, with Kenath, and its villages, even sixty cities. All these were the sons of Machir the father of Gilead.",
+      "ct": "But Geshur and Aram captured the towns of Jair, along with Kenath and its surrounding villages — 60 cities in all. All of these had belonged to the descendants of Machir, the founder of Gilead."
+    },
+    {
+      "verse": 24,
+      "kjv": "And after that Hezron was dead in Calebephratah, then Abiah Hezron’s wife bare him Ashur the father of Tekoa.",
+      "web": "After Hezron died in Caleb Ephrathah, Abijah Hezron’s wife bore him Ashhur the father of Tekoa.",
+      "ct": "After Hezron died in Calebephratah, his wife Abiah gave birth to Ashur, who became the founder of Tekoa."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the sons of Jerahmeel the firstborn of Hezron were, Ram the firstborn, and Bunah, and Oren, and Ozem, and Ahijah.",
+      "web": "The sons of Jerahmeel the firstborn of Hezron were Ram the firstborn, Bunah, Oren, Ozem, and Ahijah.",
+      "ct": "Jerahmeel, Hezron's firstborn, had these sons: Ram (his firstborn), Bunah, Oren, Ozem, and Ahijah."
+    },
+    {
+      "verse": 26,
+      "kjv": "Jerahmeel had also another wife, whose name was Atarah; she was the mother of Onam.",
+      "web": "Jerahmeel had another wife, whose name was Atarah. She was the mother of Onam.",
+      "ct": "Jerahmeel also had another wife named Atarah. She was the mother of Onam."
+    },
+    {
+      "verse": 27,
+      "kjv": "And the sons of Ram the firstborn of Jerahmeel were, Maaz, and Jamin, and Eker.",
+      "web": "The sons of Ram the firstborn of Jerahmeel were Maaz, Jamin, and Eker.",
+      "ct": "The sons of Ram, Jerahmeel's firstborn, were Maaz, Jamin, and Eker."
+    },
+    {
+      "verse": 28,
+      "kjv": "And the sons of Onam were, Shammai, and Jada. And the sons of Shammai; Nadab, and Abishur.",
+      "web": "The sons of Onam were Shammai and Jada. The sons of Shammai: Nadab and Abishur.",
+      "ct": "Onam's sons were Shammai and Jada. Shammai's sons were Nadab and Abishur."
+    },
+    {
+      "verse": 29,
+      "kjv": "And the name of the wife of Abishur was Abihail, and she bare him Ahban, and Molid.",
+      "web": "The name of the wife of Abishur was Abihail; and she bore him Ahban and Molid.",
+      "ct": "Abishur's wife was named Abihail, and she gave him 2 sons: Ahban and Molid."
+    },
+    {
+      "verse": 30,
+      "kjv": "And the sons of Nadab; Seled, and Appaim: but Seled died without children.",
+      "web": "The sons of Nadab: Seled and Appaim; but Seled died without children.",
+      "ct": "Nadab's sons were Seled and Appaim, but Seled died without having any children."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the sons of Appaim; Ishi. And the sons of Ishi; Sheshan. And the children of Sheshan; Ahlai.",
+      "web": "The son of Appaim: Ishi. The son of Ishi: Sheshan. The son of Sheshan: Ahlai.",
+      "ct": "Appaim's son was Ishi. Ishi's son was Sheshan. Sheshan's son was Ahlai."
+    },
+    {
+      "verse": 32,
+      "kjv": "And the sons of Jada the brother of Shammai; Jether, and Jonathan: and Jether died without children.",
+      "web": "The sons of Jada the brother of Shammai: Jether and Jonathan; and Jether died without children.",
+      "ct": "Jada, Shammai's brother, had 2 sons: Jether and Jonathan. Jether died without having any children."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the sons of Jonathan; Peleth, and Zaza. These were the sons of Jerahmeel.",
+      "web": "The sons of Jonathan: Peleth and Zaza. These were the sons of Jerahmeel.",
+      "ct": "Jonathan's sons were Peleth and Zaza. These were all descendants of Jerahmeel."
+    },
+    {
+      "verse": 34,
+      "kjv": "Now Sheshan had no sons, but daughters. And Sheshan had a servant, an Egyptian, whose name was Jarha.",
+      "web": "Now Sheshan had no sons, but daughters. Sheshan had a servant, an Egyptian, whose name was Jarha.",
+      "ct": "Sheshan had no sons — only daughters. He did, however, have an Egyptian servant named Jarha."
+    },
+    {
+      "verse": 35,
+      "kjv": "And Sheshan gave his daughter to Jarha his servant to wife; and she bare him Attai.",
+      "web": "Sheshan gave his daughter to Jarha his servant as wife; and she bore him Attai.",
+      "ct": "Sheshan gave one of his daughters to Jarha as his wife, and she gave birth to Attai."
+    },
+    {
+      "verse": 36,
+      "kjv": "And Attai begat Nathan, and Nathan begat Zabad,",
+      "web": "Attai became the father of Nathan, and Nathan became the father of Zabad,",
+      "ct": "Attai was the father of Nathan, and Nathan was the father of Zabad."
+    },
+    {
+      "verse": 37,
+      "kjv": "And Zabad begat Ephlal, and Ephlal begat Obed,",
+      "web": "and Zabad became the father of Ephlal, and Ephlal became the father of Obed,",
+      "ct": "Zabad was the father of Ephlal, and Ephlal was the father of Obed."
+    },
+    {
+      "verse": 38,
+      "kjv": "And Obed begat Jehu, and Jehu begat Azariah,",
+      "web": "and Obed became the father of Jehu, and Jehu became the father of Azariah,",
+      "ct": "Obed was the father of Jehu, and Jehu was the father of Azariah."
+    },
+    {
+      "verse": 39,
+      "kjv": "And Azariah begat Helez, and Helez begat Eleasah,",
+      "web": "and Azariah became the father of Helez, and Helez became the father of Eleasah,",
+      "ct": "Azariah was the father of Helez, and Helez was the father of Eleasah."
+    },
+    {
+      "verse": 40,
+      "kjv": "And Eleasah begat Sisamai, and Sisamai begat Shallum,",
+      "web": "and Eleasah became the father of Sismai, and Sismai became the father of Shallum,",
+      "ct": "Eleasah was the father of Sisamai, and Sisamai was the father of Shallum."
+    },
+    {
+      "verse": 41,
+      "kjv": "And Shallum begat Jekamiah, and Jekamiah begat Elishama.",
+      "web": "and Shallum became the father of Jekamiah, and Jekamiah became the father of Elishama.",
+      "ct": "Shallum was the father of Jekamiah, and Jekamiah was the father of Elishama."
+    },
+    {
+      "verse": 42,
+      "kjv": "Now the sons of Caleb the brother of Jerahmeel were, Mesha his firstborn, which was the father of Ziph; and the sons of Mareshah the father of Hebron.",
+      "web": "The sons of Caleb the brother of Jerahmeel were Mesha his firstborn, who was the father of Ziph; and the sons of Mareshah the father of Hebron.",
+      "ct": "The sons of Caleb, Jerahmeel's brother, included Mesha his firstborn, who founded Ziph, and the sons of Mareshah, who founded Hebron."
+    },
+    {
+      "verse": 43,
+      "kjv": "And the sons of Hebron; Korah, and Tappuah, and Rekem, and Shema.",
+      "web": "The sons of Hebron: Korah, Tappuah, Rekem, and Shema.",
+      "ct": "The sons of Hebron were Korah, Tappuah, Rekem, and Shema."
+    },
+    {
+      "verse": 44,
+      "kjv": "And Shema begat Raham, the father of Jorkoam: and Rekem begat Shammai.",
+      "web": "Shema became the father of Raham, the father of Jorkeam; and Rekem became the father of Shammai.",
+      "ct": "Shema was the father of Raham, who founded Jorkoam. Rekem was the father of Shammai."
+    },
+    {
+      "verse": 45,
+      "kjv": "And the son of Shammai was Maon: and Maon was the father of Bethzur.",
+      "web": "The son of Shammai was Maon; and Maon was the father of Beth Zur.",
+      "ct": "Shammai's son was Maon, and Maon founded Bethzur."
+    },
+    {
+      "verse": 46,
+      "kjv": "And Ephah, Caleb’s concubine, bare Haran, and Moza, and Gazez: and Haran begat Gazez.",
+      "web": "Ephah, Caleb’s concubine, bore Haran, Moza, and Gazez; and Haran became the father of Gazez.",
+      "ct": "Caleb's concubine Ephah gave birth to Haran, Moza, and Gazez. Haran was also the father of a son named Gazez."
+    },
+    {
+      "verse": 47,
+      "kjv": "And the sons of Jahdai; Regem, and Jotham, and Gesham, and Pelet, and Ephah, and Shaaph.",
+      "web": "The sons of Jahdai: Regem, Jothan, Geshan, Pelet, Ephah, and Shaaph.",
+      "ct": "The sons of Jahdai were Regem, Jotham, Gesham, Pelet, Ephah, and Shaaph."
+    },
+    {
+      "verse": 48,
+      "kjv": "Maachah, Caleb’s concubine, bare Sheber, and Tirhanah.",
+      "web": "Maacah, Caleb’s concubine, bore Sheber and Tirhanah.",
+      "ct": "Caleb's concubine Maachah gave birth to Sheber and Tirhanah."
+    },
+    {
+      "verse": 49,
+      "kjv": "She bare also Shaaph the father of Madmannah, Sheva the father of Machbenah, and the father of Gibea: and the daughter of Caleb was Achsa.",
+      "web": "She bore also Shaaph the father of Madmannah, Sheva the father of Machbena, and the father of Gibea; and the daughter of Caleb was Achsah.",
+      "ct": "She also gave birth to Shaaph, who founded Madmannah, and Sheva, who founded Machbenah and Gibea. Caleb's daughter was Achsa."
+    },
+    {
+      "verse": 50,
+      "kjv": "These were the sons of Caleb the son of Hur, the firstborn of Ephratah; Shobal the father of Kirjathjearim,",
+      "web": "These were the sons of Caleb, the son of Hur, the firstborn of Ephrathah: Shobal the father of Kiriath Jearim,",
+      "ct": "These were the descendants of Caleb. The sons of Hur, the firstborn of Ephratah, were: Shobal, who founded Kirjathjearim,"
+    },
+    {
+      "verse": 51,
+      "kjv": "Salma the father of Bethlehem, Hareph the father of Bethgader.",
+      "web": "Salma the father of Bethlehem, and Hareph the father of Beth Gader.",
+      "ct": "Salma, who founded Bethlehem, and Hareph, who founded Bethgader."
+    },
+    {
+      "verse": 52,
+      "kjv": "And Shobal the father of Kirjathjearim had sons; Haroeh, and half of the Manahethites.",
+      "web": "Shobal the father of Kiriath Jearim had sons: Haroeh, half of the Menuhoth.",
+      "ct": "Shobal, the founder of Kirjathjearim, had descendants that included Haroeh and half of the Manahethites."
+    },
+    {
+      "verse": 53,
+      "kjv": "And the families of Kirjathjearim; the Ithrites, and the Puhites, and the Shumathites, and the Mishraites; of them came the Zareathites, and the Eshtaulites.",
+      "web": "The families of Kiriath Jearim: the Ithrites, the Puthites, the Shumathites, and the Mishraites; from them came the Zorathites and the Eshtaolites.",
+      "ct": "The clans of Kirjathjearim were the Ithrites, the Puhites, the Shumathites, and the Mishraites. From these clans came the Zareathites and the Eshtaulites."
+    },
+    {
+      "verse": 54,
+      "kjv": "The sons of Salma; Bethlehem, and the Netophathites, Ataroth, the house of Joab, and half of the Manahethites, the Zorites.",
+      "web": "The sons of Salma: Bethlehem, the Netophathites, Atroth Beth Joab, and half of the Manahathites, the Zorites.",
+      "ct": "The descendants of Salma included the people of Bethlehem, the Netophathites, Ataroth, the house of Joab, half of the Manahethites, and the Zorites."
+    },
+    {
+      "verse": 55,
+      "kjv": "And the families of the scribes which dwelt at Jabez; the Tirathites, the Shimeathites, and Suchathites. These are the Kenites that came of Hemath, the father of the house of Rechab.",
+      "web": "The families of scribes who lived at Jabez: the Tirathites, the Shimeathites, and the Sucathites. These are the Kenites who came from Hammath, the father of the house of Rechab.",
+      "ct": "The clans of scribes who lived at Jabez were the Tirathites, the Shimeathites, and the Suchathites. These were the Kenites who descended from Hemath, the founder of the house of Rechab."
+    }
+  ]
+}

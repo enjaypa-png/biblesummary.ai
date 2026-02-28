@@ -1,0 +1,155 @@
+{
+  "book": "1-chronicles",
+  "book_name": "1 Chronicles",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:01:22.417Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now these were the sons of David, which were born unto him in Hebron; the firstborn Amnon, of Ahinoam the Jezreelitess; the second Daniel, of Abigail the Carmelitess:",
+      "web": "Now these were the sons of David, who were born to him in Hebron: the firstborn, Amnon, of Ahinoam the Jezreelitess; the second, Daniel, of Abigail the Carmelitess;",
+      "ct": "These are the sons born to David while he lived in Hebron: His firstborn was Amnon, whose mother was Ahinoam from Jezreel. His second was Daniel, whose mother was Abigail from Carmel."
+    },
+    {
+      "verse": 2,
+      "kjv": "The third, Absalom the son of Maachah the daughter of Talmai king of Geshur: the fourth, Adonijah the son of Haggith:",
+      "web": "the third, Absalom the son of Maacah the daughter of Talmai king of Geshur; the fourth, Adonijah the son of Haggith;",
+      "ct": "The 3rd was Absalom, whose mother was Maachah, the daughter of King Talmai of Geshur. The 4th was Adonijah, whose mother was Haggith."
+    },
+    {
+      "verse": 3,
+      "kjv": "The fifth, Shephatiah of Abital: the sixth, Ithream by Eglah his wife.",
+      "web": "the fifth, Shephatiah of Abital; the sixth, Ithream by Eglah his wife:",
+      "ct": "The 5th was Shephatiah, whose mother was Abital. The 6th was Ithream, whose mother was David's wife Eglah."
+    },
+    {
+      "verse": 4,
+      "kjv": "These six were born unto him in Hebron; and there he reigned seven years and six months: and in Jerusalem he reigned thirty and three years.",
+      "web": "six were born to him in Hebron; and he reigned there seven years and six months. He reigned thirty-three years in Jerusalem;",
+      "ct": "These 6 sons were born to him in Hebron, where he reigned for 7 years and 6 months. He then reigned in Jerusalem for 33 years."
+    },
+    {
+      "verse": 5,
+      "kjv": "And these were born unto him in Jerusalem; Shimea, and Shobab, and Nathan, and Solomon, four, of Bathshua the daughter of Ammiel:",
+      "web": "and these were born to him in Jerusalem: Shimea, Shobab, Nathan, and Solomon, four, of Bathshua the daughter of Ammiel;",
+      "ct": "These sons were born to him in Jerusalem: Shimea, Shobab, Nathan, and Solomon — 4 sons by Bathshua the daughter of Ammiel."
+    },
+    {
+      "verse": 6,
+      "kjv": "Ibhar also, and Elishama, and Eliphelet,",
+      "web": "and Ibhar, Elishama, Eliphelet,",
+      "ct": "He also had Ibhar, Elishama, Eliphelet,"
+    },
+    {
+      "verse": 7,
+      "kjv": "And Nogah, and Nepheg, and Japhia,",
+      "web": "Nogah, Nepheg, Japhia,",
+      "ct": "Nogah, Nepheg, Japhia,"
+    },
+    {
+      "verse": 8,
+      "kjv": "And Elishama, and Eliada, and Eliphelet, nine.",
+      "web": "Elishama, Eliada, and Eliphelet, nine.",
+      "ct": "Elishama, Eliada, and Eliphelet — 9 sons in all."
+    },
+    {
+      "verse": 9,
+      "kjv": "These were all the sons of David, beside the sons of the concubines, and Tamar their sister.",
+      "web": "All these were the sons of David, in addition to the sons of the concubines; and Tamar was their sister.",
+      "ct": "These were all of David's sons, not counting the sons born to his concubines. Tamar was their sister."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Solomon’s son was Rehoboam, Abia his son, Asa his son, Jehoshaphat his son,",
+      "web": "Solomon’s son was Rehoboam, Abijah his son, Asa his son, Jehoshaphat his son,",
+      "ct": "Solomon's son was Rehoboam, whose son was Abia, whose son was Asa, whose son was Jehoshaphat,"
+    },
+    {
+      "verse": 11,
+      "kjv": "Joram his son, Ahaziah his son, Joash his son,",
+      "web": "Joram his son, Ahaziah his son, Joash his son,",
+      "ct": "whose son was Joram, whose son was Ahaziah, whose son was Joash,"
+    },
+    {
+      "verse": 12,
+      "kjv": "Amaziah his son, Azariah his son, Jotham his son,",
+      "web": "Amaziah his son, Azariah his son, Jotham his son,",
+      "ct": "whose son was Amaziah, whose son was Azariah, whose son was Jotham,"
+    },
+    {
+      "verse": 13,
+      "kjv": "Ahaz his son, Hezekiah his son, Manasseh his son,",
+      "web": "Ahaz his son, Hezekiah his son, Manasseh his son,",
+      "ct": "whose son was Ahaz, whose son was Hezekiah, whose son was Manasseh,"
+    },
+    {
+      "verse": 14,
+      "kjv": "Amon his son, Josiah his son.",
+      "web": "Amon his son, and Josiah his son.",
+      "ct": "whose son was Amon, whose son was Josiah."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the sons of Josiah were, the firstborn Johanan, the second Jehoiakim, the third Zedekiah, the fourth Shallum.",
+      "web": "The sons of Josiah: the firstborn Johanan, the second Jehoiakim, the third Zedekiah, and the fourth Shallum.",
+      "ct": "Josiah's sons were: Johanan the firstborn, Jehoiakim the 2nd, Zedekiah the 3rd, and Shallum the 4th."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the sons of Jehoiakim: Jeconiah his son, Zedekiah his son.",
+      "web": "The sons of Jehoiakim: Jeconiah his son, and Zedekiah his son.",
+      "ct": "Jehoiakim's sons were: Jeconiah and Zedekiah."
+    },
+    {
+      "verse": 17,
+      "kjv": "And the sons of Jeconiah; Assir, Salathiel his son,",
+      "web": "The sons of Jeconiah, the captive: Shealtiel his son,",
+      "ct": "The sons of Jeconiah, who was taken captive: Assir, and his son Salathiel,"
+    },
+    {
+      "verse": 18,
+      "kjv": "Malchiram also, and Pedaiah, and Shenazar, Jecamiah, Hoshama, and Nedabiah.",
+      "web": "Malchiram, Pedaiah, Shenazzar, Jekamiah, Hoshama, and Nedabiah.",
+      "ct": "along with Malchiram, Pedaiah, Shenazar, Jecamiah, Hoshama, and Nedabiah."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the sons of Pedaiah were, Zerubbabel, and Shimei: and the sons of Zerubbabel; Meshullam, and Hananiah, and Shelomith their sister:",
+      "web": "The sons of Pedaiah: Zerubbabel and Shimei. The sons of Zerubbabel: Meshullam and Hananiah; and Shelomith was their sister;",
+      "ct": "Pedaiah's sons were Zerubbabel and Shimei. Zerubbabel's sons were Meshullam and Hananiah, and Shelomith was their sister."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Hashubah, and Ohel, and Berechiah, and Hasadiah, Jushabhesed, five.",
+      "web": "and Hashubah, Ohel, Berechiah, Hasadiah, and Jushab Hesed, five.",
+      "ct": "There were also Hashubah, Ohel, Berechiah, Hasadiah, and Jushabhesed — 5 in all."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the sons of Hananiah; Pelatiah, and Jesaiah: the sons of Rephaiah, the sons of Arnan, the sons of Obadiah, the sons of Shechaniah.",
+      "web": "The sons of Hananiah: Pelatiah and Jeshaiah; the sons of Rephaiah, the sons of Arnan, the sons of Obadiah, the sons of Shecaniah.",
+      "ct": "Hananiah's sons were Pelatiah and Jesaiah. Then came the sons of Rephaiah, the sons of Arnan, the sons of Obadiah, and the sons of Shechaniah."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the sons of Shechaniah; Shemaiah: and the sons of Shemaiah; Hattush, and Igeal, and Bariah, and Neariah, and Shaphat, six.",
+      "web": "The son of Shecaniah: Shemaiah. The sons of Shemaiah: Hattush, Igal, Bariah, Neariah, and Shaphat, six.",
+      "ct": "Shechaniah's son was Shemaiah. Shemaiah's sons were Hattush, Igeal, Bariah, Neariah, and Shaphat — 6 in all."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the sons of Neariah; Elioenai, and Hezekiah, and Azrikam, three.",
+      "web": "The sons of Neariah: Elioenai, Hizkiah, and Azrikam, three.",
+      "ct": "Neariah's sons were Elioenai, Hezekiah, and Azrikam — 3 in all."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the sons of Elioenai were, Hodaiah, and Eliashib, and Pelaiah, and Akkub, and Johanan, and Dalaiah, and Anani, seven.",
+      "web": "The sons of Elioenai: Hodaviah, Eliashib, Pelaiah, Akkub, Johanan, Delaiah, and Anani, seven.",
+      "ct": "Elioenai's sons were Hodaiah, Eliashib, Pelaiah, Akkub, Johanan, Dalaiah, and Anani — 7 in all."
+    }
+  ]
+}
