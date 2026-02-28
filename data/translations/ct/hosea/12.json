@@ -1,0 +1,95 @@
+{
+  "book": "hosea",
+  "book_name": "Hosea",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:51:35.212Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Ephraim feedeth on wind, and followeth after the east wind: he daily increaseth lies and desolation; and they do make a covenant with the Assyrians, and oil is carried into Egypt.",
+      "web": "Ephraim feeds on wind, and chases the east wind. He continually multiplies lies and desolation. They make a covenant with Assyria, and oil is carried into Egypt.",
+      "ct": "Ephraim feeds on wind and chases after the scorching east wind. Day after day they pile up lies and destruction. They cut deals with Assyria and ship olive oil to Egypt."
+    },
+    {
+      "verse": 2,
+      "kjv": "The LORD hath also a controversy with Judah, and will punish Jacob according to his ways; according to his doings will he recompense him.",
+      "web": "LORD also has a controversy with Judah, and will punish Jacob according to his ways; according to his deeds he will repay him.",
+      "ct": "The LORD also has a case against Judah. He will punish Jacob's descendants for how they've lived — he'll repay them for everything they've done."
+    },
+    {
+      "verse": 3,
+      "kjv": "He took his brother by the heel in the womb, and by his strength he had power with God:",
+      "web": "In the womb he took his brother by the heel; and in his manhood he contended with God.",
+      "ct": "Even in the womb, Jacob grabbed his brother by the heel, and when he grew up, he wrestled with God."
+    },
+    {
+      "verse": 4,
+      "kjv": "Yea, he had power over the angel, and prevailed: he wept, and made supplication unto him: he found him in Bethel, and there he spake with us;",
+      "web": "Indeed, he struggled with the angel, and prevailed; he wept, and made supplication to him. He found him at Bethel, and there he spoke with us,",
+      "ct": "He struggled with the angel and won. He wept and begged for a blessing. God met him at Bethel, and there he spoke with us —"
+    },
+    {
+      "verse": 5,
+      "kjv": "Even the LORD God of hosts; the LORD is his memorial.",
+      "web": "even LORD, the God of Armies; LORD is his name of renown!",
+      "ct": "the LORD God of Armies. The LORD is the name by which he is remembered."
+    },
+    {
+      "verse": 6,
+      "kjv": "Therefore turn thou to thy God: keep mercy and judgment, and wait on thy God continually.",
+      "web": "Therefore turn to your God. Keep kindness and justice, and wait continually for your God. ",
+      "ct": "So turn back to your God! Hold on to mercy and justice, and wait for your God at all times."
+    },
+    {
+      "verse": 7,
+      "kjv": "He is a merchant, the balances of deceit are in his hand: he loveth to oppress.",
+      "web": "A merchant has dishonest scales in his hand. He loves to defraud.",
+      "ct": "But Ephraim is like a crooked merchant with rigged scales in his hands — he loves to cheat people."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Ephraim said, Yet I am become rich, I have found me out substance: in all my labours they shall find none iniquity in me that were sin.",
+      "web": "Ephraim said, “Surely I have become rich, I have found myself wealth. In all my wealth they won’t find in me any iniquity that is sin.” ",
+      "ct": "Ephraim boasts, \"Look how rich I've become! I've built up all this wealth on my own. And in everything I've earned, no one can point to any sin or wrongdoing.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And I that am the LORD thy God from the land of Egypt will yet make thee to dwell in tabernacles, as in the days of the solemn feast.",
+      "web": "“But I am LORD your God from the land of Egypt. I will yet again make you dwell in tents, as in the days of the solemn feast.",
+      "ct": "\"But I am the LORD your God, the one who brought you out of Egypt. I will make you live in tents again, just like during the festival days.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "I have also spoken by the prophets, and I have multiplied visions, and used similitudes, by the ministry of the prophets.",
+      "web": "I have also spoken to the prophets, and I have multiplied visions; and by the ministry of the prophets I have used parables.",
+      "ct": "\"I spoke through the prophets and gave them vision after vision. Through those same prophets, I used parables to teach you.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Is there iniquity in Gilead? surely they are vanity: they sacrifice bullocks in Gilgal; yea, their altars are as heaps in the furrows of the fields.",
+      "web": "If Gilead is wicked, surely they are worthless. In Gilgal they sacrifice bulls. Indeed, their altars are like heaps in the furrows of the field.",
+      "ct": "Is Gilead full of wickedness? Then its people are worthless! They sacrifice bulls in Gilgal, but their altars will end up as nothing more than piles of rubble in a plowed field."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Jacob fled into the country of Syria, and Israel served for a wife, and for a wife he kept sheep.",
+      "web": "Jacob fled into the country of Aram, and Israel served to get a wife, and for a wife he tended flocks and herds.",
+      "ct": "Jacob fled to the land of Aram. There Israel worked to earn a wife, and for a wife he tended sheep."
+    },
+    {
+      "verse": 13,
+      "kjv": "And by a prophet the LORD brought Israel out of Egypt, and by a prophet was he preserved.",
+      "web": "By a prophet LORD brought Israel up out of Egypt, and by a prophet he was preserved.",
+      "ct": "Through a prophet, the LORD brought Israel up out of Egypt, and through a prophet, he kept them safe."
+    },
+    {
+      "verse": 14,
+      "kjv": "Ephraim provoked him to anger most bitterly: therefore shall he leave his blood upon him, and his reproach shall his LORD return unto him.",
+      "web": "Ephraim has bitterly provoked anger. Therefore his blood will be left on him, and his Lord will repay his contempt.",
+      "ct": "But Ephraim has provoked the LORD to bitter anger. So the Lord will leave the guilt of their bloodshed on them and repay them for the contempt they've shown him."
+    }
+  ]
+}

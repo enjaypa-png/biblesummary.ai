@@ -1,0 +1,101 @@
+{
+  "book": "hosea",
+  "book_name": "Hosea",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:51:11.475Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Israel is an empty vine, he bringeth forth fruit unto himself: according to the multitude of his fruit he hath increased the altars; according to the goodness of his land they have made goodly images.",
+      "web": "Israel is a luxuriant vine that produces his fruit. According to the abundance of his fruit he has multiplied his altars. As their land has prospered, they have adorned their sacred stones.",
+      "ct": "Israel was like a spreading vine that produced plenty of fruit — but only for itself. The more fruit it produced, the more altars it built. The more the land prospered, the more they decorated their sacred stones."
+    },
+    {
+      "verse": 2,
+      "kjv": "Their heart is divided; now shall they be found faulty: he shall break down their altars, he shall spoil their images.",
+      "web": "Their heart is divided. Now they will be found guilty. He will demolish their altars. He will destroy their sacred stones.",
+      "ct": "Their hearts were divided between God and idols. Now they'll be found guilty. The LORD will tear down their altars and smash their sacred stones."
+    },
+    {
+      "verse": 3,
+      "kjv": "For now they shall say, We have no king, because we feared not the LORD; what then should a king do to us?",
+      "web": "Surely now they will say, “We have no king; for we don’t fear LORD; and the king, what can he do for us?”",
+      "ct": "Then they'll say, \"We have no king, because we didn't fear the LORD. But even if we had a king, what could he do for us?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "They have spoken words, swearing falsely in making a covenant: thus judgment springeth up as hemlock in the furrows of the field.",
+      "web": "They make promises, swearing falsely in making covenants. Therefore judgment springs up like poisonous weeds in the furrows of the field.",
+      "ct": "They make empty promises, swearing false oaths when they make covenants. So judgment springs up like poisonous weeds in the furrows of a plowed field."
+    },
+    {
+      "verse": 5,
+      "kjv": "The inhabitants of Samaria shall fear because of the calves of Bethaven: for the people thereof shall mourn over it, and the priests thereof that rejoiced on it, for the glory thereof, because it is departed from it.",
+      "web": "The inhabitants of Samaria will be in terror for the calves of Beth Aven; for its people will mourn over it, Along with its priests who rejoiced over it, for its glory, because it has departed from it.",
+      "ct": "The people of Samaria will tremble with fear over the calf-idol of Beth Aven. Its worshipers will mourn over it, and its priests will wail, because its glory has been stripped away."
+    },
+    {
+      "verse": 6,
+      "kjv": "It shall be also carried unto Assyria for a present to king Jareb: Ephraim shall receive shame, and Israel shall be ashamed of his own counsel.",
+      "web": "It also will be carried to Assyria for a present to a great king. Ephraim will receive shame, and Israel will be ashamed of his own counsel.",
+      "ct": "The idol itself will be hauled off to Assyria as a gift for the great king. Ephraim will be humiliated, and Israel will be ashamed of the plans they trusted in."
+    },
+    {
+      "verse": 7,
+      "kjv": "As for Samaria, her king is cut off as the foam upon the water.",
+      "web": "Samaria and her king float away, like a twig on the water.",
+      "ct": "Samaria's king will be swept away like foam on the surface of water."
+    },
+    {
+      "verse": 8,
+      "kjv": "The high places also of Aven, the sin of Israel, shall be destroyed: the thorn and the thistle shall come up on their altars; and they shall say to the mountains, Cover us; and to the hills, Fall on us.",
+      "web": "The high places also of Aven, the sin of Israel, will be destroyed. The thorn and the thistle will come up on their altars. They will tell the mountains, “Cover us!” and the hills, “Fall on us!” ",
+      "ct": "The pagan shrines of Aven — Israel's great sin — will be destroyed. Thorns and thistles will grow over their altars. Then they'll cry out to the mountains, \"Cover us!\" and to the hills, \"Fall on us!\""
+    },
+    {
+      "verse": 9,
+      "kjv": "O Israel, thou hast sinned from the days of Gibeah: there they stood: the battle in Gibeah against the children of iniquity did not overtake them.",
+      "web": "“Israel, you have sinned from the days of Gibeah. There they remained. The battle against the children of iniquity doesn’t overtake them in Gibeah.",
+      "ct": "Israel, you have been sinning ever since the days of Gibeah. There you took your stand, and the battle against those wicked people at Gibeah didn't catch up with them."
+    },
+    {
+      "verse": 10,
+      "kjv": "It is in my desire that I should chastise them; and the people shall be gathered against them, when they shall bind themselves in their two furrows.",
+      "web": "When it is my desire, I will chastise them; and the nations will be gathered against them, when they are bound to their two transgressions.",
+      "ct": "When I choose, I will punish them. Nations will be gathered against them to bind them for their double sin."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Ephraim is as an heifer that is taught, and loveth to tread out the corn; but I passed over upon her fair neck: I will make Ephraim to ride; Judah shall plow, and Jacob shall break his clods.",
+      "web": "Ephraim is a trained heifer that loves to thresh; so I will put a yoke on her beautiful neck. I will set a rider on Ephraim. Judah will plow. Jacob will break his clods.",
+      "ct": "Ephraim was like a trained young cow that loved the easy work of threshing grain. But I will place a yoke on her beautiful neck. I will harness Ephraim for hard labor. Judah must plow, and Jacob must break up the soil."
+    },
+    {
+      "verse": 12,
+      "kjv": "Sow to yourselves in righteousness, reap in mercy; break up your fallow ground: for it is time to seek the LORD, till he come and rain righteousness upon you.",
+      "web": "Sow to yourselves in righteousness, reap according to kindness. Break up your fallow ground; for it is time to seek LORD, until he comes and rains righteousness on you.",
+      "ct": "Plant the seeds of righteousness, and you'll harvest the fruit of mercy. Break up your hard, unplowed ground, because now is the time to seek the LORD — until he comes and showers righteousness down on you."
+    },
+    {
+      "verse": 13,
+      "kjv": "Ye have plowed wickedness, ye have reaped iniquity; ye have eaten the fruit of lies: because thou didst trust in thy way, in the multitude of thy mighty men.",
+      "web": "You have plowed wickedness. You have reaped iniquity. You have eaten the fruit of lies, for you trusted in your way, in the multitude of your mighty men.",
+      "ct": "But instead, you planted wickedness and harvested sin. You ate the fruit of your own lies, because you trusted in your own strength and your many warriors."
+    },
+    {
+      "verse": 14,
+      "kjv": "Therefore shall a tumult arise among thy people, and all thy fortresses shall be spoiled, as Shalman spoiled Betharbel in the day of battle: the mother was dashed in pieces upon her children.",
+      "web": "Therefore a battle roar will arise among your people, and all your fortresses will be destroyed, as Shalman destroyed Beth Arbel in the day of battle. The mother was dashed in pieces with her children.",
+      "ct": "So the roar of battle will rise against your people, and all your fortresses will be torn apart — just as Shalman destroyed Beth Arbel on the day of battle, when mothers were crushed alongside their children."
+    },
+    {
+      "verse": 15,
+      "kjv": "So shall Bethel do unto you because of your great wickedness: in a morning shall the king of Israel utterly be cut off.",
+      "web": "So Bethel will do to you because of your great wickedness. At daybreak the king of Israel will be destroyed.",
+      "ct": "This is what will happen to you, Bethel, because of your overwhelming wickedness. When dawn breaks, Israel's king will be completely destroyed."
+    }
+  ]
+}

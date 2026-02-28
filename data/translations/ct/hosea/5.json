@@ -1,0 +1,101 @@
+{
+  "book": "hosea",
+  "book_name": "Hosea",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:49:59.392Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Hear ye this, O priests; and hearken, ye house of Israel; and give ye ear, O house of the king; for judgment is toward you, because ye have been a snare on Mizpah, and a net spread upon Tabor.",
+      "web": "“Listen to this, you priests! Listen, house of Israel, and give ear, house of the king! For the judgment is against you; for you have been a snare at Mizpah, and a net spread on Tabor.",
+      "ct": "Listen to this, you priests! Pay attention, people of Israel! Hear this, you royal household! This judgment is aimed at you, because you've been a trap at Mizpah and a net spread out on Tabor."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the revolters are profound to make slaughter, though I have been a rebuker of them all.",
+      "web": "The rebels are deep in slaughter; but I discipline all of them.",
+      "ct": "These rebels have sunk deep into slaughter, but I will discipline every one of them."
+    },
+    {
+      "verse": 3,
+      "kjv": "I know Ephraim, and Israel is not hid from me: for now, O Ephraim, thou committest whoredom, and Israel is defiled.",
+      "web": "I know Ephraim, and Israel is not hidden from me; for now, Ephraim, you have played the prostitute. Israel is defiled.",
+      "ct": "I know Ephraim well, and Israel can't hide from me. Ephraim, you have prostituted yourself, and Israel is stained with sin."
+    },
+    {
+      "verse": 4,
+      "kjv": "They will not frame their doings to turn unto their God: for the spirit of whoredoms is in the midst of them, and they have not known the LORD.",
+      "web": "Their deeds won’t allow them to turn to their God; for the spirit of prostitution is within them, and they don’t know LORD.",
+      "ct": "Their actions won't let them return to their God. A spirit of prostitution controls them from the inside, and they don't know the LORD."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the pride of Israel doth testify to his face: therefore shall Israel and Ephraim fall in their iniquity; Judah also shall fall with them.",
+      "web": "The pride of Israel testifies to his face. Therefore Israel and Ephraim will stumble in their iniquity. Judah also will stumble with them.",
+      "ct": "Israel's own arrogance testifies against them. Because of their sin, both Israel and Ephraim will stumble and fall — and Judah will fall right alongside them."
+    },
+    {
+      "verse": 6,
+      "kjv": "They shall go with their flocks and with their herds to seek the LORD; but they shall not find him; he hath withdrawn himself from them.",
+      "web": "They will go with their flocks and with their herds to seek LORD; but they won’t find him. He has withdrawn himself from them.",
+      "ct": "They will come looking for the LORD with their flocks and herds to offer sacrifices, but they won't find him. He has pulled away from them."
+    },
+    {
+      "verse": 7,
+      "kjv": "They have dealt treacherously against the LORD: for they have begotten strange children: now shall a month devour them with their portions.",
+      "web": "They are unfaithful to LORD; for they have borne illegitimate children. Now the new moon will devour them with their fields. ",
+      "ct": "They have been unfaithful to the LORD, fathering children who don't belong to him. Now within a single month, destruction will consume them and everything they have."
+    },
+    {
+      "verse": 8,
+      "kjv": "Blow ye the cornet in Gibeah, and the trumpet in Ramah: cry aloud at Bethaven, after thee, O Benjamin.",
+      "web": "“Blow the cornet in Gibeah, and the trumpet in Ramah! Sound a battle cry at Beth Aven, behind you, Benjamin!",
+      "ct": "Blow the ram's horn in Gibeah! Sound the trumpet in Ramah! Raise the battle cry at Beth-aven! The enemy is right behind you, Benjamin!"
+    },
+    {
+      "verse": 9,
+      "kjv": "Ephraim shall be desolate in the day of rebuke: among the tribes of Israel have I made known that which shall surely be.",
+      "web": "Ephraim will become a desolation in the day of rebuke. Among the tribes of Israel, I have made known that which will surely be.",
+      "ct": "Ephraim will become a wasteland on the day of punishment. I have announced among the tribes of Israel what is certain to happen."
+    },
+    {
+      "verse": 10,
+      "kjv": "The princes of Judah were like them that remove the bound: therefore I will pour out my wrath upon them like water.",
+      "web": "The princes of Judah are like those who remove a landmark. I will pour out my wrath on them like water.",
+      "ct": "The leaders of Judah act like people who steal their neighbor's land by moving boundary markers. I will pour out my wrath on them like a flood."
+    },
+    {
+      "verse": 11,
+      "kjv": "Ephraim is oppressed and broken in judgment, because he willingly walked after the commandment.",
+      "web": "Ephraim is oppressed, he is crushed in judgment; Because he is intent in his pursuit of idols.",
+      "ct": "Ephraim is crushed and broken by judgment, because he chose to chase after worthless idols."
+    },
+    {
+      "verse": 12,
+      "kjv": "Therefore will I be unto Ephraim as a moth, and to the house of Judah as rottenness.",
+      "web": "Therefore I am to Ephraim like a moth, and to the house of Judah like rottenness. ",
+      "ct": "So I will be like a moth eating away at Ephraim, and like rot slowly destroying the house of Judah."
+    },
+    {
+      "verse": 13,
+      "kjv": "When Ephraim saw his sickness, and Judah saw his wound, then went Ephraim to the Assyrian, and sent to king Jareb: yet could he not heal you, nor cure you of your wound.",
+      "web": "“When Ephraim saw his sickness, and Judah his wound, Then Ephraim went to Assyria, and sent to king Jareb: but he is not able to heal you, neither will he cure you of your wound.",
+      "ct": "When Ephraim noticed his sickness and Judah saw his wounds, Ephraim ran to Assyria and sent for help from King Jareb. But that king can't heal you or cure your wounds."
+    },
+    {
+      "verse": 14,
+      "kjv": "For I will be unto Ephraim as a lion, and as a young lion to the house of Judah: I, even I, will tear and go away; I will take away, and none shall rescue him.",
+      "web": "For I will be to Ephraim like a lion, and like a young lion to the house of Judah. I myself will tear in pieces and go away. I will carry off, and there will be no one to deliver.",
+      "ct": "I will be like a lion to Ephraim, like a young lion to the house of Judah. I myself will tear them apart and walk away. I will carry them off, and no one will be able to rescue them."
+    },
+    {
+      "verse": 15,
+      "kjv": "I will go and return to my place, till they acknowledge their offence, and seek my face: in their affliction they will seek me early.",
+      "web": "I will go and return to my place, until they acknowledge their offense, and seek my face. In their affliction they will seek me earnestly.”",
+      "ct": "Then I will go back to my place and wait — wait until they admit what they've done and come looking for me. When suffering hits them hard enough, they will search for me desperately."
+    }
+  ]
+}

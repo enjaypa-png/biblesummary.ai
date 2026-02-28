@@ -9,7 +9,7 @@ const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'placeholde
  */
 export const supabase = createBrowserClient(supabaseUrl, supabaseAnonKey, {
   auth: {
-    flowType: 'pkce',
+    flowType: 'implicit',
     detectSessionInUrl: true,
     persistSession: true,
     autoRefreshToken: true,

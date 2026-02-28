@@ -1,0 +1,41 @@
+{
+  "book": "hosea",
+  "book_name": "Hosea",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:49:29.549Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then said the LORD unto me, Go yet, love a woman beloved of her friend, yet an adulteress, according to the love of the LORD toward the children of Israel, who look to other gods, and love flagons of wine.",
+      "web": "LORD said to me, “Go again, love a woman loved by another, and an adulteress, even as LORD loves the children of Israel, though they turn to other gods, and love cakes of raisins.”",
+      "ct": "The LORD told me, \"Go and love this woman again — a woman who is loved by another man and has been unfaithful. Love her the way the LORD loves the people of Israel, even though they keep turning to other gods and craving their raisin cakes offered to idols.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "So I bought her to me for fifteen pieces of silver, and for an homer of barley, and an half homer of barley:",
+      "web": "So I bought her for myself for fifteen pieces of silver and a homer and a half of barley.",
+      "ct": "So I bought her back for 15 pieces of silver and a homer and a half of barley."
+    },
+    {
+      "verse": 3,
+      "kjv": "And I said unto her, Thou shalt abide for me many days; thou shalt not play the harlot, and thou shalt not be for another man: so will I also be for thee.",
+      "web": "I said to her, “You shall stay with me many days. You shall not play the prostitute, and you shall not be with any other man. I will also be so toward you.”",
+      "ct": "Then I told her, \"You're going to stay with me for a long time. You must not sell yourself to other men, and you must not be with anyone else. And I will be faithful to you as well.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "For the children of Israel shall abide many days without a king, and without a prince, and without a sacrifice, and without an image, and without an ephod, and without teraphim:",
+      "web": "For the children of Israel shall live many days without king, and without prince, and without sacrifice, and without sacred stone, and without ephod or idols.",
+      "ct": "In the same way, the people of Israel will go a long time without a king, without a prince, without sacrifices, without sacred pillars, without an ephod, and without household idols."
+    },
+    {
+      "verse": 5,
+      "kjv": "Afterward shall the children of Israel return, and seek the LORD their God, and David their king; and shall fear the LORD and his goodness in the latter days.",
+      "web": "Afterward the children of Israel shall return, and seek LORD their God, and David their king, and shall come with trembling to LORD and to his blessings in the last days.",
+      "ct": "But after that, the people of Israel will come back and seek the LORD their God and David their king. In the last days, they will come trembling before the LORD and his goodness."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "book": "joel",
+  "book_name": "Joel",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:52:20.629Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word of the LORD that came to Joel the son of Pethuel.",
+      "web": "LORD’s word that came to Joel, the son of Pethuel. ",
+      "ct": "This is the word of the LORD that came to Joel son of Pethuel."
+    },
+    {
+      "verse": 2,
+      "kjv": "Hear this, ye old men, and give ear, all ye inhabitants of the land. Hath this been in your days, or even in the days of your fathers?",
+      "web": "Hear this, you elders, And listen, all you inhabitants of the land. Has this ever happened in your days, or in the days of your fathers?",
+      "ct": "Listen to this, you elders! Pay attention, everyone who lives in this land. Has anything like this ever happened in your lifetime, or in the lifetime of your ancestors?"
+    },
+    {
+      "verse": 3,
+      "kjv": "Tell ye your children of it, and let your children tell their children, and their children another generation.",
+      "web": "Tell your children about it, and have your children tell their children, and their children, another generation.",
+      "ct": "Tell your children about it. Let your children tell their children, and let their children tell the next generation."
+    },
+    {
+      "verse": 4,
+      "kjv": "That which the palmerworm hath left hath the locust eaten; and that which the locust hath left hath the cankerworm eaten; and that which the cankerworm hath left hath the caterpiller eaten.",
+      "web": "What the swarming locust has left, the great locust has eaten. What the great locust has left, the grasshopper has eaten. What the grasshopper has left, the caterpillar has eaten.",
+      "ct": "What one swarm of locusts left behind, the next swarm devoured. What that swarm left, another wave consumed. And what they left, still another wave finished off."
+    },
+    {
+      "verse": 5,
+      "kjv": "Awake, ye drunkards, and weep; and howl, all ye drinkers of wine, because of the new wine; for it is cut off from your mouth.",
+      "web": "Wake up, you drunkards, and weep! Wail, all you drinkers of wine, because of the sweet wine; for it is cut off from your mouth.",
+      "ct": "Wake up, you drunkards, and weep! Wail, all of you who love wine, because the sweet wine has been snatched from your lips."
+    },
+    {
+      "verse": 6,
+      "kjv": "For a nation is come up upon my land, strong, and without number, whose teeth are the teeth of a lion, and he hath the cheek teeth of a great lion.",
+      "web": "For a nation has come up on my land, strong, and without number. His teeth are the teeth of a lion, and he has the fangs of a lioness.",
+      "ct": "A nation has invaded my land — powerful and too vast to count. Their teeth are like a lion's teeth, their fangs like those of a lioness."
+    },
+    {
+      "verse": 7,
+      "kjv": "He hath laid my vine waste, and barked my fig tree: he hath made it clean bare, and cast it away; the branches thereof are made white.",
+      "web": "He has laid my vine waste, and stripped my fig tree. He has stripped its bark, and thrown it away. Its branches are made white.",
+      "ct": "They've destroyed my grapevines and stripped my fig trees bare. They've peeled off the bark and thrown it aside, leaving the branches white and exposed."
+    },
+    {
+      "verse": 8,
+      "kjv": "Lament like a virgin girded with sackcloth for the husband of her youth.",
+      "web": "Mourn like a virgin dressed in sackcloth for the husband of her youth!",
+      "ct": "Mourn like a young woman dressed in sackcloth, grieving for the husband she lost before their life together even began."
+    },
+    {
+      "verse": 9,
+      "kjv": "The meat offering and the drink offering is cut off from the house of the LORD; the priests, the LORD’s ministers, mourn.",
+      "web": "The meal offering and the drink offering are cut off from LORD’s house. The priests, LORD’s ministers, mourn.",
+      "ct": "The grain offerings and drink offerings have been cut off from the house of the LORD. The priests who serve the LORD are in mourning."
+    },
+    {
+      "verse": 10,
+      "kjv": "The field is wasted, the land mourneth; for the corn is wasted: the new wine is dried up, the oil languisheth.",
+      "web": "The field is laid waste. The land mourns, for the grain is destroyed, The new wine has dried up, and the oil languishes.",
+      "ct": "The fields are ruined. The land itself seems to grieve — the grain is destroyed, the new wine has dried up, and the olive oil is gone."
+    },
+    {
+      "verse": 11,
+      "kjv": "Be ye ashamed, O ye husbandmen; howl, O ye vinedressers, for the wheat and for the barley; because the harvest of the field is perished.",
+      "web": "Be confounded, you farmers! Wail, you vineyard keepers; for the wheat and for the barley; for the harvest of the field has perished.",
+      "ct": "Despair, you farmers! Wail, you who tend the vineyards! Grieve over the wheat and the barley, because the harvest has been completely lost."
+    },
+    {
+      "verse": 12,
+      "kjv": "The vine is dried up, and the fig tree languisheth; the pomegranate tree, the palm tree also, and the apple tree, even all the trees of the field, are withered: because joy is withered away from the sons of men.",
+      "web": "The vine has dried up, and the fig tree withered; the pomegranate tree, the palm tree also, and the apple tree, even all of the trees of the field are withered; for joy has withered away from the sons of men.",
+      "ct": "The grapevines have dried up and the fig trees have withered. The pomegranate, the palm, the apple tree — every tree in the field has shriveled. Joy itself has withered among the people."
+    },
+    {
+      "verse": 13,
+      "kjv": "Gird yourselves, and lament, ye priests: howl, ye ministers of the altar: come, lie all night in sackcloth, ye ministers of my God: for the meat offering and the drink offering is withholden from the house of your God.",
+      "web": "Put on sackcloth and mourn, you priests! Wail, you ministers of the altar. Come, lie all night in sackcloth, you ministers of my God, for the meal offering and the drink offering are withheld from your God’s house.",
+      "ct": "Put on sackcloth and mourn, you priests! Wail, you who serve at the altar! Come and spend the night in sackcloth, you ministers of my God, because the grain offerings and drink offerings are being withheld from the house of your God."
+    },
+    {
+      "verse": 14,
+      "kjv": "Sanctify ye a fast, call a solemn assembly, gather the elders and all the inhabitants of the land into the house of the LORD your God, and cry unto the LORD.",
+      "web": "Sanctify a fast. Call a solemn assembly. Gather the elders, and all the inhabitants of the land, to the house of LORD, your God, and cry to LORD.",
+      "ct": "Declare a holy fast. Call a solemn assembly. Gather the elders and everyone in the land to the house of the LORD your God, and cry out to the LORD."
+    },
+    {
+      "verse": 15,
+      "kjv": "Alas for the day! for the day of the LORD is at hand, and as a destruction from the Almighty shall it come.",
+      "web": "Alas for the day! For the day of LORD is at hand, and it will come as destruction from the Almighty.",
+      "ct": "What a terrible day! The day of the LORD is near — it will come like destruction from the Almighty."
+    },
+    {
+      "verse": 16,
+      "kjv": "Is not the meat cut off before our eyes, yea, joy and gladness from the house of our God?",
+      "web": "Isn’t the food cut off before our eyes; joy and gladness from the house of our God?",
+      "ct": "Haven't we watched our food disappear right before our eyes? Haven't joy and gladness vanished from the house of our God?"
+    },
+    {
+      "verse": 17,
+      "kjv": "The seed is rotten under their clods, the garners are laid desolate, the barns are broken down; for the corn is withered.",
+      "web": "The seeds rot under their clods. The granaries are laid desolate. The barns are broken down, for the grain has withered.",
+      "ct": "The seeds rot beneath the dried-out soil. The storehouses stand empty. The barns are falling apart because there's no grain to fill them."
+    },
+    {
+      "verse": 18,
+      "kjv": "How do the beasts groan! the herds of cattle are perplexed, because they have no pasture; yea, the flocks of sheep are made desolate.",
+      "web": "How the animals groan! The herds of livestock are perplexed, because they have no pasture. Yes, the flocks of sheep are made desolate.",
+      "ct": "Listen to the animals groan! The cattle wander in confusion because there's no pasture left. Even the flocks of sheep are wasting away."
+    },
+    {
+      "verse": 19,
+      "kjv": "O LORD, to thee will I cry: for the fire hath devoured the pastures of the wilderness, and the flame hath burned all the trees of the field.",
+      "web": "LORD, I cry to you, For the fire has devoured the pastures of the wilderness, and the flame has burned all the trees of the field.",
+      "ct": "LORD, I cry out to you! Fire has consumed the open pastures, and flames have burned every tree in the field."
+    },
+    {
+      "verse": 20,
+      "kjv": "The beasts of the field cry also unto thee: for the rivers of waters are dried up, and the fire hath devoured the pastures of the wilderness.",
+      "web": "Yes, the animals of the field pant to you, for the water brooks have dried up, And the fire has devoured the pastures of the wilderness.",
+      "ct": "Even the wild animals cry out to you, because the streams have dried up and fire has devoured the pastures of the wilderness."
+    }
+  ]
+}

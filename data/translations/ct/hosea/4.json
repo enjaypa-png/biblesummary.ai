@@ -1,0 +1,125 @@
+{
+  "book": "hosea",
+  "book_name": "Hosea",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:49:45.252Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Hear the word of the LORD, ye children of Israel: for the LORD hath a controversy with the inhabitants of the land, because there is no truth, nor mercy, nor knowledge of God in the land.",
+      "web": "Hear LORD’s word, you children of Israel; for LORD has a charge against the inhabitants of the land: “Indeed there is no truth, nor goodness, nor knowledge of God in the land.",
+      "ct": "Listen to the word of the LORD, people of Israel! The LORD has a case against everyone living in this land. There is no faithfulness, no mercy, and no knowledge of God anywhere in the land."
+    },
+    {
+      "verse": 2,
+      "kjv": "By swearing, and lying, and killing, and stealing, and committing adultery, they break out, and blood toucheth blood.",
+      "web": "There is cursing, lying, murder, stealing, and committing adultery; they break boundaries, and bloodshed causes bloodshed.",
+      "ct": "Instead, there is cursing, lying, murder, stealing, and adultery. Violence has broken all boundaries, and one act of bloodshed follows another."
+    },
+    {
+      "verse": 3,
+      "kjv": "Therefore shall the land mourn, and every one that dwelleth therein shall languish, with the beasts of the field, and with the fowls of heaven; yea, the fishes of the sea also shall be taken away.",
+      "web": "Therefore the land will mourn, and everyone who dwells in it will waste away, with all living things in her, even the animals of the field and the birds of the sky, yes, the fish of the sea also die. ",
+      "ct": "Because of this, the land itself will mourn. Everyone living in it will waste away, along with the wild animals, the birds of the sky, and even the fish of the sea — all of them will perish."
+    },
+    {
+      "verse": 4,
+      "kjv": "Yet let no man strive, nor reprove another: for thy people are as they that strive with the priest.",
+      "web": "“Yet let no man bring a charge, neither let any man accuse; for your people are like those who bring charges against a priest.",
+      "ct": "\"But don't let anyone point fingers or accuse someone else. My complaint is with you, the priests — your people are as guilty as those who argue against a priest.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Therefore shalt thou fall in the day, and the prophet also shall fall with thee in the night, and I will destroy thy mother.",
+      "web": "You will stumble in the day, and the prophet will also stumble with you in the night; and I will destroy your mother.",
+      "ct": "You will stumble in broad daylight, and the prophet will stumble with you in the night. I will destroy your mother nation."
+    },
+    {
+      "verse": 6,
+      "kjv": "My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee, that thou shalt be no priest to me: seeing thou hast forgotten the law of thy God, I will also forget thy children.",
+      "web": "My people are destroyed for lack of knowledge. Because you have rejected knowledge, I will also reject you, that you may be no priest to me. Because you have forgotten your God’s law, I will also forget your children.",
+      "ct": "My people are destroyed for lack of knowledge. Because you rejected knowledge, I will reject you from serving as my priest. Because you forgot the law of your God, I will forget your children."
+    },
+    {
+      "verse": 7,
+      "kjv": "As they were increased, so they sinned against me: therefore will I change their glory into shame.",
+      "web": "As they were multiplied, so they sinned against me. I will change their glory into shame.",
+      "ct": "The more they multiplied, the more they sinned against me. So I will turn their glory into shame."
+    },
+    {
+      "verse": 8,
+      "kjv": "They eat up the sin of my people, and they set their heart on their iniquity.",
+      "web": "They feed on the sin of my people, and set their heart on their iniquity.",
+      "ct": "The priests feed on the sin of my people and crave their wickedness."
+    },
+    {
+      "verse": 9,
+      "kjv": "And there shall be, like people, like priest: and I will punish them for their ways, and reward them their doings.",
+      "web": "It will be, like people, like priest; and I will punish them for their ways, and will repay them for their deeds.",
+      "ct": "It will be the same for the priest as for the people — I will punish them all for their behavior and pay them back for what they've done."
+    },
+    {
+      "verse": 10,
+      "kjv": "For they shall eat, and not have enough: they shall commit whoredom, and shall not increase: because they have left off to take heed to the LORD.",
+      "web": "They will eat, and not have enough. They will play the prostitute, and will not increase; because they have abandoned giving to LORD.",
+      "ct": "They will eat but never be satisfied. They will chase after prostitutes but never grow in number, because they have abandoned the LORD."
+    },
+    {
+      "verse": 11,
+      "kjv": "Whoredom and wine and new wine take away the heart.",
+      "web": "Prostitution, wine, and new wine take away understanding.",
+      "ct": "Prostitution, old wine, and new wine steal away a person's understanding."
+    },
+    {
+      "verse": 12,
+      "kjv": "My people ask counsel at their stocks, and their staff declareth unto them: for the spirit of whoredoms hath caused them to err, and they have gone a whoring from under their God.",
+      "web": "My people consult with their wooden idol, and answer to a stick of wood. Indeed the spirit of prostitution has led them astray, and they have been unfaithful to their God.",
+      "ct": "My people ask a wooden idol for guidance and expect answers from a stick! A spirit of prostitution has led them astray, and they have been unfaithful to their God."
+    },
+    {
+      "verse": 13,
+      "kjv": "They sacrifice upon the tops of the mountains, and burn incense upon the hills, under oaks and poplars and elms, because the shadow thereof is good: therefore your daughters shall commit whoredom, and your spouses shall commit adultery.",
+      "web": "They sacrifice on the tops of the mountains, and burn incense on the hills, under oaks and poplars and terebinths, because its shade is good. Therefore your daughters play the prostitute, and your brides commit adultery.",
+      "ct": "They offer sacrifices on the mountaintops and burn incense on the hills, under oak trees, poplar trees, and elms, because the shade is pleasant. That is why your daughters turn to prostitution and your brides commit adultery."
+    },
+    {
+      "verse": 14,
+      "kjv": "I will not punish your daughters when they commit whoredom, nor your spouses when they commit adultery: for themselves are separated with whores, and they sacrifice with harlots: therefore the people that doth not understand shall fall.",
+      "web": "I will not punish your daughters when they play the prostitute, nor your brides when they commit adultery; because the men consort with prostitutes, and they sacrifice with the shrine prostitutes; so the people without understanding will come to ruin. ",
+      "ct": "I won't punish your daughters for their prostitution or your brides for their adultery — because the men themselves go off with prostitutes and offer sacrifices alongside shrine prostitutes. A people without understanding will be ruined."
+    },
+    {
+      "verse": 15,
+      "kjv": "Though thou, Israel, play the harlot, yet let not Judah offend; and come not ye unto Gilgal, neither go ye up to Bethaven, nor swear, The LORD liveth.",
+      "web": "“Though you, Israel, play the prostitute, yet don’t let Judah offend; and don’t come to Gilgal, neither go up to Beth Aven, nor swear, ‘As LORD lives.’",
+      "ct": "Even though you, Israel, act like a prostitute, don't let Judah become guilty too. Don't go to Gilgal, don't go up to Beth Aven, and don't swear oaths saying, \"As the LORD lives.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "For Israel slideth back as a backsliding heifer: now the LORD will feed them as a lamb in a large place.",
+      "web": "For Israel has behaved extremely stubbornly, like a stubborn heifer. Then how will LORD feed them like a lamb in a meadow.",
+      "ct": "Israel is as stubborn as a headstrong cow. How can the LORD pasture them like a lamb in an open meadow?"
+    },
+    {
+      "verse": 17,
+      "kjv": "Ephraim is joined to idols: let him alone.",
+      "web": "Ephraim is joined to idols. Leave him alone!",
+      "ct": "Ephraim is married to his idols — leave him alone!"
+    },
+    {
+      "verse": 18,
+      "kjv": "Their drink is sour: they have committed whoredom continually: her rulers with shame do love, Give ye.",
+      "web": "Their drink has become sour. They play the prostitute continually. Her rulers dearly love their shameful way.",
+      "ct": "Even when their wine runs sour, they keep chasing after prostitutes. Their rulers are deeply in love with their shameful ways."
+    },
+    {
+      "verse": 19,
+      "kjv": "The wind hath bound her up in her wings, and they shall be ashamed because of their sacrifices.",
+      "web": "The wind has wrapped her up in its wings; and they shall be disappointed because of their sacrifices.",
+      "ct": "A wind has swept them up in its wings, and they will be put to shame because of their sacrifices."
+    }
+  ]
+}

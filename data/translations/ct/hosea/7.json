@@ -1,0 +1,107 @@
+{
+  "book": "hosea",
+  "book_name": "Hosea",
+  "chapter": 7,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:50:25.604Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "When I would have healed Israel, then the iniquity of Ephraim was discovered, and the wickedness of Samaria: for they commit falsehood; and the thief cometh in, and the troop of robbers spoileth without.",
+      "web": "When I would heal Israel, then the iniquity of Ephraim is uncovered, also the wickedness of Samaria; for they commit falsehood, and the thief enters in, and the gang of robbers ravages outside.",
+      "ct": "Whenever I try to heal Israel, the sin of Ephraim is exposed, along with the wickedness of Samaria. They practice deceit — thieves break into houses while gangs of robbers plunder in the streets."
+    },
+    {
+      "verse": 2,
+      "kjv": "And they consider not in their hearts that I remember all their wickedness: now their own doings have beset them about; they are before my face.",
+      "web": "They don’t consider in their hearts that I remember all their wickedness. Now their own deeds have engulfed them. They are before my face.",
+      "ct": "It never crosses their minds that I remember every wicked thing they've done. Their sins have piled up all around them — I see it all right in front of me."
+    },
+    {
+      "verse": 3,
+      "kjv": "They make the king glad with their wickedness, and the princes with their lies.",
+      "web": "They make the king glad with their wickedness, and the princes with their lies.",
+      "ct": "Their wickedness delights the king, and their lies entertain the princes."
+    },
+    {
+      "verse": 4,
+      "kjv": "They are all adulterers, as an oven heated by the baker, who ceaseth from raising after he hath kneaded the dough, until it be leavened.",
+      "web": "They are all adulterers. They are burning like an oven that the baker stops stirring, from the kneading of the dough, until it is leavened.",
+      "ct": "They are all adulterers, burning with desire like an oven that a baker heats up and then leaves alone — from the time the dough is kneaded until it rises."
+    },
+    {
+      "verse": 5,
+      "kjv": "In the day of our king the princes have made him sick with bottles of wine; he stretched out his hand with scorners.",
+      "web": "On the day of our king, the princes made themselves sick with the heat of wine. He joined his hand with mockers.",
+      "ct": "On the day they celebrated their king, the princes made themselves sick with wine, and the king joined hands with those who mocked God."
+    },
+    {
+      "verse": 6,
+      "kjv": "For they have made ready their heart like an oven, whiles they lie in wait: their baker sleepeth all the night; in the morning it burneth as a flaming fire.",
+      "web": "For they have prepared their heart like an oven, while they lie in wait. Their baker sleeps all the night. In the morning it burns as a flaming fire.",
+      "ct": "Their hearts smolder like an oven as they plot in secret. Their scheming simmers all night long, and by morning it blazes into a roaring fire."
+    },
+    {
+      "verse": 7,
+      "kjv": "They are all hot as an oven, and have devoured their judges; all their kings are fallen: there is none among them that calleth unto me.",
+      "web": "They are all hot as an oven, and devour their judges. All their kings have fallen. There is no one among them who calls to me.",
+      "ct": "They all burn hot as an oven and consume their own leaders. Their kings have fallen one after another, yet not one of them calls out to me."
+    },
+    {
+      "verse": 8,
+      "kjv": "Ephraim, he hath mixed himself among the people; Ephraim is a cake not turned.",
+      "web": "Ephraim, he mixes himself among the nations. Ephraim is a pancake not turned over.",
+      "ct": "Ephraim has mixed himself in with the surrounding nations. Ephraim is like a flatbread that's only cooked on one side — half-baked and useless."
+    },
+    {
+      "verse": 9,
+      "kjv": "Strangers have devoured his strength, and he knoweth it not: yea, gray hairs are here and there upon him, yet he knoweth not.",
+      "web": "Strangers have devoured his strength, and he doesn’t realize it. Indeed, gray hairs are here and there on him, and he doesn’t realize it.",
+      "ct": "Foreigners have drained his strength, but he doesn't even realize it. Gray hairs are spreading across his head, but he doesn't notice."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the pride of Israel testifieth to his face: and they do not return to the LORD their God, nor seek him for all this.",
+      "web": "The pride of Israel testifies to his face; yet they haven’t returned to LORD their God, nor sought him, for all this. ",
+      "ct": "Israel's arrogance testifies right to his face, yet even after all of this, they still haven't returned to the LORD their God or sought him."
+    },
+    {
+      "verse": 11,
+      "kjv": "Ephraim also is like a silly dove without heart: they call to Egypt, they go to Assyria.",
+      "web": "“Ephraim is like an easily deceived dove, without understanding. They call to Egypt. They go to Assyria.",
+      "ct": "Ephraim is like a foolish dove with no sense — calling out to Egypt for help one moment, then running to Assyria the next."
+    },
+    {
+      "verse": 12,
+      "kjv": "When they shall go, I will spread my net upon them; I will bring them down as the fowls of the heaven; I will chastise them, as their congregation hath heard.",
+      "web": "When they go, I will spread my net on them. I will bring them down like the birds of the sky. I will chastise them, as their congregation has heard.",
+      "ct": "But when they go, I will throw my net over them and pull them down like birds from the sky. I will discipline them, just as I warned their people I would."
+    },
+    {
+      "verse": 13,
+      "kjv": "Woe unto them! for they have fled from me: destruction unto them! because they have transgressed against me: though I have redeemed them, yet they have spoken lies against me.",
+      "web": "Woe to them! For they have wandered from me. Destruction to them! For they have trespassed against me. Though I would redeem them, yet they have spoken lies against me.",
+      "ct": "How terrible it will be for them, because they have strayed from me! Destruction is coming, because they have rebelled against me! I wanted to rescue them, but they kept telling lies about me."
+    },
+    {
+      "verse": 14,
+      "kjv": "And they have not cried unto me with their heart, when they howled upon their beds: they assemble themselves for corn and wine, and they rebel against me.",
+      "web": "They haven’t cried to me with their heart, but they howl on their beds. They assemble themselves for grain and new wine. They turn away from me.",
+      "ct": "They don't cry out to me from their hearts — they just wail on their beds. They gather together begging for grain and wine, but they turn their backs on me."
+    },
+    {
+      "verse": 15,
+      "kjv": "Though I have bound and strengthened their arms, yet do they imagine mischief against me.",
+      "web": "Though I have taught and strengthened their arms, yet they plot evil against me.",
+      "ct": "I trained them and made their arms strong, yet they plot evil against me."
+    },
+    {
+      "verse": 16,
+      "kjv": "They return, but not to the most High: they are like a deceitful bow: their princes shall fall by the sword for the rage of their tongue: this shall be their derision in the land of Egypt.",
+      "web": "They return, but not to the Most High. They are like a faulty bow. Their princes will fall by the sword for the rage of their tongue. This will be their derision in the land of Egypt.",
+      "ct": "They turn, but not to the Most High. They are like a warped bow that can't shoot straight. Their princes will die by the sword because of their defiant words, and the Egyptians will laugh at them for it."
+    }
+  ]
+}
