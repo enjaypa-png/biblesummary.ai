@@ -1,0 +1,161 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:02:07.649Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Hear ye the word which the LORD speaketh unto you, O house of Israel:",
+      "web": "Hear the word which LORD speaks to you, house of Israel!",
+      "ct": "Listen to the message the LORD speaks to you, people of Israel:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Thus saith the LORD, Learn not the way of the heathen, and be not dismayed at the signs of heaven; for the heathen are dismayed at them.",
+      "web": "LORD says, “Don’t learn the way of the nations, and don’t be dismayed at the signs of the sky; for the nations are dismayed at them.",
+      "ct": "The LORD says, \"Don't adopt the practices of other nations, and don't panic over signs in the sky. The nations are terrified by those things, but you shouldn't be."
+    },
+    {
+      "verse": 3,
+      "kjv": "For the customs of the people are vain: for one cutteth a tree out of the forest, the work of the hands of the workman, with the axe.",
+      "web": "For the customs of the peoples are vanity; for one cuts a tree out of the forest, the work of the hands of the workman with the ax.",
+      "ct": "The customs of these peoples are worthless. Someone chops down a tree in the forest, and a craftsman shapes it with an axe."
+    },
+    {
+      "verse": 4,
+      "kjv": "They deck it with silver and with gold; they fasten it with nails and with hammers, that it move not.",
+      "web": "They deck it with silver and with gold. They fasten it with nails and with hammers, so that it can’t move.",
+      "ct": "They decorate it with silver and gold, then nail it down with hammers so it won't fall over."
+    },
+    {
+      "verse": 5,
+      "kjv": "They are upright as the palm tree, but speak not: they must needs be borne, because they cannot go. Be not afraid of them; for they cannot do evil, neither also is it in them to do good.",
+      "web": "They are like a palm tree, of turned work, and don’t speak. They must be carried, because they can’t move. Don’t be afraid of them; for they can’t do evil, neither is it in them to do good.”",
+      "ct": "These idols stand there stiff as a scarecrow in a field, but they can't speak. They have to be carried around because they can't walk. Don't be afraid of them — they can't harm you, and they certainly can't help you.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Forasmuch as there is none like unto thee, O LORD; thou art great, and thy name is great in might.",
+      "web": "There is no one like you, LORD. You are great, and your name is great in might.",
+      "ct": "No one is like you, LORD. You are great, and your name carries tremendous power."
+    },
+    {
+      "verse": 7,
+      "kjv": "Who would not fear thee, O King of nations? for to thee doth it appertain: forasmuch as among all the wise men of the nations, and in all their kingdoms, there is none like unto thee.",
+      "web": "Who shouldn’t fear you, King of the nations? For it belongs to you. Because among all the wise men of the nations, and in all their royal estate, there is no one like you.",
+      "ct": "Who wouldn't fear you, King of all nations? You deserve it. Among all the wise people of every nation and every kingdom, there is no one like you."
+    },
+    {
+      "verse": 8,
+      "kjv": "But they are altogether brutish and foolish: the stock is a doctrine of vanities.",
+      "web": "But they are together brutish and foolish, instructed by idols! It is just wood.",
+      "ct": "But these people are senseless and foolish, taking their instruction from wooden idols — nothing but a block of wood!"
+    },
+    {
+      "verse": 9,
+      "kjv": "Silver spread into plates is brought from Tarshish, and gold from Uphaz, the work of the workman, and of the hands of the founder: blue and purple is their clothing: they are all the work of cunning men.",
+      "web": "There is silver beaten into plates, which is brought from Tarshish, and gold from Uphaz, the work of the engraver and of the hands of the goldsmith. Their clothing is blue and purple. They are all the work of skillful men.",
+      "ct": "Hammered silver is imported from Tarshish and gold from Uphaz. Engravers and goldsmiths shape the idol, then dress it in blue and purple fabric. Every bit of it is the work of skilled craftsmen."
+    },
+    {
+      "verse": 10,
+      "kjv": "But the LORD is the true God, he is the living God, and an everlasting king: at his wrath the earth shall tremble, and the nations shall not be able to abide his indignation.",
+      "web": "But LORD is the true God. He is the living God, and an everlasting King. At his wrath, the earth trembles. The nations aren’t able to withstand his indignation.",
+      "ct": "But the LORD is the true God. He is the living God and the eternal King. When his anger flares, the earth shakes, and no nation can withstand his fury."
+    },
+    {
+      "verse": 11,
+      "kjv": "Thus shall ye say unto them, The gods that have not made the heavens and the earth, even they shall perish from the earth, and from under these heavens.",
+      "web": "“You shall say this to them: ‘The gods that have not made the heavens and the earth will perish from the earth, and from under the heavens.’ ” ",
+      "ct": "Tell them this: \"The gods that did not make the heavens and the earth will vanish from the earth and from under the heavens.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "He hath made the earth by his power, he hath established the world by his wisdom, and hath stretched out the heavens by his discretion.",
+      "web": "God has made the earth by his power. He has established the world by his wisdom, and by his understanding has he stretched out the heavens.",
+      "ct": "God made the earth by his power. He established the world by his wisdom and stretched out the heavens by his understanding."
+    },
+    {
+      "verse": 13,
+      "kjv": "When he uttereth his voice, there is a multitude of waters in the heavens, and he causeth the vapours to ascend from the ends of the earth; he maketh lightnings with rain, and bringeth forth the wind out of his treasures.",
+      "web": "When he utters his voice, the waters in the heavens roar, and he causes the vapors to ascend from the ends of the earth. He makes lightnings for the rain, and brings the wind out of his treasuries.",
+      "ct": "When he thunders, the waters in the heavens roar. He draws up clouds from the ends of the earth, sends lightning with the rain, and releases the wind from his storehouses."
+    },
+    {
+      "verse": 14,
+      "kjv": "Every man is brutish in his knowledge: every founder is confounded by the graven image: for his molten image is falsehood, and there is no breath in them.",
+      "web": "Every man has become brutish and without knowledge. Every goldsmith is disappointed by his engraved image; for his molten image is falsehood, and there is no breath in them.",
+      "ct": "Everyone who trusts in idols is senseless and ignorant. Every goldsmith is put to shame by his carved image, because his metal idol is a fraud — there is no breath in it."
+    },
+    {
+      "verse": 15,
+      "kjv": "They are vanity, and the work of errors: in the time of their visitation they shall perish.",
+      "web": "They are vanity, a work of delusion. In the time of their visitation they will perish.",
+      "ct": "They are worthless, nothing but objects of mockery. When the time of judgment comes, they will be destroyed."
+    },
+    {
+      "verse": 16,
+      "kjv": "The portion of Jacob is not like them: for he is the former of all things; and Israel is the rod of his inheritance: The LORD of hosts is his name.",
+      "web": "The portion of Jacob is not like these; for he is the maker of all things; and Israel is the tribe of his inheritance: LORD of Armies is his name.",
+      "ct": "The God of Jacob is nothing like these idols, because he is the maker of everything. Israel is the people he claims as his own. His name is the LORD of Armies."
+    },
+    {
+      "verse": 17,
+      "kjv": "Gather up thy wares out of the land, O inhabitant of the fortress.",
+      "web": "Gather up your wares out of the land, you who live under siege.",
+      "ct": "Pack up your belongings and get ready to leave, you who are living under siege."
+    },
+    {
+      "verse": 18,
+      "kjv": "For thus saith the LORD, Behold, I will sling out the inhabitants of the land at this once, and will distress them, that they may find it so.",
+      "web": "For LORD says, “Behold, I will sling out the inhabitants of the land at this time, and will distress them, that they may feel it.”",
+      "ct": "For the LORD says, \"Watch — this time I am going to hurl the people of this land far away. I will bring such distress on them that they will feel every bit of it.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Woe is me for my hurt! my wound is grievous: but I said, Truly this is a grief, and I must bear it.",
+      "web": "Woe is me because of my injury! My wound is serious; but I said, “Truly this is my grief, and I must bear it.”",
+      "ct": "How terrible is my pain! My wound is severe. But I told myself, \"This is my suffering, and I must endure it.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "My tabernacle is spoiled, and all my cords are broken: my children are gone forth of me, and they are not: there is none to stretch forth my tent any more, and to set up my curtains.",
+      "web": "My tent has been destroyed, and all my cords are broken. My children have gone away from me, and they are no more. There is no one to spread my tent any more, to set up my curtains.",
+      "ct": "My home is destroyed, and every rope holding it together is snapped. My children are gone — they're just gone. No one is left to set up my tent or hang my curtains."
+    },
+    {
+      "verse": 21,
+      "kjv": "For the pastors are become brutish, and have not sought the LORD: therefore they shall not prosper, and all their flocks shall be scattered.",
+      "web": "For the shepherds have become brutish, and have not inquired of LORD. Therefore they have not prospered, and all their flocks have scattered.",
+      "ct": "The leaders have become stupid and refuse to seek the LORD. That's why nothing goes well for them, and the people they were supposed to lead have scattered in every direction."
+    },
+    {
+      "verse": 22,
+      "kjv": "Behold, the noise of the bruit is come, and a great commotion out of the north country, to make the cities of Judah desolate, and a den of dragons.",
+      "web": "The voice of news, behold, it comes, and a great commotion out of the north country, to make the cities of Judah a desolation, a dwelling place of jackals.",
+      "ct": "Listen! News is coming — a massive upheaval from the north — that will turn the cities of Judah into a wasteland, a place where only jackals roam."
+    },
+    {
+      "verse": 23,
+      "kjv": "O LORD, I know that the way of man is not in himself: it is not in man that walketh to direct his steps.",
+      "web": "LORD, I know that the way of man is not in himself. It is not in man who walks to direct his steps.",
+      "ct": "LORD, I know that people don't control their own destiny. No one has the ability to direct their own steps."
+    },
+    {
+      "verse": 24,
+      "kjv": "O LORD, correct me, but with judgment; not in thine anger, lest thou bring me to nothing.",
+      "web": "LORD, correct me, but gently; not in your anger, lest you reduce me to nothing.",
+      "ct": "LORD, correct me, but do it with justice, not in your anger — or you'll reduce me to nothing."
+    },
+    {
+      "verse": 25,
+      "kjv": "Pour out thy fury upon the heathen that know thee not, and upon the families that call not on thy name: for they have eaten up Jacob, and devoured him, and consumed him, and have made his habitation desolate.",
+      "web": "Pour out your wrath on the nations that don’t know you, and on the families that don’t call on your name; for they have devoured Jacob. Yes, they have devoured him, consumed him, and have laid waste his habitation.",
+      "ct": "Pour out your fury on the nations that don't know you and on the peoples who refuse to call on your name. They have devoured Jacob — completely consumed him — and turned his homeland into a wasteland."
+    }
+  ]
+}

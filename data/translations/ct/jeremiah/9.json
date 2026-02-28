@@ -1,0 +1,167 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 9,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:01:45.872Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Oh that my head were waters, and mine eyes a fountain of tears, that I might weep day and night for the slain of the daughter of my people!",
+      "web": "Oh that my head were waters, and my eyes a spring of tears, that I might weep day and night for the slain of the daughter of my people!",
+      "ct": "If only my head were a spring of water and my eyes a fountain of tears! Then I could weep day and night for all my people who have been killed."
+    },
+    {
+      "verse": 2,
+      "kjv": "Oh that I had in the wilderness a lodging place of wayfaring men; that I might leave my people, and go from them! for they be all adulterers, an assembly of treacherous men.",
+      "web": "Oh that I had in the wilderness a lodging place of wayfaring men; that I might leave my people, and go from them! For they are all adulterers, an assembly of treacherous men.",
+      "ct": "If only I had a traveler's shelter out in the wilderness! I would leave my people and walk away from them, because every one of them is an adulterer — a whole crowd of traitors."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they bend their tongues like their bow for lies: but they are not valiant for the truth upon the earth; for they proceed from evil to evil, and they know not me, saith the LORD.",
+      "web": "“They bend their tongue, as their bow, for falsehood. They have grown strong in the land, but not for truth; for they proceed from evil to evil, and they don’t know me,” says LORD.",
+      "ct": "\"They bend their tongues like bows, shooting lies instead of arrows. They grow powerful in the land, but not through truth. They go from one evil to the next, and they don't know me,\" says the LORD."
+    },
+    {
+      "verse": 4,
+      "kjv": "Take ye heed every one of his neighbour, and trust ye not in any brother: for every brother will utterly supplant, and every neighbour will walk with slanders.",
+      "web": "“Everyone beware of his neighbor, and don’t trust in any brother; for every brother will utterly supplant, and every neighbor will go around like a slanderer.",
+      "ct": "\"Watch out for your neighbors, and don't trust even your own brother. Every brother is a schemer, and every neighbor goes around spreading slander."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they will deceive every one his neighbour, and will not speak the truth: they have taught their tongue to speak lies, and weary themselves to commit iniquity.",
+      "web": "Friends deceive each other, and will not speak the truth. They have taught their tongue to speak lies. They weary themselves commiting iniquity.",
+      "ct": "They all deceive each other and refuse to speak the truth. They've trained their tongues to lie, and they exhaust themselves doing wrong."
+    },
+    {
+      "verse": 6,
+      "kjv": "Thine habitation is in the midst of deceit; through deceit they refuse to know me, saith the LORD.",
+      "web": "Your habitation is in the middle of deceit. Through deceit, they refuse to know me,” says LORD.",
+      "ct": "You live surrounded by deceit. Because of their deceit, they refuse to know me,\" says the LORD."
+    },
+    {
+      "verse": 7,
+      "kjv": "Therefore thus saith the LORD of hosts, Behold, I will melt them, and try them; for how shall I do for the daughter of my people?",
+      "web": "Therefore LORD of Armies says, “Behold, I will melt them and test them; for how should I deal with the daughter of my people?",
+      "ct": "So the LORD of hosts says, \"I'm going to refine them and test them. What else can I do with my people?"
+    },
+    {
+      "verse": 8,
+      "kjv": "Their tongue is as an arrow shot out; it speaketh deceit: one speaketh peaceably to his neighbour with his mouth, but in heart he layeth his wait.",
+      "web": "Their tongue is a deadly arrow. It speaks deceit. One speaks peaceably to his neighbor with his mouth, but in his heart, he waits to ambush him.",
+      "ct": "Their tongue is a deadly arrow — it speaks nothing but deceit. A man talks peacefully to his neighbor's face, but in his heart he's planning an ambush."
+    },
+    {
+      "verse": 9,
+      "kjv": "Shall I not visit them for these things? saith the LORD: shall not my soul be avenged on such a nation as this?",
+      "web": "Shouldn’t I punish them for these things?” says LORD. “Shouldn’t my soul be avenged on a nation such as this?",
+      "ct": "Shouldn't I punish them for this?\" says the LORD. \"Shouldn't I take vengeance on a nation like this?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "For the mountains will I take up a weeping and wailing, and for the habitations of the wilderness a lamentation, because they are burned up, so that none can pass through them; neither can men hear the voice of the cattle; both the fowl of the heavens and the beast are fled; they are gone.",
+      "web": "I will weep and wail for the mountains, and lament for the pastures of the wilderness, because they are burned up, so that no one passes through; Men can’t hear the voice of the livestock. Both the birds of the sky and the animals have fled. They are gone. ",
+      "ct": "I will weep and wail over the mountains and mourn for the wilderness pastures, because they've been scorched so badly that no one travels through them anymore. No lowing of cattle can be heard. The birds of the heavens and the animals have all fled — they're gone."
+    },
+    {
+      "verse": 11,
+      "kjv": "And I will make Jerusalem heaps, and a den of dragons; and I will make the cities of Judah desolate, without an inhabitant.",
+      "web": "“I will make Jerusalem heaps, a dwelling place of jackals. I will make the cities of Judah a desolation, without inhabitant.”",
+      "ct": "\"I will turn Jerusalem into piles of rubble, a den for jackals. I will make the cities of Judah a wasteland where no one lives.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Who is the wise man, that may understand this? and who is he to whom the mouth of the LORD hath spoken, that he may declare it, for what the land perisheth and is burned up like a wilderness, that none passeth through?",
+      "web": "Who is wise enough to understand this? Who is he to whom the mouth of LORD has spoken, that he may declare it? Why has the land perished and burned up like a wilderness, so that no one passes through?",
+      "ct": "Who is wise enough to understand this? Who has heard directly from the LORD and can explain it? Why has the land been destroyed and scorched like a desert, with no one passing through?"
+    },
+    {
+      "verse": 13,
+      "kjv": "And the LORD saith, Because they have forsaken my law which I set before them, and have not obeyed my voice, neither walked therein;",
+      "web": "LORD says, “Because they have forsaken my law which I set before them, and have not obeyed my voice or walked in my ways,",
+      "ct": "The LORD says, \"Because they abandoned my law that I gave them. They didn't obey me or follow my ways."
+    },
+    {
+      "verse": 14,
+      "kjv": "But have walked after the imagination of their own heart, and after Baalim, which their fathers taught them:",
+      "web": "but have walked after the stubbornness of their own heart and after the Baals, which their fathers taught them.”",
+      "ct": "Instead, they followed the stubbornness of their own hearts and chased after the Baals, just as their fathers taught them to do.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Therefore thus saith the LORD of hosts, the God of Israel; Behold, I will feed them, even this people, with wormwood, and give them water of gall to drink.",
+      "web": "Therefore LORD of Armies, the God of Israel, says, “Behold, I will feed them, even this people, with wormwood and give them poisoned water to drink.",
+      "ct": "So the LORD of hosts, the God of Israel, says, \"I will feed these people bitter wormwood and give them poisoned water to drink."
+    },
+    {
+      "verse": 16,
+      "kjv": "I will scatter them also among the heathen, whom neither they nor their fathers have known: and I will send a sword after them, till I have consumed them.",
+      "web": "I will scatter them also among the nations, whom neither they nor their fathers have known. I will send the sword after them, until I have consumed them.”",
+      "ct": "I will scatter them among nations that neither they nor their ancestors ever knew. And I will send the sword after them until I have completely destroyed them.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Thus saith the LORD of hosts, Consider ye, and call for the mourning women, that they may come; and send for cunning women, that they may come:",
+      "web": "LORD of Armies says, “Consider, and call for the mourning women, that they may come. Send for the skillful women, that they may come.",
+      "ct": "The LORD of hosts says, \"Think about what's coming and send for the women who mourn for the dead. Call for the most skilled among them — let them come."
+    },
+    {
+      "verse": 18,
+      "kjv": "And let them make haste, and take up a wailing for us, that our eyes may run down with tears, and our eyelids gush out with waters.",
+      "web": "Let them make haste and take up a wailing for us, that our eyes may run down with tears and our eyelids gush out with waters.",
+      "ct": "Tell them to hurry and raise a wail over us, until tears stream from our eyes and water pours from our eyelids.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "For a voice of wailing is heard out of Zion, How are we spoiled! we are greatly confounded, because we have forsaken the land, because our dwellings have cast us out.",
+      "web": "For a voice of wailing is heard out of Zion, ‘How we are ruined! We are greatly confounded because we have forsaken the land, because they have cast down our dwellings.’ ” ",
+      "ct": "A cry of grief is heard from Zion: 'We are ruined! We are utterly devastated! We've had to abandon our land because our homes have been torn down around us.'"
+    },
+    {
+      "verse": 20,
+      "kjv": "Yet hear the word of the LORD, O ye women, and let your ear receive the word of his mouth, and teach your daughters wailing, and every one her neighbour lamentation.",
+      "web": "Yet hear LORD’s word, you women. Let your ear receive the word of his mouth. Teach your daughters wailing. Everyone teach her neighbor a lamentation.",
+      "ct": "So listen to the LORD's word, you women. Let your ears take in what he says. Teach your daughters how to wail, and teach your neighbors songs of mourning."
+    },
+    {
+      "verse": 21,
+      "kjv": "For death is come up into our windows, and is entered into our palaces, to cut off the children from without, and the young men from the streets.",
+      "web": "For death has come up into our windows. It has entered into our palaces to cut off the children from outside, and the young men from the streets.",
+      "ct": "Death has climbed through our windows and crept into our palaces. It snatches children from the streets and young men from the public squares."
+    },
+    {
+      "verse": 22,
+      "kjv": "Speak, Thus saith the LORD, Even the carcases of men shall fall as dung upon the open field, and as the handful after the harvestman, and none shall gather them.",
+      "web": "Speak, “LORD says, “ ‘The dead bodies of men will fall as dung on the open field, and as the handful after the harvester. No one will gather them.’ ”",
+      "ct": "Declare this — the LORD says: \"Dead bodies will fall like dung on the open fields, like cut grain left behind the harvester, with no one to gather them.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Thus saith the LORD, Let not the wise man glory in his wisdom, neither let the mighty man glory in his might, let not the rich man glory in his riches:",
+      "web": "LORD says, “Don’t let the wise man glory in his wisdom. Don’t let the mighty man glory in his might. Don’t let the rich man glory in his riches.",
+      "ct": "The LORD says, \"The wise should not boast in their wisdom. The strong should not boast in their strength. The rich should not boast in their riches."
+    },
+    {
+      "verse": 24,
+      "kjv": "But let him that glorieth glory in this, that he understandeth and knoweth me, that I am the LORD which exercise lovingkindness, judgment, and righteousness, in the earth: for in these things I delight, saith the LORD.",
+      "web": "But let him who glories glory in this, that he has understanding, and knows me, that I am LORD who exercises loving kindness, justice, and righteousness in the earth, for I delight in these things,” says LORD.",
+      "ct": "If anyone wants to boast, let them boast about this: that they understand and know me — that I am the LORD, who acts with lovingkindness, justice, and righteousness on the earth. These are the things that delight me,\" says the LORD."
+    },
+    {
+      "verse": 25,
+      "kjv": "Behold, the days come, saith the LORD, that I will punish all them which are circumcised with the uncircumcised;",
+      "web": "“Behold, the days come,” says LORD, “that I will punish all those who are circumcised only in their flesh:",
+      "ct": "\"The days are coming,\" says the LORD, \"when I will punish everyone who is circumcised only in body but not in heart —"
+    },
+    {
+      "verse": 26,
+      "kjv": "Egypt, and Judah, and Edom, and the children of Ammon, and Moab, and all that are in the utmost corners, that dwell in the wilderness: for all these nations are uncircumcised, and all the house of Israel are uncircumcised in the heart.",
+      "web": "Egypt, Judah, Edom, the children of Ammon, Moab, and all who have the corners of their hair cut off, who dwell in the wilderness, for all the nations are uncircumcised, and all the house of Israel are uncircumcised in heart.”",
+      "ct": "Egypt, Judah, Edom, the people of Ammon, Moab, and all the desert dwellers who shave the edges of their hair. All these nations are uncircumcised in body, and the whole house of Israel is uncircumcised in heart.\""
+    }
+  ]
+}

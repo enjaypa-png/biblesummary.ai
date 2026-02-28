@@ -35,8 +35,18 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
             router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
           }
         } else if (event === "INITIAL_SESSION") {
-          // Client fully initialized from cookies but no session found
-          router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
+          // Wait briefly — OAuth cookies may not be parsed yet on first load
+          // Retry once before redirecting to login
+          setTimeout(async () => {
+            const { data: { session: retrySession } } = await supabase.auth.getSession();
+            if (retrySession?.user) {
+              setAuthed(true);
+            } else {
+              router.replace(`/login?redirect=${encodeURIComponent(pathname)}`);
+            }
+            setChecked(true);
+          }, 500);
+          return; // Don't setChecked yet — let the retry handle it
         }
         setChecked(true);
       }
