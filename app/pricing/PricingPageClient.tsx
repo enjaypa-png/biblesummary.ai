@@ -21,8 +21,6 @@ export default function PricingPageClient() {
   const [error, setError] = useState<string | null>(null);
 
   // Subscription statuses
-  const [summaryAnnualStatus, setSummaryAnnualStatus] = useState<PlanStatus>("none");
-  const [explainMonthlyStatus, setExplainMonthlyStatus] = useState<PlanStatus>("none");
   const [premiumStatus, setPremiumStatus] = useState<PlanStatus>("none");
 
   useEffect(() => {
@@ -53,16 +51,8 @@ export default function PricingPageClient() {
               : "canceled"
             : "none";
 
-          switch (sub.type) {
-            case "summary_annual":
-              setSummaryAnnualStatus(status);
-              break;
-            case "explain_monthly":
-              setExplainMonthlyStatus(status);
-              break;
-            case "premium_yearly":
-              setPremiumStatus(status);
-              break;
+          if (sub.type === "premium_yearly" || sub.type === "premium_monthly") {
+            setPremiumStatus(status);
           }
         }
       }
@@ -74,9 +64,10 @@ export default function PricingPageClient() {
   }, []);
 
   const isPremium = premiumStatus === "active" || premiumStatus === "canceled";
+  const [billingCycle, setBillingCycle] = useState<"yearly" | "monthly">("yearly");
 
   async function handleCheckout(
-    product: "summary_annual" | "explain_monthly" | "premium_yearly",
+    product: "premium_yearly" | "premium_monthly",
     key: string
   ) {
     if (!isAuthenticated) {
@@ -245,10 +236,10 @@ export default function PricingPageClient() {
                 </div>
                 <div className="text-right">
                   <span className="text-[24px] font-bold" style={{ color: "var(--accent)" }}>
-                    $79
+                    {billingCycle === "yearly" ? "$79" : "$9.99"}
                   </span>
                   <span className="text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
-                    /year
+                    {billingCycle === "yearly" ? "/year" : "/month"}
                   </span>
                 </div>
               </div>
@@ -281,11 +272,11 @@ export default function PricingPageClient() {
               </ul>
 
               {renderButton(
-                "Upgrade to Premium — $79/year",
+                billingCycle === "yearly" ? "Upgrade to Premium — $79/year" : "Upgrade to Premium — $9.99/month",
                 "premium",
                 premiumStatus,
                 false,
-                () => handleCheckout("premium_yearly", "premium")
+                () => handleCheckout(billingCycle === "yearly" ? "premium_yearly" : "premium_monthly", "premium")
               )}
             </div>
 
@@ -312,10 +303,6 @@ export default function PricingPageClient() {
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Read KJV + Clear Bible Translation — all 66 books</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
                   <span>Bookmarks and reading progress tracking</span>
                 </li>
                 <li className="flex items-start gap-2.5">
@@ -325,164 +312,6 @@ export default function PricingPageClient() {
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
                   <span>Search across the entire Bible</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Book Summaries */}
-            <div
-              className="rounded-xl p-5"
-              style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
-            >
-              <div className="flex items-baseline justify-between mb-1">
-                <h3 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>
-                  Book Summaries
-                </h3>
-              </div>
-              <p className="text-[13px] mb-3" style={{ color: "var(--foreground-secondary)" }}>
-                AI-generated educational reading tools to help you retain what you read
-              </p>
-
-              <div className="space-y-3 mb-4">
-                {/* Per book */}
-                <div
-                  className="p-3 rounded-lg"
-                  style={{ backgroundColor: "var(--background)" }}
-                >
-                  <div className="flex items-center justify-between mb-2">
-                    <div>
-                      <span className="text-[15px] font-semibold" style={{ color: "var(--foreground)" }}>
-                        Per Book
-                      </span>
-                      <p className="text-[12px]" style={{ color: "var(--foreground-secondary)" }}>
-                        Buy individual book summaries
-                      </p>
-                    </div>
-                    <span className="text-[20px] font-bold" style={{ color: "var(--accent)" }}>
-                      $0.99
-                    </span>
-                  </div>
-                  {isPremium || summaryAnnualStatus !== "none" ? (
-                    <button
-                      disabled
-                      className="w-full py-2.5 rounded-lg text-[14px] font-bold opacity-60"
-                      style={{ backgroundColor: "var(--card)", color: "var(--success)", border: "1.5px solid var(--success)" }}
-                    >
-                      {isPremium ? "Included in Premium" : "Included in Annual Pass"}
-                    </button>
-                  ) : (
-                    <Link
-                      href="/summaries"
-                      className="block w-full py-2.5 rounded-lg text-[14px] font-bold text-center transition-all active:scale-[0.98]"
-                      style={{ backgroundColor: "var(--accent)", color: "white" }}
-                    >
-                      Browse Books — $0.99 each
-                    </Link>
-                  )}
-                </div>
-
-                {/* Annual pass */}
-                <div
-                  className="p-3 rounded-lg"
-                  style={{ backgroundColor: "var(--background)" }}
-                >
-                  <div className="flex items-center justify-between mb-2">
-                    <div>
-                      <span className="text-[15px] font-semibold" style={{ color: "var(--foreground)" }}>
-                        Annual Pass
-                      </span>
-                      <p className="text-[12px]" style={{ color: "var(--foreground-secondary)" }}>
-                        All 66 books — less than $0.23 per book
-                      </p>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-[20px] font-bold" style={{ color: "var(--accent)" }}>
-                        $14.99
-                      </span>
-                      <span className="text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
-                        /year
-                      </span>
-                    </div>
-                  </div>
-                  {renderButton(
-                    "Get All Summaries — $14.99/year",
-                    "annual",
-                    summaryAnnualStatus,
-                    isPremium,
-                    () => handleCheckout("summary_annual", "annual")
-                  )}
-                </div>
-              </div>
-
-              <ul className="space-y-2 text-[14px]" style={{ color: "var(--foreground)" }}>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Detailed summaries covering every chapter of each book</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Listen to summaries read aloud</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Helps you remember and retain what you&apos;ve read</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Verse Explanations */}
-            <div
-              className="rounded-xl p-5"
-              style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
-            >
-              <div className="flex items-baseline justify-between mb-1">
-                <h3 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>
-                  Verse Explanations
-                </h3>
-              </div>
-              <p className="text-[13px] mb-3" style={{ color: "var(--foreground-secondary)" }}>
-                AI-generated plain-language explanations for individual verses
-              </p>
-
-              <div
-                className="p-3 rounded-lg mb-4"
-                style={{ backgroundColor: "var(--background)" }}
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <div>
-                    <span className="text-[15px] font-semibold" style={{ color: "var(--foreground)" }}>
-                      Monthly
-                    </span>
-                    <p className="text-[12px]" style={{ color: "var(--foreground-secondary)" }}>
-                      Unlimited verse explanations
-                    </p>
-                  </div>
-                  <div className="text-right">
-                    <span className="text-[20px] font-bold" style={{ color: "var(--accent)" }}>
-                      $4.99
-                    </span>
-                    <span className="text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
-                      /month
-                    </span>
-                  </div>
-                </div>
-                {renderButton(
-                  "Start Verse Explanations — $4.99/month",
-                  "explain",
-                  explainMonthlyStatus,
-                  isPremium,
-                  () => handleCheckout("explain_monthly", "explain")
-                )}
-              </div>
-
-              <ul className="space-y-2 text-[14px]" style={{ color: "var(--foreground)" }}>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Tap any verse for an instant plain-language explanation</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Understand difficult passages without leaving the reading experience</span>
                 </li>
               </ul>
             </div>

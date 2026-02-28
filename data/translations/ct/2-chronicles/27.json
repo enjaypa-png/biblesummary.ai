@@ -1,0 +1,65 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 27,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:19:47.526Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Jotham was twenty and five years old when he began to reign, and he reigned sixteen years in Jerusalem. His mother’s name also was Jerushah, the daughter of Zadok.",
+      "web": "Jotham was twenty-five years old when he began to reign, and he reigned sixteen years in Jerusalem. His mother’s name was Jerushah the daughter of Zadok.",
+      "ct": "Jotham was 25 years old when he became king, and he ruled in Jerusalem for 16 years. His mother's name was Jerushah, the daughter of Zadok."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he did that which was right in the sight of the LORD, according to all that his father Uzziah did: howbeit he entered not into the temple of the LORD. And the people did yet corruptly.",
+      "web": "He did that which was right in LORD’s eyes, according to all that his father Uzziah had done. However he didn’t enter into LORD’s temple. The people still acted corruptly.",
+      "ct": "The LORD saw that he did what was right, following the example of everything his father Uzziah had done. Unlike his father, though, he never entered the temple of the LORD. Even so, the people continued their corrupt ways."
+    },
+    {
+      "verse": 3,
+      "kjv": "He built the high gate of the house of the LORD, and on the wall of Ophel he built much.",
+      "web": "He built the upper gate of LORD’s house, and he built much on the wall of Ophel.",
+      "ct": "He built the upper gate of the LORD's temple and did extensive construction along the wall of Ophel."
+    },
+    {
+      "verse": 4,
+      "kjv": "Moreover he built cities in the mountains of Judah, and in the forests he built castles and towers.",
+      "web": "Moreover he built cities in the hill country of Judah, and in the forests he built fortresses and towers.",
+      "ct": "He also built cities throughout the hill country of Judah, and he constructed fortresses and towers in the forests."
+    },
+    {
+      "verse": 5,
+      "kjv": "He fought also with the king of the Ammonites, and prevailed against them. And the children of Ammon gave him the same year an hundred talents of silver, and ten thousand measures of wheat, and ten thousand of barley. So much did the children of Ammon pay unto him, both the second year, and the third.",
+      "web": "He also fought with the king of the children of Ammon, and prevailed against them. The children of Ammon gave him the same year one hundred talents of silver, ten thousand cors of wheat, and ten thousand cors of barley. The children of Ammon also gave that much to him in the second year, and in the third.",
+      "ct": "He went to war against the king of the Ammonites and defeated them. That year the Ammonites paid him a tribute of 100 talents of silver, 10,000 measures of wheat, and 10,000 measures of barley. They paid him the same amount in the 2nd and 3rd years as well."
+    },
+    {
+      "verse": 6,
+      "kjv": "So Jotham became mighty, because he prepared his ways before the LORD his God.",
+      "web": "So Jotham became mighty, because he ordered his ways before LORD his God.",
+      "ct": "Jotham grew powerful because he lived with purpose and devotion before the LORD his God."
+    },
+    {
+      "verse": 7,
+      "kjv": "Now the rest of the acts of Jotham, and all his wars, and his ways, lo, they are written in the book of the kings of Israel and Judah.",
+      "web": "Now the rest of the acts of Jotham, and all his wars, and his ways, behold, they are written in the book of the kings of Israel and Judah.",
+      "ct": "Everything else about Jotham's reign — including all his wars and everything he accomplished — is recorded in the official history of the kings of Israel and Judah."
+    },
+    {
+      "verse": 8,
+      "kjv": "He was five and twenty years old when he began to reign, and reigned sixteen years in Jerusalem.",
+      "web": "He was five and twenty years old when he began to reign, and reigned sixteen years in Jerusalem.",
+      "ct": "He was 25 years old when he became king and ruled for 16 years in Jerusalem."
+    },
+    {
+      "verse": 9,
+      "kjv": "And Jotham slept with his fathers, and they buried him in the city of David: and Ahaz his son reigned in his stead.",
+      "web": "Jotham slept with his fathers, and they buried him in David’s city; and Ahaz his son reigned in his place.",
+      "ct": "Jotham died and was buried in the city of David. His son Ahaz became king after him."
+    }
+  ]
+}

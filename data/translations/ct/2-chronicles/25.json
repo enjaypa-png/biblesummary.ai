@@ -1,0 +1,179 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 25,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:19:17.775Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Amaziah was twenty and five years old when he began to reign, and he reigned twenty and nine years in Jerusalem. And his mother’s name was Jehoaddan of Jerusalem.",
+      "web": "Amaziah was twenty-five years old when he began to reign, and he reigned twenty-nine years in Jerusalem. His mother’s name was Jehoaddan, of Jerusalem.",
+      "ct": "Amaziah was 25 years old when he became king, and he ruled in Jerusalem for 29 years. His mother's name was Jehoaddan, and she was from Jerusalem."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he did that which was right in the sight of the LORD, but not with a perfect heart.",
+      "web": "He did that which was right in LORD’s eyes, but not with a perfect heart.",
+      "ct": "He did what the LORD considered right, but his heart wasn't fully committed."
+    },
+    {
+      "verse": 3,
+      "kjv": "Now it came to pass, when the kingdom was established to him, that he slew his servants that had killed the king his father.",
+      "web": "Now when the kingdom was established to him, he killed his servants who had killed his father the king.",
+      "ct": "Once his grip on the kingdom was secure, he executed the officials who had assassinated his father the king."
+    },
+    {
+      "verse": 4,
+      "kjv": "But he slew not their children, but did as it is written in the law in the book of Moses, where the LORD commanded, saying, The fathers shall not die for the children, neither shall the children die for the fathers, but every man shall die for his own sin.",
+      "web": "But he didn’t put their children to death, but did according to that which is written in the law in the book of Moses, as LORD commanded, saying, “The fathers shall not die for the children, neither shall the children die for the fathers; but every man shall die for his own sin.”",
+      "ct": "However, he didn't put their children to death. He followed what was written in the Law in the book of Moses, where the LORD commanded, \"Fathers must not be executed for their children's sins, and children must not be executed for their fathers' sins. Each person must die for their own sin.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Moreover Amaziah gathered Judah together, and made them captains over thousands, and captains over hundreds, according to the houses of their fathers, throughout all Judah and Benjamin: and he numbered them from twenty years old and above, and found them three hundred thousand choice men, able to go forth to war, that could handle spear and shield.",
+      "web": "Moreover Amaziah gathered Judah together, and ordered them according to their fathers’ houses, under captains of thousands and captains of hundreds, even all Judah and Benjamin. He counted them from twenty years old and upward, and found that there were three hundred thousand chosen men, able to go out to war, who could handle spear and shield.",
+      "ct": "Amaziah assembled all of Judah and Benjamin and organized them by family clans under commanders of thousands and commanders of hundreds. He counted every man 20 years old and older and found 300,000 trained soldiers ready for battle, skilled with spear and shield."
+    },
+    {
+      "verse": 6,
+      "kjv": "He hired also an hundred thousand mighty men of valour out of Israel for an hundred talents of silver.",
+      "web": "He also hired one hundred thousand mighty men of valor out of Israel for one hundred talents of silver.",
+      "ct": "He also hired 100,000 experienced warriors from Israel for 100 talents of silver."
+    },
+    {
+      "verse": 7,
+      "kjv": "But there came a man of God to him, saying, O king, let not the army of Israel go with thee; for the LORD is not with Israel, to wit, with all the children of Ephraim.",
+      "web": "A man of God came to him, saying, “O king, don’t let the army of Israel go with you, for LORD is not with Israel, with all the children of Ephraim.",
+      "ct": "But a man of God came to him and said, \"Your Majesty, don't let the Israelite army go with you. The LORD is not with Israel — not with any of the people of Ephraim."
+    },
+    {
+      "verse": 8,
+      "kjv": "But if thou wilt go, do it, be strong for the battle: God shall make thee fall before the enemy: for God hath power to help, and to cast down.",
+      "web": "But if you will go, take action, and be strong for the battle. God will overthrow you before the enemy; for God has power to help, and to overthrow.”",
+      "ct": "If you take them along anyway, no matter how hard you fight, God will bring you down before the enemy. God has the power to help, and the power to overthrow.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Amaziah said to the man of God, But what shall we do for the hundred talents which I have given to the army of Israel? And the man of God answered, The LORD is able to give thee much more than this.",
+      "web": "Amaziah said to the man of God, “But what shall we do for the hundred talents which I have given to the army of Israel?” The man of God answered, “LORD is able to give you much more than this.”",
+      "ct": "Amaziah asked the man of God, \"But what about the 100 talents of silver I already paid the Israelite troops?\" The man of God replied, \"The LORD is able to give you far more than that.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then Amaziah separated them, to wit, the army that was come to him out of Ephraim, to go home again: wherefore their anger was greatly kindled against Judah, and they returned home in great anger.",
+      "web": "Then Amaziah separated them, the army that had come to him out of Ephraim, to go home again. Therefore their anger was greatly kindled against Judah, and they returned home in fierce anger.",
+      "ct": "So Amaziah dismissed the troops who had come from Ephraim and sent them home. They were furious with Judah and left in a rage."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Amaziah strengthened himself, and led forth his people, and went to the valley of salt, and smote of the children of Seir ten thousand.",
+      "web": "Amaziah took courage, and led his people out, and went to the Valley of Salt, and struck ten thousand of the children of Seir.",
+      "ct": "Amaziah gathered his courage, led his army out, and marched to the Valley of Salt, where he struck down 10,000 men of Seir."
+    },
+    {
+      "verse": 12,
+      "kjv": "And other ten thousand left alive did the children of Judah carry away captive, and brought them unto the top of the rock, and cast them down from the top of the rock, that they all were broken in pieces.",
+      "web": "The children of Judah carried away ten thousand alive, and brought them to the top of the rock, and threw them down from the top of the rock, so that they all were broken in pieces.",
+      "ct": "The men of Judah also captured 10,000 alive, dragged them to the top of a cliff, and threw them off the edge so that every one of them was shattered on the rocks below."
+    },
+    {
+      "verse": 13,
+      "kjv": "But the soldiers of the army which Amaziah sent back, that they should not go with him to battle, fell upon the cities of Judah, from Samaria even unto Bethhoron, and smote three thousand of them, and took much spoil.",
+      "web": "But the men of the army whom Amaziah sent back, that they should not go with him to battle, fell on the cities of Judah, from Samaria even to Beth Horon, and struck of them three thousand, and took much plunder.",
+      "ct": "Meanwhile, the Israelite soldiers Amaziah had sent home — the ones he wouldn't let fight alongside him — raided the towns of Judah from Samaria all the way to Beth Horon. They killed 3,000 people and carried off a huge amount of plunder."
+    },
+    {
+      "verse": 14,
+      "kjv": "Now it came to pass, after that Amaziah was come from the slaughter of the Edomites, that he brought the gods of the children of Seir, and set them up to be his gods, and bowed down himself before them, and burned incense unto them.",
+      "web": "Now after Amaziah had come from the slaughter of the Edomites, he brought the gods of the children of Seir, and set them up to be his gods, and bowed down himself before them, and burned incense to them.",
+      "ct": "After Amaziah returned from his slaughter of the Edomites, he brought back the gods of the people of Seir, set them up as his own gods, bowed down before them, and burned incense to them."
+    },
+    {
+      "verse": 15,
+      "kjv": "Wherefore the anger of the LORD was kindled against Amaziah, and he sent unto him a prophet, which said unto him, Why hast thou sought after the gods of the people, which could not deliver their own people out of thine hand?",
+      "web": "Therefore LORD’s anger burned against Amaziah, and he sent to him a prophet, who said to him, “Why have you sought after the gods of the people, which have not delivered their own people out of your hand?”",
+      "ct": "The LORD's anger burned against Amaziah, and he sent a prophet to him. The prophet asked, \"Why have you gone chasing after the gods of a people who couldn't even save themselves from your hand?\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And it came to pass, as he talked with him, that the king said unto him, Art thou made of the king’s counsel? forbear; why shouldest thou be smitten? Then the prophet forbare, and said, I know that God hath determined to destroy thee, because thou hast done this, and hast not hearkened unto my counsel.",
+      "web": "As he talked with him, the king said to him, “Have we made you one of the king’s counselors? Stop! Why should you be struck down?” Then the prophet stopped, and said, “I know that God has determined to destroy you, because you have done this, and have not listened to my counsel.”",
+      "ct": "While the prophet was still speaking, the king cut him off: \"Did anyone appoint you as one of my advisors? Stop talking, or you'll be killed!\" The prophet stopped, but then said, \"I know that God has decided to destroy you, because you've done this and refused to listen to my warning.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Then Amaziah king of Judah took advice, and sent to Joash, the son of Jehoahaz, the son of Jehu, king of Israel, saying, Come, let us see one another in the face.",
+      "web": "Then Amaziah king of Judah consulted his advisers, and sent to Joash, the son of Jehoahaz the son of Jehu, king of Israel, saying, “Come! Let’s look one another in the face.”",
+      "ct": "Then King Amaziah of Judah consulted his advisors and sent a challenge to King Joash of Israel, the son of Jehoahaz and grandson of Jehu: \"Come — let's face each other in battle.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And Joash king of Israel sent to Amaziah king of Judah, saying, The thistle that was in Lebanon sent to the cedar that was in Lebanon, saying, Give thy daughter to my son to wife: and there passed by a wild beast that was in Lebanon, and trode down the thistle.",
+      "web": "Joash king of Israel sent to Amaziah king of Judah, saying, “The thistle that was in Lebanon sent to the cedar that was in Lebanon, saying, ‘Give your daughter to my son as his wife. Then a wild animal that was in Lebanon passed by, and trampled down the thistle.",
+      "ct": "King Joash of Israel sent this reply to King Amaziah of Judah: \"A thistle in Lebanon once sent a message to a cedar in Lebanon, saying, 'Give your daughter in marriage to my son.' But a wild animal came along and trampled the thistle flat."
+    },
+    {
+      "verse": 19,
+      "kjv": "Thou sayest, Lo, thou hast smitten the Edomites; and thine heart lifteth thee up to boast: abide now at home; why shouldest thou meddle to thine hurt, that thou shouldest fall, even thou, and Judah with thee?",
+      "web": "You say to yourself that you have struck Edom; and your heart lifts you up to boast. Now stay at home. Why should you meddle with trouble, that you should fall, even you, and Judah with you?’ ”",
+      "ct": "You think because you defeated Edom, you're something special now. Your heart is swelling with pride. Stay home! Why go looking for trouble that will bring disaster on you and all of Judah?\""
+    },
+    {
+      "verse": 20,
+      "kjv": "But Amaziah would not hear; for it came of God, that he might deliver them into the hand of their enemies, because they sought after the gods of Edom.",
+      "web": "But Amaziah would not listen; for it was of God, that he might deliver them into the hand of their enemies, because they had sought after the gods of Edom.",
+      "ct": "But Amaziah refused to listen. This was from God, who intended to hand them over to their enemies because they had worshiped the gods of Edom."
+    },
+    {
+      "verse": 21,
+      "kjv": "So Joash the king of Israel went up; and they saw one another in the face, both he and Amaziah king of Judah, at Bethshemesh, which belongeth to Judah.",
+      "web": "So Joash king of Israel went up, and he and Amaziah king of Judah looked one another in the face at Beth Shemesh, which belongs to Judah.",
+      "ct": "So King Joash of Israel marched out, and he and King Amaziah of Judah faced each other in battle at Beth Shemesh, a town in Judah."
+    },
+    {
+      "verse": 22,
+      "kjv": "And Judah was put to the worse before Israel, and they fled every man to his tent.",
+      "web": "Judah was defeated by Israel; so every man fled to his tent.",
+      "ct": "Judah was crushed by Israel, and every soldier scattered and ran for home."
+    },
+    {
+      "verse": 23,
+      "kjv": "And Joash the king of Israel took Amaziah king of Judah, the son of Joash, the son of Jehoahaz, at Bethshemesh, and brought him to Jerusalem, and brake down the wall of Jerusalem from the gate of Ephraim to the corner gate, four hundred cubits.",
+      "web": "Joash king of Israel took Amaziah king of Judah, the son of Joash the son of Jehoahaz, at Beth Shemesh, and brought him to Jerusalem, and broke down the wall of Jerusalem from the gate of Ephraim to the corner gate, four hundred cubits.",
+      "ct": "King Joash of Israel captured King Amaziah of Judah, son of Joash and grandson of Jehoahaz, right there at Beth Shemesh. He brought him back to Jerusalem and tore down 400 cubits of Jerusalem's wall, from the Gate of Ephraim to the Corner Gate."
+    },
+    {
+      "verse": 24,
+      "kjv": "And he took all the gold and the silver, and all the vessels that were found in the house of God with Obededom, and the treasures of the king’s house, the hostages also, and returned to Samaria.",
+      "web": "He took all the gold and silver, and all the vessels that were found in God’s house with Obed-Edom, and the treasures of the king’s house, the hostages also, and returned to Samaria.",
+      "ct": "He seized all the gold and silver and every vessel found in God's house that was in the care of Obed-Edom, along with the treasures from the royal palace. He also took hostages, then returned to Samaria."
+    },
+    {
+      "verse": 25,
+      "kjv": "And Amaziah the son of Joash king of Judah lived after the death of Joash son of Jehoahaz king of Israel fifteen years.",
+      "web": "Amaziah the son of Joash king of Judah lived for fifteen years after the death of Joash son of Jehoahaz king of Israel.",
+      "ct": "Amaziah son of Joash, king of Judah, lived for 15 years after the death of King Joash son of Jehoahaz of Israel."
+    },
+    {
+      "verse": 26,
+      "kjv": "Now the rest of the acts of Amaziah, first and last, behold, are they not written in the book of the kings of Judah and Israel?",
+      "web": "Now the rest of the acts of Amaziah, first and last, behold, aren’t they written in the book of the kings of Judah and Israel?",
+      "ct": "Everything else Amaziah did, from beginning to end, is recorded in the official history of the kings of Judah and Israel."
+    },
+    {
+      "verse": 27,
+      "kjv": "Now after the time that Amaziah did turn away from following the LORD they made a conspiracy against him in Jerusalem; and he fled to Lachish: but they sent to Lachish after him, and slew him there.",
+      "web": "Now from the time that Amaziah turned away from following LORD, they made a conspiracy against him in Jerusalem. He fled to Lachish, but they sent after him to Lachish, and killed him there.",
+      "ct": "From the time Amaziah turned away from following the LORD, conspirators plotted against him in Jerusalem. He fled to Lachish, but they sent men after him to Lachish and killed him there."
+    },
+    {
+      "verse": 28,
+      "kjv": "And they brought him upon horses, and buried him with his fathers in the city of Judah.",
+      "web": "They brought him on horses, and buried him with his fathers in the City of Judah.",
+      "ct": "They brought his body back on horses and buried him with his ancestors in the city of Judah."
+    }
+  ]
+}

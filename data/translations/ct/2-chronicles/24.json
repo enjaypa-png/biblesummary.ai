@@ -1,0 +1,173 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 24,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:18:50.394Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Joash was seven years old when he began to reign, and he reigned forty years in Jerusalem. His mother’s name also was Zibiah of Beersheba.",
+      "web": "Joash was seven years old when he began to reign, and he reigned forty years in Jerusalem. His mother’s name was Zibiah, of Beersheba.",
+      "ct": "Joash was 7 years old when he became king, and he ruled in Jerusalem for 40 years. His mother's name was Zibiah, from Beersheba."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Joash did that which was right in the sight of the LORD all the days of Jehoiada the priest.",
+      "web": "Joash did that which was right in LORD’s eyes all the days of Jehoiada the priest.",
+      "ct": "The LORD saw that Joash did what was right throughout the lifetime of Jehoiada the priest."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Jehoiada took for him two wives; and he begat sons and daughters.",
+      "web": "Jehoiada took for him two wives, and he became the father of sons and daughters.",
+      "ct": "Jehoiada chose 2 wives for Joash, and he had sons and daughters."
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass after this, that Joash was minded to repair the house of the LORD.",
+      "web": "After this, Joash intended to restore LORD’s house.",
+      "ct": "Some time later, Joash decided to restore the house of the LORD."
+    },
+    {
+      "verse": 5,
+      "kjv": "And he gathered together the priests and the Levites, and said to them, Go out unto the cities of Judah, and gather of all Israel money to repair the house of your God from year to year, and see that ye hasten the matter. Howbeit the Levites hastened it not.",
+      "web": "He gathered together the priests and the Levites, and said to them, “Go out to the cities of Judah, and gather money to repair the house of your God from all Israel from year to year. See that you expedite this matter.” However the Levites didn’t do it right away.",
+      "ct": "He assembled the priests and Levites and told them, \"Go out to the cities of Judah and collect money from all of Israel each year to repair the house of your God. Make sure you do this quickly.\" But the Levites didn't act on it right away."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the king called for Jehoiada the chief, and said unto him, Why hast thou not required of the Levites to bring in out of Judah and out of Jerusalem the collection, according to the commandment of Moses the servant of the LORD, and of the congregation of Israel, for the tabernacle of witness?",
+      "web": "The king called for Jehoiada the chief, and said to him, “Why haven’t you required of the Levites to bring in the tax of Moses the servant of LORD, and of the assembly of Israel, out of Judah and out of Jerusalem, for the Tent of the Testimony?”",
+      "ct": "So the king summoned Jehoiada the chief priest and demanded, \"Why haven't you made the Levites collect the tax from Judah and Jerusalem? Moses, the servant of the LORD, established this tax for the whole assembly of Israel to support the Tabernacle of the Testimony.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "For the sons of Athaliah, that wicked woman, had broken up the house of God; and also all the dedicated things of the house of the LORD did they bestow upon Baalim.",
+      "web": "For the sons of Athaliah, that wicked woman, had broken up God’s house; and they also gave all the dedicated things of LORD’s house to the Baals.",
+      "ct": "The sons of that wicked woman Athaliah had broken into the house of God and ransacked it. They had even taken all the sacred items from the LORD's house and used them to worship the Baals."
+    },
+    {
+      "verse": 8,
+      "kjv": "And at the king’s commandment they made a chest, and set it without at the gate of the house of the LORD.",
+      "web": "So the king commanded, and they made a chest, and set it outside at the gate of LORD’s house.",
+      "ct": "At the king's command, they built a collection chest and placed it outside the gate of the LORD's house."
+    },
+    {
+      "verse": 9,
+      "kjv": "And they made a proclamation through Judah and Jerusalem, to bring in to the LORD the collection that Moses the servant of God laid upon Israel in the wilderness.",
+      "web": "They made a proclamation through Judah and Jerusalem, to bring in for LORD the tax that Moses the servant of God laid on Israel in the wilderness.",
+      "ct": "Then they sent an announcement throughout Judah and Jerusalem, calling everyone to bring the tax to the LORD that Moses, the servant of God, had required of Israel in the wilderness."
+    },
+    {
+      "verse": 10,
+      "kjv": "And all the princes and all the people rejoiced, and brought in, and cast into the chest, until they had made an end.",
+      "web": "All the princes and all the people rejoiced, and brought in, and cast into the chest, until they had filled it.",
+      "ct": "All the officials and all the people were glad to contribute. They kept bringing their offerings and dropping them into the chest until it was full."
+    },
+    {
+      "verse": 11,
+      "kjv": "Now it came to pass, that at what time the chest was brought unto the king’s office by the hand of the Levites, and when they saw that there was much money, the king’s scribe and the high priest’s officer came and emptied the chest, and took it, and carried it to his place again. Thus they did day by day, and gathered money in abundance.",
+      "web": "Whenever the chest was brought to the king’s officers by the hand of the Levites, and when they saw that there was much money, the king’s scribe and the chief priest’s officer came and emptied the chest, and took it, and carried it to its place again. Thus they did day by day, and gathered money in abundance.",
+      "ct": "Whenever the Levites brought the chest to the king's officials and they saw it was full of money, the king's secretary and the chief priest's officer would come, empty the chest, then carry it back to its place. They did this day after day and collected a huge amount of money."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the king and Jehoiada gave it to such as did the work of the service of the house of the LORD, and hired masons and carpenters to repair the house of the LORD, and also such as wrought iron and brass to mend the house of the LORD.",
+      "web": "The king and Jehoiada gave it to those who did the work of the service of LORD’s house. They hired masons and carpenters to restore LORD’s house, and also those who worked iron and bronze to repair LORD’s house.",
+      "ct": "The king and Jehoiada handed the money over to the workers in charge of restoring the LORD's house. They hired stonemasons and carpenters, along with iron and bronze workers, to repair the LORD's house."
+    },
+    {
+      "verse": 13,
+      "kjv": "So the workmen wrought, and the work was perfected by them, and they set the house of God in his state, and strengthened it.",
+      "web": "So the workmen worked, and the work of repairing went forward in their hands. They set up God’s house as it was designed, and strengthened it.",
+      "ct": "The workers made steady progress, restoring the house of God to its original design and making it structurally sound again."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when they had finished it, they brought the rest of the money before the king and Jehoiada, whereof were made vessels for the house of the LORD, even vessels to minister, and to offer withal, and spoons, and vessels of gold and silver. And they offered burnt offerings in the house of the LORD continually all the days of Jehoiada.",
+      "web": "When they had finished, they brought the rest of the money before the king and Jehoiada, from which were made vessels for LORD’s house, even vessels with which to minister and to offer, including spoons and vessels of gold and silver. They offered burnt offerings in LORD’s house continually all the days of Jehoiada.",
+      "ct": "When they finished the repairs, they brought the leftover money to the king and Jehoiada. It was used to make items for the LORD's house — utensils for worship and for offerings, along with spoons and vessels of gold and silver. Burnt offerings were presented in the LORD's house regularly throughout Jehoiada's lifetime."
+    },
+    {
+      "verse": 15,
+      "kjv": "But Jehoiada waxed old, and was full of days when he died; an hundred and thirty years old was he when he died.",
+      "web": "But Jehoiada grew old and was full of days, and he died. He was one hundred thirty years old when he died.",
+      "ct": "Jehoiada grew old and lived a long, full life. He was 130 years old when he died."
+    },
+    {
+      "verse": 16,
+      "kjv": "And they buried him in the city of David among the kings, because he had done good in Israel, both toward God, and toward his house.",
+      "web": "They buried him in David’s city among the kings, because he had done good in Israel, and toward God and his house.",
+      "ct": "They buried him in the City of David among the kings, because he had done so much good for Israel, for God, and for God's house."
+    },
+    {
+      "verse": 17,
+      "kjv": "Now after the death of Jehoiada came the princes of Judah, and made obeisance to the king. Then the king hearkened unto them.",
+      "web": "Now after the death of Jehoiada, the princes of Judah came, and bowed down to the king. Then the king listened to them.",
+      "ct": "After Jehoiada died, the officials of Judah came and bowed before King Joash, and the king began listening to their advice."
+    },
+    {
+      "verse": 18,
+      "kjv": "And they left the house of the LORD God of their fathers, and served groves and idols: and wrath came upon Judah and Jerusalem for this their trespass.",
+      "web": "They abandoned the house of LORD, the God of their fathers, and served the Asherah poles and the idols, so wrath came on Judah and Jerusalem for this their guiltiness.",
+      "ct": "They abandoned the house of the LORD, the God of their ancestors, and began worshiping Asherah poles and idols instead. Because of this sin, God's wrath fell on Judah and Jerusalem."
+    },
+    {
+      "verse": 19,
+      "kjv": "Yet he sent prophets to them, to bring them again unto the LORD; and they testified against them: but they would not give ear.",
+      "web": "Yet he sent prophets to them, to bring them again to LORD, and they testified against them; but they would not listen.",
+      "ct": "The LORD sent prophets to call them back to himself. The prophets warned them, but the people refused to listen."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the Spirit of God came upon Zechariah the son of Jehoiada the priest, which stood above the people, and said unto them, Thus saith God, Why transgress ye the commandments of the LORD, that ye cannot prosper? because ye have forsaken the LORD, he hath also forsaken you.",
+      "web": "The Spirit of God came on Zechariah the son of Jehoiada the priest; and he stood above the people, and said to them, “God says, ‘Why do you disobey LORD’s commandments, so that you can’t prosper? Because you have forsaken LORD, he has also forsaken you.’ ”",
+      "ct": "Then the Spirit of God came upon Zechariah, the son of Jehoiada the priest. He stood before the people and declared, \"God says: 'Why are you disobeying the LORD's commands? You will never prosper this way. Because you have abandoned the LORD, he has abandoned you.'\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And they conspired against him, and stoned him with stones at the commandment of the king in the court of the house of the LORD.",
+      "web": "They conspired against him, and stoned him with stones at the commandment of the king in the court of LORD’s house.",
+      "ct": "But the people plotted against Zechariah, and on the king's orders, they stoned him to death right there in the courtyard of the LORD's house."
+    },
+    {
+      "verse": 22,
+      "kjv": "Thus Joash the king remembered not the kindness which Jehoiada his father had done to him, but slew his son. And when he died, he said, The LORD look upon it, and require it.",
+      "web": "Thus Joash the king didn’t remember the kindness which Jehoiada his father had done to him, but killed his son. When he died, he said, “May LORD look at it, and repay it.”",
+      "ct": "King Joash forgot all the kindness that Jehoiada had shown him and murdered his son. As Zechariah lay dying, he cried out, \"May the LORD see this and hold you accountable.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And it came to pass at the end of the year, that the host of Syria came up against him: and they came to Judah and Jerusalem, and destroyed all the princes of the people from among the people, and sent all the spoil of them unto the king of Damascus.",
+      "web": "At the end of the year, the army of the Syrians came up against him: and they came to Judah and Jerusalem, and destroyed all the princes of the people from among the people, and sent all their plunder to the king of Damascus.",
+      "ct": "At the end of that year, the Syrian army marched against Joash. They invaded Judah and Jerusalem, killed all the officials among the people, and shipped all the plunder back to the king of Damascus."
+    },
+    {
+      "verse": 24,
+      "kjv": "For the army of the Syrians came with a small company of men, and the LORD delivered a very great host into their hand, because they had forsaken the LORD God of their fathers. So they executed judgment against Joash.",
+      "web": "For the army of the Syrians came with a small company of men; and LORD delivered a very great army into their hand, because they had forsaken LORD, the God of their fathers. So they executed judgment on Joash.",
+      "ct": "Even though the Syrian army came with only a small force, the LORD handed Judah's much larger army over to them, because the people had abandoned the LORD, the God of their ancestors. In this way, God's judgment fell on Joash."
+    },
+    {
+      "verse": 25,
+      "kjv": "And when they were departed from him, (for they left him in great diseases,) his own servants conspired against him for the blood of the sons of Jehoiada the priest, and slew him on his bed, and he died: and they buried him in the city of David, but they buried him not in the sepulchres of the kings.",
+      "web": "When they had departed from him (for they left him very sick), his own servants conspired against him for the blood of the sons of Jehoiada the priest, and killed him on his bed, and he died. They buried him in David’s city, but they didn’t bury him in the tombs of the kings.",
+      "ct": "When the Syrians withdrew, they left Joash severely wounded. His own servants then conspired against him to avenge the murder of Jehoiada the priest's sons. They killed Joash in his bed. He died and was buried in the City of David, but not in the royal tombs."
+    },
+    {
+      "verse": 26,
+      "kjv": "And these are they that conspired against him; Zabad the son of Shimeath an Ammonitess, and Jehozabad the son of Shimrith a Moabitess.",
+      "web": "These are those who conspired against him: Zabad the son of Shimeath the Ammonitess and Jehozabad the son of Shimrith the Moabitess.",
+      "ct": "The conspirators were Zabad son of Shimeath, an Ammonite woman, and Jehozabad son of Shimrith, a Moabite woman."
+    },
+    {
+      "verse": 27,
+      "kjv": "Now concerning his sons, and the greatness of the burdens laid upon him, and the repairing of the house of God, behold, they are written in the story of the book of the kings. And Amaziah his son reigned in his stead.",
+      "web": "Now concerning his sons, the greatness of the burdens laid on him, and the rebuilding of God’s house, behold, they are written in the commentary of the book of the kings. Amaziah his son reigned in his place.",
+      "ct": "The full account of his sons, the heavy burdens placed on him, and the restoration of God's house are all recorded in the commentary on the book of the kings. His son Amaziah became king after him."
+    }
+  ]
+}

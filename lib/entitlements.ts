@@ -56,7 +56,7 @@ export async function checkExplainAccess(): Promise<{
  * Redirects the user to Stripe Checkout.
  */
 export async function startCheckout(params: {
-  product: "summary_single" | "summary_annual" | "explain_monthly" | "premium_yearly";
+  product: "summary_single" | "summary_annual" | "explain_monthly" | "premium_yearly" | "premium_monthly";
   bookId?: string;
   bookSlug?: string;
   returnPath?: string;

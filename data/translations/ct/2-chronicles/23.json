@@ -1,0 +1,137 @@
+{
+  "book": "2-chronicles",
+  "book_name": "2 Chronicles",
+  "chapter": 23,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:18:24.826Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And in the seventh year Jehoiada strengthened himself, and took the captains of hundreds, Azariah the son of Jeroham, and Ishmael the son of Jehohanan, and Azariah the son of Obed, and Maaseiah the son of Adaiah, and Elishaphat the son of Zichri, into covenant with him.",
+      "web": "In the seventh year, Jehoiada strengthened himself, and took the captains of hundreds, Azariah the son of Jeroham, Ishmael the son of Jehohanan, Azariah the son of Obed, Maaseiah the son of Adaiah, and Elishaphat the son of Zichri, into a covenant with him.",
+      "ct": "In the 7th year, Jehoiada the priest gathered his courage and made a secret covenant with 5 military commanders: Azariah son of Jeroham, Ishmael son of Jehohanan, Azariah son of Obed, Maaseiah son of Adaiah, and Elishaphat son of Zichri."
+    },
+    {
+      "verse": 2,
+      "kjv": "And they went about in Judah, and gathered the Levites out of all the cities of Judah, and the chief of the fathers of Israel, and they came to Jerusalem.",
+      "web": "They went around in Judah, and gathered the Levites out of all the cities of Judah, and the heads of fathers’ households of Israel, and they came to Jerusalem.",
+      "ct": "They traveled throughout Judah and gathered the Levites from every city, along with the heads of Israel's leading families. Together they all came to Jerusalem."
+    },
+    {
+      "verse": 3,
+      "kjv": "And all the congregation made a covenant with the king in the house of God. And he said unto them, Behold, the king’s son shall reign, as the LORD hath said of the sons of David.",
+      "web": "All the assembly made a covenant with the king in God’s house. He said to them, “Behold, the king’s son must reign, as LORD has spoken concerning the sons of David.",
+      "ct": "The whole assembly made a covenant with the young king in the house of God. Jehoiada told them, \"Look — the king's son will reign, just as the LORD promised concerning David's descendants.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "This is the thing that ye shall do; A third part of you entering on the sabbath, of the priests and of the Levites, shall be porters of the doors;",
+      "web": "This is the thing that you must do. A third part of you, who come in on the Sabbath, of the priests and of the Levites, shall be gatekeepers of the thresholds.",
+      "ct": "\"Here is the plan: a third of you priests and Levites who come on duty on the Sabbath will guard the doorways.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And a third part shall be at the king’s house; and a third part at the gate of the foundation: and all the people shall be in the courts of the house of the LORD.",
+      "web": "A third part shall be at the king’s house; and a third part at the gate of the foundation. All the people will be in the courts of LORD’s house.",
+      "ct": "\"A third will be stationed at the royal palace, and a third at the Gate of the Foundation. Everyone else will stand in the courtyards of the LORD's house.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "But let none come into the house of the LORD, save the priests, and they that minister of the Levites; they shall go in, for they are holy: but all the people shall keep the watch of the LORD.",
+      "web": "But let no one come into LORD’s house, except the priests and those who minister of the Levites. They shall come in, for they are holy, but all the people shall follow LORD’s instructions.",
+      "ct": "\"No one is to enter the LORD's house except the priests and the Levites who are on duty — they may enter because they are holy. Everyone else must follow the LORD's instructions and stay in the courtyards.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And the Levites shall compass the king round about, every man with his weapons in his hand; and whosoever else cometh into the house, he shall be put to death: but be ye with the king when he cometh in, and when he goeth out.",
+      "web": "The Levites shall surround the king, every man with his weapons in his hand. Whoever comes into the house, let him be slain. Be with the king when he comes in, and when he goes out.”",
+      "ct": "\"The Levites will form a ring around the king, every man with his weapon drawn. Anyone else who tries to enter the temple must be killed. Stay close to the king wherever he goes.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "So the Levites and all Judah did according to all things that Jehoiada the priest had commanded, and took every man his men that were to come in on the sabbath, with them that were to go out on the sabbath: for Jehoiada the priest dismissed not the courses.",
+      "web": "So the Levites and all Judah did according to all that Jehoiada the priest commanded: and they each took his men, those who were to come in on the Sabbath; with those who were to go out on the Sabbath; for Jehoiada the priest didn’t dismiss the shift.",
+      "ct": "The Levites and all of Judah carried out Jehoiada's orders exactly. Each commander brought his men — both those coming on duty for the Sabbath and those going off duty — because Jehoiada didn't dismiss any of the rotating divisions."
+    },
+    {
+      "verse": 9,
+      "kjv": "Moreover Jehoiada the priest delivered to the captains of hundreds spears, and bucklers, and shields, that had been king David’s, which were in the house of God.",
+      "web": "Jehoiada the priest delivered to the captains of hundreds the spears, and bucklers, and shields, that had been king David’s, which were in God’s house.",
+      "ct": "Jehoiada also handed out the spears, small shields, and large shields that had belonged to King David, which had been stored in the house of God."
+    },
+    {
+      "verse": 10,
+      "kjv": "And he set all the people, every man having his weapon in his hand, from the right side of the temple to the left side of the temple, along by the altar and the temple, by the king round about.",
+      "web": "He set all the people, every man with his weapon in his hand, from the right side of the house to the left side of the house, near the altar and the house, around the king.",
+      "ct": "He positioned all the armed men from one end of the temple to the other, lining them up along the altar and the temple walls to form a protective barrier around the king."
+    },
+    {
+      "verse": 11,
+      "kjv": "Then they brought out the king’s son, and put upon him the crown, and gave him the testimony, and made him king. And Jehoiada and his sons anointed him, and said, God save the king.",
+      "web": "Then they brought out the king’s son, and put the crown on him, and gave him the covenant, and made him king. Jehoiada and his sons anointed him, and they said, “Long live the king!”",
+      "ct": "Then they brought out the king's son, placed the crown on his head, and presented him with a copy of the covenant. They proclaimed him king. Jehoiada and his sons anointed him, and the crowd shouted, \"Long live the king!\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Now when Athaliah heard the noise of the people running and praising the king, she came to the people into the house of the LORD:",
+      "web": "When Athaliah heard the noise of the people running and praising the king, she came to the people into LORD’s house.",
+      "ct": "When Athaliah heard the commotion — people running and cheering for the king — she rushed to the LORD's house to see what was happening."
+    },
+    {
+      "verse": 13,
+      "kjv": "And she looked, and, behold, the king stood at his pillar at the entering in, and the princes and the trumpets by the king: and all the people of the land rejoiced, and sounded with trumpets, also the singers with instruments of musick, and such as taught to sing praise. Then Athaliah rent her clothes, and said, Treason, Treason.",
+      "web": "Then she looked, and, behold, the king stood by his pillar at the entrance, and the captains and the trumpets by the king. All the people of the land rejoiced, and blew trumpets. The singers also played musical instruments, and led the singing of praise. Then Athaliah tore her clothes, and said, “Treason! treason!”",
+      "ct": "There she saw the young king standing by his pillar at the entrance, with the commanders and trumpeters beside him. All the people of the land were celebrating, blowing trumpets, and the musicians were playing instruments and leading songs of praise. Athaliah tore her clothes and screamed, \"Treason! Treason!\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Then Jehoiada the priest brought out the captains of hundreds that were set over the host, and said unto them, Have her forth of the ranges: and whoso followeth her, let him be slain with the sword. For the priest said, Slay her not in the house of the LORD.",
+      "web": "Jehoiada the priest brought out the captains of hundreds who were set over the army, and said to them, “Bring her out between the ranks; and whoever follows her, let him be slain with the sword.” For the priest said, “Don’t kill her in LORD’s house.”",
+      "ct": "Jehoiada the priest called out the military commanders and ordered them, \"Drag her out between the ranks of soldiers! Anyone who follows her must be killed with the sword.\" He had specifically instructed them, \"Don't kill her inside the LORD's house.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "So they laid hands on her; and when she was come to the entering of the horse gate by the king’s house, they slew her there.",
+      "web": "So they made way for her. She went to the entrance of the horse gate to the king’s house; and they killed her there.",
+      "ct": "So they seized her, and when she reached the entrance of the Horse Gate near the royal palace, they killed her there."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Jehoiada made a covenant between him, and between all the people, and between the king, that they should be the LORD’s people.",
+      "web": "Jehoiada made a covenant between himself, all the people, and the king, that they should be LORD’s people.",
+      "ct": "Then Jehoiada established a covenant between himself, all the people, and the king — pledging that they would be the LORD's people."
+    },
+    {
+      "verse": 17,
+      "kjv": "Then all the people went to the house of Baal, and brake it down, and brake his altars and his images in pieces, and slew Mattan the priest of Baal before the altars.",
+      "web": "All the people went to the house of Baal, broke it down, broke his altars and his images in pieces, and killed Mattan the priest of Baal before the altars.",
+      "ct": "The entire crowd then stormed the temple of Baal and tore it down. They smashed his altars and his idols to pieces and killed Mattan, the priest of Baal, right in front of the altars."
+    },
+    {
+      "verse": 18,
+      "kjv": "Also Jehoiada appointed the offices of the house of the LORD by the hand of the priests the Levites, whom David had distributed in the house of the LORD, to offer the burnt offerings of the LORD, as it is written in the law of Moses, with rejoicing and with singing, as it was ordained by David.",
+      "web": "Jehoiada appointed the officers of LORD’s house under the hand of the Levitical priests, whom David had distributed in LORD’s house, to offer the burnt offerings of LORD, as it is written in the law of Moses, with rejoicing and with singing, as David had ordered.",
+      "ct": "Jehoiada also restored the duties at the LORD's house, placing them under the supervision of the Levitical priests just as David had originally organized them — to offer burnt offerings to the LORD as written in the law of Moses, with joyful celebration and singing, following the arrangements David had established."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he set the porters at the gates of the house of the LORD, that none which was unclean in any thing should enter in.",
+      "web": "He set the gatekeepers at the gates of LORD’s house, that no one who was unclean in anything should enter in.",
+      "ct": "He stationed gatekeepers at the gates of the LORD's house so that no one who was unclean for any reason could enter."
+    },
+    {
+      "verse": 20,
+      "kjv": "And he took the captains of hundreds, and the nobles, and the governors of the people, and all the people of the land, and brought down the king from the house of the LORD: and they came through the high gate into the king’s house, and set the king upon the throne of the kingdom.",
+      "web": "He took the captains of hundreds, the nobles, the governors of the people, and all the people of the land, and brought the king down from LORD’s house. They came through the upper gate to the king’s house, and set the king on the throne of the kingdom.",
+      "ct": "Then he assembled the commanders, the nobles, the governors, and all the people of the land. Together they escorted the king down from the LORD's house, through the Upper Gate, and into the royal palace, where they seated him on the throne."
+    },
+    {
+      "verse": 21,
+      "kjv": "And all the people of the land rejoiced: and the city was quiet, after that they had slain Athaliah with the sword.",
+      "web": "So all the people of the land rejoiced, and the city was quiet. They had slain Athaliah with the sword.",
+      "ct": "All the people of the land celebrated, and the city was peaceful. Athaliah had been put to death by the sword."
+    }
+  ]
+}
