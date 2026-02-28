@@ -454,7 +454,7 @@ export default function ClearBibleLanding() {
               src="/brand/logo.svg"
               alt="ClearBible.ai"
               width={400}
-              height={130}
+              height={108}
               priority
               style={{ margin: "0 auto", maxWidth: 400, width: "100%", height: "auto" }}
             />
