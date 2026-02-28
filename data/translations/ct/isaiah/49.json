@@ -1,0 +1,167 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 49,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:52:46.552Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Listen, O isles, unto me; and hearken, ye people, from far; The LORD hath called me from the womb; from the bowels of my mother hath he made mention of my name.",
+      "web": "Listen, islands, to me. Listen, you peoples, from afar: LORD has called me from the womb; from the inside of my mother, he has mentioned my name.",
+      "ct": "Listen to me, you distant islands! Pay attention, you faraway nations! The LORD called me before I was born — while I was still in my mother's womb, he spoke my name."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he hath made my mouth like a sharp sword; in the shadow of his hand hath he hid me, and made me a polished shaft; in his quiver hath he hid me;",
+      "web": "He has made my mouth like a sharp sword. He has hidden me in the shadow of his hand. He has made me a polished shaft. He has kept me close in his quiver.",
+      "ct": "He made my words as sharp as a sword. He hid me in the shadow of his hand. He shaped me into a polished arrow and tucked me safely into his quiver."
+    },
+    {
+      "verse": 3,
+      "kjv": "And said unto me, Thou art my servant, O Israel, in whom I will be glorified.",
+      "web": "He said to me, “You are my servant, Israel, in whom I will be glorified.”",
+      "ct": "He told me, \"You are my servant, Israel, and through you I will display my glory.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then I said, I have laboured in vain, I have spent my strength for nought, and in vain: yet surely my judgment is with the LORD, and my work with my God.",
+      "web": "But I said, “I have labored in vain. I have spent my strength in vain for nothing; yet surely the justice due to me is with LORD, and my reward with my God.” ",
+      "ct": "But I said, \"I've worked for nothing. I've used up all my strength and have nothing to show for it.\" Even so, my case is in the LORD's hands, and my reward is with my God."
+    },
+    {
+      "verse": 5,
+      "kjv": "And now, saith the LORD that formed me from the womb to be his servant, to bring Jacob again to him, Though Israel be not gathered, yet shall I be glorious in the eyes of the LORD, and my God shall be my strength.",
+      "web": "Now LORD, he who formed me from the womb to be his servant, says to bring Jacob again to him, and to gather Israel to him, for I am honorable in LORD’s eyes, and my God has become my strength.",
+      "ct": "Now the LORD speaks — the one who formed me in the womb to be his servant, to bring Jacob back to him and gather Israel to himself. I am honored in the LORD's eyes, and my God has become my strength."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he said, It is a light thing that thou shouldest be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give thee for a light to the Gentiles, that thou mayest be my salvation unto the end of the earth.",
+      "web": "Indeed, he says, “It is too light a thing that you should be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel. I will also give you as a light to the nations, that you may be my salvation to the end of the earth.”",
+      "ct": "He says, \"It's not enough for you to simply be my servant and restore the tribes of Jacob and bring back the survivors of Israel. I will also make you a light to the nations, so that my salvation reaches to the ends of the earth.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Thus saith the LORD, the Redeemer of Israel, and his Holy One, to him whom man despiseth, to him whom the nation abhorreth, to a servant of rulers, Kings shall see and arise, princes also shall worship, because of the LORD that is faithful, and the Holy One of Israel, and he shall choose thee.",
+      "web": "LORD, the Redeemer of Israel, and his Holy One, says to him whom man despises, to him whom the nation abhors, to a servant of rulers: “Kings shall see and rise up, princes, and they shall worship, because of LORD who is faithful, even the Holy One of Israel, who has chosen you.” ",
+      "ct": "The LORD, the Redeemer of Israel, his Holy One, speaks to the one who is despised by people, hated by the nation, and enslaved by rulers: \"Kings will see you and stand up. Princes will bow down. This will happen because the LORD is faithful — the Holy One of Israel has chosen you.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Thus saith the LORD, In an acceptable time have I heard thee, and in a day of salvation have I helped thee: and I will preserve thee, and give thee for a covenant of the people, to establish the earth, to cause to inherit the desolate heritages;",
+      "web": "LORD says, “I have answered you in an acceptable time. I have helped you in a day of salvation. I will preserve you and give you for a covenant of the people, to raise up the land, to make them inherit the desolate heritage,",
+      "ct": "The LORD says, \"At just the right time, I answered you. On the day of salvation, I helped you. I will protect you and make you a covenant for the people, to restore the land and redistribute the abandoned territories,"
+    },
+    {
+      "verse": 9,
+      "kjv": "That thou mayest say to the prisoners, Go forth; to them that are in darkness, Shew yourselves. They shall feed in the ways, and their pastures shall be in all high places.",
+      "web": "saying to those who are bound, ‘Come out!’; to those who are in darkness, ‘Show yourselves!’ “They shall feed along the paths, and their pasture shall be on all treeless heights.",
+      "ct": "saying to the prisoners, 'Come out!' and to those trapped in darkness, 'Step into the light!' They will find food along every path, and every barren hilltop will become their pasture."
+    },
+    {
+      "verse": 10,
+      "kjv": "They shall not hunger nor thirst; neither shall the heat nor sun smite them: for he that hath mercy on them shall lead them, even by the springs of water shall he guide them.",
+      "web": "They shall not hunger nor thirst; neither shall the heat nor sun strike them: for he who has mercy on them will lead them. He will guide them by springs of water.",
+      "ct": "They won't go hungry or thirsty. The scorching heat and blazing sun won't strike them down, because the one who has mercy on them will lead them and guide them to springs of fresh water."
+    },
+    {
+      "verse": 11,
+      "kjv": "And I will make all my mountains a way, and my highways shall be exalted.",
+      "web": "I will make all my mountains a road, and my highways shall be exalted.",
+      "ct": "I will turn all my mountains into roads, and my highways will be raised up for easy travel."
+    },
+    {
+      "verse": 12,
+      "kjv": "Behold, these shall come from far: and, lo, these from the north and from the west; and these from the land of Sinim.",
+      "web": "Behold, these shall come from afar, and behold, these from the north and from the west; and these from the land of Sinim.”",
+      "ct": "Look! They will come from far away — some from the north, some from the west, and some from the land of Sinim.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Sing, O heavens; and be joyful, O earth; and break forth into singing, O mountains: for the LORD hath comforted his people, and will have mercy upon his afflicted.",
+      "web": "Sing, heavens, and be joyful, earth! Break out into singing, mountains, for LORD has comforted his people, and will have compassion on his afflicted. ",
+      "ct": "Sing for joy, heavens! Celebrate, earth! Break out in song, mountains! The LORD has comforted his people and will have mercy on those who are suffering."
+    },
+    {
+      "verse": 14,
+      "kjv": "But Zion said, The LORD hath forsaken me, and my Lord hath forgotten me.",
+      "web": "But Zion said, “LORD has forsaken me, and the Lord has forgotten me.”",
+      "ct": "But Zion said, \"The LORD has abandoned me. The Lord has forgotten me.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Can a woman forget her sucking child, that she should not have compassion on the son of her womb? yea, they may forget, yet will I not forget thee.",
+      "web": "“Can a woman forget her nursing child, that she should not have compassion on the son of her womb? Yes, these may forget, yet I will not forget you!",
+      "ct": "\"Can a mother forget the baby nursing at her breast? Can she feel no compassion for the child she carried in her womb? Even if she could forget, I will never forget you!"
+    },
+    {
+      "verse": 16,
+      "kjv": "Behold, I have graven thee upon the palms of my hands; thy walls are continually before me.",
+      "web": "Behold, I have engraved you on the palms of my hands. Your walls are continually before me.",
+      "ct": "Look — I have engraved you on the palms of my hands. Your walls are always right in front of me."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thy children shall make haste; thy destroyers and they that made thee waste shall go forth of thee.",
+      "web": "Your children hurry. Your destroyers and those who devastated you will leave you.",
+      "ct": "Your children are rushing back to you, and those who destroyed you and left you in ruins will leave."
+    },
+    {
+      "verse": 18,
+      "kjv": "Lift up thine eyes round about, and behold: all these gather themselves together, and come to thee. As I live, saith the LORD, thou shalt surely clothe thee with them all, as with an ornament, and bind them on thee, as a bride doeth.",
+      "web": "Lift up your eyes all around, and see: all these gather themselves together, and come to you. As I live,” says LORD, “you shall surely clothe yourself with them all as with an ornament, and dress yourself with them, like a bride.",
+      "ct": "Look up and see what's happening all around you: they are all gathering together and coming home to you. As surely as I live,\" declares the LORD, \"you will wear them all like jewelry and display them proudly, the way a bride adorns herself."
+    },
+    {
+      "verse": 19,
+      "kjv": "For thy waste and thy desolate places, and the land of thy destruction, shall even now be too narrow by reason of the inhabitants, and they that swallowed thee up shall be far away.",
+      "web": "“For, as for your waste and your desolate places, and your land that has been destroyed, surely now that land will be too small for the inhabitants, and those who swallowed you up will be far away.",
+      "ct": "\"Your ruined and devastated land, your destroyed territory — it will soon be too crowded for all the people living there, and those who devoured you will be long gone."
+    },
+    {
+      "verse": 20,
+      "kjv": "The children which thou shalt have, after thou hast lost the other, shall say again in thine ears, The place is too strait for me: give place to me that I may dwell.",
+      "web": "The children of your bereavement will say in your ears, ‘This place is too small for me. Give me a place to live in.’",
+      "ct": "The children born during your time of loss will say to you, 'This place is too small for us! Make room so we can live here.'"
+    },
+    {
+      "verse": 21,
+      "kjv": "Then shalt thou say in thine heart, Who hath begotten me these, seeing I have lost my children, and am desolate, a captive, and removing to and fro? and who hath brought up these? Behold, I was left alone; these, where had they been?",
+      "web": "Then you will say in your heart, ‘Who has conceived these for me, since I have been bereaved of my children and am alone, an exile, and wandering back and forth? Who has brought these up? Behold, I was left alone. Where were these?’ ” ",
+      "ct": "Then you will wonder in your heart, 'Who gave me all these children? I lost my children. I was alone, exiled, and wandering. Who raised them? I was left by myself — so where did they all come from?'\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Thus saith the Lord GOD, Behold, I will lift up mine hand to the Gentiles, and set up my standard to the people: and they shall bring thy sons in their arms, and thy daughters shall be carried upon their shoulders.",
+      "web": "The Lord LORD says, “Behold, I will lift up my hand to the nations, and lift up my banner to the peoples. They shall bring your sons in their bosom, and your daughters shall be carried on their shoulders.",
+      "ct": "The Lord GOD says, \"Watch — I will raise my hand to signal the nations and lift my banner for the peoples. They will carry your sons in their arms and bring your daughters on their shoulders."
+    },
+    {
+      "verse": 23,
+      "kjv": "And kings shall be thy nursing fathers, and their queens thy nursing mothers: they shall bow down to thee with their face toward the earth, and lick up the dust of thy feet; and thou shalt know that I am the LORD: for they shall not be ashamed that wait for me.",
+      "web": "Kings shall be your foster fathers, and their queens your nursing mothers. They will bow down to you with their faces to the earth, and lick the dust of your feet. Then you will know that I am LORD; and those who wait for me shall not be disappointed.” ",
+      "ct": "Kings will be like foster fathers to you, and queens will nurse your children. They will bow before you with their faces to the ground and lick the dust at your feet. Then you will know that I am the LORD, and those who wait for me will never be disappointed.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Shall the prey be taken from the mighty, or the lawful captive delivered?",
+      "web": "Shall the plunder be taken from the mighty, or the lawful captives be delivered?",
+      "ct": "Can plunder be snatched from a warrior? Can captives be rescued from a tyrant?"
+    },
+    {
+      "verse": 25,
+      "kjv": "But thus saith the LORD, Even the captives of the mighty shall be taken away, and the prey of the terrible shall be delivered: for I will contend with him that contendeth with thee, and I will save thy children.",
+      "web": "But LORD says, “Even the captives of the mighty shall be taken away, and the plunder retrieved from the fierce, for I will contend with him who contends with you and I will save your children.",
+      "ct": "But the LORD says, \"Yes! Even captives held by warriors will be taken back, and plunder seized by tyrants will be recovered. I will personally fight against anyone who fights against you, and I will save your children."
+    },
+    {
+      "verse": 26,
+      "kjv": "And I will feed them that oppress thee with their own flesh; and they shall be drunken with their own blood, as with sweet wine: and all flesh shall know that I the LORD am thy Saviour and thy Redeemer, the mighty One of Jacob.",
+      "web": "I will feed those who oppress you with their own flesh; and they will be drunk on their own blood, as with sweet wine. Then all flesh shall know that I, LORD, am your Savior and your Redeemer, the Mighty One of Jacob.”",
+      "ct": "I will force your oppressors to eat their own flesh, and they will be drunk on their own blood as if it were wine. Then everyone on earth will know that I, the LORD, am your Savior and your Redeemer — the Mighty One of Jacob.\""
+    }
+  ]
+}

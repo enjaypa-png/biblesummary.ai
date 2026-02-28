@@ -1,0 +1,77 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 61,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:56:07.118Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound;",
+      "web": "The Lord LORD’s Spirit is on me, because LORD has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives and release to those who are bound,",
+      "ct": "The spirit of the Lord GOD is on me, because the LORD has anointed me to bring good news to the humble. He has sent me to heal the brokenhearted, to announce freedom for the captives, and release for those locked in prison."
+    },
+    {
+      "verse": 2,
+      "kjv": "To proclaim the acceptable year of the LORD, and the day of vengeance of our God; to comfort all that mourn;",
+      "web": "to proclaim the year of LORD’s favor and the day of vengeance of our God, to comfort all who mourn,",
+      "ct": "He sent me to proclaim the year of the LORD's favor and the day of vengeance from our God — to comfort everyone who mourns."
+    },
+    {
+      "verse": 3,
+      "kjv": "To appoint unto them that mourn in Zion, to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness; that they might be called trees of righteousness, the planting of the LORD, that he might be glorified.",
+      "web": "to provide for those who mourn in Zion, to give to them a garland for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness, that they may be called trees of righteousness, the planting of LORD, that he may be glorified. ",
+      "ct": "To those who grieve in Zion, he will give a crown of beauty instead of ashes, the oil of joy instead of mourning, and a garment of praise instead of a spirit of heaviness. They will be called trees of righteousness, planted by the LORD, so that he might be glorified."
+    },
+    {
+      "verse": 4,
+      "kjv": "And they shall build the old wastes, they shall raise up the former desolations, and they shall repair the waste cities, the desolations of many generations.",
+      "web": "They will rebuild the old ruins. They will raise up the former devastated places. They will repair the ruined cities that have been devastated for many generations.",
+      "ct": "They will rebuild the ancient ruins and restore places that have been devastated for generations. They will repair the cities that have lain in rubble for ages."
+    },
+    {
+      "verse": 5,
+      "kjv": "And strangers shall stand and feed your flocks, and the sons of the alien shall be your plowmen and your vinedressers.",
+      "web": "Strangers will stand and feed your flocks. Foreigners will work your fields and your vineyards.",
+      "ct": "Strangers will tend your flocks, and foreigners will work your fields and care for your vineyards."
+    },
+    {
+      "verse": 6,
+      "kjv": "But ye shall be named the Priests of the LORD: men shall call you the Ministers of our God: ye shall eat the riches of the Gentiles, and in their glory shall ye boast yourselves.",
+      "web": "But you will be called LORD’s priests. Men will call you the servants of our God. You will eat the wealth of the nations. You will boast in their glory.",
+      "ct": "But you will be called priests of the LORD, and people will know you as servants of our God. You will enjoy the wealth of the nations and take pride in their glory."
+    },
+    {
+      "verse": 7,
+      "kjv": "For your shame ye shall have double; and for confusion they shall rejoice in their portion: therefore in their land they shall possess the double: everlasting joy shall be unto them.",
+      "web": "Instead of your shame you will have double. Instead of dishonor, they will rejoice in their portion. Therefore in their land they will possess double. Everlasting joy will be to them.",
+      "ct": "Instead of shame, you will receive a double portion. Instead of disgrace, you will shout for joy over what you've been given. You will inherit a double share in your land, and your joy will last forever."
+    },
+    {
+      "verse": 8,
+      "kjv": "For I the LORD love judgment, I hate robbery for burnt offering; and I will direct their work in truth, and I will make an everlasting covenant with them.",
+      "web": "“For I, LORD, love justice. I hate robbery and iniquity. I will give them their reward in truth and I will make an everlasting covenant with them.",
+      "ct": "\"For I, the LORD, love justice. I hate robbery and wrongdoing. I will faithfully reward my people and make an everlasting covenant with them."
+    },
+    {
+      "verse": 9,
+      "kjv": "And their seed shall be known among the Gentiles, and their offspring among the people: all that see them shall acknowledge them, that they are the seed which the LORD hath blessed.",
+      "web": "Their offspring will be known among the nations, and their offspring among the peoples. All who see them will acknowledge them, that they are the offspring which LORD has blessed.” ",
+      "ct": "Their descendants will be recognized among the nations, and their children among every people. Everyone who sees them will know that they are a people the LORD has blessed.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "I will greatly rejoice in the LORD, my soul shall be joyful in my God; for he hath clothed me with the garments of salvation, he hath covered me with the robe of righteousness, as a bridegroom decketh himself with ornaments, and as a bride adorneth herself with her jewels.",
+      "web": "I will greatly rejoice in LORD! My soul will be joyful in my God, for he has clothed me with the garments of salvation. He has covered me with the robe of righteousness, as a bridegroom decks himself with a garland and as a bride adorns herself with her jewels.",
+      "ct": "My soul overflows with joy in the LORD! My whole being celebrates my God, because he has dressed me in the garments of salvation and wrapped me in the robe of righteousness — like a groom adorned for his wedding, like a bride sparkling with her jewels."
+    },
+    {
+      "verse": 11,
+      "kjv": "For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations.",
+      "web": "For as the earth produces its bud, and as the garden causes the things that are sown in it to spring up, so the Lord LORD will cause righteousness and praise to spring up before all the nations.",
+      "ct": "Just as the earth pushes up new growth, and a garden makes its seeds sprout, so the Lord GOD will cause righteousness and praise to spring up before every nation."
+    }
+  ]
+}

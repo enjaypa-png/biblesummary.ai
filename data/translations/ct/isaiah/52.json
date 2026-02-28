@@ -1,0 +1,101 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 52,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:53:37.406Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Awake, awake; put on thy strength, O Zion; put on thy beautiful garments, O Jerusalem, the holy city: for henceforth there shall no more come into thee the uncircumcised and the unclean.",
+      "web": "Awake, awake! Put on your strength, Zion. Put on your beautiful garments, Jerusalem, the holy city: for from now on the uncircumcised and the unclean will no more come into you.",
+      "ct": "Wake up, wake up, Zion! Clothe yourself in strength! Put on your most beautiful garments, Jerusalem, the holy city — because never again will the uncircumcised and the unclean set foot inside your walls."
+    },
+    {
+      "verse": 2,
+      "kjv": "Shake thyself from the dust; arise, and sit down, O Jerusalem: loose thyself from the bands of thy neck, O captive daughter of Zion.",
+      "web": "Shake yourself from the dust! Arise, sit up, Jerusalem! Release yourself from the bonds of your neck, captive daughter of Zion! ",
+      "ct": "Shake off the dust and rise up, Jerusalem! Free yourself from the chains around your neck, captive daughter of Zion!"
+    },
+    {
+      "verse": 3,
+      "kjv": "For thus saith the LORD, Ye have sold yourselves for nought; and ye shall be redeemed without money.",
+      "web": "For LORD says, “You were sold for nothing; and you will be redeemed without money.”",
+      "ct": "For the LORD says, \"You were sold into slavery for nothing, and you will be set free without paying a penny.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "For thus saith the Lord GOD, My people went down aforetime into Egypt to sojourn there; and the Assyrian oppressed them without cause.",
+      "web": "For the Lord LORD says: “My people went down at the first into Egypt to live there: and the Assyrian has oppressed them without cause. ",
+      "ct": "For the Lord GOD says, \"Long ago my people went down to Egypt to live as foreigners. Then the Assyrians crushed them for no reason at all.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Now therefore, what have I here, saith the LORD, that my people is taken away for nought? they that rule over them make them to howl, saith the LORD; and my name continually every day is blasphemed.",
+      "web": "“Now therefore, what do I do here,” says LORD, “seeing that my people are taken away for nothing? Those who rule over them mock,” says LORD, “and my name is blasphemed continually all day long.",
+      "ct": "\"So now, what do I find?\" declares the LORD. \"My people have been carried off for nothing. Their rulers mock them,\" says the LORD, \"and my name is insulted all day, every day.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Therefore my people shall know my name: therefore they shall know in that day that I am he that doth speak: behold, it is I.",
+      "web": "Therefore my people shall know my name. Therefore they shall know in that day that I am he who speaks. Behold, it is I.” ",
+      "ct": "\"But because of this, my people will know my name. On that day, they will know that I am the one who speaks — yes, it is I.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "How beautiful upon the mountains are the feet of him that bringeth good tidings, that publisheth peace; that bringeth good tidings of good, that publisheth salvation; that saith unto Zion, Thy God reigneth!",
+      "web": "How beautiful on the mountains are the feet of him who brings good news, who publishes peace, who brings good news, who proclaims salvation, who says to Zion, “Your God reigns!”",
+      "ct": "How beautiful on the mountains are the feet of the messenger who brings good news — who announces peace, who carries word of good things, who proclaims salvation, who tells Zion, \"Your God reigns!\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Thy watchmen shall lift up the voice; with the voice together shall they sing: for they shall see eye to eye, when the LORD shall bring again Zion.",
+      "web": "Your watchmen lift up their voice. Together they sing; for they shall see eye to eye when LORD returns to Zion.",
+      "ct": "Listen! Your watchmen raise their voices and shout for joy together, because they will see it with their own eyes when the LORD returns to Zion."
+    },
+    {
+      "verse": 9,
+      "kjv": "Break forth into joy, sing together, ye waste places of Jerusalem: for the LORD hath comforted his people, he hath redeemed Jerusalem.",
+      "web": "Break out into joy! Sing together, you waste places of Jerusalem; for LORD has comforted his people. He has redeemed Jerusalem.",
+      "ct": "Burst into joyful singing together, you ruins of Jerusalem! The LORD has comforted his people — he has redeemed Jerusalem!"
+    },
+    {
+      "verse": 10,
+      "kjv": "The LORD hath made bare his holy arm in the eyes of all the nations; and all the ends of the earth shall see the salvation of our God.",
+      "web": "LORD has made his holy arm bare in the eyes of all the nations. All the ends of the earth have seen the salvation of our God. ",
+      "ct": "The LORD has bared his holy arm for all the nations to see, and every corner of the earth will witness the salvation of our God."
+    },
+    {
+      "verse": 11,
+      "kjv": "Depart ye, depart ye, go ye out from thence, touch no unclean thing; go ye out of the midst of her; be ye clean, that bear the vessels of the LORD.",
+      "web": "Depart! Depart! Go out from there! Touch no unclean thing! Go out from among her! Cleanse yourselves, you who carry LORD’s vessels.",
+      "ct": "Leave! Leave! Get out of there! Don't touch anything unclean! Come out from among her and purify yourselves, you who carry the vessels of the LORD."
+    },
+    {
+      "verse": 12,
+      "kjv": "For ye shall not go out with haste, nor go by flight: for the LORD will go before you; and the God of Israel will be your rereward.",
+      "web": "For you shall not go out in haste, neither shall you go by flight: for LORD will go before you; and the God of Israel will be your rear guard. ",
+      "ct": "But you won't have to leave in a panic or flee in a rush, because the LORD himself will go ahead of you, and the God of Israel will guard you from behind."
+    },
+    {
+      "verse": 13,
+      "kjv": "Behold, my servant shall deal prudently, he shall be exalted and extolled, and be very high.",
+      "web": "Behold, my servant will deal wisely. He will be exalted and lifted up, and will be very high.",
+      "ct": "Look — my servant will act with wisdom. He will be raised up, lifted high, and exalted to the highest place."
+    },
+    {
+      "verse": 14,
+      "kjv": "As many were astonied at thee; his visage was so marred more than any man, and his form more than the sons of men:",
+      "web": "Just as many were astonished at you— his appearance was marred more than any man, and his form more than the sons of men—",
+      "ct": "Just as many people were horrified at the sight of him — his face was disfigured beyond recognition, and his body was mangled beyond anything human —"
+    },
+    {
+      "verse": 15,
+      "kjv": "So shall he sprinkle many nations; the kings shall shut their mouths at him: for that which had not been told them shall they see; and that which they had not heard shall they consider.",
+      "web": "so he will cleanse many nations. Kings will shut their mouths at him; for they will see that which had not been told them, and they will understand that which they had not heard.",
+      "ct": "so he will sprinkle many nations. Kings will stand speechless before him, because they will see what no one had told them, and they will grasp what they had never heard."
+    }
+  ]
+}

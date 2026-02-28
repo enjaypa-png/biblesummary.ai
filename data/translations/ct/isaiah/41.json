@@ -1,0 +1,185 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 41,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:49:48.595Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Keep silence before me, O islands; and let the people renew their strength: let them come near; then let them speak: let us come near together to judgment.",
+      "web": "“Keep silent before me, islands, and let the peoples renew their strength. Let them come near, then let them speak. Let’s meet together for judgment.",
+      "ct": "\"Be silent before me, you coastlands! Let the nations gather their strength. Let them step forward and speak their case. Let us come together for judgment."
+    },
+    {
+      "verse": 2,
+      "kjv": "Who raised up the righteous man from the east, called him to his foot, gave the nations before him, and made him rule over kings? he gave them as the dust to his sword, and as driven stubble to his bow.",
+      "web": "Who has raised up one from the east? Who called him to his foot in righteousness? He hands over nations to him and makes him rule over kings. He gives them like the dust to his sword, like the driven stubble to his bow.",
+      "ct": "Who stirred up this righteous one from the east, summoning him to serve? Who hands nations over to him and makes him trample kings? His sword turns them to dust; his bow scatters them like windblown straw."
+    },
+    {
+      "verse": 3,
+      "kjv": "He pursued them, and passed safely; even by the way that he had not gone with his feet.",
+      "web": "He pursues them and passes by safely, even by a way that he had not gone with his feet.",
+      "ct": "He chases them down and passes through unharmed, traveling roads his feet have never walked before."
+    },
+    {
+      "verse": 4,
+      "kjv": "Who hath wrought and done it, calling the generations from the beginning? I the LORD, the first, and with the last; I am he.",
+      "web": "Who has worked and done it, calling the generations from the beginning? I, LORD, the first, and with the last, I am he.” ",
+      "ct": "Who has done all this? Who has been directing history since the very beginning? I, the LORD — the first and the last — I am he.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "The isles saw it, and feared; the ends of the earth were afraid, drew near, and came.",
+      "web": "The islands have seen, and fear. The ends of the earth tremble. They approach, and come.",
+      "ct": "The coastlands have seen it and are terrified. The farthest corners of the earth tremble. They draw close and come together."
+    },
+    {
+      "verse": 6,
+      "kjv": "They helped every one his neighbour; and every one said to his brother, Be of good courage.",
+      "web": "Everyone helps his neighbor. They say to their brothers, “Be strong!”",
+      "ct": "They help each other, saying to one another, \"Be strong!\""
+    },
+    {
+      "verse": 7,
+      "kjv": "So the carpenter encouraged the goldsmith, and he that smootheth with the hammer him that smote the anvil, saying, It is ready for the sodering: and he fastened it with nails, that it should not be moved.",
+      "web": "So the carpenter encourages the goldsmith. He who smoothes with the hammer encourages him who strikes the anvil, saying of the soldering, “It is good;” and he fastens it with nails, that it might not totter. ",
+      "ct": "The carpenter encourages the goldsmith, and the one who smooths with the hammer cheers on the one who strikes the anvil. \"The soldering looks good!\" he says, and they nail the idol down so it won't topple over."
+    },
+    {
+      "verse": 8,
+      "kjv": "But thou, Israel, art my servant, Jacob whom I have chosen, the seed of Abraham my friend.",
+      "web": "“But you, Israel, my servant, Jacob whom I have chosen, the offspring of Abraham my friend,",
+      "ct": "\"But you, Israel, are my servant. Jacob, I chose you — the descendants of Abraham, my friend."
+    },
+    {
+      "verse": 9,
+      "kjv": "Thou whom I have taken from the ends of the earth, and called thee from the chief men thereof, and said unto thee, Thou art my servant; I have chosen thee, and not cast thee away.",
+      "web": "You whom I have taken hold of from the ends of the earth, and called from its corners, and said to you, ‘You are my servant, I have chosen you and have not cast you away.’",
+      "ct": "I reached out and took hold of you from the farthest corners of the earth. I called you from its most distant places and said, 'You are my servant. I have chosen you and have not rejected you.'"
+    },
+    {
+      "verse": 10,
+      "kjv": "Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness.",
+      "web": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness.",
+      "ct": "Don't be afraid, because I am with you. Don't be discouraged, because I am your God. I will make you strong. Yes, I will help you. Yes, I will hold you up with my righteous right hand."
+    },
+    {
+      "verse": 11,
+      "kjv": "Behold, all they that were incensed against thee shall be ashamed and confounded: they shall be as nothing; and they that strive with thee shall perish.",
+      "web": "Behold, all those who are incensed against you will be disappointed and confounded. Those who strive with you will be like nothing, and shall perish.",
+      "ct": "Everyone who rages against you will end up ashamed and humiliated. Those who fight against you will become nothing and will perish."
+    },
+    {
+      "verse": 12,
+      "kjv": "Thou shalt seek them, and shalt not find them, even them that contended with thee: they that war against thee shall be as nothing, and as a thing of nought.",
+      "web": "You will seek them, and won’t find them, even those who contend with you. Those who war against you will be as nothing, as a non-existent thing.",
+      "ct": "You'll search for your enemies and won't be able to find them. Those who wage war against you will vanish completely, as if they never existed."
+    },
+    {
+      "verse": 13,
+      "kjv": "For I the LORD thy God will hold thy right hand, saying unto thee, Fear not; I will help thee.",
+      "web": "For I, LORD your God, will hold your right hand, saying to you, ‘Don’t be afraid. I will help you.’",
+      "ct": "For I, the LORD your God, am holding your right hand. I am telling you, 'Don't be afraid. I will help you.'"
+    },
+    {
+      "verse": 14,
+      "kjv": "Fear not, thou worm Jacob, and ye men of Israel; I will help thee, saith the LORD, and thy redeemer, the Holy One of Israel.",
+      "web": "Don’t be afraid, you worm Jacob, and you men of Israel. I will help you,” says LORD. “Your Redeemer is the Holy One of Israel.",
+      "ct": "Don't be afraid, Jacob — even though you feel as small as a worm — and you people of Israel. I will help you,\" declares the LORD. \"Your Redeemer is the Holy One of Israel."
+    },
+    {
+      "verse": 15,
+      "kjv": "Behold, I will make thee a new sharp threshing instrument having teeth: thou shalt thresh the mountains, and beat them small, and shalt make the hills as chaff.",
+      "web": "Behold, I have made you into a new sharp threshing instrument with teeth. You will thresh the mountains, and beat them small, and will make the hills like chaff.",
+      "ct": "Look — I am making you into a new threshing sledge with sharp teeth. You will thresh the mountains and crush them to pieces; you will turn the hills into chaff."
+    },
+    {
+      "verse": 16,
+      "kjv": "Thou shalt fan them, and the wind shall carry them away, and the whirlwind shall scatter them: and thou shalt rejoice in the LORD, and shalt glory in the Holy One of Israel.",
+      "web": "You will winnow them, and the wind will carry them away, and the whirlwind will scatter them. You will rejoice in LORD. You will glory in the Holy One of Israel. ",
+      "ct": "You will toss them into the air, and the wind will carry them away. A whirlwind will scatter them in every direction. Then you will rejoice in the LORD and glory in the Holy One of Israel."
+    },
+    {
+      "verse": 17,
+      "kjv": "When the poor and needy seek water, and there is none, and their tongue faileth for thirst, I the LORD will hear them, I the God of Israel will not forsake them.",
+      "web": "The poor and needy seek water, and there is none. Their tongue fails for thirst. I, LORD, will answer them. I, the God of Israel, will not forsake them.",
+      "ct": "When the poor and needy search for water and find none, when their tongues are parched with thirst, I the LORD will answer them. I, the God of Israel, will not abandon them."
+    },
+    {
+      "verse": 18,
+      "kjv": "I will open rivers in high places, and fountains in the midst of the valleys: I will make the wilderness a pool of water, and the dry land springs of water.",
+      "web": "I will open rivers on the bare heights, and springs in the middle of the valleys. I will make the wilderness a pool of water, and the dry land springs of water.",
+      "ct": "I will make rivers flow on barren hilltops and springs burst out in the middle of valleys. I will turn the desert into pools of water and the dry ground into flowing springs."
+    },
+    {
+      "verse": 19,
+      "kjv": "I will plant in the wilderness the cedar, the shittah tree, and the myrtle, and the oil tree; I will set in the desert the fir tree, and the pine, and the box tree together:",
+      "web": "I will put cedar, acacia, myrtle, and oil trees in the wilderness. I will set cypress trees, pine, and box trees together in the desert;",
+      "ct": "I will plant cedars, acacias, myrtles, and olive trees in the wilderness. I will fill the desert with cypress, pine, and box trees together —"
+    },
+    {
+      "verse": 20,
+      "kjv": "That they may see, and know, and consider, and understand together, that the hand of the LORD hath done this, and the Holy One of Israel hath created it.",
+      "web": "that they may see, know, consider, and understand together, that LORD’s hand has done this, and the Holy One of Israel has created it. ",
+      "ct": "so that everyone can see, know, consider, and understand that the hand of the LORD has done this, and the Holy One of Israel has created it."
+    },
+    {
+      "verse": 21,
+      "kjv": "Produce your cause, saith the LORD; bring forth your strong reasons, saith the King of Jacob.",
+      "web": "Produce your cause,” says LORD. “Bring out your strong reasons!” says the King of Jacob.",
+      "ct": "\"Present your case,\" says the LORD. \"Bring your strongest arguments,\" says the King of Jacob."
+    },
+    {
+      "verse": 22,
+      "kjv": "Let them bring them forth, and shew us what shall happen: let them shew the former things, what they be, that we may consider them, and know the latter end of them; or declare us things for to come.",
+      "web": "“Let them announce and declare to us what will happen! Declare the former things, what they are, that we may consider them, and know the latter end of them; or show us things to come.",
+      "ct": "\"Let your idols step forward and tell us what is going to happen! Let them explain past events so we can examine them and see how they turned out — or let them predict the future for us."
+    },
+    {
+      "verse": 23,
+      "kjv": "Shew the things that are to come hereafter, that we may know that ye are gods: yea, do good, or do evil, that we may be dismayed, and behold it together.",
+      "web": "Declare the things that are to come hereafter, that we may know that you are gods. Yes, do good, or do evil, that we may be dismayed, and see it together.",
+      "ct": "Tell us what lies ahead, so we can know that you are gods! Do something — whether good or bad — anything that would make us stand in awe as we witness it together."
+    },
+    {
+      "verse": 24,
+      "kjv": "Behold, ye are of nothing, and your work of nought: an abomination is he that chooseth you.",
+      "web": "Behold, you are nothing, and your work is nothing. He who chooses you is an abomination. ",
+      "ct": "But look at you — you are nothing, and your works amount to nothing. Anyone who chooses you is detestable."
+    },
+    {
+      "verse": 25,
+      "kjv": "I have raised up one from the north, and he shall come: from the rising of the sun shall he call upon my name: and he shall come upon princes as upon morter, and as the potter treadeth clay.",
+      "web": "“I have raised up one from the north, and he has come, from the rising of the sun, one who calls on my name, and he shall come on rulers as on mortar, and as the potter treads clay.",
+      "ct": "\"I have raised up someone from the north, and he has come — from the east, where the sun rises, one who calls on my name. He will trample rulers like mortar, the way a potter treads on clay."
+    },
+    {
+      "verse": 26,
+      "kjv": "Who hath declared from the beginning, that we may know? and beforetime, that we may say, He is righteous? yea, there is none that sheweth, yea, there is none that declareth, yea, there is none that heareth your words.",
+      "web": "Who has declared it from the beginning, that we may know? and before, that we may say, ‘He is right?’ Surely, there is no one who declares. Surely, there is no one who shows. Surely, there is no one who hears your words.",
+      "ct": "Who announced this from the beginning so we could know? Who predicted it ahead of time so we could say, 'He was right'? Not one of you declared it. Not one of you foretold it. No one heard a word from you."
+    },
+    {
+      "verse": 27,
+      "kjv": "The first shall say to Zion, Behold, behold them: and I will give to Jerusalem one that bringeth good tidings.",
+      "web": "I am the first to say to Zion, ‘Behold, look at them;’ and I will give one who brings good news to Jerusalem.",
+      "ct": "I was the first to say to Zion, 'Look — here they are!' I am the one who brings a messenger of good news to Jerusalem."
+    },
+    {
+      "verse": 28,
+      "kjv": "For I beheld, and there was no man; even among them, and there was no counsellor, that, when I asked of them, could answer a word.",
+      "web": "When I look, there is no man, even among them there is no counselor who, when I ask of them, can answer a word.",
+      "ct": "When I look among the idols, there is no one. Not a single one of them can give advice. When I question them, none of them can answer a single word."
+    },
+    {
+      "verse": 29,
+      "kjv": "Behold, they are all vanity; their works are nothing: their molten images are wind and confusion.",
+      "web": "Behold, all of their deeds are vanity and nothing. Their molten images are wind and confusion.",
+      "ct": "Look at them — they are all worthless! Their works amount to nothing. Their metal images are just wind and emptiness.\""
+    }
+  ]
+}

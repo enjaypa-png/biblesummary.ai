@@ -1,0 +1,179 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 43,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:50:33.826Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "But now thus saith the LORD that created thee, O Jacob, and he that formed thee, O Israel, Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.",
+      "web": "But now LORD who created you, Jacob, and he who formed you, Israel, says: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine.",
+      "ct": "But now, this is what the LORD says — the one who created you, Jacob, the one who formed you, Israel: \"Don't be afraid, because I have redeemed you. I have called you by name. You are mine.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "When thou passest through the waters, I will be with thee; and through the rivers, they shall not overflow thee: when thou walkest through the fire, thou shalt not be burned; neither shall the flame kindle upon thee.",
+      "web": "When you pass through the waters, I will be with you, and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
+      "ct": "\"When you pass through deep waters, I will be with you. When you cross through rivers, they won't sweep you away. When you walk through fire, you won't be burned, and the flames won't touch you.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "For I am the LORD thy God, the Holy One of Israel, thy Saviour: I gave Egypt for thy ransom, Ethiopia and Seba for thee.",
+      "web": "For I am LORD your God, the Holy One of Israel, your Savior. I have given Egypt as your ransom, Ethiopia and Seba in your place.",
+      "ct": "\"For I am the LORD your God, the Holy One of Israel, your Savior. I gave Egypt as your ransom, and Ethiopia and Seba in your place.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Since thou wast precious in my sight, thou hast been honourable, and I have loved thee: therefore will I give men for thee, and people for thy life.",
+      "web": "Since you have been precious and honored in my sight, and I have loved you, therefore I will give people in your place, and nations instead of your life.",
+      "ct": "\"Because you are precious to me, because I honor you and love you, I will give other peoples in exchange for you — whole nations to save your life.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Fear not: for I am with thee: I will bring thy seed from the east, and gather thee from the west;",
+      "web": "Don’t be afraid, for I am with you. I will bring your offspring from the east, and gather you from the west.",
+      "ct": "\"Don't be afraid, because I am with you. I will bring your descendants from the east and gather you from the west.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "I will say to the north, Give up; and to the south, Keep not back: bring my sons from far, and my daughters from the ends of the earth;",
+      "web": "I will tell the north, ‘Give them up!’ and tell the south, ‘Don’t hold them back! Bring my sons from far away, and my daughters from the ends of the earth—",
+      "ct": "\"I will command the north, 'Let them go!' and the south, 'Don't hold them back!' Bring my sons from far away and my daughters from the ends of the earth —\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Even every one that is called by my name: for I have created him for my glory, I have formed him; yea, I have made him.",
+      "web": "everyone who is called by my name, and whom I have created for my glory, whom I have formed, yes, whom I have made.’ ” ",
+      "ct": "\"everyone who bears my name, everyone I created for my glory, everyone I formed and made.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Bring forth the blind people that have eyes, and the deaf that have ears.",
+      "web": "Bring out the blind people who have eyes, and the deaf who have ears.",
+      "ct": "Bring out the people who have eyes but are blind, who have ears but are deaf."
+    },
+    {
+      "verse": 9,
+      "kjv": "Let all the nations be gathered together, and let the people be assembled: who among them can declare this, and shew us former things? let them bring forth their witnesses, that they may be justified: or let them hear, and say, It is truth.",
+      "web": "Let all the nations be gathered together, and let the peoples be assembled. Who among them can declare this, and show us former things? Let them bring their witnesses, that they may be justified, or let them hear, and say, “That is true.” ",
+      "ct": "Let all the nations gather together, let all the peoples assemble. Which of their gods predicted this? Which of them told us what would happen in the past? Let them bring their witnesses to prove their case, or let them listen and admit, \"That is true.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Ye are my witnesses, saith the LORD, and my servant whom I have chosen: that ye may know and believe me, and understand that I am he: before me there was no God formed, neither shall there be after me.",
+      "web": "“You are my witnesses,” says LORD, “With my servant whom I have chosen; that you may know and believe me, and understand that I am he. Before me there was no God formed, neither will there be after me.",
+      "ct": "\"You are my witnesses,\" declares the LORD, \"you and the servant I have chosen. I did this so you would know me, trust me, and understand that I am the one. No god was formed before me, and none will exist after me.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "I, even I, am the LORD; and beside me there is no saviour.",
+      "web": "I myself am LORD. Besides me, there is no savior.",
+      "ct": "\"I — I alone — am the LORD, and there is no savior besides me.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "I have declared, and have saved, and I have shewed, when there was no strange god among you: therefore ye are my witnesses, saith the LORD, that I am God.",
+      "web": "I have declared, I have saved, and I have shown, and there was no strange god among you. Therefore you are my witnesses”, says LORD, “and I am God.",
+      "ct": "\"I announced what would happen, I saved you, and I made it known — and no foreign god among you did any of this. So you are my witnesses,\" declares the LORD, \"and I am God.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Yea, before the day was I am he; and there is none that can deliver out of my hand: I will work, and who shall let it?",
+      "web": "Yes, since the day was, I am he. There is no one who can deliver out of my hand. I will work, and who can hinder it?”",
+      "ct": "\"From the very beginning, I am he. No one can snatch anything out of my hand. When I act, who can reverse it?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Thus saith the LORD, your redeemer, the Holy One of Israel; For your sake I have sent to Babylon, and have brought down all their nobles, and the Chaldeans, whose cry is in the ships.",
+      "web": "LORD, your Redeemer, the Holy One of Israel says: “For your sake, I have sent to Babylon, and I will bring all of them down as fugitives, even the Chaldeans, in the ships of their rejoicing.",
+      "ct": "This is what the LORD says, your Redeemer, the Holy One of Israel: \"For your sake, I am sending an army to Babylon. I will bring down all their nobles, and the Chaldeans will flee in the very ships they once celebrated in.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "I am the LORD, your Holy One, the creator of Israel, your King.",
+      "web": "I am LORD, your Holy One, the Creator of Israel, your King.”",
+      "ct": "\"I am the LORD, your Holy One, the Creator of Israel, your King.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Thus saith the LORD, which maketh a way in the sea, and a path in the mighty waters;",
+      "web": "LORD, who makes a way in the sea, and a path in the mighty waters,",
+      "ct": "This is what the LORD says — the one who carved a path through the sea, who made a road through mighty waters,"
+    },
+    {
+      "verse": 17,
+      "kjv": "Which bringeth forth the chariot and horse, the army and the power; they shall lie down together, they shall not rise: they are extinct, they are quenched as tow.",
+      "web": "who brings out the chariot and horse, the army and the mighty man (they lie down together, they shall not rise; they are extinct, they are quenched like a wick) says:",
+      "ct": "who drew out chariots and horses, an entire army of warriors — they fell and never got up again, snuffed out like a candle wick:"
+    },
+    {
+      "verse": 18,
+      "kjv": "Remember ye not the former things, neither consider the things of old.",
+      "web": "“Don’t remember the former things, and don’t consider the things of old.",
+      "ct": "\"Stop dwelling on what happened before. Don't keep thinking about the past.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert.",
+      "web": "Behold, I will do a new thing. It springs out now. Don’t you know it? I will even make a way in the wilderness, and rivers in the desert.",
+      "ct": "\"Look! I am doing something new — it's already springing up. Can't you see it? I am making a road through the wilderness and rivers in the desert.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "The beast of the field shall honour me, the dragons and the owls: because I give waters in the wilderness, and rivers in the desert, to give drink to my people, my chosen.",
+      "web": "The animals of the field, the jackals and the ostriches, shall honor me, because I give water in the wilderness and rivers in the desert, to give drink to my people, my chosen,",
+      "ct": "\"Even the wild animals will honor me — the jackals and the ostriches — because I provide water in the wilderness and rivers in the desert, giving drink to my people, my chosen ones.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "This people have I formed for myself; they shall shew forth my praise.",
+      "web": "the people which I formed for myself, that they might declare my praise. ",
+      "ct": "\"These are the people I formed for myself, and they will declare my praise.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "But thou hast not called upon me, O Jacob; but thou hast been weary of me, O Israel.",
+      "web": "Yet you have not called on me, Jacob; but you have been weary of me, Israel.",
+      "ct": "\"But you haven't called on me, Jacob. You've grown tired of me, Israel.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Thou hast not brought me the small cattle of thy burnt offerings; neither hast thou honoured me with thy sacrifices. I have not caused thee to serve with an offering, nor wearied thee with incense.",
+      "web": "You have not brought me any of your sheep for burnt offerings, neither have you honored me with your sacrifices. I have not burdened you with offerings, nor wearied you with frankincense.",
+      "ct": "\"You haven't brought me sheep for your burnt offerings. You haven't honored me with your sacrifices. I never burdened you with grain offerings or wore you out demanding incense.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Thou hast bought me no sweet cane with money, neither hast thou filled me with the fat of thy sacrifices: but thou hast made me to serve with thy sins, thou hast wearied me with thine iniquities.",
+      "web": "You have bought me no sweet cane with money, nor have you filled me with the fat of your sacrifices, but you have burdened me with your sins. You have wearied me with your iniquities. ",
+      "ct": "\"You didn't spend your money on fragrant cane for me. You didn't satisfy me with the fat of your sacrifices. Instead, you burdened me with your sins and wore me out with your wrongdoing.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "I, even I, am he that blotteth out thy transgressions for mine own sake, and will not remember thy sins.",
+      "web": "I, even I, am he who blots out your transgressions for my own sake; and I will not remember your sins.",
+      "ct": "\"I — I alone — am the one who wipes away your sins for my own sake, and I will never hold them against you again.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "Put me in remembrance: let us plead together: declare thou, that thou mayest be justified.",
+      "web": "Put me in remembrance. Let us plead together. Declare your case, that you may be justified.",
+      "ct": "\"Remind me of your case. Let's argue this out together. State your defense and prove yourself innocent.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Thy first father hath sinned, and thy teachers have transgressed against me.",
+      "web": "Your first father sinned, and your teachers have transgressed against me.",
+      "ct": "\"Your earliest ancestor sinned against me, and your leaders rebelled against me.\""
+    },
+    {
+      "verse": 28,
+      "kjv": "Therefore I have profaned the princes of the sanctuary, and have given Jacob to the curse, and Israel to reproaches.",
+      "web": "Therefore I will profane the princes of the sanctuary; and I will make Jacob a curse, and Israel an insult.”",
+      "ct": "\"So I stripped the honor from your temple officials. I handed Jacob over to destruction and Israel over to disgrace.\""
+    }
+  ]
+}

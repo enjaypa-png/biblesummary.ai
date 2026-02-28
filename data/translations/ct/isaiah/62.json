@@ -1,0 +1,83 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 62,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:56:19.960Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "For Zion’s sake will I not hold my peace, and for Jerusalem’s sake I will not rest, until the righteousness thereof go forth as brightness, and the salvation thereof as a lamp that burneth.",
+      "web": "For Zion’s sake I will not hold my peace, and for Jerusalem’s sake I will not rest, until her righteousness shines out like the dawn, and her salvation like a burning lamp.",
+      "ct": "For Zion's sake I will not stay silent, and for Jerusalem's sake I will not stop — not until her righteousness blazes like the dawn and her salvation burns like a shining torch."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the Gentiles shall see thy righteousness, and all kings thy glory: and thou shalt be called by a new name, which the mouth of the LORD shall name.",
+      "web": "The nations will see your righteousness, and all kings your glory. You will be called by a new name, which LORD’s mouth will name.",
+      "ct": "The nations will see your righteousness, and every king will witness your glory. You will be given a new name — one that the LORD himself will speak over you."
+    },
+    {
+      "verse": 3,
+      "kjv": "Thou shalt also be a crown of glory in the hand of the LORD, and a royal diadem in the hand of thy God.",
+      "web": "You will also be a crown of beauty in LORD‘s hand, and a royal diadem in your God’s hand.",
+      "ct": "You will be a crown of glory in the LORD's hand, a royal diadem held up by your God."
+    },
+    {
+      "verse": 4,
+      "kjv": "Thou shalt no more be termed Forsaken; neither shall thy land any more be termed Desolate: but thou shalt be called Hephzibah, and thy land Beulah: for the LORD delighteth in thee, and thy land shall be married.",
+      "web": "You will not be called Forsaken any more, nor will your land be called Desolate any more; but you will be called Hephzibah, and your land Beulah; for LORD delights in you, and your land will be married.",
+      "ct": "No one will call you \"Forsaken\" anymore, and your land will never again be called \"Desolate.\" Instead, you will be called Hephzibah — meaning \"My Delight Is in Her\" — and your land will be called Beulah — meaning \"Married\" — because the LORD delights in you, and your land will be like a bride claimed by her husband."
+    },
+    {
+      "verse": 5,
+      "kjv": "For as a young man marrieth a virgin, so shall thy sons marry thee: and as the bridegroom rejoiceth over the bride, so shall thy God rejoice over thee.",
+      "web": "For as a young man marries a virgin, so your sons will marry you. As a bridegroom rejoices over his bride, so your God will rejoice over you. ",
+      "ct": "Just as a young man marries a young woman, so your people will be united with you. And just as a bridegroom celebrates over his bride, so your God will celebrate over you."
+    },
+    {
+      "verse": 6,
+      "kjv": "I have set watchmen upon thy walls, O Jerusalem, which shall never hold their peace day nor night: ye that make mention of the LORD, keep not silence,",
+      "web": "I have set watchmen on your walls, Jerusalem. They will never be silent day nor night. You who call on LORD, take no rest,",
+      "ct": "Jerusalem, I have posted watchmen on your walls who will never be silent, day or night. You who call on the LORD, don't stop —"
+    },
+    {
+      "verse": 7,
+      "kjv": "And give him no rest, till he establish, and till he make Jerusalem a praise in the earth.",
+      "web": "and give him no rest, until he establishes, and until he makes Jerusalem a praise in the earth. ",
+      "ct": "and give him no rest until he establishes Jerusalem and makes it a place the whole earth praises."
+    },
+    {
+      "verse": 8,
+      "kjv": "The LORD hath sworn by his right hand, and by the arm of his strength, Surely I will no more give thy corn to be meat for thine enemies; and the sons of the stranger shall not drink thy wine, for the which thou hast laboured:",
+      "web": "LORD has sworn by his right hand, and by the arm of his strength, “Surely I will no more give your grain to be food for your enemies, and foreigners will not drink your new wine, for which you have labored,",
+      "ct": "The LORD has sworn an oath by his own mighty hand and powerful arm: \"Never again will I let your enemies eat the grain you harvested. Never again will foreigners drink the wine you worked so hard to produce."
+    },
+    {
+      "verse": 9,
+      "kjv": "But they that have gathered it shall eat it, and praise the LORD; and they that have brought it together shall drink it in the courts of my holiness.",
+      "web": "but those who have harvested it will eat it, and praise LORD. Those who have gathered it will drink it in the courts of my sanctuary.” ",
+      "ct": "Instead, those who harvest the grain will eat it and praise the LORD, and those who gather the grapes will drink the wine in the courts of my sanctuary.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Go through, go through the gates; prepare ye the way of the people; cast up, cast up the highway; gather out the stones; lift up a standard for the people.",
+      "web": "Go through, go through the gates! Prepare the way of the people! Build up, build up the highway! Gather out the stones! Lift up a banner for the peoples.",
+      "ct": "Go through the gates! Go through them! Clear the road for the people! Build up the highway — build it high! Remove every stone from the path! Raise a banner for the nations to see!"
+    },
+    {
+      "verse": 11,
+      "kjv": "Behold, the LORD hath proclaimed unto the end of the world, Say ye to the daughter of Zion, Behold, thy salvation cometh; behold, his reward is with him, and his work before him.",
+      "web": "Behold, LORD has proclaimed to the end of the earth, “Say to the daughter of Zion, ‘Behold, your salvation comes! Behold, his reward is with him, and his recompense before him!’ ”",
+      "ct": "Listen — the LORD has sent this announcement to the ends of the earth: \"Tell the people of Zion, 'Look! Your salvation is coming! He brings his reward with him, and those he has rescued go before him.'\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And they shall call them, The holy people, The redeemed of the LORD: and thou shalt be called, Sought out, A city not forsaken.",
+      "web": "They will call them “The Holy People, LORD’s Redeemed”. You will be called “Sought Out, A City Not Forsaken”.",
+      "ct": "They will be called \"The Holy People, the Redeemed of the LORD.\" And you, Jerusalem, will be known as \"Sought After, A City No Longer Forsaken.\""
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 40,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:49:22.159Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Comfort ye, comfort ye my people, saith your God.",
+      "web": "“Comfort, comfort my people,” says your God.",
+      "ct": "\"Comfort, comfort my people,\" says your God."
+    },
+    {
+      "verse": 2,
+      "kjv": "Speak ye comfortably to Jerusalem, and cry unto her, that her warfare is accomplished, that her iniquity is pardoned: for she hath received of the LORD’s hand double for all her sins.",
+      "web": "“Speak comfortably to Jerusalem; and call out to her that her warfare is accomplished, that her iniquity is pardoned, that she has received of LORD’s hand double for all her sins.” ",
+      "ct": "\"Speak tenderly to Jerusalem. Announce to her that her time of hard service is over, that her sin has been paid for — the LORD has punished her double for everything she did wrong.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "The voice of him that crieth in the wilderness, Prepare ye the way of the LORD, make straight in the desert a highway for our God.",
+      "web": "The voice of one who calls out, “Prepare the way of LORD in the wilderness! Make a level highway in the desert for our God.",
+      "ct": "A voice cries out: \"Clear a path for the LORD in the wilderness! Build a straight highway through the desert for our God."
+    },
+    {
+      "verse": 4,
+      "kjv": "Every valley shall be exalted, and every mountain and hill shall be made low: and the crooked shall be made straight, and the rough places plain:",
+      "web": "Every valley shall be exalted, and every mountain and hill shall be made low. The uneven shall be made level, and the rough places a plain.",
+      "ct": "Every valley will be raised up, and every mountain and hill will be leveled. The winding roads will be straightened, and the rough terrain will become smooth."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the glory of the LORD shall be revealed, and all flesh shall see it together: for the mouth of the LORD hath spoken it.",
+      "web": "LORD’s glory shall be revealed, and all flesh shall see it together; for the mouth of LORD has spoken it.” ",
+      "ct": "Then the glory of the LORD will be revealed, and everyone alive will see it together — because the LORD himself has spoken it.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "The voice said, Cry. And he said, What shall I cry? All flesh is grass, and all the goodliness thereof is as the flower of the field:",
+      "web": "The voice of one saying, “Cry!” One said, “What shall I cry?” “All flesh is like grass, and all its glory is like the flower of the field.",
+      "ct": "A voice says, \"Cry out!\" And I asked, \"What should I cry out?\" \"All people are like grass, and all their beauty is like a wildflower."
+    },
+    {
+      "verse": 7,
+      "kjv": "The grass withereth, the flower fadeth: because the spirit of the LORD bloweth upon it: surely the people is grass.",
+      "web": "The grass withers, the flower fades, because LORD’s breath blows on it. Surely the people are like grass.",
+      "ct": "The grass dries up and the flower wilts when the breath of the LORD blows on it. People are no different — they are just like grass."
+    },
+    {
+      "verse": 8,
+      "kjv": "The grass withereth, the flower fadeth: but the word of our God shall stand for ever.",
+      "web": "The grass withers, the flower fades; but the word of our God stands forever.” ",
+      "ct": "The grass dries up and the flower wilts, but the word of our God stands forever.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "O Zion, that bringest good tidings, get thee up into the high mountain; O Jerusalem, that bringest good tidings, lift up thy voice with strength; lift it up, be not afraid; say unto the cities of Judah, Behold your God!",
+      "web": "You who tell good news to Zion, go up on a high mountain. You who tell good news to Jerusalem, lift up your voice with strength! Lift it up! Don’t be afraid! Say to the cities of Judah, “Behold, your God!”",
+      "ct": "You who bring good news to Zion, climb to the top of a high mountain! You who bring good news to Jerusalem, shout it out with all your strength! Shout it and don't be afraid! Tell the cities of Judah, \"Look — here is your God!\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Behold, the Lord GOD will come with strong hand, and his arm shall rule for him: behold, his reward is with him, and his work before him.",
+      "web": "Behold, the Lord LORD will come as a mighty one, and his arm will rule for him. Behold, his reward is with him, and his recompense before him.",
+      "ct": "Look! The Lord GOD is coming with power, and his strong arm will rule on his behalf. He brings his reward with him, and the payment for his work goes before him."
+    },
+    {
+      "verse": 11,
+      "kjv": "He shall feed his flock like a shepherd: he shall gather the lambs with his arm, and carry them in his bosom, and shall gently lead those that are with young.",
+      "web": "He will feed his flock like a shepherd. He will gather the lambs in his arm, and carry them in his bosom. He will gently lead those who have their young. ",
+      "ct": "He will care for his flock like a shepherd. He will scoop up the lambs in his arms and hold them close to his chest. He will gently guide the mother sheep along."
+    },
+    {
+      "verse": 12,
+      "kjv": "Who hath measured the waters in the hollow of his hand, and meted out heaven with the span, and comprehended the dust of the earth in a measure, and weighed the mountains in scales, and the hills in a balance?",
+      "web": "Who has measured the waters in the hollow of his hand, and marked off the sky with his span, and calculated the dust of the earth in a measuring basket, and weighed the mountains in scales, and the hills in a balance?",
+      "ct": "Who has held all the oceans in the hollow of his hand? Who has measured the heavens with the span of his fingers? Who has scooped up all the dust of the earth in a basket, or weighed the mountains and hills on a scale?"
+    },
+    {
+      "verse": 13,
+      "kjv": "Who hath directed the Spirit of the LORD, or being his counsellor hath taught him?",
+      "web": "Who has directed LORD’s Spirit, or has taught him as his counselor?",
+      "ct": "Who has ever directed the Spirit of the LORD? Who has served as his advisor and taught him anything?"
+    },
+    {
+      "verse": 14,
+      "kjv": "With whom took he counsel, and who instructed him, and taught him in the path of judgment, and taught him knowledge, and shewed to him the way of understanding?",
+      "web": "Who did he take counsel with, and who instructed him, and taught him in the path of justice, and taught him knowledge, and showed him the way of understanding?",
+      "ct": "Who did he consult for guidance? Who showed him the right way to do things, or taught him knowledge, or revealed to him the path of understanding?"
+    },
+    {
+      "verse": 15,
+      "kjv": "Behold, the nations are as a drop of a bucket, and are counted as the small dust of the balance: behold, he taketh up the isles as a very little thing.",
+      "web": "Behold, the nations are like a drop in a bucket, and are regarded as a speck of dust on a balance. Behold, he lifts up the islands like a very little thing.",
+      "ct": "Look — the nations are nothing more than a drop in a bucket to him, just a speck of dust on a scale. He picks up the islands as though they weigh nothing at all."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Lebanon is not sufficient to burn, nor the beasts thereof sufficient for a burnt offering.",
+      "web": "Lebanon is not sufficient to burn, nor its animals sufficient for a burnt offering.",
+      "ct": "All the forests of Lebanon wouldn't provide enough wood for a fire, and all its animals wouldn't be enough for a burnt offering to him."
+    },
+    {
+      "verse": 17,
+      "kjv": "All nations before him are as nothing; and they are counted to him less than nothing, and vanity.",
+      "web": "All the nations are like nothing before him. They are regarded by him as less than nothing, and vanity. ",
+      "ct": "Every nation on earth amounts to nothing in his presence. To him, they count for less than nothing — they are completely meaningless."
+    },
+    {
+      "verse": 18,
+      "kjv": "To whom then will ye liken God? or what likeness will ye compare unto him?",
+      "web": "To whom then will you liken God? Or what likeness will you compare to him?",
+      "ct": "So who could you possibly compare God to? What image could you set alongside him?"
+    },
+    {
+      "verse": 19,
+      "kjv": "The workman melteth a graven image, and the goldsmith spreadeth it over with gold, and casteth silver chains.",
+      "web": "A workman has cast an image, and the goldsmith overlays it with gold, and casts silver chains for it.",
+      "ct": "A craftsman pours a metal idol, then a goldsmith coats it with gold and attaches silver chains to it."
+    },
+    {
+      "verse": 20,
+      "kjv": "He that is so impoverished that he hath no oblation chooseth a tree that will not rot; he seeketh unto him a cunning workman to prepare a graven image, that shall not be moved.",
+      "web": "He who is too impoverished for such an offering chooses a tree that will not rot. He seeks a skillful workman to set up a carved image for him that will not be moved. ",
+      "ct": "Someone too poor for that picks out a piece of wood that won't rot, then finds a skilled craftsman to carve an idol that won't topple over."
+    },
+    {
+      "verse": 21,
+      "kjv": "Have ye not known? have ye not heard? hath it not been told you from the beginning? have ye not understood from the foundations of the earth?",
+      "web": "Haven’t you known? Haven’t you heard? Haven’t you been told from the beginning? Haven’t you understood from the foundations of the earth?",
+      "ct": "Don't you know this? Haven't you heard? Hasn't this been explained to you from the very beginning? Haven't you understood it since the earth was made?"
+    },
+    {
+      "verse": 22,
+      "kjv": "It is he that sitteth upon the circle of the earth, and the inhabitants thereof are as grasshoppers; that stretcheth out the heavens as a curtain, and spreadeth them out as a tent to dwell in:",
+      "web": "It is he who sits above the circle of the earth, and its inhabitants are like grasshoppers; who stretches out the heavens like a curtain, and spreads them out like a tent to dwell in,",
+      "ct": "God is the one who sits enthroned above the circle of the earth — its people look like grasshoppers from where he is. He stretches out the heavens like a curtain and spreads them out like a tent to live in."
+    },
+    {
+      "verse": 23,
+      "kjv": "That bringeth the princes to nothing; he maketh the judges of the earth as vanity.",
+      "web": "who brings princes to nothing, who makes the judges of the earth meaningless.",
+      "ct": "He reduces powerful rulers to nothing and makes the judges of the earth meaningless."
+    },
+    {
+      "verse": 24,
+      "kjv": "Yea, they shall not be planted; yea, they shall not be sown: yea, their stock shall not take root in the earth: and he shall also blow upon them, and they shall wither, and the whirlwind shall take them away as stubble.",
+      "web": "They are planted scarcely. They are sown scarcely. Their stock has scarcely taken root in the ground. He merely blows on them, and they wither, and the whirlwind takes them away as stubble. ",
+      "ct": "They are barely planted, barely sown, barely taking root in the ground — and then he blows on them and they wither. A whirlwind sweeps them away like straw."
+    },
+    {
+      "verse": 25,
+      "kjv": "To whom then will ye liken me, or shall I be equal? saith the Holy One.",
+      "web": "“To whom then will you liken me? Who is my equal?” says the Holy One.",
+      "ct": "\"So who will you compare me to? Who is my equal?\" says the Holy One."
+    },
+    {
+      "verse": 26,
+      "kjv": "Lift up your eyes on high, and behold who hath created these things, that bringeth out their host by number: he calleth them all by names by the greatness of his might, for that he is strong in power; not one faileth.",
+      "web": "Lift up your eyes on high, and see who has created these, who brings out their army by number. He calls them all by name. by the greatness of his might, and because he is strong in power, not one is lacking. ",
+      "ct": "Look up at the night sky and consider: who created all of this? He leads out the stars like an army, calling each one by name. Because his power is so great and his strength so mighty, not a single one is missing."
+    },
+    {
+      "verse": 27,
+      "kjv": "Why sayest thou, O Jacob, and speakest, O Israel, My way is hid from the LORD, and my judgment is passed over from my God?",
+      "web": "Why do you say, Jacob, and speak, Israel, “My way is hidden from LORD, and the justice due me is disregarded by my God?”",
+      "ct": "So why do you say, Jacob — why do you complain, Israel — \"The LORD doesn't see what's happening to me; my God ignores the injustice I'm suffering\"?"
+    },
+    {
+      "verse": 28,
+      "kjv": "Hast thou not known? hast thou not heard, that the everlasting God, the LORD, the Creator of the ends of the earth, fainteth not, neither is weary? there is no searching of his understanding.",
+      "web": "Haven’t you known? Haven’t you heard? The everlasting God, LORD, the Creator of the ends of the earth, doesn’t faint. He isn’t weary. His understanding is unsearchable.",
+      "ct": "Don't you know? Haven't you heard? The LORD is the everlasting God, the Creator of the entire earth. He never gets tired and never grows weary. No one can fully grasp the depth of his understanding."
+    },
+    {
+      "verse": 29,
+      "kjv": "He giveth power to the faint; and to them that have no might he increaseth strength.",
+      "web": "He gives power to the weak. He increases the strength of him who has no might.",
+      "ct": "He gives strength to the exhausted and increases the power of those who have none."
+    },
+    {
+      "verse": 30,
+      "kjv": "Even the youths shall faint and be weary, and the young men shall utterly fall:",
+      "web": "Even the youths faint and get weary, and the young men utterly fall;",
+      "ct": "Even young people get tired and worn out. Even the strongest among them stumble and collapse."
+    },
+    {
+      "verse": 31,
+      "kjv": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+      "web": "but those who wait for LORD will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
+      "ct": "But those who wait on the LORD will find their strength renewed. They will soar on wings like eagles. They will run and not grow weary. They will walk and not give out."
+    }
+  ]
+}

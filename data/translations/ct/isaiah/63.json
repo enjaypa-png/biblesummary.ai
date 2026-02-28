@@ -1,0 +1,125 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 63,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:56:39.259Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Who is this that cometh from Edom, with dyed garments from Bozrah? this that is glorious in his apparel, travelling in the greatness of his strength? I that speak in righteousness, mighty to save.",
+      "web": "Who is this who comes from Edom, with dyed garments from Bozrah? Who is this who is glorious in his clothing, marching in the greatness of his strength? “It is I who speak in righteousness, mighty to save.”",
+      "ct": "\"Who is this coming from Edom, marching from Bozrah with clothes stained crimson? Who is this, magnificent in his clothing, striding forward with tremendous power?\" \"It is I, the one who speaks in righteousness — mighty to save.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "Wherefore art thou red in thine apparel, and thy garments like him that treadeth in the winefat?",
+      "web": "Why is your clothing red, and your garments like him who treads in the wine vat? ",
+      "ct": "\"Why are your clothes so red, like someone who has been stomping grapes in a winepress?\""
+    },
+    {
+      "verse": 3,
+      "kjv": "I have trodden the winepress alone; and of the people there was none with me: for I will tread them in mine anger, and trample them in my fury; and their blood shall be sprinkled upon my garments, and I will stain all my raiment.",
+      "web": "“I have trodden the wine press alone. Of the peoples, no one was with me. Yes, I trod them in my anger and trampled them in my wrath. Their lifeblood is sprinkled on my garments, and I have stained all my clothing.",
+      "ct": "\"I have trampled the winepress alone — not one person from any nation stood with me. I crushed them in my anger and stomped them down in my fury. Their blood splattered all over my clothes, and I stained everything I was wearing.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "For the day of vengeance is in mine heart, and the year of my redeemed is come.",
+      "web": "For the day of vengeance was in my heart, and the year of my redeemed has come.",
+      "ct": "\"The day of vengeance burned in my heart, and the year to rescue my redeemed people had finally arrived.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And I looked, and there was none to help; and I wondered that there was none to uphold: therefore mine own arm brought salvation unto me; and my fury, it upheld me.",
+      "web": "I looked, and there was no one to help; and I wondered that there was no one to uphold. Therefore my own arm brought salvation to me. My own wrath upheld me.",
+      "ct": "\"I looked around, but no one came to help. I was stunned that no one stepped up to support me. So my own arm brought salvation, and my own fury drove me forward.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And I will tread down the people in mine anger, and make them drunk in my fury, and I will bring down their strength to the earth.",
+      "web": "I trod down the peoples in my anger and made them drunk in my wrath. I poured their lifeblood out on the earth.” ",
+      "ct": "\"I trampled the nations in my anger and made them stagger under my fury. I poured out their lifeblood on the ground.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "I will mention the lovingkindnesses of the LORD, and the praises of the LORD, according to all that the LORD hath bestowed on us, and the great goodness toward the house of Israel, which he hath bestowed on them according to his mercies, and according to the multitude of his lovingkindnesses.",
+      "web": "I will tell of the loving kindnesses of LORD and the praises of LORD, according to all that LORD has given to us, and the great goodness toward the house of Israel, which he has given to them according to his mercies, and according to the multitude of his loving kindnesses.",
+      "ct": "Let me tell of the LORD's faithful love and sing his praises for everything he has done for us — the incredible goodness he has shown to the house of Israel, poured out because of his mercy and the abundance of his faithful love."
+    },
+    {
+      "verse": 8,
+      "kjv": "For he said, Surely they are my people, children that will not lie: so he was their Saviour.",
+      "web": "For he said, “Surely, they are my people, children who will not deal falsely;” so he became their Savior.",
+      "ct": "He said, \"Surely they are my people — children who won't be unfaithful to me.\" So he became their Savior."
+    },
+    {
+      "verse": 9,
+      "kjv": "In all their affliction he was afflicted, and the angel of his presence saved them: in his love and in his pity he redeemed them; and he bare them, and carried them all the days of old.",
+      "web": "In all their affliction he was afflicted, and the angel of his presence saved them. In his love and in his pity he redeemed them. He bore them, and carried them all the days of old. ",
+      "ct": "In every hardship they faced, he felt their pain. The angel of his presence rescued them. Out of his love and compassion he redeemed them. He lifted them up and carried them through all the days of long ago."
+    },
+    {
+      "verse": 10,
+      "kjv": "But they rebelled, and vexed his holy Spirit: therefore he was turned to be their enemy, and he fought against them.",
+      "web": "But they rebelled and grieved his Holy Spirit. Therefore he turned and became their enemy, and he himself fought against them. ",
+      "ct": "But they rebelled and grieved his Holy Spirit. So he turned against them and became their enemy — he himself fought against them."
+    },
+    {
+      "verse": 11,
+      "kjv": "Then he remembered the days of old, Moses, and his people, saying, Where is he that brought them up out of the sea with the shepherd of his flock? where is he that put his holy Spirit within him?",
+      "web": "Then he remembered the days of old, Moses and his people, saying, “Where is he who brought them up out of the sea with the shepherds of his flock? Where is he who put his Holy Spirit among them?”",
+      "ct": "Then his people remembered the ancient days of Moses and cried out, \"Where is the one who brought them up through the sea with the shepherd of his flock? Where is the one who placed his Holy Spirit among them?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "That led them by the right hand of Moses with his glorious arm, dividing the water before them, to make himself an everlasting name?",
+      "web": "Who caused his glorious arm to be at Moses’ right hand? Who divided the waters before them, to make himself an everlasting name?",
+      "ct": "\"Where is the one whose glorious arm was at Moses' right hand, who split the waters in front of them to make a name for himself that would last forever?\""
+    },
+    {
+      "verse": 13,
+      "kjv": "That led them through the deep, as an horse in the wilderness, that they should not stumble?",
+      "web": "Who led them through the depths, like a horse in the wilderness, so that they didn’t stumble?",
+      "ct": "\"Who led them through the ocean depths as sure-footed as a horse galloping across open wilderness, so they never stumbled?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "As a beast goeth down into the valley, the Spirit of the LORD caused him to rest: so didst thou lead thy people, to make thyself a glorious name.",
+      "web": "As the livestock that go down into the valley, LORD’s Spirit caused them to rest. So you led your people to make yourself a glorious name. ",
+      "ct": "Like cattle going down into a valley to find rest, the Spirit of the LORD gave them peace. That is how you led your people, making for yourself a glorious name."
+    },
+    {
+      "verse": 15,
+      "kjv": "Look down from heaven, and behold from the habitation of thy holiness and of thy glory: where is thy zeal and thy strength, the sounding of thy bowels and of thy mercies toward me? are they restrained?",
+      "web": "Look down from heaven, and see from the habitation of your holiness and of your glory. Where are your zeal and your mighty acts? The yearning of your heart and your compassion is restrained toward me.",
+      "ct": "Look down from heaven and see us from your holy and glorious dwelling! Where is your passion and your mighty power? Where is the deep compassion and mercy you once showed us? Are you holding it back?"
+    },
+    {
+      "verse": 16,
+      "kjv": "Doubtless thou art our father, though Abraham be ignorant of us, and Israel acknowledge us not: thou, O LORD, art our father, our redeemer; thy name is from everlasting.",
+      "web": "For you are our Father, though Abraham doesn’t know us, and Israel does not acknowledge us. You, LORD, are our Father. Our Redeemer from everlasting is your name.",
+      "ct": "You are truly our Father. Even if Abraham didn't know us and Israel wouldn't recognize us, you, LORD, are still our Father. \"Our Redeemer from everlasting\" — that is your name."
+    },
+    {
+      "verse": 17,
+      "kjv": "O LORD, why hast thou made us to err from thy ways, and hardened our heart from thy fear? Return for thy servants’ sake, the tribes of thine inheritance.",
+      "web": "O LORD, why do you make us wander from your ways, and harden our heart from your fear? Return for your servants’ sake, the tribes of your inheritance.",
+      "ct": "LORD, why have you let us wander from your ways? Why have you hardened our hearts so we don't fear you? Come back to us for the sake of your servants — the tribes that belong to you."
+    },
+    {
+      "verse": 18,
+      "kjv": "The people of thy holiness have possessed it but a little while: our adversaries have trodden down thy sanctuary.",
+      "web": "Your holy people possessed it but a little while. Our adversaries have trodden down your sanctuary.",
+      "ct": "Your holy people held the land for only a short time before our enemies trampled your sanctuary."
+    },
+    {
+      "verse": 19,
+      "kjv": "We are thine: thou never barest rule over them; they were not called by thy name.",
+      "web": "We have become like those over whom you never ruled, like those who were not called by your name.",
+      "ct": "We have become like people you never ruled over — like people who were never called by your name."
+    }
+  ]
+}

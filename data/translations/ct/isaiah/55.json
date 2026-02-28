@@ -1,0 +1,89 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 55,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:54:20.300Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy, and eat; yea, come, buy wine and milk without money and without price.",
+      "web": "“Hey! Come, everyone who thirsts, to the waters! Come, he who has no money, buy, and eat! Yes, come, buy wine and milk without money and without price.",
+      "ct": "\"Come, everyone who is thirsty — come to the waters! You don't have money? Come anyway! Buy and eat! Come, buy wine and milk — it costs you nothing, not a single penny."
+    },
+    {
+      "verse": 2,
+      "kjv": "Wherefore do ye spend money for that which is not bread? and your labour for that which satisfieth not? hearken diligently unto me, and eat ye that which is good, and let your soul delight itself in fatness.",
+      "web": "Why do you spend money for that which is not bread, and your labor for that which doesn’t satisfy? Listen diligently to me, and eat that which is good, and let your soul delight itself in richness.",
+      "ct": "Why do you spend your money on what isn't real food? Why work so hard for what never satisfies? Listen closely to me, and you'll feast on what is truly good. Your soul will be rich with the finest things."
+    },
+    {
+      "verse": 3,
+      "kjv": "Incline your ear, and come unto me: hear, and your soul shall live; and I will make an everlasting covenant with you, even the sure mercies of David.",
+      "web": "Turn your ear, and come to me. Hear, and your soul will live. I will make an everlasting covenant with you, even the sure mercies of David.",
+      "ct": "Open your ears and come to me. Listen, and your soul will live. I will make an everlasting covenant with you — the same faithful mercy I promised to David."
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, I have given him for a witness to the people, a leader and commander to the people.",
+      "web": "Behold, I have given him for a witness to the peoples, a leader and commander to the peoples.",
+      "ct": "Look — I made him a witness to the nations, a leader and commander over peoples."
+    },
+    {
+      "verse": 5,
+      "kjv": "Behold, thou shalt call a nation that thou knowest not, and nations that knew not thee shall run unto thee because of the LORD thy God, and for the Holy One of Israel; for he hath glorified thee.",
+      "web": "Behold, you shall call a nation that you don’t know; and a nation that didn’t know you shall run to you, because of LORD your God, and for the Holy One of Israel; for he has glorified you.” ",
+      "ct": "You will summon nations you've never heard of, and nations that don't know you will come running to you. They'll come because of the LORD your God, the Holy One of Israel, who has honored you with glory.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Seek ye the LORD while he may be found, call ye upon him while he is near:",
+      "web": "Seek LORD while he may be found. Call on him while he is near.",
+      "ct": "Search for the LORD while he can still be found. Call on him while he is near."
+    },
+    {
+      "verse": 7,
+      "kjv": "Let the wicked forsake his way, and the unrighteous man his thoughts: and let him return unto the LORD, and he will have mercy upon him; and to our God, for he will abundantly pardon.",
+      "web": "Let the wicked forsake his way, and the unrighteous man his thoughts. Let him return to LORD, and he will have mercy on him, to our God, for he will freely pardon. ",
+      "ct": "Let the wicked abandon their ways, and the sinful abandon their thoughts. Let them turn back to the LORD, and he will have mercy on them. Come back to our God, because he pardons generously."
+    },
+    {
+      "verse": 8,
+      "kjv": "For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD.",
+      "web": "“For my thoughts are not your thoughts, and your ways are not my ways,” says LORD.",
+      "ct": "\"My thoughts are nothing like your thoughts, and your ways are nothing like my ways,\" declares the LORD."
+    },
+    {
+      "verse": 9,
+      "kjv": "For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.",
+      "web": "“For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.",
+      "ct": "\"As far as the heavens are above the earth — that's how far my ways are above your ways, and my thoughts above your thoughts."
+    },
+    {
+      "verse": 10,
+      "kjv": "For as the rain cometh down, and the snow from heaven, and returneth not thither, but watereth the earth, and maketh it bring forth and bud, that it may give seed to the sower, and bread to the eater:",
+      "web": "For as the rain comes down and the snow from the sky, and doesn’t return there, but waters the earth, and makes it grow and bud, and gives seed to the sower and bread to the eater;",
+      "ct": "Rain and snow fall from the heavens and don't go back up again. Instead, they soak the earth, making it sprout and bloom, providing seed for the farmer and bread for the hungry."
+    },
+    {
+      "verse": 11,
+      "kjv": "So shall my word be that goeth forth out of my mouth: it shall not return unto me void, but it shall accomplish that which I please, and it shall prosper in the thing whereto I sent it.",
+      "web": "so is my word that goes out of my mouth: it will not return to me void, but it will accomplish that which I please, and it will prosper in the thing I sent it to do.",
+      "ct": "My word works the same way. When it goes out from my mouth, it won't come back empty. It will accomplish exactly what I want and succeed in the purpose I sent it for."
+    },
+    {
+      "verse": 12,
+      "kjv": "For ye shall go out with joy, and be led forth with peace: the mountains and the hills shall break forth before you into singing, and all the trees of the field shall clap their hands.",
+      "web": "For you shall go out with joy, and be led out with peace. The mountains and the hills will break out before you into singing; and all the trees of the fields will clap their hands.",
+      "ct": "You will leave with joy and be led out in peace. The mountains and hills will burst into song before you, and all the trees of the field will clap their hands."
+    },
+    {
+      "verse": 13,
+      "kjv": "Instead of the thorn shall come up the fir tree, and instead of the brier shall come up the myrtle tree: and it shall be to the LORD for a name, for an everlasting sign that shall not be cut off.",
+      "web": "Instead of the thorn the cypress tree will come up; and instead of the brier the myrtle tree will come up. It will make a name for LORD, for an everlasting sign that will not be cut off.”",
+      "ct": "Where thorns once grew, cypress trees will rise. Where briers once spread, myrtle trees will spring up. This will stand as a tribute to the LORD — an everlasting sign that will never be cut off.\""
+    }
+  ]
+}

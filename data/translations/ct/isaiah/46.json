@@ -1,0 +1,89 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 46,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:51:41.587Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Bel boweth down, Nebo stoopeth, their idols were upon the beasts, and upon the cattle: your carriages were heavy loaden; they are a burden to the weary beast.",
+      "web": "Bel bows down. Nebo stoops. Their idols are carried by animals, and on the livestock. The things that you carried around are heavy loads, a burden for the weary.",
+      "ct": "Bel collapses and Nebo crumbles. Their idols are loaded onto pack animals and livestock — the statues you once paraded around are now dead weight, a heavy burden wearing down the exhausted beasts."
+    },
+    {
+      "verse": 2,
+      "kjv": "They stoop, they bow down together; they could not deliver the burden, but themselves are gone into captivity.",
+      "web": "They stoop and they bow down together. They could not deliver the burden, but they have gone into captivity. ",
+      "ct": "Together these gods sink and fall. They can't even save themselves from being hauled away — they themselves are carried off into captivity."
+    },
+    {
+      "verse": 3,
+      "kjv": "Hearken unto me, O house of Jacob, and all the remnant of the house of Israel, which are borne by me from the belly, which are carried from the womb:",
+      "web": "“Listen to me, house of Jacob, and all the remnant of the house of Israel, that have been carried from their birth, that have been carried from the womb.",
+      "ct": "\"Listen to me, house of Jacob — all of you who remain of the house of Israel. I have carried you since before you were born; I have held you since you were in the womb."
+    },
+    {
+      "verse": 4,
+      "kjv": "And even to your old age I am he; and even to hoar hairs will I carry you: I have made, and I will bear; even I will carry, and will deliver you.",
+      "web": "Even to old age I am he, and even to gray hairs I will carry you. I have made, and I will bear. Yes, I will carry, and will deliver. ",
+      "ct": "Even when you are old, I am the same. Even when your hair turns gray, I will carry you. I made you, and I will sustain you. I will carry you and I will rescue you."
+    },
+    {
+      "verse": 5,
+      "kjv": "To whom will ye liken me, and make me equal, and compare me, that we may be like?",
+      "web": "“To whom will you compare me, and consider my equal, and compare me, as if we were the same?",
+      "ct": "\"Who could you possibly compare me to? Who is my equal? Who could you set beside me as though we were the same?"
+    },
+    {
+      "verse": 6,
+      "kjv": "They lavish gold out of the bag, and weigh silver in the balance, and hire a goldsmith; and he maketh it a god: they fall down, yea, they worship.",
+      "web": "Some pour out gold from the bag, and weigh silver in the balance. They hire a goldsmith, and he makes it a god. They fall down— yes, they worship.",
+      "ct": "Some people pour gold from a bag and weigh out silver on a scale. They hire a goldsmith, and he shapes it into a god — then they bow down and worship it."
+    },
+    {
+      "verse": 7,
+      "kjv": "They bear him upon the shoulder, they carry him, and set him in his place, and he standeth; from his place shall he not remove: yea, one shall cry unto him, yet can he not answer, nor save him out of his trouble.",
+      "web": "They bear it on their shoulder. They carry it, and set it in its place, and it stands there. It cannot move from its place. Yes, one may cry to it, yet it can not answer. It cannot save him out of his trouble. ",
+      "ct": "They hoist it onto their shoulders and lug it around, then set it down in its spot — and there it stands. It can't move from that place on its own. Someone may cry out to it for help, but it never answers. It can't save anyone from their trouble."
+    },
+    {
+      "verse": 8,
+      "kjv": "Remember this, and shew yourselves men: bring it again to mind, O ye transgressors.",
+      "web": "“Remember this, and show yourselves men. Bring it to mind again, you transgressors.",
+      "ct": "\"Remember this and stand firm. Take it to heart, you who rebel against me."
+    },
+    {
+      "verse": 9,
+      "kjv": "Remember the former things of old: for I am God, and there is none else; I am God, and there is none like me,",
+      "web": "Remember the former things of old: for I am God, and there is no other. I am God, and there is none like me.",
+      "ct": "Remember what I did long ago, because I am God and there is no other. I am God, and there is no one like me."
+    },
+    {
+      "verse": 10,
+      "kjv": "Declaring the end from the beginning, and from ancient times the things that are not yet done, saying, My counsel shall stand, and I will do all my pleasure:",
+      "web": "I declare the end from the beginning, and from ancient times things that are not yet done. I say: My counsel will stand, and I will do all that I please.",
+      "ct": "I announce the end from the very beginning. From ancient times I declare things that haven't happened yet. I say: my plan will stand, and I will accomplish everything I intend."
+    },
+    {
+      "verse": 11,
+      "kjv": "Calling a ravenous bird from the east, the man that executeth my counsel from a far country: yea, I have spoken it, I will also bring it to pass; I have purposed it, I will also do it.",
+      "web": "I call a ravenous bird from the east, the man of my counsel from a far country. Yes, I have spoken. I will also bring it to pass. I have planned. I will also do it. ",
+      "ct": "I am calling a bird of prey from the east — a man from a distant land to carry out my plan. I have spoken it, and I will make it happen. I have designed it, and I will see it through."
+    },
+    {
+      "verse": 12,
+      "kjv": "Hearken unto me, ye stouthearted, that are far from righteousness:",
+      "web": "Listen to me, you stubborn-hearted, who are far from righteousness!",
+      "ct": "\"Listen to me, you stubborn people who are so far from doing what is right."
+    },
+    {
+      "verse": 13,
+      "kjv": "I bring near my righteousness; it shall not be far off, and my salvation shall not tarry: and I will place salvation in Zion for Israel my glory.",
+      "web": "I bring my righteousness near. It is not far off, and my salvation will not wait. I will grant salvation to Zion, my glory to Israel.",
+      "ct": "I am bringing my righteousness close — it is not far away. My salvation will not be delayed. I will bring salvation to Zion and give my glory to Israel.\""
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 31,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:46:25.825Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Woe to them that go down to Egypt for help; and stay on horses, and trust in chariots, because they are many; and in horsemen, because they are very strong; but they look not unto the Holy One of Israel, neither seek the LORD!",
+      "web": "Woe to those who go down to Egypt for help, and rely on horses, and trust in chariots because they are many, and in horsemen because they are very strong, but they don’t look to the Holy One of Israel, and they don’t seek LORD!",
+      "ct": "Disaster is coming for those who run to Egypt for help, who rely on horses, who trust in chariots because they have so many, and in cavalry because they are so powerful — yet never look to the Holy One of Israel or seek the LORD!"
+    },
+    {
+      "verse": 2,
+      "kjv": "Yet he also is wise, and will bring evil, and will not call back his words: but will arise against the house of the evildoers, and against the help of them that work iniquity.",
+      "web": "Yet he also is wise, and will bring disaster, and will not call back his words, but will arise against the house of the evildoers, and against the help of those who work iniquity.",
+      "ct": "But God is wise too, and he will bring disaster. He doesn't take back his words. He will rise up against the household of evildoers and against the allies of those who practice sin."
+    },
+    {
+      "verse": 3,
+      "kjv": "Now the Egyptians are men, and not God; and their horses flesh, and not spirit. When the LORD shall stretch out his hand, both he that helpeth shall fall, and he that is holpen shall fall down, and they all shall fail together.",
+      "web": "Now the Egyptians are men, and not God; and their horses flesh, and not spirit. When LORD stretches out his hand, both he who helps shall stumble, and he who is helped shall fall, and they all shall be consumed together. ",
+      "ct": "The Egyptians are only human — they are not God. Their horses are flesh and blood — they are not spirit. When the LORD stretches out his hand, the helper will stumble and the one being helped will fall, and they will all be destroyed together."
+    },
+    {
+      "verse": 4,
+      "kjv": "For thus hath the LORD spoken unto me, Like as the lion and the young lion roaring on his prey, when a multitude of shepherds is called forth against him, he will not be afraid of their voice, nor abase himself for the noise of them: so shall the LORD of hosts come down to fight for mount Zion, and for the hill thereof.",
+      "web": "For LORD says to me, “As the lion and the young lion growling over his prey, if a multitude of shepherds is called together against him, will not be dismayed at their voice, nor abase himself for their noise, so LORD of Armies will come down to fight on Mount Zion and on its heights.",
+      "ct": "The LORD told me this: \"Picture a lion — a full-grown lion growling over its prey. Even when a whole crowd of shepherds is called out against it, the lion isn't scared by their shouting or intimidated by their noise. That is how the LORD of hosts will come down to fight on Mount Zion and on its heights.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "As birds flying, so will the LORD of hosts defend Jerusalem; defending also he will deliver it; and passing over he will preserve it.",
+      "web": "As birds hovering, so LORD of Armies will protect Jerusalem. He will protect and deliver it. He will pass over and preserve it.”",
+      "ct": "Like birds hovering protectively over their nest, the LORD of hosts will shield Jerusalem. He will shield it and rescue it; he will pass over it and preserve it."
+    },
+    {
+      "verse": 6,
+      "kjv": "Turn ye unto him from whom the children of Israel have deeply revolted.",
+      "web": "Return to him from whom you have deeply revolted, children of Israel.",
+      "ct": "People of Israel, come back to the one you have so deeply turned against!"
+    },
+    {
+      "verse": 7,
+      "kjv": "For in that day every man shall cast away his idols of silver, and his idols of gold, which your own hands have made unto you for a sin.",
+      "web": "For in that day everyone shall cast away his idols of silver and his idols of gold—sin which your own hands have made for you.",
+      "ct": "When that day comes, every one of you will throw away the silver idols and gold idols that your own hands crafted — objects of sin that you made for yourselves."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then shall the Assyrian fall with the sword, not of a mighty man; and the sword, not of a mean man, shall devour him: but he shall flee from the sword, and his young men shall be discomfited.",
+      "web": "“The Assyrian will fall by the sword, not of man; and the sword, not of mankind, shall devour him. He will flee from the sword, and his young men will become subject to forced labor.",
+      "ct": "Assyria will fall by a sword, but not one held by a mighty warrior. A sword will destroy them, but not one swung by any human hand. They will flee from that sword, and their young men will be put to forced labor."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he shall pass over to his strong hold for fear, and his princes shall be afraid of the ensign, saith the LORD, whose fire is in Zion, and his furnace in Jerusalem.",
+      "web": "His rock will pass away by reason of terror, and his princes will be afraid of the banner,” says LORD, whose fire is in Zion, and his furnace in Jerusalem.",
+      "ct": "Their stronghold will crumble in terror, and their commanders will panic at the sight of the battle banner.\" This is what the LORD declares — the one whose fire burns in Zion and whose furnace blazes in Jerusalem."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 39,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:48:55.165Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "At that time Merodachbaladan, the son of Baladan, king of Babylon, sent letters and a present to Hezekiah: for he had heard that he had been sick, and was recovered.",
+      "web": "At that time, Merodach Baladan the son of Baladan, king of Babylon, sent letters and a present to Hezekiah; for he heard that he had been sick, and had recovered.",
+      "ct": "Around that time, Merodachbaladan son of Baladan, king of Babylon, sent letters and a gift to Hezekiah. He had heard that Hezekiah had been seriously ill and had recovered."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Hezekiah was glad of them, and shewed them the house of his precious things, the silver, and the gold, and the spices, and the precious ointment, and all the house of his armour, and all that was found in his treasures: there was nothing in his house, nor in all his dominion, that Hezekiah shewed them not.",
+      "web": "Hezekiah was pleased with them, and showed them the house of his precious things, the silver, the gold, the spices, and the precious oil, and all the house of his armor, and all that was found in his treasures. There was nothing in his house, nor in all his dominion, that Hezekiah didn’t show them.",
+      "ct": "Hezekiah was delighted by the visit and gave the envoys a full tour. He showed them his treasure house — the silver, the gold, the spices, and the precious ointments — along with his entire armory and everything stored in his vaults. There wasn't a single thing in his palace or anywhere in his kingdom that Hezekiah didn't show them."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country unto me, even from Babylon.",
+      "web": "Then Isaiah the prophet came to king Hezekiah, and asked him, “What did these men say? From where did they come to you?” Hezekiah said, “They have come from a country far from me, even from Babylon.”",
+      "ct": "Then Isaiah the prophet came to King Hezekiah and asked him, \"What did these men say to you? Where did they come from?\" Hezekiah answered, \"They came from a distant country — all the way from Babylon.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said he, What have they seen in thine house? And Hezekiah answered, All that is in mine house have they seen: there is nothing among my treasures that I have not shewed them.",
+      "web": "Then he asked, “What have they seen in your house?” Hezekiah answered, “They have seen all that is in my house. There is nothing among my treasures that I have not shown them.”",
+      "ct": "Isaiah asked, \"What did they see in your palace?\" Hezekiah replied, \"They saw everything. There's nothing in my treasuries that I didn't show them.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Then said Isaiah to Hezekiah, Hear the word of the LORD of hosts:",
+      "web": "Then Isaiah said to Hezekiah, “Hear the word of LORD of Armies:",
+      "ct": "Then Isaiah said to Hezekiah, \"Listen to the word of the LORD of hosts:"
+    },
+    {
+      "verse": 6,
+      "kjv": "Behold, the days come, that all that is in thine house, and that which thy fathers have laid up in store until this day, shall be carried to Babylon: nothing shall be left, saith the LORD.",
+      "web": "‘Behold, the days are coming when all that is in your house, and that which your fathers have stored up until today, will be carried to Babylon. Nothing will be left,’ says LORD.",
+      "ct": "'The days are coming when everything in your palace — everything your ancestors have stored up until today — will be carried off to Babylon. Not a single thing will be left,' says the LORD."
+    },
+    {
+      "verse": 7,
+      "kjv": "And of thy sons that shall issue from thee, which thou shalt beget, shall they take away; and they shall be eunuchs in the palace of the king of Babylon.",
+      "web": "‘They will take away your sons who will issue from you, whom you shall father, and they will be eunuchs in the king of Babylon’s palace.’ ”",
+      "ct": "'Some of your own descendants, your own flesh and blood, will be taken away. They will serve as eunuchs in the palace of the king of Babylon.'\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Then said Hezekiah to Isaiah, Good is the word of the LORD which thou hast spoken. He said moreover, For there shall be peace and truth in my days.",
+      "web": "Then Hezekiah said to Isaiah, “LORD’s word which you have spoken is good.” He said moreover, “For there will be peace and truth in my days.”",
+      "ct": "Hezekiah responded to Isaiah, \"The word of the LORD that you've spoken is good.\" Then he added, \"At least there will be peace and stability during my lifetime.\""
+    }
+  ]
+}

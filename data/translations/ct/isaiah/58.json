@@ -1,0 +1,95 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 58,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:55:13.118Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Cry aloud, spare not, lift up thy voice like a trumpet, and shew my people their transgression, and the house of Jacob their sins.",
+      "web": "“Cry aloud! Don’t spare! Lift up your voice like a trumpet! Declare to my people their disobedience, and to the house of Jacob their sins.",
+      "ct": "\"Shout with everything you have! Don't hold back! Raise your voice like a trumpet blast and confront my people with their rebellion — declare to the house of Jacob their sins.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "Yet they seek me daily, and delight to know my ways, as a nation that did righteousness, and forsook not the ordinance of their God: they ask of me the ordinances of justice; they take delight in approaching to God.",
+      "web": "Yet they seek me daily, and delight to know my ways. As a nation that did righteousness, and didn’t forsake the ordinance of their God, they ask of me righteous judgments. They delight to draw near to God.",
+      "ct": "They go through the motions of seeking me every day, acting eager to learn my ways. They behave as if they were a nation that actually did what was right and never abandoned the commands of their God. They ask me for righteous judgments. They act delighted to come close to God."
+    },
+    {
+      "verse": 3,
+      "kjv": "Wherefore have we fasted, say they, and thou seest not? wherefore have we afflicted our soul, and thou takest no knowledge? Behold, in the day of your fast ye find pleasure, and exact all your labours.",
+      "web": "‘Why have we fasted,’ they say, ‘and you don’t see? Why have we afflicted our soul, and you don’t notice?’ “Behold, in the day of your fast you find pleasure, and oppress all your laborers.",
+      "ct": "They complain, 'Why have we fasted, and you don't even notice? Why have we denied ourselves, and you pay no attention?' Here's why: on the very days you fast, you chase your own pleasures and exploit your workers."
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, ye fast for strife and debate, and to smite with the fist of wickedness: ye shall not fast as ye do this day, to make your voice to be heard on high.",
+      "web": "Behold, you fast for strife and contention, and to strike with the fist of wickedness. You don’t fast today so as to make your voice to be heard on high.",
+      "ct": "Your fasting leads to fighting and arguing, to striking each other with vicious fists. You can't fast the way you do today and expect your voice to be heard in heaven."
+    },
+    {
+      "verse": 5,
+      "kjv": "Is it such a fast that I have chosen? a day for a man to afflict his soul? is it to bow down his head as a bulrush, and to spread sackcloth and ashes under him? wilt thou call this a fast, and an acceptable day to the LORD?",
+      "web": "Is this the fast that I have chosen? A day for a man to humble his soul? Is it to bow down his head like a reed, and to spread sackcloth and ashes under himself? Will you call this a fast, and an acceptable day to LORD? ",
+      "ct": "Is this really the kind of fast I want — just a day for people to starve themselves? Is it about hanging your head like a drooping reed and lying on sackcloth and ashes? Is that what you call a fast? Do you think that's a day the LORD accepts?"
+    },
+    {
+      "verse": 6,
+      "kjv": "Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke?",
+      "web": "“Isn’t this the fast that I have chosen: to release the bonds of wickedness, to undo the straps of the yoke, to let the oppressed go free, and that you break every yoke?",
+      "ct": "\"No — this is the fast I've chosen: break the chains of injustice, untie the ropes of every burden, set the oppressed free, and shatter every yoke."
+    },
+    {
+      "verse": 7,
+      "kjv": "Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? when thou seest the naked, that thou cover him; and that thou hide not thyself from thine own flesh?",
+      "web": "Isn’t it to distribute your bread to the hungry, and that you bring the poor who are cast out to your house? When you see the naked, that you cover him; and that you not hide yourself from your own flesh?",
+      "ct": "Share your food with the hungry. Bring the homeless poor into your house. When you see someone without clothes, give them something to wear. Don't turn your back on your own family."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then shall thy light break forth as the morning, and thine health shall spring forth speedily: and thy righteousness shall go before thee; the glory of the LORD shall be thy rereward.",
+      "web": "Then your light will break out as the morning, and your healing will appear quickly; then your righteousness shall go before you, and LORD’s glory will be your rear guard.",
+      "ct": "Then your light will burst through like the dawn, and your healing will come quickly. Your righteousness will go ahead of you, and the glory of the LORD will guard you from behind."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then shalt thou call, and the LORD shall answer; thou shalt cry, and he shall say, Here I am. If thou take away from the midst of thee the yoke, the putting forth of the finger, and speaking vanity;",
+      "web": "Then you will call, and LORD will answer. You will cry for help, and he will say, ‘Here I am.’ “If you take away from among you the yoke, finger pointing, and speaking wickedly;",
+      "ct": "Then when you call out, the LORD will answer. When you cry for help, he'll say, 'I'm right here.' Do this: remove the yoke of oppression from among you, stop pointing the finger at others, and quit speaking maliciously."
+    },
+    {
+      "verse": 10,
+      "kjv": "And if thou draw out thy soul to the hungry, and satisfy the afflicted soul; then shall thy light rise in obscurity, and thy darkness be as the noon day:",
+      "web": "and if you pour out your soul to the hungry, and satisfy the afflicted soul, then your light will rise in darkness, and your obscurity will be as the noonday;",
+      "ct": "If you pour yourself out for the hungry and meet the needs of those who are suffering, then your light will rise even in the darkness, and your deepest night will become bright as noon."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD shall guide thee continually, and satisfy thy soul in drought, and make fat thy bones: and thou shalt be like a watered garden, and like a spring of water, whose waters fail not.",
+      "web": "and LORD will guide you continually, satisfy your soul in dry places, and make your bones strong. You will be like a watered garden, and like a spring of water whose waters don’t fail.",
+      "ct": "The LORD will guide you always. He'll satisfy your soul even in the driest places and strengthen your bones. You'll be like a garden that's always watered, like a spring whose water never runs dry."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they that shall be of thee shall build the old waste places: thou shalt raise up the foundations of many generations; and thou shalt be called, The repairer of the breach, The restorer of paths to dwell in.",
+      "web": "Those who will be of you will build the old waste places. You will raise up the foundations of many generations. You will be called Repairer of the Breach, Restorer of Paths with Dwellings. ",
+      "ct": "Your descendants will rebuild the ancient ruins. You'll restore foundations that have stood for generations. People will call you 'Repairer of the Breach' and 'Restorer of Streets Where People Live.'"
+    },
+    {
+      "verse": 13,
+      "kjv": "If thou turn away thy foot from the sabbath, from doing thy pleasure on my holy day; and call the sabbath a delight, the holy of the LORD, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words:",
+      "web": "“If you turn away your foot from the Sabbath, from doing your pleasure on my holy day; and call the Sabbath a delight, and the holy of LORD honorable; and honor it, not doing your own ways, nor finding your own pleasure, nor speaking your own words,",
+      "ct": "\"If you keep your feet from trampling the Sabbath — from chasing your own interests on my holy day — and if you call the Sabbath a delight, honoring the LORD's holy day as something precious, respecting it by not going your own way, not pursuing your own agenda, and not just talking about whatever you please —"
+    },
+    {
+      "verse": 14,
+      "kjv": "Then shalt thou delight thyself in the LORD; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of the LORD hath spoken it.",
+      "web": "then you will delight yourself in LORD, and I will make you to ride on the high places of the earth, and I will feed you with the heritage of Jacob your father;” for LORD’s mouth has spoken it.",
+      "ct": "then you will find your delight in the LORD. I will set you high above the earth and nourish you with the inheritance of your ancestor Jacob.\" The mouth of the LORD has spoken it."
+    }
+  ]
+}

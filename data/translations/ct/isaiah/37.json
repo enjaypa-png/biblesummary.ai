@@ -1,0 +1,239 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 37,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:48:28.128Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, when king Hezekiah heard it, that he rent his clothes, and covered himself with sackcloth, and went into the house of the LORD.",
+      "web": "When king Hezekiah heard it, he tore his clothes, covered himself with sackcloth, and went into LORD’s house.",
+      "ct": "When King Hezekiah heard the report, he tore his clothes, put on sackcloth, and went into the house of the LORD."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he sent Eliakim, who was over the household, and Shebna the scribe, and the elders of the priests covered with sackcloth, unto Isaiah the prophet the son of Amoz.",
+      "web": "He sent Eliakim, who was over the household, and Shebna the scribe, and the elders of the priests, covered with sackcloth, to Isaiah the prophet, the son of Amoz.",
+      "ct": "He sent Eliakim, the palace administrator, along with Shebna the court secretary and the senior priests — all wearing sackcloth — to the prophet Isaiah son of Amoz."
+    },
+    {
+      "verse": 3,
+      "kjv": "And they said unto him, Thus saith Hezekiah, This day is a day of trouble, and of rebuke, and of blasphemy: for the children are come to the birth, and there is not strength to bring forth.",
+      "web": "They said to him, “Hezekiah says, ‘Today is a day of trouble, and of rebuke, and of rejection; for the children have come to the birth, and there is no strength to give birth.",
+      "ct": "They told him, \"Hezekiah says: 'Today is a day of distress, punishment, and disgrace. We are like a woman in labor who doesn't have the strength to deliver her child."
+    },
+    {
+      "verse": 4,
+      "kjv": "It may be the LORD thy God will hear the words of Rabshakeh, whom the king of Assyria his master hath sent to reproach the living God, and will reprove the words which the LORD thy God hath heard: wherefore lift up thy prayer for the remnant that is left.",
+      "web": "It may be LORD your God will hear the words of Rabshakeh, whom the king of Assyria his master has sent to defy the living God, and will rebuke the words which LORD your God has heard. Therefore lift up your prayer for the remnant that is left.’ ”",
+      "ct": "Perhaps the LORD your God has heard the words of Rabshakeh, whom his master the king of Assyria sent to mock the living God, and the LORD your God will punish him for what he said. So please pray for the few of us who are left.'\""
+    },
+    {
+      "verse": 5,
+      "kjv": "So the servants of king Hezekiah came to Isaiah.",
+      "web": "So the servants of king Hezekiah came to Isaiah.",
+      "ct": "When King Hezekiah's servants arrived, Isaiah gave them this message:"
+    },
+    {
+      "verse": 6,
+      "kjv": "And Isaiah said unto them, Thus shall ye say unto your master, Thus saith the LORD, Be not afraid of the words that thou hast heard, wherewith the servants of the king of Assyria have blasphemed me.",
+      "web": "Isaiah said to them, “Tell your master, ‘LORD says, “Don’t be afraid of the words that you have heard, with which the servants of the king of Assyria have blasphemed me.",
+      "ct": "Isaiah said to them, \"Tell your master, 'The LORD says: Don't be afraid of the words you've heard — the blasphemy that the king of Assyria's servants spoke against me."
+    },
+    {
+      "verse": 7,
+      "kjv": "Behold, I will send a blast upon him, and he shall hear a rumour, and return to his own land; and I will cause him to fall by the sword in his own land.",
+      "web": "Behold, I will put a spirit in him and he will hear news, and will return to his own land. I will cause him to fall by the sword in his own land.” ’ ”",
+      "ct": "Watch — I'm going to put a spirit of fear in him. He'll hear a rumor that sends him running back to his own country, and there I will have him cut down by the sword.'\""
+    },
+    {
+      "verse": 8,
+      "kjv": "So Rabshakeh returned, and found the king of Assyria warring against Libnah: for he had heard that he was departed from Lachish.",
+      "web": "So Rabshakeh returned, and found the king of Assyria warring against Libnah, for he had heard that he was departed from Lachish.",
+      "ct": "Rabshakeh returned and found the king of Assyria attacking Libnah, because he had heard that Sennacherib had moved on from Lachish."
+    },
+    {
+      "verse": 9,
+      "kjv": "And he heard say concerning Tirhakah king of Ethiopia, He is come forth to make war with thee. And when he heard it, he sent messengers to Hezekiah, saying,",
+      "web": "He heard news concerning Tirhakah king of Ethiopia, “He has come out to fight against you.” When he heard it, he sent messengers to Hezekiah, saying,",
+      "ct": "Then Sennacherib received word that King Tirhakah of Ethiopia was marching out to fight him. When he heard this, he sent messengers to Hezekiah with this message:"
+    },
+    {
+      "verse": 10,
+      "kjv": "Thus shall ye speak to Hezekiah king of Judah, saying, Let not thy God, in whom thou trustest, deceive thee, saying, Jerusalem shall not be given into the hand of the king of Assyria.",
+      "web": "“Thus you shall speak to Hezekiah king of Judah, saying, ‘Don’t let your God in whom you trust deceive you, saying, “Jerusalem won’t be given into the hand of the king of Assyria.”",
+      "ct": "\"Say this to King Hezekiah of Judah: 'Don't let the God you trust in fool you by promising that Jerusalem won't fall to the king of Assyria."
+    },
+    {
+      "verse": 11,
+      "kjv": "Behold, thou hast heard what the kings of Assyria have done to all lands by destroying them utterly; and shalt thou be delivered?",
+      "web": "Behold, you have heard what the kings of Assyria have done to all lands, by destroying them utterly. Shall you be delivered?",
+      "ct": "You've heard what the kings of Assyria have done to every nation — completely destroying them. Do you really think you'll be the exception?"
+    },
+    {
+      "verse": 12,
+      "kjv": "Have the gods of the nations delivered them which my fathers have destroyed, as Gozan, and Haran, and Rezeph, and the children of Eden which were in Telassar?",
+      "web": "Have the gods of the nations delivered them, which my fathers have destroyed, Gozan, Haran, Rezeph, and the children of Eden who were in Telassar?",
+      "ct": "Did the gods of those nations rescue them? My ancestors destroyed Gozan, Haran, Rezeph, and the people of Eden who lived in Telassar."
+    },
+    {
+      "verse": 13,
+      "kjv": "Where is the king of Hamath, and the king of Arphad, and the king of the city of Sepharvaim, Hena, and Ivah?",
+      "web": "Where is the king of Hamath, and the king of Arpad, and the king of the city of Sepharvaim, of Hena, and Ivvah?’ ”",
+      "ct": "Where is the king of Hamath now? Or the king of Arphad? Or the king of Sepharvaim, Hena, or Ivah?'\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And Hezekiah received the letter from the hand of the messengers, and read it: and Hezekiah went up unto the house of the LORD, and spread it before the LORD.",
+      "web": "Hezekiah received the letter from the hand of the messengers and read it. Then Hezekiah went up to LORD’s house, and spread it before LORD.",
+      "ct": "Hezekiah took the letter from the messengers and read it. Then he went up to the house of the LORD and spread it out before the LORD."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Hezekiah prayed unto the LORD, saying,",
+      "web": "Hezekiah prayed to LORD, saying,",
+      "ct": "Hezekiah prayed to the LORD, saying:"
+    },
+    {
+      "verse": 16,
+      "kjv": "O LORD of hosts, God of Israel, that dwellest between the cherubims, thou art the God, even thou alone, of all the kingdoms of the earth: thou hast made heaven and earth.",
+      "web": "“LORD of Armies, the God of Israel, who is enthroned among the cherubim, you are the God, even you alone, of all the kingdoms of the earth. You have made heaven and earth.",
+      "ct": "\"LORD of Hosts, God of Israel, enthroned between the cherubim — you alone are God over every kingdom on earth. You made heaven and earth."
+    },
+    {
+      "verse": 17,
+      "kjv": "Incline thine ear, O LORD, and hear; open thine eyes, O LORD, and see: and hear all the words of Sennacherib, which hath sent to reproach the living God.",
+      "web": "Turn your ear, LORD, and hear. Open your eyes, LORD, and behold. Hear all of the words of Sennacherib, who has sent to defy the living God.",
+      "ct": "Turn your ear toward me, LORD, and listen. Open your eyes, LORD, and see. Hear every word Sennacherib has sent to mock the living God."
+    },
+    {
+      "verse": 18,
+      "kjv": "Of a truth, LORD, the kings of Assyria have laid waste all the nations, and their countries,",
+      "web": "Truly, LORD, the kings of Assyria have destroyed all the countries and their land,",
+      "ct": "It's true, LORD — the kings of Assyria have devastated every nation and their lands."
+    },
+    {
+      "verse": 19,
+      "kjv": "And have cast their gods into the fire: for they were no gods, but the work of men’s hands, wood and stone: therefore they have destroyed them.",
+      "web": "and have cast their gods into the fire; for they were no gods, but the work of men’s hands, wood and stone; therefore they have destroyed them.",
+      "ct": "They threw those nations' gods into the fire. But those weren't real gods — they were just wood and stone shaped by human hands. That's why they could be destroyed."
+    },
+    {
+      "verse": 20,
+      "kjv": "Now therefore, O LORD our God, save us from his hand, that all the kingdoms of the earth may know that thou art the LORD, even thou only.",
+      "web": "Now therefore, LORD our God, save us from his hand, that all the kingdoms of the earth may know that you are LORD, even you only.”",
+      "ct": "Now, LORD our God, rescue us from Sennacherib's grip, so that every kingdom on earth will know that you alone are the LORD.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Then Isaiah the son of Amoz sent unto Hezekiah, saying, Thus saith the LORD God of Israel, Whereas thou hast prayed to me against Sennacherib king of Assyria:",
+      "web": "Then Isaiah the son of Amoz sent to Hezekiah, saying, “LORD, the God of Israel says, ‘Because you have prayed to me against Sennacherib king of Assyria,",
+      "ct": "Then Isaiah son of Amoz sent a message to Hezekiah: \"The LORD, the God of Israel, says: 'Because you prayed to me about Sennacherib king of Assyria,"
+    },
+    {
+      "verse": 22,
+      "kjv": "This is the word which the LORD hath spoken concerning him; The virgin, the daughter of Zion, hath despised thee, and laughed thee to scorn; the daughter of Jerusalem hath shaken her head at thee.",
+      "web": "this is the word which LORD has spoken concerning him. The virgin daughter of Zion has despised you and ridiculed you. The daughter of Jerusalem has shaken her head at you.",
+      "ct": "here is the word the LORD has spoken against him: The virgin daughter of Zion despises you and laughs at you. The daughter of Jerusalem shakes her head as you retreat."
+    },
+    {
+      "verse": 23,
+      "kjv": "Whom hast thou reproached and blasphemed? and against whom hast thou exalted thy voice, and lifted up thine eyes on high? even against the Holy One of Israel.",
+      "web": "Whom have you defied and blasphemed? Against whom have you exalted your voice and lifted up your eyes on high? Against the Holy One of Israel.",
+      "ct": "Who is it you've mocked and blasphemed? Against whom have you raised your voice and lifted your arrogant eyes? Against the Holy One of Israel!"
+    },
+    {
+      "verse": 24,
+      "kjv": "By thy servants hast thou reproached the Lord, and hast said, By the multitude of my chariots am I come up to the height of the mountains, to the sides of Lebanon; and I will cut down the tall cedars thereof, and the choice fir trees thereof: and I will enter into the height of his border, and the forest of his Carmel.",
+      "web": "By your servants, you have defied the Lord, and have said, “With the multitude of my chariots I have come up to the height of the mountains, to the innermost parts of Lebanon. I will cut down its tall cedars and its choice cypress trees. I will enter into its farthest height, the forest of its fruitful field.",
+      "ct": "Through your servants you defied the Lord, boasting: \"With my massive army of chariots I've climbed the highest mountains, the deepest reaches of Lebanon. I've cut down its tallest cedars and finest cypress trees. I've reached its farthest heights and its densest forests."
+    },
+    {
+      "verse": 25,
+      "kjv": "I have digged, and drunk water; and with the sole of my feet have I dried up all the rivers of the besieged places.",
+      "web": "I have dug and drunk water, and with the sole of my feet I will dry up all the rivers of Egypt.”",
+      "ct": "I've dug wells and drunk foreign water. With the soles of my feet I've dried up every river in my path.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "Hast thou not heard long ago, how I have done it; and of ancient times, that I have formed it? now have I brought it to pass, that thou shouldest be to lay waste defenced cities into ruinous heaps.",
+      "web": "“ ‘Have you not heard how I have done it long ago, and formed it in ancient times? Now I have brought it to pass, that it should be yours to destroy fortified cities, turning them into ruinous heaps.",
+      "ct": "Haven't you heard? I planned this long ago. I designed it in ancient times. Now I've brought it about — using you to crush fortified cities into piles of rubble."
+    },
+    {
+      "verse": 27,
+      "kjv": "Therefore their inhabitants were of small power, they were dismayed and confounded: they were as the grass of the field, and as the green herb, as the grass on the housetops, and as corn blasted before it be grown up.",
+      "web": "Therefore their inhabitants had little power. They were dismayed and confounded. They were like the grass of the field, and like the green herb, like the grass on the housetops, and like a field before its crop has grown.",
+      "ct": "Their people were powerless, terrified and humiliated. They were like grass in a field, like tender green plants, like grass sprouting on a rooftop — scorched before it can even grow."
+    },
+    {
+      "verse": 28,
+      "kjv": "But I know thy abode, and thy going out, and thy coming in, and thy rage against me.",
+      "web": "But I know your sitting down, your going out, your coming in, and your raging against me.",
+      "ct": "But I know everything about you — where you live, when you come and go, and how you rage against me."
+    },
+    {
+      "verse": 29,
+      "kjv": "Because thy rage against me, and thy tumult, is come up into mine ears, therefore will I put my hook in thy nose, and my bridle in thy lips, and I will turn thee back by the way by which thou camest.",
+      "web": "Because of your raging against me, and because your arrogance has come up into my ears, therefore I will put my hook in your nose and my bridle in your lips, and I will turn you back by the way by which you came.",
+      "ct": "Because your rage against me and your arrogance have reached my ears, I will put my hook in your nose and my bit in your mouth, and I will drag you back the same way you came.'"
+    },
+    {
+      "verse": 30,
+      "kjv": "And this shall be a sign unto thee, Ye shall eat this year such as groweth of itself; and the second year that which springeth of the same: and in the third year sow ye, and reap, and plant vineyards, and eat the fruit thereof.",
+      "web": "“ ‘This shall be the sign to you. You will eat this year that which grows of itself, and in the second year that which springs from it; and in the third year sow and reap and plant vineyards, and eat their fruit.",
+      "ct": "\"'And this will be the sign for you, Hezekiah: This year you'll eat whatever grows on its own. The second year, you'll eat what sprouts from that. But in the third year, you'll sow and harvest, plant vineyards, and eat their fruit."
+    },
+    {
+      "verse": 31,
+      "kjv": "And the remnant that is escaped of the house of Judah shall again take root downward, and bear fruit upward:",
+      "web": "The remnant that is escaped of the house of Judah will again take root downward, and bear fruit upward.",
+      "ct": "The survivors of Judah who remain will be like a tree that sends roots deep into the ground and produces fruit above."
+    },
+    {
+      "verse": 32,
+      "kjv": "For out of Jerusalem shall go forth a remnant, and they that escape out of mount Zion: the zeal of the LORD of hosts shall do this.",
+      "web": "For out of Jerusalem a remnant will go out, and survivors will escape from Mount Zion. The zeal of LORD of Armies will perform this.’",
+      "ct": "A remnant will go out from Jerusalem, and survivors will come from Mount Zion. The burning passion of the LORD of Hosts will make this happen.'"
+    },
+    {
+      "verse": 33,
+      "kjv": "Therefore thus saith the LORD concerning the king of Assyria, He shall not come into this city, nor shoot an arrow there, nor come before it with shields, nor cast a bank against it.",
+      "web": "“Therefore LORD says concerning the king of Assyria, ‘He will not come to this city, nor shoot an arrow there, neither will he come before it with shield, nor cast up a mound against it.",
+      "ct": "\"So this is what the LORD says about the king of Assyria: 'He will not enter this city. He won't shoot a single arrow here. He won't advance against it with shields or build a siege ramp against it."
+    },
+    {
+      "verse": 34,
+      "kjv": "By the way that he came, by the same shall he return, and shall not come into this city, saith the LORD.",
+      "web": "He will return the way that he came, and he won’t come to this city,’ says LORD.",
+      "ct": "He will go back the same way he came. He will not enter this city,' declares the LORD."
+    },
+    {
+      "verse": 35,
+      "kjv": "For I will defend this city to save it for mine own sake, and for my servant David’s sake.",
+      "web": "‘For I will defend this city to save it, for my own sake, and for my servant David’s sake.’ ”",
+      "ct": "'I will defend this city and save it — for my own sake and for the sake of my servant David.'\""
+    },
+    {
+      "verse": 36,
+      "kjv": "Then the angel of the LORD went forth, and smote in the camp of the Assyrians a hundred and fourscore and five thousand: and when they arose early in the morning, behold, they were all dead corpses.",
+      "web": "Then LORD’s angel went out and struck one hundred and eighty-five thousand men in the camp of the Assyrians. When men arose early in the morning, behold, these were all dead bodies.",
+      "ct": "That night the angel of the LORD went out and struck down 185,000 soldiers in the Assyrian camp. When the survivors woke at dawn, they found nothing but dead bodies everywhere."
+    },
+    {
+      "verse": 37,
+      "kjv": "So Sennacherib king of Assyria departed, and went and returned, and dwelt at Nineveh.",
+      "web": "So Sennacherib king of Assyria departed, went away, returned to Nineveh, and stayed there.",
+      "ct": "So Sennacherib king of Assyria broke camp, withdrew, and went back to Nineveh, where he stayed."
+    },
+    {
+      "verse": 38,
+      "kjv": "And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword; and they escaped into the land of Armenia: and Esarhaddon his son reigned in his stead.",
+      "web": "As he was worshiping in the house of Nisroch his god, Adrammelech and Sharezer his sons struck him with the sword; and they escaped into the land of Ararat. Esar Haddon his son reigned in his place.",
+      "ct": "One day, while he was worshiping in the temple of his god Nisroch, his sons Adrammelech and Sharezer killed him with the sword. They escaped to the land of Armenia, and his son Esarhaddon became king in his place."
+    }
+  ]
+}

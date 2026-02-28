@@ -21,4 +21,36 @@ export const VOICE_OVERRIDES: Record<string, { name?: string; description?: stri
     name: "Nicholas",
     description: "Calm, confident, firm elderly male",
   },
+  "Xn1azbd8NmVXRrY94yrw": {
+    name: "James",
+    description: "Deep, warm, authoritative male",
+  },
+  "vIpTnd6yyGAk2tJwEHLY": {
+    name: "Margaret",
+    description: "Clear, gentle, mature female",
+  },
+  "iN4bGoWlozzDpJuOdZjH": {
+    name: "Daniel",
+    description: "Steady, measured, thoughtful male",
+  },
+  "W0CVI7WJhHuV2vFY3VcB": {
+    name: "Grace",
+    description: "Warm, expressive, natural female",
+  },
+  "tPzOTlbmuCEa6h67Xb6k": {
+    name: "Samuel",
+    description: "Rich, resonant, strong male",
+  },
+  "GTtzqc49rk4I6RwPWgd4": {
+    name: "Ruth",
+    description: "Soft, comforting, conversational female",
+  },
+  "hILdTfuUq4LRBMrxHERr": {
+    name: "Thomas",
+    description: "Crisp, confident, professional male",
+  },
+  "h8LZpYr8y3VBz0q2x0LP": {
+    name: "Mary",
+    description: "Calm, clear, soothing female",
+  },
 };

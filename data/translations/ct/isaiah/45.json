@@ -1,0 +1,161 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 45,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:51:26.288Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Thus saith the LORD to his anointed, to Cyrus, whose right hand I have holden, to subdue nations before him; and I will loose the loins of kings, to open before him the two leaved gates; and the gates shall not be shut;",
+      "web": "LORD says to his anointed, to Cyrus, whose right hand I have held, to subdue nations before him, and strip kings of their armor; to open the doors before him, and the gates shall not be shut: ",
+      "ct": "This is what the LORD says to his anointed one, to Cyrus, whose right hand he has grasped to conquer nations and strip kings of their armor, to throw open doors before him so that no gate stays shut:"
+    },
+    {
+      "verse": 2,
+      "kjv": "I will go before thee, and make the crooked places straight: I will break in pieces the gates of brass, and cut in sunder the bars of iron:",
+      "web": "“I will go before you and make the rough places smooth. I will break the doors of bronze in pieces and cut apart the bars of iron.",
+      "ct": "\"I will go ahead of you and level every obstacle in your path. I will shatter bronze doors and cut through iron bars."
+    },
+    {
+      "verse": 3,
+      "kjv": "And I will give thee the treasures of darkness, and hidden riches of secret places, that thou mayest know that I, the LORD, which call thee by thy name, am the God of Israel.",
+      "web": "I will give you the treasures of darkness and hidden riches of secret places, that you may know that it is I, LORD, who call you by your name, even the God of Israel.",
+      "ct": "I will hand you treasures hidden in darkness, riches stashed away in secret places — so you will know that I am the LORD, the God of Israel, the one who calls you by name."
+    },
+    {
+      "verse": 4,
+      "kjv": "For Jacob my servant’s sake, and Israel mine elect, I have even called thee by thy name: I have surnamed thee, though thou hast not known me.",
+      "web": "For Jacob my servant’s sake, and Israel my chosen, I have called you by your name. I have given you a title, though you have not known me.",
+      "ct": "I did this for the sake of my servant Jacob, my chosen people Israel. I called you by name and gave you a title of honor, even though you didn't know me."
+    },
+    {
+      "verse": 5,
+      "kjv": "I am the LORD, and there is none else, there is no God beside me: I girded thee, though thou hast not known me:",
+      "web": "I am LORD, and there is no one else. Besides me, there is no God. I will strengthen you, though you have not known me,",
+      "ct": "I am the LORD, and there is no other. There is no God besides me. I equipped you for battle, even though you didn't know me,"
+    },
+    {
+      "verse": 6,
+      "kjv": "That they may know from the rising of the sun, and from the west, that there is none beside me. I am the LORD, and there is none else.",
+      "web": "that they may know from the rising of the sun, and from the west, that there is no one besides me. I am LORD, and there is no one else.",
+      "ct": "so that people from east to west would know that there is no one besides me. I am the LORD, and there is no other."
+    },
+    {
+      "verse": 7,
+      "kjv": "I form the light, and create darkness: I make peace, and create evil: I the LORD do all these things.",
+      "web": "I form the light and create darkness. I make peace and create calamity. I am LORD, who does all these things. ",
+      "ct": "I create light and I create darkness. I bring peace and I bring disaster. I, the LORD, do all these things."
+    },
+    {
+      "verse": 8,
+      "kjv": "Drop down, ye heavens, from above, and let the skies pour down righteousness: let the earth open, and let them bring forth salvation, and let righteousness spring up together; I the LORD have created it.",
+      "web": "Rain, you heavens, from above, and let the skies pour down righteousness. Let the earth open, that it may produce salvation, and let it cause righteousness to spring up with it. I, LORD, have created it. ",
+      "ct": "Pour down from above, you heavens, and let the skies rain down righteousness! Let the earth open wide and produce salvation, and let righteousness spring up alongside it. I, the LORD, have made this happen.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Woe unto him that striveth with his Maker! Let the potsherd strive with the potsherds of the earth. Shall the clay say to him that fashioneth it, What makest thou? or thy work, He hath no hands?",
+      "web": "Woe to him who strives with his Maker— a clay pot among the clay pots of the earth! Shall the clay ask him who fashions it, ‘What are you making?’ or your work, ‘He has no hands?’",
+      "ct": "How terrible it will be for anyone who argues with his Maker! You're nothing but a clay pot among other clay pots. Does the clay say to the potter, \"What are you making?\" Does the thing that's been made say, \"He has no skill\"?"
+    },
+    {
+      "verse": 10,
+      "kjv": "Woe unto him that saith unto his father, What begettest thou? or to the woman, What hast thou brought forth?",
+      "web": "Woe to him who says to a father, ‘What have you become the father of?’ or to a mother, ‘What have you given birth to?’ ” ",
+      "ct": "How terrible for the one who says to his father, \"What kind of child have you fathered?\" or to his mother, \"What have you given birth to?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Thus saith the LORD, the Holy One of Israel, and his Maker, Ask me of things to come concerning my sons, and concerning the work of my hands command ye me.",
+      "web": "LORD, the Holy One of Israel and his Maker says: “You ask me about the things that are to come, concerning my sons, and you command me concerning the work of my hands!",
+      "ct": "This is what the LORD says — the Holy One of Israel, the one who shaped him: \"Are you really going to question me about what's coming for my children? Are you going to give me orders about the work of my hands?"
+    },
+    {
+      "verse": 12,
+      "kjv": "I have made the earth, and created man upon it: I, even my hands, have stretched out the heavens, and all their host have I commanded.",
+      "web": "I have made the earth, and created man on it. I, even my hands, have stretched out the heavens. I have commanded all their army.",
+      "ct": "I made the earth and created humanity on it. My own hands stretched out the heavens, and I commanded every star in their armies."
+    },
+    {
+      "verse": 13,
+      "kjv": "I have raised him up in righteousness, and I will direct all his ways: he shall build my city, and he shall let go my captives, not for price nor reward, saith the LORD of hosts.",
+      "web": "I have raised him up in righteousness, and I will make all his ways straight. He shall build my city, and he shall let my exiles go free, not for price nor reward,” says LORD of Armies. ",
+      "ct": "I have raised Cyrus up for a righteous purpose, and I will clear every path before him. He will rebuild my city and set my exiles free — and not because anyone paid him or bribed him,\" says the LORD of hosts."
+    },
+    {
+      "verse": 14,
+      "kjv": "Thus saith the LORD, The labour of Egypt, and merchandise of Ethiopia and of the Sabeans, men of stature, shall come over unto thee, and they shall be thine: they shall come after thee; in chains they shall come over, and they shall fall down unto thee, they shall make supplication unto thee, saying, Surely God is in thee; and there is none else, there is no God.",
+      "web": "LORD says: “The labor of Egypt, and the merchandise of Ethiopia, and the Sabeans, men of stature, will come over to you, and they will be yours. They will go after you. They shall come over in chains. They will bow down to you. They will make supplication to you: ‘Surely God is in you; and there is no one else. There is no other god.",
+      "ct": "This is what the LORD says: \"The wealth of Egypt, the goods of Ethiopia, and the tall Sabeans will all come over to you and become yours. They will follow behind you, coming in chains. They will bow down before you and plead with you, saying, 'Surely God is among you, and there is no other. There is no other God.'\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Verily thou art a God that hidest thyself, O God of Israel, the Saviour.",
+      "web": "Most certainly you are a God who has hidden yourself, God of Israel, the Savior.’ ”",
+      "ct": "\"Truly, you are a God who hides himself, O God of Israel, the Savior.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "They shall be ashamed, and also confounded, all of them: they shall go to confusion together that are makers of idols.",
+      "web": "They will be disappointed, yes, confounded, all of them. Those who are makers of idols will go into confusion together.",
+      "ct": "All the idol-makers will be put to shame and humiliated. Together they will walk away in disgrace."
+    },
+    {
+      "verse": 17,
+      "kjv": "But Israel shall be saved in the LORD with an everlasting salvation: ye shall not be ashamed nor confounded world without end.",
+      "web": "Israel will be saved by LORD with an everlasting salvation. You will not be disappointed nor confounded to ages everlasting. ",
+      "ct": "But Israel will be saved by the LORD with an everlasting salvation. You will never again be put to shame or humiliated — not for all eternity."
+    },
+    {
+      "verse": 18,
+      "kjv": "For thus saith the LORD that created the heavens; God himself that formed the earth and made it; he hath established it, he created it not in vain, he formed it to be inhabited: I am the LORD; and there is none else.",
+      "web": "For LORD who created the heavens, the God who formed the earth and made it, who established it and didn’t create it a waste, who formed it to be inhabited says: “I am LORD. There is no other.",
+      "ct": "For this is what the LORD says — the one who created the heavens, the God who shaped the earth and made it, who established it firmly. He didn't create it to be empty; he formed it to be lived in. \"I am the LORD, and there is no other."
+    },
+    {
+      "verse": 19,
+      "kjv": "I have not spoken in secret, in a dark place of the earth: I said not unto the seed of Jacob, Seek ye me in vain: I the LORD speak righteousness, I declare things that are right.",
+      "web": "I have not spoken in secret, in a place of the land of darkness. I didn’t say to the offspring of Jacob, ‘Seek me in vain.’ I, LORD, speak righteousness. I declare things that are right. ",
+      "ct": "I haven't spoken in secret or from some hidden corner of the earth. I never told Jacob's descendants, 'Seek me and get nothing in return.' I, the LORD, speak what is right. I declare what is true."
+    },
+    {
+      "verse": 20,
+      "kjv": "Assemble yourselves and come; draw near together, ye that are escaped of the nations: they have no knowledge that set up the wood of their graven image, and pray unto a god that cannot save.",
+      "web": "“Assemble yourselves and come. Draw near together, you who have escaped from the nations. Those have no knowledge who carry the wood of their engraved image, and pray to a god that can’t save.",
+      "ct": "Gather together and come! Draw near, all you survivors from the nations. People who carry around wooden idols and pray to gods that can't save them — they know nothing."
+    },
+    {
+      "verse": 21,
+      "kjv": "Tell ye, and bring them near; yea, let them take counsel together: who hath declared this from ancient time? who hath told it from that time? have not I the LORD? and there is no God else beside me; a just God and a Saviour; there is none beside me.",
+      "web": "Declare and present it. Yes, let them take counsel together. Who has shown this from ancient time? Who has declared it of old? Haven’t I, LORD? There is no other God besides me, a just God and a Savior. There is no one besides me. ",
+      "ct": "Speak up and make your case. Go ahead, put your heads together. Who announced this long ago? Who predicted it from the beginning? Wasn't it me, the LORD? There is no other God besides me — a just God and a Savior. There is no one besides me."
+    },
+    {
+      "verse": 22,
+      "kjv": "Look unto me, and be ye saved, all the ends of the earth: for I am God, and there is none else.",
+      "web": "“Look to me, and be saved, all the ends of the earth; for I am God, and there is no other.",
+      "ct": "Turn to me and be saved, all you people across the earth, because I am God, and there is no other."
+    },
+    {
+      "verse": 23,
+      "kjv": "I have sworn by myself, the word is gone out of my mouth in righteousness, and shall not return, That unto me every knee shall bow, every tongue shall swear.",
+      "web": "I have sworn by myself. The word has gone out of my mouth in righteousness, and will not be revoked, that to me every knee shall bow, every tongue shall take an oath.",
+      "ct": "I have sworn by myself — this word has gone out from my mouth in righteousness and it will not be taken back: every knee will bow before me, and every tongue will swear allegiance to me."
+    },
+    {
+      "verse": 24,
+      "kjv": "Surely, shall one say, in the LORD have I righteousness and strength: even to him shall men come; and all that are incensed against him shall be ashamed.",
+      "web": "They will say of me, ‘There is righteousness and strength only in LORD.’ ” Even to him will men come. All those who raged against him will be disappointed.",
+      "ct": "People will say of me, 'Only in the LORD can righteousness and strength be found.' Everyone who raged against him will come to him in shame."
+    },
+    {
+      "verse": 25,
+      "kjv": "In the LORD shall all the seed of Israel be justified, and shall glory.",
+      "web": "All the offspring of Israel will be justified in LORD, and will rejoice!",
+      "ct": "Through the LORD, every descendant of Israel will be declared righteous, and they will celebrate his glory!"
+    }
+  ]
+}

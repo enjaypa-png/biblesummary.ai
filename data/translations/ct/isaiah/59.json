@@ -1,0 +1,137 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 59,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:55:32.416Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Behold, the LORD’s hand is not shortened, that it cannot save; neither his ear heavy, that it cannot hear:",
+      "web": "Behold, LORD’s hand is not shortened, that it can’t save; nor his ear dull, that it can’t hear.",
+      "ct": "Listen — the LORD's hand is not too weak to save you, and his ear is not too dull to hear you."
+    },
+    {
+      "verse": 2,
+      "kjv": "But your iniquities have separated between you and your God, and your sins have hid his face from you, that he will not hear.",
+      "web": "But your iniquities have separated you and your God, and your sins have hidden his face from you, so that he will not hear.",
+      "ct": "But your sins have built a wall between you and your God. Your wrongdoing has made him hide his face from you, so he will not listen."
+    },
+    {
+      "verse": 3,
+      "kjv": "For your hands are defiled with blood, and your fingers with iniquity; your lips have spoken lies, your tongue hath muttered perverseness.",
+      "web": "For your hands are defiled with blood, and your fingers with iniquity. Your lips have spoken lies. Your tongue mutters wickedness.",
+      "ct": "Your hands are stained with blood and your fingers with guilt. Your lips speak lies, and your tongue whispers wickedness."
+    },
+    {
+      "verse": 4,
+      "kjv": "None calleth for justice, nor any pleadeth for truth: they trust in vanity, and speak lies; they conceive mischief, and bring forth iniquity.",
+      "web": "No one sues in righteousness, and no one pleads in truth. They trust in vanity, and speak lies. They conceive mischief, and give birth to iniquity.",
+      "ct": "No one calls for justice; no one argues honestly. They rely on empty words and speak lies. They dream up trouble and give birth to evil."
+    },
+    {
+      "verse": 5,
+      "kjv": "They hatch cockatrice’ eggs, and weave the spider’s web: he that eateth of their eggs dieth, and that which is crushed breaketh out into a viper.",
+      "web": "They hatch adders’ eggs, and weave the spider’s web. He who eats of their eggs dies; and that which is crushed breaks out into a viper.",
+      "ct": "They hatch the eggs of vipers and spin spider webs. Anyone who eats their eggs dies, and if one is crushed, a snake bursts out."
+    },
+    {
+      "verse": 6,
+      "kjv": "Their webs shall not become garments, neither shall they cover themselves with their works: their works are works of iniquity, and the act of violence is in their hands.",
+      "web": "Their webs won’t become garments. They won’t cover themselves with their works. Their works are works of iniquity, and acts of violence are in their hands.",
+      "ct": "Their webs can't be made into clothing — no one can cover themselves with what they produce. Everything they do is steeped in sin, and their hands are full of violence."
+    },
+    {
+      "verse": 7,
+      "kjv": "Their feet run to evil, and they make haste to shed innocent blood: their thoughts are thoughts of iniquity; wasting and destruction are in their paths.",
+      "web": "Their feet run to evil, and they hurry to shed innocent blood. Their thoughts are thoughts of iniquity. Desolation and destruction are in their paths.",
+      "ct": "Their feet race toward evil; they can't wait to shed innocent blood. Their minds are consumed with wicked schemes, and ruin and destruction follow wherever they go."
+    },
+    {
+      "verse": 8,
+      "kjv": "The way of peace they know not; and there is no judgment in their goings: they have made them crooked paths: whosoever goeth therein shall not know peace.",
+      "web": "They don’t know the way of peace; and there is no justice in their ways. They have made crooked paths for themselves; whoever goes in them doesn’t know peace. ",
+      "ct": "They don't know the path of peace, and there's no justice in the way they live. They've twisted every road they walk, and anyone who follows them will never find peace."
+    },
+    {
+      "verse": 9,
+      "kjv": "Therefore is judgment far from us, neither doth justice overtake us: we wait for light, but behold obscurity; for brightness, but we walk in darkness.",
+      "web": "Therefore justice is far from us, and righteousness doesn’t overtake us. We look for light, but see darkness; for brightness, but we walk in obscurity.",
+      "ct": "That is why justice is so far from us and righteousness never catches up to us. We look for light but find only darkness; we hope for brightness but stumble through the gloom."
+    },
+    {
+      "verse": 10,
+      "kjv": "We grope for the wall like the blind, and we grope as if we had no eyes: we stumble at noon day as in the night; we are in desolate places as dead men.",
+      "web": "We grope for the wall like the blind. Yes, we grope as those who have no eyes. We stumble at noon as if it were twilight. Among those who are strong, we are like dead men.",
+      "ct": "We feel along the wall like blind people, groping as though we have no eyes at all. We stumble at noon as if it were midnight. Among the strong, we are like the dead."
+    },
+    {
+      "verse": 11,
+      "kjv": "We roar all like bears, and mourn sore like doves: we look for judgment, but there is none; for salvation, but it is far off from us.",
+      "web": "We all roar like bears and moan bitterly like doves. We look for justice, but there is none, for salvation, but it is far off from us. ",
+      "ct": "We growl like bears and moan like doves. We long for justice, but it never comes. We wait for salvation, but it stays far away."
+    },
+    {
+      "verse": 12,
+      "kjv": "For our transgressions are multiplied before thee, and our sins testify against us: for our transgressions are with us; and as for our iniquities, we know them;",
+      "web": "For our transgressions are multiplied before you, and our sins testify against us; for our transgressions are with us, and as for our iniquities, we know them:",
+      "ct": "Our rebellions have piled up before you, and our sins testify against us. We carry our transgressions with us, and we know our guilt all too well:"
+    },
+    {
+      "verse": 13,
+      "kjv": "In transgressing and lying against the LORD, and departing away from our God, speaking oppression and revolt, conceiving and uttering from the heart words of falsehood.",
+      "web": "transgressing and denying LORD, and turning away from following our God, speaking oppression and revolt, conceiving and uttering from the heart words of falsehood.",
+      "ct": "rebelling and lying against the LORD, turning our backs on our God, talking about oppression and revolt, and pouring out lies that come straight from the heart."
+    },
+    {
+      "verse": 14,
+      "kjv": "And judgment is turned away backward, and justice standeth afar off: for truth is fallen in the street, and equity cannot enter.",
+      "web": "Justice is turned away backward, and righteousness stands far away; for truth has fallen in the street, and uprightness can’t enter.",
+      "ct": "Justice has been driven back, and righteousness stands at a distance. Truth has collapsed in the public square, and honesty can't even get through the gate."
+    },
+    {
+      "verse": 15,
+      "kjv": "Yea, truth faileth; and he that departeth from evil maketh himself a prey: and the LORD saw it, and it displeased him that there was no judgment.",
+      "web": "Yes, truth is lacking; and he who departs from evil makes himself a prey. LORD saw it, and it displeased him that there was no justice.",
+      "ct": "Truth has vanished completely, and anyone who turns away from evil becomes a target. The LORD saw all of this, and it grieved him deeply that there was no justice."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he saw that there was no man, and wondered that there was no intercessor: therefore his arm brought salvation unto him; and his righteousness, it sustained him.",
+      "web": "He saw that there was no man, and wondered that there was no intercessor. Therefore his own arm brought salvation to him; and his righteousness sustained him.",
+      "ct": "He looked and saw that no one stepped forward. He was astonished that no one would intervene. So his own arm accomplished salvation, and his own righteousness held him up."
+    },
+    {
+      "verse": 17,
+      "kjv": "For he put on righteousness as a breastplate, and an helmet of salvation upon his head; and he put on the garments of vengeance for clothing, and was clad with zeal as a cloak.",
+      "web": "He put on righteousness as a breastplate, and a helmet of salvation on his head. He put on garments of vengeance for clothing, and was clad with zeal as a mantle.",
+      "ct": "He strapped on righteousness like a breastplate and placed the helmet of salvation on his head. He dressed himself in garments of vengeance and wrapped himself in burning zeal like a cloak."
+    },
+    {
+      "verse": 18,
+      "kjv": "According to their deeds, accordingly he will repay, fury to his adversaries, recompence to his enemies; to the islands he will repay recompence.",
+      "web": "According to their deeds, he will repay as appropriate, wrath to his adversaries, recompense to his enemies; he will repay the islands their due.",
+      "ct": "He will repay everyone according to what they've done — fury to his enemies, payback to his foes. Even the distant coastlands will receive what they deserve."
+    },
+    {
+      "verse": 19,
+      "kjv": "So shall they fear the name of the LORD from the west, and his glory from the rising of the sun. When the enemy shall come in like a flood, the Spirit of the LORD shall lift up a standard against him.",
+      "web": "So they will fear LORD’s name from the west, and his glory from the rising of the sun; for he will come as a rushing stream, which LORD’s breath drives. ",
+      "ct": "From the west to the east, people will fear the name of the LORD and stand in awe of his glory. When the enemy rushes in like a flood, the Spirit of the LORD will raise a banner against him."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the Redeemer shall come to Zion, and unto them that turn from transgression in Jacob, saith the LORD.",
+      "web": "“A Redeemer will come to Zion, and to those who turn from disobedience in Jacob,” says LORD.",
+      "ct": "\"A Redeemer will come to Zion — to those in Jacob who turn away from their rebellion,\" declares the LORD."
+    },
+    {
+      "verse": 21,
+      "kjv": "As for me, this is my covenant with them, saith the LORD; My spirit that is upon thee, and my words which I have put in thy mouth, shall not depart out of thy mouth, nor out of the mouth of thy seed, nor out of the mouth of thy seed’s seed, saith the LORD, from henceforth and for ever.",
+      "web": "“As for me, this is my covenant with them,” says LORD. “My Spirit who is on you, and my words which I have put in your mouth shall not depart out of your mouth, nor out of the mouth of your offspring, nor out of the mouth of your offspring’s offspring,” says LORD, “from now on and forever.”",
+      "ct": "\"As for me, this is my covenant with them,\" says the LORD. \"My Spirit, who rests on you, and my words that I have placed in your mouth will never leave your mouth, or the mouth of your children, or the mouth of your children's children,\" says the LORD, \"from this moment and forever.\""
+    }
+  ]
+}

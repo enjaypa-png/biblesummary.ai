@@ -1,0 +1,71 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 35,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:47:33.116Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The wilderness and the solitary place shall be glad for them; and the desert shall rejoice, and blossom as the rose.",
+      "web": "The wilderness and the dry land will be glad. The desert will rejoice and blossom like a rose.",
+      "ct": "The wilderness and the dry, desolate land will be glad. The desert will rejoice and burst into bloom like a rose."
+    },
+    {
+      "verse": 2,
+      "kjv": "It shall blossom abundantly, and rejoice even with joy and singing: the glory of Lebanon shall be given unto it, the excellency of Carmel and Sharon, they shall see the glory of the LORD, and the excellency of our God.",
+      "web": "It will blossom abundantly, and rejoice even with joy and singing. Lebanon’s glory will be given to it, the excellence of Carmel and Sharon. They will see LORD’s glory, the excellence of our God. ",
+      "ct": "It will overflow with blossoms, breaking out in joy and singing. It will be given the glory of Lebanon, the splendor of Carmel and Sharon. Everyone will see the glory of the LORD — the majesty of our God."
+    },
+    {
+      "verse": 3,
+      "kjv": "Strengthen ye the weak hands, and confirm the feeble knees.",
+      "web": "Strengthen the weak hands, and make the feeble knees firm.",
+      "ct": "Strengthen the hands that are weak. Steady the knees that are trembling."
+    },
+    {
+      "verse": 4,
+      "kjv": "Say to them that are of a fearful heart, Be strong, fear not: behold, your God will come with vengeance, even God with a recompence; he will come and save you.",
+      "web": "Tell those who have a fearful heart, “Be strong! Don’t be afraid! Behold, your God will come with vengeance, God’s retribution. He will come and save you. ",
+      "ct": "Tell those whose hearts are gripped by fear, \"Be strong! Don't be afraid! Look — your God is coming with vengeance. God himself is bringing justice. He is coming to save you.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped.",
+      "web": "Then the eyes of the blind will be opened, and the ears of the deaf will be unstopped.",
+      "ct": "Then the eyes of the blind will be opened, and the ears of the deaf will be unstopped."
+    },
+    {
+      "verse": 6,
+      "kjv": "Then shall the lame man leap as an hart, and the tongue of the dumb sing: for in the wilderness shall waters break out, and streams in the desert.",
+      "web": "Then the lame man will leap like a deer, and the tongue of the mute will sing; for waters will break out in the wilderness, and streams in the desert.",
+      "ct": "Then the lame will leap like a deer, and those who couldn't speak will shout for joy. Water will burst from the wilderness, and streams will flow through the desert."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the parched ground shall become a pool, and the thirsty land springs of water: in the habitation of dragons, where each lay, shall be grass with reeds and rushes.",
+      "web": "The burning sand will become a pool, and the thirsty ground springs of water. Grass with reeds and rushes will be in the habitation of jackals, where they lay.",
+      "ct": "The scorching sand will become a pool, and the parched ground will bubble with springs. Where jackals once made their dens, grass and reeds and rushes will grow."
+    },
+    {
+      "verse": 8,
+      "kjv": "And an highway shall be there, and a way, and it shall be called The way of holiness; the unclean shall not pass over it; but it shall be for those: the wayfaring men, though fools, shall not err therein.",
+      "web": "A highway will be there, a road, and it will be called “The Holy Way”. The unclean shall not pass over it, but it will be for those who walk in the Way. Wicked fools shall not go there.",
+      "ct": "A highway will be there — a road called \"The Holy Way.\" No one unclean will travel on it. It will belong to those who walk in God's way, and even the simplest traveler won't lose the path."
+    },
+    {
+      "verse": 9,
+      "kjv": "No lion shall be there, nor any ravenous beast shall go up thereon, it shall not be found there; but the redeemed shall walk there:",
+      "web": "No lion will be there, nor will any ravenous animal go up on it. They will not be found there; but the redeemed will walk there.",
+      "ct": "No lion will prowl there, and no dangerous beast will roam that road. They won't be found anywhere near it. Only the redeemed will walk there."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the ransomed of the LORD shall return, and come to Zion with songs and everlasting joy upon their heads: they shall obtain joy and gladness, and sorrow and sighing shall flee away.",
+      "web": "Then LORD’s ransomed ones will return, and come with singing to Zion; and everlasting joy will be on their heads. They will obtain gladness and joy, and sorrow and sighing will flee away.”",
+      "ct": "Those the LORD has ransomed will return. They will enter Zion singing, crowned with everlasting joy. Gladness and joy will overtake them, and sorrow and sighing will disappear."
+    }
+  ]
+}

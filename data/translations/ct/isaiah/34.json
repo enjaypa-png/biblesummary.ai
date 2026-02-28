@@ -1,0 +1,113 @@
+{
+  "book": "isaiah",
+  "book_name": "Isaiah",
+  "chapter": 34,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T10:47:22.348Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Come near, ye nations, to hear; and hearken, ye people: let the earth hear, and all that is therein; the world, and all things that come forth of it.",
+      "web": "Come near, you nations, to hear! Listen, you peoples. Let the earth and all it contains hear, the world, and everything that comes from it.",
+      "ct": "Come close, all you nations, and listen! Pay attention, every people on earth. Let the earth hear this, and everything in it — the whole world and all that it produces."
+    },
+    {
+      "verse": 2,
+      "kjv": "For the indignation of the LORD is upon all nations, and his fury upon all their armies: he hath utterly destroyed them, he hath delivered them to the slaughter.",
+      "web": "For LORD is enraged against all the nations, and angry with all their armies. He has utterly destroyed them. He has given them over for slaughter.",
+      "ct": "The LORD is furious with every nation and enraged at all their armies. He has marked them for total destruction and handed them over to slaughter."
+    },
+    {
+      "verse": 3,
+      "kjv": "Their slain also shall be cast out, and their stink shall come up out of their carcases, and the mountains shall be melted with their blood.",
+      "web": "Their slain will also be cast out, and the stench of their dead bodies will come up. The mountains will melt in their blood.",
+      "ct": "Their dead will be thrown out unburied. The stench of their corpses will rise, and the mountains will be drenched with their blood."
+    },
+    {
+      "verse": 4,
+      "kjv": "And all the host of heaven shall be dissolved, and the heavens shall be rolled together as a scroll: and all their host shall fall down, as the leaf falleth off from the vine, and as a falling fig from the fig tree.",
+      "web": "All of the army of the sky will be dissolved. The sky will be rolled up like a scroll, and all its armies will fade away, as a leaf fades from off a vine or a fig tree.",
+      "ct": "Every star in the heavens will dissolve, and the sky will be rolled up like a scroll. All the stars will wither and fall like leaves dropping from a vine, like shriveled figs falling from a fig tree."
+    },
+    {
+      "verse": 5,
+      "kjv": "For my sword shall be bathed in heaven: behold, it shall come down upon Idumea, and upon the people of my curse, to judgment.",
+      "web": "For my sword has drunk its fill in the sky. Behold, it will come down on Edom, and on the people of my curse, for judgment.",
+      "ct": "\"My sword has been drenched in the heavens. Watch — it will now come down on Edom, on the people I have cursed, to carry out judgment.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "The sword of the LORD is filled with blood, it is made fat with fatness, and with the blood of lambs and goats, with the fat of the kidneys of rams: for the LORD hath a sacrifice in Bozrah, and a great slaughter in the land of Idumea.",
+      "web": "LORD’s sword is filled with blood. It is covered with fat, with the blood of lambs and goats, with the fat of the kidneys of rams; for LORD has a sacrifice in Bozrah, And a great slaughter in the land of Edom.",
+      "ct": "The LORD's sword is soaked with blood, dripping with fat — the blood of lambs and goats, the rich fat of rams' kidneys. The LORD is holding a sacrifice in Bozrah, a massive slaughter in the land of Edom."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the unicorns shall come down with them, and the bullocks with the bulls; and their land shall be soaked with blood, and their dust made fat with fatness.",
+      "web": "The wild oxen will come down with them, and the young bulls with the mighty bulls; and their land will be drunken with blood, and their dust made greasy with fat. ",
+      "ct": "Wild oxen will fall alongside them, young bulls together with the mighty ones. Their land will be drenched with blood, and their soil will be saturated with fat."
+    },
+    {
+      "verse": 8,
+      "kjv": "For it is the day of the LORD’s vengeance, and the year of recompences for the controversy of Zion.",
+      "web": "For LORD has a day of vengeance, a year of recompense for the cause of Zion.",
+      "ct": "This is the day of the LORD's vengeance, the year he repays Edom for what it did to Zion."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the streams thereof shall be turned into pitch, and the dust thereof into brimstone, and the land thereof shall become burning pitch.",
+      "web": "Its streams will be turned into pitch, its dust into sulfur, And its land will become burning pitch.",
+      "ct": "Edom's streams will turn to tar, its dust to sulfur, and its whole land will become a blazing inferno of pitch."
+    },
+    {
+      "verse": 10,
+      "kjv": "It shall not be quenched night nor day; the smoke thereof shall go up for ever: from generation to generation it shall lie waste; none shall pass through it for ever and ever.",
+      "web": "It won’t be quenched night nor day. Its smoke will go up forever. From generation to generation, it will lie waste. No one will pass through it forever and ever.",
+      "ct": "It will burn day and night and never be put out. Its smoke will rise forever. Generation after generation, it will lie in ruins. No one will ever pass through it again."
+    },
+    {
+      "verse": 11,
+      "kjv": "But the cormorant and the bittern shall possess it; the owl also and the raven shall dwell in it: and he shall stretch out upon it the line of confusion, and the stones of emptiness.",
+      "web": "But the pelican and the porcupine will possess it. The owl and the raven will dwell in it. He will stretch the line of confusion over it, and the plumb line of emptiness.",
+      "ct": "Pelicans and porcupines will take it over. Owls and ravens will make their home there. God will stretch out over it the measuring line of chaos and the plumb line of emptiness."
+    },
+    {
+      "verse": 12,
+      "kjv": "They shall call the nobles thereof to the kingdom, but none shall be there, and all her princes shall be nothing.",
+      "web": "They shall call its nobles to the kingdom, but none shall be there; and all its princes shall be nothing.",
+      "ct": "Its nobles will have no kingdom left to rule. All its princes will vanish into nothing."
+    },
+    {
+      "verse": 13,
+      "kjv": "And thorns shall come up in her palaces, nettles and brambles in the fortresses thereof: and it shall be an habitation of dragons, and a court for owls.",
+      "web": "Thorns will come up in its palaces, nettles and thistles in its fortresses; and it will be a habitation of jackals, a court for ostriches.",
+      "ct": "Thorns will overrun its palaces, and nettles and brambles will choke its fortresses. It will become a den for jackals and a haunt for ostriches."
+    },
+    {
+      "verse": 14,
+      "kjv": "The wild beasts of the desert shall also meet with the wild beasts of the island, and the satyr shall cry to his fellow; the screech owl also shall rest there, and find for herself a place of rest.",
+      "web": "The wild animals of the desert will meet with the wolves, and the wild goat will cry to his fellow. Yes, the night creature shall settle there, and shall find herself a place of rest.",
+      "ct": "Desert creatures will meet with wolves there, and wild goats will call out to each other. Night creatures will settle in that place and find themselves a home."
+    },
+    {
+      "verse": 15,
+      "kjv": "There shall the great owl make her nest, and lay, and hatch, and gather under her shadow: there shall the vultures also be gathered, every one with her mate.",
+      "web": "The arrow snake will make her nest there, and lay, hatch, and gather under her shade. Yes, the kites will be gathered there, every one with her mate. ",
+      "ct": "Snakes will nest there, laying and hatching their eggs, gathering their young under their shade. Vultures too will gather there, each one paired with its mate."
+    },
+    {
+      "verse": 16,
+      "kjv": "Seek ye out of the book of the LORD, and read: no one of these shall fail, none shall want her mate: for my mouth it hath commanded, and his spirit it hath gathered them.",
+      "web": "Search in the book of LORD, and read: not one of these will be missing. None will lack her mate. For my mouth has commanded, and his Spirit has gathered them.",
+      "ct": "Search the book of the LORD and read it — not a single one of these creatures will be missing. None will lack a mate. For the LORD's own mouth has commanded it, and his spirit has gathered them together."
+    },
+    {
+      "verse": 17,
+      "kjv": "And he hath cast the lot for them, and his hand hath divided it unto them by line: they shall possess it for ever, from generation to generation shall they dwell therein.",
+      "web": "He has cast the lot for them, and his hand has divided it to them with a measuring line. They shall possess it forever. From generation to generation they will dwell in it.",
+      "ct": "He himself has cast lots to divide the land among them, and his hand has measured out their portions. They will possess it forever, living there from generation to generation."
+    }
+  ]
+}
