@@ -1,0 +1,119 @@
+{
+  "book": "judges",
+  "book_name": "Judges",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:31:08.969Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And after Abimelech there arose to defend Israel Tola the son of Puah, the son of Dodo, a man of Issachar; and he dwelt in Shamir in mount Ephraim.",
+      "web": "After Abimelech, Tola the son of Puah, the son of Dodo, a man of Issachar, arose to save Israel. He lived in Shamir in the hill country of Ephraim.",
+      "ct": "After Abimelech's time, a man named Tola rose up to defend Israel. He was the son of Puah and grandson of Dodo, from the tribe of Issachar. He lived in Shamir, in the hill country of Ephraim."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he judged Israel twenty and three years, and died, and was buried in Shamir.",
+      "web": "He judged Israel twenty-three years, and died, and was buried in Shamir.",
+      "ct": "He led Israel as judge for 23 years. Then he died and was buried in Shamir."
+    },
+    {
+      "verse": 3,
+      "kjv": "And after him arose Jair, a Gileadite, and judged Israel twenty and two years.",
+      "web": "After him Jair, the Gileadite, arose. He judged Israel twenty-two years.",
+      "ct": "After him, Jair from Gilead became judge and led Israel for 22 years."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he had thirty sons that rode on thirty ass colts, and they had thirty cities, which are called Havothjair unto this day, which are in the land of Gilead.",
+      "web": "He had thirty sons who rode on thirty donkey colts. They had thirty cities, which are called Havvoth Jair to this day, which are in the land of Gilead.",
+      "ct": "He had 30 sons who rode on 30 donkey colts, and they controlled 30 towns in the land of Gilead — towns that are still called Havvoth Jair to this day."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Jair died, and was buried in Camon.",
+      "web": "Jair died, and was buried in Kamon.",
+      "ct": "Jair died and was buried in Kamon."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the children of Israel did evil again in the sight of the LORD, and served Baalim, and Ashtaroth, and the gods of Syria, and the gods of Zidon, and the gods of Moab, and the gods of the children of Ammon, and the gods of the Philistines, and forsook the LORD, and served not him.",
+      "web": "The children of Israel again did that which was evil in LORD’s sight, and served the Baals, the Ashtaroth, the gods of Syria, the gods of Sidon, the gods of Moab, the gods of the children of Ammon, and the gods of the Philistines. They abandoned LORD, and didn’t serve him.",
+      "ct": "Once again, the LORD saw that the people of Israel were evil. They worshiped the Baals and the Ashtaroth, along with the gods of Syria, the gods of Sidon, the gods of Moab, the gods of the Ammonites, and the gods of the Philistines. They completely abandoned the LORD and refused to serve him."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the anger of the LORD was hot against Israel, and he sold them into the hands of the Philistines, and into the hands of the children of Ammon.",
+      "web": "LORD’s anger burned against Israel, and he sold them into the hand of the Philistines and into the hand of the children of Ammon.",
+      "ct": "The LORD's anger burned against Israel, and he handed them over to the Philistines and the Ammonites."
+    },
+    {
+      "verse": 8,
+      "kjv": "And that year they vexed and oppressed the children of Israel: eighteen years, all the children of Israel that were on the other side Jordan in the land of the Amorites, which is in Gilead.",
+      "web": "They troubled and oppressed the children of Israel that year. For eighteen years they oppressed all the children of Israel that were beyond the Jordan in the land of the Amorites, which is in Gilead.",
+      "ct": "Starting that year, these enemies crushed and oppressed the Israelites. For 18 years they brutalized all the Israelites living east of the Jordan in the land of the Amorites, the region of Gilead."
+    },
+    {
+      "verse": 9,
+      "kjv": "Moreover the children of Ammon passed over Jordan to fight also against Judah, and against Benjamin, and against the house of Ephraim; so that Israel was sore distressed.",
+      "web": "The children of Ammon passed over the Jordan to fight also against Judah, and against Benjamin, and against the house of Ephraim, so that Israel was very distressed.",
+      "ct": "The Ammonites even crossed the Jordan to attack Judah, Benjamin, and the tribe of Ephraim. Israel was in terrible distress."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the children of Israel cried unto the LORD, saying, We have sinned against thee, both because we have forsaken our God, and also served Baalim.",
+      "web": "The children of Israel cried to LORD, saying, “We have sinned against you, even because we have forsaken our God, and have served the Baals.”",
+      "ct": "The people of Israel cried out to the LORD, saying, \"We have sinned against you! We abandoned our God and worshiped the Baals.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD said unto the children of Israel, Did not I deliver you from the Egyptians, and from the Amorites, from the children of Ammon, and from the Philistines?",
+      "web": "LORD said to the children of Israel, “Didn’t I save you from the Egyptians, and from the Amorites, from the children of Ammon, and from the Philistines?",
+      "ct": "The LORD answered the people of Israel, \"Didn't I rescue you from the Egyptians, the Amorites, the Ammonites, and the Philistines?"
+    },
+    {
+      "verse": 12,
+      "kjv": "The Zidonians also, and the Amalekites, and the Maonites, did oppress you; and ye cried to me, and I delivered you out of their hand.",
+      "web": "The Sidonians also, and the Amalekites, and the Maonites, oppressed you; and you cried to me, and I saved you out of their hand.",
+      "ct": "When the Sidonians, the Amalekites, and the Maonites oppressed you, you cried out to me, and I rescued you from their power."
+    },
+    {
+      "verse": 13,
+      "kjv": "Yet ye have forsaken me, and served other gods: wherefore I will deliver you no more.",
+      "web": "Yet you have forsaken me and served other gods. Therefore I will save you no more.",
+      "ct": "But you turned your backs on me and served other gods. So I will not rescue you anymore."
+    },
+    {
+      "verse": 14,
+      "kjv": "Go and cry unto the gods which ye have chosen; let them deliver you in the time of your tribulation.",
+      "web": "Go and cry to the gods which you have chosen. Let them save you in the time of your distress!”",
+      "ct": "Go cry out to the gods you've chosen! Let them save you when you're in trouble.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And the children of Israel said unto the LORD, We have sinned: do thou unto us whatsoever seemeth good unto thee; deliver us only, we pray thee, this day.",
+      "web": "The children of Israel said to LORD, “We have sinned! Do to us whatever seems good to you; only deliver us, please, today.”",
+      "ct": "But the people of Israel pleaded with the LORD, \"We have sinned! Punish us however you see fit — just please rescue us today.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And they put away the strange gods from among them, and served the LORD: and his soul was grieved for the misery of Israel.",
+      "web": "They put away the foreign gods from among them and served LORD; and his soul was grieved for the misery of Israel.",
+      "ct": "Then they got rid of the foreign gods among them and began serving the LORD again. His soul was grieved by Israel's suffering."
+    },
+    {
+      "verse": 17,
+      "kjv": "Then the children of Ammon were gathered together, and encamped in Gilead. And the children of Israel assembled themselves together, and encamped in Mizpeh.",
+      "web": "Then the children of Ammon were gathered together and encamped in Gilead. The children of Israel assembled themselves together and encamped in Mizpah.",
+      "ct": "The Ammonites assembled their forces and set up camp in Gilead. The Israelites gathered together and made camp at Mizpah."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the people and princes of Gilead said one to another, What man is he that will begin to fight against the children of Ammon? he shall be head over all the inhabitants of Gilead.",
+      "web": "The people, the princes of Gilead, said to one another, “Who is the man who will begin to fight against the children of Ammon? He shall be head over all the inhabitants of Gilead.”",
+      "ct": "The people and leaders of Gilead asked each other, \"Who will step up and lead the attack against the Ammonites? Whoever does will become the ruler over everyone in Gilead.\""
+    }
+  ]
+}

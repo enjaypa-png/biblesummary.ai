@@ -1,0 +1,173 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 9,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:40:21.250Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now there was a man of Benjamin, whose name was Kish, the son of Abiel, the son of Zeror, the son of Bechorath, the son of Aphiah, a Benjamite, a mighty man of power.",
+      "web": "Now there was a man of Benjamin, whose name was Kish, the son of Abiel, the son of Zeror, the son of Becorath, the son of Aphiah, the son of a Benjamite, a mighty man of valor.",
+      "ct": "There was a man from the tribe of Benjamin named Kish. He was the son of Abiel, son of Zeror, son of Bechorath, son of Aphiah — a Benjamite and a man of wealth and influence."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he had a son, whose name was Saul, a choice young man, and a goodly: and there was not among the children of Israel a goodlier person than he: from his shoulders and upward he was higher than any of the people.",
+      "web": "He had a son, whose name was Saul, an impressive young man; and there was not among the children of Israel a better person than he. From his shoulders and upward he was taller than any of the people.",
+      "ct": "Kish had a son named Saul, an impressive young man — the finest in all of Israel. He stood a full head taller than anyone else, from his shoulders up."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the asses of Kish Saul’s father were lost. And Kish said to Saul his son, Take now one of the servants with thee, and arise, go seek the asses.",
+      "web": "The donkeys of Kish, Saul’s father, were lost. Kish said to Saul his son, “Now take one of the servants with you, and arise, go look for the donkeys.”",
+      "ct": "One day, some of Kish's donkeys wandered off and got lost. Kish told his son Saul, \"Take one of the servants with you and go look for the donkeys.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And he passed through mount Ephraim, and passed through the land of Shalisha, but they found them not: then they passed through the land of Shalim, and there they were not: and he passed through the land of the Benjamites, but they found them not.",
+      "web": "He passed through the hill country of Ephraim, and passed through the land of Shalishah, but they didn’t find them. Then they passed through the land of Shaalim, and they weren’t there. Then he passed through the land of the Benjamites, but they didn’t find them.",
+      "ct": "So Saul searched through the hill country of Ephraim and through the region of Shalisha, but they didn't find them. They went through the region of Shalim — nothing there either. They searched through the territory of Benjamin, but still couldn't find them."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when they were come to the land of Zuph, Saul said to his servant that was with him, Come, and let us return; lest my father leave caring for the asses, and take thought for us.",
+      "web": "When they had come to the land of Zuph, Saul said to his servant who was with him, “Come! Let’s return, lest my father stop caring about the donkeys, and be anxious for us.”",
+      "ct": "When they reached the region of Zuph, Saul said to his servant, \"Let's head back. By now my father has probably stopped worrying about the donkeys and started worrying about us.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And he said unto him, Behold now, there is in this city a man of God, and he is an honourable man; all that he saith cometh surely to pass: now let us go thither; peradventure he can shew us our way that we should go.",
+      "web": "The servant said to him, “Behold now, there is a man of God in this city, and he is a man who is held in honor. All that he says surely happens. Now let’s go there. Perhaps he can tell us which way to go.”",
+      "ct": "But the servant said, \"Wait — there's a man of God in this town, and everyone respects him. Everything he says comes true. Let's go see him. Maybe he can point us in the right direction.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Then said Saul to his servant, But, behold, if we go, what shall we bring the man? for the bread is spent in our vessels, and there is not a present to bring to the man of God: what have we?",
+      "web": "Then Saul said to his servant, “But, behold, if we go, what should we bring the man? For the bread is spent in our sacks, and there is not a present to bring to the man of God. What do we have?”",
+      "ct": "Saul replied, \"If we go to him, what can we bring? We've eaten all the bread in our bags, and we don't have a gift for the man of God. What do we even have?\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the servant answered Saul again, and said, Behold, I have here at hand the fourth part of a shekel of silver: that will I give to the man of God, to tell us our way.",
+      "web": "The servant answered Saul again, and said, “Behold, I have in my hand the fourth part of a shekel of silver. I will give that to the man of God, to tell us our way.”",
+      "ct": "The servant answered, \"Look, I have a quarter of a shekel of silver. I'll give that to the man of God, and he can tell us which way to go.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "(Beforetime in Israel, when a man went to enquire of God, thus he spake, Come, and let us go to the seer: for he that is now called a Prophet was beforetime called a Seer.)",
+      "web": "(In earlier times in Israel, when a man went to inquire of God, he said, “Come! Let’s go to the seer;” for he who is now called a prophet was before called a seer.)",
+      "ct": "(Back in those days in Israel, when someone wanted to ask God for guidance, they would say, \"Let's go to the seer.\" The person now called a prophet used to be called a seer.)"
+    },
+    {
+      "verse": 10,
+      "kjv": "Then said Saul to his servant, Well said; come, let us go. So they went unto the city where the man of God was.",
+      "web": "Then Saul said to his servant, “Well said. Come! Let’s go.” So they went to the city where the man of God was.",
+      "ct": "Saul said, \"Good idea. Let's go.\" So they headed to the town where the man of God lived."
+    },
+    {
+      "verse": 11,
+      "kjv": "And as they went up the hill to the city, they found young maidens going out to draw water, and said unto them, Is the seer here?",
+      "web": "As they went up the ascent to the city, they found young maidens going out to draw water, and said to them, “Is the seer here?”",
+      "ct": "As they were climbing the hill toward the town, they ran into some young women coming out to draw water. They asked them, \"Is the seer here?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And they answered them, and said, He is; behold, he is before you: make haste now, for he came to day to the city; for there is a sacrifice of the people to day in the high place:",
+      "web": "They answered them, and said, “He is. Behold, he is before you. Hurry now, for he has come today into the city; for the people have a sacrifice today in the high place.",
+      "ct": "The women answered, \"Yes, he is! He's just ahead of you. Hurry — he arrived in town today because the people are holding a sacrifice at the high place."
+    },
+    {
+      "verse": 13,
+      "kjv": "As soon as ye be come into the city, ye shall straightway find him, before he go up to the high place to eat: for the people will not eat until he come, because he doth bless the sacrifice; and afterwards they eat that be bidden. Now therefore get you up; for about this time ye shall find him.",
+      "web": "As soon as you have come into the city, you will immediately find him, before he goes up to the high place to eat; for the people will not eat until he comes, because he blesses the sacrifice. Afterwards those who are invited eat. Now therefore go up; for at this time you will find him.”",
+      "ct": "As soon as you enter the town, you'll find him before he goes up to the high place to eat. The people won't start eating until he arrives, because he's the one who blesses the sacrifice. After that, the invited guests eat. Go now — this is the perfect time to find him.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And they went up into the city: and when they were come into the city, behold, Samuel came out against them, for to go up to the high place.",
+      "web": "They went up to the city. As they came within the city, behold, Samuel came out toward them, to go up to the high place.",
+      "ct": "So they went up into the town, and just as they entered, there was Samuel coming toward them on his way up to the high place."
+    },
+    {
+      "verse": 15,
+      "kjv": "Now the LORD had told Samuel in his ear a day before Saul came, saying,",
+      "web": "Now LORD had revealed to Samuel a day before Saul came, saying,",
+      "ct": "Now the day before Saul arrived, the LORD had spoken privately to Samuel, saying,"
+    },
+    {
+      "verse": 16,
+      "kjv": "To morrow about this time I will send thee a man out of the land of Benjamin, and thou shalt anoint him to be captain over my people Israel, that he may save my people out of the hand of the Philistines: for I have looked upon my people, because their cry is come unto me.",
+      "web": "“Tomorrow about this time I will send you a man out of the land of Benjamin, and you shall anoint him to be prince over my people Israel. He will save my people out of the hand of the Philistines; for I have looked upon my people, because their cry has come to me.”",
+      "ct": "\"Tomorrow around this time, I will send you a man from the land of Benjamin. Anoint him as the leader over my people Israel. He will rescue my people from the Philistines, because I have seen their suffering and heard their cries.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And when Samuel saw Saul, the LORD said unto him, Behold the man whom I spake to thee of! this same shall reign over my people.",
+      "web": "When Samuel saw Saul, LORD said to him, “Behold, the man of whom I spoke to you! He will have authority over my people.”",
+      "ct": "When Samuel laid eyes on Saul, the LORD said to him, \"This is the man I told you about. He is the one who will rule over my people.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then Saul drew near to Samuel in the gate, and said, Tell me, I pray thee, where the seer’s house is.",
+      "web": "Then Saul approached Samuel in the gateway, and said, “Please tell me where the seer’s house is.”",
+      "ct": "Saul approached Samuel at the town gate and asked, \"Could you tell me where the seer's house is?\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And Samuel answered Saul, and said, I am the seer: go up before me unto the high place; for ye shall eat with me to day, and to morrow I will let thee go, and will tell thee all that is in thine heart.",
+      "web": "Samuel answered Saul, and said, “I am the seer. Go up before me to the high place, for you are to eat with me today. In the morning I will let you go, and will tell you all that is in your heart.",
+      "ct": "Samuel answered, \"I am the seer. Go on ahead of me to the high place — you're going to eat with me today. In the morning I'll send you on your way, and I'll tell you everything that's on your mind."
+    },
+    {
+      "verse": 20,
+      "kjv": "And as for thine asses that were lost three days ago, set not thy mind on them; for they are found. And on whom is all the desire of Israel? Is it not on thee, and on all thy father’s house?",
+      "web": "As for your donkeys who were lost three days ago, don’t set your mind on them; for they have been found. For whom is all that is desirable in Israel? Is it not for you, and for all your father’s house?”",
+      "ct": "As for your donkeys that went missing 3 days ago, don't worry about them — they've been found. And let me ask you this: who does all of Israel look to with hope? Isn't it you and your father's entire family?\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Saul answered and said, Am not I a Benjamite, of the smallest of the tribes of Israel? and my family the least of all the families of the tribe of Benjamin? wherefore then speakest thou so to me?",
+      "web": "Saul answered, “Am I not a Benjamite, of the smallest of the tribes of Israel? And my family the least of all the families of the tribe of Benjamin? Why then do you speak to me like this?”",
+      "ct": "Saul replied, \"But I'm from Benjamin — the smallest tribe in Israel! And my family is the least important clan in the whole tribe. Why would you say something like that to me?\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Samuel took Saul and his servant, and brought them into the parlour, and made them sit in the chiefest place among them that were bidden, which were about thirty persons.",
+      "web": "Samuel took Saul and his servant, and brought them into the guest room, and made them sit in the best place among those who were invited, who were about thirty persons.",
+      "ct": "Samuel took Saul and his servant into the dining hall and seated them at the head of the table, in the place of honor among the roughly 30 invited guests."
+    },
+    {
+      "verse": 23,
+      "kjv": "And Samuel said unto the cook, Bring the portion which I gave thee, of which I said unto thee, Set it by thee.",
+      "web": "Samuel said to the cook, “Bring the portion which I gave you, of which I said to you, ‘Set it aside.’ ”",
+      "ct": "Then Samuel told the cook, \"Bring out the special portion I gave you — the one I told you to set aside.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And the cook took up the shoulder, and that which was upon it, and set it before Saul. And Samuel said, Behold that which is left! set it before thee, and eat: for unto this time hath it been kept for thee since I said, I have invited the people. So Saul did eat with Samuel that day.",
+      "web": "The cook took up the thigh, and that which was on it, and set it before Saul. Samuel said, “Behold, that which has been reserved! Set it before yourself and eat; because it has been kept for you for the appointed time, for I said, ‘I have invited the people.’ ” So Saul ate with Samuel that day.",
+      "ct": "The cook brought out the shoulder and the meat on it and placed it in front of Saul. Samuel said, \"This was reserved especially for you. Eat, because it has been kept for you for this very occasion — ever since I said, 'I've invited guests.'\" So Saul ate with Samuel that day."
+    },
+    {
+      "verse": 25,
+      "kjv": "And when they were come down from the high place into the city, Samuel communed with Saul upon the top of the house.",
+      "web": "When they had come down from the high place into the city, he talked with Saul on the housetop.",
+      "ct": "After they came down from the high place back into town, Samuel talked with Saul on the rooftop of his house."
+    },
+    {
+      "verse": 26,
+      "kjv": "And they arose early: and it came to pass about the spring of the day, that Samuel called Saul to the top of the house, saying, Up, that I may send thee away. And Saul arose, and they went out both of them, he and Samuel, abroad.",
+      "web": "They arose early; and about daybreak, Samuel called to Saul on the housetop, saying, “Get up, that I may send you away.” Saul arose, and they both went outside, he and Samuel, together.",
+      "ct": "They got up early the next morning, and at dawn Samuel called up to Saul on the rooftop, \"Get ready — it's time for me to send you off.\" Saul got up, and the two of them — he and Samuel — walked out together."
+    },
+    {
+      "verse": 27,
+      "kjv": "And as they were going down to the end of the city, Samuel said to Saul, Bid the servant pass on before us, (and he passed on), but stand thou still a while, that I may shew thee the word of God.",
+      "web": "As they were going down at the end of the city, Samuel said to Saul, “Tell the servant to go on ahead of us.” He went ahead, then Samuel said, “But stand still first, that I may cause you to hear God’s message.”",
+      "ct": "As they reached the edge of town, Samuel said to Saul, \"Tell your servant to go on ahead of us.\" The servant went ahead, and Samuel said, \"Now stop here for a moment, so I can give you a message from God.\""
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "book": "judges",
+  "book_name": "Judges",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:28:03.427Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the children of Israel again did evil in the sight of the LORD, when Ehud was dead.",
+      "web": "The children of Israel again did that which was evil in LORD’s sight, when Ehud was dead.",
+      "ct": "After Ehud died, the people of Israel once again did what the LORD saw as evil."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD sold them into the hand of Jabin king of Canaan, that reigned in Hazor; the captain of whose host was Sisera, which dwelt in Harosheth of the Gentiles.",
+      "web": "LORD sold them into the hand of Jabin king of Canaan, who reigned in Hazor; the captain of whose army was Sisera, who lived in Harosheth of the Gentiles.",
+      "ct": "So the LORD handed them over to Jabin, a Canaanite king who ruled from Hazor. The commander of his army was Sisera, who lived in Harosheth of the Gentiles."
+    },
+    {
+      "verse": 3,
+      "kjv": "And the children of Israel cried unto the LORD: for he had nine hundred chariots of iron; and twenty years he mightily oppressed the children of Israel.",
+      "web": "The children of Israel cried to LORD, for he had nine hundred chariots of iron; and he mightily oppressed the children of Israel for twenty years.",
+      "ct": "The Israelites cried out to the LORD for help, because Sisera had 900 iron chariots and had brutally oppressed them for 20 years."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Deborah, a prophetess, the wife of Lapidoth, she judged Israel at that time.",
+      "web": "Now Deborah, a prophetess, the wife of Lappidoth, judged Israel at that time.",
+      "ct": "At that time, a prophetess named Deborah, the wife of Lapidoth, was leading Israel as judge."
+    },
+    {
+      "verse": 5,
+      "kjv": "And she dwelt under the palm tree of Deborah between Ramah and Bethel in mount Ephraim: and the children of Israel came up to her for judgment.",
+      "web": "She lived under Deborah’s palm tree between Ramah and Bethel in the hill country of Ephraim; and the children of Israel came up to her for judgment.",
+      "ct": "She would sit under a palm tree known as Deborah's Palm, between Ramah and Bethel in the hill country of Ephraim, and the Israelites would come to her to settle their disputes."
+    },
+    {
+      "verse": 6,
+      "kjv": "And she sent and called Barak the son of Abinoam out of Kedeshnaphtali, and said unto him, Hath not the LORD God of Israel commanded, saying, Go and draw toward mount Tabor, and take with thee ten thousand men of the children of Naphtali and of the children of Zebulun?",
+      "web": "She sent and called Barak the son of Abinoam out of Kedesh Naphtali, and said to him, “Hasn’t LORD, the God of Israel, commanded, ‘Go and lead the way to Mount Tabor, and take with you ten thousand men of the children of Naphtali and of the children of Zebulun?",
+      "ct": "She sent for Barak son of Abinoam from Kedesh in Naphtali and said to him, \"Hasn't the LORD, the God of Israel, given you this command: 'March to Mount Tabor and take 10,000 men from the tribes of Naphtali and Zebulun with you."
+    },
+    {
+      "verse": 7,
+      "kjv": "And I will draw unto thee to the river Kishon Sisera, the captain of Jabin’s army, with his chariots and his multitude; and I will deliver him into thine hand.",
+      "web": "I will draw to you, to the river Kishon, Sisera, the captain of Jabin’s army, with his chariots and his multitude; and I will deliver him into your hand.’ ”",
+      "ct": "I will lure Sisera, the commander of Jabin's army, to the Kishon River with all his chariots and troops, and I will hand him over to you.'\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Barak said unto her, If thou wilt go with me, then I will go: but if thou wilt not go with me, then I will not go.",
+      "web": "Barak said to her, “If you will go with me, then I will go; but if you will not go with me, I will not go.”",
+      "ct": "Barak told her, \"If you go with me, I'll go. But if you won't go with me, I'm not going.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And she said, I will surely go with thee: notwithstanding the journey that thou takest shall not be for thine honour; for the LORD shall sell Sisera into the hand of a woman. And Deborah arose, and went with Barak to Kedesh.",
+      "web": "She said, “I will surely go with you. Nevertheless, the journey that you take won’t be for your honor; for LORD will sell Sisera into a woman’s hand.” Deborah arose, and went with Barak to Kedesh.",
+      "ct": "\"I'll definitely go with you,\" she replied. \"But understand this — you won't get the glory for this victory, because the LORD is going to hand Sisera over to a woman.\" Then Deborah got up and traveled with Barak to Kedesh."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Barak called Zebulun and Naphtali to Kedesh; and he went up with ten thousand men at his feet: and Deborah went up with him.",
+      "web": "Barak called Zebulun and Naphtali together to Kedesh. Ten thousand men followed him; and Deborah went up with him.",
+      "ct": "Barak summoned the tribes of Zebulun and Naphtali to Kedesh, and 10,000 men followed him into battle. Deborah went with him."
+    },
+    {
+      "verse": 11,
+      "kjv": "Now Heber the Kenite, which was of the children of Hobab the father in law of Moses, had severed himself from the Kenites, and pitched his tent unto the plain of Zaanaim, which is by Kedesh.",
+      "web": "Now Heber the Kenite had separated himself from the Kenites, even from the children of Hobab, Moses’ brother-in-law, and had pitched his tent as far as the oak in Zaanannim, which is by Kedesh.",
+      "ct": "Now Heber the Kenite had separated from the rest of the Kenites — the descendants of Hobab, Moses' father-in-law — and had set up camp near the oak at Zaanaim, close to Kedesh."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they shewed Sisera that Barak the son of Abinoam was gone up to mount Tabor.",
+      "web": "They told Sisera that Barak the son of Abinoam was gone up to Mount Tabor.",
+      "ct": "When Sisera received word that Barak son of Abinoam had marched up to Mount Tabor,"
+    },
+    {
+      "verse": 13,
+      "kjv": "And Sisera gathered together all his chariots, even nine hundred chariots of iron, and all the people that were with him, from Harosheth of the Gentiles unto the river of Kishon.",
+      "web": "Sisera gathered together all his chariots, even nine hundred chariots of iron, and all the people who were with him, from Harosheth of the Gentiles, to the river Kishon.",
+      "ct": "he assembled all 900 of his iron chariots and every soldier under his command, and moved them from Harosheth of the Gentiles to the Kishon River."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Deborah said unto Barak, Up; for this is the day in which the LORD hath delivered Sisera into thine hand: is not the LORD gone out before thee? So Barak went down from mount Tabor, and ten thousand men after him.",
+      "web": "Deborah said to Barak, “Go; for this is the day in which LORD has delivered Sisera into your hand. Hasn’t LORD gone out before you?” So Barak went down from Mount Tabor, and ten thousand men after him.",
+      "ct": "Deborah said to Barak, \"Get moving! Today the LORD has handed Sisera over to you. The LORD himself has already gone ahead of you!\" So Barak charged down from Mount Tabor with his 10,000 men behind him."
+    },
+    {
+      "verse": 15,
+      "kjv": "And the LORD discomfited Sisera, and all his chariots, and all his host, with the edge of the sword before Barak; so that Sisera lighted down off his chariot, and fled away on his feet.",
+      "web": "LORD confused Sisera, all his chariots, and all his army, with the edge of the sword before Barak. Sisera abandoned his chariot and fled away on his feet.",
+      "ct": "The LORD threw Sisera and all his chariots and troops into chaos before Barak's advancing army. Sisera jumped down from his chariot and ran for his life on foot."
+    },
+    {
+      "verse": 16,
+      "kjv": "But Barak pursued after the chariots, and after the host, unto Harosheth of the Gentiles: and all the host of Sisera fell upon the edge of the sword; and there was not a man left.",
+      "web": "But Barak pursued the chariots and the army to Harosheth of the Gentiles; and all the army of Sisera fell by the edge of the sword. There was not a man left.",
+      "ct": "Barak chased the chariots and the army all the way back to Harosheth of the Gentiles. Every last one of Sisera's soldiers was cut down — not a single man survived."
+    },
+    {
+      "verse": 17,
+      "kjv": "Howbeit Sisera fled away on his feet to the tent of Jael the wife of Heber the Kenite: for there was peace between Jabin the king of Hazor and the house of Heber the Kenite.",
+      "web": "However Sisera fled away on his feet to the tent of Jael the wife of Heber the Kenite; for there was peace between Jabin the king of Hazor and the house of Heber the Kenite.",
+      "ct": "Meanwhile, Sisera had fled on foot to the tent of Jael, the wife of Heber the Kenite, because King Jabin of Hazor and Heber's family were on peaceful terms."
+    },
+    {
+      "verse": 18,
+      "kjv": "And Jael went out to meet Sisera, and said unto him, Turn in, my lord, turn in to me; fear not. And when he had turned in unto her into the tent, she covered him with a mantle.",
+      "web": "Jael went out to meet Sisera, and said to him, “Turn in, my lord, turn in to me; don’t be afraid.” He came in to her into the tent, and she covered him with a rug.",
+      "ct": "Jael came out to meet Sisera and said, \"Come in, my lord! Come inside — don't be afraid.\" So he entered her tent, and she covered him with a heavy blanket."
+    },
+    {
+      "verse": 19,
+      "kjv": "And he said unto her, Give me, I pray thee, a little water to drink; for I am thirsty. And she opened a bottle of milk, and gave him drink, and covered him.",
+      "web": "He said to her, “Please give me a little water to drink; for I am thirsty.” She opened a container of milk, and gave him a drink, and covered him.",
+      "ct": "He said to her, \"Please, give me a little water. I'm so thirsty.\" Instead, she opened a container of milk, gave him a drink, and covered him back up."
+    },
+    {
+      "verse": 20,
+      "kjv": "Again he said unto her, Stand in the door of the tent, and it shall be, when any man doth come and enquire of thee, and say, Is there any man here? that thou shalt say, No.",
+      "web": "He said to her, “Stand in the door of the tent, and if any man comes and inquires of you, and says, ‘Is there any man here?’ you shall say, ‘No.’ ”",
+      "ct": "Then he told her, \"Stand at the entrance of the tent. If anyone comes by and asks, 'Is there a man in here?' tell them no.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "Then Jael Heber’s wife took a nail of the tent, and took an hammer in her hand, and went softly unto him, and smote the nail into his temples, and fastened it into the ground: for he was fast asleep and weary. So he died.",
+      "web": "Then Jael Heber’s wife took a tent peg, and took a hammer in her hand, and went softly to him, and struck the pin into his temples, and it pierced through into the ground, for he was in a deep sleep; so he fainted and died.",
+      "ct": "But while Sisera lay in a deep, exhausted sleep, Jael quietly picked up a tent peg and a hammer. She crept over to him and drove the peg straight through his temple and into the ground. He never woke up — he was dead."
+    },
+    {
+      "verse": 22,
+      "kjv": "And, behold, as Barak pursued Sisera, Jael came out to meet him, and said unto him, Come, and I will shew thee the man whom thou seekest. And when he came into her tent, behold, Sisera lay dead, and the nail was in his temples.",
+      "web": "Behold, as Barak pursued Sisera, Jael came out to meet him, and said to him, “Come, and I will show you the man whom you seek.” He came to her; and behold, Sisera lay dead, and the tent peg was in his temples.",
+      "ct": "Just then, Barak arrived in pursuit of Sisera. Jael came out to meet him and said, \"Come — I'll show you the man you're looking for.\" He went inside, and there was Sisera, lying dead with the tent peg through his temple."
+    },
+    {
+      "verse": 23,
+      "kjv": "So God subdued on that day Jabin the king of Canaan before the children of Israel.",
+      "web": "So God subdued Jabin the king of Canaan before the children of Israel on that day.",
+      "ct": "That day, God defeated Jabin king of Canaan on behalf of the people of Israel."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the hand of the children of Israel prospered, and prevailed against Jabin the king of Canaan, until they had destroyed Jabin king of Canaan.",
+      "web": "The hand of the children of Israel prevailed more and more against Jabin the king of Canaan, until they had destroyed Jabin king of Canaan.",
+      "ct": "From that point on, Israel grew stronger and stronger against King Jabin of Canaan, until they finally destroyed him completely."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:38:26.348Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the child Samuel ministered unto the LORD before Eli. And the word of the LORD was precious in those days; there was no open vision.",
+      "web": "The child Samuel ministered to LORD before Eli. LORD’s word was rare in those days. There were not many visions, then.",
+      "ct": "The young boy Samuel served the LORD under Eli's guidance. In those days, messages from the LORD were rare, and visions from God were uncommon."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it came to pass at that time, when Eli was laid down in his place, and his eyes began to wax dim, that he could not see;",
+      "web": "At that time, when Eli was laid down in his place (now his eyes had begun to grow dim, so that he could not see),",
+      "ct": "One night, Eli was lying down in his usual place. His eyesight had been getting worse and worse — he could barely see anymore."
+    },
+    {
+      "verse": 3,
+      "kjv": "And ere the lamp of God went out in the temple of the LORD, where the ark of God was, and Samuel was laid down to sleep;",
+      "web": "and God’s lamp hadn’t yet gone out, and Samuel had laid down in LORD’s temple where God’s ark was,",
+      "ct": "The lamp of God in the LORD's temple hadn't gone out yet, and Samuel was lying down to sleep near the ark of God."
+    },
+    {
+      "verse": 4,
+      "kjv": "That the LORD called Samuel: and he answered, Here am I.",
+      "web": "LORD called Samuel. He said, “Here I am.”",
+      "ct": "Then the LORD called out, \"Samuel!\" He answered, \"Here I am!\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And he ran unto Eli, and said, Here am I; for thou calledst me. And he said, I called not; lie down again. And he went and lay down.",
+      "web": "He ran to Eli and said, “Here I am; for you called me.” He said, “I didn’t call. Lie down again.” He went and lay down.",
+      "ct": "He ran to Eli and said, \"Here I am — you called me.\" But Eli said, \"I didn't call you. Go back and lie down.\" So he went back and lay down."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the LORD called yet again, Samuel. And Samuel arose and went to Eli, and said, Here am I; for thou didst call me. And he answered, I called not, my son; lie down again.",
+      "web": "LORD called yet again, “Samuel!” Samuel arose and went to Eli and said, “Here I am; for you called me.” He answered, “I didn’t call, my son. Lie down again.”",
+      "ct": "The LORD called again, \"Samuel!\" Samuel got up, went to Eli, and said, \"Here I am — you called me.\" Eli answered, \"I didn't call you, my son. Go back and lie down.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Now Samuel did not yet know the LORD, neither was the word of the LORD yet revealed unto him.",
+      "web": "Now Samuel didn’t yet know LORD, neither was LORD’s word yet revealed to him.",
+      "ct": "Samuel didn't yet have a personal relationship with the LORD, and the LORD's word had never been revealed to him before."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the LORD called Samuel again the third time. And he arose and went to Eli, and said, Here am I; for thou didst call me. And Eli perceived that the LORD had called the child.",
+      "web": "LORD called Samuel again the third time. He arose and went to Eli and said, “Here I am; for you called me.” Eli perceived that LORD had called the child.",
+      "ct": "The LORD called Samuel a 3rd time. He got up, went to Eli, and said, \"Here I am — you called me.\" This time, Eli realized that it was the LORD calling the boy."
+    },
+    {
+      "verse": 9,
+      "kjv": "Therefore Eli said unto Samuel, Go, lie down: and it shall be, if he call thee, that thou shalt say, Speak, LORD; for thy servant heareth. So Samuel went and lay down in his place.",
+      "web": "Therefore Eli said to Samuel, “Go, lie down. It shall be, if he calls you, that you shall say, ‘Speak, LORD; for your servant hears.’ ” So Samuel went and lay down in his place.",
+      "ct": "So Eli told Samuel, \"Go lie down, and if he calls you again, say, 'Speak, LORD, for your servant is listening.'\" Samuel went back and lay down in his place."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the LORD came, and stood, and called as at other times, Samuel, Samuel. Then Samuel answered, Speak; for thy servant heareth.",
+      "web": "LORD came, and stood, and called as at other times, “Samuel! Samuel!” Then Samuel said, “Speak; for your servant hears.”",
+      "ct": "The LORD came and stood there, calling out just as before, \"Samuel! Samuel!\" This time Samuel answered, \"Speak, for your servant is listening.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD said to Samuel, Behold, I will do a thing in Israel, at which both the ears of every one that heareth it shall tingle.",
+      "web": "LORD said to Samuel, “Behold, I will do a thing in Israel at which both the ears of everyone who hears it will tingle.",
+      "ct": "The LORD said to Samuel, \"Pay attention — I am about to do something in Israel that will make the ears of everyone who hears about it ring.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "In that day I will perform against Eli all things which I have spoken concerning his house: when I begin, I will also make an end.",
+      "web": "In that day I will perform against Eli all that I have spoken concerning his house, from the beginning even to the end.",
+      "ct": "\"When that day comes, I will carry out everything I have spoken against Eli's family, from beginning to end.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "For I have told him that I will judge his house for ever for the iniquity which he knoweth; because his sons made themselves vile, and he restrained them not.",
+      "web": "For I have told him that I will judge his house forever for the iniquity which he knew, because his sons brought a curse on themselves, and he didn’t restrain them.",
+      "ct": "\"I told him that I would judge his family permanently because of the sin he knew about — his sons were bringing disgrace on themselves, and he did nothing to stop them.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And therefore I have sworn unto the house of Eli, that the iniquity of Eli’s house shall not be purged with sacrifice nor offering for ever.",
+      "web": "Therefore I have sworn to the house of Eli that the iniquity of Eli’s house shall not be removed with sacrifice or offering forever.”",
+      "ct": "\"Because of this, I have sworn to Eli's family that no sacrifice or offering will ever be enough to atone for their sin.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And Samuel lay until the morning, and opened the doors of the house of the LORD. And Samuel feared to shew Eli the vision.",
+      "web": "Samuel lay until the morning, and opened the doors of LORD’s house. Samuel was afraid to show Eli the vision.",
+      "ct": "Samuel lay there until morning, then got up and opened the doors of the LORD's house. He was afraid to tell Eli what the LORD had shown him."
+    },
+    {
+      "verse": 16,
+      "kjv": "Then Eli called Samuel, and said, Samuel, my son. And he answered, Here am I.",
+      "web": "Then Eli called Samuel and said, “Samuel, my son!” He said, “Here I am.”",
+      "ct": "But Eli called to him, \"Samuel, my son!\" Samuel answered, \"Here I am.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And he said, What is the thing that the LORD hath said unto thee? I pray thee hide it not from me: God do so to thee, and more also, if thou hide any thing from me of all the things that he said unto thee.",
+      "web": "He said, “What is the thing that he has spoken to you? Please don’t hide it from me. God do so to you, and more also, if you hide anything from me of all the things that he spoke to you.”",
+      "ct": "Eli said, \"What did the LORD say to you? Don't hide anything from me. May God deal with you severely if you keep back even one word of what he told you.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And Samuel told him every whit, and hid nothing from him. And he said, It is the LORD: let him do what seemeth him good.",
+      "web": "Samuel told him every bit, and hid nothing from him. He said, “It is LORD. Let him do what seems good to him.”",
+      "ct": "So Samuel told him everything and held nothing back. Eli responded, \"He is the LORD. Let him do what he sees as right.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And Samuel grew, and the LORD was with him, and did let none of his words fall to the ground.",
+      "web": "Samuel grew, and LORD was with him and let none of his words fall to the ground.",
+      "ct": "As Samuel grew up, the LORD was with him and made sure that every word Samuel spoke came true."
+    },
+    {
+      "verse": 20,
+      "kjv": "And all Israel from Dan even to Beersheba knew that Samuel was established to be a prophet of the LORD.",
+      "web": "All Israel from Dan even to Beersheba knew that Samuel was established to be a prophet of LORD.",
+      "ct": "Everyone in Israel, from Dan in the north to Beersheba in the south, recognized that Samuel had been confirmed as a prophet of the LORD."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the LORD appeared again in Shiloh: for the LORD revealed himself to Samuel in Shiloh by the word of the LORD.",
+      "web": "LORD appeared again in Shiloh; for LORD revealed himself to Samuel in Shiloh by LORD’s word.",
+      "ct": "The LORD continued to appear at Shiloh, because that is where he revealed himself to Samuel through his word."
+    }
+  ]
+}

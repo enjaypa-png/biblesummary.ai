@@ -1,0 +1,185 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 23,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:46:49.431Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then they told David, saying, Behold, the Philistines fight against Keilah, and they rob the threshingfloors.",
+      "web": "David was told, “Behold, the Philistines are fighting against Keilah, and are robbing the threshing floors.”",
+      "ct": "Someone brought David the news: \"The Philistines are attacking Keilah and raiding the threshing floors.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "Therefore David enquired of the LORD, saying, Shall I go and smite these Philistines? And the LORD said unto David, Go, and smite the Philistines, and save Keilah.",
+      "web": "Therefore David inquired of LORD, saying, “Shall I go and strike these Philistines?” LORD said to David, “Go strike the Philistines, and save Keilah.”",
+      "ct": "David asked the LORD, \"Should I go and fight these Philistines?\" The LORD answered, \"Go, attack the Philistines, and rescue Keilah.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And David’s men said unto him, Behold, we be afraid here in Judah: how much more then if we come to Keilah against the armies of the Philistines?",
+      "web": "David’s men said to him, “Behold, we are afraid here in Judah. How much more then if we go to Keilah against the armies of the Philistines?”",
+      "ct": "But David's men told him, \"We're already afraid here in Judah. How much worse will it be if we march to Keilah and take on the Philistine army?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then David enquired of the LORD yet again. And the LORD answered him and said, Arise, go down to Keilah; for I will deliver the Philistines into thine hand.",
+      "web": "Then David inquired of LORD yet again. LORD answered him, and said, “Arise, go down to Keilah; for I will deliver the Philistines into your hand.”",
+      "ct": "So David asked the LORD a second time. The LORD replied, \"Get up and go to Keilah. I will hand the Philistines over to you.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "So David and his men went to Keilah, and fought with the Philistines, and brought away their cattle, and smote them with a great slaughter. So David saved the inhabitants of Keilah.",
+      "web": "David and his men went to Keilah, and fought with the Philistines, and brought away their livestock, and killed them with a great slaughter. So David saved the inhabitants of Keilah.",
+      "ct": "David and his men went to Keilah and fought the Philistines, seizing their livestock and inflicting a devastating defeat. That's how David rescued the people of Keilah."
+    },
+    {
+      "verse": 6,
+      "kjv": "And it came to pass, when Abiathar the son of Ahimelech fled to David to Keilah, that he came down with an ephod in his hand.",
+      "web": "When Abiathar the son of Ahimelech fled to David to Keilah, he came down with an ephod in his hand.",
+      "ct": "When Abiathar son of Ahimelech had fled to David at Keilah, he brought the ephod with him."
+    },
+    {
+      "verse": 7,
+      "kjv": "And it was told Saul that David was come to Keilah. And Saul said, God hath delivered him into mine hand; for he is shut in, by entering into a town that hath gates and bars.",
+      "web": "Saul was told that David had come to Keilah. Saul said, “God has delivered him into my hand; for he is shut in by entering into a town that has gates and bars.”",
+      "ct": "When Saul learned that David had gone to Keilah, he said, \"God has handed him over to me. He's trapped himself by entering a town with gates and bars.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Saul called all the people together to war, to go down to Keilah, to besiege David and his men.",
+      "web": "Saul summoned all the people to war, to go down to Keilah, to besiege David and his men.",
+      "ct": "Saul called up his entire army to march down to Keilah and lay siege to David and his men."
+    },
+    {
+      "verse": 9,
+      "kjv": "And David knew that Saul secretly practised mischief against him; and he said to Abiathar the priest, Bring hither the ephod.",
+      "web": "David knew that Saul was devising mischief against him; and he said to Abiathar the priest, “Bring the ephod here.”",
+      "ct": "David found out that Saul was plotting against him, so he told Abiathar the priest, \"Bring the ephod here.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then said David, O LORD God of Israel, thy servant hath certainly heard that Saul seeketh to come to Keilah, to destroy the city for my sake.",
+      "web": "Then David said, “O LORD, the God of Israel, your servant has surely heard that Saul seeks to come to Keilah, to destroy the city for my sake.",
+      "ct": "Then David prayed, \"LORD, God of Israel, your servant has heard for certain that Saul plans to come to Keilah and destroy the city because of me.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Will the men of Keilah deliver me up into his hand? will Saul come down, as thy servant hath heard? O LORD God of Israel, I beseech thee, tell thy servant. And the LORD said, He will come down.",
+      "web": "Will the men of Keilah deliver me up into his hand? Will Saul come down, as your servant has heard? LORD, the God of Israel, I beg you, tell your servant.” LORD said, “He will come down.”",
+      "ct": "\"Will the people of Keilah hand me over to him? Will Saul actually come, as your servant has heard? LORD, God of Israel, I beg you, tell your servant.\" The LORD answered, \"He will come.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Then said David, Will the men of Keilah deliver me and my men into the hand of Saul? And the LORD said, They will deliver thee up.",
+      "web": "Then David said, “Will the men of Keilah deliver me and my men into the hand of Saul?” LORD said, “They will deliver you up.”",
+      "ct": "David asked again, \"Will the people of Keilah surrender me and my men to Saul?\" The LORD said, \"They will surrender you.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then David and his men, which were about six hundred, arose and departed out of Keilah, and went whithersoever they could go. And it was told Saul that David was escaped from Keilah; and he forbare to go forth.",
+      "web": "Then David and his men, who were about six hundred, arose and departed out of Keilah, and went wherever they could go. Saul was told that David was escaped from Keilah; and he gave up going there.",
+      "ct": "So David and his men — about 600 of them — left Keilah and kept moving from place to place. When Saul heard that David had escaped from Keilah, he called off the attack."
+    },
+    {
+      "verse": 14,
+      "kjv": "And David abode in the wilderness in strong holds, and remained in a mountain in the wilderness of Ziph. And Saul sought him every day, but God delivered him not into his hand.",
+      "web": "David stayed in the wilderness in the strongholds, and remained in the hill country in the wilderness of Ziph. Saul sought him every day, but God didn’t deliver him into his hand.",
+      "ct": "David stayed in the wilderness, hiding in strongholds and in the hill country of the wilderness of Ziph. Saul hunted for him every day, but God never let him find David."
+    },
+    {
+      "verse": 15,
+      "kjv": "And David saw that Saul was come out to seek his life: and David was in the wilderness of Ziph in a wood.",
+      "web": "David saw that Saul had come out to seek his life. David was in the wilderness of Ziph in the wood.",
+      "ct": "David knew that Saul had come out to kill him. At the time, David was in the wilderness of Ziph, hiding in the woods."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Jonathan Saul’s son arose, and went to David into the wood, and strengthened his hand in God.",
+      "web": "Jonathan, Saul’s son, arose, and went to David into the woods, and strengthened his hand in God.",
+      "ct": "Jonathan, Saul's son, went to find David in the woods and encouraged him to stay strong in God."
+    },
+    {
+      "verse": 17,
+      "kjv": "And he said unto him, Fear not: for the hand of Saul my father shall not find thee; and thou shalt be king over Israel, and I shall be next unto thee; and that also Saul my father knoweth.",
+      "web": "He said to him, “Don’t be afraid; for the hand of Saul my father won’t find you; and you will be king over Israel, and I will be next to you; and Saul my father knows that also.”",
+      "ct": "He told David, \"Don't be afraid. My father Saul will never get his hands on you. You are going to be king over Israel, and I'll be right beside you. Even my father knows this is true.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And they two made a covenant before the LORD: and David abode in the wood, and Jonathan went to his house.",
+      "web": "They both made a covenant before LORD. Then David stayed in the woods, and Jonathan went to his house.",
+      "ct": "The two of them made a covenant before the LORD. Then David stayed in the woods, and Jonathan went home."
+    },
+    {
+      "verse": 19,
+      "kjv": "Then came up the Ziphites to Saul to Gibeah, saying, Doth not David hide himself with us in strong holds in the wood, in the hill of Hachilah, which is on the south of Jeshimon?",
+      "web": "Then the Ziphites came up to Saul to Gibeah, saying, “Doesn’t David hide himself with us in the strongholds in the woods, in the hill of Hachilah, which is on the south of the desert?",
+      "ct": "The Ziphites went up to Saul at Gibeah and said, \"David is hiding among us in the strongholds in the woods, on the hill of Hachilah, south of Jeshimon.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "Now therefore, O king, come down according to all the desire of thy soul to come down; and our part shall be to deliver him into the king’s hand.",
+      "web": "Now therefore, O king, come down. According to all the desire of your soul to come down; and our part will be to deliver him up into the king’s hand.”",
+      "ct": "\"So come down whenever you're ready, O king — come as soon as you wish. Our job will be to hand him over to you.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Saul said, Blessed be ye of the LORD; for ye have compassion on me.",
+      "web": "Saul said, “You are blessed by LORD; for you have had compassion on me.",
+      "ct": "Saul replied, \"May the LORD bless you for showing me this kindness.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "Go, I pray you, prepare yet, and know and see his place where his haunt is, and who hath seen him there: for it is told me that he dealeth very subtilly.",
+      "web": "Please go make yet more sure, and know and see his place where his haunt is, and who has seen him there; for I have been told that he is very cunning.",
+      "ct": "\"Go and do more scouting. Find out exactly where he stays and who has spotted him there, because I've been told he's extremely clever.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "See therefore, and take knowledge of all the lurking places where he hideth himself, and come ye again to me with the certainty, and I will go with you: and it shall come to pass, if he be in the land, that I will search him out throughout all the thousands of Judah.",
+      "web": "See therefore, and take knowledge of all the lurking places where he hides himself, and come again to me with certainty, and I will go with you. It shall happen, if he is in the land, that I will search him out among all the thousands of Judah.”",
+      "ct": "\"Map out every hiding place he uses, then come back to me with solid information. Once I know for sure, I'll go with you. If he's anywhere in the land, I will track him down, even if I have to search every corner of Judah.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And they arose, and went to Ziph before Saul: but David and his men were in the wilderness of Maon, in the plain on the south of Jeshimon.",
+      "web": "They arose, and went to Ziph before Saul: but David and his men were in the wilderness of Maon, in the Arabah on the south of the desert.",
+      "ct": "The Ziphites headed back to Ziph ahead of Saul. Meanwhile, David and his men had moved to the wilderness of Maon, in the open land south of Jeshimon."
+    },
+    {
+      "verse": 25,
+      "kjv": "Saul also and his men went to seek him. And they told David: wherefore he came down into a rock, and abode in the wilderness of Maon. And when Saul heard that, he pursued after David in the wilderness of Maon.",
+      "web": "Saul and his men went to seek him. When David was told, he went down to the rock, and stayed in the wilderness of Maon. When Saul heard that, he pursued David in the wilderness of Maon.",
+      "ct": "Saul and his men set out to find David. When David got word of it, he moved down to a rocky area and stayed in the wilderness of Maon. As soon as Saul heard this, he chased David into the wilderness of Maon."
+    },
+    {
+      "verse": 26,
+      "kjv": "And Saul went on this side of the mountain, and David and his men on that side of the mountain: and David made haste to get away for fear of Saul; for Saul and his men compassed David and his men round about to take them.",
+      "web": "Saul went on this side of the mountain, and David and his men on that side of the mountain; and David hurried to get away for fear of Saul; for Saul and his men surrounded David and his men to take them.",
+      "ct": "Saul was moving along one side of the mountain while David and his men were on the other side. David was rushing to get away, because Saul's forces were closing in, surrounding David and his men to capture them."
+    },
+    {
+      "verse": 27,
+      "kjv": "But there came a messenger unto Saul, saying, Haste thee, and come; for the Philistines have invaded the land.",
+      "web": "But a messenger came to Saul, saying, “Hurry and come; for the Philistines have made a raid on the land!”",
+      "ct": "But just then, a messenger reached Saul with urgent news: \"Come quickly! The Philistines have invaded the land!\""
+    },
+    {
+      "verse": 28,
+      "kjv": "Wherefore Saul returned from pursuing after David, and went against the Philistines: therefore they called that place Selahammahlekoth.",
+      "web": "So Saul returned from pursuing David, and went against the Philistines. Therefore they called that place Sela Hammahlekoth.",
+      "ct": "So Saul broke off his pursuit of David and went to fight the Philistines. That's why the place was called Sela Hammahlekoth."
+    },
+    {
+      "verse": 29,
+      "kjv": "And David went up from thence, and dwelt in strong holds at Engedi.",
+      "web": "David went up from there, and lived in the strongholds of En Gedi.",
+      "ct": "David left there and went to live in the strongholds at En Gedi."
+    }
+  ]
+}

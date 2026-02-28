@@ -1,0 +1,191 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 18,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:44:45.776Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, when he had made an end of speaking unto Saul, that the soul of Jonathan was knit with the soul of David, and Jonathan loved him as his own soul.",
+      "web": "When he had finished speaking to Saul, the soul of Jonathan was knit with the soul of David, and Jonathan loved him as his own soul.",
+      "ct": "When David finished speaking with Saul, something deep happened — Jonathan's soul became bound to David's soul. Jonathan loved David as much as he loved himself."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Saul took him that day, and would let him go no more home to his father’s house.",
+      "web": "Saul took him that day, and wouldn’t let him go home to his father’s house any more.",
+      "ct": "From that day on, Saul kept David with him and wouldn't let him go back to his father's house."
+    },
+    {
+      "verse": 3,
+      "kjv": "Then Jonathan and David made a covenant, because he loved him as his own soul.",
+      "web": "Then Jonathan and David made a covenant, because he loved him as his own soul.",
+      "ct": "Jonathan made a covenant with David because he loved him as much as he loved himself."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Jonathan stripped himself of the robe that was upon him, and gave it to David, and his garments, even to his sword, and to his bow, and to his girdle.",
+      "web": "Jonathan stripped himself of the robe that was on him, and gave it to David, and his clothing, even including his sword, his bow, and his sash.",
+      "ct": "Jonathan took off the robe he was wearing and gave it to David, along with his other clothing, his sword, his bow, and his belt."
+    },
+    {
+      "verse": 5,
+      "kjv": "And David went out whithersoever Saul sent him, and behaved himself wisely: and Saul set him over the men of war, and he was accepted in the sight of all the people, and also in the sight of Saul’s servants.",
+      "web": "David went out wherever Saul sent him, and behaved himself wisely; and Saul set him over the men of war. It was good in the sight of all the people, and also in the sight of Saul’s servants.",
+      "ct": "David succeeded at every mission Saul gave him and handled himself wisely. So Saul put him in command of his soldiers, and everyone approved — both the people and Saul's own officials."
+    },
+    {
+      "verse": 6,
+      "kjv": "And it came to pass as they came, when David was returned from the slaughter of the Philistine, that the women came out of all cities of Israel, singing and dancing, to meet king Saul, with tabrets, with joy, and with instruments of musick.",
+      "web": "As they came, when David returned from the slaughter of the Philistine, the women came out of all the cities of Israel, singing and dancing, to meet king Saul, with tambourines, with joy, and with instruments of music.",
+      "ct": "When the army returned home after David killed the Philistine, women came out from every town in Israel to greet King Saul, singing and dancing with tambourines, celebration, and musical instruments."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the women answered one another as they played, and said, Saul hath slain his thousands, and David his ten thousands.",
+      "web": "The women sang to one another as they played, and said, “Saul has slain his thousands, and David his ten thousands.”",
+      "ct": "As they played and sang back and forth to each other, the women chanted, \"Saul has killed his thousands, and David his 10 thousands!\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And Saul was very wroth, and the saying displeased him; and he said, They have ascribed unto David ten thousands, and to me they have ascribed but thousands: and what can he have more but the kingdom?",
+      "web": "Saul was very angry, and this saying displeased him. He said, “They have creditd David with ten thousands, and they have only credited me with thousands. What can he have more but the kingdom?”",
+      "ct": "This made Saul furious. He fumed, \"They're giving David credit for 10 thousands but only giving me thousands! What's left for him but the kingdom itself?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Saul eyed David from that day and forward.",
+      "web": "Saul watched David from that day and forward.",
+      "ct": "From that day on, Saul kept a jealous eye on David."
+    },
+    {
+      "verse": 10,
+      "kjv": "And it came to pass on the morrow, that the evil spirit from God came upon Saul, and he prophesied in the midst of the house: and David played with his hand, as at other times: and there was a javelin in Saul’s hand.",
+      "web": "On the next day, an evil spirit from God came mightily on Saul, and he prophesied in the middle of the house. David played with his hand, as he did day by day. Saul had his spear in his hand;",
+      "ct": "The next day, an evil spirit from God came powerfully over Saul, and he began raving inside the house. David was playing the harp as he usually did, and Saul had a spear in his hand."
+    },
+    {
+      "verse": 11,
+      "kjv": "And Saul cast the javelin; for he said, I will smite David even to the wall with it. And David avoided out of his presence twice.",
+      "web": "and Saul threw the spear, for he said, “I will pin David to the wall!” David escaped from his presence twice.",
+      "ct": "Saul hurled the spear, thinking, \"I'll pin David to the wall!\" But David dodged him — twice."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Saul was afraid of David, because the LORD was with him, and was departed from Saul.",
+      "web": "Saul was afraid of David, because LORD was with him, and had departed from Saul.",
+      "ct": "Saul became afraid of David because the LORD was with David but had departed from Saul."
+    },
+    {
+      "verse": 13,
+      "kjv": "Therefore Saul removed him from him, and made him his captain over a thousand; and he went out and came in before the people.",
+      "web": "Therefore Saul removed him from his presence, and made him his captain over a thousand; and he went out and came in before the people.",
+      "ct": "So Saul sent David away from his side and made him a commander over 1,000 soldiers. David led his men out to battle and back again in front of the people."
+    },
+    {
+      "verse": 14,
+      "kjv": "And David behaved himself wisely in all his ways; and the LORD was with him.",
+      "web": "David behaved himself wisely in all his ways; and LORD was with him.",
+      "ct": "David handled everything wisely, and the LORD was with him."
+    },
+    {
+      "verse": 15,
+      "kjv": "Wherefore when Saul saw that he behaved himself very wisely, he was afraid of him.",
+      "web": "When Saul saw that he behaved himself very wisely, he stood in awe of him.",
+      "ct": "When Saul saw how wisely David acted, his fear of him only grew deeper."
+    },
+    {
+      "verse": 16,
+      "kjv": "But all Israel and Judah loved David, because he went out and came in before them.",
+      "web": "But all Israel and Judah loved David; for he went out and came in before them.",
+      "ct": "But all of Israel and Judah loved David because he led them so well."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Saul said to David, Behold my elder daughter Merab, her will I give thee to wife: only be thou valiant for me, and fight the LORD’s battles. For Saul said, Let not mine hand be upon him, but let the hand of the Philistines be upon him.",
+      "web": "Saul said to David, “Behold, my elder daughter Merab, I will give her to you as wife. Only be valiant for me, and fight LORD’s battles.” For Saul said, “Don’t let my hand be on him, but let the hand of the Philistines be on him.”",
+      "ct": "Saul told David, \"Here — I'll give you my oldest daughter Merab as your wife. Just be brave for me and fight the LORD's battles.\" But privately, Saul was thinking, \"I won't have to kill him myself. The Philistines will do it for me.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And David said unto Saul, Who am I? and what is my life, or my father’s family in Israel, that I should be son in law to the king?",
+      "web": "David said to Saul, “Who am I, and what is my life, or my father’s family in Israel, that I should be son-in-law to the king?”",
+      "ct": "David replied, \"Who am I? What is my family's standing in Israel that I should become the king's son-in-law?\""
+    },
+    {
+      "verse": 19,
+      "kjv": "But it came to pass at the time when Merab Saul’s daughter should have been given to David, that she was given unto Adriel the Meholathite to wife.",
+      "web": "But at the time when Merab, Saul’s daughter, should have been given to David, she was given to Adriel the Meholathite as wife.",
+      "ct": "But when the time came for Merab to be given to David, Saul gave her instead to Adriel the Meholathite as his wife."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Michal Saul’s daughter loved David: and they told Saul, and the thing pleased him.",
+      "web": "Michal, Saul’s daughter, loved David; and they told Saul, and the thing pleased him.",
+      "ct": "Now Saul's other daughter, Michal, had fallen in love with David. When Saul heard about it, he was pleased."
+    },
+    {
+      "verse": 21,
+      "kjv": "And Saul said, I will give him her, that she may be a snare to him, and that the hand of the Philistines may be against him. Wherefore Saul said to David, Thou shalt this day be my son in law in the one of the twain.",
+      "web": "Saul said, I will give her to him, that she may be a snare to him, and that the hand of the Philistines may be against him. Therefore Saul said to David, “You shall today be my son-in-law a second time.”",
+      "ct": "Saul thought, \"I'll give her to him — she'll be the trap that leads him into the hands of the Philistines.\" So Saul said to David, \"Today you have a second chance to become my son-in-law.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Saul commanded his servants, saying, Commune with David secretly, and say, Behold, the king hath delight in thee, and all his servants love thee: now therefore be the king’s son in law.",
+      "web": "Saul commanded his servants, “Talk with David secretly, and say, ‘Behold, the king has delight in you, and all his servants love you. Now therefore be the king’s son-in-law.’ ”",
+      "ct": "Then Saul instructed his servants, \"Talk to David privately and tell him, 'The king is fond of you, and all his servants like you. You should become the king's son-in-law.'\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And Saul’s servants spake those words in the ears of David. And David said, Seemeth it to you a light thing to be a king’s son in law, seeing that I am a poor man, and lightly esteemed?",
+      "web": "Saul’s servants spoke those words in the ears of David. David said, “Does it seem to you a light thing to be the king’s son-in-law, since I am a poor man, and little known?”",
+      "ct": "Saul's servants passed along these words to David. But David said, \"Do you think becoming the king's son-in-law is a small thing? I'm just a poor man with no reputation.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And the servants of Saul told him, saying, On this manner spake David.",
+      "web": "The servants of Saul told him, saying, “David spoke like this.”",
+      "ct": "Saul's servants reported back to him exactly what David had said."
+    },
+    {
+      "verse": 25,
+      "kjv": "And Saul said, Thus shall ye say to David, The king desireth not any dowry, but an hundred foreskins of the Philistines, to be avenged of the king’s enemies. But Saul thought to make David fall by the hand of the Philistines.",
+      "web": "Saul said, “Tell David, ‘The king desires no dowry except one hundred foreskins of the Philistines, to be avenged of the king’s enemies.’ ” Now Saul thought he would make David fall by the hand of the Philistines.",
+      "ct": "Saul told them, \"Say this to David: 'The king doesn't want any bride price — just 100 foreskins from the Philistines, as revenge against his enemies.'\" Saul's real plan was for David to die at the hands of the Philistines."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when his servants told David these words, it pleased David well to be the king’s son in law: and the days were not expired.",
+      "web": "When his servants told David these words, it pleased David well to be the king’s son-in-law. Before the deadline,",
+      "ct": "When the servants relayed this to David, he was happy with the arrangement. Before the deadline had passed,"
+    },
+    {
+      "verse": 27,
+      "kjv": "Wherefore David arose and went, he and his men, and slew of the Philistines two hundred men; and David brought their foreskins, and they gave them in full tale to the king, that he might be the king’s son in law. And Saul gave him Michal his daughter to wife.",
+      "web": "David arose and went, he and his men, and killed two hundred men of the Philistines. Then David brought their foreskins, and they gave them in full number to the king, that he might be the king’s son-in-law. Then Saul gave him Michal his daughter as wife.",
+      "ct": "David and his men went out and killed 200 Philistines. David brought back their foreskins and presented the full count to the king so he could become the king's son-in-law. Saul then gave him his daughter Michal as his wife."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Saul saw and knew that the LORD was with David, and that Michal Saul’s daughter loved him.",
+      "web": "Saul saw and knew that LORD was with David; and Michal, Saul’s daughter, loved him.",
+      "ct": "Saul could see clearly that the LORD was with David, and that his own daughter Michal loved him."
+    },
+    {
+      "verse": 29,
+      "kjv": "And Saul was yet the more afraid of David; and Saul became David’s enemy continually.",
+      "web": "Saul was even more afraid of David; and Saul was David’s enemy continually.",
+      "ct": "This made Saul even more afraid of David, and from then on, Saul was David's enemy for good."
+    },
+    {
+      "verse": 30,
+      "kjv": "Then the princes of the Philistines went forth: and it came to pass, after they went forth, that David behaved himself more wisely than all the servants of Saul; so that his name was much set by.",
+      "web": "Then the princes of the Philistines went out; and as often as they went out, David behaved himself more wisely than all the servants of Saul, so that his name was highly esteemed.",
+      "ct": "Whenever the Philistine commanders came out to fight, David outperformed every one of Saul's officers. His reputation grew, and his name became widely honored."
+    }
+  ]
+}

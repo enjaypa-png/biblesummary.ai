@@ -10,6 +10,7 @@ import { useExplanationCache, getVerseId } from "@/lib/verseStore";
 import VerseActionBar from "@/components/VerseActionBar";
 import ExplainPaywall from "@/components/ExplainPaywall";
 import UpgradeNudge from "@/components/UpgradeNudge";
+import InstallPrompt from "@/components/InstallPrompt";
 import { HIGHLIGHT_COLORS, getHighlightBg } from "@/lib/highlightColors";
 
 interface Verse {
@@ -741,6 +742,7 @@ export default function ChapterReaderClient({
   return (
     <>
     <UpgradeNudge />
+    <InstallPrompt />
     <div className="min-h-screen transition-colors duration-300" style={{ backgroundColor: theme.background }}>
       {/* ── Header ── */}
       <header

@@ -1,0 +1,161 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 12,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:41:23.169Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Samuel said unto all Israel, Behold, I have hearkened unto your voice in all that ye said unto me, and have made a king over you.",
+      "web": "Samuel said to all Israel, “Behold, I have listened to your voice in all that you said to me, and have made a king over you.",
+      "ct": "Samuel addressed all of Israel: \"Look — I've listened to everything you asked of me, and I've given you a king.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And now, behold, the king walketh before you: and I am old and grayheaded; and, behold, my sons are with you: and I have walked before you from my childhood unto this day.",
+      "web": "Now, behold, the king walks before you. I am old and gray-headed. Behold, my sons are with you. I have walked before you from my youth to this day.",
+      "ct": "\"Now your king stands before you as your leader. As for me, I'm old and gray, and my sons are here among you. I've served you faithfully from the time I was young until today.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Behold, here I am: witness against me before the LORD, and before his anointed: whose ox have I taken? or whose ass have I taken? or whom have I defrauded? whom have I oppressed? or of whose hand have I received any bribe to blind mine eyes therewith? and I will restore it you.",
+      "web": "Here I am. Witness against me before LORD, and before his anointed. Whose ox have I taken? Whose donkey have I taken? Whom have I defrauded? Whom have I oppressed? Of whose hand have I taken a bribe to make me blind my eyes? I will restore it to you.”",
+      "ct": "\"Here I stand. Bring any accusation against me before the LORD and before his anointed king. Whose ox have I stolen? Whose donkey have I taken? Have I cheated anyone? Have I oppressed anyone? Have I ever accepted a bribe to look the other way? If I have, I'll pay it back right now.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And they said, Thou hast not defrauded us, nor oppressed us, neither hast thou taken ought of any man’s hand.",
+      "web": "They said, “You have not defrauded us, nor oppressed us, neither have you taken anything from anyone’s hand.”",
+      "ct": "They answered, \"You've never cheated us or oppressed us, and you've never taken anything from anyone.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And he said unto them, The LORD is witness against you, and his anointed is witness this day, that ye have not found ought in my hand. And they answered, He is witness.",
+      "web": "He said to them, “LORD is witness against you, and his anointed is witness today, that you have not found anything in my hand.” They said, “He is witness.”",
+      "ct": "Samuel said to them, \"The LORD is a witness against you today, and his anointed king is a witness too — you've found nothing wrong in how I've led you.\" They replied, \"He is witness.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Samuel said unto the people, It is the LORD that advanced Moses and Aaron, and that brought your fathers up out of the land of Egypt.",
+      "web": "Samuel said to the people, “It is LORD who appointed Moses and Aaron, and that brought your fathers up out of the land of Egypt.",
+      "ct": "Then Samuel said to the people, \"It was the LORD who raised up Moses and Aaron and brought your ancestors out of Egypt.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Now therefore stand still, that I may reason with you before the LORD of all the righteous acts of the LORD, which he did to you and to your fathers.",
+      "web": "Now therefore stand still, that I may plead with you before LORD concerning all the righteous acts of LORD, which he did to you and to your fathers.",
+      "ct": "\"Now stand here, because I'm going to lay out before the LORD all the righteous things he has done for you and your ancestors.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "When Jacob was come into Egypt, and your fathers cried unto the LORD, then the LORD sent Moses and Aaron, which brought forth your fathers out of Egypt, and made them dwell in this place.",
+      "web": "“When Jacob had come into Egypt, and your fathers cried to LORD, then LORD sent Moses and Aaron, who brought your fathers out of Egypt, and made them to dwell in this place.",
+      "ct": "\"When Jacob's family went to Egypt and your ancestors cried out to the LORD for help, the LORD sent Moses and Aaron. They led your ancestors out of Egypt and settled them in this land.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And when they forgat the LORD their God, he sold them into the hand of Sisera, captain of the host of Hazor, and into the hand of the Philistines, and into the hand of the king of Moab, and they fought against them.",
+      "web": "“But they forgot LORD their God; and he sold them into the hand of Sisera, captain of the army of Hazor, and into the hand of the Philistines, and into the hand of the king of Moab; and they fought against them.",
+      "ct": "\"But they forgot the LORD their God. So he handed them over to Sisera, the commander of Hazor's army, and to the Philistines, and to the king of Moab — all of whom attacked them.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And they cried unto the LORD, and said, We have sinned, because we have forsaken the LORD, and have served Baalim and Ashtaroth: but now deliver us out of the hand of our enemies, and we will serve thee.",
+      "web": "They cried to LORD, and said, ‘We have sinned, because we have forsaken LORD, and have served the Baals and the Ashtaroth: but now deliver us out of the hand of our enemies, and we will serve you.’",
+      "ct": "\"Then they cried out to the LORD and said, 'We have sinned! We abandoned the LORD and worshiped the Baals and the Ashtaroth. But rescue us from our enemies, and we will serve you.'\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And the LORD sent Jerubbaal, and Bedan, and Jephthah, and Samuel, and delivered you out of the hand of your enemies on every side, and ye dwelled safe.",
+      "web": "LORD sent Jerubbaal, Bedan, Jephthah, and Samuel, and delivered you out of the hand of your enemies on every side; and you lived in safety.",
+      "ct": "\"So the LORD sent Jerubbaal, Bedan, Jephthah, and Samuel. He rescued you from your enemies on every side, and you lived in safety.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And when ye saw that Nahash the king of the children of Ammon came against you, ye said unto me, Nay; but a king shall reign over us: when the LORD your God was your king.",
+      "web": "“When you saw that Nahash the king of the children of Ammon came against you, you said to me, ‘No, but a king shall reign over us;’ when LORD your God was your king.",
+      "ct": "\"But when you saw Nahash, king of the Ammonites, marching against you, you said to me, 'No — we want a king to rule over us!' And this was while the LORD your God was already your king.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Now therefore behold the king whom ye have chosen, and whom ye have desired! and, behold, the LORD hath set a king over you.",
+      "web": "Now therefore see the king whom you have chosen, and whom you have asked for. Behold, LORD has set a king over you.",
+      "ct": "\"So here he is — the king you chose, the king you demanded. The LORD has placed a king over you.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "If ye will fear the LORD, and serve him, and obey his voice, and not rebel against the commandment of the LORD, then shall both ye and also the king that reigneth over you continue following the LORD your God:",
+      "web": "If you will fear LORD, and serve him, and listen to his voice, and not rebel against the commandment of LORD, then both you and also the king who reigns over you are followers of LORD your God.",
+      "ct": "\"If you fear the LORD, serve him, obey him, and don't rebel against his commands, then things will go well — both for you and for the king who rules over you — as you follow the LORD your God.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "But if ye will not obey the voice of the LORD, but rebel against the commandment of the LORD, then shall the hand of the LORD be against you, as it was against your fathers.",
+      "web": "But if you will not listen to LORD’s voice, but rebel against the commandment of LORD, then LORD’s hand will be against you, as it was against your fathers.",
+      "ct": "\"But if you refuse to obey the LORD and rebel against his commands, then the LORD's hand will be against you, just as it was against your ancestors.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Now therefore stand and see this great thing, which the LORD will do before your eyes.",
+      "web": "“Now therefore stand still and see this great thing, which LORD will do before your eyes.",
+      "ct": "\"Now stand here and watch the incredible thing the LORD is about to do right before your eyes.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Is it not wheat harvest to day? I will call unto the LORD, and he shall send thunder and rain; that ye may perceive and see that your wickedness is great, which ye have done in the sight of the LORD, in asking you a king.",
+      "web": "Isn’t it wheat harvest today? I will call to LORD, that he may send thunder and rain; and you will know and see that your wickedness is great, which you have done in LORD’s sight, in asking for a king.”",
+      "ct": "\"It's wheat harvest season right now, isn't it? I'm going to call on the LORD, and he will send thunder and rain. Then you'll understand just how wicked it was — in the LORD's eyes — to demand a king.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "So Samuel called unto the LORD; and the LORD sent thunder and rain that day: and all the people greatly feared the LORD and Samuel.",
+      "web": "So Samuel called to LORD; and LORD sent thunder and rain that day. Then all the people greatly feared LORD and Samuel.",
+      "ct": "Samuel called on the LORD, and that very day the LORD sent thunder and rain. All the people were terrified of the LORD and of Samuel."
+    },
+    {
+      "verse": 19,
+      "kjv": "And all the people said unto Samuel, Pray for thy servants unto the LORD thy God, that we die not: for we have added unto all our sins this evil, to ask us a king.",
+      "web": "All the people said to Samuel, “Pray for your servants to LORD your God, that we not die; for we have added to all our sins this evil, to ask for a king.”",
+      "ct": "The people begged Samuel, \"Pray to the LORD your God for us so we don't die! We realize now that on top of all our other sins, we added this evil of demanding a king.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Samuel said unto the people, Fear not: ye have done all this wickedness: yet turn not aside from following the LORD, but serve the LORD with all your heart;",
+      "web": "Samuel said to the people, “Don’t be afraid. You have indeed done all this evil; yet don’t turn away from following LORD, but serve LORD with all your heart.",
+      "ct": "Samuel told the people, \"Don't be afraid. Yes, you've done all this evil. But don't turn away from the LORD. Serve the LORD with all your heart.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And turn ye not aside: for then should ye go after vain things, which cannot profit nor deliver; for they are vain.",
+      "web": "Don’t turn away to go after vain things which can’t profit or deliver, for they are vain.",
+      "ct": "\"Don't turn aside to chase after worthless idols. They can't help you and they can't save you — they're nothing.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "For the LORD will not forsake his people for his great name’s sake: because it hath pleased the LORD to make you his people.",
+      "web": "For LORD will not forsake his people for his great name’s sake, because it has pleased LORD to make you a people for himself.",
+      "ct": "\"The LORD will not abandon his people, because for the sake of his great name, it pleased the LORD to make you his own.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Moreover as for me, God forbid that I should sin against the LORD in ceasing to pray for you: but I will teach you the good and the right way:",
+      "web": "Moreover as for me, far be it from me that I should sin against LORD in ceasing to pray for you: but I will instruct you in the good and the right way.",
+      "ct": "\"As for me, I would never sin against the LORD by stopping my prayers for you. I will keep teaching you what is good and right.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Only fear the LORD, and serve him in truth with all your heart: for consider how great things he hath done for you.",
+      "web": "Only fear LORD, and serve him in truth with all your heart; for consider what great things he has done for you.",
+      "ct": "\"Just fear the LORD and serve him faithfully with all your heart. Think about the incredible things he has done for you.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "But if ye shall still do wickedly, ye shall be consumed, both ye and your king.",
+      "web": "But if you keep doing evil, you will be consumed, both you and your king.”",
+      "ct": "\"But if you persist in doing evil, both you and your king will be destroyed.\""
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 20,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:45:43.629Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And David fled from Naioth in Ramah, and came and said before Jonathan, What have I done? what is mine iniquity? and what is my sin before thy father, that he seeketh my life?",
+      "web": "David fled from Naioth in Ramah, and came and said before Jonathan, “What have I done? What is my iniquity? What is my sin before your father, that he seeks my life?”",
+      "ct": "David fled from Naioth in Ramah and went straight to Jonathan. \"What have I done?\" he asked. \"What crime have I committed? What sin have I committed against your father that he's trying to kill me?\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And he said unto him, God forbid; thou shalt not die: behold, my father will do nothing either great or small, but that he will shew it me: and why should my father hide this thing from me? it is not so.",
+      "web": "He said to him, “Far from it; you will not die. Behold, my father does nothing either great or small, but that he discloses it to me. Why would my father hide this thing from me? It is not so.”",
+      "ct": "\"That's not true!\" Jonathan replied. \"You're not going to die. My father doesn't do anything — big or small — without telling me first. Why would he hide something like this from me? It can't be right.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And David sware moreover, and said, Thy father certainly knoweth that I have found grace in thine eyes; and he saith, Let not Jonathan know this, lest he be grieved: but truly as the LORD liveth, and as thy soul liveth, there is but a step between me and death.",
+      "web": "David swore moreover, and said, “Your father knows well that I have found favor in your eyes; and he says, ‘Don’t let Jonathan know this, lest he be grieved;’ but truly as LORD lives, and as your soul lives, there is but a step between me and death.”",
+      "ct": "But David swore an oath and said, \"Your father knows very well that you care about me, so he's thinking, 'Don't let Jonathan find out, or he'll be upset.' But I swear — as surely as the LORD lives and as surely as you live — I am one step away from death.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then said Jonathan unto David, Whatsoever thy soul desireth, I will even do it for thee.",
+      "web": "Then Jonathan said to David, “Whatever your soul desires, I will even do it for you.”",
+      "ct": "Jonathan said to David, \"Whatever you need me to do, I'll do it.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And David said unto Jonathan, Behold, to morrow is the new moon, and I should not fail to sit with the king at meat: but let me go, that I may hide myself in the field unto the third day at even.",
+      "web": "David said to Jonathan, “Behold, tomorrow is the new moon, and I should not fail to dine with the king; but let me go, that I may hide myself in the field to the third day at evening.",
+      "ct": "David said to Jonathan, \"Tomorrow is the New Moon festival, and I'm supposed to eat at the king's table. But let me go hide in the field until the evening of the 3rd day."
+    },
+    {
+      "verse": 6,
+      "kjv": "If thy father at all miss me, then say, David earnestly asked leave of me that he might run to Bethlehem his city: for there is a yearly sacrifice there for all the family.",
+      "web": "If your father misses me at all, then say, ‘David earnestly asked leave of me that he might run to Bethlehem his city; for it is the yearly sacrifice there for all the family.’",
+      "ct": "If your father notices I'm missing, tell him, 'David begged me to let him go to Bethlehem, his hometown, because his whole family is holding their annual sacrifice there.'"
+    },
+    {
+      "verse": 7,
+      "kjv": "If he say thus, It is well; thy servant shall have peace: but if he be very wroth, then be sure that evil is determined by him.",
+      "web": "If he says, ‘It is well,’ your servant shall have peace; but if he is angry, then know that evil is determined by him.",
+      "ct": "If he says, 'That's fine,' then I'm safe. But if he flies into a rage, you'll know he's made up his mind to harm me."
+    },
+    {
+      "verse": 8,
+      "kjv": "Therefore thou shalt deal kindly with thy servant; for thou hast brought thy servant into a covenant of the LORD with thee: notwithstanding, if there be in me iniquity, slay me thyself; for why shouldest thou bring me to thy father?",
+      "web": "Therefore deal kindly with your servant; for you have brought your servant into a covenant of LORD with you; but if there is iniquity in me, kill me yourself; for why should you bring me to your father?”",
+      "ct": "Please show this kindness to me, your servant, because you and I made a covenant before the LORD. But if I'm guilty of something, then kill me yourself. Why bother dragging me to your father?\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Jonathan said, Far be it from thee: for if I knew certainly that evil were determined by my father to come upon thee, then would not I tell it thee?",
+      "web": "Jonathan said, “Far be it from you; for if I should at all know that evil were determined by my father to come on you, then wouldn’t I tell you that?”",
+      "ct": "\"Don't even say that!\" Jonathan replied. \"If I found out for certain that my father was planning to harm you, wouldn't I tell you right away?\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then said David to Jonathan, Who shall tell me? or what if thy father answer thee roughly?",
+      "web": "Then David said to Jonathan, “Who will tell me if your father answers you roughly?”",
+      "ct": "David asked, \"But who will let me know if your father responds angrily?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Jonathan said unto David, Come, and let us go out into the field. And they went out both of them into the field.",
+      "web": "Jonathan said to David, “Come! Let’s go out into the field.” They both went out into the field.",
+      "ct": "Jonathan said to David, \"Come on, let's go out to the field.\" So the two of them walked out into the open field together."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Jonathan said unto David, O LORD God of Israel, when I have sounded my father about to morrow any time, or the third day, and, behold, if there be good toward David, and I then send not unto thee, and shew it thee;",
+      "web": "Jonathan said to David, “By LORD, the God of Israel, when I have sounded my father about this time tomorrow, or the third day, behold, if there is good toward David, won’t I then send to you, and disclose it to you?",
+      "ct": "Jonathan said to David, \"I swear before the LORD, the God of Israel — by this time tomorrow or the day after, I will find out how my father feels about you. If things look good for you, I will absolutely send word and let you know."
+    },
+    {
+      "verse": 13,
+      "kjv": "The LORD do so and much more to Jonathan: but if it please my father to do thee evil, then I will shew it thee, and send thee away, that thou mayest go in peace: and the LORD be with thee, as he hath been with my father.",
+      "web": "LORD do so to Jonathan, and more also, should it please my father to do you evil, if I don’t disclose it to you, and send you away, that you may go in peace. May LORD be with you, as he has been with my father.",
+      "ct": "But if my father intends to harm you, may the LORD punish me severely if I don't warn you and send you safely on your way. May the LORD be with you the way he was with my father."
+    },
+    {
+      "verse": 14,
+      "kjv": "And thou shalt not only while yet I live shew me the kindness of the LORD, that I die not:",
+      "web": "You shall not only show me the loving kindness of LORD while I still live, that I not die;",
+      "ct": "And while I'm still alive, show me the same faithful kindness the LORD shows, so that I won't be killed."
+    },
+    {
+      "verse": 15,
+      "kjv": "But also thou shalt not cut off thy kindness from my house for ever: no, not when the LORD hath cut off the enemies of David every one from the face of the earth.",
+      "web": "but you shall also not cut off your kindness from my house forever; no, not when LORD has cut off every one of the enemies of David from the surface of the earth.”",
+      "ct": "And never cut off your kindness from my family — not even after the LORD has wiped out every one of your enemies from the face of the earth.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "So Jonathan made a covenant with the house of David, saying, Let the LORD even require it at the hand of David’s enemies.",
+      "web": "So Jonathan made a covenant with David’s house, saying, “LORD will require it at the hand of David’s enemies.”",
+      "ct": "So Jonathan made a covenant with the house of David, saying, \"May the LORD hold David's enemies accountable.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And Jonathan caused David to swear again, because he loved him: for he loved him as he loved his own soul.",
+      "web": "Jonathan caused David to swear again, for the love that he had to him; for he loved him as he loved his own soul.",
+      "ct": "Then Jonathan made David swear again by his love for him, because Jonathan loved David as much as he loved his own soul."
+    },
+    {
+      "verse": 18,
+      "kjv": "Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty.",
+      "web": "Then Jonathan said to him, “Tomorrow is the new moon, and you will be missed, because your seat will be empty.",
+      "ct": "Jonathan told him, \"Tomorrow is the New Moon festival, and your empty seat will be noticed."
+    },
+    {
+      "verse": 19,
+      "kjv": "And when thou hast stayed three days, then thou shalt go down quickly, and come to the place where thou didst hide thyself when the business was in hand, and shalt remain by the stone Ezel.",
+      "web": "When you have stayed three days, go down quickly, and come to the place where you hid yourself when this started, and remain by the stone Ezel.",
+      "ct": "On the 3rd day, go quickly to the place where you hid before when all this started, and wait by the stone of Ezel."
+    },
+    {
+      "verse": 20,
+      "kjv": "And I will shoot three arrows on the side thereof, as though I shot at a mark.",
+      "web": "I will shoot three arrows on its side, as though I shot at a mark.",
+      "ct": "I'll shoot 3 arrows to the side of it, as if I were shooting at a target."
+    },
+    {
+      "verse": 21,
+      "kjv": "And, behold, I will send a lad, saying, Go, find out the arrows. If I expressly say unto the lad, Behold, the arrows are on this side of thee, take them; then come thou: for there is peace to thee, and no hurt; as the LORD liveth.",
+      "web": "Behold, I will send the boy, saying, ‘Go, find the arrows!’ If I tell the boy, ‘Behold, the arrows are on this side of you. Take them;’ then come; for there is peace to you and no danger, as LORD lives.",
+      "ct": "Then I'll send a boy to go find the arrows. If I call out to him, 'Look, the arrows are on this side of you — grab them!' — then come out, because as surely as the LORD lives, you are safe and there's no danger."
+    },
+    {
+      "verse": 22,
+      "kjv": "But if I say thus unto the young man, Behold, the arrows are beyond thee; go thy way: for the LORD hath sent thee away.",
+      "web": "But if I say this to the boy, ‘Behold, the arrows are beyond you;’ then go your way; for LORD has sent you away.",
+      "ct": "But if I call out to the boy, 'Look, the arrows are past you!' — then go, because the LORD is sending you away."
+    },
+    {
+      "verse": 23,
+      "kjv": "And as touching the matter which thou and I have spoken of, behold, the LORD be between thee and me for ever.",
+      "web": "Concerning the matter which you and I have spoken of, behold, LORD is between you and me forever.”",
+      "ct": "As for the promise we've made to each other, the LORD stands as witness between you and me forever.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "So David hid himself in the field: and when the new moon was come, the king sat him down to eat meat.",
+      "web": "So David hid himself in the field. When the new moon had come, the king sat himself down to eat food.",
+      "ct": "So David hid in the field. When the New Moon festival arrived, the king sat down to eat."
+    },
+    {
+      "verse": 25,
+      "kjv": "And the king sat upon his seat, as at other times, even upon a seat by the wall: and Jonathan arose, and Abner sat by Saul’s side, and David’s place was empty.",
+      "web": "The king sat on his seat, as at other times, even on the seat by the wall; and Jonathan stood up, and Abner sat by Saul’s side, but David’s place was empty.",
+      "ct": "Saul took his usual seat by the wall. Jonathan stood up, and Abner sat beside Saul, but David's place was empty."
+    },
+    {
+      "verse": 26,
+      "kjv": "Nevertheless Saul spake not any thing that day: for he thought, Something hath befallen him, he is not clean; surely he is not clean.",
+      "web": "Nevertheless Saul didn’t say anything that day, for he thought, “Something has happened to him. He is not clean. Surely he is not clean.”",
+      "ct": "Saul didn't say anything about it that day. He figured, \"Something must have happened to him. He's probably ceremonially unclean — yes, that must be it.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And it came to pass on the morrow, which was the second day of the month, that David’s place was empty: and Saul said unto Jonathan his son, Wherefore cometh not the son of Jesse to meat, neither yesterday, nor to day?",
+      "web": "On the next day after the new moon, the second day, David’s place was empty. Saul said to Jonathan his son, “Why doesn’t the son of Jesse come to eat, either yesterday, or today?”",
+      "ct": "But on the 2nd day of the month, David's place was still empty. Saul asked his son Jonathan, \"Why hasn't Jesse's son come to the meal — not yesterday, not today?\""
+    },
+    {
+      "verse": 28,
+      "kjv": "And Jonathan answered Saul, David earnestly asked leave of me to go to Bethlehem:",
+      "web": "Jonathan answered Saul, “David earnestly asked permission of me to go to Bethlehem.",
+      "ct": "Jonathan answered Saul, \"David begged me to let him go to Bethlehem."
+    },
+    {
+      "verse": 29,
+      "kjv": "And he said, Let me go, I pray thee; for our family hath a sacrifice in the city; and my brother, he hath commanded me to be there: and now, if I have found favour in thine eyes, let me get away, I pray thee, and see my brethren. Therefore he cometh not unto the king’s table.",
+      "web": "He said, ‘Please let me go, for our family has a sacrifice in the city. My brother has commanded me to be there. Now, if I have found favor in your eyes, please let me go away and see my brothers.’ Therefore he has not come to the king’s table.”",
+      "ct": "He said, 'Please let me go. Our family is holding a sacrifice in the city, and my brother insisted I be there. If you'll do me this favor, please let me slip away and see my brothers.' That's why he hasn't come to the king's table.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "Then Saul’s anger was kindled against Jonathan, and he said unto him, Thou son of the perverse rebellious woman, do not I know that thou hast chosen the son of Jesse to thine own confusion, and unto the confusion of thy mother’s nakedness?",
+      "web": "Then Saul’s anger burned against Jonathan, and he said to him, “You son of a perverse rebellious woman, don’t I know that you have chosen the son of Jesse to your own shame, and to the shame of your mother’s nakedness?",
+      "ct": "Saul exploded with anger at Jonathan. \"You son of a perverse, rebellious woman!\" he shouted. \"Do you think I don't know you've sided with Jesse's son? You're bringing shame on yourself and on your own mother!"
+    },
+    {
+      "verse": 31,
+      "kjv": "For as long as the son of Jesse liveth upon the ground, thou shalt not be established, nor thy kingdom. Wherefore now send and fetch him unto me, for he shall surely die.",
+      "web": "For as long as the son of Jesse lives on the earth, you will not be established, nor will your kingdom. Therefore now send and bring him to me, for he shall surely die!”",
+      "ct": "As long as Jesse's son is alive, you will never be king — and neither will your kingdom be secure. Now send someone to bring him to me, because he's a dead man!\""
+    },
+    {
+      "verse": 32,
+      "kjv": "And Jonathan answered Saul his father, and said unto him, Wherefore shall he be slain? what hath he done?",
+      "web": "Jonathan answered Saul his father, and said to him, “Why should he be put to death? What has he done?”",
+      "ct": "Jonathan challenged his father: \"Why should he be killed? What has he done?\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And Saul cast a javelin at him to smite him: whereby Jonathan knew that it was determined of his father to slay David.",
+      "web": "Saul cast his spear at him to strike him. By this Jonathan knew that his father was determined to put David to death.",
+      "ct": "Saul hurled his spear at Jonathan to strike him down. At that moment, Jonathan knew for certain that his father was determined to kill David."
+    },
+    {
+      "verse": 34,
+      "kjv": "So Jonathan arose from the table in fierce anger, and did eat no meat the second day of the month: for he was grieved for David, because his father had done him shame.",
+      "web": "So Jonathan arose from the table in fierce anger, and ate no food the second day of the month; for he was grieved for David, because his father had treated him shamefully.",
+      "ct": "Jonathan stormed away from the table in a fury. He didn't eat anything that 2nd day of the month, because he was heartbroken over David and the way his father had treated him so shamefully."
+    },
+    {
+      "verse": 35,
+      "kjv": "And it came to pass in the morning, that Jonathan went out into the field at the time appointed with David, and a little lad with him.",
+      "web": "In the morning, Jonathan went out into the field at the time appointed with David, and a little boy with him.",
+      "ct": "The next morning, Jonathan went out to the field at the time he and David had agreed on, bringing a young boy with him."
+    },
+    {
+      "verse": 36,
+      "kjv": "And he said unto his lad, Run, find out now the arrows which I shoot. And as the lad ran, he shot an arrow beyond him.",
+      "web": "He said to his boy, “Run, find now the arrows which I shoot.” As the boy ran, he shot an arrow beyond him.",
+      "ct": "He told the boy, \"Run and find the arrows I shoot.\" As the boy ran, Jonathan shot an arrow past him."
+    },
+    {
+      "verse": 37,
+      "kjv": "And when the lad was come to the place of the arrow which Jonathan had shot, Jonathan cried after the lad, and said, Is not the arrow beyond thee?",
+      "web": "When the boy had come to the place of the arrow which Jonathan had shot, Jonathan cried after the boy, and said, “Isn’t the arrow beyond you?”",
+      "ct": "When the boy reached the spot where the arrow had landed, Jonathan shouted after him, \"Isn't the arrow past you?\""
+    },
+    {
+      "verse": 38,
+      "kjv": "And Jonathan cried after the lad, Make speed, haste, stay not. And Jonathan’s lad gathered up the arrows, and came to his master.",
+      "web": "Jonathan cried after the boy, “Go fast! Hurry! Don’t delay!” Jonathan’s boy gathered up the arrows, and came to his master.",
+      "ct": "Then Jonathan yelled, \"Hurry! Go fast! Don't stop!\" The boy picked up the arrows and brought them back to his master."
+    },
+    {
+      "verse": 39,
+      "kjv": "But the lad knew not any thing: only Jonathan and David knew the matter.",
+      "web": "But the boy didn’t know anything. Only Jonathan and David knew the matter.",
+      "ct": "The boy had no idea what was going on. Only Jonathan and David understood the meaning behind it."
+    },
+    {
+      "verse": 40,
+      "kjv": "And Jonathan gave his artillery unto his lad, and said unto him, Go, carry them to the city.",
+      "web": "Jonathan gave his weapons to his boy, and said to him, “Go, carry them to the city.”",
+      "ct": "Jonathan handed his bow and arrows to the boy and told him, \"Go take these back to the city.\""
+    },
+    {
+      "verse": 41,
+      "kjv": "And as soon as the lad was gone, David arose out of a place toward the south, and fell on his face to the ground, and bowed himself three times: and they kissed one another, and wept one with another, until David exceeded.",
+      "web": "As soon as the boy was gone, David arose out of the south, and fell on his face to the ground, and bowed himself three times. They kissed one another, and wept one with another, and David wept the most.",
+      "ct": "As soon as the boy was gone, David came out from his hiding place to the south. He fell facedown on the ground and bowed 3 times. Then they embraced and wept together, though David wept the hardest."
+    },
+    {
+      "verse": 42,
+      "kjv": "And Jonathan said to David, Go in peace, forasmuch as we have sworn both of us in the name of the LORD, saying, The LORD be between me and thee, and between my seed and thy seed for ever. And he arose and departed: and Jonathan went into the city.",
+      "web": "Jonathan said to David, “Go in peace, because we have both sworn in LORD’s name, saying, ‘LORD is between me and you, and between my offspring and your offspring, forever.’ ” He arose and departed; and Jonathan went into the city.",
+      "ct": "Jonathan said to David, \"Go in peace. We've both sworn an oath in the name of the LORD, saying, 'The LORD stands between me and you, and between my descendants and your descendants, forever.'\" Then David left, and Jonathan went back into the city."
+    }
+  ]
+}

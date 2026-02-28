@@ -1,0 +1,323 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 14,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:42:37.025Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now it came to pass upon a day, that Jonathan the son of Saul said unto the young man that bare his armour, Come, and let us go over to the Philistines’ garrison, that is on the other side. But he told not his father.",
+      "web": "Now it fell on a day, that Jonathan the son of Saul said to the young man who bore his armor, “Come! Let’s go over to the Philistines’ garrison that is on the other side.” But he didn’t tell his father.",
+      "ct": "One day Jonathan, Saul's son, said to the young man who carried his armor, \"Come on — let's cross over to the Philistine outpost on the other side.\" But he didn't tell his father about it."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Saul tarried in the uttermost part of Gibeah under a pomegranate tree which is in Migron: and the people that were with him were about six hundred men;",
+      "web": "Saul stayed in the uttermost part of Gibeah under the pomegranate tree which is in Migron: and the people who were with him were about six hundred men;",
+      "ct": "Saul was camped on the outskirts of Gibeah, under a pomegranate tree in Migron. He had about 600 men with him,"
+    },
+    {
+      "verse": 3,
+      "kjv": "And Ahiah, the son of Ahitub, Ichabod’s brother, the son of Phinehas, the son of Eli, the LORD’s priest in Shiloh, wearing an ephod. And the people knew not that Jonathan was gone.",
+      "web": "including Ahijah, the son of Ahitub, Ichabod’s brother, the son of Phinehas, the son of Eli, the priest of LORD in Shiloh, wearing an ephod. The people didn’t know that Jonathan was gone.",
+      "ct": "including Ahiah, who served as priest wearing an ephod. Ahiah was the son of Ahitub, who was the brother of Ichabod, son of Phinehas, son of Eli — the LORD's priest at Shiloh. No one knew that Jonathan had left."
+    },
+    {
+      "verse": 4,
+      "kjv": "And between the passages, by which Jonathan sought to go over unto the Philistines’ garrison, there was a sharp rock on the one side, and a sharp rock on the other side: and the name of the one was Bozez, and the name of the other Seneh.",
+      "web": "Between the passes, by which Jonathan sought to go over to the Philistines’ garrison, there was a rocky crag on the one side, and a rocky crag on the other side: and the name of the one was Bozez, and the name of the other Seneh.",
+      "ct": "The pass Jonathan planned to use to reach the Philistine outpost was flanked by two steep rocky cliffs — one called Bozez and the other Seneh."
+    },
+    {
+      "verse": 5,
+      "kjv": "The forefront of the one was situate northward over against Michmash, and the other southward over against Gibeah.",
+      "web": "The one crag rose up on the north in front of Michmash, and the other on the south in front of Geba.",
+      "ct": "One cliff faced north toward Michmash, and the other faced south toward Gibeah."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Jonathan said to the young man that bare his armour, Come, and let us go over unto the garrison of these uncircumcised: it may be that the LORD will work for us: for there is no restraint to the LORD to save by many or by few.",
+      "web": "Jonathan said to the young man who bore his armor, “Come! Let’s go over to the garrison of these uncircumcised. It may be that LORD will work for us; for there is no restraint on LORD to save by many or by few.”",
+      "ct": "Jonathan said to his armor bearer, \"Come on, let's go over to the outpost of these uncircumcised men. Maybe the LORD will fight for us — nothing can stop the LORD from saving, whether through many soldiers or just a few.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And his armourbearer said unto him, Do all that is in thine heart: turn thee; behold, I am with thee according to thy heart.",
+      "web": "His armor bearer said to him, “Do all that is in your heart. Turn and, behold, I am with you according to your heart.”",
+      "ct": "His armor bearer replied, \"Do whatever you have in mind. Go ahead — I'm with you all the way.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Then said Jonathan, Behold, we will pass over unto these men, and we will discover ourselves unto them.",
+      "web": "Then Jonathan said, “Behold, we will pass over to the men, and we will reveal ourselves to them.",
+      "ct": "Then Jonathan said, \"Here's the plan. We'll cross over toward those men and let them see us."
+    },
+    {
+      "verse": 9,
+      "kjv": "If they say thus unto us, Tarry until we come to you; then we will stand still in our place, and will not go up unto them.",
+      "web": "If they say this to us, ‘Wait until we come to you!’ then we will stand still in our place, and will not go up to them.",
+      "ct": "If they say, 'Stay there until we come down to you,' then we'll hold our position and won't go up to them."
+    },
+    {
+      "verse": 10,
+      "kjv": "But if they say thus, Come up unto us; then we will go up: for the LORD hath delivered them into our hand: and this shall be a sign unto us.",
+      "web": "But if they say this, ‘Come up to us!’ then we will go up; for LORD has delivered them into our hand. This shall be the sign to us.”",
+      "ct": "But if they say, 'Come up to us,' then we'll climb up, because that will be our sign that the LORD has handed them over to us.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And both of them discovered themselves unto the garrison of the Philistines: and the Philistines said, Behold, the Hebrews come forth out of the holes where they had hid themselves.",
+      "web": "Both of them revealed themselves to the garrison of the Philistines: and the Philistines said, “Behold, the Hebrews are coming out of the holes where they had hidden themselves!”",
+      "ct": "So the two of them stepped into view of the Philistine outpost. The Philistines said, \"Look — the Hebrews are crawling out of the holes they've been hiding in!\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And the men of the garrison answered Jonathan and his armourbearer, and said, Come up to us, and we will shew you a thing. And Jonathan said unto his armourbearer, Come up after me: for the LORD hath delivered them into the hand of Israel.",
+      "web": "The men of the garrison answered Jonathan and his armor bearer, and said, “Come up to us, and we will show you something!” Jonathan said to his armor bearer, “Come up after me; for LORD has delivered them into the hand of Israel.”",
+      "ct": "The soldiers at the outpost called down to Jonathan and his armor bearer, \"Come up here, and we'll teach you a lesson!\" Jonathan said to his armor bearer, \"Climb up behind me — the LORD has handed them over to Israel!\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Jonathan climbed up upon his hands and upon his feet, and his armourbearer after him: and they fell before Jonathan; and his armourbearer slew after him.",
+      "web": "Jonathan climbed up on his hands and on his feet, and his armor bearer after him: and they fell before Jonathan; and his armor bearer killed them after him.",
+      "ct": "Jonathan scrambled up on his hands and feet, with his armor bearer right behind him. The Philistines fell before Jonathan as he struck them down, and his armor bearer followed, finishing them off."
+    },
+    {
+      "verse": 14,
+      "kjv": "And that first slaughter, which Jonathan and his armourbearer made, was about twenty men, within as it were an half acre of land, which a yoke of oxen might plow.",
+      "web": "That first slaughter, which Jonathan and his armor bearer made, was about twenty men, within as it were half a furrow’s length in an acre of land.",
+      "ct": "In that first attack, Jonathan and his armor bearer killed about 20 men within an area roughly half an acre in size."
+    },
+    {
+      "verse": 15,
+      "kjv": "And there was trembling in the host, in the field, and among all the people: the garrison, and the spoilers, they also trembled, and the earth quaked: so it was a very great trembling.",
+      "web": "There was a trembling in the camp, in the field, and among all the people; the garrison, and the raiders, also trembled; and the earth quaked, so there was an exceedingly great trembling.",
+      "ct": "Terror swept through the entire Philistine army — in the camp, in the field, and among all the troops. Even the outpost guards and the raiding parties panicked. Then the ground itself shook, and the terror became overwhelming."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the watchmen of Saul in Gibeah of Benjamin looked; and, behold, the multitude melted away, and they went on beating down one another.",
+      "web": "The watchmen of Saul in Gibeah of Benjamin looked; and behold, the multitude melted away and scattered.",
+      "ct": "Saul's lookouts in Gibeah of Benjamin watched as the Philistine army began to scatter, running in every direction and turning on each other."
+    },
+    {
+      "verse": 17,
+      "kjv": "Then said Saul unto the people that were with him, Number now, and see who is gone from us. And when they had numbered, behold, Jonathan and his armourbearer were not there.",
+      "web": "Then Saul said to the people who were with him, “Count now, and see who is missing from us.” When they had counted, behold, Jonathan and his armor bearer were not there.",
+      "ct": "Saul said to the men with him, \"Do a head count and find out who's missing.\" When they checked, Jonathan and his armor bearer were gone."
+    },
+    {
+      "verse": 18,
+      "kjv": "And Saul said unto Ahiah, Bring hither the ark of God. For the ark of God was at that time with the children of Israel.",
+      "web": "Saul said to Ahijah, “Bring God’s ark here.” For God’s ark was with the children of Israel at that time.",
+      "ct": "Saul said to Ahiah, \"Bring the ark of God here.\" The ark of God was with the Israelites at that time."
+    },
+    {
+      "verse": 19,
+      "kjv": "And it came to pass, while Saul talked unto the priest, that the noise that was in the host of the Philistines went on and increased: and Saul said unto the priest, Withdraw thine hand.",
+      "web": "While Saul talked to the priest, the tumult that was in the camp of the Philistines went on and increased; and Saul said to the priest, “Withdraw your hand!”",
+      "ct": "But while Saul was still talking to the priest, the chaos in the Philistine camp kept growing louder and louder. So Saul told the priest, \"Never mind — pull your hand back.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Saul and all the people that were with him assembled themselves, and they came to the battle: and, behold, every man’s sword was against his fellow, and there was a very great discomfiture.",
+      "web": "Saul and all the people who were with him were gathered together, and came to the battle; and behold, they were all striking each other with their swords in very great confusion.",
+      "ct": "Saul and all his men quickly assembled and rushed into battle. When they arrived, they found the Philistines in total chaos, slashing at each other with their own swords."
+    },
+    {
+      "verse": 21,
+      "kjv": "Moreover the Hebrews that were with the Philistines before that time, which went up with them into the camp from the country round about, even they also turned to be with the Israelites that were with Saul and Jonathan.",
+      "web": "Now the Hebrews who were with the Philistines before, and who went up with them into the camp, from all around, even they also turned to be with the Israelites who were with Saul and Jonathan.",
+      "ct": "On top of that, the Hebrews who had previously gone over to the Philistine side and were serving in their camp switched back and joined Saul and Jonathan's forces."
+    },
+    {
+      "verse": 22,
+      "kjv": "Likewise all the men of Israel which had hid themselves in mount Ephraim, when they heard that the Philistines fled, even they also followed hard after them in the battle.",
+      "web": "Likewise all the men of Israel who had hidden themselves in the hill country of Ephraim, when they heard that the Philistines fled, even they also followed hard after them in the battle.",
+      "ct": "When the Israelites who had been hiding in the hill country of Ephraim heard that the Philistines were on the run, they also joined the chase and threw themselves into the battle."
+    },
+    {
+      "verse": 23,
+      "kjv": "So the LORD saved Israel that day: and the battle passed over unto Bethaven.",
+      "web": "So LORD saved Israel that day; and the battle passed over by Beth Aven.",
+      "ct": "So the LORD rescued Israel that day, and the fighting spread all the way past Beth Aven."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the men of Israel were distressed that day: for Saul had adjured the people, saying, Cursed be the man that eateth any food until evening, that I may be avenged on mine enemies. So none of the people tasted any food.",
+      "web": "The men of Israel were distressed that day; for Saul had adjured the people, saying, “Cursed is the man who eats any food until it is evening, and I am avenged of my enemies.” So none of the people tasted food.",
+      "ct": "The Israelite soldiers were exhausted that day because Saul had bound them with an oath, saying, \"Cursed is anyone who eats any food before evening, before I've taken full revenge on my enemies.\" So no one ate a thing."
+    },
+    {
+      "verse": 25,
+      "kjv": "And all they of the land came to a wood; and there was honey upon the ground.",
+      "web": "All the people came into the forest; and there was honey on the ground.",
+      "ct": "The whole army entered a forest, and there was honey on the ground."
+    },
+    {
+      "verse": 26,
+      "kjv": "And when the people were come into the wood, behold, the honey dropped; but no man put his hand to his mouth: for the people feared the oath.",
+      "web": "When the people had come to the forest, behold, honey was dripping, but no one put his hand to his mouth; for the people feared the oath.",
+      "ct": "When the soldiers went into the forest, they saw honey dripping everywhere, but no one dared to eat any of it because they feared the oath."
+    },
+    {
+      "verse": 27,
+      "kjv": "But Jonathan heard not when his father charged the people with the oath: wherefore he put forth the end of the rod that was in his hand, and dipped it in an honeycomb, and put his hand to his mouth; and his eyes were enlightened.",
+      "web": "But Jonathan didn’t hear when his father commanded the people with the oath. Therefore he put out the end of the rod that was in his hand, and dipped it in the honeycomb, and put his hand to his mouth; and his eyes brightened.",
+      "ct": "Jonathan, however, hadn't heard his father make the people swear the oath. So he reached out with the tip of the staff he was carrying, dipped it into a honeycomb, and ate some. Immediately his eyes brightened and his energy returned."
+    },
+    {
+      "verse": 28,
+      "kjv": "Then answered one of the people, and said, Thy father straitly charged the people with an oath, saying, Cursed be the man that eateth any food this day. And the people were faint.",
+      "web": "Then one of the people answered, and said, “Your father directly commanded the people with an oath, saying, ‘Cursed is the man who eats food today.’ ” So the people were faint.",
+      "ct": "One of the soldiers told him, \"Your father made the entire army swear a solemn oath, saying, 'Cursed is anyone who eats food today.'\" The troops were weak with hunger."
+    },
+    {
+      "verse": 29,
+      "kjv": "Then said Jonathan, My father hath troubled the land: see, I pray you, how mine eyes have been enlightened, because I tasted a little of this honey.",
+      "web": "Then Jonathan said, “My father has troubled the land. Please look how my eyes have brightened, because I tasted a little of this honey.",
+      "ct": "Jonathan said, \"My father has made trouble for the whole country. Look how my eyes have brightened just from tasting a little honey."
+    },
+    {
+      "verse": 30,
+      "kjv": "How much more, if haply the people had eaten freely to day of the spoil of their enemies which they found? for had there not been now a much greater slaughter among the Philistines?",
+      "web": "How much more, if perhaps the people had eaten freely today of the plunder of their enemies which they found? For now there has been no great slaughter among the Philistines.”",
+      "ct": "Think how much better it would have been if the soldiers had eaten freely today from the plunder they took from the enemy! The defeat of the Philistines could have been far greater.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "And they smote the Philistines that day from Michmash to Aijalon: and the people were very faint.",
+      "web": "They struck the Philistines that day from Michmash to Aijalon. The people were very faint;",
+      "ct": "That day they struck down the Philistines all the way from Michmash to Aijalon, and the troops were completely exhausted."
+    },
+    {
+      "verse": 32,
+      "kjv": "And the people flew upon the spoil, and took sheep, and oxen, and calves, and slew them on the ground: and the people did eat them with the blood.",
+      "web": "and the people pounced on the plunder, and took sheep, cattle, and calves, and killed them on the ground; and the people ate them with the blood.",
+      "ct": "The soldiers threw themselves on the plunder, grabbing sheep, cattle, and calves. They slaughtered them right there on the ground and ate the meat with the blood still in it."
+    },
+    {
+      "verse": 33,
+      "kjv": "Then they told Saul, saying, Behold, the people sin against the LORD, in that they eat with the blood. And he said, Ye have transgressed: roll a great stone unto me this day.",
+      "web": "Then they told Saul, saying, “Behold, the people are sinning against LORD, in that they eat meat with the blood.” He said, “You have dealt treacherously. Roll a large stone to me today!”",
+      "ct": "Someone reported to Saul, \"Look — the people are sinning against the LORD by eating meat with the blood still in it!\" Saul said, \"You have broken faith with God! Roll a large stone over to me right now.\""
+    },
+    {
+      "verse": 34,
+      "kjv": "And Saul said, Disperse yourselves among the people, and say unto them, Bring me hither every man his ox, and every man his sheep, and slay them here, and eat; and sin not against the LORD in eating with the blood. And all the people brought every man his ox with him that night, and slew them there.",
+      "web": "Saul said, “Disperse yourselves among the people, and tell them, ‘Every man bring me here his ox, and every man his sheep, and kill them here, and eat; and don’t sin against LORD in eating meat with the blood.’ ” All the people brought every man his ox with him that night, and killed them there.",
+      "ct": "Then Saul ordered, \"Spread out among the troops and tell everyone, 'Bring your ox or your sheep to me. Slaughter them here on this stone and eat properly. Don't sin against the LORD by eating meat with the blood.'\" So that night everyone brought their animals and slaughtered them there."
+    },
+    {
+      "verse": 35,
+      "kjv": "And Saul built an altar unto the LORD: the same was the first altar that he built unto the LORD.",
+      "web": "Saul built an altar to LORD. This was the first altar that he built to LORD.",
+      "ct": "Saul built an altar to the LORD. It was the first altar he ever built to the LORD."
+    },
+    {
+      "verse": 36,
+      "kjv": "And Saul said, Let us go down after the Philistines by night, and spoil them until the morning light, and let us not leave a man of them. And they said, Do whatsoever seemeth good unto thee. Then said the priest, Let us draw near hither unto God.",
+      "web": "Saul said, “Let’s go down after the Philistines by night, and take plunder among them until the morning light, and let’s not leave a man of them.” They said, “Do whatever seems good to you.” Then the priest said, “Let’s draw near here to God.”",
+      "ct": "Saul said, \"Let's go after the Philistines tonight. We'll raid them until dawn and wipe out every last one of them.\" The soldiers replied, \"Do whatever you think is best.\" But the priest said, \"Wait — let's seek God's guidance first.\""
+    },
+    {
+      "verse": 37,
+      "kjv": "And Saul asked counsel of God, Shall I go down after the Philistines? wilt thou deliver them into the hand of Israel? But he answered him not that day.",
+      "web": "Saul asked counsel of God, “Shall I go down after the Philistines? Will you deliver them into the hand of Israel?” But he didn’t answer him that day.",
+      "ct": "So Saul asked God, \"Should I pursue the Philistines? Will you hand them over to Israel?\" But God gave him no answer that day."
+    },
+    {
+      "verse": 38,
+      "kjv": "And Saul said, Draw ye near hither, all the chief of the people: and know and see wherein this sin hath been this day.",
+      "web": "Saul said, “Draw near here, all you chiefs of the people; and know and see in which this sin has been today.",
+      "ct": "Saul said, \"All you leaders, come here. We need to find out what sin was committed today."
+    },
+    {
+      "verse": 39,
+      "kjv": "For, as the LORD liveth, which saveth Israel, though it be in Jonathan my son, he shall surely die. But there was not a man among all the people that answered him.",
+      "web": "For, as LORD lives, who saves Israel, though it is in Jonathan my son, he shall surely die.” But there was not a man among all the people who answered him.",
+      "ct": "As surely as the LORD lives — the one who saves Israel — even if the guilt falls on my son Jonathan, he will certainly die.\" But not a single person said a word."
+    },
+    {
+      "verse": 40,
+      "kjv": "Then said he unto all Israel, Be ye on one side, and I and Jonathan my son will be on the other side. And the people said unto Saul, Do what seemeth good unto thee.",
+      "web": "Then he said to all Israel, “You be on one side, and I and Jonathan my son will be on the other side.” The people said to Saul, “Do what seems good to you.”",
+      "ct": "Then Saul told all of Israel, \"You stand on one side, and Jonathan and I will stand on the other.\" The people said to Saul, \"Do whatever you think is right.\""
+    },
+    {
+      "verse": 41,
+      "kjv": "Therefore Saul said unto the LORD God of Israel, Give a perfect lot. And Saul and Jonathan were taken: but the people escaped.",
+      "web": "Therefore Saul said to LORD, the God of Israel, “Show the right.” Jonathan and Saul were chosen, but the people escaped.",
+      "ct": "Saul prayed to the LORD, the God of Israel, \"Reveal the truth.\" The lot fell on Saul and Jonathan, and the rest of the people were cleared."
+    },
+    {
+      "verse": 42,
+      "kjv": "And Saul said, Cast lots between me and Jonathan my son. And Jonathan was taken.",
+      "web": "Saul said, “Cast lots between me and Jonathan my son.” Jonathan was selected.",
+      "ct": "Saul said, \"Now cast the lot between me and my son Jonathan.\" The lot fell on Jonathan."
+    },
+    {
+      "verse": 43,
+      "kjv": "Then Saul said to Jonathan, Tell me what thou hast done. And Jonathan told him, and said, I did but taste a little honey with the end of the rod that was in mine hand, and, lo, I must die.",
+      "web": "Then Saul said to Jonathan, “Tell me what you have done!” Jonathan told him, and said, “I certainly did taste a little honey with the end of the rod that was in my hand; and behold, I must die.”",
+      "ct": "Saul said to Jonathan, \"Tell me what you did.\" Jonathan answered, \"All I did was taste a little honey on the tip of the staff I was carrying. And now I must die for it?\""
+    },
+    {
+      "verse": 44,
+      "kjv": "And Saul answered, God do so and more also: for thou shalt surely die, Jonathan.",
+      "web": "Saul said, “God do so and more also; for you shall surely die, Jonathan.”",
+      "ct": "Saul declared, \"May God strike me dead and worse if you don't die for this, Jonathan.\""
+    },
+    {
+      "verse": 45,
+      "kjv": "And the people said unto Saul, Shall Jonathan die, who hath wrought this great salvation in Israel? God forbid: as the LORD liveth, there shall not one hair of his head fall to the ground; for he hath wrought with God this day. So the people rescued Jonathan, that he died not.",
+      "web": "The people said to Saul, “Shall Jonathan die, who has worked this great salvation in Israel? Far from it! As LORD lives, there shall not one hair of his head fall to the ground; for he has worked with God today!” So the people rescued Jonathan, that he didn’t die.",
+      "ct": "But the people spoke up and said to Saul, \"Should Jonathan die — the man who brought this great salvation to Israel? Absolutely not! As surely as the LORD lives, not a single hair on his head will be touched, because God was working through him today!\" So the people rescued Jonathan, and he was not put to death."
+    },
+    {
+      "verse": 46,
+      "kjv": "Then Saul went up from following the Philistines: and the Philistines went to their own place.",
+      "web": "Then Saul went up from following the Philistines; and the Philistines went to their own place.",
+      "ct": "After that, Saul called off the pursuit of the Philistines, and the Philistines returned to their own territory."
+    },
+    {
+      "verse": 47,
+      "kjv": "So Saul took the kingdom over Israel, and fought against all his enemies on every side, against Moab, and against the children of Ammon, and against Edom, and against the kings of Zobah, and against the Philistines: and whithersoever he turned himself, he vexed them.",
+      "web": "Now when Saul had taken the kingdom over Israel, he fought against all his enemies on every side, against Moab, and against the children of Ammon, and against Edom, and against the kings of Zobah, and against the Philistines. Wherever he turned himself, he defeated them.",
+      "ct": "After Saul secured the kingship over Israel, he waged war against enemies on every side — against Moab, the Ammonites, Edom, the kings of Zobah, and the Philistines. Wherever he turned, he defeated them."
+    },
+    {
+      "verse": 48,
+      "kjv": "And he gathered an host, and smote the Amalekites, and delivered Israel out of the hands of them that spoiled them.",
+      "web": "He did valiantly, and struck the Amalekites, and delivered Israel out of the hands of those who plundered them.",
+      "ct": "He raised a powerful army, struck down the Amalekites, and rescued Israel from those who had been plundering them."
+    },
+    {
+      "verse": 49,
+      "kjv": "Now the sons of Saul were Jonathan, and Ishui, and Melchishua: and the names of his two daughters were these; the name of the firstborn Merab, and the name of the younger Michal:",
+      "web": "Now the sons of Saul were Jonathan, Ishvi, and Malchishua; and the names of his two daughters were these: the name of the firstborn Merab, and the name of the younger Michal.",
+      "ct": "Saul's sons were Jonathan, Ishui, and Melchishua. He had two daughters: the older one was named Merab, and the younger one was named Michal."
+    },
+    {
+      "verse": 50,
+      "kjv": "And the name of Saul’s wife was Ahinoam, the daughter of Ahimaaz: and the name of the captain of his host was Abner, the son of Ner, Saul’s uncle.",
+      "web": "The name of Saul’s wife was Ahinoam the daughter of Ahimaaz. The name of the captain of his army was Abner the son of Ner, Saul’s uncle.",
+      "ct": "Saul's wife was Ahinoam, the daughter of Ahimaaz. The commander of his army was Abner, the son of Ner, who was Saul's uncle."
+    },
+    {
+      "verse": 51,
+      "kjv": "And Kish was the father of Saul; and Ner the father of Abner was the son of Abiel.",
+      "web": "Kish was the father of Saul; and Ner the father of Abner was the son of Abiel.",
+      "ct": "Kish was Saul's father, and Ner — Abner's father — was the son of Abiel."
+    },
+    {
+      "verse": 52,
+      "kjv": "And there was sore war against the Philistines all the days of Saul: and when Saul saw any strong man, or any valiant man, he took him unto him.",
+      "web": "There was severe war against the Philistines all the days of Saul; and when Saul saw any mighty man, or any valiant man, he took him into his service.",
+      "ct": "The war against the Philistines raged fiercely throughout Saul's entire reign. Whenever Saul spotted a strong or brave warrior, he recruited him into his army."
+    }
+  ]
+}

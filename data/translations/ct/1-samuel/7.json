@@ -1,0 +1,113 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 7,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:39:37.844Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the men of Kirjathjearim came, and fetched up the ark of the LORD, and brought it into the house of Abinadab in the hill, and sanctified Eleazar his son to keep the ark of the LORD.",
+      "web": "The men of Kiriath Jearim came and took LORD’s ark, and brought it into Abinadab’s house on the hill, and consecrated Eleazar his son to keep LORD’s ark.",
+      "ct": "The men of Kirjathjearim came and brought the ark of the LORD to the house of Abinadab, which sat on a hill. They set apart his son Eleazar to be the guardian of the ark."
+    },
+    {
+      "verse": 2,
+      "kjv": "And it came to pass, while the ark abode in Kirjathjearim, that the time was long; for it was twenty years: and all the house of Israel lamented after the LORD.",
+      "web": "From the day that the ark stayed in Kiriath Jearim, the time was long; for it was twenty years; and all the house of Israel lamented after LORD.",
+      "ct": "The ark stayed in Kirjathjearim for a long time — 20 years in all. During that time, all of Israel cried out to the LORD in grief."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Samuel spake unto all the house of Israel, saying, If ye do return unto the LORD with all your hearts, then put away the strange gods and Ashtaroth from among you, and prepare your hearts unto the LORD, and serve him only: and he will deliver you out of the hand of the Philistines.",
+      "web": "Samuel spoke to all the house of Israel, saying, “If you are returning to LORD with all your heart, then put away the foreign gods and the Ashtaroth from among you, and direct your hearts to LORD, and serve him only; and he will deliver you out of the hand of the Philistines.”",
+      "ct": "Samuel spoke to all the people of Israel: \"If you're truly returning to the LORD with all your hearts, then get rid of the foreign gods and the images of Ashtaroth. Commit yourselves fully to the LORD and serve him alone, and he will rescue you from the Philistines.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then the children of Israel did put away Baalim and Ashtaroth, and served the LORD only.",
+      "web": "Then the children of Israel removed the Baals and the Ashtaroth, and served LORD only.",
+      "ct": "So the Israelites got rid of their Baal idols and their Ashtaroth images, and they served the LORD alone."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Samuel said, Gather all Israel to Mizpeh, and I will pray for you unto the LORD.",
+      "web": "Samuel said, “Gather all Israel to Mizpah, and I will pray to LORD for you.”",
+      "ct": "Samuel said, \"Gather everyone in Israel at Mizpeh, and I will pray to the LORD for you.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And they gathered together to Mizpeh, and drew water, and poured it out before the LORD, and fasted on that day, and said there, We have sinned against the LORD. And Samuel judged the children of Israel in Mizpeh.",
+      "web": "They gathered together to Mizpah, and drew water, and poured it out before LORD, and fasted on that day, and said there, “We have sinned against LORD.” Samuel judged the children of Israel in Mizpah.",
+      "ct": "They assembled at Mizpeh, drew water and poured it out before the LORD, and fasted that entire day. They confessed, \"We have sinned against the LORD.\" It was at Mizpeh that Samuel began serving as judge over Israel."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when the Philistines heard that the children of Israel were gathered together to Mizpeh, the lords of the Philistines went up against Israel. And when the children of Israel heard it, they were afraid of the Philistines.",
+      "web": "When the Philistines heard that the children of Israel were gathered together at Mizpah, the lords of the Philistines went up against Israel. When the children of Israel heard it, they were afraid of the Philistines.",
+      "ct": "When the Philistines heard that the Israelites had gathered at Mizpeh, the Philistine rulers marched their armies against them. When the Israelites got word of this, they were terrified."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the children of Israel said to Samuel, Cease not to cry unto the LORD our God for us, that he will save us out of the hand of the Philistines.",
+      "web": "The children of Israel said to Samuel, “Don’t stop crying to LORD our God for us, that he will save us out of the hand of the Philistines.”",
+      "ct": "The Israelites begged Samuel, \"Don't stop crying out to the LORD our God for us! Plead with him to save us from the Philistines!\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And Samuel took a sucking lamb, and offered it for a burnt offering wholly unto the LORD: and Samuel cried unto the LORD for Israel; and the LORD heard him.",
+      "web": "Samuel took a suckling lamb, and offered it for a whole burnt offering to LORD. Samuel cried to LORD for Israel; and LORD answered him.",
+      "ct": "Samuel took a young nursing lamb and offered it as a complete burnt offering to the LORD. He cried out to the LORD on Israel's behalf, and the LORD answered him."
+    },
+    {
+      "verse": 10,
+      "kjv": "And as Samuel was offering up the burnt offering, the Philistines drew near to battle against Israel: but the LORD thundered with a great thunder on that day upon the Philistines, and discomfited them; and they were smitten before Israel.",
+      "web": "As Samuel was offering up the burnt offering, the Philistines came near to battle against Israel; but LORD thundered with a great thunder on that day on the Philistines, and confused them; and they were struck down before Israel.",
+      "ct": "While Samuel was still offering the burnt offering, the Philistines advanced to attack Israel. But the LORD unleashed a massive thunderstorm against the Philistines that day, throwing them into total chaos. The Israelites struck them down."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the men of Israel went out of Mizpeh, and pursued the Philistines, and smote them, until they came under Bethcar.",
+      "web": "The men of Israel went out of Mizpah, and pursued the Philistines, and struck them, until they came under Beth Kar.",
+      "ct": "The men of Israel charged out of Mizpeh and chased the Philistines, cutting them down all the way to a point below Bethcar."
+    },
+    {
+      "verse": 12,
+      "kjv": "Then Samuel took a stone, and set it between Mizpeh and Shen, and called the name of it Ebenezer, saying, Hitherto hath the LORD helped us.",
+      "web": "Then Samuel took a stone, and set it between Mizpah and Shen, and called its name Ebenezer, saying, “LORD helped us until now.”",
+      "ct": "Afterward, Samuel took a large stone and placed it between Mizpeh and Shen. He named it Ebenezer, saying, \"Up to this point, the LORD has helped us.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "So the Philistines were subdued, and they came no more into the coast of Israel: and the hand of the LORD was against the Philistines all the days of Samuel.",
+      "web": "So the Philistines were subdued, and they stopped coming within the border of Israel. LORD’s hand was against the Philistines all the days of Samuel.",
+      "ct": "The Philistines were thoroughly defeated and didn't invade Israelite territory again. The LORD's hand was against the Philistines for as long as Samuel lived."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the cities which the Philistines had taken from Israel were restored to Israel, from Ekron even unto Gath; and the coasts thereof did Israel deliver out of the hands of the Philistines. And there was peace between Israel and the Amorites.",
+      "web": "The cities which the Philistines had taken from Israel were restored to Israel, from Ekron even to Gath; and Israel recovered its border out of the hand of the Philistines. There was peace between Israel and the Amorites.",
+      "ct": "The cities the Philistines had captured from Israel — from Ekron all the way to Gath — were returned to Israel, along with the surrounding territory. Israel also had peace with the Amorites."
+    },
+    {
+      "verse": 15,
+      "kjv": "And Samuel judged Israel all the days of his life.",
+      "web": "Samuel judged Israel all the days of his life.",
+      "ct": "Samuel served as judge over Israel for the rest of his life."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he went from year to year in circuit to Bethel, and Gilgal, and Mizpeh, and judged Israel in all those places.",
+      "web": "He went from year to year in a circuit to Bethel, Gilgal, and Mizpah; and he judged Israel in all those places.",
+      "ct": "Every year he traveled a circuit through Bethel, Gilgal, and Mizpeh, settling disputes and leading Israel in each of those places."
+    },
+    {
+      "verse": 17,
+      "kjv": "And his return was to Ramah; for there was his house; and there he judged Israel; and there he built an altar unto the LORD.",
+      "web": "His return was to Ramah, for his house was there; and he judged Israel there; and he built an altar to LORD there.",
+      "ct": "He always returned home to Ramah, where he lived. He judged Israel from there as well, and he built an altar to the LORD in that city."
+    }
+  ]
+}

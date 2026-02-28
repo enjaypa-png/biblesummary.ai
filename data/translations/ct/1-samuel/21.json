@@ -1,0 +1,101 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 21,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:46:01.237Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then came David to Nob to Ahimelech the priest: and Ahimelech was afraid at the meeting of David, and said unto him, Why art thou alone, and no man with thee?",
+      "web": "Then David came to Nob to Ahimelech the priest. Ahimelech came to meet David trembling, and said to him, “Why are you alone, and no man with you?”",
+      "ct": "David traveled to Nob and went to Ahimelech the priest. When Ahimelech came out to meet him, he was trembling with fear. \"Why are you alone?\" he asked. \"Why is no one with you?\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And David said unto Ahimelech the priest, The king hath commanded me a business, and hath said unto me, Let no man know any thing of the business whereabout I send thee, and what I have commanded thee: and I have appointed my servants to such and such a place.",
+      "web": "David said to Ahimelech the priest, “The king has commanded me to do something, and has said to me, ‘Let no one know anything about the business about which I send you, and what I have commanded you. I have sent the young men to a certain place.’",
+      "ct": "David told Ahimelech the priest, \"The king gave me a secret mission. He said, 'No one is to know anything about what I'm sending you to do or what I've ordered.' I've told my men to meet me at a certain place.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Now therefore what is under thine hand? give me five loaves of bread in mine hand, or what there is present.",
+      "web": "Now therefore what is under your hand? Please give me five loaves of bread in my hand, or whatever is available.”",
+      "ct": "\"Now, what do you have on hand? Give me 5 loaves of bread — or whatever food you can spare.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And the priest answered David, and said, There is no common bread under mine hand, but there is hallowed bread; if the young men have kept themselves at least from women.",
+      "web": "The priest answered David, and said, “I have no common bread, but there is holy bread; if only the young men have kept themselves from women.”",
+      "ct": "The priest answered David, \"I don't have any ordinary bread, only the holy bread. I can give it to you if your men have kept themselves from sleeping with women.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And David answered the priest, and said unto him, Of a truth women have been kept from us about these three days, since I came out, and the vessels of the young men are holy, and the bread is in a manner common, yea, though it were sanctified this day in the vessel.",
+      "web": "David answered the priest, and said to him, “Truly, women have been kept from us as usual these three days. When I came out, the vessels of the young men were holy, though it was only a common journey. How much more then today shall their vessels be holy?”",
+      "ct": "David replied, \"Absolutely — women have been off-limits to us for the past 3 days, as is always the case when we go on a mission. My men kept themselves clean even for an ordinary journey, so how much more so now?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "So the priest gave him hallowed bread: for there was no bread there but the shewbread, that was taken from before the LORD, to put hot bread in the day when it was taken away.",
+      "web": "So the priest gave him holy bread; for there was no bread there but the show bread that was taken from before LORD, to put hot bread in the day when it was taken away.",
+      "ct": "So the priest gave him the holy bread, since it was the only bread available. It was the bread of the Presence that had just been removed from before the LORD and replaced with fresh, hot loaves."
+    },
+    {
+      "verse": 7,
+      "kjv": "Now a certain man of the servants of Saul was there that day, detained before the LORD; and his name was Doeg, an Edomite, the chiefest of the herdmen that belonged to Saul.",
+      "web": "Now a certain man of the servants of Saul was there that day, detained before LORD; and his name was Doeg the Edomite, the best of the herdsmen who belonged to Saul.",
+      "ct": "Now it happened that one of Saul's servants was there that day, detained before the LORD. His name was Doeg, an Edomite, and he was the chief of Saul's herdsmen."
+    },
+    {
+      "verse": 8,
+      "kjv": "And David said unto Ahimelech, And is there not here under thine hand spear or sword? for I have neither brought my sword nor my weapons with me, because the king’s business required haste.",
+      "web": "David said to Ahimelech, “Isn’t there here under your hand spear or sword? For I have neither brought my sword nor my weapons with me, because the king’s business required haste.”",
+      "ct": "David asked Ahimelech, \"Do you have a spear or sword here? I didn't bring my sword or any weapons — the king's mission was so urgent I had to leave in a hurry.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the priest said, The sword of Goliath the Philistine, whom thou slewest in the valley of Elah, behold, it is here wrapped in a cloth behind the ephod: if thou wilt take that, take it: for there is no other save that here. And David said, There is none like that; give it me.",
+      "web": "The priest said, “Behold, the sword of Goliath the Philistine, whom you killed in the valley of Elah, is here wrapped in a cloth behind the ephod. If you would like to take that, take it; for there is no other except that here.” David said, “There is none like that. Give it to me.”",
+      "ct": "The priest said, \"The sword of Goliath the Philistine — the one you killed in the valley of Elah — is here, wrapped in a cloth behind the ephod. You can take it if you want, but it's the only weapon here.\" David said, \"There's nothing better than that. Give it to me.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And David arose, and fled that day for fear of Saul, and went to Achish the king of Gath.",
+      "web": "David arose, and fled that day for fear of Saul, and went to Achish the king of Gath.",
+      "ct": "That same day, David fled from Saul and made his way to King Achish of Gath."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the servants of Achish said unto him, Is not this David the king of the land? did they not sing one to another of him in dances, saying, Saul hath slain his thousands, and David his ten thousands?",
+      "web": "The servants of Achish said to him, “Isn’t this David the king of the land? Didn’t they sing to one another about him in dances, saying, ‘Saul has slain his thousands, and David his ten thousands?’ ”",
+      "ct": "But the servants of Achish recognized him and said to their king, \"Isn't this David, the famous leader of Israel? Isn't he the one they sing about in their dances: 'Saul has killed his thousands, and David his 10 thousands'?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And David laid up these words in his heart, and was sore afraid of Achish the king of Gath.",
+      "web": "David laid up these words in his heart, and was very afraid of Achish the king of Gath.",
+      "ct": "David heard what they were saying, and he became terrified of King Achish of Gath."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he changed his behaviour before them, and feigned himself mad in their hands, and scrabbled on the doors of the gate, and let his spittle fall down upon his beard.",
+      "web": "He changed his behavior before them, and pretended to be insane in their hands, and scribbled on the doors of the gate, and let his spittle fall down on his beard.",
+      "ct": "So he pretended to be insane while they watched. He scratched at the doors of the city gate and let spit dribble down into his beard."
+    },
+    {
+      "verse": 14,
+      "kjv": "Then said Achish unto his servants, Lo, ye see the man is mad: wherefore then have ye brought him to me?",
+      "web": "Then Achish said to his servants, “Look, you see the man is insane. Why then have you brought him to me?",
+      "ct": "Achish said to his servants, \"Look at him — the man is clearly out of his mind! Why did you bring him to me?\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Have I need of mad men, that ye have brought this fellow to play the mad man in my presence? shall this fellow come into my house?",
+      "web": "Do I lack madmen, that you have brought this fellow to play the madman in my presence? Should this fellow come into my house?”",
+      "ct": "\"Am I running short on madmen, that you had to bring this one here to act crazy in front of me? Get him out of my house!\""
+    }
+  ]
+}

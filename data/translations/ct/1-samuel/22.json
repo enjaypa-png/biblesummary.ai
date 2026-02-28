@@ -1,0 +1,149 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 22,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:46:24.785Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "David therefore departed thence, and escaped to the cave Adullam: and when his brethren and all his father’s house heard it, they went down thither to him.",
+      "web": "David therefore departed from there, and escaped to Adullam’s cave. When his brothers and all his father’s house heard it, they went down there to him.",
+      "ct": "David left Gath and escaped to the cave of Adullam. When his brothers and the rest of his father's family heard where he was, they went down to join him."
+    },
+    {
+      "verse": 2,
+      "kjv": "And every one that was in distress, and every one that was in debt, and every one that was discontented, gathered themselves unto him; and he became a captain over them: and there were with him about four hundred men.",
+      "web": "Everyone who was in distress, everyone who was in debt, and everyone who was discontented, gathered themselves to him; and he became captain over them. There were with him about four hundred men.",
+      "ct": "Everyone who was in trouble, everyone drowning in debt, and everyone bitter about life gathered around him. He became their leader, and before long about 400 men were with him."
+    },
+    {
+      "verse": 3,
+      "kjv": "And David went thence to Mizpeh of Moab: and he said unto the king of Moab, Let my father and my mother, I pray thee, come forth, and be with you, till I know what God will do for me.",
+      "web": "David went from there to Mizpeh of Moab, and he said to the king of Moab, “Please let my father and my mother come out with you, until I know what God will do for me.”",
+      "ct": "From there, David traveled to Mizpeh in Moab and said to the king of Moab, \"Please let my father and mother come and stay with you until I find out what God has planned for me.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And he brought them before the king of Moab: and they dwelt with him all the while that David was in the hold.",
+      "web": "He brought them before the king of Moab; and they lived with him all the time that David was in the stronghold.",
+      "ct": "So he brought his parents before the king of Moab, and they stayed with him the entire time David was in the stronghold."
+    },
+    {
+      "verse": 5,
+      "kjv": "And the prophet Gad said unto David, Abide not in the hold; depart, and get thee into the land of Judah. Then David departed, and came into the forest of Hareth.",
+      "web": "The prophet Gad said to David, “Don’t stay in the stronghold. Depart, and go into the land of Judah.” Then David departed, and came into the forest of Hereth.",
+      "ct": "But the prophet Gad told David, \"Don't stay in the stronghold. Go back to the land of Judah.\" So David left and went to the forest of Hereth."
+    },
+    {
+      "verse": 6,
+      "kjv": "When Saul heard that David was discovered, and the men that were with him, (now Saul abode in Gibeah under a tree in Ramah, having his spear in his hand, and all his servants were standing about him;)",
+      "web": "Saul heard that David was discovered, with the men who were with him. Now Saul was sitting in Gibeah, under the tamarisk tree in Ramah, with his spear in his hand, and all his servants were standing around him.",
+      "ct": "Word reached Saul that David and his men had been spotted. At the time, Saul was sitting under the tamarisk tree on the hill at Gibeah, spear in hand, with all his officials standing around him."
+    },
+    {
+      "verse": 7,
+      "kjv": "Then Saul said unto his servants that stood about him, Hear now, ye Benjamites; will the son of Jesse give every one of you fields and vineyards, and make you all captains of thousands, and captains of hundreds;",
+      "web": "Saul said to his servants who stood around him, “Hear now, you Benjamites! Will the son of Jesse give everyone of you fields and vineyards? Will he make you all captains of thousands and captains of hundreds,",
+      "ct": "Saul said to the officials around him, \"Listen up, men of Benjamin! Do you really think the son of Jesse is going to give each of you fields and vineyards? Will he make you all commanders of thousands and commanders of hundreds?"
+    },
+    {
+      "verse": 8,
+      "kjv": "That all of you have conspired against me, and there is none that sheweth me that my son hath made a league with the son of Jesse, and there is none of you that is sorry for me, or sheweth unto me that my son hath stirred up my servant against me, to lie in wait, as at this day?",
+      "web": "that all of you have conspired against me, and there is no one who discloses to me when my son makes a treaty with the son of Jesse, and there is none of you who is sorry for me, or discloses to me that my son has stirred up my servant against me, to lie in wait, as it is today?”",
+      "ct": "Is that why every one of you has conspired against me? Not one of you told me when my own son made a pact with the son of Jesse. Not one of you feels sorry for me or bothered to tell me that my son has turned my own servant against me, so that he's out there right now waiting to ambush me.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Then answered Doeg the Edomite, which was set over the servants of Saul, and said, I saw the son of Jesse coming to Nob, to Ahimelech the son of Ahitub.",
+      "web": "Then Doeg the Edomite, who stood by the servants of Saul, answered and said, “I saw the son of Jesse coming to Nob, to Ahimelech the son of Ahitub.",
+      "ct": "Then Doeg the Edomite, who was in charge of Saul's servants, spoke up: \"I saw the son of Jesse come to Nob, to Ahimelech son of Ahitub."
+    },
+    {
+      "verse": 10,
+      "kjv": "And he enquired of the LORD for him, and gave him victuals, and gave him the sword of Goliath the Philistine.",
+      "web": "He inquired of LORD for him, gave him food, and gave him the sword of Goliath the Philistine.”",
+      "ct": "Ahimelech asked the LORD for guidance on his behalf, gave him food, and handed him the sword of Goliath the Philistine.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Then the king sent to call Ahimelech the priest, the son of Ahitub, and all his father’s house, the priests that were in Nob: and they came all of them to the king.",
+      "web": "Then the king sent to call Ahimelech the priest, the son of Ahitub, and all his father’s house, the priests who were in Nob; and they all came to the king.",
+      "ct": "The king immediately sent for Ahimelech the priest, son of Ahitub, along with his entire family — all the priests serving at Nob. They all came before the king."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Saul said, Hear now, thou son of Ahitub. And he answered, Here I am, my lord.",
+      "web": "Saul said, “Hear now, you son of Ahitub.” He answered, “Here I am, my lord.”",
+      "ct": "Saul said, \"Listen here, son of Ahitub.\" Ahimelech answered, \"I'm here, my lord.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Saul said unto him, Why have ye conspired against me, thou and the son of Jesse, in that thou hast given him bread, and a sword, and hast enquired of God for him, that he should rise against me, to lie in wait, as at this day?",
+      "web": "Saul said to him, “Why have you conspired against me, you and the son of Jesse, in that you have given him bread, and a sword, and have inquired of God for him, that he should rise against me, to lie in wait, as it is today?”",
+      "ct": "Saul demanded, \"Why have you and the son of Jesse conspired against me? You gave him bread and a sword and asked God for guidance on his behalf — all so he could rise up against me and ambush me, which is exactly what's happening now!\""
+    },
+    {
+      "verse": 14,
+      "kjv": "Then Ahimelech answered the king, and said, And who is so faithful among all thy servants as David, which is the king’s son in law, and goeth at thy bidding, and is honourable in thine house?",
+      "web": "Then Ahimelech answered the king, and said, “Who among all your servants is so faithful as David, who is the king’s son-in-law, captain of your body guard, and honored in your house?",
+      "ct": "Ahimelech replied, \"My king, who among all your servants is as loyal as David? He's your own son-in-law, he carries out your orders, and he's honored in your household."
+    },
+    {
+      "verse": 15,
+      "kjv": "Did I then begin to enquire of God for him? be it far from me: let not the king impute any thing unto his servant, nor to all the house of my father: for thy servant knew nothing of all this, less or more.",
+      "web": "Have I today begun to inquire of God for him? Be it far from me! Don’t let the king impute anything to his servant, nor to all the house of my father; for your servant knows nothing of all this, less or more.”",
+      "ct": "Was that the first time I ever asked God for guidance on his behalf? Absolutely not! Please don't accuse me or anyone in my father's family of wrongdoing. Your servant knew nothing at all about any of this.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And the king said, Thou shalt surely die, Ahimelech, thou, and all thy father’s house.",
+      "web": "The king said, “You shall surely die, Ahimelech, you, and all your father’s house.”",
+      "ct": "But the king declared, \"You are going to die, Ahimelech — you and your entire family.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the king said unto the footmen that stood about him, Turn, and slay the priests of the LORD: because their hand also is with David, and because they knew when he fled, and did not shew it to me. But the servants of the king would not put forth their hand to fall upon the priests of the LORD.",
+      "web": "The king said to the guard who stood about him, “Turn, and kill the priests of LORD; because their hand also is with David, and because they knew that he fled, and didn’t disclose it to me.” But the servants of the king wouldn’t put out their hand to fall on the priests of LORD.",
+      "ct": "Then the king ordered his guards, \"Go and kill the priests of the LORD, because they sided with David. They knew he was running from me and didn't tell me.\" But the king's guards refused to raise a hand against the priests of the LORD."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the king said to Doeg, Turn thou, and fall upon the priests. And Doeg the Edomite turned, and he fell upon the priests, and slew on that day fourscore and five persons that did wear a linen ephod.",
+      "web": "The king said to Doeg, “Turn and attack the priests!” Doeg the Edomite turned, and he attacked the priests, and he killed on that day eighty-five people who wore a linen ephod.",
+      "ct": "So the king turned to Doeg and said, \"You do it — attack the priests.\" Doeg the Edomite stepped forward and struck them down. That day he killed 85 men who wore the linen ephod."
+    },
+    {
+      "verse": 19,
+      "kjv": "And Nob, the city of the priests, smote he with the edge of the sword, both men and women, children and sucklings, and oxen, and asses, and sheep, with the edge of the sword.",
+      "web": "He struck Nob, the city of the priests, with the edge of the sword, both men and women, children and nursing babies, and cattle and donkeys and sheep, with the edge of the sword.",
+      "ct": "Then he turned his sword on Nob, the city of the priests, and slaughtered everyone — men and women, children and infants, even the cattle, donkeys, and sheep. He put them all to the sword."
+    },
+    {
+      "verse": 20,
+      "kjv": "And one of the sons of Ahimelech the son of Ahitub, named Abiathar, escaped, and fled after David.",
+      "web": "One of the sons of Ahimelech, the son of Ahitub, named Abiathar, escaped, and fled after David.",
+      "ct": "But one of Ahimelech's sons, a man named Abiathar, escaped and fled to David."
+    },
+    {
+      "verse": 21,
+      "kjv": "And Abiathar shewed David that Saul had slain the LORD’s priests.",
+      "web": "Abiathar told David that Saul had slain LORD’s priests.",
+      "ct": "Abiathar told David that Saul had massacred the priests of the LORD."
+    },
+    {
+      "verse": 22,
+      "kjv": "And David said unto Abiathar, I knew it that day, when Doeg the Edomite was there, that he would surely tell Saul: I have occasioned the death of all the persons of thy father’s house.",
+      "web": "David said to Abiathar, “I knew on that day, when Doeg the Edomite was there, that he would surely tell Saul. I am responsible for the death of all the persons of your father’s house.",
+      "ct": "David said to Abiathar, \"I knew it. The day I saw Doeg the Edomite there, I knew he would tell Saul everything. I'm the one responsible for the death of everyone in your father's family."
+    },
+    {
+      "verse": 23,
+      "kjv": "Abide thou with me, fear not: for he that seeketh my life seeketh thy life: but with me thou shalt be in safeguard.",
+      "web": "Stay with me. Don’t be afraid, for he who seeks my life seeks your life. For you will be safe with me.”",
+      "ct": "Stay with me. Don't be afraid. The man who wants me dead wants you dead too — but as long as you're with me, you'll be safe.\""
+    }
+  ]
+}

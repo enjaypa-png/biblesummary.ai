@@ -1,0 +1,191 @@
+{
+  "book": "judges",
+  "book_name": "Judges",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:34:40.476Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass in those days, when there was no king in Israel, that there was a certain Levite sojourning on the side of mount Ephraim, who took to him a concubine out of Bethlehemjudah.",
+      "web": "In those days, when there was no king in Israel, there was a certain Levite living on the farther side of the hill country of Ephraim, who took for himself a concubine out of Bethlehem Judah.",
+      "ct": "In those days, Israel had no king. A certain Levite was living in a remote area of the hill country of Ephraim, and he had taken a concubine from Bethlehem in Judah."
+    },
+    {
+      "verse": 2,
+      "kjv": "And his concubine played the whore against him, and went away from him unto her father’s house to Bethlehemjudah, and was there four whole months.",
+      "web": "His concubine played the prostitute against him, and went away from him to her father’s house to Bethlehem Judah, and was there for four months.",
+      "ct": "But his concubine was unfaithful to him. She left him and went back to her father's house in Bethlehem, where she stayed for 4 months."
+    },
+    {
+      "verse": 3,
+      "kjv": "And her husband arose, and went after her, to speak friendly unto her, and to bring her again, having his servant with him, and a couple of asses: and she brought him into her father’s house: and when the father of the damsel saw him, he rejoiced to meet him.",
+      "web": "Her husband arose and went after her to speak kindly to her, to bring her again, having his servant with him and a couple of donkeys. She brought him into her father’s house; and when the father of the young lady saw him, he rejoiced to meet him.",
+      "ct": "Her husband set out after her, bringing a servant and two donkeys, hoping to speak kindly to her and win her back. When she brought him into her father's house and her father saw him, he welcomed him warmly."
+    },
+    {
+      "verse": 4,
+      "kjv": "And his father in law, the damsel’s father, retained him; and he abode with him three days: so they did eat and drink, and lodged there.",
+      "web": "His father-in-law, the young lady’s father, kept him there; and he stayed with him three days. So they ate and drank, and stayed there.",
+      "ct": "His father-in-law, the young woman's father, insisted he stay. So he remained there for 3 days, and they ate, drank, and spent the nights together."
+    },
+    {
+      "verse": 5,
+      "kjv": "And it came to pass on the fourth day, when they arose early in the morning, that he rose up to depart: and the damsel’s father said unto his son in law, Comfort thine heart with a morsel of bread, and afterward go your way.",
+      "web": "On the fourth day, they got up early in the morning, and he rose up to depart. The young lady’s father said to his son-in-law, “Strengthen your heart with a morsel of bread, and afterward you shall go your way.”",
+      "ct": "On the 4th day, they got up early in the morning and the Levite prepared to leave. But the young woman's father said to his son-in-law, \"Have something to eat first to keep your strength up, and then you can be on your way.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And they sat down, and did eat and drink both of them together: for the damsel’s father had said unto the man, Be content, I pray thee, and tarry all night, and let thine heart be merry.",
+      "web": "So they sat down, ate, and drank, both of them together. Then the young lady’s father said to the man, “Please be pleased to stay all night, and let your heart be merry.”",
+      "ct": "So the two of them sat down and ate and drank together. Then the young woman's father said to him, \"Please, stay another night and enjoy yourself.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And when the man rose up to depart, his father in law urged him: therefore he lodged there again.",
+      "web": "The man rose up to depart; but his father-in-law urged him, and he stayed there again.",
+      "ct": "The man got up to leave, but his father-in-law pressured him, so he ended up staying another night."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he arose early in the morning on the fifth day to depart: and the damsel’s father said, Comfort thine heart, I pray thee. And they tarried until afternoon, and they did eat both of them.",
+      "web": "He arose early in the morning on the fifth day to depart; and the young lady’s father said, “Please strengthen your heart and stay until the day declines;” and they both ate.",
+      "ct": "On the morning of the 5th day, he got up early to leave. But the young woman's father said, \"Come on, have something to eat first.\" So they lingered until the afternoon, and the two of them ate together."
+    },
+    {
+      "verse": 9,
+      "kjv": "And when the man rose up to depart, he, and his concubine, and his servant, his father in law, the damsel’s father, said unto him, Behold, now the day draweth toward evening, I pray you tarry all night: behold, the day groweth to an end, lodge here, that thine heart may be merry; and to morrow get you early on your way, that thou mayest go home.",
+      "web": "When the man rose up to depart, he, and his concubine, and his servant, his father-in-law, the young lady’s father, said to him, “Behold, now the day draws toward evening, please stay all night. Behold, the day is ending. Stay here, that your heart may be merry; and tomorrow go on your way early, that you may go home.”",
+      "ct": "When the man finally got up to leave with his concubine and his servant, his father-in-law said, \"Look, the day is almost over. It's getting late. Stay one more night and enjoy yourself. Tomorrow you can get an early start and head home.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "But the man would not tarry that night, but he rose up and departed, and came over against Jebus, which is Jerusalem; and there were with him two asses saddled, his concubine also was with him.",
+      "web": "But the man wouldn’t stay that night, but he rose up and went near Jebus (also called Jerusalem). With him were a couple of saddled donkeys. His concubine also was with him.",
+      "ct": "But this time the man refused to stay another night. He got up and left, traveling as far as the area near Jebus — that is, Jerusalem — with his two saddled donkeys and his concubine."
+    },
+    {
+      "verse": 11,
+      "kjv": "And when they were by Jebus, the day was far spent; and the servant said unto his master, Come, I pray thee, and let us turn in into this city of the Jebusites, and lodge in it.",
+      "web": "When they were by Jebus, the day was far spent; and the servant said to his master, “Please come and let’s enter into this city of the Jebusites, and stay in it.”",
+      "ct": "By the time they were near Jebus, the day was almost gone. The servant said to his master, \"Let's stop here and spend the night in this Jebusite city.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And his master said unto him, We will not turn aside hither into the city of a stranger, that is not of the children of Israel; we will pass over to Gibeah.",
+      "web": "His master said to him, “We won’t enter into the city of a foreigner that is not of the children of Israel; but we will pass over to Gibeah.”",
+      "ct": "But his master replied, \"No, we won't stop in a foreign city where the people aren't Israelites. We'll keep going to Gibeah.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And he said unto his servant, Come, and let us draw near to one of these places to lodge all night, in Gibeah, or in Ramah.",
+      "web": "He said to his servant, “Come and let’s draw near to one of these places; and we will lodge in Gibeah, or in Ramah.”",
+      "ct": "He told his servant, \"Come on, let's try to reach either Gibeah or Ramah and spend the night in one of those towns.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And they passed on and went their way; and the sun went down upon them when they were by Gibeah, which belongeth to Benjamin.",
+      "web": "So they passed on and went their way; and the sun went down on them near Gibeah, which belongs to Benjamin.",
+      "ct": "So they pressed on, and the sun set on them just as they reached Gibeah, which belongs to the tribe of Benjamin."
+    },
+    {
+      "verse": 15,
+      "kjv": "And they turned aside thither, to go in and to lodge in Gibeah: and when he went in, he sat him down in a street of the city: for there was no man that took them into his house to lodging.",
+      "web": "They went over there, to go in to stay in Gibeah. He went in, and sat down in the street of the city; for there was no one who took them into his house to stay.",
+      "ct": "They turned off the road to spend the night in Gibeah. The Levite went in and sat down in the town square, but no one offered to take them in for the night."
+    },
+    {
+      "verse": 16,
+      "kjv": "And, behold, there came an old man from his work out of the field at even, which was also of mount Ephraim; and he sojourned in Gibeah: but the men of the place were Benjamites.",
+      "web": "Behold, an old man came from his work out of the field at evening. Now the man was from the hill country of Ephraim, and he lived in Gibeah; but the men of the place were Benjamites.",
+      "ct": "Then an old man came in from working in the fields that evening. He was originally from the hill country of Ephraim but was living in Gibeah, where the local people were Benjamites."
+    },
+    {
+      "verse": 17,
+      "kjv": "And when he had lifted up his eyes, he saw a wayfaring man in the street of the city: and the old man said, Whither goest thou? and whence comest thou?",
+      "web": "He lifted up his eyes, and saw the wayfaring man in the street of the city; and the old man said, “Where are you going? Where did you come from?”",
+      "ct": "He looked up and noticed the traveler sitting in the town square. \"Where are you headed?\" the old man asked. \"And where are you coming from?\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And he said unto him, We are passing from Bethlehemjudah toward the side of mount Ephraim; from thence am I: and I went to Bethlehemjudah, but I am now going to the house of the LORD; and there is no man that receiveth me to house.",
+      "web": "He said to him, “We are passing from Bethlehem Judah to the farther side of the hill country of Ephraim. I am from there, and I went to Bethlehem Judah. I am going to LORD’s house; and there is no one who has taken me into his house.",
+      "ct": "The Levite answered, \"We're traveling from Bethlehem in Judah to a remote part of the hill country of Ephraim, where I'm from. I went to Bethlehem, and now I'm heading to the house of the LORD. But no one here has offered to take us in."
+    },
+    {
+      "verse": 19,
+      "kjv": "Yet there is both straw and provender for our asses; and there is bread and wine also for me, and for thy handmaid, and for the young man which is with thy servants: there is no want of any thing.",
+      "web": "Yet there is both straw and feed for our donkeys; and there is bread and wine also for me, and for your servant, and for the young man who is with your servants. There is no lack of anything.”",
+      "ct": "We have straw and feed for our donkeys, and bread and wine for myself, your servant, and the young man traveling with us. We don't need anything — just a place to stay.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And the old man said, Peace be with thee; howsoever let all thy wants lie upon me; only lodge not in the street.",
+      "web": "The old man said, “Peace be to you! Just let me supply all your needs, but don’t sleep in the street.”",
+      "ct": "The old man said, \"You're welcome in my home. I'll take care of whatever you need. Just don't spend the night out here in the square.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "So he brought him into his house, and gave provender unto the asses: and they washed their feet, and did eat and drink.",
+      "web": "So he brought him into his house, and gave the donkeys fodder. Then they washed their feet, and ate and drank.",
+      "ct": "So he brought them to his house and fed the donkeys. They washed their feet, and then they ate and drank together."
+    },
+    {
+      "verse": 22,
+      "kjv": "Now as they were making their hearts merry, behold, the men of the city, certain sons of Belial, beset the house round about, and beat at the door, and spake to the master of the house, the old man, saying, Bring forth the man that came into thine house, that we may know him.",
+      "web": "As they were making their hearts merry, behold, the men of the city, certain wicked fellows, surrounded the house, beating at the door; and they spoke to the master of the house, the old man, saying, “Bring out the man who came into your house, that we can have sex with him!”",
+      "ct": "While they were enjoying themselves, a mob of wicked men from the city surrounded the house and pounded on the door. They shouted to the old man who owned the house, \"Send out the man who came to your house so we can have sex with him!\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And the man, the master of the house, went out unto them, and said unto them, Nay, my brethren, nay, I pray you, do not so wickedly; seeing that this man is come into mine house, do not this folly.",
+      "web": "The man, the master of the house, went out to them, and said to them, “No, my brothers, please don’t act so wickedly; since this man has come into my house, don’t do this folly.",
+      "ct": "The old man went outside to face them and said, \"No, my brothers, please don't do this evil thing! This man is a guest in my house. Don't commit such an outrage."
+    },
+    {
+      "verse": 24,
+      "kjv": "Behold, here is my daughter a maiden, and his concubine; them I will bring out now, and humble ye them, and do with them what seemeth good unto you: but unto this man do not so vile a thing.",
+      "web": "Behold, here is my virgin daughter and his concubine. I will bring them out now. Humble them, and do with them what seems good to you; but to this man don’t do any such folly.”",
+      "ct": "Look — here is my virgin daughter and his concubine. Let me bring them out to you. Do whatever you want with them, but don't do this vile thing to this man.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "But the men would not hearken to him: so the man took his concubine, and brought her forth unto them; and they knew her, and abused her all the night until the morning: and when the day began to spring, they let her go.",
+      "web": "But the men wouldn’t listen to him; so the man grabbed his concubine, and brought her out to them; and they had sex with her, and abused her all night until the morning. When the day began to dawn, they let her go.",
+      "ct": "But the men wouldn't listen to him. So the Levite grabbed his concubine and shoved her outside to them. They raped her and brutalized her all through the night until dawn. When morning began to break, they finally let her go."
+    },
+    {
+      "verse": 26,
+      "kjv": "Then came the woman in the dawning of the day, and fell down at the door of the man’s house where her lord was, till it was light.",
+      "web": "Then the woman came in the dawning of the day, and fell down at the door of the man’s house where her lord was, until it was light.",
+      "ct": "At daybreak, the woman stumbled back to the house where her master was staying and collapsed at the doorway. She lay there until it was fully light."
+    },
+    {
+      "verse": 27,
+      "kjv": "And her lord rose up in the morning, and opened the doors of the house, and went out to go his way: and, behold, the woman his concubine was fallen down at the door of the house, and her hands were upon the threshold.",
+      "web": "Her lord rose up in the morning and opened the doors of the house, and went out to go his way; and behold, the woman his concubine had fallen down at the door of the house, with her hands on the threshold.",
+      "ct": "Her master got up in the morning, opened the door, and stepped outside to continue his journey. There was his concubine, collapsed at the doorway of the house with her hands on the threshold."
+    },
+    {
+      "verse": 28,
+      "kjv": "And he said unto her, Up, and let us be going. But none answered. Then the man took her up upon an ass, and the man rose up, and gat him unto his place.",
+      "web": "He said to her, “Get up, and let’s get going!” but no one answered. Then he took her up on the donkey; and the man rose up, and went to his place.",
+      "ct": "\"Get up,\" he said to her. \"Let's go.\" But there was no answer. So he lifted her onto the donkey and set out for home."
+    },
+    {
+      "verse": 29,
+      "kjv": "And when he was come into his house, he took a knife, and laid hold on his concubine, and divided her, together with her bones, into twelve pieces, and sent her into all the coasts of Israel.",
+      "web": "When he had come into his house, he took a knife and cut up his concubine, and divided her, limb by limb, into twelve pieces, and sent her throughout all the borders of Israel.",
+      "ct": "When he arrived home, he took a knife and cut his concubine's body limb by limb into 12 pieces. Then he sent one piece to each region of Israel."
+    },
+    {
+      "verse": 30,
+      "kjv": "And it was so, that all that saw it said, There was no such deed done nor seen from the day that the children of Israel came up out of the land of Egypt unto this day: consider of it, take advice, and speak your minds.",
+      "web": "It was so, that all who saw it said, “Such a deed has not been done or seen from the day that the children of Israel came up out of the land of Egypt to this day! Consider it, take counsel, and speak.”",
+      "ct": "Everyone who saw it said, \"Nothing like this has ever been done or seen since the day the people of Israel came out of Egypt! Think about it. Talk it over. Then speak up about what should be done.\""
+    }
+  ]
+}

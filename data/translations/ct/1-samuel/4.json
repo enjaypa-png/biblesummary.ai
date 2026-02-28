@@ -1,0 +1,143 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:38:47.360Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the word of Samuel came to all Israel. Now Israel went out against the Philistines to battle, and pitched beside Ebenezer: and the Philistines pitched in Aphek.",
+      "web": "The word of Samuel came to all Israel. Now Israel went out against the Philistines to battle, and encamped beside Ebenezer; and the Philistines encamped in Aphek.",
+      "ct": "Samuel's message spread throughout all of Israel. Around that time, Israel marched out to fight the Philistines and set up camp near Ebenezer, while the Philistines set up camp at Aphek."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the Philistines put themselves in array against Israel: and when they joined battle, Israel was smitten before the Philistines: and they slew of the army in the field about four thousand men.",
+      "web": "The Philistines put themselves in array against Israel. When they joined battle, Israel was defeated by the Philistines, who killed about four thousand men of the army in the field.",
+      "ct": "The Philistines formed their battle lines against Israel. When the fighting broke out, the Philistines defeated Israel and killed about 4,000 soldiers on the battlefield."
+    },
+    {
+      "verse": 3,
+      "kjv": "And when the people were come into the camp, the elders of Israel said, Wherefore hath the LORD smitten us to day before the Philistines? Let us fetch the ark of the covenant of the LORD out of Shiloh unto us, that, when it cometh among us, it may save us out of the hand of our enemies.",
+      "web": "When the people had come into the camp, the elders of Israel said, “Why has LORD defeated us today before the Philistines? Let’s get the ark of LORD’s covenant out of Shiloh and bring it to us, that it may come among us and save us out of the hand of our enemies.”",
+      "ct": "When the survivors returned to camp, the elders of Israel asked, \"Why did the LORD let the Philistines defeat us today? Let's bring the ark of the covenant of the LORD from Shiloh. If it's here with us, it will save us from our enemies.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "So the people sent to Shiloh, that they might bring from thence the ark of the covenant of the LORD of hosts, which dwelleth between the cherubims: and the two sons of Eli, Hophni and Phinehas, were there with the ark of the covenant of God.",
+      "web": "So the people sent to Shiloh, and they brought from there the ark of the covenant of LORD of Armies, who sits above the cherubim; and the two sons of Eli, Hophni and Phinehas, were there with the ark of the covenant of God.",
+      "ct": "So they sent men to Shiloh, and they brought back the ark of the covenant of the LORD of hosts, who dwells between the cherubim. Eli's 2 sons, Hophni and Phinehas, came along with the ark of the covenant of God."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when the ark of the covenant of the LORD came into the camp, all Israel shouted with a great shout, so that the earth rang again.",
+      "web": "When the ark of LORD’s covenant came into the camp, all Israel shouted with a great shout, so that the earth resounded.",
+      "ct": "When the ark of the covenant of the LORD arrived in the camp, all of Israel erupted in such a thunderous shout that the ground shook."
+    },
+    {
+      "verse": 6,
+      "kjv": "And when the Philistines heard the noise of the shout, they said, What meaneth the noise of this great shout in the camp of the Hebrews? And they understood that the ark of the LORD was come into the camp.",
+      "web": "When the Philistines heard the noise of the shout, they said, “What does the noise of this great shout in the camp of the Hebrews mean?” They understood that LORD’s ark had come into the camp.",
+      "ct": "The Philistines heard the roar and asked, \"What's all that shouting in the Hebrew camp?\" When they found out that the ark of the LORD had been brought into the camp,"
+    },
+    {
+      "verse": 7,
+      "kjv": "And the Philistines were afraid, for they said, God is come into the camp. And they said, Woe unto us! for there hath not been such a thing heretofore.",
+      "web": "The Philistines were afraid, for they said, “God has come into the camp.” They said, “Woe to us! For there has not been such a thing before.",
+      "ct": "the Philistines were terrified. \"God has come into their camp,\" they said. \"This is bad! Nothing like this has ever happened before.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Woe unto us! who shall deliver us out of the hand of these mighty Gods? these are the Gods that smote the Egyptians with all the plagues in the wilderness.",
+      "web": "Woe to us! Who shall deliver us out of the hand of these mighty gods? These are the gods that struck the Egyptians with all kinds of plagues in the wilderness.",
+      "ct": "\"We're doomed! Who can save us from these powerful gods? These are the same gods who struck the Egyptians with every kind of plague in the wilderness.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Be strong, and quit yourselves like men, O ye Philistines, that ye be not servants unto the Hebrews, as they have been to you: quit yourselves like men, and fight.",
+      "web": "Be strong and behave like men, O you Philistines, that you not be servants to the Hebrews, as they have been to you. Strengthen yourselves like men, and fight!”",
+      "ct": "\"Stand strong and fight like men, Philistines! Otherwise you'll end up as slaves to the Hebrews, just like they've been slaves to you. Be men and fight!\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And the Philistines fought, and Israel was smitten, and they fled every man into his tent: and there was a very great slaughter; for there fell of Israel thirty thousand footmen.",
+      "web": "The Philistines fought, and Israel was defeated, and each man fled to his tent. There was a very great slaughter; for thirty thousand footmen of Israel fell.",
+      "ct": "So the Philistines fought, and Israel was crushed. Every man fled to his home. The slaughter was devastating — 30,000 Israelite foot soldiers fell that day."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the ark of God was taken; and the two sons of Eli, Hophni and Phinehas, were slain.",
+      "web": "God’s ark was taken; and the two sons of Eli, Hophni and Phinehas, were slain.",
+      "ct": "The ark of God was captured, and Eli's 2 sons, Hophni and Phinehas, were killed."
+    },
+    {
+      "verse": 12,
+      "kjv": "And there ran a man of Benjamin out of the army, and came to Shiloh the same day with his clothes rent, and with earth upon his head.",
+      "web": "A man of Benjamin ran out of the army and came to Shiloh the same day, with his clothes torn and with dirt on his head.",
+      "ct": "That same day, a man from the tribe of Benjamin ran from the battlefield all the way to Shiloh. His clothes were torn and dirt was on his head as signs of grief."
+    },
+    {
+      "verse": 13,
+      "kjv": "And when he came, lo, Eli sat upon a seat by the wayside watching: for his heart trembled for the ark of God. And when the man came into the city, and told it, all the city cried out.",
+      "web": "When he came, behold, Eli was sitting on his seat by the road watching, for his heart trembled for God’s ark. When the man came into the city and told about it, all the city cried out.",
+      "ct": "When he arrived, Eli was sitting on a chair beside the road, watching and waiting. His heart was trembling with worry about the ark of God. When the man entered the city and told the news, the entire city broke into wailing."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when Eli heard the noise of the crying, he said, What meaneth the noise of this tumult? And the man came in hastily, and told Eli.",
+      "web": "When Eli heard the noise of the crying, he said, “What does the noise of this tumult mean?” The man hurried, and came and told Eli.",
+      "ct": "Eli heard the sound of the crying and asked, \"What's all this commotion about?\" The man rushed over and told Eli what had happened."
+    },
+    {
+      "verse": 15,
+      "kjv": "Now Eli was ninety and eight years old; and his eyes were dim, that he could not see.",
+      "web": "Now Eli was ninety-eight years old. His eyes were set, so that he could not see.",
+      "ct": "Eli was 98 years old by this time, and his eyes had grown so dim that he couldn't see."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the man said unto Eli, I am he that came out of the army, and I fled to day out of the army. And he said, What is there done, my son?",
+      "web": "The man said to Eli, “I am he who came out of the army, and I fled today out of the army.” He said, “How did the matter go, my son?”",
+      "ct": "The man said to Eli, \"I just came from the battlefield — I escaped from the fighting today.\" Eli asked, \"What happened, my son?\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And the messenger answered and said, Israel is fled before the Philistines, and there hath been also a great slaughter among the people, and thy two sons also, Hophni and Phinehas, are dead, and the ark of God is taken.",
+      "web": "He who brought the news answered, “Israel has fled before the Philistines, and there has been also a great slaughter among the people. Your two sons also, Hophni and Phinehas, are dead, and God’s ark has been captured.”",
+      "ct": "The messenger answered, \"Israel fled from the Philistines. There was a terrible slaughter among our people. Your 2 sons, Hophni and Phinehas, are dead. And the ark of God has been captured.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "And it came to pass, when he made mention of the ark of God, that he fell from off the seat backward by the side of the gate, and his neck brake, and he died: for he was an old man, and heavy. And he had judged Israel forty years.",
+      "web": "When he made mention of God’s ark, Eli fell from off his seat backward by the side of the gate; and his neck broke, and he died, for he was an old man and heavy. He had judged Israel forty years.",
+      "ct": "The moment the man mentioned the ark of God, Eli fell backward off his chair beside the gate. He broke his neck and died, because he was old and heavy. He had served as judge over Israel for 40 years."
+    },
+    {
+      "verse": 19,
+      "kjv": "And his daughter in law, Phinehas’ wife, was with child, near to be delivered: and when she heard the tidings that the ark of God was taken, and that her father in law and her husband were dead, she bowed herself and travailed; for her pains came upon her.",
+      "web": "His daughter-in-law, Phinehas’ wife, was with child, near to giving birth. When she heard the news that God’s ark was taken and that her father-in-law and her husband were dead, she bowed herself and gave birth; for her pains came on her.",
+      "ct": "Eli's daughter-in-law, the wife of Phinehas, was pregnant and near her due date. When she heard the news that the ark of God had been captured and that both her father-in-law and her husband were dead, she collapsed and went into labor, because the pain suddenly came over her."
+    },
+    {
+      "verse": 20,
+      "kjv": "And about the time of her death the women that stood by her said unto her, Fear not; for thou hast born a son. But she answered not, neither did she regard it.",
+      "web": "About the time of her death the women who stood by her said to her, “Don’t be afraid, for you have given birth to a son.” But she didn’t answer, neither did she regard it.",
+      "ct": "As she lay dying, the women attending her said, \"Don't be afraid — you've given birth to a son!\" But she didn't respond or even acknowledge their words."
+    },
+    {
+      "verse": 21,
+      "kjv": "And she named the child Ichabod, saying, The glory is departed from Israel: because the ark of God was taken, and because of her father in law and her husband.",
+      "web": "She named the child Ichabod, saying, “The glory has departed from Israel!” because God’s ark was taken, and because of her father-in-law and her husband.",
+      "ct": "She named the boy Ichabod, saying, \"The glory has departed from Israel\" — because the ark of God had been captured, and because of the deaths of her father-in-law and her husband."
+    },
+    {
+      "verse": 22,
+      "kjv": "And she said, The glory is departed from Israel: for the ark of God is taken.",
+      "web": "She said, “The glory has departed from Israel; for God’s ark has been taken.”",
+      "ct": "She said, \"The glory has departed from Israel, for the ark of God has been taken.\""
+    }
+  ]
+}

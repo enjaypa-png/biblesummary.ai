@@ -1,0 +1,227 @@
+{
+  "book": "judges",
+  "book_name": "Judges",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:26:58.431Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now after the death of Joshua it came to pass, that the children of Israel asked the LORD, saying, Who shall go up for us against the Canaanites first, to fight against them?",
+      "web": "After the death of Joshua, the children of Israel asked of LORD, saying, “Who should go up for us first against the Canaanites, to fight against them?”",
+      "ct": "After Joshua died, the people of Israel asked the LORD, \"Which tribe should be the first to go fight the Canaanites?\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD said, Judah shall go up: behold, I have delivered the land into his hand.",
+      "web": "LORD said, “Judah shall go up. Behold, I have delivered the land into his hand.”",
+      "ct": "The LORD answered, \"Judah will go first. I've already handed the land over to them.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And Judah said unto Simeon his brother, Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with thee into thy lot. So Simeon went with him.",
+      "web": "Judah said to Simeon his brother, “Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with you into your lot.” So Simeon went with him.",
+      "ct": "The tribe of Judah said to their brother tribe Simeon, \"Come fight with us in the territory we've been assigned, and we'll return the favor and fight alongside you in yours.\" So Simeon joined them."
+    },
+    {
+      "verse": 4,
+      "kjv": "And Judah went up; and the LORD delivered the Canaanites and the Perizzites into their hand: and they slew of them in Bezek ten thousand men.",
+      "web": "Judah went up, and LORD delivered the Canaanites and the Perizzites into their hand. They struck ten thousand men in Bezek.",
+      "ct": "Judah marched out, and the LORD gave them victory over the Canaanites and the Perizzites. They killed 10,000 men at Bezek."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they found Adonibezek in Bezek: and they fought against him, and they slew the Canaanites and the Perizzites.",
+      "web": "They found Adoni-Bezek in Bezek, and they fought against him. They struck the Canaanites and the Perizzites.",
+      "ct": "They found Adoni-Bezek there in Bezek and fought against him, defeating the Canaanites and the Perizzites."
+    },
+    {
+      "verse": 6,
+      "kjv": "But Adonibezek fled; and they pursued after him, and caught him, and cut off his thumbs and his great toes.",
+      "web": "But Adoni-Bezek fled. They pursued him, caught him, and cut off his thumbs and his big toes.",
+      "ct": "Adoni-Bezek tried to escape, but they chased him down, captured him, and cut off his thumbs and big toes."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Adonibezek said, Threescore and ten kings, having their thumbs and their great toes cut off, gathered their meat under my table: as I have done, so God hath requited me. And they brought him to Jerusalem, and there he died.",
+      "web": "Adoni-Bezek said, “Seventy kings, having their thumbs and their big toes cut off, scavenged under my table. As I have done, so God has done to me.” They brought him to Jerusalem, and he died there.",
+      "ct": "Adoni-Bezek said, \"70 kings with their thumbs and big toes cut off used to scavenge for scraps under my table. Now God has paid me back for what I did.\" They brought him to Jerusalem, and he died there."
+    },
+    {
+      "verse": 8,
+      "kjv": "Now the children of Judah had fought against Jerusalem, and had taken it, and smitten it with the edge of the sword, and set the city on fire.",
+      "web": "The children of Judah fought against Jerusalem, took it, struck it with the edge of the sword, and set the city on fire.",
+      "ct": "The men of Judah attacked Jerusalem, captured it, put its people to the sword, and set the city on fire."
+    },
+    {
+      "verse": 9,
+      "kjv": "And afterward the children of Judah went down to fight against the Canaanites, that dwelt in the mountain, and in the south, and in the valley.",
+      "web": "After that, the children of Judah went down to fight against the Canaanites who lived in the hill country, and in the South, and in the lowland.",
+      "ct": "After that, the men of Judah went south to fight the Canaanites living in the hill country, the Negev, and the lowlands."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Judah went against the Canaanites that dwelt in Hebron: (now the name of Hebron before was Kirjatharba:) and they slew Sheshai, and Ahiman, and Talmai.",
+      "web": "Judah went against the Canaanites who lived in Hebron. (The name of Hebron before that was Kiriath Arba.) They struck Sheshai, Ahiman, and Talmai.",
+      "ct": "Judah attacked the Canaanites living in Hebron (which used to be called Kirjath-arba) and killed Sheshai, Ahiman, and Talmai."
+    },
+    {
+      "verse": 11,
+      "kjv": "And from thence he went against the inhabitants of Debir: and the name of Debir before was Kirjathsepher:",
+      "web": "From there he went against the inhabitants of Debir. (The name of Debir before that was Kiriath Sepher.)",
+      "ct": "From there they marched against the people of Debir, which used to be called Kirjath-sepher."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Caleb said, He that smiteth Kirjathsepher, and taketh it, to him will I give Achsah my daughter to wife.",
+      "web": "Caleb said, “I will give Achsah my daughter as wife to the man who strikes Kiriath Sepher, and takes it.”",
+      "ct": "Caleb announced, \"Whoever attacks Kirjath-sepher and captures it — I'll give him my daughter Achsah as his wife.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Othniel the son of Kenaz, Caleb’s younger brother, took it: and he gave him Achsah his daughter to wife.",
+      "web": "Othniel the son of Kenaz, Caleb’s younger brother, took it, so he gave him Achsah his daughter as his wife.",
+      "ct": "Othniel son of Kenaz, Caleb's younger brother, captured the city. So Caleb gave him his daughter Achsah in marriage."
+    },
+    {
+      "verse": 14,
+      "kjv": "And it came to pass, when she came to him, that she moved him to ask of her father a field: and she lighted from off her ass; and Caleb said unto her, What wilt thou?",
+      "web": "When she came, she got him to ask her father for a field. She got off her donkey; and Caleb said to her, “What would you like?”",
+      "ct": "When Achsah came to Othniel, she urged him to ask her father for a piece of land. She got down from her donkey, and Caleb asked her, \"What do you want?\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And she said unto him, Give me a blessing: for thou hast given me a south land; give me also springs of water. And Caleb gave her the upper springs and the nether springs.",
+      "web": "She said to him, “Give me a blessing; because you have set me in the land of the South, give me also springs of water.” Then Caleb gave her the upper springs and the lower springs.",
+      "ct": "She replied, \"Give me a gift. You've already given me land in the Negev — now give me springs of water too.\" So Caleb gave her both the upper and lower springs."
+    },
+    {
+      "verse": 16,
+      "kjv": "And the children of the Kenite, Moses’ father in law, went up out of the city of palm trees with the children of Judah into the wilderness of Judah, which lieth in the south of Arad; and they went and dwelt among the people.",
+      "web": "The children of the Kenite, Moses’ brother-in-law, went up out of the city of palm trees with the children of Judah into the wilderness of Judah, which is in the south of Arad; and they went and lived with the people.",
+      "ct": "The descendants of Moses' father-in-law, the Kenite, left the City of Palms and traveled with the people of Judah into the wilderness of Judah, south of Arad. They settled there among the local people."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Judah went with Simeon his brother, and they slew the Canaanites that inhabited Zephath, and utterly destroyed it. And the name of the city was called Hormah.",
+      "web": "Judah went with Simeon his brother, and they struck the Canaanites who inhabited Zephath, and utterly destroyed it. The name of the city was called Hormah.",
+      "ct": "Then Judah joined forces with his brother Simeon, and together they attacked the Canaanites living in Zephath, completely destroying the city. So it was renamed Hormah."
+    },
+    {
+      "verse": 18,
+      "kjv": "Also Judah took Gaza with the coast thereof, and Askelon with the coast thereof, and Ekron with the coast thereof.",
+      "web": "Also Judah took Gaza with its border, and Ashkelon with its border, and Ekron with its border.",
+      "ct": "Judah also captured Gaza, Ashkelon, and Ekron, along with the territory surrounding each city."
+    },
+    {
+      "verse": 19,
+      "kjv": "And the LORD was with Judah; and he drave out the inhabitants of the mountain; but could not drive out the inhabitants of the valley, because they had chariots of iron.",
+      "web": "LORD was with Judah, and drove out the inhabitants of the hill country; for he could not drive out the inhabitants of the valley, because they had chariots of iron.",
+      "ct": "The LORD was with Judah, and they took control of the hill country. But they couldn't drive out the people living in the valley, because those people had iron chariots."
+    },
+    {
+      "verse": 20,
+      "kjv": "And they gave Hebron unto Caleb, as Moses said: and he expelled thence the three sons of Anak.",
+      "web": "They gave Hebron to Caleb, as Moses had said, and he drove the three sons of Anak out of there.",
+      "ct": "As Moses had promised, they gave Hebron to Caleb, and he drove out the 3 sons of Anak from there."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the children of Benjamin did not drive out the Jebusites that inhabited Jerusalem; but the Jebusites dwell with the children of Benjamin in Jerusalem unto this day.",
+      "web": "The children of Benjamin didn’t drive out the Jebusites who inhabited Jerusalem, but the Jebusites dwell with the children of Benjamin in Jerusalem to this day.",
+      "ct": "The tribe of Benjamin, however, failed to drive out the Jebusites living in Jerusalem. To this day, the Jebusites still live alongside the people of Benjamin in Jerusalem."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the house of Joseph, they also went up against Bethel: and the LORD was with them.",
+      "web": "The house of Joseph also went up against Bethel, and LORD was with them.",
+      "ct": "The tribes descended from Joseph also went on the attack against Bethel, and the LORD was with them."
+    },
+    {
+      "verse": 23,
+      "kjv": "And the house of Joseph sent to descry Bethel. (Now the name of the city before was Luz.)",
+      "web": "The house of Joseph sent to spy out Bethel. (The name of the city before that was Luz.)",
+      "ct": "They sent scouts to spy out Bethel, which used to be called Luz."
+    },
+    {
+      "verse": 24,
+      "kjv": "And the spies saw a man come forth out of the city, and they said unto him, Shew us, we pray thee, the entrance into the city, and we will shew thee mercy.",
+      "web": "The watchers saw a man come out of the city, and they said to him, “Please show us the entrance into the city, and we will deal kindly with you.”",
+      "ct": "The scouts spotted a man coming out of the city and said to him, \"Show us how to get into the city, and we'll treat you well.\""
+    },
+    {
+      "verse": 25,
+      "kjv": "And when he shewed them the entrance into the city, they smote the city with the edge of the sword; but they let go the man and all his family.",
+      "web": "He showed them the entrance into the city, and they struck the city with the edge of the sword; but they let the man and all his family go.",
+      "ct": "He showed them the way in, and they put the city to the sword — but they let the man and his entire family go free."
+    },
+    {
+      "verse": 26,
+      "kjv": "And the man went into the land of the Hittites, and built a city, and called the name thereof Luz: which is the name thereof unto this day.",
+      "web": "The man went into the land of the Hittites, built a city, and called its name Luz, which is its name to this day.",
+      "ct": "The man traveled to the land of the Hittites, built a city there, and named it Luz — and that's still its name today."
+    },
+    {
+      "verse": 27,
+      "kjv": "Neither did Manasseh drive out the inhabitants of Bethshean and her towns, nor Taanach and her towns, nor the inhabitants of Dor and her towns, nor the inhabitants of Ibleam and her towns, nor the inhabitants of Megiddo and her towns: but the Canaanites would dwell in that land.",
+      "web": "Manasseh didn’t drive out the inhabitants of Beth Shean and its towns, nor Taanach and its towns, nor the inhabitants of Dor and its towns, nor the inhabitants of Ibleam and its towns, nor the inhabitants of Megiddo and its towns; but the Canaanites would dwell in that land.",
+      "ct": "Manasseh failed to drive out the people of Beth-shean, Taanach, Dor, Ibleam, and Megiddo, along with their surrounding towns. The Canaanites were determined to stay in that land."
+    },
+    {
+      "verse": 28,
+      "kjv": "And it came to pass, when Israel was strong, that they put the Canaanites to tribute, and did not utterly drive them out.",
+      "web": "When Israel had grown strong, they put the Canaanites to forced labor, and didn’t utterly drive them out.",
+      "ct": "When Israel grew stronger, they forced the Canaanites into hard labor but never completely drove them out."
+    },
+    {
+      "verse": 29,
+      "kjv": "Neither did Ephraim drive out the Canaanites that dwelt in Gezer; but the Canaanites dwelt in Gezer among them.",
+      "web": "Ephraim didn’t drive out the Canaanites who lived in Gezer, but the Canaanites lived in Gezer among them.",
+      "ct": "Ephraim didn't drive out the Canaanites living in Gezer either, so the Canaanites continued living among them."
+    },
+    {
+      "verse": 30,
+      "kjv": "Neither did Zebulun drive out the inhabitants of Kitron, nor the inhabitants of Nahalol; but the Canaanites dwelt among them, and became tributaries.",
+      "web": "Zebulun didn’t drive out the inhabitants of Kitron, nor the inhabitants of Nahalol; but the Canaanites lived among them, and became subject to forced labor.",
+      "ct": "Zebulun didn't drive out the people of Kitron or Nahalol. The Canaanites stayed among them but were forced into hard labor."
+    },
+    {
+      "verse": 31,
+      "kjv": "Neither did Asher drive out the inhabitants of Accho, nor the inhabitants of Zidon, nor of Ahlab, nor of Achzib, nor of Helbah, nor of Aphik, nor of Rehob:",
+      "web": "Asher didn’t drive out the inhabitants of Acco, nor the inhabitants of Sidon, nor of Ahlab, nor of Achzib, nor of Helbah, nor of Aphik, nor of Rehob;",
+      "ct": "Asher didn't drive out the people of Accho, Zidon, Ahlab, Achzib, Helbah, Aphik, or Rehob."
+    },
+    {
+      "verse": 32,
+      "kjv": "But the Asherites dwelt among the Canaanites, the inhabitants of the land: for they did not drive them out.",
+      "web": "but the Asherites lived among the Canaanites, the inhabitants of the land, for they didn’t drive them out.",
+      "ct": "So the people of Asher ended up living among the Canaanites who already occupied the land, because they never drove them out."
+    },
+    {
+      "verse": 33,
+      "kjv": "Neither did Naphtali drive out the inhabitants of Bethshemesh, nor the inhabitants of Bethanath; but he dwelt among the Canaanites, the inhabitants of the land: nevertheless the inhabitants of Bethshemesh and of Bethanath became tributaries unto them.",
+      "web": "Naphtali didn’t drive out the inhabitants of Beth Shemesh, nor the inhabitants of Beth Anath; but he lived among the Canaanites, the inhabitants of the land. Nevertheless the inhabitants of Beth Shemesh and of Beth Anath became subject to forced labor.",
+      "ct": "Naphtali didn't drive out the people of Beth-shemesh or Beth-anath. Instead, they lived among the Canaanites already in the land. However, they did force the people of Beth-shemesh and Beth-anath into hard labor."
+    },
+    {
+      "verse": 34,
+      "kjv": "And the Amorites forced the children of Dan into the mountain: for they would not suffer them to come down to the valley:",
+      "web": "The Amorites forced the children of Dan into the hill country, for they would not allow them to come down to the valley;",
+      "ct": "The Amorites pushed the tribe of Dan back into the hill country and refused to let them come down into the valley."
+    },
+    {
+      "verse": 35,
+      "kjv": "But the Amorites would dwell in mount Heres in Aijalon, and in Shaalbim: yet the hand of the house of Joseph prevailed, so that they became tributaries.",
+      "web": "but the Amorites would dwell in Mount Heres, in Aijalon, and in Shaalbim. Yet the hand of the house of Joseph prevailed, so that they became subject to forced labor.",
+      "ct": "The Amorites insisted on staying in Mount Heres, Aijalon, and Shaalbim. But when the tribes of Joseph grew powerful enough, they forced the Amorites into hard labor."
+    },
+    {
+      "verse": 36,
+      "kjv": "And the coast of the Amorites was from the going up to Akrabbim, from the rock, and upward.",
+      "web": "The border of the Amorites was from the ascent of Akrabbim, from the rock, and upward.",
+      "ct": "The territory of the Amorites stretched from the Ascent of Akrabbim and from Sela and beyond."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:39:00.861Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And the Philistines took the ark of God, and brought it from Ebenezer unto Ashdod.",
+      "web": "Now the Philistines had taken God’s ark, and they brought it from Ebenezer to Ashdod.",
+      "ct": "After capturing the ark of God, the Philistines carried it from Ebenezer to the city of Ashdod."
+    },
+    {
+      "verse": 2,
+      "kjv": "When the Philistines took the ark of God, they brought it into the house of Dagon, and set it by Dagon.",
+      "web": "The Philistines took God’s ark, and brought it into the house of Dagon and set it by Dagon.",
+      "ct": "They brought the ark of God into the temple of their god Dagon and placed it right next to Dagon's statue."
+    },
+    {
+      "verse": 3,
+      "kjv": "And when they of Ashdod arose early on the morrow, behold, Dagon was fallen upon his face to the earth before the ark of the LORD. And they took Dagon, and set him in his place again.",
+      "web": "When the people of Ashdod arose early on the next day, behold, Dagon had fallen on his face to the ground before LORD’s ark. They took Dagon and set him in his place again.",
+      "ct": "When the people of Ashdod got up early the next morning, they found Dagon's statue had fallen face-down on the ground in front of the ark of the LORD. So they picked Dagon up and put him back in his place."
+    },
+    {
+      "verse": 4,
+      "kjv": "And when they arose early on the morrow morning, behold, Dagon was fallen upon his face to the ground before the ark of the LORD; and the head of Dagon and both the palms of his hands were cut off upon the threshold; only the stump of Dagon was left to him.",
+      "web": "When they arose early on the following morning, behold, Dagon had fallen on his face to the ground before LORD’s ark; and the head of Dagon and both the palms of his hands were cut off on the threshold. Only Dagon’s torso was intact.",
+      "ct": "But when they got up early the following morning, Dagon had fallen face-down on the ground before the ark of the LORD again — and this time his head and both his hands had been broken off and were lying on the threshold. Only the torso of the statue was left."
+    },
+    {
+      "verse": 5,
+      "kjv": "Therefore neither the priests of Dagon, nor any that come into Dagon’s house, tread on the threshold of Dagon in Ashdod unto this day.",
+      "web": "Therefore neither the priests of Dagon nor any who come into Dagon’s house step on the threshold of Dagon in Ashdod to this day.",
+      "ct": "That's why to this day, neither Dagon's priests nor anyone who enters his temple in Ashdod will step on the threshold."
+    },
+    {
+      "verse": 6,
+      "kjv": "But the hand of the LORD was heavy upon them of Ashdod, and he destroyed them, and smote them with emerods, even Ashdod and the coasts thereof.",
+      "web": "But LORD’s hand was heavy on the people of Ashdod, and he destroyed them and struck them with tumors, even Ashdod and its borders.",
+      "ct": "The LORD's hand came down hard on the people of Ashdod. He devastated them and struck them with tumors — both the people in the city and in the surrounding area."
+    },
+    {
+      "verse": 7,
+      "kjv": "And when the men of Ashdod saw that it was so, they said, The ark of the God of Israel shall not abide with us: for his hand is sore upon us, and upon Dagon our god.",
+      "web": "When the men of Ashdod saw that it was so, they said, “The ark of the God of Israel shall not stay with us, for his hand is severe on us and on Dagon our god.”",
+      "ct": "When the men of Ashdod saw what was happening, they said, \"The ark of the God of Israel can't stay here with us. His hand is crushing us and our god Dagon.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "They sent therefore and gathered all the lords of the Philistines unto them, and said, What shall we do with the ark of the God of Israel? And they answered, Let the ark of the God of Israel be carried about unto Gath. And they carried the ark of the God of Israel about thither.",
+      "web": "They sent therefore and gathered together all the lords of the Philistines, and said, “What shall we do with the ark of the God of Israel?” They answered, “Let the ark of the God of Israel be carried over to Gath.” They carried the ark of the God of Israel there.",
+      "ct": "So they sent messengers and gathered all the Philistine rulers together and asked, \"What should we do with the ark of the God of Israel?\" The rulers answered, \"Move it to Gath.\" So they moved the ark of the God of Israel to Gath."
+    },
+    {
+      "verse": 9,
+      "kjv": "And it was so, that, after they had carried it about, the hand of the LORD was against the city with a very great destruction: and he smote the men of the city, both small and great, and they had emerods in their secret parts.",
+      "web": "It was so, that after they had carried it there, LORD’s hand was against the city with a very great confusion; and he struck the men of the city, both small and great, so that tumors broke out on them.",
+      "ct": "But after the ark arrived, the LORD's hand struck that city too, throwing it into total chaos. He afflicted the people of Gath with tumors — everyone from the least to the greatest."
+    },
+    {
+      "verse": 10,
+      "kjv": "Therefore they sent the ark of God to Ekron. And it came to pass, as the ark of God came to Ekron, that the Ekronites cried out, saying, They have brought about the ark of the God of Israel to us, to slay us and our people.",
+      "web": "So they sent God’s ark to Ekron. As God’s ark came to Ekron, the Ekronites cried out, saying, “They have brought the ark of the God of Israel here to us, to kill us and our people.”",
+      "ct": "So they sent the ark of God to Ekron. But as soon as it arrived, the people of Ekron cried out in panic, \"They've brought the ark of the God of Israel here to kill us all!\""
+    },
+    {
+      "verse": 11,
+      "kjv": "So they sent and gathered together all the lords of the Philistines, and said, Send away the ark of the God of Israel, and let it go again to his own place, that it slay us not, and our people: for there was a deadly destruction throughout all the city; the hand of God was very heavy there.",
+      "web": "They sent therefore and gathered together all the lords of the Philistines, and they said, “Send the ark of the God of Israel away, and let it go again to its own place, that it not kill us and our people.” For there was a deadly panic throughout all the city. The hand of God was very heavy there.",
+      "ct": "They urgently called together all the Philistine rulers and begged, \"Send the ark of the God of Israel back where it came from before it kills us and our people!\" A deadly plague had gripped the entire city, and the hand of God weighed heavily on them."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the men that died not were smitten with the emerods: and the cry of the city went up to heaven.",
+      "web": "The men who didn’t die were struck with the tumors; and the cry of the city went up to heaven.",
+      "ct": "Those who didn't die were struck with tumors, and the desperate cries of the city rose all the way to heaven."
+    }
+  ]
+}

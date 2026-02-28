@@ -1,0 +1,143 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 8,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:39:53.847Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, when Samuel was old, that he made his sons judges over Israel.",
+      "web": "When Samuel was old, he made his sons judges over Israel.",
+      "ct": "When Samuel grew old, he appointed his sons as judges over Israel."
+    },
+    {
+      "verse": 2,
+      "kjv": "Now the name of his firstborn was Joel; and the name of his second, Abiah: they were judges in Beersheba.",
+      "web": "Now the name of his firstborn was Joel; and the name of his second, Abijah. They were judges in Beersheba.",
+      "ct": "His firstborn son was named Joel, and his second son was named Abijah. They served as judges in Beersheba."
+    },
+    {
+      "verse": 3,
+      "kjv": "And his sons walked not in his ways, but turned aside after lucre, and took bribes, and perverted judgment.",
+      "web": "His sons didn’t walk in his ways, but turned away after dishonest gain, took bribes, and perverted justice.",
+      "ct": "But his sons didn't follow his example. They chased after dishonest money, accepted bribes, and twisted justice."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then all the elders of Israel gathered themselves together, and came to Samuel unto Ramah,",
+      "web": "Then all the elders of Israel gathered themselves together and came to Samuel to Ramah.",
+      "ct": "So all the elders of Israel gathered together and went to Samuel at Ramah."
+    },
+    {
+      "verse": 5,
+      "kjv": "And said unto him, Behold, thou art old, and thy sons walk not in thy ways: now make us a king to judge us like all the nations.",
+      "web": "They said to him, “Behold, you are old, and your sons don’t walk in your ways. Now make us a king to judge us like all the nations.”",
+      "ct": "They told him, \"Look, you're getting old, and your sons don't follow your ways. Appoint a king to lead us, like all the other nations have.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "But the thing displeased Samuel, when they said, Give us a king to judge us. And Samuel prayed unto the LORD.",
+      "web": "But the thing displeased Samuel, when they said, “Give us a king to judge us.” Samuel prayed to LORD.",
+      "ct": "Samuel was deeply troubled when they said, \"Give us a king to lead us.\" So he prayed to the LORD about it."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the LORD said unto Samuel, Hearken unto the voice of the people in all that they say unto thee: for they have not rejected thee, but they have rejected me, that I should not reign over them.",
+      "web": "LORD said to Samuel, “Listen to the voice of the people in all that they tell you; for they have not rejected you, but they have rejected me as the king over them.",
+      "ct": "The LORD told Samuel, \"Listen to everything the people are saying to you. They haven't rejected you — they've rejected me as their king."
+    },
+    {
+      "verse": 8,
+      "kjv": "According to all the works which they have done since the day that I brought them up out of Egypt even unto this day, wherewith they have forsaken me, and served other gods, so do they also unto thee.",
+      "web": "According to all the works which they have done since the day that I brought them up out of Egypt even to this day, in that they have forsaken me, and served other gods, so they also do to you.",
+      "ct": "This is what they've been doing ever since I brought them out of Egypt. They've abandoned me and served other gods, over and over. Now they're doing the same thing to you."
+    },
+    {
+      "verse": 9,
+      "kjv": "Now therefore hearken unto their voice: howbeit yet protest solemnly unto them, and shew them the manner of the king that shall reign over them.",
+      "web": "Now therefore listen to their voice. However you shall protest solemnly to them, and shall show them the way of the king who will reign over them.”",
+      "ct": "So go ahead and give them what they want. But warn them clearly. Tell them exactly what a king will do to them.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And Samuel told all the words of the LORD unto the people that asked of him a king.",
+      "web": "Samuel told all LORD’s words to the people who asked him for a king.",
+      "ct": "Samuel passed along everything the LORD had said to the people who were demanding a king."
+    },
+    {
+      "verse": 11,
+      "kjv": "And he said, This will be the manner of the king that shall reign over you: He will take your sons, and appoint them for himself, for his chariots, and to be his horsemen; and some shall run before his chariots.",
+      "web": "He said, “This will be the way of the king who shall reign over you: he will take your sons, and appoint them as his servants, for his chariots, and to be his horsemen; and they will run before his chariots.",
+      "ct": "He said, \"Here's what a king will do to you: He'll draft your sons and assign them to his chariots and cavalry. Some will run ahead of his chariots as an escort."
+    },
+    {
+      "verse": 12,
+      "kjv": "And he will appoint him captains over thousands, and captains over fifties; and will set them to ear his ground, and to reap his harvest, and to make his instruments of war, and instruments of his chariots.",
+      "web": "He will appoint them to him for captains of thousands, and captains of fifties; and he will assign some to plow his ground, and to reap his harvest, and to make his instruments of war, and the instruments of his chariots.",
+      "ct": "He'll make some of them commanders over thousands and commanders over 50s. Others he'll force to plow his fields, harvest his crops, and build his weapons and chariot equipment."
+    },
+    {
+      "verse": 13,
+      "kjv": "And he will take your daughters to be confectionaries, and to be cooks, and to be bakers.",
+      "web": "He will take your daughters to be perfumers, to be cooks, and to be bakers.",
+      "ct": "He'll take your daughters to make perfume for him, to cook his food, and to bake his bread."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he will take your fields, and your vineyards, and your oliveyards, even the best of them, and give them to his servants.",
+      "web": "He will take your fields, your vineyards, and your olive groves, even their best, and give them to his servants.",
+      "ct": "He'll seize your best fields, vineyards, and olive groves and hand them over to his officials."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he will take the tenth of your seed, and of your vineyards, and give to his officers, and to his servants.",
+      "web": "He will take one tenth of your seed, and of your vineyards, and give it to his officers, and to his servants.",
+      "ct": "He'll take a tenth of your grain and your grape harvest and give it to his officers and servants."
+    },
+    {
+      "verse": 16,
+      "kjv": "And he will take your menservants, and your maidservants, and your goodliest young men, and your asses, and put them to his work.",
+      "web": "He will take your male servants, your female servants, your best young men, and your donkeys, and assign them to his own work.",
+      "ct": "He'll take your male and female servants, your strongest young men, and your donkeys, and put them all to work for himself."
+    },
+    {
+      "verse": 17,
+      "kjv": "He will take the tenth of your sheep: and ye shall be his servants.",
+      "web": "He will take one tenth of your flocks; and you will be his servants.",
+      "ct": "He'll take a tenth of your flocks. And you yourselves will become his servants."
+    },
+    {
+      "verse": 18,
+      "kjv": "And ye shall cry out in that day because of your king which ye shall have chosen you; and the LORD will not hear you in that day.",
+      "web": "You will cry out in that day because of your king whom you will have chosen for yourselves; and LORD will not answer you in that day.”",
+      "ct": "When that day comes, you'll cry out for relief from the king you chose for yourselves — but the LORD won't answer you then.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Nevertheless the people refused to obey the voice of Samuel; and they said, Nay; but we will have a king over us;",
+      "web": "But the people refused to listen to the voice of Samuel; and they said, “No; but we will have a king over us,",
+      "ct": "But the people refused to listen to Samuel. \"No!\" they said. \"We want a king over us!"
+    },
+    {
+      "verse": 20,
+      "kjv": "That we also may be like all the nations; and that our king may judge us, and go out before us, and fight our battles.",
+      "web": "that we also may be like all the nations, and that our king may judge us, and go out before us, and fight our battles.”",
+      "ct": "We want to be like all the other nations. We want a king to rule over us, lead us into battle, and fight our wars.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Samuel heard all the words of the people, and he rehearsed them in the ears of the LORD.",
+      "web": "Samuel heard all the words of the people, and he rehearsed them in the ears of LORD.",
+      "ct": "Samuel listened to everything the people said, then he repeated it all to the LORD."
+    },
+    {
+      "verse": 22,
+      "kjv": "And the LORD said to Samuel, Hearken unto their voice, and make them a king. And Samuel said unto the men of Israel, Go ye every man unto his city.",
+      "web": "LORD said to Samuel, “Listen to their voice, and make them a king.” Samuel said to the men of Israel, “Everyone go to your own city.”",
+      "ct": "The LORD told Samuel, \"Give them what they're asking for. Give them a king.\" Then Samuel said to the men of Israel, \"Go on home, each of you back to your own city.\""
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:38:09.429Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Hannah prayed, and said, My heart rejoiceth in the LORD, mine horn is exalted in the LORD: my mouth is enlarged over mine enemies; because I rejoice in thy salvation.",
+      "web": "Hannah prayed, and said: “My heart exults in LORD! My horn is exalted in LORD. My mouth is enlarged over my enemies, because I rejoice in your salvation.",
+      "ct": "Then Hannah prayed and said: \"My heart overflows with joy because of the LORD! The LORD has lifted me up and made me strong. I can laugh at my enemies now, because I rejoice in your salvation."
+    },
+    {
+      "verse": 2,
+      "kjv": "There is none holy as the LORD: for there is none beside thee: neither is there any rock like our God.",
+      "web": "There is no one as holy as LORD, for there is no one besides you, nor is there any rock like our God. ",
+      "ct": "\"No one is holy like the LORD — there is no one besides you! There is no rock as solid as our God."
+    },
+    {
+      "verse": 3,
+      "kjv": "Talk no more so exceeding proudly; let not arrogancy come out of your mouth: for the LORD is a God of knowledge, and by him actions are weighed.",
+      "web": "“Don’t keep talking so exceedingly proudly. Don’t let arrogance come out of your mouth, for LORD is a God of knowledge. By him actions are weighed. ",
+      "ct": "\"Stop speaking with such arrogance. Don't let proud words come out of your mouth, because the LORD is a God who knows everything, and he weighs every action."
+    },
+    {
+      "verse": 4,
+      "kjv": "The bows of the mighty men are broken, and they that stumbled are girded with strength.",
+      "web": "“The bows of the mighty men are broken. Those who stumbled are armed with strength.",
+      "ct": "\"The bows of mighty warriors are shattered, but those who stumbled are now armed with strength."
+    },
+    {
+      "verse": 5,
+      "kjv": "They that were full have hired out themselves for bread; and they that were hungry ceased: so that the barren hath born seven; and she that hath many children is waxed feeble.",
+      "web": "Those who were full have hired themselves out for bread. Those who were hungry are satisfied. Yes, the barren has borne seven. She who has many children languishes. ",
+      "ct": "\"Those who once had plenty are now hiring themselves out for bread, while those who were hungry are hungry no more. The woman who was barren has given birth to 7 children, but the mother of many has grown weak."
+    },
+    {
+      "verse": 6,
+      "kjv": "The LORD killeth, and maketh alive: he bringeth down to the grave, and bringeth up.",
+      "web": "“LORD kills and makes alive. He brings down to Sheol and brings up.",
+      "ct": "\"The LORD brings death and gives life. He sends people down to the grave and raises them up again."
+    },
+    {
+      "verse": 7,
+      "kjv": "The LORD maketh poor, and maketh rich: he bringeth low, and lifteth up.",
+      "web": "LORD makes poor and makes rich. He brings low, he also lifts up.",
+      "ct": "\"The LORD makes some poor and others rich. He humbles some and lifts others up."
+    },
+    {
+      "verse": 8,
+      "kjv": "He raiseth up the poor out of the dust, and lifteth up the beggar from the dunghill, to set them among princes, and to make them inherit the throne of glory: for the pillars of the earth are the LORD’s, and he hath set the world upon them.",
+      "web": "He raises up the poor out of the dust. He lifts up the needy from the dunghill to make them sit with princes and inherit the throne of glory. For the pillars of the earth are LORD’s. He has set the world on them.",
+      "ct": "\"He raises the poor from the dust and lifts the needy from the garbage heap, seating them among princes and giving them a throne of glory. The pillars of the earth belong to the LORD — he set the whole world on them."
+    },
+    {
+      "verse": 9,
+      "kjv": "He will keep the feet of his saints, and the wicked shall be silent in darkness; for by strength shall no man prevail.",
+      "web": "He will keep the feet of his holy ones, but the wicked will be put to silence in darkness; for no man will prevail by strength.",
+      "ct": "\"He guards the steps of his faithful ones, but the wicked will be silenced in darkness. No one succeeds by their own strength alone."
+    },
+    {
+      "verse": 10,
+      "kjv": "The adversaries of the LORD shall be broken to pieces; out of heaven shall he thunder upon them: the LORD shall judge the ends of the earth; and he shall give strength unto his king, and exalt the horn of his anointed.",
+      "web": "Those who strive with LORD shall be broken to pieces. He will thunder against them in the sky. “LORD will judge the ends of the earth. He will give strength to his king, and exalt the horn of his anointed.”",
+      "ct": "\"Those who oppose the LORD will be shattered. He will thunder against them from heaven. The LORD will judge the entire earth. He will give strength to his king and lift up the power of his anointed.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Elkanah went to Ramah to his house. And the child did minister unto the LORD before Eli the priest.",
+      "web": "Elkanah went to Ramah to his house. The child served LORD before Eli the priest.",
+      "ct": "Then Elkanah went home to Ramah, but the boy Samuel stayed behind and served the LORD under the guidance of Eli the priest."
+    },
+    {
+      "verse": 12,
+      "kjv": "Now the sons of Eli were sons of Belial; they knew not the LORD.",
+      "web": "Now the sons of Eli were wicked men. They didn’t know LORD.",
+      "ct": "Now Eli's sons were wicked men who had no regard for the LORD."
+    },
+    {
+      "verse": 13,
+      "kjv": "And the priests’ custom with the people was, that, when any man offered sacrifice, the priest’s servant came, while the flesh was in seething, with a fleshhook of three teeth in his hand;",
+      "web": "The custom of the priests with the people was that when anyone offered a sacrifice, the priest’s servant came while the meat was boiling, with a fork of three teeth in his hand;",
+      "ct": "Here was the corrupt practice these priests had with the people: whenever someone brought a sacrifice, the priest's servant would come while the meat was still boiling, holding a 3-pronged fork in his hand."
+    },
+    {
+      "verse": 14,
+      "kjv": "And he struck it into the pan, or kettle, or caldron, or pot; all that the fleshhook brought up the priest took for himself. So they did in Shiloh unto all the Israelites that came thither.",
+      "web": "and he stabbed it into the pan, or kettle, or cauldron, or pot. The priest took all that the fork brought up for himself. They did this to all the Israelites who came there to Shiloh.",
+      "ct": "He would jab the fork into the pan, kettle, cauldron, or pot, and whatever the fork pulled out, the priest kept for himself. This is what they did to every Israelite who came to worship at Shiloh."
+    },
+    {
+      "verse": 15,
+      "kjv": "Also before they burnt the fat, the priest’s servant came, and said to the man that sacrificed, Give flesh to roast for the priest; for he will not have sodden flesh of thee, but raw.",
+      "web": "Yes, before they burned the fat, the priest’s servant came, and said to the man who sacrificed, “Give meat to roast for the priest; for he will not accept boiled meat from you, but raw.”",
+      "ct": "Even worse, before the fat was burned as an offering to God, the priest's servant would come and tell the person sacrificing, \"Give the priest some raw meat to roast. He won't accept boiled meat from you — only raw.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And if any man said unto him, Let them not fail to burn the fat presently, and then take as much as thy soul desireth; then he would answer him, Nay; but thou shalt give it me now: and if not, I will take it by force.",
+      "web": "If the man said to him, “Let the fat be burned first, and then take as much as your soul desires;” then he would say, “No, but you shall give it to me now; and if not, I will take it by force.”",
+      "ct": "If the person said, \"Let the fat be burned first as it should be, and then take whatever you want,\" the servant would reply, \"No — hand it over right now, or I'll take it by force.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Wherefore the sin of the young men was very great before the LORD: for men abhorred the offering of the LORD.",
+      "web": "The sin of the young men was very great before LORD; for the men despised LORD’s offering.",
+      "ct": "The sin of these young men was extremely serious in the LORD's eyes, because they were treating the LORD's offerings with contempt."
+    },
+    {
+      "verse": 18,
+      "kjv": "But Samuel ministered before the LORD, being a child, girded with a linen ephod.",
+      "web": "But Samuel ministered before LORD, being a child, clothed with a linen ephod.",
+      "ct": "Meanwhile, young Samuel served before the LORD, wearing a linen ephod."
+    },
+    {
+      "verse": 19,
+      "kjv": "Moreover his mother made him a little coat, and brought it to him from year to year, when she came up with her husband to offer the yearly sacrifice.",
+      "web": "Moreover his mother made him a little robe, and brought it to him from year to year when she came up with her husband to offer the yearly sacrifice.",
+      "ct": "Each year his mother would make him a small robe and bring it to him when she and her husband came up for the annual sacrifice."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Eli blessed Elkanah and his wife, and said, The LORD give thee seed of this woman for the loan which is lent to the LORD. And they went unto their own home.",
+      "web": "Eli blessed Elkanah and his wife, and said, “May LORD give you offspring from this woman for the petition which was asked of LORD.” Then they went to their own home.",
+      "ct": "Eli would bless Elkanah and his wife, saying, \"May the LORD give you more children through this woman, in place of the one she dedicated to the LORD.\" Then they would return home."
+    },
+    {
+      "verse": 21,
+      "kjv": "And the LORD visited Hannah, so that she conceived, and bare three sons and two daughters. And the child Samuel grew before the LORD.",
+      "web": "LORD visited Hannah, and she conceived and bore three sons and two daughters. The child Samuel grew before LORD.",
+      "ct": "The LORD was gracious to Hannah, and she became pregnant and gave birth to 3 sons and 2 daughters. Meanwhile, the boy Samuel continued to grow up in the presence of the LORD."
+    },
+    {
+      "verse": 22,
+      "kjv": "Now Eli was very old, and heard all that his sons did unto all Israel; and how they lay with the women that assembled at the door of the tabernacle of the congregation.",
+      "web": "Now Eli was very old; and he heard all that his sons did to all Israel, and how that they slept with the women who served at the door of the Tent of Meeting.",
+      "ct": "Eli was now very old, and he kept hearing about everything his sons were doing to the people of Israel — including how they slept with the women who served at the entrance to the Tent of Meeting."
+    },
+    {
+      "verse": 23,
+      "kjv": "And he said unto them, Why do ye such things? for I hear of your evil dealings by all this people.",
+      "web": "He said to them, “Why do you do such things? For I hear of your evil dealings from all these people.",
+      "ct": "He confronted them: \"Why are you doing these things? Everyone is telling me about your wicked behavior."
+    },
+    {
+      "verse": 24,
+      "kjv": "Nay, my sons; for it is no good report that I hear: ye make the LORD’s people to transgress.",
+      "web": "No, my sons; for it is not a good report that I hear! You make LORD’s people disobey.",
+      "ct": "\"Stop this, my sons! The reports I'm hearing are terrible. You are leading the LORD's people into sin."
+    },
+    {
+      "verse": 25,
+      "kjv": "If one man sin against another, the judge shall judge him: but if a man sin against the LORD, who shall intreat for him? Notwithstanding they hearkened not unto the voice of their father, because the LORD would slay them.",
+      "web": "If one man sins against another, God will judge him; but if a man sins against LORD, who will intercede for him?” Notwithstanding, they didn’t listen to the voice of their father, because LORD intended to kill them.",
+      "ct": "\"If someone sins against another person, God can step in and judge the matter. But if someone sins against the LORD, who can intercede for them?\" Yet his sons refused to listen to their father, because the LORD had already determined to put them to death."
+    },
+    {
+      "verse": 26,
+      "kjv": "And the child Samuel grew on, and was in favour both with the LORD, and also with men.",
+      "web": "The child Samuel grew on, and increased in favor both with LORD and also with men.",
+      "ct": "The boy Samuel, however, continued to grow in stature and in favor with both the LORD and with people."
+    },
+    {
+      "verse": 27,
+      "kjv": "And there came a man of God unto Eli, and said unto him, Thus saith the LORD, Did I plainly appear unto the house of thy father, when they were in Egypt in Pharaoh’s house?",
+      "web": "A man of God came to Eli and said to him, “LORD says, ‘Did I reveal myself to the house of your father when they were in Egypt in bondage to Pharaoh’s house?",
+      "ct": "One day a man of God came to Eli and told him, \"This is what the LORD says: 'Didn't I reveal myself to your ancestor's family when they were slaves in Egypt under Pharaoh?"
+    },
+    {
+      "verse": 28,
+      "kjv": "And did I choose him out of all the tribes of Israel to be my priest, to offer upon mine altar, to burn incense, to wear an ephod before me? and did I give unto the house of thy father all the offerings made by fire of the children of Israel?",
+      "web": "Didn’t I choose him out of all the tribes of Israel to be my priest, to go up to my altar, to burn incense, to wear an ephod before me? Didn’t I give to the house of your father all the offerings of the children of Israel made by fire?",
+      "ct": "\"I chose your ancestor out of all the tribes of Israel to be my priest — to approach my altar, to burn incense, and to wear the ephod in my presence. I also gave your family all the fire offerings brought by the people of Israel."
+    },
+    {
+      "verse": 29,
+      "kjv": "Wherefore kick ye at my sacrifice and at mine offering, which I have commanded in my habitation; and honourest thy sons above me, to make yourselves fat with the chiefest of all the offerings of Israel my people?",
+      "web": "Why do you kick at my sacrifice and at my offering, which I have commanded in my habitation, and honor your sons above me, to make yourselves fat with the best of all the offerings of Israel my people?’",
+      "ct": "\"So why do you trample on my sacrifices and offerings that I commanded for my dwelling place? Why do you honor your sons more than me, fattening yourselves on the best portions of every offering my people Israel brings?'"
+    },
+    {
+      "verse": 30,
+      "kjv": "Wherefore the LORD God of Israel saith, I said indeed that thy house, and the house of thy father, should walk before me for ever: but now the LORD saith, Be it far from me; for them that honour me I will honour, and they that despise me shall be lightly esteemed.",
+      "web": "“Therefore LORD, the God of Israel, says, ‘I said indeed that your house and the house of your father should walk before me forever.’ But now LORD says, ‘Far be it from me; for those who honor me I will honor, and those who despise me will be cursed.",
+      "ct": "\"Therefore the LORD, the God of Israel, declares: 'I did promise that your family and your ancestor's family would serve before me as priests forever.' But now the LORD says: 'I will never allow that! Those who honor me, I will honor. But those who despise me will be treated with contempt."
+    },
+    {
+      "verse": 31,
+      "kjv": "Behold, the days come, that I will cut off thine arm, and the arm of thy father’s house, that there shall not be an old man in thine house.",
+      "web": "Behold, the days come that I will cut off your arm and the arm of your father’s house, that there will not be an old man in your house.",
+      "ct": "\"'The time is coming when I will cut short your strength and the strength of your father's family, so that no one in your line will grow old."
+    },
+    {
+      "verse": 32,
+      "kjv": "And thou shalt see an enemy in my habitation, in all the wealth which God shall give Israel: and there shall not be an old man in thine house for ever.",
+      "web": "You will see the affliction of my habitation, in all the wealth which I will give Israel. There shall not be an old man in your house forever.",
+      "ct": "\"You will witness distress in my dwelling place, even as Israel prospers in every other way. No one in your family will ever reach old age."
+    },
+    {
+      "verse": 33,
+      "kjv": "And the man of thine, whom I shall not cut off from mine altar, shall be to consume thine eyes, and to grieve thine heart: and all the increase of thine house shall die in the flower of their age.",
+      "web": "The man of yours whom I don’t cut off from my altar will consume your eyes and grieve your heart. All the increase of your house will die in the flower of their age.",
+      "ct": "\"Any of your descendants I don't cut off from serving at my altar will survive only to drain your eyes with tears and fill your heart with grief. Every new generation of your family will die in the prime of life."
+    },
+    {
+      "verse": 34,
+      "kjv": "And this shall be a sign unto thee, that shall come upon thy two sons, on Hophni and Phinehas; in one day they shall die both of them.",
+      "web": "This will be the sign to you that will come on your two sons, on Hophni and Phinehas: in one day they will both die.",
+      "ct": "\"And here is the sign that will prove this to you: both of your sons, Hophni and Phinehas, will die on the same day."
+    },
+    {
+      "verse": 35,
+      "kjv": "And I will raise me up a faithful priest, that shall do according to that which is in mine heart and in my mind: and I will build him a sure house; and he shall walk before mine anointed for ever.",
+      "web": "I will raise up a faithful priest for myself who will do according to that which is in my heart and in my mind. I will build him a sure house. He will walk before my anointed forever.",
+      "ct": "\"Then I will raise up for myself a faithful priest who will do what is in my heart and mind. I will establish his family line, and he will serve before my anointed one forever."
+    },
+    {
+      "verse": 36,
+      "kjv": "And it shall come to pass, that every one that is left in thine house shall come and crouch to him for a piece of silver and a morsel of bread, and shall say, Put me, I pray thee, into one of the priests’ offices, that I may eat a piece of bread.",
+      "web": "It will happen that everyone who is left in your house will come and bow down to him for a piece of silver and a loaf of bread, and will say, “Please put me into one of the priests’ offices, that I may eat a morsel of bread.” ’ ”",
+      "ct": "\"Everyone left in your family will come and bow before that priest, begging for a piece of silver or a scrap of bread, saying, 'Please, give me a position among the priests so I can have something to eat.'\""
+    }
+  ]
+}

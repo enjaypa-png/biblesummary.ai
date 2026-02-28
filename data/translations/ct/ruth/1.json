@@ -1,0 +1,143 @@
+{
+  "book": "ruth",
+  "book_name": "Ruth",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:36:08.268Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now it came to pass in the days when the judges ruled, that there was a famine in the land. And a certain man of Bethlehemjudah went to sojourn in the country of Moab, he, and his wife, and his two sons.",
+      "web": "In the days when the judges judged, there was a famine in the land. A certain man of Bethlehem Judah went to live in the country of Moab with his wife and his two sons.",
+      "ct": "Back when judges led Israel, a famine struck the land. A man from Bethlehem in Judah took his wife and two sons and moved to the country of Moab to survive."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehemjudah. And they came into the country of Moab, and continued there.",
+      "web": "The name of the man was Elimelech, and the name of his wife Naomi. The names of his two sons were Mahlon and Chilion, Ephrathites of Bethlehem Judah. They came into the country of Moab and lived there.",
+      "ct": "The man's name was Elimelech, his wife was Naomi, and their two sons were Mahlon and Chilion. They were Ephrathites from Bethlehem in Judah. They settled in Moab and made their home there."
+    },
+    {
+      "verse": 3,
+      "kjv": "And Elimelech Naomi’s husband died; and she was left, and her two sons.",
+      "web": "Elimelech, Naomi’s husband, died; and she was left with her two sons.",
+      "ct": "Then Elimelech, Naomi's husband, died, leaving her alone with her two sons."
+    },
+    {
+      "verse": 4,
+      "kjv": "And they took them wives of the women of Moab; the name of the one was Orpah, and the name of the other Ruth: and they dwelled there about ten years.",
+      "web": "They took for themselves wives of the women of Moab. The name of the one was Orpah, and the name of the other was Ruth. They lived there about ten years.",
+      "ct": "The sons married Moabite women — one named Orpah and the other named Ruth. They lived there for about 10 years."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Mahlon and Chilion died also both of them; and the woman was left of her two sons and her husband.",
+      "web": "Mahlon and Chilion both died, and the woman was bereaved of her two children and of her husband.",
+      "ct": "Then both Mahlon and Chilion died too, and Naomi was left without her husband or either of her sons."
+    },
+    {
+      "verse": 6,
+      "kjv": "Then she arose with her daughters in law, that she might return from the country of Moab: for she had heard in the country of Moab how that the LORD had visited his people in giving them bread.",
+      "web": "Then she arose with her daughters-in-law, that she might return from the country of Moab; for she had heard in the country of Moab how LORD had visited his people in giving them bread.",
+      "ct": "While still in Moab, Naomi heard that the LORD had come to the aid of his people and given them food again. So she got ready to leave with her daughters-in-law and return home."
+    },
+    {
+      "verse": 7,
+      "kjv": "Wherefore she went forth out of the place where she was, and her two daughters in law with her; and they went on the way to return unto the land of Judah.",
+      "web": "She went out of the place where she was, and her two daughters-in-law with her. They went on the way to return to the land of Judah.",
+      "ct": "She left the place where she had been living, and her two daughters-in-law went with her. Together they set out on the road back to Judah."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Naomi said unto her two daughters in law, Go, return each to her mother’s house: the LORD deal kindly with you, as ye have dealt with the dead, and with me.",
+      "web": "Naomi said to her two daughters-in-law, “Go, return each of you to her mother’s house. May LORD deal kindly with you, as you have dealt with the dead and with me.",
+      "ct": "Along the way, Naomi said to her two daughters-in-law, \"Go back. Return to your mothers' homes. May the LORD show you the same kindness you showed to your husbands and to me.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "The LORD grant you that ye may find rest, each of you in the house of her husband. Then she kissed them; and they lifted up their voice, and wept.",
+      "web": "May LORD grant you that you may find rest, each of you in the house of her husband.” Then she kissed them, and they lifted up their voices, and wept.",
+      "ct": "\"May the LORD help each of you find security in the home of a new husband.\" Then she kissed them, and they all broke down crying."
+    },
+    {
+      "verse": 10,
+      "kjv": "And they said unto her, Surely we will return with thee unto thy people.",
+      "web": "They said to her, “No, but we will return with you to your people.”",
+      "ct": "They said to her, \"No! We want to go back with you to your people.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Naomi said, Turn again, my daughters: why will ye go with me? are there yet any more sons in my womb, that they may be your husbands?",
+      "web": "Naomi said, “Go back, my daughters. Why do you want to go with me? Do I still have sons in my womb, that they may be your husbands?",
+      "ct": "But Naomi said, \"Go home, my daughters. Why would you come with me? Do you think I can have more sons who could become your husbands?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Turn again, my daughters, go your way; for I am too old to have an husband. If I should say, I have hope, if I should have an husband also to night, and should also bear sons;",
+      "web": "Go back, my daughters, go your way; for I am too old to have a husband. If I should say, ‘I have hope,’ if I should even have a husband tonight, and should also bear sons,",
+      "ct": "\"Go home, my daughters, go on with your lives. I'm too old to marry again. Even if I said, 'There's still hope for me,' and even if I married someone tonight and had sons —\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Would ye tarry for them till they were grown? would ye stay for them from having husbands? nay, my daughters; for it grieveth me much for your sakes that the hand of the LORD is gone out against me.",
+      "web": "would you then wait until they were grown? Would you then refrain from having husbands? No, my daughters, for it grieves me seriously for your sakes, for LORD’s hand has gone out against me.”",
+      "ct": "\"would you really wait for them to grow up? Would you put your lives on hold and refuse to marry? No, my daughters. My situation is far too bitter for you to share. The hand of the LORD has turned against me.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And they lifted up their voice, and wept again: and Orpah kissed her mother in law; but Ruth clave unto her.",
+      "web": "They lifted up their voices and wept again; then Orpah kissed her mother-in-law, but Ruth stayed with her.",
+      "ct": "They broke down crying again. Then Orpah kissed her mother-in-law goodbye, but Ruth held on to her and wouldn't let go."
+    },
+    {
+      "verse": 15,
+      "kjv": "And she said, Behold, thy sister in law is gone back unto her people, and unto her gods: return thou after thy sister in law.",
+      "web": "She said, “Behold, your sister-in-law has gone back to her people and to her god. Follow your sister-in-law.”",
+      "ct": "Naomi said, \"Look, your sister-in-law is going back to her people and her gods. Go with her.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:",
+      "web": "Ruth said, “Don’t urge me to leave you, and to return from following you, for where you go, I will go; and where you stay, I will stay. Your people will be my people, and your God my God.",
+      "ct": "But Ruth said, \"Don't ask me to leave you or to turn back from following you. Wherever you go, I'll go. Wherever you stay, I'll stay. Your people will be my people, and your God will be my God."
+    },
+    {
+      "verse": 17,
+      "kjv": "Where thou diest, will I die, and there will I be buried: the LORD do so to me, and more also, if ought but death part thee and me.",
+      "web": "Where you die, I will die, and there I will be buried. May LORD do so to me, and more also, if anything but death parts you and me.”",
+      "ct": "Where you die, I will die, and that's where I'll be buried. May the LORD punish me and worse if anything but death separates us.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "When she saw that she was stedfastly minded to go with her, then she left speaking unto her.",
+      "web": "When Naomi saw that she was determined to go with her, she stopped urging her.",
+      "ct": "When Naomi saw that Ruth was absolutely determined to go with her, she stopped trying to talk her out of it."
+    },
+    {
+      "verse": 19,
+      "kjv": "So they two went until they came to Bethlehem. And it came to pass, when they were come to Bethlehem, that all the city was moved about them, and they said, Is this Naomi?",
+      "web": "So they both went until they came to Bethlehem. When they had come to Bethlehem, all the city was excited about them, and they asked, “Is this Naomi?”",
+      "ct": "So the two of them traveled together until they reached Bethlehem. When they arrived, the whole town was buzzing about them. The women kept saying, \"Can this really be Naomi?\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me.",
+      "web": "She said to them, “Don’t call me Naomi. Call me Mara, for the Almighty has dealt very bitterly with me.",
+      "ct": "She told them, \"Don't call me Naomi. Call me Mara, because the Almighty has made my life incredibly bitter."
+    },
+    {
+      "verse": 21,
+      "kjv": "I went out full, and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me?",
+      "web": "I went out full, and LORD has brought me home again empty. Why do you call me Naomi, since LORD has testified against me, and the Almighty has afflicted me?”",
+      "ct": "I left here with everything, and the LORD has brought me back with nothing. Why call me Naomi when the LORD has testified against me and the Almighty has brought this suffering on me?\""
+    },
+    {
+      "verse": 22,
+      "kjv": "So Naomi returned, and Ruth the Moabitess, her daughter in law, with her, which returned out of the country of Moab: and they came to Bethlehem in the beginning of barley harvest.",
+      "web": "So Naomi returned, and Ruth the Moabitess, her daughter-in-law, with her, who returned out of the country of Moab. They came to Bethlehem in the beginning of barley harvest.",
+      "ct": "That is how Naomi came back from Moab, with her daughter-in-law Ruth the Moabitess at her side. They arrived in Bethlehem just as the barley harvest was beginning."
+    }
+  ]
+}

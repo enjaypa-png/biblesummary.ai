@@ -1,0 +1,221 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 15,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:43:04.915Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Samuel also said unto Saul, The LORD sent me to anoint thee to be king over his people, over Israel: now therefore hearken thou unto the voice of the words of the LORD.",
+      "web": "Samuel said to Saul, “LORD sent me to anoint you to be king over his people, over Israel. Now therefore listen to the voice of LORD’s words.",
+      "ct": "Samuel said to Saul, \"The LORD sent me to anoint you as king over his people Israel. So now, listen carefully to what the LORD has to say.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "Thus saith the LORD of hosts, I remember that which Amalek did to Israel, how he laid wait for him in the way, when he came up from Egypt.",
+      "web": "LORD of Armies says, ‘I remember what Amalek did to Israel, how he set himself against him on the way, when he came up out of Egypt.",
+      "ct": "\"This is what the LORD of hosts declares: 'I remember what the Amalekites did to Israel — how they ambushed them on the road as they were coming up out of Egypt."
+    },
+    {
+      "verse": 3,
+      "kjv": "Now go and smite Amalek, and utterly destroy all that they have, and spare them not; but slay both man and woman, infant and suckling, ox and sheep, camel and ass.",
+      "web": "Now go and strike Amalek, and utterly destroy all that they have, and don’t spare them; but kill both man and woman, infant and nursing baby, ox and sheep, camel and donkey.’ ”",
+      "ct": "Now go and attack the Amalekites. Completely destroy everything they have. Don't spare anyone — kill every man and woman, every infant and nursing child, every ox and sheep, every camel and donkey.'\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Saul gathered the people together, and numbered them in Telaim, two hundred thousand footmen, and ten thousand men of Judah.",
+      "web": "Saul summoned the people, and counted them in Telaim, two hundred thousand footmen, and ten thousand men of Judah.",
+      "ct": "Saul assembled his forces and counted them at Telaim: 200,000 foot soldiers, plus 10,000 men from Judah."
+    },
+    {
+      "verse": 5,
+      "kjv": "And Saul came to a city of Amalek, and laid wait in the valley.",
+      "web": "Saul came to the city of Amalek, and set an ambush in the valley.",
+      "ct": "Saul advanced to the city of Amalek and set up an ambush in the valley."
+    },
+    {
+      "verse": 6,
+      "kjv": "And Saul said unto the Kenites, Go, depart, get you down from among the Amalekites, lest I destroy you with them: for ye shewed kindness to all the children of Israel, when they came up out of Egypt. So the Kenites departed from among the Amalekites.",
+      "web": "Saul said to the Kenites, “Go, depart, go down from among the Amalekites, lest I destroy you with them; for you showed kindness to all the children of Israel, when they came up out of Egypt.” So the Kenites departed from among the Amalekites.",
+      "ct": "Saul sent a warning to the Kenites: \"Leave now! Get away from the Amalekites, or I'll destroy you along with them. You showed kindness to the Israelites when they came out of Egypt, and I don't want to harm you.\" So the Kenites moved away from the Amalekites."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Saul smote the Amalekites from Havilah until thou comest to Shur, that is over against Egypt.",
+      "web": "Saul struck the Amalekites, from Havilah as you go to Shur, that is before Egypt.",
+      "ct": "Saul struck down the Amalekites across the entire region from Havilah all the way to Shur, east of Egypt."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he took Agag the king of the Amalekites alive, and utterly destroyed all the people with the edge of the sword.",
+      "web": "He took Agag the king of the Amalekites alive, and utterly destroyed all the people with the edge of the sword.",
+      "ct": "He captured Agag, the king of the Amalekites, alive, but he put all the rest of the people to the sword."
+    },
+    {
+      "verse": 9,
+      "kjv": "But Saul and the people spared Agag, and the best of the sheep, and of the oxen, and of the fatlings, and the lambs, and all that was good, and would not utterly destroy them: but every thing that was vile and refuse, that they destroyed utterly.",
+      "web": "But Saul and the people spared Agag, and the best of the sheep, of the cattle, and of the fat calves, and the lambs, and all that was good, and were not willing to utterly destroy them; but everything that was vile and refuse, that they destroyed utterly.",
+      "ct": "Saul and his troops spared Agag, along with the best of the sheep, cattle, fattened calves, lambs — everything that was valuable. They refused to destroy anything worth keeping. They only destroyed what was worthless and unwanted."
+    },
+    {
+      "verse": 10,
+      "kjv": "Then came the word of the LORD unto Samuel, saying,",
+      "web": "Then LORD’s word came to Samuel, saying,",
+      "ct": "Then the word of the LORD came to Samuel:"
+    },
+    {
+      "verse": 11,
+      "kjv": "It repenteth me that I have set up Saul to be king: for he is turned back from following me, and hath not performed my commandments. And it grieved Samuel; and he cried unto the LORD all night.",
+      "web": "“It grieves me that I have set up Saul to be king; for he has turned back from following me, and has not performed my commandments.” Samuel was angry; and he cried to LORD all night.",
+      "ct": "\"I regret that I made Saul king, because he has turned away from me and hasn't carried out my commands.\" This deeply troubled Samuel, and he cried out to the LORD all night long."
+    },
+    {
+      "verse": 12,
+      "kjv": "And when Samuel rose early to meet Saul in the morning, it was told Samuel, saying, Saul came to Carmel, and, behold, he set him up a place, and is gone about, and passed on, and gone down to Gilgal.",
+      "web": "Samuel rose early to meet Saul in the morning; and Samuel was told, saying, “Saul came to Carmel, and behold, he set up a monument for himself, and turned, and passed on, and went down to Gilgal.”",
+      "ct": "Samuel got up early the next morning to meet Saul, but he was told, \"Saul went to Carmel, where he set up a monument in his own honor. Then he moved on and went down to Gilgal.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And Samuel came to Saul: and Saul said unto him, Blessed be thou of the LORD: I have performed the commandment of the LORD.",
+      "web": "Samuel came to Saul; and Saul said to him, “You are blessed by LORD! I have performed the commandment of LORD.”",
+      "ct": "When Samuel reached him, Saul greeted him, \"The LORD bless you! I've carried out the LORD's command.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And Samuel said, What meaneth then this bleating of the sheep in mine ears, and the lowing of the oxen which I hear?",
+      "web": "Samuel said, “Then what does this bleating of the sheep in my ears, and the lowing of the cattle which I hear mean?”",
+      "ct": "Samuel replied, \"Then what's this bleating of sheep I hear? What's this lowing of cattle reaching my ears?\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And Saul said, They have brought them from the Amalekites: for the people spared the best of the sheep and of the oxen, to sacrifice unto the LORD thy God; and the rest we have utterly destroyed.",
+      "web": "Saul said, “They have brought them from the Amalekites; for the people spared the best of the sheep and of the cattle, to sacrifice to LORD your God. We have utterly destroyed the rest.”",
+      "ct": "Saul answered, \"The soldiers brought them back from the Amalekites. They kept the best of the sheep and cattle to sacrifice to the LORD your God. But we completely destroyed everything else.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Then Samuel said unto Saul, Stay, and I will tell thee what the LORD hath said to me this night. And he said unto him, Say on.",
+      "web": "Then Samuel said to Saul, “Stay, and I will tell you what LORD said to me last night.” He said to him, “Say on.”",
+      "ct": "Samuel cut him off. \"Stop! Let me tell you what the LORD said to me last night.\" Saul replied, \"Go ahead.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And Samuel said, When thou wast little in thine own sight, wast thou not made the head of the tribes of Israel, and the LORD anointed thee king over Israel?",
+      "web": "Samuel said, “Though you were little in your own sight, weren’t you made the head of the tribes of Israel? LORD anointed you king over Israel;",
+      "ct": "Samuel said, \"There was a time when you thought nothing of yourself — and yet the LORD made you the head of all the tribes of Israel. He anointed you king over Israel."
+    },
+    {
+      "verse": 18,
+      "kjv": "And the LORD sent thee on a journey, and said, Go and utterly destroy the sinners the Amalekites, and fight against them until they be consumed.",
+      "web": "and LORD sent you on a journey, and said, ‘Go, and utterly destroy the sinners the Amalekites, and fight against them until they are consumed.’",
+      "ct": "The LORD sent you on a mission and told you, 'Go and completely destroy the Amalekites, those sinful people. Fight against them until they are wiped out.'"
+    },
+    {
+      "verse": 19,
+      "kjv": "Wherefore then didst thou not obey the voice of the LORD, but didst fly upon the spoil, and didst evil in the sight of the LORD?",
+      "web": "Why then didn’t you obey LORD’s voice, but took the plunder, and did that which was evil in LORD’s sight?”",
+      "ct": "So why didn't you obey the LORD? Why did you pounce on the plunder and do what the LORD saw as evil?\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Saul said unto Samuel, Yea, I have obeyed the voice of the LORD, and have gone the way which the LORD sent me, and have brought Agag the king of Amalek, and have utterly destroyed the Amalekites.",
+      "web": "Saul said to Samuel, “But I have obeyed LORD’s voice, and have gone the way which LORD sent me, and have brought Agag the king of Amalek, and have utterly destroyed the Amalekites.",
+      "ct": "Saul protested, \"But I did obey the LORD! I went on the mission he gave me. I brought back Agag, the king of Amalek, and I completely destroyed the Amalekites."
+    },
+    {
+      "verse": 21,
+      "kjv": "But the people took of the spoil, sheep and oxen, the chief of the things which should have been utterly destroyed, to sacrifice unto the LORD thy God in Gilgal.",
+      "web": "But the people took of the plunder, sheep and cattle, the chief of the devoted things, to sacrifice to LORD your God in Gilgal.”",
+      "ct": "The soldiers took sheep and cattle from the plunder — the best of what was supposed to be destroyed — to sacrifice to the LORD your God at Gilgal.\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Samuel said, Hath the LORD as great delight in burnt offerings and sacrifices, as in obeying the voice of the LORD? Behold, to obey is better than sacrifice, and to hearken than the fat of rams.",
+      "web": "Samuel said, “Has LORD as great delight in burnt offerings and sacrifices, as in obeying LORD’s voice? Behold, to obey is better than sacrifice, and to listen than the fat of rams.",
+      "ct": "Samuel answered, \"Does the LORD take as much pleasure in burnt offerings and sacrifices as he does in obedience? Listen — to obey is better than sacrifice, and to listen is better than the fat of rams."
+    },
+    {
+      "verse": 23,
+      "kjv": "For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry. Because thou hast rejected the word of the LORD, he hath also rejected thee from being king.",
+      "web": "For rebellion is as the sin of witchcraft, and stubbornness is as idolatry and teraphim. Because you have rejected LORD’s word, he has also rejected you from being king.”",
+      "ct": "Rebellion is as sinful as witchcraft, and stubbornness is as wicked as idolatry. Because you have rejected the word of the LORD, he has rejected you as king.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "And Saul said unto Samuel, I have sinned: for I have transgressed the commandment of the LORD, and thy words: because I feared the people, and obeyed their voice.",
+      "web": "Saul said to Samuel, “I have sinned; for I have transgressed the commandment of LORD, and your words, because I feared the people, and obeyed their voice.",
+      "ct": "Saul admitted, \"I have sinned. I disobeyed the LORD's command and your instructions because I was afraid of the people and gave in to their demands."
+    },
+    {
+      "verse": 25,
+      "kjv": "Now therefore, I pray thee, pardon my sin, and turn again with me, that I may worship the LORD.",
+      "web": "Now therefore, please pardon my sin, and turn again with me, that I may worship LORD.”",
+      "ct": "Please forgive my sin and come back with me so I can worship the LORD.\""
+    },
+    {
+      "verse": 26,
+      "kjv": "And Samuel said unto Saul, I will not return with thee: for thou hast rejected the word of the LORD, and the LORD hath rejected thee from being king over Israel.",
+      "web": "Samuel said to Saul, “I will not return with you; for you have rejected LORD’s word, and LORD has rejected you from being king over Israel.”",
+      "ct": "But Samuel told him, \"I won't go back with you. You rejected the word of the LORD, and the LORD has rejected you as king over Israel.\""
+    },
+    {
+      "verse": 27,
+      "kjv": "And as Samuel turned about to go away, he laid hold upon the skirt of his mantle, and it rent.",
+      "web": "As Samuel turned around to go away, Saul grabbed the skirt of his robe, and it tore.",
+      "ct": "As Samuel turned to leave, Saul grabbed the edge of his robe, and it tore."
+    },
+    {
+      "verse": 28,
+      "kjv": "And Samuel said unto him, The LORD hath rent the kingdom of Israel from thee this day, and hath given it to a neighbour of thine, that is better than thou.",
+      "web": "Samuel said to him, “LORD has torn the kingdom of Israel from you today, and has given it to a neighbor of yours who is better than you.",
+      "ct": "Samuel said to him, \"The LORD has torn the kingdom of Israel away from you today and given it to someone better than you."
+    },
+    {
+      "verse": 29,
+      "kjv": "And also the Strength of Israel will not lie nor repent: for he is not a man, that he should repent.",
+      "web": "Also the Strength of Israel will not lie nor repent; for he is not a man, that he should repent.”",
+      "ct": "The Strength of Israel does not lie or change his mind. He is not a man, that he should repent.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "Then he said, I have sinned: yet honour me now, I pray thee, before the elders of my people, and before Israel, and turn again with me, that I may worship the LORD thy God.",
+      "web": "Then he said, “I have sinned; yet please honor me now before the elders of my people, and before Israel, and come back with me, that I may worship LORD your God.”",
+      "ct": "Saul pleaded, \"I know I have sinned. But please, honor me in front of the elders of my people and in front of Israel. Come back with me so I can worship the LORD your God.\""
+    },
+    {
+      "verse": 31,
+      "kjv": "So Samuel turned again after Saul; and Saul worshipped the LORD.",
+      "web": "So Samuel went back with Saul; and Saul worshiped LORD.",
+      "ct": "So Samuel went back with Saul, and Saul worshiped the LORD."
+    },
+    {
+      "verse": 32,
+      "kjv": "Then said Samuel, Bring ye hither to me Agag the king of the Amalekites. And Agag came unto him delicately. And Agag said, Surely the bitterness of death is past.",
+      "web": "Then Samuel said, “Bring Agag the king of the Amalekites here to me!” Agag came to him cheerfully. Agag said, “Surely the bitterness of death is past.”",
+      "ct": "Then Samuel said, \"Bring me Agag, the king of the Amalekites.\" Agag came forward confidently, thinking, \"Surely the worst is over — the threat of death has passed.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And Samuel said, As thy sword hath made women childless, so shall thy mother be childless among women. And Samuel hewed Agag in pieces before the LORD in Gilgal.",
+      "web": "Samuel said, “As your sword has made women childless, so your mother will be childless among women!” Then Samuel cut Agag in pieces before LORD in Gilgal.",
+      "ct": "Samuel declared, \"Your sword made women childless, and now your mother will be childless among women.\" Then Samuel cut Agag to pieces before the LORD at Gilgal."
+    },
+    {
+      "verse": 34,
+      "kjv": "Then Samuel went to Ramah; and Saul went up to his house to Gibeah of Saul.",
+      "web": "Then Samuel went to Ramah; and Saul went up to his house to Gibeah of Saul.",
+      "ct": "Samuel left for Ramah, and Saul went home to Gibeah of Saul."
+    },
+    {
+      "verse": 35,
+      "kjv": "And Samuel came no more to see Saul until the day of his death: nevertheless Samuel mourned for Saul: and the LORD repented that he had made Saul king over Israel.",
+      "web": "Samuel came no more to see Saul until the day of his death; for Samuel mourned for Saul: and LORD grieved that he had made Saul king over Israel.",
+      "ct": "Samuel never went to see Saul again for the rest of his life, but he mourned deeply for him. And the LORD grieved that he had made Saul king over Israel."
+    }
+  ]
+}

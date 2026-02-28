@@ -1,0 +1,149 @@
+{
+  "book": "ruth",
+  "book_name": "Ruth",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:36:32.642Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Naomi had a kinsman of her husband’s, a mighty man of wealth, of the family of Elimelech; and his name was Boaz.",
+      "web": "Naomi had a relative of her husband’s, a mighty man of wealth, of the family of Elimelech, and his name was Boaz.",
+      "ct": "Now Naomi had a relative on her husband's side — a wealthy and prominent man from Elimelech's family. His name was Boaz."
+    },
+    {
+      "verse": 2,
+      "kjv": "And Ruth the Moabitess said unto Naomi, Let me now go to the field, and glean ears of corn after him in whose sight I shall find grace. And she said unto her, Go, my daughter.",
+      "web": "Ruth the Moabitess said to Naomi, “Let me now go to the field, and glean among the ears of grain after him in whose sight I find favor.” She said to her, “Go, my daughter.”",
+      "ct": "Ruth the Moabitess said to Naomi, \"Let me go out to the fields and pick up leftover grain behind anyone who will let me.\" Naomi told her, \"Go ahead, my daughter.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And she went, and came, and gleaned in the field after the reapers: and her hap was to light on a part of the field belonging unto Boaz, who was of the kindred of Elimelech.",
+      "web": "She went, and came and gleaned in the field after the reapers; and she happened to come to the portion of the field belonging to Boaz, who was of the family of Elimelech.",
+      "ct": "So Ruth went out and began gathering grain in a field behind the harvesters. As it turned out, she ended up in the section of land that belonged to Boaz, the relative of Elimelech."
+    },
+    {
+      "verse": 4,
+      "kjv": "And, behold, Boaz came from Bethlehem, and said unto the reapers, The LORD be with you. And they answered him, The LORD bless thee.",
+      "web": "Behold, Boaz came from Bethlehem, and said to the reapers, “May LORD be with you.” They answered him, “May LORD bless you.”",
+      "ct": "Just then, Boaz arrived from Bethlehem and greeted his harvesters: \"The LORD be with you!\" They called back, \"The LORD bless you!\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Then said Boaz unto his servant that was set over the reapers, Whose damsel is this?",
+      "web": "Then Boaz said to his servant who was set over the reapers, “Whose young lady is this?”",
+      "ct": "Boaz asked the foreman in charge of the harvesters, \"Who is that young woman?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And the servant that was set over the reapers answered and said, It is the Moabitish damsel that came back with Naomi out of the country of Moab:",
+      "web": "The servant who was set over the reapers answered, “It is the Moabite lady who came back with Naomi out of the country of Moab.",
+      "ct": "The foreman answered, \"She's the Moabite woman who came back with Naomi from the land of Moab.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And she said, I pray you, let me glean and gather after the reapers among the sheaves: so she came, and hath continued even from the morning until now, that she tarried a little in the house.",
+      "web": "She said, ‘Please let me glean and gather after the reapers among the sheaves.’ So she came, and has continued even from the morning until now, except that she rested a little in the house.”",
+      "ct": "\"She asked permission to gather leftover grain among the sheaves behind the harvesters. She's been at it since early this morning and has barely taken a break.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Then said Boaz unto Ruth, Hearest thou not, my daughter? Go not to glean in another field, neither go from hence, but abide here fast by my maidens:",
+      "web": "Then Boaz said to Ruth, “Listen, my daughter. Don’t go to glean in another field, and don’t go from here, but stay here close to my maidens.",
+      "ct": "Boaz went over to Ruth and said, \"Listen to me, my daughter. Don't go gleaning in anyone else's field. Don't leave this place. Stay here with my young women."
+    },
+    {
+      "verse": 9,
+      "kjv": "Let thine eyes be on the field that they do reap, and go thou after them: have I not charged the young men that they shall not touch thee? and when thou art athirst, go unto the vessels, and drink of that which the young men have drawn.",
+      "web": "Let your eyes be on the field that they reap, and go after them. Haven’t I commanded the young men not to touch you? When you are thirsty, go to the vessels, and drink from that which the young men have drawn.”",
+      "ct": "Watch which field they're harvesting and follow along behind them. I've told the young men not to bother you. Whenever you're thirsty, go drink from the water jars my workers have filled.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then she fell on her face, and bowed herself to the ground, and said unto him, Why have I found grace in thine eyes, that thou shouldest take knowledge of me, seeing I am a stranger?",
+      "web": "Then she fell on her face and bowed herself to the ground, and said to him, “Why have I found favor in your sight, that you should take knowledge of me, since I am a foreigner?”",
+      "ct": "Ruth dropped to her knees and bowed with her face to the ground. \"Why are you being so kind to me?\" she asked. \"Why would you even notice me? I'm just a foreigner.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And Boaz answered and said unto her, It hath fully been shewed me, all that thou hast done unto thy mother in law since the death of thine husband: and how thou hast left thy father and thy mother, and the land of thy nativity, and art come unto a people which thou knewest not heretofore.",
+      "web": "Boaz answered her, “I have been told all about what you have done for your mother-in-law since the death of your husband, and how you have left your father, your mother, and the land of your birth, and have come to a people that you didn’t know before.",
+      "ct": "Boaz replied, \"I've heard all about what you've done for your mother-in-law since your husband died — how you left your own father and mother and the country where you were born, and came to live among people you'd never known before."
+    },
+    {
+      "verse": 12,
+      "kjv": "The LORD recompense thy work, and a full reward be given thee of the LORD God of Israel, under whose wings thou art come to trust.",
+      "web": "May LORD repay your work, and a full reward be given to you from LORD, the God of Israel, under whose wings you have come to take refuge.”",
+      "ct": "May the LORD repay you for what you've done. May you receive a full reward from the LORD, the God of Israel, under whose wings you have come to take refuge.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Then she said, Let me find favour in thy sight, my lord; for that thou hast comforted me, and for that thou hast spoken friendly unto thine handmaid, though I be not like unto one of thine handmaidens.",
+      "web": "Then she said, “Let me find favor in your sight, my lord, because you have comforted me, and because you have spoken kindly to your servant, though I am not as one of your servants.”",
+      "ct": "\"You are so kind to me, my lord,\" Ruth said. \"You've comforted me and spoken so warmly to your servant — even though I'm not even equal to one of your servant girls.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "And Boaz said unto her, At mealtime come thou hither, and eat of the bread, and dip thy morsel in the vinegar. And she sat beside the reapers: and he reached her parched corn, and she did eat, and was sufficed, and left.",
+      "web": "At meal time Boaz said to her, “Come here, and eat some bread, and dip your morsel in the vinegar.” She sat beside the reapers, and they passed her parched grain. She ate, was satisfied, and left some of it.",
+      "ct": "When it was time to eat, Boaz told her, \"Come over here. Have some bread and dip it in the wine vinegar.\" She sat down with the harvesters, and Boaz handed her roasted grain. She ate until she was full and still had some left over."
+    },
+    {
+      "verse": 15,
+      "kjv": "And when she was risen up to glean, Boaz commanded his young men, saying, Let her glean even among the sheaves, and reproach her not:",
+      "web": "When she had risen up to glean, Boaz commanded his young men, saying, “Let her glean even among the sheaves, and don’t reproach her.",
+      "ct": "When she got up to go back to gleaning, Boaz quietly instructed his young men, \"Let her gather grain even among the sheaves. Don't give her any trouble."
+    },
+    {
+      "verse": 16,
+      "kjv": "And let fall also some of the handfuls of purpose for her, and leave them, that she may glean them, and rebuke her not.",
+      "web": "Also pull out some for her from the bundles, and leave it. Let her glean, and don’t rebuke her.”",
+      "ct": "In fact, pull out some stalks from the bundles on purpose and leave them for her to pick up. Don't say a word to her about it.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "So she gleaned in the field until even, and beat out that she had gleaned: and it was about an ephah of barley.",
+      "web": "So she gleaned in the field until evening; and she beat out that which she had gleaned, and it was about an ephah of barley.",
+      "ct": "Ruth gleaned in the field until evening. When she threshed out what she had gathered, it came to about an ephah of barley."
+    },
+    {
+      "verse": 18,
+      "kjv": "And she took it up, and went into the city: and her mother in law saw what she had gleaned: and she brought forth, and gave to her that she had reserved after she was sufficed.",
+      "web": "She took it up, and went into the city. Then her mother-in-law saw what she had gleaned; and she brought out and gave to her that which she had left after she had enough.",
+      "ct": "She carried it back into town. When Naomi saw how much grain she had collected, she was amazed. Then Ruth brought out the leftover food from lunch and gave it to her."
+    },
+    {
+      "verse": 19,
+      "kjv": "And her mother in law said unto her, Where hast thou gleaned to day? and where wroughtest thou? blessed be he that did take knowledge of thee. And she shewed her mother in law with whom she had wrought, and said, The man’s name with whom I wrought to day is Boaz.",
+      "web": "Her mother-in-law said to her, “Where have you gleaned today? Where have you worked? Blessed be he who noticed you.” She told her mother-in-law with whom she had worked, “The man’s name with whom I worked today is Boaz.”",
+      "ct": "\"Where did you glean today?\" Naomi asked. \"Where did you work? Whoever took notice of you — may he be blessed!\" Ruth told her mother-in-law about the man she had worked near. \"His name is Boaz,\" she said."
+    },
+    {
+      "verse": 20,
+      "kjv": "And Naomi said unto her daughter in law, Blessed be he of the LORD, who hath not left off his kindness to the living and to the dead. And Naomi said unto her, The man is near of kin unto us, one of our next kinsmen.",
+      "web": "Naomi said to her daughter-in-law, “May he be blessed by LORD, who has not abandoned his kindness to the living and to the dead.” Naomi said to her, “The man is a close relative to us, one of our near kinsmen.”",
+      "ct": "Naomi exclaimed to her daughter-in-law, \"May the LORD bless him! He has not stopped showing his kindness to the living and the dead.\" Then Naomi added, \"That man is a close relative of ours — one of our family redeemers.\""
+    },
+    {
+      "verse": 21,
+      "kjv": "And Ruth the Moabitess said, He said unto me also, Thou shalt keep fast by my young men, until they have ended all my harvest.",
+      "web": "Ruth the Moabitess said, “Yes, he said to me, ‘You shall stay close to my young men until they have finished all my harvest.’ ”",
+      "ct": "Ruth the Moabitess continued, \"He even told me, 'Stay close to my workers until they've finished all my harvesting.'\""
+    },
+    {
+      "verse": 22,
+      "kjv": "And Naomi said unto Ruth her daughter in law, It is good, my daughter, that thou go out with his maidens, that they meet thee not in any other field.",
+      "web": "Naomi said to Ruth her daughter-in-law, “It is good, my daughter, that you go out with his maidens, and that they not meet you in any other field.”",
+      "ct": "Naomi said to her daughter-in-law Ruth, \"That's good, my daughter. Stay with his young women. You'll be safer there than in someone else's field.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "So she kept fast by the maidens of Boaz to glean unto the end of barley harvest and of wheat harvest; and dwelt with her mother in law.",
+      "web": "So she stayed close to the maidens of Boaz, to glean to the end of barley harvest and of wheat harvest; and she lived with her mother-in-law.",
+      "ct": "So Ruth stayed close to Boaz's young women, gleaning through the end of both the barley harvest and the wheat harvest. And she continued living with her mother-in-law."
+    }
+  ]
+}

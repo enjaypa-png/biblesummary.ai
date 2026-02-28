@@ -1,0 +1,131 @@
+{
+  "book": "judges",
+  "book_name": "Judges",
+  "chapter": 15,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:32:56.241Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "But it came to pass within a while after, in the time of wheat harvest, that Samson visited his wife with a kid; and he said, I will go in to my wife into the chamber. But her father would not suffer him to go in.",
+      "web": "But after a while, in the time of wheat harvest, Samson visited his wife with a young goat. He said, “I will go in to my wife’s room.” But her father wouldn’t allow him to go in.",
+      "ct": "Some time later, during the wheat harvest, Samson went to visit his wife and brought a young goat as a gift. He said, \"I'm going to my wife's room.\" But her father wouldn't let him in."
+    },
+    {
+      "verse": 2,
+      "kjv": "And her father said, I verily thought that thou hadst utterly hated her; therefore I gave her to thy companion: is not her younger sister fairer than she? take her, I pray thee, instead of her.",
+      "web": "Her father said, “I most certainly thought that you utterly hated her; therefore I gave her to your companion. Isn’t her younger sister more beautiful than she? Please, take her instead.”",
+      "ct": "Her father said, \"I was sure you completely hated her, so I gave her to your best man. But look — her younger sister is even more beautiful. Take her instead, please.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And Samson said concerning them, Now shall I be more blameless than the Philistines, though I do them a displeasure.",
+      "web": "Samson said to them, “This time I will be blameless in the case of the Philistines when I harm them.”",
+      "ct": "Samson replied, \"This time no one can blame me for what I'm about to do to the Philistines.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Samson went and caught three hundred foxes, and took firebrands, and turned tail to tail, and put a firebrand in the midst between two tails.",
+      "web": "Samson went and caught three hundred foxes, and took torches, and turned tail to tail, and put a torch in the middle between every two tails.",
+      "ct": "Samson went out and caught 300 foxes. He tied them together in pairs by their tails and fastened a torch between each pair of tails."
+    },
+    {
+      "verse": 5,
+      "kjv": "And when he had set the brands on fire, he let them go into the standing corn of the Philistines, and burnt up both the shocks, and also the standing corn, with the vineyards and olives.",
+      "web": "When he had set the torches on fire, he let them go into the standing grain of the Philistines, and burned up both the shocks and the standing grain, and also the olive groves.",
+      "ct": "Then he lit the torches and released the foxes into the Philistines' grain fields. The fire destroyed everything — the harvested bundles, the standing grain, and even the vineyards and olive groves."
+    },
+    {
+      "verse": 6,
+      "kjv": "Then the Philistines said, Who hath done this? And they answered, Samson, the son in law of the Timnite, because he had taken his wife, and given her to his companion. And the Philistines came up, and burnt her and her father with fire.",
+      "web": "Then the Philistines said, “Who has done this?” They said, “Samson, the son-in-law of the Timnite, because he has taken his wife and given her to his companion.” The Philistines came up, and burned her and her father with fire.",
+      "ct": "The Philistines demanded, \"Who did this?\" They were told, \"Samson, the son-in-law of the man from Timnah — because the man gave Samson's wife to his best man.\" So the Philistines went and burned her and her father to death."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Samson said unto them, Though ye have done this, yet will I be avenged of you, and after that I will cease.",
+      "web": "Samson said to them, “If you behave like this, surely I will take revenge on you, and after that I will cease.”",
+      "ct": "Samson told them, \"Since you've done something like this, I won't stop until I've gotten my revenge.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And he smote them hip and thigh with a great slaughter: and he went down and dwelt in the top of the rock Etam.",
+      "web": "He struck them hip and thigh with a great slaughter; and he went down and lived in the cave in Etam’s rock.",
+      "ct": "He attacked them viciously, slaughtering a huge number of them. Then he went down and stayed in a cave at the rock of Etam."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then the Philistines went up, and pitched in Judah, and spread themselves in Lehi.",
+      "web": "Then the Philistines went up, encamped in Judah, and spread themselves in Lehi.",
+      "ct": "The Philistines marched up and set up camp in Judah, spreading out near Lehi."
+    },
+    {
+      "verse": 10,
+      "kjv": "And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us.",
+      "web": "The men of Judah said, “Why have you come up against us?” They said, “We have come up to bind Samson, to do to him as he has done to us.”",
+      "ct": "The men of Judah asked, \"Why have you come to attack us?\" They answered, \"We've come to capture Samson and pay him back for what he did to us.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "Then three thousand men of Judah went to the top of the rock Etam, and said to Samson, Knowest thou not that the Philistines are rulers over us? what is this that thou hast done unto us? And he said unto them, As they did unto me, so have I done unto them.",
+      "web": "Then three thousand men of Judah went down to the cave in Etam’s rock, and said to Samson, “Don’t you know that the Philistines are rulers over us? What then is this that you have done to us?” He said to them, “As they did to me, so I have done to them.”",
+      "ct": "So 3,000 men of Judah went down to the cave at the rock of Etam and said to Samson, \"Don't you realize the Philistines rule over us? What have you done to us?\" He answered, \"I only did to them what they did to me.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And they said unto him, We are come down to bind thee, that we may deliver thee into the hand of the Philistines. And Samson said unto them, Swear unto me, that ye will not fall upon me yourselves.",
+      "web": "They said to him, “We have come down to bind you, that we may deliver you into the hand of the Philistines.” Samson said to them, “Swear to me that you will not attack me yourselves.”",
+      "ct": "They told him, \"We've come to tie you up and hand you over to the Philistines.\" Samson said, \"Swear to me that you won't kill me yourselves.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And they spake unto him, saying, No; but we will bind thee fast, and deliver thee into their hand: but surely we will not kill thee. And they bound him with two new cords, and brought him up from the rock.",
+      "web": "They spoke to him, saying, “No, but we will bind you securely and deliver you into their hands; but surely we will not kill you.” They bound him with two new ropes, and brought him up from the rock.",
+      "ct": "\"We won't kill you,\" they promised. \"We'll just tie you up tight and hand you over to them.\" So they bound him with 2 new ropes and led him up from the rock."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when he came unto Lehi, the Philistines shouted against him: and the Spirit of the LORD came mightily upon him, and the cords that were upon his arms became as flax that was burnt with fire, and his bands loosed from off his hands.",
+      "web": "When he came to Lehi, the Philistines shouted as they met him. Then LORD’s Spirit came mightily on him, and the ropes that were on his arms became as flax that was burned with fire; and his bands dropped from off his hands.",
+      "ct": "When he arrived at Lehi, the Philistines came rushing toward him with a shout. But the Spirit of the LORD surged through him with power, and the ropes on his arms became like charred flax — the bindings simply fell off his hands."
+    },
+    {
+      "verse": 15,
+      "kjv": "And he found a new jawbone of an ass, and put forth his hand, and took it, and slew a thousand men therewith.",
+      "web": "He found a fresh jawbone of a donkey, put out his hand, took it, and struck a thousand men with it.",
+      "ct": "He spotted a fresh jawbone of a donkey lying on the ground, grabbed it, and killed 1,000 men with it."
+    },
+    {
+      "verse": 16,
+      "kjv": "And Samson said, With the jawbone of an ass, heaps upon heaps, with the jaw of an ass have I slain a thousand men.",
+      "web": "Samson said, “With the jawbone of a donkey, heaps on heaps; with the jawbone of a donkey I have struck a thousand men.”",
+      "ct": "Then Samson declared, \"With the jawbone of a donkey, I've piled them in heaps. With the jawbone of a donkey, I've killed 1,000 men.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And it came to pass, when he had made an end of speaking, that he cast away the jawbone out of his hand, and called that place Ramathlehi.",
+      "web": "When he had finished speaking, he threw the jawbone out of his hand; and that place was called Ramath Lehi.",
+      "ct": "When he finished speaking, he threw the jawbone aside. That place was named Ramath Lehi."
+    },
+    {
+      "verse": 18,
+      "kjv": "And he was sore athirst, and called on the LORD, and said, Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised?",
+      "web": "He was very thirsty, and called on LORD and said, “You have given this great deliverance by the hand of your servant; and now shall I die of thirst, and fall into the hands of the uncircumcised?”",
+      "ct": "Samson was desperately thirsty, so he cried out to the LORD, \"You gave your servant this incredible victory, and now am I going to die of thirst and fall into the hands of these uncircumcised people?\""
+    },
+    {
+      "verse": 19,
+      "kjv": "But God clave an hollow place that was in the jaw, and there came water thereout; and when he had drunk, his spirit came again, and he revived: wherefore he called the name thereof Enhakkore, which is in Lehi unto this day.",
+      "web": "But God split the hollow place that is in Lehi, and water came out of it. When he had drunk, his spirit came again, and he revived. Therefore its name was called En Hakkore, which is in Lehi, to this day.",
+      "ct": "God split open a hollow place in the ground at Lehi, and water gushed out of it. Samson drank, his strength returned, and he revived. That's why the spring was named En Hakkore — and it's still there in Lehi to this day."
+    },
+    {
+      "verse": 20,
+      "kjv": "And he judged Israel in the days of the Philistines twenty years.",
+      "web": "He judged Israel twenty years in the days of the Philistines.",
+      "ct": "Samson led Israel as judge for 20 years during the time of the Philistines."
+    }
+  ]
+}

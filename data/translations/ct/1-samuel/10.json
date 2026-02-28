@@ -1,0 +1,173 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:40:43.917Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then Samuel took a vial of oil, and poured it upon his head, and kissed him, and said, Is it not because the LORD hath anointed thee to be captain over his inheritance?",
+      "web": "Then Samuel took the vial of oil, and poured it on his head, and kissed him, and said, “Hasn’t LORD anointed you to be prince over his inheritance?",
+      "ct": "Samuel took a small flask of oil and poured it over Saul's head. Then he kissed him and said, \"The LORD has anointed you to be the ruler over his people.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "When thou art departed from me to day, then thou shalt find two men by Rachel’s sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?",
+      "web": "When you have departed from me today, then you will find two men by Rachel’s tomb, on the border of Benjamin at Zelzah. They will tell you, ‘The donkeys which you went to look for have been found; and behold, your father has stopped caring about the donkeys, and is anxious for you, saying, “What shall I do for my son?” ’",
+      "ct": "\"After you leave me today, you'll find 2 men near Rachel's tomb at Zelzah, on the border of Benjamin. They'll tell you, 'The donkeys you went looking for have been found. But now your father has stopped worrying about the donkeys and is worried about you instead, saying, \"What am I going to do about my son?\"'"
+    },
+    {
+      "verse": 3,
+      "kjv": "Then shalt thou go on forward from thence, and thou shalt come to the plain of Tabor, and there shall meet thee three men going up to God to Bethel, one carrying three kids, and another carrying three loaves of bread, and another carrying a bottle of wine:",
+      "web": "“Then you will go on forward from there, and you will come to the oak of Tabor. Three men will meet you there going up to God to Bethel, one carrying three young goats, and another carrying three loaves of bread, and another carrying a container of wine.",
+      "ct": "\"From there, keep going until you reach the oak of Tabor. 3 men will meet you there on their way up to worship God at Bethel — one carrying 3 young goats, another carrying 3 loaves of bread, and another carrying a container of wine."
+    },
+    {
+      "verse": 4,
+      "kjv": "And they will salute thee, and give thee two loaves of bread; which thou shalt receive of their hands.",
+      "web": "They will greet you, and give you two loaves of bread, which you shall receive from their hand.",
+      "ct": "They'll greet you and offer you 2 loaves of bread. Accept them."
+    },
+    {
+      "verse": 5,
+      "kjv": "After that thou shalt come to the hill of God, where is the garrison of the Philistines: and it shall come to pass, when thou art come thither to the city, that thou shalt meet a company of prophets coming down from the high place with a psaltery, and a tabret, and a pipe, and a harp, before them; and they shall prophesy:",
+      "web": "“After that you will come to the hill of God, where the garrison of the Philistines is; and it will happen, when you have come there to the city, that you will meet a band of prophets coming down from the high place with a lute, a tambourine, a pipe, and a harp before them; and they will be prophesying.",
+      "ct": "\"After that, you'll come to the hill of God, where there's a Philistine garrison. As you approach the town, you'll run into a group of prophets coming down from the high place, playing lutes, tambourines, flutes, and harps. They'll be prophesying as they go."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the Spirit of the LORD will come upon thee, and thou shalt prophesy with them, and shalt be turned into another man.",
+      "web": "Then LORD’s Spirit will come mightily on you, and you will prophesy with them, and will be turned into another man.",
+      "ct": "The Spirit of the LORD will come over you with power, and you'll prophesy right along with them. You'll be transformed into a different person."
+    },
+    {
+      "verse": 7,
+      "kjv": "And let it be, when these signs are come unto thee, that thou do as occasion serve thee; for God is with thee.",
+      "web": "Let it be, when these signs have come to you, that you do what is appropriate for the occasion; for God is with you.",
+      "ct": "When all these signs come true, do whatever the situation calls for, because God is with you."
+    },
+    {
+      "verse": 8,
+      "kjv": "And thou shalt go down before me to Gilgal; and, behold, I will come down unto thee, to offer burnt offerings, and to sacrifice sacrifices of peace offerings: seven days shalt thou tarry, till I come to thee, and shew thee what thou shalt do.",
+      "web": "“Go down ahead of me to Gilgal; and behold, I will come down to you, to offer burnt offerings, and to sacrifice sacrifices of peace offerings. Wait seven days, until I come to you, and show you what you are to do.”",
+      "ct": "\"Then go ahead of me down to Gilgal. I'll come to you there to offer burnt offerings and peace offerings. Wait 7 days until I arrive, and I'll tell you what to do next.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And it was so, that when he had turned his back to go from Samuel, God gave him another heart: and all those signs came to pass that day.",
+      "web": "It was so, that when he had turned his back to go from Samuel, God gave him another heart; and all those signs happened that day.",
+      "ct": "As Saul turned to leave Samuel, God gave him a new heart. Every one of those signs came true that very day."
+    },
+    {
+      "verse": 10,
+      "kjv": "And when they came thither to the hill, behold, a company of prophets met him; and the Spirit of God came upon him, and he prophesied among them.",
+      "web": "When they came there to the hill, behold, a band of prophets met him; and the Spirit of God came mightily on him, and he prophesied among them.",
+      "ct": "When they arrived at the hill, a group of prophets met him. The Spirit of God came over him with power, and he prophesied right there among them."
+    },
+    {
+      "verse": 11,
+      "kjv": "And it came to pass, when all that knew him beforetime saw that, behold, he prophesied among the prophets, then the people said one to another, What is this that is come unto the son of Kish? Is Saul also among the prophets?",
+      "web": "When all who knew him before saw that, behold, he prophesied with the prophets, then the people said to one another, “What is this that has come to the son of Kish? Is Saul also among the prophets?”",
+      "ct": "Everyone who had known Saul before saw him prophesying with the prophets and said to each other, \"What happened to the son of Kish? Is Saul really one of the prophets now?\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And one of the same place answered and said, But who is their father? Therefore it became a proverb, Is Saul also among the prophets?",
+      "web": "One of the same place answered, “Who is their father?” Therefore it became a proverb, “Is Saul also among the prophets?”",
+      "ct": "A man from that area spoke up and said, \"And who is their father?\" From that day on, \"Is Saul also among the prophets?\" became a common saying."
+    },
+    {
+      "verse": 13,
+      "kjv": "And when he had made an end of prophesying, he came to the high place.",
+      "web": "When he had finished prophesying, he came to the high place.",
+      "ct": "When Saul finished prophesying, he went to the high place."
+    },
+    {
+      "verse": 14,
+      "kjv": "And Saul’s uncle said unto him and to his servant, Whither went ye? And he said, To seek the asses: and when we saw that they were no where, we came to Samuel.",
+      "web": "Saul’s uncle said to him and to his servant, “Where did you go?” He said, “To seek the donkeys. When we saw that they were not found, we came to Samuel.”",
+      "ct": "Saul's uncle asked him and his servant, \"Where did you go?\" Saul answered, \"We went looking for the donkeys, and when we couldn't find them, we went to Samuel.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And Saul’s uncle said, Tell me, I pray thee, what Samuel said unto you.",
+      "web": "Saul’s uncle said, “Please tell me what Samuel said to you.”",
+      "ct": "His uncle pressed him, \"Tell me — what did Samuel say to you?\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not.",
+      "web": "Saul said to his uncle, “He told us plainly that the donkeys were found.” But concerning the matter of the kingdom, of which Samuel spoke, he didn’t tell him.",
+      "ct": "Saul told his uncle, \"He assured us that the donkeys had been found.\" But he said nothing about what Samuel had told him regarding the kingship."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Samuel called the people together unto the LORD to Mizpeh;",
+      "web": "Samuel called the people together to LORD to Mizpah;",
+      "ct": "Samuel called all the people to gather before the LORD at Mizpah."
+    },
+    {
+      "verse": 18,
+      "kjv": "And said unto the children of Israel, Thus saith the LORD God of Israel, I brought up Israel out of Egypt, and delivered you out of the hand of the Egyptians, and out of the hand of all kingdoms, and of them that oppressed you:",
+      "web": "and he said to the children of Israel, “LORD, the God of Israel, says ‘I brought Israel up out of Egypt, and I delivered you out of the hand of the Egyptians, and out of the hand of all the kingdoms that oppressed you.’",
+      "ct": "He addressed the Israelites: \"This is what the LORD, the God of Israel, says: 'I brought Israel out of Egypt. I rescued you from the Egyptians and from every kingdom that oppressed you.'"
+    },
+    {
+      "verse": 19,
+      "kjv": "And ye have this day rejected your God, who himself saved you out of all your adversities and your tribulations; and ye have said unto him, Nay, but set a king over us. Now therefore present yourselves before the LORD by your tribes, and by your thousands.",
+      "web": "But you have today rejected your God, who himself saves you out of all your calamities and your distresses; and you have said to him, ‘No! Set a king over us.’ Now therefore present yourselves before LORD by your tribes, and by your thousands.”",
+      "ct": "\"But today you have rejected your God — the one who saved you from all your disasters and hardships — and you've said to him, 'No, give us a king instead.' So now, line up before the LORD by your tribes and by your clans.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And when Samuel had caused all the tribes of Israel to come near, the tribe of Benjamin was taken.",
+      "web": "So Samuel brought all the tribes of Israel near, and the tribe of Benjamin was chosen.",
+      "ct": "Samuel brought each tribe of Israel forward, and the tribe of Benjamin was chosen."
+    },
+    {
+      "verse": 21,
+      "kjv": "When he had caused the tribe of Benjamin to come near by their families, the family of Matri was taken, and Saul the son of Kish was taken: and when they sought him, he could not be found.",
+      "web": "He brought the tribe of Benjamin near by their families; and the family of the Matrites was chosen. Then Saul the son of Kish was chosen; but when they looked for him, he could not be found.",
+      "ct": "He brought the tribe of Benjamin forward family by family, and the family of Matri was chosen. Then Saul son of Kish was chosen. But when they looked for him, he was nowhere to be found."
+    },
+    {
+      "verse": 22,
+      "kjv": "Therefore they enquired of the LORD further, if the man should yet come thither. And the LORD answered, Behold, he hath hid himself among the stuff.",
+      "web": "Therefore they asked of LORD further, “Is there yet a man to come here?” LORD answered, “Behold, he has hidden himself among the baggage.”",
+      "ct": "So they asked the LORD, \"Has the man come here yet?\" The LORD answered, \"He's hiding among the baggage.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And they ran and fetched him thence: and when he stood among the people, he was higher than any of the people from his shoulders and upward.",
+      "web": "They ran and got him there. When he stood among the people, he was higher than any of the people from his shoulders and upward.",
+      "ct": "They ran and pulled him out. When he stood among the crowd, he towered over everyone — head and shoulders above them all."
+    },
+    {
+      "verse": 24,
+      "kjv": "And Samuel said to all the people, See ye him whom the LORD hath chosen, that there is none like him among all the people? And all the people shouted, and said, God save the king.",
+      "web": "Samuel said to all the people, “Do you see him whom LORD has chosen, that there is no one like him among all the people?” All the people shouted, and said, “Long live the king!”",
+      "ct": "Samuel said to the people, \"Do you see the one the LORD has chosen? There's no one like him among all of you!\" The whole crowd erupted in cheers, shouting, \"Long live the king!\""
+    },
+    {
+      "verse": 25,
+      "kjv": "Then Samuel told the people the manner of the kingdom, and wrote it in a book, and laid it up before the LORD. And Samuel sent all the people away, every man to his house.",
+      "web": "Then Samuel told the people the regulations of the kingdom, and wrote it in a book, and laid it up before LORD. Samuel sent all the people away, every man to his house.",
+      "ct": "Samuel explained to the people the rights and responsibilities of kingship, wrote them down in a book, and placed it before the LORD. Then he sent everyone home."
+    },
+    {
+      "verse": 26,
+      "kjv": "And Saul also went home to Gibeah; and there went with him a band of men, whose hearts God had touched.",
+      "web": "Saul also went to his house to Gibeah; and the army went with him, whose hearts God had touched.",
+      "ct": "Saul also went home to Gibeah, accompanied by a group of men whose hearts God had stirred."
+    },
+    {
+      "verse": 27,
+      "kjv": "But the children of Belial said, How shall this man save us? And they despised him, and brought him no presents. But he held his peace.",
+      "web": "But certain worthless fellows said, “How could this man save us?” They despised him, and brought him no present. But he held his peace.",
+      "ct": "But some worthless troublemakers scoffed, \"How is this man supposed to save us?\" They looked down on him and refused to bring him any gifts. But Saul said nothing."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "book": "1-samuel",
+  "book_name": "1 Samuel",
+  "chapter": 19,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:45:07.351Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And Saul spake to Jonathan his son, and to all his servants, that they should kill David.",
+      "web": "Saul spoke to Jonathan his son, and to all his servants, that they should kill David. But Jonathan, Saul’s son, greatly delighted in David.",
+      "ct": "Saul told his son Jonathan and all his officials that he wanted David killed."
+    },
+    {
+      "verse": 2,
+      "kjv": "But Jonathan Saul’s son delighted much in David: and Jonathan told David, saying, Saul my father seeketh to kill thee: now therefore, I pray thee, take heed to thyself until the morning, and abide in a secret place, and hide thyself:",
+      "web": "Jonathan told David, saying, “Saul my father seeks to kill you. Now therefore, please take care of yourself in the morning, and live in a secret place, and hide yourself.",
+      "ct": "But Jonathan cared deeply about David, so he warned him: \"My father Saul is trying to kill you. Be careful — find a hiding place in the morning and stay out of sight."
+    },
+    {
+      "verse": 3,
+      "kjv": "And I will go out and stand beside my father in the field where thou art, and I will commune with my father of thee; and what I see, that I will tell thee.",
+      "web": "I will go out and stand beside my father in the field where you are, and I will talk with my father about you; and if I see anything, I will tell you.”",
+      "ct": "I'll go stand with my father in the field near where you're hiding and bring up your name in conversation. Whatever I find out, I'll come tell you.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And Jonathan spake good of David unto Saul his father, and said unto him, Let not the king sin against his servant, against David; because he hath not sinned against thee, and because his works have been to thee-ward very good:",
+      "web": "Jonathan spoke good of David to Saul his father, and said to him, “Don’t let the king sin against his servant, against David; because he has not sinned against you, and because his works have been very good toward you;",
+      "ct": "Jonathan spoke well of David to his father Saul. He said, \"Don't sin against your servant David. He's never done anything to harm you — in fact, everything he's done has been for your benefit."
+    },
+    {
+      "verse": 5,
+      "kjv": "For he did put his life in his hand, and slew the Philistine, and the LORD wrought a great salvation for all Israel: thou sawest it, and didst rejoice: wherefore then wilt thou sin against innocent blood, to slay David without a cause?",
+      "web": "for he put his life in his hand, and struck the Philistine, and LORD worked a great victory for all Israel. You saw it, and rejoiced. Why then will you sin against innocent blood, to kill David without a cause?”",
+      "ct": "He risked his own life when he killed the Philistine, and the LORD used him to bring a great salvation to all of Israel. You saw it yourself and celebrated! So why would you sin against an innocent man by killing David for no reason?\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And Saul hearkened unto the voice of Jonathan: and Saul sware, As the LORD liveth, he shall not be slain.",
+      "web": "Saul listened to the voice of Jonathan: and Saul swore, “As LORD lives, he shall not be put to death.”",
+      "ct": "Saul listened to Jonathan and swore an oath: \"As the LORD lives, David will not be put to death.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And Jonathan called David, and Jonathan shewed him all those things. And Jonathan brought David to Saul, and he was in his presence, as in times past.",
+      "web": "Jonathan called David, and Jonathan showed him all those things. Then Jonathan brought David to Saul, and he was in his presence, as before.",
+      "ct": "Jonathan went to David and told him everything. Then he brought David back to Saul, and David served in Saul's presence just as he had before."
+    },
+    {
+      "verse": 8,
+      "kjv": "And there was war again: and David went out, and fought with the Philistines, and slew them with a great slaughter; and they fled from him.",
+      "web": "There was war again. David went out, and fought with the Philistines, and killed them with a great slaughter; and they fled before him.",
+      "ct": "War broke out again, and David went out to fight the Philistines. He struck them down with devastating force, and they fled before him."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the evil spirit from the LORD was upon Saul, as he sat in his house with his javelin in his hand: and David played with his hand.",
+      "web": "An evil spirit from LORD was on Saul, as he sat in his house with his spear in his hand; and David was playing with his hand.",
+      "ct": "But then an evil spirit from the LORD came over Saul while he was sitting in his house with a spear in his hand. David was nearby, playing music."
+    },
+    {
+      "verse": 10,
+      "kjv": "And Saul sought to smite David even to the wall with the javelin, but he slipped away out of Saul’s presence, and he smote the javelin into the wall: and David fled, and escaped that night.",
+      "web": "Saul sought to pin David to the wall with the spear; but he slipped away out of Saul’s presence, and he stuck the spear into the wall. David fled, and escaped that night.",
+      "ct": "Saul hurled the spear, trying to pin David to the wall. But David dodged out of the way, and the spear stuck in the wall behind him. That night, David fled and escaped."
+    },
+    {
+      "verse": 11,
+      "kjv": "Saul also sent messengers unto David’s house, to watch him, and to slay him in the morning: and Michal David’s wife told him, saying, If thou save not thy life to night, to morrow thou shalt be slain.",
+      "web": "Saul sent messengers to David’s house, to watch him, and to kill him in the morning. Michal, David’s wife, told him, saying, “If you don’t save your life tonight, tomorrow you will be killed.”",
+      "ct": "Saul sent men to watch David's house with orders to kill him in the morning. But Michal, David's wife, warned him: \"If you don't get out of here tonight, you'll be dead by morning.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "So Michal let David down through a window: and he went, and fled, and escaped.",
+      "web": "So Michal let David down through the window. He went away, fled, and escaped.",
+      "ct": "So Michal lowered David down through a window, and he ran and got away."
+    },
+    {
+      "verse": 13,
+      "kjv": "And Michal took an image, and laid it in the bed, and put a pillow of goats’ hair for his bolster, and covered it with a cloth.",
+      "web": "Michal took the teraphim, and laid it in the bed, and put a pillow of goats’ hair at its head, and covered it with clothes.",
+      "ct": "Then Michal took a household idol and laid it in the bed. She put a pillow of goats' hair at its head and covered it with a blanket."
+    },
+    {
+      "verse": 14,
+      "kjv": "And when Saul sent messengers to take David, she said, He is sick.",
+      "web": "When Saul sent messengers to take David, she said, “He is sick.”",
+      "ct": "When Saul's men came to arrest David, she told them, \"He's sick.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "And Saul sent the messengers again to see David, saying, Bring him up to me in the bed, that I may slay him.",
+      "web": "Saul sent the messengers to see David, saying, “Bring him up to me in the bed, that I may kill him.”",
+      "ct": "Saul sent the men back with new orders: \"Bring him to me in his bed if you have to — I'm going to kill him.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "And when the messengers were come in, behold, there was an image in the bed, with a pillow of goats’ hair for his bolster.",
+      "web": "When the messengers came in, behold, the teraphim was in the bed, with the pillow of goats’ hair at its head.",
+      "ct": "When the men went inside, they found the idol lying in the bed with the goats' hair pillow at its head."
+    },
+    {
+      "verse": 17,
+      "kjv": "And Saul said unto Michal, Why hast thou deceived me so, and sent away mine enemy, that he is escaped? And Michal answered Saul, He said unto me, Let me go; why should I kill thee?",
+      "web": "Saul said to Michal, “Why have you deceived me like this and let my enemy go, so that he has escaped?” Michal answered Saul, “He said to me, ‘Let me go! Why should I kill you?’ ”",
+      "ct": "Saul confronted Michal: \"Why did you deceive me like this? You let my enemy escape!\" Michal answered, \"He threatened me. He said, 'Let me go, or I'll kill you.'\""
+    },
+    {
+      "verse": 18,
+      "kjv": "So David fled, and escaped, and came to Samuel to Ramah, and told him all that Saul had done to him. And he and Samuel went and dwelt in Naioth.",
+      "web": "Now David fled and escaped, and came to Samuel at Ramah, and told him all that Saul had done to him. He and Samuel went and lived in Naioth.",
+      "ct": "David fled and made his way to Samuel at Ramah, where he told him everything Saul had done. Then the two of them went and stayed at Naioth."
+    },
+    {
+      "verse": 19,
+      "kjv": "And it was told Saul, saying, Behold, David is at Naioth in Ramah.",
+      "web": "Saul was told, saying, “Behold, David is at Naioth in Ramah.”",
+      "ct": "Word reached Saul: \"David is at Naioth in Ramah.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "And Saul sent messengers to take David: and when they saw the company of the prophets prophesying, and Samuel standing as appointed over them, the Spirit of God was upon the messengers of Saul, and they also prophesied.",
+      "web": "Saul sent messengers to seize David: and when they saw the company of the prophets prophesying, and Samuel standing as head over them, God’s Spirit came on Saul’s messengers, and they also prophesied.",
+      "ct": "Saul sent men to seize David. But when they arrived and saw a group of prophets prophesying with Samuel leading them, the Spirit of God came over Saul's men, and they started prophesying too."
+    },
+    {
+      "verse": 21,
+      "kjv": "And when it was told Saul, he sent other messengers, and they prophesied likewise. And Saul sent messengers again the third time, and they prophesied also.",
+      "web": "When Saul was told, he sent other messengers, and they also prophesied. Saul sent messengers again the third time, and they also prophesied.",
+      "ct": "When Saul heard what happened, he sent a second group of men — and they also prophesied. He sent a third group, and the same thing happened to them."
+    },
+    {
+      "verse": 22,
+      "kjv": "Then went he also to Ramah, and came to a great well that is in Sechu: and he asked and said, Where are Samuel and David? And one said, Behold, they be at Naioth in Ramah.",
+      "web": "Then he also went to Ramah, and came to the great well that is in Secu: and he asked, “Where are Samuel and David?” One said, “Behold, they are at Naioth in Ramah.”",
+      "ct": "Finally, Saul went to Ramah himself. When he reached the large well at Sechu, he asked, \"Where are Samuel and David?\" Someone told him, \"They're at Naioth in Ramah.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "And he went thither to Naioth in Ramah: and the Spirit of God was upon him also, and he went on, and prophesied, until he came to Naioth in Ramah.",
+      "web": "He went there to Naioth in Ramah. Then God’s Spirit came on him also, and he went on, and prophesied, until he came to Naioth in Ramah.",
+      "ct": "As Saul headed toward Naioth in Ramah, the Spirit of God came over him too, and he prophesied the entire way there."
+    },
+    {
+      "verse": 24,
+      "kjv": "And he stripped off his clothes also, and prophesied before Samuel in like manner, and lay down naked all that day and all that night. Wherefore they say, Is Saul also among the prophets?",
+      "web": "He also stripped off his clothes, and he also prophesied before Samuel, and lay down naked all that day and all that night. Therefore they say, “Is Saul also among the prophets?”",
+      "ct": "When he arrived, he stripped off his clothes and prophesied in front of Samuel. He lay there naked all that day and all that night. That's why people say, \"Is Saul also among the prophets?\""
+    }
+  ]
+}

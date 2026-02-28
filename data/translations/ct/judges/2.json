@@ -1,0 +1,149 @@
+{
+  "book": "judges",
+  "book_name": "Judges",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T09:27:17.759Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And an angel of the LORD came up from Gilgal to Bochim, and said, I made you to go up out of Egypt, and have brought you unto the land which I sware unto your fathers; and I said, I will never break my covenant with you.",
+      "web": "LORD’s angel came up from Gilgal to Bochim. He said, “I brought you out of Egypt, and have brought you to the land which I swore to give your fathers. I said, ‘I will never break my covenant with you.",
+      "ct": "An angel of the LORD traveled from Gilgal to Bochim and said, \"I brought you out of Egypt and led you into the land I promised to your ancestors. I said, 'I will never break my covenant with you.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "And ye shall make no league with the inhabitants of this land; ye shall throw down their altars: but ye have not obeyed my voice: why have ye done this?",
+      "web": "You shall make no covenant with the inhabitants of this land. You shall break down their altars.’ But you have not listened to my voice. Why have you done this?",
+      "ct": "\"You were not to make any covenant with the people living in this land. You were to tear down their altars. But you haven't obeyed me. Why have you done this?\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Wherefore I also said, I will not drive them out from before you; but they shall be as thorns in your sides, and their gods shall be a snare unto you.",
+      "web": "Therefore I also said, ‘I will not drive them out from before you; but they shall be in your sides, and their gods will be a snare to you.’ ”",
+      "ct": "\"So now I'm telling you: I will not drive them out ahead of you. They will be thorns in your sides, and their gods will be a snare to you.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass, when the angel of the LORD spake these words unto all the children of Israel, that the people lifted up their voice, and wept.",
+      "web": "When LORD’s angel spoke these words to all the children of Israel, the people lifted up their voice and wept.",
+      "ct": "When the angel of the LORD spoke these words to all the people of Israel, they broke down and wept out loud."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they called the name of that place Bochim: and they sacrificed there unto the LORD.",
+      "web": "They called the name of that place Bochim, and they sacrificed there to LORD.",
+      "ct": "They named that place Bochim, and they offered sacrifices there to the LORD."
+    },
+    {
+      "verse": 6,
+      "kjv": "And when Joshua had let the people go, the children of Israel went every man unto his inheritance to possess the land.",
+      "web": "Now when Joshua had sent the people away, the children of Israel each went to his inheritance to possess the land.",
+      "ct": "After Joshua dismissed the people, each tribe of Israel went to settle the territory they had been given as their inheritance."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the people served the LORD all the days of Joshua, and all the days of the elders that outlived Joshua, who had seen all the great works of the LORD, that he did for Israel.",
+      "web": "The people served LORD all the days of Joshua, and all the days of the elders who outlived Joshua, who had seen all the great work of LORD that he had worked for Israel.",
+      "ct": "The people served the LORD throughout Joshua's lifetime and throughout the lifetimes of the elders who outlived him — men who had witnessed all the great things the LORD had done for Israel."
+    },
+    {
+      "verse": 8,
+      "kjv": "And Joshua the son of Nun, the servant of the LORD, died, being an hundred and ten years old.",
+      "web": "Joshua the son of Nun, the servant of LORD, died, being one hundred ten years old.",
+      "ct": "Joshua son of Nun, the servant of the LORD, died at the age of 110."
+    },
+    {
+      "verse": 9,
+      "kjv": "And they buried him in the border of his inheritance in Timnathheres, in the mount of Ephraim, on the north side of the hill Gaash.",
+      "web": "They buried him in the border of his inheritance in Timnath Heres, in the hill country of Ephraim, on the north of the mountain of Gaash.",
+      "ct": "They buried him on his own land at Timnathheres, in the hill country of Ephraim, north of Mount Gaash."
+    },
+    {
+      "verse": 10,
+      "kjv": "And also all that generation were gathered unto their fathers: and there arose another generation after them, which knew not the LORD, nor yet the works which he had done for Israel.",
+      "web": "After all that generation were gathered to their fathers, another generation arose after them who didn’t know LORD, nor the work which he had done for Israel.",
+      "ct": "That entire generation eventually died and joined their ancestors. The generation that came after them didn't know the LORD and had no knowledge of what he had done for Israel."
+    },
+    {
+      "verse": 11,
+      "kjv": "And the children of Israel did evil in the sight of the LORD, and served Baalim:",
+      "web": "The children of Israel did that which was evil in LORD’s sight, and served the Baals.",
+      "ct": "The LORD saw that the people of Israel were evil, because they began worshiping the Baals."
+    },
+    {
+      "verse": 12,
+      "kjv": "And they forsook the LORD God of their fathers, which brought them out of the land of Egypt, and followed other gods, of the gods of the people that were round about them, and bowed themselves unto them, and provoked the LORD to anger.",
+      "web": "They abandoned LORD, the God of their fathers, who brought them out of the land of Egypt, and followed other gods, of the gods of the peoples who were around them, and bowed themselves down to them; and they provoked LORD to anger.",
+      "ct": "They abandoned the LORD, the God of their ancestors who had brought them out of Egypt. Instead, they chased after the gods of the nations around them, bowing down to worship them. This provoked the LORD to anger."
+    },
+    {
+      "verse": 13,
+      "kjv": "And they forsook the LORD, and served Baal and Ashtaroth.",
+      "web": "They abandoned LORD, and served Baal and the Ashtaroth.",
+      "ct": "They turned their backs on the LORD and served Baal and Ashtaroth."
+    },
+    {
+      "verse": 14,
+      "kjv": "And the anger of the LORD was hot against Israel, and he delivered them into the hands of spoilers that spoiled them, and he sold them into the hands of their enemies round about, so that they could not any longer stand before their enemies.",
+      "web": "LORD’s anger burned against Israel, and he delivered them into the hands of raiders who plundered them. He sold them into the hands of their enemies all around, so that they could no longer stand before their enemies.",
+      "ct": "The LORD's anger burned against Israel. He handed them over to raiders who plundered them and sold them into the power of their surrounding enemies. They could no longer hold their own in battle."
+    },
+    {
+      "verse": 15,
+      "kjv": "Whithersoever they went out, the hand of the LORD was against them for evil, as the LORD had said, and as the LORD had sworn unto them: and they were greatly distressed.",
+      "web": "Wherever they went out, LORD’s hand was against them for evil, as LORD had spoken, and as LORD had sworn to them; and they were very distressed.",
+      "ct": "Every time they went out to fight, the LORD's hand was against them, bringing disaster — exactly as he had warned them, exactly as he had sworn. They suffered terribly."
+    },
+    {
+      "verse": 16,
+      "kjv": "Nevertheless the LORD raised up judges, which delivered them out of the hand of those that spoiled them.",
+      "web": "LORD raised up judges, who saved them out of the hand of those who plundered them.",
+      "ct": "Even so, the LORD raised up judges who rescued them from the people plundering them."
+    },
+    {
+      "verse": 17,
+      "kjv": "And yet they would not hearken unto their judges, but they went a whoring after other gods, and bowed themselves unto them: they turned quickly out of the way which their fathers walked in, obeying the commandments of the LORD; but they did not so.",
+      "web": "Yet they didn’t listen to their judges; for they prostituted themselves to other gods, and bowed themselves down to them. They quickly turned away from the way in which their fathers walked, obeying LORD’s commandments. They didn’t do so.",
+      "ct": "But they refused to listen even to their judges. They prostituted themselves to other gods and bowed down to them. They quickly abandoned the path their ancestors had walked — the path of obeying the LORD's commandments. They refused to follow it."
+    },
+    {
+      "verse": 18,
+      "kjv": "And when the LORD raised them up judges, then the LORD was with the judge, and delivered them out of the hand of their enemies all the days of the judge: for it repented the LORD because of their groanings by reason of them that oppressed them and vexed them.",
+      "web": "When LORD raised up judges for them, then LORD was with the judge, and saved them out of the hand of their enemies all the days of the judge; for it grieved LORD because of their groaning by reason of those who oppressed them and troubled them.",
+      "ct": "Whenever the LORD raised up a judge for them, he was with that judge and rescued them from their enemies for as long as the judge lived. The LORD was moved to compassion by their groaning under the weight of those who oppressed and tormented them."
+    },
+    {
+      "verse": 19,
+      "kjv": "And it came to pass, when the judge was dead, that they returned, and corrupted themselves more than their fathers, in following other gods to serve them, and to bow down unto them; they ceased not from their own doings, nor from their stubborn way.",
+      "web": "But when the judge was dead, they turned back, and dealt more corruptly than their fathers in following other gods to serve them and to bow down to them. They didn’t cease what they were doing, or give up their stubborn ways.",
+      "ct": "But as soon as the judge died, the people went right back to their old ways — and became even more corrupt than the generation before them, chasing after other gods, serving them, and bowing down to them. They refused to give up their sinful practices or their stubborn ways."
+    },
+    {
+      "verse": 20,
+      "kjv": "And the anger of the LORD was hot against Israel; and he said, Because that this people hath transgressed my covenant which I commanded their fathers, and have not hearkened unto my voice;",
+      "web": "LORD’s anger burned against Israel; and he said, “Because this nation transgressed my covenant which I commanded their fathers, and has not listened to my voice,",
+      "ct": "The LORD's anger burned against Israel, and he said, \"Because this nation has broken the covenant I gave their ancestors and has refused to listen to me,"
+    },
+    {
+      "verse": 21,
+      "kjv": "I also will not henceforth drive out any from before them of the nations which Joshua left when he died:",
+      "web": "I also will no longer drive out any of the nations that Joshua left when he died from before them;",
+      "ct": "I will no longer drive out any of the nations that Joshua left behind when he died."
+    },
+    {
+      "verse": 22,
+      "kjv": "That through them I may prove Israel, whether they will keep the way of the LORD to walk therein, as their fathers did keep it, or not.",
+      "web": "that by them I may test Israel, to see if they will keep LORD’s way to walk therein, as their fathers kept it, or not.”",
+      "ct": "I will use those nations to test Israel — to see whether or not they will follow the LORD's way and walk in it, as their ancestors did.\""
+    },
+    {
+      "verse": 23,
+      "kjv": "Therefore the LORD left those nations, without driving them out hastily; neither delivered he them into the hand of Joshua.",
+      "web": "So LORD left those nations, without driving them out hastily. He didn’t deliver them into Joshua’s hand.",
+      "ct": "So the LORD let those nations remain. He didn't drive them out quickly, and he didn't hand them over to Joshua."
+    }
+  ]
+}
