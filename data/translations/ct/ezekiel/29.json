@@ -1,0 +1,137 @@
+{
+  "book": "ezekiel",
+  "book_name": "Ezekiel",
+  "chapter": 29,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:35:16.748Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In the tenth year, in the tenth month, in the twelfth day of the month, the word of the LORD came unto me, saying,",
+      "web": "In the tenth year, in the tenth month, on the twelfth day of the month, LORD’s word came to me, saying,",
+      "ct": "On the 12th day of the 10th month, in the 10th year, the word of the LORD came to me:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Son of man, set thy face against Pharaoh king of Egypt, and prophesy against him, and against all Egypt:",
+      "web": "“Son of man, set your face against Pharaoh king of Egypt, and prophesy against him and against all Egypt.",
+      "ct": "\"Son of man, turn your attention toward Pharaoh king of Egypt and prophesy against him and against all of Egypt."
+    },
+    {
+      "verse": 3,
+      "kjv": "Speak, and say, Thus saith the Lord GOD; Behold, I am against thee, Pharaoh king of Egypt, the great dragon that lieth in the midst of his rivers, which hath said, My river is mine own, and I have made it for myself.",
+      "web": "Speak and say, ‘The Lord LORD says: “Behold, I am against you, Pharaoh king of Egypt, the great monster that lies in the middle of his rivers, that has said, ‘My river is my own, and I have made it for myself.’",
+      "ct": "Tell him, 'This is what the Lord GOD says: I am against you, Pharaoh king of Egypt — you great monster lying in the middle of your rivers, who has said, \"The Nile is mine. I made it for myself.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "But I will put hooks in thy jaws, and I will cause the fish of thy rivers to stick unto thy scales, and I will bring thee up out of the midst of thy rivers, and all the fish of thy rivers shall stick unto thy scales.",
+      "web": "I will put hooks in your jaws, and I will make the fish of your rivers stick to your scales. I will bring you up out of the middle of your rivers, with all the fish of your rivers which stick to your scales.",
+      "ct": "I will put hooks in your jaws and make the fish of your rivers cling to your scales. Then I will drag you up out of your rivers, with all those fish stuck to you."
+    },
+    {
+      "verse": 5,
+      "kjv": "And I will leave thee thrown into the wilderness, thee and all the fish of thy rivers: thou shalt fall upon the open fields; thou shalt not be brought together, nor gathered: I have given thee for meat to the beasts of the field and to the fowls of the heaven.",
+      "web": "I’ll cast you out into the wilderness, you and all the fish of your rivers. You’ll fall on the open field. You won’t be brought together or gathered. I have given you for food to the animals of the earth and to the birds of the sky.",
+      "ct": "I will throw you out into the desert — you and all the fish from your rivers. You will fall in the open fields, and no one will gather you or pick you up. I have given you as food to the wild animals and the birds of the heavens."
+    },
+    {
+      "verse": 6,
+      "kjv": "And all the inhabitants of Egypt shall know that I am the LORD, because they have been a staff of reed to the house of Israel.",
+      "web": "“ ‘ “All the inhabitants of Egypt will know that I am LORD, because they have been a staff of reed to the house of Israel.",
+      "ct": "Then everyone in Egypt will know that I am the LORD. Egypt has been nothing but a flimsy reed staff for the people of Israel."
+    },
+    {
+      "verse": 7,
+      "kjv": "When they took hold of thee by thy hand, thou didst break, and rend all their shoulder: and when they leaned upon thee, thou brakest, and madest all their loins to be at a stand.",
+      "web": "When they took hold of you by your hand, you broke, and tore all their shoulders. When they leaned on you, you broke, and paralyzed all of their thighs.”",
+      "ct": "When Israel grabbed hold of you, you snapped and tore their shoulders open. When they leaned on you for support, you broke apart and made their legs buckle beneath them.'"
+    },
+    {
+      "verse": 8,
+      "kjv": "Therefore thus saith the Lord GOD; Behold, I will bring a sword upon thee, and cut off man and beast out of thee.",
+      "web": "“ ‘Therefore the Lord LORD says: “Behold, I will bring a sword on you, and will cut off man and animal from you.",
+      "ct": "\"So this is what the Lord GOD says: I am bringing a sword against you, and I will wipe out both people and animals from your land."
+    },
+    {
+      "verse": 9,
+      "kjv": "And the land of Egypt shall be desolate and waste; and they shall know that I am the LORD: because he hath said, The river is mine, and I have made it.",
+      "web": "The land of Egypt will be a desolation and a waste. Then they will know that I am LORD. “ ‘ “Because he has said, ‘The river is mine, and I have made it;’",
+      "ct": "Egypt will become an empty wasteland. Then they will know that I am the LORD. Because Pharaoh said, 'The river is mine — I made it,'"
+    },
+    {
+      "verse": 10,
+      "kjv": "Behold, therefore I am against thee, and against thy rivers, and I will make the land of Egypt utterly waste and desolate, from the tower of Syene even unto the border of Ethiopia.",
+      "web": "therefore, behold, I am against you, and against your rivers. I will make the land of Egypt an utter waste and desolation, from the tower of Seveneh even to the border of Ethiopia.",
+      "ct": "I am against you and against your rivers. I will turn the land of Egypt into a complete and utter wasteland, from Migdol to Syene, all the way to the border of Ethiopia."
+    },
+    {
+      "verse": 11,
+      "kjv": "No foot of man shall pass through it, nor foot of beast shall pass through it, neither shall it be inhabited forty years.",
+      "web": "No foot of man will pass through it, nor will any animal foot pass through it. It won’t be inhabited for forty years.",
+      "ct": "No person will walk through it, and no animal will cross it. It will be completely uninhabited for 40 years."
+    },
+    {
+      "verse": 12,
+      "kjv": "And I will make the land of Egypt desolate in the midst of the countries that are desolate, and her cities among the cities that are laid waste shall be desolate forty years: and I will scatter the Egyptians among the nations, and will disperse them through the countries.",
+      "web": "I will make the land of Egypt a desolation in the middle of the countries that are desolate. Her cities among the cities that are laid waste will be a desolation forty years. I will scatter the Egyptians among the nations, and will disperse them through the countries.”",
+      "ct": "I will make Egypt a wasteland among ruined nations, and its cities will sit desolate among destroyed cities for 40 years. I will scatter the Egyptians among the nations and disperse them across foreign lands.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Yet thus saith the Lord GOD; At the end of forty years will I gather the Egyptians from the people whither they were scattered:",
+      "web": "“ ‘For the Lord LORD says: “At the end of forty years I will gather the Egyptians from the peoples where they were scattered.",
+      "ct": "\"But this is what the Lord GOD says: After 40 years, I will gather the Egyptians from the nations where they were scattered."
+    },
+    {
+      "verse": 14,
+      "kjv": "And I will bring again the captivity of Egypt, and will cause them to return into the land of Pathros, into the land of their habitation; and they shall be there a base kingdom.",
+      "web": "I will reverse the captivity of Egypt, and will cause them to return into the land of Pathros, into the land of their birth. They will be a lowly kingdom, there.",
+      "ct": "I will bring them back from captivity and return them to Pathros, the land where they were born. But there they will be only a minor kingdom."
+    },
+    {
+      "verse": 15,
+      "kjv": "It shall be the basest of the kingdoms; neither shall it exalt itself any more above the nations: for I will diminish them, that they shall no more rule over the nations.",
+      "web": "It will be the lowest of the kingdoms. It won’t lift itself up above the nations any more. I will diminish them, so that they will no longer rule over the nations.",
+      "ct": "Egypt will be the weakest of all kingdoms. It will never again rise above the other nations. I will make it so small that it will never again dominate other peoples."
+    },
+    {
+      "verse": 16,
+      "kjv": "And it shall be no more the confidence of the house of Israel, which bringeth their iniquity to remembrance, when they shall look after them: but they shall know that I am the Lord GOD.",
+      "web": "It will no longer be the confidence of the house of Israel, bringing iniquity to memory, when they turn to look after them. Then they will know that I am the Lord LORD.” ’ ”",
+      "ct": "Israel will never again look to Egypt for help. Every time they did, it only reminded everyone of Israel's sin in turning to Egypt instead of to me. Then they will know that I am the Lord GOD.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "And it came to pass in the seven and twentieth year, in the first month, in the first day of the month, the word of the LORD came unto me, saying,",
+      "web": "It came to pass in the twenty-seventh year, in the first month, in the first day of the month, LORD’s word came to me, saying,",
+      "ct": "On the 1st day of the 1st month, in the 27th year, the word of the LORD came to me:"
+    },
+    {
+      "verse": 18,
+      "kjv": "Son of man, Nebuchadrezzar king of Babylon caused his army to serve a great service against Tyrus: every head was made bald, and every shoulder was peeled: yet had he no wages, nor his army, for Tyrus, for the service that he had served against it:",
+      "web": "“Son of man, Nebuchadnezzar king of Babylon caused his army to serve a great service against Tyre. Every head was made bald, and every shoulder was worn; yet he had no wages, nor did his army, from Tyre, for the service that he had served against it.",
+      "ct": "\"Son of man, King Nebuchadrezzar of Babylon drove his army hard in the long siege against Tyre. Every soldier's head was rubbed bald from wearing helmets, and every shoulder was rubbed raw from hauling loads. Yet neither he nor his army received any reward from Tyre for all that grueling work."
+    },
+    {
+      "verse": 19,
+      "kjv": "Therefore thus saith the Lord GOD; Behold, I will give the land of Egypt unto Nebuchadrezzar king of Babylon; and he shall take her multitude, and take her spoil, and take her prey; and it shall be the wages for his army.",
+      "web": "Therefore the Lord LORD says: ‘Behold, I will give the land of Egypt to Nebuchadnezzar king of Babylon. He will carry off her multitude, take her plunder, and take her prey. That will be the wages for his army.",
+      "ct": "So this is what the Lord GOD says: I am giving the land of Egypt to Nebuchadrezzar king of Babylon. He will carry off its wealth, seize its plunder, and strip it of its goods — and that will be the payment for his army."
+    },
+    {
+      "verse": 20,
+      "kjv": "I have given him the land of Egypt for his labour wherewith he served against it, because they wrought for me, saith the Lord GOD.",
+      "web": "I have given him the land of Egypt as his payment for which he served, because they worked for me,’ says the Lord LORD.",
+      "ct": "I have given him Egypt as his reward for the work he did against Tyre, because he and his army were carrying out my purposes,\" declares the Lord GOD."
+    },
+    {
+      "verse": 21,
+      "kjv": "In that day will I cause the horn of the house of Israel to bud forth, and I will give thee the opening of the mouth in the midst of them; and they shall know that I am the LORD.",
+      "web": "“In that day I will cause a horn to sprout for the house of Israel, and I will open your mouth among them. Then they will know that I am LORD.”",
+      "ct": "\"When that day comes, I will restore strength to the people of Israel, and I will open your mouth to speak freely among them. Then they will know that I am the LORD.\""
+    }
+  ]
+}
