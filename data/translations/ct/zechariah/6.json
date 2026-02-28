@@ -1,0 +1,101 @@
+{
+  "book": "zechariah",
+  "book_name": "Zechariah",
+  "chapter": 6,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:03:24.428Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And I turned, and lifted up mine eyes, and looked, and, behold, there came four chariots out from between two mountains; and the mountains were mountains of brass.",
+      "web": "Again I lifted up my eyes, and saw, and behold, four chariots came out from between two mountains; and the mountains were mountains of bronze.",
+      "ct": "I looked up again and saw a vision: 4 chariots were coming out from between 2 mountains, and the mountains were made of bronze."
+    },
+    {
+      "verse": 2,
+      "kjv": "In the first chariot were red horses; and in the second chariot black horses;",
+      "web": "In the first chariot were red horses; in the second chariot black horses;",
+      "ct": "The first chariot was pulled by red horses, and the second by black horses."
+    },
+    {
+      "verse": 3,
+      "kjv": "And in the third chariot white horses; and in the fourth chariot grisled and bay horses.",
+      "web": "in the third chariot white horses; and in the fourth chariot dappled horses, all of them powerful.",
+      "ct": "The third chariot had white horses, and the fourth had dappled, powerful horses."
+    },
+    {
+      "verse": 4,
+      "kjv": "Then I answered and said unto the angel that talked with me, What are these, my lord?",
+      "web": "Then I asked the angel who talked with me, “What are these, my lord?”",
+      "ct": "I asked the angel who had been speaking with me, \"What are these, my lord?\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And the angel answered and said unto me, These are the four spirits of the heavens, which go forth from standing before the LORD of all the earth.",
+      "web": "The angel answered me, “These are the four winds of the sky, which go out from standing before the Lord of all the earth.",
+      "ct": "The angel answered, \"These are the 4 spirits of the heavens, going out after standing in the presence of the LORD of all the earth.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "The black horses which are therein go forth into the north country; and the white go forth after them; and the grisled go forth toward the south country.",
+      "web": "The one with the black horses goes out toward the north country; and the white went out after them; and the dappled went out toward the south country.”",
+      "ct": "\"The chariot with the black horses heads toward the north country, the white horses follow after them, and the dappled horses head toward the south country.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And the bay went forth, and sought to go that they might walk to and fro through the earth: and he said, Get you hence, walk to and fro through the earth. So they walked to and fro through the earth.",
+      "web": "The strong went out, and sought to go that they might walk back and forth through the earth: and he said, “Go around and through the earth!” So they walked back and forth through the earth.",
+      "ct": "The powerful horses were eager to go patrolling throughout the earth. The LORD said, \"Go — patrol the whole earth!\" So they went throughout the earth."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then cried he upon me, and spake unto me, saying, Behold, these that go toward the north country have quieted my spirit in the north country.",
+      "web": "Then he called to me, and spoke to me, saying, “Behold, those who go toward the north country have quieted my spirit in the north country.”",
+      "ct": "Then he called out to me, \"Look! The ones heading toward the north country have set my spirit at rest concerning the north country.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "And the word of the LORD came unto me, saying,",
+      "web": "LORD’s word came to me, saying,",
+      "ct": "Then the word of the LORD came to me:"
+    },
+    {
+      "verse": 10,
+      "kjv": "Take of them of the captivity, even of Heldai, of Tobijah, and of Jedaiah, which are come from Babylon, and come thou the same day, and go into the house of Josiah the son of Zephaniah;",
+      "web": "“Take of them of the captivity, even of Heldai, of Tobijah, and of Jedaiah; and come the same day, and go into the house of Josiah the son of Zephaniah, where they have come from Babylon.",
+      "ct": "\"Go to the exiles — to Heldai, Tobijah, and Jedaiah — who have arrived from Babylon. That same day, go to the house of Josiah son of Zephaniah."
+    },
+    {
+      "verse": 11,
+      "kjv": "Then take silver and gold, and make crowns, and set them upon the head of Joshua the son of Josedech, the high priest;",
+      "web": "Yes, take silver and gold, and make crowns, and set them on the head of Joshua the son of Jehozadak, the high priest;",
+      "ct": "Take silver and gold from them, make a crown, and place it on the head of Joshua son of Josedech, the high priest."
+    },
+    {
+      "verse": 12,
+      "kjv": "And speak unto him, saying, Thus speaketh the LORD of hosts, saying, Behold the man whose name is The BRANCH; and he shall grow up out of his place, and he shall build the temple of the LORD:",
+      "web": "and speak to him, saying, ‘LORD of Armies says, “Behold, the man whose name is the Branch: and he shall grow up out of his place; and he shall build LORD’s temple;",
+      "ct": "Tell him, 'This is what the LORD of hosts says: There is a man whose name is The Branch. He will sprout up from where he is and build the temple of the LORD."
+    },
+    {
+      "verse": 13,
+      "kjv": "Even he shall build the temple of the LORD; and he shall bear the glory, and shall sit and rule upon his throne; and he shall be a priest upon his throne: and the counsel of peace shall be between them both.",
+      "web": "even he shall build LORD’s temple; and he shall bear the glory, and shall sit and rule on his throne; and he shall be a priest on his throne; and the counsel of peace shall be between them both.",
+      "ct": "Yes, he is the one who will build the temple of the LORD. He will be clothed in glory and will sit on his throne and rule. He will also serve as a priest on his throne, and there will be perfect harmony between the two roles.'"
+    },
+    {
+      "verse": 14,
+      "kjv": "And the crowns shall be to Helem, and to Tobijah, and to Jedaiah, and to Hen the son of Zephaniah, for a memorial in the temple of the LORD.",
+      "web": "The crowns shall be to Helem, and to Tobijah, and to Jedaiah, and to Hen the son of Zephaniah, for a memorial in LORD’s temple.",
+      "ct": "The crown will be kept in the temple of the LORD as a memorial, entrusted to Helem, Tobijah, Jedaiah, and Hen son of Zephaniah."
+    },
+    {
+      "verse": 15,
+      "kjv": "And they that are far off shall come and build in the temple of the LORD, and ye shall know that the LORD of hosts hath sent me unto you. And this shall come to pass, if ye will diligently obey the voice of the LORD your God.",
+      "web": "Those who are far off shall come and build in LORD’s temple; and you shall know that LORD of Armies has sent me to you. This will happen, if you will diligently obey LORD your God’s voice.” ’ ”",
+      "ct": "People from far away will come and help build the temple of the LORD, and then you will know that the LORD of hosts has sent me to you. This will all happen — if you faithfully obey the voice of the LORD your God.\""
+    }
+  ]
+}

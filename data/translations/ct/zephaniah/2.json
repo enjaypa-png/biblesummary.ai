@@ -1,0 +1,101 @@
+{
+  "book": "zephaniah",
+  "book_name": "Zephaniah",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:01:03.762Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Gather yourselves together, yea, gather together, O nation not desired;",
+      "web": "Gather yourselves together, yes, gather together, you nation that has no shame,",
+      "ct": "Pull yourselves together — yes, gather together, you shameless nation!"
+    },
+    {
+      "verse": 2,
+      "kjv": "Before the decree bring forth, before the day pass as the chaff, before the fierce anger of the LORD come upon you, before the day of the LORD’s anger come upon you.",
+      "web": "before the appointed time when the day passes as the chaff, before the fierce anger of LORD comes on you, before the day of LORD’s anger comes on you.",
+      "ct": "Do it before the decree takes effect, before the day sweeps past like chaff, before the fierce anger of the LORD falls on you, before the day of the LORD's anger overtakes you."
+    },
+    {
+      "verse": 3,
+      "kjv": "Seek ye the LORD, all ye meek of the earth, which have wrought his judgment; seek righteousness, seek meekness: it may be ye shall be hid in the day of the LORD’s anger.",
+      "web": "Seek LORD, all you humble of the land, who have kept his ordinances. Seek righteousness. Seek humility. It may be that you will be hidden in the day of LORD’s anger.",
+      "ct": "Seek the LORD, all you humble people of the land who obey his commands. Pursue righteousness. Pursue humility. Perhaps you will be sheltered on the day of the LORD's anger."
+    },
+    {
+      "verse": 4,
+      "kjv": "For Gaza shall be forsaken, and Ashkelon a desolation: they shall drive out Ashdod at the noon day, and Ekron shall be rooted up.",
+      "web": "For Gaza will be forsaken, and Ashkelon a desolation. They will drive out Ashdod at noonday, and Ekron will be rooted up.",
+      "ct": "Gaza will be abandoned, and Ashkelon left in ruins. Ashdod will be emptied by midday, and Ekron will be torn up by its roots."
+    },
+    {
+      "verse": 5,
+      "kjv": "Woe unto the inhabitants of the sea coast, the nation of the Cherethites! the word of the LORD is against you; O Canaan, the land of the Philistines, I will even destroy thee, that there shall be no inhabitant.",
+      "web": "Woe to the inhabitants of the sea coast, the nation of the Cherethites! LORD’s word is against you, Canaan, the land of the Philistines. I will destroy you, that there will be no inhabitant.",
+      "ct": "Disaster is coming for you who live along the coast — you Cherethites, you nation of Philistines! The word of the LORD is against you, Canaan. \"I will destroy you until no one is left.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And the sea coast shall be dwellings and cottages for shepherds, and folds for flocks.",
+      "web": "The sea coast will be pastures, with cottages for shepherds and folds for flocks.",
+      "ct": "The coastland will become open pasture, dotted with shepherds' huts and pens for flocks."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the coast shall be for the remnant of the house of Judah; they shall feed thereupon: in the houses of Ashkelon shall they lie down in the evening: for the LORD their God shall visit them, and turn away their captivity.",
+      "web": "The coast will be for the remnant of the house of Judah. They will find pasture. In the houses of Ashkelon, they will lie down in the evening, for LORD, their God, will visit them, and restore them.",
+      "ct": "That land will belong to the remnant of Judah. They will graze their flocks there and lie down at evening in the houses of Ashkelon, because the LORD their God will come to their aid and restore their fortunes."
+    },
+    {
+      "verse": 8,
+      "kjv": "I have heard the reproach of Moab, and the revilings of the children of Ammon, whereby they have reproached my people, and magnified themselves against their border.",
+      "web": "I have heard the reproach of Moab, and the insults of the children of Ammon, with which they have reproached my people, and magnified themselves against their border.",
+      "ct": "\"I have heard how Moab mocked my people and how the Ammonites hurled insults at them, taunting them and threatening their borders.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Therefore as I live, saith the LORD of hosts, the God of Israel, Surely Moab shall be as Sodom, and the children of Ammon as Gomorrah, even the breeding of nettles, and saltpits, and a perpetual desolation: the residue of my people shall spoil them, and the remnant of my people shall possess them.",
+      "web": "Therefore as I live, says LORD of Armies, the God of Israel, surely Moab will be as Sodom, and the children of Ammon as Gomorrah, a possession of nettles, and salt pits, and a perpetual desolation. The remnant of my people will plunder them, and the survivors of my nation will inherit them.",
+      "ct": "\"Therefore, as surely as I live,\" declares the LORD of hosts, the God of Israel, \"Moab will become like Sodom, and the Ammonites like Gomorrah — a wasteland of weeds and salt pits, ruined forever. The remnant of my people will plunder them, and the survivors of my nation will take their land.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "This shall they have for their pride, because they have reproached and magnified themselves against the people of the LORD of hosts.",
+      "web": "This they will have for their pride, because they have reproached and magnified themselves against the people of LORD of Armies.",
+      "ct": "This is what they get for their pride, because they mocked and boasted against the people of the LORD of hosts."
+    },
+    {
+      "verse": 11,
+      "kjv": "The LORD will be terrible unto them: for he will famish all the gods of the earth; and men shall worship him, every one from his place, even all the isles of the heathen.",
+      "web": "LORD will be awesome to them, for he will famish all the gods of the land. Men will worship him, everyone from his place, even all the shores of the nations.",
+      "ct": "The LORD will be terrifying to them, for he will starve every god on earth into nothing. Then people from every coastland and every nation will worship him, each from their own land."
+    },
+    {
+      "verse": 12,
+      "kjv": "Ye Ethiopians also, ye shall be slain by my sword.",
+      "web": "You Cushites also, you will be killed by my sword.",
+      "ct": "\"You Ethiopians, too — you will fall by my sword.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "And he will stretch out his hand against the north, and destroy Assyria; and will make Nineveh a desolation, and dry like a wilderness.",
+      "web": "He will stretch out his hand against the north, destroy Assyria, and will make Nineveh a desolation, as dry as the wilderness.",
+      "ct": "Then God will turn his hand against the north and destroy Assyria. He will make Nineveh a wasteland, as dry as a desert."
+    },
+    {
+      "verse": 14,
+      "kjv": "And flocks shall lie down in the midst of her, all the beasts of the nations: both the cormorant and the bittern shall lodge in the upper lintels of it; their voice shall sing in the windows; desolation shall be in the thresholds: for he shall uncover the cedar work.",
+      "web": "Herds will lie down in the middle of her, all the animals of the nations. Both the pelican and the porcupine will lodge in its capitals. Their calls will echo through the windows. Desolation will be in the thresholds, for he has laid bare the cedar beams.",
+      "ct": "Herds will lie down in the middle of the city, along with every kind of wild animal. Pelicans and porcupines will roost on its column tops. Their cries will echo through the windows. Rubble will fill the doorways, and the cedar beams will be stripped bare."
+    },
+    {
+      "verse": 15,
+      "kjv": "This is the rejoicing city that dwelt carelessly, that said in her heart, I am, and there is none beside me: how is she become a desolation, a place for beasts to lie down in! every one that passeth by her shall hiss, and wag his hand.",
+      "web": "This is the joyous city that lived carelessly, that said in her heart, “I am, and there is no one besides me.” How she has become a desolation, a place for animals to lie down in! Everyone who passes by her will hiss, and shake their fists.",
+      "ct": "This is what becomes of that carefree, celebrating city that told herself, \"I am the greatest — there is no one like me.\" Now look at her: a desolation, a resting place for wild animals. Everyone who passes by will hiss in contempt and shake their fist at her."
+    }
+  ]
+}

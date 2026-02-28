@@ -1,0 +1,83 @@
+{
+  "book": "zechariah",
+  "book_name": "Zechariah",
+  "chapter": 10,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:04:30.764Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Ask ye of the LORD rain in the time of the latter rain; so the LORD shall make bright clouds, and give them showers of rain, to every one grass in the field.",
+      "web": "Ask of LORD rain in the spring time, LORD who makes storm clouds, and he gives rain showers to everyone for the plants in the field.",
+      "ct": "Ask the LORD for rain in the springtime. The LORD is the one who forms the storm clouds — he will send downpours so that every plant in the field grows green."
+    },
+    {
+      "verse": 2,
+      "kjv": "For the idols have spoken vanity, and the diviners have seen a lie, and have told false dreams; they comfort in vain: therefore they went their way as a flock, they were troubled, because there was no shepherd.",
+      "web": "For the teraphim have spoken vanity, and the diviners have seen a lie; and they have told false dreams. They comfort in vain. Therefore they go their way like sheep. They are oppressed, because there is no shepherd.",
+      "ct": "But household idols speak nonsense, and fortune-tellers see only lies. They offer false dreams and empty comfort. That's why the people wander like lost sheep, suffering because they have no shepherd."
+    },
+    {
+      "verse": 3,
+      "kjv": "Mine anger was kindled against the shepherds, and I punished the goats: for the LORD of hosts hath visited his flock the house of Judah, and hath made them as his goodly horse in the battle.",
+      "web": "My anger is kindled against the shepherds, and I will punish the male goats; For LORD of Armies has visited his flock, the house of Judah, and will make them as his majestic horse in the battle.",
+      "ct": "\"My anger burns against the shepherds, and I will punish the leaders. The LORD of Armies has turned his attention to his flock — the house of Judah — and he will make them like a magnificent warhorse in battle."
+    },
+    {
+      "verse": 4,
+      "kjv": "Out of him came forth the corner, out of him the nail, out of him the battle bow, out of him every oppressor together.",
+      "web": "From him will come the cornerstone, from him the nail, from him the battle bow, from him every ruler together.",
+      "ct": "From Judah will come the cornerstone, from him the tent peg, from him the battle bow — from him every ruler."
+    },
+    {
+      "verse": 5,
+      "kjv": "And they shall be as mighty men, which tread down their enemies in the mire of the streets in the battle: and they shall fight, because the LORD is with them, and the riders on horses shall be confounded.",
+      "web": "They shall be as mighty men, treading down muddy streets in the battle; and they shall fight, because LORD is with them; and the riders on horses will be confounded.",
+      "ct": "Together they will be like mighty warriors, trampling their enemies into the mud of the streets. They will fight and win because the LORD is with them, and even enemy cavalry will be thrown into confusion."
+    },
+    {
+      "verse": 6,
+      "kjv": "And I will strengthen the house of Judah, and I will save the house of Joseph, and I will bring them again to place them; for I have mercy upon them: and they shall be as though I had not cast them off: for I am the LORD their God, and will hear them.",
+      "web": "“I will strengthen the house of Judah, and I will save the house of Joseph, and I will bring them back; for I have mercy on them; and they will be as though I had not cast them off: for I am LORD their God, and I will hear them.",
+      "ct": "I will make the house of Judah strong, and I will rescue the house of Joseph. I will bring them home again because I have mercy on them. It will be as if I had never rejected them, because I am the LORD their God, and I will answer their prayers."
+    },
+    {
+      "verse": 7,
+      "kjv": "And they of Ephraim shall be like a mighty man, and their heart shall rejoice as through wine: yea, their children shall see it, and be glad; their heart shall rejoice in the LORD.",
+      "web": "Ephraim will be like a mighty man, and their heart will rejoice as through wine; yes, their children will see it, and rejoice. Their heart will be glad in LORD.",
+      "ct": "The people of Ephraim will be like mighty warriors, and their hearts will be as joyful as if they'd been drinking wine. Their children will see it and celebrate — their hearts will overflow with joy in the LORD."
+    },
+    {
+      "verse": 8,
+      "kjv": "I will hiss for them, and gather them; for I have redeemed them: and they shall increase as they have increased.",
+      "web": "I will signal for them, and gather them; for I have redeemed them; and they will increase as they have increased.",
+      "ct": "I will whistle for them and gather them together, because I have redeemed them. They will become as numerous as they once were."
+    },
+    {
+      "verse": 9,
+      "kjv": "And I will sow them among the people: and they shall remember me in far countries; and they shall live with their children, and turn again.",
+      "web": "I will sow them among the peoples; and they will remember me in far countries; and they will live with their children, and will return.",
+      "ct": "Though I scattered them among the nations, they will remember me even in distant lands. They will survive along with their children and will come back home."
+    },
+    {
+      "verse": 10,
+      "kjv": "I will bring them again also out of the land of Egypt, and gather them out of Assyria; and I will bring them into the land of Gilead and Lebanon; and place shall not be found for them.",
+      "web": "I will bring them again also out of the land of Egypt, and gather them out of Assyria; and I will bring them into the land of Gilead and Lebanon; and there won’t be room enough for them.",
+      "ct": "I will bring them back from Egypt and gather them from Assyria. I will settle them in the land of Gilead and Lebanon, and there won't be enough room for all of them."
+    },
+    {
+      "verse": 11,
+      "kjv": "And he shall pass through the sea with affliction, and shall smite the waves in the sea, and all the deeps of the river shall dry up: and the pride of Assyria shall be brought down, and the sceptre of Egypt shall depart away.",
+      "web": "He will pass through the sea of affliction, and will strike the waves in the sea, and all the depths of the Nile will dry up; and the pride of Assyria will be brought down, and the scepter of Egypt will depart.",
+      "ct": "He will pass through a sea of trouble and strike down its waves. All the depths of the Nile will dry up. Assyria's pride will be torn down, and Egypt's ruling power will vanish."
+    },
+    {
+      "verse": 12,
+      "kjv": "And I will strengthen them in the LORD; and they shall walk up and down in his name, saith the LORD.",
+      "web": "I will strengthen them in LORD; and they will walk up and down in his name,” says LORD.",
+      "ct": "I will make them strong in the LORD, and they will live and act in his name,\" declares the LORD."
+    }
+  ]
+}

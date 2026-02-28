@@ -1,0 +1,89 @@
+{
+  "book": "micah",
+  "book_name": "Micah",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:57:46.680Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "But in the last days it shall come to pass, that the mountain of the house of the LORD shall be established in the top of the mountains, and it shall be exalted above the hills; and people shall flow unto it.",
+      "web": "But in the latter days, it will happen that the mountain of LORD’s temple will be established on the top of the mountains, and it will be exalted above the hills; and peoples will stream to it.",
+      "ct": "In the last days, the mountain where the LORD's temple stands will be established as the highest of all mountains, raised above every hill, and people from everywhere will stream toward it."
+    },
+    {
+      "verse": 2,
+      "kjv": "And many nations shall come, and say, Come, and let us go up to the mountain of the LORD, and to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths: for the law shall go forth of Zion, and the word of the LORD from Jerusalem.",
+      "web": "Many nations will go and say, “Come! Let’s go up to the mountain of LORD, and to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths.” For the law will go out of Zion, and LORD’s word from Jerusalem;",
+      "ct": "Many nations will come and say, \"Let's go up to the mountain of the LORD, to the house of the God of Jacob! He will teach us his ways, and we will follow his paths.\" For the law will go out from Zion, and the word of the LORD from Jerusalem."
+    },
+    {
+      "verse": 3,
+      "kjv": "And he shall judge among many people, and rebuke strong nations afar off; and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up a sword against nation, neither shall they learn war any more.",
+      "web": "and he will judge between many peoples, and will decide concerning strong nations afar off. They will beat their swords into plowshares, and their spears into pruning hooks. Nation will not lift up sword against nation, neither will they learn war any more.",
+      "ct": "He will settle disputes among many peoples and correct powerful nations far away. They will hammer their swords into plowshares and their spears into pruning hooks. Nation will no longer raise a sword against nation, and they will never again train for war."
+    },
+    {
+      "verse": 4,
+      "kjv": "But they shall sit every man under his vine and under his fig tree; and none shall make them afraid: for the mouth of the LORD of hosts hath spoken it.",
+      "web": "But they will sit every man under his vine and under his fig tree; and no one will make them afraid: For the mouth of LORD of Armies has spoken.",
+      "ct": "Instead, everyone will sit peacefully under their own vine and fig tree, with no one to make them afraid. The LORD of hosts has spoken it."
+    },
+    {
+      "verse": 5,
+      "kjv": "For all people will walk every one in the name of his god, and we will walk in the name of the LORD our God for ever and ever.",
+      "web": "Indeed all the nations may walk in the name of their gods; but we will walk in the name of LORD our God forever and ever.",
+      "ct": "Other nations may follow their own gods, but we will walk in the name of the LORD our God forever and ever."
+    },
+    {
+      "verse": 6,
+      "kjv": "In that day, saith the LORD, will I assemble her that halteth, and I will gather her that is driven out, and her that I have afflicted;",
+      "web": "“In that day,” says LORD, “I will assemble that which is lame, and I will gather that which is driven away, and that which I have afflicted;",
+      "ct": "\"In that day,\" says the LORD, \"I will gather those who are broken, bring back those who were driven away, and restore those I have afflicted."
+    },
+    {
+      "verse": 7,
+      "kjv": "And I will make her that halted a remnant, and her that was cast far off a strong nation: and the LORD shall reign over them in mount Zion from henceforth, even for ever.",
+      "web": "and I will make that which was lame a remnant, and that which was cast far off a strong nation: and LORD will reign over them on Mount Zion from then on, even forever.”",
+      "ct": "I will turn the broken into a remnant and the outcasts into a strong nation. The LORD will reign over them on Mount Zion from that day forward, forever.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And thou, O tower of the flock, the strong hold of the daughter of Zion, unto thee shall it come, even the first dominion; the kingdom shall come to the daughter of Jerusalem.",
+      "web": "You, tower of the flock, the hill of the daughter of Zion, to you it will come, yes, the former dominion will come, the kingdom of the daughter of Jerusalem.",
+      "ct": "As for you, watchtower of the flock, stronghold of the daughter of Zion — your former power will return to you. The kingdom will come back to the daughter of Jerusalem."
+    },
+    {
+      "verse": 9,
+      "kjv": "Now why dost thou cry out aloud? is there no king in thee? is thy counsellor perished? for pangs have taken thee as a woman in travail.",
+      "web": "Now why do you cry out aloud? Is there no king in you? Has your counselor perished, that pains have taken hold of you as of a woman in travail?",
+      "ct": "So why are you crying out? Is there no king among you? Has your counselor died? Pain has gripped you like a woman in labor."
+    },
+    {
+      "verse": 10,
+      "kjv": "Be in pain, and labour to bring forth, O daughter of Zion, like a woman in travail: for now shalt thou go forth out of the city, and thou shalt dwell in the field, and thou shalt go even to Babylon; there shalt thou be delivered; there the LORD shall redeem thee from the hand of thine enemies.",
+      "web": "Be in pain, and labor to give birth, daughter of Zion, like a woman in travail; for now you will go out of the city, and will dwell in the field, and will come even to Babylon. There you will be rescued. There LORD will redeem you from the hand of your enemies.",
+      "ct": "Writhe and push like a woman giving birth, daughter of Zion! You will leave the city and live out in the open fields. You will go all the way to Babylon — but there you will be rescued. There the LORD will redeem you from the grip of your enemies."
+    },
+    {
+      "verse": 11,
+      "kjv": "Now also many nations are gathered against thee, that say, Let her be defiled, and let our eye look upon Zion.",
+      "web": "Now many nations have assembled against you, that say, “Let her be defiled, and let our eye gloat over Zion.”",
+      "ct": "Right now many nations have gathered against you, saying, \"Let her be ruined! Let us feast our eyes on Zion's downfall!\""
+    },
+    {
+      "verse": 12,
+      "kjv": "But they know not the thoughts of the LORD, neither understand they his counsel: for he shall gather them as the sheaves into the floor.",
+      "web": "But they don’t know the thoughts of LORD, neither do they understand his counsel; for he has gathered them like the sheaves to the threshing floor.",
+      "ct": "But they don't know what the LORD is thinking. They don't understand his plan — that he has gathered them like sheaves on a threshing floor."
+    },
+    {
+      "verse": 13,
+      "kjv": "Arise and thresh, O daughter of Zion: for I will make thine horn iron, and I will make thy hoofs brass: and thou shalt beat in pieces many people: and I will consecrate their gain unto the LORD, and their substance unto the Lord of the whole earth.",
+      "web": "Arise and thresh, daughter of Zion; for I will make your horn iron, and I will make your hoofs bronze; and you will beat in pieces many peoples: and I will devote their gain to LORD, and their substance to the Lord of the whole earth.",
+      "ct": "\"Rise up and thresh, daughter of Zion! I will make your horns like iron and your hooves like bronze. You will crush many peoples to pieces, and I will dedicate their plundered wealth to the LORD — their riches to the Lord of all the earth.\""
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "book": "zephaniah",
+  "book_name": "Zephaniah",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:00:46.718Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word of the LORD which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hizkiah, in the days of Josiah the son of Amon, king of Judah.",
+      "web": "LORD’s word which came to Zephaniah, the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hezekiah, in the days of Josiah, the son of Amon, king of Judah.",
+      "ct": "This is the word of the LORD that came to Zephaniah son of Cushi, son of Gedaliah, son of Amariah, son of Hizkiah, during the reign of Josiah son of Amon, king of Judah."
+    },
+    {
+      "verse": 2,
+      "kjv": "I will utterly consume all things from off the land, saith the LORD.",
+      "web": "I will utterly sweep away everything from the surface of the earth, says LORD.",
+      "ct": "\"I will sweep away everything from the face of the earth,\" declares the LORD."
+    },
+    {
+      "verse": 3,
+      "kjv": "I will consume man and beast; I will consume the fowls of the heaven, and the fishes of the sea, and the stumbling blocks with the wicked: and I will cut off man from off the land, saith the LORD.",
+      "web": "I will sweep away man and animal. I will sweep away the birds of the sky, the fish of the sea, and the heaps of rubble with the wicked. I will cut off man from the surface of the earth, says LORD.",
+      "ct": "\"I will sweep away people and animals alike. I will sweep away the birds in the sky and the fish in the sea. The wicked will be brought down along with every stumbling block they've built, and I will wipe humanity from the face of the earth,\" declares the LORD."
+    },
+    {
+      "verse": 4,
+      "kjv": "I will also stretch out mine hand upon Judah, and upon all the inhabitants of Jerusalem; and I will cut off the remnant of Baal from this place, and the name of the Chemarims with the priests;",
+      "web": "I will stretch out my hand against Judah, and against all the inhabitants of Jerusalem. I will cut off the remnant of Baal from this place: the name of the idolatrous and pagan priests,",
+      "ct": "\"I will stretch out my hand against Judah and against everyone living in Jerusalem. I will wipe out every last trace of Baal worship from this place, and the names of the pagan priests along with the unfaithful ones —"
+    },
+    {
+      "verse": 5,
+      "kjv": "And them that worship the host of heaven upon the housetops; and them that worship and that swear by the LORD, and that swear by Malcham;",
+      "web": "those who worship the army of the sky on the housetops, those who worship and swear by LORD and also swear by Malcam,",
+      "ct": "those who bow down on their rooftops to worship the stars, those who claim to worship the LORD but also swear oaths to Malcham,"
+    },
+    {
+      "verse": 6,
+      "kjv": "And them that are turned back from the LORD; and those that have not sought the LORD, nor enquired for him.",
+      "web": "those who have turned back from following LORD, and those who haven’t sought LORD nor inquired after him.",
+      "ct": "those who have turned their backs on the LORD, and those who have never bothered to seek the LORD or ask for his guidance.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Hold thy peace at the presence of the Lord GOD: for the day of the LORD is at hand: for the LORD hath prepared a sacrifice, he hath bid his guests.",
+      "web": "Be silent at the presence of the Lord LORD, for the day of LORD is at hand. For LORD has prepared a sacrifice. He has consecrated his guests.",
+      "ct": "Be silent in the presence of the Lord GOD, for the day of the LORD is close at hand. The LORD has prepared a sacrifice, and he has already set apart his invited guests."
+    },
+    {
+      "verse": 8,
+      "kjv": "And it shall come to pass in the day of the LORD’s sacrifice, that I will punish the princes, and the king’s children, and all such as are clothed with strange apparel.",
+      "web": "It will happen in the day of LORD’s sacrifice, that I will punish the princes, the king’s sons, and all those who are clothed with foreign clothing.",
+      "ct": "On the day of the LORD's sacrifice, \"I will punish the officials, the king's sons, and everyone who dresses in foreign clothing."
+    },
+    {
+      "verse": 9,
+      "kjv": "In the same day also will I punish all those that leap on the threshold, which fill their masters’ houses with violence and deceit.",
+      "web": "In that day, I will punish all those who leap over the threshold, who fill their master’s house with violence and deceit.",
+      "ct": "On that same day, I will punish all those who leap over the threshold and fill their masters' houses with violence and lies.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "And it shall come to pass in that day, saith the LORD, that there shall be the noise of a cry from the fish gate, and an howling from the second, and a great crashing from the hills.",
+      "web": "In that day, says LORD, there will be the noise of a cry from the fish gate, a wailing from the second quarter, and a great crashing from the hills.",
+      "ct": "\"On that day,\" declares the LORD, \"a cry of anguish will rise from the Fish Gate, wailing will echo from the Second Quarter, and a tremendous crash will come from the hills."
+    },
+    {
+      "verse": 11,
+      "kjv": "Howl, ye inhabitants of Maktesh, for all the merchant people are cut down; all they that bear silver are cut off.",
+      "web": "Wail, you inhabitants of Maktesh, for all the people of Canaan are undone! All those who were loaded with silver are cut off.",
+      "ct": "Wail in grief, you people of Maktesh! Every merchant among you will be destroyed, and everyone loaded down with silver will be wiped out."
+    },
+    {
+      "verse": 12,
+      "kjv": "And it shall come to pass at that time, that I will search Jerusalem with candles, and punish the men that are settled on their lees: that say in their heart, The LORD will not do good, neither will he do evil.",
+      "web": "It will happen at that time, that I will search Jerusalem with lamps, and I will punish the men who are settled on their dregs, who say in their heart, “LORD will not do good, neither will he do evil.”",
+      "ct": "When that time comes, I will search Jerusalem with lamps and punish the people who sit complacent, thick and settled like wine left on its dregs — the ones who tell themselves, 'The LORD won't do anything, good or bad.'"
+    },
+    {
+      "verse": 13,
+      "kjv": "Therefore their goods shall become a booty, and their houses a desolation: they shall also build houses, but not inhabit them; and they shall plant vineyards, but not drink the wine thereof.",
+      "web": "Their wealth will become a plunder, and their houses a desolation. Yes, they will build houses, but won’t inhabit them. They will plant vineyards, but won’t drink their wine.",
+      "ct": "Their wealth will be plundered and their houses left in ruins. They'll build homes but never live in them. They'll plant vineyards but never taste the wine.\""
+    },
+    {
+      "verse": 14,
+      "kjv": "The great day of the LORD is near, it is near, and hasteth greatly, even the voice of the day of the LORD: the mighty man shall cry there bitterly.",
+      "web": "The great day of LORD is near. It is near, and hurries greatly, the voice of the day of LORD. The mighty man cries there bitterly.",
+      "ct": "The great day of the LORD is near — near and rushing closer fast. The sound of that day is bitter; even the bravest warrior will scream in anguish."
+    },
+    {
+      "verse": 15,
+      "kjv": "That day is a day of wrath, a day of trouble and distress, a day of wasteness and desolation, a day of darkness and gloominess, a day of clouds and thick darkness,",
+      "web": "That day is a day of wrath, a day of distress and anguish, a day of trouble and ruin, a day of darkness and gloom, a day of clouds and blackness,",
+      "ct": "That day will be a day of wrath, a day of trouble and distress, a day of ruin and devastation, a day of darkness and gloom, a day of clouds and deep blackness,"
+    },
+    {
+      "verse": 16,
+      "kjv": "A day of the trumpet and alarm against the fenced cities, and against the high towers.",
+      "web": "a day of the trumpet and alarm, against the fortified cities, and against the high battlements.",
+      "ct": "a day of trumpet blasts and battle cries against the fortified cities and their towering walls."
+    },
+    {
+      "verse": 17,
+      "kjv": "And I will bring distress upon men, that they shall walk like blind men, because they have sinned against the LORD: and their blood shall be poured out as dust, and their flesh as the dung.",
+      "web": "I will bring distress on men, that they will walk like blind men, because they have sinned against LORD, and their blood will be poured out like dust, and their flesh like dung.",
+      "ct": "\"I will bring such distress on people that they'll stumble around like the blind, because they have sinned against the LORD. Their blood will be poured out like dust, and their bodies tossed aside like dung."
+    },
+    {
+      "verse": 18,
+      "kjv": "Neither their silver nor their gold shall be able to deliver them in the day of the LORD’s wrath; but the whole land shall be devoured by the fire of his jealousy: for he shall make even a speedy riddance of all them that dwell in the land.",
+      "web": "Neither their silver nor their gold will be able to deliver them in the day of LORD’s wrath, but the whole land will be devoured by the fire of his jealousy; for he will make an end, yes, a terrible end, of all those who dwell in the land.",
+      "ct": "Neither their silver nor their gold will be able to save them on the day of the LORD's wrath. The fire of his jealousy will consume the entire land, and he will make a sudden and terrible end of everyone living in it.\""
+    }
+  ]
+}

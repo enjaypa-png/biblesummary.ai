@@ -1,0 +1,77 @@
+{
+  "book": "zechariah",
+  "book_name": "Zechariah",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:03:10.736Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then I turned, and lifted up mine eyes, and looked, and behold a flying roll.",
+      "web": "Then again I lifted up my eyes, and saw, and behold, a flying scroll.",
+      "ct": "I looked up again, and there in front of me was a scroll flying through the air."
+    },
+    {
+      "verse": 2,
+      "kjv": "And he said unto me, What seest thou? And I answered, I see a flying roll; the length thereof is twenty cubits, and the breadth thereof ten cubits.",
+      "web": "He said to me, “What do you see?” I answered, “I see a flying scroll; its length is twenty cubits, and its width ten cubits.”",
+      "ct": "The angel asked me, \"What do you see?\" I answered, \"I see a flying scroll — it's 20 cubits long and 10 cubits wide.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Then said he unto me, This is the curse that goeth forth over the face of the whole earth: for every one that stealeth shall be cut off as on this side according to it; and every one that sweareth shall be cut off as on that side according to it.",
+      "web": "Then he said to me, “This is the curse that goes out over the surface of the whole land; for everyone who steals shall be cut off according to it on the one side; and everyone who swears falsely shall be cut off according to it on the other side.",
+      "ct": "Then he told me, \"This is the curse going out across the entire land. On one side it says that everyone who steals will be cut off, and on the other side it says that everyone who swears falsely will be cut off."
+    },
+    {
+      "verse": 4,
+      "kjv": "I will bring it forth, saith the LORD of hosts, and it shall enter into the house of the thief, and into the house of him that sweareth falsely by my name: and it shall remain in the midst of his house, and shall consume it with the timber thereof and the stones thereof.",
+      "web": "I will cause it to go out,” says LORD of Armies, “and it will enter into the house of the thief, and into the house of him who swears falsely by my name; and it will remain in the middle of his house, and will destroy it with its timber and its stones.”",
+      "ct": "\"I will send it out,\" declares the LORD of hosts, \"and it will enter the house of every thief and the house of everyone who swears falsely by my name. It will settle inside that house and destroy it completely — timber and stone alike.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the angel that talked with me went forth, and said unto me, Lift up now thine eyes, and see what is this that goeth forth.",
+      "web": "Then the angel who talked with me came forward, and said to me, “Lift up now your eyes, and see what this is that is appearing.”",
+      "ct": "Then the angel who had been speaking with me stepped forward and said, \"Look up now and see what's coming.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "And I said, What is it? And he said, This is an ephah that goeth forth. He said moreover, This is their resemblance through all the earth.",
+      "web": "I said, “What is it?” He said, “This is the ephah basket that is appearing.” He said moreover, “This is their appearance in all the land",
+      "ct": "\"What is it?\" I asked. He said, \"It's an ephah basket coming into view.\" Then he added, \"This represents the sin of the people throughout the whole land.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "And, behold, there was lifted up a talent of lead: and this is a woman that sitteth in the midst of the ephah.",
+      "web": "(and behold, a talent of lead was lifted up); and this is a woman sitting in the middle of the ephah basket.”",
+      "ct": "Then the lead cover on the basket was lifted up, and there inside it sat a woman."
+    },
+    {
+      "verse": 8,
+      "kjv": "And he said, This is wickedness. And he cast it into the midst of the ephah; and he cast the weight of lead upon the mouth thereof.",
+      "web": "He said, “This is Wickedness;” and he threw her down into the middle of the ephah basket; and he threw the weight of lead on its mouth.",
+      "ct": "The angel said, \"This woman is Wickedness.\" He shoved her back down into the ephah basket and slammed the heavy lead lid over its opening."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then lifted I up mine eyes, and looked, and, behold, there came out two women, and the wind was in their wings; for they had wings like the wings of a stork: and they lifted up the ephah between the earth and the heaven.",
+      "web": "Then I lifted up my eyes and saw, and behold, there were two women, and the wind was in their wings. Now they had wings like the wings of a stork, and they lifted up the ephah basket between earth and the sky.",
+      "ct": "I looked up again and saw 2 women emerging with the wind beneath their wings — they had wings like a stork's. They lifted the ephah basket up into the air between earth and the heavens."
+    },
+    {
+      "verse": 10,
+      "kjv": "Then said I to the angel that talked with me, Whither do these bear the ephah?",
+      "web": "Then I said to the angel who talked with me, “Where are these carrying the ephah basket?”",
+      "ct": "I asked the angel who was talking with me, \"Where are they taking the basket?\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And he said unto me, To build it an house in the land of Shinar: and it shall be established, and set there upon her own base.",
+      "web": "He said to me, “To build her a house in the land of Shinar. When it is prepared, she will be set there in her own place.”",
+      "ct": "He answered, \"To the land of Shinar, where they will build a house for it. Once it's ready, the basket will be set down there on its own permanent base.\""
+    }
+  ]
+}

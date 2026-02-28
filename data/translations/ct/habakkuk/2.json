@@ -1,0 +1,131 @@
+{
+  "book": "habakkuk",
+  "book_name": "Habakkuk",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:00:09.193Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I will stand upon my watch, and set me upon the tower, and will watch to see what he will say unto me, and what I shall answer when I am reproved.",
+      "web": "I will stand at my watch, and set myself on the ramparts, and will look out to see what he will say to me, and what I will answer concerning my complaint.",
+      "ct": "I'll take my position on the watchtower and stand guard at my post. I'll keep watch to see what the LORD will say to me and how I should respond when he answers my complaint."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it.",
+      "web": "LORD answered me, “Write the vision, and make it plain on tablets, that he who runs may read it.",
+      "ct": "The LORD answered me: \"Write down this vision and make it clear on tablets so that anyone who reads it can spread the word quickly.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry.",
+      "web": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+      "ct": "\"This vision points to a future time that has already been set. It rushes toward its fulfillment and will not prove false. Even if it seems slow in coming, wait for it — it will certainly arrive, right on time.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Behold, his soul which is lifted up is not upright in him: but the just shall live by his faith.",
+      "web": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith.",
+      "ct": "\"Look — the one whose soul is puffed up with pride has no integrity. But the righteous person will live by his faith.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Yea also, because he transgresseth by wine, he is a proud man, neither keepeth at home, who enlargeth his desire as hell, and is as death, and cannot be satisfied, but gathereth unto him all nations, and heapeth unto him all people:",
+      "web": "Yes, moreover, wine is treacherous. An arrogant man who doesn’t stay at home, who enlarges his desire as Sheol, and he is like death, and can’t be satisfied, but gathers to himself all nations, and heaps to himself all peoples.",
+      "ct": "\"Wine betrays the arrogant man. He can never stay still. His appetite is as vast as Sheol, and like death itself, he is never satisfied. He swallows up nation after nation, gathering every people to himself.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Shall not all these take up a parable against him, and a taunting proverb against him, and say, Woe to him that increaseth that which is not his! how long? and to him that ladeth himself with thick clay!",
+      "web": "Won’t all these take up a parable against him, and a taunting proverb against him, and say, ‘Woe to him who increases that which is not his, and who enriches himself by extortion! How long?’",
+      "ct": "\"Won't all these conquered nations mock him with taunting songs? They'll say, 'Disaster is coming to the one who piles up what isn't his! How long will this go on? He's getting rich through extortion!'\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Shall they not rise up suddenly that shall bite thee, and awake that shall vex thee, and thou shalt be for booties unto them?",
+      "web": "Won’t your debtors rise up suddenly, and wake up those who make you tremble, and you will be their victim?",
+      "ct": "\"Won't your creditors suddenly rise up? Won't those you've oppressed wake up and turn on you? You'll become their plunder!\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Because thou hast spoiled many nations, all the remnant of the people shall spoil thee; because of men’s blood, and for the violence of the land, of the city, and of all that dwell therein.",
+      "web": "Because you have plundered many nations, all the remnant of the peoples will plunder you, because of men’s blood, and for the violence done to the land, to the city and to all who dwell in it.",
+      "ct": "\"Because you've looted many nations, everyone who's left will loot you — payback for all the blood you've shed and the violence you've done to lands, cities, and everyone living in them.\""
+    },
+    {
+      "verse": 9,
+      "kjv": "Woe to him that coveteth an evil covetousness to his house, that he may set his nest on high, that he may be delivered from the power of evil!",
+      "web": "Woe to him who gets an evil gain for his house, that he may set his nest on high, that he may be delivered from the hand of evil!",
+      "ct": "\"Disaster is coming to the one who builds his house on stolen wealth, setting his nest up high, thinking he can escape the reach of disaster!\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Thou hast consulted shame to thy house by cutting off many people, and hast sinned against thy soul.",
+      "web": "You have devised shame to your house, by cutting off many peoples, and have sinned against your soul.",
+      "ct": "\"By wiping out many peoples, you've brought shame on your own household and sinned against your own soul.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "For the stone shall cry out of the wall, and the beam out of the timber shall answer it.",
+      "web": "For the stone will cry out of the wall, and the beam out of the woodwork will answer it.",
+      "ct": "\"The very stones in your walls will cry out against you, and the wooden beams will echo their accusation.\""
+    },
+    {
+      "verse": 12,
+      "kjv": "Woe to him that buildeth a town with blood, and stablisheth a city by iniquity!",
+      "web": "Woe to him who builds a town with blood, and establishes a city by iniquity!",
+      "ct": "\"Disaster is coming to the one who builds a city with bloodshed and establishes a town through sin!\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Behold, is it not of the LORD of hosts that the people shall labour in the very fire, and the people shall weary themselves for very vanity?",
+      "web": "Behold, isn’t it of LORD of Armies that the peoples labor for the fire, and the nations weary themselves for vanity?",
+      "ct": "\"Hasn't the LORD of Armies determined this — that everything these nations build will be fuel for the fire, and all their hard work will come to nothing?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "For the earth shall be filled with the knowledge of the glory of the LORD, as the waters cover the sea.",
+      "web": "For the earth will be filled with the knowledge of LORD’s glory, as the waters cover the sea.",
+      "ct": "\"For the earth will be filled with the knowledge of the glory of the LORD, the way water fills the sea.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Woe unto him that giveth his neighbour drink, that puttest thy bottle to him, and makest him drunken also, that thou mayest look on their nakedness!",
+      "web": "“Woe to him who gives his neighbor drink, pouring your inflaming wine until they are drunk, so that you may gaze at their naked bodies!",
+      "ct": "\"Disaster is coming to the one who makes his neighbor drink, pouring out wine and getting them drunk just to stare at their naked bodies!\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Thou art filled with shame for glory: drink thou also, and let thy foreskin be uncovered: the cup of the LORD’s right hand shall be turned unto thee, and shameful spewing shall be on thy glory.",
+      "web": "You are filled with shame, and not glory. You will also drink, and be exposed! The cup of LORD’s right hand will come around to you, and disgrace will cover your glory.",
+      "ct": "\"You'll be filled with shame instead of glory. Now it's your turn to drink and be exposed! The cup in the LORD's right hand is coming around to you, and utter disgrace will replace your glory.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "For the violence of Lebanon shall cover thee, and the spoil of beasts, which made them afraid, because of men’s blood, and for the violence of the land, of the city, and of all that dwell therein.",
+      "web": "For the violence done to Lebanon will overwhelm you, and the destruction of the animals, which made them afraid; because of men’s blood, and for the violence done to the land, to every city and to those who dwell in them.",
+      "ct": "\"The violence you did to Lebanon's forests will come crashing back on you, and so will the slaughter of its animals that you terrorized — all because of the blood you shed and the violence you brought on lands, cities, and everyone living in them.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "What profiteth the graven image that the maker thereof hath graven it; the molten image, and a teacher of lies, that the maker of his work trusteth therein, to make dumb idols?",
+      "web": "“What value does the engraved image have, that its maker has engraved it; the molten image, even the teacher of lies, that he who fashions its form trusts in it, to make mute idols?",
+      "ct": "\"What good is an idol carved by human hands? It's nothing but a molten lie! Why would a craftsman trust something he made himself — a mute statue that can't speak a word?\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Woe unto him that saith to the wood, Awake; to the dumb stone, Arise, it shall teach! Behold, it is laid over with gold and silver, and there is no breath at all in the midst of it.",
+      "web": "Woe to him who says to the wood, ‘Awake!’ or to the mute stone, ‘Arise!’ Shall this teach? Behold, it is overlaid with gold and silver, and there is no breath at all within it.",
+      "ct": "\"Disaster is coming to the one who says to a block of wood, 'Wake up!' or to a silent stone, 'Get up and teach me!' Look at it — covered in gold and silver, but there's not a single breath of life inside it.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "But the LORD is in his holy temple: let all the earth keep silence before him.",
+      "web": "But LORD is in his holy temple. Let all the earth be silent before him!”",
+      "ct": "But the LORD is in his holy temple. Let the whole earth be silent before him.\""
+    }
+  ]
+}

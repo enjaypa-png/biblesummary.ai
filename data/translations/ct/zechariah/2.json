@@ -1,0 +1,89 @@
+{
+  "book": "zechariah",
+  "book_name": "Zechariah",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:02:35.385Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "I lifted up mine eyes again, and looked, and behold a man with a measuring line in his hand.",
+      "web": "I lifted up my eyes, and saw, and behold, a man with a measuring line in his hand.",
+      "ct": "I looked up again and saw a man holding a measuring line in his hand."
+    },
+    {
+      "verse": 2,
+      "kjv": "Then said I, Whither goest thou? And he said unto me, To measure Jerusalem, to see what is the breadth thereof, and what is the length thereof.",
+      "web": "Then I asked, “Where are you going?” He said to me, “To measure Jerusalem, to see what is its width and what is its length.”",
+      "ct": "I asked him, \"Where are you going?\" He answered, \"To measure Jerusalem — to find out how wide and how long it is.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And, behold, the angel that talked with me went forth, and another angel went out to meet him,",
+      "web": "Behold, the angel who talked with me went out, and another angel went out to meet him,",
+      "ct": "Then the angel who had been speaking with me went out, and another angel came out to meet him."
+    },
+    {
+      "verse": 4,
+      "kjv": "And said unto him, Run, speak to this young man, saying, Jerusalem shall be inhabited as towns without walls for the multitude of men and cattle therein:",
+      "web": "and said to him, “Run, speak to this young man, saying, ‘Jerusalem will be inhabited as villages without walls, because of the multitude of men and livestock in it.",
+      "ct": "The second angel told him, \"Run and tell that young man this: 'Jerusalem will be so full of people and livestock that it will spread out like an unwalled village — too large for walls to contain.'"
+    },
+    {
+      "verse": 5,
+      "kjv": "For I, saith the LORD, will be unto her a wall of fire round about, and will be the glory in the midst of her.",
+      "web": "For I,’ says LORD, ‘will be to her a wall of fire around it, and I will be the glory in the middle of her.",
+      "ct": "\"'For I myself,' declares the LORD, 'will be a wall of fire surrounding her, and I will be the glory within her.'"
+    },
+    {
+      "verse": 6,
+      "kjv": "Ho, ho, come forth, and flee from the land of the north, saith the LORD: for I have spread you abroad as the four winds of the heaven, saith the LORD.",
+      "web": "Come! Come! Flee from the land of the north,’ says LORD; ‘for I have spread you abroad as the four winds of the sky,’ says LORD.",
+      "ct": "\"'Come! Come! Flee from the land of the north,' declares the LORD, 'for I scattered you to the 4 winds of the heavens,' says the LORD."
+    },
+    {
+      "verse": 7,
+      "kjv": "Deliver thyself, O Zion, that dwellest with the daughter of Babylon.",
+      "web": "‘Come, Zion! Escape, you who dwell with the daughter of Babylon.’",
+      "ct": "\"'Escape, Zion! You who are living among the people of Babylon — get out now!'"
+    },
+    {
+      "verse": 8,
+      "kjv": "For thus saith the LORD of hosts; After the glory hath he sent me unto the nations which spoiled you: for he that toucheth you toucheth the apple of his eye.",
+      "web": "For LORD of Armies says: ‘For honor he has sent me to the nations which plundered you; for he who touches you touches the apple of his eye.",
+      "ct": "For the LORD of hosts says this: 'After glory sent me to the nations that plundered you — because whoever touches you touches the apple of his eye —"
+    },
+    {
+      "verse": 9,
+      "kjv": "For, behold, I will shake mine hand upon them, and they shall be a spoil to their servants: and ye shall know that the LORD of hosts hath sent me.",
+      "web": "For, behold, I will shake my hand over them, and they will be a plunder to those who served them; and you will know that LORD of Armies has sent me.",
+      "ct": "I will raise my hand against them, and their own slaves will plunder them.' Then you will know that the LORD of hosts has sent me."
+    },
+    {
+      "verse": 10,
+      "kjv": "Sing and rejoice, O daughter of Zion: for, lo, I come, and I will dwell in the midst of thee, saith the LORD.",
+      "web": "Sing and rejoice, daughter of Zion; for, behold, I come, and I will dwell within you,’ says LORD.",
+      "ct": "\"Sing and celebrate, daughter of Zion! For look — I am coming, and I will live among you,\" declares the LORD."
+    },
+    {
+      "verse": 11,
+      "kjv": "And many nations shall be joined to the LORD in that day, and shall be my people: and I will dwell in the midst of thee, and thou shalt know that the LORD of hosts hath sent me unto thee.",
+      "web": "Many nations shall join themselves to LORD in that day, and shall be my people; and I will dwell among you, and you shall know that LORD of Armies has sent me to you.",
+      "ct": "\"On that day, many nations will join themselves to the LORD and become my people. I will live among you, and you will know that the LORD of hosts has sent me to you."
+    },
+    {
+      "verse": 12,
+      "kjv": "And the LORD shall inherit Judah his portion in the holy land, and shall choose Jerusalem again.",
+      "web": "LORD will inherit Judah as his portion in the holy land, and will again choose Jerusalem.",
+      "ct": "The LORD will claim Judah as his own portion in the holy land, and he will once again choose Jerusalem as his own."
+    },
+    {
+      "verse": 13,
+      "kjv": "Be silent, O all flesh, before the LORD: for he is raised up out of his holy habitation.",
+      "web": "Be silent, all flesh, before LORD; for he has roused himself from his holy habitation!”",
+      "ct": "Let everyone on earth be silent before the LORD, for he has risen from his holy dwelling place.\""
+    }
+  ]
+}

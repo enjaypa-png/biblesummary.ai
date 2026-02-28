@@ -1,0 +1,71 @@
+{
+  "book": "zechariah",
+  "book_name": "Zechariah",
+  "chapter": 3,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:02:46.420Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And he shewed me Joshua the high priest standing before the angel of the LORD, and Satan standing at his right hand to resist him.",
+      "web": "He showed me Joshua the high priest standing before LORD’s angel, and Satan standing at his right hand to be his adversary.",
+      "ct": "Then the angel showed me a vision of Joshua the high priest standing before the angel of the LORD. Satan was standing at Joshua's right side, ready to accuse him."
+    },
+    {
+      "verse": 2,
+      "kjv": "And the LORD said unto Satan, The LORD rebuke thee, O Satan; even the LORD that hath chosen Jerusalem rebuke thee: is not this a brand plucked out of the fire?",
+      "web": "LORD said to Satan, “LORD rebuke you, Satan! Yes, LORD who has chosen Jerusalem rebuke you! Isn’t this a burning stick plucked out of the fire?”",
+      "ct": "The LORD said to Satan, \"The LORD rebuke you, Satan! The LORD who has chosen Jerusalem rebukes you! Isn't this man like a burning stick snatched from the fire?\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Now Joshua was clothed with filthy garments, and stood before the angel.",
+      "web": "Now Joshua was clothed with filthy garments, and was standing before the angel.",
+      "ct": "Now Joshua was standing before the angel dressed in filthy clothes."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he answered and spake unto those that stood before him, saying, Take away the filthy garments from him. And unto him he said, Behold, I have caused thine iniquity to pass from thee, and I will clothe thee with change of raiment.",
+      "web": "He answered and spoke to those who stood before him, saying, “Take the filthy garments off him.” To him he said, “Behold, I have caused your iniquity to pass from you, and I will clothe you with rich clothing.”",
+      "ct": "The angel spoke to those standing nearby and said, \"Take those filthy clothes off of him.\" Then he turned to Joshua and said, \"Look — I have taken your sin away from you, and I'm going to dress you in fine new clothes.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And I said, Let them set a fair mitre upon his head. So they set a fair mitre upon his head, and clothed him with garments. And the angel of the LORD stood by.",
+      "web": "I said, “Let them set a clean turban on his head.” So they set a clean turban on his head, and clothed him; and LORD’s angel was standing by.",
+      "ct": "Then I spoke up and said, \"Put a clean turban on his head too.\" So they placed a clean turban on his head and dressed him in new garments while the angel of the LORD stood watching."
+    },
+    {
+      "verse": 6,
+      "kjv": "And the angel of the LORD protested unto Joshua, saying,",
+      "web": "LORD’s angel protested to Joshua, saying,",
+      "ct": "Then the angel of the LORD gave Joshua this solemn charge:"
+    },
+    {
+      "verse": 7,
+      "kjv": "Thus saith the LORD of hosts; If thou wilt walk in my ways, and if thou wilt keep my charge, then thou shalt also judge my house, and shalt also keep my courts, and I will give thee places to walk among these that stand by.",
+      "web": "“LORD of Armies says: ‘If you will walk in my ways, and if you will follow my instructions, then you also shall judge my house, and shall also keep my courts, and I will give you a place of access among these who stand by.",
+      "ct": "\"This is what the LORD of hosts says: 'If you walk in my ways and carry out my instructions, then you will govern my house and oversee my courts. And I will give you a place among these angels standing here."
+    },
+    {
+      "verse": 8,
+      "kjv": "Hear now, O Joshua the high priest, thou, and thy fellows that sit before thee: for they are men wondered at: for, behold, I will bring forth my servant the BRANCH.",
+      "web": "Hear now, Joshua the high priest, you and your fellows who sit before you; for they are men who are a sign: for, behold, I will bring out my servant, the Branch.",
+      "ct": "Listen carefully, Joshua the high priest — you and your fellow priests sitting before you. You are all living signs of what's to come, because I am going to bring my servant, the Branch."
+    },
+    {
+      "verse": 9,
+      "kjv": "For behold the stone that I have laid before Joshua; upon one stone shall be seven eyes: behold, I will engrave the graving thereof, saith the LORD of hosts, and I will remove the iniquity of that land in one day.",
+      "web": "For, behold, the stone that I have set before Joshua; on one stone are seven eyes: behold, I will engrave its engraving,’ says LORD of Armies, ‘and I will remove the iniquity of that land in one day.",
+      "ct": "Look at the stone I have placed in front of Joshua — a single stone with 7 eyes on it. I myself will engrave an inscription on it,' declares the LORD of hosts, 'and I will remove the sin of this land in a single day."
+    },
+    {
+      "verse": 10,
+      "kjv": "In that day, saith the LORD of hosts, shall ye call every man his neighbour under the vine and under the fig tree.",
+      "web": "In that day,’ says LORD of Armies, ‘you will invite every man his neighbor under the vine and under the fig tree.’ ”",
+      "ct": "On that day,' declares the LORD of hosts, 'each of you will invite your neighbor to sit in peace under your vine and under your fig tree.'\""
+    }
+  ]
+}

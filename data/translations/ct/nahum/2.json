@@ -1,0 +1,89 @@
+{
+  "book": "nahum",
+  "book_name": "Nahum",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:59:04.745Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "He that dasheth in pieces is come up before thy face: keep the munition, watch the way, make thy loins strong, fortify thy power mightily.",
+      "web": "He who dashes in pieces has come up against you. Keep the fortress! Watch the way! Strengthen your waist! Fortify your power mightily!",
+      "ct": "An attacker is marching against you, Nineveh! Guard your fortress! Watch the roads! Prepare yourself for battle and gather every ounce of your strength!"
+    },
+    {
+      "verse": 2,
+      "kjv": "For the LORD hath turned away the excellency of Jacob, as the excellency of Israel: for the emptiers have emptied them out, and marred their vine branches.",
+      "web": "For LORD restores the excellency of Jacob, as the excellency of Israel; for the destroyers have destroyed them, and ruined their vine branches.",
+      "ct": "For the LORD is restoring the glory of Jacob — the glory of Israel — even though invaders ravaged them and destroyed their vines."
+    },
+    {
+      "verse": 3,
+      "kjv": "The shield of his mighty men is made red, the valiant men are in scarlet: the chariots shall be with flaming torches in the day of his preparation, and the fir trees shall be terribly shaken.",
+      "web": "The shield of his mighty men is made red. The valiant men are in scarlet. The chariots flash with steel in the day of his preparation, and the pine spears are brandished.",
+      "ct": "The shields of his warriors flash red, and his soldiers are dressed in scarlet. On the day they prepare for battle, their chariots gleam like fire, and their spears of cypress are raised high."
+    },
+    {
+      "verse": 4,
+      "kjv": "The chariots shall rage in the streets, they shall justle one against another in the broad ways: they shall seem like torches, they shall run like the lightnings.",
+      "web": "The chariots rage in the streets. They rush back and forth in the wide ways. Their appearance is like torches. They run like the lightnings.",
+      "ct": "Chariots race wildly through the streets, crashing into each other on the broad roads. They blaze like torches and streak past like lightning."
+    },
+    {
+      "verse": 5,
+      "kjv": "He shall recount his worthies: they shall stumble in their walk; they shall make haste to the wall thereof, and the defence shall be prepared.",
+      "web": "He summons his picked troops. They stumble on their way. They dash to its wall, and the protective shield is put in place.",
+      "ct": "The king calls for his best troops, but they stumble over each other as they rush to the wall. The siege shield is set in place."
+    },
+    {
+      "verse": 6,
+      "kjv": "The gates of the rivers shall be opened, and the palace shall be dissolved.",
+      "web": "The gates of the rivers are opened, and the palace is dissolved.",
+      "ct": "The river gates are thrown open, and the palace crumbles."
+    },
+    {
+      "verse": 7,
+      "kjv": "And Huzzab shall be led away captive, she shall be brought up, and her maids shall lead her as with the voice of doves, tabering upon their breasts.",
+      "web": "It is decreed: she is uncovered, she is carried away; and her servants moan as with the voice of doves, beating on their breasts.",
+      "ct": "It is decreed — the city is stripped bare and carried off. Her servant women moan like doves, beating their fists against their chests."
+    },
+    {
+      "verse": 8,
+      "kjv": "But Nineveh is of old like a pool of water: yet they shall flee away. Stand, stand, shall they cry; but none shall look back.",
+      "web": "But Nineveh has been from of old like a pool of water, yet they flee away. “Stop! Stop!” they cry, but no one looks back.",
+      "ct": "Nineveh was once like a great pool of water, but now its people are draining away. \"Stop! Stop!\" the commanders shout, but no one even looks back."
+    },
+    {
+      "verse": 9,
+      "kjv": "Take ye the spoil of silver, take the spoil of gold: for there is none end of the store and glory out of all the pleasant furniture.",
+      "web": "Take the plunder of silver. Take the plunder of gold, for there is no end of the store, the glory of all goodly furniture.",
+      "ct": "Plunder the silver! Plunder the gold! There is no end to the treasure — piles of wealth from every kind of precious thing."
+    },
+    {
+      "verse": 10,
+      "kjv": "She is empty, and void, and waste: and the heart melteth, and the knees smite together, and much pain is in all loins, and the faces of them all gather blackness.",
+      "web": "She is empty, void, and waste. The heart melts, the knees knock together, their bodies and faces have grown pale.",
+      "ct": "The city is emptied, gutted, and laid waste. Hearts melt with terror, knees buckle, bodies tremble with pain, and every face goes pale."
+    },
+    {
+      "verse": 11,
+      "kjv": "Where is the dwelling of the lions, and the feedingplace of the young lions, where the lion, even the old lion, walked, and the lion’s whelp, and none made them afraid?",
+      "web": "Where is the den of the lions, and the feeding place of the young lions, where the lion and the lioness walked, the lion’s cubs, and no one made them afraid?",
+      "ct": "Where now is the lions' den, the place where they fed their young — where the lion and lioness prowled with their cubs, and nothing made them afraid?"
+    },
+    {
+      "verse": 12,
+      "kjv": "The lion did tear in pieces enough for his whelps, and strangled for his lionesses, and filled his holes with prey, and his dens with ravin.",
+      "web": "The lion tore in pieces enough for his cubs, and strangled for his lionesses, and filled his caves with the kill, and his dens with prey.",
+      "ct": "The lion tore apart enough prey for his cubs and strangled kills for his lionesses. He filled his caves with the hunt and his dens with torn flesh."
+    },
+    {
+      "verse": 13,
+      "kjv": "Behold, I am against thee, saith the LORD of hosts, and I will burn her chariots in the smoke, and the sword shall devour thy young lions: and I will cut off thy prey from the earth, and the voice of thy messengers shall no more be heard.",
+      "web": "“Behold, I am against you,” says LORD of Armies, “and I will burn her chariots in the smoke, and the sword will devour your young lions; and I will cut off your prey from the earth, and the voice of your messengers will no longer be heard.”",
+      "ct": "\"Look — I am against you,\" declares the LORD of hosts. \"I will burn your chariots to smoke, and the sword will devour your young lions. I will cut off your prey from the earth, and the voices of your messengers will never be heard again.\""
+    }
+  ]
+}

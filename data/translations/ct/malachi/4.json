@@ -1,0 +1,47 @@
+{
+  "book": "malachi",
+  "book_name": "Malachi",
+  "chapter": 4,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:06:37.743Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "For, behold, the day cometh, that shall burn as an oven; and all the proud, yea, and all that do wickedly, shall be stubble: and the day that cometh shall burn them up, saith the LORD of hosts, that it shall leave them neither root nor branch.",
+      "web": "“For, behold, the day comes, it burns as a furnace; and all the proud, and all who work wickedness, will be stubble; and the day that comes will burn them up,” says LORD of Armies, “that it shall leave them neither root nor branch.",
+      "ct": "\"Pay attention — the day is coming that will burn like a furnace. Every arrogant person and everyone who does evil will be like dry straw. That day will consume them completely,\" says the LORD of hosts. \"It will leave them with neither root nor branch.\""
+    },
+    {
+      "verse": 2,
+      "kjv": "But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall.",
+      "web": "But to you who fear my name shall the sun of righteousness arise with healing in its wings. You will go out, and leap like calves of the stall.",
+      "ct": "But for you who fear my name, the Sun of righteousness will rise with healing in his wings. You'll burst out like calves released from their stalls, leaping with energy and life."
+    },
+    {
+      "verse": 3,
+      "kjv": "And ye shall tread down the wicked; for they shall be ashes under the soles of your feet in the day that I shall do this, saith the LORD of hosts.",
+      "web": "You shall tread down the wicked; for they will be ashes under the soles of your feet in the day that I make,” says LORD of Armies.",
+      "ct": "You will trample the wicked, and they will be nothing but ashes under your feet on the day I act,\" says the LORD of hosts."
+    },
+    {
+      "verse": 4,
+      "kjv": "Remember ye the law of Moses my servant, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.",
+      "web": "“Remember the law of Moses my servant, which I commanded to him in Horeb for all Israel, even statutes and ordinances.",
+      "ct": "\"Hold on to the law of my servant Moses — the commands, statutes, and judgments I gave him at Horeb for all of Israel."
+    },
+    {
+      "verse": 5,
+      "kjv": "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:",
+      "web": "Behold, I will send you Elijah the prophet before the great and terrible day of LORD comes.",
+      "ct": "Listen — I will send you the prophet Elijah before the great and dreadful day of the LORD arrives."
+    },
+    {
+      "verse": 6,
+      "kjv": "And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.",
+      "web": "He will turn the hearts of the fathers to the children, and the hearts of the children to their fathers, lest I come and strike the earth with a curse.”",
+      "ct": "He will turn the hearts of fathers back to their children, and the hearts of children back to their fathers — so that I don't have to come and strike the earth with a curse.\""
+    }
+  ]
+}

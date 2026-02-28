@@ -1,0 +1,113 @@
+{
+  "book": "malachi",
+  "book_name": "Malachi",
+  "chapter": 2,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:06:11.081Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And now, O ye priests, this commandment is for you.",
+      "web": "“Now, you priests, this commandment is for you.",
+      "ct": "\"Now listen, priests — this command is directed at you."
+    },
+    {
+      "verse": 2,
+      "kjv": "If ye will not hear, and if ye will not lay it to heart, to give glory unto my name, saith the LORD of hosts, I will even send a curse upon you, and I will curse your blessings: yea, I have cursed them already, because ye do not lay it to heart.",
+      "web": "If you will not listen, and if you will not take it to heart, to give glory to my name,” says LORD of Armies, “then I will send the curse on you, and I will curse your blessings. Indeed, I have cursed them already, because you do not take it to heart.",
+      "ct": "If you refuse to listen, if you won't take this to heart and give glory to my name,\" says the LORD of Armies, \"then I will send a curse on you. I will curse your blessings — in fact, I've already cursed them, because you haven't taken this to heart."
+    },
+    {
+      "verse": 3,
+      "kjv": "Behold, I will corrupt your seed, and spread dung upon your faces, even the dung of your solemn feasts; and one shall take you away with it.",
+      "web": "Behold, I will rebuke your offspring, and will spread dung on your faces, even the dung of your feasts; and you will be taken away with it.",
+      "ct": "\"Watch — I will ruin your descendants and smear dung on your faces, the dung from your festival sacrifices. You'll be hauled away with it."
+    },
+    {
+      "verse": 4,
+      "kjv": "And ye shall know that I have sent this commandment unto you, that my covenant might be with Levi, saith the LORD of hosts.",
+      "web": "You will know that I have sent this commandment to you, that my covenant may be with Levi,” says LORD of Armies.",
+      "ct": "Then you'll understand that I sent this command so that my covenant with Levi would stand,\" says the LORD of Armies."
+    },
+    {
+      "verse": 5,
+      "kjv": "My covenant was with him of life and peace; and I gave them to him for the fear wherewith he feared me, and was afraid before my name.",
+      "web": "“My covenant was with him of life and peace; and I gave them to him that he might be reverent toward me; and he was reverent toward me, and stood in awe of my name.",
+      "ct": "\"My covenant with Levi promised life and peace, and I gave him both. This was because he had the fear of me — he feared me and stood in awe of my name."
+    },
+    {
+      "verse": 6,
+      "kjv": "The law of truth was in his mouth, and iniquity was not found in his lips: he walked with me in peace and equity, and did turn many away from iniquity.",
+      "web": "The law of truth was in his mouth, and unrighteousness was not found in his lips. He walked with me in peace and uprightness, and turned many away from iniquity.",
+      "ct": "True instruction was on his lips, and nothing false was found in his words. He walked with me in peace and integrity, and he turned many people away from sin."
+    },
+    {
+      "verse": 7,
+      "kjv": "For the priest’s lips should keep knowledge, and they should seek the law at his mouth: for he is the messenger of the LORD of hosts.",
+      "web": "For the priest’s lips should keep knowledge, and they should seek the law at his mouth; for he is the messenger of LORD of Armies.",
+      "ct": "A priest's lips should guard knowledge, and people should be able to go to him for instruction, because he is the messenger of the LORD of Armies."
+    },
+    {
+      "verse": 8,
+      "kjv": "But ye are departed out of the way; ye have caused many to stumble at the law; ye have corrupted the covenant of Levi, saith the LORD of hosts.",
+      "web": "But you have turned away from the path. You have caused many to stumble in the law. You have corrupted the covenant of Levi,” says LORD of Armies.",
+      "ct": "But you have wandered off the path. Your teaching has caused many to stumble. You have destroyed the covenant with Levi,\" says the LORD of Armies."
+    },
+    {
+      "verse": 9,
+      "kjv": "Therefore have I also made you contemptible and base before all the people, according as ye have not kept my ways, but have been partial in the law.",
+      "web": "“Therefore I have also made you contemptible and wicked before all the people, according to the way you have not kept my ways, but have had respect for persons in the law.",
+      "ct": "\"So I have made you despised and humiliated in front of everyone, because you haven't followed my ways. Instead, you've shown favoritism when applying the law.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?",
+      "web": "Don’t we all have one father? Hasn’t one God created us? Why do we deal treacherously every man against his brother, profaning the covenant of our fathers?",
+      "ct": "Don't we all share one father? Didn't one God create us? Then why do we betray each other, dishonoring the covenant of our ancestors?"
+    },
+    {
+      "verse": 11,
+      "kjv": "Judah hath dealt treacherously, and an abomination is committed in Israel and in Jerusalem; for Judah hath profaned the holiness of the LORD which he loved, and hath married the daughter of a strange god.",
+      "web": "Judah has dealt treacherously, and an abomination is committed in Israel and in Jerusalem; for Judah has profaned the holiness of LORD which he loves, and has married the daughter of a foreign god.",
+      "ct": "Judah has been unfaithful. A disgusting thing has been done in Israel and in Jerusalem — Judah has desecrated what the LORD loves by marrying women who worship foreign gods."
+    },
+    {
+      "verse": 12,
+      "kjv": "The LORD will cut off the man that doeth this, the master and the scholar, out of the tabernacles of Jacob, and him that offereth an offering unto the LORD of hosts.",
+      "web": "LORD will cut off, to the man who does this, him who wakes and him who answers, out of the tents of Jacob, and him who offers an offering to LORD of Armies.",
+      "ct": "May the LORD cut off from the tents of Jacob anyone who does this — whoever he is, teacher or student — even if he brings offerings to the LORD of Armies."
+    },
+    {
+      "verse": 13,
+      "kjv": "And this have ye done again, covering the altar of the LORD with tears, with weeping, and with crying out, insomuch that he regardeth not the offering any more, or receiveth it with good will at your hand.",
+      "web": "This again you do: you cover LORD’s altar with tears, with weeping, and with sighing, because he doesn’t regard the offering any more, neither receives it with good will at your hand.",
+      "ct": "Here's another thing you do: you flood the LORD's altar with tears, weeping and groaning, because he no longer pays attention to your offerings or accepts them from your hands."
+    },
+    {
+      "verse": 14,
+      "kjv": "Yet ye say, Wherefore? Because the LORD hath been witness between thee and the wife of thy youth, against whom thou hast dealt treacherously: yet is she thy companion, and the wife of thy covenant.",
+      "web": "Yet you say, ‘Why?’ Because LORD has been witness between you and the wife of your youth, against whom you have dealt treacherously, though she is your companion, and the wife of your covenant.",
+      "ct": "You ask, \"Why not?\" Because the LORD was a witness between you and the wife you married when you were young. You have betrayed her, even though she is your partner, the wife you made a covenant with."
+    },
+    {
+      "verse": 15,
+      "kjv": "And did not he make one? Yet had he the residue of the spirit. And wherefore one? That he might seek a godly seed. Therefore take heed to your spirit, and let none deal treacherously against the wife of his youth.",
+      "web": "Did he not make you one, although he had the residue of the Spirit? Why one? He sought godly offspring. Therefore take heed to your spirit, and let no one deal treacherously against the wife of his youth.",
+      "ct": "Didn't God make you one with her? And he still had power in his spirit to do more. So why did he make you one? Because he was looking for godly children. So guard your spirit, and don't betray the wife you married when you were young."
+    },
+    {
+      "verse": 16,
+      "kjv": "For the LORD, the God of Israel, saith that he hateth putting away: for one covereth violence with his garment, saith the LORD of hosts: therefore take heed to your spirit, that ye deal not treacherously.",
+      "web": "One who hates and divorces”, says LORD, the God of Israel, “covers his garment with violence!” says LORD of Armies. “Therefore pay attention to your spirit, that you don’t be unfaithful.",
+      "ct": "\"I hate divorce,\" says the LORD, the God of Israel, \"and I hate it when someone covers himself with violence like a garment,\" says the LORD of Armies. \"So guard your spirit and don't be unfaithful.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Ye have wearied the LORD with your words. Yet ye say, Wherein have we wearied him? When ye say, Every one that doeth evil is good in the sight of the LORD, and he delighteth in them; or, Where is the God of judgment?",
+      "web": "You have wearied LORD with your words. Yet you say, ‘How have we wearied him?’ In that you say, ‘Everyone who does evil is good in LORD’s sight, and he delights in them;’ or ‘Where is the God of justice?’",
+      "ct": "You have worn the LORD out with your words. Yet you ask, \"How have we worn him out?\" By saying, \"Everyone who does evil is good in the LORD's eyes, and he's delighted with them\" — or by asking, \"Where is the God of justice?\""
+    }
+  ]
+}

@@ -99,12 +99,28 @@ These exact words must appear in your output exactly as listed:
 - heaven / heavens, earth, soul, spirit
 - sin, atonement, glory, salvation, faith, mercy, covenant, repent / repentance
 - angel / angels, prophet / prophets
-- All proper names (people, places, tribes)
+- All proper names (people, places, tribes) — NOT animal names; use modern English for all animals, birds, insects, and sea creatures
 - "fear of the LORD" / "fear God" — ALWAYS keep "fear", never soften to "revere" or "respect"
 
 ━━━ YAHWEH → LORD ━━━
 
 The WEB uses "Yahweh" — always render this as "LORD" (all caps) in your output.
+
+━━━ ANIMAL NAMES — ALWAYS MODERNIZE ━━━
+
+Never use archaic KJV animal names. Use the WEB or modern scientific common names instead:
+❌ "coney" → ✅ "rock badger"
+❌ "ossifrage" → ✅ "bearded vulture"
+❌ "ospray" → ✅ "black vulture"
+❌ "kine" → ✅ "cattle"
+❌ "swine" → ✅ "pigs"
+❌ "hart" → ✅ "deer"
+❌ "pygarg" → ✅ "ibex"
+❌ "chamois" → ✅ "mountain goat"
+❌ "gier eagle" → ✅ "Egyptian vulture"
+❌ "lapwing" → ✅ "hoopoe"
+❌ "owl" (where multiple types listed) → use specific modern names per WEB
+For any animal name you are unsure of: use the WEB rendering. NEVER default to KJV animal vocabulary.
 
 ━━━ SPECIFIC TRANSLATIONS ━━━
 

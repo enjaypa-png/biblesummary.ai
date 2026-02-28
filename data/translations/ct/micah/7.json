@@ -1,0 +1,131 @@
+{
+  "book": "micah",
+  "book_name": "Micah",
+  "chapter": 7,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:58:34.820Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Woe is me! for I am as when they have gathered the summer fruits, as the grapegleanings of the vintage: there is no cluster to eat: my soul desired the firstripe fruit.",
+      "web": "Misery is mine! Indeed, I am like one who gathers the summer fruits, as gleanings of the vineyard: There is no cluster of grapes to eat. My soul desires to eat the early fig.",
+      "ct": "How miserable I am! I'm like someone searching for fruit after the harvest is over — like picking through a vineyard after the grapes have already been gathered. There's not a single cluster left to eat. My soul craves the first ripe fig, but there are none."
+    },
+    {
+      "verse": 2,
+      "kjv": "The good man is perished out of the earth: and there is none upright among men: they all lie in wait for blood; they hunt every man his brother with a net.",
+      "web": "The godly man has perished out of the earth, and there is no one upright among men. They all lie in wait for blood; every man hunts his brother with a net.",
+      "ct": "The godly have vanished from the land, and there isn't an upright person left. Everyone lies in wait to shed blood; they hunt each other down like prey caught in a net."
+    },
+    {
+      "verse": 3,
+      "kjv": "That they may do evil with both hands earnestly, the prince asketh, and the judge asketh for a reward; and the great man, he uttereth his mischievous desire: so they wrap it up.",
+      "web": "Their hands are on that which is evil to do it diligently. The ruler and judge ask for a bribe; and the powerful man dictates the evil desire of his soul. Thus they conspire together.",
+      "ct": "Their hands are skilled at doing evil. The ruler demands bribes, the judge sells his verdict, and the powerful dictate whatever wickedness they want — and together they scheme to make it happen."
+    },
+    {
+      "verse": 4,
+      "kjv": "The best of them is as a brier: the most upright is sharper than a thorn hedge: the day of thy watchmen and thy visitation cometh; now shall be their perplexity.",
+      "web": "The best of them is like a brier. The most upright is worse than a thorn hedge. The day of your watchmen, even your visitation, has come; now is the time of their confusion.",
+      "ct": "The best of them is like a brier, and the most upright is sharper than a thorn hedge. But the day your watchmen warned about — the day of your punishment — has arrived. Now comes their confusion."
+    },
+    {
+      "verse": 5,
+      "kjv": "Trust ye not in a friend, put ye not confidence in a guide: keep the doors of thy mouth from her that lieth in thy bosom.",
+      "web": "Don’t trust in a neighbor. Don’t put confidence in a friend. With the woman lying in your embrace, be careful of the words of your mouth!",
+      "ct": "Don't trust your neighbor. Don't confide in a friend. Guard your words even from the wife who lies in your arms."
+    },
+    {
+      "verse": 6,
+      "kjv": "For the son dishonoureth the father, the daughter riseth up against her mother, the daughter in law against her mother in law; a man’s enemies are the men of his own house.",
+      "web": "For the son dishonors the father, the daughter rises up against her mother, the daughter-in-law against her mother-in-law; a man’s enemies are the men of his own house.",
+      "ct": "Sons treat their fathers with contempt, daughters rebel against their mothers, and daughters-in-law turn against their mothers-in-law. A man's worst enemies are the people in his own household."
+    },
+    {
+      "verse": 7,
+      "kjv": "Therefore I will look unto the LORD; I will wait for the God of my salvation: my God will hear me.",
+      "web": "But as for me, I will look to LORD. I will wait for the God of my salvation. My God will hear me.",
+      "ct": "But as for me, I will look to the LORD. I will wait for the God of my salvation. My God will hear me."
+    },
+    {
+      "verse": 8,
+      "kjv": "Rejoice not against me, O mine enemy: when I fall, I shall arise; when I sit in darkness, the LORD shall be a light unto me.",
+      "web": "Don’t rejoice against me, my enemy. When I fall, I will arise. When I sit in darkness, LORD will be a light to me.",
+      "ct": "Don't gloat over me, my enemy. Though I have fallen, I will rise. Though I sit in darkness, the LORD will be my light."
+    },
+    {
+      "verse": 9,
+      "kjv": "I will bear the indignation of the LORD, because I have sinned against him, until he plead my cause, and execute judgment for me: he will bring me forth to the light, and I shall behold his righteousness.",
+      "web": "I will bear the indignation of LORD, because I have sinned against him, until he pleads my case, and executes judgment for me. He will bring me out to the light. I will see his righteousness.",
+      "ct": "I will endure the LORD's anger — because I have sinned against him — until he takes up my case and brings me justice. He will lead me out into the light, and I will see his righteousness."
+    },
+    {
+      "verse": 10,
+      "kjv": "Then she that is mine enemy shall see it, and shame shall cover her which said unto me, Where is the LORD thy God? mine eyes shall behold her: now shall she be trodden down as the mire of the streets.",
+      "web": "Then my enemy will see it, and shame will cover her who said to me, where is LORD your God? Then my enemy will see me and will cover her shame. Now she will be trodden down like the mire of the streets.",
+      "ct": "Then my enemy will see it, and shame will cover the one who taunted me, saying, \"Where is the LORD your God?\" I will watch it happen — she will be trampled like mud in the streets."
+    },
+    {
+      "verse": 11,
+      "kjv": "In the day that thy walls are to be built, in that day shall the decree be far removed.",
+      "web": "A day to build your walls— In that day, he will extend your boundary.",
+      "ct": "The day is coming when your walls will be rebuilt, and on that day your boundaries will be greatly expanded."
+    },
+    {
+      "verse": 12,
+      "kjv": "In that day also he shall come even to thee from Assyria, and from the fortified cities, and from the fortress even to the river, and from sea to sea, and from mountain to mountain.",
+      "web": "In that day they will come to you from Assyria and the cities of Egypt, and from Egypt even to the River, and from sea to sea, and mountain to mountain.",
+      "ct": "On that day, people will come to you from Assyria and the cities of Egypt, from Egypt all the way to the Euphrates River, from sea to sea and mountain to mountain."
+    },
+    {
+      "verse": 13,
+      "kjv": "Notwithstanding the land shall be desolate because of them that dwell therein, for the fruit of their doings.",
+      "web": "Yet the land will be desolate because of those who dwell therein, for the fruit of their doings.",
+      "ct": "But first, the land will become desolate because of the people living in it — the consequence of their actions."
+    },
+    {
+      "verse": 14,
+      "kjv": "Feed thy people with thy rod, the flock of thine heritage, which dwell solitarily in the wood, in the midst of Carmel: let them feed in Bashan and Gilead, as in the days of old.",
+      "web": "Shepherd your people with your staff, the flock of your heritage, who dwell by themselves in a forest, in the middle of fertile pasture land, let them feed; in Bashan and Gilead, as in the days of old.",
+      "ct": "Shepherd your people with your staff, LORD — the flock that belongs to you. They live alone in a forest, surrounded by fertile pastureland. Let them graze in Bashan and Gilead as they did in the days of old."
+    },
+    {
+      "verse": 15,
+      "kjv": "According to the days of thy coming out of the land of Egypt will I shew unto him marvellous things.",
+      "web": "“As in the days of your coming out of the land of Egypt, I will show them marvelous things.”",
+      "ct": "\"Just as I did when you came out of Egypt, I will show them marvelous things.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "The nations shall see and be confounded at all their might: they shall lay their hand upon their mouth, their ears shall be deaf.",
+      "web": "The nations will see and be ashamed of all their might. They will lay their hand on their mouth. Their ears will be deaf.",
+      "ct": "The nations will see it and be put to shame despite all their power. They will clap their hands over their mouths in stunned silence, and their ears will go deaf."
+    },
+    {
+      "verse": 17,
+      "kjv": "They shall lick the dust like a serpent, they shall move out of their holes like worms of the earth: they shall be afraid of the LORD our God, and shall fear because of thee.",
+      "web": "They will lick the dust like a serpent. Like crawling things of the earth they shall come trembling out of their dens. They will come with fear to LORD our God, and will be afraid because of you.",
+      "ct": "They will lick the dust like a serpent, crawling out of their hiding places like creatures of the earth. They will come trembling before the LORD our God, and they will fear because of you."
+    },
+    {
+      "verse": 18,
+      "kjv": "Who is a God like unto thee, that pardoneth iniquity, and passeth by the transgression of the remnant of his heritage? he retaineth not his anger for ever, because he delighteth in mercy.",
+      "web": "Who is a God like you, who pardons iniquity, and passes over the disobedience of the remnant of his heritage? He doesn’t retain his anger forever, because he delights in loving kindness.",
+      "ct": "Who is a God like you, who pardons sin and forgives the rebellion of the remnant who belong to him? He does not stay angry forever, because he delights in mercy."
+    },
+    {
+      "verse": 19,
+      "kjv": "He will turn again, he will have compassion upon us; he will subdue our iniquities; and thou wilt cast all their sins into the depths of the sea.",
+      "web": "He will again have compassion on us. He will tread our iniquities under foot; and you will cast all their sins into the depths of the sea.",
+      "ct": "He will once again have compassion on us. He will trample our sins underfoot and hurl all our iniquities into the depths of the sea."
+    },
+    {
+      "verse": 20,
+      "kjv": "Thou wilt perform the truth to Jacob, and the mercy to Abraham, which thou hast sworn unto our fathers from the days of old.",
+      "web": "You will give truth to Jacob, and mercy to Abraham, as you have sworn to our fathers from the days of old.",
+      "ct": "You will show faithfulness to Jacob and mercy to Abraham, just as you swore to our ancestors in the days of old."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "book": "malachi",
+  "book_name": "Malachi",
+  "chapter": 1,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:05:52.400Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The burden of the word of the LORD to Israel by Malachi.",
+      "web": "A revelation, LORD’s word to Israel by Malachi.",
+      "ct": "This is the message the LORD gave to Israel through the prophet Malachi."
+    },
+    {
+      "verse": 2,
+      "kjv": "I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? Was not Esau Jacob’s brother? saith the LORD: yet I loved Jacob,",
+      "web": "“I have loved you,” says LORD. Yet you say, “How have you loved us?” “Wasn’t Esau Jacob’s brother?” says LORD, “Yet I loved Jacob;",
+      "ct": "\"I have loved you,\" says the LORD. But you ask, \"How have you loved us?\" The LORD replies, \"Wasn't Esau Jacob's brother? Yet I chose Jacob.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "And I hated Esau, and laid his mountains and his heritage waste for the dragons of the wilderness.",
+      "web": "but Esau I hated, and made his mountains a desolation, and gave his heritage to the jackals of the wilderness.”",
+      "ct": "\"But Esau I rejected. I turned his mountains into a wasteland and handed his territory over to the jackals of the desert.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Whereas Edom saith, We are impoverished, but we will return and build the desolate places; thus saith the LORD of hosts, They shall build, but I will throw down; and they shall call them, The border of wickedness, and, The people against whom the LORD hath indignation for ever.",
+      "web": "Whereas Edom says, “We are beaten down, but we will return and build the waste places;” LORD of Armies says, “They shall build, but I will throw down; and men will call them ‘The Wicked Land,’ even the people against whom LORD shows wrath forever.”",
+      "ct": "Edom may say, \"We've been crushed, but we'll rebuild from the ruins.\" But the LORD of hosts says, \"Let them build — I will tear it down. People will call their land 'The Territory of Wickedness,' the nation the LORD is angry with forever.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "And your eyes shall see, and ye shall say, The LORD will be magnified from the border of Israel.",
+      "web": "Your eyes will see, and you will say, “LORD is great—even beyond the border of Israel!”",
+      "ct": "You will see this with your own eyes, and you will say, \"The LORD's greatness reaches far beyond the borders of Israel!\""
+    },
+    {
+      "verse": 6,
+      "kjv": "A son honoureth his father, and a servant his master: if then I be a father, where is mine honour? and if I be a master, where is my fear? saith the LORD of hosts unto you, O priests, that despise my name. And ye say, Wherein have we despised thy name?",
+      "web": "“A son honors his father, and a servant his master. If I am a father, then where is my honor? And if I am a master, where is the respect due me? Says LORD of Armies to you, priests, who despise my name. You say, ‘How have we despised your name?’",
+      "ct": "\"A son honors his father, and a servant respects his master. So if I am your father, where is my honor? If I am your master, where is the fear that's due me?\" says the LORD of hosts. \"I'm talking to you, priests — you who despise my name. And yet you ask, 'How have we despised your name?'\""
+    },
+    {
+      "verse": 7,
+      "kjv": "Ye offer polluted bread upon mine altar; and ye say, Wherein have we polluted thee? In that ye say, The table of the LORD is contemptible.",
+      "web": "You offer polluted bread on my altar. You say, ‘How have we polluted you?’ In that you say, ‘LORD’s table is contemptible.’",
+      "ct": "\"You place defiled food on my altar, then ask, 'How have we defiled you?' By treating the LORD's table as something worthless.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And if ye offer the blind for sacrifice, is it not evil? and if ye offer the lame and sick, is it not evil? offer it now unto thy governor; will he be pleased with thee, or accept thy person? saith the LORD of hosts.",
+      "web": "When you offer the blind for sacrifice, isn’t that evil? And when you offer the lame and sick, isn’t that evil? Present it now to your governor! Will he be pleased with you? Or will he accept your person?” says LORD of Armies.",
+      "ct": "\"When you sacrifice a blind animal, isn't that evil? When you offer one that's lame or sick, isn't that evil? Try giving a gift like that to your governor — see if he's pleased with you! See if he shows you any favor!\" says the LORD of hosts."
+    },
+    {
+      "verse": 9,
+      "kjv": "And now, I pray you, beseech God that he will be gracious unto us: this hath been by your means: will he regard your persons? saith the LORD of hosts.",
+      "web": "“Now, please entreat the favor of God, that he may be gracious to us. With this, will he accept any of you?” says LORD of Armies.",
+      "ct": "\"Go ahead — beg God to be gracious to you. But this mess is your doing. Why would he show any of you favor?\" says the LORD of hosts."
+    },
+    {
+      "verse": 10,
+      "kjv": "Who is there even among you that would shut the doors for nought? neither do ye kindle fire on mine altar for nought. I have no pleasure in you, saith the LORD of hosts, neither will I accept an offering at your hand.",
+      "web": "“Oh that there were one among you who would shut the doors, that you might not kindle fire on my altar in vain! I have no pleasure in you,” says LORD of Armies, “neither will I accept an offering at your hand.",
+      "ct": "\"I wish one of you would just shut the temple doors so you'd stop lighting useless fires on my altar! I take no pleasure in you,\" says the LORD of hosts, \"and I will not accept any offering from your hands.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "For from the rising of the sun even unto the going down of the same my name shall be great among the Gentiles; and in every place incense shall be offered unto my name, and a pure offering: for my name shall be great among the heathen, saith the LORD of hosts.",
+      "web": "For from the rising of the sun even to its going down, my name is great among the nations, and in every place incense will be offered to my name, and a pure offering: for my name is great among the nations,” says LORD of Armies.",
+      "ct": "\"From where the sun rises to where it sets, my name will be great among the nations. In every place, incense and pure offerings will be presented in my honor, because my name will be great among the nations,\" says the LORD of hosts."
+    },
+    {
+      "verse": 12,
+      "kjv": "But ye have profaned it, in that ye say, The table of the LORD is polluted; and the fruit thereof, even his meat, is contemptible.",
+      "web": "“But you profane it, in that you say, ‘LORD’s table is polluted, and its fruit, even its food, is contemptible.’",
+      "ct": "\"But you dishonor it when you say, 'The LORD's table is polluted,' and treat the food offered on it as worthless.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "Ye said also, Behold, what a weariness is it! and ye have snuffed at it, saith the LORD of hosts; and ye brought that which was torn, and the lame, and the sick; thus ye brought an offering: should I accept this of your hand? saith the LORD.",
+      "web": "You say also, ‘Behold, what a weariness it is!’ and you have sniffed at it”, says LORD of Armies; “and you have brought that which was taken by violence, the lame, and the sick; thus you bring the offering. Should I accept this at your hand?” says LORD.",
+      "ct": "\"You also say, 'What a burden this all is!' and you sneer at it,\" says the LORD of hosts. \"Then you bring stolen animals, or lame ones, or sick ones as your offering. Should I accept that from your hands?\" says the LORD."
+    },
+    {
+      "verse": 14,
+      "kjv": "But cursed be the deceiver, which hath in his flock a male, and voweth, and sacrificeth unto the LORD a corrupt thing: for I am a great King, saith the LORD of hosts, and my name is dreadful among the heathen.",
+      "web": "“But the deceiver is cursed, who has in his flock a male, and vows, and sacrifices to the Lord a defective thing; for I am a great King,” says LORD of Armies, “and my name is awesome among the nations.”",
+      "ct": "\"A curse on the cheat who has a healthy male in his flock, makes a vow, but then sacrifices a defective animal to the Lord instead. I am a great King,\" says the LORD of hosts, \"and my name is feared among the nations.\""
+    }
+  ]
+}

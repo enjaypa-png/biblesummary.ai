@@ -1,0 +1,101 @@
+{
+  "book": "micah",
+  "book_name": "Micah",
+  "chapter": 5,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:58:00.138Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now gather thyself in troops, O daughter of troops: he hath laid siege against us: they shall smite the judge of Israel with a rod upon the cheek.",
+      "web": "Now you shall gather yourself in troops, daughter of troops. He has laid siege against us. They will strike the judge of Israel with a rod on the cheek.",
+      "ct": "Rally your troops now, city under siege! The enemy has surrounded us, and they will strike Israel's ruler across the face with a rod."
+    },
+    {
+      "verse": 2,
+      "kjv": "But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting.",
+      "web": "But you, Bethlehem Ephrathah, being small among the clans of Judah, out of you one will come out to me that is to be ruler in Israel; whose goings out are from of old, from ancient times.",
+      "ct": "But you, Bethlehem Ephrathah — though you are small among the clans of Judah — from you will come a ruler over Israel for me. His origins reach back to ancient times, to days of eternity."
+    },
+    {
+      "verse": 3,
+      "kjv": "Therefore will he give them up, until the time that she which travaileth hath brought forth: then the remnant of his brethren shall return unto the children of Israel.",
+      "web": "Therefore he will abandon them until the time that she who is in labor gives birth. Then the rest of his brothers will return to the children of Israel.",
+      "ct": "Because of this, God will hand his people over to their enemies until the woman in labor gives birth. Then the rest of the ruler's brothers will return to join the people of Israel."
+    },
+    {
+      "verse": 4,
+      "kjv": "And he shall stand and feed in the strength of the LORD, in the majesty of the name of the LORD his God; and they shall abide: for now shall he be great unto the ends of the earth.",
+      "web": "He shall stand, and shall shepherd in the strength of LORD, in the majesty of the name of LORD his God: and they will live, for then he will be great to the ends of the earth.",
+      "ct": "He will stand and shepherd his people with the strength of the LORD, with the majesty of the name of the LORD his God. They will live securely, because his greatness will reach to the ends of the earth."
+    },
+    {
+      "verse": 5,
+      "kjv": "And this man shall be the peace, when the Assyrian shall come into our land: and when he shall tread in our palaces, then shall we raise against him seven shepherds, and eight principal men.",
+      "web": "He will be our peace when Assyria invades our land, and when he marches through our fortresses, then we will raise against him seven shepherds, and eight leaders of men.",
+      "ct": "He will be their peace. When Assyria invades our land and marches through our fortresses, we will raise up 7 shepherds and 8 leaders against them."
+    },
+    {
+      "verse": 6,
+      "kjv": "And they shall waste the land of Assyria with the sword, and the land of Nimrod in the entrances thereof: thus shall he deliver us from the Assyrian, when he cometh into our land, and when he treadeth within our borders.",
+      "web": "They will rule the land of Assyria with the sword, and the land of Nimrod in its gates. He will deliver us from the Assyrian, when he invades our land, and when he marches within our border.",
+      "ct": "They will devastate the land of Assyria with the sword and conquer the land of Nimrod at its very gates. He will rescue us from the Assyrians when they invade our land and trample within our borders."
+    },
+    {
+      "verse": 7,
+      "kjv": "And the remnant of Jacob shall be in the midst of many people as a dew from the LORD, as the showers upon the grass, that tarrieth not for man, nor waiteth for the sons of men.",
+      "web": "The remnant of Jacob will be among many peoples, like dew from LORD, like showers on the grass, that don’t wait for man, nor wait for the sons of men.",
+      "ct": "The remnant of Jacob will be scattered among many peoples, like dew from the LORD, like rain showers falling on the grass — which don't wait for anyone's permission and don't depend on human effort."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the remnant of Jacob shall be among the Gentiles in the midst of many people as a lion among the beasts of the forest, as a young lion among the flocks of sheep: who, if he go through, both treadeth down, and teareth in pieces, and none can deliver.",
+      "web": "The remnant of Jacob will be among the nations, among many peoples, like a lion among the animals of the forest, like a young lion among the flocks of sheep; who, if he goes through, treads down and tears in pieces, and there is no one to deliver.",
+      "ct": "The remnant of Jacob will live among the nations, surrounded by many peoples, like a lion among forest animals, like a young lion loose among a flock of sheep — charging through, trampling and tearing apart, with no one able to stop it."
+    },
+    {
+      "verse": 9,
+      "kjv": "Thine hand shall be lifted up upon thine adversaries, and all thine enemies shall be cut off.",
+      "web": "Let your hand be lifted up above your adversaries, and let all of your enemies be cut off.",
+      "ct": "Your hand will be raised in triumph over your enemies, and every one of them will be destroyed."
+    },
+    {
+      "verse": 10,
+      "kjv": "And it shall come to pass in that day, saith the LORD, that I will cut off thy horses out of the midst of thee, and I will destroy thy chariots:",
+      "web": "“It will happen in that day”, says LORD, “that I will cut off your horses out from among you, and will destroy your chariots.",
+      "ct": "\"When that day comes,\" says the LORD, \"I will remove your horses from among you and destroy your chariots."
+    },
+    {
+      "verse": 11,
+      "kjv": "And I will cut off the cities of thy land, and throw down all thy strong holds:",
+      "web": "I will cut off the cities of your land, and will tear down all your strongholds.",
+      "ct": "I will tear down the cities of your land and demolish all your fortresses."
+    },
+    {
+      "verse": 12,
+      "kjv": "And I will cut off witchcrafts out of thine hand; and thou shalt have no more soothsayers:",
+      "web": "I will destroy witchcraft from your hand; and you shall have no soothsayers.",
+      "ct": "I will wipe out witchcraft from your hands, and you will have no more fortune-tellers."
+    },
+    {
+      "verse": 13,
+      "kjv": "Thy graven images also will I cut off, and thy standing images out of the midst of thee; and thou shalt no more worship the work of thine hands.",
+      "web": "I will cut off your engraved images and your pillars out from among you; and you shall no more worship the work of your hands.",
+      "ct": "I will smash your carved idols and your sacred pillars. You will never again bow down to worship things your own hands have made."
+    },
+    {
+      "verse": 14,
+      "kjv": "And I will pluck up thy groves out of the midst of thee: so will I destroy thy cities.",
+      "web": "I will uproot your Asherah poles out from among you; and I will destroy your cities.",
+      "ct": "I will uproot your Asherah poles from among you and destroy your cities."
+    },
+    {
+      "verse": 15,
+      "kjv": "And I will execute vengeance in anger and fury upon the heathen, such as they have not heard.",
+      "web": "I will execute vengeance in anger, and wrath on the nations that didn’t listen.”",
+      "ct": "I will pour out my vengeance with fierce anger and fury on the nations that have refused to listen.\""
+    }
+  ]
+}

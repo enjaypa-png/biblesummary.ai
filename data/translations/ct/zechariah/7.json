@@ -1,0 +1,95 @@
+{
+  "book": "zechariah",
+  "book_name": "Zechariah",
+  "chapter": 7,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T12:03:37.960Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass in the fourth year of king Darius, that the word of the LORD came unto Zechariah in the fourth day of the ninth month, even in Chisleu;",
+      "web": "In the fourth year of king Darius, LORD’s word came to Zechariah in the fourth day of the ninth month, the month of Chislev.",
+      "ct": "In the 4th year of King Darius's reign, on the 4th day of the 9th month — the month of Chisleu — the word of the LORD came to Zechariah."
+    },
+    {
+      "verse": 2,
+      "kjv": "When they had sent unto the house of God Sherezer and Regemmelech, and their men, to pray before the LORD,",
+      "web": "The people of Bethel sent Sharezer and Regem Melech, and their men, to entreat LORD’s favor,",
+      "ct": "The people of Bethel had sent Sherezer and Regemmelech, along with their men, to seek the LORD's favor."
+    },
+    {
+      "verse": 3,
+      "kjv": "And to speak unto the priests which were in the house of the LORD of hosts, and to the prophets, saying, Should I weep in the fifth month, separating myself, as I have done these so many years?",
+      "web": "and to speak to the priests of the house of LORD of Armies, and to the prophets, saying, “Should I weep in the fifth month, separating myself, as I have done these so many years?”",
+      "ct": "They were also sent to ask the priests at the house of the LORD of hosts and the prophets this question: \"Should we keep weeping and fasting in the 5th month, the way we've been doing for so many years?\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Then came the word of the LORD of hosts unto me, saying,",
+      "web": "Then the word of LORD of Armies came to me, saying,",
+      "ct": "Then the word of the LORD of hosts came to me:"
+    },
+    {
+      "verse": 5,
+      "kjv": "Speak unto all the people of the land, and to the priests, saying, When ye fasted and mourned in the fifth and seventh month, even those seventy years, did ye at all fast unto me, even to me?",
+      "web": "“Speak to all the people of the land, and to the priests, saying, ‘When you fasted and mourned in the fifth and in the seventh month for these seventy years, did you at all fast to me, really to me?",
+      "ct": "\"Tell all the people of the land and the priests: 'For 70 years you fasted and mourned in the 5th and 7th months. But be honest — were you really fasting for me? Was any of it truly for me?"
+    },
+    {
+      "verse": 6,
+      "kjv": "And when ye did eat, and when ye did drink, did not ye eat for yourselves, and drink for yourselves?",
+      "web": "When you eat, and when you drink, don’t you eat for yourselves, and drink for yourselves?",
+      "ct": "When you eat and when you drink, aren't you just eating and drinking for yourselves?"
+    },
+    {
+      "verse": 7,
+      "kjv": "Should ye not hear the words which the LORD hath cried by the former prophets, when Jerusalem was inhabited and in prosperity, and the cities thereof round about her, when men inhabited the south and the plain?",
+      "web": "Aren’t these the words which LORD proclaimed by the former prophets, when Jerusalem was inhabited and in prosperity, and its cities around her, and the South and the lowland were inhabited?’ ”",
+      "ct": "Aren't these the same words the LORD spoke through the earlier prophets, back when Jerusalem was thriving and full of people, when its surrounding towns were settled, and when people lived throughout the Negev and the lowlands?'\""
+    },
+    {
+      "verse": 8,
+      "kjv": "And the word of the LORD came unto Zechariah, saying,",
+      "web": "LORD’s word came to Zechariah, saying,",
+      "ct": "The word of the LORD came to Zechariah again:"
+    },
+    {
+      "verse": 9,
+      "kjv": "Thus speaketh the LORD of hosts, saying, Execute true judgment, and shew mercy and compassions every man to his brother:",
+      "web": "“Thus has LORD of Armies spoken, saying, ‘Execute true judgment, and show kindness and compassion every man to his brother.",
+      "ct": "\"This is what the LORD of hosts says: 'Judge fairly and honestly. Show mercy and compassion to one another."
+    },
+    {
+      "verse": 10,
+      "kjv": "And oppress not the widow, nor the fatherless, the stranger, nor the poor; and let none of you imagine evil against his brother in your heart.",
+      "web": "Don’t oppress the widow, nor the fatherless, the foreigner, nor the poor; and let none of you devise evil against his brother in your heart.’",
+      "ct": "Don't exploit widows, orphans, foreigners, or the poor. And don't plot evil against each other in your hearts.'"
+    },
+    {
+      "verse": 11,
+      "kjv": "But they refused to hearken, and pulled away the shoulder, and stopped their ears, that they should not hear.",
+      "web": "But they refused to listen, and turned their backs, and stopped their ears, that they might not hear.",
+      "ct": "But your ancestors refused to listen. They turned their backs on God and plugged their ears so they wouldn't have to hear."
+    },
+    {
+      "verse": 12,
+      "kjv": "Yea, they made their hearts as an adamant stone, lest they should hear the law, and the words which the LORD of hosts hath sent in his spirit by the former prophets: therefore came a great wrath from the LORD of hosts.",
+      "web": "Yes, they made their hearts as hard as flint, lest they might hear the law, and the words which LORD of Armies had sent by his Spirit by the former prophets. Therefore great wrath came from LORD of Armies.",
+      "ct": "They made their hearts as hard as flint so they wouldn't have to obey the law or the messages the LORD of hosts had sent through his Spirit by the earlier prophets. Because of this, fierce anger poured out from the LORD of hosts."
+    },
+    {
+      "verse": 13,
+      "kjv": "Therefore it is come to pass, that as he cried, and they would not hear; so they cried, and I would not hear, saith the LORD of hosts:",
+      "web": "It has come to pass that, as he called, and they refused to listen, so they will call, and I will not listen,” said LORD of Armies;",
+      "ct": "\"So this is what happened,\" says the LORD of hosts. \"When I called out to them, they wouldn't listen. So when they called out to me, I wouldn't listen either."
+    },
+    {
+      "verse": 14,
+      "kjv": "But I scattered them with a whirlwind among all the nations whom they knew not. Thus the land was desolate after them, that no man passed through nor returned: for they laid the pleasant land desolate.",
+      "web": "“but I will scatter them with a whirlwind among all the nations which they have not known. Thus the land was desolate after them, so that no man passed through nor returned: for they made the pleasant land desolate.”",
+      "ct": "I scattered them like a whirlwind among nations they had never known. The land they left behind became so desolate that no one traveled through it or lived there anymore. They had turned a beautiful land into a wasteland.\""
+    }
+  ]
+}
