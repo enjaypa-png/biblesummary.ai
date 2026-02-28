@@ -1,0 +1,149 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 18,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:05:10.519Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word which came to Jeremiah from the LORD, saying,",
+      "web": "The word which came to Jeremiah from LORD, saying,",
+      "ct": "The LORD spoke to Jeremiah with this message:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Arise, and go down to the potter’s house, and there I will cause thee to hear my words.",
+      "web": "“Arise, and go down to the potter’s house, and there I will cause you to hear my words.”",
+      "ct": "\"Go down to the potter's house. When you get there, I will give you my words.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Then I went down to the potter’s house, and, behold, he wrought a work on the wheels.",
+      "web": "Then I went down to the potter’s house, and behold, he was making something on the wheels.",
+      "ct": "So I went down to the potter's house and found him working at his wheel, shaping a piece of clay."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the vessel that he made of clay was marred in the hand of the potter: so he made it again another vessel, as seemed good to the potter to make it.",
+      "web": "When the vessel that he made of the clay was marred in the hand of the potter, he made it again another vessel, as seemed good to the potter to make it.",
+      "ct": "But the pot he was making came out flawed in his hands. So he crushed it down and reshaped it into a different vessel — whatever he thought best."
+    },
+    {
+      "verse": 5,
+      "kjv": "Then the word of the LORD came to me, saying,",
+      "web": "Then LORD’s word came to me, saying,",
+      "ct": "Then the LORD spoke to me:"
+    },
+    {
+      "verse": 6,
+      "kjv": "O house of Israel, cannot I do with you as this potter? saith the LORD. Behold, as the clay is in the potter’s hand, so are ye in mine hand, O house of Israel.",
+      "web": "“House of Israel, can’t I do with you as this potter?” says LORD. “Behold, as the clay in the potter’s hand, so are you in my hand, house of Israel.",
+      "ct": "\"People of Israel, can't I do with you exactly what this potter does?\" declares the LORD. \"You are clay in my hands, just like that clay is in the potter's hands.\""
+    },
+    {
+      "verse": 7,
+      "kjv": "At what instant I shall speak concerning a nation, and concerning a kingdom, to pluck up, and to pull down, and to destroy it;",
+      "web": "At the instant I speak concerning a nation, and concerning a kingdom, to pluck up and to break down and to destroy it;",
+      "ct": "\"If at any moment I announce that a nation or kingdom will be uprooted, torn down, and destroyed —"
+    },
+    {
+      "verse": 8,
+      "kjv": "If that nation, against whom I have pronounced, turn from their evil, I will repent of the evil that I thought to do unto them.",
+      "web": "if that nation, concerning which I have spoken, turns from their evil, I will repent of the evil that I thought to do to them.",
+      "ct": "but that nation turns away from its evil, then I will repent of the disaster I had planned for them."
+    },
+    {
+      "verse": 9,
+      "kjv": "And at what instant I shall speak concerning a nation, and concerning a kingdom, to build and to plant it;",
+      "web": "At the instant I speak concerning a nation, and concerning a kingdom, to build and to plant it;",
+      "ct": "And if at any moment I announce that a nation or kingdom will be built up and established —"
+    },
+    {
+      "verse": 10,
+      "kjv": "If it do evil in my sight, that it obey not my voice, then I will repent of the good, wherewith I said I would benefit them.",
+      "web": "if they do that which is evil in my sight, that they not obey my voice, then I will repent of the good with which I said I would benefit them.",
+      "ct": "but that nation does what is evil and refuses to obey me, then I will repent of the good I had promised to do for them."
+    },
+    {
+      "verse": 11,
+      "kjv": "Now therefore go to, speak to the men of Judah, and to the inhabitants of Jerusalem, saying, Thus saith the LORD; Behold, I frame evil against you, and devise a device against you: return ye now every one from his evil way, and make your ways and your doings good.",
+      "web": "“Now therefore, speak to the men of Judah, and to the inhabitants of Jerusalem, saying, ‘LORD says: “Behold, I frame evil against you, and devise a plan against you. Everyone return from his evil way now, and amend your ways and your doings.” ’",
+      "ct": "\"So go and tell the people of Judah and the residents of Jerusalem: 'This is what the LORD says: I am shaping disaster against you and forming a plan to bring it. Turn back now — every one of you — from your evil ways. Change your behavior and your actions.'\""
+    },
+    {
+      "verse": 12,
+      "kjv": "And they said, There is no hope: but we will walk after our own devices, and we will every one do the imagination of his evil heart.",
+      "web": "But they say, ‘It is in vain; for we will walk after our own plans, and we will each follow the stubbornness of his evil heart.’ ”",
+      "ct": "But they will say, 'It's no use. We're going to follow our own plans, and each of us will keep doing whatever our stubborn, evil hearts desire.'"
+    },
+    {
+      "verse": 13,
+      "kjv": "Therefore thus saith the LORD; Ask ye now among the heathen, who hath heard such things: the virgin of Israel hath done a very horrible thing.",
+      "web": "Therefore LORD says: “Ask now among the nations, ‘Who has heard such things?’ The virgin of Israel has done a very horrible thing.",
+      "ct": "So the LORD says: \"Go ask the nations — has anyone ever heard of anything like this? Israel, my pure and chosen people, has done something absolutely horrifying."
+    },
+    {
+      "verse": 14,
+      "kjv": "Will a man leave the snow of Lebanon which cometh from the rock of the field? or shall the cold flowing waters that come from another place be forsaken?",
+      "web": "Will the snow of Lebanon fail from the rock of the field? Will the cold waters that flow down from afar be dried up?",
+      "ct": "Does the snow ever vanish from the rocky peaks of Lebanon? Do the cold mountain streams ever stop flowing?"
+    },
+    {
+      "verse": 15,
+      "kjv": "Because my people hath forgotten me, they have burned incense to vanity, and they have caused them to stumble in their ways from the ancient paths, to walk in paths, in a way not cast up;",
+      "web": "For my people have forgotten me. They have burned incense to false gods. They have been made to stumble in their ways, in the ancient paths, to walk in byways, in a way not built up,",
+      "ct": "Yet my people have forgotten me. They burn incense to worthless idols. These false gods have made them stumble off the ancient paths and wander down unmarked side roads —"
+    },
+    {
+      "verse": 16,
+      "kjv": "To make their land desolate, and a perpetual hissing; every one that passeth thereby shall be astonished, and wag his head.",
+      "web": "to make their land an astonishment, and a perpetual hissing. Everyone who passes by it will be astonished, and shake his head.",
+      "ct": "turning their land into a wasteland that will be mocked forever. Everyone who passes through it will be shocked and shake their head in disbelief."
+    },
+    {
+      "verse": 17,
+      "kjv": "I will scatter them as with an east wind before the enemy; I will shew them the back, and not the face, in the day of their calamity.",
+      "web": "I will scatter them as with an east wind before the enemy. I will show them the back, and not the face, in the day of their calamity.",
+      "ct": "I will scatter them before their enemies like dust blown by a scorching east wind. When their day of disaster comes, I will turn my back on them, not my face.\""
+    },
+    {
+      "verse": 18,
+      "kjv": "Then said they, Come, and let us devise devices against Jeremiah; for the law shall not perish from the priest, nor counsel from the wise, nor the word from the prophet. Come, and let us smite him with the tongue, and let us not give heed to any of his words.",
+      "web": "Then they said, “Come! Let’s devise plans against Jeremiah; for the law won’t perish from the priest, nor counsel from the wise, nor the word from the prophet. Come, and let’s strike him with the tongue, and let’s not give heed to any of his words.” ",
+      "ct": "Then the people said, \"Come on, let's make plans against Jeremiah. After all, we'll always have priests to teach the law, wise men to give counsel, and prophets to speak God's word — we don't need him. Let's destroy him with accusations and ignore everything he says.\""
+    },
+    {
+      "verse": 19,
+      "kjv": "Give heed to me, O LORD, and hearken to the voice of them that contend with me.",
+      "web": "Give heed to me, LORD, and listen to the voice of those who contend with me.",
+      "ct": "LORD, pay attention to me! Listen to what my accusers are saying."
+    },
+    {
+      "verse": 20,
+      "kjv": "Shall evil be recompensed for good? for they have digged a pit for my soul. Remember that I stood before thee to speak good for them, and to turn away thy wrath from them.",
+      "web": "Should evil be recompensed for good? For they have dug a pit for my soul. Remember how I stood before you to speak good for them, to turn away your wrath from them.",
+      "ct": "Should evil be the reward for good? They have dug a pit to trap my soul. Remember how I stood before you and pleaded on their behalf, trying to turn your wrath away from them."
+    },
+    {
+      "verse": 21,
+      "kjv": "Therefore deliver up their children to the famine, and pour out their blood by the force of the sword; and let their wives be bereaved of their children, and be widows; and let their men be put to death; let their young men be slain by the sword in battle.",
+      "web": "Therefore deliver up their children to the famine, and give them over to the power of the sword. Let their wives become childless and widows. Let their men be killed and their young men struck by the sword in battle.",
+      "ct": "So hand their children over to famine and cut them down with the sword. Let their wives lose their children and become widows. Let their men be struck dead and their young men killed in battle."
+    },
+    {
+      "verse": 22,
+      "kjv": "Let a cry be heard from their houses, when thou shalt bring a troop suddenly upon them: for they have digged a pit to take me, and hid snares for my feet.",
+      "web": "Let a cry be heard from their houses when you bring a troop suddenly on them; for they have dug a pit to take me and hidden snares for my feet.",
+      "ct": "Let screams be heard from their houses when you suddenly send raiders against them — because they dug a pit to capture me and hid traps along my path."
+    },
+    {
+      "verse": 23,
+      "kjv": "Yet, LORD, thou knowest all their counsel against me to slay me: forgive not their iniquity, neither blot out their sin from thy sight, but let them be overthrown before thee; deal thus with them in the time of thine anger.",
+      "web": "Yet, LORD, you know all their counsel against me to kill me. Don’t forgive their iniquity. Don’t blot out their sin from your sight, Let them be overthrown before you. Deal with them in the time of your anger.",
+      "ct": "But you already know all this, LORD. You know every plot they've made to kill me. Don't forgive their guilt. Don't wipe their sin from your sight. Let them be brought down before you. Deal with them in the full heat of your anger."
+    }
+  ]
+}

@@ -19,38 +19,38 @@ export const VOICE_IDS = [
 export const VOICE_OVERRIDES: Record<string, { name?: string; description?: string }> = {
   "zaV23R4Cs5kUdQb5M7eS": {
     name: "Nicholas",
-    description: "Calm, confident, firm elderly male",
+    description: "Smart, firm & calm — our signature narrator",
   },
   "Xn1azbd8NmVXRrY94yrw": {
-    name: "James",
-    description: "Deep, warm, authoritative male",
+    name: "Eleanor",
+    description: "Warm, natural middle-aged female",
   },
   "vIpTnd6yyGAk2tJwEHLY": {
-    name: "Margaret",
-    description: "Clear, gentle, mature female",
+    name: "Dorothy",
+    description: "Gentle, soothing grandmother's voice",
   },
   "iN4bGoWlozzDpJuOdZjH": {
-    name: "Daniel",
-    description: "Steady, measured, thoughtful male",
+    name: "Marcus",
+    description: "Clear, steady American male",
   },
   "W0CVI7WJhHuV2vFY3VcB": {
-    name: "Grace",
-    description: "Warm, expressive, natural female",
+    name: "Claire",
+    description: "Confident, professional female",
   },
   "tPzOTlbmuCEa6h67Xb6k": {
-    name: "Samuel",
-    description: "Rich, resonant, strong male",
+    name: "Viktoria",
+    description: "Rich, strong & expressive female",
   },
   "GTtzqc49rk4I6RwPWgd4": {
-    name: "Ruth",
-    description: "Soft, comforting, conversational female",
+    name: "Gabby",
+    description: "Gentle, warm storyteller",
   },
   "hILdTfuUq4LRBMrxHERr": {
-    name: "Thomas",
-    description: "Crisp, confident, professional male",
+    name: "Lamin",
+    description: "Deep, calm & composed male",
   },
   "h8LZpYr8y3VBz0q2x0LP": {
-    name: "Mary",
-    description: "Calm, clear, soothing female",
+    name: "Darryl",
+    description: "Deep, confident & resonant male",
   },
 };

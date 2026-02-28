@@ -1,0 +1,203 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 29,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:09:19.147Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Now these are the words of the letter that Jeremiah the prophet sent from Jerusalem unto the residue of the elders which were carried away captives, and to the priests, and to the prophets, and to all the people whom Nebuchadnezzar had carried away captive from Jerusalem to Babylon;",
+      "web": "Now these are the words of the letter that Jeremiah the prophet sent from Jerusalem to the residue of the elders of the captivity, and to the priests, to the prophets, and to all the people whom Nebuchadnezzar had carried away captive from Jerusalem to Babylon,",
+      "ct": "This is the letter that Jeremiah the prophet sent from Jerusalem to the surviving elders among the exiles, and to the priests, prophets, and all the people that Nebuchadnezzar had taken captive from Jerusalem to Babylon."
+    },
+    {
+      "verse": 2,
+      "kjv": "(After that Jeconiah the king, and the queen, and the eunuchs, the princes of Judah and Jerusalem, and the carpenters, and the smiths, were departed from Jerusalem;)",
+      "web": "(after Jeconiah the king, the queen mother, the eunuchs, the princes of Judah and Jerusalem, the craftsmen, and the smiths, had departed from Jerusalem),",
+      "ct": "(This was after King Jeconiah, the queen mother, the court officials, the leaders of Judah and Jerusalem, and all the craftsmen and metalworkers had been taken from Jerusalem.)"
+    },
+    {
+      "verse": 3,
+      "kjv": "By the hand of Elasah the son of Shaphan, and Gemariah the son of Hilkiah, (whom Zedekiah king of Judah sent unto Babylon to Nebuchadnezzar king of Babylon) saying,",
+      "web": "by the hand of Elasah the son of Shaphan, and Gemariah the son of Hilkiah, (whom Zedekiah king of Judah sent to Babylon to Nebuchadnezzar king of Babylon). It said:",
+      "ct": "The letter was carried by Elasah son of Shaphan and Gemariah son of Hilkiah, whom King Zedekiah of Judah had sent as envoys to King Nebuchadnezzar in Babylon. It read:"
+    },
+    {
+      "verse": 4,
+      "kjv": "Thus saith the LORD of hosts, the God of Israel, unto all that are carried away captives, whom I have caused to be carried away from Jerusalem unto Babylon;",
+      "web": "LORD of Armies, the God of Israel, says to all the captives whom I have caused to be carried away captive from Jerusalem to Babylon:",
+      "ct": "\"This is what the LORD of hosts, the God of Israel, says to all the exiles I sent away from Jerusalem to Babylon:"
+    },
+    {
+      "verse": 5,
+      "kjv": "Build ye houses, and dwell in them; and plant gardens, and eat the fruit of them;",
+      "web": "“Build houses and dwell in them. Plant gardens and eat their fruit.",
+      "ct": "Build houses and settle down. Plant gardens and eat what they produce."
+    },
+    {
+      "verse": 6,
+      "kjv": "Take ye wives, and beget sons and daughters; and take wives for your sons, and give your daughters to husbands, that they may bear sons and daughters; that ye may be increased there, and not diminished.",
+      "web": "Take wives and father sons and daughters. Take wives for your sons, and give your daughters to husbands, that they may bear sons and daughters. Multiply there, and don’t be diminished.",
+      "ct": "Marry and have sons and daughters. Find wives for your sons and husbands for your daughters so they can have children too. Grow in number there — don't dwindle away."
+    },
+    {
+      "verse": 7,
+      "kjv": "And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace.",
+      "web": "Seek the peace of the city where I have caused you to be carried away captive, and pray to LORD for it; for in its peace you will have peace.”",
+      "ct": "Work for the peace and prosperity of the city where I've sent you into exile. Pray to the LORD on its behalf, because when it thrives, you will thrive too.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "For thus saith the LORD of hosts, the God of Israel; Let not your prophets and your diviners, that be in the midst of you, deceive you, neither hearken to your dreams which ye cause to be dreamed.",
+      "web": "For LORD of Armies, the God of Israel says: “Don’t let your prophets who are among you and your diviners deceive you. Don’t listen to your dreams which you cause to be dreamed.",
+      "ct": "The LORD of hosts, the God of Israel, also says: \"Don't let the prophets and fortune-tellers among you deceive you, and don't pay attention to the dreams you encourage them to have."
+    },
+    {
+      "verse": 9,
+      "kjv": "For they prophesy falsely unto you in my name: I have not sent them, saith the LORD.",
+      "web": "For they prophesy falsely to you in my name. I have not sent them,” says LORD.",
+      "ct": "They are prophesying lies to you in my name. I never sent them,\" declares the LORD."
+    },
+    {
+      "verse": 10,
+      "kjv": "For thus saith the LORD, That after seventy years be accomplished at Babylon I will visit you, and perform my good word toward you, in causing you to return to this place.",
+      "web": "For LORD says, “After seventy years are accomplished for Babylon, I will visit you and perform my good word toward you, in causing you to return to this place.",
+      "ct": "The LORD says, \"When 70 years have passed in Babylon, I will come to you and fulfill my gracious promise by bringing you back to this land."
+    },
+    {
+      "verse": 11,
+      "kjv": "For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil, to give you an expected end.",
+      "web": "For I know the thoughts that I think toward you,” says LORD, “thoughts of peace, and not of evil, to give you hope and a future.",
+      "ct": "I know the plans I have for you,\" declares the LORD, \"plans for your well-being and not for disaster — plans to give you hope and a future."
+    },
+    {
+      "verse": 12,
+      "kjv": "Then shall ye call upon me, and ye shall go and pray unto me, and I will hearken unto you.",
+      "web": "You shall call on me, and you shall go and pray to me, and I will listen to you.",
+      "ct": "Then you will call out to me. You will come and pray to me, and I will listen."
+    },
+    {
+      "verse": 13,
+      "kjv": "And ye shall seek me, and find me, when ye shall search for me with all your heart.",
+      "web": "You shall seek me, and find me, when you search for me with all your heart.",
+      "ct": "You will search for me and find me when you seek me with all your heart."
+    },
+    {
+      "verse": 14,
+      "kjv": "And I will be found of you, saith the LORD: and I will turn away your captivity, and I will gather you from all the nations, and from all the places whither I have driven you, saith the LORD; and I will bring you again into the place whence I caused you to be carried away captive.",
+      "web": "I will be found by you,” says LORD, “and I will turn again your captivity, and I will gather you from all the nations, and from all the places where I have driven you, says LORD. I will bring you again to the place from where I caused you to be carried away captive.”",
+      "ct": "I will let you find me,\" declares the LORD. \"I will end your captivity and gather you from every nation and every place where I scattered you,\" says the LORD. \"I will bring you back to the land from which I sent you into exile.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Because ye have said, The LORD hath raised us up prophets in Babylon;",
+      "web": "Because you have said, “LORD has raised us up prophets in Babylon;”",
+      "ct": "But you have said, \"The LORD has raised up prophets for us here in Babylon.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "Know that thus saith the LORD of the king that sitteth upon the throne of David, and of all the people that dwelleth in this city, and of your brethren that are not gone forth with you into captivity;",
+      "web": "LORD says concerning the king who sits on David’s throne, and concerning all the people who dwell in this city, your brothers who haven’t gone with you into captivity;",
+      "ct": "So hear what the LORD says about the king who sits on David's throne, about all the people still living in this city — your relatives who did not go into exile with you."
+    },
+    {
+      "verse": 17,
+      "kjv": "Thus saith the LORD of hosts; Behold, I will send upon them the sword, the famine, and the pestilence, and will make them like vile figs, that cannot be eaten, they are so evil.",
+      "web": "LORD of Armies says: “Behold, I will send on them the sword, the famine, and the pestilence, and will make them like rotten figs that can’t be eaten, they are so bad.",
+      "ct": "The LORD of hosts says: \"I am sending war, famine, and disease against them. I will make them like rotten figs — so bad they can't be eaten."
+    },
+    {
+      "verse": 18,
+      "kjv": "And I will persecute them with the sword, with the famine, and with the pestilence, and will deliver them to be removed to all the kingdoms of the earth, to be a curse, and an astonishment, and an hissing, and a reproach, among all the nations whither I have driven them:",
+      "web": "I will pursue after them with the sword, with the famine, and with the pestilence, and will deliver them to be tossed back and forth among all the kingdoms of the earth, to be an object of horror, an astonishment, a hissing, and a reproach among all the nations where I have driven them,",
+      "ct": "I will hunt them down with war, famine, and disease. I will make them an object of horror to every kingdom on earth — a curse word, a shocking example, something people mock and ridicule among every nation where I've driven them."
+    },
+    {
+      "verse": 19,
+      "kjv": "Because they have not hearkened to my words, saith the LORD, which I sent unto them by my servants the prophets, rising up early and sending them; but ye would not hear, saith the LORD.",
+      "web": "because they have not listened to my words,” says LORD, “with which I sent to them my servants the prophets, rising up early and sending them; but you would not hear,” says LORD.",
+      "ct": "This is because they refused to listen to my words,\" declares the LORD. \"I sent my servants the prophets to them again and again, but they would not listen,\" says the LORD."
+    },
+    {
+      "verse": 20,
+      "kjv": "Hear ye therefore the word of the LORD, all ye of the captivity, whom I have sent from Jerusalem to Babylon:",
+      "web": "Hear therefore LORD’s word, all you captives, whom I have sent away from Jerusalem to Babylon.",
+      "ct": "So listen to the word of the LORD, all you exiles I sent from Jerusalem to Babylon."
+    },
+    {
+      "verse": 21,
+      "kjv": "Thus saith the LORD of hosts, the God of Israel, of Ahab the son of Kolaiah, and of Zedekiah the son of Maaseiah, which prophesy a lie unto you in my name; Behold, I will deliver them into the hand of Nebuchadrezzar king of Babylon; and he shall slay them before your eyes;",
+      "web": "LORD of Armies, the God of Israel, says concerning Ahab the son of Kolaiah, and concerning Zedekiah the son of Maaseiah, who prophesy a lie to you in my name: “Behold, I will deliver them into the hand of Nebuchadnezzar king of Babylon; and he will kill them before your eyes.",
+      "ct": "This is what the LORD of hosts, the God of Israel, says about Ahab son of Kolaiah and Zedekiah son of Maaseiah, who are prophesying lies to you in my name: \"I am handing them over to King Nebuchadnezzar of Babylon, and he will execute them right before your eyes."
+    },
+    {
+      "verse": 22,
+      "kjv": "And of them shall be taken up a curse by all the captivity of Judah which are in Babylon, saying, The LORD make thee like Zedekiah and like Ahab, whom the king of Babylon roasted in the fire;",
+      "web": "A curse will be taken up about them by all the captives of Judah who are in Babylon, saying, ‘LORD make you like Zedekiah and like Ahab, whom the king of Babylon roasted in the fire;’",
+      "ct": "Because of what happens to them, all the exiles from Judah in Babylon will use this curse: 'May the LORD make you like Zedekiah and Ahab, whom the king of Babylon burned alive!'"
+    },
+    {
+      "verse": 23,
+      "kjv": "Because they have committed villany in Israel, and have committed adultery with their neighbours’ wives, and have spoken lying words in my name, which I have not commanded them; even I know, and am a witness, saith the LORD.",
+      "web": "because they have done foolish things in Israel, and have committed adultery with their neighbors’ wives, and have spoken words in my name falsely, which I didn’t command them. I am he who knows, and am witness,” says LORD.",
+      "ct": "They did wicked things in Israel — they slept with their neighbors' wives and spoke lies in my name that I never told them to say. I know what they did, and I am a witness against them,\" declares the LORD."
+    },
+    {
+      "verse": 24,
+      "kjv": "Thus shalt thou also speak to Shemaiah the Nehelamite, saying,",
+      "web": "Concerning Shemaiah the Nehelamite you shall speak, saying,",
+      "ct": "The LORD also told Jeremiah to speak to Shemaiah the Nehelamite:"
+    },
+    {
+      "verse": 25,
+      "kjv": "Thus speaketh the LORD of hosts, the God of Israel, saying, Because thou hast sent letters in thy name unto all the people that are at Jerusalem, and to Zephaniah the son of Maaseiah the priest, and to all the priests, saying,",
+      "web": "“LORD of Armies, the God of Israel, says, ‘Because you have sent letters in your own name to all the people who are at Jerusalem, and to Zephaniah the son of Maaseiah, the priest, and to all the priests, saying,",
+      "ct": "\"The LORD of hosts, the God of Israel, says: You sent letters in your own name to all the people in Jerusalem, to the priest Zephaniah son of Maaseiah, and to all the other priests. In those letters you wrote:"
+    },
+    {
+      "verse": 26,
+      "kjv": "The LORD hath made thee priest in the stead of Jehoiada the priest, that ye should be officers in the house of the LORD, for every man that is mad, and maketh himself a prophet, that thou shouldest put him in prison, and in the stocks.",
+      "web": "“LORD has made you priest in the place of Jehoiada the priest, that there may be officers in LORD’s house, for every man who is crazy, and makes himself a prophet, that you should put him in the stocks and in shackles.",
+      "ct": "'The LORD has appointed you as priest in place of Jehoiada to be in charge of the LORD's temple. It's your job to put any madman who acts like a prophet into the stocks and in chains."
+    },
+    {
+      "verse": 27,
+      "kjv": "Now therefore why hast thou not reproved Jeremiah of Anathoth, which maketh himself a prophet to you?",
+      "web": "Now therefore, why have you not rebuked Jeremiah of Anathoth, who makes himself a prophet to you,",
+      "ct": "So why haven't you done anything about Jeremiah of Anathoth, who is acting as a prophet among you?"
+    },
+    {
+      "verse": 28,
+      "kjv": "For therefore he sent unto us in Babylon, saying, This captivity is long: build ye houses, and dwell in them; and plant gardens, and eat the fruit of them.",
+      "web": "because he has sent to us in Babylon, saying, The captivity is long. Build houses, and dwell in them. Plant gardens, and eat their fruit?” ’ ”",
+      "ct": "After all, he sent a message to us here in Babylon saying: This exile will be long. Build houses and settle in. Plant gardens and eat what they produce.'\""
+    },
+    {
+      "verse": 29,
+      "kjv": "And Zephaniah the priest read this letter in the ears of Jeremiah the prophet.",
+      "web": "Zephaniah the priest read this letter in the hearing of Jeremiah the prophet.",
+      "ct": "When the priest Zephaniah received this letter, he read it aloud to Jeremiah the prophet."
+    },
+    {
+      "verse": 30,
+      "kjv": "Then came the word of the LORD unto Jeremiah, saying,",
+      "web": "Then LORD’s word came to Jeremiah, saying,",
+      "ct": "Then the LORD spoke to Jeremiah:"
+    },
+    {
+      "verse": 31,
+      "kjv": "Send to all them of the captivity, saying, Thus saith the LORD concerning Shemaiah the Nehelamite; Because that Shemaiah hath prophesied unto you, and I sent him not, and he caused you to trust in a lie:",
+      "web": "“Send to all of the captives, saying, ‘LORD says concerning Shemaiah the Nehelamite: “Because Shemaiah has prophesied to you, and I didn’t send him, and he has caused you to trust in a lie;”",
+      "ct": "\"Send this message to all the exiles: This is what the LORD says about Shemaiah the Nehelamite: Shemaiah prophesied to you even though I never sent him, and he led you to believe a lie."
+    },
+    {
+      "verse": 32,
+      "kjv": "Therefore thus saith the LORD; Behold, I will punish Shemaiah the Nehelamite, and his seed: he shall not have a man to dwell among this people; neither shall he behold the good that I will do for my people, saith the LORD; because he hath taught rebellion against the LORD.",
+      "web": "therefore LORD says, “Behold, I will punish Shemaiah the Nehelamite and his offspring. He will not have a man to dwell among this people. He won’t see the good that I will do to my people,” says LORD, “because he has spoken rebellion against LORD.” ’ ”",
+      "ct": "So the LORD says: I will punish Shemaiah the Nehelamite and his descendants. None of his family will survive among this people, and he will never see the good things I plan to do for my people,\" declares the LORD, \"because he urged rebellion against the LORD.\""
+    }
+  ]
+}

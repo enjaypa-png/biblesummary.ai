@@ -1,0 +1,41 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 45,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:15:27.747Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word that Jeremiah the prophet spake unto Baruch the son of Neriah, when he had written these words in a book at the mouth of Jeremiah, in the fourth year of Jehoiakim the son of Josiah king of Judah, saying,",
+      "web": "The message that Jeremiah the prophet spoke to Baruch the son of Neriah, when he wrote these words in a book at the mouth of Jeremiah, in the fourth year of Jehoiakim the son of Josiah, king of Judah, saying,",
+      "ct": "This is the message that Jeremiah the prophet spoke to Baruch son of Neriah. It came during the 4th year of King Jehoiakim son of Josiah's reign over Judah, after Baruch had written down everything Jeremiah dictated to him in a scroll."
+    },
+    {
+      "verse": 2,
+      "kjv": "Thus saith the LORD, the God of Israel, unto thee, O Baruch:",
+      "web": "“LORD, the God of Israel, says to you, Baruch:",
+      "ct": "\"This is what the LORD, the God of Israel, says to you, Baruch:"
+    },
+    {
+      "verse": 3,
+      "kjv": "Thou didst say, Woe is me now! for the LORD hath added grief to my sorrow; I fainted in my sighing, and I find no rest.",
+      "web": "‘You said, “Woe is me now! For LORD has added sorrow to my pain! I am weary with my groaning, and I find no rest.” ’",
+      "ct": "You said, 'I'm overwhelmed! The LORD has piled grief on top of my pain. I'm exhausted from groaning, and I can't find any rest.'"
+    },
+    {
+      "verse": 4,
+      "kjv": "Thus shalt thou say unto him, The LORD saith thus; Behold, that which I have built will I break down, and that which I have planted I will pluck up, even this whole land.",
+      "web": "“You shall tell him, LORD says: ‘Behold, that which I have built, I will break down, and that which I have planted I will pluck up; and this in the whole land.",
+      "ct": "\"Tell him this — the LORD says: 'I am about to tear down what I have built and uproot what I have planted — and I mean this entire land."
+    },
+    {
+      "verse": 5,
+      "kjv": "And seekest thou great things for thyself? seek them not: for, behold, I will bring evil upon all flesh, saith the LORD: but thy life will I give unto thee for a prey in all places whither thou goest.",
+      "web": "Do you seek great things for yourself? Don’t seek them; for, behold, I will bring evil on all flesh,’ says LORD; ‘but I will let you escape with your life wherever you go.’ ”",
+      "ct": "Are you chasing after great things for yourself? Stop. Don't pursue them. I am bringing disaster on everyone alive,' declares the LORD. 'But wherever you go, I will let you escape with your life.'\""
+    }
+  ]
+}

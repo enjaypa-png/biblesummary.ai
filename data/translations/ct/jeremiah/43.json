@@ -1,0 +1,89 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 43,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:14:46.789Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "And it came to pass, that when Jeremiah had made an end of speaking unto all the people all the words of the LORD their God, for which the LORD their God had sent him to them, even all these words,",
+      "web": "When Jeremiah had finished speaking to all the people all the words of LORD their God, with which LORD their God had sent him to them, even all these words,",
+      "ct": "When Jeremiah had finished delivering every word the LORD their God had sent him to speak to the people —"
+    },
+    {
+      "verse": 2,
+      "kjv": "Then spake Azariah the son of Hoshaiah, and Johanan the son of Kareah, and all the proud men, saying unto Jeremiah, Thou speakest falsely: the LORD our God hath not sent thee to say, Go not into Egypt to sojourn there:",
+      "web": "then Azariah the son of Hoshaiah, Johanan the son of Kareah, and all the proud men spoke, saying to Jeremiah, “You speak falsely. LORD our God has not sent you to say, ‘You shall not go into Egypt to live there;’",
+      "ct": "Azariah son of Hoshaiah, Johanan son of Kareah, and all the arrogant men confronted Jeremiah. \"You're lying!\" they said. \"The LORD our God didn't send you to tell us, 'Don't go to Egypt to settle there.'"
+    },
+    {
+      "verse": 3,
+      "kjv": "But Baruch the son of Neriah setteth thee on against us, for to deliver us into the hand of the Chaldeans, that they might put us to death, and carry us away captives into Babylon.",
+      "web": "but Baruch the son of Neriah has turned you against us, to deliver us into the hand of the Chaldeans, that they may put us to death, and carry us away captive to Babylon.”",
+      "ct": "Baruch son of Neriah has turned you against us! He wants to hand us over to the Babylonians so they can kill us or drag us off as captives to Babylon.\""
+    },
+    {
+      "verse": 4,
+      "kjv": "So Johanan the son of Kareah, and all the captains of the forces, and all the people, obeyed not the voice of the LORD, to dwell in the land of Judah.",
+      "web": "So Johanan the son of Kareah, and all the captains of the forces, and all the people, didn’t obey LORD’s voice, to dwell in the land of Judah.",
+      "ct": "So Johanan son of Kareah, all the military commanders, and all the people refused to obey the LORD's command to stay in the land of Judah."
+    },
+    {
+      "verse": 5,
+      "kjv": "But Johanan the son of Kareah, and all the captains of the forces, took all the remnant of Judah, that were returned from all nations, whither they had been driven, to dwell in the land of Judah;",
+      "web": "But Johanan the son of Kareah, and all the captains of the forces, took all the remnant of Judah, who had returned from all the nations where they had been driven, to live in the land of Judah;",
+      "ct": "Instead, Johanan son of Kareah and all the military commanders gathered up the entire remnant of Judah — everyone who had come back from the various nations where they had been scattered to resettle in Judah."
+    },
+    {
+      "verse": 6,
+      "kjv": "Even men, and women, and children, and the king’s daughters, and every person that Nebuzaradan the captain of the guard had left with Gedaliah the son of Ahikam the son of Shaphan, and Jeremiah the prophet, and Baruch the son of Neriah.",
+      "web": "the men, and the women, and the children, and the king’s daughters, and every person who Nebuzaradan the captain of the guard had left with Gedaliah the son of Ahikam, the son of Shaphan; and Jeremiah the prophet, and Baruch the son of Neriah;",
+      "ct": "This included men, women, children, the king's daughters, and every person that Nebuzaradan, the captain of the guard, had placed under the care of Gedaliah son of Ahikam, son of Shaphan. They also took Jeremiah the prophet and Baruch son of Neriah."
+    },
+    {
+      "verse": 7,
+      "kjv": "So they came into the land of Egypt: for they obeyed not the voice of the LORD: thus came they even to Tahpanhes.",
+      "web": "and they came into the land of Egypt; for they didn’t obey LORD’s voice: and they came to Tahpanhes.",
+      "ct": "They traveled to Egypt in direct defiance of the LORD's command, and they settled in Tahpanhes."
+    },
+    {
+      "verse": 8,
+      "kjv": "Then came the word of the LORD unto Jeremiah in Tahpanhes, saying,",
+      "web": "Then LORD’s word came to Jeremiah in Tahpanhes, saying,",
+      "ct": "While in Tahpanhes, the LORD spoke to Jeremiah:"
+    },
+    {
+      "verse": 9,
+      "kjv": "Take great stones in thine hand, and hide them in the clay in the brickkiln, which is at the entry of Pharaoh’s house in Tahpanhes, in the sight of the men of Judah;",
+      "web": "“Take great stones in your hand, and hide them in mortar in the brick work, which is at the entry of Pharaoh’s house in Tahpanhes, in the sight of the men of Judah;",
+      "ct": "\"Take some large stones and bury them in the mortar of the brick pavement at the entrance to Pharaoh's palace in Tahpanhes. Do this where the men of Judah can see you."
+    },
+    {
+      "verse": 10,
+      "kjv": "And say unto them, Thus saith the LORD of hosts, the God of Israel; Behold, I will send and take Nebuchadrezzar the king of Babylon, my servant, and will set his throne upon these stones that I have hid; and he shall spread his royal pavilion over them.",
+      "web": "and tell them, LORD of Armies, the God of Israel, says: ‘Behold, I will send and take Nebuchadnezzar the king of Babylon, my servant, and will set his throne on these stones that I have hidden; and he will spread his royal pavilion over them.",
+      "ct": "Then tell them, 'This is what the LORD of hosts, the God of Israel, says: I am going to summon my servant Nebuchadrezzar, king of Babylon, and bring him here. I will set his throne right over these stones I have buried, and he will spread his royal canopy above them."
+    },
+    {
+      "verse": 11,
+      "kjv": "And when he cometh, he shall smite the land of Egypt, and deliver such as are for death to death; and such as are for captivity to captivity; and such as are for the sword to the sword.",
+      "web": "He will come, and will strike the land of Egypt; such as are for death will be put to death, and such as are for captivity to captivity, and such as are for the sword to the sword.",
+      "ct": "When he arrives, he will strike the land of Egypt. Those marked for death will die, those marked for captivity will be taken captive, and those marked for the sword will fall by the sword."
+    },
+    {
+      "verse": 12,
+      "kjv": "And I will kindle a fire in the houses of the gods of Egypt; and he shall burn them, and carry them away captives: and he shall array himself with the land of Egypt, as a shepherd putteth on his garment; and he shall go forth from thence in peace.",
+      "web": "I will kindle a fire in the houses of the gods of Egypt. He will burn them, and carry them away captive. He will array himself with the land of Egypt, as a shepherd puts on his garment; and he will go out from there in peace.",
+      "ct": "I will set fire to the temples of Egypt's gods. Nebuchadrezzar will burn those temples and carry off their idols. He will wrap himself in the land of Egypt as easily as a shepherd throws on his cloak, and then he will leave unopposed."
+    },
+    {
+      "verse": 13,
+      "kjv": "He shall break also the images of Bethshemesh, that is in the land of Egypt; and the houses of the gods of the Egyptians shall he burn with fire.",
+      "web": "He will also break the pillars of Beth Shemesh, that is in the land of Egypt; and he will burn the houses of the gods of Egypt with fire.’ ”",
+      "ct": "He will smash the sacred pillars of Bethshemesh in the land of Egypt, and he will burn down the temples of Egypt's gods.'\""
+    }
+  ]
+}

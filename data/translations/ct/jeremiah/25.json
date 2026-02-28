@@ -1,0 +1,239 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 25,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:07:50.335Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word that came to Jeremiah concerning all the people of Judah in the fourth year of Jehoiakim the son of Josiah king of Judah, that was the first year of Nebuchadrezzar king of Babylon;",
+      "web": "The word that came to Jeremiah concerning all the people of Judah, in the fourth year of Jehoiakim the son of Josiah, king of Judah (this was the first year of Nebuchadnezzar king of Babylon),",
+      "ct": "This message came to Jeremiah about all the people of Judah during the 4th year of King Jehoiakim son of Josiah, king of Judah — which was also the 1st year of King Nebuchadrezzar of Babylon."
+    },
+    {
+      "verse": 2,
+      "kjv": "The which Jeremiah the prophet spake unto all the people of Judah, and to all the inhabitants of Jerusalem, saying,",
+      "web": "which Jeremiah the prophet spoke to all the people of Judah, and to all the inhabitants of Jerusalem:",
+      "ct": "Jeremiah the prophet delivered this message to all the people of Judah and everyone living in Jerusalem:"
+    },
+    {
+      "verse": 3,
+      "kjv": "From the thirteenth year of Josiah the son of Amon king of Judah, even unto this day, that is the three and twentieth year, the word of the LORD hath come unto me, and I have spoken unto you, rising early and speaking; but ye have not hearkened.",
+      "web": "From the thirteenth year of Josiah the son of Amon, king of Judah, even to this day, these twenty-three years, LORD’s word has come to me, and I have spoken to you, rising up early and speaking; but you have not listened.",
+      "ct": "\"For 23 years now — from the 13th year of King Josiah son of Amon of Judah until today — the LORD has been giving me his word. I've spoken to you again and again, but you haven't listened."
+    },
+    {
+      "verse": 4,
+      "kjv": "And the LORD hath sent unto you all his servants the prophets, rising early and sending them; but ye have not hearkened, nor inclined your ear to hear.",
+      "web": "LORD has sent to you all his servants the prophets, rising up early and sending them (but you have not listened or inclined your ear to hear),",
+      "ct": "The LORD sent all his servants the prophets to you, time after time, but you refused to listen or even pay attention."
+    },
+    {
+      "verse": 5,
+      "kjv": "They said, Turn ye again now every one from his evil way, and from the evil of your doings, and dwell in the land that the LORD hath given unto you and to your fathers for ever and ever:",
+      "web": "saying, “Return now everyone from his evil way, and from the evil of your doings, and dwell in the land that LORD has given to you and to your fathers, from of old and even forever more.",
+      "ct": "They told you, 'Each of you must turn away from your evil ways and your wicked actions. Then you can go on living in the land the LORD gave to you and your ancestors forever."
+    },
+    {
+      "verse": 6,
+      "kjv": "And go not after other gods to serve them, and to worship them, and provoke me not to anger with the works of your hands; and I will do you no hurt.",
+      "web": "Don’t go after other gods to serve them or worship them, and don’t provoke me to anger with the work of your hands; then I will do you no harm.”",
+      "ct": "Don't chase after other gods, serving and worshiping them. Don't provoke me to anger with things you've made with your own hands, and I won't bring disaster on you.'"
+    },
+    {
+      "verse": 7,
+      "kjv": "Yet ye have not hearkened unto me, saith the LORD; that ye might provoke me to anger with the works of your hands to your own hurt.",
+      "web": "“Yet you have not listened to me,” says LORD; “that you may provoke me to anger with the work of your hands to your own hurt.”",
+      "ct": "\"But you wouldn't listen to me,\" declares the LORD. \"Instead, you provoked me to anger with the things your hands have made, bringing disaster on yourselves.\""
+    },
+    {
+      "verse": 8,
+      "kjv": "Therefore thus saith the LORD of hosts; Because ye have not heard my words,",
+      "web": "Therefore LORD of Armies says: “Because you have not heard my words,",
+      "ct": "So the LORD of hosts says: \"Because you have not listened to my words,"
+    },
+    {
+      "verse": 9,
+      "kjv": "Behold, I will send and take all the families of the north, saith the LORD, and Nebuchadrezzar the king of Babylon, my servant, and will bring them against this land, and against the inhabitants thereof, and against all these nations round about, and will utterly destroy them, and make them an astonishment, and an hissing, and perpetual desolations.",
+      "web": "behold, I will send and take all the families of the north,” says LORD, “and I will send to Nebuchadnezzar the king of Babylon, my servant, and will bring them against this land, and against its inhabitants, and against all these nations around. I will utterly destroy them, and make them an astonishment, and a hissing, and perpetual desolations.",
+      "ct": "I am going to summon all the peoples of the north,\" declares the LORD, \"along with my servant King Nebuchadrezzar of Babylon. I will bring them against this land, against everyone living in it, and against all the surrounding nations. I will completely destroy them and turn them into an object of horror, of mockery, and of permanent ruin."
+    },
+    {
+      "verse": 10,
+      "kjv": "Moreover I will take from them the voice of mirth, and the voice of gladness, the voice of the bridegroom, and the voice of the bride, the sound of the millstones, and the light of the candle.",
+      "web": "Moreover I will take from them the voice of mirth and the voice of gladness, the voice of the bridegroom and the voice of the bride, the sound of the millstones, and the light of the lamp.",
+      "ct": "I will take away from them every sound of joy and celebration — the happy voices of brides and grooms, the grinding of millstones, and the light of lamps."
+    },
+    {
+      "verse": 11,
+      "kjv": "And this whole land shall be a desolation, and an astonishment; and these nations shall serve the king of Babylon seventy years.",
+      "web": "This whole land will be a desolation, and an astonishment; and these nations will serve the king of Babylon seventy years.",
+      "ct": "This entire land will become a desolate wasteland that shocks everyone who sees it, and these nations will serve the king of Babylon for 70 years."
+    },
+    {
+      "verse": 12,
+      "kjv": "And it shall come to pass, when seventy years are accomplished, that I will punish the king of Babylon, and that nation, saith the LORD, for their iniquity, and the land of the Chaldeans, and will make it perpetual desolations.",
+      "web": "“It will happen, when seventy years are accomplished, that I will punish the king of Babylon and that nation,” says LORD, “for their iniquity. I will make the land of the Chaldeans desolate forever.",
+      "ct": "But when those 70 years are over,\" declares the LORD, \"I will punish the king of Babylon and his nation for their sin. I will turn the land of the Chaldeans into a permanent wasteland."
+    },
+    {
+      "verse": 13,
+      "kjv": "And I will bring upon that land all my words which I have pronounced against it, even all that is written in this book, which Jeremiah hath prophesied against all the nations.",
+      "web": "I will bring on that land all my words which I have pronounced against it, even all that is written in this book, which Jeremiah has prophesied against all the nations.",
+      "ct": "I will bring down on that land every judgment I have spoken against it — everything written in this book that Jeremiah prophesied against all the nations."
+    },
+    {
+      "verse": 14,
+      "kjv": "For many nations and great kings shall serve themselves of them also: and I will recompense them according to their deeds, and according to the works of their own hands.",
+      "web": "For many nations and great kings will make bondservants of them, even of them. I will recompense them according to their deeds, and according to the work of their hands.”",
+      "ct": "Many nations and powerful kings will enslave them in return, and I will repay them for what they've done — for the work of their own hands.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "For thus saith the LORD God of Israel unto me; Take the wine cup of this fury at my hand, and cause all the nations, to whom I send thee, to drink it.",
+      "web": "For LORD, the God of Israel, says to me: “Take this cup of the wine of wrath from my hand, and cause all the nations to whom I send you to drink it.",
+      "ct": "The LORD, the God of Israel, said to me: \"Take this cup of wine from my hand. It represents my fury. Make every nation I send you to drink from it."
+    },
+    {
+      "verse": 16,
+      "kjv": "And they shall drink, and be moved, and be mad, because of the sword that I will send among them.",
+      "web": "They will drink, and reel back and forth, and be insane, because of the sword that I will send among them.”",
+      "ct": "They will drink it and stagger around like madmen because of the sword I am sending against them.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Then took I the cup at the LORD’s hand, and made all the nations to drink, unto whom the LORD had sent me:",
+      "web": "Then I took the cup at LORD’s hand, and made all the nations to drink, to whom LORD had sent me:",
+      "ct": "So I took the cup from the LORD's hand and made every nation drink from it — every nation the LORD sent me to:"
+    },
+    {
+      "verse": 18,
+      "kjv": "To wit, Jerusalem, and the cities of Judah, and the kings thereof, and the princes thereof, to make them a desolation, an astonishment, an hissing, and a curse; as it is this day;",
+      "web": "Jerusalem, and the cities of Judah, with its kings and its princes, to make them a desolation, an astonishment, a hissing, and a curse, as it is today;",
+      "ct": "Jerusalem and the cities of Judah, along with their kings and officials — to make them a desolate ruin, an object of horror, mockery, and cursing, as they are today;"
+    },
+    {
+      "verse": 19,
+      "kjv": "Pharaoh king of Egypt, and his servants, and his princes, and all his people;",
+      "web": "Pharaoh king of Egypt, with his servants, his princes, and all his people;",
+      "ct": "Pharaoh king of Egypt, his officials, his servants, and all his people;"
+    },
+    {
+      "verse": 20,
+      "kjv": "And all the mingled people, and all the kings of the land of Uz, and all the kings of the land of the Philistines, and Ashkelon, and Azzah, and Ekron, and the remnant of Ashdod,",
+      "web": "and all the mixed people, and all the kings of the land of Uz, all the kings of the Philistines, Ashkelon, Gaza, Ekron, and the remnant of Ashdod;",
+      "ct": "all the foreigners living among them; all the kings of the land of Uz; all the kings of the Philistines — Ashkelon, Azzah, Ekron, and what was left of Ashdod;"
+    },
+    {
+      "verse": 21,
+      "kjv": "Edom, and Moab, and the children of Ammon,",
+      "web": "Edom, Moab, and the children of Ammon;",
+      "ct": "Edom, Moab, and the people of Ammon;"
+    },
+    {
+      "verse": 22,
+      "kjv": "And all the kings of Tyrus, and all the kings of Zidon, and the kings of the isles which are beyond the sea,",
+      "web": "and all the kings of Tyre, all the kings of Sidon, and the kings of the isle which is beyond the sea;",
+      "ct": "all the kings of Tyre, all the kings of Sidon, and the kings of the coastlands across the sea;"
+    },
+    {
+      "verse": 23,
+      "kjv": "Dedan, and Tema, and Buz, and all that are in the utmost corners,",
+      "web": "Dedan, Tema, Buz, and all who have the corners of their beard cut off;",
+      "ct": "Dedan, Tema, Buz, and all the desert peoples who shave the edges of their hair;"
+    },
+    {
+      "verse": 24,
+      "kjv": "And all the kings of Arabia, and all the kings of the mingled people that dwell in the desert,",
+      "web": "and all the kings of Arabia, all the kings of the mixed people who dwell in the wilderness;",
+      "ct": "all the kings of Arabia and all the kings of the mixed peoples living in the wilderness;"
+    },
+    {
+      "verse": 25,
+      "kjv": "And all the kings of Zimri, and all the kings of Elam, and all the kings of the Medes,",
+      "web": "and all the kings of Zimri, all the kings of Elam, and all the kings of the Medes;",
+      "ct": "all the kings of Zimri, all the kings of Elam, and all the kings of the Medes;"
+    },
+    {
+      "verse": 26,
+      "kjv": "And all the kings of the north, far and near, one with another, and all the kingdoms of the world, which are upon the face of the earth: and the king of Sheshach shall drink after them.",
+      "web": "and all the kings of the north, far and near, one with another; and all the kingdoms of the world, which are on the surface of the earth. The king of Sheshach will drink after them.",
+      "ct": "and all the kings of the north, near and far, one after another — every kingdom on the face of the earth. And after all of them, the king of Sheshach will drink from the cup too."
+    },
+    {
+      "verse": 27,
+      "kjv": "Therefore thou shalt say unto them, Thus saith the LORD of hosts, the God of Israel; Drink ye, and be drunken, and spue, and fall, and rise no more, because of the sword which I will send among you.",
+      "web": "“You shall tell them, ‘LORD of Armies, the God of Israel says: “Drink, and be drunk, vomit, fall, and rise no more, because of the sword which I will send among you.” ’",
+      "ct": "\"Then tell them, 'This is what the LORD of hosts, the God of Israel, says: Drink! Get drunk, vomit, collapse, and never get up again — because of the sword I am sending against you.'"
+    },
+    {
+      "verse": 28,
+      "kjv": "And it shall be, if they refuse to take the cup at thine hand to drink, then shalt thou say unto them, Thus saith the LORD of hosts; Ye shall certainly drink.",
+      "web": "It shall be, if they refuse to take the cup at your hand to drink, then you shall tell them, ‘LORD of Armies says: “You shall surely drink.",
+      "ct": "If they refuse to take the cup from your hand and drink, tell them, 'The LORD of hosts says: You will drink it — there is no choice."
+    },
+    {
+      "verse": 29,
+      "kjv": "For, lo, I begin to bring evil on the city which is called by my name, and should ye be utterly unpunished? Ye shall not be unpunished: for I will call for a sword upon all the inhabitants of the earth, saith the LORD of hosts.",
+      "web": "For, behold, I begin to work evil at the city which is called by my name; and should you be utterly unpunished? You will not be unpunished; for I will call for a sword on all the inhabitants of the earth, says LORD of Armies.” ’",
+      "ct": "I am already bringing disaster on the city that bears my name. Do you really think you'll escape punishment? You won't escape it. I am calling down a sword on everyone living on earth,' declares the LORD of hosts.\""
+    },
+    {
+      "verse": 30,
+      "kjv": "Therefore prophesy thou against them all these words, and say unto them, The LORD shall roar from on high, and utter his voice from his holy habitation; he shall mightily roar upon his habitation; he shall give a shout, as they that tread the grapes, against all the inhabitants of the earth.",
+      "web": "“Therefore prophesy against them all these words, and tell them, “ ‘LORD will roar from on high, and utter his voice from his holy habitation. He will mightily roar against his fold. He will give a shout, as those who tread grapes, against all the inhabitants of the earth.",
+      "ct": "\"Now prophesy all these words against them and say: 'The LORD will roar from on high and thunder from his holy dwelling. He will roar mightily against his own land. He will shout like workers stomping grapes — a battle cry against everyone on earth."
+    },
+    {
+      "verse": 31,
+      "kjv": "A noise shall come even to the ends of the earth; for the LORD hath a controversy with the nations, he will plead with all flesh; he will give them that are wicked to the sword, saith the LORD.",
+      "web": "A noise will come even to the end of the earth; for LORD has a controversy with the nations. He will enter into judgment with all flesh. As for the wicked, he will give them to the sword,” ’ says LORD.”",
+      "ct": "The uproar will reach the ends of the earth, because the LORD has a case against the nations. He is bringing all of humanity to judgment. The wicked will be handed over to the sword,' declares the LORD.\""
+    },
+    {
+      "verse": 32,
+      "kjv": "Thus saith the LORD of hosts, Behold, evil shall go forth from nation to nation, and a great whirlwind shall be raised up from the coasts of the earth.",
+      "web": "LORD of Armies says, “Behold, evil will go out from nation to nation, and a great storm will be raised up from the uttermost parts of the earth.”",
+      "ct": "The LORD of hosts says: \"Watch — disaster is spreading from nation to nation. A massive storm is rising from the farthest corners of the earth.\""
+    },
+    {
+      "verse": 33,
+      "kjv": "And the slain of the LORD shall be at that day from one end of the earth even unto the other end of the earth: they shall not be lamented, neither gathered, nor buried; they shall be dung upon the ground.",
+      "web": "The slain of LORD will be at that day from one end of the earth even to the other end of the earth. They won’t be lamented. They won’t be gathered or buried. They will be dung on the surface of the ground.",
+      "ct": "On that day, those the LORD has killed will lie scattered from one end of the earth to the other. No one will mourn for them. No one will gather them up or bury them. Their bodies will lie on the ground like dung."
+    },
+    {
+      "verse": 34,
+      "kjv": "Howl, ye shepherds, and cry; and wallow yourselves in the ashes, ye principal of the flock: for the days of your slaughter and of your dispersions are accomplished; and ye shall fall like a pleasant vessel.",
+      "web": "Wail, you shepherds, and cry. Wallow in dust, you leader of the flock; for the days of your slaughter and of your dispersions have fully come, and you will fall like fine pottery.",
+      "ct": "Weep and wail, you leaders! Roll in the dust, you rulers of the flock! Your time for slaughter and scattering has come. You will shatter like fine pottery hitting the ground."
+    },
+    {
+      "verse": 35,
+      "kjv": "And the shepherds shall have no way to flee, nor the principal of the flock to escape.",
+      "web": "The shepherds will have no way to flee. The leader of the flock will have no escape.",
+      "ct": "The leaders will have nowhere to run. The rulers of the flock will find no escape."
+    },
+    {
+      "verse": 36,
+      "kjv": "A voice of the cry of the shepherds, and an howling of the principal of the flock, shall be heard: for the LORD hath spoiled their pasture.",
+      "web": "A voice of the cry of the shepherds, and the wailing of the leader of the flock, for LORD destroys their pasture.",
+      "ct": "Listen to the leaders crying out, the rulers of the flock wailing — because the LORD is destroying their pasture."
+    },
+    {
+      "verse": 37,
+      "kjv": "And the peaceable habitations are cut down because of the fierce anger of the LORD.",
+      "web": "The peaceful folds are brought to silence because of the fierce anger of LORD.",
+      "ct": "Their peaceful fields are being wiped out because of the LORD's fierce anger."
+    },
+    {
+      "verse": 38,
+      "kjv": "He hath forsaken his covert, as the lion: for their land is desolate because of the fierceness of the oppressor, and because of his fierce anger.",
+      "web": "He has left his covert, as the lion; for their land has become an astonishment because of the fierceness of the oppression, and because of his fierce anger.",
+      "ct": "Like a lion leaving its den, he has abandoned his place — and their land has become a wasteland because of the fury of the oppressor and because of the LORD's fierce anger."
+    }
+  ]
+}

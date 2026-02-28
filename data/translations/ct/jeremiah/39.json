@@ -1,0 +1,119 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 39,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:13:34.987Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "In the ninth year of Zedekiah king of Judah, in the tenth month, came Nebuchadrezzar king of Babylon and all his army against Jerusalem, and they besieged it.",
+      "web": "In the ninth year of Zedekiah king of Judah, in the tenth month, Nebuchadnezzar king of Babylon and all his army came against Jerusalem, and besieged it.",
+      "ct": "In the 9th year of King Zedekiah of Judah's reign, during the 10th month, King Nebuchadnezzar of Babylon marched against Jerusalem with his entire army and laid siege to it."
+    },
+    {
+      "verse": 2,
+      "kjv": "And in the eleventh year of Zedekiah, in the fourth month, the ninth day of the month, the city was broken up.",
+      "web": "In the eleventh year of Zedekiah, in the fourth month, the ninth day of the month, a breach was made in the city.",
+      "ct": "By the 11th year of Zedekiah's reign, on the 9th day of the 4th month, the Babylonians finally broke through the city wall."
+    },
+    {
+      "verse": 3,
+      "kjv": "And all the princes of the king of Babylon came in, and sat in the middle gate, even Nergalsharezer, Samgarnebo, Sarsechim, Rabsaris, Nergalsharezer, Rabmag, with all the residue of the princes of the king of Babylon.",
+      "web": "All the princes of the king of Babylon came in, and sat in the middle gate, Nergal Sharezer, Samgarnebo, Sarsechim, Rabsaris, Nergal Sharezer, Rabmag, with all the rest of the princes of the king of Babylon.",
+      "ct": "All the officials of the king of Babylon entered the city and took their seats at the Middle Gate: Nergalsharezer, Samgarnebo, Sarsechim the Rabsaris, Nergalsharezer the Rabmag, and all the rest of Babylon's high-ranking officers."
+    },
+    {
+      "verse": 4,
+      "kjv": "And it came to pass, that when Zedekiah the king of Judah saw them, and all the men of war, then they fled, and went forth out of the city by night, by the way of the king’s garden, by the gate betwixt the two walls: and he went out the way of the plain.",
+      "web": "When Zedekiah the king of Judah and all the men of war saw them, then they fled, and went out of the city by night, by the way of the king’s garden, through the gate between the two walls; and he went out toward the Arabah.",
+      "ct": "When King Zedekiah and his soldiers saw them, they panicked and fled the city under cover of darkness. They slipped out through the king's garden, passing through the gate between the two walls, and headed toward the Jordan Valley."
+    },
+    {
+      "verse": 5,
+      "kjv": "But the Chaldeans’ army pursued after them, and overtook Zedekiah in the plains of Jericho: and when they had taken him, they brought him up to Nebuchadnezzar king of Babylon to Riblah in the land of Hamath, where he gave judgment upon him.",
+      "web": "But the army of the Chaldeans pursued them, and overtook Zedekiah in the plains of Jericho. When they had taken him, they brought him up to Nebuchadnezzar king of Babylon to Riblah in the land of Hamath; and he pronounced judgment on him.",
+      "ct": "But the Babylonian army chased them down and caught Zedekiah on the plains of Jericho. They captured him and brought him to King Nebuchadnezzar at Riblah in the land of Hamath, where Nebuchadnezzar pronounced judgment on him."
+    },
+    {
+      "verse": 6,
+      "kjv": "Then the king of Babylon slew the sons of Zedekiah in Riblah before his eyes: also the king of Babylon slew all the nobles of Judah.",
+      "web": "Then the king of Babylon killed Zedekiah’s sons in Riblah before his eyes. The king of Babylon also killed all the nobles of Judah.",
+      "ct": "There at Riblah, the king of Babylon slaughtered Zedekiah's sons right in front of him. He also executed all the nobles of Judah."
+    },
+    {
+      "verse": 7,
+      "kjv": "Moreover he put out Zedekiah’s eyes, and bound him with chains, to carry him to Babylon.",
+      "web": "Moreover he put out Zedekiah’s eyes and bound him in fetters, to carry him to Babylon.",
+      "ct": "Then he gouged out Zedekiah's eyes, bound him in bronze chains, and had him taken to Babylon."
+    },
+    {
+      "verse": 8,
+      "kjv": "And the Chaldeans burned the king’s house, and the houses of the people, with fire, and brake down the walls of Jerusalem.",
+      "web": "The Chaldeans burned the king’s house, and the houses of the people, with fire, and broke down the walls of Jerusalem.",
+      "ct": "The Babylonians burned down the royal palace and the homes of the people, and they tore down the walls of Jerusalem."
+    },
+    {
+      "verse": 9,
+      "kjv": "Then Nebuzaradan the captain of the guard carried away captive into Babylon the remnant of the people that remained in the city, and those that fell away, that fell to him, with the rest of the people that remained.",
+      "web": "Then Nebuzaradan the captain of the guard carried away captive into Babylon the residue of the people who remained in the city, the deserters also who fell away to him, and the residue of the people who remained.",
+      "ct": "Nebuzaradan, the commander of the imperial guard, deported to Babylon everyone who was left in the city — along with those who had deserted to the Babylonians and the rest of the surviving population."
+    },
+    {
+      "verse": 10,
+      "kjv": "But Nebuzaradan the captain of the guard left of the poor of the people, which had nothing, in the land of Judah, and gave them vineyards and fields at the same time.",
+      "web": "But Nebuzaradan the captain of the guard left of the poor of the people, who had nothing, in the land of Judah, and gave them vineyards and fields at the same time.",
+      "ct": "However, Nebuzaradan left behind the poorest people in the land — those who owned nothing — and gave them vineyards and fields right then and there."
+    },
+    {
+      "verse": 11,
+      "kjv": "Now Nebuchadrezzar king of Babylon gave charge concerning Jeremiah to Nebuzaradan the captain of the guard, saying,",
+      "web": "Now Nebuchadnezzar king of Babylon commanded Nebuzaradan the captain of the guard concerning Jeremiah, saying,",
+      "ct": "King Nebuchadnezzar had given specific orders to Nebuzaradan, the commander of the guard, regarding Jeremiah:"
+    },
+    {
+      "verse": 12,
+      "kjv": "Take him, and look well to him, and do him no harm; but do unto him even as he shall say unto thee.",
+      "web": "“Take him, and take care of him. Do him no harm; but do to him even as he tells you.”",
+      "ct": "\"Find him and take good care of him. Don't harm him in any way. Give him whatever he asks for.\""
+    },
+    {
+      "verse": 13,
+      "kjv": "So Nebuzaradan the captain of the guard sent, and Nebushasban, Rabsaris, and Nergalsharezer, Rabmag, and all the king of Babylon’s princes;",
+      "web": "So Nebuzaradan the captain of the guard sent, with Nebushazban, Rabsaris, and Nergal Sharezer, Rabmag, and all the chief officers of the king of Babylon;",
+      "ct": "So Nebuzaradan the commander of the guard, along with Nebushasban the Rabsaris, Nergalsharezer the Rabmag, and all the other senior officers of the king of Babylon,"
+    },
+    {
+      "verse": 14,
+      "kjv": "Even they sent, and took Jeremiah out of the court of the prison, and committed him unto Gedaliah the son of Ahikam the son of Shaphan, that he should carry him home: so he dwelt among the people.",
+      "web": "they sent, and took Jeremiah out of the court of the guard, and committed him to Gedaliah the son of Ahikam, the son of Shaphan, that he should carry him home. So he lived among the people.",
+      "ct": "sent for Jeremiah and had him released from the courtyard of the guard. They placed him in the care of Gedaliah son of Ahikam, son of Shaphan, to take him home. So Jeremiah stayed and lived freely among the people."
+    },
+    {
+      "verse": 15,
+      "kjv": "Now the word of the LORD came unto Jeremiah, while he was shut up in the court of the prison, saying,",
+      "web": "Now LORD’s word came to Jeremiah, while he was shut up in the court of the guard, saying,",
+      "ct": "While Jeremiah was still confined in the courtyard of the guard, the word of the LORD came to him:"
+    },
+    {
+      "verse": 16,
+      "kjv": "Go and speak to Ebedmelech the Ethiopian, saying, Thus saith the LORD of hosts, the God of Israel; Behold, I will bring my words upon this city for evil, and not for good; and they shall be accomplished in that day before thee.",
+      "web": "“Go, and speak to Ebedmelech the Ethiopian, saying, ‘LORD of Armies, the God of Israel, says: “Behold, I will bring my words on this city for evil, and not for good; and they will be accomplished before you in that day.",
+      "ct": "\"Go tell Ebedmelech the Ethiopian: This is what the LORD of hosts, the God of Israel, says: 'I am about to carry out my words against this city — words of disaster, not blessing. It will all happen right before your eyes."
+    },
+    {
+      "verse": 17,
+      "kjv": "But I will deliver thee in that day, saith the LORD: and thou shalt not be given into the hand of the men of whom thou art afraid.",
+      "web": "But I will deliver you in that day,” says LORD; “and you will not be given into the hand of the men of whom you are afraid.",
+      "ct": "But I will rescue you on that day,' declares the LORD. 'You will not be handed over to the men you fear."
+    },
+    {
+      "verse": 18,
+      "kjv": "For I will surely deliver thee, and thou shalt not fall by the sword, but thy life shall be for a prey unto thee: because thou hast put thy trust in me, saith the LORD.",
+      "web": "For I will surely save you, and you won’t fall by the sword, but you will escape with your life; because you have put your trust in me,” says LORD.’ ”",
+      "ct": "I will certainly save you. You won't die by the sword — you will escape with your life, because you put your trust in me,' declares the LORD.\""
+    }
+  ]
+}

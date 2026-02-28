@@ -1,0 +1,179 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 38,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:13:17.205Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "Then Shephatiah the son of Mattan, and Gedaliah the son of Pashur, and Jucal the son of Shelemiah, and Pashur the son of Malchiah, heard the words that Jeremiah had spoken unto all the people, saying,",
+      "web": "Shephatiah the son of Mattan, and Gedaliah the son of Pashhur, and Jucal the son of Shelemiah, and Pashhur the son of Malchijah, heard the words that Jeremiah spoke to all the people, saying,",
+      "ct": "Shephatiah son of Mattan, Gedaliah son of Pashur, Jucal son of Shelemiah, and Pashur son of Malchiah all heard what Jeremiah had been telling the people:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Thus saith the LORD, He that remaineth in this city shall die by the sword, by the famine, and by the pestilence: but he that goeth forth to the Chaldeans shall live; for he shall have his life for a prey, and shall live.",
+      "web": "“LORD says, ‘He who remains in this city will die by the sword, by the famine, and by the pestilence; but he who goes out to the Chaldeans will live, and he will escape with his life, and he will live.’",
+      "ct": "\"The LORD says: 'Anyone who stays in this city will die by the sword, by famine, or by disease. But anyone who surrenders to the Chaldeans will survive — they will escape with their life.'\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Thus saith the LORD, This city shall surely be given into the hand of the king of Babylon’s army, which shall take it.",
+      "web": "LORD says, ‘This city will surely be given into the hand of the army of the king of Babylon, and he will take it.’ ”",
+      "ct": "\"The LORD also says: 'This city will definitely be handed over to the army of the king of Babylon, and he will capture it.'\""
+    },
+    {
+      "verse": 4,
+      "kjv": "Therefore the princes said unto the king, We beseech thee, let this man be put to death: for thus he weakeneth the hands of the men of war that remain in this city, and the hands of all the people, in speaking such words unto them: for this man seeketh not the welfare of this people, but the hurt.",
+      "web": "Then the princes said to the king, “Please let this man be put to death; because he weakens the hands of the men of war who remain in this city, and the hands of all the people, in speaking such words to them: for this man doesn’t seek the welfare of this people, but harm.”",
+      "ct": "So the officials went to the king and said, \"This man must be put to death! His words are destroying the morale of the soldiers still defending this city, and of all the people too. He isn't looking out for the welfare of these people — he's trying to destroy them.\""
+    },
+    {
+      "verse": 5,
+      "kjv": "Then Zedekiah the king said, Behold, he is in your hand: for the king is not he that can do any thing against you.",
+      "web": "Zedekiah the king said, “Behold, he is in your hand; for the king can’t do anything to oppose you.”",
+      "ct": "King Zedekiah replied, \"He's in your hands. The king can't stop you from doing what you want.\""
+    },
+    {
+      "verse": 6,
+      "kjv": "Then took they Jeremiah, and cast him into the dungeon of Malchiah the son of Hammelech, that was in the court of the prison: and they let down Jeremiah with cords. And in the dungeon there was no water, but mire: so Jeremiah sunk in the mire.",
+      "web": "Then they took Jeremiah and threw him into the dungeon of Malchijah the king’s son, that was in the court of the guard. They let down Jeremiah with cords. In the dungeon there was no water, but mire; and Jeremiah sank in the mire.",
+      "ct": "So they seized Jeremiah and lowered him with ropes into the cistern of Malchiah, the king's son, which was in the courtyard of the guard. There was no water in the cistern — only thick mud — and Jeremiah sank down into it."
+    },
+    {
+      "verse": 7,
+      "kjv": "Now when Ebedmelech the Ethiopian, one of the eunuchs which was in the king’s house, heard that they had put Jeremiah in the dungeon; the king then sitting in the gate of Benjamin;",
+      "web": "Now when Ebedmelech the Ethiopian, a eunuch, who was in the king’s house, heard that they had put Jeremiah in the dungeon (the king was then sitting in Benjamin’s gate),",
+      "ct": "Ebedmelech the Ethiopian, a eunuch who served in the royal palace, heard that they had thrown Jeremiah into the cistern. The king happened to be sitting at the Benjamin Gate at the time,"
+    },
+    {
+      "verse": 8,
+      "kjv": "Ebedmelech went forth out of the king’s house, and spake to the king, saying,",
+      "web": "Ebedmelech went out of the king’s house, and spoke to the king, saying,",
+      "ct": "so Ebedmelech left the palace and went to speak with the king."
+    },
+    {
+      "verse": 9,
+      "kjv": "My lord the king, these men have done evil in all that they have done to Jeremiah the prophet, whom they have cast into the dungeon; and he is like to die for hunger in the place where he is: for there is no more bread in the city.",
+      "web": "“My lord the king, these men have done evil in all that they have done to Jeremiah the prophet, whom they have cast into the dungeon. He is likely to die in the place where he is, because of the famine; for there is no more bread in the city.”",
+      "ct": "\"My lord the king,\" he said, \"these men have done a terrible thing to Jeremiah the prophet by throwing him into that cistern. He's going to starve to death down there, because there's no bread left in the city.\""
+    },
+    {
+      "verse": 10,
+      "kjv": "Then the king commanded Ebedmelech the Ethiopian, saying, Take from hence thirty men with thee, and take up Jeremiah the prophet out of the dungeon, before he die.",
+      "web": "Then the king commanded Ebedmelech the Ethiopian, saying, “Take from here thirty men with you, and take up Jeremiah the prophet out of the dungeon, before he dies.”",
+      "ct": "The king ordered Ebedmelech, \"Take 30 men with you and pull Jeremiah the prophet out of the cistern before he dies.\""
+    },
+    {
+      "verse": 11,
+      "kjv": "So Ebedmelech took the men with him, and went into the house of the king under the treasury, and took thence old cast clouts and old rotten rags, and let them down by cords into the dungeon to Jeremiah.",
+      "web": "So Ebedmelech took the men with him, and went into the house of the king under the treasury, and took from there rags and worn-out garments, and let them down by cords into the dungeon to Jeremiah.",
+      "ct": "Ebedmelech gathered the men and went to a storeroom beneath the palace treasury. He collected old rags and worn-out clothes, then lowered them down by ropes into the cistern to Jeremiah."
+    },
+    {
+      "verse": 12,
+      "kjv": "And Ebedmelech the Ethiopian said unto Jeremiah, Put now these old cast clouts and rotten rags under thine armholes under the cords. And Jeremiah did so.",
+      "web": "Ebedmelech the Ethiopian said to Jeremiah, “Now put these rags and worn-out garments under your armpits under the cords.” Jeremiah did so.",
+      "ct": "Ebedmelech called down to Jeremiah, \"Tuck these old rags and worn clothes under your arms to pad the ropes.\" Jeremiah did as he said."
+    },
+    {
+      "verse": 13,
+      "kjv": "So they drew up Jeremiah with cords, and took him up out of the dungeon: and Jeremiah remained in the court of the prison.",
+      "web": "So they drew up Jeremiah with the cords, and took him up out of the dungeon; and Jeremiah remained in the court of the guard.",
+      "ct": "Then they pulled Jeremiah up out of the cistern with the ropes. After that, Jeremiah remained in the courtyard of the guard."
+    },
+    {
+      "verse": 14,
+      "kjv": "Then Zedekiah the king sent, and took Jeremiah the prophet unto him into the third entry that is in the house of the LORD: and the king said unto Jeremiah, I will ask thee a thing; hide nothing from me.",
+      "web": "Then Zedekiah the king sent and took Jeremiah the prophet to himself into the third entry that is in LORD’s house. Then the king said to Jeremiah, “I will ask you something. Hide nothing from me.”",
+      "ct": "King Zedekiah sent for Jeremiah the prophet and had him brought to the third entrance of the LORD's house. The king said to Jeremiah, \"I want to ask you something. Don't hold anything back from me.\""
+    },
+    {
+      "verse": 15,
+      "kjv": "Then Jeremiah said unto Zedekiah, If I declare it unto thee, wilt thou not surely put me to death? and if I give thee counsel, wilt thou not hearken unto me?",
+      "web": "Then Jeremiah said to Zedekiah, “If I declare it to you, will you not surely put me to death? If I give you counsel, you will not listen to me.”",
+      "ct": "Jeremiah answered, \"If I tell you the truth, won't you just have me killed? And if I give you advice, you won't listen to me anyway.\""
+    },
+    {
+      "verse": 16,
+      "kjv": "So Zedekiah the king sware secretly unto Jeremiah, saying, As the LORD liveth, that made us this soul, I will not put thee to death, neither will I give thee into the hand of these men that seek thy life.",
+      "web": "So Zedekiah the king swore secretly to Jeremiah, saying, “As LORD lives, who made us this soul, I will not put you to death, neither will I give you into the hand of these men who seek your life.”",
+      "ct": "So King Zedekiah swore an oath to Jeremiah in secret: \"As the LORD lives — the one who gave us the breath of life — I will not kill you, and I will not hand you over to the men who want you dead.\""
+    },
+    {
+      "verse": 17,
+      "kjv": "Then said Jeremiah unto Zedekiah, Thus saith the LORD, the God of hosts, the God of Israel; If thou wilt assuredly go forth unto the king of Babylon’s princes, then thy soul shall live, and this city shall not be burned with fire; and thou shalt live, and thine house:",
+      "web": "Then Jeremiah said to Zedekiah, “LORD, the God of Armies, the God of Israel, says: ‘If you will go out to the king of Babylon’s princes, then your soul will live, and this city will not be burned with fire. You will live, along with your house.",
+      "ct": "Then Jeremiah told Zedekiah, \"The LORD, the God of hosts, the God of Israel, says this: 'If you surrender to the king of Babylon's commanders, you will live, this city won't be burned down, and your family will survive."
+    },
+    {
+      "verse": 18,
+      "kjv": "But if thou wilt not go forth to the king of Babylon’s princes, then shall this city be given into the hand of the Chaldeans, and they shall burn it with fire, and thou shalt not escape out of their hand.",
+      "web": "But if you will not go out to the king of Babylon’s princes, then this city will be given into the hand of the Chaldeans, and they will burn it with fire, and you won’t escape out of their hand.’ ”",
+      "ct": "But if you refuse to surrender to the king of Babylon's commanders, this city will be handed over to the Chaldeans. They will burn it to the ground, and you will not escape.'\""
+    },
+    {
+      "verse": 19,
+      "kjv": "And Zedekiah the king said unto Jeremiah, I am afraid of the Jews that are fallen to the Chaldeans, lest they deliver me into their hand, and they mock me.",
+      "web": "Zedekiah the king said to Jeremiah, “I am afraid of the Jews who have defected to the Chaldeans, lest they deliver me into their hand, and they mock me.”",
+      "ct": "Zedekiah said to Jeremiah, \"I'm afraid of the Jews who have already defected to the Chaldeans. They might hand me over, and the Chaldeans will humiliate me.\""
+    },
+    {
+      "verse": 20,
+      "kjv": "But Jeremiah said, They shall not deliver thee. Obey, I beseech thee, the voice of the LORD, which I speak unto thee: so it shall be well unto thee, and thy soul shall live.",
+      "web": "But Jeremiah said, “They won’t deliver you. Obey, I beg you, LORD’s voice, in that which I speak to you; so it will be well with you, and your soul will live.",
+      "ct": "Jeremiah replied, \"They won't hand you over. Please, obey the voice of the LORD — do what I'm telling you. Things will go well for you, and you will live."
+    },
+    {
+      "verse": 21,
+      "kjv": "But if thou refuse to go forth, this is the word that the LORD hath shewed me:",
+      "web": "But if you refuse to go out, this is the word that LORD has shown me:",
+      "ct": "But if you refuse to surrender, here is what the LORD has shown me:"
+    },
+    {
+      "verse": 22,
+      "kjv": "And, behold, all the women that are left in the king of Judah’s house shall be brought forth to the king of Babylon’s princes, and those women shall say, Thy friends have set thee on, and have prevailed against thee: thy feet are sunk in the mire, and they are turned away back.",
+      "web": "‘Behold, all the women who are left in the king of Judah’s house will be brought out to the king of Babylon’s princes, and those women will say, “Your familiar friends have turned on you, and have prevailed over you. Your feet are sunk in the mire, they have turned away from you.”",
+      "ct": "All the women still left in the royal palace of Judah will be led out to the king of Babylon's commanders. And those women will taunt you, saying, 'Your trusted friends misled you and overpowered you. Now your feet are stuck in the mud, and they've abandoned you.'"
+    },
+    {
+      "verse": 23,
+      "kjv": "So they shall bring out all thy wives and thy children to the Chaldeans: and thou shalt not escape out of their hand, but shalt be taken by the hand of the king of Babylon: and thou shalt cause this city to be burned with fire.",
+      "web": "They will bring out all your wives and your children to the Chaldeans. You won’t escape out of their hand, but will be taken by the hand of the king of Babylon. You will cause this city to be burned with fire.’ ”",
+      "ct": "All your wives and children will be handed over to the Chaldeans. You yourself won't escape — you'll be captured by the king of Babylon. And this city will be burned to the ground because of you.\""
+    },
+    {
+      "verse": 24,
+      "kjv": "Then said Zedekiah unto Jeremiah, Let no man know of these words, and thou shalt not die.",
+      "web": "Then Zedekiah said to Jeremiah, “Let no man know of these words, and you won’t die.",
+      "ct": "Zedekiah warned Jeremiah, \"Don't let anyone find out about this conversation, or you'll die."
+    },
+    {
+      "verse": 25,
+      "kjv": "But if the princes hear that I have talked with thee, and they come unto thee, and say unto thee, Declare unto us now what thou hast said unto the king, hide it not from us, and we will not put thee to death; also what the king said unto thee:",
+      "web": "But if the princes hear that I have talked with you, and they come to you, and tell you, ‘Declare to us now what you have said to the king; don’t hide it from us, and we will not put you to death; also tell us what the king said to you;’",
+      "ct": "If the officials hear that I talked with you and come to interrogate you, saying, 'Tell us what you said to the king and what the king said to you — don't hide it from us, and we won't kill you' —"
+    },
+    {
+      "verse": 26,
+      "kjv": "Then thou shalt say unto them, I presented my supplication before the king, that he would not cause me to return to Jonathan’s house, to die there.",
+      "web": "then you shall tell them, ‘I presented my supplication before the king, that he would not cause me to return to Jonathan’s house, to die there.’ ”",
+      "ct": "then tell them, 'I was begging the king not to send me back to Jonathan's house, because I would die there.'\""
+    },
+    {
+      "verse": 27,
+      "kjv": "Then came all the princes unto Jeremiah, and asked him: and he told them according to all these words that the king had commanded. So they left off speaking with him; for the matter was not perceived.",
+      "web": "Then all the princes came to Jeremiah, and asked him; and he told them according to all these words that the king had commanded. So they stopped speaking with him; for the matter was not perceived.",
+      "ct": "Sure enough, all the officials came to Jeremiah and questioned him. He told them exactly what the king had instructed him to say. They dropped the matter and left him alone, because no one had overheard the real conversation."
+    },
+    {
+      "verse": 28,
+      "kjv": "So Jeremiah abode in the court of the prison until the day that Jerusalem was taken: and he was there when Jerusalem was taken.",
+      "web": "So Jeremiah stayed in the court of the guard until the day that Jerusalem was taken.",
+      "ct": "Jeremiah remained in the courtyard of the guard until the day Jerusalem fell. He was still there when the city was captured."
+    }
+  ]
+}

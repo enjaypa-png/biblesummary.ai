@@ -1,0 +1,95 @@
+{
+  "book": "jeremiah",
+  "book_name": "Jeremiah",
+  "chapter": 21,
+  "translation": "ct",
+  "prompt_version": "v2",
+  "generated_at": "2026-02-28T11:06:04.555Z",
+  "model": "claude-opus-4-6",
+  "verses": [
+    {
+      "verse": 1,
+      "kjv": "The word which came unto Jeremiah from the LORD, when king Zedekiah sent unto him Pashur the son of Melchiah, and Zephaniah the son of Maaseiah the priest, saying,",
+      "web": "The word which came to Jeremiah from LORD, when king Zedekiah sent to him Pashhur the son of Malchijah, and Zephaniah the son of Maaseiah, the priest, saying,",
+      "ct": "This is the message that came to Jeremiah from the LORD when King Zedekiah sent Pashur son of Melchiah and the priest Zephaniah son of Maaseiah to him with this request:"
+    },
+    {
+      "verse": 2,
+      "kjv": "Enquire, I pray thee, of the LORD for us; for Nebuchadrezzar king of Babylon maketh war against us; if so be that the LORD will deal with us according to all his wondrous works, that he may go up from us.",
+      "web": "“Please inquire of LORD for us; for Nebuchadnezzar king of Babylon makes war against us. Perhaps LORD will deal with us according to all his wondrous works, that he may withdraw from us.”",
+      "ct": "\"Please ask the LORD on our behalf — Nebuchadrezzar king of Babylon is waging war against us. Maybe the LORD will perform one of his miraculous acts and force him to withdraw.\""
+    },
+    {
+      "verse": 3,
+      "kjv": "Then said Jeremiah unto them, Thus shall ye say to Zedekiah:",
+      "web": "Then Jeremiah said to them, “Tell Zedekiah:",
+      "ct": "Jeremiah answered them, \"Go back and tell Zedekiah this:"
+    },
+    {
+      "verse": 4,
+      "kjv": "Thus saith the LORD God of Israel; Behold, I will turn back the weapons of war that are in your hands, wherewith ye fight against the king of Babylon, and against the Chaldeans, which besiege you without the walls, and I will assemble them into the midst of this city.",
+      "web": "‘LORD, the God of Israel says, “Behold, I will turn back the weapons of war that are in your hands, with which you fight against the king of Babylon, and against the Chaldeans who besiege you outside the walls; and I will gather them into the middle of this city.",
+      "ct": "'The LORD, the God of Israel, says: I am about to turn the weapons in your hands against you. You are fighting the king of Babylon and the Chaldeans who are besieging you outside the walls, but I will drive your enemies right into the heart of this city."
+    },
+    {
+      "verse": 5,
+      "kjv": "And I myself will fight against you with an outstretched hand and with a strong arm, even in anger, and in fury, and in great wrath.",
+      "web": "I myself will fight against you with an outstretched hand and with a strong arm, even in anger, in wrath, and in great indignation.",
+      "ct": "I myself will fight against you with my mighty, outstretched arm — with anger, fury, and overwhelming wrath."
+    },
+    {
+      "verse": 6,
+      "kjv": "And I will smite the inhabitants of this city, both man and beast: they shall die of a great pestilence.",
+      "web": "I will strike the inhabitants of this city, both man and animal. They will die of a great pestilence.",
+      "ct": "I will strike down everyone living in this city, both people and animals. They will die from a terrible plague."
+    },
+    {
+      "verse": 7,
+      "kjv": "And afterward, saith the LORD, I will deliver Zedekiah king of Judah, and his servants, and the people, and such as are left in this city from the pestilence, from the sword, and from the famine, into the hand of Nebuchadrezzar king of Babylon, and into the hand of their enemies, and into the hand of those that seek their life: and he shall smite them with the edge of the sword; he shall not spare them, neither have pity, nor have mercy.",
+      "web": "Afterward,” says LORD, “I will deliver Zedekiah king of Judah, his servants, and the people, even those who are left in this city from the pestilence, from the sword, and from the famine, into the hand of Nebuchadnezzar king of Babylon, and into the hand of their enemies, and into the hand of those who seek their life. He will strike them with the edge of the sword. He will not spare them, have pity, or have mercy.” ’",
+      "ct": "After that,' declares the LORD, 'I will hand over King Zedekiah of Judah, his officials, and whoever in this city survives the plague, the sword, and the famine — I will hand them all over to Nebuchadrezzar king of Babylon, to their enemies, to those who want them dead. He will cut them down with the sword without mercy, without pity, without compassion.'"
+    },
+    {
+      "verse": 8,
+      "kjv": "And unto this people thou shalt say, Thus saith the LORD; Behold, I set before you the way of life, and the way of death.",
+      "web": "“You shall say to this people, ‘LORD says: “Behold, I set before you the way of life and the way of death.",
+      "ct": "\"Then tell the people this: 'The LORD says: Look — I am giving you a choice between life and death."
+    },
+    {
+      "verse": 9,
+      "kjv": "He that abideth in this city shall die by the sword, and by the famine, and by the pestilence: but he that goeth out, and falleth to the Chaldeans that besiege you, he shall live, and his life shall be unto him for a prey.",
+      "web": "He who remains in this city will die by the sword, by the famine, and by the pestilence; but he who goes out and passes over to the Chaldeans who besiege you, he will live, and he will escape with his life.",
+      "ct": "Anyone who stays in this city will die by the sword, by famine, or by plague. But anyone who leaves and surrenders to the Chaldeans besieging you will survive — they will escape with their life."
+    },
+    {
+      "verse": 10,
+      "kjv": "For I have set my face against this city for evil, and not for good, saith the LORD: it shall be given into the hand of the king of Babylon, and he shall burn it with fire.",
+      "web": "For I have set my face on this city for evil, and not for good,” says LORD. “It will be given into the hand of the king of Babylon, and he will burn it with fire.” ’",
+      "ct": "I have turned against this city to bring it disaster, not blessing,' declares the LORD. 'It will be handed over to the king of Babylon, and he will burn it to the ground.'\""
+    },
+    {
+      "verse": 11,
+      "kjv": "And touching the house of the king of Judah, say, Hear ye the word of the LORD;",
+      "web": "“Concerning the house of the king of Judah, hear LORD’s word:",
+      "ct": "\"Now, regarding the royal house of Judah — listen to the word of the LORD:"
+    },
+    {
+      "verse": 12,
+      "kjv": "O house of David, thus saith the LORD; Execute judgment in the morning, and deliver him that is spoiled out of the hand of the oppressor, lest my fury go out like fire, and burn that none can quench it, because of the evil of your doings.",
+      "web": "House of David, LORD says, ‘Execute justice in the morning, and deliver him who is robbed out of the hand of the oppressor, lest my wrath go out like fire, and burn so that no one can quench it, because of the evil of your doings.",
+      "ct": "House of David, the LORD says: 'Administer justice every morning. Rescue the person being robbed from the grip of their oppressor. If you don't, my fury will blaze out like fire — an unquenchable fire — because of the evil things you have done."
+    },
+    {
+      "verse": 13,
+      "kjv": "Behold, I am against thee, O inhabitant of the valley, and rock of the plain, saith the LORD; which say, Who shall come down against us? or who shall enter into our habitations?",
+      "web": "Behold, I am against you, O inhabitant of the valley, and of the rock of the plain,’ says LORD. ‘You that say, “Who would come down against us?” or “Who would enter into our homes?”",
+      "ct": "I am against you, you who sit in the valley, on the rock above the plain,' declares the LORD. 'You say, \"Who could possibly attack us? Who could break into our stronghold?\""
+    },
+    {
+      "verse": 14,
+      "kjv": "But I will punish you according to the fruit of your doings, saith the LORD: and I will kindle a fire in the forest thereof, and it shall devour all things round about it.",
+      "web": "I will punish you according to the fruit of your doings, says LORD; and I will kindle a fire in her forest, and it will devour all that is around her.’ ”",
+      "ct": "But I will punish you for exactly what your actions deserve,' declares the LORD. 'I will set fire to your forests, and the flames will consume everything around you.'\""
+    }
+  ]
+}
