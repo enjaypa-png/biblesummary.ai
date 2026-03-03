@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useState } from "react";
+import { Suspense, useState, useEffect, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
@@ -32,6 +32,17 @@ function LoginForm() {
   const [loading, setLoading] = useState(false);
   const [resending, setResending] = useState(false);
   const [resendSuccess, setResendSuccess] = useState(false);
+  const [resendCooldown, setResendCooldown] = useState(0);
+
+  const startResendCooldown = useCallback(() => {
+    setResendCooldown(30);
+  }, []);
+
+  useEffect(() => {
+    if (resendCooldown <= 0) return;
+    const timer = setTimeout(() => setResendCooldown(resendCooldown - 1), 1000);
+    return () => clearTimeout(timer);
+  }, [resendCooldown]);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -49,6 +60,7 @@ function LoginForm() {
           // Resend confirmation and show verify step
           await supabase.auth.resend({ type: "signup", email });
           setStep("verify");
+          startResendCooldown();
         } else {
           setError(error.message);
         }
@@ -115,6 +127,7 @@ function LoginForm() {
   };
 
   const handleResend = async () => {
+    if (resendCooldown > 0) return;
     setResending(true);
     setError(null);
     setResendSuccess(false);
@@ -124,10 +137,15 @@ function LoginForm() {
         email,
       });
       if (error) {
-        setError(error.message);
+        if (error.message.toLowerCase().includes("rate") || error.message.toLowerCase().includes("limit")) {
+          setError("Too many attempts. Please wait a few minutes before trying again.");
+        } else {
+          setError(error.message);
+        }
       } else {
         setOtpCode("");
         setResendSuccess(true);
+        startResendCooldown();
       }
     } catch {
       setError("Could not resend code. Please try again.");
@@ -307,6 +325,11 @@ function LoginForm() {
                   We sent a verification code to<br />
                   <strong style={{ color: "var(--foreground)" }}>{email}</strong>
                 </p>
+                <p className="mt-3 text-[13px] leading-relaxed" style={{ color: "var(--secondary)" }}>
+                  Check your spam or junk folder if you don&apos;t see it.
+                  <br />
+                  The email may take a minute or two to arrive.
+                </p>
               </div>
 
               <div className="rounded-xl p-6" style={{ backgroundColor: "var(--card)", border: "1px solid var(--border)" }}>
@@ -357,11 +380,11 @@ function LoginForm() {
                     Didn&apos;t receive a code?{" "}
                     <button
                       onClick={handleResend}
-                      disabled={resending}
+                      disabled={resending || resendCooldown > 0}
                       className="font-semibold"
-                      style={{ color: "var(--accent)" }}
+                      style={{ color: resendCooldown > 0 ? "var(--secondary)" : "var(--accent)" }}
                     >
-                      {resending ? "Sending..." : "Resend code"}
+                      {resending ? "Sending..." : resendCooldown > 0 ? `Resend code (${resendCooldown}s)` : "Resend code"}
                     </button>
                   </p>
                 </div>
