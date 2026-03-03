@@ -13,8 +13,8 @@ function needsOnboarding(): boolean {
 function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const redirectParam = searchParams.get("redirect") || "/";
-  const redirect = redirectParam.startsWith("/onboarding") ? "/" : redirectParam;
+  const redirectParam = searchParams.get("redirect") || "/bible";
+  const redirect = redirectParam.startsWith("/onboarding") ? "/bible" : redirectParam;
   const [step, setStep] = useState<"login" | "verify">("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -65,7 +65,6 @@ function LoginForm() {
 
       if (data.user) {
         router.push(needsOnboarding() ? "/onboarding" : redirect);
-        router.refresh();
       }
     } catch {
       setError("An unexpected error occurred. Please try again.");
@@ -110,7 +109,6 @@ function LoginForm() {
 
         if (signInData.user) {
           router.push(needsOnboarding() ? "/onboarding" : redirect);
-          router.refresh();
         }
       }
     } catch {

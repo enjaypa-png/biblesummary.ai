@@ -102,7 +102,6 @@ function SignUpForm() {
 
       if (data.user) {
         router.push("/onboarding");
-        router.refresh();
       }
     } catch {
       setError("An unexpected error occurred. Please try again.");
