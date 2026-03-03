@@ -5,13 +5,9 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 
-async function needsOnboarding(userId: string): Promise<boolean> {
-  const { data } = await supabase
-    .from("user_profiles")
-    .select("onboarding_completed_at")
-    .eq("user_id", userId)
-    .single();
-  return !data?.onboarding_completed_at;
+function needsOnboarding(): boolean {
+  if (typeof window === "undefined") return false;
+  return !localStorage.getItem("onboarding_completed");
 }
 
 function LoginForm() {
@@ -68,8 +64,7 @@ function LoginForm() {
       }
 
       if (data.user) {
-        const showOnboarding = await needsOnboarding(data.user.id);
-        router.push(showOnboarding ? "/onboarding" : redirect);
+        router.push(needsOnboarding() ? "/onboarding" : redirect);
         router.refresh();
       }
     } catch {
@@ -114,8 +109,7 @@ function LoginForm() {
         }
 
         if (signInData.user) {
-          const showOnboarding = await needsOnboarding(signInData.user.id);
-          router.push(showOnboarding ? "/onboarding" : redirect);
+          router.push(needsOnboarding() ? "/onboarding" : redirect);
           router.refresh();
         }
       }

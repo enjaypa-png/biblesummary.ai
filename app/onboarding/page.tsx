@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { getCurrentUser, supabase } from "@/lib/supabase";
 
 const STEPS = [
   {
@@ -38,20 +37,9 @@ export default function OnboardingPage() {
   const [step, setStep] = useState(0);
   const [completing, setCompleting] = useState(false);
 
-  useEffect(() => {
-    // Pre-fetch user so it's ready
-    getCurrentUser();
-  }, []);
-
-  async function completeOnboarding(href: string) {
+  function completeOnboarding(href: string) {
     setCompleting(true);
-    const user = await getCurrentUser();
-    if (user) {
-      await supabase.from("user_profiles").upsert({
-        user_id: user.id,
-        onboarding_completed_at: new Date().toISOString(),
-      });
-    }
+    localStorage.setItem("onboarding_completed", "true");
     router.replace(href);
   }
 

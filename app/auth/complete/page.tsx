@@ -27,12 +27,8 @@ function AuthComplete() {
         await new Promise(r => setTimeout(r, 500));
         const { data: { session } } = await supabase.auth.getSession();
         if (session?.user) {
-          const { data: profile } = await supabase
-            .from("user_profiles")
-            .select("onboarding_completed_at")
-            .eq("user_id", session.user.id)
-            .single();
-          router.replace(profile?.onboarding_completed_at ? "/bible" : "/onboarding");
+          const onboarded = localStorage.getItem("onboarding_completed");
+          router.replace(onboarded ? "/bible" : "/onboarding");
           return;
         }
       }
