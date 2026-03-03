@@ -39,7 +39,9 @@ function AuthComplete() {
         await new Promise(r => setTimeout(r, 500));
         const { data: { session } } = await supabase.auth.getSession();
         if (session?.user) {
-          const onboarded = localStorage.getItem("onboarding_completed");
+          const onboarded = localStorage.getItem("onboarding_completed")
+            || session.user.user_metadata?.onboarding_completed;
+          if (onboarded) localStorage.setItem("onboarding_completed", "true");
           router.replace(onboarded ? "/bible" : "/onboarding");
           return;
         }

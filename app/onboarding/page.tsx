@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { supabase } from "@/lib/supabase";
 
 const STEPS = [
   {
@@ -37,9 +38,15 @@ export default function OnboardingPage() {
   const [step, setStep] = useState(0);
   const [completing, setCompleting] = useState(false);
 
-  function completeOnboarding(href: string) {
+  async function completeOnboarding(href: string) {
     setCompleting(true);
     localStorage.setItem("onboarding_completed", "true");
+    // Persist server-side so returning users on other devices skip onboarding
+    try {
+      await supabase.auth.updateUser({ data: { onboarding_completed: true } });
+    } catch {
+      // non-critical — localStorage will still work on this device
+    }
     router.replace(href);
   }
 

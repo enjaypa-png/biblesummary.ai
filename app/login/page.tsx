@@ -5,9 +5,15 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 
-function needsOnboarding(): boolean {
+function needsOnboarding(user?: { user_metadata?: Record<string, unknown> }): boolean {
   if (typeof window === "undefined") return false;
-  return !localStorage.getItem("onboarding_completed");
+  if (localStorage.getItem("onboarding_completed")) return false;
+  if (user?.user_metadata?.onboarding_completed) {
+    // Sync server flag to localStorage for future checks
+    localStorage.setItem("onboarding_completed", "true");
+    return false;
+  }
+  return true;
 }
 
 function LoginForm() {
@@ -64,7 +70,7 @@ function LoginForm() {
       }
 
       if (data.user) {
-        router.push(needsOnboarding() ? "/onboarding" : redirect);
+        router.push(needsOnboarding(data.user) ? "/onboarding" : redirect);
       }
     } catch {
       setError("An unexpected error occurred. Please try again.");
@@ -108,7 +114,7 @@ function LoginForm() {
         }
 
         if (signInData.user) {
-          router.push(needsOnboarding() ? "/onboarding" : redirect);
+          router.push(needsOnboarding(signInData.user) ? "/onboarding" : redirect);
         }
       }
     } catch {
