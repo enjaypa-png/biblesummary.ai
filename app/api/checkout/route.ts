@@ -107,27 +107,57 @@ export async function POST(req: NextRequest) {
     // Get or create Stripe customer
     let stripeCustomerId: string | null = null;
 
-    const { data: existingCustomer } = await supabase
-      .from("stripe_customers")
+    // First check if this user already has a subscription with a Stripe customer ID
+    const { data: existingSub } = await supabase
+      .from("subscriptions")
       .select("stripe_customer_id")
       .eq("user_id", userId)
+      .not("stripe_customer_id", "is", null)
+      .limit(1)
       .single();
 
-    if (existingCustomer) {
-      stripeCustomerId = existingCustomer.stripe_customer_id;
-    } else {
+    if (existingSub?.stripe_customer_id) {
+      stripeCustomerId = existingSub.stripe_customer_id;
+    }
+
+    // Also try the stripe_customers table (may not exist in all environments)
+    if (!stripeCustomerId) {
+      const { data: existingCustomer } = await supabase
+        .from("stripe_customers")
+        .select("stripe_customer_id")
+        .eq("user_id", userId)
+        .single();
+
+      if (existingCustomer?.stripe_customer_id) {
+        stripeCustomerId = existingCustomer.stripe_customer_id;
+      }
+    }
+
+    // Also search Stripe directly by email to avoid duplicates
+    if (!stripeCustomerId && userEmail) {
+      const existingCustomers = await getStripe().customers.list({
+        email: userEmail,
+        limit: 1,
+      });
+      if (existingCustomers.data.length > 0) {
+        stripeCustomerId = existingCustomers.data[0].id;
+      }
+    }
+
+    if (!stripeCustomerId) {
       // Create new Stripe customer
       const customer = await getStripe().customers.create({
         email: userEmail || undefined,
         metadata: { supabase_user_id: userId },
       });
       stripeCustomerId = customer.id;
-
-      await supabase.from("stripe_customers").insert({
-        user_id: userId,
-        stripe_customer_id: customer.id,
-      });
     }
+
+    // Try to persist for future lookups (table may not exist)
+    await supabase.from("stripe_customers").upsert({
+      user_id: userId,
+      stripe_customer_id: stripeCustomerId,
+    }, { onConflict: "user_id" }).then(() => {});
 
     // Build success/cancel URLs
     // {CHECKOUT_SESSION_ID} is a Stripe template variable — Stripe replaces it with the real session ID
