@@ -52,6 +52,39 @@ export async function checkExplainAccess(): Promise<{
 }
 
 /**
+ * Verify a Stripe checkout session with retries.
+ * Stripe may take a moment to settle payment status after redirect,
+ * so we retry a few times before giving up.
+ */
+export async function verifyPurchaseWithRetry(
+  sessionId: string,
+  { maxAttempts = 8, intervalMs = 2000 }: { maxAttempts?: number; intervalMs?: number } = {}
+): Promise<boolean> {
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session?.access_token) return false;
+
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
+    try {
+      const res = await fetch("/api/verify-purchase", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${session.access_token}`,
+        },
+        body: JSON.stringify({ sessionId }),
+      });
+      if (res.ok) return true;
+    } catch {
+      // Network error — retry
+    }
+    if (attempt < maxAttempts - 1) {
+      await new Promise(resolve => setTimeout(resolve, intervalMs));
+    }
+  }
+  return false;
+}
+
+/**
  * Start a checkout session by calling the API route.
  * Redirects the user to Stripe Checkout.
  */

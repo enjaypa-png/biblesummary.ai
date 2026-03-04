@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 import { supabase, getCurrentUser } from "@/lib/supabase";
+import { verifyPurchaseWithRetry } from "@/lib/entitlements";
 import { useReadingSettings, themeStyles } from "@/contexts/ReadingSettingsContext";
 import SummaryPaywall from "@/components/SummaryPaywall";
 
@@ -215,24 +216,10 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
       }
       setIsLoggedIn(true);
 
-      // If returning from Stripe checkout, verify the purchase first
+      // If returning from Stripe checkout, verify the purchase (retries until Stripe settles)
       const sessionId = searchParams.get("session_id");
       if (searchParams.get("checkout") === "success" && sessionId) {
-        try {
-          const { data: { session } } = await supabase.auth.getSession();
-          if (session?.access_token) {
-            await fetch("/api/verify-purchase", {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-                "Authorization": `Bearer ${session.access_token}`,
-              },
-              body: JSON.stringify({ sessionId }),
-            });
-          }
-        } catch {
-          // Verification failed — fall through to normal access check
-        }
+        await verifyPurchaseWithRetry(sessionId);
       }
 
       const { data, error } = await supabase.rpc("user_has_summary_access", {

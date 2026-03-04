@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase";
+import { verifyPurchaseWithRetry } from "@/lib/entitlements";
 
 export default function PricingSuccessPage() {
   const searchParams = useSearchParams();
@@ -23,29 +23,10 @@ export default function PricingSuccessPage() {
     }
 
     async function verify() {
-      try {
-        const { data: { session } } = await supabase.auth.getSession();
-        if (!session?.access_token) {
-          setFailed(true);
-          setVerifying(false);
-          return;
-        }
-
-        const res = await fetch("/api/verify-purchase", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${session.access_token}`,
-          },
-          body: JSON.stringify({ sessionId }),
-        });
-
-        if (res.ok) {
-          setVerified(true);
-        } else {
-          setFailed(true);
-        }
-      } catch {
+      const ok = await verifyPurchaseWithRetry(sessionId!);
+      if (ok) {
+        setVerified(true);
+      } else {
         setFailed(true);
       }
       setVerifying(false);
