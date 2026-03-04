@@ -1,35 +1,24 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import { Suspense } from "react";
 
+/**
+ * /auth/complete
+ *
+ * Fallback page that checks for an existing session and redirects.
+ * The actual code exchange now happens server-side in /auth/callback.
+ * This page handles edge cases where a user lands here directly.
+ */
 function AuthComplete() {
   const router = useRouter();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     async function finish() {
-      const code = searchParams.get("code");
-
-      // Exchange the OAuth code for a session (PKCE flow).
-      // NOTE: Do NOT call signOut before this — it can clear the
-      // PKCE code-verifier cookie that exchangeCodeForSession needs.
-      if (code) {
-        try {
-          const { error } = await supabase.auth.exchangeCodeForSession(code);
-          if (error) {
-            console.error("[auth/complete] exchangeCodeForSession error:", error.message);
-          }
-        } catch (err) {
-          console.error("[auth/complete] exchangeCodeForSession threw:", err);
-        }
-      }
-
-      // Poll for session up to 5 seconds (Safari can be slow to persist)
+      // Check if a session already exists (set by the server-side callback)
       for (let i = 0; i < 10; i++) {
-        await new Promise(r => setTimeout(r, 500));
         const { data: { session } } = await supabase.auth.getSession();
         if (session?.user) {
           const onboarded = localStorage.getItem("onboarding_completed")
@@ -38,13 +27,14 @@ function AuthComplete() {
           router.replace(onboarded ? "/bible" : "/onboarding");
           return;
         }
+        await new Promise(r => setTimeout(r, 500));
       }
 
       router.replace("/login?error=oauth_exchange_failed");
     }
 
     finish();
-  }, [router, searchParams]);
+  }, [router]);
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-4"
