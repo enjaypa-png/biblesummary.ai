@@ -207,16 +207,39 @@ function LoginForm() {
                   type="button"
                   onClick={async () => {
                     setError(null);
-                    const { error } = await supabase.auth.signInWithOAuth({
+                    const { data, error } = await supabase.auth.signInWithOAuth({
                       provider: "google",
                       options: {
                         redirectTo: `${window.location.origin}/auth/callback`,
+                        skipBrowserRedirect: true,
                         queryParams: {
                           prompt: "select_account",
                         },
                       },
                     });
-                    if (error) setError(error.message);
+                    if (error) { setError(error.message); return; }
+
+                    // Backup PKCE code_verifier to sessionStorage.
+                    // Safari ITP can strip the cookie during the cross-site
+                    // redirect chain (app → Google → Supabase → app).
+                    // sessionStorage survives same-tab navigations and is
+                    // immune to ITP.
+                    try {
+                      document.cookie.split("; ").forEach((c) => {
+                        if (c.includes("code-verifier")) {
+                          const eqIdx = c.indexOf("=");
+                          const name = c.substring(0, eqIdx);
+                          const value = c.substring(eqIdx + 1);
+                          sessionStorage.setItem(`pkce_backup:${name}`, value);
+                        }
+                      });
+                    } catch {
+                      // sessionStorage unavailable — proceed anyway
+                    }
+
+                    if (data.url) {
+                      window.location.href = data.url;
+                    }
                   }}
                   className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-lg text-[15px] font-medium transition-colors hover:bg-gray-50 active:bg-gray-100"
                   style={{

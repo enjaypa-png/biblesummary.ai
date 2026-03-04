@@ -6,9 +6,12 @@ import type { NextRequest } from "next/server";
  * GET /auth/callback
  *
  * Handles the OAuth redirect from Supabase/Google.
- * Performs the PKCE code exchange SERVER-SIDE so that the code_verifier
- * cookie is read directly from the request — this avoids Safari ITP
- * stripping the cookie after the cross-site redirect chain.
+ *
+ * Strategy (belt-and-suspenders for Safari):
+ *  1. Try PKCE code exchange server-side (works when cookies survive).
+ *  2. If the exchange fails (e.g. Safari ITP stripped the code_verifier
+ *     cookie), forward the code to the client-side /auth/complete page
+ *     where sessionStorage-backed verifier restoration can retry.
  */
 export async function GET(request: NextRequest) {
   const { searchParams, origin } = new URL(request.url);
@@ -40,8 +43,13 @@ export async function GET(request: NextRequest) {
   const { error } = await supabase.auth.exchangeCodeForSession(code);
 
   if (error) {
-    console.error("[auth/callback] exchangeCodeForSession error:", error.message);
-    return NextResponse.redirect(`${origin}/login?error=oauth_exchange_failed`);
+    console.error("[auth/callback] Server-side exchange failed:", error.message);
+
+    // Instead of showing the error immediately, forward to the client-side
+    // fallback where the sessionStorage-backed verifier can be restored.
+    return NextResponse.redirect(
+      `${origin}/auth/complete?code=${encodeURIComponent(code)}`
+    );
   }
 
   // Determine redirect destination
