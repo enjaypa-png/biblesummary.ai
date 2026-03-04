@@ -162,6 +162,7 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     }
     versesRef.current = [];
     currentVerseIndexRef.current = 0;
+    prefetchCacheRef.current.clear();
   }, []);
 
   // Pause audio
@@ -181,6 +182,28 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
       setAudioState("playing");
     }
   }, [audioState]);
+
+  // Prefetch cache: stores fetched TTS blobs keyed by verse id
+  const prefetchCacheRef = useRef<Map<string, Blob>>(new Map());
+
+  // Prefetch TTS audio for a verse (does not play it)
+  const prefetchTTS = useCallback(async (verse: Verse, abortSignal: AbortSignal): Promise<void> => {
+    if (prefetchCacheRef.current.has(verse.id)) return;
+    try {
+      const res = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: verse.text, voiceId: voiceIdRef.current }),
+        signal: abortSignal,
+      });
+      if (res.ok) {
+        const blob = await res.blob();
+        prefetchCacheRef.current.set(verse.id, blob);
+      }
+    } catch {
+      // Prefetch is best-effort; failures are fine
+    }
+  }, []);
 
   // Play a single verse using the persistent audio element (mobile-safe: no new Audio() per verse)
   const playVerse = useCallback(async (verse: Verse, abortSignal: AbortSignal): Promise<boolean> => {
@@ -212,27 +235,33 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
           }
         }, 100);
 
-        // Fetch TTS for this verse
-        const res = await fetch("/api/tts", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ text: verse.text, voiceId: voiceIdRef.current }),
-          signal: abortSignal,
-        });
+        // Use prefetched blob if available, otherwise fetch now
+        let blob = prefetchCacheRef.current.get(verse.id);
+        if (blob) {
+          prefetchCacheRef.current.delete(verse.id);
+        } else {
+          // Fetch TTS for this verse
+          const res = await fetch("/api/tts", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ text: verse.text, voiceId: voiceIdRef.current }),
+            signal: abortSignal,
+          });
 
-        if (!res.ok || !shouldContinueRef.current) {
-          if (!res.ok) {
-            const errBody = await res.text().catch(() => "");
-            console.error(`[Audio] TTS failed for verse ${verse.verse}: ${res.status} ${res.statusText}`, errBody);
+          if (!res.ok || !shouldContinueRef.current) {
+            if (!res.ok) {
+              const errBody = await res.text().catch(() => "");
+              console.error(`[Audio] TTS failed for verse ${verse.verse}: ${res.status} ${res.statusText}`, errBody);
+            }
+            resolve(false);
+            return;
           }
-          resolve(false);
-          return;
-        }
 
-        const blob = await res.blob();
-        if (!shouldContinueRef.current) {
-          resolve(false);
-          return;
+          blob = await res.blob();
+          if (!shouldContinueRef.current) {
+            resolve(false);
+            return;
+          }
         }
 
         blobRef.current = blob; // Keep blob alive until verse ends (prevents mobile GC)
@@ -287,6 +316,9 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     abortControllerRef.current = abortController;
     let consecutiveFailures = 0;
 
+    // Clear prefetch cache on new playback
+    prefetchCacheRef.current.clear();
+
     for (let i = startIndex; i < verses.length; i++) {
       // Check if we should stop
       if (!shouldContinueRef.current) break;
@@ -297,6 +329,11 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
       }
 
       if (!shouldContinueRef.current) break;
+
+      // Prefetch the next verse's audio while this one plays
+      if (i + 1 < verses.length) {
+        prefetchTTS(verses[i + 1], abortController.signal);
+      }
 
       currentVerseIndexRef.current = i;
       let success = await playVerse(verses[i], abortController.signal);
