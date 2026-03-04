@@ -6,7 +6,7 @@ export async function middleware(request: NextRequest) {
   const { pathname, searchParams, origin } = new URL(request.url);
 
   // If an OAuth code arrives on the wrong route (e.g. "/" instead of
-  // "/auth/callback"), forward it to /auth/complete so the client-side
+  // "/auth/callback"), forward it to /auth/callback so the server-side
   // PKCE exchange can finish.  This happens when the Supabase dashboard
   // redirect-URL allowlist falls back to the site URL.
   const code = searchParams.get("code");
@@ -16,7 +16,7 @@ export async function middleware(request: NextRequest) {
     pathname !== "/auth/complete"
   ) {
     return NextResponse.redirect(
-      `${origin}/auth/complete?code=${encodeURIComponent(code)}`
+      `${origin}/auth/callback?code=${encodeURIComponent(code)}`
     );
   }
 
