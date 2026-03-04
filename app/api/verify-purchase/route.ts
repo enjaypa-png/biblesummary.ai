@@ -3,6 +3,22 @@ import { createClient } from "@supabase/supabase-js";
 import { getStripe } from "@/lib/stripe";
 
 /**
+ * Map product_type from checkout metadata to the DB subscription type.
+ * The DB CHECK constraint only allows: 'summary_annual', 'explain_monthly', 'premium_yearly'.
+ */
+function toDbSubscriptionType(productType: string): string {
+  switch (productType) {
+    case "premium_annual":
+    case "premium_monthly":
+      return "premium_yearly";
+    default:
+      return productType;
+  }
+}
+
+const VALID_SUBSCRIPTION_TYPES = ["summary_annual", "explain_monthly", "premium_yearly"];
+
+/**
  * POST /api/verify-purchase
  *
  * Called client-side after the user returns from Stripe Checkout.
@@ -71,7 +87,7 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: "Missing book ID" }, { status: 400 });
       }
 
-      await supabase.from("purchases").upsert(
+      const { error: upsertError } = await supabase.from("purchases").upsert(
         {
           user_id: user.id,
           book_id: bookId,
@@ -84,14 +100,17 @@ export async function POST(req: NextRequest) {
         { onConflict: "user_id,book_id" }
       );
 
+      if (upsertError) {
+        console.error("Failed to upsert purchase:", upsertError);
+        return NextResponse.json({ error: "Database write failed" }, { status: 500 });
+      }
+
       return NextResponse.json({ verified: true, product: "summary_single", bookId });
     }
 
-    // Handle subscription purchase (summary_annual, explain_monthly, premium_annual, or premium_monthly)
-    if (
-      (productType === "summary_annual" || productType === "explain_monthly" || productType === "premium_annual" || productType === "premium_monthly") &&
-      session.subscription
-    ) {
+    // Handle subscription purchase
+    const dbType = toDbSubscriptionType(productType);
+    if (VALID_SUBSCRIPTION_TYPES.includes(dbType) && session.subscription) {
       const subscriptionId =
         typeof session.subscription === "string"
           ? session.subscription
@@ -105,10 +124,10 @@ export async function POST(req: NextRequest) {
       const periodStart = new Date(periodStartTs * 1000).toISOString();
       const periodEnd = new Date(periodEndTs * 1000).toISOString();
 
-      await supabase.from("subscriptions").upsert(
+      const { error: upsertError } = await supabase.from("subscriptions").upsert(
         {
           user_id: user.id,
-          type: productType,
+          type: dbType,
           stripe_subscription_id: subscriptionId,
           stripe_customer_id: typeof subscription.customer === "string"
             ? subscription.customer
@@ -120,6 +139,11 @@ export async function POST(req: NextRequest) {
         },
         { onConflict: "user_id,type" }
       );
+
+      if (upsertError) {
+        console.error("Failed to upsert subscription:", upsertError);
+        return NextResponse.json({ error: "Database write failed" }, { status: 500 });
+      }
 
       return NextResponse.json({ verified: true, product: productType });
     }

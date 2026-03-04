@@ -3,6 +3,23 @@ import { createClient } from "@supabase/supabase-js";
 import Stripe from "stripe";
 import { getStripe } from "@/lib/stripe";
 
+/**
+ * Map product_type from checkout metadata to the DB subscription type.
+ * The DB CHECK constraint only allows: 'summary_annual', 'explain_monthly', 'premium_yearly'.
+ * Both premium_annual and premium_monthly grant the same all-access tier.
+ */
+function toDbSubscriptionType(productType: string): string {
+  switch (productType) {
+    case "premium_annual":
+    case "premium_monthly":
+      return "premium_yearly";
+    default:
+      return productType;
+  }
+}
+
+const VALID_SUBSCRIPTION_TYPES = ["summary_annual", "explain_monthly", "premium_yearly"];
+
 export async function POST(req: NextRequest) {
   const body = await req.text();
   const signature = req.headers.get("stripe-signature");
@@ -54,7 +71,7 @@ export async function POST(req: NextRequest) {
             break;
           }
 
-          await supabase.from("purchases").upsert(
+          const { error: upsertError } = await supabase.from("purchases").upsert(
             {
               user_id: userId,
               book_id: bookId,
@@ -64,13 +81,16 @@ export async function POST(req: NextRequest) {
             },
             { onConflict: "user_id,book_id" }
           );
+
+          if (upsertError) {
+            console.error("Failed to upsert purchase:", upsertError);
+            return NextResponse.json({ error: "Database write failed" }, { status: 500 });
+          }
         }
 
-        // Subscription purchase (summary_annual, explain_monthly, premium_annual, or premium_monthly)
-        if (
-          (productType === "summary_annual" || productType === "explain_monthly" || productType === "premium_annual" || productType === "premium_monthly") &&
-          session.subscription
-        ) {
+        // Subscription purchase
+        const dbType = toDbSubscriptionType(productType);
+        if (VALID_SUBSCRIPTION_TYPES.includes(dbType) && session.subscription) {
           const subscriptionId =
             typeof session.subscription === "string"
               ? session.subscription
@@ -85,10 +105,10 @@ export async function POST(req: NextRequest) {
           const periodStart = new Date(periodStartTs * 1000).toISOString();
           const periodEnd = new Date(periodEndTs * 1000).toISOString();
 
-          await supabase.from("subscriptions").upsert(
+          const { error: upsertError } = await supabase.from("subscriptions").upsert(
             {
               user_id: userId,
-              type: productType,
+              type: dbType,
               stripe_subscription_id: subscriptionId,
               stripe_customer_id: typeof subscription.customer === "string"
                 ? subscription.customer
@@ -100,6 +120,11 @@ export async function POST(req: NextRequest) {
             },
             { onConflict: "user_id,type" }
           );
+
+          if (upsertError) {
+            console.error("Failed to upsert subscription:", upsertError);
+            return NextResponse.json({ error: "Database write failed" }, { status: 500 });
+          }
         }
 
         break;
@@ -136,24 +161,32 @@ export async function POST(req: NextRequest) {
             default: status = "expired";
           }
 
-          const firstItem = subscription.items?.data?.[0];
-          const periodStartTs = firstItem?.current_period_start ?? Math.floor(Date.now() / 1000);
-          const periodEndTs = firstItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 30;
+          const subItem = subscription.items?.data?.[0];
+          const pStartTs = subItem?.current_period_start ?? Math.floor(Date.now() / 1000);
+          const pEndTs = subItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 30;
+          const periodStart = new Date(pStartTs * 1000).toISOString();
+          const periodEnd = new Date(pEndTs * 1000).toISOString();
 
-          await supabase
+          const { error: updateError } = await supabase
             .from("subscriptions")
             .update({
               status,
-              current_period_start: new Date(periodStartTs * 1000).toISOString(),
-              current_period_end: new Date(periodEndTs * 1000).toISOString(),
+              current_period_start: periodStart,
+              current_period_end: periodEnd,
               updated_at: new Date().toISOString(),
             })
             .eq("stripe_subscription_id", subscription.id);
 
+          if (updateError) {
+            console.error("Failed to update subscription:", updateError);
+            return NextResponse.json({ error: "Database write failed" }, { status: 500 });
+          }
+
           break;
         }
 
-        if (productType !== "summary_annual" && productType !== "explain_monthly" && productType !== "premium_annual" && productType !== "premium_monthly") {
+        const dbType = toDbSubscriptionType(productType);
+        if (!VALID_SUBSCRIPTION_TYPES.includes(dbType)) {
           break;
         }
 
@@ -166,25 +199,78 @@ export async function POST(req: NextRequest) {
           default: status = "expired";
         }
 
-        const firstItem = subscription.items?.data?.[0];
-        const periodStartTs = firstItem?.current_period_start ?? Math.floor(Date.now() / 1000);
-        const periodEndTs = firstItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 30;
+        const subItem2 = subscription.items?.data?.[0];
+        const pStartTs2 = subItem2?.current_period_start ?? Math.floor(Date.now() / 1000);
+        const pEndTs2 = subItem2?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 30;
+        const periodStart = new Date(pStartTs2 * 1000).toISOString();
+        const periodEnd = new Date(pEndTs2 * 1000).toISOString();
 
-        await supabase.from("subscriptions").upsert(
+        const { error: upsertError } = await supabase.from("subscriptions").upsert(
           {
             user_id: userId,
-            type: productType,
+            type: dbType,
             stripe_subscription_id: subscription.id,
             stripe_customer_id: typeof subscription.customer === "string"
               ? subscription.customer
               : subscription.customer.id,
             status,
-            current_period_start: new Date(periodStartTs * 1000).toISOString(),
-            current_period_end: new Date(periodEndTs * 1000).toISOString(),
+            current_period_start: periodStart,
+            current_period_end: periodEnd,
             updated_at: new Date().toISOString(),
           },
           { onConflict: "user_id,type" }
         );
+
+        if (upsertError) {
+          console.error("Failed to upsert subscription update:", upsertError);
+          return NextResponse.json({ error: "Database write failed" }, { status: 500 });
+        }
+        break;
+      }
+
+      // ─── Subscription renewed (invoice paid) ───
+      case "invoice.payment_succeeded": {
+        const invoice = event.data.object as Stripe.Invoice;
+        const invoiceSub = invoice.parent?.subscription_details?.subscription;
+        if (invoice.billing_reason === "subscription_cycle" && invoiceSub) {
+          const subscriptionId = typeof invoiceSub === "string" ? invoiceSub : invoiceSub.id;
+
+          const subscription = await stripe.subscriptions.retrieve(subscriptionId);
+
+          const subItem = subscription.items?.data?.[0];
+          const pStartTs = subItem?.current_period_start ?? Math.floor(Date.now() / 1000);
+          const pEndTs = subItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 30;
+          const periodStart = new Date(pStartTs * 1000).toISOString();
+          const periodEnd = new Date(pEndTs * 1000).toISOString();
+
+          await supabase
+            .from("subscriptions")
+            .update({
+              status: "active",
+              current_period_start: periodStart,
+              current_period_end: periodEnd,
+              updated_at: new Date().toISOString(),
+            })
+            .eq("stripe_subscription_id", subscriptionId);
+        }
+        break;
+      }
+
+      // ─── Renewal payment failed ───
+      case "invoice.payment_failed": {
+        const invoice = event.data.object as Stripe.Invoice;
+        const invoiceSub = invoice.parent?.subscription_details?.subscription;
+        if (invoiceSub) {
+          const subscriptionId = typeof invoiceSub === "string" ? invoiceSub : invoiceSub.id;
+
+          await supabase
+            .from("subscriptions")
+            .update({
+              status: "past_due",
+              updated_at: new Date().toISOString(),
+            })
+            .eq("stripe_subscription_id", subscriptionId);
+        }
         break;
       }
 

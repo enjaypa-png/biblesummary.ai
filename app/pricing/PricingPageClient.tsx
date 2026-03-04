@@ -51,7 +51,7 @@ export default function PricingPageClient() {
               : "canceled"
             : "none";
 
-          if (sub.type === "premium_annual" || sub.type === "premium_monthly") {
+          if (sub.type === "premium_yearly") {
             setPremiumStatus(status);
           }
         }
