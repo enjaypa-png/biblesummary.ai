@@ -12,6 +12,10 @@ export const VOICE_IDS = [
   "GTtzqc49rk4I6RwPWgd4",
   "hILdTfuUq4LRBMrxHERr",
   "h8LZpYr8y3VBz0q2x0LP",
+  "2O8en0oaF90s9jTMWi1h",
+  "MZb4jD8N3GIedB0K3Xoi",
+  "1iVhBJHHyzlerh1JY0FV",
+  "xJgWxOHOKbdv0ahpsrvi",
 ] as const;
 
 // Local metadata overrides — merged with ElevenLabs API data at runtime.
@@ -52,5 +56,21 @@ export const VOICE_OVERRIDES: Record<string, { name?: string; description?: stri
   "h8LZpYr8y3VBz0q2x0LP": {
     name: "Darryl",
     description: "Deep, confident & resonant male",
+  },
+  "2O8en0oaF90s9jTMWi1h": {
+    name: "Tu",
+    description: "Calm male narrator",
+  },
+  "MZb4jD8N3GIedB0K3Xoi": {
+    name: "Hao",
+    description: "Deep, warm & gentle resonant male",
+  },
+  "1iVhBJHHyzlerh1JY0FV": {
+    name: "Yuna",
+    description: "Warm, engaging & expressive female",
+  },
+  "xJgWxOHOKbdv0ahpsrvi": {
+    name: "Jose",
+    description: "Clear male voice, great for narration",
   },
 };
