@@ -491,8 +491,8 @@ export default function ClearBibleLanding() {
             marginBottom: 20,
             animation: "fadeUp 0.7s ease both",
           }}>
-            <span style={{ color: "#7c5cfc" }}>The Bible.</span> Finally easy to{" "}
-            <span style={{ color: "#7c5cfc" }}>understand.</span>
+            The <span style={{ color: "#7c5cfc" }}>Bible.</span> Finally{" "}
+            <span style={{ color: "#7c5cfc" }}>easy</span> to understand.
           </h1>
 
           <p style={{

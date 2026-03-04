@@ -47,16 +47,6 @@
     <rect x="100" y="60" width="5" height="52" rx="2" fill="#fbbf24" opacity="0.6"/>
     <rect x="84" y="76" width="42" height="5" rx="2" fill="#fbbf24" opacity="0.6"/>
 
-    <!-- Sparkles -->
-    <g transform="translate(148, 22)">
-      <path d="M0 -10 L2.5 -2.5 L10 0 L2.5 2.5 L0 10 L-2.5 2.5 L-10 0 L-2.5 -2.5z" fill="#7c5cfc"/>
-    </g>
-    <g transform="translate(135, 12)">
-      <path d="M0 -5 L1.2 -1.2 L5 0 L1.2 1.2 L0 5 L-1.2 1.2 L-5 0 L-1.2 -1.2z" fill="#7c5cfc" opacity="0.7"/>
-    </g>
-    <g transform="translate(160, 38)">
-      <path d="M0 -4 L1 -1 L4 0 L1 1 L0 4 L-1 1 L-4 0 L-1 -1z" fill="#7c5cfc" opacity="0.5"/>
-    </g>
   </g>
 
   <!-- === Text === -->
@@ -66,6 +56,6 @@
   </text>
   <!-- Subtitle -->
   <text x="200" y="125" font-family="'DM Sans', 'Inter', Arial, sans-serif" font-size="20" font-weight="400" fill="#6b7280">
-    AI-Powered Verse Explanations &amp; Book Summaries
+    AI Verse Explanations &amp; Chapter Summaries
   </text>
 </svg>
