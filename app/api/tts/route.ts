@@ -4,6 +4,9 @@ import { VOICE_IDS, DEFAULT_VOICE_ID } from "@/lib/voiceIds";
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || "";
 const FALLBACK_VOICE_ID = process.env.ELEVENLABS_VOICE_ID || DEFAULT_VOICE_ID;
 
+// Nicholas voice ID — tuned for natural long-form Bible narration
+const NICHOLAS_VOICE_ID = "zaV23R4Cs5kUdQb5M7eS";
+
 export async function POST(req: NextRequest) {
   if (!ELEVENLABS_API_KEY) {
     return new Response(
@@ -39,14 +42,23 @@ export async function POST(req: NextRequest) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        text: text.trim(),
+        // Collapse double line breaks / excess whitespace to prevent long pauses
+        text: text.trim().replace(/\n{2,}/g, " ").replace(/\s{2,}/g, " "),
         model_id: "eleven_multilingual_v2",
-        voice_settings: {
-          stability: 0.85,
-          similarity_boost: 0.9,
-          // Speed up Gabby slightly — reads too slow at default
-          ...(selectedVoice === "GTtzqc49rk4I6RwPWgd4" ? { speed: 1.15 } : {}),
-        },
+        voice_settings: selectedVoice === NICHOLAS_VOICE_ID
+          ? {
+              stability: 0.35,
+              similarity_boost: 0.9,
+              speed: 1.1,
+              style: 0,
+              use_speaker_boost: false,
+            }
+          : {
+              stability: 0.85,
+              similarity_boost: 0.9,
+              // Speed up Gabby slightly — reads too slow at default
+              ...(selectedVoice === "GTtzqc49rk4I6RwPWgd4" ? { speed: 1.15 } : {}),
+            },
       }),
     });
 
