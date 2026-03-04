@@ -155,7 +155,7 @@ export default function PricingPageClient() {
         }}
       >
         <div className="max-w-2xl mx-auto flex items-center justify-between">
-          <Link href="/" className="text-sm font-medium" style={{ color: "var(--accent)" }}>
+          <Link href="/bible" className="text-sm font-medium" style={{ color: "var(--accent)" }}>
             &larr; Home
           </Link>
           <h1 className="text-[15px] font-semibold" style={{ color: "var(--foreground)" }}>

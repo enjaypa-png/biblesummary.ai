@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { getCurrentUser } from "@/lib/supabase";
 import Image from "next/image";
 
 const FEATURES_FREE = [
@@ -417,6 +418,22 @@ function StepCard({ number, title, desc }: { number: string; title: string; desc
 }
 
 export default function ClearBibleLanding() {
+  const router = useRouter();
+  const [ready, setReady] = useState(false);
+
+  // Redirect authenticated users to the Bible reader
+  useEffect(() => {
+    getCurrentUser().then((user) => {
+      if (user) {
+        router.replace("/bible");
+      } else {
+        setReady(true);
+      }
+    });
+  }, [router]);
+
+  if (!ready) return null;
+
   return (
     <div style={{
       fontFamily: "'DM Sans', sans-serif",
