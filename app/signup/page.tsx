@@ -4,6 +4,7 @@ import { Suspense, useState, useEffect, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
+import { supabaseOAuth } from "@/lib/supabase-oauth";
 
 function SignUpForm() {
   const router = useRouter();
@@ -193,33 +194,16 @@ function SignUpForm() {
                   type="button"
                   onClick={async () => {
                     setError(null);
-                    const { data, error } = await supabase.auth.signInWithOAuth({
+                    const { error } = await supabaseOAuth.auth.signInWithOAuth({
                       provider: "google",
                       options: {
                         redirectTo: `${window.location.origin}/auth/callback`,
-                        skipBrowserRedirect: true,
                         queryParams: {
                           prompt: "select_account",
                         },
                       },
                     });
-                    if (error) { setError(error.message); return; }
-
-                    // Backup PKCE verifier to sessionStorage (Safari ITP fix)
-                    try {
-                      document.cookie.split("; ").forEach((c) => {
-                        if (c.includes("code-verifier")) {
-                          const eqIdx = c.indexOf("=");
-                          const name = c.substring(0, eqIdx);
-                          const value = c.substring(eqIdx + 1);
-                          sessionStorage.setItem(`pkce_backup:${name}`, value);
-                        }
-                      });
-                    } catch {}
-
-                    if (data.url) {
-                      window.location.href = data.url;
-                    }
+                    if (error) setError(error.message);
                   }}
                   className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-lg text-[15px] font-medium transition-colors hover:bg-gray-50 active:bg-gray-100"
                   style={{

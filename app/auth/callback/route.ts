@@ -1,17 +1,16 @@
-import { createServerClient } from "@supabase/ssr";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 /**
  * GET /auth/callback
  *
- * Handles the OAuth redirect from Supabase/Google.
+ * Receives the OAuth redirect from Supabase and forwards the auth code
+ * to the client-side /auth/complete page where the localStorage-based
+ * Supabase client handles the PKCE exchange.
  *
- * Strategy (belt-and-suspenders for Safari):
- *  1. Try PKCE code exchange server-side (works when cookies survive).
- *  2. If the exchange fails (e.g. Safari ITP stripped the code_verifier
- *     cookie), forward the code to the client-side /auth/complete page
- *     where sessionStorage-backed verifier restoration can retry.
+ * Why client-side?  Safari ITP strips cookies set via document.cookie
+ * during cross-site redirect chains, which breaks the cookie-based PKCE
+ * verifier.  The localStorage-based client is immune to ITP.
  */
 export async function GET(request: NextRequest) {
   const { searchParams, origin } = new URL(request.url);
@@ -21,48 +20,8 @@ export async function GET(request: NextRequest) {
     return NextResponse.redirect(`${origin}/login?error=no_code`);
   }
 
-  // Collect cookies that Supabase sets during the exchange
-  // so we can apply them to the redirect response.
-  const pendingCookies: { name: string; value: string; options: Record<string, unknown> }[] = [];
-
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        getAll() {
-          return request.cookies.getAll();
-        },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach((c) => pendingCookies.push(c));
-        },
-      },
-    }
+  // Forward the code to the client-side page for localStorage-based exchange.
+  return NextResponse.redirect(
+    `${origin}/auth/complete?code=${encodeURIComponent(code)}`
   );
-
-  const { error } = await supabase.auth.exchangeCodeForSession(code);
-
-  if (error) {
-    console.error("[auth/callback] Server-side exchange failed:", error.message);
-
-    // Instead of showing the error immediately, forward to the client-side
-    // fallback where the sessionStorage-backed verifier can be restored.
-    return NextResponse.redirect(
-      `${origin}/auth/complete?code=${encodeURIComponent(code)}`
-    );
-  }
-
-  // Determine redirect destination
-  const { data: { user } } = await supabase.auth.getUser();
-  const onboarded = user?.user_metadata?.onboarding_completed;
-  const dest = onboarded ? "/bible" : "/onboarding";
-
-  const response = NextResponse.redirect(`${origin}${dest}`);
-
-  // Apply all auth cookies to the redirect response
-  for (const { name, value, options } of pendingCookies) {
-    response.cookies.set(name, value, options);
-  }
-
-  return response;
 }
