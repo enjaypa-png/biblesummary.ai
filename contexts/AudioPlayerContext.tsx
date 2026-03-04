@@ -37,6 +37,7 @@ interface AudioPlayerContextType {
 
   // Actions
   play: (book?: Book, chapter?: number) => Promise<void>;
+  playFromVerse: (book: Book, chapter: number, startVerse: number) => Promise<void>;
   pause: () => void;
   resume: () => void;
   stop: () => void;
@@ -434,6 +435,51 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     }
   }, [selectedBook, selectedChapter, currentTrackId, audioState, stop, resume, pause, setSelection, playVerses]);
 
+  // Play from a specific verse number (used by "Listen" action on a verse)
+  const playFromVerse = useCallback(async (book: Book, chapter: number, startVerse: number) => {
+    // Always stop and restart from the requested verse
+    stop();
+
+    setSelection(book, chapter);
+    shouldContinueRef.current = true;
+    isPausedRef.current = false;
+    setAudioState("loading");
+    setErrorMsg("");
+    setCurrentTrackId(`${book.slug}:${chapter}`);
+
+    try {
+      const { data: verses } = await supabase
+        .from("verses")
+        .select("id, verse, text")
+        .eq("book_id", book.id)
+        .eq("chapter", chapter)
+        .eq("translation", translationRef.current)
+        .order("verse");
+
+      if (!verses || verses.length === 0) {
+        setErrorMsg("No verses found for this chapter");
+        setAudioState("error");
+        return;
+      }
+
+      if (!shouldContinueRef.current) return;
+
+      versesRef.current = verses;
+      setTotalVerses(verses.length);
+
+      // Find the index of the requested verse
+      const startIndex = verses.findIndex(v => v.verse >= startVerse);
+      currentVerseIndexRef.current = startIndex >= 0 ? startIndex : 0;
+
+      await playVerses(verses, currentVerseIndexRef.current);
+    } catch (error) {
+      if (error instanceof Error && error.name === 'AbortError') return;
+      console.error("Audio error:", error);
+      setErrorMsg("Could not generate audio");
+      setAudioState("error");
+    }
+  }, [stop, setSelection, playVerses]);
+
   // Initialize persistent audio element with mobile-safe attributes
   useEffect(() => {
     const el = audioRef.current;
@@ -480,6 +526,7 @@ export function AudioPlayerProvider({ children }: { children: React.ReactNode })
     totalVerses,
     currentTrackId,
     play,
+    playFromVerse,
     pause,
     resume,
     stop,

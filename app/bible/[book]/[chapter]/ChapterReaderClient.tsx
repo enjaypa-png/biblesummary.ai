@@ -150,6 +150,7 @@ export default function ChapterReaderClient({
     currentTrackId,
     audioState,
     play: audioPlay,
+    playFromVerse,
     pause: audioPause,
     resume: audioResume,
     stop: audioStop,
@@ -1004,6 +1005,13 @@ export default function ChapterReaderClient({
                     onShare={() => handleShare(verse.verse, verse.text)}
                     onHighlight={handleHighlightTap}
                     onRemoveHighlight={() => { handleRemoveHighlight(verse.verse); handleCloseActions(); }}
+                    onListen={() => {
+                      const book = books.find(b => b.slug === bookSlug);
+                      if (book) {
+                        playFromVerse(book, chapter, verse.verse);
+                        handleCloseActions();
+                      }
+                    }}
                     onSummary={() => router.push(`/bible/${bookSlug}/summary`)}
                     onClose={handleCloseActions}
                     hasNote={hasNote}

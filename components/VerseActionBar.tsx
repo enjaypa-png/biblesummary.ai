@@ -6,6 +6,7 @@ interface VerseActionBarProps {
   onShare: () => void;
   onHighlight: () => void;
   onRemoveHighlight?: () => void;
+  onListen: () => void;
   onSummary: () => void;
   onClose: () => void;
   hasNote?: boolean;
@@ -20,7 +21,7 @@ interface ActionItem {
   disabled?: boolean;
 }
 
-export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight, onRemoveHighlight, onSummary, onClose, hasNote, hasHighlight }: VerseActionBarProps) {
+export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight, onRemoveHighlight, onListen, onSummary, onClose, hasNote, hasHighlight }: VerseActionBarProps) {
 
   const svg = {
     width: 14,
@@ -79,6 +80,18 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight
         </svg>
       ),
       onClick: onHighlight,
+    },
+    {
+      key: "listen",
+      label: "Listen",
+      icon: (
+        <svg {...svg}>
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+        </svg>
+      ),
+      onClick: onListen,
     },
     ...(hasHighlight && onRemoveHighlight ? [{
       key: "removeHighlight",
