@@ -121,7 +121,8 @@ export default function BibleIndex({ books }: { books: Book[] }) {
           .from("verses")
           .select("*", { count: "exact", head: true })
           .eq("book_id", selectedBook.id)
-          .eq("chapter", selectedChapter);
+          .eq("chapter", selectedChapter)
+          .eq("translation", settings.translation || "ct");
 
         if (!error && count !== null) {
           setVerseCount(count);
@@ -134,7 +135,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
     }
 
     fetchVerseCount();
-  }, [selectedBook, selectedChapter]);
+  }, [selectedBook, selectedChapter, settings.translation]);
 
   // Handle book selection
   function handleBookSelect(book: Book) {

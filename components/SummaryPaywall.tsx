@@ -226,7 +226,7 @@ export default function SummaryPaywall({
               className="text-[12px] mt-3 leading-relaxed"
               style={{ color: "var(--secondary)" }}
             >
-              Bible reading and audio are free forever.
+              Bible reading is free forever.
             </p>
           </div>
         )}

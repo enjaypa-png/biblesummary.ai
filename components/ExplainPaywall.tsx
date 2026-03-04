@@ -98,8 +98,8 @@ export default function ExplainPaywall({
         style={{ color: "var(--foreground)" }}
       >
         {trialsUsed >= trialLimit
-          ? `You've used all ${trialLimit} free explanations. Upgrade to keep going — Bible reading stays free forever.`
-          : "Verse explanations use AI and cost real money to provide. Bible reading and audio are free forever."}
+          ? `You've used all ${trialLimit} free explanations. Upgrade to keep learning.`
+          : "Verse explanations use AI and cost real money to provide. Upgrade to unlock unlimited access."}
       </span>
 
       {!isAuthenticated ? (
