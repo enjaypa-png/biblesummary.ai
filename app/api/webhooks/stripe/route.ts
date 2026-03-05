@@ -3,6 +3,24 @@ import { createClient } from "@supabase/supabase-js";
 import Stripe from "stripe";
 import { getStripe } from "@/lib/stripe";
 
+// ─── Supabase admin client (service role, bypasses RLS) ───
+let _supabaseAdmin: any = null; // eslint-disable-line
+function getSupabaseAdmin() {
+  if (!_supabaseAdmin) {
+    _supabaseAdmin = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_ROLE_KEY!,
+      {
+        auth: {
+          persistSession: false,
+          autoRefreshToken: false,
+        },
+      }
+    );
+  }
+  return _supabaseAdmin;
+}
+
 /**
  * Map product_type from checkout metadata to the DB subscription type.
  * The DB CHECK constraint only allows: 'summary_annual', 'explain_monthly', 'premium_yearly'.
@@ -58,18 +76,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Invalid signature" }, { status: 400 });
   }
 
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
-  const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || "";
-
-  if (!supabaseUrl || !supabaseServiceKey) {
-    console.error("Supabase not configured for webhook processing");
-    return NextResponse.json({ error: "Server configuration error" }, { status: 500 });
-  }
-
-  const supabase = createClient(supabaseUrl, supabaseServiceKey, {
-    auth: { autoRefreshToken: false, persistSession: false },
-  });
   const stripe = getStripe();
+  const supabaseAdmin = getSupabaseAdmin();
 
   try {
     switch (event.type) {
@@ -78,19 +86,23 @@ export async function POST(req: NextRequest) {
         const session = event.data.object as Stripe.Checkout.Session;
         const metadata = session.metadata || {};
         const productType = metadata.product_type;
-        let userId = metadata.user_id;
 
-        // Get Stripe customer ID directly from session
+        // 1. Get Stripe IDs directly from session
         const stripeCustomerId = typeof session.customer === "string"
           ? session.customer
           : session.customer?.id ?? null;
+        const stripeSubscriptionId = typeof session.subscription === "string"
+          ? session.subscription
+          : session.subscription?.id ?? null;
 
-        // Primary lookup: find user by email from session.customer_details.email
+        // 2. Find user in auth.users by email (primary), fall back to metadata
         const customerEmail = session.customer_details?.email;
-        if (!userId && customerEmail) {
-          const { data: authList } = await supabase.auth.admin.listUsers();
+        let userId = metadata.user_id;
+
+        if (customerEmail) {
+          const { data: authList } = await supabaseAdmin.auth.admin.listUsers();
           const matchedUser = authList?.users?.find(
-            (u) => u.email === customerEmail
+            (u: { email?: string }) => u.email === customerEmail
           );
           if (matchedUser) {
             userId = matchedUser.id;
@@ -113,7 +125,7 @@ export async function POST(req: NextRequest) {
             break;
           }
 
-          const { error: upsertError } = await supabase.from("purchases").upsert(
+          const { error: upsertError } = await supabaseAdmin.from("purchases").upsert(
             {
               user_id: userId,
               book_id: bookId,
@@ -130,20 +142,15 @@ export async function POST(req: NextRequest) {
           }
         }
 
-        // Subscription purchase
-        if (session.subscription) {
-          const subscriptionId =
-            typeof session.subscription === "string"
-              ? session.subscription
-              : session.subscription.id;
-
-          // Determine subscription type from metadata, default to premium_yearly
+        // 3. Subscription purchase — upsert into public.subscriptions
+        if (stripeSubscriptionId) {
+          // Determine type from metadata, default to premium_yearly
           const dbType = productType
             ? toDbSubscriptionType(productType)
             : "premium_yearly";
 
-          // Fetch the full subscription from Stripe to get accurate period data
-          const subscription = await stripe.subscriptions.retrieve(subscriptionId);
+          // Fetch full subscription from Stripe for period data
+          const subscription = await stripe.subscriptions.retrieve(stripeSubscriptionId);
 
           const firstItem = subscription.items?.data?.[0];
           const periodStartTs = firstItem?.current_period_start ?? Math.floor(Date.now() / 1000);
@@ -151,16 +158,17 @@ export async function POST(req: NextRequest) {
           const periodStart = new Date(periodStartTs * 1000).toISOString();
           const periodEnd = new Date(periodEndTs * 1000).toISOString();
 
-          const { error: upsertError } = await supabase.from("subscriptions").upsert(
+          // 4. Upsert subscription with active status
+          const { error: upsertError } = await supabaseAdmin.from("subscriptions").upsert(
             {
               user_id: userId,
-              type: dbType,
-              stripe_subscription_id: subscriptionId,
               stripe_customer_id: stripeCustomerId
                 ?? (typeof subscription.customer === "string"
                   ? subscription.customer
                   : subscription.customer.id),
+              stripe_subscription_id: stripeSubscriptionId,
               status: "active",
+              type: dbType,
               current_period_start: periodStart,
               current_period_end: periodEnd,
               updated_at: new Date().toISOString(),
@@ -174,6 +182,7 @@ export async function POST(req: NextRequest) {
           }
         }
 
+        // 5. Return HTTP 200
         break;
       }
 
@@ -187,7 +196,7 @@ export async function POST(req: NextRequest) {
 
         // If metadata is missing, try to find the subscription in our DB by stripe_subscription_id
         if (!userId || !productType) {
-          const { data: existing } = await supabase
+          const { data: existing } = await supabaseAdmin
             .from("subscriptions")
             .select("user_id, type")
             .eq("stripe_subscription_id", subscription.id)
@@ -204,7 +213,7 @@ export async function POST(req: NextRequest) {
           const periodStart = new Date(pStartTs * 1000).toISOString();
           const periodEnd = new Date(pEndTs * 1000).toISOString();
 
-          const { error: updateError } = await supabase
+          const { error: updateError } = await supabaseAdmin
             .from("subscriptions")
             .update({
               status: toDbStatus(subscription.status),
@@ -233,7 +242,7 @@ export async function POST(req: NextRequest) {
         const periodStart = new Date(pStartTs2 * 1000).toISOString();
         const periodEnd = new Date(pEndTs2 * 1000).toISOString();
 
-        const { error: upsertError } = await supabase.from("subscriptions").upsert(
+        const { error: upsertError } = await supabaseAdmin.from("subscriptions").upsert(
           {
             user_id: userId,
             type: dbType,
@@ -271,7 +280,7 @@ export async function POST(req: NextRequest) {
           const periodStart = new Date(pStartTs * 1000).toISOString();
           const periodEnd = new Date(pEndTs * 1000).toISOString();
 
-          await supabase
+          await supabaseAdmin
             .from("subscriptions")
             .update({
               status: "active",
@@ -291,7 +300,7 @@ export async function POST(req: NextRequest) {
         if (invoiceSub) {
           const subscriptionId = typeof invoiceSub === "string" ? invoiceSub : invoiceSub.id;
 
-          await supabase
+          await supabaseAdmin
             .from("subscriptions")
             .update({
               status: "past_due",
@@ -306,7 +315,7 @@ export async function POST(req: NextRequest) {
       case "customer.subscription.deleted": {
         const subscription = event.data.object as Stripe.Subscription;
 
-        await supabase
+        await supabaseAdmin
           .from("subscriptions")
           .update({
             status: "expired",
