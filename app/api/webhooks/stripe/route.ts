@@ -214,23 +214,24 @@ export async function POST(req: NextRequest) {
       // ─── Subscription renewed (invoice paid) ───
       case "invoice.payment_succeeded": {
         const invoice = event.data.object as Stripe.Invoice;
-        const invoiceSub = invoice.parent?.subscription_details?.subscription;
-        if (invoice.billing_reason === "subscription_cycle" && invoiceSub) {
-          const subscriptionId = typeof invoiceSub === "string" ? invoiceSub : invoiceSub.id;
+        // Stripe SDK v20+ nests subscription under parent.subscription_details
+        const invoiceRaw = invoice as any; // eslint-disable-line
+        const subscriptionId: string | null =
+          (typeof invoiceRaw.subscription === "string" ? invoiceRaw.subscription : null)
+          ?? (typeof invoice.parent?.subscription_details?.subscription === "string"
+            ? invoice.parent.subscription_details.subscription
+            : invoice.parent?.subscription_details?.subscription?.id ?? null);
 
-          const subscription = await stripe.subscriptions.retrieve(subscriptionId);
-
-          const subItem = subscription.items?.data?.[0];
-          const pStartTs = subItem?.current_period_start ?? Math.floor(Date.now() / 1000);
-          const pEndTs = subItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 30;
-          const periodStart = new Date(pStartTs * 1000).toISOString();
-          const periodEnd = new Date(pEndTs * 1000).toISOString();
+        if (subscriptionId) {
+          const periodEndTs = invoice.lines?.data?.[0]?.period?.end;
+          const periodEnd = periodEndTs
+            ? new Date(periodEndTs * 1000).toISOString()
+            : new Date(Date.now() + 86400 * 30 * 1000).toISOString();
 
           await supabaseAdmin
             .from("subscriptions")
             .update({
               status: "active",
-              current_period_start: periodStart,
               current_period_end: periodEnd,
               updated_at: new Date().toISOString(),
             })
@@ -242,10 +243,14 @@ export async function POST(req: NextRequest) {
       // ─── Renewal payment failed ───
       case "invoice.payment_failed": {
         const invoice = event.data.object as Stripe.Invoice;
-        const invoiceSub = invoice.parent?.subscription_details?.subscription;
-        if (invoiceSub) {
-          const subscriptionId = typeof invoiceSub === "string" ? invoiceSub : invoiceSub.id;
+        const invoiceRaw = invoice as any; // eslint-disable-line
+        const subscriptionId: string | null =
+          (typeof invoiceRaw.subscription === "string" ? invoiceRaw.subscription : null)
+          ?? (typeof invoice.parent?.subscription_details?.subscription === "string"
+            ? invoice.parent.subscription_details.subscription
+            : invoice.parent?.subscription_details?.subscription?.id ?? null);
 
+        if (subscriptionId) {
           await supabaseAdmin
             .from("subscriptions")
             .update({
@@ -257,14 +262,14 @@ export async function POST(req: NextRequest) {
         break;
       }
 
-      // ─── Subscription canceled or expired ───
+      // ─── Subscription canceled or deleted ───
       case "customer.subscription.deleted": {
         const subscription = event.data.object as Stripe.Subscription;
 
         await supabaseAdmin
           .from("subscriptions")
           .update({
-            status: "expired",
+            status: "canceled",
             updated_at: new Date().toISOString(),
           })
           .eq("stripe_subscription_id", subscription.id);
