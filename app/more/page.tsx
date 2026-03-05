@@ -18,6 +18,7 @@ export default function MorePage() {
   const [subscriptions, setSubscriptions] = useState<Subscription[]>([]);
   const [canceling, setCanceling] = useState<string | null>(null);
   const [cancelError, setCancelError] = useState<string | null>(null);
+  const [billingLoading, setBillingLoading] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deleteConfirmText, setDeleteConfirmText] = useState("");
   const [deleting, setDeleting] = useState(false);
@@ -297,6 +298,42 @@ export default function MorePage() {
                   </p>
                 </div>
               )}
+
+              <button
+                type="button"
+                onClick={async () => {
+                  setBillingLoading(true);
+                  try {
+                    const { data: { session } } = await supabase.auth.getSession();
+                    if (!session?.access_token) return;
+                    const res = await fetch("/api/stripe/create-portal-session", {
+                      method: "POST",
+                      headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": `Bearer ${session.access_token}`,
+                      },
+                    });
+                    const data = await res.json();
+                    if (res.ok && data.url) {
+                      window.location.href = data.url;
+                    }
+                  } catch {
+                    // silently fail
+                  } finally {
+                    setBillingLoading(false);
+                  }
+                }}
+                disabled={billingLoading}
+                className="w-full flex items-center justify-between px-4 py-3 transition-colors active:bg-black/5 dark:active:bg-white/5 text-left disabled:opacity-50"
+                style={{ borderTop: "0.5px solid var(--border)" }}
+              >
+                <span className="font-medium text-[15px]" style={{ color: "var(--accent, #7c5cfc)" }}>
+                  {billingLoading ? "Loading…" : "Manage Billing"}
+                </span>
+                <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
+                  <path d="M1 1L5 5L1 9" stroke="var(--border)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
             </div>
           </section>
         )}
