@@ -64,10 +64,9 @@ export default function PricingPageClient() {
   }, []);
 
   const isPremium = premiumStatus === "active" || premiumStatus === "canceled";
-  const [billingCycle, setBillingCycle] = useState<"yearly" | "monthly">("yearly");
 
   async function handleCheckout(
-    product: "premium_annual" | "premium_monthly",
+    product: "premium_annual",
     key: string
   ) {
     if (!isAuthenticated) {
@@ -209,19 +208,7 @@ export default function PricingPageClient() {
                 Recommended
               </span>
 
-              <div style={{ display: "flex", gap: 8, marginBottom: 12 }} className="mt-1">
-                  <button
-                    onClick={() => setBillingCycle("yearly")}
-                    className="flex-1 py-1.5 rounded-lg text-[13px] font-semibold transition-all"
-                    style={{ backgroundColor: billingCycle === "yearly" ? "var(--accent)" : "var(--background)", color: billingCycle === "yearly" ? "white" : "var(--foreground)", border: "1px solid var(--border)" }}
-                  >Annually — $79</button>
-                  <button
-                    onClick={() => setBillingCycle("monthly")}
-                    className="flex-1 py-1.5 rounded-lg text-[13px] font-semibold transition-all"
-                    style={{ backgroundColor: billingCycle === "monthly" ? "var(--accent)" : "var(--background)", color: billingCycle === "monthly" ? "white" : "var(--foreground)", border: "1px solid var(--border)" }}
-                  >Monthly — $9.99</button>
-                </div>
-                <div className="flex items-baseline justify-between mb-1">
+              <div className="flex items-baseline justify-between mb-1 mt-1">
                 <h3 className="text-[18px] font-bold" style={{ color: "var(--foreground)" }}>
                   ClearBible Unlimited
                 </h3>
@@ -244,10 +231,10 @@ export default function PricingPageClient() {
                 </div>
                 <div className="text-right">
                   <span className="text-[24px] font-bold" style={{ color: "var(--accent)" }}>
-                    {billingCycle === "yearly" ? "$79" : "$9.99"}
+                    $79
                   </span>
                   <span className="text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
-                    {billingCycle === "yearly" ? "/year" : "/month"}
+                    /year
                   </span>
                 </div>
               </div>
@@ -280,11 +267,11 @@ export default function PricingPageClient() {
               </ul>
 
               {renderButton(
-                billingCycle === "yearly" ? "Upgrade to Unlimited — $79/year" : "Upgrade to Unlimited — $9.99/month",
+                "Upgrade to Unlimited — $79/year",
                 "premium",
                 premiumStatus,
                 false,
-                () => handleCheckout(billingCycle === "yearly" ? "premium_annual" : "premium_monthly", "premium")
+                () => handleCheckout("premium_annual", "premium")
               )}
             </div>
 

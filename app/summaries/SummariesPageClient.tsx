@@ -54,7 +54,7 @@ export default function SummariesPageClient({ books }: { books: Book[] }) {
   async function handleUpgrade() {
     setError(null);
     setCheckoutLoading(true);
-    const result = await startCheckout({ product: "premium_annual", returnPath: "/summaries" });
+    const result = await startCheckout({ product: "premium_annual", returnPath: "/pricing/success" });
     if (result.error) { setError(result.error); setCheckoutLoading(false); }
     else if (result.url) window.location.href = result.url;
   }
@@ -109,7 +109,7 @@ export default function SummariesPageClient({ books }: { books: Book[] }) {
             </div>
             <h2 className="text-[20px] font-bold text-white mb-1">All 66 Book Summaries</h2>
             <p className="text-[14px] text-white/80 mb-4 leading-relaxed">
-              Unlock every summary with Unlimited — $79/yr or $9.99/mo.
+              Unlock every summary with Unlimited — $79/yr.
             </p>
             <button
               onClick={handleUpgrade}
