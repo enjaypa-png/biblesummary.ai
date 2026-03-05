@@ -35,7 +35,8 @@
     "modernize": "tsx scripts/modernize-kjv.ts",
     "seed:modern": "tsx scripts/seed-modern-text.ts",
     "ct:generate:v2": "tsx scripts/ct-generate-v2.ts",
-    "ct:audit:openai": "tsx scripts/ct-audit-openai.ts"
+    "ct:audit:openai": "tsx scripts/ct-audit-openai.ts",
+    "fix:subs": "tsx scripts/fix-subscriptions.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.74.0",
