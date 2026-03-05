@@ -1,8 +1,40 @@
 import { supabase, getCurrentUser } from "@/lib/supabase";
 
 /**
+ * Call the server-side /api/check-access endpoint which checks the DB first,
+ * then falls back to Stripe directly if the DB has no record.
+ * If Stripe confirms an active subscription, the endpoint self-heals the DB.
+ */
+async function checkAccessViaApi(bookId?: string): Promise<{
+  hasSummaryAccess: boolean;
+  hasExplainAccess: boolean;
+} | null> {
+  try {
+    const { data: { session } } = await supabase.auth.getSession();
+    if (!session?.access_token) return null;
+
+    const res = await fetch("/api/check-access", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${session.access_token}`,
+      },
+      body: JSON.stringify({ bookId }),
+    });
+
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
+
+/**
  * Check if the current user has access to a specific book's summary.
- * Returns true if user has purchased the book individually OR has an active annual pass.
+ *
+ * 1. Checks the DB via Supabase RPC (fast path).
+ * 2. If DB says no, calls /api/check-access which verifies with Stripe
+ *    and self-heals the DB if Stripe confirms an active subscription.
  */
 export async function checkSummaryAccess(bookId: string): Promise<{
   hasAccess: boolean;
@@ -14,21 +46,31 @@ export async function checkSummaryAccess(bookId: string): Promise<{
     return { hasAccess: false, isAuthenticated: false, userId: null };
   }
 
+  // Fast path: check DB via RPC
   const { data, error } = await supabase.rpc("user_has_summary_access", {
     p_user_id: user.id,
     p_book_id: bookId,
   });
 
-  return {
-    hasAccess: !error && data === true,
-    isAuthenticated: true,
-    userId: user.id,
-  };
+  if (!error && data === true) {
+    return { hasAccess: true, isAuthenticated: true, userId: user.id };
+  }
+
+  // Fallback: verify against Stripe directly and self-heal DB
+  const apiResult = await checkAccessViaApi(bookId);
+  if (apiResult?.hasSummaryAccess) {
+    return { hasAccess: true, isAuthenticated: true, userId: user.id };
+  }
+
+  return { hasAccess: false, isAuthenticated: true, userId: user.id };
 }
 
 /**
  * Check if the current user has access to AI verse explanations.
- * Returns true if user has an active monthly explain subscription.
+ *
+ * 1. Checks the DB via Supabase RPC (fast path).
+ * 2. If DB says no, calls /api/check-access which verifies with Stripe
+ *    and self-heals the DB if Stripe confirms an active subscription.
  */
 export async function checkExplainAccess(): Promise<{
   hasAccess: boolean;
@@ -40,15 +82,22 @@ export async function checkExplainAccess(): Promise<{
     return { hasAccess: false, isAuthenticated: false, userId: null };
   }
 
+  // Fast path: check DB via RPC
   const { data, error } = await supabase.rpc("user_has_explain_access", {
     p_user_id: user.id,
   });
 
-  return {
-    hasAccess: !error && data === true,
-    isAuthenticated: true,
-    userId: user.id,
-  };
+  if (!error && data === true) {
+    return { hasAccess: true, isAuthenticated: true, userId: user.id };
+  }
+
+  // Fallback: verify against Stripe directly and self-heal DB
+  const apiResult = await checkAccessViaApi();
+  if (apiResult?.hasExplainAccess) {
+    return { hasAccess: true, isAuthenticated: true, userId: user.id };
+  }
+
+  return { hasAccess: false, isAuthenticated: true, userId: user.id };
 }
 
 /**

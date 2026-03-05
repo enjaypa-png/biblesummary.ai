@@ -17,24 +17,18 @@ export default function SummaryPaywall({
   bookSlug,
   isAuthenticated = false,
 }: SummaryPaywallProps) {
-  const [loading, setLoading] = useState<"single" | "annual" | "premium" | null>(null);
+  const [loading, setLoading] = useState<"single" | "premium" | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  async function handlePurchase(type: "single" | "annual" | "premium") {
+  async function handlePurchase(type: "single" | "premium") {
     setLoading(type);
     setError(null);
 
-    const productMap = {
-      single: "summary_single" as const,
-      annual: "summary_annual" as const,
-      premium: "premium_annual" as const,
-    };
-
     const { url, error: checkoutError } = await startCheckout({
-      product: productMap[type],
+      product: type === "single" ? "summary_single" : "premium_annual",
       bookId: type === "single" ? bookId : undefined,
       bookSlug: type === "single" ? bookSlug : undefined,
-      returnPath: bookSlug ? `/summaries/${bookSlug}` : "/summaries",
+      returnPath: "/pricing/success",
     });
 
     if (checkoutError) {
@@ -91,8 +85,7 @@ export default function SummaryPaywall({
           className="text-[14px] leading-relaxed mb-6 max-w-sm mx-auto"
           style={{ color: "var(--secondary)" }}
         >
-          Book summaries help with retention and understanding. Purchase a single
-          book or unlock all summaries for a full year.
+          Unlock this summary or get access to all 66 book summaries with Unlimited.
         </p>
 
         {!isAuthenticated ? (
@@ -112,21 +105,31 @@ export default function SummaryPaywall({
                 disabled={loading !== null}
                 className="w-full flex items-center justify-between px-5 py-3.5 rounded-xl text-left transition-all active:scale-[0.98] disabled:opacity-60"
                 style={{
-                  backgroundColor: "var(--accent)",
-                  color: "#ffffff",
+                  backgroundColor: "var(--background)",
+                  border: "1.5px solid var(--accent)",
+                  color: "var(--foreground)",
                 }}
               >
                 <div>
                   <div className="text-[14px] font-semibold">
                     {bookName} Summary
                   </div>
-                  <div className="text-[12px] opacity-80">
+                  <div
+                    className="text-[12px]"
+                    style={{ color: "var(--secondary)" }}
+                  >
                     One-time purchase
                   </div>
                 </div>
-                <div className="text-[16px] font-bold">
+                <div
+                  className="text-[16px] font-bold"
+                  style={{ color: "var(--accent)" }}
+                >
                   {loading === "single" ? (
-                    <span className="inline-block w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                    <span
+                      className="inline-block w-5 h-5 border-2 rounded-full animate-spin"
+                      style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
+                    />
                   ) : (
                     "$0.99"
                   )}
@@ -134,82 +137,35 @@ export default function SummaryPaywall({
               </button>
             )}
 
-            {/* Annual pass */}
-            <button
-              onClick={() => handlePurchase("annual")}
-              disabled={loading !== null}
-              className="w-full flex items-center justify-between px-5 py-3.5 rounded-xl text-left transition-all active:scale-[0.98] disabled:opacity-60"
-              style={{
-                backgroundColor: "var(--background)",
-                border: "1.5px solid var(--accent)",
-                color: "var(--foreground)",
-              }}
-            >
-              <div>
-                <div className="text-[14px] font-semibold">
-                  All 66 Books
-                </div>
-                <div
-                  className="text-[12px]"
-                  style={{ color: "var(--secondary)" }}
-                >
-                  Annual pass — every summary unlocked
-                </div>
-              </div>
-              <div
-                className="text-[16px] font-bold"
-                style={{ color: "var(--accent)" }}
-              >
-                {loading === "annual" ? (
-                  <span
-                    className="inline-block w-5 h-5 border-2 rounded-full animate-spin"
-                    style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
-                  />
-                ) : (
-                  "$14.99/yr"
-                )}
-              </div>
-            </button>
-
             {/* Unlimited yearly */}
             <button
               onClick={() => handlePurchase("premium")}
               disabled={loading !== null}
               className="w-full flex items-center justify-between px-5 py-3.5 rounded-xl text-left transition-all active:scale-[0.98] disabled:opacity-60"
               style={{
-                backgroundColor: "var(--background)",
-                border: "1.5px solid var(--border)",
-                color: "var(--foreground)",
+                backgroundColor: "var(--accent)",
+                color: "#ffffff",
               }}
             >
               <div>
                 <div className="flex items-center gap-2">
                   <div className="text-[14px] font-semibold">
-                    Unlimited
+                    ClearBible Unlimited
                   </div>
                   <span
                     className="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-full"
-                    style={{ backgroundColor: "var(--accent-light)", color: "var(--accent)" }}
+                    style={{ backgroundColor: "rgba(255,255,255,0.2)", color: "#ffffff" }}
                   >
                     Best Value
                   </span>
                 </div>
-                <div
-                  className="text-[12px]"
-                  style={{ color: "var(--secondary)" }}
-                >
+                <div className="text-[12px] opacity-80">
                   All summaries + explanations + audio
                 </div>
               </div>
-              <div
-                className="text-[16px] font-bold"
-                style={{ color: "var(--accent)" }}
-              >
+              <div className="text-[16px] font-bold">
                 {loading === "premium" ? (
-                  <span
-                    className="inline-block w-5 h-5 border-2 rounded-full animate-spin"
-                    style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
-                  />
+                  <span className="inline-block w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                 ) : (
                   "$79/yr"
                 )}

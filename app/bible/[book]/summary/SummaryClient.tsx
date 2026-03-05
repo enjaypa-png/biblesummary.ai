@@ -222,17 +222,41 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
         await verifyPurchaseWithRetry(sessionId);
       }
 
+      let hasAccessResult = false;
+
       const { data, error } = await supabase.rpc("user_has_summary_access", {
         p_user_id: user.id,
         p_book_id: bookId,
       });
 
-      if (error) {
-        setHasAccess(false);
-        return;
+      if (!error && data === true) {
+        hasAccessResult = true;
       }
 
-      if (data === true) {
+      // Fallback: check Stripe directly if DB says no access
+      if (!hasAccessResult) {
+        try {
+          const { data: { session: authSession } } = await supabase.auth.getSession();
+          if (authSession?.access_token) {
+            const res = await fetch("/api/check-access", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${authSession.access_token}`,
+              },
+              body: JSON.stringify({ bookId }),
+            });
+            if (res.ok) {
+              const result = await res.json();
+              if (result.hasSummaryAccess) hasAccessResult = true;
+            }
+          }
+        } catch {
+          // Stripe fallback failed — continue with DB result
+        }
+      }
+
+      if (hasAccessResult) {
         // Record the view and check rate limit
         try {
           const { data: { session } } = await supabase.auth.getSession();

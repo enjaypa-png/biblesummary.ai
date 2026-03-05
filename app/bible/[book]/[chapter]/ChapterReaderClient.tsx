@@ -270,10 +270,35 @@ export default function ChapterReaderClient({
         }
 
         // Check explain entitlement
+        let explainGranted = false;
         const { data: explainAccess } = await supabase.rpc("user_has_explain_access", {
           p_user_id: currentUser.id,
         });
-        setHasExplainAccess(explainAccess === true);
+        if (explainAccess === true) {
+          explainGranted = true;
+        } else {
+          // Fallback: check Stripe directly if DB says no access
+          try {
+            const { data: { session: authSession } } = await supabase.auth.getSession();
+            if (authSession?.access_token) {
+              const res = await fetch("/api/check-access", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  Authorization: `Bearer ${authSession.access_token}`,
+                },
+                body: JSON.stringify({}),
+              });
+              if (res.ok) {
+                const result = await res.json();
+                if (result.hasExplainAccess) explainGranted = true;
+              }
+            }
+          } catch {
+            // Stripe fallback failed
+          }
+        }
+        setHasExplainAccess(explainGranted);
 
         // Load free trial count
         const { data: profileData } = await supabase
@@ -301,12 +326,36 @@ export default function ChapterReaderClient({
         await verifyPurchaseWithRetry(sessionId);
       }
 
+      let recheckGranted = false;
       const { data: explainAccess } = await supabase.rpc("user_has_explain_access", {
         p_user_id: currentUser.id,
       });
-      setHasExplainAccess(explainAccess === true);
+      if (explainAccess === true) {
+        recheckGranted = true;
+      } else {
+        try {
+          const { data: { session: authSession } } = await supabase.auth.getSession();
+          if (authSession?.access_token) {
+            const res = await fetch("/api/check-access", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${authSession.access_token}`,
+              },
+              body: JSON.stringify({}),
+            });
+            if (res.ok) {
+              const result = await res.json();
+              if (result.hasExplainAccess) recheckGranted = true;
+            }
+          }
+        } catch {
+          // Stripe fallback failed
+        }
+      }
+      setHasExplainAccess(recheckGranted);
       // Reset paywall state if user now has access
-      if (explainAccess === true && explainStatus === "paywall") {
+      if (recheckGranted && explainStatus === "paywall") {
         setExplainStatus("idle");
       }
     }

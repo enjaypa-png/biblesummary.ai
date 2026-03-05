@@ -145,10 +145,60 @@ export async function POST(req: NextRequest) {
     });
 
     if (!hasAccess) {
-      return NextResponse.json(
-        { error: "Explain subscription required", code: "SUBSCRIPTION_REQUIRED" },
-        { status: 403 }
-      );
+      // Fallback: check Stripe directly and self-heal the DB
+      let stripeGranted = false;
+      try {
+        if (process.env.STRIPE_SECRET_KEY && authUser.email) {
+          const { getStripe } = await import("@/lib/stripe");
+          const stripe = getStripe();
+          const customers = await stripe.customers.list({ email: authUser.email, limit: 5 });
+          for (const customer of customers.data) {
+            const subs = await stripe.subscriptions.list({ customer: customer.id, status: "active", limit: 10 });
+            for (const sub of subs.data) {
+              const meta = sub.metadata || {};
+              const pt = meta.product_type || "";
+              let dbType: string;
+              if (pt === "premium_annual" || pt === "premium_monthly") dbType = "premium_yearly";
+              else if (pt === "explain_monthly") dbType = "explain_monthly";
+              else {
+                const amount = sub.items?.data?.[0]?.price?.unit_amount;
+                if (amount === 7900 || amount === 999) dbType = "premium_yearly";
+                else if (amount === 499) dbType = "explain_monthly";
+                else dbType = "premium_yearly";
+              }
+              if (dbType === "premium_yearly" || dbType === "explain_monthly") {
+                stripeGranted = true;
+                // Self-heal: write to DB
+                const firstItem = sub.items?.data?.[0];
+                const periodStart = new Date((firstItem?.current_period_start ?? Math.floor(Date.now() / 1000)) * 1000).toISOString();
+                const periodEnd = new Date((firstItem?.current_period_end ?? Math.floor(Date.now() / 1000) + 86400 * 365) * 1000).toISOString();
+                await supabase.from("subscriptions").upsert({
+                  user_id: authUser.id,
+                  type: dbType,
+                  stripe_subscription_id: sub.id,
+                  stripe_customer_id: customer.id,
+                  status: "active",
+                  current_period_start: periodStart,
+                  current_period_end: periodEnd,
+                  updated_at: new Date().toISOString(),
+                }, { onConflict: "user_id,type" });
+                console.log(`[explain-verse] Self-healed: wrote ${dbType} for user ${authUser.id}`);
+                break;
+              }
+            }
+            if (stripeGranted) break;
+          }
+        }
+      } catch (e) {
+        console.error("[explain-verse] Stripe fallback error:", e);
+      }
+
+      if (!stripeGranted) {
+        return NextResponse.json(
+          { error: "Explain subscription required", code: "SUBSCRIPTION_REQUIRED" },
+          { status: 403 }
+        );
+      }
     }
 
     // ── 2. Check database first (never call OpenAI if cache hit) ──

@@ -28,6 +28,27 @@ export default function UpgradeNudge() {
       });
       if (isPremium) return;
 
+      // Fallback: check Stripe directly
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session?.access_token) {
+          const res = await fetch("/api/check-access", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: `Bearer ${session.access_token}`,
+            },
+            body: JSON.stringify({}),
+          });
+          if (res.ok) {
+            const result = await res.json();
+            if (result.hasExplainAccess) return;
+          }
+        }
+      } catch {
+        // Stripe fallback failed — continue with nudge check
+      }
+
       // Check session count
       const { data: profile } = await supabase
         .from("user_profiles")

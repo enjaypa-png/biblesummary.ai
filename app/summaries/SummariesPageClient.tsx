@@ -45,7 +45,32 @@ export default function SummariesPageClient({ books }: { books: Book[] }) {
         .eq("user_id", user.id)
         .eq("type", "lifetime");
 
-      setHasPremium(!!active || (purchases?.length ?? 0) > 0);
+      let hasAccess = !!active || (purchases?.length ?? 0) > 0;
+
+      // Fallback: check Stripe directly if DB says no access
+      if (!hasAccess) {
+        try {
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session?.access_token) {
+            const res = await fetch("/api/check-access", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${session.access_token}`,
+              },
+              body: JSON.stringify({}),
+            });
+            if (res.ok) {
+              const result = await res.json();
+              if (result.hasSummaryAccess) hasAccess = true;
+            }
+          }
+        } catch {
+          // Stripe fallback failed
+        }
+      }
+
+      setHasPremium(hasAccess);
       setLoading(false);
     }
     loadAccess();
@@ -54,7 +79,7 @@ export default function SummariesPageClient({ books }: { books: Book[] }) {
   async function handleUpgrade() {
     setError(null);
     setCheckoutLoading(true);
-    const result = await startCheckout({ product: "premium_annual", returnPath: "/summaries" });
+    const result = await startCheckout({ product: "premium_annual", returnPath: "/pricing/success" });
     if (result.error) { setError(result.error); setCheckoutLoading(false); }
     else if (result.url) window.location.href = result.url;
   }
@@ -109,7 +134,7 @@ export default function SummariesPageClient({ books }: { books: Book[] }) {
             </div>
             <h2 className="text-[20px] font-bold text-white mb-1">All 66 Book Summaries</h2>
             <p className="text-[14px] text-white/80 mb-4 leading-relaxed">
-              Unlock every summary with Unlimited — $79/yr or $9.99/mo.
+              Unlock every summary with Unlimited — $79/yr.
             </p>
             <button
               onClick={handleUpgrade}
