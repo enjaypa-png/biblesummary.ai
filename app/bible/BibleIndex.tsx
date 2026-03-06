@@ -17,6 +17,228 @@ interface Book {
 
 type IndexTab = "books" | "chapters" | "verses";
 
+interface ParsedReference {
+  book: Book;
+  chapter: number;
+  verse: number | null;
+}
+
+function looksLikeQuestion(input: string): boolean {
+  const q = input.trim();
+  if (!q) return false;
+  if (q.includes("?")) return true;
+  const words = q.split(/\s+/);
+  return words.length >= 4;
+}
+
+function BibleAISearch({
+  searchQuery,
+  setSearchQuery,
+  parsedReference,
+  onGoToReference,
+  books,
+  onSelectVerse,
+}: {
+  searchQuery: string;
+  setSearchQuery: (value: string) => void;
+  parsedReference: ParsedReference | null;
+  onGoToReference: () => void;
+  books: Book[];
+  onSelectVerse: (slug: string, chapter: number, verse: number) => void;
+}) {
+  const [aiResults, setAiResults] = useState<any[]>([]);
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiError, setAiError] = useState<string | null>(null);
+  const [showAiModal, setShowAiModal] = useState(false);
+
+  async function runAiSearch(query: string) {
+    const trimmed = query.trim();
+    if (!trimmed) return;
+    setAiLoading(true);
+    setAiError(null);
+    setShowAiModal(true);
+    setAiResults([]);
+    try {
+      const res = await fetch("/api/bible-search", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query: trimmed }),
+      });
+      if (!res.ok) {
+        throw new Error("Search failed");
+      }
+      const data = await res.json();
+      setAiResults(Array.isArray(data.verses) ? data.verses : []);
+    } catch (e) {
+      console.error("[BibleAISearch] error:", e);
+      setAiError("Search unavailable. Please try again.");
+    } finally {
+      setAiLoading(false);
+    }
+  }
+
+  function handleEnter() {
+    const q = searchQuery.trim();
+    if (!q) return;
+    if (parsedReference) {
+      onGoToReference();
+      return;
+    }
+    const lower = q.toLowerCase();
+    const matchesBook = books.some((b) => b.name.toLowerCase().startsWith(lower));
+    if (matchesBook) {
+      // Let the book list filter handle this case
+      return;
+    }
+    if (looksLikeQuestion(q)) {
+      runAiSearch(q);
+    }
+  }
+
+  return (
+    <>
+      <div className="mt-4">
+        <div
+          className="flex items-center gap-2 px-3 py-2.5 rounded-xl"
+          style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+        >
+          <span
+            aria-hidden="true"
+            className="flex items-center justify-center w-7 h-7 rounded-full"
+            style={{ backgroundColor: "var(--background)" }}
+          >
+            <span style={{ fontSize: 13 }}>🔍</span>
+          </span>
+          <span
+            aria-hidden="true"
+            className="text-[12px] font-medium px-1"
+            style={{ color: "var(--accent)" }}
+          >
+            ✨
+          </span>
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+                handleEnter();
+              }
+            }}
+            placeholder="Search books, type a verse, or ask ClearBible AI a question"
+            className="flex-1 bg-transparent text-[15px] outline-none"
+            style={{ color: "var(--foreground)" }}
+          />
+          {searchQuery && (
+            <button
+              onClick={() => setSearchQuery("")}
+              className="p-1 rounded-full active:opacity-70"
+              style={{ color: "var(--secondary)" }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M18 6L6 18M6 6l12 12" />
+              </svg>
+            </button>
+          )}
+        </div>
+      </div>
+
+      {showAiModal && (
+        <div
+          className="fixed inset-0 z-40 flex items-center justify-center px-5"
+          style={{ backgroundColor: "rgba(0,0,0,0.45)" }}
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setShowAiModal(false);
+          }}
+        >
+          <div
+            className="w-full max-w-lg rounded-2xl p-4"
+            style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+          >
+            <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center gap-2">
+                <span>🔍</span>
+                <span className="text-[14px] font-semibold" style={{ color: "var(--foreground)" }}>
+                  AI Bible search
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowAiModal(false)}
+                className="text-[13px]"
+                style={{ color: "var(--secondary)" }}
+              >
+                Close
+              </button>
+            </div>
+
+            {aiLoading && (
+              <p className="text-[14px]" style={{ color: "var(--secondary)" }}>
+                Searching verses…
+              </p>
+            )}
+
+            {aiError && (
+              <p className="text-[13px]" style={{ color: "#DC2626" }}>
+                {aiError}
+              </p>
+            )}
+
+            {!aiLoading && !aiError && aiResults.length === 0 && (
+              <p className="text-[13px]" style={{ color: "var(--secondary)" }}>
+                No verses found yet. Try a different question.
+              </p>
+            )}
+
+            {!aiLoading && aiResults.length > 0 && (
+              <div className="mt-1 max-h-[360px] overflow-y-auto space-y-2">
+                {aiResults.map((v, idx) => {
+                  const ref =
+                    typeof v.book_reference === "string"
+                      ? v.book_reference
+                      : v.book_name
+                      ? `${v.book_name} ${v.chapter}:${v.verse}`
+                      : `Book ${v.book_id} ${v.chapter}:${v.verse}`;
+                  const slug = v.book_slug || v.book_id;
+                  return (
+                    <button
+                      key={idx}
+                      type="button"
+                      onClick={() => {
+                        if (slug) {
+                          onSelectVerse(String(slug), v.chapter, v.verse);
+                          setShowAiModal(false);
+                        }
+                      }}
+                      className="w-full text-left rounded-xl px-3 py-2.5 active:opacity-80 transition-opacity"
+                      style={{ backgroundColor: "var(--background)", border: "0.5px solid var(--border)" }}
+                    >
+                      <div className="text-[13px] font-semibold mb-1" style={{ color: "var(--accent)" }}>
+                        {ref}
+                      </div>
+                      {v.text && (
+                        <p className="text-[13px] mb-1" style={{ color: "var(--foreground)" }}>
+                          {v.text}
+                        </p>
+                      )}
+                      {v.modern_text && (
+                        <p className="text-[13px]" style={{ color: "var(--secondary)" }}>
+                          {v.modern_text}
+                        </p>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
 export default function BibleIndex({ books }: { books: Book[] }) {
   const router = useRouter();
   const { settings } = useReadingSettings();
@@ -64,7 +286,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
   const allBooks = testament === "Old" ? oldTestament : newTestament;
 
   // Parse search query for verse reference navigation (e.g., "Genesis 1:3", "Gen 1", "1 John 3:16")
-  const parsedReference = useMemo(() => {
+  const parsedReference: ParsedReference | null = useMemo(() => {
     const q = searchQuery.trim();
     if (!q) return null;
 
@@ -319,41 +541,17 @@ export default function BibleIndex({ books }: { books: Book[] }) {
           {/* Search + Testament toggle — sticky when on Books tab */}
           {activeTab === "books" && (
             <>
-              <div className="mt-4">
-                <div
-                  className="flex items-center gap-2 px-3 py-2.5 rounded-xl"
-                  style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
-                >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ color: "var(--secondary)", flexShrink: 0 }}>
-                    <circle cx="11" cy="11" r="8" />
-                    <path d="m21 21-4.3-4.3" />
-                  </svg>
-                  <input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter" && parsedReference) {
-                        handleGoToReference();
-                      }
-                    }}
-                    placeholder="Search books or type a reference..."
-                    className="flex-1 bg-transparent text-[15px] outline-none"
-                    style={{ color: "var(--foreground)" }}
-                  />
-                  {searchQuery && (
-                    <button
-                      onClick={() => setSearchQuery("")}
-                      className="p-1 rounded-full active:opacity-70"
-                      style={{ color: "var(--secondary)" }}
-                    >
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <path d="M18 6L6 18M6 6l12 12" />
-                      </svg>
-                    </button>
-                  )}
-                </div>
-              </div>
+              <BibleAISearch
+                searchQuery={searchQuery}
+                setSearchQuery={setSearchQuery}
+                parsedReference={parsedReference}
+                onGoToReference={handleGoToReference}
+                books={books}
+                onSelectVerse={(slug, chapter, verse) => {
+                  setSearchQuery("");
+                  router.push(`/bible/${slug}/${chapter}?verse=${verse}`);
+                }}
+              />
 
               <div className="flex gap-0 mt-3 mb-2">
                 {(["Old", "New"] as const).map((t) => (

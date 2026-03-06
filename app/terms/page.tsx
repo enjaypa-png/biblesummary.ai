@@ -76,11 +76,10 @@ export default function TermsPage() {
 
           <section>
             <h2 className="text-[17px] font-semibold mb-2">4. Purchases and Payments</h2>
-            <p>All purchases are processed securely through Stripe. Available paid products include:</p>
+            <p>All purchases are processed securely through Stripe. Current paid products include:</p>
             <ul className="list-disc ml-5 mt-2 space-y-1">
-              <li>Individual book summaries at $0.99 per book</li>
-              <li>Annual summary pass at $14.99/year for all 66 books</li>
-              <li>AI verse explanation subscription</li>
+              <li>Verse explanation access</li>
+              <li>AI-powered premium access (which may include additional AI features)</li>
             </ul>
             <p className="mt-2">
               Prices are displayed in USD and are subject to change. You will always see the current
@@ -103,10 +102,10 @@ export default function TermsPage() {
             <h2 className="text-[17px] font-semibold mb-2">6. Content Disclaimer</h2>
             <p>
               The Bible text provided is the King James Version, which is in the public domain.
-              AI-generated summaries and explanations are produced by machine learning models. While
-              we strive for accuracy, AI-generated content may contain errors. These summaries are
+              AI-generated summaries, explanations, and search results are produced by machine learning models. While
+              we strive for accuracy, AI-generated content may contain errors. These features are
               educational reading aids and should not be treated as authoritative theological
-              commentary.
+              commentary or spiritual counsel.
             </p>
           </section>
 

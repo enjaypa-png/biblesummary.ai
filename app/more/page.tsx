@@ -18,6 +18,7 @@ export default function MorePage() {
   const [subscriptions, setSubscriptions] = useState<Subscription[]>([]);
   const [canceling, setCanceling] = useState<string | null>(null);
   const [cancelError, setCancelError] = useState<string | null>(null);
+  const [cancelMessage, setCancelMessage] = useState<string | null>(null);
   const [billingLoading, setBillingLoading] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deleteConfirmText, setDeleteConfirmText] = useState("");
@@ -56,6 +57,7 @@ export default function MorePage() {
 
     setCanceling(subscriptionType);
     setCancelError(null);
+    setCancelMessage(null);
 
     try {
       const { data: { session } } = await supabase.auth.getSession();
@@ -87,6 +89,9 @@ export default function MorePage() {
         prev.map((s) =>
           s.type === subscriptionType ? { ...s, status: "canceled" } : s
         )
+      );
+      setCancelMessage(
+        "Your subscription will remain active until the end of your current billing period. No future charges will occur."
       );
     } catch {
       setCancelError("Network error. Please try again.");
@@ -213,7 +218,9 @@ export default function MorePage() {
                     Status
                   </span>
                   <p className="text-[15px] mt-1" style={{ color: "var(--foreground)" }}>
-                    Bible & audio free
+                    {subscriptions.some((s) => s.status === "active")
+                      ? "AI features are active for your account."
+                      : "Bible text and audio are free. AI features are available with upgrade."}
                   </p>
                 </div>
                 <button
@@ -291,11 +298,18 @@ export default function MorePage() {
                 </div>
               ))}
 
-              {cancelError && (
+              {(cancelError || cancelMessage) && (
                 <div className="px-4 py-2" style={{ borderTop: "0.5px solid var(--border)" }}>
-                  <p className="text-[13px]" style={{ color: "var(--error)" }}>
-                    {cancelError}
-                  </p>
+                  {cancelError && (
+                    <p className="text-[13px]" style={{ color: "var(--error)" }}>
+                      {cancelError}
+                    </p>
+                  )}
+                  {cancelMessage && (
+                    <p className="text-[13px] mt-0.5" style={{ color: "var(--secondary)" }}>
+                      {cancelMessage}
+                    </p>
+                  )}
                 </div>
               )}
 
@@ -346,13 +360,16 @@ export default function MorePage() {
           </h2>
           <div className="rounded-xl p-4" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
             <p className="text-[14px] leading-relaxed mb-3" style={{ color: "var(--foreground)" }}>
-              ClearBible.ai helps you read, listen to, and finish the entire Bible—without losing track of where you are or what you&apos;ve already read.
+              ClearBible.ai helps you read, listen to, search, and finish the entire Bible without losing track of where you are or what you&apos;ve already read.
+            </p>
+            <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
+              You can also ask ClearBible’s AI questions about the Bible and instantly see the verses that answer them.
             </p>
             <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
               Two versions are available: the King James Version (KJV) and the Clear Bible Translation, a modern English rendering currently being reviewed for accuracy against the KJV. Switch between them anytime in Reading Settings.
             </p>
             <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
-              Bible text and audio are always free. We offer optional AI-generated book summaries designed to help you retain what you read, understand the structure of each book, and return to Scripture with clarity instead of starting over.
+              Bible text and audio are always free. We offer optional AI-powered features designed to help you retain what you read, understand the structure of each book, and return to Scripture with clarity instead of starting over.
             </p>
             <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
               ClearBible.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains without interpretation.

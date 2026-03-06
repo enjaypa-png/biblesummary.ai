@@ -30,7 +30,8 @@ const FEATURES_PREMIUM = [
 ];
 
 // Interactive demo component - this is the conversion engine
-const DEMO_VERSE_TEXT = "For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.";
+const DEMO_VERSE_TEXT =
+  "For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.";
 
 function VerseDemo() {
   const [showExplanation, setShowExplanation] = useState(false);
@@ -115,26 +116,36 @@ function VerseDemo() {
           {/* Verse 10 - interactive */}
           <div style={{ position: "relative" }}>
             <p
-onClick={async () => {
-                  const next = !showExplanation;
-                  setShowExplanation(next);
-                  if (next && !explanationText) {
-                    setExplanationLoading(true);
-                    try {
-                      const res = await fetch("/api/explain-verse", {
-                        method: "POST",
-                        headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({
-                          book: "1 Timothy", chapter: 6, verse_start: 10,
-                          verseText: DEMO_VERSE_TEXT,
-                        }),
-                      });
+              onClick={async () => {
+                const next = !showExplanation;
+                setShowExplanation(next);
+                if (next && !explanationText && !explanationLoading) {
+                  setExplanationLoading(true);
+                  setExplanationText(null);
+                  try {
+                    const res = await fetch("/api/explain-verse", {
+                      method: "POST",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({
+                        verse_id: "1 Timothy.6.10",
+                        verseText: DEMO_VERSE_TEXT,
+                      }),
+                    });
+                    if (res.ok) {
                       const data = await res.json();
-                      setExplanationText(data.explanation || data.text || null);
-                    } catch { /* keep null */ }
+                      setExplanationText(
+                        data.explanation || data.text || "Explanation unavailable. Please try again."
+                      );
+                    } else {
+                      setExplanationText("Explanation unavailable. Please try again.");
+                    }
+                  } catch {
+                    setExplanationText("Explanation unavailable. Please try again.");
+                  } finally {
                     setExplanationLoading(false);
                   }
-                }}
+                }
+              }}
               style={{
                 fontSize: 17,
                 lineHeight: 1.85,
@@ -231,7 +242,9 @@ onClick={async () => {
                   margin: 0,
                   fontFamily: "'DM Sans', sans-serif",
                 }}>
-                  {explanationText || "Loading explanation..."}
+                  {explanationLoading
+                    ? "Loading explanation..."
+                    : explanationText || "Explanation unavailable. Please try again."}
                 </p>
               </div>
             )}
@@ -417,6 +430,237 @@ function StepCard({ number, title, desc }: { number: string; title: string; desc
   );
 }
 
+function HeroBibleSearch() {
+  const [query, setQuery] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [results, setResults] = useState<any[]>([]);
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    const trimmed = query.trim();
+    if (!trimmed) return;
+    setLoading(true);
+    setError(null);
+    setResults([]);
+
+    try {
+      const res = await fetch("/api/bible-search", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query: trimmed }),
+      });
+      if (!res.ok) {
+        throw new Error("Search failed");
+      }
+      const data = await res.json();
+      setResults(Array.isArray(data.verses) ? data.verses : []);
+    } catch (err) {
+      console.error("[HeroBibleSearch] error:", err);
+      setError("Search unavailable. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <div
+      style={{
+        margin: "0 auto 28px",
+        maxWidth: 640,
+        textAlign: "left",
+      }}
+    >
+      <form
+        onSubmit={handleSubmit}
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: 10,
+          alignItems: "stretch",
+          background: "#fff",
+          borderRadius: 999,
+          border: "1.5px solid #d9d0ff",
+          boxShadow: "0 10px 30px rgba(18, 5, 65, 0.08)",
+          padding: 4,
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 6,
+            paddingLeft: 14,
+            color: "#7c5cfc",
+          }}
+        >
+          <span aria-hidden="true">🔍</span>
+          <span aria-hidden="true">✨</span>
+        </div>
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Ask ClearBible AI anything about the Bible"
+          style={{
+            flex: 1,
+            minWidth: 0,
+            border: "none",
+            outline: "none",
+            padding: "12px 18px",
+            fontSize: 15,
+            borderRadius: 999,
+            fontFamily: "'DM Sans', sans-serif",
+            color: "#2a2520",
+          }}
+        />
+        <button
+          type="submit"
+          disabled={loading}
+          style={{
+            padding: "10px 22px",
+            borderRadius: 999,
+            border: "none",
+            background: loading
+              ? "linear-gradient(135deg, #a590ff 0%, #a590ff 100%)"
+              : "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
+            color: "#fff",
+            fontSize: 14,
+            fontWeight: 700,
+            fontFamily: "'DM Sans', sans-serif",
+            cursor: loading ? "default" : "pointer",
+            flexShrink: 0,
+          }}
+        >
+          {loading ? "Searching..." : "Search verses"}
+        </button>
+      </form>
+
+      <div
+        style={{
+          marginTop: 8,
+          fontSize: 13,
+          color: "#8a8580",
+          fontFamily: "'DM Sans', sans-serif",
+        }}
+      >
+        <div style={{ marginBottom: 4 }}>
+          Ask ClearBible’s AI questions about the Bible and instantly see the verses that answer them.
+        </div>
+        <ul style={{ paddingLeft: 18, margin: 0 }}>
+          <li>Why did Judas betray Jesus?</li>
+          <li>What does the Bible say about anxiety?</li>
+          <li>Why did God flood the earth?</li>
+          <li>What is faith according to the Bible?</li>
+        </ul>
+      </div>
+
+      {error && (
+        <p
+          style={{
+            marginTop: 10,
+            fontSize: 13,
+            color: "#c0392b",
+            fontFamily: "'DM Sans', sans-serif",
+          }}
+        >
+          {error}
+        </p>
+      )}
+
+      {results.length > 0 && (
+        <div
+          style={{
+            marginTop: 14,
+            padding: 14,
+            borderRadius: 14,
+            background: "#fff",
+            border: "1px solid #e8e5e0",
+            maxHeight: 320,
+            overflowY: "auto",
+          }}
+        >
+          {results.map((v, idx) => {
+            const ref =
+              typeof v.book_reference === "string"
+                ? v.book_reference
+                : v.book_name
+                ? `${v.book_name} ${v.chapter}:${v.verse}`
+                : `Book ${v.book_id} ${v.chapter}:${v.verse}`;
+            return (
+              <button
+                key={idx}
+                type="button"
+                onClick={() => {
+                  // Navigate to reader at the verse; explanation can be opened there
+                  const slug = v.book_slug || v.book_id;
+                  window.location.href = `/bible/${encodeURIComponent(
+                    slug
+                  )}/${v.chapter}?verse=${v.verse}`;
+                }}
+                style={{
+                  width: "100%",
+                  textAlign: "left",
+                  padding: "10px 10px 12px",
+                  borderRadius: 10,
+                  border: "1px solid #eee7dd",
+                  background: "#fff",
+                  marginBottom: 8,
+                  cursor: "pointer",
+                }}
+              >
+                <div
+                  style={{
+                    fontSize: 13,
+                    fontWeight: 600,
+                    color: "#7c5cfc",
+                    marginBottom: 4,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}
+                >
+                  {ref}
+                  {typeof v.similarity === "number" && (
+                    <span
+                      style={{
+                        marginLeft: 6,
+                        fontSize: 11,
+                        color: "#b0a89e",
+                      }}
+                    >
+                      {(v.similarity * 100).toFixed(0)}% match
+                    </span>
+                  )}
+                </div>
+                {v.text && (
+                  <p
+                    style={{
+                      fontSize: 13,
+                      margin: "0 0 4px",
+                      color: "#3a3530",
+                    }}
+                  >
+                    {v.text}
+                  </p>
+                )}
+                {v.modern_text && (
+                  <p
+                    style={{
+                      fontSize: 13,
+                      margin: 0,
+                      color: "#6a655f",
+                    }}
+                  >
+                    {v.modern_text}
+                  </p>
+                )}
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function ClearBibleLanding() {
   const router = useRouter();
   const [ready, setReady] = useState(false);
@@ -523,13 +767,21 @@ export default function ClearBibleLanding() {
             Read in plain modern English or the KJV — free forever. AI explains every verse instantly.
           </p>
 
+          <div
+            style={{
+              animation: "fadeUp 0.7s ease 0.25s both",
+            }}
+          >
+            <HeroBibleSearch />
+          </div>
+
           <div style={{
             display: "flex",
             gap: 14,
             justifyContent: "center",
             alignItems: "center",
             flexWrap: "wrap",
-            animation: "fadeUp 0.7s ease 0.3s both",
+            animation: "fadeUp 0.7s ease 0.35s both",
           }}>
             <Link href="/signup" style={{
               display: "inline-block",

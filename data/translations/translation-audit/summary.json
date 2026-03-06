@@ -1,0 +1,145 @@
+{
+  "runAt": "2026-03-06T09:17:43.879Z",
+  "dryRun": false,
+  "totalVersesScanned": 22942,
+  "totalGenerated": 24004,
+  "totalBibleVerses": 31102,
+  "ot": {
+    "versesAudited": 22238,
+    "meaningFail": 15,
+    "source": "existing 3-phase pipeline (Claude + GPT-4o)"
+  },
+  "nt": {
+    "versesAudited": 704,
+    "meaningFail": 0,
+    "source": "live GPT-4o read-only audit"
+  },
+  "combined": {
+    "totalScanned": 22942,
+    "totalFail": 15,
+    "totalPass": 22927,
+    "passRate": "99.935"
+  },
+  "confirmedFailVerses": [
+    {
+      "ref": "Numbers 6:11",
+      "testament": "Old",
+      "kjv": "And the priest shall offer the one for a sin offering, and the other for a burnt offering, and make an atonement for him, for that he sinned by the dead, and shall hallow his head that same day.",
+      "ct": "The priest shall offer the one for a sin offering and the other for a burnt offering, and make atonement for them, because they sinned by reason of the dead, and shall consecrate their head that same day.",
+      "reason": "The KJV uses singular pronouns \"him\" and \"he\" and \"his,\" while the modernized version changes these to plural \"them,\" \"they,\" and \"their,\" altering the meaning from an individual to a group.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "Judges 9:33",
+      "testament": "Old",
+      "kjv": "And it shall be, that in the morning, as soon as the sun is up, thou shalt rise early, and set upon the city: and, behold, when he and the people that is with him come out against thee, then mayest thou do to them as thou shalt find occasion.",
+      "ct": "\"Then in the morning, as soon as the sun is up, rise early and rush upon the city. And when he and the people who are with him come out against you, do to them whatever you find occasion to do.\"",
+      "reason": "The modernized verse omits \"And it shall be\" at the beginning and removes \"behold,\" both of which alter the tone and rhetorical structure of the original, and also drops the conditional nuance of \"then mayest thou\" (permission/possibility) by replacing it with the more direct imperative \"do to them.\"",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "Judges 9:53",
+      "testament": "Old",
+      "kjv": "And a certain woman cast a piece of a millstone upon Abimelech’s head, and all to brake his skull.",
+      "ct": "But a certain woman threw a piece of a millstone on Abimelech's head and crushed his skull.",
+      "reason": "The KJV phrase \"all to brake his skull\" means she completely crushed/shattered his skull, with \"all to\" intensifying the breaking, whereas the modernized \"and broke his skull\" loses this intensifying sense of thorough destruction.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "1 Samuel 17:20",
+      "testament": "Old",
+      "kjv": "And David rose up early in the morning, and left the sheep with a keeper, and took, and went, as Jesse had commanded him; and he came to the trench, as the host was going forth to the fight, and shouted for the battle.",
+      "ct": "David rose up early in the morning and left the sheep with a keeper, and took and went, as Jesse had commanded him. He came to the camp as the army was going out to the battle line and shouting for the battle.",
+      "reason": "\"shouted for the battle\" (KJV, past tense, potentially referring to the host or David) is changed to \"shouting for the battle\" (present participle modifying \"the host\"), altering the grammatical structure and potentially the subject/action of the shouting.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "1 Samuel 28:13",
+      "testament": "Old",
+      "kjv": "And the king said unto her, Be not afraid: for what sawest thou? And the woman said unto Saul, I saw gods ascending out of the earth.",
+      "ct": "The king said to her, \"Do not be afraid. What do you see?\" The woman said to Saul, \"I see gods ascending out of the earth.\"",
+      "reason": "The KJV uses past tense \"I saw gods ascending\" while the modernized version changes it to present tense \"I see gods ascending,\" altering the temporal meaning.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "2 Samuel 3:9",
+      "testament": "Old",
+      "kjv": "So do God to Abner, and more also, except, as the LORD hath sworn to David, even so I do to him;",
+      "ct": "\"May God do so to Abner, and more also, unless, as the LORD has sworn to David, I do the same for him—",
+      "reason": "\"I do the same for him\" changes the meaning from \"even so I do to him\" — the KJV says Abner will carry out what was sworn (do to him as God swore), while the modernized version softens it to \"do the same for him,\" altering the directional meaning (\"to\" vs. \"for\").",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "1 Chronicles 6:33",
+      "testament": "Old",
+      "kjv": "And these are they that waited with their children. Of the sons of the Kohathites: Heman a singer, the son of Joel, the son of Shemuel,",
+      "ct": "Here are those who served, along with their sons. From the Kohathites: Heman the singer, the son of Joel, the son of Samuel,",
+      "reason": "\"waited\" (meaning served/ministered) is rendered as \"served,\" which is acceptable, but \"with their children\" is changed to \"along with their sons,\" and \"these are they\" is changed to \"Here are those who served\" which slightly alters the structure; more critically, \"children\" (a broader term) is changed to \"sons,\" which narrows the meaning.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "2 Chronicles 4:12",
+      "testament": "Old",
+      "kjv": "To wit, the two pillars, and the pommels, and the chapiters which were on the top of the two pillars, and the two wreaths to cover the two pommels of the chapiters which were on the top of the pillars;",
+      "ct": "the two pillars, and the bowl-shaped capitals on top of the two pillars, and the two networks to cover the two bowl-shaped capitals that were on top of the pillars;",
+      "reason": "The modernized verse inconsistently renders \"pommels\" as \"capitals\" while keeping \"chapiters\" unchanged, but in the KJV \"pommels\" and \"chapiters\" are distinct architectural elements; replacing \"pommels\" with \"capitals\" conflates them with \"chapiters\" (which also means capitals), altering the meaning.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "Job 3:8",
+      "testament": "Old",
+      "kjv": "Let them curse it that curse the day, who are ready to raise up their mourning.",
+      "ct": "Let those who curse the day curse it — those who are ready to raise up their mourning.",
+      "reason": "The KJV \"raise up their mourning\" refers to raising up \"leviathan\" (the word \"mourning\" is traditionally understood as \"leviathan\" in this context), and the modernized version retains \"mourning\" but the structure change from \"who are ready to raise up their mourning\" subtly alters the referent; however, the actual word-for-word meaning is preserved.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "Jeremiah 23:32",
+      "testament": "Old",
+      "kjv": "Behold, I am against them that prophesy false dreams, saith the LORD, and do tell them, and cause my people to err by their lies, and by their lightness; yet I sent them not, nor commanded them: therefore they shall not profit this people at all, saith the LORD.",
+      "ct": "Behold, I am against those who prophesy false dreams, declares the LORD, and tell them and cause my people to err by their lies and by their recklessness; yet I did not send them nor command them, and they do not profit this people at all, declares the LORD.",
+      "reason": "The KJV's \"therefore they shall not profit this people at all\" is a future consequence (\"shall not profit\"), while the modernized version changes it to a present-tense statement (\"they do not profit\"), altering the temporal meaning and the causal/consequential force of \"therefore,\" which is also omitted.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "Jeremiah 44:19",
+      "testament": "Old",
+      "kjv": "And when we burned incense to the queen of heaven, and poured out drink offerings unto her, did we make her cakes to worship her, and pour out drink offerings unto her, without our men?",
+      "ct": "And the women said, \"When we burned incense to the queen of heaven and poured out drink offerings to her, did we make cakes to worship her and pour out drink offerings to her without our husbands?\"",
+      "reason": "The modernized verse adds \"And the women said,\" which is an attribution not present in the KJV verse itself, introducing context not contained in the original text.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "Ezekiel 25:9",
+      "testament": "Old",
+      "kjv": "Therefore, behold, I will open the side of Moab from the cities, from his cities which are on his frontiers, the glory of the country, Bethjeshimoth, Baalmeon, and Kiriathaim,",
+      "ct": "therefore, I will open the side of Moab from the cities, from its cities which are on its borders, the glory of the country: Beth-jeshimoth, Baal-meon, and Kiriathaim,",
+      "reason": "The modernized verse omits \"behold,\" which removes an interjection present in the KJV that serves to draw attention and adds rhetorical emphasis.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "Ezekiel 42:20",
+      "testament": "Old",
+      "kjv": "He measured it by the four sides: it had a wall round about, five hundred reeds long, and five hundred broad, to make a separation between the sanctuary and the profane place.",
+      "ct": "He measured it on the four sides. It had a wall all around, five hundred reeds long and five hundred wide, to make a separation between the holy place and the common place.",
+      "reason": "\"the sanctuary\" (KJV) was changed to \"the holy place,\" which slightly alters the specific term used; also \"broad\" was changed to \"wide,\" though that is minor, the key issue is \"sanctuary\" vs. \"holy place\" — these are not strictly equivalent terms, as \"sanctuary\" carries a more specific connotation than the general \"holy place.\"",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "Joel 3:4",
+      "testament": "Old",
+      "kjv": "Yea, and what have ye to do with me, O Tyre, and Zidon, and all the coasts of Palestine? will ye render me a recompence? and if ye recompense me, swiftly and speedily will I return your recompence upon your own head;",
+      "ct": "And what do you have to do with me, Tyre, and Sidon, and all the coasts of Palestine? Will you pay me back? And if you pay me back, swiftly and speedily I will return your payment on your own heads.",
+      "reason": "The modernized verse omits the initial \"Yea\" which serves as an emphatic intensifier in the KJV, slightly reducing the rhetorical force of the original.",
+      "source": "ot-pipeline"
+    },
+    {
+      "ref": "Malachi 3:15",
+      "testament": "Old",
+      "kjv": "And now we call the proud happy; yea, they that work wickedness are set up; yea, they that tempt God are even delivered.",
+      "ct": "And now we call the proud happy; yes, those who work wickedness are built up; yes, those who tempt God are even delivered.'\"",
+      "reason": "The modernized verse adds a closing quotation mark ('\") not present in the KJV, introducing a structural/textual element that alters the presentation.",
+      "source": "ot-pipeline"
+    }
+  ]
+}

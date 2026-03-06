@@ -36,7 +36,9 @@
     "seed:modern": "tsx scripts/seed-modern-text.ts",
     "ct:generate:v2": "tsx scripts/ct-generate-v2.ts",
     "ct:audit:openai": "tsx scripts/ct-audit-openai.ts",
-    "fix:subs": "tsx scripts/fix-subscriptions.ts"
+    "fix:subs": "tsx scripts/fix-subscriptions.ts",
+    "generate-embeddings": "tsx scripts/generate-verse-embeddings.ts",
+    "audit:translation": "tsx scripts/audit-clear-translation.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.74.0",
@@ -45,6 +47,7 @@
     "@supabase/supabase-js": "^2.39.7",
     "framer-motion": "^12.29.2",
     "next": "^14.2.18",
+    "openai": "^6.27.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sharp": "^0.34.5",
