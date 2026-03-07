@@ -10,7 +10,7 @@ import { ReadingSettingsProvider } from "@/contexts/ReadingSettingsContext";
 
 export const metadata: Metadata = {
   title: "ClearBible.ai — Read the Bible in Plain English | Free Bible App",
-  description: "Read the Bible in plain, clear English — free. The Clear Bible Translation makes scripture easy to understand for the first time. AI explanations, audio, notes & more.",
+  description: "Read the Bible in plain, clear English — free. The Clear Bible Translation makes scripture easy to understand for the first time. AI Bible Search, verse explanations, audio, notes & more.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   themeColor: "#7c5cfc",
   icons: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "ClearBible.ai — Read the Bible in Plain English",
-    description: "The Bible, finally easy to understand. Free forever. Read the Clear Bible Translation or KJV, listen to audio, get AI explanations for any verse.",
+    description: "The Bible, finally easy to understand. Free forever. Read the Clear Bible Translation or KJV, listen to audio, search with AI, and get AI explanations for any verse.",
     url: "https://clearbible.ai",
     siteName: "ClearBible.ai",
     images: [{ url: "/brand/logo-512.png" }],

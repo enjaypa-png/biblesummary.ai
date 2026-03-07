@@ -89,7 +89,7 @@ export default function PrivacyPage() {
                 <strong>ElevenLabs:</strong> Text-to-speech audio generation
               </li>
               <li>
-                <strong>OpenAI:</strong> AI-generated verse explanations
+                <strong>OpenAI:</strong> AI-generated verse explanations and AI Bible Search answers
               </li>
               <li>
                 <strong>Vercel:</strong> Application hosting

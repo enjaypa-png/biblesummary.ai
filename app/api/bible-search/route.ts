@@ -74,6 +74,40 @@ export async function POST(req: NextRequest) {
     );
   }
 
+  // ── Auth + entitlement check ──
+  const authHeader = req.headers.get("authorization");
+  if (!authHeader?.startsWith("Bearer ")) {
+    return NextResponse.json(
+      { error: "AI Bible Search is a premium feature. Please upgrade to access.", code: "PAYWALL" },
+      { status: 403 },
+    );
+  }
+
+  const preAuthSupabase = createClient(supabaseUrl, supabaseKey);
+  const accessToken = authHeader.slice(7);
+  const {
+    data: { user: authUser },
+    error: authError,
+  } = await preAuthSupabase.auth.getUser(accessToken);
+
+  if (authError || !authUser) {
+    return NextResponse.json(
+      { error: "AI Bible Search is a premium feature. Please upgrade to access.", code: "PAYWALL" },
+      { status: 403 },
+    );
+  }
+
+  const { data: hasAccess } = await preAuthSupabase.rpc("user_has_explain_access", {
+    p_user_id: authUser.id,
+  });
+
+  if (hasAccess !== true) {
+    return NextResponse.json(
+      { error: "AI Bible Search is a premium feature. Please upgrade to access.", code: "PAYWALL" },
+      { status: 403 },
+    );
+  }
+
   try {
     const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
     const supabase = createClient(supabaseUrl, supabaseKey);

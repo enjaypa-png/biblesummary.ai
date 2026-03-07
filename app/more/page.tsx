@@ -219,8 +219,8 @@ export default function MorePage() {
                   </span>
                   <p className="text-[15px] mt-1" style={{ color: "var(--foreground)" }}>
                     {subscriptions.some((s) => s.status === "active")
-                      ? "AI features are active for your account."
-                      : "Bible text and audio are free. AI features are available with upgrade."}
+                      ? "AI features (Bible Search, explanations, summaries) are active for your account."
+                      : "Bible text is free. AI features (Bible Search, explanations, summaries) are available with upgrade."}
                   </p>
                 </div>
                 <button

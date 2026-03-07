@@ -54,9 +54,10 @@ export default function TermsPage() {
             <p>
               ClearBible.ai is a digital Bible reading application. The Service provides free
               access to the King James Version Bible text. We also offer optional
-              paid features including audio playback, AI-generated book summaries, and AI-generated verse
-              explanations. These paid features are educational reading tools designed to help users
-              retain and understand what they read.
+              paid features including audio playback, AI-generated book summaries, AI-generated verse
+              explanations, and AI Bible Search (a natural-language search tool that returns AI-generated
+              answers with supporting Bible verses). These paid features are educational reading tools
+              designed to help users retain and understand what they read.
             </p>
             <p className="mt-2">
               ClearBible.ai does not provide spiritual counseling, religious advice, pastoral
@@ -79,7 +80,8 @@ export default function TermsPage() {
             <p>All purchases are processed securely through Stripe. Current paid products include:</p>
             <ul className="list-disc ml-5 mt-2 space-y-1">
               <li>Verse explanation access</li>
-              <li>AI-powered premium access (which may include additional AI features)</li>
+              <li>AI Bible Search access</li>
+              <li>AI-powered premium access (all AI features, audio, summaries, and future features)</li>
             </ul>
             <p className="mt-2">
               Prices are displayed in USD and are subject to change. You will always see the current
@@ -102,7 +104,7 @@ export default function TermsPage() {
             <h2 className="text-[17px] font-semibold mb-2">6. Content Disclaimer</h2>
             <p>
               The Bible text provided is the King James Version, which is in the public domain.
-              AI-generated summaries, explanations, and search results are produced by machine learning models. While
+              AI-generated summaries, verse explanations, and AI Bible Search answers are produced by machine learning models. While
               we strive for accuracy, AI-generated content may contain errors. These features are
               educational reading aids and should not be treated as authoritative theological
               commentary or spiritual counsel.
