@@ -20,6 +20,7 @@
    --card: #ffffff;
    --card-hover: #f8f7f5;
    --tab-bar: #ffffff;
+   --tab-inactive: #6b6560;
    --verse-num: #7c5cfc;
    --success: #22a867;
    --warning: #d97706;
@@ -71,6 +72,7 @@
     --card: #262626;
     --card-hover: #303030;
     --tab-bar: #1a1a1a;
+    --tab-inactive: #9ca3af;
     --background-blur: rgba(26, 26, 26, 0.95);
     --secondary: #9ca3af;
     --muted: #6b7280;
