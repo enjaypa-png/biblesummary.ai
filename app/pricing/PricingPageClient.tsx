@@ -264,6 +264,10 @@ export default function PricingPageClient() {
               <ul className="space-y-2 text-[14px] mb-5" style={{ color: "var(--foreground)" }}>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
+                  <span>AI Bible Search — ask any question, get instant answers with verses</span>
+                </li>
+                <li className="flex items-start gap-2.5">
+                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
                   <span>All 66 book summaries</span>
                 </li>
                 <li className="flex items-start gap-2.5">

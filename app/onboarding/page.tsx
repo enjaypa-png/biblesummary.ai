@@ -15,8 +15,8 @@ const STEPS = [
   {
     emoji: "✨",
     title: "Understand every verse — instantly",
-    subtitle: "Tap any verse to get a plain-language explanation.",
-    body: "No theological jargon. No confusing language. Just a clear, simple explanation of what the verse means — right there in the reading experience. Your first 3 explanations are free.",
+    subtitle: "AI-powered tools to help you understand Scripture.",
+    body: "Tap any verse for a plain-language explanation. Use AI Bible Search to ask any question and get instant answers with supporting verses. No jargon, no confusing language — just clarity. Premium features are included with ClearBible Unlimited.",
     cta: "That sounds great",
   },
   {

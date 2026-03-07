@@ -17,6 +17,12 @@ const FEATURES_FREE = [
 
 const FEATURES_PREMIUM = [
   {
+    icon: "🔍",
+    name: "AI Bible Search",
+    desc: "Ask any Bible question and get an instant AI-powered answer with supporting verses.",
+    highlight: true,
+  },
+  {
     icon: "✨",
     name: "Explain Any Verse",
     desc: "Tap any verse and get an instant, plain-language explanation. No theological jargon — just clarity.",

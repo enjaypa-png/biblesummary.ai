@@ -1,7 +1,9 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, useEffect, type FormEvent } from "react";
 import Link from "next/link";
+import { getCurrentUser, supabase } from "@/lib/supabase";
+import { startCheckout } from "@/lib/entitlements";
 
 interface SearchVerse {
   book_id: string;
@@ -30,9 +32,72 @@ export default function SearchPage() {
   const [verses, setVerses] = useState<SearchVerse[]>([]);
   const [hasSearched, setHasSearched] = useState(false);
 
+  // Auth + entitlement state
+  const [authChecked, setAuthChecked] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [hasAccess, setHasAccess] = useState(false);
+  const [showPaywall, setShowPaywall] = useState(false);
+  const [checkoutLoading, setCheckoutLoading] = useState(false);
+  const [checkoutError, setCheckoutError] = useState<string | null>(null);
+
+  useEffect(() => {
+    async function checkAccess() {
+      const user = await getCurrentUser();
+      setIsAuthenticated(!!user);
+      if (!user) {
+        setAuthChecked(true);
+        return;
+      }
+
+      // Check if user has premium/explain access (AI Bible Search is bundled with premium)
+      const { data: explainAccess } = await supabase.rpc("user_has_explain_access", {
+        p_user_id: user.id,
+      });
+
+      if (explainAccess === true) {
+        setHasAccess(true);
+        setAuthChecked(true);
+        return;
+      }
+
+      // Fallback: check via API (Stripe verification)
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session?.access_token) {
+          const res = await fetch("/api/check-access", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: `Bearer ${session.access_token}`,
+            },
+            body: JSON.stringify({}),
+          });
+          if (res.ok) {
+            const result = await res.json();
+            if (result.hasExplainAccess) {
+              setHasAccess(true);
+            }
+          }
+        }
+      } catch {
+        // Stripe fallback failed
+      }
+
+      setAuthChecked(true);
+    }
+
+    checkAccess();
+  }, []);
+
   async function handleSearch(searchQuery: string) {
     const trimmed = searchQuery.trim();
     if (!trimmed) return;
+
+    // Check paywall
+    if (!hasAccess) {
+      setShowPaywall(true);
+      return;
+    }
 
     setQuery(trimmed);
     setLoading(true);
@@ -42,9 +107,13 @@ export default function SearchPage() {
     setHasSearched(true);
 
     try {
+      const { data: { session } } = await supabase.auth.getSession();
       const res = await fetch("/api/bible-search", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          ...(session?.access_token ? { Authorization: `Bearer ${session.access_token}` } : {}),
+        },
         body: JSON.stringify({ query: trimmed }),
       });
       if (!res.ok) {
@@ -65,6 +134,34 @@ export default function SearchPage() {
     handleSearch(query);
   }
 
+  async function handleUpgrade() {
+    if (!isAuthenticated) {
+      window.location.href = `/login?redirect=${encodeURIComponent("/search")}`;
+      return;
+    }
+
+    setCheckoutLoading(true);
+    setCheckoutError(null);
+
+    const { url, error: err } = await startCheckout({
+      product: "premium_annual",
+      returnPath: "/pricing/success",
+    });
+
+    if (err) {
+      setCheckoutError(err);
+      setCheckoutLoading(false);
+      return;
+    }
+
+    if (url) {
+      window.location.href = url;
+    } else {
+      setCheckoutError("Unable to start checkout. Please try again.");
+      setCheckoutLoading(false);
+    }
+  }
+
   return (
     <div className="min-h-screen pb-24" style={{ backgroundColor: "var(--background)" }}>
       <header
@@ -78,7 +175,7 @@ export default function SearchPage() {
           className="text-[17px] font-semibold text-center max-w-lg mx-auto"
           style={{ color: "var(--foreground)" }}
         >
-          Ask ClearBible AI
+          AI Bible Search
         </h1>
       </header>
 
@@ -131,6 +228,34 @@ export default function SearchPage() {
             </button>
           </div>
         </form>
+
+        {/* Premium badge for free users */}
+        {authChecked && !hasAccess && (
+          <div
+            className="flex items-center gap-2 mb-5 px-4 py-3 rounded-xl"
+            style={{
+              backgroundColor: "var(--accent-light, rgba(124, 92, 252, 0.08))",
+              border: "1px solid var(--accent-border, rgba(124, 92, 252, 0.2))",
+            }}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--accent)" className="flex-shrink-0">
+              <path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z" />
+            </svg>
+            <span
+              className="text-[13px] font-medium"
+              style={{ color: "var(--accent)", fontFamily: "'DM Sans', sans-serif" }}
+            >
+              AI Bible Search is a premium feature.{" "}
+              <button
+                onClick={() => setShowPaywall(true)}
+                className="underline font-semibold"
+                style={{ color: "var(--accent)" }}
+              >
+                Upgrade to unlock
+              </button>
+            </span>
+          </div>
+        )}
 
         {/* Example questions (shown before any search) */}
         {!hasSearched && !loading && (
@@ -317,6 +442,86 @@ export default function SearchPage() {
           </div>
         )}
       </main>
+
+      {/* Paywall modal */}
+      {showPaywall && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center px-5"
+          style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setShowPaywall(false);
+          }}
+        >
+          <div
+            className="w-full max-w-md rounded-2xl p-6"
+            style={{ backgroundColor: "var(--card)", border: "1px solid var(--border)" }}
+          >
+            <div className="flex justify-center mb-4">
+              <span
+                className="w-12 h-12 rounded-full flex items-center justify-center"
+                style={{ backgroundColor: "var(--accent-light, rgba(124, 92, 252, 0.1))" }}
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+              </span>
+            </div>
+
+            <h3
+              className="text-[18px] font-bold text-center mb-2"
+              style={{ color: "var(--foreground)", fontFamily: "'DM Sans', sans-serif" }}
+            >
+              AI Bible Search
+            </h3>
+            <p
+              className="text-[14px] text-center leading-relaxed mb-5"
+              style={{ color: "var(--foreground-secondary)", fontFamily: "'DM Sans', sans-serif" }}
+            >
+              Ask any Bible question and get an instant AI-powered answer with supporting verses. This is a premium feature included with ClearBible Unlimited.
+            </p>
+
+            <button
+              onClick={handleUpgrade}
+              disabled={checkoutLoading}
+              className="w-full flex items-center justify-between px-5 py-3.5 rounded-xl text-left transition-all active:scale-[0.98] disabled:opacity-60 mb-2"
+              style={{ backgroundColor: "var(--accent)", color: "#ffffff" }}
+            >
+              <span>
+                <span className="block text-[15px] font-semibold">
+                  {isAuthenticated ? "Upgrade to Unlimited" : "Sign in to get started"}
+                </span>
+                <span className="block text-[12px] opacity-80">
+                  AI Bible Search + explanations + summaries + audio
+                </span>
+              </span>
+              <span className="text-[16px] font-bold">
+                {checkoutLoading ? (
+                  <span className="inline-block w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                ) : isAuthenticated ? (
+                  "$79/yr"
+                ) : (
+                  "Free"
+                )}
+              </span>
+            </button>
+
+            {checkoutError && (
+              <p className="text-[13px] text-center mt-2" style={{ color: "var(--error)" }}>
+                {checkoutError}
+              </p>
+            )}
+
+            <button
+              onClick={() => setShowPaywall(false)}
+              className="w-full py-2.5 mt-2 text-[14px] font-medium rounded-xl"
+              style={{ color: "var(--secondary)" }}
+            >
+              Maybe later
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
