@@ -5,8 +5,11 @@ import Link from "next/link";
 
 const DEMO_QUESTION = "Who was Samson?";
 
-const DEMO_ANSWER =
-  "Samson was an Israelite judge with supernatural strength that came from God through a Nazirite vow — part of which meant he could never cut his hair. His story is told in Judges 13\u201316, where he single-handedly fought the Philistines, Israel\u2019s main enemy at the time. He was ultimately betrayed by Delilah, who discovered the secret of his strength and had his hair cut while he slept. Captured and blinded, Samson made a final stand by pulling down the pillars of a Philistine temple, killing more enemies in his death than in his entire life.";
+const DEMO_ANSWER_SHORT =
+  "Samson was a judge of Israel known for his incredible strength, which God gave him to help defend Israel from the Philistines. His strength was tied to a Nazirite vow, meaning his hair was never to be cut.\n\nSamson performed many powerful acts. In one famous story, he killed 1,000 Philistine soldiers using only the jawbone of a donkey (Judges 15:15). Despite his strength, Samson often made poor choices, especially in relationships. Delilah eventually betrayed him, and his enemies captured him after cutting his hair.";
+
+const DEMO_ANSWER_MORE =
+  "At the end of his life, Samson prayed for strength one last time. While chained inside a Philistine temple, he pushed apart the two central pillars, collapsing the building and killing the Philistine rulers and many others inside. The Bible says he killed more Philistines in his death than during his life (Judges 16:30).\n\nSamson\u2019s story is about strength, failure, and redemption\u2014showing that even after serious mistakes, turning back to God still matters.";
 
 const DEMO_VERSES = [
   {
@@ -29,6 +32,7 @@ const DEMO_VERSES = [
 
 export default function HeroBibleSearch() {
   const [showDemo, setShowDemo] = useState(false);
+  const [showMore, setShowMore] = useState(false);
 
   return (
     <div
@@ -157,7 +161,7 @@ export default function HeroBibleSearch() {
                 AI Answer
               </span>
             </div>
-            <p
+            <div
               style={{
                 fontSize: 15,
                 lineHeight: 1.75,
@@ -166,8 +170,34 @@ export default function HeroBibleSearch() {
                 fontFamily: "'DM Sans', sans-serif",
               }}
             >
-              {DEMO_ANSWER}
-            </p>
+              {DEMO_ANSWER_SHORT.split("\n\n").map((para, i) => (
+                <p key={i} style={{ margin: i === 0 ? 0 : "12px 0 0" }}>{para}</p>
+              ))}
+              {!showMore && (
+                <button
+                  type="button"
+                  onClick={(e) => { e.stopPropagation(); setShowMore(true); }}
+                  style={{
+                    display: "inline-block",
+                    marginTop: 10,
+                    padding: "6px 16px",
+                    fontSize: 13,
+                    fontWeight: 600,
+                    fontFamily: "'DM Sans', sans-serif",
+                    color: "#7c5cfc",
+                    background: "rgba(124, 92, 252, 0.08)",
+                    border: "1px solid rgba(124, 92, 252, 0.2)",
+                    borderRadius: 8,
+                    cursor: "pointer",
+                  }}
+                >
+                  More
+                </button>
+              )}
+              {showMore && DEMO_ANSWER_MORE.split("\n\n").map((para, i) => (
+                <p key={`more-${i}`} style={{ margin: "12px 0 0" }}>{para}</p>
+              ))}
+            </div>
           </div>
 
           {/* Supporting verses */}

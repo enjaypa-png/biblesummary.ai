@@ -13,6 +13,7 @@ import ExplainPaywall from "@/components/ExplainPaywall";
 import UpgradeNudge from "@/components/UpgradeNudge";
 import InstallPrompt from "@/components/InstallPrompt";
 import { HIGHLIGHT_COLORS, getHighlightBg } from "@/lib/highlightColors";
+import ReaderSearchBar from "@/components/ReaderSearchBar";
 
 // Feature flag: show a bold lead-in line above explanation text
 const SHOW_EXPLAIN_LEADIN = true;
@@ -937,6 +938,9 @@ export default function ChapterReaderClient({
           </div>
         )}
       </header>
+
+      {/* ── Search bar ── */}
+      <ReaderSearchBar />
 
       {/* Bookmark error banner (temporary debugging) */}
       {bookmarkError && (
