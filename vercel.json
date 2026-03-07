@@ -1,3 +1,4 @@
 {
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "ignoreCommand": "git diff --quiet HEAD^ HEAD -- app/ components/ contexts/ lib/ public/ content/ middleware.ts next.config.mjs package.json tsconfig.json tailwind.config.ts"
 }
