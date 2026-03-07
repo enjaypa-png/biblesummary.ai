@@ -99,23 +99,34 @@ function BibleAISearch({
     <>
       <div className="mt-4">
         <div
-          className="flex items-center gap-2 px-3 py-2.5 rounded-xl"
-          style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+          className="flex items-center gap-2 px-3 py-3 rounded-2xl transition-all"
+          style={{
+            backgroundColor: "var(--card)",
+            border: "1.5px solid var(--border)",
+          }}
+          onFocus={(e) => {
+            e.currentTarget.style.borderColor = "var(--accent)";
+            e.currentTarget.style.boxShadow = "0 0 0 3px rgba(124, 92, 252, 0.1)";
+          }}
+          onBlur={(e) => {
+            e.currentTarget.style.borderColor = "var(--border)";
+            e.currentTarget.style.boxShadow = "none";
+          }}
         >
-          <span
-            aria-hidden="true"
-            className="flex items-center justify-center w-7 h-7 rounded-full"
-            style={{ backgroundColor: "var(--background)" }}
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="flex-shrink-0"
           >
-            <span style={{ fontSize: 13 }}>🔍</span>
-          </span>
-          <span
-            aria-hidden="true"
-            className="text-[12px] font-medium px-1"
-            style={{ color: "var(--accent)" }}
-          >
-            ✨
-          </span>
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
           <input
             type="text"
             value={searchQuery}
@@ -126,7 +137,7 @@ function BibleAISearch({
                 handleEnter();
               }
             }}
-            placeholder="Search books, type a verse, or ask ClearBible AI a question"
+            placeholder="Search books, verses, or ask the AI a question\u2026"
             className="flex-1 bg-transparent text-[15px] outline-none"
             style={{ color: "var(--foreground)" }}
           />
@@ -583,8 +594,11 @@ export default function BibleIndex({ books }: { books: Book[] }) {
         {activeTab === "books" && readingPosition && (
           <Link
             href={`/bible/${readingPosition.bookSlug}/${readingPosition.chapter}?verse=${readingPosition.verse}`}
-            className="flex items-center gap-3.5 mb-3 p-4 rounded-xl active:opacity-80 transition-opacity"
-            style={{ backgroundColor: "var(--accent)" }}
+            className="flex items-center gap-4 mb-4 p-5 rounded-2xl active:opacity-80 transition-opacity"
+            style={{
+              backgroundColor: "var(--accent)",
+              boxShadow: "0 4px 16px rgba(124, 92, 252, 0.3)",
+            }}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
               <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />

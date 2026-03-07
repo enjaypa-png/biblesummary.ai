@@ -101,7 +101,7 @@ function VerseDemo() {
           borderBottom: "1px solid #e8e5e0",
           fontFamily: "'DM Sans', sans-serif",
         }}>
-          <span style={{ fontSize: 13, color: "#8a8580", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>1 Timothy 6</span>
+          <span style={{ fontSize: 13, color: "#6a655e", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>1 Timothy 6</span>
           <div style={{ display: "flex", gap: 12 }}>
             <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🔖</span>
             <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🎧</span>
@@ -112,7 +112,7 @@ function VerseDemo() {
         <div style={{ padding: "28px 24px 20px" }}>
           {/* Verse 9 - context */}
           <p style={{ fontSize: 17, lineHeight: 1.85, color: "#3a3530", margin: "0 0 16px" }}>
-            <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>9</span>
+            <span style={{ color: "#9a958e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>9</span>
             But they that will be rich fall into temptation and a snare, and into many foolish and hurtful lusts, which drown men in destruction and perdition.
           </p>
 
@@ -139,7 +139,7 @@ function VerseDemo() {
                 border: showExplanation ? "1.5px solid #c4b8ff" : "1.5px solid transparent",
               }}
             >
-              <span style={{ color: "#b0a89e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>10</span>
+              <span style={{ color: "#9a958e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>10</span>
               For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.
               {!showExplanation && (
                 <span style={{
@@ -345,7 +345,7 @@ function FeatureCard({ icon, name, desc, highlight, delay }: { icon: string; nam
         fontFamily: "'DM Sans', sans-serif",
         fontSize: 14,
         lineHeight: 1.65,
-        color: "#7a756e",
+        color: "#5a554e",
         margin: 0,
       }}>{desc}</p>
     </div>
@@ -365,7 +365,7 @@ function StatBlock({ number, label }: { number: string; label: string }) {
       <div style={{
         fontFamily: "'DM Sans', sans-serif",
         fontSize: 14,
-        color: "#8a8580",
+        color: "#6a655e",
         marginTop: 6,
         fontWeight: 500,
       }}>{label}</div>
@@ -400,7 +400,7 @@ function StepCard({ number, title, desc }: { number: string; title: string; desc
       <p style={{
         fontFamily: "'DM Sans', sans-serif",
         fontSize: 14,
-        color: "#8a8580",
+        color: "#6a655e",
         margin: 0,
         lineHeight: 1.6,
       }}>{desc}</p>
@@ -562,7 +562,7 @@ export default function ClearBibleLanding() {
 
           <p style={{
             fontSize: 13,
-            color: "#b0a89e",
+            color: "#9a958e",
             marginTop: 16,
             animation: "fadeUp 0.7s ease 0.4s both",
           }}>
@@ -582,55 +582,6 @@ export default function ClearBibleLanding() {
               View Pricing →
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* ═══════════════════ ORIGIN STORY ═══════════════════ */}
-      <section style={{
-        padding: "64px 24px",
-        textAlign: "center",
-        background: "#fff",
-        borderTop: "1px solid #eee",
-        borderBottom: "1px solid #eee",
-      }}>
-        <div style={{ maxWidth: 600, margin: "0 auto", animation: "fadeUp 0.7s ease both" }}>
-          <div style={{
-            fontFamily: "'Source Serif 4', Georgia, serif",
-            fontSize: "clamp(20px, 3.5vw, 26px)",
-            fontWeight: 400,
-            fontStyle: "italic",
-            lineHeight: 1.8,
-            color: "#3a3530",
-          }}>
-            <p style={{ margin: "0 0 8px" }}>&ldquo;I committed to reading the Bible cover to cover.</p>
-            <p style={{ margin: "0 0 8px" }}>But when I revisited earlier chapters, I realized I wasn&apos;t truly retaining it.</p>
-            <p style={{
-              margin: "24px 0 0",
-              fontStyle: "normal",
-              fontWeight: 700,
-              color: "#1a1510",
-            }}>
-              That&apos;s when I decided to build a better way to read the Bible and remember.&rdquo;
-            </p>
-          </div>
-          <p style={{
-            marginTop: 20,
-            fontSize: 15,
-            fontWeight: 600,
-            color: "#8a8580",
-            fontFamily: "'DM Sans', sans-serif",
-            letterSpacing: 0.5,
-          }}>
-            — Nicholas Palladino, Founder
-          </p>
-          <div style={{
-            marginTop: 20,
-            width: 48,
-            height: 3,
-            background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
-            borderRadius: 2,
-            margin: "20px auto 0",
-          }} />
         </div>
       </section>
 
@@ -662,7 +613,7 @@ export default function ClearBibleLanding() {
           </h2>
           <p style={{
             fontSize: 16,
-            color: "#8a8580",
+            color: "#6a655e",
             maxWidth: 460,
             margin: "0 auto",
           }}>
@@ -671,6 +622,55 @@ export default function ClearBibleLanding() {
         </div>
 
         <VerseDemo />
+      </section>
+
+      {/* ═══════════════════ ORIGIN STORY ═══════════════════ */}
+      <section style={{
+        padding: "64px 24px",
+        textAlign: "center",
+        background: "#fff",
+        borderTop: "1px solid #eee",
+        borderBottom: "1px solid #eee",
+      }}>
+        <div style={{ maxWidth: 600, margin: "0 auto", animation: "fadeUp 0.7s ease both" }}>
+          <div style={{
+            fontFamily: "'Source Serif 4', Georgia, serif",
+            fontSize: "clamp(18px, 3vw, 22px)",
+            fontWeight: 400,
+            fontStyle: "italic",
+            lineHeight: 1.8,
+            color: "#2a2520",
+          }}>
+            <p style={{ margin: "0 0 8px" }}>&ldquo;I committed to reading the Bible cover to cover.</p>
+            <p style={{ margin: "0 0 8px" }}>But when I revisited earlier chapters, I realized I wasn&apos;t truly retaining it.</p>
+            <p style={{
+              margin: "24px 0 0",
+              fontStyle: "normal",
+              fontWeight: 700,
+              color: "#1a1510",
+            }}>
+              That&apos;s when I decided to build a better way to read the Bible and remember.&rdquo;
+            </p>
+          </div>
+          <p style={{
+            marginTop: 20,
+            fontSize: 15,
+            fontWeight: 600,
+            color: "#6a655e",
+            fontFamily: "'DM Sans', sans-serif",
+            letterSpacing: 0.5,
+          }}>
+            — Nicholas Palladino, Founder
+          </p>
+          <div style={{
+            marginTop: 20,
+            width: 48,
+            height: 3,
+            background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
+            borderRadius: 2,
+            margin: "20px auto 0",
+          }} />
+        </div>
       </section>
 
       {/* ═══════════════════ STATS ═══════════════════ */}
@@ -722,7 +722,7 @@ export default function ClearBibleLanding() {
           </h2>
           <p style={{
             fontSize: 16,
-            color: "#8a8580",
+            color: "#6a655e",
             maxWidth: 500,
             margin: "0 auto",
           }}>
@@ -769,7 +769,7 @@ export default function ClearBibleLanding() {
             </h2>
             <p style={{
               fontSize: 16,
-              color: "#8a8580",
+              color: "#6a655e",
               maxWidth: 520,
               margin: "0 auto",
             }}>
@@ -859,7 +859,7 @@ export default function ClearBibleLanding() {
           <p style={{
             fontSize: 15,
             lineHeight: 1.7,
-            color: "#8a8580",
+            color: "#6a655e",
           }}>
             ClearBible.ai is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains in plain language.
           </p>
@@ -883,7 +883,7 @@ export default function ClearBibleLanding() {
         </h2>
         <p style={{
           fontSize: 16,
-          color: "#8a8580",
+          color: "#6a655e",
           marginBottom: 32,
           maxWidth: 420,
           margin: "0 auto 32px",
@@ -959,7 +959,7 @@ export default function ClearBibleLanding() {
           ].map(item => (
             <Link key={item.label} href={item.href} style={{
               fontSize: 13,
-              color: "#8a8580",
+              color: "#6a655e",
               textDecoration: "none",
             }}>{item.label}</Link>
           ))}

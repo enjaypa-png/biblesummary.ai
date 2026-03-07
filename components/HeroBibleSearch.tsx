@@ -44,13 +44,15 @@ export default function HeroBibleSearch() {
           flexWrap: "wrap",
           gap: 10,
           alignItems: "center",
-          background: "#fff",
+          background: "linear-gradient(135deg, #faf8ff 0%, #f5f2ff 100%)",
           borderRadius: 999,
-          border: showDemo ? "1.5px solid #7c5cfc" : "1.5px solid #d9d0ff",
-          boxShadow: "0 10px 30px rgba(18, 5, 65, 0.08)",
-          padding: "4px 4px 4px 14px",
+          border: showDemo ? "1.5px solid #7c5cfc" : "1.5px solid #c4b8ff",
+          boxShadow: showDemo
+            ? "0 0 0 3px rgba(124, 92, 252, 0.12), 0 10px 30px rgba(18, 5, 65, 0.10)"
+            : "0 10px 30px rgba(18, 5, 65, 0.10), 0 0 0 1px rgba(124, 92, 252, 0.06)",
+          padding: "6px 6px 6px 16px",
           cursor: "pointer",
-          transition: "border-color 0.2s ease",
+          transition: "border-color 0.2s ease, box-shadow 0.2s ease",
           textAlign: "left",
         }}
       >
@@ -63,7 +65,7 @@ export default function HeroBibleSearch() {
             flexShrink: 0,
           }}
         >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <circle cx="11" cy="11" r="8" />
             <line x1="21" y1="21" x2="16.65" y2="16.65" />
           </svg>
@@ -74,17 +76,17 @@ export default function HeroBibleSearch() {
         <span
           style={{
             flex: 1,
-            padding: "12px 8px",
+            padding: "14px 8px",
             fontSize: 15,
             fontFamily: "'DM Sans', sans-serif",
-            color: showDemo ? "#2a2520" : "#9a958e",
+            color: showDemo ? "#2a2520" : "#7a756e",
           }}
         >
-          {showDemo ? DEMO_QUESTION : "Ask ClearBible AI anything about the Bible"}
+          {showDemo ? DEMO_QUESTION : "Ask ClearBible AI a Bible question\u2026 (Example: Who is Samson?)"}
         </span>
         <span
           style={{
-            padding: "10px 22px",
+            padding: "11px 24px",
             borderRadius: 999,
             background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
             color: "#fff",
@@ -102,13 +104,12 @@ export default function HeroBibleSearch() {
         style={{
           marginTop: 8,
           fontSize: 13,
-          color: "#8a8580",
+          color: "#6a655e",
           fontFamily: "'DM Sans', sans-serif",
+          textAlign: "center",
         }}
       >
-        <div style={{ marginBottom: 4 }}>
-          Ask ClearBible&apos;s AI questions about the Bible and get instant, plain-language answers with supporting verses.
-        </div>
+        Get instant Bible answers with supporting verses.
       </div>
 
       {/* Demo answer card */}

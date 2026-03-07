@@ -9,7 +9,7 @@ const tabs = [
     label: "Bible",
     tooltip: "Read the Bible",
     icon: (active: boolean) => (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[22px] h-[22px]">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[24px] h-[24px]">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
       </svg>
     ),
@@ -19,7 +19,7 @@ const tabs = [
     label: "Ask AI",
     tooltip: "Ask the Bible AI",
     icon: (active: boolean) => (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[22px] h-[22px]">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[24px] h-[24px]">
         <circle cx="11" cy="11" r="8" />
         <line x1="21" y1="21" x2="16.65" y2="16.65" />
       </svg>
@@ -30,7 +30,7 @@ const tabs = [
     label: "Summaries",
     tooltip: "Book summaries",
     icon: (active: boolean) => (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[22px] h-[22px]">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[24px] h-[24px]">
         <path strokeLinecap="round" strokeLinejoin="round" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
         <polyline points="14 2 14 8 20 8" />
         <line x1="16" y1="13" x2="8" y2="13" />
@@ -43,7 +43,7 @@ const tabs = [
     label: "Highlights",
     tooltip: "Your verse highlights",
     icon: (active: boolean) => (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[22px] h-[22px]">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[24px] h-[24px]">
         <path strokeLinecap="round" strokeLinejoin="round" d="m9 11-6 6v3h9l3-3" />
         <path strokeLinecap="round" strokeLinejoin="round" d="m22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L14 4" />
       </svg>
@@ -54,7 +54,7 @@ const tabs = [
     label: "Bookmarks",
     tooltip: "Your bookmarks",
     icon: (active: boolean) => (
-      <svg xmlns="http://www.w3.org/2000/svg" fill={active ? "currentColor" : "none"} viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[22px] h-[22px]">
+      <svg xmlns="http://www.w3.org/2000/svg" fill={active ? "currentColor" : "none"} viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[24px] h-[24px]">
         <path strokeLinecap="round" strokeLinejoin="round" d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
       </svg>
     ),
@@ -64,7 +64,7 @@ const tabs = [
     label: "Notes",
     tooltip: "Your private notes",
     icon: (active: boolean) => (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[22px] h-[22px]">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[24px] h-[24px]">
         <path strokeLinecap="round" strokeLinejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
       </svg>
     ),
@@ -74,7 +74,7 @@ const tabs = [
     label: "More",
     tooltip: "Settings and account",
     icon: (active: boolean) => (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[22px] h-[22px]">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[24px] h-[24px]">
         <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
       </svg>
     ),
@@ -107,7 +107,7 @@ export default function BottomTabBar() {
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50 border-t backdrop-blur-xl"
       style={{ backgroundColor: "var(--tab-bar)", borderColor: "var(--border)" }}>
-      <div className="flex justify-around items-center h-[49px] max-w-lg mx-auto">
+      <div className="flex justify-around items-center h-[54px] max-w-lg mx-auto">
         {tabs.map((tab) => {
           const active = isActive(tab.href);
           return (
@@ -115,12 +115,12 @@ export default function BottomTabBar() {
               key={tab.href}
               href={tab.href}
               title={tab.tooltip}
-              className={`flex flex-col items-center justify-center flex-1 h-full transition-colors ${
-                active ? "text-[var(--accent)]" : "text-[var(--secondary)]"
+              className={`flex flex-col items-center justify-center flex-1 h-full transition-colors active:opacity-70 ${
+                active ? "text-[var(--accent)]" : "text-[var(--tab-inactive)]"
               }`}
             >
               {tab.icon(active)}
-              <span className={`text-[10px] mt-0.5 ${active ? "font-semibold" : "font-medium"}`}>
+              <span className={`text-[12px] mt-0.5 ${active ? "font-semibold" : "font-medium"}`}>
                 {tab.label}
               </span>
             </Link>

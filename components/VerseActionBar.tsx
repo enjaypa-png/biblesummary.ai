@@ -121,7 +121,7 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight
   ];
 
   return (
-    <span className="block my-3" style={{ fontFamily: "'Inter', sans-serif" }}>
+    <span className="block mt-4 mb-3" style={{ fontFamily: "'Inter', sans-serif" }}>
       <span
         className="flex items-stretch overflow-hidden"
         style={{
@@ -134,7 +134,7 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight
             key={action.key}
             onClick={action.disabled ? undefined : action.onClick}
             disabled={action.disabled}
-            className={`flex-1 flex flex-col items-center justify-center gap-0.5 py-2.5 transition-all ${
+            className={`flex-1 flex flex-col items-center justify-center gap-0.5 py-3 transition-all ${
               !action.disabled ? "active:bg-white/[0.15]" : ""
             }`}
             style={{
@@ -145,14 +145,14 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight
             }}
           >
             {action.icon}
-            <span className="text-[10px] font-medium leading-tight">
+            <span className="text-[11px] font-medium leading-tight">
               {action.label}
             </span>
           </button>
         ))}
         <button
           onClick={onClose}
-          className="flex flex-col items-center justify-center gap-0.5 py-2.5 px-3 transition-all active:bg-white/[0.15]"
+          className="flex flex-col items-center justify-center gap-0.5 py-3 px-3 transition-all active:bg-white/[0.15]"
           style={{ color: "#ffffff", cursor: "pointer" }}
           aria-label="Close toolbar"
         >
@@ -160,7 +160,7 @@ export default function VerseActionBar({ onExplain, onNote, onShare, onHighlight
             <line x1="18" y1="6" x2="6" y2="18" />
             <line x1="6" y1="6" x2="18" y2="18" />
           </svg>
-          <span className="text-[10px] font-medium leading-tight">Close</span>
+          <span className="text-[11px] font-medium leading-tight">Close</span>
         </button>
       </span>
     </span>
