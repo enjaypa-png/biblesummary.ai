@@ -15,6 +15,17 @@ const tabs = [
     ),
   },
   {
+    href: "/search",
+    label: "Ask AI",
+    tooltip: "Ask the Bible AI",
+    icon: (active: boolean) => (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={active ? 2 : 1.5} stroke="currentColor" className="w-[22px] h-[22px]">
+        <circle cx="11" cy="11" r="8" />
+        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+      </svg>
+    ),
+  },
+  {
     href: "/summaries",
     label: "Summaries",
     tooltip: "Book summaries",

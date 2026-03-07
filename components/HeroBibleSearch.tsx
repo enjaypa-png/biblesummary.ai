@@ -1,39 +1,34 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState } from "react";
+import Link from "next/link";
+
+const DEMO_QUESTION = "Who was Samson?";
+
+const DEMO_ANSWER =
+  "Samson was an Israelite judge with supernatural strength that came from God through a Nazirite vow — part of which meant he could never cut his hair. His story is told in Judges 13\u201316, where he single-handedly fought the Philistines, Israel\u2019s main enemy at the time. He was ultimately betrayed by Delilah, who discovered the secret of his strength and had his hair cut while he slept. Captured and blinded, Samson made a final stand by pulling down the pillars of a Philistine temple, killing more enemies in his death than in his entire life.";
+
+const DEMO_VERSES = [
+  {
+    reference: "Judges 13:24",
+    text: "The woman gave birth to a son and named him Samson. The boy grew up, and the LORD blessed him.",
+  },
+  {
+    reference: "Judges 14:6",
+    text: "The Spirit of the LORD came powerfully upon him so that he tore the lion apart with his bare hands as he might have torn a young goat.",
+  },
+  {
+    reference: "Judges 16:17",
+    text: "So he told her everything. \u201CNo razor has ever been used on my head,\u201D he said, \u201Cbecause I have been a Nazirite dedicated to God from my mother\u2019s womb. If my head were shaved, my strength would leave me.\u201D",
+  },
+  {
+    reference: "Judges 16:30",
+    text: "Samson said, \u201CLet me die with the Philistines!\u201D Then he pushed with all his might, and down came the temple on the rulers and all the people in it.",
+  },
+];
 
 export default function HeroBibleSearch() {
-  const [query, setQuery] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [results, setResults] = useState<any[]>([]);
-
-  async function handleSubmit(e: FormEvent) {
-    e.preventDefault();
-    const trimmed = query.trim();
-    if (!trimmed) return;
-    setLoading(true);
-    setError(null);
-    setResults([]);
-
-    try {
-      const res = await fetch("/api/bible-search", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: trimmed }),
-      });
-      if (!res.ok) {
-        throw new Error("Search failed");
-      }
-      const data = await res.json();
-      setResults(Array.isArray(data.verses) ? data.verses : []);
-    } catch (err) {
-      console.error("[HeroBibleSearch] error:", err);
-      setError("Search unavailable. Please try again.");
-    } finally {
-      setLoading(false);
-    }
-  }
+  const [showDemo, setShowDemo] = useState(false);
 
   return (
     <div
@@ -43,18 +38,24 @@ export default function HeroBibleSearch() {
         textAlign: "left",
       }}
     >
-      <form
-        onSubmit={handleSubmit}
+      {/* Search bar visual (triggers demo) */}
+      <button
+        type="button"
+        onClick={() => setShowDemo(!showDemo)}
         style={{
           display: "flex",
+          width: "100%",
           flexWrap: "wrap",
           gap: 10,
-          alignItems: "stretch",
+          alignItems: "center",
           background: "#fff",
           borderRadius: 999,
-          border: "1.5px solid #d9d0ff",
+          border: showDemo ? "1.5px solid #7c5cfc" : "1.5px solid #d9d0ff",
           boxShadow: "0 10px 30px rgba(18, 5, 65, 0.08)",
-          padding: 4,
+          padding: "4px 4px 4px 14px",
+          cursor: "pointer",
+          transition: "border-color 0.2s ease",
+          textAlign: "left",
         }}
       >
         <div
@@ -62,50 +63,44 @@ export default function HeroBibleSearch() {
             display: "flex",
             alignItems: "center",
             gap: 6,
-            paddingLeft: 14,
             color: "#7c5cfc",
+            flexShrink: 0,
           }}
         >
-          <span aria-hidden="true">🔍</span>
-          <span aria-hidden="true">✨</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" opacity="0.6">
+            <path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z" />
+          </svg>
         </div>
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Ask ClearBible AI anything about the Bible"
+        <span
           style={{
             flex: 1,
-            minWidth: 0,
-            border: "none",
-            outline: "none",
-            padding: "12px 18px",
+            padding: "12px 8px",
             fontSize: 15,
-            borderRadius: 999,
             fontFamily: "'DM Sans', sans-serif",
-            color: "#2a2520",
+            color: showDemo ? "#2a2520" : "#9a958e",
           }}
-        />
-        <button
-          type="submit"
-          disabled={loading}
+        >
+          {showDemo ? DEMO_QUESTION : "Ask ClearBible AI anything about the Bible"}
+        </span>
+        <span
           style={{
             padding: "10px 22px",
             borderRadius: 999,
-            border: "none",
-            background: loading
-              ? "linear-gradient(135deg, #a590ff 0%, #a590ff 100%)"
-              : "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
+            background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
             color: "#fff",
             fontSize: 14,
             fontWeight: 700,
             fontFamily: "'DM Sans', sans-serif",
-            cursor: loading ? "default" : "pointer",
             flexShrink: 0,
           }}
         >
-          {loading ? "Searching..." : "Search verses"}
-        </button>
-      </form>
+          {showDemo ? "Hide" : "See example"}
+        </span>
+      </button>
 
       <div
         style={{
@@ -116,67 +111,96 @@ export default function HeroBibleSearch() {
         }}
       >
         <div style={{ marginBottom: 4 }}>
-          Ask ClearBible’s AI questions about the Bible and instantly see the verses that answer them.
+          Ask ClearBible&apos;s AI questions about the Bible and get instant, plain-language answers with supporting verses.
         </div>
-        <ul style={{ paddingLeft: 18, margin: 0 }}>
-          <li>Why did Judas betray Jesus?</li>
-          <li>What does the Bible say about anxiety?</li>
-          <li>Why did God flood the earth?</li>
-          <li>What is faith according to the Bible?</li>
-        </ul>
       </div>
 
-      {error && (
-        <p
-          style={{
-            marginTop: 10,
-            fontSize: 13,
-            color: "#c0392b",
-            fontFamily: "'DM Sans', sans-serif",
-          }}
-        >
-          {error}
-        </p>
-      )}
-
-      {results.length > 0 && (
+      {/* Demo answer card */}
+      {showDemo && (
         <div
           style={{
-            marginTop: 14,
-            padding: 14,
-            borderRadius: 14,
-            background: "#fff",
-            border: "1px solid #e8e5e0",
-            maxHeight: 320,
-            overflowY: "auto",
+            marginTop: 16,
+            animation: "slideDown 0.35s ease",
           }}
         >
-          {results.map((v, idx) => {
-            const ref =
-              typeof v.book_reference === "string"
-                ? v.book_reference
-                : v.book_name
-                ? `${v.book_name} ${v.chapter}:${v.verse}`
-                : `Book ${v.book_id} ${v.chapter}:${v.verse}`;
-            return (
-              <button
-                key={idx}
-                type="button"
-                onClick={() => {
-                  const slug = v.book_slug || v.book_id;
-                  window.location.href = `/bible/${encodeURIComponent(
-                    slug
-                  )}/${v.chapter}?verse=${v.verse}`;
-                }}
+          {/* AI Answer */}
+          <div
+            style={{
+              padding: "20px 22px",
+              background: "linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%)",
+              borderRadius: 14,
+              borderLeft: "3px solid #7c5cfc",
+              marginBottom: 12,
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 8,
+                marginBottom: 10,
+              }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="#7c5cfc">
+                <path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z" />
+              </svg>
+              <span
                 style={{
-                  width: "100%",
-                  textAlign: "left",
+                  fontSize: 12,
+                  fontWeight: 700,
+                  color: "#7c5cfc",
+                  letterSpacing: 0.8,
+                  textTransform: "uppercase",
+                  fontFamily: "'DM Sans', sans-serif",
+                }}
+              >
+                AI Answer
+              </span>
+            </div>
+            <p
+              style={{
+                fontSize: 15,
+                lineHeight: 1.75,
+                color: "#4a4550",
+                margin: 0,
+                fontFamily: "'DM Sans', sans-serif",
+              }}
+            >
+              {DEMO_ANSWER}
+            </p>
+          </div>
+
+          {/* Supporting verses */}
+          <div
+            style={{
+              padding: 14,
+              borderRadius: 14,
+              background: "#fff",
+              border: "1px solid #e8e5e0",
+            }}
+          >
+            <div
+              style={{
+                fontSize: 11,
+                fontWeight: 700,
+                color: "#8a8580",
+                letterSpacing: 0.8,
+                textTransform: "uppercase",
+                fontFamily: "'DM Sans', sans-serif",
+                marginBottom: 10,
+              }}
+            >
+              Supporting Verses
+            </div>
+            {DEMO_VERSES.map((v) => (
+              <div
+                key={v.reference}
+                style={{
                   padding: "10px 10px 12px",
                   borderRadius: 10,
                   border: "1px solid #eee7dd",
                   background: "#fff",
                   marginBottom: 8,
-                  cursor: "pointer",
                 }}
               >
                 <div
@@ -188,47 +212,44 @@ export default function HeroBibleSearch() {
                     fontFamily: "'DM Sans', sans-serif",
                   }}
                 >
-                  {ref}
-                  {typeof v.similarity === "number" && (
-                    <span
-                      style={{
-                        marginLeft: 6,
-                        fontSize: 11,
-                        color: "#b0a89e",
-                      }}
-                    >
-                      {(v.similarity * 100).toFixed(0)}% match
-                    </span>
-                  )}
+                  {v.reference}
                 </div>
-                {v.text && (
-                  <p
-                    style={{
-                      fontSize: 13,
-                      margin: "0 0 4px",
-                      color: "#3a3530",
-                    }}
-                  >
-                    {v.text}
-                  </p>
-                )}
-                {v.modern_text && (
-                  <p
-                    style={{
-                      fontSize: 13,
-                      margin: 0,
-                      color: "#6a655f",
-                    }}
-                  >
-                    {v.modern_text}
-                  </p>
-                )}
-              </button>
-            );
-          })}
+                <p
+                  style={{
+                    fontSize: 13,
+                    margin: 0,
+                    color: "#3a3530",
+                    lineHeight: 1.6,
+                  }}
+                >
+                  {v.text}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* CTA */}
+          <div style={{ textAlign: "center", marginTop: 16 }}>
+            <Link
+              href="/signup"
+              style={{
+                display: "inline-block",
+                padding: "12px 28px",
+                fontSize: 14,
+                fontWeight: 700,
+                fontFamily: "'DM Sans', sans-serif",
+                color: "#fff",
+                background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
+                borderRadius: 10,
+                textDecoration: "none",
+                boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
+              }}
+            >
+              Create a free account to ask your own questions
+            </Link>
+          </div>
         </div>
       )}
     </div>
   );
 }
-
