@@ -14,6 +14,7 @@
     "ct:seed": "tsx scripts/seed-ct-verses.ts",
     "web:seed": "tsx scripts/seed-web-verses.ts",
     "web:backfill": "tsx scripts/backfill-web.ts",
+    "web:seed:missing": "tsx scripts/seed-web-missing.ts",
     "ct:progress": "tsx scripts/ct-progress.ts",
     "ct:batch:submit": "tsx scripts/ct-batch-submit.ts",
     "ct:batch:status": "tsx scripts/ct-batch-status.ts",
