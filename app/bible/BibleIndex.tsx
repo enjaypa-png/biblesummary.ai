@@ -137,7 +137,7 @@ function BibleAISearch({
                 handleEnter();
               }
             }}
-            placeholder="Search books, verses, or ask the AI a question\u2026"
+            placeholder="Search books, verses, or ask the AI a question…"
             className="flex-1 bg-transparent text-[15px] outline-none"
             style={{ color: "var(--foreground)" }}
           />

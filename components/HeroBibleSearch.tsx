@@ -41,7 +41,6 @@ export default function HeroBibleSearch() {
         style={{
           display: "flex",
           width: "100%",
-          flexWrap: "wrap",
           gap: 10,
           alignItems: "center",
           background: "linear-gradient(135deg, #faf8ff 0%, #f5f2ff 100%)",
@@ -78,11 +77,15 @@ export default function HeroBibleSearch() {
             flex: 1,
             padding: "14px 8px",
             fontSize: 15,
+            fontWeight: 400,
             fontFamily: "'DM Sans', sans-serif",
-            color: showDemo ? "#2a2520" : "#7a756e",
+            color: showDemo ? "#2a2520" : "#9a958f",
+            whiteSpace: "nowrap",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
           }}
         >
-          {showDemo ? DEMO_QUESTION : "Ask ClearBible AI a Bible question\u2026 (Example: Who is Samson?)"}
+          {showDemo ? DEMO_QUESTION : "Ask a Bible question\u2026 (Example: Who was Samson?)"}
         </span>
         <span
           style={{
