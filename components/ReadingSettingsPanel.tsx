@@ -127,7 +127,7 @@ export default function ReadingSettingsPanel() {
               Translation
             </div>
             <div className="flex gap-2">
-              {(["ct", "kjv"] as BibleTranslation[]).map((t) => (
+              {(["ct", "kjv", "web"] as BibleTranslation[]).map((t) => (
                 <button
                   key={t}
                   onClick={() => setTranslation(t)}

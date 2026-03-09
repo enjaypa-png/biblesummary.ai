@@ -6,11 +6,12 @@ import { DEFAULT_VOICE_ID } from "@/lib/voiceIds";
 
 export type FontFamily = "Libre Baskerville" | "Spectral" | "Source Sans 3" | "System";
 export type ThemeMode = "light" | "sepia" | "gray" | "dark";
-export type BibleTranslation = "ct" | "kjv";
+export type BibleTranslation = "ct" | "kjv" | "web";
 
 export const TRANSLATION_LABELS: Record<BibleTranslation, { name: string; fullName: string }> = {
   ct: { name: "Clear Bible Translation", fullName: "Clear Bible Translation" },
   kjv: { name: "KJV", fullName: "King James Version" },
+  web: { name: "WEB", fullName: "World English Bible" },
 };
 
 interface ReadingSettings {

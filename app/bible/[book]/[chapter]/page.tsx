@@ -114,6 +114,6 @@ export async function generateMetadata({ params }: PageProps) {
 
   return {
     title: `${bookName} ${params.chapter} - ClearBible.ai`,
-    description: `Read ${bookName} chapter ${params.chapter} in King James Version or Clear Bible Translation — ClearBible.ai`,
+    description: `Read ${bookName} chapter ${params.chapter} in Clear Bible Translation, KJV, or World English Bible — ClearBible.ai`,
   };
 }
