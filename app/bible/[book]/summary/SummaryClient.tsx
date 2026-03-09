@@ -128,6 +128,7 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
   const [ttsState, setTtsState] = useState<TtsState>("idle");
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const abortRef = useRef(false);
+  const prefetchCacheRef = useRef<Map<number, Blob>>(new Map());
 
   function chunkText(text: string, maxLen = 4000): string[] {
     const paragraphs = text.split(/\n\n+/).filter((p) => p.trim());
@@ -154,19 +155,37 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
       .trim();
   }, [summaryText]);
 
-  const playChunk = useCallback(async (text: string, voiceId?: string): Promise<boolean> => {
-    if (abortRef.current) return false;
-    const response = await fetch("/api/tts", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, voiceId }),
+  // Fetch TTS audio for a chunk (returns blob or null)
+  const fetchChunkAudio = useCallback(async (text: string, voiceId?: string): Promise<Blob | null> => {
+    try {
+      const response = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text, voiceId }),
+      });
+      if (!response.ok) return null;
+      return await response.blob();
+    } catch {
+      return null;
+    }
+  }, []);
+
+  // Prefetch a chunk by index into the cache
+  const prefetchChunk = useCallback((chunks: string[], index: number, voiceId?: string) => {
+    if (index >= chunks.length || prefetchCacheRef.current.has(index)) return;
+    fetchChunkAudio(chunks[index], voiceId).then((blob) => {
+      if (blob && !abortRef.current) {
+        prefetchCacheRef.current.set(index, blob);
+      }
     });
-    if (!response.ok || abortRef.current) return false;
-    const blob = await response.blob();
+  }, [fetchChunkAudio]);
+
+  // Play a blob, returns true if finished successfully
+  const playBlob = useCallback(async (blob: Blob): Promise<boolean> => {
     if (abortRef.current) return false;
     const url = URL.createObjectURL(blob);
     const audio = audioRef.current;
-    if (!audio) return false;
+    if (!audio) { URL.revokeObjectURL(url); return false; }
     audio.src = url;
     return new Promise<boolean>((resolve) => {
       const onEnded = () => { URL.revokeObjectURL(url); resolve(true); };
@@ -180,16 +199,37 @@ export default function SummaryClient({ bookName, bookSlug, bookId, summaryText 
   const startPlayback = useCallback(async () => {
     const chunks = chunkText(getPlainText());
     abortRef.current = false;
+    prefetchCacheRef.current.clear();
     setTtsState("loading");
     const voiceId = settings.voiceId;
+
     for (let i = 0; i < chunks.length; i++) {
       if (abortRef.current) break;
-      const ok = await playChunk(chunks[i], voiceId);
+
+      // Start prefetching the next chunk while we fetch/play the current one
+      if (i + 1 < chunks.length) {
+        prefetchChunk(chunks, i + 1, voiceId);
+      }
+
+      // Use prefetched blob if available, otherwise fetch now
+      let blob: Blob | null = prefetchCacheRef.current.get(i) ?? null;
+      if (blob) {
+        prefetchCacheRef.current.delete(i);
+      } else {
+        blob = await fetchChunkAudio(chunks[i], voiceId);
+      }
+
+      if (!blob || abortRef.current) break;
+
       if (i === 0 && !abortRef.current) setTtsState("playing");
+
+      const ok = await playBlob(blob);
       if (!ok) break;
     }
+
     if (!abortRef.current) { setTtsState("idle"); }
-  }, [getPlainText, playChunk, settings.voiceId]);
+    prefetchCacheRef.current.clear();
+  }, [getPlainText, fetchChunkAudio, prefetchChunk, playBlob, settings.voiceId]);
 
   function handleTtsToggle() {
     if (ttsState === "idle") startPlayback();
