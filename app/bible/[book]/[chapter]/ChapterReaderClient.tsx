@@ -216,16 +216,7 @@ export default function ChapterReaderClient({
     }
   }, [highlightedVerse]);
 
-  // Auto-start narration from selected verse when navigating from Index
-  const autoPlayTriggered = useRef(false);
-  useEffect(() => {
-    if (autoPlayTriggered.current) return;
-    if (!initialVerse || books.length === 0) return;
-    const book = books.find(b => b.slug === bookSlug);
-    if (!book) return;
-    autoPlayTriggered.current = true;
-    playFromVerse(book, chapter, parseInt(initialVerse));
-  }, [initialVerse, books, bookSlug, chapter, playFromVerse]);
+  // Auto-play removed: audio should only start when user presses Play
 
   useEffect(() => {
     async function load() {

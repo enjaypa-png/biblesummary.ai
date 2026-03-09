@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect, useMemo } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect, useMemo, useRef } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import { useReadingSettings, TRANSLATION_LABELS } from "@/contexts/ReadingSettingsContext";
 
@@ -38,6 +38,7 @@ function BibleAISearch({
   onGoToReference,
   books,
   onSelectVerse,
+  inputRef,
 }: {
   searchQuery: string;
   setSearchQuery: (value: string) => void;
@@ -45,6 +46,7 @@ function BibleAISearch({
   onGoToReference: () => void;
   books: Book[];
   onSelectVerse: (slug: string, chapter: number, verse: number) => void;
+  inputRef?: React.RefObject<HTMLInputElement>;
 }) {
   const [aiResults, setAiResults] = useState<any[]>([]);
   const [aiLoading, setAiLoading] = useState(false);
@@ -116,6 +118,7 @@ function BibleAISearch({
             &#10022;
           </span>
           <input
+            ref={inputRef}
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
@@ -265,6 +268,7 @@ function BibleAISearch({
 
 export default function BibleIndex({ books }: { books: Book[] }) {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { settings } = useReadingSettings();
   const translationInfo = TRANSLATION_LABELS[settings.translation || "ct"];
 
@@ -277,6 +281,14 @@ export default function BibleIndex({ books }: { books: Book[] }) {
 
   // Search state
   const [searchQuery, setSearchQuery] = useState("");
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  // Auto-focus search input when navigating via "Ask AI" tab
+  useEffect(() => {
+    if (searchParams.get("askai") === "1" && searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  }, [searchParams]);
 
   // Automatic reading position from localStorage
   const [readingPosition, setReadingPosition] = useState<{
@@ -571,6 +583,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
                 parsedReference={parsedReference}
                 onGoToReference={handleGoToReference}
                 books={books}
+                inputRef={searchInputRef}
                 onSelectVerse={(slug, chapter, verse) => {
                   setSearchQuery("");
                   router.push(`/bible/${slug}/${chapter}?verse=${verse}`);

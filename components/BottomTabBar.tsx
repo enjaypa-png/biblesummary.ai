@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 
 const tabs = [
   {
@@ -15,7 +15,7 @@ const tabs = [
     ),
   },
   {
-    href: "/search",
+    href: "/bible?askai=1",
     label: "Ask AI",
     tooltip: "Ask the Bible AI",
     icon: (active: boolean) => (
@@ -83,6 +83,7 @@ const tabs = [
 
 export default function BottomTabBar() {
   const pathname = usePathname();
+  const searchParams = useSearchParams();
 
   if (
     pathname === "/" ||
@@ -98,8 +99,11 @@ export default function BottomTabBar() {
   }
 
   function isActive(href: string) {
+    if (href === "/bible?askai=1") {
+      return (pathname === "/bible" || pathname.startsWith("/bible/")) && searchParams.get("askai") === "1";
+    }
     if (href === "/bible") {
-      return pathname === "/bible" || pathname.startsWith("/bible/");
+      return (pathname === "/bible" || pathname.startsWith("/bible/")) && searchParams.get("askai") !== "1";
     }
     return pathname === href || pathname.startsWith(href + "/");
   }
