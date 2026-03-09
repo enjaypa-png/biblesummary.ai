@@ -1,15 +1,18 @@
 "use client";
 
+import { useState } from "react";
 import { useRouter } from "next/navigation";
+import AISearchModal from "@/components/AISearchModal";
 
 export default function ReaderSearchBar() {
   const router = useRouter();
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <div className="max-w-2xl mx-auto px-5 pt-3 pb-0">
       <button
         type="button"
-        onClick={() => router.push("/search")}
+        onClick={() => setShowModal(true)}
         className="flex items-center w-full rounded-2xl px-4 py-3 transition-all active:scale-[0.99]"
         style={{
           backgroundColor: "var(--card)",
@@ -47,6 +50,14 @@ export default function ReaderSearchBar() {
           Ask AI
         </span>
       </button>
+
+      <AISearchModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        onSelectVerse={(slug, chapter, verse) => {
+          router.push(`/bible/${slug}/${chapter}?verse=${verse}`);
+        }}
+      />
     </div>
   );
 }

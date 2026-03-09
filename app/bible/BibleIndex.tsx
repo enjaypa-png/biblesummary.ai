@@ -5,6 +5,7 @@ import { useState, useEffect, useMemo, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import { useReadingSettings, TRANSLATION_LABELS } from "@/contexts/ReadingSettingsContext";
+import AISearchModal from "@/components/AISearchModal";
 
 interface Book {
   id: string;
@@ -48,36 +49,8 @@ function BibleAISearch({
   onSelectVerse: (slug: string, chapter: number, verse: number) => void;
   inputRef?: React.RefObject<HTMLInputElement>;
 }) {
-  const [aiResults, setAiResults] = useState<any[]>([]);
-  const [aiLoading, setAiLoading] = useState(false);
-  const [aiError, setAiError] = useState<string | null>(null);
   const [showAiModal, setShowAiModal] = useState(false);
-
-  async function runAiSearch(query: string) {
-    const trimmed = query.trim();
-    if (!trimmed) return;
-    setAiLoading(true);
-    setAiError(null);
-    setShowAiModal(true);
-    setAiResults([]);
-    try {
-      const res = await fetch("/api/bible-search", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: trimmed }),
-      });
-      if (!res.ok) {
-        throw new Error("Search failed");
-      }
-      const data = await res.json();
-      setAiResults(Array.isArray(data.verses) ? data.verses : []);
-    } catch (e) {
-      console.error("[BibleAISearch] error:", e);
-      setAiError("Search unavailable. Please try again.");
-    } finally {
-      setAiLoading(false);
-    }
-  }
+  const [aiSearchQuery, setAiSearchQuery] = useState("");
 
   function handleEnter() {
     const q = searchQuery.trim();
@@ -93,9 +66,10 @@ function BibleAISearch({
     if (matchesBook && words.length <= 2) {
       return;
     }
-    // For anything else (questions, longer queries), run AI search
+    // For anything else (questions, longer queries), open AI search modal
     if (q.length >= 3) {
-      runAiSearch(q);
+      setAiSearchQuery(q);
+      setShowAiModal(true);
     }
   }
 
@@ -171,97 +145,14 @@ function BibleAISearch({
         </div>
       </div>
 
-      {showAiModal && (
-        <div
-          className="fixed inset-0 z-40 flex items-center justify-center px-5"
-          style={{ backgroundColor: "rgba(0,0,0,0.45)" }}
-          onClick={(e) => {
-            if (e.target === e.currentTarget) setShowAiModal(false);
-          }}
-        >
-          <div
-            className="w-full max-w-lg rounded-2xl p-4"
-            style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
-          >
-            <div className="flex items-center justify-between mb-2">
-              <div className="flex items-center gap-2">
-                <span>🔍</span>
-                <span className="text-[14px] font-semibold" style={{ color: "var(--foreground)" }}>
-                  AI Bible search
-                </span>
-              </div>
-              <button
-                type="button"
-                onClick={() => setShowAiModal(false)}
-                className="text-[13px]"
-                style={{ color: "var(--secondary)" }}
-              >
-                Close
-              </button>
-            </div>
-
-            {aiLoading && (
-              <p className="text-[14px]" style={{ color: "var(--secondary)" }}>
-                Searching verses…
-              </p>
-            )}
-
-            {aiError && (
-              <p className="text-[13px]" style={{ color: "#DC2626" }}>
-                {aiError}
-              </p>
-            )}
-
-            {!aiLoading && !aiError && aiResults.length === 0 && (
-              <p className="text-[13px]" style={{ color: "var(--secondary)" }}>
-                No verses found yet. Try a different question.
-              </p>
-            )}
-
-            {!aiLoading && aiResults.length > 0 && (
-              <div className="mt-1 max-h-[360px] overflow-y-auto space-y-2">
-                {aiResults.map((v, idx) => {
-                  const ref =
-                    typeof v.book_reference === "string"
-                      ? v.book_reference
-                      : v.book_name
-                      ? `${v.book_name} ${v.chapter}:${v.verse}`
-                      : `Book ${v.book_id} ${v.chapter}:${v.verse}`;
-                  const slug = v.book_slug || v.book_id;
-                  return (
-                    <button
-                      key={idx}
-                      type="button"
-                      onClick={() => {
-                        if (slug) {
-                          onSelectVerse(String(slug), v.chapter, v.verse);
-                          setShowAiModal(false);
-                        }
-                      }}
-                      className="w-full text-left rounded-xl px-3 py-2.5 active:opacity-80 transition-opacity"
-                      style={{ backgroundColor: "var(--background)", border: "0.5px solid var(--border)" }}
-                    >
-                      <div className="text-[13px] font-semibold mb-1" style={{ color: "var(--accent)" }}>
-                        {ref}
-                      </div>
-                      {v.text && (
-                        <p className="text-[13px] mb-1" style={{ color: "var(--foreground)" }}>
-                          {v.text}
-                        </p>
-                      )}
-                      {v.modern_text && (
-                        <p className="text-[13px]" style={{ color: "var(--secondary)" }}>
-                          {v.modern_text}
-                        </p>
-                      )}
-                    </button>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-        </div>
-      )}
+      <AISearchModal
+        isOpen={showAiModal}
+        onClose={() => setShowAiModal(false)}
+        initialQuery={aiSearchQuery}
+        onSelectVerse={(slug, chapter, verse) => {
+          onSelectVerse(slug, chapter, verse);
+        }}
+      />
     </>
   );
 }
