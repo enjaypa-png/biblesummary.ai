@@ -13,6 +13,7 @@
     "ct:generate": "tsx scripts/generate-ct-translation.ts",
     "ct:seed": "tsx scripts/seed-ct-verses.ts",
     "web:seed": "tsx scripts/seed-web-verses.ts",
+    "web:backfill": "tsx scripts/backfill-web.ts",
     "ct:progress": "tsx scripts/ct-progress.ts",
     "ct:batch:submit": "tsx scripts/ct-batch-submit.ts",
     "ct:batch:status": "tsx scripts/ct-batch-status.ts",
