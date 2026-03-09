@@ -99,34 +99,20 @@ function BibleAISearch({
     <>
       <div className="mt-4">
         <div
-          className="flex items-center gap-2 px-3 py-3 rounded-2xl transition-all"
+          className="flex items-center w-full rounded-2xl px-4 py-3 transition-all"
           style={{
             backgroundColor: "var(--card)",
-            border: "1.5px solid var(--border)",
-          }}
-          onFocus={(e) => {
-            e.currentTarget.style.borderColor = "var(--accent)";
-            e.currentTarget.style.boxShadow = "0 0 0 3px rgba(124, 92, 252, 0.1)";
-          }}
-          onBlur={(e) => {
-            e.currentTarget.style.borderColor = "var(--border)";
-            e.currentTarget.style.boxShadow = "none";
+            border: "1.5px solid var(--accent)",
+            boxShadow: "0 2px 12px rgba(124, 92, 252, 0.12)",
           }}
         >
-          <svg
-            width="18"
-            height="18"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="var(--accent)"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="flex-shrink-0"
+          {/* Sparkle icon */}
+          <span
+            className="flex-shrink-0 text-[14px] mr-2.5"
+            style={{ color: "var(--accent)" }}
           >
-            <circle cx="11" cy="11" r="8" />
-            <line x1="21" y1="21" x2="16.65" y2="16.65" />
-          </svg>
+            &#10022;
+          </span>
           <input
             type="text"
             value={searchQuery}
@@ -137,11 +123,14 @@ function BibleAISearch({
                 handleEnter();
               }
             }}
-            placeholder="Search books, verses, or ask the AI a question…"
-            className="flex-1 bg-transparent text-[15px] outline-none"
-            style={{ color: "var(--foreground)" }}
+            placeholder="Ask ClearBible AI..."
+            className="flex-1 bg-transparent text-[14px] outline-none"
+            style={{
+              color: "var(--foreground)",
+              fontFamily: "'DM Sans', sans-serif",
+            }}
           />
-          {searchQuery && (
+          {searchQuery ? (
             <button
               onClick={() => setSearchQuery("")}
               className="p-1 rounded-full active:opacity-70"
@@ -151,6 +140,16 @@ function BibleAISearch({
                 <path d="M18 6L6 18M6 6l12 12" />
               </svg>
             </button>
+          ) : (
+            <span
+              className="flex-shrink-0 px-3.5 py-1.5 rounded-xl text-[12px] font-bold"
+              style={{
+                backgroundColor: "var(--accent)",
+                color: "#fff",
+              }}
+            >
+              Ask AI
+            </span>
           )}
         </div>
       </div>
