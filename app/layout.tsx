@@ -22,14 +22,14 @@ export const metadata: Metadata = {
     description: "The Bible, finally easy to understand. Free forever. Read the Clear Bible Translation or KJV, listen to audio, search with AI, and get AI explanations for any verse.",
     url: "https://clearbible.ai",
     siteName: "ClearBible.ai",
-    images: [{ url: "https://clearbible.ai/api/og", width: 1200, height: 630, alt: "ClearBible.ai — Read the Bible in Plain English" }],
+    images: [{ url: "https://clearbible.ai/brand/og-image.png", width: 1200, height: 630, alt: "ClearBible.ai — Read the Bible in Plain English" }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "ClearBible.ai — Read the Bible in Plain English",
     description: "The Bible, finally easy to understand. Free forever.",
-    images: ["https://clearbible.ai/api/og"],
+    images: ["https://clearbible.ai/brand/og-image.png"],
   },
 };
 
