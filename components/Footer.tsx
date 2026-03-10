@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="max-w-lg mx-auto">
         <div className="flex justify-center mb-4">
           <Image
-            src="/brand/logo-icon.svg"
+            src="/brand/logo-192.png"
             alt="ClearBible.ai"
             width={36}
             height={36}

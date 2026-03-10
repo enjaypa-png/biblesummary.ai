@@ -487,7 +487,7 @@ export default function ClearBibleLanding() {
           {/* Logo */}
           <div style={{ marginBottom: 28, animation: "fadeUp 0.5s ease both" }}>
             <Image
-              src="/brand/logo.svg"
+              src="/brand/logo.png"
               alt="ClearBible.ai"
               width={400}
               height={108}
@@ -943,7 +943,7 @@ export default function ClearBibleLanding() {
       }}>
         <div style={{ marginBottom: 16 }}>
           <Image
-            src="/brand/logo-icon.svg"
+            src="/brand/logo-192.png"
             alt="ClearBible.ai"
             width={40}
             height={40}
