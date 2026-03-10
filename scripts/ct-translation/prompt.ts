@@ -17,7 +17,7 @@ RULES:
 
 1. NEVER ADD — No words, adjectives, titles, qualifiers, or explanatory phrases not in the KJV. If it is not in the KJV, it must not be in your output.
 
-2. NEVER OMIT — Every KJV word, phrase, and clause must have a counterpart in your output. Do not compress, summarize, or skip phrases you consider redundant. Nothing gets dropped.
+2. NEVER OMIT MEANING — Every KJV meaning must be present in your output. Do not drop ideas, events, or details. However, when the KJV uses two phrases that say the same thing (e.g., "gave up the ghost, and died"), combine them into one clear phrase. This is not omission — it is avoiding redundancy.
 
 3. NEVER INTERPRET — Translate literally. "Hornet" stays "hornet," not "terror." "Circumcise your heart" stays as-is. "A hill" stays "a hill," not "Gibeah." Directional language stays literal ("before Shechem," not "east of Shechem"). "Plowed with my heifer" stays exactly.
 
@@ -30,6 +30,14 @@ RULES:
 7. KEEP ALL KJV NOUNS EXACTLY — Every specific noun the KJV names stays: animals (osprey, unicorn, ferret, heifer, badgers' skins, fiery serpent), materials (scarlet), terms (heave offering, high places, solemn assembly, tabernacle of the congregation, water of separation, firstfruits, images, estimation, breach, testimonies), theological terms (abomination, leprosy/leprous/plague of leprosy/fretting leprosy, jealous God, holy, inheritance, perfect, blessed), people-terms (princes, children, sister, nursing father), and descriptions — all stay exactly as the KJV has them. Do NOT substitute modern scientific names, interpretive alternatives, or explanatory replacements.
 
 8. PRESERVE EMPHASIS & PATTERNS — When the KJV repeats a word for emphasis, keep the repetition. Preserve poetic contrasts (full/empty, head/tail, light/darkness). Keep specific idioms exactly ("right hand or to the left," "mighty hand and stretched out arm," "pure blood of the grape," "the sword of the LORD," "price of a dog," "at your own will").
+
+9. NATURAL SENTENCE FLOW — Rearrange clause order when it makes the sentence read more naturally in English, as long as the meaning is unchanged. The KJV follows Hebrew/Greek word order; English has its own. Do not translate clause-by-clause in KJV order when a rearrangement is clearer. Lead with context before action when that is how a native English speaker would tell the story.
+
+Example — Genesis 35:29:
+KJV: "And Isaac gave up the ghost, and died, and was gathered unto his people, being old and full of days: and his sons Esau and Jacob buried him."
+WRONG: "Isaac breathed his last and died, and he was gathered to his people, having reached a ripe old age. His sons Esau and Jacob buried him."
+RIGHT: "Isaac had reached a ripe old age and breathed his last breath, joining his ancestors in death. His sons Esau and Jacob buried him."
+Why: The right version leads with age (context), combines two redundant death phrases into one, and integrates the ancestor clause into the sentence flow instead of tacking it on.
 
 SPECIFIC TRANSLATIONS — Apply every time:
 
@@ -116,7 +124,7 @@ export const CT_AUDIT_PROMPT = `You are auditing Clear Bible Translation (CT) Bi
 
 Flag a verse as FAIL if ANY of these apply:
 
-1. OMISSION — The CT drops words, phrases, or clauses that are in the KJV.
+1. OMISSION — The CT drops meaning that is in the KJV. Note: combining redundant KJV phrases that say the same thing (e.g., "gave up the ghost, and died" → "breathed his last breath") is NOT omission.
 2. ADDITION — The CT adds words, adjectives, qualifiers, or explanations not in the KJV.
 3. SUBSTITUTION — The CT replaces a KJV noun, name, creature, material, or theological term with a different word (e.g., "wild ox" for "unicorn," "skin disease" for "leprosy," "terror" for "hornet," "revere" for "fear").
 4. INTERPRETATION — The CT interprets instead of translating literally (e.g., turning "a hill" into "Gibeah," or "before Shechem" into "east of Shechem").

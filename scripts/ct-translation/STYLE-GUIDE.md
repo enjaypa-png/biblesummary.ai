@@ -15,8 +15,8 @@ Modernize ONLY the grammar and archaic vocabulary. Never change nouns, names, cr
 ### 1. Never Add
 No words, adjectives, titles, qualifiers, or explanatory phrases not in the KJV. If it is not in the KJV, it must not be in the CT.
 
-### 2. Never Omit
-Every KJV word, phrase, and clause must have a counterpart in the CT. Do not compress, summarize, or skip anything.
+### 2. Never Omit Meaning
+Every KJV meaning must be present in the CT. Do not drop ideas, events, or details. However, when the KJV uses two phrases that say the same thing (e.g., "gave up the ghost, and died"), combine them into one clear phrase. This is not omission — it is avoiding redundancy.
 
 ### 3. Never Interpret
 Translate literally. "Hornet" stays "hornet." "Circumcise your heart" stays as-is. "A hill" stays "a hill." Directional language stays literal.
@@ -35,6 +35,19 @@ Every specific noun the KJV uses stays — animals, materials, terms, theologica
 
 ### 8. Preserve Emphasis & Patterns
 Keep word repetition for emphasis. Preserve poetic contrasts and specific idioms exactly.
+
+### 9. Natural Sentence Flow
+Rearrange clause order when it makes the sentence read more naturally in English, as long as the meaning is unchanged. The KJV follows Hebrew/Greek word order; English has its own. Lead with context before action when that is how a native English speaker would tell the story.
+
+**Example — Genesis 35:29:**
+
+| | Text |
+|--|------|
+| **KJV** | "And Isaac gave up the ghost, and died, and was gathered unto his people, being old and full of days: and his sons Esau and Jacob buried him." |
+| **Wrong** | "Isaac breathed his last and died, and he was gathered to his people, having reached a ripe old age. His sons Esau and Jacob buried him." |
+| **Right** | "Isaac had reached a ripe old age and breathed his last breath, joining his ancestors in death. His sons Esau and Jacob buried him." |
+
+Why: The right version leads with age (context), combines two redundant death phrases into one, and integrates the ancestor clause into the sentence flow instead of tacking it on.
 
 ## Specific Translation Rules
 
@@ -149,7 +162,7 @@ When reviewing CT text, check for:
 - [ ] Every KJV verse has a corresponding CT verse (no missing verses)
 - [ ] Verse numbers match exactly
 - [ ] No words/phrases ADDED that aren't in the KJV
-- [ ] No words/phrases OMITTED from the KJV
+- [ ] No meaning OMITTED from the KJV (combining redundant phrases is OK)
 - [ ] No KJV nouns replaced with different words
 - [ ] No interpretation (literal translation only)
 - [ ] No sanitizing of graphic content
@@ -161,4 +174,5 @@ When reviewing CT text, check for:
 - [ ] All numbers written as numerals
 - [ ] KJV units preserved (cubits, shekels, etc.)
 - [ ] No archaic language remains
+- [ ] Clause order rearranged for natural English flow (not KJV word order)
 - [ ] Reads naturally at a 10th-grade level
