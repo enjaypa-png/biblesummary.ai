@@ -1,8 +1,13 @@
 import { ImageResponse } from "next/og";
-
-export const runtime = "edge";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 
 export async function GET() {
+  const logoData = await readFile(
+    join(process.cwd(), "public", "brand", "logo-512.png")
+  );
+  const logoBase64 = `data:image/png;base64,${logoData.toString("base64")}`;
+
   return new ImageResponse(
     (
       <div
@@ -16,63 +21,15 @@ export async function GET() {
           fontFamily: "sans-serif",
         }}
       >
-        {/* Logo icon */}
-        <div
+        {/* Actual logo image */}
+        <img
+          src={logoBase64}
+          width={220}
+          height={220}
           style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            width: 200,
-            height: 240,
-            borderRadius: 28,
-            background: "linear-gradient(160deg, #a78bfa 0%, #7c5cfc 50%, #6d4de0 100%)",
             marginRight: 60,
-            boxShadow: "0 8px 30px rgba(124, 92, 252, 0.3)",
-            position: "relative",
           }}
-        >
-          {/* Cross */}
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            <div
-              style={{
-                width: 24,
-                height: 100,
-                background: "linear-gradient(180deg, #fbbf24 0%, #f59e0b 100%)",
-                borderRadius: 12,
-                position: "absolute",
-                top: 40,
-              }}
-            />
-            <div
-              style={{
-                width: 70,
-                height: 24,
-                background: "linear-gradient(90deg, #fbbf24 0%, #f59e0b 100%)",
-                borderRadius: 12,
-                position: "absolute",
-                top: 70,
-              }}
-            />
-          </div>
-          {/* Book pages */}
-          <div
-            style={{
-              position: "absolute",
-              bottom: 20,
-              left: 20,
-              right: 20,
-              height: 20,
-              background: "#e5e7eb",
-              borderRadius: "0 0 8px 8px",
-            }}
-          />
-        </div>
+        />
 
         {/* Text */}
         <div
