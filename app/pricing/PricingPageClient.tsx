@@ -14,13 +14,21 @@ interface Subscription {
 
 type PlanStatus = "none" | "active" | "canceled";
 
+const FEATURES = [
+  "AI Bible Search — ask any question, get answers with verses",
+  "All 66 book summaries",
+  "Unlimited verse explanations",
+  "Audio playback for every chapter",
+  "Summary audio playback",
+  "All future AI features included",
+  "Priority feature updates",
+];
+
 export default function PricingPageClient() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [loading, setLoading] = useState(true);
   const [checkoutLoading, setCheckoutLoading] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
-
-  // Subscription statuses
   const [premiumStatus, setPremiumStatus] = useState<PlanStatus>("none");
 
   useEffect(() => {
@@ -33,7 +41,6 @@ export default function PricingPageClient() {
         return;
       }
 
-      // Fetch all subscriptions for this user
       const { data: subs } = await supabase
         .from("subscriptions")
         .select("type, status, current_period_end")
@@ -51,8 +58,8 @@ export default function PricingPageClient() {
               : "canceled"
             : "none";
 
-          if (sub.type === "premium_yearly") {
-            setPremiumStatus(status);
+          if (sub.type === "premium_yearly" || sub.type === "premium_annual" || sub.type === "premium_monthly") {
+            if (status !== "none") setPremiumStatus(status);
           }
         }
       }
@@ -90,47 +97,67 @@ export default function PricingPageClient() {
     }
   }
 
-  function renderButton(
-    label: string,
-    key: string,
-    planStatus: PlanStatus,
-    overridden: boolean,
-    onClick: () => void
-  ) {
-    // Already active
-    if (planStatus === "active" || overridden) {
+  function PlanButton({
+    label,
+    planKey,
+    product,
+  }: {
+    label: string;
+    planKey: string;
+    product: "premium_annual" | "premium_monthly";
+  }) {
+    if (premiumStatus === "active" || isPremium) {
       return (
         <button
           disabled
-          className="w-full py-3 rounded-xl text-[15px] font-bold opacity-60"
-          style={{ backgroundColor: "var(--card)", color: "var(--success)", border: "1.5px solid var(--success)" }}
+          className="w-full py-3.5 rounded-xl text-[15px] font-bold"
+          style={{
+            backgroundColor: "transparent",
+            color: "#22a867",
+            border: "2px solid #22a867",
+          }}
         >
-          Active
+          Active Plan
         </button>
       );
     }
 
-    // Canceled but still within period
-    if (planStatus === "canceled") {
+    if (premiumStatus === "canceled") {
       return (
         <button
           disabled
-          className="w-full py-3 rounded-xl text-[15px] font-bold opacity-70"
-          style={{ backgroundColor: "var(--card)", color: "var(--warning)", border: "1.5px solid var(--warning)" }}
+          className="w-full py-3.5 rounded-xl text-[15px] font-bold"
+          style={{
+            backgroundColor: "transparent",
+            color: "#f59e0b",
+            border: "2px solid #f59e0b",
+          }}
         >
           Cancels at period end
         </button>
       );
     }
 
-    const isLoading = checkoutLoading === key;
+    const isLoading = checkoutLoading === planKey;
 
     return (
       <button
-        onClick={onClick}
+        onClick={() => handleCheckout(product, planKey)}
         disabled={isLoading || checkoutLoading !== null}
-        className="w-full py-3 rounded-xl text-[15px] font-bold transition-all active:scale-[0.98] disabled:opacity-60"
-        style={{ backgroundColor: "var(--accent)", color: "white" }}
+        className="w-full py-3.5 rounded-xl text-[15px] font-bold transition-all active:scale-[0.98] disabled:opacity-60"
+        style={{ backgroundColor: "#7c5cfc", color: "white" }}
+        onMouseEnter={(e) => {
+          if (!isLoading && checkoutLoading === null) {
+            e.currentTarget.style.backgroundColor = "#6a4ae8";
+            e.currentTarget.style.transform = "translateY(-1px)";
+            e.currentTarget.style.boxShadow = "0 6px 20px rgba(124,92,252,0.4)";
+          }
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.backgroundColor = "#7c5cfc";
+          e.currentTarget.style.transform = "translateY(0)";
+          e.currentTarget.style.boxShadow = "none";
+        }}
       >
         {isLoading ? (
           <span className="flex items-center justify-center gap-2">
@@ -145,209 +172,232 @@ export default function PricingPageClient() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ backgroundColor: "var(--background)" }}>
-      <header
-        className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
-        style={{
-          backgroundColor: "var(--background-blur)",
-          borderBottom: "0.5px solid var(--border)",
-        }}
-      >
-        <div className="max-w-2xl mx-auto flex items-center justify-between">
-          <Link href="/bible" className="text-sm font-medium" style={{ color: "var(--accent)" }}>
-            &larr; Home
-          </Link>
-          <h1 className="text-[15px] font-semibold" style={{ color: "var(--foreground)" }}>
+    <div
+      className="min-h-screen flex flex-col"
+      style={{ backgroundColor: "#faf9f7" }}
+    >
+      <main className="flex-1 px-5 py-12 md:py-20">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <p
+            className="text-xs font-bold uppercase tracking-widest mb-3"
+            style={{ color: "#7c5cfc" }}
+          >
             Pricing
-          </h1>
-          <span className="w-[50px]" />
-        </div>
-      </header>
-
-      <main className="flex-1 max-w-2xl mx-auto px-5 py-8">
-        <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold mb-2" style={{ color: "var(--foreground)" }}>
+          </p>
+          <h1
+            className="text-3xl md:text-4xl font-bold mb-4"
+            style={{ fontFamily: "'Source Serif 4', Georgia, serif", color: "#1a1510" }}
+          >
             Simple, Transparent Pricing
-          </h2>
-          <p className="text-[15px]" style={{ color: "var(--foreground-secondary)" }}>
-            Read free forever. Upgrade for audio, AI explanations, and summaries.
+          </h1>
+          <p className="text-base max-w-md mx-auto" style={{ color: "#6a655e" }}>
+            Read the Bible free forever. Upgrade to unlock AI explanations, book
+            summaries, and audio.
           </p>
         </div>
 
         {error && (
           <div
-            className="mb-4 p-3 rounded-xl text-[14px] text-center"
-            style={{ backgroundColor: "#fef2f2", color: "var(--error)" }}
+            className="max-w-2xl mx-auto mb-6 p-3 rounded-xl text-sm text-center"
+            style={{ backgroundColor: "#fef2f2", color: "#dc2626" }}
           >
             {error}
           </div>
         )}
 
         {loading ? (
-          <div className="flex items-center justify-center py-16">
+          <div className="flex items-center justify-center py-20">
             <div
-              className="w-6 h-6 border-2 rounded-full animate-spin"
-              style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
+              className="w-7 h-7 border-2 rounded-full animate-spin"
+              style={{ borderColor: "#e8e5e0", borderTopColor: "#7c5cfc" }}
             />
           </div>
         ) : (
-          <div className="space-y-4">
-            {/* ⭐ Unlimited Tier — highlighted */}
-            <div
-              className="rounded-xl p-5 relative"
-              style={{
-                backgroundColor: "var(--card)",
-                border: "2px solid var(--accent)",
-                boxShadow: "0 4px 20px rgba(124, 92, 252, 0.15)",
-              }}
-            >
-              <span
-                className="absolute -top-3 left-5 text-[11px] font-bold uppercase tracking-wider px-3 py-0.5 rounded-full"
-                style={{ backgroundColor: "var(--accent)", color: "white" }}
-              >
-                Recommended
-              </span>
+          <>
+            {/* Two pricing cards */}
+            <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6 mb-10">
 
-              <div className="flex items-baseline justify-between mb-1 mt-1">
-                <h3 className="text-[18px] font-bold" style={{ color: "var(--foreground)" }}>
-                  ClearBible Unlimited
-                </h3>
-              </div>
-              <p className="text-[13px] mb-4" style={{ color: "var(--foreground-secondary)" }}>
-                Summaries, AI explanations, audio, and every future feature
-              </p>
-
+              {/* ── Monthly Card ── */}
               <div
-                className="flex items-center justify-between p-3 rounded-lg mb-2"
-                style={{ backgroundColor: "var(--background)" }}
+                className="rounded-2xl p-8 flex flex-col cursor-pointer transition-all"
+                style={{
+                  backgroundColor: "#fff",
+                  border: "1.5px solid #e8e5e0",
+                  boxShadow: "0 2px 12px rgba(30,40,80,0.06)",
+                }}
+                onClick={() => !isPremium && handleCheckout("premium_monthly", "monthly")}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.boxShadow = "0 8px 32px rgba(124,92,252,0.12)";
+                  e.currentTarget.style.borderColor = "#c4b8ff";
+                  e.currentTarget.style.transform = "translateY(-2px)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.boxShadow = "0 2px 12px rgba(30,40,80,0.06)";
+                  e.currentTarget.style.borderColor = "#e8e5e0";
+                  e.currentTarget.style.transform = "translateY(0)";
+                }}
               >
-                <div>
-                  <span className="text-[15px] font-semibold" style={{ color: "var(--foreground)" }}>
-                    Yearly
-                  </span>
-                  <p className="text-[12px]" style={{ color: "var(--foreground-secondary)" }}>
-                    All features, all future updates
-                  </p>
-                </div>
-                <div className="text-right">
-                  <span className="text-[24px] font-bold" style={{ color: "var(--accent)" }}>
-                    $79
-                  </span>
-                  <span className="text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
-                    /year
-                  </span>
-                </div>
-              </div>
-
-              <div
-                className="flex items-center justify-between p-3 rounded-lg mb-4"
-                style={{ backgroundColor: "var(--background)" }}
-              >
-                <div>
-                  <span className="text-[15px] font-semibold" style={{ color: "var(--foreground)" }}>
-                    Monthly
-                  </span>
-                  <p className="text-[12px]" style={{ color: "var(--foreground-secondary)" }}>
+                <div className="mb-6">
+                  <h2
+                    className="text-lg font-bold mb-1"
+                    style={{ color: "#1a1510" }}
+                  >
+                    Premium Monthly
+                  </h2>
+                  <p className="text-sm" style={{ color: "#6a655e" }}>
                     All features, cancel anytime
                   </p>
                 </div>
-                <div className="text-right">
-                  <span className="text-[24px] font-bold" style={{ color: "var(--accent)" }}>
-                    $9.99
-                  </span>
-                  <span className="text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
-                    /month
-                  </span>
+
+                <div className="mb-6">
+                  <div className="flex items-end gap-1">
+                    <span
+                      className="text-5xl font-bold"
+                      style={{ color: "#1a1510", fontFamily: "'Source Serif 4', Georgia, serif" }}
+                    >
+                      $9.99
+                    </span>
+                    <span className="text-base pb-2" style={{ color: "#9a958e" }}>
+                      /month
+                    </span>
+                  </div>
+                  <p className="text-xs mt-1" style={{ color: "#9a958e" }}>
+                    Billed monthly · Cancel anytime
+                  </p>
                 </div>
+
+                <ul className="space-y-2.5 mb-8 flex-1">
+                  {FEATURES.map((f) => (
+                    <li key={f} className="flex items-start gap-2.5 text-sm" style={{ color: "#3a3530" }}>
+                      <span style={{ color: "#7c5cfc", flexShrink: 0, marginTop: 1 }}>&#10003;</span>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+
+                <PlanButton
+                  label="Start Monthly Plan →"
+                  planKey="monthly"
+                  product="premium_monthly"
+                />
               </div>
 
-              <ul className="space-y-2 text-[14px] mb-5" style={{ color: "var(--foreground)" }}>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>AI Bible Search — ask any question, get instant answers with verses</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>All 66 book summaries</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Unlimited verse explanations</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Summary audio playback</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Audio playback for every chapter</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>All future AI features included</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Priority feature updates</span>
-                </li>
-              </ul>
+              {/* ── Annual Card (highlighted) ── */}
+              <div
+                className="rounded-2xl p-8 flex flex-col cursor-pointer transition-all relative"
+                style={{
+                  backgroundColor: "#fff",
+                  border: "2px solid #7c5cfc",
+                  boxShadow: "0 4px 24px rgba(124,92,252,0.15)",
+                }}
+                onClick={() => !isPremium && handleCheckout("premium_annual", "annual")}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.boxShadow = "0 12px 40px rgba(124,92,252,0.25)";
+                  e.currentTarget.style.transform = "translateY(-2px)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.boxShadow = "0 4px 24px rgba(124,92,252,0.15)";
+                  e.currentTarget.style.transform = "translateY(0)";
+                }}
+              >
+                {/* Best Value badge */}
+                <span
+                  className="absolute -top-3.5 left-1/2 -translate-x-1/2 text-xs font-bold uppercase tracking-wider px-4 py-1 rounded-full whitespace-nowrap"
+                  style={{ backgroundColor: "#7c5cfc", color: "#fff" }}
+                >
+                  Best Value — Save 34%
+                </span>
 
-              {renderButton(
-                "Upgrade to Unlimited — $79/year",
-                "premium",
-                premiumStatus,
-                false,
-                () => handleCheckout("premium_annual", "premium")
-              )}
+                <div className="mb-6 mt-1">
+                  <h2
+                    className="text-lg font-bold mb-1"
+                    style={{ color: "#1a1510" }}
+                  >
+                    Premium Annual
+                  </h2>
+                  <p className="text-sm" style={{ color: "#6a655e" }}>
+                    All features, all future updates
+                  </p>
+                </div>
+
+                <div className="mb-6">
+                  <div className="flex items-end gap-1">
+                    <span
+                      className="text-5xl font-bold"
+                      style={{ color: "#7c5cfc", fontFamily: "'Source Serif 4', Georgia, serif" }}
+                    >
+                      $79
+                    </span>
+                    <span className="text-base pb-2" style={{ color: "#9a958e" }}>
+                      /year
+                    </span>
+                  </div>
+                  <p className="text-xs mt-1" style={{ color: "#9a958e" }}>
+                    Just $6.58/month · Billed annually
+                  </p>
+                </div>
+
+                <ul className="space-y-2.5 mb-8 flex-1">
+                  {FEATURES.map((f) => (
+                    <li key={f} className="flex items-start gap-2.5 text-sm" style={{ color: "#3a3530" }}>
+                      <span style={{ color: "#7c5cfc", flexShrink: 0, marginTop: 1 }}>&#10003;</span>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+
+                <PlanButton
+                  label="Start Annual Plan →"
+                  planKey="annual"
+                  product="premium_annual"
+                />
+              </div>
             </div>
 
             {/* Free tier */}
-            <div
-              className="rounded-xl p-5"
-              style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
-            >
-              <div className="flex items-baseline justify-between mb-3">
-                <h3 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>
-                  Free
-                </h3>
-                <span
-                  className="text-[13px] font-medium px-2.5 py-0.5 rounded-full"
-                  style={{ backgroundColor: "rgba(5, 150, 105, 0.1)", color: "var(--success)" }}
-                >
-                  Always free
-                </span>
+            <div className="max-w-4xl mx-auto">
+              <div
+                className="rounded-2xl p-6"
+                style={{ backgroundColor: "#fff", border: "1px solid #e8e5e0" }}
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-base font-semibold" style={{ color: "#1a1510" }}>
+                    Free Plan
+                  </h3>
+                  <span
+                    className="text-xs font-semibold px-3 py-1 rounded-full"
+                    style={{ backgroundColor: "rgba(34,168,103,0.1)", color: "#22a867" }}
+                  >
+                    Always Free
+                  </span>
+                </div>
+                <ul className="grid sm:grid-cols-2 gap-2">
+                  {[
+                    "Full KJV + Clear Bible Translation — all 66 books",
+                    "Bookmarks and reading progress tracking",
+                    "Personal notes on any verse",
+                    "Highlights in 5 colors",
+                  ].map((f) => (
+                    <li key={f} className="flex items-start gap-2 text-sm" style={{ color: "#3a3530" }}>
+                      <span style={{ color: "#22a867", flexShrink: 0, marginTop: 1 }}>&#10003;</span>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="space-y-2 text-[14px]" style={{ color: "var(--foreground)" }}>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Full KJV + Clear Bible Translation — all 66 books</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Bookmarks and reading progress tracking</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Personal notes</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Search across the entire Bible</span>
-                </li>
-              </ul>
             </div>
-          </div>
+          </>
         )}
 
         {/* Disclaimer */}
         <p
-          className="text-center text-[12px] leading-relaxed mt-8"
-          style={{ color: "var(--foreground-secondary)" }}
+          className="text-center text-xs leading-relaxed mt-10 max-w-lg mx-auto"
+          style={{ color: "#9a958e" }}
         >
-          All paid features are optional. ClearBible.ai is an educational reading tool.
-          AI-generated content describes what the biblical text contains without interpretation.
-          See our{" "}
-          <Link href="/refunds" className="underline" style={{ color: "var(--accent)" }}>
+          All paid features are optional. ClearBible.ai is an educational reading
+          tool. See our{" "}
+          <Link href="/refunds" className="underline" style={{ color: "#7c5cfc" }}>
             Refund Policy
           </Link>{" "}
           for details on cancellations and refunds.
@@ -357,8 +407,8 @@ export default function PricingPageClient() {
         <div className="text-center mt-8">
           <Link
             href="/bible"
-            className="inline-flex items-center justify-center px-8 py-3.5 rounded-xl text-[16px] font-semibold transition-all active:scale-95"
-            style={{ backgroundColor: "var(--accent)", color: "white" }}
+            className="inline-flex items-center justify-center px-8 py-3.5 rounded-xl text-base font-semibold transition-all"
+            style={{ backgroundColor: "#7c5cfc", color: "white", boxShadow: "0 4px 16px rgba(124,92,252,0.3)" }}
           >
             Start Reading for Free
           </Link>

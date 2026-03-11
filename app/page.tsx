@@ -464,7 +464,7 @@ export default function ClearBibleLanding() {
       {/* ═══════════════════ HERO ═══════════════════ */}
       <section style={{
         position: "relative",
-        padding: "80px 24px 60px",
+        padding: "56px 24px 60px",
         textAlign: "center",
         background: "linear-gradient(180deg, #fff 0%, #faf9f7 100%)",
         overflow: "hidden",
@@ -483,16 +483,6 @@ export default function ClearBibleLanding() {
         }} />
 
         <div style={{ position: "relative", zIndex: 1, maxWidth: 680, margin: "0 auto" }}>
-          {/* Logo */}
-          <div style={{ marginBottom: 28, animation: "fadeUp 0.5s ease both" }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/brand/logo.svg"
-              alt="ClearBible.ai"
-              style={{ margin: "0 auto", display: "block", maxWidth: 360, width: "100%", height: "auto" }}
-            />
-          </div>
-
           <h1 style={{
             fontFamily: "'Source Serif 4', Georgia, serif",
             fontSize: "clamp(36px, 6vw, 56px)",
