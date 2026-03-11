@@ -165,38 +165,11 @@ export default function ClearBibleLanding() {
 
       {/* ═══════════ SECTION 1 — HERO ═══════════ */}
       <section
+        className="hero-gradient"
         style={{
-          padding: "100px 24px 120px",
-          background: "linear-gradient(180deg, #fff 0%, #faf9f7 50%, #f5f2ff 100%)",
-          position: "relative",
-          overflow: "hidden",
+          padding: "120px 24px 120px",
         }}
       >
-        {/* Subtle purple glow */}
-        <div
-          style={{
-            position: "absolute",
-            top: -200,
-            right: -200,
-            width: 600,
-            height: 600,
-            borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(124,92,252,0.06) 0%, transparent 70%)",
-            pointerEvents: "none",
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            bottom: -100,
-            left: -100,
-            width: 400,
-            height: 400,
-            borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(90,59,255,0.04) 0%, transparent 70%)",
-            pointerEvents: "none",
-          }}
-        />
 
         <div
           style={{
@@ -244,7 +217,7 @@ export default function ClearBibleLanding() {
               style={{
                 fontSize: 18,
                 lineHeight: 1.7,
-                color: "#5a554e",
+                color: "#4a4540",
                 marginBottom: 16,
                 maxWidth: 480,
               }}
@@ -256,7 +229,7 @@ export default function ClearBibleLanding() {
               style={{
                 fontSize: 15,
                 lineHeight: 1.7,
-                color: "#8a8580",
+                color: "#6a655e",
                 marginBottom: 36,
                 maxWidth: 480,
               }}
@@ -307,7 +280,7 @@ export default function ClearBibleLanding() {
             Reading the Bible is powerful.{" "}
             <span className="gradient-text">Understanding it changes everything.</span>
           </h2>
-          <p style={{ fontSize: 18, lineHeight: 1.8, color: "#5a554e", maxWidth: 600, margin: "0 auto" }}>
+          <p style={{ fontSize: 18, lineHeight: 1.8, color: "#4a4540", maxWidth: 600, margin: "0 auto" }}>
             When you understand scripture, you remember it. When you remember it, you can apply it to your life.
             ClearBible helps readers move beyond simply reading the Bible to truly understanding it.
           </p>
@@ -482,7 +455,7 @@ export default function ClearBibleLanding() {
                   >
                     {feature.title}
                   </h3>
-                  <p style={{ fontSize: 16, lineHeight: 1.8, color: "#5a554e", marginBottom: 24 }}>
+                  <p style={{ fontSize: 16, lineHeight: 1.8, color: "#4a4540", marginBottom: 24 }}>
                     {feature.desc}
                   </p>
                   <Link
@@ -782,9 +755,8 @@ export default function ClearBibleLanding() {
 
       {/* ═══════════ SECTION 8 — FINAL CTA ═══════════ */}
       <section
-        className="marketing-section"
+        className="marketing-section hero-gradient-light"
         style={{
-          background: "linear-gradient(180deg, #faf9f7 0%, #f5f2ff 50%, #ede8ff 100%)",
           textAlign: "center",
         }}
       >
@@ -801,7 +773,7 @@ export default function ClearBibleLanding() {
             The Bible becomes powerful when you{" "}
             <span className="gradient-text">understand it.</span>
           </h2>
-          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#5a554e", marginBottom: 40 }}>
+          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#4a4540", marginBottom: 40 }}>
             Start reading with ClearBible today and experience scripture in a clearer way.
           </p>
           <Link href="/signup" className="btn-primary" style={{ fontSize: 18, padding: "18px 48px" }}>

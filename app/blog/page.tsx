@@ -66,20 +66,17 @@ export default function BlogPage() {
 
       {/* Hero */}
       <section
-        className="marketing-section"
-        style={{
-          background: "linear-gradient(180deg, #fff 0%, #f5f2ff 100%)",
-          textAlign: "center",
-        }}
+        className="marketing-section hero-gradient"
+        style={{ textAlign: "center" }}
       >
-        <div style={{ maxWidth: 700, margin: "0 auto" }}>
+        <div style={{ maxWidth: 700, margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: 1.5, textTransform: "uppercase", color: "#7C5CFC", marginBottom: 16 }}>
             Blog
           </p>
           <h1 style={{ fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 800, lineHeight: 1.15, color: "#1a1510", marginBottom: 24 }}>
             Insights for <span className="gradient-text">deeper reading</span>
           </h1>
-          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#5a554e" }}>
+          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#4a4540" }}>
             Articles about understanding scripture, Bible study tips, and biblical questions answered clearly.
           </p>
         </div>

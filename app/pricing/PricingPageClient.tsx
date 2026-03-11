@@ -137,20 +137,17 @@ export default function PricingPageClient() {
 
       {/* Hero */}
       <section
-        className="marketing-section"
-        style={{
-          background: "linear-gradient(180deg, #fff 0%, #f5f2ff 100%)",
-          textAlign: "center",
-        }}
+        className="marketing-section hero-gradient"
+        style={{ textAlign: "center" }}
       >
-        <div style={{ maxWidth: 700, margin: "0 auto" }}>
+        <div style={{ maxWidth: 700, margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: 1.5, textTransform: "uppercase", color: "#7C5CFC", marginBottom: 16 }}>
             Pricing
           </p>
           <h1 style={{ fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 800, lineHeight: 1.15, color: "#1a1510", marginBottom: 24 }}>
             Simple, <span className="gradient-text">transparent</span> pricing
           </h1>
-          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#5a554e" }}>
+          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#4a4540" }}>
             Read free forever. Upgrade for AI explanations, summaries, and audio.
           </p>
         </div>
@@ -394,7 +391,7 @@ export default function PricingPageClient() {
                 <h3 style={{ fontSize: 16, fontWeight: 700, color: "#1a1510", marginBottom: 8 }}>
                   {faq.q}
                 </h3>
-                <p style={{ fontSize: 15, lineHeight: 1.7, color: "#5a554e", margin: 0 }}>
+                <p style={{ fontSize: 15, lineHeight: 1.7, color: "#4a4540", margin: 0 }}>
                   {faq.a}
                 </p>
               </div>
@@ -405,11 +402,8 @@ export default function PricingPageClient() {
 
       {/* CTA */}
       <section
-        className="marketing-section"
-        style={{
-          background: "linear-gradient(180deg, #faf9f7 0%, #f5f2ff 100%)",
-          textAlign: "center",
-        }}
+        className="marketing-section hero-gradient-light"
+        style={{ textAlign: "center" }}
       >
         <div style={{ maxWidth: 600, margin: "0 auto" }}>
           <h2 style={{ fontSize: "clamp(28px, 4vw, 42px)", fontWeight: 800, color: "#1a1510", marginBottom: 20 }}>

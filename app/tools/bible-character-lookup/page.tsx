@@ -11,7 +11,7 @@ export default function BibleCharacterLookupPage() {
   return (
     <div style={{ fontFamily: "'Inter', sans-serif", color: "#2a2520", background: "#fff", paddingBottom: 0 }}>
       <MarketingNav />
-      <section className="marketing-section" style={{ background: "linear-gradient(180deg, #fff 0%, #f5f2ff 100%)", textAlign: "center" }}>
+      <section className="marketing-section hero-gradient" style={{ textAlign: "center" }}>
         <div style={{ maxWidth: 700, margin: "0 auto" }}>
           <Link href="/tools" style={{ fontSize: 13, fontWeight: 600, color: "#7C5CFC", textDecoration: "none", marginBottom: 24, display: "inline-block" }}>
             &larr; All Tools

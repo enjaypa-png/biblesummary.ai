@@ -87,13 +87,10 @@ export default function HowItWorksPage() {
 
       {/* Hero */}
       <section
-        className="marketing-section"
-        style={{
-          background: "linear-gradient(180deg, #fff 0%, #f5f2ff 100%)",
-          textAlign: "center",
-        }}
+        className="marketing-section hero-gradient"
+        style={{ textAlign: "center" }}
       >
-        <div style={{ maxWidth: 700, margin: "0 auto" }}>
+        <div style={{ maxWidth: 700, margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontSize: 13, fontWeight: 700, letterSpacing: 1.5, textTransform: "uppercase", color: "#7C5CFC", marginBottom: 16 }}>
             How It Works
           </p>
@@ -101,7 +98,7 @@ export default function HowItWorksPage() {
             From reading to{" "}
             <span className="gradient-text">understanding</span>
           </h1>
-          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#5a554e" }}>
+          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#4a4540" }}>
             ClearBible makes it simple to read the Bible, understand what you&apos;re reading, and actually remember it. Here&apos;s how.
           </p>
         </div>
@@ -154,7 +151,7 @@ export default function HowItWorksPage() {
                   <h3 style={{ fontSize: 24, fontWeight: 700, color: "#1a1510", marginBottom: 12 }}>
                     {step.title}
                   </h3>
-                  <p style={{ fontSize: 16, lineHeight: 1.7, color: "#5a554e" }}>
+                  <p style={{ fontSize: 16, lineHeight: 1.7, color: "#4a4540" }}>
                     {step.desc}
                   </p>
                 </div>
@@ -166,17 +163,14 @@ export default function HowItWorksPage() {
 
       {/* CTA */}
       <section
-        className="marketing-section"
-        style={{
-          background: "linear-gradient(180deg, #faf9f7 0%, #f5f2ff 100%)",
-          textAlign: "center",
-        }}
+        className="marketing-section hero-gradient-light"
+        style={{ textAlign: "center" }}
       >
         <div style={{ maxWidth: 600, margin: "0 auto" }}>
           <h2 style={{ fontSize: "clamp(28px, 4vw, 42px)", fontWeight: 800, color: "#1a1510", marginBottom: 20 }}>
             Ready to start?
           </h2>
-          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#5a554e", marginBottom: 40 }}>
+          <p style={{ fontSize: 18, lineHeight: 1.7, color: "#4a4540", marginBottom: 40 }}>
             Create a free account and begin reading with clarity today.
           </p>
           <Link href="/signup" className="btn-primary" style={{ fontSize: 16, padding: "16px 40px" }}>
