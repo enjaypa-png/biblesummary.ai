@@ -7,6 +7,7 @@ import MiniPlayer from "@/components/MiniPlayer";
 import ReadingSettingsPanel from "@/components/ReadingSettingsPanel";
 import { AudioPlayerProvider } from "@/contexts/AudioPlayerContext";
 import { ReadingSettingsProvider } from "@/contexts/ReadingSettingsContext";
+import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
   title: "ClearBible.ai — Read the Bible in Plain English | Free Bible App",
@@ -57,6 +58,7 @@ export default function RootLayout({
           <ReadingSettingsProvider>
             <AudioPlayerProvider>
               <SessionTracker />
+              <Navigation />
               {children}
               <MiniPlayer />
               <ReadingSettingsPanel />

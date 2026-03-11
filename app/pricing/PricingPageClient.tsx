@@ -51,7 +51,8 @@ export default function PricingPageClient() {
               : "canceled"
             : "none";
 
-          if (sub.type === "premium_yearly") {
+          // Treat both yearly and monthly premium plans as premium
+          if (sub.type === "premium_yearly" || sub.type === "premium_monthly") {
             setPremiumStatus(status);
           }
         }
@@ -261,6 +262,23 @@ export default function PricingPageClient() {
                 </div>
               </div>
 
+              <div className="flex flex-col sm:flex-row gap-2 mb-3">
+                {renderButton(
+                  "Upgrade – $79/year",
+                  "premium_yearly",
+                  premiumStatus,
+                  false,
+                  () => handleCheckout("premium_annual", "premium_yearly")
+                )}
+                {renderButton(
+                  "Or $9.99/month",
+                  "premium_monthly",
+                  premiumStatus,
+                  false,
+                  () => handleCheckout("premium_monthly", "premium_monthly")
+                )}
+              </div>
+
               <ul className="space-y-2 text-[14px] mb-5" style={{ color: "var(--foreground)" }}>
                 <li className="flex items-start gap-2.5">
                   <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
@@ -292,13 +310,6 @@ export default function PricingPageClient() {
                 </li>
               </ul>
 
-              {renderButton(
-                "Upgrade to Unlimited — $79/year",
-                "premium",
-                premiumStatus,
-                false,
-                () => handleCheckout("premium_annual", "premium")
-              )}
             </div>
 
             {/* Free tier */}
