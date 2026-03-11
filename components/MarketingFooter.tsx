@@ -37,9 +37,9 @@ export default function MarketingFooter() {
             <Image
               src="/brand/logo.png"
               alt="ClearBible"
-              width={140}
-              height={32}
-              style={{ height: 28, width: "auto", objectFit: "contain", marginBottom: 16 }}
+              width={180}
+              height={44}
+              style={{ height: 40, width: "auto", objectFit: "contain", marginBottom: 16 }}
             />
             <p
               style={{

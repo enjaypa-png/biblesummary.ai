@@ -30,15 +30,15 @@ export default function MarketingNav() {
           justifyContent: "space-between",
         }}
       >
-        {/* Logo */}
+        {/* Logo — large and clear */}
         <Link href="/" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
           <Image
             src="/brand/logo.png"
             alt="ClearBible"
-            width={160}
-            height={36}
+            width={200}
+            height={48}
             priority
-            style={{ height: 32, width: "auto", objectFit: "contain" }}
+            style={{ height: 48, width: "auto", objectFit: "contain" }}
           />
         </Link>
 
@@ -77,7 +77,7 @@ export default function MarketingNav() {
           <Link
             href="/signup"
             className="btn-primary"
-            style={{ padding: "10px 24px", fontSize: 14 }}
+            style={{ padding: "10px 20px", fontSize: 14, borderRadius: 12 }}
           >
             Start Reading Free
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
