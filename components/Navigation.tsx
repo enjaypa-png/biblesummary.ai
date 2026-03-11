@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 /**
@@ -23,14 +22,12 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <Link href="/" className="flex items-center">
-            <Image
-              src="/brand/logo.png"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/brand/logo.svg"
               alt="ClearBible.ai"
-              width={160}
-              height={36}
               className="h-8 sm:h-9 w-auto flex-shrink-0"
               style={{ objectFit: "contain" }}
-              priority
             />
           </Link>
 

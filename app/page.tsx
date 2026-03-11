@@ -4,7 +4,6 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { getCurrentUser } from "@/lib/supabase";
-import Image from "next/image";
 import HeroBibleSearch from "@/components/HeroBibleSearch";
 
 const FEATURES_FREE = [
@@ -486,13 +485,11 @@ export default function ClearBibleLanding() {
         <div style={{ position: "relative", zIndex: 1, maxWidth: 680, margin: "0 auto" }}>
           {/* Logo */}
           <div style={{ marginBottom: 28, animation: "fadeUp 0.5s ease both" }}>
-            <Image
-              src="/brand/logo.png"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/brand/logo.svg"
               alt="ClearBible.ai"
-              width={400}
-              height={108}
-              priority
-              style={{ margin: "0 auto", maxWidth: 400, width: "100%", height: "auto" }}
+              style={{ margin: "0 auto", display: "block", maxWidth: 360, width: "100%", height: "auto" }}
             />
           </div>
 
@@ -942,12 +939,11 @@ export default function ClearBibleLanding() {
         background: "#fff",
       }}>
         <div style={{ marginBottom: 16 }}>
-          <Image
-            src="/brand/logo-192.png"
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/logo.svg"
             alt="ClearBible.ai"
-            width={40}
-            height={40}
-            style={{ margin: "0 auto 12px", height: "auto", objectFit: "contain" }}
+            style={{ margin: "0 auto 12px", display: "block", width: 40, height: 40, objectFit: "contain" }}
           />
         </div>
         <div style={{

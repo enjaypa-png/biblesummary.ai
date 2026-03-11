@@ -111,7 +111,7 @@ export default function BottomTabBar() {
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50 border-t backdrop-blur-xl"
       style={{ backgroundColor: "var(--tab-bar)", borderColor: "var(--border)" }}>
-      <div className="flex justify-around items-center h-[54px] max-w-lg mx-auto">
+      <div className="flex justify-around items-center h-[64px]">
         {tabs.map((tab) => {
           const active = isActive(tab.href);
           return (
@@ -119,12 +119,12 @@ export default function BottomTabBar() {
               key={tab.href}
               href={tab.href}
               title={tab.tooltip}
-              className={`flex flex-col items-center justify-center flex-1 h-full transition-colors active:opacity-70 ${
+              className={`flex flex-col items-center justify-center flex-1 h-full gap-1 transition-colors active:opacity-70 ${
                 active ? "text-[var(--accent)]" : "text-[var(--tab-inactive)]"
               }`}
             >
               {tab.icon(active)}
-              <span className={`text-[12px] mt-0.5 ${active ? "font-semibold" : "font-medium"}`}>
+              <span className={`text-[11px] ${active ? "font-semibold" : "font-medium"}`}>
                 {tab.label}
               </span>
             </Link>

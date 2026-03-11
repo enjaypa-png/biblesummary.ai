@@ -365,7 +365,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
         className="sticky top-0 z-40 backdrop-blur-xl"
         style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}
       >
-        <div className="max-w-lg mx-auto px-5 pt-5 pb-3">
+        <div className="max-w-3xl mx-auto px-5 pt-5 pb-3">
           {/* Back button when not on books tab */}
           {activeTab !== "books" && (
             <button
@@ -496,7 +496,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
         </div>
       </header>
 
-      <main className="max-w-lg mx-auto px-5 pt-4 pb-8">
+      <main className="max-w-3xl mx-auto px-5 pt-4 pb-8">
         {/* Continue Reading card (automatic reading position) */}
         {activeTab === "books" && readingPosition && (
           <Link
