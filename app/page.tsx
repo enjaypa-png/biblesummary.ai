@@ -466,40 +466,21 @@ export default function ClearBibleLanding() {
         position: "relative",
         padding: "80px 24px 60px",
         textAlign: "center",
-        background: "linear-gradient(180deg, #fff 0%, #faf9f7 100%)",
+        background: "radial-gradient(circle at center, #ffffff 0%, #f4f1ff 35%, #e7e2ff 60%, #d6ccff 100%)",
         overflow: "hidden",
       }}>
-        {/* Subtle decorative element */}
-        <div style={{
-          position: "absolute",
-          top: -120,
-          left: "50%",
-          transform: "translateX(-50%)",
-          width: 600,
-          height: 600,
-          borderRadius: "50%",
-          background: "radial-gradient(circle, rgba(124,92,252,0.04) 0%, transparent 70%)",
-          pointerEvents: "none",
-        }} />
-
         <div style={{ position: "relative", zIndex: 1, maxWidth: 680, margin: "0 auto" }}>
           {/* Logo */}
-          <div style={{
-            marginBottom: 28,
-            animation: "fadeUp 0.5s ease both",
-            width: 420,
-            height: 420,
-            maxWidth: "100%",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            margin: "0 auto 28px",
-          }}>
+          <div style={{ margin: "0 auto 28px", animation: "fadeUp 0.5s ease both" }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/logo.svg"
               alt="ClearBible.ai"
-              style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }}
+              style={{
+                width: "100%",
+                height: "auto",
+                display: "block",
+              }}
             />
           </div>
 

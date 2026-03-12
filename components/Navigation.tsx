@@ -25,17 +25,17 @@ export default function Navigation() {
       className="border-b backdrop-blur-xl"
       style={{ backgroundColor: "var(--background-blur)", borderColor: "var(--border)" }}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
-        
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
             src="/brand/logo.png"
             alt="ClearBible.ai"
-            width={150}
-            height={36}
+            width={300}
+            height={78}
             priority
-            style={{ width: "auto", height: 26, objectFit: "contain" }}
+            style={{ width: "auto", height: 78, objectFit: "contain" }}
           />
         </Link>
 
