@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 
-const PUBLIC_PATHS = ["/login", "/signup", "/onboarding", "/terms", "/privacy", "/refunds", "/pricing", "/auth"];
+const PUBLIC_PATHS = ["/login", "/signup", "/onboarding", "/terms", "/privacy", "/refunds", "/pricing", "/auth", "/blog"];
 
 /**
  * Auth gate: unauthenticated users go to login only.

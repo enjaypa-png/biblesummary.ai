@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import { supabaseOAuth } from "@/lib/supabase-oauth";
 import { Suspense } from "react";
@@ -14,16 +14,16 @@ import { Suspense } from "react";
  *
  * Flow:
  *  1. The page loads with ?code=xxx from Supabase's OAuth redirect.
- *  2. `supabaseOAuth` (which has `detectSessionInUrl: true`) automatically
- *     detects the code and exchanges it for a session using the PKCE
- *     code_verifier stored in localStorage — which Safari ITP cannot touch.
- *  3. We wait for the exchange to complete via `getSession()`.
- *  4. We transfer the session to the cookie-based client so SSR/middleware
+ *  2. We explicitly call `exchangeCodeForSession(code)` on `supabaseOAuth`,
+ *     which retrieves the PKCE code_verifier from localStorage and exchanges
+ *     the code for a session — immune to Safari ITP.
+ *  3. We transfer the session to the cookie-based client so SSR/middleware
  *     can read it.
- *  5. Redirect to /bible or /onboarding.
+ *  4. Redirect to /bible or /onboarding.
  */
 function AuthComplete() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const ran = useRef(false);
 
   useEffect(() => {
@@ -31,31 +31,34 @@ function AuthComplete() {
     ran.current = true;
 
     async function finish() {
-      // Wait for the localStorage-based client to auto-exchange the code.
-      // `getSession()` internally awaits the `initializePromise`, which
-      // includes the PKCE code exchange triggered by detectSessionInUrl.
-      const {
-        data: { session },
-      } = await supabaseOAuth.auth.getSession();
+      const code = searchParams.get("code");
 
-      if (session) {
-        // Transfer the session to the cookie-based client so that
-        // middleware, server components, and API routes can read it.
-        await supabase.auth.setSession({
-          access_token: session.access_token,
-          refresh_token: session.refresh_token,
-        });
+      if (code) {
+        // Explicitly exchange the code using the localStorage-based client.
+        // This is more reliable than relying on detectSessionInUrl, which
+        // only fires during client initialization and can miss the code if
+        // the module was already initialized earlier in the session.
+        const { data } = await supabaseOAuth.auth.exchangeCodeForSession(code);
 
-        const onboarded =
-          localStorage.getItem("onboarding_completed") ||
-          session.user?.user_metadata?.onboarding_completed;
-        if (onboarded) localStorage.setItem("onboarding_completed", "true");
-        router.replace(onboarded ? "/bible" : "/onboarding");
-        return;
+        if (data?.session) {
+          // Transfer the session to the cookie-based client so that
+          // middleware, server components, and API routes can read it.
+          await supabase.auth.setSession({
+            access_token: data.session.access_token,
+            refresh_token: data.session.refresh_token,
+          });
+
+          const onboarded =
+            localStorage.getItem("onboarding_completed") ||
+            data.session.user?.user_metadata?.onboarding_completed;
+          if (onboarded) localStorage.setItem("onboarding_completed", "true");
+          router.replace(onboarded ? "/bible" : "/onboarding");
+          return;
+        }
       }
 
-      // No session from the OAuth client — try the cookie-based client
-      // in case the exchange already happened server-side (non-Safari).
+      // No code in URL — try the cookie-based client in case the exchange
+      // already happened server-side (non-Safari path without code forwarding).
       const {
         data: { session: cookieSession },
       } = await supabase.auth.getSession();
@@ -73,7 +76,7 @@ function AuthComplete() {
     }
 
     finish();
-  }, [router]);
+  }, [router, searchParams]);
 
   return (
     <div
