@@ -619,7 +619,7 @@ export default function ClearBibleLanding() {
         <VerseDemo />
       </section>
 
-      {/* ═══════════════════ ORIGIN STORY ═══════════════════ */}
+      {/* ═══════════════════ PROBLEM / MISSION ═══════════════════ */}
       <section style={{
         padding: "64px 24px",
         textAlign: "center",
@@ -628,43 +628,89 @@ export default function ClearBibleLanding() {
         borderBottom: "1px solid #eee",
       }}>
         <div style={{ maxWidth: 600, margin: "0 auto", animation: "fadeUp 0.7s ease both" }}>
+
+          {/* Understand. Remember. Apply. */}
           <div style={{
             fontFamily: "'Source Serif 4', Georgia, serif",
-            fontSize: "clamp(18px, 3vw, 22px)",
-            fontWeight: 400,
-            fontStyle: "italic",
-            lineHeight: 1.8,
-            color: "#2a2520",
+            fontSize: "clamp(36px, 6vw, 54px)",
+            fontWeight: 700,
+            lineHeight: 1.25,
+            marginBottom: 40,
           }}>
-            <p style={{ margin: "0 0 8px" }}>&ldquo;I committed to reading the Bible cover to cover.</p>
-            <p style={{ margin: "0 0 8px" }}>But when I revisited earlier chapters, I realized I wasn&apos;t truly retaining it.</p>
-            <p style={{
-              margin: "24px 0 0",
-              fontStyle: "normal",
-              fontWeight: 700,
-              color: "#1a1510",
-            }}>
-              That&apos;s when I decided to build a better way to read the Bible and remember.&rdquo;
+            <span style={{ color: "#1a1510" }}>Understand.</span><br />
+            <span style={{ color: "#1a1510" }}>Remember.</span><br />
+            <span style={{ color: "#7c5cfc" }}>Apply.</span>
+          </div>
+
+          {/* Headline */}
+          <h2 style={{
+            fontFamily: "'Source Serif 4', Georgia, serif",
+            fontSize: "clamp(22px, 3.5vw, 30px)",
+            fontWeight: 700,
+            color: "#1a1510",
+            marginBottom: 24,
+          }}>
+            The Bible can be a long, difficult read.
+          </h2>
+
+          {/* Explanation */}
+          <div style={{
+            fontFamily: "'DM Sans', sans-serif",
+            fontSize: 16,
+            lineHeight: 1.8,
+            color: "#3a3530",
+            textAlign: "left",
+            marginBottom: 28,
+          }}>
+            <p style={{ marginBottom: 16 }}>
+              For many people, reading the Bible from cover to cover can take years.
+            </p>
+            <p style={{ marginBottom: 16 }}>
+              And by the time they finish, they often realize they don&apos;t remember as much of what they read as they hoped.
+            </p>
+            <p>
+              The language can be difficult.<br />
+              The meaning behind certain passages can be hard to understand.<br />
+              And it can be challenging to see how scripture connects to everyday life.
             </p>
           </div>
-          <p style={{
-            marginTop: 20,
-            fontSize: 15,
-            fontWeight: 600,
-            color: "#6a655e",
-            fontFamily: "'DM Sans', sans-serif",
-            letterSpacing: 0.5,
-          }}>
-            — Nicholas Palladino, Founder
-          </p>
+
+          {/* Transition to solution */}
           <div style={{
-            marginTop: 20,
-            width: 48,
-            height: 3,
-            background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
-            borderRadius: 2,
-            margin: "20px auto 0",
-          }} />
+            fontFamily: "'DM Sans', sans-serif",
+            fontSize: 16,
+            lineHeight: 1.8,
+            color: "#3a3530",
+            textAlign: "left",
+            marginBottom: 28,
+          }}>
+            <p style={{ marginBottom: 16 }}>
+              <strong>ClearBible<span style={{ color: "#7c5cfc" }}>.ai</span></strong> was built to change that.
+            </p>
+            <p>
+              Instead of simply reading scripture, ClearBible helps you understand what the Bible is saying, remember what you read, and apply its wisdom to your life.
+            </p>
+          </div>
+
+          {/* Feature intro */}
+          <div style={{
+            fontFamily: "'DM Sans', sans-serif",
+            fontSize: 16,
+            lineHeight: 1.8,
+            color: "#3a3530",
+            textAlign: "left",
+          }}>
+            <p style={{ marginBottom: 12, fontWeight: 600 }}>
+              ClearBible provides:
+            </p>
+            <ul style={{ paddingLeft: 20, margin: 0 }}>
+              <li style={{ marginBottom: 8 }}>Verse-by-verse explanations written in clear modern language</li>
+              <li style={{ marginBottom: 8 }}>AI-powered Bible search that answers questions using scripture</li>
+              <li style={{ marginBottom: 8 }}>Carefully written summaries of all 66 books of the Bible</li>
+              <li>Three Bible translations: KJV, WEB, and CBT</li>
+            </ul>
+          </div>
+
         </div>
       </section>
 
