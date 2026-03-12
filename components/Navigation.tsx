@@ -3,9 +3,22 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import { supabase } from "@/lib/supabase";
 
 export default function Navigation() {
   const pathname = usePathname();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setIsLoggedIn(!!session);
+    });
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setIsLoggedIn(!!session);
+    });
+    return () => subscription.unsubscribe();
+  }, []);
 
   const navLinks = [
     { href: "/", label: "How It Works" },
@@ -59,21 +72,32 @@ export default function Navigation() {
 
         {/* Right-side actions */}
         <div className="flex items-center gap-2">
-          <Link
-            href="/login"
-            className="hidden sm:inline-flex items-center justify-center px-3 py-1.5 rounded-md text-sm font-medium"
-            style={{ color: "var(--foreground-secondary)" }}
-          >
-            Login
-          </Link>
-
-          <Link
-            href="/signup"
-            className="inline-flex items-center justify-center rounded-full text-sm font-semibold px-4 py-1.5"
-            style={{ backgroundColor: "var(--accent)", color: "#fff" }}
-          >
-            Start Reading Free
-          </Link>
+          {isLoggedIn ? (
+            <Link
+              href="/bible"
+              className="inline-flex items-center justify-center rounded-full text-sm font-semibold px-4 py-1.5"
+              style={{ backgroundColor: "var(--accent)", color: "#fff" }}
+            >
+              Open Bible
+            </Link>
+          ) : (
+            <>
+              <Link
+                href="/login"
+                className="hidden sm:inline-flex items-center justify-center px-3 py-1.5 rounded-md text-sm font-medium"
+                style={{ color: "var(--foreground-secondary)" }}
+              >
+                Login
+              </Link>
+              <Link
+                href="/signup"
+                className="inline-flex items-center justify-center rounded-full text-sm font-semibold px-4 py-1.5"
+                style={{ backgroundColor: "var(--accent)", color: "#fff" }}
+              >
+                Start Reading Free
+              </Link>
+            </>
+          )}
         </div>
 
       </div>
