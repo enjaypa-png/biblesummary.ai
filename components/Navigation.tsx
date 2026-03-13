@@ -64,7 +64,7 @@ export default function Navigation() {
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Logo />
+            <Logo height={48} />
           </Link>
 
           <div className="hidden md:flex items-center gap-2">
@@ -123,9 +123,9 @@ export default function Navigation() {
       className="border-b backdrop-blur-xl"
       style={{ backgroundColor: "var(--background-blur)", borderColor: "var(--border)" }}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link href="/bible" className="flex items-center">
-          <Logo />
+          <Logo height={44} />
         </Link>
 
         <div className="hidden md:flex items-center gap-1">
