@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 
 const DISMISS_KEY = "pwa_install_dismissed_at";
 const INSTALLED_KEY = "pwa_installed";
@@ -113,12 +112,12 @@ export default function InstallPrompt() {
           style={{ borderBottom: "0.5px solid var(--border)" }}
         >
           <div className="flex items-center gap-3">
-            <Image
-              src="/brand/logo-192.png"
-              alt="ClearBible.ai"
-              width={36}
-              height={36}
-              className="rounded-xl"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/clearbible-logo.svg"
+              alt="ClearBible.ai Logo"
+              className="logo"
+              style={{ height: 36, width: "auto" }}
             />
             <div>
               <p className="text-[14px] font-bold" style={{ color: "var(--foreground)" }}>

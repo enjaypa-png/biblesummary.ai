@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
@@ -42,13 +41,12 @@ export default function Navigation() {
 
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <Image
-            src="/brand/logo.png"
-            alt="ClearBible.ai"
-            width={300}
-            height={78}
-            priority
-            style={{ width: "auto", height: 78, objectFit: "contain" }}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/clearbible-logo.svg"
+            alt="ClearBible.ai Logo"
+            className="logo"
+            style={{ height: 40, width: "auto" }}
           />
         </Link>
 
