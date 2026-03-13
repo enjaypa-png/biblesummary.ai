@@ -797,6 +797,175 @@ export default function ClearBibleLanding() {
         </div>
       </section>
 
+      {/* ═══════════════════ PRICING ═══════════════════ */}
+      <section style={{
+        padding: "80px 24px",
+        background: "linear-gradient(180deg, #faf9f7 0%, #f3f0ff 50%, #faf9f7 100%)",
+      }}>
+        <div style={{ textAlign: "center", marginBottom: 48 }}>
+          <div style={{
+            fontSize: 12,
+            fontWeight: 700,
+            letterSpacing: 1.5,
+            textTransform: "uppercase" as const,
+            color: "#7c5cfc",
+            marginBottom: 12,
+            fontFamily: "'DM Sans', sans-serif",
+          }}>
+            Pricing
+          </div>
+          <h2 style={{
+            fontFamily: "'DM Sans', sans-serif",
+            fontSize: "clamp(28px, 5vw, 42px)",
+            fontWeight: 700,
+            color: "#1a1510",
+            marginBottom: 12,
+          }}>
+            Simple, Transparent Pricing
+          </h2>
+          <p style={{ fontSize: 16, color: "#6a655e", maxWidth: 480, margin: "0 auto" }}>
+            Read free forever. Upgrade for AI search, explanations, summaries, and audio.
+          </p>
+        </div>
+
+        {/* Outrank-style pricing card */}
+        <div style={{
+          maxWidth: 900,
+          margin: "0 auto",
+          background: "#fff",
+          borderRadius: 20,
+          border: "1.5px dashed #c4b5fd",
+          padding: "clamp(24px, 4vw, 48px)",
+          display: "flex",
+          flexWrap: "wrap" as const,
+          gap: "clamp(24px, 4vw, 48px)",
+        }}>
+          {/* Left side — plan name, price, CTA */}
+          <div style={{ flex: "0 0 280px", minWidth: 240 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
+              <h3 style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 24,
+                fontWeight: 700,
+                color: "#1a1510",
+                margin: 0,
+              }}>
+                ClearBible Unlimited
+              </h3>
+              <span style={{
+                fontSize: 11,
+                fontWeight: 600,
+                color: "#5a554e",
+                border: "1px solid #d4d0dc",
+                borderRadius: 6,
+                padding: "3px 10px",
+                whiteSpace: "nowrap" as const,
+              }}>
+                All-in-one
+              </span>
+            </div>
+
+            <div style={{ display: "flex", alignItems: "baseline", gap: 8, marginBottom: 6 }}>
+              <span style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 56,
+                fontWeight: 700,
+                color: "#1a1510",
+                lineHeight: 1,
+              }}>
+                $79
+              </span>
+              <span style={{ fontSize: 16, color: "#8a8580" }}>/year</span>
+            </div>
+            <p style={{ fontSize: 14, color: "#8a8580", marginBottom: 24 }}>
+              or $9.99/month
+            </p>
+
+            <Link href="/signup" style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: 8,
+              width: "100%",
+              padding: "16px 24px",
+              fontSize: 16,
+              fontWeight: 700,
+              color: "#fff",
+              background: "#7c5cfc",
+              borderRadius: 9999,
+              textDecoration: "none",
+              boxShadow: "0 4px 16px rgba(124,92,252,0.25)",
+              marginBottom: 16,
+            }}>
+              Get Started for Free
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
+              </svg>
+            </Link>
+
+            <p style={{
+              fontSize: 13,
+              color: "#6a655e",
+              textAlign: "center" as const,
+            }}>
+              <strong>Cancel anytime.</strong> No questions asked!
+            </p>
+          </div>
+
+          {/* Right side — what's included */}
+          <div style={{ flex: 1, minWidth: 280 }}>
+            <h4 style={{
+              fontFamily: "'DM Sans', sans-serif",
+              fontSize: 16,
+              fontWeight: 600,
+              color: "#1a1510",
+              marginBottom: 20,
+            }}>
+              What&apos;s included:
+            </h4>
+
+            <div style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gap: "16px 32px",
+            }}>
+              {[
+                { bold: "AI Bible Search", rest: " — ask any question, get answers with verses" },
+                { bold: "All 66 Book Summaries", rest: " — understand each book at a glance" },
+                { bold: "Unlimited Verse Explanations", rest: " — plain English, instantly" },
+                { bold: "Audio Playback", rest: " for every chapter and summary" },
+                { bold: "Apply Scripture to My Life", rest: " — personal application for any verse" },
+                { bold: "Highlights & Notes", rest: " — mark up and annotate freely" },
+                { bold: "All Future Features", rest: " included automatically" },
+                { bold: "Priority Updates", rest: " — first access to new tools" },
+              ].map((item) => (
+                <div key={item.bold} style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, marginTop: 1 }}>
+                    <circle cx="12" cy="12" r="10" stroke="#7c5cfc" strokeWidth="1.5" />
+                    <path d="m9 12 2 2 4-4" stroke="#7c5cfc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  <span style={{ fontSize: 14, lineHeight: 1.5, color: "#3a3530" }}>
+                    <strong>{item.bold}</strong>{item.rest}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Free tier note */}
+        <p style={{
+          textAlign: "center" as const,
+          fontSize: 14,
+          color: "#8a8580",
+          marginTop: 32,
+          maxWidth: 500,
+          margin: "32px auto 0",
+        }}>
+          Bible text, bookmarks, notes, and reading progress are <strong>always free</strong>. No credit card required to start.
+        </p>
+      </section>
+
       {/* ═══════════════════ TRUST / DISCLAIMER ═══════════════════ */}
       <section style={{
         padding: "48px 24px",
