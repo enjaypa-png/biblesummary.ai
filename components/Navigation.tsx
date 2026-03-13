@@ -125,7 +125,7 @@ export default function Navigation() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
         <Link href="/bible" className="flex items-center">
-          <Logo height={28} />
+          <Logo />
         </Link>
 
         <div className="hidden md:flex items-center gap-1">

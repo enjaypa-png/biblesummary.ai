@@ -108,7 +108,7 @@ export default function ClearBibleLanding() {
         <div style={{ position: "relative", zIndex: 1, maxWidth: 780, margin: "0 auto" }}>
           {/* Logo */}
           <div style={{ margin: "0 auto 36px", animation: "fadeUp 0.5s ease both", textAlign: "center" }}>
-            <Logo height={96} style={{ display: "inline-block" }} />
+            <Logo height={120} style={{ display: "inline-block" }} />
           </div>
 
           {/* Main headline: UNDERSTAND · REMEMBER · APPLY */}
