@@ -6,13 +6,39 @@ import { useRouter } from "next/navigation";
 import { getCurrentUser, signOut, supabase } from "@/lib/supabase";
 import type { User } from "@supabase/supabase-js";
 import BrandName from "@/components/BrandName";
-import { useReadingSettings } from "@/contexts/ReadingSettingsContext";
+import {
+  useReadingSettings,
+  FontFamily,
+  BibleTranslation,
+  TRANSLATION_LABELS,
+  VOICE_IDS,
+} from "@/contexts/ReadingSettingsContext";
 
 interface Subscription {
   type: string;
   status: string;
   current_period_end: string;
 }
+
+interface VoiceInfo {
+  id: string;
+  name: string;
+  description?: string;
+}
+
+const fontOptions: { value: FontFamily; label: string; fontStack: string }[] = [
+  { value: "Libre Baskerville", label: "Baskerville", fontStack: "'Libre Baskerville', serif" },
+  { value: "Spectral", label: "Spectral", fontStack: "'Spectral', serif" },
+  { value: "Source Sans 3", label: "Source", fontStack: "'Source Sans 3', sans-serif" },
+  { value: "System", label: "System", fontStack: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" },
+];
+
+const themeOptions: { value: "light" | "sepia" | "gray" | "dark"; label: string; bg: string; borderColor: string }[] = [
+  { value: "light", label: "Light", bg: "#FFFFFF", borderColor: "rgba(0,0,0,0.1)" },
+  { value: "sepia", label: "Sepia", bg: "#F8F1E3", borderColor: "rgba(0,0,0,0.1)" },
+  { value: "gray", label: "Gray", bg: "#E8E8E8", borderColor: "rgba(0,0,0,0.1)" },
+  { value: "dark", label: "Dark", bg: "#1a1a1a", borderColor: "rgba(255,255,255,0.2)" },
+];
 
 export default function MorePage() {
   const [user, setUser] = useState<User | null>(null);
@@ -26,8 +52,17 @@ export default function MorePage() {
   const [deleteConfirmText, setDeleteConfirmText] = useState("");
   const [deleting, setDeleting] = useState(false);
   const [deleteError, setDeleteError] = useState<string | null>(null);
+  const [voices, setVoices] = useState<VoiceInfo[]>([]);
   const router = useRouter();
-  const { openPanel } = useReadingSettings();
+  const {
+    settings,
+    setFontFamily,
+    setFontSize,
+    setLineHeight,
+    setThemeMode,
+    setVoiceId,
+    setTranslation,
+  } = useReadingSettings();
 
   useEffect(() => {
     async function load() {
@@ -46,6 +81,16 @@ export default function MorePage() {
       }
     }
     load();
+  }, []);
+
+  // Fetch voices
+  useEffect(() => {
+    fetch("/api/voices")
+      .then((r) => r.json())
+      .then((data: VoiceInfo[]) => setVoices(data))
+      .catch(() => {
+        setVoices(VOICE_IDS.map((id) => ({ id, name: id.slice(0, 8) })));
+      });
   }, []);
 
   const handleSignOut = async () => {
@@ -87,7 +132,6 @@ export default function MorePage() {
         return;
       }
 
-      // Update local state
       setSubscriptions((prev) =>
         prev.map((s) =>
           s.type === subscriptionType ? { ...s, status: "canceled" } : s
@@ -133,7 +177,6 @@ export default function MorePage() {
         return;
       }
 
-      // Sign out locally and redirect
       await supabase.auth.signOut();
       router.push("/");
     } catch {
@@ -170,17 +213,238 @@ export default function MorePage() {
       <header className="sticky top-0 z-40 px-4 py-3 backdrop-blur-xl"
         style={{ backgroundColor: "var(--background-blur)", borderBottom: "0.5px solid var(--border)" }}>
         <h1 className="text-[17px] font-semibold text-center max-w-lg mx-auto" style={{ color: "var(--foreground)" }}>
-          Settings &amp; More
+          Settings
         </h1>
       </header>
-      <main className="max-w-lg mx-auto px-5 py-6">
-        {/* Account */}
-        <section className="mb-8">
-          <h2 className="text-xs font-semibold uppercase tracking-widest mb-2 px-1"
+      <main className="max-w-lg mx-auto px-5 py-6 pb-32">
+
+        {/* ── Translation ── */}
+        <section className="mb-7">
+          <h2 className="text-[11px] font-semibold uppercase tracking-widest mb-3 px-1"
+            style={{ color: "var(--secondary)" }}>
+            Translation
+          </h2>
+          <div className="flex gap-2">
+            {(["ct", "kjv", "web"] as BibleTranslation[]).map((t) => {
+              const active = settings.translation === t;
+              return (
+                <button
+                  key={t}
+                  onClick={() => setTranslation(t)}
+                  className="flex-1 px-3 py-2.5 rounded-xl text-[13px] font-semibold transition-all text-center"
+                  style={{
+                    backgroundColor: active ? "var(--accent)" : "var(--card)",
+                    color: active ? "#FFFFFF" : "var(--foreground)",
+                    border: `1.5px solid ${active ? "var(--accent)" : "var(--border)"}`,
+                  }}
+                >
+                  {TRANSLATION_LABELS[t].name}
+                </button>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* ── Appearance ── */}
+        <section className="mb-7">
+          <h2 className="text-[11px] font-semibold uppercase tracking-widest mb-3 px-1"
+            style={{ color: "var(--secondary)" }}>
+            Appearance
+          </h2>
+          <div className="rounded-2xl p-4" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
+
+            {/* Theme */}
+            <div className="mb-5">
+              <span className="text-[12px] font-medium mb-2.5 block" style={{ color: "var(--secondary)" }}>
+                Theme
+              </span>
+              <div className="flex gap-3">
+                {themeOptions.map((t) => {
+                  const active = settings.themeMode === t.value;
+                  return (
+                    <button
+                      key={t.value}
+                      onClick={() => setThemeMode(t.value)}
+                      className="flex-1 flex flex-col items-center gap-1.5"
+                    >
+                      <div
+                        className="w-full aspect-square rounded-xl border-2 transition-all flex items-center justify-center"
+                        style={{
+                          backgroundColor: t.bg,
+                          borderColor: active ? "var(--accent)" : t.borderColor,
+                          boxShadow: active ? "0 0 0 2px var(--accent)" : "none",
+                        }}
+                      >
+                        {active && (
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                          </svg>
+                        )}
+                      </div>
+                      <span className="text-[11px] font-medium" style={{ color: active ? "var(--accent)" : "var(--secondary)" }}>
+                        {t.label}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Font */}
+            <div className="mb-5">
+              <span className="text-[12px] font-medium mb-2.5 block" style={{ color: "var(--secondary)" }}>
+                Font
+              </span>
+              <div className="grid grid-cols-4 gap-2">
+                {fontOptions.map((font) => {
+                  const active = settings.fontFamily === font.value;
+                  return (
+                    <button
+                      key={font.value}
+                      onClick={() => setFontFamily(font.value)}
+                      className="px-2 py-2 rounded-xl text-[12px] font-medium transition-all text-center"
+                      style={{
+                        fontFamily: font.fontStack,
+                        backgroundColor: active ? "var(--accent)" : "var(--background)",
+                        color: active ? "#FFFFFF" : "var(--foreground)",
+                        border: `1.5px solid ${active ? "var(--accent)" : "var(--border)"}`,
+                      }}
+                    >
+                      {font.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Text Size */}
+            <div className="mb-5">
+              <div className="flex items-center justify-between mb-2.5">
+                <span className="text-[12px] font-medium" style={{ color: "var(--secondary)" }}>
+                  Text Size
+                </span>
+                <span className="text-[12px] font-medium tabular-nums" style={{ color: "var(--secondary)" }}>
+                  {settings.fontSize}px
+                </span>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-[12px] font-medium" style={{ color: "var(--secondary)" }}>A</span>
+                <div className="flex-1">
+                  <input
+                    type="range"
+                    min={14}
+                    max={28}
+                    step={1}
+                    value={settings.fontSize}
+                    onChange={(e) => setFontSize(Number(e.target.value))}
+                    className="w-full h-1.5 rounded-full appearance-none cursor-pointer settings-range"
+                    style={{
+                      background: `linear-gradient(to right, var(--accent) 0%, var(--accent) ${((settings.fontSize - 14) / 14) * 100}%, var(--border) ${((settings.fontSize - 14) / 14) * 100}%, var(--border) 100%)`,
+                    }}
+                  />
+                </div>
+                <span className="text-[18px] font-medium" style={{ color: "var(--secondary)" }}>A</span>
+              </div>
+            </div>
+
+            {/* Line Spacing */}
+            <div>
+              <div className="flex items-center justify-between mb-2.5">
+                <span className="text-[12px] font-medium" style={{ color: "var(--secondary)" }}>
+                  Line Spacing
+                </span>
+                <span className="text-[12px] font-medium tabular-nums" style={{ color: "var(--secondary)" }}>
+                  {settings.lineHeight.toFixed(1)}
+                </span>
+              </div>
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={() => setLineHeight(1.4)}
+                  className="w-5 flex flex-col gap-[2px] active:opacity-60 transition-opacity"
+                  aria-label="Minimum line spacing"
+                >
+                  <div className="h-[1.5px] rounded-full" style={{ backgroundColor: "var(--secondary)", width: "16px" }} />
+                  <div className="h-[1.5px] rounded-full" style={{ backgroundColor: "var(--secondary)", width: "16px" }} />
+                  <div className="h-[1.5px] rounded-full" style={{ backgroundColor: "var(--secondary)", width: "16px" }} />
+                </button>
+                <div className="flex-1">
+                  <input
+                    type="range"
+                    min={1.4}
+                    max={2.4}
+                    step={0.1}
+                    value={settings.lineHeight}
+                    onChange={(e) => setLineHeight(Number(e.target.value))}
+                    className="w-full h-1.5 rounded-full appearance-none cursor-pointer settings-range"
+                    style={{
+                      background: `linear-gradient(to right, var(--accent) 0%, var(--accent) ${((settings.lineHeight - 1.4) / 1.0) * 100}%, var(--border) ${((settings.lineHeight - 1.4) / 1.0) * 100}%, var(--border) 100%)`,
+                    }}
+                  />
+                </div>
+                <button
+                  onClick={() => setLineHeight(2.4)}
+                  className="w-5 flex flex-col gap-[4px] active:opacity-60 transition-opacity"
+                  aria-label="Maximum line spacing"
+                >
+                  <div className="h-[1.5px] rounded-full" style={{ backgroundColor: "var(--secondary)", width: "16px" }} />
+                  <div className="h-[1.5px] rounded-full" style={{ backgroundColor: "var(--secondary)", width: "16px" }} />
+                  <div className="h-[1.5px] rounded-full" style={{ backgroundColor: "var(--secondary)", width: "16px" }} />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Narrator Voice ── */}
+        {voices.length > 0 && (
+          <section className="mb-7">
+            <h2 className="text-[11px] font-semibold uppercase tracking-widest mb-3 px-1"
+              style={{ color: "var(--secondary)" }}>
+              Narrator Voice
+            </h2>
+            <div className="grid grid-cols-2 gap-2">
+              {voices.map((voice) => {
+                const isSelected = settings.voiceId === voice.id;
+                return (
+                  <button
+                    key={voice.id}
+                    onClick={() => setVoiceId(voice.id)}
+                    className="px-3.5 py-3 rounded-xl transition-all text-left"
+                    style={{
+                      backgroundColor: isSelected ? "var(--accent)" : "var(--card)",
+                      border: `1.5px solid ${isSelected ? "var(--accent)" : "var(--border)"}`,
+                    }}
+                  >
+                    <span
+                      className="block text-[13px] font-semibold leading-tight"
+                      style={{ color: isSelected ? "#FFFFFF" : "var(--foreground)" }}
+                    >
+                      {voice.name}
+                    </span>
+                    {voice.description && (
+                      <span
+                        className="block text-[11px] leading-tight mt-1"
+                        style={{
+                          color: isSelected ? "rgba(255,255,255,0.75)" : "var(--secondary)",
+                        }}
+                      >
+                        {voice.description}
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
+        {/* ── Account ── */}
+        <section className="mb-7">
+          <h2 className="text-[11px] font-semibold uppercase tracking-widest mb-3 px-1"
             style={{ color: "var(--secondary)" }}>
             Account
           </h2>
-          <div className="rounded-xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
+          <div className="rounded-2xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
             {loading ? (
               <div className="px-4 py-3" style={{ color: "var(--secondary)" }}>
                 <span className="text-[14px]">Loading…</span>
@@ -190,7 +454,7 @@ export default function MorePage() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="flex items-center justify-between px-4 py-3 transition-colors active:bg-black/5 dark:active:bg-white/5"
+                  className="flex items-center justify-between px-4 py-3.5 transition-colors active:bg-black/5 dark:active:bg-white/5"
                   style={{ borderBottom: i < unauthenticatedMenuItems.length - 1 ? "0.5px solid var(--border)" : "none" }}
                 >
                   <div>
@@ -208,28 +472,28 @@ export default function MorePage() {
               ))
             ) : (
               <>
-                <div className="px-4 py-3" style={{ borderBottom: "0.5px solid var(--border)" }}>
-                  <span className="text-[12px] font-medium uppercase tracking-wider" style={{ color: "var(--secondary)" }}>
+                <div className="px-4 py-3.5" style={{ borderBottom: "0.5px solid var(--border)" }}>
+                  <span className="text-[11px] font-medium uppercase tracking-wider" style={{ color: "var(--secondary)" }}>
                     Email
                   </span>
                   <p className="text-[15px] mt-1 truncate" style={{ color: "var(--foreground)" }} title={user.email ?? undefined}>
                     {user.email ?? "—"}
                   </p>
                 </div>
-                <div className="px-4 py-3" style={{ borderBottom: "0.5px solid var(--border)" }}>
-                  <span className="text-[12px] font-medium uppercase tracking-wider" style={{ color: "var(--secondary)" }}>
+                <div className="px-4 py-3.5" style={{ borderBottom: "0.5px solid var(--border)" }}>
+                  <span className="text-[11px] font-medium uppercase tracking-wider" style={{ color: "var(--secondary)" }}>
                     Status
                   </span>
-                  <p className="text-[15px] mt-1" style={{ color: "var(--foreground)" }}>
+                  <p className="text-[14px] mt-1 leading-relaxed" style={{ color: "var(--foreground)" }}>
                     {subscriptions.some((s) => s.status === "active")
-                      ? "AI features (Bible Search, explanations, summaries) are active for your account."
-                      : "Bible text is free. AI features (Bible Search, explanations, summaries) are available with upgrade."}
+                      ? "AI features (Bible Search, explanations, summaries) are active."
+                      : "Bible text is free. AI features available with upgrade."}
                   </p>
                 </div>
                 <button
                   type="button"
                   onClick={handleSignOut}
-                  className="w-full flex items-center justify-between px-4 py-3 transition-colors active:bg-black/5 dark:active:bg-white/5 text-left"
+                  className="w-full flex items-center justify-between px-4 py-3.5 transition-colors active:bg-black/5 dark:active:bg-white/5 text-left"
                 >
                   <span className="font-medium text-[15px]" style={{ color: "var(--foreground)" }}>
                     Sign Out
@@ -243,51 +507,18 @@ export default function MorePage() {
           </div>
         </section>
 
-        {/* Reading Settings */}
-        <section className="mb-8">
-          <h2 className="text-xs font-semibold uppercase tracking-widest mb-2 px-1"
-            style={{ color: "var(--secondary)" }}>
-            Reading Settings
-          </h2>
-          <div className="rounded-xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
-            <button
-              type="button"
-              onClick={openPanel}
-              className="w-full flex items-center justify-between px-4 py-3 transition-colors active:bg-black/5 dark:active:bg-white/5 text-left"
-            >
-              <div className="flex items-center gap-3">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5" style={{ color: "var(--accent, #7c5cfc)" }}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                </svg>
-                <div>
-                  <span className="font-medium text-[15px]" style={{ color: "var(--foreground)" }}>
-                    Translation, Font, Theme &amp; Voice
-                  </span>
-                  <p className="text-[12px] mt-0.5" style={{ color: "var(--secondary)" }}>
-                    Background color, text size, narrator voice, and more
-                  </p>
-                </div>
-              </div>
-              <svg width="6" height="10" viewBox="0 0 6 10" fill="none">
-                <path d="M1 1L5 5L1 9" stroke="var(--border)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </button>
-          </div>
-        </section>
-
-        {/* Subscriptions — only show for authenticated users with subscriptions */}
+        {/* ── Subscriptions ── */}
         {user && subscriptions.length > 0 && (
-          <section className="mb-8">
-            <h2 className="text-xs font-semibold uppercase tracking-widest mb-2 px-1"
+          <section className="mb-7">
+            <h2 className="text-[11px] font-semibold uppercase tracking-widest mb-3 px-1"
               style={{ color: "var(--secondary)" }}>
               Subscriptions
             </h2>
-            <div className="rounded-xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
+            <div className="rounded-2xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
               {subscriptions.map((sub, i) => (
                 <div
                   key={sub.type}
-                  className="px-4 py-3"
+                  className="px-4 py-3.5"
                   style={{ borderBottom: i < subscriptions.length - 1 ? "0.5px solid var(--border)" : "none" }}
                 >
                   <div className="flex items-center justify-between">
@@ -374,7 +605,7 @@ export default function MorePage() {
                   }
                 }}
                 disabled={billingLoading}
-                className="w-full flex items-center justify-between px-4 py-3 transition-colors active:bg-black/5 dark:active:bg-white/5 text-left disabled:opacity-50"
+                className="w-full flex items-center justify-between px-4 py-3.5 transition-colors active:bg-black/5 dark:active:bg-white/5 text-left disabled:opacity-50"
                 style={{ borderTop: "0.5px solid var(--border)" }}
               >
                 <span className="font-medium text-[15px]" style={{ color: "var(--accent, #7c5cfc)" }}>
@@ -388,41 +619,29 @@ export default function MorePage() {
           </section>
         )}
 
-        {/* About */}
-        <section className="mb-8">
-          <h2 className="text-xs font-semibold uppercase tracking-widest mb-2 px-1"
+        {/* ── About ── */}
+        <section className="mb-7">
+          <h2 className="text-[11px] font-semibold uppercase tracking-widest mb-3 px-1"
             style={{ color: "var(--secondary)" }}>
             About
           </h2>
-          <div className="rounded-xl p-4" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
-            <p className="text-[14px] leading-relaxed mb-3" style={{ color: "var(--foreground)" }}>
-              <BrandName /> helps you read, listen to, search, and finish the entire Bible without losing track of where you are or what you&apos;ve already read.
+          <div className="rounded-2xl p-4" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
+            <p className="text-[14px] leading-relaxed mb-2" style={{ color: "var(--foreground)" }}>
+              <BrandName /> helps you read, listen to, search, and finish the entire Bible.
             </p>
-            <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
-              You can also ask ClearBible’s AI questions about the Bible and instantly see the verses that answer them.
-            </p>
-            <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
-              Two versions are available: the King James Version (KJV) and the Clear Bible Translation, a modern English rendering currently being reviewed for accuracy against the KJV. Switch between them anytime in Reading Settings.
-            </p>
-            <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
-              Bible text and audio are always free. We offer optional AI-powered features designed to help you retain what you read, understand the structure of each book, and return to Scripture with clarity instead of starting over.
-            </p>
-            <p className="text-[13px] leading-relaxed mb-3" style={{ color: "var(--secondary)" }}>
-              <BrandName /> is an educational reading tool. It does not provide spiritual counseling, religious advice, or interpretive theology. Summaries describe what each book contains without interpretation.
-            </p>
-            <p className="text-[13px] font-medium" style={{ color: "var(--secondary)" }}>
-              No ads. No opinions.
+            <p className="text-[13px] leading-relaxed" style={{ color: "var(--secondary)" }}>
+              Two translations available: KJV and Clear Bible Translation. Bible text and audio are always free. AI features are optional.
             </p>
           </div>
         </section>
 
-        {/* Legal */}
-        <section className="mb-8">
-          <h2 className="text-xs font-semibold uppercase tracking-widest mb-2 px-1"
+        {/* ── Legal ── */}
+        <section className="mb-7">
+          <h2 className="text-[11px] font-semibold uppercase tracking-widest mb-3 px-1"
             style={{ color: "var(--secondary)" }}>
             Legal
           </h2>
-          <div className="rounded-xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
+          <div className="rounded-2xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}>
             {[
               { href: "/pricing", label: "Pricing" },
               { href: "/terms", label: "Terms of Service" },
@@ -449,14 +668,14 @@ export default function MorePage() {
           </p>
         </section>
 
-        {/* Danger Zone — only show for authenticated users */}
+        {/* ── Danger Zone ── */}
         {user && (
           <section className="mb-8">
-            <h2 className="text-xs font-semibold uppercase tracking-widest mb-2 px-1"
+            <h2 className="text-[11px] font-semibold uppercase tracking-widest mb-3 px-1"
               style={{ color: "#DC2626" }}>
               Danger Zone
             </h2>
-            <div className="rounded-xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "1px solid rgba(220, 38, 38, 0.3)" }}>
+            <div className="rounded-2xl overflow-hidden" style={{ backgroundColor: "var(--card)", border: "1px solid rgba(220, 38, 38, 0.3)" }}>
               <button
                 type="button"
                 onClick={() => { setShowDeleteModal(true); setDeleteConfirmText(""); setDeleteError(null); }}
@@ -545,6 +764,30 @@ export default function MorePage() {
           </div>
         </div>
       )}
+
+      {/* Slider thumb styles */}
+      <style jsx global>{`
+        .settings-range::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: var(--accent, #7c5cfc);
+          cursor: pointer;
+          border: 3px solid var(--background);
+          box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+        }
+        .settings-range::-moz-range-thumb {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: var(--accent, #7c5cfc);
+          cursor: pointer;
+          border: 3px solid var(--background);
+          box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+        }
+      `}</style>
     </div>
   );
 }
