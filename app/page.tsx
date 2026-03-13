@@ -1,424 +1,16 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { getCurrentUser } from "@/lib/supabase";
 import HeroBibleSearch from "@/components/HeroBibleSearch";
 import BrandName from "@/components/BrandName";
 
-const FEATURES_FREE = [
-  { icon: "📖", name: "Two Bible Versions", desc: "Read the King James Version and the Clear Bible Translation — both included free." },
-  { icon: "🎧", name: "Read or Listen", desc: "Switch between text and audio anytime." },
-  { icon: "🖍️", name: "Highlight", desc: "Mark meaningful passages as you read." },
-  { icon: "📝", name: "Notes", desc: "Write your thoughts directly inside the text." },
-  { icon: "🔖", name: "Bookmarks", desc: "Pick up exactly where you left off." },
-];
-
-const FEATURES_PREMIUM = [
-  {
-    icon: "🔍",
-    name: "AI Bible Search",
-    desc: "Ask any Bible question and get an instant AI-powered answer with supporting verses.",
-    highlight: true,
-  },
-  {
-    icon: "✨",
-    name: "Explain Any Verse",
-    desc: "Tap any verse and get an instant, plain-language explanation. No theological jargon — just clarity.",
-    highlight: true,
-  },
-  {
-    icon: "📋",
-    name: "Chapter Summaries",
-    desc: "AI-generated summaries after every chapter so you retain what you just read.",
-    highlight: true,
-  },
-];
-
-// Interactive demo component - this is the conversion engine
-const DEMO_VERSE_TEXT =
-  "For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.";
-
-const DEMO_EXPLANATION =
-  "Most people quote this as \u2018money is the root of all evil\u2019 \u2014 but that\u2019s not what it says. It\u2019s the love of money that Paul is warning about, not money itself. He\u2019s describing what happens when the desire to get rich becomes your main focus: you start making compromises and drifting from what actually matters. The \u2018sorrows\u2019 he mentions aren\u2019t divine punishment \u2014 they\u2019re just the natural consequences of that kind of life.";
-
-function VerseDemo() {
-  const [showExplanation, setShowExplanation] = useState(false);
-  const [showSummary, setShowSummary] = useState(false);
-  const [isSpeaking, setIsSpeaking] = useState(false);
-  const [explanationText, setExplanationText] = useState<string | null>(null);
-  const [audioEl] = useState(() => typeof window !== "undefined" ? new Audio() : null);
-
-  // Stop speech when explanation is closed
-  useEffect(() => {
-    if (!showExplanation && isSpeaking) {
-      if (audioEl) { audioEl.pause(); audioEl.src = ""; }
-      setIsSpeaking(false);
-    }
-  }, [showExplanation, isSpeaking, audioEl]);
-
-  const toggleSpeech = useCallback(async () => {
-    if (isSpeaking) {
-      if (audioEl) { audioEl.pause(); audioEl.src = ""; }
-      setIsSpeaking(false);
-      return;
-    }
-    const text = explanationText;
-    if (!text) return;
-    setIsSpeaking(true);
-    try {
-      const res = await fetch("/api/tts", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text }),
-      });
-      if (!res.ok) throw new Error("TTS failed");
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      if (audioEl) {
-        audioEl.src = url;
-        audioEl.onended = () => { setIsSpeaking(false); URL.revokeObjectURL(url); };
-        audioEl.onerror = () => { setIsSpeaking(false); URL.revokeObjectURL(url); };
-        await audioEl.play();
-      }
-    } catch {
-      setIsSpeaking(false);
-    }
-  }, [isSpeaking, explanationText, audioEl]);
-
-  return (
-    <div style={{ maxWidth: 620, margin: "0 auto", fontFamily: "'Source Serif 4', Georgia, serif" }}>
-      {/* Fake reader UI */}
-      <div style={{
-        background: "#fff",
-        borderRadius: 16,
-        boxShadow: "0 8px 40px rgba(30,40,80,0.10), 0 1.5px 4px rgba(30,40,80,0.06)",
-        overflow: "hidden",
-        border: "1px solid #e8e5e0",
-      }}>
-        {/* Top bar */}
-        <div style={{
-          background: "#f8f7f5",
-          padding: "12px 20px",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          borderBottom: "1px solid #e8e5e0",
-          fontFamily: "'DM Sans', sans-serif",
-        }}>
-          <span style={{ fontSize: 13, color: "#6a655e", fontWeight: 500, letterSpacing: 1, textTransform: "uppercase" }}>1 Timothy 6</span>
-          <div style={{ display: "flex", gap: 12 }}>
-            <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🔖</span>
-            <span style={{ fontSize: 16, opacity: 0.4, cursor: "default" }}>🎧</span>
-          </div>
-        </div>
-
-        {/* Verses */}
-        <div style={{ padding: "28px 24px 20px" }}>
-          {/* Verse 9 - context */}
-          <p style={{ fontSize: 17, lineHeight: 1.85, color: "#3a3530", margin: "0 0 16px" }}>
-            <span style={{ color: "#9a958e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>9</span>
-            But they that will be rich fall into temptation and a snare, and into many foolish and hurtful lusts, which drown men in destruction and perdition.
-          </p>
-
-          {/* Verse 10 - interactive */}
-          <div style={{ position: "relative" }}>
-            <p
-              onClick={() => {
-                const next = !showExplanation;
-                setShowExplanation(next);
-                if (next && !explanationText) {
-                  setExplanationText(DEMO_EXPLANATION);
-                }
-              }}
-              style={{
-                fontSize: 17,
-                lineHeight: 1.85,
-                color: "#3a3530",
-                margin: 0,
-                padding: "8px 12px",
-                borderRadius: 10,
-                background: showExplanation ? "#f0edff" : "transparent",
-                cursor: "pointer",
-                transition: "background 0.25s ease",
-                border: showExplanation ? "1.5px solid #c4b8ff" : "1.5px solid transparent",
-              }}
-            >
-              <span style={{ color: "#9a958e", fontWeight: 700, fontSize: 13, marginRight: 6, fontFamily: "'DM Sans', sans-serif" }}>10</span>
-              For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.
-              {!showExplanation && (
-                <span style={{
-                  display: "inline-block",
-                  marginLeft: 8,
-                  fontSize: 11,
-                  fontFamily: "'DM Sans', sans-serif",
-                  fontWeight: 600,
-                  color: "#7c5cfc",
-                  background: "#f0edff",
-                  padding: "2px 10px",
-                  borderRadius: 20,
-                  cursor: "pointer",
-                  animation: "pulse-badge 2s ease-in-out infinite",
-                  verticalAlign: "middle",
-                }}>
-                  ← tap to explain
-                </span>
-              )}
-            </p>
-
-            {/* AI Explanation card */}
-            {showExplanation && (
-              <div style={{
-                marginTop: 12,
-                padding: "18px 20px",
-                background: "linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%)",
-                borderRadius: 12,
-                borderLeft: "3px solid #7c5cfc",
-                animation: "slideDown 0.35s ease",
-              }}>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
-                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                    <span style={{ fontSize: 14 }}>✨</span>
-                    <span style={{
-                      fontSize: 12,
-                      fontWeight: 700,
-                      color: "#7c5cfc",
-                      letterSpacing: 0.8,
-                      textTransform: "uppercase",
-                      fontFamily: "'DM Sans', sans-serif",
-                    }}>
-                      Plain-Language Explanation
-                    </span>
-                  </div>
-                  {explanationText && (
-                    <button
-                      onClick={(e) => { e.stopPropagation(); toggleSpeech(); }}
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: 5,
-                        padding: "4px 12px",
-                        fontSize: 12,
-                        fontWeight: 600,
-                        fontFamily: "'DM Sans', sans-serif",
-                        color: isSpeaking ? "#fff" : "#7c5cfc",
-                        background: isSpeaking ? "#7c5cfc" : "#fff",
-                        border: "1.5px solid #7c5cfc",
-                        borderRadius: 20,
-                        cursor: "pointer",
-                        transition: "all 0.2s ease",
-                      }}
-                    >
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        {isSpeaking ? (
-                          <><rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" /></>
-                        ) : (
-                          <><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" /><path d="M15.54 8.46a5 5 0 0 1 0 7.07" /><path d="M19.07 4.93a10 10 0 0 1 0 14.14" /></>
-                        )}
-                      </svg>
-                      {isSpeaking ? "Stop" : "Listen"}
-                    </button>
-                  )}
-                </div>
-                <p style={{
-                  fontSize: 15,
-                  lineHeight: 1.75,
-                  color: "#4a4550",
-                  margin: 0,
-                  fontFamily: "'DM Sans', sans-serif",
-                }}>
-                  {explanationText}
-                </p>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* Chapter summary preview */}
-      <div style={{ marginTop: 16, textAlign: "center" }}>
-        <button
-          onClick={() => setShowSummary(!showSummary)}
-          style={{
-            padding: "10px 24px",
-            fontSize: 14,
-            fontWeight: 600,
-            fontFamily: "'DM Sans', sans-serif",
-            background: showSummary ? "#7c5cfc" : "#fff",
-            color: showSummary ? "#fff" : "#7c5cfc",
-            border: "1.5px solid #7c5cfc",
-            borderRadius: 10,
-            cursor: "pointer",
-            transition: "all 0.2s ease",
-          }}
-        >
-          {showSummary ? "Hide Chapter Summary" : "📋 See Chapter Summary"}
-        </button>
-      </div>
-
-      {showSummary && (
-        <div style={{
-          marginTop: 16,
-          padding: "22px 24px",
-          background: "linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%)",
-          borderRadius: 14,
-          border: "1.5px solid #d9d0ff",
-          animation: "slideDown 0.35s ease",
-        }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 12 }}>
-            <span style={{ fontSize: 14 }}>📋</span>
-            <span style={{
-              fontSize: 12,
-              fontWeight: 700,
-              color: "#7c5cfc",
-              letterSpacing: 0.8,
-              textTransform: "uppercase",
-              fontFamily: "'DM Sans', sans-serif",
-            }}>
-              Chapter Summary — 1 Timothy 6
-            </span>
-          </div>
-          <ul style={{
-            fontSize: 15,
-            lineHeight: 1.75,
-            color: "#4a4550",
-            margin: 0,
-            paddingLeft: 20,
-            fontFamily: "'DM Sans', sans-serif",
-          }}>
-            <li style={{ marginBottom: 6 }}>Paul instructs Timothy on how servants should treat their masters.</li>
-            <li style={{ marginBottom: 6 }}>He warns against false teachers who use religion as a way to get rich.</li>
-            <li style={{ marginBottom: 6 }}>He describes contentment as &ldquo;great gain&rdquo; — having food and clothing should be enough.</li>
-            <li style={{ marginBottom: 6 }}>He warns that the desire for wealth leads to temptation, destruction, and wandering from faith.</li>
-            <li>He tells Timothy to pursue righteousness, godliness, faith, love, and endurance instead.</li>
-          </ul>
-        </div>
-      )}
-    </div>
-  );
-}
-
-function FeatureCard({ icon, name, desc, highlight, delay }: { icon: string; name: string; desc: string; highlight?: boolean; delay: number }) {
-  return (
-    <div style={{
-      background: highlight ? "linear-gradient(135deg, #faf9ff 0%, #f3f0ff 100%)" : "#fff",
-      border: highlight ? "1.5px solid #d9d0ff" : "1px solid #e8e5e0",
-      borderRadius: 14,
-      padding: "24px 22px",
-      transition: "transform 0.25s ease, box-shadow 0.25s ease",
-      cursor: "default",
-      animation: `fadeUp 0.6s ease ${delay}s both`,
-      position: "relative",
-      overflow: "hidden",
-    }}
-    onMouseEnter={e => {
-      e.currentTarget.style.transform = "translateY(-4px)";
-      e.currentTarget.style.boxShadow = "0 12px 32px rgba(30,40,80,0.10)";
-    }}
-    onMouseLeave={e => {
-      e.currentTarget.style.transform = "translateY(0)";
-      e.currentTarget.style.boxShadow = "none";
-    }}
-    >
-      {highlight && (
-        <div style={{
-          position: "absolute",
-          top: 12,
-          right: 12,
-          fontSize: 10,
-          fontWeight: 700,
-          color: "#7c5cfc",
-          background: "#ede8ff",
-          padding: "3px 10px",
-          borderRadius: 20,
-          fontFamily: "'DM Sans', sans-serif",
-          letterSpacing: 0.5,
-          textTransform: "uppercase",
-        }}>
-          Unlimited
-        </div>
-      )}
-      <div style={{ fontSize: 28, marginBottom: 14 }}>{icon}</div>
-      <h3 style={{
-        fontFamily: "'DM Sans', sans-serif",
-        fontSize: 17,
-        fontWeight: 700,
-        color: "#2a2520",
-        margin: "0 0 8px",
-      }}>{name}</h3>
-      <p style={{
-        fontFamily: "'DM Sans', sans-serif",
-        fontSize: 14,
-        lineHeight: 1.65,
-        color: "#5a554e",
-        margin: 0,
-      }}>{desc}</p>
-    </div>
-  );
-}
-
-function StatBlock({ number, label }: { number: string; label: string }) {
-  return (
-    <div style={{ textAlign: "center", flex: 1 }}>
-      <div style={{
-        fontFamily: "'Source Serif 4', Georgia, serif",
-        fontSize: 42,
-        fontWeight: 700,
-        color: "#2a2520",
-        lineHeight: 1.1,
-      }}>{number}</div>
-      <div style={{
-        fontFamily: "'DM Sans', sans-serif",
-        fontSize: 14,
-        color: "#6a655e",
-        marginTop: 6,
-        fontWeight: 500,
-      }}>{label}</div>
-    </div>
-  );
-}
-
-function StepCard({ number, title, desc }: { number: string; title: string; desc: string }) {
-  return (
-    <div style={{ textAlign: "center", flex: 1, padding: "0 16px" }}>
-      <div style={{
-        width: 48,
-        height: 48,
-        borderRadius: "50%",
-        background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
-        color: "#fff",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        fontSize: 20,
-        fontWeight: 700,
-        fontFamily: "'DM Sans', sans-serif",
-        margin: "0 auto 16px",
-      }}>{number}</div>
-      <h3 style={{
-        fontFamily: "'DM Sans', sans-serif",
-        fontSize: 17,
-        fontWeight: 700,
-        color: "#2a2520",
-        margin: "0 0 8px",
-      }}>{title}</h3>
-      <p style={{
-        fontFamily: "'DM Sans', sans-serif",
-        fontSize: 14,
-        color: "#6a655e",
-        margin: 0,
-        lineHeight: 1.6,
-      }}>{desc}</p>
-    </div>
-  );
-}
-
 export default function ClearBibleLanding() {
   const router = useRouter();
   const [ready, setReady] = useState(false);
 
-  // Redirect authenticated users to the Bible reader
   useEffect(() => {
     getCurrentUser().then((user) => {
       if (user) {
@@ -454,70 +46,118 @@ export default function ClearBibleLanding() {
           0%, 100% { opacity: 1; }
           50% { opacity: 0.6; }
         }
-        @keyframes float {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-6px); }
-        }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html { scroll-behavior: smooth; }
+
+        .feature-block {
+          background: #fff;
+          border-radius: 20px;
+          padding: 48px 40px;
+          box-shadow: 0 2px 20px rgba(30, 40, 80, 0.06), 0 0 0 1px rgba(0, 0, 0, 0.03);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-block:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 12px 40px rgba(30, 40, 80, 0.10), 0 0 0 1px rgba(0, 0, 0, 0.03);
+        }
+        .feature-visual {
+          background: linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%);
+          border-radius: 14px;
+          border: 1px solid #e8e2ff;
+          padding: 28px 24px;
+          margin-top: 28px;
+        }
+
+        @media (max-width: 768px) {
+          .feature-grid {
+            grid-template-columns: 1fr !important;
+          }
+          .feature-block {
+            padding: 32px 24px;
+          }
+          .feature-visual {
+            padding: 20px 16px;
+          }
+          .hero-headline {
+            font-size: 48px !important;
+          }
+          .feature-section-headline {
+            font-size: 32px !important;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .hero-headline {
+            font-size: 36px !important;
+          }
+          .feature-section-headline {
+            font-size: 26px !important;
+          }
+        }
       `}</style>
 
       {/* ═══════════════════ HERO ═══════════════════ */}
       <section style={{
         position: "relative",
-        padding: "80px 24px 60px",
+        padding: "80px 24px 72px",
         textAlign: "center",
-        background: "radial-gradient(circle at center, #ffffff 0%, #f4f1ff 35%, #e7e2ff 60%, #d6ccff 100%)",
+        background: "radial-gradient(ellipse at 50% 40%, #ffffff 0%, #f4f1ff 30%, #e7e2ff 55%, #d6ccff 80%, #c4b8ff 100%)",
         overflow: "hidden",
       }}>
-        <div style={{ position: "relative", zIndex: 1, maxWidth: 680, margin: "0 auto" }}>
+        <div style={{ position: "relative", zIndex: 1, maxWidth: 780, margin: "0 auto" }}>
           {/* Logo */}
-          <div style={{ margin: "0 auto 28px", animation: "fadeUp 0.5s ease both", textAlign: "center" }}>
+          <div style={{ margin: "0 auto 36px", animation: "fadeUp 0.5s ease both", textAlign: "center" }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/clearbible-logo.svg"
               alt="ClearBible.ai Logo"
               className="logo"
               style={{
-                height: 80,
+                height: 96,
                 width: "auto",
                 display: "inline-block",
               }}
             />
           </div>
 
-          <h1 style={{
-            fontFamily: "'Source Serif 4', Georgia, serif",
-            fontSize: "clamp(36px, 6vw, 56px)",
-            fontWeight: 700,
-            lineHeight: 1.15,
-            color: "#1a1510",
-            marginBottom: 20,
-            animation: "fadeUp 0.7s ease both",
-          }}>
-            The <span style={{ color: "#7c5cfc" }}>Bible.</span> Finally{" "}
-            <span style={{ color: "#7c5cfc" }}>easy</span> to understand.
+          {/* Main headline: UNDERSTAND · REMEMBER · APPLY */}
+          <h1
+            className="hero-headline"
+            style={{
+              fontFamily: "'DM Sans', sans-serif",
+              fontSize: 72,
+              fontWeight: 700,
+              lineHeight: 1.1,
+              marginBottom: 24,
+              animation: "fadeUp 0.7s ease both",
+              letterSpacing: "-1px",
+            }}
+          >
+            <span style={{ color: "#1a1510" }}>UNDERSTAND</span>
+            <span style={{ color: "#b0a89e", margin: "0 16px", fontWeight: 400 }}>&middot;</span>
+            <span style={{ color: "#1a1510" }}>REMEMBER</span>
+            <span style={{ color: "#b0a89e", margin: "0 16px", fontWeight: 400 }}>&middot;</span>
+            <span style={{ color: "#7c5cfc" }}>APPLY</span>
           </h1>
 
+          {/* Subtitle */}
           <p style={{
             fontSize: 18,
             lineHeight: 1.65,
-            color: "#3a3530",
-            maxWidth: 540,
-            margin: "0 auto 36px",
+            color: "#5a554e",
+            maxWidth: 600,
+            margin: "0 auto 40px",
             animation: "fadeUp 0.7s ease 0.15s both",
           }}>
-            Read in plain modern English or the KJV — free forever. AI explains every verse instantly.
+            Read Clear Bible Translation (CBT), King James Version (KJV), or World English Bible (WEB)
           </p>
 
-          <div
-            style={{
-              animation: "fadeUp 0.7s ease 0.25s both",
-            }}
-          >
+          {/* AI Search Bar */}
+          <div style={{ animation: "fadeUp 0.7s ease 0.25s both" }}>
             <HeroBibleSearch />
           </div>
 
+          {/* CTA Buttons */}
           <div style={{
             display: "flex",
             gap: 14,
@@ -528,11 +168,11 @@ export default function ClearBibleLanding() {
           }}>
             <Link href="/signup" style={{
               display: "inline-block",
-              padding: "15px 36px",
+              padding: "16px 40px",
               fontSize: 16,
               fontWeight: 700,
               color: "#fff",
-              background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
+              background: "#7c5cfc",
               borderRadius: 12,
               textDecoration: "none",
               transition: "transform 0.2s ease, box-shadow 0.2s ease",
@@ -542,7 +182,7 @@ export default function ClearBibleLanding() {
             </Link>
             <Link href="/login" style={{
               display: "inline-block",
-              padding: "15px 36px",
+              padding: "16px 40px",
               fontSize: 16,
               fontWeight: 700,
               color: "#7c5cfc",
@@ -562,330 +202,607 @@ export default function ClearBibleLanding() {
             marginTop: 16,
             animation: "fadeUp 0.7s ease 0.4s both",
           }}>
-            No credit card required · Free forever plan available
+            No credit card required
           </p>
-
-          <div style={{
-            marginTop: 16,
-            animation: "fadeUp 0.7s ease 0.5s both",
-          }}>
-            <Link href="/pricing" style={{
-              fontSize: 15,
-              fontWeight: 600,
-              color: "#7c5cfc",
-              textDecoration: "none",
-            }}>
-              View Pricing →
-            </Link>
-          </div>
         </div>
       </section>
 
-      {/* ═══════════════════ INTERACTIVE DEMO ═══════════════════ */}
+      {/* ═══════════════════ FEATURE SECTION ═══════════════════ */}
       <section style={{
-        padding: "40px 24px 80px",
-        maxWidth: 800,
-        margin: "0 auto",
+        padding: "100px 24px",
+        background: "#faf9f7",
       }}>
-        <div style={{ textAlign: "center", marginBottom: 36 }}>
-          <p style={{
-            fontSize: 12,
-            fontWeight: 700,
-            letterSpacing: 1.5,
-            textTransform: "uppercase",
-            color: "#7c5cfc",
-            marginBottom: 12,
-          }}>
-            Try it yourself
-          </p>
-          <h2 style={{
-            fontFamily: "'Source Serif 4', Georgia, serif",
-            fontSize: "clamp(26px, 4vw, 36px)",
-            fontWeight: 700,
-            color: "#1a1510",
-            marginBottom: 12,
-          }}>
-            See what reading with clarity looks like
-          </h2>
-          <p style={{
-            fontSize: 16,
-            color: "#6a655e",
-            maxWidth: 460,
-            margin: "0 auto",
-          }}>
-            Tap verse 10 below, then check out the chapter summary.
-          </p>
-        </div>
-
-        <VerseDemo />
-      </section>
-
-      {/* ═══════════════════ PROBLEM / MISSION ═══════════════════ */}
-      <section style={{
-        padding: "64px 24px",
-        textAlign: "center",
-        background: "#fff",
-        borderTop: "1px solid #eee",
-        borderBottom: "1px solid #eee",
-      }}>
-        <div style={{ maxWidth: 600, margin: "0 auto", animation: "fadeUp 0.7s ease both" }}>
-
-          {/* Understand. Remember. Apply. */}
-          <div style={{
-            fontFamily: "'Source Serif 4', Georgia, serif",
-            fontSize: "clamp(36px, 6vw, 54px)",
-            fontWeight: 700,
-            lineHeight: 1.25,
-            marginBottom: 40,
-          }}>
-            <span style={{ color: "#1a1510" }}>Understand.</span><br />
-            <span style={{ color: "#1a1510" }}>Remember.</span><br />
-            <span style={{ color: "#7c5cfc" }}>Apply.</span>
-          </div>
-
-          {/* Headline */}
-          <h2 style={{
-            fontFamily: "'Source Serif 4', Georgia, serif",
-            fontSize: "clamp(22px, 3.5vw, 30px)",
-            fontWeight: 700,
-            color: "#1a1510",
-            marginBottom: 24,
-          }}>
-            The Bible can be a long, difficult read.
-          </h2>
-
-          {/* Explanation */}
-          <div style={{
-            fontFamily: "'DM Sans', sans-serif",
-            fontSize: 16,
-            lineHeight: 1.8,
-            color: "#3a3530",
-            textAlign: "left",
-            marginBottom: 28,
-          }}>
-            <p style={{ marginBottom: 16 }}>
-              For many people, reading the Bible from cover to cover can take years.
-            </p>
-            <p style={{ marginBottom: 16 }}>
-              And by the time they finish, they often realize they don&apos;t remember as much of what they read as they hoped.
-            </p>
-            <p>
-              The language can be difficult.<br />
-              The meaning behind certain passages can be hard to understand.<br />
-              And it can be challenging to see how scripture connects to everyday life.
-            </p>
-          </div>
-
-          {/* Transition to solution */}
-          <div style={{
-            fontFamily: "'DM Sans', sans-serif",
-            fontSize: 16,
-            lineHeight: 1.8,
-            color: "#3a3530",
-            textAlign: "left",
-            marginBottom: 28,
-          }}>
-            <p style={{ marginBottom: 16 }}>
-              <strong>ClearBible<span style={{ color: "#7c5cfc" }}>.ai</span></strong> was built to change that.
-            </p>
-            <p>
-              Instead of simply reading scripture, ClearBible helps you understand what the Bible is saying, remember what you read, and apply its wisdom to your life.
-            </p>
-          </div>
-
-          {/* Feature intro */}
-          <div style={{
-            fontFamily: "'DM Sans', sans-serif",
-            fontSize: 16,
-            lineHeight: 1.8,
-            color: "#3a3530",
-            textAlign: "left",
-          }}>
-            <p style={{ marginBottom: 12, fontWeight: 600 }}>
-              ClearBible provides:
-            </p>
-            <ul style={{ paddingLeft: 20, margin: 0 }}>
-              <li style={{ marginBottom: 8 }}>Verse-by-verse explanations written in clear modern language</li>
-              <li style={{ marginBottom: 8 }}>AI-powered Bible search that answers questions using scripture</li>
-              <li style={{ marginBottom: 8 }}>Carefully written summaries of all 66 books of the Bible</li>
-              <li>Three Bible translations: KJV, WEB, and CBT</li>
-            </ul>
-          </div>
-
-        </div>
-      </section>
-
-      {/* ═══════════════════ STATS ═══════════════════ */}
-      <section style={{
-        padding: "48px 24px",
-        background: "#fff",
-        borderTop: "1px solid #eee",
-        borderBottom: "1px solid #eee",
-      }}>
-        <div style={{
-          maxWidth: 700,
-          margin: "0 auto",
-          display: "flex",
-          justifyContent: "space-around",
-          flexWrap: "wrap",
-          gap: 32,
-        }}>
-          <StatBlock number="66" label="Books of the Bible" />
-          <StatBlock number="1,189" label="Chapters" />
-          <StatBlock number="100%" label="Free to Read" />
-        </div>
-      </section>
-
-      {/* ═══════════════════ FREE FEATURES ═══════════════════ */}
-      <section style={{
-        padding: "80px 24px",
-        maxWidth: 900,
-        margin: "0 auto",
-      }}>
-        <div style={{ textAlign: "center", marginBottom: 48 }}>
-          <p style={{
-            fontSize: 12,
-            fontWeight: 700,
-            letterSpacing: 1.5,
-            textTransform: "uppercase",
-            color: "#22a867",
-            marginBottom: 12,
-          }}>
-            Free forever
-          </p>
-          <h2 style={{
-            fontFamily: "'Source Serif 4', Georgia, serif",
-            fontSize: "clamp(26px, 4vw, 36px)",
-            fontWeight: 700,
-            color: "#1a1510",
-            marginBottom: 12,
-          }}>
-            Everything you need to read the Bible
-          </h2>
-          <p style={{
-            fontSize: 16,
-            color: "#6a655e",
-            maxWidth: 500,
-            margin: "0 auto",
-          }}>
-            No account required for basic reading. Sign up free to unlock notes, highlights, and bookmarks.
-          </p>
-        </div>
-
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
-          gap: 16,
-        }}>
-          {FEATURES_FREE.map((f, i) => (
-            <FeatureCard key={f.name} {...f} delay={0.1 * i} />
-          ))}
-        </div>
-      </section>
-
-      {/* ═══════════════════ PREMIUM FEATURES ═══════════════════ */}
-      <section style={{
-        padding: "80px 24px",
-        background: "linear-gradient(180deg, #f5f2ff 0%, #faf9f7 100%)",
-      }}>
-        <div style={{ maxWidth: 900, margin: "0 auto" }}>
-          <div style={{ textAlign: "center", marginBottom: 48 }}>
-            <p style={{
-              fontSize: 12,
-              fontWeight: 700,
-              letterSpacing: 1.5,
-              textTransform: "uppercase",
-              color: "#7c5cfc",
-              marginBottom: 12,
-            }}>
-              Go deeper
-            </p>
-            <h2 style={{
-              fontFamily: "'Source Serif 4', Georgia, serif",
-              fontSize: "clamp(26px, 4vw, 36px)",
-              fontWeight: 700,
-              color: "#1a1510",
-              marginBottom: 12,
-            }}>
-              Understand what you&apos;re reading — instantly
+        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
+          {/* Section header */}
+          <div style={{ textAlign: "center", marginBottom: 72 }}>
+            <h2
+              className="feature-section-headline"
+              style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 44,
+                fontWeight: 700,
+                lineHeight: 1.2,
+                color: "#1a1510",
+                marginBottom: 20,
+              }}
+            >
+              Understand the Bible. Remember it.{" "}
+              <span style={{ color: "#7c5cfc" }}>Apply it.</span>
             </h2>
             <p style={{
-              fontSize: 16,
+              fontSize: 18,
+              lineHeight: 1.65,
               color: "#6a655e",
-              maxWidth: 520,
+              maxWidth: 560,
               margin: "0 auto",
             }}>
-              ClearBible Unlimited adds AI-powered explanations and summaries that break down the Bible into clear, modern language. No theological jargon — just the meaning.
+              AI tools that help you understand scripture clearly and retain what you read.
             </p>
           </div>
 
-          <div style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-            gap: 20,
-            maxWidth: 640,
-            margin: "0 auto",
-          }}>
-            {FEATURES_PREMIUM.map((f, i) => (
-              <FeatureCard key={f.name} {...f} delay={0.1 * i} />
-            ))}
+          {/* Feature Grid */}
+          <div
+            className="feature-grid"
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: 28,
+            }}
+          >
+            {/* FEATURE 1 — AI Bible Search */}
+            <div className="feature-block">
+              <div style={{
+                fontSize: 12,
+                fontWeight: 700,
+                letterSpacing: 1.5,
+                textTransform: "uppercase",
+                color: "#7c5cfc",
+                marginBottom: 16,
+              }}>
+                AI-Powered
+              </div>
+              <h3 style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 28,
+                fontWeight: 700,
+                color: "#1a1510",
+                marginBottom: 14,
+              }}>
+                Ask the Bible Anything
+              </h3>
+              <p style={{
+                fontSize: 16,
+                lineHeight: 1.7,
+                color: "#5a554e",
+                marginBottom: 0,
+              }}>
+                Ask any Bible question and receive an instant AI-powered answer with supporting verses.
+              </p>
+
+              {/* Visual: Mock search bar with example questions */}
+              <div className="feature-visual">
+                {/* Search bar mock */}
+                <div style={{
+                  background: "#fff",
+                  borderRadius: 999,
+                  border: "1.5px solid #d9d0ff",
+                  padding: "14px 20px",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 10,
+                  marginBottom: 20,
+                }}>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                  </svg>
+                  <span style={{ fontSize: 14, color: "#9a958f", fontFamily: "'DM Sans', sans-serif" }}>
+                    Ask a Bible question...
+                  </span>
+                </div>
+
+                {/* Example questions */}
+                <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                  {["Who was Samson?", "Why did Judas betray Jesus?", "What does the Bible say about anxiety?"].map((q) => (
+                    <div key={q} style={{
+                      background: "#fff",
+                      borderRadius: 10,
+                      padding: "12px 16px",
+                      fontSize: 14,
+                      color: "#3a3530",
+                      fontFamily: "'DM Sans', sans-serif",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 10,
+                      border: "1px solid #ede8ff",
+                    }}>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                        <polyline points="9 18 15 12 9 6" />
+                      </svg>
+                      {q}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* FEATURE 2 — Instant Verse Explanation */}
+            <div className="feature-block">
+              <div style={{
+                fontSize: 12,
+                fontWeight: 700,
+                letterSpacing: 1.5,
+                textTransform: "uppercase",
+                color: "#7c5cfc",
+                marginBottom: 16,
+              }}>
+                Instant Clarity
+              </div>
+              <h3 style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 28,
+                fontWeight: 700,
+                color: "#1a1510",
+                marginBottom: 14,
+              }}>
+                Instant Verse Explanation
+              </h3>
+              <p style={{
+                fontSize: 16,
+                lineHeight: 1.7,
+                color: "#5a554e",
+                marginBottom: 0,
+              }}>
+                Tap any verse and instantly see a clear, modern explanation that helps you understand the meaning without theological jargon.
+              </p>
+
+              {/* Visual: Verse with explanation panel */}
+              <div className="feature-visual">
+                {/* Verse block */}
+                <div style={{
+                  background: "#fff",
+                  borderRadius: 12,
+                  padding: "16px 18px",
+                  marginBottom: 14,
+                  border: "1.5px solid #c4b8ff",
+                }}>
+                  <span style={{
+                    color: "#9a958e",
+                    fontWeight: 700,
+                    fontSize: 12,
+                    marginRight: 6,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}>10</span>
+                  <span style={{
+                    fontSize: 14,
+                    lineHeight: 1.7,
+                    color: "#3a3530",
+                    fontFamily: "'Source Serif 4', Georgia, serif",
+                  }}>
+                    For the love of money is the root of all evil: which while some coveted after, they have erred from the faith...
+                  </span>
+                </div>
+
+                {/* Explanation panel */}
+                <div style={{
+                  background: "#fff",
+                  borderRadius: 12,
+                  padding: "16px 18px",
+                  borderLeft: "3px solid #7c5cfc",
+                }}>
+                  <div style={{
+                    fontSize: 11,
+                    fontWeight: 700,
+                    color: "#7c5cfc",
+                    letterSpacing: 0.8,
+                    textTransform: "uppercase",
+                    marginBottom: 8,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}>
+                    Plain-Language Explanation
+                  </div>
+                  <p style={{
+                    fontSize: 13,
+                    lineHeight: 1.65,
+                    color: "#4a4550",
+                    margin: 0,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}>
+                    Most people quote this as &ldquo;money is the root of all evil&rdquo; &mdash; but that&rsquo;s not what it says. It&rsquo;s the love of money that Paul is warning about...
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* FEATURE 3 — Apply Feature */}
+            <div className="feature-block">
+              <div style={{
+                fontSize: 12,
+                fontWeight: 700,
+                letterSpacing: 1.5,
+                textTransform: "uppercase",
+                color: "#7c5cfc",
+                marginBottom: 16,
+              }}>
+                Take Action
+              </div>
+              <h3 style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 28,
+                fontWeight: 700,
+                color: "#1a1510",
+                marginBottom: 14,
+              }}>
+                Apply What You Read
+              </h3>
+              <p style={{
+                fontSize: 16,
+                lineHeight: 1.7,
+                color: "#5a554e",
+                marginBottom: 0,
+              }}>
+                ClearBible helps you move beyond reading and into action by showing practical insights drawn from scripture so you can apply what you learn in daily life.
+              </p>
+
+              {/* Visual: Understand → Remember → Apply flow */}
+              <div className="feature-visual">
+                <div style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: 12,
+                  flexWrap: "wrap",
+                }}>
+                  {/* Step 1 */}
+                  <div style={{
+                    background: "#fff",
+                    borderRadius: 12,
+                    padding: "16px 20px",
+                    textAlign: "center",
+                    border: "1px solid #ede8ff",
+                    flex: "1 1 100px",
+                    minWidth: 100,
+                  }}>
+                    <div style={{
+                      width: 40,
+                      height: 40,
+                      borderRadius: "50%",
+                      background: "#f0edff",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      margin: "0 auto 8px",
+                    }}>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                      </svg>
+                    </div>
+                    <div style={{ fontSize: 13, fontWeight: 700, color: "#1a1510", fontFamily: "'DM Sans', sans-serif" }}>Understand</div>
+                    <div style={{ fontSize: 11, color: "#8a8580", marginTop: 4, fontFamily: "'DM Sans', sans-serif" }}>Read & learn</div>
+                  </div>
+
+                  {/* Arrow */}
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c4b8ff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+
+                  {/* Step 2 */}
+                  <div style={{
+                    background: "#fff",
+                    borderRadius: 12,
+                    padding: "16px 20px",
+                    textAlign: "center",
+                    border: "1px solid #ede8ff",
+                    flex: "1 1 100px",
+                    minWidth: 100,
+                  }}>
+                    <div style={{
+                      width: 40,
+                      height: 40,
+                      borderRadius: "50%",
+                      background: "#f0edff",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      margin: "0 auto 8px",
+                    }}>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z" />
+                        <path d="M12 6v6l4 2" />
+                      </svg>
+                    </div>
+                    <div style={{ fontSize: 13, fontWeight: 700, color: "#1a1510", fontFamily: "'DM Sans', sans-serif" }}>Remember</div>
+                    <div style={{ fontSize: 11, color: "#8a8580", marginTop: 4, fontFamily: "'DM Sans', sans-serif" }}>Retain meaning</div>
+                  </div>
+
+                  {/* Arrow */}
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c4b8ff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+
+                  {/* Step 3 */}
+                  <div style={{
+                    background: "#7c5cfc",
+                    borderRadius: 12,
+                    padding: "16px 20px",
+                    textAlign: "center",
+                    border: "1px solid #7c5cfc",
+                    flex: "1 1 100px",
+                    minWidth: 100,
+                  }}>
+                    <div style={{
+                      width: 40,
+                      height: 40,
+                      borderRadius: "50%",
+                      background: "rgba(255,255,255,0.2)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      margin: "0 auto 8px",
+                    }}>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                    </div>
+                    <div style={{ fontSize: 13, fontWeight: 700, color: "#fff", fontFamily: "'DM Sans', sans-serif" }}>Apply</div>
+                    <div style={{ fontSize: 11, color: "rgba(255,255,255,0.7)", marginTop: 4, fontFamily: "'DM Sans', sans-serif" }}>Live it out</div>
+                  </div>
+                </div>
+
+                {/* Practical insight card */}
+                <div style={{
+                  background: "#fff",
+                  borderRadius: 12,
+                  padding: "16px 18px",
+                  marginTop: 18,
+                  borderLeft: "3px solid #7c5cfc",
+                }}>
+                  <div style={{
+                    fontSize: 11,
+                    fontWeight: 700,
+                    color: "#7c5cfc",
+                    letterSpacing: 0.8,
+                    textTransform: "uppercase",
+                    marginBottom: 6,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}>
+                    Practical Insight
+                  </div>
+                  <p style={{
+                    fontSize: 13,
+                    lineHeight: 1.65,
+                    color: "#4a4550",
+                    margin: 0,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}>
+                    This week, notice when the desire for more starts to drive your decisions. Contentment isn&rsquo;t settling &mdash; it&rsquo;s choosing what matters most.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* FEATURE 4 — Chapter Summaries */}
+            <div className="feature-block">
+              <div style={{
+                fontSize: 12,
+                fontWeight: 700,
+                letterSpacing: 1.5,
+                textTransform: "uppercase",
+                color: "#7c5cfc",
+                marginBottom: 16,
+              }}>
+                Retention
+              </div>
+              <h3 style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 28,
+                fontWeight: 700,
+                color: "#1a1510",
+                marginBottom: 14,
+              }}>
+                Chapter Summaries
+              </h3>
+              <p style={{
+                fontSize: 16,
+                lineHeight: 1.7,
+                color: "#5a554e",
+                marginBottom: 0,
+              }}>
+                After reading a chapter, receive a concise summary that reinforces the message so the meaning sticks.
+              </p>
+
+              {/* Visual: Chapter panel with summary card */}
+              <div className="feature-visual">
+                {/* Chapter header mock */}
+                <div style={{
+                  background: "#fff",
+                  borderRadius: 12,
+                  padding: "14px 18px",
+                  marginBottom: 14,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  border: "1px solid #ede8ff",
+                }}>
+                  <div>
+                    <div style={{ fontSize: 11, fontWeight: 700, color: "#8a8580", letterSpacing: 1, textTransform: "uppercase", fontFamily: "'DM Sans', sans-serif" }}>
+                      1 Timothy 6
+                    </div>
+                    <div style={{ fontSize: 13, color: "#3a3530", marginTop: 4, fontFamily: "'DM Sans', sans-serif" }}>
+                      25 verses
+                    </div>
+                  </div>
+                  <div style={{
+                    background: "#7c5cfc",
+                    color: "#fff",
+                    padding: "8px 16px",
+                    borderRadius: 8,
+                    fontSize: 12,
+                    fontWeight: 700,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}>
+                    View Summary
+                  </div>
+                </div>
+
+                {/* Summary card */}
+                <div style={{
+                  background: "#fff",
+                  borderRadius: 12,
+                  padding: "16px 18px",
+                  borderLeft: "3px solid #7c5cfc",
+                }}>
+                  <div style={{
+                    fontSize: 11,
+                    fontWeight: 700,
+                    color: "#7c5cfc",
+                    letterSpacing: 0.8,
+                    textTransform: "uppercase",
+                    marginBottom: 10,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}>
+                    Chapter Summary
+                  </div>
+                  <ul style={{
+                    fontSize: 13,
+                    lineHeight: 1.65,
+                    color: "#4a4550",
+                    margin: 0,
+                    paddingLeft: 16,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}>
+                    <li style={{ marginBottom: 6 }}>Paul instructs Timothy on how servants should treat their masters.</li>
+                    <li style={{ marginBottom: 6 }}>He warns against false teachers who use religion as a way to get rich.</li>
+                    <li>He describes contentment as &ldquo;great gain.&rdquo;</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* FEATURE 5 — Study Tools (Full width) */}
+            <div className="feature-block" style={{ gridColumn: "1 / -1" }}>
+              <div style={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr",
+                gap: 40,
+                alignItems: "center",
+              }}>
+                <div>
+                  <div style={{
+                    fontSize: 12,
+                    fontWeight: 700,
+                    letterSpacing: 1.5,
+                    textTransform: "uppercase",
+                    color: "#7c5cfc",
+                    marginBottom: 16,
+                  }}>
+                    Study Tools
+                  </div>
+                  <h3 style={{
+                    fontFamily: "'DM Sans', sans-serif",
+                    fontSize: 28,
+                    fontWeight: 700,
+                    color: "#1a1510",
+                    marginBottom: 14,
+                  }}>
+                    Remember What You Read
+                  </h3>
+                  <p style={{
+                    fontSize: 16,
+                    lineHeight: 1.7,
+                    color: "#5a554e",
+                    marginBottom: 0,
+                  }}>
+                    Highlight important passages, write notes, and bookmark exactly where you left off.
+                  </p>
+                </div>
+
+                {/* Visual: Highlights, notes, bookmarks UI elements */}
+                <div className="feature-visual" style={{ marginTop: 0 }}>
+                  {/* Highlight mock */}
+                  <div style={{
+                    background: "#fff",
+                    borderRadius: 10,
+                    padding: "14px 16px",
+                    marginBottom: 12,
+                    border: "1px solid #ede8ff",
+                  }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+                      <div style={{ display: "flex", gap: 6 }}>
+                        {["#fef08a", "#bbf7d0", "#bfdbfe", "#fecaca", "#e9d5ff"].map((c) => (
+                          <div key={c} style={{ width: 16, height: 16, borderRadius: "50%", background: c, border: "1px solid rgba(0,0,0,0.08)" }} />
+                        ))}
+                      </div>
+                      <span style={{ fontSize: 11, color: "#8a8580", fontWeight: 600, fontFamily: "'DM Sans', sans-serif" }}>
+                        5 highlight colors
+                      </span>
+                    </div>
+                    <p style={{
+                      fontSize: 13,
+                      lineHeight: 1.6,
+                      color: "#3a3530",
+                      margin: 0,
+                      fontFamily: "'Source Serif 4', Georgia, serif",
+                      background: "linear-gradient(to bottom, #fef08a66, #fef08a66)",
+                      padding: "2px 4px",
+                      borderRadius: 4,
+                    }}>
+                      The LORD is my shepherd; I shall not want.
+                    </p>
+                  </div>
+
+                  {/* Note mock */}
+                  <div style={{
+                    background: "#fff",
+                    borderRadius: 10,
+                    padding: "14px 16px",
+                    marginBottom: 12,
+                    border: "1px solid #ede8ff",
+                  }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                      </svg>
+                      <span style={{ fontSize: 11, color: "#8a8580", fontWeight: 600, fontFamily: "'DM Sans', sans-serif" }}>
+                        Personal Note
+                      </span>
+                    </div>
+                    <p style={{
+                      fontSize: 13,
+                      lineHeight: 1.5,
+                      color: "#4a4550",
+                      margin: 0,
+                      fontFamily: "'DM Sans', sans-serif",
+                      fontStyle: "italic",
+                    }}>
+                      &ldquo;This reminds me to trust God in seasons of uncertainty...&rdquo;
+                    </p>
+                  </div>
+
+                  {/* Bookmark mock */}
+                  <div style={{
+                    background: "#fff",
+                    borderRadius: 10,
+                    padding: "14px 16px",
+                    border: "1px solid #ede8ff",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 12,
+                  }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="#7c5cfc" stroke="#7c5cfc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+                    </svg>
+                    <div>
+                      <div style={{ fontSize: 13, fontWeight: 600, color: "#1a1510", fontFamily: "'DM Sans', sans-serif" }}>Psalm 23:1</div>
+                      <div style={{ fontSize: 11, color: "#8a8580", fontFamily: "'DM Sans', sans-serif" }}>Bookmarked 2 days ago</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div style={{ textAlign: "center", marginTop: 40 }}>
-            <Link href="/pricing" style={{
-              display: "inline-block",
-              padding: "14px 32px",
-              fontSize: 15,
-              fontWeight: 700,
-              color: "#fff",
-              background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
-              borderRadius: 12,
-              textDecoration: "none",
-              boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
-              transition: "transform 0.2s ease",
-            }}>
-              Upgrade to Unlimited
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════════ HOW IT WORKS ═══════════════════ */}
-      <section style={{
-        padding: "80px 24px",
-        maxWidth: 800,
-        margin: "0 auto",
-      }}>
-        <div style={{ textAlign: "center", marginBottom: 48 }}>
-          <p style={{
-            fontSize: 12,
-            fontWeight: 700,
-            letterSpacing: 1.5,
-            textTransform: "uppercase",
-            color: "#7c5cfc",
-            marginBottom: 12,
-          }}>
-            Simple as 1-2-3
-          </p>
-          <h2 style={{
-            fontFamily: "'Source Serif 4', Georgia, serif",
-            fontSize: "clamp(26px, 4vw, 36px)",
-            fontWeight: 700,
-            color: "#1a1510",
-          }}>
-            How it works
-          </h2>
-        </div>
-
-        <div style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: 8,
-          flexWrap: "wrap",
-        }}>
-          <StepCard number="1" title="Pick a Book" desc="Choose any of the 66 books of the Bible." />
-          <StepCard number="2" title="Read or Listen" desc="Full KJV and Clear Bible Translation with audio playback for every chapter." />
-          <StepCard number="3" title="Go Deeper" desc="Tap any verse for a plain-language explanation." />
         </div>
       </section>
 
@@ -915,7 +832,7 @@ export default function ClearBibleLanding() {
         background: "linear-gradient(180deg, #faf9f7 0%, #f3f0ff 100%)",
       }}>
         <h2 style={{
-          fontFamily: "'Source Serif 4', Georgia, serif",
+          fontFamily: "'DM Sans', sans-serif",
           fontSize: "clamp(28px, 5vw, 42px)",
           fontWeight: 700,
           color: "#1a1510",
@@ -930,7 +847,7 @@ export default function ClearBibleLanding() {
           maxWidth: 420,
           margin: "0 auto 32px",
         }}>
-          Start reading the King James Version or Clear Bible Translation today — completely free. Upgrade anytime.
+          Start reading today &mdash; completely free. Upgrade anytime.
         </p>
         <div style={{
           display: "flex",
@@ -945,7 +862,7 @@ export default function ClearBibleLanding() {
             fontSize: 17,
             fontWeight: 700,
             color: "#fff",
-            background: "linear-gradient(135deg, #7c5cfc 0%, #7c5cfc 100%)",
+            background: "#7c5cfc",
             borderRadius: 12,
             textDecoration: "none",
             boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
