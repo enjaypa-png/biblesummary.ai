@@ -4,6 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;1,400&display=swap');
 
+/* Logo — crisp rendering at all sizes */
+.logo {
+  height: 40px;
+  width: auto;
+  image-rendering: -webkit-optimize-contrast;
+}
+
 :root {
    /* Brand color system — purple accent, warm neutrals */
    --background: #faf9f7;

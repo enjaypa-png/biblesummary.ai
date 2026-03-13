@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import BrandName from "@/components/BrandName";
 
 export default function Footer() {
@@ -13,12 +12,12 @@ export default function Footer() {
     >
       <div className="max-w-lg mx-auto">
         <div className="flex justify-center mb-4">
-          <Image
-            src="/brand/logo-192.png"
-            alt="ClearBible.ai"
-            width={36}
-            height={36}
-            style={{ height: "auto", objectFit: "contain" }}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/clearbible-logo.svg"
+            alt="ClearBible.ai Logo"
+            className="logo"
+            style={{ height: 40, width: "auto" }}
           />
         </div>
         <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-[13px]">
