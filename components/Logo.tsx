@@ -17,7 +17,7 @@ interface LogoProps {
   className?: string;
 }
 
-export default function Logo({ height = 60, style, className }: LogoProps) {
+export default function Logo({ height = 200, style, className }: LogoProps) {
   return (
     <img
       src="/clearbible-logo.svg"
