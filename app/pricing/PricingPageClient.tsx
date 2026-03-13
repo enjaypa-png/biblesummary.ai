@@ -15,13 +15,22 @@ interface Subscription {
 
 type PlanStatus = "none" | "active" | "canceled";
 
+const FEATURES = [
+  { bold: "AI Bible Search", rest: " — ask any question, get answers with verses" },
+  { bold: "All 66 Book Summaries", rest: " — understand each book at a glance" },
+  { bold: "Unlimited Verse Explanations", rest: " — plain English, instantly" },
+  { bold: "Audio Playback", rest: " for every chapter and summary" },
+  { bold: "Apply Scripture to My Life", rest: " — personal application for any verse" },
+  { bold: "Highlights & Notes", rest: " — mark up and annotate freely" },
+  { bold: "All Future Features", rest: " included automatically" },
+  { bold: "Priority Updates", rest: " — first access to new tools" },
+];
+
 export default function PricingPageClient() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [loading, setLoading] = useState(true);
   const [checkoutLoading, setCheckoutLoading] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
-
-  // Subscription statuses
   const [premiumStatus, setPremiumStatus] = useState<PlanStatus>("none");
 
   useEffect(() => {
@@ -34,7 +43,6 @@ export default function PricingPageClient() {
         return;
       }
 
-      // Fetch all subscriptions for this user
       const { data: subs } = await supabase
         .from("subscriptions")
         .select("type, status, current_period_end")
@@ -52,7 +60,6 @@ export default function PricingPageClient() {
               : "canceled"
             : "none";
 
-          // Treat both yearly and monthly premium plans as premium
           if (sub.type === "premium_yearly" || sub.type === "premium_monthly") {
             setPremiumStatus(status);
           }
@@ -64,8 +71,6 @@ export default function PricingPageClient() {
 
     loadStatus();
   }, []);
-
-  const isPremium = premiumStatus === "active" || premiumStatus === "canceled";
 
   async function handleCheckout(
     product: "premium_annual" | "premium_monthly",
@@ -92,55 +97,112 @@ export default function PricingPageClient() {
     }
   }
 
-  function renderButton(
-    label: string,
-    key: string,
-    planStatus: PlanStatus,
-    overridden: boolean,
-    onClick: () => void
-  ) {
-    // Already active
-    if (planStatus === "active" || overridden) {
+  function renderCTAButton() {
+    if (loading) {
       return (
-        <button
-          disabled
-          className="w-full py-3 rounded-xl text-[15px] font-bold opacity-60"
-          style={{ backgroundColor: "var(--card)", color: "var(--success)", border: "1.5px solid var(--success)" }}
+        <div
+          style={{
+            width: "100%",
+            padding: "16px 24px",
+            borderRadius: 9999,
+            background: "#e5e0f0",
+            textAlign: "center",
+            color: "#8a8580",
+            fontSize: 16,
+            fontWeight: 700,
+          }}
         >
-          Active
-        </button>
+          Loading...
+        </div>
       );
     }
 
-    // Canceled but still within period
-    if (planStatus === "canceled") {
+    if (premiumStatus === "active") {
       return (
-        <button
-          disabled
-          className="w-full py-3 rounded-xl text-[15px] font-bold opacity-70"
-          style={{ backgroundColor: "var(--card)", color: "var(--warning)", border: "1.5px solid var(--warning)" }}
+        <div
+          style={{
+            width: "100%",
+            padding: "16px 24px",
+            borderRadius: 9999,
+            background: "rgba(5, 150, 105, 0.1)",
+            border: "2px solid var(--success, #059669)",
+            textAlign: "center",
+            color: "var(--success, #059669)",
+            fontSize: 16,
+            fontWeight: 700,
+          }}
+        >
+          You&apos;re subscribed
+        </div>
+      );
+    }
+
+    if (premiumStatus === "canceled") {
+      return (
+        <div
+          style={{
+            width: "100%",
+            padding: "16px 24px",
+            borderRadius: 9999,
+            background: "rgba(217, 119, 6, 0.1)",
+            border: "2px solid var(--warning, #d97706)",
+            textAlign: "center",
+            color: "var(--warning, #d97706)",
+            fontSize: 16,
+            fontWeight: 700,
+          }}
         >
           Cancels at period end
-        </button>
+        </div>
       );
     }
 
-    const isLoading = checkoutLoading === key;
+    const isLoading = checkoutLoading !== null;
 
     return (
       <button
-        onClick={onClick}
-        disabled={isLoading || checkoutLoading !== null}
-        className="w-full py-3 rounded-xl text-[15px] font-bold transition-all active:scale-[0.98] disabled:opacity-60"
-        style={{ backgroundColor: "var(--accent)", color: "white" }}
+        onClick={() => handleCheckout("premium_annual", "premium_yearly")}
+        disabled={isLoading}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 8,
+          width: "100%",
+          padding: "16px 24px",
+          fontSize: 16,
+          fontWeight: 700,
+          color: "#fff",
+          background: "#7c5cfc",
+          borderRadius: 9999,
+          border: "none",
+          cursor: isLoading ? "wait" : "pointer",
+          opacity: isLoading ? 0.7 : 1,
+          boxShadow: "0 4px 16px rgba(124,92,252,0.25)",
+        }}
       >
-        {isLoading ? (
-          <span className="flex items-center justify-center gap-2">
-            <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+        {checkoutLoading === "premium_yearly" ? (
+          <>
+            <span
+              style={{
+                width: 16,
+                height: 16,
+                border: "2px solid rgba(255,255,255,0.3)",
+                borderTopColor: "#fff",
+                borderRadius: "50%",
+                display: "inline-block",
+                animation: "spin 1s linear infinite",
+              }}
+            />
             Processing...
-          </span>
+          </>
         ) : (
-          label
+          <>
+            Get Started — $79/year
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
+            </svg>
+          </>
         )}
       </button>
     );
@@ -166,215 +228,205 @@ export default function PricingPageClient() {
         </div>
       </header>
 
-      <main className="flex-1 max-w-2xl mx-auto px-5 py-8">
-        <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold mb-2" style={{ color: "var(--foreground)" }}>
+      <main style={{ flex: 1, padding: "48px 24px" }}>
+        {/* Header */}
+        <div style={{ textAlign: "center", marginBottom: 48 }}>
+          <h2
+            style={{
+              fontFamily: "'DM Sans', sans-serif",
+              fontSize: "clamp(28px, 5vw, 42px)",
+              fontWeight: 700,
+              color: "var(--foreground)",
+              marginBottom: 12,
+            }}
+          >
             Simple, Transparent Pricing
           </h2>
-          <p className="text-[15px]" style={{ color: "var(--foreground-secondary)" }}>
-            Read free forever. Upgrade for audio, AI explanations, and summaries.
+          <p style={{ fontSize: 16, color: "var(--foreground-secondary)", maxWidth: 480, margin: "0 auto" }}>
+            Read free forever. Upgrade for AI search, explanations, summaries, and audio.
           </p>
         </div>
 
         {error && (
           <div
-            className="mb-4 p-3 rounded-xl text-[14px] text-center"
-            style={{ backgroundColor: "#fef2f2", color: "var(--error)" }}
+            style={{
+              maxWidth: 900,
+              margin: "0 auto 24px",
+              padding: 12,
+              borderRadius: 12,
+              background: "#fef2f2",
+              color: "var(--error)",
+              textAlign: "center",
+              fontSize: 14,
+            }}
           >
             {error}
           </div>
         )}
 
-        {loading ? (
-          <div className="flex items-center justify-center py-16">
-            <div
-              className="w-6 h-6 border-2 rounded-full animate-spin"
-              style={{ borderColor: "var(--border)", borderTopColor: "var(--accent)" }}
-            />
-          </div>
-        ) : (
-          <div className="space-y-4">
-            {/* ⭐ Unlimited Tier — highlighted */}
-            <div
-              className="rounded-xl p-5 relative"
+        {/* ── Outrank-style pricing card ── */}
+        <div
+          style={{
+            maxWidth: 900,
+            margin: "0 auto",
+            background: "var(--card, #fff)",
+            borderRadius: 20,
+            border: "1.5px dashed #c4b5fd",
+            padding: "clamp(24px, 4vw, 48px)",
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "clamp(24px, 4vw, 48px)",
+          }}
+        >
+          {/* Left side — plan name, price, CTA */}
+          <div style={{ flex: "0 0 280px", minWidth: 240 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
+              <h3
+                style={{
+                  fontFamily: "'DM Sans', sans-serif",
+                  fontSize: 24,
+                  fontWeight: 700,
+                  color: "var(--foreground)",
+                  margin: 0,
+                }}
+              >
+                ClearBible Unlimited
+              </h3>
+              <span
+                style={{
+                  fontSize: 11,
+                  fontWeight: 600,
+                  color: "var(--foreground-secondary)",
+                  border: "1px solid var(--border)",
+                  borderRadius: 6,
+                  padding: "3px 10px",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                All-in-one
+              </span>
+            </div>
+
+            <div style={{ display: "flex", alignItems: "baseline", gap: 8, marginBottom: 6 }}>
+              <span
+                style={{
+                  fontFamily: "'DM Sans', sans-serif",
+                  fontSize: 56,
+                  fontWeight: 700,
+                  color: "var(--foreground)",
+                  lineHeight: 1,
+                }}
+              >
+                $79
+              </span>
+              <span style={{ fontSize: 16, color: "var(--foreground-secondary)" }}>/year</span>
+            </div>
+            <p style={{ fontSize: 14, color: "var(--foreground-secondary)", marginBottom: 24 }}>
+              or{" "}
+              <button
+                onClick={() => {
+                  if (premiumStatus === "none" && !checkoutLoading) {
+                    handleCheckout("premium_monthly", "premium_monthly");
+                  }
+                }}
+                disabled={premiumStatus !== "none" || checkoutLoading !== null}
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: 0,
+                  color: "var(--accent)",
+                  fontWeight: 600,
+                  fontSize: 14,
+                  cursor: premiumStatus === "none" ? "pointer" : "default",
+                  textDecoration: "underline",
+                }}
+              >
+                {checkoutLoading === "premium_monthly" ? "Processing..." : "$9.99/month"}
+              </button>
+            </p>
+
+            {renderCTAButton()}
+
+            <p
               style={{
-                backgroundColor: "var(--card)",
-                border: "2px solid var(--accent)",
-                boxShadow: "0 4px 20px rgba(124, 92, 252, 0.15)",
+                fontSize: 13,
+                color: "var(--foreground-secondary)",
+                textAlign: "center",
+                marginTop: 16,
               }}
             >
-              <span
-                className="absolute -top-3 left-5 text-[11px] font-bold uppercase tracking-wider px-3 py-0.5 rounded-full"
-                style={{ backgroundColor: "var(--accent)", color: "white" }}
-              >
-                Recommended
-              </span>
+              <strong>Cancel anytime.</strong> No questions asked!
+            </p>
+          </div>
 
-              <div className="flex items-baseline justify-between mb-1 mt-1">
-                <h3 className="text-[18px] font-bold" style={{ color: "var(--foreground)" }}>
-                  ClearBible Unlimited
-                </h3>
-              </div>
-              <p className="text-[13px] mb-4" style={{ color: "var(--foreground-secondary)" }}>
-                Summaries, AI explanations, audio, and every future feature
-              </p>
-
-              <div
-                className="flex items-center justify-between p-3 rounded-lg mb-2"
-                style={{ backgroundColor: "var(--background)" }}
-              >
-                <div>
-                  <span className="text-[15px] font-semibold" style={{ color: "var(--foreground)" }}>
-                    Yearly
-                  </span>
-                  <p className="text-[12px]" style={{ color: "var(--foreground-secondary)" }}>
-                    All features, all future updates
-                  </p>
-                </div>
-                <div className="text-right">
-                  <span className="text-[24px] font-bold" style={{ color: "var(--accent)" }}>
-                    $79
-                  </span>
-                  <span className="text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
-                    /year
-                  </span>
-                </div>
-              </div>
-
-              <div
-                className="flex items-center justify-between p-3 rounded-lg mb-4"
-                style={{ backgroundColor: "var(--background)" }}
-              >
-                <div>
-                  <span className="text-[15px] font-semibold" style={{ color: "var(--foreground)" }}>
-                    Monthly
-                  </span>
-                  <p className="text-[12px]" style={{ color: "var(--foreground-secondary)" }}>
-                    All features, cancel anytime
-                  </p>
-                </div>
-                <div className="text-right">
-                  <span className="text-[24px] font-bold" style={{ color: "var(--accent)" }}>
-                    $9.99
-                  </span>
-                  <span className="text-[13px]" style={{ color: "var(--foreground-secondary)" }}>
-                    /month
-                  </span>
-                </div>
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-2 mb-3">
-                {renderButton(
-                  "Upgrade – $79/year",
-                  "premium_yearly",
-                  premiumStatus,
-                  false,
-                  () => handleCheckout("premium_annual", "premium_yearly")
-                )}
-                {renderButton(
-                  "Or $9.99/month",
-                  "premium_monthly",
-                  premiumStatus,
-                  false,
-                  () => handleCheckout("premium_monthly", "premium_monthly")
-                )}
-              </div>
-
-              <ul className="space-y-2 text-[14px] mb-5" style={{ color: "var(--foreground)" }}>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>AI Bible Search — ask any question, get instant answers with verses</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>All 66 book summaries</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Unlimited verse explanations</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Summary audio playback</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Audio playback for every chapter</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>All future AI features included</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--accent)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Priority feature updates</span>
-                </li>
-              </ul>
-
-            </div>
-
-            {/* Free tier */}
-            <div
-              className="rounded-xl p-5"
-              style={{ backgroundColor: "var(--card)", border: "0.5px solid var(--border)" }}
+          {/* Right side — what's included */}
+          <div style={{ flex: 1, minWidth: 280 }}>
+            <h4
+              style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontSize: 16,
+                fontWeight: 600,
+                color: "var(--foreground)",
+                marginBottom: 20,
+              }}
             >
-              <div className="flex items-baseline justify-between mb-3">
-                <h3 className="text-[17px] font-semibold" style={{ color: "var(--foreground)" }}>
-                  Free
-                </h3>
-                <span
-                  className="text-[13px] font-medium px-2.5 py-0.5 rounded-full"
-                  style={{ backgroundColor: "rgba(5, 150, 105, 0.1)", color: "var(--success)" }}
-                >
-                  Always free
-                </span>
-              </div>
-              <ul className="space-y-2 text-[14px]" style={{ color: "var(--foreground)" }}>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Full KJV + Clear Bible Translation — all 66 books</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Bookmarks and reading progress tracking</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Personal notes</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <span style={{ color: "var(--success)" }} className="flex-shrink-0">&#10003;</span>
-                  <span>Search across the entire Bible</span>
-                </li>
-              </ul>
+              What&apos;s included:
+            </h4>
+
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+                gap: "16px 32px",
+              }}
+            >
+              {FEATURES.map((item) => (
+                <div key={item.bold} style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, marginTop: 1 }}>
+                    <circle cx="12" cy="12" r="10" stroke="#7c5cfc" strokeWidth="1.5" />
+                    <path d="m9 12 2 2 4-4" stroke="#7c5cfc" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  <span style={{ fontSize: 14, lineHeight: 1.5, color: "var(--foreground)" }}>
+                    <strong>{item.bold}</strong>{item.rest}
+                  </span>
+                </div>
+              ))}
             </div>
           </div>
-        )}
+        </div>
+
+        {/* Free tier note */}
+        <p
+          style={{
+            textAlign: "center",
+            fontSize: 14,
+            color: "var(--foreground-secondary)",
+            maxWidth: 500,
+            margin: "32px auto 0",
+          }}
+        >
+          Bible text, bookmarks, notes, and reading progress are <strong>always free</strong>. No credit card required to start.
+        </p>
 
         {/* Disclaimer */}
         <p
-          className="text-center text-[12px] leading-relaxed mt-8"
-          style={{ color: "var(--foreground-secondary)" }}
+          style={{
+            textAlign: "center",
+            fontSize: 12,
+            lineHeight: 1.7,
+            color: "var(--foreground-secondary)",
+            maxWidth: 500,
+            margin: "24px auto 0",
+          }}
         >
           All paid features are optional. <BrandName /> is an educational reading tool.
           AI-generated content describes what the biblical text contains without interpretation.
           See our{" "}
-          <Link href="/refunds" className="underline" style={{ color: "var(--accent)" }}>
+          <Link href="/refunds" style={{ color: "var(--accent)", textDecoration: "underline" }}>
             Refund Policy
           </Link>{" "}
           for details on cancellations and refunds.
         </p>
-
-        {/* CTA */}
-        <div className="text-center mt-8">
-          <Link
-            href="/bible"
-            className="inline-flex items-center justify-center px-8 py-3.5 rounded-xl text-[16px] font-semibold transition-all active:scale-95"
-            style={{ backgroundColor: "var(--accent)", color: "white" }}
-          >
-            Start Reading for Free
-          </Link>
-        </div>
       </main>
 
       <Footer />
