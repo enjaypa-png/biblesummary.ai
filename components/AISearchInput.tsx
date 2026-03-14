@@ -166,6 +166,7 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
             color: var(--foreground, #2a2520);
             white-space: nowrap;
             overflow-x: auto;
+            overflow-y: hidden;
             text-overflow: clip;
             -webkit-user-select: text;
             user-select: text;

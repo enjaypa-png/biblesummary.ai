@@ -6,6 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import { useReadingSettings, TRANSLATION_LABELS } from "@/contexts/ReadingSettingsContext";
 import AISearchModal from "@/components/AISearchModal";
+import AISearchInput, { AISearchInputRef } from "@/components/AISearchInput";
 
 interface Book {
   id: string;
@@ -39,7 +40,7 @@ function BibleAISearch({
   onGoToReference,
   books,
   onOpenAiSearch,
-  inputRef,
+  searchRef,
 }: {
   searchQuery: string;
   setSearchQuery: (value: string) => void;
@@ -47,9 +48,9 @@ function BibleAISearch({
   onGoToReference: () => void;
   books: Book[];
   onOpenAiSearch: (query: string) => void;
-  inputRef?: React.RefObject<HTMLInputElement>;
+  searchRef?: React.RefObject<AISearchInputRef>;
 }) {
-  function handleEnter() {
+  function handleSubmit() {
     const q = searchQuery.trim();
     if (!q) return;
     if (parsedReference) {
@@ -71,134 +72,14 @@ function BibleAISearch({
 
   return (
     <div className="mt-4">
-      <style>{`
-        @keyframes indexPulseGlow {
-          0%, 100% { box-shadow: 0 0 12px rgba(124, 92, 252, 0.1), 0 2px 12px rgba(124, 92, 252, 0.08); }
-          50% { box-shadow: 0 0 20px rgba(124, 92, 252, 0.18), 0 2px 12px rgba(124, 92, 252, 0.12); }
-        }
-        @keyframes indexPulseGlowFocused {
-          0%, 100% { box-shadow: 0 0 16px rgba(124, 92, 252, 0.2), 0 2px 14px rgba(124, 92, 252, 0.14); }
-          50% { box-shadow: 0 0 28px rgba(124, 92, 252, 0.3), 0 2px 14px rgba(124, 92, 252, 0.18); }
-        }
-        .bible-index-search-bar {
-          position: relative;
-          border-radius: 50px;
-          padding: 2px;
-          background: linear-gradient(135deg, #7c5cfc, #a78bfa, #c4b5fd, #7c5cfc);
-          animation: indexPulseGlow 3s ease-in-out infinite;
-          transition: all 0.3s ease;
-        }
-        .bible-index-search-bar:focus-within {
-          animation: indexPulseGlowFocused 2s ease-in-out infinite;
-        }
-        .bible-index-search-inner {
-          display: flex;
-          align-items: center;
-          width: 100%;
-          border-radius: 48px;
-          padding: 4px 4px 4px 16px;
-          background: var(--card);
-        }
-      `}</style>
-      {/* AI-POWERED label */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 5,
-          marginBottom: 10,
-          fontSize: 10,
-          fontWeight: 800,
-          letterSpacing: "2px",
-          textTransform: "uppercase",
-          color: "var(--accent)",
-          fontFamily: "'Inter', 'DM Sans', sans-serif",
-        }}
-      >
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="var(--accent)">
-          <path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z" />
-        </svg>
-        AI-Powered Bible Search
-      </div>
-      <div className="bible-index-search-bar">
-        <div className="bible-index-search-inner">
-          {/* Sparkle icon */}
-          <span className="flex-shrink-0 flex items-center" style={{ color: "var(--accent)" }}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
-            </svg>
-          </span>
-          <input
-            ref={inputRef}
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                e.preventDefault();
-                handleEnter();
-              }
-            }}
-            placeholder="Ask ClearBible AI..."
-            className="flex-1 min-w-0 bg-transparent text-[14px] py-2.5 px-3"
-            style={{
-              color: "var(--foreground)",
-              fontFamily: "'DM Sans', sans-serif",
-              border: "none",
-              outline: "none",
-              whiteSpace: "nowrap",
-              overflowX: "auto",
-              WebkitUserSelect: "text",
-              userSelect: "text" as const,
-            }}
-          />
-          {searchQuery ? (
-            <div className="flex items-center gap-1.5 flex-shrink-0">
-              <button
-                onClick={() => handleEnter()}
-                className="px-5 py-2 rounded-full text-[13px] font-bold active:opacity-70"
-                style={{
-                  background: "linear-gradient(135deg, #7c5cfc 0%, #5a3fd4 100%)",
-                  color: "#fff",
-                  boxShadow: "0 2px 10px rgba(124, 92, 252, 0.3)",
-                }}
-              >
-                Ask AI
-              </button>
-              <button
-                onClick={() => setSearchQuery("")}
-                className="p-1 mr-1 rounded-full active:opacity-70"
-                style={{ color: "var(--secondary)" }}
-              >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M18 6L6 18M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          ) : (
-            <button
-              type="button"
-              onClick={() => {
-                if (inputRef?.current) inputRef.current.focus();
-              }}
-              className="flex-shrink-0 flex items-center gap-1.5 px-5 py-2 rounded-full text-[13px] font-bold"
-              style={{
-                background: "linear-gradient(135deg, #7c5cfc 0%, #5a3fd4 100%)",
-                color: "#fff",
-                boxShadow: "0 2px 10px rgba(124, 92, 252, 0.3)",
-                border: "none",
-                cursor: "pointer",
-              }}
-            >
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
-              </svg>
-              Ask AI
-            </button>
-          )}
-        </div>
-      </div>
+      <AISearchInput
+        ref={searchRef}
+        value={searchQuery}
+        onChange={setSearchQuery}
+        onSubmit={handleSubmit}
+        placeholder="Ask ClearBible AI..."
+        showLabel
+      />
     </div>
   );
 }
@@ -218,7 +99,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
 
   // Search state
   const [searchQuery, setSearchQuery] = useState("");
-  const searchInputRef = useRef<HTMLInputElement>(null);
+  const searchInputRef = useRef<AISearchInputRef>(null);
 
   // AI search modal state (lifted here so modal renders outside the header's stacking context)
   const [showAiModal, setShowAiModal] = useState(false);
@@ -524,7 +405,7 @@ export default function BibleIndex({ books }: { books: Book[] }) {
                 parsedReference={parsedReference}
                 onGoToReference={handleGoToReference}
                 books={books}
-                inputRef={searchInputRef}
+                searchRef={searchInputRef}
                 onOpenAiSearch={(q) => {
                   setAiSearchQuery(q);
                   setShowAiModal(true);
