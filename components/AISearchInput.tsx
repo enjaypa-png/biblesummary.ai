@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useEffect, useCallback, forwardRef, useImperativeHandle } from "react";
+import { useRef, forwardRef, useImperativeHandle } from "react";
 
 // ---------------------------------------------------------------------------
 // Bible-relevance pre-check (client-side, no API call)
@@ -109,34 +109,15 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
     { value, onChange, onSubmit, loading = false, placeholder = "Ask anything about the Bible...", showLabel = false },
     ref
   ) {
-    const textareaRef = useRef<HTMLTextAreaElement>(null);
+    const inputRef = useRef<HTMLInputElement>(null);
 
     useImperativeHandle(ref, () => ({
-      focus: () => textareaRef.current?.focus(),
+      focus: () => inputRef.current?.focus(),
     }));
-
-    // Auto-resize textarea to fit content
-    const autoResize = useCallback(() => {
-      const el = textareaRef.current;
-      if (!el) return;
-      el.style.height = "auto";
-      el.style.height = Math.min(el.scrollHeight, 120) + "px";
-    }, []);
-
-    useEffect(() => {
-      autoResize();
-    }, [value, autoResize]);
 
     function handleSubmit(e: React.FormEvent) {
       e.preventDefault();
       if (!loading && value.trim()) onSubmit();
-    }
-
-    function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
-      if (e.key === "Enter" && !e.shiftKey) {
-        e.preventDefault();
-        if (!loading && value.trim()) onSubmit();
-      }
     }
 
     return (
@@ -166,13 +147,13 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
           }
           .ai-search-bar-inner {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             width: 100%;
             border-radius: 22px;
             padding: 4px 4px 4px 16px;
             background: var(--card, #fff);
           }
-          .ai-search-bar-textarea {
+          .ai-search-bar-input {
             flex: 1;
             min-width: 0;
             padding: 10px 12px;
@@ -184,19 +165,16 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
             border: none;
             outline: none;
             color: var(--foreground, #2a2520);
-            resize: none;
-            overflow-y: auto;
-            max-height: 120px;
             -webkit-user-select: text;
             user-select: text;
           }
-          .ai-search-bar-textarea:focus,
-          .ai-search-bar-textarea:focus-visible {
+          .ai-search-bar-input:focus,
+          .ai-search-bar-input:focus-visible {
             outline: none;
             box-shadow: none;
             border: none;
           }
-          .ai-search-bar-textarea::placeholder {
+          .ai-search-bar-input::placeholder {
             color: var(--secondary, #a09aaf);
             font-style: italic;
           }
@@ -253,20 +231,19 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
 
         <form onSubmit={handleSubmit} className="ai-search-bar-wrap">
           <div className="ai-search-bar-inner">
-            <span className="flex-shrink-0 flex items-center" style={{ color: "var(--accent, #7c5cfc)", marginTop: 10 }}>
+            <span className="flex-shrink-0 flex items-center" style={{ color: "var(--accent, #7c5cfc)" }}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
               </svg>
             </span>
 
-            <textarea
-              ref={textareaRef}
-              rows={1}
+            <input
+              ref={inputRef}
+              type="text"
               value={value}
               onChange={(e) => onChange(e.target.value)}
-              onKeyDown={handleKeyDown}
               placeholder={placeholder}
-              className="ai-search-bar-textarea"
+              className="ai-search-bar-input"
             />
 
             {value.trim() && (
