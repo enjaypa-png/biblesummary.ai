@@ -10,8 +10,12 @@ export default function ReaderSearchBar() {
 
   return (
     <div
-      className="sticky z-30 max-w-2xl mx-auto px-5 pt-3 pb-0"
-      style={{ top: 50 }}
+      className="sticky z-30"
+      style={{
+        top: 50,
+        backgroundColor: "var(--background)",
+        paddingBottom: 8,
+      }}
     >
       <style>{`
         @keyframes readerPulseGlow {
@@ -38,46 +42,48 @@ export default function ReaderSearchBar() {
           background: var(--card);
         }
       `}</style>
-      <button
-        type="button"
-        onClick={() => setShowModal(true)}
-        className="reader-search-pill w-full active:scale-[0.99] transition-transform"
-      >
-        <div className="reader-search-inner">
-          {/* Sparkle icon */}
-          <span className="flex-shrink-0 flex items-center" style={{ color: "var(--accent)" }}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
-            </svg>
-          </span>
+      <div className="max-w-2xl mx-auto px-5 pt-3">
+        <button
+          type="button"
+          onClick={() => setShowModal(true)}
+          className="reader-search-pill w-full active:scale-[0.99] transition-transform"
+        >
+          <div className="reader-search-inner">
+            {/* Sparkle icon */}
+            <span className="flex-shrink-0 flex items-center" style={{ color: "var(--accent)" }}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
+              </svg>
+            </span>
 
-          {/* Placeholder text */}
-          <span
-            className="flex-1 text-left text-[14px] py-2.5 px-3"
-            style={{
-              color: "var(--secondary)",
-              fontFamily: "'DM Sans', sans-serif",
-            }}
-          >
-            Ask ClearBible AI...
-          </span>
+            {/* Placeholder text */}
+            <span
+              className="flex-1 text-left text-[14px] py-2.5 px-3"
+              style={{
+                color: "var(--secondary)",
+                fontFamily: "'DM Sans', sans-serif",
+              }}
+            >
+              Ask ClearBible AI...
+            </span>
 
-          {/* Ask AI button */}
-          <span
-            className="flex-shrink-0 flex items-center gap-1.5 px-5 py-2 rounded-full text-[13px] font-bold"
-            style={{
-              background: "linear-gradient(135deg, #7c5cfc 0%, #5a3fd4 100%)",
-              color: "#fff",
-              boxShadow: "0 2px 10px rgba(124, 92, 252, 0.3)",
-            }}
-          >
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
-            </svg>
-            Ask AI
-          </span>
-        </div>
-      </button>
+            {/* Ask AI button */}
+            <span
+              className="flex-shrink-0 flex items-center gap-1.5 px-5 py-2 rounded-full text-[13px] font-bold"
+              style={{
+                background: "linear-gradient(135deg, #7c5cfc 0%, #5a3fd4 100%)",
+                color: "#fff",
+                boxShadow: "0 2px 10px rgba(124, 92, 252, 0.3)",
+              }}
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
+              </svg>
+              Ask AI
+            </span>
+          </div>
+        </button>
+      </div>
 
       <AISearchModal
         isOpen={showModal}

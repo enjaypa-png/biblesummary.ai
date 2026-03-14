@@ -2,7 +2,6 @@
 
 import { useState, useRef } from "react";
 import Link from "next/link";
-import AISearchModal from "@/components/AISearchModal";
 
 const SUGGESTION_CHIPS = [
   "Who was Moses?",
@@ -18,28 +17,27 @@ const STATS = [
 
 export default function HeroBibleSearch() {
   const [inputValue, setInputValue] = useState("");
-  const [showModal, setShowModal] = useState(false);
-  const [modalQuery, setModalQuery] = useState("");
+  const [showSignupPrompt, setShowSignupPrompt] = useState(false);
+  const [activeQuestion, setActiveQuestion] = useState("");
   const [shakeInput, setShakeInput] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   function handleSubmit() {
     const trimmed = inputValue.trim();
     if (!trimmed) {
-      // Trigger shake animation on empty input
       setShakeInput(true);
       setTimeout(() => setShakeInput(false), 500);
       inputRef.current?.focus();
       return;
     }
-    setModalQuery(trimmed);
-    setShowModal(true);
+    setActiveQuestion(trimmed);
+    setShowSignupPrompt(true);
   }
 
   function handleChipClick(question: string) {
     setInputValue(question);
-    setModalQuery(question);
-    setShowModal(true);
+    setActiveQuestion(question);
+    setShowSignupPrompt(true);
   }
 
   return (
@@ -71,6 +69,10 @@ export default function HeroBibleSearch() {
           40% { transform: translateX(6px); }
           60% { transform: translateX(-4px); }
           80% { transform: translateX(4px); }
+        }
+        @keyframes slideDown {
+          from { opacity: 0; transform: translateY(-10px); }
+          to { opacity: 1; transform: translateY(0); }
         }
         .hero-search-layout {
           display: flex;
@@ -341,6 +343,128 @@ export default function HeroBibleSearch() {
               Get instant Bible answers with supporting verses.
             </div>
           </div>
+
+          {/* Inline signup prompt — replaces the broken modal */}
+          {showSignupPrompt && (
+            <div
+              style={{
+                marginTop: 16,
+                animation: "slideDown 0.35s ease",
+              }}
+            >
+              <div
+                style={{
+                  padding: "24px 28px",
+                  background: "linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%)",
+                  borderRadius: 18,
+                  border: "1px solid rgba(124, 92, 252, 0.15)",
+                  textAlign: "center",
+                }}
+              >
+                {/* Show the question they asked */}
+                <div
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 6,
+                    padding: "6px 16px",
+                    background: "rgba(124, 92, 252, 0.08)",
+                    borderRadius: 999,
+                    fontSize: 13,
+                    fontWeight: 600,
+                    color: "#7c5cfc",
+                    fontFamily: "'DM Sans', sans-serif",
+                    marginBottom: 16,
+                  }}
+                >
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                  &ldquo;{activeQuestion}&rdquo;
+                </div>
+
+                <p
+                  style={{
+                    fontSize: 18,
+                    fontWeight: 700,
+                    color: "#1a1528",
+                    margin: "0 0 6px",
+                    fontFamily: "'DM Sans', sans-serif",
+                    lineHeight: 1.4,
+                  }}
+                >
+                  Sign up free to get your answer
+                </p>
+                <p
+                  style={{
+                    fontSize: 14,
+                    color: "#6b6580",
+                    margin: "0 0 20px",
+                    fontFamily: "'DM Sans', sans-serif",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  AI Bible Search finds answers and supporting verses instantly.
+                  <br />
+                  Create a free account to start asking.
+                </p>
+
+                <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
+                  <Link
+                    href="/signup"
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: 8,
+                      padding: "13px 32px",
+                      fontSize: 15,
+                      fontWeight: 700,
+                      fontFamily: "'DM Sans', sans-serif",
+                      color: "#fff",
+                      background: "linear-gradient(135deg, #7c5cfc 0%, #5a3fd4 100%)",
+                      borderRadius: 50,
+                      textDecoration: "none",
+                      boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
+                      transition: "all 0.25s ease",
+                    }}
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
+                    </svg>
+                    Create Free Account
+                  </Link>
+                  <Link
+                    href="/login"
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      padding: "13px 24px",
+                      fontSize: 14,
+                      fontWeight: 600,
+                      fontFamily: "'DM Sans', sans-serif",
+                      color: "#7c5cfc",
+                      background: "rgba(124, 92, 252, 0.06)",
+                      border: "1px solid rgba(124, 92, 252, 0.2)",
+                      borderRadius: 50,
+                      textDecoration: "none",
+                      transition: "all 0.25s ease",
+                    }}
+                  >
+                    Log in
+                  </Link>
+                </div>
+
+                <p
+                  style={{
+                    fontSize: 12,
+                    color: "#9b95a8",
+                    marginTop: 14,
+                    fontFamily: "'DM Sans', sans-serif",
+                  }}
+                >
+                  No credit card required
+                </p>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Right side: Quick Stats card */}
@@ -356,17 +480,6 @@ export default function HeroBibleSearch() {
           </div>
         </div>
       </div>
-
-      {/* AI Search Modal */}
-      <AISearchModal
-        isOpen={showModal}
-        onClose={() => setShowModal(false)}
-        initialQuery={modalQuery}
-        onSelectVerse={(slug, chapter, verse) => {
-          setShowModal(false);
-          window.location.href = `/bible/${slug}/${chapter}?verse=${verse}`;
-        }}
-      />
     </>
   );
 }
