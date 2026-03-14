@@ -2,6 +2,9 @@
 
 import { useState, useRef, useEffect } from "react";
 import { supabase } from "@/lib/supabase";
+import AISearchInput, { AISearchInputRef } from "@/components/AISearchInput";
+import AISearchLoading from "@/components/AISearchLoading";
+import AISearchResponseCard from "@/components/AISearchResponseCard";
 
 interface SearchVerse {
   book_id: string;
@@ -30,15 +33,16 @@ export default function AISearchModal({
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [answer, setAnswer] = useState<string | null>(null);
+  const [activeQuestion, setActiveQuestion] = useState("");
   const [verses, setVerses] = useState<SearchVerse[]>([]);
   const [hasSearched, setHasSearched] = useState(false);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const searchRef = useRef<AISearchInputRef>(null);
   const lastAutoSearchRef = useRef("");
 
   // Focus input when modal opens
   useEffect(() => {
-    if (isOpen && inputRef.current) {
-      setTimeout(() => inputRef.current?.focus(), 100);
+    if (isOpen) {
+      setTimeout(() => searchRef.current?.focus(), 100);
     }
     if (!isOpen) {
       setError(null);
@@ -46,6 +50,7 @@ export default function AISearchModal({
       setVerses([]);
       setHasSearched(false);
       setLoading(false);
+      setActiveQuestion("");
       lastAutoSearchRef.current = "";
     }
   }, [isOpen]);
@@ -87,6 +92,7 @@ export default function AISearchModal({
     if (!trimmed) return;
 
     setQuery(trimmed);
+    setActiveQuestion(trimmed);
     setLoading(true);
     setError(null);
     setAnswer(null);
@@ -125,13 +131,10 @@ export default function AISearchModal({
     }
   }
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    handleSearch();
-  }
-
-  function handleVerseClick(v: SearchVerse) {
-    if (onSelectVerse && v.book_slug) {
+  function handleVerseClick(reference: string) {
+    // Find matching verse from results
+    const v = verses.find((vs) => vs.reference === reference);
+    if (v && onSelectVerse && v.book_slug) {
       onSelectVerse(v.book_slug, v.chapter, v.verse);
       onClose();
     }
@@ -157,32 +160,8 @@ export default function AISearchModal({
           from { opacity: 0; transform: translateY(-16px) scale(0.98); }
           to { opacity: 1; transform: translateY(0) scale(1); }
         }
-        @keyframes skeletonPulse {
-          0%, 100% { opacity: 0.35; }
-          50% { opacity: 0.7; }
-        }
-        @keyframes fadeInResults {
-          from { opacity: 0; transform: translateY(8px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes spinLoader {
-          to { transform: rotate(360deg); }
-        }
         .ai-modal-card {
           animation: modalSlideIn 0.25s ease-out;
-        }
-        .ai-modal-search-wrap {
-          position: relative;
-          border-radius: 50px;
-          padding: 2px;
-          background: linear-gradient(135deg, #7c5cfc, #a78bfa, #c4b5fd, #7c5cfc);
-        }
-        .ai-modal-search-inner {
-          display: flex;
-          align-items: center;
-          border-radius: 48px;
-          padding: 3px 4px 3px 16px;
-          background: var(--card);
         }
       `}</style>
 
@@ -250,70 +229,16 @@ export default function AISearchModal({
         </div>
 
         {/* Search input */}
-        <form onSubmit={handleSubmit} className="px-5 pt-3 pb-4 flex-shrink-0">
-          <div className="ai-modal-search-wrap">
-            <div className="ai-modal-search-inner">
-              <span className="flex-shrink-0 flex items-center" style={{ color: "var(--accent)" }}>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
-                </svg>
-              </span>
-              <input
-                ref={inputRef}
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="Ask anything about the Bible..."
-                className="flex-1 bg-transparent border-none outline-none py-2.5 px-3 text-[14px]"
-                style={{
-                  color: "var(--foreground)",
-                  fontFamily: "'DM Sans', sans-serif",
-                }}
-              />
-              <button
-                type="submit"
-                disabled={loading || !query.trim()}
-                className="flex-shrink-0 flex items-center gap-1.5 rounded-full text-[13px] font-bold transition-all"
-                style={{
-                  padding: "9px 20px",
-                  background: loading || !query.trim()
-                    ? "var(--border)"
-                    : "linear-gradient(135deg, #7c5cfc 0%, #5a3fd4 100%)",
-                  color: "#fff",
-                  boxShadow: loading || !query.trim()
-                    ? "none"
-                    : "0 2px 10px rgba(124, 92, 252, 0.3)",
-                  opacity: loading || !query.trim() ? 0.6 : 1,
-                  cursor: loading || !query.trim() ? "not-allowed" : "pointer",
-                  border: "none",
-                }}
-              >
-                {loading ? (
-                  <>
-                    <span
-                      style={{
-                        width: 14,
-                        height: 14,
-                        border: "2px solid rgba(255,255,255,0.3)",
-                        borderTopColor: "#fff",
-                        borderRadius: "50%",
-                        display: "inline-block",
-                        animation: "spinLoader 0.7s linear infinite",
-                      }}
-                    />
-                    Thinking...
-                  </>
-                ) : (
-                  <>
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
-                    </svg>
-                    Ask AI
-                  </>
-                )}
-              </button>
-            </div>
-          </div>
-        </form>
+        <div className="px-5 pt-3 pb-4 flex-shrink-0">
+          <AISearchInput
+            ref={searchRef}
+            value={query}
+            onChange={setQuery}
+            onSubmit={() => handleSearch()}
+            loading={loading}
+            placeholder="Ask anything about the Bible..."
+          />
+        </div>
 
         {/* Divider */}
         <div style={{ height: 1, background: "var(--border)", marginLeft: 20, marginRight: 20, flexShrink: 0 }} />
@@ -323,62 +248,8 @@ export default function AISearchModal({
           className="flex-1 overflow-y-auto px-5 py-4"
           style={{ minHeight: 0 }}
         >
-          {/* Loading — skeleton loader */}
-          {loading && (
-            <div>
-              {/* Skeleton AI answer card */}
-              <div
-                style={{
-                  padding: "18px 20px",
-                  borderRadius: 16,
-                  background: "var(--card)",
-                  border: "1px solid var(--border)",
-                  borderLeft: "3px solid var(--accent)",
-                  marginBottom: 14,
-                }}
-              >
-                <div className="flex items-center gap-2 mb-3">
-                  <div
-                    style={{ width: 14, height: 14, borderRadius: 4, backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite" }}
-                  />
-                  <div
-                    style={{ height: 10, width: 70, borderRadius: 99, backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", animationDelay: "0.1s" }}
-                  />
-                </div>
-                <div className="flex flex-col gap-2.5">
-                  <div style={{ height: 12, borderRadius: 99, backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "100%", animationDelay: "0.15s" }} />
-                  <div style={{ height: 12, borderRadius: 99, backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "88%", animationDelay: "0.25s" }} />
-                  <div style={{ height: 12, borderRadius: 99, backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "72%", animationDelay: "0.35s" }} />
-                </div>
-              </div>
-              {/* Skeleton verse cards */}
-              <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase" as const, color: "var(--secondary)", marginBottom: 8, fontFamily: "'DM Sans', sans-serif" }}>
-                <div style={{ height: 9, width: 110, borderRadius: 99, backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", animationDelay: "0.4s" }} />
-              </div>
-              {[0, 1].map((i) => (
-                <div
-                  key={i}
-                  style={{
-                    padding: "14px 16px",
-                    borderRadius: 14,
-                    backgroundColor: "var(--card)",
-                    border: "1px solid var(--border)",
-                    marginBottom: 10,
-                  }}
-                >
-                  <div style={{ height: 11, width: 100, borderRadius: 99, backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", marginBottom: 10, animationDelay: `${0.5 + i * 0.15}s` }} />
-                  <div style={{ height: 11, borderRadius: 99, backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "100%", marginBottom: 6, animationDelay: `${0.6 + i * 0.15}s` }} />
-                  <div style={{ height: 11, borderRadius: 99, backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "60%", animationDelay: `${0.7 + i * 0.15}s` }} />
-                </div>
-              ))}
-              <p
-                className="text-center text-[13px] mt-4 font-medium"
-                style={{ color: "var(--secondary)", fontFamily: "'DM Sans', sans-serif" }}
-              >
-                Searching the Bible...
-              </p>
-            </div>
-          )}
+          {/* Loading */}
+          {loading && <AISearchLoading />}
 
           {/* Error */}
           {error && !loading && (
@@ -398,126 +269,23 @@ export default function AISearchModal({
             </div>
           )}
 
-          {/* Results — fade in */}
-          {!loading && hasSearched && !error && (
-            <div style={{ animation: "fadeInResults 0.3s ease-out" }}>
-              {/* AI Answer */}
-              {answer && (
-                <div
-                  style={{
-                    padding: "18px 20px",
-                    borderRadius: 16,
-                    background: "var(--card)",
-                    border: "1px solid var(--border)",
-                    borderLeft: "3px solid var(--accent)",
-                    marginBottom: 16,
-                  }}
-                >
-                  <div className="flex items-center gap-2 mb-2.5">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="var(--accent)">
-                      <path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z" />
-                    </svg>
-                    <span
-                      style={{
-                        fontSize: 11,
-                        fontWeight: 800,
-                        letterSpacing: "0.08em",
-                        textTransform: "uppercase",
-                        color: "var(--accent)",
-                        fontFamily: "'DM Sans', sans-serif",
-                      }}
-                    >
-                      AI Answer
-                    </span>
-                  </div>
-                  <p
-                    style={{
-                      fontSize: 15,
-                      lineHeight: 1.75,
-                      color: "var(--foreground)",
-                      margin: 0,
-                      fontFamily: "'DM Sans', sans-serif",
-                    }}
-                  >
-                    {answer}
-                  </p>
-                </div>
-              )}
+          {/* Results */}
+          {!loading && hasSearched && !error && answer && (
+            <AISearchResponseCard
+              question={activeQuestion}
+              answer={answer}
+              verses={verses.map((v) => ({ reference: v.reference, text: v.text }))}
+              onVerseClick={handleVerseClick}
+            />
+          )}
 
-              {/* Supporting verses */}
-              {verses.length > 0 && (
-                <div>
-                  <p
-                    style={{
-                      fontSize: 11,
-                      fontWeight: 800,
-                      letterSpacing: "0.08em",
-                      textTransform: "uppercase",
-                      color: "var(--secondary)",
-                      marginBottom: 10,
-                      fontFamily: "'DM Sans', sans-serif",
-                    }}
-                  >
-                    Supporting Verses
-                  </p>
-                  <div className="flex flex-col gap-2.5">
-                    {verses.map((v, idx) => (
-                      <button
-                        key={idx}
-                        type="button"
-                        onClick={() => handleVerseClick(v)}
-                        className="w-full text-left active:scale-[0.99] transition-all"
-                        style={{
-                          padding: "14px 16px",
-                          borderRadius: 14,
-                          backgroundColor: "var(--card)",
-                          border: "1px solid var(--border)",
-                          cursor: "pointer",
-                        }}
-                      >
-                        <div
-                          style={{
-                            fontSize: 13,
-                            fontWeight: 700,
-                            color: "var(--accent)",
-                            marginBottom: 5,
-                            fontFamily: "'DM Sans', sans-serif",
-                          }}
-                        >
-                          {v.reference}
-                        </div>
-                        <p
-                          style={{
-                            fontSize: 14,
-                            margin: 0,
-                            color: "var(--foreground)",
-                            lineHeight: 1.65,
-                            fontFamily: "'DM Sans', sans-serif",
-                          }}
-                        >
-                          {v.text}
-                        </p>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* No results */}
-              {!answer && verses.length === 0 && (
-                <div className="text-center py-8">
-                  <p
-                    style={{
-                      fontSize: 14,
-                      color: "var(--secondary)",
-                      fontFamily: "'DM Sans', sans-serif",
-                    }}
-                  >
-                    No results found. Try rephrasing your question.
-                  </p>
-                </div>
-              )}
-            </div>
+          {/* No results */}
+          {!loading && hasSearched && !error && !answer && verses.length === 0 && (
+            <AISearchResponseCard
+              question={activeQuestion}
+              answer=""
+              verses={[]}
+            />
           )}
 
           {/* Empty state — before first search */}
