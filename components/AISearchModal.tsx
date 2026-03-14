@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { supabase } from "@/lib/supabase";
-import AISearchInput, { AISearchInputRef } from "@/components/AISearchInput";
+import AISearchInput, { AISearchInputRef, isBibleRelevant, NOT_BIBLE_MESSAGE } from "@/components/AISearchInput";
 import AISearchLoading from "@/components/AISearchLoading";
 import AISearchResponseCard from "@/components/AISearchResponseCard";
 
@@ -90,6 +90,18 @@ export default function AISearchModal({
   async function handleSearch(searchQuery?: string) {
     const trimmed = (searchQuery || query).trim();
     if (!trimmed) return;
+
+    // Client-side Bible relevance pre-check — skip API call for non-Bible queries
+    if (!isBibleRelevant(trimmed)) {
+      setQuery(trimmed);
+      setActiveQuestion(trimmed);
+      setAnswer(NOT_BIBLE_MESSAGE);
+      setVerses([]);
+      setHasSearched(true);
+      setLoading(false);
+      setError(null);
+      return;
+    }
 
     setQuery(trimmed);
     setActiveQuestion(trimmed);

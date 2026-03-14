@@ -141,10 +141,16 @@ function BibleAISearch({
               }
             }}
             placeholder="Ask ClearBible AI..."
-            className="flex-1 min-w-0 bg-transparent text-[14px] outline-none py-2.5 px-3"
+            className="flex-1 min-w-0 bg-transparent text-[14px] py-2.5 px-3"
             style={{
               color: "var(--foreground)",
               fontFamily: "'DM Sans', sans-serif",
+              border: "none",
+              outline: "none",
+              whiteSpace: "nowrap",
+              overflowX: "auto",
+              WebkitUserSelect: "text",
+              userSelect: "text" as const,
             }}
           />
           {searchQuery ? (
