@@ -28,7 +28,8 @@
    --error: #dc2626;
    --secondary: #8a8580;
    --muted: #b0a89e;
-   
+   --highlight: rgba(124, 92, 252, 0.25);
+
    /* Enhanced typography scale for better readability */
    --text-xs: 12px;
    --text-sm: 14px;
@@ -77,6 +78,7 @@
     --background-blur: rgba(26, 26, 26, 0.95);
     --secondary: #9ca3af;
     --muted: #6b7280;
+    --highlight: rgba(155, 130, 252, 0.35);
   }
 }
 
