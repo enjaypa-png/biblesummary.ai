@@ -121,7 +121,7 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
     }
 
     return (
-      <div>
+      <div style={{ position: "relative", zIndex: 1 }}>
         <style>{`
           @keyframes aiSearchPulse {
             0%, 100% { box-shadow: 0 0 12px rgba(124, 92, 252, 0.1), 0 2px 12px rgba(124, 92, 252, 0.08); }
@@ -164,12 +164,6 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
             border: none;
             outline: none !important;
             color: var(--foreground, #2a2520);
-            white-space: nowrap;
-            overflow-x: auto;
-            overflow-y: hidden;
-            text-overflow: clip;
-            -webkit-user-select: text;
-            user-select: text;
           }
           .ai-search-bar-input:focus,
           .ai-search-bar-input:focus-visible {
