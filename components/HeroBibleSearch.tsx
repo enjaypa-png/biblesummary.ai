@@ -1,26 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
-
-const DEMO_QUESTION = "Who was Samson?";
-
-const DEMO_ANSWER_SHORT =
-  "Samson was a judge of Israel known for his incredible strength, which God gave him to help defend Israel from the Philistines. His strength was tied to a Nazirite vow, meaning his hair was never to be cut.\n\nSamson performed many powerful acts. In one famous story, he killed 1,000 Philistine soldiers using only the jawbone of a donkey (Judges 15:15). Despite his strength, Samson often made poor choices, especially in relationships. Delilah eventually betrayed him, and his enemies captured him after cutting his hair.";
-
-const DEMO_ANSWER_MORE =
-  "At the end of his life, Samson prayed for strength one last time. While chained inside a Philistine temple, he pushed apart the two central pillars, collapsing the building and killing the Philistine rulers and many others inside. The Bible says he killed more Philistines in his death than during his life (Judges 16:30).\n\nSamson\u2019s story is about strength, failure, and redemption\u2014showing that even after serious mistakes, turning back to God still matters.";
-
-const DEMO_VERSES = [
-  {
-    reference: "Judges 13:24",
-    text: "The woman gave birth to a son and named him Samson. The boy grew up, and the LORD blessed him.",
-  },
-  {
-    reference: "Judges 16:30",
-    text: "Samson said, \u201CLet me die with the Philistines!\u201D Then he pushed with all his might, and down came the temple on the rulers and all the people in it.",
-  },
-];
+import AISearchModal from "@/components/AISearchModal";
 
 const SUGGESTION_CHIPS = [
   "Who was Moses?",
@@ -35,16 +17,30 @@ const STATS = [
 ];
 
 export default function HeroBibleSearch() {
-  const [showDemo, setShowDemo] = useState(false);
-  const [showMore, setShowMore] = useState(false);
-  const [activeQuestion, setActiveQuestion] = useState("");
+  const [inputValue, setInputValue] = useState("");
+  const [showModal, setShowModal] = useState(false);
+  const [modalQuery, setModalQuery] = useState("");
+  const [shakeInput, setShakeInput] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
 
-  const handleChipClick = (question: string) => {
-    setActiveQuestion(question);
-    setShowDemo(true);
-  };
+  function handleSubmit() {
+    const trimmed = inputValue.trim();
+    if (!trimmed) {
+      // Trigger shake animation on empty input
+      setShakeInput(true);
+      setTimeout(() => setShakeInput(false), 500);
+      inputRef.current?.focus();
+      return;
+    }
+    setModalQuery(trimmed);
+    setShowModal(true);
+  }
 
-  const displayQuestion = activeQuestion || DEMO_QUESTION;
+  function handleChipClick(question: string) {
+    setInputValue(question);
+    setModalQuery(question);
+    setShowModal(true);
+  }
 
   return (
     <>
@@ -68,6 +64,13 @@ export default function HeroBibleSearch() {
         @keyframes pulseGlowFocused {
           0%, 100% { box-shadow: 0 0 25px rgba(124, 92, 252, 0.3), 0 0 70px rgba(124, 92, 252, 0.15), 0 10px 40px rgba(18, 5, 65, 0.15); }
           50% { box-shadow: 0 0 40px rgba(124, 92, 252, 0.4), 0 0 90px rgba(124, 92, 252, 0.2), 0 10px 40px rgba(18, 5, 65, 0.15); }
+        }
+        @keyframes shakeInput {
+          0%, 100% { transform: translateX(0); }
+          20% { transform: translateX(-6px); }
+          40% { transform: translateX(6px); }
+          60% { transform: translateX(-4px); }
+          80% { transform: translateX(4px); }
         }
         .hero-search-layout {
           display: flex;
@@ -191,7 +194,6 @@ export default function HeroBibleSearch() {
           background-clip: padding-box;
           position: relative;
           padding: 5px 5px 5px 20px;
-          cursor: pointer;
           transition: all 0.3s ease;
           animation: pulseGlow 3s ease-in-out infinite;
         }
@@ -211,11 +213,14 @@ export default function HeroBibleSearch() {
         .hero-search-bar:hover {
           animation: pulseGlowFocused 2s ease-in-out infinite;
         }
-        .hero-search-bar.active::before {
+        .hero-search-bar:focus-within::before {
           opacity: 1;
         }
-        .hero-search-bar.active {
+        .hero-search-bar:focus-within {
           animation: pulseGlowFocused 2s ease-in-out infinite;
+        }
+        .hero-search-bar.shake {
+          animation: shakeInput 0.5s ease-in-out;
         }
         .hero-sparkle-icon {
           flex-shrink: 0;
@@ -223,23 +228,20 @@ export default function HeroBibleSearch() {
           align-items: center;
           color: #7c5cfc;
         }
-        .hero-search-text {
+        .hero-search-input {
           flex: 1;
           padding: 14px 12px;
           font-size: 15px;
           font-weight: 400;
           font-family: 'Inter', 'DM Sans', sans-serif;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
+          background: transparent;
+          border: none;
+          outline: none;
+          color: #2a2520;
         }
-        .hero-search-text.placeholder {
+        .hero-search-input::placeholder {
           color: #a09aaf;
           font-style: italic;
-        }
-        .hero-search-text.filled {
-          color: #2a2520;
-          font-style: normal;
         }
         .hero-ask-btn {
           padding: 12px 28px;
@@ -310,196 +312,35 @@ export default function HeroBibleSearch() {
               AI-Powered Bible Search
             </div>
 
-            <button
-              type="button"
-              onClick={() => {
-                if (!activeQuestion) setActiveQuestion("");
-                setShowDemo(!showDemo);
-              }}
-              className={`hero-search-bar ${showDemo ? "active" : ""}`}
+            <form
+              onSubmit={(e) => { e.preventDefault(); handleSubmit(); }}
+              className={`hero-search-bar ${shakeInput ? "shake" : ""}`}
             >
               <span className="hero-sparkle-icon">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
                 </svg>
               </span>
-              <span className={`hero-search-text ${showDemo ? "filled" : "placeholder"}`}>
-                {showDemo ? displayQuestion : "Ask anything about the Bible..."}
-              </span>
-              <span className="hero-ask-btn">
+              <input
+                ref={inputRef}
+                type="text"
+                value={inputValue}
+                onChange={(e) => setInputValue(e.target.value)}
+                placeholder={shakeInput ? "Type a question first\u2026" : "Ask anything about the Bible..."}
+                className="hero-search-input"
+              />
+              <button type="submit" className="hero-ask-btn">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
                 </svg>
-                {showDemo ? "Hide" : "Ask AI"}
-              </span>
-            </button>
+                Ask AI
+              </button>
+            </form>
 
             <div className="hero-search-subtitle">
               Get instant Bible answers with supporting verses.
             </div>
           </div>
-
-          {/* Demo answer card */}
-          {showDemo && (
-            <div
-              style={{
-                marginTop: 16,
-                animation: "slideDown 0.35s ease",
-              }}
-            >
-              {/* AI Answer */}
-              <div
-                style={{
-                  padding: "20px 22px",
-                  background: "linear-gradient(135deg, #f8f6ff 0%, #f0edff 100%)",
-                  borderRadius: 14,
-                  borderLeft: "3px solid #7c5cfc",
-                  marginBottom: 12,
-                }}
-              >
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 8,
-                    marginBottom: 10,
-                  }}
-                >
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="#7c5cfc">
-                    <path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z" />
-                  </svg>
-                  <span
-                    style={{
-                      fontSize: 12,
-                      fontWeight: 700,
-                      color: "#7c5cfc",
-                      letterSpacing: 0.8,
-                      textTransform: "uppercase" as const,
-                      fontFamily: "'DM Sans', sans-serif",
-                    }}
-                  >
-                    AI Answer
-                  </span>
-                </div>
-                <div
-                  style={{
-                    fontSize: 15,
-                    lineHeight: 1.75,
-                    color: "#4a4550",
-                    margin: 0,
-                    fontFamily: "'DM Sans', sans-serif",
-                  }}
-                >
-                  {DEMO_ANSWER_SHORT.split("\n\n").map((para, i) => (
-                    <p key={i} style={{ margin: i === 0 ? 0 : "12px 0 0" }}>{para}</p>
-                  ))}
-                  {!showMore && (
-                    <button
-                      type="button"
-                      onClick={(e) => { e.stopPropagation(); setShowMore(true); }}
-                      style={{
-                        display: "inline-block",
-                        marginTop: 10,
-                        padding: "6px 16px",
-                        fontSize: 13,
-                        fontWeight: 600,
-                        fontFamily: "'DM Sans', sans-serif",
-                        color: "#7c5cfc",
-                        background: "rgba(124, 92, 252, 0.08)",
-                        border: "1px solid rgba(124, 92, 252, 0.2)",
-                        borderRadius: 8,
-                        cursor: "pointer",
-                      }}
-                    >
-                      More
-                    </button>
-                  )}
-                  {showMore && DEMO_ANSWER_MORE.split("\n\n").map((para, i) => (
-                    <p key={`more-${i}`} style={{ margin: "12px 0 0" }}>{para}</p>
-                  ))}
-                </div>
-              </div>
-
-              {/* Supporting verses */}
-              <div
-                style={{
-                  padding: 14,
-                  borderRadius: 14,
-                  background: "#fff",
-                  border: "1px solid #e8e5e0",
-                }}
-              >
-                <div
-                  style={{
-                    fontSize: 11,
-                    fontWeight: 700,
-                    color: "#8a8580",
-                    letterSpacing: 0.8,
-                    textTransform: "uppercase" as const,
-                    fontFamily: "'DM Sans', sans-serif",
-                    marginBottom: 10,
-                  }}
-                >
-                  Supporting Verses
-                </div>
-                {DEMO_VERSES.map((v) => (
-                  <div
-                    key={v.reference}
-                    style={{
-                      padding: "10px 10px 12px",
-                      borderRadius: 10,
-                      border: "1px solid #eee7dd",
-                      background: "#fff",
-                      marginBottom: 8,
-                    }}
-                  >
-                    <div
-                      style={{
-                        fontSize: 13,
-                        fontWeight: 600,
-                        color: "#7c5cfc",
-                        marginBottom: 4,
-                        fontFamily: "'DM Sans', sans-serif",
-                      }}
-                    >
-                      {v.reference}
-                    </div>
-                    <p
-                      style={{
-                        fontSize: 13,
-                        margin: 0,
-                        color: "#3a3530",
-                        lineHeight: 1.6,
-                      }}
-                    >
-                      {v.text}
-                    </p>
-                  </div>
-                ))}
-              </div>
-
-              {/* CTA */}
-              <div style={{ textAlign: "center", marginTop: 16 }}>
-                <Link
-                  href="/signup"
-                  style={{
-                    display: "inline-block",
-                    padding: "12px 28px",
-                    fontSize: 14,
-                    fontWeight: 700,
-                    fontFamily: "'DM Sans', sans-serif",
-                    color: "#fff",
-                    background: "linear-gradient(135deg, #7c5cfc 0%, #5a3fd4 100%)",
-                    borderRadius: 50,
-                    textDecoration: "none",
-                    boxShadow: "0 4px 16px rgba(124,92,252,0.3)",
-                  }}
-                >
-                  Create a free account to ask your own questions
-                </Link>
-              </div>
-            </div>
-          )}
         </div>
 
         {/* Right side: Quick Stats card */}
@@ -515,6 +356,17 @@ export default function HeroBibleSearch() {
           </div>
         </div>
       </div>
+
+      {/* AI Search Modal */}
+      <AISearchModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        initialQuery={modalQuery}
+        onSelectVerse={(slug, chapter, verse) => {
+          setShowModal(false);
+          window.location.href = `/bible/${slug}/${chapter}?verse=${verse}`;
+        }}
+      />
     </>
   );
 }

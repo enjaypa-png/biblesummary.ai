@@ -240,7 +240,7 @@ export default function AISearchModal({
                 opacity: loading || !query.trim() ? 0.5 : 1,
               }}
             >
-              {loading ? "..." : "Search"}
+              {loading ? "Thinking\u2026" : "Search"}
             </button>
           </div>
         </form>
@@ -250,20 +250,54 @@ export default function AISearchModal({
           className="flex-1 overflow-y-auto px-4 pb-4"
           style={{ minHeight: 0 }}
         >
-          {/* Loading */}
+          {/* Loading — skeleton loader */}
           {loading && (
-            <div className="text-center py-8">
+            <div className="py-4">
+              <style>{`
+                @keyframes skeletonPulse {
+                  0%, 100% { opacity: 0.4; }
+                  50% { opacity: 0.8; }
+                }
+              `}</style>
+              {/* Skeleton AI answer card */}
               <div
-                className="inline-block w-6 h-6 border-2 rounded-full animate-spin mb-2"
+                className="rounded-xl mb-3 p-4"
                 style={{
-                  borderColor: "var(--border)",
-                  borderTopColor: "var(--accent)",
+                  background: "var(--background)",
+                  border: "1px solid var(--border)",
+                  borderLeftWidth: 3,
+                  borderLeftColor: "var(--accent)",
                 }}
-              />
-              <p
-                className="text-[13px]"
-                style={{ color: "var(--secondary)" }}
               >
+                <div className="flex items-center gap-2 mb-3">
+                  <div
+                    className="w-[13px] h-[13px] rounded-full"
+                    style={{ backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite" }}
+                  />
+                  <div
+                    className="h-[10px] w-[60px] rounded-full"
+                    style={{ backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", animationDelay: "0.1s" }}
+                  />
+                </div>
+                <div className="flex flex-col gap-2.5">
+                  <div className="h-[12px] rounded-full" style={{ backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "100%", animationDelay: "0.2s" }} />
+                  <div className="h-[12px] rounded-full" style={{ backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "92%", animationDelay: "0.3s" }} />
+                  <div className="h-[12px] rounded-full" style={{ backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "78%", animationDelay: "0.4s" }} />
+                </div>
+              </div>
+              {/* Skeleton verse cards */}
+              {[0, 1].map((i) => (
+                <div
+                  key={i}
+                  className="rounded-xl px-3 py-2.5 mb-2"
+                  style={{ backgroundColor: "var(--background)", border: "0.5px solid var(--border)" }}
+                >
+                  <div className="h-[11px] w-[90px] rounded-full mb-2" style={{ backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", animationDelay: `${0.5 + i * 0.2}s` }} />
+                  <div className="h-[11px] rounded-full mb-1.5" style={{ backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "100%", animationDelay: `${0.6 + i * 0.2}s` }} />
+                  <div className="h-[11px] rounded-full" style={{ backgroundColor: "var(--border)", animation: "skeletonPulse 1.5s ease-in-out infinite", width: "65%", animationDelay: `${0.7 + i * 0.2}s` }} />
+                </div>
+              ))}
+              <p className="text-center text-[13px] mt-3" style={{ color: "var(--secondary)" }}>
                 Searching the Bible...
               </p>
             </div>
@@ -282,9 +316,15 @@ export default function AISearchModal({
             </div>
           )}
 
-          {/* Results */}
+          {/* Results — fade in */}
           {!loading && hasSearched && !error && (
-            <>
+            <div style={{ animation: "fadeInResults 0.3s ease-out" }}>
+              <style>{`
+                @keyframes fadeInResults {
+                  from { opacity: 0; transform: translateY(6px); }
+                  to { opacity: 1; transform: translateY(0); }
+                }
+              `}</style>
               {/* AI Answer */}
               {answer && (
                 <div
@@ -377,7 +417,7 @@ export default function AISearchModal({
                   </p>
                 </div>
               )}
-            </>
+            </div>
           )}
 
         </div>
