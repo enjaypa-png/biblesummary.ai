@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, forwardRef, useImperativeHandle } from "react";
+import { useRef, useEffect, useCallback, forwardRef, useImperativeHandle } from "react";
 
 // ---------------------------------------------------------------------------
 // Bible-relevance pre-check (client-side, no API call)
@@ -109,19 +109,38 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
     { value, onChange, onSubmit, loading = false, placeholder = "Ask anything about the Bible...", showLabel = false },
     ref
   ) {
-    const inputRef = useRef<HTMLInputElement>(null);
+    const textareaRef = useRef<HTMLTextAreaElement>(null);
 
     useImperativeHandle(ref, () => ({
-      focus: () => inputRef.current?.focus(),
+      focus: () => textareaRef.current?.focus(),
     }));
+
+    // Auto-resize textarea to fit content
+    const autoResize = useCallback(() => {
+      const el = textareaRef.current;
+      if (!el) return;
+      el.style.height = "auto";
+      el.style.height = Math.min(el.scrollHeight, 120) + "px";
+    }, []);
+
+    useEffect(() => {
+      autoResize();
+    }, [value, autoResize]);
 
     function handleSubmit(e: React.FormEvent) {
       e.preventDefault();
       if (!loading && value.trim()) onSubmit();
     }
 
+    function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        if (!loading && value.trim()) onSubmit();
+      }
+    }
+
     return (
-      <div style={{ position: "relative", zIndex: 1 }}>
+      <div>
         <style>{`
           @keyframes aiSearchPulse {
             0%, 100% { box-shadow: 0 0 12px rgba(124, 92, 252, 0.1), 0 2px 12px rgba(124, 92, 252, 0.08); }
@@ -136,7 +155,7 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
           }
           .ai-search-bar-wrap {
             position: relative;
-            border-radius: 50px;
+            border-radius: 24px;
             padding: 2px;
             background: linear-gradient(135deg, #7c5cfc, #a78bfa, #c4b5fd, #7c5cfc);
             animation: aiSearchPulse 3s ease-in-out infinite;
@@ -147,36 +166,41 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
           }
           .ai-search-bar-inner {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             width: 100%;
-            border-radius: 48px;
+            border-radius: 22px;
             padding: 4px 4px 4px 16px;
             background: var(--card, #fff);
           }
-          .ai-search-bar-input {
+          .ai-search-bar-textarea {
             flex: 1;
             min-width: 0;
-            padding: 12px 12px;
+            padding: 10px 12px;
             font-size: 15px;
             font-weight: 400;
             font-family: 'Inter', 'DM Sans', sans-serif;
+            line-height: 1.4;
             background: transparent;
             border: none;
-            outline: none !important;
+            outline: none;
             color: var(--foreground, #2a2520);
+            resize: none;
+            overflow-y: auto;
+            max-height: 120px;
           }
-          .ai-search-bar-input:focus,
-          .ai-search-bar-input:focus-visible {
-            outline: none !important;
-            box-shadow: none !important;
-            border: none !important;
+          .ai-search-bar-textarea:focus,
+          .ai-search-bar-textarea:focus-visible {
+            outline: none;
+            box-shadow: none;
+            border: none;
           }
-          .ai-search-bar-input::placeholder {
+          .ai-search-bar-textarea::placeholder {
             color: var(--secondary, #a09aaf);
             font-style: italic;
           }
           .ai-search-bar-btn {
             flex-shrink: 0;
+            align-self: center;
             display: flex;
             align-items: center;
             gap: 6px;
@@ -227,19 +251,20 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
 
         <form onSubmit={handleSubmit} className="ai-search-bar-wrap">
           <div className="ai-search-bar-inner">
-            <span className="flex-shrink-0 flex items-center" style={{ color: "var(--accent, #7c5cfc)" }}>
+            <span className="flex-shrink-0 flex items-center" style={{ color: "var(--accent, #7c5cfc)", marginTop: 10 }}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
               </svg>
             </span>
 
-            <input
-              ref={inputRef}
-              type="text"
+            <textarea
+              ref={textareaRef}
+              rows={1}
               value={value}
               onChange={(e) => onChange(e.target.value)}
+              onKeyDown={handleKeyDown}
               placeholder={placeholder}
-              className="ai-search-bar-input"
+              className="ai-search-bar-textarea"
             />
 
             {value.trim() && (
@@ -247,7 +272,7 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
                 type="button"
                 onClick={() => onChange("")}
                 className="flex-shrink-0 p-1.5 mr-1 rounded-full active:opacity-70"
-                style={{ color: "var(--secondary, #888)" }}
+                style={{ color: "var(--secondary, #888)", alignSelf: "center" }}
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M18 6L6 18M6 6l12 12" />

@@ -1,12 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import { useReadingSettings, TRANSLATION_LABELS } from "@/contexts/ReadingSettingsContext";
 import AISearchModal from "@/components/AISearchModal";
-import AISearchInput, { AISearchInputRef } from "@/components/AISearchInput";
 
 interface Book {
   id: string;
@@ -18,71 +17,6 @@ interface Book {
 }
 
 type IndexTab = "books" | "chapters" | "verses";
-
-interface ParsedReference {
-  book: Book;
-  chapter: number;
-  verse: number | null;
-}
-
-function looksLikeQuestion(input: string): boolean {
-  const q = input.trim();
-  if (!q) return false;
-  if (q.includes("?")) return true;
-  const words = q.split(/\s+/);
-  return words.length >= 4;
-}
-
-function BibleAISearch({
-  searchQuery,
-  setSearchQuery,
-  parsedReference,
-  onGoToReference,
-  books,
-  onOpenAiSearch,
-  searchRef,
-}: {
-  searchQuery: string;
-  setSearchQuery: (value: string) => void;
-  parsedReference: ParsedReference | null;
-  onGoToReference: () => void;
-  books: Book[];
-  onOpenAiSearch: (query: string) => void;
-  searchRef?: React.RefObject<AISearchInputRef>;
-}) {
-  function handleSubmit() {
-    const q = searchQuery.trim();
-    if (!q) return;
-    if (parsedReference) {
-      onGoToReference();
-      return;
-    }
-    // If it's clearly just a short book-name filter (1-2 words, matches a book), let the list handle it
-    const lower = q.toLowerCase();
-    const words = q.split(/\s+/);
-    const matchesBook = books.some((b) => b.name.toLowerCase().startsWith(lower));
-    if (matchesBook && words.length <= 2) {
-      return;
-    }
-    // For anything else (questions, longer queries), open AI search modal
-    if (q.length >= 3) {
-      onOpenAiSearch(q);
-    }
-  }
-
-  return (
-    <div className="mt-4">
-      <AISearchInput
-        ref={searchRef}
-        value={searchQuery}
-        onChange={setSearchQuery}
-        onSubmit={handleSubmit}
-        placeholder="Ask ClearBible AI..."
-        showLabel
-      />
-    </div>
-  );
-}
 
 export default function BibleIndex({ books }: { books: Book[] }) {
   const router = useRouter();
@@ -97,18 +31,14 @@ export default function BibleIndex({ books }: { books: Book[] }) {
   const [verseCount, setVerseCount] = useState<number>(0);
   const [loadingVerses, setLoadingVerses] = useState(false);
 
-  // Search state
-  const [searchQuery, setSearchQuery] = useState("");
-  const searchInputRef = useRef<AISearchInputRef>(null);
-
-  // AI search modal state (lifted here so modal renders outside the header's stacking context)
+  // AI search modal state
   const [showAiModal, setShowAiModal] = useState(false);
   const [aiSearchQuery, setAiSearchQuery] = useState("");
 
-  // Auto-focus search input when navigating via "Ask AI" tab
+  // Open modal when navigating via "Ask AI" tab (?askai=1)
   useEffect(() => {
-    if (searchParams.get("askai") === "1" && searchInputRef.current) {
-      searchInputRef.current.focus();
+    if (searchParams.get("askai") === "1") {
+      setShowAiModal(true);
     }
   }, [searchParams]);
 
@@ -142,45 +72,6 @@ export default function BibleIndex({ books }: { books: Book[] }) {
   const oldTestament = books.filter((b) => b.testament === "Old");
   const newTestament = books.filter((b) => b.testament === "New");
   const allBooks = testament === "Old" ? oldTestament : newTestament;
-
-  // Parse search query for verse reference navigation (e.g., "Genesis 1:3", "Gen 1", "1 John 3:16")
-  const parsedReference: ParsedReference | null = useMemo(() => {
-    const q = searchQuery.trim();
-    if (!q) return null;
-
-    // Match patterns like "Genesis 1:3", "Gen 1", "1 John 3:16", "Song of Solomon 2:1"
-    // The book name can start with a number (1 Kings, 2 Chronicles) and contain spaces
-    // We look for a trailing number pattern: chapter or chapter:verse
-    const match = q.match(/^(.+?)\s+(\d+)(?::(\d+))?$/);
-    if (!match) return null;
-
-    const bookQuery = match[1].toLowerCase().trim();
-    const chapter = parseInt(match[2], 10);
-    const verse = match[3] ? parseInt(match[3], 10) : null;
-
-    // Find matching book across ALL books (not just current testament)
-    const matchedBook = books.find((b) => {
-      const name = b.name.toLowerCase();
-      // Exact match
-      if (name === bookQuery) return true;
-      // Starts-with match (e.g., "gen" matches "genesis")
-      if (name.startsWith(bookQuery)) return true;
-      return false;
-    });
-
-    if (!matchedBook) return null;
-    if (chapter < 1 || chapter > matchedBook.total_chapters) return null;
-
-    return { book: matchedBook, chapter, verse };
-  }, [searchQuery, books]);
-
-  // Filter books by search
-  const displayedBooks = useMemo(() => {
-    if (!searchQuery.trim()) return allBooks;
-    const q = searchQuery.toLowerCase().trim();
-    // If we have a parsed reference, also strip the chapter:verse part to filter books
-    return allBooks.filter((b) => b.name.toLowerCase().includes(q) || b.name.toLowerCase().startsWith(q.split(/\s+\d/)[0]));
-  }, [allBooks, searchQuery]);
 
   // Generate chapter numbers for selected book
   const chapters = selectedBook
@@ -223,7 +114,6 @@ export default function BibleIndex({ books }: { books: Book[] }) {
     setSelectedChapter(null);
     setVerseCount(0);
     setActiveTab("chapters");
-    setSearchQuery("");
     window.scrollTo(0, 0);
   }
 
@@ -238,17 +128,6 @@ export default function BibleIndex({ books }: { books: Book[] }) {
   function handleVerseSelect(verse: number) {
     if (!selectedBook || !selectedChapter) return;
     router.push(`/bible/${selectedBook.slug}/${selectedChapter}?verse=${verse}`);
-  }
-
-  // Handle navigating to a parsed reference from search
-  function handleGoToReference() {
-    if (!parsedReference) return;
-    const { book, chapter, verse } = parsedReference;
-    const url = verse
-      ? `/bible/${book.slug}/${chapter}?verse=${verse}`
-      : `/bible/${book.slug}/${chapter}`;
-    setSearchQuery("");
-    router.push(url);
   }
 
   // Handle back navigation
@@ -396,28 +275,116 @@ export default function BibleIndex({ books }: { books: Book[] }) {
             })}
           </div>
 
-          {/* Search + Testament toggle — sticky when on Books tab */}
+          {/* AI Search button + Testament toggle — only on Books tab */}
           {activeTab === "books" && (
             <>
-              <BibleAISearch
-                searchQuery={searchQuery}
-                setSearchQuery={setSearchQuery}
-                parsedReference={parsedReference}
-                onGoToReference={handleGoToReference}
-                books={books}
-                searchRef={searchInputRef}
-                onOpenAiSearch={(q) => {
-                  setAiSearchQuery(q);
-                  setShowAiModal(true);
-                  setSearchQuery("");
-                }}
-              />
+              {/* AI Search — clickable button that opens the modal */}
+              <div className="mt-4">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: 5,
+                    marginBottom: 10,
+                    fontSize: 10,
+                    fontWeight: 800,
+                    letterSpacing: "2px",
+                    textTransform: "uppercase",
+                    color: "var(--accent, #9b82fc)",
+                    fontFamily: "'Inter', 'DM Sans', sans-serif",
+                  }}
+                >
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z" />
+                  </svg>
+                  AI-Powered Bible Search
+                </div>
+
+                <style>{`
+                  @keyframes indexSearchPulse {
+                    0%, 100% { box-shadow: 0 0 12px rgba(124, 92, 252, 0.1), 0 2px 12px rgba(124, 92, 252, 0.08); }
+                    50% { box-shadow: 0 0 20px rgba(124, 92, 252, 0.18), 0 2px 12px rgba(124, 92, 252, 0.12); }
+                  }
+                  .index-search-pill {
+                    position: relative;
+                    border-radius: 50px;
+                    padding: 2px;
+                    background: linear-gradient(135deg, #7c5cfc, #a78bfa, #c4b5fd, #7c5cfc);
+                    animation: indexSearchPulse 3s ease-in-out infinite;
+                    transition: all 0.3s ease;
+                    width: 100%;
+                    border: none;
+                    cursor: pointer;
+                  }
+                  .index-search-pill:hover {
+                    box-shadow: 0 0 22px rgba(124, 92, 252, 0.2), 0 2px 10px rgba(124, 92, 252, 0.14);
+                  }
+                  .index-search-pill:active {
+                    transform: scale(0.99);
+                  }
+                  .index-search-inner {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    border-radius: 48px;
+                    padding: 4px 4px 4px 16px;
+                    background: var(--card, #fff);
+                  }
+                `}</style>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    setAiSearchQuery("");
+                    setShowAiModal(true);
+                  }}
+                  className="index-search-pill"
+                >
+                  <div className="index-search-inner">
+                    {/* Sparkle icon */}
+                    <span className="flex-shrink-0 flex items-center" style={{ color: "var(--accent, #7c5cfc)" }}>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
+                      </svg>
+                    </span>
+
+                    {/* Placeholder text */}
+                    <span
+                      className="flex-1 text-left text-[15px] py-3 px-3"
+                      style={{
+                        color: "var(--secondary, #a09aaf)",
+                        fontFamily: "'Inter', 'DM Sans', sans-serif",
+                        fontStyle: "italic",
+                      }}
+                    >
+                      Ask ClearBible AI...
+                    </span>
+
+                    {/* Ask AI button visual */}
+                    <span
+                      className="flex-shrink-0 flex items-center gap-1.5 px-5 py-2.5 rounded-full text-[13px] font-bold"
+                      style={{
+                        background: "linear-gradient(135deg, #7c5cfc 0%, #5a3fd4 100%)",
+                        color: "#fff",
+                        boxShadow: "0 2px 10px rgba(124, 92, 252, 0.3)",
+                        fontFamily: "'Inter', 'DM Sans', sans-serif",
+                      }}
+                    >
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M12 3l1.912 5.813L20 10.125l-4.85 3.987L16.888 20 12 16.65 7.112 20l1.738-5.875L4 10.125l6.088-1.312z" />
+                      </svg>
+                      Ask AI
+                    </span>
+                  </div>
+                </button>
+              </div>
 
               <div className="flex gap-0 mt-3 mb-2">
                 {(["Old", "New"] as const).map((t) => (
                   <button
                     key={t}
-                    onClick={() => { setTestament(t); setSearchQuery(""); }}
+                    onClick={() => setTestament(t)}
                     className="flex-1 pb-2.5 text-[15px] font-semibold tracking-wide relative transition-colors"
                     style={{
                       color: testament === t ? "var(--foreground)" : "var(--foreground-secondary)",
@@ -469,87 +436,50 @@ export default function BibleIndex({ books }: { books: Book[] }) {
 
         {/* Books Tab */}
         {activeTab === "books" && (
-          <>
-            {/* Go to reference card */}
-            {parsedReference && (
+          <div>
+            {allBooks.map((book, i) => (
               <button
-                onClick={handleGoToReference}
-                className="w-full flex items-center gap-3.5 mb-4 p-4 rounded-xl active:opacity-80 transition-opacity"
-                style={{ backgroundColor: "var(--accent)" }}
+                key={book.id}
+                onClick={() => handleBookSelect(book)}
+                className="w-full flex items-center justify-between px-3 py-[13px] text-left active:opacity-70 transition-opacity"
+                style={{
+                  borderBottom: i < allBooks.length - 1 ? "0.5px solid var(--border)" : "none",
+                }}
               >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
-                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-                </svg>
-                <div className="flex-1 min-w-0 text-left">
-                  <span className="block text-[11px] uppercase tracking-wider font-medium text-white/70">
-                    Go to
+                <div className="flex items-center gap-3.5 min-w-0">
+                  <span
+                    className="text-[12px] font-medium w-5 text-right tabular-nums"
+                    style={{ color: "var(--secondary)" }}
+                  >
+                    {book.order_index}
                   </span>
-                  <span className="block text-[16px] font-semibold text-white truncate">
-                    {parsedReference.book.name} {parsedReference.chapter}
-                    {parsedReference.verse ? `:${parsedReference.verse}` : ""}
-                  </span>
-                </div>
-                <svg width="7" height="12" viewBox="0 0 7 12" fill="none" className="flex-shrink-0">
-                  <path d="M1 1L6 6L1 11" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </button>
-            )}
-
-            {/* Book list */}
-            {displayedBooks.length === 0 && searchQuery ? (
-              <div className="py-12 text-center">
-                <p className="text-[15px]" style={{ color: "var(--secondary)" }}>
-                  No books match &ldquo;{searchQuery}&rdquo;
-                </p>
-              </div>
-            ) : (
-              <div>
-                {displayedBooks.map((book, i) => (
-                  <button
-                    key={book.id}
-                    onClick={() => handleBookSelect(book)}
-                    className="w-full flex items-center justify-between px-3 py-[13px] text-left active:opacity-70 transition-opacity"
+                  <span
+                    className="truncate font-semibold"
                     style={{
-                      borderBottom: i < displayedBooks.length - 1 ? "0.5px solid var(--border)" : "none",
+                      color: "var(--foreground)",
+                      fontSize: "17px",
                     }}
                   >
-                    <div className="flex items-center gap-3.5 min-w-0">
-                      <span
-                        className="text-[12px] font-medium w-5 text-right tabular-nums"
-                        style={{ color: "var(--secondary)" }}
-                      >
-                        {book.order_index}
-                      </span>
-                      <span
-                        className="truncate font-semibold"
-                        style={{
-                          color: "var(--foreground)",
-                          fontSize: "17px",
-                        }}
-                      >
-                        {book.name}
-                      </span>
-                    </div>
-                    <div
-                      className="flex items-center gap-1.5 flex-shrink-0 ml-2 px-3 py-1 rounded-full"
-                      style={{
-                        backgroundColor: "var(--card)",
-                        border: "0.5px solid var(--border)",
-                      }}
-                    >
-                      <span className="text-[13px] font-medium tabular-nums" style={{ color: "var(--secondary)" }}>
-                        {book.total_chapters} ch
-                      </span>
-                      <svg width="5" height="9" viewBox="0 0 6 10" fill="none">
-                        <path d="M1 1L5 5L1 9" stroke="var(--secondary)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </div>
-                  </button>
-                ))}
-              </div>
-            )}
-          </>
+                    {book.name}
+                  </span>
+                </div>
+                <div
+                  className="flex items-center gap-1.5 flex-shrink-0 ml-2 px-3 py-1 rounded-full"
+                  style={{
+                    backgroundColor: "var(--card)",
+                    border: "0.5px solid var(--border)",
+                  }}
+                >
+                  <span className="text-[13px] font-medium tabular-nums" style={{ color: "var(--secondary)" }}>
+                    {book.total_chapters} ch
+                  </span>
+                  <svg width="5" height="9" viewBox="0 0 6 10" fill="none">
+                    <path d="M1 1L5 5L1 9" stroke="var(--secondary)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+              </button>
+            ))}
+          </div>
         )}
 
         {/* Chapters Tab */}
@@ -608,14 +538,13 @@ export default function BibleIndex({ books }: { books: Book[] }) {
         )}
       </main>
 
-      {/* AI Search Modal — rendered outside header to avoid backdrop-filter stacking context */}
+      {/* AI Search Modal */}
       <AISearchModal
         isOpen={showAiModal}
         onClose={() => setShowAiModal(false)}
         initialQuery={aiSearchQuery}
         onSelectVerse={(slug, chapter, verse) => {
           setShowAiModal(false);
-          setSearchQuery("");
           router.push(`/bible/${slug}/${chapter}?verse=${verse}`);
         }}
       />
