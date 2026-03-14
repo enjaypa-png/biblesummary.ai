@@ -2,6 +2,94 @@
 
 import { useRef, forwardRef, useImperativeHandle } from "react";
 
+// ---------------------------------------------------------------------------
+// Bible-relevance pre-check (client-side, no API call)
+// ---------------------------------------------------------------------------
+
+const GREETINGS = new Set([
+  "hi", "hello", "hey", "howdy", "sup", "yo", "hola", "greetings",
+  "good morning", "good afternoon", "good evening", "good night",
+  "whats up", "what's up", "how are you", "how r u",
+]);
+
+const BIBLE_KEYWORDS = [
+  // books (abbreviated)
+  "genesis", "exodus", "leviticus", "numbers", "deuteronomy",
+  "joshua", "judges", "ruth", "samuel", "kings", "chronicles",
+  "ezra", "nehemiah", "esther", "job", "psalm", "psalms", "proverbs",
+  "ecclesiastes", "solomon", "isaiah", "jeremiah", "lamentations",
+  "ezekiel", "daniel", "hosea", "joel", "amos", "obadiah", "jonah",
+  "micah", "nahum", "habakkuk", "zephaniah", "haggai", "zechariah",
+  "malachi", "matthew", "mark", "luke", "john", "acts", "romans",
+  "corinthians", "galatians", "ephesians", "philippians", "colossians",
+  "thessalonians", "timothy", "titus", "philemon", "hebrews", "james",
+  "peter", "jude", "revelation",
+  // core topics
+  "bible", "scripture", "verse", "god", "jesus", "christ", "lord",
+  "holy spirit", "heaven", "hell", "sin", "grace", "faith", "prayer",
+  "pray", "church", "gospel", "salvation", "baptism", "resurrection",
+  "angel", "demon", "satan", "devil", "prophet", "apostle", "disciple",
+  "commandment", "covenant", "creation", "crucifixion", "cross",
+  "eden", "noah", "abraham", "moses", "david", "solomon", "paul",
+  "mary", "joseph", "adam", "eve", "israel", "jerusalem", "pharaoh",
+  "exodus", "passover", "pentecost", "sabbath", "temple", "tabernacle",
+  "ark", "flood", "miracle", "parable", "sermon", "mount", "beatitudes",
+  "tithe", "offering", "worship", "praise", "forgiveness", "repent",
+  "repentance", "atonement", "righteousness", "holy", "sacred",
+  "blessing", "blessed", "eternal", "soul", "spirit", "spiritual",
+  "testament", "old testament", "new testament", "theological",
+  "theology", "doctrine", "trinity", "omnipotent", "omniscient",
+  "redemption", "lamb", "shepherd", "vineyard", "prodigal",
+  "promised land", "ten commandments", "golden rule", "psalter",
+  "epistle", "revelation", "apocalypse", "rapture", "messiah",
+  "anoint", "anointed", "pharisee", "sadducee", "levite",
+  "priest", "king", "queen", "tribe", "twelve tribes",
+];
+
+const NON_BIBLE_RE =
+  /\b(password|hack|credit card|social security|ssn|bitcoin|crypto|stock market|recipe|weather|score|nfl|nba|mlb|fifa|concert|movie|netflix|tiktok|instagram|snapchat|facebook|twitter)\b/i;
+
+/**
+ * Quick client-side check: is the query plausibly about the Bible?
+ * Returns `true` if the query should be sent to the API.
+ */
+export function isBibleRelevant(raw: string): boolean {
+  const q = raw.trim().toLowerCase().replace(/['']/g, "'");
+
+  // Too short to be meaningful
+  if (q.length < 2) return false;
+
+  // Pure greeting
+  if (GREETINGS.has(q)) return false;
+
+  // Obvious non-Bible topic
+  if (NON_BIBLE_RE.test(q)) return false;
+
+  // Contains a Bible keyword → allow
+  for (const kw of BIBLE_KEYWORDS) {
+    if (q.includes(kw)) return true;
+  }
+
+  // Looks like a verse reference (e.g. "3:16", "John 3")
+  if (/\d+:\d+/.test(q)) return true;
+
+  // Question with 4+ words — give benefit of the doubt
+  if (q.split(/\s+/).length >= 4) return true;
+
+  // 2-3 words with no Bible signal — still allow (could be "love thy neighbor")
+  if (q.split(/\s+/).length >= 2) return true;
+
+  // Single non-keyword word
+  return false;
+}
+
+export const NOT_BIBLE_MESSAGE =
+  "This question doesn't appear to be about the Bible. Try asking about a Bible verse, person, event, or teaching.";
+
+// ---------------------------------------------------------------------------
+// Component
+// ---------------------------------------------------------------------------
+
 interface AISearchInputProps {
   value: string;
   onChange: (value: string) => void;
@@ -74,8 +162,19 @@ const AISearchInput = forwardRef<AISearchInputRef, AISearchInputProps>(
             font-family: 'Inter', 'DM Sans', sans-serif;
             background: transparent;
             border: none;
-            outline: none;
+            outline: none !important;
             color: var(--foreground, #2a2520);
+            white-space: nowrap;
+            overflow-x: auto;
+            text-overflow: clip;
+            -webkit-user-select: text;
+            user-select: text;
+          }
+          .ai-search-bar-input:focus,
+          .ai-search-bar-input:focus-visible {
+            outline: none !important;
+            box-shadow: none !important;
+            border: none !important;
           }
           .ai-search-bar-input::placeholder {
             color: var(--secondary, #a09aaf);
